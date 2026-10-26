@@ -1,0 +1,33 @@
+name: transcribe
+on:
+  push:
+    paths: ['heygen/transcribe.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install faster-whisper==1.0.3
+      - name: Word timestamps
+        run: |
+          python - <<'PY'
+          import json, os
+          from faster_whisper import WhisperModel
+          m = WhisperModel("small.en", device="cpu", compute_type="int8")
+          for name in open("heygen/transcribe.txt").read().split():
+              out = "heygen/" + name.rsplit(".",1)[0] + ".words.json"
+              if os.path.exists(out): continue
+              segs, _ = m.transcribe("heygen/"+name, word_timestamps=True, language="en")
+              words = [{"w": w.word.strip(), "s": round(w.start,2), "e": round(w.end,2)} for s in segs for w in s.words]
+              json.dump(words, open(out,"w"), indent=0)
+              print(name, " ".join(x["w"] for x in words))
+          PY
+      - run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add heygen/*.words.json
+          git diff --cached --quiet || (git commit -m "Word timestamps" && git pull --rebase && git push)
