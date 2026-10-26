@@ -1,7 +1,7 @@
 name: fetch-heygen
 on:
   push:
-    paths: ['heygen/fetch.txt', '.github/workflows/fetch.yml']
+    paths: ['heygen/fetch.txt', 'heygen/drive.txt', '.github/workflows/fetch.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,6 +20,15 @@ jobs:
             [ -z "$path" ] && continue
             curl -sSL --fail -o "heygen/$name" "https://resource2.heygen.ai/video/$path/1080x1920_nocap.mp4"
           done < heygen/fetch.txt
+          ls -la heygen
+      - name: Download public Drive files (name file_id)
+        run: |
+          touch heygen/drive.txt
+          while read -r name fid; do
+            [ -z "$name" ] && continue
+            [ -f "heygen/$name" ] && continue
+            curl -sSL --fail -o "heygen/$name" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t"
+          done < heygen/drive.txt
           ls -la heygen
       - name: Commit
         run: |
