@@ -1,7 +1,7 @@
 name: fetch-heygen
 on:
   push:
-    paths: ['heygen/fetch.txt']
+    paths: ['heygen/fetch.txt', '.github/workflows/fetch.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -10,16 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download listed files
+      - name: Download listed HeyGen videos (name video_id)
         run: |
-          while read -r name url; do
+          while read -r name vid; do
             [ -z "$name" ] && continue
             [ -f "heygen/$name" ] && continue
-            curl -sSL --fail -o "heygen/$name" "$url"
+            path=$(curl -sSL "https://app.heygen.com/videos/$vid" | grep -o "transcode/$vid/v[0-9a-f]\{32\}" | head -1)
+            echo "$name -> $path"
+            [ -z "$path" ] && continue
+            curl -sSL --fail -o "heygen/$name" "https://resource2.heygen.ai/video/$path/1080x1920_nocap.mp4"
           done < heygen/fetch.txt
+          ls -la heygen
       - name: Commit
         run: |
           git config user.name "reels-bot"
           git config user.email "reels-bot@users.noreply.github.com"
           git add heygen/*.mp4 || true
-          git diff --cached --quiet || (git commit -m "Fetch HeyGen clips" && git push)
+          git diff --cached --quiet || (git commit -m "Fetch HeyGen clips" && git pull --rebase && git push)
