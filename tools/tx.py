@@ -13,3 +13,4 @@ try:
 except Exception:
     open("heygen/tx.log", "w").write(traceback.format_exc())
     raise
+# rerun
