@@ -1,0 +1,25 @@
+name: fetch-heygen
+on:
+  push:
+    paths: ['heygen/fetch.txt']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download listed files
+        run: |
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            [ -f "heygen/$name" ] && continue
+            curl -sSL --fail -o "heygen/$name" "$url"
+          done < heygen/fetch.txt
+      - name: Commit
+        run: |
+          git config user.name "reels-bot"
+          git config user.email "reels-bot@users.noreply.github.com"
+          git add heygen/*.mp4 || true
+          git diff --cached --quiet || (git commit -m "Fetch HeyGen clips" && git push)
