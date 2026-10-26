@@ -1,0 +1,40 @@
+name: broll-proxy
+on:
+  push:
+    paths: ['broll/list.txt', 'broll/cuts.txt', '.github/workflows/broll.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  proxy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg > /dev/null
+      - name: Download originals, make proxies and HQ cuts
+        run: |
+          mkdir -p /tmp/src broll/proxy broll/cut
+          get() { [ -f "/tmp/src/$1" ] || curl -sSL --fail -o "/tmp/src/$1" "https://drive.usercontent.google.com/download?id=$2&export=download&confirm=t"; }
+          touch broll/cuts.txt
+          while read -r name fid; do
+            [ -z "$name" ] && continue
+            if [ ! -f "broll/proxy/$name.mp4" ]; then
+              get "$name" "$fid" || continue
+              ffmpeg -v error -y -i "/tmp/src/$name" -vf "scale=-2:360,fps=10" -an -c:v libx264 -crf 32 -preset veryfast "broll/proxy/$name.mp4"
+              ffprobe -v error -show_entries format=duration:stream=width,height -of csv=p=0 "/tmp/src/$name" > "broll/proxy/$name.info"
+            fi
+          done < broll/list.txt
+          # cuts: out name start duration (vertical 1080x1920 center crop, optional xoff fraction)
+          while read -r out name start dur xoff; do
+            [ -z "$out" ] && continue
+            [ -f "broll/cut/$out.mp4" ] && continue
+            fid=$(grep "^$name " broll/list.txt | awk '{print $2}')
+            get "$name" "$fid"
+            x=${xoff:-0.5}
+            ffmpeg -v error -y -ss "$start" -i "/tmp/src/$name" -t "$dur" -vf "scale=-2:1920,crop=1080:1920:(iw-1080)*$x:0,fps=30,format=yuv420p" -an -c:v libx264 -crf 20 -preset veryfast "broll/cut/$out.mp4"
+          done < broll/cuts.txt
+          ls -la broll/proxy broll/cut
+      - run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add -A broll
+          git diff --cached --quiet || (git commit -m "B-roll proxies and cuts" && git pull --rebase && git push)
