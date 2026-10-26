@@ -20,8 +20,8 @@ jobs:
             [ -z "$name" ] && continue
             if [ ! -f "broll/proxy/$name.mp4" ]; then
               get "$name" "$fid" || continue
-              ffmpeg -v error -y -i "/tmp/src/$name" -vf "scale=-2:360,fps=10" -an -c:v libx264 -crf 32 -preset veryfast "broll/proxy/$name.mp4"
-              ffprobe -v error -show_entries format=duration:stream=width,height -of csv=p=0 "/tmp/src/$name" > "broll/proxy/$name.info"
+              ffmpeg -nostdin -v error -y -i "/tmp/src/$name" -vf "scale=-2:360,fps=10" -an -c:v libx264 -crf 32 -preset veryfast "broll/proxy/$name.mp4"
+              ffprobe -v error -show_entries format=duration:stream=width,height -of csv=p=0 "/tmp/src/$name" < /dev/null > "broll/proxy/$name.info"
             fi
           done < broll/list.txt
           # cuts: out name start duration (vertical 1080x1920 center crop, optional xoff fraction)
@@ -31,7 +31,7 @@ jobs:
             fid=$(grep "^$name " broll/list.txt | awk '{print $2}')
             get "$name" "$fid"
             x=${xoff:-0.5}
-            ffmpeg -v error -y -ss "$start" -i "/tmp/src/$name" -t "$dur" -vf "scale=-2:1920,crop=1080:1920:(iw-1080)*$x:0,fps=30,format=yuv420p" -an -c:v libx264 -crf 20 -preset veryfast "broll/cut/$out.mp4"
+            ffmpeg -nostdin -v error -y -ss "$start" -i "/tmp/src/$name" -t "$dur" -vf "scale=-2:1920,crop=1080:1920:(iw-1080)*$x:0,fps=30,format=yuv420p" -an -c:v libx264 -crf 20 -preset veryfast "broll/cut/$out.mp4"
           done < broll/cuts.txt
           ls -la broll/proxy broll/cut
       - run: |
