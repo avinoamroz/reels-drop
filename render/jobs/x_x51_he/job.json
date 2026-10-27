@@ -2,6 +2,6 @@
  "id": "x_x51_he",
  "cmd": "cd /home/claude/express_1027/x_x51_he && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/express_1027/x_x51_he/out/reel.mp4",
- "sent": "2026-10-27T18:26:32Z",
+ "sent": "2026-10-27T23:16:13Z",
  "nfiles": 139
 }
