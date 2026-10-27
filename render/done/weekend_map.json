@@ -1,0 +1,8 @@
+{
+  "id": "weekend_map",
+  "ok": true,
+  "rc": "0",
+  "secs": "49",
+  "run": "40557778556",
+  "log": "[   4.4s] [sse] 109 words timed from Cartesia timestamps, k 0.9998\n[   4.5s] voice 39.31s, lines 0.30-2.25, 2.67-7.44, 7.86-14.73, 15.10-18.90, 19.32-25.90, 26.29-30.84, 31.29-34.03, 34.45-37.42, 37.72-39.31\n[   4.7s] timeline: 9 scenes, T_END 41.20s, warnings []\n[   7.6s] [mix] input -21.4 LUFS, gain +8.1 dB, 39 SFX -> /home/claude/daily_1027/weekend_map/out/work/mix.wav\n[   7.7s] [render] frame 0/1236  0s\n[  10.6s] [render] frame 150/1236  3s\n[  13.7s] [render] frame 300/1236  6s\n[  16.7s] [render] frame 450/1236  9s\n[  19.7s] [render] frame 600/1236  12s\n[  23.1s] [render] frame 750/1236  15s\n[  26.6s] [render] frame 900/1236  19s\n[  32.8s] [render] frame 1050/1236  25s\n[  36.0s] [render] frame 1200/1236  28s\n\nvideo 1080x1920 30/1 41.2s aac 48000 Hz: -14.1 LUFS, TP -2.1 dBTP, 4.84 MB (ok)\nweb 540x960 2.34 MB (ok), -14.1 LUFS, TP -2.1\nhook: ok (frame-0 text 5, motion 1.85)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.03s (ok)\nstages {'voice_align_s': 2.9, 'timeline_s': 0.2, 'mix_s': 2.9, 'render_s': 29.5, 'web_s': 7.6, 'qa_s': 3.7, 'total_s': 48.4}\n"
+}
