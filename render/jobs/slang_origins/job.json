@@ -2,6 +2,6 @@
  "id": "slang_origins",
  "cmd": "cd /home/claude/daily_1027/slang_origins && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/daily_1027/slang_origins/out/reel.mp4",
- "sent": "2026-10-27T18:11:21Z",
+ "sent": "2026-10-27T23:17:03Z",
  "nfiles": 139
 }
