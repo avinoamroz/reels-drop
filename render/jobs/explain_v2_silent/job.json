@@ -1,0 +1,7 @@
+{
+ "id": "explain_v2_silent",
+ "cmd": "python3 /home/claude/explain/v2/ex2.py",
+ "out": "/home/claude/explain/v2/ex2_silent.mp4",
+ "sent": "2026-10-27T15:24:30Z",
+ "nfiles": 40
+}
