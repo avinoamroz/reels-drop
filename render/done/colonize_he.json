@@ -1,0 +1,8 @@
+{
+  "id": "colonize_he",
+  "ok": true,
+  "rc": "0",
+  "secs": "63",
+  "run": "40557503365",
+  "log": "[   5.4s] [sse] 92 words timed from Cartesia timestamps, k 0.9999\n[   5.4s] voice 53.72s, lines 0.30-2.28, 2.67-8.91, 9.14-16.01, 16.26-21.66, 22.11-30.83, 31.25-40.31, 40.63-47.88, 48.25-51.72, 51.72-53.70\n[   5.6s] timeline: 9 scenes, T_END 55.20s, warnings []\n[  10.1s] [mix] input -21.9 LUFS, gain +8.8 dB, 27 SFX -> /home/claude/daily_1027/colonize_he/out/work/mix.wav\n[  10.3s] [render] frame 0/1656  0s\n[  13.9s] [render] frame 150/1656  4s\n[  17.9s] [render] frame 300/1656  8s\n[  22.1s] [render] frame 450/1656  12s\n[  25.9s] [render] frame 600/1656  16s\n[  29.2s] [render] frame 750/1656  19s\n[  32.8s] [render] frame 900/1656  23s\n[  36.1s] [render] frame 1050/1656  26s\n[  39.0s] [render] frame 1200/1656  29s\n[  41.8s] [render] frame 1350/1656  32s\n[  44.8s] [render] frame 1500/1656  35s\n[  47.7s] [render] frame 1650/1656  38s\n\nvideo 1080x1920 30/1 55.2s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 8.01 MB (ok)\nweb 540x960 3.5 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 5, motion 1.41)\ndashes: ok (0 replaced)\nlayout issues: 9\ncta hold 3.03s (ok)\nstages {'voice_align_s': 3.7, 'timeline_s': 0.2, 'mix_s': 4.5, 'render_s': 38.2, 'web_s': 10.5, 'qa_s': 4.8, 'total_s': 63.5}\n"
+}
