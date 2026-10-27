@@ -1,0 +1,101 @@
+name: render
+# Parallel reel rendering. A push that adds render/jobs/<id>/job.json (+ bundle.tgz)
+# starts one 4-core machine per job, up to 20 at once.
+on:
+  push:
+    paths: ['render/jobs/*/job.json']
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'space separated job ids to (re)render'
+        required: true
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.p.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: render/jobs
+      - id: p
+        run: |
+          if [ -n "${{ github.event.inputs.ids }}" ]; then
+            ids="${{ github.event.inputs.ids }}"
+          else
+            before="${{ github.event.before }}"
+            if git cat-file -e "$before" 2>/dev/null; then
+              ids=$(git diff --name-only "$before" "${{ github.sha }}" -- 'render/jobs/*/job.json' | cut -d/ -f3 | sort -u)
+            else
+              ids=$(git show --name-only --format= "${{ github.sha }}" -- 'render/jobs/*/job.json' | cut -d/ -f3 | sort -u)
+            fi
+          fi
+          json=$(printf '%s\n' $ids | grep -v '^$' | jq -R . | jq -sc .)
+          echo "ids=$json" >> "$GITHUB_OUTPUT"
+          echo "jobs: $json"
+  render:
+    needs: plan
+    if: needs.plan.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        id: ${{ fromJson(needs.plan.outputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: render/jobs/${{ matrix.id }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-inter fonts-liberation fonts-dejavu-core fonts-noto-color-emoji libcairo2 jq > /dev/null
+          pip install -q matplotlib numpy pillow shapely scipy cairosvg python-bidi num2words pyyaml
+      - name: Unpack and render
+        id: r
+        run: |
+          J=render/jobs/${{ matrix.id }}
+          sudo mkdir -p /home/claude /root/.fonts
+          sudo tar xzf "$J/bundle.tgz" -C /
+          sudo fc-cache -f > /dev/null
+          CMD=$(jq -r .cmd "$J/job.json"); OUT=$(jq -r .out "$J/job.json")
+          START=$(date +%s)
+          set +e
+          sudo -E env "PATH=$PATH" "pythonLocation=$pythonLocation" bash -c "cd /home/claude && $CMD" > /tmp/log.txt 2>&1
+          RC=$?
+          set -e
+          tail -60 /tmp/log.txt
+          echo "rc=$RC" >> "$GITHUB_OUTPUT"
+          echo "secs=$(( $(date +%s) - START ))" >> "$GITHUB_OUTPUT"
+          if [ $RC -eq 0 ] && sudo test -s "$OUT"; then
+            sudo cp "$OUT" "${{ matrix.id }}.mp4"; sudo chown runner "${{ matrix.id }}.mp4"
+            mkdir -p render/out
+            ffmpeg -nostdin -v error -y -i "${{ matrix.id }}.mp4" -vf scale=540:-2 -c:v libx264 -crf 30 -preset veryfast -c:a aac -b:a 96k "render/out/${{ matrix.id }}_540.mp4"
+            echo "ok=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=0" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Push result
+        if: always()
+        run: |
+          mkdir -p render/done
+          tail -c 4000 /tmp/log.txt 2>/dev/null | jq -Rs --arg id "${{ matrix.id }}" --arg ok "${{ steps.r.outputs.ok }}" --arg rc "${{ steps.r.outputs.rc }}" --arg secs "${{ steps.r.outputs.secs }}" --arg run "${{ github.run_id }}" \
+            '{id:$id, ok:($ok=="1"), rc:$rc, secs:$secs, run:$run, log:.}' > "render/done/${{ matrix.id }}.json"
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add --sparse "render/done/${{ matrix.id }}.json"
+          [ -f "${{ matrix.id }}.mp4" ] && git add --sparse "${{ matrix.id }}.mp4" "render/out/${{ matrix.id }}_540.mp4"
+          git commit -q -m "Rendered ${{ matrix.id }}"
+          for i in 1 2 3 4 5 6 7 8; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep $(( (RANDOM % 10) + 5 ))
+          done
+          exit 1
