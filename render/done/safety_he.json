@@ -1,0 +1,8 @@
+{
+  "id": "safety_he",
+  "ok": true,
+  "rc": "0",
+  "secs": "47",
+  "run": "40557503365",
+  "log": "[   4.3s] [sse] 87 words timed from Cartesia timestamps, k 0.9999\n[   4.3s] voice 41.39s, lines 0.30-1.83, 2.25-8.32, 8.74-14.11, 14.55-22.38, 22.80-26.26, 26.26-29.91, 30.24-39.11, 39.11-41.39\n[   4.5s] timeline: 8 scenes, T_END 42.57s, warnings []\n[   7.9s] [mix] input -22.1 LUFS, gain +8.9 dB, 36 SFX -> /home/claude/daily_1027/safety_he/out/work/mix.wav\n[   8.0s] [render] frame 0/1277  0s\n[  11.5s] [render] frame 150/1277  4s\n[  15.3s] [render] frame 300/1277  7s\n[  18.6s] [render] frame 450/1277  11s\n[  21.7s] [render] frame 600/1277  14s\n[  24.8s] [render] frame 750/1277  17s\n[  27.9s] [render] frame 900/1277  20s\n[  30.9s] [render] frame 1050/1277  23s\n[  33.7s] [render] frame 1200/1277  26s\n\nvideo 1080x1920 30/1 42.57s aac 48000 Hz: -14.0 LUFS, TP -1.8 dBTP, 5.12 MB (ok)\nweb 540x960 2.49 MB (ok), -14.0 LUFS, TP -1.8\nhook: ok (frame-0 text 5, motion 1.5)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.0s (ok)\nstages {'voice_align_s': 3.1, 'timeline_s': 0.2, 'mix_s': 3.4, 'render_s': 27.7, 'web_s': 7.9, 'qa_s': 3.9, 'total_s': 47.5}\n"
+}
