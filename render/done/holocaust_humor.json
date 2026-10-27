@@ -1,8 +1,0 @@
-{
-  "id": "holocaust_humor",
-  "ok": false,
-  "rc": "1",
-  "secs": "1",
-  "run": "40531250107",
-  "log": "Traceback (most recent call last):\n  File \"/home/claude/holocaust_humor/cloud/rk_render.py\", line 28, in <module>\n    else: render(*a[1:5])\n          ~~~~~~^^^^^^^^^\n  File \"/home/claude/holocaust_humor/cloud/rk_render.py\", line 22, in render\n    import render as RD\n  File \"/home/claude/holocaust_humor/cloud/render.py\", line 15, in <module>\n    import numpy as np, cairo\nModuleNotFoundError: No module named 'cairo'\n"
-}

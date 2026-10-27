@@ -1,7 +1,7 @@
 {
  "id": "holocaust_humor",
- "cmd": "cd /home/claude/holocaust_humor/v1 && python3 /home/claude/holocaust_humor/cloud/rk_render.py render /home/claude/holocaust_humor/v1/spec.json /home/claude/holocaust_humor/v1/out/timing.json /home/claude/holocaust_humor/v1/out/mix.wav /home/claude/holocaust_humor/v1/holocaust_humor.mp4",
+ "cmd": "(apt-get install -y -qq libcairo2-dev pkg-config > /dev/null 2>&1 || (apt-get update -qq && apt-get install -y -qq libcairo2-dev pkg-config > /dev/null)) && pip install -q pycairo && cd /home/claude/holocaust_humor/v1 && python3 /home/claude/holocaust_humor/cloud/rk_render.py render /home/claude/holocaust_humor/v1/spec.json /home/claude/holocaust_humor/v1/out/timing.json /home/claude/holocaust_humor/v1/out/mix.wav /home/claude/holocaust_humor/v1/holocaust_humor.mp4",
  "out": "/home/claude/holocaust_humor/v1/holocaust_humor.mp4",
- "sent": "2026-10-27T15:26:16Z",
+ "sent": "2026-10-27T15:46:51Z",
  "nfiles": 52
 }
