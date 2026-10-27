@@ -1,0 +1,8 @@
+{
+  "id": "slang_origins",
+  "ok": true,
+  "rc": "0",
+  "secs": "29",
+  "run": "40557778556",
+  "log": "[   2.7s] [sse] 77 words timed from Cartesia timestamps, k 0.9997\n[   2.8s] voice 28.61s, lines 0.30-3.68, 4.00-6.82, 6.94-9.89, 10.31-12.35, 12.77-15.57, 16.00-18.88, 19.30-22.93, 23.34-26.58, 27.00-28.59\n[   3.0s] timeline: 9 scenes, T_END 30.47s, warnings []\n[   4.7s] [mix] input -21.2 LUFS, gain +8.3 dB, 30 SFX -> /home/claude/daily_1027/slang_origins/out/work/mix.wav\n[   4.8s] [render] frame 0/914  0s\n[   7.3s] [render] frame 150/914  3s\n[  10.1s] [render] frame 300/914  5s\n[  13.5s] [render] frame 450/914  9s\n[  16.5s] [render] frame 600/914  12s\n[  18.9s] [render] frame 750/914  14s\n[  21.4s] [render] frame 900/914  17s\n\nvideo 1080x1920 30/1 30.47s aac 48000 Hz: -14.1 LUFS, TP -1.5 dBTP, 3.88 MB (ok)\nweb 540x960 1.84 MB (ok), -14.1 LUFS, TP -1.5\nhook: ok (frame-0 text 5, motion 1.37)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.02s (ok)\nstages {'voice_align_s': 1.8, 'timeline_s': 0.1, 'mix_s': 1.7, 'render_s': 17.3, 'web_s': 4.9, 'qa_s': 2.6, 'total_s': 29.4}\n"
+}
