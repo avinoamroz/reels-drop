@@ -1,0 +1,8 @@
+{
+  "id": "un_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "34",
+  "run": "40557503365",
+  "log": "[   3.3s] [sse] 100 words timed from Cartesia timestamps, k 0.9999\n[   3.4s] voice 38.25s, lines 0.30-3.88, 4.17-8.88, 9.12-13.41, 13.74-17.60, 18.02-20.81, 21.23-27.20, 27.59-35.42, 35.74-38.23\n[   3.5s] timeline: 6 scenes, T_END 39.20s, warnings []\n[   5.9s] [mix] input -21.4 LUFS, gain +8.2 dB, 10 SFX -> /home/claude/daily_1027/un_hook2/out/work/mix.wav\n[   6.0s] [render] frame 0/1176  0s\n[   8.4s] [render] frame 150/1176  3s\n[  10.9s] [render] frame 300/1176  5s\n[  13.2s] [render] frame 450/1176  7s\n[  15.5s] [render] frame 600/1176  10s\n[  18.0s] [render] frame 750/1176  12s\n[  20.5s] [render] frame 900/1176  15s\n[  22.9s] [render] frame 1050/1176  17s\n\nvideo 1080x1920 30/1 39.2s aac 48000 Hz: -14.0 LUFS, TP -2.0 dBTP, 3.89 MB (ok)\nweb 540x960 1.99 MB (ok), -14.0 LUFS, TP -2.0\nhook: ok (frame-0 text 6, motion 1.17)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.01s (ok)\nstages {'voice_align_s': 2.3, 'timeline_s': 0.0, 'mix_s': 2.4, 'render_s': 19.4, 'web_s': 6.1, 'qa_s': 2.9, 'total_s': 34.2}\n"
+}
