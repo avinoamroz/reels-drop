@@ -1,0 +1,8 @@
+{
+  "id": "x_express_10",
+  "ok": true,
+  "rc": "0",
+  "secs": "28",
+  "run": "40560063276",
+  "log": "[   2.4s] [sse] 76 words timed from Cartesia timestamps, k 0.9999\n[   2.5s] voice 40.04s, lines 0.30-5.49, 5.49-10.28, 10.61-13.58, 14.00-22.46, 22.80-26.84, 27.23-36.66, 36.66-40.04\n[   2.5s] timeline: 7 scenes, T_END 40.87s, warnings []\n[   4.5s] [mix] input -22.2 LUFS, gain +8.8 dB, 8 SFX -> /home/claude/express_1027/x_express_10/out/work/mix.wav\n[   4.6s] [render] frame 0/1226  0s\n[   6.4s] [render] frame 150/1226  2s\n[   8.4s] [render] frame 300/1226  4s\n[  10.4s] [render] frame 450/1226  6s\n[  12.2s] [render] frame 600/1226  8s\n[  14.1s] [render] frame 750/1226  10s\n[  15.9s] [render] frame 900/1226  11s\n[  17.8s] [render] frame 1050/1226  13s\n[  19.6s] [render] frame 1200/1226  15s\n\nvideo 1080x1920 30/1 40.87s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 4.0 MB (ok)\nweb 540x960 2.09 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 4, motion 1.31)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.75s (ok)\nstages {'voice_align_s': 1.7, 'timeline_s': 0.1, 'mix_s': 2.0, 'render_s': 15.7, 'web_s': 5.1, 'qa_s': 2.4, 'total_s': 27.7}\n"
+}
