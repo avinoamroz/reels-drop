@@ -1,0 +1,8 @@
+{
+  "id": "holocaust_humor",
+  "ok": true,
+  "rc": "0",
+  "secs": "45",
+  "run": "40534450470",
+  "log": "WARNING: The directory '/home/runner/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 26.2.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\n[render] frame 0/1648  0s\n[render] frame 150/1648  3s\n[render] frame 300/1648  6s\n[render] frame 450/1648  9s\n[render] frame 600/1648  12s\n[render] frame 750/1648  15s\n[render] frame 900/1648  17s\n[render] frame 1050/1648  20s\n[render] frame 1200/1648  23s\n[render] frame 1350/1648  26s\n[render] frame 1500/1648  29s\nrendered 32.9 s 1648 frames\n"
+}
