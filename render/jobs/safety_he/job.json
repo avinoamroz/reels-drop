@@ -1,0 +1,7 @@
+{
+ "id": "safety_he",
+ "cmd": "cd /home/claude/daily_1027/safety_he && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1027/safety_he/out/reel.mp4",
+ "sent": "2026-10-27T18:05:56Z",
+ "nfiles": 139
+}
