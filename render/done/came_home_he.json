@@ -1,0 +1,8 @@
+{
+  "id": "came_home_he",
+  "ok": true,
+  "rc": "0",
+  "secs": "52",
+  "run": "40559437563",
+  "log": "[   5.5s] [sse] 102 words timed from Cartesia timestamps, k 0.9999\n[   5.5s] voice 44.64s, lines 0.30-2.28, 2.61-8.35, 8.74-16.63, 17.05-20.68, 21.03-25.31, 25.31-32.04, 32.38-38.82, 38.94-41.79, 42.00-44.64\n[   5.7s] timeline: 9 scenes, T_END 45.47s, warnings []\n[   9.7s] [mix] input -21.0 LUFS, gain +7.6 dB, 13 SFX -> /home/claude/daily_1027/came_home_he/out/work/mix.wav\n[   9.8s] [render] frame 0/1364  0s\n[  12.8s] [render] frame 150/1364  3s\n[  15.8s] [render] frame 300/1364  6s\n[  18.9s] [render] frame 450/1364  9s\n[  21.9s] [render] frame 600/1364  12s\n[  25.2s] [render] frame 750/1364  16s\n[  28.5s] [render] frame 900/1364  19s\n[  31.7s] [render] frame 1050/1364  22s\n[  34.8s] [render] frame 1200/1364  25s\n[  37.9s] [render] frame 1350/1364  28s\n\nvideo 1080x1920 30/1 45.47s aac 48000 Hz: -14.0 LUFS, TP -1.9 dBTP, 4.47 MB (ok)\nweb 540x960 2.29 MB (ok), -14.0 LUFS, TP -1.9\nhook: ok (frame-0 text 6, motion 1.47)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.01s (ok)\nstages {'voice_align_s': 3.8, 'timeline_s': 0.2, 'mix_s': 4.0, 'render_s': 28.9, 'web_s': 9.9, 'qa_s': 4.0, 'total_s': 52.4}\n"
+}
