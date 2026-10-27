@@ -1,0 +1,8 @@
+{
+  "id": "x_identity_from",
+  "ok": true,
+  "rc": "0",
+  "secs": "39",
+  "run": "40560063276",
+  "log": "[   4.7s] [sse] 79 words timed from Cartesia timestamps, k 0.9998\n[   4.7s] voice 35.93s, lines 0.30-4.09, 4.54-8.45, 8.54-10.34, 10.76-14.33, 14.77-18.90, 19.32-24.03, 24.48-31.46, 31.88-35.92\n[   4.7s] timeline: 6 scenes, T_END 36.73s, warnings []\n[   7.3s] [mix] input -23.4 LUFS, gain +10.1 dB, 6 SFX -> /home/claude/express_1027/x_identity_from/out/work/mix.wav\n[   7.5s] [render] frame 0/1102  0s\n[  10.2s] [render] frame 150/1102  3s\n[  13.3s] [render] frame 300/1102  6s\n[  16.2s] [render] frame 450/1102  9s\n[  18.9s] [render] frame 600/1102  12s\n[  21.7s] [render] frame 750/1102  14s\n[  24.8s] [render] frame 900/1102  18s\n[  27.7s] [render] frame 1050/1102  20s\n\nvideo 1080x1920 30/1 36.73s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 3.37 MB (ok)\nweb 540x960 1.81 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 5, motion 1.51)\ndashes: ok (0 replaced)\nlayout issues: 10\ncta hold 4.4s (ok)\nstages {'voice_align_s': 2.8, 'timeline_s': 0.0, 'mix_s': 2.6, 'render_s': 21.8, 'web_s': 6.8, 'qa_s': 3.3, 'total_s': 39.3}\n"
+}
