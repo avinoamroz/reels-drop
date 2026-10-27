@@ -1,0 +1,8 @@
+{
+  "id": "jews_survive",
+  "ok": true,
+  "rc": "0",
+  "secs": "50",
+  "run": "40535246726",
+  "log": "\nRunning kernel seems to be up-to-date.\n\nRestarting services...\n systemctl restart packagekit.service php8.3-fpm.service polkit.service udisks2.service\n\nService restarts being deferred:\n systemctl restart ModemManager.service\n systemctl restart networkd-dispatcher.service\n\nNo containers need to be restarted.\n\nNo user sessions are running outdated binaries.\n\nNo VM guests are running outdated hypervisor (qemu) binaries on this host.\nWARNING: The directory '/home/runner/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n\n[notice] A new release of pip is available: 26.2.1 -> 26.2.2\n[notice] To update, run: pip install --upgrade pip\n[render] frame 0/1644  0s\n[render] frame 150/1644  3s\n[render] frame 300/1644  7s\n[render] frame 450/1644  10s\n[render] frame 600/1644  13s\n[render] frame 750/1644  17s\n[render] frame 900/1644  20s\n[render] frame 1050/1644  24s\n[render] frame 1200/1644  27s\n[render] frame 1350/1644  30s\n[render] frame 1500/1644  33s\nrendered 36.0 s 1644 frames\n"
+}
