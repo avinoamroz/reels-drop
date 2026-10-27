@@ -1,0 +1,8 @@
+{
+  "id": "israel_size",
+  "ok": true,
+  "rc": "0",
+  "secs": "49",
+  "run": "40557503365",
+  "log": "[   4.7s] [sse] 108 words timed from Cartesia timestamps, k 0.9998\n[   4.8s] voice 42.81s, lines 0.30-3.57, 3.99-10.52, 10.94-18.31, 18.75-23.41, 23.83-27.87, 28.29-30.43, 30.85-36.28, 36.70-39.90, 40.32-42.81\n[   5.0s] timeline: 8 scenes, T_END 43.80s, warnings []\n[   8.6s] [mix] input -21.4 LUFS, gain +8.0 dB, 18 SFX -> /home/claude/daily_1027/israel_size/out/work/mix.wav\n[   8.7s] [render] frame 0/1314  0s\n[  11.7s] [render] frame 150/1314  3s\n[  15.0s] [render] frame 300/1314  6s\n[  17.9s] [render] frame 450/1314  9s\n[  20.9s] [render] frame 600/1314  12s\n[  23.9s] [render] frame 750/1314  15s\n[  27.0s] [render] frame 900/1314  18s\n[  30.2s] [render] frame 1050/1314  22s\n[  33.2s] [render] frame 1200/1314  25s\n\nvideo 1080x1920 30/1 43.8s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 4.31 MB (ok)\nweb 540x960 2.24 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 5, motion 1.38)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.03s (ok)\nstages {'voice_align_s': 3.6, 'timeline_s': 0.2, 'mix_s': 3.5, 'render_s': 27.4, 'web_s': 8.0, 'qa_s': 3.9, 'total_s': 48.0}\n"
+}
