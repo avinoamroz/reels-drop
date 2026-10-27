@@ -1,0 +1,7 @@
+{
+ "id": "x_identity_from",
+ "cmd": "cd /home/claude/express_1027/x_identity_from && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_1027/x_identity_from/out/reel.mp4",
+ "sent": "2026-10-27T18:26:27Z",
+ "nfiles": 139
+}
