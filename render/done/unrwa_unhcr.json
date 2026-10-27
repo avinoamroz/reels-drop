@@ -1,0 +1,8 @@
+{
+  "id": "unrwa_unhcr",
+  "ok": true,
+  "rc": "0",
+  "secs": "32",
+  "run": "40600940587",
+  "log": "[   2.5s] [sse] 116 words timed from Cartesia timestamps, k 1.0000\n[   2.5s] voice 46.74s, lines 0.30-5.47, 5.89-9.67, 10.09-14.72, 15.15-18.12, 18.34-24.01, 24.43-29.52, 29.95-37.44, 37.86-43.49, 43.93-46.73\n[   2.6s] timeline: 8 scenes, T_END 47.57s, warnings []\n[   4.6s] [mix] input -21.2 LUFS, gain +8.0 dB, 13 SFX -> /home/claude/daily_1027/unrwa_unhcr/out/work/mix.wav\n[   4.7s] [render] frame 0/1427  0s\n[   6.4s] [render] frame 150/1427  2s\n[   8.4s] [render] frame 300/1427  4s\n[  10.3s] [render] frame 450/1427  6s\n[  12.4s] [render] frame 600/1427  8s\n[  14.3s] [render] frame 750/1427  10s\n[  16.1s] [render] frame 900/1427  12s\n[  18.0s] [render] frame 1050/1427  13s\n[  19.9s] [render] frame 1200/1427  15s\n[  21.7s] [render] frame 1350/1427  17s\n\nvideo 1080x1920 30/1 47.57s aac 48000 Hz: -14.0 LUFS, TP -1.8 dBTP, 5.2 MB (ok)\nweb 540x960 2.56 MB (ok), -14.0 LUFS, TP -1.8\nhook: ok (frame-0 text 7, motion 1.69)\ndashes: ok (0 replaced)\nlayout issues: 1\ncta hold 3.19s (ok)\nstages {'voice_align_s': 1.9, 'timeline_s': 0.1, 'mix_s': 2.0, 'render_s': 18.4, 'web_s': 5.8, 'qa_s': 2.8, 'total_s': 31.7}\n"
+}
