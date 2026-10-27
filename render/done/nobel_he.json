@@ -1,0 +1,8 @@
+{
+  "id": "nobel_he",
+  "ok": true,
+  "rc": "0",
+  "secs": "34",
+  "run": "40557503365",
+  "log": "[   3.4s] [sse] 63 words timed from Cartesia timestamps, k 0.9998\n[   3.4s] voice 27.84s, lines 0.30-5.19, 5.19-8.87, 9.29-11.18, 11.58-15.33, 15.68-22.24, 22.24-26.53, 26.82-27.84\n[   3.5s] timeline: 7 scenes, T_END 30.30s, warnings []\n[   6.3s] [mix] input -22.4 LUFS, gain +9.0 dB, 9 SFX -> /home/claude/daily_1027/nobel_he/out/work/mix.wav\n[   6.5s] [render] frame 0/909  0s\n[   9.2s] [render] frame 150/909  3s\n[  12.4s] [render] frame 300/909  6s\n[  15.6s] [render] frame 450/909  9s\n[  18.5s] [render] frame 600/909  12s\n[  21.6s] [render] frame 750/909  15s\n[  24.6s] [render] frame 900/909  18s\n\nvideo 1080x1920 30/1 30.3s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 3.05 MB (ok)\nweb 540x960 1.56 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 6, motion 1.27)\ndashes: ok (0 replaced)\nlayout issues: 1\ncta hold 3.03s (ok)\nstages {'voice_align_s': 2.3, 'timeline_s': 0.0, 'mix_s': 2.9, 'render_s': 18.9, 'web_s': 5.7, 'qa_s': 2.9, 'total_s': 33.9}\n"
+}
