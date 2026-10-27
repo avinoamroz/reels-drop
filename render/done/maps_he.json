@@ -1,0 +1,8 @@
+{
+  "id": "maps_he",
+  "ok": true,
+  "rc": "0",
+  "secs": "26",
+  "run": "40557503365",
+  "log": "[   2.4s] [sse] 79 words timed from Cartesia timestamps, k 0.9999\n[   2.4s] voice 34.22s, lines 0.30-3.88, 4.22-10.02, 10.27-13.15, 13.48-19.00, 19.00-21.78, 21.78-26.86, 27.28-31.99, 32.35-34.21\n[   2.5s] timeline: 8 scenes, T_END 35.83s, warnings []\n[   4.0s] [mix] input -22.6 LUFS, gain +9.7 dB, 11 SFX -> /home/claude/daily_1027/maps_he/out/work/mix.wav\n[   4.1s] [render] frame 0/1075  0s\n[   6.0s] [render] frame 150/1075  2s\n[   8.2s] [render] frame 300/1075  4s\n[  10.2s] [render] frame 450/1075  6s\n[  12.4s] [render] frame 600/1075  8s\n[  14.4s] [render] frame 750/1075  10s\n[  16.3s] [render] frame 900/1075  12s\n[  18.3s] [render] frame 1050/1075  14s\n\nvideo 1080x1920 30/1 35.83s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 4.08 MB (ok)\nweb 540x960 2.02 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 6, motion 1.51)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.03s (ok)\nstages {'voice_align_s': 1.5, 'timeline_s': 0.1, 'mix_s': 1.5, 'render_s': 14.9, 'web_s': 4.7, 'qa_s': 2.2, 'total_s': 25.7}\n"
+}
