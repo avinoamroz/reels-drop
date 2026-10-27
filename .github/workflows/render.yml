@@ -57,9 +57,11 @@ jobs:
           python-version: '3.13'
       - name: Install tools
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-inter fonts-liberation fonts-dejavu-core fonts-noto-color-emoji libcairo2 libsndfile1 jq > /dev/null
-          pip install -q matplotlib numpy pillow shapely scipy cairosvg python-bidi num2words pyyaml soundfile librosa pydub opencv-python-headless imageio imageio-ffmpeg moviepy arabic-reshaper fonttools requests
+          for i in 1 2 3; do
+            sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-liberation fonts-dejavu-core fonts-noto-color-emoji libcairo2 libsndfile1 jq > /dev/null && break
+            sleep 20
+          done
+          pip install -q --retries 5 matplotlib numpy pillow shapely scipy cairosvg python-bidi num2words pyyaml soundfile librosa pydub opencv-python-headless imageio imageio-ffmpeg moviepy arabic-reshaper fonttools requests
       - name: Unpack and render
         id: r
         run: |
