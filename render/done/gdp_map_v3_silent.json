@@ -1,0 +1,8 @@
+{
+  "id": "gdp_map_v3_silent",
+  "ok": true,
+  "rc": "0",
+  "secs": "346",
+  "run": "40555990403",
+  "log": "/home/claude/gdp_map/engine_gdp_v3.py:194: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)\n  BG = Image.fromarray((g * np.ones((1, W * S, 1))).astype(np.uint8), \"RGBA\")\n/home/claude/gdp_map/engine_gdp_v3.py:92: DeprecationWarning: 'mode' parameter is deprecated and will be removed in Pillow 13 (2026-10-15)\n  arr = np.array(im); arr[:, :, 3:4] = (arr[:, :, 3:4].astype(float) * a[:, :, None]).astype(np.uint8); return Image.fromarray(arr, \"RGBA\")\nframe 0/2086\nframe 300/2086\nframe 600/2086\nframe 900/2086\nframe 1200/2086\nnote: shrunk 'IMF WEO Apr 2026 real growth minus World Bank population growth, on Maddison 2022. No IMF data: Syria after 2022.' 22->19\nframe 1500/2086\nframe 1800/2086\nvideo /home/claude/gdp_map/gdp_map_v3_silent.mp4 69.6s\n"
+}
