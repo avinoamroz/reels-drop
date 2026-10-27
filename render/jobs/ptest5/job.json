@@ -1,0 +1,7 @@
+{
+ "id": "ptest5",
+ "cmd": "python3 /home/claude/pop_narrated/engine_nar.py /home/claude/pop_narrated/cfg_nar.py",
+ "out": "/home/claude/pop_narrated/nar_silent.mp4",
+ "sent": "2026-10-27T14:59:23Z",
+ "nfiles": 61
+}
