@@ -1,0 +1,8 @@
+{
+  "id": "citynames_he",
+  "ok": true,
+  "rc": "0",
+  "secs": "42",
+  "run": "40557503365",
+  "log": "[   5.4s] [sse] 81 words timed from Cartesia timestamps, k 0.9998\n[   5.4s] voice 36.87s, lines 0.30-3.44, 3.44-8.89, 8.89-13.07, 13.07-14.97, 15.37-21.49, 21.91-29.85, 30.27-34.77, 35.17-36.86\n[   5.4s] timeline: 8 scenes, T_END 38.63s, warnings []\n[   8.7s] [mix] input -21.1 LUFS, gain +8.3 dB, 12 SFX -> /home/claude/daily_1027/citynames_he/out/work/mix.wav\n[   8.9s] [render] frame 0/1159  0s\n[  11.7s] [render] frame 150/1159  3s\n[  14.8s] [render] frame 300/1159  6s\n[  17.7s] [render] frame 450/1159  9s\n[  20.7s] [render] frame 600/1159  12s\n[  23.6s] [render] frame 750/1159  15s\n[  26.5s] [render] frame 900/1159  18s\n[  29.5s] [render] frame 1050/1159  21s\n\nvideo 1080x1920 30/1 38.63s aac 48000 Hz: -14.2 LUFS, TP -1.9 dBTP, 3.73 MB (ok)\nweb 540x960 1.94 MB (ok), -14.2 LUFS, TP -1.9\nhook: ok (frame-0 text 6, motion 1.23)\ndashes: ok (0 replaced)\nlayout issues: 9\ncta hold 3.01s (ok)\nstages {'voice_align_s': 3.5, 'timeline_s': 0.1, 'mix_s': 3.3, 'render_s': 23.2, 'web_s': 7.0, 'qa_s': 3.4, 'total_s': 42.4}\n"
+}
