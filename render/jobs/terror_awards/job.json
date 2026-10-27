@@ -2,6 +2,6 @@
  "id": "terror_awards",
  "cmd": "(apt-get install -y -qq libcairo2-dev pkg-config > /dev/null 2>&1 || (apt-get update -qq && apt-get install -y -qq libcairo2-dev pkg-config > /dev/null)) && pip install -q pycairo && cd /home/claude/terror_awards/v3 && python3 /home/claude/holocaust_humor/cloud/rk_render.py render /home/claude/terror_awards/v3/spec.json /home/claude/terror_awards/v3/out/timing.json /home/claude/terror_awards/v3/out/mix.wav /home/claude/terror_awards/v3/terror_awards.mp4",
  "out": "/home/claude/terror_awards/v3/terror_awards.mp4",
- "sent": "2026-10-27T15:46:54Z",
+ "sent": "2026-10-27T15:55:17Z",
  "nfiles": 52
 }
