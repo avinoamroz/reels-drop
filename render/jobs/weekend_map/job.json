@@ -1,0 +1,7 @@
+{
+ "id": "weekend_map",
+ "cmd": "cd /home/claude/daily_1027/weekend_map && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1027/weekend_map/out/reel.mp4",
+ "sent": "2026-10-27T18:11:20Z",
+ "nfiles": 139
+}
