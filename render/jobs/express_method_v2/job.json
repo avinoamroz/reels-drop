@@ -1,0 +1,7 @@
+{
+ "id": "express_method_v2",
+ "cmd": "python3 /home/claude/express_method/render.py --out /home/claude/express_method/express_method_v2.mp4",
+ "out": "/home/claude/express_method/express_method_v2.mp4",
+ "sent": "2026-10-27T15:03:42Z",
+ "nfiles": 166
+}
