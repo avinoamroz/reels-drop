@@ -1,0 +1,7 @@
+{
+ "id": "gdp_map_v3_silent",
+ "cmd": "(apt-get install -y -qq libfribidi0 libraqm0 >/dev/null 2>&1 || true) && python3 -c 'from PIL import features; assert features.check(\"raqm\"), \"no raqm\"' && cd /home/claude/gdp_map && python3 engine_gdp_v3.py cfg_gdp_map_v3.py --silent",
+ "out": "/home/claude/gdp_map/gdp_map_v3_silent.mp4",
+ "sent": "2026-10-27T18:00:51Z",
+ "nfiles": 290
+}
