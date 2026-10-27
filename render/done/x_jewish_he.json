@@ -1,0 +1,8 @@
+{
+  "id": "x_jewish_he",
+  "ok": true,
+  "rc": "0",
+  "secs": "38",
+  "run": "40600966595",
+  "log": "[   5.1s] [sse] 65 words timed from Cartesia timestamps, k 0.9998\n[   5.1s] voice 34.19s, lines 0.30-3.77, 4.19-7.36, 7.78-9.11, 9.53-11.17, 11.59-14.53, 14.95-16.64, 17.02-18.76, 19.18-24.60, 25.02-31.09, 31.09-34.18\n[   5.3s] timeline: 6 scenes, T_END 35.00s, warnings []\n[   7.8s] [mix] input -21.6 LUFS, gain +8.5 dB, 6 SFX -> /home/claude/express_1027/x_jewish_he/out/work/mix.wav\n[   8.0s] [render] frame 0/1050  0s\n[  10.9s] [render] frame 150/1050  3s\n[  14.1s] [render] frame 300/1050  6s\n[  16.8s] [render] frame 450/1050  9s\n[  19.7s] [render] frame 600/1050  12s\n[  22.5s] [render] frame 750/1050  15s\n[  25.5s] [render] frame 900/1050  18s\n\nvideo 1080x1920 30/1 35.0s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 3.37 MB (ok)\nweb 540x960 1.78 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 5, motion 1.85)\ndashes: ok (0 replaced)\nlayout issues: 2\ncta hold 3.46s (ok)\nstages {'voice_align_s': 3.6, 'timeline_s': 0.2, 'mix_s': 2.5, 'render_s': 21.0, 'web_s': 6.4, 'qa_s': 3.1, 'total_s': 38.3}\n"
+}
