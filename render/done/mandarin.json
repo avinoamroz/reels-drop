@@ -1,0 +1,8 @@
+{
+  "id": "mandarin",
+  "ok": true,
+  "rc": "0",
+  "secs": "31",
+  "run": "40535665855",
+  "log": "WARNING: The directory '/home/runner/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[render] frame 0/1331  0s\n[render] frame 150/1331  2s\n[render] frame 300/1331  4s\n[render] frame 450/1331  6s\n[render] frame 600/1331  9s\n[render] frame 750/1331  11s\n[render] frame 900/1331  13s\n[render] frame 1050/1331  15s\n[render] frame 1200/1331  17s\nrendered 19.5 s 1331 frames\n"
+}
