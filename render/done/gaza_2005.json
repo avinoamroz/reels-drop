@@ -1,0 +1,8 @@
+{
+  "id": "gaza_2005",
+  "ok": true,
+  "rc": "0",
+  "secs": "41",
+  "run": "40661860309",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.1s] [sse] 109 words timed from Cartesia timestamps, k 0.9998\n[   4.1s] voice 40.31s, lines 0.30-4.88, 5.30-12.08, 12.47-13.71, 14.16-20.12, 20.54-23.70, 24.15-32.04, 32.46-36.84, 37.26-40.30\n[   4.2s] timeline: 8 scenes, T_END 41.13s, warnings []\n[   6.8s] [mix] input -21.5 LUFS, gain +8.0 dB, 10 SFX -> /home/claude/daily_1028/gaza_2005/out/work/mix.wav\n[   7.0s] [render] frame 0/1234  0s\n[   9.8s] [render] frame 150/1234  3s\n[  12.5s] [render] frame 300/1234  6s\n[  15.4s] [render] frame 450/1234  9s\n[  18.2s] [render] frame 600/1234  11s\n[  21.1s] [render] frame 750/1234  14s\n[  23.7s] [render] frame 900/1234  17s\n[  26.6s] [render] frame 1050/1234  20s\n[  29.4s] [render] frame 1200/1234  23s\n\nvideo 1080x1920 30/1 41.13s aac 48000 Hz: -14.0 LUFS, TP -1.1 dBTP, 4.28 MB (CHECK)\nweb 540x960 2.14 MB (ok), -14.0 LUFS, TP -1.1\nhook: ok (frame-0 text 5, motion 1.28)\ndashes: ok (0 replaced)\nlayout issues: 17\ncta hold 3.42s (ok)\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 2.7, 'render_s': 23.8, 'web_s': 7.1, 'qa_s': 3.3, 'total_s': 41.0}\n"
+}
