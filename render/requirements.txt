@@ -1,0 +1,17 @@
+pycairo
+matplotlib
+numpy
+pillow
+shapely
+scipy
+cairosvg
+python-bidi
+num2words
+pyyaml
+soundfile
+pydub
+imageio
+imageio-ffmpeg
+arabic-reshaper
+fonttools
+requests
