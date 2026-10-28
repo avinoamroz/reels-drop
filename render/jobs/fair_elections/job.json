@@ -1,0 +1,7 @@
+{
+ "id": "fair_elections",
+ "cmd": "cd /home/claude/fair_elections && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/fair_elections/out/reel.mp4",
+ "sent": "2026-10-28T09:01:57Z",
+ "nfiles": 139
+}
