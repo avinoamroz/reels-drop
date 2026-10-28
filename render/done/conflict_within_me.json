@@ -1,0 +1,8 @@
+{
+  "id": "conflict_within_me",
+  "ok": true,
+  "rc": "0",
+  "secs": "62",
+  "run": "40683239656",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   7.0s] [sse] 154 words timed from Cartesia timestamps, k 0.9999\n[   7.0s] voice 50.27s, lines 0.30-5.16, 5.49-7.95, 8.37-13.68, 14.10-18.03, 18.09-20.80, 21.23-25.97, 26.34-30.82, 31.23-33.37, 33.78-35.64, 36.06-40.65, 41.07-45.26, 45.68-48.80, 49.22-50.27\n[   7.3s] timeline: 10 scenes, T_END 52.67s, warnings []\n[  10.3s] [mix] input -21.2 LUFS, gain +7.9 dB, 10 SFX -> /home/claude/conflict_within_me/out/work/mix.wav\n[  10.6s] [render] frame 0/1580  0s\n[  13.8s] [render] frame 150/1580  3s\n[  17.2s] [render] frame 300/1580  7s\n[  20.8s] [render] frame 450/1580  10s\n[  24.8s] [render] frame 600/1580  14s\n[  27.7s] [render] frame 750/1580  17s\n[  30.8s] [render] frame 900/1580  20s\n[  34.1s] [render] frame 1050/1580  24s\n[  37.5s] [render] frame 1200/1580  27s\n[  40.8s] [render] frame 1350/1580  30s\n[  44.1s] [render] frame 1500/1580  34s\n\nvideo 1080x1920 30/1 52.67s aac 48000 Hz: -14.1 LUFS, TP -2.1 dBTP, 7.03 MB (ok)\nweb 540x960 3.18 MB (ok), -14.1 LUFS, TP -2.1\nhook: ok (frame-0 text 11, motion 2.43)\ndashes: ok (0 replaced)\nlayout issues: 20\ncta hold 3.0s (ok)\nstages {'voice_align_s': 4.8, 'timeline_s': 0.3, 'mix_s': 3.0, 'render_s': 36.0, 'web_s': 11.1, 'qa_s': 4.1, 'total_s': 61.6}\n"
+}
