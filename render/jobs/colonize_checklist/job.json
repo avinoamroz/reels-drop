@@ -1,0 +1,7 @@
+{
+ "id": "colonize_checklist",
+ "cmd": "cd /home/claude/daily_1028/colonize_checklist && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1028/colonize_checklist/out/reel.mp4",
+ "sent": "2026-10-28T09:07:27Z",
+ "nfiles": 139
+}
