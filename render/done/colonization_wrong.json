@@ -1,0 +1,8 @@
+{
+  "id": "colonization_wrong",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "40685143392",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.9s] [sse] 152 words timed from Cartesia timestamps, k 0.9999\n[   4.0s] voice 56.89s, lines 0.30-1.54, 1.99-7.34, 7.79-9.54, 9.85-13.49, 13.79-18.71, 19.01-24.07, 24.35-29.74, 30.04-33.08, 33.83-34.37, 34.97-38.64, 39.24-40.64, 41.04-44.23, 44.78-54.46, 55.01-56.88\n[   4.1s] timeline: 12 scenes, T_END 59.30s, warnings []\n[   6.6s] [mix] input -22.8 LUFS, gain +9.8 dB, 11 SFX -> /home/claude/colonization_wrong/out/work/mix.wav\n[   6.7s] [render] frame 0/1779  0s\n[   9.1s] [render] frame 150/1779  2s\n[  11.3s] [render] frame 300/1779  5s\n[  13.2s] [render] frame 450/1779  7s\n[  15.3s] [render] frame 600/1779  9s\n[  17.2s] [render] frame 750/1779  11s\n[  19.5s] [render] frame 900/1779  13s\n[  21.5s] [render] frame 1050/1779  15s\n[  23.6s] [render] frame 1200/1779  17s\n[  25.5s] [render] frame 1350/1779  19s\n[  27.5s] [render] frame 1500/1779  21s\n[  29.5s] [render] frame 1650/1779  23s\n\nvideo 1080x1920 30/1 59.3s aac 48000 Hz: -14.1 LUFS, TP -1.5 dBTP, 6.54 MB (ok)\nweb 540x960 3.04 MB (ok), -14.1 LUFS, TP -1.5\nhook: ok (frame-0 text 9, motion 2.47)\ndashes: ok (0 replaced)\nlayout issues: 8\nstages {'voice_align_s': 2.7, 'timeline_s': 0.2, 'mix_s': 2.5, 'render_s': 24.8, 'web_s': 7.6, 'qa_s': 3.6, 'total_s': 42.6}\n"
+}
