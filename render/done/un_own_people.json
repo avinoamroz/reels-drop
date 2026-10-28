@@ -1,0 +1,8 @@
+{
+  "id": "un_own_people",
+  "ok": true,
+  "rc": "0",
+  "secs": "46",
+  "run": "40651555749",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.6s] [sse] 121 words timed from Cartesia timestamps, k 0.9999\n[   3.7s] voice 53.05s, lines 0.30-3.94, 4.22-10.49, 10.70-16.06, 16.34-23.65, 23.90-28.54, 28.82-34.54, 34.82-40.75, 40.95-45.64, 45.92-50.58, 50.86-53.04\n[   3.8s] timeline: 9 scenes, T_END 54.90s, warnings []\n[   6.8s] [mix] input -22.1 LUFS, gain +8.5 dB, 22 SFX -> /home/claude/un_own_people/out/work/mix.wav\n[   7.0s] [render] frame 0/1647  0s\n[   9.4s] [render] frame 150/1647  3s\n[  12.3s] [render] frame 300/1647  5s\n[  15.0s] [render] frame 450/1647  8s\n[  17.8s] [render] frame 600/1647  11s\n[  20.2s] [render] frame 750/1647  13s\n[  22.9s] [render] frame 900/1647  16s\n[  25.6s] [render] frame 1050/1647  19s\n[  28.1s] [render] frame 1200/1647  21s\n[  30.3s] [render] frame 1350/1647  23s\n[  33.1s] [render] frame 1500/1647  26s\n\nvideo 1080x1920 30/1 54.9s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 5.91 MB (ok)\nweb 540x960 2.98 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 7, motion 1.17)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 3.1, 'render_s': 29.3, 'web_s': 6.8, 'qa_s': 2.8, 'total_s': 45.7}\n"
+}
