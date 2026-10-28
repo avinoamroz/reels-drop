@@ -1,0 +1,8 @@
+{
+  "id": "x_meeting_smalltalk",
+  "ok": true,
+  "rc": "0",
+  "secs": "38",
+  "run": "40660337770",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.6s] [sse] 90 words timed from Cartesia timestamps, k 0.9999\n[   3.6s] voice 38.68s, lines 0.30-5.46, 5.88-12.35, 12.79-19.71, 20.13-27.09, 27.51-33.87, 33.87-38.67\n[   3.6s] timeline: 6 scenes, T_END 39.50s, warnings []\n[   5.9s] [mix] input -21.3 LUFS, gain +8.2 dB, 6 SFX -> /home/claude/express_1028/x_meeting_smalltalk/out/work/mix.wav\n[   6.1s] [render] frame 0/1185  0s\n[   8.5s] [render] frame 150/1185  3s\n[  11.4s] [render] frame 300/1185  6s\n[  14.0s] [render] frame 450/1185  8s\n[  16.7s] [render] frame 600/1185  11s\n[  19.5s] [render] frame 750/1185  14s\n[  22.1s] [render] frame 900/1185  16s\n[  25.0s] [render] frame 1050/1185  19s\n\nvideo 1080x1920 30/1 39.5s aac 48000 Hz: -14.1 LUFS, TP -1.6 dBTP, 3.46 MB (ok)\nweb 540x960 1.91 MB (ok), -14.1 LUFS, TP -1.6\nhook: ok (frame-0 text 5, motion 1.45)\ndashes: ok (0 replaced)\nlayout issues: 13\ncta hold 5.18s (ok)\nstages {'voice_align_s': 2.3, 'timeline_s': 0.1, 'mix_s': 2.3, 'render_s': 22.5, 'web_s': 6.6, 'qa_s': 2.9, 'total_s': 37.8}\n"
+}
