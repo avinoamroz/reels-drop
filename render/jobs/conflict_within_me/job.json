@@ -2,6 +2,6 @@
  "id": "conflict_within_me",
  "cmd": "cd /home/claude/conflict_within_me && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/conflict_within_me/out/reel.mp4",
- "sent": "2026-10-28T11:51:50Z",
+ "sent": "2026-10-28T11:56:48Z",
  "nfiles": 139
 }
