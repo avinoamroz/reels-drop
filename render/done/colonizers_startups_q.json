@@ -1,0 +1,8 @@
+{
+  "id": "colonizers_startups_q",
+  "ok": false,
+  "rc": "1",
+  "secs": "1",
+  "run": "40683330140",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   0.2s] T_END 58.233333333333334 warn []\nTraceback (most recent call last):\n  File \"/home/claude/colonizers_startups/build/build.py\", line 16, in <module>\n    ev = [(t_, k, 0.0) for t_, k in R.sfx_events()]\n                                    ~~~~~~~~~~~~^^\n  File \"/home/claude/reelkit/render.py\", line 774, in sfx_events\n    for x in S[\"times\"].get(key, []):\n             ~~~~~~~~~~~~~~^^^^^^^^^\nTypeError: 'float' object is not iterable\n"
+}
