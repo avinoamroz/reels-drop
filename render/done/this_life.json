@@ -1,0 +1,8 @@
+{
+  "id": "this_life",
+  "ok": true,
+  "rc": "0",
+  "secs": "46",
+  "run": "40680979086",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.1s] [sse] 150 words timed from Cartesia timestamps, k 0.9999\n[   4.2s] voice 53.69s, lines 0.30-1.71, 2.13-6.48, 6.83-11.69, 12.14-17.50, 17.87-21.74, 22.20-27.78, 28.20-32.40, 32.83-38.17, 38.59-43.59, 43.94-45.86, 46.18-51.07, 51.49-53.68\n[   4.3s] timeline: 12 scenes, T_END 54.97s, warnings []\n[   7.0s] [mix] input -22.0 LUFS, gain +8.8 dB, 12 SFX -> /home/claude/this_life/out/work/mix.wav\n[   7.3s] [render] frame 0/1649  0s\n[  10.0s] [render] frame 150/1649  3s\n[  12.4s] [render] frame 300/1649  5s\n[  14.8s] [render] frame 450/1649  8s\n[  17.3s] [render] frame 600/1649  10s\n[  19.8s] [render] frame 750/1649  13s\n[  22.3s] [render] frame 900/1649  15s\n[  24.8s] [render] frame 1050/1649  18s\n[  27.4s] [render] frame 1200/1649  20s\n[  29.9s] [render] frame 1350/1649  23s\n[  32.5s] [render] frame 1500/1649  25s\n\nvideo 1080x1920 30/1 54.97s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 6.86 MB (ok)\nweb 540x960 3.21 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 5, motion 1.62)\ndashes: ok (0 replaced)\nlayout issues: 32\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.8, 'timeline_s': 0.1, 'mix_s': 2.7, 'render_s': 28.2, 'web_s': 7.6, 'qa_s': 3.3, 'total_s': 46.2}\n"
+}
