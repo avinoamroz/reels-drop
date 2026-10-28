@@ -1,0 +1,7 @@
+{
+ "id": "x_meeting_smalltalk",
+ "cmd": "cd /home/claude/express_1028/x_meeting_smalltalk && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_1028/x_meeting_smalltalk/out/reel.mp4",
+ "sent": "2026-10-28T08:55:41Z",
+ "nfiles": 139
+}

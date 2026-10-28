@@ -1,0 +1,7 @@
+{
+ "id": "x_identity_holidays",
+ "cmd": "cd /home/claude/express_1028/x_identity_holidays && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_1028/x_identity_holidays/out/reel.mp4",
+ "sent": "2026-10-28T08:55:38Z",
+ "nfiles": 139
+}

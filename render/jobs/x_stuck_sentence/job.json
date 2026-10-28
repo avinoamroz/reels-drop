@@ -1,0 +1,7 @@
+{
+ "id": "x_stuck_sentence",
+ "cmd": "cd /home/claude/express_1028/x_stuck_sentence && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_1028/x_stuck_sentence/out/reel.mp4",
+ "sent": "2026-10-28T08:55:42Z",
+ "nfiles": 139
+}
