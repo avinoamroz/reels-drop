@@ -1,0 +1,8 @@
+{
+  "id": "golda_third",
+  "ok": true,
+  "rc": "0",
+  "secs": "34",
+  "run": "40661860309",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.8s] [sse] 104 words timed from Cartesia timestamps, k 0.9999\n[   2.9s] voice 39.40s, lines 0.30-3.02, 3.38-8.06, 8.48-13.99, 14.39-20.21, 20.63-26.56, 26.97-33.66, 34.08-37.47, 37.88-39.39\n[   2.9s] timeline: 8 scenes, T_END 41.37s, warnings []\n[   5.5s] [mix] input -21.8 LUFS, gain +8.5 dB, 10 SFX -> /home/claude/daily_1028/golda_third/out/work/mix.wav\n[   5.6s] [render] frame 0/1241  0s\n[   8.2s] [render] frame 150/1241  3s\n[  10.7s] [render] frame 300/1241  5s\n[  13.2s] [render] frame 450/1241  8s\n[  15.5s] [render] frame 600/1241  10s\n[  17.9s] [render] frame 750/1241  12s\n[  20.3s] [render] frame 900/1241  15s\n[  22.9s] [render] frame 1050/1241  17s\n[  25.4s] [render] frame 1200/1241  20s\n\nvideo 1080x1920 30/1 41.37s aac 48000 Hz: -14.0 LUFS, TP -1.9 dBTP, 4.02 MB (ok)\nweb 540x960 2.06 MB (ok), -14.0 LUFS, TP -1.9\nhook: ok (frame-0 text 7, motion 1.63)\ndashes: ok (0 replaced)\nlayout issues: 1\ncta hold 3.03s (ok)\nstages {'voice_align_s': 1.9, 'timeline_s': 0.0, 'mix_s': 2.6, 'render_s': 21.0, 'web_s': 5.1, 'qa_s': 2.2, 'total_s': 33.7}\n"
+}
