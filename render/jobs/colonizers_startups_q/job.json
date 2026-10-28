@@ -2,6 +2,6 @@
  "id": "colonizers_startups_q",
  "cmd": "cd /home/claude/colonizers_startups/build && python3 build.py q",
  "out": "/home/claude/colonizers_startups/build/out_q/reel.mp4",
- "sent": "2026-10-28T12:01:17Z",
+ "sent": "2026-10-28T12:09:04Z",
  "nfiles": 4032
 }
