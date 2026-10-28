@@ -1,0 +1,8 @@
+{
+  "id": "true_size_v2new",
+  "ok": true,
+  "rc": "0",
+  "secs": "35",
+  "run": "40687040511",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nbg frames 195\nwrote /home/claude/v2new/out/true_size_v2new.mp4 42.43333333333333 s rc 0\n"
+}
