@@ -1,0 +1,8 @@
+{
+  "id": "x_stuck_sentence",
+  "ok": true,
+  "rc": "0",
+  "secs": "32",
+  "run": "40660337770",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.3s] [sse] 68 words timed from Cartesia timestamps, k 0.9996\n[   4.4s] voice 30.65s, lines 0.30-5.77, 6.19-8.07, 8.49-11.05, 11.34-12.94, 13.36-16.27, 16.70-20.52, 20.95-26.91, 26.91-30.65\n[   4.4s] timeline: 5 scenes, T_END 31.47s, warnings []\n[   6.7s] [mix] input -21.9 LUFS, gain +8.9 dB, 5 SFX -> /home/claude/express_1028/x_stuck_sentence/out/work/mix.wav\n[   6.9s] [render] frame 0/944  0s\n[   9.3s] [render] frame 150/944  3s\n[  12.2s] [render] frame 300/944  5s\n[  14.8s] [render] frame 450/944  8s\n[  17.8s] [render] frame 600/944  11s\n[  20.6s] [render] frame 750/944  14s\n[  23.4s] [render] frame 900/944  17s\n\nvideo 1080x1920 30/1 31.47s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 3.13 MB (ok)\nweb 540x960 1.61 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 6, motion 1.79)\ndashes: ok (0 replaced)\nlayout issues: 6\ncta hold 4.11s (ok)\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 2.3, 'render_s': 18.1, 'web_s': 4.8, 'qa_s': 2.2, 'total_s': 31.8}\n"
+}
