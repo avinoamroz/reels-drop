@@ -1,0 +1,7 @@
+{
+ "id": "true_size_v2new",
+ "cmd": "python3 /home/claude/v2new/build.py /home/claude/v2new/cfg/true_size_v2new.json",
+ "out": "/home/claude/v2new/out/true_size_v2new.mp4",
+ "sent": "2026-10-28T12:20:24Z",
+ "nfiles": 21
+}

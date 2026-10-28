@@ -1,0 +1,7 @@
+{
+ "id": "branches_executive_v2new",
+ "cmd": "python3 /home/claude/v2new/build.py /home/claude/v2new/cfg/branches_executive_v2new.json",
+ "out": "/home/claude/v2new/out/branches_executive_v2new.mp4",
+ "sent": "2026-10-28T12:20:19Z",
+ "nfiles": 21
+}

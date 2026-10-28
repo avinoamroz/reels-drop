@@ -1,0 +1,7 @@
+{
+ "id": "israel_rescue_v2new",
+ "cmd": "python3 /home/claude/v2new/build.py /home/claude/v2new/cfg/israel_rescue_v2new.json",
+ "out": "/home/claude/v2new/out/israel_rescue_v2new.mp4",
+ "sent": "2026-10-28T12:20:22Z",
+ "nfiles": 20
+}
