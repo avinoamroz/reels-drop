@@ -1,0 +1,8 @@
+{
+  "id": "x_identity_phrases",
+  "ok": true,
+  "rc": "0",
+  "secs": "39",
+  "run": "40660337770",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.9s] [sse] 77 words timed from Cartesia timestamps, k 1.0000\n[   3.9s] voice 38.42s, lines 0.30-3.60, 4.02-8.59, 9.01-11.08, 11.51-14.62, 15.04-18.36, 18.68-22.34, 22.66-25.77, 26.19-33.78, 34.23-38.42\n[   4.0s] timeline: 6 scenes, T_END 39.23s, warnings []\n[   6.2s] [mix] input -21.6 LUFS, gain +8.3 dB, 6 SFX -> /home/claude/express_1028/x_identity_phrases/out/work/mix.wav\n[   6.6s] [render] frame 0/1177  0s\n[   9.4s] [render] frame 150/1177  3s\n[  12.3s] [render] frame 300/1177  6s\n[  15.5s] [render] frame 450/1177  9s\n[  18.3s] [render] frame 600/1177  12s\n[  21.2s] [render] frame 750/1177  15s\n[  23.9s] [render] frame 900/1177  18s\n[  26.9s] [render] frame 1050/1177  21s\n\nvideo 1080x1920 30/1 39.23s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 3.47 MB (ok)\nweb 540x960 1.88 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 7, motion 1.52)\ndashes: ok (0 replaced)\nlayout issues: 7\ncta hold 4.56s (ok)\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 2.2, 'render_s': 23.6, 'web_s': 6.6, 'qa_s': 2.9, 'total_s': 39.4}\n"
+}
