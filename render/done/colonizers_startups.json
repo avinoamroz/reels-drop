@@ -1,8 +1,0 @@
-{
-  "id": "colonizers_startups",
-  "ok": true,
-  "rc": "0",
-  "secs": "65",
-  "run": "40683788303",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   0.2s] T_END 57.0 warn []\n[   3.6s] [mix] input -22.4 LUFS, gain +9.3 dB, 45 SFX -> /home/claude/colonizers_startups/build/out_kw/work/mix.wav\n[   6.3s] [render] frame 0/1710  3s\n[   9.6s] [render] frame 150/1710  6s\n[  13.5s] [render] frame 300/1710  10s\n[  16.9s] [render] frame 450/1710  13s\n[  20.1s] [render] frame 600/1710  17s\n[  23.4s] [render] frame 750/1710  20s\n[  26.5s] [render] frame 900/1710  23s\n[  30.0s] [render] frame 1050/1710  26s\n[  33.4s] [render] frame 1200/1710  30s\n[  36.7s] [render] frame 1350/1710  33s\n[  40.0s] [render] frame 1500/1710  36s\n[  43.6s] [render] frame 1650/1710  40s\n[  45.5s] render done\nvideo 1080x1920 30/1 57.0s aac 48000 Hz: -14.0 LUFS, TP -1.8 dBTP, 8.17 MB (ok)\nweb 540x960 3.43 MB (ok), -14.0 LUFS, TP -1.8\nhook: ok (frame-0 text 4, motion 2.45)\ndashes: ok (0 replaced)\nlayout issues: 38\ncta hold 4.03s (ok)\nblack frames: none\nhe subs missing: []\n"
-}
