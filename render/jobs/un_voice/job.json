@@ -1,0 +1,7 @@
+{
+ "id": "un_voice",
+ "cmd": "python3 /home/claude/un_voice/reel.py --theme dark --render /home/claude/un_voice/un_voice.mp4 --audio /home/claude/un_voice/mix.wav",
+ "out": "/home/claude/un_voice/un_voice.mp4",
+ "sent": "2026-10-28T09:06:05Z",
+ "nfiles": 21
+}
