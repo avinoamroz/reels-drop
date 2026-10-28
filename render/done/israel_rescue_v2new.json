@@ -1,0 +1,8 @@
+{
+  "id": "israel_rescue_v2new",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "40687040511",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nbg frames 147\nwrote /home/claude/v2new/out/israel_rescue_v2new.mp4 49.86666666666667 s rc 0\n"
+}
