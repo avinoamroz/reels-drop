@@ -1,0 +1,8 @@
+{
+  "id": "fair_elections",
+  "ok": true,
+  "rc": "0",
+  "secs": "63",
+  "run": "40685002078",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   5.2s] [sse] 169 words timed from Cartesia timestamps, k 0.9999\n[   5.2s] voice 62.52s, lines 0.30-2.08, 2.31-7.33, 7.55-12.66, 12.94-16.53, 16.82-21.60, 21.88-26.76, 26.91-35.29, 35.57-42.04, 42.32-48.62, 48.87-53.91, 54.19-60.04, 60.32-62.52\n[   5.3s] timeline: 11 scenes, T_END 64.40s, warnings []\n[   9.4s] [mix] input -21.5 LUFS, gain +8.3 dB, 28 SFX -> /home/claude/fair_elections/out/work/mix.wav\n[   9.5s] [render] frame 0/1932  0s\n[  12.4s] [render] frame 150/1932  3s\n[  15.2s] [render] frame 300/1932  6s\n[  17.8s] [render] frame 450/1932  8s\n[  20.8s] [render] frame 600/1932  11s\n[  23.7s] [render] frame 750/1932  14s\n[  26.5s] [render] frame 900/1932  17s\n[  29.4s] [render] frame 1050/1932  20s\n[  32.7s] [render] frame 1200/1932  23s\n[  35.7s] [render] frame 1350/1932  26s\n[  38.3s] [render] frame 1500/1932  29s\n[  41.4s] [render] frame 1650/1932  32s\n[  44.4s] [render] frame 1800/1932  35s\n\nvideo 1080x1920 30/1 64.4s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 8.13 MB (ok)\nweb 540x960 3.91 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 6, motion 3.66)\ndashes: ok (0 replaced)\nlayout issues: 33\ncta hold 3.03s (ok)\nstages {'voice_align_s': 3.7, 'timeline_s': 0.1, 'mix_s': 4.1, 'render_s': 38.3, 'web_s': 10.8, 'qa_s': 4.5, 'total_s': 62.9}\n"
+}
