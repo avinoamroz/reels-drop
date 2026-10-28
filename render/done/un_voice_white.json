@@ -1,0 +1,8 @@
+{
+  "id": "un_voice_white",
+  "ok": true,
+  "rc": "0",
+  "secs": "28",
+  "run": "40661633008",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1526 0s\nframe 300/1526 4s\nframe 600/1526 8s\nframe 900/1526 13s\nframe 1200/1526 19s\nframe 1500/1526 24s\ndone /home/claude/un_voice/un_voice_white.mp4 1526 frames\n"
+}
