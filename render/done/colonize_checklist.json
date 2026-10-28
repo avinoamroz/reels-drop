@@ -1,0 +1,8 @@
+{
+  "id": "colonize_checklist",
+  "ok": true,
+  "rc": "0",
+  "secs": "52",
+  "run": "40661860309",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.2s] [sse] 120 words timed from Cartesia timestamps, k 0.9999\n[   4.2s] voice 50.83s, lines 0.30-4.59, 5.01-12.48, 12.90-23.69, 24.11-28.99, 29.43-33.87, 34.29-36.26, 36.68-43.24, 43.68-49.41, 49.83-50.82\n[   4.3s] timeline: 9 scenes, T_END 53.30s, warnings []\n[   8.4s] [mix] input -21.4 LUFS, gain +8.3 dB, 9 SFX -> /home/claude/daily_1028/colonize_checklist/out/work/mix.wav\n[   8.6s] [render] frame 0/1599  0s\n[  11.4s] [render] frame 150/1599  3s\n[  14.4s] [render] frame 300/1599  6s\n[  17.2s] [render] frame 450/1599  9s\n[  20.1s] [render] frame 600/1599  12s\n[  22.8s] [render] frame 750/1599  14s\n[  25.7s] [render] frame 900/1599  17s\n[  28.5s] [render] frame 1050/1599  20s\n[  31.5s] [render] frame 1200/1599  23s\n[  34.4s] [render] frame 1350/1599  26s\n[  37.5s] [render] frame 1500/1599  29s\n\nvideo 1080x1920 30/1 53.3s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 5.02 MB (ok)\nweb 540x960 2.63 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 5, motion 1.6)\ndashes: ok (0 replaced)\nlayout issues: 27\ncta hold 3.02s (ok)\nstages {'voice_align_s': 3.2, 'timeline_s': 0.1, 'mix_s': 4.1, 'render_s': 31.3, 'web_s': 8.9, 'qa_s': 3.9, 'total_s': 52.4}\n"
+}
