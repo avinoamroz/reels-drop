@@ -1,8 +1,0 @@
-{
-  "id": "slavery_last",
-  "ok": true,
-  "rc": "0",
-  "secs": "33",
-  "run": "40839607860",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.1s] [sse] 88 words timed from Cartesia timestamps, k 0.9999\n[   3.1s] voice 37.80s, lines 0.30-3.71, 4.12-8.23, 8.63-14.82, 15.24-19.77, 20.20-24.92, 25.34-29.71, 30.12-35.63, 36.05-37.80\n[   3.2s] timeline: 8 scenes, T_END 39.53s, warnings []\n[   5.3s] [mix] input -22.0 LUFS, gain +8.6 dB, 9 SFX -> /home/claude/daily_1029/slavery_last/out/work/mix.wav\n[   5.4s] [render] frame 0/1186  0s\n[   7.6s] [render] frame 150/1186  2s\n[   9.9s] [render] frame 300/1186  5s\n[  12.2s] [render] frame 450/1186  7s\n[  14.5s] [render] frame 600/1186  9s\n[  17.0s] [render] frame 750/1186  12s\n[  19.4s] [render] frame 900/1186  14s\n[  21.8s] [render] frame 1050/1186  16s\n\nvideo 1080x1920 30/1 39.53s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 3.77 MB (ok)\nweb 540x960 1.97 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 7, motion 1.52)\ndashes: ok (0 replaced)\nlayout issues: 3\ncta hold 3.03s (ok)\nstages {'voice_align_s': 2.0, 'timeline_s': 0.1, 'mix_s': 2.1, 'render_s': 18.9, 'web_s': 5.4, 'qa_s': 2.5, 'total_s': 32.1}\n"
-}

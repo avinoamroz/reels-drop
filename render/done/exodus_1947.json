@@ -1,8 +1,0 @@
-{
-  "id": "exodus_1947",
-  "ok": true,
-  "rc": "0",
-  "secs": "37",
-  "run": "40839607860",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.5s] [sse] 112 words timed from Cartesia timestamps, k 0.9999\n[   3.6s] voice 40.08s, lines 0.30-4.36, 4.78-10.97, 11.12-14.73, 15.18-20.55, 20.97-25.11, 25.54-30.47, 30.89-38.43, 38.88-40.07\n[   3.8s] timeline: 8 scenes, T_END 42.33s, warnings []\n[   6.4s] [mix] input -21.7 LUFS, gain +8.6 dB, 16 SFX -> /home/claude/daily_1029/exodus_1947/out/work/mix.wav\n[   6.5s] [render] frame 0/1270  0s\n[   9.0s] [render] frame 150/1270  3s\n[  11.8s] [render] frame 300/1270  5s\n[  14.4s] [render] frame 450/1270  8s\n[  16.8s] [render] frame 600/1270  10s\n[  19.5s] [render] frame 750/1270  13s\n[  21.9s] [render] frame 900/1270  16s\n[  24.4s] [render] frame 1050/1270  18s\n[  26.8s] [render] frame 1200/1270  20s\n\nvideo 1080x1920 30/1 42.33s aac 48000 Hz: -14.1 LUFS, TP -1.6 dBTP, 4.96 MB (ok)\nweb 540x960 2.46 MB (ok), -14.1 LUFS, TP -1.6\nhook: ok (frame-0 text 7, motion 2.01)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.0s (ok)\nstages {'voice_align_s': 2.1, 'timeline_s': 0.2, 'mix_s': 2.6, 'render_s': 21.8, 'web_s': 6.1, 'qa_s': 2.7, 'total_s': 37.0}\n"
-}

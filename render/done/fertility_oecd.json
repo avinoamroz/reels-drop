@@ -1,8 +1,0 @@
-{
-  "id": "fertility_oecd",
-  "ok": true,
-  "rc": "0",
-  "secs": "39",
-  "run": "40839607860",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.4s] [sse] 104 words timed from Cartesia timestamps, k 0.9999\n[   3.4s] voice 40.56s, lines 0.30-4.82, 5.24-8.99, 9.19-14.24, 14.67-21.92, 22.34-27.33, 27.78-34.36, 34.66-38.85, 39.27-40.56\n[   3.5s] timeline: 7 scenes, T_END 42.73s, warnings []\n[   5.7s] [mix] input -22.8 LUFS, gain +9.8 dB, 14 SFX -> /home/claude/daily_1029/fertility_oecd/out/work/mix.wav\n[   5.8s] [render] frame 0/1282  0s\n[   8.2s] [render] frame 150/1282  2s\n[  11.1s] [render] frame 300/1282  5s\n[  13.7s] [render] frame 450/1282  8s\n[  16.1s] [render] frame 600/1282  10s\n[  18.9s] [render] frame 750/1282  13s\n[  21.4s] [render] frame 900/1282  16s\n[  24.4s] [render] frame 1050/1282  19s\n[  27.2s] [render] frame 1200/1282  21s\n\nvideo 1080x1920 30/1 42.73s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 4.56 MB (ok)\nweb 540x960 2.3 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 7, motion 1.47)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.01s (ok)\nstages {'voice_align_s': 2.2, 'timeline_s': 0.1, 'mix_s': 2.2, 'render_s': 23.4, 'web_s': 6.4, 'qa_s': 2.8, 'total_s': 38.3}\n"
-}
