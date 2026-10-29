@@ -1,0 +1,8 @@
+{
+  "id": "shabbat_p2_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "32",
+  "run": "40866020759",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nwrote /home/claude/rehook4/out/shabbat_p2_hook2.mp4 43.46666666666667 s rc 0\n"
+}
