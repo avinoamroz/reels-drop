@@ -1,0 +1,8 @@
+{
+  "id": "lib_vid_jews_world",
+  "ok": true,
+  "rc": "0",
+  "secs": "282",
+  "run": "40886877569",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\ndone /home/claude/jobA/jw/jews_world_fs_silent.mp4\n"
+}
