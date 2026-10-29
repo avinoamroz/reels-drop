@@ -1,0 +1,8 @@
+{
+  "id": "lib_build_destroy",
+  "ok": true,
+  "rc": "0",
+  "secs": "48",
+  "run": "40886877569",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[render] frame 0/2221  0s\n[render] frame 150/2221  3s\n[render] frame 300/2221  7s\n[render] frame 450/2221  10s\n[render] frame 600/2221  13s\n[render] frame 750/2221  16s\n[render] frame 900/2221  18s\n[render] frame 1050/2221  21s\n[render] frame 1200/2221  25s\n[render] frame 1350/2221  27s\n[render] frame 1500/2221  30s\n[render] frame 1650/2221  33s\n[render] frame 1800/2221  36s\n[render] frame 1950/2221  39s\n[render] frame 2100/2221  42s\nrendered 45.5 s 2221 frames\n"
+}
