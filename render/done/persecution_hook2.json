@@ -1,0 +1,8 @@
+{
+  "id": "persecution_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "33",
+  "run": "40859288123",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.3s] [sse] 123 words timed from Cartesia timestamps, k 0.9999\n[   3.4s] voice 47.94s, lines 0.30-5.27, 5.63-10.80, 11.22-15.51, 15.71-21.92, 22.24-29.24, 29.66-34.19, 34.51-40.63, 40.84-45.81, 46.23-47.93\n[   3.5s] timeline: 9 scenes, T_END 49.70s, warnings []\n[   5.4s] [mix] input -22.1 LUFS, gain +8.9 dB, 13 SFX -> /home/claude/daily_1029/persecution_hook2/out/work/mix.wav\n[   5.5s] [render] frame 0/1491  0s\n[   7.4s] [render] frame 150/1491  2s\n[   9.4s] [render] frame 300/1491  4s\n[  11.3s] [render] frame 450/1491  6s\n[  13.3s] [render] frame 600/1491  8s\n[  15.2s] [render] frame 750/1491  10s\n[  17.1s] [render] frame 900/1491  12s\n[  19.1s] [render] frame 1050/1491  14s\n[  21.0s] [render] frame 1200/1491  16s\n[  22.8s] [render] frame 1350/1491  17s\n\nvideo 1080x1920 30/1 49.7s aac 48000 Hz: -14.1 LUFS, TP -1.7 dBTP, 5.37 MB (ok)\nweb 540x960 2.62 MB (ok), -14.1 LUFS, TP -1.7\nhook: ok (frame-0 text 7, motion 1.86)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.3, 'timeline_s': 0.1, 'mix_s': 1.9, 'render_s': 19.3, 'web_s': 5.6, 'qa_s': 2.5, 'total_s': 32.7}\n"
+}
