@@ -1,0 +1,8 @@
+{
+  "id": "nobel_categories",
+  "ok": true,
+  "rc": "0",
+  "secs": "31",
+  "run": "40859288123",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.9s] [sse] 77 words timed from Cartesia timestamps, k 0.9999\n[   4.0s] voice 34.60s, lines 0.30-5.55, 5.80-10.09, 10.68-15.43, 15.80-18.23, 18.67-21.04, 21.25-25.76, 26.18-32.28, 32.70-34.59\n[   4.1s] timeline: 6 scenes, T_END 36.17s, warnings []\n[   6.2s] [mix] input -22.1 LUFS, gain +9.0 dB, 12 SFX -> /home/claude/daily_1029/nobel_categories/out/work/mix.wav\n[   6.3s] [render] frame 0/1085  0s\n[   8.4s] [render] frame 150/1085  2s\n[  10.8s] [render] frame 300/1085  5s\n[  13.2s] [render] frame 450/1085  7s\n[  15.5s] [render] frame 600/1085  9s\n[  18.1s] [render] frame 750/1085  12s\n[  20.6s] [render] frame 900/1085  14s\n[  23.0s] [render] frame 1050/1085  17s\n\nvideo 1080x1920 30/1 36.17s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 4.02 MB (ok)\nweb 540x960 2.0 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 7, motion 1.36)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.3, 'timeline_s': 0.1, 'mix_s': 2.1, 'render_s': 17.8, 'web_s': 5.2, 'qa_s': 2.3, 'total_s': 31.5}\n"
+}
