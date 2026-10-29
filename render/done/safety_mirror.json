@@ -1,0 +1,8 @@
+{
+  "id": "safety_mirror",
+  "ok": true,
+  "rc": "0",
+  "secs": "24",
+  "run": "40859288123",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.7s] [sse] 91 words timed from Cartesia timestamps, k 0.9999\n[   2.7s] voice 34.75s, lines 0.30-4.62, 5.08-9.59, 10.01-11.99, 12.46-16.61, 16.84-21.16, 21.40-28.10, 28.54-32.98, 33.40-34.73\n[   2.8s] timeline: 7 scenes, T_END 36.87s, warnings []\n[   4.2s] [mix] input -22.5 LUFS, gain +9.1 dB, 10 SFX -> /home/claude/daily_1029/safety_mirror/out/work/mix.wav\n[   4.3s] [render] frame 0/1106  0s\n[   6.0s] [render] frame 150/1106  2s\n[   8.0s] [render] frame 300/1106  4s\n[  10.1s] [render] frame 450/1106  6s\n[  12.1s] [render] frame 600/1106  8s\n[  13.8s] [render] frame 750/1106  10s\n[  15.5s] [render] frame 900/1106  11s\n[  17.3s] [render] frame 1050/1106  13s\n\nvideo 1080x1920 30/1 36.87s aac 48000 Hz: -14.0 LUFS, TP -2.0 dBTP, 3.76 MB (ok)\nweb 540x960 1.92 MB (ok), -14.0 LUFS, TP -2.0\nhook: ok (frame-0 text 6, motion 1.47)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.02s (ok)\nstages {'voice_align_s': 1.6, 'timeline_s': 0.1, 'mix_s': 1.4, 'render_s': 13.9, 'web_s': 3.9, 'qa_s': 1.8, 'total_s': 23.8}\n"
+}
