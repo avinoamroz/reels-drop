@@ -1,0 +1,7 @@
+{
+ "id": "shabbat_p3_hook2",
+ "cmd": "python3 /home/claude/rehook4/build4.py /home/claude/rehook4/cfg/shabbat_p3_hook2.json",
+ "out": "/home/claude/rehook4/out/shabbat_p3_hook2.mp4",
+ "sent": "2026-10-29T11:30:17Z",
+ "nfiles": 89
+}

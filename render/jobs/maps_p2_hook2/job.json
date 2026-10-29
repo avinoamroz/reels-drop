@@ -1,0 +1,7 @@
+{
+ "id": "maps_p2_hook2",
+ "cmd": "python3 /home/claude/rehook4/build4.py /home/claude/rehook4/cfg/maps_p2_hook2.json",
+ "out": "/home/claude/rehook4/out/maps_p2_hook2.mp4",
+ "sent": "2026-10-29T11:30:13Z",
+ "nfiles": 88
+}

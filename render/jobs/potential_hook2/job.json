@@ -1,0 +1,7 @@
+{
+ "id": "potential_hook2",
+ "cmd": "python3 /home/claude/rehook4/build4.py /home/claude/rehook4/cfg/potential_hook2.json",
+ "out": "/home/claude/rehook4/out/potential_hook2.mp4",
+ "sent": "2026-10-29T11:30:15Z",
+ "nfiles": 89
+}
