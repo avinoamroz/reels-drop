@@ -1,0 +1,7 @@
+{
+ "id": "lib_vid_langs_side_by_side",
+ "cmd": "bash /home/claude/jobA/langs/compose.sh",
+ "out": "/home/claude/jobA/langs/langs_side_by_side_v2.mp4",
+ "sent": "2026-10-29T13:54:28Z",
+ "nfiles": 19
+}

@@ -1,0 +1,7 @@
+{
+ "id": "lib_vid_jews_world",
+ "cmd": "pip install -q matplotlib numpy && python3 /home/claude/jobA/jw/world_fs.py /home/claude/jobA/jw/cfg_jw_fs.py && ffmpeg -v error -y -i /home/claude/jobA/jw/jews_world_fs_silent.mp4 -i /home/claude/vid/final/jews_world_v3.mp4 -map 0:v -map 1:a -t 40.8 -af afade=out:st=40.0:d=0.8 -c:v copy -c:a aac -b:a 192k -ar 48000 -movflags +faststart /home/claude/jobA/jw/jews_world_fs.mp4",
+ "out": "/home/claude/jobA/jw/jews_world_fs.mp4",
+ "sent": "2026-10-29T13:54:27Z",
+ "nfiles": 98
+}

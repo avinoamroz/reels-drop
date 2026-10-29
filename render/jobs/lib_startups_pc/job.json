@@ -1,0 +1,7 @@
+{
+ "id": "lib_startups_pc",
+ "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/jobA/su/spec.json /home/claude/jobA/su/out/timing.json /home/claude/jobA/su/out/mix.wav /home/claude/jobA/su/lib_startups_pc_render.mp4",
+ "out": "/home/claude/jobA/su/lib_startups_pc_render.mp4",
+ "sent": "2026-10-29T13:54:09Z",
+ "nfiles": 27
+}

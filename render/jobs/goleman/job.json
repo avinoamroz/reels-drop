@@ -1,7 +1,7 @@
 {
  "id": "goleman",
- "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/fixes_1027b/gol/spec.json /home/claude/fixes_1027b/gol/out/timing.json /home/claude/fixes_1027b/gol/out/mix.wav /home/claude/fixes_1027b/goleman_render.mp4",
- "out": "/home/claude/fixes_1027b/goleman_render.mp4",
- "sent": "2026-10-27T15:31:31Z",
- "nfiles": 51
+ "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/jobA/gol/spec.json /home/claude/jobA/gol/out/timing.json /home/claude/jobA/gol/out/mix.wav /home/claude/jobA/gol/goleman_render.mp4",
+ "out": "/home/claude/jobA/gol/goleman_render.mp4",
+ "sent": "2026-10-29T13:54:15Z",
+ "nfiles": 54
 }
