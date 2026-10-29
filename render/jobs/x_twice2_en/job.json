@@ -1,0 +1,7 @@
+{
+ "id": "x_twice2_en",
+ "cmd": "cd /home/claude/express_1029/x_twice2_en && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_1029/x_twice2_en/out/reel.mp4",
+ "sent": "2026-10-29T08:30:19Z",
+ "nfiles": 139
+}
