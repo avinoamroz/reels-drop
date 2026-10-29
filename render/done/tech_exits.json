@@ -1,0 +1,8 @@
+{
+  "id": "tech_exits",
+  "ok": true,
+  "rc": "0",
+  "secs": "28",
+  "run": "40859288123",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.5s] [sse] 99 words timed from Cartesia timestamps, k 0.9999\n[   3.6s] voice 40.62s, lines 0.30-3.63, 3.95-8.94, 9.15-13.08, 13.29-18.10, 18.41-22.85, 23.27-29.91, 30.34-35.88, 36.26-40.61\n[   3.6s] timeline: 5 scenes, T_END 41.43s, warnings []\n[   5.4s] [mix] input -21.5 LUFS, gain +8.1 dB, 10 SFX -> /home/claude/daily_1029/tech_exits/out/work/mix.wav\n[   5.5s] [render] frame 0/1243  0s\n[   7.3s] [render] frame 150/1243  2s\n[   9.2s] [render] frame 300/1243  4s\n[  11.1s] [render] frame 450/1243  6s\n[  13.0s] [render] frame 600/1243  8s\n[  14.9s] [render] frame 750/1243  10s\n[  16.8s] [render] frame 900/1243  11s\n[  18.6s] [render] frame 1050/1243  13s\n[  20.4s] [render] frame 1200/1243  15s\n\nvideo 1080x1920 30/1 41.43s aac 48000 Hz: -14.1 LUFS, TP -2.1 dBTP, 3.85 MB (ok)\nweb 540x960 2.05 MB (ok), -14.1 LUFS, TP -2.1\nhook: ok (frame-0 text 7, motion 1.48)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 4.72s (ok)\nstages {'voice_align_s': 1.9, 'timeline_s': 0.1, 'mix_s': 1.7, 'render_s': 15.8, 'web_s': 4.5, 'qa_s': 1.9, 'total_s': 27.6}\n"
+}
