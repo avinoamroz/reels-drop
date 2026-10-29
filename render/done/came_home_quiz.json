@@ -1,0 +1,8 @@
+{
+  "id": "came_home_quiz",
+  "ok": true,
+  "rc": "0",
+  "secs": "44",
+  "run": "40839607860",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.6s] [sse] 98 words timed from Cartesia timestamps, k 0.9999\n[   3.6s] voice 44.05s, lines 0.30-4.02, 4.44-9.13, 9.55-11.74, 12.16-16.93, 17.36-21.98, 22.37-29.78, 30.20-35.71, 36.15-41.28, 41.70-44.03\n[   3.7s] timeline: 9 scenes, T_END 45.17s, warnings []\n[   6.2s] [mix] input -23.5 LUFS, gain +10.9 dB, 15 SFX -> /home/claude/daily_1029/came_home_quiz/out/work/mix.wav\n[   6.4s] [render] frame 0/1355  0s\n[   9.0s] [render] frame 150/1355  3s\n[  12.0s] [render] frame 300/1355  6s\n[  14.9s] [render] frame 450/1355  9s\n[  18.1s] [render] frame 600/1355  12s\n[  21.1s] [render] frame 750/1355  15s\n[  23.8s] [render] frame 900/1355  18s\n[  26.6s] [render] frame 1050/1355  20s\n[  29.6s] [render] frame 1200/1355  23s\n[  32.2s] [render] frame 1350/1355  26s\n\nvideo 1080x1920 30/1 45.17s aac 48000 Hz: -14.2 LUFS, TP -1.8 dBTP, 4.66 MB (ok)\nweb 540x960 2.36 MB (ok), -14.2 LUFS, TP -1.8\nhook: ok (frame-0 text 4, motion 1.26)\ndashes: ok (0 replaced)\nlayout issues: 8\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.5, 'timeline_s': 0.1, 'mix_s': 2.5, 'render_s': 26.5, 'web_s': 7.6, 'qa_s': 3.6, 'total_s': 44.0}\n"
+}
