@@ -1,0 +1,8 @@
+{
+  "id": "guinness_il_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "42",
+  "run": "40866020759",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nwrote /home/claude/rehook4/out/guinness_il_hook2.mp4 57.233333333333334 s rc 0\n"
+}
