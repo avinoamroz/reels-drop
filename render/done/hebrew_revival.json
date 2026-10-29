@@ -1,0 +1,8 @@
+{
+  "id": "hebrew_revival",
+  "ok": true,
+  "rc": "0",
+  "secs": "40",
+  "run": "40839607860",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.7s] [sse] 110 words timed from Cartesia timestamps, k 0.9998\n[   3.7s] voice 39.94s, lines 0.30-3.24, 3.55-10.78, 11.21-17.12, 17.54-22.55, 22.98-26.85, 27.27-32.41, 32.83-37.78, 38.05-39.94\n[   3.8s] timeline: 8 scenes, T_END 41.50s, warnings []\n[   6.6s] [mix] input -21.7 LUFS, gain +8.4 dB, 14 SFX -> /home/claude/daily_1029/hebrew_revival/out/work/mix.wav\n[   6.7s] [render] frame 0/1245  0s\n[   9.1s] [render] frame 150/1245  3s\n[  12.0s] [render] frame 300/1245  5s\n[  14.8s] [render] frame 450/1245  8s\n[  17.4s] [render] frame 600/1245  11s\n[  20.1s] [render] frame 750/1245  14s\n[  23.3s] [render] frame 900/1245  17s\n[  25.8s] [render] frame 1050/1245  19s\n[  28.6s] [render] frame 1200/1245  22s\n\nvideo 1080x1920 30/1 41.5s aac 48000 Hz: -14.1 LUFS, TP -1.4 dBTP, 4.16 MB (CHECK)\nweb 540x960 2.15 MB (ok), -14.1 LUFS, TP -1.4\nhook: ok (frame-0 text 7, motion 1.43)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.0s (ok)\nstages {'voice_align_s': 2.6, 'timeline_s': 0.1, 'mix_s': 2.8, 'render_s': 23.7, 'web_s': 6.9, 'qa_s': 3.1, 'total_s': 40.3}\n"
+}
