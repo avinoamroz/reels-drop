@@ -1,0 +1,8 @@
+{
+  "id": "potential_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "40866020759",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nbg frames 88\nwrote /home/claude/rehook4/out/potential_hook2.mp4 53.766666666666666 s rc 0\n"
+}
