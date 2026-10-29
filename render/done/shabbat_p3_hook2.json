@@ -1,0 +1,8 @@
+{
+  "id": "shabbat_p3_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "39",
+  "run": "40866020759",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n/home/claude/rehook4/build4.py:305: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.\n  px = fr.convert(\"RGB\").crop((300, 255, 780, 282)); m = sum(px.convert(\"L\").getdata()) / (480 * 27)\nwrote /home/claude/rehook4/out/shabbat_p3_hook2.mp4 41.8 s rc 0\n"
+}
