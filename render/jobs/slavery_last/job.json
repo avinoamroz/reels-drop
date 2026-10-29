@@ -1,0 +1,7 @@
+{
+ "id": "slavery_last",
+ "cmd": "cd /home/claude/daily_1029/slavery_last && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1029/slavery_last/out/reel.mp4",
+ "sent": "2026-10-29T08:04:17Z",
+ "nfiles": 139
+}

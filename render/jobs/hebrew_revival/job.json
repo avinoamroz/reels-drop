@@ -1,0 +1,7 @@
+{
+ "id": "hebrew_revival",
+ "cmd": "cd /home/claude/daily_1029/hebrew_revival && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1029/hebrew_revival/out/reel.mp4",
+ "sent": "2026-10-29T08:04:23Z",
+ "nfiles": 139
+}

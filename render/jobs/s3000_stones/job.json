@@ -1,0 +1,7 @@
+{
+ "id": "s3000_stones",
+ "cmd": "cd /home/claude/daily_1029/s3000_stones && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1029/s3000_stones/out/reel.mp4",
+ "sent": "2026-10-29T08:04:14Z",
+ "nfiles": 139
+}
