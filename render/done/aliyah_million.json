@@ -1,0 +1,8 @@
+{
+  "id": "aliyah_million",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "40839607860",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.3s] [sse] 104 words timed from Cartesia timestamps, k 1.0000\n[   4.4s] voice 39.27s, lines 0.30-4.43, 4.86-8.24, 8.66-15.23, 15.68-18.44, 18.80-24.15, 24.57-31.29, 31.71-37.29, 37.71-39.27\n[   4.7s] timeline: 8 scenes, T_END 41.17s, warnings []\n[   7.5s] [mix] input -21.5 LUFS, gain +8.1 dB, 28 SFX -> /home/claude/daily_1029/aliyah_million/out/work/mix.wav\n[   7.7s] [render] frame 0/1235  0s\n[  10.3s] [render] frame 150/1235  3s\n[  13.3s] [render] frame 300/1235  6s\n[  17.1s] [render] frame 450/1235  10s\n[  20.3s] [render] frame 600/1235  13s\n[  23.2s] [render] frame 750/1235  16s\n[  26.1s] [render] frame 900/1235  19s\n[  28.9s] [render] frame 1050/1235  21s\n[  31.7s] [render] frame 1200/1235  24s\n\nvideo 1080x1920 30/1 41.17s aac 48000 Hz: -14.0 LUFS, TP -1.2 dBTP, 4.78 MB (CHECK)\nweb 540x960 2.33 MB (ok), -14.0 LUFS, TP -1.2\nhook: ok (frame-0 text 6, motion 1.67)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.01s (ok)\nstages {'voice_align_s': 2.8, 'timeline_s': 0.3, 'mix_s': 2.8, 'render_s': 25.5, 'web_s': 7.1, 'qa_s': 3.1, 'total_s': 43.2}\n"
+}
