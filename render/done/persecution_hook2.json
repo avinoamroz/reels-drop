@@ -1,0 +1,8 @@
+{
+  "id": "persecution_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "40839607860",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.0s] [sse] 103 words timed from Cartesia timestamps, k 0.9999\n[   4.0s] voice 41.47s, lines 0.30-5.27, 5.63-10.80, 11.22-15.51, 15.93-21.56, 21.98-28.98, 29.40-33.94, 34.36-39.33, 39.75-41.45\n[   4.1s] timeline: 8 scenes, T_END 43.20s, warnings []\n[   6.9s] [mix] input -22.1 LUFS, gain +8.9 dB, 12 SFX -> /home/claude/daily_1029/persecution_hook2/out/work/mix.wav\n[   7.1s] [render] frame 0/1296  0s\n[   9.7s] [render] frame 150/1296  3s\n[  12.9s] [render] frame 300/1296  6s\n[  15.9s] [render] frame 450/1296  9s\n[  18.6s] [render] frame 600/1296  12s\n[  21.4s] [render] frame 750/1296  14s\n[  24.3s] [render] frame 900/1296  17s\n[  27.3s] [render] frame 1050/1296  20s\n[  30.0s] [render] frame 1200/1296  23s\n\nvideo 1080x1920 30/1 43.2s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 4.64 MB (ok)\nweb 540x960 2.27 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 7, motion 1.86)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.0s (ok)\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 2.8, 'render_s': 25.6, 'web_s': 7.3, 'qa_s': 3.3, 'total_s': 43.1}\n"
+}
