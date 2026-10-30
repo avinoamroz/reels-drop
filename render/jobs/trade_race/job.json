@@ -1,0 +1,7 @@
+{
+ "id": "trade_race",
+ "cmd": "python3 /home/claude/trade_race/engine.py",
+ "out": "/home/claude/trade_race/out/trade_race.mp4",
+ "sent": "2026-10-30T23:45:04Z",
+ "nfiles": 91
+}
