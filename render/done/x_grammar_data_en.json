@@ -1,0 +1,8 @@
+{
+  "id": "x_grammar_data_en",
+  "ok": true,
+  "rc": "0",
+  "secs": "34",
+  "run": "41049058788",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.9s] [sse] 117 words timed from Cartesia timestamps, k 0.9998\n[   2.9s] voice 52.16s, lines 0.30-5.78, 6.20-10.06, 10.49-15.91, 16.33-23.47, 23.91-29.25, 29.67-33.26, 33.68-35.42, 35.74-40.61, 41.03-48.29, 48.71-52.15\n[   3.0s] timeline: 7 scenes, T_END 52.73s, warnings []\n[   5.3s] [mix] input -22.8 LUFS, gain +9.7 dB, 6 SFX -> /home/claude/express_1030/x_grammar_data_en/out/work/mix.wav\n[   5.4s] [render] frame 0/1582  0s\n[   7.1s] [render] frame 150/1582  2s\n[   8.9s] [render] frame 300/1582  4s\n[  10.8s] [render] frame 450/1582  6s\n[  12.6s] [render] frame 600/1582  7s\n[  14.3s] [render] frame 750/1582  9s\n[  16.1s] [render] frame 900/1582  11s\n[  17.9s] [render] frame 1050/1582  13s\n[  19.8s] [render] frame 1200/1582  15s\n[  21.6s] [render] frame 1350/1582  16s\n[  23.5s] [render] frame 1500/1582  18s\n\nvideo 1080x1920 30/1 52.73s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 4.6 MB (ok)\nweb 540x960 2.49 MB (ok), -14.1 LUFS, TP -1.9\nhook: FAIL (frame-0 text 2, motion 0.42)\ndashes: ok (0 replaced)\nlayout issues: 17\nstages {'voice_align_s': 2.0, 'timeline_s': 0.0, 'mix_s': 2.3, 'render_s': 19.6, 'web_s': 5.7, 'qa_s': 2.4, 'total_s': 33.0}\n"
+}
