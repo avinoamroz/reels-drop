@@ -1,0 +1,7 @@
+{
+ "id": "golda_third_hook2",
+ "cmd": "cd /home/claude/rehook5/golda_third_hook2 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/rehook5/golda_third_hook2/out/reel.mp4",
+ "sent": "2026-10-30T12:50:58Z",
+ "nfiles": 139
+}
