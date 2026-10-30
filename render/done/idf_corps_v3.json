@@ -1,0 +1,8 @@
+{
+  "id": "idf_corps_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "46",
+  "run": "41117599332",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nvoice split by segs (Cartesia word timestamps)\ncorps: 37.72s, 1132 frames\n  hook       0.00 voice   0.15-  2.89\n  not        3.68 voice   3.76-  5.30\n  silent     6.09 voice   6.17-  9.15\n  ground     9.94 voice  10.02- 14.69\n  tech      15.48 voice  15.56- 18.91\n  more      19.70 voice  19.78- 24.39\n  cmd       25.18 voice  25.26- 28.09\n  seven     28.88 voice  28.96- 35.16\n  ask       35.95 voice  36.02- 37.02\n  frame 0/1132  0s\n  frame 150/1132  5s\n  frame 300/1132  9s\n  frame 450/1132  15s\n  frame 600/1132  20s\n  frame 750/1132  26s\n  frame 900/1132  31s\n  frame 1050/1132  35s\nwrote v3/corps_v3_raw.mp4 3.28 MB\n"
+}
