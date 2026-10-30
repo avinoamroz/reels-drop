@@ -1,0 +1,7 @@
+{
+ "id": "x_grammar_data_en",
+ "cmd": "cd /home/claude/express_1030/x_grammar_data_en && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_1030/x_grammar_data_en/out/reel.mp4",
+ "sent": "2026-10-30T11:34:22Z",
+ "nfiles": 139
+}
