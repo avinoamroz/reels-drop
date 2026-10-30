@@ -1,0 +1,7 @@
+{
+ "id": "pop_race_v6_en",
+ "cmd": "python3 /home/claude/en_only/engine_en.py /home/claude/en_only/cfg_pop_race_v6_en.py",
+ "out": "/home/claude/en_only/out/pop_race_v6_en.mp4",
+ "sent": "2026-10-30T17:22:10Z",
+ "nfiles": 61
+}
