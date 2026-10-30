@@ -1,0 +1,8 @@
+{
+  "id": "x_10numbers_en",
+  "ok": true,
+  "rc": "0",
+  "secs": "40",
+  "run": "41049058788",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.3s] [sse] 118 words timed from Cartesia timestamps, k 0.9999\n[   3.3s] voice 48.52s, lines 0.30-3.86, 4.28-9.76, 9.95-13.54, 13.97-23.00, 23.45-29.24, 29.66-31.92, 32.24-35.61, 36.15-43.90, 44.32-48.52\n[   3.4s] timeline: 9 scenes, T_END 49.10s, warnings []\n[   6.4s] [mix] input -22.7 LUFS, gain +9.4 dB, 8 SFX -> /home/claude/express_1030/x_10numbers_en/out/work/mix.wav\n[   6.5s] [render] frame 0/1473  0s\n[   8.7s] [render] frame 150/1473  2s\n[  11.3s] [render] frame 300/1473  5s\n[  13.8s] [render] frame 450/1473  7s\n[  16.1s] [render] frame 600/1473  10s\n[  18.4s] [render] frame 750/1473  12s\n[  20.7s] [render] frame 900/1473  14s\n[  23.3s] [render] frame 1050/1473  17s\n[  25.7s] [render] frame 1200/1473  19s\n[  28.1s] [render] frame 1350/1473  22s\n\nvideo 1080x1920 30/1 49.1s aac 48000 Hz: -14.0 LUFS, TP -1.7 dBTP, 4.41 MB (ok)\nweb 540x960 2.35 MB (ok), -14.0 LUFS, TP -1.7\nhook: FAIL (frame-0 text 6, motion 0.62)\ndashes: ok (0 replaced)\nlayout issues: 4\nstages {'voice_align_s': 2.3, 'timeline_s': 0.1, 'mix_s': 3.0, 'render_s': 24.0, 'web_s': 6.6, 'qa_s': 2.9, 'total_s': 39.9}\n"
+}
