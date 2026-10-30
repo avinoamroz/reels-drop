@@ -1,8 +1,0 @@
-{
-  "id": "promenade_steps",
-  "ok": true,
-  "rc": "0",
-  "secs": "38",
-  "run": "41118020888",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.8s] [sse] 155 words timed from Cartesia timestamps, k 1.0000\n[   2.9s] voice 56.22s, lines 0.30-3.54, 3.85-10.20, 10.43-11.82, 12.12-16.91, 17.14-22.19, 22.47-27.64, 27.93-31.52, 31.81-37.34, 37.62-40.04, 40.34-43.45, 43.72-46.72, 47.00-49.15, 49.46-54.05, 54.33-56.20\n[   2.9s] timeline: 6 scenes, T_END 56.60s, warnings []\n[   4.8s] [mix] input -22.3 LUFS, gain +9.2 dB, 21 SFX -> /home/claude/promenade_riddle/promenade_steps/out/work/mix.wav\n[   4.9s] [render] frame 0/1698  0s\n[   6.9s] [render] frame 150/1698  2s\n[   8.9s] [render] frame 300/1698  4s\n[  11.0s] [render] frame 450/1698  6s\n[  13.1s] [render] frame 600/1698  8s\n[  15.1s] [render] frame 750/1698  10s\n[  17.3s] [render] frame 900/1698  12s\n[  19.4s] [render] frame 1050/1698  15s\n[  21.6s] [render] frame 1200/1698  17s\n[  23.8s] [render] frame 1350/1698  19s\n[  25.8s] [render] frame 1500/1698  21s\n[  27.9s] [render] frame 1650/1698  23s\n\nvideo 1080x1920 30/1 56.6s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 5.57 MB (ok)\nweb 540x960 2.87 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 5, motion 7.68)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 2.1, 'timeline_s': 0.0, 'mix_s': 1.9, 'render_s': 24.0, 'web_s': 6.2, 'qa_s': 2.5, 'total_s': 37.5}\n"
-}
