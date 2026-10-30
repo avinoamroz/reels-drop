@@ -1,0 +1,8 @@
+{
+  "id": "s3000_p3_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "222",
+  "run": "41116378510",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n"
+}
