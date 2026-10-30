@@ -1,0 +1,8 @@
+{
+  "id": "idf_ranks_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "53",
+  "run": "41117599332",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nvoice split by segs (Cartesia word timestamps)\nranks: 79.11s, 2374 frames\n  hook       0.00 voice   0.15-  4.57\n  enl        5.36 voice   5.44- 13.76\n  nco1      14.55 voice  14.63- 20.06\n  nco2      20.85 voice  20.93- 30.00\n  jr        30.79 voice  30.87- 36.65\n  sr        37.44 voice  37.52- 44.09\n  gen       44.88 voice  44.96- 51.32\n  col       52.11 voice  52.19- 53.74\n  lt        54.53 voice  54.61- 58.53\n  sgt       59.32 voice  59.40- 63.29\n  end       64.08 voice  64.16- 67.57\n  seven     68.36 voice  68.44- 75.35\n  ask       76.14 voice  76.22- 78.41\n  frame 0/2374  0s\n  frame 150/2374  2s\n  frame 300/2374  6s\n  frame 450/2374  9s\n  frame 600/2374  12s\n  frame 750/2374  15s\n  frame 900/2374  18s\n  frame 1050/2374  21s\n  frame 1200/2374  25s\n  frame 1350/2374  28s\n  frame 1500/2374  32s\n  frame 1650/2374  35s\n  frame 1800/2374  38s\n  frame 1950/2374  40s\n  frame 2100/2374  43s\n  frame 2250/2374  45s\nwrote v3/ranks_v3_raw.mp4 6.18 MB\n"
+}
