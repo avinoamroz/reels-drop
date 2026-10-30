@@ -1,0 +1,8 @@
+{
+  "id": "israel_drinks_v2",
+  "ok": false,
+  "rc": "1",
+  "secs": "6",
+  "run": "41122018676",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   5.0s] [sse] 111 words timed from Cartesia timestamps, k 1.0000\n[   5.0s] voice 57.86s, lines 0.30-4.54, 5.05-6.88, 7.29-9.17, 9.58-11.82, 12.32-13.69, 14.10-16.42, 16.93-18.73, 19.25-22.21, 22.64-24.84, 25.27-26.18, 26.70-30.18, 30.61-33.44, 33.87-35.93, 36.27-40.53, 40.86-44.70, 45.10-49.06, 49.48-53.63, 54.06-57.86\n[   5.1s] timeline: 9 scenes, T_END 58.43s, warnings []\nTraceback (most recent call last):\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 79, in <module>\n    main()\n    ~~~~^^\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 63, in main\n    ev = [(tt, k, 0.0) for tt, k in R.sfx_events()]\n                                    ~~~~~~~~~~~~^^\n  File \"/home/claude/reelkit/render.py\", line 774, in sfx_events\n    for x in S[\"times\"].get(key, []):\n             ~~~~~~~~~~~~~~^^^^^^^^^\nTypeError: 'float' object is not iterable\n"
+}
