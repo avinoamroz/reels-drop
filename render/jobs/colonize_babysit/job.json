@@ -1,0 +1,7 @@
+{
+ "id": "colonize_babysit",
+ "cmd": "python3 /home/claude/colonize_babysit/build.py",
+ "out": "/home/claude/colonize_babysit/colonize_babysit.mp4",
+ "sent": "2026-10-30T23:44:10Z",
+ "nfiles": 75
+}
