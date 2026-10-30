@@ -1,0 +1,8 @@
+{
+  "id": "israel_beer_facts",
+  "ok": false,
+  "rc": "1",
+  "secs": "3",
+  "run": "41120603329",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.0s] [sse] 138 words timed from Cartesia timestamps, k 1.0000\n[   3.1s] voice 49.99s, lines 0.30-2.76, 3.11-6.55, 6.88-8.55, 8.89-11.49, 11.81-14.95, 15.29-17.75, 18.03-20.89, 21.24-24.74, 25.09-28.94, 29.29-32.56, 32.88-35.12, 35.46-38.11, 38.43-41.15, 41.49-43.11, 43.43-46.90, 47.22-49.99\n[   3.1s] timeline: 11 scenes, T_END 50.50s, warnings []\nTraceback (most recent call last):\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 79, in <module>\n    main()\n    ~~~~^^\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 62, in main\n    bed = MX.bed(spec.get(\"music\", \"doc_piano\"), R.T_END, end_at)\n  File \"/home/claude/reelkit/mix.py\", line 46, in bed\n    mn, path, call, _ = BEDS[name]; m = _mod(mn, path)\n                                        ~~~~^^^^^^^^^^\n  File \"/home/claude/reelkit/mix.py\", line 16, in _mod\n    spec = importlib.util.spec_from_file_location(name, path); m = importlib.util.module_from_spec(spec); spec.loader.exec_module(m); return m\n                                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"<frozen importlib._bootstrap_external>\", line 1023, in exec_module\n  File \"<frozen importlib._bootstrap_external>\", line 1160, in get_code\n  File \"<frozen importlib._bootstrap_external>\", line 1218, in get_data\nFileNotFoundError: [Errno 2] No such file or directory: '/home/claude/guinness_il/guinness_audio.py'\n"
+}
