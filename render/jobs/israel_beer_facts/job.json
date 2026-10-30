@@ -2,6 +2,6 @@
  "id": "israel_beer_facts",
  "cmd": "cd /home/claude/israel_beer_facts && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/israel_beer_facts/out/reel.mp4",
- "sent": "2026-10-30T20:16:59Z",
+ "sent": "2026-10-30T20:24:16Z",
  "nfiles": 126
 }
