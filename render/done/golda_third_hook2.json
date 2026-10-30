@@ -1,0 +1,8 @@
+{
+  "id": "golda_third_hook2",
+  "ok": true,
+  "rc": "0",
+  "secs": "39",
+  "run": "41058485301",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.1s] [sse] 109 words timed from Cartesia timestamps, k 1.0000\n[   3.1s] voice 58.87s, lines 0.30-3.80, 4.22-9.13, 9.55-14.20, 14.62-16.80, 17.23-27.38, 27.80-35.99, 36.41-41.08, 41.49-45.49, 45.93-52.13, 52.32-57.09, 57.32-58.85\n[   3.2s] timeline: 4 scenes, T_END 59.40s, warnings []\n[   5.8s] [mix] input -22.0 LUFS, gain +8.6 dB, 6 SFX -> /home/claude/rehook5/golda_third_hook2/out/work/mix.wav\n[   5.9s] [render] frame 0/1782  0s\n[   7.8s] [render] frame 150/1782  2s\n[   9.6s] [render] frame 300/1782  4s\n[  11.6s] [render] frame 450/1782  6s\n[  13.6s] [render] frame 600/1782  8s\n[  15.5s] [render] frame 750/1782  10s\n[  17.5s] [render] frame 900/1782  12s\n[  19.6s] [render] frame 1050/1782  14s\n[  21.6s] [render] frame 1200/1782  16s\n[  23.8s] [render] frame 1350/1782  18s\n[  25.8s] [render] frame 1500/1782  20s\n[  27.6s] [render] frame 1650/1782  22s\n\nvideo 1080x1920 30/1 59.4s aac 48000 Hz: -14.0 LUFS, TP -2.0 dBTP, 4.97 MB (ok)\nweb 540x960 2.73 MB (ok), -14.0 LUFS, TP -2.0\nhook: FAIL (frame-0 text 12, motion 0.75)\ndashes: ok (0 replaced)\nlayout issues: 12\nstages {'voice_align_s': 2.1, 'timeline_s': 0.0, 'mix_s': 2.7, 'render_s': 23.8, 'web_s': 6.4, 'qa_s': 2.5, 'total_s': 38.5}\n"
+}
