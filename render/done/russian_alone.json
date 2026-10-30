@@ -1,0 +1,8 @@
+{
+  "id": "russian_alone",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "41023905558",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.9s] [sse] 152 words timed from Cartesia timestamps, k 0.9998\n[   4.0s] voice 53.22s, lines 0.30-3.50, 3.92-9.39, 9.81-13.55, 14.01-18.80, 19.23-21.56, 21.69-25.22, 25.64-28.05, 28.44-35.53, 35.98-39.64, 40.06-42.94, 43.36-46.50, 46.92-49.63, 50.05-53.21\n[   4.1s] timeline: 13 scenes, T_END 53.77s, warnings []\n[   6.4s] [mix] input -22.0 LUFS, gain +8.8 dB, 21 SFX -> /home/claude/daily_1030/russian_alone/out/work/mix.wav\n[   6.7s] [render] frame 0/1613  0s\n[   9.4s] [render] frame 150/1613  3s\n[  11.9s] [render] frame 300/1613  5s\n[  14.2s] [render] frame 450/1613  8s\n[  16.4s] [render] frame 600/1613  10s\n[  18.9s] [render] frame 750/1613  13s\n[  21.3s] [render] frame 900/1613  15s\n[  23.5s] [render] frame 1050/1613  17s\n[  25.9s] [render] frame 1200/1613  19s\n[  28.3s] [render] frame 1350/1613  22s\n[  30.8s] [render] frame 1500/1613  24s\n\nvideo 1080x1920 30/1 53.77s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 5.45 MB (ok)\nweb 540x960 2.79 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 3, motion 22.78)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 2.8, 'timeline_s': 0.1, 'mix_s': 2.3, 'render_s': 26.6, 'web_s': 7.5, 'qa_s': 3.3, 'total_s': 43.9}\n"
+}
