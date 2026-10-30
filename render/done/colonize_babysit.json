@@ -1,0 +1,8 @@
+{
+  "id": "colonize_babysit",
+  "ok": true,
+  "rc": "0",
+  "secs": "53",
+  "run": "41146217734",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nT_END 59.47  reveal 42.91 (72%)  end card hold 0.60 s\nframe 0 / 1784\nframe 150 / 1784\nframe 300 / 1784\nframe 450 / 1784\nframe 600 / 1784\nframe 750 / 1784\nframe 900 / 1784\nframe 1050 / 1784\nframe 1200 / 1784\nframe 1350 / 1784\nframe 1500 / 1784\nframe 1650 / 1784\nsilent /home/claude/colonize_babysit/work/silent.mp4\nfinal /home/claude/colonize_babysit/colonize_babysit.mp4\n"
+}
