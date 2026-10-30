@@ -1,0 +1,7 @@
+{
+ "id": "startups20_p1_v4",
+ "cmd": "cd /home/claude/startups20/v4 && python3 /home/claude/reelkit/make_reel_sse.py spec_p1.json s4/vo out_p1",
+ "out": "/home/claude/startups20/v4/out_p1/reel.mp4",
+ "sent": "2026-10-30T19:52:35Z",
+ "nfiles": 3996
+}
