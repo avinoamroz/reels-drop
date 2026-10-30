@@ -1,0 +1,7 @@
+{
+ "id": "idf_ranks_v3",
+ "cmd": "bash /home/claude/idf/ranks/build_v3.sh",
+ "out": "/home/claude/idf/ranks/v3/idf_ranks_v3.mp4",
+ "sent": "2026-10-30T19:43:27Z",
+ "nfiles": 54
+}
