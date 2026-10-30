@@ -1,0 +1,7 @@
+{
+ "id": "promenade_steps",
+ "cmd": "cd /home/claude/promenade_riddle/promenade_steps && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/promenade_riddle/promenade_steps/out/reel.mp4",
+ "sent": "2026-10-30T19:46:40Z",
+ "nfiles": 139
+}
