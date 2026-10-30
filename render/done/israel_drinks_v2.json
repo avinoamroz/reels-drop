@@ -1,0 +1,8 @@
+{
+  "id": "israel_drinks_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "60",
+  "run": "41122670889",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.9s] [sse] 111 words timed from Cartesia timestamps, k 1.0000\n[   4.9s] voice 57.86s, lines 0.30-4.54, 5.05-6.88, 7.29-9.17, 9.58-11.82, 12.32-13.69, 14.10-16.42, 16.93-18.73, 19.25-22.21, 22.64-24.84, 25.27-26.18, 26.70-30.18, 30.61-33.44, 33.87-35.93, 36.27-40.53, 40.86-44.70, 45.10-49.06, 49.48-53.63, 54.06-57.86\n[   5.0s] timeline: 9 scenes, T_END 58.43s, warnings []\n[   8.2s] [mix] input -22.2 LUFS, gain +9.5 dB, 28 SFX -> /home/claude/israel_drinks/v2/out/work/mix.wav\n[   8.3s] [render] frame 0/1753  0s\n[  11.6s] [render] frame 150/1753  3s\n[  14.6s] [render] frame 300/1753  6s\n[  17.6s] [render] frame 450/1753  9s\n[  20.7s] [render] frame 600/1753  13s\n[  23.8s] [render] frame 750/1753  16s\n[  27.1s] [render] frame 900/1753  19s\n[  30.2s] [render] frame 1050/1753  22s\n[  32.9s] [render] frame 1200/1753  25s\n[  35.7s] [render] frame 1350/1753  28s\n[  38.6s] [render] frame 1500/1753  30s\n[  41.5s] [render] frame 1650/1753  33s\n\nvideo 1080x1920 30/1 58.43s aac 48000 Hz: -14.2 LUFS, TP -1.8 dBTP, 6.66 MB (ok)\nweb 540x960 3.28 MB (ok), -14.2 LUFS, TP -1.8\nhook: ok (frame-0 text 5, motion 13.09)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 3.6, 'timeline_s': 0.1, 'mix_s': 3.2, 'render_s': 36.4, 'web_s': 10.2, 'qa_s': 4.3, 'total_s': 59.1}\n"
+}
