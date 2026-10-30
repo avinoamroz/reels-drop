@@ -1,0 +1,7 @@
+{
+ "id": "love_colonizing_v2",
+ "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/gdocs_1030/lc2/spec.json /home/claude/gdocs_1030/lc2/out/timing.json /home/claude/gdocs_1030/lc2/out/mix.wav /home/claude/gdocs_1030/lc2/love_colonizing_v2_render.mp4",
+ "out": "/home/claude/gdocs_1030/lc2/love_colonizing_v2_render.mp4",
+ "sent": "2026-10-30T06:38:38Z",
+ "nfiles": 27
+}
