@@ -1,0 +1,7 @@
+{
+ "id": "arab_haredi_race",
+ "cmd": "cd /home/claude/arab_haredi_race && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/arab_haredi_race/out/reel.mp4",
+ "sent": "2026-10-30T19:36:20Z",
+ "nfiles": 140
+}
