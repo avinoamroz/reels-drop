@@ -1,0 +1,7 @@
+{
+ "id": "lib_mena_rights_v3",
+ "cmd": "python3 /home/claude/muslims_freest_v2/cloud/engine.py --out /home/claude/muslims_freest_v2/cloud/out.mp4",
+ "out": "/home/claude/muslims_freest_v2/cloud/out.mp4",
+ "sent": "2026-10-30T20:05:47Z",
+ "nfiles": 30
+}
