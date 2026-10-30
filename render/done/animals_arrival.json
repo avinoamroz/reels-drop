@@ -1,0 +1,8 @@
+{
+  "id": "animals_arrival",
+  "ok": true,
+  "rc": "0",
+  "secs": "48",
+  "run": "41023905558",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.8s] [sse] 153 words timed from Cartesia timestamps, k 0.9999\n[   3.9s] voice 55.09s, lines 0.30-5.58, 5.94-11.61, 12.06-16.32, 16.73-22.11, 22.54-26.23, 26.54-30.87, 31.29-39.58, 39.94-45.62, 45.98-49.49, 49.91-55.09\n[   4.0s] timeline: 10 scenes, T_END 55.67s, warnings []\n[   6.9s] [mix] input -21.2 LUFS, gain +8.3 dB, 12 SFX -> /home/claude/daily_1030/animals_arrival/out/work/mix.wav\n[   7.2s] [render] frame 0/1670  0s\n[   9.7s] [render] frame 150/1670  3s\n[  12.5s] [render] frame 300/1670  6s\n[  15.3s] [render] frame 450/1670  8s\n[  17.9s] [render] frame 600/1670  11s\n[  20.5s] [render] frame 750/1670  14s\n[  23.0s] [render] frame 900/1670  16s\n[  25.6s] [render] frame 1050/1670  19s\n[  28.3s] [render] frame 1200/1670  21s\n[  30.9s] [render] frame 1350/1670  24s\n[  33.4s] [render] frame 1500/1670  26s\n[  36.0s] [render] frame 1650/1670  29s\n\nvideo 1080x1920 30/1 55.67s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 6.0 MB (ok)\nweb 540x960 2.96 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 6, motion 3.09)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 2.9, 'render_s': 29.8, 'web_s': 7.9, 'qa_s': 3.5, 'total_s': 48.0}\n"
+}
