@@ -1,0 +1,7 @@
+{
+ "id": "babysitters",
+ "cmd": "cd /home/claude/babysitters && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo/vo out",
+ "out": "/home/claude/babysitters/out/reel.mp4",
+ "sent": "2026-10-30T20:18:59Z",
+ "nfiles": 139
+}
