@@ -1,0 +1,7 @@
+{
+ "id": "jerusalem_1000bce",
+ "cmd": "cd /home/claude/daily_1030/jerusalem_1000bce && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1030/jerusalem_1000bce/out/reel.mp4",
+ "sent": "2026-10-30T08:03:11Z",
+ "nfiles": 139
+}
