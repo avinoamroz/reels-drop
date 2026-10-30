@@ -1,0 +1,8 @@
+{
+  "id": "safe_p2_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "389",
+  "run": "41099975469",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1733\nframe 150/1733\nframe 300/1733\nframe 450/1733\nframe 600/1733\nframe 750/1733\nframe 900/1733\nframe 1050/1733\nframe 1200/1733\nframe 1350/1733\nframe 1500/1733\nframe 1650/1733\nvideo /home/claude/series_more/safe_p2_v2/work/silent.mp4 57.76s\nfinal /home/claude/series_more/safe_p2_v2/safe_p2_v2.mp4\n"
+}
