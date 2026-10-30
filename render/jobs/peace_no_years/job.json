@@ -1,0 +1,7 @@
+{
+ "id": "peace_no_years",
+ "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/peace_no_years/spec.json /home/claude/peace_no_years/out/timing.json /home/claude/peace_no_years/out/mix.wav /home/claude/peace_no_years/peace_no_years_render.mp4",
+ "out": "/home/claude/peace_no_years/peace_no_years_render.mp4",
+ "sent": "2026-10-30T07:09:11Z",
+ "nfiles": 27
+}
