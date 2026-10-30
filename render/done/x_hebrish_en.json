@@ -1,0 +1,8 @@
+{
+  "id": "x_hebrish_en",
+  "ok": true,
+  "rc": "0",
+  "secs": "53",
+  "run": "41049058788",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.7s] [sse] 135 words timed from Cartesia timestamps, k 0.9999\n[   4.7s] voice 56.83s, lines 0.30-8.79, 9.21-14.07, 14.51-18.13, 18.55-23.17, 23.59-28.52, 28.93-34.50, 34.93-39.30, 39.72-45.67, 46.00-53.45, 53.87-56.81\n[   4.8s] timeline: 7 scenes, T_END 57.40s, warnings []\n[   7.7s] [mix] input -22.7 LUFS, gain +9.5 dB, 6 SFX -> /home/claude/express_1030/x_hebrish_en/out/work/mix.wav\n[   7.9s] [render] frame 0/1722  0s\n[  10.6s] [render] frame 150/1722  3s\n[  13.5s] [render] frame 300/1722  6s\n[  16.2s] [render] frame 450/1722  9s\n[  18.9s] [render] frame 600/1722  11s\n[  21.5s] [render] frame 750/1722  14s\n[  23.9s] [render] frame 900/1722  16s\n[  26.5s] [render] frame 1050/1722  19s\n[  29.2s] [render] frame 1200/1722  21s\n[  31.9s] [render] frame 1350/1722  24s\n[  34.7s] [render] frame 1500/1722  27s\n[  37.4s] [render] frame 1650/1722  30s\n\nvideo 1080x1920 30/1 57.4s aac 48000 Hz: -14.0 LUFS, TP -1.8 dBTP, 4.71 MB (ok)\nweb 540x960 2.62 MB (ok), -14.0 LUFS, TP -1.8\nhook: ok (frame-0 text 3, motion 2.83)\ndashes: ok (0 replaced)\nlayout issues: 10\nstages {'voice_align_s': 3.5, 'timeline_s': 0.1, 'mix_s': 3.0, 'render_s': 32.2, 'web_s': 9.3, 'qa_s': 3.8, 'total_s': 53.1}\n"
+}
