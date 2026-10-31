@@ -1,0 +1,8 @@
+{
+  "id": "lib_build_destroy_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "71",
+  "run": "41226330335",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   5.3s] [sse] 180 words timed from Cartesia timestamps, k 0.9999\n[   5.4s] voice 71.40s, lines 0.30-2.70, 3.18-7.05, 7.48-10.41, 10.89-17.05, 17.50-24.23, 24.73-31.65, 32.15-38.52, 39.02-46.47, 46.97-55.30, 55.75-59.02, 59.30-61.62, 61.85-67.98, 68.23-71.39\n[   5.4s] timeline: 13 scenes, T_END 71.90s, warnings []\n[  10.9s] [mix] input -21.7 LUFS, gain +8.4 dB, 36 SFX -> /home/claude/build_destroy/v3/out/work/mix.wav\n[  11.0s] [render] frame 0/2157  0s\n[  13.5s] [render] frame 150/2157  3s\n[  16.7s] [render] frame 300/2157  6s\n[  19.9s] [render] frame 450/2157  9s\n[  22.6s] [render] frame 600/2157  12s\n[  25.6s] [render] frame 750/2157  15s\n[  28.1s] [render] frame 900/2157  17s\n[  31.4s] [render] frame 1050/2157  21s\n[  34.0s] [render] frame 1200/2157  23s\n[  36.7s] [render] frame 1350/2157  26s\n[  39.5s] [render] frame 1500/2157  29s\n[  42.2s] [render] frame 1650/2157  31s\n[  45.0s] [render] frame 1800/2157  34s\n[  48.1s] [render] frame 1950/2157  37s\n[  51.0s] [render] frame 2100/2157  40s\n\nvideo 1080x1920 30/1 71.9s aac 48000 Hz: -14.0 LUFS, TP -2.0 dBTP, 7.36 MB (ok)\nweb 540x960 3.66 MB (ok), -14.0 LUFS, TP -2.0\nhook: ok (frame-0 text 3, motion 1.61)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 4.2, 'timeline_s': 0.1, 'mix_s': 5.5, 'render_s': 42.0, 'web_s': 12.0, 'qa_s': 5.1, 'total_s': 70.1}\n"
+}
