@@ -1,0 +1,8 @@
+{
+  "id": "x_jerusalem_en_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "31",
+  "run": "41224068517",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.2s] [sse] 66 words timed from Cartesia timestamps, k 0.9998\n[   3.2s] voice 31.07s, lines 0.30-4.64, 5.06-8.09, 8.51-10.78, 11.20-13.09, 13.51-15.46, 15.88-17.47, 17.89-20.02, 20.64-22.88, 23.23-25.15, 25.49-27.79, 28.31-31.06\n[   3.3s] timeline: 4 scenes, T_END 31.40s, warnings []\n[   5.2s] [mix] input -21.4 LUFS, gain +8.2 dB, 5 SFX -> /home/claude/express_1031_cta/x_jerusalem_en_v2/out/work/mix.wav\n[   5.3s] [render] frame 0/942  0s\n[   8.2s] [render] frame 150/942  3s\n[  11.0s] [render] frame 300/942  6s\n[  13.8s] [render] frame 450/942  9s\n[  16.6s] [render] frame 600/942  11s\n[  19.4s] [render] frame 750/942  14s\n[  22.1s] [render] frame 900/942  17s\n\nvideo 1080x1920 30/1 31.4s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 2.96 MB (ok)\nweb 540x960 1.57 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 5, motion 1.59)\ndashes: ok (0 replaced)\nlayout issues: 5\nstages {'voice_align_s': 2.0, 'timeline_s': 0.0, 'mix_s': 1.9, 'render_s': 18.4, 'web_s': 5.3, 'qa_s': 2.3, 'total_s': 31.2}\n"
+}
