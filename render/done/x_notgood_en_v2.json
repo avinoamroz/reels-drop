@@ -1,0 +1,8 @@
+{
+  "id": "x_notgood_en_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "37",
+  "run": "41224068517",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.1s] [sse] 102 words timed from Cartesia timestamps, k 0.9998\n[   4.2s] voice 35.12s, lines 0.30-3.37, 3.69-7.93, 8.37-14.82, 15.28-18.91, 19.34-25.00, 25.62-27.87, 28.22-30.14, 30.47-32.78, 33.34-35.12\n[   4.2s] timeline: 6 scenes, T_END 35.43s, warnings []\n[   7.1s] [mix] input -21.7 LUFS, gain +8.8 dB, 7 SFX -> /home/claude/express_1031_cta/x_notgood_en_v2/out/work/mix.wav\n[   7.2s] [render] frame 0/1063  0s\n[   9.9s] [render] frame 150/1063  3s\n[  12.8s] [render] frame 300/1063  6s\n[  15.6s] [render] frame 450/1063  9s\n[  18.5s] [render] frame 600/1063  11s\n[  21.5s] [render] frame 750/1063  14s\n[  24.4s] [render] frame 900/1063  17s\n[  27.1s] [render] frame 1050/1063  20s\n\nvideo 1080x1920 30/1 35.43s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 3.72 MB (ok)\nweb 540x960 1.87 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 5, motion 1.55)\ndashes: ok (0 replaced)\nlayout issues: 16\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 2.8, 'render_s': 21.3, 'web_s': 6.2, 'qa_s': 2.7, 'total_s': 37.3}\n"
+}
