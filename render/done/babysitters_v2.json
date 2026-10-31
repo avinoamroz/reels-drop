@@ -1,0 +1,8 @@
+{
+  "id": "babysitters_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "66",
+  "run": "41226330335",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   5.1s] [sse] 195 words timed from Cartesia timestamps, k 0.9999\n[   5.3s] voice 69.00s, lines 0.30-2.67, 3.02-5.17, 5.50-9.05, 9.39-11.48, 11.82-16.21, 16.57-18.67, 18.99-22.86, 23.20-25.53, 25.87-28.82, 29.15-30.98, 31.34-35.14, 35.42-37.49, 37.80-41.09, 41.62-46.34, 46.71-50.49, 50.85-53.42, 54.09-56.42, 56.77-61.08, 61.41-65.14, 65.67-68.99\n[   5.4s] timeline: 5 scenes, T_END 69.57s, warnings []\n[   9.8s] [mix] input -21.9 LUFS, gain +8.5 dB, 14 SFX -> /home/claude/babysitters/v2/out/work/mix.wav\n[   9.9s] [render] frame 0/2087  0s\n[  12.9s] [render] frame 150/2087  3s\n[  16.0s] [render] frame 300/2087  6s\n[  18.8s] [render] frame 450/2087  9s\n[  21.7s] [render] frame 600/2087  12s\n[  24.7s] [render] frame 750/2087  15s\n[  28.0s] [render] frame 900/2087  18s\n[  31.2s] [render] frame 1050/2087  21s\n[  34.6s] [render] frame 1200/2087  25s\n[  37.6s] [render] frame 1350/2087  28s\n[  40.4s] [render] frame 1500/2087  31s\n[  43.2s] [render] frame 1650/2087  33s\n[  46.0s] [render] frame 1800/2087  36s\n[  48.8s] [render] frame 1950/2087  39s\n\nvideo 1080x1920 30/1 69.57s aac 48000 Hz: -14.1 LUFS, TP -1.4 dBTP, 5.65 MB (CHECK)\nweb 540x960 3.15 MB (ok), -14.1 LUFS, TP -1.4\nhook: ok (frame-0 text 12, motion 1.92)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 3.8, 'timeline_s': 0.1, 'mix_s': 4.5, 'render_s': 42.2, 'web_s': 9.8, 'qa_s': 4.1, 'total_s': 65.9}\n"
+}
