@@ -1,0 +1,8 @@
+{
+  "id": "jerusalem_captured_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "65",
+  "run": "41228419343",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.8s] [sse] 146 words timed from Cartesia timestamps, k 0.9999\n[   3.9s] voice 51.49s, lines 0.30-3.34, 3.76-6.87, 7.29-9.78, 10.20-12.44, 12.88-17.06, 17.42-20.99, 21.41-25.62, 26.06-29.08, 29.50-34.50, 34.92-39.35, 39.78-44.99, 45.26-48.30, 48.72-51.49\n[   3.9s] timeline: 12 scenes, T_END 52.07s, warnings []\n[   7.4s] [mix] input -22.2 LUFS, gain +9.2 dB, 13 SFX -> /home/claude/photos_v2/jerusalem_captured_v2/out/work/mix.wav\n[   7.7s] [render] frame 0/1562  0s\n[  10.7s] [render] frame 150/1562  3s\n[  15.3s] [render] frame 300/1562  8s\n[  20.5s] [render] frame 450/1562  13s\n[  24.9s] [render] frame 600/1562  17s\n[  30.1s] [render] frame 750/1562  23s\n[  34.4s] [render] frame 900/1562  27s\n[  37.4s] [render] frame 1050/1562  30s\n[  39.9s] [render] frame 1200/1562  32s\n[  42.5s] [render] frame 1350/1562  35s\n[  46.6s] [render] frame 1500/1562  39s\n\nvideo 1080x1920 30/1 52.07s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 14.76 MB (ok)\nweb 540x960 4.77 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 3, motion 8.84)\ndashes: ok (0 replaced)\nlayout issues: 10\nstages {'voice_align_s': 2.8, 'timeline_s': 0.1, 'mix_s': 3.5, 'render_s': 42.1, 'web_s': 10.9, 'qa_s': 4.6, 'total_s': 65.0}\n"
+}
