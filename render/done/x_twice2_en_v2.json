@@ -1,0 +1,8 @@
+{
+  "id": "x_twice2_en_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "41224068517",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.0s] [sse] 112 words timed from Cartesia timestamps, k 0.9999\n[   4.0s] voice 44.59s, lines 0.30-4.87, 4.96-8.96, 9.41-14.70, 15.12-20.20, 20.64-25.21, 25.63-28.80, 29.22-32.60, 33.22-35.47, 35.82-37.73, 38.07-40.38, 40.94-44.57\n[   4.1s] timeline: 4 scenes, T_END 44.90s, warnings []\n[   6.6s] [mix] input -22.3 LUFS, gain +8.8 dB, 5 SFX -> /home/claude/express_1031_cta/x_twice2_en_v2/out/work/mix.wav\n[   6.8s] [render] frame 0/1347  0s\n[   9.6s] [render] frame 150/1347  3s\n[  12.3s] [render] frame 300/1347  6s\n[  14.8s] [render] frame 450/1347  8s\n[  17.3s] [render] frame 600/1347  11s\n[  20.0s] [render] frame 750/1347  13s\n[  23.0s] [render] frame 900/1347  16s\n[  25.6s] [render] frame 1050/1347  19s\n[  28.5s] [render] frame 1200/1347  22s\n\nvideo 1080x1920 30/1 44.9s aac 48000 Hz: -14.0 LUFS, TP -1.6 dBTP, 3.83 MB (ok)\nweb 540x960 2.11 MB (ok), -14.0 LUFS, TP -1.6\nhook: ok (frame-0 text 6, motion 1.46)\ndashes: ok (0 replaced)\nlayout issues: 5\nstages {'voice_align_s': 2.8, 'timeline_s': 0.1, 'mix_s': 2.5, 'render_s': 25.6, 'web_s': 7.4, 'qa_s': 3.1, 'total_s': 42.8}\n"
+}
