@@ -1,0 +1,7 @@
+{
+ "id": "x_notgood_en_v2",
+ "cmd": "cd /home/claude/express_1031_cta/x_notgood_en_v2 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_1031_cta/x_notgood_en_v2/out/reel.mp4",
+ "sent": "2026-10-31T17:20:18Z",
+ "nfiles": 139
+}
