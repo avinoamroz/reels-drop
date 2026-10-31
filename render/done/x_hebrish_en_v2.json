@@ -1,0 +1,8 @@
+{
+  "id": "x_hebrish_en_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "54",
+  "run": "41227119492",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.4s] [sse] 139 words timed from Cartesia timestamps, k 0.9999\n[   4.5s] voice 58.87s, lines 0.30-9.29, 9.72-14.29, 14.74-18.36, 18.79-23.35, 23.78-28.65, 29.08-34.84, 35.28-39.74, 40.19-46.14, 46.76-49.00, 49.35-51.27, 51.61-53.91, 54.47-58.85\n[   4.5s] timeline: 6 scenes, T_END 59.20s, warnings []\n[   7.7s] [mix] input -22.3 LUFS, gain +9.0 dB, 7 SFX -> /home/claude/express_1031_cta/x_hebrish_en_v2/out/work/mix.wav\n[   7.8s] [render] frame 0/1776  0s\n[  10.5s] [render] frame 150/1776  3s\n[  13.1s] [render] frame 300/1776  5s\n[  15.9s] [render] frame 450/1776  8s\n[  18.7s] [render] frame 600/1776  11s\n[  21.3s] [render] frame 750/1776  14s\n[  23.6s] [render] frame 900/1776  16s\n[  26.2s] [render] frame 1050/1776  19s\n[  28.8s] [render] frame 1200/1776  21s\n[  31.6s] [render] frame 1350/1776  24s\n[  34.3s] [render] frame 1500/1776  27s\n[  37.0s] [render] frame 1650/1776  29s\n\nvideo 1080x1920 30/1 59.2s aac 48000 Hz: -14.0 LUFS, TP -1.8 dBTP, 4.81 MB (ok)\nweb 540x960 2.7 MB (ok), -14.0 LUFS, TP -1.8\nhook: ok (frame-0 text 3, motion 3.08)\ndashes: ok (0 replaced)\nlayout issues: 11\nstages {'voice_align_s': 3.4, 'timeline_s': 0.1, 'mix_s': 3.1, 'render_s': 32.7, 'web_s': 9.7, 'qa_s': 4.0, 'total_s': 54.0}\n"
+}
