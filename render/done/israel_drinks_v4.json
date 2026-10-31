@@ -1,0 +1,8 @@
+{
+  "id": "israel_drinks_v4",
+  "ok": true,
+  "rc": "0",
+  "secs": "37",
+  "run": "41176060242",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.1s] [sse] 129 words timed from Cartesia timestamps, k 0.9999\n[   3.2s] voice 55.97s, lines 0.30-2.21, 2.57-5.10, 5.46-9.32, 9.68-11.58, 11.94-13.65, 14.01-15.39, 15.75-18.06, 18.42-20.22, 20.58-23.55, 23.91-25.42, 25.78-26.69, 27.05-30.53, 30.89-33.47, 33.83-35.61, 35.97-42.32, 42.68-48.28, 48.64-53.66, 54.02-55.95\n[   3.2s] timeline: 8 scenes, T_END 56.10s, warnings []\n[loop bed] 28 bars at 119.79 BPM over 56.100 s\n[   6.0s] [mix] input -21.8 LUFS, gain +8.6 dB, 28 SFX -> /home/claude/israel_drinks/v4/out/work/mix.wav\n[   6.1s] [render] frame 0/1683  0s\n[   7.9s] [render] frame 150/1683  2s\n[   9.8s] [render] frame 300/1683  4s\n[  11.7s] [render] frame 450/1683  6s\n[  13.6s] [render] frame 600/1683  8s\n[  15.6s] [render] frame 750/1683  10s\n[  17.6s] [render] frame 900/1683  12s\n[  19.6s] [render] frame 1050/1683  14s\n[  21.5s] [render] frame 1200/1683  16s\n[  23.6s] [render] frame 1350/1683  18s\n[  25.4s] [render] frame 1500/1683  19s\n[  27.4s] [render] frame 1650/1683  21s\n\nvideo 1080x1920 30/1 56.1s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 5.86 MB (ok)\nweb 540x960 3.01 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 3, motion 4.47)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 2.2, 'timeline_s': 0.0, 'mix_s': 2.8, 'render_s': 22.1, 'web_s': 6.2, 'qa_s': 2.6, 'total_s': 36.9}\n"
+}
