@@ -1,0 +1,8 @@
+{
+  "id": "x_meeting_en_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "33",
+  "run": "41227119492",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.6s] [sse] 91 words timed from Cartesia timestamps, k 0.9998\n[   3.6s] voice 33.93s, lines 0.30-4.11, 4.53-9.65, 10.02-15.29, 15.74-23.23, 23.84-26.09, 26.44-28.36, 28.69-31.00, 31.56-33.91\n[   3.7s] timeline: 5 scenes, T_END 34.23s, warnings []\n[   5.6s] [mix] input -22.0 LUFS, gain +9.2 dB, 6 SFX -> /home/claude/express_1031_cta/x_meeting_en_v2/out/work/mix.wav\n[   5.8s] [render] frame 0/1027  0s\n[   8.4s] [render] frame 150/1027  3s\n[  11.0s] [render] frame 300/1027  5s\n[  13.7s] [render] frame 450/1027  8s\n[  16.4s] [render] frame 600/1027  11s\n[  18.9s] [render] frame 750/1027  13s\n[  21.7s] [render] frame 900/1027  16s\n\nvideo 1080x1920 30/1 34.23s aac 48000 Hz: -14.1 LUFS, TP -1.5 dBTP, 3.13 MB (ok)\nweb 540x960 1.69 MB (ok), -14.1 LUFS, TP -1.5\nhook: ok (frame-0 text 4, motion 1.51)\ndashes: ok (0 replaced)\nlayout issues: 16\nstages {'voice_align_s': 2.4, 'timeline_s': 0.0, 'mix_s': 2.0, 'render_s': 19.4, 'web_s': 5.7, 'qa_s': 2.5, 'total_s': 33.3}\n"
+}
