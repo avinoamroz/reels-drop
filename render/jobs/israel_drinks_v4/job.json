@@ -1,0 +1,7 @@
+{
+ "id": "israel_drinks_v4",
+ "cmd": "cd /home/claude/israel_drinks/v4 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/israel_drinks/v4/out/reel.mp4",
+ "sent": "2026-10-31T06:18:26Z",
+ "nfiles": 139
+}
