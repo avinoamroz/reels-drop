@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Voice fix</title>
+<style>
+:root{--bg:#0B0F17;--card:#151B26;--fg:#F4F6FA;--muted:#9AA4B5;--red:#D2453A;--navy:#163260;--blue:#2A88D4;--gold:#E8C77E;--line:#263042}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,sans-serif}
+main{max-width:520px;margin:0 auto;padding:24px 16px 40px;display:flex;flex-direction:column;gap:16px;min-height:100vh}
+h1{font-size:22px;margin:0}
+.sub{color:var(--muted);font-size:14px}
+label{font-size:13px;color:var(--muted);font-weight:700}
+input,textarea{width:100%;font:inherit;font-size:16px;background:var(--card);color:var(--fg);border:1px solid var(--line);border-radius:12px;padding:12px}
+textarea{min-height:80px;resize:vertical}
+.row{display:flex;gap:10px}
+.row>*{flex:1}
+.rec{height:120px;border:0;border-radius:24px;background:var(--red);color:#fff;font-size:20px;font-weight:800;display:flex;align-items:center;justify-content:center;gap:12px}
+.rec .dot{width:22px;height:22px;border-radius:50%;background:#fff}
+.rec.on{background:#7A1F18}
+.rec.on .dot{border-radius:4px;animation:b 1s infinite}
+@keyframes b{50%{opacity:.35}}
+.clip{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px}
+.clip audio{flex:1;min-width:0;height:36px}
+.clip b{font-variant-numeric:tabular-nums;color:var(--gold)}
+.clip button{background:none;border:0;color:var(--muted);font-size:20px;width:32px}
+.send{height:56px;border:0;border-radius:16px;background:var(--blue);color:#fff;font-size:18px;font-weight:800}
+.send:disabled{opacity:.45}
+.ghost{height:48px;border:1px solid var(--line);border-radius:14px;background:transparent;color:var(--fg);font-weight:700;display:flex;align-items:center;justify-content:center}
+.ghost input{display:none}
+.msg{min-height:1.4em;font-weight:700}
+.ok{color:#5BD08A}.err{color:#FF8A80}
+</style>
+</head>
+<body>
+<main>
+ <div>
+  <h1>Voice fix</h1>
+  <div class="sub" id="forLine">Record what should change. Claude listens and makes the fix.</div>
+ </div>
+ <div><label for="reel">Reel</label><input id="reel" placeholder="Reel name or id" autocomplete="off"></div>
+ <div class="row">
+  <div><label for="at">At (video time)</label><input id="at" placeholder="0:12" inputmode="numeric"></div>
+ </div>
+ <button class="rec" id="rec"><span class="dot"></span><span id="recLbl">Tap to record</span></button>
+ <div id="clips" style="display:flex;flex-direction:column;gap:8px"></div>
+ <label class="ghost">Or attach a voice memo<input type="file" id="file" accept="audio/*,video/mp4,video/webm,.m4a,.mp3,.wav,.ogg,.opus,.aac"></label>
+ <div><label for="note">Typed note (optional)</label><textarea id="note" placeholder="Anything to add"></textarea></div>
+ <button class="send" id="send" disabled>Send to Claude</button>
+ <div class="msg" id="msg"></div>
+</main>
+<script>
+const HOOK="https://hook.us1.make.com/q1w9zkqeoeo1djbeld15209467yyjila";
+const $=id=>document.getElementById(id);
+const q=new URLSearchParams(location.search);
+const mmss=s=>{s=Math.max(0,Math.floor(+s||0));return Math.floor(s/60)+":"+String(s%60).padStart(2,"0");};
+if(q.get("id"))$("reel").value=q.get("id");
+if(q.get("t"))$("at").value=mmss(q.get("t"));
+if(q.get("title"))$("forLine").textContent="For: "+q.get("title");
+let clips=[],mr=null,stream=null,chunks=[],t0=0,tick=0;
+function render(){
+ const box=$("clips");box.innerHTML="";
+ clips.forEach((c,i)=>{const d=document.createElement("div");d.className="clip";
+  d.innerHTML='<b>['+(c.at||"?")+']</b><audio controls preload="metadata"></audio><button aria-label="Delete">×</button>';
+  d.querySelector("audio").src=c.url;
+  d.querySelector("button").onclick=()=>{URL.revokeObjectURL(c.url);clips.splice(i,1);render();};
+  box.appendChild(d);});
+ $("send").disabled=!clips.length&&!$("note").value.trim();
+}
+$("note").oninput=render;
+async function start(){
+ $("msg").textContent="";
+ try{stream=await navigator.mediaDevices.getUserMedia({audio:true});}
+ catch(e){$("msg").className="msg err";$("msg").textContent="Microphone blocked. Allow it in the browser settings, or attach a voice memo below.";return;}
+ const types=["audio/webm;codecs=opus","audio/webm","audio/mp4","audio/aac"];
+ let mt="";for(const t of types){try{if(MediaRecorder.isTypeSupported(t)){mt=t;break;}}catch(e){}}
+ mr=new MediaRecorder(stream,mt?{mimeType:mt,audioBitsPerSecond:32000}:undefined);chunks=[];
+ mr.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data);};
+ mr.onstop=()=>{const type=(mr.mimeType||mt||"audio/webm").split(";")[0];const b=new Blob(chunks,{type});
+  stream.getTracks().forEach(t=>t.stop());clips.push({blob:b,url:URL.createObjectURL(b),at:$("at").value.trim()});
+  $("rec").classList.remove("on");$("recLbl").textContent="Record another";clearInterval(tick);render();};
+ mr.start(1000);t0=Date.now();$("rec").classList.add("on");
+ const up=()=>{const s=(Date.now()-t0)/1000;$("recLbl").textContent="Recording "+mmss(s)+" · tap to stop";if(s>=240)stop();};up();tick=setInterval(up,500);
+}
+function stop(){if(mr&&mr.state==="recording")mr.stop();}
+$("rec").onclick=()=>{mr&&mr.state==="recording"?stop():start();};
+$("file").onchange=e=>{const f=e.target.files&&e.target.files[0];if(f){clips.push({blob:f,url:URL.createObjectURL(f),at:$("at").value.trim(),name:f.name});render();}e.target.value="";};
+const b64=blob=>new Promise((res,rej)=>{const r=new FileReader();r.onload=()=>res(String(r.result).split(",")[1]||"");r.onerror=rej;r.readAsDataURL(blob);});
+$("send").onclick=async()=>{
+ stop();
+ const reel=$("reel").value.trim();
+ if(!reel){$("msg").className="msg err";$("msg").textContent="Write which reel this is for.";$("reel").focus();return;}
+ const b=$("send");b.disabled=true;b.textContent="Sending...";$("msg").textContent="";
+ try{
+  const note=$("note").value.trim();
+  const parts=clips.length?clips:[null];
+  for(let i=0;i<parts.length;i++){
+   const c=parts[i];
+   if(c&&c.blob.size>4*1024*1024)throw new Error("too_big");
+   const body={kind:"launchmap_voice",reel,at:(c&&c.at)||$("at").value.trim(),note:i===0?note:"",part:i+1,parts:parts.length,
+     mime:c?(c.blob.type||""):"",name:c?(c.name||""):"",audio_b64:c?await b64(c.blob):"",sentAt:new Date().toISOString()};
+   await fetch(HOOK,{method:"POST",mode:"no-cors",headers:{"Content-Type":"text/plain"},body:JSON.stringify(body)});
+  }
+  clips.forEach(c=>URL.revokeObjectURL(c.url));clips=[];$("note").value="";render();
+  $("msg").className="msg ok";$("msg").textContent="Sent. Claude will transcribe it and make the fix. You can close this tab.";
+ }catch(e){$("msg").className="msg err";$("msg").textContent=e.message==="too_big"?"That recording is too long. Keep each under about 4 minutes.":"Couldn't send. Check the connection and try again.";}
+ b.textContent="Send to Claude";render();
+};
+</script>
+</body>
+</html>
