@@ -1,0 +1,7 @@
+{
+ "id": "series_country_y1",
+ "cmd": "cd /home/claude/series_country/series_country_y1 && python3 /home/claude/series_country/make_reel_sc.py spec.json vo/vo out",
+ "out": "/home/claude/series_country/series_country_y1/out/reel.mp4",
+ "sent": "2026-10-31T07:37:35Z",
+ "nfiles": 143
+}
