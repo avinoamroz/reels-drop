@@ -1,0 +1,8 @@
+{
+  "id": "love_colonizing_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "53",
+  "run": "41232285665",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[render] frame 0/2435  0s\n[render] frame 150/2435  3s\n[render] frame 300/2435  7s\n[render] frame 450/2435  15s\n[render] frame 600/2435  20s\n[render] frame 750/2435  22s\n[render] frame 900/2435  24s\n[render] frame 1050/2435  27s\n[render] frame 1200/2435  30s\n[render] frame 1350/2435  33s\n[render] frame 1500/2435  35s\n[render] frame 1650/2435  37s\n[render] frame 1800/2435  40s\n[render] frame 1950/2435  42s\n[render] frame 2100/2435  45s\n[render] frame 2250/2435  47s\n[render] frame 2400/2435  50s\nrendered 51.1 s 2435 frames\n"
+}
