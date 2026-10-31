@@ -1,0 +1,8 @@
+{
+  "id": "not_math_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "66",
+  "run": "41232285665",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[render] frame 0/1967  1s\n[render] frame 150/1967  5s\n[render] frame 300/1967  8s\n[render] frame 450/1967  12s\n[render] frame 600/1967  16s\n[render] frame 750/1967  20s\n[render] frame 900/1967  24s\n[render] frame 1050/1967  29s\n[render] frame 1200/1967  35s\n[render] frame 1350/1967  40s\n[render] frame 1500/1967  46s\n[render] frame 1650/1967  52s\n[render] frame 1800/1967  58s\n[render] frame 1950/1967  62s\nrendered 63.2 s 1967 frames\n"
+}
