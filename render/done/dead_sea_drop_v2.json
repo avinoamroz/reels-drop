@@ -1,0 +1,8 @@
+{
+  "id": "dead_sea_drop_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "55",
+  "run": "41228419343",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.8s] [sse] 154 words timed from Cartesia timestamps, k 0.9999\n[   3.9s] voice 50.74s, lines 0.30-4.17, 4.56-6.54, 6.96-11.39, 11.81-14.58, 15.00-18.81, 19.23-22.88, 23.32-26.58, 27.00-30.39, 30.75-34.26, 34.71-38.74, 39.16-43.66, 44.10-47.37, 47.80-50.74\n[   4.2s] timeline: 11 scenes, T_END 51.30s, warnings []\n[   7.2s] [mix] input -21.2 LUFS, gain +7.9 dB, 14 SFX -> /home/claude/photos_v2/dead_sea_drop_v2/out/work/mix.wav\n[   7.4s] [render] frame 0/1539  0s\n[  10.0s] [render] frame 150/1539  3s\n[  13.6s] [render] frame 300/1539  6s\n[  17.3s] [render] frame 450/1539  10s\n[  20.6s] [render] frame 600/1539  13s\n[  23.0s] [render] frame 750/1539  16s\n[  25.8s] [render] frame 900/1539  19s\n[  29.8s] [render] frame 1050/1539  23s\n[  33.3s] [render] frame 1200/1539  26s\n[  36.9s] [render] frame 1350/1539  30s\n[  40.9s] [render] frame 1500/1539  34s\n\nvideo 1080x1920 30/1 51.3s aac 48000 Hz: -14.0 LUFS, TP -1.8 dBTP, 13.85 MB (ok)\nweb 540x960 4.66 MB (ok), -14.0 LUFS, TP -1.8\nhook: ok (frame-0 text 5, motion 3.07)\ndashes: ok (0 replaced)\nlayout issues: 8\nstages {'voice_align_s': 2.8, 'timeline_s': 0.2, 'mix_s': 3.0, 'render_s': 35.2, 'web_s': 8.8, 'qa_s': 3.9, 'total_s': 55.1}\n"
+}
