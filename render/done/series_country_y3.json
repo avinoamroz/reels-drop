@@ -1,0 +1,8 @@
+{
+  "id": "series_country_y3",
+  "ok": true,
+  "rc": "0",
+  "secs": "47",
+  "run": "41181686875",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.9s] [sse] 121 words timed from Cartesia timestamps, k 0.9708\n[   3.9s] voice 44.48s, lines 0.30-2.16, 2.47-5.53, 5.95-10.90, 11.30-14.43, 14.85-18.12, 18.54-24.23, 24.63-27.34, 27.74-33.48, 33.90-37.78, 38.20-41.37, 42.03-44.48\n[   4.0s] timeline: 11 scenes, T_END 45.10s, warnings []\n[   7.5s] [mix] input -21.2 LUFS, gain +7.8 dB, 20 SFX -> /home/claude/series_country/series_country_y3/out/work/mix.wav\n[   7.6s] [render] frame 0/1353  0s\n[  10.6s] [render] frame 150/1353  3s\n[  13.5s] [render] frame 300/1353  6s\n[  16.5s] [render] frame 450/1353  9s\n[  19.5s] [render] frame 600/1353  12s\n[  22.4s] [render] frame 750/1353  15s\n[  25.0s] [render] frame 900/1353  18s\n[  28.0s] [render] frame 1050/1353  21s\n[  31.0s] [render] frame 1200/1353  23s\n[  34.1s] [render] frame 1350/1353  27s\n\nvideo 1080x1920 30/1 45.1s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 4.93 MB (ok)\nweb 540x960 2.45 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 3, motion 6.19)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 2.8, 'timeline_s': 0.1, 'mix_s': 3.5, 'render_s': 27.4, 'web_s': 7.8, 'qa_s': 3.5, 'total_s': 46.3}\n"
+}
