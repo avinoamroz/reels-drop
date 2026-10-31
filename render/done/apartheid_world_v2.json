@@ -1,0 +1,8 @@
+{
+  "id": "apartheid_world_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "48",
+  "run": "41226330335",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.8s] [sse] 151 words timed from Cartesia timestamps, k 0.9999\n[   3.9s] voice 61.22s, lines 0.30-3.92, 4.40-13.91, 14.41-18.63, 19.11-25.21, 25.80-31.45, 31.95-37.44, 37.94-43.11, 43.61-49.85, 50.35-56.67, 57.17-61.22\n[   4.0s] timeline: 10 scenes, T_END 61.73s, warnings []\n[   7.0s] [mix] input -23.4 LUFS, gain +10.3 dB, 27 SFX -> /home/claude/gdocs_1030/apart_v2/out/work/mix.wav\n[   7.1s] [render] frame 0/1852  0s\n[   9.2s] [render] frame 150/1852  2s\n[  11.5s] [render] frame 300/1852  5s\n[  13.6s] [render] frame 450/1852  7s\n[  15.9s] [render] frame 600/1852  9s\n[  18.5s] [render] frame 750/1852  12s\n[  20.8s] [render] frame 900/1852  14s\n[  23.1s] [render] frame 1050/1852  16s\n[  25.4s] [render] frame 1200/1852  18s\n[  27.7s] [render] frame 1350/1852  21s\n[  30.3s] [render] frame 1500/1852  23s\n[  32.6s] [render] frame 1650/1852  26s\n[  34.8s] [render] frame 1800/1852  28s\n\nvideo 1080x1920 30/1 61.73s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 6.11 MB (ok)\nweb 540x960 3.13 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 2, motion 1.65)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 2.9, 'timeline_s': 0.1, 'mix_s': 3.0, 'render_s': 29.2, 'web_s': 8.3, 'qa_s': 3.5, 'total_s': 48.1}\n"
+}
