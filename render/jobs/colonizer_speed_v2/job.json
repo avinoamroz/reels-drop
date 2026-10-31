@@ -2,6 +2,6 @@
  "id": "colonizer_speed_v2",
  "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/fixes_1031b/cs/spec.json /home/claude/fixes_1031b/cs/out/timing.json /home/claude/fixes_1031b/cs/out/mix.wav /home/claude/fixes_1031b/cs/colonizer_speed_v2_render.mp4",
  "out": "/home/claude/fixes_1031b/cs/colonizer_speed_v2_render.mp4",
- "sent": "2026-10-31T18:51:55Z",
- "nfiles": 21
+ "sent": "2026-10-31T19:01:43Z",
+ "nfiles": 25
 }
