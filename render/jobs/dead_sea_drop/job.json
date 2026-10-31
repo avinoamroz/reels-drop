@@ -1,0 +1,7 @@
+{
+ "id": "dead_sea_drop",
+ "cmd": "cd /home/claude/daily_1031/dead_sea_drop && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/daily_1031/dead_sea_drop/out/reel.mp4",
+ "sent": "2026-10-31T08:00:22Z",
+ "nfiles": 139
+}
