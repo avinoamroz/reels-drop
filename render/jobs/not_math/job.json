@@ -1,7 +1,0 @@
-{
- "id": "not_math",
- "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/jobA/nm/spec.json /home/claude/jobA/nm/out/timing.json /home/claude/jobA/nm/out/mix.wav /home/claude/jobA/nm/not_math_render.mp4",
- "out": "/home/claude/jobA/nm/not_math_render.mp4",
- "sent": "2026-10-29T13:54:18Z",
- "nfiles": 32
-}

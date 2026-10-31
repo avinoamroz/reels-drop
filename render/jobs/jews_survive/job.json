@@ -1,7 +1,0 @@
-{
- "id": "jews_survive",
- "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/jews_survive/rk_stage.py render /home/claude/jobA/js/spec.json /home/claude/jobA/js/out/timing.json /home/claude/jobA/js/out/mix.wav /home/claude/jobA/js/jews_survive_render.mp4",
- "out": "/home/claude/jobA/js/jews_survive_render.mp4",
- "sent": "2026-10-29T13:54:24Z",
- "nfiles": 27
-}

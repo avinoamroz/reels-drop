@@ -1,7 +1,0 @@
-{
- "id": "tony_p3",
- "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/jobA/tony/spec.json /home/claude/jobA/tony/out/timing.json /home/claude/jobA/tony/out/mix.wav /home/claude/jobA/tony/tony_p3_render.mp4",
- "out": "/home/claude/jobA/tony/tony_p3_render.mp4",
- "sent": "2026-10-29T13:54:13Z",
- "nfiles": 32
-}
