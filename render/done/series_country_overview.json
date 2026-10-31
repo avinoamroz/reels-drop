@@ -1,0 +1,8 @@
+{
+  "id": "series_country_overview",
+  "ok": true,
+  "rc": "0",
+  "secs": "37",
+  "run": "41181686875",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.1s] [sse] 124 words timed from Cartesia timestamps, k 0.9436\n[   3.1s] voice 53.45s, lines 0.30-2.14, 2.44-5.64, 6.03-9.32, 9.62-12.49, 12.87-15.90, 16.28-19.21, 19.61-21.59, 21.97-24.70, 25.07-28.43, 28.79-31.47, 31.78-35.51, 35.92-40.23, 40.64-45.06, 45.45-49.52, 50.16-53.44\n[   3.2s] timeline: 15 scenes, T_END 54.07s, warnings []\n[   5.6s] [mix] input -22.1 LUFS, gain +9.0 dB, 31 SFX -> /home/claude/series_country/series_country_overview/out/work/mix.wav\n[   5.7s] [render] frame 0/1622  0s\n[   7.6s] [render] frame 150/1622  2s\n[   9.6s] [render] frame 300/1622  4s\n[  11.5s] [render] frame 450/1622  6s\n[  13.6s] [render] frame 600/1622  8s\n[  15.5s] [render] frame 750/1622  10s\n[  17.5s] [render] frame 900/1622  12s\n[  19.5s] [render] frame 1050/1622  14s\n[  21.4s] [render] frame 1200/1622  16s\n[  23.7s] [render] frame 1350/1622  18s\n[  25.6s] [render] frame 1500/1622  20s\n\nvideo 1080x1920 30/1 54.07s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 5.51 MB (ok)\nweb 540x960 2.83 MB (ok), -14.1 LUFS, TP -1.8\nhook: ok (frame-0 text 4, motion 5.8)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 2.1, 'timeline_s': 0.1, 'mix_s': 2.4, 'render_s': 22.0, 'web_s': 6.1, 'qa_s': 2.7, 'total_s': 36.4}\n"
+}
