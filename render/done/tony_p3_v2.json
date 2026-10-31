@@ -1,0 +1,8 @@
+{
+  "id": "tony_p3_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "86",
+  "run": "41232285665",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[render] frame 0/2172  1s\n[render] frame 150/2172  7s\n[render] frame 300/2172  14s\n[render] frame 450/2172  16s\n[render] frame 600/2172  19s\n[render] frame 750/2172  27s\n[render] frame 900/2172  34s\n[render] frame 1050/2172  37s\n[render] frame 1200/2172  40s\n[render] frame 1350/2172  42s\n[render] frame 1500/2172  45s\n[render] frame 1650/2172  53s\n[render] frame 1800/2172  62s\n[render] frame 1950/2172  69s\n[render] frame 2100/2172  78s\nrendered 82.2 s 2172 frames\n"
+}
