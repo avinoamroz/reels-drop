@@ -1,0 +1,852 @@
+[
+{
+"word": "Two",
+"start": 0.41795918,
+"end": 0.57275885
+},
+{
+"word": "hundred",
+"start": 0.57275885,
+"end": 0.7585185
+},
+{
+"word": "and",
+"start": 0.7585185,
+"end": 0.83591837
+},
+{
+"word": "forty",
+"start": 0.83591837,
+"end": 1.1145579
+},
+{
+"word": "million",
+"start": 1.1145579,
+"end": 1.5634769
+},
+{
+"word": "trees.",
+"start": 1.5634769,
+"end": 2.1671958
+},
+{
+"word": "Same",
+"start": 2.8483145,
+"end": 3.157914
+},
+{
+"word": "land.",
+"start": 3.157914,
+"end": 3.4829931
+},
+{
+"word": "Eighteen",
+"start": 4.086712,
+"end": 4.4737115
+},
+{
+"word": "sixty",
+"start": 4.4737115,
+"end": 4.736871
+},
+{
+"word": "seven.",
+"start": 4.736871,
+"end": 5.10839
+},
+{
+"word": "Mark",
+"start": 5.7275887,
+"end": 5.9752684
+},
+{
+"word": "Twain",
+"start": 5.9752684,
+"end": 6.2693877
+},
+{
+"word": "rides",
+"start": 6.2693877,
+"end": 6.578987
+},
+{
+"word": "through",
+"start": 6.578987,
+"end": 6.811187
+},
+{
+"word": "and",
+"start": 6.811187,
+"end": 7.0279064
+},
+{
+"word": "writes:",
+"start": 7.0279064,
+"end": 7.5387454
+},
+{
+"word": "Palestine",
+"start": 8.343703,
+"end": 8.885503
+},
+{
+"word": "sits",
+"start": 8.885503,
+"end": 9.148663
+},
+{
+"word": "in",
+"start": 9.148663,
+"end": 9.241542
+},
+{
+"word": "sackcloth",
+"start": 9.241542,
+"end": 9.814301
+},
+{
+"word": "and",
+"start": 9.814301,
+"end": 9.907181
+},
+{
+"word": "ashes.",
+"start": 9.907181,
+"end": 10.479939
+},
+{
+"word": "Nineteen",
+"start": 11.161058,
+"end": 11.517097
+},
+{
+"word": "oh",
+"start": 11.517097,
+"end": 11.609978
+},
+{
+"word": "one:",
+"start": 11.609978,
+"end": 11.966017
+},
+{
+"word": "the",
+"start": 12.507815,
+"end": 12.631656
+},
+{
+"word": "Jewish",
+"start": 12.631656,
+"end": 12.910295
+},
+{
+"word": "National",
+"start": 12.910295,
+"end": 13.328254
+},
+{
+"word": "Fund,",
+"start": 13.328254,
+"end": 13.622374
+},
+{
+"word": "KKL,",
+"start": 13.684294,
+"end": 14.349932
+},
+{
+"word": "is",
+"start": 14.427332,
+"end": 14.613091
+},
+{
+"word": "born.",
+"start": 14.613091,
+"end": 15.000091
+},
+{
+"word": "Its",
+"start": 15.789569,
+"end": 15.959848
+},
+{
+"word": "first",
+"start": 15.959848,
+"end": 16.176569
+},
+{
+"word": "forest:",
+"start": 16.176569,
+"end": 16.625488
+},
+{
+"word": "Ben",
+"start": 17.074408,
+"end": 17.260166
+},
+{
+"word": "Shemen.",
+"start": 17.260166,
+"end": 17.647165
+},
+{
+"word": "Then",
+"start": 18.065125,
+"end": 18.235405
+},
+{
+"word": "Yatir,",
+"start": 18.235405,
+"end": 18.777203
+},
+{
+"word": "at",
+"start": 19.055843,
+"end": 19.179682
+},
+{
+"word": "the",
+"start": 19.179682,
+"end": 19.226122
+},
+{
+"word": "desert's",
+"start": 19.226122,
+"end": 19.56668
+},
+{
+"word": "edge.",
+"start": 19.56668,
+"end": 19.953682
+},
+{
+"word": "Weizmann",
+"start": 20.58836,
+"end": 20.944399
+},
+{
+"word": "scientists",
+"start": 20.944399,
+"end": 21.331398
+},
+{
+"word": "found",
+"start": 21.331398,
+"end": 21.548119
+},
+{
+"word": "it",
+"start": 21.548119,
+"end": 21.625517
+},
+{
+"word": "soaks",
+"start": 21.625517,
+"end": 21.935118
+},
+{
+"word": "up",
+"start": 21.935118,
+"end": 22.058956
+},
+{
+"word": "carbon",
+"start": 22.058956,
+"end": 22.384037
+},
+{
+"word": "like",
+"start": 22.384037,
+"end": 22.538836
+},
+{
+"word": "forests",
+"start": 22.538836,
+"end": 22.863914
+},
+{
+"word": "in",
+"start": 22.863914,
+"end": 22.987755
+},
+{
+"word": "greener",
+"start": 22.987755,
+"end": 23.250916
+},
+{
+"word": "lands.",
+"start": 23.250916,
+"end": 23.699833
+},
+{
+"word": "Watch",
+"start": 24.055874,
+"end": 24.303553
+},
+{
+"word": "it",
+"start": 24.303553,
+"end": 24.396433
+},
+{
+"word": "spread:",
+"start": 24.396433,
+"end": 24.752472
+},
+{
+"word": "fourteen",
+"start": 25.201391,
+"end": 25.71223
+},
+{
+"word": "square",
+"start": 25.71223,
+"end": 25.94443
+},
+{
+"word": "kilometres",
+"start": 25.94443,
+"end": 26.517189
+},
+{
+"word": "of",
+"start": 26.517189,
+"end": 26.610067
+},
+{
+"word": "forest",
+"start": 26.610067,
+"end": 27.182827
+},
+{
+"word": "in",
+"start": 27.213787,
+"end": 27.322147
+},
+{
+"word": "nineteen",
+"start": 27.322147,
+"end": 27.662706
+},
+{
+"word": "oh",
+"start": 27.662706,
+"end": 27.786545
+},
+{
+"word": "one.",
+"start": 27.786545,
+"end": 28.111626
+},
+{
+"word": "Over",
+"start": 29.164263,
+"end": 29.396463
+},
+{
+"word": "a",
+"start": 29.396463,
+"end": 29.458382
+},
+{
+"word": "thousand",
+"start": 29.458382,
+"end": 29.84538
+},
+{
+"word": "by",
+"start": 29.84538,
+"end": 29.969221
+},
+{
+"word": "twenty",
+"start": 29.969221,
+"end": 30.232382
+},
+{
+"word": "nineteen.",
+"start": 30.232382,
+"end": 30.8361
+},
+{
+"word": "The",
+"start": 31.532698,
+"end": 31.656538
+},
+{
+"word": "Jaffa",
+"start": 31.656538,
+"end": 32.012577
+},
+{
+"word": "orange",
+"start": 32.012577,
+"end": 32.39958
+},
+{
+"word": "began",
+"start": 32.39958,
+"end": 32.755615
+},
+{
+"word": "in",
+"start": 32.755615,
+"end": 32.848495
+},
+{
+"word": "Arab",
+"start": 32.848495,
+"end": 33.065216
+},
+{
+"word": "groves.",
+"start": 33.096176,
+"end": 33.591534
+},
+{
+"word": "By",
+"start": 34.504852,
+"end": 34.613213
+},
+{
+"word": "nineteen",
+"start": 34.613213,
+"end": 35.01569
+},
+{
+"word": "thirty",
+"start": 35.01569,
+"end": 35.24789
+},
+{
+"word": "nine,",
+"start": 35.24789,
+"end": 35.72777
+},
+{
+"word": "Arab",
+"start": 36.05285,
+"end": 36.33149
+},
+{
+"word": "and",
+"start": 36.33149,
+"end": 36.42437
+},
+{
+"word": "Jewish",
+"start": 36.42437,
+"end": 36.718487
+},
+{
+"word": "orchards",
+"start": 36.718487,
+"end": 37.198368
+},
+{
+"word": "covered",
+"start": 37.29125,
+"end": 37.616325
+},
+{
+"word": "three",
+"start": 37.616325,
+"end": 37.864006
+},
+{
+"word": "hundred",
+"start": 37.864006,
+"end": 38.189087
+},
+{
+"word": "square",
+"start": 38.189087,
+"end": 38.452244
+},
+{
+"word": "kilometres.",
+"start": 38.452244,
+"end": 39.241722
+},
+{
+"word": "Then",
+"start": 39.690643,
+"end": 39.891884
+},
+{
+"word": "the",
+"start": 39.891884,
+"end": 39.98476
+},
+{
+"word": "fields.",
+"start": 39.98476,
+"end": 40.46464
+},
+{
+"word": "Irrigated",
+"start": 41.36248,
+"end": 41.826878
+},
+{
+"word": "farmland:",
+"start": 41.826878,
+"end": 42.477036
+},
+{
+"word": "eight",
+"start": 42.833076,
+"end": 43.018837
+},
+{
+"word": "percent",
+"start": 43.018837,
+"end": 43.374874
+},
+{
+"word": "in",
+"start": 43.374874,
+"end": 43.498714
+},
+{
+"word": "nineteen",
+"start": 43.498714,
+"end": 43.854755
+},
+{
+"word": "forty",
+"start": 43.854755,
+"end": 44.133392
+},
+{
+"word": "three.",
+"start": 44.133392,
+"end": 44.520393
+},
+{
+"word": "Over",
+"start": 44.96931,
+"end": 45.21699
+},
+{
+"word": "half",
+"start": 45.21699,
+"end": 45.511112
+},
+{
+"word": "by",
+"start": 45.511112,
+"end": 45.603992
+},
+{
+"word": "two",
+"start": 45.603992,
+"end": 45.77427
+},
+{
+"word": "thousand",
+"start": 45.77427,
+"end": 46.11483
+},
+{
+"word": "one.",
+"start": 46.11483,
+"end": 46.37799
+},
+{
+"word": "From",
+"start": 46.50183,
+"end": 46.703068
+},
+{
+"word": "space,",
+"start": 46.703068,
+"end": 47.15199
+},
+{
+"word": "the",
+"start": 47.30679,
+"end": 47.430626
+},
+{
+"word": "line",
+"start": 47.430626,
+"end": 47.631866
+},
+{
+"word": "shows.",
+"start": 47.631866,
+"end": 48.096268
+},
+{
+"word": "NASA",
+"start": 48.622585,
+"end": 48.932186
+},
+{
+"word": "astronauts",
+"start": 48.932186,
+"end": 49.412064
+},
+{
+"word": "shot",
+"start": 49.412064,
+"end": 49.613304
+},
+{
+"word": "this",
+"start": 49.613304,
+"end": 49.799065
+},
+{
+"word": "border:",
+"start": 49.799065,
+"end": 50.09318
+},
+{
+"word": "big",
+"start": 50.604023,
+"end": 50.8517
+},
+{
+"word": "irrigated",
+"start": 50.8517,
+"end": 51.33158
+},
+{
+"word": "fields",
+"start": 51.33158,
+"end": 51.625698
+},
+{
+"word": "in",
+"start": 51.625698,
+"end": 51.71858
+},
+{
+"word": "Israel,",
+"start": 51.71858,
+"end": 52.07462
+},
+{
+"word": "smaller",
+"start": 52.353256,
+"end": 52.771217
+},
+{
+"word": "plots",
+"start": 52.771217,
+"end": 53.06534
+},
+{
+"word": "in",
+"start": 53.06534,
+"end": 53.189175
+},
+{
+"word": "Egypt.",
+"start": 53.220135,
+"end": 53.700016
+},
+{
+"word": "Not",
+"start": 54.272774,
+"end": 54.535934
+},
+{
+"word": "perfect",
+"start": 54.535934,
+"end": 54.86101
+},
+{
+"word": "either.",
+"start": 54.86101,
+"end": 55.263493
+},
+{
+"word": "Some",
+"start": 55.91365,
+"end": 56.22325
+},
+{
+"word": "KKL",
+"start": 56.22325,
+"end": 56.64121
+},
+{
+"word": "forests",
+"start": 56.64121,
+"end": 57.09013
+},
+{
+"word": "cover",
+"start": 57.09013,
+"end": 57.322327
+},
+{
+"word": "villages",
+"start": 57.322327,
+"end": 57.771248
+},
+{
+"word": "emptied",
+"start": 57.771248,
+"end": 58.189205
+},
+{
+"word": "in",
+"start": 58.189205,
+"end": 58.313046
+},
+{
+"word": "nineteen",
+"start": 58.313046,
+"end": 58.700047
+},
+{
+"word": "forty",
+"start": 58.700047,
+"end": 59.009644
+},
+{
+"word": "eight",
+"start": 59.009644,
+"end": 59.179924
+},
+{
+"word": "and",
+"start": 59.179924,
+"end": 59.334724
+},
+{
+"word": "sixty",
+"start": 59.334724,
+"end": 59.644325
+},
+{
+"word": "seven,",
+"start": 59.644325,
+"end": 60.031322
+},
+{
+"word": "like",
+"start": 60.263523,
+"end": 60.418324
+},
+{
+"word": "Canada",
+"start": 60.418324,
+"end": 60.77436
+},
+{
+"word": "Park.",
+"start": 60.77436,
+"end": 61.08396
+},
+{
+"word": "Ecologists",
+"start": 61.79604,
+"end": 62.337837
+},
+{
+"word": "also",
+"start": 62.337837,
+"end": 62.631958
+},
+{
+"word": "fault",
+"start": 62.631958,
+"end": 62.87964
+},
+{
+"word": "the",
+"start": 62.87964,
+"end": 62.972515
+},
+{
+"word": "early",
+"start": 62.972515,
+"end": 63.173756
+},
+{
+"word": "pines:",
+"start": 63.173756,
+"end": 63.715557
+},
+{
+"word": "mostly",
+"start": 63.870354,
+"end": 64.257355
+},
+{
+"word": "one",
+"start": 64.257355,
+"end": 64.443115
+},
+{
+"word": "species,",
+"start": 64.443115,
+"end": 64.923
+},
+{
+"word": "and",
+"start": 64.923,
+"end": 65.06231
+},
+{
+"word": "quick",
+"start": 65.06231,
+"end": 65.24807
+},
+{
+"word": "to",
+"start": 65.24807,
+"end": 65.34095
+},
+{
+"word": "burn.",
+"start": 65.34095,
+"end": 65.66603
+},
+{
+"word": "Same",
+"start": 65.91371,
+"end": 66.23879
+},
+{
+"word": "hills",
+"start": 66.23879,
+"end": 66.44003
+},
+{
+"word": "Twain",
+"start": 66.44003,
+"end": 66.687706
+},
+{
+"word": "saw.",
+"start": 66.687706,
+"end": 66.98183
+},
+{
+"word": "Now",
+"start": 67.58555,
+"end": 67.80227
+},
+{
+"word": "count",
+"start": 67.80227,
+"end": 68.00351
+},
+{
+"word": "the",
+"start": 68.00351,
+"end": 68.09639
+},
+{
+"word": "trees.",
+"start": 68.09639,
+"end": 68.48338
+}
+]
