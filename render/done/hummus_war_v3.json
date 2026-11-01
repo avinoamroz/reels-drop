@@ -1,0 +1,8 @@
+{
+  "id": "hummus_war_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "36",
+  "run": "41274823833",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.6s] [sse] 123 words timed from Cartesia timestamps, k 0.9999\n[   2.8s] voice 45.32s, lines 0.30-4.65, 5.07-10.21, 10.63-15.24, 15.58-19.23, 19.65-24.41, 24.84-27.38, 27.80-32.15, 32.57-36.74, 37.16-38.57, 38.99-41.83, 42.25-45.32\n[   2.8s] timeline: 11 scenes, T_END 45.90s, warnings []\n[   4.6s] [mix] input -21.7 LUFS, gain +8.3 dB, 13 SFX -> /home/claude/photos_v2/hummus_war_v3/out/work/mix.wav\n[   4.8s] [render] frame 0/1377  0s\n[   6.7s] [render] frame 150/1377  2s\n[   9.3s] [render] frame 300/1377  5s\n[  11.5s] [render] frame 450/1377  7s\n[  14.2s] [render] frame 600/1377  10s\n[  17.0s] [render] frame 750/1377  12s\n[  19.1s] [render] frame 900/1377  14s\n[  21.4s] [render] frame 1050/1377  17s\n[  23.9s] [render] frame 1200/1377  19s\n[  25.7s] [render] frame 1350/1377  21s\n\nvideo 1080x1920 30/1 45.9s aac 48000 Hz: -14.1 LUFS, TP -2.1 dBTP, 8.2 MB (ok)\nweb 540x960 3.3 MB (ok), -14.1 LUFS, TP -2.1\nhook: ok (frame-0 text 3, motion 6.28)\ndashes: ok (0 replaced)\nlayout issues: 9\nstages {'voice_align_s': 2.0, 'timeline_s': 0.0, 'mix_s': 1.7, 'render_s': 22.1, 'web_s': 5.8, 'qa_s': 2.7, 'total_s': 35.1}\n"
+}
