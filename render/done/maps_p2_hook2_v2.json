@@ -1,0 +1,8 @@
+{
+  "id": "maps_p2_hook2_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "35",
+  "run": "41281299294",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.9s] [sse] 74 words timed from Cartesia timestamps, k 0.9997\n[   3.9s] voice 31.83s, lines 0.30-3.24, 3.84-7.12, 7.49-10.19, 10.79-14.90, 15.26-19.79, 20.23-24.57, 25.18-26.60, 27.20-28.51, 28.89-31.82\n[   4.0s] timeline: 7 scenes, T_END 32.43s, warnings []\n[   5.9s] [mix] input -22.0 LUFS, gain +8.8 dB, 12 SFX -> /home/claude/fixes_1101/dogs/out/work/mix.wav\n[   6.1s] [render] frame 0/973  0s\n[   8.7s] [render] frame 150/973  3s\n[  12.1s] [render] frame 300/973  6s\n[  15.5s] [render] frame 450/973  10s\n[  18.4s] [render] frame 600/973  12s\n[  21.1s] [render] frame 750/973  15s\n[  24.1s] [render] frame 900/973  18s\n\nvideo 1080x1920 30/1 32.43s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 3.97 MB (ok)\nweb 540x960 1.91 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 3, motion 1.47)\ndashes: ok (0 replaced)\nlayout issues: 2\nstages {'voice_align_s': 2.4, 'timeline_s': 0.1, 'mix_s': 1.9, 'render_s': 20.7, 'web_s': 5.7, 'qa_s': 2.5, 'total_s': 34.9}\n"
+}
