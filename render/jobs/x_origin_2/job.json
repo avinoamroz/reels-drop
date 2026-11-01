@@ -2,6 +2,6 @@
  "id": "x_origin_2",
  "cmd": "cd /home/claude/x_origin/x_origin_2 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/x_origin/x_origin_2/out/reel.mp4",
- "sent": "2026-11-01T19:39:59Z",
+ "sent": "2026-11-01T19:51:29Z",
  "nfiles": 136
 }

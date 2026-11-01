@@ -1,8 +1,0 @@
-{
-  "id": "x_origin_1",
-  "ok": true,
-  "rc": "0",
-  "secs": "56",
-  "run": "41342884810",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.7s] [sse] 118 words timed from Cartesia timestamps, k 0.9999\n[   4.8s] voice 57.27s, lines 0.30-3.85, 4.19-8.74, 8.86-15.76, 16.18-22.54, 22.81-27.48, 28.05-32.37, 33.02-37.22, 37.70-43.10, 43.61-49.17, 49.88-53.62, 54.26-57.35\n[   4.9s] timeline: 11 scenes, T_END 57.60s, warnings []\n[   8.9s] [mix] input -21.9 LUFS, gain +8.5 dB, 10 SFX -> /home/claude/x_origin/x_origin_1/out/work/mix.wav\n[   9.0s] [render] frame 0/1728  0s\n[  11.7s] [render] frame 150/1728  3s\n[  14.4s] [render] frame 300/1728  6s\n[  17.1s] [render] frame 450/1728  8s\n[  19.8s] [render] frame 600/1728  11s\n[  22.6s] [render] frame 750/1728  14s\n[  25.3s] [render] frame 900/1728  16s\n[  28.0s] [render] frame 1050/1728  19s\n[  30.8s] [render] frame 1200/1728  22s\n[  33.6s] [render] frame 1350/1728  25s\n[  36.7s] [render] frame 1500/1728  28s\n[  39.6s] [render] frame 1650/1728  31s\n\nvideo 1080x1920 30/1 57.6s aac 48000 Hz: -14.0 LUFS, TP -1.7 dBTP, 5.14 MB (ok)\nweb 540x960 2.88 MB (ok), -14.0 LUFS, TP -1.7\nhook: FAIL (frame-0 text 3, motion 0.61)\ndashes: ok (0 replaced)\nlayout issues: 10\nstages {'voice_align_s': 3.3, 'timeline_s': 0.1, 'mix_s': 4.0, 'render_s': 33.1, 'web_s': 9.7, 'qa_s': 4.4, 'total_s': 56.1}\n"
-}
