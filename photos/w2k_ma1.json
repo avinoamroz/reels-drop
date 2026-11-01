@@ -1,0 +1,6 @@
+{
+ "name": "w2k_ma1",
+ "url": "https://commons.wikimedia.org/wiki/File:Masada_cistern.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}
