@@ -1,0 +1,8 @@
+{
+  "id": "four_habits",
+  "ok": true,
+  "rc": "0",
+  "secs": "113",
+  "run": "41305218816",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nwrote /home/claude/four_habits/out/four_habits.mp4 80.8\n"
+}
