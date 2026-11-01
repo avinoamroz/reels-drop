@@ -2,7 +2,7 @@
  "id": "zz_asr_test",
  "cmd": "python3 /home/claude/zz_pipeline_test/build.py",
  "out": "/home/claude/zz_pipeline_test/final.mp4",
- "sent": "2026-11-01T13:08:07Z",
+ "sent": "2026-11-01T13:18:11Z",
  "nfiles": 19,
  "asr_lang": "he",
  "asr_clips": [
