@@ -1,0 +1,7 @@
+{
+ "id": "power_200",
+ "cmd": "python3 /home/claude/power_200/reel.py --out /home/claude/power_200/work/out.mp4",
+ "out": "/home/claude/power_200/work/out.mp4",
+ "sent": "2026-11-01T21:05:59Z",
+ "nfiles": 39
+}
