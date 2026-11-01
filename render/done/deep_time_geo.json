@@ -1,0 +1,8 @@
+{
+  "id": "deep_time_geo",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "41345262796",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n/opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/rdata/parser/_parser.py:1280: UserWarning: Unknown file type: assumed RDS\n  warnings.warn(\"Unknown file type: assumed RDS\")  # noqa: B028\n/home/claude/deep_time/geo_job.py:50: RuntimeWarning: invalid value encountered in multiply\n  enc = lambda v: np.where(np.isfinite(v), np.round(v * 100), -32768).astype(\"<i2\")\ndownloaded 42913620\nLICENSE {\"id\": \"cc-by-4.0\"} TITLE palaeoverse: palaeogeographic reconstruction files DOI 10.5281/zenodo.13798790\nTYPE <class 'pandas.DataFrame'>\nSHAPE (15171, 1083)\nCOLS [np.str_('h3'), np.str_('lng'), np.str_('lat'), np.str_('lng_1'), np.str_('lat_1'), np.str_('lng_2'), np.str_('lat_2'), np.str_('lng_3')] ... [np.str_('lng_539'), np.str_('lat_539'), np.str_('lng_540'), np.str_('lat_540')]\n                h3      lng      lat    lng_1    lat_1    lng_2    lat_2    lng_3\n1  833f76fffffffff  23.4063  36.2990  23.3623  36.2597  23.3183  36.2204  23.2742\n2  833f71fffffffff  26.3009  36.1689  26.2552  36.1273  26.2095  36.0856  26.1637\npresent cols lng lat\ncells 15171 land 12900\nages 260 [1.0, 2.0, 3.0] [258.0, 259.0, 260.0]\npacked bytes 12423082 nan share 0.02888252832438879\nOK\n"
+}
