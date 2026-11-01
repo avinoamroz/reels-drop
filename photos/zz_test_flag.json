@@ -12,7 +12,15 @@
  "usage_terms": "Public domain",
  "date": "1948-10-28",
  "description": "Flag of Israel. Shows a Magen David (“Shield of David”) between two stripes. The Shield of David is a traditional Jewish symbol. The stripes symbolize a Jewish prayer shawl (tallit).",
- "credit_line": "Israel Belkind and Fanny Abramovitch (original) “The Provisional Council of State Proclamation of the Flag of the State of Israel” of 25 Tishrei 5709 (28 October 1948) provides the official specification for the design of the Israeli flag. The color of the Magen David and the stripes of the Israeli flag is not precisely specified by the above legislation. The color depicted in the current version of the image is typical of flags used in Israel today, although individual flags can and do vary. The flag legislation officially specifies dimensions of 220 cm × 160 cm. However, the sizes of actual flags vary (although the aspect ratio is usually retained)., Public domain, Wikimedia Commons",
- "ok": false,
- "error": "UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7c8b3ef95670>"
+ "credit_line": "Israel Belkind and Fanny Abramovitch, Public domain, Wikimedia Commons",
+ "downloaded": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_Israel.svg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+ "original_size": [
+  1920,
+  1396
+ ],
+ "size": [
+  1920,
+  1396
+ ],
+ "ok": true
 }
