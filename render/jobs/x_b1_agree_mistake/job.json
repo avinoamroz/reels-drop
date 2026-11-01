@@ -1,0 +1,7 @@
+{
+ "id": "x_b1_agree_mistake",
+ "cmd": "cd /home/claude/express_b/x_b1_agree_mistake && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_b/x_b1_agree_mistake/out/reel.mp4",
+ "sent": "2026-11-01T18:29:01Z",
+ "nfiles": 133
+}
