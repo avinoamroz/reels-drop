@@ -1,0 +1,8 @@
+{
+  "id": "inner_scar_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "34",
+  "run": "41275252262",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[   1.0s] T_END 49.5 warn []\n[   3.2s] [mix] input -21.7 LUFS, gain +8.5 dB, 16 SFX -> /home/claude/inner_scar_v2/build/out/work/mix.wav\n[   3.3s] [render] frame 0/1485  0s\n[   5.4s] [render] frame 150/1485  2s\n[   7.7s] [render] frame 300/1485  4s\n[   9.8s] [render] frame 450/1485  7s\n[  11.9s] [render] frame 600/1485  9s\n[  14.0s] [render] frame 750/1485  11s\n[  16.0s] [render] frame 900/1485  13s\n[  18.1s] [render] frame 1050/1485  15s\n[  20.6s] [render] frame 1200/1485  17s\n[  23.0s] [render] frame 1350/1485  20s\nvideo 1080x1920 30/1 49.5s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 7.49 MB (ok)\nweb 540x960 3.18 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 8, motion 2.13)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.42s (ok)\n"
+}
