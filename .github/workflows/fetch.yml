@@ -1,7 +1,7 @@
 name: fetch-heygen
 on:
   push:
-    paths: ['heygen/fetch.txt', 'heygen/drive.txt', '.github/workflows/fetch.yml']
+    paths: ['heygen/fetch.txt', 'heygen/drive.txt', 'voice/drive.txt', '.github/workflows/fetch.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -30,9 +30,34 @@ jobs:
             curl -sSL --fail -o "heygen/$name" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t"
           done < heygen/drive.txt
           ls -la heygen
+      - name: Voice from Drive (voice/drive.txt "name file_id"; .txt = TTS1 sse, parsed to wav + words)
+        continue-on-error: true
+        run: |
+          mkdir -p voice; touch voice/drive.txt
+          grep -v '^#' voice/drive.txt | while read -r name fid; do
+            [ -z "$name" ] && continue
+            base="${name%.*}"
+            case "$name" in
+              *.txt) [ -f "voice/$base.wav" ] && continue ;;
+              *) [ -f "voice/$name" ] && continue ;;
+            esac
+            rm -f "voice/$base.err"
+            if ! curl -sSL --fail -o "/tmp/$name" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t"; then
+              echo "download failed" > "voice/$base.err"; continue
+            fi
+            if head -c 600 "/tmp/$name" | grep -qi "<html"; then
+              echo "got an HTML page: file is not viewable by link (run Make IG3 4985693 on it)" > "voice/$base.err"; continue
+            fi
+            case "$name" in
+              *.txt) python3 tools/sse_parse.py "/tmp/$name" "voice/$base" > "voice/$base.log" 2>&1 || mv "voice/$base.log" "voice/$base.err" ;;
+              *) mv "/tmp/$name" "voice/$name" ;;
+            esac
+          done
+          ls -la voice
       - name: Commit
         run: |
           git config user.name "reels-bot"
           git config user.email "reels-bot@users.noreply.github.com"
           git add -A heygen || true
+          [ -d voice ] && { git add -A voice || true; }
           git diff --cached --quiet || (git commit -m "Fetch HeyGen clips" && git pull --rebase && git push)
