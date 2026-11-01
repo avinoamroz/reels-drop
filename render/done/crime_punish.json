@@ -1,8 +1,0 @@
-{
-  "id": "crime_punish",
-  "ok": false,
-  "rc": "1",
-  "secs": "0",
-  "run": "41335140681",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nTraceback (most recent call last):\n  File \"/home/claude/crime_punish/engine.py\", line 30, in <module>\n    T = json.load(open(f\"{D}/timing.json\")); LINES = T[\"lines\"]; VO_END = LINES[-1][\"t1\"]\n                  ~~~~^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/home/claude/crime_punish/timing.json'\n"
-}
