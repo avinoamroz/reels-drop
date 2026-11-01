@@ -1,0 +1,8 @@
+{
+  "id": "green_200",
+  "ok": true,
+  "rc": "0",
+  "secs": "120",
+  "run": "41347100241",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.9s] [sse] 170 words timed from Cartesia timestamps, k 1.0000\n[   5.0s] voice 62.86s, lines 0.30-3.08, 3.48-9.25, 9.65-15.56, 15.96-21.36, 21.71-27.79, 28.19-35.39, 35.79-41.93, 42.05-49.01, 49.41-55.97, 56.37-60.24, 60.49-62.86\n[   5.1s] timeline: 11 scenes, T_END 63.43s, warnings []\n[   9.5s] [mix] input -21.8 LUFS, gain +9.0 dB, 10 SFX -> /home/claude/green_200/green_200/out/work/mix.wav\n[   9.8s] [render] frame 0/1903  0s\n[  18.5s] [render] frame 150/1903  9s\n[  26.9s] [render] frame 300/1903  17s\n[  35.2s] [render] frame 450/1903  26s\n[  44.0s] [render] frame 600/1903  34s\n[  52.6s] [render] frame 750/1903  43s\n[  61.3s] [render] frame 900/1903  52s\n[  68.5s] [render] frame 1050/1903  59s\n[  75.4s] [render] frame 1200/1903  66s\n[  80.6s] [render] frame 1350/1903  71s\n[  85.2s] [render] frame 1500/1903  76s\n[  92.0s] [render] frame 1650/1903  83s\n[  98.9s] [render] frame 1800/1903  89s\n\nvideo 1080x1920 30/1 63.43s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 7.9 MB (ok)\nweb 540x960 3.64 MB (ok), -14.1 LUFS, TP -1.8\nhook: FAIL (frame-0 text 0, motion 3.08)\ndashes: ok (0 replaced)\nlayout issues: 5\nstages {'voice_align_s': 3.6, 'timeline_s': 0.1, 'mix_s': 4.3, 'render_s': 95.8, 'web_s': 10.0, 'qa_s': 4.3, 'total_s': 119.6}\n"
+}
