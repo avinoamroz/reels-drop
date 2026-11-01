@@ -1,0 +1,7 @@
+{
+ "id": "dogs_israel",
+ "cmd": "python3 /home/claude/dogs_israel/engine.py --out /home/claude/dogs_israel/final.mp4",
+ "out": "/home/claude/dogs_israel/final.mp4",
+ "sent": "2026-11-01T21:48:04Z",
+ "nfiles": 18
+}
