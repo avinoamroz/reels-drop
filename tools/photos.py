@@ -40,7 +40,7 @@ def commons_info(title):
     ii = page["imageinfo"][0]
     md = {k: v.get("value") for k, v in ii.get("extmetadata", {}).items()}
     src = ii["url"]
-    odd = src.lower().endswith((".tif", ".tiff", ".svg", ".pdf", ".djvu"))
+    odd = urllib.parse.urlparse(src).path.lower().endswith((".tif", ".tiff", ".svg", ".pdf", ".djvu"))
     if ii.get("thumburl") and (odd or max(ii.get("width", 0), ii.get("height", 0)) > MAX):
         src = ii["thumburl"]  # server side 1920 px rendering: smaller download, and SVG/TIFF become raster
     meta = {"source": "Wikimedia Commons", "title": page.get("title"), "page": ii.get("descriptionurl"),
