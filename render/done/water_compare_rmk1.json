@@ -1,0 +1,8 @@
+{
+  "id": "water_compare_rmk1",
+  "ok": true,
+  "rc": "0",
+  "secs": "95",
+  "run": "41309975172",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.2s] [sse] 156 words timed from Cartesia timestamps, k 0.9998\n[   4.2s] voice 57.67s, lines 0.30-5.53, 5.95-10.91, 11.29-14.11, 14.49-19.86, 20.00-24.00, 24.41-29.84, 30.23-34.39, 34.58-39.70, 40.15-44.92, 45.34-48.85, 49.27-54.41, 54.84-57.65\n[   4.3s] timeline: 12 scenes, T_END 58.23s, warnings []\n[   8.2s] [mix] input -21.6 LUFS, gain +8.3 dB, 11 SFX -> /home/claude/water_compare_rmk1/water_compare_rmk1/out/work/mix.wav\n[   8.6s] [render] frame 0/1747  0s\n[  15.5s] [render] frame 150/1747  7s\n[  19.8s] [render] frame 300/1747  12s\n[  26.4s] [render] frame 450/1747  18s\n[  30.7s] [render] frame 600/1747  22s\n[  37.6s] [render] frame 750/1747  29s\n[  43.8s] [render] frame 900/1747  36s\n[  50.3s] [render] frame 1050/1747  42s\n[  56.6s] [render] frame 1200/1747  48s\n[  62.9s] [render] frame 1350/1747  55s\n[  69.3s] [render] frame 1500/1747  61s\n[  75.6s] [render] frame 1650/1747  67s\n\nvideo 1080x1920 30/1 58.23s aac 48000 Hz: -14.0 LUFS, TP -1.8 dBTP, 8.72 MB (ok)\nweb 540x960 3.67 MB (ok), -14.0 LUFS, TP -1.8\nhook: FAIL (frame-0 text 0, motion 2.98)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 3.2, 'timeline_s': 0.1, 'mix_s': 3.9, 'render_s': 71.9, 'web_s': 10.5, 'qa_s': 4.4, 'total_s': 95.0}\n"
+}
