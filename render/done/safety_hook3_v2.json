@@ -1,0 +1,8 @@
+{
+  "id": "safety_hook3_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "39",
+  "run": "41274807050",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.8s] [sse] 77 words timed from Cartesia timestamps, k 0.9999\n[   3.8s] voice 33.42s, lines 0.30-4.17, 4.59-14.92, 15.34-21.56, 21.98-25.78, 26.20-29.25, 29.69-31.87, 32.29-33.41\n[   4.0s] timeline: 7 scenes, T_END 35.77s, warnings []\n[   6.5s] [mix] input -20.6 LUFS, gain +7.4 dB, 30 SFX -> /home/claude/daily_1028/safety_hook3_v2/out/work/mix.wav\n[   6.7s] [render] frame 0/1073  0s\n[   9.8s] [render] frame 150/1073  3s\n[  13.2s] [render] frame 300/1073  7s\n[  17.0s] [render] frame 450/1073  10s\n[  20.3s] [render] frame 600/1073  14s\n[  23.5s] [render] frame 750/1073  17s\n[  26.5s] [render] frame 900/1073  20s\n[  29.4s] [render] frame 1050/1073  23s\n\nvideo 1080x1920 30/1 35.77s aac 48000 Hz: -14.0 LUFS, TP -1.7 dBTP, 4.69 MB (ok)\nweb 540x960 2.01 MB (ok), -14.0 LUFS, TP -1.7\nhook: ok (frame-0 text 5, motion 2.08)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.5, 'timeline_s': 0.2, 'mix_s': 2.5, 'render_s': 23.8, 'web_s': 6.2, 'qa_s': 2.8, 'total_s': 39.3}\n"
+}
