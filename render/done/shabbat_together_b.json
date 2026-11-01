@@ -1,8 +1,0 @@
-{
-  "id": "shabbat_together_b",
-  "ok": true,
-  "rc": "0",
-  "secs": "114",
-  "run": "41310493483",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1568\nframe 150/1568\nframe 300/1568\nframe 450/1568\nframe 600/1568\nframe 750/1568\nframe 900/1568\nframe 1050/1568\nframe 1200/1568\nframe 1350/1568\nframe 1500/1568\nvideo /home/claude/shabbat_together/b/work/silent.mp4 52.25\nfinal /home/claude/shabbat_together/b/shabbat_together_b.mp4\n"
-}
