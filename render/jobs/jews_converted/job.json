@@ -1,0 +1,7 @@
+{
+ "id": "jews_converted",
+ "cmd": "python3 /home/claude/jews_converted/engine.py --out /home/claude/jews_converted/jews_converted.mp4",
+ "out": "/home/claude/jews_converted/jews_converted.mp4",
+ "sent": "2026-11-01T21:18:09Z",
+ "nfiles": 20
+}
