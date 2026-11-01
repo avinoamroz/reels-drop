@@ -1,0 +1,8 @@
+{
+  "id": "arabia_map",
+  "ok": true,
+  "rc": "0",
+  "secs": "149",
+  "run": "41352524120",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.6s] [sse] 170 words timed from Cartesia timestamps, k 0.9999\n[   4.6s] voice 63.81s, lines 0.30-2.64, 2.91-6.57, 6.85-10.27, 10.55-12.63, 12.91-17.91, 18.18-23.01, 23.28-26.39, 26.66-30.14, 30.41-34.16, 34.44-38.47, 38.74-42.24, 42.47-49.21, 49.48-54.33, 54.60-57.21, 57.49-61.08, 61.36-63.80\n[   4.8s] timeline: 16 scenes, T_END 64.37s, warnings []\n[   9.6s] [mix] input -22.2 LUFS, gain +9.2 dB, 15 SFX -> /home/claude/arabia_map/arabia_map/out/work/mix.wav\n[   9.9s] [render] frame 0/1931  0s\n[  18.9s] [render] frame 150/1931  9s\n[  28.7s] [render] frame 300/1931  19s\n[  39.6s] [render] frame 450/1931  30s\n[  50.0s] [render] frame 600/1931  40s\n[  60.0s] [render] frame 750/1931  50s\n[  69.5s] [render] frame 900/1931  60s\n[  79.1s] [render] frame 1050/1931  70s\n[  88.3s] [render] frame 1200/1931  79s\n[  96.8s] [render] frame 1350/1931  87s\n[ 105.3s] [render] frame 1500/1931  96s\n[ 114.9s] [render] frame 1650/1931  105s\n[ 123.4s] [render] frame 1800/1931  114s\n\nvideo 1080x1920 30/1 64.37s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 12.35 MB (ok)\nweb 540x960 4.62 MB (ok), -14.1 LUFS, TP -1.9\nhook: FAIL (frame-0 text 0, motion 4.69)\ndashes: ok (0 replaced)\nlayout issues: 43\nstages {'voice_align_s': 3.5, 'timeline_s': 0.2, 'mix_s': 4.7, 'render_s': 122.5, 'web_s': 11.6, 'qa_s': 4.9, 'total_s': 148.6}\n"
+}
