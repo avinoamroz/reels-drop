@@ -1,0 +1,8 @@
+{
+  "id": "israel_size_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "43",
+  "run": "41273162160",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.8s] [sse] 105 words timed from Cartesia timestamps, k 0.9998\n[   3.8s] voice 42.30s, lines 0.30-3.57, 3.99-10.52, 10.94-18.31, 18.75-23.41, 23.83-27.87, 28.29-30.43, 30.84-36.28, 36.64-39.39, 39.81-42.30\n[   4.1s] timeline: 8 scenes, T_END 43.27s, warnings []\n[   7.0s] [mix] input -21.6 LUFS, gain +8.2 dB, 18 SFX -> /home/claude/daily_1027/israel_size_v2/out/work/mix.wav\n[   7.2s] [render] frame 0/1298  0s\n[  10.1s] [render] frame 150/1298  3s\n[  13.1s] [render] frame 300/1298  6s\n[  16.0s] [render] frame 450/1298  9s\n[  18.7s] [render] frame 600/1298  12s\n[  21.5s] [render] frame 750/1298  14s\n[  24.4s] [render] frame 900/1298  17s\n[  27.2s] [render] frame 1050/1298  20s\n[  29.8s] [render] frame 1200/1298  23s\n\nvideo 1080x1920 30/1 43.27s aac 48000 Hz: -14.0 LUFS, TP -1.9 dBTP, 4.19 MB (ok)\nweb 540x960 2.18 MB (ok), -14.0 LUFS, TP -1.9\nhook: ok (frame-0 text 5, motion 1.35)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.0s (ok)\nstages {'voice_align_s': 2.6, 'timeline_s': 0.2, 'mix_s': 3.0, 'render_s': 25.3, 'web_s': 7.1, 'qa_s': 3.2, 'total_s': 42.7}\n"
+}
