@@ -1,8 +1,0 @@
-{
-  "id": "roads_2000",
-  "ok": false,
-  "rc": "1",
-  "secs": "62",
-  "run": "41348286131",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1827\nframe 150 / 1827\nframe 300 / 1827\nframe 450 / 1827\nframe 600 / 1827\nframe 750 / 1827\nframe 900 / 1827\nframe 1050 / 1827\nframe 1200 / 1827\nframe 1350 / 1827\nTraceback (most recent call last):\n  File \"/home/claude/roads_2000/engine.py\", line 492, in <module>\n    p.stdin.write(frame(i / FPS).tobytes())\n                  ~~~~~^^^^^^^^^\n  File \"/home/claude/roads_2000/engine.py\", line 423, in frame\n    world_phase(base, t)\n    ~~~~~~~~~~~^^^^^^^^^\n  File \"/home/claude/roads_2000/engine.py\", line 354, in world_phase\n    x0, y0 = cx - w2 / 2, cy - h2 / 2; im = WORLD.resize((W, H), Image.BILINEAR, box=(x0, y0, x0 + w2, y0 + h2))\n                                            ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/PIL/Image.py\", line 2417, in resize\n    im = im.resize(size, resample, box, reducing_gap)\n  File \"/opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/PIL/Image.py\", line 2440, in resize\n    return self._new(self.im.resize(size, resample, box))\n                     ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\nValueError: box can't exceed original image size\n"
-}
