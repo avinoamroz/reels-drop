@@ -1,0 +1,7 @@
+{
+ "id": "oxy_vaso_v2",
+ "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/fixes_1027b/oxy_v2/spec.json /home/claude/fixes_1027b/oxy_v2/out/timing.json /home/claude/fixes_1027b/oxy_v2/out/mix.wav /home/claude/fixes_1027b/oxy_v2/oxy_vaso_v2.mp4",
+ "out": "/home/claude/fixes_1027b/oxy_v2/oxy_vaso_v2.mp4",
+ "sent": "2026-11-01T05:00:36Z",
+ "nfiles": 30
+}

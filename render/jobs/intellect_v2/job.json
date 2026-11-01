@@ -1,0 +1,7 @@
+{
+ "id": "intellect_v2",
+ "cmd": "(apt-get install -y -qq libcairo2-dev pkg-config > /dev/null 2>&1 || (apt-get update -qq && apt-get install -y -qq libcairo2-dev pkg-config > /dev/null)) ; pip install -q pycairo soundfile ; cd /home/claude/intellect_v3/build && python3 /home/claude/reelkit/render_tl.py /home/claude/intellect_v3/build/spec_v2.json /home/claude/intellect_v3/build/vo /home/claude/intellect_v3/build/out",
+ "out": "/home/claude/intellect_v3/build/out/reel.mp4",
+ "sent": "2026-11-01T05:00:14Z",
+ "nfiles": 144
+}
