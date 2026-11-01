@@ -1,0 +1,8 @@
+{
+  "id": "geneva_uniforms_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "61",
+  "run": "41275252262",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.8s] [sse] 150 words timed from Cartesia timestamps, k 0.9433\n[   2.8s] voice 52.34s, lines 0.30-2.61, 2.97-5.29, 5.67-8.22, 8.55-10.87, 11.26-13.55, 13.94-19.00, 19.39-21.90, 22.28-27.20, 27.57-32.10, 32.47-37.09, 38.13-42.75, 43.06-44.36, 44.63-47.31, 47.80-52.33\n[   2.9s] timeline: 9 scenes, T_END 52.97s, warnings []\n[   5.1s] [mix] input -21.8 LUFS, gain +8.5 dB, 25 SFX -> /home/claude/geneva_uniforms_v2/out/work/mix.wav\n[   5.1s] [render] frame 0/1589  0s\n[   8.9s] [render] frame 150/1589  4s\n[  13.1s] [render] frame 300/1589  8s\n[  17.7s] [render] frame 450/1589  13s\n[  22.3s] [render] frame 600/1589  17s\n[  26.6s] [render] frame 750/1589  22s\n[  30.6s] [render] frame 900/1589  26s\n[  35.1s] [render] frame 1050/1589  30s\n[  39.8s] [render] frame 1200/1589  35s\n[  43.5s] [render] frame 1350/1589  38s\n[  48.0s] [render] frame 1500/1589  43s\n\nvideo 1080x1920 30/1 52.97s aac 48000 Hz: -14.1 LUFS, TP -2.1 dBTP, 10.36 MB (ok)\nweb 540x960 4.06 MB (ok), -14.1 LUFS, TP -2.1\nhook: ok (frame-0 text 7, motion 7.7)\ndashes: ok (0 replaced)\nlayout issues: 19\nstages {'voice_align_s': 2.0, 'timeline_s': 0.0, 'mix_s': 2.2, 'render_s': 45.7, 'web_s': 7.1, 'qa_s': 2.9, 'total_s': 60.7}\n"
+}
