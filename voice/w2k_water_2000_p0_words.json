@@ -1,0 +1,832 @@
+[
+{
+"word": "A",
+"start": 0.71207863,
+"end": 0.7739985
+},
+{
+"word": "tunnel,",
+"start": 0.7739985,
+"end": 1.1919577
+},
+{
+"word": "two",
+"start": 1.1919577,
+"end": 1.3777173
+},
+{
+"word": "thousand",
+"start": 1.3777173,
+"end": 1.7337567
+},
+{
+"word": "seven",
+"start": 1.7337567,
+"end": 2.0278761
+},
+{
+"word": "hundred",
+"start": 2.0278761,
+"end": 2.3374755
+},
+{
+"word": "years",
+"start": 2.3374755,
+"end": 2.5387151
+},
+{
+"word": "old.",
+"start": 2.5387151,
+"end": 2.8018746
+},
+{
+"word": "Water",
+"start": 3.142434,
+"end": 3.4675133
+},
+{
+"word": "still",
+"start": 3.4675133,
+"end": 3.7461526
+},
+{
+"word": "flows",
+"start": 3.7461526,
+"end": 4.071232
+},
+{
+"word": "through",
+"start": 4.071232,
+"end": 4.2879515
+},
+{
+"word": "it.",
+"start": 4.2879515,
+"end": 4.4582314
+},
+{
+"word": "Two",
+"start": 5.27867,
+"end": 5.4489493
+},
+{
+"word": "teams",
+"start": 5.4489493,
+"end": 5.774029
+},
+{
+"word": "dug",
+"start": 5.774029,
+"end": 6.052668
+},
+{
+"word": "from",
+"start": 6.052668,
+"end": 6.222948
+},
+{
+"word": "both",
+"start": 6.222948,
+"end": 6.4706273
+},
+{
+"word": "ends,",
+"start": 6.4706273,
+"end": 6.950506
+},
+{
+"word": "met",
+"start": 7.136266,
+"end": 7.3684654
+},
+{
+"word": "in",
+"start": 7.3684654,
+"end": 7.4303856
+},
+{
+"word": "the",
+"start": 7.4303856,
+"end": 7.5232654
+},
+{
+"word": "middle,",
+"start": 7.5232654,
+"end": 7.9721847
+},
+{
+"word": "and",
+"start": 8.235344,
+"end": 8.4211035
+},
+{
+"word": "wrote",
+"start": 8.4211035,
+"end": 8.637823
+},
+{
+"word": "it",
+"start": 8.637823,
+"end": 8.715223
+},
+{
+"word": "in",
+"start": 8.715223,
+"end": 8.870023
+},
+{
+"word": "Hebrew.",
+"start": 8.870023,
+"end": 9.380861
+},
+{
+"word": "An",
+"start": 10.24774,
+"end": 10.37158
+},
+{
+"word": "aqueduct",
+"start": 10.37158,
+"end": 10.882419
+},
+{
+"word": "from",
+"start": 10.882419,
+"end": 11.068178
+},
+{
+"word": "Solomon's",
+"start": 11.068178,
+"end": 11.563538
+},
+{
+"word": "Pools",
+"start": 11.563538,
+"end": 11.996977
+},
+{
+"word": "fed",
+"start": 11.996977,
+"end": 12.2291765
+},
+{
+"word": "Jerusalem",
+"start": 12.2291765,
+"end": 12.832895
+},
+{
+"word": "until",
+"start": 12.8948145,
+"end": 13.157974
+},
+{
+"word": "nineteen",
+"start": 13.157974,
+"end": 13.514013
+},
+{
+"word": "sixty",
+"start": 13.514013,
+"end": 13.854573
+},
+{
+"word": "seven.",
+"start": 13.854573,
+"end": 14.272532
+},
+{
+"word": "Herod",
+"start": 15.077491,
+"end": 15.43353
+},
+{
+"word": "filled",
+"start": 15.43353,
+"end": 15.743129
+},
+{
+"word": "Masada's",
+"start": 15.743129,
+"end": 16.22301
+},
+{
+"word": "cisterns",
+"start": 16.22301,
+"end": 16.702887
+},
+{
+"word": "with",
+"start": 16.702887,
+"end": 16.873167
+},
+{
+"word": "forty",
+"start": 16.873167,
+"end": 17.275646
+},
+{
+"word": "thousand",
+"start": 17.275646,
+"end": 17.693605
+},
+{
+"word": "cubic",
+"start": 17.693605,
+"end": 18.018684
+},
+{
+"word": "metres",
+"start": 18.018684,
+"end": 18.374723
+},
+{
+"word": "of",
+"start": 18.374723,
+"end": 18.498564
+},
+{
+"word": "rain.",
+"start": 18.498564,
+"end": 18.777203
+},
+{
+"word": "And",
+"start": 19.458323,
+"end": 19.675041
+},
+{
+"word": "brought",
+"start": 19.675041,
+"end": 19.907242
+},
+{
+"word": "spring",
+"start": 19.907242,
+"end": 20.23232
+},
+{
+"word": "water",
+"start": 20.23232,
+"end": 20.54192
+},
+{
+"word": "to",
+"start": 20.54192,
+"end": 20.66576
+},
+{
+"word": "Caesarea",
+"start": 20.66576,
+"end": 21.315918
+},
+{
+"word": "on",
+"start": 21.346878,
+"end": 21.501678
+},
+{
+"word": "a",
+"start": 21.501678,
+"end": 21.563599
+},
+{
+"word": "stone",
+"start": 21.563599,
+"end": 21.857718
+},
+{
+"word": "aqueduct.",
+"start": 21.857718,
+"end": 22.368557
+},
+{
+"word": "In",
+"start": 23.235435,
+"end": 23.390234
+},
+{
+"word": "the",
+"start": 23.390234,
+"end": 23.467634
+},
+{
+"word": "Negev,",
+"start": 23.467634,
+"end": 24.009434
+},
+{
+"word": "the",
+"start": 24.164232,
+"end": 24.288073
+},
+{
+"word": "Nabataeans",
+"start": 24.288073,
+"end": 24.860832
+},
+{
+"word": "farmed",
+"start": 24.860832,
+"end": 25.123991
+},
+{
+"word": "the",
+"start": 25.123991,
+"end": 25.216871
+},
+{
+"word": "desert",
+"start": 25.216871,
+"end": 25.54195
+},
+{
+"word": "with",
+"start": 25.54195,
+"end": 25.69675
+},
+{
+"word": "dams",
+"start": 25.69675,
+"end": 26.05279
+},
+{
+"word": "and",
+"start": 26.05279,
+"end": 26.145668
+},
+{
+"word": "cisterns.",
+"start": 26.145668,
+"end": 26.811308
+},
+{
+"word": "Fifteen",
+"start": 27.368587,
+"end": 27.879425
+},
+{
+"word": "thirty",
+"start": 27.879425,
+"end": 28.158066
+},
+{
+"word": "six:",
+"start": 28.158066,
+"end": 28.606983
+},
+{
+"word": "Sultan",
+"start": 29.148783,
+"end": 29.628662
+},
+{
+"word": "Suleiman",
+"start": 29.628662,
+"end": 30.170462
+},
+{
+"word": "builds",
+"start": 30.170462,
+"end": 30.43362
+},
+{
+"word": "public",
+"start": 30.43362,
+"end": 30.7587
+},
+{
+"word": "fountains",
+"start": 30.7587,
+"end": 31.130219
+},
+{
+"word": "across",
+"start": 31.130219,
+"end": 31.4553
+},
+{
+"word": "Jerusalem.",
+"start": 31.4553,
+"end": 31.966137
+},
+{
+"word": "Nineteen",
+"start": 32.647255,
+"end": 33.127136
+},
+{
+"word": "thirty",
+"start": 33.127136,
+"end": 33.374813
+},
+{
+"word": "seven:",
+"start": 33.374813,
+"end": 33.823734
+},
+{
+"word": "Mekorot",
+"start": 34.040455,
+"end": 34.566772
+},
+{
+"word": "is",
+"start": 34.566772,
+"end": 34.721573
+},
+{
+"word": "born,",
+"start": 34.721573,
+"end": 35.17049
+},
+{
+"word": "eleven",
+"start": 35.23241,
+"end": 35.58845
+},
+{
+"word": "years",
+"start": 35.58845,
+"end": 35.83613
+},
+{
+"word": "before",
+"start": 35.83613,
+"end": 36.09929
+},
+{
+"word": "the",
+"start": 36.09929,
+"end": 36.19217
+},
+{
+"word": "state.",
+"start": 36.19217,
+"end": 36.51725
+},
+{
+"word": "Nineteen",
+"start": 37.21385,
+"end": 37.662766
+},
+{
+"word": "sixty",
+"start": 37.662766,
+"end": 38.018806
+},
+{
+"word": "four:",
+"start": 38.018806,
+"end": 38.452244
+},
+{
+"word": "the",
+"start": 38.932125,
+"end": 39.009525
+},
+{
+"word": "National",
+"start": 39.009525,
+"end": 39.458443
+},
+{
+"word": "Water",
+"start": 39.458443,
+"end": 39.768044
+},
+{
+"word": "Carrier,",
+"start": 39.768044,
+"end": 40.21696
+},
+{
+"word": "a",
+"start": 40.75876,
+"end": 40.82068
+},
+{
+"word": "hundred",
+"start": 40.82068,
+"end": 41.1148
+},
+{
+"word": "and",
+"start": 41.1148,
+"end": 41.20768
+},
+{
+"word": "thirty",
+"start": 41.20768,
+"end": 41.47084
+},
+{
+"word": "kilometres.",
+"start": 41.47084,
+"end": 42.16744
+},
+{
+"word": "A",
+"start": 42.709236,
+"end": 42.771156
+},
+{
+"word": "year",
+"start": 42.771156,
+"end": 42.972397
+},
+{
+"word": "later,",
+"start": 42.972397,
+"end": 43.452274
+},
+{
+"word": "Netafim:",
+"start": 43.638035,
+"end": 44.179832
+},
+{
+"word": "drip",
+"start": 44.89191,
+"end": 45.20151
+},
+{
+"word": "irrigation,",
+"start": 45.20151,
+"end": 45.88263
+},
+{
+"word": "on",
+"start": 45.97551,
+"end": 46.06839
+},
+{
+"word": "a",
+"start": 46.06839,
+"end": 46.09935
+},
+{
+"word": "Negev",
+"start": 46.09935,
+"end": 46.45539
+},
+{
+"word": "kibbutz.",
+"start": 46.45539,
+"end": 46.99719
+},
+{
+"word": "Two",
+"start": 47.956947,
+"end": 48.111748
+},
+{
+"word": "thousand",
+"start": 48.111748,
+"end": 48.436825
+},
+{
+"word": "five:",
+"start": 48.436825,
+"end": 48.761906
+},
+{
+"word": "Ashkelon",
+"start": 49.427544,
+"end": 49.90742
+},
+{
+"word": "starts",
+"start": 49.90742,
+"end": 50.17058
+},
+{
+"word": "turning",
+"start": 50.17058,
+"end": 50.449223
+},
+{
+"word": "the",
+"start": 50.449223,
+"end": 50.542103
+},
+{
+"word": "sea",
+"start": 50.542103,
+"end": 50.74334
+},
+{
+"word": "into",
+"start": 50.74334,
+"end": 50.9291
+},
+{
+"word": "drinking",
+"start": 50.9291,
+"end": 51.25418
+},
+{
+"word": "water.",
+"start": 51.25418,
+"end": 51.579258
+},
+{
+"word": "Today,",
+"start": 52.12106,
+"end": 52.569977
+},
+{
+"word": "about",
+"start": 52.693817,
+"end": 52.987938
+},
+{
+"word": "eighty",
+"start": 53.018898,
+"end": 53.266575
+},
+{
+"word": "percent",
+"start": 53.266575,
+"end": 53.560696
+},
+{
+"word": "of",
+"start": 53.560696,
+"end": 53.622616
+},
+{
+"word": "Israel's",
+"start": 53.622616,
+"end": 54.009613
+},
+{
+"word": "drinking",
+"start": 54.009613,
+"end": 54.350174
+},
+{
+"word": "water",
+"start": 54.350174,
+"end": 54.613335
+},
+{
+"word": "is",
+"start": 54.613335,
+"end": 54.79909
+},
+{
+"word": "desalinated.",
+"start": 54.79909,
+"end": 55.511173
+},
+{
+"word": "Twenty",
+"start": 56.11489,
+"end": 56.37805
+},
+{
+"word": "twenty",
+"start": 56.37805,
+"end": 56.59477
+},
+{
+"word": "five:",
+"start": 56.59477,
+"end": 56.91985
+},
+{
+"word": "desalinated",
+"start": 57.368767,
+"end": 58.065365
+},
+{
+"word": "water",
+"start": 58.065365,
+"end": 58.359486
+},
+{
+"word": "flows",
+"start": 58.359486,
+"end": 58.700047
+},
+{
+"word": "backwards,",
+"start": 58.700047,
+"end": 59.350204
+},
+{
+"word": "into",
+"start": 59.597885,
+"end": 59.79912
+},
+{
+"word": "the",
+"start": 59.79912,
+"end": 59.922962
+},
+{
+"word": "Sea",
+"start": 59.922962,
+"end": 60.108723
+},
+{
+"word": "of",
+"start": 60.108723,
+"end": 60.186123
+},
+{
+"word": "Galilee.",
+"start": 60.186123,
+"end": 60.666
+},
+{
+"word": "Water",
+"start": 61.300682,
+"end": 61.57932
+},
+{
+"word": "sharing",
+"start": 61.57932,
+"end": 61.9044
+},
+{
+"word": "with",
+"start": 61.9044,
+"end": 61.99728
+},
+{
+"word": "the",
+"start": 61.99728,
+"end": 62.09016
+},
+{
+"word": "Palestinians",
+"start": 62.09016,
+"end": 62.77128
+},
+{
+"word": "is",
+"start": 62.80224,
+"end": 62.987995
+},
+{
+"word": "still",
+"start": 62.987995,
+"end": 63.282116
+},
+{
+"word": "disputed",
+"start": 63.282116,
+"end": 63.731037
+},
+{
+"word": "under",
+"start": 63.731037,
+"end": 63.947754
+},
+{
+"word": "Oslo.",
+"start": 63.947754,
+"end": 64.427635
+},
+{
+"word": "And",
+"start": 64.87656,
+"end": 65.01588
+},
+{
+"word": "it",
+"start": 65.01588,
+"end": 65.07779
+},
+{
+"word": "all",
+"start": 65.07779,
+"end": 65.26355
+},
+{
+"word": "goes",
+"start": 65.26355,
+"end": 65.44931
+},
+{
+"word": "back",
+"start": 65.44931,
+"end": 65.65055
+},
+{
+"word": "to",
+"start": 65.65055,
+"end": 65.77439
+},
+{
+"word": "one",
+"start": 65.77439,
+"end": 65.97563
+},
+{
+"word": "tunnel.",
+"start": 65.97563,
+"end": 66.34715
+}
+]
