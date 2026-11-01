@@ -1,0 +1,7 @@
+{
+ "id": "crime_punish",
+ "cmd": "python3 /home/claude/crime_punish/engine.py --reel /home/claude/crime_punish --out /home/claude/crime_punish/out.mp4",
+ "out": "/home/claude/crime_punish/out.mp4",
+ "sent": "2026-11-01T18:09:28Z",
+ "nfiles": 27
+}
