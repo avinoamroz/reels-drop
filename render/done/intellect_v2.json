@@ -1,0 +1,8 @@
+{
+  "id": "intellect_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "55",
+  "run": "41275252262",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[   1.0s] T_END 66.93333333333334 warn []\n[   4.0s] [mix] input -23.3 LUFS, gain +10.3 dB, 30 SFX -> /home/claude/intellect_v3/build/out/work/mix.wav\n[   4.1s] [render] frame 0/2008  0s\n[   7.2s] [render] frame 150/2008  3s\n[  10.0s] [render] frame 300/2008  6s\n[  12.9s] [render] frame 450/2008  9s\n[  15.5s] [render] frame 600/2008  12s\n[  18.1s] [render] frame 750/2008  14s\n[  20.6s] [render] frame 900/2008  17s\n[  23.3s] [render] frame 1050/2008  19s\n[  26.1s] [render] frame 1200/2008  22s\n[  28.6s] [render] frame 1350/2008  25s\n[  31.4s] [render] frame 1500/2008  27s\n[  34.1s] [render] frame 1650/2008  30s\n[  36.7s] [render] frame 1800/2008  33s\n[  39.3s] [render] frame 1950/2008  35s\nvideo 1080x1920 30/1 66.93s aac 48000 Hz: -14.1 LUFS, TP -1.7 dBTP, 9.49 MB (ok)\nweb 540x960 4.19 MB (ok), -14.1 LUFS, TP -1.7\nhook: ok (frame-0 text 12, motion 7.69)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 3.41s (ok)\n"
+}
