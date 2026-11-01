@@ -54,6 +54,7 @@ jobs:
           sparse-checkout: |
             render/jobs/${{ matrix.id }}
             render/requirements.txt
+            render/asr.py
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -91,6 +92,34 @@ jobs:
           else
             echo "ok=0" >> "$GITHUB_OUTPUT"
           fi
+      # Cloud ASR QA (added 1 Nov). Optional: every step below is continue-on-error and only
+      # runs after a good render, so it can never fail or block the render result.
+      - name: ASR models for this job
+        id: am
+        if: steps.r.outputs.ok == '1'
+        continue-on-error: true
+        run: |
+          J=render/jobs/${{ matrix.id }}/job.json
+          v=$(jq -r '.asr_model // (if (.asr_video_lang // "en") == "en" then "small.en" else "large-v3-turbo" end)' "$J")
+          c=$(jq -r 'if (.asr_lang and ((.asr_clips // []) | length) > 0) then (.asr_clip_model // (if .asr_lang == "en" then "small.en" else "large-v3-turbo" end)) else "" end' "$J")
+          echo "key=$(echo "$v $c" | xargs | tr ' ' '+')" >> "$GITHUB_OUTPUT"
+      - name: Cache whisper
+        if: steps.r.outputs.ok == '1'
+        continue-on-error: true
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/huggingface
+            ~/.cache/asr-pip
+          key: whisper-v1-${{ steps.am.outputs.key }}
+      - name: Cloud ASR
+        if: steps.r.outputs.ok == '1'
+        continue-on-error: true
+        timeout-minutes: 15
+        run: |
+          pip install -q --retries 5 --cache-dir ~/.cache/asr-pip faster-whisper==1.1.1
+          J=render/jobs/${{ matrix.id }}/job.json
+          python render/asr.py "${{ matrix.id }}" "${{ matrix.id }}.mp4" "$J"
       - name: Push result
         if: always()
         run: |
@@ -100,6 +129,9 @@ jobs:
           git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
           git add --sparse "render/done/${{ matrix.id }}.json"
           [ -f "${{ matrix.id }}.mp4" ] && git add --sparse "${{ matrix.id }}.mp4" "render/out/${{ matrix.id }}_540.mp4"
+          for f in render/done/${{ matrix.id }}.asr*; do
+            if [ -f "$f" ]; then git add --sparse "$f" || true; fi
+          done
           git commit -q -m "Rendered ${{ matrix.id }}"
           for i in 1 2 3 4 5 6 7 8; do
             git pull -q --rebase && git push -q && exit 0
