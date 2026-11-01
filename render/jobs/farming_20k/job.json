@@ -1,0 +1,7 @@
+{
+ "id": "farming_20k",
+ "cmd": "python3 /home/claude/farming_20k/engine.py --out /home/claude/farming_20k/farming_20k.mp4",
+ "out": "/home/claude/farming_20k/farming_20k.mp4",
+ "sent": "2026-11-01T20:17:39Z",
+ "nfiles": 32
+}
