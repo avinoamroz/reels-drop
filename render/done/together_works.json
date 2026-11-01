@@ -1,0 +1,8 @@
+{
+  "id": "together_works",
+  "ok": true,
+  "rc": "0",
+  "secs": "141",
+  "run": "41282971096",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1440\nframe 150/1440\nframe 300/1440\nframe 450/1440\nframe 600/1440\nframe 750/1440\nframe 900/1440\nframe 1050/1440\nframe 1200/1440\nframe 1350/1440\nvideo /home/claude/together_works/work/silent.mp4 48.0\nfinal /home/claude/together_works/together_works.mp4\n"
+}
