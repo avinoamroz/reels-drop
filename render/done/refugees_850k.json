@@ -1,0 +1,8 @@
+{
+  "id": "refugees_850k",
+  "ok": false,
+  "rc": "1",
+  "secs": "7",
+  "run": "41288009444",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.5s] [sse] 146 words timed from Cartesia timestamps, k 0.9999\n[   4.5s] voice 54.42s, lines 0.30-4.01, 4.43-10.44, 10.64-14.31, 14.65-18.30, 18.72-21.27, 21.69-25.47, 25.89-30.37, 30.80-35.86, 36.28-39.64, 40.00-44.83, 45.28-50.47, 50.89-54.40\n[   4.6s] timeline: 12 scenes, T_END 55.00s, warnings []\nTraceback (most recent call last):\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 79, in <module>\n    main()\n    ~~~~^^\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 64, in main\n    wav = f\"{work}/mix.wav\"; mrep = MX.mix(vo, R.T_END, bed, ev, wav, music_db=spec.get(\"music_db\", -17.0), log=log)\n                                    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/reelkit/mix.py\", line 93, in mix\n    if isinstance(x, str): xdb += SFX_DB.get(x, 0); x = sfx(x)\n                                                        ~~~^^^\n  File \"/home/claude/reelkit/mix.py\", line 61, in sfx\n    import sfx2; x = sfx2.whoosh(0.5)\n    ^^^^^^^^^^^\n  File \"/home/claude/reelkit/sfx2.py\", line 7, in <module>\n    from narrate import SR, bp, lp, hp, norm, tt, load\nModuleNotFoundError: No module named 'narrate'\n"
+}
