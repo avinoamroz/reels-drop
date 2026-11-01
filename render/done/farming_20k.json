@@ -1,0 +1,8 @@
+{
+  "id": "farming_20k",
+  "ok": false,
+  "rc": "1",
+  "secs": "308",
+  "run": "41346136871",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1899\nframe 150 / 1899\nframe 300 / 1899\nframe 450 / 1899\nframe 600 / 1899\nframe 750 / 1899\nframe 900 / 1899\nframe 1050 / 1899\nframe 1200 / 1899\nframe 1350 / 1899\nframe 1500 / 1899\nframe 1650 / 1899\nTraceback (most recent call last):\n  File \"/home/claude/farming_20k/engine.py\", line 477, in <module>\n    tt = i / FPS; img = frame(tt)\n                        ~~~~~^^^^\n  File \"/home/claude/farming_20k/engine.py\", line 450, in frame\n    draw_map(c, t, 1.0, 1 - 0.75 * pd)\n    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/farming_20k/engine.py\", line 259, in draw_map\n    c.save(); c.translate(x, y); c.scale(ss, ss); c.set_source_surface(ICON_O, -30, -30); c.paint_with_alpha(ol); c.restore()\n                                 ~~~~~~~^^^^^^^^\ncairo.Error: invalid matrix (not invertible)\n"
+}
