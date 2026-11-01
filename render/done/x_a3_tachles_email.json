@@ -1,0 +1,8 @@
+{
+  "id": "x_a3_tachles_email",
+  "ok": true,
+  "rc": "0",
+  "secs": "50",
+  "run": "41336572816",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.6s] [sse] 119 words timed from Cartesia timestamps, k 0.9998\n[   4.6s] voice 50.50s, lines 0.30-3.19, 3.66-8.13, 8.72-14.07, 14.57-20.54, 21.01-25.96, 26.32-32.99, 33.73-39.89, 40.69-45.39, 46.18-48.32, 48.88-50.58\n[   4.7s] timeline: 9 scenes, T_END 50.83s, warnings []\n[   7.5s] [mix] input -22.6 LUFS, gain +9.9 dB, 18 SFX -> /home/claude/express_1101a/x_a3_tachles_email/out/work/mix.wav\n[   7.7s] [render] frame 0/1525  0s\n[  10.7s] [render] frame 150/1525  3s\n[  13.8s] [render] frame 300/1525  6s\n[  17.0s] [render] frame 450/1525  9s\n[  20.1s] [render] frame 600/1525  13s\n[  22.7s] [render] frame 750/1525  15s\n[  25.5s] [render] frame 900/1525  18s\n[  28.3s] [render] frame 1050/1525  21s\n[  31.2s] [render] frame 1200/1525  24s\n[  34.0s] [render] frame 1350/1525  26s\n[  36.9s] [render] frame 1500/1525  29s\n\nvideo 1080x1920 30/1 50.83s aac 48000 Hz: -14.2 LUFS, TP -1.6 dBTP, 5.29 MB (ok)\nweb 540x960 2.68 MB (ok), -14.2 LUFS, TP -1.6\nhook: ok (frame-0 text 7, motion 1.72)\ndashes: ok (0 replaced)\nlayout issues: 4\nstages {'voice_align_s': 3.3, 'timeline_s': 0.1, 'mix_s': 2.8, 'render_s': 30.9, 'web_s': 8.6, 'qa_s': 3.7, 'total_s': 50.7}\n"
+}
