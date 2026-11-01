@@ -1,0 +1,8 @@
+{
+  "id": "maps_p2_hook2_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "22",
+  "run": "41335331198",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/973  0s\n[render] frame 150/973  3s\n[render] frame 300/973  7s\n[render] frame 450/973  10s\n[render] frame 600/973  13s\n[render] frame 750/973  16s\n[render] frame 900/973  19s\nrendered 21.1 s 973 frames\n"
+}
