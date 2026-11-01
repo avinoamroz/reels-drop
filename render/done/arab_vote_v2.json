@@ -1,0 +1,8 @@
+{
+  "id": "arab_vote_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "46",
+  "run": "41274807050",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.7s] [sse] 119 words timed from Cartesia timestamps, k 0.9999\n[   3.8s] voice 41.68s, lines 0.30-2.05, 2.33-4.40, 4.67-9.56, 9.81-15.15, 15.43-19.44, 19.64-23.80, 24.08-30.75, 31.02-35.31, 35.49-39.13, 39.41-41.68\n[   3.8s] timeline: 6 scenes, T_END 43.60s, warnings []\n[   6.6s] [mix] input -21.9 LUFS, gain +8.7 dB, 15 SFX -> /home/claude/arab_vote_v2/out/work/mix.wav\n[   6.8s] [render] frame 0/1308  0s\n[   9.6s] [render] frame 150/1308  3s\n[  13.1s] [render] frame 300/1308  6s\n[  16.0s] [render] frame 450/1308  9s\n[  19.2s] [render] frame 600/1308  13s\n[  22.5s] [render] frame 750/1308  16s\n[  25.8s] [render] frame 900/1308  19s\n[  29.2s] [render] frame 1050/1308  23s\n[  32.6s] [render] frame 1200/1308  26s\n\nvideo 1080x1920 30/1 43.6s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 4.77 MB (ok)\nweb 540x960 2.43 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 10, motion 1.49)\ndashes: ok (0 replaced)\nlayout issues: 7\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.5, 'timeline_s': 0.1, 'mix_s': 2.8, 'render_s': 28.5, 'web_s': 7.2, 'qa_s': 3.1, 'total_s': 45.4}\n"
+}
