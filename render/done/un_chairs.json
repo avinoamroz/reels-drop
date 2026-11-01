@@ -1,0 +1,8 @@
+{
+  "id": "un_chairs",
+  "ok": true,
+  "rc": "0",
+  "secs": "70",
+  "run": "41288448613",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.8s] [sse] 127 words timed from Cartesia timestamps, k 0.9999\n[   3.8s] voice 45.51s, lines 0.30-2.37, 2.79-8.28, 8.70-12.41, 12.85-17.80, 18.22-21.32, 21.74-25.42, 25.87-30.13, 30.46-34.51, 34.81-37.75, 38.20-41.11, 41.53-45.51\n[   3.9s] timeline: 11 scenes, T_END 46.07s, warnings []\n[   7.1s] [mix] input -21.9 LUFS, gain +8.3 dB, 10 SFX -> /home/claude/daily_1101/un_chairs/out/work/mix.wav\n[   7.3s] [render] frame 0/1382  0s\n[  11.0s] [render] frame 150/1382  4s\n[  16.2s] [render] frame 300/1382  9s\n[  21.1s] [render] frame 450/1382  14s\n[  26.9s] [render] frame 600/1382  20s\n[  31.4s] [render] frame 750/1382  24s\n[  36.6s] [render] frame 900/1382  30s\n[  41.4s] [render] frame 1050/1382  34s\n[  48.1s] [render] frame 1200/1382  41s\n[  52.7s] [render] frame 1350/1382  46s\n\nvideo 1080x1920 30/1 46.07s aac 48000 Hz: -14.0 LUFS, TP -1.7 dBTP, 12.71 MB (ok)\nweb 540x960 4.53 MB (ok), -14.0 LUFS, TP -1.7\nhook: FAIL (frame-0 text 0, motion 11.53)\ndashes: ok (0 replaced)\nlayout issues: 3\nstages {'voice_align_s': 2.7, 'timeline_s': 0.1, 'mix_s': 3.2, 'render_s': 48.3, 'web_s': 10.6, 'qa_s': 4.5, 'total_s': 70.5}\n"
+}
