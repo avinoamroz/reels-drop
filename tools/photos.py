@@ -49,7 +49,10 @@ def commons_info(title):
             "attribution_required": md.get("AttributionRequired"), "usage_terms": strip(md.get("UsageTerms")),
             "date": strip(md.get("DateTimeOriginal") or md.get("DateTime")),
             "description": strip(md.get("ImageDescription"))[:400]}
-    meta["credit_line"] = ", ".join(x for x in [meta["author"] or None, meta["license"] or None, "Wikimedia Commons"] if x)
+    who = meta["author"]
+    if len(who) > 80:  # long Artist fields: keep the first clause for the on-screen label
+        who = re.split(r"[(.;]", who)[0].strip()[:80]
+    meta["credit_line"] = ", ".join(x for x in [who or None, meta["license"] or None, "Wikimedia Commons"] if x)
     return src, meta
 
 
@@ -89,10 +92,16 @@ def main():
             else:
                 meta.update({"source": urllib.parse.urlparse(url).netloc, "license": None,
                              "note": "not Commons: check the source page for rights (US federal works are usually public domain)"})
+            meta["downloaded"] = src
             r = get(src)
-            if "image" not in r.headers.get("content-type", "image") and not src.lower().endswith((".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp")):
-                raise ValueError(f"not an image: {r.headers.get('content-type')}")
-            im = Image.open(io.BytesIO(r.content)); im = ImageOps.exif_transpose(im)
+            ctype = r.headers.get("content-type", "")
+            data = r.content
+            if "svg" in ctype or src.lower().endswith(".svg") or data[:200].lstrip().startswith((b"<?xml", b"<svg")):
+                import cairosvg  # raster fallback when the server sent the SVG itself
+                data = cairosvg.svg2png(bytestring=data, output_width=MAX)
+            elif "image" not in ctype and not src.lower().endswith((".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp")):
+                raise ValueError(f"not an image: {ctype} from {src}")
+            im = Image.open(io.BytesIO(data)); im = ImageOps.exif_transpose(im)
             meta["original_size"] = list(im.size)
             if im.mode in ("RGBA", "LA", "P"):
                 im = im.convert("RGBA"); bg = Image.new("RGB", im.size, (255, 255, 255)); bg.paste(im, mask=im.split()[-1]); im = bg
@@ -100,7 +109,7 @@ def main():
                 im = im.convert("RGB")
             im.thumbnail((MAX, MAX), Image.LANCZOS)
             im.save(jp, "JPEG", quality=88, optimize=True, progressive=True)
-            meta.update({"size": list(im.size), "downloaded": src, "ok": True})
+            meta.update({"size": list(im.size), "ok": True})
             print(f"ok {name}: {im.size} {meta.get('license')} | {meta.get('author')}")
         except Exception as e:
             meta.update({"ok": False, "error": f"{type(e).__name__}: {e}"[:500]})

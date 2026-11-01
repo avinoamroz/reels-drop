@@ -13,7 +13,7 @@ Optional job.json keys: "asr": false (skip), "asr_video_lang" (default "en"),
 "asr_model" (video model, default small.en for English, large-v3-turbo otherwise),
 "asr_clip_model" (default large-v3-turbo, or small.en when asr_lang is "en").
 """
-import json, os, sys, time, traceback
+import json, os, subprocess, sys, time, traceback
 
 ID, MP4, JOB = sys.argv[1:4]
 J = json.load(open(JOB))
@@ -35,8 +35,17 @@ def model(name):
     return _models[name]
 
 
+def pcm16k(path):
+    """decode with the system ffmpeg (faster-whisper's PyAV path breaks on new av releases)"""
+    import subprocess, numpy as np
+    sudo = [] if os.access(path, os.R_OK) else ["sudo", "-n"]  # bundle files are unpacked as root
+    raw = subprocess.run(sudo + ["ffmpeg", "-nostdin", "-v", "error", "-i", path, "-vn", "-ac", "1", "-ar", "16000",
+                          "-f", "s16le", "-"], check=True, capture_output=True).stdout
+    return np.frombuffer(raw, np.int16).astype(np.float32) / 32768.0
+
+
 def tx(name, path, lang):
-    segs, info = model(name).transcribe(path, language=lang, word_timestamps=True, beam_size=5,
+    segs, info = model(name).transcribe(pcm16k(path), language=lang, word_timestamps=True, beam_size=5,
                                         condition_on_previous_text=False)
     out = []
     for s in segs:
@@ -68,7 +77,7 @@ def main():
         cmodel = J.get("asr_clip_model") or default_model(lang)
         res, txt = {}, []
         for p in clips:
-            src = p if os.path.exists(p) else None
+            src = p if (os.path.exists(p) or subprocess.run(["sudo", "-n", "test", "-f", p]).returncode == 0) else None
             if not src:
                 res[p] = {"error": "not found in bundle"}; txt += [f"## {p}", "(not found in bundle)"]; continue
             try:

@@ -24,7 +24,7 @@ jobs:
             tools/photos.py
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: pip install -q --retries 5 pillow requests
+      - run: pip install -q --retries 5 pillow requests cairosvg
       - name: Download and resize
         run: |
           mkdir -p photos; touch photos/list.txt
