@@ -1,0 +1,8 @@
+{
+  "id": "meat_per_km_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "46",
+  "run": "41281299294",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.7s] [sse] 102 words timed from Cartesia timestamps, k 0.9999\n[   3.7s] voice 44.74s, lines 0.30-3.52, 3.82-5.82, 6.03-9.81, 10.11-13.61, 13.91-18.17, 18.47-23.16, 23.46-27.73, 28.03-34.31, 34.61-37.93, 38.20-40.47, 40.76-42.00, 42.14-44.80\n[   3.8s] timeline: 10 scenes, T_END 45.37s, warnings []\n[   6.4s] [mix] input -23.0 LUFS, gain +9.8 dB, 33 SFX -> /home/claude/fixes_1101/meat/out/work/mix.wav\n[   6.6s] [render] frame 0/1361  0s\n[   9.4s] [render] frame 150/1361  3s\n[  12.8s] [render] frame 300/1361  6s\n[  15.4s] [render] frame 450/1361  9s\n[  18.4s] [render] frame 600/1361  12s\n[  21.2s] [render] frame 750/1361  15s\n[  24.1s] [render] frame 900/1361  18s\n[  26.8s] [render] frame 1050/1361  20s\n[  29.7s] [render] frame 1200/1361  23s\n[  32.6s] [render] frame 1350/1361  26s\n\nvideo 1080x1920 30/1 45.37s aac 48000 Hz: -14.1 LUFS, TP -2.1 dBTP, 5.34 MB (ok)\nweb 540x960 2.56 MB (ok), -14.1 LUFS, TP -2.1\nhook: ok (frame-0 text 9, motion 3.23)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 2.6, 'timeline_s': 0.1, 'mix_s': 2.6, 'render_s': 27.4, 'web_s': 7.7, 'qa_s': 3.5, 'total_s': 45.1}\n"
+}
