@@ -1,0 +1,8 @@
+{
+  "id": "cats_israel",
+  "ok": true,
+  "rc": "0",
+  "secs": "45",
+  "run": "41353048150",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1643\nframe 150 / 1643\nframe 300 / 1643\nframe 450 / 1643\nframe 600 / 1643\nframe 750 / 1643\nframe 900 / 1643\nframe 1050 / 1643\nframe 1200 / 1643\nframe 1350 / 1643\nframe 1500 / 1643\nwrote /home/claude/cats_israel/final.mp4 54.78\n"
+}
