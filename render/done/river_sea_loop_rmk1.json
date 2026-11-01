@@ -1,0 +1,8 @@
+{
+  "id": "river_sea_loop_rmk1",
+  "ok": true,
+  "rc": "0",
+  "secs": "48",
+  "run": "41336770843",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/1663  0s\n[render] frame 150/1663  6s\n[render] frame 300/1663  11s\n[render] frame 450/1663  17s\n[render] frame 600/1663  21s\n[render] frame 750/1663  23s\n[render] frame 900/1663  25s\n[render] frame 1050/1663  27s\n[render] frame 1200/1663  29s\n[render] frame 1350/1663  35s\n[render] frame 1500/1663  40s\n[render] frame 1650/1663  46s\nrendered 47.0 s 1663 frames\n"
+}
