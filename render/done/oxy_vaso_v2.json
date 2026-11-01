@@ -1,0 +1,8 @@
+{
+  "id": "oxy_vaso_v2",
+  "ok": false,
+  "rc": "1",
+  "secs": "3",
+  "run": "41275252262",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\nTraceback (most recent call last):\n  File \"/home/claude/fixes_1027b/rk_stage.py\", line 29, in <module>\n    else: render(*a[1:5])\n          ~~~~~~^^^^^^^^^\n  File \"/home/claude/fixes_1027b/rk_stage.py\", line 24, in render\n    R = RD.Reel(RD.load_spec(spec_p), json.load(open(tim_p)))\n                                                ~~~~^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/home/claude/fixes_1027b/oxy_v2/out/timing.json'\n"
+}
