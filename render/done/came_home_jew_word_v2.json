@@ -1,0 +1,8 @@
+{
+  "id": "came_home_jew_word_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "32",
+  "run": "41274418697",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.9s] [sse] 97 words timed from Cartesia timestamps, k 0.9998\n[   3.0s] voice 36.76s, lines 0.30-3.97, 4.33-12.33, 12.72-18.09, 18.64-25.42, 25.95-30.30, 30.57-34.32, 34.77-36.75\n[   3.1s] timeline: 7 scenes, T_END 38.23s, warnings []\n[   5.0s] [mix] input -21.7 LUFS, gain +8.3 dB, 7 SFX -> /home/claude/daily_1029/came_home_jew_word_v2/out/work/mix.wav\n[   5.1s] [render] frame 0/1147  0s\n[   7.6s] [render] frame 150/1147  3s\n[  10.1s] [render] frame 300/1147  5s\n[  12.7s] [render] frame 450/1147  8s\n[  15.3s] [render] frame 600/1147  10s\n[  17.8s] [render] frame 750/1147  13s\n[  20.3s] [render] frame 900/1147  15s\n[  22.7s] [render] frame 1050/1147  18s\n\nvideo 1080x1920 30/1 38.23s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 3.88 MB (ok)\nweb 540x960 1.97 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 5, motion 1.63)\ndashes: ok (0 replaced)\nlayout issues: 10\ncta hold 3.02s (ok)\nstages {'voice_align_s': 2.0, 'timeline_s': 0.1, 'mix_s': 1.9, 'render_s': 19.5, 'web_s': 5.2, 'qa_s': 2.3, 'total_s': 32.0}\n"
+}
