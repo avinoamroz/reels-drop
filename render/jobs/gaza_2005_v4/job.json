@@ -1,7 +1,0 @@
-{
- "id": "gaza_2005_v4",
- "cmd": "python3 /home/claude/fix6/ovl6.py /home/claude/fix6/cfg/gaza_2005_v4.json",
- "out": "/home/claude/fix6/out/gaza_2005_v4.mp4",
- "sent": "2026-11-01T12:51:51Z",
- "nfiles": 56
-}
