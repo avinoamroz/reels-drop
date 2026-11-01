@@ -1,0 +1,8 @@
+{
+  "id": "colonizers_startups_v2",
+  "ok": false,
+  "rc": "1",
+  "secs": "2",
+  "run": "41275252262",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\nTraceback (most recent call last):\n  File \"/home/claude/colonizers_startups_v2/build/build.py\", line 11, in <module>\n    vo, _ = sf.read(f\"{OUT}/vo.wav\"); R = RD.Reel(spec, tim)\n                                          ~~~~~~~^^^^^^^^^^^\n  File \"/home/claude/reelkit/render.py\", line 677, in __init__\n    else: t0 = s.TL.start(ln) - LEAD_IN\n               ~~~~~~~~~~^^^^\n  File \"/home/claude/reelkit/render.py\", line 216, in start\n    def start(s, line): return s.lines[s.li(line)][\"t0\"]\n                                       ~~~~^^^^^^\n  File \"/home/claude/reelkit/render.py\", line 214, in li\n    assert line - 1 in s.src, f\"script line {line} is not in the selected voice lines\"\n           ^^^^^^^^^^^^^^^^^\nAssertionError: script line 10 is not in the selected voice lines\n"
+}
