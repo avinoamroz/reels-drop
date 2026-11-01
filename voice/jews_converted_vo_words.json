@@ -1,0 +1,872 @@
+[
+{
+"word": "Two",
+"start": 0.4643991,
+"end": 0.6501587
+},
+{
+"word": "point",
+"start": 0.6501587,
+"end": 0.85139835
+},
+{
+"word": "three",
+"start": 0.88235825,
+"end": 1.1300378
+},
+{
+"word": "billion",
+"start": 1.1300378,
+"end": 1.517037
+},
+{
+"word": "Christians.",
+"start": 1.517037,
+"end": 2.2600756
+},
+{
+"word": "Two",
+"start": 2.6625547,
+"end": 2.8328345
+},
+{
+"word": "billion",
+"start": 2.8328345,
+"end": 3.1733937
+},
+{
+"word": "Muslims.",
+"start": 3.1733937,
+"end": 3.7616327
+},
+{
+"word": "And",
+"start": 4.164112,
+"end": 4.3343916
+},
+{
+"word": "Jews?",
+"start": 4.3343916,
+"end": 4.9381104
+},
+{
+"word": "About",
+"start": 5.6037493,
+"end": 5.8669086
+},
+{
+"word": "fifteen",
+"start": 5.8669086,
+"end": 6.4087076
+},
+{
+"word": "million.",
+"start": 6.4087076,
+"end": 6.826667
+},
+{
+"word": "So",
+"start": 7.3065457,
+"end": 7.5542254
+},
+{
+"word": "how",
+"start": 7.5542254,
+"end": 7.755465
+},
+{
+"word": "did",
+"start": 7.755465,
+"end": 7.9412246
+},
+{
+"word": "each",
+"start": 7.9412246,
+"end": 8.173424
+},
+{
+"word": "faith",
+"start": 8.173424,
+"end": 8.560423
+},
+{
+"word": "spread",
+"start": 8.653303,
+"end": 9.040302
+},
+{
+"word": "around",
+"start": 9.040302,
+"end": 9.257022
+},
+{
+"word": "the",
+"start": 9.257022,
+"end": 9.349902
+},
+{
+"word": "world?",
+"start": 9.349902,
+"end": 9.736901
+},
+{
+"word": "Christianity",
+"start": 10.464459,
+"end": 11.393258
+},
+{
+"word": "began",
+"start": 11.439697,
+"end": 11.780257
+},
+{
+"word": "right",
+"start": 11.780257,
+"end": 11.950537
+},
+{
+"word": "here,",
+"start": 11.950537,
+"end": 12.353016
+},
+{
+"word": "in",
+"start": 12.585216,
+"end": 12.740015
+},
+{
+"word": "Jerusalem,",
+"start": 12.740015,
+"end": 13.359214
+},
+{
+"word": "with",
+"start": 13.575933,
+"end": 13.761693
+},
+{
+"word": "a",
+"start": 13.761693,
+"end": 13.823613
+},
+{
+"word": "mission:",
+"start": 13.823613,
+"end": 14.241572
+},
+{
+"word": "go",
+"start": 14.721451,
+"end": 15.077491
+},
+{
+"word": "and",
+"start": 15.077491,
+"end": 15.20133
+},
+{
+"word": "teach",
+"start": 15.20133,
+"end": 15.52641
+},
+{
+"word": "all",
+"start": 15.588329,
+"end": 15.851489
+},
+{
+"word": "nations.",
+"start": 15.851489,
+"end": 16.486168
+},
+{
+"word": "In",
+"start": 17.182766,
+"end": 17.353046
+},
+{
+"word": "three",
+"start": 17.353046,
+"end": 17.631685
+},
+{
+"word": "eighty,",
+"start": 17.631685,
+"end": 18.049644
+},
+{
+"word": "Rome",
+"start": 18.281845,
+"end": 18.730762
+},
+{
+"word": "made",
+"start": 18.761723,
+"end": 18.978443
+},
+{
+"word": "it",
+"start": 18.978443,
+"end": 19.071323
+},
+{
+"word": "the",
+"start": 19.071323,
+"end": 19.164202
+},
+{
+"word": "state",
+"start": 19.164202,
+"end": 19.396402
+},
+{
+"word": "religion.",
+"start": 19.396402,
+"end": 19.814362
+},
+{
+"word": "Then",
+"start": 20.61932,
+"end": 20.928919
+},
+{
+"word": "empires",
+"start": 20.928919,
+"end": 21.563599
+},
+{
+"word": "and",
+"start": 21.563599,
+"end": 21.764837
+},
+{
+"word": "missionaries",
+"start": 21.764837,
+"end": 22.275677
+},
+{
+"word": "carried",
+"start": 22.275677,
+"end": 22.569796
+},
+{
+"word": "it",
+"start": 22.569796,
+"end": 22.662676
+},
+{
+"word": "to",
+"start": 22.662676,
+"end": 22.786516
+},
+{
+"word": "every",
+"start": 22.786516,
+"end": 23.003235
+},
+{
+"word": "continent.",
+"start": 23.003235,
+"end": 23.483114
+},
+{
+"word": "Muslims",
+"start": 23.808193,
+"end": 24.319033
+},
+{
+"word": "spread",
+"start": 24.319033,
+"end": 24.582191
+},
+{
+"word": "their",
+"start": 24.582191,
+"end": 24.706032
+},
+{
+"word": "faith",
+"start": 24.706032,
+"end": 24.96919
+},
+{
+"word": "out",
+"start": 24.96919,
+"end": 25.123991
+},
+{
+"word": "of",
+"start": 25.123991,
+"end": 25.185911
+},
+{
+"word": "Arabia",
+"start": 25.185911,
+"end": 25.60387
+},
+{
+"word": "with",
+"start": 25.60387,
+"end": 25.727709
+},
+{
+"word": "the",
+"start": 25.727709,
+"end": 25.82059
+},
+{
+"word": "early",
+"start": 25.82059,
+"end": 26.05279
+},
+{
+"word": "caliphates'",
+"start": 26.05279,
+"end": 26.563627
+},
+{
+"word": "conquests,",
+"start": 26.563627,
+"end": 27.167347
+},
+{
+"word": "then",
+"start": 27.415026,
+"end": 27.740107
+},
+{
+"word": "along",
+"start": 27.771067,
+"end": 28.065186
+},
+{
+"word": "the",
+"start": 28.065186,
+"end": 28.158066
+},
+{
+"word": "trade",
+"start": 28.158066,
+"end": 28.405745
+},
+{
+"word": "routes,",
+"start": 28.405745,
+"end": 28.792744
+},
+{
+"word": "all",
+"start": 28.932064,
+"end": 29.148783
+},
+{
+"word": "the",
+"start": 29.148783,
+"end": 29.241663
+},
+{
+"word": "way",
+"start": 29.241663,
+"end": 29.380983
+},
+{
+"word": "to",
+"start": 29.380983,
+"end": 29.504822
+},
+{
+"word": "Indonesia.",
+"start": 29.504822,
+"end": 30.077581
+},
+{
+"word": "Today,",
+"start": 30.32526,
+"end": 30.85158
+},
+{
+"word": "a",
+"start": 31.0683,
+"end": 31.130219
+},
+{
+"word": "hundred",
+"start": 31.130219,
+"end": 31.42434
+},
+{
+"word": "and",
+"start": 31.42434,
+"end": 31.517218
+},
+{
+"word": "twenty",
+"start": 31.517218,
+"end": 31.764898
+},
+{
+"word": "countries",
+"start": 31.764898,
+"end": 32.291218
+},
+{
+"word": "have",
+"start": 32.353138,
+"end": 32.569855
+},
+{
+"word": "a",
+"start": 32.569855,
+"end": 32.631775
+},
+{
+"word": "Christian",
+"start": 32.631775,
+"end": 32.987816
+},
+{
+"word": "majority.",
+"start": 32.987816,
+"end": 33.498653
+},
+{
+"word": "Fifty-three",
+"start": 33.947575,
+"end": 34.690613
+},
+{
+"word": "have",
+"start": 34.783493,
+"end": 34.969254
+},
+{
+"word": "a",
+"start": 34.969254,
+"end": 35.00021
+},
+{
+"word": "Muslim",
+"start": 35.00021,
+"end": 35.29433
+},
+{
+"word": "majority.",
+"start": 35.29433,
+"end": 35.74325
+},
+{
+"word": "Now",
+"start": 36.16121,
+"end": 36.50177
+},
+{
+"word": "the",
+"start": 36.50177,
+"end": 36.641087
+},
+{
+"word": "Jews.",
+"start": 36.641087,
+"end": 37.120968
+},
+{
+"word": "Two",
+"start": 37.461525,
+"end": 37.600845
+},
+{
+"word": "thousand",
+"start": 37.600845,
+"end": 37.941406
+},
+{
+"word": "years",
+"start": 37.941406,
+"end": 38.266487
+},
+{
+"word": "scattered",
+"start": 38.297443,
+"end": 38.777325
+},
+{
+"word": "around",
+"start": 38.777325,
+"end": 38.994045
+},
+{
+"word": "the",
+"start": 38.994045,
+"end": 39.040485
+},
+{
+"word": "world,",
+"start": 39.040485,
+"end": 39.473923
+},
+{
+"word": "and",
+"start": 39.675163,
+"end": 39.829964
+},
+{
+"word": "no",
+"start": 39.829964,
+"end": 40.0312
+},
+{
+"word": "empire",
+"start": 40.0312,
+"end": 40.43368
+},
+{
+"word": "to",
+"start": 40.43368,
+"end": 40.51108
+},
+{
+"word": "spread",
+"start": 40.51108,
+"end": 40.82068
+},
+{
+"word": "anything.",
+"start": 40.8826,
+"end": 41.33152
+},
+{
+"word": "No",
+"start": 41.873318,
+"end": 41.981678
+},
+{
+"word": "missionaries",
+"start": 41.981678,
+"end": 42.461555
+},
+{
+"word": "either.",
+"start": 42.461555,
+"end": 42.833076
+},
+{
+"word": "Jewish",
+"start": 43.576115,
+"end": 43.901196
+},
+{
+"word": "tradition",
+"start": 43.901196,
+"end": 44.350113
+},
+{
+"word": "says",
+"start": 44.350113,
+"end": 44.783554
+},
+{
+"word": "to",
+"start": 44.783554,
+"end": 44.92287
+},
+{
+"word": "turn",
+"start": 44.92287,
+"end": 45.17055
+},
+{
+"word": "a",
+"start": 45.17055,
+"end": 45.23247
+},
+{
+"word": "would-be",
+"start": 45.23247,
+"end": 45.650433
+},
+{
+"word": "convert",
+"start": 45.650433,
+"end": 46.03743
+},
+{
+"word": "away",
+"start": 46.03743,
+"end": 46.26963
+},
+{
+"word": "three",
+"start": 46.26963,
+"end": 46.548267
+},
+{
+"word": "times.",
+"start": 46.548267,
+"end": 47.09007
+},
+{
+"word": "Jewish",
+"start": 47.508026,
+"end": 47.895027
+},
+{
+"word": "majority",
+"start": 47.895027,
+"end": 48.343945
+},
+{
+"word": "countries?",
+"start": 48.343945,
+"end": 48.885746
+},
+{
+"word": "One.",
+"start": 49.396584,
+"end": 49.690704
+},
+{
+"word": "About",
+"start": 50.619503,
+"end": 50.86718
+},
+{
+"word": "the",
+"start": 50.86718,
+"end": 50.9291
+},
+{
+"word": "size",
+"start": 50.9291,
+"end": 51.19226
+},
+{
+"word": "of",
+"start": 51.19226,
+"end": 51.28514
+},
+{
+"word": "New",
+"start": 51.28514,
+"end": 51.43994
+},
+{
+"word": "Jersey.",
+"start": 51.43994,
+"end": 51.8579
+},
+{
+"word": "Not",
+"start": 52.631897,
+"end": 52.879578
+},
+{
+"word": "perfect",
+"start": 52.879578,
+"end": 53.204655
+},
+{
+"word": "either:",
+"start": 53.204655,
+"end": 53.560696
+},
+{
+"word": "over",
+"start": 54.288254,
+"end": 54.520454
+},
+{
+"word": "two",
+"start": 54.520454,
+"end": 54.675255
+},
+{
+"word": "thousand",
+"start": 54.675255,
+"end": 55.00033
+},
+{
+"word": "years",
+"start": 55.00033,
+"end": 55.217052
+},
+{
+"word": "ago,",
+"start": 55.217052,
+"end": 55.511173
+},
+{
+"word": "the",
+"start": 55.511173,
+"end": 55.66597
+},
+{
+"word": "Hasmonean",
+"start": 55.66597,
+"end": 56.26969
+},
+{
+"word": "kings",
+"start": 56.26969,
+"end": 56.59477
+},
+{
+"word": "forced",
+"start": 56.59477,
+"end": 56.88889
+},
+{
+"word": "the",
+"start": 56.88889,
+"end": 57.01273
+},
+{
+"word": "Idumeans",
+"start": 57.01273,
+"end": 57.554527
+},
+{
+"word": "next",
+"start": 57.554527,
+"end": 57.802208
+},
+{
+"word": "door",
+"start": 57.802208,
+"end": 58.00345
+},
+{
+"word": "to",
+"start": 58.00345,
+"end": 58.127285
+},
+{
+"word": "convert.",
+"start": 58.127285,
+"end": 58.545246
+},
+{
+"word": "Rare",
+"start": 59.443085,
+"end": 59.75268
+},
+{
+"word": "exceptions,",
+"start": 59.75268,
+"end": 60.279003
+},
+{
+"word": "and",
+"start": 60.279003,
+"end": 60.402843
+},
+{
+"word": "never",
+"start": 60.402843,
+"end": 60.71244
+},
+{
+"word": "a",
+"start": 60.71244,
+"end": 60.78984
+},
+{
+"word": "world",
+"start": 60.78984,
+"end": 61.00656
+},
+{
+"word": "mission.",
+"start": 61.00656,
+"end": 61.3626
+},
+{
+"word": "Some",
+"start": 62.09016,
+"end": 62.446198
+},
+{
+"word": "colonizers.",
+"start": 62.446198,
+"end": 63.189236
+},
+{
+"word": "Fifteen",
+"start": 64.334755,
+"end": 64.81464
+},
+{
+"word": "million",
+"start": 64.81464,
+"end": 65.13971
+},
+{
+"word": "people,",
+"start": 65.13971,
+"end": 65.55767
+},
+{
+"word": "one",
+"start": 65.65055,
+"end": 65.89823
+},
+{
+"word": "small",
+"start": 65.89823,
+"end": 66.13043
+},
+{
+"word": "country.",
+"start": 66.13043,
+"end": 66.53291
+},
+{
+"word": "So",
+"start": 67.36883,
+"end": 67.63199
+},
+{
+"word": "next",
+"start": 67.63199,
+"end": 67.97255
+},
+{
+"word": "time",
+"start": 67.97255,
+"end": 68.3905
+},
+{
+"word": "someone",
+"start": 68.59174,
+"end": 69.071625
+},
+{
+"word": "calls",
+"start": 69.071625,
+"end": 69.474106
+},
+{
+"word": "the",
+"start": 69.474106,
+"end": 69.551506
+},
+{
+"word": "Jews",
+"start": 69.551506,
+"end": 69.83015
+},
+{
+"word": "colonizers,",
+"start": 69.83015,
+"end": 70.54222
+},
+{
+"word": "remind",
+"start": 71.20786,
+"end": 71.594864
+},
+{
+"word": "them:",
+"start": 71.594864,
+"end": 71.78062
+}
+]
