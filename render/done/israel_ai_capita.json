@@ -1,0 +1,8 @@
+{
+  "id": "israel_ai_capita",
+  "ok": true,
+  "rc": "0",
+  "secs": "91",
+  "run": "41299280171",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.1s] [sse] 141 words timed from Cartesia timestamps, k 0.9999\n[   4.1s] voice 55.24s, lines 0.30-4.67, 5.09-9.75, 10.17-14.56, 14.91-17.92, 18.34-21.45, 21.87-25.80, 26.16-29.49, 29.91-31.68, 32.09-37.36, 37.78-44.05, 44.19-44.89, 45.32-50.06, 50.32-52.40, 52.82-55.23\n[   4.2s] timeline: 10 scenes, T_END 55.80s, warnings []\n[   7.9s] [mix] input -21.7 LUFS, gain +8.4 dB, 9 SFX -> /home/claude/israel_ai_capita/israel_ai_capita/out/work/mix.wav\n[   8.1s] [render] frame 0/1674  0s\n[  14.4s] [render] frame 150/1674  6s\n[  20.9s] [render] frame 300/1674  13s\n[  27.6s] [render] frame 450/1674  20s\n[  33.6s] [render] frame 600/1674  26s\n[  39.6s] [render] frame 750/1674  32s\n[  45.8s] [render] frame 900/1674  38s\n[  50.4s] [render] frame 1050/1674  42s\n[  56.3s] [render] frame 1200/1674  48s\n[  62.5s] [render] frame 1350/1674  55s\n[  68.9s] [render] frame 1500/1674  61s\n[  74.6s] [render] frame 1650/1674  67s\n\nvideo 1080x1920 30/1 55.8s aac 48000 Hz: -14.0 LUFS, TP -2.0 dBTP, 7.69 MB (ok)\nweb 540x960 3.45 MB (ok), -14.0 LUFS, TP -2.0\nhook: FAIL (frame-0 text 0, motion 6.03)\ndashes: ok (0 replaced)\nlayout issues: 2\nstages {'voice_align_s': 3.0, 'timeline_s': 0.1, 'mix_s': 3.7, 'render_s': 68.3, 'web_s': 10.0, 'qa_s': 4.2, 'total_s': 90.4}\n"
+}
