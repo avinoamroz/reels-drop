@@ -1,0 +1,8 @@
+{
+  "id": "x_express10_en_v5_rmk1",
+  "ok": true,
+  "rc": "0",
+  "secs": "51",
+  "run": "41311111123",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/1144  0s\n[render] frame 150/1144  7s\n[render] frame 300/1144  13s\n[render] frame 450/1144  19s\n[render] frame 600/1144  25s\n[render] frame 750/1144  32s\n[render] frame 900/1144  38s\n[render] frame 1050/1144  44s\nrendered 49.2 s 1144 frames\n"
+}
