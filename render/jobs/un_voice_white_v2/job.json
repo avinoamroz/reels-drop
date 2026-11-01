@@ -1,0 +1,7 @@
+{
+ "id": "un_voice_white_v2",
+ "cmd": "cd /home/claude/un_voice_v2 && python3 /home/claude/un_voice_v2/reel.py --theme white --render /home/claude/un_voice_v2/un_voice_white_v2.mp4 --audio /home/claude/un_voice_v2/mix.wav",
+ "out": "/home/claude/un_voice_v2/un_voice_white_v2.mp4",
+ "sent": "2026-11-01T04:26:55Z",
+ "nfiles": 22
+}
