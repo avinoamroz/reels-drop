@@ -1,8 +1,0 @@
-{
-  "id": "holocaust_humor_v5",
-  "ok": false,
-  "rc": "1",
-  "secs": "2",
-  "run": "41309817258",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[out#0/mp4 @ 0x575fde046680] Error opening output /home/claude/fix6/out/holocaust_humor_v5.mp4: No such file or directory\nError opening output file /home/claude/fix6/out/holocaust_humor_v5.mp4.\nError opening output files: No such file or directory\n[render] frame 0/1467  0s\nTraceback (most recent call last):\n  File \"/home/claude/fixes_1027b/rk_stage.py\", line 29, in <module>\n    else: render(*a[1:5])\n          ~~~~~~^^^^^^^^^\n  File \"/home/claude/fixes_1027b/rk_stage.py\", line 25, in render\n    v = RD.render_video(R, wav, mp4, log=print); print(\"rendered\", v[\"sec\"], \"s\", v[\"frames\"], \"frames\")\n  File \"/home/claude/fixes_1027b/rk/render.py\", line 802, in render_video\n    t = fi / FPS; R.draw(c, t); surf.flush(); p.stdin.write(surf.get_data())\n                                              ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\nBrokenPipeError: [Errno 32] Broken pipe\n"
-}
