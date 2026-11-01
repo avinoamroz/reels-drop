@@ -2,6 +2,6 @@
  "id": "river_sea_loop_rmk1",
  "cmd": "mkdir -p /home/claude/fix6/out && cd /home/claude/fix6/river && python3 /home/claude/fixes_1027b/rk_stage.py render spec.json out/timing.json out/mix.wav /home/claude/fix6/out/river_sea_loop_rmk1.mp4",
  "out": "/home/claude/fix6/out/river_sea_loop_rmk1.mp4",
- "sent": "2026-11-01T13:24:24Z",
- "nfiles": 65
+ "sent": "2026-11-01T14:41:30Z",
+ "nfiles": 70
 }

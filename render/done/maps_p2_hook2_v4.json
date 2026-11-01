@@ -1,8 +1,0 @@
-{
-  "id": "maps_p2_hook2_v4",
-  "ok": false,
-  "rc": "1",
-  "secs": "5",
-  "run": "41311111123",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/973  0s\n[render] frame 150/973  3s\nTraceback (most recent call last):\n  File \"/home/claude/fixes_1027b/rk_stage.py\", line 29, in <module>\n    else: render(*a[1:5])\n          ~~~~~~^^^^^^^^^\n  File \"/home/claude/fixes_1027b/rk_stage.py\", line 25, in render\n    v = RD.render_video(R, wav, mp4, log=print); print(\"rendered\", v[\"sec\"], \"s\", v[\"frames\"], \"frames\")\n  File \"/home/claude/fixes_1027b/rk/render.py\", line 802, in render_video\n    t = fi / FPS; R.draw(c, t); surf.flush(); p.stdin.write(surf.get_data())\n                  ~~~~~~^^^^^^\n  File \"/home/claude/fix6/lib/scenes_x.py\", line 133, in _draw_loop\n    _draw0(s, c, t)\n    ~~~~~~^^^^^^^^^\n  File \"/home/claude/fixes_1027b/rk/render.py\", line 763, in draw\n    kit.CUR[\"scene\"] = i; St.a = al; SCENES[S[\"type\"]](c, t, S); St.a = 1.0\n                                     ~~~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"/home/claude/daily_1028/scenes_daily.py\", line 20, in sc_city_map\n    G = geo(); mv = MapView(S.get(\"view\", ISRAEL_VIEW), box_); S[\"_mv\"] = mv\n  File \"/home/claude/fixes_1027b/rk/render.py\", line 519, in geo\n    d = json.load(open(GEO)); C = {}\n                  ~~~~^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/home/claude/bro_meter/geo/ne_50m_admin_0_countries.geojson'\n"
-}
