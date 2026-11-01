@@ -1,0 +1,8 @@
+{
+  "id": "x_b3_dont_know",
+  "ok": true,
+  "rc": "0",
+  "secs": "52",
+  "run": "41337986777",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.7s] [sse] 144 words timed from Cartesia timestamps, k 0.9999\n[   4.7s] voice 50.83s, lines 0.30-3.09, 3.52-10.77, 11.49-17.58, 18.31-25.29, 26.17-33.49, 34.39-38.45, 39.27-46.25, 46.95-50.82\n[   4.8s] timeline: 8 scenes, T_END 51.13s, warnings []\n[   7.5s] [mix] input -22.3 LUFS, gain +8.9 dB, 7 SFX -> /home/claude/express_b/x_b3_dont_know/out/work/mix.wav\n[   7.7s] [render] frame 0/1534  0s\n[  10.7s] [render] frame 150/1534  3s\n[  13.5s] [render] frame 300/1534  6s\n[  16.8s] [render] frame 450/1534  9s\n[  20.0s] [render] frame 600/1534  12s\n[  22.7s] [render] frame 750/1534  15s\n[  25.7s] [render] frame 900/1534  18s\n[  28.7s] [render] frame 1050/1534  21s\n[  31.7s] [render] frame 1200/1534  24s\n[  34.8s] [render] frame 1350/1534  27s\n[  37.5s] [render] frame 1500/1534  30s\n\nvideo 1080x1920 30/1 51.13s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 6.2 MB (ok)\nweb 540x960 2.93 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 2, motion 2.71)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 3.3, 'timeline_s': 0.1, 'mix_s': 2.8, 'render_s': 31.6, 'web_s': 8.9, 'qa_s': 3.8, 'total_s': 51.8}\n"
+}
