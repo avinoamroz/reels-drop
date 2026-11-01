@@ -1,0 +1,8 @@
+{
+  "id": "colonization_wrong_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "71",
+  "run": "41336194840",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/1766  0s\n[render] frame 150/1766  3s\n[render] frame 300/1766  6s\n[render] frame 450/1766  8s\n[render] frame 600/1766  11s\n[render] frame 750/1766  13s\n[render] frame 900/1766  15s\n[render] frame 1050/1766  18s\n[render] frame 1200/1766  20s\n[render] frame 1350/1766  22s\n[render] frame 1500/1766  25s\n[render] frame 1650/1766  27s\nrendered 29.6 s 1766 frames\nwrote /home/claude/fix6/out/colonization_wrong_v3.mp4 1766 frames\n"
+}
