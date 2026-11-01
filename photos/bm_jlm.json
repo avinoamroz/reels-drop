@@ -1,0 +1,6 @@
+{
+ "name": "bm_jlm",
+ "url": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013-Aerial-Temple_Mount-(south_exposure).jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}
