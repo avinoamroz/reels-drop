@@ -1,0 +1,8 @@
+{
+  "id": "holocaust_humor_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "45",
+  "run": "41281470741",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.2s] [sse] 138 words timed from Cartesia timestamps, k 0.9999\n[   3.3s] voice 51.85s, lines 0.30-3.12, 3.72-10.19, 10.68-19.92, 20.36-28.58, 29.18-35.68, 36.06-40.21, 40.66-45.33, 45.88-49.27, 49.87-51.85\n[   3.4s] timeline: 9 scenes, T_END 52.47s, warnings []\n[   6.0s] [mix] input -22.0 LUFS, gain +8.6 dB, 8 SFX -> /home/claude/fixes_1101/hh/out/work/mix.wav\n[   6.1s] [render] frame 0/1574  0s\n[   8.5s] [render] frame 150/1574  2s\n[  11.0s] [render] frame 300/1574  5s\n[  13.6s] [render] frame 450/1574  8s\n[  15.9s] [render] frame 600/1574  10s\n[  18.1s] [render] frame 750/1574  12s\n[  20.7s] [render] frame 900/1574  15s\n[  23.0s] [render] frame 1050/1574  17s\n[  27.2s] [render] frame 1200/1574  21s\n[  29.5s] [render] frame 1350/1574  24s\n[  32.0s] [render] frame 1500/1574  26s\n\nvideo 1080x1920 30/1 52.47s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 6.21 MB (ok)\nweb 540x960 2.91 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 10, motion 1.19)\ndashes: ok (0 replaced)\nlayout issues: 3\nstages {'voice_align_s': 2.4, 'timeline_s': 0.1, 'mix_s': 2.6, 'render_s': 28.1, 'web_s': 7.4, 'qa_s': 3.3, 'total_s': 44.7}\n"
+}
