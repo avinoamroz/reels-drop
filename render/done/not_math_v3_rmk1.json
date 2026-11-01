@@ -1,0 +1,8 @@
+{
+  "id": "not_math_v3_rmk1",
+  "ok": true,
+  "rc": "0",
+  "secs": "111",
+  "run": "41336737854",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/1751  1s\n[render] frame 150/1751  10s\n[render] frame 300/1751  19s\n[render] frame 450/1751  28s\n[render] frame 600/1751  37s\n[render] frame 750/1751  46s\n[render] frame 900/1751  55s\n[render] frame 1050/1751  64s\n[render] frame 1200/1751  73s\n[render] frame 1350/1751  83s\n[render] frame 1500/1751  92s\n[render] frame 1650/1751  101s\nrendered 108.9 s 1751 frames\n"
+}
