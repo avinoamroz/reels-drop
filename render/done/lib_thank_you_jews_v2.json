@@ -1,8 +1,0 @@
-{
-  "id": "lib_thank_you_jews_v2",
-  "ok": true,
-  "rc": "0",
-  "secs": "22",
-  "run": "41284323067",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\ncut /home/claude/endings_1101/out/lib_thank_you_jews_v2.mp4 [(0.0, 67.75), (68.72, 71.566667)]\n"
-}
