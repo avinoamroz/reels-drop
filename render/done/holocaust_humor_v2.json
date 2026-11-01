@@ -1,0 +1,8 @@
+{
+  "id": "holocaust_humor_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "53",
+  "run": "41275252262",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[   4.5s] [sse] 134 words timed from Cartesia timestamps, k 0.9996\n[   4.5s] voice 50.79s, lines 0.30-3.12, 3.72-10.19, 10.67-19.91, 20.35-28.57, 29.17-35.67, 36.05-40.20, 40.65-45.32, 45.87-49.25, 49.70-50.60\n[   4.6s] timeline: 9 scenes, T_END 54.00s, warnings [\"phrase not found in line 8: 'In my view'\"]\n[   8.0s] [mix] input -22.3 LUFS, gain +8.9 dB, 8 SFX -> /home/claude/holocaust_humor/v2/out/work/mix.wav\n[   8.1s] [render] frame 0/1620  0s\n[  10.8s] [render] frame 150/1620  3s\n[  13.6s] [render] frame 300/1620  6s\n[  16.5s] [render] frame 450/1620  8s\n[  19.1s] [render] frame 600/1620  11s\n[  21.9s] [render] frame 750/1620  14s\n[  24.8s] [render] frame 900/1620  17s\n[  27.5s] [render] frame 1050/1620  20s\n[  30.3s] [render] frame 1200/1620  22s\n[  33.3s] [render] frame 1350/1620  25s\n[  36.3s] [render] frame 1500/1620  28s\n\nvideo 1080x1920 30/1 54.0s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 5.55 MB (ok)\nweb 540x960 2.82 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 10, motion 1.19)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 3.2, 'timeline_s': 0.1, 'mix_s': 3.4, 'render_s': 31.5, 'web_s': 9.3, 'qa_s': 4.0, 'total_s': 52.7}\n"
+}
