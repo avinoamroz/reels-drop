@@ -1,8 +1,0 @@
-{
-  "id": "terror_compare",
-  "ok": true,
-  "rc": "0",
-  "secs": "32",
-  "run": "41357756970",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1880\nframe 150 / 1880\nframe 300 / 1880\nframe 450 / 1880\nframe 600 / 1880\nframe 750 / 1880\nframe 900 / 1880\nframe 1050 / 1880\nframe 1200 / 1880\nframe 1350 / 1880\nframe 1500 / 1880\nframe 1650 / 1880\nframe 1800 / 1880\nwrote /home/claude/terror_compare/final.mp4 62.67\n"
-}
