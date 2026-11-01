@@ -1,0 +1,8 @@
+{
+  "id": "roads_2000",
+  "ok": false,
+  "rc": "1",
+  "secs": "76",
+  "run": "41349192531",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1827\nframe 150 / 1827\nframe 300 / 1827\nframe 450 / 1827\nframe 600 / 1827\nframe 750 / 1827\nframe 900 / 1827\nframe 1050 / 1827\nframe 1200 / 1827\nframe 1350 / 1827\nTraceback (most recent call last):\n  File \"/home/claude/roads_2000/engine.py\", line 494, in <module>\n    p.stdin.write(frame(i / FPS).tobytes())\n                  ~~~~~^^^^^^^^^\n  File \"/home/claude/roads_2000/engine.py\", line 425, in frame\n    world_phase(base, t)\n    ~~~~~~~~~~~^^^^^^^^^\n  File \"/home/claude/roads_2000/engine.py\", line 365, in world_phase\n    d.ellipse((x - r, y - r, x + r, y + r), fill=hexa(SKY if i else YELLOW, int(255 * s)))\n    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/site-packages/PIL/ImageDraw.py\", line 211, in ellipse\n    self.draw.draw_ellipse(xy, fill_ink, 1)\n    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\nValueError: x1 must be greater than or equal to x0\n"
+}
