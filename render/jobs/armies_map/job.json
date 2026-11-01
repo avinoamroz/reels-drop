@@ -2,6 +2,6 @@
  "id": "armies_map",
  "cmd": "python3 /home/claude/armies_map/render.py",
  "out": "/home/claude/armies_map/armies_map.mp4",
- "sent": "2026-11-01T20:22:20Z",
- "nfiles": 41
+ "sent": "2026-11-01T20:29:03Z",
+ "nfiles": 42
 }
