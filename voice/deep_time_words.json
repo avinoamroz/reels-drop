@@ -1,0 +1,782 @@
+[
+{
+"word": "Who",
+"start": 0.23219955,
+"end": 0.43343917
+},
+{
+"word": "was",
+"start": 0.43343917,
+"end": 0.6191988
+},
+{
+"word": "here",
+"start": 0.6191988,
+"end": 0.8204384
+},
+{
+"word": "first?",
+"start": 0.8204384,
+"end": 1.3931973
+},
+{
+"word": "Really",
+"start": 1.996916,
+"end": 2.3529553
+},
+{
+"word": "first?",
+"start": 2.3529553,
+"end": 2.9257143
+},
+{
+"word": "Two",
+"start": 3.529433,
+"end": 3.7925925
+},
+{
+"word": "hundred",
+"start": 3.7925925,
+"end": 4.071232
+},
+{
+"word": "and",
+"start": 4.071232,
+"end": 4.164112
+},
+{
+"word": "fifty",
+"start": 4.164112,
+"end": 4.4272714
+},
+{
+"word": "million",
+"start": 4.4272714,
+"end": 4.7213907
+},
+{
+"word": "years",
+"start": 4.7213907,
+"end": 4.9690704
+},
+{
+"word": "ago,",
+"start": 4.9690704,
+"end": 5.4179893
+},
+{
+"word": "no",
+"start": 5.7121086,
+"end": 6.021708
+},
+{
+"word": "Israel.",
+"start": 6.021708,
+"end": 6.5015874
+},
+{
+"word": "Just",
+"start": 7.0124264,
+"end": 7.2755857
+},
+{
+"word": "Pangaea.",
+"start": 7.2755857,
+"end": 7.848345
+},
+{
+"word": "The",
+"start": 8.359183,
+"end": 8.483024
+},
+{
+"word": "first",
+"start": 8.483024,
+"end": 8.777143
+},
+{
+"word": "locals?",
+"start": 8.777143,
+"end": 9.380861
+},
+{
+"word": "Technically...",
+"start": 9.705941,
+"end": 10.37158
+},
+{
+"word": "dinosaurs.",
+"start": 10.634739,
+"end": 11.424217
+},
+{
+"word": "Then",
+"start": 12.2291765,
+"end": 12.616176
+},
+{
+"word": "Pangaea",
+"start": 12.616176,
+"end": 13.127014
+},
+{
+"word": "starts",
+"start": 13.157974,
+"end": 13.452094
+},
+{
+"word": "to",
+"start": 13.452094,
+"end": 13.544973
+},
+{
+"word": "crack.",
+"start": 13.544973,
+"end": 14.055813
+},
+{
+"word": "A",
+"start": 14.566651,
+"end": 14.6285715
+},
+{
+"word": "hundred",
+"start": 14.6285715,
+"end": 14.95365
+},
+{
+"word": "million",
+"start": 14.95365,
+"end": 15.26325
+},
+{
+"word": "years",
+"start": 15.26325,
+"end": 15.52641
+},
+{
+"word": "ago,",
+"start": 15.52641,
+"end": 15.944369
+},
+{
+"word": "a",
+"start": 16.25397,
+"end": 16.300407
+},
+{
+"word": "dinosaur",
+"start": 16.300407,
+"end": 16.873167
+},
+{
+"word": "walks",
+"start": 16.873167,
+"end": 17.182766
+},
+{
+"word": "near",
+"start": 17.182766,
+"end": 17.353046
+},
+{
+"word": "Jerusalem.",
+"start": 17.353046,
+"end": 17.987724
+},
+{
+"word": "Its",
+"start": 18.591444,
+"end": 18.792683
+},
+{
+"word": "footprints",
+"start": 18.792683,
+"end": 19.272562
+},
+{
+"word": "turn",
+"start": 19.272562,
+"end": 19.489283
+},
+{
+"word": "up",
+"start": 19.489283,
+"end": 19.613121
+},
+{
+"word": "in",
+"start": 19.613121,
+"end": 19.675041
+},
+{
+"word": "a",
+"start": 19.675041,
+"end": 19.721481
+},
+{
+"word": "garden.",
+"start": 19.721481,
+"end": 20.1704
+},
+{
+"word": "Sixty-six",
+"start": 20.836039,
+"end": 21.501678
+},
+{
+"word": "million",
+"start": 21.501678,
+"end": 21.795797
+},
+{
+"word": "years",
+"start": 21.795797,
+"end": 22.043476
+},
+{
+"word": "ago:",
+"start": 22.043476,
+"end": 22.430477
+},
+{
+"word": "the",
+"start": 22.910355,
+"end": 23.034195
+},
+{
+"word": "asteroid.",
+"start": 23.034195,
+"end": 23.591475
+},
+{
+"word": "Game",
+"start": 24.257113,
+"end": 24.473833
+},
+{
+"word": "over.",
+"start": 24.473833,
+"end": 24.798912
+},
+{
+"word": "Then",
+"start": 25.63483,
+"end": 25.94443
+},
+{
+"word": "Arabia",
+"start": 25.94443,
+"end": 26.362389
+},
+{
+"word": "breaks",
+"start": 26.362389,
+"end": 26.625547
+},
+{
+"word": "off",
+"start": 26.625547,
+"end": 26.811308
+},
+{
+"word": "Africa,",
+"start": 26.811308,
+"end": 27.476946
+},
+{
+"word": "crashes",
+"start": 27.987785,
+"end": 28.467665
+},
+{
+"word": "into",
+"start": 28.467665,
+"end": 28.668903
+},
+{
+"word": "Asia,",
+"start": 28.668903,
+"end": 29.179743
+},
+{
+"word": "and",
+"start": 29.504822,
+"end": 29.690582
+},
+{
+"word": "a",
+"start": 29.690582,
+"end": 29.721542
+},
+{
+"word": "land",
+"start": 29.721542,
+"end": 30.046621
+},
+{
+"word": "bridge",
+"start": 30.046621,
+"end": 30.32526
+},
+{
+"word": "rises,",
+"start": 30.32526,
+"end": 30.94446
+},
+{
+"word": "right",
+"start": 31.130219,
+"end": 31.3779
+},
+{
+"word": "here.",
+"start": 31.3779,
+"end": 31.641058
+},
+{
+"word": "The",
+"start": 32.368618,
+"end": 32.44602
+},
+{
+"word": "hallway",
+"start": 32.44602,
+"end": 32.863976
+},
+{
+"word": "out",
+"start": 32.863976,
+"end": 33.018776
+},
+{
+"word": "of",
+"start": 33.018776,
+"end": 33.111656
+},
+{
+"word": "Africa.",
+"start": 33.111656,
+"end": 33.591534
+},
+{
+"word": "One",
+"start": 34.33457,
+"end": 34.613213
+},
+{
+"word": "and",
+"start": 34.613213,
+"end": 34.706093
+},
+{
+"word": "a",
+"start": 34.706093,
+"end": 34.737053
+},
+{
+"word": "half",
+"start": 34.737053,
+"end": 34.969254
+},
+{
+"word": "million",
+"start": 34.969254,
+"end": 35.29433
+},
+{
+"word": "years",
+"start": 35.29433,
+"end": 35.51105
+},
+{
+"word": "ago,",
+"start": 35.51105,
+"end": 35.83613
+},
+{
+"word": "early",
+"start": 35.83613,
+"end": 36.14573
+},
+{
+"word": "humans",
+"start": 36.14573,
+"end": 36.43985
+},
+{
+"word": "walk",
+"start": 36.43985,
+"end": 36.656567
+},
+{
+"word": "through",
+"start": 36.656567,
+"end": 36.888767
+},
+{
+"word": "it.",
+"start": 36.888767,
+"end": 37.043568
+},
+{
+"word": "Seven",
+"start": 37.910446,
+"end": 38.297443
+},
+{
+"word": "hundred",
+"start": 38.297443,
+"end": 38.638004
+},
+{
+"word": "and",
+"start": 38.638004,
+"end": 38.715405
+},
+{
+"word": "ninety",
+"start": 38.715405,
+"end": 39.055965
+},
+{
+"word": "thousand",
+"start": 39.055965,
+"end": 39.412003
+},
+{
+"word": "years",
+"start": 39.412003,
+"end": 39.613243
+},
+{
+"word": "ago:",
+"start": 39.613243,
+"end": 39.98476
+},
+{
+"word": "fire,",
+"start": 40.186,
+"end": 40.665882
+},
+{
+"word": "by",
+"start": 40.85164,
+"end": 41.00644
+},
+{
+"word": "the",
+"start": 41.00644,
+"end": 41.1148
+},
+{
+"word": "Jordan.",
+"start": 41.1148,
+"end": 41.51728
+},
+{
+"word": "A",
+"start": 42.833076,
+"end": 42.925957
+},
+{
+"word": "hundred",
+"start": 42.925957,
+"end": 43.189117
+},
+{
+"word": "and",
+"start": 43.189117,
+"end": 43.281994
+},
+{
+"word": "eighty",
+"start": 43.281994,
+"end": 43.576115
+},
+{
+"word": "thousand",
+"start": 43.607075,
+"end": 43.916676
+},
+{
+"word": "years",
+"start": 43.916676,
+"end": 44.117912
+},
+{
+"word": "ago,",
+"start": 44.117912,
+"end": 44.535873
+},
+{
+"word": "Mount",
+"start": 44.783554,
+"end": 45.04671
+},
+{
+"word": "Carmel:",
+"start": 45.04671,
+"end": 45.433712
+},
+{
+"word": "the",
+"start": 46.39347,
+"end": 46.548267
+},
+{
+"word": "oldest",
+"start": 46.548267,
+"end": 46.90431
+},
+{
+"word": "modern",
+"start": 46.90431,
+"end": 47.24487
+},
+{
+"word": "human",
+"start": 47.24487,
+"end": 47.508026
+},
+{
+"word": "jaw",
+"start": 47.508026,
+"end": 47.956947
+},
+{
+"word": "outside",
+"start": 48.266544,
+"end": 48.591625
+},
+{
+"word": "Africa.",
+"start": 48.591625,
+"end": 49.071503
+},
+{
+"word": "A",
+"start": 50.0003,
+"end": 50.09318
+},
+{
+"word": "hundred",
+"start": 50.09318,
+"end": 50.356342
+},
+{
+"word": "thousand",
+"start": 50.356342,
+"end": 50.66594
+},
+{
+"word": "years",
+"start": 50.66594,
+"end": 50.86718
+},
+{
+"word": "ago:",
+"start": 50.86718,
+"end": 51.22322
+},
+{
+"word": "some",
+"start": 51.99722,
+"end": 52.275856
+},
+{
+"word": "of",
+"start": 52.275856,
+"end": 52.353256
+},
+{
+"word": "the",
+"start": 52.353256,
+"end": 52.446136
+},
+{
+"word": "oldest",
+"start": 52.446136,
+"end": 52.786697
+},
+{
+"word": "graves",
+"start": 52.786697,
+"end": 53.235615
+},
+{
+"word": "on",
+"start": 53.235615,
+"end": 53.374935
+},
+{
+"word": "Earth.",
+"start": 53.374935,
+"end": 53.715496
+},
+{
+"word": "Then",
+"start": 54.009613,
+"end": 54.226334
+},
+{
+"word": "humans",
+"start": 54.226334,
+"end": 54.675255
+},
+{
+"word": "spread",
+"start": 54.675255,
+"end": 54.93841
+},
+{
+"word": "across",
+"start": 54.93841,
+"end": 55.263493
+},
+{
+"word": "the",
+"start": 55.263493,
+"end": 55.356373
+},
+{
+"word": "planet.",
+"start": 55.356373,
+"end": 55.74337
+},
+{
+"word": "Eleven",
+"start": 56.79601,
+"end": 57.15205
+},
+{
+"word": "thousand",
+"start": 57.15205,
+"end": 57.492607
+},
+{
+"word": "years",
+"start": 57.492607,
+"end": 57.662888
+},
+{
+"word": "ago:",
+"start": 57.662888,
+"end": 58.00345
+},
+{
+"word": "Jericho,",
+"start": 58.622646,
+"end": 59.195404
+},
+{
+"word": "one",
+"start": 59.7372,
+"end": 59.984882
+},
+{
+"word": "of",
+"start": 59.984882,
+"end": 60.062283
+},
+{
+"word": "the",
+"start": 60.062283,
+"end": 60.155163
+},
+{
+"word": "first",
+"start": 60.155163,
+"end": 60.433804
+},
+{
+"word": "towns.",
+"start": 60.433804,
+"end": 61.00656
+},
+{
+"word": "About",
+"start": 62.07468,
+"end": 62.353317
+},
+{
+"word": "three",
+"start": 62.353317,
+"end": 62.554558
+},
+{
+"word": "thousand",
+"start": 62.554558,
+"end": 62.92608
+},
+{
+"word": "years",
+"start": 62.92608,
+"end": 63.127316
+},
+{
+"word": "ago,",
+"start": 63.127316,
+"end": 63.483356
+},
+{
+"word": "a",
+"start": 64.303795,
+"end": 64.396675
+},
+{
+"word": "new",
+"start": 64.396675,
+"end": 64.597916
+},
+{
+"word": "name",
+"start": 64.597916,
+"end": 64.8456
+},
+{
+"word": "appears",
+"start": 64.8456,
+"end": 65.20163
+},
+{
+"word": "here:",
+"start": 65.20163,
+"end": 65.52671
+},
+{
+"word": "Israel.",
+"start": 66.19235,
+"end": 66.64127
+},
+{
+"word": "And",
+"start": 67.30691,
+"end": 67.47719
+},
+{
+"word": "everyone",
+"start": 67.47719,
+"end": 67.83323
+},
+{
+"word": "argues",
+"start": 67.83323,
+"end": 68.20475
+},
+{
+"word": "about",
+"start": 68.20475,
+"end": 68.43694
+},
+{
+"word": "one",
+"start": 68.43694,
+"end": 68.65366
+},
+{
+"word": "question.",
+"start": 68.65366,
+"end": 69.164505
+}
+]
