@@ -1,0 +1,8 @@
+{
+  "id": "colonize_checklist_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "45",
+  "run": "41274418697",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.8s] [sse] 98 words timed from Cartesia timestamps, k 0.9997\n[   4.8s] voice 42.53s, lines 0.30-4.59, 5.01-12.48, 12.89-23.69, 24.11-28.98, 29.42-33.86, 34.28-36.25, 36.64-41.11, 41.53-42.52\n[   4.9s] timeline: 8 scenes, T_END 45.00s, warnings []\n[   8.3s] [mix] input -21.3 LUFS, gain +8.4 dB, 8 SFX -> /home/claude/daily_1028/colonize_checklist_v2/out/work/mix.wav\n[   8.5s] [render] frame 0/1350  0s\n[  11.3s] [render] frame 150/1350  3s\n[  14.1s] [render] frame 300/1350  6s\n[  17.0s] [render] frame 450/1350  9s\n[  19.7s] [render] frame 600/1350  11s\n[  22.4s] [render] frame 750/1350  14s\n[  25.1s] [render] frame 900/1350  17s\n[  27.9s] [render] frame 1050/1350  20s\n[  30.7s] [render] frame 1200/1350  22s\n\nvideo 1080x1920 30/1 45.0s aac 48000 Hz: -14.1 LUFS, TP -1.7 dBTP, 4.0 MB (ok)\nweb 540x960 2.16 MB (ok), -14.1 LUFS, TP -1.7\nhook: ok (frame-0 text 5, motion 1.6)\ndashes: ok (0 replaced)\nlayout issues: 28\ncta hold 3.02s (ok)\nstages {'voice_align_s': 3.5, 'timeline_s': 0.1, 'mix_s': 3.4, 'render_s': 25.9, 'web_s': 7.4, 'qa_s': 3.3, 'total_s': 44.9}\n"
+}
