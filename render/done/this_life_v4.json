@@ -1,0 +1,8 @@
+{
+  "id": "this_life_v4",
+  "ok": true,
+  "rc": "0",
+  "secs": "34",
+  "run": "41304145900",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.5s] [sse] 122 words timed from Cartesia timestamps, k 0.9999\n[   2.5s] voice 46.65s, lines 0.30-1.71, 2.23-5.89, 6.96-11.82, 12.58-17.93, 18.80-24.62, 25.50-31.73, 33.15-37.02, 37.92-39.84, 40.13-43.91, 44.50-46.65\n[   2.6s] timeline: 7 scenes, T_END 47.27s, warnings []\n[   4.5s] [mix] input -21.8 LUFS, gain +8.5 dB, 11 SFX -> /home/claude/fixes_1101/tl4/out/work/mix.wav\n[   4.7s] [render] frame 0/1418  0s\n[   6.8s] [render] frame 150/1418  2s\n[   9.2s] [render] frame 300/1418  5s\n[  11.4s] [render] frame 450/1418  7s\n[  13.7s] [render] frame 600/1418  9s\n[  16.0s] [render] frame 750/1418  12s\n[  18.1s] [render] frame 900/1418  14s\n[  20.0s] [render] frame 1050/1418  16s\n[  22.1s] [render] frame 1200/1418  18s\n[  24.2s] [render] frame 1350/1418  20s\n\nvideo 1080x1920 30/1 47.27s aac 48000 Hz: -14.0 LUFS, TP -1.9 dBTP, 7.12 MB (ok)\nweb 540x960 2.79 MB (ok), -14.0 LUFS, TP -1.9\nhook: ok (frame-0 text 3, motion 1.62)\ndashes: ok (0 replaced)\nlayout issues: 0\nstages {'voice_align_s': 1.6, 'timeline_s': 0.1, 'mix_s': 1.9, 'render_s': 21.1, 'web_s': 5.6, 'qa_s': 2.5, 'total_s': 33.7}\n"
+}
