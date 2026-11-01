@@ -1,8 +1,0 @@
-{
-  "id": "real_apartheid",
-  "ok": true,
-  "rc": "0",
-  "secs": "219",
-  "run": "41276515306",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1764\nframe 150/1764\nframe 300/1764\nframe 450/1764\nframe 600/1764\nframe 750/1764\nframe 900/1764\nframe 1050/1764\nframe 1200/1764\nframe 1350/1764\nframe 1500/1764\nframe 1650/1764\nvideo /home/claude/real_apartheid/work/silent.mp4 58.8\nfinal /home/claude/real_apartheid/real_apartheid.mp4\n"
-}
