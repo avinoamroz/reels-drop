@@ -1,0 +1,8 @@
+{
+  "id": "christians_freedom",
+  "ok": true,
+  "rc": "0",
+  "secs": "79",
+  "run": "41280837492",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1711\nframe 150 / 1711\nframe 300 / 1711\nframe 450 / 1711\nframe 600 / 1711\nframe 750 / 1711\nframe 900 / 1711\nframe 1050 / 1711\nframe 1200 / 1711\nframe 1350 / 1711\nframe 1500 / 1711\nframe 1650 / 1711\nwrote /home/claude/mena_variants/christians_freedom/out.mp4 57.02\n"
+}
