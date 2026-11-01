@@ -2,6 +2,6 @@
  "id": "refugees_850k",
  "cmd": "cd /home/claude/daily_1101/refugees_850k && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/daily_1101/refugees_850k/out/reel.mp4",
- "sent": "2026-11-01T08:14:15Z",
- "nfiles": 109
+ "sent": "2026-11-01T08:20:17Z",
+ "nfiles": 132
 }

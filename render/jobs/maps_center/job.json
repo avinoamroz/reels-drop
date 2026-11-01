@@ -2,6 +2,6 @@
  "id": "maps_center",
  "cmd": "cd /home/claude/daily_1101/maps_center && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/daily_1101/maps_center/out/reel.mp4",
- "sent": "2026-11-01T08:14:14Z",
- "nfiles": 112
+ "sent": "2026-11-01T08:20:15Z",
+ "nfiles": 135
 }
