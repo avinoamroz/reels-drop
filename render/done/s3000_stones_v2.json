@@ -1,0 +1,8 @@
+{
+  "id": "s3000_stones_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "24",
+  "run": "41274807050",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.2s] [sse] 90 words timed from Cartesia timestamps, k 0.9998\n[   2.4s] voice 37.63s, lines 0.30-4.01, 4.43-10.05, 10.41-14.54, 14.98-20.09, 20.51-27.94, 28.33-33.31, 33.75-37.62\n[   2.4s] timeline: 7 scenes, T_END 38.47s, warnings []\n[   3.9s] [mix] input -22.5 LUFS, gain +9.1 dB, 15 SFX -> /home/claude/daily_1029/s3000_stones_v2/out/work/mix.wav\n[   4.0s] [render] frame 0/1154  0s\n[   5.8s] [render] frame 150/1154  2s\n[   7.6s] [render] frame 300/1154  4s\n[   9.5s] [render] frame 450/1154  6s\n[  11.3s] [render] frame 600/1154  7s\n[  13.0s] [render] frame 750/1154  9s\n[  14.9s] [render] frame 900/1154  11s\n[  16.7s] [render] frame 1050/1154  13s\n\nvideo 1080x1920 30/1 38.47s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 3.79 MB (ok)\nweb 540x960 1.94 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 7, motion 1.42)\ndashes: ok (0 replaced)\nlayout issues: 0\ncta hold 4.27s (ok)\nstages {'voice_align_s': 1.7, 'timeline_s': 0.0, 'mix_s': 1.5, 'render_s': 14.3, 'web_s': 4.0, 'qa_s': 1.8, 'total_s': 24.0}\n"
+}
