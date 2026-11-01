@@ -1,0 +1,8 @@
+{
+  "id": "syria_pov_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "30",
+  "run": "41334871095",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nwrote /home/claude/fix6b/out/syria_pov_v3.mp4 1179 frames\n"
+}
