@@ -1,8 +1,0 @@
-{
-  "id": "jews_white",
-  "ok": false,
-  "rc": "1",
-  "secs": "0",
-  "run": "41351572060",
-  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nTraceback (most recent call last):\n  File \"/home/claude/jews_white/engine.py\", line 78, in <module>\n    TM = json.load(open(f\"{D}/timing.json\")); LINES = TM[\"lines\"]\n                   ~~~~^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/home/claude/jews_white/timing.json'\n"
-}
