@@ -1,0 +1,8 @@
+{
+  "id": "perfect_hook2_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "39",
+  "run": "41274807050",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.4s] [sse] 100 words timed from Cartesia timestamps, k 0.9999\n[   3.4s] voice 36.54s, lines 0.30-2.86, 3.28-7.53, 7.95-11.45, 11.83-15.13, 15.55-20.01, 20.43-26.05, 26.47-31.72, 32.12-34.83, 35.24-36.53\n[   3.6s] timeline: 9 scenes, T_END 38.70s, warnings []\n[   6.2s] [mix] input -21.7 LUFS, gain +8.1 dB, 18 SFX -> /home/claude/daily_1028/perfect_hook2_v2/out/work/mix.wav\n[   6.3s] [render] frame 0/1161  0s\n[   8.9s] [render] frame 150/1161  3s\n[  11.7s] [render] frame 300/1161  5s\n[  15.0s] [render] frame 450/1161  9s\n[  18.0s] [render] frame 600/1161  12s\n[  20.8s] [render] frame 750/1161  15s\n[  23.4s] [render] frame 900/1161  17s\n[  26.3s] [render] frame 1050/1161  20s\n\nvideo 1080x1920 30/1 38.7s aac 48000 Hz: -14.0 LUFS, TP -2.1 dBTP, 3.86 MB (ok)\nweb 540x960 2.0 MB (ok), -14.0 LUFS, TP -2.1\nhook: ok (frame-0 text 5, motion 1.56)\ndashes: ok (0 replaced)\nlayout issues: 14\ncta hold 3.01s (ok)\nstages {'voice_align_s': 2.2, 'timeline_s': 0.2, 'mix_s': 2.6, 'render_s': 22.9, 'web_s': 6.6, 'qa_s': 3.0, 'total_s': 38.7}\n"
+}
