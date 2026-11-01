@@ -1,0 +1,8 @@
+{
+  "id": "river_sea_loop",
+  "ok": true,
+  "rc": "0",
+  "secs": "21",
+  "run": "41288009444",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.5s] [sse] 30 words timed from Cartesia timestamps, k 0.9993\n[   2.5s] voice 12.85s, lines 0.30-1.96, 2.38-4.38, 4.80-7.23, 7.65-10.01, 10.43-12.83\n[   2.5s] timeline: 1 scenes, T_END 13.37s, warnings []\n[   3.5s] [mix] input -22.8 LUFS, gain +9.7 dB, 0 SFX -> /home/claude/daily_1101/river_sea_loop/out/work/mix.wav\n[   3.8s] [render] frame 0/401  0s\n[   9.0s] [render] frame 150/401  5s\n[  13.9s] [render] frame 300/401  10s\n\nvideo 1080x1920 30/1 13.37s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 1.44 MB (ok)\nweb 540x960 0.72 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 5, motion 0.98)\ndashes: ok (0 replaced)\nlayout issues: 6\nstages {'voice_align_s': 1.2, 'timeline_s': 0.0, 'mix_s': 1.0, 'render_s': 14.1, 'web_s': 2.3, 'qa_s': 1.1, 'total_s': 21.1}\n"
+}
