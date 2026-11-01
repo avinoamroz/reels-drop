@@ -1,0 +1,8 @@
+{
+  "id": "armies_map",
+  "ok": false,
+  "rc": "1",
+  "secs": "75",
+  "run": "41346522212",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1715\nframe 150/1715\nframe 300/1715\nTraceback (most recent call last):\n  File \"/home/claude/armies_map/reel.py\", line 485, in <module>\n    ff.stdin.write(frame(f / FPS).tobytes())\n                   ~~~~~^^^^^^^^^\n  File \"/home/claude/armies_map/reel.py\", line 460, in frame\n    if t < T_END - LOOP: return frame_raw(t).convert(\"RGB\")\n                                ~~~~~~~~~^^^\n  File \"/home/claude/armies_map/reel.py\", line 423, in frame_raw\n    for k, a_, b_, box in PHOTOS: photo(im, t, k, a_, b_, box)\n                                  ~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/armies_map/reel.py\", line 313, in photo\n    assert f.getlength(s) <= w - 40, s\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Lachish relief, Nineveh. O. S. M. Amin, CC BY-SA 4.0\nTraceback (most recent call last):\n  File \"/home/claude/armies_map/render.py\", line 4, in <module>\n    subprocess.run([\"nice\", \"-n\", \"10\", \"python3\", f\"{D}/reel.py\", \"--out\", f\"{D}/work/silent.mp4\"], check=True)\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.13.17/x64/lib/python3.13/subprocess.py\", line 578, in run\n    raise CalledProcessError(retcode, process.args,\n                             output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: Command '['nice', '-n', '10', 'python3', '/home/claude/armies_map/reel.py', '--out', '/home/claude/armies_map/work/silent.mp4']' returned non-zero exit status 1.\n"
+}
