@@ -1,0 +1,7 @@
+{
+ "id": "israel_iran",
+ "cmd": "python3 /home/claude/israel_iran/render.py",
+ "out": "/home/claude/israel_iran/israel_iran.mp4",
+ "sent": "2026-11-01T13:13:49Z",
+ "nfiles": 47
+}
