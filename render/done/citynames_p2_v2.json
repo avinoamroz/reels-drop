@@ -1,0 +1,8 @@
+{
+  "id": "citynames_p2_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "52",
+  "run": "41274418697",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.9s] [sse] 132 words timed from Cartesia timestamps, k 0.9999\n[   4.9s] voice 50.01s, lines 0.30-4.02, 4.44-16.03, 16.48-21.28, 21.70-27.97, 28.41-34.65, 35.07-39.90, 40.32-45.06, 45.48-48.71, 48.83-50.01\n[   5.0s] timeline: 9 scenes, T_END 52.30s, warnings []\n[   8.4s] [mix] input -22.8 LUFS, gain +9.7 dB, 15 SFX -> /home/claude/daily_1028/citynames_p2_v2/out/work/mix.wav\n[   8.6s] [render] frame 0/1569  0s\n[  11.5s] [render] frame 150/1569  3s\n[  14.2s] [render] frame 300/1569  6s\n[  17.2s] [render] frame 450/1569  9s\n[  19.9s] [render] frame 600/1569  11s\n[  23.1s] [render] frame 750/1569  15s\n[  26.1s] [render] frame 900/1569  18s\n[  29.4s] [render] frame 1050/1569  21s\n[  32.1s] [render] frame 1200/1569  24s\n[  34.7s] [render] frame 1350/1569  26s\n[  37.5s] [render] frame 1500/1569  29s\n\nvideo 1080x1920 30/1 52.3s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 4.74 MB (ok)\nweb 540x960 2.52 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 5, motion 1.73)\ndashes: ok (0 replaced)\nlayout issues: 2\ncta hold 3.02s (ok)\nstages {'voice_align_s': 3.6, 'timeline_s': 0.1, 'mix_s': 3.5, 'render_s': 31.1, 'web_s': 8.7, 'qa_s': 3.7, 'total_s': 51.9}\n"
+}
