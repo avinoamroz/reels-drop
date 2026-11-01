@@ -1,0 +1,7 @@
+{
+ "id": "rights_west",
+ "cmd": "python3 /home/claude/rights_west/engine.py --reel /home/claude/rights_west --out /home/claude/rights_west/out.mp4",
+ "out": "/home/claude/rights_west/out.mp4",
+ "sent": "2026-11-01T12:13:52Z",
+ "nfiles": 47
+}
