@@ -1,0 +1,7 @@
+{
+ "id": "roads_2000",
+ "cmd": "python3 /home/claude/roads_2000/engine.py --reel /home/claude/roads_2000 --out /home/claude/roads_2000/final.mp4",
+ "out": "/home/claude/roads_2000/final.mp4",
+ "sent": "2026-11-01T20:43:07Z",
+ "nfiles": 24
+}
