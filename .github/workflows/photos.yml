@@ -1,0 +1,42 @@
+name: photos
+# Photos the container cannot reach (Wikimedia Commons, LOC, GPO, US gov). Push a line "name url" to
+# photos/list.txt; this writes photos/<name>.jpg (max 1920 px, JPEG q88) and photos/<name>.json (credits).
+# Helper: /home/claude/reelkit/cloud_photos.py
+on:
+  push:
+    paths: ['photos/list.txt', 'tools/photos.py', '.github/workflows/photos.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: photos
+  cancel-in-progress: false
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            photos
+            tools/photos.py
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -q --retries 5 pillow requests
+      - name: Download and resize
+        run: |
+          mkdir -p photos; touch photos/list.txt
+          python tools/photos.py
+      - name: Commit
+        run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add --sparse photos
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Photos [skip ci]"
+          for i in 1 2 3 4 5 6; do
+            git pull -q --rebase && git push -q && exit 0
+            sleep $(( (RANDOM % 10) + 5 ))
+          done
+          exit 1
