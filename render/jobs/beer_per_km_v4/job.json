@@ -1,0 +1,7 @@
+{
+ "id": "beer_per_km_v4",
+ "cmd": "python3 /home/claude/endings_1101/join.py /home/claude/endings_1101/jobs/beer_per_km_v4 /home/claude/endings_1101/out/beer_per_km_v4.mp4",
+ "out": "/home/claude/endings_1101/out/beer_per_km_v4.mp4",
+ "sent": "2026-11-01T05:45:34Z",
+ "nfiles": 19
+}
