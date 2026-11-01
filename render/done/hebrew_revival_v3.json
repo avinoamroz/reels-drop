@@ -1,0 +1,8 @@
+{
+  "id": "hebrew_revival_v3",
+  "ok": false,
+  "rc": "1",
+  "secs": "6",
+  "run": "41280965362",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.1s] [sse] 120 words timed from Cartesia timestamps, k 0.9999\n[   4.1s] voice 45.24s, lines 0.30-6.00, 6.36-9.30, 9.61-16.84, 17.27-23.18, 23.60-28.61, 29.04-32.91, 33.33-38.47, 39.04-43.19, 43.69-45.24\n[   4.2s] timeline: 9 scenes, T_END 45.87s, warnings []\nTraceback (most recent call last):\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 79, in <module>\n    main()\n    ~~~~^^\n  File \"/home/claude/reelkit/make_reel_sse.py\", line 64, in main\n    wav = f\"{work}/mix.wav\"; mrep = MX.mix(vo, R.T_END, bed, ev, wav, music_db=spec.get(\"music_db\", -17.0), log=log)\n                                    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/reelkit/mix.py\", line 93, in mix\n    if isinstance(x, str): xdb += SFX_DB.get(x, 0); x = sfx(x)\n                                                        ~~~^^^\n  File \"/home/claude/reelkit/mix.py\", line 61, in sfx\n    import sfx2; x = sfx2.whoosh(0.5)\n    ^^^^^^^^^^^\n  File \"/home/claude/reelkit/sfx2.py\", line 7, in <module>\n    from narrate import SR, bp, lp, hp, norm, tt, load\nModuleNotFoundError: No module named 'narrate'\n"
+}
