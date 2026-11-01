@@ -1,0 +1,8 @@
+{
+  "id": "roads_2000",
+  "ok": true,
+  "rc": "0",
+  "secs": "100",
+  "run": "41350114177",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1827\nframe 150 / 1827\nframe 300 / 1827\nframe 450 / 1827\nframe 600 / 1827\nframe 750 / 1827\nframe 900 / 1827\nframe 1050 / 1827\nframe 1200 / 1827\nframe 1350 / 1827\nframe 1500 / 1827\nframe 1650 / 1827\nframe 1800 / 1827\nwrote /home/claude/roads_2000/final.mp4 60.9\n"
+}
