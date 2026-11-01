@@ -1,0 +1,7 @@
+{
+ "id": "shell_lottery_v3",
+ "cmd": "mkdir -p /home/claude/fix6b/out && python3 /home/claude/fix6/ovl6.py /home/claude/fix6b/cfg/shell_lottery_v3.json",
+ "out": "/home/claude/fix6b/out/shell_lottery_v3.mp4",
+ "sent": "2026-11-01T18:06:25Z",
+ "nfiles": 63
+}
