@@ -1,0 +1,8 @@
+{
+  "id": "x_b1_agree_mistake",
+  "ok": true,
+  "rc": "0",
+  "secs": "54",
+  "run": "41336863789",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.6s] [sse] 143 words timed from Cartesia timestamps, k 0.9999\n[   4.6s] voice 51.49s, lines 0.30-5.45, 6.43-13.26, 13.93-19.79, 20.89-25.74, 26.31-32.09, 32.88-36.53, 37.32-40.17, 40.90-42.66, 43.25-44.90, 45.33-47.48, 48.21-51.49\n[   4.8s] timeline: 8 scenes, T_END 51.80s, warnings []\n[   7.8s] [mix] input -22.9 LUFS, gain +9.8 dB, 9 SFX -> /home/claude/express_b/x_b1_agree_mistake/out/work/mix.wav\n[   7.9s] [render] frame 0/1554  0s\n[  10.9s] [render] frame 150/1554  3s\n[  13.8s] [render] frame 300/1554  6s\n[  16.9s] [render] frame 450/1554  9s\n[  20.0s] [render] frame 600/1554  12s\n[  23.1s] [render] frame 750/1554  15s\n[  26.2s] [render] frame 900/1554  18s\n[  29.3s] [render] frame 1050/1554  22s\n[  32.8s] [render] frame 1200/1554  25s\n[  35.7s] [render] frame 1350/1554  28s\n[  38.7s] [render] frame 1500/1554  31s\n\nvideo 1080x1920 30/1 51.8s aac 48000 Hz: -14.1 LUFS, TP -1.7 dBTP, 6.15 MB (ok)\nweb 540x960 2.94 MB (ok), -14.1 LUFS, TP -1.7\nhook: ok (frame-0 text 2, motion 2.97)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 3.2, 'timeline_s': 0.2, 'mix_s': 2.9, 'render_s': 33.1, 'web_s': 9.3, 'qa_s': 4.0, 'total_s': 54.1}\n"
+}
