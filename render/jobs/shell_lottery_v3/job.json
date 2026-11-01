@@ -1,7 +1,0 @@
-{
- "id": "shell_lottery_v3",
- "cmd": "python3 /home/claude/endings_1101/join.py /home/claude/endings_1101/jobs/shell_lottery_v3 /home/claude/endings_1101/out/shell_lottery_v3.mp4",
- "out": "/home/claude/endings_1101/out/shell_lottery_v3.mp4",
- "sent": "2026-11-01T06:09:48Z",
- "nfiles": 19
-}

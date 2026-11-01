@@ -1,7 +1,0 @@
-{
- "id": "minority_vs_majority_v2",
- "cmd": "pip install -q pycairo && cd /home/claude/minority_vs_majority_v2 && python3 /home/claude/reelkit/make_reel_sse.py spec.json /home/claude/minority_vs_majority/vo3 out",
- "out": "/home/claude/minority_vs_majority_v2/out/reel.mp4",
- "sent": "2026-11-01T04:26:38Z",
- "nfiles": 141
-}

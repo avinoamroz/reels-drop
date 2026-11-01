@@ -1,7 +1,0 @@
-{
- "id": "aliyah_million_v2",
- "cmd": "cd /home/claude/daily_1029/aliyah_million_v2 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
- "out": "/home/claude/daily_1029/aliyah_million_v2/out/reel.mp4",
- "sent": "2026-11-01T04:46:48Z",
- "nfiles": 144
-}

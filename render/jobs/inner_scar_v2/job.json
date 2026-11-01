@@ -1,7 +1,0 @@
-{
- "id": "inner_scar_v2",
- "cmd": "(apt-get install -y -qq libcairo2-dev pkg-config > /dev/null 2>&1 || (apt-get update -qq && apt-get install -y -qq libcairo2-dev pkg-config > /dev/null)) ; pip install -q pycairo soundfile ; cd /home/claude/inner_scar_v2/build && python3 /home/claude/reelkit/render_tl.py /home/claude/inner_scar_v2/build/spec.json /home/claude/inner_scar_v2/build/vo /home/claude/inner_scar_v2/build/out",
- "out": "/home/claude/inner_scar_v2/build/out/reel.mp4",
- "sent": "2026-11-01T05:00:12Z",
- "nfiles": 144
-}

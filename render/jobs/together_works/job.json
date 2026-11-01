@@ -1,7 +1,0 @@
-{
- "id": "together_works",
- "cmd": "python3 /home/claude/together_works/render.py",
- "out": "/home/claude/together_works/together_works.mp4",
- "sent": "2026-11-01T06:59:24Z",
- "nfiles": 52
-}

@@ -1,7 +1,0 @@
-{
- "id": "lib_explain_v2",
- "cmd": "cd /home/claude/fixes_1101/ex && python3 ex3.py && python3 mix3.py /home/claude/fixes_1101/ex/ex2_silent.mp4 /home/claude/fixes_1101/ex/lib_explain_v2.mp4",
- "out": "/home/claude/fixes_1101/ex/lib_explain_v2.mp4",
- "sent": "2026-11-01T06:27:49Z",
- "nfiles": 130
-}
