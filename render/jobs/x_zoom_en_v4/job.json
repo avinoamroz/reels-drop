@@ -2,6 +2,6 @@
  "id": "x_zoom_en_v4",
  "cmd": "cd /home/claude/fixes_1101/x_zoom_en_v4 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/fixes_1101/x_zoom_en_v4/out/reel.mp4",
- "sent": "2026-11-01T06:27:44Z",
- "nfiles": 105
+ "sent": "2026-11-01T06:32:53Z",
+ "nfiles": 128
 }
