@@ -1,0 +1,8 @@
+{
+  "id": "lib_explain_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "177",
+  "run": "41280965362",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\ndone /home/claude/fixes_1101/ex/ex2_silent.mp4\n[mix] input -21.3 LUFS, gain +8.3 dB, 0 SFX -> /home/claude/fixes_1101/ex/lib_explain_v2.mp4.mix.wav\nwrote /home/claude/fixes_1101/ex/lib_explain_v2.mp4\n"
+}
