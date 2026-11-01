@@ -1,0 +1,7 @@
+{
+ "id": "unrwa_unhcr_v3",
+ "cmd": "python3 /home/claude/endings_1101/join.py /home/claude/endings_1101/jobs/unrwa_unhcr_v3 /home/claude/endings_1101/out/unrwa_unhcr_v3.mp4",
+ "out": "/home/claude/endings_1101/out/unrwa_unhcr_v3.mp4",
+ "sent": "2026-11-01T06:09:49Z",
+ "nfiles": 19
+}
