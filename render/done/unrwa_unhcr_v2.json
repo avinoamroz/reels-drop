@@ -1,0 +1,8 @@
+{
+  "id": "unrwa_unhcr_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "25",
+  "run": "41273162160",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.7s] [sse] 93 words timed from Cartesia timestamps, k 1.0000\n[   2.7s] voice 37.52s, lines 0.30-5.47, 5.89-9.67, 10.09-14.72, 15.15-18.12, 18.34-24.01, 24.43-29.52, 29.86-34.28, 34.71-37.52\n[   2.8s] timeline: 7 scenes, T_END 38.33s, warnings []\n[   4.3s] [mix] input -21.1 LUFS, gain +7.9 dB, 12 SFX -> /home/claude/daily_1027/unrwa_unhcr_v2/out/work/mix.wav\n[   4.4s] [render] frame 0/1150  0s\n[   6.2s] [render] frame 150/1150  2s\n[   8.2s] [render] frame 300/1150  4s\n[  10.0s] [render] frame 450/1150  6s\n[  12.0s] [render] frame 600/1150  8s\n[  13.9s] [render] frame 750/1150  10s\n[  15.8s] [render] frame 900/1150  12s\n[  17.7s] [render] frame 1050/1150  13s\n\nvideo 1080x1920 30/1 38.33s aac 48000 Hz: -14.1 LUFS, TP -1.5 dBTP, 4.08 MB (ok)\nweb 540x960 2.02 MB (ok), -14.1 LUFS, TP -1.5\nhook: ok (frame-0 text 7, motion 1.69)\ndashes: ok (0 replaced)\nlayout issues: 1\ncta hold 3.17s (ok)\nstages {'voice_align_s': 1.5, 'timeline_s': 0.1, 'mix_s': 1.5, 'render_s': 14.9, 'web_s': 4.2, 'qa_s': 1.9, 'total_s': 25.4}\n"
+}
