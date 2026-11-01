@@ -1,0 +1,7 @@
+{
+ "id": "colonization_wrong_v2m",
+ "cmd": "cd /home/claude/endings_1101/rebuild/colonization_wrong_v2m && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/endings_1101/rebuild/colonization_wrong_v2m/out/reel.mp4",
+ "sent": "2026-11-01T06:04:55Z",
+ "nfiles": 129
+}
