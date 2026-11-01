@@ -1,0 +1,7 @@
+{
+ "id": "shabbat_together_a",
+ "cmd": "python3 /home/claude/shabbat_together/a/render.py",
+ "out": "/home/claude/shabbat_together/a/shabbat_together_a.mp4",
+ "sent": "2026-11-01T13:16:43Z",
+ "nfiles": 71
+}
