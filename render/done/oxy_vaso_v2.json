@@ -1,0 +1,8 @@
+{
+  "id": "oxy_vaso_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "67",
+  "run": "41275767767",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nWARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.\n[render] frame 0/1935  0s\n[render] frame 150/1935  6s\n[render] frame 300/1935  11s\n[render] frame 450/1935  14s\n[render] frame 600/1935  16s\n[render] frame 750/1935  19s\n[render] frame 900/1935  22s\n[render] frame 1050/1935  25s\n[render] frame 1200/1935  29s\n[render] frame 1350/1935  35s\n[render] frame 1500/1935  43s\n[render] frame 1650/1935  51s\n[render] frame 1800/1935  59s\nrendered 64.9 s 1935 frames\n"
+}
