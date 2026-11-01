@@ -1,0 +1,8 @@
+{
+  "id": "x_zoom_en_v4",
+  "ok": true,
+  "rc": "0",
+  "secs": "47",
+  "run": "41281299294",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.0s] [sse] 137 words timed from Cartesia timestamps, k 0.9999\n[   4.0s] voice 49.11s, lines 0.30-6.66, 7.05-10.14, 10.53-14.19, 14.60-17.48, 17.86-20.90, 21.19-24.24, 24.62-27.50, 27.82-32.24, 32.68-38.89, 39.34-41.38, 41.70-43.44, 43.75-45.84, 46.35-49.11\n[   4.1s] timeline: 9 scenes, T_END 49.43s, warnings []\n[   6.8s] [mix] input -21.5 LUFS, gain +8.0 dB, 10 SFX -> /home/claude/fixes_1101/x_zoom_en_v4/out/work/mix.wav\n[   7.0s] [render] frame 0/1483  0s\n[   9.7s] [render] frame 150/1483  3s\n[  12.6s] [render] frame 300/1483  6s\n[  15.6s] [render] frame 450/1483  9s\n[  18.6s] [render] frame 600/1483  12s\n[  21.6s] [render] frame 750/1483  15s\n[  24.1s] [render] frame 900/1483  17s\n[  26.9s] [render] frame 1050/1483  20s\n[  29.6s] [render] frame 1200/1483  23s\n[  32.4s] [render] frame 1350/1483  26s\n\nvideo 1080x1920 30/1 49.43s aac 48000 Hz: -14.0 LUFS, TP -2.0 dBTP, 4.75 MB (ok)\nweb 540x960 2.49 MB (ok), -14.0 LUFS, TP -2.0\nhook: ok (frame-0 text 2, motion 4.5)\ndashes: ok (0 replaced)\nlayout issues: 4\nstages {'voice_align_s': 2.8, 'timeline_s': 0.1, 'mix_s': 2.8, 'render_s': 29.0, 'web_s': 8.2, 'qa_s': 3.5, 'total_s': 47.6}\n"
+}
