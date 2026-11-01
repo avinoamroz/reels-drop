@@ -1,0 +1,8 @@
+{
+  "id": "israel_feels_home",
+  "ok": true,
+  "rc": "0",
+  "secs": "321",
+  "run": "41336352616",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1584\nframe 150/1584\nframe 300/1584\nframe 450/1584\nframe 600/1584\nframe 750/1584\nframe 900/1584\nframe 1050/1584\nframe 1200/1584\nframe 1350/1584\nframe 1500/1584\nvideo /home/claude/israel_feels_home/work/silent.mp4 52.8\nfinal /home/claude/israel_feels_home/israel_feels_home.mp4\n"
+}
