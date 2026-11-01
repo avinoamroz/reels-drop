@@ -1,0 +1,8 @@
+{
+  "id": "armies_map",
+  "ok": true,
+  "rc": "0",
+  "secs": "326",
+  "run": "41347080450",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1715\nframe 150/1715\nframe 300/1715\nframe 450/1715\nframe 600/1715\nframe 750/1715\nframe 900/1715\nframe 1050/1715\nframe 1200/1715\nframe 1350/1715\nframe 1500/1715\nframe 1650/1715\nvideo /home/claude/armies_map/work/silent.mp4 57.17\nfinal /home/claude/armies_map/armies_map.mp4\n"
+}
