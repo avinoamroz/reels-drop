@@ -2,6 +2,6 @@
  "id": "x_b2_investor_smalltalk",
  "cmd": "cd /home/claude/express_b/x_b2_investor_smalltalk && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
  "out": "/home/claude/express_b/x_b2_investor_smalltalk/out/reel.mp4",
- "sent": "2026-11-01T18:29:04Z",
+ "sent": "2026-11-01T18:42:17Z",
  "nfiles": 133
 }
