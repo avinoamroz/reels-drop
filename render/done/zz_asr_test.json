@@ -1,0 +1,8 @@
+{
+  "id": "zz_asr_test",
+  "ok": true,
+  "rc": "0",
+  "secs": "1",
+  "run": "41310605809",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n"
+}
