@@ -1,0 +1,7 @@
+{
+ "id": "terror_awards_v3",
+ "cmd": "apt-get install -y -qq libcairo2-dev pkg-config > /dev/null && pip install -q pycairo soundfile && python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/fixes_1101/ta/spec.json /home/claude/fixes_1101/ta/out/timing.json /home/claude/fixes_1101/ta/out/mix.wav /home/claude/fixes_1101/ta/body.mp4 && python3 /home/claude/fixes_1101/ta/build_ta.py /home/claude/fixes_1101/ta/cfg.json",
+ "out": "/home/claude/fixes_1101/ta/terror_awards_v3.mp4",
+ "sent": "2026-11-01T06:27:47Z",
+ "nfiles": 168
+}
