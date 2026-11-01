@@ -1,7 +1,0 @@
-{
- "id": "babysitters_v2",
- "cmd": "cd /home/claude/babysitters/v2 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo/vo out",
- "out": "/home/claude/babysitters/v2/out/reel.mp4",
- "sent": "2026-10-31T17:48:29Z",
- "nfiles": 139
-}

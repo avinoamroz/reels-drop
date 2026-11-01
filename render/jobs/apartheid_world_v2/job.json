@@ -1,7 +1,0 @@
-{
- "id": "apartheid_world_v2",
- "cmd": "cd /home/claude/gdocs_1030/apart_v2 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
- "out": "/home/claude/gdocs_1030/apart_v2/out/reel.mp4",
- "sent": "2026-10-31T17:48:31Z",
- "nfiles": 139
-}
