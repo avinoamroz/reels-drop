@@ -1,0 +1,7 @@
+{
+ "id": "israel_feels_home",
+ "cmd": "python3 /home/claude/israel_feels_home/render.py",
+ "out": "/home/claude/israel_feels_home/israel_feels_home.mp4",
+ "sent": "2026-11-01T12:59:00Z",
+ "nfiles": 53
+}
