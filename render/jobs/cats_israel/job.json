@@ -1,7 +1,0 @@
-{
- "id": "cats_israel",
- "cmd": "cd /home/claude/cats_israel && python3 engine.py --out /home/claude/cats_israel/final.mp4",
- "out": "/home/claude/cats_israel/final.mp4",
- "sent": "2026-11-01T21:38:23Z",
- "nfiles": 18
-}

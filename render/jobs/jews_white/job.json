@@ -1,7 +1,0 @@
-{
- "id": "jews_white",
- "cmd": "python3 /home/claude/jews_white/engine.py --out /home/claude/jews_white/final.mp4",
- "out": "/home/claude/jews_white/final.mp4",
- "sent": "2026-11-01T22:12:25Z",
- "nfiles": 20
-}
