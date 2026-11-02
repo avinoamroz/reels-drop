@@ -1,0 +1,6 @@
+{
+ "name": "wm_bretton",
+ "url": "https://commons.wikimedia.org/wiki/File:Mount_Washington_Hotel.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}

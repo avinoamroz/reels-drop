@@ -1,0 +1,6 @@
+{
+ "name": "wm_beurs",
+ "url": "https://commons.wikimedia.org/wiki/File:Emanuel_de_Witte_-_The_Courtyard_of_the_Exchange_in_Amsterdam.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}
