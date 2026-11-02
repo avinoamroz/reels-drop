@@ -1,0 +1,7 @@
+{
+ "id": "heists_top",
+ "cmd": "cd /home/claude/heists_top && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/heists_top/out/reel.mp4",
+ "sent": "2026-11-02T03:46:41Z",
+ "nfiles": 152
+}
