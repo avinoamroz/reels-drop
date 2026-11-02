@@ -1,0 +1,7 @@
+{
+ "id": "philistines_vs_pal",
+ "cmd": "cd /home/claude/philistines_1102/philistines_vs_pal && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/philistines_1102/philistines_vs_pal/out/reel.mp4",
+ "sent": "2026-11-02T13:03:57Z",
+ "nfiles": 142
+}
