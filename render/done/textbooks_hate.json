@@ -1,0 +1,8 @@
+{
+  "id": "textbooks_hate",
+  "ok": true,
+  "rc": "0",
+  "secs": "111",
+  "run": "41388707264",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1927\nframe 150 / 1927\nframe 300 / 1927\nframe 450 / 1927\nframe 600 / 1927\nframe 750 / 1927\nframe 900 / 1927\nframe 1050 / 1927\nframe 1200 / 1927\nframe 1350 / 1927\nframe 1500 / 1927\nframe 1650 / 1927\nframe 1800 / 1927\nwrote /home/claude/textbooks_hate/work/silent.mp4 64.23\nfinal /home/claude/textbooks_hate/textbooks_hate.mp4\n"
+}
