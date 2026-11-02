@@ -1,0 +1,7 @@
+{
+ "id": "colonize_olympics_v6",
+ "cmd": "python3 /home/claude/colonize_olympics/build/build_v6.py",
+ "out": "/home/claude/colonize_olympics/build/out_v6/reel.mp4",
+ "sent": "2026-11-02T16:58:44Z",
+ "nfiles": 273
+}
