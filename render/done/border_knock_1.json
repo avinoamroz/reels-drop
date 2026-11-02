@@ -1,0 +1,8 @@
+{
+  "id": "border_knock_1",
+  "ok": false,
+  "rc": "1",
+  "secs": "17",
+  "run": "41384764008",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1322\nframe 150 / 1322\nframe 300 / 1322\nframe 450 / 1322\nframe 600 / 1322\nframe 750 / 1322\nframe 900 / 1322\nTraceback (most recent call last):\n  File \"/home/claude/border_jokes/engine.py\", line 705, in <module>\n    tt = i / FPS; p.stdin.write(blend0(tt, frame(tt), F0).tobytes())\n                                           ~~~~~^^^^\n  File \"/home/claude/border_jokes/engine.py\", line 683, in frame\n    SCENE(c, t)\n    ~~~~~^^^^^^\n  File \"/home/claude/border_jokes/engine.py\", line 334, in sc_knock\n    block(c, FAIR[RID][0], 88, 540, 560, 920, a1, eob(clamp((t - lt(L0) + 0.12) / 0.3)))\n    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/border_jokes/engine.py\", line 85, in block\n    for k, l in enumerate(ls): rich(c, l, size, x, y0 + k * size * lh, w, a, sc, hl, base)\n                               ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/border_jokes/engine.py\", line 65, in rich\n    s = t_.strip(\"*\"); text(c, s, size, cx, y, w, hl if t_.startswith(\"*\") else base, a, \"l\"); cx += f.getlength(s)\n                       ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/border_jokes/engine.py\", line 58, in text\n    c.set_source_surface(surf, x0 - ox, y - oy); c.paint_with_alpha(min(1, a * col[3])); c.restore(); return tw\n                                                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\ncairo.MemoryError: out of memory\n"
+}
