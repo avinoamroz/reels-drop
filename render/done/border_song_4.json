@@ -1,0 +1,8 @@
+{
+  "id": "border_song_4",
+  "ok": true,
+  "rc": "0",
+  "secs": "89",
+  "run": "41387529127",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nborder_song_4 frame 0/1650\nborder_song_4 frame 300/1650\nborder_song_4 frame 600/1650\nborder_song_4 frame 900/1650\nborder_song_4 frame 1200/1650\nborder_song_4 frame 1500/1650\nwrote /home/claude/border_song/border_song_4.mp4\n"
+}
