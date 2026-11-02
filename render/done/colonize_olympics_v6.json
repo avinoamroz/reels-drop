@@ -1,0 +1,8 @@
+{
+  "id": "colonize_olympics_v6",
+  "ok": false,
+  "rc": "1",
+  "secs": "5",
+  "run": "41486737276",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   0.1s] T_END 54.63333333333333 names 45.36 to 48.74 warn []\n[   1.8s] [mix] input -23.4 LUFS, gain +10.0 dB, 51 SFX -> /home/claude/colonize_olympics/build/out_v6/work/mix.wav\n[   1.9s] [render] frame 0/1639  0s\nTraceback (most recent call last):\n  File \"/home/claude/colonize_olympics/build/build_v6.py\", line 52, in <module>\n    mp4 = f\"{OUT}/reel.mp4\"; vid = RD.render_video(R, wav, mp4, log=log); log(\"render done\")\n                                   ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/claude/reelkit/render.py\", line 802, in render_video\n    t = fi / FPS; R.draw(c, t); surf.flush(); p.stdin.write(surf.get_data())\n                  ~~~~~~^^^^^^\n  File \"/home/claude/reelkit/render.py\", line 763, in draw\n    kit.CUR[\"scene\"] = i; St.a = al; SCENES[S[\"type\"]](c, t, S); St.a = 1.0\n                                     ~~~~~~~~~~~~~~~~~^^^^^^^^^\n  File \"/home/claude/colonize_olympics/build/co_scenes_v6.py\", line 428, in sc_race\n    t0 = S[\"t0\"]; _race_setup(S); mv = S[\"_mv\"]; x0, y0, x1, y1 = MAPBOX\n                  ~~~~~~~~~~~^^^\n  File \"/home/claude/colonize_olympics/build/co_scenes_v6.py\", line 401, in _race_setup\n    for k, v in geo().items():\n                ~~~^^\n  File \"/home/claude/reelkit/render.py\", line 519, in geo\n    d = json.load(open(GEO)); C = {}\n                  ~~~~^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/home/claude/bro_meter/geo/ne_50m_admin_0_countries.geojson'\n"
+}
