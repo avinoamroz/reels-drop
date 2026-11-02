@@ -1,0 +1,8 @@
+{
+  "id": "philistines_vs_pal",
+  "ok": true,
+  "rc": "0",
+  "secs": "89",
+  "run": "41449774543",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.9s] [sse] 155 words timed from Cartesia timestamps, k 0.9999\n[   4.0s] voice 62.86s, lines 0.30-2.73, 3.03-6.22, 6.49-10.42, 10.70-14.05, 14.43-16.53, 16.91-21.05, 21.43-25.66, 26.04-30.80, 31.18-33.52, 33.90-36.00, 36.36-40.65, 41.03-45.40, 45.78-48.67, 48.99-53.73, 53.93-59.11, 59.41-62.86\n[   4.1s] timeline: 16 scenes, T_END 63.43s, warnings []\n[   7.5s] [mix] input -21.8 LUFS, gain +8.7 dB, 15 SFX -> /home/claude/philistines_1102/philistines_vs_pal/out/work/mix.wav\n[   7.8s] [render] frame 0/1903  0s\n[  13.2s] [render] frame 150/1903  6s\n[  19.0s] [render] frame 300/1903  11s\n[  25.6s] [render] frame 450/1903  18s\n[  30.7s] [render] frame 600/1903  23s\n[  34.4s] [render] frame 750/1903  27s\n[  38.1s] [render] frame 900/1903  31s\n[  44.0s] [render] frame 1050/1903  37s\n[  49.6s] [render] frame 1200/1903  42s\n[  54.5s] [render] frame 1350/1903  47s\n[  60.2s] [render] frame 1500/1903  53s\n[  64.9s] [render] frame 1650/1903  57s\n[  69.3s] [render] frame 1800/1903  62s\n\nvideo 1080x1920 30/1 63.43s aac 48000 Hz: -14.1 LUFS, TP -2.0 dBTP, 13.99 MB (ok)\nweb 540x960 4.83 MB (ok), -14.1 LUFS, TP -2.0\nhook: ok (frame-0 text 1, motion 5.59)\ndashes: ok (0 replaced)\nlayout issues: 12\nstages {'voice_align_s': 2.9, 'timeline_s': 0.1, 'mix_s': 3.4, 'render_s': 66.7, 'web_s': 10.1, 'qa_s': 4.3, 'total_s': 88.6}\n"
+}
