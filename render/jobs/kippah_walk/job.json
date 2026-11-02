@@ -1,0 +1,7 @@
+{
+ "id": "kippah_walk",
+ "cmd": "cd /home/claude/kippah_walk/kippah_walk && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/kippah_walk/kippah_walk/out/reel.mp4",
+ "sent": "2026-11-02T19:07:01Z",
+ "nfiles": 136
+}
