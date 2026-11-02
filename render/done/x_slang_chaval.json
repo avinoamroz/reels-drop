@@ -1,0 +1,8 @@
+{
+  "id": "x_slang_chaval",
+  "ok": true,
+  "rc": "0",
+  "secs": "14",
+  "run": "41436299860",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   1.8s] [sse] 39 words timed from Cartesia timestamps, k 0.9996\n[   1.8s] voice 18.56s, lines 0.30-1.63, 2.38-3.76, 4.66-6.51, 7.51-12.02, 13.12-16.18, 17.08-18.55\n[   1.9s] timeline: 2 scenes, T_END 19.07s, warnings []\n[   2.7s] [mix] input -24.0 LUFS, gain +11.5 dB, 5 SFX -> /home/claude/express_slang/x_slang_chaval/out/work/mix.wav\n[   2.7s] [render] frame 0/572  0s\n[   4.6s] [render] frame 150/572  2s\n[   6.4s] [render] frame 300/572  4s\n[   8.3s] [render] frame 450/572  6s\n\nvideo 1080x1920 30/1 19.07s aac 48000 Hz: -14.2 LUFS, TP -2.0 dBTP, 2.36 MB (ok)\nweb 540x960 1.05 MB (ok), -14.2 LUFS, TP -2.0\nhook: ok (frame-0 text 5, motion 3.54)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 0.9, 'timeline_s': 0.0, 'mix_s': 0.8, 'render_s': 7.8, 'web_s': 2.3, 'qa_s': 1.1, 'total_s': 13.8}\n"
+}
