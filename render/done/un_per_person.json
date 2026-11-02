@@ -1,0 +1,8 @@
+{
+  "id": "un_per_person",
+  "ok": true,
+  "rc": "0",
+  "secs": "59",
+  "run": "41505635677",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.9s] [sse] 144 words timed from Cartesia timestamps, k 0.9999\n[   3.0s] voice 55.37s, lines 0.30-3.18, 3.46-7.80, 8.03-11.15, 11.45-13.91, 14.25-15.89, 16.23-19.64, 19.98-23.61, 23.95-25.73, 26.07-29.00, 29.34-30.65, 30.99-34.15, 34.56-36.20, 36.26-38.58, 38.92-40.97, 41.31-46.80, 47.14-52.12, 52.46-55.36\n[   3.1s] timeline: 10 scenes, T_END 55.93s, warnings []\n[   5.3s] [mix] input -23.1 LUFS, gain +9.9 dB, 9 SFX -> /home/claude/bangers_1102/un_per_person/out/work/mix.wav\n[   5.5s] [render] frame 0/1678  0s\n[   8.7s] [render] frame 150/1678  3s\n[  12.9s] [render] frame 300/1678  8s\n[  16.7s] [render] frame 450/1678  11s\n[  20.7s] [render] frame 600/1678  15s\n[  24.3s] [render] frame 750/1678  19s\n[  28.4s] [render] frame 900/1678  23s\n[  32.7s] [render] frame 1050/1678  27s\n[  37.0s] [render] frame 1200/1678  32s\n[  41.4s] [render] frame 1350/1678  36s\n[  45.2s] [render] frame 1500/1678  40s\n[  48.5s] [render] frame 1650/1678  43s\n\nvideo 1080x1920 30/1 55.93s aac 48000 Hz: -14.0 LUFS, TP -1.9 dBTP, 6.67 MB (ok)\nweb 540x960 3.11 MB (ok), -14.0 LUFS, TP -1.9\nhook: FAIL (frame-0 text 0, motion 9.49)\ndashes: ok (0 replaced)\nlayout issues: 2\nstages {'voice_align_s': 2.0, 'timeline_s': 0.1, 'mix_s': 2.3, 'render_s': 44.4, 'web_s': 6.5, 'qa_s': 2.9, 'total_s': 59.1}\n"
+}
