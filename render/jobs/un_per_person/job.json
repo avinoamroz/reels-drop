@@ -1,0 +1,7 @@
+{
+ "id": "un_per_person",
+ "cmd": "cd /home/claude/bangers_1102/un_per_person && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/bangers_1102/un_per_person/out/reel.mp4",
+ "sent": "2026-11-02T18:11:03Z",
+ "nfiles": 136
+}
