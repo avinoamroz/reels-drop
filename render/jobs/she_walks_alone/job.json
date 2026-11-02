@@ -1,0 +1,7 @@
+{
+ "id": "she_walks_alone",
+ "cmd": "cd /home/claude/she_walks_alone/she_walks_alone && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/she_walks_alone/she_walks_alone/out/reel.mp4",
+ "sent": "2026-11-02T18:15:10Z",
+ "nfiles": 136
+}
