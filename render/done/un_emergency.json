@@ -1,0 +1,8 @@
+{
+  "id": "un_emergency",
+  "ok": true,
+  "rc": "0",
+  "secs": "65",
+  "run": "41409837743",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.3s] [sse] 159 words timed from Cartesia timestamps, k 0.9999\n[   3.4s] voice 63.28s, lines 0.30-3.42, 3.73-8.40, 8.71-12.81, 13.12-15.28, 15.39-18.14, 18.45-22.18, 22.48-25.99, 26.17-28.62, 28.93-33.26, 33.57-34.98, 35.35-38.88, 39.19-45.03, 45.33-47.98, 48.29-50.92, 51.23-54.03, 54.34-59.53, 59.84-63.27\n[   3.4s] timeline: 9 scenes, T_END 63.83s, warnings []\n[   6.1s] [mix] input -22.1 LUFS, gain +9.2 dB, 8 SFX -> /home/claude/daily_1102/un_emergency/out/work/mix.wav\n[   6.2s] [render] frame 0/1915  0s\n[   8.7s] [render] frame 150/1915  3s\n[  12.4s] [render] frame 300/1915  6s\n[  16.2s] [render] frame 450/1915  10s\n[  20.0s] [render] frame 600/1915  14s\n[  23.6s] [render] frame 750/1915  17s\n[  27.4s] [render] frame 900/1915  21s\n[  31.2s] [render] frame 1050/1915  25s\n[  35.1s] [render] frame 1200/1915  29s\n[  38.9s] [render] frame 1350/1915  33s\n[  43.0s] [render] frame 1500/1915  37s\n[  47.2s] [render] frame 1650/1915  41s\n[  51.0s] [render] frame 1800/1915  45s\n\nvideo 1080x1920 30/1 63.83s aac 48000 Hz: -14.1 LUFS, TP -1.8 dBTP, 8.26 MB (ok)\nweb 540x960 3.62 MB (ok), -14.1 LUFS, TP -1.8\nhook: FAIL (frame-0 text 0, motion 9.67)\ndashes: ok (0 replaced)\nlayout issues: 9\nstages {'voice_align_s': 2.5, 'timeline_s': 0.1, 'mix_s': 2.7, 'render_s': 47.8, 'web_s': 7.7, 'qa_s': 3.4, 'total_s': 65.0}\n"
+}
