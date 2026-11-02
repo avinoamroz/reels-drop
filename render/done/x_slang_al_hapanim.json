@@ -1,0 +1,8 @@
+{
+  "id": "x_slang_al_hapanim",
+  "ok": true,
+  "rc": "0",
+  "secs": "13",
+  "run": "41436299860",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   1.8s] [sse] 38 words timed from Cartesia timestamps, k 0.9996\n[   1.8s] voice 15.69s, lines 0.30-1.68, 2.43-4.41, 5.31-6.42, 7.42-10.47, 11.57-13.38, 14.28-15.67\n[   1.9s] timeline: 2 scenes, T_END 16.20s, warnings []\n[   2.6s] [mix] input -23.9 LUFS, gain +10.7 dB, 5 SFX -> /home/claude/express_slang/x_slang_al_hapanim/out/work/mix.wav\n[   2.7s] [render] frame 0/486  0s\n[   4.5s] [render] frame 150/486  2s\n[   6.6s] [render] frame 300/486  4s\n[   8.7s] [render] frame 450/486  6s\n\nvideo 1080x1920 30/1 16.2s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 1.96 MB (ok)\nweb 540x960 0.87 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 5, motion 3.48)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 1.2, 'timeline_s': 0.1, 'mix_s': 0.7, 'render_s': 7.1, 'web_s': 2.0, 'qa_s': 1.0, 'total_s': 12.6}\n"
+}
