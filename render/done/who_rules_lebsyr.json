@@ -1,0 +1,8 @@
+{
+  "id": "who_rules_lebsyr",
+  "ok": true,
+  "rc": "0",
+  "secs": "50",
+  "run": "41390257608",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1854\nframe 150 / 1854\nframe 300 / 1854\nframe 450 / 1854\nframe 600 / 1854\nframe 750 / 1854\nframe 900 / 1854\nframe 1050 / 1854\nframe 1200 / 1854\nframe 1350 / 1854\nframe 1500 / 1854\nframe 1650 / 1854\nframe 1800 / 1854\nwrote /home/claude/who_rules_lebsyr/final.mp4 61.81\n"
+}
