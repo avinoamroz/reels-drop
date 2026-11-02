@@ -1,0 +1,8 @@
+{
+  "id": "druze_jethro",
+  "ok": true,
+  "rc": "0",
+  "secs": "88",
+  "run": "41437348029",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.0s] [sse] 175 words timed from Cartesia timestamps, k 1.0000\n[   4.1s] voice 64.36s, lines 0.30-2.65, 2.93-6.73, 7.14-10.76, 11.17-16.34, 16.75-20.74, 21.15-26.11, 26.43-28.61, 29.02-32.04, 32.35-35.46, 35.78-37.98, 38.32-42.45, 42.87-49.78, 50.19-54.39, 54.80-57.95, 58.36-64.36\n[   4.2s] timeline: 15 scenes, T_END 64.93s, warnings []\n[   7.7s] [mix] input -21.7 LUFS, gain +8.2 dB, 14 SFX -> /home/claude/druze_1102/druze_jethro/out/work/mix.wav\n[   8.0s] [render] frame 0/1948  0s\n[  13.5s] [render] frame 150/1948  6s\n[  18.4s] [render] frame 300/1948  11s\n[  22.7s] [render] frame 450/1948  15s\n[  28.0s] [render] frame 600/1948  20s\n[  33.5s] [render] frame 750/1948  26s\n[  37.8s] [render] frame 900/1948  30s\n[  41.9s] [render] frame 1050/1948  34s\n[  45.8s] [render] frame 1200/1948  38s\n[  51.2s] [render] frame 1350/1948  43s\n[  56.4s] [render] frame 1500/1948  49s\n[  61.3s] [render] frame 1650/1948  54s\n[  66.7s] [render] frame 1800/1948  59s\n\nvideo 1080x1920 30/1 64.93s aac 48000 Hz: -14.1 LUFS, TP -1.7 dBTP, 16.01 MB (ok)\nweb 540x960 4.9 MB (ok), -14.1 LUFS, TP -1.7\nhook: ok (frame-0 text 1, motion 2.98)\ndashes: ok (0 replaced)\nlayout issues: 4\nstages {'voice_align_s': 3.1, 'timeline_s': 0.1, 'mix_s': 3.5, 'render_s': 64.7, 'web_s': 10.5, 'qa_s': 4.6, 'total_s': 87.6}\n"
+}
