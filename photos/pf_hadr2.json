@@ -1,0 +1,6 @@
+{
+ "name": "pf_hadr2",
+ "url": "https://commons.wikimedia.org/wiki/File:Hadrian_Musei_Capitolini_MC817_cropped.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}

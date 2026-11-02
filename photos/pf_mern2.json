@@ -1,0 +1,6 @@
+{
+ "name": "pf_mern2",
+ "url": "https://commons.wikimedia.org/wiki/File:Merenptah_Israel_Stele_Cairo.JPG",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}
