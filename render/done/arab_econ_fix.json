@@ -1,0 +1,8 @@
+{
+  "id": "arab_econ_fix",
+  "ok": true,
+  "rc": "0",
+  "secs": "82",
+  "run": "41389202080",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1945\nframe 150 / 1945\nframe 300 / 1945\nframe 450 / 1945\nframe 600 / 1945\nframe 750 / 1945\nframe 900 / 1945\nframe 1050 / 1945\nframe 1200 / 1945\nframe 1350 / 1945\nframe 1500 / 1945\nframe 1650 / 1945\nframe 1800 / 1945\nwrote /home/claude/arab_econ_fix/final.mp4 64.84\n"
+}
