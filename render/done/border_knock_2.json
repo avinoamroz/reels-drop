@@ -1,0 +1,8 @@
+{
+  "id": "border_knock_2",
+  "ok": true,
+  "rc": "0",
+  "secs": "33",
+  "run": "41384764008",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0 / 1402\nframe 150 / 1402\nframe 300 / 1402\nframe 450 / 1402\nframe 600 / 1402\nframe 750 / 1402\nframe 900 / 1402\nframe 1050 / 1402\nframe 1200 / 1402\nframe 1350 / 1402\nwrote /home/claude/border_jokes/border_knock_2/final.mp4 46.72\n"
+}
