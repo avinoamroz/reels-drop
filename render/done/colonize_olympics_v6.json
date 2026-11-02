@@ -1,0 +1,8 @@
+{
+  "id": "colonize_olympics_v6",
+  "ok": true,
+  "rc": "0",
+  "secs": "70",
+  "run": "41489842261",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   0.2s] T_END 54.63333333333333 names 45.36 to 48.74 warn []\n[   3.2s] [mix] input -23.4 LUFS, gain +10.0 dB, 51 SFX -> /home/claude/colonize_olympics/build/out_v6/work/mix.wav\n[   3.4s] [render] frame 0/1639  0s\n[   8.2s] [render] frame 150/1639  5s\n[  14.7s] [render] frame 300/1639  11s\n[  23.7s] [render] frame 450/1639  20s\n[  26.6s] [render] frame 600/1639  23s\n[  29.3s] [render] frame 750/1639  26s\n[  32.6s] [render] frame 900/1639  29s\n[  35.7s] [render] frame 1050/1639  32s\n[  39.4s] [render] frame 1200/1639  36s\n[  44.7s] [render] frame 1350/1639  41s\n[  49.2s] [render] frame 1500/1639  46s\n[  53.3s] render done\nvideo 1080x1920 30/1 54.63s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 11.39 MB (ok)\nweb 540x960 4.46 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 6, motion 7.58)\ndashes: ok (0 replaced)\nlayout issues: 0\nblack frames: none\nhe subs missing: []\n"
+}
