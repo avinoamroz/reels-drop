@@ -1,0 +1,802 @@
+[
+{
+"word": "Four",
+"start": 0.85139835,
+"end": 1.2074376
+},
+{
+"word": "numbers",
+"start": 1.2074376,
+"end": 1.5944369
+},
+{
+"word": "are",
+"start": 1.5944369,
+"end": 1.7492366
+},
+{
+"word": "holding",
+"start": 1.7492366,
+"end": 2.1052759
+},
+{
+"word": "Arab",
+"start": 2.1052759,
+"end": 2.3839154
+},
+{
+"word": "economies",
+"start": 2.3839154,
+"end": 2.8947544
+},
+{
+"word": "back.",
+"start": 2.8947544,
+"end": 3.3436735
+},
+{
+"word": "And",
+"start": 3.606833,
+"end": 3.7616327
+},
+{
+"word": "the",
+"start": 3.7616327,
+"end": 3.8235526
+},
+{
+"word": "fixes",
+"start": 3.8235526,
+"end": 4.2105517
+},
+{
+"word": "already",
+"start": 4.2105517,
+"end": 4.4427514
+},
+{
+"word": "work,",
+"start": 4.4427514,
+"end": 4.89167
+},
+{
+"word": "right",
+"start": 5.04647,
+"end": 5.3251095
+},
+{
+"word": "here.",
+"start": 5.3251095,
+"end": 5.681149
+},
+{
+"word": "Women",
+"start": 5.9443083,
+"end": 6.315828
+},
+{
+"word": "at",
+"start": 6.315828,
+"end": 6.3932276
+},
+{
+"word": "work.",
+"start": 6.3932276,
+"end": 6.826667
+},
+{
+"word": "About",
+"start": 7.322026,
+"end": 7.600665
+},
+{
+"word": "one",
+"start": 7.600665,
+"end": 7.7709446
+},
+{
+"word": "in",
+"start": 7.7709446,
+"end": 7.8947845
+},
+{
+"word": "five.",
+"start": 7.8947845,
+"end": 8.374663
+},
+{
+"word": "Europe,",
+"start": 9.040302,
+"end": 9.551142
+},
+{
+"word": "fifty-two",
+"start": 9.674981,
+"end": 10.2013
+},
+{
+"word": "percent.",
+"start": 10.2013,
+"end": 10.712139
+},
+{
+"word": "Israel,",
+"start": 11.253938,
+"end": 11.795737
+},
+{
+"word": "sixty-two.",
+"start": 11.919577,
+"end": 12.600696
+},
+{
+"word": "Youth",
+"start": 13.142494,
+"end": 13.575933
+},
+{
+"word": "without",
+"start": 13.5914135,
+"end": 13.901012
+},
+{
+"word": "jobs.",
+"start": 13.901012,
+"end": 14.349932
+},
+{
+"word": "Twenty-six",
+"start": 14.736931,
+"end": 15.27873
+},
+{
+"word": "percent.",
+"start": 15.27873,
+"end": 15.758609
+},
+{
+"word": "Europe,",
+"start": 16.20753,
+"end": 16.718367
+},
+{
+"word": "fifteen.",
+"start": 16.966047,
+"end": 17.554285
+},
+{
+"word": "Israel,",
+"start": 17.925804,
+"end": 18.514044
+},
+{
+"word": "six.",
+"start": 18.606924,
+"end": 19.272562
+},
+{
+"word": "Clean",
+"start": 19.922722,
+"end": 20.26328
+},
+{
+"word": "government.",
+"start": 20.26328,
+"end": 20.74316
+},
+{
+"word": "Arab",
+"start": 21.16112,
+"end": 21.424278
+},
+{
+"word": "average,",
+"start": 21.455238,
+"end": 22.058956
+},
+{
+"word": "thirty-four.",
+"start": 22.291157,
+"end": 23.049675
+},
+{
+"word": "Europe",
+"start": 23.622435,
+"end": 24.009434
+},
+{
+"word": "and",
+"start": 24.009434,
+"end": 24.133272
+},
+{
+"word": "Israel,",
+"start": 24.133272,
+"end": 24.675072
+},
+{
+"word": "sixty-four.",
+"start": 24.814392,
+"end": 25.57291
+},
+{
+"word": "Trade",
+"start": 26.02183,
+"end": 26.315948
+},
+{
+"word": "with",
+"start": 26.315948,
+"end": 26.439789
+},
+{
+"word": "neighbours.",
+"start": 26.439789,
+"end": 26.981586
+},
+{
+"word": "Arab",
+"start": 27.399546,
+"end": 27.631746
+},
+{
+"word": "countries,",
+"start": 27.631746,
+"end": 28.173546
+},
+{
+"word": "eleven",
+"start": 28.514105,
+"end": 28.839184
+},
+{
+"word": "percent.",
+"start": 28.839184,
+"end": 29.288103
+},
+{
+"word": "Europe,",
+"start": 29.829903,
+"end": 30.27882
+},
+{
+"word": "over",
+"start": 30.3717,
+"end": 30.6039
+},
+{
+"word": "sixty.",
+"start": 30.6039,
+"end": 31.05282
+},
+{
+"word": "So",
+"start": 31.36242,
+"end": 31.563658
+},
+{
+"word": "what",
+"start": 31.563658,
+"end": 31.718458
+},
+{
+"word": "do",
+"start": 31.718458,
+"end": 31.780378
+},
+{
+"word": "the",
+"start": 31.780378,
+"end": 31.873259
+},
+{
+"word": "World",
+"start": 31.873259,
+"end": 32.105457
+},
+{
+"word": "Bank",
+"start": 32.105457,
+"end": 32.49246
+},
+{
+"word": "and",
+"start": 32.709175,
+"end": 32.894936
+},
+{
+"word": "the",
+"start": 32.894936,
+"end": 32.972336
+},
+{
+"word": "IMF",
+"start": 32.972336,
+"end": 33.390293
+},
+{
+"word": "say",
+"start": 33.421253,
+"end": 33.637974
+},
+{
+"word": "works?",
+"start": 33.637974,
+"end": 34.086895
+},
+{
+"word": "Grow",
+"start": 34.690613,
+"end": 34.891853
+},
+{
+"word": "beyond",
+"start": 34.891853,
+"end": 35.20145
+},
+{
+"word": "oil.",
+"start": 35.20145,
+"end": 35.46461
+},
+{
+"word": "The",
+"start": 35.85161,
+"end": 35.97545
+},
+{
+"word": "UAE",
+"start": 35.97545,
+"end": 36.31601
+},
+{
+"word": "makes",
+"start": 36.31601,
+"end": 36.54821
+},
+{
+"word": "three",
+"start": 36.54821,
+"end": 36.764927
+},
+{
+"word": "quarters",
+"start": 36.764927,
+"end": 37.120968
+},
+{
+"word": "of",
+"start": 37.120968,
+"end": 37.182888
+},
+{
+"word": "its",
+"start": 37.182888,
+"end": 37.29125
+},
+{
+"word": "economy",
+"start": 37.29125,
+"end": 37.724686
+},
+{
+"word": "outside",
+"start": 37.724686,
+"end": 38.142647
+},
+{
+"word": "oil.",
+"start": 38.142647,
+"end": 38.529644
+},
+{
+"word": "Bring",
+"start": 39.195282,
+"end": 39.427483
+},
+{
+"word": "women",
+"start": 39.427483,
+"end": 39.675163
+},
+{
+"word": "in.",
+"start": 39.675163,
+"end": 39.876404
+},
+{
+"word": "Saudi",
+"start": 40.743282,
+"end": 41.1922
+},
+{
+"word": "women",
+"start": 41.1922,
+"end": 41.43988
+},
+{
+"word": "at",
+"start": 41.43988,
+"end": 41.56372
+},
+{
+"word": "work,",
+"start": 41.56372,
+"end": 41.919758
+},
+{
+"word": "from",
+"start": 41.981678,
+"end": 42.18292
+},
+{
+"word": "seventeen",
+"start": 42.18292,
+"end": 42.662796
+},
+{
+"word": "percent",
+"start": 42.662796,
+"end": 42.972397
+},
+{
+"word": "to",
+"start": 42.972397,
+"end": 43.065277
+},
+{
+"word": "thirty-six.",
+"start": 43.065277,
+"end": 43.715435
+},
+{
+"word": "Clean",
+"start": 44.644234,
+"end": 44.92287
+},
+{
+"word": "it",
+"start": 44.92287,
+"end": 45.01575
+},
+{
+"word": "up.",
+"start": 45.01575,
+"end": 45.24795
+},
+{
+"word": "The",
+"start": 46.11483,
+"end": 46.26963
+},
+{
+"word": "UAE",
+"start": 46.26963,
+"end": 46.687588
+},
+{
+"word": "now",
+"start": 46.687588,
+"end": 46.98171
+},
+{
+"word": "scores",
+"start": 46.98171,
+"end": 47.384186
+},
+{
+"word": "sixty-eight.",
+"start": 47.384186,
+"end": 48.003387
+},
+{
+"word": "Higher",
+"start": 48.699986,
+"end": 48.994102
+},
+{
+"word": "than",
+"start": 48.994102,
+"end": 49.117943
+},
+{
+"word": "Israel.",
+"start": 49.117943,
+"end": 49.535904
+},
+{
+"word": "Invest",
+"start": 50.263462,
+"end": 50.619503
+},
+{
+"word": "in",
+"start": 50.619503,
+"end": 50.71238
+},
+{
+"word": "research.",
+"start": 50.71238,
+"end": 51.28514
+},
+{
+"word": "Israel",
+"start": 51.90434,
+"end": 52.291336
+},
+{
+"word": "spends",
+"start": 52.291336,
+"end": 52.539017
+},
+{
+"word": "over",
+"start": 52.539017,
+"end": 52.724777
+},
+{
+"word": "six",
+"start": 52.724777,
+"end": 52.956978
+},
+{
+"word": "percent",
+"start": 52.956978,
+"end": 53.251095
+},
+{
+"word": "of",
+"start": 53.251095,
+"end": 53.313015
+},
+{
+"word": "its",
+"start": 53.313015,
+"end": 53.436855
+},
+{
+"word": "economy.",
+"start": 53.436855,
+"end": 53.885777
+},
+{
+"word": "The",
+"start": 54.396614,
+"end": 54.520454
+},
+{
+"word": "world's",
+"start": 54.520454,
+"end": 54.78361
+},
+{
+"word": "highest.",
+"start": 54.78361,
+"end": 55.232533
+},
+{
+"word": "Open",
+"start": 55.74337,
+"end": 56.02201
+},
+{
+"word": "trade.",
+"start": 56.02201,
+"end": 56.31613
+},
+{
+"word": "Since",
+"start": 57.260406,
+"end": 57.523567
+},
+{
+"word": "2020,",
+"start": 57.523567,
+"end": 58.220165
+},
+{
+"word": "the",
+"start": 58.576206,
+"end": 58.731007
+},
+{
+"word": "UAE",
+"start": 58.731007,
+"end": 59.350204
+},
+{
+"word": "and",
+"start": 59.412125,
+"end": 59.535965
+},
+{
+"word": "Israel",
+"start": 59.535965,
+"end": 59.861042
+},
+{
+"word": "trade",
+"start": 59.861042,
+"end": 60.170643
+},
+{
+"word": "over",
+"start": 60.170643,
+"end": 60.371883
+},
+{
+"word": "a",
+"start": 60.371883,
+"end": 60.433804
+},
+{
+"word": "billion",
+"start": 60.433804,
+"end": 60.77436
+},
+{
+"word": "dollars",
+"start": 60.77436,
+"end": 61.00656
+},
+{
+"word": "a",
+"start": 61.00656,
+"end": 61.09944
+},
+{
+"word": "year.",
+"start": 61.09944,
+"end": 61.39356
+},
+{
+"word": "End",
+"start": 61.64124,
+"end": 61.87344
+},
+{
+"word": "the",
+"start": 61.87344,
+"end": 61.93536
+},
+{
+"word": "wars.",
+"start": 61.93536,
+"end": 62.508118
+},
+{
+"word": "Syria's",
+"start": 63.251156,
+"end": 63.653637
+},
+{
+"word": "war",
+"start": 63.653637,
+"end": 64.102554
+},
+{
+"word": "cost",
+"start": 64.164474,
+"end": 64.458595
+},
+{
+"word": "two",
+"start": 64.458595,
+"end": 64.613396
+},
+{
+"word": "hundred",
+"start": 64.613396,
+"end": 64.8456
+},
+{
+"word": "and",
+"start": 64.8456,
+"end": 64.93848
+},
+{
+"word": "twenty-six",
+"start": 64.93848,
+"end": 65.32547
+},
+{
+"word": "billion",
+"start": 65.32547,
+"end": 65.65055
+},
+{
+"word": "dollars.",
+"start": 65.65055,
+"end": 66.11495
+},
+{
+"word": "It's",
+"start": 66.64127,
+"end": 66.79607
+},
+{
+"word": "not",
+"start": 66.79607,
+"end": 66.98183
+},
+{
+"word": "the",
+"start": 66.98183,
+"end": 67.07471
+},
+{
+"word": "people.",
+"start": 67.07471,
+"end": 67.43075
+},
+{
+"word": "It's",
+"start": 68.3905,
+"end": 68.59174
+},
+{
+"word": "the",
+"start": 68.59174,
+"end": 68.68462
+},
+{
+"word": "system.",
+"start": 68.68462,
+"end": 69.102585
+},
+{
+"word": "And",
+"start": 69.92303,
+"end": 70.06234
+},
+{
+"word": "some",
+"start": 70.06234,
+"end": 70.2481
+},
+{
+"word": "are",
+"start": 70.2481,
+"end": 70.34098
+},
+{
+"word": "already",
+"start": 70.34098,
+"end": 70.60414
+},
+{
+"word": "changing",
+"start": 70.60414,
+"end": 70.99114
+},
+{
+"word": "it.",
+"start": 70.99114,
+"end": 71.14594
+},
+{
+"word": "It",
+"start": 71.81158,
+"end": 71.9509
+},
+{
+"word": "all",
+"start": 71.9509,
+"end": 72.16762
+},
+{
+"word": "starts",
+"start": 72.16762,
+"end": 72.46174
+},
+{
+"word": "with",
+"start": 72.46174,
+"end": 72.55462
+},
+{
+"word": "these...",
+"start": 72.55462,
+"end": 73.00354
+}
+]
