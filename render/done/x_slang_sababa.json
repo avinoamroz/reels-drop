@@ -1,0 +1,8 @@
+{
+  "id": "x_slang_sababa",
+  "ok": true,
+  "rc": "0",
+  "secs": "21",
+  "run": "41436299860",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.8s] [sse] 34 words timed from Cartesia timestamps, k 0.9992\n[   2.9s] voice 17.28s, lines 0.30-1.45, 2.19-4.08, 4.98-6.58, 7.58-11.80, 12.90-14.59, 15.49-17.28\n[   2.9s] timeline: 2 scenes, T_END 17.80s, warnings []\n[   4.1s] [mix] input -23.8 LUFS, gain +11.3 dB, 5 SFX -> /home/claude/express_slang/x_slang_sababa/out/work/mix.wav\n[   4.2s] [render] frame 0/534  0s\n[   7.1s] [render] frame 150/534  3s\n[  10.2s] [render] frame 300/534  6s\n[  13.1s] [render] frame 450/534  9s\n\nvideo 1080x1920 30/1 17.8s aac 48000 Hz: -14.2 LUFS, TP -2.0 dBTP, 2.11 MB (ok)\nweb 540x960 0.94 MB (ok), -14.2 LUFS, TP -2.0\nhook: ok (frame-0 text 5, motion 3.32)\ndashes: ok (0 replaced)\nlayout issues: 1\nstages {'voice_align_s': 1.5, 'timeline_s': 0.0, 'mix_s': 1.2, 'render_s': 12.1, 'web_s': 3.4, 'qa_s': 1.6, 'total_s': 21.1}\n"
+}
