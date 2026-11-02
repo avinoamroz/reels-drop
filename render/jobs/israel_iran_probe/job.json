@@ -1,7 +1,0 @@
-{
- "id": "israel_iran_probe",
- "cmd": "python3 /home/claude/israel_iran/tools/asr_probe.py",
- "out": "/home/claude/israel_iran/israel_iran_probe.mp4",
- "sent": "2026-11-01T19:31:59Z",
- "nfiles": 48
-}

@@ -1,7 +1,0 @@
-{
- "id": "green_200",
- "cmd": "cd /home/claude/green_200/green_200 && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
- "out": "/home/claude/green_200/green_200/out/reel.mp4",
- "sent": "2026-11-01T20:29:19Z",
- "nfiles": 137
-}

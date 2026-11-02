@@ -1,7 +1,0 @@
-{
- "id": "women_freedom",
- "cmd": "python3 /home/claude/mena_variants/engine.py --reel /home/claude/mena_variants/women_freedom --out /home/claude/mena_variants/women_freedom/out.mp4",
- "out": "/home/claude/mena_variants/women_freedom/out.mp4",
- "sent": "2026-11-01T18:11:28Z",
- "nfiles": 30
-}

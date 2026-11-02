@@ -1,7 +1,0 @@
-{
- "id": "deep_time",
- "cmd": "python3 /home/claude/deep_time/engine.py",
- "out": "/home/claude/deep_time/out/deep_time.mp4",
- "sent": "2026-11-01T20:33:29Z",
- "nfiles": 34
-}

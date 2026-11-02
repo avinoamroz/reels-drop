@@ -1,7 +1,0 @@
-{
- "id": "x_a1_salary_raise",
- "cmd": "cd /home/claude/express_1101a/x_a1_salary_raise && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
- "out": "/home/claude/express_1101a/x_a1_salary_raise/out/reel.mp4",
- "sent": "2026-11-01T18:25:31Z",
- "nfiles": 135
-}

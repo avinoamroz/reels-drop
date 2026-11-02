@@ -1,7 +1,0 @@
-{
- "id": "bible_map",
- "cmd": "python3 /home/claude/bible_map/reel.py --out /home/claude/bible_map/bible_map.mp4 --jobs 4",
- "out": "/home/claude/bible_map/bible_map.mp4",
- "sent": "2026-11-01T20:40:02Z",
- "nfiles": 44
-}
