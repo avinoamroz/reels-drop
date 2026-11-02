@@ -1,0 +1,7 @@
+{
+ "id": "arab_econ_fix",
+ "cmd": "cd /home/claude/arab_econ_fix && python3 /home/claude/arab_econ_fix/engine.py --out /home/claude/arab_econ_fix/final.mp4",
+ "out": "/home/claude/arab_econ_fix/final.mp4",
+ "sent": "2026-11-02T04:23:56Z",
+ "nfiles": 22
+}
