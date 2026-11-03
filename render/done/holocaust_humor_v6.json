@@ -1,0 +1,8 @@
+{
+  "id": "holocaust_humor_v6",
+  "ok": true,
+  "rc": "0",
+  "secs": "31",
+  "run": "41587650146",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/1390  0s\n[render] frame 150/1390  3s\n[render] frame 300/1390  6s\n[render] frame 450/1390  9s\n[render] frame 600/1390  12s\n[render] frame 750/1390  15s\n[render] frame 900/1390  18s\n[render] frame 1050/1390  21s\n[render] frame 1200/1390  24s\n[render] frame 1350/1390  27s\nrendered 29.0 s 1390 frames\n"
+}
