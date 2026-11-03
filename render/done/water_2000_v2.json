@@ -1,0 +1,8 @@
+{
+  "id": "water_2000_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "117",
+  "run": "41587650146",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   5.6s] [sse] 171 words timed from Cartesia timestamps, k 0.9999\n[   5.7s] voice 62.02s, lines 0.30-4.05, 4.47-8.57, 8.99-13.01, 13.43-17.13, 17.55-20.46, 20.88-24.46, 25.01-30.31, 30.55-34.42, 34.84-39.62, 40.04-44.03, 44.45-47.83, 48.25-51.64, 52.06-56.58, 57.00-60.12, 60.55-62.02\n[   5.8s] timeline: 15 scenes, T_END 62.60s, warnings []\n[   9.9s] [mix] input -23.3 LUFS, gain +10.1 dB, 14 SFX -> /home/claude/fix_1103/water/out/work/mix.wav\n[  10.2s] [render] frame 0/1878  0s\n[  17.1s] [render] frame 150/1878  7s\n[  24.6s] [render] frame 300/1878  15s\n[  32.1s] [render] frame 450/1878  22s\n[  39.4s] [render] frame 600/1878  29s\n[  46.8s] [render] frame 750/1878  37s\n[  54.0s] [render] frame 900/1878  44s\n[  61.4s] [render] frame 1050/1878  52s\n[  68.4s] [render] frame 1200/1878  58s\n[  75.6s] [render] frame 1350/1878  66s\n[  83.3s] [render] frame 1500/1878  73s\n[  90.7s] [render] frame 1650/1878  81s\n[  98.1s] [render] frame 1800/1878  88s\n\nvideo 1080x1920 30/1 62.6s aac 48000 Hz: -14.0 LUFS, TP -2.0 dBTP, 8.42 MB (ok)\nweb 540x960 3.73 MB (ok), -14.0 LUFS, TP -2.0\nhook: ok (frame-0 text 1, motion 1.79)\ndashes: ok (0 replaced)\nlayout issues: 3\nstages {'voice_align_s': 3.8, 'timeline_s': 0.1, 'mix_s': 4.1, 'render_s': 92.9, 'web_s': 9.3, 'qa_s': 4.1, 'total_s': 116.2}\n"
+}
