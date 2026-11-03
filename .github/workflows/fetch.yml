@@ -1,7 +1,7 @@
 name: fetch-heygen
 on:
   push:
-    paths: ['heygen/fetch.txt', 'heygen/drive.txt', 'voice/drive.txt', '.github/workflows/fetch.yml']
+    paths: ['tiktok/rows.txt', 'tiktok/urls.txt', 'heygen/fetch.txt', 'heygen/drive.txt', 'voice/drive.txt', '.github/workflows/fetch.yml']
   workflow_dispatch:
 permissions:
   contents: write
@@ -21,6 +21,31 @@ jobs:
             curl -sSL --fail -o "heygen/$name" "https://resource2.heygen.ai/video/$path/1080x1920_nocap.mp4"
           done < heygen/fetch.txt
           ls -la heygen
+      - name: TikTok batches (tiktok/rows.txt "batch rows_file_id")
+        continue-on-error: true
+        run: |
+          mkdir -p tiktok; touch tiktok/rows.txt
+          while read -r batch fid; do
+            [ -z "$batch" ] && continue
+            [ -f "tiktok/rows_$batch.txt" ] && continue
+            curl -sSL --fail -o "tiktok/rows_$batch.txt" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t" || continue
+            while read -r mid vid cap; do
+              [ -z "$mid" ] && continue
+              [ -f "tiktok/tt_$mid.mp4" ] || curl -sSL --fail -o "tiktok/tt_$mid.mp4" "https://drive.usercontent.google.com/download?id=$vid&export=download&confirm=t" || echo "fail $mid"
+              python3 -c "import sys,urllib.parse;open('tiktok/tt_'+sys.argv[1]+'.txt','w').write(urllib.parse.unquote(sys.argv[2]))" "$mid" "$cap"
+            done < "tiktok/rows_$batch.txt"
+          done < tiktok/rows.txt
+          ls -la tiktok | tail -5
+      - name: Download URL list (tiktok/urls.txt "name url")
+        continue-on-error: true
+        run: |
+          mkdir -p tiktok; touch tiktok/urls.txt
+          while read -r name url; do
+            [ -z "$name" ] && continue
+            [ -f "tiktok/$name" ] && continue
+            curl -sSL --fail -o "tiktok/$name" "$url" || echo "fail $name"
+          done < tiktok/urls.txt
+          ls -la tiktok
       - name: Download public Drive files (name file_id)
         run: |
           touch heygen/drive.txt
@@ -59,5 +84,6 @@ jobs:
           git config user.name "reels-bot"
           git config user.email "reels-bot@users.noreply.github.com"
           git add -A heygen || true
+          [ -d tiktok ] && { git add -A tiktok || true; }
           [ -d voice ] && { git add -A voice || true; }
           git diff --cached --quiet || (git commit -m "Fetch HeyGen clips" && git pull --rebase && git push)
