@@ -1,7 +1,0 @@
-{
- "id": "un_emergency",
- "cmd": "cd /home/claude/daily_1102/un_emergency && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
- "out": "/home/claude/daily_1102/un_emergency/out/reel.mp4",
- "sent": "2026-11-02T07:59:19Z",
- "nfiles": 136
-}

@@ -1,7 +1,0 @@
-{
- "id": "textbooks_hate",
- "cmd": "python3 /home/claude/textbooks_hate/render.py",
- "out": "/home/claude/textbooks_hate/textbooks_hate.mp4",
- "sent": "2026-11-02T04:28:45Z",
- "nfiles": 39
-}

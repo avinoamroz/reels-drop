@@ -1,7 +1,0 @@
-{
- "id": "who_rules_lebsyr",
- "cmd": "cd /home/claude/who_rules_lebsyr && python3 /home/claude/who_rules_lebsyr/engine.py --out /home/claude/who_rules_lebsyr/final.mp4",
- "out": "/home/claude/who_rules_lebsyr/final.mp4",
- "sent": "2026-11-02T04:57:54Z",
- "nfiles": 20
-}

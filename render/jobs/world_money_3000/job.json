@@ -1,7 +1,0 @@
-{
- "id": "world_money_3000",
- "cmd": "cd /home/claude/world_money_3000 && python3 /home/claude/world_money_3000/engine.py --out /home/claude/world_money_3000/final.mp4",
- "out": "/home/claude/world_money_3000/final.mp4",
- "sent": "2026-11-02T03:50:25Z",
- "nfiles": 24
-}

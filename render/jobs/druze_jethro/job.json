@@ -1,7 +1,0 @@
-{
- "id": "druze_jethro",
- "cmd": "cd /home/claude/druze_1102/druze_jethro && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
- "out": "/home/claude/druze_1102/druze_jethro/out/reel.mp4",
- "sent": "2026-11-02T11:30:11Z",
- "nfiles": 145
-}
