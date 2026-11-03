@@ -1,0 +1,8 @@
+{
+  "id": "colonizer_speed_v5a",
+  "ok": true,
+  "rc": "0",
+  "secs": "408",
+  "run": "41580030644",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nframe 0/1886\nframe 150/1886\nframe 300/1886\nframe 450/1886\nframe 600/1886\nframe 750/1886\nframe 900/1886\nframe 1050/1886\nframe 1200/1886\nframe 1350/1886\nframe 1500/1886\nframe 1650/1886\nframe 1800/1886\nvideo /home/claude/colonizer_speed_v5/work/a/silent.mp4 62.876\nfinal /home/claude/colonizer_speed_v5/colonizer_speed_v5a.mp4\n"
+}
