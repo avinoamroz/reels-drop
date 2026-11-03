@@ -1,0 +1,7 @@
+{
+ "id": "x_slang_keta_v2",
+ "cmd": "cd /home/claude/fix_1103/slang/x_slang_keta && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/fix_1103/slang/x_slang_keta/out/reel.mp4",
+ "sent": "2026-11-03T06:04:30Z",
+ "nfiles": 134
+}
