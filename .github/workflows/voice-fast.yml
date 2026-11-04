@@ -15,6 +15,7 @@ jobs:
           grep -v '^#' voice/fast.txt | while read -r name fid; do
             [ -z "$name" ] && continue
             base="${name%.*}"
+            case "$name" in *.txt) ;; *) [ -f "voice/$name" ] || curl -sSL --fail -o "voice/$name" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t"; continue ;; esac
             [ -f "voice/$base.wav" ] && continue
             curl -sSL --fail -o "/tmp/$name" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t" || { echo "download failed" > "voice/$base.err"; continue; }
             python3 tools/sse_parse.py "/tmp/$name" "voice/$base" > "voice/$base.log" 2>&1 || mv "voice/$base.log" "voice/$base.err"
