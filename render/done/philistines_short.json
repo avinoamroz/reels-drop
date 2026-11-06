@@ -1,0 +1,8 @@
+{
+  "id": "philistines_short",
+  "ok": true,
+  "rc": "0",
+  "secs": "59",
+  "run": "42287195603",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   4.3s] [sse] 65 words timed from Cartesia timestamps, k 0.9998\n[   4.3s] voice 25.52s, lines 0.30-2.51, 2.95-4.88, 5.10-6.96, 7.58-10.48, 11.10-13.02, 13.56-15.79, 16.27-20.41, 20.92-25.51\n[   4.4s] timeline: 18 scenes, T_END 26.73s, warnings []\n[   6.5s] [mix] input -22.6 LUFS, gain +9.2 dB, 17 SFX -> /home/claude/philistines_short/reel/out/work/mix.wav\n[   6.9s] [render] frame 0/802  0s\n[  15.1s] [render] frame 150/802  9s\n[  22.7s] [render] frame 300/802  16s\n[  30.7s] [render] frame 450/802  24s\n[  38.0s] [render] frame 600/802  32s\n[  46.0s] [render] frame 750/802  39s\n\nvideo 1080x1920 30/1 26.73s aac 48000 Hz: -14.0 LUFS, TP -2.1 dBTP, 7.87 MB (ok)\nweb 540x960 2.87 MB (ok), -14.0 LUFS, TP -2.1\nhook: ok (frame-0 text 1, motion 4.39)\ndashes: ok (0 replaced)\nlayout issues: 5\nstages {'voice_align_s': 2.4, 'timeline_s': 0.1, 'mix_s': 2.1, 'render_s': 43.0, 'web_s': 6.2, 'qa_s': 3.1, 'total_s': 58.8}\n"
+}
