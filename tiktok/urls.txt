@@ -1,0 +1,4 @@
+homicide_owid.csv https://ourworldindata.org/grapher/homicide-rate-unodc.csv?v=1&csvType=full&useColumnShortNames=false
+homicide_owid_meta.json https://ourworldindata.org/grapher/homicide-rate-unodc.metadata.json
+homicide_wb.json https://api.worldbank.org/v2/country/ISR;JOR;EGY;LBN;SYR;IRQ;SAU;TUR;IRN;ARE;KWT;USA;DEU;FRA;YEM/indicator/VC.IHR.PSRC.P5?date=2000:2022&format=json&per_page=1000
+homicide_taub.html https://www.taubcenter.org.il/en/pr/homicide-update-2-2025/
