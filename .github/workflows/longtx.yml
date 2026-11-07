@@ -32,7 +32,7 @@ jobs:
         if: matrix.n != 'none'
         with: {python-version: '3.11'}
       - if: matrix.n != 'none'
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q faster-whisper==1.1.1
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q faster-whisper==1.1.1 requests
       - if: matrix.n != 'none'
         run: python tools/longtx.py ${{ matrix.n }} ${{ matrix.f }} || echo "fail" > long/${{ matrix.n }}.err
       - if: matrix.n != 'none'
