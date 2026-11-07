@@ -1,0 +1,44 @@
+name: longtx
+on:
+  push:
+    paths: ['long/list.txt', 'tools/longtx.py', '.github/workflows/longtx.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      m: ${{ steps.m.outputs.m }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          python3 -c "
+          import json,os
+          rows=[l.split() for l in open('long/list.txt') if l.strip() and not l.startswith('#')]
+          rows=[r for r in rows if not os.path.exists(f'long/{r[0]}.json')]
+          print('m='+json.dumps({'include':[{'n':r[0],'f':r[1]} for r in rows] or [{'n':'none','f':'none'}]}))" >> $GITHUB_OUTPUT
+  tx:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.plan.outputs.m) }}
+    steps:
+      - uses: actions/checkout@v4
+        if: matrix.n != 'none'
+      - uses: actions/setup-python@v5
+        if: matrix.n != 'none'
+        with: {python-version: '3.11'}
+      - if: matrix.n != 'none'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q faster-whisper==1.1.1
+      - if: matrix.n != 'none'
+        run: python tools/longtx.py ${{ matrix.n }} ${{ matrix.f }} || echo "fail" > long/${{ matrix.n }}.err
+      - if: matrix.n != 'none'
+        run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add long
+          git diff --cached --quiet && exit 0
+          git commit -m "longtx ${{ matrix.n }}"
+          for i in 1 2 3 4 5 6; do git pull --rebase -q && git push -q && exit 0; sleep $((RANDOM % 20 + 5)); done
