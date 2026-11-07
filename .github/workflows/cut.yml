@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            cut
+            .github
+          sparse-checkout-cone-mode: true
+          filter: blob:none
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Cut segments
         run: |
