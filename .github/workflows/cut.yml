@@ -15,8 +15,8 @@ jobs:
           grep -v '^#' cut/list.txt | while read -r n fid s e; do
             [ -z "$n" ] && continue
             [ -f "cut/$n.mp4" ] && continue
-            [ -f "/tmp/$fid" ] || curl -sSL --fail -o "/tmp/$fid" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t" || { echo fail > cut/$n.err; continue; }
-            ffmpeg -v error -y -ss "$s" -to "$e" -i "/tmp/$fid" -vf "scale='if(gt(iw,ih),1280,-2)':'if(gt(iw,ih),-2,1280)'" -c:v libx264 -crf 22 -preset veryfast -c:a aac -b:a 160k "cut/$n.mp4" || echo fail > cut/$n.err
+            [ -f "/tmp/$fid" ] || curl -sSL --fail </dev/null -o "/tmp/$fid" "https://drive.usercontent.google.com/download?id=$fid&export=download&confirm=t" || { echo fail > cut/$n.err; continue; }
+            ffmpeg -nostdin -v error -y -ss "$s" -to "$e" -i "/tmp/$fid" -vf "scale='if(gt(iw,ih),1280,-2)':'if(gt(iw,ih),-2,1280)'" -c:v libx264 -crf 22 -preset veryfast -c:a aac -b:a 160k "cut/$n.mp4" || echo fail > cut/$n.err
           done
           ls -la cut
       - run: |
