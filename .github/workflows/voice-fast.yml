@@ -9,6 +9,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            voice/fast.txt
+            tools
+          sparse-checkout-cone-mode: false
+          filter: blob:none
       - name: Voice from Drive (voice/fast.txt "name.txt file_id", TTS1 sse)
         run: |
           mkdir -p voice; touch voice/fast.txt
