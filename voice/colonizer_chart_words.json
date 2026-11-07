@@ -1,0 +1,847 @@
+[
+{
+"word": "Is",
+"start": 0.01547997,
+"end": 0.18575963
+},
+{
+"word": "your",
+"start": 0.18575963,
+"end": 0.34055933
+},
+{
+"word": "country",
+"start": 0.34055933,
+"end": 0.72755855
+},
+{
+"word": "a",
+"start": 0.72755855,
+"end": 0.7894785
+},
+{
+"word": "colonizer?",
+"start": 0.7894785,
+"end": 1.5634769
+},
+{
+"word": "Three",
+"start": 1.9349962,
+"end": 2.1981556
+},
+{
+"word": "questions.",
+"start": 2.1981556,
+"end": 2.8947544
+},
+{
+"word": "Britain",
+"start": 3.2507937,
+"end": 3.575873
+},
+{
+"word": "first.",
+"start": 3.575873,
+"end": 4.0557523
+},
+{
+"word": "Came",
+"start": 4.628511,
+"end": 4.9226303
+},
+{
+"word": "from",
+"start": 4.9226303,
+"end": 5.0774302
+},
+{
+"word": "far",
+"start": 5.0774302,
+"end": 5.26319
+},
+{
+"word": "away?",
+"start": 5.26319,
+"end": 5.619229
+},
+{
+"word": "Yes.",
+"start": 5.9133487,
+"end": 6.4551473
+},
+{
+"word": "One",
+"start": 6.9659863,
+"end": 7.352986
+},
+{
+"word": "small",
+"start": 7.352986,
+"end": 7.7709446
+},
+{
+"word": "island",
+"start": 7.7709446,
+"end": 8.080544
+},
+{
+"word": "ruled",
+"start": 8.080544,
+"end": 8.281784
+},
+{
+"word": "a",
+"start": 8.281784,
+"end": 8.374663
+},
+{
+"word": "quarter",
+"start": 8.374663,
+"end": 8.730703
+},
+{
+"word": "of",
+"start": 8.730703,
+"end": 8.823583
+},
+{
+"word": "the",
+"start": 8.823583,
+"end": 8.916463
+},
+{
+"word": "world's",
+"start": 8.916463,
+"end": 9.195102
+},
+{
+"word": "land.",
+"start": 9.195102,
+"end": 9.520182
+},
+{
+"word": "Native",
+"start": 9.845261,
+"end": 10.2013
+},
+{
+"word": "there?",
+"start": 10.2013,
+"end": 10.54186
+},
+{
+"word": "No.",
+"start": 10.990779,
+"end": 11.346818
+},
+{
+"word": "Sent",
+"start": 11.826697,
+"end": 12.2136965
+},
+{
+"word": "by",
+"start": 12.2136965,
+"end": 12.399456
+},
+{
+"word": "a",
+"start": 12.399456,
+"end": 12.461375
+},
+{
+"word": "mother",
+"start": 12.461375,
+"end": 12.693575
+},
+{
+"word": "country?",
+"start": 12.693575,
+"end": 13.235374
+},
+{
+"word": "Yes.",
+"start": 13.483053,
+"end": 14.071293
+},
+{
+"word": "London.",
+"start": 14.442812,
+"end": 14.891731
+},
+{
+"word": "Colonizer.",
+"start": 15.43353,
+"end": 16.083689
+},
+{
+"word": "Next!",
+"start": 16.331367,
+"end": 16.842207
+},
+{
+"word": "Spain",
+"start": 17.384007,
+"end": 17.832926
+},
+{
+"word": "and",
+"start": 17.832926,
+"end": 17.910324
+},
+{
+"word": "Portugal",
+"start": 17.910324,
+"end": 18.374723
+},
+{
+"word": "split",
+"start": 18.374723,
+"end": 18.637884
+},
+{
+"word": "the",
+"start": 18.637884,
+"end": 18.730762
+},
+{
+"word": "Americas",
+"start": 18.730762,
+"end": 19.148722
+},
+{
+"word": "in",
+"start": 19.148722,
+"end": 19.272562
+},
+{
+"word": "fourteen",
+"start": 19.272562,
+"end": 19.659561
+},
+{
+"word": "ninety-four.",
+"start": 19.659561,
+"end": 20.23232
+},
+{
+"word": "Yes,",
+"start": 20.26328,
+"end": 20.805079
+},
+{
+"word": "no,",
+"start": 20.913439,
+"end": 21.284958
+},
+{
+"word": "yes.",
+"start": 21.315918,
+"end": 21.842237
+},
+{
+"word": "Colonizer.",
+"start": 22.182796,
+"end": 22.801996
+},
+{
+"word": "France",
+"start": 23.281874,
+"end": 23.715313
+},
+{
+"word": "ruled",
+"start": 23.715313,
+"end": 23.947514
+},
+{
+"word": "Algeria",
+"start": 23.947514,
+"end": 24.396433
+},
+{
+"word": "for",
+"start": 24.396433,
+"end": 24.551231
+},
+{
+"word": "a",
+"start": 24.551231,
+"end": 24.613152
+},
+{
+"word": "hundred",
+"start": 24.613152,
+"end": 24.96919
+},
+{
+"word": "thirty-two",
+"start": 24.96919,
+"end": 25.32523
+},
+{
+"word": "years.",
+"start": 25.32523,
+"end": 25.805109
+},
+{
+"word": "Same",
+"start": 26.02183,
+"end": 26.377869
+},
+{
+"word": "path.",
+"start": 26.377869,
+"end": 26.733908
+},
+{
+"word": "America,",
+"start": 27.275707,
+"end": 27.972305
+},
+{
+"word": "Canada,",
+"start": 28.065186,
+"end": 28.591505
+},
+{
+"word": "Australia?",
+"start": 28.715343,
+"end": 29.226183
+},
+{
+"word": "Built",
+"start": 29.706062,
+"end": 29.953741
+},
+{
+"word": "by",
+"start": 29.953741,
+"end": 30.062101
+},
+{
+"word": "settlers",
+"start": 30.062101,
+"end": 30.57294
+},
+{
+"word": "from",
+"start": 30.57294,
+"end": 30.78966
+},
+{
+"word": "Europe.",
+"start": 30.78966,
+"end": 31.176659
+},
+{
+"word": "Settler",
+"start": 31.842299,
+"end": 32.229298
+},
+{
+"word": "colonies.",
+"start": 32.229298,
+"end": 32.863976
+},
+{
+"word": "The",
+"start": 33.792774,
+"end": 33.916615
+},
+{
+"word": "Ottomans",
+"start": 33.916615,
+"end": 34.30361
+},
+{
+"word": "ruled",
+"start": 34.30361,
+"end": 34.566772
+},
+{
+"word": "this",
+"start": 34.566772,
+"end": 34.721573
+},
+{
+"word": "land",
+"start": 34.721573,
+"end": 35.17049
+},
+{
+"word": "four",
+"start": 35.37173,
+"end": 35.61941
+},
+{
+"word": "hundred",
+"start": 35.61941,
+"end": 35.88257
+},
+{
+"word": "years,",
+"start": 35.88257,
+"end": 36.25409
+},
+{
+"word": "from",
+"start": 36.30053,
+"end": 36.641087
+},
+{
+"word": "Istanbul.",
+"start": 36.672047,
+"end": 37.21385
+},
+{
+"word": "Empire.",
+"start": 38.049767,
+"end": 38.529644
+},
+{
+"word": "The",
+"start": 39.210762,
+"end": 39.365562
+},
+{
+"word": "Arab",
+"start": 39.365562,
+"end": 39.582283
+},
+{
+"word": "conquest:",
+"start": 39.582283,
+"end": 40.15504
+},
+{
+"word": "Arabia",
+"start": 40.712322,
+"end": 41.22316
+},
+{
+"word": "to",
+"start": 41.22316,
+"end": 41.347
+},
+{
+"word": "the",
+"start": 41.347,
+"end": 41.47084
+},
+{
+"word": "Atlantic",
+"start": 41.47084,
+"end": 41.919758
+},
+{
+"word": "in",
+"start": 41.950718,
+"end": 42.15196
+},
+{
+"word": "under",
+"start": 42.18292,
+"end": 42.461555
+},
+{
+"word": "eighty",
+"start": 42.492516,
+"end": 42.755676
+},
+{
+"word": "years.",
+"start": 42.755676,
+"end": 43.065277
+},
+{
+"word": "Empire",
+"start": 43.576115,
+"end": 43.994076
+},
+{
+"word": "too.",
+"start": 43.994076,
+"end": 44.288193
+},
+{
+"word": "Now,",
+"start": 44.737114,
+"end": 45.15507
+},
+{
+"word": "Israel.",
+"start": 45.24795,
+"end": 45.75879
+},
+{
+"word": "Came",
+"start": 46.23867,
+"end": 46.47087
+},
+{
+"word": "from",
+"start": 46.47087,
+"end": 46.625668
+},
+{
+"word": "far",
+"start": 46.625668,
+"end": 46.811428
+},
+{
+"word": "away?",
+"start": 46.811428,
+"end": 47.10555
+},
+{
+"word": "Yes.",
+"start": 47.895027,
+"end": 48.343945
+},
+{
+"word": "From",
+"start": 48.901226,
+"end": 49.086983
+},
+{
+"word": "Iraq,",
+"start": 49.086983,
+"end": 49.628784
+},
+{
+"word": "Yemen,",
+"start": 49.8455,
+"end": 50.340862
+},
+{
+"word": "Morocco,",
+"start": 50.402782,
+"end": 51.09938
+},
+{
+"word": "Poland.",
+"start": 51.19226,
+"end": 51.7031
+},
+{
+"word": "Native",
+"start": 52.05914,
+"end": 52.353256
+},
+{
+"word": "to",
+"start": 52.353256,
+"end": 52.477097
+},
+{
+"word": "the",
+"start": 52.477097,
+"end": 52.539017
+},
+{
+"word": "land?",
+"start": 52.539017,
+"end": 52.956978
+},
+{
+"word": "Yes.",
+"start": 53.529736,
+"end": 54.009613
+},
+{
+"word": "The",
+"start": 54.582375,
+"end": 54.675255
+},
+{
+"word": "name",
+"start": 54.675255,
+"end": 54.96937
+},
+{
+"word": "Israel,",
+"start": 54.96937,
+"end": 55.480213
+},
+{
+"word": "carved",
+"start": 55.71241,
+"end": 56.08393
+},
+{
+"word": "in",
+"start": 56.08393,
+"end": 56.19229
+},
+{
+"word": "stone",
+"start": 56.19229,
+"end": 56.53285
+},
+{
+"word": "over",
+"start": 56.53285,
+"end": 56.76505
+},
+{
+"word": "three",
+"start": 56.76505,
+"end": 56.98177
+},
+{
+"word": "thousand",
+"start": 56.98177,
+"end": 57.275887
+},
+{
+"word": "years",
+"start": 57.275887,
+"end": 57.461647
+},
+{
+"word": "ago.",
+"start": 57.461647,
+"end": 57.786728
+},
+{
+"word": "And",
+"start": 58.746487,
+"end": 58.901283
+},
+{
+"word": "Jew",
+"start": 58.901283,
+"end": 59.071564
+},
+{
+"word": "comes",
+"start": 59.071564,
+"end": 59.319244
+},
+{
+"word": "from",
+"start": 59.319244,
+"end": 59.474045
+},
+{
+"word": "Judah.",
+"start": 59.474045,
+"end": 59.79912
+},
+{
+"word": "Sent",
+"start": 60.248043,
+"end": 60.57312
+},
+{
+"word": "by",
+"start": 60.57312,
+"end": 60.72792
+},
+{
+"word": "a",
+"start": 60.72792,
+"end": 60.78984
+},
+{
+"word": "mother",
+"start": 60.78984,
+"end": 61.053
+},
+{
+"word": "country?",
+"start": 61.053,
+"end": 61.62576
+},
+{
+"word": "No.",
+"start": 62.04372,
+"end": 62.446198
+},
+{
+"word": "Many",
+"start": 62.92608,
+"end": 63.282116
+},
+{
+"word": "came",
+"start": 63.282116,
+"end": 63.576237
+},
+{
+"word": "as",
+"start": 63.576237,
+"end": 63.700077
+},
+{
+"word": "refugees.",
+"start": 63.700077,
+"end": 64.427635
+},
+{
+"word": "Not",
+"start": 64.721756,
+"end": 64.923
+},
+{
+"word": "a",
+"start": 64.923,
+"end": 64.98492
+},
+{
+"word": "colonizer.",
+"start": 64.98492,
+"end": 65.61959
+},
+{
+"word": "A",
+"start": 66.09947,
+"end": 66.16139
+},
+{
+"word": "people",
+"start": 66.16139,
+"end": 66.48647
+},
+{
+"word": "coming",
+"start": 66.48647,
+"end": 66.734146
+},
+{
+"word": "home.",
+"start": 66.734146,
+"end": 66.99731
+},
+{
+"word": "Not",
+"start": 67.12115,
+"end": 67.33787
+},
+{
+"word": "perfect",
+"start": 67.33787,
+"end": 67.69391
+},
+{
+"word": "either.",
+"start": 67.69391,
+"end": 68.01899
+},
+{
+"word": "Critics",
+"start": 68.885864,
+"end": 69.257385
+},
+{
+"word": "call",
+"start": 69.257385,
+"end": 69.520546
+},
+{
+"word": "West",
+"start": 69.520546,
+"end": 69.75275
+},
+{
+"word": "Bank",
+"start": 69.75275,
+"end": 69.96946
+},
+{
+"word": "settlements",
+"start": 69.96946,
+"end": 70.41838
+},
+{
+"word": "colonial.",
+"start": 70.41838,
+"end": 71.0221
+},
+{
+"word": "The",
+"start": 71.2543,
+"end": 71.4091
+},
+{
+"word": "UN's",
+"start": 71.4091,
+"end": 71.73418
+},
+{
+"word": "top",
+"start": 71.73418,
+"end": 71.98186
+},
+{
+"word": "court",
+"start": 71.98186,
+"end": 72.24502
+},
+{
+"word": "says",
+"start": 72.24502,
+"end": 72.43078
+},
+{
+"word": "illegal.",
+"start": 72.43078,
+"end": 72.8797
+},
+{
+"word": "Israel",
+"start": 73.32861,
+"end": 73.715614
+},
+{
+"word": "disputes",
+"start": 73.715614,
+"end": 74.133575
+},
+{
+"word": "it.",
+"start": 74.133575,
+"end": 74.288376
+},
+{
+"word": "So",
+"start": 74.83018,
+"end": 75.01593
+},
+{
+"word": "before",
+"start": 75.01593,
+"end": 75.37197
+},
+{
+"word": "you",
+"start": 75.37197,
+"end": 75.49581
+},
+{
+"word": "point",
+"start": 75.49581,
+"end": 75.72801
+},
+{
+"word": "at",
+"start": 75.72801,
+"end": 75.82089
+},
+{
+"word": "Israel,",
+"start": 75.82089,
+"end": 76.33173
+},
+{
+"word": "ask",
+"start": 76.517494,
+"end": 76.84257
+},
+{
+"word": "yourself...",
+"start": 76.84257,
+"end": 77.44629
+}
+]
