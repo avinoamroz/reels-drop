@@ -14,6 +14,7 @@ jobs:
       - name: Cut segments to release "cuts"
         run: |
           curl -sSL "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/cut/list.txt" -o list.txt
+          gh release view cuts -R ${{ github.repository }} >/dev/null 2>&1 || gh release create cuts --title cuts --notes cuts -R ${{ github.repository }}
           have=$(gh release view cuts -R ${{ github.repository }} --json assets --jq '.assets[].name' || true)
           mkdir -p out
           grep -v '^#' list.txt | while read -r n fid s e; do
