@@ -1,0 +1,762 @@
+[
+{
+"word": "Does",
+"start": 0.12383976,
+"end": 0.3095994
+},
+{
+"word": "freedom",
+"start": 0.3095994,
+"end": 0.6037188
+},
+{
+"word": "make",
+"start": 0.6037188,
+"end": 0.8204384
+},
+{
+"word": "you",
+"start": 0.8204384,
+"end": 0.9442782
+},
+{
+"word": "rich?",
+"start": 0.9442782,
+"end": 1.4860771
+},
+{
+"word": "Here",
+"start": 1.6873167,
+"end": 1.9040363
+},
+{
+"word": "are",
+"start": 1.9040363,
+"end": 1.996916
+},
+{
+"word": "one",
+"start": 1.996916,
+"end": 2.1981556
+},
+{
+"word": "hundred",
+"start": 2.1981556,
+"end": 2.4767952
+},
+{
+"word": "eighty-six",
+"start": 2.4922752,
+"end": 3.065034
+},
+{
+"word": "countries.",
+"start": 3.065034,
+"end": 3.668753
+},
+{
+"word": "Higher",
+"start": 3.9319124,
+"end": 4.3034315
+},
+{
+"word": "is",
+"start": 4.3034315,
+"end": 4.4737115
+},
+{
+"word": "richer.",
+"start": 4.4737115,
+"end": 4.9226303
+},
+{
+"word": "Further",
+"start": 5.29415,
+"end": 5.650189
+},
+{
+"word": "right",
+"start": 5.650189,
+"end": 5.8823886
+},
+{
+"word": "is",
+"start": 5.8823886,
+"end": 6.068148
+},
+{
+"word": "freer.",
+"start": 6.068148,
+"end": 6.5170674
+},
+{
+"word": "The",
+"start": 6.826667,
+"end": 6.9350266
+},
+{
+"word": "trend",
+"start": 6.9350266,
+"end": 7.213666
+},
+{
+"word": "goes",
+"start": 7.213666,
+"end": 7.4149055
+},
+{
+"word": "up.",
+"start": 7.4149055,
+"end": 7.6625853
+},
+{
+"word": "Correlation:",
+"start": 7.9257445,
+"end": 8.684263
+},
+{
+"word": "zero",
+"start": 9.009342,
+"end": 9.303462
+},
+{
+"word": "point",
+"start": 9.303462,
+"end": 9.520182
+},
+{
+"word": "four",
+"start": 9.520182,
+"end": 9.78334
+},
+{
+"word": "eight.",
+"start": 9.78334,
+"end": 10.1548605
+},
+{
+"word": "Israel",
+"start": 10.54186,
+"end": 10.866939
+},
+{
+"word": "scores",
+"start": 10.866939,
+"end": 11.176538
+},
+{
+"word": "seventy-three",
+"start": 11.176538,
+"end": 11.764777
+},
+{
+"word": "out",
+"start": 11.764777,
+"end": 11.888617
+},
+{
+"word": "of",
+"start": 11.888617,
+"end": 11.981497
+},
+{
+"word": "a",
+"start": 11.981497,
+"end": 12.043416
+},
+{
+"word": "hundred.",
+"start": 12.043416,
+"end": 12.492335
+},
+{
+"word": "Top",
+"start": 12.724535,
+"end": 13.003175
+},
+{
+"word": "of",
+"start": 13.003175,
+"end": 13.065095
+},
+{
+"word": "the",
+"start": 13.065095,
+"end": 13.142494
+},
+{
+"word": "region.",
+"start": 13.142494,
+"end": 13.606894
+},
+{
+"word": "Jordan",
+"start": 13.839093,
+"end": 14.257052
+},
+{
+"word": "thirty-four.",
+"start": 14.257052,
+"end": 14.92269
+},
+{
+"word": "Egypt",
+"start": 15.092971,
+"end": 15.46449
+},
+{
+"word": "eighteen.",
+"start": 15.46449,
+"end": 15.944369
+},
+{
+"word": "Iran",
+"start": 16.393288,
+"end": 16.749327
+},
+{
+"word": "just",
+"start": 16.749327,
+"end": 16.966047
+},
+{
+"word": "ten.",
+"start": 16.966047,
+"end": 17.322086
+},
+{
+"word": "But",
+"start": 17.476887,
+"end": 17.647165
+},
+{
+"word": "up",
+"start": 17.647165,
+"end": 17.771006
+},
+{
+"word": "here?",
+"start": 17.771006,
+"end": 18.127045
+},
+{
+"word": "Saudi",
+"start": 18.545004,
+"end": 18.932003
+},
+{
+"word": "Arabia",
+"start": 18.932003,
+"end": 19.365442
+},
+{
+"word": "and",
+"start": 19.365442,
+"end": 19.504763
+},
+{
+"word": "the",
+"start": 19.504763,
+"end": 19.597641
+},
+{
+"word": "UAE.",
+"start": 19.597641,
+"end": 20.10848
+},
+{
+"word": "Rich,",
+"start": 20.61932,
+"end": 21.16112
+},
+{
+"word": "not",
+"start": 21.486198,
+"end": 21.764837
+},
+{
+"word": "free.",
+"start": 21.764837,
+"end": 22.120876
+},
+{
+"word": "That's",
+"start": 22.322117,
+"end": 22.569796
+},
+{
+"word": "oil.",
+"start": 22.569796,
+"end": 22.956795
+},
+{
+"word": "Now,",
+"start": 23.467634,
+"end": 23.854633
+},
+{
+"word": "years",
+"start": 24.303553,
+"end": 24.644112
+},
+{
+"word": "in",
+"start": 24.644112,
+"end": 24.721512
+},
+{
+"word": "school.",
+"start": 24.721512,
+"end": 25.154951
+},
+{
+"word": "Israelis",
+"start": 25.54195,
+"end": 26.08375
+},
+{
+"word": "average",
+"start": 26.08375,
+"end": 26.408829
+},
+{
+"word": "twelve.",
+"start": 26.408829,
+"end": 26.888708
+},
+{
+"word": "Jordan",
+"start": 27.368587,
+"end": 27.832985
+},
+{
+"word": "eleven.",
+"start": 27.832985,
+"end": 28.374784
+},
+{
+"word": "Egypt",
+"start": 28.963024,
+"end": 29.334543
+},
+{
+"word": "eight.",
+"start": 29.334543,
+"end": 29.597702
+},
+{
+"word": "Correlation:",
+"start": 30.046621,
+"end": 30.74322
+},
+{
+"word": "zero",
+"start": 31.254059,
+"end": 31.579138
+},
+{
+"word": "point",
+"start": 31.579138,
+"end": 31.873259
+},
+{
+"word": "eight",
+"start": 31.873259,
+"end": 32.151897
+},
+{
+"word": "three.",
+"start": 32.151897,
+"end": 32.50794
+},
+{
+"word": "Much",
+"start": 33.173576,
+"end": 33.498653
+},
+{
+"word": "stronger.",
+"start": 33.498653,
+"end": 34.009495
+},
+{
+"word": "And",
+"start": 34.659653,
+"end": 34.876373
+},
+{
+"word": "research.",
+"start": 34.876373,
+"end": 35.48009
+},
+{
+"word": "Israel",
+"start": 35.83613,
+"end": 36.31601
+},
+{
+"word": "invests",
+"start": 36.31601,
+"end": 36.703007
+},
+{
+"word": "six",
+"start": 36.703007,
+"end": 36.950687
+},
+{
+"word": "point",
+"start": 36.950687,
+"end": 37.105488
+},
+{
+"word": "three",
+"start": 37.151928,
+"end": 37.33769
+},
+{
+"word": "percent",
+"start": 37.33769,
+"end": 37.631805
+},
+{
+"word": "of",
+"start": 37.631805,
+"end": 37.693726
+},
+{
+"word": "its",
+"start": 37.693726,
+"end": 37.817566
+},
+{
+"word": "economy.",
+"start": 37.817566,
+"end": 38.359364
+},
+{
+"word": "Number",
+"start": 38.932125,
+"end": 39.195282
+},
+{
+"word": "one",
+"start": 39.195282,
+"end": 39.442963
+},
+{
+"word": "on",
+"start": 39.442963,
+"end": 39.613243
+},
+{
+"word": "Earth.",
+"start": 39.613243,
+"end": 39.98476
+},
+{
+"word": "Saudi",
+"start": 40.665882,
+"end": 41.02192
+},
+{
+"word": "Arabia?",
+"start": 41.02192,
+"end": 41.5018
+},
+{
+"word": "Zero",
+"start": 42.13648,
+"end": 42.461555
+},
+{
+"word": "point",
+"start": 42.461555,
+"end": 42.709236
+},
+{
+"word": "six.",
+"start": 42.709236,
+"end": 43.220074
+},
+{
+"word": "Correlation:",
+"start": 43.963116,
+"end": 44.721634
+},
+{
+"word": "zero",
+"start": 45.17055,
+"end": 45.495632
+},
+{
+"word": "point",
+"start": 45.495632,
+"end": 45.681393
+},
+{
+"word": "five",
+"start": 45.71235,
+"end": 46.00647
+},
+{
+"word": "one.",
+"start": 46.00647,
+"end": 46.33155
+},
+{
+"word": "Not",
+"start": 47.02815,
+"end": 47.32227
+},
+{
+"word": "perfect",
+"start": 47.32227,
+"end": 47.662827
+},
+{
+"word": "either.",
+"start": 47.662827,
+"end": 47.987907
+},
+{
+"word": "Correlation",
+"start": 48.684505,
+"end": 49.241783
+},
+{
+"word": "is",
+"start": 49.241783,
+"end": 49.365623
+},
+{
+"word": "not",
+"start": 49.365623,
+"end": 49.613304
+},
+{
+"word": "causation.",
+"start": 49.613304,
+"end": 50.1551
+},
+{
+"word": "Rich",
+"start": 50.573063,
+"end": 50.83622
+},
+{
+"word": "countries",
+"start": 50.83622,
+"end": 51.22322
+},
+{
+"word": "can",
+"start": 51.22322,
+"end": 51.34706
+},
+{
+"word": "afford",
+"start": 51.34706,
+"end": 51.64118
+},
+{
+"word": "more",
+"start": 51.64118,
+"end": 51.82694
+},
+{
+"word": "school,",
+"start": 51.82694,
+"end": 52.18298
+},
+{
+"word": "too.",
+"start": 52.18298,
+"end": 52.523537
+},
+{
+"word": "Israel",
+"start": 53.003418,
+"end": 53.390415
+},
+{
+"word": "is",
+"start": 53.390415,
+"end": 53.545216
+},
+{
+"word": "only",
+"start": 53.545216,
+"end": 53.777416
+},
+{
+"word": "seventy-sixth",
+"start": 53.777416,
+"end": 54.535934
+},
+{
+"word": "in",
+"start": 54.535934,
+"end": 54.644295
+},
+{
+"word": "world",
+"start": 54.644295,
+"end": 54.86101
+},
+{
+"word": "freedom.",
+"start": 54.86101,
+"end": 55.278973
+},
+{
+"word": "And",
+"start": 55.65049,
+"end": 55.80529
+},
+{
+"word": "only",
+"start": 55.80529,
+"end": 56.05297
+},
+{
+"word": "about",
+"start": 56.05297,
+"end": 56.28517
+},
+{
+"word": "half",
+"start": 56.28517,
+"end": 56.61025
+},
+{
+"word": "of",
+"start": 56.61025,
+"end": 56.73409
+},
+{
+"word": "ultra-Orthodox",
+"start": 56.73409,
+"end": 57.492607
+},
+{
+"word": "men",
+"start": 57.492607,
+"end": 57.693848
+},
+{
+"word": "and",
+"start": 57.693848,
+"end": 57.786728
+},
+{
+"word": "Arab",
+"start": 57.786728,
+"end": 58.049885
+},
+{
+"word": "women",
+"start": 58.049885,
+"end": 58.421406
+},
+{
+"word": "have",
+"start": 58.421406,
+"end": 58.684566
+},
+{
+"word": "jobs.",
+"start": 58.684566,
+"end": 59.226364
+},
+{
+"word": "Still,",
+"start": 59.505005,
+"end": 60.093243
+},
+{
+"word": "invest",
+"start": 60.433804,
+"end": 60.8208
+},
+{
+"word": "in",
+"start": 60.8208,
+"end": 60.88272
+},
+{
+"word": "people,",
+"start": 60.88272,
+"end": 61.33164
+},
+{
+"word": "and",
+"start": 61.56384,
+"end": 61.7496
+},
+{
+"word": "wealth",
+"start": 61.7496,
+"end": 62.04372
+},
+{
+"word": "tends",
+"start": 62.04372,
+"end": 62.291397
+},
+{
+"word": "to",
+"start": 62.291397,
+"end": 62.353317
+},
+{
+"word": "follow.",
+"start": 62.353317,
+"end": 62.80224
+},
+{
+"word": "So",
+"start": 63.220196,
+"end": 63.483356
+},
+{
+"word": "forget",
+"start": 63.483356,
+"end": 63.761997
+},
+{
+"word": "oil",
+"start": 63.761997,
+"end": 63.994194
+},
+{
+"word": "for",
+"start": 63.994194,
+"end": 64.118034
+},
+{
+"word": "a",
+"start": 64.118034,
+"end": 64.179955
+},
+{
+"word": "second,",
+"start": 64.179955,
+"end": 64.628876
+},
+{
+"word": "and",
+"start": 64.721756,
+"end": 64.89204
+},
+{
+"word": "ask",
+"start": 64.89204,
+"end": 65.10875
+},
+{
+"word": "yourself...",
+"start": 65.10875,
+"end": 65.58863
+}
+]
