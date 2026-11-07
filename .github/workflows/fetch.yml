@@ -1,4 +1,4 @@
-name: fetch-heygen
+name: fetch
 on:
   push:
     paths: ['tiktok/rows.txt', 'tiktok/urls.txt', 'heygen/fetch.txt', 'heygen/drive.txt', 'voice/drive.txt', '.github/workflows/fetch.yml']
@@ -86,4 +86,4 @@ jobs:
           git add -A heygen || true
           [ -d tiktok ] && { git add -A tiktok || true; }
           [ -d voice ] && { git add -A voice || true; }
-          git diff --cached --quiet || (git commit -m "Fetch HeyGen clips" && git pull --rebase && git push)
+          git diff --cached --quiet || (git commit -m "Fetch HeyGen clips" && for i in 1 2 3 4 5 6; do git pull --rebase -q && git push -q && break; sleep $((RANDOM % 10 + 5)); done)
