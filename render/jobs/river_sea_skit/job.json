@@ -1,0 +1,7 @@
+{
+ "id": "river_sea_skit",
+ "cmd": "python3 /home/claude/river_sea_skit/reel.py",
+ "out": "/home/claude/river_sea_skit/out/river_sea_skit.mp4",
+ "sent": "2026-11-08T07:41:34Z",
+ "nfiles": 85
+}
