@@ -1,0 +1,35 @@
+name: ytx
+on:
+  push:
+    paths: ['yt/list.txt', '.github/workflows/ytx.yml']
+permissions:
+  contents: write
+jobs:
+  ytx:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg && pip install -q yt-dlp faster-whisper==1.1.1 requests
+      - name: Download, transcribe, upload
+        run: |
+          curl -sSL "https://raw.githubusercontent.com/${{ github.repository }}/${{ github.sha }}/yt/list.txt" -o list.txt
+          gh release view cuts -R ${{ github.repository }} >/dev/null 2>&1 || gh release create cuts --title cuts --notes cuts -R ${{ github.repository }}
+          mkdir -p out
+          while read -r n url; do
+            [ -z "$n" ] && continue
+            yt-dlp -q -f "bv*[height<=1280]+ba/b" --merge-output-format mp4 -o "out/$n.mp4" --write-info-json "$url" </dev/null || { echo "dl fail $n"; continue; }
+            python - "$n" <<'PY'
+          import sys, json
+          from faster_whisper import WhisperModel
+          n = sys.argv[1]
+          m = WhisperModel('large-v3-turbo', device='cpu', compute_type='int8')
+          segs, inf = m.transcribe(f'out/{n}.mp4', word_timestamps=True, vad_filter=False)
+          out = [{'s': round(s.start, 2), 'e': round(s.end, 2), 't': s.text.strip()} for s in segs]
+          info = json.load(open(f'out/{n}.info.json'))
+          json.dump({'title': info.get('title'), 'channel': info.get('channel'), 'desc': info.get('description'), 'dur': info.get('duration'), 'lang': inf.language, 'segs': out}, open(f'out/{n}.tx.json', 'w'), ensure_ascii=False)
+          PY
+            gh release upload cuts "out/$n.tx.json" "out/$n.mp4" --clobber -R ${{ github.repository }} </dev/null
+          done < list.txt
