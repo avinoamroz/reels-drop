@@ -24,3 +24,8 @@ shabbat_air_tall.jpg https://www.noamroz.com/api/asset/shabbat-aerial-tall.jpg
 shabbat_gnd_tall.jpg https://www.noamroz.com/api/asset/shabbat-tayelet-tall.jpg
 shabbat_air_wide.jpg https://www.noamroz.com/api/asset/shabbat-aerial-wide.jpg
 shabbat_gnd_wide.jpg https://www.noamroz.com/api/asset/shabbat-tayelet-wide.jpg
+ucdp_a.csv https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-country.csv?v=1&csvType=full&useColumnShortNames=true
+ucdp_b.csv https://ourworldindata.org/grapher/deaths-in-armed-conflicts-based-on-where-they-occurred.csv?v=1&csvType=full&useColumnShortNames=true
+ucdp_c.csv https://ourworldindata.org/grapher/deaths-in-armed-conflicts-by-region.csv?v=1&csvType=full&useColumnShortNames=true
+ucdp_d.csv https://ourworldindata.org/grapher/deaths-in-state-based-conflicts-by-world-region.csv?v=1&csvType=full&useColumnShortNames=true
+ucdp_e.csv https://ourworldindata.org/grapher/deaths-all-conflict-types-by-country.csv?v=1&csvType=full&useColumnShortNames=true
