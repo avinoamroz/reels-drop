@@ -31,3 +31,8 @@ ucdp_d.csv https://ourworldindata.org/grapher/deaths-in-state-based-conflicts-by
 ucdp_e.csv https://ourworldindata.org/grapher/deaths-all-conflict-types-by-country.csv?v=1&csvType=full&useColumnShortNames=true
 ocha_cas.html https://www.ochaopt.org/data/casualties
 ocha_2015.html https://www.ochaopt.org/content/170-palestinians-and-26-israelis-killed-2015
+mev_wb_pop.json https://api.worldbank.org/v2/country/ISR;EGY;SAU;ARE;QAT;KWT;BHR;OMN;IRQ;SYR;JOR;LBN;YEM;DZA;MAR;TUN;LBY;SDN;MRT;SOM;DJI;COM;PSE;IRN;TUR/indicator/SP.POP.TOTL?date=2022:2024&format=json&per_page=200
+mev_wb_gdp.json https://api.worldbank.org/v2/country/ISR;EGY;SAU;ARE;QAT;KWT;BHR;OMN;IRQ;SYR;JOR;LBN;YEM;DZA;MAR;TUN;LBY;SDN;MRT;SOM;DJI;COM;PSE;IRN;TUR/indicator/NY.GDP.MKTP.CD?date=2020:2024&format=json&per_page=300
+mev_imf_gdp.json https://www.imf.org/external/datamapper/api/v1/NGDPD/ISR/EGY/SAU/ARE/QAT/KWT/BHR/OMN/IRQ/SYR/JOR/LBN/YEM/DZA/MAR/TUN/LBY/SDN/MRT/SOM/DJI/COM/PSE/IRN/TUR?periods=2024
+mev_imf_lp.json https://www.imf.org/external/datamapper/api/v1/LP/ISR/EGY/SAU/ARE/QAT/KWT/BHR/OMN/IRQ/SYR/JOR/LBN/YEM/DZA/MAR/TUN/LBY/SDN/MRT/SOM/DJI/COM/PSE/IRN/TUR?periods=2024
+mev_imf_pc.json https://www.imf.org/external/datamapper/api/v1/NGDPDPC/ISR/EGY/SAU/ARE/QAT/KWT/BHR/OMN/IRQ/SYR/JOR/LBN/YEM/DZA/MAR/TUN/LBY/SDN/MRT/SOM/DJI/COM/PSE/IRN/TUR?periods=2024
