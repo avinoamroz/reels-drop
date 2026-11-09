@@ -1,0 +1,7 @@
+{
+ "id": "peace_no_years_v3",
+ "cmd": "python3 /home/claude/fixes_1027b/rk_stage.py render /home/claude/fix_1109b/peace/spec.json /home/claude/fix_1109b/peace/out/timing.json /home/claude/fix_1109b/peace/out/mix.wav /home/claude/fix_1109b/peace/peace_render.mp4",
+ "out": "/home/claude/fix_1109b/peace/peace_render.mp4",
+ "sent": "2026-11-09T19:02:12Z",
+ "nfiles": 145
+}
