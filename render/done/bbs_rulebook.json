@@ -1,0 +1,8 @@
+{
+  "id": "bbs_rulebook",
+  "ok": true,
+  "rc": "0",
+  "secs": "100",
+  "run": "42695734187",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nfinal /home/claude/bbs_rulebook/out/bbs_rulebook.mp4\n"
+}
