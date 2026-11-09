@@ -1,0 +1,8 @@
+{
+  "id": "un_per_person_v2",
+  "ok": true,
+  "rc": "0",
+  "secs": "0",
+  "run": "42691553534",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n-rw-r--r--+ 1 root root 9139006 Nov  9 20:16 /home/claude/fix_1109/rmk/un/work/un_per_person_v2.mp4\n"
+}
