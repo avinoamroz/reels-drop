@@ -36,3 +36,6 @@ mev_wb_gdp.json https://api.worldbank.org/v2/country/ISR;EGY;SAU;ARE;QAT;KWT;BHR
 mev_imf_gdp.json https://www.imf.org/external/datamapper/api/v1/NGDPD/ISR/EGY/SAU/ARE/QAT/KWT/BHR/OMN/IRQ/SYR/JOR/LBN/YEM/DZA/MAR/TUN/LBY/SDN/MRT/SOM/DJI/COM/PSE/IRN/TUR?periods=2024
 mev_imf_lp.json https://www.imf.org/external/datamapper/api/v1/LP/ISR/EGY/SAU/ARE/QAT/KWT/BHR/OMN/IRQ/SYR/JOR/LBN/YEM/DZA/MAR/TUN/LBY/SDN/MRT/SOM/DJI/COM/PSE/IRN/TUR?periods=2024
 mev_imf_pc.json https://www.imf.org/external/datamapper/api/v1/NGDPDPC/ISR/EGY/SAU/ARE/QAT/KWT/BHR/OMN/IRQ/SYR/JOR/LBN/YEM/DZA/MAR/TUN/LBY/SDN/MRT/SOM/DJI/COM/PSE/IRN/TUR?periods=2024
+gdp_tow_imf.json https://www.imf.org/external/datamapper/api/v1/NGDPDPC/ISR/TUR/IRQ/JOR/EGY/IRN/LBN/SYR/YEM/OMN
+gdp_tow_wb.json https://api.worldbank.org/v2/country/ISR;TUR;IRQ;JOR;EGY;IRN;LBN;SYR;YEM;OMN/indicator/NY.GDP.PCAP.CD?format=json&date=2018:2025&per_page=200
+gdp_tow_imf_meta.json https://www.imf.org/external/datamapper/api/v1/indicators/NGDPDPC
