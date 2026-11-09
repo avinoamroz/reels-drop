@@ -1,0 +1,7 @@
+{
+ "id": "startups20_v6",
+ "cmd": "cd /home/claude/fix_1109b/startups && python3 ovl_big.py cfg_v6.json",
+ "out": "/home/claude/fix_1109b/startups/startups20_v6.mp4",
+ "sent": "2026-11-09T19:10:24Z",
+ "nfiles": 186
+}
