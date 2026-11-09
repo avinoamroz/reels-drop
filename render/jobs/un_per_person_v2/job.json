@@ -1,0 +1,7 @@
+{
+ "id": "un_per_person_v2",
+ "cmd": "mkdir -p /home/claude/fix_1109/rmk/un/work && ls -la /home/claude/fix_1109/rmk/un/work/un_per_person_v2.mp4",
+ "out": "/home/claude/fix_1109/rmk/un/work/un_per_person_v2.mp4",
+ "sent": "2026-11-09T20:17:16Z",
+ "nfiles": 1
+}
