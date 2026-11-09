@@ -1,0 +1,7 @@
+{
+ "id": "bbs_rulebook",
+ "cmd": "python3 /home/claude/bbs_rulebook/reel.py",
+ "out": "/home/claude/bbs_rulebook/out/bbs_rulebook.mp4",
+ "sent": "2026-11-09T20:43:02Z",
+ "nfiles": 93
+}
