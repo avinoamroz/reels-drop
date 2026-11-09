@@ -1,7 +1,0 @@
-{
- "id": "recognised_first_map",
- "cmd": "cd /home/claude/click_1103 && python3 map_rec.py",
- "out": "/home/claude/click_1103/recognised_first_map/out/recognised_first_map.mp4",
- "sent": "2026-11-03T06:20:33Z",
- "nfiles": 46
-}

@@ -1,7 +1,0 @@
-{
- "id": "crime_punish_v2",
- "cmd": "python3 /home/claude/fix_1103/crime_punish/engine.py --reel /home/claude/fix_1103/crime_punish --out /home/claude/fix_1103/crime_punish/out.mp4",
- "out": "/home/claude/fix_1103/crime_punish/out.mp4",
- "sent": "2026-11-03T06:04:40Z",
- "nfiles": 30
-}

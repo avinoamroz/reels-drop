@@ -1,7 +1,0 @@
-{
- "id": "wiki_zionism",
- "cmd": "cd /home/claude/wiki_zionism && python3 page.py",
- "out": "/home/claude/wiki_zionism/wiki_zionism/out/wiki_zionism.mp4",
- "sent": "2026-11-03T13:38:42Z",
- "nfiles": 21
-}

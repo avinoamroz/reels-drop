@@ -1,7 +1,0 @@
-{
- "id": "minorities_kept",
- "cmd": "cd /home/claude/daily_1103 && python3 d03_map_min.py",
- "out": "/home/claude/daily_1103/minorities_kept/out/minorities_kept.mp4",
- "sent": "2026-11-03T07:57:52Z",
- "nfiles": 29
-}
