@@ -1,0 +1,7 @@
+{
+ "id": "jews_cause_death_v2",
+ "cmd": "python3 -m pip install -q opencv-python-headless && cd /home/claude/fix_1109/rmk && python3 eng.py jcd render /home/claude/fix_1109/rmk/jcd/work/body.mp4 && python3 finalize.py jcd jews_cause_death_v2 --no-publish",
+ "out": "/home/claude/fix_1109/rmk/jcd/work/jews_cause_death_v2.mp4",
+ "sent": "2026-11-09T20:45:19Z",
+ "nfiles": 164
+}

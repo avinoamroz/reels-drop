@@ -1,0 +1,7 @@
+{
+ "id": "terror_compare_v2",
+ "cmd": "python3 -m pip install -q opencv-python-headless && cd /home/claude/fix_1109/rmk && python3 eng.py terror render /home/claude/fix_1109/rmk/terror/work/body.mp4 && python3 finalize.py terror terror_compare_v2 --no-publish",
+ "out": "/home/claude/fix_1109/rmk/terror/work/terror_compare_v2.mp4",
+ "sent": "2026-11-09T20:45:11Z",
+ "nfiles": 164
+}
