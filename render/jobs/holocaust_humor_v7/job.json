@@ -1,0 +1,7 @@
+{
+ "id": "holocaust_humor_v7",
+ "cmd": "mkdir -p /home/claude/fix_1109/out && cd /home/claude/fix_1109/hh && python3 /home/claude/fixes_1027b/rk_stage.py render spec.json out/timing.json out/mix.wav /home/claude/fix_1109/out/holocaust_humor_v7.mp4",
+ "out": "/home/claude/fix_1109/out/holocaust_humor_v7.mp4",
+ "sent": "2026-11-09T18:49:06Z",
+ "nfiles": 136
+}
