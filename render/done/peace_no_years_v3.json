@@ -1,0 +1,8 @@
+{
+  "id": "peace_no_years_v3",
+  "ok": true,
+  "rc": "0",
+  "secs": "29",
+  "run": "42679476779",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[render] frame 0/1271  0s\n[render] frame 150/1271  3s\n[render] frame 300/1271  7s\n[render] frame 450/1271  10s\n[render] frame 600/1271  13s\n[render] frame 750/1271  17s\n[render] frame 900/1271  20s\n[render] frame 1050/1271  24s\n[render] frame 1200/1271  27s\nrendered 28.6 s 1271 frames\n"
+}
