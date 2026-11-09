@@ -1,0 +1,8 @@
+{
+  "id": "happiest_mena_v2",
+  "ok": false,
+  "rc": "1",
+  "secs": "44",
+  "run": "42681374214",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nsilent tail /home/claude/daily_1104/happiest_mena_v2/out/silent.mp4\nTraceback (most recent call last):\n  File \"/home/claude/map_tear_opener/map_open.py\", line 26, in <module>\n    import numpy as np, cv2\nModuleNotFoundError: No module named 'cv2'\n"
+}
