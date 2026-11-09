@@ -1,0 +1,7 @@
+{
+ "id": "terror_vs_deterrence",
+ "cmd": "python3 /home/claude/terror_deterrence/build.py",
+ "out": "/home/claude/terror_deterrence/work/final.mp4",
+ "sent": "2026-11-09T20:44:11Z",
+ "nfiles": 47
+}
