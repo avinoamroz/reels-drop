@@ -1,0 +1,8 @@
+{
+  "id": "vfetch_bv2_collie",
+  "ok": false,
+  "rc": "3",
+  "secs": "3",
+  "run": "42687517414",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\nHTML from https://drive.usercontent.google.com/download?id=1HSd9wJm2eUYDHPeGLlPnPpnJhTPwH0JP&export=download&confirm=t <!DOCTYPE html><html><head><title>Google Drive - Quota exceeded</title><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/><style nonce=\"OboPgdj-YpVL6Fq0a-gM0w\">.goog-link-button{position:relative;color:#15c;text-decoration:underline;cursor:pointer}.goog-link-button-disabled{color:#ccc;text-decoration:none;cursor:default}body{color:#222;font:normal 13px/1.4 arial,sans-serif;margin:\nHTML from https://drive.google.com/uc?export=download&id=1HSd9wJm2eUYDHPeGLlPnPpnJhTPwH0JP&confirm=t <!DOCTYPE html><html><head><title>Google Drive - Quota exceeded</title><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/><style nonce=\"TOv_KVuHPHAYAIFmwrUftw\">.goog-link-button{position:relative;color:#15c;text-decoration:underline;cursor:pointer}.goog-link-button-disabled{color:#ccc;text-decoration:none;cursor:default}body{color:#222;font:normal 13px/1.4 arial,sans-serif;margin:\nHTML from https://drive.google.com/uc?export=download&id=1HSd9wJm2eUYDHPeGLlPnPpnJhTPwH0JP <!DOCTYPE html><html><head><title>Google Drive - Quota exceeded</title><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\"/><style nonce=\"b9w-Lb1uvbkkUv2SLJwyHg\">.goog-link-button{position:relative;color:#15c;text-decoration:underline;cursor:pointer}.goog-link-button-disabled{color:#ccc;text-decoration:none;cursor:default}body{color:#222;font:normal 13px/1.4 arial,sans-serif;margin:\n"
+}
