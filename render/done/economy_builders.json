@@ -1,0 +1,8 @@
+{
+  "id": "economy_builders",
+  "ok": true,
+  "rc": "0",
+  "secs": "61",
+  "run": "42623235733",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   0.2s] T_END 54.7 warn []\n[   6.2s] [mix] input -21.1 LUFS, gain +7.9 dB, 48 SFX -> /home/claude/economy_builders/build/out_q/work/mix.wav\n[   6.3s] [render] frame 0/1641  0s\n[   9.9s] [render] frame 150/1641  4s\n[  13.9s] [render] frame 300/1641  8s\n[  17.0s] [render] frame 450/1641  11s\n[  19.9s] [render] frame 600/1641  14s\n[  22.9s] [render] frame 750/1641  17s\n[  25.7s] [render] frame 900/1641  19s\n[  28.9s] [render] frame 1050/1641  23s\n[  31.8s] [render] frame 1200/1641  26s\n[  35.2s] [render] frame 1350/1641  29s\n[  38.7s] [render] frame 1500/1641  32s\n[  42.8s] render done\nvideo 1080x1920 30/1 54.7s aac 48000 Hz: -14.1 LUFS, TP -1.9 dBTP, 7.97 MB (ok)\nweb 540x960 3.34 MB (ok), -14.1 LUFS, TP -1.9\nhook: ok (frame-0 text 8, motion 5.47)\ndashes: ok (0 replaced)\nlayout issues: 47\nblack frames: none\nhe subs missing: []\n"
+}
