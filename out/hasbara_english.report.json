@@ -1,0 +1,107 @@
+{
+ "id": "hasbara_english",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "This word in English?|*3* ways",
+ "duration": 33.1,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/hasbara_english.mp4",
+  "cover": "covers/hasbara_english_cover.jpg",
+  "preview": "previews/hasbara_english_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hasbara_english_0.jpg",
+  "1": "out/frames/hasbara_english_1.jpg",
+  "3": "out/frames/hasbara_english_3.jpg",
+  "last": "out/frames/hasbara_english_last.jpg"
+ },
+ "caption_en": "How do you say this Hebrew word in English? Public diplomacy, explaining Israel, advocacy.",
+ "caption_he": "איך אומרים הסברה באנגלית? 3 דרכים 🇮🇱\n\nבכנס: Public diplomacy\nעם חברים: Explaining Israel\nבפאנל: Advocacy\n\nהמילה הסברה פשוט אומרת explaining. דיפלומטים ישראלים מעדיפים היום public diplomacy, כי explaining נשמע מתגונן.\n\nאנגלית היא הדרך שבה הסיפור שלנו מגיע לעולם. שמרו את זה לפגישה הבאה.\n\nמקור: Wikipedia, Public diplomacy of Israel (2026).",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#הסברה",
+  "#אנגלית"
+ ],
+ "sources": [
+  {
+   "label": "Public diplomacy of Israel, Wikipedia",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.975,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Maya asks, what's our word for this in English?",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "It literally means explaining. Israelis use it for telling Israel's side to the world.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At a conference, say: public diplomacy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "With friends, say: explaining Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "On a panel, say: advocacy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israeli diplomats today prefer public diplomacy. It sounds less defensive.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "What do you do for Israel online?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Public diplomacy. I tell Israel's story in English.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's important work.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "English is how the story reaches the world.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Amaya asks, what's our word for this in English? It literally means explaining. Israelis use it for telling Israel's side to the world. At a conference, say, public diplomacy. With friends, say, explaining Israel. On a panel, say, advocacy. Israeli diplomats today prefer public diplomacy. It sounds less defensive. What do you do for Israel online? Public diplomacy. I tell Israel's story in English. That's important work. how the story reaches the world. Save this for your next meeting.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 38.8
+}
