@@ -1,652 +1,847 @@
 [
 {
 "word": "One",
-"start": 0.32507935,
-"end": 0.54179895
+"start": 0.2012396,
+"end": 0.510839
 },
 {
 "word": "Israeli",
-"start": 0.54179895,
-"end": 0.86687833
+"start": 0.510839,
+"end": 0.9287982
 },
 {
 "word": "soldier.",
-"start": 0.86687833,
-"end": 1.4705971
+"start": 0.9287982,
+"end": 1.5015571
 },
 {
 "word": "How",
-"start": 1.8575964,
-"end": 2.012396
+"start": 2.1517158,
+"end": 2.3374755
 },
 {
 "word": "many",
-"start": 2.012396,
-"end": 2.1826758
+"start": 2.3374755,
+"end": 2.569675
 },
 {
 "word": "prisoners",
-"start": 2.1826758,
-"end": 2.585155
+"start": 2.569675,
+"end": 3.049554
 },
 {
 "word": "did",
-"start": 2.585155,
-"end": 2.7244747
-},
-{
-"word": "Israel",
-"start": 2.7244747,
-"end": 3.0031142
-},
-{
-"word": "free",
-"start": 3.0031142,
+"start": 3.049554,
 "end": 3.2353137
 },
 {
-"word": "to",
+"word": "Israel",
 "start": 3.2353137,
-"end": 3.2972336
+"end": 3.6842327
+},
+{
+"word": "free",
+"start": 3.6842327,
+"end": 3.9628723
+},
+{
+"word": "to",
+"start": 3.9628723,
+"end": 4.040272
 },
 {
 "word": "bring",
-"start": 3.2972336,
-"end": 3.5139532
+"start": 4.040272,
+"end": 4.256992
 },
 {
 "word": "him",
-"start": 3.5139532,
-"end": 3.622313
+"start": 4.256992,
+"end": 4.3808312
 },
 {
 "word": "home?",
-"start": 3.622313,
-"end": 3.993832
+"start": 4.3808312,
+"end": 4.8297505
 },
 {
 "word": "Start",
-"start": 4.3498716,
-"end": 4.643991
+"start": 5.6037493,
+"end": 5.9597883
 },
 {
 "word": "with",
-"start": 4.643991,
-"end": 4.736871
+"start": 5.9597883,
+"end": 6.052668
 },
 {
 "word": "October",
-"start": 4.736871,
-"end": 5.15483
+"start": 6.052668,
+"end": 6.439667
 },
 {
 "word": "twenty",
-"start": 5.15483,
-"end": 5.4334693
+"start": 6.439667,
+"end": 6.718307
 },
 {
 "word": "twenty",
-"start": 5.4334693,
-"end": 5.696629
+"start": 6.718307,
+"end": 6.950506
 },
 {
 "word": "five.",
-"start": 5.696629,
-"end": 6.2384276
+"start": 6.950506,
+"end": 7.337506
 },
 {
 "word": "Twenty",
-"start": 6.9350266,
-"end": 7.167226
-},
-{
-"word": "living",
-"start": 7.167226,
-"end": 7.3839455
-},
-{
-"word": "hostages",
-"start": 7.3839455,
-"end": 7.8019047
-},
-{
-"word": "came",
-"start": 7.8019047,
-"end": 8.065064
-},
-{
-"word": "home",
-"start": 8.065064,
+"start": 7.9412246,
 "end": 8.281784
 },
 {
-"word": "from",
+"word": "living",
 "start": 8.281784,
-"end": 8.4211035
+"end": 8.544943
 },
 {
-"word": "Gaza.",
-"start": 8.4211035,
-"end": 8.854543
+"word": "hostages",
+"start": 8.544943,
+"end": 9.024822
 },
 {
-"word": "Israel",
-"start": 9.334422,
-"end": 9.659501
+"word": "came",
+"start": 9.024822,
+"end": 9.241542
 },
 {
-"word": "freed",
-"start": 9.659501,
-"end": 9.922661
+"word": "home",
+"start": 9.241542,
+"end": 9.411821
 },
 {
-"word": "one",
-"start": 9.922661,
-"end": 10.10842
+"word": "from",
+"start": 9.411821,
+"end": 9.597581
 },
 {
-"word": "thousand",
+"word": "Gaza,",
+"start": 9.597581,
+"end": 10.0465
+},
+{
+"word": "after",
 "start": 10.10842,
 "end": 10.433499
 },
 {
-"word": "nine",
+"word": "two",
 "start": 10.433499,
-"end": 10.681179
-},
-{
-"word": "hundred",
-"start": 10.681179,
-"end": 10.975299
-},
-{
-"word": "and",
-"start": 10.975299,
-"end": 11.068178
-},
-{
-"word": "sixty",
-"start": 11.068178,
-"end": 11.362298
-},
-{
-"word": "eight",
-"start": 11.362298,
-"end": 11.486137
-},
-{
-"word": "prisoners.",
-"start": 11.486137,
-"end": 12.089856
-},
-{
-"word": "About",
-"start": 12.538775,
-"end": 12.801935
-},
-{
-"word": "ninety",
-"start": 12.801935,
-"end": 13.111534
-},
-{
-"word": "eight",
-"start": 13.111534,
-"end": 13.374694
-},
-{
-"word": "for",
-"start": 13.436614,
-"end": 13.653334
-},
-{
-"word": "every",
-"start": 13.653334,
-"end": 13.885533
-},
-{
-"word": "living",
-"start": 13.885533,
-"end": 14.102252
-},
-{
-"word": "hostage.",
-"start": 14.102252,
-"end": 14.690492
-},
-{
-"word": "Earlier",
-"start": 14.9691305,
-"end": 15.26325
-},
-{
-"word": "that",
-"start": 15.26325,
-"end": 15.44901
-},
-{
-"word": "year,",
-"start": 15.44901,
-"end": 15.68121
-},
-{
-"word": "the",
-"start": 15.68121,
-"end": 15.805049
-},
-{
-"word": "deal",
-"start": 15.805049,
-"end": 16.021769
-},
-{
-"word": "set",
-"start": 16.021769,
-"end": 16.192049
-},
-{
-"word": "a",
-"start": 16.192049,
-"end": 16.25397
-},
-{
-"word": "price",
-"start": 16.25397,
-"end": 16.594528
-},
-{
-"word": "in",
-"start": 16.594528,
-"end": 16.671926
-},
-{
-"word": "advance.",
-"start": 16.671926,
-"end": 17.306606
-},
-{
-"word": "Thirty",
-"start": 17.492365,
-"end": 17.817446
-},
-{
-"word": "prisoners",
-"start": 17.817446,
-"end": 18.235405
-},
-{
-"word": "for",
-"start": 18.235405,
-"end": 18.359243
-},
-{
-"word": "each",
-"start": 18.359243,
-"end": 18.560484
-},
-{
-"word": "civilian.",
-"start": 18.560484,
-"end": 19.102283
-},
-{
-"word": "Fifty",
-"start": 19.411882,
-"end": 19.706001
-},
-{
-"word": "for",
-"start": 19.706001,
-"end": 19.860802
-},
-{
-"word": "each",
-"start": 19.860802,
-"end": 20.0156
-},
-{
-"word": "soldier.",
-"start": 20.0156,
-"end": 20.49548
-},
-{
-"word": "Now",
-"start": 20.77412,
-"end": 20.959879
-},
-{
-"word": "go",
-"start": 20.959879,
-"end": 21.06824
-},
-{
-"word": "back",
-"start": 21.06824,
-"end": 21.315918
-},
-{
-"word": "to",
-"start": 21.315918,
-"end": 21.408798
-},
-{
-"word": "twenty",
-"start": 21.408798,
-"end": 21.702917
-},
-{
-"word": "eleven.",
-"start": 21.702917,
-"end": 22.089916
-},
-{
-"word": "One",
-"start": 22.430477,
-"end": 22.693636
-},
-{
-"word": "soldier:",
-"start": 22.693636,
-"end": 23.204475
-},
-{
-"word": "Gilad",
-"start": 23.359274,
-"end": 23.684353
-},
-{
-"word": "Shalit.",
-"start": 23.684353,
-"end": 24.226152
-},
-{
-"word": "To",
-"start": 24.93823,
-"end": 25.06207
-},
-{
-"word": "bring",
-"start": 25.06207,
-"end": 25.278791
-},
-{
-"word": "him",
-"start": 25.278791,
-"end": 25.37167
-},
-{
-"word": "home,",
-"start": 25.37167,
-"end": 25.758669
-},
-{
-"word": "Israel",
-"start": 25.85155,
-"end": 26.238548
-},
-{
-"word": "freed",
-"start": 26.238548,
-"end": 26.53267
-},
-{
-"word": "one",
-"start": 26.53267,
-"end": 26.749388
-},
-{
-"word": "thousand",
-"start": 26.749388,
-"end": 27.136387
-},
-{
-"word": "and",
-"start": 27.136387,
-"end": 27.229267
-},
-{
-"word": "twenty",
-"start": 27.229267,
-"end": 27.430506
-},
-{
-"word": "seven",
-"start": 27.430506,
-"end": 27.709146
-},
-{
-"word": "prisoners.",
-"start": 27.709146,
-"end": 28.250944
-},
-{
-"word": "The",
-"start": 28.545065,
-"end": 28.637943
-},
-{
-"word": "most",
-"start": 28.637943,
-"end": 28.808224
-},
-{
-"word": "senior",
-"start": 28.808224,
-"end": 29.086863
-},
-{
-"word": "of",
-"start": 29.086863,
-"end": 29.179743
-},
-{
-"word": "them",
-"start": 29.179743,
-"end": 29.442902
-},
-{
-"word": "was",
-"start": 29.442902,
-"end": 29.628662
-},
-{
-"word": "Yahya",
-"start": 29.628662,
-"end": 29.953741
-},
-{
-"word": "Sinwar.",
-"start": 29.953741,
-"end": 30.46458
-},
-{
-"word": "Twelve",
-"start": 30.85158,
-"end": 31.161179
+"end": 10.650219
 },
 {
 "word": "years",
-"start": 31.161179,
-"end": 31.331459
-},
-{
-"word": "later,",
-"start": 31.331459,
-"end": 31.749418
-},
-{
-"word": "he",
-"start": 32.028057,
-"end": 32.151897
-},
-{
-"word": "was",
-"start": 32.151897,
-"end": 32.260258
-},
-{
-"word": "the",
-"start": 32.260258,
-"end": 32.353138
-},
-{
-"word": "mastermind",
-"start": 32.353138,
-"end": 32.925896
-},
-{
-"word": "of",
-"start": 32.925896,
-"end": 33.018776
-},
-{
-"word": "October",
-"start": 33.018776,
-"end": 33.405773
-},
-{
-"word": "seventh.",
-"start": 33.405773,
-"end": 33.854694
-},
-{
-"word": "Many",
-"start": 34.33457,
-"end": 34.659653
-},
-{
-"word": "of",
-"start": 34.659653,
-"end": 34.721573
-},
-{
-"word": "those",
-"start": 34.721573,
-"end": 34.938293
-},
-{
-"word": "freed",
-"start": 34.938293,
-"end": 35.17049
+"start": 10.650219,
+"end": 10.913379
 },
 {
 "word": "in",
-"start": 35.17049,
-"end": 35.26337
+"start": 10.913379,
+"end": 11.006259
 },
 {
-"word": "twenty",
-"start": 35.26337,
-"end": 35.51105
+"word": "captivity.",
+"start": 11.006259,
+"end": 11.671897
 },
 {
-"word": "twenty",
-"start": 35.51105,
-"end": 35.71229
+"word": "Israel",
+"start": 12.476855,
+"end": 12.863854
 },
 {
-"word": "five",
-"start": 35.71229,
-"end": 36.09929
-},
-{
-"word": "were",
-"start": 36.09929,
-"end": 36.19217
-},
-{
-"word": "detained",
-"start": 36.19217,
-"end": 36.54821
-},
-{
-"word": "during",
-"start": 36.54821,
-"end": 36.795887
-},
-{
-"word": "the",
-"start": 36.795887,
-"end": 36.888767
-},
-{
-"word": "war,",
-"start": 36.888767,
-"end": 37.27577
-},
-{
-"word": "not",
-"start": 37.36865,
-"end": 37.569885
-},
-{
-"word": "convicted.",
-"start": 37.569885,
-"end": 38.080727
-},
-{
-"word": "So",
-"start": 38.808285,
-"end": 38.947605
-},
-{
-"word": "when",
-"start": 38.947605,
-"end": 39.071445
-},
-{
-"word": "people",
-"start": 39.071445,
-"end": 39.319122
-},
-{
-"word": "ask",
-"start": 39.319122,
-"end": 39.520363
-},
-{
-"word": "what",
-"start": 39.520363,
-"end": 39.675163
+"word": "freed",
+"start": 12.863854,
+"end": 13.157974
 },
 {
 "word": "one",
-"start": 39.675163,
-"end": 39.907364
+"start": 13.157974,
+"end": 13.405654
 },
 {
-"word": "Israeli",
-"start": 39.907364,
-"end": 40.30984
+"word": "thousand",
+"start": 13.405654,
+"end": 13.823613
+},
+{
+"word": "nine",
+"start": 13.823613,
+"end": 14.071293
+},
+{
+"word": "hundred",
+"start": 14.071293,
+"end": 14.334452
+},
+{
+"word": "and",
+"start": 14.334452,
+"end": 14.427332
+},
+{
+"word": "sixty",
+"start": 14.427332,
+"end": 14.721451
+},
+{
+"word": "eight",
+"start": 14.721451,
+"end": 14.845291
+},
+{
+"word": "prisoners.",
+"start": 14.845291,
+"end": 15.44901
+},
+{
+"word": "Two",
+"start": 16.130129,
+"end": 16.315887
+},
+{
+"word": "hundred",
+"start": 16.315887,
+"end": 16.579048
+},
+{
+"word": "and",
+"start": 16.579048,
+"end": 16.671926
+},
+{
+"word": "fifty",
+"start": 16.671926,
+"end": 16.997007
+},
+{
+"word": "were",
+"start": 16.997007,
+"end": 17.151806
+},
+{
+"word": "serving",
+"start": 17.151806,
+"end": 17.476887
 },
 {
 "word": "life",
-"start": 40.30984,
-"end": 40.54204
+"start": 17.476887,
+"end": 17.724566
+},
+{
+"word": "or",
+"start": 17.724566,
+"end": 17.848406
+},
+{
+"word": "long",
+"start": 17.848406,
+"end": 18.080605
+},
+{
+"word": "sentences.",
+"start": 18.080605,
+"end": 18.777203
+},
+{
+"word": "About",
+"start": 19.458323,
+"end": 19.706001
+},
+{
+"word": "ninety",
+"start": 19.706001,
+"end": 20.03108
+},
+{
+"word": "eight",
+"start": 20.03108,
+"end": 20.21684
+},
+{
+"word": "for",
+"start": 20.21684,
+"end": 20.340681
+},
+{
+"word": "every",
+"start": 20.340681,
+"end": 20.51096
+},
+{
+"word": "living",
+"start": 20.51096,
+"end": 20.75864
+},
+{
+"word": "hostage.",
+"start": 20.75864,
+"end": 21.315918
+},
+{
+"word": "Earlier",
+"start": 22.167316,
+"end": 22.523355
+},
+{
+"word": "that",
+"start": 22.523355,
+"end": 22.693636
+},
+{
+"word": "year,",
+"start": 22.693636,
+"end": 22.972275
+},
+{
+"word": "the",
+"start": 23.034195,
+"end": 23.127075
+},
+{
+"word": "deal",
+"start": 23.127075,
+"end": 23.328314
+},
+{
+"word": "set",
+"start": 23.328314,
+"end": 23.483114
+},
+{
+"word": "a",
+"start": 23.483114,
+"end": 23.545034
+},
+{
+"word": "price",
+"start": 23.545034,
+"end": 23.901073
+},
+{
+"word": "in",
+"start": 23.901073,
+"end": 23.962994
+},
+{
+"word": "advance.",
+"start": 23.962994,
+"end": 24.566711
+},
+{
+"word": "Thirty",
+"start": 25.55743,
+"end": 25.85155
+},
+{
+"word": "prisoners",
+"start": 25.85155,
+"end": 26.331429
+},
+{
+"word": "for",
+"start": 26.331429,
+"end": 26.455269
+},
+{
+"word": "each",
+"start": 26.455269,
+"end": 26.625547
+},
+{
+"word": "civilian.",
+"start": 26.625547,
+"end": 27.105427
+},
+{
+"word": "Fifty",
+"start": 27.956825,
+"end": 28.343824
+},
+{
+"word": "for",
+"start": 28.343824,
+"end": 28.483145
+},
+{
+"word": "each",
+"start": 28.483145,
+"end": 28.637943
+},
+{
+"word": "soldier.",
+"start": 28.637943,
+"end": 29.117823
+},
+{
+"word": "Now",
+"start": 29.721542,
+"end": 30.015661
+},
+{
+"word": "go",
+"start": 30.046621,
+"end": 30.170462
+},
+{
+"word": "back",
+"start": 30.170462,
+"end": 30.38718
+},
+{
+"word": "to",
+"start": 30.38718,
+"end": 30.46458
+},
+{
+"word": "twenty",
+"start": 30.46458,
+"end": 30.74322
+},
+{
+"word": "eleven.",
+"start": 30.74322,
+"end": 31.0683
+},
+{
+"word": "One",
+"start": 31.826818,
+"end": 32.089977
+},
+{
+"word": "soldier:",
+"start": 32.089977,
+"end": 32.600815
+},
+{
+"word": "Gilad",
+"start": 32.925896,
+"end": 33.297417
+},
+{
+"word": "Shalit.",
+"start": 33.297417,
+"end": 33.808254
+},
+{
+"word": "HAMAS",
+"start": 34.458412,
+"end": 34.845413
+},
+{
+"word": "held",
+"start": 34.845413,
+"end": 35.12405
+},
+{
+"word": "him",
+"start": 35.12405,
+"end": 35.21693
+},
+{
+"word": "in",
+"start": 35.21693,
+"end": 35.29433
+},
+{
+"word": "Gaza.",
+"start": 35.29433,
+"end": 35.75873
+},
+{
+"word": "To",
+"start": 36.31601,
+"end": 36.43985
+},
+{
+"word": "bring",
+"start": 36.43985,
+"end": 36.62561
+},
+{
+"word": "him",
+"start": 36.62561,
+"end": 36.733967
+},
+{
+"word": "home,",
+"start": 36.733967,
+"end": 37.074528
+},
+{
+"word": "Israel",
+"start": 37.817566,
+"end": 38.173607
+},
+{
+"word": "freed",
+"start": 38.173607,
+"end": 38.576084
+},
+{
+"word": "one",
+"start": 38.576084,
+"end": 38.777325
+},
+{
+"word": "thousand",
+"start": 38.777325,
+"end": 39.195282
+},
+{
+"word": "and",
+"start": 39.195282,
+"end": 39.288162
+},
+{
+"word": "twenty",
+"start": 39.288162,
+"end": 39.535843
+},
+{
+"word": "seven",
+"start": 39.535843,
+"end": 39.799004
+},
+{
+"word": "prisoners.",
+"start": 39.799004,
+"end": 40.43368
+},
+{
+"word": "The",
+"start": 41.05288,
+"end": 41.14576
+},
+{
+"word": "most",
+"start": 41.14576,
+"end": 41.36248
+},
+{
+"word": "senior",
+"start": 41.36248,
+"end": 41.656597
+},
+{
+"word": "of",
+"start": 41.656597,
+"end": 41.749477
+},
+{
+"word": "them",
+"start": 41.749477,
+"end": 41.904278
+},
+{
+"word": "was",
+"start": 41.904278,
+"end": 42.02812
+},
+{
+"word": "Yahya",
+"start": 42.02812,
+"end": 42.32224
+},
+{
+"word": "Sinwar.",
+"start": 42.32224,
+"end": 42.864037
+},
+{
+"word": "Al",
+"start": 43.916676,
+"end": 44.055992
+},
+{
+"word": "Jazeera",
+"start": 44.055992,
+"end": 44.412033
+},
+{
+"word": "called",
+"start": 44.412033,
+"end": 44.659714
+},
+{
+"word": "him",
+"start": 44.659714,
+"end": 44.721634
+},
+{
+"word": "the",
+"start": 44.721634,
+"end": 44.814514
+},
+{
+"word": "most",
+"start": 44.814514,
+"end": 44.98479
+},
+{
+"word": "prominent",
+"start": 44.98479,
+"end": 45.402752
+},
+{
+"word": "prisoner",
+"start": 45.402752,
+"end": 45.74331
+},
+{
+"word": "released.",
+"start": 45.74331,
+"end": 46.25415
+},
+{
+"word": "Twelve",
+"start": 47.24487,
+"end": 47.600906
+},
+{
+"word": "years",
+"start": 47.600906,
+"end": 47.802147
+},
+{
+"word": "later,",
+"start": 47.802147,
+"end": 48.251064
+},
+{
+"word": "he",
+"start": 48.343945,
+"end": 48.498745
+},
+{
+"word": "was",
+"start": 48.498745,
+"end": 48.622585
+},
+{
+"word": "the",
+"start": 48.622585,
+"end": 48.699986
+},
+{
+"word": "mastermind",
+"start": 48.699986,
+"end": 49.210823
+},
+{
+"word": "of",
+"start": 49.210823,
+"end": 49.334663
+},
+{
+"word": "October",
+"start": 49.334663,
+"end": 49.690704
+},
+{
+"word": "seventh.",
+"start": 49.690704,
+"end": 50.20154
+},
+{
+"word": "Many",
+"start": 50.511143,
+"end": 50.86718
+},
+{
+"word": "of",
+"start": 50.86718,
+"end": 50.96006
+},
+{
+"word": "those",
+"start": 50.96006,
+"end": 51.1613
+},
+{
+"word": "freed",
+"start": 51.1613,
+"end": 51.470898
+},
+{
+"word": "in",
+"start": 51.470898,
+"end": 51.563778
+},
+{
+"word": "twenty",
+"start": 51.563778,
+"end": 51.82694
+},
+{
+"word": "twenty",
+"start": 51.82694,
+"end": 52.0901
+},
+{
+"word": "five",
+"start": 52.0901,
+"end": 52.492577
+},
+{
+"word": "were",
+"start": 52.492577,
+"end": 52.631897
+},
+{
+"word": "detained",
+"start": 52.631897,
+"end": 53.04986
+},
+{
+"word": "during",
+"start": 53.04986,
+"end": 53.328495
+},
+{
+"word": "the",
+"start": 53.328495,
+"end": 53.421375
+},
+{
+"word": "war,",
+"start": 53.421375,
+"end": 53.870296
+},
+{
+"word": "not",
+"start": 54.133453,
+"end": 54.412094
+},
+{
+"word": "convicted.",
+"start": 54.412094,
+"end": 54.96937
+},
+{
+"word": "Bringing",
+"start": 55.511173,
+"end": 55.88269
+},
+{
+"word": "people",
+"start": 55.88269,
+"end": 56.11489
+},
+{
+"word": "home",
+"start": 56.11489,
+"end": 56.33161
 },
 {
 "word": "is",
-"start": 40.54204,
-"end": 40.665882
+"start": 56.33161,
+"end": 56.43997
+},
+{
+"word": "right.",
+"start": 56.43997,
+"end": 56.74957
+},
+{
+"word": "It",
+"start": 56.87341,
+"end": 57.01273
+},
+{
+"word": "matters",
+"start": 57.01273,
+"end": 57.353287
+},
+{
+"word": "who",
+"start": 57.353287,
+"end": 57.430687
+},
+{
+"word": "walks",
+"start": 57.430687,
+"end": 57.709328
+},
+{
+"word": "out.",
+"start": 57.709328,
+"end": 57.97249
+},
+{
+"word": "So",
+"start": 58.034405,
+"end": 58.220165
+},
+{
+"word": "when",
+"start": 58.220165,
+"end": 58.359486
+},
+{
+"word": "people",
+"start": 58.359486,
+"end": 58.607166
+},
+{
+"word": "ask",
+"start": 58.607166,
+"end": 58.932243
+},
+{
+"word": "what",
+"start": 58.932243,
+"end": 59.118004
+},
+{
+"word": "one",
+"start": 59.118004,
+"end": 59.350204
+},
+{
+"word": "Israeli",
+"start": 59.350204,
+"end": 59.69076
+},
+{
+"word": "life",
+"start": 59.69076,
+"end": 59.922962
+},
+{
+"word": "is",
+"start": 59.922962,
+"end": 60.046803
 },
 {
 "word": "worth,",
-"start": 40.665882,
-"end": 41.05288
+"start": 60.046803,
+"end": 60.309963
 },
 {
 "word": "start",
-"start": 41.20768,
-"end": 41.53276
+"start": 60.309963,
+"end": 60.61956
 },
 {
 "word": "with",
-"start": 41.53276,
-"end": 41.625637
+"start": 60.61956,
+"end": 60.7434
 },
 {
 "word": "this:",
-"start": 41.625637,
-"end": 42.012638
+"start": 60.7434,
+"end": 61.09944
 }
 ]

@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*1* soldier. How many|prisoners?",
- "duration": 41.77,
+ "duration": 56.93,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -0.7
  },
  "outputs": {
   "mp4": "out/shalit_1027.mp4",
@@ -48,7 +48,7 @@
   }
  ],
  "transcript": {
-  "score": 0.969,
+  "score": 0.97,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -62,12 +62,12 @@
     "flag": "ok"
    },
    {
-    "line": "Twenty living hostages came home from Gaza.",
+    "line": "Twenty living hostages came home from Gaza, after two years in captivity.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Israel freed one thousand nine hundred and sixty eight prisoners.",
+    "line": "Israel freed one thousand nine hundred and sixty eight prisoners. Two hundred and fifty were serving life or long sentences.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -87,8 +87,8 @@
     "flag": "ok"
    },
    {
-    "line": "Now go back to twenty eleven. One soldier: Gilad Shalit.",
-    "score": 0.9,
+    "line": "Now go back to twenty eleven. One soldier: Gilad Shalit. HAMAS held him in Gaza.",
+    "score": 0.867,
     "flag": "ok"
    },
    {
@@ -97,7 +97,7 @@
     "flag": "ok"
    },
    {
-    "line": "The most senior of them was Yahya Sinwar.",
+    "line": "The most senior of them was Yahya Sinwar. Al Jazeera called him the most prominent prisoner released.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -107,8 +107,8 @@
     "flag": "ok"
    },
    {
-    "line": "Many of those freed in twenty twenty five were detained during the war, not convicted.",
-    "score": 0.933,
+    "line": "Many of those freed in twenty twenty five were detained during the war, not convicted. Bringing people home is right. It matters who walks out.",
+    "score": 0.96,
     "flag": "ok"
    },
    {
@@ -117,12 +117,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "One Israeli soldier. How many prisoners did Israel free to bring him home? Start with October 2025. 20 living hostages came home from Gaza. Israel freed 1,968 prisoners. About 98 for every living hostage. Earlier that year, the deal set a price in advance. 30 prisoners for each civilian, 50 for each soldier. Now go back to 2011. One soldier, Gilad Shalit. To bring him home, Israel freed 1,027 prisoners. The most senior of them was Yahya Sinwar. 12 years later, he was the mastermind of October 7th. Many of those freed in 2025 were detained during the war, not convicted. So when people ask what one Israeli life is worth, start with this.",
+  "heard": "One Israeli soldier. How many prisoners did Israel free to bring him home? Start with October 2025. 20 living hostages came home from Gaza after two years in captivity. Israel freed 1,968 prisoners. 250 were serving life or long sentences. About 98 for every living hostage. Earlier that year, the deal set a price in advance. 30 prisoners for each civilian. 50 for each soldier. Now go back to 2011. soldier, Gilad Shalit. Hamas held him in Gaza. To bring him home, Israel freed 1,027 prisoners. The most senior of them was Yahya Sinwar. Al Jazeera called him the most prominent prisoner released. 12 years later, he was the mastermind of October 7th. Many of those freed in 2025 were detained during the war, not convicted. Bringing people home is right, it matters who walks out. So when people ask what one Israeli life is worth, start with this.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 40.26,
+ "body_s": 55.42,
  "opener": {
   "style": "map_fold",
   "opener_s": 2.4,
@@ -130,8 +130,8 @@
  },
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 99.6
+ "render_s": 97.5
 }
