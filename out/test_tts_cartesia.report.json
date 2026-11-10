@@ -19,7 +19,7 @@
   "3": "out/frames/test_tts_cartesia_3.jpg",
   "last": "out/frames/test_tts_cartesia_last.jpg"
  },
- "caption_en": "TEST RENDER, not for posting.",
+ "caption_en": "TEST RENDER, not for posting (plan job check).",
  "caption_he": "בדיקה, לא לפרסום.",
  "hashtags": [],
  "sources": [
@@ -50,5 +50,5 @@
   "true_peak": -2.2
  },
  "lint_warnings": [],
- "render_s": 8.2
+ "render_s": 11.6
 }
