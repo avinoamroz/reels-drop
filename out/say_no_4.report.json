@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "scorecard",
  "hook": "*4* tests: who can|say *no?*",
- "duration": 48.73,
+ "duration": 54.0,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -2.2
+  "lufs": -16.1,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/say_no_4.mp4",
@@ -34,7 +34,7 @@
   }
  ],
  "transcript": {
-  "score": 0.969,
+  "score": 0.986,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -54,7 +54,7 @@
    },
    {
     "line": "Test three: can people gather and protest freely?",
-    "score": 0.875,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -74,7 +74,7 @@
    },
    {
     "line": "Lebanon: two. Protest, yes. Votes and press, partly. Judges, no.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -83,8 +83,8 @@
     "flag": "ok"
    },
    {
-    "line": "Israel's total is seventy three out of a hundred, and it doesn't cover the West Bank.",
-    "score": 0.938,
+    "line": "Israel's total is seventy three out of a hundred. Not perfect. And that score doesn't cover the West Bank or Gaza, which are rated separately.",
+    "score": 0.96,
     "flag": "ok"
    },
    {
@@ -93,14 +93,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Where in the Middle East can you say no to your leaders? Four tests. Seven countries. Scored by Freedom House. Test 1. Can you vote the leader out in a free election? Test 2. Can newspapers criticize the government freely? Test 3. Can people gather in protest freely? Test 4. Are judges independent, free from the government? Egypt and Saudi Arabia. Zero out of four. Not one test passed. Jordan, Syria and Iraq. Half a point each. One test passed only partly. Lebanon, two. Protest, yes. Votes in press, partly. Judges, no. Israel, four out of four. The only full score of the seven. Israel's total is 73 out of 100, and it doesn't cover the West Bank. So next time someone says Israel silences people, ask them.",
+  "heard": "Where in the Middle East can you say no to your leaders? Four tests. Seven countries. Scored by Freedom House. Test one. Can you vote the leader out in a free election? Test two. Can newspapers criticize the government freely? Test three. Can people gather and protest freely? Test four. Are judges independent, free from the government? Egypt and Saudi Arabia? Zero out of four. Not one test passed. Jordan, Syria and Iraq. half a point each. One test passed only partly. Lebanon, two. Protest, yes. Votes and press, partly. Judges, no. Israel, four out of four. The only full score of the seven. Israel's total is 73 out of 100, not perfect. And that score doesn't cover the West Bank or Gaza, which are rated separately. So next time someone says Israel silences people, ask them.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -2.2
+  "lufs": -16.1,
+  "true_peak": -2.1
  },
  "order": [
   "Israel",
@@ -112,5 +112,5 @@
   "Saudi Arabia"
  ],
  "lint_warnings": [],
- "render_s": 106.0
+ "render_s": 137.9
 }
