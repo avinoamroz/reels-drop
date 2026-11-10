@@ -1,522 +1,622 @@
 [
 {
 "word": "Research",
-"start": 0.03095994,
-"end": 0.6656387
+"start": 0.4024792,
+"end": 0.85139835
 },
 {
 "word": "spending,",
-"start": 0.69659865,
-"end": 1.3777173
+"start": 0.85139835,
+"end": 1.3931973
 },
 {
 "word": "as",
-"start": 1.6873167,
-"end": 1.8575964
+"start": 1.547997,
+"end": 1.7337567
 },
 {
 "word": "a",
-"start": 1.8575964,
-"end": 1.9195162
+"start": 1.7337567,
+"end": 1.7801965
 },
 {
 "word": "share",
-"start": 1.9195162,
-"end": 2.2291157
+"start": 1.7801965,
+"end": 2.2136357
 },
 {
 "word": "of",
-"start": 2.2291157,
-"end": 2.3065155
+"start": 2.2136357,
+"end": 2.3219955
 },
 {
 "word": "the",
-"start": 2.3065155,
-"end": 2.4303553
+"start": 2.3219955,
+"end": 2.445835
 },
 {
 "word": "economy.",
-"start": 2.4303553,
-"end": 3.0031142
+"start": 2.445835,
+"end": 3.018594
 },
 {
 "word": "Who's",
-"start": 3.4210734,
-"end": 3.7461526
+"start": 3.3127136,
+"end": 3.622313
 },
 {
 "word": "number",
-"start": 3.7461526,
-"end": 4.024792
+"start": 3.622313,
+"end": 3.9164324
 },
 {
 "word": "one",
-"start": 4.024792,
+"start": 3.9164324,
+"end": 4.102192
+},
+{
+"word": "in",
+"start": 4.102192,
 "end": 4.1950717
 },
 {
-"word": "in",
-"start": 4.1950717,
-"end": 4.2879515
-},
-{
 "word": "the",
-"start": 4.2879515,
-"end": 4.3498716
+"start": 4.1950717,
+"end": 4.241512
 },
 {
 "word": "world?",
-"start": 4.3498716,
-"end": 4.736871
+"start": 4.241512,
+"end": 4.551111
 },
 {
 "word": "Start",
-"start": 5.0774302,
-"end": 5.402509
+"start": 4.9071503,
+"end": 5.26319
 },
 {
 "word": "next",
-"start": 5.402509,
-"end": 5.619229
+"start": 5.26319,
+"end": 5.4799094
 },
 {
-"word": "door.",
-"start": 5.619229,
-"end": 5.9752684
+"word": "door,",
+"start": 5.4799094,
+"end": 5.774029
 },
 {
-"word": "Saudi",
-"start": 6.207468,
-"end": 6.578987
-},
-{
-"word": "Arabia:",
-"start": 6.578987,
-"end": 7.089826
-},
-{
-"word": "zero",
-"start": 7.105306,
-"end": 7.5387454
-},
-{
-"word": "point",
-"start": 7.5387454,
-"end": 7.709025
-},
-{
-"word": "six",
-"start": 7.709025,
-"end": 8.018624
-},
-{
-"word": "percent.",
-"start": 8.018624,
-"end": 8.529464
-},
-{
-"word": "Jordan:",
-"start": 8.575903,
-"end": 9.1177025
-},
-{
-"word": "zero",
-"start": 9.1177025,
-"end": 9.504702
-},
-{
-"word": "point",
-"start": 9.535662,
-"end": 9.752381
-},
-{
-"word": "seven.",
-"start": 9.752381,
-"end": 10.26322
-},
-{
-"word": "Iran:",
-"start": 10.38706,
-"end": 11.037218
-},
-{
-"word": "zero",
-"start": 11.130098,
-"end": 11.486137
-},
-{
-"word": "point",
-"start": 11.486137,
-"end": 11.702857
-},
-{
-"word": "seven.",
-"start": 11.702857,
-"end": 12.120816
-},
-{
-"word": "Egypt:",
-"start": 12.399456,
-"end": 12.956735
-},
-{
-"word": "one",
-"start": 13.173454,
-"end": 13.467574
-},
-{
-"word": "percent.",
-"start": 13.467574,
-"end": 13.978413
-},
-{
-"word": "Turkey:",
-"start": 14.427332,
-"end": 14.9691305
-},
-{
-"word": "two",
-"start": 15.062011,
-"end": 15.30969
-},
-{
-"word": "point",
-"start": 15.30969,
-"end": 15.541889
-},
-{
-"word": "four.",
-"start": 15.541889,
-"end": 15.928889
-},
-{
-"word": "Lebanon",
-"start": 16.23849,
-"end": 16.780287
-},
-{
-"word": "and",
-"start": 16.780287,
-"end": 16.888647
-},
-{
-"word": "Syria:",
-"start": 16.888647,
-"end": 17.399487
-},
-{
-"word": "no",
-"start": 17.585245,
-"end": 17.848406
-},
-{
-"word": "data.",
-"start": 17.848406,
-"end": 18.219925
-},
-{
-"word": "Now",
-"start": 18.668844,
-"end": 18.808163
+"word": "with",
+"start": 5.9288282,
+"end": 6.1145883
 },
 {
 "word": "the",
-"start": 18.808163,
-"end": 18.932003
+"start": 6.1145883,
+"end": 6.191988
 },
 {
-"word": "world's",
-"start": 18.932003,
-"end": 19.288042
+"word": "countries",
+"start": 6.191988,
+"end": 6.671867
 },
 {
-"word": "big",
-"start": 19.288042,
-"end": 19.473803
-},
-{
-"word": "spenders.",
-"start": 19.473803,
-"end": 20.0156
-},
-{
-"word": "Germany:",
-"start": 20.309721,
-"end": 20.882479
-},
-{
-"word": "three",
-"start": 21.03728,
-"end": 21.331398
-},
-{
-"word": "point",
-"start": 21.331398,
-"end": 21.548119
-},
-{
-"word": "one.",
-"start": 21.548119,
-"end": 21.811277
-},
-{
-"word": "Japan",
-"start": 22.058956,
-"end": 22.647196
-},
-{
-"word": "and",
-"start": 22.678156,
-"end": 22.894875
-},
-{
-"word": "America:",
-"start": 22.894875,
-"end": 23.467634
-},
-{
-"word": "three",
-"start": 23.560514,
-"end": 23.854633
-},
-{
-"word": "point",
-"start": 23.854633,
-"end": 24.086832
-},
-{
-"word": "four.",
-"start": 24.086832,
-"end": 24.535751
-},
-{
-"word": "Sweden:",
-"start": 24.752472,
-"end": 25.32523
-},
-{
-"word": "three",
-"start": 25.55743,
-"end": 25.83607
-},
-{
-"word": "point",
-"start": 25.83607,
-"end": 26.03731
-},
-{
-"word": "six.",
-"start": 26.06827,
-"end": 26.517189
-},
-{
-"word": "South",
-"start": 26.950628,
-"end": 27.275707
-},
-{
-"word": "Korea:",
-"start": 27.275707,
-"end": 27.724627
-},
-{
-"word": "almost",
-"start": 27.848465,
-"end": 28.142586
-},
-{
-"word": "five.",
-"start": 28.142586,
-"end": 28.498625
-},
-{
-"word": "Liechtenstein:",
-"start": 28.993984,
-"end": 29.659622
-},
-{
-"word": "six.",
-"start": 29.89182,
-"end": 30.43362
-},
-{
-"word": "And",
-"start": 30.78966,
-"end": 30.9135
-},
-{
-"word": "number",
-"start": 30.9135,
-"end": 31.130219
-},
-{
-"word": "one:",
-"start": 31.130219,
-"end": 31.42434
+"word": "around",
+"start": 6.671867,
+"end": 7.0124264
 },
 {
 "word": "Israel.",
-"start": 31.641058,
-"end": 32.136417
+"start": 7.0124264,
+"end": 7.3994255
 },
 {
-"word": "Six",
-"start": 32.47698,
-"end": 32.802055
+"word": "Saudi",
+"start": 7.755465,
+"end": 8.204384
+},
+{
+"word": "Arabia:",
+"start": 8.204384,
+"end": 8.653303
+},
+{
+"word": "zero",
+"start": 9.071262,
+"end": 9.473742
 },
 {
 "word": "point",
-"start": 32.802055,
-"end": 32.956856
+"start": 9.473742,
+"end": 9.644021
 },
 {
-"word": "three",
-"start": 32.956856,
-"end": 33.220016
-},
-{
-"word": "five",
-"start": 33.220016,
-"end": 33.498653
+"word": "six",
+"start": 9.674981,
+"end": 9.953621
 },
 {
 "word": "percent.",
-"start": 33.498653,
-"end": 34.040455
+"start": 9.953621,
+"end": 10.402539
 },
 {
-"word": "Almost",
-"start": 34.458412,
-"end": 34.783493
+"word": "Jordan:",
+"start": 10.851459,
+"end": 11.362298
 },
 {
-"word": "double",
-"start": 34.783493,
-"end": 35.03117
+"word": "zero",
+"start": 12.074376,
+"end": 12.492335
 },
 {
-"word": "America's",
-"start": 35.03117,
-"end": 35.48009
+"word": "point",
+"start": 12.492335,
+"end": 12.770975
 },
 {
-"word": "share.",
-"start": 35.48009,
-"end": 35.89805
+"word": "seven.",
+"start": 12.770975,
+"end": 13.157974
 },
 {
-"word": "Money",
-"start": 36.40889,
-"end": 36.795887
+"word": "Iran:",
+"start": 13.514013,
+"end": 13.962933
 },
 {
-"word": "alone",
-"start": 36.795887,
-"end": 37.24481
+"word": "zero",
+"start": 14.442812,
+"end": 14.860771
 },
 {
-"word": "doesn't",
-"start": 37.24481,
-"end": 37.477005
+"word": "point",
+"start": 14.860771,
+"end": 15.108451
 },
 {
-"word": "make",
-"start": 37.477005,
-"end": 37.631805
+"word": "seven.",
+"start": 15.108451,
+"end": 15.49545
 },
 {
-"word": "ideas.",
-"start": 37.631805,
-"end": 38.266487
+"word": "Egypt:",
+"start": 16.006289,
+"end": 16.548088
 },
 {
-"word": "People",
-"start": 38.467724,
-"end": 38.777325
+"word": "one",
+"start": 16.780287,
+"end": 17.120846
 },
 {
-"word": "do,",
-"start": 38.777325,
-"end": 39.1024
+"word": "percent.",
+"start": 17.120846,
+"end": 17.600725
 },
 {
-"word": "in",
-"start": 39.427483,
-"end": 39.613243
+"word": "Turkey:",
+"start": 18.018684,
+"end": 18.467604
 },
 {
-"word": "every",
-"start": 39.613243,
-"end": 39.907364
+"word": "two",
+"start": 18.591444,
+"end": 18.792683
 },
 {
-"word": "country",
-"start": 39.907364,
-"end": 40.24792
+"word": "point",
+"start": 18.792683,
+"end": 18.978443
 },
 {
-"word": "here.",
-"start": 40.24792,
-"end": 40.51108
+"word": "four.",
+"start": 18.978443,
+"end": 19.334482
 },
 {
-"word": "So",
-"start": 41.02192,
-"end": 41.20768
+"word": "Lebanon",
+"start": 19.721481,
+"end": 20.26328
 },
 {
-"word": "next",
-"start": 41.20768,
-"end": 41.40892
+"word": "and",
+"start": 20.26328,
+"end": 20.48
 },
 {
-"word": "time",
-"start": 41.40892,
-"end": 41.56372
+"word": "Syria:",
+"start": 20.48,
+"end": 20.866999
 },
 {
-"word": "someone",
-"start": 41.56372,
-"end": 41.826878
+"word": "no",
+"start": 21.501678,
+"end": 21.733877
 },
 {
-"word": "asks",
-"start": 41.826878,
-"end": 42.13648
+"word": "data.",
+"start": 21.733877,
+"end": 22.089916
 },
 {
-"word": "what",
-"start": 42.13648,
-"end": 42.30676
-},
-{
-"word": "Israel",
-"start": 42.30676,
-"end": 42.585396
-},
-{
-"word": "gives",
-"start": 42.585396,
-"end": 42.771156
+"word": "Now",
+"start": 22.492395,
+"end": 22.631716
 },
 {
 "word": "the",
+"start": 22.631716,
+"end": 22.755556
+},
+{
+"word": "world's",
+"start": 22.755556,
+"end": 23.049675
+},
+{
+"word": "biggest",
+"start": 23.049675,
+"end": 23.390234
+},
+{
+"word": "spenders,",
+"start": 23.390234,
+"end": 23.962994
+},
+{
+"word": "the",
+"start": 24.009434,
+"end": 24.133272
+},
+{
+"word": "countries",
+"start": 24.133272,
+"end": 24.551231
+},
+{
+"word": "known",
+"start": 24.551231,
+"end": 24.829872
+},
+{
+"word": "for",
+"start": 24.829872,
+"end": 24.95371
+},
+{
+"word": "technology.",
+"start": 24.95371,
+"end": 25.60387
+},
+{
+"word": "Germany:",
+"start": 26.11471,
+"end": 26.563627
+},
+{
+"word": "three",
+"start": 27.105427,
+"end": 27.353107
+},
+{
+"word": "point",
+"start": 27.353107,
+"end": 27.523386
+},
+{
+"word": "one.",
+"start": 27.554346,
+"end": 27.771067
+},
+{
+"word": "Japan",
+"start": 28.080666,
+"end": 28.576025
+},
+{
+"word": "and",
+"start": 28.576025,
+"end": 28.761784
+},
+{
+"word": "America:",
+"start": 28.761784,
+"end": 29.303583
+},
+{
+"word": "three",
+"start": 29.396463,
+"end": 29.597702
+},
+{
+"word": "point",
+"start": 29.597702,
+"end": 29.814423
+},
+{
+"word": "four.",
+"start": 29.84538,
+"end": 30.232382
+},
+{
+"word": "Sweden:",
+"start": 30.77418,
+"end": 31.40886
+},
+{
+"word": "three",
+"start": 31.47078,
+"end": 31.702978
+},
+{
+"word": "point",
+"start": 31.702978,
+"end": 31.919697
+},
+{
+"word": "six.",
+"start": 31.950657,
+"end": 32.4615
+},
+{
+"word": "South",
+"start": 33.111656,
+"end": 33.452213
+},
+{
+"word": "Korea:",
+"start": 33.452213,
+"end": 33.932095
+},
+{
+"word": "almost",
+"start": 34.009495,
+"end": 34.381012
+},
+{
+"word": "five.",
+"start": 34.381012,
+"end": 34.737053
+},
+{
+"word": "Liechtenstein:",
+"start": 35.44913,
+"end": 36.23861
+},
+{
+"word": "six.",
+"start": 36.30053,
+"end": 36.842327
+},
+{
+"word": "And",
+"start": 37.554405,
+"end": 37.647285
+},
+{
+"word": "number",
+"start": 37.647285,
+"end": 37.879486
+},
+{
+"word": "one",
+"start": 37.879486,
+"end": 38.065247
+},
+{
+"word": "in",
+"start": 38.065247,
+"end": 38.158127
+},
+{
+"word": "the",
+"start": 38.158127,
+"end": 38.251007
+},
+{
+"word": "whole",
+"start": 38.251007,
+"end": 38.390324
+},
+{
+"word": "world:",
+"start": 38.390324,
+"end": 38.761845
+},
+{
+"word": "Israel.",
+"start": 38.839245,
+"end": 39.319122
+},
+{
+"word": "Six",
+"start": 39.9538,
+"end": 40.24792
+},
+{
+"word": "point",
+"start": 40.24792,
+"end": 40.43368
+},
+{
+"word": "three",
+"start": 40.43368,
+"end": 40.619442
+},
+{
+"word": "five",
+"start": 40.619442,
+"end": 40.85164
+},
+{
+"word": "percent.",
+"start": 40.85164,
+"end": 41.20768
+},
+{
+"word": "Almost",
+"start": 41.33152,
+"end": 41.672077
+},
+{
+"word": "double",
+"start": 41.672077,
+"end": 41.904278
+},
+{
+"word": "America's",
+"start": 41.904278,
+"end": 42.29128
+},
+{
+"word": "share,",
+"start": 42.29128,
+"end": 42.678276
+},
+{
+"word": "and",
 "start": 42.771156,
-"end": 42.848557
+"end": 42.956917
+},
+{
+"word": "far",
+"start": 42.956917,
+"end": 43.189117
+},
+{
+"word": "ahead",
+"start": 43.189117,
+"end": 43.467754
+},
+{
+"word": "of",
+"start": 43.467754,
+"end": 43.591595
+},
+{
+"word": "every",
+"start": 43.591595,
+"end": 43.823795
+},
+{
+"word": "neighbour.",
+"start": 43.823795,
+"end": 44.148872
+},
+{
+"word": "Money",
+"start": 44.551353,
+"end": 44.783554
+},
+{
+"word": "alone",
+"start": 44.783554,
+"end": 45.00027
+},
+{
+"word": "doesn't",
+"start": 45.00027,
+"end": 45.23247
+},
+{
+"word": "make",
+"start": 45.23247,
+"end": 45.38727
+},
+{
+"word": "ideas.",
+"start": 45.38727,
+"end": 45.89811
+},
+{
+"word": "People",
+"start": 46.43991,
+"end": 46.734028
+},
+{
+"word": "do,",
+"start": 46.734028,
+"end": 46.91979
+},
+{
+"word": "in",
+"start": 46.91979,
+"end": 46.99719
+},
+{
+"word": "every",
+"start": 46.99719,
+"end": 47.18295
+},
+{
+"word": "country",
+"start": 47.18295,
+"end": 47.477066
+},
+{
+"word": "here.",
+"start": 47.477066,
+"end": 47.755707
+},
+{
+"word": "So",
+"start": 48.359425,
+"end": 48.560665
+},
+{
+"word": "next",
+"start": 48.560665,
+"end": 48.808346
+},
+{
+"word": "time",
+"start": 48.808346,
+"end": 49.164383
+},
+{
+"word": "someone",
+"start": 49.195343,
+"end": 49.551384
+},
+{
+"word": "asks",
+"start": 49.551384,
+"end": 50.06222
+},
+{
+"word": "what",
+"start": 50.1551,
+"end": 50.371822
+},
+{
+"word": "Israel",
+"start": 50.371822,
+"end": 50.6969
+},
+{
+"word": "gives",
+"start": 50.6969,
+"end": 50.89814
+},
+{
+"word": "the",
+"start": 50.89814,
+"end": 50.99102
 },
 {
 "word": "world,",
-"start": 42.848557,
-"end": 43.220074
+"start": 50.99102,
+"end": 51.33158
 },
 {
 "word": "ask",
-"start": 43.638035,
-"end": 43.932156
+"start": 51.470898,
+"end": 51.81146
 },
 {
 "word": "them:",
-"start": 43.932156,
-"end": 44.179832
+"start": 51.81146,
+"end": 52.04366
 }
 ]

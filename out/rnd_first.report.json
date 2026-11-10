@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Research spending:|who's *#1?*",
- "duration": 44.43,
+ "duration": 50.3,
  "audio": {
-  "lufs": -16.2,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "outputs": {
@@ -34,16 +34,16 @@
   }
  ],
  "transcript": {
-  "score": 1.0,
+  "score": 0.976,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Research spending, as a share of the economy. Who's number one in the world?",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
-    "line": "Start next door.",
+    "line": "Start next door, with the countries around Israel.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -63,8 +63,8 @@
     "flag": "ok"
    },
    {
-    "line": "Now the world's big spenders.",
-    "score": 1.0,
+    "line": "Now the world's biggest spenders, the countries known for technology.",
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -83,13 +83,13 @@
     "flag": "ok"
    },
    {
-    "line": "And number one: Israel. Six point three five percent.",
+    "line": "And number one in the whole world: Israel. Six point three five percent.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Almost double America's share.",
-    "score": 1.0,
+    "line": "Almost double America's share, and far ahead of every neighbour.",
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -103,21 +103,21 @@
     "flag": "ok"
    }
   ],
-  "heard": "Research. Spending. As a share of the economy. Who's number one in the world? Start next door. Saudi Arabia 0.6%, Jordan 0.7%, Iran 0.7%, Egypt 1%, Turkey 2.4%, Lebanon and Syria no data. Now the world's big spenders. Germany 3.1%, Japan and America 3.4%, Sweden 3.6%, South Korea, almost 5, Liechtenstein, 6, and number 1, Israel, 6.35%. Almost double America's share. Money alone doesn't make ideas. People do, in every country here. So next time someone asks what Israel gives the world, ask them.",
+  "heard": "Research spending has a share of the economy. Who's number one in the world? Start next door with the countries around Israel. Saudi Arabia 0.6%, Jordan 0.7%, Iran 0.7%, Egypt 1%, Turkey 2.4%, Lebanon and Syria. No data. Now the world's biggest spenders, the country is known for technology, Germany 3.1%, Japan and America 3.4, Sweden 3.6, South Korea almost 5, Liechtenstein 6, and number one in the whole world, Israel 6.35%, almost double America's share and far ahead of every neighbor. Money alone doesn't make ideas. People do in every country here. So next time someone asks what Israel gives the world, ask them.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 42.95,
+ "body_s": 48.79,
  "opener": {
   "style": "map_tear_v2",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -1.9
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 119.9
+ "render_s": 132.2
 }
