@@ -1,0 +1,59 @@
+{
+ "id": "test_map_un",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*15* of *26* UN|condemnations?",
+ "duration": 47.03,
+ "audio": {
+  "lufs": -15.9,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/test_map_un.mp4",
+  "cover": "covers/test_map_un_cover.jpg",
+  "preview": "previews/test_map_un_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_map_un_0.jpg",
+  "1": "out/frames/test_map_un_1.jpg",
+  "3": "out/frames/test_map_un_3.jpg",
+  "last": "out/frames/test_map_un_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting. 15 of 26 UN General Assembly condemnations in 2025 went to one country.",
+ "caption_he": "בדיקת תבנית, לא לפרסום.",
+ "hashtags": [
+  "#Israel",
+  "#UN",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "UN Watch, UNGA resolutions on Israel vs rest of world",
+   "year": 2025,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Population: UN World Population Prospects",
+   "year": 2024,
+   "at": "L7",
+   "until": "L10"
+  }
+ ],
+ "min_font_px": 300,
+ "transcript": null,
+ "status": "rendered, not posted",
+ "voice": "pre-made voice file voice/test_map_un_vo.wav",
+ "body_s": 45.55,
+ "opener": {
+  "style": "globe_spin_whip",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 223.3
+}
