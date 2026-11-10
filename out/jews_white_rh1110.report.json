@@ -1,0 +1,62 @@
+{
+ "id": "jews_white_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*9* places.|*One* skin color?",
+ "duration": 53.9,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -3.6
+ },
+ "outputs": {
+  "mp4": "out/jews_white_rh1110.mp4",
+  "cover": "covers/jews_white_rh1110_cover.jpg",
+  "preview": "previews/jews_white_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/jews_white_rh1110_0.jpg",
+  "1": "out/frames/jews_white_rh1110_1.jpg",
+  "3": "out/frames/jews_white_rh1110_3.jpg",
+  "last": "out/frames/jews_white_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of jews_white. Caption in posting/queue/gh/jews_white_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Pew Research Center",
+   "year": 2016
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2024
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Here is a white Jew from Yemen, a white Jew from Ethiopia, very white, Morocco, white, Iraq, also white, Iran, Persian white, Kurdistan, Kurdish white, Bukhara, and Uzbekistan, white, India, extremely white, and Poland, okay, this one is actually white, all white, can't you see? Here's the thing. About half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East and Asia. And almost 180,000 Israelis have roots in Ethiopia. Nine places on this map. Thousands of kilometers apart. One people. Jews are not a skin color. We're a people. So next time someone tells you...",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "jews_white.mp4",
+ "cut": 5.35,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.6
+ },
+ "body_kept_s": 51.95,
+ "lint_warnings": [],
+ "render_s": 48.4
+}
