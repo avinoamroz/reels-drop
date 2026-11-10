@@ -1,0 +1,58 @@
+{
+ "id": "recognised_first_map_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Which *23* countries|still say no?",
+ "duration": 50.0,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.7
+ },
+ "outputs": {
+  "mp4": "out/recognised_first_map_rh1110.mp4",
+  "cover": "covers/recognised_first_map_rh1110_cover.jpg",
+  "preview": "previews/recognised_first_map_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/recognised_first_map_rh1110_0.jpg",
+  "1": "out/frames/recognised_first_map_rh1110_1.jpg",
+  "3": "out/frames/recognised_first_map_rh1110_3.jpg",
+  "last": "out/frames/recognised_first_map_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of recognised_first_map. Caption in posting/queue/gh/recognised_first_map_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia, International recognition of Israel",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.987,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "14th, 1948. Israel declares independence. By the end of that year, 17 countries. By 1950, 47. In the 60s, dozens of newly independent African states. 1979. Egyp",
+    "score": 0.987,
+    "flag": "ok"
+   }
+  ],
+  "heard": "May 14, 1948 Israel declares independence. By the end of that year, 17 countries. By 1950, 47. In the 60s, dozens of newly independent African states, 1979. Egypt, the first Arab country. Then the Soviet Union falls. 40 more countries in the 90s, including Jordan, 2020. The UAE, Bahrain, and Morocco. 21 more, with no date on record. Today, 169 of the other 192 UN members, 23 still say no. 22 of them are Muslim-majority countries. The other is North Korea. Recognizing is not agreeing. Many of them criticize Israel too. And the first? 11 minutes after the declaration, the United States. Three days later, the first full legal recognition, the Soviet Union. So next time, someone asks you.",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "recognised_first_map.mp4",
+ "cut": 1.85,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -3.7
+ },
+ "body_kept_s": 48.08,
+ "lint_warnings": [],
+ "render_s": 66.6
+}
