@@ -1,0 +1,8 @@
+{
+  "id": "x_slang_sachtein",
+  "ok": true,
+  "rc": "0",
+  "secs": "29",
+  "run": "42768140379",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   2.9s] [sse] 38 words timed from Cartesia timestamps, k 0.9999\n[   2.9s] voice 23.47s, lines 0.30-3.31, 4.30-5.70, 7.60-8.85, 10.75-12.45, 14.15-15.18, 16.39-18.35, 19.57-20.84, 22.06-23.46\n[   2.9s] timeline: 3 scenes, T_END 26.10s, warnings []\n[   4.5s] [mix] input -20.7 LUFS, gain +4.8 dB, 7 SFX -> /home/claude/express_slang/x_slang_sachtein/out/work/mix.wav\n[   4.6s] [render] frame 0/783  0s\n[   7.7s] [render] frame 150/783  3s\n[  11.0s] [render] frame 300/783  7s\n[  14.3s] [render] frame 450/783  10s\n[  17.4s] [render] frame 600/783  13s\n[  20.5s] [render] frame 750/783  16s\n\nvideo 1080x1920 30/1 26.1s aac 48000 Hz: -16.0 LUFS, TP -2.2 dBTP, 3.04 MB (CHECK)\nweb 540x960 1.39 MB (ok), -16.0 LUFS, TP -2.2\nhook: ok (frame-0 text 10, motion 2.37)\ndashes: ok (0 replaced)\nlayout issues: 20\nstages {'voice_align_s': 1.6, 'timeline_s': 0.0, 'mix_s': 1.6, 'render_s': 17.6, 'web_s': 4.7, 'qa_s': 2.1, 'total_s': 28.8}\n"
+}
