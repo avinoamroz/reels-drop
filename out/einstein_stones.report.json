@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "pun_ladder",
  "hook": "Einstein means|*ONE* stone. So...",
- "duration": 45.77,
+ "duration": 43.2,
  "audio": {
-  "lufs": -16.2,
+  "lufs": -16.1,
   "true_peak": -1.7
  },
  "outputs": {
@@ -83,7 +83,7 @@
   }
  ],
  "transcript": {
-  "score": 0.853,
+  "score": 0.904,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -92,19 +92,19 @@
     "flag": "ok"
    },
    {
-    "line": "So, Tsvystine? Two stones.",
-    "score": 0.75,
+    "line": "So, Tsvai stine? Two stones.",
+    "score": 0.6,
     "flag": "MISS"
    },
    {
-    "line": "Drystine? Three stones.",
-    "score": 0.667,
+    "line": "Dry stine? Three stones.",
+    "score": 0.5,
     "flag": "MISS"
    },
    {
     "line": "Feerstine? Four stones. And the professor is buried.",
-    "score": 0.875,
-    "flag": "ok"
+    "score": 0.625,
+    "flag": "MISS"
    },
    {
     "line": "Okay, forget counting. Let's upgrade the material.",
@@ -118,8 +118,8 @@
    },
    {
     "line": "Silverstein. A silver stone.",
-    "score": 0.75,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Rubinstein. A ruby stone.",
@@ -138,17 +138,17 @@
    },
    {
     "line": "Weinstein. Wine stone, the crystals that form in wine barrels.",
-    "score": 0.8,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Eisenstein. Iron stone. Never arm wrestle them.",
-    "score": 0.143,
+    "score": 0.714,
     "flag": "MISS"
    },
    {
     "line": "Finkelstein is often said to mean spark stone. Basically a lighter.",
-    "score": 0.909,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -163,21 +163,21 @@
    },
    {
     "line": "And Einstein? He killed two birds with one stone.",
-    "score": 0.889,
+    "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "Einstein means one stone. So it's Fissie? Two stones. Christie? Three stones. Fierstein? Four stones. And the professor is buried. Okay, forget counting. Let's upgrade the material. Goldstein. A gold stone. Silver steel. Silver stone. Rubenstein. A ruby stone. Bernstein. In German, that word literally means amber. Edelstein. A gemstone. Very fancy. Weinstein. Weinstein. The crystals that form in wine barrels. Finklestein is often said to mean spark stone, basically a lighter, and the stone that went wrong? Frankenstein. The stone of the Franks. It's alive. An Einstein? It killed two birds with one stone.",
+  "heard": "Einstein means one stone. So, it's Weizstein, two stones, Dreystein, three stones, Wierstein, four stones, and the professor's bearing. Okay, forget counting. Let's upgrade the material. Goldstein, a gold stone, Silverstein, a silver stone, Rubenstein, a ruby stone, Bernstein, in German that word literally means amber, Edelstein, a gemstone, very fancy, Weinstein, wine stone, the crystals that form in wine barrels, Eisenstein, iron stone, never arm wrestler. Finkelstein is often said to mean spark stone, basically a lighter. And the stone that went wrong? Frankenstein. The stone of the Franks. It's alive. And Einstein? He killed two birds with one stone.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.2,
+  "lufs": -16.1,
   "true_peak": -1.7
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 100.9
+ "render_s": 75.5
 }
