@@ -1,0 +1,62 @@
+{
+ "id": "but_they_helped_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Israel the worst?|*5* facts disagree",
+ "duration": 59.67,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.1
+ },
+ "outputs": {
+  "mp4": "out/but_they_helped_rh1110.mp4",
+  "cover": "covers/but_they_helped_rh1110_cover.jpg",
+  "preview": "previews/but_they_helped_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/but_they_helped_rh1110_0.jpg",
+  "1": "out/frames/but_they_helped_rh1110_1.jpg",
+  "3": "out/frames/but_they_helped_rh1110_3.jpg",
+  "last": "out/frames/but_they_helped_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of but_they_helped. Caption in posting/queue/gh/but_they_helped_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "IDF via Jerusalem Post",
+   "year": 2023
+  },
+  {
+   "label": "Save a Child's Heart",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.982,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Yes, wait, they sent rescuers when the earthquake hit Turkey. February 2023, Israel's army team pulled 19 people out of the rubble. Still the worst. But they tr",
+    "score": 0.982,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Yes, wait, they sent rescuers when the earthquake hit Turkey. February 2023, Israel's army team pulled 19 people out of the rubble. Still the worst. But they treated thousands of wounded Syrians. More than 4,900 Syrians in Israeli hospitals. Still the worst. But the drip irrigation everyone uses is Israeli. Invented on a kibbutz in 1965. Today, farmers in 110 countries use it. Still. kids in their heart surgery program are Palestinian or Arab. Save a child's heart over 8,000 children, about half from Palestinian areas and Arab countries. Yeah, but they saved Sinwar's life. 2004 in an Israeli prison. A dentist spotted his brain abscess. He was operated on that same day. Still, it's not perfect. The war in Gaza has a heavy civilian toll and the criticism is real. So, criticism is fair. Getting rid of a country is not. Okay, from the top.",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "but_they_helped.mp4",
+ "cut": 2.4,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -3.1
+ },
+ "body_kept_s": 57.7,
+ "lint_warnings": [],
+ "render_s": 51.7
+}
