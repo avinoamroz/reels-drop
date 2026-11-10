@@ -40,8 +40,79 @@
    "until": "L10"
   }
  ],
- "min_font_px": 300,
- "transcript": null,
+ "transcript": {
+  "score": 0.991,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Fifteen out of twenty-six U.N. condemnations. One country.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every year, the General Assembly votes on who to condemn. Let's watch the scoreboard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Russia, which invaded Ukraine: six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The United States: two.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iran, North Korea, Myanmar: one each.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sudan, the world's largest displacement crisis: zero.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel: fifteen. More than the rest of the world combined.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now let's make it fair. Per ten million people.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Russia: under half a condemnation. Israel: almost fifteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's over a thousand times the rest of the world.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's war in Gaza deserves scrutiny, like any war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But fifteen to eleven isn't scrutiny. It's a pattern.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So next time someone quotes the U.N., remember:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "15 out of 26 UN condemnations. One country. Every year, the General Assembly votes on who to condemn. Let's watch the scoreboard. Russia, which invaded Ukraine. Six. The United States. Two. Iran. North Korea. Myanmar, one each. Sudan. The world's largest displacement crisis. Zero. And Israel? 15. More than the rest of the world combined. Now let's make it fair. For 10 million people, Russia, under half a condemnation, Israel, almost 15. That's over a thousand times the rest of the world. Israel's war in Gaza deserves scrutiny, like any war. But 15 to 11 isn't scrutiny, it's a pattern. So next time someone quotes the UN, remember?",
+  "expected": "spec lines"
+ },
  "status": "rendered, not posted",
  "voice": "pre-made voice file voice/test_map_un_vo.wav",
  "body_s": 45.55,
@@ -55,5 +126,5 @@
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 223.3
+ "render_s": 125.5
 }
