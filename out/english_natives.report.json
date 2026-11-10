@@ -1,0 +1,118 @@
+{
+ "id": "english_natives",
+ "account": "expressenglishcom",
+ "template": "map_counter",
+ "hook": "*1.5 billion* speak English.|Natives?",
+ "duration": 36.97,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -0.6
+ },
+ "outputs": {
+  "mp4": "out/english_natives.mp4",
+  "cover": "covers/english_natives_cover.jpg",
+  "preview": "previews/english_natives_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/english_natives_0.jpg",
+  "1": "out/frames/english_natives_1.jpg",
+  "3": "out/frames/english_natives_3.jpg",
+  "last": "out/frames/english_natives_last.jpg"
+ },
+ "caption_en": "1.5 billion people speak English. Only 390 million are native speakers.",
+ "caption_he": "מיליארד וחצי אנשים מדברים אנגלית. רק 390 מיליון מהם דוברים ילידיים. 🗣️\n\nכל השאר, 1.1 מיליארד, למדו אותה. בערך שלושה מכל ארבעה דוברי אנגלית בעולם הם בדיוק כמוך.\nאין שפה בעולם עם יותר לומדים: ערבית ספרותית 335 מיליון, הינדי 264, צרפתית 238, מנדרינית 194, ספרדית 74.\n\nהמבטא שלך הוא לא חריג. הוא הרוב. ובגלל זה הביזנס בעולם רץ באנגלית, מתל אביב ועד טוקיו.\n\nשלחו למישהו שמתבייש לדבר אנגלית בישיבות.\n\nמקור: Ethnologue 2025, דרך ויקיפדיה (List of languages by total number of speakers).",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#English",
+  "#אנגלית"
+ ],
+ "sources": [
+  {
+   "label": "Ethnologue, via Wikipedia list of languages by speakers",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.98,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One and a half billion people speak English. How many are native speakers?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Here's Ethnologue's count for twenty twenty five.",
+    "score": 0.714,
+    "flag": "MISS"
+   },
+   {
+    "line": "America, Britain, Canada, Australia, Ireland, New Zealand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Native speakers: three hundred and ninety million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now add everyone who learned it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "India. Nigeria. The Philippines. Germany. Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One point one billion learners.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's about three out of four English speakers. They learned it. Like you.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "No language on Earth has more learners.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's why business runs on it, from Tel Aviv to Tokyo.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Your accent isn't the exception. It's the majority.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So next time you're scared to speak in a meeting, remember:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "One and a half billion people speak English. How many are native speakers? Here's how analogs count for 2025. America, Britain, Canada, Australia, Ireland, New Zealand. Native speakers, 390 million. Now add everyone who learned it. India, Nigeria, the Philippines, Germany, Israel. One point one billion learners. That's about three out of four English speakers. They learned it, like you. No language on earth has more learners. That's why business runs on it, from Tel Aviv to Tokyo. Your accent isn't the exception, it's the majority. So next time you're scared to speak in a meeting, remember.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 35.48,
+ "opener": {
+  "style": "globe_spin_reverse",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 182.6
+}
