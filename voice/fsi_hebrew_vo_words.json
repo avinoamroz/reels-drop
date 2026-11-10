@@ -1,527 +1,632 @@
 [
 {
 "word": "American",
-"start": 0.55727893,
+"start": 0.57275885,
 "end": 1.021678
 },
 {
 "word": "diplomats",
 "start": 1.021678,
-"end": 1.5015571
+"end": 1.4396372
 },
 {
 "word": "rank",
-"start": 1.5015571,
-"end": 1.7956765
+"start": 1.4396372,
+"end": 1.6408768
 },
 {
 "word": "languages",
-"start": 1.7956765,
-"end": 2.2445955
+"start": 1.6408768,
+"end": 2.1826758
 },
 {
 "word": "in",
-"start": 2.2445955,
+"start": 2.1826758,
 "end": 2.3684354
 },
 {
 "word": "five",
 "start": 2.3684354,
-"end": 2.631595
+"end": 2.7244747
 },
 {
 "word": "levels",
-"start": 2.631595,
-"end": 2.9102342
+"start": 2.7244747,
+"end": 3.0031142
 },
 {
 "word": "of",
-"start": 2.9102342,
-"end": 3.018594
+"start": 3.0031142,
+"end": 3.065034
 },
 {
 "word": "hard.",
-"start": 3.018594,
-"end": 3.3901134
+"start": 3.065034,
+"end": 3.4520333
 },
 {
 "word": "Where's",
-"start": 3.8699925,
-"end": 4.133152
+"start": 4.133152,
+"end": 4.3808312
 },
 {
 "word": "Hebrew?",
-"start": 4.133152,
-"end": 4.613031
+"start": 4.3808312,
+"end": 4.89167
 },
 {
 "word": "The",
-"start": 5.18579,
-"end": 5.3096294
+"start": 5.402509,
+"end": 5.541829
 },
 {
 "word": "Foreign",
-"start": 5.3096294,
-"end": 5.572789
+"start": 5.541829,
+"end": 5.8514285
 },
 {
 "word": "Service",
-"start": 5.572789,
-"end": 5.8978686
+"start": 5.8514285,
+"end": 6.176508
 },
 {
 "word": "Institute",
-"start": 5.8978686,
-"end": 6.3467875
+"start": 6.176508,
+"end": 6.594467
 },
 {
 "word": "trains",
-"start": 6.3467875,
-"end": 6.656387
+"start": 6.594467,
+"end": 6.950506
 },
 {
 "word": "U.S.",
-"start": 6.656387,
-"end": 6.8885865
+"start": 6.950506,
+"end": 7.198186
 },
 {
 "word": "diplomats.",
-"start": 6.8885865,
-"end": 7.5542254
+"start": 7.198186,
+"end": 7.8328648
 },
 {
-"word": "Level",
-"start": 7.8173847,
-"end": 8.0960245
+"word": "It",
+"start": 8.065064,
+"end": 8.219864
 },
 {
-"word": "one:",
-"start": 8.0960245,
+"word": "measured",
+"start": 8.219864,
 "end": 8.513984
 },
 {
+"word": "how",
+"start": 8.513984,
+"end": 8.606863
+},
+{
+"word": "many",
+"start": 8.606863,
+"end": 8.854543
+},
+{
+"word": "class",
+"start": 8.854543,
+"end": 9.272502
+},
+{
+"word": "hours",
+"start": 9.272502,
+"end": 9.721421
+},
+{
+"word": "each",
+"start": 9.814301,
+"end": 10.0465
+},
+{
+"word": "language",
+"start": 10.0465,
+"end": 10.433499
+},
+{
+"word": "takes.",
+"start": 10.433499,
+"end": 10.882419
+},
+{
+"word": "Level",
+"start": 11.331338,
+"end": 11.640937
+},
+{
+"word": "one:",
+"start": 11.640937,
+"end": 11.904097
+},
+{
 "word": "Spanish,",
-"start": 8.777143,
-"end": 9.287982
+"start": 12.322056,
+"end": 13.111534
 },
 {
 "word": "French,",
-"start": 9.287982,
-"end": 9.597581
+"start": 13.405654,
+"end": 14.009373
 },
 {
 "word": "Italian,",
-"start": 9.597581,
-"end": 9.98458
-},
-{
-"word": "Dutch.",
-"start": 9.98458,
-"end": 10.34062
-},
-{
-"word": "About",
-"start": 10.975299,
-"end": 11.207499
-},
-{
-"word": "six",
-"start": 11.207499,
-"end": 11.455177
-},
-{
-"word": "hundred",
-"start": 11.455177,
-"end": 11.671897
-},
-{
-"word": "hours.",
-"start": 11.671897,
-"end": 12.167256
-},
-{
-"word": "Level",
-"start": 12.507815,
-"end": 12.770975
-},
-{
-"word": "two:",
-"start": 12.770975,
-"end": 13.219894
-},
-{
-"word": "German.",
-"start": 13.281814,
-"end": 13.823613
-},
-{
-"word": "Seven",
-"start": 14.396372,
-"end": 14.659532
-},
-{
-"word": "hundred",
-"start": 14.659532,
+"start": 14.179652,
 "end": 14.845291
 },
 {
+"word": "Dutch.",
+"start": 15.108451,
+"end": 15.603809
+},
+{
+"word": "About",
+"start": 15.836009,
+"end": 16.083689
+},
+{
+"word": "six",
+"start": 16.083689,
+"end": 16.377808
+},
+{
+"word": "hundred",
+"start": 16.377808,
+"end": 16.733847
+},
+{
+"word": "hours.",
+"start": 16.764807,
+"end": 17.337566
+},
+{
+"word": "Level",
+"start": 17.755526,
+"end": 18.003204
+},
+{
+"word": "two:",
+"start": 18.003204,
+"end": 18.359243
+},
+{
+"word": "German.",
+"start": 18.591444,
+"end": 19.071323
+},
+{
+"word": "Seven",
+"start": 19.58216,
+"end": 19.953682
+},
+{
+"word": "hundred",
+"start": 19.953682,
+"end": 20.18588
+},
+{
 "word": "and",
-"start": 14.845291,
-"end": 14.93817
+"start": 20.18588,
+"end": 20.27876
 },
 {
 "word": "fifty",
-"start": 14.93817,
-"end": 15.17037
+"start": 20.27876,
+"end": 20.54192
 },
 {
 "word": "hours.",
-"start": 15.17037,
-"end": 15.588329
+"start": 20.54192,
+"end": 21.0218
 },
 {
 "word": "Level",
-"start": 15.897929,
-"end": 16.130129
+"start": 21.393318,
+"end": 21.656477
 },
 {
 "word": "three:",
-"start": 16.130129,
-"end": 16.470688
+"start": 21.656477,
+"end": 21.950598
 },
 {
 "word": "Indonesian,",
-"start": 16.795767,
-"end": 17.461407
+"start": 22.399517,
+"end": 23.250916
 },
 {
 "word": "Malay,",
-"start": 17.476887,
-"end": 18.018684
+"start": 23.359274,
+"end": 23.870113
 },
 {
 "word": "Swahili.",
-"start": 18.204445,
-"end": 18.777203
+"start": 23.962994,
+"end": 24.535751
 },
 {
 "word": "Nine",
-"start": 19.040363,
-"end": 19.319002
+"start": 24.783432,
+"end": 25.07755
 },
 {
 "word": "hundred",
-"start": 19.319002,
-"end": 19.5512
+"start": 25.07755,
+"end": 25.309752
 },
 {
 "word": "hours.",
-"start": 19.5512,
-"end": 19.96916
+"start": 25.309752,
+"end": 25.774149
 },
 {
 "word": "Level",
-"start": 20.57288,
-"end": 20.820559
+"start": 26.13019,
+"end": 26.362389
 },
 {
 "word": "five,",
-"start": 20.820559,
-"end": 21.346878
+"start": 26.362389,
+"end": 26.842268
 },
 {
 "word": "the",
-"start": 21.501678,
-"end": 21.625517
+"start": 27.058987,
+"end": 27.182827
 },
 {
 "word": "hardest:",
-"start": 21.625517,
-"end": 22.136356
+"start": 27.182827,
+"end": 27.693666
 },
 {
 "word": "Arabic,",
-"start": 22.585276,
-"end": 23.127075
+"start": 28.189026,
+"end": 28.730824
 },
 {
 "word": "Mandarin,",
-"start": 23.452154,
-"end": 24.055874
+"start": 28.854664,
+"end": 29.396463
 },
 {
 "word": "Japanese,",
-"start": 24.086832,
-"end": 24.767952
+"start": 29.458382,
+"end": 30.000181
 },
 {
 "word": "Korean.",
-"start": 24.98467,
-"end": 25.43359
+"start": 30.000181,
+"end": 30.4491
 },
 {
 "word": "Twenty",
-"start": 25.97539,
-"end": 26.207588
+"start": 31.02186,
+"end": 31.285019
 },
 {
 "word": "two",
-"start": 26.207588,
-"end": 26.331429
+"start": 31.285019,
+"end": 31.43982
 },
 {
 "word": "hundred",
-"start": 26.331429,
-"end": 26.548147
+"start": 31.43982,
+"end": 31.672018
 },
 {
 "word": "hours.",
-"start": 26.548147,
-"end": 26.935148
+"start": 31.672018,
+"end": 32.059017
 },
 {
 "word": "And",
-"start": 27.353107,
-"end": 27.647226
+"start": 32.693695,
+"end": 32.848495
 },
 {
 "word": "Hebrew?",
-"start": 27.709146,
-"end": 28.158066
+"start": 32.848495,
+"end": 33.204536
 },
 {
 "word": "Level",
-"start": 28.792744,
-"end": 29.055902
+"start": 33.467693,
+"end": 33.746334
 },
 {
 "word": "four.",
-"start": 29.055902,
-"end": 29.334543
+"start": 33.746334,
+"end": 34.071415
 },
 {
 "word": "Eleven",
-"start": 29.87634,
-"end": 30.139502
+"start": 34.644173,
+"end": 34.969254
 },
 {
 "word": "hundred",
-"start": 30.139502,
-"end": 30.32526
+"start": 34.969254,
+"end": 35.21693
 },
 {
 "word": "hours.",
-"start": 30.32526,
-"end": 30.6813
-},
-{
-"word": "With",
-"start": 31.0683,
-"end": 31.315979
-},
-{
-"word": "Russian,",
-"start": 31.315979,
-"end": 31.904217
-},
-{
-"word": "Greek",
-"start": 32.120937,
-"end": 32.41506
-},
-{
-"word": "and",
-"start": 32.41506,
-"end": 32.50794
-},
-{
-"word": "Turkish.",
-"start": 32.50794,
-"end": 33.080696
-},
-{
-"word": "Almost",
-"start": 33.529613,
-"end": 33.823734
-},
-{
-"word": "twice",
-"start": 33.823734,
-"end": 34.133335
-},
-{
-"word": "as",
-"start": 34.133335,
-"end": 34.24169
-},
-{
-"word": "long",
-"start": 34.24169,
-"end": 34.365532
-},
-{
-"word": "as",
-"start": 34.365532,
-"end": 34.489372
-},
-{
-"word": "Spanish.",
-"start": 34.489372,
-"end": 35.00021
-},
-{
-"word": "So",
-"start": 35.29433,
-"end": 35.54201
-},
-{
-"word": "if",
-"start": 35.54201,
+"start": 35.21693,
 "end": 35.63489
 },
 {
-"word": "you",
-"start": 35.63489,
-"end": 35.71229
+"word": "With",
+"start": 36.05285,
+"end": 36.23861
 },
 {
-"word": "grew",
-"start": 35.71229,
-"end": 35.86709
+"word": "Russian,",
+"start": 36.23861,
+"end": 36.749447
 },
 {
-"word": "up",
-"start": 35.86709,
-"end": 35.95997
+"word": "Greek",
+"start": 36.811367,
+"end": 37.136448
 },
 {
-"word": "with",
-"start": 35.95997,
-"end": 36.08381
+"word": "and",
+"start": 37.136448,
+"end": 37.26029
 },
 {
-"word": "Hebrew,",
-"start": 36.08381,
-"end": 36.62561
-},
-{
-"word": "you",
-"start": 36.795887,
-"end": 37.043568
-},
-{
-"word": "already",
-"start": 37.043568,
-"end": 37.30673
-},
-{
-"word": "speak",
-"start": 37.30673,
-"end": 37.554405
-},
-{
-"word": "a",
-"start": 37.554405,
-"end": 37.585365
-},
-{
-"word": "hard",
-"start": 37.585365,
+"word": "Turkish.",
+"start": 37.26029,
 "end": 37.786606
 },
 {
-"word": "language.",
-"start": 37.786606,
-"end": 38.173607
+"word": "Almost",
+"start": 38.359364,
+"end": 38.730885
 },
 {
-"word": "English?",
+"word": "twice",
+"start": 38.730885,
+"end": 38.994045
+},
+{
+"word": "as",
 "start": 38.994045,
-"end": 39.504883
+"end": 39.11788
 },
 {
-"word": "You've",
-"start": 40.04668,
-"end": 40.186
+"word": "long",
+"start": 39.11788,
+"end": 39.288162
 },
 {
-"word": "done",
-"start": 40.186,
-"end": 40.3408
+"word": "as",
+"start": 39.288162,
+"end": 39.381042
 },
 {
-"word": "harder.",
-"start": 40.3408,
-"end": 40.634922
+"word": "Spanish.",
+"start": 39.381042,
+"end": 39.9538
 },
 {
-"word": "So",
-"start": 41.30056,
-"end": 41.48632
+"word": "Eleven",
+"start": 40.43368,
+"end": 40.696842
 },
 {
-"word": "the",
-"start": 41.48632,
-"end": 41.56372
+"word": "hundred",
+"start": 40.696842,
+"end": 40.94452
 },
 {
-"word": "next",
-"start": 41.56372,
-"end": 41.780437
+"word": "hours",
+"start": 40.94452,
+"end": 41.33152
 },
 {
-"word": "time",
-"start": 41.780437,
-"end": 41.966198
+"word": "versus",
+"start": 41.33152,
+"end": 41.641117
 },
 {
-"word": "someone",
-"start": 41.966198,
+"word": "six",
+"start": 41.641117,
+"end": 41.842358
+},
+{
+"word": "hundred.",
+"start": 41.842358,
 "end": 42.1984
 },
 {
-"word": "says",
-"start": 42.1984,
-"end": 42.415115
+"word": "So",
+"start": 42.600876,
+"end": 42.864037
 },
 {
-"word": "English",
-"start": 42.415115,
-"end": 42.709236
+"word": "if",
+"start": 42.864037,
+"end": 42.956917
 },
 {
-"word": "is",
-"start": 42.709236,
-"end": 42.802116
+"word": "you",
+"start": 42.956917,
+"end": 43.080757
 },
 {
-"word": "too",
-"start": 42.802116,
-"end": 42.925957
-},
-{
-"word": "hard",
-"start": 42.925957,
-"end": 43.096237
-},
-{
-"word": "for",
-"start": 43.096237,
+"word": "grew",
+"start": 43.080757,
 "end": 43.220074
 },
 {
-"word": "you,",
+"word": "up",
 "start": 43.220074,
-"end": 43.452274
+"end": 43.312954
+},
+{
+"word": "with",
+"start": 43.312954,
+"end": 43.436794
+},
+{
+"word": "Hebrew,",
+"start": 43.436794,
+"end": 43.916676
+},
+{
+"word": "you",
+"start": 44.009556,
+"end": 44.148872
+},
+{
+"word": "already",
+"start": 44.148872,
+"end": 44.458473
+},
+{
+"word": "speak",
+"start": 44.458473,
+"end": 44.659714
+},
+{
+"word": "a",
+"start": 44.659714,
+"end": 44.721634
+},
+{
+"word": "hard",
+"start": 44.721634,
+"end": 44.87643
+},
+{
+"word": "language.",
+"start": 44.87643,
+"end": 45.38727
+},
+{
+"word": "English?",
+"start": 45.681393,
+"end": 46.19223
+},
+{
+"word": "You've",
+"start": 46.82691,
+"end": 46.99719
+},
+{
+"word": "done",
+"start": 46.99719,
+"end": 47.15199
+},
+{
+"word": "harder.",
+"start": 47.15199,
+"end": 47.508026
+},
+{
+"word": "Now",
+"start": 47.987907,
+"end": 48.390385
+},
+{
+"word": "it's",
+"start": 48.390385,
+"end": 48.498745
+},
+{
+"word": "about",
+"start": 48.498745,
+"end": 48.684505
+},
+{
+"word": "habits,",
+"start": 48.684505,
+"end": 49.195343
+},
+{
+"word": "not",
+"start": 49.427544,
+"end": 49.706184
+},
+{
+"word": "talent.",
+"start": 49.706184,
+"end": 50.12414
+},
+{
+"word": "So",
+"start": 50.74334,
+"end": 50.9291
+},
+{
+"word": "the",
+"start": 50.9291,
+"end": 51.0065
+},
+{
+"word": "next",
+"start": 51.0065,
+"end": 51.25418
+},
+{
+"word": "time",
+"start": 51.25418,
+"end": 51.486378
+},
+{
+"word": "someone",
+"start": 51.486378,
+"end": 51.82694
+},
+{
+"word": "says",
+"start": 51.82694,
+"end": 52.05914
+},
+{
+"word": "English",
+"start": 52.05914,
+"end": 52.477097
+},
+{
+"word": "is",
+"start": 52.539017,
+"end": 52.693817
+},
+{
+"word": "too",
+"start": 52.693817,
+"end": 52.848618
+},
+{
+"word": "hard",
+"start": 52.848618,
+"end": 53.08082
+},
+{
+"word": "for",
+"start": 53.08082,
+"end": 53.266575
+},
+{
+"word": "you,",
+"start": 53.266575,
+"end": 53.405895
 },
 {
 "word": "ask",
-"start": 43.854755,
-"end": 44.086952
+"start": 53.885777,
+"end": 54.133453
 },
 {
 "word": "them:",
-"start": 44.086952,
-"end": 44.272713
+"start": 54.133453,
+"end": 54.334694
 }
 ]

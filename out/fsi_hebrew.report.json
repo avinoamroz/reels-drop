@@ -3,10 +3,10 @@
  "account": "expressenglishcom",
  "template": "map_counter",
  "hook": "*5* levels of hard.|Hebrew is?",
- "duration": 42.97,
+ "duration": 52.17,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -0.3
+  "true_peak": -0.5
  },
  "outputs": {
   "mp4": "out/fsi_hebrew.mp4",
@@ -34,16 +34,16 @@
   }
  ],
  "transcript": {
-  "score": 0.981,
+  "score": 0.945,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "American diplomats rank languages in five levels of hard. Where's Hebrew?",
-    "score": 1.0,
+    "score": 0.818,
     "flag": "ok"
    },
    {
-    "line": "The Foreign Service Institute trains U.S. diplomats.",
+    "line": "The Foreign Service Institute trains U.S. diplomats. It measured how many class hours each language takes.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -64,8 +64,8 @@
    },
    {
     "line": "Level five, the hardest: Arabic, Mandarin, Japanese, Korean. Twenty two hundred hours.",
-    "score": 0.917,
-    "flag": "ok"
+    "score": 0.75,
+    "flag": "MISS"
    },
    {
     "line": "And Hebrew? Level four. Eleven hundred hours.",
@@ -78,8 +78,8 @@
     "flag": "ok"
    },
    {
-    "line": "Almost twice as long as Spanish.",
-    "score": 1.0,
+    "line": "Almost twice as long as Spanish. Eleven hundred hours versus six hundred.",
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -88,7 +88,7 @@
     "flag": "ok"
    },
    {
-    "line": "English? You've done harder.",
+    "line": "English? You've done harder. Now it's about habits, not talent.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -98,21 +98,21 @@
     "flag": "ok"
    }
   ],
-  "heard": "American diplomats rank languages in five levels of hard. Where's Hebrew? The Foreign Service Institute trains U.S. diplomats. Level 1? Spanish, French, Italian, Dutch. About 600 hours. Level 2? German. 750 hours. Level 3? Indonesian, Malay, Swahili. 900 hours. Level 5? The hardest? Arabic, Mandarin, Japanese, Korean. 2200 hours. And Hebrew. Level 4? 1100 hours. and Hebrew. Level 4, 1100 hours. With Russian, Greek and Turkish. Almost twice as long as Spanish. So if you grew up with Hebrew, you already speak a hard language. English? You've done harder. So the next time someone says English is too hard for you, ask them.",
+  "heard": "American diplomats rank languages in five levels apart. Where's Hebrew? The Foreign Service Institute trains U.S. diplomats. It measured how many class hours each language takes. Level 1 Spanish French Italian Dutch About 600 hours Level 2 German 750 hours Level 3 Indonesian Malay Swahili 900 hours Level 5 The hardest Arabic Korean. 2200 hours. In Hebrew, level four. 1100 hours. With Russian, Greek, and Turkish. Almost twice as long as Spanish. 1100 hours versus 600. So if you grew up with Hebrew, you already speak a hard language. English? You've done harder. Now it's about habits, not talent. So the next time someone says English is too hard for you, ask them.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 41.48,
+ "body_s": 50.67,
  "opener": {
   "style": "map_crumple",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.2,
-  "true_peak": -1.8
+  "lufs": -16.1,
+  "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 131.4
+ "render_s": 192.1
 }
