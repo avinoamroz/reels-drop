@@ -1,0 +1,58 @@
+{
+ "id": "named_after_v2_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*6* cities,|*6* thank you notes",
+ "duration": 52.47,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.0
+ },
+ "outputs": {
+  "mp4": "out/named_after_v2_rh1110.mp4",
+  "cover": "covers/named_after_v2_rh1110_cover.jpg",
+  "preview": "previews/named_after_v2_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/named_after_v2_rh1110_0.jpg",
+  "1": "out/frames/named_after_v2_rh1110_1.jpg",
+  "3": "out/frames/named_after_v2_rh1110_3.jpg",
+  "last": "out/frames/named_after_v2_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of named_after_v2. Caption in posting/queue/gh/named_after_v2_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia; ESRA Magazine",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.97,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "First, the easy ones. Herzliya is named after Theodore Herzl. Natania is named after Nathan Strauss, an American Jew who co-owned Macy's. Zihon Yaakov means Jac",
+    "score": 0.97,
+    "flag": "ok"
+   }
+  ],
+  "heard": "First, the easy ones. Herzliya is named after Theodore Herzl. Natania is named after Nathan Strauss, an American Jew who co-owned Macy's. Zirhon Yaakov means Jacob's Memorial. It honors Baron Rothschild's father, James. In Hebrew, Yaakov and Binyamina is named after the Baron himself. Edmund Binyamin, the Rothschild. Kriachmona means the town of the eight. people who fell at Tel Chai in 1920. So which one is named after Los Angeles? Kriath Malachi, the City of Angels. It honors the Jewish community of Los Angeles, which helped fund it in the 1950s. Today about 28,000 people live there. The map of Israel is full of thank-you notes. So look at your own town's name. Who is it thanking?",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "named_after_v2.mp4",
+ "cut": 4.5,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -3.0
+ },
+ "body_kept_s": 50.5,
+ "lint_warnings": [],
+ "render_s": 85.6
+}
