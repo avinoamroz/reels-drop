@@ -1,0 +1,229 @@
+{
+ "id": "english_57",
+ "account": "expressenglishcom",
+ "template": "map_counter",
+ "hook": "*57* countries. Is Israel|one?",
+ "opener": {
+  "style": "map_puzzle"
+ },
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Fifty seven countries have English as an official language. Is Israel one of them?",
+   "gap": 0.4
+  },
+  {
+   "say": "Watch the map fill.",
+   "screen": "English is *official* here",
+   "screen_icon": "📜"
+  },
+  {
+   "say": "America. Britain. Canada. Australia."
+  },
+  {
+   "say": "India, almost one and a half billion people."
+  },
+  {
+   "say": "Pakistan. Nigeria. The Philippines."
+  },
+  {
+   "say": "Singapore. Kenya. South Africa. Ireland. Malta.",
+   "gap": 0.4
+  },
+  {
+   "say": "Fifty seven countries in all.",
+   "gap": 0.4
+  },
+  {
+   "say": "And Israel? Not one of them."
+  },
+  {
+   "say": "Here, English is a working language, not an official one.",
+   "gap": 0.4
+  },
+  {
+   "say": "But walk into a meeting in any of those fifty seven, and it runs in English."
+  },
+  {
+   "say": "English isn't the goal. It's the road to the deal."
+  },
+  {
+   "say": "So before your next meeting abroad, ask yourself:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   10.0,
+   25.0,
+   220.0
+  ],
+  "highlight": [
+   {
+    "at": "L2",
+    "until": "L11",
+    "code": "USA"
+   },
+   {
+    "at": "L2+0.5",
+    "until": "L11",
+    "code": "GBR"
+   },
+   {
+    "at": "L2+1.0",
+    "until": "L11",
+    "code": "CAN"
+   },
+   {
+    "at": "L2+1.5",
+    "until": "L11",
+    "code": "AUS"
+   },
+   {
+    "at": "L3",
+    "until": "L11",
+    "code": "IND"
+   },
+   {
+    "at": "L4",
+    "until": "L11",
+    "code": "PAK"
+   },
+   {
+    "at": "L4+0.6",
+    "until": "L11",
+    "code": "NGA"
+   },
+   {
+    "at": "L4+1.2",
+    "until": "L11",
+    "code": "PHL"
+   },
+   {
+    "at": "L5",
+    "until": "L11",
+    "code": "SGP"
+   },
+   {
+    "at": "L5+0.5",
+    "until": "L11",
+    "code": "KEN"
+   },
+   {
+    "at": "L5+1.0",
+    "until": "L11",
+    "code": "ZAF"
+   },
+   {
+    "at": "L5+1.5",
+    "until": "L11",
+    "code": "IRL"
+   },
+   {
+    "at": "L5+2.0",
+    "until": "L11",
+    "code": "MLT"
+   }
+  ],
+  "counter": {
+   "label": "Countries with English official",
+   "at": "L1+0.3",
+   "until": "L7-0.1",
+   "y": 1250,
+   "steps": [
+    {
+     "at": "L2",
+     "value": 4
+    },
+    {
+     "at": "L3",
+     "value": 5
+    },
+    {
+     "at": "L4",
+     "value": 8
+    },
+    {
+     "at": "L5",
+     "value": 13
+    },
+    {
+     "at": "L6",
+     "value": 57
+    }
+   ]
+  },
+  "cams": [
+   {
+    "at": "L7-0.3",
+    "view": [
+     35.0,
+     31.5,
+     14.0,
+     960
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L9-0.3",
+    "view": [
+     10.0,
+     25.0,
+     220.0,
+     960
+    ],
+    "dur": 1.3
+   }
+  ],
+  "pins": [
+   {
+    "at": "L7",
+    "until": "L9",
+    "lon": 35.0,
+    "lat": 31.6,
+    "label": "Israel: working language",
+    "color": "yellow",
+    "size": 46
+   },
+   {
+    "at": "L3",
+    "until": "L6",
+    "lon": 78.0,
+    "lat": 22.0,
+    "label": "India 1.47B"
+   }
+  ],
+  "dim": [
+   {
+    "at": "L10",
+    "until": "L11"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Wikipedia, countries where English is official",
+   "year": 2026
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "English isn't the goal. It's the *road* to the deal.",
+  "cta": "Send this to someone flying abroad"
+ },
+ "caption_en": "57 countries have English as an official language. Israel isn't one of them.",
+ "caption_he": "ב-57 מדינות אנגלית היא שפה רשמית. ישראל לא אחת מהן. 🌍\n\nארה\"ב, בריטניה, קנדה, אוסטרליה, הודו (כמעט מיליארד וחצי אנשים), פקיסטן, ניגריה, הפיליפינים, סינגפור, קניה, דרום אפריקה, אירלנד, מלטה ועוד.\nבישראל אנגלית היא שפת עבודה, לא שפה רשמית. אבל תיכנסו לפגישה בכל אחת מ-57 המדינות האלה, והיא תתנהל באנגלית.\n\nאנגלית היא לא המטרה. היא הדרך לעסקה.\n\nשלחו למישהו שטס לפגישה בחו\"ל.\n\nמקור: Wikipedia, List of countries and territories where English is an official language (2026).",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#English",
+  "#אנגלית"
+ ],
+ "cover": {
+  "t": 18.0,
+  "big": "57",
+  "text": "countries.|Is *Israel* one?"
+ }
+}

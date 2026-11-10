@@ -1,0 +1,226 @@
+{
+ "id": "rnd_first",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Research spending:|who's *#1?*",
+ "opener": {
+  "style": "map_tear_v2"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Research spending, as a share of the economy. Who's number one in the world?",
+   "gap": 0.4
+  },
+  {
+   "say": "Start next door.",
+   "screen": "Research spending, *% of GDP*",
+   "screen_icon": "🔬"
+  },
+  {
+   "say": "Saudi Arabia: zero point six percent. Jordan: zero point seven."
+  },
+  {
+   "say": "Iran: zero point seven. Egypt: one percent."
+  },
+  {
+   "say": "Turkey: two point four. Lebanon and Syria: no data.",
+   "gap": 0.4
+  },
+  {
+   "say": "Now the world's big spenders."
+  },
+  {
+   "say": "Germany: three point one. Japan and America: three point four."
+  },
+  {
+   "say": "Sweden: three point six. South Korea: almost five."
+  },
+  {
+   "say": "Liechtenstein: six.",
+   "gap": 0.4
+  },
+  {
+   "say": "And number one: Israel. Six point three five percent.",
+   "gap": 0.4
+  },
+  {
+   "say": "Almost double America's share."
+  },
+  {
+   "say": "Money alone doesn't make ideas. People do, in every country here."
+  },
+  {
+   "say": "So next time someone asks what Israel gives the world, ask them:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   40.0,
+   30.0,
+   30.0
+  ],
+  "dim": [
+   {
+    "at": "L1+0.5",
+    "until": "L12"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L1+0.5",
+    "until": "L5-0.1",
+    "y": 520,
+    "vmax": 6.35,
+    "rows": [
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 2.42,
+      "txt": "2.42",
+      "at": "L4"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 1.02,
+      "txt": "1.02",
+      "at": "L3+1.2"
+     },
+     {
+      "label": "Iran (2021)",
+      "flag": "IR",
+      "value": 0.73,
+      "txt": "0.73",
+      "at": "L3"
+     },
+     {
+      "label": "Jordan (2016)",
+      "flag": "JO",
+      "value": 0.7,
+      "txt": "0.70",
+      "at": "L2+1.4"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 0.64,
+      "txt": "0.64",
+      "at": "L2"
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 0,
+      "txt": "no data",
+      "at": "L4+1.0"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 0,
+      "txt": "no data",
+      "at": "L4+1.2"
+     }
+    ]
+   },
+   {
+    "at": "L5",
+    "until": "L11-0.1",
+    "y": 520,
+    "vmax": 6.35,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 6.35,
+      "txt": "6.35",
+      "hl": true,
+      "at": "L9"
+     },
+     {
+      "label": "Liechtenstein",
+      "flag": "LI",
+      "value": 6.01,
+      "txt": "6.01",
+      "at": "L8"
+     },
+     {
+      "label": "South Korea",
+      "flag": "KR",
+      "value": 4.94,
+      "txt": "4.94",
+      "at": "L7+1.2"
+     },
+     {
+      "label": "Sweden",
+      "flag": "SE",
+      "value": 3.6,
+      "txt": "3.60",
+      "at": "L7"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 3.45,
+      "txt": "3.45",
+      "at": "L6+1.2"
+     },
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 3.44,
+      "txt": "3.44",
+      "at": "L6+1.0"
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 3.15,
+      "txt": "3.15",
+      "at": "L6"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L10",
+    "until": "L11-0.2",
+    "value": 1.8,
+    "from": 1,
+    "dec": 1,
+    "suffix": "x",
+    "sub": "America's share of GDP",
+    "y": 960
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "World Bank via Wikipedia, R&D % of GDP, 2023 unless shown",
+   "year": 2023
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Money doesn't make ideas. *People* do.",
+  "cta": "Send this to someone who builds"
+ },
+ "caption_en": "Who spends the biggest share of its economy on research? 🔬\n\nR&D spending as % of GDP (World Bank, 2023 unless noted): Israel 6.35, Liechtenstein 6.01, South Korea 4.94, Sweden 3.60, USA 3.45, Japan 3.44, Germany 3.15.\nAround Israel: Turkey 2.42, Egypt 1.02 (2024), Iran 0.73 (2021), Jordan 0.70 (2016), Saudi Arabia 0.64 (2024), Lebanon and Syria no data.\n\nIsrael's share is about 1.8x America's. Money alone doesn't make ideas. People do, in every country here.\n\nSend this to someone who builds things.",
+ "caption_he": "מי משקיעה במחקר את החלק הגדול ביותר מהכלכלה שלה?\nהוצאה על מו\"פ באחוזי תוצר (הבנק העולמי, 2023 אלא אם צוין): ישראל 6.35, ליכטנשטיין 6.01, דרום קוריאה 4.94, שוודיה 3.60, ארה\"ב 3.45, יפן 3.44, גרמניה 3.15.\nסביב ישראל: טורקיה 2.42, מצרים 1.02, איראן 0.73, ירדן 0.70, סעודיה 0.64, לבנון וסוריה אין נתונים.\nכסף לבד לא מייצר רעיונות. אנשים כן.\n\nSources: World Bank, research and development expenditure (% of GDP), via Wikipedia \"List of sovereign states by research and development spending\" (2026).",
+ "hashtags": [
+  "#Israel",
+  "#innovation",
+  "#StartupNation",
+  "#research"
+ ],
+ "cover": {
+  "t": 34.0,
+  "big": "6.35%",
+  "text": "Research spending:|who's *#1?*"
+ }
+}

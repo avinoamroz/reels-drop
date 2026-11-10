@@ -1,0 +1,290 @@
+{
+ "id": "un_hamas_zero",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Israel: *15.* HAMAS:|how many?",
+ "opener": {
+  "style": "globe_unpeel"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "subs_replace": {
+  "U.N.": "UN"
+ },
+ "lines": [
+  {
+   "say": "Israel: fifteen U.N. condemnations in one year. HAMAS: how many?",
+   "gap": 0.45
+  },
+  {
+   "say": "Twenty twenty five, the U.N. General Assembly.",
+   "screen": "UN General Assembly, *2025*",
+   "screen_icon": "🏛️"
+  },
+  {
+   "say": "Israel: fifteen resolutions. The rest of the world combined: eleven."
+  },
+  {
+   "say": "Russia: six. America: two. Iran, North Korea and Myanmar: one each.",
+   "gap": 0.4
+  },
+  {
+   "say": "And HAMAS? Look at the votes."
+  },
+  {
+   "say": "Twenty eighteen. America asks the Assembly to condemn HAMAS."
+  },
+  {
+   "say": "Eighty seven countries vote yes. Fifty seven vote no."
+  },
+  {
+   "say": "It needs two thirds. It fails.",
+   "gap": 0.4
+  },
+  {
+   "say": "October twenty twenty three, three weeks after the massacre. Canada tries to name HAMAS."
+  },
+  {
+   "say": "Eighty eight yes. Fifty five no. It fails again.",
+   "gap": 0.4
+  },
+  {
+   "say": "In twenty twenty five, HAMAS is named once, in a call to free hostages. Condemnations: zero.",
+   "gap": 0.5
+  },
+  {
+   "say": "Israel's war in Gaza deserves scrutiny, like any war."
+  },
+  {
+   "say": "But next time someone quotes the U.N., ask them:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   36.0,
+   31.5,
+   24.0
+  ],
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     18,
+     30,
+     205,
+     610
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L4-0.3",
+    "view": [
+     36.0,
+     31.5,
+     24.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L3",
+    "until": "L4",
+    "code": "RUS"
+   },
+   {
+    "at": "L3+0.8",
+    "until": "L4",
+    "code": "USA"
+   },
+   {
+    "at": "L3+1.6",
+    "until": "L4",
+    "code": "IRN"
+   },
+   {
+    "at": "L3+2.0",
+    "until": "L4",
+    "code": "PRK"
+   },
+   {
+    "at": "L3+2.4",
+    "until": "L4",
+    "code": "MMR"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L2",
+    "until": "L4",
+    "lon": 35.2,
+    "lat": 31.8,
+    "label": "Israel 15",
+    "color": "yellow",
+    "size": 46
+   },
+   {
+    "at": "L3",
+    "until": "L4",
+    "lon": 37.6,
+    "lat": 55.75,
+    "label": "Russia 6"
+   },
+   {
+    "at": "L3+0.8",
+    "until": "L4",
+    "lon": -77.0,
+    "lat": 38.9,
+    "label": "USA 2"
+   },
+   {
+    "at": "L4",
+    "until": "L12",
+    "lon": 34.45,
+    "lat": 31.45,
+    "label": "Gaza: HAMAS",
+    "color": "grey"
+   }
+  ],
+  "counter": {
+   "label": "UN condemnations, 2025",
+   "at": "L1+0.3",
+   "until": "L4-0.1",
+   "y": 1250,
+   "steps": [
+    {
+     "at": "L2",
+     "value": 15
+    },
+    {
+     "at": "L3",
+     "value": 21
+    },
+    {
+     "at": "L3+0.8",
+     "value": 23
+    },
+    {
+     "at": "L3+2.0",
+     "value": 26
+    }
+   ]
+  },
+  "dim": [
+   {
+    "at": "L5",
+    "until": "L12"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L6",
+    "until": "L8-0.1",
+    "y": 620,
+    "vmax": 96,
+    "rows": [
+     {
+      "label": "2018: yes",
+      "emo": "✅",
+      "value": 87,
+      "txt": "87",
+      "at": "L6"
+     },
+     {
+      "label": "2018: no",
+      "emo": "❌",
+      "value": 57,
+      "txt": "57",
+      "at": "L6+1.4"
+     },
+     {
+      "label": "Two thirds needed",
+      "emo": "⚖️",
+      "value": 96,
+      "txt": "96",
+      "at": "L7"
+     }
+    ]
+   },
+   {
+    "at": "L9",
+    "until": "L10-0.1",
+    "y": 620,
+    "vmax": 96,
+    "rows": [
+     {
+      "label": "2023: yes",
+      "emo": "✅",
+      "value": 88,
+      "txt": "88",
+      "at": "L9"
+     },
+     {
+      "label": "2023: no",
+      "emo": "❌",
+      "value": 55,
+      "txt": "55",
+      "at": "L9+0.9"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L10+1.5",
+    "until": "L11-0.2",
+    "value": 0,
+    "from": 15,
+    "sub": "UN condemnations of HAMAS, 2025",
+    "y": 960
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "UN Watch, UNGA resolutions on Israel vs rest of world",
+   "year": 2025,
+   "at": "L1",
+   "until": "L5"
+  },
+  {
+   "label": "CNN, UN vote on HAMAS resolution",
+   "year": 2018,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "CTV News, Canada's HAMAS amendment",
+   "year": 2023,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "UN Watch, ES-10/27 analysis",
+   "year": 2025,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Israel's war in Gaza deserves *scrutiny,* like any war.",
+  "cta": "Send this to someone who quotes the UN"
+ },
+ "caption_en": "Israel: 15 UN condemnations in 2025. HAMAS: 0. 🏛️\n\nUN Watch: in 2025 the General Assembly adopted 15 resolutions on Israel and 11 on the rest of the world combined (Russia 6, US 2, Iran, North Korea, Myanmar 1 each).\n\n2018: a US resolution condemning HAMAS got 87 yes, 57 no, 33 abstentions. It needed two thirds and failed (CNN).\n27 Oct 2023: Canada's amendment naming HAMAS got 88 yes, 55 no, 23 abstentions. Failed again (CTV News).\n2025: resolution ES-10/27 names HAMAS once, in a demand to release hostages, with no condemnation (UN Watch).\n\nIsrael's war in Gaza deserves scrutiny, like any war. So does the scoreboard.\n\nSend this to someone who quotes the UN.",
+ "caption_he": "ישראל: 15 גינויים באו\"ם ב-2025. חמאס: 0.\nלפי UN Watch, העצרת הכללית אישרה ב-2025 15 החלטות על ישראל ו-11 על כל שאר העולם יחד.\n2018: הצעה אמריקאית לגנות את חמאס קיבלה 87 בעד ו-57 נגד, לא הגיעה לשני שלישים ונפלה.\nאוקטובר 2023: התיקון הקנדי שמזכיר את חמאס קיבל 88 בעד ו-55 נגד, ונפל שוב.\n2025: חמאס מוזכר פעם אחת, בדרישה לשחרר חטופים, בלי גינוי.\nהמלחמה בעזה ראויה לביקורת, כמו כל מלחמה. גם לוח התוצאות.\n\nSources: UN Watch, \"2025 UNGA Resolutions on Israel vs. Rest of the World\"; CNN (6 Dec 2018); CTV News (27 Oct 2023).",
+ "hashtags": [
+  "#Israel",
+  "#UN",
+  "#HAMAS",
+  "#facts"
+ ],
+ "cover": {
+  "t": 40.0,
+  "big": "15 : 0",
+  "text": "Israel vs *HAMAS*|at the UN"
+ }
+}

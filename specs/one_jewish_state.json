@@ -1,0 +1,296 @@
+{
+ "id": "one_jewish_state",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*120* Christian countries.|Jewish ones?",
+ "opener": {
+  "style": "globe_spin_fast"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "One hundred and twenty Christian majority countries. How many Jewish ones?",
+   "gap": 0.45
+  },
+  {
+   "say": "Pew counted two hundred and one countries and territories.",
+   "screen": "Majority religion, *201* places",
+   "screen_icon": "🌍"
+  },
+  {
+   "say": "Christian majority: one hundred and twenty."
+  },
+  {
+   "say": "Muslim majority: fifty three."
+  },
+  {
+   "say": "No religion: ten. Buddhist: seven. Hindu: two.",
+   "gap": 0.4
+  },
+  {
+   "say": "Now the flags.",
+   "screen": "Religious symbols on *flags*",
+   "screen_icon": "🏳️"
+  },
+  {
+   "say": "Sixty four national flags carry a religious symbol."
+  },
+  {
+   "say": "Thirty one have a cross, like Britain, Greece and Norway."
+  },
+  {
+   "say": "Twenty one have a Muslim symbol, like Turkey and Algeria."
+  },
+  {
+   "say": "And one flag has a Star of David.",
+   "gap": 0.5
+  },
+  {
+   "say": "One Jewish majority country. One Jewish flag.",
+   "gap": 0.5
+  },
+  {
+   "say": "A cross or a crescent on a flag doesn't make a country unfree. Laws do."
+  },
+  {
+   "say": "So when someone says the world has one Jewish state too many, ask them:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   20.0,
+   25.0,
+   200.0
+  ],
+  "dim": [
+   {
+    "at": "L2",
+    "until": "L5"
+   },
+   {
+    "at": "L6",
+    "until": "L7"
+   },
+   {
+    "at": "L10",
+    "until": "L12"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L2",
+    "until": "L5-0.1",
+    "y": 560,
+    "vmax": 120,
+    "rows": [
+     {
+      "label": "Christian",
+      "emo": "✝️",
+      "value": 120,
+      "txt": "120",
+      "at": "L2"
+     },
+     {
+      "label": "Muslim",
+      "emo": "☪️",
+      "value": 53,
+      "txt": "53",
+      "at": "L3"
+     },
+     {
+      "label": "No religion",
+      "emo": "⭕",
+      "value": 10,
+      "txt": "10",
+      "at": "L4"
+     },
+     {
+      "label": "Buddhist",
+      "emo": "☸️",
+      "value": 7,
+      "txt": "7",
+      "at": "L4+1.0"
+     },
+     {
+      "label": "Hindu",
+      "emo": "🕉️",
+      "value": 2,
+      "txt": "2",
+      "at": "L4+2.0"
+     },
+     {
+      "label": "Jewish",
+      "emo": "✡️",
+      "value": 1,
+      "txt": "1",
+      "hl": true,
+      "at": "L4+2.6"
+     }
+    ]
+   }
+  ],
+  "counter": {
+   "label": "Flags with a religious symbol",
+   "at": "L5+0.3",
+   "until": "L7-0.1",
+   "y": 1250,
+   "steps": [
+    {
+     "at": "L6",
+     "value": 64
+    }
+   ]
+  },
+  "highlight": [
+   {
+    "at": "L7",
+    "until": "L10",
+    "code": "GBR"
+   },
+   {
+    "at": "L7",
+    "until": "L10",
+    "code": "GRC"
+   },
+   {
+    "at": "L7",
+    "until": "L10",
+    "code": "NOR"
+   },
+   {
+    "at": "L8",
+    "until": "L10",
+    "code": "TUR"
+   },
+   {
+    "at": "L8",
+    "until": "L10",
+    "code": "DZA"
+   }
+  ],
+  "cams": [
+   {
+    "at": "L7-0.3",
+    "view": [
+     20.0,
+     45.0,
+     70.0,
+     900
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L9-0.3",
+    "view": [
+     35.0,
+     31.5,
+     18.0,
+     960
+    ],
+    "dur": 1.3
+   }
+  ],
+  "icons": [
+   {
+    "at": "L7",
+    "until": "L9",
+    "lon": -1.5,
+    "lat": 52.5,
+    "emo": "✝️",
+    "size": 70,
+    "label": "Britain"
+   },
+   {
+    "at": "L7+0.5",
+    "until": "L9",
+    "lon": 22.0,
+    "lat": 39.0,
+    "emo": "✝️",
+    "size": 70,
+    "label": "Greece"
+   },
+   {
+    "at": "L7+1.0",
+    "until": "L9",
+    "lon": 9.0,
+    "lat": 61.0,
+    "emo": "✝️",
+    "size": 70,
+    "label": "Norway"
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "lon": 35.0,
+    "lat": 39.0,
+    "emo": "☪️",
+    "size": 70,
+    "label": "Turkey"
+   },
+   {
+    "at": "L8+0.6",
+    "until": "L9",
+    "lon": 3.0,
+    "lat": 32.0,
+    "emo": "☪️",
+    "size": 70,
+    "label": "Algeria"
+   },
+   {
+    "at": "L9",
+    "until": "L12",
+    "lon": 35.0,
+    "lat": 31.6,
+    "emo": "✡️",
+    "size": 110,
+    "label": "Israel",
+    "label_dy": 95
+   }
+  ],
+  "big": [
+   {
+    "at": "L10",
+    "until": "L11-0.2",
+    "value": 1,
+    "from": 64,
+    "sub": "Jewish majority country, 1 Jewish flag",
+    "y": 960
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Pew Research Center, majority religion by country",
+   "year": 2025,
+   "at": "L1",
+   "until": "L5"
+  },
+  {
+   "label": "Pew Research Center, religious symbols on flags",
+   "year": 2014,
+   "at": "L5",
+   "until": "L11"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "A symbol doesn't make a country unfree. *Laws* do.",
+  "cta": "Send this to someone who needs it"
+ },
+ "caption_en": "120 Christian majority countries. 53 Muslim. 1 Jewish. ✡️\n\nPew Research Center (2025) looked at 201 countries and territories (100,000+ people) in 2020: Christian majority 120, Muslim 53, no religion 10, Buddhist 7, Hindu 2, Jewish 1.\n\nPew (2014): 64 of 196 national flags carry a religious symbol. 31 Christian (the Union Jack's crosses, Greece, Norway, Spain...), 21 Muslim (Turkey, Algeria, Brunei, Uzbekistan...), 5 Buddhist or Hindu, 6 other, and 1 Jewish: Israel's Star of David.\n\nA cross or a crescent on a flag doesn't make a country unfree. Laws do.\n\nSend this to someone who thinks one Jewish state is one too many.",
+ "caption_he": "120 מדינות עם רוב נוצרי. 53 עם רוב מוסלמי. אחת עם רוב יהודי.\nפיו (2025) בדקו 201 מדינות וטריטוריות: רוב נוצרי 120, מוסלמי 53, בלי דת 10, בודהיסטי 7, הינדי 2, יהודי 1.\nפיו (2014): ב-64 מתוך 196 דגלים לאומיים יש סמל דתי. 31 נוצריים, 21 מוסלמיים, 5 בודהיסטיים או הינדיים, 6 אחרים, ואחד יהודי: מגן הדוד של ישראל.\nצלב או סהר על דגל לא הופכים מדינה ללא חופשית. חוקים כן.\n\nSources: Pew Research Center, \"The number of Christian-majority countries fell between 2010 and 2020\" (2025); Pew Research Center, \"64 countries have religious symbols on their national flags\" (2014).",
+ "hashtags": [
+  "#Israel",
+  "#Jewish",
+  "#StarOfDavid",
+  "#facts"
+ ],
+ "cover": {
+  "t": 38.0,
+  "big": "120 / 53 / 1",
+  "text": "Christian. Muslim.|*Jewish?*"
+ }
+}

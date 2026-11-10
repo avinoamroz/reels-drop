@@ -1,0 +1,178 @@
+{
+ "id": "say_no_4",
+ "account": "noamroz__",
+ "template": "scorecard",
+ "hook": "*4* tests: who can|say *no?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Where in the Middle East can you say no to your leaders? Four tests. Seven countries.",
+   "gap": 0.4
+  },
+  {
+   "say": "Test one: can you vote the leader out?",
+   "screen": "*4* tests. *7* countries."
+  },
+  {
+   "say": "Test two: can newspapers criticise the government?"
+  },
+  {
+   "say": "Test three: can you protest in the street?"
+  },
+  {
+   "say": "Test four: are judges free from the government?",
+   "gap": 0.5
+  },
+  {
+   "say": "Egypt and Saudi Arabia: zero out of four."
+  },
+  {
+   "say": "Jordan, Syria and Iraq: half a point each."
+  },
+  {
+   "say": "Lebanon: two.",
+   "gap": 0.4
+  },
+  {
+   "say": "Israel: four out of four.",
+   "gap": 0.5
+  },
+  {
+   "say": "Israel's total is seventy three out of a hundred, and it doesn't cover the West Bank."
+  },
+  {
+   "say": "So next time someone says Israel silences people, ask them:"
+  }
+ ],
+ "data": {
+  "columns": [
+   {
+    "label": "Vote out",
+    "icon": "🗳️",
+    "at": "L1"
+   },
+   {
+    "label": "Free press",
+    "icon": "📰",
+    "at": "L2"
+   },
+   {
+    "label": "Protest",
+    "icon": "📢",
+    "at": "L3"
+   },
+   {
+    "label": "Fair judges",
+    "icon": "⚖️",
+    "at": "L4"
+   }
+  ],
+  "rows": [
+   {
+    "label": "Egypt",
+    "flag": "EG",
+    "cells": [
+     "N",
+     "N",
+     "N",
+     "N"
+    ]
+   },
+   {
+    "label": "Jordan",
+    "flag": "JO",
+    "cells": [
+     "N",
+     "N",
+     "N",
+     "P"
+    ]
+   },
+   {
+    "label": "Lebanon",
+    "flag": "LB",
+    "cells": [
+     "P",
+     "P",
+     "Y",
+     "N"
+    ]
+   },
+   {
+    "label": "Syria",
+    "flag": "SY",
+    "cells": [
+     "N",
+     "P",
+     "N",
+     "N"
+    ]
+   },
+   {
+    "label": "Iraq",
+    "flag": "IQ",
+    "cells": [
+     "P",
+     "N",
+     "N",
+     "N"
+    ]
+   },
+   {
+    "label": "Saudi Arabia",
+    "flag": "SA",
+    "cells": [
+     "N",
+     "N",
+     "N",
+     "N"
+    ]
+   },
+   {
+    "label": "Israel",
+    "flag": "IL",
+    "cells": [
+     "Y",
+     "Y",
+     "Y",
+     "Y"
+    ],
+    "hl": true
+   }
+  ],
+  "verdict": [
+   {
+    "at": "L8",
+    "until": "L9",
+    "text": "Only *one* gets 4 out of 4"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Freedom House, Freedom in the World",
+   "year": 2026
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "Israel scores *73 of 100.* Not perfect. Still first.",
+  "cta": "Send this to someone who disagrees"
+ },
+ "caption_en": "Where in the Middle East can you say no to your leaders? 4 tests, 7 countries. 🗳️📰📢⚖️\n\nThe tests are Freedom House indicators, scored 0 to 4: A1 (elected head of government), D1 (free and independent media), E1 (freedom of assembly), F1 (independent judiciary). 3 to 4 = yes, 2 = partly, 0 to 1 = no.\n\nEgypt 0, Saudi Arabia 0, Jordan 0.5, Syria 0.5, Iraq 0.5, Lebanon 2, Israel 4.\n\nIsrael's total is 73/100 (Free). Freedom House rates the West Bank and Gaza separately, and Israel's score does not cover them. Not perfect. Still first on these four.\n\nSend this to someone who says Israel silences people.",
+ "caption_he": "איפה במזרח התיכון אפשר להגיד לא לשלטון? 4 מבחנים, 7 מדינות.\nהמבחנים הם מדדי Freedom House (0 עד 4): בחירת ראש השלטון, תקשורת חופשית, חופש הפגנה, מערכת משפט עצמאית. 3 עד 4 = כן, 2 = חלקית, 0 עד 1 = לא.\nמצרים 0, סעודיה 0, ירדן 0.5, סוריה 0.5, עיראק 0.5, לבנון 2, ישראל 4.\nהציון הכולל של ישראל 73 מתוך 100, והוא לא כולל את הגדה המערבית ועזה. לא מושלם. עדיין ראשונה.\n\nSources: Freedom House, Freedom in the World 2026 country reports (Egypt, Jordan, Lebanon, Syria, Iraq, Israel); Saudi Arabia from the 2025 edition.",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#freedom",
+  "#democracy"
+ ],
+ "cover": {
+  "t": 36.0,
+  "big": "4 / 4",
+  "text": "Who can|say *no?*"
+ }
+}

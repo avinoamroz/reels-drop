@@ -1,0 +1,287 @@
+{
+ "id": "fsi_hebrew",
+ "account": "expressenglishcom",
+ "template": "map_counter",
+ "hook": "*5* levels of hard.|Hebrew is?",
+ "opener": {
+  "style": "map_crumple"
+ },
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "subs_replace": {
+  "U.S.": "US"
+ },
+ "lines": [
+  {
+   "say": "American diplomats rank languages in five levels of hard. Where's Hebrew?",
+   "gap": 0.4
+  },
+  {
+   "say": "The Foreign Service Institute trains U.S. diplomats.",
+   "screen": "How hard for *Americans?*",
+   "screen_icon": "🎓"
+  },
+  {
+   "say": "Level one: Spanish, French, Italian, Dutch. About six hundred hours."
+  },
+  {
+   "say": "Level two: German. Seven hundred and fifty hours."
+  },
+  {
+   "say": "Level three: Indonesian, Malay, Swahili. Nine hundred hours."
+  },
+  {
+   "say": "Level five, the hardest: Arabic, Mandarin, Japanese, Korean. Twenty two hundred hours.",
+   "gap": 0.4
+  },
+  {
+   "say": "And Hebrew? Level four. Eleven hundred hours."
+  },
+  {
+   "say": "With Russian, Greek and Turkish.",
+   "gap": 0.4
+  },
+  {
+   "say": "Almost twice as long as Spanish.",
+   "gap": 0.4
+  },
+  {
+   "say": "So if you grew up with Hebrew, you already speak a hard language."
+  },
+  {
+   "say": "English? You've done harder."
+  },
+  {
+   "say": "So the next time someone says English is too hard for you, ask them:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   20.0,
+   35.0,
+   120.0
+  ],
+  "highlight": [
+   {
+    "at": "L2",
+    "until": "L3",
+    "code": "ESP"
+   },
+   {
+    "at": "L2+0.4",
+    "until": "L3",
+    "code": "FRA"
+   },
+   {
+    "at": "L2+0.8",
+    "until": "L3",
+    "code": "ITA"
+   },
+   {
+    "at": "L2+1.2",
+    "until": "L3",
+    "code": "NLD"
+   },
+   {
+    "at": "L3",
+    "until": "L4",
+    "code": "DEU"
+   },
+   {
+    "at": "L4",
+    "until": "L5",
+    "code": "IDN"
+   },
+   {
+    "at": "L4+0.5",
+    "until": "L5",
+    "code": "MYS"
+   },
+   {
+    "at": "L4+1.0",
+    "until": "L5",
+    "code": "TZA"
+   },
+   {
+    "at": "L5",
+    "until": "L6",
+    "code": "SAU"
+   },
+   {
+    "at": "L5+0.5",
+    "until": "L6",
+    "code": "CHN"
+   },
+   {
+    "at": "L5+1.0",
+    "until": "L6",
+    "code": "JPN"
+   },
+   {
+    "at": "L5+1.5",
+    "until": "L6",
+    "code": "KOR"
+   },
+   {
+    "at": "L6",
+    "until": "L9",
+    "code": "ISR"
+   },
+   {
+    "at": "L7",
+    "until": "L9",
+    "code": "RUS"
+   },
+   {
+    "at": "L7+0.5",
+    "until": "L9",
+    "code": "GRC"
+   },
+   {
+    "at": "L7+1.0",
+    "until": "L9",
+    "code": "TUR"
+   }
+  ],
+  "cams": [
+   {
+    "at": "L4-0.3",
+    "view": [
+     80.0,
+     15.0,
+     150.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L6-0.3",
+    "view": [
+     35.0,
+     40.0,
+     60.0,
+     960
+    ],
+    "dur": 1.3
+   }
+  ],
+  "counter": {
+   "label": "Class hours to learn it",
+   "at": "L1+0.3",
+   "until": "L8-0.1",
+   "y": 1250,
+   "steps": [
+    {
+     "at": "L2",
+     "value": 600
+    },
+    {
+     "at": "L3",
+     "value": 750
+    },
+    {
+     "at": "L4",
+     "value": 900
+    },
+    {
+     "at": "L5",
+     "value": 2200
+    },
+    {
+     "at": "L6",
+     "value": 1100
+    }
+   ]
+  },
+  "pins": [
+   {
+    "at": "L6",
+    "until": "L9",
+    "lon": 35.0,
+    "lat": 31.6,
+    "label": "Hebrew: level 4",
+    "color": "yellow",
+    "size": 46
+   }
+  ],
+  "dim": [
+   {
+    "at": "L8",
+    "until": "L11"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L8",
+    "until": "L10-0.1",
+    "y": 560,
+    "title": "Class hours",
+    "vmax": 2200,
+    "rows": [
+     {
+      "label": "Spanish",
+      "flag": "ES",
+      "value": 600,
+      "txt": "600",
+      "at": "L8"
+     },
+     {
+      "label": "German",
+      "flag": "DE",
+      "value": 750,
+      "txt": "750",
+      "at": "L8+0.3"
+     },
+     {
+      "label": "Swahili",
+      "flag": "TZ",
+      "value": 900,
+      "txt": "900",
+      "at": "L8+0.6"
+     },
+     {
+      "label": "Hebrew",
+      "flag": "IL",
+      "value": 1100,
+      "txt": "1,100",
+      "hl": true,
+      "at": "L8+0.9"
+     },
+     {
+      "label": "Arabic",
+      "flag": "SA",
+      "value": 2200,
+      "txt": "2,200",
+      "at": "L8+1.2"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "US Foreign Service Institute rankings, via Atlas and Boots",
+   "year": 2025
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "You already speak a *hard* language.",
+  "cta": "Send this to an Israeli learning English"
+ },
+ "caption_en": "US diplomats need about 1,100 class hours to learn Hebrew.",
+ "caption_he": "כמה קשה עברית? לפי המכון להכשרת דיפלומטים של ארה\"ב (FSI): רמה 4 מתוך 5. 🎓\n\nרמה 1: ספרדית, צרפתית, איטלקית, הולנדית, 575 עד 600 שעות.\nרמה 2: גרמנית, 750 שעות.\nרמה 3: אינדונזית, מלאית, סוואהילית, 900 שעות.\nרמה 4: עברית, רוסית, יוונית, טורקית, 1,100 שעות.\nרמה 5: ערבית, מנדרינית, יפנית, קוריאנית, 2,200 שעות.\n\nאם גדלת עם עברית, את/ה כבר מדבר/ת שפה קשה. אנגלית? עשית דברים קשים יותר.\n\nשלחו לישראלי שלומד אנגלית.\n\nמקור: US Foreign Service Institute language difficulty rankings, via atlasandboots.com.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#Hebrew",
+  "#אנגלית"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "1,100 h",
+  "text": "Hebrew for|*Americans*"
+ }
+}

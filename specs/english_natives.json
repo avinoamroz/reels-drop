@@ -1,0 +1,244 @@
+{
+ "id": "english_natives",
+ "account": "expressenglishcom",
+ "template": "map_counter",
+ "hook": "*1.5 billion* speak English.|Natives?",
+ "opener": {
+  "style": "globe_spin_reverse"
+ },
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "One and a half billion people speak English. How many are native speakers?",
+   "gap": 0.4
+  },
+  {
+   "say": "Here's Ethnologue's count for twenty twenty five.",
+   "screen": "English speakers, *2025*",
+   "screen_icon": "🗣️"
+  },
+  {
+   "say": "America, Britain, Canada, Australia, Ireland, New Zealand."
+  },
+  {
+   "say": "Native speakers: three hundred and ninety million.",
+   "gap": 0.4
+  },
+  {
+   "say": "Now add everyone who learned it."
+  },
+  {
+   "say": "India. Nigeria. The Philippines. Germany. Israel."
+  },
+  {
+   "say": "One point one billion learners.",
+   "gap": 0.4
+  },
+  {
+   "say": "That's about three out of four English speakers. They learned it. Like you.",
+   "gap": 0.5
+  },
+  {
+   "say": "No language on Earth has more learners."
+  },
+  {
+   "say": "That's why business runs on it, from Tel Aviv to Tokyo."
+  },
+  {
+   "say": "Your accent isn't the exception. It's the majority."
+  },
+  {
+   "say": "So next time you're scared to speak in a meeting, remember:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   10.0,
+   30.0,
+   220.0
+  ],
+  "highlight": [
+   {
+    "at": "L2",
+    "until": "L7",
+    "code": "USA"
+   },
+   {
+    "at": "L2+0.4",
+    "until": "L7",
+    "code": "GBR"
+   },
+   {
+    "at": "L2+0.8",
+    "until": "L7",
+    "code": "CAN"
+   },
+   {
+    "at": "L2+1.2",
+    "until": "L7",
+    "code": "AUS"
+   },
+   {
+    "at": "L2+1.6",
+    "until": "L7",
+    "code": "IRL"
+   },
+   {
+    "at": "L2+2.0",
+    "until": "L7",
+    "code": "NZL"
+   },
+   {
+    "at": "L5",
+    "until": "L7",
+    "code": "IND"
+   },
+   {
+    "at": "L5+0.6",
+    "until": "L7",
+    "code": "NGA"
+   },
+   {
+    "at": "L5+1.2",
+    "until": "L7",
+    "code": "PHL"
+   },
+   {
+    "at": "L5+1.8",
+    "until": "L7",
+    "code": "DEU"
+   },
+   {
+    "at": "L5+2.4",
+    "until": "L7",
+    "code": "ISR"
+   }
+  ],
+  "counter": [
+   {
+    "label": "Native speakers",
+    "at": "L2",
+    "until": "L4-0.1",
+    "y": 1250,
+    "suffix": "M",
+    "steps": [
+     {
+      "at": "L3",
+      "value": 390
+     }
+    ]
+   },
+   {
+    "label": "Learners",
+    "at": "L4+0.2",
+    "until": "L7-0.1",
+    "y": 1250,
+    "suffix": "M",
+    "steps": [
+     {
+      "at": "L6",
+      "value": 1100
+     }
+    ]
+   }
+  ],
+  "dim": [
+   {
+    "at": "L7",
+    "until": "L11"
+   }
+  ],
+  "big": [
+   {
+    "at": "L7",
+    "until": "L8-0.1",
+    "value": 3,
+    "from": 0,
+    "suffix": " in 4",
+    "sub": "English speakers learned it",
+    "y": 960
+   }
+  ],
+  "bars": [
+   {
+    "at": "L8",
+    "until": "L10-0.1",
+    "y": 560,
+    "title": "Learners, millions",
+    "vmax": 1100,
+    "rows": [
+     {
+      "label": "English",
+      "flag": "GB",
+      "value": 1100,
+      "txt": "1,100",
+      "hl": true,
+      "at": "L8"
+     },
+     {
+      "label": "Arabic",
+      "flag": "SA",
+      "value": 335,
+      "txt": "335",
+      "at": "L8+0.3"
+     },
+     {
+      "label": "Hindi",
+      "flag": "IN",
+      "value": 264,
+      "txt": "264",
+      "at": "L8+0.6"
+     },
+     {
+      "label": "French",
+      "flag": "FR",
+      "value": 238,
+      "txt": "238",
+      "at": "L8+0.9"
+     },
+     {
+      "label": "Mandarin",
+      "flag": "CN",
+      "value": 194,
+      "txt": "194",
+      "at": "L8+1.2"
+     },
+     {
+      "label": "Spanish",
+      "flag": "ES",
+      "value": 74,
+      "txt": "74",
+      "at": "L8+1.5"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Ethnologue, via Wikipedia list of languages by speakers",
+   "year": 2025
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Most English speakers *learned* it. Like you.",
+  "cta": "Send this to someone shy about English"
+ },
+ "caption_en": "1.5 billion people speak English. Only 390 million are native speakers.",
+ "caption_he": "מיליארד וחצי אנשים מדברים אנגלית. רק 390 מיליון מהם דוברים ילידיים. 🗣️\n\nכל השאר, 1.1 מיליארד, למדו אותה. בערך שלושה מכל ארבעה דוברי אנגלית בעולם הם בדיוק כמוך.\nאין שפה בעולם עם יותר לומדים: ערבית ספרותית 335 מיליון, הינדי 264, צרפתית 238, מנדרינית 194, ספרדית 74.\n\nהמבטא שלך הוא לא חריג. הוא הרוב. ובגלל זה הביזנס בעולם רץ באנגלית, מתל אביב ועד טוקיו.\n\nשלחו למישהו שמתבייש לדבר אנגלית בישיבות.\n\nמקור: Ethnologue 2025, דרך ויקיפדיה (List of languages by total number of speakers).",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#English",
+  "#אנגלית"
+ ],
+ "cover": {
+  "t": 22.0,
+  "big": "3 in 4",
+  "text": "English speakers|*learned it*"
+ }
+}

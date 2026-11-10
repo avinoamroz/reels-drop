@@ -1,0 +1,299 @@
+{
+ "id": "executions_96",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*96%* of executions|happen where?",
+ "opener": {
+  "style": "globe_spin_whip"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Ninety six percent of the world's recorded executions. Where do they happen?",
+   "gap": 0.4
+  },
+  {
+   "say": "In twenty twenty five, Amnesty counted at least two thousand seven hundred and seven.",
+   "screen": "Recorded executions, *2025*",
+   "screen_icon": "⚖️"
+  },
+  {
+   "say": "Iran: at least two thousand one hundred and fifty nine."
+  },
+  {
+   "say": "Saudi Arabia: three hundred and fifty six."
+  },
+  {
+   "say": "Yemen: fifty one."
+  },
+  {
+   "say": "Egypt, Iraq, Kuwait and the Emirates also executed people. No full count."
+  },
+  {
+   "say": "The region's total: at least two thousand six hundred and eleven.",
+   "gap": 0.4
+  },
+  {
+   "say": "Now per million people.",
+   "screen": "Executions per *million* people"
+  },
+  {
+   "say": "Israel, Jordan, Lebanon and Syria: zero."
+  },
+  {
+   "say": "Yemen: one. Saudi Arabia: almost ten. Iran: twenty three.",
+   "gap": 0.4
+  },
+  {
+   "say": "Ninety six percent of the world's total, in one region.",
+   "gap": 0.4
+  },
+  {
+   "say": "In twenty twenty six, Israel passed a death penalty law for terror. It now faces a Supreme Court challenge."
+  },
+  {
+   "say": "So next time someone calls Israel the harshest state in the region, ask them:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   44.0,
+   27.0,
+   34.0
+  ],
+  "highlight": [
+   {
+    "at": "L2",
+    "until": "L7",
+    "code": "IRN"
+   },
+   {
+    "at": "L3",
+    "until": "L7",
+    "code": "SAU"
+   },
+   {
+    "at": "L4",
+    "until": "L7",
+    "code": "YEM"
+   },
+   {
+    "at": "L5",
+    "until": "L7",
+    "code": "EGY"
+   },
+   {
+    "at": "L5+0.5",
+    "until": "L7",
+    "code": "IRQ"
+   },
+   {
+    "at": "L5+1.0",
+    "until": "L7",
+    "code": "KWT"
+   },
+   {
+    "at": "L5+1.5",
+    "until": "L7",
+    "code": "ARE"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L2",
+    "until": "L7",
+    "lon": 51.4,
+    "lat": 35.7,
+    "label": "Iran 2,159+"
+   },
+   {
+    "at": "L3",
+    "until": "L7",
+    "lon": 46.7,
+    "lat": 24.7,
+    "label": "Saudi 356+"
+   },
+   {
+    "at": "L4",
+    "until": "L7",
+    "lon": 44.2,
+    "lat": 15.4,
+    "label": "Yemen 51+"
+   },
+   {
+    "at": "L5",
+    "until": "L7",
+    "lon": 31.2,
+    "lat": 30.0,
+    "label": "Egypt ?",
+    "color": "grey"
+   },
+   {
+    "at": "L5+0.5",
+    "until": "L7",
+    "lon": 44.4,
+    "lat": 33.3,
+    "label": "Iraq ?",
+    "color": "grey"
+   },
+   {
+    "at": "L6",
+    "until": "L7",
+    "lon": 35.2,
+    "lat": 31.8,
+    "label": "Israel 0",
+    "color": "yellow",
+    "size": 46
+   }
+  ],
+  "counter": {
+   "label": "Executions recorded, 2025",
+   "at": "L1+0.3",
+   "until": "L7-0.1",
+   "y": 1250,
+   "steps": [
+    {
+     "at": "L2",
+     "value": 2159
+    },
+    {
+     "at": "L3",
+     "value": 2515
+    },
+    {
+     "at": "L4",
+     "value": 2566
+    },
+    {
+     "at": "L6",
+     "value": 2611
+    }
+   ]
+  },
+  "dim": [
+   {
+    "at": "L7",
+    "until": "L11"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L7",
+    "until": "L10-0.1",
+    "y": 520,
+    "vmax": 23.4,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0,
+      "txt": "0",
+      "hl": true,
+      "at": "L8"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0,
+      "txt": "0",
+      "at": "L8+0.3"
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 0,
+      "txt": "0",
+      "at": "L8+0.6"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 0,
+      "txt": "0",
+      "at": "L8+0.9"
+     },
+     {
+      "label": "Yemen",
+      "flag": "YE",
+      "value": 1.2,
+      "txt": "1.2",
+      "at": "L9"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 9.6,
+      "txt": "9.6",
+      "at": "L9+0.8"
+     },
+     {
+      "label": "Iran",
+      "flag": "IR",
+      "value": 23.4,
+      "txt": "23.4",
+      "at": "L9+1.8"
+     },
+     {
+      "label": "Egypt, Iraq, Kuwait, UAE",
+      "emo": "❓",
+      "value": 0,
+      "txt": "no count",
+      "at": "L9+2.4"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L10",
+    "until": "L11-0.2",
+    "value": 96,
+    "from": 1,
+    "suffix": "%",
+    "sub": "of the world's recorded executions",
+    "y": 960
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Amnesty International, Death Sentences and Executions",
+   "year": 2025,
+   "at": "L1",
+   "until": "L11"
+  },
+  {
+   "label": "Population: World Bank",
+   "year": 2025,
+   "at": "L7",
+   "until": "L10"
+  },
+  {
+   "label": "Capital punishment in Israel, Wikipedia",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Iranians and Saudis are not their *regimes.*",
+  "cta": "Send this to someone who needs it"
+ },
+ "caption_en": "96% of the world's recorded executions in 2025 happened in one region. 🌍\n\nAmnesty International counted at least 2,707 executions worldwide in 2025 (China's thousands are secret and not in the count). At least 2,611 were in the Middle East and North Africa.\n\nIran 2,159+, Saudi Arabia 356+, Yemen 51+. Egypt, Iraq, Kuwait and the UAE also executed people (no full count). Israel, Jordan, Lebanon and Syria: none recorded.\n\nPer million people: Iran 23.4, Saudi Arabia 9.6, Yemen 1.2, Israel 0.\n\nIn March 2026 the Knesset passed a death penalty law for terror (62 to 48). It faces a Supreme Court petition. Israel has carried out one civil execution in its history: Adolf Eichmann, 1962.\n\nThe people of Iran and Saudi Arabia are not their regimes, and many of them fight this.\n\nSend this to someone who calls Israel the harshest state in the region.",
+ "caption_he": "96% מההוצאות להורג שתועדו בעולם ב-2025 היו באזור אחד.\nאמנסטי ספרו לפחות 2,707 הוצאות להורג בעולם, מתוכן לפחות 2,611 במזרח התיכון וצפון אפריקה.\nאיראן 2,159+, סעודיה 356+, תימן 51+. גם מצרים, עיראק, כווית ואיחוד האמירויות הוציאו להורג (אין ספירה מלאה). ישראל, ירדן, לבנון וסוריה: אפס.\nלמיליון תושבים: איראן 23.4, סעודיה 9.6, תימן 1.2, ישראל 0.\nבמרץ 2026 עבר בכנסת חוק עונש מוות למחבלים, ועתירה נגדו תלויה בבג\"ץ.\nהעמים של איראן וסעודיה הם לא המשטרים שלהם.\n\nSources: Amnesty International, Death Sentences and Executions 2025 (amnesty.org, May 2026); population: World Bank 2025; Capital punishment in Israel (Wikipedia, 2026).",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#humanrights",
+  "#facts"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "96%",
+  "text": "of executions|happen *where?*"
+ }
+}

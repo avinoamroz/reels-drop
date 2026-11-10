@@ -1,0 +1,115 @@
+{
+ "id": "hasbara_english",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "This word in English?|*3* ways",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Maya asks, what's our word for this in English?",
+   "gap": 0.4
+  },
+  {
+   "say": "It literally means explaining. Israelis use it for telling Israel's side to the world."
+  },
+  {
+   "say": "At a conference, say: public diplomacy.",
+   "gap": 0.3
+  },
+  {
+   "say": "With friends, say: explaining Israel.",
+   "gap": 0.3
+  },
+  {
+   "say": "On a panel, say: advocacy.",
+   "gap": 0.5
+  },
+  {
+   "say": "Israeli diplomats today prefer public diplomacy. It sounds less defensive."
+  },
+  {
+   "say": "What do you do for Israel online?"
+  },
+  {
+   "say": "Public diplomacy. I tell Israel's story in English."
+  },
+  {
+   "say": "That's important work.",
+   "gap": 0.5
+  },
+  {
+   "say": "English is how the story reaches the world."
+  },
+  {
+   "say": "Save this for your next meeting."
+  }
+ ],
+ "data": {
+  "he": "הסברה",
+  "setting": "office",
+  "speaker": {
+   "name": "Maya",
+   "says": "What's our word for this in English?",
+   "at": "L0"
+  },
+  "options": [
+   {
+    "tag": "Formal",
+    "text": "*Public diplomacy*",
+    "at": "L2"
+   },
+   {
+    "tag": "Casual",
+    "text": "*Explaining* Israel",
+    "at": "L3"
+   },
+   {
+    "tag": "On a panel",
+    "text": "*Advocacy*",
+    "at": "L4"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "What do you do for Israel online?",
+    "at": "L6"
+   },
+   {
+    "who": "me",
+    "text": "*Public diplomacy.* I tell Israel's story in English.",
+    "at": "L7"
+   },
+   {
+    "who": "them",
+    "text": "That's important work.",
+    "at": "L8"
+   }
+  ],
+  "save": {
+   "at": "L10"
+  }
+ },
+ "sources": [
+  {
+   "label": "Public diplomacy of Israel, Wikipedia",
+   "year": 2026
+  }
+ ],
+ "caption_en": "How do you say this Hebrew word in English? Public diplomacy, explaining Israel, advocacy.",
+ "caption_he": "איך אומרים הסברה באנגלית? 3 דרכים 🇮🇱\n\nבכנס: Public diplomacy\nעם חברים: Explaining Israel\nבפאנל: Advocacy\n\nהמילה הסברה פשוט אומרת explaining. דיפלומטים ישראלים מעדיפים היום public diplomacy, כי explaining נשמע מתגונן.\n\nאנגלית היא הדרך שבה הסיפור שלנו מגיע לעולם. שמרו את זה לפגישה הבאה.\n\nמקור: Wikipedia, Public diplomacy of Israel (2026).",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#הסברה",
+  "#אנגלית"
+ ],
+ "cover": {
+  "t": 12.0,
+  "big": "3 ways",
+  "text": "Say *this* word|in English"
+ }
+}
