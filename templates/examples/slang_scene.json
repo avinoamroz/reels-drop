@@ -1,0 +1,36 @@
+{
+ "_note": "FORMAT EXAMPLE (walla, from the x_slang_walla reel).",
+ "id": "example_slang_walla",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Walla in English? 3 ways",
+ "music": {"bed": "bounce"},
+ "lines": [
+  {"say": "Emma says, I'm moving to Tel Aviv!"},
+  {"say": "You say, no way!"},
+  {"say": "Or, really?"},
+  {"say": "At work, say, wow, that's big news!", "gap": 0.6},
+  {"say": "I ran a marathon on Friday."},
+  {"say": "Really? How did it go?"},
+  {"say": "Slow, but I finished!", "gap": 0.6},
+  {"say": "Save this for your next meeting."}
+ ],
+ "data": {
+  "he": "וואלה",
+  "setting": "coffee",
+  "speaker": {"name": "Emma", "says": "I'm moving to Tel Aviv!", "at": "L0:i'm"},
+  "options": [
+   {"tag": "Casual", "text": "*No way!*", "at": "L1:no"},
+   {"tag": "Or", "text": "*Really?*", "at": "L2:really"},
+   {"tag": "At work", "text": "*Wow,* that's big news!", "at": "L3:wow"}
+  ],
+  "chat": [
+   {"who": "them", "text": "I ran a marathon on Friday.", "at": "L4"},
+   {"who": "me", "text": "*Really?* How did it go?", "at": "L5"},
+   {"who": "them", "text": "Slow, but I finished!", "at": "L6"}
+  ],
+  "save": {"at": "L7"}
+ },
+ "sources": [{"label": "Oxford Learner's Dictionaries", "year": 2025}],
+ "caption_en": "...", "caption_he": "...", "hashtags": ["#EnglishExpress", "#BusinessEnglish", "#slang"]
+}

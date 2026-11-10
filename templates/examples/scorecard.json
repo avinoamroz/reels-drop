@@ -1,0 +1,37 @@
+{
+ "_note": "FORMAT EXAMPLE ONLY: cells are placeholders, research and source every cell before copying this into specs/.",
+ "id": "example_scorecard",
+ "account": "noamroz__",
+ "template": "scorecard",
+ "hook": "4 freedoms. Who scores 4?",
+ "music": {"bed": "doc_piano"},
+ "lines": [
+  {"say": "Four freedoms. Which country around Israel scores four out of four?"},
+  {"say": "First test: can women vote?", "screen": "Live scorecard: *4* freedoms"},
+  {"say": "Second: can you criticise the leader?"},
+  {"say": "Third: can a gay couple live openly?"},
+  {"say": "Fourth: can you change your religion?"},
+  {"say": "Only one country gets four out of four."},
+  {"say": "Every country here has brave people fighting for all four."},
+  {"say": "So when someone asks you where freedom lives in the Middle East:"}
+ ],
+ "data": {
+  "columns": [
+   {"label": "Women vote", "icon": "🗳️", "at": "L1:vote"},
+   {"label": "Criticise", "icon": "📢", "at": "L2:criticise"},
+   {"label": "Gay couple", "icon": "🏳️‍🌈", "at": "L3:gay"},
+   {"label": "Change faith", "icon": "🕊️", "at": "L4:change"}
+  ],
+  "rows": [
+   {"label": "Egypt", "flag": "EG", "cells": ["Y", "N", "N", "N"]},
+   {"label": "Jordan", "flag": "JO", "cells": ["Y", "N", "P", "N"]},
+   {"label": "Lebanon", "flag": "LB", "cells": ["Y", "P", "N", null]},
+   {"label": "Syria", "flag": "SY", "cells": ["Y", "N", "N", null]},
+   {"label": "Israel", "flag": "IL", "cells": ["Y", "Y", "Y", "Y"], "hl": true}
+  ],
+  "verdict": [{"at": "L5", "until": "L6", "text": "Only *one* gets 4 out of 4"}]
+ },
+ "sources": [{"label": "Freedom House, Freedom in the World", "year": 2025}],
+ "end": {"at": "L6", "balance": "Every country here has *brave* people fighting for all four.", "cta": "Comment SAFE for the sources"},
+ "caption_en": "...", "caption_he": "...", "hashtags": ["#Israel", "#MiddleEast", "#freedom"]
+}

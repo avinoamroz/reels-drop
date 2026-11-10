@@ -1,0 +1,333 @@
+{
+ "_note": "FORMAT EXAMPLE, same as specs/test_map_un.json (the 9 Nov UN remake re-rendered from its existing voice).",
+ "id": "example_map_un",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*15* of *26* UN|condemnations?",
+ "opener": {
+  "style": "globe_spin_whip"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "subs_replace": {
+  "U.N.": "UN"
+ },
+ "lines": [
+  {
+   "say": "Fifteen out of twenty-six U.N. condemnations. One country.",
+   "gap": 0.45
+  },
+  {
+   "say": "Every year, the General Assembly votes on who to condemn. Let's watch the scoreboard.",
+   "gap": 0.35,
+   "screen": "UN General Assembly *2025:* who got condemned?",
+   "at": "L1:watch"
+  },
+  {
+   "say": "Russia, which invaded Ukraine: six."
+  },
+  {
+   "say": "The United States: two."
+  },
+  {
+   "say": "Iran, North Korea, Myanmar: one each."
+  },
+  {
+   "say": "Sudan, the world's largest displacement crisis: zero."
+  },
+  {
+   "say": "And Israel: fifteen. More than the rest of the world combined.",
+   "gap": 0.5
+  },
+  {
+   "say": "Now let's make it fair. Per ten million people.",
+   "screen": "Per *10 million* people",
+   "at": "L7:per"
+  },
+  {
+   "say": "Russia: under half a condemnation. Israel: almost fifteen."
+  },
+  {
+   "say": "That's over a thousand times the rest of the world.",
+   "gap": 0.5
+  },
+  {
+   "say": "Israel's war in Gaza deserves scrutiny, like any war."
+  },
+  {
+   "say": "But fifteen to eleven isn't scrutiny. It's a pattern.",
+   "gap": 0.45
+  },
+  {
+   "say": "So next time someone quotes the U.N., remember:"
+  }
+ ],
+ "data": {
+  "cam0": [
+   36.0,
+   31.5,
+   24.0
+  ],
+  "hook_y": 930,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     18,
+     30,
+     205,
+     610
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L10-0.4",
+    "view": [
+     36.0,
+     31.5,
+     24.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L2",
+    "until": "L7",
+    "code": "RUS"
+   },
+   {
+    "at": "L3",
+    "until": "L7",
+    "code": "USA"
+   },
+   {
+    "at": "L4:iran",
+    "until": "L7",
+    "code": "IRN"
+   },
+   {
+    "at": "L4:north",
+    "until": "L7",
+    "code": "PRK"
+   },
+   {
+    "at": "L4:myanmar",
+    "until": "L7",
+    "code": "MMR"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L2",
+    "until": "L7",
+    "lon": 37.6,
+    "lat": 55.75,
+    "label": "Russia 6"
+   },
+   {
+    "at": "L3",
+    "until": "L7",
+    "lon": -77.0,
+    "lat": 38.9,
+    "label": "USA 2"
+   },
+   {
+    "at": "L4:iran",
+    "until": "L7",
+    "lon": 51.4,
+    "lat": 35.7,
+    "label": "Iran 1"
+   },
+   {
+    "at": "L4:north",
+    "until": "L7",
+    "lon": 125.75,
+    "lat": 39.0,
+    "label": "N. Korea 1"
+   },
+   {
+    "at": "L4:myanmar",
+    "until": "L7",
+    "lon": 96.1,
+    "lat": 19.75,
+    "label": "Myanmar 1"
+   },
+   {
+    "at": "L5",
+    "until": "L7",
+    "lon": 32.5,
+    "lat": 15.6,
+    "label": "Sudan 0",
+    "color": "grey"
+   },
+   {
+    "at": "L6:fifteen",
+    "until": "L7",
+    "lon": 35.2,
+    "lat": 31.8,
+    "label": "Israel 15",
+    "color": "yellow",
+    "size": 46
+   }
+  ],
+  "counter": {
+   "label": "Condemnations",
+   "of": 26,
+   "at": "L2-0.3",
+   "until": "L6:more",
+   "y": 1250,
+   "steps": [
+    {
+     "at": "L2",
+     "value": 6
+    },
+    {
+     "at": "L3",
+     "value": 8
+    },
+    {
+     "at": "L4:iran",
+     "value": 9
+    },
+    {
+     "at": "L4:north",
+     "value": 10
+    },
+    {
+     "at": "L4:myanmar",
+     "value": 11
+    },
+    {
+     "at": "L6:fifteen",
+     "value": 26
+    }
+   ]
+  },
+  "bars": [
+   {
+    "at": "L6:more",
+    "until": "L7:per-0.1",
+    "y": 1180,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 15,
+      "hl": true,
+      "at": "L6:more"
+     },
+     {
+      "label": "Rest of world",
+      "emo": "🌍",
+      "value": 11,
+      "at": "L6:world"
+     }
+    ]
+   },
+   {
+    "at": "L7:per",
+    "until": "L9",
+    "y": 560,
+    "vmax": 14.9,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 14.9,
+      "txt": "14.9",
+      "hl": true,
+      "at": "L8:israel"
+     },
+     {
+      "label": "Russia",
+      "flag": "RU",
+      "value": 0.41,
+      "txt": "0.41",
+      "at": "L8:russia"
+     },
+     {
+      "label": "N. Korea",
+      "flag": "KP",
+      "value": 0.38,
+      "txt": "0.38",
+      "at": "L8:under+0.15"
+     },
+     {
+      "label": "Myanmar",
+      "flag": "MM",
+      "value": 0.18,
+      "txt": "0.18",
+      "at": "L8:under+0.3"
+     },
+     {
+      "label": "Iran",
+      "flag": "IR",
+      "value": 0.11,
+      "txt": "0.11",
+      "at": "L8:under+0.45"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 0.06,
+      "txt": "0.06",
+      "at": "L8:under+0.6"
+     },
+     {
+      "label": "Rest of world",
+      "emo": "🌍",
+      "value": 0.013,
+      "txt": "0.013",
+      "at": "L8:under+0.75"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L9",
+    "until": "L10-0.2",
+    "value": 1100,
+    "from": 1,
+    "suffix": "x",
+    "sub": "the rest of the world",
+    "y": 960
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "UN Watch, UNGA resolutions on Israel vs rest of world",
+   "year": 2025,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Population: UN World Population Prospects",
+   "year": 2024,
+   "at": "L7",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Israel's war in Gaza deserves *scrutiny,* like any war.",
+  "cta": "15 to 11 is a *pattern*"
+ },
+ "caption_en": "TEST RENDER, not for posting. 15 of 26 UN General Assembly condemnations in 2025 went to one country.",
+ "caption_he": "בדיקת תבנית, לא לפרסום.",
+ "hashtags": [
+  "#Israel",
+  "#UN",
+  "#facts"
+ ],
+ "cover": {
+  "t": 14.0,
+  "big": "15 / 26",
+  "text": "UN condemnations:|*one* country?"
+ }
+}

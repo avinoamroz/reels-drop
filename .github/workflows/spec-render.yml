@@ -1,0 +1,129 @@
+name: spec-render
+# One JSON spec -> one reel. A push that adds or changes specs/<id>.json starts one machine per spec (matrix, up to 20
+# in parallel): voice -> render -> transcript check -> commit
+#   out/<id>.mp4, covers/<id>_cover.jpg, previews/<id>_540.mp4, out/frames/<id>_{0,1,3,last}.jpg, out/<id>.report.json
+# Voice: Cartesia (secret CARTESIA_API_KEY, same body as Make TTS1 4998936). Without the secret the job uses
+# voice/<id>_*.wav (+ _words.json) from the repo, or fails with a clear message. Nothing here posts anything.
+# Templates and the spec format: templates/README.md
+on:
+  push:
+    paths: ['specs/*.json']
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'space separated spec ids to (re)render'
+        required: true
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.p.outputs.ids }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: specs
+      - id: p
+        run: |
+          if [ -n "${{ github.event.inputs.ids }}" ]; then
+            ids="${{ github.event.inputs.ids }}"
+          else
+            before="${{ github.event.before }}"
+            if git cat-file -e "$before" 2>/dev/null; then
+              ids=$(git diff --diff-filter=AM --name-only "$before" "${{ github.sha }}" -- 'specs/*.json' | xargs -r -n1 basename | sed 's/\.json$//' | sort -u)
+            else
+              ids=$(git show --diff-filter=AM --name-only --format= "${{ github.sha }}" -- 'specs/*.json' | xargs -r -n1 basename | sed 's/\.json$//' | sort -u)
+            fi
+          fi
+          json=$(printf '%s\n' $ids | grep -v '^$' | jq -R . | jq -sc .)
+          echo "ids=$json" >> "$GITHUB_OUTPUT"
+          echo "specs: $json"
+  render:
+    needs: plan
+    if: needs.plan.outputs.ids != '[]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        id: ${{ fromJson(needs.plan.outputs.ids) }}
+    env:
+      ID: ${{ matrix.id }}
+      SPEC: specs/${{ matrix.id }}.json
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /templates/
+            /specs/${{ matrix.id }}.json
+            /voice/${{ matrix.id }}_*
+      - name: Rehook source and named voice file
+        run: |
+          src=$(jq -r 'if .template == "rehook" then .data.source else empty end' "$SPEC")
+          vf=$(jq -r '.voice.file // empty' "$SPEC")
+          for f in $src $vf; do git sparse-checkout add "/$f"; done
+          [ -z "$vf" ] || git sparse-checkout add "/${vf%.wav}_words.json"
+          ls -la templates specs voice 2>/dev/null | head -30 || true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cache pip and whisper
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: spec-render-v1
+      - name: Install tools
+        timeout-minutes: 12
+        run: |
+          for i in 1 2 3; do
+            sudo apt-get -o Acquire::Retries=3 update -qq && sudo apt-get -o Acquire::Retries=3 install -y -qq --no-install-recommends ffmpeg fonts-inter fonts-noto-color-emoji libcairo2 libcairo2-dev pkg-config libsndfile1 jq > /dev/null && break
+            sleep 20
+          done
+          pip install -q --retries 5 pycairo numpy scipy pillow python-bidi soundfile opencv-python-headless requests num2words faster-whisper==1.2.1
+          ffmpeg -hide_banner -filters 2>/dev/null | grep -q rubberband && echo "rubberband ok" || echo "no rubberband (asetrate fallback)"
+      - name: Voice
+        id: v
+        env:
+          CARTESIA_API_KEY: ${{ secrets.CARTESIA_API_KEY }}
+        run: |
+          if [ -z "$CARTESIA_API_KEY" ]; then echo "CARTESIA_API_KEY not set: using voice/${ID}_*.wav from the repo if present"; fi
+          python templates/render.py "$SPEC" --voice-only 2>&1 | tee /tmp/log.txt
+      - name: Render
+        id: r
+        run: |
+          START=$(date +%s)
+          python templates/render.py "$SPEC" 2>&1 | tee -a /tmp/log.txt
+          echo "secs=$(( $(date +%s) - START ))" >> "$GITHUB_OUTPUT"
+          test -s "out/$ID.mp4" && test -s "out/$ID.report.json"
+      - name: Transcript check
+        if: steps.r.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python templates/check.py "$SPEC" 2>&1 | tee -a /tmp/log.txt
+      - name: Commit outputs
+        if: always()
+        run: |
+          mkdir -p out
+          if [ ! -s "out/$ID.report.json" ]; then
+            tail -c 3000 /tmp/log.txt 2>/dev/null | jq -Rs --arg id "$ID" --arg run "${{ github.run_id }}" \
+              '{id:$id, status:"FAILED", run:$run, log:.}' > "out/$ID.report.json"
+          fi
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          for f in "out/$ID.mp4" "out/$ID.report.json" out/frames/${ID}_*.jpg "covers/${ID}_cover.jpg" "previews/${ID}_540.mp4" voice/${ID}_vo.wav voice/${ID}_vo_words.json voice/${ID}_vo.hash; do
+            if [ -f "$f" ]; then git add --sparse -f "$f"; fi
+          done
+          git -c gc.auto=0 commit -q -m "spec-render: $ID" || { echo "nothing to commit"; exit 0; }
+          for i in 1 2 3 4 5 6 7 8 9 10; do
+            git -c gc.auto=0 pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $(( (RANDOM % 15) + 5 ))
+          done
+          echo "push failed after 10 tries"; exit 1

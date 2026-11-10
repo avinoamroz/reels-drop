@@ -1,0 +1,27 @@
+{
+ "_note": "FORMAT EXAMPLE ONLY: the numbers below are placeholders, research and source real data before copying this into specs/.",
+ "id": "example_race",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*1948* to now: who grew most?",
+ "music": {"bed": "journey", "lufs": -16},
+ "lines": [
+  {"say": "Nineteen forty eight to now. Who grew the most?"},
+  {"say": "Start with the neighbours: Egypt, Jordan, Lebanon, Syria.", "screen": "Population, in *millions*"},
+  {"say": "Watch Israel from the bottom of the list."},
+  {"say": "By nineteen sixty seven, it passes Lebanon.", "gap": 0.5},
+  {"say": "Today: ten million people, from six hundred thousand."},
+  {"say": "Almost seventeen times bigger in one lifetime."},
+  {"say": "So the next time someone says Israel is too small to matter:"}
+ ],
+ "data": {
+  "csv": "templates/examples/data_race_example.csv",
+  "meta": {"Israel": {"flag": "IL", "hl": true}, "Egypt": {"flag": "EG"}, "Jordan": {"flag": "JO"}, "Lebanon": {"flag": "LB"}, "Syria": {"flag": "SY"}},
+  "at": "L0+1.0", "until": "L5", "holds": {"1967": 1.2}, "top": 5, "dec": 1, "suffix": "M",
+  "unit": "population, millions",
+  "callouts": [{"at": "L5", "until": "L6", "text": "*17x* in one lifetime"}]
+ },
+ "sources": [{"label": "UN World Population Prospects", "year": 2024}],
+ "end": {"at": "L6", "balance": "Big is not the point. *Growth* is.", "cta": "Comment SAFE for the sources"},
+ "caption_en": "...", "caption_he": "...", "hashtags": ["#Israel", "#data", "#history"]
+}
