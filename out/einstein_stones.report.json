@@ -1,0 +1,183 @@
+{
+ "id": "einstein_stones",
+ "account": "noamroz__",
+ "template": "pun_ladder",
+ "hook": "Einstein means|*ONE* stone. So...",
+ "duration": 45.77,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/einstein_stones.mp4",
+  "cover": "covers/einstein_stones_cover.jpg",
+  "preview": "previews/einstein_stones_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/einstein_stones_0.jpg",
+  "1": "out/frames/einstein_stones_1.jpg",
+  "3": "out/frames/einstein_stones_3.jpg",
+  "last": "out/frames/einstein_stones_last.jpg"
+ },
+ "caption_en": "Einstein means one stone. So what's two? 🪨\n\nZweistein, Dreistein, Vierstein... then the stones get an upgrade:\nGoldstein: gold stone\nSilberstein / Silverstein: silver stone\nRubinstein: ruby stone\nBernstein: German for amber\nEdelstein: gemstone\nWeinstein: wine stone (the tartar crystals in wine barrels)\nEisenstein: iron stone\nFinkelstein: often said to mean spark stone\nFrankenstein: the stone of the Franks. It's alive!\n\nTag your favorite -stein.",
+ "caption_he": "איינשטיין זה אבן אחת. אז מה זה שתיים?\nגולדשטיין: אבן זהב. זילברשטיין: אבן כסף. רובינשטיין: אבן אודם. ברנשטיין: ענבר בגרמנית. אדלשטיין: אבן חן. וינשטיין: אבן יין. אייזנשטיין: אבן ברזל. ופרנקנשטיין? האבן שהשתבשה.\nתייגו את השטיין האהוב עליכם.",
+ "hashtags": [
+  "#JewishHumor",
+  "#Wordplay",
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia, Goldstein (surname)",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "iGENEA, Silverstein surname",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Wikipedia, Rubinstein",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia, Bernstein; Wiktionary, Bernstein",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Wikipedia, Edelstein",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Wikipedia, Weinstein",
+   "year": 2026,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "NameCensus, Eisenstein surname",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "Wikipedia, Finkelstein (Old High German funko, spark)",
+   "year": 2026,
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "label": "Wikipedia, Frankenstein Castle",
+   "year": 2026,
+   "at": "L14",
+   "until": "L15"
+  }
+ ],
+ "transcript": {
+  "score": 0.853,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Einstein means one stone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, Tsvystine? Two stones.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Drystine? Three stones.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Feerstine? Four stones. And the professor is buried.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Okay, forget counting. Let's upgrade the material.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Goldstein. A gold stone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Silverstein. A silver stone.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Rubinstein. A ruby stone.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Bernstein? In German, that word literally means amber.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Edelstein. A gemstone. Very fancy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Weinstein. Wine stone, the crystals that form in wine barrels.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Eisenstein. Iron stone. Never arm wrestle them.",
+    "score": 0.143,
+    "flag": "MISS"
+   },
+   {
+    "line": "Finkelstein is often said to mean spark stone. Basically a lighter.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "And the stone that went wrong?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Frankenstein. The stone of the Franks. It's alive!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Einstein? He killed two birds with one stone.",
+    "score": 0.889,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Einstein means one stone. So it's Fissie? Two stones. Christie? Three stones. Fierstein? Four stones. And the professor is buried. Okay, forget counting. Let's upgrade the material. Goldstein. A gold stone. Silver steel. Silver stone. Rubenstein. A ruby stone. Bernstein. In German, that word literally means amber. Edelstein. A gemstone. Very fancy. Weinstein. Weinstein. The crystals that form in wine barrels. Finklestein is often said to mean spark stone, basically a lighter, and the stone that went wrong? Frankenstein. The stone of the Franks. It's alive. An Einstein? It killed two birds with one stone.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 100.9
+}

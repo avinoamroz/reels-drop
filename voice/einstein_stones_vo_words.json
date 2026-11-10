@@ -1,0 +1,512 @@
+[
+{
+"word": "Einstein",
+"start": 0.03095994,
+"end": 0.6656387
+},
+{
+"word": "means",
+"start": 0.6656387,
+"end": 0.9287982
+},
+{
+"word": "one",
+"start": 0.9287982,
+"end": 1.2538775
+},
+{
+"word": "stone.",
+"start": 1.2538775,
+"end": 1.7337567
+},
+{
+"word": "So,",
+"start": 2.1052759,
+"end": 2.2755556
+},
+{
+"word": "Tsvystine?",
+"start": 2.2755556,
+"end": 2.8173544
+},
+{
+"word": "Two",
+"start": 3.575873,
+"end": 3.7461526
+},
+{
+"word": "stones.",
+"start": 3.7461526,
+"end": 4.2879515
+},
+{
+"word": "Drystine?",
+"start": 4.4737115,
+"end": 4.9845505
+},
+{
+"word": "Three",
+"start": 5.18579,
+"end": 5.3715496
+},
+{
+"word": "stones.",
+"start": 5.3715496,
+"end": 5.8204684
+},
+{
+"word": "Feerstine?",
+"start": 6.207468,
+"end": 6.811187
+},
+{
+"word": "Four",
+"start": 7.105306,
+"end": 7.322026
+},
+{
+"word": "stones.",
+"start": 7.322026,
+"end": 7.863825
+},
+{
+"word": "And",
+"start": 8.699743,
+"end": 8.854543
+},
+{
+"word": "the",
+"start": 8.854543,
+"end": 8.916463
+},
+{
+"word": "professor",
+"start": 8.916463,
+"end": 9.272502
+},
+{
+"word": "is",
+"start": 9.272502,
+"end": 9.334422
+},
+{
+"word": "buried.",
+"start": 9.334422,
+"end": 9.752381
+},
+{
+"word": "Okay,",
+"start": 10.13938,
+"end": 10.464459
+},
+{
+"word": "forget",
+"start": 10.52638,
+"end": 10.774059
+},
+{
+"word": "counting.",
+"start": 10.774059,
+"end": 11.068178
+},
+{
+"word": "Let's",
+"start": 11.640937,
+"end": 11.8576565
+},
+{
+"word": "upgrade",
+"start": 11.8576565,
+"end": 12.151776
+},
+{
+"word": "the",
+"start": 12.151776,
+"end": 12.2136965
+},
+{
+"word": "material.",
+"start": 12.2136965,
+"end": 12.724535
+},
+{
+"word": "Goldstein.",
+"start": 13.142494,
+"end": 13.684294
+},
+{
+"word": "A",
+"start": 14.102252,
+"end": 14.164172
+},
+{
+"word": "gold",
+"start": 14.164172,
+"end": 14.427332
+},
+{
+"word": "stone.",
+"start": 14.427332,
+"end": 14.736931
+},
+{
+"word": "Silverstein.",
+"start": 15.123931,
+"end": 15.758609
+},
+{
+"word": "A",
+"start": 16.408768,
+"end": 16.439728
+},
+{
+"word": "silver",
+"start": 16.439728,
+"end": 16.733847
+},
+{
+"word": "stone.",
+"start": 16.733847,
+"end": 17.043447
+},
+{
+"word": "Rubinstein.",
+"start": 17.910324,
+"end": 18.514044
+},
+{
+"word": "A",
+"start": 18.746243,
+"end": 18.839123
+},
+{
+"word": "ruby",
+"start": 18.839123,
+"end": 19.164202
+},
+{
+"word": "stone.",
+"start": 19.164202,
+"end": 19.504763
+},
+{
+"word": "Bernstein?",
+"start": 19.860802,
+"end": 20.340681
+},
+{
+"word": "In",
+"start": 21.300438,
+"end": 21.424278
+},
+{
+"word": "German,",
+"start": 21.424278,
+"end": 21.873198
+},
+{
+"word": "that",
+"start": 21.935118,
+"end": 22.136356
+},
+{
+"word": "word",
+"start": 22.136356,
+"end": 22.414997
+},
+{
+"word": "literally",
+"start": 22.445955,
+"end": 22.863914
+},
+{
+"word": "means",
+"start": 22.863914,
+"end": 23.065155
+},
+{
+"word": "amber.",
+"start": 23.065155,
+"end": 23.405714
+},
+{
+"word": "Edelstein.",
+"start": 23.885593,
+"end": 24.365473
+},
+{
+"word": "A",
+"start": 24.783432,
+"end": 24.845352
+},
+{
+"word": "gemstone.",
+"start": 24.845352,
+"end": 25.35619
+},
+{
+"word": "Very",
+"start": 26.13019,
+"end": 26.393349
+},
+{
+"word": "fancy.",
+"start": 26.393349,
+"end": 26.764868
+},
+{
+"word": "Weinstein.",
+"start": 28.173546,
+"end": 28.684383
+},
+{
+"word": "Wine",
+"start": 29.767982,
+"end": 30.031141
+},
+{
+"word": "stone,",
+"start": 30.031141,
+"end": 30.27882
+},
+{
+"word": "the",
+"start": 30.634861,
+"end": 30.72774
+},
+{
+"word": "crystals",
+"start": 30.72774,
+"end": 31.145699
+},
+{
+"word": "that",
+"start": 31.145699,
+"end": 31.269539
+},
+{
+"word": "form",
+"start": 31.269539,
+"end": 31.47078
+},
+{
+"word": "in",
+"start": 31.47078,
+"end": 31.563658
+},
+{
+"word": "wine",
+"start": 31.563658,
+"end": 31.780378
+},
+{
+"word": "barrels.",
+"start": 31.780378,
+"end": 32.167377
+},
+{
+"word": "Eisenstein.",
+"start": 33.281937,
+"end": 33.823734
+},
+{
+"word": "Iron",
+"start": 34.566772,
+"end": 34.798973
+},
+{
+"word": "stone.",
+"start": 34.798973,
+"end": 35.07761
+},
+{
+"word": "Never",
+"start": 35.74325,
+"end": 36.03737
+},
+{
+"word": "arm",
+"start": 36.03737,
+"end": 36.22313
+},
+{
+"word": "wrestle",
+"start": 36.22313,
+"end": 36.45533
+},
+{
+"word": "them.",
+"start": 36.45533,
+"end": 36.61013
+},
+{
+"word": "Finkelstein",
+"start": 37.182888,
+"end": 37.662766
+},
+{
+"word": "is",
+"start": 37.662766,
+"end": 37.740166
+},
+{
+"word": "often",
+"start": 37.740166,
+"end": 37.956886
+},
+{
+"word": "said",
+"start": 37.956886,
+"end": 38.142647
+},
+{
+"word": "to",
+"start": 38.142647,
+"end": 38.220047
+},
+{
+"word": "mean",
+"start": 38.220047,
+"end": 38.374844
+},
+{
+"word": "spark",
+"start": 38.374844,
+"end": 38.653484
+},
+{
+"word": "stone.",
+"start": 38.653484,
+"end": 38.978565
+},
+{
+"word": "Basically",
+"start": 39.644203,
+"end": 40.06216
+},
+{
+"word": "a",
+"start": 40.06216,
+"end": 40.12408
+},
+{
+"word": "lighter.",
+"start": 40.12408,
+"end": 40.48012
+},
+{
+"word": "And",
+"start": 41.28508,
+"end": 41.40892
+},
+{
+"word": "the",
+"start": 41.40892,
+"end": 41.47084
+},
+{
+"word": "stone",
+"start": 41.47084,
+"end": 41.703037
+},
+{
+"word": "that",
+"start": 41.703037,
+"end": 41.826878
+},
+{
+"word": "went",
+"start": 41.826878,
+"end": 42.012638
+},
+{
+"word": "wrong?",
+"start": 42.012638,
+"end": 42.399635
+},
+{
+"word": "Frankenstein.",
+"start": 42.693756,
+"end": 43.266514
+},
+{
+"word": "The",
+"start": 43.994076,
+"end": 44.102432
+},
+{
+"word": "stone",
+"start": 44.102432,
+"end": 44.350113
+},
+{
+"word": "of",
+"start": 44.350113,
+"end": 44.412033
+},
+{
+"word": "the",
+"start": 44.412033,
+"end": 44.473953
+},
+{
+"word": "Franks.",
+"start": 44.473953,
+"end": 44.89191
+},
+{
+"word": "It's",
+"start": 45.464672,
+"end": 45.603992
+},
+{
+"word": "alive!",
+"start": 45.603992,
+"end": 45.99099
+},
+{
+"word": "And",
+"start": 46.594707,
+"end": 46.749508
+},
+{
+"word": "Einstein?",
+"start": 46.749508,
+"end": 47.29131
+},
+{
+"word": "He",
+"start": 47.461586,
+"end": 47.616386
+},
+{
+"word": "killed",
+"start": 47.616386,
+"end": 47.864067
+},
+{
+"word": "two",
+"start": 47.864067,
+"end": 48.034348
+},
+{
+"word": "birds",
+"start": 48.034348,
+"end": 48.312984
+},
+{
+"word": "with",
+"start": 48.312984,
+"end": 48.421345
+},
+{
+"word": "one",
+"start": 48.421345,
+"end": 48.638065
+},
+{
+"word": "stone.",
+"start": 48.638065,
+"end": 48.932186
+}
+]
