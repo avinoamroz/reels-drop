@@ -1,0 +1,798 @@
+{
+ "id": "gaza_who_blocks",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Gaza's *13 km* wall.|*Whose?*",
+ "opener": {
+  "style": "map_tear_v2"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Gaza's thirteen kilometer wall. This is how Gaza is blocked.",
+   "gap": 0.35
+  },
+  {
+   "say": "Six meters high. Five meters underground. Built by Egypt.",
+   "gap": 0.4,
+   "screen": "*6 m* high. *5 m* underground.",
+   "screen_icon": "🧱",
+   "at": "L1"
+  },
+  {
+   "say": "Egypt? Wait. Isn't Israel the one blocking Gaza?",
+   "gap": 0.4,
+   "screen": "Wait. Isn't it *Israel?*",
+   "screen_icon": "🤔",
+   "at": "L2:wait"
+  },
+  {
+   "say": "Before two thousand, over twenty-six thousand Gazans crossed into Israel daily.",
+   "gap": 0.3,
+   "screen": "Before *2000:* 26,000+ a day",
+   "screen_icon": "🚶",
+   "at": "L3"
+  },
+  {
+   "say": "From twenty twenty-one to twenty twenty-three, work permits went from seven thousand to eighteen thousand.",
+   "gap": 0.25,
+   "screen": "Work permits: *7,000* to *18,000*",
+   "screen_icon": "👷",
+   "at": "L4"
+  },
+  {
+   "say": "Building and farming, all over Israel.",
+   "gap": 0.45
+  },
+  {
+   "say": "Trucks in twenty twenty-two: seventy-four thousand from Israel. Thirty-two thousand from Egypt.",
+   "gap": 0.4,
+   "screen": "Truckloads into Gaza, *2022*",
+   "screen_icon": "🚚",
+   "at": "L6"
+  },
+  {
+   "say": "Power: one hundred and twenty megawatts from Israel. Egypt's lines? Cut off in twenty eighteen.",
+   "gap": 0.4,
+   "screen": "*Electricity* into Gaza",
+   "screen_icon": "⚡",
+   "at": "L7"
+  },
+  {
+   "say": "Water: eighteen point five million cubic meters from Israel. From Egypt: zero.",
+   "gap": 0.45,
+   "screen": "*Water* into Gaza, 2022",
+   "screen_icon": "💧",
+   "at": "L8"
+  },
+  {
+   "say": "And Egypt's side? Over three thousand buildings razed for a buffer zone.",
+   "gap": 0.35,
+   "screen": "Egypt's *buffer zone*",
+   "screen_icon": "🏚️",
+   "at": "L9"
+  },
+  {
+   "say": "The Rafah crossing, in twenty seventeen? Open thirty-six days.",
+   "gap": 0.5,
+   "screen": "Rafah, *2017:* open 36 days",
+   "screen_icon": "🔒",
+   "at": "L10"
+  },
+  {
+   "say": "So why does no one talk about this border?",
+   "gap": 0.35,
+   "screen": "Why does no one talk about *this* border?",
+   "screen_icon": "🤫",
+   "at": "L11"
+  },
+  {
+   "say": "Maybe Egypt is blockading Gaza? Maybe Egypt is colonizing Gaza?",
+   "gap": 0.45,
+   "screen": "Egypt *blockading* Gaza? *Colonizing* it?",
+   "screen_icon": "🤨",
+   "at": "L12"
+  },
+  {
+   "say": "Israel restricts Gaza too, since two thousand seven.",
+   "gap": 0.35,
+   "screen": "Israel too: closure since *2007*",
+   "screen_icon": "🚧",
+   "at": "L13",
+   "until": "L14"
+  },
+  {
+   "say": "Both borders are closed. Only one gets the cameras.",
+   "gap": 0.5
+  },
+  {
+   "say": "So, who really blocks Gaza?"
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.1,
+   31.45,
+   4.0
+  ],
+  "hook_y": 930,
+  "title_y": 330,
+  "cams": [
+   {
+    "at": "L0-0.1",
+    "view": [
+     34.235,
+     31.265,
+     0.42,
+     860
+    ],
+    "dur": 1.6
+   },
+   {
+    "at": "L2:isn't",
+    "view": [
+     34.66,
+     31.66,
+     2.4,
+     900
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L6-0.3",
+    "view": [
+     34.22,
+     31.21,
+     0.6,
+     820
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L7-0.3",
+    "view": [
+     34.36,
+     31.38,
+     0.85,
+     860
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L9-0.3",
+    "view": [
+     34.235,
+     31.265,
+     0.42,
+     860
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L11-0.2",
+    "view": [
+     34.36,
+     31.38,
+     0.85,
+     860
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L15-0.3",
+    "view": [
+     35.1,
+     31.45,
+     4.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "routes": [
+   {
+    "at": "L0:thirteen",
+    "until": "END-0.8",
+    "path": [
+     [
+      34.1981,
+      31.3226
+     ],
+     [
+      34.2125,
+      31.2923
+     ],
+     [
+      34.2453,
+      31.2083
+     ]
+    ],
+    "kind": "wall",
+    "draw": 1.0
+   },
+   {
+    "at": "L3",
+    "until": "L6-0.2",
+    "kind": "flow",
+    "path": [
+     [
+      34.45,
+      31.49
+     ],
+     [
+      34.523,
+      31.537
+     ],
+     [
+      34.62,
+      31.7
+     ],
+     [
+      34.78,
+      32.06
+     ]
+    ],
+    "draw": 1.0
+   },
+   {
+    "at": "L3+0.2",
+    "until": "L6-0.2",
+    "kind": "flow",
+    "path": [
+     [
+      34.45,
+      31.49
+     ],
+     [
+      34.523,
+      31.537
+     ],
+     [
+      34.57,
+      31.66
+     ]
+    ],
+    "draw": 0.8
+   },
+   {
+    "at": "L3+0.4",
+    "until": "L6-0.2",
+    "kind": "flow",
+    "path": [
+     [
+      34.45,
+      31.49
+     ],
+     [
+      34.523,
+      31.537
+     ],
+     [
+      34.68,
+      31.45
+     ],
+     [
+      34.79,
+      31.25
+     ]
+    ],
+    "draw": 1.0
+   },
+   {
+    "at": "L3+0.6",
+    "until": "L6-0.2",
+    "kind": "flow",
+    "path": [
+     [
+      34.45,
+      31.49
+     ],
+     [
+      34.523,
+      31.537
+     ],
+     [
+      34.66,
+      31.55
+     ]
+    ],
+    "draw": 0.8
+   },
+   {
+    "at": "L6:seventy",
+    "until": "L7-0.2",
+    "kind": "flow",
+    "color": "yellow",
+    "path": [
+     [
+      34.4,
+      31.1
+     ],
+     [
+      34.249,
+      31.211
+     ],
+     [
+      34.3,
+      31.31
+     ]
+    ],
+    "emo": "🚚",
+    "label": "Israel: 74,096",
+    "label_at": [
+     34.4,
+     31.11
+    ],
+    "draw": 0.8
+   },
+   {
+    "at": "L6:thirty",
+    "until": "L7-0.2",
+    "kind": "flow",
+    "color": "yellow",
+    "path": [
+     [
+      34.06,
+      31.17
+     ],
+     [
+      34.223,
+      31.265
+     ],
+     [
+      34.29,
+      31.33
+     ]
+    ],
+    "emo": "🚚",
+    "label": "Egypt: 32,353",
+    "label_at": [
+     34.06,
+     31.26
+    ],
+    "draw": 0.8
+   },
+   {
+    "at": "L7:one",
+    "until": "L8-0.2",
+    "kind": "power",
+    "color": "#FF8C1A",
+    "path": [
+     [
+      34.66,
+      31.49
+     ],
+     [
+      34.42,
+      31.45
+     ]
+    ],
+    "emo": "⚡",
+    "label": "Israel: 120 MW",
+    "label_at": [
+     34.6,
+     31.53
+    ]
+   },
+   {
+    "at": "L7:one+0.15",
+    "until": "L8-0.2",
+    "kind": "power",
+    "color": "#FF8C1A",
+    "path": [
+     [
+      34.62,
+      31.36
+     ],
+     [
+      34.33,
+      31.34
+     ]
+    ]
+   },
+   {
+    "at": "L7:one+0.3",
+    "until": "L8-0.2",
+    "kind": "power",
+    "color": "#FF8C1A",
+    "path": [
+     [
+      34.58,
+      31.24
+     ],
+     [
+      34.29,
+      31.27
+     ]
+    ]
+   },
+   {
+    "at": "L7:egypt's",
+    "until": "L8-0.2",
+    "kind": "power",
+    "color": "#FF8C1A",
+    "path": [
+     [
+      34.04,
+      31.2
+     ],
+     [
+      34.25,
+      31.29
+     ]
+    ],
+    "cut": "L7:cut",
+    "emo": "⚡",
+    "label": "Egypt: 20 to 28 MW",
+    "cut_label": "Egypt: 0 since 2018",
+    "label_at": [
+     34.13,
+     31.31
+    ]
+   },
+   {
+    "at": "L8:eighteen",
+    "until": "L9-0.2",
+    "kind": "pipe",
+    "path": [
+     [
+      34.66,
+      31.52
+     ],
+     [
+      34.47,
+      31.5
+     ]
+    ],
+    "emo": "💧",
+    "label": "Israel: 18.5M m³",
+    "label_at": [
+     34.6,
+     31.56
+    ]
+   },
+   {
+    "at": "L8:eighteen+0.15",
+    "until": "L9-0.2",
+    "kind": "pipe",
+    "path": [
+     [
+      34.6,
+      31.38
+     ],
+     [
+      34.37,
+      31.37
+     ]
+    ]
+   },
+   {
+    "at": "L8:eighteen+0.3",
+    "until": "L9-0.2",
+    "kind": "pipe",
+    "path": [
+     [
+      34.56,
+      31.25
+     ],
+     [
+      34.3,
+      31.28
+     ]
+    ]
+   },
+   {
+    "at": "L13",
+    "until": "END-0.8",
+    "path": [
+     [
+      34.2453,
+      31.2083
+     ],
+     [
+      34.3483,
+      31.2929
+     ],
+     [
+      34.3502,
+      31.3627
+     ],
+     [
+      34.5256,
+      31.5256
+     ],
+     [
+      34.5241,
+      31.5417
+     ],
+     [
+      34.4773,
+      31.5849
+     ]
+    ],
+    "kind": "wall",
+    "draw": 1.0
+   },
+   {
+    "at": "L13",
+    "until": "L14",
+    "path": [
+     [
+      34.2453,
+      31.2083
+     ],
+     [
+      34.3483,
+      31.2929
+     ],
+     [
+      34.3502,
+      31.3627
+     ],
+     [
+      34.5256,
+      31.5256
+     ],
+     [
+      34.5241,
+      31.5417
+     ],
+     [
+      34.4773,
+      31.5849
+     ]
+    ],
+    "kind": "wall",
+    "draw": 1.0,
+    "label": "Israel: closed since 2007",
+    "label_at": [
+     34.56,
+     31.36
+    ]
+   }
+  ],
+  "zones": [
+   {
+    "at": "L9:buildings",
+    "until": "L11",
+    "poly": [
+     [
+      34.1981,
+      31.3226
+     ],
+     [
+      34.2125,
+      31.2923
+     ],
+     [
+      34.2453,
+      31.2083
+     ],
+     [
+      34.2313,
+      31.2023
+     ],
+     [
+      34.1985,
+      31.2863
+     ],
+     [
+      34.1841,
+      31.3166
+     ]
+    ],
+    "color": "red",
+    "alpha": 0.5,
+    "emo": "🏚️",
+    "label": "3,255 buildings razed",
+    "label_at": [
+     34.1,
+     31.3
+    ]
+   }
+  ],
+  "icons": [
+   {
+    "at": "L0:wall",
+    "until": "L2",
+    "lon": 34.13,
+    "lat": 31.27,
+    "emo": "🧱",
+    "size": 80,
+    "label": "13 km",
+    "label_dy": 80
+   },
+   {
+    "at": "L1:egypt",
+    "until": "L2e",
+    "lon": 34.09,
+    "lat": 31.16,
+    "emo": "🇪🇬",
+    "size": 96
+   },
+   {
+    "at": "L5:building",
+    "until": "L6-0.2",
+    "lon": 34.8,
+    "lat": 31.98,
+    "emo": "🏗️",
+    "size": 80
+   },
+   {
+    "at": "L5:farming",
+    "until": "L6-0.2",
+    "lon": 34.78,
+    "lat": 31.38,
+    "emo": "🚜",
+    "size": 80
+   },
+   {
+    "at": "L8:zero",
+    "until": "L9-0.2",
+    "lon": 34.12,
+    "lat": 31.22,
+    "emo": "🚱",
+    "size": 80,
+    "label": "Egypt: 0",
+    "label_dy": 75
+   },
+   {
+    "at": "L10:rafah",
+    "until": "L11",
+    "lon": 34.23,
+    "lat": 31.247,
+    "emo": "🔒",
+    "size": 96,
+    "label": "Rafah",
+    "label_dy": -80
+   }
+  ],
+  "pins": [
+   {
+    "at": "L3",
+    "until": "L6-0.2",
+    "lon": 34.523,
+    "lat": 31.537,
+    "label": "Erez",
+    "color": "yellow"
+   },
+   {
+    "at": "L6",
+    "until": "L7-0.2",
+    "lon": 34.249,
+    "lat": 31.211,
+    "label": "Kerem Shalom",
+    "color": "yellow"
+   },
+   {
+    "at": "L6:thirty",
+    "until": "L7-0.2",
+    "lon": 34.223,
+    "lat": 31.265,
+    "label": "Salah al-Din gate",
+    "color": "red"
+   }
+  ],
+  "counter": [
+   {
+    "label": "Gazans into Israel, per day",
+    "at": "L3-0.2",
+    "until": "L4-0.1",
+    "y": 1250,
+    "suffix": "+",
+    "steps": [
+     {
+      "at": "L3:over",
+      "value": 26000
+     }
+    ]
+   },
+   {
+    "label": "Gaza work permits in Israel",
+    "at": "L4-0.1",
+    "until": "L6-0.2",
+    "y": 1250,
+    "steps": [
+     {
+      "at": "L4:seven",
+      "value": 7000
+     },
+     {
+      "at": "L4:eighteen",
+      "value": 18000
+     }
+    ]
+   },
+   {
+    "label": "Rafah open days, 2017",
+    "of": 365,
+    "at": "L10:open-0.3",
+    "until": "L11",
+    "y": 1250,
+    "steps": [
+     {
+      "at": "L10:thirty",
+      "value": 36
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Al-Monitor 2020; border length: HRW",
+   "year": 2015,
+   "at": "L0:thirteen",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Gisha, Erez exits",
+   "year": 2016,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Times of Israel 2021; ACAPS, Reuters",
+   "year": 2023,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "OCHA, Movement in and out of Gaza in 2022",
+   "year": 2023,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "OCHA 2021; Mada Masr",
+   "year": 2023,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "PCBS water statistics (2022 data)",
+   "year": 2023,
+   "at": "L8",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "Human Rights Watch",
+   "year": 2015,
+   "at": "L9",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "OCHA, Gaza crossings",
+   "year": 2018,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "OCHA, 15 years of the blockade",
+   "year": 2022,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "Both borders are closed. Only one gets the *cameras.*",
+  "cta": "Send this to *someone*"
+ },
+ "caption_en": "Gaza's 13 km wall. Built by Egypt. 🇪🇬\n\nBefore 2000, over 26,000 Gazans crossed into Israel every day. From 2021 to 2023, Israeli work permits for Gazans went from about 7,000 to about 18,000, in construction and farming.\n\nPre-war, into Gaza:\n🚚 Truckloads in 2022: 74,096 from Israel, 32,353 from Egypt (mostly via the Salah al-Din gate, opened in 2018)\n⚡ Electricity: 120 MW from Israel. Egypt's lines gave 20 to 28 MW, until they were cut off in 2018.\n💧 Water in 2022: 18.5 million m³ from Israel's Mekorot. From Egypt: none.\n\nOn the Egypt side: a concrete wall 6 m high and 5 m underground (2020), 3,255 buildings razed for a buffer zone (2013 to 2015), and a Rafah crossing that opened 36 days in all of 2017. Rafah reopened on 2 Feb 2026 for limited foot traffic.\n\nIsrael has also kept Gaza under closure since 2007. Both borders are closed. Only one gets the cameras.\n\nSources: Al-Monitor (Egypt's wall, 2020); Human Rights Watch, \"Look for Another Homeland\" (2015); Gisha, Erez exits (2016); Times of Israel (2021) and ACAPS / Reuters (2023) on work permits; INSS (2022); OCHA, Movement in and out of Gaza in 2022 (2023); OCHA (2016, 2021) and Mada Masr (2023) on electricity; PCBS water statistics (2023); OCHA Gaza crossings (2018); Washington Institute (2019) on the Salah al-Din gate; OCHA, 15 years of the blockade (2022); AP (2026). AI voice.\n\nSend this to someone who says Israel alone blocks Gaza.",
+ "caption_he": "החומה של עזה, 13 ק\"מ. מי בנה אותה? מצרים.\n\nלפני שנת 2000, יותר מ־26,000 עזתים נכנסו לישראל כל יום. בין 2021 ל־2023, היתרי העבודה לעזתים בישראל עלו מכ־7,000 לכ־18,000, בבנייה ובחקלאות.\n\nלפני המלחמה, לתוך עזה:\n🚚 משאיות ב־2022: 74,096 מישראל, 32,353 ממצרים (בעיקר דרך שער סלאח א־דין, שנפתח ב־2018)\n⚡ חשמל: 120 מגה־וואט מישראל. הקווים ממצרים סיפקו 20 עד 28 מגה־וואט, עד שנותקו ב־2018.\n💧 מים ב־2022: 18.5 מיליון מ\"ק ממקורות. ממצרים: אפס.\n\nבצד המצרי: חומת בטון בגובה 6 מטר ו־5 מטר מתחת לאדמה (2020), 3,255 מבנים שנהרסו לטובת אזור חיץ (2013 עד 2015), ומעבר רפיח שהיה פתוח 36 ימים בכל 2017.\n\nגם ישראל מטילה סגר על עזה מאז 2007. שני הגבולות סגורים. רק על אחד מהם מצלמים.\n\nשלחו את זה למי שאומר שרק ישראל חוסמת את עזה.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#Egypt",
+  "#facts"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "13 km",
+  "text": "Gaza's wall.|*Whose?*"
+ }
+}
