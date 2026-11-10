@@ -1,0 +1,180 @@
+{
+ "id": "roth_life_stages",
+ "account": "noamroz__",
+ "template": "pun_sequence",
+ "hook": "Rothschild grew up.|Then what?",
+ "duration": 48.33,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.5
+ },
+ "outputs": {
+  "mp4": "out/roth_life_stages.mp4",
+  "cover": "covers/roth_life_stages_cover.jpg",
+  "preview": "previews/roth_life_stages_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/roth_life_stages_0.jpg",
+  "1": "out/frames/roth_life_stages_1.jpg",
+  "3": "out/frames/roth_life_stages_3.jpg",
+  "last": "out/frames/roth_life_stages_last.jpg"
+ },
+ "caption_en": "Rothschild grew up. Then what? 👶\n\nRoth-child, Roth-teen, Roth-shield, Roth-adult, Roth-chilled, Roth-shtick, Roth-schnitzel, Roth-schmooze, Roth 'n' roll. Then someone ate his schnitzel: the Wrath-schild. Now he's retired with a Roth IRA.\n\nA silly name game, nothing more. Which stage are you at?",
+ "caption_he": "רוטשילד גדל. ומה אז? 👶\nמשחק מילים אחד על שם אחד, מהעריסה ועד הפנסיה. באיזה שלב אתם?",
+ "hashtags": [
+  "#JewishHumor",
+  "#Wordplay",
+  "#Israel"
+ ],
+ "sources": [],
+ "transcript": {
+  "score": 0.913,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Rothschild grew up. Then what?",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "As a baby, he was Roth child.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At thirteen, bar mitzvah and eye rolls. Roth teen.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "At eighteen, the army gave him a shield. Roth shield.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then a job, a train, a coffee. Roth adult.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In the kitchen, a cold drink in the fridge. Roth chilled.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "On stage, telling jokes. Roth shtick.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "In Vienna, he ordered the usual. Roth schnitzel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At parties, he talked to everyone. Roth schmooze.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Midlife crisis? He bought a guitar. Roth and roll.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Until someone ate his schnitzel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That was the Wrath child.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Now he's retired. Roth I R A.",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "Then his grandson was born.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Rothchild grew up. Then what? As a baby, he was Rothchild. At 13, bar mitzvah and eye rolls. Rothteen. At 18, the army gave him a shield. Roth shield. Then a job, a train, a coffee. Roth adult. In the kitchen, a cold drink in the fridge. Roth chilled. On stage, telling jokes. Rothstick. In Vienna, he ordered the usual. Roth Schnitzel. At parties, he talked to everyone. Roth Schmooze. Midlife crisis. He bought a guitar. Roth enrolled. Until someone ate his Schnitzel. That was the Roth child. Now he's retired. Roth IRA. Then his grandson was born.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.5
+ },
+ "stages": [
+  {
+   "scene": "baby",
+   "label": "Roth-*child*",
+   "t0": 0.0
+  },
+  {
+   "scene": "teen",
+   "label": "Roth-*teen*",
+   "t0": 5.6
+  },
+  {
+   "scene": "army",
+   "label": "Roth-*shield*",
+   "t0": 9.87
+  },
+  {
+   "scene": "train",
+   "label": "Roth-*adult*",
+   "t0": 13.99
+  },
+  {
+   "scene": "fridge",
+   "label": "Roth-*chilled*",
+   "t0": 18.08
+  },
+  {
+   "scene": "standup",
+   "label": "Roth-*shtick*",
+   "t0": 22.03
+  },
+  {
+   "scene": "schnitzel",
+   "label": "Roth-*schnitzel*",
+   "t0": 25.99
+  },
+  {
+   "scene": "party",
+   "label": "Roth-*schmooze*",
+   "t0": 29.98
+  },
+  {
+   "scene": "guitar",
+   "label": "Roth *'n' roll*",
+   "t0": 34.06
+  },
+  {
+   "scene": "wrath",
+   "label": "*Wrath*-schild",
+   "t0": 38.28
+  },
+  {
+   "scene": "retired",
+   "label": "Roth *IRA*",
+   "t0": 42.27
+  },
+  {
+   "scene": "grandson",
+   "label": "Roth-*grandchild*",
+   "t0": 45.66
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 108.8
+}
