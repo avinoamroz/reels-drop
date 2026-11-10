@@ -1,6 +1,132 @@
 {
-  "id": "jews_1939",
-  "status": "FAILED",
-  "run": "42780033017",
-  "log": "voice ok: Cartesia sonic-3 (47.3 s, 108 words) voice/jews_1939_vo.wav\n[08:07:12] voice: cached voice (script unchanged)\nanchor L12: there are only 12 lines (L0 to L11)\n"
+ "id": "jews_1939",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1939:* 16.6 million Jews.|Today?",
+ "duration": 44.57,
+ "audio": {
+  "lufs": -15.9,
+  "true_peak": -0.7
+ },
+ "outputs": {
+  "mp4": "out/jews_1939.mp4",
+  "cover": "covers/jews_1939_cover.jpg",
+  "preview": "previews/jews_1939_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/jews_1939_0.jpg",
+  "1": "out/frames/jews_1939_1.jpg",
+  "3": "out/frames/jews_1939_3.jpg",
+  "last": "out/frames/jews_1939_last.jpg"
+ },
+ "caption_en": "1939: 16.6 million Jews in the world. 2026: 15.8 million. ✡️\n\nIsrael's Central Bureau of Statistics (April 2026, via Ynetnews): the world's Jewish population is 15.8 million, still below the estimated 16.6 million of 1939. About 7.2 million (45%) live in Israel and about 6.3 million (40%) in the US: together about 85%.\n\nYad Vashem: \"All the serious research confirms that the number of victims was between five and six million.\" About one in three Jews alive in 1939.\n\nRemembering this isn't about ranking anyone's pain. It's about counting.\n\nSend this to someone who asks why one small Jewish state matters.",
+ "caption_he": "1939: 16.6 מיליון יהודים בעולם. 2026: 15.8 מיליון.\nלפי הלמ\"ס (אפריל 2026), מספר היהודים בעולם עדיין נמוך ממה שהיה לפני מלחמת העולם השנייה. כ-7.2 מיליון (45%) חיים בישראל וכ-6.3 מיליון (40%) בארה\"ב, יחד כ-85%.\nיד ושם: בין חמישה לשישה מיליון יהודים נרצחו בשואה. בערך אחד מכל שלושה יהודים שחיו ב-1939.\nלזכור את זה זה לא לדרג כאב. זה לספור.\n\nSources: Israel Central Bureau of Statistics via Ynetnews (12 Apr 2026); Yad Vashem, Holocaust FAQs.",
+ "hashtags": [
+  "#Israel",
+  "#Jewish",
+  "#NeverAgain",
+  "#history"
+ ],
+ "sources": [
+  {
+   "label": "Israel CBS via Ynetnews",
+   "year": 2026,
+   "at": "L0",
+   "until": "L2"
+  },
+  {
+   "label": "Yad Vashem, Holocaust FAQ",
+   "year": 2026,
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Israel CBS via Ynetnews",
+   "year": 2026,
+   "at": "L4",
+   "until": "L10"
+  }
+ ],
+ "transcript": {
+  "score": 0.983,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Nineteen thirty nine. Sixteen point six million Jews in the world. How many today?",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Then came the Holocaust.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yad Vashem says between five and six million Jews were murdered.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About one in three Jews alive in nineteen thirty nine.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Eighty seven years later, Israel's statistics bureau counted again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fifteen point eight million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Still fewer Jews than before the war. Eighty seven years, and the number has not come back.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Where do they live? About seven point two million in Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About six point three million in the United States.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Together, eighty five percent of all Jews.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Remembering this isn't about ranking anyone's pain. It's about counting.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So when someone asks why one small Jewish state matters, start here:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "1939. 16.6 million Jews in the world. How many today? Then came the Holocaust. Yad Vashem says between 5 and 6 million Jews were murdered. About 1 in 3 Jews alive in 1939. 87 years later, Israel's statistics bureau counted again. 15.8 million. Still fewer Jews than before the war. 87 years. And the number has not come back. Where do they live? About 7.2 million in Israel, about 6.3 million in the United States, together 85% of all Jews. Remembering this isn't about ranking anyone's pain, it's about counting. So when someone asks why one small Jewish state matters, start here.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 43.08,
+ "opener": {
+  "style": "globe_spin_night",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 166.6
 }
