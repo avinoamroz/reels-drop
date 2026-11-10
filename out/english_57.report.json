@@ -3,10 +3,10 @@
  "account": "expressenglishcom",
  "template": "map_counter",
  "hook": "*57* countries. Is Israel|one?",
- "duration": 42.4,
+ "duration": 50.87,
  "audio": {
   "lufs": -16.2,
-  "true_peak": -0.5
+  "true_peak": -0.7
  },
  "outputs": {
   "mp4": "out/english_57.mp4",
@@ -34,7 +34,7 @@
   }
  ],
  "transcript": {
-  "score": 0.989,
+  "score": 0.975,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -43,7 +43,7 @@
     "flag": "ok"
    },
    {
-    "line": "Watch the map fill.",
+    "line": "Watch the map fill, country by country.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -53,9 +53,9 @@
     "flag": "ok"
    },
    {
-    "line": "India, almost one and a half billion people.",
-    "score": 1.0,
-    "flag": "ok"
+    "line": "India, almost one and a half billion people, with English as an official language.",
+    "score": 0.786,
+    "flag": "MISS"
    },
    {
     "line": "Pakistan. Nigeria. The Philippines.",
@@ -73,22 +73,22 @@
     "flag": "ok"
    },
    {
-    "line": "And Israel? Not one of them.",
+    "line": "And Israel? Not one of them. Not even close to the list.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Here, English is a working language, not an official one.",
-    "score": 0.9,
-    "flag": "ok"
-   },
-   {
-    "line": "But walk into a meeting in any of those fifty seven, and it runs in English.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "English isn't the goal. It's the road to the deal.",
+    "line": "But walk into a meeting in any of those fifty seven, and it runs in English. Sales calls. Investor decks. Contracts.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "English isn't the goal. It's the road to the deal, the client and the partner.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -98,12 +98,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "57 countries have English as an official language. Is Israel one of them? Watch the map fill. America. Britain. Canada. Australia. India almost one and a half billion people. Pakistan. Nigeria. The Philippines. Singapore. Kenya. South Africa. Ireland. Malta. 57 countries in all. And Israel. Not one of them. Here, English is a working language. an official one. But walk into a meeting in any of those 57 and it runs in English. English isn't the goal. It's the road to the deal. So before your next meeting abroad, ask yourself.",
+  "heard": "57 countries have English as an official language, is Israel one of them? Watch the map fill, country by country, America, Britain, Canada, Australia, India almost 1.5 billion people with English as an official language, Pakistan, Nigeria, the Philippines, Singapore, Kenya, South Africa, Ireland, Malta, 57 countries in all, and Israel, not one of them, not even close to the list. Here, English is a working language, not an official one, but walk into a meeting in any of those 57 and it runs in English. Sales calls, investor decks, contracts. English isn't the goal, it's the road to the deal, the client and the partner. So before your next meeting abroad, ask yourself.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 40.9,
+ "body_s": 49.36,
  "opener": {
   "style": "map_puzzle",
   "opener_s": 2.4,
@@ -111,8 +111,8 @@
  },
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -1.6
  },
  "lint_warnings": [],
- "render_s": 135.5
+ "render_s": 149.7
 }
