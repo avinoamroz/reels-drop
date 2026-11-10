@@ -1,0 +1,62 @@
+{
+ "id": "homicide_race_v4_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Israel *1.6.* USA *6.5.*|Violent?",
+ "duration": 53.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -3.7
+ },
+ "outputs": {
+  "mp4": "out/homicide_race_v4_rh1110.mp4",
+  "cover": "covers/homicide_race_v4_rh1110_cover.jpg",
+  "preview": "previews/homicide_race_v4_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/homicide_race_v4_rh1110_0.jpg",
+  "1": "out/frames/homicide_race_v4_rh1110_1.jpg",
+  "3": "out/frames/homicide_race_v4_rh1110_3.jpg",
+  "last": "out/frames/homicide_race_v4_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of homicide_race_v4. Caption in posting/queue/gh/homicide_race_v4_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data",
+   "year": 2022
+  },
+  {
+   "label": "Taub Center homicide update",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.987,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "numbers. Murders per 100,000 people every year since 2000. Israel starts at two and a half, and mostly falls. By 2022, the last full year before October 7th, 1.",
+    "score": 0.987,
+    "flag": "ok"
+   }
+  ],
+  "heard": "The numbers murders per hundred thousand people every year since 2000 Israel starts at two and a half and mostly falls by 2022 the last full year before October 7th 1.6 Turkey and Lebanon sit higher Jordan Saudi Arabia report lower than Israel and the United States four times Israel's rate Germany about half now split Israel in two Jewish Israelis about half a murder per hundred thousand lower than Germany. Arab Israelis over five close to the United States, but there's a catch. Arab Israelis are ten times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens caught between Arab crime organizations and smuggled guns, and the state is failing to protect them. Also, some governments under count and war deaths are not in these numbers. So the next time someone asks you...",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "homicide_race_v4.mp4",
+ "cut": 2.55,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.7
+ },
+ "body_kept_s": 52.0,
+ "lint_warnings": [],
+ "render_s": 47.8
+}
