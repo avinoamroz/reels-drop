@@ -31,8 +31,19 @@
    "year": 2022
   }
  ],
- "min_font_px": 300,
- "transcript": null,
+ "transcript": {
+  "score": 0.987,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "numbers. Murders per 100,000 people every year since 2000. Israel starts at two and a half, and mostly falls. By 2022, the last full year before October 7th, 1.",
+    "score": 0.987,
+    "flag": "ok"
+   }
+  ],
+  "heard": "The numbers murders per hundred thousand people every year since 2000 Israel starts at two and a half and mostly falls by 2022 the last full year before October 7th 1.6 Turkey and Lebanon sit higher Jordan Saudi Arabia report lower than Israel and the United States four times Israel's rate Germany about half now split Israel in two Jewish Israelis about half a murder per hundred thousand lower than Germany. Arab Israelis over five close to the United States, but there's a catch. Arab Israelis are ten times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens caught between Arab crime organizations and smuggled guns, and the state is failing to protect them. Also, some governments under count and war deaths are not in these numbers. So the next time someone asks you...",
+  "expected": "source reel transcript after the cut"
+ },
  "status": "rendered, not posted",
  "voice": "none (source reel audio kept, hook card on music)",
  "source": "homicide_race_v4.mp4",
@@ -44,5 +55,5 @@
  },
  "body_kept_s": 52.0,
  "lint_warnings": [],
- "render_s": 73.2
+ "render_s": 46.7
 }
