@@ -1,6 +1,116 @@
 {
-  "id": "say_no_4",
-  "status": "FAILED",
-  "run": "42780033017",
-  "log": "voice ok: Cartesia sonic-3 (37.7 s, 96 words) voice/say_no_4_vo.wav\n[08:07:10] voice: cached voice (script unchanged)\n[08:07:15] frame 0/1053\n[08:07:28] frame 300/1053\n[08:07:40] frame 600/1053\n[08:07:53] frame 900/1053\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 33, in main\n    rep = CM.finish(S, final, extra)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 482, in finish\n    cover(S, final, os.path.join(REPO, \"covers\", f\"{sid}_cover.jpg\"))\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 460, in cover\n    bg = grab(final, float(C.get(\"t\", d * 0.6))).astype(np.float32)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 452, in grab\n    return cv2.imdecode(np.frombuffer(r, np.uint8), cv2.IMREAD_COLOR)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncv2.error: OpenCV(5.0.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:1291: error: (-215:Assertion failed) !buf.empty() in function 'imdecode_'\n\n"
+ "id": "say_no_4",
+ "account": "noamroz__",
+ "template": "scorecard",
+ "hook": "*4* tests: who can|say *no?*",
+ "duration": 48.73,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/say_no_4.mp4",
+  "cover": "covers/say_no_4_cover.jpg",
+  "preview": "previews/say_no_4_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/say_no_4_0.jpg",
+  "1": "out/frames/say_no_4_1.jpg",
+  "3": "out/frames/say_no_4_3.jpg",
+  "last": "out/frames/say_no_4_last.jpg"
+ },
+ "caption_en": "Where in the Middle East can you say no to your leaders? 4 tests, 7 countries. 🗳️📰📢⚖️\n\nThe tests are Freedom House indicators, scored 0 to 4: A1 (elected head of government), D1 (free and independent media), E1 (freedom of assembly), F1 (independent judiciary). 3 to 4 = yes, 2 = partly, 0 to 1 = no.\n\nEgypt 0, Saudi Arabia 0, Jordan 0.5, Syria 0.5, Iraq 0.5, Lebanon 2, Israel 4.\n\nIsrael's total is 73/100 (Free). Freedom House rates the West Bank and Gaza separately, and Israel's score does not cover them. Not perfect. Still first on these four.\n\nSend this to someone who says Israel silences people.",
+ "caption_he": "איפה במזרח התיכון אפשר להגיד לא לשלטון? 4 מבחנים, 7 מדינות.\nהמבחנים הם מדדי Freedom House (0 עד 4): בחירת ראש השלטון, תקשורת חופשית, חופש הפגנה, מערכת משפט עצמאית. 3 עד 4 = כן, 2 = חלקית, 0 עד 1 = לא.\nמצרים 0, סעודיה 0, ירדן 0.5, סוריה 0.5, עיראק 0.5, לבנון 2, ישראל 4.\nהציון הכולל של ישראל 73 מתוך 100, והוא לא כולל את הגדה המערבית ועזה. לא מושלם. עדיין ראשונה.\n\nSources: Freedom House, Freedom in the World 2026 country reports (Egypt, Jordan, Lebanon, Syria, Iraq, Israel); Saudi Arabia from the 2025 edition.",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#freedom",
+  "#democracy"
+ ],
+ "sources": [
+  {
+   "label": "Freedom House, Freedom in the World",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.969,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Where in the Middle East can you say no to your leaders? Four tests. Seven countries. Scored by Freedom House.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Test one: can you vote the leader out in a free election?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Test two: can newspapers criticise the government freely?",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Test three: can people gather and protest freely?",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Test four: are judges independent, free from the government?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt and Saudi Arabia: zero out of four. Not one test passed.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan, Syria and Iraq: half a point each. One test passed only partly.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon: two. Protest, yes. Votes and press, partly. Judges, no.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel: four out of four. The only full score of the seven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's total is seventy three out of a hundred, and it doesn't cover the West Bank.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "So next time someone says Israel silences people, ask them:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Where in the Middle East can you say no to your leaders? Four tests. Seven countries. Scored by Freedom House. Test 1. Can you vote the leader out in a free election? Test 2. Can newspapers criticize the government freely? Test 3. Can people gather in protest freely? Test 4. Are judges independent, free from the government? Egypt and Saudi Arabia. Zero out of four. Not one test passed. Jordan, Syria and Iraq. Half a point each. One test passed only partly. Lebanon, two. Protest, yes. Votes in press, partly. Judges, no. Israel, four out of four. The only full score of the seven. Israel's total is 73 out of 100, and it doesn't cover the West Bank. So next time someone says Israel silences people, ask them.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "order": [
+  "Israel",
+  "Lebanon",
+  "Jordan",
+  "Syria",
+  "Iraq",
+  "Egypt",
+  "Saudi Arabia"
+ ],
+ "lint_warnings": [],
+ "render_s": 106.0
 }
