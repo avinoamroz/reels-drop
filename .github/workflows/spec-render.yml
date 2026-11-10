@@ -21,24 +21,23 @@ jobs:
     outputs:
       ids: ${{ steps.p.outputs.ids }}
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 50
-          filter: blob:none
-          sparse-checkout: specs
       - id: p
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          # changed specs from the REST compare API (no clone: the repo is about 11 GB)
           if [ -n "${{ github.event.inputs.ids }}" ]; then
             ids="${{ github.event.inputs.ids }}"
           else
             before="${{ github.event.before }}"
-            if git cat-file -e "$before" 2>/dev/null; then
-              ids=$(git diff --diff-filter=AM --name-only "$before" "${{ github.sha }}" -- 'specs/*.json' | xargs -r -n1 basename | sed 's/\.json$//' | sort -u)
+            if [ -z "$before" ] || [ -z "${before//0/}" ]; then
+              files=$(gh api "repos/$GITHUB_REPOSITORY/commits/$GITHUB_SHA" --jq '.files[] | select(.status != "removed") | .filename')
             else
-              ids=$(git show --diff-filter=AM --name-only --format= "${{ github.sha }}" -- 'specs/*.json' | xargs -r -n1 basename | sed 's/\.json$//' | sort -u)
+              files=$(gh api "repos/$GITHUB_REPOSITORY/compare/$before...$GITHUB_SHA" --jq '.files[] | select(.status != "removed") | .filename')
             fi
+            ids=$(printf '%s\n' "$files" | grep -E '^specs/[^/]+\.json$' | xargs -r -n1 basename | sed 's/\.json$//' | sort -u || true)
           fi
-          json=$(printf '%s\n' $ids | grep -v '^$' | jq -R . | jq -sc .)
+          json=$(printf '%s\n' $ids | { grep -v '^$' || true; } | jq -R . | jq -sc .)
           echo "ids=$json" >> "$GITHUB_OUTPUT"
           echo "specs: $json"
   render:

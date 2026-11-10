@@ -10,6 +10,6 @@
  "data": {"cam0": [35.0, 31.5, 9.0], "hook_y": 930,
   "pins": [{"at": "L0:voice", "lon": 34.78, "lat": 32.08, "label": "Tel Aviv", "color": "yellow"}]},
  "sources": [{"label": "Test render, not for posting", "year": 2026}],
- "caption_en": "TEST RENDER, not for posting.", "caption_he": "בדיקה, לא לפרסום.", "hashtags": [],
+ "caption_en": "TEST RENDER, not for posting (plan job check).", "caption_he": "בדיקה, לא לפרסום.", "hashtags": [],
  "cover": {"bg": "brand"}
 }
