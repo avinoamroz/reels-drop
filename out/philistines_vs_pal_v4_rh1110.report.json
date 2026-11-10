@@ -1,0 +1,62 @@
+{
+ "id": "philistines_vs_pal_v4_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*4* claims.|How many are true?",
+ "duration": 62.1,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.9
+ },
+ "outputs": {
+  "mp4": "out/philistines_vs_pal_v4_rh1110.mp4",
+  "cover": "covers/philistines_vs_pal_v4_rh1110_cover.jpg",
+  "preview": "previews/philistines_vs_pal_v4_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/philistines_vs_pal_v4_rh1110_0.jpg",
+  "1": "out/frames/philistines_vs_pal_v4_rh1110_1.jpg",
+  "3": "out/frames/philistines_vs_pal_v4_rh1110_3.jpg",
+  "last": "out/frames/philistines_vs_pal_v4_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of philistines_vs_pal_v4. Caption in posting/queue/gh/philistines_vs_pal_v4_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Feldman et al., Science Advances",
+   "year": 2019
+  },
+  {
+   "label": "Britannica",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.963,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "1177 BCE. Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Gath. Claim one. Palestinians are the Philistines? No. Th",
+    "score": 0.963,
+    "flag": "ok"
+   }
+  ],
+  "heard": "1177 BCE Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and death. Claim one. Palestinians are the Philistines? No. The Philistines came from the Aegean. Their European DNA faded in two centuries. 604 BCE Babylon destroys Ashkelon. Only the name survived. Claim two. Palestinians are Canaanites here before the Jews. After Levantine Arabs, closest to Jordanians and Lebanese, some ancient local DNA, yes, like their neighbors. A Canaanite people? No. Claim 3. Jews are foreigners from Europe. No roots here? No. Egypt named Israel in 1208 BCE, before the Philistines. Jewish DNA worldwide shows Levantine roots. Claim 4. The Romans named it Palestine to erase the Jews, partly. After the Bar-Kukba revolt, Hadrian made Judea Syria-Palestinian, a punishment, but the name was older. Herodotus used it. people's carry Canaanite roots. One borrowed name. So next time someone asks",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "philistines_vs_pal_v4.mp4",
+ "cut": 3.1,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -3.9
+ },
+ "body_kept_s": 60.13,
+ "lint_warnings": [],
+ "render_s": 99.1
+}
