@@ -1,407 +1,617 @@
 [
 {
 "word": "Maya",
-"start": 0.2012396,
-"end": 0.58823884
+"start": 0.03095994,
+"end": 0.38699925
 },
 {
 "word": "asks,",
-"start": 0.58823884,
-"end": 1.0990778
+"start": 0.38699925,
+"end": 0.9287982
 },
 {
 "word": "what's",
-"start": 1.1609977,
-"end": 1.3931973
+"start": 1.2229176,
+"end": 1.5015571
 },
 {
 "word": "our",
-"start": 1.4860771,
-"end": 1.7647165
+"start": 1.5015571,
+"end": 1.6099168
 },
 {
 "word": "word",
-"start": 1.7647165,
-"end": 2.0278761
+"start": 1.6099168,
+"end": 1.8575964
 },
 {
 "word": "for",
-"start": 2.0278761,
-"end": 2.1517158
+"start": 1.8575964,
+"end": 2.012396
 },
 {
 "word": "this",
-"start": 2.1517158,
-"end": 2.3839154
+"start": 2.012396,
+"end": 2.2445955
 },
 {
 "word": "in",
-"start": 2.3839154,
-"end": 2.507755
+"start": 2.2445955,
+"end": 2.3684354
 },
 {
 "word": "English?",
-"start": 2.507755,
-"end": 3.049554
+"start": 2.3684354,
+"end": 2.9102342
 },
 {
-"word": "It",
-"start": 3.3436735,
-"end": 3.4675133
+"word": "It's",
+"start": 3.4520333,
+"end": 3.6532729
 },
 {
-"word": "literally",
-"start": 3.4675133,
-"end": 3.7925925
+"word": "the",
+"start": 3.6532729,
+"end": 3.7461526
 },
 {
-"word": "means",
-"start": 3.7925925,
-"end": 4.164112
-},
-{
-"word": "explaining.",
-"start": 4.164112,
-"end": 4.736871
+"word": "word",
+"start": 3.7461526,
+"end": 4.133152
 },
 {
 "word": "Israelis",
-"start": 5.696629,
-"end": 6.222948
+"start": 4.226032,
+"end": 4.7987905
 },
 {
 "word": "use",
-"start": 6.222948,
-"end": 6.4706273
+"start": 4.7987905,
+"end": 5.00003
 },
 {
-"word": "it",
-"start": 6.4706273,
-"end": 6.5325475
-},
-{
-"word": "for",
-"start": 6.5325475,
-"end": 6.656387
-},
-{
-"word": "telling",
-"start": 6.656387,
-"end": 6.9814663
-},
-{
-"word": "Israel's",
-"start": 6.9814663,
-"end": 7.3994255
-},
-{
-"word": "side",
-"start": 7.3994255,
-"end": 7.693545
-},
-{
-"word": "to",
-"start": 7.693545,
-"end": 7.7864246
+"word": "all",
+"start": 5.00003,
+"end": 5.27867
 },
 {
 "word": "the",
-"start": 7.7864246,
-"end": 7.8793044
+"start": 5.27867,
+"end": 5.3715496
 },
 {
-"word": "world.",
-"start": 7.8793044,
-"end": 8.297264
-},
-{
-"word": "At",
-"start": 8.962902,
-"end": 9.086742
-},
-{
-"word": "a",
-"start": 9.086742,
-"end": 9.1177025
-},
-{
-"word": "conference,",
-"start": 9.1177025,
-"end": 9.736901
-},
-{
-"word": "say:",
-"start": 9.7988205,
-"end": 10.30966
-},
-{
-"word": "public",
-"start": 10.55734,
-"end": 10.851459
-},
-{
-"word": "diplomacy.",
-"start": 10.851459,
-"end": 11.517097
-},
-{
-"word": "With",
-"start": 11.8731365,
-"end": 12.074376
-},
-{
-"word": "friends,",
-"start": 12.074376,
-"end": 12.5542555
-},
-{
-"word": "say:",
-"start": 12.616176,
-"end": 13.188934
-},
-{
-"word": "explaining",
-"start": 13.374694,
-"end": 13.823613
-},
-{
-"word": "Israel.",
-"start": 13.823613,
-"end": 14.272532
-},
-{
-"word": "On",
-"start": 15.29421,
-"end": 15.44901
-},
-{
-"word": "a",
-"start": 15.44901,
-"end": 15.49545
-},
-{
-"word": "panel,",
-"start": 15.49545,
-"end": 15.805049
-},
-{
-"word": "say:",
-"start": 15.805049,
-"end": 16.22301
-},
-{
-"word": "advocacy.",
-"start": 16.548088,
-"end": 17.244686
-},
-{
-"word": "Israeli",
-"start": 17.693605,
-"end": 18.111565
-},
-{
-"word": "diplomats",
-"start": 18.111565,
-"end": 18.560484
-},
-{
-"word": "today",
-"start": 18.560484,
-"end": 18.808163
-},
-{
-"word": "prefer",
-"start": 18.808163,
-"end": 19.133244
-},
-{
-"word": "public",
-"start": 19.133244,
-"end": 19.427362
-},
-{
-"word": "diplomacy.",
-"start": 19.427362,
-"end": 20.093
+"word": "time.",
+"start": 5.3715496,
+"end": 5.7585487
 },
 {
 "word": "It",
-"start": 20.866999,
-"end": 21.05276
+"start": 6.3313074,
+"end": 6.5015874
 },
 {
-"word": "sounds",
-"start": 21.05276,
-"end": 21.408798
+"word": "literally",
+"start": 6.5015874,
+"end": 6.950506
 },
 {
-"word": "less",
-"start": 21.408798,
-"end": 21.656477
+"word": "means",
+"start": 6.950506,
+"end": 7.229146
 },
 {
-"word": "defensive.",
-"start": 21.656477,
-"end": 22.306637
+"word": "explaining.",
+"start": 7.229146,
+"end": 7.8019047
 },
 {
-"word": "What",
-"start": 23.065155,
-"end": 23.266394
+"word": "Israelis",
+"start": 8.343703,
+"end": 8.900983
 },
 {
-"word": "do",
-"start": 23.266394,
-"end": 23.328314
+"word": "use",
+"start": 8.900983,
+"end": 9.1177025
 },
 {
-"word": "you",
-"start": 23.328314,
-"end": 23.390234
-},
-{
-"word": "do",
-"start": 23.390234,
-"end": 23.575994
+"word": "it",
+"start": 9.1177025,
+"end": 9.210582
 },
 {
 "word": "for",
-"start": 23.575994,
-"end": 23.715313
+"start": 9.272502,
+"end": 9.411821
 },
 {
-"word": "Israel",
-"start": 23.715313,
-"end": 24.055874
-},
-{
-"word": "online?",
-"start": 24.055874,
-"end": 24.504791
-},
-{
-"word": "Public",
-"start": 25.185911,
-"end": 25.52647
-},
-{
-"word": "diplomacy.",
-"start": 25.52647,
-"end": 26.145668
-},
-{
-"word": "I",
-"start": 26.842268,
-"end": 26.966106
-},
-{
-"word": "tell",
-"start": 26.966106,
-"end": 27.260227
+"word": "telling",
+"start": 9.411821,
+"end": 9.690461
 },
 {
 "word": "Israel's",
-"start": 27.260227,
-"end": 27.616266
+"start": 9.690461,
+"end": 10.0465
 },
 {
-"word": "story",
-"start": 27.616266,
-"end": 27.956825
+"word": "side",
+"start": 10.0465,
+"end": 10.30966
+},
+{
+"word": "to",
+"start": 10.30966,
+"end": 10.402539
+},
+{
+"word": "the",
+"start": 10.402539,
+"end": 10.52638
+},
+{
+"word": "world,",
+"start": 10.52638,
+"end": 10.975299
 },
 {
 "word": "in",
-"start": 27.956825,
-"end": 28.034225
+"start": 11.161058,
+"end": 11.300378
 },
 {
 "word": "English.",
-"start": 28.034225,
-"end": 28.498625
+"start": 11.300378,
+"end": 11.8731365
 },
 {
-"word": "That's",
-"start": 28.823704,
-"end": 29.055902
+"word": "At",
+"start": 12.291096,
+"end": 12.445896
 },
 {
-"word": "important",
-"start": 29.055902,
-"end": 29.473862
+"word": "a",
+"start": 12.445896,
+"end": 12.476855
 },
 {
-"word": "work.",
-"start": 29.473862,
-"end": 29.783463
+"word": "conference",
+"start": 12.476855,
+"end": 12.987695
 },
 {
-"word": "English",
-"start": 30.40266,
-"end": 30.77418
+"word": "or",
+"start": 12.987695,
+"end": 13.080574
 },
 {
-"word": "is",
-"start": 30.77418,
-"end": 30.88254
+"word": "with",
+"start": 13.080574,
+"end": 13.219894
 },
 {
-"word": "how",
-"start": 30.88254,
-"end": 31.00638
+"word": "diplomats,",
+"start": 13.219894,
+"end": 13.947453
 },
 {
-"word": "the",
-"start": 31.00638,
-"end": 31.130219
+"word": "say:",
+"start": 14.210612,
+"end": 14.721451
 },
 {
-"word": "story",
-"start": 31.130219,
-"end": 31.4553
+"word": "public",
+"start": 15.26325,
+"end": 15.603809
 },
 {
-"word": "reaches",
-"start": 31.4553,
-"end": 31.811338
+"word": "diplomacy.",
+"start": 15.603809,
+"end": 16.192049
 },
 {
-"word": "the",
-"start": 31.811338,
-"end": 31.904217
+"word": "With",
+"start": 16.950567,
+"end": 17.120846
 },
 {
-"word": "world.",
-"start": 31.904217,
-"end": 32.291218
+"word": "friends",
+"start": 17.120846,
+"end": 17.430447
 },
 {
-"word": "Save",
-"start": 32.755615,
-"end": 33.204536
+"word": "over",
+"start": 17.430447,
+"end": 17.600725
 },
 {
-"word": "this",
-"start": 33.204536,
-"end": 33.374813
+"word": "coffee,",
+"start": 17.600725,
+"end": 17.941284
+},
+{
+"word": "say:",
+"start": 17.941284,
+"end": 18.328283
+},
+{
+"word": "explaining",
+"start": 19.040363,
+"end": 19.58216
+},
+{
+"word": "Israel.",
+"start": 19.613121,
+"end": 20.06204
+},
+{
+"word": "On",
+"start": 20.66576,
+"end": 20.820559
+},
+{
+"word": "a",
+"start": 20.820559,
+"end": 20.882479
+},
+{
+"word": "panel",
+"start": 20.882479,
+"end": 21.362358
+},
+{
+"word": "or",
+"start": 21.362358,
+"end": 21.594559
+},
+{
+"word": "in",
+"start": 21.594559,
+"end": 21.687437
+},
+{
+"word": "an",
+"start": 21.687437,
+"end": 21.811277
+},
+{
+"word": "interview,",
+"start": 21.811277,
+"end": 22.322117
+},
+{
+"word": "say:",
+"start": 22.492395,
+"end": 23.034195
+},
+{
+"word": "advocacy.",
+"start": 23.421194,
+"end": 24.117792
+},
+{
+"word": "Israeli",
+"start": 24.829872,
+"end": 25.232351
+},
+{
+"word": "diplomats",
+"start": 25.232351,
+"end": 25.68127
+},
+{
+"word": "today",
+"start": 25.68127,
+"end": 26.00635
+},
+{
+"word": "prefer",
+"start": 26.00635,
+"end": 26.424309
+},
+{
+"word": "public",
+"start": 26.424309,
+"end": 26.733908
+},
+{
+"word": "diplomacy.",
+"start": 26.733908,
+"end": 27.291187
+},
+{
+"word": "Explaining",
+"start": 27.863945,
+"end": 28.328344
+},
+{
+"word": "sounds",
+"start": 28.328344,
+"end": 28.653423
+},
+{
+"word": "defensive.",
+"start": 28.653423,
+"end": 29.288103
+},
+{
+"word": "Public",
+"start": 29.737022,
+"end": 30.000181
+},
+{
+"word": "diplomacy",
+"start": 30.000181,
+"end": 30.4491
+},
+{
+"word": "sounds",
+"start": 30.4491,
+"end": 30.69678
+},
+{
+"word": "like",
+"start": 30.69678,
+"end": 30.8361
+},
+{
+"word": "a",
+"start": 30.8361,
+"end": 30.89802
+},
+{
+"word": "plan.",
+"start": 30.89802,
+"end": 31.315979
+},
+{
+"word": "Now",
+"start": 31.764898,
+"end": 31.950657
+},
+{
+"word": "a",
+"start": 31.950657,
+"end": 32.012577
+},
+{
+"word": "quick",
+"start": 32.012577,
+"end": 32.213818
+},
+{
+"word": "chat.",
+"start": 32.213818,
+"end": 32.585335
+},
+{
+"word": "Someone",
+"start": 33.142616,
+"end": 33.452213
+},
+{
+"word": "asks",
+"start": 33.452213,
+"end": 33.839214
+},
+{
+"word": "you:",
+"start": 33.839214,
+"end": 34.086895
+},
+{
+"word": "what",
+"start": 34.582253,
+"end": 34.768013
+},
+{
+"word": "do",
+"start": 34.768013,
+"end": 34.829933
+},
+{
+"word": "you",
+"start": 34.829933,
+"end": 34.891853
+},
+{
+"word": "do",
+"start": 34.891853,
+"end": 35.01569
 },
 {
 "word": "for",
-"start": 33.374813,
-"end": 33.498653
+"start": 35.01569,
+"end": 35.15501
+},
+{
+"word": "Israel",
+"start": 35.15501,
+"end": 35.46461
+},
+{
+"word": "online?",
+"start": 35.46461,
+"end": 35.88257
+},
+{
+"word": "Public",
+"start": 35.97545,
+"end": 36.26957
+},
+{
+"word": "diplomacy.",
+"start": 36.26957,
+"end": 36.873287
+},
+{
+"word": "I",
+"start": 37.554405,
+"end": 37.647285
+},
+{
+"word": "tell",
+"start": 37.647285,
+"end": 37.864006
+},
+{
+"word": "Israel's",
+"start": 37.864006,
+"end": 38.189087
+},
+{
+"word": "story",
+"start": 38.189087,
+"end": 38.576084
+},
+{
+"word": "in",
+"start": 38.576084,
+"end": 38.699924
+},
+{
+"word": "English.",
+"start": 38.699924,
+"end": 39.179802
+},
+{
+"word": "That's",
+"start": 39.628723,
+"end": 39.845444
+},
+{
+"word": "important",
+"start": 39.845444,
+"end": 40.17052
+},
+{
+"word": "work.",
+"start": 40.17052,
+"end": 40.4956
+},
+{
+"word": "Thank",
+"start": 40.94452,
+"end": 41.1922
+},
+{
+"word": "you.",
+"start": 41.1922,
+"end": 41.347
+},
+{
+"word": "English",
+"start": 42.02812,
+"end": 42.3532
+},
+{
+"word": "is",
+"start": 42.3532,
+"end": 42.446075
+},
+{
+"word": "how",
+"start": 42.446075,
+"end": 42.538956
+},
+{
+"word": "the",
+"start": 42.538956,
+"end": 42.662796
+},
+{
+"word": "story",
+"start": 42.662796,
+"end": 42.925957
+},
+{
+"word": "reaches",
+"start": 42.925957,
+"end": 43.235554
+},
+{
+"word": "the",
+"start": 43.235554,
+"end": 43.343914
+},
+{
+"word": "world.",
+"start": 43.343914,
+"end": 43.715435
+},
+{
+"word": "Not",
+"start": 44.303673,
+"end": 44.551353
 },
 {
 "word": "your",
-"start": 33.498653,
-"end": 33.622494
+"start": 44.551353,
+"end": 44.675194
+},
+{
+"word": "Hebrew.",
+"start": 44.675194,
+"end": 45.12411
+},
+{
+"word": "Your",
+"start": 45.603992,
+"end": 45.83619
+},
+{
+"word": "English.",
+"start": 45.83619,
+"end": 46.37799
+},
+{
+"word": "Save",
+"start": 46.764988,
+"end": 47.10555
+},
+{
+"word": "this",
+"start": 47.10555,
+"end": 47.24487
+},
+{
+"word": "for",
+"start": 47.24487,
+"end": 47.337746
+},
+{
+"word": "your",
+"start": 47.337746,
+"end": 47.430626
 },
 {
 "word": "next",
-"start": 33.622494,
-"end": 33.854694
+"start": 47.430626,
+"end": 47.647346
 },
 {
-"word": "meeting.",
-"start": 33.854694,
-"end": 34.24169
+"word": "meeting,",
+"start": 47.647346,
+"end": 48.034348
+},
+{
+"word": "or",
+"start": 48.266544,
+"end": 48.390385
+},
+{
+"word": "your",
+"start": 48.390385,
+"end": 48.514225
+},
+{
+"word": "next",
+"start": 48.514225,
+"end": 48.715466
+},
+{
+"word": "panel.",
+"start": 48.715466,
+"end": 49.086983
 }
 ]

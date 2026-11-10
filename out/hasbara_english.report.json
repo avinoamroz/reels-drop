@@ -3,10 +3,10 @@
  "account": "expressenglishcom",
  "template": "slang_scene",
  "hook": "This word in English?|*3* ways",
- "duration": 33.1,
+ "duration": 47.2,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -1.6
  },
  "outputs": {
   "mp4": "out/hasbara_english.mp4",
@@ -34,74 +34,74 @@
   }
  ],
  "transcript": {
-  "score": 0.975,
+  "score": 0.959,
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "Maya asks, what's our word for this in English?",
-    "score": 0.889,
-    "flag": "ok"
-   },
-   {
-    "line": "It literally means explaining. Israelis use it for telling Israel's side to the world.",
+    "line": "Maya asks, what's our word for this in English? It's the word Israelis use all the time.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "At a conference, say: public diplomacy.",
+    "line": "It literally means explaining. Israelis use it for telling Israel's side to the world, in English.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "With friends, say: explaining Israel.",
+    "line": "At a conference or with diplomats, say: public diplomacy.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "On a panel, say: advocacy.",
+    "line": "With friends over coffee, say: explaining Israel.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Israeli diplomats today prefer public diplomacy. It sounds less defensive.",
+    "line": "On a panel or in an interview, say: advocacy.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "What do you do for Israel online?",
-    "score": 1.0,
+    "line": "Israeli diplomats today prefer public diplomacy. Explaining sounds defensive. Public diplomacy sounds like a plan.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Now a quick chat. Someone asks you: what do you do for Israel online?",
+    "score": 0.929,
     "flag": "ok"
    },
    {
     "line": "Public diplomacy. I tell Israel's story in English.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "That's important work.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "English is how the story reaches the world.",
     "score": 0.875,
     "flag": "ok"
    },
    {
-    "line": "Save this for your next meeting.",
+    "line": "That's important work. Thank you.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "English is how the story reaches the world. Not your Hebrew. Your English.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting, or your next panel.",
     "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "Amaya asks, what's our word for this in English? It literally means explaining. Israelis use it for telling Israel's side to the world. At a conference, say, public diplomacy. With friends, say, explaining Israel. On a panel, say, advocacy. Israeli diplomats today prefer public diplomacy. It sounds less defensive. What do you do for Israel online? Public diplomacy. I tell Israel's story in English. That's important work. how the story reaches the world. Save this for your next meeting.",
+  "heard": "Maya asks what's our word for this in English? It's the word Israelis use all the time. It literally means explaining Israelis use it for telling Israel's side to the world in English at a conference or with diplomats say public diplomacy with friends over coffee say explaining Israel on a panel or in an interview say advocacy Israeli diplomats today prefer public diplomacy public diplomacy sounds like a plan now quick chat someone asks you what do you do for Israel online public diplomacy I tell Israel story in English that's important work thank you English is how the story reaches the world not your Hebrew your English save this for your next meeting or your next panel",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -1.6
  },
  "lint_warnings": [],
- "render_s": 38.8
+ "render_s": 76.8
 }
