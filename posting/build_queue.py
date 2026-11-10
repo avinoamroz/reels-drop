@@ -12,8 +12,8 @@ where bucket = floor(due_epoch / 1800) (30 minute buckets, UTC epoch).
 
 How Make uses it: every 30 min (06:45 to 01:30 Israel) it fetches this file
 (1 operation). It only goes further if the text contains "|B|" where
-B = current bucket - 1, i.e. something fell due in the previous 30 min
-bucket. Then it posts slots["s"+B].noam and slots["s"+B].express (at most
+B = floor((now + 300) / 1800). Make runs at :25 and :55, so each item is
+posted at the run nearest its due time (within 15 min); see posts_at. Then it posts slots["s"+B].noam and slots["s"+B].express (at most
 one per account), skipping ids already in Make data store "ig_posted".
 
 Rules enforced here:
@@ -48,7 +48,8 @@ def main(path=PATH):
             continue
         ep = int(d.timestamp())
         it["due_epoch"] = ep
-        b = ep // 1800
+        b = (ep + 300 + 900) // 1800  # nearest Make run (runs at :25 and :55 Israel); Make uses floor((now+300)/1800)
+        it["posts_at"] = datetime.fromtimestamp(b * 1800 - 300, timezone(timedelta(hours=2))).strftime("%Y-%m-%d %H:%M")
         key = f"s{b}"
         slot = slots.setdefault(key, {})
         if it["account"] in slot:
