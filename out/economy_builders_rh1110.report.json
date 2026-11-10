@@ -1,0 +1,62 @@
+{
+ "id": "economy_builders_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*15x* more per person.|Colonizers?",
+ "duration": 51.37,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.4
+ },
+ "outputs": {
+  "mp4": "out/economy_builders_rh1110.mp4",
+  "cover": "covers/economy_builders_rh1110_cover.jpg",
+  "preview": "previews/economy_builders_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/economy_builders_rh1110_0.jpg",
+  "1": "out/frames/economy_builders_rh1110_1.jpg",
+  "3": "out/frames/economy_builders_rh1110_3.jpg",
+  "last": "out/frames/economy_builders_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of economy_builders. Caption in posting/queue/gh/economy_builders_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "IMF WEO via Worldometers",
+   "year": 2024
+  },
+  {
+   "label": "World Bank population",
+   "year": 2024
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Egypt, Jordan, Lebanon, Syria. Over 150 million people put all their economies together and Israel, 10 million people is still bigger. Per person, Israelis prod",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Egypt, Jordan, Lebanon, Syria. Over 150 million people put all their economies together and Israel, 10 million people, is still bigger. Per person, Israelis produce over 15 times more than everyone around us. And still, some call us colonizers. Colonizers take the riches and ship them home. We don't. We employ people and build. Peace with Egypt since 1979. Peace with Jordan since 1994. Wars don't make us richer. They're a distraction. We'd rather build technology and new medicine. Here's what we've built. Empires spread by taking land. We've spread by sending the world new technology. That's what we're busy doing. You're welcome to join us. So next time someone asks whose economy is bigger.",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "economy_builders.mp4",
+ "cut": 5.3,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.4
+ },
+ "body_kept_s": 49.4,
+ "lint_warnings": [],
+ "render_s": 87.1
+}
