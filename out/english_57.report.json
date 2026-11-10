@@ -1,0 +1,118 @@
+{
+ "id": "english_57",
+ "account": "expressenglishcom",
+ "template": "map_counter",
+ "hook": "*57* countries. Is Israel|one?",
+ "duration": 42.4,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -0.5
+ },
+ "outputs": {
+  "mp4": "out/english_57.mp4",
+  "cover": "covers/english_57_cover.jpg",
+  "preview": "previews/english_57_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/english_57_0.jpg",
+  "1": "out/frames/english_57_1.jpg",
+  "3": "out/frames/english_57_3.jpg",
+  "last": "out/frames/english_57_last.jpg"
+ },
+ "caption_en": "57 countries have English as an official language. Israel isn't one of them.",
+ "caption_he": "ב-57 מדינות אנגלית היא שפה רשמית. ישראל לא אחת מהן. 🌍\n\nארה\"ב, בריטניה, קנדה, אוסטרליה, הודו (כמעט מיליארד וחצי אנשים), פקיסטן, ניגריה, הפיליפינים, סינגפור, קניה, דרום אפריקה, אירלנד, מלטה ועוד.\nבישראל אנגלית היא שפת עבודה, לא שפה רשמית. אבל תיכנסו לפגישה בכל אחת מ-57 המדינות האלה, והיא תתנהל באנגלית.\n\nאנגלית היא לא המטרה. היא הדרך לעסקה.\n\nשלחו למישהו שטס לפגישה בחו\"ל.\n\nמקור: Wikipedia, List of countries and territories where English is an official language (2026).",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#English",
+  "#אנגלית"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia, countries where English is official",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.989,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Fifty seven countries have English as an official language. Is Israel one of them?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Watch the map fill.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "America. Britain. Canada. Australia.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "India, almost one and a half billion people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Pakistan. Nigeria. The Philippines.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Singapore. Kenya. South Africa. Ireland. Malta.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fifty seven countries in all.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel? Not one of them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Here, English is a working language, not an official one.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "But walk into a meeting in any of those fifty seven, and it runs in English.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "English isn't the goal. It's the road to the deal.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So before your next meeting abroad, ask yourself:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "57 countries have English as an official language. Is Israel one of them? Watch the map fill. America. Britain. Canada. Australia. India almost one and a half billion people. Pakistan. Nigeria. The Philippines. Singapore. Kenya. South Africa. Ireland. Malta. 57 countries in all. And Israel. Not one of them. Here, English is a working language. an official one. But walk into a meeting in any of those 57 and it runs in English. English isn't the goal. It's the road to the deal. So before your next meeting abroad, ask yourself.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 40.9,
+ "opener": {
+  "style": "map_puzzle",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 135.5
+}
