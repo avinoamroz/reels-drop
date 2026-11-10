@@ -1,0 +1,20 @@
+{
+ "id": "test_rehook_homicide",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Who has *4x* Israel's|murder rate?",
+ "music": {"bed": "doc_piano", "lufs": -16},
+ "data": {
+  "source": "homicide_race_v4.mp4",
+  "cut": 2.55,
+  "hook_dur": 2.2,
+  "peek": 22.0,
+  "count": {"from": 1, "to": 4, "suffix": "x", "label": "Israel's murder rate"},
+  "hook_y": 700
+ },
+ "sources": [{"label": "UNODC via Our World in Data", "year": 2022}],
+ "caption_en": "TEST RENDER, not for posting. Re-hook of homicide_race v4.",
+ "caption_he": "בדיקת תבנית, לא לפרסום.",
+ "hashtags": ["#Israel", "#data"],
+ "cover": {"bg": "frame", "t": 22.0, "big": "4x", "text": "Who has *4x* Israel's|murder rate?"}
+}
