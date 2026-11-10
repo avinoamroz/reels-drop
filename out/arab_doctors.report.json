@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "data_race",
  "hook": "Arabs: *21%* of Israel.|Doctors?",
- "duration": 37.97,
+ "duration": 48.23,
  "audio": {
   "lufs": -16.1,
   "true_peak": -2.1
@@ -34,7 +34,7 @@
   }
  ],
  "transcript": {
-  "score": 0.97,
+  "score": 0.972,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -43,8 +43,8 @@
     "flag": "ok"
    },
    {
-    "line": "Here's an apartheid test almost nobody runs.",
-    "score": 1.0,
+    "line": "Here's an apartheid test almost nobody runs. One twenty twenty five study, in the Israel Journal of Health Policy Research.",
+    "score": 0.95,
     "flag": "ok"
    },
    {
@@ -63,12 +63,12 @@
     "flag": "ok"
    },
    {
-    "line": "Now watch twenty twenty three.",
-    "score": 0.8,
+    "line": "Now watch twenty twenty three. Thirteen years later.",
+    "score": 0.875,
     "flag": "ok"
    },
    {
-    "line": "Doctors: twenty five percent. More than triple.",
+    "line": "Doctors: twenty five percent. More than triple in thirteen years.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -78,13 +78,13 @@
     "flag": "ok"
    },
    {
-    "line": "Pharmacists: forty nine percent. Almost half.",
+    "line": "Pharmacists: forty nine percent. Almost half. Pick up medicine in Israel, and it's close to a coin flip that an Arab pharmacist hands it to you.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "And of all new doctors licensed since twenty ten, thirty eight percent are Arab.",
-    "score": 0.929,
+    "line": "And of all new doctors licensed since twenty ten, thirty eight percent are Arab. That's the next generation of Israeli medicine.",
+    "score": 0.952,
     "flag": "ok"
    },
    {
@@ -98,7 +98,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Arab citizens are 21% of Israel, which share of its doctors? Here's an apartheid test almost nobody runs. 2010. Arab citizens are 8% of doctors. 17% of nurses. 19% of dentists. 28% of pharmacists. Now watch 2023. Doctors, 25%. More than triple. Nurses and dentists, 27%. Pharmacists, 49%. Almost half. And of all new doctors licensed since 2010, 38% are Arab. The same study says real gaps and challenges remain. So the next time someone says apartheid, ask them this.",
+  "heard": "Arab citizens are 21% of Israel, which share of its doctors? Here's an apartheid test almost nobody runs. One 2025 study in the Israel Journal of Health Policy Research. 2010. Arab citizens are 8% of doctors. 17% of nurses. 19% of dentists. 28% of pharmacists. Now watch 2023, 13 years later. Doctors, 25%. More than triple in 13 years. Nurses and dentists, 27%. pharmacists, 49%, almost half. Pick up medicine in Israel, and it's close to a coin flip that an Arab pharmacist hands it to you. And of all new doctors licensed since 2010, 38% are Arab. That's the next generation of Israeli medicine. The same study says real gaps and challenges remain. So the next time someone says apartheid, ask them this.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -108,5 +108,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 51.2
+ "render_s": 122.7
 }
