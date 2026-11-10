@@ -1,0 +1,54 @@
+{
+ "id": "test_tts_cartesia",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* line, *1* voice test",
+ "duration": 4.13,
+ "audio": {
+  "lufs": -15.9,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/test_tts_cartesia.mp4",
+  "cover": "covers/test_tts_cartesia_cover.jpg",
+  "preview": "previews/test_tts_cartesia_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_tts_cartesia_0.jpg",
+  "1": "out/frames/test_tts_cartesia_1.jpg",
+  "3": "out/frames/test_tts_cartesia_3.jpg",
+  "last": "out/frames/test_tts_cartesia_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting.",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.909,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "This is a short voice test for the new reel templates.",
+    "score": 0.909,
+    "flag": "ok"
+   }
+  ],
+  "heard": "This is a short voice test for the new real templates.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 4.12,
+ "opener": null,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "lint_warnings": [],
+ "render_s": 8.2
+}
