@@ -1,0 +1,137 @@
+{
+ "id": "shalit_1027",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* soldier. How many|prisoners?",
+ "duration": 41.77,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/shalit_1027.mp4",
+  "cover": "covers/shalit_1027_cover.jpg",
+  "preview": "previews/shalit_1027_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/shalit_1027_0.jpg",
+  "1": "out/frames/shalit_1027_1.jpg",
+  "3": "out/frames/shalit_1027_3.jpg",
+  "last": "out/frames/shalit_1027_last.jpg"
+ },
+ "caption_en": "One soldier. 1,027 prisoners. 🕊️\n\nOct 2025: 20 living hostages came home; Israel released 1,968 Palestinian prisoners and detainees (1,718 of them detained during the Gaza war, 250 serving life or long sentences). About 98 per living hostage.\nJan to Mar 2025: the deal set the ratio in advance: 30 prisoners per civilian, 50 per soldier. 1,778 released in total.\n2011: Israel released 1,027 prisoners for one soldier, Gilad Shalit. Al Jazeera called Yahya Sinwar the most senior of them. Twelve years later he was the mastermind of the October 7 attack.\n\nMany of those freed in 2025 had been detained during the war, not convicted. Bringing people home is right. It's worth asking who walked out.\n\nSend this to someone who asks what one Israeli life is worth.",
+ "caption_he": "חייל אחד. 1,027 אסירים.\nאוקטובר 2025: 20 חטופים חיים חזרו, וישראל שחררה 1,968 אסירים ועצורים (1,718 מהם נעצרו במלחמה, 250 עם מאסרי עולם או ארוכים). בערך 98 לכל חטוף חי.\nינואר עד מרץ 2025: היחס נקבע מראש, 30 אסירים לכל אזרח ו-50 לכל חיילת.\n2011: ישראל שחררה 1,027 אסירים תמורת גלעד שליט. הבכיר שבהם היה יחיא סינוואר. 12 שנה אחר כך הוא תכנן את 7 באוקטובר.\nרבים מהמשוחררים ב-2025 נעצרו במלחמה ולא הורשעו. להחזיר אנשים הביתה זה נכון. כדאי לשאול מי יצא.\n\nSources: Asharq Al-Awsat, tally of prisoner swaps after two years of war (2025); Al Jazeera, \"Profiles: The prisoners behind the swap\" (2011); Al Majalla, \"Yahya Sinwar: HAMAS leader and October 7 mastermind\" (2023).",
+ "hashtags": [
+  "#Israel",
+  "#hostages",
+  "#BringThemHome",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Asharq Al-Awsat, tally of prisoner swaps",
+   "year": 2025,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Al Jazeera, Shalit swap profiles",
+   "year": 2011,
+   "at": "L7",
+   "until": "L10"
+  },
+  {
+   "label": "Al Majalla, Yahya Sinwar profile",
+   "year": 2023,
+   "at": "L10",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.969,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One Israeli soldier. How many prisoners did Israel free to bring him home?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Start with October twenty twenty five.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty living hostages came home from Gaza.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel freed one thousand nine hundred and sixty eight prisoners.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About ninety eight for every living hostage.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Earlier that year, the deal set a price in advance.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirty prisoners for each civilian. Fifty for each soldier.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now go back to twenty eleven. One soldier: Gilad Shalit.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "To bring him home, Israel freed one thousand and twenty seven prisoners.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The most senior of them was Yahya Sinwar.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twelve years later, he was the mastermind of October seventh.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Many of those freed in twenty twenty five were detained during the war, not convicted.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "So when people ask what one Israeli life is worth, start with this:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "One Israeli soldier. How many prisoners did Israel free to bring him home? Start with October 2025. 20 living hostages came home from Gaza. Israel freed 1,968 prisoners. About 98 for every living hostage. Earlier that year, the deal set a price in advance. 30 prisoners for each civilian, 50 for each soldier. Now go back to 2011. One soldier, Gilad Shalit. To bring him home, Israel freed 1,027 prisoners. The most senior of them was Yahya Sinwar. 12 years later, he was the mastermind of October 7th. Many of those freed in 2025 were detained during the war, not convicted. So when people ask what one Israeli life is worth, start with this.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 40.26,
+ "opener": {
+  "style": "map_fold",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 99.6
+}
