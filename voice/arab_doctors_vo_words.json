@@ -1,727 +1,757 @@
 [
 {
 "word": "Arab",
-"start": 0.2012396,
-"end": 0.54179895
+"start": 0.21671958,
+"end": 0.52631897
 },
 {
 "word": "citizens",
-"start": 0.54179895,
-"end": 1.0526379
+"start": 0.52631897,
+"end": 0.9752381
 },
 {
 "word": "are",
-"start": 1.0526379,
-"end": 1.1919577
+"start": 0.9752381,
+"end": 1.0835979
 },
 {
 "word": "twenty",
-"start": 1.1919577,
-"end": 1.532517
+"start": 1.0835979,
+"end": 1.4551171
 },
 {
 "word": "one",
-"start": 1.532517,
-"end": 1.7027967
+"start": 1.4551171,
+"end": 1.6563568
 },
 {
 "word": "percent",
-"start": 1.7027967,
-"end": 2.043356
+"start": 1.6563568,
+"end": 1.9814361
 },
 {
 "word": "of",
-"start": 2.043356,
-"end": 2.120756
+"start": 1.9814361,
+"end": 2.1052759
 },
 {
 "word": "Israel.",
-"start": 2.120756,
-"end": 2.6006348
+"start": 2.1052759,
+"end": 2.6161149
 },
 {
 "word": "What",
-"start": 2.7554345,
-"end": 2.9721541
+"start": 3.3746333,
+"end": 3.6997128
 },
 {
 "word": "share",
-"start": 2.9721541,
-"end": 3.1733937
+"start": 3.6997128,
+"end": 4.024792
 },
 {
 "word": "of",
-"start": 3.1733937,
-"end": 3.2662737
+"start": 4.024792,
+"end": 4.117672
 },
 {
 "word": "its",
-"start": 3.2662737,
-"end": 3.3901134
+"start": 4.117672,
+"end": 4.2724714
 },
 {
 "word": "doctors?",
-"start": 3.3901134,
-"end": 4.009312
+"start": 4.2724714,
+"end": 4.9226303
 },
 {
 "word": "Here's",
-"start": 4.133152,
-"end": 4.4427514
+"start": 5.2012696,
+"end": 5.4644294
 },
 {
 "word": "an",
-"start": 4.4427514,
-"end": 4.520151
+"start": 5.4644294,
+"end": 5.557309
 },
 {
 "word": "apartheid",
-"start": 4.520151,
-"end": 5.00003
+"start": 5.557309,
+"end": 6.068148
 },
 {
 "word": "test",
-"start": 5.00003,
-"end": 5.3096294
+"start": 6.068148,
+"end": 6.3313074
 },
 {
 "word": "almost",
-"start": 5.3096294,
-"end": 5.6037493
+"start": 6.3313074,
+"end": 6.7647467
 },
 {
 "word": "nobody",
-"start": 5.6037493,
-"end": 5.9288282
+"start": 6.7647467,
+"end": 7.213666
 },
 {
 "word": "runs.",
-"start": 5.9288282,
-"end": 6.439667
+"start": 7.213666,
+"end": 7.755465
 },
 {
 "word": "One",
-"start": 6.563507,
-"end": 6.8731065
+"start": 8.049584,
+"end": 8.312744
 },
 {
 "word": "twenty",
-"start": 6.8731065,
-"end": 7.136266
+"start": 8.312744,
+"end": 8.560423
 },
 {
 "word": "twenty",
-"start": 7.136266,
-"end": 7.3684654
+"start": 8.560423,
+"end": 8.792623
 },
 {
 "word": "five",
-"start": 7.3684654,
-"end": 7.616145
+"start": 8.792623,
+"end": 9.040302
 },
 {
 "word": "study,",
-"start": 7.616145,
-"end": 8.0960245
+"start": 9.040302,
+"end": 9.489222
 },
 {
 "word": "in",
-"start": 8.188904,
-"end": 8.328224
+"start": 9.613061,
+"end": 9.752381
 },
 {
 "word": "the",
-"start": 8.328224,
-"end": 8.390143
+"start": 9.752381,
+"end": 9.845261
 },
 {
 "word": "Israel",
-"start": 8.390143,
-"end": 8.7616625
+"start": 9.845261,
+"end": 10.185821
 },
 {
 "word": "Journal",
-"start": 8.7616625,
-"end": 9.148663
+"start": 10.185821,
+"end": 10.54186
 },
 {
 "word": "of",
-"start": 9.148663,
-"end": 9.272502
+"start": 10.54186,
+"end": 10.634739
 },
 {
 "word": "Health",
-"start": 9.272502,
-"end": 9.535662
+"start": 10.634739,
+"end": 10.866939
 },
 {
 "word": "Policy",
-"start": 9.535662,
-"end": 9.922661
+"start": 10.866939,
+"end": 11.253938
 },
 {
 "word": "Research.",
-"start": 9.922661,
-"end": 10.4954195
+"start": 11.253938,
+"end": 11.8576565
 },
 {
-"word": "Twenty",
-"start": 10.5883,
-"end": 10.913379
-},
-{
-"word": "ten.",
-"start": 10.913379,
-"end": 11.238458
-},
-{
-"word": "Arab",
-"start": 11.718337,
-"end": 11.996977
-},
-{
-"word": "citizens",
-"start": 11.996977,
-"end": 12.476855
-},
-{
-"word": "are",
-"start": 12.476855,
-"end": 12.631656
-},
-{
-"word": "eight",
-"start": 12.631656,
-"end": 12.832895
-},
-{
-"word": "percent",
-"start": 12.832895,
-"end": 13.142494
-},
-{
-"word": "of",
-"start": 13.142494,
-"end": 13.219894
-},
-{
-"word": "doctors.",
-"start": 13.219894,
-"end": 13.792653
-},
-{
-"word": "Seventeen",
-"start": 14.009373,
-"end": 14.613091
-},
-{
-"word": "percent",
-"start": 14.613091,
-"end": 14.93817
-},
-{
-"word": "of",
-"start": 14.93817,
-"end": 15.031051
-},
-{
-"word": "nurses.",
-"start": 15.031051,
-"end": 15.541889
-},
-{
-"word": "Nineteen",
-"start": 15.619289,
-"end": 16.052729
-},
-{
-"word": "percent",
-"start": 16.052729,
-"end": 16.346848
-},
-{
-"word": "of",
-"start": 16.346848,
-"end": 16.439728
-},
-{
-"word": "dentists.",
-"start": 16.439728,
-"end": 17.089886
-},
-{
-"word": "Twenty",
-"start": 17.213726,
-"end": 17.569765
-},
-{
-"word": "eight",
-"start": 17.569765,
-"end": 17.724566
-},
-{
-"word": "percent",
-"start": 17.724566,
-"end": 18.049644
-},
-{
-"word": "of",
-"start": 18.049644,
-"end": 18.111565
-},
-{
-"word": "pharmacists.",
-"start": 18.111565,
-"end": 18.901043
-},
-{
-"word": "Now",
-"start": 18.978443,
-"end": 19.195162
-},
-{
-"word": "watch",
-"start": 19.195162,
-"end": 19.58216
-},
-{
-"word": "twenty",
-"start": 19.675041,
-"end": 19.938202
-},
-{
-"word": "twenty",
-"start": 19.938202,
-"end": 20.18588
-},
-{
-"word": "three.",
-"start": 20.18588,
-"end": 20.57288
-},
-{
-"word": "Thirteen",
-"start": 20.6348,
-"end": 21.0218
-},
-{
-"word": "years",
-"start": 21.0218,
-"end": 21.19208
-},
-{
-"word": "later.",
-"start": 21.19208,
-"end": 21.563599
-},
-{
-"word": "Doctors:",
-"start": 21.733877,
-"end": 22.306637
-},
-{
-"word": "twenty",
-"start": 22.461435,
-"end": 22.755556
-},
-{
-"word": "five",
-"start": 22.755556,
-"end": 23.003235
-},
-{
-"word": "percent.",
-"start": 23.003235,
-"end": 23.452154
-},
-{
-"word": "More",
-"start": 23.777233,
-"end": 23.993954
-},
-{
-"word": "than",
-"start": 23.993954,
-"end": 24.133272
-},
-{
-"word": "triple",
-"start": 24.133272,
-"end": 24.442873
+"word": "Start",
+"start": 12.043416,
+"end": 12.368496
 },
 {
 "word": "in",
-"start": 24.442873,
+"start": 12.368496,
+"end": 12.430416
+},
+{
+"word": "twenty",
+"start": 12.430416,
+"end": 12.662615
+},
+{
+"word": "ten.",
+"start": 12.662615,
+"end": 13.003175
+},
+{
+"word": "Arab",
+"start": 13.575933,
+"end": 13.839093
+},
+{
+"word": "citizens",
+"start": 13.839093,
+"end": 14.2880125
+},
+{
+"word": "are",
+"start": 14.2880125,
+"end": 14.473772
+},
+{
+"word": "eight",
+"start": 14.535691,
+"end": 14.736931
+},
+{
+"word": "percent",
+"start": 14.736931,
+"end": 15.062011
+},
+{
+"word": "of",
+"start": 15.062011,
+"end": 15.123931
+},
+{
+"word": "doctors.",
+"start": 15.123931,
+"end": 15.72765
+},
+{
+"word": "Seventeen",
+"start": 16.176569,
+"end": 16.687407
+},
+{
+"word": "percent",
+"start": 16.687407,
+"end": 17.012487
+},
+{
+"word": "of",
+"start": 17.012487,
+"end": 17.105366
+},
+{
+"word": "nurses.",
+"start": 17.105366,
+"end": 17.616205
+},
+{
+"word": "Nineteen",
+"start": 17.863886,
+"end": 18.250885
+},
+{
+"word": "percent",
+"start": 18.250885,
+"end": 18.545004
+},
+{
+"word": "of",
+"start": 18.545004,
+"end": 18.637884
+},
+{
+"word": "dentists.",
+"start": 18.637884,
+"end": 19.272562
+},
+{
+"word": "Twenty",
+"start": 19.597641,
+"end": 19.922722
+},
+{
+"word": "eight",
+"start": 19.922722,
+"end": 20.13944
+},
+{
+"word": "percent",
+"start": 20.13944,
+"end": 20.46452
+},
+{
+"word": "of",
+"start": 20.46452,
+"end": 20.5574
+},
+{
+"word": "pharmacists.",
+"start": 20.5574,
+"end": 21.253998
+},
+{
+"word": "Now",
+"start": 21.486198,
+"end": 21.671957
+},
+{
+"word": "watch",
+"start": 21.671957,
+"end": 21.935118
+},
+{
+"word": "twenty",
+"start": 21.935118,
+"end": 22.275677
+},
+{
+"word": "twenty",
+"start": 22.275677,
+"end": 22.538836
+},
+{
+"word": "three.",
+"start": 22.538836,
+"end": 22.863914
+},
+{
+"word": "Thirteen",
+"start": 23.870113,
+"end": 24.319033
+},
+{
+"word": "years",
+"start": 24.319033,
 "end": 24.520271
 },
 {
-"word": "thirteen",
+"word": "later.",
 "start": 24.520271,
 "end": 24.891792
 },
 {
-"word": "years.",
-"start": 24.891792,
-"end": 25.34071
-},
-{
-"word": "Nurses",
-"start": 25.43359,
-"end": 25.88251
-},
-{
-"word": "and",
-"start": 25.88251,
-"end": 25.95991
-},
-{
-"word": "dentists:",
-"start": 25.95991,
-"end": 26.563627
+"word": "Doctors:",
+"start": 25.63483,
+"end": 26.331429
 },
 {
 "word": "twenty",
-"start": 26.718428,
-"end": 27.012547
+"start": 26.780348,
+"end": 27.043507
 },
 {
-"word": "seven",
-"start": 27.012547,
-"end": 27.322147
-},
-{
-"word": "percent.",
-"start": 27.322147,
-"end": 27.832985
-},
-{
-"word": "Pharmacists:",
-"start": 27.972305,
-"end": 28.699863
-},
-{
-"word": "forty",
-"start": 28.792744,
-"end": 29.148783
-},
-{
-"word": "nine",
-"start": 29.148783,
-"end": 29.334543
+"word": "five",
+"start": 27.043507,
+"end": 27.353107
 },
 {
 "word": "percent.",
-"start": 29.334543,
-"end": 29.84538
+"start": 27.353107,
+"end": 27.863945
 },
 {
-"word": "Almost",
-"start": 30.108541,
-"end": 30.43362
+"word": "More",
+"start": 28.219984,
+"end": 28.483145
 },
 {
-"word": "half.",
-"start": 30.43362,
-"end": 30.85158
+"word": "than",
+"start": 28.483145,
+"end": 28.637943
 },
 {
-"word": "Pick",
-"start": 31.161179,
-"end": 31.36242
-},
-{
-"word": "up",
-"start": 31.36242,
-"end": 31.4553
-},
-{
-"word": "medicine",
-"start": 31.4553,
-"end": 31.811338
+"word": "triple",
+"start": 28.637943,
+"end": 28.963024
 },
 {
 "word": "in",
-"start": 31.811338,
-"end": 31.935177
+"start": 28.963024,
+"end": 29.086863
 },
 {
-"word": "Israel,",
-"start": 31.935177,
-"end": 32.41506
+"word": "thirteen",
+"start": 29.086863,
+"end": 29.473862
+},
+{
+"word": "years.",
+"start": 29.473862,
+"end": 29.984701
+},
+{
+"word": "Nurses",
+"start": 30.40266,
+"end": 30.85158
 },
 {
 "word": "and",
-"start": 32.50794,
-"end": 32.631775
+"start": 30.85158,
+"end": 30.97542
 },
 {
-"word": "it's",
-"start": 32.631775,
-"end": 32.755615
-},
-{
-"word": "close",
-"start": 32.755615,
-"end": 32.987816
-},
-{
-"word": "to",
-"start": 32.987816,
-"end": 33.111656
-},
-{
-"word": "a",
-"start": 33.111656,
-"end": 33.142616
-},
-{
-"word": "coin",
-"start": 33.142616,
-"end": 33.436733
-},
-{
-"word": "flip",
-"start": 33.436733,
-"end": 33.730854
-},
-{
-"word": "that",
-"start": 33.730854,
-"end": 33.885654
-},
-{
-"word": "an",
-"start": 33.885654,
-"end": 33.978535
-},
-{
-"word": "Arab",
-"start": 33.978535,
-"end": 34.19525
-},
-{
-"word": "pharmacist",
-"start": 34.19525,
-"end": 34.675133
-},
-{
-"word": "hands",
-"start": 34.675133,
-"end": 34.907333
-},
-{
-"word": "it",
-"start": 34.907333,
-"end": 35.00021
-},
-{
-"word": "to",
-"start": 35.00021,
-"end": 35.09309
-},
-{
-"word": "you.",
-"start": 35.09309,
-"end": 35.29433
-},
-{
-"word": "And",
-"start": 35.51105,
-"end": 35.66585
-},
-{
-"word": "of",
-"start": 35.66585,
-"end": 35.74325
-},
-{
-"word": "all",
-"start": 35.74325,
-"end": 35.99093
-},
-{
-"word": "new",
-"start": 35.99093,
-"end": 36.13025
-},
-{
-"word": "doctors",
-"start": 36.13025,
-"end": 36.53273
-},
-{
-"word": "licensed",
-"start": 36.53273,
-"end": 36.950687
-},
-{
-"word": "since",
-"start": 36.950687,
-"end": 37.151928
+"word": "dentists:",
+"start": 30.97542,
+"end": 31.641058
 },
 {
 "word": "twenty",
-"start": 37.151928,
-"end": 37.43057
+"start": 31.780378,
+"end": 32.089977
 },
 {
-"word": "ten,",
-"start": 37.43057,
-"end": 37.786606
+"word": "seven",
+"start": 32.089977,
+"end": 32.384098
 },
 {
-"word": "thirty",
-"start": 38.065247,
-"end": 38.390324
+"word": "percent.",
+"start": 32.384098,
+"end": 32.863976
 },
 {
-"word": "eight",
-"start": 38.390324,
-"end": 38.514164
+"word": "Pharmacists:",
+"start": 33.699894,
+"end": 34.520332
 },
 {
-"word": "percent",
-"start": 38.514164,
+"word": "forty",
+"start": 34.845413,
+"end": 35.17049
+},
+{
+"word": "nine",
+"start": 35.17049,
+"end": 35.35625
+},
+{
+"word": "percent.",
+"start": 35.35625,
+"end": 35.74325
+},
+{
+"word": "Almost",
+"start": 36.47081,
+"end": 36.888767
+},
+{
+"word": "half.",
+"start": 36.919727,
+"end": 37.492485
+},
+{
+"word": "Pick",
+"start": 38.529644,
+"end": 38.746365
+},
+{
+"word": "up",
+"start": 38.746365,
 "end": 38.870205
 },
 {
-"word": "are",
-"start": 38.901165,
-"end": 39.055965
+"word": "medicine",
+"start": 38.870205,
+"end": 39.226242
 },
 {
-"word": "Arab.",
-"start": 39.055965,
+"word": "in",
+"start": 39.226242,
 "end": 39.319122
 },
 {
-"word": "That's",
-"start": 40.01572,
-"end": 40.27888
-},
-{
-"word": "the",
-"start": 40.27888,
-"end": 40.37176
-},
-{
-"word": "next",
-"start": 40.37176,
-"end": 40.634922
-},
-{
-"word": "generation",
-"start": 40.634922,
-"end": 41.17672
-},
-{
-"word": "of",
-"start": 41.17672,
-"end": 41.2696
-},
-{
-"word": "Israeli",
-"start": 41.2696,
-"end": 41.625637
-},
-{
-"word": "medicine.",
-"start": 41.625637,
-"end": 42.0436
-},
-{
-"word": "The",
-"start": 42.461555,
-"end": 42.554436
-},
-{
-"word": "same",
-"start": 42.554436,
-"end": 42.833076
-},
-{
-"word": "study",
-"start": 42.833076,
-"end": 43.127197
-},
-{
-"word": "says",
-"start": 43.127197,
-"end": 43.390354
-},
-{
-"word": "real",
-"start": 43.390354,
-"end": 43.730915
-},
-{
-"word": "gaps",
-"start": 43.730915,
-"end": 44.086952
+"word": "Israel,",
+"start": 39.319122,
+"end": 39.860924
 },
 {
 "word": "and",
-"start": 44.086952,
-"end": 44.210793
+"start": 40.21696,
+"end": 40.3408
 },
 {
-"word": "challenges",
-"start": 44.210793,
-"end": 44.690674
+"word": "it's",
+"start": 40.3408,
+"end": 40.44916
 },
 {
-"word": "remain.",
-"start": 44.690674,
-"end": 45.07767
+"word": "close",
+"start": 40.44916,
+"end": 40.75876
 },
 {
-"word": "So",
-"start": 45.37179,
-"end": 45.619473
+"word": "to",
+"start": 40.75876,
+"end": 40.85164
+},
+{
+"word": "a",
+"start": 40.85164,
+"end": 40.91356
+},
+{
+"word": "coin",
+"start": 40.91356,
+"end": 41.20768
+},
+{
+"word": "flip",
+"start": 41.20768,
+"end": 41.5018
+},
+{
+"word": "that",
+"start": 41.5018,
+"end": 41.656597
+},
+{
+"word": "an",
+"start": 41.656597,
+"end": 41.749477
+},
+{
+"word": "Arab",
+"start": 41.749477,
+"end": 42.012638
+},
+{
+"word": "pharmacist",
+"start": 42.012638,
+"end": 42.492516
+},
+{
+"word": "hands",
+"start": 42.492516,
+"end": 42.709236
+},
+{
+"word": "it",
+"start": 42.709236,
+"end": 42.802116
+},
+{
+"word": "to",
+"start": 42.802116,
+"end": 42.879517
+},
+{
+"word": "you.",
+"start": 42.879517,
+"end": 43.065277
+},
+{
+"word": "And",
+"start": 43.761875,
+"end": 43.870235
+},
+{
+"word": "of",
+"start": 43.870235,
+"end": 43.963116
+},
+{
+"word": "all",
+"start": 43.963116,
+"end": 44.241753
+},
+{
+"word": "new",
+"start": 44.241753,
+"end": 44.350113
+},
+{
+"word": "doctors",
+"start": 44.350113,
+"end": 44.783554
+},
+{
+"word": "licensed",
+"start": 44.783554,
+"end": 45.17055
+},
+{
+"word": "since",
+"start": 45.17055,
+"end": 45.402752
+},
+{
+"word": "twenty",
+"start": 45.402752,
+"end": 45.681393
+},
+{
+"word": "ten,",
+"start": 45.681393,
+"end": 46.13031
+},
+{
+"word": "thirty",
+"start": 46.26963,
+"end": 46.579227
+},
+{
+"word": "eight",
+"start": 46.579227,
+"end": 46.718548
+},
+{
+"word": "percent",
+"start": 46.718548,
+"end": 47.12103
+},
+{
+"word": "are",
+"start": 47.18295,
+"end": 47.353226
+},
+{
+"word": "Arab.",
+"start": 47.353226,
+"end": 47.709267
+},
+{
+"word": "That's",
+"start": 48.684505,
+"end": 48.978622
 },
 {
 "word": "the",
-"start": 45.619473,
-"end": 45.71235
+"start": 48.978622,
+"end": 49.071503
 },
 {
 "word": "next",
-"start": 45.71235,
-"end": 45.97551
+"start": 49.071503,
+"end": 49.396584
 },
 {
-"word": "time",
-"start": 45.97551,
-"end": 46.16127
+"word": "generation",
+"start": 49.396584,
+"end": 49.90742
 },
 {
-"word": "someone",
-"start": 46.16127,
-"end": 46.42443
+"word": "of",
+"start": 49.90742,
+"end": 50.0003
+},
+{
+"word": "Israeli",
+"start": 50.0003,
+"end": 50.387302
+},
+{
+"word": "medicine.",
+"start": 50.387302,
+"end": 50.83622
+},
+{
+"word": "The",
+"start": 51.594738,
+"end": 51.71858
+},
+{
+"word": "same",
+"start": 51.71858,
+"end": 52.0127
+},
+{
+"word": "study",
+"start": 52.0127,
+"end": 52.306816
 },
 {
 "word": "says",
-"start": 46.42443,
-"end": 46.641148
+"start": 52.306816,
+"end": 52.554497
+},
+{
+"word": "real",
+"start": 52.554497,
+"end": 52.817657
+},
+{
+"word": "gaps",
+"start": 52.817657,
+"end": 53.359455
+},
+{
+"word": "and",
+"start": 53.545216,
+"end": 53.700016
+},
+{
+"word": "challenges",
+"start": 53.700016,
+"end": 54.179893
+},
+{
+"word": "remain.",
+"start": 54.179893,
+"end": 54.597855
+},
+{
+"word": "Equality",
+"start": 54.89197,
+"end": 55.433773
+},
+{
+"word": "is",
+"start": 55.433773,
+"end": 55.58857
+},
+{
+"word": "not",
+"start": 55.58857,
+"end": 55.82077
+},
+{
+"word": "finished.",
+"start": 55.82077,
+"end": 56.33161
+},
+{
+"word": "So",
+"start": 56.84245,
+"end": 57.02821
+},
+{
+"word": "the",
+"start": 57.02821,
+"end": 57.10561
+},
+{
+"word": "next",
+"start": 57.10561,
+"end": 57.353287
+},
+{
+"word": "time",
+"start": 57.353287,
+"end": 57.570007
+},
+{
+"word": "someone",
+"start": 57.570007,
+"end": 57.92605
+},
+{
+"word": "says",
+"start": 57.92605,
+"end": 58.096325
 },
 {
 "word": "apartheid,",
-"start": 46.641148,
-"end": 47.21391
+"start": 58.096325,
+"end": 58.700047
 },
 {
 "word": "ask",
-"start": 47.21391,
-"end": 47.477066
+"start": 58.700047,
+"end": 58.978683
 },
 {
 "word": "them",
-"start": 47.477066,
-"end": 47.600906
+"start": 58.978683,
+"end": 59.087044
 },
 {
 "word": "this:",
-"start": 47.600906,
-"end": 47.987907
+"start": 59.087044,
+"end": 59.458565
 }
 ]
