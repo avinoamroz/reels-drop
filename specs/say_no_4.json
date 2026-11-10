@@ -9,35 +9,35 @@
  },
  "lines": [
   {
-   "say": "Where in the Middle East can you say no to your leaders? Four tests. Seven countries.",
+   "say": "Where in the Middle East can you say no to your leaders? Four tests. Seven countries. Scored by Freedom House.",
    "gap": 0.4
   },
   {
-   "say": "Test one: can you vote the leader out?",
+   "say": "Test one: can you vote the leader out in a free election?",
    "screen": "*4* tests. *7* countries."
   },
   {
-   "say": "Test two: can newspapers criticise the government?"
+   "say": "Test two: can newspapers criticise the government freely?"
   },
   {
-   "say": "Test three: can you protest in the street?"
+   "say": "Test three: can people gather and protest freely?"
   },
   {
-   "say": "Test four: are judges free from the government?",
+   "say": "Test four: are judges independent, free from the government?",
    "gap": 0.5
   },
   {
-   "say": "Egypt and Saudi Arabia: zero out of four."
+   "say": "Egypt and Saudi Arabia: zero out of four. Not one test passed."
   },
   {
-   "say": "Jordan, Syria and Iraq: half a point each."
+   "say": "Jordan, Syria and Iraq: half a point each. One test passed only partly."
   },
   {
-   "say": "Lebanon: two.",
+   "say": "Lebanon: two. Protest, yes. Votes and press, partly. Judges, no.",
    "gap": 0.4
   },
   {
-   "say": "Israel: four out of four.",
+   "say": "Israel: four out of four. The only full score of the seven.",
    "gap": 0.5
   },
   {
@@ -171,7 +171,7 @@
   "#democracy"
  ],
  "cover": {
-  "t": 36.0,
+  "t": 30.0,
   "big": "4 / 4",
   "text": "Who can|say *no?*"
  }
