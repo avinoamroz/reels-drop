@@ -1,0 +1,8 @@
+{
+  "id": "x_slang_alai",
+  "ok": true,
+  "rc": "0",
+  "secs": "29",
+  "run": "42768140379",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.1s] [sse] 44 words timed from Cartesia timestamps, k 0.9998\n[   3.1s] voice 21.91s, lines 0.30-3.61, 4.61-6.05, 8.40-9.90, 12.05-13.04, 14.53-16.25, 17.74-19.07, 20.56-21.91\n[   3.2s] timeline: 3 scenes, T_END 25.13s, warnings []\n[   4.7s] [mix] input -20.5 LUFS, gain +5.0 dB, 6 SFX -> /home/claude/express_slang/x_slang_alai/out/work/mix.wav\n[   4.9s] [render] frame 0/754  0s\n[   7.9s] [render] frame 150/754  3s\n[  11.5s] [render] frame 300/754  7s\n[  14.8s] [render] frame 450/754  10s\n[  17.7s] [render] frame 600/754  13s\n[  21.0s] [render] frame 750/754  16s\n\nvideo 1080x1920 30/1 25.13s aac 48000 Hz: -16.1 LUFS, TP -2.2 dBTP, 2.89 MB (CHECK)\nweb 540x960 1.32 MB (ok), -16.1 LUFS, TP -2.2\nhook: ok (frame-0 text 8, motion 2.4)\ndashes: ok (0 replaced)\nlayout issues: 20\nstages {'voice_align_s': 1.8, 'timeline_s': 0.1, 'mix_s': 1.6, 'render_s': 17.5, 'web_s': 4.6, 'qa_s': 2.1, 'total_s': 28.9}\n"
+}
