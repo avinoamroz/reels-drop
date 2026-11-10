@@ -1,0 +1,143 @@
+{
+ "id": "un_hamas_zero",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Israel: *15.* HAMAS:|how many?",
+ "duration": 54.23,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/un_hamas_zero.mp4",
+  "cover": "covers/un_hamas_zero_cover.jpg",
+  "preview": "previews/un_hamas_zero_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/un_hamas_zero_0.jpg",
+  "1": "out/frames/un_hamas_zero_1.jpg",
+  "3": "out/frames/un_hamas_zero_3.jpg",
+  "last": "out/frames/un_hamas_zero_last.jpg"
+ },
+ "caption_en": "Israel: 15 UN condemnations in 2025. HAMAS: 0. 🏛️\n\nUN Watch: in 2025 the General Assembly adopted 15 resolutions on Israel and 11 on the rest of the world combined (Russia 6, US 2, Iran, North Korea, Myanmar 1 each).\n\n2018: a US resolution condemning HAMAS got 87 yes, 57 no, 33 abstentions. It needed two thirds and failed (CNN).\n27 Oct 2023: Canada's amendment naming HAMAS got 88 yes, 55 no, 23 abstentions. Failed again (CTV News).\n2025: resolution ES-10/27 names HAMAS once, in a demand to release hostages, with no condemnation (UN Watch).\n\nIsrael's war in Gaza deserves scrutiny, like any war. So does the scoreboard.\n\nSend this to someone who quotes the UN.",
+ "caption_he": "ישראל: 15 גינויים באו\"ם ב-2025. חמאס: 0.\nלפי UN Watch, העצרת הכללית אישרה ב-2025 15 החלטות על ישראל ו-11 על כל שאר העולם יחד.\n2018: הצעה אמריקאית לגנות את חמאס קיבלה 87 בעד ו-57 נגד, לא הגיעה לשני שלישים ונפלה.\nאוקטובר 2023: התיקון הקנדי שמזכיר את חמאס קיבל 88 בעד ו-55 נגד, ונפל שוב.\n2025: חמאס מוזכר פעם אחת, בדרישה לשחרר חטופים, בלי גינוי.\nהמלחמה בעזה ראויה לביקורת, כמו כל מלחמה. גם לוח התוצאות.\n\nSources: UN Watch, \"2025 UNGA Resolutions on Israel vs. Rest of the World\"; CNN (6 Dec 2018); CTV News (27 Oct 2023).",
+ "hashtags": [
+  "#Israel",
+  "#UN",
+  "#HAMAS",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "UN Watch, UNGA resolutions on Israel vs rest of world",
+   "year": 2025,
+   "at": "L1",
+   "until": "L5"
+  },
+  {
+   "label": "CNN, UN vote on HAMAS resolution",
+   "year": 2018,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "CTV News, Canada's HAMAS amendment",
+   "year": 2023,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "UN Watch, ES-10/27 analysis",
+   "year": 2025,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.984,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel: fifteen U.N. condemnations in one year. HAMAS: how many?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty twenty five, the U.N. General Assembly.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel: fifteen resolutions. The rest of the world combined: eleven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Russia: six. America: two. Iran, North Korea and Myanmar: one each.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And HAMAS? Look at the votes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty eighteen. America asks the Assembly to condemn HAMAS.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eighty seven countries vote yes. Fifty seven vote no.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It needs two thirds. It fails.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "October twenty twenty three, three weeks after the massacre. Canada tries to name HAMAS.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Eighty eight yes. Fifty five no. It fails again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In twenty twenty five, HAMAS is named once, in a call to free hostages. Condemnations: zero.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's war in Gaza deserves scrutiny, like any war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But next time someone quotes the U.N., ask them:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel. 15 UN condemnations in one year. Hamas. How many? 2025. The UN General Assembly. Israel. 15 resolutions. The rest of the world combined. 11. Russia. 6. America. 2. Iran. North Korea and Myanmar. 1 each. And Hamas. Look at the votes. 2018. America asks the assembly to condemn Hamas. 87 countries vote yes. 57 vote no. It needs two-thirds. It fails. October 2023, three weeks after the massacre, Canada tries to name Hamas. 88 yes. 55 no. It fails again. In 2025, Hamas is named once in a call to free hostages. Condemnations, zero. Israel's war in Gaza deserves scrutiny, like any war. But next time someone quotes the UN, ask them.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 53.02,
+ "opener": {
+  "style": "globe_unpeel",
+  "opener_s": 2.4,
+  "narration_starts": 1.2
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [],
+ "render_s": 167.0
+}
