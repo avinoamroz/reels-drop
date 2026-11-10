@@ -82,6 +82,15 @@
    "due_epoch": 1794330000
   },
   {
+   "id": "roth_life_stages",
+   "account": "noam",
+   "due": "2026-11-10T20:05:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/out/roth_life_stages.mp4\", \"caption\": \"Rothschild grew up. Then what? 👶\\n\\nRoth-child, Roth-teen, Roth-shield, Roth-adult, Roth-chilled, Roth-shtick, Roth-schnitzel, Roth-schmooze, Roth 'n' roll. Then someone ate his schnitzel: the Wrath-schild. Now he's retired with a Roth IRA.\\n\\nA silly name game, nothing more. Which stage are you at?\\n\\nרוטשילד גדל. ומה אז? 👶\\nמשחק מילים אחד על שם אחד, מהעריסה ועד הפנסיה. באיזה שלב אתם?\\n\\nTag the Roth in your life.\\n\\n#JewishHumor #Wordplay #Israel\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/roth_life_stages_cover.jpg\"}"
+   },
+   "due_epoch": 1794333900
+  },
+  {
    "id": "x_slang_al_hapanim",
    "account": "express",
    "due": "2026-11-10T20:30:00+02:00",
@@ -1055,8 +1064,17 @@
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/syria_pov_v3.mp4\", \"caption\": \"You're Israel. The army next door just vanished. What do you do? 🎯\\n\\n📅 December 2024: Assad falls. HTS-led rebels take Damascus, and Syria's troops leave the border.\\n📜 The 1974 buffer zone deal? Israel says it collapsed.\\n\\nOption 1: wait. Option 2: move in. Option 3: strike the weapons before armed groups get them.\\n\\nIsrael chose 2 and 3: it moved into the buffer zone, up to Mount Hermon, and struck the old army's weapons.\\nSince then: rockets at the Golan (June 2025), and deadly clashes in Sweida, where Israel struck Syrian forces saying it was protecting the Druze (July 2025).\\n\\nWhat would YOU do? Tell me in the comments 👇\\n\\nאתם ישראל. הצבא של השכנים נעלם. לחכות, להיכנס, או לתקוף את הנשק? ישראל בחרה להיכנס ולתקוף. האו״ם וסוריה קוראים לזה הפרה. מה אתם הייתם עושים? 👇\\n\\n👥 Tag a friend who needs to see this 👇\\nתייגו חבר שחייב לראות את זה 👇\\n\\nSources: AFP and Reuters, 8 Dec 2024; UN spokesperson Stephane Dujarric, 9 Dec 2024; AAP, 10 Dec 2024; ACLED, 19 Dec 2024; Times of Israel, 3 Jun 2025; NPR, 16 Jul 2025; Reuters via Al-Monitor, 24 Aug 2026; map: Natural Earth\\n\\n#Israel #Syria #Golan #MiddleEast #ישראל #סוריה\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/syria_pov_v3_cover.jpg\"}"
     }
    }
+  },
+  "s996852": {
+   "noam": {
+    "id": "roth_life_stages",
+    "due": "2026-11-10T20:05:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/out/roth_life_stages.mp4\", \"caption\": \"Rothschild grew up. Then what? 👶\\n\\nRoth-child, Roth-teen, Roth-shield, Roth-adult, Roth-chilled, Roth-shtick, Roth-schnitzel, Roth-schmooze, Roth 'n' roll. Then someone ate his schnitzel: the Wrath-schild. Now he's retired with a Roth IRA.\\n\\nA silly name game, nothing more. Which stage are you at?\\n\\nרוטשילד גדל. ומה אז? 👶\\nמשחק מילים אחד על שם אחד, מהעריסה ועד הפנסיה. באיזה שלב אתם?\\n\\nTag the Roth in your life.\\n\\n#JewishHumor #Wordplay #Israel\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/roth_life_stages_cover.jpg\"}"
+    }
+   }
   }
  },
- "due_buckets": "|996832|996835|996836|996838|996841|996844|996847|996848|996850|996853|996855|996857|996859|996861|996874|996877|996880|996883|996886|996889|996892|996895|996898|996903|996907|996922|996925|996928|996931|996934|996936|996937|996938|996940|996942|996943|996944|996946|996949|996951|996953|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|",
- "generated_at": "2026-11-10T11:36:00+00:00"
+ "due_buckets": "|996832|996835|996836|996838|996841|996844|996847|996848|996850|996852|996853|996855|996857|996859|996861|996874|996877|996880|996883|996886|996889|996892|996895|996898|996903|996907|996922|996925|996928|996931|996934|996936|996937|996938|996940|996942|996943|996944|996946|996949|996951|996953|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|",
+ "generated_at": "2026-11-10T15:23:03+00:00"
 }
