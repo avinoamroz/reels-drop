@@ -1,0 +1,123 @@
+{
+ "id": "rnd_first",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Research spending:|who's *#1?*",
+ "duration": 44.43,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/rnd_first.mp4",
+  "cover": "covers/rnd_first_cover.jpg",
+  "preview": "previews/rnd_first_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/rnd_first_0.jpg",
+  "1": "out/frames/rnd_first_1.jpg",
+  "3": "out/frames/rnd_first_3.jpg",
+  "last": "out/frames/rnd_first_last.jpg"
+ },
+ "caption_en": "Who spends the biggest share of its economy on research? 🔬\n\nR&D spending as % of GDP (World Bank, 2023 unless noted): Israel 6.35, Liechtenstein 6.01, South Korea 4.94, Sweden 3.60, USA 3.45, Japan 3.44, Germany 3.15.\nAround Israel: Turkey 2.42, Egypt 1.02 (2024), Iran 0.73 (2021), Jordan 0.70 (2016), Saudi Arabia 0.64 (2024), Lebanon and Syria no data.\n\nIsrael's share is about 1.8x America's. Money alone doesn't make ideas. People do, in every country here.\n\nSend this to someone who builds things.",
+ "caption_he": "מי משקיעה במחקר את החלק הגדול ביותר מהכלכלה שלה?\nהוצאה על מו\"פ באחוזי תוצר (הבנק העולמי, 2023 אלא אם צוין): ישראל 6.35, ליכטנשטיין 6.01, דרום קוריאה 4.94, שוודיה 3.60, ארה\"ב 3.45, יפן 3.44, גרמניה 3.15.\nסביב ישראל: טורקיה 2.42, מצרים 1.02, איראן 0.73, ירדן 0.70, סעודיה 0.64, לבנון וסוריה אין נתונים.\nכסף לבד לא מייצר רעיונות. אנשים כן.\n\nSources: World Bank, research and development expenditure (% of GDP), via Wikipedia \"List of sovereign states by research and development spending\" (2026).",
+ "hashtags": [
+  "#Israel",
+  "#innovation",
+  "#StartupNation",
+  "#research"
+ ],
+ "sources": [
+  {
+   "label": "World Bank via Wikipedia, R&D % of GDP, 2023 unless shown",
+   "year": 2023
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Research spending, as a share of the economy. Who's number one in the world?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Start next door.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia: zero point six percent. Jordan: zero point seven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iran: zero point seven. Egypt: one percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey: two point four. Lebanon and Syria: no data.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the world's big spenders.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Germany: three point one. Japan and America: three point four.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sweden: three point six. South Korea: almost five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Liechtenstein: six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And number one: Israel. Six point three five percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Almost double America's share.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Money alone doesn't make ideas. People do, in every country here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So next time someone asks what Israel gives the world, ask them:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Research. Spending. As a share of the economy. Who's number one in the world? Start next door. Saudi Arabia 0.6%, Jordan 0.7%, Iran 0.7%, Egypt 1%, Turkey 2.4%, Lebanon and Syria no data. Now the world's big spenders. Germany 3.1%, Japan and America 3.4%, Sweden 3.6%, South Korea, almost 5, Liechtenstein, 6, and number 1, Israel, 6.35%. Almost double America's share. Money alone doesn't make ideas. People do, in every country here. So next time someone asks what Israel gives the world, ask them.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 42.95,
+ "opener": {
+  "style": "map_tear_v2",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 119.9
+}
