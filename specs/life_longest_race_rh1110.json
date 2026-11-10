@@ -1,0 +1,40 @@
+{
+ "id": "life_longest_race_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Who beats Israel's|*83.2* years?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "source": "life_longest_race.mp4",
+  "cut": 2.9,
+  "hook_dur": 2.2,
+  "peek": 36.0,
+  "count": {
+   "from": 72,
+   "to": 83.2,
+   "dec": 1,
+   "label": "years, Israel's life expectancy"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "World Bank WDI via FRED",
+   "year": 2023
+  }
+ ],
+ "caption_en": "Re-hook of life_longest_race. Caption in posting/queue/gh/life_longest_race_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 35.3,
+  "big": "83.2",
+  "text": "Who beats Israel's|*83.2* years?"
+ }
+}

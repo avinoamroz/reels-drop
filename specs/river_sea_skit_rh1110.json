@@ -1,0 +1,39 @@
+{
+ "id": "river_sea_skit_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Who was here|*3,000* years ago?",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "data": {
+  "source": "river_sea_skit.mp4",
+  "cut": 3.15,
+  "hook_dur": 2.2,
+  "peek": 38.0,
+  "count": {
+   "from": 0,
+   "to": 3000,
+   "label": "years ago: Israel in stone"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "Britannica, Merneptah Stele",
+   "year": 2025
+  }
+ ],
+ "caption_en": "Re-hook of river_sea_skit. Caption in posting/queue/gh/river_sea_skit_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 37.05,
+  "big": "3,000",
+  "text": "Who was here|*3,000* years ago?"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "id": "named_after_v2_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*6* cities,|*6* thank you notes",
+ "music": {
+  "bed": "warm",
+  "lufs": -16
+ },
+ "data": {
+  "source": "named_after_v2.mp4",
+  "cut": 4.5,
+  "hook_dur": 2.2,
+  "peek": 40.0,
+  "count": {
+   "from": 0,
+   "to": 6,
+   "label": "Israeli cities named for someone"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "Wikipedia; ESRA Magazine",
+   "year": 2025
+  }
+ ],
+ "caption_en": "Re-hook of named_after_v2. Caption in posting/queue/gh/named_after_v2_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 37.7,
+  "big": "6",
+  "text": "Israeli cities,|*6* thank you notes"
+ }
+}

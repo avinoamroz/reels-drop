@@ -1,0 +1,39 @@
+{
+ "id": "europe_jews_map_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Poland had *3* *million*|Jews. Then?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "source": "europe_jews_map.mp4",
+  "cut": 2.2,
+  "hook_dur": 2.2,
+  "peek": 24.0,
+  "count": {
+   "from": 3000000,
+   "to": 45000,
+   "label": "Jews in Poland, 1933 to 1950"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "USHMM Holocaust Encyclopedia",
+   "year": 2024
+  }
+ ],
+ "caption_en": "Re-hook of europe_jews_map. Caption in posting/queue/gh/europe_jews_map_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 24.0,
+  "big": "3,000,000",
+  "text": "Poland had 3 million|Jews. *Then?*"
+ }
+}

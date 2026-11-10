@@ -1,0 +1,44 @@
+{
+ "id": "economy_builders_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*15x* more per person.|Colonizers?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "source": "economy_builders.mp4",
+  "cut": 5.3,
+  "hook_dur": 2.2,
+  "peek": 16.0,
+  "count": {
+   "from": 1,
+   "to": 15,
+   "suffix": "x",
+   "label": "output per person vs 4 neighbours"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "IMF WEO via Worldometers",
+   "year": 2024
+  },
+  {
+   "label": "World Bank population",
+   "year": 2024
+  }
+ ],
+ "caption_en": "Re-hook of economy_builders. Caption in posting/queue/gh/economy_builders_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 12.9,
+  "big": "15x",
+  "text": "more per person.|*Colonizers?*"
+ }
+}

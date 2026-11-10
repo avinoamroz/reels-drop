@@ -1,0 +1,44 @@
+{
+ "id": "homicide_race_v4_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Israel *1.6.* USA *6.5.*|Violent?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "source": "homicide_race_v4.mp4",
+  "cut": 2.55,
+  "hook_dur": 2.2,
+  "peek": 22.0,
+  "count": {
+   "from": 0,
+   "to": 1.6,
+   "dec": 1,
+   "label": "murders per 100,000, Israel 2022"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data",
+   "year": 2022
+  },
+  {
+   "label": "Taub Center homicide update",
+   "year": 2025
+  }
+ ],
+ "caption_en": "Re-hook of homicide_race_v4. Caption in posting/queue/gh/homicide_race_v4_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 21.65,
+  "big": "1.6 vs 6.5",
+  "text": "Israel vs USA.|*Violent?*"
+ }
+}

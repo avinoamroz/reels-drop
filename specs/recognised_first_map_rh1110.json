@@ -1,0 +1,39 @@
+{
+ "id": "recognised_first_map_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Which *23* countries|still say no?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "source": "recognised_first_map.mp4",
+  "cut": 1.85,
+  "hook_dur": 2.2,
+  "peek": 32.0,
+  "count": {
+   "from": 0,
+   "to": 23,
+   "label": "UN members with no recognition"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "Wikipedia, International recognition of Israel",
+   "year": 2026
+  }
+ ],
+ "caption_en": "Re-hook of recognised_first_map. Caption in posting/queue/gh/recognised_first_map_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 32.35,
+  "big": "23",
+  "text": "Which *23* countries|still say no?"
+ }
+}

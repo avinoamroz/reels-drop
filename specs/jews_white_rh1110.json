@@ -1,0 +1,43 @@
+{
+ "id": "jews_white_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*9* places.|*One* skin color?",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "data": {
+  "source": "jews_white.mp4",
+  "cut": 5.35,
+  "hook_dur": 2.2,
+  "peek": 47.0,
+  "count": {
+   "from": 1,
+   "to": 9,
+   "label": "places, one people"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "Pew Research Center",
+   "year": 2016
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2024
+  }
+ ],
+ "caption_en": "Re-hook of jews_white. Caption in posting/queue/gh/jews_white_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 43.85,
+  "big": "9",
+  "text": "places.|*One* skin color?"
+ }
+}

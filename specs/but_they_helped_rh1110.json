@@ -1,0 +1,43 @@
+{
+ "id": "but_they_helped_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Israel the worst?|*5* facts disagree",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "data": {
+  "source": "but_they_helped.mp4",
+  "cut": 2.4,
+  "hook_dur": 2.2,
+  "peek": 30.0,
+  "count": {
+   "from": 0,
+   "to": 5,
+   "label": "facts, 2 haters"
+  },
+  "hook_y": 700
+ },
+ "sources": [
+  {
+   "label": "IDF via Jerusalem Post",
+   "year": 2023
+  },
+  {
+   "label": "Save a Child's Heart",
+   "year": 2025
+  }
+ ],
+ "caption_en": "Re-hook of but_they_helped. Caption in posting/queue/gh/but_they_helped_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 29.8,
+  "big": "5",
+  "text": "Israel the worst?|*5* facts disagree"
+ }
+}
