@@ -1,0 +1,48 @@
+{
+ "id": "test_rehook_homicide",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Who has *4x* Israel's|murder rate?",
+ "duration": 53.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -3.7
+ },
+ "outputs": {
+  "mp4": "out/test_rehook_homicide.mp4",
+  "cover": "covers/test_rehook_homicide_cover.jpg",
+  "preview": "previews/test_rehook_homicide_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_rehook_homicide_0.jpg",
+  "1": "out/frames/test_rehook_homicide_1.jpg",
+  "3": "out/frames/test_rehook_homicide_3.jpg",
+  "last": "out/frames/test_rehook_homicide_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting. Re-hook of homicide_race v4.",
+ "caption_he": "בדיקת תבנית, לא לפרסום.",
+ "hashtags": [
+  "#Israel",
+  "#data"
+ ],
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data",
+   "year": 2022
+  }
+ ],
+ "min_font_px": 300,
+ "transcript": null,
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "homicide_race_v4.mp4",
+ "cut": 2.55,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.7
+ },
+ "body_kept_s": 52.0,
+ "lint_warnings": [],
+ "render_s": 73.2
+}
