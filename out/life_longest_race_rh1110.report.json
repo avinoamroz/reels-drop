@@ -1,0 +1,58 @@
+{
+ "id": "life_longest_race_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Who beats Israel's|*83.2* years?",
+ "duration": 45.8,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.3
+ },
+ "outputs": {
+  "mp4": "out/life_longest_race_rh1110.mp4",
+  "cover": "covers/life_longest_race_rh1110_cover.jpg",
+  "preview": "previews/life_longest_race_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/life_longest_race_rh1110_0.jpg",
+  "1": "out/frames/life_longest_race_rh1110_1.jpg",
+  "3": "out/frames/life_longest_race_rh1110_3.jpg",
+  "last": "out/frames/life_longest_race_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of life_longest_race. Caption in posting/queue/gh/life_longest_race_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "World Bank WDI via FRED",
+   "year": 2023
+  }
+ ],
+ "transcript": {
+  "score": 0.992,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "60 years of World Bank data. 11 countries. 1961. Israel leads at 72 years. Lebanon is next. Then the Gulf starts climbing. 1975. Civil war in Lebanon. It drops ",
+    "score": 0.992,
+    "flag": "ok"
+   }
+  ],
+  "heard": "60 years of World Bank data. 11 countries. 1961. Israel leads at 72 years. Lebanon is next. Then the Gulf starts climbing. 1975. Civil war in Lebanon. It drops 8 years. The rock slides through the 80s. 2005. The UAE overtakes Israel. 2015. Syria's civil war costs 10 years. 2019. Qatar on top. Then the pandemic hits the gulf. 2023. The Palestinian territories drop 11 years the year the war began. And the top of the table? Israel. 83.2 years. The UAE is under half a year behind and Qatar under one. So when someone asks you...",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "life_longest_race.mp4",
+ "cut": 2.9,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.3
+ },
+ "body_kept_s": 43.83,
+ "lint_warnings": [],
+ "render_s": 41.8
+}
