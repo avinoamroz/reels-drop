@@ -1,0 +1,131 @@
+{
+ "id": "one_jewish_state",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*120* Christian countries.|Jewish ones?",
+ "duration": 41.5,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/one_jewish_state.mp4",
+  "cover": "covers/one_jewish_state_cover.jpg",
+  "preview": "previews/one_jewish_state_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/one_jewish_state_0.jpg",
+  "1": "out/frames/one_jewish_state_1.jpg",
+  "3": "out/frames/one_jewish_state_3.jpg",
+  "last": "out/frames/one_jewish_state_last.jpg"
+ },
+ "caption_en": "120 Christian majority countries. 53 Muslim. 1 Jewish. ✡️\n\nPew Research Center (2025) looked at 201 countries and territories (100,000+ people) in 2020: Christian majority 120, Muslim 53, no religion 10, Buddhist 7, Hindu 2, Jewish 1.\n\nPew (2014): 64 of 196 national flags carry a religious symbol. 31 Christian (the Union Jack's crosses, Greece, Norway, Spain...), 21 Muslim (Turkey, Algeria, Brunei, Uzbekistan...), 5 Buddhist or Hindu, 6 other, and 1 Jewish: Israel's Star of David.\n\nA cross or a crescent on a flag doesn't make a country unfree. Laws do.\n\nSend this to someone who thinks one Jewish state is one too many.",
+ "caption_he": "120 מדינות עם רוב נוצרי. 53 עם רוב מוסלמי. אחת עם רוב יהודי.\nפיו (2025) בדקו 201 מדינות וטריטוריות: רוב נוצרי 120, מוסלמי 53, בלי דת 10, בודהיסטי 7, הינדי 2, יהודי 1.\nפיו (2014): ב-64 מתוך 196 דגלים לאומיים יש סמל דתי. 31 נוצריים, 21 מוסלמיים, 5 בודהיסטיים או הינדיים, 6 אחרים, ואחד יהודי: מגן הדוד של ישראל.\nצלב או סהר על דגל לא הופכים מדינה ללא חופשית. חוקים כן.\n\nSources: Pew Research Center, \"The number of Christian-majority countries fell between 2010 and 2020\" (2025); Pew Research Center, \"64 countries have religious symbols on their national flags\" (2014).",
+ "hashtags": [
+  "#Israel",
+  "#Jewish",
+  "#StarOfDavid",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Pew Research Center, majority religion by country",
+   "year": 2025,
+   "at": "L1",
+   "until": "L5"
+  },
+  {
+   "label": "Pew Research Center, religious symbols on flags",
+   "year": 2014,
+   "at": "L5",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.991,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One hundred and twenty Christian majority countries. How many Jewish ones?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Pew counted two hundred and one countries and territories.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Christian majority: one hundred and twenty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Muslim majority: fifty three.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "No religion: ten. Buddhist: seven. Hindu: two.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the flags.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sixty four national flags carry a religious symbol.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirty one have a cross, like Britain, Greece and Norway.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty one have a Muslim symbol, like Turkey and Algeria.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And one flag has a Star of David.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "One Jewish majority country. One Jewish flag.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A cross or a crescent on a flag doesn't make a country unfree. Laws do.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So when someone says the world has one Jewish state too many, ask them:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "120 Christian majority countries. How many Jewish ones? Pew counted 201 countries and territories. Christian majority, 120. Muslim majority, 53. No religion, 10. Buddhist, 7. Hindu, 2. Now the flags. 64 national flags carry a religious symbol. 31 have a cross like Britain, Greece, and Norway. 21 have a Muslim symbol, like Turkey and Algeria. And one flag has the star of David. One Jewish majority country. One Jewish flag. A cross or a crescent on a flag doesn't make a country unfree. Laws do. So when someone says the world has one Jewish state too many, ask them.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 39.99,
+ "opener": {
+  "style": "globe_spin_fast",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 176.5
+}
