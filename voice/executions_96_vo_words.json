@@ -1,0 +1,657 @@
+[
+{
+"word": "Ninety",
+"start": 0.01547997,
+"end": 0.37151927
+},
+{
+"word": "six",
+"start": 0.37151927,
+"end": 0.71207863
+},
+{
+"word": "percent",
+"start": 0.71207863,
+"end": 1.1300378
+},
+{
+"word": "of",
+"start": 1.1300378,
+"end": 1.2229176
+},
+{
+"word": "the",
+"start": 1.2229176,
+"end": 1.3003174
+},
+{
+"word": "world's",
+"start": 1.3003174,
+"end": 1.7492366
+},
+{
+"word": "recorded",
+"start": 1.7492366,
+"end": 2.2291157
+},
+{
+"word": "executions.",
+"start": 2.2291157,
+"end": 3.157914
+},
+{
+"word": "Where",
+"start": 3.529433,
+"end": 3.6997128
+},
+{
+"word": "do",
+"start": 3.6997128,
+"end": 3.7925925
+},
+{
+"word": "they",
+"start": 3.7925925,
+"end": 3.9164324
+},
+{
+"word": "happen?",
+"start": 3.9164324,
+"end": 4.3963113
+},
+{
+"word": "In",
+"start": 4.597551,
+"end": 4.7213907
+},
+{
+"word": "twenty",
+"start": 4.7213907,
+"end": 5.00003
+},
+{
+"word": "twenty",
+"start": 5.00003,
+"end": 5.2322297
+},
+{
+"word": "five,",
+"start": 5.2322297,
+"end": 5.7121086
+},
+{
+"word": "Amnesty",
+"start": 5.8359485,
+"end": 6.284868
+},
+{
+"word": "counted",
+"start": 6.284868,
+"end": 6.640907
+},
+{
+"word": "at",
+"start": 6.640907,
+"end": 6.7647467
+},
+{
+"word": "least",
+"start": 6.7647467,
+"end": 6.9969463
+},
+{
+"word": "two",
+"start": 7.0279064,
+"end": 7.244626
+},
+{
+"word": "thousand",
+"start": 7.244626,
+"end": 7.600665
+},
+{
+"word": "seven",
+"start": 7.600665,
+"end": 7.8793044
+},
+{
+"word": "hundred",
+"start": 7.8793044,
+"end": 8.049584
+},
+{
+"word": "and",
+"start": 8.049584,
+"end": 8.142464
+},
+{
+"word": "seven.",
+"start": 8.142464,
+"end": 8.591383
+},
+{
+"word": "Iran:",
+"start": 9.102222,
+"end": 9.644021
+},
+{
+"word": "at",
+"start": 10.1548605,
+"end": 10.34062
+},
+{
+"word": "least",
+"start": 10.34062,
+"end": 10.634739
+},
+{
+"word": "two",
+"start": 10.634739,
+"end": 10.758579
+},
+{
+"word": "thousand",
+"start": 10.758579,
+"end": 11.083658
+},
+{
+"word": "one",
+"start": 11.083658,
+"end": 11.145578
+},
+{
+"word": "hundred",
+"start": 11.145578,
+"end": 11.315858
+},
+{
+"word": "and",
+"start": 11.315858,
+"end": 11.408738
+},
+{
+"word": "fifty",
+"start": 11.408738,
+"end": 11.625458
+},
+{
+"word": "nine.",
+"start": 11.625458,
+"end": 12.012457
+},
+{
+"word": "Saudi",
+"start": 12.972215,
+"end": 13.359214
+},
+{
+"word": "Arabia:",
+"start": 13.359214,
+"end": 13.9319725
+},
+{
+"word": "three",
+"start": 14.024853,
+"end": 14.2880125
+},
+{
+"word": "hundred",
+"start": 14.2880125,
+"end": 14.473772
+},
+{
+"word": "and",
+"start": 14.473772,
+"end": 14.566651
+},
+{
+"word": "fifty",
+"start": 14.566651,
+"end": 14.798851
+},
+{
+"word": "six.",
+"start": 14.798851,
+"end": 15.34065
+},
+{
+"word": "Yemen:",
+"start": 15.43353,
+"end": 15.882449
+},
+{
+"word": "fifty",
+"start": 16.20753,
+"end": 16.517128
+},
+{
+"word": "one.",
+"start": 16.517128,
+"end": 16.780287
+},
+{
+"word": "Egypt,",
+"start": 17.384007,
+"end": 18.018684
+},
+{
+"word": "Iraq,",
+"start": 18.188965,
+"end": 18.761723
+},
+{
+"word": "Kuwait",
+"start": 18.885563,
+"end": 19.365442
+},
+{
+"word": "and",
+"start": 19.56668,
+"end": 19.690521
+},
+{
+"word": "the",
+"start": 19.690521,
+"end": 19.783401
+},
+{
+"word": "Emirates",
+"start": 19.783401,
+"end": 20.23232
+},
+{
+"word": "also",
+"start": 20.325201,
+"end": 20.7122
+},
+{
+"word": "executed",
+"start": 20.7122,
+"end": 21.16112
+},
+{
+"word": "people.",
+"start": 21.16112,
+"end": 21.517159
+},
+{
+"word": "No",
+"start": 22.244717,
+"end": 22.399517
+},
+{
+"word": "full",
+"start": 22.399517,
+"end": 22.600756
+},
+{
+"word": "count.",
+"start": 22.600756,
+"end": 22.987755
+},
+{
+"word": "The",
+"start": 23.622435,
+"end": 23.777233
+},
+{
+"word": "region's",
+"start": 23.777233,
+"end": 24.164232
+},
+{
+"word": "total:",
+"start": 24.164232,
+"end": 24.613152
+},
+{
+"word": "at",
+"start": 24.814392,
+"end": 24.98467
+},
+{
+"word": "least",
+"start": 24.98467,
+"end": 25.201391
+},
+{
+"word": "two",
+"start": 25.201391,
+"end": 25.35619
+},
+{
+"word": "thousand",
+"start": 25.35619,
+"end": 25.71223
+},
+{
+"word": "six",
+"start": 25.71223,
+"end": 25.91347
+},
+{
+"word": "hundred",
+"start": 25.91347,
+"end": 26.223068
+},
+{
+"word": "and",
+"start": 26.223068,
+"end": 26.315948
+},
+{
+"word": "eleven.",
+"start": 26.315948,
+"end": 26.702948
+},
+{
+"word": "Now",
+"start": 27.384066,
+"end": 27.631746
+},
+{
+"word": "per",
+"start": 27.631746,
+"end": 27.802025
+},
+{
+"word": "million",
+"start": 27.802025,
+"end": 28.142586
+},
+{
+"word": "people.",
+"start": 28.142586,
+"end": 28.591505
+},
+{
+"word": "Israel,",
+"start": 29.226183,
+"end": 29.706062
+},
+{
+"word": "Jordan,",
+"start": 29.706062,
+"end": 30.185942
+},
+{
+"word": "Lebanon",
+"start": 30.232382,
+"end": 30.69678
+},
+{
+"word": "and",
+"start": 30.69678,
+"end": 30.80514
+},
+{
+"word": "Syria:",
+"start": 30.80514,
+"end": 31.192139
+},
+{
+"word": "zero.",
+"start": 31.594618,
+"end": 32.151897
+},
+{
+"word": "Yemen:",
+"start": 32.616295,
+"end": 33.065216
+},
+{
+"word": "one.",
+"start": 33.266457,
+"end": 33.653454
+},
+{
+"word": "Saudi",
+"start": 34.133335,
+"end": 34.504852
+},
+{
+"word": "Arabia:",
+"start": 34.504852,
+"end": 34.953773
+},
+{
+"word": "almost",
+"start": 35.03117,
+"end": 35.43365
+},
+{
+"word": "ten.",
+"start": 35.43365,
+"end": 35.75873
+},
+{
+"word": "Iran:",
+"start": 36.26957,
+"end": 36.718487
+},
+{
+"word": "twenty",
+"start": 36.935207,
+"end": 37.29125
+},
+{
+"word": "three.",
+"start": 37.29125,
+"end": 37.647285
+},
+{
+"word": "Ninety",
+"start": 38.003326,
+"end": 38.343884
+},
+{
+"word": "six",
+"start": 38.343884,
+"end": 38.576084
+},
+{
+"word": "percent",
+"start": 38.576084,
+"end": 38.901165
+},
+{
+"word": "of",
+"start": 38.901165,
+"end": 38.963085
+},
+{
+"word": "the",
+"start": 38.963085,
+"end": 39.055965
+},
+{
+"word": "world's",
+"start": 39.055965,
+"end": 39.381042
+},
+{
+"word": "total,",
+"start": 39.381042,
+"end": 39.845444
+},
+{
+"word": "in",
+"start": 39.891884,
+"end": 40.1086
+},
+{
+"word": "one",
+"start": 40.1086,
+"end": 40.32532
+},
+{
+"word": "region.",
+"start": 40.32532,
+"end": 40.712322
+},
+{
+"word": "In",
+"start": 41.45536,
+"end": 41.610157
+},
+{
+"word": "twenty",
+"start": 41.610157,
+"end": 41.873318
+},
+{
+"word": "twenty",
+"start": 41.873318,
+"end": 42.121
+},
+{
+"word": "six,",
+"start": 42.121,
+"end": 42.662796
+},
+{
+"word": "Israel",
+"start": 43.018837,
+"end": 43.374874
+},
+{
+"word": "passed",
+"start": 43.374874,
+"end": 43.622555
+},
+{
+"word": "a",
+"start": 43.622555,
+"end": 43.715435
+},
+{
+"word": "death",
+"start": 43.715435,
+"end": 43.978596
+},
+{
+"word": "penalty",
+"start": 43.978596,
+"end": 44.272713
+},
+{
+"word": "law",
+"start": 44.272713,
+"end": 44.458473
+},
+{
+"word": "for",
+"start": 44.458473,
+"end": 44.613274
+},
+{
+"word": "terror.",
+"start": 44.613274,
+"end": 45.03123
+},
+{
+"word": "It",
+"start": 45.634953,
+"end": 45.77427
+},
+{
+"word": "now",
+"start": 45.77427,
+"end": 45.96003
+},
+{
+"word": "faces",
+"start": 45.96003,
+"end": 46.31607
+},
+{
+"word": "a",
+"start": 46.31607,
+"end": 46.37799
+},
+{
+"word": "Supreme",
+"start": 46.37799,
+"end": 46.795948
+},
+{
+"word": "Court",
+"start": 46.795948,
+"end": 47.04363
+},
+{
+"word": "challenge.",
+"start": 47.04363,
+"end": 47.600906
+},
+{
+"word": "So",
+"start": 48.328465,
+"end": 48.483265
+},
+{
+"word": "next",
+"start": 48.483265,
+"end": 48.746426
+},
+{
+"word": "time",
+"start": 48.746426,
+"end": 48.963146
+},
+{
+"word": "someone",
+"start": 48.963146,
+"end": 49.257263
+},
+{
+"word": "calls",
+"start": 49.257263,
+"end": 49.597824
+},
+{
+"word": "Israel",
+"start": 49.644264,
+"end": 50.04674
+},
+{
+"word": "the",
+"start": 50.04674,
+"end": 50.12414
+},
+{
+"word": "harshest",
+"start": 50.12414,
+"end": 50.464703
+},
+{
+"word": "state",
+"start": 50.464703,
+"end": 50.6969
+},
+{
+"word": "in",
+"start": 50.6969,
+"end": 50.78978
+},
+{
+"word": "the",
+"start": 50.78978,
+"end": 50.88266
+},
+{
+"word": "region,",
+"start": 50.88266,
+"end": 51.33158
+},
+{
+"word": "ask",
+"start": 51.7805,
+"end": 52.07462
+},
+{
+"word": "them:",
+"start": 52.07462,
+"end": 52.353256
+}
+]
