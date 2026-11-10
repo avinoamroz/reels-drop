@@ -1,0 +1,58 @@
+{
+ "id": "river_sea_skit_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Who was here|*3,000* years ago?",
+ "duration": 53.8,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -3.9
+ },
+ "outputs": {
+  "mp4": "out/river_sea_skit_rh1110.mp4",
+  "cover": "covers/river_sea_skit_rh1110_cover.jpg",
+  "preview": "previews/river_sea_skit_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/river_sea_skit_rh1110_0.jpg",
+  "1": "out/frames/river_sea_skit_rh1110_1.jpg",
+  "3": "out/frames/river_sea_skit_rh1110_3.jpg",
+  "last": "out/frames/river_sea_skit_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of river_sea_skit. Caption in posting/queue/gh/river_sea_skit_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Britannica, Merneptah Stele",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.97,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "France is named after its invaders, the Franks. Give it back to the Gauls. From the Mississippi to the Pacific, America will be free. Give it back to the Lakota",
+    "score": 0.97,
+    "flag": "ok"
+   }
+  ],
+  "heard": "France is named after its invaders, the Franks. Give it back to the Gauls. From the Mississippi to the Pacific, America will be free. Give it back to the Lakota and the Comanche. From Uruguay to the Atlantic, Uruguay will be free. Give it back to the Chirúa. From the Yuzumikinta to the Gulf, Mexico will be free. Give it back to the Maya. Wow, how does that sound? Silly, right? say it about Israel. From the river to the sea, give it back to who? Israel is carved in stone in Egypt over 3,000 years ago, and the word Jew comes from Judah, right here. Jews didn't colonize Judea. Judea is where Jews come from. So how silly does that chant sound now? Fine, let's free everyone. Ready?",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "river_sea_skit.mp4",
+ "cut": 3.15,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.9
+ },
+ "body_kept_s": 51.88,
+ "lint_warnings": [],
+ "render_s": 51.3
+}
