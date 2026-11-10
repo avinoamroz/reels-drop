@@ -16,11 +16,11 @@
    "gap": 0.35
   },
   {
-   "say": "So, Tsvystine? Two stones.",
+   "say": "So, Tsvai stine? Two stones.",
    "gap": 0.25
   },
   {
-   "say": "Drystine? Three stones.",
+   "say": "Dry stine? Three stones.",
    "gap": 0.25
   },
   {
@@ -77,8 +77,8 @@
   }
  ],
  "subs_replace": {
-  "Tsvystine": "Zweistein",
-  "Drystine": "Dreistein",
+  "Tsvai stine": "Zweistein",
+  "Dry stine": "Dreistein",
   "Feerstine": "Vierstein"
  },
  "data": {
