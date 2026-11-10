@@ -1,0 +1,284 @@
+{
+ "id": "einstein_stones",
+ "account": "noamroz__",
+ "template": "pun_ladder",
+ "hook": "Einstein means|*ONE* stone. So...",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1
+ },
+ "lines": [
+  {
+   "say": "Einstein means one stone.",
+   "gap": 0.35
+  },
+  {
+   "say": "So, Tsvystine? Two stones.",
+   "gap": 0.25
+  },
+  {
+   "say": "Drystine? Three stones.",
+   "gap": 0.25
+  },
+  {
+   "say": "Feerstine? Four stones. And the professor is buried.",
+   "gap": 0.4
+  },
+  {
+   "say": "Okay, forget counting. Let's upgrade the material.",
+   "gap": 0.35
+  },
+  {
+   "say": "Goldstein. A gold stone.",
+   "gap": 0.25
+  },
+  {
+   "say": "Silverstein. A silver stone.",
+   "gap": 0.25
+  },
+  {
+   "say": "Rubinstein. A ruby stone.",
+   "gap": 0.3
+  },
+  {
+   "say": "Bernstein? In German, that word literally means amber.",
+   "gap": 0.3
+  },
+  {
+   "say": "Edelstein. A gemstone. Very fancy.",
+   "gap": 0.3
+  },
+  {
+   "say": "Weinstein. Wine stone, the crystals that form in wine barrels.",
+   "gap": 0.3
+  },
+  {
+   "say": "Eisenstein. Iron stone. Never arm wrestle them.",
+   "gap": 0.3
+  },
+  {
+   "say": "Finkelstein is often said to mean spark stone. Basically a lighter.",
+   "gap": 0.45
+  },
+  {
+   "say": "And the stone that went wrong?",
+   "gap": 0.6
+  },
+  {
+   "say": "Frankenstein. The stone of the Franks. It's alive!",
+   "gap": 0.5
+  },
+  {
+   "say": "And Einstein? He killed two birds with one stone.",
+   "gap": 0.3
+  }
+ ],
+ "subs_replace": {
+  "Tsvystine": "Zweistein",
+  "Drystine": "Dreistein",
+  "Feerstine": "Vierstein"
+ },
+ "data": {
+  "board0": "ein = *one*|Stein = *stone*",
+  "cards": [
+   {
+    "at": "L1",
+    "word": "*Zwei*stein",
+    "mean": "= *2* stones",
+    "stones": 2,
+    "board": "zwei = *two*"
+   },
+   {
+    "at": "L2",
+    "word": "*Drei*stein",
+    "mean": "= *3* stones",
+    "stones": 3,
+    "board": "drei = *three*"
+   },
+   {
+    "at": "L3",
+    "word": "*Vier*stein",
+    "mean": "= *4* stones",
+    "stones": 4,
+    "board": "vier = *four*"
+   },
+   {
+    "at": "L4",
+    "word": "Upgrade the *material*",
+    "kind": "title",
+    "board": "Stein = *stone*"
+   },
+   {
+    "at": "L5",
+    "word": "*Gold*stein",
+    "mean": "= *gold* stone",
+    "tint": "#F2C230",
+    "emo": "🪙",
+    "board": "Gold = *gold*"
+   },
+   {
+    "at": "L6",
+    "word": "*Silver*stein",
+    "mean": "= *silver* stone",
+    "tint": "#C8D0DA",
+    "emo": "🥈",
+    "board": "Silber = *silver*"
+   },
+   {
+    "at": "L7",
+    "word": "*Rubin*stein",
+    "mean": "= *ruby* stone",
+    "tint": "#C8193F",
+    "facets": true,
+    "emo": "💍",
+    "board": "Rubin = *ruby*"
+   },
+   {
+    "at": "L8",
+    "word": "*Bern*stein",
+    "mean": "German for *amber*",
+    "tint": "#F09A1A",
+    "emo": "🦟",
+    "emo_dx": 0,
+    "emo_dy": 0,
+    "board": "Bernstein|= *amber*"
+   },
+   {
+    "at": "L9",
+    "word": "*Edel*stein",
+    "mean": "= *gemstone*",
+    "tint": "#3FD0E0",
+    "facets": true,
+    "emo": "💎",
+    "board": "edel = *noble*"
+   },
+   {
+    "at": "L10",
+    "word": "*Wein*stein",
+    "mean": "= *wine* stone",
+    "tint": "#8A2346",
+    "specks": true,
+    "emo": "🍷",
+    "board": "Wein = *wine*"
+   },
+   {
+    "at": "L11",
+    "word": "*Eisen*stein",
+    "mean": "= *iron* stone",
+    "tint": "#59636F",
+    "emo": "💪",
+    "board": "Eisen = *iron*"
+   },
+   {
+    "at": "L12",
+    "word": "*Finkel*stein",
+    "mean": "often said: *spark* stone",
+    "tint": "#9AA3AE",
+    "sparks": true,
+    "emo": "✨",
+    "board": "Funke = *spark*"
+   },
+   {
+    "at": "L13",
+    "word": "The stone that went *wrong?*",
+    "kind": "title"
+   },
+   {
+    "at": "L14",
+    "word": "*Franken*stein",
+    "mean": "the *Franks'* stone",
+    "tint": "#78B856",
+    "kind": "scream",
+    "emo": "⚡",
+    "emo_dx": 0,
+    "emo_dy": -190,
+    "board": "Franken = *Franks*"
+   },
+   {
+    "at": "L15",
+    "word": "*Ein*stein",
+    "mean": "*2* birds, *1* stone",
+    "kind": "throw",
+    "hit": "L15:stone",
+    "board": "ein = *one*|Stein = *stone*"
+   }
+  ],
+  "bury": "L3:buried",
+  "unbury": "L4:forget",
+  "cta": {
+   "at": "L15:killed",
+   "text": "Tag your favorite *-stein*"
+  },
+  "tail": 1.5
+ },
+ "sources": [
+  {
+   "label": "Wikipedia, Goldstein (surname)",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "iGENEA, Silverstein surname",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Wikipedia, Rubinstein",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia, Bernstein; Wiktionary, Bernstein",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Wikipedia, Edelstein",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Wikipedia, Weinstein",
+   "year": 2026,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "NameCensus, Eisenstein surname",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "Wikipedia, Finkelstein (Old High German funko, spark)",
+   "year": 2026,
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "label": "Wikipedia, Frankenstein Castle",
+   "year": 2026,
+   "at": "L14",
+   "until": "L15"
+  }
+ ],
+ "caption_en": "Einstein means one stone. So what's two? 🪨\n\nZweistein, Dreistein, Vierstein... then the stones get an upgrade:\nGoldstein: gold stone\nSilberstein / Silverstein: silver stone\nRubinstein: ruby stone\nBernstein: German for amber\nEdelstein: gemstone\nWeinstein: wine stone (the tartar crystals in wine barrels)\nEisenstein: iron stone\nFinkelstein: often said to mean spark stone\nFrankenstein: the stone of the Franks. It's alive!\n\nTag your favorite -stein.",
+ "caption_he": "איינשטיין זה אבן אחת. אז מה זה שתיים?\nגולדשטיין: אבן זהב. זילברשטיין: אבן כסף. רובינשטיין: אבן אודם. ברנשטיין: ענבר בגרמנית. אדלשטיין: אבן חן. וינשטיין: אבן יין. אייזנשטיין: אבן ברזל. ופרנקנשטיין? האבן שהשתבשה.\nתייגו את השטיין האהוב עליכם.",
+ "hashtags": [
+  "#JewishHumor",
+  "#Wordplay",
+  "#Israel"
+ ],
+ "cover": {
+  "text": "Einstein means|*ONE* stone",
+  "size": 150
+ }
+}
