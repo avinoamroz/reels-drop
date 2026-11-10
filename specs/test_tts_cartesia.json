@@ -1,0 +1,15 @@
+{
+ "id": "test_tts_cartesia",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* line, *1* voice test",
+ "music": {"bed": "doc_piano", "lufs": -16},
+ "lines": [
+  {"say": "This is a short voice test for the new reel templates.", "screen": "Voice test: *Cartesia* direct", "at": "L0+1.2"}
+ ],
+ "data": {"cam0": [35.0, 31.5, 9.0], "hook_y": 930,
+  "pins": [{"at": "L0:voice", "lon": 34.78, "lat": 32.08, "label": "Tel Aviv", "color": "yellow"}]},
+ "sources": [{"label": "Test render, not for posting", "year": 2026}],
+ "caption_en": "TEST RENDER, not for posting.", "caption_he": "בדיקה, לא לפרסום.", "hashtags": [],
+ "cover": {"bg": "brand"}
+}
