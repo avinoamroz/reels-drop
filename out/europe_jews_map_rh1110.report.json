@@ -1,0 +1,58 @@
+{
+ "id": "europe_jews_map_rh1110",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "Poland had *3* *million*|Jews. Then?",
+ "duration": 47.23,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.5
+ },
+ "outputs": {
+  "mp4": "out/europe_jews_map_rh1110.mp4",
+  "cover": "covers/europe_jews_map_rh1110_cover.jpg",
+  "preview": "previews/europe_jews_map_rh1110_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/europe_jews_map_rh1110_0.jpg",
+  "1": "out/frames/europe_jews_map_rh1110_1.jpg",
+  "3": "out/frames/europe_jews_map_rh1110_3.jpg",
+  "last": "out/frames/europe_jews_map_rh1110_last.jpg"
+ },
+ "caption_en": "Re-hook of europe_jews_map. Caption in posting/queue/gh/europe_jews_map_rh1110.json.",
+ "caption_he": "גרסה עם פתיח חדש.",
+ "hashtags": [
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "USHMM Holocaust Encyclopedia",
+   "year": 2024
+  }
+ ],
+ "transcript": {
+  "score": 0.993,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "1933. Nine and a half million Jews live in Europe. Poland over three million. The Soviet Union, two and a half million. Romania. Germany. Hungary. Britain. Fran",
+    "score": 0.993,
+    "flag": "ok"
+   }
+  ],
+  "heard": "1933. Nine and a half million Jews live in Europe. Poland over three million. The Soviet Union two and a half million. Romania. Germany. Hungary. Britain. France. Families, schools, synagogues, whole towns. Then come the Nazis and the war. By 1950, the counter reads three and a half million. Poland from three million to forty five thousand. Germany from over Over half a million to 37,000, hundreds of thousands of survivors rebuilt their lives far away. About 136,000 displaced survivors went to Israel. Over 80,000 to the United States. The Soviet Union still had about 2 million Jews. But most of the missing never went anywhere. 6 million Jews were murdered in the Holocaust. So if anyone ever asks you…",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (source reel audio kept, hook card on music)",
+ "source": "europe_jews_map.mp4",
+ "cut": 2.2,
+ "hook_dur": 2.2,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -3.5
+ },
+ "body_kept_s": 45.27,
+ "lint_warnings": [],
+ "render_s": 61.6
+}
