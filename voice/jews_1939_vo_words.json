@@ -1,592 +1,717 @@
 [
 {
 "word": "Nineteen",
-"start": 0.01547997,
-"end": 0.49535903
+"start": 0.09287982,
+"end": 0.55727893
 },
 {
 "word": "thirty",
-"start": 0.49535903,
-"end": 0.72755855
+"start": 0.55727893,
+"end": 0.7894785
 },
 {
 "word": "nine.",
-"start": 0.72755855,
-"end": 1.0526379
+"start": 0.7894785,
+"end": 1.1145579
 },
 {
 "word": "Sixteen",
-"start": 1.5944369,
-"end": 2.1981556
+"start": 1.3622373,
+"end": 1.9040363
 },
 {
 "word": "point",
-"start": 2.2291157,
-"end": 2.3529553
+"start": 1.9040363,
+"end": 2.074316
 },
 {
 "word": "six",
-"start": 2.3839154,
-"end": 2.7089946
+"start": 2.1052759,
+"end": 2.4148753
 },
 {
 "word": "million",
-"start": 2.7089946,
-"end": 3.1269538
+"start": 2.4148753,
+"end": 2.7709146
 },
 {
 "word": "Jews",
-"start": 3.1269538,
-"end": 3.4520333
+"start": 2.7709146,
+"end": 3.065034
 },
 {
 "word": "in",
-"start": 3.4520333,
-"end": 3.544913
+"start": 3.065034,
+"end": 3.157914
 },
 {
 "word": "the",
-"start": 3.544913,
-"end": 3.6377928
+"start": 3.157914,
+"end": 3.2507937
 },
 {
 "word": "world.",
-"start": 3.6377928,
-"end": 4.086712
+"start": 3.2507937,
+"end": 3.544913
 },
 {
 "word": "How",
-"start": 4.4427514,
-"end": 4.535631
+"start": 3.8545125,
+"end": 3.993832
 },
 {
 "word": "many",
-"start": 4.535631,
-"end": 4.752351
+"start": 3.993832,
+"end": 4.2105517
 },
 {
 "word": "today?",
-"start": 4.752351,
-"end": 5.10839
+"start": 4.2105517,
+"end": 4.597551
 },
 {
 "word": "Then",
-"start": 5.588269,
-"end": 5.9133487
+"start": 4.9535904,
+"end": 5.26319
 },
 {
 "word": "came",
-"start": 5.9133487,
-"end": 6.284868
+"start": 5.26319,
+"end": 5.526349
 },
 {
 "word": "the",
-"start": 6.284868,
-"end": 6.3622675
+"start": 5.526349,
+"end": 5.619229
 },
 {
 "word": "Holocaust.",
-"start": 6.3622675,
-"end": 7.120786
+"start": 5.619229,
+"end": 6.3467875
 },
 {
-"word": "Yad",
-"start": 7.3839455,
-"end": 7.6625853
-},
-{
-"word": "Vashem",
-"start": 7.6625853,
-"end": 8.018624
-},
-{
-"word": "says",
-"start": 8.018624,
-"end": 8.281784
-},
-{
-"word": "between",
-"start": 8.281784,
-"end": 8.622343
-},
-{
-"word": "five",
-"start": 8.622343,
-"end": 9.009342
-},
-{
-"word": "and",
-"start": 9.009342,
-"end": 9.133183
-},
-{
-"word": "six",
-"start": 9.133183,
-"end": 9.365381
-},
-{
-"word": "million",
-"start": 9.365381,
-"end": 9.690461
-},
-{
-"word": "Jews",
-"start": 9.690461,
-"end": 9.969101
-},
-{
-"word": "were",
-"start": 9.969101,
-"end": 10.09294
-},
-{
-"word": "murdered.",
-"start": 10.09294,
-"end": 10.54186
-},
-{
-"word": "About",
-"start": 10.959819,
-"end": 11.253938
-},
-{
-"word": "one",
-"start": 11.253938,
-"end": 11.501617
-},
-{
-"word": "in",
-"start": 11.501617,
-"end": 11.640937
-},
-{
-"word": "three",
-"start": 11.640937,
-"end": 11.8576565
-},
-{
-"word": "Jews",
-"start": 11.8576565,
-"end": 12.275616
-},
-{
-"word": "alive",
-"start": 12.275616,
-"end": 12.786455
-},
-{
-"word": "in",
-"start": 12.786455,
-"end": 12.910295
-},
-{
-"word": "nineteen",
-"start": 12.910295,
-"end": 13.452094
-},
-{
-"word": "thirty",
-"start": 13.452094,
-"end": 13.746213
-},
-{
-"word": "nine.",
-"start": 13.746213,
-"end": 14.133212
-},
-{
-"word": "Eighty",
-"start": 14.551171,
-"end": 14.829811
-},
-{
-"word": "seven",
-"start": 14.829811,
-"end": 15.18585
+"word": "Six",
+"start": 6.842147,
+"end": 7.213666
 },
 {
 "word": "years",
-"start": 15.18585,
-"end": 15.46449
+"start": 7.213666,
+"end": 7.4458656
 },
 {
-"word": "later,",
-"start": 15.46449,
-"end": 15.851489
+"word": "of",
+"start": 7.4458656,
+"end": 7.5387454
 },
 {
-"word": "Israel's",
-"start": 15.944369,
-"end": 16.393288
+"word": "war",
+"start": 7.5387454,
+"end": 7.7864246
 },
 {
-"word": "statistics",
-"start": 16.393288,
-"end": 16.950567
+"word": "in",
+"start": 7.7864246,
+"end": 7.9257445
 },
 {
-"word": "bureau",
-"start": 16.950567,
-"end": 17.291126
+"word": "Europe.",
+"start": 7.9257445,
+"end": 8.312744
 },
 {
-"word": "counted",
-"start": 17.322086,
-"end": 17.678125
+"word": "Yad",
+"start": 8.823583,
+"end": 9.102222
 },
 {
-"word": "again.",
-"start": 17.678125,
-"end": 18.096085
+"word": "Vashem",
+"start": 9.102222,
+"end": 9.4582615
 },
 {
-"word": "Fifteen",
-"start": 18.699804,
-"end": 19.303522
+"word": "says",
+"start": 9.4582615,
+"end": 9.752381
 },
 {
-"word": "point",
-"start": 19.319002,
-"end": 19.535723
+"word": "between",
+"start": 9.752381,
+"end": 10.06198
 },
 {
-"word": "eight",
-"start": 19.56668,
-"end": 19.814362
+"word": "five",
+"start": 10.06198,
+"end": 10.418019
 },
 {
-"word": "million.",
-"start": 19.814362,
-"end": 20.26328
+"word": "and",
+"start": 10.418019,
+"end": 10.54186
 },
 {
-"word": "Still",
-"start": 20.851519,
-"end": 21.284958
+"word": "six",
+"start": 10.54186,
+"end": 10.8359785
 },
 {
-"word": "fewer",
-"start": 21.284958,
-"end": 21.579079
+"word": "million",
+"start": 10.8359785,
+"end": 11.1920185
 },
 {
 "word": "Jews",
-"start": 21.579079,
-"end": 21.966078
+"start": 11.1920185,
+"end": 11.594498
 },
 {
-"word": "than",
-"start": 21.966078,
+"word": "were",
+"start": 11.594498,
+"end": 11.795737
+},
+{
+"word": "murdered.",
+"start": 11.795737,
+"end": 12.2136965
+},
+{
+"word": "About",
+"start": 12.786455,
+"end": 13.065095
+},
+{
+"word": "one",
+"start": 13.065095,
+"end": 13.297294
+},
+{
+"word": "in",
+"start": 13.297294,
+"end": 13.421134
+},
+{
+"word": "three",
+"start": 13.421134,
+"end": 13.622374
+},
+{
+"word": "Jews",
+"start": 13.622374,
+"end": 13.9319725
+},
+{
+"word": "alive",
+"start": 13.9319725,
+"end": 14.349932
+},
+{
+"word": "in",
+"start": 14.349932,
+"end": 14.442812
+},
+{
+"word": "nineteen",
+"start": 14.442812,
+"end": 14.829811
+},
+{
+"word": "thirty",
+"start": 14.829811,
+"end": 15.046531
+},
+{
+"word": "nine.",
+"start": 15.046531,
+"end": 15.43353
+},
+{
+"word": "Whole",
+"start": 16.083689,
+"end": 16.362328
+},
+{
+"word": "families.",
+"start": 16.362328,
+"end": 16.997007
+},
+{
+"word": "Whole",
+"start": 17.322086,
+"end": 17.616205
+},
+{
+"word": "towns.",
+"start": 17.616205,
+"end": 18.219925
+},
+{
+"word": "Eighty",
+"start": 18.761723,
+"end": 18.993923
+},
+{
+"word": "seven",
+"start": 18.993923,
+"end": 19.272562
+},
+{
+"word": "years",
+"start": 19.272562,
+"end": 19.473803
+},
+{
+"word": "later,",
+"start": 19.473803,
+"end": 19.783401
+},
+{
+"word": "in",
+"start": 19.783401,
+"end": 19.876282
+},
+{
+"word": "twenty",
+"start": 19.876282,
+"end": 20.13944
+},
+{
+"word": "twenty",
+"start": 20.13944,
+"end": 20.38712
+},
+{
+"word": "six,",
+"start": 20.38712,
+"end": 20.836039
+},
+{
+"word": "Israel's",
+"start": 21.16112,
+"end": 21.579079
+},
+{
+"word": "statistics",
+"start": 21.579079,
 "end": 22.120876
 },
 {
-"word": "before",
+"word": "bureau",
 "start": 22.120876,
 "end": 22.384037
 },
 {
-"word": "the",
+"word": "counted",
 "start": 22.384037,
-"end": 22.476915
+"end": 22.755556
+},
+{
+"word": "again.",
+"start": 22.755556,
+"end": 23.111595
+},
+{
+"word": "Fifteen",
+"start": 23.498594,
+"end": 23.978474
+},
+{
+"word": "point",
+"start": 23.978474,
+"end": 24.195192
+},
+{
+"word": "eight",
+"start": 24.195192,
+"end": 24.303553
+},
+{
+"word": "million.",
+"start": 24.303553,
+"end": 24.675072
+},
+{
+"word": "Still",
+"start": 25.03111,
+"end": 25.35619
+},
+{
+"word": "fewer",
+"start": 25.35619,
+"end": 25.60387
+},
+{
+"word": "Jews",
+"start": 25.60387,
+"end": 25.83607
+},
+{
+"word": "than",
+"start": 25.83607,
+"end": 26.05279
+},
+{
+"word": "before",
+"start": 26.05279,
+"end": 26.315948
+},
+{
+"word": "the",
+"start": 26.315948,
+"end": 26.408829
 },
 {
 "word": "war.",
-"start": 22.476915,
-"end": 22.832956
+"start": 26.408829,
+"end": 26.687468
 },
 {
 "word": "Eighty",
-"start": 23.266394,
-"end": 23.560514
+"start": 27.306667,
+"end": 27.554346
 },
 {
 "word": "seven",
-"start": 23.560514,
-"end": 23.932034
+"start": 27.554346,
+"end": 27.848465
 },
 {
 "word": "years,",
-"start": 23.932034,
-"end": 24.473833
+"start": 27.848465,
+"end": 28.235464
 },
 {
 "word": "and",
-"start": 24.891792,
-"end": 25.06207
+"start": 28.297384,
+"end": 28.421225
 },
 {
 "word": "the",
-"start": 25.06207,
-"end": 25.123991
+"start": 28.421225,
+"end": 28.483145
 },
 {
 "word": "number",
-"start": 25.123991,
-"end": 25.69675
+"start": 28.483145,
+"end": 28.715343
 },
 {
 "word": "has",
-"start": 25.727709,
-"end": 25.94443
+"start": 28.715343,
+"end": 28.839184
 },
 {
 "word": "not",
-"start": 25.94443,
-"end": 26.238548
+"start": 28.839184,
+"end": 29.055902
 },
 {
 "word": "come",
-"start": 26.238548,
-"end": 26.439789
+"start": 29.055902,
+"end": 29.195223
 },
 {
 "word": "back.",
-"start": 26.439789,
-"end": 26.873228
+"start": 29.195223,
+"end": 29.535782
 },
 {
 "word": "Where",
-"start": 27.043507,
-"end": 27.384066
+"start": 29.829903,
+"end": 30.077581
 },
 {
 "word": "do",
-"start": 27.384066,
-"end": 27.461466
+"start": 30.077581,
+"end": 30.154982
 },
 {
 "word": "they",
-"start": 27.461466,
-"end": 27.616266
+"start": 30.154982,
+"end": 30.27882
 },
 {
 "word": "live?",
-"start": 27.616266,
-"end": 28.034225
+"start": 30.27882,
+"end": 30.66582
 },
 {
 "word": "About",
-"start": 28.219984,
-"end": 28.514105
-},
-{
-"word": "seven",
-"start": 28.514105,
-"end": 28.932064
-},
-{
-"word": "point",
-"start": 28.932064,
-"end": 29.179743
-},
-{
-"word": "two",
-"start": 29.210703,
-"end": 29.442902
-},
-{
-"word": "million",
-"start": 29.442902,
-"end": 29.814423
-},
-{
-"word": "in",
-"start": 29.814423,
-"end": 29.922781
-},
-{
-"word": "Israel.",
-"start": 29.922781,
-"end": 30.3717
-},
-{
-"word": "About",
-"start": 31.099258,
+"start": 31.03734,
 "end": 31.331459
 },
 {
-"word": "six",
+"word": "seven",
 "start": 31.331459,
-"end": 31.641058
+"end": 31.687498
 },
 {
 "word": "point",
-"start": 31.641058,
-"end": 31.842299
+"start": 31.687498,
+"end": 31.873259
 },
 {
-"word": "three",
+"word": "two",
 "start": 31.873259,
-"end": 32.151897
+"end": 32.028057
 },
 {
 "word": "million",
-"start": 32.151897,
-"end": 32.600815
+"start": 32.028057,
+"end": 32.353138
 },
 {
 "word": "in",
-"start": 32.600815,
-"end": 32.724655
+"start": 32.353138,
+"end": 32.44602
 },
 {
-"word": "the",
-"start": 32.724655,
+"word": "Israel.",
+"start": 32.44602,
 "end": 32.802055
 },
 {
+"word": "About",
+"start": 33.281937,
+"end": 33.576054
+},
+{
+"word": "six",
+"start": 33.576054,
+"end": 33.823734
+},
+{
+"word": "point",
+"start": 33.823734,
+"end": 33.994015
+},
+{
+"word": "three",
+"start": 34.024975,
+"end": 34.24169
+},
+{
+"word": "million",
+"start": 34.24169,
+"end": 34.597733
+},
+{
+"word": "in",
+"start": 34.597733,
+"end": 34.690613
+},
+{
+"word": "the",
+"start": 34.690613,
+"end": 34.752533
+},
+{
 "word": "United",
-"start": 32.802055,
-"end": 33.111656
+"start": 34.752533,
+"end": 35.04665
 },
 {
 "word": "States.",
-"start": 33.111656,
-"end": 33.653454
+"start": 35.04665,
+"end": 35.49557
+},
+{
+"word": "Everywhere",
+"start": 35.74325,
+"end": 36.03737
+},
+{
+"word": "else",
+"start": 36.03737,
+"end": 36.19217
+},
+{
+"word": "together:",
+"start": 36.19217,
+"end": 36.61013
+},
+{
+"word": "the",
+"start": 36.733967,
+"end": 36.873287
+},
+{
+"word": "rest.",
+"start": 36.873287,
+"end": 37.33769
 },
 {
 "word": "Together,",
-"start": 34.133335,
-"end": 34.721573
+"start": 37.925926,
+"end": 38.436764
 },
 {
 "word": "eighty",
-"start": 34.814453,
-"end": 35.09309
+"start": 38.591564,
+"end": 38.823765
 },
 {
 "word": "five",
-"start": 35.09309,
-"end": 35.38721
+"start": 38.823765,
+"end": 39.040485
 },
 {
 "word": "percent",
-"start": 35.38721,
-"end": 35.71229
+"start": 39.040485,
+"end": 39.303642
 },
 {
 "word": "of",
-"start": 35.71229,
-"end": 35.805172
+"start": 39.303642,
+"end": 39.365562
 },
 {
 "word": "all",
-"start": 35.805172,
-"end": 35.95997
-},
-{
-"word": "Jews.",
-"start": 35.95997,
-"end": 36.47081
-},
-{
-"word": "Remembering",
-"start": 37.120968,
-"end": 37.724686
-},
-{
-"word": "this",
-"start": 37.724686,
-"end": 37.910446
-},
-{
-"word": "isn't",
-"start": 37.941406,
-"end": 38.235527
-},
-{
-"word": "about",
-"start": 38.235527,
-"end": 38.483204
-},
-{
-"word": "ranking",
-"start": 38.483204,
-"end": 38.839245
-},
-{
-"word": "anyone's",
-"start": 38.839245,
-"end": 39.226242
-},
-{
-"word": "pain.",
-"start": 39.226242,
+"start": 39.365562,
 "end": 39.551323
 },
 {
-"word": "It's",
-"start": 40.0312,
-"end": 40.21696
+"word": "Jews.",
+"start": 39.551323,
+"end": 40.00024
+},
+{
+"word": "Remembering",
+"start": 40.4182,
+"end": 40.89808
+},
+{
+"word": "this",
+"start": 40.89808,
+"end": 41.08384
+},
+{
+"word": "isn't",
+"start": 41.08384,
+"end": 41.347
 },
 {
 "word": "about",
-"start": 40.21696,
-"end": 40.43368
+"start": 41.347,
+"end": 41.594677
 },
 {
-"word": "counting.",
-"start": 40.43368,
-"end": 40.8826
+"word": "ranking",
+"start": 41.594677,
+"end": 41.888798
+},
+{
+"word": "anyone's",
+"start": 41.888798,
+"end": 42.24484
+},
+{
+"word": "pain.",
+"start": 42.24484,
+"end": 42.585396
+},
+{
+"word": "It's",
+"start": 43.158157,
+"end": 43.328434
+},
+{
+"word": "about",
+"start": 43.328434,
+"end": 43.576115
+},
+{
+"word": "counting,",
+"start": 43.576115,
+"end": 44.086952
+},
+{
+"word": "and",
+"start": 44.535873,
+"end": 44.675194
+},
+{
+"word": "about",
+"start": 44.675194,
+"end": 44.89191
+},
+{
+"word": "who",
+"start": 44.89191,
+"end": 45.433712
+},
+{
+"word": "is",
+"start": 45.495632,
+"end": 45.665913
+},
+{
+"word": "still",
+"start": 45.665913,
+"end": 45.91359
+},
+{
+"word": "missing.",
+"start": 45.91359,
+"end": 46.36251
 },
 {
 "word": "So",
-"start": 41.1148,
-"end": 41.33152
+"start": 47.07459,
+"end": 47.26035
 },
 {
 "word": "when",
-"start": 41.33152,
-"end": 41.47084
+"start": 47.26035,
+"end": 47.415146
 },
 {
 "word": "someone",
-"start": 41.47084,
-"end": 41.842358
+"start": 47.415146,
+"end": 47.709267
 },
 {
 "word": "asks",
-"start": 41.842358,
-"end": 42.26032
+"start": 47.709267,
+"end": 48.127228
 },
 {
 "word": "why",
-"start": 42.26032,
-"end": 42.554436
+"start": 48.127228,
+"end": 48.436825
 },
 {
 "word": "one",
-"start": 42.554436,
-"end": 42.894997
+"start": 48.436825,
+"end": 48.638065
 },
 {
 "word": "small",
-"start": 42.894997,
-"end": 43.220074
+"start": 48.638065,
+"end": 48.978622
 },
 {
 "word": "Jewish",
-"start": 43.220074,
-"end": 43.483234
+"start": 48.978622,
+"end": 49.241783
 },
 {
 "word": "state",
-"start": 43.483234,
-"end": 43.730915
+"start": 49.241783,
+"end": 49.458504
 },
 {
 "word": "matters,",
-"start": 43.730915,
-"end": 44.241753
+"start": 49.458504,
+"end": 49.93838
 },
 {
 "word": "start",
-"start": 44.272713,
-"end": 44.690674
+"start": 49.95386,
+"end": 50.325382
 },
 {
 "word": "here:",
-"start": 44.690674,
-"end": 45.04671
+"start": 50.325382,
+"end": 50.619503
 }
 ]
