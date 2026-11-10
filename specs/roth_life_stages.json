@@ -1,0 +1,194 @@
+{
+ "id": "roth_life_stages",
+ "account": "noamroz__",
+ "template": "pun_sequence",
+ "hook": "Rothschild grew up.|Then what?",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.05
+ },
+ "lines": [
+  {
+   "say": "Rothschild grew up. Then what?",
+   "gap": 0.45
+  },
+  {
+   "say": "As a baby, he was Roth child.",
+   "gap": 0.45
+  },
+  {
+   "say": "At thirteen, bar mitzvah and eye rolls. Roth teen.",
+   "gap": 0.45
+  },
+  {
+   "say": "At eighteen, the army gave him a shield. Roth shield.",
+   "gap": 0.45
+  },
+  {
+   "say": "Then a job, a train, a coffee. Roth adult.",
+   "gap": 0.45
+  },
+  {
+   "say": "In the kitchen, a cold drink in the fridge. Roth chilled.",
+   "gap": 0.45
+  },
+  {
+   "say": "On stage, telling jokes. Roth shtick.",
+   "gap": 0.45
+  },
+  {
+   "say": "In Vienna, he ordered the usual. Roth schnitzel.",
+   "gap": 0.45
+  },
+  {
+   "say": "At parties, he talked to everyone. Roth schmooze.",
+   "gap": 0.45
+  },
+  {
+   "say": "Midlife crisis? He bought a guitar. Roth and roll.",
+   "gap": 0.5
+  },
+  {
+   "say": "Until someone ate his schnitzel.",
+   "gap": 1.0
+  },
+  {
+   "say": "That was the Wrath child.",
+   "gap": 0.5
+  },
+  {
+   "say": "Now he's retired. Roth I R A.",
+   "gap": 0.5
+  },
+  {
+   "say": "Then his grandson was born.",
+   "gap": 0.3
+  }
+ ],
+ "subs_replace": {
+  "Roth child": "Roth-child",
+  "Roth teen": "Roth-teen",
+  "Roth shield": "Roth-shield",
+  "Roth adult": "Roth-adult",
+  "Roth chilled": "Roth-chilled",
+  "Roth shtick": "Roth-shtick",
+  "Roth schnitzel": "Roth-schnitzel",
+  "Roth schmooze": "Roth-schmooze",
+  "Roth and roll": "Roth 'n' roll",
+  "Wrath child": "Wrath-schild",
+  "Roth I R A": "Roth IRA"
+ },
+ "data": {
+  "stages": [
+   {
+    "scene": "baby",
+    "at": 0,
+    "tag": "Age 0",
+    "label": "Roth-*child*",
+    "label_at": "L1:roth"
+   },
+   {
+    "scene": "teen",
+    "at": "L2-0.1",
+    "tag": "Age 13",
+    "label": "Roth-*teen*",
+    "label_at": "L2:roth"
+   },
+   {
+    "scene": "army",
+    "at": "L3-0.1",
+    "tag": "Age 18",
+    "label": "Roth-*shield*",
+    "label_at": "L3:roth",
+    "note": "Magen David means Shield of David"
+   },
+   {
+    "scene": "train",
+    "at": "L4-0.1",
+    "tag": "Age 30",
+    "label": "Roth-*adult*",
+    "label_at": "L4:roth"
+   },
+   {
+    "scene": "fridge",
+    "at": "L5-0.1",
+    "tag": "In the kitchen",
+    "label": "Roth-*chilled*",
+    "label_at": "L5:roth"
+   },
+   {
+    "scene": "standup",
+    "at": "L6-0.1",
+    "tag": "On stage",
+    "label": "Roth-*shtick*",
+    "label_at": "L6:roth",
+    "note": "shtick: Yiddish for a comedy routine"
+   },
+   {
+    "scene": "schnitzel",
+    "at": "L7-0.1",
+    "tag": "In Vienna",
+    "label": "Roth-*schnitzel*",
+    "label_at": "L7:roth"
+   },
+   {
+    "scene": "party",
+    "at": "L8-0.1",
+    "tag": "At parties",
+    "label": "Roth-*schmooze*",
+    "label_at": "L8:roth",
+    "note": "schmooze: Yiddish for chatting people up"
+   },
+   {
+    "scene": "guitar",
+    "at": "L9-0.1",
+    "tag": "Midlife crisis",
+    "label": "Roth *'n' roll*",
+    "label_at": "L9:roth"
+   },
+   {
+    "scene": "wrath",
+    "at": "L10-0.1",
+    "tag": "Then one day",
+    "label": "*Wrath*-schild",
+    "label_at": "L11:wrath",
+    "note": "wrath: pure fury"
+   },
+   {
+    "scene": "retired",
+    "at": "L12-0.1",
+    "tag": "Age 70",
+    "label": "Roth *IRA*",
+    "label_at": "L12:roth",
+    "note": "IRA: a US retirement account"
+   },
+   {
+    "scene": "grandson",
+    "at": "L13-0.1",
+    "tag": "And then",
+    "label": "Roth-*grandchild*",
+    "label_at": "L13:grandson"
+   }
+  ],
+  "tail": 1.2
+ },
+ "sources": [],
+ "caption_en": "Rothschild grew up. Then what? 👶\n\nRoth-child, Roth-teen, Roth-shield, Roth-adult, Roth-chilled, Roth-shtick, Roth-schnitzel, Roth-schmooze, Roth 'n' roll. Then someone ate his schnitzel: the Wrath-schild. Now he's retired with a Roth IRA.\n\nA silly name game, nothing more. Which stage are you at?",
+ "caption_he": "רוטשילד גדל. ומה אז? 👶\nמשחק מילים אחד על שם אחד, מהעריסה ועד הפנסיה. באיזה שלב אתם?",
+ "caption_end": "Tag the Roth in your life.",
+ "hashtags": [
+  "#JewishHumor",
+  "#Wordplay",
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "scene",
+  "text": "Rothschild grew up.|Then what?",
+  "y": 470,
+  "size": 140
+ },
+ "_note": "Fictional stick figure 'little Roth', pure name wordplay. No money, banking or power jokes (antisemitic trope)."
+}

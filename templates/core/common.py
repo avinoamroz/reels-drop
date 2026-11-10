@@ -77,7 +77,7 @@ def lint(S):
             pass
     for s in S["sources"]:
         if not s.get("year"): warn.append(f"source without year: {s.get('label')}")
-    if not S["sources"] and S.get("template") not in ("rehook", "slang_scene"): warn.append("no sources")
+    if not S["sources"] and S.get("template") not in ("rehook", "slang_scene", "pun_sequence"): warn.append("no sources")
     if errs: raise SystemExit("spec lint failed:\n  " + "\n  ".join(errs))
     return warn
 
@@ -456,7 +456,9 @@ def cover(S, final, out_jpg):
     """1080x1920: one strong visual (a reel frame, blurred and darkened, or the brand gradient), the hook in huge text inside
     the centre 1080x1440 grid-safe area (y 240 to 1680), optional big number. No faces: pick a frame without people (cover.t)."""
     C = S.get("cover") or {}; d = dur_of(final)
-    if C.get("bg", "frame") == "frame":
+    if S.get("_cover_bg"):                    # a clean frame a template wrote (pun_sequence: cover.bg "scene")
+        bg = cv2.imread(S["_cover_bg"]).astype(np.float32) * C.get("dim", 0.75)
+    elif C.get("bg", "frame") == "frame":
         bg = grab(final, float(C.get("t", d * 0.6))).astype(np.float32)
         bg = cv2.GaussianBlur(bg, (0, 0), C.get("blur", 18)) * 0.42
     else: bg = BG.copy()
@@ -467,7 +469,7 @@ def cover(S, final, out_jpg):
     cv_out = cv.out().astype(np.float32)
     text = wrap_hook(C.get("text") or S.get("hook", ""))
     img = HK.make(text, size=int(C.get("size", 150)), maxw=960)
-    yc = 960 if not C.get("big") else 1180
+    yc = C.get("y") or (960 if not C.get("big") else 1180)
     cv_out = HK.paste(cv_out, img, 540, yc, 1.0, 1.0)
     cv = Canvas(cv_out)
     if C.get("big"): cv.text(C["big"], 540, 640, 300, YEL, 1.0, maxw=960)

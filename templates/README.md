@@ -21,6 +21,7 @@ Nothing is posted and nothing is approved by this pipeline. Specs named `test_*`
 | `data_race` | bar race over time from a CSV or inline table, ranks glide, year label, callout card | lines + voice, `data.csv` or `data.table` |
 | `scorecard` | live "0 out of 4" scorecard, countries around Israel first, sorted best first, "no data" pills, live score per row | lines + voice, `data.columns` (max 4, each with an icon), `data.rows` |
 | `slang_scene` | Express: stick-figure scene first, Hebrew word as a small bottom line, 2 or 3 English options, mini chat, "Save this for your next meeting"; blue = active/speaker, orange = passive, red = new | lines + voice, `data.speaker`, `data.options`, `data.chat` |
+| `pun_sequence` | humour: one stick figure ("little Roth") grows up, one pun per stage; each scene slides in, a big label pops on the pun word (changed part in yellow), optional small note; hook over the first scene, loops back | lines + voice, `data.stages` [{scene, at, tag, label, label_at, note}], `subs_replace` for hyphenated puns, `cover.bg: "scene"` |
 | `rehook` | a published reel with a new hook card (max 6 words with a number, frame 0, count-up moving by 1.5 s) instead of its first seconds; body kept; new cover | `data.source` (repo mp4), `data.cut`; no voice |
 
 Shared pieces (`core/common.py`): hook card at frame 0 (`opener/hook.py`), burned-in subtitles from the Cartesia word
