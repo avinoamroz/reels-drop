@@ -3,10 +3,10 @@
  "account": "expressenglishcom",
  "template": "slang_scene",
  "hook": "This word in English?|*3* ways",
- "duration": 47.2,
+ "duration": 46.3,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/hasbara_english.mp4",
@@ -34,7 +34,7 @@
   }
  ],
  "transcript": {
-  "score": 0.959,
+  "score": 1.0,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -64,17 +64,17 @@
    },
    {
     "line": "Israeli diplomats today prefer public diplomacy. Explaining sounds defensive. Public diplomacy sounds like a plan.",
-    "score": 0.8,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Now a quick chat. Someone asks you: what do you do for Israel online?",
-    "score": 0.929,
+    "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Public diplomacy. I tell Israel's story in English.",
-    "score": 0.875,
+    "line": "Public diplomacy. I tell Israel's story in English. Every day.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -83,7 +83,7 @@
     "flag": "ok"
    },
    {
-    "line": "English is how the story reaches the world. Not your Hebrew. Your English.",
+    "line": "English is how the story reaches the world. Not your Hebrew. Your English. One clear sentence at a time.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -93,15 +93,15 @@
     "flag": "ok"
    }
   ],
-  "heard": "Maya asks what's our word for this in English? It's the word Israelis use all the time. It literally means explaining Israelis use it for telling Israel's side to the world in English at a conference or with diplomats say public diplomacy with friends over coffee say explaining Israel on a panel or in an interview say advocacy Israeli diplomats today prefer public diplomacy public diplomacy sounds like a plan now quick chat someone asks you what do you do for Israel online public diplomacy I tell Israel story in English that's important work thank you English is how the story reaches the world not your Hebrew your English save this for your next meeting or your next panel",
+  "heard": "Maya asks, what's our word for this in English? It's the word Israelis use all the time. It literally means explaining. Israelis use it for telling Israel's side to the world in English. At a conference or with diplomats, say, public diplomacy. With friends over coffee, say, explaining Israel. On a panel or in an interview, say, advocacy. Israeli diplomats today prefer public diplomacy. Explaining sounds defensive. Public diplomacy sounds like a plan. Now a quick chat. Someone asks you, what do you do for Israel online? Public diplomacy. I tell Israel's story in English. Every day. That's important work. Thank you. English is how the story reaches the world. Not your Hebrew. Your English. One clear sentence at a time. Save this for your next meeting. Or your next panel.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 76.8
+ "render_s": 102.6
 }
