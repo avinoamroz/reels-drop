@@ -1,0 +1,7 @@
+{
+ "id": "x_slang_walla",
+ "cmd": "cd /home/claude/express_slang/x_slang_walla && python3 /home/claude/reelkit/make_reel_sse.py spec.json vo out",
+ "out": "/home/claude/express_slang/x_slang_walla/out/reel.mp4",
+ "sent": "2026-11-10T06:22:56Z",
+ "nfiles": 134
+}
