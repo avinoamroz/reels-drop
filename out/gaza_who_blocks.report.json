@@ -1,0 +1,188 @@
+{
+ "id": "gaza_who_blocks",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Gaza's *13 km* wall.|*Whose?*",
+ "duration": 59.23,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/gaza_who_blocks.mp4",
+  "cover": "covers/gaza_who_blocks_cover.jpg",
+  "preview": "previews/gaza_who_blocks_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/gaza_who_blocks_0.jpg",
+  "1": "out/frames/gaza_who_blocks_1.jpg",
+  "3": "out/frames/gaza_who_blocks_3.jpg",
+  "last": "out/frames/gaza_who_blocks_last.jpg"
+ },
+ "caption_en": "Gaza's 13 km wall. Built by Egypt. 🇪🇬\n\nBefore 2000, over 26,000 Gazans crossed into Israel every day. From 2021 to 2023, Israeli work permits for Gazans went from about 7,000 to about 18,000, in construction and farming.\n\nPre-war, into Gaza:\n🚚 Truckloads in 2022: 74,096 from Israel, 32,353 from Egypt (mostly via the Salah al-Din gate, opened in 2018)\n⚡ Electricity: 120 MW from Israel. Egypt's lines gave 20 to 28 MW, until they were cut off in 2018.\n💧 Water in 2022: 18.5 million m³ from Israel's Mekorot. From Egypt: none.\n\nOn the Egypt side: a concrete wall 6 m high and 5 m underground (2020), 3,255 buildings razed for a buffer zone (2013 to 2015), and a Rafah crossing that opened 36 days in all of 2017. Rafah reopened on 2 Feb 2026 for limited foot traffic.\n\nIsrael has also kept Gaza under closure since 2007. Both borders are closed. Only one gets the cameras.\n\nSources: Al-Monitor (Egypt's wall, 2020); Human Rights Watch, \"Look for Another Homeland\" (2015); Gisha, Erez exits (2016); Times of Israel (2021) and ACAPS / Reuters (2023) on work permits; INSS (2022); OCHA, Movement in and out of Gaza in 2022 (2023); OCHA (2016, 2021) and Mada Masr (2023) on electricity; PCBS water statistics (2023); OCHA Gaza crossings (2018); Washington Institute (2019) on the Salah al-Din gate; OCHA, 15 years of the blockade (2022); AP (2026). AI voice.\n\nSend this to someone who says Israel alone blocks Gaza.",
+ "caption_he": "החומה של עזה, 13 ק\"מ. מי בנה אותה? מצרים.\n\nלפני שנת 2000, יותר מ־26,000 עזתים נכנסו לישראל כל יום. בין 2021 ל־2023, היתרי העבודה לעזתים בישראל עלו מכ־7,000 לכ־18,000, בבנייה ובחקלאות.\n\nלפני המלחמה, לתוך עזה:\n🚚 משאיות ב־2022: 74,096 מישראל, 32,353 ממצרים (בעיקר דרך שער סלאח א־דין, שנפתח ב־2018)\n⚡ חשמל: 120 מגה־וואט מישראל. הקווים ממצרים סיפקו 20 עד 28 מגה־וואט, עד שנותקו ב־2018.\n💧 מים ב־2022: 18.5 מיליון מ\"ק ממקורות. ממצרים: אפס.\n\nבצד המצרי: חומת בטון בגובה 6 מטר ו־5 מטר מתחת לאדמה (2020), 3,255 מבנים שנהרסו לטובת אזור חיץ (2013 עד 2015), ומעבר רפיח שהיה פתוח 36 ימים בכל 2017.\n\nגם ישראל מטילה סגר על עזה מאז 2007. שני הגבולות סגורים. רק על אחד מהם מצלמים.\n\nשלחו את זה למי שאומר שרק ישראל חוסמת את עזה.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#Egypt",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Al-Monitor 2020; border length: HRW",
+   "year": 2015,
+   "at": "L0:thirteen",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Gisha, Erez exits",
+   "year": 2016,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Times of Israel 2021; ACAPS, Reuters",
+   "year": 2023,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "OCHA, Movement in and out of Gaza in 2022",
+   "year": 2023,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "OCHA 2021; Mada Masr",
+   "year": 2023,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "PCBS water statistics (2022 data)",
+   "year": 2023,
+   "at": "L8",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "Human Rights Watch",
+   "year": 2015,
+   "at": "L9",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "OCHA, Gaza crossings",
+   "year": 2018,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "OCHA, 15 years of the blockade",
+   "year": 2022,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.964,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Gaza's thirteen kilometer wall. This is how Gaza is blocked.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Six meters high. Five meters underground. Built by Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt? Wait. Isn't Israel the one blocking Gaza?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Before two thousand, over twenty-six thousand Gazans crossed into Israel daily.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "From twenty twenty-one to twenty twenty-three, work permits went from seven thousand to eighteen thousand.",
+    "score": 0.882,
+    "flag": "ok"
+   },
+   {
+    "line": "Building and farming, all over Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Trucks in twenty twenty-two: seventy-four thousand from Israel. Thirty-two thousand from Egypt.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Power: one hundred and twenty megawatts from Israel. Egypt's lines? Cut off in twenty eighteen.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Water: eighteen point five million cubic meters from Israel. From Egypt: zero.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Egypt's side? Over three thousand buildings razed for a buffer zone.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "The Rafah crossing, in twenty seventeen? Open thirty-six days.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "So why does no one talk about this border?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Maybe Egypt is blockading Gaza? Maybe Egypt is colonizing Gaza?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel restricts Gaza too, since two thousand seven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Both borders are closed. Only one gets the cameras.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, who really blocks Gaza?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Gaza's 13 kilometer wall. This is how Gaza is blocked. 6 meters high. 5 meters underground. Built by Egypt. Egypt? Wait. Isn't Israel the one blocking Gaza? Before 2000, over 26,000 Gazans crossed into Israel daily. From 2021 to 2023, work permits went from 7,000 to 18,000. Building and farming. All over Israel. Trucks in 2022. 74,000 from Israel. 32,000 from Egypt power 120 megawatts from Israel Egypt's lines cut off in 2018 water 18.5 million cubic meters from Israel from Egypt zero and Egypt side over 3,000 buildings raised for a buffer zone the Rafah crossing in 2017 open 36 days so why does no one talk about this border maybe Egypt is blockading Gaza maybe Egypt is colonizing Gaza Israel restricts Gaza too since 2007 both borders are closed, only one gets the cameras. So, who really blocks Gaza?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 57.75,
+ "opener": {
+  "style": "map_tear_v2",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 160.1
+}
