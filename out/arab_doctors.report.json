@@ -1,0 +1,112 @@
+{
+ "id": "arab_doctors",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Arabs: *21%* of Israel.|Doctors?",
+ "duration": 37.97,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/arab_doctors.mp4",
+  "cover": "covers/arab_doctors_cover.jpg",
+  "preview": "previews/arab_doctors_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/arab_doctors_0.jpg",
+  "1": "out/frames/arab_doctors_1.jpg",
+  "3": "out/frames/arab_doctors_3.jpg",
+  "last": "out/frames/arab_doctors_last.jpg"
+ },
+ "caption_en": "Arab citizens are 21% of Israel. Their share of its health workforce: 🩺\n\nDoctors 8% (2010) to 25% (2023). Nurses 27%. Dentists 27%. Pharmacists 28% to 49%, almost half. Of new physician licences 2010 to 2022: 38%.\n\nSource: Rosen B, Miaari S. \"Arab representation in Israeli healthcare professions: achievements, challenges and opportunities\", Israel Journal of Health Policy Research 14:7 (2025). 2023 shares include Arab residents of east Jerusalem; employed professionals up to age 67.\n\nThe same study says real gaps and challenges remain. This still isn't what apartheid looks like.\n\nSend this to someone who says it is.",
+ "caption_he": "הערבים הם 21% מאזרחי ישראל. החלק שלהם במערכת הבריאות:\nרופאים: מ-8% (2010) ל-25% (2023). אחיות ואחים 27%. רופאי שיניים 27%. רוקחים: מ-28% ל-49%, כמעט חצי. מהרישיונות החדשים לרופאים בין 2010 ל-2022: 38%.\nאותו מחקר אומר שעדיין יש פערים ואתגרים אמיתיים. זה עדיין לא אפרטהייד.\n\nSources: Rosen B, Miaari S., Israel Journal of Health Policy Research 14:7 (2025), via PMC; JNS report (Feb 2025).",
+ "hashtags": [
+  "#Israel",
+  "#apartheid",
+  "#healthcare",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Rosen and Miaari, Israel Journal of Health Policy Research",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.97,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Arab citizens are twenty one percent of Israel. What share of its doctors?",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Here's an apartheid test almost nobody runs.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty ten. Arab citizens are eight percent of doctors.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seventeen percent of nurses. Nineteen percent of dentists.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty eight percent of pharmacists.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now watch twenty twenty three.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Doctors: twenty five percent. More than triple.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nurses and dentists: twenty seven percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Pharmacists: forty nine percent. Almost half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And of all new doctors licensed since twenty ten, thirty eight percent are Arab.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "The same study says real gaps and challenges remain.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So the next time someone says apartheid, ask them this:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Arab citizens are 21% of Israel, which share of its doctors? Here's an apartheid test almost nobody runs. 2010. Arab citizens are 8% of doctors. 17% of nurses. 19% of dentists. 28% of pharmacists. Now watch 2023. Doctors, 25%. More than triple. Nurses and dentists, 27%. Pharmacists, 49%. Almost half. And of all new doctors licensed since 2010, 38% are Arab. The same study says real gaps and challenges remain. So the next time someone says apartheid, ask them this.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 51.2
+}
