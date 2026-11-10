@@ -1,114 +1,6 @@
 {
  "items": [
   {
-   "id": "x_a1_salary_raise_v2",
-   "account": "express",
-   "due": "2026-11-10T10:00:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a1_salary_raise_v2.mp4\", \"caption\": \"רוצים העלאה מבוס אמריקאי? 4 משפטים שהורגים אותה, ומה להגיד במקום 💰\\n\\n❌ I want more money.\\n✅ Can we talk about my salary?\\n(אפשר לדבר על השכר שלי?)\\n\\n❌ Everybody earns more than me.\\n✅ I'd like my pay to match my results.\\n(אני רוצה שהשכר ישקף את התוצאות שלי)\\n\\n❌ If not, I'm leaving.\\n✅ I have another offer, but I'd rather stay.\\n(יש לי הצעה אחרת, אבל אעדיף להישאר)\\n\\n❌ So, what's the answer?\\n✅ Take your time. Can we meet next week?\\n(קח את הזמן. ניפגש בשבוע הבא?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a1_salary_raise_v2_cover.jpg\"}"
-   },
-   "due_epoch": 1794297600
-  },
-  {
-   "id": "x_b3_dont_know_v2",
-   "account": "express",
-   "due": "2026-11-10T11:30:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_b3_dont_know_v2.mp4\", \"caption\": \"3 מילים שמאבדות לקוחות: I don't know. מה אומרים במקום 📞\\n\\n❓ When is delivery?\\n❌ I don't know.\\n✅ Good question. I'll check and get back to you by three.\\n(שאלה טובה. אבדוק ואחזור עד שלוש)\\n\\n❓ Why did it crash?\\n❌ I don't know.\\n✅ We're looking into it. I'll update you within the hour.\\n(אנחנו בודקים. אעדכן אותך תוך שעה)\\n\\n❓ What will it cost?\\n❌ I don't know.\\n✅ I'll send you a full quote by Monday.\\n(אשלח הצעת מחיר מלאה עד שני)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_b3_dont_know_v2_cover.jpg\"}"
-   },
-   "due_epoch": 1794303000
-  },
-  {
-   "id": "story_1110_e1",
-   "account": "express",
-   "due": "2026-11-10T12:15:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"STORIES\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/stories/1110_e1_answer_walla.mp4\"}"
-   },
-   "due_epoch": 1794305700
-  },
-  {
-   "id": "x_slang_sababa",
-   "account": "express",
-   "due": "2026-11-10T13:00:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_sababa_v2.mp4\", \"caption\": \"איך אומרים סבבה באנגלית? ☕\\n\\nקולגה שואל: Coffee at five?\\nסבבה בשיחה: Sounds good!\\nסבבה בעבודה: Works for me.\\n\\nומה לא? It's okay. זה נשמע כמו \\\"טוב, אם אין ברירה\\\". לא בדיוק סבבה 😅\\n\\nSababa in English: Sounds good (casual) or Works for me (at work). \\\"It's okay\\\" sounds like you're not happy about it.\\n\\nאיך אתם אומרים סבבה באנגלית בפגישה? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_sababa_cover.jpg\"}"
-   },
-   "due_epoch": 1794308400
-  },
-  {
-   "id": "x_slang_chaval",
-   "account": "express",
-   "due": "2026-11-10T14:30:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_chaval_v2.mp4\", \"caption\": \"חבל על הזמן באנגלית? רק לא מילה במילה 🙈\\n\\nבעברית חבל על הזמן זה מחמאה. באנגלית What a waste of time זה עלבון: \\\"בזבזת לי את הזמן\\\".\\n\\nחבל על הזמן בשיחה: This is amazing!\\nחבל על הזמן בעבודה: This is outstanding.\\n\\nChaval al hazman means \\\"amazing\\\". Never translate it as \\\"what a waste of time\\\".\\n\\nעוד ביטוי עברי שהפוך לגמרי באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_chaval_cover.jpg\"}"
-   },
-   "due_epoch": 1794313800
-  },
-  {
-   "id": "x_slang_keta",
-   "account": "express",
-   "due": "2026-11-10T16:00:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_keta_v2.mp4\", \"caption\": \"איזה קטע! ואיך אומרים את זה באנגלית? 😮\\n\\nאיזה קטע בשיחה: No way! What a coincidence!\\nאיזה קטע בעבודה: What a small world!\\n\\nומה לא? What a piece! היא תשאל: חתיכה של מה? 😅\\n\\nEize keta in English: No way! (casual) or What a small world! (at work).\\n\\nמתי אמרתם לאחרונה איזה קטע? כתבו בתגובות, באנגלית 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_keta_cover.jpg\"}"
-   },
-   "due_epoch": 1794319200
-  },
-  {
-   "id": "x_slang_stam",
-   "account": "express",
-   "due": "2026-11-10T17:30:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_stam_v2.mp4\", \"caption\": \"עשיתם צחוק בזום ואמרתם סתם. איך אומרים את זה באנגלית? 😄\\n\\nסתם בשיחה: Just kidding!\\nסתם בעבודה: I'm only joking.\\n\\nומה לא? Just! לבד. היא תחכה לסוף המשפט 😅\\n\\nStam in English: Just kidding! (casual) or I'm only joking (at work). \\\"Just!\\\" on its own leaves people waiting.\\n\\nאיך אתם אומרים סתם באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_stam_cover.jpg\"}"
-   },
-   "due_epoch": 1794324600
-  },
-  {
-   "id": "story_1110_n1",
-   "account": "noam",
-   "due": "2026-11-10T18:15:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"STORIES\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/stories/1110_n1_guess_oldest_israel.mp4\"}"
-   },
-   "due_epoch": 1794327300
-  },
-  {
-   "id": "x_slang_bekatana",
-   "account": "express",
-   "due": "2026-11-10T19:00:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_bekatana.mp4\", \"caption\": \"מישהו אומר לכם תודה. אתם עונים: בקטנה. ובאנגלית? 🤏\\n\\nבקטנה בשיחה: No big deal.\\nבקטנה בעבודה: Happy to help.\\n\\nומה לא? In the small. הוא עדיין מנסה להבין מה קטן 😅\\n\\nBekatana in English: No big deal (casual) or Happy to help (at work).\\n\\nמה עוד אתם אומרים בקטנה? נסו באנגלית בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_bekatana_cover.jpg\"}"
-   },
-   "due_epoch": 1794330000
-  },
-  {
-   "id": "roth_life_stages",
-   "account": "noam",
-   "due": "2026-11-10T20:05:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/out/roth_life_stages.mp4\", \"caption\": \"Rothschild grew up. Then what? 👶\\n\\nRoth-child, Roth-teen, Roth-shield, Roth-adult, Roth-chilled, Roth-shtick, Roth-schnitzel, Roth-schmooze, Roth 'n' roll. Then someone ate his schnitzel: the Wrath-schild. Now he's retired with a Roth IRA.\\n\\nA silly name game, nothing more. Which stage are you at?\\n\\nרוטשילד גדל. ומה אז? 👶\\nמשחק מילים אחד על שם אחד, מהעריסה ועד הפנסיה. באיזה שלב אתם?\\n\\nTag the Roth in your life.\\n\\n#JewishHumor #Wordplay #Israel\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/roth_life_stages_cover.jpg\"}"
-   },
-   "due_epoch": 1794333900
-  },
-  {
-   "id": "x_slang_al_hapanim",
-   "account": "express",
-   "due": "2026-11-10T20:30:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_al_hapanim.mp4\", \"caption\": \"הפיץ' היה על הפנים. ואיך אומרים את זה באנגלית? 🫣\\n\\nעל הפנים בשיחה: It was awful.\\nעל הפנים בעבודה: It didn't go well.\\n\\nומה לא? It was on the face. היא תחפש את הפנים 😅\\n\\nAl hapanim in English: It was awful (casual) or It didn't go well (at work).\\n\\nמה היה על הפנים אצלכם השבוע? באנגלית, בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_al_hapanim_cover.jpg\"}"
-   },
-   "due_epoch": 1794335400
-  },
-  {
-   "id": "colonization_wrong_v3",
-   "account": "noam",
-   "due": "2026-11-10T20:40:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonization_wrong_v3.mp4\", \"caption\": \"We suck at colonization. 📕\\n\\nEvery real empire followed the book:\\n🇪🇸 Spain took the silver of Potosí (from 1545)\\n🇧🇪 Belgium's King Leopold took Congo's rubber (1885 to 1908)\\n🇬🇧 Britain took India's cotton and sold back British cloth (1757 to 1947)\\n🇵🇹 Portugal shipped about 4.8 million enslaved Africans to Brazil\\n\\nIsrael? Failed every lesson.\\n❌ Pick a land with gold or oil: we picked swamps and desert. The big gas finds came in 2009 and 2010.\\n❌ Rule from a mother country: what mother country? Jews came fleeing Europe and the Arab world.\\n❌ Enslave the locals: Arab citizens vote (10 Knesset seats in 2022) and are 1 in 4 doctors and half of pharmacists.\\n❌ Let them get sick: health insurance for every resident since 1994, and Israeli hospitals treat Palestinian patients too.\\n❌ Ship the wealth back home: small problem, this is home.\\n\\nWow. We really missed the point. Jews, go figure. Maybe they have different intentions, and you just don't understand them.\\n\\nWe can show you how to build companies, but...\\n\\nאנחנו גרועים בקולוניזציה. כל אימפריה אמיתית לקחה את העושר הביתה. ישראל נכשלה בכל השיעורים: אין נפט, אין ארץ אם, ערבים אזרחי ישראל מצביעים ומהווים רבע מהרופאים, וביטוח בריאות לכל תושב. יהודים, לך תבין.\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nMaps: Natural Earth (public domain). Sources: Britannica (Potosí; Congo Free State; British raj; Israel; West Bank); Roy, Australian Economic History Review, 2007; SlaveVoyages.org (Eltis); Tamar gas field, Jan 2009 and Leviathan, Dec 2010 (Noble Energy); Knesset election results, Nov 2022; Rosen and Miaari, Israel Journal of Health Policy Research, Feb 2025; National Health Insurance Law, 1994; WHO oPt monthly report, Dec 2022; Al Jazeera, 10 Oct 2026 (PA vote postponed to Sept 2027).\\n\\n#Israel #History #Colonization #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonization_wrong_v3_cover.jpg\"}"
-   },
-   "due_epoch": 1794336000
-  },
-  {
    "id": "oppression_olympics",
    "account": "noam",
    "due": "2026-11-10T21:40:00+02:00",
@@ -134,6 +26,15 @@
     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/gdp_tug_of_war.mp4\", \"caption\": \"1 Israeli vs 9 countries. Who wins the GDP tug of war? 🪢\\n\\nGDP per person, 2024 (US$):\\n🇮🇱 Israel: 54,291\\n🇾🇪 Yemen: 442\\n🇸🇾 Syria: 1,057 (World Bank, 2022, latest)\\n🇱🇧 Lebanon: 5,248\\n🇮🇷 Iran: 4,834\\n🇪🇬 Egypt: 3,594\\n🇯🇴 Jordan: 5,003\\n🇮🇶 Iraq: 6,388\\n🇹🇷 Turkey: 15,914\\n🇴🇲 Oman: 20,529\\n\\n8 countries together: 42,480. Israel holds.\\nSwap Turkey for Oman: 47,095. Still Israel.\\nAll 9 together: 63,009. Only then they win.\\n\\nAdding up per-person numbers is a playful scoreboard, not an economic statistic. It shows the size of the gap.\\n\\nWar and sanctions hold Yemen and Syria back, and oil lifts the Gulf. This is about economies, not about anyone being less.\\n\\nSend this to someone who thinks Israel is just a tiny country.\\n\\nישראלי אחד מול 9 מדינות. מי ינצח במשיכת החבל של התוצר? 🪢\\nתוצר לנפש, 2024, בדולרים: ישראל 54,291. שמונה מדינות ביחד: 42,480, וישראל מחזיקה. מחליפים את טורקיה בעומאן: 47,095, עדיין ישראל. רק כשכל ה 9 מושכים ביחד, 63,009, הם מנצחים.\\nמלחמות וסנקציות מעכבות את תימן וסוריה, והנפט מרים את המפרץ. זה על כלכלות, לא על אנשים.\\n\\nSources: IMF World Economic Outlook, Oct 2026, GDP per capita, current prices (NGDPDPC), 2024. Syria: World Bank, NY.GDP.PCAP.CD, 2022 (latest available; the IMF has no recent value).\\nMade with AI tools.\\n\\n#Israel #Economy #MiddleEast #GDP\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/gdp_tug_of_war_cover.jpg\"}"
    },
    "due_epoch": 1794346800
+  },
+  {
+   "id": "colonization_wrong_v3",
+   "account": "noam",
+   "due": "2026-11-11T00:10:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonization_wrong_v3.mp4\", \"caption\": \"We suck at colonization. 📕\\n\\nEvery real empire followed the book:\\n🇪🇸 Spain took the silver of Potosí (from 1545)\\n🇧🇪 Belgium's King Leopold took Congo's rubber (1885 to 1908)\\n🇬🇧 Britain took India's cotton and sold back British cloth (1757 to 1947)\\n🇵🇹 Portugal shipped about 4.8 million enslaved Africans to Brazil\\n\\nIsrael? Failed every lesson.\\n❌ Pick a land with gold or oil: we picked swamps and desert. The big gas finds came in 2009 and 2010.\\n❌ Rule from a mother country: what mother country? Jews came fleeing Europe and the Arab world.\\n❌ Enslave the locals: Arab citizens vote (10 Knesset seats in 2022) and are 1 in 4 doctors and half of pharmacists.\\n❌ Let them get sick: health insurance for every resident since 1994, and Israeli hospitals treat Palestinian patients too.\\n❌ Ship the wealth back home: small problem, this is home.\\n\\nWow. We really missed the point. Jews, go figure. Maybe they have different intentions, and you just don't understand them.\\n\\nWe can show you how to build companies, but...\\n\\nאנחנו גרועים בקולוניזציה. כל אימפריה אמיתית לקחה את העושר הביתה. ישראל נכשלה בכל השיעורים: אין נפט, אין ארץ אם, ערבים אזרחי ישראל מצביעים ומהווים רבע מהרופאים, וביטוח בריאות לכל תושב. יהודים, לך תבין.\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nMaps: Natural Earth (public domain). Sources: Britannica (Potosí; Congo Free State; British raj; Israel; West Bank); Roy, Australian Economic History Review, 2007; SlaveVoyages.org (Eltis); Tamar gas field, Jan 2009 and Leviathan, Dec 2010 (Noble Energy); Knesset election results, Nov 2022; Rosen and Miaari, Israel Journal of Health Policy Research, Feb 2025; National Health Insurance Law, 1994; WHO oPt monthly report, Dec 2022; Al Jazeera, 10 Oct 2026 (PA vote postponed to Sept 2027).\\n\\n#Israel #History #Colonization #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonization_wrong_v3_cover.jpg\"}"
+   },
+   "due_epoch": 1794348600
   },
   {
    "id": "syria_pov_v3",
@@ -539,103 +440,132 @@
     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/border_knock_1_v2.mp4\", \"caption\": \"Knock knock. 🚪 Gaza has 2 borders. Only one of them gets the knocks.\\n\\n🇪🇬 Gaza's border with Egypt: 13 km (CIA World Factbook).\\n🔒 2015: the Rafah crossing was open just 21 days all year (Gaza's interior ministry, via Times of Israel, Feb 2016).\\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Reuters, Sep 2015).\\n🏚️ Over 3,000 buildings razed in Egyptian Rafah for a buffer zone (Human Rights Watch, Sep 2015).\\n🏜️ Oct 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah (AP). The crossing reopened on 2 Feb 2026 for limited foot traffic.\\n\\nTwo borders. Ask about both.\\n\\nSend this to the friend who only knows one door.\\n\\n#Israel #Gaza #Egypt #Rafah\\n\\nנוק נוק. 🚪 לעזה יש 2 גבולות. רק באחד מהם דופקים.\\n🇪🇬 הגבול של עזה עם מצרים: 13 ק\\\"מ.\\n🔒 2015: מעבר רפיח היה פתוח רק 21 ימים בכל השנה.\\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\\n🏚️ יותר מ-3,000 מבנים נהרסו ברפיח המצרית בשביל אזור חיץ.\\n🏜️ אוקטובר 2023: נשיא מצרים דחה העברת עזתים לסיני.\\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח.\\nשני גבולות. תשאלו על שניהם.\\nשלחו את זה לחבר שמכיר רק דלת אחת.\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/border_knock_1_v2_cover.jpg\"}"
    },
    "due_epoch": 1794596400
+  },
+  {
+   "id": "x_a1_salary_raise_v2",
+   "account": "express",
+   "due": "2026-11-14T07:00:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a1_salary_raise_v2.mp4\", \"caption\": \"רוצים העלאה מבוס אמריקאי? 4 משפטים שהורגים אותה, ומה להגיד במקום 💰\\n\\n❌ I want more money.\\n✅ Can we talk about my salary?\\n(אפשר לדבר על השכר שלי?)\\n\\n❌ Everybody earns more than me.\\n✅ I'd like my pay to match my results.\\n(אני רוצה שהשכר ישקף את התוצאות שלי)\\n\\n❌ If not, I'm leaving.\\n✅ I have another offer, but I'd rather stay.\\n(יש לי הצעה אחרת, אבל אעדיף להישאר)\\n\\n❌ So, what's the answer?\\n✅ Take your time. Can we meet next week?\\n(קח את הזמן. ניפגש בשבוע הבא?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a1_salary_raise_v2_cover.jpg\"}"
+   },
+   "due_epoch": 1794632400
+  },
+  {
+   "id": "x_b3_dont_know_v2",
+   "account": "express",
+   "due": "2026-11-14T08:30:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_b3_dont_know_v2.mp4\", \"caption\": \"3 מילים שמאבדות לקוחות: I don't know. מה אומרים במקום 📞\\n\\n❓ When is delivery?\\n❌ I don't know.\\n✅ Good question. I'll check and get back to you by three.\\n(שאלה טובה. אבדוק ואחזור עד שלוש)\\n\\n❓ Why did it crash?\\n❌ I don't know.\\n✅ We're looking into it. I'll update you within the hour.\\n(אנחנו בודקים. אעדכן אותך תוך שעה)\\n\\n❓ What will it cost?\\n❌ I don't know.\\n✅ I'll send you a full quote by Monday.\\n(אשלח הצעת מחיר מלאה עד שני)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_b3_dont_know_v2_cover.jpg\"}"
+   },
+   "due_epoch": 1794637800
+  },
+  {
+   "id": "x_slang_sababa",
+   "account": "express",
+   "due": "2026-11-14T10:00:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_sababa_v2.mp4\", \"caption\": \"איך אומרים סבבה באנגלית? ☕\\n\\nקולגה שואל: Coffee at five?\\nסבבה בשיחה: Sounds good!\\nסבבה בעבודה: Works for me.\\n\\nומה לא? It's okay. זה נשמע כמו \\\"טוב, אם אין ברירה\\\". לא בדיוק סבבה 😅\\n\\nSababa in English: Sounds good (casual) or Works for me (at work). \\\"It's okay\\\" sounds like you're not happy about it.\\n\\nאיך אתם אומרים סבבה באנגלית בפגישה? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_sababa_cover.jpg\"}"
+   },
+   "due_epoch": 1794643200
+  },
+  {
+   "id": "x_slang_chaval",
+   "account": "express",
+   "due": "2026-11-14T11:30:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_chaval_v2.mp4\", \"caption\": \"חבל על הזמן באנגלית? רק לא מילה במילה 🙈\\n\\nבעברית חבל על הזמן זה מחמאה. באנגלית What a waste of time זה עלבון: \\\"בזבזת לי את הזמן\\\".\\n\\nחבל על הזמן בשיחה: This is amazing!\\nחבל על הזמן בעבודה: This is outstanding.\\n\\nChaval al hazman means \\\"amazing\\\". Never translate it as \\\"what a waste of time\\\".\\n\\nעוד ביטוי עברי שהפוך לגמרי באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_chaval_cover.jpg\"}"
+   },
+   "due_epoch": 1794648600
+  },
+  {
+   "id": "x_slang_keta",
+   "account": "express",
+   "due": "2026-11-14T13:00:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_keta_v2.mp4\", \"caption\": \"איזה קטע! ואיך אומרים את זה באנגלית? 😮\\n\\nאיזה קטע בשיחה: No way! What a coincidence!\\nאיזה קטע בעבודה: What a small world!\\n\\nומה לא? What a piece! היא תשאל: חתיכה של מה? 😅\\n\\nEize keta in English: No way! (casual) or What a small world! (at work).\\n\\nמתי אמרתם לאחרונה איזה קטע? כתבו בתגובות, באנגלית 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_keta_cover.jpg\"}"
+   },
+   "due_epoch": 1794654000
+  },
+  {
+   "id": "x_slang_stam",
+   "account": "express",
+   "due": "2026-11-14T14:30:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_stam_v2.mp4\", \"caption\": \"עשיתם צחוק בזום ואמרתם סתם. איך אומרים את זה באנגלית? 😄\\n\\nסתם בשיחה: Just kidding!\\nסתם בעבודה: I'm only joking.\\n\\nומה לא? Just! לבד. היא תחכה לסוף המשפט 😅\\n\\nStam in English: Just kidding! (casual) or I'm only joking (at work). \\\"Just!\\\" on its own leaves people waiting.\\n\\nאיך אתם אומרים סתם באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_stam_cover.jpg\"}"
+   },
+   "due_epoch": 1794659400
+  },
+  {
+   "id": "x_slang_bekatana",
+   "account": "express",
+   "due": "2026-11-14T16:00:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_bekatana.mp4\", \"caption\": \"מישהו אומר לכם תודה. אתם עונים: בקטנה. ובאנגלית? 🤏\\n\\nבקטנה בשיחה: No big deal.\\nבקטנה בעבודה: Happy to help.\\n\\nומה לא? In the small. הוא עדיין מנסה להבין מה קטן 😅\\n\\nBekatana in English: No big deal (casual) or Happy to help (at work).\\n\\nמה עוד אתם אומרים בקטנה? נסו באנגלית בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_bekatana_cover.jpg\"}"
+   },
+   "due_epoch": 1794664800
   }
  ],
  "slots": {
-  "s996832": {
+  "s997018": {
    "express": {
     "id": "x_a1_salary_raise_v2",
-    "due": "2026-11-10T10:00:00+02:00",
+    "due": "2026-11-14T07:00:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a1_salary_raise_v2.mp4\", \"caption\": \"רוצים העלאה מבוס אמריקאי? 4 משפטים שהורגים אותה, ומה להגיד במקום 💰\\n\\n❌ I want more money.\\n✅ Can we talk about my salary?\\n(אפשר לדבר על השכר שלי?)\\n\\n❌ Everybody earns more than me.\\n✅ I'd like my pay to match my results.\\n(אני רוצה שהשכר ישקף את התוצאות שלי)\\n\\n❌ If not, I'm leaving.\\n✅ I have another offer, but I'd rather stay.\\n(יש לי הצעה אחרת, אבל אעדיף להישאר)\\n\\n❌ So, what's the answer?\\n✅ Take your time. Can we meet next week?\\n(קח את הזמן. ניפגש בשבוע הבא?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a1_salary_raise_v2_cover.jpg\"}"
     }
    }
   },
-  "s996835": {
+  "s997021": {
    "express": {
     "id": "x_b3_dont_know_v2",
-    "due": "2026-11-10T11:30:00+02:00",
+    "due": "2026-11-14T08:30:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_b3_dont_know_v2.mp4\", \"caption\": \"3 מילים שמאבדות לקוחות: I don't know. מה אומרים במקום 📞\\n\\n❓ When is delivery?\\n❌ I don't know.\\n✅ Good question. I'll check and get back to you by three.\\n(שאלה טובה. אבדוק ואחזור עד שלוש)\\n\\n❓ Why did it crash?\\n❌ I don't know.\\n✅ We're looking into it. I'll update you within the hour.\\n(אנחנו בודקים. אעדכן אותך תוך שעה)\\n\\n❓ What will it cost?\\n❌ I don't know.\\n✅ I'll send you a full quote by Monday.\\n(אשלח הצעת מחיר מלאה עד שני)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_b3_dont_know_v2_cover.jpg\"}"
     }
    }
   },
-  "s996836": {
-   "express": {
-    "id": "story_1110_e1",
-    "due": "2026-11-10T12:15:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"STORIES\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/stories/1110_e1_answer_walla.mp4\"}"
-    }
-   }
-  },
-  "s996838": {
+  "s997024": {
    "express": {
     "id": "x_slang_sababa",
-    "due": "2026-11-10T13:00:00+02:00",
+    "due": "2026-11-14T10:00:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_sababa_v2.mp4\", \"caption\": \"איך אומרים סבבה באנגלית? ☕\\n\\nקולגה שואל: Coffee at five?\\nסבבה בשיחה: Sounds good!\\nסבבה בעבודה: Works for me.\\n\\nומה לא? It's okay. זה נשמע כמו \\\"טוב, אם אין ברירה\\\". לא בדיוק סבבה 😅\\n\\nSababa in English: Sounds good (casual) or Works for me (at work). \\\"It's okay\\\" sounds like you're not happy about it.\\n\\nאיך אתם אומרים סבבה באנגלית בפגישה? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_sababa_cover.jpg\"}"
     }
    }
   },
-  "s996841": {
+  "s997027": {
    "express": {
     "id": "x_slang_chaval",
-    "due": "2026-11-10T14:30:00+02:00",
+    "due": "2026-11-14T11:30:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_chaval_v2.mp4\", \"caption\": \"חבל על הזמן באנגלית? רק לא מילה במילה 🙈\\n\\nבעברית חבל על הזמן זה מחמאה. באנגלית What a waste of time זה עלבון: \\\"בזבזת לי את הזמן\\\".\\n\\nחבל על הזמן בשיחה: This is amazing!\\nחבל על הזמן בעבודה: This is outstanding.\\n\\nChaval al hazman means \\\"amazing\\\". Never translate it as \\\"what a waste of time\\\".\\n\\nעוד ביטוי עברי שהפוך לגמרי באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_chaval_cover.jpg\"}"
     }
    }
   },
-  "s996844": {
+  "s997030": {
    "express": {
     "id": "x_slang_keta",
-    "due": "2026-11-10T16:00:00+02:00",
+    "due": "2026-11-14T13:00:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_keta_v2.mp4\", \"caption\": \"איזה קטע! ואיך אומרים את זה באנגלית? 😮\\n\\nאיזה קטע בשיחה: No way! What a coincidence!\\nאיזה קטע בעבודה: What a small world!\\n\\nומה לא? What a piece! היא תשאל: חתיכה של מה? 😅\\n\\nEize keta in English: No way! (casual) or What a small world! (at work).\\n\\nמתי אמרתם לאחרונה איזה קטע? כתבו בתגובות, באנגלית 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_keta_cover.jpg\"}"
     }
    }
   },
-  "s996847": {
+  "s997033": {
    "express": {
     "id": "x_slang_stam",
-    "due": "2026-11-10T17:30:00+02:00",
+    "due": "2026-11-14T14:30:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_stam_v2.mp4\", \"caption\": \"עשיתם צחוק בזום ואמרתם סתם. איך אומרים את זה באנגלית? 😄\\n\\nסתם בשיחה: Just kidding!\\nסתם בעבודה: I'm only joking.\\n\\nומה לא? Just! לבד. היא תחכה לסוף המשפט 😅\\n\\nStam in English: Just kidding! (casual) or I'm only joking (at work). \\\"Just!\\\" on its own leaves people waiting.\\n\\nאיך אתם אומרים סתם באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_stam_cover.jpg\"}"
     }
    }
   },
-  "s996848": {
-   "noam": {
-    "id": "story_1110_n1",
-    "due": "2026-11-10T18:15:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"STORIES\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/stories/1110_n1_guess_oldest_israel.mp4\"}"
-    }
-   }
-  },
-  "s996850": {
+  "s997036": {
    "express": {
     "id": "x_slang_bekatana",
-    "due": "2026-11-10T19:00:00+02:00",
+    "due": "2026-11-14T16:00:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_bekatana.mp4\", \"caption\": \"מישהו אומר לכם תודה. אתם עונים: בקטנה. ובאנגלית? 🤏\\n\\nבקטנה בשיחה: No big deal.\\nבקטנה בעבודה: Happy to help.\\n\\nומה לא? In the small. הוא עדיין מנסה להבין מה קטן 😅\\n\\nBekatana in English: No big deal (casual) or Happy to help (at work).\\n\\nמה עוד אתם אומרים בקטנה? נסו באנגלית בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_bekatana_cover.jpg\"}"
-    }
-   }
-  },
-  "s996853": {
-   "express": {
-    "id": "x_slang_al_hapanim",
-    "due": "2026-11-10T20:30:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_al_hapanim.mp4\", \"caption\": \"הפיץ' היה על הפנים. ואיך אומרים את זה באנגלית? 🫣\\n\\nעל הפנים בשיחה: It was awful.\\nעל הפנים בעבודה: It didn't go well.\\n\\nומה לא? It was on the face. היא תחפש את הפנים 😅\\n\\nAl hapanim in English: It was awful (casual) or It didn't go well (at work).\\n\\nמה היה על הפנים אצלכם השבוע? באנגלית, בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_al_hapanim_cover.jpg\"}"
-    }
-   },
-   "noam": {
-    "id": "colonization_wrong_v3",
-    "due": "2026-11-10T20:40:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonization_wrong_v3.mp4\", \"caption\": \"We suck at colonization. 📕\\n\\nEvery real empire followed the book:\\n🇪🇸 Spain took the silver of Potosí (from 1545)\\n🇧🇪 Belgium's King Leopold took Congo's rubber (1885 to 1908)\\n🇬🇧 Britain took India's cotton and sold back British cloth (1757 to 1947)\\n🇵🇹 Portugal shipped about 4.8 million enslaved Africans to Brazil\\n\\nIsrael? Failed every lesson.\\n❌ Pick a land with gold or oil: we picked swamps and desert. The big gas finds came in 2009 and 2010.\\n❌ Rule from a mother country: what mother country? Jews came fleeing Europe and the Arab world.\\n❌ Enslave the locals: Arab citizens vote (10 Knesset seats in 2022) and are 1 in 4 doctors and half of pharmacists.\\n❌ Let them get sick: health insurance for every resident since 1994, and Israeli hospitals treat Palestinian patients too.\\n❌ Ship the wealth back home: small problem, this is home.\\n\\nWow. We really missed the point. Jews, go figure. Maybe they have different intentions, and you just don't understand them.\\n\\nWe can show you how to build companies, but...\\n\\nאנחנו גרועים בקולוניזציה. כל אימפריה אמיתית לקחה את העושר הביתה. ישראל נכשלה בכל השיעורים: אין נפט, אין ארץ אם, ערבים אזרחי ישראל מצביעים ומהווים רבע מהרופאים, וביטוח בריאות לכל תושב. יהודים, לך תבין.\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nMaps: Natural Earth (public domain). Sources: Britannica (Potosí; Congo Free State; British raj; Israel; West Bank); Roy, Australian Economic History Review, 2007; SlaveVoyages.org (Eltis); Tamar gas field, Jan 2009 and Leviathan, Dec 2010 (Noble Energy); Knesset election results, Nov 2022; Rosen and Miaari, Israel Journal of Health Policy Research, Feb 2025; National Health Insurance Law, 1994; WHO oPt monthly report, Dec 2022; Al Jazeera, 10 Oct 2026 (PA vote postponed to Sept 2027).\\n\\n#Israel #History #Colonization #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonization_wrong_v3_cover.jpg\"}"
     }
    }
   },
@@ -1047,6 +977,15 @@
     }
    }
   },
+  "s996860": {
+   "noam": {
+    "id": "colonization_wrong_v3",
+    "due": "2026-11-11T00:10:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonization_wrong_v3.mp4\", \"caption\": \"We suck at colonization. 📕\\n\\nEvery real empire followed the book:\\n🇪🇸 Spain took the silver of Potosí (from 1545)\\n🇧🇪 Belgium's King Leopold took Congo's rubber (1885 to 1908)\\n🇬🇧 Britain took India's cotton and sold back British cloth (1757 to 1947)\\n🇵🇹 Portugal shipped about 4.8 million enslaved Africans to Brazil\\n\\nIsrael? Failed every lesson.\\n❌ Pick a land with gold or oil: we picked swamps and desert. The big gas finds came in 2009 and 2010.\\n❌ Rule from a mother country: what mother country? Jews came fleeing Europe and the Arab world.\\n❌ Enslave the locals: Arab citizens vote (10 Knesset seats in 2022) and are 1 in 4 doctors and half of pharmacists.\\n❌ Let them get sick: health insurance for every resident since 1994, and Israeli hospitals treat Palestinian patients too.\\n❌ Ship the wealth back home: small problem, this is home.\\n\\nWow. We really missed the point. Jews, go figure. Maybe they have different intentions, and you just don't understand them.\\n\\nWe can show you how to build companies, but...\\n\\nאנחנו גרועים בקולוניזציה. כל אימפריה אמיתית לקחה את העושר הביתה. ישראל נכשלה בכל השיעורים: אין נפט, אין ארץ אם, ערבים אזרחי ישראל מצביעים ומהווים רבע מהרופאים, וביטוח בריאות לכל תושב. יהודים, לך תבין.\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nMaps: Natural Earth (public domain). Sources: Britannica (Potosí; Congo Free State; British raj; Israel; West Bank); Roy, Australian Economic History Review, 2007; SlaveVoyages.org (Eltis); Tamar gas field, Jan 2009 and Leviathan, Dec 2010 (Noble Energy); Knesset election results, Nov 2022; Rosen and Miaari, Israel Journal of Health Policy Research, Feb 2025; National Health Insurance Law, 1994; WHO oPt monthly report, Dec 2022; Al Jazeera, 10 Oct 2026 (PA vote postponed to Sept 2027).\\n\\n#Israel #History #Colonization #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonization_wrong_v3_cover.jpg\"}"
+    }
+   }
+  },
   "s996857": {
    "noam": {
     "id": "persecution_hook2_v3",
@@ -1064,17 +1003,8 @@
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/syria_pov_v3.mp4\", \"caption\": \"You're Israel. The army next door just vanished. What do you do? 🎯\\n\\n📅 December 2024: Assad falls. HTS-led rebels take Damascus, and Syria's troops leave the border.\\n📜 The 1974 buffer zone deal? Israel says it collapsed.\\n\\nOption 1: wait. Option 2: move in. Option 3: strike the weapons before armed groups get them.\\n\\nIsrael chose 2 and 3: it moved into the buffer zone, up to Mount Hermon, and struck the old army's weapons.\\nSince then: rockets at the Golan (June 2025), and deadly clashes in Sweida, where Israel struck Syrian forces saying it was protecting the Druze (July 2025).\\n\\nWhat would YOU do? Tell me in the comments 👇\\n\\nאתם ישראל. הצבא של השכנים נעלם. לחכות, להיכנס, או לתקוף את הנשק? ישראל בחרה להיכנס ולתקוף. האו״ם וסוריה קוראים לזה הפרה. מה אתם הייתם עושים? 👇\\n\\n👥 Tag a friend who needs to see this 👇\\nתייגו חבר שחייב לראות את זה 👇\\n\\nSources: AFP and Reuters, 8 Dec 2024; UN spokesperson Stephane Dujarric, 9 Dec 2024; AAP, 10 Dec 2024; ACLED, 19 Dec 2024; Times of Israel, 3 Jun 2025; NPR, 16 Jul 2025; Reuters via Al-Monitor, 24 Aug 2026; map: Natural Earth\\n\\n#Israel #Syria #Golan #MiddleEast #ישראל #סוריה\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/syria_pov_v3_cover.jpg\"}"
     }
    }
-  },
-  "s996852": {
-   "noam": {
-    "id": "roth_life_stages",
-    "due": "2026-11-10T20:05:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/out/roth_life_stages.mp4\", \"caption\": \"Rothschild grew up. Then what? 👶\\n\\nRoth-child, Roth-teen, Roth-shield, Roth-adult, Roth-chilled, Roth-shtick, Roth-schnitzel, Roth-schmooze, Roth 'n' roll. Then someone ate his schnitzel: the Wrath-schild. Now he's retired with a Roth IRA.\\n\\nA silly name game, nothing more. Which stage are you at?\\n\\nרוטשילד גדל. ומה אז? 👶\\nמשחק מילים אחד על שם אחד, מהעריסה ועד הפנסיה. באיזה שלב אתם?\\n\\nTag the Roth in your life.\\n\\n#JewishHumor #Wordplay #Israel\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/roth_life_stages_cover.jpg\"}"
-    }
-   }
   }
  },
- "due_buckets": "|996832|996835|996836|996838|996841|996844|996847|996848|996850|996852|996853|996855|996857|996859|996861|996874|996877|996880|996883|996886|996889|996892|996895|996898|996903|996907|996922|996925|996928|996931|996934|996936|996937|996938|996940|996942|996943|996944|996946|996949|996951|996953|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|",
- "generated_at": "2026-11-10T15:23:03+00:00"
+ "due_buckets": "|996855|996857|996859|996860|996861|996874|996877|996880|996883|996886|996889|996892|996895|996898|996903|996907|996922|996925|996928|996931|996934|996936|996937|996938|996940|996942|996943|996944|996946|996949|996951|996953|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|997018|997021|997024|997027|997030|997033|997036|",
+ "generated_at": "2026-11-10T19:32:12+00:00"
 }
