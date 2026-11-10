@@ -1,0 +1,8 @@
+{
+  "id": "x_slang_haketa",
+  "ok": true,
+  "rc": "0",
+  "secs": "30",
+  "run": "42768140379",
+  "log": "sudo: preserving the entire environment is not supported, '-E' is ignored\n[   3.4s] [sse] 43 words timed from Cartesia timestamps, k 0.9996\n[   3.4s] voice 23.28s, lines 0.30-2.16, 3.16-4.30, 6.65-7.66, 10.01-12.19, 14.34-15.62, 17.11-18.07, 19.56-20.39, 21.88-23.26\n[   3.5s] timeline: 3 scenes, T_END 25.90s, warnings []\n[   5.1s] [mix] input -21.5 LUFS, gain +6.3 dB, 7 SFX -> /home/claude/express_slang/x_slang_haketa/out/work/mix.wav\n[   5.2s] [render] frame 0/777  0s\n[   8.6s] [render] frame 150/777  3s\n[  11.9s] [render] frame 300/777  7s\n[  15.1s] [render] frame 450/777  10s\n[  18.3s] [render] frame 600/777  13s\n[  21.5s] [render] frame 750/777  16s\n\nvideo 1080x1920 30/1 25.9s aac 48000 Hz: -16.1 LUFS, TP -2.1 dBTP, 3.34 MB (CHECK)\nweb 540x960 1.45 MB (ok), -16.1 LUFS, TP -2.1\nhook: ok (frame-0 text 10, motion 2.37)\ndashes: ok (0 replaced)\nlayout issues: 20\nstages {'voice_align_s': 2.0, 'timeline_s': 0.1, 'mix_s': 1.6, 'render_s': 18.0, 'web_s': 4.7, 'qa_s': 2.1, 'total_s': 29.8}\n"
+}
