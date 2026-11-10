@@ -458,7 +458,7 @@ def cover(S, final, out_jpg):
     C = S.get("cover") or {}; d = dur_of(final)
     if C.get("bg", "frame") == "frame":
         bg = grab(final, float(C.get("t", d * 0.6))).astype(np.float32)
-        bg = cv2.GaussianBlur(bg, (0, 0), C.get("blur", 12)) * 0.45
+        bg = cv2.GaussianBlur(bg, (0, 0), C.get("blur", 18)) * 0.42
     else: bg = BG.copy()
     y = np.arange(H, dtype=np.float32)[:, None, None] / H
     bg = bg * (1 - 0.35 * np.clip(1 - np.abs(y - 0.5) * 2.2, 0, 1)) + np.array([97, 50, 22], np.float32) * 0.35 * np.clip(1 - np.abs(y - 0.5) * 2.2, 0, 1)
@@ -488,7 +488,7 @@ def finish(S, final, extra):
     rep = dict(id=sid, account=S.get("account"), template=S.get("template"), hook=S.get("hook"), duration=round(d, 2),
                audio=measure(final), outputs=dict(mp4=f"out/{sid}.mp4", cover=f"covers/{sid}_cover.jpg", preview=f"previews/{sid}_540.mp4"),
                frames=frames, caption_en=S.get("caption_en"), caption_he=S.get("caption_he"), hashtags=S.get("hashtags"),
-               sources=S.get("sources"), min_font_px=MINSZ[0] if MINSZ[0] < 999 else None, transcript=None, status="rendered, not posted")
+               sources=S.get("sources"), transcript=None, status="rendered, not posted")
     rep.update(extra)
     json.dump(rep, open(os.path.join(REPO, "out", f"{sid}.report.json"), "w"), indent=1, ensure_ascii=False)
     return rep

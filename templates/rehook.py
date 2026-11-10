@@ -1,7 +1,7 @@
 """rehook: a new hook on a published reel. Takes the reel mp4 from the repo, cuts its first seconds (the old hook) at
 `cut`, puts a new hook card in front (max 6 words with a number, on screen at frame 0, a count-up moving by 1.5 s over
-a blurred, slowly zooming peek of the reel's own reveal), keeps the body untouched, and dissolves the last 0.5 s into
-the new frame 0 (circular). New cover from the new hook. No new voice needed (the card runs on music and SFX);
+a blurred, slowly zooming peek of the reel's own reveal), keeps the body untouched, and dissolves the last 1 s into
+the new frame 0 (circular, starts before the source's own loop dissolve). New cover from the new hook. No new voice needed (the card runs on music and SFX);
 add "hook_say" + the Cartesia secret later if a spoken hook is wanted.
 
 data keys:
@@ -56,7 +56,7 @@ def run(S):
     sf.write(f"{work}/card.wav", a.T.astype(np.float32), SR)
     # 2. body: source from cut, last 0.5 s dissolving into the new frame 0
     f0 = f"{work}/f0.png"; cv2.imwrite(f0, frame(0.0)); BL = L - cut
-    fc = (f"[0:v]scale={W}:{H},fps={FPS},setsar=1,format=yuv420p[b];[1:v]format=rgba,fade=in:st={BL - 0.5:.3f}:d=0.5:alpha=1[o];"
+    fc = (f"[0:v]scale={W}:{H},fps={FPS},setsar=1,format=yuv420p[b];[1:v]format=rgba,fade=in:st={BL - 1.0:.3f}:d=0.9:alpha=1[o];"
           f"[b][o]overlay=shortest=1:format=auto,format=yuv420p[v]")
     body = f"{work}/body.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{cut:.3f}", "-i", src, "-loop", "1", "-framerate", str(FPS), "-t", f"{BL:.3f}", "-i", f0,

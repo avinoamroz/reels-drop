@@ -23,7 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 50
           filter: blob:none
           sparse-checkout: specs
       - id: p
@@ -95,11 +95,12 @@ jobs:
           CARTESIA_API_KEY: ${{ secrets.CARTESIA_API_KEY }}
         run: |
           if [ -z "$CARTESIA_API_KEY" ]; then echo "CARTESIA_API_KEY not set: using voice/${ID}_*.wav from the repo if present"; fi
+          set -o pipefail
           python templates/render.py "$SPEC" --voice-only 2>&1 | tee /tmp/log.txt
       - name: Render
         id: r
         run: |
-          START=$(date +%s)
+          set -o pipefail; START=$(date +%s)
           python templates/render.py "$SPEC" 2>&1 | tee -a /tmp/log.txt
           echo "secs=$(( $(date +%s) - START ))" >> "$GITHUB_OUTPUT"
           test -s "out/$ID.mp4" && test -s "out/$ID.report.json"
