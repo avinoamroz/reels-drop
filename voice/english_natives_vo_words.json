@@ -1,507 +1,727 @@
 [
 {
 "word": "One",
-"start": 0.01547997,
+"start": 0.21671958,
 "end": 0.38699925
 },
 {
 "word": "and",
 "start": 0.38699925,
-"end": 0.52631897
+"end": 0.510839
 },
 {
 "word": "a",
-"start": 0.52631897,
-"end": 0.55727893
+"start": 0.510839,
+"end": 0.54179895
 },
 {
 "word": "half",
-"start": 0.55727893,
-"end": 0.86687833
+"start": 0.54179895,
+"end": 0.7585185
 },
 {
 "word": "billion",
-"start": 0.9133182,
-"end": 1.3931973
+"start": 0.7585185,
+"end": 1.1764777
 },
 {
 "word": "people",
-"start": 1.3931973,
-"end": 1.7647165
+"start": 1.1764777,
+"end": 1.5634769
 },
 {
 "word": "speak",
-"start": 1.7647165,
-"end": 2.0278761
+"start": 1.5944369,
+"end": 1.8885564
 },
 {
 "word": "English.",
-"start": 2.0278761,
-"end": 2.6625547
+"start": 1.8885564,
+"end": 2.4303553
 },
 {
 "word": "How",
-"start": 2.9257143,
-"end": 3.142434
+"start": 3.095994,
+"end": 3.2662737
 },
 {
 "word": "many",
-"start": 3.142434,
-"end": 3.4365532
+"start": 3.2662737,
+"end": 3.5139532
 },
 {
 "word": "are",
-"start": 3.4365532,
-"end": 3.529433
+"start": 3.5139532,
+"end": 3.606833
 },
 {
 "word": "native",
-"start": 3.529433,
-"end": 3.7925925
+"start": 3.606833,
+"end": 3.8699925
 },
 {
 "word": "speakers?",
-"start": 3.7925925,
-"end": 4.3963113
+"start": 3.8699925,
+"end": 4.504671
 },
 {
 "word": "Here's",
-"start": 4.520151,
-"end": 4.783311
+"start": 4.89167,
+"end": 5.15483
 },
 {
-"word": "Ethnologue's",
-"start": 4.783311,
-"end": 5.3870296
+"word": "the",
+"start": 5.15483,
+"end": 5.2477098
 },
 {
 "word": "count",
-"start": 5.3870296,
-"end": 5.665669
-},
-{
-"word": "for",
-"start": 5.665669,
-"end": 5.774029
-},
-{
-"word": "twenty",
-"start": 5.774029,
-"end": 6.052668
-},
-{
-"word": "twenty",
-"start": 6.052668,
-"end": 6.2539077
-},
-{
-"word": "five.",
-"start": 6.2539077,
-"end": 6.733787
-},
-{
-"word": "America,",
-"start": 7.0433865,
-"end": 7.693545
-},
-{
-"word": "Britain,",
-"start": 7.724505,
-"end": 8.126985
-},
-{
-"word": "Canada,",
-"start": 8.126985,
-"end": 8.715223
-},
-{
-"word": "Australia,",
-"start": 8.777143,
-"end": 9.535662
-},
-{
-"word": "Ireland,",
-"start": 9.613061,
-"end": 10.0465
-},
-{
-"word": "New",
-"start": 10.0465,
-"end": 10.1239
-},
-{
-"word": "Zealand.",
-"start": 10.1239,
-"end": 10.52638
-},
-{
-"word": "Native",
-"start": 10.758579,
-"end": 11.052698
-},
-{
-"word": "speakers:",
-"start": 11.052698,
-"end": 11.656417
-},
-{
-"word": "three",
-"start": 11.904097,
-"end": 12.167256
-},
-{
-"word": "hundred",
-"start": 12.167256,
-"end": 12.476855
-},
-{
-"word": "and",
-"start": 12.476855,
-"end": 12.5542555
-},
-{
-"word": "ninety",
-"start": 12.5542555,
-"end": 12.832895
-},
-{
-"word": "million.",
-"start": 12.832895,
-"end": 13.188934
-},
-{
-"word": "Now",
-"start": 13.436614,
-"end": 13.823613
-},
-{
-"word": "add",
-"start": 13.823613,
-"end": 14.148692
-},
-{
-"word": "everyone",
-"start": 14.148692,
-"end": 14.659532
-},
-{
-"word": "who",
-"start": 14.659532,
-"end": 14.783371
-},
-{
-"word": "learned",
-"start": 14.783371,
-"end": 15.015571
-},
-{
-"word": "it.",
-"start": 15.015571,
-"end": 15.20133
-},
-{
-"word": "India.",
-"start": 15.43353,
-"end": 15.805049
-},
-{
-"word": "Nigeria.",
-"start": 15.836009,
-"end": 16.346848
-},
-{
-"word": "The",
-"start": 16.517128,
-"end": 16.640968
-},
-{
-"word": "Philippines.",
-"start": 16.640968,
-"end": 17.244686
-},
-{
-"word": "Germany.",
-"start": 17.569765,
-"end": 18.049644
-},
-{
-"word": "Israel.",
-"start": 18.204445,
-"end": 18.653364
-},
-{
-"word": "One",
-"start": 19.009403,
-"end": 19.334482
-},
-{
-"word": "point",
-"start": 19.334482,
-"end": 19.489283
-},
-{
-"word": "one",
-"start": 19.520243,
-"end": 19.876282
-},
-{
-"word": "billion",
-"start": 19.876282,
-"end": 20.23232
-},
-{
-"word": "learners.",
-"start": 20.23232,
-"end": 20.69672
-},
-{
-"word": "That's",
-"start": 20.74316,
-"end": 20.990839
-},
-{
-"word": "about",
-"start": 20.990839,
-"end": 21.19208
-},
-{
-"word": "three",
-"start": 21.19208,
-"end": 21.377838
-},
-{
-"word": "out",
-"start": 21.377838,
-"end": 21.501678
-},
-{
-"word": "of",
-"start": 21.501678,
-"end": 21.563599
-},
-{
-"word": "four",
-"start": 21.563599,
-"end": 21.795797
-},
-{
-"word": "English",
-"start": 21.795797,
-"end": 22.074436
-},
-{
-"word": "speakers.",
-"start": 22.074436,
-"end": 22.523355
-},
-{
-"word": "They",
-"start": 22.693636,
-"end": 22.832956
-},
-{
-"word": "learned",
-"start": 22.832956,
-"end": 23.111595
-},
-{
-"word": "it.",
-"start": 23.281874,
-"end": 23.374754
-},
-{
-"word": "Like",
-"start": 23.374754,
-"end": 23.498594
-},
-{
-"word": "you.",
-"start": 23.498594,
-"end": 23.715313
-},
-{
-"word": "No",
-"start": 23.947514,
-"end": 24.195192
-},
-{
-"word": "language",
-"start": 24.195192,
-"end": 24.520271
-},
-{
-"word": "on",
-"start": 24.520271,
-"end": 24.675072
-},
-{
-"word": "Earth",
-"start": 24.706032,
-"end": 24.90727
-},
-{
-"word": "has",
-"start": 24.90727,
-"end": 25.06207
-},
-{
-"word": "more",
-"start": 25.06207,
-"end": 25.232351
-},
-{
-"word": "learners.",
-"start": 25.232351,
-"end": 25.71223
-},
-{
-"word": "That's",
-"start": 25.774149,
-"end": 26.05279
-},
-{
-"word": "why",
-"start": 26.05279,
-"end": 26.223068
-},
-{
-"word": "business",
-"start": 26.284988,
-"end": 26.795828
-},
-{
-"word": "runs",
-"start": 26.795828,
-"end": 27.074467
-},
-{
-"word": "on",
-"start": 27.074467,
-"end": 27.182827
-},
-{
-"word": "it,",
-"start": 27.182827,
-"end": 27.306667
+"start": 5.2477098,
+"end": 5.526349
 },
 {
 "word": "from",
-"start": 27.399546,
-"end": 27.631746
+"start": 5.526349,
+"end": 5.665669
 },
 {
-"word": "Tel",
-"start": 27.631746,
-"end": 27.879425
+"word": "Ethnologue,",
+"start": 5.665669,
+"end": 6.207468
 },
 {
-"word": "Aviv",
-"start": 27.879425,
+"word": "for",
+"start": 6.2693877,
+"end": 6.4551473
+},
+{
+"word": "twenty",
+"start": 6.4551473,
+"end": 6.687347
+},
+{
+"word": "twenty",
+"start": 6.687347,
+"end": 6.9040666
+},
+{
+"word": "five.",
+"start": 6.9040666,
+"end": 7.322026
+},
+{
+"word": "America,",
+"start": 7.9567046,
+"end": 8.544943
+},
+{
+"word": "Britain,",
+"start": 8.916463,
+"end": 9.365381
+},
+{
+"word": "Canada,",
+"start": 9.427301,
+"end": 9.953621
+},
+{
+"word": "Australia,",
+"start": 10.3561,
+"end": 11.006259
+},
+{
+"word": "Ireland,",
+"start": 11.1920185,
+"end": 11.702857
+},
+{
+"word": "New",
+"start": 11.764777,
+"end": 11.935057
+},
+{
+"word": "Zealand.",
+"start": 11.935057,
+"end": 12.337536
+},
+{
+"word": "The",
+"start": 13.018655,
+"end": 13.142494
+},
+{
+"word": "countries",
+"start": 13.142494,
+"end": 13.529493
+},
+{
+"word": "where",
+"start": 13.529493,
+"end": 13.622374
+},
+{
+"word": "most",
+"start": 13.622374,
+"end": 13.885533
+},
+{
+"word": "people",
+"start": 13.885533,
+"end": 14.133212
+},
+{
+"word": "grow",
+"start": 14.133212,
+"end": 14.334452
+},
+{
+"word": "up",
+"start": 14.334452,
+"end": 14.489252
+},
+{
+"word": "with",
+"start": 14.489252,
+"end": 14.613091
+},
+{
+"word": "English.",
+"start": 14.613091,
+"end": 15.123931
+},
+{
+"word": "Native",
+"start": 15.6657295,
+"end": 15.928889
+},
+{
+"word": "speakers:",
+"start": 15.928889,
+"end": 16.563568
+},
+{
+"word": "three",
+"start": 16.950567,
+"end": 17.167286
+},
+{
+"word": "hundred",
+"start": 17.167286,
+"end": 17.337566
+},
+{
+"word": "and",
+"start": 17.337566,
+"end": 17.430447
+},
+{
+"word": "ninety",
+"start": 17.430447,
+"end": 17.616205
+},
+{
+"word": "million.",
+"start": 17.616205,
+"end": 17.941284
+},
+{
+"word": "Now",
+"start": 18.188965,
+"end": 18.359243
+},
+{
+"word": "add",
+"start": 18.359243,
+"end": 18.653364
+},
+{
+"word": "everyone",
+"start": 18.653364,
+"end": 19.055843
+},
+{
+"word": "who",
+"start": 19.055843,
+"end": 19.164202
+},
+{
+"word": "learned",
+"start": 19.164202,
+"end": 19.442842
+},
+{
+"word": "it,",
+"start": 19.442842,
+"end": 19.56668
+},
+{
+"word": "at",
+"start": 19.613121,
+"end": 19.767921
+},
+{
+"word": "school,",
+"start": 19.767921,
+"end": 20.27876
+},
+{
+"word": "at",
+"start": 20.340681,
+"end": 20.5574
+},
+{
+"word": "work,",
+"start": 20.5574,
+"end": 20.913439
+},
+{
+"word": "or",
+"start": 21.06824,
+"end": 21.1766
+},
+{
+"word": "on",
+"start": 21.1766,
+"end": 21.300438
+},
+{
+"word": "their",
+"start": 21.300438,
+"end": 21.424278
+},
+{
+"word": "own.",
+"start": 21.424278,
+"end": 21.687437
+},
+{
+"word": "India.",
+"start": 22.260197,
+"end": 22.678156
+},
+{
+"word": "Nigeria.",
+"start": 23.281874,
+"end": 23.854633
+},
+{
+"word": "The",
+"start": 23.993954,
+"end": 24.117792
+},
+{
+"word": "Philippines.",
+"start": 24.117792,
+"end": 24.721512
+},
+{
+"word": "Germany.",
+"start": 24.829872,
+"end": 25.263311
+},
+{
+"word": "Israel.",
+"start": 25.82059,
+"end": 26.300468
+},
+{
+"word": "And",
+"start": 26.671988,
+"end": 26.780348
+},
+{
+"word": "many",
+"start": 26.780348,
+"end": 26.935148
+},
+{
+"word": "more.",
+"start": 26.935148,
+"end": 27.229267
+},
+{
+"word": "One",
+"start": 27.569826,
+"end": 27.771067
+},
+{
+"word": "point",
+"start": 27.771067,
+"end": 27.894905
+},
+{
+"word": "one",
+"start": 27.894905,
 "end": 28.142586
 },
 {
-"word": "to",
+"word": "billion",
 "start": 28.142586,
-"end": 28.235464
+"end": 28.405745
 },
 {
-"word": "Tokyo.",
-"start": 28.235464,
-"end": 28.746304
+"word": "learners.",
+"start": 28.405745,
+"end": 28.916584
 },
 {
-"word": "Your",
-"start": 29.133303,
-"end": 29.350023
+"word": "Almost",
+"start": 29.272623,
+"end": 29.582222
 },
 {
-"word": "accent",
-"start": 29.350023,
-"end": 29.767982
+"word": "three",
+"start": 29.582222,
+"end": 29.752502
 },
 {
-"word": "isn't",
-"start": 29.767982,
-"end": 30.031141
-},
-{
-"word": "the",
-"start": 30.031141,
-"end": 30.124022
-},
-{
-"word": "exception.",
-"start": 30.124022,
-"end": 30.69678
-},
-{
-"word": "It's",
-"start": 30.72774,
-"end": 30.9135
+"word": "times",
+"start": 29.752502,
+"end": 29.969221
 },
 {
 "word": "the",
-"start": 30.9135,
-"end": 30.9909
+"start": 29.969221,
+"end": 30.062101
 },
 {
-"word": "majority.",
-"start": 30.9909,
-"end": 31.501738
+"word": "natives.",
+"start": 30.062101,
+"end": 30.54198
 },
 {
-"word": "So",
-"start": 31.842299,
-"end": 32.074497
+"word": "That's",
+"start": 30.86706,
+"end": 31.083778
 },
 {
-"word": "next",
-"start": 32.074497,
-"end": 32.353138
+"word": "about",
+"start": 31.083778,
+"end": 31.285019
 },
 {
-"word": "time",
-"start": 32.353138,
-"end": 32.523415
+"word": "three",
+"start": 31.285019,
+"end": 31.563658
 },
 {
-"word": "you're",
-"start": 32.523415,
-"end": 32.647255
+"word": "out",
+"start": 31.563658,
+"end": 31.702978
 },
 {
-"word": "scared",
-"start": 32.647255,
+"word": "of",
+"start": 31.702978,
+"end": 31.764898
+},
+{
+"word": "four",
+"start": 31.764898,
+"end": 32.151897
+},
+{
+"word": "English",
+"start": 32.151897,
+"end": 32.43054
+},
+{
+"word": "speakers.",
+"start": 32.43054,
 "end": 32.941376
 },
 {
+"word": "They",
+"start": 33.204536,
+"end": 33.359333
+},
+{
+"word": "learned",
+"start": 33.359333,
+"end": 33.560574
+},
+{
+"word": "it.",
+"start": 33.560574,
+"end": 33.715374
+},
+{
+"word": "Like",
+"start": 34.071415,
+"end": 34.28813
+},
+{
+"word": "you.",
+"start": 34.28813,
+"end": 34.520332
+},
+{
+"word": "No",
+"start": 34.891853,
+"end": 35.09309
+},
+{
+"word": "language",
+"start": 35.09309,
+"end": 35.43365
+},
+{
+"word": "on",
+"start": 35.43365,
+"end": 35.54201
+},
+{
+"word": "Earth",
+"start": 35.54201,
+"end": 35.75873
+},
+{
+"word": "has",
+"start": 35.75873,
+"end": 35.91353
+},
+{
+"word": "more",
+"start": 35.91353,
+"end": 36.08381
+},
+{
+"word": "learners.",
+"start": 36.08381,
+"end": 36.59465
+},
+{
+"word": "Not",
+"start": 37.043568,
+"end": 37.29125
+},
+{
+"word": "Spanish,",
+"start": 37.29125,
+"end": 37.771126
+},
+{
+"word": "not",
+"start": 37.833046,
+"end": 38.034286
+},
+{
+"word": "French,",
+"start": 38.034286,
+"end": 38.483204
+},
+{
+"word": "not",
+"start": 38.576084,
+"end": 38.761845
+},
+{
+"word": "Mandarin.",
+"start": 38.761845,
+"end": 39.11788
+},
+{
+"word": "That's",
+"start": 39.566803,
+"end": 39.799004
+},
+{
+"word": "why",
+"start": 39.799004,
+"end": 39.92284
+},
+{
+"word": "business",
+"start": 39.92284,
+"end": 40.2634
+},
+{
+"word": "runs",
+"start": 40.2634,
+"end": 40.4956
+},
+{
+"word": "on",
+"start": 40.4956,
+"end": 40.650402
+},
+{
+"word": "it,",
+"start": 40.650402,
+"end": 40.77424
+},
+{
+"word": "from",
+"start": 41.16124,
+"end": 41.36248
+},
+{
+"word": "Tel",
+"start": 41.36248,
+"end": 41.54824
+},
+{
+"word": "Aviv",
+"start": 41.54824,
+"end": 41.780437
+},
+{
 "word": "to",
-"start": 32.941376,
-"end": 33.003296
+"start": 41.780437,
+"end": 41.904278
+},
+{
+"word": "Tokyo,",
+"start": 41.904278,
+"end": 42.3532
+},
+{
+"word": "from",
+"start": 42.662796,
+"end": 42.802116
+},
+{
+"word": "Lagos",
+"start": 42.802116,
+"end": 43.173637
+},
+{
+"word": "to",
+"start": 43.173637,
+"end": 43.281994
+},
+{
+"word": "Berlin.",
+"start": 43.281994,
+"end": 43.653515
+},
+{
+"word": "Your",
+"start": 44.427513,
+"end": 44.582314
+},
+{
+"word": "accent",
+"start": 44.582314,
+"end": 45.00027
+},
+{
+"word": "isn't",
+"start": 45.00027,
+"end": 45.26343
+},
+{
+"word": "the",
+"start": 45.26343,
+"end": 45.35631
+},
+{
+"word": "exception.",
+"start": 45.35631,
+"end": 45.83619
+},
+{
+"word": "It's",
+"start": 46.532787,
+"end": 46.672108
+},
+{
+"word": "the",
+"start": 46.672108,
+"end": 46.764988
+},
+{
+"word": "majority.",
+"start": 46.764988,
+"end": 47.24487
+},
+{
+"word": "Most",
+"start": 47.925987,
+"end": 48.189144
+},
+{
+"word": "of",
+"start": 48.189144,
+"end": 48.251064
+},
+{
+"word": "the",
+"start": 48.251064,
+"end": 48.343945
+},
+{
+"word": "world",
+"start": 48.343945,
+"end": 48.638065
+},
+{
+"word": "sounds",
+"start": 48.638065,
+"end": 48.916706
+},
+{
+"word": "like",
+"start": 48.916706,
+"end": 49.148903
+},
+{
+"word": "you.",
+"start": 49.148903,
+"end": 49.412064
+},
+{
+"word": "So",
+"start": 49.89194,
+"end": 50.10866
+},
+{
+"word": "next",
+"start": 50.10866,
+"end": 50.356342
+},
+{
+"word": "time",
+"start": 50.356342,
+"end": 50.526623
+},
+{
+"word": "you're",
+"start": 50.526623,
+"end": 50.65046
+},
+{
+"word": "scared",
+"start": 50.65046,
+"end": 50.91362
+},
+{
+"word": "to",
+"start": 50.91362,
+"end": 51.0065
 },
 {
 "word": "speak",
-"start": 33.003296,
-"end": 33.312897
+"start": 51.0065,
+"end": 51.19226
 },
 {
 "word": "in",
-"start": 33.312897,
-"end": 33.374813
+"start": 51.19226,
+"end": 51.28514
 },
 {
 "word": "a",
-"start": 33.374813,
-"end": 33.405773
+"start": 51.28514,
+"end": 51.3161
 },
 {
 "word": "meeting,",
-"start": 33.405773,
-"end": 33.823734
+"start": 51.3161,
+"end": 51.7031
 },
 {
 "word": "remember:",
-"start": 33.994015,
-"end": 34.504852
+"start": 52.18298,
+"end": 52.693817
 }
 ]

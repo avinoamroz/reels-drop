@@ -3,10 +3,10 @@
  "account": "expressenglishcom",
  "template": "map_counter",
  "hook": "*1.5 billion* speak English.|Natives?",
- "duration": 36.97,
+ "duration": 51.03,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -0.6
+  "lufs": -16.1,
+  "true_peak": -1.4
  },
  "outputs": {
   "mp4": "out/english_natives.mp4",
@@ -34,7 +34,7 @@
   }
  ],
  "transcript": {
-  "score": 0.98,
+  "score": 0.959,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -43,12 +43,12 @@
     "flag": "ok"
    },
    {
-    "line": "Here's Ethnologue's count for twenty twenty five.",
-    "score": 0.714,
-    "flag": "MISS"
+    "line": "Here's the count from Ethnologue, for twenty twenty five.",
+    "score": 0.889,
+    "flag": "ok"
    },
    {
-    "line": "America, Britain, Canada, Australia, Ireland, New Zealand.",
+    "line": "America, Britain, Canada, Australia, Ireland, New Zealand. The countries where most people grow up with English.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -58,19 +58,19 @@
     "flag": "ok"
    },
    {
-    "line": "Now add everyone who learned it.",
+    "line": "Now add everyone who learned it, at school, at work, or on their own.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "India. Nigeria. The Philippines. Germany. Israel.",
+    "line": "India. Nigeria. The Philippines. Germany. Israel. And many more.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "One point one billion learners.",
-    "score": 1.0,
-    "flag": "ok"
+    "line": "One point one billion learners. Almost three times the natives.",
+    "score": 0.7,
+    "flag": "MISS"
    },
    {
     "line": "That's about three out of four English speakers. They learned it. Like you.",
@@ -78,41 +78,41 @@
     "flag": "ok"
    },
    {
-    "line": "No language on Earth has more learners.",
+    "line": "No language on Earth has more learners. Not Spanish, not French, not Mandarin.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "That's why business runs on it, from Tel Aviv to Tokyo.",
-    "score": 1.0,
+    "line": "That's why business runs on it, from Tel Aviv to Tokyo, from Lagos to Berlin.",
+    "score": 0.933,
     "flag": "ok"
    },
    {
-    "line": "Your accent isn't the exception. It's the majority.",
+    "line": "Your accent isn't the exception. It's the majority. Most of the world sounds like you.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "So next time you're scared to speak in a meeting, remember:",
-    "score": 1.0,
+    "score": 0.909,
     "flag": "ok"
    }
   ],
-  "heard": "One and a half billion people speak English. How many are native speakers? Here's how analogs count for 2025. America, Britain, Canada, Australia, Ireland, New Zealand. Native speakers, 390 million. Now add everyone who learned it. India, Nigeria, the Philippines, Germany, Israel. One point one billion learners. That's about three out of four English speakers. They learned it, like you. No language on earth has more learners. That's why business runs on it, from Tel Aviv to Tokyo. Your accent isn't the exception, it's the majority. So next time you're scared to speak in a meeting, remember.",
+  "heard": "One and a half billion people speak English. How many are native speakers? Here's the count from Ethnologue for 2025. America, Britain, Canada, Australia, Ireland, New Zealand. The countries where most people grow up with English. Native speakers. 390 million. Now add everyone who learned it at school, at work, or on their own. India. Nigeria. The Philippines. Germany. Israel. And many more. 1.1 billion learners. natives. That's about three out of four English speakers. They learned it. Like you. No language on earth has more learners. Not Spanish, not French, not Mandarin. That's why business runs on it. From Tel Aviv to Tokyo. From Lagasse to Berlin. Your accent isn't the exception. It's the majority. Most of the world sounds like you. So next time you're scared to speak at a meeting, remember.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 35.48,
+ "body_s": 49.54,
  "opener": {
   "style": "globe_spin_reverse",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -1.8
+  "lufs": -16.2,
+  "true_peak": -1.2
  },
  "lint_warnings": [],
- "render_s": 182.6
+ "render_s": 204.7
 }
