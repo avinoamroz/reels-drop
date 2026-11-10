@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*96%* of executions|happen where?",
- "duration": 49.87,
+ "duration": 54.67,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -1.4
+  "true_peak": -1.5
  },
  "outputs": {
   "mp4": "out/executions_96.mp4",
@@ -48,7 +48,7 @@
   }
  ],
  "transcript": {
-  "score": 0.977,
+  "score": 0.981,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -57,8 +57,8 @@
     "flag": "ok"
    },
    {
-    "line": "In twenty twenty five, Amnesty counted at least two thousand seven hundred and seven.",
-    "score": 0.929,
+    "line": "In twenty twenty five, Amnesty counted at least two thousand seven hundred and seven. China's thousands are kept secret, so they're not in it.",
+    "score": 0.958,
     "flag": "ok"
    },
    {
@@ -87,12 +87,12 @@
     "flag": "ok"
    },
    {
-    "line": "Now per million people.",
-    "score": 0.5,
-    "flag": "MISS"
+    "line": "Now let's make it fair: per million people.",
+    "score": 0.875,
+    "flag": "ok"
    },
    {
-    "line": "Israel, Jordan, Lebanon and Syria: zero.",
+    "line": "Israel, Jordan, Lebanon and Syria: zero. Not one recorded execution.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -102,7 +102,7 @@
     "flag": "ok"
    },
    {
-    "line": "Ninety six percent of the world's total, in one region.",
+    "line": "Ninety six percent of the world's total, in one region. Iran alone: about eighty percent.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -113,16 +113,16 @@
    },
    {
     "line": "So next time someone calls Israel the harshest state in the region, ask them:",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    }
   ],
-  "heard": "96% of the world's recorded executions. Where do they happen? In 2025, Amnesty counted at least 2,707, Iran, at least 2,159, Saudi Arabia, 356, Yemen, 51, Egypt, Iraq, Kuwait, and the Emirates also executed people. No full count. The region's total, at least 2,611. for a million people. Israel, Jordan, Lebanon, and Syria. Zero. Yemen. One. Saudi Arabia. Almost 10. Iran. 23. 96% of the world's total in one region. In 2026, Israel passed a death penalty law for terror. It now faces a Supreme Court challenge. So next time someone calls Israel the harshest state in the region, ask them.",
+  "heard": "96% of the world's recorded executions. Where do they happen? In 2025, amnesty counted at least 2,707. China's thousands are kept secret, so they're not in it. Iran at least 2,159. Saudi Arabia 356. Yemen 51. Egypt, Iraq, Kuwait, and the Emirates also executed people. No full count. The region's total, at least 2,611. Now let's make it fair. million people. Israel, Jordan, Lebanon, and Syria. Zero. Not one recorded execution. Yemen, one. Saudi Arabia, almost 10. Iran, 23. 96% of the world's total in one region. Iran alone, about 80%. In 2026, Israel passed a death penalty law for terror. It now faces a Supreme Court challenge. So next time someone calls Israel the harshest state in the region, pass them.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 48.38,
+ "body_s": 53.18,
  "opener": {
   "style": "globe_spin_whip",
   "opener_s": 2.4,
@@ -130,8 +130,8 @@
  },
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 159.3
+ "render_s": 216.1
 }
