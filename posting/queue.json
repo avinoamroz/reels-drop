@@ -91,6 +91,16 @@
    "posts_at": "2026-11-11 11:47"
   },
   {
+   "id": "mideast_vs_israel",
+   "account": "noam",
+   "due": "2026-11-11T12:40:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/mideast_vs_israel.mp4\", \"caption\": \"10 million vs 493 million. Who makes more per person? 🗺️\\n\\nThe Arab League: 22 countries, 493 million people. Add up every economy from Morocco to Oman and you get about $3.76 trillion (2024).\\nIsrael alone: about $542 billion, with 10 million people.\\n\\nPer person:\\nArab League, all 22 combined: about $7,630\\nIsrael: about $54,200\\nThat's 7 times more.\\n\\nMake it the whole Middle East, with Iran and Turkey (15 countries, Israel not included): about $10,130 per person. Israel is still over 5 times higher.\\n\\nOnly Qatar beats Israel per person (about $76,400). The UAE comes close (about $52,900). Oil and gas drive the Gulf.\\n\\nThis isn't about people. Talent is everywhere. It's about systems: peace, schools and technology. We spread by building, not conquering.\\n\\n10 מיליון מול 493 מיליון. 22 מדינות הליגה הערבית יחד מייצרות כ-3.76 טריליון דולר בשנה, ישראל לבד כחצי טריליון. לאדם: כ-7,630 דולר בליגה הערבית, כ-54,200 בישראל, פי 7. גם עם איראן וטורקיה, כל המזרח התיכון, עדיין פי 5 ויותר. רק קטאר עוקפת אותנו לאדם, והאמירויות קרובות: נפט וגז מניעים את המפרץ. זה לא עניין של אנשים, כישרון יש בכל מקום. זה עניין של מערכות: שלום, חינוך וטכנולוגיה.\\n\\nSend this to someone who thinks the region's problem is its people.\\nשלחו את זה למי שחושב שהבעיה של האזור היא האנשים.\\n\\nHow we counted: each country's 2024 GDP in current US dollars, added up, divided by the countries' combined population.\\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values). Syria: World Bank, 2022 (latest available). West Bank and Gaza: IMF, via Worldometers. Population: World Bank, World Development Indicators, 2024. Map: Natural Earth.\\n\\nMade with AI tools.\\n\\n#Israel #MiddleEast #Economy #ArabLeague #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/mideast_vs_israel_cover.jpg\"}"
+   },
+   "due_epoch": 1794393600,
+   "posts_at": "2026-11-11 12:47"
+  },
+  {
    "id": "x_twice2_en_v4",
    "account": "express",
    "due": "2026-11-11T13:00:00+02:00",
@@ -99,6 +109,16 @@
    },
    "due_epoch": 1794394800,
    "posts_at": "2026-11-11 13:17"
+  },
+  {
+   "id": "arab_vote_v3",
+   "account": "noam",
+   "due": "2026-11-11T14:10:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/arab_vote_v3.mp4\", \"caption\": \"They say Arabs can't vote in Israel. Arab parties just became the third-largest bloc. 🗳️\\n\\nIsrael voted on 27 Oct 2026. With about 90% counted, Arab parties are on track for 19 of 120 seats, a record (previous high: 15): Joint List (Hadash, Ta'al, Balad) 12, Ra'am 7. That puts them third, behind Netanyahu's bloc (53) and Eisenkot's bloc (48). Final results are due 4 Nov.\\nEvery Israeli citizen, Jewish or Arab, can vote. About 21% of Israelis are Arab. In 2021 Ra'am became the first Arab party to join a coalition.\\n\\nGaza: Hamas won the Jan 2006 vote. No election since.\\nWest Bank: the Palestinian Authority (PA). Last presidential vote 2005, last parliament vote 2006. The 2021 vote was cancelled, and the Nov 2026 vote was pushed to Sep 2027.\\n\\nThe Arabs with the most say over their government are the ones living in Israel.\\n\\nאומרים שערבים לא יכולים להצביע בישראל. המפלגות הערביות הפכו לגוש השלישי בגודלו: 19 מתוך 120 מושבים, שיא.\\nכל אזרח ישראלי, יהודי או ערבי, יכול להצביע.\\nבעזה אין בחירות מאז 2006. ברשות הפלסטינית: נשיא 2005, פרלמנט 2006, והבחירות נדחו לספטמבר 2027.\\nהערבים שיש להם הכי הרבה השפעה על הממשלה שלהם הם אלה שחיים בישראל.\\n\\nBeg to differ? Tell us where we're wrong. 👇\\nחושבים אחרת? כתבו לנו איפה אנחנו טועים. 👇\\n\\nSources:\\n1. Central Elections Committee count, 28 Oct 2026 (Times of Israel, Ynet, Jewish Chronicle, Jerusalem Post)\\n2. Central Bureau of Statistics, Apr 2026\\n3. Christian Science Monitor, 3 Jun 2021\\n4. NPR, 29 Apr 2021\\n5. Al Jazeera, 10 Oct 2026\\n6. Jerusalem Story, Who represents Palestinians in Jerusalem\\n\\n#Israel #Elections #Knesset #ArabIsraelis #בחירות\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/arab_vote_v3_cover.jpg\"}"
+   },
+   "due_epoch": 1794399000,
+   "posts_at": "2026-11-11 14:17"
   },
   {
    "id": "x_b4_tell_me_about_v2",
@@ -111,6 +131,16 @@
    "posts_at": "2026-11-11 14:47"
   },
   {
+   "id": "beer_per_km_v5",
+   "account": "noam",
+   "due": "2026-11-11T15:40:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/beer_per_km_v5.mp4\", \"caption\": \"11 beer cars. Who stops first? 🍺🚗\\n\\nEvery car is the average adult of one country. Its only fuel: the beer that country drinks, per adult, per day.\\n\\nWhere each car runs out:\\n🇦🇹 Austria 3.95 km 🏆\\n🇨🇿 Czechia 3.89 km\\n🇵🇱 Poland 3.22 km\\n🇧🇷 Brazil 3.02 km\\n🇩🇪 Germany 2.87 km\\n🇺🇸 USA 2.14 km\\n🇬🇧 UK 2.07 km\\n🇷🇺 Russia 1.89 km\\n🇯🇵 Japan 910 m\\n🇨🇳 China 810 m\\n🇮🇱 Israel 780 m\\n\\nFunny thing: Israel has the better engine. 5.7 km per beer, more than the USA (5.1) or Germany (5.4). The tank is just almost empty: 69 ml of beer a day. Israelis run on coffee ☕\\nAnd Israel even drinks a bit more beer than Japan. Japan's cars are lighter.\\n\\nHow we counted: one big beer (500 ml) is about 215 kcal. Walking burns about 0.5 kcal per kg of body weight per km. km per beer = 215 / (0.5 x average adult weight). Daily range = beer per adult a day / 500 ml x km per beer. Averages, approximate.\\n\\nSend this to the friend who orders coffee at the bar.\\n\\n11 מכוניות שהדלק היחיד שלהן הוא בירה. מי נעצרת ראשונה? 🍺\\nכל מכונית היא האדם הממוצע במדינה אחת, והמיכל שלה הוא כמות הבירה שכל מבוגר שותה ביום.\\nאוסטריה מגיעה לכמעט 4 ק\\\"מ. ישראל נעצרת אחרי 780 מטר, ראשונה מכולן.\\nהמנוע הישראלי דווקא טוב יותר (5.7 ק\\\"מ לבירה, יותר מארה\\\"ב וגרמניה), פשוט המיכל כמעט ריק. ישראלים רצים על קפה ☕\\n\\nSources: beer per adult 15+, WHO Global Health Observatory 2022 (via Our World in Data), at 5% ABV. Body weight: NCD-RisC (via WorldData), men and women averaged. Beer calories: USDA FoodData Central. Walking cost: ACSM walking equation.\\nMade with AI tools.\\n\\n#Beer #Israel #WorldData #Coffee\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/beer_per_km_v5_cover.jpg\"}"
+   },
+   "due_epoch": 1794404400,
+   "posts_at": "2026-11-11 15:47"
+  },
+  {
    "id": "x_b2_investor_smalltalk_v2",
    "account": "express",
    "due": "2026-11-11T16:00:00+02:00",
@@ -119,6 +149,16 @@
    },
    "due_epoch": 1794405600,
    "posts_at": "2026-11-11 16:17"
+  },
+  {
+   "id": "un_per_person_v2",
+   "account": "noam",
+   "due": "2026-11-11T17:10:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/un_per_person_v2.mp4\", \"caption\": \"15 out of 26 UN condemnations. One country. 🇺🇳\\n\\nIn its 2025 session, the UN General Assembly condemned:\\nRussia 6 (it invaded Ukraine)\\nUSA 2\\nIran, North Korea, Myanmar: 1 each\\nSudan, the world's largest displacement crisis: 0\\nIsrael: 15. More than the rest of the world combined (11).\\n\\nPer 10 million people: Israel about 14.9. Russia about 0.4. The rest of the world about 0.013. Over 1,000 times more.\\n\\nIsrael's war in Gaza deserves scrutiny, like any war. But 15 to 11 isn't scrutiny. It's a pattern.\\n\\n15 מתוך 26 גינויים של האו\\\"ם. מדינה אחת.\\nב-2025 העצרת הכללית גינתה את רוסיה 6 פעמים, את ארה\\\"ב פעמיים, את איראן, צפון קוריאה ומיאנמר פעם אחת כל אחת, את סודן אפס, ואת ישראל 15. יותר מכל שאר העולם ביחד.\\nלפי גודל האוכלוסייה: פי יותר מאלף משאר העולם.\\nמלחמה בעזה ראויה לביקורת, כמו כל מלחמה. אבל 15 מול 11 זו לא ביקורת. זה דפוס.\\n\\nSend this to someone who still quotes the UN as neutral.\\n\\nSources: UN Watch, \\\"2025 UNGA Resolutions on Israel vs. Rest of the World\\\" (Nov 2025). Population: UN World Population Prospects 2024 (Israel about 10.1M). Sudan displacement: UNHCR.\\n\\n#Israel #UnitedNations #UN #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/un_per_person_v2_cover.jpg\"}"
+   },
+   "due_epoch": 1794409800,
+   "posts_at": "2026-11-11 17:17"
   },
   {
    "id": "x_a4_zoom_interrupt",
@@ -138,6 +178,16 @@
     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a2_push_back_v2.mp4\", \"caption\": \"המנהל האמריקאי מציג תוכנית שאתם לא אוהבים. ככה לא מסכימים, בלי להישמע גסים 🤝\\n\\n❌ You're wrong.\\n✅ I see it a bit differently.\\n(אני רואה את זה קצת אחרת)\\n\\n❌ This won't work.\\n✅ I'm not sure it'll work. Can we test it first?\\n(לא בטוחה שזה יעבוד. נבדוק קודם?)\\n\\n❌ Why would we do that?\\n✅ Help me understand the thinking behind it.\\n(תעזור לי להבין את ההיגיון)\\n\\n❌ No.\\n✅ That's tough right now. What if we try this?\\n(קשה לי עכשיו. מה אם ננסה ככה?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a2_push_back_v2_cover.jpg\"}"
    },
    "due_epoch": 1794416400,
+   "posts_at": "2026-11-11 19:17"
+  },
+  {
+   "id": "she_walks_alone_v2",
+   "account": "noam",
+   "due": "2026-11-11T19:10:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/she_walks_alone_v2.mp4\", \"caption\": \"One woman. 6 cities. 3 rules. 🚶‍♀️\\n\\nCan she travel without a man's permission? Show her hair? Go to university?\\nLondon: yes, yes, yes.\\nTel Aviv: yes, yes, yes.\\nCairo: yes, yes, yes.\\nRiyadh: travel alone only from age 21 (since 2019). A modest dress code. University: yes.\\nTehran: if she's married, her husband signs her passport. The hijab is law. University: yes.\\nKabul: no, no and no. The Taliban shut universities to women in December 2022.\\n\\nIsrael isn't perfect either: divorce goes through religious courts, and a husband can refuse.\\nBut those three rules? Easy.\\n\\nאישה אחת. שש ערים. שלושה כללים: לנסוע בלי אישור של גבר, להראות את השיער, ללמוד באוניברסיטה.\\nבלונדון, בתל אביב ובקהיר: כן, כן, כן. בריאד: לנסוע לבד רק מגיל 21, קוד לבוש צנוע. בטהרן: אישה נשואה צריכה את חתימת הבעל על הדרכון, והחיג'אב חובה. בקאבול: לא, לא ולא.\\nגם ישראל לא מושלמת: גירושין רק דרך בתי דין דתיים, ובעל יכול לסרב.\\n\\nSend this to someone who asks where a woman is free.\\n\\nSources: World Bank, Women, Business and the Law 2024 (mobility); Saudi Arabia guardianship reform, Aug 2019 (Reuters); Egypt Supreme Constitutional Court ruling on passports, Nov 2000; Iran Passport Law, art. 18 and the 1983 hijab law; Taliban travel rule (Dec 2021), university ban (Dec 2022) and 2024 vice and virtue law (UNAMA); Israel: Rabbinical Courts Jurisdiction Law (1953).\\n\\n#WomensRights #Israel #MiddleEast #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/she_walks_alone_v2_cover.jpg\"}"
+   },
+   "due_epoch": 1794417000,
    "posts_at": "2026-11-11 19:17"
   },
   {
@@ -191,6 +241,16 @@
    "posts_at": "2026-11-12 10:17"
   },
   {
+   "id": "terror_compare_v2",
+   "account": "noam",
+   "due": "2026-11-12T11:10:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/terror_compare_v2.mp4\", \"caption\": \"147 suicide bombings. Jewish ones: 0.\\n\\nJewish terror is real, and it's horrible. Hebron, 1994: Baruch Goldstein murdered 29 Muslim worshippers at prayer. Israel's answer: Prime Minister Rabin told the Knesset he was \\\"a shame on Zionism and an embarrassment to Judaism\\\". His movement, Kach, was banned (March 1994). The shrine at his grave was bulldozed (1999).\\n\\nThe other side, September 2000 to 2005: HAMAS, Islamic Jihad, Fatah's Al-Aqsa Brigades and the PFLP sent 147 suicide bombers. Over 500 people were killed. Their answer: squares named after attackers (in 2017 the UN cut ties with a women's centre named after Dalal Mughrabi), and payments to attackers' families, which the US State Department says still flow.\\n\\nSettler violence is real too. The UN counted over 1,400 settler attacks in 2024. Israel has to stop it.\\n\\nBut one side bans its terrorists. The other names squares after them.\\n\\nטרור יהודי קיים, והוא נורא. ב-1994 ברוך גולדשטיין רצח 29 מתפללים מוסלמים בחברון. רבין קרא לו \\\"חרפה לציונות\\\", תנועת כך הוצאה מחוץ לחוק, והמקדש על קברו נהרס.\\nבצד השני, 2000 עד 2005: 147 מחבלים מתאבדים של חמאס וארגונים חמושים אחרים, יותר מ-500 הרוגים. כיכרות על שמם ותשלומים למשפחות.\\nגם אלימות מתנחלים היא אמיתית, וישראל חייבת לעצור אותה.\\nאבל צד אחד מוציא את המחבלים שלו מחוץ לחוק. הצד השני קורא כיכרות על שמם.\\n\\nSend this to someone who says both sides are the same.\\n\\nSources: Shamgar Commission report (1994); Rabin in the Knesset, 1 Mar 1994; Kach banned by the Israeli cabinet, 13 Mar 1994; shrine removed 1999 (JTA); 147 suicide bombings and over 500 killed, Sep 2000 to 2005 (Intelligence and Terrorism Information Center, Jan 2006); UN Secretary General's office on the Mughrabi centre (May 2017); US State Department report to Congress on PA payments (Times of Israel, Apr 2026); UN OCHA settler attacks 2024 (1,449, via Al Jazeera, Oct 2025).\\n\\n#Israel #HAMAS #Terrorism #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/terror_compare_v2_cover.jpg\"}"
+   },
+   "due_epoch": 1794474600,
+   "posts_at": "2026-11-12 11:17"
+  },
+  {
    "id": "x_origin_3",
    "account": "express",
    "due": "2026-11-12T11:30:00+02:00",
@@ -199,6 +259,16 @@
    },
    "due_epoch": 1794475800,
    "posts_at": "2026-11-12 11:47"
+  },
+  {
+   "id": "bbs_rulebook",
+   "account": "noam",
+   "due": "2026-11-12T12:40:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/bbs_rulebook.mp4\", \"caption\": \"Satire 🎭 A parody newsroom rulebook, not a real one.\\n\\nThe BBS Rulebook (BBS: Barely Bothered with Sources) 📕\\n1. If it isn't true, make it up.\\n2. Dead people matter. Only if killed by a Jew.\\n3. HAMAS numbers: \\\"figures\\\". Israeli numbers: \\\"claims\\\".\\n4. Rocket at Israel? \\\"Sirens heard.\\\" Israel answers? \\\"Israel strikes.\\\"\\n5. Never say terrorist. Say \\\"militant\\\". Then \\\"gunmen\\\". Then forget.\\n6. Israeli guest? Interrupt. HAMAS guest? Nod.\\n7. Headline first. Facts later. Corrections never.\\n8. If you must correct: page 47, font size 3.\\n9. The story starts when Israel responds.\\n10. When in doubt, blame Israel. When certain, still blame Israel.\\n11. A HAMAS spokesman is a \\\"health official\\\".\\n12. Our sources are anonymous. Our bias isn't.\\n13. Check the source. (Torn out.)\\n\\nThe true parts: in October 2023 the BBC said its guidelines avoid the word \\\"terrorist\\\" for HAMAS without attribution, and BBC News said it was wrong to speculate on the cause of the Gaza hospital blast.\\n\\nNot every journalist works like this. Just check the source.\\n\\nWhich rule did we miss? Comment it.\\n\\nסאטירה. ספר חוקים של מערכת חדשות מומצאת.\\nאם זה לא נכון, תמציאו. אנשים מתים חשובים, רק אם יהודי הרג אותם. המספרים של חמאס הם \\\"נתונים\\\", של ישראל \\\"טענות\\\". ותיקון? בעמוד 47, בגופן 3.\\nלא כל עיתונאי עובד ככה. פשוט תבדקו את המקור.\\nאיזה חוק פספסנו? כתבו בתגובות.\\n\\nSources: BBC statement on the word \\\"terrorist\\\", Press Gazette, 11 Oct 2023; BBC News deputy CEO on the Gaza hospital coverage, Media Society event, 19 Oct 2023 (PA, Express & Star).\\n\\n#Satire #MediaBias #Israel #CheckTheSource\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/bbs_rulebook_cover.jpg\"}"
+   },
+   "due_epoch": 1794480000,
+   "posts_at": "2026-11-12 12:47"
   },
   {
    "id": "values_1",
@@ -211,13 +281,13 @@
    "posts_at": "2026-11-12 13:17"
   },
   {
-   "id": "mideast_vs_israel",
+   "id": "ethnic_cleansing",
    "account": "noam",
-   "due": "2026-11-12T14:00:00+02:00",
+   "due": "2026-11-12T14:10:00+02:00",
    "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/mideast_vs_israel.mp4\", \"caption\": \"10 million vs 493 million. Who makes more per person? 🗺️\\n\\nThe Arab League: 22 countries, 493 million people. Add up every economy from Morocco to Oman and you get about $3.76 trillion (2024).\\nIsrael alone: about $542 billion, with 10 million people.\\n\\nPer person:\\nArab League, all 22 combined: about $7,630\\nIsrael: about $54,200\\nThat's 7 times more.\\n\\nMake it the whole Middle East, with Iran and Turkey (15 countries, Israel not included): about $10,130 per person. Israel is still over 5 times higher.\\n\\nOnly Qatar beats Israel per person (about $76,400). The UAE comes close (about $52,900). Oil and gas drive the Gulf.\\n\\nThis isn't about people. Talent is everywhere. It's about systems: peace, schools and technology. We spread by building, not conquering.\\n\\n10 מיליון מול 493 מיליון. 22 מדינות הליגה הערבית יחד מייצרות כ-3.76 טריליון דולר בשנה, ישראל לבד כחצי טריליון. לאדם: כ-7,630 דולר בליגה הערבית, כ-54,200 בישראל, פי 7. גם עם איראן וטורקיה, כל המזרח התיכון, עדיין פי 5 ויותר. רק קטאר עוקפת אותנו לאדם, והאמירויות קרובות: נפט וגז מניעים את המפרץ. זה לא עניין של אנשים, כישרון יש בכל מקום. זה עניין של מערכות: שלום, חינוך וטכנולוגיה.\\n\\nSend this to someone who thinks the region's problem is its people.\\nשלחו את זה למי שחושב שהבעיה של האזור היא האנשים.\\n\\nHow we counted: each country's 2024 GDP in current US dollars, added up, divided by the countries' combined population.\\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values). Syria: World Bank, 2022 (latest available). West Bank and Gaza: IMF, via Worldometers. Population: World Bank, World Development Indicators, 2024. Map: Natural Earth.\\n\\nMade with AI tools.\\n\\n#Israel #MiddleEast #Economy #ArabLeague #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/mideast_vs_israel_cover.jpg\"}"
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/ethnic_cleansing.mp4\", \"caption\": \"Ethnic cleansing: yes or no? Let's sort it 🧽\\n\\nUN definition (1993): \\\"rendering an area ethnically homogeneous by using force or intimidation\\\". Not a separate crime in law, but it can amount to crimes against humanity or genocide.\\n\\nWashing people in a bathtub? Not ethnic cleansing. Dry-cleaning an ethnic shirt? Also not.\\n\\nNazi Germany hunted Jews, deported them by train and murdered 6 million. Worse than ethnic cleansing: genocide.\\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \\\"a textbook example of ethnic cleansing\\\".\\nWest Darfur, Sudan, 2023: thousands of Masalit killed, hundreds of thousands driven out. Human Rights Watch: ethnic cleansing.\\n\\nIsrael fights HAMAS in Gaza and warned civilians with 7.2 million leaflets, 13.7 million texts and 15 million recorded calls (IDF, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\\n\\n7 October 2023: HAMAS killed about 1,200 people in Israel, mostly civilians, house by house. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\\n\\nSend this to someone who uses the word without the definition.\\n\\nטיהור אתני: כן או לא? 🧽\\nלפי הגדרת האו\\\"ם, טיהור אתני הוא שימוש בכוח או בהפחדה כדי לסלק קבוצה מאזור. רחצה באמבטיה? לא טיהור אתני. ניקוי יבש לחולצה אתנית? גם לא.\\nהשואה: 6 מיליון יהודים נרצחו. זה יותר מטיהור אתני, זה רצח עם. מיאנמר 2017 ודארפור 2023: טיהור אתני.\\nישראל נלחמת בחמאס ומזהירה אזרחים במיליוני כרוזים, הודעות ושיחות. זו מלחמה, עצובה וקשה, לא טיהור אתני. תשפטו לפי ההגדרה.\\n7 באוקטובר: חמאס רצח כ 1,200 בני אדם, רובם אזרחים. זה לפגוע באנשים בגלל מי שהם.\\n\\nSources: UN Commission of Experts, S/25274 (1993); UN Office on Genocide Prevention; USHMM; UN OHCHR, Zeid Ra'ad al-Hussein (11 Sep 2017); UNHCR; Human Rights Watch (May 2024, July 2024); US State Dept (Jan 2025); IDF via Jewish Press (Jan 2024); UN OCHA and UN experts (2024); Israeli figures via AP and Reuters; HAMAS Covenant 1988, Art. 7 (Avalon Project, Yale). Map: Natural Earth.\\nMade with AI tools.\\n\\n#Israel #EthnicCleansing #History #Gaza #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/ethnic_cleansing_cover.jpg\"}"
    },
-   "due_epoch": 1794484800,
+   "due_epoch": 1794485400,
    "posts_at": "2026-11-12 14:17"
   },
   {
@@ -231,16 +301,6 @@
    "posts_at": "2026-11-12 14:47"
   },
   {
-   "id": "arab_vote_v3",
-   "account": "noam",
-   "due": "2026-11-12T15:10:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/arab_vote_v3.mp4\", \"caption\": \"They say Arabs can't vote in Israel. Arab parties just became the third-largest bloc. 🗳️\\n\\nIsrael voted on 27 Oct 2026. With about 90% counted, Arab parties are on track for 19 of 120 seats, a record (previous high: 15): Joint List (Hadash, Ta'al, Balad) 12, Ra'am 7. That puts them third, behind Netanyahu's bloc (53) and Eisenkot's bloc (48). Final results are due 4 Nov.\\nEvery Israeli citizen, Jewish or Arab, can vote. About 21% of Israelis are Arab. In 2021 Ra'am became the first Arab party to join a coalition.\\n\\nGaza: Hamas won the Jan 2006 vote. No election since.\\nWest Bank: the Palestinian Authority (PA). Last presidential vote 2005, last parliament vote 2006. The 2021 vote was cancelled, and the Nov 2026 vote was pushed to Sep 2027.\\n\\nThe Arabs with the most say over their government are the ones living in Israel.\\n\\nאומרים שערבים לא יכולים להצביע בישראל. המפלגות הערביות הפכו לגוש השלישי בגודלו: 19 מתוך 120 מושבים, שיא.\\nכל אזרח ישראלי, יהודי או ערבי, יכול להצביע.\\nבעזה אין בחירות מאז 2006. ברשות הפלסטינית: נשיא 2005, פרלמנט 2006, והבחירות נדחו לספטמבר 2027.\\nהערבים שיש להם הכי הרבה השפעה על הממשלה שלהם הם אלה שחיים בישראל.\\n\\nBeg to differ? Tell us where we're wrong. 👇\\nחושבים אחרת? כתבו לנו איפה אנחנו טועים. 👇\\n\\nSources:\\n1. Central Elections Committee count, 28 Oct 2026 (Times of Israel, Ynet, Jewish Chronicle, Jerusalem Post)\\n2. Central Bureau of Statistics, Apr 2026\\n3. Christian Science Monitor, 3 Jun 2021\\n4. NPR, 29 Apr 2021\\n5. Al Jazeera, 10 Oct 2026\\n6. Jerusalem Story, Who represents Palestinians in Jerusalem\\n\\n#Israel #Elections #Knesset #ArabIsraelis #בחירות\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/arab_vote_v3_cover.jpg\"}"
-   },
-   "due_epoch": 1794489000,
-   "posts_at": "2026-11-12 15:17"
-  },
-  {
    "id": "idf_structure",
    "account": "express",
    "due": "2026-11-12T16:00:00+02:00",
@@ -249,16 +309,6 @@
    },
    "due_epoch": 1794492000,
    "posts_at": "2026-11-12 16:17"
-  },
-  {
-   "id": "beer_per_km_v5",
-   "account": "noam",
-   "due": "2026-11-12T17:00:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/beer_per_km_v5.mp4\", \"caption\": \"11 beer cars. Who stops first? 🍺🚗\\n\\nEvery car is the average adult of one country. Its only fuel: the beer that country drinks, per adult, per day.\\n\\nWhere each car runs out:\\n🇦🇹 Austria 3.95 km 🏆\\n🇨🇿 Czechia 3.89 km\\n🇵🇱 Poland 3.22 km\\n🇧🇷 Brazil 3.02 km\\n🇩🇪 Germany 2.87 km\\n🇺🇸 USA 2.14 km\\n🇬🇧 UK 2.07 km\\n🇷🇺 Russia 1.89 km\\n🇯🇵 Japan 910 m\\n🇨🇳 China 810 m\\n🇮🇱 Israel 780 m\\n\\nFunny thing: Israel has the better engine. 5.7 km per beer, more than the USA (5.1) or Germany (5.4). The tank is just almost empty: 69 ml of beer a day. Israelis run on coffee ☕\\nAnd Israel even drinks a bit more beer than Japan. Japan's cars are lighter.\\n\\nHow we counted: one big beer (500 ml) is about 215 kcal. Walking burns about 0.5 kcal per kg of body weight per km. km per beer = 215 / (0.5 x average adult weight). Daily range = beer per adult a day / 500 ml x km per beer. Averages, approximate.\\n\\nSend this to the friend who orders coffee at the bar.\\n\\n11 מכוניות שהדלק היחיד שלהן הוא בירה. מי נעצרת ראשונה? 🍺\\nכל מכונית היא האדם הממוצע במדינה אחת, והמיכל שלה הוא כמות הבירה שכל מבוגר שותה ביום.\\nאוסטריה מגיעה לכמעט 4 ק\\\"מ. ישראל נעצרת אחרי 780 מטר, ראשונה מכולן.\\nהמנוע הישראלי דווקא טוב יותר (5.7 ק\\\"מ לבירה, יותר מארה\\\"ב וגרמניה), פשוט המיכל כמעט ריק. ישראלים רצים על קפה ☕\\n\\nSources: beer per adult 15+, WHO Global Health Observatory 2022 (via Our World in Data), at 5% ABV. Body weight: NCD-RisC (via WorldData), men and women averaged. Beer calories: USDA FoodData Central. Walking cost: ACSM walking equation.\\nMade with AI tools.\\n\\n#Beer #Israel #WorldData #Coffee\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/beer_per_km_v5_cover.jpg\"}"
-   },
-   "due_epoch": 1794495600,
-   "posts_at": "2026-11-12 17:17"
   },
   {
    "id": "schooled_v2",
@@ -271,16 +321,6 @@
    "posts_at": "2026-11-12 17:47"
   },
   {
-   "id": "un_per_person_v2",
-   "account": "noam",
-   "due": "2026-11-12T18:10:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/un_per_person_v2.mp4\", \"caption\": \"15 out of 26 UN condemnations. One country. 🇺🇳\\n\\nIn its 2025 session, the UN General Assembly condemned:\\nRussia 6 (it invaded Ukraine)\\nUSA 2\\nIran, North Korea, Myanmar: 1 each\\nSudan, the world's largest displacement crisis: 0\\nIsrael: 15. More than the rest of the world combined (11).\\n\\nPer 10 million people: Israel about 14.9. Russia about 0.4. The rest of the world about 0.013. Over 1,000 times more.\\n\\nIsrael's war in Gaza deserves scrutiny, like any war. But 15 to 11 isn't scrutiny. It's a pattern.\\n\\n15 מתוך 26 גינויים של האו\\\"ם. מדינה אחת.\\nב-2025 העצרת הכללית גינתה את רוסיה 6 פעמים, את ארה\\\"ב פעמיים, את איראן, צפון קוריאה ומיאנמר פעם אחת כל אחת, את סודן אפס, ואת ישראל 15. יותר מכל שאר העולם ביחד.\\nלפי גודל האוכלוסייה: פי יותר מאלף משאר העולם.\\nמלחמה בעזה ראויה לביקורת, כמו כל מלחמה. אבל 15 מול 11 זו לא ביקורת. זה דפוס.\\n\\nSend this to someone who still quotes the UN as neutral.\\n\\nSources: UN Watch, \\\"2025 UNGA Resolutions on Israel vs. Rest of the World\\\" (Nov 2025). Population: UN World Population Prospects 2024 (Israel about 10.1M). Sudan displacement: UNHCR.\\n\\n#Israel #UnitedNations #UN #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/un_per_person_v2_cover.jpg\"}"
-   },
-   "due_epoch": 1794499800,
-   "posts_at": "2026-11-12 18:17"
-  },
-  {
    "id": "intellect_v3",
    "account": "express",
    "due": "2026-11-12T19:00:00+02:00",
@@ -289,46 +329,6 @@
    },
    "due_epoch": 1794502800,
    "posts_at": "2026-11-12 19:17"
-  },
-  {
-   "id": "she_walks_alone_v2",
-   "account": "noam",
-   "due": "2026-11-12T19:20:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/she_walks_alone_v2.mp4\", \"caption\": \"One woman. 6 cities. 3 rules. 🚶‍♀️\\n\\nCan she travel without a man's permission? Show her hair? Go to university?\\nLondon: yes, yes, yes.\\nTel Aviv: yes, yes, yes.\\nCairo: yes, yes, yes.\\nRiyadh: travel alone only from age 21 (since 2019). A modest dress code. University: yes.\\nTehran: if she's married, her husband signs her passport. The hijab is law. University: yes.\\nKabul: no, no and no. The Taliban shut universities to women in December 2022.\\n\\nIsrael isn't perfect either: divorce goes through religious courts, and a husband can refuse.\\nBut those three rules? Easy.\\n\\nאישה אחת. שש ערים. שלושה כללים: לנסוע בלי אישור של גבר, להראות את השיער, ללמוד באוניברסיטה.\\nבלונדון, בתל אביב ובקהיר: כן, כן, כן. בריאד: לנסוע לבד רק מגיל 21, קוד לבוש צנוע. בטהרן: אישה נשואה צריכה את חתימת הבעל על הדרכון, והחיג'אב חובה. בקאבול: לא, לא ולא.\\nגם ישראל לא מושלמת: גירושין רק דרך בתי דין דתיים, ובעל יכול לסרב.\\n\\nSend this to someone who asks where a woman is free.\\n\\nSources: World Bank, Women, Business and the Law 2024 (mobility); Saudi Arabia guardianship reform, Aug 2019 (Reuters); Egypt Supreme Constitutional Court ruling on passports, Nov 2000; Iran Passport Law, art. 18 and the 1983 hijab law; Taliban travel rule (Dec 2021), university ban (Dec 2022) and 2024 vice and virtue law (UNAMA); Israel: Rabbinical Courts Jurisdiction Law (1953).\\n\\n#WomensRights #Israel #MiddleEast #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/she_walks_alone_v2_cover.jpg\"}"
-   },
-   "due_epoch": 1794504000,
-   "posts_at": "2026-11-12 19:17"
-  },
-  {
-   "id": "terror_compare_v2",
-   "account": "noam",
-   "due": "2026-11-12T20:30:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/terror_compare_v2.mp4\", \"caption\": \"147 suicide bombings. Jewish ones: 0.\\n\\nJewish terror is real, and it's horrible. Hebron, 1994: Baruch Goldstein murdered 29 Muslim worshippers at prayer. Israel's answer: Prime Minister Rabin told the Knesset he was \\\"a shame on Zionism and an embarrassment to Judaism\\\". His movement, Kach, was banned (March 1994). The shrine at his grave was bulldozed (1999).\\n\\nThe other side, September 2000 to 2005: HAMAS, Islamic Jihad, Fatah's Al-Aqsa Brigades and the PFLP sent 147 suicide bombers. Over 500 people were killed. Their answer: squares named after attackers (in 2017 the UN cut ties with a women's centre named after Dalal Mughrabi), and payments to attackers' families, which the US State Department says still flow.\\n\\nSettler violence is real too. The UN counted over 1,400 settler attacks in 2024. Israel has to stop it.\\n\\nBut one side bans its terrorists. The other names squares after them.\\n\\nטרור יהודי קיים, והוא נורא. ב-1994 ברוך גולדשטיין רצח 29 מתפללים מוסלמים בחברון. רבין קרא לו \\\"חרפה לציונות\\\", תנועת כך הוצאה מחוץ לחוק, והמקדש על קברו נהרס.\\nבצד השני, 2000 עד 2005: 147 מחבלים מתאבדים של חמאס וארגונים חמושים אחרים, יותר מ-500 הרוגים. כיכרות על שמם ותשלומים למשפחות.\\nגם אלימות מתנחלים היא אמיתית, וישראל חייבת לעצור אותה.\\nאבל צד אחד מוציא את המחבלים שלו מחוץ לחוק. הצד השני קורא כיכרות על שמם.\\n\\nSend this to someone who says both sides are the same.\\n\\nSources: Shamgar Commission report (1994); Rabin in the Knesset, 1 Mar 1994; Kach banned by the Israeli cabinet, 13 Mar 1994; shrine removed 1999 (JTA); 147 suicide bombings and over 500 killed, Sep 2000 to 2005 (Intelligence and Terrorism Information Center, Jan 2006); UN Secretary General's office on the Mughrabi centre (May 2017); US State Department report to Congress on PA payments (Times of Israel, Apr 2026); UN OCHA settler attacks 2024 (1,449, via Al Jazeera, Oct 2025).\\n\\n#Israel #HAMAS #Terrorism #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/terror_compare_v2_cover.jpg\"}"
-   },
-   "due_epoch": 1794508200,
-   "posts_at": "2026-11-12 20:47"
-  },
-  {
-   "id": "bbs_rulebook",
-   "account": "noam",
-   "due": "2026-11-12T21:40:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/bbs_rulebook.mp4\", \"caption\": \"Satire 🎭 A parody newsroom rulebook, not a real one.\\n\\nThe BBS Rulebook (BBS: Barely Bothered with Sources) 📕\\n1. If it isn't true, make it up.\\n2. Dead people matter. Only if killed by a Jew.\\n3. HAMAS numbers: \\\"figures\\\". Israeli numbers: \\\"claims\\\".\\n4. Rocket at Israel? \\\"Sirens heard.\\\" Israel answers? \\\"Israel strikes.\\\"\\n5. Never say terrorist. Say \\\"militant\\\". Then \\\"gunmen\\\". Then forget.\\n6. Israeli guest? Interrupt. HAMAS guest? Nod.\\n7. Headline first. Facts later. Corrections never.\\n8. If you must correct: page 47, font size 3.\\n9. The story starts when Israel responds.\\n10. When in doubt, blame Israel. When certain, still blame Israel.\\n11. A HAMAS spokesman is a \\\"health official\\\".\\n12. Our sources are anonymous. Our bias isn't.\\n13. Check the source. (Torn out.)\\n\\nThe true parts: in October 2023 the BBC said its guidelines avoid the word \\\"terrorist\\\" for HAMAS without attribution, and BBC News said it was wrong to speculate on the cause of the Gaza hospital blast.\\n\\nNot every journalist works like this. Just check the source.\\n\\nWhich rule did we miss? Comment it.\\n\\nסאטירה. ספר חוקים של מערכת חדשות מומצאת.\\nאם זה לא נכון, תמציאו. אנשים מתים חשובים, רק אם יהודי הרג אותם. המספרים של חמאס הם \\\"נתונים\\\", של ישראל \\\"טענות\\\". ותיקון? בעמוד 47, בגופן 3.\\nלא כל עיתונאי עובד ככה. פשוט תבדקו את המקור.\\nאיזה חוק פספסנו? כתבו בתגובות.\\n\\nSources: BBC statement on the word \\\"terrorist\\\", Press Gazette, 11 Oct 2023; BBC News deputy CEO on the Gaza hospital coverage, Media Society event, 19 Oct 2023 (PA, Express & Star).\\n\\n#Satire #MediaBias #Israel #CheckTheSource\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/bbs_rulebook_cover.jpg\"}"
-   },
-   "due_epoch": 1794512400,
-   "posts_at": "2026-11-12 21:47"
-  },
-  {
-   "id": "ethnic_cleansing",
-   "account": "noam",
-   "due": "2026-11-12T22:50:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/ethnic_cleansing.mp4\", \"caption\": \"Ethnic cleansing: yes or no? Let's sort it 🧽\\n\\nUN definition (1993): \\\"rendering an area ethnically homogeneous by using force or intimidation\\\". Not a separate crime in law, but it can amount to crimes against humanity or genocide.\\n\\nWashing people in a bathtub? Not ethnic cleansing. Dry-cleaning an ethnic shirt? Also not.\\n\\nNazi Germany hunted Jews, deported them by train and murdered 6 million. Worse than ethnic cleansing: genocide.\\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \\\"a textbook example of ethnic cleansing\\\".\\nWest Darfur, Sudan, 2023: thousands of Masalit killed, hundreds of thousands driven out. Human Rights Watch: ethnic cleansing.\\n\\nIsrael fights HAMAS in Gaza and warned civilians with 7.2 million leaflets, 13.7 million texts and 15 million recorded calls (IDF, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\\n\\n7 October 2023: HAMAS killed about 1,200 people in Israel, mostly civilians, house by house. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\\n\\nSend this to someone who uses the word without the definition.\\n\\nטיהור אתני: כן או לא? 🧽\\nלפי הגדרת האו\\\"ם, טיהור אתני הוא שימוש בכוח או בהפחדה כדי לסלק קבוצה מאזור. רחצה באמבטיה? לא טיהור אתני. ניקוי יבש לחולצה אתנית? גם לא.\\nהשואה: 6 מיליון יהודים נרצחו. זה יותר מטיהור אתני, זה רצח עם. מיאנמר 2017 ודארפור 2023: טיהור אתני.\\nישראל נלחמת בחמאס ומזהירה אזרחים במיליוני כרוזים, הודעות ושיחות. זו מלחמה, עצובה וקשה, לא טיהור אתני. תשפטו לפי ההגדרה.\\n7 באוקטובר: חמאס רצח כ 1,200 בני אדם, רובם אזרחים. זה לפגוע באנשים בגלל מי שהם.\\n\\nSources: UN Commission of Experts, S/25274 (1993); UN Office on Genocide Prevention; USHMM; UN OHCHR, Zeid Ra'ad al-Hussein (11 Sep 2017); UNHCR; Human Rights Watch (May 2024, July 2024); US State Dept (Jan 2025); IDF via Jewish Press (Jan 2024); UN OCHA and UN experts (2024); Israeli figures via AP and Reuters; HAMAS Covenant 1988, Art. 7 (Avalon Project, Yale). Map: Natural Earth.\\nMade with AI tools.\\n\\n#Israel #EthnicCleansing #History #Gaza #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/ethnic_cleansing_cover.jpg\"}"
-   },
-   "due_epoch": 1794516600,
-   "posts_at": "2026-11-12 22:47"
   },
   {
    "id": "expressx_promo_c",
@@ -562,6 +562,69 @@
   }
  ],
  "slots": {
+  "s997018": {
+   "express": {
+    "id": "x_a1_salary_raise_v2",
+    "due": "2026-11-14T07:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a1_salary_raise_v2.mp4\", \"caption\": \"רוצים העלאה מבוס אמריקאי? 4 משפטים שהורגים אותה, ומה להגיד במקום 💰\\n\\n❌ I want more money.\\n✅ Can we talk about my salary?\\n(אפשר לדבר על השכר שלי?)\\n\\n❌ Everybody earns more than me.\\n✅ I'd like my pay to match my results.\\n(אני רוצה שהשכר ישקף את התוצאות שלי)\\n\\n❌ If not, I'm leaving.\\n✅ I have another offer, but I'd rather stay.\\n(יש לי הצעה אחרת, אבל אעדיף להישאר)\\n\\n❌ So, what's the answer?\\n✅ Take your time. Can we meet next week?\\n(קח את הזמן. ניפגש בשבוע הבא?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a1_salary_raise_v2_cover.jpg\"}"
+    }
+   }
+  },
+  "s997021": {
+   "express": {
+    "id": "x_b3_dont_know_v2",
+    "due": "2026-11-14T08:30:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_b3_dont_know_v2.mp4\", \"caption\": \"3 מילים שמאבדות לקוחות: I don't know. מה אומרים במקום 📞\\n\\n❓ When is delivery?\\n❌ I don't know.\\n✅ Good question. I'll check and get back to you by three.\\n(שאלה טובה. אבדוק ואחזור עד שלוש)\\n\\n❓ Why did it crash?\\n❌ I don't know.\\n✅ We're looking into it. I'll update you within the hour.\\n(אנחנו בודקים. אעדכן אותך תוך שעה)\\n\\n❓ What will it cost?\\n❌ I don't know.\\n✅ I'll send you a full quote by Monday.\\n(אשלח הצעת מחיר מלאה עד שני)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_b3_dont_know_v2_cover.jpg\"}"
+    }
+   }
+  },
+  "s997024": {
+   "express": {
+    "id": "x_slang_sababa",
+    "due": "2026-11-14T10:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_sababa_v2.mp4\", \"caption\": \"איך אומרים סבבה באנגלית? ☕\\n\\nקולגה שואל: Coffee at five?\\nסבבה בשיחה: Sounds good!\\nסבבה בעבודה: Works for me.\\n\\nומה לא? It's okay. זה נשמע כמו \\\"טוב, אם אין ברירה\\\". לא בדיוק סבבה 😅\\n\\nSababa in English: Sounds good (casual) or Works for me (at work). \\\"It's okay\\\" sounds like you're not happy about it.\\n\\nאיך אתם אומרים סבבה באנגלית בפגישה? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_sababa_cover.jpg\"}"
+    }
+   }
+  },
+  "s997027": {
+   "express": {
+    "id": "x_slang_chaval",
+    "due": "2026-11-14T11:30:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_chaval_v2.mp4\", \"caption\": \"חבל על הזמן באנגלית? רק לא מילה במילה 🙈\\n\\nבעברית חבל על הזמן זה מחמאה. באנגלית What a waste of time זה עלבון: \\\"בזבזת לי את הזמן\\\".\\n\\nחבל על הזמן בשיחה: This is amazing!\\nחבל על הזמן בעבודה: This is outstanding.\\n\\nChaval al hazman means \\\"amazing\\\". Never translate it as \\\"what a waste of time\\\".\\n\\nעוד ביטוי עברי שהפוך לגמרי באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_chaval_cover.jpg\"}"
+    }
+   }
+  },
+  "s997030": {
+   "express": {
+    "id": "x_slang_keta",
+    "due": "2026-11-14T13:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_keta_v2.mp4\", \"caption\": \"איזה קטע! ואיך אומרים את זה באנגלית? 😮\\n\\nאיזה קטע בשיחה: No way! What a coincidence!\\nאיזה קטע בעבודה: What a small world!\\n\\nומה לא? What a piece! היא תשאל: חתיכה של מה? 😅\\n\\nEize keta in English: No way! (casual) or What a small world! (at work).\\n\\nמתי אמרתם לאחרונה איזה קטע? כתבו בתגובות, באנגלית 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_keta_cover.jpg\"}"
+    }
+   }
+  },
+  "s997033": {
+   "express": {
+    "id": "x_slang_stam",
+    "due": "2026-11-14T14:30:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_stam_v2.mp4\", \"caption\": \"עשיתם צחוק בזום ואמרתם סתם. איך אומרים את זה באנגלית? 😄\\n\\nסתם בשיחה: Just kidding!\\nסתם בעבודה: I'm only joking.\\n\\nומה לא? Just! לבד. היא תחכה לסוף המשפט 😅\\n\\nStam in English: Just kidding! (casual) or I'm only joking (at work). \\\"Just!\\\" on its own leaves people waiting.\\n\\nאיך אתם אומרים סתם באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_stam_cover.jpg\"}"
+    }
+   }
+  },
+  "s997036": {
+   "express": {
+    "id": "x_slang_bekatana",
+    "due": "2026-11-14T16:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_bekatana.mp4\", \"caption\": \"מישהו אומר לכם תודה. אתם עונים: בקטנה. ובאנגלית? 🤏\\n\\nבקטנה בשיחה: No big deal.\\nבקטנה בעבודה: Happy to help.\\n\\nומה לא? In the small. הוא עדיין מנסה להבין מה קטן 😅\\n\\nBekatana in English: No big deal (casual) or Happy to help (at work).\\n\\nמה עוד אתם אומרים בקטנה? נסו באנגלית בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_bekatana_cover.jpg\"}"
+    }
+   }
+  },
   "s996855": {
    "noam": {
     "id": "oppression_olympics",
@@ -580,30 +643,177 @@
     }
    }
   },
-  "s996860": {
+  "s996903": {
    "noam": {
-    "id": "colonization_wrong_v3",
-    "due": "2026-11-11T00:10:00+02:00",
+    "id": "france_like_israel",
+    "due": "2026-11-11T21:40:00+02:00",
     "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonization_wrong_v3.mp4\", \"caption\": \"We suck at colonization. 📕\\n\\nEvery real empire followed the book:\\n🇪🇸 Spain took the silver of Potosí (from 1545)\\n🇧🇪 Belgium's King Leopold took Congo's rubber (1885 to 1908)\\n🇬🇧 Britain took India's cotton and sold back British cloth (1757 to 1947)\\n🇵🇹 Portugal shipped about 4.8 million enslaved Africans to Brazil\\n\\nIsrael? Failed every lesson.\\n❌ Pick a land with gold or oil: we picked swamps and desert. The big gas finds came in 2009 and 2010.\\n❌ Rule from a mother country: what mother country? Jews came fleeing Europe and the Arab world.\\n❌ Enslave the locals: Arab citizens vote (10 Knesset seats in 2022) and are 1 in 4 doctors and half of pharmacists.\\n❌ Let them get sick: health insurance for every resident since 1994, and Israeli hospitals treat Palestinian patients too.\\n❌ Ship the wealth back home: small problem, this is home.\\n\\nWow. We really missed the point. Jews, go figure. Maybe they have different intentions, and you just don't understand them.\\n\\nWe can show you how to build companies, but...\\n\\nאנחנו גרועים בקולוניזציה. כל אימפריה אמיתית לקחה את העושר הביתה. ישראל נכשלה בכל השיעורים: אין נפט, אין ארץ אם, ערבים אזרחי ישראל מצביעים ומהווים רבע מהרופאים, וביטוח בריאות לכל תושב. יהודים, לך תבין.\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nMaps: Natural Earth (public domain). Sources: Britannica (Potosí; Congo Free State; British raj; Israel; West Bank); Roy, Australian Economic History Review, 2007; SlaveVoyages.org (Eltis); Tamar gas field, Jan 2009 and Leviathan, Dec 2010 (Noble Energy); Knesset election results, Nov 2022; Rosen and Miaari, Israel Journal of Health Policy Research, Feb 2025; National Health Insurance Law, 1994; WHO oPt monthly report, Dec 2022; Al Jazeera, 10 Oct 2026 (PA vote postponed to Sept 2027).\\n\\n#Israel #History #Colonization #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonization_wrong_v3_cover.jpg\"}"
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/france_like_israel.mp4\", \"caption\": \"France, judged like Israel. Ready? 🇫🇷\\n\\nSatire. Every \\\"finding\\\" uses the same rules people use on Israel. The true parts are real:\\n\\n1. Before the Franks, it was Gaul. Rome conquered the Gauls (Celts) in 58 to 50 BC; the Franks came about 500 AD and gave France its name. And before the Gauls? The Lascaux cave painters, about 17,000 years ago.\\n2. \\\"Not French enough\\\" and \\\"too French\\\" at the same time: a parody of what Israel hears.\\n3. About 10% of adults aged 18 to 59 in France say they are Muslim. That doesn't make France an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026.\\n4. In October 2023 France's Interior Minister ordered pro-Palestinian protests banned. France's top court said: no blanket ban, case by case. Imagine the headlines if Israel did that.\\n5. Israel is accused of occupation next door. France holds New Caledonia, about 16,700 km from Paris (independence votes in 2018, 2020 and 2021, all No).\\n6. The Eiffel Tower bit is pure satire. Leave it alone.\\n\\nBoth countries have real problems. Judge them by one standard.\\n\\nצרפת, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \\\"ממצא\\\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: לפני הפרנקים זו הייתה גאליה. כ-10% מהמבוגרים בצרפת מגדירים את עצמם מוסלמים, וזה לא הופך את צרפת למדינת אפרטהייד. גם ישראל לא: כ-21% מהאזרחים ערבים, והמפלגות הערביות זכו ב-19 מושבים בכנסת. צרפת אסרה הפגנות פרו פלסטיניות ב-2023, ומחזיקה איים במרחק כ-16,700 ק\\\"מ מפריז. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.\\n\\nSend this to someone who judges Israel by rules no other country is held to.\\nשלחו את זה למי ששופט את ישראל בכללים שאף מדינה אחרת לא נשפטת לפיהם.\\n\\nSources: INSEE, Trajectoires et Origines 2 (2019-20). Israel Central Bureau of Statistics, end of 2025. Knesset election results, Oct 2026 (all votes counted, ynet / Globes). Conseil d'Etat ruling 488860, 18 Oct 2023. New Caledonia referendums 2018, 2020, 2021. Distance: great circle Paris to Noumea. Lascaux: French Ministry of Culture. Maps: Natural Earth.\\n\\nMade with AI tools.\\n\\n#Israel #France #DoubleStandard #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/france_like_israel_cover.jpg\"}"
     }
    }
   },
-  "s996861": {
+  "s996907": {
    "noam": {
-    "id": "syria_pov_v3",
-    "due": "2026-11-11T00:40:00+02:00",
+    "id": "genocide_chart_v2",
+    "due": "2026-11-11T23:40:00+02:00",
     "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/syria_pov_v3.mp4\", \"caption\": \"You're Israel. The army next door just vanished. What do you do? 🎯\\n\\n📅 December 2024: Assad falls. HTS-led rebels take Damascus, and Syria's troops leave the border.\\n📜 The 1974 buffer zone deal? Israel says it collapsed.\\n\\nOption 1: wait. Option 2: move in. Option 3: strike the weapons before armed groups get them.\\n\\nIsrael chose 2 and 3: it moved into the buffer zone, up to Mount Hermon, and struck the old army's weapons.\\nSince then: rockets at the Golan (June 2025), and deadly clashes in Sweida, where Israel struck Syrian forces saying it was protecting the Druze (July 2025).\\n\\nWhat would YOU do? Tell me in the comments 👇\\n\\nאתם ישראל. הצבא של השכנים נעלם. לחכות, להיכנס, או לתקוף את הנשק? ישראל בחרה להיכנס ולתקוף. האו״ם וסוריה קוראים לזה הפרה. מה אתם הייתם עושים? 👇\\n\\n👥 Tag a friend who needs to see this 👇\\nתייגו חבר שחייב לראות את זה 👇\\n\\nSources: AFP and Reuters, 8 Dec 2024; UN spokesperson Stephane Dujarric, 9 Dec 2024; AAP, 10 Dec 2024; ACLED, 19 Dec 2024; Times of Israel, 3 Jun 2025; NPR, 16 Jul 2025; Reuters via Al-Monitor, 24 Aug 2026; map: Natural Earth\\n\\n#Israel #Syria #Golan #MiddleEast #ישראל #סוריה\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/syria_pov_v3_cover.jpg\"}"
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/genocide_chart_v2.mp4\", \"caption\": \"What actually counts as genocide? Run it through the chart 🔍\\n\\n1948 Genocide Convention, Art. II: a protected group, acts on the list, and intent to destroy that group \\\"as such\\\". Courts ruled it for the Holocaust, Rwanda, Srebrenica and more.\\n\\nHAMAS, 7 Oct 2023: about 1,200 killed in Israel, mostly civilians. About 20 of them were Muslim Bedouin citizens of Israel. HAMAS has also shot Gazans it called collaborators, in 2014 and again in 2025. Its 1988 charter quotes \\\"fight the Jews (killing the Jews)\\\". No court has ruled.\\n\\nIsrael in Gaza: the target is HAMAS. Israel warned civilians with 7.2 million leaflets, 13.7 million texts, 15 million recorded calls and 79,000 live calls (IDF, Jan 2024). WHO counts 12,913 patients, 6,186 of them children, evacuated for care abroad, many flown out through Israel.\\n\\nIf you want to wipe out a people, you don't warn them, move them and treat their kids. About 2.2 million Arabs live in Israel, and Arab citizens vote and serve in the Knesset. Fighting HAMAS is not destroying a people.\\n\\nOver 70,000 people have died in Gaza (Gaza MoH, HAMAS run, no fighter split), many of them children. That pain is real. A UN inquiry said genocide (Sep 2025); Israel rejects it. The ICJ case is still open: no ruling, filings into 2029.\\n\\nSend this to someone who uses the word without the chart.\\n\\nמה בעצם נחשב רצח עם? בואו נעביר את זה בתרשים 🔍\\nחמאס, 7 באוקטובר: כ 1,200 נרצחו, רובם אזרחים, וביניהם כ 20 בדואים מוסלמים, אזרחי ישראל. חמאס גם הוציא להורג עזתים שכינה \\\"משתפי פעולה\\\".\\nישראל בעזה: המטרה היא חמאס. מיליוני כרוזים, הודעות ושיחות הזהירו אזרחים להתפנות, ו 12,913 חולים, 6,186 מהם ילדים, פונו לטיפול בחו\\\"ל.\\nמי שרוצה להשמיד עם לא מזהיר אותו, לא מפנה אותו ולא מטפל בילדים שלו. 2.2 מיליון ערבים חיים בישראל. להילחם בחמאס זה לא להשמיד עם.\\nעשרות אלפים מתו בעזה, רבים מהם ילדים, והכאב אמיתי. בהאג עוד אין פסיקה.\\n\\nSources: Genocide Convention 1948; IMT; ICTR; ICTY; ICJ 2007; ECCC; OLG Frankfurt; AP 2024; Ynet 2023; JPost 2023; Amnesty 2015; Reuters 2025; HAMAS Covenant (Avalon, Yale); IDF 2024; WHO 2026; COGAT via Times of Israel 2025; Israel CBS 2026; Gaza MoH 2026; UN COI 2025; ICJ case 192 (2026).\\nMade with AI tools.\\n\\n#Israel #Genocide #Gaza #History\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/genocide_chart_v2_cover.jpg\"}"
     }
    }
   },
-  "s996862": {
+  "s996885": {
    "noam": {
-    "id": "persecution_hook2_v3",
-    "due": "2026-11-11T01:25:00+02:00",
+    "id": "mideast_vs_israel",
+    "due": "2026-11-11T12:40:00+02:00",
     "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/persecution_hook2_v3.mp4\", \"caption\": \"Germany kicked out its Jewish scientists. America got richer. Economists measured it. 📈\\n\\n🇩🇪 1933: Germany fires Jewish professors, and many flee to the US.\\n🧪 In the chemistry fields they brought, US patents jump 31% (Moser, Voena and Waldinger, AER 2014).\\n📉 Germany loses 18% of its math professors. Their students do worse, for the rest of their careers (Waldinger, JPE 2010).\\n🇷🇺 In Russia, cities hit hardest by the Holocaust (under Nazi occupation) are still poorer decades later, a statistical association (Acemoglu, Hassan and Robinson, QJE 2011).\\n🇮🇹 In Italy, cities with Jewish communities got banks first, and are richer today (Pascali, REStat 2016).\\n\\nHate isn't only cruel. It's a bill, and the whole country pays it.\\n\\nWhich country should I check next?\\n\\nגרמניה גירשה את המדענים היהודים, ואמריקה התעשרה: 31% יותר פטנטים בתחומים שהם הביאו. שנאה היא חשבון, וכל המדינה משלמת אותו. איזו מדינה לבדוק בפעם הבאה?\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nSources: Moser, Voena and Waldinger, American Economic Review 104(10), 2014; Waldinger, Journal of Political Economy 118(4), 2010; Acemoglu, Hassan and Robinson, Quarterly Journal of Economics 126(2), 2011; Pascali, Review of Economics and Statistics 98(1), 2016\\n\\nMaps: Natural Earth (public domain).\\n\\n#Economics #History #Antisemitism #Jewish #כלכלה\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/persecution_hook2_v3_cover.jpg\"}"
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/mideast_vs_israel.mp4\", \"caption\": \"10 million vs 493 million. Who makes more per person? 🗺️\\n\\nThe Arab League: 22 countries, 493 million people. Add up every economy from Morocco to Oman and you get about $3.76 trillion (2024).\\nIsrael alone: about $542 billion, with 10 million people.\\n\\nPer person:\\nArab League, all 22 combined: about $7,630\\nIsrael: about $54,200\\nThat's 7 times more.\\n\\nMake it the whole Middle East, with Iran and Turkey (15 countries, Israel not included): about $10,130 per person. Israel is still over 5 times higher.\\n\\nOnly Qatar beats Israel per person (about $76,400). The UAE comes close (about $52,900). Oil and gas drive the Gulf.\\n\\nThis isn't about people. Talent is everywhere. It's about systems: peace, schools and technology. We spread by building, not conquering.\\n\\n10 מיליון מול 493 מיליון. 22 מדינות הליגה הערבית יחד מייצרות כ-3.76 טריליון דולר בשנה, ישראל לבד כחצי טריליון. לאדם: כ-7,630 דולר בליגה הערבית, כ-54,200 בישראל, פי 7. גם עם איראן וטורקיה, כל המזרח התיכון, עדיין פי 5 ויותר. רק קטאר עוקפת אותנו לאדם, והאמירויות קרובות: נפט וגז מניעים את המפרץ. זה לא עניין של אנשים, כישרון יש בכל מקום. זה עניין של מערכות: שלום, חינוך וטכנולוגיה.\\n\\nSend this to someone who thinks the region's problem is its people.\\nשלחו את זה למי שחושב שהבעיה של האזור היא האנשים.\\n\\nHow we counted: each country's 2024 GDP in current US dollars, added up, divided by the countries' combined population.\\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values). Syria: World Bank, 2022 (latest available). West Bank and Gaza: IMF, via Worldometers. Population: World Bank, World Development Indicators, 2024. Map: Natural Earth.\\n\\nMade with AI tools.\\n\\n#Israel #MiddleEast #Economy #ArabLeague #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/mideast_vs_israel_cover.jpg\"}"
+    }
+   }
+  },
+  "s996888": {
+   "noam": {
+    "id": "arab_vote_v3",
+    "due": "2026-11-11T14:10:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/arab_vote_v3.mp4\", \"caption\": \"They say Arabs can't vote in Israel. Arab parties just became the third-largest bloc. 🗳️\\n\\nIsrael voted on 27 Oct 2026. With about 90% counted, Arab parties are on track for 19 of 120 seats, a record (previous high: 15): Joint List (Hadash, Ta'al, Balad) 12, Ra'am 7. That puts them third, behind Netanyahu's bloc (53) and Eisenkot's bloc (48). Final results are due 4 Nov.\\nEvery Israeli citizen, Jewish or Arab, can vote. About 21% of Israelis are Arab. In 2021 Ra'am became the first Arab party to join a coalition.\\n\\nGaza: Hamas won the Jan 2006 vote. No election since.\\nWest Bank: the Palestinian Authority (PA). Last presidential vote 2005, last parliament vote 2006. The 2021 vote was cancelled, and the Nov 2026 vote was pushed to Sep 2027.\\n\\nThe Arabs with the most say over their government are the ones living in Israel.\\n\\nאומרים שערבים לא יכולים להצביע בישראל. המפלגות הערביות הפכו לגוש השלישי בגודלו: 19 מתוך 120 מושבים, שיא.\\nכל אזרח ישראלי, יהודי או ערבי, יכול להצביע.\\nבעזה אין בחירות מאז 2006. ברשות הפלסטינית: נשיא 2005, פרלמנט 2006, והבחירות נדחו לספטמבר 2027.\\nהערבים שיש להם הכי הרבה השפעה על הממשלה שלהם הם אלה שחיים בישראל.\\n\\nBeg to differ? Tell us where we're wrong. 👇\\nחושבים אחרת? כתבו לנו איפה אנחנו טועים. 👇\\n\\nSources:\\n1. Central Elections Committee count, 28 Oct 2026 (Times of Israel, Ynet, Jewish Chronicle, Jerusalem Post)\\n2. Central Bureau of Statistics, Apr 2026\\n3. Christian Science Monitor, 3 Jun 2021\\n4. NPR, 29 Apr 2021\\n5. Al Jazeera, 10 Oct 2026\\n6. Jerusalem Story, Who represents Palestinians in Jerusalem\\n\\n#Israel #Elections #Knesset #ArabIsraelis #בחירות\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/arab_vote_v3_cover.jpg\"}"
+    }
+   }
+  },
+  "s996891": {
+   "noam": {
+    "id": "beer_per_km_v5",
+    "due": "2026-11-11T15:40:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/beer_per_km_v5.mp4\", \"caption\": \"11 beer cars. Who stops first? 🍺🚗\\n\\nEvery car is the average adult of one country. Its only fuel: the beer that country drinks, per adult, per day.\\n\\nWhere each car runs out:\\n🇦🇹 Austria 3.95 km 🏆\\n🇨🇿 Czechia 3.89 km\\n🇵🇱 Poland 3.22 km\\n🇧🇷 Brazil 3.02 km\\n🇩🇪 Germany 2.87 km\\n🇺🇸 USA 2.14 km\\n🇬🇧 UK 2.07 km\\n🇷🇺 Russia 1.89 km\\n🇯🇵 Japan 910 m\\n🇨🇳 China 810 m\\n🇮🇱 Israel 780 m\\n\\nFunny thing: Israel has the better engine. 5.7 km per beer, more than the USA (5.1) or Germany (5.4). The tank is just almost empty: 69 ml of beer a day. Israelis run on coffee ☕\\nAnd Israel even drinks a bit more beer than Japan. Japan's cars are lighter.\\n\\nHow we counted: one big beer (500 ml) is about 215 kcal. Walking burns about 0.5 kcal per kg of body weight per km. km per beer = 215 / (0.5 x average adult weight). Daily range = beer per adult a day / 500 ml x km per beer. Averages, approximate.\\n\\nSend this to the friend who orders coffee at the bar.\\n\\n11 מכוניות שהדלק היחיד שלהן הוא בירה. מי נעצרת ראשונה? 🍺\\nכל מכונית היא האדם הממוצע במדינה אחת, והמיכל שלה הוא כמות הבירה שכל מבוגר שותה ביום.\\nאוסטריה מגיעה לכמעט 4 ק\\\"מ. ישראל נעצרת אחרי 780 מטר, ראשונה מכולן.\\nהמנוע הישראלי דווקא טוב יותר (5.7 ק\\\"מ לבירה, יותר מארה\\\"ב וגרמניה), פשוט המיכל כמעט ריק. ישראלים רצים על קפה ☕\\n\\nSources: beer per adult 15+, WHO Global Health Observatory 2022 (via Our World in Data), at 5% ABV. Body weight: NCD-RisC (via WorldData), men and women averaged. Beer calories: USDA FoodData Central. Walking cost: ACSM walking equation.\\nMade with AI tools.\\n\\n#Beer #Israel #WorldData #Coffee\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/beer_per_km_v5_cover.jpg\"}"
+    }
+   }
+  },
+  "s996894": {
+   "noam": {
+    "id": "un_per_person_v2",
+    "due": "2026-11-11T17:10:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/un_per_person_v2.mp4\", \"caption\": \"15 out of 26 UN condemnations. One country. 🇺🇳\\n\\nIn its 2025 session, the UN General Assembly condemned:\\nRussia 6 (it invaded Ukraine)\\nUSA 2\\nIran, North Korea, Myanmar: 1 each\\nSudan, the world's largest displacement crisis: 0\\nIsrael: 15. More than the rest of the world combined (11).\\n\\nPer 10 million people: Israel about 14.9. Russia about 0.4. The rest of the world about 0.013. Over 1,000 times more.\\n\\nIsrael's war in Gaza deserves scrutiny, like any war. But 15 to 11 isn't scrutiny. It's a pattern.\\n\\n15 מתוך 26 גינויים של האו\\\"ם. מדינה אחת.\\nב-2025 העצרת הכללית גינתה את רוסיה 6 פעמים, את ארה\\\"ב פעמיים, את איראן, צפון קוריאה ומיאנמר פעם אחת כל אחת, את סודן אפס, ואת ישראל 15. יותר מכל שאר העולם ביחד.\\nלפי גודל האוכלוסייה: פי יותר מאלף משאר העולם.\\nמלחמה בעזה ראויה לביקורת, כמו כל מלחמה. אבל 15 מול 11 זו לא ביקורת. זה דפוס.\\n\\nSend this to someone who still quotes the UN as neutral.\\n\\nSources: UN Watch, \\\"2025 UNGA Resolutions on Israel vs. Rest of the World\\\" (Nov 2025). Population: UN World Population Prospects 2024 (Israel about 10.1M). Sudan displacement: UNHCR.\\n\\n#Israel #UnitedNations #UN #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/un_per_person_v2_cover.jpg\"}"
+    }
+   }
+  },
+  "s996898": {
+   "noam": {
+    "id": "she_walks_alone_v2",
+    "due": "2026-11-11T19:10:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/she_walks_alone_v2.mp4\", \"caption\": \"One woman. 6 cities. 3 rules. 🚶‍♀️\\n\\nCan she travel without a man's permission? Show her hair? Go to university?\\nLondon: yes, yes, yes.\\nTel Aviv: yes, yes, yes.\\nCairo: yes, yes, yes.\\nRiyadh: travel alone only from age 21 (since 2019). A modest dress code. University: yes.\\nTehran: if she's married, her husband signs her passport. The hijab is law. University: yes.\\nKabul: no, no and no. The Taliban shut universities to women in December 2022.\\n\\nIsrael isn't perfect either: divorce goes through religious courts, and a husband can refuse.\\nBut those three rules? Easy.\\n\\nאישה אחת. שש ערים. שלושה כללים: לנסוע בלי אישור של גבר, להראות את השיער, ללמוד באוניברסיטה.\\nבלונדון, בתל אביב ובקהיר: כן, כן, כן. בריאד: לנסוע לבד רק מגיל 21, קוד לבוש צנוע. בטהרן: אישה נשואה צריכה את חתימת הבעל על הדרכון, והחיג'אב חובה. בקאבול: לא, לא ולא.\\nגם ישראל לא מושלמת: גירושין רק דרך בתי דין דתיים, ובעל יכול לסרב.\\n\\nSend this to someone who asks where a woman is free.\\n\\nSources: World Bank, Women, Business and the Law 2024 (mobility); Saudi Arabia guardianship reform, Aug 2019 (Reuters); Egypt Supreme Constitutional Court ruling on passports, Nov 2000; Iran Passport Law, art. 18 and the 1983 hijab law; Taliban travel rule (Dec 2021), university ban (Dec 2022) and 2024 vice and virtue law (UNAMA); Israel: Rabbinical Courts Jurisdiction Law (1953).\\n\\n#WomensRights #Israel #MiddleEast #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/she_walks_alone_v2_cover.jpg\"}"
+    }
+   },
+   "express": {
+    "id": "x_a2_push_back_v2",
+    "due": "2026-11-11T19:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a2_push_back_v2.mp4\", \"caption\": \"המנהל האמריקאי מציג תוכנית שאתם לא אוהבים. ככה לא מסכימים, בלי להישמע גסים 🤝\\n\\n❌ You're wrong.\\n✅ I see it a bit differently.\\n(אני רואה את זה קצת אחרת)\\n\\n❌ This won't work.\\n✅ I'm not sure it'll work. Can we test it first?\\n(לא בטוחה שזה יעבוד. נבדוק קודם?)\\n\\n❌ Why would we do that?\\n✅ Help me understand the thinking behind it.\\n(תעזור לי להבין את ההיגיון)\\n\\n❌ No.\\n✅ That's tough right now. What if we try this?\\n(קשה לי עכשיו. מה אם ננסה ככה?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a2_push_back_v2_cover.jpg\"}"
+    }
+   }
+  },
+  "s996930": {
+   "noam": {
+    "id": "terror_compare_v2",
+    "due": "2026-11-12T11:10:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/terror_compare_v2.mp4\", \"caption\": \"147 suicide bombings. Jewish ones: 0.\\n\\nJewish terror is real, and it's horrible. Hebron, 1994: Baruch Goldstein murdered 29 Muslim worshippers at prayer. Israel's answer: Prime Minister Rabin told the Knesset he was \\\"a shame on Zionism and an embarrassment to Judaism\\\". His movement, Kach, was banned (March 1994). The shrine at his grave was bulldozed (1999).\\n\\nThe other side, September 2000 to 2005: HAMAS, Islamic Jihad, Fatah's Al-Aqsa Brigades and the PFLP sent 147 suicide bombers. Over 500 people were killed. Their answer: squares named after attackers (in 2017 the UN cut ties with a women's centre named after Dalal Mughrabi), and payments to attackers' families, which the US State Department says still flow.\\n\\nSettler violence is real too. The UN counted over 1,400 settler attacks in 2024. Israel has to stop it.\\n\\nBut one side bans its terrorists. The other names squares after them.\\n\\nטרור יהודי קיים, והוא נורא. ב-1994 ברוך גולדשטיין רצח 29 מתפללים מוסלמים בחברון. רבין קרא לו \\\"חרפה לציונות\\\", תנועת כך הוצאה מחוץ לחוק, והמקדש על קברו נהרס.\\nבצד השני, 2000 עד 2005: 147 מחבלים מתאבדים של חמאס וארגונים חמושים אחרים, יותר מ-500 הרוגים. כיכרות על שמם ותשלומים למשפחות.\\nגם אלימות מתנחלים היא אמיתית, וישראל חייבת לעצור אותה.\\nאבל צד אחד מוציא את המחבלים שלו מחוץ לחוק. הצד השני קורא כיכרות על שמם.\\n\\nSend this to someone who says both sides are the same.\\n\\nSources: Shamgar Commission report (1994); Rabin in the Knesset, 1 Mar 1994; Kach banned by the Israeli cabinet, 13 Mar 1994; shrine removed 1999 (JTA); 147 suicide bombings and over 500 killed, Sep 2000 to 2005 (Intelligence and Terrorism Information Center, Jan 2006); UN Secretary General's office on the Mughrabi centre (May 2017); US State Department report to Congress on PA payments (Times of Israel, Apr 2026); UN OCHA settler attacks 2024 (1,449, via Al Jazeera, Oct 2025).\\n\\n#Israel #HAMAS #Terrorism #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/terror_compare_v2_cover.jpg\"}"
+    }
+   }
+  },
+  "s996933": {
+   "noam": {
+    "id": "bbs_rulebook",
+    "due": "2026-11-12T12:40:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/bbs_rulebook.mp4\", \"caption\": \"Satire 🎭 A parody newsroom rulebook, not a real one.\\n\\nThe BBS Rulebook (BBS: Barely Bothered with Sources) 📕\\n1. If it isn't true, make it up.\\n2. Dead people matter. Only if killed by a Jew.\\n3. HAMAS numbers: \\\"figures\\\". Israeli numbers: \\\"claims\\\".\\n4. Rocket at Israel? \\\"Sirens heard.\\\" Israel answers? \\\"Israel strikes.\\\"\\n5. Never say terrorist. Say \\\"militant\\\". Then \\\"gunmen\\\". Then forget.\\n6. Israeli guest? Interrupt. HAMAS guest? Nod.\\n7. Headline first. Facts later. Corrections never.\\n8. If you must correct: page 47, font size 3.\\n9. The story starts when Israel responds.\\n10. When in doubt, blame Israel. When certain, still blame Israel.\\n11. A HAMAS spokesman is a \\\"health official\\\".\\n12. Our sources are anonymous. Our bias isn't.\\n13. Check the source. (Torn out.)\\n\\nThe true parts: in October 2023 the BBC said its guidelines avoid the word \\\"terrorist\\\" for HAMAS without attribution, and BBC News said it was wrong to speculate on the cause of the Gaza hospital blast.\\n\\nNot every journalist works like this. Just check the source.\\n\\nWhich rule did we miss? Comment it.\\n\\nסאטירה. ספר חוקים של מערכת חדשות מומצאת.\\nאם זה לא נכון, תמציאו. אנשים מתים חשובים, רק אם יהודי הרג אותם. המספרים של חמאס הם \\\"נתונים\\\", של ישראל \\\"טענות\\\". ותיקון? בעמוד 47, בגופן 3.\\nלא כל עיתונאי עובד ככה. פשוט תבדקו את המקור.\\nאיזה חוק פספסנו? כתבו בתגובות.\\n\\nSources: BBC statement on the word \\\"terrorist\\\", Press Gazette, 11 Oct 2023; BBC News deputy CEO on the Gaza hospital coverage, Media Society event, 19 Oct 2023 (PA, Express & Star).\\n\\n#Satire #MediaBias #Israel #CheckTheSource\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/bbs_rulebook_cover.jpg\"}"
+    }
+   }
+  },
+  "s996936": {
+   "noam": {
+    "id": "ethnic_cleansing",
+    "due": "2026-11-12T14:10:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/ethnic_cleansing.mp4\", \"caption\": \"Ethnic cleansing: yes or no? Let's sort it 🧽\\n\\nUN definition (1993): \\\"rendering an area ethnically homogeneous by using force or intimidation\\\". Not a separate crime in law, but it can amount to crimes against humanity or genocide.\\n\\nWashing people in a bathtub? Not ethnic cleansing. Dry-cleaning an ethnic shirt? Also not.\\n\\nNazi Germany hunted Jews, deported them by train and murdered 6 million. Worse than ethnic cleansing: genocide.\\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \\\"a textbook example of ethnic cleansing\\\".\\nWest Darfur, Sudan, 2023: thousands of Masalit killed, hundreds of thousands driven out. Human Rights Watch: ethnic cleansing.\\n\\nIsrael fights HAMAS in Gaza and warned civilians with 7.2 million leaflets, 13.7 million texts and 15 million recorded calls (IDF, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\\n\\n7 October 2023: HAMAS killed about 1,200 people in Israel, mostly civilians, house by house. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\\n\\nSend this to someone who uses the word without the definition.\\n\\nטיהור אתני: כן או לא? 🧽\\nלפי הגדרת האו\\\"ם, טיהור אתני הוא שימוש בכוח או בהפחדה כדי לסלק קבוצה מאזור. רחצה באמבטיה? לא טיהור אתני. ניקוי יבש לחולצה אתנית? גם לא.\\nהשואה: 6 מיליון יהודים נרצחו. זה יותר מטיהור אתני, זה רצח עם. מיאנמר 2017 ודארפור 2023: טיהור אתני.\\nישראל נלחמת בחמאס ומזהירה אזרחים במיליוני כרוזים, הודעות ושיחות. זו מלחמה, עצובה וקשה, לא טיהור אתני. תשפטו לפי ההגדרה.\\n7 באוקטובר: חמאס רצח כ 1,200 בני אדם, רובם אזרחים. זה לפגוע באנשים בגלל מי שהם.\\n\\nSources: UN Commission of Experts, S/25274 (1993); UN Office on Genocide Prevention; USHMM; UN OHCHR, Zeid Ra'ad al-Hussein (11 Sep 2017); UNHCR; Human Rights Watch (May 2024, July 2024); US State Dept (Jan 2025); IDF via Jewish Press (Jan 2024); UN OCHA and UN experts (2024); Israeli figures via AP and Reuters; HAMAS Covenant 1988, Art. 7 (Avalon Project, Yale). Map: Natural Earth.\\nMade with AI tools.\\n\\n#Israel #EthnicCleansing #History #Gaza #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/ethnic_cleansing_cover.jpg\"}"
+    }
+   }
+  },
+  "s996984": {
+   "noam": {
+    "id": "colonizer_speed_v6",
+    "due": "2026-11-13T14:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonizer_speed_v6.mp4\", \"caption\": \"Colonizers at real speed. Israel: last. 🏎️\\n\\nLand taken per year:\\n🇯🇵 Japan: ~150,000 km² (1895 to 1942)\\n🇫🇷 France: ~120,000 km² (1830 to 1920)\\n🇬🇧 Britain: ~105,000 km² (1583 to 1920)\\n🇷🇺 Russia: ~57,000 km² (1547 to 1895)\\n🇪🇸 Spain: ~42,000 km² (1492 to 1810)\\n\\n🇮🇱 Israel? In the 1967 war it took Sinai, Gaza, the West Bank and the Golan, about 67,000 km².\\nSinai went back to Egypt for peace (1979 treaty, completed 1982). Gaza: every soldier and settler left in 2005.\\nEven counting everything since 1948: about 170 km² a year.\\n\\nThen it stopped, even with weak neighbors. Why so little? Why stop?\\nBecause this is a dangerous place: HAMAS, Hezbollah, ISIS, and Iran behind them. On 7 October 2023, HAMAS came from Gaza, the land Israel left: about 1,200 people murdered, 251 taken hostage.\\nAnd still: peace with Egypt (1979), Jordan (1994), the Abraham Accords (2020).\\n\\nWhat Israel is doing is not colonizing.\\n\\nישראל קולוניאליסטית? בסדר, בואו נדרג 5 אימפריות לפי מהירות.\\nיפן לקחה כ-150,000 קמ\\\"ר בשנה, בריטניה כ-105,000.\\nישראל, גם כשסופרים הכול מאז 1948: כ-170 קמ\\\"ר בשנה. את סיני החזרנו תמורת שלום, ומעזה יצאנו ב-2005.\\nואז עצרנו, גם כשהשכנים היו חלשים. למה כל כך מעט? למה לעצור?\\nכי זה מקום מסוכן, צלחת פטרי של טרור. ב-7 באוקטובר החמאס יצא מעזה, מהשטח שישראל עזבה.\\nמה שישראל עושה זה לא קולוניאליזם.\\n\\nSend this to someone who still calls it colonizing.\\n\\nMethod: (peak area minus home country) ÷ years from first colony to peak, rounded. Sources: Taagepera 1997 (peak empire areas, via Wikipedia \\\"List of largest empires\\\"); James 2010 (Japan); CIA World Factbook and Britannica (Sinai, West Bank, Gaza, Golan); UN 1947 partition plan; Israel CBS; US State Dept (Foreign Terrorist Organizations, State Sponsors of Terrorism); Israeli government figures and UN 2024 (7 October). Map: NASA Blue Marble (public domain), Natural Earth borders, approximate. Photo: Begin, Carter and Sadat, 1978 (public domain).\\n\\n#Israel #Colonialism #History #Maps #noamroz\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonizer_speed_v6_cover.jpg\"}"
+    }
+   }
+  },
+  "s996986": {
+   "noam": {
+    "id": "textbooks_hate_v2",
+    "due": "2026-11-13T15:10:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/textbooks_hate_v2.mp4\", \"caption\": \"What do kids learn about Jews? 📚\\n\\nGovernment school books, not people. 8 curricula, 4 questions.\\n\\nJordan, History, Grade 12 (2025), p. 120, on the Balfour Declaration: \\\"the Jewish role in destroying the German economy\\\" (translated by IMPACT-se, an Israel-based watchdog, May 2026).\\n\\nBest first:\\n🇦🇪 UAE: no antisemitism found, Abraham Accords from Grade 6, Holocaust lessons announced 2023\\n🇲🇦 Morocco: Jewish history added 2020\\n🇪🇬 Egypt: teaches the 1979 peace treaty; some older books not revised\\n🇸🇦 Saudi Arabia: earlier antisemitic examples removed; no map shows Israel\\n🇯🇴 Jordan: \\\"Jews and Israel are repeatedly excluded from the curriculum's tolerance framework\\\"\\n🇶🇦 Qatar: unchanged for a 4th year\\nPalestinian Authority: one religious education book \\\"contains cumulative stereotypes and accusations that can clearly be characterised as anti-Semitic\\\" (Georg Eckert Institute for the EU, 2021)\\n🇮🇷 Iran (not Arab): \\\"overwhelmingly teach hateful messages about Jewish people\\\" (ADL 2021)\\n\\nמה ילדים לומדים על יהודים? בדקנו 8 תוכניות לימודים ממשלתיות. ספר היסטוריה לכיתה י\\\"ב בירדן (2025) מסביר את הצהרת בלפור, בין השאר, ב\\\"תפקיד היהודי בהרס הכלכלה הגרמנית\\\". מנגד, סעודיה הסירה כמעט את כל התוכן האנטישמי, מצרים מלמדת את הסכם השלום, מרוקו הוסיפה היסטוריה יהודית והאמירויות מלמדות את הסכמי אברהם. ילדים לא נולדים עם שנאה. מלמדים אותם.\\n\\nSend this to someone who thinks hate is born, not taught.\\nשלחו למי שחושב ששנאה נולדת ולא נלמדת.\\n\\nSources: IMPACT-se reviews 2022 to 2026; Georg Eckert Institute 2021; ADL 2021; AP 2023.\\n\\n#Israel #Education #Antisemitism\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/textbooks_hate_v2_cover.jpg\"}"
+    }
+   }
+  },
+  "s996988": {
+   "noam": {
+    "id": "happiest_mena_v2",
+    "due": "2026-11-13T16:20:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/happiest_mena_v2.mp4\", \"caption\": \"Who's happiest in the Middle East? 147 countries ranked. 🌍\\n\\nWorld Happiness Report 2026 (Gallup World Poll, 2023 to 2025), world rank out of 147:\\nYemen 142, Lebanon 141, Egypt 139, Jordan 119, Palestinians 109, Iran 97, Iraq 95, Turkey 94, Libya 81, Oman 58, Bahrain 55, Kuwait 40, Saudi Arabia 22, UAE 21.\\nIsrael: 8th in the world. Ahead of Germany (17), the US (23) and the UK (29). Syria and Qatar: no data.\\n\\nNot perfect either: in the 2024 report Israel was 5th. Since the war, it slipped to 8th.\\n\\nSend this to someone who thinks Israelis must be miserable.\\n\\nמי הכי מאושר במזרח התיכון? 🌍\\nדו״ח האושר העולמי 2026 דירג 147 מדינות. ישראל במקום 8 בעולם, לפני גרמניה, ארה״ב ובריטניה. איחוד האמירויות 21, סעודיה 22, ירדן 119, מצרים 139, לבנון 141, תימן 142.\\nלא מושלם: ב-2024 ישראל הייתה במקום החמישי. מאז המלחמה ירדה למקום השמיני.\\n\\nSource: World Happiness Report 2026, worldhappiness.report\\n\\n#Israel #MiddleEast #Happiness\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/happiest_mena_v2_cover.jpg\"}"
+    }
+   },
+   "express": {
+    "id": "idf_north",
+    "due": "2026-11-13T16:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/idf_north.mp4\", \"caption\": \"איך אומרים פיקוד צפון באנגלית? 🧭\\n\\nNorthern Command. לא North Command.\\n\\n🎖️ פיקוד: Command. חלק גדול בצבא שאחראי על אזור אחד. בצה\\\"ל יש 4 פיקודים מרחביים.\\n\\n🗺️ פיקוד הצפון אחראי על הגבולות עם לבנון וסוריה, הגליל ורמת הגולן. המפקדה בצפת.\\n\\n🧩 אוגדה: Division. יחידה גדולה שבנויה מחטיבות.\\n🪖 אוגדה 36: the 36th Division\\n⛰️ אוגדה 91: the 91st, the Galilee Division\\n🏔️ אוגדה 210: the 210th, Bashan\\n📞 אוגדה 146: the 146th, mostly reserve\\n\\n📞 מילואים: Reserve. חיילים עם חיים רגילים שנקראים כשצריך.\\n\\n🚀 מול מה? HEZBOLLAH, ארגון חמוש בלבנון.\\n🏠 אחרי 7 באוקטובר, בערך 60,000 תושבים בצפון עזבו את הבתים שלהם.\\n🕊️ בנובמבר 2024 נכנסה לתוקף הפסקת אש (ceasefire) עם לבנון.\\n\\n⚔️ חזית: Front. הקו שבו מתנהלת הלחימה.\\n\\nרוצים שטף? דברו עם עצמכם באנגלית 7 דקות בוואטסאפ, ואז הסבירו את אותו רעיון לחבר בשיחה.\\n\\nאיזו מ5 המילים הייתה חדשה לכם? כתבו בתגובות.\\n\\nSources: Wikipedia, Northern Command (Israel) (borders with Lebanon and Syria, HQ Safed, divisions 36th, 91st, 146th and 210th as publicly listed); Wikipedia, Hezbollah; Jerusalem Post, 2024 (some 60,000 residents of northern Israel fled their homes after 7 Oct 2023); Wikipedia, 2024 Israel Lebanon ceasefire agreement (took effect 27 Nov 2024).\\n\\nMade with AI tools\\n\\n#EnglishExpress #LearnEnglish #אנגלית #צהל #פיקודצפון\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/idf_north_cover.jpg\"}"
+    }
+   }
+  },
+  "s996991": {
+   "noam": {
+    "id": "heists_top",
+    "due": "2026-11-13T17:30:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/heists_top.mp4\", \"caption\": \"$6.3 billion stolen. Most of it in about 20 minutes. 💰\\n\\nOn Thursday 29 Oct 2026, hackers drained Binance, the world's biggest crypto exchange. The FBI attributes it to TraderTraitor, a North Korean hacking unit. About $3 billion has been frozen so far, and Binance says it will cover its users.\\n\\nThe biggest heists in history, in 2026 dollars:\\n1. Binance, 2026: $6.3B\\n2. Central Bank of Iraq, Baghdad, 2003: about $1B in cash taken on Saddam's orders, $1.8B today. US troops later found about $650M in a palace, believed to be part of it.\\n3. Bybit, Dubai, 2025: $1.5B, $1.6B today (FBI: North Korea)\\n4. Poly Network, 2021: $611M, $760M today. The hacker returned almost all of it.\\n5. Ronin bridge (Axie Infinity), 2022: $625M, $720M today (FBI: Lazarus Group)\\n6. Mt. Gox, Tokyo, 2014: 850,000 bitcoin, $473M then, $670M today\\n7. Isabella Stewart Gardner Museum, Boston, 1990: 13 artworks, valued by the FBI at over $500M (a current estimate, so not inflated). Still missing.\\n8. Antwerp Diamond Centre, 2003: $100M+, $180M today. Most diamonds never found.\\nNot in the top 8: the Louvre crown jewels, Oct 2025, €88M (about $100M).\\n\\nMethod: values at the time, adjusted with US CPI-U (BLS), event-year average to Sept 2026. Euro amounts converted at the time.\\nSources: Chainalysis; TRM Labs; FBI (31 Oct 2026; Feb 2025 PSA; Apr 2022); Al Jazeera; CoinDesk; CBS News (May 2003); Bloomberg (Feb 2014); FBI Gardner page; Paris prosecutor (Oct 2025).\\n\\nSend this to the friend who still keeps everything on one exchange.\\n\\n$6.3 מיליארד נגנבו. רובם בתוך כ-20 דקות. 💰\\nביום חמישי, 29 באוקטובר 2026, האקרים רוקנו את Binance, בורסת הקריפטו הגדולה בעולם. ה-FBI מייחס את הפריצה ליחידת ההאקרים הצפון קוריאנית TraderTraitor. עד עכשיו הוקפאו כ-3 מיליארד דולר.\\nהשודים הגדולים בהיסטוריה, בדולרים של 2026: Binance ‏6.3 מיליארד, הבנק המרכזי של עיראק 1.8 מיליארד, Bybit ‏1.6 מיליארד, Poly Network ‏760 מיליון (הוחזר), Ronin ‏720 מיליון, Mt. Gox ‏670 מיליון, מוזיאון גרדנר בבוסטון 500 מיליון ומעלה, יהלומי אנטוורפן 180 מיליון.\\nשלחו למי שעדיין שומר הכול בבורסה אחת.\\n\\n#crypto #heist #Binance\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/heists_top_cover.jpg\"}"
+    }
+   },
+   "express": {
+    "id": "idf_depth",
+    "due": "2026-11-13T17:30:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/idf_depth.mp4\", \"caption\": \"איך אומרים פיקוד העורף באנגלית? 🏡\\n\\nHome Front Command. לא Back Command.\\n\\n🏡 העורף: the home front. האנשים בבית, רחוק מהקרב.\\n\\n🎖️ בצה\\\"ל יש 4 פיקודים מרחביים (regional commands), ופיקוד העורף אחראי על כל הארץ.\\n🚀 הוא הוקם ב1992, אחרי מלחמת המפרץ, כשטילים פגעו בערים בישראל.\\n\\nמה הוא עושה?\\n🚨 אזעקה: Siren. התרעה חזקה שמזהירה אתכם.\\n🧱 מקלט: Shelter. חדר מוגן עם קירות עבים.\\n🔦 חיפוש והצלה: Search and rescue. איתור אנשים מתחת להריסות.\\n⛑️ ב2023 המשלחת שלו בטורקיה חילצה 19 אנשים אחרי רעידת האדמה.\\n\\n🧭 ואל תתבלבלו עם פיקוד העומק: the Depth Command.\\nעומק: Depth. הרחק מאחורי קווי האויב. מאז 2011 הוא מתאם משימות לטווח רחוק (long range missions).\\n\\nהעורף: כאן. העומק: שם.\\n\\nרוצים שטף? דברו עם עצמכם באנגלית 7 דקות בוואטסאפ, ואז הסבירו את אותו רעיון לחבר בשיחה.\\n\\nאיזו מ5 המילים הייתה חדשה לכם? כתבו בתגובות.\\n\\nSources: Wikipedia, Home Front Command (established Feb 1992 after the lessons of the Gulf War; alerts and sirens, shelters, search and rescue); Times of Israel, 13 Feb 2023 (Home Front Command delegation rescued 19 people in Turkey); Wikipedia, Depth Corps (formed in its current form in 2011); Jerusalem Post, 15 Jul 2025 (coordinates long range operations and missions deep in enemy territory).\\n\\nMade with AI tools\\n\\n#EnglishExpress #LearnEnglish #אנגלית #צהל #פיקודהעורף\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/idf_depth_cover.jpg\"}"
+    }
+   }
+  },
+  "s996993": {
+   "noam": {
+    "id": "peace_no_years_v3",
+    "due": "2026-11-13T18:40:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/peace_no_years_v3.mp4\", \"caption\": \"Reacting to peace offers based on the year. 🕊️\\n\\n1947: UN Partition Plan, an Arab state on about 43% of the land. The Arab Higher Committee and the Arab states: No.\\n1967: After the Six Day War, Israel offered Sinai and the Golan for peace. Arab League, Khartoum: no peace, no talks, no recognition.\\nIn their words: Jamal Husseini of the Arab Higher Committee at the UN, 29 Sep 1947: \\\"oppose, with all the means at their disposal\\\" (UN press release GA/PAL/3). Mahmoud Abbas on Olmert's 2008 offer, Channel 10, Nov 2015: \\\"How can I sign on something that I didn't receive?\\\" (AP).\\n1978: Camp David, elected Palestinian self-rule in the West Bank and Gaza. Arafat's PLO: No.\\n2000: Barak at Camp David, a state in Gaza, most of the West Bank and parts of East Jerusalem. Arafat: No, no counter offer (per US and Israeli officials).\\nDec 2000: Clinton Parameters, 94 to 96% of the West Bank, all of Gaza, Arab parts of East Jerusalem. Arafat: yes, with reservations the US saw as outside the plan. Taba (Jan 2001) ended without a deal.\\n2008: Olmert, a state on about 94% of the West Bank plus land swaps. Abbas: no answer (Olmert's account).\\n2014: US framework, a capital in East Jerusalem. Abbas: no answer.\\n2020: Trump plan, a state on about 70% of the West Bank, with conditions. Abbas: \\\"A thousand times: No, no and no.\\\"\\n\\nPalestinians say these offers fell short on borders, Jerusalem and refugees. Some offers, like 2000, were never put on paper, and their size is disputed.\\n\\nמגיבים להצעות שלום לפי השנה: 1947, 1967, 1978, 2000, 2008, 2014, 2020. הצעות שונות, תשובה דומה.\\nהפלסטינים אומרים שההצעות לא הספיקו בגבולות, בירושלים ובפליטים.\\n\\nBeg to differ? Tell us where we're wrong.\\nחושבים אחרת? כתבו לנו איפה אנחנו טועים.\\n\\nSources: UN GA Resolution 181 (1947); Khartoum Resolution (1967), Benny Morris; Britannica (1978); ADL, TIME (2000), Al Jazeera 2003; Clinton Parameters (2000), Dennis Ross; Jewish Virtual Library, JNS 2025; Haaretz via Daily Caller 2017; Times of Israel 2020. Map: Natural Earth.\\n\\n#Israel #Palestine #PeaceProcess #History #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/peace_no_years_v3_cover.jpg\"}"
+    }
+   }
+  },
+  "s996995": {
+   "noam": {
+    "id": "apartheid_p2",
+    "due": "2026-11-13T19:50:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/apartheid_p2_v2.mp4\", \"caption\": \"How to do apartheid. A beginner's guide. 📘\\n\\n5 easy steps. Israel tried none of them, so I tried them for it. 0 out of 5.\\n\\nStep 1: Ban them from voting. Arab citizens vote, and about 10 Arab members sit in the Knesset. FAILED ❌\\nStep 2: Separate the hospitals. Arab and Jewish doctors treat everyone, side by side. Nearly half of Israel's pharmacists are Arab. FAILED ❌\\nStep 3: Keep them off the top court. Justice Khaled Kabub sits on Israel's Supreme Court. FAILED ❌\\nStep 4: Keep them out of the universities. 18% of students are Arab, about the same as their share of citizens. FAILED ❌\\nStep 5: Keep them out of government. In 2021 an Arab party, Ra'am, joined the governing coalition. FAILED ❌\\n\\nResult: 0 out of 5. Worst apartheid ever.\\n\\nאיך לעשות אפרטהייד. מדריך למתחילים 📘\\n5 צעדים פשוטים. אפס מתוך חמש.\\nאזרחים ערבים מצביעים ויושבים בכנסת. רופאים ערבים ויהודים עובדים יחד, וכמעט חצי מהרוקחים בישראל ערבים. השופט ח'אלד כבוב יושב בבית המשפט העליון. 18% מהסטודנטים ערבים, בערך כמו חלקם באזרחים. ורע\\\"ם ישבה בקואליציה ב 2021.\\nהאפרטהייד הכי גרוע אי פעם.\\n\\nSources:\\n1. Knesset; INSS, 2022 (Arab members of the 25th Knesset)\\n2. JNS, citing a 2025 health workforce study (pharmacists)\\n3. Times of Israel; Jerusalem Post, 2022 (Justice Khaled Kabub appointed to the Supreme Court)\\n4. IDI (Israel Democracy Institute), Statistical Report on Arab Society 2021, 2020 data (Arab students: 18% of students)\\n5. Knesset, June 2021 (Ra'am in the 36th government coalition)\\n\\nSo... is this how you do apartheid? Tell me in the comments 💬\\nאז... ככה עושים אפרטהייד? ספרו לי בתגובות 💬\\n\\n#Israel #Apartheid #Facts #ישראל #אפרטהייד #Satire #Tutorial\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/apartheid_p2_cover.jpg\"}"
+    }
+   }
+  },
+  "s996998": {
+   "noam": {
+    "id": "border_knock_1_v2",
+    "due": "2026-11-13T21:00:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/border_knock_1_v2.mp4\", \"caption\": \"Knock knock. 🚪 Gaza has 2 borders. Only one of them gets the knocks.\\n\\n🇪🇬 Gaza's border with Egypt: 13 km (CIA World Factbook).\\n🔒 2015: the Rafah crossing was open just 21 days all year (Gaza's interior ministry, via Times of Israel, Feb 2016).\\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Reuters, Sep 2015).\\n🏚️ Over 3,000 buildings razed in Egyptian Rafah for a buffer zone (Human Rights Watch, Sep 2015).\\n🏜️ Oct 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah (AP). The crossing reopened on 2 Feb 2026 for limited foot traffic.\\n\\nTwo borders. Ask about both.\\n\\nSend this to the friend who only knows one door.\\n\\n#Israel #Gaza #Egypt #Rafah\\n\\nנוק נוק. 🚪 לעזה יש 2 גבולות. רק באחד מהם דופקים.\\n🇪🇬 הגבול של עזה עם מצרים: 13 ק\\\"מ.\\n🔒 2015: מעבר רפיח היה פתוח רק 21 ימים בכל השנה.\\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\\n🏚️ יותר מ-3,000 מבנים נהרסו ברפיח המצרית בשביל אזור חיץ.\\n🏜️ אוקטובר 2023: נשיא מצרים דחה העברת עזתים לסיני.\\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח.\\nשני גבולות. תשאלו על שניהם.\\nשלחו את זה לחבר שמכיר רק דלת אחת.\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/border_knock_1_v2_cover.jpg\"}"
     }
    }
   },
@@ -679,33 +889,6 @@
     }
    }
   },
-  "s996898": {
-   "express": {
-    "id": "x_a2_push_back_v2",
-    "due": "2026-11-11T19:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a2_push_back_v2.mp4\", \"caption\": \"המנהל האמריקאי מציג תוכנית שאתם לא אוהבים. ככה לא מסכימים, בלי להישמע גסים 🤝\\n\\n❌ You're wrong.\\n✅ I see it a bit differently.\\n(אני רואה את זה קצת אחרת)\\n\\n❌ This won't work.\\n✅ I'm not sure it'll work. Can we test it first?\\n(לא בטוחה שזה יעבוד. נבדוק קודם?)\\n\\n❌ Why would we do that?\\n✅ Help me understand the thinking behind it.\\n(תעזור לי להבין את ההיגיון)\\n\\n❌ No.\\n✅ That's tough right now. What if we try this?\\n(קשה לי עכשיו. מה אם ננסה ככה?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a2_push_back_v2_cover.jpg\"}"
-    }
-   }
-  },
-  "s996903": {
-   "noam": {
-    "id": "france_like_israel",
-    "due": "2026-11-11T21:40:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/france_like_israel.mp4\", \"caption\": \"France, judged like Israel. Ready? 🇫🇷\\n\\nSatire. Every \\\"finding\\\" uses the same rules people use on Israel. The true parts are real:\\n\\n1. Before the Franks, it was Gaul. Rome conquered the Gauls (Celts) in 58 to 50 BC; the Franks came about 500 AD and gave France its name. And before the Gauls? The Lascaux cave painters, about 17,000 years ago.\\n2. \\\"Not French enough\\\" and \\\"too French\\\" at the same time: a parody of what Israel hears.\\n3. About 10% of adults aged 18 to 59 in France say they are Muslim. That doesn't make France an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026.\\n4. In October 2023 France's Interior Minister ordered pro-Palestinian protests banned. France's top court said: no blanket ban, case by case. Imagine the headlines if Israel did that.\\n5. Israel is accused of occupation next door. France holds New Caledonia, about 16,700 km from Paris (independence votes in 2018, 2020 and 2021, all No).\\n6. The Eiffel Tower bit is pure satire. Leave it alone.\\n\\nBoth countries have real problems. Judge them by one standard.\\n\\nצרפת, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \\\"ממצא\\\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: לפני הפרנקים זו הייתה גאליה. כ-10% מהמבוגרים בצרפת מגדירים את עצמם מוסלמים, וזה לא הופך את צרפת למדינת אפרטהייד. גם ישראל לא: כ-21% מהאזרחים ערבים, והמפלגות הערביות זכו ב-19 מושבים בכנסת. צרפת אסרה הפגנות פרו פלסטיניות ב-2023, ומחזיקה איים במרחק כ-16,700 ק\\\"מ מפריז. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.\\n\\nSend this to someone who judges Israel by rules no other country is held to.\\nשלחו את זה למי ששופט את ישראל בכללים שאף מדינה אחרת לא נשפטת לפיהם.\\n\\nSources: INSEE, Trajectoires et Origines 2 (2019-20). Israel Central Bureau of Statistics, end of 2025. Knesset election results, Oct 2026 (all votes counted, ynet / Globes). Conseil d'Etat ruling 488860, 18 Oct 2023. New Caledonia referendums 2018, 2020, 2021. Distance: great circle Paris to Noumea. Lascaux: French Ministry of Culture. Maps: Natural Earth.\\n\\nMade with AI tools.\\n\\n#Israel #France #DoubleStandard #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/france_like_israel_cover.jpg\"}"
-    }
-   }
-  },
-  "s996907": {
-   "noam": {
-    "id": "genocide_chart_v2",
-    "due": "2026-11-11T23:40:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/genocide_chart_v2.mp4\", \"caption\": \"What actually counts as genocide? Run it through the chart 🔍\\n\\n1948 Genocide Convention, Art. II: a protected group, acts on the list, and intent to destroy that group \\\"as such\\\". Courts ruled it for the Holocaust, Rwanda, Srebrenica and more.\\n\\nHAMAS, 7 Oct 2023: about 1,200 killed in Israel, mostly civilians. About 20 of them were Muslim Bedouin citizens of Israel. HAMAS has also shot Gazans it called collaborators, in 2014 and again in 2025. Its 1988 charter quotes \\\"fight the Jews (killing the Jews)\\\". No court has ruled.\\n\\nIsrael in Gaza: the target is HAMAS. Israel warned civilians with 7.2 million leaflets, 13.7 million texts, 15 million recorded calls and 79,000 live calls (IDF, Jan 2024). WHO counts 12,913 patients, 6,186 of them children, evacuated for care abroad, many flown out through Israel.\\n\\nIf you want to wipe out a people, you don't warn them, move them and treat their kids. About 2.2 million Arabs live in Israel, and Arab citizens vote and serve in the Knesset. Fighting HAMAS is not destroying a people.\\n\\nOver 70,000 people have died in Gaza (Gaza MoH, HAMAS run, no fighter split), many of them children. That pain is real. A UN inquiry said genocide (Sep 2025); Israel rejects it. The ICJ case is still open: no ruling, filings into 2029.\\n\\nSend this to someone who uses the word without the chart.\\n\\nמה בעצם נחשב רצח עם? בואו נעביר את זה בתרשים 🔍\\nחמאס, 7 באוקטובר: כ 1,200 נרצחו, רובם אזרחים, וביניהם כ 20 בדואים מוסלמים, אזרחי ישראל. חמאס גם הוציא להורג עזתים שכינה \\\"משתפי פעולה\\\".\\nישראל בעזה: המטרה היא חמאס. מיליוני כרוזים, הודעות ושיחות הזהירו אזרחים להתפנות, ו 12,913 חולים, 6,186 מהם ילדים, פונו לטיפול בחו\\\"ל.\\nמי שרוצה להשמיד עם לא מזהיר אותו, לא מפנה אותו ולא מטפל בילדים שלו. 2.2 מיליון ערבים חיים בישראל. להילחם בחמאס זה לא להשמיד עם.\\nעשרות אלפים מתו בעזה, רבים מהם ילדים, והכאב אמיתי. בהאג עוד אין פסיקה.\\n\\nSources: Genocide Convention 1948; IMT; ICTR; ICTY; ICJ 2007; ECCC; OLG Frankfurt; AP 2024; Ynet 2023; JPost 2023; Amnesty 2015; Reuters 2025; HAMAS Covenant (Avalon, Yale); IDF 2024; WHO 2026; COGAT via Times of Israel 2025; Israel CBS 2026; Gaza MoH 2026; UN COI 2025; ICJ case 192 (2026).\\nMade with AI tools.\\n\\n#Israel #Genocide #Gaza #History\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/genocide_chart_v2_cover.jpg\"}"
-    }
-   }
-  },
   "s996922": {
    "express": {
     "id": "x_b5_deadline_push_v2",
@@ -751,30 +934,12 @@
     }
    }
   },
-  "s996936": {
-   "noam": {
-    "id": "mideast_vs_israel",
-    "due": "2026-11-12T14:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/mideast_vs_israel.mp4\", \"caption\": \"10 million vs 493 million. Who makes more per person? 🗺️\\n\\nThe Arab League: 22 countries, 493 million people. Add up every economy from Morocco to Oman and you get about $3.76 trillion (2024).\\nIsrael alone: about $542 billion, with 10 million people.\\n\\nPer person:\\nArab League, all 22 combined: about $7,630\\nIsrael: about $54,200\\nThat's 7 times more.\\n\\nMake it the whole Middle East, with Iran and Turkey (15 countries, Israel not included): about $10,130 per person. Israel is still over 5 times higher.\\n\\nOnly Qatar beats Israel per person (about $76,400). The UAE comes close (about $52,900). Oil and gas drive the Gulf.\\n\\nThis isn't about people. Talent is everywhere. It's about systems: peace, schools and technology. We spread by building, not conquering.\\n\\n10 מיליון מול 493 מיליון. 22 מדינות הליגה הערבית יחד מייצרות כ-3.76 טריליון דולר בשנה, ישראל לבד כחצי טריליון. לאדם: כ-7,630 דולר בליגה הערבית, כ-54,200 בישראל, פי 7. גם עם איראן וטורקיה, כל המזרח התיכון, עדיין פי 5 ויותר. רק קטאר עוקפת אותנו לאדם, והאמירויות קרובות: נפט וגז מניעים את המפרץ. זה לא עניין של אנשים, כישרון יש בכל מקום. זה עניין של מערכות: שלום, חינוך וטכנולוגיה.\\n\\nSend this to someone who thinks the region's problem is its people.\\nשלחו את זה למי שחושב שהבעיה של האזור היא האנשים.\\n\\nHow we counted: each country's 2024 GDP in current US dollars, added up, divided by the countries' combined population.\\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values). Syria: World Bank, 2022 (latest available). West Bank and Gaza: IMF, via Worldometers. Population: World Bank, World Development Indicators, 2024. Map: Natural Earth.\\n\\nMade with AI tools.\\n\\n#Israel #MiddleEast #Economy #ArabLeague #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/mideast_vs_israel_cover.jpg\"}"
-    }
-   }
-  },
   "s996937": {
    "express": {
     "id": "yiddish_words",
     "due": "2026-11-12T14:30:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/yiddish_words.mp4\", \"caption\": \"אילו מילים באנגלית הן בעצם יידיש? 🗺️\\n\\nיותר משני מיליון וחצי יהודים הגיעו מאירופה לאמריקה בשנים 1881 עד 1924, והביאו איתם יידיש. חלק מהמילים נשארו באנגלית עד היום:\\n\\n🥯 Bagel: בייגל. כן, גם זו יידיש.\\n🧳 Schlep: לסחוב משהו כבד. I schlepped my laptop to the meeting.\\n😩 Kvetch: להתלונן. Stop kvetching about the deadline.\\n😇 Mensch: בן אדם הגון. He's a real mensch.\\n\\nועכשיו הטוויסט: ארבע המילים הבאות התחילו בעברית 🇮🇱\\n✅ Kosher, מ\\\"כשר\\\": בעסקים זה \\\"לגיטימי\\\". Is this deal kosher?\\n😏 Chutzpah, מ\\\"חוצפה\\\": אומץ חצוף. Asking for a raise on day one? Chutzpah.\\n🎓 Maven, מ\\\"מבין\\\": מומחה. She's our Excel maven.\\n🥂 Schmooze, מ\\\"שמועות\\\": לפטפט ולעשות נטוורקינג. Go schmooze with the clients.\\n\\n8 מילים באנגלית. 4 מהן כבר ידעתם בעברית.\\n\\nרוצים שטף? דברו עם עצמכם באנגלית 7 דקות בוואטסאפ, ואז הסבירו את אותו רעיון לחבר בשיחה.\\n\\nאיזו מילה הפתיעה אתכם? כתבו בתגובות.\\n\\nWhich English words are actually Yiddish? Bagel, schlep, kvetch, mensch. And four that started in Hebrew: kosher (kasher), chutzpah (chutzpa), maven (mevin), schmooze (shmuot).\\n\\nSources: Merriam-Webster, \\\"schmooze\\\" and \\\"chutzpah\\\"; Dictionary.com, \\\"kosher\\\"; Wiktionary, \\\"maven\\\"; Library of Congress, From Haven to Home (over 2.5 million East European Jews, 1881 to 1924).\\n\\nMade with AI tools.\\n\\n#EnglishExpress #LearnEnglish #אנגלית\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/yiddish_words_cover.jpg\"}"
-    }
-   }
-  },
-  "s996938": {
-   "noam": {
-    "id": "arab_vote_v3",
-    "due": "2026-11-12T15:10:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/arab_vote_v3.mp4\", \"caption\": \"They say Arabs can't vote in Israel. Arab parties just became the third-largest bloc. 🗳️\\n\\nIsrael voted on 27 Oct 2026. With about 90% counted, Arab parties are on track for 19 of 120 seats, a record (previous high: 15): Joint List (Hadash, Ta'al, Balad) 12, Ra'am 7. That puts them third, behind Netanyahu's bloc (53) and Eisenkot's bloc (48). Final results are due 4 Nov.\\nEvery Israeli citizen, Jewish or Arab, can vote. About 21% of Israelis are Arab. In 2021 Ra'am became the first Arab party to join a coalition.\\n\\nGaza: Hamas won the Jan 2006 vote. No election since.\\nWest Bank: the Palestinian Authority (PA). Last presidential vote 2005, last parliament vote 2006. The 2021 vote was cancelled, and the Nov 2026 vote was pushed to Sep 2027.\\n\\nThe Arabs with the most say over their government are the ones living in Israel.\\n\\nאומרים שערבים לא יכולים להצביע בישראל. המפלגות הערביות הפכו לגוש השלישי בגודלו: 19 מתוך 120 מושבים, שיא.\\nכל אזרח ישראלי, יהודי או ערבי, יכול להצביע.\\nבעזה אין בחירות מאז 2006. ברשות הפלסטינית: נשיא 2005, פרלמנט 2006, והבחירות נדחו לספטמבר 2027.\\nהערבים שיש להם הכי הרבה השפעה על הממשלה שלהם הם אלה שחיים בישראל.\\n\\nBeg to differ? Tell us where we're wrong. 👇\\nחושבים אחרת? כתבו לנו איפה אנחנו טועים. 👇\\n\\nSources:\\n1. Central Elections Committee count, 28 Oct 2026 (Times of Israel, Ynet, Jewish Chronicle, Jerusalem Post)\\n2. Central Bureau of Statistics, Apr 2026\\n3. Christian Science Monitor, 3 Jun 2021\\n4. NPR, 29 Apr 2021\\n5. Al Jazeera, 10 Oct 2026\\n6. Jerusalem Story, Who represents Palestinians in Jerusalem\\n\\n#Israel #Elections #Knesset #ArabIsraelis #בחירות\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/arab_vote_v3_cover.jpg\"}"
     }
    }
   },
@@ -787,15 +952,6 @@
     }
    }
   },
-  "s996942": {
-   "noam": {
-    "id": "beer_per_km_v5",
-    "due": "2026-11-12T17:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/beer_per_km_v5.mp4\", \"caption\": \"11 beer cars. Who stops first? 🍺🚗\\n\\nEvery car is the average adult of one country. Its only fuel: the beer that country drinks, per adult, per day.\\n\\nWhere each car runs out:\\n🇦🇹 Austria 3.95 km 🏆\\n🇨🇿 Czechia 3.89 km\\n🇵🇱 Poland 3.22 km\\n🇧🇷 Brazil 3.02 km\\n🇩🇪 Germany 2.87 km\\n🇺🇸 USA 2.14 km\\n🇬🇧 UK 2.07 km\\n🇷🇺 Russia 1.89 km\\n🇯🇵 Japan 910 m\\n🇨🇳 China 810 m\\n🇮🇱 Israel 780 m\\n\\nFunny thing: Israel has the better engine. 5.7 km per beer, more than the USA (5.1) or Germany (5.4). The tank is just almost empty: 69 ml of beer a day. Israelis run on coffee ☕\\nAnd Israel even drinks a bit more beer than Japan. Japan's cars are lighter.\\n\\nHow we counted: one big beer (500 ml) is about 215 kcal. Walking burns about 0.5 kcal per kg of body weight per km. km per beer = 215 / (0.5 x average adult weight). Daily range = beer per adult a day / 500 ml x km per beer. Averages, approximate.\\n\\nSend this to the friend who orders coffee at the bar.\\n\\n11 מכוניות שהדלק היחיד שלהן הוא בירה. מי נעצרת ראשונה? 🍺\\nכל מכונית היא האדם הממוצע במדינה אחת, והמיכל שלה הוא כמות הבירה שכל מבוגר שותה ביום.\\nאוסטריה מגיעה לכמעט 4 ק\\\"מ. ישראל נעצרת אחרי 780 מטר, ראשונה מכולן.\\nהמנוע הישראלי דווקא טוב יותר (5.7 ק\\\"מ לבירה, יותר מארה\\\"ב וגרמניה), פשוט המיכל כמעט ריק. ישראלים רצים על קפה ☕\\n\\nSources: beer per adult 15+, WHO Global Health Observatory 2022 (via Our World in Data), at 5% ABV. Body weight: NCD-RisC (via WorldData), men and women averaged. Beer calories: USDA FoodData Central. Walking cost: ACSM walking equation.\\nMade with AI tools.\\n\\n#Beer #Israel #WorldData #Coffee\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/beer_per_km_v5_cover.jpg\"}"
-    }
-   }
-  },
   "s996943": {
    "express": {
     "id": "schooled_v2",
@@ -805,55 +961,12 @@
     }
    }
   },
-  "s996944": {
-   "noam": {
-    "id": "un_per_person_v2",
-    "due": "2026-11-12T18:10:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/un_per_person_v2.mp4\", \"caption\": \"15 out of 26 UN condemnations. One country. 🇺🇳\\n\\nIn its 2025 session, the UN General Assembly condemned:\\nRussia 6 (it invaded Ukraine)\\nUSA 2\\nIran, North Korea, Myanmar: 1 each\\nSudan, the world's largest displacement crisis: 0\\nIsrael: 15. More than the rest of the world combined (11).\\n\\nPer 10 million people: Israel about 14.9. Russia about 0.4. The rest of the world about 0.013. Over 1,000 times more.\\n\\nIsrael's war in Gaza deserves scrutiny, like any war. But 15 to 11 isn't scrutiny. It's a pattern.\\n\\n15 מתוך 26 גינויים של האו\\\"ם. מדינה אחת.\\nב-2025 העצרת הכללית גינתה את רוסיה 6 פעמים, את ארה\\\"ב פעמיים, את איראן, צפון קוריאה ומיאנמר פעם אחת כל אחת, את סודן אפס, ואת ישראל 15. יותר מכל שאר העולם ביחד.\\nלפי גודל האוכלוסייה: פי יותר מאלף משאר העולם.\\nמלחמה בעזה ראויה לביקורת, כמו כל מלחמה. אבל 15 מול 11 זו לא ביקורת. זה דפוס.\\n\\nSend this to someone who still quotes the UN as neutral.\\n\\nSources: UN Watch, \\\"2025 UNGA Resolutions on Israel vs. Rest of the World\\\" (Nov 2025). Population: UN World Population Prospects 2024 (Israel about 10.1M). Sudan displacement: UNHCR.\\n\\n#Israel #UnitedNations #UN #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/un_per_person_v2_cover.jpg\"}"
-    }
-   }
-  },
   "s996946": {
    "express": {
     "id": "intellect_v3",
     "due": "2026-11-12T19:00:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/intellect_v3.mp4\", \"caption\": \"אפשר לדבר על הרגשות שלכם כל היום, ועדיין לא להצליח להירגע. 🧠\\n\\nיש אנשים שמסבירים כל רגש בצורה מושלמת, ולא מצליחים לווסת אף אחד. ויש אנשים שנרגעים תוך שניות, ואין להם מילים למה שהם מרגישים.\\nהראשון זה intellect. השני זה intelligence. לדבר על זה, לנתח, להסביר, מול לפתור את זה.\\n\\nמי שמלמד, כמרצה או כקואץ׳, צריך יותר intellect. מי שצריך לפתור בעיה משלו, צריך את הפתרון. לדעת על משהו זה לא כמו להיות מסוגל לעשות אותו.\\n\\nובאיזה מהם אתם חזקים יותר? 👇\\n\\nIntellect vs intelligence: knowing about it is not the same as being able to do it.\\n\\n#אנגלית #התפתחותאישית #EnglishExpress #intelligence\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/intellect_v3_cover.jpg\"}"
-    }
-   },
-   "noam": {
-    "id": "she_walks_alone_v2",
-    "due": "2026-11-12T19:20:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/she_walks_alone_v2.mp4\", \"caption\": \"One woman. 6 cities. 3 rules. 🚶‍♀️\\n\\nCan she travel without a man's permission? Show her hair? Go to university?\\nLondon: yes, yes, yes.\\nTel Aviv: yes, yes, yes.\\nCairo: yes, yes, yes.\\nRiyadh: travel alone only from age 21 (since 2019). A modest dress code. University: yes.\\nTehran: if she's married, her husband signs her passport. The hijab is law. University: yes.\\nKabul: no, no and no. The Taliban shut universities to women in December 2022.\\n\\nIsrael isn't perfect either: divorce goes through religious courts, and a husband can refuse.\\nBut those three rules? Easy.\\n\\nאישה אחת. שש ערים. שלושה כללים: לנסוע בלי אישור של גבר, להראות את השיער, ללמוד באוניברסיטה.\\nבלונדון, בתל אביב ובקהיר: כן, כן, כן. בריאד: לנסוע לבד רק מגיל 21, קוד לבוש צנוע. בטהרן: אישה נשואה צריכה את חתימת הבעל על הדרכון, והחיג'אב חובה. בקאבול: לא, לא ולא.\\nגם ישראל לא מושלמת: גירושין רק דרך בתי דין דתיים, ובעל יכול לסרב.\\n\\nSend this to someone who asks where a woman is free.\\n\\nSources: World Bank, Women, Business and the Law 2024 (mobility); Saudi Arabia guardianship reform, Aug 2019 (Reuters); Egypt Supreme Constitutional Court ruling on passports, Nov 2000; Iran Passport Law, art. 18 and the 1983 hijab law; Taliban travel rule (Dec 2021), university ban (Dec 2022) and 2024 vice and virtue law (UNAMA); Israel: Rabbinical Courts Jurisdiction Law (1953).\\n\\n#WomensRights #Israel #MiddleEast #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/she_walks_alone_v2_cover.jpg\"}"
-    }
-   }
-  },
-  "s996949": {
-   "noam": {
-    "id": "terror_compare_v2",
-    "due": "2026-11-12T20:30:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/terror_compare_v2.mp4\", \"caption\": \"147 suicide bombings. Jewish ones: 0.\\n\\nJewish terror is real, and it's horrible. Hebron, 1994: Baruch Goldstein murdered 29 Muslim worshippers at prayer. Israel's answer: Prime Minister Rabin told the Knesset he was \\\"a shame on Zionism and an embarrassment to Judaism\\\". His movement, Kach, was banned (March 1994). The shrine at his grave was bulldozed (1999).\\n\\nThe other side, September 2000 to 2005: HAMAS, Islamic Jihad, Fatah's Al-Aqsa Brigades and the PFLP sent 147 suicide bombers. Over 500 people were killed. Their answer: squares named after attackers (in 2017 the UN cut ties with a women's centre named after Dalal Mughrabi), and payments to attackers' families, which the US State Department says still flow.\\n\\nSettler violence is real too. The UN counted over 1,400 settler attacks in 2024. Israel has to stop it.\\n\\nBut one side bans its terrorists. The other names squares after them.\\n\\nטרור יהודי קיים, והוא נורא. ב-1994 ברוך גולדשטיין רצח 29 מתפללים מוסלמים בחברון. רבין קרא לו \\\"חרפה לציונות\\\", תנועת כך הוצאה מחוץ לחוק, והמקדש על קברו נהרס.\\nבצד השני, 2000 עד 2005: 147 מחבלים מתאבדים של חמאס וארגונים חמושים אחרים, יותר מ-500 הרוגים. כיכרות על שמם ותשלומים למשפחות.\\nגם אלימות מתנחלים היא אמיתית, וישראל חייבת לעצור אותה.\\nאבל צד אחד מוציא את המחבלים שלו מחוץ לחוק. הצד השני קורא כיכרות על שמם.\\n\\nSend this to someone who says both sides are the same.\\n\\nSources: Shamgar Commission report (1994); Rabin in the Knesset, 1 Mar 1994; Kach banned by the Israeli cabinet, 13 Mar 1994; shrine removed 1999 (JTA); 147 suicide bombings and over 500 killed, Sep 2000 to 2005 (Intelligence and Terrorism Information Center, Jan 2006); UN Secretary General's office on the Mughrabi centre (May 2017); US State Department report to Congress on PA payments (Times of Israel, Apr 2026); UN OCHA settler attacks 2024 (1,449, via Al Jazeera, Oct 2025).\\n\\n#Israel #HAMAS #Terrorism #IsraelFacts\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/terror_compare_v2_cover.jpg\"}"
-    }
-   }
-  },
-  "s996951": {
-   "noam": {
-    "id": "bbs_rulebook",
-    "due": "2026-11-12T21:40:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/bbs_rulebook.mp4\", \"caption\": \"Satire 🎭 A parody newsroom rulebook, not a real one.\\n\\nThe BBS Rulebook (BBS: Barely Bothered with Sources) 📕\\n1. If it isn't true, make it up.\\n2. Dead people matter. Only if killed by a Jew.\\n3. HAMAS numbers: \\\"figures\\\". Israeli numbers: \\\"claims\\\".\\n4. Rocket at Israel? \\\"Sirens heard.\\\" Israel answers? \\\"Israel strikes.\\\"\\n5. Never say terrorist. Say \\\"militant\\\". Then \\\"gunmen\\\". Then forget.\\n6. Israeli guest? Interrupt. HAMAS guest? Nod.\\n7. Headline first. Facts later. Corrections never.\\n8. If you must correct: page 47, font size 3.\\n9. The story starts when Israel responds.\\n10. When in doubt, blame Israel. When certain, still blame Israel.\\n11. A HAMAS spokesman is a \\\"health official\\\".\\n12. Our sources are anonymous. Our bias isn't.\\n13. Check the source. (Torn out.)\\n\\nThe true parts: in October 2023 the BBC said its guidelines avoid the word \\\"terrorist\\\" for HAMAS without attribution, and BBC News said it was wrong to speculate on the cause of the Gaza hospital blast.\\n\\nNot every journalist works like this. Just check the source.\\n\\nWhich rule did we miss? Comment it.\\n\\nסאטירה. ספר חוקים של מערכת חדשות מומצאת.\\nאם זה לא נכון, תמציאו. אנשים מתים חשובים, רק אם יהודי הרג אותם. המספרים של חמאס הם \\\"נתונים\\\", של ישראל \\\"טענות\\\". ותיקון? בעמוד 47, בגופן 3.\\nלא כל עיתונאי עובד ככה. פשוט תבדקו את המקור.\\nאיזה חוק פספסנו? כתבו בתגובות.\\n\\nSources: BBC statement on the word \\\"terrorist\\\", Press Gazette, 11 Oct 2023; BBC News deputy CEO on the Gaza hospital coverage, Media Society event, 19 Oct 2023 (PA, Express & Star).\\n\\n#Satire #MediaBias #Israel #CheckTheSource\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/bbs_rulebook_cover.jpg\"}"
-    }
-   }
-  },
-  "s996953": {
-   "noam": {
-    "id": "ethnic_cleansing",
-    "due": "2026-11-12T22:50:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/ethnic_cleansing.mp4\", \"caption\": \"Ethnic cleansing: yes or no? Let's sort it 🧽\\n\\nUN definition (1993): \\\"rendering an area ethnically homogeneous by using force or intimidation\\\". Not a separate crime in law, but it can amount to crimes against humanity or genocide.\\n\\nWashing people in a bathtub? Not ethnic cleansing. Dry-cleaning an ethnic shirt? Also not.\\n\\nNazi Germany hunted Jews, deported them by train and murdered 6 million. Worse than ethnic cleansing: genocide.\\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \\\"a textbook example of ethnic cleansing\\\".\\nWest Darfur, Sudan, 2023: thousands of Masalit killed, hundreds of thousands driven out. Human Rights Watch: ethnic cleansing.\\n\\nIsrael fights HAMAS in Gaza and warned civilians with 7.2 million leaflets, 13.7 million texts and 15 million recorded calls (IDF, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\\n\\n7 October 2023: HAMAS killed about 1,200 people in Israel, mostly civilians, house by house. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\\n\\nSend this to someone who uses the word without the definition.\\n\\nטיהור אתני: כן או לא? 🧽\\nלפי הגדרת האו\\\"ם, טיהור אתני הוא שימוש בכוח או בהפחדה כדי לסלק קבוצה מאזור. רחצה באמבטיה? לא טיהור אתני. ניקוי יבש לחולצה אתנית? גם לא.\\nהשואה: 6 מיליון יהודים נרצחו. זה יותר מטיהור אתני, זה רצח עם. מיאנמר 2017 ודארפור 2023: טיהור אתני.\\nישראל נלחמת בחמאס ומזהירה אזרחים במיליוני כרוזים, הודעות ושיחות. זו מלחמה, עצובה וקשה, לא טיהור אתני. תשפטו לפי ההגדרה.\\n7 באוקטובר: חמאס רצח כ 1,200 בני אדם, רובם אזרחים. זה לפגוע באנשים בגלל מי שהם.\\n\\nSources: UN Commission of Experts, S/25274 (1993); UN Office on Genocide Prevention; USHMM; UN OHCHR, Zeid Ra'ad al-Hussein (11 Sep 2017); UNHCR; Human Rights Watch (May 2024, July 2024); US State Dept (Jan 2025); IDF via Jewish Press (Jan 2024); UN OCHA and UN experts (2024); Israeli figures via AP and Reuters; HAMAS Covenant 1988, Art. 7 (Avalon Project, Yale). Map: Natural Earth.\\nMade with AI tools.\\n\\n#Israel #EthnicCleansing #History #Gaza #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/ethnic_cleansing_cover.jpg\"}"
     }
    }
   },
@@ -902,71 +1015,12 @@
     }
    }
   },
-  "s996984": {
-   "noam": {
-    "id": "colonizer_speed_v6",
-    "due": "2026-11-13T14:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonizer_speed_v6.mp4\", \"caption\": \"Colonizers at real speed. Israel: last. 🏎️\\n\\nLand taken per year:\\n🇯🇵 Japan: ~150,000 km² (1895 to 1942)\\n🇫🇷 France: ~120,000 km² (1830 to 1920)\\n🇬🇧 Britain: ~105,000 km² (1583 to 1920)\\n🇷🇺 Russia: ~57,000 km² (1547 to 1895)\\n🇪🇸 Spain: ~42,000 km² (1492 to 1810)\\n\\n🇮🇱 Israel? In the 1967 war it took Sinai, Gaza, the West Bank and the Golan, about 67,000 km².\\nSinai went back to Egypt for peace (1979 treaty, completed 1982). Gaza: every soldier and settler left in 2005.\\nEven counting everything since 1948: about 170 km² a year.\\n\\nThen it stopped, even with weak neighbors. Why so little? Why stop?\\nBecause this is a dangerous place: HAMAS, Hezbollah, ISIS, and Iran behind them. On 7 October 2023, HAMAS came from Gaza, the land Israel left: about 1,200 people murdered, 251 taken hostage.\\nAnd still: peace with Egypt (1979), Jordan (1994), the Abraham Accords (2020).\\n\\nWhat Israel is doing is not colonizing.\\n\\nישראל קולוניאליסטית? בסדר, בואו נדרג 5 אימפריות לפי מהירות.\\nיפן לקחה כ-150,000 קמ\\\"ר בשנה, בריטניה כ-105,000.\\nישראל, גם כשסופרים הכול מאז 1948: כ-170 קמ\\\"ר בשנה. את סיני החזרנו תמורת שלום, ומעזה יצאנו ב-2005.\\nואז עצרנו, גם כשהשכנים היו חלשים. למה כל כך מעט? למה לעצור?\\nכי זה מקום מסוכן, צלחת פטרי של טרור. ב-7 באוקטובר החמאס יצא מעזה, מהשטח שישראל עזבה.\\nמה שישראל עושה זה לא קולוניאליזם.\\n\\nSend this to someone who still calls it colonizing.\\n\\nMethod: (peak area minus home country) ÷ years from first colony to peak, rounded. Sources: Taagepera 1997 (peak empire areas, via Wikipedia \\\"List of largest empires\\\"); James 2010 (Japan); CIA World Factbook and Britannica (Sinai, West Bank, Gaza, Golan); UN 1947 partition plan; Israel CBS; US State Dept (Foreign Terrorist Organizations, State Sponsors of Terrorism); Israeli government figures and UN 2024 (7 October). Map: NASA Blue Marble (public domain), Natural Earth borders, approximate. Photo: Begin, Carter and Sadat, 1978 (public domain).\\n\\n#Israel #Colonialism #History #Maps #noamroz\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonizer_speed_v6_cover.jpg\"}"
-    }
-   }
-  },
   "s996985": {
    "express": {
     "id": "idf_south",
     "due": "2026-11-13T14:30:00+02:00",
     "payload": {
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/idf_south.mp4\", \"caption\": \"איך אומרים פיקוד דרום באנגלית? 🧭\\n\\nSouthern Command, ואומרים SUTH-ern. לא South Command.\\n\\n🎖️ פיקוד: Command. חלק גדול בצבא שאחראי על אזור אחד. בצה\\\"ל יש 4 פיקודים מרחביים.\\n\\n🗺️ פיקוד הדרום אחראי על הנגב, הערבה ואילת, הגבול עם עזה והגבול עם מצרים. המפקדה בבאר שבע.\\n\\n🧩 ארבע אוגדות (divisions):\\n🛡️ אוגדת עזה, 143: the Gaza Division, the 143rd\\n🏜️ אוגדה 80: the 80th, Edom\\n⚙️ אוגדה 162: the 162nd, Steel\\n⛰️ אוגדה 252: the 252nd, Sinai\\n\\n🏜️ מדבר: Desert. הנגב הוא יותר ממחצית משטח ישראל (לפחות 55%).\\n🤝 מצרים: שלום מאז 1979, וגדר של 245 ק\\\"מ שהושלמה ב2013.\\n🕯️ עזה: ב7 באוקטובר 2023 HAMAS תקף את עוטף עזה. כמעט 1,200 בני אדם נרצחו.\\n\\n✉️ עוטף עזה: the Gaza envelope. היישובים סביב עזה.\\n🚧 גדר היקפית: Perimeter. הקו החיצוני ששומרים עליו.\\n🚪 מעבר: Crossing. שער לאנשים ולסחורות.\\n\\nרוצים שטף? דברו עם עצמכם באנגלית 7 דקות בוואטסאפ, ואז הסבירו את אותו רעיון לחבר בשיחה.\\n\\nאיזו מ5 המילים הייתה חדשה לכם? כתבו בתגובות.\\n\\nSources: Wikipedia, Southern Command (Israel) (the Negev, the Arava and Eilat; HQ Beersheba; divisions 80th, 143rd, 162nd and 252nd as publicly listed); Wikipedia, Negev (at least 55% of Israel's land area); Wikipedia, Egypt Israel peace treaty (1979); Wikipedia, Egypt Israel barrier (245 km, completed 2013); HISTORY.com (HAMAS attack of 7 Oct 2023, nearly 1,200 killed).\\n\\nMade with AI tools\\n\\n#EnglishExpress #LearnEnglish #אנגלית #צהל #פיקודדרום\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/idf_south_cover.jpg\"}"
-    }
-   }
-  },
-  "s996986": {
-   "noam": {
-    "id": "textbooks_hate_v2",
-    "due": "2026-11-13T15:10:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/textbooks_hate_v2.mp4\", \"caption\": \"What do kids learn about Jews? 📚\\n\\nGovernment school books, not people. 8 curricula, 4 questions.\\n\\nJordan, History, Grade 12 (2025), p. 120, on the Balfour Declaration: \\\"the Jewish role in destroying the German economy\\\" (translated by IMPACT-se, an Israel-based watchdog, May 2026).\\n\\nBest first:\\n🇦🇪 UAE: no antisemitism found, Abraham Accords from Grade 6, Holocaust lessons announced 2023\\n🇲🇦 Morocco: Jewish history added 2020\\n🇪🇬 Egypt: teaches the 1979 peace treaty; some older books not revised\\n🇸🇦 Saudi Arabia: earlier antisemitic examples removed; no map shows Israel\\n🇯🇴 Jordan: \\\"Jews and Israel are repeatedly excluded from the curriculum's tolerance framework\\\"\\n🇶🇦 Qatar: unchanged for a 4th year\\nPalestinian Authority: one religious education book \\\"contains cumulative stereotypes and accusations that can clearly be characterised as anti-Semitic\\\" (Georg Eckert Institute for the EU, 2021)\\n🇮🇷 Iran (not Arab): \\\"overwhelmingly teach hateful messages about Jewish people\\\" (ADL 2021)\\n\\nמה ילדים לומדים על יהודים? בדקנו 8 תוכניות לימודים ממשלתיות. ספר היסטוריה לכיתה י\\\"ב בירדן (2025) מסביר את הצהרת בלפור, בין השאר, ב\\\"תפקיד היהודי בהרס הכלכלה הגרמנית\\\". מנגד, סעודיה הסירה כמעט את כל התוכן האנטישמי, מצרים מלמדת את הסכם השלום, מרוקו הוסיפה היסטוריה יהודית והאמירויות מלמדות את הסכמי אברהם. ילדים לא נולדים עם שנאה. מלמדים אותם.\\n\\nSend this to someone who thinks hate is born, not taught.\\nשלחו למי שחושב ששנאה נולדת ולא נלמדת.\\n\\nSources: IMPACT-se reviews 2022 to 2026; Georg Eckert Institute 2021; ADL 2021; AP 2023.\\n\\n#Israel #Education #Antisemitism\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/textbooks_hate_v2_cover.jpg\"}"
-    }
-   }
-  },
-  "s996988": {
-   "express": {
-    "id": "idf_north",
-    "due": "2026-11-13T16:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/idf_north.mp4\", \"caption\": \"איך אומרים פיקוד צפון באנגלית? 🧭\\n\\nNorthern Command. לא North Command.\\n\\n🎖️ פיקוד: Command. חלק גדול בצבא שאחראי על אזור אחד. בצה\\\"ל יש 4 פיקודים מרחביים.\\n\\n🗺️ פיקוד הצפון אחראי על הגבולות עם לבנון וסוריה, הגליל ורמת הגולן. המפקדה בצפת.\\n\\n🧩 אוגדה: Division. יחידה גדולה שבנויה מחטיבות.\\n🪖 אוגדה 36: the 36th Division\\n⛰️ אוגדה 91: the 91st, the Galilee Division\\n🏔️ אוגדה 210: the 210th, Bashan\\n📞 אוגדה 146: the 146th, mostly reserve\\n\\n📞 מילואים: Reserve. חיילים עם חיים רגילים שנקראים כשצריך.\\n\\n🚀 מול מה? HEZBOLLAH, ארגון חמוש בלבנון.\\n🏠 אחרי 7 באוקטובר, בערך 60,000 תושבים בצפון עזבו את הבתים שלהם.\\n🕊️ בנובמבר 2024 נכנסה לתוקף הפסקת אש (ceasefire) עם לבנון.\\n\\n⚔️ חזית: Front. הקו שבו מתנהלת הלחימה.\\n\\nרוצים שטף? דברו עם עצמכם באנגלית 7 דקות בוואטסאפ, ואז הסבירו את אותו רעיון לחבר בשיחה.\\n\\nאיזו מ5 המילים הייתה חדשה לכם? כתבו בתגובות.\\n\\nSources: Wikipedia, Northern Command (Israel) (borders with Lebanon and Syria, HQ Safed, divisions 36th, 91st, 146th and 210th as publicly listed); Wikipedia, Hezbollah; Jerusalem Post, 2024 (some 60,000 residents of northern Israel fled their homes after 7 Oct 2023); Wikipedia, 2024 Israel Lebanon ceasefire agreement (took effect 27 Nov 2024).\\n\\nMade with AI tools\\n\\n#EnglishExpress #LearnEnglish #אנגלית #צהל #פיקודצפון\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/idf_north_cover.jpg\"}"
-    }
-   },
-   "noam": {
-    "id": "happiest_mena_v2",
-    "due": "2026-11-13T16:20:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/happiest_mena_v2.mp4\", \"caption\": \"Who's happiest in the Middle East? 147 countries ranked. 🌍\\n\\nWorld Happiness Report 2026 (Gallup World Poll, 2023 to 2025), world rank out of 147:\\nYemen 142, Lebanon 141, Egypt 139, Jordan 119, Palestinians 109, Iran 97, Iraq 95, Turkey 94, Libya 81, Oman 58, Bahrain 55, Kuwait 40, Saudi Arabia 22, UAE 21.\\nIsrael: 8th in the world. Ahead of Germany (17), the US (23) and the UK (29). Syria and Qatar: no data.\\n\\nNot perfect either: in the 2024 report Israel was 5th. Since the war, it slipped to 8th.\\n\\nSend this to someone who thinks Israelis must be miserable.\\n\\nמי הכי מאושר במזרח התיכון? 🌍\\nדו״ח האושר העולמי 2026 דירג 147 מדינות. ישראל במקום 8 בעולם, לפני גרמניה, ארה״ב ובריטניה. איחוד האמירויות 21, סעודיה 22, ירדן 119, מצרים 139, לבנון 141, תימן 142.\\nלא מושלם: ב-2024 ישראל הייתה במקום החמישי. מאז המלחמה ירדה למקום השמיני.\\n\\nSource: World Happiness Report 2026, worldhappiness.report\\n\\n#Israel #MiddleEast #Happiness\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/happiest_mena_v2_cover.jpg\"}"
-    }
-   }
-  },
-  "s996991": {
-   "noam": {
-    "id": "heists_top",
-    "due": "2026-11-13T17:30:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/heists_top.mp4\", \"caption\": \"$6.3 billion stolen. Most of it in about 20 minutes. 💰\\n\\nOn Thursday 29 Oct 2026, hackers drained Binance, the world's biggest crypto exchange. The FBI attributes it to TraderTraitor, a North Korean hacking unit. About $3 billion has been frozen so far, and Binance says it will cover its users.\\n\\nThe biggest heists in history, in 2026 dollars:\\n1. Binance, 2026: $6.3B\\n2. Central Bank of Iraq, Baghdad, 2003: about $1B in cash taken on Saddam's orders, $1.8B today. US troops later found about $650M in a palace, believed to be part of it.\\n3. Bybit, Dubai, 2025: $1.5B, $1.6B today (FBI: North Korea)\\n4. Poly Network, 2021: $611M, $760M today. The hacker returned almost all of it.\\n5. Ronin bridge (Axie Infinity), 2022: $625M, $720M today (FBI: Lazarus Group)\\n6. Mt. Gox, Tokyo, 2014: 850,000 bitcoin, $473M then, $670M today\\n7. Isabella Stewart Gardner Museum, Boston, 1990: 13 artworks, valued by the FBI at over $500M (a current estimate, so not inflated). Still missing.\\n8. Antwerp Diamond Centre, 2003: $100M+, $180M today. Most diamonds never found.\\nNot in the top 8: the Louvre crown jewels, Oct 2025, €88M (about $100M).\\n\\nMethod: values at the time, adjusted with US CPI-U (BLS), event-year average to Sept 2026. Euro amounts converted at the time.\\nSources: Chainalysis; TRM Labs; FBI (31 Oct 2026; Feb 2025 PSA; Apr 2022); Al Jazeera; CoinDesk; CBS News (May 2003); Bloomberg (Feb 2014); FBI Gardner page; Paris prosecutor (Oct 2025).\\n\\nSend this to the friend who still keeps everything on one exchange.\\n\\n$6.3 מיליארד נגנבו. רובם בתוך כ-20 דקות. 💰\\nביום חמישי, 29 באוקטובר 2026, האקרים רוקנו את Binance, בורסת הקריפטו הגדולה בעולם. ה-FBI מייחס את הפריצה ליחידת ההאקרים הצפון קוריאנית TraderTraitor. עד עכשיו הוקפאו כ-3 מיליארד דולר.\\nהשודים הגדולים בהיסטוריה, בדולרים של 2026: Binance ‏6.3 מיליארד, הבנק המרכזי של עיראק 1.8 מיליארד, Bybit ‏1.6 מיליארד, Poly Network ‏760 מיליון (הוחזר), Ronin ‏720 מיליון, Mt. Gox ‏670 מיליון, מוזיאון גרדנר בבוסטון 500 מיליון ומעלה, יהלומי אנטוורפן 180 מיליון.\\nשלחו למי שעדיין שומר הכול בבורסה אחת.\\n\\n#crypto #heist #Binance\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/heists_top_cover.jpg\"}"
-    }
-   },
-   "express": {
-    "id": "idf_depth",
-    "due": "2026-11-13T17:30:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/idf_depth.mp4\", \"caption\": \"איך אומרים פיקוד העורף באנגלית? 🏡\\n\\nHome Front Command. לא Back Command.\\n\\n🏡 העורף: the home front. האנשים בבית, רחוק מהקרב.\\n\\n🎖️ בצה\\\"ל יש 4 פיקודים מרחביים (regional commands), ופיקוד העורף אחראי על כל הארץ.\\n🚀 הוא הוקם ב1992, אחרי מלחמת המפרץ, כשטילים פגעו בערים בישראל.\\n\\nמה הוא עושה?\\n🚨 אזעקה: Siren. התרעה חזקה שמזהירה אתכם.\\n🧱 מקלט: Shelter. חדר מוגן עם קירות עבים.\\n🔦 חיפוש והצלה: Search and rescue. איתור אנשים מתחת להריסות.\\n⛑️ ב2023 המשלחת שלו בטורקיה חילצה 19 אנשים אחרי רעידת האדמה.\\n\\n🧭 ואל תתבלבלו עם פיקוד העומק: the Depth Command.\\nעומק: Depth. הרחק מאחורי קווי האויב. מאז 2011 הוא מתאם משימות לטווח רחוק (long range missions).\\n\\nהעורף: כאן. העומק: שם.\\n\\nרוצים שטף? דברו עם עצמכם באנגלית 7 דקות בוואטסאפ, ואז הסבירו את אותו רעיון לחבר בשיחה.\\n\\nאיזו מ5 המילים הייתה חדשה לכם? כתבו בתגובות.\\n\\nSources: Wikipedia, Home Front Command (established Feb 1992 after the lessons of the Gulf War; alerts and sirens, shelters, search and rescue); Times of Israel, 13 Feb 2023 (Home Front Command delegation rescued 19 people in Turkey); Wikipedia, Depth Corps (formed in its current form in 2011); Jerusalem Post, 15 Jul 2025 (coordinates long range operations and missions deep in enemy territory).\\n\\nMade with AI tools\\n\\n#EnglishExpress #LearnEnglish #אנגלית #צהל #פיקודהעורף\\n\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/idf_depth_cover.jpg\"}"
-    }
-   }
-  },
-  "s996993": {
-   "noam": {
-    "id": "peace_no_years_v3",
-    "due": "2026-11-13T18:40:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/peace_no_years_v3.mp4\", \"caption\": \"Reacting to peace offers based on the year. 🕊️\\n\\n1947: UN Partition Plan, an Arab state on about 43% of the land. The Arab Higher Committee and the Arab states: No.\\n1967: After the Six Day War, Israel offered Sinai and the Golan for peace. Arab League, Khartoum: no peace, no talks, no recognition.\\nIn their words: Jamal Husseini of the Arab Higher Committee at the UN, 29 Sep 1947: \\\"oppose, with all the means at their disposal\\\" (UN press release GA/PAL/3). Mahmoud Abbas on Olmert's 2008 offer, Channel 10, Nov 2015: \\\"How can I sign on something that I didn't receive?\\\" (AP).\\n1978: Camp David, elected Palestinian self-rule in the West Bank and Gaza. Arafat's PLO: No.\\n2000: Barak at Camp David, a state in Gaza, most of the West Bank and parts of East Jerusalem. Arafat: No, no counter offer (per US and Israeli officials).\\nDec 2000: Clinton Parameters, 94 to 96% of the West Bank, all of Gaza, Arab parts of East Jerusalem. Arafat: yes, with reservations the US saw as outside the plan. Taba (Jan 2001) ended without a deal.\\n2008: Olmert, a state on about 94% of the West Bank plus land swaps. Abbas: no answer (Olmert's account).\\n2014: US framework, a capital in East Jerusalem. Abbas: no answer.\\n2020: Trump plan, a state on about 70% of the West Bank, with conditions. Abbas: \\\"A thousand times: No, no and no.\\\"\\n\\nPalestinians say these offers fell short on borders, Jerusalem and refugees. Some offers, like 2000, were never put on paper, and their size is disputed.\\n\\nמגיבים להצעות שלום לפי השנה: 1947, 1967, 1978, 2000, 2008, 2014, 2020. הצעות שונות, תשובה דומה.\\nהפלסטינים אומרים שההצעות לא הספיקו בגבולות, בירושלים ובפליטים.\\n\\nBeg to differ? Tell us where we're wrong.\\nחושבים אחרת? כתבו לנו איפה אנחנו טועים.\\n\\nSources: UN GA Resolution 181 (1947); Khartoum Resolution (1967), Benny Morris; Britannica (1978); ADL, TIME (2000), Al Jazeera 2003; Clinton Parameters (2000), Dennis Ross; Jewish Virtual Library, JNS 2025; Haaretz via Daily Caller 2017; Times of Israel 2020. Map: Natural Earth.\\n\\n#Israel #Palestine #PeaceProcess #History #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/peace_no_years_v3_cover.jpg\"}"
     }
    }
   },
@@ -979,88 +1033,34 @@
     }
    }
   },
-  "s996995": {
+  "s996860": {
    "noam": {
-    "id": "apartheid_p2",
-    "due": "2026-11-13T19:50:00+02:00",
+    "id": "colonization_wrong_v3",
+    "due": "2026-11-11T00:10:00+02:00",
     "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/apartheid_p2_v2.mp4\", \"caption\": \"How to do apartheid. A beginner's guide. 📘\\n\\n5 easy steps. Israel tried none of them, so I tried them for it. 0 out of 5.\\n\\nStep 1: Ban them from voting. Arab citizens vote, and about 10 Arab members sit in the Knesset. FAILED ❌\\nStep 2: Separate the hospitals. Arab and Jewish doctors treat everyone, side by side. Nearly half of Israel's pharmacists are Arab. FAILED ❌\\nStep 3: Keep them off the top court. Justice Khaled Kabub sits on Israel's Supreme Court. FAILED ❌\\nStep 4: Keep them out of the universities. 18% of students are Arab, about the same as their share of citizens. FAILED ❌\\nStep 5: Keep them out of government. In 2021 an Arab party, Ra'am, joined the governing coalition. FAILED ❌\\n\\nResult: 0 out of 5. Worst apartheid ever.\\n\\nאיך לעשות אפרטהייד. מדריך למתחילים 📘\\n5 צעדים פשוטים. אפס מתוך חמש.\\nאזרחים ערבים מצביעים ויושבים בכנסת. רופאים ערבים ויהודים עובדים יחד, וכמעט חצי מהרוקחים בישראל ערבים. השופט ח'אלד כבוב יושב בבית המשפט העליון. 18% מהסטודנטים ערבים, בערך כמו חלקם באזרחים. ורע\\\"ם ישבה בקואליציה ב 2021.\\nהאפרטהייד הכי גרוע אי פעם.\\n\\nSources:\\n1. Knesset; INSS, 2022 (Arab members of the 25th Knesset)\\n2. JNS, citing a 2025 health workforce study (pharmacists)\\n3. Times of Israel; Jerusalem Post, 2022 (Justice Khaled Kabub appointed to the Supreme Court)\\n4. IDI (Israel Democracy Institute), Statistical Report on Arab Society 2021, 2020 data (Arab students: 18% of students)\\n5. Knesset, June 2021 (Ra'am in the 36th government coalition)\\n\\nSo... is this how you do apartheid? Tell me in the comments 💬\\nאז... ככה עושים אפרטהייד? ספרו לי בתגובות 💬\\n\\n#Israel #Apartheid #Facts #ישראל #אפרטהייד #Satire #Tutorial\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/apartheid_p2_cover.jpg\"}"
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/colonization_wrong_v3.mp4\", \"caption\": \"We suck at colonization. 📕\\n\\nEvery real empire followed the book:\\n🇪🇸 Spain took the silver of Potosí (from 1545)\\n🇧🇪 Belgium's King Leopold took Congo's rubber (1885 to 1908)\\n🇬🇧 Britain took India's cotton and sold back British cloth (1757 to 1947)\\n🇵🇹 Portugal shipped about 4.8 million enslaved Africans to Brazil\\n\\nIsrael? Failed every lesson.\\n❌ Pick a land with gold or oil: we picked swamps and desert. The big gas finds came in 2009 and 2010.\\n❌ Rule from a mother country: what mother country? Jews came fleeing Europe and the Arab world.\\n❌ Enslave the locals: Arab citizens vote (10 Knesset seats in 2022) and are 1 in 4 doctors and half of pharmacists.\\n❌ Let them get sick: health insurance for every resident since 1994, and Israeli hospitals treat Palestinian patients too.\\n❌ Ship the wealth back home: small problem, this is home.\\n\\nWow. We really missed the point. Jews, go figure. Maybe they have different intentions, and you just don't understand them.\\n\\nWe can show you how to build companies, but...\\n\\nאנחנו גרועים בקולוניזציה. כל אימפריה אמיתית לקחה את העושר הביתה. ישראל נכשלה בכל השיעורים: אין נפט, אין ארץ אם, ערבים אזרחי ישראל מצביעים ומהווים רבע מהרופאים, וביטוח בריאות לכל תושב. יהודים, לך תבין.\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nMaps: Natural Earth (public domain). Sources: Britannica (Potosí; Congo Free State; British raj; Israel; West Bank); Roy, Australian Economic History Review, 2007; SlaveVoyages.org (Eltis); Tamar gas field, Jan 2009 and Leviathan, Dec 2010 (Noble Energy); Knesset election results, Nov 2022; Rosen and Miaari, Israel Journal of Health Policy Research, Feb 2025; National Health Insurance Law, 1994; WHO oPt monthly report, Dec 2022; Al Jazeera, 10 Oct 2026 (PA vote postponed to Sept 2027).\\n\\n#Israel #History #Colonization #Satire #ישראל\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/colonization_wrong_v3_cover.jpg\"}"
     }
    }
   },
-  "s996998": {
+  "s996862": {
    "noam": {
-    "id": "border_knock_1_v2",
-    "due": "2026-11-13T21:00:00+02:00",
+    "id": "persecution_hook2_v3",
+    "due": "2026-11-11T01:25:00+02:00",
     "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/border_knock_1_v2.mp4\", \"caption\": \"Knock knock. 🚪 Gaza has 2 borders. Only one of them gets the knocks.\\n\\n🇪🇬 Gaza's border with Egypt: 13 km (CIA World Factbook).\\n🔒 2015: the Rafah crossing was open just 21 days all year (Gaza's interior ministry, via Times of Israel, Feb 2016).\\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Reuters, Sep 2015).\\n🏚️ Over 3,000 buildings razed in Egyptian Rafah for a buffer zone (Human Rights Watch, Sep 2015).\\n🏜️ Oct 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah (AP). The crossing reopened on 2 Feb 2026 for limited foot traffic.\\n\\nTwo borders. Ask about both.\\n\\nSend this to the friend who only knows one door.\\n\\n#Israel #Gaza #Egypt #Rafah\\n\\nנוק נוק. 🚪 לעזה יש 2 גבולות. רק באחד מהם דופקים.\\n🇪🇬 הגבול של עזה עם מצרים: 13 ק\\\"מ.\\n🔒 2015: מעבר רפיח היה פתוח רק 21 ימים בכל השנה.\\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\\n🏚️ יותר מ-3,000 מבנים נהרסו ברפיח המצרית בשביל אזור חיץ.\\n🏜️ אוקטובר 2023: נשיא מצרים דחה העברת עזתים לסיני.\\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח.\\nשני גבולות. תשאלו על שניהם.\\nשלחו את זה לחבר שמכיר רק דלת אחת.\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/border_knock_1_v2_cover.jpg\"}"
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/persecution_hook2_v3.mp4\", \"caption\": \"Germany kicked out its Jewish scientists. America got richer. Economists measured it. 📈\\n\\n🇩🇪 1933: Germany fires Jewish professors, and many flee to the US.\\n🧪 In the chemistry fields they brought, US patents jump 31% (Moser, Voena and Waldinger, AER 2014).\\n📉 Germany loses 18% of its math professors. Their students do worse, for the rest of their careers (Waldinger, JPE 2010).\\n🇷🇺 In Russia, cities hit hardest by the Holocaust (under Nazi occupation) are still poorer decades later, a statistical association (Acemoglu, Hassan and Robinson, QJE 2011).\\n🇮🇹 In Italy, cities with Jewish communities got banks first, and are richer today (Pascali, REStat 2016).\\n\\nHate isn't only cruel. It's a bill, and the whole country pays it.\\n\\nWhich country should I check next?\\n\\nגרמניה גירשה את המדענים היהודים, ואמריקה התעשרה: 31% יותר פטנטים בתחומים שהם הביאו. שנאה היא חשבון, וכל המדינה משלמת אותו. איזו מדינה לבדוק בפעם הבאה?\\n\\n👥 Tag a friend who needs to see this\\nתייגו חבר שחייב לראות את זה\\n\\nSources: Moser, Voena and Waldinger, American Economic Review 104(10), 2014; Waldinger, Journal of Political Economy 118(4), 2010; Acemoglu, Hassan and Robinson, Quarterly Journal of Economics 126(2), 2011; Pascali, Review of Economics and Statistics 98(1), 2016\\n\\nMaps: Natural Earth (public domain).\\n\\n#Economics #History #Antisemitism #Jewish #כלכלה\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/persecution_hook2_v3_cover.jpg\"}"
     }
    }
   },
-  "s997018": {
-   "express": {
-    "id": "x_a1_salary_raise_v2",
-    "due": "2026-11-14T07:00:00+02:00",
+  "s996861": {
+   "noam": {
+    "id": "syria_pov_v3",
+    "due": "2026-11-11T00:40:00+02:00",
     "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_a1_salary_raise_v2.mp4\", \"caption\": \"רוצים העלאה מבוס אמריקאי? 4 משפטים שהורגים אותה, ומה להגיד במקום 💰\\n\\n❌ I want more money.\\n✅ Can we talk about my salary?\\n(אפשר לדבר על השכר שלי?)\\n\\n❌ Everybody earns more than me.\\n✅ I'd like my pay to match my results.\\n(אני רוצה שהשכר ישקף את התוצאות שלי)\\n\\n❌ If not, I'm leaving.\\n✅ I have another offer, but I'd rather stay.\\n(יש לי הצעה אחרת, אבל אעדיף להישאר)\\n\\n❌ So, what's the answer?\\n✅ Take your time. Can we meet next week?\\n(קח את הזמן. ניפגש בשבוע הבא?)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_a1_salary_raise_v2_cover.jpg\"}"
-    }
-   }
-  },
-  "s997021": {
-   "express": {
-    "id": "x_b3_dont_know_v2",
-    "due": "2026-11-14T08:30:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_b3_dont_know_v2.mp4\", \"caption\": \"3 מילים שמאבדות לקוחות: I don't know. מה אומרים במקום 📞\\n\\n❓ When is delivery?\\n❌ I don't know.\\n✅ Good question. I'll check and get back to you by three.\\n(שאלה טובה. אבדוק ואחזור עד שלוש)\\n\\n❓ Why did it crash?\\n❌ I don't know.\\n✅ We're looking into it. I'll update you within the hour.\\n(אנחנו בודקים. אעדכן אותך תוך שעה)\\n\\n❓ What will it cost?\\n❌ I don't know.\\n✅ I'll send you a full quote by Monday.\\n(אשלח הצעת מחיר מלאה עד שני)\\n\\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\\n\\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\\n\\nרוצים לדבר אנגלית שוטפת? יש 4 הרגלים שצריך לשלוט בהם. כתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\\n\\n#EnglishExpress #אנגלית #BusinessEnglish #SpeakEnglish #הייטק\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_b3_dont_know_v2_cover.jpg\"}"
-    }
-   }
-  },
-  "s997024": {
-   "express": {
-    "id": "x_slang_sababa",
-    "due": "2026-11-14T10:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_sababa_v2.mp4\", \"caption\": \"איך אומרים סבבה באנגלית? ☕\\n\\nקולגה שואל: Coffee at five?\\nסבבה בשיחה: Sounds good!\\nסבבה בעבודה: Works for me.\\n\\nומה לא? It's okay. זה נשמע כמו \\\"טוב, אם אין ברירה\\\". לא בדיוק סבבה 😅\\n\\nSababa in English: Sounds good (casual) or Works for me (at work). \\\"It's okay\\\" sounds like you're not happy about it.\\n\\nאיך אתם אומרים סבבה באנגלית בפגישה? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_sababa_cover.jpg\"}"
-    }
-   }
-  },
-  "s997027": {
-   "express": {
-    "id": "x_slang_chaval",
-    "due": "2026-11-14T11:30:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_chaval_v2.mp4\", \"caption\": \"חבל על הזמן באנגלית? רק לא מילה במילה 🙈\\n\\nבעברית חבל על הזמן זה מחמאה. באנגלית What a waste of time זה עלבון: \\\"בזבזת לי את הזמן\\\".\\n\\nחבל על הזמן בשיחה: This is amazing!\\nחבל על הזמן בעבודה: This is outstanding.\\n\\nChaval al hazman means \\\"amazing\\\". Never translate it as \\\"what a waste of time\\\".\\n\\nעוד ביטוי עברי שהפוך לגמרי באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_chaval_cover.jpg\"}"
-    }
-   }
-  },
-  "s997030": {
-   "express": {
-    "id": "x_slang_keta",
-    "due": "2026-11-14T13:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_keta_v2.mp4\", \"caption\": \"איזה קטע! ואיך אומרים את זה באנגלית? 😮\\n\\nאיזה קטע בשיחה: No way! What a coincidence!\\nאיזה קטע בעבודה: What a small world!\\n\\nומה לא? What a piece! היא תשאל: חתיכה של מה? 😅\\n\\nEize keta in English: No way! (casual) or What a small world! (at work).\\n\\nמתי אמרתם לאחרונה איזה קטע? כתבו בתגובות, באנגלית 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_keta_cover.jpg\"}"
-    }
-   }
-  },
-  "s997033": {
-   "express": {
-    "id": "x_slang_stam",
-    "due": "2026-11-14T14:30:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_stam_v2.mp4\", \"caption\": \"עשיתם צחוק בזום ואמרתם סתם. איך אומרים את זה באנגלית? 😄\\n\\nסתם בשיחה: Just kidding!\\nסתם בעבודה: I'm only joking.\\n\\nומה לא? Just! לבד. היא תחכה לסוף המשפט 😅\\n\\nStam in English: Just kidding! (casual) or I'm only joking (at work). \\\"Just!\\\" on its own leaves people waiting.\\n\\nאיך אתם אומרים סתם באנגלית? כתבו בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_stam_cover.jpg\"}"
-    }
-   }
-  },
-  "s997036": {
-   "express": {
-    "id": "x_slang_bekatana",
-    "due": "2026-11-14T16:00:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/x_slang_bekatana.mp4\", \"caption\": \"מישהו אומר לכם תודה. אתם עונים: בקטנה. ובאנגלית? 🤏\\n\\nבקטנה בשיחה: No big deal.\\nבקטנה בעבודה: Happy to help.\\n\\nומה לא? In the small. הוא עדיין מנסה להבין מה קטן 😅\\n\\nBekatana in English: No big deal (casual) or Happy to help (at work).\\n\\nמה עוד אתם אומרים בקטנה? נסו באנגלית בתגובות 👇\\n\\n#אנגלית #סלנג #EnglishExpress #סלנגעברי #אנגליתלעבודה #BusinessEnglish #SpeakEnglish\\n\\nComment SPEAKER and we'll send you a video\\nכתבו SPEAKER בתגובות ונשלח לכם סרטון\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/x_slang_bekatana_cover.jpg\"}"
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/syria_pov_v3.mp4\", \"caption\": \"You're Israel. The army next door just vanished. What do you do? 🎯\\n\\n📅 December 2024: Assad falls. HTS-led rebels take Damascus, and Syria's troops leave the border.\\n📜 The 1974 buffer zone deal? Israel says it collapsed.\\n\\nOption 1: wait. Option 2: move in. Option 3: strike the weapons before armed groups get them.\\n\\nIsrael chose 2 and 3: it moved into the buffer zone, up to Mount Hermon, and struck the old army's weapons.\\nSince then: rockets at the Golan (June 2025), and deadly clashes in Sweida, where Israel struck Syrian forces saying it was protecting the Druze (July 2025).\\n\\nWhat would YOU do? Tell me in the comments 👇\\n\\nאתם ישראל. הצבא של השכנים נעלם. לחכות, להיכנס, או לתקוף את הנשק? ישראל בחרה להיכנס ולתקוף. האו״ם וסוריה קוראים לזה הפרה. מה אתם הייתם עושים? 👇\\n\\n👥 Tag a friend who needs to see this 👇\\nתייגו חבר שחייב לראות את זה 👇\\n\\nSources: AFP and Reuters, 8 Dec 2024; UN spokesperson Stephane Dujarric, 9 Dec 2024; AAP, 10 Dec 2024; ACLED, 19 Dec 2024; Times of Israel, 3 Jun 2025; NPR, 16 Jul 2025; Reuters via Al-Monitor, 24 Aug 2026; map: Natural Earth\\n\\n#Israel #Syria #Golan #MiddleEast #ישראל #סוריה\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/syria_pov_v3_cover.jpg\"}"
     }
    }
   }
  },
- "due_buckets": "|996855|996859|996860|996861|996862|996874|996877|996880|996883|996886|996889|996892|996895|996898|996903|996907|996922|996925|996928|996931|996934|996936|996937|996938|996940|996942|996943|996944|996946|996949|996951|996953|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|997018|997021|997024|997027|997030|997033|997036|",
- "generated_at": "2026-11-11T06:47:54+00:00"
+ "due_buckets": "|996855|996859|996860|996861|996862|996874|996877|996880|996883|996885|996886|996888|996889|996891|996892|996894|996895|996898|996903|996907|996922|996925|996928|996930|996931|996933|996934|996936|996937|996940|996943|996946|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|997018|997021|997024|997027|997030|997033|997036|",
+ "generated_at": "2026-11-11T10:35:54+00:00"
 }
