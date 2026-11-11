@@ -1,0 +1,252 @@
+{
+ "id": "life_vs_death",
+ "account": "noamroz__",
+ "template": "two_paths",
+ "hook": "One *protects* lives.|One *spends* them.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1
+ },
+ "lines": [
+  {
+   "say": "One protects lives. One spends them.",
+   "gap": 0.55
+  },
+  {
+   "say": "Two fighters. Two ideas about life.",
+   "gap": 0.4
+  },
+  {
+   "say": "The Israeli soldier. His army's code says: above all, preserve human life.",
+   "screen": "IDF code: *above all,* preserve human life",
+   "at": "L2:his"
+  },
+  {
+   "say": "He risks his life so others can live.",
+   "gap": 0.4,
+   "screen": "He risks *his* life for *theirs*"
+  },
+  {
+   "say": "His country builds shelters. Required by law since nineteen fifty one.",
+   "screen": "Shelters, *required by law*",
+   "at": "L4:required"
+  },
+  {
+   "say": "Since the nineties, a safe room in every new apartment.",
+   "gap": 0.55,
+   "screen": "A *safe room* in every new apartment"
+  },
+  {
+   "say": "Now, the other side.",
+   "gap": 0.3,
+   "screen": "The other side"
+  },
+  {
+   "say": "Under Gaza, HAMAS says it dug five hundred kilometres of tunnels.",
+   "gap": 0.4,
+   "screen": "Tunnels under Gaza",
+   "at": "L7:HAMAS",
+   "until": "L8-0.1"
+  },
+  {
+   "say": "Asked why HAMAS built no bomb shelters, a senior official answered:",
+   "gap": 0.3
+  },
+  {
+   "say": "These tunnels are meant to protect us from the airplanes.",
+   "gap": 0.4
+  },
+  {
+   "say": "And civilians? The responsibility of the United Nations.",
+   "gap": 0.55
+  },
+  {
+   "say": "On HAMAS TV, another official said: we desire death like you desire life.",
+   "gap": 0.55
+  },
+  {
+   "say": "And Yahya Sinwar's messages, reported by the Wall Street Journal: civilian deaths are necessary sacrifices.",
+   "gap": 0.6
+  },
+  {
+   "say": "One sees this life as worth protecting.",
+   "gap": 0.3,
+   "screen": "One protects *this life*"
+  },
+  {
+   "say": "The other gambles everyone's life on a maybe.",
+   "gap": 0.5,
+   "screen": "One *gambles* with it",
+   "until": "L15-0.1"
+  },
+  {
+   "say": "One side builds shelters for its people. The other builds tunnels for its fighters."
+  }
+ ],
+ "data": {
+  "views": [
+   {
+    "at": 0,
+    "view": "split"
+   },
+   {
+    "at": "L2-0.2",
+    "view": "left"
+   },
+   {
+    "at": "L6-0.2",
+    "view": "right"
+   },
+   {
+    "at": "L13-0.2",
+    "view": "split"
+   }
+  ],
+  "dome_at": "L3",
+  "shelter_at": "L5:safe",
+  "tunnel_at": "L7:HAMAS",
+  "fighters_at": "L7:tunnels",
+  "big": [
+   {
+    "at": "L4:nineteen",
+    "until": "L5-0.1",
+    "value": 1951,
+    "from": 1900,
+    "side": "left",
+    "plain": true
+   },
+   {
+    "at": "L7:five",
+    "until": "L8-0.1",
+    "value": 500,
+    "from": 0,
+    "suffix": " km",
+    "sub": "of tunnels, HAMAS's own claim",
+    "side": "right"
+   }
+  ],
+  "quotes": [
+   {
+    "at": "L8",
+    "until": "L9-0.15",
+    "text": "Why haven't you built *bomb shelters?*",
+    "who": "TV host to Mousa Abu Marzouk, HAMAS"
+   },
+   {
+    "at": "L9",
+    "until": "L10-0.15",
+    "text": "These tunnels are meant to protect *us* from the airplanes.",
+    "who": "Mousa Abu Marzouk, HAMAS political bureau"
+   },
+   {
+    "at": "L10",
+    "until": "L11-0.15",
+    "text": "It is the responsibility of the *United Nations* to protect them.",
+    "who": "Mousa Abu Marzouk, on Gaza's civilians"
+   },
+   {
+    "at": "L11",
+    "until": "L12-0.15",
+    "text": "We desire *death* like you desire *life.*",
+    "who": "Fathi Hammad, HAMAS lawmaker"
+   },
+   {
+    "at": "L12",
+    "until": "L13-0.15",
+    "text": "Civilian deaths: *necessary sacrifices.*",
+    "who": "Yahya Sinwar, HAMAS leader in Gaza"
+   }
+  ],
+  "focus": [
+   {
+    "at": "L9:protect",
+    "until": "L10-0.1",
+    "target": "fighters"
+   },
+   {
+    "at": "L10:civilians",
+    "until": "L11-0.1",
+    "target": "civilians"
+   },
+   {
+    "at": "L13",
+    "until": "L14-0.05",
+    "target": "family"
+   },
+   {
+    "at": "L14",
+    "until": "L15-0.05",
+    "target": "civilians"
+   }
+  ],
+  "tags": {
+   "at": "L15",
+   "left": "Shelter",
+   "right": "HAMAS tunnel"
+  }
+ },
+ "sources": [
+  {
+   "label": "IDF Code of Ethics, The Spirit of the IDF",
+   "year": 2022,
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Israel Civil Defense Law",
+   "year": 1951,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Home Front Command, protected room rules",
+   "year": 1992,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Yahya Sinwar, press conference, via MEMRI",
+   "year": "May 2021",
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "RT Arabic, 27 Oct 2023, via MEMRI",
+   "year": 2023,
+   "at": "L8",
+   "until": "L11"
+  },
+  {
+   "label": "Al-Aqsa TV, 29 Feb 2008, via MEMRI",
+   "year": 2008,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "The Wall Street Journal, 10 June 2024",
+   "year": 2024,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L15",
+  "y": 470,
+  "balance": "One builds *shelters* for its people. One builds *tunnels* for its fighters.",
+  "cta": "Send this to someone who *needs it*"
+ },
+ "caption_en": "One protects lives. One spends them. 🛡️\n\nIsrael: the IDF Code of Ethics (The Spirit of the IDF) lists Human Life as a core value: preserve human life, out of recognition of its supreme value. Israel's Civil Defense Law has required shelters for homes since 1951, and new apartments have had a protected room (mamad) since the early 1990s.\n\nHAMAS, in its own words:\n🔹 Yahya Sinwar, May 2021: HAMAS has 500 km of tunnels under Gaza.\n🔹 Mousa Abu Marzouk, RT Arabic, 27 Oct 2023, asked why HAMAS built tunnels but no bomb shelters: \"These tunnels are meant to protect us from the airplanes.\" On Gaza's civilians: \"It is the responsibility of the United Nations to protect them.\"\n🔹 Fathi Hammad, HAMAS lawmaker, Al-Aqsa TV, 29 Feb 2008: \"We desire death like you desire life.\"\n🔹 The Wall Street Journal, 10 June 2024, on messages it attributed to Yahya Sinwar: thousands of civilian deaths are \"necessary sacrifices\" (HAMAS denied the report).\n\nOne side builds shelters for its people. The other builds tunnels for its fighters.\n\nSend this to someone who needs it.",
+ "caption_he": "אחד מגן על חיים. השני מוציא אותם.\nבקוד האתי של צה\"ל (רוח צה\"ל), ערך \"חיי אדם\": שמירה על חיי אדם מתוך הכרה בערכם העליון. חוק ההתגוננות האזרחית מחייב מקלטים לבתים מאז 1951, ומאז תחילת שנות ה-90 יש ממ\"ד בכל דירה חדשה.\nחמאס, במילים שלו:\nיחיא סינוואר, מאי 2021: לחמאס 500 ק\"מ של מנהרות מתחת לעזה.\nמוסא אבו מרזוק, RT בערבית, 27.10.2023, כשנשאל למה לא נבנו מקלטים: \"המנהרות האלה נועדו להגן עלינו מהמטוסים.\" ועל האזרחים: \"זו האחריות של האו\"ם להגן עליהם.\"\nפתחי חמאד, חבר פרלמנט מטעם חמאס, ערוץ אל-אקצא, 29.2.2008: \"אנחנו רוצים את המוות כמו שאתם רוצים את החיים.\"\nוול סטריט ג'ורנל, 10.6.2024, על מסרים שיוחסו לסינוואר: אלפי הרוגים אזרחים הם \"קורבנות הכרחיים\" (חמאס הכחיש).\nצד אחד בונה מקלטים לאנשים שלו. השני בונה מנהרות ללוחמים שלו.\n\nSources: IDF, The Spirit of the IDF; Israel Civil Defense Law 1951; MEMRI translations of Al-Aqsa TV (29 Feb 2008), Yahya Sinwar (26 May 2021) and RT Arabic (27 Oct 2023, Special Dispatch 10917); The Wall Street Journal (10 June 2024). AI animation, AI voice.",
+ "hashtags": [
+  "#Israel",
+  "#HAMAS",
+  "#facts"
+ ],
+ "cover": {
+  "bg": "scene",
+  "text": "*500 km* of tunnels.|Who are they for?"
+ }
+}
