@@ -1,0 +1,188 @@
+{
+ "id": "not_a_country",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Not a country? *8* tests.",
+ "duration": 63.3,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/not_a_country.mp4",
+  "cover": "covers/not_a_country_cover.jpg",
+  "preview": "previews/not_a_country_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/not_a_country_0.jpg",
+  "1": "out/frames/not_a_country_1.jpg",
+  "3": "out/frames/not_a_country_3.jpg",
+  "last": "out/frames/not_a_country_last.jpg"
+ },
+ "caption_en": "Someone commented: \"Israel is not even a country.\" So I ran the country checklist. 😂\n\n1. UN member since 11 May 1949 (UN General Assembly Resolution 273)\n2. Recognised by over 160 of the other 192 UN members (169 in the latest count)\n3. Its own currency, the shekel\n4. An elected parliament, the Knesset (first elections 25 January 1949)\n5. OECD member since 7 September 2010\n6. Its own web domain: .il (since 1985)\n7. An Olympic team since Helsinki 1952\n8. Four Eurovision wins (1978, 1979, 1998, 2018)\n\n8 out of 8. Fun fact: Israel was the UN's 59th member. Today there are 193.\nCriticise its government all you want. Countries get criticised.\n\nSend this to someone who needs the checklist.",
+ "caption_he": "מישהו כתב לי בתגובות: \"ישראל היא אפילו לא מדינה\". אז עברתי על הצ'קליסט. 😂\n1. חברה באו\"ם מאז 11 במאי 1949 (החלטה 273 של העצרת הכללית)\n2. מוכרת על ידי יותר מ-160 מתוך 192 החברות האחרות באו\"ם (169 בספירה האחרונה)\n3. מטבע משלה: השקל\n4. פרלמנט נבחר: הכנסת (בחירות ראשונות ב-25 בינואר 1949)\n5. חברה ב-OECD מאז 2010\n6. סיומת אינטרנט משלה: il.\n7. נבחרת אולימפית מאז הלסינקי 1952\n8. ארבעה ניצחונות באירוויזיון\n8 מתוך 8. וישראל הייתה החברה ה-59 באו\"ם. היום יש 193.\nמותר לבקר את הממשלה כמה שרוצים. מדינות מקבלות ביקורת.\nשלחו את זה למישהו שצריך את הצ'קליסט.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "UN General Assembly Resolution 273 (III)",
+   "year": 1949,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "International recognition of Israel (Wikipedia): 169 of 192",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Bank of Israel: the new shekel",
+   "year": 1985,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Knesset: first elections, 25 January",
+   "year": 1949,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "OECD: Israel's accession, 7 September",
+   "year": 2010,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "IANA root zone: .il created 24 October",
+   "year": 1985,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Olympics.com: Israel's first Games, Helsinki",
+   "year": 1952,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "EBU: wins 1978, 1979, 1998, 2018",
+   "year": 2026,
+   "at": "L9",
+   "until": "L11"
+  },
+  {
+   "label": "UN: growth in membership, 1945 to today",
+   "year": 2026,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.925,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Someone told me Israel is not even a country.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Okay. Eight tests. Let's check.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One. A U.N. member since May, 1949.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two. Recognised by over 160 U.N. members.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Three. Its own money, the shekel.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Four. An elected parliament, the Knesset.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five. In the O.E.C.D. since 2010.",
+    "score": 0.583,
+    "flag": "MISS"
+   },
+   {
+    "line": "Six. Its own web domain: dot I L.",
+    "score": 0.625,
+    "flag": "MISS"
+   },
+   {
+    "line": "Seven. An Olympic team since 1952.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eight. Four Eurovision wins.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not bad for a country that doesn't exist.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eight out of eight.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fun fact: Israel was the U.N.'s 59th member. Today there are 193.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So if Israel isn't a country, the U.N. has spent 77 years arguing with a ghost.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Criticise its government all you want. Countries get criticised.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Send this to someone who needs the checklist.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And next time someone says Israel isn't even a country...",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Someone told me Israel is not even a country. Okay, eight tests. Let's check. One. A UN member since May 1949. Two. Recognized by over 160 UN members. Three. Its own money. The shuttle. Four. An elected parliament. The Knesset. Five. And the OECD since 2010. Six. Its own web domain. .il7. an olympic team since 1952. 8. 4 Eurovision wins. Not bad for a country that doesn't exist. 8 out of 8. Fun fact, Israel was the UN's 59th member. Today there are 193. So if Israel isn't a country, the UN has spent 77 years arguing with a ghost. Criticize its government all you want. Countries get criticized. Send this to someone who needs the checklist. And next time someone says Israel isn't even a country.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 63.29,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [],
+ "render_s": 92.0
+}
