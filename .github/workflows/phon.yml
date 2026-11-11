@@ -1,0 +1,76 @@
+name: phon
+# Word-level pronunciation check (added for hamas_cancer_v2, 11 Nov 2026). Push phon/jobs.txt with lines
+#   <name> <source> <word regex>
+# source = a repo path (wav/mp4) or release:<tag>/<asset>. For each source: faster-whisper word timestamps, every word
+# matching the regex is cut to phon/<name>_<n>.wav (+0.08 s each side), and an IPA phoneme recogniser
+# (facebook/wav2vec2-xlsr-53-espeak-cv-ft) transcribes each cut. Results: phon/<name>.json. Nothing is posted.
+on:
+  push:
+    paths: ['phon/jobs.txt']
+permissions:
+  contents: write
+jobs:
+  phon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /phon/
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg espeak-ng > /dev/null
+          pip install -q faster-whisper==1.1.1 soundfile numpy torch --extra-index-url https://download.pytorch.org/whl/cpu
+          pip install -q transformers==4.44.2 phonemizer
+      - name: Fetch sources
+        run: |
+          mkdir -p /tmp/src
+          while read -r name src rx; do
+            [ -z "$name" ] && continue; case "$name" in \#*) continue;; esac
+            case "$src" in
+              release:*) t="${src#release:}"; gh release download "${t%%/*}" -p "${t#*/}" -D /tmp/src -R "$GITHUB_REPOSITORY" --clobber; f="/tmp/src/${t#*/}" ;;
+              *) git sparse-checkout add "/$src"; f="$src" ;;
+            esac
+            ffmpeg -v error -y -i "$f" -ac 1 -ar 16000 "/tmp/src/$name.wav"
+          done < phon/jobs.txt
+      - name: Cut and recognise
+        run: |
+          python - <<'PY'
+          import json, re, soundfile as sf, numpy as np, torch
+          from faster_whisper import WhisperModel
+          from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
+          W = WhisperModel("small.en", device="cpu", compute_type="int8")
+          P = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-xlsr-53-espeak-cv-ft"); M = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-xlsr-53-espeak-cv-ft").eval()
+          def ipa(x):
+              with torch.no_grad(): lg = M(P(x, sampling_rate=16000, return_tensors="pt").input_values).logits
+              return P.batch_decode(torch.argmax(lg, -1))[0]
+          for line in open("phon/jobs.txt"):
+              p = line.split()
+              if len(p) < 3 or p[0].startswith("#"): continue
+              name, rx = p[0], re.compile(p[2], re.I)
+              x, sr = sf.read(f"/tmp/src/{name}.wav", dtype="float32")
+              segs, _ = W.transcribe(f"/tmp/src/{name}.wav", word_timestamps=True, language="en")
+              words = [w for s in segs for w in s.words]; out = []
+              for w in words:
+                  if not rx.search(w.word): continue
+                  a, b = max(0, int((w.start - 0.08) * sr)), int((w.end + 0.08) * sr); cut = x[a:b]; k = len(out) + 1
+                  sf.write(f"phon/{name}_{k}.wav", cut, sr)
+                  i0 = max(0, words.index(w) - 6); ctx = "".join(v.word for v in words[i0:words.index(w) + 5]).strip()
+                  out.append(dict(n=k, word=w.word.strip(), start=round(w.start, 2), end=round(w.end, 2), ipa=ipa(cut), context=ctx))
+                  if k >= 8: break
+              json.dump(dict(name=name, hits=out, n_words=len(words)), open(f"phon/{name}.json", "w"), ensure_ascii=False, indent=1)
+              print(name, json.dumps(out, ensure_ascii=False))
+          PY
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add --sparse phon/*.json phon/*.wav || true
+          git -c gc.auto=0 commit -q -m "phon: pronunciation cuts" || exit 0
+          for i in 1 2 3 4 5 6; do git -c gc.auto=0 pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((RANDOM % 10 + 5)); done
