@@ -47,7 +47,7 @@
   }
  ],
  "transcript": {
-  "score": 0.96,
+  "score": 0.967,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -97,8 +97,8 @@
    },
    {
     "line": "Lebanon, with Hezbollah: four and a half thousand.",
-    "score": 0.625,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Syria, after thirteen years of war: eight hundred and fifty.",
@@ -112,7 +112,7 @@
    },
    {
     "line": "We build with one hand behind our back, and still make almost nine times more.",
-    "score": 1.0,
+    "score": 0.867,
     "flag": "ok"
    },
    {
@@ -131,7 +131,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "One hand builds. One hand shields. This is Israel. Three people at their laptops, building companies, medicine and tech. Then a rock. A rocket. Shield up and back to work. Israel spends almost 8% of its economy on defense, and over 6% on research. The highest in the OECD. Still, GDP per person. $54,000. Now the other side. Regimes and militias that chose war. Iraq with its militias. 6,000. Iran. Funding the militias. 5,200. Lebanon with Hezbollah. 4,500. Syria after 13 years of war. 850. Yemen in the Houthis war. 430. We build with one hand behind our back and still make almost nine times more. Imagine if their leaders invested in companies, schools, tech, and medicine. Their people would live better lives. Until then, One hand builds, one hand shields.",
+  "heard": "One hand builds. One hand shields. This is Israel. Three people at their laptops, building companies, medicine and tech. Then a rock. A rocket. Shield up and back to work. Israel spends almost 8% of its economy on defense, and over 6% on research. The highest in the OECD. Still, GDP per person. $54,000. Now the other side. Regimes and militias that chose war Iraq with its militias 6000 Iran funding the militias 5200 Lebanon with Hezbollah four and a half thousand Syria after 13 years of war 850 Yemen in the Houthis war 430 we've built with one hand behind our back and still make almost nine times more imagine if their leaders invested in companies schools tech and medicine their people would live better lives Until then, one hand builds, one hand shields.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -148,5 +148,5 @@
   "back": 56.36
  },
  "lint_warnings": [],
- "render_s": 135.6
+ "render_s": 106.8
 }
