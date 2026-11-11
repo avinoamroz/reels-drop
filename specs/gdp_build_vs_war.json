@@ -1,0 +1,223 @@
+{
+ "id": "gdp_build_vs_war",
+ "account": "noamroz__",
+ "template": "build_vs_war",
+ "hook": "*1* hand builds.|*1* hand shields.",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1
+ },
+ "lines": [
+  {
+   "say": "One hand builds. One hand shields.",
+   "gap": 0.45
+  },
+  {
+   "say": "This is Israel. Three people at their laptops, building companies, medicine and tech.",
+   "screen": "This is *Israel*",
+   "at": "L1:this"
+  },
+  {
+   "say": "Then a rock. A rocket. Shield up, and back to work.",
+   "screen": "Shield up. *Back to work.*"
+  },
+  {
+   "say": "Israel spends almost eight percent of its economy on defence.",
+   "screen": "*7.8%* of GDP on defence"
+  },
+  {
+   "say": "And over six percent on research. The highest in the OECD.",
+   "screen": "*6.3%* of GDP on research, *#1* in the OECD"
+  },
+  {
+   "say": "Still, GDP per person: fifty-four thousand dollars.",
+   "screen": "GDP per person: *$54,217*",
+   "gap": 0.45
+  },
+  {
+   "say": "Now the other side. Regimes and militias that chose war.",
+   "screen": "The other side: *war first*"
+  },
+  {
+   "say": "Iraq, with its militias: six thousand."
+  },
+  {
+   "say": "Iran, funding the militias: five thousand two hundred."
+  },
+  {
+   "say": "Lebanon, with Hezbollah: four and a half thousand."
+  },
+  {
+   "say": "Syria, after thirteen years of war: eight hundred and fifty."
+  },
+  {
+   "say": "Yemen, in the Houthis' war: four hundred and thirty.",
+   "gap": 0.45
+  },
+  {
+   "say": "We build with one hand behind our back, and still make almost nine times more.",
+   "screen": "*8.9x* the best of them",
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "say": "Imagine if their leaders invested in companies, schools, tech and medicine."
+  },
+  {
+   "say": "Their people would live better lives. Until then:",
+   "gap": 0.35
+  },
+  {
+   "say": "one hand builds, one hand shields."
+  }
+ ],
+ "data": {
+  "split_at": "L6",
+  "rank_at": "L12",
+  "hope_at": "L13",
+  "back_at": "L15",
+  "stop_fire_at": "L13",
+  "israel": {
+   "label": "Israel",
+   "flag": "IL",
+   "value": 54217,
+   "pulse_at": "L5:fifty"
+  },
+  "unit": "GDP per person, US$",
+  "rivals": [
+   {
+    "label": "Iraq",
+    "flag": "IQ",
+    "value": 6074,
+    "group": "Militias",
+    "at": "L7"
+   },
+   {
+    "label": "Iran",
+    "flag": "IR",
+    "value": 5190,
+    "group": "Regime funds proxies",
+    "at": "L8"
+   },
+   {
+    "label": "Lebanon",
+    "flag": "LB",
+    "value": 4473,
+    "group": "Hezbollah",
+    "at": "L9"
+   },
+   {
+    "label": "Syria",
+    "value": 847,
+    "year": 2023,
+    "group": "13 years of war",
+    "at": "L10"
+   },
+   {
+    "label": "Yemen",
+    "flag": "YE",
+    "value": 433,
+    "group": "Houthis",
+    "at": "L11"
+   }
+  ],
+  "rank": {
+   "y": 600,
+   "rows": [
+    {
+     "label": "Israel",
+     "flag": "IL",
+     "value": 54217,
+     "txt": "$54,217",
+     "hl": true,
+     "at": "L12"
+    },
+    {
+     "label": "Iraq",
+     "flag": "IQ",
+     "value": 6074,
+     "txt": "$6,074",
+     "at": "L12+0.25"
+    },
+    {
+     "label": "Iran",
+     "flag": "IR",
+     "value": 5190,
+     "txt": "$5,190",
+     "at": "L12+0.45"
+    },
+    {
+     "label": "Lebanon",
+     "flag": "LB",
+     "value": 4473,
+     "txt": "$4,473",
+     "at": "L12+0.65"
+    },
+    {
+     "label": "Syria*",
+     "value": 847,
+     "txt": "$847",
+     "at": "L12+0.85"
+    },
+    {
+     "label": "Yemen",
+     "flag": "YE",
+     "value": 433,
+     "txt": "$433",
+     "at": "L12+1.05"
+    }
+   ],
+   "note": "*Syria: 2023, latest available"
+  },
+  "hope_icons": [
+   "🏫",
+   "🏥",
+   "💻",
+   "🏭"
+  ],
+  "hook_y": 300
+ },
+ "sources": [
+  {
+   "label": "SIPRI Military Expenditure, Israel % of GDP",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "OECD MSTI, R&D % of GDP",
+   "year": 2023,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "World Bank WDI, GDP per capita, current US$, 2024 (Syria 2023)",
+   "year": 2024,
+   "at": "L5",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L13",
+  "y": 560,
+  "balance": "Their people deserve *better lives.*",
+  "cta": "Send this to someone who builds"
+ },
+ "caption_en": "One hand builds. One hand shields. 🛡️💻\n\nIsrael spends 7.8% of its GDP on defence (SIPRI, 2025) and 6.3% on research, the highest in the OECD (OECD, 2023). And still:\n\nGDP per person, current US$ (World Bank, 2024):\n🇮🇱 Israel: 54,217\n🇮🇶 Iraq: 6,074\n🇮🇷 Iran: 5,190\n🇱🇧 Lebanon: 4,473\n🇸🇾 Syria: 847 (2023, latest available)\n🇾🇪 Yemen: 433\n\nIsrael makes almost 9x the best of them.\n\nThis is about regimes and militias, HAMAS, Hezbollah, the Houthis and the groups Iran funds, not about the people who live under them. Imagine if their leaders invested in companies, schools, tech and medicine. Their people would live better lives.\n\nSend this to someone who builds.",
+ "caption_he": "יד אחת בונה. יד אחת מגינה. 🛡️💻\nישראל מוציאה 7.8% מהתוצר על ביטחון (SIPRI, 2025) ו 6.3% על מחקר ופיתוח, הכי הרבה ב OECD (2023). ועדיין, תוצר לנפש בדולרים (הבנק העולמי, 2024): ישראל 54,217. עיראק 6,074. איראן 5,190. לבנון 4,473. סוריה 847 (2023). תימן 433.\nזה על משטרים ומיליציות, לא על האנשים שחיים תחתם. אם המנהיגים שלהם היו משקיעים בחברות, בבתי ספר, בטכנולוגיה וברפואה, לאנשים שם היו חיים טובים יותר.\n\nSources: World Bank, World Development Indicators, GDP per capita (current US$, NY.GDP.PCAP.CD), 2024 (Syria: 2023, latest available), via FRED, updated Jul 2026. SIPRI, Trends in World Military Expenditure 2025 (Apr 2026): Israel 7.8% of GDP. OECD, Main Science and Technology Indicators (Mar 2025): Israel R&D 6.3% of GDP, 2023.\nMade with AI tools.",
+ "hashtags": [
+  "#Israel",
+  "#Economy",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "bg": "scene",
+  "text": "*1* hand builds.|*1* hand shields.",
+  "big": "$54,217",
+  "label": "GDP per person, 2024 (World Bank)",
+  "dim": 0.6
+ }
+}
