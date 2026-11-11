@@ -186,7 +186,8 @@
    "at": "L15",
    "left": "Shelter",
    "right": "HAMAS tunnel"
-  }
+  },
+  "cover_t": "L15+0.6"
  },
  "sources": [
   {
@@ -247,6 +248,8 @@
  ],
  "cover": {
   "bg": "scene",
-  "text": "*500 km* of tunnels.|Who are they for?"
+  "dim": 0.55,
+  "y": 560,
+  "text": "*500* *km* of tunnels.|Who are they *for?*"
  }
 }
