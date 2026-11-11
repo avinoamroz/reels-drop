@@ -24,7 +24,7 @@
    "gap": 0.15
   },
   {
-   "say": "Saudi Arabia, sitting on oil: one Israeli equals one and a half Saudis.",
+   "say": "Saudi Arabia: one Israeli equals one and a half Saudis.",
    "gap": 0.15
   },
   {
@@ -48,15 +48,15 @@
    "gap": 0.2
   },
   {
-   "say": "And it isn't oil. Natural resources bring in zero point one percent of Israel's economy. In Iraq, forty percent.",
+   "say": "Only Qatar makes more per person. The Emirates come close. So how are they so rich?",
    "gap": 0.15
   },
   {
-   "say": "Only Qatar makes more per person. The Emirates come close.",
-   "gap": 0.2
+   "say": "Qatar and the Emirates sit on oil and gas. Israel has almost none. Without natural resources, this is what it looks like:",
+   "gap": 0.15
   },
   {
-   "say": "So what's our secret? Israelis just love to work. To build. To make something new, every single morning.",
+   "say": "Israelis who just love to work. To build. To make something new, every single morning.",
    "screen": "Israelis *love* to build",
    "until": "L11",
    "gap": 0.15
@@ -197,76 +197,11 @@
    {
     "at": "L8",
     "until": "L9",
-    "title": "Natural resources, *% of GDP*",
-    "y": 560,
-    "rowh": 92,
-    "vmax": 52,
-    "rows": [
-     {
-      "label": "Iraq",
-      "flag": "IQ",
-      "value": 39.8,
-      "txt": "39.8%",
-      "hl": false
-     },
-     {
-      "label": "Saudi Arabia",
-      "flag": "SA",
-      "value": 24.81,
-      "txt": "24.8%",
-      "hl": false
-     },
-     {
-      "label": "Yemen",
-      "flag": "YE",
-      "value": 5.44,
-      "txt": "5.4%",
-      "hl": false
-     },
-     {
-      "label": "Egypt",
-      "flag": "EG",
-      "value": 4.98,
-      "txt": "5.0%",
-      "hl": false
-     },
-     {
-      "label": "Israel",
-      "flag": "IL",
-      "value": 0.09,
-      "txt": "0.1%",
-      "hl": true
-     },
-     {
-      "label": "Jordan",
-      "flag": "JO",
-      "value": 0.03,
-      "txt": "0.03%",
-      "hl": false
-     },
-     {
-      "label": "Lebanon",
-      "flag": "LB",
-      "value": 0.0,
-      "txt": "0.0%",
-      "hl": false
-     },
-     {
-      "label": "Syria",
-      "flag": "SY",
-      "value": 0.0,
-      "txt": "no data",
-      "hl": false
-     }
-    ],
-    "lab_w": 430
-   },
-   {
-    "at": "L9",
-    "until": "L10",
     "title": "GDP per person, *2024*",
-    "y": 520,
-    "rowh": 78,
+    "y": 500,
+    "rowh": 72,
+    "vmax": 98000,
+    "lab_w": 430,
     "note": "*Syria: GDP 2022, latest available",
     "rows": [
      {
@@ -274,7 +209,8 @@
       "flag": "QA",
       "value": 76439,
       "txt": "$76,439",
-      "hl": false
+      "hl": false,
+      "color": "#3FBF7F"
      },
      {
       "label": "Israel",
@@ -288,13 +224,21 @@
       "flag": "AE",
       "value": 52880,
       "txt": "$52,880",
-      "hl": false
+      "hl": false,
+      "color": "#3FBF7F"
      },
      {
       "label": "Saudi Arabia",
       "flag": "SA",
       "value": 35528,
       "txt": "$35,528",
+      "hl": false
+     },
+     {
+      "label": "Kuwait",
+      "flag": "KW",
+      "value": 32855,
+      "txt": "$32,855",
       "hl": false
      },
      {
@@ -339,9 +283,98 @@
       "txt": "$199",
       "hl": false
      }
-    ],
+    ]
+   },
+   {
+    "at": "L9",
+    "until": "L10",
+    "title": "Natural resources, *% of GDP*",
+    "y": 500,
+    "rowh": 72,
+    "vmax": 52,
     "lab_w": 430,
-    "vmax": 98000
+    "note": "Syria: no data since 2007",
+    "rows": [
+     {
+      "label": "Kuwait",
+      "flag": "KW",
+      "value": 42.66,
+      "txt": "42.7%",
+      "hl": false
+     },
+     {
+      "label": "Iraq",
+      "flag": "IQ",
+      "value": 39.8,
+      "txt": "39.8%",
+      "hl": false
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 24.81,
+      "txt": "24.8%",
+      "hl": false
+     },
+     {
+      "label": "Qatar",
+      "flag": "QA",
+      "value": 20.72,
+      "txt": "20.7%",
+      "hl": false,
+      "color": "#3FBF7F"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 16.76,
+      "txt": "16.8%",
+      "hl": false,
+      "color": "#3FBF7F"
+     },
+     {
+      "label": "Yemen",
+      "flag": "YE",
+      "value": 5.44,
+      "txt": "5.4%",
+      "hl": false
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 4.98,
+      "txt": "5.0%",
+      "hl": false
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0.09,
+      "txt": "0.1%",
+      "hl": true
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0.03,
+      "txt": "0.03%",
+      "hl": false
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 0.0,
+      "txt": "0.0%",
+      "hl": false
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 0.0,
+      "txt": "no data",
+      "hl": false
+     }
+    ]
    }
   ],
   "end_until": "L13",
@@ -463,14 +496,14 @@
    "until": "L8"
   },
   {
-   "label": "World Bank WDI, total natural resources rents",
-   "year": 2019,
+   "label": "IMF WEO Oct 2026 (GDP); World Bank (population)",
+   "year": 2024,
    "at": "L8",
    "until": "L9"
   },
   {
-   "label": "IMF WEO Oct 2026 (GDP); World Bank (population)",
-   "year": 2024,
+   "label": "World Bank WDI, total natural resources rents",
+   "year": 2019,
    "at": "L9",
    "until": "L10"
   }
@@ -491,6 +524,6 @@
   "text": "*1* Israeli =|how many *neighbours?*",
   "size": 140
  },
- "caption_en": "1 Israeli = 16 Egyptians? 👥\n\nSame region. Same sun. GDP per person (2024), and how many neighbours it takes to match one Israeli:\n\n🇸🇦 Saudi Arabia: 1.5 ($35,528)\n🇮🇶 Iraq: about 9 ($6,162)\n🇱🇧 Lebanon: about 10 ($5,248)\n🇯🇴 Jordan: about 11 ($5,081)\n🇪🇬 Egypt: about 16 ($3,287)\n🇸🇾 Syria: about 56 ($962, GDP 2022, latest)\n🇾🇪 Yemen: about 273 ($199, IMF estimate)\n🇮🇱 Israel: $54,213\n\nOnly Qatar makes more per person ($76,439). The UAE comes close ($52,880).\n\nAnd it isn't oil. Natural resources bring in about 0.1% of Israel's economy. Iraq: 39.8%. Saudi Arabia: 24.8% (World Bank, 2019).\n\nIsraelis love to work, to build, to make something new every morning. But this isn't about people. Talent is everywhere. Most of this gap is war, and how countries are run. Income per person isn't happiness, and it isn't anyone's worth.\n\nSend this to someone who thinks it's all about resources.\n\nHow we counted: each country's 2024 GDP in current US dollars divided by its 2024 population; ratio = Israel's figure divided by the country's.\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values; Yemen is an IMF estimate). Syria: World Bank, GDP 2022 (latest available). Population: World Bank, World Development Indicators, 2024. Natural resources: World Bank WDI, total natural resources rents, % of GDP, 2019 (Syria: no recent data). Map: Natural Earth.\n\nMade with AI tools. AI voice.",
- "caption_he": "ישראלי אחד מייצר בממוצע כמו 16 מצרים, 11 ירדנים, 10 לבנונים ו־273 תימנים (תמ\"ג לנפש, 2024). רק קטאר עוקפת אותנו, והאמירויות קרובות. וזה לא נפט: משאבי טבע מכניסים כ־0.1% מהכלכלה הישראלית. ישראלים פשוט אוהבים לעבוד, לבנות ולייצר. אבל זה לא עניין של אנשים, כישרון יש בכל מקום. רוב הפער הוא מלחמה, ואיך מנהלים מדינות.\nשלחו את זה למי שחושב שהכול זה משאבי טבע."
+ "caption_en": "1 Israeli = 16 Egyptians? 👥\n\nSame region. Same sun. GDP per person (2024), and how many neighbours it takes to match one Israeli:\n\n🇸🇦 Saudi Arabia: 1.5 ($35,528)\n🇮🇶 Iraq: about 9 ($6,162)\n🇱🇧 Lebanon: about 10 ($5,248)\n🇯🇴 Jordan: about 11 ($5,081)\n🇪🇬 Egypt: about 16 ($3,287)\n🇸🇾 Syria: about 56 ($962, GDP 2022, latest)\n🇾🇪 Yemen: about 273 ($199, IMF estimate)\n🇮🇱 Israel: $54,213\n\nOnly Qatar makes more per person ($76,439). The UAE comes close ($52,880).\n\nHow are they so rich? Oil and gas. Natural resources bring in 20.7% of Qatar's economy, 16.8% of the UAE's, 24.8% of Saudi Arabia's, 42.7% of Kuwait's and 39.8% of Iraq's. Israel: 0.1% (World Bank, 2019).\n\nIsraelis love to work, to build, to make something new every morning. But this isn't about people. Talent is everywhere. Most of this gap is war, and how countries are run. Income per person isn't happiness, and it isn't anyone's worth.\n\nSend this to someone who thinks it's all about resources.\n\nHow we counted: each country's 2024 GDP in current US dollars divided by its 2024 population; ratio = Israel's figure divided by the country's.\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values; Yemen is an IMF estimate). Syria: World Bank, GDP 2022 (latest available). Population: World Bank, World Development Indicators, 2024. Natural resources: World Bank WDI, total natural resources rents, % of GDP, 2019 (Syria: no data since 2007). Map: Natural Earth.\n\nMade with AI tools. AI voice.",
+ "caption_he": "ישראלי אחד מייצר בממוצע כמו 16 מצרים, 11 ירדנים, 10 לבנונים ו־273 תימנים (תמ\"ג לנפש, 2024). רק קטאר עוקפת אותנו, והאמירויות קרובות. קטאר והאמירויות יושבות על נפט וגז, בישראל משאבי טבע הם רק כ־0.1% מהכלכלה. ישראלים פשוט אוהבים לעבוד, לבנות ולייצר. אבל זה לא עניין של אנשים, כישרון יש בכל מקום. רוב הפער הוא מלחמה, ואיך מנהלים מדינות.\nשלחו את זה למי שחושב שהכול זה משאבי טבע."
 }
