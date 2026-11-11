@@ -7,13 +7,13 @@
   python3 templates/render.py specs/<id>.json --voice-only   Cartesia TTS (secret) or check voice/<id>_*.wav, nothing else
   TPL_SNAPS=0,3,10 python3 templates/render.py spec.json  a few frames to /tmp/tpl_<id>/snaps.png (local look, no video)
 
-Templates: map_counter, data_race, scorecard, slang_scene, rehook, pun_sequence (see templates/README.md).
+Templates: map_counter, data_race, scorecard, slang_scene, rehook, pun_sequence, pun_ladder, classroom (see templates/README.md).
 """
 import os, sys, time, json, importlib
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
 import common as CM
 
-TEMPLATES = ("map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "build_vs_war")
+TEMPLATES = ("map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war")
 
 
 def main():

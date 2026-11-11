@@ -1,0 +1,336 @@
+{
+ "id": "bullied_top_class",
+ "account": "noamroz__",
+ "template": "classroom",
+ "hook": "Bullied kid.|*#1* in class?",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Bullied kid. Number one in class?",
+   "gap": 0.45
+  },
+  {
+   "say": "Picture a classroom. Every kid is a country.",
+   "gap": 0.3
+  },
+  {
+   "say": "The board ranks who brings the most new ideas.",
+   "gap": 0.35
+  },
+  {
+   "say": "Most kids have a normal day. Reading, drawing, passing notes.",
+   "gap": 0.4
+  },
+  {
+   "say": "And then there's this kid.",
+   "gap": 0.4
+  },
+  {
+   "say": "Paper balls from HAMAS.",
+   "gap": 0.25
+  },
+  {
+   "say": "Spitballs from Hezbollah.",
+   "gap": 0.25
+  },
+  {
+   "say": "The Houthis aim from the back row.",
+   "gap": 0.3
+  },
+  {
+   "say": "And the Iranian regime keeps handing out paper.",
+   "gap": 0.4
+  },
+  {
+   "say": "He does homework with one hand and blocks with the other.",
+   "gap": 0.35
+  },
+  {
+   "say": "And still passes notes to the class. Medicine, water, tech.",
+   "gap": 0.5
+  },
+  {
+   "say": "Report card time.",
+   "gap": 0.4
+  },
+  {
+   "say": "Research spending: six point three five percent of the economy. Number one in the world.",
+   "gap": 0.45
+  },
+  {
+   "say": "World innovation rank. The Emirates: thirty. Turkey: forty three. Saudi Arabia: forty six.",
+   "gap": 0.3
+  },
+  {
+   "say": "Jordan: sixty five. Egypt: eighty six. Lebanon: ninety. Syria: no data.",
+   "gap": 0.5
+  },
+  {
+   "say": "And the bullied kid? Fourteen in the world. Number one in the region.",
+   "gap": 0.5
+  },
+  {
+   "say": "Number one or number fourteen, depending on how you look at it.",
+   "gap": 0.55
+  },
+  {
+   "say": "Imagine this class if everyone did homework instead of throwing things.",
+   "gap": 0.5
+  },
+  {
+   "say": "Back to the bullied kid.",
+   "gap": 0.3
+  }
+ ],
+ "data": {
+  "kids": [
+   {
+    "label": "Turkey",
+    "flag": "TR",
+    "row": "mid",
+    "x": 190,
+    "act": "📖",
+    "flag_at": "L1:every+0.00"
+   },
+   {
+    "label": "Israel",
+    "flag": "IL",
+    "row": "mid",
+    "x": 540,
+    "hl": true,
+    "flag_at": "L1:every+0.12"
+   },
+   {
+    "label": "Saudi Arabia",
+    "flag": "SA",
+    "row": "mid",
+    "x": 890,
+    "act": "✏️",
+    "flag_at": "L1:every+0.24"
+   },
+   {
+    "label": "UAE",
+    "flag": "AE",
+    "row": "front",
+    "x": 120,
+    "act": "🎨",
+    "flag_at": "L1:every+0.36"
+   },
+   {
+    "label": "Jordan",
+    "flag": "JO",
+    "row": "front",
+    "x": 330,
+    "act": "📐",
+    "flag_at": "L1:every+0.48"
+   },
+   {
+    "label": "Egypt",
+    "flag": "EG",
+    "row": "front",
+    "x": 540,
+    "act": "🙋",
+    "flag_at": "L1:every+0.60"
+   },
+   {
+    "label": "Lebanon",
+    "flag": "LB",
+    "row": "front",
+    "x": 750,
+    "act": "🧮",
+    "flag_at": "L1:every+0.72"
+   },
+   {
+    "label": "Syria",
+    "flag": "SY",
+    "row": "front",
+    "x": 960,
+    "act": "📝",
+    "flag_at": "L1:every+0.84"
+   }
+  ],
+  "title": [
+   {
+    "at": "L1",
+    "l1": "Class ranking:",
+    "l2": "Most *new ideas*"
+   }
+  ],
+  "day_at": "L3:reading",
+  "hero_at": "L4:kid",
+  "bullies": [
+   {
+    "label": "HAMAS",
+    "x": 380,
+    "at": "L5:HAMAS",
+    "kind": "paper"
+   },
+   {
+    "label": "Hezbollah",
+    "x": 715,
+    "at": "L6:hezbollah",
+    "kind": "spit"
+   },
+   {
+    "label": "Houthis",
+    "x": 1000,
+    "at": "L7:houthis",
+    "kind": "plane"
+   },
+   {
+    "label": "Iranian regime",
+    "x": 80,
+    "at": "L8:iranian",
+    "kind": "supply"
+   }
+  ],
+  "hands": {
+   "homework": "L9:homework",
+   "block": "L9:blocks"
+  },
+  "notes": [
+   {
+    "at": "L10:medicine",
+    "emo": "💊",
+    "to": "UAE"
+   },
+   {
+    "at": "L10:water",
+    "emo": "💧",
+    "to": "Jordan"
+   },
+   {
+    "at": "L10:tech",
+    "emo": "💻",
+    "to": "Egypt"
+   }
+  ],
+  "reveal": {
+   "at": "L11",
+   "back": "L17"
+  },
+  "stat": {
+   "at": "L12",
+   "until": "L13-0.1",
+   "title": "R&D spending, *% of GDP*",
+   "value": 6.35,
+   "dec": 2,
+   "suffix": "%",
+   "count_at": "L12:six",
+   "who": "Israel",
+   "flag": "IL",
+   "pill": "#1 in the world",
+   "pill_at": "L12:number"
+  },
+  "ranking": {
+   "at": "L13",
+   "until": "L17",
+   "title": "World *innovation* rank",
+   "sub": "Global Innovation Index, out of 139",
+   "rows": [
+    {
+     "label": "Israel",
+     "flag": "IL",
+     "rank": 14,
+     "at": "L15:fourteen",
+     "hl": true,
+     "badge": "#1 in region",
+     "badge_at": "L15:region"
+    },
+    {
+     "label": "UAE",
+     "flag": "AE",
+     "rank": 30,
+     "at": "L13:emirates"
+    },
+    {
+     "label": "Turkey",
+     "flag": "TR",
+     "rank": 43,
+     "at": "L13:turkey"
+    },
+    {
+     "label": "Saudi Arabia",
+     "flag": "SA",
+     "rank": 46,
+     "at": "L13:saudi"
+    },
+    {
+     "label": "Jordan",
+     "flag": "JO",
+     "rank": 65,
+     "at": "L14:jordan"
+    },
+    {
+     "label": "Egypt",
+     "flag": "EG",
+     "rank": 86,
+     "at": "L14:egypt"
+    },
+    {
+     "label": "Lebanon",
+     "flag": "LB",
+     "rank": 90,
+     "at": "L14:lebanon"
+    },
+    {
+     "label": "Syria",
+     "flag": "SY",
+     "rank": null,
+     "at": "L14:syria"
+    }
+   ]
+  },
+  "verdict": {
+   "at": "L16",
+   "until": "L17",
+   "items": [
+    {
+     "big": "#1",
+     "sub": "in the region"
+    },
+    {
+     "big": "#14",
+     "sub": "in the world"
+    }
+   ]
+  },
+  "homework_at": "L17:homework"
+ },
+ "sources": [
+  {
+   "label": "WIPO, Global Innovation Index 2025, R&D spending (2023 data)",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "WIPO, Global Innovation Index 2025, rank of 139 economies",
+   "year": 2025,
+   "at": "L13",
+   "until": "L17-0.1"
+  }
+ ],
+ "end": {
+  "at": "L17",
+  "y": 330,
+  "balance": "Imagine this class if everyone did *homework* instead of throwing things.",
+  "cta": "Send this to a teacher"
+ },
+ "caption_en": "Picture a classroom where every kid is a country. One kid gets paper balls from HAMAS, spitballs from Hezbollah, paper planes from the Houthis, and the Iranian regime keeps handing out paper. He does his homework with one hand and blocks with the other. 📚\n\nThe report card: WIPO Global Innovation Index 2025, world rank out of 139 economies.\nIsrael 14 (1st of 18 in WIPO's Northern Africa and Western Asia region; Cyprus is 2nd at 25)\nUAE 30\nTurkey 43\nSaudi Arabia 46\nJordan 65\nEgypt 86\nLebanon 90\nSyria: not ranked, no data\n\nResearch spending: Israel 6.35% of GDP (2023), number 1 of all 139 economies in the same report.\n\nNumber one or number fourteen, depending on how you look at it. Now imagine this class if everyone did homework instead of throwing things.\n\nSend this to a teacher.",
+ "caption_he": "תדמיינו כיתה שבה כל ילד הוא מדינה. ילד אחד חוטף כדורי נייר מחמאס, יריקות מחיזבאללה, מטוסי נייר מהחות'ים, והמשטר האיראני ממשיך לחלק להם נייר. הוא מכין שיעורי בית ביד אחת וחוסם ביד השנייה.\n\nהתעודה: מדד החדשנות העולמי של WIPO לשנת 2025, דירוג עולמי מתוך 139 כלכלות.\nישראל 14 (מקום ראשון מתוך 18 באזור צפון אפריקה ומערב אסיה; קפריסין שנייה, במקום 25)\nאיחוד האמירויות 30, טורקיה 43, סעודיה 46, ירדן 65, מצרים 86, לבנון 90, סוריה לא מדורגת (אין נתונים).\n\nהוצאה על מחקר ופיתוח: 6.35% מהתוצר (2023), מקום ראשון מבין 139 הכלכלות באותו דוח.\n\nמקום ראשון או מקום 14, תלוי איך מסתכלים. עכשיו תדמיינו את הכיתה הזאת אם כולם היו מכינים שיעורי בית במקום לזרוק דברים.",
+ "hashtags": [
+  "#Israel",
+  "#innovation",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "bg": "scene",
+  "t": "L9:blocks",
+  "text": "Bullied kid.|*#1* in class?",
+  "y": 520
+ }
+}
