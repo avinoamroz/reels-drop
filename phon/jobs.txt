@@ -1,4 +1,11 @@
-eylon_x3 release:cuts/eylon_x3.mp4 hamas
-eylon_x2 release:cuts/eylon_x2.mp4 hamas
-ours_c voice/test_hamas_pron_c_vo.wav hamas
-ours_a voice/test_hamas_pron_a_vo.wav hamas
+oursc1 phon/oursc1.wav WHOLE
+oursc2 phon/oursc2.wav WHOLE
+oursc3 phon/oursc3.wav WHOLE
+oursc4 phon/oursc4.wav WHOLE
+oursc5 phon/oursc5.wav WHOLE
+oursc6 phon/oursc6.wav WHOLE
+oursa1 phon/oursa1.wav WHOLE
+oursa2 phon/oursa2.wav WHOLE
+oursa3 phon/oursa3.wav WHOLE
+oursa4 phon/oursa4.wav WHOLE
+oursa5 phon/oursa5.wav WHOLE

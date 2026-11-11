@@ -1,7 +1,7 @@
 name: phon
 # Word-level pronunciation check (added for hamas_cancer_v2, 11 Nov 2026). Push phon/jobs.txt with lines
 #   <name> <source> <word regex>
-# source = a repo path (wav/mp4) or release:<tag>/<asset>. For each source: faster-whisper word timestamps, every word
+# <word regex> WHOLE = recognise the whole file (already cut). source = a repo path (wav/mp4) or release:<tag>/<asset>. For each source: faster-whisper word timestamps, every word
 # matching the regex is cut to phon/<name>_<n>.wav (+0.08 s each side), and an IPA phoneme recogniser
 # (facebook/wav2vec2-xlsr-53-espeak-cv-ft) transcribes each cut. Results: phon/<name>.json. Nothing is posted.
 on:
@@ -55,6 +55,8 @@ jobs:
               if len(p) < 3 or p[0].startswith("#"): continue
               name, rx = p[0], re.compile(p[2], re.I)
               x, sr = sf.read(f"/tmp/src/{name}.wav", dtype="float32")
+              if p[2] == "WHOLE":
+                  r = dict(name=name, ipa=ipa(x)); json.dump(r, open(f"phon/{name}.json", "w"), ensure_ascii=False); print(name, r["ipa"]); continue
               segs, _ = W.transcribe(f"/tmp/src/{name}.wav", word_timestamps=True, language="en")
               words = [w for s in segs for w in s.words]; out = []
               for w in words:
