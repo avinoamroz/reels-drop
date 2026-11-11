@@ -1,0 +1,811 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Express City</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout: a top-down map of Israel's coast zoomed on Gush Dan; companies stand as small towers at their city, people commute to them, far-away companies point in from the map edge. Filters above, stats beside, cards slide up. */
+:root{
+ --bg:#EDF2F6;--fg:#12203A;--mute:#5A6A80;--card:#FFFFFF;--line:#D5DDE7;
+ --navy:#163261;--sky:#45A4DD;--yel:#F5C518;--bad:#D2453A;--good:#1F9D5B;--warn:#E08A00;
+ --cT:#8E6CEF;--cE:#F28C28;--cK:#E2508C;--cN:#2F8FD0;--cO:#9AA3AF;
+ --lv0:#98A3B3;--lv1:#22A35A;--lv2:#F2BC00;--lv3:#E0402F;
+ --sea:#A9D4EC;--sea2:#C9E5F4;--land:#F3EFE4;--land2:#E9E3D3;--urban:#E4DDCB;--sand:#EFDDAE;--road:#FFFFFF;--road2:#F2C35B;--roadedge:#D6CDB8;--river:#7FBDE0;--park:#CFE5BE;--hill:#E2DAC3;--shallow:#C4E6F3;--block:#DDD4BF;--block2:#D3C9B2;--shield:#1F5FA8;
+ --gA:#8DB8D6;--gB:#A9C6D8;--gC:#7FA6C4;--mA:#C9D3DE;--mB:#B9C7D6;--bA:#F7F3EA;--bB:#ECE5D6;--bC:#F1E7D6;
+ --win:#3A5272;--head:#F2E2D0;--ink:#12203A;--halo:#FFFFFF;--cityfg:#5B5040;
+ --f-d:"Bricolage Grotesque","Space Grotesk",system-ui,sans-serif;--f-b:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+ --bg:#0B1322;--fg:#E7EDF6;--mute:#95A4BA;--card:#131E33;--line:#24324C;
+ --cT:#A58BF5;--cE:#F5A04F;--cK:#EE77A8;--cN:#5DB3EA;--cO:#7E8899;
+ --lv0:#8794A8;--lv1:#3CC474;--lv2:#FFCC2E;--lv3:#FF5A48;
+ --sea:#0C2440;--sea2:#123256;--land:#1A2232;--land2:#1F293B;--urban:#232D40;--sand:#3A3426;--road:#3A4559;--road2:#8A6A2A;--roadedge:#2A3446;--river:#1D4C73;--park:#1D3A2A;--hill:#212B3C;--shallow:#123A5E;--block:#2A3549;--block2:#323E54;--shield:#2C6CB8;
+ --gA:#2D5A80;--gB:#35668C;--gC:#284F72;--mA:#3A4762;--mB:#33405A;--bA:#3A4458;--bB:#424C61;--bC:#384256;
+ --win:#FFD46A;--head:#E8D3BE;--ink:#0B1322;--halo:#0B1322;--cityfg:#B7AE9C;color-scheme:dark}}
+:root[data-theme="dark"]{
+ --bg:#0B1322;--fg:#E7EDF6;--mute:#95A4BA;--card:#131E33;--line:#24324C;
+ --cT:#A58BF5;--cE:#F5A04F;--cK:#EE77A8;--cN:#5DB3EA;--cO:#7E8899;
+ --lv0:#8794A8;--lv1:#3CC474;--lv2:#FFCC2E;--lv3:#FF5A48;
+ --sea:#0C2440;--sea2:#123256;--land:#1A2232;--land2:#1F293B;--urban:#232D40;--sand:#3A3426;--road:#3A4559;--road2:#8A6A2A;--roadedge:#2A3446;--river:#1D4C73;--park:#1D3A2A;--hill:#212B3C;--shallow:#123A5E;--block:#2A3549;--block2:#323E54;--shield:#2C6CB8;
+ --gA:#2D5A80;--gB:#35668C;--gC:#284F72;--mA:#3A4762;--mB:#33405A;--bA:#3A4458;--bB:#424C61;--bC:#384256;
+ --win:#FFD46A;--head:#E8D3BE;--ink:#0B1322;--halo:#0B1322;--cityfg:#B7AE9C;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-b);font-size:15px;line-height:1.45}
+.wrap{max-width:1240px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:18px 40px;display:flex;flex-direction:column;gap:14px}
+header{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px}
+h1{font-family:var(--f-d);font-weight:800;font-size:clamp(28px,5vw,44px);line-height:1;margin:0;letter-spacing:-.01em}
+h1 span{color:var(--sky)}
+.sub{color:var(--mute);margin:6px 0 0;font-size:14px;max-width:72ch}
+.src{font-size:12px;color:var(--mute);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--mute);display:inline-block}
+.dot.on{background:var(--good);box-shadow:0 0 0 3px color-mix(in srgb,var(--good) 25%,transparent)}
+.btn{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 12px;cursor:pointer}
+.btn:focus-visible,.chip:focus-visible,select:focus-visible,input:focus-visible,.li:focus-visible,canvas:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+.bar1{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:inherit;font-size:14px;display:flex;align-items:center;gap:8px;border:1.5px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 13px 6px 9px;cursor:pointer;font-variant-numeric:tabular-nums}
+.chip i{width:14px;height:14px;border-radius:4px;display:inline-block}
+.chip i.hat{border-radius:7px 7px 2px 2px}
+.chip[aria-pressed="false"]{opacity:.42}
+.ctl{display:flex;flex-wrap:wrap;gap:8px}
+select,input[type=search]{font:inherit;font-size:14px;background:var(--card);color:var(--fg);border:1.5px solid var(--line);border-radius:999px;padding:6px 12px;min-width:0;max-width:100%}
+input[type=search]{width:220px}
+.grid{display:grid;grid-template-columns:minmax(0,1fr) 290px;gap:14px;align-items:start}
+@media (max-width:920px){.grid{grid-template-columns:minmax(0,1fr)}}
+.map{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;position:relative}
+canvas{display:block;width:100%;touch-action:none;cursor:grab}
+canvas.drag{cursor:grabbing}
+.zoom{position:absolute;right:10px;top:10px;display:flex;flex-direction:column;gap:6px}
+.zoom .btn{width:40px;height:36px;padding:0;font-size:18px;line-height:1;display:grid;place-items:center;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.zoom .btn.t{font-size:11px;font-weight:600}
+.note{font-size:12px;color:var(--mute);padding:8px 14px;border-top:1px solid var(--line)}
+.side{display:flex;flex-direction:column;gap:12px;min-width:0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 15px}
+.stat h3{margin:0 0 8px;font-family:var(--f-d);font-weight:600;font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:var(--mute)}
+.rows{display:flex;flex-direction:column;gap:5px;font-variant-numeric:tabular-nums}
+.row{display:grid;grid-template-columns:12px minmax(0,1fr) auto;gap:8px;align-items:center;font-size:14px}
+.row i{width:11px;height:11px;border-radius:3px}
+.row i.hat{border-radius:6px 6px 2px 2px}
+.row span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.track{grid-column:2/4;height:6px;border-radius:3px;background:var(--line);overflow:hidden;margin:-1px 0 3px}
+.track b{display:block;height:100%}
+.li{all:unset;box-sizing:border-box;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px;padding:5px 7px;border-radius:8px;cursor:pointer;font-size:14px;font-variant-numeric:tabular-nums}
+.li:hover,.li[aria-pressed="true"]{background:color-mix(in srgb,var(--sky) 14%,transparent)}
+.li span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.li em{font-style:normal;color:var(--mute);font-size:13px}
+.colist{display:flex;flex-direction:column;gap:1px;max-height:300px;overflow:auto}
+.gap{font-size:13px;color:var(--mute);display:flex;flex-direction:column;gap:6px}
+.gap b{color:var(--fg);font-weight:600}
+.pop{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));width:min(430px,calc(100% - 32px));max-height:70vh;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 12px 40px rgba(0,0,0,.22);padding:16px 18px;z-index:20}
+.pop h4{margin:0 70px 0 0;font-family:var(--f-d);font-size:22px;font-weight:800;line-height:1.15}
+.pop .who{font-size:13px;color:var(--mute);margin:3px 0 10px}
+.pop .x{position:absolute;top:10px;inset-inline-end:10px}
+[dir=rtl] .pop h4{margin:0 0 0 70px}
+.zoom .btn.t{width:auto;min-width:40px;padding:0 6px}
+.pop .kv{display:grid;grid-template-columns:auto minmax(0,1fr);gap:5px 14px;font-size:14px;font-variant-numeric:tabular-nums;margin:0}
+.pop .kv dt{color:var(--mute)}
+.pop .kv dd{margin:0}
+.prog{height:9px;border-radius:5px;background:var(--line);overflow:hidden;margin:4px 0 2px}
+.prog span{display:block;height:100%;background:var(--sky)}
+.stack{display:flex;height:10px;border-radius:5px;overflow:hidden;background:var(--line);margin:6px 0 10px}
+.stack span{display:block;height:100%}
+.pill{display:inline-block;font-size:12px;font-weight:600;border-radius:999px;padding:1px 9px;margin-left:6px;vertical-align:middle}
+.pill.mv{background:color-mix(in srgb,var(--good) 18%,transparent);color:var(--good)}
+.pill.sl{background:color-mix(in srgb,var(--warn) 20%,transparent);color:var(--warn)}
+.pill.st{background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+.lvl{display:inline-flex;align-items:center;gap:6px}
+.lvl i{width:11px;height:11px;border-radius:6px 6px 2px 2px;display:inline-block}
+.acts{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
+.plist{display:flex;flex-direction:column;gap:1px;margin-top:4px}
+.plist .li{grid-template-columns:12px minmax(0,1fr) auto}
+.plist i{width:10px;height:10px;border-radius:3px;align-self:center}
+.red{color:var(--bad)}
+.loc{font-size:13px;color:var(--mute);margin:-4px 0 10px}
+.ask{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 14px}
+.ask label{font-family:var(--f-d);font-weight:800;font-size:18px}
+.ask input{width:220px;max-width:100%}
+.ask label{margin-inline-start:6px}
+.big{display:flex;align-items:baseline;gap:10px;margin:6px 0 12px;flex-wrap:wrap}
+.big b{font-family:var(--f-d);font-weight:800;font-size:44px;line-height:1;color:var(--sky);font-variant-numeric:tabular-nums}
+.big span{font-size:16px;font-weight:600}
+.stats{display:flex;flex-wrap:wrap;gap:6px 22px;margin:10px 0 2px}
+.stats div{display:flex;align-items:baseline;gap:6px}
+.stats span:first-child{color:var(--fg);font-size:18px;font-weight:700}
+.stats b{font-family:var(--f-d);font-weight:800;font-size:34px;color:var(--sky);font-variant-numeric:tabular-nums}
+.stats span{font-size:14px;color:var(--mute);font-weight:600}
+.cta{display:block;text-align:center;background:var(--navy);color:#FFFFFF;text-decoration:none;font-weight:600;border-radius:12px;padding:10px 14px}
+.cta:hover{filter:brightness(1.1)}
+.cta:focus-visible{outline:2px solid var(--sky);outline-offset:2px}
+@media (max-width:520px){input[type=search]{width:100%}.ctl{width:100%}.ctl>*{flex:1 1 140px}}
+
+/* mobile-first layout */
+.wrap{max-width:1100px;gap:14px;padding-block:14px 96px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.top h1{font-size:clamp(26px,7vw,40px)}
+.btn.ghost{background:transparent}
+.hero{display:flex;flex-direction:column;gap:6px}
+.stats{margin:0}
+.stats div{display:flex;flex-direction:column;align-items:flex-start;gap:0}
+.stats span:first-child{font-size:16px;color:var(--mute);font-weight:600}
+.stats b{font-size:clamp(56px,17vw,92px);line-height:.95;letter-spacing:-.02em;color:var(--fg)}
+.stats b+span{font-family:var(--f-d);font-size:clamp(20px,5.4vw,28px);font-weight:800;color:var(--sky);line-height:1.15}
+.sub{font-size:15px;margin:4px 0 0}
+.ask{flex-direction:column;align-items:stretch;gap:10px;padding:10px;border-radius:18px;box-shadow:0 6px 24px rgba(10,30,60,.08)}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;background:var(--bg);border-radius:12px;padding:4px}
+.tab{font:inherit;font-size:14px;font-weight:600;border:0;background:transparent;color:var(--mute);border-radius:9px;padding:8px 6px;cursor:pointer}
+.tab[aria-selected="true"]{background:var(--card);color:var(--fg);box-shadow:0 1px 4px rgba(10,30,60,.12)}
+.tab:focus-visible{outline:2px solid var(--sky);outline-offset:1px}
+.field input{width:100%;font-size:17px;padding:12px 16px;border-radius:14px}
+.ask input{width:100%}
+.map{border-radius:20px}
+.zoom{top:auto;bottom:calc(12px + env(safe-area-inset-bottom,0px));right:10px}
+.zoom .btn{width:38px;height:34px}
+.note{border:0;padding:0 4px;margin:-4px 0 0;text-align:center}
+.top10 h3{margin:0 0 10px;font-family:var(--f-d);font-weight:800;font-size:20px}
+.chips2{display:flex;flex-wrap:wrap;gap:8px}
+.chips2 .li{display:inline-flex;align-items:center;gap:6px;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:14px}
+.chips2 .li em{font-style:normal;font-weight:700;color:var(--sky)}
+.cta.main{position:fixed;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:15;padding:14px 16px;font-size:16px;border-radius:16px;box-shadow:0 10px 30px rgba(10,30,60,.25);max-width:560px;margin:0 auto}
+@media (max-width:640px){
+ .map{margin-inline:calc(-1 * max(16px,env(safe-area-inset-left,0px)));border-radius:0;border-inline:0}
+ .zoom{flex-direction:row;gap:6px}
+ .zoom #zin,.zoom #zout{display:none}
+ .pop{left:0;right:0;transform:none;width:auto;bottom:0;border-radius:20px 20px 0 0;padding-bottom:calc(18px + env(safe-area-inset-bottom,0px));max-height:62vh}
+}
+@media (min-width:900px){.stats b{font-size:84px}}
+
+/* compact pass */
+.wrap{gap:10px;padding-block:10px 84px}
+.top h1{font-size:20px;letter-spacing:0}
+.btn.ghost{font-size:12px;padding:4px 10px}
+.stats{font-family:var(--f-d);font-size:clamp(17px,4.6vw,22px);font-weight:700;line-height:1.3;margin:0;color:var(--fg);display:block}
+.stats b{font-size:1.45em;font-weight:800;color:var(--sky);letter-spacing:-.01em;line-height:1}
+.ask{padding:6px;gap:6px;border-radius:14px;box-shadow:none}
+.tabs{padding:3px;border-radius:10px}
+.tab{font-size:13px;padding:6px 4px}
+.field input{font-size:16px;padding:9px 14px;border-radius:11px}
+.note{font-size:11px}
+.top10 h3{font-size:15px;margin:0 0 8px}
+.chips2{gap:6px}
+.chips2 .li{font-size:13px;padding:5px 10px}
+.cta.main{padding:11px 14px;font-size:15px;border-radius:14px}
+
+.crowdT{font-family:var(--f-d);font-weight:800;font-size:15px;margin:2px 0 8px}
+.crowd{display:grid;grid-template-columns:repeat(auto-fill,minmax(58px,1fr));gap:10px 6px;margin-bottom:6px}
+.pp{display:flex;flex-direction:column;align-items:center;gap:4px;font-size:11px;font-weight:600;text-align:center;line-height:1.15;animation:pop .35s ease both;animation-delay:var(--d)}
+.pp i{position:relative;width:30px;height:34px;display:block}
+.pp i::before{content:"";position:absolute;left:50%;top:0;width:13px;height:13px;margin-left:-6.5px;border-radius:50%;background:var(--head)}
+.pp i::after{content:"";position:absolute;left:50%;bottom:0;width:26px;height:18px;margin-left:-13px;border-radius:13px 13px 6px 6px;background:var(--pc,var(--sky))}
+.pp.ka i::before{background:var(--line)}.pp.ka i::after{background:var(--line)}
+.pp.ka span{color:var(--mute)}
+.pp.kx i::before{background:var(--fg)}.pp.kx i::after{background:var(--fg)}
+.pp.kx span{background:var(--fg);color:var(--card);padding:1px 5px;border-radius:3px;letter-spacing:.04em}
+.pp.more i{font-style:normal;font-weight:800;color:var(--mute);display:grid;place-items:center;font-size:13px}
+.pp.more i::before,.pp.more i::after{display:none}
+.crowdN{font-size:11px;color:var(--mute);margin:0 0 10px}
+.pp i b{position:absolute;right:-7px;bottom:-3px;width:19px;height:19px;border-radius:50%;background:var(--card);border:1.5px solid var(--line);display:grid;place-items:center;font-size:11px;line-height:1;font-style:normal;z-index:1;box-shadow:0 1px 3px rgba(0,0,0,.15)}
+@keyframes pop{from{opacity:0;transform:translateY(6px) scale(.9)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.pp{animation:none}}
+</style>
+
+<div class="wrap">
+ <header class="top">
+  <h1 data-he="אקספרס &lt;span&gt;סיטי&lt;/span&gt;" data-en="Express &lt;span&gt;City&lt;/span&gt;">אקספרס <span>סיטי</span></h1>
+  <button class="btn ghost" id="langTog" type="button" aria-label="Switch language">English</button>
+ </header>
+ <section class="hero">
+  <div class="stats" id="stats"></div>
+  <p class="sub" id="sub" dir="auto" hidden></p>
+ </section>
+ <section class="ask" aria-label="Search">
+  <div class="tabs" role="tablist">
+   <button class="tab" type="button" role="tab" data-tab="qCo" aria-selected="true" data-he="מקום עבודה" data-en="Workplace">מקום עבודה</button>
+   <button class="tab" type="button" role="tab" data-tab="qProf" aria-selected="false" data-he="תפקיד" data-en="Role">תפקיד</button>
+   <button class="tab" type="button" role="tab" data-tab="qCity" aria-selected="false" data-he="עיר" data-en="City">עיר</button>
+  </div>
+  <div class="field">
+   <input type="search" id="qCo" list="coList" autocomplete="off" enterkeyhint="search" data-he="איפה אתם עובדים? למשל Intel" data-en="Where do you work? e.g. Intel" placeholder="איפה אתם עובדים? למשל Intel" aria-label="Workplace">
+   <input type="search" id="qProf" list="profList" autocomplete="off" enterkeyhint="search" hidden data-he="מה התפקיד? למשל Developer" data-en="Your role? e.g. Developer" placeholder="מה התפקיד? למשל Developer" aria-label="Role">
+   <input type="search" id="qCity" list="cityList" autocomplete="off" enterkeyhint="search" hidden data-he="באיזו עיר? למשל הרצליה" data-en="Which city? e.g. Herzliya" placeholder="באיזו עיר? למשל הרצליה" aria-label="City">
+   <datalist id="coList"></datalist><datalist id="profList"></datalist><datalist id="cityList"></datalist>
+  </div>
+ </section>
+ <div class="map">
+  <canvas id="cv" tabindex="0" aria-label="Map of Israel with the companies people came to English Express from. The list below the map holds the same information."></canvas>
+  <div class="zoom"><button class="btn" id="zin" type="button" aria-label="Zoom in">+</button><button class="btn" id="zout" type="button" aria-label="Zoom out">&minus;</button><button class="btn t" id="zgd" type="button" aria-label="Show Gush Dan" data-he="דן" data-en="DAN">דן</button><button class="btn t" id="zil" type="button" aria-label="Show all of Israel" data-he="ארץ" data-en="ISR">ארץ</button></div>
+ </div>
+ <p class="note" data-he="המפה להמחשה. אין כאן שמות או פרטים אישיים." data-en="An illustration. No names or personal details are shown.">המפה להמחשה. אין כאן שמות או פרטים אישיים.</p>
+ <section class="top10">
+  <h3 data-he="מאיפה הגיעו אלינו" data-en="Where people came from">מאיפה הגיעו אלינו</h3>
+  <div class="chips2" id="sCo"></div>
+ </section>
+ <a class="cta main" id="ctaMain" href="#" target="_top" data-he="רוצים לדבר אנגלית בביטחון בעבודה?" data-en="Want to speak English with confidence at work?">רוצים לדבר אנגלית בביטחון בעבודה?</a>
+</div>
+
+<div class="pop" id="pop" hidden role="dialog" aria-labelledby="pName">
+ <button class="btn x" id="pX" type="button" data-he="סגירה" data-en="Close">Close</button>
+ <h4 id="pName"></h4>
+ <div class="who" id="pWho"></div>
+ <div id="pBody"></div>
+</div>
+
+<script>
+(()=>{
+const SNAP=[],LAD={},ACT={},F=[],CO={},SNAP_AT="",CO_AT="";
+const ROLES={"Abra":{"r":[],"a":3},"Amdocs":{"r":[["Software Development",4],["Human Resource",2]],"a":5},"Apple":{"r":[["Software Development",2]],"a":2},"Applied Materials":{"r":[],"a":4},"April":{"r":[["Software Development",18]],"a":2},"At-Bay":{"r":[],"a":3},"AudioCodes":{"r":[["UX & Design",2]],"a":1},"Bank Hapoalim":{"r":[],"a":3},"Bank Leumi":{"r":[["Data Analysts & Scientists",2],["Finance & Accounting",2]],"a":2},"Brooks Keret":{"r":[["Finance & Accounting",3]],"a":0},"Cellebrite":{"r":[],"a":3},"Check Point":{"r":[["Software Development",6],["Cyber Security",2]],"a":2},"Clal Insurance":{"r":[],"a":4},"CloudAlly":{"r":[["Marketing & Advertising",2]],"a":2},"Commbox":{"r":[["Customer Experience(CSM)",3]],"a":2},"CyberArk":{"r":[["Software Development",2]],"a":2},"Dell":{"r":[["Software Development",2]],"a":1},"Deloitte":{"r":[],"a":4},"Discount Bank":{"r":[["Management & Operations",2]],"a":1},"Elad":{"r":[],"a":4},"EY":{"r":[["Finance & Accounting",6],["Management & Operations",2]],"a":3},"Fiverr":{"r":[],"a":3},"Google":{"r":[["Software Development",2]],"a":4},"Harel Insurance":{"r":[["Finance & Accounting",2]],"a":1},"HP":{"r":[["Management & Operations",3]],"a":2},"Intel":{"r":[["Software Development",7],["Management & Operations",3],["QA",3],["Data Analysts & Scientists",2],["Hardware & Electronics",2]],"a":3},"ironSource":{"r":[],"a":3},"JFrog":{"r":[],"a":4},"Jolt":{"r":[["Management & Operations",2]],"a":2},"KLA":{"r":[["QA",4]],"a":3},"KPMG":{"r":[["Finance & Accounting",4]],"a":1},"Maccabi HealthCare Services":{"r":[["Management & Operations",2],["Cyber Security",2]],"a":0},"Malam Team":{"r":[],"a":3},"Matrix":{"r":[["Management & Operations",2],["Cyber Security",2]],"a":2},"Microsoft":{"r":[["Software Development",3]],"a":4},"Mobileye":{"r":[["Software Development",4],["Hardware & Electronics",2]],"a":2},"monday.com":{"r":[["Product Development",2]],"a":6},"Nebius":{"r":[["Management & Operations",2]],"a":1},"Nvidia":{"r":[["Hardware & Electronics",7],["Software Development",4],["Management & Operations",2]],"a":4},"Obligo":{"r":[["Finance & Accounting",2]],"a":2},"Outbrain":{"r":[],"a":3},"Palo Alto Networks":{"r":[["Management & Operations",5]],"a":2},"Papaya":{"r":[],"a":3},"Paragon":{"r":[["Software Development",3]],"a":2},"PayBox":{"r":[],"a":3},"Payoneer":{"r":[["Software Development",2],["Management & Operations",2]],"a":2},"Pecan AI":{"r":[],"a":3},"Pentera":{"r":[],"a":3},"Playtika":{"r":[["Marketing & Advertising",2],["Product Development",2],["UX & Design",2]],"a":3},"PwC":{"r":[["Finance & Accounting",3]],"a":2},"Red Hat":{"r":[["Software Development",3]],"a":2},"Riskified":{"r":[],"a":3},"Salesforce":{"r":[["Software Development",5]],"a":4},"Self-employed":{"r":[],"a":3},"SolarEdge":{"r":[["Software Development",2]],"a":3},"Spotitearly":{"r":[["Management & Operations",4]],"a":3},"Strauss":{"r":[["Management & Operations",5]],"a":0},"Taboola":{"r":[["Software Development",3]],"a":2},"Tel Aviv University":{"r":[["Academics & Research",2]],"a":1},"Tenable":{"r":[["Cyber Security",2]],"a":1},"TikTok":{"r":[],"a":3},"Unity":{"r":[],"a":4},"Varonis":{"r":[["Software Development",2]],"a":1},"Vega":{"r":[["Human Resource",2]],"a":1},"Wix":{"r":[["Software Development",2],["Data Analysts & Scientists",2],["UX & Design",2]],"a":2},"XwinSys":{"r":[["Software Development",2]],"a":3}};
+const CLASSIFIED=new Set(["Elbit","IAI","Rafael","Israel National Cyber Directorate"]);
+const ROLE_NAME={"Software Development":["Developer","פיתוח"],"Management & Operations":["Management","ניהול"],"Finance & Accounting":["Finance","כספים"],"Product Development":["Product","מוצר"],"Sales & BizDev":["Sales (SDR)","מכירות"],"Marketing & Advertising":["Marketing","שיווק"],"Human Resource":["HR (hiring)","משאבי אנוש"],"Hardware & Electronics":["Hardware","חומרה"],"Data Analysts & Scientists":["Data","דאטה"],"Lawyer & Litigation":["Legal","משפטים"],"Medical & Healthcare":["Medical","רפואה"],"Cyber Security":["Cyber","סייבר"],"UX & Design":["Design","עיצוב"],"Education & Coaching":["Training","הדרכה"],"Construction & Real-estate":["Real estate","נדל\"ן"],"QA":["Tester (QA)","QA"],"Strategy & Consulting":["Consulting","ייעוץ"],"Customer Experience(CSM)":["Customer success (CSM)","הצלחת לקוח"],"Academics & Research":["Research","מחקר"],"Politics & Public Service":["Public service","שירות ציבורי"]};
+const TOTAL_PEOPLE=2238,MIN_PUBLIC=3,PUBLIC_HIDE=new Set(["IDF","Ministry of Defense","Law firm","Lawyer","Private Law firm","Private Clinic"]);
+const ALLC={"Intel":20,"April":20,"Nvidia":17,"Elbit":15,"IAI":12,"Amdocs":11,"EY":11,"Check Point":10,"Playtika":9,"Salesforce":9,"Wix":8,"Mobileye":8,"monday.com":8,"KLA":7,"Microsoft":7,"Palo Alto Networks":7,"Rafael":7,"Spotitearly":7,"Bank Leumi":6,"Google":6,"Payoneer":6,"Matrix":6,"KPMG":5,"PwC":5,"Red Hat":5,"SolarEdge":5,"Strauss":5,"Taboola":5,"XwinSys":5,"HP":5,"Commbox":5,"Paragon":5,"Apple":4,"Applied Materials":4,"CloudAlly":4,"CyberArk":4,"JFrog":4,"Jolt":4,"Maccabi HealthCare Services":4,"Obligo":4,"Unity":4,"Deloitte":4,"Elad":4,"Clal Insurance":4,"Abra":3,"At-Bay":3,"AudioCodes":3,"Bank Hapoalim":3,"Brooks Keret":3,"Cellebrite":3,"Dell":3,"Discount Bank":3,"Fiverr":3,"ironSource":3,"Malam Team":3,"Nebius":3,"Outbrain":3,"Papaya":3,"PayBox":3,"Pentera":3,"Riskified":3,"Tel Aviv University":3,"Tenable":3,"Israel National Cyber Directorate":3,"TikTok":3,"Varonis":3,"Harel Insurance":3,"Pecan AI":3,"Vega":3,"Self-employed":3};
+const ALLC_AT="",ALLC_RECORDS=0;
+const ALIAS2={"kla tencor":"KLA","monday":"monday.com","harel":"Harel Insurance","keter plastics":"Keter","paragon cyber security":"Paragon","paragon solution":"Paragon","pecan":"Pecan AI","fireblock":"Fireblocks","osem-nestle":"Osem","legit":"Legit Security","legit security":"Legit Security","clalit health":"Clalit","netafim orbia":"Netafim","hp indigo":"HP","hot mobile":"HOT","bezeq international":"Bezeq","deloitte catalist":"Deloitte","vega solutions cyber inc.":"Vega","redefine":"Redefine Meat","tbwa yehushoa":"TBWA","yehoshua tbwa":"TBWA","matrix- 2bsecure":"Matrix","clal credit insurance":"Clal Insurance","klal":"Clal Insurance","city of jerusalem":"Jerusalem Municipality","municipality of jerusalem":"Jerusalem Municipality","elta ; iai":"Elta","iron source":"ironSource","the israel national cyber directorate":"Israel National Cyber Directorate"};
+const JUNK=new Set(["english express","company","fdsa","shabbat"]);
+function norm(raw){const c=cleanCo(raw);if(!c)return "";const l=c.toLowerCase();if(JUNK.has(l))return "";return ALIAS2[l]||c;}
+let LANG="he";try{LANG=localStorage.getItem("ec_lang")==="en"?"en":"he";}catch(e){}
+const L=(en,he)=>LANG==="he"?he:en;
+const PLACE_HE={"Tel Aviv":"תל אביב","Haifa":"חיפה","Jerusalem":"ירושלים","Herzliya":"הרצליה","Ramat Gan":"רמת גן","Petah Tikva":"פתח תקווה","Holon":"חולון","Bat Yam":"בת ים","Rishon LeZion":"ראשון לציון","Netanya":"נתניה","Ashdod":"אשדוד","Rehovot":"רחובות","Ra'anana":"רעננה","Kfar Saba":"כפר סבא","Givatayim":"גבעתיים","Bnei Brak":"בני ברק","Ramat HaSharon":"רמת השרון","Hod HaSharon":"הוד השרון","Or Yehuda":"אור יהודה","Yehud":"יהוד","Rosh HaAyin":"ראש העין","Jaffa":"יפו","Kadima":"קדימה","Yokneam":"יקנעם","Migdal HaEmek":"מגדל העמק","Hadera":"חדרה","Ariel":"אריאל","Lod":"לוד","Ben Gurion Airport":"נתב\"ג","Kiryat Ono":"קריית אונו","Kiryat Shmona":"קריית שמונה","Modiin":"מודיעין","Airport City":"איירפורט סיטי","Be'er Yaakov":"באר יעקב","Gush Dan":"גוש דן","Kirya, Tel Aviv":"הקריה, תל אביב","Kirya, Tel Aviv (HQ; their own base is unknown)":"הקריה, תל אביב (המטה; הבסיס עצמו לא ידוע)","Ramat Aviv, Tel Aviv":"רמת אביב, תל אביב","Location not known":"מיקום לא ידוע","the courthouse area":"ליד בית המשפט","Rothschild Boulevard":"שדרות רוטשילד","next to Ichilov":"ליד איכילוב","a café on Gordon Beach":"בית קפה בחוף גורדון","a construction site full of cranes":"אתר בנייה מלא עגורנים","Gush Dan (city unknown)":"גוש דן (עיר לא ידועה)"};
+const plc=s=>LANG==="he"&&PLACE_HE[s]?PLACE_HE[s]:s;
+const COACH={T:{n:"",v:"--cT"},E:{n:"",v:"--cE"},K:{n:"",v:"--cK"},N:{n:"",v:"--cN"},O:{n:"",v:"--cO"}};
+const ZONES=[{en:"Parking lot",he:"מגרש חנייה",v:"--lv0"},{en:"Neighborhood",he:"שכונה",v:"--lv1"},{en:"City",he:"עיר",v:"--lv2"},{en:"Highway",he:"כביש מהיר",v:"--lv3"}];
+for(const z of ZONES)Object.defineProperty(z,"n",{get(){return LANG==="he"?this.he:this.en;}});
+const LVE=["","Never speaks","1:1 calls","3 to 5 person meetings","Leads meetings","Presents to 10+"],LVH=["","לא מדבר/ת","שיחות אחד על אחד","פגישות של 3 עד 5","מוביל/ה פגישות","מציג/ה מול 10+"];
+const LV=new Proxy([],{get:(o,i)=>(LANG==="he"?LVH:LVE)[i]});
+const ZI=lv=>lv>=5?3:lv===4?2:lv===3?1:0;
+const chZone=ch=>ch>=21?3:ch>=12?2:ch>=6?1:0;
+const ALIAS={"ernst & young":"EY","ebay":"eBay","kneset":"Knesset","oc cpa":"OC CPA","top or insurance agency dividend and top or":"Top Or Insurance","koy":"Koy","danagilboa":"Dana Gilboa","self-employed":"Self-employed","sentaya":"Sentaya","levinsky-wingate academic center":"Levinsky-Wingate","campus il online education":"Campus IL","the israeli national ai program":"National AI Program","check point":"Check Point","checkpoint":"Check Point","ministry of defence":"Ministry of Defense","mod":"Ministry of Defense"};
+const T3=new Set(["idf","nvidia","intel","elbit","iai","rafael","salesforce","check point","palo alto networks","applied materials","qualcomm","cisco","texas instruments","intuit","ebay","kla","ministry of defense","ey","kpmg","amdocs","microsoft","mobileye","google","meta","apple"]);
+const T2=new Set(["el al","hot","adidas","zara","monday.com","harel insurance","keter","flex","cellebrite","nebius","elementor","gong","elta","bynet","knesset","nuvei","wix","playtika","datorama","milliman","ariel university","levinsky-wingate","ide technologies","light rail","shaldor","unemployment office","national ai program","zenity","exodigo","salt security","hetz ventures","campus il","kaplan advertising","amot investment","april"]);
+/* where each company sits: [place, lat, lon, k = public info, g = my guess]. Not from Zoho. */
+const LOC={"amazon":["Tel Aviv",32.075,34.795,"g"],"aws":["Tel Aviv",32.0752,34.7962,"g"],"appsflyer":["Herzliya",32.164,34.808,"g"],"axonius":["Tel Aviv",32.066,34.787,"g"],"at-bay":["Tel Aviv",32.064,34.789,"g"],"audiocodes":["Airport City",31.985,34.89,"g"],"bright data":["Netanya",32.29,34.865,"g"],"cato networks":["Tel Aviv",32.067,34.795,"g"],"claroty":["Tel Aviv",32.067,34.782,"g"],"connecteam":["Tel Aviv",32.078,34.786,"g"],"crowdstrike":["Tel Aviv",32.076,34.784,"g"],"cybereason":["Tel Aviv",32.064,34.782,"g"],"dell":["Herzliya",32.163,34.813,"g"],"dynamic yield":["Tel Aviv",32.065,34.774,"g"],"etoro":["Bnei Brak",32.091,34.829,"g"],"exlibris":["Jerusalem",31.79,35.2,"g"],"global-e":["Petah Tikva",32.097,34.877,"g"],"guardio":["Tel Aviv",32.07,34.773,"g"],"hailo":["Tel Aviv",32.068,34.776,"g"],"hibob":["Tel Aviv",32.062,34.786,"g"],"honeybook":["Tel Aviv",32.071,34.772,"g"],"innovid":["Tel Aviv",32.079,34.781,"g"],"kaltura":["Tel Aviv",32.08,34.785,"g"],"komodor":["Tel Aviv",32.077,34.778,"g"],"lemonade":["Tel Aviv",32.058,34.765,"g"],"lightricks":["Jerusalem",31.785,35.215,"g"],"liveperson":["Tel Aviv",32.076,34.789,"g"],"logz.io":["Tel Aviv",32.074,34.786,"g"],"my heritage":["Or Yehuda",32.03,34.86,"g"],"optimove":["Tel Aviv",32.071,34.787,"g"],"papaya":["Tel Aviv",32.069,34.775,"g"],"pendo":["Tel Aviv",32.073,34.774,"g"],"pentera":["Petah Tikva",32.099,34.862,"g"],"riskified":["Tel Aviv",32.081,34.784,"g"],"run ai":["Tel Aviv",32.083,34.792,"g"],"sapiens":["Holon",32.015,34.785,"g"],"sentinelone":["Tel Aviv",32.066,34.797,"g"],"similarweb":["Tel Aviv",32.072,34.776,"g"],"starkware":["Netanya",32.29,34.863,"g"],"tenable":["Tel Aviv",32.068,34.788,"g"],"tipalti":["Tel Aviv",32.076,34.776,"g"],"verbit":["Tel Aviv",32.06,34.777,"g"],"walkme":["Tel Aviv",32.073,34.799,"g"],"wiz":["Tel Aviv",32.068,34.78,"g"],"wsc sports":["Givatayim",32.072,34.812,"g"],"yotpo":["Tel Aviv",32.067,34.771,"g"],"zesty":["Tel Aviv",32.079,34.777,"g"],"teva":["Petah Tikva",32.096,34.866,"g"],"icl group":["Tel Aviv",32.0742,34.7918,"g"],"mccann":["Tel Aviv",32.07,34.79,"g"],"publicis":["Tel Aviv",32.0695,34.789,"g"],"bcg":["Tel Aviv",32.0738,34.7932,"g"],"bank of israel":["Jerusalem",31.776,35.206,"k"],"israel railways":["Lod",31.95,34.89,"g"],"israel airports authority":["Ben Gurion Airport",32.001,34.879,"k"],"haifa port":["Haifa",32.82,35.0,"k"],"hebrew university":["Jerusalem",31.795,35.243,"k"],"university of haifa":["Haifa",32.762,35.02,"k"],"bar ilan":["Ramat Gan",32.068,34.843,"k"],"afeka college":["Tel Aviv",32.114,34.818,"k"],"college ono":["Kiryat Ono",32.059,34.86,"k"],"hadasa ein carem":["Jerusalem",31.765,35.149,"k"],"wolfson hospital":["Holon",32.034,34.762,"k"],"asaf harofe":["Be'er Yaakov",31.927,34.843,"k"],"clalit":["Tel Aviv",32.067,34.781,"g"],"meuhedet medical":["Tel Aviv",32.077,34.788,"g"],"ministry of foreign affairs":["Jerusalem",31.782,35.199,"k"],"petach tikvah municipality":["Petah Tikva",32.089,34.886,"k"],"kiryat shmona municipality":["Kiryat Shmona",33.207,35.571,"k"],"the jewish agency for israel":["Jerusalem",31.776,35.218,"k"],"mafat":["Kirya, Tel Aviv",32.0728,34.7905,"g"],"israel national cyber directorate":["Tel Aviv",32.077,34.794,"g"],"law firm":["the courthouse area",32.0835,34.7875,"f"],"lawyer":["the courthouse area",32.0838,34.7892,"f"],"private law firm":["Rothschild Boulevard",32.064,34.775,"f"],"private clinic":["next to Ichilov",32.0802,34.7912,"f"],"self-employed":["a café on Gordon Beach",32.0835,34.7705,"f"],"project":["a construction site full of cranes",32.0715,34.7858,"f"],"amdocs":["Ra'anana",32.192,34.869,"g"],"wix":["Tel Aviv",32.104,34.785,"g"],"playtika":["Herzliya",32.163,34.807,"g"],"mobileye":["Jerusalem",31.792,35.183,"k"],"microsoft":["Herzliya",32.166,34.809,"g"],"google":["Tel Aviv",32.0705,34.7925,"g"],"apple":["Herzliya",32.161,34.805,"g"],"red hat":["Ra'anana",32.188,34.876,"g"],"solaredge":["Herzliya",32.168,34.812,"g"],"strauss":["Petah Tikva",32.102,34.874,"g"],"taboola":["Tel Aviv",32.0758,34.7905,"g"],"payoneer":["Petah Tikva",32.1,34.861,"g"],"bank leumi":["Tel Aviv",32.065,34.774,"g"],"bank hapoalim":["Tel Aviv",32.063,34.777,"g"],"discount bank":["Tel Aviv",32.066,34.777,"g"],"pwc":["Tel Aviv",32.0755,34.7935,"g"],"deloitte":["Tel Aviv",32.0735,34.7945,"g"],"cyberark":["Petah Tikva",32.101,34.858,"g"],"jfrog":["Netanya",32.292,34.862,"g"],"unity":["Tel Aviv",32.072,34.7935,"g"],"tel aviv university":["Ramat Aviv, Tel Aviv",32.113,34.804,"k"],"weizmann institute of science":["Rehovot",31.907,34.809,"k"],"ichilov":["Tel Aviv",32.08,34.789,"k"],"beilinson hospital":["Petah Tikva",32.089,34.866,"k"],"shaare zedek medical center":["Jerusalem",31.774,35.18,"k"],"ashdod port":["Ashdod",31.815,34.66,"k"],"israel electric corporation":["Haifa",32.79,34.99,"g"],"fiverr":["Tel Aviv",32.068,34.792,"g"],"outbrain":["Netanya",32.289,34.865,"g"],"kornit digital":["Rosh HaAyin",32.09,34.96,"g"],"nice":["Ra'anana",32.19,34.873,"g"],"varonis":["Herzliya",32.165,34.814,"g"],"sap":["Ra'anana",32.19,34.878,"g"],"waze":["Tel Aviv",32.071,34.791,"g"],"prime minister's office":["Jerusalem",31.781,35.205,"k"],"ministry of finance":["Jerusalem",31.78,35.2,"k"],"ministry of justice":["Jerusalem",31.783,35.21,"k"],"ministry of education":["Jerusalem",31.779,35.21,"k"],"cellcom":["Netanya",32.287,34.861,"g"],"tiktok":["Tel Aviv",32.07,34.78,"g"],"ironsource":["Tel Aviv",32.069,34.784,"g"],"one zero":["Tel Aviv",32.075,34.778,"g"],"pagaya":["Tel Aviv",32.073,34.778,"g"],"plarium":["Herzliya",32.162,34.81,"g"],"plus500":["Haifa",32.79,34.99,"g"],"jerusalem municipality":["Jerusalem",31.779,35.222,"k"],"maccabi healthcare services":["Tel Aviv",32.065,34.78,"g"],"clal insurance":["Tel Aviv",32.074,34.79,"g"],"elad":["Tel Aviv",32.07,34.775,"g"],"idf":["Kirya, Tel Aviv (HQ; their own base is unknown)",32.0735,34.7895,"g"],"ministry of defense":["Kirya, Tel Aviv",32.0722,34.7872,"k"],"iai":["Ben Gurion Airport",32.0,34.893,"k"],"elta":["Ashdod",31.79,34.665,"k"],"nvidia":["Yokneam",32.66,35.105,"g"],"elbit":["Haifa",32.79,34.965,"g"],"ey":["Tel Aviv",32.0775,34.7925,"g"],"kpmg":["Tel Aviv",32.0745,34.7915,"g"],"salesforce":["Tel Aviv",32.0705,34.785,"g"],"datorama":["Tel Aviv",32.0712,34.7835,"g"],"check point":["Tel Aviv",32.065,34.79,"g"],"palo alto networks":["Tel Aviv",32.069,34.796,"g"],"monday.com":["Tel Aviv",32.0775,34.797,"g"],"applied materials":["Rehovot",31.905,34.812,"g"],"qualcomm":["Haifa",32.78,34.975,"g"],"cisco":["Netanya",32.29,34.862,"g"],"texas instruments":["Ra'anana",32.19,34.882,"g"],"intuit":["Petah Tikva",32.1,34.865,"g"],"ebay":["Netanya",32.282,34.868,"g"],"kla":["Migdal HaEmek",32.675,35.245,"k"],"flex":["Migdal HaEmek",32.668,35.228,"g"],"intel":["Petah Tikva",32.094,34.872,"g"],"rafael":["Haifa",32.83,35.07,"g"],"el al":["Ben Gurion Airport",32.006,34.876,"k"],"harel insurance":["Ramat Gan",32.0845,34.8025,"g"],"gong":["Ramat Gan",32.0825,34.806,"g"],"keter":["Herzliya",32.164,34.812,"g"],"cellebrite":["Petah Tikva",32.098,34.857,"g"],"knesset":["Jerusalem",31.777,35.205,"k"],"ariel university":["Ariel",32.105,35.17,"k"],"levinsky-wingate":["Tel Aviv",32.101,34.789,"g"],"ide technologies":["Kadima",32.28,34.91,"g"],"light rail":["Tel Aviv",32.081,34.781,"g"],"elementor":["Tel Aviv",32.072,34.781,"g"],"nebius":["Tel Aviv",32.069,34.79,"g"],"zenity":["Tel Aviv",32.063,34.784,"g"],"exodigo":["Tel Aviv",32.067,34.779,"g"],"salt security":["Tel Aviv",32.066,34.786,"g"],"hetz ventures":["Tel Aviv",32.074,34.782,"g"],"shaldor":["Tel Aviv",32.082,34.79,"g"]};
+const LOCTXT_EN={f:"a fun spot, because the company field in Zoho only says this",k:"from public info, not in Zoho",g:"my guess from public info, not in Zoho, worth checking",u:"not known, placed at random in Gush Dan with a dashed outline"},LOCTXT_HE={f:"מקום משעשע, כי בשדה החברה בזוהו כתוב רק את זה",k:"לפי מידע פומבי, לא מזוהו",g:"ניחוש שלי לפי מידע פומבי, לא מזוהו, כדאי לבדוק",u:"לא ידוע, מוצב באקראי בגוש דן עם קו מקווקו"};
+const LOCTXT=new Proxy({},{get:(o,k)=>(LANG==="he"?LOCTXT_HE:LOCTXT_EN)[k]});
+const COAST=[[33.4,35.12],[33.09,35.105],[33.0,35.092],[32.92,35.07],[32.87,35.075],[32.835,35.04],[32.82,35.0],[32.83,34.962],[32.8,34.955],[32.72,34.945],[32.65,34.925],[32.55,34.9],[32.5,34.89],[32.44,34.878],[32.4,34.865],[32.33,34.849],[32.27,34.834],[32.22,34.819],[32.185,34.806],[32.165,34.799],[32.14,34.792],[32.12,34.785],[32.1,34.775],[32.097,34.771],[32.085,34.767],[32.07,34.762],[32.06,34.757],[32.054,34.75],[32.045,34.751],[32.03,34.745],[32.015,34.741],[32.0,34.738],[31.98,34.733],[31.96,34.727],[31.93,34.715],[31.9,34.705],[31.85,34.685],[31.8,34.645],[31.75,34.61],[31.67,34.55],[31.55,34.47]];
+const ROADS=[
+ {n:"Ayalon",w:2,pts:[[32.15,34.812],[32.145,34.811],[32.12,34.806],[32.1,34.8],[32.085,34.795],[32.074,34.792],[32.06,34.79],[32.045,34.79],[32.02,34.795],[31.99,34.8],[31.95,34.79],[31.88,34.76],[31.8,34.7]]},
+ {n:"Route 2",w:2,pts:[[32.15,34.812],[32.2,34.83],[32.27,34.85],[32.33,34.87],[32.44,34.9],[32.55,34.925],[32.7,34.965],[32.79,34.985]]},
+ {n:"Route 4",w:1,pts:[[32.32,34.89],[32.2,34.875],[32.13,34.86],[32.09,34.845],[32.05,34.84],[32.0,34.825],[31.95,34.8]]},
+ {n:"Route 1",w:2,pts:[[32.06,34.79],[32.045,34.83],[32.02,34.865],[32.005,34.9],[31.97,34.96],[31.86,35.04],[31.8,35.15],[31.785,35.2]]},
+ {n:"Route 5",w:1,pts:[[32.145,34.811],[32.13,34.86],[32.12,34.92],[32.11,34.99],[32.105,35.17]]},
+ {n:"Route 6",w:2,pts:[[32.68,35.12],[32.5,35.04],[32.3,35.0],[32.15,34.97],[32.0,34.955],[31.85,34.92],[31.7,34.88]]},
+ {n:"Route 70",w:1,pts:[[32.5,35.04],[32.62,35.09],[32.66,35.11],[32.67,35.24]]}];
+const YARKON=[[32.097,34.771],[32.1,34.785],[32.102,34.8],[32.106,34.815],[32.11,34.83],[32.105,34.845],[32.1,34.86],[32.098,34.88],[32.102,34.9],[32.105,34.925],[32.103,34.95],[32.1,34.97]];
+const LAKES=[[[32.885,35.535],[32.86,35.5],[32.82,35.51],[32.76,35.535],[32.71,35.57],[32.72,35.62],[32.79,35.65],[32.86,35.65],[32.89,35.6]],[[31.77,35.46],[31.76,35.53],[31.6,35.565],[31.45,35.51],[31.35,35.43],[31.47,35.395],[31.62,35.42],[31.72,35.44]]];
+const JORDAN=[[32.71,35.57],[32.55,35.565],[32.3,35.55],[32.05,35.53],[31.85,35.535],[31.77,35.5]];
+const HILLS=[[32.72,35.03,9,4],[31.85,35.15,14,30],[32.25,35.2,14,18],[32.95,35.3,18,12],[32.62,35.3,8,5]];
+const PARKS=[[32.105,34.81,.7],[32.11,34.83,.5],[32.045,34.822,.55],[32.06,34.775,.25],[32.087,34.78,.18]];
+const BLOCKS=(()=>{const out=[];const big={"Tel Aviv":1,"Haifa":1,"Jerusalem":1};
+ const rnd=(s=>()=>{s=Math.imul(s^s>>>15,2246822507)^Math.imul(s^s>>>13,3266489909);return ((s^=s>>>16)>>>0)/4294967296;})(2026);
+ for(const [n,lat,lon,lvl] of [["Tel Aviv",32.075,34.785,0],["Haifa",32.8,35.0,0],["Jerusalem",31.78,35.215,0],["Herzliya",32.162,34.84,1],["Ramat Gan",32.072,34.825,1],["Petah Tikva",32.09,34.887,1],["Holon",32.015,34.78,1],["Bat Yam",32.02,34.752,1],["Rishon LeZion",31.965,34.8,1],["Netanya",32.32,34.87,1],["Ashdod",31.8,34.66,1],["Rehovot",31.895,34.82,1],["Ra'anana",32.184,34.872,1],["Kfar Saba",32.176,34.912,1],["Givatayim",32.071,34.81,2],["Bnei Brak",32.087,34.835,2],["Ramat HaSharon",32.143,34.842,2],["Hod HaSharon",32.152,34.892,2],["Or Yehuda",32.03,34.857,2],["Yehud",32.033,34.89,2],["Rosh HaAyin",32.095,34.955,2],["Kiryat Ono",32.057,34.857,2],["Modiin",31.9,35.01,1],["Lod",31.95,34.89,2]]){
+  const R=lvl===0?3.4:lvl===1?1.9:1.1,N=lvl===0?520:lvl===1?170:70;
+  for(let i=0;i<N;i++){const a=rnd()*6.283,d=Math.sqrt(rnd())*R;const la=lat+Math.sin(a)*d/110.9,lo=lon+Math.cos(a)*d/94.3;if(lo<coastLon(la)+.004)continue;if(Math.abs(la-32.104)<.004&&lo<34.86)continue;const w=.07+rnd()*.12,h=.06+rnd()*.1;out.push([la,lo,w,h,rnd()<.4?1:0]);}}
+ return out;})();
+const URBAN=[[32.2,34.8],[32.2,34.92],[32.12,34.97],[32.0,34.96],[31.94,34.84],[31.94,34.72]];
+const CITIES=[["Tel Aviv",32.088,34.783,0],["Haifa",32.8,35.01,0],["Jerusalem",31.78,35.215,0],["Herzliya",32.162,34.835,1],["Ramat Gan",32.07,34.825,1],["Petah Tikva",32.088,34.887,1],["Holon",32.013,34.78,1],["Bat Yam",32.02,34.752,1],["Rishon LeZion",31.965,34.8,1],["Netanya",32.32,34.875,1],["Ashdod",31.8,34.67,1],["Rehovot",31.895,34.82,1],["Ra'anana",32.184,34.872,1],["Kfar Saba",32.176,34.912,1],["Givatayim",32.071,34.81,2],["Bnei Brak",32.087,34.835,2],["Ramat HaSharon",32.143,34.842,2],["Hod HaSharon",32.152,34.892,2],["Or Yehuda",32.03,34.857,2],["Yehud",32.033,34.89,2],["Rosh HaAyin",32.095,34.955,2],["Jaffa",32.05,34.758,2],["Kadima",32.28,34.915,2],["Yokneam",32.658,35.11,1],["Migdal HaEmek",32.672,35.24,2],["Hadera",32.44,34.92,1],["Ariel",32.104,35.18,2],["Lod",31.95,34.89,2],["Ben Gurion Airport",31.995,34.885,2]];
+const NOCO="__none",DAY=864e5;
+const LAT0=32.08,LON0=34.78,KX=94.3,KY=110.9;
+const P=(lat,lon)=>[(lon-LON0)*KX,-(lat-LAT0)*KY];
+
+/* ---------- helpers ---------- */
+const $=id=>document.getElementById(id);
+const css=v=>getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt=d=>d?new Date(d+"T12:00:00").toLocaleDateString(LANG==="he"?"he-IL":"en-GB",{day:"numeric",month:"short",year:"numeric"}):"";
+function hash(s){let h=2166136261;for(const c of String(s)){h^=c.charCodeAt(0);h=Math.imul(h,16777619);}return h>>>0;}
+const h01=s=>(hash(s)%10007)/10007;
+function pid(s){const f=h0=>{let h=h0>>>0;for(const c of String(s)){h^=c.charCodeAt(0);h=Math.imul(h,16777619)>>>0;}return h.toString(16).padStart(8,"0");};return f(2166136261)+f((2166136261^0x5bd1e995)>>>0);}
+function cleanName(n){return String(n||"").replace(/\s*EXP$/i,"").replace(/HaimEXP$/,"Haim").trim();}
+function cleanCo(raw){
+ let s=String(raw||"").trim();
+ if(!s||/^[^a-z0-9֐-׿]+$/i.test(s))return "";
+ if(/company-a\.|example\.com/i.test(s))return "";
+ if(/^https?:\/\//i.test(s))s=s.replace(/^https?:\/\/(www\.)?/i,"").split(/[\/.]/)[0];
+ s=s.replace(/^[.\s\/]+/,"").replace(/\s+/g," ");
+ if(!s)return "";
+ const a=ALIAS[s.toLowerCase()];if(a)return a;
+ if(/^[a-z]/.test(s)&&!/\./.test(s))s=s[0].toUpperCase()+s.slice(1);
+ if(/^(idf|iai|hot|kpmg|vpg|qmd|iql|kla|ey)$/i.test(s))s=s.toUpperCase();
+ return s;
+}
+function hex2rgb(h){h=h.replace("#","");if(h.length===3)h=h.split("").map(c=>c+c).join("");const n=parseInt(h,16);return [n>>16&255,n>>8&255,n&255];}
+function fade(h,a){if(!/^#/.test(h))return "rgba(0,0,0,0)";const [r,g,b]=hex2rgb(h);return `rgba(${r},${g},${b},${a})`;}
+function shade(h,a){if(!/^#/.test(h))return h;const [r,g,b]=hex2rgb(h);const t=a<0?0:255,p=Math.abs(a);return `rgb(${Math.round(r+(t-r)*p)},${Math.round(g+(t-g)*p)},${Math.round(b+(t-b)*p)})`;}
+function coastLon(lat){for(let i=0;i<COAST.length-1;i++){const a=COAST[i],b=COAST[i+1];if(lat<=a[0]&&lat>=b[0]){const t=(a[0]-lat)/((a[0]-b[0])||1);return a[1]+(b[1]-a[1])*t;}}return 34.7;}
+const kmDist=(a,b)=>Math.hypot(a[0]-b[0],a[1]-b[1]);
+
+/* ---------- people and companies ---------- */
+let showLv=false;try{showLv=localStorage.getItem("ec_lv")==="1";}catch(e){}
+let allTime={},allTimeLive=false,allTimeRecords=0;for(const [k,v] of Object.entries(ALLC))allTime[k]=v;
+let allPeople=[],people=[],byId={},companies=[],coMap={},coachOn={T:1,E:1,K:1,N:1,O:1},lvOn=[1,1,1,1],coSel="",sel=null,follow=false;
+function build(rows){
+ const now=Date.now();
+ const seen=new Set();
+ return rows.filter(r=>r[0]).map(([key,c,ch,upd,end,coRaw,fld,status])=>{
+  const nm="";
+  const ch2=Math.max(0,Math.min(26,Number(ch)||0));
+  const days=upd?Math.floor((now-Date.parse(upd+"T12:00:00"))/DAY):999;
+  const m=days<=14?"mv":days<=45?"sl":"st";
+  const lad=LAD[key]||[],act=ACT[key]||[0,0,""];
+  const start=lad.length&&lad[0]?lad[0]:0;
+  const ladMax=Math.max(0,...lad.filter(Boolean));
+  let lv=ladMax,why=ladMax?L("status call: ","שיחת סטטוס: ")+LV[ladMax]:"";
+  if(act[1]>0&&lv<4){lv=4;why=L("led an English Buddies session","הנחה/תה מפגש English Buddies");}
+  if(act[0]>0&&lv<5){lv=5;why=L("gave a presentation at a community session","הציג/ה במפגש קהילה");}
+  const known=lv>0,zi=known?ZI(lv):chZone(ch2);
+  if(!known)why=L("no status call yet, estimated from chapter ","עוד אין שיחת סטטוס, הערכה לפי פרק ")+ch2;
+  const co=norm(coRaw);
+  const field=typeof fld==="number"?F[fld]||"":String(fld||"");
+  let id=key+"|"+c;for(let i=2;seen.has(id);i++)id=key+"|"+c+"|"+i;seen.add(id);
+  return {id,status:status||"Active",name:nm,c:["T","E","K","N"][hash(id)%4],ch:ch2,upd,end,days,m,past:(status||"Active")==="Active"&&end&&Date.parse(end+"T23:59:00")<now,start,lv,known,zi,why,pres:act[0],led:act[1],lastAct:act[2],co,coKey:co?co.toLowerCase():NOCO,field};
+ }).sort((a,b)=>a.name.localeCompare(b.name));
+}
+function snapRows(){return SNAP.map(r=>{const x=CO[r[0]]||["",0];return [r[0],r[1],r[2],r[3],r[4],x[0],x[1],"Active"];});}
+const TA_CENTER=P(32.079,34.786);
+let layoutSig="";
+function layout(){
+ coMap={};
+ for(const [name,n] of Object.entries(allTime)){if(n<2)continue;const k=name.toLowerCase();coMap[k]={key:k,name,people:[],total:n};}
+ for(const p of people){if(p.coKey===NOCO)continue;const c=coMap[p.coKey]||(coMap[p.coKey]={key:p.coKey,name:p.co,people:[],total:0});c.people.push(p);}
+ for(const c of Object.values(coMap))c.total=Math.max(c.total,allTime[c.name]||0,c.people.length);
+ const allCo=Object.values(coMap).map(c=>({...c,tier:T3.has(c.key)?3:T2.has(c.key)?2:1}));
+ for(const c of allCo)coMap[c.key]=c;
+ for(const c of allCo)if(!(c.total>=2||LOC[c.key])){c.single=true;c.conf="u";c.place="Location not known";c.city="Gush Dan";for(let i=0;;i++){const lat=31.99+h01(c.key+"sa"+i)*.17,lon=34.765+h01(c.key+"so"+i)*.15;if(lon>coastLon(lat)+.006){c.pt=P(lat,lon);break;}}c.dist=Math.round(kmDist(c.pt,P(32.08,34.78)));}
+ companies=allCo.filter(c=>!c.single);
+ companies.sort((a,b)=>b.total-a.total||b.tier-a.tier||a.name.localeCompare(b.name));
+ const sig=companies.map(c=>c.key+":"+c.total+":"+c.people.length).join("|");
+ const taken=[];let ui=0;
+ const free=(pt,minD)=>!taken.some(t=>kmDist(t,pt)<minD);
+ for(const c of companies){
+  coMap[c.key]=c;
+  const L=LOC[c.key];
+  let pt,conf,place;
+  if(L){place=L[0].split(" (")[0];conf=L[3];pt=P(L[1],L[2]);
+   let k=0;const base=pt;while(!free(pt,.32)&&k<40){k++;const a=k*2.39996,r=.3*Math.sqrt(k);pt=[base[0]+Math.cos(a)*r,base[1]+Math.sin(a)*r];}
+   c.place=L[0];}
+  else{conf="u";place="Gush Dan";c.place="Location not known";
+   for(let tries=0;;tries++){ui++;const lat=31.99+h01(c.key+"a"+ui)*.17,lon=34.765+h01(c.key+"o"+ui)*.15;if(lon<coastLon(lat)+.006)continue;const q=P(lat,lon);if(free(q,tries>200?.15:.42)){pt=q;break;}}}
+  taken.push(pt);c.pt=pt;c.conf=conf;c.city=place;
+  c.dist=Math.round(kmDist(pt,P(32.08,34.78)));
+  c.col=(c.tier===3?["--gA","--gB","--gC"]:c.tier===2?["--mA","--mB","--gB"]:["--bA","--bB","--bC"])[hash(c.key)%3];
+ }
+ return sig;
+}
+
+/* ---------- commuters: a day in 48 seconds; homes in real cities, cars for longer trips ---------- */
+const DAYLEN=72;
+let simH=8.2,walkers=[];
+const HOMES=[["Tel Aviv",32.08,34.79,20],["Ramat Gan",32.072,34.825,8],["Givatayim",32.071,34.81,4],["Herzliya",32.165,34.84,6],["Ramat HaSharon",32.145,34.842,4],["Petah Tikva",32.09,34.887,10],["Holon",32.013,34.78,7],["Bat Yam",32.02,34.752,4],["Rishon LeZion",31.965,34.8,10],["Ra'anana",32.184,34.872,5],["Kfar Saba",32.176,34.912,5],["Hod HaSharon",32.152,34.892,3],["Rehovot",31.895,34.82,4],["Modiin",31.9,35.01,5],["Netanya",32.32,34.875,5],["Or Yehuda",32.03,34.857,2],["Kiryat Ono",32.057,34.857,3]];
+const FARHOMES=[["Haifa",32.8,35.0],["Kiryat Tivon",32.72,35.13],["Zichron Yaakov",32.57,34.95],["Jerusalem",31.78,35.2],["Ashdod",31.8,34.67],["Modiin",31.9,35.01]];
+function pickHome(p,c){
+ const r=h01(p.id+"h");
+ if(c.dist>22){let best=null,bd=1e9;for(const f of FARHOMES){const d=kmDist(P(f[1],f[2]),c.pt)+h01(p.id+f[0])*8;if(d<bd){bd=d;best=f;}}
+  const a=h01(p.id+"ha")*6.28,rr=1+h01(p.id+"hr")*4;const q=P(best[1],best[2]);return {city:best[0],pt:[q[0]+Math.cos(a)*rr,q[1]+Math.sin(a)*rr]};}
+ const tot=HOMES.reduce((s,h)=>s+h[3],0);let acc=0,h=HOMES[0];for(const x of HOMES){acc+=x[3]/tot;if(r<=acc){h=x;break;}}
+ for(let i=0;i<20;i++){const a=h01(p.id+"a"+i)*6.28,rr=h01(p.id+"r"+i)*1.4;const lat=h[1]+Math.sin(a)*rr/KY,lon=h[2]+Math.cos(a)*rr/KX;if(lon>coastLon(lat)+.005)return {city:h[0],pt:P(lat,lon)};}
+ return {city:h[0],pt:P(h[1],h[2])};}
+function makeWalkers(){
+ walkers=people.map(p=>{const c=coMap[p.coKey]||{pt:TA_CENTER,dist:0};const home=pickHome(p,c);
+  const a=h01(p.id+"wa")*6.28,r=.08+h01(p.id+"wr")*.18;let work=[c.pt[0]+Math.cos(a)*r,c.pt[1]+Math.sin(a)*r*.6+.05];if(!coMap[p.coKey]){const r2=.5+h01(p.id+"e")*1.5;work=[home.pt[0]+Math.cos(a)*r2,home.pt[1]+Math.sin(a)*r2];}
+  const dist=kmDist(home.pt,work),dur=Math.max(1.6,Math.min(9,dist*.2))/DAYLEN*24;
+  return {p,home:home.pt,homeCity:home.city,work,dist,drive:dist>2.2,dur,dep1:6.6+h01(p.id+"d1")*2.4,dep2:16.2+h01(p.id+"d2")*2.6,pos:home.pt.slice(),moving:false,dir:0,phase:h01(p.id)*6};});
+ byId={};for(const p of people)byId[p.id]=p;
+}
+function place(w,h){
+ const ease=t=>t*t*(3-2*t);let a=null,b=null,t=0;
+ if(h<w.dep1){w.pos=w.home;w.moving=false;w.at="home";return;}
+ if(h<w.dep1+w.dur){a=w.home;b=w.work;t=(h-w.dep1)/w.dur;}
+ else if(h<w.dep2){w.pos=w.work;w.moving=false;w.at="work";return;}
+ else if(h<w.dep2+w.dur){a=w.work;b=w.home;t=(h-w.dep2)/w.dur;}
+ else{w.pos=w.home;w.moving=false;w.at="home";return;}
+ const e=ease(t);w.pos=[a[0]+(b[0]-a[0])*e,a[1]+(b[1]-a[1])*e];w.moving=true;w.at="road";w.dir=Math.atan2(b[1]-a[1],b[0]-a[0]);
+}
+function step(dt){simH+=dt/DAYLEN*24;if(simH>=24)simH=6;stepTalk(dt);for(const w of walkers){place(w,simH);if(w.moving)w.phase+=dt*9;}}
+function stillDay(){simH=10;for(const w of walkers)place(w,simH);}
+
+/* ---------- rendering ---------- */
+const cv=$("cv"),ctx=cv.getContext("2d");
+let FONT="Inter,sans-serif",DFONT="sans-serif",W=0,H=0,DPR=1,cam={x:0,y:0,z:30},C={},hits=[],chits=[],ahits=[],flyAnim=null,landPath=null;
+const S=(k)=>[(k[0]-cam.x)*cam.z+W/2,(k[1]-cam.y)*cam.z+H/2];
+const SL=(lat,lon)=>S(P(lat,lon));
+const RM=matchMedia("(prefers-reduced-motion: reduce)");
+function readColors(){
+ for(const k of ["--hill","--shallow","--block","--block2","--shield","--sea","--sea2","--land","--land2","--urban","--sand","--road","--road2","--roadedge","--river","--park","--gA","--gB","--gC","--mA","--mB","--bA","--bB","--bC","--win","--head","--ink","--halo","--cityfg","--fg","--mute","--card","--line","--sky","--yel","--navy","--cT","--cE","--cK","--cN","--cO","--lv0","--lv1","--lv2","--lv3"])C[k]=css(k)||"#888888";
+ FONT=css("--f-b")||"Inter,sans-serif";DFONT=css("--f-d")||FONT;
+ C.dark=document.documentElement.getAttribute("data-theme")==="dark"||(document.documentElement.getAttribute("data-theme")!=="light"&&matchMedia("(prefers-color-scheme: dark)").matches);
+ dirty=true;
+}
+function resize(){
+ const r=cv.parentElement.getBoundingClientRect();DPR=Math.min(2,window.devicePixelRatio||1);
+ W=Math.max(300,r.width);H=W<640?Math.round(Math.max(440,window.innerHeight*.72)):Math.round(Math.min(Math.max(480,window.innerHeight*.72),W*.78));
+ cv.style.height=H+"px";cv.width=Math.round(W*DPR);cv.height=Math.round(H*DPR);dirty=true;
+}
+const zMin=()=>Math.min(W/150,H/190),zMax=()=>Math.min(W,H)/1.2;
+function fitBox(la1,lo1,la2,lo2,anim){const a=P(la1,lo1),b=P(la2,lo2);const z=Math.min(W/Math.abs(b[0]-a[0]),H/Math.abs(b[1]-a[1]))*.96;flyTo((a[0]+b[0])/2,(a[1]+b[1])/2,z,anim);}
+const fitDan=a=>fitBox(32.2,34.74,31.95,34.96,a);
+const fitIsr=a=>fitBox(33.15,34.4,31.4,35.7,a);
+function flyTo(x,y,z,anim){z=Math.max(zMin(),Math.min(zMax(),z));if(!anim||RM.matches){cam={x,y,z};dirty=true;return;}flyAnim={from:{...cam},to:{x,y,z},t0:performance.now(),d:700};}
+function path(pts){ctx.beginPath();pts.forEach((p,i)=>{const s=SL(p[0],p[1]);i?ctx.lineTo(s[0],s[1]):ctx.moveTo(s[0],s[1]);});}
+
+function drawBase(){
+ const z=cam.z;
+ ctx.fillStyle=C["--sea"];ctx.fillRect(0,0,W,H);
+ // land
+ ctx.beginPath();COAST.forEach((p,i)=>{const s=SL(p[0],p[1]);i?ctx.lineTo(s[0],s[1]):ctx.moveTo(s[0],s[1]);});
+ for(const p of [[31.2,34.4],[31.2,36.2],[33.6,36.2],[33.6,35.12]]){const s=SL(p[0],p[1]);ctx.lineTo(s[0],s[1]);}
+ ctx.closePath();ctx.fillStyle=C["--land"];ctx.fill();
+ // relief: Carmel, the central hills, the Galilee
+ ctx.save();for(const [lat,lon,rx,ry] of HILLS){const s=SL(lat,lon),a=rx*z,b=ry*z;if(s[0]+a<0||s[0]-a>W||s[1]+b<0||s[1]-b>H)continue;ctx.translate(s[0],s[1]);ctx.scale(1,b/a);const g=ctx.createRadialGradient(0,0,0,0,0,a);g.addColorStop(0,C["--hill"]);g.addColorStop(1,fade(C["--hill"],0));ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,0,a,0,7);ctx.fill();ctx.setTransform(DPR,0,0,DPR,0,0);}ctx.restore();
+ // shallow water band
+ ctx.save();ctx.lineJoin="round";path(COAST);ctx.strokeStyle=C["--shallow"];ctx.globalAlpha=.75;ctx.lineWidth=Math.max(6,1.6*z);ctx.translate(-Math.max(3,.6*z),0);ctx.stroke();ctx.restore();
+ // beach
+ ctx.save();ctx.lineJoin="round";path(COAST);ctx.strokeStyle=C["--sand"];ctx.lineWidth=Math.max(2,.35*z);ctx.stroke();
+ path(COAST);ctx.strokeStyle=C["--sea2"];ctx.globalAlpha=.9;ctx.lineWidth=Math.max(1,.12*z);ctx.translate(-Math.max(1.5,.22*z),0);ctx.stroke();ctx.restore();
+ // urban Gush Dan
+ ctx.save();ctx.fillStyle=C["--urban"];
+ for(const [n,lat,lon,lvl] of CITIES){if(n==="Ben Gurion Airport")continue;const s=SL(lat,lon),r=(lvl===0?3.2:lvl===1?1.8:1.1)*z;if(s[0]<-r||s[0]>W+r||s[1]<-r||s[1]>H+r)continue;const g=ctx.createRadialGradient(s[0],s[1],0,s[0],s[1],r);g.addColorStop(0,C["--urban"]);g.addColorStop(1,fade(C["--urban"],0));ctx.globalAlpha=.9;ctx.fillStyle=g;ctx.beginPath();ctx.arc(s[0],s[1],r,0,7);ctx.fill();}
+ ctx.globalAlpha=1;ctx.fillStyle=C["--sea"];
+ for(const lake of LAKES){path(lake);ctx.closePath();ctx.fill();}
+ path(JORDAN);ctx.strokeStyle=C["--river"];ctx.lineWidth=Math.max(1,.12*z);ctx.stroke();
+ ctx.restore();
+ // city blocks (rooftops) when close enough
+ if(z>11){ctx.save();for(const b of BLOCKS){const s=SL(b[0],b[1]);const w=b[2]*z,h=b[3]*z;if(s[0]<-w||s[0]>W+w||s[1]<-h||s[1]>H+h)continue;ctx.fillStyle=b[4]?C["--block2"]:C["--block"];ctx.globalAlpha=Math.min(1,(z-11)/10);ctx.fillRect(s[0]-w/2,s[1]-h/2,w,h);}ctx.restore();}
+ for(const [lat,lon,r] of PARKS){const s=SL(lat,lon);ctx.fillStyle=C["--park"];ctx.beginPath();ctx.arc(s[0],s[1],r*z,0,7);ctx.fill();}
+ // Yarkon park + river
+ ctx.save();ctx.lineCap="round";ctx.lineJoin="round";
+ path(YARKON);ctx.strokeStyle=C["--park"];ctx.lineWidth=Math.max(3,.9*z);ctx.stroke();
+ path(YARKON);ctx.strokeStyle=C["--river"];ctx.lineWidth=Math.max(1.5,.16*z);ctx.stroke();
+ // roads
+ for(const r of ROADS){const wd=r.w===2?Math.max(2,.2*z):Math.max(1.2,.12*z);path(r.pts);ctx.strokeStyle=C["--roadedge"];ctx.lineWidth=wd+2;ctx.stroke();path(r.pts);ctx.strokeStyle=r.w===2?C["--road2"]:C["--road"];ctx.lineWidth=wd;ctx.stroke();}
+ if(z>7){ctx.save();ctx.font=`700 10px ${FONT}`;ctx.textAlign="center";ctx.textBaseline="middle";
+  for(const r of ROADS){const num={"Ayalon":"20","Route 2":"2","Route 4":"4","Route 1":"1","Route 5":"5","Route 6":"6","Route 70":"70"}[r.n];if(!num)continue;
+   const pts=r.pts.map(p=>SL(p[0],p[1])).filter(s=>s[0]>30&&s[0]<W-30&&s[1]>60&&s[1]<H-30);if(!pts.length)continue;const s=pts[Math.floor(pts.length/2)];
+   const w=num.length>1?22:16;ctx.fillStyle=C["--shield"];ctx.beginPath();ctx.roundRect(s[0]-w/2,s[1]-8,w,16,4);ctx.fill();ctx.strokeStyle="#FFFFFF";ctx.lineWidth=1.2;ctx.stroke();ctx.fillStyle="#FFFFFF";ctx.fillText(num,s[0],s[1]+.5);}
+  ctx.restore();}
+ // airport runways
+ if(z>12){ctx.strokeStyle=C["--roadedge"];ctx.lineWidth=Math.max(1.5,.06*z);ctx.beginPath();for(const [a,b] of [[[32.012,34.872],[31.995,34.9]],[[32.01,34.89],[31.99,34.875]]]){const s1=SL(a[0],a[1]),s2=SL(b[0],b[1]);ctx.moveTo(s1[0],s1[1]);ctx.lineTo(s2[0],s2[1]);}ctx.stroke();}
+ ctx.restore();
+ // water and road names
+ ctx.save();ctx.textAlign="center";ctx.textBaseline="middle";
+ const t=(s,lat,lon,size,col,a,font)=>{const p=SL(lat,lon);if(p[0]<-150||p[0]>W+150||p[1]<-40||p[1]>H+40)return;ctx.globalAlpha=a;ctx.font=font.replace("$",Math.round(size));if(col===C["--cityfg"]){ctx.lineWidth=3.5;ctx.lineJoin="round";ctx.strokeStyle=C["--land"];ctx.strokeText(s,p[0],p[1]);}ctx.fillStyle=col;ctx.fillText(s,p[0],p[1]);};
+ if(z<14){t(L("Sea of Galilee","הכנרת"),32.8,35.585,10,C.dark?"#7FA7C9":"#FFFFFF",.85,`italic 500 $px ${FONT}`);t(L("Dead Sea","ים המלח"),31.56,35.49,10,C.dark?"#7FA7C9":"#FFFFFF",.85,`italic 500 $px ${FONT}`);}
+ t(L("Mediterranean Sea","הים התיכון"),z>20?32.08:32.4,z>20?34.73:34.6,12+Math.min(6,z/12),C.dark?"#7FA7C9":"#FFFFFF",.85,`italic 500 $px ${FONT}`);
+ if(z>18){t(L("Yarkon","ירקון"),32.1045,34.808,11,C["--river"],1,`italic 600 $px ${FONT}`);t(L("Ayalon","איילון"),32.04,34.797,10,C["--mute"],.9,`italic 600 $px ${FONT}`);}
+ for(const [n,lat,lon,lvl] of CITIES){
+  if(lvl===1&&z<9)continue;if(lvl===2&&z<26)continue;
+  const big=lvl===0;const size=big?14+Math.min(8,z/10):lvl===1?12+Math.min(4,z/20):11;
+  try{ctx.letterSpacing=(big?2:1)+"px";}catch(e){}
+  t(LANG==="he"?plc(n):big?n.toUpperCase():n,lat,lon,size,C["--cityfg"],big?.6:.75,`${big?800:600} $px ${big?DFONT:FONT}`);}
+ try{ctx.letterSpacing="0px";}catch(e){}
+ ctx.restore();
+}
+const matches=p=>(!showLv||lvOn[p.zi])&&(!coSel||p.coKey===coSel);
+const onScreen=(s,m)=>s[0]>-m&&s[0]<W+m&&s[1]>-m&&s[1]<H+m;
+function towerSize(c){const f=Math.max(.5,Math.min(1.25,cam.z/34)),n=c.total;return {w:(10+Math.min(n,25)*.5)*f,h:(12+Math.sqrt(n)*10+(c.tier===3?6:0))*f,f};}
+function drawTower(c,s,alpha){
+ const {w,h,f}=towerSize(c),x=s[0]-w/2,y=s[1]-h,base=C[c.col],dz=w*.38;
+ ctx.globalAlpha=alpha;
+ ctx.fillStyle="rgba(0,0,0,"+(C.dark?.35:.14)+")";ctx.beginPath();ctx.ellipse(s[0]+dz*.6,s[1]+1,w*.9,w*.28,0,0,7);ctx.fill();
+ ctx.fillStyle=shade(base,C.dark?-.3:-.28);ctx.beginPath();ctx.moveTo(x+w,y);ctx.lineTo(x+w+dz,y-dz*.5);ctx.lineTo(x+w+dz,s[1]-dz*.5);ctx.lineTo(x+w,s[1]);ctx.closePath();ctx.fill();
+ ctx.fillStyle=shade(base,C.dark?.18:.14);ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+dz,y-dz*.5);ctx.lineTo(x+w+dz,y-dz*.5);ctx.lineTo(x+w,y);ctx.closePath();ctx.fill();
+ const g=ctx.createLinearGradient(0,y,0,s[1]);g.addColorStop(0,shade(base,C.dark?.12:.12));g.addColorStop(1,shade(base,C.dark?-.06:-.1));ctx.fillStyle=g;ctx.fillRect(x,y,w,h);
+ if(f>.6){ctx.fillStyle=C["--win"];const cols=w>15*f?3:2,rows=Math.floor((h-6*f)/(5.5*f));
+  for(let r=0;r<rows;r++)for(let k=0;k<cols;k++){if(C.dark&&hash(c.key+r+"."+k)%4===0)continue;ctx.globalAlpha=alpha*(C.dark?.9:.38);const ww=(w-4*f)/cols;ctx.fillRect(x+2*f+k*ww+ww*.2,y+3*f+r*5.5*f,ww*.6,2.6*f);}
+  ctx.globalAlpha=alpha;}
+ if(c.conf==="u"){ctx.setLineDash([3,2.5]);ctx.strokeStyle=C["--mute"];ctx.lineWidth=1.2;ctx.strokeRect(x-1.5,y-1.5,w+3,h+3);ctx.setLineDash([]);}
+ if(coSel===c.key){ctx.strokeStyle=C["--sky"];ctx.lineWidth=2.5;ctx.strokeRect(x-3,y-3-dz*.5,w+dz+6,h+dz*.5+6);}
+ if(c.total>=8){ctx.strokeStyle=C["--mute"];ctx.lineWidth=1.2;ctx.beginPath();ctx.moveTo(x+w/2+dz/2,y-dz*.25);ctx.lineTo(x+w/2+dz/2,y-dz*.25-9*f);ctx.stroke();}
+ ctx.globalAlpha=1;
+ chits.push({c,x0:x-4,x1:x+w+dz+4,y0:y-dz*.5-4,y1:s[1]+4,top:[s[0]+dz/2,y-dz*.5-4]});
+}
+function drawCar(w,P0){
+ const p=w.p,on=matches(p),s=Math.max(.6,Math.min(1.4,cam.z/40)),[sx,sy]=P0;
+ ctx.save();ctx.globalAlpha=on?1:.12;ctx.translate(sx,sy);ctx.rotate(w.dir);
+ const L=11*s,Wd=5.6*s;
+ ctx.fillStyle="rgba(0,0,0,.18)";ctx.beginPath();ctx.roundRect(-L/2+1,-Wd/2+1.5,L,Wd,2*s);ctx.fill();
+ ctx.fillStyle=C[COACH[p.c].v];ctx.beginPath();ctx.roundRect(-L/2,-Wd/2,L,Wd,2*s);ctx.fill();
+ ctx.fillStyle=C["--card"];ctx.globalAlpha=(on?1:.12)*.85;ctx.fillRect(L*.08,-Wd/2+1*s,L*.18,Wd-2*s);ctx.fillRect(-L*.32,-Wd/2+1*s,L*.14,Wd-2*s);
+ if(night()){ctx.globalAlpha=on?.55:.08;ctx.fillStyle=C["--yel"];ctx.beginPath();ctx.moveTo(L/2,-Wd/3);ctx.lineTo(L/2+14*s,-Wd*1.1);ctx.lineTo(L/2+14*s,Wd*1.1);ctx.lineTo(L/2,Wd/3);ctx.closePath();ctx.fill();}
+ ctx.restore();
+ if(sel===p.id){ctx.strokeStyle=C["--sky"];ctx.lineWidth=2;ctx.beginPath();ctx.arc(sx,sy,10*s,0,7);ctx.stroke();}
+ hits.push({id:p.id,x:sx,y:sy,r:Math.max(10,8*s),on});
+}
+const night=()=>simH>=18;
+function drawWalker(w,P0){
+ if(w.moving&&w.drive)return drawCar(w,P0);
+ const p=w.p,s=Math.max(.5,Math.min(1.25,cam.z/40)),on=matches(p),moving=w.moving;
+ const [sx,sy]=P0;
+ ctx.globalAlpha=on?1:.12;
+ const sw=moving&&!RM.matches?Math.sin(w.phase)*2.2*s:0;
+ ctx.strokeStyle=C["--ink"];ctx.lineWidth=Math.max(1,1.4*s);ctx.lineCap="round";
+ ctx.beginPath();ctx.moveTo(sx,sy-4*s);ctx.lineTo(sx-1.2*s+sw,sy);ctx.moveTo(sx,sy-4*s);ctx.lineTo(sx+1.2*s-sw,sy);ctx.stroke();
+ ctx.fillStyle=C[COACH[p.c].v];ctx.beginPath();ctx.ellipse(sx,sy-6.6*s,2.8*s,3.4*s,0,0,7);ctx.fill();
+ const hr=2.6*s,hy=sy-11.8*s;
+ ctx.fillStyle=C["--head"];ctx.beginPath();ctx.arc(sx,hy,hr,0,7);ctx.fill();
+ if(showLv){ctx.fillStyle=C[ZONES[p.zi].v];ctx.beginPath();ctx.arc(sx,hy-.3*s,hr*1.05,Math.PI,0);ctx.fill();ctx.fillRect(sx-hr*1.35,hy-.6*s,hr*2.7,.9*s);}
+ if(sel===p.id){ctx.globalAlpha=1;ctx.strokeStyle=C["--sky"];ctx.lineWidth=2;ctx.beginPath();ctx.ellipse(sx,sy,8*s+3,4*s+2,0,0,7);ctx.stroke();}
+ ctx.globalAlpha=1;
+ hits.push({id:p.id,x:sx,y:sy-7*s,r:Math.max(10,8*s),on});
+}
+function labelPass(){
+ const placed=[],z=cam.z;
+ const fs=Math.round(Math.max(10,Math.min(13,9+z/25)));
+ ctx.font=`600 ${fs}px ${FONT}`;ctx.textBaseline="middle";ctx.textAlign="left";
+ const cand=chits.slice().sort((a,b)=>(coSel===b.c.key)-(coSel===a.c.key)||b.c.total-a.c.total||b.c.tier-a.c.tier);
+ for(const h of cand){const c=h.c,force=coSel===c.key;
+  if(!force&&z<11&&c.total<5)continue;
+  const txt=c.name+"  "+c.total,tw=ctx.measureText(txt).width,pw=tw+14,ph=fs+8;
+  const x=h.top[0]-pw/2,y=h.top[1]-ph-2;
+  if(!force&&placed.some(r=>x<r[2]&&x+pw>r[0]&&y<r[3]&&y+ph>r[1]))continue;
+  placed.push([x,y,x+pw,y+ph]);
+  ctx.globalAlpha=coSel&&!force?.5:1;
+  ctx.fillStyle=force?C["--sky"]:C["--card"];ctx.beginPath();ctx.roundRect(x,y,pw,ph,ph/2);ctx.fill();ctx.strokeStyle=C["--line"];ctx.lineWidth=1;if(c.conf==="u")ctx.setLineDash([3,2]);ctx.stroke();ctx.setLineDash([]);
+  ctx.fillStyle=force?"#FFFFFF":C["--fg"];ctx.fillText(c.name,x+7,y+ph/2+.5);
+  const lw=ctx.measureText(c.name+"  ").width;ctx.fillStyle=force?"#FFFFFF":C["--mute"];ctx.fillText(String(c.total),x+7+lw,y+ph/2+.5);
+  ctx.globalAlpha=1;h.lab=[x,y,x+pw,y+ph];}
+ ctx.textBaseline="alphabetic";
+}
+let tapped=false;
+function drawHints(){
+ if(tapped||!pop.hidden||cam.z<14)return;
+ const cand=chits.filter(h=>h.lab&&h.c.total>=5&&h.top[0]>40&&h.top[0]<W-40&&h.top[1]>90).sort((a,b)=>b.c.total-a.c.total).slice(0,W<640?2:3);
+ const tt=performance.now()/1000;
+ ctx.save();
+ cand.forEach((h,i)=>{const b=Math.abs(Math.sin(tt*3+i*1.3))*8,x=(h.lab[0]+h.lab[2])/2,y=h.lab[1]-6-b;
+  ctx.fillStyle=C["--yel"];ctx.strokeStyle=C["--navy"];ctx.lineWidth=1.5;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-8,y-10);ctx.lineTo(x-3.5,y-10);ctx.lineTo(x-3.5,y-19);ctx.lineTo(x+3.5,y-19);ctx.lineTo(x+3.5,y-10);ctx.lineTo(x+8,y-10);ctx.closePath();ctx.fill();ctx.stroke();});
+ ctx.restore();
+}
+function arrowPass(){
+ ahits=[];const mob=W<640,m=mob?18:26,cx=W/2,cy=H/2,items=[];
+ for(const c of companies){if(coSel&&coSel!==c.key)continue;const vis=c.total;
+  const s=S(c.pt);if(s[0]>8&&s[0]<W-8&&s[1]>8&&s[1]<H-8)continue;
+  const dx=s[0]-cx,dy=s[1]-cy,tx=dx?((dx>0?W-m:m)-cx)/dx:1e9,ty=dy?((dy>0?H-m:m)-cy)/dy:1e9,t=Math.min(Math.abs(tx),Math.abs(ty));
+  items.push({c,vis,x:cx+dx*t,y:cy+dy*t,ang:Math.atan2(dy,dx)});}
+ const groups=[];for(const it of items){const g=groups.find(g=>g.city===it.c.city&&Math.hypot(g.x-it.x,g.y-it.y)<80);if(g){g.items.push(it);}else groups.push({city:it.c.city,x:it.x,y:it.y,ang:it.ang,items:[it]});}
+ for(const g of groups)g.tot=g.items.reduce((s,i)=>s+i.vis,0);
+ const shown=groups.sort((a,b)=>b.tot-a.tot).slice(0,mob?5:8).sort((a,b)=>a.y-b.y||a.x-b.x);
+ const placed=[],fs=mob?11:12,he=LANG==="he";ctx.font=`600 ${fs}px ${FONT}`;ctx.textBaseline="middle";
+ for(const g of shown){
+  g.items.sort((a,b)=>b.vis-a.vis);const top=cn(g.items[0].c.name);
+  const label=mob?(top+"  "+g.tot):(plc(g.city)+" · "+top+"  "+g.tot);
+  const tw=ctx.measureText(label).width,pw=tw+(mob?26:30),ph=mob?22:24;
+  let x=Math.max(6,Math.min(W-pw-6,g.x-pw/2)),y=Math.max(6,Math.min(H-ph-6,g.y-ph/2));
+  if(y<52&&x<170)y=52;
+  if(y+ph>H-56&&x+pw>W-(mob?110:60))y=H-56-ph;
+  for(let k=0;k<12&&placed.some(r=>x<r[2]&&x+pw>r[0]&&y<r[3]&&y+ph>r[1]);k++){y+=(g.y>H/2?-1:1)*(ph+4);}
+  placed.push([x,y,x+pw,y+ph]);
+  ctx.fillStyle=C["--navy"];ctx.globalAlpha=.9;ctx.beginPath();ctx.roundRect(x,y,pw,ph,ph/2);ctx.fill();ctx.globalAlpha=1;
+  const ax=he?x+pw-12:x+12,ay=y+ph/2;ctx.save();ctx.translate(ax,ay);ctx.rotate(g.ang);ctx.fillStyle=C["--yel"];ctx.beginPath();ctx.moveTo(5,0);ctx.lineTo(-4,-4.5);ctx.lineTo(-1.5,0);ctx.lineTo(-4,4.5);ctx.closePath();ctx.fill();ctx.restore();
+  ctx.save();ctx.fillStyle="#FFFFFF";ctx.direction=he?"rtl":"ltr";ctx.textAlign=he?"right":"left";ctx.fillText(label,he?x+pw-21:x+21,y+ph/2+.5);ctx.restore();
+  ahits.push({x0:x,y0:y,x1:x+pw,y1:y+ph,g});}
+ ctx.textBaseline="alphabetic";
+}
+function namePass(){
+ const z=cam.z,few=walkers.filter(w=>matches(w.p)).length<=14;
+ if(z<70&&!few&&!sel)return;
+ ctx.font=`600 ${Math.round(Math.max(10,Math.min(13,9+z/60)))}px ${FONT}`;ctx.textAlign="center";ctx.lineJoin="round";
+ for(const h of hits){if(!h.on)continue;if(!(z>=70||few||h.id===sel))continue;
+  const p=byId[h.id];const nm=z>=120||h.id===sel?p.name:p.name.split(" ")[0];
+  const y=h.y-h.r-7;if(h.x<-50||h.x>W+50||y<0||y>H)continue;
+  ctx.lineWidth=3;ctx.strokeStyle=C["--halo"];ctx.strokeText(nm,h.x,y);ctx.fillStyle=h.id===sel?C["--sky"]:C["--fg"];ctx.fillText(nm,h.x,y);}
+}
+let dirty=true,last=performance.now();
+function frame(now){
+ const dt=Math.min(.06,(now-last)/1000);last=now;
+ if(flyAnim){const t=Math.min(1,(now-flyAnim.t0)/flyAnim.d),e=1-Math.pow(1-t,3);for(const k of ["x","y"])cam[k]=flyAnim.from[k]+(flyAnim.to[k]-flyAnim.from[k])*e;cam.z=Math.exp(Math.log(flyAnim.from.z)+(Math.log(flyAnim.to.z)-Math.log(flyAnim.from.z))*e);if(t>=1)flyAnim=null;dirty=true;}
+ if(!RM.matches&&!document.hidden){step(dt);dirty=true;}
+ if(follow&&sel){const w=walkers.find(w=>w.p.id===sel);if(w){cam.x+=(w.pos[0]-cam.x)*.08;cam.y+=(w.pos[1]-cam.y)*.08;dirty=true;}}
+ if(dirty){draw();dirty=false;}
+ requestAnimationFrame(frame);
+}
+let bhits=[];
+function cityOf(c){if(c.conf==="u")return "Gush Dan (city unknown)";const p=c.place.split(" (")[0];return /Tel Aviv/.test(p)?"Tel Aviv":p;}
+function drawBubbles(){
+ const g={};for(const c of companies){const k=cityOf(c);(g[k]||(g[k]={n:k,tot:0,cs:[],x:0,y:0})).cs.push(c);g[k].tot+=c.total;}
+ const list=Object.values(g).map(b=>{b.x=b.cs.reduce((s,c)=>s+c.pt[0],0)/b.cs.length;b.y=b.cs.reduce((s,c)=>s+c.pt[1],0)/b.cs.length;if(b.n.startsWith("Gush Dan")){const q=P(32.03,34.9);b.x=q[0];b.y=q[1];}return b;}).sort((a,b)=>b.tot-a.tot);
+ ctx.save();ctx.textAlign="center";ctx.textBaseline="middle";
+ for(const b of list){const s=S([b.x,b.y]),r=Math.max(7,Math.sqrt(b.tot)*3.4);const unk=b.n.startsWith("Gush Dan");
+  ctx.globalAlpha=.88;ctx.fillStyle=unk?C["--card"]:C["--navy"];ctx.beginPath();ctx.arc(s[0],s[1],r,0,7);ctx.fill();
+  if(unk){ctx.setLineDash([4,3]);ctx.strokeStyle=C["--mute"];ctx.lineWidth=1.5;ctx.stroke();ctx.setLineDash([]);}
+  ctx.globalAlpha=1;ctx.fillStyle=unk?C["--fg"]:"#FFFFFF";ctx.font=`700 ${Math.round(Math.max(10,Math.min(15,r*.6)))}px ${FONT}`;ctx.fillText(String(b.tot),s[0],s[1]+.5);
+  if(r>9||b.tot>=6){ctx.font=`600 11px ${FONT}`;ctx.lineWidth=3;ctx.strokeStyle=C["--halo"];const ly=s[1]+r+9,nm=unk?L("City unknown","עיר לא ידועה"):plc(b.n);ctx.strokeText(nm,s[0],ly);ctx.fillStyle=C["--fg"];ctx.fillText(nm,s[0],ly);}
+  bhits.push({x:s[0],y:s[1],r:r+4,b});}
+ ctx.restore();
+}
+const LINES=["Good morning!","Let's sync later","Can you share your screen?","I'll take the lead on this","Quick question","Great point!","Let me walk you through it","Any updates?","Let's circle back","I'm on my way","Running five minutes late","Coffee first","Big presentation today","I've got this","Nice to meet you","Let's close the deal","Thanks for joining","See you at the meeting","Who's presenting?","Let me rephrase that","Sounds like a plan","Happy Friday!","How was your weekend?","Let's take this offline","I have a quick update","Can we push it to Thursday?","Love this idea","Let's get started","Over to you","Talk soon!"];
+let talk=[],talkT=0;
+function stepTalk(dt){talkT-=dt;for(const b of talk)b.t+=dt;talk=talk.filter(b=>b.t<3.6);
+ if(talkT<=0&&walkers.length&&cam.z>=12){talkT=.35+Math.random()*.4;if(talk.length<(W<640?3:8)){for(let k=0;k<12;k++){const w=walkers[Math.floor(Math.random()*walkers.length)];const s=S(w.pos);if(s[0]<70||s[0]>W-70||s[1]<90||s[1]>H-60)continue;if(chits.some(h=>Math.abs(h.top[0]-s[0])<60&&Math.abs(h.top[1]-(s[1]-30))<26))continue;if(!matches(w.p)||talk.some(b=>b.w===w))continue;talk.push({w,txt:LINES[Math.floor(Math.random()*LINES.length)],t:0});break;}}}}
+function drawTalk(){
+ if(cam.z<12)return;ctx.save();ctx.font=`600 11px ${FONT}`;ctx.textAlign="center";ctx.textBaseline="middle";
+ for(const b of talk){const s=S(b.w.pos);const a=Math.min(1,b.t*4,(3.6-b.t)*3);if(a<=0)continue;const up=(b.w.moving&&b.w.drive)||cam.z<50?12:24;
+  const tw=ctx.measureText(b.txt).width,pw=tw+14,ph=20,x=s[0]-pw/2,y=s[1]-up-ph-6;
+  ctx.globalAlpha=a;ctx.fillStyle=C["--card"];ctx.strokeStyle=C["--line"];ctx.lineWidth=1;ctx.beginPath();ctx.roundRect(x,y,pw,ph,10);ctx.fill();ctx.stroke();
+  ctx.beginPath();ctx.moveTo(s[0]-4,y+ph-.5);ctx.lineTo(s[0],y+ph+6);ctx.lineTo(s[0]+4,y+ph-.5);ctx.closePath();ctx.fill();
+  ctx.fillStyle=C["--fg"];ctx.fillText(b.txt,s[0],y+ph/2+.5);}
+ ctx.restore();
+}
+function drawDots(){
+ const groups={};const r=Math.max(1.6,Math.min(3.2,cam.z/14));
+ for(const w of walkers){const s=S(w.pos);if(!onScreen(s,6))continue;const on=matches(w.p);const k=w.p.c+(on?"":"x")+(w.moving&&w.drive?"d":"");(groups[k]||(groups[k]=[])).push(s);hits.push({id:w.p.id,x:s[0],y:s[1],r:7,on});}
+ for(const [k,pts] of Object.entries(groups)){ctx.globalAlpha=k.includes("x")?.1:.9;ctx.fillStyle=C[COACH[k[0]].v];ctx.beginPath();const rr=k.includes("d")?r*1.35:r;for(const s of pts){ctx.moveTo(s[0]+rr,s[1]);ctx.arc(s[0],s[1],rr,0,6.283);}ctx.fill();}
+ ctx.globalAlpha=1;
+ if(sel){const w=walkers.find(w=>w.p.id===sel);if(w){const s=S(w.pos);ctx.strokeStyle=C["--sky"];ctx.lineWidth=2;ctx.beginPath();ctx.arc(s[0],s[1],8,0,7);ctx.stroke();}}
+}
+function drawSky(){
+ const day=simH<18,f=day?(simH-6)/12:(simH-18)/6,x=W*.12+f*W*.76,y=(W<640?66:70)+Math.pow(f*2-1,2)*34;
+ ctx.save();
+ if(day){ctx.fillStyle="#FFC93C";ctx.strokeStyle="#FFC93C";ctx.lineWidth=2;ctx.lineCap="round";ctx.beginPath();for(let i=0;i<8;i++){const a=i*Math.PI/4+simH;ctx.moveTo(x+Math.cos(a)*15,y+Math.sin(a)*15);ctx.lineTo(x+Math.cos(a)*21,y+Math.sin(a)*21);}ctx.stroke();ctx.beginPath();ctx.arc(x,y,11,0,7);ctx.fill();}
+ else{ctx.fillStyle="#F4F1E1";ctx.beginPath();ctx.arc(x,y,11,0,7);ctx.fill();ctx.fillStyle=C["--sea"];ctx.globalAlpha=1;ctx.beginPath();ctx.arc(x+5,y-3,9.5,0,7);ctx.fill();}
+ ctx.restore();
+}
+function nightTint(){const a=Math.max(0,Math.min(1,(simH-17)/2.5))*(C.dark?.3:.24);if(a<=0)return;ctx.fillStyle=`rgba(8,16,48,${a})`;ctx.fillRect(0,0,W,H);}
+function scaleBar(){
+ const nice=[.5,1,2,5,10,20,50];let km=nice.find(k=>k*cam.z>=70)||50;const px=km*cam.z,x=12,y=H-18;
+ ctx.save();ctx.strokeStyle=C["--fg"];ctx.globalAlpha=.7;ctx.lineWidth=2;ctx.beginPath();ctx.moveTo(x,y-5);ctx.lineTo(x,y);ctx.lineTo(x+px,y);ctx.lineTo(x+px,y-5);ctx.stroke();
+ ctx.fillStyle=C["--fg"];ctx.font=`600 11px ${FONT}`;ctx.textAlign="left";ctx.textBaseline="bottom";ctx.fillText(km+L(" km"," ק\"מ"),x+4,y-4);ctx.restore();
+}
+function drawClock(){
+ const hh=Math.floor(simH)%24,mm=0;const txt=String(hh).padStart(2,"0")+":"+String(mm).padStart(2,"0");
+ const ph=simH<6.6?L("Early morning","בוקר מוקדם"):simH<10.5?L("Morning commute","נסיעה לעבודה"):simH<16.2?L("At work","בעבודה"):simH<19.5?L("Heading home","חזרה הביתה"):simH<22?L("Evening","ערב"):L("Night","לילה");
+ ctx.save();ctx.font=`700 15px ${FONT}`;const w1=ctx.measureText(txt).width;ctx.font=`600 12px ${FONT}`;const w2=ctx.measureText(ph).width;const pw=w1+w2+34,x=10,y=10;
+ ctx.fillStyle=C["--card"];ctx.globalAlpha=.94;ctx.beginPath();ctx.roundRect(x,y,pw,30,15);ctx.fill();ctx.globalAlpha=1;ctx.strokeStyle=C["--line"];ctx.stroke();
+ ctx.textBaseline="middle";ctx.fillStyle=C["--fg"];ctx.font=`700 15px ${FONT}`;ctx.fillText(txt,x+12,y+15.5);ctx.fillStyle=C["--mute"];ctx.font=`600 12px ${FONT}`;ctx.fillText(ph,x+22+w1,y+15.5);ctx.restore();
+}
+function draw(){
+ ctx.setTransform(DPR,0,0,DPR,0,0);
+ hits=[];chits=[];bhits=[];
+ drawBase();
+ if(cam.z<9){nightTint();drawBubbles();drawSky();scaleBar();drawClock();return;}
+ const objs=[];
+ for(const c of companies){const s=S(c.pt);if(onScreen(s,80))objs.push({y:s[1],c,s});}
+ const dense=cam.z<50;
+ if(dense)drawDots();else for(const w of walkers){const s=S(w.pos);if(onScreen(s,30))objs.push({y:s[1]+.5,w,s});}
+ objs.sort((a,b)=>a.y-b.y);
+ for(const o of objs){if(o.c)drawTower(o.c,o.s,coSel&&coSel!==o.c.key?.4:1);else drawWalker(o.w,o.s);}
+ nightTint();
+ labelPass();drawHints();drawTalk();arrowPass();drawSky();scaleBar();drawClock();
+}
+
+/* ---------- interaction ---------- */
+const ptrs=new Map();let dragStart=null,moved=0,pinch=null;
+cv.addEventListener("pointerdown",e=>{cv.setPointerCapture(e.pointerId);ptrs.set(e.pointerId,[e.offsetX,e.offsetY]);if(ptrs.size===1){dragStart=[e.offsetX,e.offsetY];moved=0;}if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch={d:Math.hypot(a[0]-b[0],a[1]-b[1]),z:cam.z};}flyAnim=null;});
+cv.addEventListener("pointermove",e=>{if(!ptrs.has(e.pointerId))return;const prev=ptrs.get(e.pointerId);ptrs.set(e.pointerId,[e.offsetX,e.offsetY]);
+ if(ptrs.size===1){const dx=e.offsetX-prev[0],dy=e.offsetY-prev[1];moved+=Math.abs(dx)+Math.abs(dy);if(moved>5){cv.classList.add("drag");follow=false;cam.x-=dx/cam.z;cam.y-=dy/cam.z;dirty=true;}}
+ else if(ptrs.size===2&&pinch){const [a,b]=[...ptrs.values()];const d=Math.hypot(a[0]-b[0],a[1]-b[1]);zoomAt((a[0]+b[0])/2,(a[1]+b[1])/2,pinch.z*d/pinch.d/cam.z);moved=99;}});
+function pUp(e){if(!ptrs.has(e.pointerId))return;ptrs.delete(e.pointerId);if(ptrs.size<2)pinch=null;if(ptrs.size===0){cv.classList.remove("drag");if(moved<=5&&dragStart)click(e.offsetX,e.offsetY);dragStart=null;}}
+cv.addEventListener("pointerup",pUp);cv.addEventListener("pointercancel",pUp);
+cv.addEventListener("wheel",e=>{e.preventDefault();zoomAt(e.offsetX,e.offsetY,Math.exp(-e.deltaY*.0015));},{passive:false});
+function zoomAt(sx,sy,f){const nz=Math.max(zMin(),Math.min(zMax(),cam.z*f));const wx=(sx-W/2)/cam.z+cam.x,wy=(sy-H/2)/cam.z+cam.y;cam.z=nz;cam.x=wx-(sx-W/2)/nz;cam.y=wy-(sy-H/2)/nz;dirty=true;}
+$("zin").onclick=()=>flyTo(cam.x,cam.y,cam.z*1.6,true);
+$("zout").onclick=()=>flyTo(cam.x,cam.y,cam.z/1.6,true);
+$("zgd").onclick=()=>{follow=false;fitDan(true);};
+$("zil").onclick=()=>{follow=false;fitIsr(true);};
+cv.addEventListener("keydown",e=>{const k=e.key,st=40/cam.z;if(k==="+"||k==="=")zoomAt(W/2,H/2,1.25);else if(k==="-")zoomAt(W/2,H/2,.8);else if(k==="ArrowLeft")cam.x-=st;else if(k==="ArrowRight")cam.x+=st;else if(k==="ArrowUp")cam.y-=st;else if(k==="ArrowDown")cam.y+=st;else return;e.preventDefault();dirty=true;});
+function click(x,y){
+ for(const h of bhits)if(Math.hypot(h.x-x,h.y-y)<h.r){const b=h.b;flyTo(b.x,b.y,b.n.startsWith("Gush Dan")?24:Math.max(28,cam.z*4),true);return;}
+ for(const a of ahits)if(x>=a.x0&&x<=a.x1&&y>=a.y0&&y<=a.y1){const its=a.g.items;if(its.length===1)openCompany(its[0].c.key,true);else openCity(a.g);return;}
+ let best=null,bd=1e9;for(const h of hits){if(!h.on)continue;const d=Math.hypot(h.x-x,h.y-y);if(d<h.r+4&&d<bd){bd=d;best=h;}}
+ if(best){openPerson(best.id);return;}
+ for(let i=chits.length-1;i>=0;i--){const h=chits[i],L=h.lab;if((L&&x>=L[0]&&x<=L[2]&&y>=L[1]&&y<=L[3])||(x>=h.x0&&x<=h.x1&&y>=h.y0&&y<=h.y1)){openCompany(h.c.key,false);return;}}
+}
+function focusKm(pt,z){flyTo(pt[0],pt[1]-.15,Math.max(cam.z,z||70),true);}
+
+/* ---------- public cards: aggregates only, no person details ---------- */
+const pop=$("pop");
+const CO_HE={"IAI":"התעשייה האווירית","Elbit":"אלביט","Rafael":"רפאל","Bank Leumi":"בנק לאומי","Bank Hapoalim":"בנק הפועלים","Discount Bank":"בנק דיסקונט","Maccabi HealthCare Services":"מכבי שירותי בריאות","Clal Insurance":"כלל ביטוח","Harel Insurance":"הראל ביטוח","Strauss":"שטראוס","Matrix":"מטריקס","Malam Team":"מלם תים","Tel Aviv University":"אוניברסיטת תל אביב","Israel National Cyber Directorate":"מערך הסייבר הלאומי","Self-employed":"עצמאים"};
+const cn=name=>LANG==="he"&&CO_HE[name]?CO_HE[name]:name;
+const PROF=[["Manager","ניהול ותפעול",462],["Developer","פיתוח תוכנה",294],["Finance","כספים וחשבונאות",137],["Product","פיתוח מוצר",92],["Sales (SDR)","מכירות ופיתוח עסקי",90],["Marketing","שיווק ופרסום",86],["HR (hiring)","משאבי אנוש",83],["Hardware","חומרה ואלקטרוניקה",72],["Data","דאטה וניתוח נתונים",66],["Law","משפטים",55],["Medical","רפואה ובריאות",52],["Cyber security","סייבר",50],["Design (UX)","UX ועיצוב",42],["Teaching","חינוך והדרכה",40],["Real estate","בנייה ונדל\"ן",36],["Tester (QA)","QA",34],["Consulting","אסטרטגיה וייעוץ",28],["Customer success (CSM)","הצלחת לקוחות",27],["Research","אקדמיה ומחקר",27],["Public Service","שירות ציבורי",25],["Artist","אמנים ויוצרי תוכן",23],["Biotech","ביוטק ופודטק",11],["Tourism","תיירות ואירוח",5],["Retail","קמעונאות",5],["Journalist","יחסי ציבור ועיתונות",4],["Social Work","עבודה סוציאלית",3]];
+function bigCount(n,txt){return `<div class="big"><b>${n}</b><span>${txt}</span></div>`;}
+function openPerson(id){const p=byId[id];if(!p)return;openCompany(p.coKey,false);}
+function openCompany(key,fly){
+ const c=coMap[key];if(!c)return;tapped=true;sel=null;follow=false;setCo(key);
+ if(fly)focusKm(c.pt,c.dist>30?Math.max(zMin()*4,40):70);
+ $("pName").textContent=cn(c.name);$("pWho").textContent=c.conf==="u"?"":plc(c.place.split(" (")[0]);
+ $("pBody").innerHTML=bigCount(c.total,L(`people from ${c.name} came to Express`,`אנשים מ־${cn(c.name)} כבר הגיעו לאקספרס`))+crowd(c)+cta("company",c.key);
+ pop.hidden=false;dirty=true;
+}
+function openCity(g){
+ sel=null;$("pName").textContent=plc(g.city);$("pWho").textContent="";
+ $("pBody").innerHTML=`<div class="plist clist">${g.items.map(i=>`<button class="li" type="button" data-k="${esc(i.c.key)}"><span>${esc(cn(i.c.name))}</span><em>${i.c.total}</em></button>`).join("")}</div>`;
+ pop.querySelectorAll(".clist .li").forEach(b=>b.onclick=()=>openCompany(b.dataset.k,true));pop.hidden=false;
+}
+const slug=s=>String(s||"none").toLowerCase().replace(/[^a-z0-9]+/g,"_").replace(/^_|_$/g,"")||"none";
+const PAL=["--cT","--cE","--cK","--cN","--sky","--lv1"];
+const ROLE_ICON={"Software Development":"💻","Management & Operations":"💼","Finance & Accounting":"🧮","Product Development":"🧩","Sales & BizDev":"🤝","Marketing & Advertising":"📣","Human Resource":"🗂️","Hardware & Electronics":"🔌","Data Analysts & Scientists":"📊","Lawyer & Litigation":"⚖️","Medical & Healthcare":"🩺","Cyber Security":"🔒","UX & Design":"🎨","Education & Coaching":"🎓","Construction & Real-estate":"🏗️","QA":"🐞","Strategy & Consulting":"💡","Customer Experience(CSM)":"🎧","Academics & Research":"🔬","Politics & Public Service":"🏛️"};
+const ic=o=>o.k==="x"?"<b>🕶️</b>":o.k==="a"?"<b aria-hidden=\"true\">⭐</b>":o.k==="r"&&ROLE_ICON[o.f]?`<b aria-hidden="true">${ROLE_ICON[o.f]}</b>`:"";
+function crowd(c){
+ const list=[];
+ if(CLASSIFIED.has(c.name)){for(let i=0;i<c.total;i++)list.push({k:"x"});}
+ else{const r=ROLES[c.name];if(r){r.r.forEach(([f,n],i)=>{for(let j=0;j<n;j++)list.push({k:"r",f,col:PAL[i%PAL.length]});});for(let j=0;j<r.a;j++)list.push({k:"a"});}else for(let i=0;i<c.total;i++)list.push({k:"a"});}
+ const cap=24,shown=list.slice(0,cap);
+ const lab=o=>o.k==="x"?L("Classified","מסווג"):o.k==="a"?L("Senior role","תפקיד בכיר"):(ROLE_NAME[o.f]?ROLE_NAME[o.f][0]:o.f);
+ const head=CLASSIFIED.has(c.name)?L("Who came from here? Classified.","מי הגיע מכאן? מסווג."):L("Who came from here","מי הגיע מכאן");
+ return `<div class="crowdT">${head}</div><div class="crowd">${shown.map((o,i)=>`<div class="pp k${o.k}" style="--d:${(i%12)*40}ms;${o.k==="r"?`--pc:var(${o.col})`:""}"><i>${ic(o)}</i><span>${esc(lab(o))}</span></div>`).join("")}${list.length>cap?`<div class="pp more"><i>+${list.length-cap}</i></div>`:""}</div>${CLASSIFIED.has(c.name)?"":`<p class="crowdN">${L("Roles shown only when at least two people share them.","תפקיד מוצג רק כשיש לפחות שניים שחולקים אותו.")}</p>`}`;
+}
+function cta(content,term){const u="https://expressenglish.co.il/speakernew/?utm_source=expresscity&utm_medium=organic&utm_campaign=organic&utm_content="+slug(content||"map")+"&utm_term="+slug(term);return `<a class="cta" href="${u}" target="_top">${L("Want to speak English with confidence at work? Visit English Express","רוצים לדבר אנגלית בביטחון בעבודה? לאתר אקספרס")}</a>`;}
+$("pX").onclick=()=>{pop.hidden=true;sel=null;setCo("");dirty=true;};
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&!pop.hidden)$("pX").click();});
+
+/* ---------- where do you work / what do you do ---------- */
+function setCo(key){coSel=key;panel();dirty=true;}
+const NOTYET=()=>L("Not enough people from there yet for us to show. Maybe you'll be the first?","עוד אין מספיק אנשים משם כדי להציג. אולי תהיו הראשונים?");
+function findCompany(v){v=v.trim().toLowerCase();if(!v)return null;
+ for(const c of companies){const he=(CO_HE[c.name]||"").toLowerCase();if(c.key===v||he===v)return c;}
+ for(const c of companies){const he=(CO_HE[c.name]||"").toLowerCase();if(c.key.startsWith(v)||(he&&he.startsWith(v)))return c;}
+ if(v.length>=3)for(const c of companies){const he=(CO_HE[c.name]||"").toLowerCase();if(c.key.includes(v)||(he&&he.includes(v)))return c;}
+ return null;}
+$("qCo").addEventListener("input",e=>{const v=e.target.value.trim().toLowerCase();if(companies.some(c=>c.key===v||(CO_HE[c.name]||"").toLowerCase()===v))e.target.dispatchEvent(new Event("change"));});
+$("qCo").addEventListener("change",e=>{const v=e.target.value;if(!v.trim())return;const c=findCompany(v);
+ if(c)openCompany(c.key,true);else{setCo("");$("pName").textContent=v;$("pWho").textContent="";$("pBody").innerHTML=`<p class="loc">${NOTYET()}</p>`+cta("not_found","");pop.hidden=false;}});
+const PROF_ALIAS={"מתכנת":1,"מתכנתת":1,"מפתח":1,"מפתחת":1,"תוכנה":1,"developer":1,"engineer":1,"מהנדס":1,"מהנדסת":1,"מנהל":0,"מנהלת":0,"מנכ\"ל":0,"ceo":0,"manager":0,"רואה חשבון":2,"רו\"ח":2,"כספים":2,"cfo":2,"מנהל מוצר":3,"product":3,"pm":3,"מכירות":4,"sales":4,"שיווק":5,"marketing":5,"hr":6,"גיוס":6,"עו\"ד":9,"עורך דין":9,"עורכת דין":9,"lawyer":9,"רופא":10,"רופאה":10,"doctor":10,"אחות":10,"nurse":10,"דאטה":8,"data":8,"סייבר":11,"cyber":11,"מעצב":12,"מעצבת":12,"designer":12,"מורה":13,"teacher":13,"נדל\"ן":14,"בודק":15,"בודקת":15,"יועץ":16,"יועצת":16,"consultant":16};
+function findProf(v){v=v.trim().toLowerCase();if(!v)return -1;
+ let i=PROF.findIndex(p=>p[0].toLowerCase()===v||p[1]===v);if(i>=0)return i;
+ i=PROF.findIndex(p=>p[0].toLowerCase().includes(v)||p[1].includes(v));if(i>=0)return i;
+ for(const [k,j] of Object.entries(PROF_ALIAS))if(v.includes(k))return j;return -1;}
+$("qProf").addEventListener("input",e=>{const v=e.target.value.trim().toLowerCase();if(PROF.some(p=>p[0].toLowerCase()===v||p[1]===v))e.target.dispatchEvent(new Event("change"));});
+$("qProf").addEventListener("change",e=>{const v=e.target.value;if(!v.trim())return;const i=findProf(v);
+ if(i<0||PROF[i][2]<3){$("pName").textContent=v;$("pWho").textContent="";$("pBody").innerHTML=`<p class="loc">${NOTYET()}</p>`+cta("not_found","");pop.hidden=false;return;}
+ const p=PROF[i];
+ $("pName").textContent=p[0];$("pWho").textContent="";$("pBody").innerHTML=bigCount(p[2],L(`people in ${p[0]} came to Express`,`אנשים מתחום ${p[0]} כבר הגיעו לאקספרס`))+cta("role",p[0]);pop.hidden=false;});
+function fillSearch(){
+ const opts=new Set();for(const c of companies){opts.add(c.name);if(CO_HE[c.name])opts.add(CO_HE[c.name]);}
+ $("coList").innerHTML=[...opts].map(o=>`<option value="${esc(o)}"></option>`).join("");
+ const cset=new Set();for(const c of companies)if(c.conf!=="u"){const k=cityOf(c);cset.add(k);if(PLACE_HE[k])cset.add(PLACE_HE[k]);}
+ $("cityList").innerHTML=[...cset].map(o=>`<option value="${esc(o)}"></option>`).join("");
+ $("profList").innerHTML=PROF.map(p=>p[0]).map(o=>`<option value="${esc(o)}"></option>`).join("");
+}
+function cityKey(v){v=v.trim().toLowerCase();if(!v)return "";
+ for(const [en,he] of Object.entries(PLACE_HE))if(en.toLowerCase()===v||he===v)return /Tel Aviv/.test(en)?"Tel Aviv":en;
+ for(const [en,he] of Object.entries(PLACE_HE))if(v.length>=2&&(en.toLowerCase().startsWith(v)||he.startsWith(v)))return /Tel Aviv/.test(en)?"Tel Aviv":en;
+ return v;}
+$("qCity").addEventListener("input",e=>{const v=e.target.value.trim().toLowerCase();if(Object.entries(PLACE_HE).some(([en,he])=>en.toLowerCase()===v||he===v))e.target.dispatchEvent(new Event("change"));});
+$("qCity").addEventListener("change",e=>{const v=e.target.value;if(!v.trim())return;const k=cityKey(v);
+ const cs=companies.filter(c=>c.conf!=="u"&&cityOf(c)===k).sort((a,b)=>b.total-a.total);setCo("");
+ $("pName").textContent=PLACE_HE[k]&&LANG==="he"?PLACE_HE[k]:(cs.length?k:v);$("pWho").textContent="";
+ if(!cs.length){$("pBody").innerHTML=`<p class="loc">${NOTYET()}</p>`+cta("not_found","");pop.hidden=false;return;}
+ const tot=cs.reduce((s,c)=>s+c.total,0),x=cs.reduce((s,c)=>s+c.pt[0],0)/cs.length,y=cs.reduce((s,c)=>s+c.pt[1],0)/cs.length;
+ flyTo(x,y,Math.max(cam.z,40),true);
+ $("pBody").innerHTML=bigCount(tot,L(`people came to Express from companies in ${k}`,`אנשים הגיעו לאקספרס מחברות ב${plc(k)}`))+`<div class="plist clist">${cs.map(c=>`<button class="li" type="button" data-k="${esc(c.key)}"><span>${esc(cn(c.name))}</span><em>${c.total}</em></button>`).join("")}</div>`+cta("city",k);
+ pop.querySelectorAll(".clist .li").forEach(b=>b.onclick=()=>openCompany(b.dataset.k,true));pop.hidden=false;});
+document.querySelectorAll(".tab").forEach(b=>b.onclick=()=>{document.querySelectorAll(".tab").forEach(x=>x.setAttribute("aria-selected",x===b?"true":"false"));for(const id of ["qCo","qProf","qCity"])$(id).hidden=id!==b.dataset.tab;const el=$(b.dataset.tab);el.focus({preventScroll:true});});
+function panel(){
+ $("sCo").innerHTML=companies.slice(0,16).map(c=>`<button class="li" type="button" data-k="${esc(c.key)}" aria-pressed="${coSel===c.key}"><span>${esc(cn(c.name))}</span><em>${c.total}</em></button>`).join("");
+ $("sCo").querySelectorAll(".li").forEach(b=>b.onclick=()=>{const k=b.dataset.k;if(coSel===k){setCo("");pop.hidden=true;}else openCompany(k,true);});
+}
+
+/* ---------- synthetic people from company totals (no real records on this page) ---------- */
+let lastRowsSig="",lastRows=null;
+function buildPublic(){
+ allTime={};for(const [k,v] of Object.entries(ALLC))if(v>=MIN_PUBLIC&&!PUBLIC_HIDE.has(k))allTime[k]=v;
+ people=[];for(const [name,n] of Object.entries(allTime))for(let i=0;i<n;i++){const id=name+"#"+i;people.push({id,name:"",co:name,coKey:name.toLowerCase(),c:["T","E","K","N"][hash(id)%4],zi:0,status:"",field:""});}
+ allPeople=people;
+}
+function render(){
+ buildPublic();layout();companies.forEach(c=>{c.people=people.filter(p=>p.coKey===c.key);});makeWalkers();if(RM.matches)stillDay();else for(const w of walkers)place(w,simH);
+ $("sub").textContent=L("People who came to Express, and the companies they came from. Where are you from?","הנה אנשים שהיו אצלנו, עם החברות שמהן הם הגיעו. מאיפה אתם?");
+ fillSearch();panel();dirty=true;
+ $("ctaMain").href="https://expressenglish.co.il/speakernew/?utm_source=expresscity&utm_medium=organic&utm_campaign=organic&utm_content=sticky&utm_term=none";
+ $("stats").innerHTML=L(`<b>${TOTAL_PEOPLE.toLocaleString("en-US")}</b> tech people, managers and business owners have been with us`,`עד היום היו אצלנו <b>${TOTAL_PEOPLE.toLocaleString("en-US")}</b> הייטקיסטים, מנהלים ואנשי עסקים`);
+}
+
+/* ---------- language ---------- */
+function applyLang(){
+ document.documentElement.lang=LANG;document.documentElement.dir=LANG==="he"?"rtl":"ltr";
+ document.querySelectorAll("[data-he]").forEach(el=>{const v=el.getAttribute("data-"+LANG);if(v==null)return;if(el.tagName==="H1")el.innerHTML=v.replace(/&lt;/g,"<").replace(/&gt;/g,">");else if(el.tagName==="INPUT")el.placeholder=v;else el.textContent=v;});
+ $("langTog").textContent=LANG==="he"?"English":"עברית";cv.style.direction="ltr";
+ render();if(!pop.hidden)pop.hidden=true;dirty=true;
+}
+$("langTog").onclick=()=>{LANG=LANG==="he"?"en":"he";try{localStorage.setItem("ec_lang",LANG);}catch(e){}applyLang();};
+
+new MutationObserver(()=>{$("ctaMain").hidden=!pop.hidden;}).observe(pop,{attributes:true,attributeFilter:["hidden"]});
+/* ---------- boot ---------- */
+let started=false;
+readColors();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change",readColors);
+new MutationObserver(readColors).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+new ResizeObserver(()=>{const keep={...cam};resize();if(started){cam=keep;cam.z=Math.max(zMin(),Math.min(zMax(),cam.z));}}).observe(cv.parentElement);
+RM.addEventListener("change",()=>{dirty=true;});
+applyLang();
+resize();fitDan(false);started=true;
+requestAnimationFrame(t=>{last=t;frame(t);});
+})();
+</script>
+
+
+</body></html>
