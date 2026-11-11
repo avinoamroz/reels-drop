@@ -48,8 +48,10 @@ def main(path=PATH):
             continue
         ep = int(d.timestamp())
         it["due_epoch"] = ep
-        b = (ep + 300 + 900) // 1800  # nearest Make run (runs at :25 and :55 Israel); Make uses floor((now+300)/1800)
-        it["posts_at"] = datetime.fromtimestamp(b * 1800 - 300, timezone(timedelta(hours=2))).strftime("%Y-%m-%d %H:%M")
+        # Make IG5 runs at :15 and :45 Israel (phase set when the scenario was last saved)
+        # and posts slot floor((now+300)/1800): the run at hh:15 posts bucket hh:00, hh:45 posts hh:30.
+        b = ep // 1800
+        it["posts_at"] = datetime.fromtimestamp(b * 1800 + 900 + 120, timezone(timedelta(hours=2))).strftime("%Y-%m-%d %H:%M")
         key = f"s{b}"
         slot = slots.setdefault(key, {})
         if it["account"] in slot:
