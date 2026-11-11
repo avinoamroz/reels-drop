@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Ask *Jordan.* Ask *Lebanon.*|Ask *Kuwait.*",
- "duration": 65.83,
+ "duration": 65.67,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -1.5
+  "lufs": -16.0,
+  "true_peak": -1.8
  },
  "outputs": {
   "mp4": "out/already_happened.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.952,
+  "score": 0.957,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -92,7 +92,7 @@
    },
    {
     "line": "They shot at the King, and blew up three hijacked airliners.",
-    "score": 0.909,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -101,12 +101,12 @@
     "flag": "ok"
    },
    {
-    "line": "Next stop: Lebanon. Its south became Fatahland.",
-    "score": 0.857,
+    "line": "Then Lebanon. Its south became Fatahland.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Then a civil war with many sides, the PLO among them.",
+    "line": "Civil war, many sides, the PLO among them.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -117,8 +117,8 @@
    },
    {
     "line": "Kuwait, nineteen ninety. Arafat backed Saddam Hussein's invasion.",
-    "score": 0.875,
-    "flag": "ok"
+    "score": 0.75,
+    "flag": "MISS"
    },
    {
     "line": "Families paid for that choice.",
@@ -166,23 +166,23 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ask Putin. Ask Lebanon. Ask Kuwait. Jordan, 1970. PLO factions built a state inside the state, shot at the king, and blew up three hijacked airliners. Jordan's army struck back, thousands died, many Palestinian civilians. By 71, the PLO was out. Next stop, Lebanon. Its south became fought a lot, then a civil war with many sides, the PLO among them. In 1982, after Israel invaded, it left Beirut by sea. Wait, 1990. Arafat backed Saddam Hussein's invasion. Families paid for that choice. Over 350,000 Palestinians lived there. By 92, under 50,000. Egypt said Gaza's tunnels served Sinai militants and flooded them in 2015. Gaza. Israel left in 2005. Two years later, Hamas took it by force. 161 killed in one week. Hamas. Sunni. but armed by Iran's Shia regime. Many Palestinians were victims of these groups too. Leave for peace. We've seen it. That's why Israel isn't leaving. Don't believe me?",
+  "heard": "Ask Jordan. Ask Lebanon. Ask, wait, Jordan 1970. PLO factions built a state inside the state. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died, many Palestinian civilians. By 71, the PLO was out. Then Lebanon. Its south became Fatahland. Civil War, many sides, the PLO among them. In 1982, after Israel invaded, it left Beirut by sea. Wait, 1990. Arafat backed Saddam Hussein's invasion. Families paid for that choice. Over 350,000 Palestinians lived there. By 92, under 50,000, Egypt said Gaza's tunnels served Sinai militants and flooded them in 2015, Gaza. Israel left in 2005. Two years later, Hamas took it by force. 161 killed in one week. Hamas. Sunni. But armed by Iran's Shia regime, many Palestinians were victims of these groups too. Leave for peace? We've seen it. That's why Israel isn't leaving. Don't believe me.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 64.33,
+ "body_s": 64.16,
  "opener": {
-  "style": "map_fold",
+  "style": "globe_spin_whip",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -2.0
+  "lufs": -16.1,
+  "true_peak": -1.9
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 199.3
+ "render_s": 198.0
 }

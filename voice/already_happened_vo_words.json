@@ -1,817 +1,797 @@
 [
 {
 "word": "Ask",
-"start": 0.27863947,
-"end": 0.57275885
+"start": 0.12383976,
+"end": 0.44891912
 },
 {
 "word": "Jordan.",
-"start": 0.57275885,
-"end": 1.021678
+"start": 0.44891912,
+"end": 0.9287982
 },
 {
 "word": "Ask",
-"start": 1.7492366,
-"end": 2.012396
+"start": 1.8575964,
+"end": 2.1517158
 },
 {
 "word": "Lebanon.",
-"start": 2.012396,
-"end": 2.585155
+"start": 2.1517158,
+"end": 2.631595
 },
 {
 "word": "Ask",
-"start": 3.1269538,
-"end": 3.4829931
+"start": 2.9411943,
+"end": 3.2043538
 },
 {
 "word": "Kuwait.",
-"start": 3.4829931,
-"end": 3.993832
+"start": 3.2043538,
+"end": 3.622313
 },
 {
 "word": "Jordan,",
-"start": 4.4737115,
-"end": 4.8452306
+"start": 4.613031,
+"end": 5.01551
 },
 {
 "word": "nineteen",
-"start": 4.8452306,
-"end": 5.2012696
+"start": 5.01551,
+"end": 5.4334693
 },
 {
 "word": "seventy.",
-"start": 5.2012696,
-"end": 5.681149
+"start": 5.4334693,
+"end": 5.9133487
 },
 {
 "word": "PLO",
-"start": 6.191988,
-"end": 6.640907
+"start": 6.6254272,
+"end": 7.0124264
 },
 {
 "word": "factions",
-"start": 6.640907,
-"end": 7.213666
+"start": 7.0124264,
+"end": 7.5542254
 },
 {
 "word": "built",
-"start": 7.213666,
-"end": 7.4458656
+"start": 7.5542254,
+"end": 7.8019047
 },
 {
 "word": "a",
-"start": 7.4458656,
-"end": 7.476825
-},
-{
-"word": "state",
-"start": 7.476825,
+"start": 7.8019047,
 "end": 7.863825
 },
 {
-"word": "inside",
+"word": "state",
 "start": 7.863825,
 "end": 8.219864
 },
 {
-"word": "the",
+"word": "inside",
 "start": 8.219864,
-"end": 8.281784
+"end": 8.575903
+},
+{
+"word": "the",
+"start": 8.575903,
+"end": 8.637823
 },
 {
 "word": "state.",
-"start": 8.281784,
-"end": 8.699743
+"start": 8.637823,
+"end": 9.024822
 },
 {
 "word": "They",
-"start": 8.978382,
-"end": 9.071262
+"start": 9.566622,
+"end": 9.690461
 },
 {
 "word": "shot",
-"start": 9.071262,
-"end": 9.365381
+"start": 9.690461,
+"end": 9.953621
 },
 {
 "word": "at",
-"start": 9.365381,
-"end": 9.4582615
+"start": 9.953621,
+"end": 10.0465
 },
 {
 "word": "the",
-"start": 9.4582615,
-"end": 9.551142
+"start": 10.0465,
+"end": 10.13938
 },
 {
 "word": "King,",
-"start": 9.551142,
-"end": 10.00006
+"start": 10.13938,
+"end": 10.55734
 },
 {
 "word": "and",
-"start": 10.06198,
-"end": 10.2013
+"start": 10.805018,
+"end": 11.006259
 },
 {
 "word": "blew",
-"start": 10.2013,
-"end": 10.38706
-},
-{
-"word": "up",
-"start": 10.38706,
-"end": 10.54186
-},
-{
-"word": "three",
-"start": 10.54186,
-"end": 10.805018
-},
-{
-"word": "hijacked",
-"start": 10.805018,
+"start": 11.006259,
 "end": 11.253938
 },
 {
-"word": "airliners.",
+"word": "up",
 "start": 11.253938,
-"end": 11.888617
-},
-{
-"word": "Jordan's",
-"start": 12.306576,
-"end": 12.693575
-},
-{
-"word": "army",
-"start": 12.693575,
-"end": 12.972215
-},
-{
-"word": "struck",
-"start": 12.972215,
-"end": 13.235374
-},
-{
-"word": "back.",
-"start": 13.235374,
-"end": 13.622374
-},
-{
-"word": "Thousands",
-"start": 14.195132,
-"end": 14.705972
-},
-{
-"word": "died,",
-"start": 14.705972,
-"end": 15.15489
-},
-{
-"word": "many",
-"start": 15.34065,
-"end": 15.6657295
-},
-{
-"word": "Palestinian",
-"start": 15.6657295,
-"end": 16.20753
-},
-{
-"word": "civilians.",
-"start": 16.20753,
-"end": 16.842207
-},
-{
-"word": "By",
-"start": 17.291126,
-"end": 17.399487
-},
-{
-"word": "seventy-one,",
-"start": 17.399487,
-"end": 18.219925
-},
-{
-"word": "the",
-"start": 18.250885,
-"end": 18.359243
-},
-{
-"word": "PLO",
-"start": 18.359243,
-"end": 18.761723
-},
-{
-"word": "was",
-"start": 18.761723,
-"end": 18.901043
-},
-{
-"word": "out.",
-"start": 18.901043,
-"end": 19.241602
-},
-{
-"word": "Next",
-"start": 19.721481,
-"end": 20.04656
-},
-{
-"word": "stop:",
-"start": 20.04656,
-"end": 20.43356
-},
-{
-"word": "Lebanon.",
-"start": 20.5574,
-"end": 21.06824
-},
-{
-"word": "Its",
-"start": 21.671957,
-"end": 21.842237
-},
-{
-"word": "south",
-"start": 21.842237,
-"end": 22.182796
-},
-{
-"word": "became",
-"start": 22.182796,
-"end": 22.476915
-},
-{
-"word": "Fatahland.",
-"start": 22.476915,
-"end": 23.049675
-},
-{
-"word": "Then",
-"start": 23.916553,
-"end": 24.102312
-},
-{
-"word": "a",
-"start": 24.102312,
-"end": 24.148752
-},
-{
-"word": "civil",
-"start": 24.148752,
-"end": 24.489311
-},
-{
-"word": "war",
-"start": 24.489311,
-"end": 24.721512
-},
-{
-"word": "with",
-"start": 24.721512,
-"end": 24.876312
-},
-{
-"word": "many",
-"start": 24.876312,
-"end": 25.09303
-},
-{
-"word": "sides,",
-"start": 25.09303,
-"end": 25.61935
-},
-{
-"word": "the",
-"start": 25.95991,
-"end": 26.08375
-},
-{
-"word": "PLO",
-"start": 26.08375,
-"end": 26.501709
-},
-{
-"word": "among",
-"start": 26.501709,
-"end": 26.764868
-},
-{
-"word": "them.",
-"start": 26.764868,
-"end": 26.950628
-},
-{
-"word": "In",
-"start": 27.972305,
-"end": 28.111626
-},
-{
-"word": "nineteen",
-"start": 28.111626,
-"end": 28.483145
-},
-{
-"word": "eighty-two,",
-"start": 28.483145,
-"end": 28.963024
-},
-{
-"word": "after",
-"start": 28.963024,
-"end": 29.226183
-},
-{
-"word": "Israel",
-"start": 29.226183,
-"end": 29.582222
-},
-{
-"word": "invaded,",
-"start": 29.582222,
-"end": 30.062101
-},
-{
-"word": "it",
-"start": 30.30978,
-"end": 30.43362
-},
-{
-"word": "left",
-"start": 30.43362,
-"end": 30.69678
-},
-{
-"word": "Beirut",
-"start": 30.69678,
-"end": 31.05282
-},
-{
-"word": "by",
-"start": 31.05282,
-"end": 31.176659
-},
-{
-"word": "sea.",
-"start": 31.176659,
-"end": 31.563658
-},
-{
-"word": "Kuwait,",
-"start": 32.384098,
-"end": 32.972336
-},
-{
-"word": "nineteen",
-"start": 33.421253,
-"end": 33.823734
-},
-{
-"word": "ninety.",
-"start": 33.823734,
-"end": 34.24169
-},
-{
-"word": "Arafat",
-"start": 35.07761,
-"end": 35.55749
-},
-{
-"word": "backed",
-"start": 35.55749,
-"end": 35.94449
-},
-{
-"word": "Saddam",
-"start": 35.94449,
-"end": 36.30053
-},
-{
-"word": "Hussein's",
-"start": 36.30053,
-"end": 36.703007
-},
-{
-"word": "invasion.",
-"start": 36.703007,
-"end": 37.151928
-},
-{
-"word": "Families",
-"start": 37.864006,
-"end": 38.281963
-},
-{
-"word": "paid",
-"start": 38.281963,
-"end": 38.498684
-},
-{
-"word": "for",
-"start": 38.498684,
-"end": 38.591564
-},
-{
-"word": "that",
-"start": 38.591564,
-"end": 38.730885
-},
-{
-"word": "choice.",
-"start": 38.730885,
-"end": 39.210762
-},
-{
-"word": "Over",
-"start": 39.876404,
-"end": 40.12408
+"end": 11.393258
 },
 {
 "word": "three",
-"start": 40.12408,
-"end": 40.35628
+"start": 11.424217,
+"end": 11.780257
 },
 {
-"word": "hundred",
-"start": 40.35628,
-"end": 40.603962
+"word": "hijacked",
+"start": 11.780257,
+"end": 12.275616
 },
 {
-"word": "fifty",
-"start": 40.603962,
-"end": 40.89808
+"word": "airliners.",
+"start": 12.275616,
+"end": 12.863854
 },
 {
-"word": "thousand",
-"start": 40.89808,
-"end": 41.31604
+"word": "Jordan's",
+"start": 13.343734,
+"end": 13.730733
 },
 {
-"word": "Palestinians",
-"start": 41.31604,
-"end": 41.981678
+"word": "army",
+"start": 13.730733,
+"end": 14.009373
 },
 {
-"word": "lived",
-"start": 41.981678,
-"end": 42.21388
+"word": "struck",
+"start": 14.009373,
+"end": 14.303492
 },
 {
-"word": "there.",
-"start": 42.21388,
-"end": 42.554436
+"word": "back.",
+"start": 14.303492,
+"end": 14.675012
+},
+{
+"word": "Thousands",
+"start": 15.17037,
+"end": 15.68121
+},
+{
+"word": "died,",
+"start": 15.68121,
+"end": 16.161089
+},
+{
+"word": "many",
+"start": 16.22301,
+"end": 16.532608
+},
+{
+"word": "Palestinian",
+"start": 16.532608,
+"end": 17.105366
+},
+{
+"word": "civilians.",
+"start": 17.105366,
+"end": 17.631685
 },
 {
 "word": "By",
-"start": 42.972397,
-"end": 43.173637
+"start": 18.034164,
+"end": 18.173485
 },
 {
-"word": "ninety-two,",
-"start": 43.173637,
-"end": 43.932156
+"word": "seventy-one,",
+"start": 18.173485,
+"end": 18.932003
 },
 {
-"word": "under",
-"start": 44.381073,
-"end": 44.613274
+"word": "the",
+"start": 19.164202,
+"end": 19.319002
 },
 {
-"word": "fifty",
-"start": 44.613274,
-"end": 44.89191
+"word": "PLO",
+"start": 19.319002,
+"end": 19.767921
 },
 {
-"word": "thousand.",
-"start": 44.89191,
-"end": 45.24795
+"word": "was",
+"start": 19.767921,
+"end": 19.922722
 },
 {
-"word": "Egypt",
-"start": 46.23867,
-"end": 46.594707
+"word": "out.",
+"start": 19.922722,
+"end": 20.2478
 },
 {
-"word": "said",
-"start": 46.594707,
-"end": 46.811428
+"word": "Then",
+"start": 20.820559,
+"end": 21.0218
 },
 {
-"word": "Gaza's",
-"start": 46.811428,
-"end": 47.16747
+"word": "Lebanon.",
+"start": 21.0218,
+"end": 21.455238
 },
 {
-"word": "tunnels",
-"start": 47.16747,
-"end": 47.554466
+"word": "Its",
+"start": 22.414997,
+"end": 22.616236
 },
 {
-"word": "served",
-"start": 47.554466,
-"end": 47.833107
+"word": "south",
+"start": 22.616236,
+"end": 22.972275
 },
 {
-"word": "Sinai",
-"start": 47.833107,
-"end": 48.158184
+"word": "became",
+"start": 22.972275,
+"end": 23.312834
 },
 {
-"word": "militants,",
-"start": 48.158184,
-"end": 48.761906
+"word": "Fatahland.",
+"start": 23.312834,
+"end": 23.885593
 },
 {
-"word": "and",
-"start": 49.272743,
-"end": 49.473984
+"word": "Civil",
+"start": 25.108511,
+"end": 25.52647
 },
 {
-"word": "flooded",
-"start": 49.473984,
-"end": 49.81454
+"word": "war,",
+"start": 25.52647,
+"end": 26.03731
 },
 {
-"word": "them",
-"start": 49.81454,
-"end": 49.9229
+"word": "many",
+"start": 26.13019,
+"end": 26.455269
 },
 {
-"word": "in",
-"start": 49.9229,
-"end": 50.01578
+"word": "sides,",
+"start": 26.455269,
+"end": 26.966106
 },
 {
-"word": "twenty",
-"start": 50.01578,
-"end": 50.232502
+"word": "the",
+"start": 27.213787,
+"end": 27.322147
 },
 {
-"word": "fifteen.",
-"start": 50.232502,
-"end": 50.74334
+"word": "PLO",
+"start": 27.322147,
+"end": 27.755587
 },
 {
-"word": "Gaza:",
-"start": 51.7031,
-"end": 52.15202
+"word": "among",
+"start": 27.755587,
+"end": 27.987785
+},
+{
+"word": "them.",
+"start": 27.987785,
+"end": 28.173546
+},
+{
+"word": "In",
+"start": 28.916584,
+"end": 29.040422
+},
+{
+"word": "nineteen",
+"start": 29.040422,
+"end": 29.396463
+},
+{
+"word": "eighty-two,",
+"start": 29.396463,
+"end": 30.062101
+},
+{
+"word": "after",
+"start": 30.170462,
+"end": 30.48006
 },
 {
 "word": "Israel",
-"start": 52.600937,
-"end": 52.987938
+"start": 30.48006,
+"end": 30.74322
 },
 {
-"word": "left",
-"start": 52.987938,
-"end": 53.220135
-},
-{
-"word": "in",
-"start": 53.220135,
-"end": 53.313015
-},
-{
-"word": "two",
-"start": 53.313015,
-"end": 53.436855
-},
-{
-"word": "thousand",
-"start": 53.436855,
-"end": 53.730976
-},
-{
-"word": "five.",
-"start": 53.730976,
-"end": 54.164413
-},
-{
-"word": "Two",
-"start": 54.443054,
-"end": 54.644295
-},
-{
-"word": "years",
-"start": 54.644295,
-"end": 54.92293
-},
-{
-"word": "later,",
-"start": 54.92293,
-"end": 55.248013
-},
-{
-"word": "HAMAS",
-"start": 55.278973,
-"end": 55.63501
-},
-{
-"word": "took",
-"start": 55.63501,
-"end": 55.78981
+"word": "invaded,",
+"start": 30.74322,
+"end": 31.315979
 },
 {
 "word": "it",
-"start": 55.78981,
-"end": 55.88269
+"start": 31.47078,
+"end": 31.641058
+},
+{
+"word": "left",
+"start": 31.641058,
+"end": 31.919697
+},
+{
+"word": "Beirut",
+"start": 31.919697,
+"end": 32.337658
 },
 {
 "word": "by",
-"start": 55.88269,
-"end": 55.99105
+"start": 32.337658,
+"end": 32.4615
 },
 {
-"word": "force.",
-"start": 55.99105,
-"end": 56.47093
+"word": "sea.",
+"start": 32.4615,
+"end": 32.910416
 },
 {
-"word": "A",
-"start": 56.98177,
-"end": 57.07465
+"word": "Kuwait,",
+"start": 33.297417,
+"end": 33.870174
 },
 {
-"word": "hundred",
-"start": 57.07465,
-"end": 57.399727
+"word": "nineteen",
+"start": 33.963055,
+"end": 34.411972
 },
 {
-"word": "sixty-one",
-"start": 57.399727,
-"end": 58.127285
+"word": "ninety.",
+"start": 34.411972,
+"end": 34.829933
 },
 {
-"word": "killed",
-"start": 58.638126,
-"end": 58.963203
+"word": "Arafat",
+"start": 35.95997,
+"end": 36.50177
 },
 {
-"word": "in",
-"start": 58.963203,
-"end": 59.056084
+"word": "backed",
+"start": 36.50177,
+"end": 36.857807
 },
 {
-"word": "one",
-"start": 59.056084,
-"end": 59.272804
+"word": "Saddam",
+"start": 36.857807,
+"end": 37.26029
 },
 {
-"word": "week.",
-"start": 59.272804,
-"end": 59.597885
+"word": "Hussein's",
+"start": 37.26029,
+"end": 37.647285
 },
 {
-"word": "HAMAS:",
-"start": 60.263523,
-"end": 60.8208
+"word": "invasion.",
+"start": 37.647285,
+"end": 38.158127
 },
 {
-"word": "Sunni,",
-"start": 61.48644,
-"end": 61.96632
+"word": "Families",
+"start": 39.14884,
+"end": 39.597763
 },
 {
-"word": "but",
-"start": 62.570038,
-"end": 62.7558
-},
-{
-"word": "armed",
-"start": 62.7558,
-"end": 62.987995
-},
-{
-"word": "by",
-"start": 62.987995,
-"end": 63.111835
-},
-{
-"word": "Iran's",
-"start": 63.111835,
-"end": 63.436916
-},
-{
-"word": "Shi'a",
-"start": 63.436916,
-"end": 63.653637
-},
-{
-"word": "regime.",
-"start": 63.653637,
-"end": 64.009674
-},
-{
-"word": "Many",
-"start": 64.520515,
-"end": 64.783676
-},
-{
-"word": "Palestinians",
-"start": 64.783676,
-"end": 65.41835
-},
-{
-"word": "were",
-"start": 65.41835,
-"end": 65.54219
-},
-{
-"word": "victims",
-"start": 65.54219,
-"end": 65.89823
-},
-{
-"word": "of",
-"start": 65.89823,
-"end": 65.99111
-},
-{
-"word": "these",
-"start": 65.99111,
-"end": 66.16139
-},
-{
-"word": "groups",
-"start": 66.16139,
-"end": 66.40907
-},
-{
-"word": "too.",
-"start": 66.40907,
-"end": 66.734146
-},
-{
-"word": "Leave",
-"start": 67.30691,
-"end": 67.55459
+"word": "paid",
+"start": 39.597763,
+"end": 39.799004
 },
 {
 "word": "for",
-"start": 67.55459,
-"end": 67.69391
+"start": 39.799004,
+"end": 39.92284
 },
 {
-"word": "peace?",
-"start": 67.69391,
-"end": 68.11187
+"word": "that",
+"start": 39.92284,
+"end": 40.07764
 },
 {
-"word": "We've",
-"start": 68.839424,
-"end": 69.071625
+"word": "choice.",
+"start": 40.07764,
+"end": 40.55752
 },
 {
-"word": "seen",
-"start": 69.071625,
-"end": 69.288345
+"word": "Over",
+"start": 41.00644,
+"end": 41.23864
 },
 {
-"word": "it.",
-"start": 69.288345,
-"end": 69.474106
+"word": "three",
+"start": 41.23864,
+"end": 41.48632
 },
 {
-"word": "That's",
-"start": 69.98494,
-"end": 70.2481
+"word": "hundred",
+"start": 41.48632,
+"end": 41.749477
 },
 {
-"word": "why",
-"start": 70.2481,
-"end": 70.43386
+"word": "fifty",
+"start": 41.749477,
+"end": 42.02812
+},
+{
+"word": "thousand",
+"start": 42.02812,
+"end": 42.3532
+},
+{
+"word": "Palestinians",
+"start": 42.3532,
+"end": 42.956917
+},
+{
+"word": "lived",
+"start": 42.956917,
+"end": 43.158157
+},
+{
+"word": "there.",
+"start": 43.158157,
+"end": 43.436794
+},
+{
+"word": "By",
+"start": 44.241753,
+"end": 44.396553
+},
+{
+"word": "ninety-two,",
+"start": 44.396553,
+"end": 45.04671
+},
+{
+"word": "under",
+"start": 45.10863,
+"end": 45.32535
+},
+{
+"word": "fifty",
+"start": 45.32535,
+"end": 45.619473
+},
+{
+"word": "thousand.",
+"start": 45.619473,
+"end": 46.03743
+},
+{
+"word": "Egypt",
+"start": 46.96623,
+"end": 47.337746
+},
+{
+"word": "said",
+"start": 47.337746,
+"end": 47.538986
+},
+{
+"word": "Gaza's",
+"start": 47.538986,
+"end": 47.925987
+},
+{
+"word": "tunnels",
+"start": 47.925987,
+"end": 48.467785
+},
+{
+"word": "served",
+"start": 48.529705,
+"end": 48.870266
+},
+{
+"word": "Sinai",
+"start": 48.870266,
+"end": 49.164383
+},
+{
+"word": "militants,",
+"start": 49.164383,
+"end": 49.83002
+},
+{
+"word": "and",
+"start": 50.03126,
+"end": 50.217022
+},
+{
+"word": "flooded",
+"start": 50.217022,
+"end": 50.573063
+},
+{
+"word": "them",
+"start": 50.573063,
+"end": 50.6969
+},
+{
+"word": "in",
+"start": 50.6969,
+"end": 50.78978
+},
+{
+"word": "twenty",
+"start": 50.78978,
+"end": 51.02198
+},
+{
+"word": "fifteen.",
+"start": 51.02198,
+"end": 51.532818
+},
+{
+"word": "Gaza:",
+"start": 52.492577,
+"end": 52.910538
 },
 {
 "word": "Israel",
-"start": 70.43386,
-"end": 70.72798
+"start": 53.669056,
+"end": 53.994133
+},
+{
+"word": "left",
+"start": 53.994133,
+"end": 54.241814
+},
+{
+"word": "in",
+"start": 54.241814,
+"end": 54.319214
+},
+{
+"word": "two",
+"start": 54.319214,
+"end": 54.443054
+},
+{
+"word": "thousand",
+"start": 54.443054,
+"end": 54.76813
+},
+{
+"word": "five.",
+"start": 54.76813,
+"end": 55.170612
+},
+{
+"word": "Two",
+"start": 55.86721,
+"end": 56.06845
+},
+{
+"word": "years",
+"start": 56.06845,
+"end": 56.31613
+},
+{
+"word": "later,",
+"start": 56.31613,
+"end": 56.76505
+},
+{
+"word": "HAMAS",
+"start": 57.15205,
+"end": 57.539047
+},
+{
+"word": "took",
+"start": 57.539047,
+"end": 57.693848
+},
+{
+"word": "it",
+"start": 57.693848,
+"end": 57.786728
+},
+{
+"word": "by",
+"start": 57.786728,
+"end": 57.87961
+},
+{
+"word": "force.",
+"start": 57.87961,
+"end": 58.390446
+},
+{
+"word": "A",
+"start": 59.551445,
+"end": 59.613365
+},
+{
+"word": "hundred",
+"start": 59.613365,
+"end": 59.969402
+},
+{
+"word": "sixty-one",
+"start": 59.969402,
+"end": 60.5112
+},
+{
+"word": "killed",
+"start": 60.5112,
+"end": 60.8208
+},
+{
+"word": "in",
+"start": 60.8208,
+"end": 60.8982
+},
+{
+"word": "one",
+"start": 60.8982,
+"end": 61.053
+},
+{
+"word": "week.",
+"start": 61.053,
+"end": 61.40904
+},
+{
+"word": "HAMAS:",
+"start": 62.291397,
+"end": 62.80224
+},
+{
+"word": "Sunni,",
+"start": 63.297596,
+"end": 63.777477
+},
+{
+"word": "but",
+"start": 64.412155,
+"end": 64.566956
+},
+{
+"word": "armed",
+"start": 64.566956,
+"end": 64.83012
+},
+{
+"word": "by",
+"start": 64.83012,
+"end": 64.95396
+},
+{
+"word": "Iran's",
+"start": 64.95396,
+"end": 65.30999
+},
+{
+"word": "Shi'a",
+"start": 65.30999,
+"end": 65.61959
+},
+{
+"word": "regime.",
+"start": 65.61959,
+"end": 66.00659
+},
+{
+"word": "Many",
+"start": 66.749626,
+"end": 67.05923
+},
+{
+"word": "Palestinians",
+"start": 67.05923,
+"end": 67.67843
+},
+{
+"word": "were",
+"start": 67.67843,
+"end": 67.80227
+},
+{
+"word": "victims",
+"start": 67.80227,
+"end": 68.12735
+},
+{
+"word": "of",
+"start": 68.12735,
+"end": 68.18927
+},
+{
+"word": "these",
+"start": 68.18927,
+"end": 68.34406
+},
+{
+"word": "groups",
+"start": 68.34406,
+"end": 68.57626
+},
+{
+"word": "too.",
+"start": 68.57626,
+"end": 68.885864
+},
+{
+"word": "Leave",
+"start": 69.81467,
+"end": 70.04686
+},
+{
+"word": "for",
+"start": 70.04686,
+"end": 70.20166
+},
+{
+"word": "peace?",
+"start": 70.20166,
+"end": 70.65058
+},
+{
+"word": "We've",
+"start": 71.4091,
+"end": 71.67226
+},
+{
+"word": "seen",
+"start": 71.67226,
+"end": 71.91994
+},
+{
+"word": "it.",
+"start": 71.91994,
+"end": 71.9509
+},
+{
+"word": "That's",
+"start": 72.81778,
+"end": 73.08094
+},
+{
+"word": "why",
+"start": 73.08094,
+"end": 73.23574
+},
+{
+"word": "Israel",
+"start": 73.23574,
+"end": 73.622734
 },
 {
 "word": "isn't",
-"start": 70.72798,
-"end": 70.9447
+"start": 73.622734,
+"end": 73.839455
 },
 {
 "word": "leaving.",
-"start": 70.9447,
-"end": 71.26978
+"start": 73.839455,
+"end": 74.133575
 },
 {
 "word": "Don't",
-"start": 71.5639,
-"end": 71.81158
+"start": 74.67538,
+"end": 74.90757
 },
 {
 "word": "believe",
-"start": 71.81158,
-"end": 72.01282
+"start": 74.90757,
+"end": 75.15525
 },
 {
 "word": "me?",
-"start": 72.01282,
-"end": 72.22954
+"start": 75.15525,
+"end": 75.31005
 }
 ]
