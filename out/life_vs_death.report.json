@@ -111,12 +111,12 @@
    },
    {
     "line": "Under Gaza, HAMAS says it dug five hundred kilometres of tunnels.",
-    "score": 0.818,
+    "score": 0.909,
     "flag": "ok"
    },
    {
     "line": "Asked why HAMAS built no bomb shelters, a senior official answered:",
-    "score": 0.909,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -136,12 +136,12 @@
    },
    {
     "line": "And Yahya Sinwar's messages, reported by the Wall Street Journal: civilian deaths are necessary sacrifices.",
-    "score": 1.0,
+    "score": 0.933,
     "flag": "ok"
    },
    {
     "line": "One sees this life as worth protecting.",
-    "score": 1.0,
+    "score": 0.857,
     "flag": "ok"
    },
    {
@@ -155,7 +155,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "One protects lives. One spends them. Two fighters. Two ideas about life. The Israeli soldier, his army's code says, above all, preserve human life. He risks his life so others can live. His country built shelters, required by law since 1951. Since the 90s, a safe room in every new apartment. Now, the other side. Under Gaza, Hemas says it dug 500 kilometers of tunnels. Asked why Hemas built no-bomb shelters, a senior official answered, These tunnels are meant to protect us from the airplanes. And civilians? The responsibility of the United Nations. On Hamas TV, another official said, we desire death like you desire life. In Yahya Sinwar's messages, reported by the Wall Street Journal, civilian deaths are necessary sacrifices. One sees this life as worth protecting. The other gambles everyone's life on a maybe. One side builds shelters for its people. The other builds tunnels for its fighters.",
+  "heard": "One protects lives, one spends them, two fighters, two ideas about life. The Israeli soldier, his army's code says, above all, preserve human life. He risks his life so others can live. His country built shelters, required by law since 1951. Since the 90s, a safe room in every new apartment. Now, the other side. Under Gaza, Hamas says it dug 500 kilometers of tunnels. Asked why Hamas built no bomb shelters, a senior official answered, These tunnels are meant to protect us from the airplanes and civilians the responsibility of the United Nations On Hamas TV another official said we desire death like you desire life and yahya sinwars messages Reported by the Wall Street Journal civilian deaths are necessary sacrifices One sees this life as a worth protected the other gambles everyone's life on a maybe One side builds shelters for its people the other builds tunnels for its fighters",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -167,5 +167,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 119.3
+ "render_s": 92.7
 }
