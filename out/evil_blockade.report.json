@@ -1,0 +1,245 @@
+{
+ "id": "evil_blockade",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Evil Israel|blockades Gaza.|*Watch.*",
+ "duration": 60.73,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/evil_blockade.mp4",
+  "cover": "covers/evil_blockade_cover.jpg",
+  "preview": "previews/evil_blockade_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/evil_blockade_0.jpg",
+  "1": "out/frames/evil_blockade_1.jpg",
+  "3": "out/frames/evil_blockade_3.jpg",
+  "last": "out/frames/evil_blockade_last.jpg"
+ },
+ "caption_en": "Evil Israel blockades Gaza. Watch. 🚚🚚🚚\n\nThe October 2025 ceasefire deal: 600 aid trucks a day (Reuters, citing Israeli officials). From 10 Oct 2025 to 7 Jun 2026, COGAT counted about 1.78 million tons of food into Gaza.\n\nPer person: 1,780,000,000 kg ÷ 241 days ÷ 2.1 million people (PCBS estimate) ≈ 3.5 kg of food per person, per day. Our arithmetic on COGAT's figures. The UN counts fewer trucks (its tally covers aid moved through UN channels), and an AP analysis of Israeli figures found about 459 trucks a day from 12 Oct to 7 Dec 2025.\n\nHAMAS, Gaza's rulers since 2007, on why its tunnels don't shelter civilians: \"It is the responsibility of the United Nations to protect them.\" (Mousa Abu Marzouk, RT, 27 Oct 2023, MEMRI translation)\n\nPolio, Sept 2024: daily 9 hour pauses in the fighting, agreed by Israel (and HAMAS), so 558,963 children under 10 could be vaccinated (WHO, UNICEF).\nWater: Israel cut supply on 9 Oct 2023 and reopened the first pipe to southern Gaza on 15 Oct 2023.\nPower: a line from Israel to the Deir al-Balah desalination plant was reconnected in Nov 2024. Israel cut it again in March 2025.\n\nEgypt: the Rafah crossing was open 36 days in all of 2017 (OCHA). Egypt also sent aid through Rafah.\n\nThat is not a blockade. That is sponsorship. Gaza's people deserve better than HAMAS.\n\nSources: Reuters (Oct 2025); COGAT, Humanitarian Situation Report during the ceasefire (Jul 2026); PCBS (Dec 2024); AP (Dec 2025); MEMRI Special Dispatch 10917 (Oct 2023); WHO and UNICEF (13 Sep 2024); AFP (Oct 2023, Dec 2024); OCHA (2018).\nPhotos: U.S. Army (Sgt. 1st Class Malcolm Cohens-Ashley, Staff Sgt. Michael Ito, Spc. Aiden Griffitts) and U.S. Air Force (Senior Airman Lauren Jacoby), public domain; Israel Defense Forces, CC BY-SA 2.0; Mattes, public domain (illustrative power line); Jaber Jehad Badwan, CC BY-SA 4.0; all via Wikimedia Commons. AI voice.\n\nSend this to someone who says blockade.",
+ "caption_he": "ישראל המרושעת מטילה מצור על עזה. תראו.\n\nהסכם הפסקת האש (אוקטובר 2025): 600 משאיות סיוע ביום. מ־10 באוקטובר 2025 עד 7 ביוני 2026 ספר מתפ\"ש כ־1.78 מיליון טונות מזון שנכנסו לעזה.\n\nלכל אדם: 1.78 מיליון טון, חלקי 241 ימים, חלקי 2.1 מיליון תושבים = כ־3.5 ק\"ג מזון לאדם ליום. החישוב שלנו לפי נתוני מתפ\"ש. האו\"ם סופר פחות משאיות (רק סיוע שעובר בערוצי האו\"ם).\n\nחמאס, השלטון בעזה מאז 2007, על המנהרות שלא מגינות על אזרחים: \"זו האחריות של האו\"ם להגן עליהם\" (מוסא אבו מרזוק, אוקטובר 2023).\n\nפוליו, ספטמבר 2024: הפוגות של 9 שעות ביום בלחימה, ו־558,963 ילדים חוסנו.\nמים: צינור ראשון נפתח מחדש ב־15 באוקטובר 2023.\nחשמל: קו למתקן ההתפלה בדיר אל־בלח חובר מחדש בנובמבר 2024 (ונותק שוב במרץ 2025).\n\nומצרים? מעבר רפיח היה פתוח 36 ימים בכל 2017. מצרים גם שלחה סיוע דרך רפיח.\n\nזה לא מצור. זו חסות. לתושבי עזה מגיע יותר מחמאס.\n\nשלחו את זה למי שאומר \"מצור\".",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Reuters, citing Israeli officials",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "COGAT report, Jul 2026",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5-0.1"
+  },
+  {
+   "label": "COGAT 2026; PCBS population 2.1M; our math",
+   "year": 2026,
+   "at": "L5",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "MEMRI translation, Special Dispatch 10917",
+   "year": 2023,
+   "at": "L8",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "WHO, UNICEF",
+   "year": 2024,
+   "at": "L9",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "Israel Energy Ministry via AFP",
+   "year": 2023,
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "UNICEF via AFP",
+   "year": 2024,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "OCHA, Gaza crossings",
+   "year": 2018,
+   "at": "L14:rafah",
+   "until": "L15-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.973,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Evil Israel blockades Gaza. Watch.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Here is the blockade.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Trucks. More trucks. Even more trucks.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The ceasefire deal: six hundred aid trucks a day.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "By June: one point seven eight million tons of food.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "How much is that per person?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About three and a half kilos. Per person. Per day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Why? Because HAMAS, their own government, says this.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It is the responsibility of the United Nations to protect them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So evil Israel paused the fighting. Nine hours a day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And over half a million kids got polio vaccines.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Water? A pipe reopened one week into the war.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Power? A line to Gaza's water plant, reconnected.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yes. This is how Israel blockades Gaza.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Oh, and Egypt blockades Gaza too. Rafah, in twenty seventeen? Open thirty-six days.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "That is not a blockade. That is sponsorship.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Many countries would love to be blockaded like this.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So yes. Evil Israel blockades Gaza.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Evil Israel blockades Gaza. Watch. Here is the blockade. Trucks. More trucks. Even more trucks. The ceasefire deal? 680 trucks a day. By June, 1.78 million tons of food. How much is that per person? About three and a half kilos. Per person. Per day. Why? Because Hamas, their own government, says this. It is the responsibility of the United Nations to protect them. So Evil Israel paused the fighting, 9 hours a day, and over half a million kids got polio vaccines. Water? A pipe re-opened one week into the war. Power? A line to Gaza's water plant reconnected. Yes. This is how Israel blockades Gaza. Oh, and Egypt blockades Gaza too. Rafah, in 2017, opened 36 days. That is not a blockade. That is sponsorship. Many countries would love to be blockaded like this. So yes, evil israel blockades Gaza",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/evil_blockade/ks_sign.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/zk_check.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/zk3.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/zk1.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/kis.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/ks_wait.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/ks_fork.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/drop.jpg",
+   "credit": "U.S. Air Force, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/tun1.jpg",
+   "credit": "IDF, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/evil_blockade/pow1.jpg",
+   "credit": "Mattes, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/evil_blockade/zk1.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/raf2.jpg",
+   "credit": "J. J. Badwan, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/evil_blockade/zk3.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
+   "file": "templates/photos/evil_blockade/ks_sign.jpg",
+   "credit": "U.S. Army, public domain"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 173.6
+}
