@@ -70,7 +70,7 @@
    "until": "L13-0.1"
   },
   {
-   "label": "US State Dept terrorism report; Haniyeh on Press TV",
+   "label": "US State Dept",
    "year": 2021,
    "at": "L13",
    "until": "L14-0.1"
@@ -166,7 +166,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ask Jordan. Ask Lebanon. Ask Kuwait. Jordan 1970. PLO factions built a state inside the state. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died. Many Palestinian civilians. By 71, the PLO was out. Then Lebanon. Its south became Fatala. Civil war many sides. The PLO among them. In 1982, after Israel invaded, it left Beirut by sea. From Kuwait, 1990, Arafat backed Saddam Hussein's invasion, and families paid for that choice. Over 350,000 Palestinians lived there, by 92 under 50,000. Egypt set Gaza's tunnels, served Sinai militants, and flooded them in 2015. Gaza. Israel left in 2005. Two years later, Hamas took it by force. 161 killed in one week. Hamas. Sunni, but armed by Iran's Shia regime. Many Palestinians were victims of these groups too. Leave for peace? We've seen it. That's why Israel isn't leaving. Don't believe me?",
+  "heard": "Ask Jordan. Ask Lebanon. Ask Kuwait. Jordan 1970. PLO factions built a state inside the state. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died. Many Palestinian civilians. By 71, the PLO was out. Then Lebanon. Its south became Fatala. Civil war many sides. The PLO among them. In 1982, after Israel invaded, it left Beirut by sea. From Kuwait, 1990, Arafat backed Saddam Hussein's invasion, and families paid for that choice. Over 350,000 Palestinians lived there, by 92 under 50,000. Egypt set Gaza's tunnels, served Sinai militants, and flooded them in 2015. Gaza. Israel left in 2005. Two years later, Hamas took it by force, 161 killed in one week. Hamas. Sunni, but armed by Iran's Shia regime. Many Palestinians were victims of these groups too. Leave for peace? We've seen it. That's why Israel isn't leaving. Don't believe me?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -184,5 +184,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 259.6
+ "render_s": 264.3
 }
