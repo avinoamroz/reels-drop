@@ -25,7 +25,7 @@
    "gap": 0.4
   },
   {
-   "say": "Same faith: build, or destroy. Watch.",
+   "say": "Same faith: build, or destroy.",
    "screen": "Same faith: *build* or *destroy?*",
    "until": "L2-0.1",
    "gap": 0.3
@@ -73,7 +73,7 @@
    "until": "L9-0.1"
   },
   {
-   "say": "Less than three weeks later, Israel's government outlawed Kach as a terror group.",
+   "say": "Within three weeks, Israel's government outlawed Kach as a terror group.",
    "screen": "Israel *outlawed* Kach as a terror group",
    "screen_icon": "⚖️",
    "until": "L10-0.1",
@@ -92,7 +92,7 @@
    "gap": 0.35
   },
   {
-   "say": "The result? Norway, the UAE and Israel are all in the world's top thirty for human development."
+   "say": "Norway, the UAE and Israel are all in the world's top thirty for human development."
   },
   {
    "say": "The Lord's Resistance Army left over a hundred thousand dead.",
@@ -188,7 +188,7 @@
   "icons": [
    {
     "at": "L2:probe",
-    "until": "L4",
+    "until": "L3",
     "lon": 54.4,
     "lat": 24.45,
     "emo": "🚀",
@@ -198,7 +198,7 @@
    },
    {
     "at": "L5:norway",
-    "until": "L6",
+    "until": "L6-0.3",
     "lon": 10.75,
     "lat": 59.91,
     "emo": "🕊️",
@@ -208,7 +208,7 @@
    },
    {
     "at": "L7:number",
-    "until": "L10",
+    "until": "L8",
     "lon": 34.78,
     "lat": 32.08,
     "emo": "🔬",
@@ -401,7 +401,7 @@
  "end": {
   "at": "L14",
   "balance": "Every faith has *builders* and *destroyers.*",
-  "cta": "Send this to a friend of another faith"
+  "cta": "Send to a friend of another faith"
  },
  "caption_en": "Same faith. Opposite choices. 🕊️\n\nIslam: the UAE put the Hope probe into Mars orbit (9 Feb 2021). ISIS blew up the 2,000 year old Temple of Bel in Palmyra (Aug 2015, confirmed by UN satellite images).\nChristianity: Norway ranks 2nd of 193 countries in human development (UNDP 2025). The Lord's Resistance Army in Uganda, which claimed to fight in God's name, abducted 60,000 to 100,000 children (UN Secretary-General, 2013).\nJudaism: Israel is 1st in the world in research spending, 6.35% of GDP (WIPO 2025). In 1994 a Kach extremist murdered 29 Muslim worshippers in Hebron, and Israel's government outlawed Kach and Kahane Chai as terror groups within three weeks.\n\nNorway, the UAE and Israel are all in the world's top 30 for human development (2, 15 and 27 of 193). The LRA alone is responsible for more than 100,000 deaths (UN, 2013).\n\nNo faith is the problem. Every faith has builders and destroyers. The difference is the choice.\n\nSend this to a friend of another faith.",
  "caption_he": "אותה אמונה. בחירות הפוכות. 🕊️\n\nאיסלאם: איחוד האמירויות הכניס את גשושית Hope למסלול סביב מאדים (9.2.2021). דאעש פוצץ את מקדש בל בן 2,000 השנים בפלמירה (אוגוסט 2015, אושר בתצלומי לוויין של האו\"ם).\nנצרות: נורווגיה במקום השני מתוך 193 מדינות במדד הפיתוח האנושי (האו\"ם, 2025). \"צבא ההתנגדות של האל\" באוגנדה, שטען שהוא נלחם בשם אלוהים, חטף בין 60,000 ל-100,000 ילדים (מזכ\"ל האו\"ם, 2013).\nיהדות: ישראל במקום הראשון בעולם בהשקעה במחקר ופיתוח, 6.35% מהתוצר (WIPO, 2025). ב-1994 קיצוני מתנועת כך רצח 29 מתפללים מוסלמים בחברון, והממשלה הוציאה את כך ואת כהנא חי מחוץ לחוק כארגוני טרור תוך שלושה שבועות.\n\nנורווגיה, האמירויות וישראל כולן ב-30 הראשונות בעולם בפיתוח אנושי. ה-LRA לבדו אחראי ליותר מ-100,000 הרוגים.\n\nאף אמונה היא לא הבעיה. בכל אמונה יש בונים ויש הורסים. ההבדל הוא הבחירה.",
@@ -411,7 +411,7 @@
   "#MiddleEast"
  ],
  "cover": {
-  "t": 2.4,
+  "t": 21.0,
   "big": "3 faiths",
   "text": "Same faith,|*opposite* choices?"
  }
