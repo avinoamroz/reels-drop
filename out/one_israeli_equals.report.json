@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "crowd_equals",
  "hook": "*1* Israeli =|*16* Egyptians?",
- "duration": 57.6,
+ "duration": 60.27,
  "audio": {
-  "lufs": -16.1,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "outputs": {
@@ -19,8 +19,8 @@
   "3": "out/frames/one_israeli_equals_3.jpg",
   "last": "out/frames/one_israeli_equals_last.jpg"
  },
- "caption_en": "1 Israeli = 16 Egyptians? 👥\n\nSame region. Same sun. GDP per person (2024), and how many neighbours it takes to match one Israeli:\n\n🇸🇦 Saudi Arabia: 1.5 ($35,528)\n🇮🇶 Iraq: about 9 ($6,162)\n🇱🇧 Lebanon: about 10 ($5,248)\n🇯🇴 Jordan: about 11 ($5,081)\n🇪🇬 Egypt: about 16 ($3,287)\n🇸🇾 Syria: about 56 ($962, GDP 2022, latest)\n🇾🇪 Yemen: about 273 ($199, IMF estimate)\n🇮🇱 Israel: $54,213\n\nOnly Qatar makes more per person ($76,439). The UAE comes close ($52,880).\n\nAnd it isn't oil. Natural resources bring in about 0.1% of Israel's economy. Iraq: 39.8%. Saudi Arabia: 24.8% (World Bank, 2019).\n\nIsraelis love to work, to build, to make something new every morning. But this isn't about people. Talent is everywhere. Most of this gap is war, and how countries are run. Income per person isn't happiness, and it isn't anyone's worth.\n\nSend this to someone who thinks it's all about resources.\n\nHow we counted: each country's 2024 GDP in current US dollars divided by its 2024 population; ratio = Israel's figure divided by the country's.\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values; Yemen is an IMF estimate). Syria: World Bank, GDP 2022 (latest available). Population: World Bank, World Development Indicators, 2024. Natural resources: World Bank WDI, total natural resources rents, % of GDP, 2019 (Syria: no recent data). Map: Natural Earth.\n\nMade with AI tools. AI voice.",
- "caption_he": "ישראלי אחד מייצר בממוצע כמו 16 מצרים, 11 ירדנים, 10 לבנונים ו־273 תימנים (תמ\"ג לנפש, 2024). רק קטאר עוקפת אותנו, והאמירויות קרובות. וזה לא נפט: משאבי טבע מכניסים כ־0.1% מהכלכלה הישראלית. ישראלים פשוט אוהבים לעבוד, לבנות ולייצר. אבל זה לא עניין של אנשים, כישרון יש בכל מקום. רוב הפער הוא מלחמה, ואיך מנהלים מדינות.\nשלחו את זה למי שחושב שהכול זה משאבי טבע.",
+ "caption_en": "1 Israeli = 16 Egyptians? 👥\n\nSame region. Same sun. GDP per person (2024), and how many neighbours it takes to match one Israeli:\n\n🇸🇦 Saudi Arabia: 1.5 ($35,528)\n🇮🇶 Iraq: about 9 ($6,162)\n🇱🇧 Lebanon: about 10 ($5,248)\n🇯🇴 Jordan: about 11 ($5,081)\n🇪🇬 Egypt: about 16 ($3,287)\n🇸🇾 Syria: about 56 ($962, GDP 2022, latest)\n🇾🇪 Yemen: about 273 ($199, IMF estimate)\n🇮🇱 Israel: $54,213\n\nOnly Qatar makes more per person ($76,439). The UAE comes close ($52,880).\n\nHow are they so rich? Oil and gas. Natural resources bring in 20.7% of Qatar's economy, 16.8% of the UAE's, 24.8% of Saudi Arabia's, 42.7% of Kuwait's and 39.8% of Iraq's. Israel: 0.1% (World Bank, 2019).\n\nIsraelis love to work, to build, to make something new every morning. But this isn't about people. Talent is everywhere. Most of this gap is war, and how countries are run. Income per person isn't happiness, and it isn't anyone's worth.\n\nSend this to someone who thinks it's all about resources.\n\nHow we counted: each country's 2024 GDP in current US dollars divided by its 2024 population; ratio = Israel's figure divided by the country's.\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values; Yemen is an IMF estimate). Syria: World Bank, GDP 2022 (latest available). Population: World Bank, World Development Indicators, 2024. Natural resources: World Bank WDI, total natural resources rents, % of GDP, 2019 (Syria: no data since 2007). Map: Natural Earth.\n\nMade with AI tools. AI voice.",
+ "caption_he": "ישראלי אחד מייצר בממוצע כמו 16 מצרים, 11 ירדנים, 10 לבנונים ו־273 תימנים (תמ\"ג לנפש, 2024). רק קטאר עוקפת אותנו, והאמירויות קרובות. קטאר והאמירויות יושבות על נפט וגז, בישראל משאבי טבע הם רק כ־0.1% מהכלכלה. ישראלים פשוט אוהבים לעבוד, לבנות ולייצר. אבל זה לא עניין של אנשים, כישרון יש בכל מקום. רוב הפער הוא מלחמה, ואיך מנהלים מדינות.\nשלחו את זה למי שחושב שהכול זה משאבי טבע.",
  "hashtags": [
   "#Israel",
   "#MiddleEast",
@@ -46,20 +46,20 @@
    "until": "L8"
   },
   {
-   "label": "World Bank WDI, total natural resources rents",
-   "year": 2019,
+   "label": "IMF WEO Oct 2026 (GDP); World Bank (population)",
+   "year": 2024,
    "at": "L8",
    "until": "L9"
   },
   {
-   "label": "IMF WEO Oct 2026 (GDP); World Bank (population)",
-   "year": 2024,
+   "label": "World Bank WDI, total natural resources rents",
+   "year": 2019,
    "at": "L9",
    "until": "L10"
   }
  ],
  "transcript": {
-  "score": 0.973,
+  "score": 0.974,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -73,8 +73,8 @@
     "flag": "ok"
    },
    {
-    "line": "Saudi Arabia, sitting on oil: one Israeli equals one and a half Saudis.",
-    "score": 0.769,
+    "line": "Saudi Arabia: one Israeli equals one and a half Saudis.",
+    "score": 0.7,
     "flag": "MISS"
    },
    {
@@ -103,17 +103,17 @@
     "flag": "ok"
    },
    {
-    "line": "And it isn't oil. Natural resources bring in zero point one percent of Israel's economy. In Iraq, forty percent.",
+    "line": "Only Qatar makes more per person. The Emirates come close. So how are they so rich?",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Only Qatar makes more per person. The Emirates come close.",
+    "line": "Qatar and the Emirates sit on oil and gas. Israel has almost none. Without natural resources, this is what it looks like:",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "So what's our secret? Israelis just love to work. To build. To make something new, every single morning.",
+    "line": "Israelis who just love to work. To build. To make something new, every single morning.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -133,13 +133,13 @@
     "flag": "ok"
    }
   ],
-  "heard": "One Israeli, on average, produces as much as 16 Egyptians, same region, same sun. Let's line up the neighbors. Saudi Arabia, sitting on oil. One Israeli equals 1.5 Saudis. Iraq, about 9. Lebanon, 10. Jordan, 11. Egypt, 16. Syria, after years of war, 56. Yemen, torn by war, 273. And it isn't oil. Natural resources bring in 0.1% of Israel's economy. In Iraq, 40%. Only Qatar makes more per person. The Emirates come close. So what's our secret? Israelis just love to work. To build. To make something new every single morning. But this isn't about people. Talent is everywhere. Most of this gap is war. And how countries are run. Income per person isn't happiness. And it isn't anyone's worth. Send this to someone who thinks it's all about resources. Because it all starts with one person.",
+  "heard": "One Israeli, on average, produces as much as 16 Egyptians, same region, same sun. Let's line up the neighbors. Saudi Arabia. One Israeli equals 1.5 Saudis. Iraq, about 9. Lebanon, 10. Jordan, 11. Egypt, 16. Syria, after years of war, 56. Yemen, torn by war, 273. Only Qatar makes more per person the Emirates come close So how are they so rich Qatar and the Emirates sit on oil and gas? Israel has almost none without natural resources. This is what it looks like the Israelis who just love to work to build To make something new every single morning, but this isn't about people Talent is everywhere Most of this gap is war and how countries are run income per person isn't happiness and it isn't anyone's worth send this to someone who thinks it's all about resources because it all starts with one person.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "beats": [
@@ -177,5 +177,5 @@
   ]
  ],
  "lint_warnings": [],
- "render_s": 133.2
+ "render_s": 111.5
 }
