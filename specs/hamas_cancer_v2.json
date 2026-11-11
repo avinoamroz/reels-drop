@@ -1,0 +1,283 @@
+{
+ "id": "hamas_cancer_v2",
+ "account": "noamroz__",
+ "template": "surgery",
+ "hook": "Gaza: the *patient.*|HAMAS: the *tumour.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS"
+ },
+ "lines": [
+  {
+   "say": "Gaza is the patient. <<h|ɑ|ˈ|m|ɑ|s>> is the tumour.",
+   "gap": 0.15
+  },
+  {
+   "say": "Every light on this scan is a person.",
+   "screen": "Every light is *a person*",
+   "gap": 0.15
+  },
+  {
+   "say": "This is the tumour. Its roots run under everything.",
+   "screen": "Its roots run *under everything*",
+   "gap": 0.15
+  },
+  {
+   "say": "Homes. Schools. Hospitals.",
+   "screen": "Homes. Schools. *Hospitals.*",
+   "gap": 0.15
+  },
+  {
+   "say": "The White House said <<h|ɑ|ˈ|m|ɑ|s>> used Al-Shifa hospital, and tunnels under it, to hold hostages.",
+   "screen": "White House: *Al-Shifa* and the tunnels under it",
+   "gap": 0.15
+  },
+  {
+   "say": "Under the UN agency's headquarters, Israel found a <<h|ɑ|ˈ|m|ɑ|s>> data centre.",
+   "screen": "Under *UNRWA's* HQ: a HAMAS data centre",
+   "gap": 0.15
+  },
+  {
+   "say": "In 2014, the UN found rockets hidden in three of its empty schools.",
+   "screen": "*3* UN schools with rockets inside",
+   "gap": 0.15
+  },
+  {
+   "say": "Gaza is forty-one kilometres long. The tunnels: up to seven hundred and twenty.",
+   "screen": "Gaza: *41 km* long. Tunnels: up to *720 km*",
+   "gap": 0.15
+  },
+  {
+   "say": "Now you're the surgeon. Two options.",
+   "screen": "You're the surgeon: *2* options",
+   "gap": 0.15
+  },
+  {
+   "say": "One bomb. Tumour gone. Patient gone.",
+   "screen": "Option 1: *one bomb*",
+   "gap": 0.15
+  },
+  {
+   "say": "Like cutting one artery: the whole body dies.",
+   "screen": "Cut *one artery*: the whole body dies",
+   "gap": 0.15
+  },
+  {
+   "say": "Or surgery: hundreds of small, careful cuts, to remove only the tumour.",
+   "screen": "Option 2: *hundreds* of small, careful cuts",
+   "gap": 0.15
+  },
+  {
+   "say": "Warnings before strikes. Leaflets, calls, texts.",
+   "screen": "*Warnings* first: leaflets, calls, texts",
+   "gap": 0.15
+  },
+  {
+   "say": "Evacuation corridors. Pauses, even for polio vaccines.",
+   "screen": "Evacuation corridors. *Polio* vaccine pauses",
+   "gap": 0.15
+  },
+  {
+   "say": "Slow, and your own team goes in. Four hundred and seventy-two Israeli soldiers were killed.",
+   "screen": "*472* Israeli soldiers killed in the ground operation",
+   "gap": 0.15
+  },
+  {
+   "say": "And every healthy cell lost is a real person. A real tragedy.",
+   "screen": "Every cell lost: *a real person*",
+   "gap": 0.15
+  },
+  {
+   "say": "So the law judges each strike on its own, not by comparing death tolls.",
+   "screen": "The law judges *each strike* on its own",
+   "gap": 0.15
+  },
+  {
+   "say": "The goal was never the patient. Remove the tumour, so the patient can live.",
+   "screen": "Remove the tumour. *Let the patient live.*",
+   "until": "END-1.5"
+  }
+ ],
+ "data": {
+  "roots0": 0.45,
+  "grow_at": "L2",
+  "grow_until": "L3e",
+  "icons": [
+   {
+    "kind": "home",
+    "x": 345,
+    "y": 860,
+    "at": "L3:homes"
+   },
+   {
+    "kind": "home",
+    "x": 735,
+    "y": 860,
+    "at": "L3:homes+0.1"
+   },
+   {
+    "kind": "home",
+    "x": 540,
+    "y": 1030,
+    "at": "L3:homes+0.2"
+   },
+   {
+    "kind": "home",
+    "x": 618,
+    "y": 1215,
+    "at": "L3:homes+0.3"
+   },
+   {
+    "kind": "school",
+    "x": 420,
+    "y": 1000,
+    "at": "L3:schools",
+    "rockets_at": "L6:rockets"
+   },
+   {
+    "kind": "school",
+    "x": 662,
+    "y": 1000,
+    "at": "L3:schools+0.1",
+    "rockets_at": "L6:three"
+   },
+   {
+    "kind": "school",
+    "x": 462,
+    "y": 1215,
+    "at": "L3:schools+0.2",
+    "rockets_at": "L6:empty"
+   },
+   {
+    "kind": "hospital",
+    "x": 440,
+    "y": 718,
+    "at": "L3:hospitals",
+    "label": "Al-Shifa",
+    "label_at": "L4",
+    "label_until": "L4e"
+   },
+   {
+    "kind": "un",
+    "x": 640,
+    "y": 718,
+    "label": "UNRWA HQ",
+    "label_at": "L5",
+    "label_until": "L5e"
+   }
+  ],
+  "ruler": {
+   "at": "L7",
+   "until": "L7e+0.4",
+   "rows": [
+    {
+     "label": "Gaza",
+     "value": 41,
+     "txt": "41 km",
+     "color": "#45A4DD"
+    },
+    {
+     "label": "Tunnels (up to)",
+     "value": 720,
+     "txt": "720 km",
+     "color": "#E5484D"
+    }
+   ]
+  },
+  "options": {
+   "at": "L8",
+   "until": "L11e",
+   "one_at": "L9",
+   "two_at": "L11",
+   "one": "One bomb",
+   "two": "Surgery"
+  },
+  "bomb_at": "L9:bomb",
+  "rewind_at": "L10e+0.2",
+  "surgery_at": "L11:hundreds",
+  "cut_until": "L16e",
+  "fallen_at": "L14:killed",
+  "lost_at": "L15",
+  "zoom_at": "L15",
+  "zoom_until": "L15e+0.2",
+  "law_at": "L16",
+  "law_until": "L16e+0.2",
+  "law_left": "Military gain",
+  "law_right": "Civilian harm",
+  "heal_at": "L17:remove"
+ },
+ "sources": [
+  {
+   "label": "White House NSC spokesman John Kirby, 14 Nov",
+   "year": 2023,
+   "at": "L4",
+   "until": "L4e+0.2"
+  },
+  {
+   "label": "IDF and Shin Bet, Feb 2024 (UNRWA said it did not know)",
+   "year": 2024,
+   "at": "L5",
+   "until": "L5e+0.2"
+  },
+  {
+   "label": "UNRWA statements, 17, 22 and 29 July 2014",
+   "year": 2014,
+   "at": "L6",
+   "until": "L6e+0.2"
+  },
+  {
+   "label": "Israeli officials via The New York Times, Jan 2024; UN OCHA",
+   "year": 2024,
+   "at": "L7",
+   "until": "L7e+0.3"
+  },
+  {
+   "label": "The Washington Post, 6 Dec",
+   "year": 2023,
+   "at": "L12",
+   "until": "L12e+0.1"
+  },
+  {
+   "label": "White House via AP, 9 Nov 2023; World Health Organization, Sept",
+   "year": 2024,
+   "at": "L13",
+   "until": "L13e+0.1"
+  },
+  {
+   "label": "IDF data via The Times of Israel, 7 Oct 2026",
+   "year": 2026,
+   "at": "L14",
+   "until": "L14e+0.3"
+  },
+  {
+   "label": "Additional Protocol I (1977), Art. 51(5)(b) and 57",
+   "year": 1977,
+   "at": "L16",
+   "until": "L16e+0.2"
+  }
+ ],
+ "end": {
+  "at": "L17",
+  "balance": "Gaza's people deserve a future *without HAMAS.*",
+  "cta": "Send this to someone who says disproportionate"
+ },
+ "caption_en": "Gaza is the patient. HAMAS is the tumour. 🩺\n\nEvery light on the scan is a person. The tumour's roots run under homes, schools and hospitals:\n🔹 The White House (14 Nov 2023): HAMAS and Palestinian Islamic Jihad \"use some hospitals in the Gaza Strip, including Al-Shifa, and tunnels underneath them ... to hold hostages.\"\n🔹 Feb 2024: the Israel Defense Forces (IDF) showed a HAMAS data centre in a tunnel under the Gaza City HQ of UNRWA, the UN Relief and Works Agency. UNRWA said it did not know.\n🔹 July 2014: UNRWA itself reported rockets hidden in three of its vacant schools.\n🔹 Gaza: about 41 km long. Tunnels: an estimated 560 to 720 km.\n\nTwo options. One bomb: tumour gone, patient gone. Like cutting one artery: the whole body dies. Or surgery: hundreds of small, careful cuts, to remove only the tumour.\n🔹 Warnings before strikes: leaflets, calls, texts (some Gazans called them confusing).\n🔹 Evacuation corridors and daily pauses in the fighting.\n🔹 Pauses so about 560,000 children could get the polio vaccine (World Health Organization, Sept 2024).\n🔹 A slow ground operation: 472 Israeli soldiers killed.\n\nAnd every healthy cell lost is a real person. A real tragedy. That's why the laws of war judge each strike on its own: is the expected civilian harm excessive for the military advantage? Not by comparing death tolls.\n\nThe goal was never the patient. Remove the tumour, so the patient can live.\n\nSend this to someone who says \"disproportionate\".",
+ "caption_he": "עזה היא המטופל. חמאס הוא הגידול. 🩺\nפצצה אחת: הגידול נעלם, וגם המטופל. כמו לחתוך עורק אחד: כל הגוף מת. או ניתוח: מאות חתכים קטנים וזהירים, כדי להוציא רק את הגידול.\nאזהרות לפני תקיפות, מסדרונות פינוי, הפוגות אפילו לחיסוני פוליו. ובתמרון הקרקעי נהרגו 472 חיילי צה\"ל.\nהמטרה מעולם לא הייתה המטופל. מוציאים את הגידול, כדי שהמטופל יוכל לחיות.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#HAMAS"
+ ],
+ "cover": {
+  "bg": "scene",
+  "text": "One bomb,|or *surgery?*",
+  "size": 160
+ }
+}
