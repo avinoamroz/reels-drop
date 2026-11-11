@@ -175,7 +175,7 @@ def run(S):
                 cv.text(k["label"], k["x"], k["y"] + 70, 36, YEL if k.get("hl") else KID, fa, maxw=k["w"] + 20, minsz=36)
             if k.get("act") and not k.get("hl"):
                 t0 = t_day + 0.25 * kids.index(k); ba = win(t, t0, t_hero, 0.25, 0.3) * dim
-                bubble(cv, k["act"], k["x"] + 46, R["head"][1] - 90, ba, 0.9)
+                bubble(cv, k["act"], k["x"] + 78, R["head"][1] - 40, ba, 0.8)
         # hand tags
         if t_hw is not None:
             a = win(t, t_hw, t_rv, 0.2, 0.3) * dim; WG.tag(cv, "Homework", hx + 190, hy - 250, 44, YEL, a)
@@ -208,13 +208,13 @@ def run(S):
                 x, y = arc_pt(p0, p1, u, 160); cv.rrect(x - 26, y - 20, 52, 40, 4, YEL, dim); cv.line([(x - 16, y - 6), (x + 16, y - 6)], "#B5762A", 3, dim)
             else: bubble(cv, n["emo"], p1[0], p1[1], win(t, tn + 0.7, t_rv, 0.15, 0.3) * dim, 0.9)
 
-    def board(cv, t):
+    def board(cv, t, text=True):
         z = seg(t, t_rv, t_rv + 0.6) * (1 - seg(t, t_bk, t_bk + 0.6))
         x, y, w, h = [lerp(a, b, z) for a, b in zip(R0, R1)]
         cv.rrect(x - 14, y - 14, w + 28, h + 28, 22, WOOD, 1.0); cv.rrect(x, y, w, h, 12, BOARD, 1.0)
         cv.rrect(x + 40, y + h + 8, w - 80, 12, 6, WOOD_D, 1.0)
         cv.rrect(x + w - 150, y + h - 6, 46, 14, 4, CHALK, 0.9 * (1 - z))
-        if z < 0.05 and t > tH + 0.4:                       # small board text
+        if text and z < 0.05 and t > tH + 0.4:                       # small board text
             for k, (t0, l1, l2) in enumerate(titles):
                 t1 = titles[k + 1][0] if k + 1 < len(titles) else t_rv
                 a = win(t, max(t0, tH + 0.4), t1, 0.3, 0.2)
@@ -256,12 +256,12 @@ def run(S):
             if n == 2: cv.text("or", 540, 650, 64, KID, a, maxw=120)
         return z
 
-    def layer(t, hook=True, subs=True, end=True):
+    def layer(t, hook=True, subs=True, end=True, btext=True):
         cv = Canvas(bars_moving_bg(t, 8))
         cv.rrect(0, 1430, 1080, 490, 0, "#0A1630", 0.5)               # floor
         z = seg(t, t_rv, t_rv + 0.6) * (1 - seg(t, t_bk, t_bk + 0.6))
         draw_classroom(cv, t, 1.0 - 0.92 * z)
-        board(cv, t)
+        board(cv, t, btext)
         draw_sources(cv, S, T, t, D.get("src_y", 1262))
         if end: draw_end(cv, S, T, t)
         out = cv.out().astype(np.float32)
@@ -274,7 +274,7 @@ def run(S):
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
     if (S.get("cover") or {}).get("bg") == "scene":
         ct = A((S.get("cover") or {}).get("t"), t_rv - 1.0)
-        p = f"{work}/cover_bg.png"; cv2.imwrite(p, layer(ct, hook=False, subs=False, end=False)); S["_cover_bg"] = p
+        p = f"{work}/cover_bg.png"; cv2.imwrite(p, layer(ct, hook=False, subs=False, end=False, btext=False)); S["_cover_bg"] = p
     ev = [(b["t0"], "pop", -22) for b in bullies]
     for b in bullies:
         for (t0, d) in TH[b["label"]]: ev.append((t0 + d, "tick", -24))

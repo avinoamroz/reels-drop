@@ -219,7 +219,7 @@
    "value": 6.35,
    "dec": 2,
    "suffix": "%",
-   "count_at": "L12:six",
+   "count_at": "L12+0.3",
    "who": "Israel",
    "flag": "IL",
    "pill": "#1 in the world",
@@ -317,7 +317,7 @@
  "end": {
   "at": "L17",
   "y": 330,
-  "balance": "Imagine this class if everyone did *homework* instead of throwing things.",
+  "balance": "Imagine if everyone just did *homework.*",
   "cta": "Send this to a teacher"
  },
  "caption_en": "Picture a classroom where every kid is a country. One kid gets paper balls from HAMAS, spitballs from Hezbollah, paper planes from the Houthis, and the Iranian regime keeps handing out paper. He does his homework with one hand and blocks with the other. 📚\n\nThe report card: WIPO Global Innovation Index 2025, world rank out of 139 economies.\nIsrael 14 (1st of 18 in WIPO's Northern Africa and Western Asia region; Cyprus is 2nd at 25)\nUAE 30\nTurkey 43\nSaudi Arabia 46\nJordan 65\nEgypt 86\nLebanon 90\nSyria: not ranked, no data\n\nResearch spending: Israel 6.35% of GDP (2023), number 1 of all 139 economies in the same report.\n\nNumber one or number fourteen, depending on how you look at it. Now imagine this class if everyone did homework instead of throwing things.\n\nSend this to a teacher.",
@@ -331,6 +331,7 @@
   "bg": "scene",
   "t": "L9:blocks",
   "text": "Bullied kid.|*#1* in class?",
-  "y": 520
+  "y": 300,
+  "size": 118
  }
 }
