@@ -1,0 +1,193 @@
+{
+ "id": "already_happened",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Ask *Jordan.* Ask *Lebanon.*|Ask *Kuwait.*",
+ "duration": 73.27,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.6
+ },
+ "outputs": {
+  "mp4": "out/already_happened.mp4",
+  "cover": "covers/already_happened_cover.jpg",
+  "preview": "previews/already_happened_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/already_happened_0.jpg",
+  "1": "out/frames/already_happened_1.jpg",
+  "3": "out/frames/already_happened_3.jpg",
+  "last": "out/frames/already_happened_last.jpg"
+ },
+ "caption_en": "\"Just leave, and there will be peace.\" We don't have to imagine it. Arab countries already saw what armed groups do with a base next door.\n\n🇯🇴 Jordan, 1970: PLO factions built a state within a state. King Hussein's motorcade was fired on (June and September 1970) and the PFLP blew up three hijacked airliners at Dawson's Field (12 Sept 1970). Jordan's army struck back in \"Black September\"; thousands died, many of them Palestinian civilians in the camps. By July 1971 the PLO was out.\n\n🇱🇧 Lebanon: the PLO moved its base there, and the south was nicknamed \"Fatahland\". From 1975 Lebanon fell into a civil war with many sides, and the PLO was one of them. In 1982, after Israel invaded, its fighters were shipped out of Beirut.\n\n🇰🇼 Kuwait, 1990: Arafat backed Saddam Hussein's invasion. After liberation, Palestinian families paid for that choice: over 350,000 Palestinians lived in Kuwait before the war, fewer than 50,000 by 1992 (Human Rights Watch). In 2004 Mahmoud Abbas apologised to Kuwait for the PLO's stand.\n\n🇪🇬 Egypt said Gaza's smuggling tunnels served armed groups in Sinai. In 2015 it flooded them with seawater, after razing homes on its side of Rafah for a buffer zone.\n\n🇵🇸 Gaza: Israel left in 2005. In June 2007 HAMAS seized Gaza from Fatah by force: 161 Palestinians killed in one week, 41 of them civilians (Palestinian Centre for Human Rights).\n\nHAMAS is a Sunni group armed by Iran's Shi'a regime. The US State Department says Iran provides it weapons and other support, and HAMAS leader Ismail Haniyeh thanked Iran for \"money and weaponry\" in 2021.\n\nMany Palestinians were victims of these groups too. That's why Israel isn't leaving.\n\nSources: Avi Shlaim, Lion of Jordan (2008); Kamal Salibi, The Modern History of Jordan (1998); Library of Congress, Lebanon: A Country Study (1987); John Laffin, The War of Desperation (1985); New York Times (1982); VOA (2004); Human Rights Watch World Report 1993; Al Jazeera (2015); Human Rights Watch (2015, 2008); PCHR (2007); US State Department, Country Reports on Terrorism 2021; Press TV via Israel Hayom (2021). AI voice.\n\nSend this to someone who says \"just leave\".",
+ "caption_he": "\"פשוט תצאו, ויהיה שלום.\" אנחנו לא צריכים לדמיין. מדינות ערב כבר ראו מה ארגונים חמושים עושים כשיש להם בסיס ליד הבית.\n\n🇯🇴 ירדן, 1970: פלגי אש\"ף הקימו מדינה בתוך מדינה. ירו על שיירת המלך חוסיין (יוני וספטמבר 1970), והחזית העממית פוצצה שלושה מטוסים חטופים בשדה דוסון (12 בספטמבר 1970). צבא ירדן הכה בחזרה ב\"ספטמבר השחור\"; אלפים נהרגו, רבים מהם אזרחים פלסטינים במחנות. ביולי 1971 אש\"ף גורש.\n\n🇱🇧 לבנון: אש\"ף העביר לשם את הבסיס שלו, והדרום קיבל כינוי: \"פתחלנד\". מ־1975 לבנון נקלעה למלחמת אזרחים עם הרבה צדדים, ואש\"ף היה אחד מהם. ב־1982, אחרי שישראל פלשה, הלוחמים שלו הוצאו מביירות בים.\n\n🇰🇼 כווית, 1990: ערפאת תמך בפלישה של סדאם חוסיין. אחרי השחרור, משפחות פלסטיניות שילמו על הבחירה הזאת: לפני המלחמה חיו בכווית יותר מ־350,000 פלסטינים, ב־1992 פחות מ־50,000 (Human Rights Watch). ב־2004 מחמוד עבאס התנצל בפני כווית על עמדת אש\"ף.\n\n🇪🇬 מצרים טענה שמנהרות ההברחה מעזה שירתו ארגונים חמושים בסיני. ב־2015 היא הציפה אותן במי ים, אחרי שהרסה בתים בצד שלה של רפיח לטובת אזור חיץ.\n\n🇵🇸 עזה: ישראל יצאה ב־2005. ביוני 2007 חמאס השתלט על עזה בכוח מידי פת\"ח: 161 פלסטינים נהרגו בשבוע אחד, 41 מהם אזרחים (המרכז הפלסטיני לזכויות אדם).\n\nחמאס הוא ארגון סוני שמקבל נשק מהמשטר השיעי באיראן. משרד החוץ האמריקאי מציין שאיראן מספקת לו נשק ותמיכה, ומנהיג חמאס איסמעיל הנייה הודה לאיראן על \"כסף ונשק\" ב־2021.\n\nגם הרבה פלסטינים היו קורבנות של הארגונים האלה. ובגלל זה ישראל לא יוצאת.\n\nשלחו את זה למי שאומר \"פשוט תצאו\".",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#history"
+ ],
+ "sources": [
+  {
+   "label": "Avi Shlaim, Lion of Jordan; Salibi, Modern History of Jordan",
+   "year": 2008,
+   "at": "L2",
+   "until": "L5-0.1"
+  },
+  {
+   "label": "Library of Congress, Lebanon: A Country Study; Laffin",
+   "year": 1987,
+   "at": "L5",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "New York Times, PLO pullout from Beirut",
+   "year": 1982,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "VOA, Abbas apologizes to Kuwait",
+   "year": 2004,
+   "at": "L8",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Human Rights Watch, World Report: Kuwait",
+   "year": 1993,
+   "at": "L10",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "Al Jazeera; Human Rights Watch",
+   "year": 2015,
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "PCHR report, cited by Human Rights Watch",
+   "year": 2008,
+   "at": "L12",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "US State Dept terrorism report; Haniyeh on Press TV",
+   "year": 2021,
+   "at": "L14",
+   "until": "L15-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.973,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Ask Jordan. Ask Lebanon. Ask Kuwait.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Armed groups next door? We don't have to imagine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan, nineteen seventy. PLO factions built a state within a state.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "They shot at the King, and blew up three hijacked airliners.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan's army struck back. Thousands died, many Palestinian civilians. By seventy-one, the PLO was out.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Next stop: Lebanon. Its south became Fatahland.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then civil war, with many sides. The PLO was one of them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In nineteen eighty-two, after Israel invaded, it was shipped out of Beirut.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Kuwait, nineteen ninety. Arafat backed Saddam Hussein's invasion.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Families paid for that choice.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Over three hundred fifty thousand Palestinians lived there. By ninety-two, under fifty thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt said Gaza's tunnels served Sinai militants. It flooded them in twenty fifteen.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza: Israel left in two thousand five. Two years later, HAMAS took it by force.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One hundred sixty-one killed in a week, says a Palestinian rights group.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "HAMAS: Sunni, but armed by Iran's Shi'a regime.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Many Palestinians were victims of these groups too.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Leave, and get peace? We've seen it. That's why Israel isn't leaving.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Don't believe me?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Ask Jordan. Ask Lebanon. Ask Kuwait. Armed groups next door? We don't have to imagine. Jordan, 1970. PLO factions built a state within a state. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died, many Palestinian civilians. By 71, the PLO was out. Next stop, Lebanon. Its south became Fatahland, then civil war, war with many sides. The PLO was one of them. In 1982, after Israel invaded, it was shipped out of Beirut. Kuwait, 1990. Arafat backed Saddam Hussein's invasion. Families paid for that choice. Over 350,000 Palestinians lived there. By 1992, under 50,000. Egypt said Gaza's tunnels served Sinai militants. It flooded them in 2015. Gaza. Israel left in 2005. Two years later, Hamas took it by force. 161 killed in a week, says a Palestinian rights group. Hamas. Sunni, but armed by Iran's share regime. Many Palestinians were victims of these groups too. Leave and get peace. We've seen it. That's why Israel isn't leaving. Don't believe me?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 71.77,
+ "opener": {
+  "style": "map_fold",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 175.4
+}
