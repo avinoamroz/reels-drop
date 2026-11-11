@@ -196,6 +196,7 @@ def run(S):
             if hu > 0.05:   # hope icons over the town
                 for k, ch in enumerate(D.get("hope_icons", [])):
                     ia = a * WG.pop_s(t, tH + 0.3 + 0.35 * k)
+                    if ia <= 0.01: continue
                     WG.emo(cv, ch, ox + 90 + k * 120, GROUND - 470 + 14 * math.sin(t * 2 + k), 84 * min(1.2, ia), min(1, ia))
             c.restore()
             cv.line([(540, 700), (540, GROUND + 20)], YEL, 5, a * u)                          # the line between the sides
