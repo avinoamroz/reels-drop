@@ -1,0 +1,496 @@
+{
+ "id": "one_israeli_equals",
+ "account": "noamroz__",
+ "template": "crowd_equals",
+ "hook": "*1* Israeli =|*16* Egyptians?",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "One Israeli, on average, produces as much as sixteen Egyptians.",
+   "gap": 0.2
+  },
+  {
+   "say": "Same region. Same sun. Let's line up the neighbours.",
+   "screen": "GDP per person, *2024*",
+   "at": "L1:let's",
+   "until": "L8",
+   "gap": 0.15
+  },
+  {
+   "say": "Saudi Arabia, sitting on oil: one Israeli equals one and a half Saudis.",
+   "gap": 0.15
+  },
+  {
+   "say": "Iraq: about nine.",
+   "gap": 0.15
+  },
+  {
+   "say": "Lebanon: ten. Jordan: eleven.",
+   "gap": 0.15
+  },
+  {
+   "say": "Egypt: sixteen.",
+   "gap": 0.15
+  },
+  {
+   "say": "Syria, after years of war: fifty six.",
+   "gap": 0.15
+  },
+  {
+   "say": "Yemen, torn by war: two hundred and seventy three.",
+   "gap": 0.2
+  },
+  {
+   "say": "And it isn't oil. Natural resources bring in zero point one percent of Israel's economy. In Iraq, forty percent.",
+   "gap": 0.15
+  },
+  {
+   "say": "Only Qatar makes more per person. The Emirates come close.",
+   "gap": 0.2
+  },
+  {
+   "say": "So what's our secret? Israelis just love to work. To build. To make something new, every single morning.",
+   "screen": "Israelis *love* to build",
+   "until": "L11",
+   "gap": 0.15
+  },
+  {
+   "say": "But this isn't about people. Talent is everywhere. Most of this gap is war, and how countries are run.",
+   "screen": "Talent is *everywhere*",
+   "until": "L12",
+   "gap": 0.15
+  },
+  {
+   "say": "Income per person isn't happiness, and it isn't anyone's worth. Send this to someone who thinks it's all about resources.",
+   "gap": 0.2
+  },
+  {
+   "say": "Because it all starts with one person.",
+   "gap": 0.15
+  }
+ ],
+ "data": {
+  "cam": [
+   41.0,
+   25.5,
+   50
+  ],
+  "map_y": 660,
+  "hook_y": 630,
+  "israel": {
+   "label": "Israeli",
+   "flag": "IL",
+   "tag": "$54,213",
+   "lon": 31.6,
+   "lat": 28.6
+  },
+  "beats": [
+   {
+    "code": "EGY",
+    "name": "Egypt",
+    "demonym": "Egyptians",
+    "flag": "EG",
+    "ratio": 16.49,
+    "txt": "16",
+    "tag": "$3,287",
+    "lon": 28.3,
+    "lat": 24.0,
+    "at": "L0:sixteen",
+    "until": "L1:let's"
+   },
+   {
+    "code": "SAU",
+    "name": "Saudi Arabia",
+    "demonym": "Saudis",
+    "flag": "SA",
+    "ratio": 1.53,
+    "txt": "1.5",
+    "dec": 1,
+    "tag": "$35,528",
+    "lon": 45.0,
+    "lat": 23.5,
+    "at": "L2",
+    "until": "L3"
+   },
+   {
+    "code": "IRQ",
+    "name": "Iraq",
+    "demonym": "Iraqis",
+    "flag": "IQ",
+    "ratio": 8.8,
+    "txt": "9",
+    "tag": "$6,162",
+    "lon": 43.8,
+    "lat": 32.8,
+    "at": "L3"
+   },
+   {
+    "code": "LBN",
+    "name": "Lebanon",
+    "demonym": "Lebanese",
+    "flag": "LB",
+    "ratio": 10.33,
+    "txt": "10",
+    "tag": "$5,248",
+    "lon": 37.8,
+    "lat": 35.8,
+    "at": "L4"
+   },
+   {
+    "code": "JOR",
+    "name": "Jordan",
+    "demonym": "Jordanians",
+    "flag": "JO",
+    "ratio": 10.67,
+    "txt": "11",
+    "tag": "$5,081",
+    "lon": 41.8,
+    "lat": 29.0,
+    "at": "L4:jordan"
+   },
+   {
+    "code": "EGY",
+    "name": "Egypt",
+    "demonym": "Egyptians",
+    "flag": "EG",
+    "ratio": 16.49,
+    "txt": "16",
+    "tag": "$3,287",
+    "lon": 28.3,
+    "lat": 24.0,
+    "at": "L5"
+   },
+   {
+    "code": "SYR",
+    "name": "Syria",
+    "demonym": "Syrians",
+    "flag": "SY",
+    "ratio": 56.34,
+    "txt": "56",
+    "tag": "$962*",
+    "lon": 40.6,
+    "lat": 36.4,
+    "at": "L6"
+   },
+   {
+    "code": "YEM",
+    "name": "Yemen",
+    "demonym": "Yemenis",
+    "flag": "YE",
+    "ratio": 272.67,
+    "txt": "273",
+    "tag": "$199",
+    "lon": 47.5,
+    "lat": 15.8,
+    "at": "L7",
+    "until": "L8"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L8",
+    "until": "L9",
+    "title": "Natural resources, *% of GDP*",
+    "y": 560,
+    "rowh": 92,
+    "vmax": 52,
+    "rows": [
+     {
+      "label": "Iraq",
+      "flag": "IQ",
+      "value": 39.8,
+      "txt": "39.8%",
+      "hl": false
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 24.81,
+      "txt": "24.8%",
+      "hl": false
+     },
+     {
+      "label": "Yemen",
+      "flag": "YE",
+      "value": 5.44,
+      "txt": "5.4%",
+      "hl": false
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 4.98,
+      "txt": "5.0%",
+      "hl": false
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0.09,
+      "txt": "0.1%",
+      "hl": true
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0.03,
+      "txt": "0.03%",
+      "hl": false
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 0.0,
+      "txt": "0.0%",
+      "hl": false
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 0.0,
+      "txt": "no data",
+      "hl": false
+     }
+    ],
+    "lab_w": 430
+   },
+   {
+    "at": "L9",
+    "until": "L10",
+    "title": "GDP per person, *2024*",
+    "y": 520,
+    "rowh": 78,
+    "note": "*Syria: GDP 2022, latest available",
+    "rows": [
+     {
+      "label": "Qatar",
+      "flag": "QA",
+      "value": 76439,
+      "txt": "$76,439",
+      "hl": false
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 54213,
+      "txt": "$54,213",
+      "hl": true
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 52880,
+      "txt": "$52,880",
+      "hl": false
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 35528,
+      "txt": "$35,528",
+      "hl": false
+     },
+     {
+      "label": "Iraq",
+      "flag": "IQ",
+      "value": 6162,
+      "txt": "$6,162",
+      "hl": false
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 5248,
+      "txt": "$5,248",
+      "hl": false
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 5081,
+      "txt": "$5,081",
+      "hl": false
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 3287,
+      "txt": "$3,287",
+      "hl": false
+     },
+     {
+      "label": "Syria*",
+      "flag": "SY",
+      "value": 962,
+      "txt": "$962",
+      "hl": false
+     },
+     {
+      "label": "Yemen",
+      "flag": "YE",
+      "value": 199,
+      "txt": "$199",
+      "hl": false
+     }
+    ],
+    "lab_w": 430,
+    "vmax": 98000
+   }
+  ],
+  "end_until": "L13",
+  "icons": [
+   {
+    "at": "L10:work",
+    "until": "L11",
+    "emo": "💻",
+    "x": 420,
+    "y": 1200,
+    "size": 120
+   },
+   {
+    "at": "L10:build",
+    "until": "L11",
+    "emo": "🏗️",
+    "x": 620,
+    "y": 1200,
+    "size": 120
+   },
+   {
+    "at": "L10:make",
+    "until": "L11",
+    "emo": "🔬",
+    "x": 820,
+    "y": 1200,
+    "size": 120
+   },
+   {
+    "at": "L10:morning",
+    "until": "L11",
+    "emo": "🌅",
+    "x": 620,
+    "y": 1360,
+    "size": 110
+   },
+   {
+    "at": "L11:talent+0.00",
+    "until": "L12",
+    "flag": "EG",
+    "x": 330,
+    "y": 1140,
+    "size": 80,
+    "fig": true
+   },
+   {
+    "at": "L11:talent+0.12",
+    "until": "L12",
+    "flag": "JO",
+    "x": 442,
+    "y": 1140,
+    "size": 80,
+    "fig": true
+   },
+   {
+    "at": "L11:talent+0.24",
+    "until": "L12",
+    "flag": "LB",
+    "x": 554,
+    "y": 1140,
+    "size": 80,
+    "fig": true
+   },
+   {
+    "at": "L11:talent+0.36",
+    "until": "L12",
+    "flag": "SY",
+    "x": 666,
+    "y": 1140,
+    "size": 80,
+    "fig": true
+   },
+   {
+    "at": "L11:talent+0.48",
+    "until": "L12",
+    "flag": "IQ",
+    "x": 778,
+    "y": 1140,
+    "size": 80,
+    "fig": true
+   },
+   {
+    "at": "L11:talent+0.60",
+    "until": "L12",
+    "flag": "SA",
+    "x": 890,
+    "y": 1140,
+    "size": 80,
+    "fig": true
+   },
+   {
+    "at": "L11:talent+0.72",
+    "until": "L12",
+    "flag": "YE",
+    "x": 1002,
+    "y": 1140,
+    "size": 80,
+    "fig": true
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "IMF WEO Oct 2026 (GDP); World Bank (population)",
+   "year": 2024,
+   "at": "L0:sixteen",
+   "until": "L6"
+  },
+  {
+   "label": "*Syria: World Bank GDP 2022 (latest); population 2024",
+   "year": 2022,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Yemen: IMF WEO estimate; World Bank population",
+   "year": 2024,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "World Bank WDI, total natural resources rents",
+   "year": 2019,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "IMF WEO Oct 2026 (GDP); World Bank (population)",
+   "year": 2024,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "y": 900,
+  "balance": "Income per person isn't *happiness,* or anyone's *worth.*",
+  "cta": "Send this to someone who thinks it's all about resources"
+ },
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Economy"
+ ],
+ "cover": {
+  "t": 22.0,
+  "text": "*1* Israeli =|how many *neighbours?*",
+  "size": 140
+ },
+ "caption_en": "1 Israeli = 16 Egyptians? 👥\n\nSame region. Same sun. GDP per person (2024), and how many neighbours it takes to match one Israeli:\n\n🇸🇦 Saudi Arabia: 1.5 ($35,528)\n🇮🇶 Iraq: about 9 ($6,162)\n🇱🇧 Lebanon: about 10 ($5,248)\n🇯🇴 Jordan: about 11 ($5,081)\n🇪🇬 Egypt: about 16 ($3,287)\n🇸🇾 Syria: about 56 ($962, GDP 2022, latest)\n🇾🇪 Yemen: about 273 ($199, IMF estimate)\n🇮🇱 Israel: $54,213\n\nOnly Qatar makes more per person ($76,439). The UAE comes close ($52,880).\n\nAnd it isn't oil. Natural resources bring in about 0.1% of Israel's economy. Iraq: 39.8%. Saudi Arabia: 24.8% (World Bank, 2019).\n\nIsraelis love to work, to build, to make something new every morning. But this isn't about people. Talent is everywhere. Most of this gap is war, and how countries are run. Income per person isn't happiness, and it isn't anyone's worth.\n\nSend this to someone who thinks it's all about resources.\n\nHow we counted: each country's 2024 GDP in current US dollars divided by its 2024 population; ratio = Israel's figure divided by the country's.\nSources: GDP: IMF World Economic Outlook, Oct 2026 edition (2024 values; Yemen is an IMF estimate). Syria: World Bank, GDP 2022 (latest available). Population: World Bank, World Development Indicators, 2024. Natural resources: World Bank WDI, total natural resources rents, % of GDP, 2019 (Syria: no recent data). Map: Natural Earth.\n\nMade with AI tools. AI voice.",
+ "caption_he": "ישראלי אחד מייצר בממוצע כמו 16 מצרים, 11 ירדנים, 10 לבנונים ו־273 תימנים (תמ\"ג לנפש, 2024). רק קטאר עוקפת אותנו, והאמירויות קרובות. וזה לא נפט: משאבי טבע מכניסים כ־0.1% מהכלכלה הישראלית. ישראלים פשוט אוהבים לעבוד, לבנות ולייצר. אבל זה לא עניין של אנשים, כישרון יש בכל מקום. רוב הפער הוא מלחמה, ואיך מנהלים מדינות.\nשלחו את זה למי שחושב שהכול זה משאבי טבע."
+}
