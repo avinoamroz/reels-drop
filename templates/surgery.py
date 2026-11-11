@@ -157,7 +157,7 @@ def run(S):
     tZ0, tZ1 = A(D["zoom_at"]), A(D["zoom_until"]); tL0, tL1 = A(D["law_at"]), A(D["law_until"]); tHeal = A(D["heal_at"])
     R = D.get("ruler") or {}; tR0, tR1 = A(R.get("at"), 1e9), A(R.get("until"), 1e9)
     tHB = A(D.get("hook_back"), END - 1.4)
-    surgeons = [dict(x=x, y=y, k=k) for k, (x, y) in enumerate([(470, 790), (612, 800), (452, 950), (630, 940), (540, 1110)])]
+    surgeons = [dict(x=x, y=y, k=k) for k, (x, y) in enumerate([(503, 808), (588, 812), (452, 950), (630, 940), (540, 1110)])]
     fallen = set(D.get("fallen_idx", [1, 4]))
     LOC, LOCG = locator()
     hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 262); tHk = T.E(0)
@@ -206,10 +206,11 @@ def run(S):
                 col = CELL if lost_u < 0.5 else "#6E7A90"; aa = lerp(0.95, 0.55, lost_u)
                 rr = ce["r"] * (1 + 1.6 * seg(z, 1.5, 5.0)) if ce is zc else ce["r"]
                 cv.circ(ce["x"] + dx, ce["y"] + dy, rr, col, aa)
-                if z > 1.6 and ce is zc:      # the zoom: a person inside the cell
-                    pa = seg(z, 2.2, 4.8, lambda u: u)
-                    cv.circ(ce["x"] + dx, ce["y"] + dy, rr * 0.94, "#22304A", pa, stroke=CELL, lw=1.2)
-                    figure(cv, ce["x"] + dx, ce["y"] + dy + rr * 0.6, sc=rr * 0.0085, col="#E8EEF8", badge=False, a=pa, lw=7)
+                if z > 1.3 and ce is zc:      # the zoom: a person inside the cell
+                    pa = seg(z, 1.5, 3.2, lambda u: u)
+                    cv.circ(ce["x"] + dx, ce["y"] + dy, rr * 1.25, SKY, 0.22 * pa)
+                    cv.circ(ce["x"] + dx, ce["y"] + dy, rr * 0.96, "#1B3F78", pa, stroke=WHITE, lw=1.4)
+                    figure(cv, ce["x"] + dx, ce["y"] + dy + rr * 0.68, sc=rr * 0.0088, col=WHITE, badge=False, a=pa, lw=10)
                 continue
             cv.circ(ce["x"] + dx, ce["y"] + dy, ce["r"] * 1.9, CELL, 0.10 * br)
             cv.circ(ce["x"] + dx, ce["y"] + dy, ce["r"], CELL, min(1, 0.85 * br))
