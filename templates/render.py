@@ -18,7 +18,7 @@ TEMPLATES = ("map_counter", "data_race", "scorecard", "slang_scene", "rehook", "
 
 def main():
     S = CM.load_spec(sys.argv[1])
-    if S.get("template") not in TEMPLATES: raise SystemExit(f"template must be one of {TEMPLATES}")
+    if S.get("template") not in TEMPLATES + ("photo_story",): raise SystemExit(f"template must be one of {TEMPLATES + ('photo_story',)}")
     warn = CM.lint(S)
     for w in warn: CM.log("lint warning:", w)
     if "--lint" in sys.argv: print("lint ok"); return
