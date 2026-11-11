@@ -1,6 +1,152 @@
 {
-  "id": "gdp_build_vs_war",
-  "status": "FAILED",
-  "run": "42976379993",
-  "log": "rame 1200/1796\nmultiprocessing.pool.RemoteTraceback: \n\"\"\"\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 125, in worker\n    result = (True, func(*args, **kwds))\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 48, in mapstar\n    return list(map(*args))\n           ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 393, in _one\n    def _one(i): return _FR[0](i / FPS).tobytes()\n                        ^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 401, in fr\n    img = frame(t)\n          ^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/build_vs_war.py\", line 282, in <lambda>\n    frame = lambda t: layer(t)\n                      ^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/build_vs_war.py\", line 263, in layer\n    if sa > 0.01: scene(cv, t, sa)\n                  ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/build_vs_war.py\", line 199, in scene\n    WG.emo(cv, ch, ox + 90 + k * 120, GROUND - 470 + 14 * math.sin(t * 2 + k), 84 * min(1.2, ia), min(1, ia))\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/widgets.py\", line 48, in emo\n    def emo(cv, ch, cx, cy, sz=64, a=1.0): cv.image(emoji(ch), cx, cy, sz / 109, a)\n                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/base.py\", line 129, in image\n    s.c.save(); s.c.translate(cx, cy); s.c.scale(scale, scale); s.c.set_source_surface(sf, -w / 2, -h / 2); s.c.paint_with_alpha(a); s.c.restore()\n                                       ^^^^^^^^^^^^^^^^^^^^^^^\ncairo.Error: invalid matrix (not invertible)\n\"\"\"\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/build_vs_war.py\", line 291, in run\n    encode(frame, END, f\"{work}/mix.m4a\", final, loop=True)\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 411, in encode\n    for i, b in enumerate(P.imap(_one, range(nfr), chunksize=6)):\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 423, in <genexpr>\n    return (item for chunk in result for item in chunk)\n                              ^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 873, in next\n    raise value\ncairo.Error: invalid matrix (not invertible)\n"
+ "id": "gdp_build_vs_war",
+ "account": "noamroz__",
+ "template": "build_vs_war",
+ "hook": "*1* hand builds.|*1* hand shields.",
+ "duration": 59.87,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/gdp_build_vs_war.mp4",
+  "cover": "covers/gdp_build_vs_war_cover.jpg",
+  "preview": "previews/gdp_build_vs_war_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/gdp_build_vs_war_0.jpg",
+  "1": "out/frames/gdp_build_vs_war_1.jpg",
+  "3": "out/frames/gdp_build_vs_war_3.jpg",
+  "last": "out/frames/gdp_build_vs_war_last.jpg"
+ },
+ "caption_en": "One hand builds. One hand shields. 🛡️💻\n\nIsrael spends 7.8% of its GDP on defence (SIPRI, 2025) and 6.3% on research, the highest in the OECD (OECD, 2023). And still:\n\nGDP per person, current US$ (World Bank, 2024):\n🇮🇱 Israel: 54,217\n🇮🇶 Iraq: 6,074\n🇮🇷 Iran: 5,190\n🇱🇧 Lebanon: 4,473\n🇸🇾 Syria: 847 (2023, latest available)\n🇾🇪 Yemen: 433\n\nIsrael makes almost 9x the best of them.\n\nThis is about regimes and militias, HAMAS, Hezbollah, the Houthis and the groups Iran funds, not about the people who live under them. Imagine if their leaders invested in companies, schools, tech and medicine. Their people would live better lives.\n\nSend this to someone who builds.",
+ "caption_he": "יד אחת בונה. יד אחת מגינה. 🛡️💻\nישראל מוציאה 7.8% מהתוצר על ביטחון (SIPRI, 2025) ו 6.3% על מחקר ופיתוח, הכי הרבה ב OECD (2023). ועדיין, תוצר לנפש בדולרים (הבנק העולמי, 2024): ישראל 54,217. עיראק 6,074. איראן 5,190. לבנון 4,473. סוריה 847 (2023). תימן 433.\nזה על משטרים ומיליציות, לא על האנשים שחיים תחתם. אם המנהיגים שלהם היו משקיעים בחברות, בבתי ספר, בטכנולוגיה וברפואה, לאנשים שם היו חיים טובים יותר.\n\nSources: World Bank, World Development Indicators, GDP per capita (current US$, NY.GDP.PCAP.CD), 2024 (Syria: 2023, latest available), via FRED, updated Jul 2026. SIPRI, Trends in World Military Expenditure 2025 (Apr 2026): Israel 7.8% of GDP. OECD, Main Science and Technology Indicators (Mar 2025): Israel R&D 6.3% of GDP, 2023.\nMade with AI tools.",
+ "hashtags": [
+  "#Israel",
+  "#Economy",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "SIPRI Military Expenditure, Israel % of GDP",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "OECD MSTI, R&D % of GDP",
+   "year": 2023,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "World Bank WDI, GDP per capita, current US$, 2024 (Syria 2023)",
+   "year": 2024,
+   "at": "L5",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.96,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One hand builds. One hand shields.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This is Israel. Three people at their laptops, building companies, medicine and tech.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then a rock. A rocket. Shield up, and back to work.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel spends almost eight percent of its economy on defence.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "And over six percent on research. The highest in the OECD.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Still, GDP per person: fifty-four thousand dollars.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the other side. Regimes and militias that chose war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq, with its militias: six thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iran, funding the militias: five thousand two hundred.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon, with Hezbollah: four and a half thousand.",
+    "score": 0.625,
+    "flag": "MISS"
+   },
+   {
+    "line": "Syria, after thirteen years of war: eight hundred and fifty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yemen, in the Houthis' war: four hundred and thirty.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "We build with one hand behind our back, and still make almost nine times more.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Imagine if their leaders invested in companies, schools, tech and medicine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Their people would live better lives. Until then:",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "one hand builds, one hand shields.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "One hand builds. One hand shields. This is Israel. Three people at their laptops, building companies, medicine and tech. Then a rock. A rocket. Shield up and back to work. Israel spends almost 8% of its economy on defense, and over 6% on research. The highest in the OECD. Still, GDP per person. $54,000. Now the other side. Regimes and militias that chose war. Iraq with its militias. 6,000. Iran. Funding the militias. 5,200. Lebanon with Hezbollah. 4,500. Syria after 13 years of war. 850. Yemen in the Houthis war. 430. We build with one hand behind our back and still make almost nine times more. Imagine if their leaders invested in companies, schools, tech, and medicine. Their people would live better lives. Until then, One hand builds, one hand shields.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "shots": 38,
+ "phases": {
+  "split": 24.79,
+  "rank": 44.41,
+  "hope": 48.17,
+  "back": 56.36
+ },
+ "lint_warnings": [],
+ "render_s": 135.6
 }
