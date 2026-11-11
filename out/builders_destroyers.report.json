@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*3* faiths.|*2* choices.",
- "duration": 66.13,
+ "duration": 57.9,
  "audio": {
-  "lufs": -15.9,
-  "true_peak": -1.0
+  "lufs": -16.0,
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/builders_destroyers.mp4",
@@ -86,7 +86,7 @@
     "flag": "ok"
    },
    {
-    "line": "Same faith: build, or destroy. Watch.",
+    "line": "Same faith: build, or destroy.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -122,17 +122,17 @@
    },
    {
     "line": "In 1994, a Jewish extremist from the Kach movement murdered twenty nine Muslim worshippers in Hebron.",
-    "score": 0.955,
-    "flag": "ok"
-   },
-   {
-    "line": "Less than three weeks later, Israel's government outlawed Kach as a terror group.",
     "score": 1.0,
     "flag": "ok"
    },
    {
+    "line": "Within three weeks, Israel's government outlawed Kach as a terror group.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
     "line": "Builders invest in schools, companies, medicine and tech.",
-    "score": 0.875,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -141,7 +141,7 @@
     "flag": "ok"
    },
    {
-    "line": "The result? Norway, the UAE and Israel are all in the world's top thirty for human development.",
+    "line": "Norway, the UAE and Israel are all in the world's top thirty for human development.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -152,7 +152,7 @@
    },
    {
     "line": "Every faith has builders and destroyers.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -161,21 +161,21 @@
     "flag": "ok"
    }
   ],
-  "heard": "Three faiths. Two choices. Same faith. Build or destroy. Watch. The UAE. A Muslim country put a probe in orbit around Mars in 2021. ISIS. Extremists using the same faith blew up Palmyra's 2,000-year-old temple of bell. Same faith. Opposite choices. Norway, a mostly Christian country ranks second in the world in human development. In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least 60,000 children. Israel, the Jewish state, is number one in the world in research spending. In 1994, a Jewish extremist from the Kach movement murdered 29 Muslim worshippers in Iran. Less than three weeks later, Israel's government outlawed Kach as a terror group. Builders invest in schools, companies, medicine in tech. Destroyers invest in weapons. The result? Norway, the UAE, and Israel are all in the world's top 30 for human development. The Lord's Resistance Army left over 100,000 dead. Every faith has builders and destroyers. The difference is the choice.",
+  "heard": "Three faiths. Two choices. Same faith. Build or destroy. The UAE, a Muslim country, put a probe in orbit around Mars in 2021. ISIS, extremists using the same faith, blew up Palmyra's 2,000-year-old Temple of Bell. Same faith. Opposite choices. Norway, a mostly Christian country, ranks second in the world in human development. In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least 60,000 children. Israel, the Jewish state, is number one in the world in research spending. In 1994, a Jewish extremist from the Kach movement murdered 29 Muslim worshippers in Hebron. Within three weeks, Israel's government outlawed cash as a terror group. Builders invest in schools, companies, medicine and tech. Destroyers invest in weapons. Norway, the UAE, and Israel are all in the world's top 30 for human development. The Lord's Resistance Army left over 100,000 dead. Every faint has builders and destroyers. The difference is the choice.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 64.63,
+ "body_s": 56.4,
  "opener": {
   "style": "globe_spin_fast",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -15.9,
-  "true_peak": -2.0
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 153.4
+ "render_s": 237.4
 }
