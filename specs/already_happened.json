@@ -23,7 +23,8 @@
   "twenty fifteen": "2015",
   "three hundred fifty thousand": "350,000",
   "fifty thousand": "50,000",
-  "One hundred sixty-one": "161"
+  "One hundred sixty-one": "161",
+  "A hundred sixty-one": "161"
  },
  "lines": [
   {
@@ -31,7 +32,7 @@
    "gap": 0.3
   },
   {
-   "say": "Jordan, nineteen seventy. PLO factions built a state within a state.",
+   "say": "Jordan, nineteen seventy. PLO factions built a state inside the state.",
    "gap": 0.3,
    "screen": "Jordan, *1970:* a state within a state",
    "at": "L1",
@@ -86,7 +87,7 @@
    "gap": 0.3
   },
   {
-   "say": "Egypt said Gaza's tunnels served Sinai militants. It flooded them in twenty fifteen.",
+   "say": "Egypt said Gaza's tunnels served Sinai militants, and flooded them in twenty fifteen.",
    "gap": 0.3,
    "screen": "Egypt floods Gaza's tunnels, *2015*",
    "screen_icon": "🌊",
@@ -98,7 +99,7 @@
    "gap": 0.3
   },
   {
-   "say": "One hundred sixty-one killed in a week, says a Palestinian rights group.",
+   "say": "A hundred sixty-one killed in one week.",
    "gap": 0.3
   },
   {
@@ -646,7 +647,7 @@
    "until": "L11-0.1"
   },
   {
-   "label": "PCHR report, cited by Human Rights Watch",
+   "label": "Palestinian Centre for Human Rights, via HRW",
    "year": 2008,
    "at": "L11",
    "until": "L13-0.1"
