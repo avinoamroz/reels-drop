@@ -9,7 +9,7 @@ puts the weapons down and gets laptops, schools and hospitals (the hopeful line)
 
 data keys:
   split_at, rank_at, hope_at, back_at, stop_fire_at   anchors
-  israel   {label, flag, value, pulse_at}               the counter rolls up from frame 0 and pulses at pulse_at
+  israel   {label, flag, value, roll_at, pulse_at}      "?" until roll_at, then the counter rolls up; pulses at pulse_at
   unit     small label under the panels
   rivals   [{label, flag, value, group, at, year?}]     shown one after another in the right panel
   rank     {y, rows (WG.bars rows with "at" anchors), note}
@@ -221,13 +221,13 @@ def run(S):
 
     def panels(cv, t, a=1.0):
         u = split_u(t)
-        v = WG.roll(t, 0.15, 0, IS["value"], 1.6)
+        tRoll = A(IS.get("roll_at"), 0.15); v = WG.roll(t, tRoll, 0, IS["value"], 1.6)
         pul = 1 + 0.12 * math.sin(math.pi * seg(t, tPulse, tPulse + 0.45, lambda z: z)) if t > tPulse else 1
         x0 = lerp(140, 30, u); w = lerp(800, 500, u)
         WG.panel(cv, x0, 510, w, 200, a)
         WG.flag(cv, IS["flag"], x0 + 60, 562, 56, a); cv.text(IS["label"].upper(), x0 + 104, 562, 48, SKY, a, align="l", maxw=w - 140)
         c = cv.c; c.save(); c.translate(x0 + w / 2, 640); c.scale(pul, pul); c.translate(-(x0 + w / 2), -640)
-        cv.text(WG.fmtn(v, 0, "$"), x0 + w / 2, 640, lerp(104, 84, u), YEL, a, maxw=w - 40); c.restore()
+        cv.text(WG.fmtn(v, 0, "$") if t >= tRoll else "?", x0 + w / 2, 640, lerp(104, 84, u), YEL, a, maxw=w - 40); c.restore()
         if u > 0.01:   # bars under the panels: Israel full, rival tiny
             cv.rrect(x0 + 20, 732, (w - 40) * eout(u), 22, 11, SKY, a)
         if u > 0.01:

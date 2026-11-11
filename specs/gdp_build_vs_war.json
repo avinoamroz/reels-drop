@@ -84,7 +84,8 @@
    "label": "Israel",
    "flag": "IL",
    "value": 54217,
-   "pulse_at": "L5:fifty"
+   "pulse_at": "L5:fifty",
+   "roll_at": "L1:israel"
   },
   "unit": "GDP per person, US$",
   "rivals": [
