@@ -1,0 +1,686 @@
+{
+ "id": "already_happened",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Ask *Jordan.* Ask *Lebanon.*|Ask *Kuwait.*",
+ "opener": {
+  "style": "map_fold"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.05
+ },
+ "subs_replace": {
+  "nineteen seventy": "1970",
+  "seventy-one": "1971",
+  "nineteen eighty-two": "1982",
+  "nineteen ninety": "1990",
+  "ninety-two": "1992",
+  "two thousand five": "2005",
+  "twenty fifteen": "2015",
+  "three hundred fifty thousand": "350,000",
+  "fifty thousand": "50,000",
+  "One hundred sixty-one": "161"
+ },
+ "lines": [
+  {
+   "say": "Ask Jordan. Ask Lebanon. Ask Kuwait.",
+   "gap": 0.45
+  },
+  {
+   "say": "Armed groups next door? We don't have to imagine.",
+   "gap": 0.4,
+   "screen": "We don't have to *imagine.*",
+   "screen_icon": "🗺️",
+   "at": "L1:we",
+   "until": "L2-0.1"
+  },
+  {
+   "say": "Jordan, nineteen seventy. PLO factions built a state within a state.",
+   "gap": 0.3,
+   "screen": "Jordan, *1970:* a state within a state",
+   "at": "L2",
+   "until": "L3-0.1"
+  },
+  {
+   "say": "They shot at the King, and blew up three hijacked airliners.",
+   "gap": 0.35,
+   "screen": "*3* hijacked airliners, blown up",
+   "screen_icon": "✈️",
+   "at": "L3:blew",
+   "until": "L4-0.1"
+  },
+  {
+   "say": "Jordan's army struck back. Thousands died, many Palestinian civilians. By seventy-one, the PLO was out.",
+   "gap": 0.4,
+   "screen": "*Thousands* died, many Palestinian civilians",
+   "at": "L4:thousands",
+   "until": "L4:by-0.1"
+  },
+  {
+   "say": "Next stop: Lebanon. Its south became Fatahland.",
+   "gap": 0.3,
+   "screen": "Lebanon: *Fatahland*",
+   "at": "L5:fatahland",
+   "until": "L6-0.1"
+  },
+  {
+   "say": "Then civil war, with many sides. The PLO was one of them.",
+   "gap": 0.3,
+   "screen": "Civil war, *1975.* Many sides.",
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "say": "In nineteen eighty-two, after Israel invaded, it was shipped out of Beirut.",
+   "gap": 0.45
+  },
+  {
+   "say": "Kuwait, nineteen ninety. Arafat backed Saddam Hussein's invasion.",
+   "gap": 0.35,
+   "screen": "Kuwait, *1990:* Arafat backs Saddam",
+   "at": "L8",
+   "until": "L9-0.1"
+  },
+  {
+   "say": "Families paid for that choice.",
+   "gap": 0.3
+  },
+  {
+   "say": "Over three hundred fifty thousand Palestinians lived there. By ninety-two, under fifty thousand.",
+   "gap": 0.45
+  },
+  {
+   "say": "Egypt said Gaza's tunnels served Sinai militants. It flooded them in twenty fifteen.",
+   "gap": 0.4,
+   "screen": "Egypt floods Gaza's tunnels, *2015*",
+   "screen_icon": "🌊",
+   "at": "L11:flooded",
+   "until": "L12-0.1"
+  },
+  {
+   "say": "Gaza: Israel left in two thousand five. Two years later, HAMAS took it by force.",
+   "gap": 0.3
+  },
+  {
+   "say": "One hundred sixty-one killed in a week, says a Palestinian rights group.",
+   "gap": 0.4
+  },
+  {
+   "say": "HAMAS: Sunni, but armed by Iran's Shi'a regime.",
+   "gap": 0.4,
+   "screen": "Sunni group. *Shi'a* sponsor: Iran.",
+   "at": "L14",
+   "until": "L15-0.1"
+  },
+  {
+   "say": "Many Palestinians were victims of these groups too.",
+   "gap": 0.45
+  },
+  {
+   "say": "Leave, and get peace? We've seen it. That's why Israel isn't leaving.",
+   "gap": 0.4
+  },
+  {
+   "say": "Don't believe me?"
+  }
+ ],
+ "data": {
+  "cam0": [
+   41.0,
+   31.2,
+   17.0
+  ],
+  "hook_y": 930,
+  "title_y": 330,
+  "cams": [
+   {
+    "at": "L2-0.3",
+    "view": [
+     36.15,
+     32.0,
+     2.6,
+     980
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L4:by-0.2",
+    "view": [
+     35.9,
+     32.9,
+     4.4,
+     980
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L5-0.2",
+    "view": [
+     35.6,
+     33.45,
+     2.4,
+     980
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     34.6,
+     33.7,
+     4.2,
+     980
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L8-0.3",
+    "view": [
+     45.2,
+     31.4,
+     9.0,
+     980
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L10-0.3",
+    "view": [
+     47.7,
+     29.35,
+     2.4,
+     900
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L11-0.3",
+    "view": [
+     34.0,
+     30.9,
+     3.2,
+     980
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L12-0.2",
+    "view": [
+     34.38,
+     31.4,
+     0.9,
+     900
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L14-0.3",
+    "view": [
+     42.8,
+     32.6,
+     20.0,
+     980
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L16",
+    "view": [
+     41.0,
+     31.2,
+     17.0,
+     960
+    ],
+    "dur": 1.4
+   }
+  ],
+  "pins": [
+   {
+    "at": "L0:jordan",
+    "until": "L1e",
+    "lon": 35.93,
+    "lat": 31.95,
+    "label": "Jordan",
+    "color": "yellow"
+   },
+   {
+    "at": "L0:lebanon",
+    "until": "L1e",
+    "lon": 35.5,
+    "lat": 33.89,
+    "label": "Lebanon",
+    "color": "yellow"
+   },
+   {
+    "at": "L0:kuwait",
+    "until": "L1e",
+    "lon": 47.98,
+    "lat": 29.37,
+    "label": "Kuwait",
+    "color": "yellow"
+   },
+   {
+    "at": "L2:state",
+    "until": "L4:by",
+    "lon": 35.93,
+    "lat": 31.95,
+    "label": "Amman",
+    "color": "red"
+   },
+   {
+    "at": "L2:state+0.15",
+    "until": "L4:by",
+    "lon": 35.85,
+    "lat": 32.55,
+    "label": "Irbid",
+    "color": "red"
+   },
+   {
+    "at": "L2:state+0.3",
+    "until": "L4:by",
+    "lon": 36.09,
+    "lat": 32.07,
+    "label": "Zarqa",
+    "color": "red"
+   },
+   {
+    "at": "L7:beirut",
+    "until": "L8-0.2",
+    "lon": 35.5,
+    "lat": 33.89,
+    "label": "Beirut",
+    "color": "red"
+   },
+   {
+    "at": "L8:kuwait",
+    "until": "L11-0.3",
+    "lon": 47.98,
+    "lat": 29.37,
+    "label": "Kuwait City",
+    "color": "yellow"
+   },
+   {
+    "at": "L12:gaza",
+    "until": "L14-0.3",
+    "lon": 34.45,
+    "lat": 31.51,
+    "label": "Gaza City",
+    "color": "red"
+   }
+  ],
+  "icons": [
+   {
+    "at": "L3:king",
+    "until": "L4-0.1",
+    "lon": 35.6,
+    "lat": 31.75,
+    "emo": "👑",
+    "size": 84,
+    "label": "King Hussein targeted",
+    "label_dy": 80
+   },
+   {
+    "at": "L3:three",
+    "until": "L4-0.1",
+    "lon": 36.55,
+    "lat": 32.2,
+    "emo": "💥",
+    "size": 90,
+    "label": "Dawson's Field, Sept 1970",
+    "label_dy": 85
+   },
+   {
+    "at": "L11:sinai",
+    "until": "L12-0.3",
+    "lon": 33.8,
+    "lat": 30.6,
+    "emo": "⚠️",
+    "size": 80,
+    "label": "Sinai armed groups",
+    "label_dy": 80
+   },
+   {
+    "at": "L11:flooded",
+    "until": "L12-0.3",
+    "lon": 34.24,
+    "lat": 31.28,
+    "emo": "🌊",
+    "size": 84,
+    "label": "Rafah tunnels",
+    "label_dy": -80
+   },
+   {
+    "at": "L12:israel",
+    "until": "L12:two#2",
+    "lon": 34.62,
+    "lat": 31.3,
+    "emo": "🇮🇱",
+    "size": 80,
+    "label": "Israel leaves, 2005",
+    "label_dy": 80
+   },
+   {
+    "at": "L14:iran's",
+    "until": "L15-0.2",
+    "lon": 51.4,
+    "lat": 35.7,
+    "emo": "🇮🇷",
+    "size": 90
+   }
+  ],
+  "routes": [
+   {
+    "at": "L4:by",
+    "until": "L6",
+    "kind": "flow",
+    "path": [
+     [
+      35.93,
+      31.95
+     ],
+     [
+      36.2,
+      32.9
+     ],
+     [
+      36.29,
+      33.51
+     ],
+     [
+      35.75,
+      33.45
+     ],
+     [
+      35.45,
+      33.25
+     ]
+    ],
+    "label": "PLO expelled, 1971",
+    "label_at": [
+     36.9,
+     32.9
+    ],
+    "draw": 1.2
+   },
+   {
+    "at": "L7:shipped",
+    "until": "L8-0.2",
+    "kind": "flow",
+    "path": [
+     [
+      35.5,
+      33.89
+     ],
+     [
+      34.3,
+      34.1
+     ],
+     [
+      33.0,
+      34.2
+     ]
+    ],
+    "label": "Out by sea, 1982",
+    "label_at": [
+     33.9,
+     33.6
+    ],
+    "draw": 1.0
+   },
+   {
+    "at": "L8:saddam",
+    "until": "L10-0.3",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      44.37,
+      33.31
+     ],
+     [
+      46.3,
+      31.0
+     ],
+     [
+      47.98,
+      29.37
+     ]
+    ],
+    "label": "Iraq invades, Aug 1990",
+    "label_at": [
+     44.6,
+     31.3
+    ],
+    "draw": 1.0
+   },
+   {
+    "at": "L14:armed",
+    "until": "L15-0.2",
+    "kind": "power",
+    "path": [
+     [
+      51.4,
+      35.7
+     ],
+     [
+      44.0,
+      34.0
+     ],
+     [
+      38.5,
+      32.4
+     ],
+     [
+      34.45,
+      31.5
+     ]
+    ],
+    "label": "Iran: weapons and support",
+    "label_at": [
+     44.0,
+     34.9
+    ],
+    "draw": 1.2
+   }
+  ],
+  "zones": [
+   {
+    "at": "L5:fatahland",
+    "until": "L7-0.2",
+    "poly": [
+     [
+      35.12,
+      33.09
+     ],
+     [
+      35.55,
+      33.08
+     ],
+     [
+      35.82,
+      33.28
+     ],
+     [
+      35.8,
+      33.48
+     ],
+     [
+      35.35,
+      33.45
+     ],
+     [
+      35.2,
+      33.28
+     ]
+    ],
+    "color": "red",
+    "alpha": 0.45,
+    "label": "Fatahland",
+    "label_at": [
+     35.47,
+     33.0
+    ]
+   },
+   {
+    "at": "L12:HAMAS",
+    "until": "L14-0.3",
+    "poly": [
+     [
+      34.2453,
+      31.2083
+     ],
+     [
+      34.3483,
+      31.2929
+     ],
+     [
+      34.3502,
+      31.3627
+     ],
+     [
+      34.5256,
+      31.5256
+     ],
+     [
+      34.5241,
+      31.5417
+     ],
+     [
+      34.4773,
+      31.5849
+     ],
+     [
+      34.37,
+      31.47
+     ],
+     [
+      34.26,
+      31.36
+     ],
+     [
+      34.2,
+      31.32
+     ]
+    ],
+    "color": "red",
+    "alpha": 0.45,
+    "label": "HAMAS ousts Fatah, June 2007",
+    "label_at": [
+     34.25,
+     31.6
+    ]
+   }
+  ],
+  "counter": [
+   {
+    "label": "Palestinians in Kuwait, 1990",
+    "at": "L10-0.2",
+    "until": "L10:under-0.1",
+    "y": 1250,
+    "suffix": "+",
+    "steps": [
+     {
+      "at": "L10:three",
+      "value": 350000
+     }
+    ]
+   },
+   {
+    "label": "Palestinians in Kuwait, 1992",
+    "at": "L10:under-0.1",
+    "until": "L11-0.2",
+    "y": 1250,
+    "prefix": "under ",
+    "steps": [
+     {
+      "at": "L10:fifty#2",
+      "value": 50000
+     }
+    ]
+   },
+   {
+    "label": "Killed in one week, June 2007",
+    "at": "L13-0.2",
+    "until": "L14-0.3",
+    "y": 1250,
+    "steps": [
+     {
+      "at": "L13:sixty",
+      "value": 161
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Avi Shlaim, Lion of Jordan; Salibi, Modern History of Jordan",
+   "year": 2008,
+   "at": "L2",
+   "until": "L5-0.1"
+  },
+  {
+   "label": "Library of Congress, Lebanon: A Country Study; Laffin",
+   "year": 1987,
+   "at": "L5",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "New York Times, PLO pullout from Beirut",
+   "year": 1982,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "VOA, Abbas apologizes to Kuwait",
+   "year": 2004,
+   "at": "L8",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Human Rights Watch, World Report: Kuwait",
+   "year": 1993,
+   "at": "L10",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "Al Jazeera; Human Rights Watch",
+   "year": 2015,
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "PCHR report, cited by Human Rights Watch",
+   "year": 2008,
+   "at": "L12",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "US State Dept terrorism report; Haniyeh on Press TV",
+   "year": 2021,
+   "at": "L14",
+   "until": "L15-0.1"
+  }
+ ],
+ "end": {
+  "at": "L15",
+  "balance": "Many Palestinians were *victims* of these groups too.",
+  "cta": "Send this to someone who says *just leave*"
+ },
+ "caption_en": "\"Just leave, and there will be peace.\" We don't have to imagine it. Arab countries already saw what armed groups do with a base next door.\n\n🇯🇴 Jordan, 1970: PLO factions built a state within a state. King Hussein's motorcade was fired on (June and September 1970) and the PFLP blew up three hijacked airliners at Dawson's Field (12 Sept 1970). Jordan's army struck back in \"Black September\"; thousands died, many of them Palestinian civilians in the camps. By July 1971 the PLO was out.\n\n🇱🇧 Lebanon: the PLO moved its base there, and the south was nicknamed \"Fatahland\". From 1975 Lebanon fell into a civil war with many sides, and the PLO was one of them. In 1982, after Israel invaded, its fighters were shipped out of Beirut.\n\n🇰🇼 Kuwait, 1990: Arafat backed Saddam Hussein's invasion. After liberation, Palestinian families paid for that choice: over 350,000 Palestinians lived in Kuwait before the war, fewer than 50,000 by 1992 (Human Rights Watch). In 2004 Mahmoud Abbas apologised to Kuwait for the PLO's stand.\n\n🇪🇬 Egypt said Gaza's smuggling tunnels served armed groups in Sinai. In 2015 it flooded them with seawater, after razing homes on its side of Rafah for a buffer zone.\n\n🇵🇸 Gaza: Israel left in 2005. In June 2007 HAMAS seized Gaza from Fatah by force: 161 Palestinians killed in one week, 41 of them civilians (Palestinian Centre for Human Rights).\n\nHAMAS is a Sunni group armed by Iran's Shi'a regime. The US State Department says Iran provides it weapons and other support, and HAMAS leader Ismail Haniyeh thanked Iran for \"money and weaponry\" in 2021.\n\nMany Palestinians were victims of these groups too. That's why Israel isn't leaving.\n\nSources: Avi Shlaim, Lion of Jordan (2008); Kamal Salibi, The Modern History of Jordan (1998); Library of Congress, Lebanon: A Country Study (1987); John Laffin, The War of Desperation (1985); New York Times (1982); VOA (2004); Human Rights Watch World Report 1993; Al Jazeera (2015); Human Rights Watch (2015, 2008); PCHR (2007); US State Department, Country Reports on Terrorism 2021; Press TV via Israel Hayom (2021). AI voice.\n\nSend this to someone who says \"just leave\".",
+ "caption_he": "\"פשוט תצאו, ויהיה שלום.\" אנחנו לא צריכים לדמיין. מדינות ערב כבר ראו מה ארגונים חמושים עושים כשיש להם בסיס ליד הבית.\n\n🇯🇴 ירדן, 1970: פלגי אש\"ף הקימו מדינה בתוך מדינה. ירו על שיירת המלך חוסיין (יוני וספטמבר 1970), והחזית העממית פוצצה שלושה מטוסים חטופים בשדה דוסון (12 בספטמבר 1970). צבא ירדן הכה בחזרה ב\"ספטמבר השחור\"; אלפים נהרגו, רבים מהם אזרחים פלסטינים במחנות. ביולי 1971 אש\"ף גורש.\n\n🇱🇧 לבנון: אש\"ף העביר לשם את הבסיס שלו, והדרום קיבל כינוי: \"פתחלנד\". מ־1975 לבנון נקלעה למלחמת אזרחים עם הרבה צדדים, ואש\"ף היה אחד מהם. ב־1982, אחרי שישראל פלשה, הלוחמים שלו הוצאו מביירות בים.\n\n🇰🇼 כווית, 1990: ערפאת תמך בפלישה של סדאם חוסיין. אחרי השחרור, משפחות פלסטיניות שילמו על הבחירה הזאת: לפני המלחמה חיו בכווית יותר מ־350,000 פלסטינים, ב־1992 פחות מ־50,000 (Human Rights Watch). ב־2004 מחמוד עבאס התנצל בפני כווית על עמדת אש\"ף.\n\n🇪🇬 מצרים טענה שמנהרות ההברחה מעזה שירתו ארגונים חמושים בסיני. ב־2015 היא הציפה אותן במי ים, אחרי שהרסה בתים בצד שלה של רפיח לטובת אזור חיץ.\n\n🇵🇸 עזה: ישראל יצאה ב־2005. ביוני 2007 חמאס השתלט על עזה בכוח מידי פת\"ח: 161 פלסטינים נהרגו בשבוע אחד, 41 מהם אזרחים (המרכז הפלסטיני לזכויות אדם).\n\nחמאס הוא ארגון סוני שמקבל נשק מהמשטר השיעי באיראן. משרד החוץ האמריקאי מציין שאיראן מספקת לו נשק ותמיכה, ומנהיג חמאס איסמעיל הנייה הודה לאיראן על \"כסף ונשק\" ב־2021.\n\nגם הרבה פלסטינים היו קורבנות של הארגונים האלה. ובגלל זה ישראל לא יוצאת.\n\nשלחו את זה למי שאומר \"פשוט תצאו\".",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#history"
+ ],
+ "cover": {
+  "t": 9.0,
+  "big": "1970",
+  "text": "What happens if|Israel *leaves?*"
+ }
+}
