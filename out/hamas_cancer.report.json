@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "surgery",
  "hook": "Gaza: the *patient.*|HAMAS: the *tumour.*",
- "duration": 57.23,
+ "duration": 54.33,
  "audio": {
   "lufs": -16.0,
   "true_peak": -2.0
@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.95,
+  "score": 0.963,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -120,7 +120,7 @@
    },
    {
     "line": "Or surgery. Slow, costly, and your own team goes in.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -130,7 +130,7 @@
    },
    {
     "line": "And every healthy cell lost is a real person. A real tragedy.",
-    "score": 0.917,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -144,23 +144,23 @@
     "flag": "ok"
    }
   ],
-  "heard": "Gaza is the patient. Hamas is the tumor. Every light on this scan is a person. This is the tumor. Its roots run under everything. Homes. Schools. Hospitals. The White House said Hamas used Al-Shifa Hospital and tunnels under it to hold hostages. Under the UN agency's headquarters, Israel found a Hamas data center. In 2014, the UN found rockets hidden in three of its empty schools. Gaza is 41 kilometers long. The tunnels. Up to 720. Now you're the surgeon. Two options. One bomb. Tumor gone. Patient gone. Four surgery. Slow. Costly. And your own team goes in. 472 Israeli soldiers were killed in the ground operation. And every healthy cell lost is a real cursing. A real tragedy. So the law judges each strike on its own. Not by comparing death tolls. The goal was never the patient. Remove the tumor so the patient can live.",
+  "heard": "Gaza is the patient. Hamas is the tumor. Every light on this scan is a person. This is the tumor. Its roots run under everything. Homes. Schools. Hospitals. The White House said Hamas used al-Shifa Hospital and tunnels under it to hold hostages. Under the UN agency's headquarters, Israel found a Hamas data center. In 2014, the UN found rockets hidden in three of its empty schools. Gaza is 41 kilometers long. The tunnels. Up to 720. And now you're the surgeon. Two options. One bomb. Tumor gone. Patient gone. Or surgery. Slow. Costly. And your own team goes in. 472 Israeli soldiers were killed in the ground operation, and every healthy cell lost is a real person. A real tragedy. So the law judges each strike on its own, not by comparing death tolls. The goal was never the patient. Remove the tumor, so the patient can live.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
+  "lufs": -16.1,
   "true_peak": -2.0
  },
  "phases": {
-  "bomb": 33.29,
-  "surgery": 36.57,
-  "zoom": 46.15,
-  "heal": 53.78
+  "bomb": 31.64,
+  "surgery": 34.57,
+  "zoom": 42.34,
+  "heal": 50.88
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 134.4
+ "render_s": 159.2
 }
