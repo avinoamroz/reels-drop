@@ -301,6 +301,16 @@
    "posts_at": "2026-11-12 14:47"
   },
   {
+   "id": "nobel_race_v6_en",
+   "account": "noam",
+   "due": "2026-11-12T15:40:00+02:00",
+   "payload": {
+    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/nobel_race_v6_en.mp4\", \"caption\": \"Jews are 0.2% of the world. About 22% of Nobel Prize winners. 🏅\\n\\nNobel laureates by religious background, from 1901 to today: Christians, Jews, atheists, Muslims, Hindus and Buddhists. Many laureates were secular, so this is background, not belief.\\n\\nMilestones on the way: Einstein (Physics, 1921), S.Y. Agnon, the first Israeli laureate (1966), Begin and Sadat (Peace, 1978), Kahneman (Economics, 2002), Shechtman (Chemistry, 2011).\\n\\nFigures are approximate. Sources: Baruch Shalev, 100 Years of Nobel Prizes; the official Nobel laureate lists.\\n\\nWhy do you think the share is so high?\\n\\n#nobelprize #jewish #israel\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/nobel_race_v6_en_cover.jpg\"}"
+   },
+   "due_epoch": 1794490800,
+   "posts_at": "2026-11-12 15:47"
+  },
+  {
    "id": "idf_structure",
    "account": "express",
    "due": "2026-11-12T16:00:00+02:00",
@@ -1059,8 +1069,17 @@
      "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/syria_pov_v3.mp4\", \"caption\": \"You're Israel. The army next door just vanished. What do you do? 🎯\\n\\n📅 December 2024: Assad falls. HTS-led rebels take Damascus, and Syria's troops leave the border.\\n📜 The 1974 buffer zone deal? Israel says it collapsed.\\n\\nOption 1: wait. Option 2: move in. Option 3: strike the weapons before armed groups get them.\\n\\nIsrael chose 2 and 3: it moved into the buffer zone, up to Mount Hermon, and struck the old army's weapons.\\nSince then: rockets at the Golan (June 2025), and deadly clashes in Sweida, where Israel struck Syrian forces saying it was protecting the Druze (July 2025).\\n\\nWhat would YOU do? Tell me in the comments 👇\\n\\nאתם ישראל. הצבא של השכנים נעלם. לחכות, להיכנס, או לתקוף את הנשק? ישראל בחרה להיכנס ולתקוף. האו״ם וסוריה קוראים לזה הפרה. מה אתם הייתם עושים? 👇\\n\\n👥 Tag a friend who needs to see this 👇\\nתייגו חבר שחייב לראות את זה 👇\\n\\nSources: AFP and Reuters, 8 Dec 2024; UN spokesperson Stephane Dujarric, 9 Dec 2024; AAP, 10 Dec 2024; ACLED, 19 Dec 2024; Times of Israel, 3 Jun 2025; NPR, 16 Jul 2025; Reuters via Al-Monitor, 24 Aug 2026; map: Natural Earth\\n\\n#Israel #Syria #Golan #MiddleEast #ישראל #סוריה\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/syria_pov_v3_cover.jpg\"}"
     }
    }
+  },
+  "s996939": {
+   "noam": {
+    "id": "nobel_race_v6_en",
+    "due": "2026-11-12T15:40:00+02:00",
+    "payload": {
+     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/nobel_race_v6_en.mp4\", \"caption\": \"Jews are 0.2% of the world. About 22% of Nobel Prize winners. 🏅\\n\\nNobel laureates by religious background, from 1901 to today: Christians, Jews, atheists, Muslims, Hindus and Buddhists. Many laureates were secular, so this is background, not belief.\\n\\nMilestones on the way: Einstein (Physics, 1921), S.Y. Agnon, the first Israeli laureate (1966), Begin and Sadat (Peace, 1978), Kahneman (Economics, 2002), Shechtman (Chemistry, 2011).\\n\\nFigures are approximate. Sources: Baruch Shalev, 100 Years of Nobel Prizes; the official Nobel laureate lists.\\n\\nWhy do you think the share is so high?\\n\\n#nobelprize #jewish #israel\", \"share_to_feed\": true, \"is_ai_generated\": true, \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/nobel_race_v6_en_cover.jpg\"}"
+    }
+   }
   }
  },
- "due_buckets": "|996855|996859|996860|996861|996862|996874|996877|996880|996883|996885|996886|996888|996889|996891|996892|996894|996895|996898|996903|996907|996922|996925|996928|996930|996931|996933|996934|996936|996937|996940|996943|996946|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|997018|997021|997024|997027|997030|997033|997036|",
- "generated_at": "2026-11-11T10:35:54+00:00"
+ "due_buckets": "|996855|996859|996860|996861|996862|996874|996877|996880|996883|996885|996886|996888|996889|996891|996892|996894|996895|996898|996903|996907|996922|996925|996928|996930|996931|996933|996934|996936|996937|996939|996940|996943|996946|996970|996973|996976|996979|996982|996984|996985|996986|996988|996991|996993|996994|996995|996998|997018|997021|997024|997027|997030|997033|997036|",
+ "generated_at": "2026-11-11T12:59:44+00:00"
 }
