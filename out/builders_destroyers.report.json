@@ -1,0 +1,181 @@
+{
+ "id": "builders_destroyers",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*3* faiths.|*2* choices.",
+ "duration": 66.13,
+ "audio": {
+  "lufs": -15.9,
+  "true_peak": -1.0
+ },
+ "outputs": {
+  "mp4": "out/builders_destroyers.mp4",
+  "cover": "covers/builders_destroyers_cover.jpg",
+  "preview": "previews/builders_destroyers_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/builders_destroyers_0.jpg",
+  "1": "out/frames/builders_destroyers_1.jpg",
+  "3": "out/frames/builders_destroyers_3.jpg",
+  "last": "out/frames/builders_destroyers_last.jpg"
+ },
+ "caption_en": "Same faith. Opposite choices. 🕊️\n\nIslam: the UAE put the Hope probe into Mars orbit (9 Feb 2021). ISIS blew up the 2,000 year old Temple of Bel in Palmyra (Aug 2015, confirmed by UN satellite images).\nChristianity: Norway ranks 2nd of 193 countries in human development (UNDP 2025). The Lord's Resistance Army in Uganda, which claimed to fight in God's name, abducted 60,000 to 100,000 children (UN Secretary-General, 2013).\nJudaism: Israel is 1st in the world in research spending, 6.35% of GDP (WIPO 2025). In 1994 a Kach extremist murdered 29 Muslim worshippers in Hebron, and Israel's government outlawed Kach and Kahane Chai as terror groups within three weeks.\n\nNorway, the UAE and Israel are all in the world's top 30 for human development (2, 15 and 27 of 193). The LRA alone is responsible for more than 100,000 deaths (UN, 2013).\n\nNo faith is the problem. Every faith has builders and destroyers. The difference is the choice.\n\nSend this to a friend of another faith.",
+ "caption_he": "אותה אמונה. בחירות הפוכות. 🕊️\n\nאיסלאם: איחוד האמירויות הכניס את גשושית Hope למסלול סביב מאדים (9.2.2021). דאעש פוצץ את מקדש בל בן 2,000 השנים בפלמירה (אוגוסט 2015, אושר בתצלומי לוויין של האו\"ם).\nנצרות: נורווגיה במקום השני מתוך 193 מדינות במדד הפיתוח האנושי (האו\"ם, 2025). \"צבא ההתנגדות של האל\" באוגנדה, שטען שהוא נלחם בשם אלוהים, חטף בין 60,000 ל-100,000 ילדים (מזכ\"ל האו\"ם, 2013).\nיהדות: ישראל במקום הראשון בעולם בהשקעה במחקר ופיתוח, 6.35% מהתוצר (WIPO, 2025). ב-1994 קיצוני מתנועת כך רצח 29 מתפללים מוסלמים בחברון, והממשלה הוציאה את כך ואת כהנא חי מחוץ לחוק כארגוני טרור תוך שלושה שבועות.\n\nנורווגיה, האמירויות וישראל כולן ב-30 הראשונות בעולם בפיתוח אנושי. ה-LRA לבדו אחראי ליותר מ-100,000 הרוגים.\n\nאף אמונה היא לא הבעיה. בכל אמונה יש בונים ויש הורסים. ההבדל הוא הבחירה.",
+ "hashtags": [
+  "#Israel",
+  "#interfaith",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "Emirates Mars Mission",
+   "year": 2021,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "UNESCO, Temple of Bel",
+   "year": 2015,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "UNDP Human Development Report",
+   "year": 2025,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "UN Secretary-General, S/2013/297",
+   "year": 2013,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "WIPO Global Innovation Index",
+   "year": 2025,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Israel State Archives",
+   "year": 1994,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "UNDP HDI rank of 193",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "label": "UN Secretary-General, S/2013/297",
+   "year": 2013,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.977,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Three faiths. Two choices.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same faith: build, or destroy. Watch.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The UAE, a Muslim country, put a probe in orbit around Mars in 2021.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "ISIS, extremists using the same faith, blew up Palmyra's two thousand year old Temple of Bel.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Same faith. Opposite choices.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Norway, a mostly Christian country, ranks second in the world in human development.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least sixty thousand children.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel, the Jewish state, is number one in the world in research spending.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1994, a Jewish extremist from the Kach movement murdered twenty nine Muslim worshippers in Hebron.",
+    "score": 0.955,
+    "flag": "ok"
+   },
+   {
+    "line": "Less than three weeks later, Israel's government outlawed Kach as a terror group.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Builders invest in schools, companies, medicine and tech.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Destroyers invest in weapons.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The result? Norway, the UAE and Israel are all in the world's top thirty for human development.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Lord's Resistance Army left over a hundred thousand dead.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Every faith has builders and destroyers.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The difference is the choice.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Three faiths. Two choices. Same faith. Build or destroy. Watch. The UAE. A Muslim country put a probe in orbit around Mars in 2021. ISIS. Extremists using the same faith blew up Palmyra's 2,000-year-old temple of bell. Same faith. Opposite choices. Norway, a mostly Christian country ranks second in the world in human development. In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least 60,000 children. Israel, the Jewish state, is number one in the world in research spending. In 1994, a Jewish extremist from the Kach movement murdered 29 Muslim worshippers in Iran. Less than three weeks later, Israel's government outlawed Kach as a terror group. Builders invest in schools, companies, medicine in tech. Destroyers invest in weapons. The result? Norway, the UAE, and Israel are all in the world's top 30 for human development. The Lord's Resistance Army left over 100,000 dead. Every faith has builders and destroyers. The difference is the choice.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 64.63,
+ "opener": {
+  "style": "globe_spin_fast",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -15.9,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 153.4
+}
