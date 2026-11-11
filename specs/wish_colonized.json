@@ -13,7 +13,7 @@
  },
  "lines": [
   {
-   "say": "Colonizers? Okay. Let's check five countries.",
+   "say": "Colonizers? Let's check five countries.",
    "gap": 0.15
   },
   {
@@ -49,7 +49,7 @@
    "until": "L8"
   },
   {
-   "say": "Lebanon, the freest of the five: forty one out of a hundred. Income: ten times.",
+   "say": "Lebanon scores best of the five: forty one out of a hundred. Income: ten times.",
    "gap": 0.15,
    "screen": "If Israel colonized *Lebanon*",
    "until": "L9"
@@ -98,6 +98,7 @@
   }
  ],
  "data": {
+  "hook_y": 290,
   "src_y": 1548,
   "subs_y": 1662,
   "measures": [
@@ -147,7 +148,7 @@
     "name": "Egypt",
     "flag": "EG",
     "head": "Egypt",
-    "at": "L1:here's",
+    "at": "L0:check",
     "values": [
      "18/100",
      "18%",
@@ -257,7 +258,7 @@
     "glow": [
      {
       "row": 0,
-      "at": "L8:freest",
+      "at": "L8:best",
       "until": "L8:income"
      }
     ]
@@ -413,7 +414,7 @@
   "text": "If Israel *colonized*|its neighbours?",
   "size": 130
  },
- "caption_en": "Colonizers? Let's check 5 countries. 🗺️\n\nSay Israel \"colonized\" its neighbours. What would people there get at Israel's level? (freedom score, women at work, gay people, school years, life expectancy, income per person)\n\n🇮🇱 Israel: 73, 62%, legal, 14.9, 82.4, $54,213\n🇪🇬 Egypt: 18, 18%, arrested, 13.1, 71.6, 16x less\n🇯🇴 Jordan: 34, 16%, legal, 13.1, 77.8, 11x less\n🇱🇧 Lebanon: 41, 22% (2023), illegal, 11.7, 77.8, 10x less\n🇮🇶 Iraq: 31, 11%, 10 to 15 years in prison (2024 law), 12.4, 72.3, 9x less\n🇸🇾 Syria: 10, 13%, illegal, 7.4, 72.1, 56x less\n\nHonestly? They'd wish we colonized them. Sorry, we're not hiring. We're busy building our own country.\n\nSatire about an accusation and about regimes, never about people. People in all five countries deserve every right on this list. Their regimes deny them. Israel isn't perfect, and its critics should hold it to account. But colonizer is the wrong word.\n\nFreedom House's 73 is for Israel itself. The West Bank (22) and Gaza (2) are scored in separate reports.\n\nSend this to someone who says colonizer.",
- "caption_he": "קוראים לנו קולוניאליסטים? בואו נבדוק 5 מדינות. אם ישראל הייתה \"מתנחלת\" במצרים, בירדן, בלבנון, בעיראק ובסוריה, האזרחים שם היו מקבלים ציון חופש של 73 מתוך 100, יותר נשים בעבודה, זכויות לגאים, יותר שנות לימוד, יותר שנות חיים ופי 9 עד 56 הכנסה לנפש. בכנות? הם היו שמחים שנתנחל בהם. סליחה, אנחנו לא מגייסים. אנחנו עסוקים בלבנות את המדינה שלנו. ישראל לא מושלמת, אבל \"קולוניאליסטים\" זו המילה הלא נכונה. האנשים בכל חמש המדינות ראויים לכל הזכויות האלה, המשטרים שלהם מונעים אותן.",
+ "caption_en": "Colonizers? Let's check 5 countries. 🗺️\n\nSay Israel \"colonized\" its neighbours. What would people there get at Israel's level? (freedom score, women at work, gay people, school years, life expectancy, income per person)\n\n🇮🇱 Israel: 73, 62%, legal, 14.9, 82.4, $54,213\n🇪🇬 Egypt: 18, 18%, arrested, 13.1, 71.6, 16x less\n🇯🇴 Jordan: 34, 16%, legal, 13.1, 77.8, 11x less\n🇱🇧 Lebanon (best of the five): 41, 22% (2023), illegal, 11.7, 77.8, 10x less\n🇮🇶 Iraq: 31, 11%, 10 to 15 years in prison (2024 law), 12.4, 72.3, 9x less\n🇸🇾 Syria: 10, 13%, illegal, 7.4, 72.1, 56x less\n\nHonestly? They'd wish we colonized them. Sorry, we're not hiring. We're busy building our own country.\n\nSatire about an accusation and about regimes, never about people. People in all five countries deserve every right on this list. Their regimes deny them. Israel isn't perfect, and its critics should hold it to account. But colonizer is the wrong word.\n\nFreedom House's 73 is for Israel itself. The West Bank (22) and Gaza (2) are scored in separate reports.\n\nSend this to someone who says colonizer.",
+ "caption_he": "קוראים לנו קולוניאליסטים? בואו נבדוק 5 מדינות. אם ישראל הייתה \"עושה קולוניזציה\" במצרים, בירדן, בלבנון, בעיראק ובסוריה, האזרחים שם היו מקבלים ציון חופש של 73 מתוך 100, יותר נשים בעבודה, זכויות לגאים, יותר שנות לימוד, יותר שנות חיים ופי 9 עד 56 הכנסה לנפש. בכנות? הם היו שמחים שנעשה להם קולוניזציה. סליחה, אנחנו לא מגייסים. אנחנו עסוקים בלבנות את המדינה שלנו. ישראל לא מושלמת, אבל \"קולוניאליסטים\" זו המילה הלא נכונה. האנשים בכל חמש המדינות ראויים לכל הזכויות האלה, המשטרים שלהם מונעים אותן.",
  "sources_text": "Sources: Freedom House, Freedom in the World 2026 (out of 100). Women at work: ILO modelled estimates via World Bank WDI, 2024 (Lebanon 2023). Gay people: ILGA World; Iraq law April 2024 (Reuters); Egypt arrests (HRW). School: expected years of schooling, and life expectancy: UNDP Human Development Report 2025 (2023 data). Income: GDP per person, IMF WEO Oct 2026 (2024); Syria World Bank 2022.\n\nMade with AI tools. AI voice."
 }
