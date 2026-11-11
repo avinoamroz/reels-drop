@@ -1,0 +1,46 @@
+{
+ "name": "ours_a",
+ "hits": [
+  {
+   "n": 1,
+   "word": "hamas",
+   "start": 2.1,
+   "end": 2.3,
+   "ipa": "a m a s",
+   "context": "Number one, hamas is the tumor. Number"
+  },
+  {
+   "n": 2,
+   "word": "hamas",
+   "start": 5.12,
+   "end": 5.6,
+   "ipa": "h a m aː s",
+   "context": "hamas is the tumor. Number two, hamas is the tumor. Number"
+  },
+  {
+   "n": 3,
+   "word": "hamas",
+   "start": 8.34,
+   "end": 9.0,
+   "ipa": "h a m a s",
+   "context": "hamas is the tumor. Number three, hamas is the tumor. Number"
+  },
+  {
+   "n": 4,
+   "word": "hamas",
+   "start": 12.38,
+   "end": 12.7,
+   "ipa": "h a m aː s",
+   "context": "hamas is the tumor. Number four, hamas is the tumor. Number"
+  },
+  {
+   "n": 5,
+   "word": "hamas",
+   "start": 16.02,
+   "end": 16.48,
+   "ipa": "a m aː",
+   "context": "hamas is the tumor. Number five, hamas is the tumor."
+  }
+ ],
+ "n_words": 30
+}

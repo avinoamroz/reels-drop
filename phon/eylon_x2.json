@@ -1,0 +1,46 @@
+{
+ "name": "eylon_x2",
+ "hits": [
+  {
+   "n": 1,
+   "word": "Hamas",
+   "start": 4.76,
+   "end": 5.3,
+   "ipa": "h æ b æ",
+   "context": "water to civilians in Gaza. But Hamas turns me into rockets"
+  },
+  {
+   "n": 2,
+   "word": "Hamas",
+   "start": 12.38,
+   "end": 12.76,
+   "ipa": "t h eː m ɪ z",
+   "context": "up tents for displaced Gazans. But Hamas uses me to support"
+  },
+  {
+   "n": 3,
+   "word": "Hamas",
+   "start": 21.3,
+   "end": 21.96,
+   "ipa": "t h ɛ m ə z j",
+   "context": "to treat patients in hospitals. But Hamas uses me to ventilate"
+  },
+  {
+   "n": 4,
+   "word": "Hamas",
+   "start": 30.38,
+   "end": 30.66,
+   "ipa": "d h ɛ m ə z",
+   "context": "scan patients for broken bones. But Hamas uses me to improve"
+  },
+  {
+   "n": 5,
+   "word": "Hamas",
+   "start": 38.9,
+   "end": 39.26,
+   "ipa": "d h a m aː z",
+   "context": "be a fertilizer for crops. But Hamas uses me to build"
+  }
+ ],
+ "n_words": 119
+}

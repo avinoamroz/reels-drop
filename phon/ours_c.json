@@ -1,0 +1,54 @@
+{
+ "name": "ours_c",
+ "hits": [
+  {
+   "n": 1,
+   "word": "Hamas",
+   "start": 1.62,
+   "end": 1.62,
+   "ipa": "",
+   "context": "1. Hamas 2. Hamas 3. Hamas"
+  },
+  {
+   "n": 2,
+   "word": "Hamas",
+   "start": 4.0,
+   "end": 4.0,
+   "ipa": "",
+   "context": "1. Hamas 2. Hamas 3. Hamas 4. Hamas"
+  },
+  {
+   "n": 3,
+   "word": "Hamas",
+   "start": 5.82,
+   "end": 5.98,
+   "ipa": "h ə m aː",
+   "context": "1. Hamas 2. Hamas 3. Hamas 4. Hamas 5. Hamas"
+  },
+  {
+   "n": 4,
+   "word": "Hamas",
+   "start": 7.9,
+   "end": 8.12,
+   "ipa": "h ə n m aː",
+   "context": "Hamas 2. Hamas 3. Hamas 4. Hamas 5. Hamas 6. Hamas"
+  },
+  {
+   "n": 5,
+   "word": "Hamas",
+   "start": 10.22,
+   "end": 10.3,
+   "ipa": "m aː",
+   "context": "Hamas 3. Hamas 4. Hamas 5. Hamas 6. Hamas"
+  },
+  {
+   "n": 6,
+   "word": "Hamas",
+   "start": 12.76,
+   "end": 12.92,
+   "ipa": "m aː",
+   "context": "Hamas 4. Hamas 5. Hamas 6. Hamas"
+  }
+ ],
+ "n_words": 12
+}
