@@ -1,0 +1,282 @@
+{
+ "id": "not_a_country",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Not a country? *8* tests.",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.0,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "U.N.": "UN",
+  "O.E.C.D.": "OECD",
+  "dot I L": ".il"
+ },
+ "lines": [
+  {
+   "say": "Someone told me Israel is not even a country.",
+   "gap": 0.2
+  },
+  {
+   "say": "Okay. Eight tests. Let's check.",
+   "screen": "The country checklist: *8* tests",
+   "at": "L1:eight"
+  },
+  {
+   "say": "One. A U.N. member since May, 1949.",
+   "screen": "UN member since *1949*",
+   "screen_icon": "🌐"
+  },
+  {
+   "say": "Two. Recognised by over 160 U.N. members.",
+   "screen": "Recognised by *160+* UN members",
+   "screen_icon": "🤝"
+  },
+  {
+   "say": "Three. Its own money, the shekel.",
+   "screen": "Own currency: the *shekel*",
+   "screen_icon": "🪙"
+  },
+  {
+   "say": "Four. An elected parliament, the Knesset.",
+   "screen": "Elected parliament: the *Knesset*",
+   "screen_icon": "🗳️"
+  },
+  {
+   "say": "Five. In the O.E.C.D. since 2010.",
+   "screen": "OECD member since *2010*",
+   "screen_icon": "📊"
+  },
+  {
+   "say": "Six. Its own web domain: dot I L.",
+   "screen": "Own web domain: *.il*",
+   "screen_icon": "💻"
+  },
+  {
+   "say": "Seven. An Olympic team since 1952.",
+   "screen": "Olympic team since *1952*",
+   "screen_icon": "🏅"
+  },
+  {
+   "say": "Eight. Four Eurovision wins.",
+   "screen": "*4* Eurovision wins",
+   "screen_icon": "🎤"
+  },
+  {
+   "say": "Not bad for a country that doesn't exist.",
+   "screen": "Not bad for a country that *doesn't exist*",
+   "screen_icon": "😂",
+   "gap": 0.25
+  },
+  {
+   "say": "Eight out of eight.",
+   "screen": "*8 out of 8.* Checklist complete.",
+   "screen_icon": "✅",
+   "gap": 0.25
+  },
+  {
+   "say": "Fun fact: Israel was the U.N.'s 59th member. Today there are 193.",
+   "screen": "The UN's *59th* member",
+   "until": "L13"
+  },
+  {
+   "say": "So if Israel isn't a country, the U.N. has spent 77 years arguing with a ghost.",
+   "screen": "*77 years* arguing with a ghost",
+   "screen_icon": "👻",
+   "until": "L14",
+   "gap": 0.25
+  },
+  {
+   "say": "Criticise its government all you want. Countries get criticised."
+  },
+  {
+   "say": "Send this to someone who needs the checklist."
+  },
+  {
+   "say": "And next time someone says Israel isn't even a country..."
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.0,
+   31.4,
+   7.0
+  ],
+  "hook_y": 930,
+  "cams": [
+   {
+    "at": "L12-0.2",
+    "view": [
+     18,
+     30,
+     205,
+     700
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L13:ghost",
+    "view": [
+     35.0,
+     31.4,
+     7.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "comment": {
+   "text": "Israel is not even a country",
+   "name": "anonymous comment",
+   "y": 330,
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "L16",
+     "END"
+    ]
+   ]
+  },
+  "counter": {
+   "label": "Country checklist",
+   "of": 8,
+   "at": "L1:eight",
+   "until": "L11e+0.4",
+   "y": 1240,
+   "steps": [
+    {
+     "at": "L2:one",
+     "value": 1
+    },
+    {
+     "at": "L3:two",
+     "value": 2
+    },
+    {
+     "at": "L4:three",
+     "value": 3
+    },
+    {
+     "at": "L5:four",
+     "value": 4
+    },
+    {
+     "at": "L6:five",
+     "value": 5
+    },
+    {
+     "at": "L7:six",
+     "value": 6
+    },
+    {
+     "at": "L8:seven",
+     "value": 7
+    },
+    {
+     "at": "L9:eight",
+     "value": 8
+    }
+   ]
+  },
+  "big": [
+   {
+    "at": "L12:59th",
+    "until": "L12:today",
+    "value": 59,
+    "from": 1,
+    "prefix": "#",
+    "sub": "UN member, May 1949",
+    "y": 960
+   },
+   {
+    "at": "L12:today",
+    "until": "L13",
+    "value": 193,
+    "from": 59,
+    "sub": "UN members today",
+    "y": 960
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "UN General Assembly Resolution 273 (III)",
+   "year": 1949,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "International recognition of Israel (Wikipedia): 169 of 192",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Bank of Israel: the new shekel",
+   "year": 1985,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Knesset: first elections, 25 January",
+   "year": 1949,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "OECD: Israel's accession, 7 September",
+   "year": 2010,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "IANA root zone: .il created 24 October",
+   "year": 1985,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Olympics.com: Israel's first Games, Helsinki",
+   "year": 1952,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "EBU: wins 1978, 1979, 1998, 2018",
+   "year": 2026,
+   "at": "L9",
+   "until": "L11"
+  },
+  {
+   "label": "UN: growth in membership, 1945 to today",
+   "year": 2026,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "Criticise its *government* all you want.",
+  "cta": "Send them the *checklist*"
+ },
+ "caption_en": "Someone commented: \"Israel is not even a country.\" So I ran the country checklist. 😂\n\n1. UN member since 11 May 1949 (UN General Assembly Resolution 273)\n2. Recognised by over 160 of the other 192 UN members (169 in the latest count)\n3. Its own currency, the shekel\n4. An elected parliament, the Knesset (first elections 25 January 1949)\n5. OECD member since 7 September 2010\n6. Its own web domain: .il (since 1985)\n7. An Olympic team since Helsinki 1952\n8. Four Eurovision wins (1978, 1979, 1998, 2018)\n\n8 out of 8. Fun fact: Israel was the UN's 59th member. Today there are 193.\nCriticise its government all you want. Countries get criticised.\n\nSend this to someone who needs the checklist.",
+ "caption_he": "מישהו כתב לי בתגובות: \"ישראל היא אפילו לא מדינה\". אז עברתי על הצ'קליסט. 😂\n1. חברה באו\"ם מאז 11 במאי 1949 (החלטה 273 של העצרת הכללית)\n2. מוכרת על ידי יותר מ-160 מתוך 192 החברות האחרות באו\"ם (169 בספירה האחרונה)\n3. מטבע משלה: השקל\n4. פרלמנט נבחר: הכנסת (בחירות ראשונות ב-25 בינואר 1949)\n5. חברה ב-OECD מאז 2010\n6. סיומת אינטרנט משלה: il.\n7. נבחרת אולימפית מאז הלסינקי 1952\n8. ארבעה ניצחונות באירוויזיון\n8 מתוך 8. וישראל הייתה החברה ה-59 באו\"ם. היום יש 193.\nמותר לבקר את הממשלה כמה שרוצים. מדינות מקבלות ביקורת.\nשלחו את זה למישהו שצריך את הצ'קליסט.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "cover": {
+  "t": 3.0,
+  "big": "? / 8",
+  "text": "Not a|*country?*"
+ },
+ "credits": "AI voice (Cartesia clone, Noam Roz reels voice); synthesised music bed and sound effects; map: house map renderer"
+}

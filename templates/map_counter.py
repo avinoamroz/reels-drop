@@ -19,6 +19,9 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
   zones       [{at, until, poly: [[lon, lat], ...], color, alpha, label, label_at, emo}]   filled areas (buffer zone ...)
   icons       [{at, until, lon, lat, emo, size, label, label_dy, col}]    emoji on the map with an optional tag
   lines[i].screen_icon   emoji drawn above that line's screen card (title_y - 125)
+  comment     {text, show: [[at, until], ...], y, name, size}   a generic, anonymous social comment bubble (grey avatar,
+              placeholder name, never a real user or screenshot); pops in at each window start, e.g. [[0, "L0e"], ["END-2", "END"]]
+              so the loop lands on it again; text wraps to 2 lines (default size 60, name 40)
 """
 import os, sys, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -98,6 +101,26 @@ def draw_route(cv, r, t, geo):
         if lab: WG.tag(cv, lab, x, y + r.get("label_dy", 70), r.get("size", 46), RED if cut else YEL, la)
 
 
+def draw_comment(cv, C, a, sc=1.0):
+    """generic anonymous comment bubble: white card, grey avatar silhouette, placeholder name, comment text"""
+    if a <= 0.01: return
+    y = C.get("y", 330); sz = C.get("size", 60); x0, w = 60, 960; tx = x0 + 168; maxw = x0 + w - 50 - tx
+    words = C["text"].split(); lines = [[]]
+    for wd in words:
+        if lines[-1] and cv.tw(" ".join(lines[-1] + [wd]), sz) > maxw: lines.append([wd])
+        else: lines[-1].append(wd)
+    h = 112 + int(sz * 1.18) * len(lines) + 34; c = cv.c
+    c.save(); c.translate(540, y + h / 2); c.scale(sc, sc); c.translate(-540, -(y + h / 2))
+    cv.rrect(x0, y, w, h, 42, "#FFFFFF", 0.97 * a)
+    cv.circ(x0 + 84, y + 84, 50, "#D5DBE5", a)
+    cv.circ(x0 + 84, y + 70, 18, "#8C97AA", a)
+    c.new_path(); c.arc(x0 + 84, y + 122, 32, math.pi, 2 * math.pi); c.close_path(); cv.col("#8C97AA", a); c.fill(); c.new_path()
+    cv.text(C.get("name", "anonymous comment"), tx, y + 56, 40, "#6B7588", a, bold=False, align="l", shadow=False, maxw=maxw)
+    for i, ln in enumerate(lines):
+        cv.text(" ".join(ln), tx, y + 120 + i * int(sz * 1.18), sz, "#111827", a, align="l", shadow=False, maxw=maxw, minsz=44)
+    c.restore()
+
+
 def run(S):
     D = S["data"]; work = workdir(S)
     J = build_voice(S, work); T = Timing(J, D.get("tail", 0.75))
@@ -134,6 +157,7 @@ def run(S):
     DIM = [(A(d_["at"]), A(d_.get("until"), T.END)) for d_ in D.get("dim", [])] + [(b["t0"], b["t1"]) for b in BARS] + [(g["t0"], g["t1"]) for g in BIG]
     if S.get("end"): DIM.append((A(S["end"].get("at"), T.S(len(T.L) - 2)), T.END))
     cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace")); hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 930)
+    CMT = D.get("comment"); CMW = [(A(w_[0]), A(w_[1])) for w_ in (CMT or {}).get("show", [])]
     MR = MapR(); cache = {}
 
     def mapimg(cm, hi):
@@ -212,6 +236,9 @@ def run(S):
             ea = win(t, t0 - 0.1, t1, 0.3, 0.3)
             if ea > 0.01: WG.emo(cv, e_, 540, y, 96 * max(0.05, back(seg(t, t0, t0 + 0.4, lambda u: u)) if t < t0 + 0.4 else 1.0), ea)
         draw_sources(cv, S, T, t); draw_end(cv, S, T, t)
+        for c0, c1 in CMW:
+            cma = 1.0 if c0 <= 0.01 and t < c1 - 0.3 else win(t, c0, c1, 0.2, 0.3)
+            if cma > 0.01: draw_comment(cv, CMT, cma, 1.0 if c0 <= 0.01 else max(0.05, back(seg(t, c0, c0 + 0.35, lambda u: u)) if t < c0 + 0.35 else 1.0))
         out = cv.out().astype(np.float32)
         ha = 1 - seg(t, T.E(0) + 0.15, T.E(0) + 0.55)
         if ha > 0.01: out = HK.paste(out, hook_img, 540, HY, 1.0, ha)
@@ -223,6 +250,7 @@ def run(S):
     for CT in CTS: ev += [(t0, "roll", t0 + 0.7) for t0, _ in CT["st"]]
     ev += [(r["t0"], "whoosh", -28) for r in ROUTES if r.get("kind") != "wall"] + [(r["t0"], "thud", -22) for r in ROUTES if r.get("kind") == "wall"]
     ev += [(r["tc"], "buzz", -24) for r in ROUTES if r["tc"] is not None] + [(c_["t0"], "pop", -24) for c_ in ICONS]
+    ev += [(c0, "pop", -24) for c0, _ in CMW if c0 > 0.01]
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
     aud = build_mix(S, T, work, ev)
     body = f"{work}/body.mp4"
