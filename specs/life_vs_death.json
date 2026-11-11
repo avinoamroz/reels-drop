@@ -64,7 +64,7 @@
    "gap": 0.55
   },
   {
-   "say": "On HAMAS TV, another official said: we desire death like you desire life.",
+   "say": "On HAMAS TV, a HAMAS lawmaker boasted of human shields: the women, the children, the elderly.",
    "gap": 0.55
   },
   {
@@ -72,14 +72,14 @@
    "gap": 0.6
   },
   {
-   "say": "One sees this life as worth protecting.",
+   "say": "One side counts every life.",
    "gap": 0.3,
-   "screen": "One protects *this life*"
+   "screen": "One *counts* every life"
   },
   {
-   "say": "The other gambles everyone's life on a maybe.",
+   "say": "The other calls them sacrifices.",
    "gap": 0.5,
-   "screen": "One *gambles* with it",
+   "screen": "One calls them *sacrifices*",
    "until": "L15-0.1"
   },
   {
@@ -150,7 +150,7 @@
    {
     "at": "L11",
     "until": "L12-0.15",
-    "text": "We desire *death* like you desire *life.*",
+    "text": "They have formed *human shields* of the women, the children, the elderly.",
     "who": "Fathi Hammad, HAMAS lawmaker"
    },
    {
@@ -239,8 +239,8 @@
   "balance": "One builds *shelters* for its people. One builds *tunnels* for its fighters.",
   "cta": "Send this to someone who *needs it*"
  },
- "caption_en": "One protects lives. One spends them. 🛡️\n\nIsrael: the IDF Code of Ethics (The Spirit of the IDF) lists Human Life as a core value: preserve human life, out of recognition of its supreme value. Israel's Civil Defense Law has required shelters for homes since 1951, and new apartments have had a protected room (mamad) since the early 1990s.\n\nHAMAS, in its own words:\n🔹 Yahya Sinwar, May 2021: HAMAS has 500 km of tunnels under Gaza.\n🔹 Mousa Abu Marzouk, RT Arabic, 27 Oct 2023, asked why HAMAS built tunnels but no bomb shelters: \"These tunnels are meant to protect us from the airplanes.\" On Gaza's civilians: \"It is the responsibility of the United Nations to protect them.\"\n🔹 Fathi Hammad, HAMAS lawmaker, Al-Aqsa TV, 29 Feb 2008: \"We desire death like you desire life.\"\n🔹 The Wall Street Journal, 10 June 2024, on messages it attributed to Yahya Sinwar: thousands of civilian deaths are \"necessary sacrifices\" (HAMAS denied the report).\n\nOne side builds shelters for its people. The other builds tunnels for its fighters.\n\nSend this to someone who needs it.",
- "caption_he": "אחד מגן על חיים. השני מוציא אותם.\nבקוד האתי של צה\"ל (רוח צה\"ל), ערך \"חיי אדם\": שמירה על חיי אדם מתוך הכרה בערכם העליון. חוק ההתגוננות האזרחית מחייב מקלטים לבתים מאז 1951, ומאז תחילת שנות ה-90 יש ממ\"ד בכל דירה חדשה.\nחמאס, במילים שלו:\nיחיא סינוואר, מאי 2021: לחמאס 500 ק\"מ של מנהרות מתחת לעזה.\nמוסא אבו מרזוק, RT בערבית, 27.10.2023, כשנשאל למה לא נבנו מקלטים: \"המנהרות האלה נועדו להגן עלינו מהמטוסים.\" ועל האזרחים: \"זו האחריות של האו\"ם להגן עליהם.\"\nפתחי חמאד, חבר פרלמנט מטעם חמאס, ערוץ אל-אקצא, 29.2.2008: \"אנחנו רוצים את המוות כמו שאתם רוצים את החיים.\"\nוול סטריט ג'ורנל, 10.6.2024, על מסרים שיוחסו לסינוואר: אלפי הרוגים אזרחים הם \"קורבנות הכרחיים\" (חמאס הכחיש).\nצד אחד בונה מקלטים לאנשים שלו. השני בונה מנהרות ללוחמים שלו.\n\nSources: IDF, The Spirit of the IDF; Israel Civil Defense Law 1951; MEMRI translations of Al-Aqsa TV (29 Feb 2008), Yahya Sinwar (26 May 2021) and RT Arabic (27 Oct 2023, Special Dispatch 10917); The Wall Street Journal (10 June 2024). AI animation, AI voice.",
+ "caption_en": "One protects lives. One spends them. 🛡️\n\nIsrael: the IDF Code of Ethics (The Spirit of the IDF) lists Human Life as a core value: preserve human life, out of recognition of its supreme value. Israel's Civil Defense Law has required shelters for homes since 1951, and new apartments have had a protected room (mamad) since the early 1990s.\n\nHAMAS, in its own words:\n🔹 Yahya Sinwar, May 2021: HAMAS has 500 km of tunnels under Gaza.\n🔹 Mousa Abu Marzouk, RT Arabic, 27 Oct 2023, asked why HAMAS built tunnels but no bomb shelters: \"These tunnels are meant to protect us from the airplanes.\" On Gaza's civilians: \"It is the responsibility of the United Nations to protect them.\"\n🔹 Fathi Hammad, HAMAS lawmaker, Al-Aqsa TV, 29 Feb 2008, praising it: \"They have formed human shields of the women, the children, the elderly, and the mujahideen, in order to challenge the Zionist bombing machine.\"\n🔹 The Wall Street Journal, 10 June 2024, on messages it attributed to Yahya Sinwar: thousands of civilian deaths are \"necessary sacrifices\" (HAMAS denied the report).\n\nOne side builds shelters for its people. The other builds tunnels for its fighters.\n\nSend this to someone who needs it.",
+ "caption_he": "אחד מגן על חיים. השני מקריב אותם.\nבקוד האתי של צה\"ל (רוח צה\"ל), ערך \"חיי אדם\": שמירה על חיי אדם מתוך הכרה בערכם העליון. חוק ההתגוננות האזרחית מחייב מקלטים לבתים מאז 1951, ומאז תחילת שנות ה-90 יש ממ\"ד בכל דירה חדשה.\nחמאס, במילים שלו:\nיחיא סינוואר, מאי 2021: לחמאס 500 ק\"מ של מנהרות מתחת לעזה.\nמוסא אבו מרזוק, RT בערבית, 27.10.2023, כשנשאל למה לא נבנו מקלטים: \"המנהרות האלה נועדו להגן עלינו מהמטוסים.\" ועל האזרחים: \"זו האחריות של האו\"ם להגן עליהם.\"\nפתחי חמאד, חבר פרלמנט מטעם חמאס, ערוץ אל-אקצא, 29.2.2008, בשבח: \"הם יצרו מגן אנושי מהנשים, הילדים, הזקנים והלוחמים, כדי להתמודד עם מכונת ההפצצות הציונית.\"\nוול סטריט ג'ורנל, 10.6.2024, על מסרים שיוחסו לסינוואר: אלפי הרוגים אזרחים הם \"קורבנות הכרחיים\" (חמאס הכחיש).\nצד אחד בונה מקלטים לאנשים שלו. השני בונה מנהרות ללוחמים שלו.\n\nSources: IDF, The Spirit of the IDF; Israel Civil Defense Law 1951; MEMRI translations of Al-Aqsa TV (29 Feb 2008), Yahya Sinwar (26 May 2021) and RT Arabic (27 Oct 2023, Special Dispatch 10917); The Wall Street Journal (10 June 2024). AI animation, AI voice.",
  "hashtags": [
   "#Israel",
   "#HAMAS",
