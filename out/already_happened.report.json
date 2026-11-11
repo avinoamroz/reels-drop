@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Ask *Jordan.* Ask *Lebanon.*|Ask *Kuwait.*",
- "duration": 59.3,
+ "duration": 63.8,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -2.0
+  "lufs": -16.0,
+  "true_peak": -0.5
  },
  "outputs": {
   "mp4": "out/already_happened.mp4",
@@ -19,7 +19,7 @@
   "3": "out/frames/already_happened_3.jpg",
   "last": "out/frames/already_happened_last.jpg"
  },
- "caption_en": "\"Just leave, and there will be peace.\" We don't have to imagine it. Arab countries already saw what armed groups do with a base next door.\n\n🇯🇴 Jordan 1970: PLO factions built a state inside the state, fired on King Hussein's motorcade and blew up 3 hijacked airliners. In Black September thousands died, many of them Palestinian civilians. By 1971 the PLO was out.\n🇱🇧 Lebanon: the south became \"Fatahland\". In the 1975 civil war (many sides) the PLO was one of them. 1982: out of Beirut by sea, after Israel invaded.\n🇰🇼 Kuwait 1990: Arafat backed Saddam's invasion. Palestinian families paid: over 350,000 before the war, under 50,000 by 1992.\n🇪🇬 Egypt said Gaza's tunnels served Sinai militants and flooded them in 2015.\nGaza: Israel left in 2005. In 2007 HAMAS took it from Fatah by force: 161 killed in a week. HAMAS is Sunni, armed by Iran's Shi'a regime.\n\nMany Palestinians were victims of these groups too. That's why Israel isn't leaving.\n\nSources: Shlaim, Lion of Jordan (2008); Salibi (1998); Library of Congress, Lebanon study (1987); NYT (1982); VOA (2004); HRW World Report 1993; Al Jazeera (2015); PCHR via HRW (2008); US State Dept terrorism report 2021. AI voice.\n\nSend this to someone who says \"just leave\".",
+ "caption_en": "\"Just leave, and there will be peace.\" We don't have to imagine it. Arab countries already saw what armed groups do with a base next door.\n\n🇯🇴 Jordan 1970: factions of the PLO (the Palestine Liberation Organization) built a state inside the state, fired on King Hussein's motorcade and blew up 3 hijacked airliners. In Black September thousands died, many of them Palestinian civilians. By 1971 the PLO was out.\n🇱🇧 Lebanon: the south became \"Fatahland\". In the 1975 civil war (many sides) the PLO was one of them. 1982: out of Beirut by sea, after Israel invaded.\n🇰🇼 Kuwait 1990: Arafat backed Saddam's invasion. Palestinian families paid: over 350,000 before the war, under 50,000 by 1992.\n🇪🇬 Egypt said Gaza's tunnels served Sinai militants and flooded them in 2015.\nGaza: Israel left in 2005. In 2007 HAMAS took it from Fatah by force: 161 killed in a week. HAMAS is Sunni, armed by Iran's Shi'a regime.\n\nMany Palestinians were victims of these groups too. That's why Israel isn't leaving.\n\nSources: Shlaim, Lion of Jordan (2008); Salibi (1998); Library of Congress, Lebanon study (1987); NYT (1982); VOA (2004); HRW World Report 1993; Al Jazeera (2015); PCHR via HRW (2008); US State Dept terrorism report 2021. AI voice.\n\nSend this to someone who says \"just leave\".",
  "caption_he": "\"פשוט תצאו ויהיה שלום.\" לא צריך לדמיין: מדינות ערב כבר ראו מה ארגונים חמושים עושים עם בסיס ליד הבית. ירדן 1970, לבנון עד 1982, כווית 1990, מצרים 2015, עזה 2007. גם הרבה פלסטינים היו קורבנות של הארגונים האלה. ובגלל זה ישראל לא יוצאת.",
  "hashtags": [
   "#Israel",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.957,
+  "score": 0.953,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -86,8 +86,8 @@
     "flag": "ok"
    },
    {
-    "line": "Jordan, nineteen seventy. PLO factions built a state inside the state.",
-    "score": 0.909,
+    "line": "Jordan, nineteen seventy. Factions of the PLO, the Palestine Liberation Organization, built a state inside the state.",
+    "score": 0.941,
     "flag": "ok"
    },
    {
@@ -107,7 +107,7 @@
    },
    {
     "line": "Civil war, many sides, the PLO among them.",
-    "score": 1.0,
+    "score": 0.875,
     "flag": "ok"
    },
    {
@@ -166,12 +166,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ask Jordan. Ask Lebanon. Ask Kuwait. Jordan 1970. PLO factions built a state inside the state. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died. Many Palestinian civilians. By 71, the PLO was out. Then Lebanon. Its south became Fatala. Civil war many sides. The PLO among them. In 1982, after Israel invaded, it left Beirut by sea. From Kuwait, 1990, Arafat backed Saddam Hussein's invasion, and families paid for that choice. Over 350,000 Palestinians lived there, by 92 under 50,000. Egypt set Gaza's tunnels, served Sinai militants, and flooded them in 2015. Gaza. Israel left in 2005. Two years later, Hamas took it by force, 161 killed in one week. Hamas. Sunni, but armed by Iran's Shia regime. Many Palestinians were victims of these groups too. Leave for peace? We've seen it. That's why Israel isn't leaving. Don't believe me?",
+  "heard": "Ask Jordan. Ask Lebanon. Ask Kuwait. Jordan, 1970. Factions of the PLO, the Palestine Liberation Organization, built a state inside the state. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died, many Palestinian civilians. By 71, the PLO was out. Then Lebanon. Its south became Fatilat. Civil War. Many sides, the low among them. In 1982, after Israel invaded, it left Beirut by sea. Then Kuwait, 1990. Arafat backed Saddam Hussein's invasion. Families paid for that choice. Over 350,000 Palestinians lived there. By 1992, under 50,000, Egypt sent Gaza's tunnels, served Sinai militants, and flooded them in 2015. Gaza, Israel left in 2005. Two years later, Hamas took it by force. 161 killed in one week. Hamas. Sunni, but armed by Iran's Shia regime. Many Palestinians were victims of these groups too. Leave for peace. We've seen it. That's why Israel isn't leaving. Don't believe me?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 57.81,
+ "body_s": 62.3,
  "opener": {
   "style": "globe_spin_whip",
   "opener_s": 2.4,
@@ -179,10 +179,10 @@
  },
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.2
+  "true_peak": -2.0
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 264.3
+ "render_s": 194.6
 }
