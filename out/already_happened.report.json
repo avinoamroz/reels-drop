@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Ask *Jordan.* Ask *Lebanon.*|Ask *Kuwait.*",
- "duration": 73.27,
+ "duration": 66.3,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -1.5
  },
  "outputs": {
   "mp4": "out/already_happened.mp4",
@@ -30,54 +30,54 @@
   {
    "label": "Avi Shlaim, Lion of Jordan; Salibi, Modern History of Jordan",
    "year": 2008,
-   "at": "L2",
-   "until": "L5-0.1"
+   "at": "L1",
+   "until": "L4-0.1"
   },
   {
    "label": "Library of Congress, Lebanon: A Country Study; Laffin",
    "year": 1987,
-   "at": "L5",
-   "until": "L7-0.1"
+   "at": "L4",
+   "until": "L6-0.1"
   },
   {
    "label": "New York Times, PLO pullout from Beirut",
    "year": 1982,
-   "at": "L7",
-   "until": "L8-0.1"
+   "at": "L6",
+   "until": "L7-0.1"
   },
   {
    "label": "VOA, Abbas apologizes to Kuwait",
    "year": 2004,
-   "at": "L8",
-   "until": "L10-0.1"
+   "at": "L7",
+   "until": "L9-0.1"
   },
   {
    "label": "Human Rights Watch, World Report: Kuwait",
    "year": 1993,
-   "at": "L10",
-   "until": "L11-0.1"
+   "at": "L9",
+   "until": "L10-0.1"
   },
   {
    "label": "Al Jazeera; Human Rights Watch",
    "year": 2015,
-   "at": "L11",
-   "until": "L12-0.1"
+   "at": "L10",
+   "until": "L11-0.1"
   },
   {
    "label": "PCHR report, cited by Human Rights Watch",
    "year": 2008,
-   "at": "L12",
-   "until": "L14-0.1"
+   "at": "L11",
+   "until": "L13-0.1"
   },
   {
    "label": "US State Dept terrorism report; Haniyeh on Press TV",
    "year": 2021,
-   "at": "L14",
-   "until": "L15-0.1"
+   "at": "L13",
+   "until": "L14-0.1"
   }
  ],
  "transcript": {
-  "score": 0.973,
+  "score": 0.953,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -86,14 +86,9 @@
     "flag": "ok"
    },
    {
-    "line": "Armed groups next door? We don't have to imagine.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
     "line": "Jordan, nineteen seventy. PLO factions built a state within a state.",
-    "score": 0.909,
-    "flag": "ok"
+    "score": 0.727,
+    "flag": "MISS"
    },
    {
     "line": "They shot at the King, and blew up three hijacked airliners.",
@@ -107,17 +102,17 @@
    },
    {
     "line": "Next stop: Lebanon. Its south became Fatahland.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Then a civil war with many sides, the PLO among them.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Then civil war, with many sides. The PLO was one of them.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "In nineteen eighty-two, after Israel invaded, it was shipped out of Beirut.",
-    "score": 0.923,
+    "line": "In nineteen eighty-two, after Israel invaded, it left Beirut by sea.",
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -161,7 +156,7 @@
     "flag": "ok"
    },
    {
-    "line": "Leave, and get peace? We've seen it. That's why Israel isn't leaving.",
+    "line": "Leave for peace? We've seen it. That's why Israel isn't leaving.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -171,23 +166,23 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ask Jordan. Ask Lebanon. Ask Kuwait. Armed groups next door? We don't have to imagine. Jordan, 1970. PLO factions built a state within a state. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died, many Palestinian civilians. By 71, the PLO was out. Next stop, Lebanon. Its south became Fatahland, then civil war, war with many sides. The PLO was one of them. In 1982, after Israel invaded, it was shipped out of Beirut. Kuwait, 1990. Arafat backed Saddam Hussein's invasion. Families paid for that choice. Over 350,000 Palestinians lived there. By 1992, under 50,000. Egypt said Gaza's tunnels served Sinai militants. It flooded them in 2015. Gaza. Israel left in 2005. Two years later, Hamas took it by force. 161 killed in a week, says a Palestinian rights group. Hamas. Sunni, but armed by Iran's share regime. Many Palestinians were victims of these groups too. Leave and get peace. We've seen it. That's why Israel isn't leaving. Don't believe me?",
+  "heard": "Ask Jordan. Ask Lebanon. Ask Kuwait. Jordan 1970. PLO factions built a state with an estate. They shot at the king and blew up three hijacked airliners. Jordan's army struck back. Thousands died, many Palestinian civilians. By 71, the PLO was out. Next stop, Lebanon. Its south became Fethalant. Then a civil war with many sides, the PLO among them. In 1982, after Israel invaded, it left Beirut by sea, Kuwait 1990. Arafat backed Saddam Hussein's invasion. Families paid for that choice. Over 350,000 Palestinians lived there. By 1992, under 50,000, Egypt said Gaza's tunnels served Sinai militants. It flooded them in 2015. Gaza. Israel left in 2005. Two years later, Hamas took it by force. 161 killed in a week, says a Palestinian rights group, Hamas, Sunni, but armed by Iran's Shia regime. Many Palestinians were victims of these groups too. Leave for peace. We've seen it. That's why Israel isn't leaving. Don't believe me?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 71.77,
+ "body_s": 64.81,
  "opener": {
   "style": "map_fold",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -2.1
+  "lufs": -16.1,
+  "true_peak": -2.0
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 175.4
+ "render_s": 199.7
 }
