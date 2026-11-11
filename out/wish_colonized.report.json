@@ -1,0 +1,165 @@
+{
+ "id": "wish_colonized",
+ "account": "noamroz__",
+ "template": "versus_card",
+ "hook": "Colonizers? Let's check *5* countries.",
+ "duration": 63.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/wish_colonized.mp4",
+  "cover": "covers/wish_colonized_cover.jpg",
+  "preview": "previews/wish_colonized_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/wish_colonized_0.jpg",
+  "1": "out/frames/wish_colonized_1.jpg",
+  "3": "out/frames/wish_colonized_3.jpg",
+  "last": "out/frames/wish_colonized_last.jpg"
+ },
+ "caption_en": "Colonizers? Let's check 5 countries. 🗺️\n\nSay Israel \"colonized\" its neighbours. What would people there get at Israel's level? (freedom score, women at work, gay people, school years, life expectancy, income per person)\n\n🇮🇱 Israel: 73, 62%, legal, 14.9, 82.4, $54,213\n🇪🇬 Egypt: 18, 18%, arrested, 13.1, 71.6, 16x less\n🇯🇴 Jordan: 34, 16%, legal, 13.1, 77.8, 11x less\n🇱🇧 Lebanon: 41, 22% (2023), illegal, 11.7, 77.8, 10x less\n🇮🇶 Iraq: 31, 11%, 10 to 15 years in prison (2024 law), 12.4, 72.3, 9x less\n🇸🇾 Syria: 10, 13%, illegal, 7.4, 72.1, 56x less\n\nHonestly? They'd wish we colonized them. Sorry, we're not hiring. We're busy building our own country.\n\nSatire about an accusation and about regimes, never about people. People in all five countries deserve every right on this list. Their regimes deny them. Israel isn't perfect, and its critics should hold it to account. But colonizer is the wrong word.\n\nFreedom House's 73 is for Israel itself. The West Bank (22) and Gaza (2) are scored in separate reports.\n\nSend this to someone who says colonizer.",
+ "caption_he": "קוראים לנו קולוניאליסטים? בואו נבדוק 5 מדינות. אם ישראל הייתה \"מתנחלת\" במצרים, בירדן, בלבנון, בעיראק ובסוריה, האזרחים שם היו מקבלים ציון חופש של 73 מתוך 100, יותר נשים בעבודה, זכויות לגאים, יותר שנות לימוד, יותר שנות חיים ופי 9 עד 56 הכנסה לנפש. בכנות? הם היו שמחים שנתנחל בהם. סליחה, אנחנו לא מגייסים. אנחנו עסוקים בלבנות את המדינה שלנו. ישראל לא מושלמת, אבל \"קולוניאליסטים\" זו המילה הלא נכונה. האנשים בכל חמש המדינות ראויים לכל הזכויות האלה, המשטרים שלהם מונעים אותן.",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Colonialism"
+ ],
+ "sources": [
+  {
+   "label": "Freedom House 2026, ILO/World Bank 2024, ILGA, UNDP HDR 2025, IMF WEO 2024",
+   "year": 2026,
+   "at": "L1:here's",
+   "until": "L11"
+  },
+  {
+   "label": "*Lebanon women at work: 2023, latest",
+   "year": 2023,
+   "at": "L8",
+   "until": "L9",
+   "y": 1460
+  },
+  {
+   "label": "*Syria income: World Bank 2022, latest",
+   "year": 2022,
+   "at": "L10",
+   "until": "L11",
+   "y": 1460
+  },
+  {
+   "label": "Freedom House 2026 (Israel: not incl. West Bank, Gaza)",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.966,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Colonizers? Okay. Let's check five countries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Say Israel colonized Egypt. Here's what Egyptians would get.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Freedom score: eighteen out of a hundred. Israel: seventy three.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Women at work: eighteen percent. Israel: sixty two.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gay people: they get arrested. Israel: legal.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Kids get almost two more years of school. And about eleven more years of life.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And income per person? Sixteen times more.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan gets one right: being gay is legal. Income: eleven times.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon, the freest of the five: forty one out of a hundred. Income: ten times.",
+    "score": 0.733,
+    "flag": "MISS"
+   },
+   {
+    "line": "Iraq: being gay can mean ten to fifteen years in prison. Income: nine times.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria: kids get seven years of school. Israel's kids, fifteen. Income: fifty six times.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Honestly? They'd wish we colonized them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sorry. We're not hiring. We're busy building our own country.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel isn't perfect, and its critics should hold it to account. But colonizer is the wrong word.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "People in all five countries deserve every right on this list. Their regimes deny them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Send this to someone who says colonizer.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So next time someone says colonizers?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Colonizers, okay, let's check five countries. Say Israel colonized Egypt. Here's what Egyptians would get. Freedom score, 18 out of 100. Israel, 73. Women at work, 18%. Israel, 62. Gay people, they get arrested. Israel, legal. Kids get almost two more years of school and about 11 more years of life. And income per person, 16 times more. Jordan gets one right. Being gay is legal. Income, 11 times. Lebanon will freeze to the 5, 41 out of 100. Income, 10 times. Iraq, being gay can mean 10 to 15 years in prison. Income, nine times. Syria, kids get seven years of school. Israel's kids, 15. Income, 56 times. Honestly, they'd wish we colonized them. Sorry, we're not hiring. We're busy building our own country. Israel isn't perfect and its critics should hold it to account. A colonizer is the wrong word. People in all five countries deserve every right on this list. Their regimes deny them. Send this to someone who says colonizer. So next time someone says colonizers.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "cards": [
+  "Egypt",
+  "Jordan",
+  "Lebanon",
+  "Iraq",
+  "Syria"
+ ],
+ "lint_warnings": [],
+ "render_s": 110.2
+}
