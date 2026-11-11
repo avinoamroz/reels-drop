@@ -1,0 +1,74 @@
+{
+ "id": "test_hamas_pron_a",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*5* ways to say it",
+ "duration": 15.63,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/test_hamas_pron_a.mp4",
+  "cover": "covers/test_hamas_pron_a_cover.jpg",
+  "preview": "previews/test_hamas_pron_a_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_hamas_pron_a_0.jpg",
+  "1": "out/frames/test_hamas_pron_a_1.jpg",
+  "3": "out/frames/test_hamas_pron_a_3.jpg",
+  "last": "out/frames/test_hamas_pron_a_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting (HAMAS pronunciation test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.688,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Number one. HAMAS is the tumour.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Number two. Hamas is the tumour.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Number three. Hah-mahs is the tumour.",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "Number four. Ha-mas is the tumour.",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "Number five. Hamaas is the tumour.",
+    "score": 0.667,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "Number one, Hamas is the tumor. Number two, Hamas is the tumor. Number three, Hamas is the tumor. Number four, Hamas is the tumor. Number five, Hamas is the tumor.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 15.64,
+ "opener": null,
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 21.5
+}
