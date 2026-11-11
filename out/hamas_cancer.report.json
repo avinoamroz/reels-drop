@@ -1,0 +1,166 @@
+{
+ "id": "hamas_cancer",
+ "account": "noamroz__",
+ "template": "surgery",
+ "hook": "Gaza: the *patient.*|HAMAS: the *tumour.*",
+ "duration": 57.23,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/hamas_cancer.mp4",
+  "cover": "covers/hamas_cancer_cover.jpg",
+  "preview": "previews/hamas_cancer_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hamas_cancer_0.jpg",
+  "1": "out/frames/hamas_cancer_1.jpg",
+  "3": "out/frames/hamas_cancer_3.jpg",
+  "last": "out/frames/hamas_cancer_last.jpg"
+ },
+ "caption_en": "Gaza is the patient. HAMAS is the tumour. 🩺\n\nPicture a scan. Every light is a person. The tumour grew roots under homes, schools and hospitals:\n🔹 The White House (NSC spokesman John Kirby, 14 Nov 2023): HAMAS and Palestinian Islamic Jihad \"use some hospitals in the Gaza Strip, including Al-Shifa, and tunnels underneath them to conceal and to support their military operations and to hold hostages.\"\n🔹 Feb 2024: the IDF and Shin Bet showed a HAMAS data centre in a tunnel about 700 m long and 18 m deep under UNRWA's Gaza City headquarters. UNRWA's chief said the agency \"did not know what is under its headquarters\".\n🔹 July 2014: UNRWA itself reported rockets hidden in three of its vacant schools (17, 22 and 29 July).\n🔹 Gaza is about 41 km long. Israeli defence officials estimated the tunnels at 350 to 450 miles, about 560 to 720 km (The New York Times, Jan 2024).\n\nThe surgeon has two options. One bomb: the tumour is gone, and so is the patient. Or surgery: slow, costly, and your own team goes in. 472 Israeli soldiers were killed in the Gaza ground operation (IDF data, The Times of Israel, 7 Oct 2026).\n\nAnd every healthy cell lost is a real person. A real tragedy. That's why the laws of war judge each strike on its own: is the expected harm to civilians excessive compared with the concrete and direct military advantage? It is not a comparison of death tolls.\n\nThe goal was never the patient. Remove the tumour, so the patient can live.\n\nSend this to someone who says \"disproportionate\".",
+ "caption_he": "עזה היא המטופל. חמאס הוא הגידול. 🩺\nתחשבו על סריקה: כל נקודת אור היא אדם. לגידול יש שורשים מתחת לבתים, לבתי ספר ולבתי חולים.\nהבית הלבן (ג'ון קירבי, 14.11.2023): חמאס והג'יהאד האסלאמי משתמשים בבתי חולים ברצועה, כולל שיפא, ובמנהרות שמתחתם, כדי להסתיר ולתמוך בפעילות צבאית ולהחזיק חטופים.\nפברואר 2024: צה\"ל והשב\"כ חשפו חוות שרתים של חמאס במנהרה מתחת למטה אונר\"א בעזה. ראש אונר\"א אמר שהארגון לא ידע מה יש מתחת למטה שלו.\nיולי 2014: אונר\"א עצמה דיווחה על רקטות שהוסתרו בשלושה מבתי הספר הריקים שלה.\nעזה ארוכה כ-41 ק\"מ. המנהרות, לפי הערכת גורמי ביטחון: עד כ-720 ק\"מ.\nלמנתח יש שתי אפשרויות. פצצה אחת: הגידול נעלם, וגם המטופל. או ניתוח: איטי, יקר, והצוות שלך נכנס פנימה. 472 חיילי צה\"ל נהרגו בתמרון הקרקעי בעזה.\nוכל תא בריא שאובד הוא אדם אמיתי. טרגדיה אמיתית. לכן דיני המלחמה בודקים כל תקיפה בנפרד, ולא משווים מספרי הרוגים.\nהמטרה מעולם לא הייתה המטופל. מוציאים את הגידול, כדי שהמטופל יוכל לחיות.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#HAMAS"
+ ],
+ "sources": [
+  {
+   "label": "White House NSC spokesman John Kirby, 14 Nov",
+   "year": 2023,
+   "at": "L4",
+   "until": "L4e+0.2"
+  },
+  {
+   "label": "IDF and Shin Bet, Feb 2024 (UNRWA said it did not know)",
+   "year": 2024,
+   "at": "L5",
+   "until": "L5e+0.2"
+  },
+  {
+   "label": "UNRWA statements, 17, 22 and 29 July 2014",
+   "year": 2014,
+   "at": "L6",
+   "until": "L6e+0.2"
+  },
+  {
+   "label": "Israeli officials via The New York Times, Jan 2024; UN OCHA",
+   "year": 2024,
+   "at": "L7",
+   "until": "L7e+0.3"
+  },
+  {
+   "label": "IDF data via The Times of Israel, 7 Oct 2026",
+   "year": 2026,
+   "at": "L11",
+   "until": "L11e+0.3"
+  },
+  {
+   "label": "Additional Protocol I (1977), Art. 51(5)(b) and 57",
+   "year": 1977,
+   "at": "L13",
+   "until": "L13e+0.2"
+  }
+ ],
+ "transcript": {
+  "score": 0.95,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Gaza is the patient. HAMAS is the tumour.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Every light on this scan is a person.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This is the tumour. Its roots run under everything.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Homes. Schools. Hospitals.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The White House said HAMAS used Al-Shifa hospital, and tunnels under it, to hold hostages.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Under the UN agency's headquarters, Israel found a HAMAS data centre.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2014, the UN found rockets hidden in three of its empty schools.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza is forty-one kilometres long. The tunnels: up to seven hundred and twenty.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Now you're the surgeon. Two options.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One bomb. Tumour gone. Patient gone.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Or surgery. Slow, costly, and your own team goes in.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Four hundred and seventy-two Israeli soldiers were killed in the ground operation.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And every healthy cell lost is a real person. A real tragedy.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "So the law judges each strike on its own, not by comparing death tolls.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The goal was never the patient. Remove the tumour, so the patient can live.",
+    "score": 0.929,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Gaza is the patient. Hamas is the tumor. Every light on this scan is a person. This is the tumor. Its roots run under everything. Homes. Schools. Hospitals. The White House said Hamas used Al-Shifa Hospital and tunnels under it to hold hostages. Under the UN agency's headquarters, Israel found a Hamas data center. In 2014, the UN found rockets hidden in three of its empty schools. Gaza is 41 kilometers long. The tunnels. Up to 720. Now you're the surgeon. Two options. One bomb. Tumor gone. Patient gone. Four surgery. Slow. Costly. And your own team goes in. 472 Israeli soldiers were killed in the ground operation. And every healthy cell lost is a real cursing. A real tragedy. So the law judges each strike on its own. Not by comparing death tolls. The goal was never the patient. Remove the tumor so the patient can live.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "phases": {
+  "bomb": 33.29,
+  "surgery": 36.57,
+  "zoom": 46.15,
+  "heal": 53.78
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 134.4
+}
