@@ -17,13 +17,13 @@
    "gap": 0.15
   },
   {
-   "say": "Say Israel colonized Egypt. Here's what Egyptians would get.",
+   "say": "Say Israel colonized Egypt.",
    "gap": 0.15,
    "screen": "If Israel *colonized* Egypt",
    "until": "L7"
   },
   {
-   "say": "Freedom score: eighteen out of a hundred. Israel: seventy three.",
+   "say": "Freedom: eighteen out of a hundred. Israel: seventy three.",
    "gap": 0.15
   },
   {
@@ -35,7 +35,7 @@
    "gap": 0.15
   },
   {
-   "say": "Kids get almost two more years of school. And about eleven more years of life.",
+   "say": "About two more years of school. Eleven more years of life.",
    "gap": 0.15
   },
   {
@@ -148,7 +148,7 @@
     "name": "Egypt",
     "flag": "EG",
     "head": "Egypt",
-    "at": "L0:check",
+    "at": 0.6,
     "values": [
      "18/100",
      "18%",
@@ -181,11 +181,11 @@
      {
       "row": 3,
       "at": "L5:two",
-      "until": "L5:and"
+      "until": "L5:eleven"
      },
      {
       "row": 4,
-      "at": "L5:and",
+      "at": "L5:eleven",
       "until": "L6"
      },
      {
@@ -371,7 +371,7 @@
   {
    "label": "Freedom House 2026, ILO/World Bank 2024, ILGA, UNDP HDR 2025, IMF WEO 2024",
    "year": 2026,
-   "at": "L1:here's",
+   "at": "L1",
    "until": "L11"
   },
   {
