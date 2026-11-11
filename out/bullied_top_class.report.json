@@ -41,7 +41,7 @@
   }
  ],
  "transcript": {
-  "score": 0.97,
+  "score": 0.963,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -126,7 +126,7 @@
    },
    {
     "line": "Number one or number fourteen, depending on how you look at it.",
-    "score": 1.0,
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -140,7 +140,7 @@
     "flag": "MISS"
    }
   ],
-  "heard": "bullied kid. Number one in class. Picture a classroom. Every kid is a country. The board ranks who brings the most new ideas. Most kids have a normal day. Reading, drawing, passing notes. And then there's this kid. Paper ball is from Hamas. Spit ball is from Hezbollah. The Houthis aim from the back row. And the Iranian regime keeps handing out paper. He does homework with one hand and blocks with the other. And still passes notes to the class medicine water tech report card time research spending six point three five percent of the economy number one in the world world innovation rink the Emirates 30 Turkey 43 Saudi Arabia 46 Jordan 65 Egypt 86 Lebanon 90 Syria no data and the bullied kid 14 in the world number one in the region. Number 1 or number 14, depending on how you look at it. Imagine this class if everyone did homework instead of throwing things. Back to the belief kit.",
+  "heard": "bullied kid. Number one in class. Picture a classroom. Every kid is a country. The board ranks who brings the most new ideas. Most kids have a normal day. Reading, drawing, passing notes. And then there's this kid. Paper ball is from Hamas, spit ball is from Hezbollah, the Houthis aim from the back row, and the Iranian regime keeps handing out paper. He does homework with one hand and blocks with the other, and still passes notes to the class medicine water tech report card time research spending 6.35 percent of the economy number one in the world world innovation rink the Emirates 30 Turkey 43 Saudi Arabia 46 Jordan 65 Egypt 86 Lebanon 90 Syria no data and the bullied kid 14 in the world number one in the region number one or number depending on how you look at it. Imagine this class if everyone did homework instead of throwing things. Back to the belief kit.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -152,5 +152,5 @@
  "reveal": 28.96,
  "back": 56.13,
  "lint_warnings": [],
- "render_s": 106.1
+ "render_s": 136.5
 }
