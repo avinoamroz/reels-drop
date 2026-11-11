@@ -1,0 +1,156 @@
+{
+ "id": "bullied_top_class",
+ "account": "noamroz__",
+ "template": "classroom",
+ "hook": "Bullied kid.|*#1* in class?",
+ "duration": 61.77,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.3
+ },
+ "outputs": {
+  "mp4": "out/bullied_top_class.mp4",
+  "cover": "covers/bullied_top_class_cover.jpg",
+  "preview": "previews/bullied_top_class_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/bullied_top_class_0.jpg",
+  "1": "out/frames/bullied_top_class_1.jpg",
+  "3": "out/frames/bullied_top_class_3.jpg",
+  "last": "out/frames/bullied_top_class_last.jpg"
+ },
+ "caption_en": "Picture a classroom where every kid is a country. One kid gets paper balls from HAMAS, spitballs from Hezbollah, paper planes from the Houthis, and the Iranian regime keeps handing out paper. He does his homework with one hand and blocks with the other. 📚\n\nThe report card: WIPO Global Innovation Index 2025, world rank out of 139 economies.\nIsrael 14 (1st of 18 in WIPO's Northern Africa and Western Asia region; Cyprus is 2nd at 25)\nUAE 30\nTurkey 43\nSaudi Arabia 46\nJordan 65\nEgypt 86\nLebanon 90\nSyria: not ranked, no data\n\nResearch spending: Israel 6.35% of GDP (2023), number 1 of all 139 economies in the same report.\n\nNumber one or number fourteen, depending on how you look at it. Now imagine this class if everyone did homework instead of throwing things.\n\nSend this to a teacher.",
+ "caption_he": "תדמיינו כיתה שבה כל ילד הוא מדינה. ילד אחד חוטף כדורי נייר מחמאס, יריקות מחיזבאללה, מטוסי נייר מהחות'ים, והמשטר האיראני ממשיך לחלק להם נייר. הוא מכין שיעורי בית ביד אחת וחוסם ביד השנייה.\n\nהתעודה: מדד החדשנות העולמי של WIPO לשנת 2025, דירוג עולמי מתוך 139 כלכלות.\nישראל 14 (מקום ראשון מתוך 18 באזור צפון אפריקה ומערב אסיה; קפריסין שנייה, במקום 25)\nאיחוד האמירויות 30, טורקיה 43, סעודיה 46, ירדן 65, מצרים 86, לבנון 90, סוריה לא מדורגת (אין נתונים).\n\nהוצאה על מחקר ופיתוח: 6.35% מהתוצר (2023), מקום ראשון מבין 139 הכלכלות באותו דוח.\n\nמקום ראשון או מקום 14, תלוי איך מסתכלים. עכשיו תדמיינו את הכיתה הזאת אם כולם היו מכינים שיעורי בית במקום לזרוק דברים.",
+ "hashtags": [
+  "#Israel",
+  "#innovation",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "WIPO, Global Innovation Index 2025, R&D spending (2023 data)",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "WIPO, Global Innovation Index 2025, rank of 139 economies",
+   "year": 2025,
+   "at": "L13",
+   "until": "L17-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.97,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Bullied kid. Number one in class?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Picture a classroom. Every kid is a country.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The board ranks who brings the most new ideas.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Most kids have a normal day. Reading, drawing, passing notes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And then there's this kid.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Paper balls from HAMAS.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Spitballs from Hezbollah.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "The Houthis aim from the back row.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the Iranian regime keeps handing out paper.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "He does homework with one hand and blocks with the other.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And still passes notes to the class. Medicine, water, tech.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Report card time.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Research spending: six point three five percent of the economy. Number one in the world.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "World innovation rank. The Emirates: thirty. Turkey: forty three. Saudi Arabia: forty six.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan: sixty five. Egypt: eighty six. Lebanon: ninety. Syria: no data.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the bullied kid? Fourteen in the world. Number one in the region.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Number one or number fourteen, depending on how you look at it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Imagine this class if everyone did homework instead of throwing things.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Back to the bullied kid.",
+    "score": 0.6,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "bullied kid. Number one in class. Picture a classroom. Every kid is a country. The board ranks who brings the most new ideas. Most kids have a normal day. Reading, drawing, passing notes. And then there's this kid. Paper ball is from Hamas. Spit ball is from Hezbollah. The Houthis aim from the back row. And the Iranian regime keeps handing out paper. He does homework with one hand and blocks with the other. And still passes notes to the class medicine water tech report card time research spending six point three five percent of the economy number one in the world world innovation rink the Emirates 30 Turkey 43 Saudi Arabia 46 Jordan 65 Egypt 86 Lebanon 90 Syria no data and the bullied kid 14 in the world number one in the region. Number 1 or number 14, depending on how you look at it. Imagine this class if everyone did homework instead of throwing things. Back to the belief kit.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.3
+ },
+ "reveal": 28.96,
+ "back": 56.13,
+ "lint_warnings": [],
+ "render_s": 106.1
+}
