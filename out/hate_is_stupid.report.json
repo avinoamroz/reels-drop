@@ -1,0 +1,188 @@
+{
+ "id": "hate_is_stupid",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Hating Jews? *Wrong.*|And *stupid.*",
+ "duration": 59.03,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.0
+ },
+ "outputs": {
+  "mp4": "out/hate_is_stupid.mp4",
+  "cover": "covers/hate_is_stupid_cover.jpg",
+  "preview": "previews/hate_is_stupid_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hate_is_stupid_0.jpg",
+  "1": "out/frames/hate_is_stupid_1.jpg",
+  "3": "out/frames/hate_is_stupid_3.jpg",
+  "last": "out/frames/hate_is_stupid_last.jpg"
+ },
+ "caption_en": "Hating Jews isn't just wrong. It's stupid. History keeps the receipts. 📈\n\n🇩🇪 1933: the Nazi regime fires Jewish professors. 15% of Germany's university physicists are dismissed, and they held 64% of the citations (Waldinger, REStat 2016). Einstein leaves too.\n🇺🇸 Many go to America. In the chemistry fields the émigrés brought, US patenting jumps 31% (Moser, Voena and Waldinger, AER 2014). Five of the displaced physicists later win a Nobel (Physics Today, 2018).\n🇪🇸 1492: the Spanish Crown expels its Jews. Sultan Bayezid II takes them in. In 1493 two refugee brothers, David and Samuel ibn Nahmias, print the first book in the Ottoman Empire, in any language.\n🇮🇶 1950: Iraq's government lets Jews leave only if they give up their citizenship. Almost 120,000 leave in 1950 and 1951, most to Israel (US National Archives). From Arab countries, about 850,000 Jews were displaced after 1948 (US House Resolution 185, 2008).\n🇮🇱 Israel took many in. Today it has 14 Nobel laureates.\n🏅 Jews are about 0.2% of the world, and about 22% of Nobel winners.\n\nEvery regime that pushed them out lost. Every country that took them in gained.\n\nSend this to a friend who needs it.",
+ "caption_he": "לשנוא יהודים זה לא רק לא מוסרי. זה גם טיפשי.\n1933: המשטר הנאצי מפטר את הפרופסורים היהודים. 15% מהפיזיקאים באוניברסיטאות בגרמניה, שהחזיקו 64% מהציטוטים. רבים עברו לאמריקה, ושם הפטנטים בתחומי הכימיה שהם הביאו קפצו ב-31%.\n1492: הכתר הספרדי מגרש את היהודים. הסולטן העות'מאני קולט אותם, ושנה אחר כך פליטים מספרד מדפיסים את הספר הראשון באימפריה העות'מאנית.\n1950: עיראק מאפשרת ליהודים לצאת רק אם יוותרו על האזרחות. כמעט 120,000 עוזבים, רובם לישראל. מארצות ערב נעקרו כ-850,000 יהודים.\nיהודים הם 0.2% מהעולם וכ-22% מזוכי הנובל.\nכל משטר שגירש אותם הפסיד. כל מדינה שקלטה אותם הרוויחה.\n\nSources: Waldinger, Review of Economics and Statistics 98(5), 2016; Moser, Voena and Waldinger, American Economic Review 104(10), 2014; Physics Today, \"The scientific exodus from Nazi Germany\", 2018; History of Information, first book printed in the Ottoman Empire (Arba'ah Turim, 1493); US National Archives, Iraqi Jewish Archive; US House Resolution 185, 2008; nobelprize.org; Baruch Shalev, 100 Years of Nobel Prizes; Israel Central Bureau of Statistics, 2026.\n\nMaps: Natural Earth (public domain).",
+ "hashtags": [
+  "#History",
+  "#Jewish",
+  "#Economics"
+ ],
+ "sources": [
+  {
+   "label": "Waldinger, Review of Economics and Statistics",
+   "year": 2016,
+   "at": "L1",
+   "until": "L4-0.05"
+  },
+  {
+   "label": "Moser, Voena and Waldinger, American Economic Review",
+   "year": 2014,
+   "at": "L4",
+   "until": "L6-0.05"
+  },
+  {
+   "label": "Physics Today, The scientific exodus from Nazi Germany",
+   "year": 2018,
+   "at": "L6",
+   "until": "L7-0.05"
+  },
+  {
+   "label": "Arba'ah Turim, Nahmias press, Constantinople",
+   "year": 1493,
+   "at": "L7",
+   "until": "L10-0.05"
+  },
+  {
+   "label": "US National Archives, Iraqi Jewish Archive",
+   "year": 2013,
+   "at": "L10",
+   "until": "L12-0.05"
+  },
+  {
+   "label": "US House Resolution 185",
+   "year": 2008,
+   "at": "L12",
+   "until": "L13-0.05"
+  },
+  {
+   "label": "nobelprize.org",
+   "year": 2025,
+   "at": "L13",
+   "until": "L14-0.05"
+  },
+  {
+   "label": "Shalev, 100 Years of Nobel Prizes; Israel CBS",
+   "at": "L14",
+   "until": "L15-0.05",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.975,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Hating Jews isn't just wrong. It's stupid.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen thirty three. The Nazi regime fires Jewish professors.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Fifteen percent of Germany's university physicists, gone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They held sixty four percent of the citations.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Einstein left too. Many went to America.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In their chemistry fields, U.S. patents jumped thirty one percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five of the displaced physicists later won a Nobel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spain, fourteen ninety two. The Crown expels its Jews.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "The Ottoman Sultan takes them in.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A year later, refugees print the Ottoman Empire's first book.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq, nineteen fifty. Jews may leave, if they drop citizenship.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Almost a hundred and twenty thousand go, most to Israel.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "From Arab countries, about eight hundred fifty thousand Jews were displaced.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel took many in. It now has fourteen Nobel laureates.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jews: zero point two percent of the world. About twenty two percent of Nobel winners.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every regime that pushed them out lost. Every country that took them in gained.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So next time someone hates Jews, remind them:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Hating Jews isn't just wrong. It's stupid. 1933. The Nazi regime fires Jewish professors. 15% of Germany's university physicists? Gone. They held 64% of the citations. Einstein left too. Many went to America. In their chemistry fields, U.S. patents jumped 31%. Five of the displaced physicists later won a no-go. Spain, 1492. The crown expels its Jews. The Ottoman sultan takes them in. A year later, refugees print the Ottoman Empire's first book, Iraq, 1950. Jews may leave if they drop citizenship. Almost 120,000 go, most to Israel. From Arab countries, about 850,000 Jews were displaced. Israel took many in. It now has 14 Nobel laureates. Jews, 0.2% of the world. About 22% of Nobel winners. Every regime that pushed them out lost. Every country that took them in gained. So next time someone hates Jews, remind them.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 57.54,
+ "opener": {
+  "style": "map_tear",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.2
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 231.0
+}
