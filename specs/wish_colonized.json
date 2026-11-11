@@ -1,0 +1,419 @@
+{
+ "id": "wish_colonized",
+ "account": "noamroz__",
+ "template": "versus_card",
+ "hook": "Colonizers? Let's check *5* countries.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Colonizers? Okay. Let's check five countries.",
+   "gap": 0.15
+  },
+  {
+   "say": "Say Israel colonized Egypt. Here's what Egyptians would get.",
+   "gap": 0.15,
+   "screen": "If Israel *colonized* Egypt",
+   "until": "L7"
+  },
+  {
+   "say": "Freedom score: eighteen out of a hundred. Israel: seventy three.",
+   "gap": 0.15
+  },
+  {
+   "say": "Women at work: eighteen percent. Israel: sixty two.",
+   "gap": 0.15
+  },
+  {
+   "say": "Gay people: they get arrested. Israel: legal.",
+   "gap": 0.15
+  },
+  {
+   "say": "Kids get almost two more years of school. And about eleven more years of life.",
+   "gap": 0.15
+  },
+  {
+   "say": "And income per person? Sixteen times more.",
+   "gap": 0.15
+  },
+  {
+   "say": "Jordan gets one right: being gay is legal. Income: eleven times.",
+   "gap": 0.15,
+   "screen": "If Israel colonized *Jordan*",
+   "until": "L8"
+  },
+  {
+   "say": "Lebanon, the freest of the five: forty one out of a hundred. Income: ten times.",
+   "gap": 0.15,
+   "screen": "If Israel colonized *Lebanon*",
+   "until": "L9"
+  },
+  {
+   "say": "Iraq: being gay can mean ten to fifteen years in prison. Income: nine times.",
+   "gap": 0.15,
+   "screen": "If Israel colonized *Iraq*",
+   "until": "L10"
+  },
+  {
+   "say": "Syria: kids get seven years of school. Israel's kids, fifteen. Income: fifty six times.",
+   "gap": 0.15,
+   "screen": "If Israel colonized *Syria*",
+   "until": "L11"
+  },
+  {
+   "say": "Honestly? They'd wish we colonized them.",
+   "gap": 0.15,
+   "screen": "They'd *wish* we colonized them.",
+   "until": "L12"
+  },
+  {
+   "say": "Sorry. We're not hiring. We're busy building our own country.",
+   "gap": 0.15,
+   "screen": "Sorry. We're *not hiring.*",
+   "screen_y": 880,
+   "screen_size": 100,
+   "until": "L13"
+  },
+  {
+   "say": "Israel isn't perfect, and its critics should hold it to account. But colonizer is the wrong word.",
+   "gap": 0.15
+  },
+  {
+   "say": "People in all five countries deserve every right on this list. Their regimes deny them.",
+   "gap": 0.15
+  },
+  {
+   "say": "Send this to someone who says colonizer.",
+   "gap": 0.15
+  },
+  {
+   "say": "So next time someone says colonizers?",
+   "gap": 0.15
+  }
+ ],
+ "data": {
+  "src_y": 1548,
+  "subs_y": 1662,
+  "measures": [
+   {
+    "label": "Freedom score",
+    "icon": "🗽"
+   },
+   {
+    "label": "Women at work",
+    "icon": "💼"
+   },
+   {
+    "label": "Gay people",
+    "icon": "🏳️‍🌈"
+   },
+   {
+    "label": "School years",
+    "icon": "🎒"
+   },
+   {
+    "label": "Life expectancy",
+    "icon": "❤️"
+   },
+   {
+    "label": "Income per person",
+    "icon": "💰"
+   }
+  ],
+  "israel": {
+   "label": "Israel",
+   "flag": "IL",
+   "head": "Israel",
+   "values": [
+    "73/100",
+    "62%",
+    "Legal",
+    "14.9",
+    "82.4",
+    "$54,213"
+   ]
+  },
+  "score": {
+   "label": "Upgrades"
+  },
+  "cards": [
+   {
+    "name": "Egypt",
+    "flag": "EG",
+    "head": "Egypt",
+    "at": "L1:here's",
+    "values": [
+     "18/100",
+     "18%",
+     "Arrests",
+     "13.1",
+     "71.6",
+     "$3,287"
+    ],
+    "sticker": {
+     "txt": "16x",
+     "sub": "income per person",
+     "at": "L6:sixteen"
+    },
+    "glow": [
+     {
+      "row": 0,
+      "at": "L2",
+      "until": "L3"
+     },
+     {
+      "row": 1,
+      "at": "L3",
+      "until": "L4"
+     },
+     {
+      "row": 2,
+      "at": "L4",
+      "until": "L5"
+     },
+     {
+      "row": 3,
+      "at": "L5:two",
+      "until": "L5:and"
+     },
+     {
+      "row": 4,
+      "at": "L5:and",
+      "until": "L6"
+     },
+     {
+      "row": 5,
+      "at": "L6",
+      "until": "L7"
+     }
+    ],
+    "row_at": [
+     "L2:eighteen",
+     "L3:eighteen",
+     "L4:arrested",
+     "L5:two",
+     "L5:eleven",
+     "L6:income"
+    ]
+   },
+   {
+    "name": "Jordan",
+    "flag": "JO",
+    "head": "Jordan",
+    "at": "L7",
+    "values": [
+     "34/100",
+     "16%",
+     "Legal",
+     "13.1",
+     "77.8",
+     "$5,081"
+    ],
+    "sticker": {
+     "txt": "11x",
+     "sub": "income per person",
+     "at": "L7:eleven"
+    },
+    "glow": [
+     {
+      "row": 2,
+      "at": "L7:being",
+      "until": "L7:income"
+     }
+    ],
+    "cmp": [
+     "up",
+     "up",
+     "same",
+     "up",
+     "up",
+     "up"
+    ]
+   },
+   {
+    "name": "Lebanon",
+    "flag": "LB",
+    "head": "Lebanon",
+    "at": "L8",
+    "values": [
+     "41/100",
+     "22%*",
+     "Illegal",
+     "11.7",
+     "77.8",
+     "$5,248"
+    ],
+    "sticker": {
+     "txt": "10x",
+     "sub": "income per person",
+     "at": "L8:ten"
+    },
+    "glow": [
+     {
+      "row": 0,
+      "at": "L8:freest",
+      "until": "L8:income"
+     }
+    ]
+   },
+   {
+    "name": "Iraq",
+    "flag": "IQ",
+    "head": "Iraq",
+    "at": "L9",
+    "values": [
+     "31/100",
+     "11%",
+     "Prison",
+     "12.4",
+     "72.3",
+     "$6,162"
+    ],
+    "sticker": {
+     "txt": "9x",
+     "sub": "income per person",
+     "at": "L9:nine"
+    },
+    "glow": [
+     {
+      "row": 2,
+      "at": "L9:being",
+      "until": "L9:income"
+     }
+    ]
+   },
+   {
+    "name": "Syria",
+    "flag": "SY",
+    "head": "Syria",
+    "at": "L10",
+    "values": [
+     "10/100",
+     "13%",
+     "Illegal",
+     "7.4",
+     "72.1",
+     "$962*"
+    ],
+    "sticker": {
+     "txt": "56x",
+     "sub": "income per person",
+     "at": "L10:fifty"
+    },
+    "glow": [
+     {
+      "row": 3,
+      "at": "L10:kids",
+      "until": "L10:income"
+     }
+    ],
+    "until": "L11"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L11",
+    "until": "L12",
+    "title": "Freedom score, *2026*",
+    "y": 640,
+    "vmax": 100,
+    "lab_w": 380,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 73,
+      "txt": "73",
+      "hl": true
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 41,
+      "txt": "41"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 34,
+      "txt": "34"
+     },
+     {
+      "label": "Iraq",
+      "flag": "IQ",
+      "value": 31,
+      "txt": "31"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 18,
+      "txt": "18"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 10,
+      "txt": "10"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Freedom House 2026, ILO/World Bank 2024, ILGA, UNDP HDR 2025, IMF WEO 2024",
+   "year": 2026,
+   "at": "L1:here's",
+   "until": "L11"
+  },
+  {
+   "label": "*Lebanon women at work: 2023, latest",
+   "year": 2023,
+   "at": "L8",
+   "until": "L9",
+   "y": 1460
+  },
+  {
+   "label": "*Syria income: World Bank 2022, latest",
+   "year": 2022,
+   "at": "L10",
+   "until": "L11",
+   "y": 1460
+  },
+  {
+   "label": "Freedom House 2026 (Israel: not incl. West Bank, Gaza)",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "end": {
+  "at": "L13",
+  "y": 1000,
+  "balance": "Israel isn't *perfect.* But colonizer is the *wrong word.*",
+  "cta": "Send this to someone who says colonizer",
+  "balance2": "People in all five deserve these rights. Their *regimes* deny them.",
+  "balance2_at": "L14",
+  "cta_at": "L15"
+ },
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Colonialism"
+ ],
+ "cover": {
+  "t": 20.0,
+  "text": "If Israel *colonized*|its neighbours?",
+  "size": 130
+ },
+ "caption_en": "Colonizers? Let's check 5 countries. 🗺️\n\nSay Israel \"colonized\" its neighbours. What would people there get at Israel's level? (freedom score, women at work, gay people, school years, life expectancy, income per person)\n\n🇮🇱 Israel: 73, 62%, legal, 14.9, 82.4, $54,213\n🇪🇬 Egypt: 18, 18%, arrested, 13.1, 71.6, 16x less\n🇯🇴 Jordan: 34, 16%, legal, 13.1, 77.8, 11x less\n🇱🇧 Lebanon: 41, 22% (2023), illegal, 11.7, 77.8, 10x less\n🇮🇶 Iraq: 31, 11%, 10 to 15 years in prison (2024 law), 12.4, 72.3, 9x less\n🇸🇾 Syria: 10, 13%, illegal, 7.4, 72.1, 56x less\n\nHonestly? They'd wish we colonized them. Sorry, we're not hiring. We're busy building our own country.\n\nSatire about an accusation and about regimes, never about people. People in all five countries deserve every right on this list. Their regimes deny them. Israel isn't perfect, and its critics should hold it to account. But colonizer is the wrong word.\n\nFreedom House's 73 is for Israel itself. The West Bank (22) and Gaza (2) are scored in separate reports.\n\nSend this to someone who says colonizer.",
+ "caption_he": "קוראים לנו קולוניאליסטים? בואו נבדוק 5 מדינות. אם ישראל הייתה \"מתנחלת\" במצרים, בירדן, בלבנון, בעיראק ובסוריה, האזרחים שם היו מקבלים ציון חופש של 73 מתוך 100, יותר נשים בעבודה, זכויות לגאים, יותר שנות לימוד, יותר שנות חיים ופי 9 עד 56 הכנסה לנפש. בכנות? הם היו שמחים שנתנחל בהם. סליחה, אנחנו לא מגייסים. אנחנו עסוקים בלבנות את המדינה שלנו. ישראל לא מושלמת, אבל \"קולוניאליסטים\" זו המילה הלא נכונה. האנשים בכל חמש המדינות ראויים לכל הזכויות האלה, המשטרים שלהם מונעים אותן.",
+ "sources_text": "Sources: Freedom House, Freedom in the World 2026 (out of 100). Women at work: ILO modelled estimates via World Bank WDI, 2024 (Lebanon 2023). Gay people: ILGA World; Iraq law April 2024 (Reuters); Egypt arrests (HRW). School: expected years of schooling, and life expectancy: UNDP Human Development Report 2025 (2023 data). Income: GDP per person, IMF WEO Oct 2026 (2024); Syria World Bank 2022.\n\nMade with AI tools. AI voice."
+}
