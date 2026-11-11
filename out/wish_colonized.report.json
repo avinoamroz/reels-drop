@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "versus_card",
  "hook": "Colonizers? Let's check *5* countries.",
- "duration": 68.37,
+ "duration": 61.93,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/wish_colonized.mp4",
@@ -30,7 +30,7 @@
   {
    "label": "Freedom House 2026, ILO/World Bank 2024, ILGA, UNDP HDR 2025, IMF WEO 2024",
    "year": 2026,
-   "at": "L1:here's",
+   "at": "L1",
    "until": "L11"
   },
   {
@@ -55,7 +55,7 @@
   }
  ],
  "transcript": {
-  "score": 0.989,
+  "score": 0.97,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -64,13 +64,13 @@
     "flag": "ok"
    },
    {
-    "line": "Say Israel colonized Egypt. Here's what Egyptians would get.",
+    "line": "Say Israel colonized Egypt.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Freedom score: eighteen out of a hundred. Israel: seventy three.",
-    "score": 0.9,
+    "line": "Freedom: eighteen out of a hundred. Israel: seventy three.",
+    "score": 0.889,
     "flag": "ok"
    },
    {
@@ -84,7 +84,7 @@
     "flag": "ok"
    },
    {
-    "line": "Kids get almost two more years of school. And about eleven more years of life.",
+    "line": "About two more years of school. Eleven more years of life.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -100,7 +100,7 @@
    },
    {
     "line": "Lebanon scores best of the five: forty one out of a hundred. Income: ten times.",
-    "score": 0.933,
+    "score": 0.8,
     "flag": "ok"
    },
    {
@@ -115,7 +115,7 @@
    },
    {
     "line": "Honestly? They'd wish we colonized them.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -144,14 +144,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Colonizers, let's check five countries. Say Israel colonized Egypt. Here's what Egyptians would get. Freedom score, 18 out of 100, Israel 73, women at work, 18%, Israel 62, gay people, they get arrested, Israel legal, kids get almost two more years of school, and about 11 more years of life, and income per person, 16 times more, Jordan gets one right, being Being gay is legal. Income, 11 times. Lebanon scores best of the five, 41 out of 100. Income, 10 times. Iraq, being gay can mean 10 to 15 years in prison. Income, nine times. Syria, kids get seven years of school. Israel's kids, 15. Income, 56 times. Honestly, they'd wish we colonized them. Sorry, we're not hiring. We're busy building our own country. Israel isn't perfect and its critics should hold it to account. But colonizer is the wrong word. People in all five countries deserve every right on this list. Their regimes deny them. Send this to someone who says colonizer. So next time someone says colonizers.",
+  "heard": "Colonizers? Let's check five countries. Say Israel colonized Egypt. Freedom 18 out of 100. Israel 73. Women at work 18%. Israel 62. Gay people. They get arrested. Israel legal. About 2 more years of school. 11 more years of life. And income per person? 16 times more. Jordan gets one right. Being gay is legal. Income 11 times. 11 unscores is best of the five, 41 out of 100. Income, 10 times. Iraq, being gay can mean 10 to 15 years in prison. Income, nine times. Syria, kids get seven years of school. Israel's kids, 15. Income, 56 times. Honestly, they wish we colonized them. Sorry, we're not hiring. We're busy building our own country. Israel isn't perfect and its critics should hold it to account. But colonizer is the wrong word. People in all five countries deserve every right on this list. Their regimes deny them. Send this to someone who says colonizer. So next time someone says colonizers?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -1.8
+  "lufs": -16.2,
+  "true_peak": -2.1
  },
  "cards": [
   "Egypt",
@@ -161,5 +161,5 @@
   "Syria"
  ],
  "lint_warnings": [],
- "render_s": 113.7
+ "render_s": 82.7
 }
