@@ -1,0 +1,418 @@
+{
+ "id": "builders_destroyers",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*3* faiths.|*2* choices.",
+ "opener": {
+  "style": "globe_spin_fast"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1
+ },
+ "subs_replace": {
+  "two thousand year old": "2,000 year old",
+  "sixty thousand": "60,000",
+  "twenty nine": "29",
+  "a hundred thousand": "100,000"
+ },
+ "lines": [
+  {
+   "say": "Three faiths. Two choices.",
+   "gap": 0.4
+  },
+  {
+   "say": "Same faith: build, or destroy. Watch.",
+   "screen": "Same faith: *build* or *destroy?*",
+   "until": "L2-0.1",
+   "gap": 0.3
+  },
+  {
+   "say": "The UAE, a Muslim country, put a probe in orbit around Mars in 2021.",
+   "screen": "*UAE:* a probe in Mars orbit, 2021",
+   "screen_icon": "🚀",
+   "until": "L3-0.1"
+  },
+  {
+   "say": "ISIS, extremists using the same faith, blew up Palmyra's two thousand year old Temple of Bel.",
+   "screen": "*ISIS:* blew up a 2,000 year old temple",
+   "screen_icon": "🏛️",
+   "until": "L4-0.1",
+   "gap": 0.35
+  },
+  {
+   "say": "Same faith. Opposite choices.",
+   "screen": "Same faith. *Opposite choices.*",
+   "until": "L5-0.1",
+   "gap": 0.4
+  },
+  {
+   "say": "Norway, a mostly Christian country, ranks second in the world in human development.",
+   "screen": "*Norway:* number 2 in human development",
+   "screen_icon": "🕊️",
+   "until": "L6-0.1"
+  },
+  {
+   "say": "In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least sixty thousand children.",
+   "screen": "*Lord's Resistance Army,* Uganda",
+   "until": "L7-0.1",
+   "gap": 0.35
+  },
+  {
+   "say": "Israel, the Jewish state, is number one in the world in research spending.",
+   "screen": "*Israel:* number 1 in research spending",
+   "screen_icon": "🔬",
+   "until": "L8-0.1"
+  },
+  {
+   "say": "In 1994, a Jewish extremist from the Kach movement murdered twenty nine Muslim worshippers in Hebron.",
+   "screen": "*Kach* extremist, Hebron, 1994",
+   "until": "L9-0.1"
+  },
+  {
+   "say": "Less than three weeks later, Israel's government outlawed Kach as a terror group.",
+   "screen": "Israel *outlawed* Kach as a terror group",
+   "screen_icon": "⚖️",
+   "until": "L10-0.1",
+   "gap": 0.4
+  },
+  {
+   "say": "Builders invest in schools, companies, medicine and tech.",
+   "screen": "Builders invest in *schools, companies, medicine*",
+   "screen_icon": "🏫",
+   "until": "L11-0.1"
+  },
+  {
+   "say": "Destroyers invest in weapons.",
+   "screen": "Destroyers invest in *weapons*",
+   "until": "L12-0.1",
+   "gap": 0.35
+  },
+  {
+   "say": "The result? Norway, the UAE and Israel are all in the world's top thirty for human development."
+  },
+  {
+   "say": "The Lord's Resistance Army left over a hundred thousand dead.",
+   "gap": 0.45
+  },
+  {
+   "say": "Every faith has builders and destroyers."
+  },
+  {
+   "say": "The difference is the choice.",
+   "gap": 0.3
+  }
+ ],
+ "data": {
+  "cam0": [
+   40.0,
+   30.0,
+   34.0
+  ],
+  "hook_y": 930,
+  "cams": [
+   {
+    "at": "L2-0.3",
+    "view": [
+     54.5,
+     24.4,
+     16.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L3-0.3",
+    "view": [
+     38.3,
+     34.6,
+     16.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L5-0.3",
+    "view": [
+     10.8,
+     60.0,
+     26.0,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L6-0.3",
+    "view": [
+     32.3,
+     2.8,
+     24.0,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L7-0.3",
+    "view": [
+     35.0,
+     31.6,
+     5.5,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L10-0.3",
+    "view": [
+     25.0,
+     30.0,
+     90.0,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L14-0.4",
+    "view": [
+     40.0,
+     30.0,
+     34.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "icons": [
+   {
+    "at": "L2:probe",
+    "until": "L4",
+    "lon": 54.4,
+    "lat": 24.45,
+    "emo": "🚀",
+    "size": 110,
+    "label": "UAE: Mars orbit",
+    "col": "yellow"
+   },
+   {
+    "at": "L5:norway",
+    "until": "L6",
+    "lon": 10.75,
+    "lat": 59.91,
+    "emo": "🕊️",
+    "size": 110,
+    "label": "Norway: HDI #2",
+    "col": "yellow"
+   },
+   {
+    "at": "L7:number",
+    "until": "L10",
+    "lon": 34.78,
+    "lat": 32.08,
+    "emo": "🔬",
+    "size": 100,
+    "label": "Israel: R&D #1",
+    "col": "yellow"
+   },
+   {
+    "at": "L10:schools",
+    "until": "L12",
+    "lon": 10.75,
+    "lat": 59.91,
+    "emo": "🏫",
+    "size": 90
+   },
+   {
+    "at": "L10:companies",
+    "until": "L12",
+    "lon": 54.4,
+    "lat": 24.45,
+    "emo": "🏢",
+    "size": 90
+   },
+   {
+    "at": "L10:medicine",
+    "until": "L12",
+    "lon": 34.78,
+    "lat": 32.08,
+    "emo": "💊",
+    "size": 90
+   }
+  ],
+  "pins": [
+   {
+    "at": "L3:blew",
+    "until": "L4",
+    "lon": 38.27,
+    "lat": 34.55,
+    "label": "Palmyra, 2015",
+    "color": "red"
+   },
+   {
+    "at": "L6:uganda",
+    "until": "L7",
+    "lon": 32.3,
+    "lat": 2.78,
+    "label": "Northern Uganda",
+    "color": "red"
+   },
+   {
+    "at": "L8:hebron",
+    "until": "L10",
+    "lon": 35.1,
+    "lat": 31.52,
+    "label": "Hebron, 1994",
+    "color": "red"
+   },
+   {
+    "at": "L11:weapons",
+    "until": "L12",
+    "lon": 38.27,
+    "lat": 34.55,
+    "color": "red"
+   },
+   {
+    "at": "L11:weapons+0.15",
+    "until": "L12",
+    "lon": 32.3,
+    "lat": 2.78,
+    "color": "red"
+   }
+  ],
+  "big": [
+   {
+    "at": "L6:abducted",
+    "until": "L7-0.1",
+    "value": 60000,
+    "from": 0,
+    "suffix": "+",
+    "sub": "children abducted",
+    "y": 960
+   },
+   {
+    "at": "L7:research",
+    "until": "L8-0.1",
+    "value": 6.35,
+    "from": 0,
+    "dec": 2,
+    "suffix": "%",
+    "sub": "of GDP on research",
+    "y": 960
+   },
+   {
+    "at": "L13",
+    "until": "L14-0.1",
+    "value": 100000,
+    "from": 0,
+    "suffix": "+",
+    "sub": "dead, Lord's Resistance Army",
+    "y": 960
+   }
+  ],
+  "bars": [
+   {
+    "at": "L12",
+    "until": "L13-0.1",
+    "y": 760,
+    "vmax": 1.0,
+    "title": "All three in the *top 30*",
+    "lab_w": 380,
+    "rows": [
+     {
+      "label": "Norway",
+      "flag": "NO",
+      "value": 0.97,
+      "txt": "#2",
+      "color": "#45A4DD",
+      "at": "L12:norway"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 0.94,
+      "txt": "#15",
+      "color": "#45A4DD",
+      "at": "L12:uae"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0.919,
+      "txt": "#27",
+      "color": "#45A4DD",
+      "at": "L12:israel"
+     }
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Emirates Mars Mission",
+   "year": 2021,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "UNESCO, Temple of Bel",
+   "year": 2015,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "UNDP Human Development Report",
+   "year": 2025,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "UN Secretary-General, S/2013/297",
+   "year": 2013,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "WIPO Global Innovation Index",
+   "year": 2025,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Israel State Archives",
+   "year": 1994,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "UNDP HDI rank of 193",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "label": "UN Secretary-General, S/2013/297",
+   "year": 2013,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "Every faith has *builders* and *destroyers.*",
+  "cta": "Send this to a friend of another faith"
+ },
+ "caption_en": "Same faith. Opposite choices. 🕊️\n\nIslam: the UAE put the Hope probe into Mars orbit (9 Feb 2021). ISIS blew up the 2,000 year old Temple of Bel in Palmyra (Aug 2015, confirmed by UN satellite images).\nChristianity: Norway ranks 2nd of 193 countries in human development (UNDP 2025). The Lord's Resistance Army in Uganda, which claimed to fight in God's name, abducted 60,000 to 100,000 children (UN Secretary-General, 2013).\nJudaism: Israel is 1st in the world in research spending, 6.35% of GDP (WIPO 2025). In 1994 a Kach extremist murdered 29 Muslim worshippers in Hebron, and Israel's government outlawed Kach and Kahane Chai as terror groups within three weeks.\n\nNorway, the UAE and Israel are all in the world's top 30 for human development (2, 15 and 27 of 193). The LRA alone is responsible for more than 100,000 deaths (UN, 2013).\n\nNo faith is the problem. Every faith has builders and destroyers. The difference is the choice.\n\nSend this to a friend of another faith.",
+ "caption_he": "אותה אמונה. בחירות הפוכות. 🕊️\n\nאיסלאם: איחוד האמירויות הכניס את גשושית Hope למסלול סביב מאדים (9.2.2021). דאעש פוצץ את מקדש בל בן 2,000 השנים בפלמירה (אוגוסט 2015, אושר בתצלומי לוויין של האו\"ם).\nנצרות: נורווגיה במקום השני מתוך 193 מדינות במדד הפיתוח האנושי (האו\"ם, 2025). \"צבא ההתנגדות של האל\" באוגנדה, שטען שהוא נלחם בשם אלוהים, חטף בין 60,000 ל-100,000 ילדים (מזכ\"ל האו\"ם, 2013).\nיהדות: ישראל במקום הראשון בעולם בהשקעה במחקר ופיתוח, 6.35% מהתוצר (WIPO, 2025). ב-1994 קיצוני מתנועת כך רצח 29 מתפללים מוסלמים בחברון, והממשלה הוציאה את כך ואת כהנא חי מחוץ לחוק כארגוני טרור תוך שלושה שבועות.\n\nנורווגיה, האמירויות וישראל כולן ב-30 הראשונות בעולם בפיתוח אנושי. ה-LRA לבדו אחראי ליותר מ-100,000 הרוגים.\n\nאף אמונה היא לא הבעיה. בכל אמונה יש בונים ויש הורסים. ההבדל הוא הבחירה.",
+ "hashtags": [
+  "#Israel",
+  "#interfaith",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 2.4,
+  "big": "3 faiths",
+  "text": "Same faith,|*opposite* choices?"
+ }
+}
