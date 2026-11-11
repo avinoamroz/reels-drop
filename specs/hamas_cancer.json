@@ -1,0 +1,243 @@
+{
+ "id": "hamas_cancer",
+ "account": "noamroz__",
+ "template": "surgery",
+ "hook": "Gaza: the *patient.*|HAMAS: the *tumour.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1
+ },
+ "lines": [
+  {
+   "say": "Gaza is the patient. HAMAS is the tumour.",
+   "gap": 0.45
+  },
+  {
+   "say": "Every light on this scan is a person.",
+   "screen": "Every light is *a person*"
+  },
+  {
+   "say": "This is the tumour. Its roots run under everything.",
+   "screen": "Its roots run *under everything*"
+  },
+  {
+   "say": "Homes. Schools. Hospitals.",
+   "screen": "Homes. Schools. *Hospitals.*"
+  },
+  {
+   "say": "The White House said HAMAS used Al-Shifa hospital, and tunnels under it, to hold hostages.",
+   "screen": "White House: *Al-Shifa* and the tunnels under it"
+  },
+  {
+   "say": "Under the UN agency's headquarters, Israel found a HAMAS data centre.",
+   "screen": "Under *UNRWA's* HQ: a HAMAS data centre"
+  },
+  {
+   "say": "In 2014, the UN found rockets hidden in three of its empty schools.",
+   "screen": "*3* UN schools with rockets inside"
+  },
+  {
+   "say": "Gaza is forty-one kilometres long. The tunnels: up to seven hundred and twenty.",
+   "screen": "Gaza: *41 km* long. Tunnels: up to *720 km*",
+   "gap": 0.45
+  },
+  {
+   "say": "Now you're the surgeon. Two options.",
+   "screen": "You're the surgeon: *2* options"
+  },
+  {
+   "say": "One bomb. Tumour gone. Patient gone.",
+   "screen": "Option 1: *one bomb*",
+   "gap": 0.5
+  },
+  {
+   "say": "Or surgery. Slow, costly, and your own team goes in.",
+   "screen": "Option 2: *surgery*"
+  },
+  {
+   "say": "Four hundred and seventy-two Israeli soldiers were killed in the ground operation.",
+   "screen": "*472* Israeli soldiers killed in the ground operation",
+   "gap": 0.45
+  },
+  {
+   "say": "And every healthy cell lost is a real person. A real tragedy.",
+   "screen": "Every cell lost: *a real person*",
+   "gap": 0.45
+  },
+  {
+   "say": "So the law judges each strike on its own, not by comparing death tolls.",
+   "screen": "The law judges *each strike* on its own"
+  },
+  {
+   "say": "The goal was never the patient. Remove the tumour, so the patient can live.",
+   "screen": "Remove the tumour. *Let the patient live.*",
+   "until": "END-1.5"
+  }
+ ],
+ "data": {
+  "roots0": 0.45,
+  "grow_at": "L2",
+  "grow_until": "L3e",
+  "icons": [
+   {
+    "kind": "home",
+    "x": 345,
+    "y": 860,
+    "at": "L3:homes"
+   },
+   {
+    "kind": "home",
+    "x": 735,
+    "y": 860,
+    "at": "L3:homes+0.1"
+   },
+   {
+    "kind": "home",
+    "x": 540,
+    "y": 1030,
+    "at": "L3:homes+0.2"
+   },
+   {
+    "kind": "home",
+    "x": 618,
+    "y": 1215,
+    "at": "L3:homes+0.3"
+   },
+   {
+    "kind": "school",
+    "x": 420,
+    "y": 1000,
+    "at": "L3:schools",
+    "rockets_at": "L6:rockets"
+   },
+   {
+    "kind": "school",
+    "x": 662,
+    "y": 1000,
+    "at": "L3:schools+0.1",
+    "rockets_at": "L6:three"
+   },
+   {
+    "kind": "school",
+    "x": 462,
+    "y": 1215,
+    "at": "L3:schools+0.2",
+    "rockets_at": "L6:empty"
+   },
+   {
+    "kind": "hospital",
+    "x": 440,
+    "y": 718,
+    "at": "L3:hospitals",
+    "label": "Al-Shifa",
+    "label_at": "L4",
+    "label_until": "L4e"
+   },
+   {
+    "kind": "un",
+    "x": 640,
+    "y": 718,
+    "label": "UNRWA HQ",
+    "label_at": "L5",
+    "label_until": "L5e"
+   }
+  ],
+  "ruler": {
+   "at": "L7",
+   "until": "L7e+0.4",
+   "rows": [
+    {
+     "label": "Gaza",
+     "value": 41,
+     "txt": "41 km",
+     "color": "#45A4DD"
+    },
+    {
+     "label": "Tunnels (up to)",
+     "value": 720,
+     "txt": "720 km",
+     "color": "#E5484D"
+    }
+   ]
+  },
+  "options": {
+   "at": "L8",
+   "until": "L10e",
+   "one_at": "L9",
+   "two_at": "L10",
+   "one": "One bomb",
+   "two": "Surgery"
+  },
+  "bomb_at": "L9:bomb",
+  "rewind_at": "L9e+0.2",
+  "surgery_at": "L10:surgery",
+  "cut_until": "L13e",
+  "fallen_at": "L11:killed",
+  "lost_at": "L12",
+  "zoom_at": "L12:real",
+  "zoom_until": "L12e+0.2",
+  "law_at": "L13",
+  "law_until": "L13e+0.2",
+  "law_left": "Military gain",
+  "law_right": "Civilian harm",
+  "heal_at": "L14:remove"
+ },
+ "sources": [
+  {
+   "label": "White House NSC spokesman John Kirby, 14 Nov",
+   "year": 2023,
+   "at": "L4",
+   "until": "L4e+0.2"
+  },
+  {
+   "label": "IDF and Shin Bet, Feb 2024 (UNRWA said it did not know)",
+   "year": 2024,
+   "at": "L5",
+   "until": "L5e+0.2"
+  },
+  {
+   "label": "UNRWA statements, 17, 22 and 29 July 2014",
+   "year": 2014,
+   "at": "L6",
+   "until": "L6e+0.2"
+  },
+  {
+   "label": "Israeli officials via The New York Times, Jan 2024; UN OCHA",
+   "year": 2024,
+   "at": "L7",
+   "until": "L7e+0.3"
+  },
+  {
+   "label": "IDF data via The Times of Israel, 7 Oct 2026",
+   "year": 2026,
+   "at": "L11",
+   "until": "L11e+0.3"
+  },
+  {
+   "label": "Additional Protocol I (1977), Art. 51(5)(b) and 57",
+   "year": 1977,
+   "at": "L13",
+   "until": "L13e+0.2"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "Gaza's people deserve a future *without HAMAS.*",
+  "cta": "Send this to someone who says disproportionate"
+ },
+ "caption_en": "Gaza is the patient. HAMAS is the tumour. 🩺\n\nPicture a scan. Every light is a person. The tumour grew roots under homes, schools and hospitals:\n🔹 The White House (NSC spokesman John Kirby, 14 Nov 2023): HAMAS and Palestinian Islamic Jihad \"use some hospitals in the Gaza Strip, including Al-Shifa, and tunnels underneath them to conceal and to support their military operations and to hold hostages.\"\n🔹 Feb 2024: the IDF and Shin Bet showed a HAMAS data centre in a tunnel about 700 m long and 18 m deep under UNRWA's Gaza City headquarters. UNRWA's chief said the agency \"did not know what is under its headquarters\".\n🔹 July 2014: UNRWA itself reported rockets hidden in three of its vacant schools (17, 22 and 29 July).\n🔹 Gaza is about 41 km long. Israeli defence officials estimated the tunnels at 350 to 450 miles, about 560 to 720 km (The New York Times, Jan 2024).\n\nThe surgeon has two options. One bomb: the tumour is gone, and so is the patient. Or surgery: slow, costly, and your own team goes in. 472 Israeli soldiers were killed in the Gaza ground operation (IDF data, The Times of Israel, 7 Oct 2026).\n\nAnd every healthy cell lost is a real person. A real tragedy. That's why the laws of war judge each strike on its own: is the expected harm to civilians excessive compared with the concrete and direct military advantage? It is not a comparison of death tolls.\n\nThe goal was never the patient. Remove the tumour, so the patient can live.\n\nSend this to someone who says \"disproportionate\".",
+ "caption_he": "עזה היא המטופל. חמאס הוא הגידול. 🩺\nתחשבו על סריקה: כל נקודת אור היא אדם. לגידול יש שורשים מתחת לבתים, לבתי ספר ולבתי חולים.\nהבית הלבן (ג'ון קירבי, 14.11.2023): חמאס והג'יהאד האסלאמי משתמשים בבתי חולים ברצועה, כולל שיפא, ובמנהרות שמתחתם, כדי להסתיר ולתמוך בפעילות צבאית ולהחזיק חטופים.\nפברואר 2024: צה\"ל והשב\"כ חשפו חוות שרתים של חמאס במנהרה מתחת למטה אונר\"א בעזה. ראש אונר\"א אמר שהארגון לא ידע מה יש מתחת למטה שלו.\nיולי 2014: אונר\"א עצמה דיווחה על רקטות שהוסתרו בשלושה מבתי הספר הריקים שלה.\nעזה ארוכה כ-41 ק\"מ. המנהרות, לפי הערכת גורמי ביטחון: עד כ-720 ק\"מ.\nלמנתח יש שתי אפשרויות. פצצה אחת: הגידול נעלם, וגם המטופל. או ניתוח: איטי, יקר, והצוות שלך נכנס פנימה. 472 חיילי צה\"ל נהרגו בתמרון הקרקעי בעזה.\nוכל תא בריא שאובד הוא אדם אמיתי. טרגדיה אמיתית. לכן דיני המלחמה בודקים כל תקיפה בנפרד, ולא משווים מספרי הרוגים.\nהמטרה מעולם לא הייתה המטופל. מוציאים את הגידול, כדי שהמטופל יוכל לחיות.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#HAMAS"
+ ],
+ "cover": {
+  "bg": "scene",
+  "text": "One bomb,|or *surgery?*",
+  "size": 160
+ }
+}
