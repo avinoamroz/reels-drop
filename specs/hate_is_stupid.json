@@ -1,0 +1,533 @@
+{
+ "id": "hate_is_stupid",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Hating Jews? *Wrong.*|And *stupid.*",
+ "opener": {
+  "style": "map_tear"
+ },
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.12
+ },
+ "subs_replace": {
+  "Nineteen thirty three": "1933",
+  "Fifteen percent": "15%",
+  "sixty four percent": "64%",
+  "thirty one percent": "31%",
+  "fourteen ninety two": "1492",
+  "nineteen fifty": "1950",
+  "a hundred and twenty thousand": "120,000",
+  "eight hundred fifty thousand": "850,000",
+  "fourteen Nobel": "14 Nobel",
+  "zero point two percent": "0.2%",
+  "twenty two percent": "22%"
+ },
+ "lines": [
+  {
+   "say": "Hating Jews isn't just wrong. It's stupid.",
+   "gap": 0.2
+  },
+  {
+   "say": "Nineteen thirty three. The Nazi regime fires Jewish professors.",
+   "screen": "*1933:* the Nazi regime fires Jewish professors",
+   "screen_icon": "🎓",
+   "until": "L4-0.05"
+  },
+  {
+   "say": "Fifteen percent of Germany's university physicists, gone."
+  },
+  {
+   "say": "They held sixty four percent of the citations."
+  },
+  {
+   "say": "Einstein left too. Many went to America.",
+   "screen": "*Einstein* left too. Many went to *America*",
+   "until": "L7-0.05"
+  },
+  {
+   "say": "In their chemistry fields, U.S. patents jumped thirty one percent."
+  },
+  {
+   "say": "Five of the displaced physicists later won a Nobel.",
+   "gap": 0.2
+  },
+  {
+   "say": "Spain, fourteen ninety two. The Crown expels its Jews.",
+   "screen": "*1492:* the Spanish Crown expels its Jews",
+   "until": "L8-0.05"
+  },
+  {
+   "say": "The Ottoman Sultan takes them in.",
+   "screen": "The *Ottoman Sultan* takes them in",
+   "until": "L9-0.05"
+  },
+  {
+   "say": "A year later, refugees print the Ottoman Empire's first book.",
+   "screen": "*1493:* refugees print the Ottoman Empire's *first book*",
+   "screen_icon": "📖",
+   "until": "L10-0.05",
+   "gap": 0.2
+  },
+  {
+   "say": "Iraq, nineteen fifty. Jews may leave, if they drop citizenship.",
+   "screen": "*Iraq, 1950:* leave, but give up citizenship",
+   "until": "L13-0.05"
+  },
+  {
+   "say": "Almost a hundred and twenty thousand go, most to Israel."
+  },
+  {
+   "say": "From Arab countries, about eight hundred fifty thousand Jews were displaced."
+  },
+  {
+   "say": "Israel took many in. It now has fourteen Nobel laureates.",
+   "screen": "Israel today: *14* Nobel laureates",
+   "screen_icon": "🏅",
+   "until": "L14-0.05",
+   "gap": 0.2
+  },
+  {
+   "say": "Jews: zero point two percent of the world. About twenty two percent of Nobel winners."
+  },
+  {
+   "say": "Every regime that pushed them out lost. Every country that took them in gained."
+  },
+  {
+   "say": "So next time someone hates Jews, remind them:",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   10.0,
+   46.0,
+   34.0
+  ],
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     11.5,
+     51.0,
+     13.0,
+     900
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L4-0.15",
+    "view": [
+     -32.0,
+     45.0,
+     100.0,
+     880
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     12.0,
+     39.5,
+     44.0,
+     880
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L10-0.2",
+    "view": [
+     40.0,
+     32.5,
+     20.0,
+     900
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L12-0.15",
+    "view": [
+     18.0,
+     29.0,
+     62.0,
+     900
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L13-0.15",
+    "view": [
+     35.0,
+     31.5,
+     7.0,
+     900
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L14-0.15",
+    "view": [
+     20.0,
+     30.0,
+     150.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L16-0.1",
+    "view": [
+     10.0,
+     46.0,
+     34.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L1",
+    "until": "L4",
+    "code": "DEU"
+   },
+   {
+    "at": "L7",
+    "until": "L9",
+    "code": "ESP"
+   },
+   {
+    "at": "L10",
+    "until": "L12",
+    "code": "IRQ"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1:nazi",
+    "until": "L6e",
+    "lon": 13.4,
+    "lat": 52.5,
+    "label": "Berlin",
+    "color": "red"
+   },
+   {
+    "at": "L4:america",
+    "until": "L6e",
+    "lon": -74.0,
+    "lat": 40.7,
+    "label": "USA",
+    "color": "yellow",
+    "size": 46
+   },
+   {
+    "at": "L7:spain",
+    "until": "L9e",
+    "lon": -4.0,
+    "lat": 39.9,
+    "label": "Spain",
+    "color": "red"
+   },
+   {
+    "at": "L8:ottoman",
+    "until": "L9e",
+    "lon": 28.98,
+    "lat": 41.0,
+    "label": "Istanbul",
+    "color": "yellow",
+    "size": 46
+   },
+   {
+    "at": "L10:iraq",
+    "until": "L11e",
+    "lon": 44.4,
+    "lat": 33.3,
+    "label": "Baghdad",
+    "color": "red"
+   },
+   {
+    "at": "L11:israel",
+    "until": "L11e",
+    "lon": 34.8,
+    "lat": 32.1,
+    "label": "Israel",
+    "color": "yellow",
+    "size": 46
+   }
+  ],
+  "routes": [
+   {
+    "at": "L4:many",
+    "until": "L6e",
+    "kind": "flow",
+    "draw": 0.9,
+    "path": [
+     [
+      13.4,
+      52.5
+     ],
+     [
+      4.5,
+      52.5
+     ],
+     [
+      -10.0,
+      50.5
+     ],
+     [
+      -35.0,
+      46.0
+     ],
+     [
+      -60.0,
+      42.0
+     ],
+     [
+      -74.0,
+      40.7
+     ]
+    ],
+    "label": "Scientists flee",
+    "label_at": [
+     -35.0,
+     50.0
+    ]
+   },
+   {
+    "at": "L8:takes",
+    "until": "L9e",
+    "kind": "flow",
+    "draw": 1.0,
+    "path": [
+     [
+      -4.0,
+      39.9
+     ],
+     [
+      -0.4,
+      38.3
+     ],
+     [
+      5.0,
+      38.2
+     ],
+     [
+      12.0,
+      37.4
+     ],
+     [
+      19.0,
+      36.4
+     ],
+     [
+      24.0,
+      37.0
+     ],
+     [
+      26.3,
+      39.6
+     ],
+     [
+      28.98,
+      41.0
+     ]
+    ],
+    "label": "Refuge, 1492",
+    "label_at": [
+     12.0,
+     35.0
+    ]
+   },
+   {
+    "at": "L11:go",
+    "until": "L11e",
+    "kind": "flow",
+    "draw": 0.8,
+    "path": [
+     [
+      44.4,
+      33.3
+     ],
+     [
+      40.5,
+      33.4
+     ],
+     [
+      37.0,
+      32.6
+     ],
+     [
+      34.8,
+      32.1
+     ]
+    ],
+    "label": "Airlift",
+    "label_at": [
+     39.5,
+     34.6
+    ]
+   }
+  ],
+  "icons": [
+   {
+    "at": "L9:first",
+    "until": "L9e",
+    "lon": 28.98,
+    "lat": 42.6,
+    "emo": "📖",
+    "size": 90
+   }
+  ],
+  "counter": [
+   {
+    "label": "German university physicists fired",
+    "at": "L2-0.05",
+    "until": "L3-0.05",
+    "y": 1240,
+    "suffix": "%",
+    "steps": [
+     {
+      "at": "L2",
+      "value": 15
+     }
+    ]
+   },
+   {
+    "label": "Jews leaving Iraq, 1950 to 1951",
+    "at": "L11-0.05",
+    "until": "L12-0.05",
+    "y": 1240,
+    "steps": [
+     {
+      "at": "L11:almost",
+      "value": 120000
+     }
+    ]
+   },
+   {
+    "label": "Jews displaced from Arab countries",
+    "at": "L12-0.05",
+    "until": "L13-0.05",
+    "y": 1240,
+    "steps": [
+     {
+      "at": "L12:about",
+      "value": 850000
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L3",
+    "until": "L4-0.05",
+    "value": 64,
+    "from": 1,
+    "suffix": "%",
+    "sub": "of the citations, held by the fired 15%",
+    "y": 980
+   },
+   {
+    "at": "L5:patents",
+    "until": "L6-0.05",
+    "value": 31,
+    "from": 1,
+    "prefix": "+",
+    "suffix": "%",
+    "sub": "US patents in their chemistry fields",
+    "y": 980
+   },
+   {
+    "at": "L6",
+    "until": "L7-0.05",
+    "value": 5,
+    "from": 0,
+    "sub": "displaced physicists, later Nobel winners",
+    "y": 980
+   },
+   {
+    "at": "L14:about",
+    "until": "L15-0.05",
+    "value": 22,
+    "from": 1,
+    "suffix": "%",
+    "sub": "of Nobel winners, from 0.2% of people",
+    "y": 980
+   }
+  ],
+  "tail": 0.6
+ },
+ "sources": [
+  {
+   "label": "Waldinger, Review of Economics and Statistics",
+   "year": 2016,
+   "at": "L1",
+   "until": "L4-0.05"
+  },
+  {
+   "label": "Moser, Voena and Waldinger, American Economic Review",
+   "year": 2014,
+   "at": "L4",
+   "until": "L6-0.05"
+  },
+  {
+   "label": "Physics Today, The scientific exodus from Nazi Germany",
+   "year": 2018,
+   "at": "L6",
+   "until": "L7-0.05"
+  },
+  {
+   "label": "Arba'ah Turim, Nahmias press, Constantinople",
+   "year": 1493,
+   "at": "L7",
+   "until": "L10-0.05"
+  },
+  {
+   "label": "US National Archives, Iraqi Jewish Archive",
+   "year": 2013,
+   "at": "L10",
+   "until": "L12-0.05"
+  },
+  {
+   "label": "US House Resolution 185",
+   "year": 2008,
+   "at": "L12",
+   "until": "L13-0.05"
+  },
+  {
+   "label": "nobelprize.org",
+   "year": 2025,
+   "at": "L13",
+   "until": "L14-0.05"
+  },
+  {
+   "label": "Shalev, 100 Years of Nobel Prizes; Israel CBS",
+   "at": "L14",
+   "until": "L15-0.05",
+   "year": 2026
+  }
+ ],
+ "end": {
+  "at": "L15",
+  "balance": "*Regimes* chose hate. *Everyone* paid the bill.",
+  "cta": "Send this to a friend"
+ },
+ "caption_en": "Hating Jews isn't just wrong. It's stupid. History keeps the receipts. 📈\n\n🇩🇪 1933: the Nazi regime fires Jewish professors. 15% of Germany's university physicists are dismissed, and they held 64% of the citations (Waldinger, REStat 2016). Einstein leaves too.\n🇺🇸 Many go to America. In the chemistry fields the émigrés brought, US patenting jumps 31% (Moser, Voena and Waldinger, AER 2014). Five of the displaced physicists later win a Nobel (Physics Today, 2018).\n🇪🇸 1492: the Spanish Crown expels its Jews. Sultan Bayezid II takes them in. In 1493 two refugee brothers, David and Samuel ibn Nahmias, print the first book in the Ottoman Empire, in any language.\n🇮🇶 1950: Iraq's government lets Jews leave only if they give up their citizenship. Almost 120,000 leave in 1950 and 1951, most to Israel (US National Archives). From Arab countries, about 850,000 Jews were displaced after 1948 (US House Resolution 185, 2008).\n🇮🇱 Israel took many in. Today it has 14 Nobel laureates.\n🏅 Jews are about 0.2% of the world, and about 22% of Nobel winners.\n\nEvery regime that pushed them out lost. Every country that took them in gained.\n\nSend this to a friend who needs it.",
+ "caption_he": "לשנוא יהודים זה לא רק לא מוסרי. זה גם טיפשי.\n1933: המשטר הנאצי מפטר את הפרופסורים היהודים. 15% מהפיזיקאים באוניברסיטאות בגרמניה, שהחזיקו 64% מהציטוטים. רבים עברו לאמריקה, ושם הפטנטים בתחומי הכימיה שהם הביאו קפצו ב-31%.\n1492: הכתר הספרדי מגרש את היהודים. הסולטן העות'מאני קולט אותם, ושנה אחר כך פליטים מספרד מדפיסים את הספר הראשון באימפריה העות'מאנית.\n1950: עיראק מאפשרת ליהודים לצאת רק אם יוותרו על האזרחות. כמעט 120,000 עוזבים, רובם לישראל. מארצות ערב נעקרו כ-850,000 יהודים.\nיהודים הם 0.2% מהעולם וכ-22% מזוכי הנובל.\nכל משטר שגירש אותם הפסיד. כל מדינה שקלטה אותם הרוויחה.\n\nSources: Waldinger, Review of Economics and Statistics 98(5), 2016; Moser, Voena and Waldinger, American Economic Review 104(10), 2014; Physics Today, \"The scientific exodus from Nazi Germany\", 2018; History of Information, first book printed in the Ottoman Empire (Arba'ah Turim, 1493); US National Archives, Iraqi Jewish Archive; US House Resolution 185, 2008; nobelprize.org; Baruch Shalev, 100 Years of Nobel Prizes; Israel Central Bureau of Statistics, 2026.\n\nMaps: Natural Earth (public domain).",
+ "hashtags": [
+  "#History",
+  "#Jewish",
+  "#Economics"
+ ],
+ "cover": {
+  "t": 12.0,
+  "big": "64%",
+  "text": "Who *lost* when Jews left?"
+ }
+}
