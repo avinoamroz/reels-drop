@@ -121,3 +121,8 @@ ecv2_shirt2 intitle:shirt intitle:laundry
 ecv2_shirt3 intitle:washing intitle:clothes
 ecv2_cat_wash Category:Washing clothes by hand
 ecv2_shirt4 intitle:t-shirt washing
+ecv2_line intitle:clothesline shirts
+ecv2_line2 intitle:laundry intitle:hanging
+ecv2_cat_wm Category:Laundry in washing machines
+ecv2_tsl intitle:t-shirts drying
+ecv2_foam intitle:laundry detergent foam
