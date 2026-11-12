@@ -66,7 +66,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ethnic cleansing. Yes or no. U.N. definition. Force or fear to remove a group from an area. It can be a crime against humanity or genocide. Cleansing but not ethnic. Scrubbing a rubber duck. Washing a t-shirt. Ethnic but not cleansing. Falafel. Nazi Germany-hunted Jews put them on trains and murdered 6 million. Worse than ethnic cleansing. Genocide. Myanmar 2017. Over 700,000 Rohingya-driven out. The U.N. A textbook example. Sudan 2023. Thousands of masalit killed, hundreds of thousands driven out, human rights watch, ethnic cleansing. Israel fights Hamas and Gaza, warning civilians with millions of leaflets, texts, and calls. That's war. Sad and terrible. Not ethnic cleansing. Critics call mass evacuations forced displacement. Israel says they're temporary for safety. Judge by the definition. October 7th. Hamas killed about 1,200 people, mostly civilians, hunting them house by house. It's Charter Code's a call to kill Jews. That's targeting people for who they are. So next time someone shouts ethnic cleansing, ask them what it means.",
+  "heard": "Ethnic cleansing. Yes or no. U.N. definition. Force or fear to remove a group from an area. It can be a crime against humanity or genocide. Cleansing but not ethnic. Scrubbing a rubber duck. Washing a t-shirt. Ethnic but not cleansing. Falafel. Nazi Germany-hunted Jews put them on trains and murdered 6 million. Worse than ethnic cleansing, genocide. Myanmar, 2017. Over 700,000 Rohingya-driven out. The U.N. A textbook example. Sudan, 2023. Thousands of masalit killed, hundreds of thousands driven out, human rights watch, ethnic cleansing. Israel fights Hamas and Gaza, warning civilians with millions of leaflets, texts, and calls. That's war. Sad and terrible. Not ethnic cleansing. Critics call mass evacuations forced displacement. Israel says they're temporary for safety. Judge by the definition. October 7th. Hamas killed about 1,200 people, mostly civilians, hunting them house by house. It's Charter quotes a call to kill Jews. That's targeting people for who they are. So next time someone shouts ethnic cleansing, ask them what it means.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -121,5 +121,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 96.5
+ "render_s": 105.1
 }
