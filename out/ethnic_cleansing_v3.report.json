@@ -1,0 +1,250 @@
+{
+ "id": "ethnic_cleansing_v3",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Ethnic cleansing:|*yes* *or* *no?*",
+ "duration": 65.97,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/ethnic_cleansing_v3.mp4",
+  "cover": "covers/ethnic_cleansing_v3_cover.jpg",
+  "preview": "previews/ethnic_cleansing_v3_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/ethnic_cleansing_v3_0.jpg",
+  "1": "out/frames/ethnic_cleansing_v3_1.jpg",
+  "3": "out/frames/ethnic_cleansing_v3_3.jpg",
+  "last": "out/frames/ethnic_cleansing_v3_last.jpg"
+ },
+ "caption_en": "Ethnic cleansing: yes or no? 🧽\n\nUnited Nations definition (1993): \"rendering an area ethnically homogeneous by using force or intimidation\". It can amount to crimes against humanity or genocide.\n\nCleansing, not ethnic: a rubber duck, a T-shirt. Ethnic, not cleansing: falafel.\n\nNazi Germany deported Jews by train and murdered 6 million: genocide, worse than ethnic cleansing.\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \"a textbook example of ethnic cleansing\".\nWest Darfur, Sudan, 2023: Human Rights Watch documented ethnic cleansing of the Masalit.\n\nIsrael fights HAMAS in Gaza and warned civilians: 7.2M leaflets, 13.7M texts, 15M recorded calls (Israel Defense Forces, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\n\n7 October 2023: HAMAS killed about 1,200 people, mostly civilians. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\n\nSend this to someone who needs the definition.",
+ "caption_he": "טיהור אתני: כן או לא? 🧽\nלפי הגדרת האו\"ם, טיהור אתני הוא שימוש בכוח או בהפחדה כדי לסלק קבוצה מאזור. טיהור בלי אתני: ברווז באמבטיה, חולצה בכביסה. אתני בלי טיהור: פלאפל.\nהשואה: 6 מיליון יהודים נרצחו. זה יותר מטיהור אתני, זה רצח עם. מיאנמר 2017 ודארפור 2023: טיהור אתני.\nישראל נלחמת בחמאס ומזהירה אזרחים במיליוני כרוזים, הודעות ושיחות. זו מלחמה, עצובה וקשה, לא טיהור אתני. תשפטו לפי ההגדרה.\n7 באוקטובר: חמאס רצח כ 1,200 בני אדם, רובם אזרחים. זה לפגוע באנשים בגלל מי שהם.",
+ "hashtags": [
+  "#Israel",
+  "#EthnicCleansing",
+  "#History"
+ ],
+ "sources": [
+  {
+   "label": "UN Commission of Experts, S/25274; UN Office on Genocide Prevention",
+   "year": 1993,
+   "at": "L1",
+   "until": "L3-0.05"
+  },
+  {
+   "label": "US Holocaust Memorial Museum, Holocaust Encyclopedia",
+   "at": "L8",
+   "until": "L10-0.05"
+  },
+  {
+   "label": "UNHCR; UN Human Rights Office, 11 Sep",
+   "year": 2017,
+   "at": "L10",
+   "until": "L12-0.05"
+  },
+  {
+   "label": "Human Rights Watch, May",
+   "year": 2024,
+   "at": "L12",
+   "until": "L13-0.05"
+  },
+  {
+   "label": "Israel Defense Forces data via Jewish Press, Jan",
+   "year": 2024,
+   "at": "L13",
+   "until": "L16-0.05"
+  },
+  {
+   "label": "UN OCHA, UN experts; Government of Israel",
+   "year": 2024,
+   "at": "L16",
+   "until": "L18-0.05"
+  },
+  {
+   "label": "Israeli figures via AP and Reuters",
+   "year": 2023,
+   "at": "L19",
+   "until": "L20-0.05"
+  },
+  {
+   "label": "HAMAS Covenant, Art. 7 (Avalon Project, Yale)",
+   "year": 1988,
+   "at": "L20",
+   "until": "L22-0.05"
+  }
+ ],
+ "transcript": {
+  "score": 0.939,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Ethnic cleansing: yes or no?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The United Nations definition: force or fear, to remove a group from an area.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It can be a crime against humanity, or genocide.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Cleansing, but not ethnic:",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Scrubbing a rubber duck.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Washing a T shirt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ethnic, but not cleansing:",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Falafel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nazi Germany deported Jews by train and murdered six million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Worse than ethnic cleansing: genocide.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Myanmar, twenty seventeen: over seven hundred thousand Rohingya driven out.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "The UN rights chief: a textbook example of ethnic cleansing.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sudan, twenty twenty three: Human Rights Watch says the Masalit were ethnically cleansed.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel fights <<h|ɑ|ˈ|m|ɑ|s>> in Gaza, and warned civilians:",
+    "score": 0.6,
+    "flag": "MISS"
+   },
+   {
+    "line": "seven point two million leaflets, thirteen point seven million texts, fifteen million recorded calls.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's war. Sad and terrible. Not ethnic cleansing.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Critics call mass evacuation orders forced displacement.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel says they're temporary, for safety.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Judge it by the definition.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "October seventh: <<h|ɑ|ˈ|m|ɑ|s>> killed about twelve hundred people, mostly civilians.",
+    "score": 0.583,
+    "flag": "MISS"
+   },
+   {
+    "line": "Its charter quotes a call to kill Jews.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's targeting people for who they are.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Next time someone shouts ethnic cleansing, ask them what it means.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Ethnic Cleansing, yes or no? The United Nations definition. Force or fear to remove a group from an area. It can be a crime against humanity or genocide. Cleansing, but not ethnic. Scrubbing a rubber duck. Washing a t-shirt. Ethnic, but not cleansing. Falafel. Nazi Germany deported Jews by train and murdered 6 million. Worse than ethnic cleansing, genocide. Myanmar, 2017. Over 700,000 Rohingya-driven out, the U.N. rights chief, a textbook example of ethnic cleansing. Sudan, 2023, Human Rights Watch, says the masalit were ethnically cleansed. Israel fights Hamas in Gaza, and war on civilians. 7.2 million leaflets, 13.7 million texts, 15 million recorded calls. That's war. Sad and terrible. Not ethnic cleansing. Critics call mass evacuation orders forced displacement. Israel says they're temporary for safety. Judge it by the definition. October 7th, Hamas killed about 1,200 people, mostly civilians. Its charter quotes a call to kill Jews. That's targeting people for who they are. Next time someone shouts ethnic cleansing, ask them what it means.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "photos": [
+  {
+   "file": "templates/photos/ethnic_cleansing_v3/un.jpg",
+   "credit": "CTBTO, CC BY 2.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v2/duck.jpg",
+   "credit": "Carlos Gracia, CC BY 2.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v2/shirt.jpg",
+   "credit": "el cajon yacht club, CC BY 2.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v2/falafel.jpg",
+   "credit": "Charles Haynes, CC BY-SA 2.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v3/train.jpg",
+   "credit": "Christian Michelides, CC BY-SA 4.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v3/rohingya.jpg",
+   "credit": "Md shameem ul islam, CC BY 4.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v3/leaflet.jpg",
+   "credit": "Jaber Jehad Badwan, CC BY-SA 4.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v3/un.jpg",
+   "credit": "CTBTO, CC BY 2.0, Commons"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v3/kfar_aza.jpg",
+   "credit": "Hanay, CC BY-SA 4.0, Commons"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number",
+  "source without year: US Holocaust Memorial Museum, Holocaust Encyclopedia"
+ ],
+ "render_s": 180.4
+}
