@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "Build a country:|*resurrect* a language.",
- "duration": 67.13,
+ "duration": 68.3,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -2.0
+  "lufs": -16.1,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/manual_language.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.951,
+  "score": 0.955,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -92,7 +92,7 @@
    },
    {
     "line": "Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Good luck with the first meeting.",
-    "score": 1.0,
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -102,12 +102,12 @@
    },
    {
     "line": "Step three: one man, Eliezer Ben-Yehuda, raises his son in it.",
-    "score": 0.833,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Itamar, born eighteen eighty two. One of the first native speakers in modern times.",
-    "score": 0.929,
+    "score": 0.857,
     "flag": "ok"
    },
    {
@@ -121,13 +121,13 @@
     "flag": "ok"
    },
    {
-    "line": "Then write the dictionary. Seventeen volumes. It takes fifty one years.",
+    "line": "Then the dictionary. Seventeen volumes. Fifty one years.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Step five: nineteen thirteen. Your new technical college plans to teach science in German.",
-    "score": 0.929,
+    "line": "Step five: nineteen thirteen. Your technical college plans to teach science in German.",
+    "score": 0.923,
     "flag": "ok"
    },
    {
@@ -136,8 +136,8 @@
     "flag": "ok"
    },
    {
-    "line": "Step six: every wave of newcomers gets a Hebrew class. The ulpan. Since nineteen forty nine.",
-    "score": 0.812,
+    "line": "Step six: Hebrew class for every wave of newcomers. The ulpan, since nineteen forty nine.",
+    "score": 0.867,
     "flag": "ok"
    },
    {
@@ -151,7 +151,7 @@
     "flag": "ok"
    },
    {
-    "line": "So if a country can learn a dead language, you can learn a living one.",
+    "line": "If a country can learn a dead language, you can learn a living one.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -161,14 +161,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "How to build a country. Hard mode. Resurrect a dead language. Step 1. Your people arrive from more than 70 countries. Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Good luck with the first meeting. Step 2. Pick a language nobody has spoken as a mother tongue for about 1700 years. Step 3. One man, Ilya Zerben Yehuda, raises his son in it. Itamar. Born 1882. One of the first native speakers in modern times. Step 4. No word for ice cream. Invent one. Dictionary. Ice cream. Doll. Omelette. Then write the dictionary. 17 volumes. It takes 51 years. Step 5. 1913. Your new technical college plans to teach science in German. Teachers and students walk out. February 1914. Hebrew wins. Step 6. Every wave of newcomers gets a Hebrew class. The Open. 1949. Step seven. Today, over 9 million people speak it. Linguists call it the most successful language revival in history. So if a country can learn a dead language, you can learn a living one. Now, how do you build a country?",
+  "heard": "How to build a country hard mode Resurrect a dead language step one your people arrive from more than 70 countries Yiddish Arabic Ladino Russian Persian and Herak good luck with the first meeting step two pick a language Nobody has spoken as a mother tongue for about 1,700 years step three one man Eliezer Ben Yehuda raises his son in it eat amar born 1882 2. One of the first native speakers in modern times. Step 4. No word for ice cream. Invent one. Dictionary. Ice cream. Doll. Omelette. Then the dictionary. 17 volumes. 51 years. Step 5. 1913. Your technical college plans to teach science in German. Teachers and students walk out. February 1914. Hebrew wins. Step 6. Hebrew class for every wave of newcomers. The Open since 1949. Step 7. Today. Over 9 million people speak it. Linguists call it the most successful language revival in history. If a country can learn a dead language, you can learn a living one. Now, how do you build a country?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -2.0
+  "lufs": -16.1,
+  "true_peak": -2.1
  },
  "photos": [
   {
@@ -223,5 +223,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 196.2
+ "render_s": 202.8
 }
