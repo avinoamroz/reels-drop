@@ -4,12 +4,17 @@
   python3 tools/face/render_face.py tools/face/<id>.json
 
 The spec is a normal map_counter spec plus a "face" block:
-  face.sources  {key: {wav, fgr, alpha, words}}   48 kHz mono wav of the take, RVM foreground + alpha videos (already at
-                the placement scale), word timestamps [{w, s, e}] (tools/tx.py format)
+  face.sources  {key: {wav, fgr, alpha, words}}   48 kHz mono wav/flac of the take, RVM foreground + alpha videos (tools/face/matte.py,
+                already at the placement scale), word timestamps [{w, s, e}] (tools/tx.py format); repo-relative paths
   face.clips    [{src, a, b, line}]                cut list in seconds of the source; clips play back to back, in order
+                {..., hold: true, rev: true}      silent visual hold (no words, voice muted), optionally played backwards
+  face.tail_from_cut  true                        the end hold is whatever the cut runs past the last word (data.tail)
   face.place    {x0, y0, side_feather}            where the matte's top left corner lands on the 1080x1920 canvas
-  face.say_fix  {line: "text"}                    subtitle text per line (same word count as the words in its clips)
+  face.say_fix  {line: "text"}                    subtitle text per line (same word count as the words in its clips;
+                                                  a "+" token merges that heard word into the previous one, e.g. "60% +")
+  face.clean    {k, white}                        optional matte clean up (largest blob after a k px opening, white wall leaks)
   face.counter  {x, y, w, h}                      compact counter card (the template's full width counter is moved off canvas)
+Works with any template that has run(S) + build_voice/encode/draw_subs globals (map_counter, photo_story).
 Pass 1 renders the template visuals and the mix (his voice + music bed + SFX, -16 LUFS) with no subtitles,
 pass 2 composites him, then subtitles and the counter on top, loops the last 0.5 s into frame 0, and runs finish().
 Nothing is posted.
@@ -23,12 +28,18 @@ from common import Canvas, Timing, sub_chunks, draw_subs, seg, win, YEL, WHITE
 import widgets as WG
 
 SR = 48000; FPS = 30; W, H = 1080, 1920
+rp = lambda p: p if os.path.isabs(p) else os.path.join(REPO, p)
+
+
+def set_tail(S, J):
+    if S["face"].get("tail_from_cut"):
+        S["data"]["tail"] = round(J["dur"] - J["lines"][-1]["t1"], 3)
 
 
 def build_cut(S, work):
     F = S["face"]; srcs = F["sources"]; lead = F.get("lead", 0.0)
-    wav = {k: sf.read(v["wav"])[0].astype(np.float32) for k, v in srcs.items()}
-    words = {k: json.load(open(v["words"])) for k, v in srcs.items()}
+    wav = {k: sf.read(rp(v["wav"]))[0].astype(np.float32) for k, v in srcs.items()}
+    words = {k: json.load(open(rp(v["words"]))) for k, v in srcs.items()}
     nl = len([L for L in S["lines"] if L.get("say", "").strip()])
     lines = [dict(i=i, text="", t0=None, t1=None, words=[]) for i in range(nl)]
     audio, vlist, t = [], [], 0.0
@@ -38,14 +49,15 @@ def build_cut(S, work):
     for c in F["clips"]:
         a = round(c["a"] * FPS) / FPS; b = round(c["b"] * FPS) / FPS
         seg_ = wav[c["src"]][int(a * SR):int(b * SR)].copy()
+        if c.get("hold"): seg_[:] = 0                                # visual hold: his silent footage, the music carries it
         seg_[:xf] *= np.linspace(0, 1, xf); seg_[-xf:] *= np.linspace(1, 0, xf)
-        audio.append(seg_); vlist.append(dict(src=c["src"], f0=int(round(a * FPS)), n=int(round((b - a) * FPS)), t=t))
+        audio.append(seg_); vlist.append(dict(src=c["src"], f0=int(round(a * FPS)), n=int(round((b - a) * FPS)), t=t, rev=bool(c.get("rev"))))
         clips.append(dict(c, a=a, b=b, t=t)); t += (b - a)
     # words: each clip group (one take range) carries word indices [i0, i1] of its take; whisper's times are rough, so the
     # group's word span is stretched onto the group's speech span (first clip start + 0.08 to last clip end - 0.13), then
     # mapped through the cut (a word inside a removed pause snaps to the next kept clip)
-    for g in sorted({c["g"] for c in clips}):
-        cg = [c for c in clips if c["g"] == g]; i0, i1 = cg[0]["w"]; ws_ = words[cg[0]["src"]][i0:i1 + 1]
+    for g in sorted({c["g"] for c in clips if not c.get("hold")}):
+        cg = [c for c in clips if c.get("g") == g]; i0, i1 = cg[0]["w"]; ws_ = words[cg[0]["src"]][i0:i1 + 1]
         s0, s1 = cg[0]["a"] + 0.08, cg[-1]["b"] - 0.13; w0, w1 = ws_[0]["s"], ws_[-1]["e"]
         def m(x):
             x = s0 + (x - w0) * (s1 - s0) / max(0.1, w1 - w0)
@@ -63,6 +75,11 @@ def build_cut(S, work):
             if len(fw) != len(L["words"]):
                 raise SystemExit(f"say_fix line {L['i']}: {len(fw)} words vs {len(L['words'])} heard: {' '.join(w['w'] for w in L['words'])}")
             for w, x in zip(L["words"], fw): w["w"] = x
+            ws_ = []
+            for w in L["words"]:
+                if w["w"] == "+" and ws_: ws_[-1]["t1"] = w["t1"]
+                else: ws_.append(w)
+            L["words"] = ws_
         L["text"] = " ".join(w["w"] for w in L["words"])
         L["t0"], L["t1"] = L["words"][0]["t0"], L["words"][-1]["t1"]
     vo = np.concatenate(audio)
@@ -72,6 +89,7 @@ def build_cut(S, work):
                     "-ar", str(SR), "-ac", "1", f"{work}/vo.wav"], check=True)
     y, _ = sf.read(f"{work}/vo.wav"); y = y / (np.abs(y).max() + 1e-9) * 0.89; sf.write(f"{work}/vo.wav", y.astype(np.float32), SR)
     J = dict(dur=round(t, 3), voice="Noam's own recording (" + ", ".join(sorted(srcs)) + ")", lines=lines)
+    set_tail(S, J)
     json.dump(J, open(f"{work}/timing.json", "w"), indent=0)
     json.dump(vlist, open(f"{work}/vlist.json", "w"))
     for L in lines: CM.log(f"L{L['i']} {L['t0']:6.2f}-{L['t1']:6.2f}  {L['text']}")
@@ -79,11 +97,12 @@ def build_cut(S, work):
 
 
 def pass1(S, work):
-    import map_counter as MC
+    import importlib
+    MC = importlib.import_module(S["template"])
     J = build_cut(S, work)
     MC.build_voice = lambda S_, w_: J
     enc = MC.encode
-    MC.encode = lambda frame, dur, audio, out, loop=True, crf=18: enc(frame, dur, audio, out, loop=False, crf=crf)
+    MC.encode = lambda frame, dur, audio, out, loop=True, crf=18: enc(frame, dur, audio, f"{work}/body.mp4", loop=False, crf=crf)
     MC.draw_subs = lambda *a, **k: None
     if os.environ.get("TPL_SNAPS"): MC.run(S); raise SystemExit
     MC.run(S)
@@ -103,10 +122,10 @@ def face_frames(S, work, n_total):
     F = S["face"]; vlist = json.load(open(f"{work}/vlist.json")); last = None; k = 0; XF = int(F.get("cut_xfade", 3))
     for v in vlist:
         s_ = F["sources"][v["src"]]
-        cap = cv2.VideoCapture(s_["fgr"]); mw, mh = int(cap.get(3)), int(cap.get(4)); cap.release()
-        tr = f"trim=start_frame={v['f0']}:end_frame={v['f0'] + v['n']},setpts=PTS-STARTPTS"
-        fg = reader(["ffmpeg", "-v", "error", "-i", s_["fgr"], "-vf", tr, "-f", "rawvideo", "-pix_fmt", "bgr24", "-"], (mh, mw, 3))
-        al = reader(["ffmpeg", "-v", "error", "-i", s_["alpha"], "-vf", tr, "-f", "rawvideo", "-pix_fmt", "gray", "-"], (mh, mw))
+        cap = cv2.VideoCapture(rp(s_["fgr"])); mw, mh = int(cap.get(3)), int(cap.get(4)); cap.release()
+        tr = f"trim=start_frame={v['f0']}:end_frame={v['f0'] + v['n']},setpts=PTS-STARTPTS" + (",reverse" if v.get("rev") else "")
+        fg = reader(["ffmpeg", "-v", "error", "-i", rp(s_["fgr"]), "-vf", tr, "-f", "rawvideo", "-pix_fmt", "bgr24", "-"], (mh, mw, 3))
+        al = reader(["ffmpeg", "-v", "error", "-i", rp(s_["alpha"]), "-vf", tr, "-f", "rawvideo", "-pix_fmt", "gray", "-"], (mh, mw))
         prev = last
         for j, (f_, a_) in enumerate(zip(fg, al)):
             cur = (f_, a_)
@@ -118,8 +137,26 @@ def face_frames(S, work, n_total):
         k += 1; yield last
 
 
-def prep_alpha(a, feather):
+def clean_alpha(a, fg, C):
+    """matte leaks (face.clean {k, white}): fade near-white background (bright, unsaturated wall) along the edge only, then a
+    morphological opening (k px ellipse) keeps the largest blob, so thin protrusions and floating bits drop out"""
+    if C.get("white", True):
+        hsv = cv2.cvtColor(fg, cv2.COLOR_BGR2HSV).astype(np.float32)
+        white = np.clip((hsv[..., 2] - 170) / 40, 0, 1) * np.clip((70 - hsv[..., 1]) / 30, 0, 1)
+        core = cv2.erode((a > 0.5).astype(np.uint8), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (25, 25)))
+        core = cv2.GaussianBlur(core.astype(np.float32), (0, 0), 4)
+        a = a * (1 - white * (1 - core))
+    k = int(C.get("k", 15))
+    op = cv2.morphologyEx((a > 0.5).astype(np.uint8), cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (k, k)))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(op)
+    if n > 1: op = (lab == 1 + np.argmax(st[1:, cv2.CC_STAT_AREA])).astype(np.uint8)
+    op = cv2.dilate(op, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5)))
+    return np.minimum(a, cv2.GaussianBlur(op.astype(np.float32), (0, 0), 2.0))
+
+
+def prep_alpha(a, feather, fg=None, C=None):
     a = a.astype(np.float32) / 255
+    if C and fg is not None: a = clean_alpha(a, fg, C)
     a = np.clip((a - 0.04) / 0.92, 0, 1)                          # kill faint background haze, keep hair soft
     a = cv2.GaussianBlur(a, (0, 0), 0.9)                            # soft matte edge
     h, w = a.shape
@@ -187,7 +224,7 @@ def pass2(S, work, J):
         if n >= n_total: break
         t = n / FPS
         img = bg.astype(np.float32)
-        a = prep_alpha(al, 0)
+        a = prep_alpha(al, 0, fg, F.get("clean"))
         band = a[250:520]; m_ = band.sum(0); cx = float((m_ * np.arange(len(m_))).sum() / max(1e-3, m_.sum()))
         cxs = cx if cxs is None else cxs * 0.85 + cx * 0.15                  # follow his head slowly for the shoulder fade
         paste_bust(img, fg, a, cxs, *place_at(t, keys), F)
@@ -221,7 +258,7 @@ def pass2(S, work, J):
 def main():
     S = CM.load_spec(sys.argv[1]); work = CM.workdir(S)
     for w in CM.lint(S): CM.log("lint warning:", w)
-    if "--pass2" in sys.argv: J = json.load(open(f"{work}/timing.json"))     # reuse the rendered body + mix
+    if "--pass2" in sys.argv: J = json.load(open(f"{work}/timing.json")); set_tail(S, J)     # reuse the rendered body + mix
     else: J = pass1(S, work)
     if "--pass1" in sys.argv: return
     final = pass2(S, work, J)
@@ -237,7 +274,7 @@ def cover_face(S, work):
     k = int(F.get("cover_frame", 0))
     for j, (fg, al) in enumerate(face_frames(S, work, k + 1)):
         if j == k: break
-    a = prep_alpha(al, 0); m_ = a[250:520].sum(0); cx = float((m_ * np.arange(len(m_))).sum() / max(1e-3, m_.sum()))
+    a = prep_alpha(al, 0, fg, F.get("clean")); m_ = a[250:520].sum(0); cx = float((m_ * np.arange(len(m_))).sum() / max(1e-3, m_.sum()))
     paste_bust(img, fg, a, cx, *F["modes"][F.get("cover_mode", F["moves"][0]["mode"])], F)
     cv2.imwrite(p, np.clip(img, 0, 255).astype(np.uint8), [cv2.IMWRITE_JPEG_QUALITY, 90])
 

@@ -2,7 +2,8 @@
 """Rough line ranges (seconds in the take) -> tight clips: snap to speech on/offsets, shorten pauses inside a line.
 
   python3 tools/face/autocut.py <take.wav> <ranges.json> <out_clips.json>
-ranges: [{line, src, a, b}]  (a, b loose, from the word timestamps; several ranges per line splice takes)
+ranges: [{line, src, a, b, w}]  (a, b loose, from the word timestamps; several ranges per line splice takes)
+        {line, src, a, b, hold: true}  silent footage passed through untouched (a visual hold after a line); rev: true plays it backwards
 """
 import sys, json, numpy as np, soundfile as sf
 wav, rng, out = sys.argv[1:4]
@@ -11,6 +12,8 @@ db = 20 * np.log10(np.sqrt(np.convolve(y ** 2, np.ones(h) / h, "same")[::h]) + 1
 TH, MINSIL, PRE, POST, KEEP = -40.0, 0.30, 0.08, 0.13, 0.10
 clips = []
 for g, r in enumerate(json.load(open(rng))):
+    if r.get("hold"):                     # silent footage kept as is (visual hold, voice muted in render_face)
+        clips.append(dict(src=r["src"], a=r["a"], b=r["b"], line=r["line"], hold=True, **({"rev": True} if r.get("rev") else {}))); continue
     i0, i1 = int(r["a"] * 100), int(r["b"] * 100)
     sp = db[i0:i1] > TH
     # close tiny gaps (<60 ms) and drop blips (<50 ms)

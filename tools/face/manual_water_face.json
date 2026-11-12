@@ -1,0 +1,513 @@
+{
+ "id": "manual_water_face",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Build a state in|*60% desert?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "How to establish a state in a country that's 60% desert?",
+   "screen": "*1.* Start with a desert",
+   "at": "L0e+0.2",
+   "until": "L1-0.1"
+  },
+  {
+   "say": "Moving a lake with a National Water Carrier in 1964.",
+   "screen": "*2.* 1964: the National Water Carrier",
+   "at": "L1",
+   "until": "L2-0.1"
+  },
+  {
+   "say": "Drip irrigation, invented at Kibbutz Hatzerim.",
+   "screen": "*3.* 1965: drip irrigation, Kibbutz Hatzerim",
+   "at": "L2",
+   "until": "L3-0.1"
+  },
+  {
+   "say": "Reusing 87% of treated sewage.",
+   "screen": "*4.* Recycle the sewage",
+   "at": "L3",
+   "until": "L6-0.1"
+  },
+  {
+   "say": "The most in the world."
+  },
+  {
+   "say": "Spain, by the way, is second at about 20%."
+  },
+  {
+   "say": "About 60% of drinking water now comes from the sea.",
+   "screen": "*5.* Desalination: Ashkelon *2005,* Sorek *2013*",
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "say": "Water sold to Jordan",
+   "screen": "*6.* Share it",
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "say": "and the old carrier now pumping into the Sea of Galilee.",
+   "screen": "2025: the carrier runs *in reverse*",
+   "at": "L8",
+   "until": "L8e+0.3"
+  }
+ ],
+ "data": {
+  "cut": 0.25,
+  "hook_y": 760,
+  "title_y": 300,
+  "credit_y": 450,
+  "src_y": 990,
+  "photos": [
+   {
+    "file": "templates/photos/manual_water/negev.jpg",
+    "at": 0.0,
+    "dim": 0.35,
+    "kb": [
+     0.6,
+     0.55,
+     1.15,
+     0.5,
+     0.55,
+     1.0
+    ],
+    "credit": "Godot13, CC BY-SA 4.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/pipe1964.jpg",
+    "at": "L1",
+    "dim": 0.2,
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "credit": "Fritz Cohen, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/carrier.jpg",
+    "at": "L1:national",
+    "dim": 0.2,
+    "kb": [
+     0.35,
+     0.55,
+     1.0,
+     0.3,
+     0.55,
+     1.15
+    ],
+    "credit": "Hanay, CC BY-SA 3.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/netafim.jpg",
+    "at": "L2",
+    "dim": 0.2,
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "credit": "Avishai Teicher, CC BY-SA 4.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/drip.jpg",
+    "at": "L2e+0.15",
+    "dim": 0.2,
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.45,
+     0.55,
+     1.2
+    ],
+    "credit": "Juandev, CC BY-SA 3.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/movil.jpg",
+    "at": "L3",
+    "dim": 0.2,
+    "kb": [
+     0.5,
+     0.6,
+     1.0,
+     0.6,
+     0.6,
+     1.12
+    ],
+    "credit": "Almog, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/dripsys.jpg",
+    "at": "L4",
+    "dim": 0.25,
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "credit": "Juandev, CC BY-SA 3.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/sorek_m0.jpg",
+    "at": "L6",
+    "dim": 0.2,
+    "kb": [
+     0.5,
+     0.4,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "credit": "Matty Stern, U.S. Embassy Tel Aviv, CC BY 2.0"
+   },
+   {
+    "file": "templates/photos/manual_water/sorek_m2.jpg",
+    "at": "L6e+0.15",
+    "dim": 0.2,
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.1
+    ],
+    "credit": "Matty Stern, U.S. Embassy Tel Aviv, CC BY 2.0"
+   },
+   {
+    "file": "templates/photos/manual_water/jordan.jpg",
+    "at": "L7",
+    "dim": 0.2,
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "credit": "Israel GPO, CC BY-SA 3.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/kinneret.jpg",
+    "at": "L8",
+    "dim": 0.2,
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.56,
+     0.5,
+     1.12
+    ],
+    "credit": "Davidi Vardi, CC BY 2.5, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_water/negev.jpg",
+    "at": "L8e+0.3",
+    "dim": 0.35,
+    "kb": [
+     0.6,
+     0.55,
+     1.15,
+     0.5,
+     0.55,
+     1.0
+    ],
+    "credit": "Godot13, CC BY-SA 4.0, Wikimedia Commons"
+   }
+  ],
+  "big": [
+   {
+    "at": "L0e+0.2",
+    "until": "L1-0.15",
+    "value": 60,
+    "from": 1,
+    "suffix": "%",
+    "sub": "of Israel is the Negev desert",
+    "y": 720
+   },
+   {
+    "at": "L3:87",
+    "until": "L4-0.1",
+    "value": 87,
+    "from": 1,
+    "suffix": "%",
+    "sub": "of treated sewage reused",
+    "y": 720
+   },
+   {
+    "at": "L5:20",
+    "until": "L6-0.15",
+    "value": 20,
+    "from": 1,
+    "suffix": "%",
+    "sub": "Spain, second in the world",
+    "y": 720
+   },
+   {
+    "at": "L6:60",
+    "until": "L7-0.15",
+    "value": 60,
+    "from": 1,
+    "suffix": "%",
+    "sub": "of drinking water is desalinated",
+    "y": 720
+   },
+   {
+    "at": "L7:jordan",
+    "until": "L8-0.1",
+    "value": 50,
+    "from": 1,
+    "suffix": "M",
+    "sub": "cubic meters a year, to Jordan",
+    "y": 720,
+    "size": 150
+   }
+  ],
+  "stamp": [
+   {
+    "at": "L4:most",
+    "until": "L5:20-0.15",
+    "text": "WORLD #1",
+    "color": "green",
+    "y": 720,
+    "angle": -7
+   },
+   {
+    "at": "L8:pumping",
+    "until": "L8e+0.25",
+    "text": "REVERSED",
+    "color": "yellow",
+    "y": 720,
+    "angle": -7
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Britannica; KKL-JNF",
+   "year": 2025,
+   "at": "L0e+0.2",
+   "until": "L1-0.1"
+  },
+  {
+   "label": "National Water Carrier, opened 10 Jun",
+   "year": 1964,
+   "at": "L1",
+   "until": "L2-0.1"
+  },
+  {
+   "label": "Netafim, via Times of Israel",
+   "year": 2013,
+   "at": "L2",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Knesset Research Center (2014 data)",
+   "year": 2018,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Atlantic Council, citing a 2016 report",
+   "year": 2019,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "State Comptroller of Israel",
+   "year": 2024,
+   "at": "L6",
+   "until": "L6:60"
+  },
+  {
+   "label": "Taub Center, State of the Nation",
+   "year": 2025,
+   "at": "L6:60",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "1994 peace treaty, via Ynet",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "Israel Water Authority, via TPS",
+   "year": 2025,
+   "at": "L8",
+   "until": "L8e+0.3"
+  },
+  {
+   "label": "Oslo II Art. 40 (1995); Ynet",
+   "year": 2026,
+   "at": "L8e+0.3",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L8e+0.3",
+  "balance": "Water is still a real point of *tension* in the region.",
+  "cta": "Send this to someone who *builds*",
+  "y": 720
+ },
+ "caption_en": "How to build a country. Hard mode. No water. 💧\n\n1. Start with a desert: the Negev is about 60% of Israel's land (Britannica; KKL-JNF). Rain in the far south is close to zero.\n2. Move a lake: the National Water Carrier opened on 10 June 1964, piping Sea of Galilee water south.\n3. Waste nothing: drip irrigation, Netafim, founded 1965 at Kibbutz Hatzerim in the Negev, building on Simcha Blass's invention (Times of Israel).\n4. Recycle the sewage: about 87% of treated wastewater is reused, mostly for farming (Knesset Research and Information Center, 2018, 2014 data). Spain is second at about 20% (Atlantic Council, 2019, citing a 2016 report).\n5. Drink the sea: Ashkelon (2005), Sorek (2013). Desalination supplied 540 million cubic meters in 2022 (State Comptroller, 2024). About 60% of drinking water is now desalinated (Taub Center, State of the Nation 2025).\n6. Share it: about 50 million cubic meters a year go to Jordan under the 1994 peace treaty. A 2021 deal doubled that; the extra 50 million lapsed in November 2025 and has not been renewed (Ynet, July 2026). And since 2025 the carrier also runs in reverse: desalinated sea water is pumped into the Sea of Galilee (Israel Water Authority, via TPS, 2025).\n\nWater is still a real point of tension in the region: Palestinian water access in the West Bank is governed by the 1995 Oslo II accords (Article 40) and remains disputed, and Jordan wants more than Israel now sells.\n\nPhotos via Wikimedia Commons: Godot13 (CC BY-SA 4.0, Negev); Fritz Cohen (public domain, carrier works, 1960s); Hanay (CC BY-SA 3.0, carrier canal); Almog (public domain); Avishai Teicher (CC BY-SA 4.0, Netafim, Hatzerim); Juandev (CC BY-SA 3.0, drip); Matty Stern, U.S. Embassy Tel Aviv (CC BY 2.0, Sorek plant); Israel GPO (CC BY-SA 3.0, Rabin and King Hussein, 1994); Davidi Vardi (CC BY 2.5, Sea of Galilee).\n\nSend this to someone who builds.",
+ "caption_he": "איך בונים מדינה. רמת קושי: אין מים.\n1. מתחילים ממדבר: הנגב הוא כ־60% מהשטח.\n2. מזיזים אגם: המוביל הארצי, 1964.\n3. לא מבזבזים טיפה: טפטוף, נטפים, קיבוץ חצרים, 1965.\n4. ממחזרים ביוב: כ־87% מהקולחין המטוהרים חוזרים לחקלאות. מקום ראשון בעולם.\n5. שותים את הים: אשקלון 2005, שורק 2013. כ־60% ממי השתייה מותפלים.\n6. חולקים: כ־50 מיליון קוב בשנה לירדן לפי הסכם השלום. ומאז 2025 המוביל זורם גם הפוך, מים מותפלים לכנרת.\nהמים עדיין מקור למתח אמיתי באזור, עם הפלסטינים ועם השכנים.",
+ "hashtags": [
+  "#Israel",
+  "#water",
+  "#facts"
+ ],
+ "cover": {
+  "t": 7.5,
+  "text": "Build a country|with *no water?*",
+  "dim": 0.75
+ },
+ "face": {
+  "sources": {
+   "B": {
+    "wav": "tools/face/media/water/B48.flac",
+    "fgr": "tools/face/media/water/B_fgr.mp4",
+    "alpha": "tools/face/media/water/B_alpha.mkv",
+    "words": "heygen/hicface_B.words.json"
+   }
+  },
+  "clips": "tools/face/manual_water_face_clips.json",
+  "tail_from_cut": true,
+  "place": {
+   "anchor": [
+    325,
+    400
+   ],
+   "rows": [
+    140,
+    860
+   ]
+  },
+  "subs_y": 1110,
+  "say_fix": {
+   "0": "How to establish a state in a country that's 60% + desert?",
+   "1": "Moving a lake with a National Water Carrier in 1964.",
+   "2": "Drip irrigation, invented at Kibbutz Hatzerim.",
+   "3": "Reusing 87% + of treated sewage.",
+   "4": "The most in the world.",
+   "5": "Spain, by the way, is second at about 20%.",
+   "6": "About 60% + of drinking water now comes from the sea.",
+   "7": "Water sold to Jordan",
+   "8": "and the old carrier now pumping into the Sea of Galilee."
+  },
+  "bust": {
+   "fade_start": 630,
+   "fade_end": 830,
+   "half_width": 250,
+   "soft": 85,
+   "chin": 600
+  },
+  "modes": {
+   "lt": [
+    540,
+    1420,
+    0.92
+   ],
+   "lt_left": [
+    420,
+    1420,
+    0.92
+   ],
+   "corner_r": [
+    830,
+    1575,
+    0.68
+   ],
+   "corner_l": [
+    255,
+    1575,
+    0.68
+   ]
+  },
+  "moves": [
+   {
+    "at": 0,
+    "mode": "lt"
+   },
+   {
+    "at": "L0e+0.3",
+    "mode": "corner_r"
+   },
+   {
+    "at": "L1",
+    "mode": "lt"
+   },
+   {
+    "at": "L1e+0.3",
+    "mode": "corner_l"
+   },
+   {
+    "at": "L2",
+    "mode": "lt"
+   },
+   {
+    "at": "L2e+0.3",
+    "mode": "corner_r"
+   },
+   {
+    "at": "L3",
+    "mode": "lt"
+   },
+   {
+    "at": "L3e+0.3",
+    "mode": "corner_l"
+   },
+   {
+    "at": "L4",
+    "mode": "lt"
+   },
+   {
+    "at": "L5e+0.3",
+    "mode": "corner_r"
+   },
+   {
+    "at": "L6",
+    "mode": "lt"
+   },
+   {
+    "at": "L6e+0.3",
+    "mode": "corner_l"
+   },
+   {
+    "at": "L7",
+    "mode": "lt"
+   },
+   {
+    "at": "L7e+0.3",
+    "mode": "corner_r"
+   },
+   {
+    "at": "L8",
+    "mode": "lt"
+   }
+  ],
+  "cover_mode": "lt",
+  "clean": {
+   "k": 15,
+   "white": true
+  }
+ }
+}

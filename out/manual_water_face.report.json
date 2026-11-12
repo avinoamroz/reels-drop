@@ -1,0 +1,106 @@
+{
+ "id": "manual_water_face",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Build a state in|*60% desert?*",
+ "duration": 45.23,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/manual_water_face.mp4",
+  "cover": "covers/manual_water_face_cover.jpg",
+  "preview": "previews/manual_water_face_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/manual_water_face_0.jpg",
+  "1": "out/frames/manual_water_face_1.jpg",
+  "3": "out/frames/manual_water_face_3.jpg",
+  "last": "out/frames/manual_water_face_last.jpg"
+ },
+ "caption_en": "How to build a country. Hard mode. No water. 💧\n\n1. Start with a desert: the Negev is about 60% of Israel's land (Britannica; KKL-JNF). Rain in the far south is close to zero.\n2. Move a lake: the National Water Carrier opened on 10 June 1964, piping Sea of Galilee water south.\n3. Waste nothing: drip irrigation, Netafim, founded 1965 at Kibbutz Hatzerim in the Negev, building on Simcha Blass's invention (Times of Israel).\n4. Recycle the sewage: about 87% of treated wastewater is reused, mostly for farming (Knesset Research and Information Center, 2018, 2014 data). Spain is second at about 20% (Atlantic Council, 2019, citing a 2016 report).\n5. Drink the sea: Ashkelon (2005), Sorek (2013). Desalination supplied 540 million cubic meters in 2022 (State Comptroller, 2024). About 60% of drinking water is now desalinated (Taub Center, State of the Nation 2025).\n6. Share it: about 50 million cubic meters a year go to Jordan under the 1994 peace treaty. A 2021 deal doubled that; the extra 50 million lapsed in November 2025 and has not been renewed (Ynet, July 2026). And since 2025 the carrier also runs in reverse: desalinated sea water is pumped into the Sea of Galilee (Israel Water Authority, via TPS, 2025).\n\nWater is still a real point of tension in the region: Palestinian water access in the West Bank is governed by the 1995 Oslo II accords (Article 40) and remains disputed, and Jordan wants more than Israel now sells.\n\nPhotos via Wikimedia Commons: Godot13 (CC BY-SA 4.0, Negev); Fritz Cohen (public domain, carrier works, 1960s); Hanay (CC BY-SA 3.0, carrier canal); Almog (public domain); Avishai Teicher (CC BY-SA 4.0, Netafim, Hatzerim); Juandev (CC BY-SA 3.0, drip); Matty Stern, U.S. Embassy Tel Aviv (CC BY 2.0, Sorek plant); Israel GPO (CC BY-SA 3.0, Rabin and King Hussein, 1994); Davidi Vardi (CC BY 2.5, Sea of Galilee).\n\nSend this to someone who builds.",
+ "caption_he": "איך בונים מדינה. רמת קושי: אין מים.\n1. מתחילים ממדבר: הנגב הוא כ־60% מהשטח.\n2. מזיזים אגם: המוביל הארצי, 1964.\n3. לא מבזבזים טיפה: טפטוף, נטפים, קיבוץ חצרים, 1965.\n4. ממחזרים ביוב: כ־87% מהקולחין המטוהרים חוזרים לחקלאות. מקום ראשון בעולם.\n5. שותים את הים: אשקלון 2005, שורק 2013. כ־60% ממי השתייה מותפלים.\n6. חולקים: כ־50 מיליון קוב בשנה לירדן לפי הסכם השלום. ומאז 2025 המוביל זורם גם הפוך, מים מותפלים לכנרת.\nהמים עדיין מקור למתח אמיתי באזור, עם הפלסטינים ועם השכנים.",
+ "hashtags": [
+  "#Israel",
+  "#water",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Britannica; KKL-JNF",
+   "year": 2025,
+   "at": "L0e+0.2",
+   "until": "L1-0.1"
+  },
+  {
+   "label": "National Water Carrier, opened 10 Jun",
+   "year": 1964,
+   "at": "L1",
+   "until": "L2-0.1"
+  },
+  {
+   "label": "Netafim, via Times of Israel",
+   "year": 2013,
+   "at": "L2",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Knesset Research Center (2014 data)",
+   "year": 2018,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Atlantic Council, citing a 2016 report",
+   "year": 2019,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "State Comptroller of Israel",
+   "year": 2024,
+   "at": "L6",
+   "until": "L6:60"
+  },
+  {
+   "label": "Taub Center, State of the Nation",
+   "year": 2025,
+   "at": "L6:60",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "1994 peace treaty, via Ynet",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "Israel Water Authority, via TPS",
+   "year": 2025,
+   "at": "L8",
+   "until": "L8e+0.3"
+  },
+  {
+   "label": "Oslo II Art. 40 (1995); Ynet",
+   "year": 2026,
+   "at": "L8e+0.3",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": null,
+ "status": "rendered, not posted",
+ "voice": "Noam's own recording (B)",
+ "body_s": 45.23,
+ "transcript_lines": [
+  "How to establish a state in a country that's 60% desert?",
+  "Moving a lake with a National Water Carrier in 1964.",
+  "Drip irrigation, invented at Kibbutz Hatzerim.",
+  "Reusing 87% of treated sewage.",
+  "The most in the world.",
+  "Spain, by the way, is second at about 20%.",
+  "About 60% of drinking water now comes from the sea.",
+  "Water sold to Jordan",
+  "and the old carrier now pumping into the Sea of Galilee."
+ ]
+}
