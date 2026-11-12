@@ -11,7 +11,7 @@
  },
  "voice": {
   "tempo": 1.1,
-  "lead": 0.2,
+  "lead": 0.15,
   "gap": 0.15
  },
  "lines": [
@@ -25,7 +25,7 @@
   },
   {
    "say": "Washing a T shirt.",
-   "gap": 0.15
+   "gap": 0.1
   },
   {
    "say": "Ethnic, but not cleansing:",
@@ -49,15 +49,15 @@
   "drop": [
    [
     3.24,
-    3.78
+    3.8
    ],
    [
-    8.4,
-    8.9
+    8.38,
+    8.92
    ]
   ],
-  "xf": 0.25,
-  "tail": 0.22,
+  "xf": 0.2,
+  "tail": 0.3,
   "photos": [
    {
     "file": "templates/photos/ethnic_cleansing_v2/duck.jpg",
@@ -222,9 +222,9 @@
     "from": 43.5
    }
   ],
-  "a1": 0.12,
-  "a2": -0.01,
-  "audio_join": 0.18
+  "a1": 0.08,
+  "a2": 0.02,
+  "audio_join": 0.12
  },
  "sources": [
   {
