@@ -40,8 +40,7 @@
   {
    "say": "Peace? Arab League, Khartoum: no peace, no recognition, no negotiations.",
    "screen": "\"No peace, no recognition, no negotiations\"",
-   "screen_icon": "🙅",
-   "at": "L5:no"
+   "screen_icon": "🙅"
   },
   {
    "say": "Step four: weapons get smuggled. One ship, two thousand two: fifty tons.",
@@ -297,8 +296,8 @@
    },
    {
     "at": "L3e",
-    "lon": 35.22,
-    "lat": 31.78,
+    "lon": 34.98,
+    "lat": 32.62,
     "emo": "🚧",
     "size": 62,
     "label": "1949: armistice line",
@@ -307,7 +306,7 @@
    },
    {
     "at": "L4:hold",
-    "lon": 35.3,
+    "lon": 35.32,
     "lat": 32.05,
     "emo": "🪖",
     "size": 66,
@@ -317,15 +316,15 @@
    },
    {
     "at": "L7:checkpoints",
-    "lon": 35.26,
-    "lat": 32.16,
+    "lon": 35.27,
+    "lat": 32.33,
     "emo": "🛂",
     "size": 54
    },
    {
     "at": "L7:checkpoints+0.15",
-    "lon": 35.22,
-    "lat": 31.88,
+    "lon": 35.2,
+    "lat": 31.84,
     "emo": "🛂",
     "size": 54
    },
@@ -373,7 +372,7 @@
      1.12
     ],
     "dim": 0.3,
-    "credit": "Rudi Weissenstein, public domain, Wikimedia Commons"
+    "credit": "Rudi Weissenstein, public domain, Commons"
    },
    {
     "file": "templates/photos/how_israel_colonized/hic_67.jpg",
@@ -388,7 +387,7 @@
      1.12
     ],
     "dim": 0.3,
-    "credit": "Bamahane photographer, CC BY-SA 3.0, Wikimedia Commons"
+    "credit": "Bamahane, CC BY-SA 3.0, Commons"
    },
    {
     "file": "templates/photos/how_israel_colonized/hic_khar.jpg",
@@ -403,7 +402,7 @@
      1.1
     ],
     "dim": 0.35,
-    "credit": "Not credited, public domain, Wikimedia Commons"
+    "credit": "Not credited, public domain, Commons"
    },
    {
     "file": "templates/photos/how_israel_colonized/hic_chk.jpg",
@@ -418,7 +417,7 @@
      1.12
     ],
     "dim": 0.3,
-    "credit": "Czech160, public domain, Wikimedia Commons"
+    "credit": "Czech160, public domain, Commons"
    },
    {
     "file": "templates/photos/how_israel_colonized/hic_bar.jpg",
@@ -433,7 +432,7 @@
      1.12
     ],
     "dim": 0.3,
-    "credit": "Jasmine Halki, CC BY 2.0, Wikimedia Commons"
+    "credit": "Jasmine Halki, CC BY 2.0, Commons"
    },
    {
     "file": "templates/photos/how_israel_colonized/hic_kns.jpg",
@@ -448,12 +447,12 @@
      1.12
     ],
     "dim": 0.3,
-    "credit": "Beit HaShalom (Hebrew Wikipedia user), attribution, Wikimedia Commons"
+    "credit": "Beit HaShalom, attribution, Commons"
    },
    {
     "file": "templates/photos/how_israel_colonized/hic_kab.jpg",
     "at": "L11:supreme",
-    "until": "L11e+0.2",
+    "until": "L11e+0.4",
     "kb": [
      0.5,
      0.4,
@@ -463,7 +462,7 @@
      1.08
     ],
     "dim": 0.25,
-    "credit": "Judiciary Spokesperson, CC BY-SA 4.0, Wikimedia Commons"
+    "credit": "Israel Judiciary, CC BY-SA 4.0, Commons"
    }
   ]
  },
