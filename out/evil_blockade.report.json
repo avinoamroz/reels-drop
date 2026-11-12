@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "Evil Israel|blockades Gaza.|*Watch.*",
- "duration": 60.73,
+ "duration": 61.17,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -2.0
+  "lufs": -15.9,
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/evil_blockade.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.973,
+  "score": 0.966,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -137,7 +137,7 @@
    },
    {
     "line": "Water? A pipe reopened one week into the war.",
-    "score": 0.889,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -147,7 +147,7 @@
    },
    {
     "line": "Yes. This is how Israel blockades Gaza.",
-    "score": 1.0,
+    "score": 0.857,
     "flag": "ok"
    },
    {
@@ -156,7 +156,12 @@
     "flag": "ok"
    },
    {
-    "line": "That is not a blockade. That is sponsorship.",
+    "line": "That is not a blockade.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That is sponsorship.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -167,18 +172,18 @@
    },
    {
     "line": "So yes. Evil Israel blockades Gaza.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    }
   ],
-  "heard": "Evil Israel blockades Gaza. Watch. Here is the blockade. Trucks. More trucks. Even more trucks. The ceasefire deal? 680 trucks a day. By June, 1.78 million tons of food. How much is that per person? About three and a half kilos. Per person. Per day. Why? Because Hamas, their own government, says this. It is the responsibility of the United Nations to protect them. So Evil Israel paused the fighting, 9 hours a day, and over half a million kids got polio vaccines. Water? A pipe re-opened one week into the war. Power? A line to Gaza's water plant reconnected. Yes. This is how Israel blockades Gaza. Oh, and Egypt blockades Gaza too. Rafah, in 2017, opened 36 days. That is not a blockade. That is sponsorship. Many countries would love to be blockaded like this. So yes, evil israel blockades Gaza",
+  "heard": "Evil Israel blockades Gaza. Watch. Here is the blockade. Trucks. More trucks. Even more trucks. The ceasefire deal? 680 trucks a day. By June, 1.78 million tons of food. How much is that per person? About three and a half kilos. Per person. Per day. Why? Because Hamas, their own government, says this. It is the responsibility of the United Nations to protect them. So evil Israel paused the fighting, 9 hours a day, and over half a million kids got polio vaccines. Water? A pipe reopened one week into the war. Power? A line to Gaza's water plant reconnected. This is how Israel blockades Gaza. Oh, and Egypt blockades Gaza too. Rafah, in 2017, opened 36 days. That is not a blockade, that is sponsorship. Many countries would love to be blockaded like this. So yes, evil Israel black needs Gaza.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -2.0
+  "lufs": -15.9,
+  "true_peak": -1.9
  },
  "photos": [
   {
@@ -234,6 +239,10 @@
    "credit": "U.S. Army, public domain"
   },
   {
+   "file": "templates/photos/evil_blockade/zk3.jpg",
+   "credit": "U.S. Army, public domain"
+  },
+  {
    "file": "templates/photos/evil_blockade/ks_sign.jpg",
    "credit": "U.S. Army, public domain"
   }
@@ -241,5 +250,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 179.4
+ "render_s": 104.0
 }
