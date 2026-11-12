@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Build a country:|*hard mode.*",
- "duration": 68.67,
+ "duration": 63.27,
  "audio": {
-  "lufs": -16.2,
+  "lufs": -16.3,
   "true_peak": -2.0
  },
  "outputs": {
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.972,
+  "score": 0.958,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -91,8 +91,8 @@
     "flag": "ok"
    },
    {
-    "line": "Step one: accept a split. Nineteen forty seven, the U.N. says two states. You say yes. Arab leaderships say no.",
-    "score": 0.9,
+    "line": "Step one: accept a split. Forty seven: the U.N. says two states. You say yes. Arab leaderships say no.",
+    "score": 0.895,
     "flag": "ok"
    },
    {
@@ -101,13 +101,13 @@
     "flag": "ok"
    },
    {
-    "line": "Step three: nineteen sixty seven. Armies mass on your borders. You strike first. Now you hold the West Bank and Gaza.",
-    "score": 0.905,
+    "line": "Step three: sixty seven. Armies mass on your borders. You strike first, and hold the West Bank and Gaza.",
+    "score": 0.895,
     "flag": "ok"
    },
    {
-    "line": "Peace? The Arab League, in Khartoum: no peace, no recognition, no negotiations.",
-    "score": 1.0,
+    "line": "Peace? Arab League, Khartoum: no peace, no recognition, no negotiations.",
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -116,12 +116,12 @@
     "flag": "ok"
    },
    {
-    "line": "So you add patrols. Then checkpoints.",
+    "line": "So: patrols. Then checkpoints.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Step five: bombings and shootings. Seventy three attacks in under three years.",
+    "line": "Step five: bombings. Seventy three attacks in under three years.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -142,7 +142,7 @@
    },
    {
     "line": "The West Bank? Military rule since sixty seven. For security, Israel says. Not race.",
-    "score": 0.929,
+    "score": 0.857,
     "flag": "ok"
    },
    {
@@ -156,19 +156,19 @@
     "flag": "ok"
    }
   ],
-  "heard": "How to build a country. Hard mode. Armies and armed groups want you gone. Here's the manual. Step one. Accept a split. 1947, the UN says two states. You say yes. Arab leadership say no. Step two. They attack. Five Arab armies. You survive. Step three. 1967. Armies mass on your borders. You strike first. Now you hold the West Bank in Gaza. Peace. The Arab League in Khartoum. No peace, no recognition, no negotiations. Step four, weapons get smuggled. One ship, 2002, 50 tons, so you add patrols. Then checkpoints. Step five, bombings and shootings. 73 attacks in under three years, so you build a barrier. Next 11 months, three. Step six, someone yells apartheid. Israel's answer, one in five citizens is Arab. They vote, sit in the Knesset, even the Supreme Court. So West Bank. Military rules since 67. For security, Israel says. Not race. Step 7. Every layer came after a war or an attack. They call it colonizing. So, how do you build a country?",
+  "heard": "How to build a country. Hard mode. Armies and armed groups want you gone. Here's the manual. Step one, accept a split. 47. The UN says two states. Say yes. Arab leadership say no. Step two, they attack. Five Arab armies. You survive. Step three, 67. Armies mass on your borders. You strike first and hold a West Bank in Gaza. Peace. Arab League cartoon. No peace. No recognition. No negotiations. Step four, weapons get smuggled. One ship. 2002. 50 tons. So, patrols. Then checkpoints. Step 5. Bombings. 73 attacks in under 3 years. So you build a barrier. Next 11 months. 3. Step 6. Someone yells apartheid. Israel's answer. 1 in 5 citizens is Arab. They vote. Sit in the Knesset. Even the Supreme Court. The West Bank? Military rules in 67. For security, Israel says. Not race. not race. Step 7. Every layer came after a war or an attack. They call it colonizing. So how do you build a country?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 68.65,
+ "body_s": 63.25,
  "opener": null,
  "mix": {
-  "lufs": -16.2,
+  "lufs": -16.3,
   "true_peak": -2.0
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 116.4
+ "render_s": 124.7
 }
