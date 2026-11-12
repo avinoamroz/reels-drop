@@ -31,121 +31,121 @@
  "lines": [
   {
    "say": "Ethnic cleansing: yes or no?",
-   "gap": 0.35
+   "gap": 0.22
   },
   {
    "say": "The United Nations definition:",
-   "gap": 0.15,
+   "gap": 0.14,
    "screen": "The *United Nations* definition",
    "at": "L1",
    "until": "L3-0.05"
   },
   {
    "say": "force or fear, to remove a group from an area.",
-   "gap": 0.2
+   "gap": 0.07
   },
   {
    "say": "A crime against humanity, or genocide.",
-   "gap": 0.35,
+   "gap": 0.22,
    "screen": "A *crime against humanity,* or *genocide*",
    "at": "L3",
    "until": "L4-0.05"
   },
   {
    "say": "Cleansing, but not ethnic:",
-   "gap": 0.15,
+   "gap": 0.22,
    "screen": "*Cleansing,* but not ethnic",
    "at": "L4",
    "until": "L7-0.05"
   },
   {
    "say": "Scrubbing a rubber duck.",
-   "gap": 0.15
+   "gap": 0.28
   },
   {
    "say": "Washing a T shirt.",
-   "gap": 0.2
+   "gap": 0.28
   },
   {
    "say": "Ethnic, but not cleansing: falafel.",
-   "gap": 0.4,
+   "gap": 0.26,
    "screen": "*Ethnic,* but not cleansing",
    "at": "L7",
    "until": "L8-0.05"
   },
   {
    "say": "Nazi Germany deported Jews by train and murdered six million.",
-   "gap": 0.2,
+   "gap": 0.44,
    "screen": "Nazi Germany, *1941 to 1945*",
    "at": "L8",
    "until": "L10-0.05"
   },
   {
    "say": "Worse than ethnic cleansing: genocide.",
-   "gap": 0.4
+   "gap": 0.25
   },
   {
    "say": "Myanmar, twenty seventeen:",
-   "gap": 0.15,
+   "gap": 0.07,
    "screen": "Myanmar, *2017*",
    "at": "L10",
    "until": "L14-0.05"
   },
   {
    "say": "over seven hundred thousand Rohingya driven out.",
-   "gap": 0.2
+   "gap": 0.09
   },
   {
    "say": "The UN rights chief:",
-   "gap": 0.15
+   "gap": 0.14
   },
   {
    "say": "a textbook example of ethnic cleansing.",
-   "gap": 0.4
+   "gap": 0.21
   },
   {
    "say": "Sudan, twenty twenty three:",
-   "gap": 0.15,
+   "gap": 0.09,
    "screen": "West Darfur, Sudan, *2023*",
    "at": "L14",
    "until": "L16-0.05"
   },
   {
    "say": "Human Rights Watch says the Masalit were ethnically cleansed.",
-   "gap": 0.4
+   "gap": 0.07
   },
   {
    "say": "Israel fights <<h|ɑ|ˈ|m|ɑ|s>> in Gaza, and warned civilians:",
-   "gap": 0.15,
+   "gap": 0.2,
    "screen": "Israel vs *HAMAS* in Gaza",
    "at": "L16",
    "until": "L17-0.05"
   },
   {
    "say": "seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
-   "gap": 0.3,
+   "gap": 0.16,
    "screen": "Warnings, *plus* evacuation routes",
    "at": "L17",
    "until": "L18-0.05"
   },
   {
    "say": "That's war.",
-   "gap": 0.15,
+   "gap": 0.07,
    "screen": "*War.* Sad and terrible.",
    "at": "L18",
    "until": "L21-0.05"
   },
   {
    "say": "Sad and terrible.",
-   "gap": 0.15
+   "gap": 0.07
   },
   {
    "say": "Not ethnic cleansing.",
-   "gap": 0.4
+   "gap": 0.2
   },
   {
    "say": "Critics call the evacuations forced displacement.",
-   "gap": 0.2,
+   "gap": 0.09,
    "screen": "Critics: *forced displacement*",
    "at": "L21",
    "until": "L22-0.05",
@@ -154,7 +154,7 @@
   },
   {
    "say": "Israel says they're temporary, for safety.",
-   "gap": 0.2,
+   "gap": 0.07,
    "screen": "Israel: *temporary,* for safety",
    "at": "L22",
    "until": "L23-0.05",
@@ -163,7 +163,7 @@
   },
   {
    "say": "Judge it by the definition.",
-   "gap": 0.4,
+   "gap": 0.07,
    "screen": "Judge it by *the definition.*",
    "at": "L23",
    "until": "L24-0.05",
@@ -172,22 +172,22 @@
   },
   {
    "say": "October seventh:",
-   "gap": 0.15,
+   "gap": 0.07,
    "screen": "*7 October* 2023",
    "at": "L24",
    "until": "L28-0.05"
   },
   {
    "say": "<<h|ɑ|ˈ|m|ɑ|s>> killed about twelve hundred people, mostly civilians.",
-   "gap": 0.2
+   "gap": 0.16
   },
   {
    "say": "Its charter quotes a call to kill Jews.",
-   "gap": 0.2
+   "gap": 0.07
   },
   {
    "say": "That's targeting people for who they are.",
-   "gap": 0.4
+   "gap": 0.17
   },
   {
    "say": "Next time someone shouts ethnic cleansing, ask what it means.",
