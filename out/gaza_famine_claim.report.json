@@ -1,0 +1,223 @@
+{
+ "id": "gaza_famine_claim",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Famine|in Gaza.|*Watch.*",
+ "duration": 62.73,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/gaza_famine_claim.mp4",
+  "cover": "covers/gaza_famine_claim_cover.jpg",
+  "preview": "previews/gaza_famine_claim_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/gaza_famine_claim_0.jpg",
+  "1": "out/frames/gaza_famine_claim_1.jpg",
+  "3": "out/frames/gaza_famine_claim_3.jpg",
+  "last": "out/frames/gaza_famine_claim_last.jpg"
+ },
+ "caption_en": "Famine in Gaza. Watch. 🍞\n\nThe hunger was real. On 22 Aug 2025 the IPC (Integrated Food Security Phase Classification) confirmed famine in Gaza Governorate, around Gaza City. Israel rejected the finding and its method.\n\nThen the ceasefire, 10 Oct 2025. COGAT (Coordination of Government Activities in the Territories, Israel's aid coordinator) says about 1.78 million tons of food entered from Oct 2025 to Jun 2026 (COGAT report, 9 Jul 2026). UN-tracked figures are lower, as they cover UN channels only.\n\nPrices per kg, Gaza governorate, first week of Oct 2025 to last week of Mar 2026 (WFP Market Monitor, Mar 2026): flour 7.20 to 2.80 NIS (down 61%), sugar 12 to 5 (down 58%), tomatoes 55 to 19 (down 65%). Flour was still 47% above pre-war, and WFP noted commercial flour was absent from markets.\n\nFamine level (IPC Phase 5): 104,000 people in Oct to Nov 2025 (IPC, 19 Dec 2025). Apr to Jun 2026: none (IPC, 23 Jul 2026). Hunger is not over: 1.2 million people (59%) faced crisis or worse, projected to reach 1.4 million (67%) by Dec 2026, and about 74,000 children are expected to need treatment for acute malnutrition.\n\nAid and HAMAS: on 31 Oct 2025 the U.S.-led Civil-Military Coordination Center (CMCC) said a U.S. drone observed suspected HAMAS operatives looting an aid truck (U.S. Central Command). On 13 Jul 2026 UN official Ramiz Alakbarov said armed personnel affiliated with Gaza's de facto authorities forcibly entered a food distribution point in Jabalia: \"These incidents are not isolated.\" HAMAS denied it, saying its police were searching for smuggled goods (Reuters).\n\nWhere is hunger worst right now? People at famine level (IPC Phase 5) | share in crisis or worse (Phase 3+), latest 2026 analyses:\nSudan: about 135,000 | two in five (IPC via FAO, UNICEF, WFP, 15 May 2026)\nSouth Sudan: 73,300 | 56% (IPC, Apr to Jul 2026)\nYemen: about 41,000 projected | over half (Global Report on Food Crises 2026)\nGaza: 0 | 59% (IPC, Jul 2026)\nHaiti: no Phase 5 figure found | 52% (IPC, Mar to Jun 2026)\nNorth Korea: no IPC analysis\nGaza's share in crisis is still among the highest here. The gap is at the famine level.\n\nPhotos: Eliran t (CC BY-SA 4.0, WFP sack, Gaza Strip, 2024); Ashraf Amra (CC BY-SA 3.0 IGO, Al-Mawasi, Jan 2025); U.S. Army, public domain (Kerem Shalom 13 Nov 2025, Zikim 25 Nov 2025, Kissufim 3 Dec 2025, CMCC 23 Nov 2025); via Wikimedia Commons. AI voice.\n\nGazans deserve food, and better than HAMAS. Send this to someone.",
+ "caption_he": "רעב בעזה. תראו.\nהרעב היה אמיתי: באוגוסט 2025 ה־IPC (סיווג שלבי ביטחון תזונתי) הכריז על רעב באזור העיר עזה. ישראל חלקה על השיטה.\nאחרי הפסקת האש: כ־1.78 מיליון טון מזון עד יוני 2026 (מתפ\"ש). קמח, סוכר ועגבניות זולים בכ־60% (WFP, מרץ 2026).\nברמת רעב (שלב 5): 104,000 בסוף 2025. ביולי 2026: אפס. אבל 1.2 מיליון עדיין במשבר או גרוע מזה.\nובינתיים: חשד לביזת משאית סיוע בידי חמאס (פיקוד המרכז האמריקאי, אוקטובר 2025), והאו\"ם מאשים אנשים מטעם שלטון חמאס בפריצה לנקודת חלוקת מזון (יולי 2026). חמאס מכחיש.\nסודאן: 135,000 ברמת רעב. ולאן העולם מסתכל?\nלתושבי עזה מגיע אוכל, ומגיע להם יותר מחמאס.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "IPC, Integrated Food Security Phase Classification, Aug",
+   "year": 2025,
+   "at": "L2",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "COGAT, Coordination of Government Activities in the Territories, Jul 2026",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "WFP Market Monitor, Gaza, Mar",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "IPC, Dec 2025 and Jul 2026",
+   "year": 2026,
+   "at": "L7",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "U.S. Central Command, Civil-Military Coordination Center, 31 Oct",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "UN statement, 13 Jul 2026; Reuters",
+   "year": 2026,
+   "at": "L12",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "IPC 2026 (Sudan, S. Sudan, Haiti, Gaza); Global Report on Food Crises 2026 (Yemen)",
+   "year": 2026,
+   "at": "L14",
+   "until": "L16-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.873,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Famine in Gaza. Watch.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They're starving. There's no food.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "First, the truth. In August twenty twenty-five, famine was confirmed around Gaza City.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel disputed the method. But the hunger was real.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then, in October: a ceasefire. And trucks.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By June, Israel counted one point seven eight million tons of food.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Flour, sugar, tomatoes? About sixty percent cheaper, says the UN's food agency.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Late twenty twenty-five: a hundred thousand Gazans at the famine level.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "This summer?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Zero.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Hunger isn't over. One point two million still face crisis or worse.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the food? A U.S. drone filmed suspected <<h|ɑ|ˈ|m|ɑ|s>> men looting an aid truck.",
+    "score": 0.647,
+    "flag": "MISS"
+   },
+   {
+    "line": "In July, the UN said gunmen of <<h|ɑ|ˈ|m|ɑ|s>>'s government stormed a food point.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "These incidents are not isolated.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So where is hunger worst right now?",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "Sudan. A hundred and thirty-five thousand at the famine level. And where does the world look?",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Gazans deserve food. And better than <<h|ɑ|ˈ|m|ɑ|s>>.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "So. Famine in Gaza?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Famine in Gaza. Watch. They're starving. There's no food. First, the truth. In August 2025, famine was confirmed around Gaza City. Israel disputed the method. But the hunger was real. Then, in October, a ceasefire. And trucks. By June, Israel counted 1.78 million tons of food. Flour, sugar, tomatoes. About 60% says the UN's food agency. Late 2025, 100,000 Gazans at the famine level. This summer, zero. Hunger isn't over. 1.2 million still face crisis or worse. And the food? The US drone filmed suspected Hamas men looting an aid truck. In July, the UN said gunmen of Hamas's government stormed a food point. These incidents are not isolated. So where is hunger worse, Dragon? Sudan. 135,000 at the famine level. famine level. And where does the world look? Gazans deserve food, and better than Hamas. So, famine in Gaza.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/gaza_famine_claim/sack.jpg",
+   "credit": "Eliran t, Gaza Strip, Oct 2024, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/mawasi.jpg",
+   "credit": "Ashraf Amra, Al-Mawasi, Jan 2025, CC BY-SA 3.0 IGO, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/kerem.jpg",
+   "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025, public domain"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/zikim1.jpg",
+   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/zikim2.jpg",
+   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/kerem2.jpg",
+   "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025, public domain"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/kis.jpg",
+   "credit": "U.S. Army, Kissufim crossing, 3 Dec 2025, public domain"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/cmcc.jpg",
+   "credit": "U.S. Army, CMCC, Kiryat Gat, 23 Nov 2025, public domain"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/zikim1.jpg",
+   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+  },
+  {
+   "file": "templates/photos/gaza_famine_claim/sack.jpg",
+   "credit": "Eliran t, Gaza Strip, Oct 2024, CC BY-SA 4.0, Wikimedia Commons"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 110.0
+}
