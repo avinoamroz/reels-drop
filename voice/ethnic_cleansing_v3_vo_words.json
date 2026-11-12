@@ -1,857 +1,857 @@
 [
 {
 "word": "Ethnic",
-"start": 0.17027967,
-"end": 0.55727893
+"start": 0.21671958,
+"end": 0.6501587
 },
 {
 "word": "cleansing:",
-"start": 0.55727893,
-"end": 1.0990778
+"start": 0.6501587,
+"end": 1.1764777
 },
 {
 "word": "yes",
-"start": 1.4860771,
-"end": 1.7647165
+"start": 1.6253968,
+"end": 1.9040363
 },
 {
 "word": "or",
-"start": 1.7647165,
-"end": 1.8111565
+"start": 1.9040363,
+"end": 1.9659562
 },
 {
 "word": "no?",
-"start": 1.8111565,
-"end": 2.1517158
+"start": 1.9659562,
+"end": 2.3839154
 },
 {
 "word": "The",
-"start": 2.5387151,
-"end": 2.631595
-},
-{
-"word": "United",
-"start": 2.631595,
+"start": 2.8328345,
 "end": 2.9257143
 },
 {
-"word": "Nations",
+"word": "United",
 "start": 2.9257143,
-"end": 3.2817535
+"end": 3.2507937
+},
+{
+"word": "Nations",
+"start": 3.2507937,
+"end": 3.6377928
 },
 {
 "word": "definition:",
-"start": 3.2817535,
-"end": 3.8854723
+"start": 3.6377928,
+"end": 4.3034315
 },
 {
 "word": "force",
-"start": 4.2724714,
-"end": 4.613031
+"start": 4.659471,
+"end": 5.10839
 },
 {
 "word": "or",
-"start": 4.613031,
-"end": 4.7059107
+"start": 5.10839,
+"end": 5.2012696
 },
 {
 "word": "fear,",
-"start": 4.7059107,
-"end": 4.9690704
+"start": 5.2012696,
+"end": 5.7121086
 },
 {
 "word": "to",
-"start": 4.9690704,
-"end": 5.12387
+"start": 6.099108,
+"end": 6.2539077
 },
 {
 "word": "remove",
-"start": 5.12387,
-"end": 5.3560696
+"start": 6.2539077,
+"end": 6.548027
 },
 {
 "word": "a",
-"start": 5.3560696,
-"end": 5.4179893
+"start": 6.548027,
+"end": 6.609947
 },
 {
 "word": "group",
-"start": 5.4179893,
-"end": 5.681149
+"start": 6.609947,
+"end": 6.9195466
 },
 {
 "word": "from",
-"start": 5.681149,
-"end": 5.804989
+"start": 6.9195466,
+"end": 7.058866
 },
 {
 "word": "an",
-"start": 5.804989,
-"end": 5.8978686
+"start": 7.058866,
+"end": 7.151746
 },
 {
 "word": "area.",
-"start": 5.8978686,
-"end": 6.222948
+"start": 7.151746,
+"end": 7.600665
 },
 {
 "word": "A",
-"start": 6.8885865,
-"end": 6.950506
+"start": 8.529464,
+"end": 8.622343
 },
 {
 "word": "crime",
-"start": 6.950506,
-"end": 7.213666
+"start": 8.622343,
+"end": 8.978382
 },
 {
 "word": "against",
-"start": 7.213666,
-"end": 7.5232654
+"start": 8.978382,
+"end": 9.287982
 },
 {
 "word": "humanity,",
-"start": 7.5232654,
-"end": 8.111505
+"start": 9.287982,
+"end": 9.969101
 },
 {
 "word": "or",
-"start": 8.297264,
-"end": 8.452064
+"start": 10.09294,
+"end": 10.24774
 },
 {
 "word": "genocide.",
-"start": 8.452064,
-"end": 8.993862
+"start": 10.24774,
+"end": 10.866939
 },
 {
 "word": "Cleansing,",
-"start": 9.504702,
-"end": 10.00006
+"start": 11.625458,
+"end": 12.167256
 },
 {
 "word": "but",
-"start": 10.37158,
-"end": 10.54186
+"start": 12.167256,
+"end": 12.306576
 },
 {
 "word": "not",
-"start": 10.54186,
-"end": 10.727619
+"start": 12.306576,
+"end": 12.5542555
 },
 {
 "word": "ethnic:",
-"start": 10.727619,
-"end": 11.176538
+"start": 12.5542555,
+"end": 13.003175
 },
 {
 "word": "Scrubbing",
-"start": 11.594498,
-"end": 12.012457
-},
-{
-"word": "a",
-"start": 12.012457,
-"end": 12.074376
-},
-{
-"word": "rubber",
-"start": 12.074376,
-"end": 12.322056
-},
-{
-"word": "duck.",
-"start": 12.322056,
-"end": 12.647136
-},
-{
-"word": "Washing",
-"start": 13.421134,
-"end": 13.792653
-},
-{
-"word": "a",
-"start": 13.792653,
-"end": 13.854573
-},
-{
-"word": "T",
-"start": 13.854573,
+"start": 13.514013,
 "end": 13.962933
 },
 {
-"word": "shirt.",
+"word": "a",
 "start": 13.962933,
-"end": 14.334452
+"end": 14.055813
 },
 {
-"word": "Ethnic,",
-"start": 14.984611,
-"end": 15.37161
+"word": "rubber",
+"start": 14.055813,
+"end": 14.318972
 },
 {
-"word": "but",
-"start": 15.37161,
-"end": 15.52641
+"word": "duck.",
+"start": 14.318972,
+"end": 14.690492
 },
 {
-"word": "not",
-"start": 15.52641,
-"end": 15.71217
-},
-{
-"word": "cleansing:",
-"start": 15.71217,
-"end": 16.161089
-},
-{
-"word": "Falafel.",
-"start": 16.362328,
-"end": 16.935087
-},
-{
-"word": "Nazi",
-"start": 17.724566,
-"end": 18.049644
-},
-{
-"word": "Germany",
-"start": 18.049644,
-"end": 18.343763
-},
-{
-"word": "deported",
-"start": 18.343763,
-"end": 18.715284
-},
-{
-"word": "Jews",
-"start": 18.715284,
-"end": 18.916523
-},
-{
-"word": "by",
-"start": 18.916523,
-"end": 19.009403
-},
-{
-"word": "train",
-"start": 19.009403,
-"end": 19.365442
-},
-{
-"word": "and",
-"start": 19.365442,
-"end": 19.458323
-},
-{
-"word": "murdered",
-"start": 19.458323,
-"end": 19.690521
-},
-{
-"word": "six",
-"start": 19.690521,
-"end": 19.938202
-},
-{
-"word": "million.",
-"start": 19.938202,
-"end": 20.325201
-},
-{
-"word": "Worse",
-"start": 20.866999,
-"end": 21.11468
-},
-{
-"word": "than",
-"start": 21.11468,
-"end": 21.253998
-},
-{
-"word": "ethnic",
-"start": 21.253998,
-"end": 21.532639
-},
-{
-"word": "cleansing:",
-"start": 21.532639,
-"end": 21.950598
-},
-{
-"word": "genocide.",
-"start": 22.275677,
-"end": 22.817476
-},
-{
-"word": "Myanmar,",
-"start": 23.483114,
-"end": 23.962994
-},
-{
-"word": "twenty",
-"start": 23.993954,
-"end": 24.226152
-},
-{
-"word": "seventeen:",
-"start": 24.226152,
-"end": 24.798912
-},
-{
-"word": "over",
-"start": 25.07755,
-"end": 25.32523
-},
-{
-"word": "seven",
-"start": 25.32523,
-"end": 25.61935
-},
-{
-"word": "hundred",
-"start": 25.61935,
-"end": 25.86703
-},
-{
-"word": "thousand",
-"start": 25.86703,
-"end": 26.315948
-},
-{
-"word": "Rohingya",
-"start": 26.346909,
-"end": 26.733908
-},
-{
-"word": "driven",
-"start": 26.733908,
-"end": 26.966106
-},
-{
-"word": "out.",
-"start": 26.966106,
-"end": 27.244747
-},
-{
-"word": "The",
-"start": 27.693666,
-"end": 27.863945
-},
-{
-"word": "UN",
-"start": 27.863945,
-"end": 28.173546
-},
-{
-"word": "rights",
-"start": 28.173546,
-"end": 28.405745
-},
-{
-"word": "chief:",
-"start": 28.405745,
-"end": 28.777264
+"word": "Washing",
+"start": 15.18585,
+"end": 15.69669
 },
 {
 "word": "a",
-"start": 29.102343,
-"end": 29.164263
+"start": 15.69669,
+"end": 15.820529
 },
 {
-"word": "textbook",
-"start": 29.164263,
-"end": 29.582222
+"word": "T",
+"start": 15.820529,
+"end": 16.037249
 },
 {
-"word": "example",
-"start": 29.582222,
-"end": 30.062101
+"word": "shirt.",
+"start": 16.037249,
+"end": 16.486168
 },
 {
-"word": "of",
-"start": 30.062101,
-"end": 30.216902
+"word": "Ethnic,",
+"start": 17.476887,
+"end": 18.080605
+},
+{
+"word": "but",
+"start": 18.343763,
+"end": 18.498564
+},
+{
+"word": "not",
+"start": 18.498564,
+"end": 18.699804
+},
+{
+"word": "cleansing:",
+"start": 18.699804,
+"end": 19.210642
+},
+{
+"word": "<<f|\u00c9\u0099|\u00cb\u0088|l|\u00c9\u0091|f|\u00c9\u0099|l>>.",
+"start": 19.690521,
+"end": 20.26328
+},
+{
+"word": "Nazi",
+"start": 21.0992,
+"end": 21.486198
+},
+{
+"word": "Germany",
+"start": 21.486198,
+"end": 21.888678
+},
+{
+"word": "deported",
+"start": 21.888678,
+"end": 22.275677
+},
+{
+"word": "Jews",
+"start": 22.275677,
+"end": 22.631716
+},
+{
+"word": "by",
+"start": 22.631716,
+"end": 22.786516
+},
+{
+"word": "train",
+"start": 22.786516,
+"end": 23.359274
+},
+{
+"word": "and",
+"start": 23.467634,
+"end": 23.653395
+},
+{
+"word": "murdered",
+"start": 23.653395,
+"end": 24.040394
+},
+{
+"word": "six",
+"start": 24.040394,
+"end": 24.288073
+},
+{
+"word": "million.",
+"start": 24.288073,
+"end": 24.675072
+},
+{
+"word": "Worse",
+"start": 25.69675,
+"end": 25.99087
+},
+{
+"word": "than",
+"start": 25.99087,
+"end": 26.145668
 },
 {
 "word": "ethnic",
-"start": 30.216902,
-"end": 30.51102
+"start": 26.145668,
+"end": 26.470749
 },
 {
-"word": "cleansing.",
-"start": 30.51102,
-"end": 30.95994
+"word": "cleansing:",
+"start": 26.470749,
+"end": 26.950628
 },
 {
-"word": "Sudan,",
-"start": 31.532698,
-"end": 32.074497
+"word": "genocide.",
+"start": 27.275707,
+"end": 27.879425
+},
+{
+"word": "Myanmar,",
+"start": 28.668903,
+"end": 29.350023
 },
 {
 "word": "twenty",
-"start": 32.4615,
+"start": 29.829903,
+"end": 30.139502
+},
+{
+"word": "seventeen:",
+"start": 30.139502,
+"end": 30.66582
+},
+{
+"word": "over",
+"start": 31.083778,
+"end": 31.34694
+},
+{
+"word": "seven",
+"start": 31.34694,
+"end": 31.672018
+},
+{
+"word": "hundred",
+"start": 31.672018,
+"end": 31.950657
+},
+{
+"word": "thousand",
+"start": 31.950657,
+"end": 32.39958
+},
+{
+"word": "Rohingya",
+"start": 32.39958,
 "end": 32.755615
 },
 {
-"word": "twenty",
+"word": "driven",
 "start": 32.755615,
 "end": 33.003296
 },
 {
-"word": "three:",
+"word": "out.",
 "start": 33.003296,
-"end": 33.328377
+"end": 33.204536
 },
 {
-"word": "Human",
-"start": 33.777294,
-"end": 34.086895
+"word": "The",
+"start": 34.102375,
+"end": 34.22621
 },
 {
-"word": "Rights",
-"start": 34.086895,
-"end": 34.28813
+"word": "UN",
+"start": 34.22621,
+"end": 34.442932
 },
 {
-"word": "Watch",
-"start": 34.28813,
-"end": 34.566772
+"word": "rights",
+"start": 34.442932,
+"end": 34.706093
 },
 {
-"word": "says",
-"start": 34.566772,
-"end": 34.829933
-},
-{
-"word": "the",
-"start": 34.829933,
-"end": 34.922813
-},
-{
-"word": "Masalit",
-"start": 34.922813,
-"end": 35.49557
-},
-{
-"word": "were",
-"start": 35.55749,
-"end": 35.72777
-},
-{
-"word": "ethnically",
-"start": 35.72777,
-"end": 36.14573
-},
-{
-"word": "cleansed.",
-"start": 36.14573,
-"end": 36.656567
-},
-{
-"word": "Israel",
-"start": 37.136448,
-"end": 37.44605
-},
-{
-"word": "fights",
-"start": 37.44605,
-"end": 37.678246
-},
-{
-"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
-"start": 37.678246,
-"end": 38.034286
-},
-{
-"word": "in",
-"start": 38.034286,
-"end": 38.158127
-},
-{
-"word": "Gaza,",
-"start": 38.158127,
-"end": 38.576084
-},
-{
-"word": "and",
-"start": 39.055965,
-"end": 39.241722
-},
-{
-"word": "warned",
-"start": 39.241722,
-"end": 39.458443
-},
-{
-"word": "civilians:",
-"start": 39.458443,
-"end": 40.1086
-},
-{
-"word": "seven",
-"start": 40.58848,
-"end": 40.94452
-},
-{
-"word": "point",
-"start": 40.97548,
-"end": 41.09932
-},
-{
-"word": "two",
-"start": 41.09932,
-"end": 41.25412
-},
-{
-"word": "million",
-"start": 41.25412,
-"end": 41.610157
-},
-{
-"word": "leaflets,",
-"start": 41.610157,
-"end": 42.15196
-},
-{
-"word": "thirteen",
-"start": 42.569916,
-"end": 42.894997
-},
-{
-"word": "point",
-"start": 42.925957,
-"end": 43.080757
-},
-{
-"word": "seven",
-"start": 43.111717,
-"end": 43.374874
-},
-{
-"word": "million",
-"start": 43.374874,
-"end": 43.653515
-},
-{
-"word": "texts,",
-"start": 43.653515,
-"end": 44.133392
-},
-{
-"word": "fifteen",
-"start": 44.551353,
-"end": 44.96931
-},
-{
-"word": "million",
-"start": 44.96931,
-"end": 45.24795
-},
-{
-"word": "calls.",
-"start": 45.24795,
-"end": 45.665913
-},
-{
-"word": "That's",
-"start": 46.05291,
-"end": 46.25415
-},
-{
-"word": "war.",
-"start": 46.25415,
-"end": 46.563747
-},
-{
-"word": "Sad",
-"start": 46.95075,
-"end": 47.337746
-},
-{
-"word": "and",
-"start": 47.337746,
-"end": 47.430626
-},
-{
-"word": "terrible.",
-"start": 47.430626,
-"end": 47.910507
-},
-{
-"word": "Not",
-"start": 48.560665,
-"end": 48.839306
-},
-{
-"word": "ethnic",
-"start": 48.839306,
-"end": 49.133423
-},
-{
-"word": "cleansing.",
-"start": 49.133423,
-"end": 49.582344
-},
-{
-"word": "Critics",
-"start": 50.12414,
-"end": 50.464703
-},
-{
-"word": "call",
-"start": 50.464703,
-"end": 50.63498
-},
-{
-"word": "the",
-"start": 50.63498,
-"end": 50.72786
-},
-{
-"word": "evacuations",
-"start": 50.72786,
-"end": 51.3935
-},
-{
-"word": "forced",
-"start": 51.3935,
-"end": 51.68762
-},
-{
-"word": "displacement.",
-"start": 51.68762,
-"end": 52.322296
-},
-{
-"word": "Israel",
-"start": 52.941498,
-"end": 53.282055
-},
-{
-"word": "says",
-"start": 53.282055,
-"end": 53.483295
-},
-{
-"word": "they're",
-"start": 53.483295,
-"end": 53.638096
-},
-{
-"word": "temporary,",
-"start": 53.638096,
-"end": 54.241814
-},
-{
-"word": "for",
-"start": 54.412094,
-"end": 54.628815
-},
-{
-"word": "safety.",
-"start": 54.628815,
-"end": 55.046772
-},
-{
-"word": "Judge",
-"start": 55.68145,
-"end": 55.94461
-},
-{
-"word": "it",
-"start": 55.94461,
-"end": 56.06845
-},
-{
-"word": "by",
-"start": 56.06845,
-"end": 56.19229
-},
-{
-"word": "the",
-"start": 56.19229,
-"end": 56.30065
-},
-{
-"word": "definition.",
-"start": 56.30065,
-"end": 56.84245
-},
-{
-"word": "October",
-"start": 57.322327,
-"end": 57.724808
-},
-{
-"word": "seventh:",
-"start": 57.724808,
-"end": 58.204685
-},
-{
-"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
-"start": 58.761967,
-"end": 59.164444
-},
-{
-"word": "killed",
-"start": 59.164444,
-"end": 59.396645
-},
-{
-"word": "about",
-"start": 59.396645,
-"end": 59.582405
-},
-{
-"word": "twelve",
-"start": 59.582405,
-"end": 59.876522
-},
-{
-"word": "hundred",
-"start": 59.876522,
-"end": 60.124203
-},
-{
-"word": "people,",
-"start": 60.124203,
-"end": 60.5112
-},
-{
-"word": "mostly",
-"start": 61.08396,
-"end": 61.50192
-},
-{
-"word": "civilians.",
-"start": 61.50192,
-"end": 62.152077
-},
-{
-"word": "Its",
-"start": 62.81772,
-"end": 63.003475
-},
-{
-"word": "charter",
-"start": 63.003475,
-"end": 63.328556
-},
-{
-"word": "quotes",
-"start": 63.328556,
-"end": 63.622677
+"word": "chief:",
+"start": 34.706093,
+"end": 35.06213
 },
 {
 "word": "a",
-"start": 63.622677,
-"end": 63.684597
+"start": 35.63489,
+"end": 35.72777
 },
 {
-"word": "call",
-"start": 63.684597,
-"end": 63.901314
+"word": "textbook",
+"start": 35.72777,
+"end": 36.17669
 },
 {
-"word": "to",
-"start": 63.901314,
-"end": 64.025154
+"word": "example",
+"start": 36.17669,
+"end": 36.718487
 },
 {
-"word": "kill",
-"start": 64.025154,
-"end": 64.226395
-},
-{
-"word": "Jews.",
-"start": 64.226395,
-"end": 64.706276
-},
-{
-"word": "That's",
-"start": 65.24807,
-"end": 65.46479
-},
-{
-"word": "targeting",
-"start": 65.46479,
-"end": 65.85179
-},
-{
-"word": "people",
-"start": 65.85179,
-"end": 66.08399
-},
-{
-"word": "for",
-"start": 66.08399,
-"end": 66.20783
-},
-{
-"word": "who",
-"start": 66.20783,
-"end": 66.33167
-},
-{
-"word": "they",
-"start": 66.33167,
-"end": 66.44003
-},
-{
-"word": "are.",
-"start": 66.44003,
-"end": 66.749626
-},
-{
-"word": "Next",
-"start": 67.29143,
-"end": 67.58555
-},
-{
-"word": "time",
-"start": 67.58555,
-"end": 67.80227
-},
-{
-"word": "someone",
-"start": 67.80227,
-"end": 68.06543
-},
-{
-"word": "shouts",
-"start": 68.06543,
-"end": 68.34406
+"word": "of",
+"start": 36.718487,
+"end": 36.842327
 },
 {
 "word": "ethnic",
-"start": 68.34406,
-"end": 68.63818
+"start": 36.842327,
+"end": 37.105488
 },
 {
-"word": "cleansing,",
-"start": 68.63818,
-"end": 69.087105
+"word": "cleansing.",
+"start": 37.105488,
+"end": 37.554405
 },
 {
-"word": "ask",
-"start": 69.118065,
-"end": 69.443146
+"word": "Sudan,",
+"start": 38.065247,
+"end": 38.607044
 },
 {
-"word": "what",
-"start": 69.443146,
-"end": 69.566986
+"word": "twenty",
+"start": 38.963085,
+"end": 39.241722
+},
+{
+"word": "twenty",
+"start": 39.241722,
+"end": 39.473923
+},
+{
+"word": "three:",
+"start": 39.473923,
+"end": 39.783524
+},
+{
+"word": "Human",
+"start": 40.2634,
+"end": 40.58848
+},
+{
+"word": "Rights",
+"start": 40.58848,
+"end": 40.8052
+},
+{
+"word": "Watch",
+"start": 40.8052,
+"end": 41.09932
+},
+{
+"word": "says",
+"start": 41.09932,
+"end": 41.30056
+},
+{
+"word": "the",
+"start": 41.30056,
+"end": 41.36248
+},
+{
+"word": "Masalit",
+"start": 41.36248,
+"end": 41.842358
+},
+{
+"word": "were",
+"start": 41.842358,
+"end": 41.997158
+},
+{
+"word": "ethnically",
+"start": 41.997158,
+"end": 42.415115
+},
+{
+"word": "cleansed.",
+"start": 42.415115,
+"end": 42.925957
+},
+{
+"word": "Israel",
+"start": 43.467754,
+"end": 43.792835
+},
+{
+"word": "fights",
+"start": 43.792835,
+"end": 44.040512
+},
+{
+"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
+"start": 44.040512,
+"end": 44.334633
+},
+{
+"word": "in",
+"start": 44.334633,
+"end": 44.427513
+},
+{
+"word": "Gaza,",
+"start": 44.427513,
+"end": 44.845474
+},
+{
+"word": "and",
+"start": 45.12411,
+"end": 45.26343
+},
+{
+"word": "warned",
+"start": 45.26343,
+"end": 45.480152
+},
+{
+"word": "civilians:",
+"start": 45.480152,
+"end": 46.11483
+},
+{
+"word": "seven",
+"start": 46.641148,
+"end": 47.10555
+},
+{
+"word": "point",
+"start": 47.10555,
+"end": 47.27583
+},
+{
+"word": "two",
+"start": 47.30679,
+"end": 47.461586
+},
+{
+"word": "million",
+"start": 47.461586,
+"end": 47.786667
+},
+{
+"word": "leaflets,",
+"start": 47.786667,
+"end": 48.297504
+},
+{
+"word": "thirteen",
+"start": 48.622585,
+"end": 49.040543
+},
+{
+"word": "point",
+"start": 49.040543,
+"end": 49.226303
+},
+{
+"word": "seven",
+"start": 49.226303,
+"end": 49.504944
+},
+{
+"word": "million",
+"start": 49.504944,
+"end": 49.706184
+},
+{
+"word": "texts,",
+"start": 49.706184,
+"end": 50.217022
+},
+{
+"word": "fifteen",
+"start": 50.402782,
+"end": 50.78978
+},
+{
+"word": "million",
+"start": 50.78978,
+"end": 51.05294
+},
+{
+"word": "calls.",
+"start": 51.05294,
+"end": 51.470898
+},
+{
+"word": "That's",
+"start": 52.10558,
+"end": 52.415176
+},
+{
+"word": "war.",
+"start": 52.415176,
+"end": 52.709297
+},
+{
+"word": "Sad",
+"start": 53.158215,
+"end": 53.545216
+},
+{
+"word": "and",
+"start": 53.545216,
+"end": 53.638096
+},
+{
+"word": "terrible.",
+"start": 53.638096,
+"end": 54.117973
+},
+{
+"word": "Not",
+"start": 54.76813,
+"end": 55.093212
+},
+{
+"word": "ethnic",
+"start": 55.093212,
+"end": 55.433773
+},
+{
+"word": "cleansing.",
+"start": 55.433773,
+"end": 55.85173
+},
+{
+"word": "Critics",
+"start": 56.59477,
+"end": 56.98177
+},
+{
+"word": "call",
+"start": 56.98177,
+"end": 57.19849
+},
+{
+"word": "the",
+"start": 57.19849,
+"end": 57.322327
+},
+{
+"word": "evacuations",
+"start": 57.322327,
+"end": 58.034405
+},
+{
+"word": "forced",
+"start": 58.034405,
+"end": 58.390446
+},
+{
+"word": "displacement.",
+"start": 58.390446,
+"end": 58.963203
+},
+{
+"word": "Israel",
+"start": 59.210884,
+"end": 59.597885
+},
+{
+"word": "says",
+"start": 59.597885,
+"end": 59.830082
+},
+{
+"word": "they're",
+"start": 59.830082,
+"end": 59.984882
+},
+{
+"word": "temporary,",
+"start": 59.984882,
+"end": 60.55764
+},
+{
+"word": "for",
+"start": 60.71244,
+"end": 60.85176
+},
+{
+"word": "safety.",
+"start": 60.85176,
+"end": 61.33164
+},
+{
+"word": "Judge",
+"start": 61.7496,
+"end": 62.02824
 },
 {
 "word": "it",
-"start": 69.566986,
-"end": 69.62891
+"start": 62.02824,
+"end": 62.152077
+},
+{
+"word": "by",
+"start": 62.152077,
+"end": 62.260437
+},
+{
+"word": "the",
+"start": 62.260437,
+"end": 62.384277
+},
+{
+"word": "definition.",
+"start": 62.384277,
+"end": 62.92608
+},
+{
+"word": "October",
+"start": 63.622677,
+"end": 64.040634
+},
+{
+"word": "seventh:",
+"start": 64.040634,
+"end": 64.458595
+},
+{
+"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
+"start": 65.20163,
+"end": 65.74343
+},
+{
+"word": "killed",
+"start": 65.74343,
+"end": 66.05303
+},
+{
+"word": "about",
+"start": 66.05303,
+"end": 66.28523
+},
+{
+"word": "twelve",
+"start": 66.28523,
+"end": 66.64127
+},
+{
+"word": "hundred",
+"start": 66.64127,
+"end": 66.91991
+},
+{
+"word": "people,",
+"start": 66.91991,
+"end": 67.30691
+},
+{
+"word": "mostly",
+"start": 67.66295,
+"end": 68.03447
+},
+{
+"word": "civilians.",
+"start": 68.03447,
+"end": 68.59174
+},
+{
+"word": "Its",
+"start": 69.474106,
+"end": 69.67535
+},
+{
+"word": "charter",
+"start": 69.67535,
+"end": 70.06234
+},
+{
+"word": "quotes",
+"start": 70.06234,
+"end": 70.34098
+},
+{
+"word": "a",
+"start": 70.34098,
+"end": 70.4029
+},
+{
+"word": "call",
+"start": 70.4029,
+"end": 70.69702
+},
+{
+"word": "to",
+"start": 70.69702,
+"end": 70.7899
+},
+{
+"word": "kill",
+"start": 70.7899,
+"end": 70.99114
+},
+{
+"word": "Jews.",
+"start": 70.99114,
+"end": 71.42458
+},
+{
+"word": "That's",
+"start": 71.91994,
+"end": 72.19858
+},
+{
+"word": "targeting",
+"start": 72.19858,
+"end": 72.58558
+},
+{
+"word": "people",
+"start": 72.58558,
+"end": 72.86422
+},
+{
+"word": "for",
+"start": 72.86422,
+"end": 73.00354
+},
+{
+"word": "who",
+"start": 73.00354,
+"end": 73.12738
+},
+{
+"word": "they",
+"start": 73.12738,
+"end": 73.25122
+},
+{
+"word": "are.",
+"start": 73.25122,
+"end": 73.45245
+},
+{
+"word": "Next",
+"start": 74.303856,
+"end": 74.59798
+},
+{
+"word": "time",
+"start": 74.59798,
+"end": 74.78374
+},
+{
+"word": "someone",
+"start": 74.78374,
+"end": 75.04689
+},
+{
+"word": "shouts",
+"start": 75.04689,
+"end": 75.32553
+},
+{
+"word": "ethnic",
+"start": 75.32553,
+"end": 75.61965
+},
+{
+"word": "cleansing,",
+"start": 75.61965,
+"end": 76.09953
+},
+{
+"word": "ask",
+"start": 76.30077,
+"end": 76.64133
+},
+{
+"word": "what",
+"start": 76.64133,
+"end": 76.76517
+},
+{
+"word": "it",
+"start": 76.76517,
+"end": 76.81161
 },
 {
 "word": "means.",
-"start": 69.62891,
-"end": 70.07782
+"start": 76.81161,
+"end": 77.21409
 }
 ]

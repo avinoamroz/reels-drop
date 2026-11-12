@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "Ethnic cleansing:|*yes* *or* *no?*",
- "duration": 61.3,
+ "duration": 65.27,
  "audio": {
   "lufs": -16.3,
   "true_peak": -2.0
@@ -76,7 +76,7 @@
   }
  ],
  "transcript": {
-  "score": 0.909,
+  "score": 0.904,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -86,7 +86,7 @@
    },
    {
     "line": "The United Nations definition: force or fear, to remove a group from an area.",
-    "score": 0.929,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -115,7 +115,7 @@
     "flag": "ok"
    },
    {
-    "line": "Falafel.",
+    "line": "<<f|ə|ˈ|l|ɑ|f|ə|l>>.",
     "score": 0.0,
     "flag": "MISS"
    },
@@ -161,7 +161,7 @@
    },
    {
     "line": "Critics call the evacuations forced displacement.",
-    "score": 0.833,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -195,7 +195,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ethnic cleansing. Yes or no. United Nations definition. Force or fear to remove a group from an area. A crime against humanity. Or genocide. Cleansing, but not ethnic. Scrubbing a rubber duck. Washing a t-shirt. Ethnic, but not cleansing. Philosophil. Nazi Germany deported Jews by train and murdered 6 million. Worse than ethnic cleansing. Genocide. Myanmar 2017. Over 700,000 Rohingya driven out. The UN rights chief. A textbook example of Ethnic Cleansing. Sudan. 2023. Human Rights Watch says the Ma Salit were ethnically cleansed. Israel fights Hamas in Gaza and warns civilians. 7.2 million leaflets. 13.7 million texts. 15 million calls. That's war. Sad and terrible. Not ethnic cleansing. Critics call the evacuations force displacement. Israel says they're temporary. For safety. Judge it by the definition. October 7th. Hamas killed about 1,200 people. Mostly civilians. charter quotes a call to kill Jews. That's targeting people for who they are. Next time someone shouts ethnic cleansing, ask what it means.",
+  "heard": "Ethnic cleansing. Yes or no. The United Nations definition. Force or fear. To remove a group from an area. A crime against humanity or genocide. Cleansing but not ethnic. Scrubbing a rubber duck. Washing a t-shirt. Ethnic but not cleansing. Philosopher. Nazi Germany deported Jews by train and murdered 6 million. Worse than ethnic cleansing. Genocide. Myanmar. 2017. Over 700,000 Rohingya driven out. The UN rights chief. A textbook example of ethnic cleansing. Sudan, 2023. Human Rights Watch says the Maasalit were ethnically cleansed. Israel fights Hamas in Gaza and warns civilians. 7.2 million leaflets. 13.7 million texts. 15 million calls. That's war. Sad and terrible. Not ethnic cleansing. Critics call the evacuations forced displacement. Israel says they're temporary for safety. Judge it by the definition. October 7th. Hamas killed about 1,200 people. Mostly civilians. Its charter votes a call to kill Jews. That's targeting people for who they are. Next time someone shouts ethnic cleansing, ask what it means.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -246,5 +246,5 @@
   "hook has no number",
   "source without year: US Holocaust Memorial Museum, Holocaust Encyclopedia"
  ],
- "render_s": 170.6
+ "render_s": 136.8
 }
