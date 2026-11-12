@@ -22,6 +22,9 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
   comment     {text, show: [[at, until], ...], y, name, size}   a generic, anonymous social comment bubble (grey avatar,
               placeholder name, never a real user or screenshot); pops in at each window start, e.g. [[0, "L0e"], ["END-2", "END"]]
               so the loop lands on it again; text wraps to 2 lines (default size 60, name 40)
+  photos      [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], dim, gray}]   optional real photos, full bleed
+              over the map in their window (crossfade `photo_cut`, default 0.25 s); map pins/icons/routes/zones fade
+              out under a photo, counter/cards/subs stay on top; "Photo: <credit>" at credit_y (default 1712, 36 px)
 """
 import os, sys, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -159,6 +162,25 @@ def run(S):
     cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace")); hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 930)
     CMT = D.get("comment"); CMW = [(A(w_[0]), A(w_[1])) for w_ in (CMT or {}).get("show", [])]
     MR = MapR(); cache = {}
+    PH = []
+    if D.get("photos"):
+        from photo_story import _kb, _load
+        for p in D["photos"]: PH.append(dict(p, t0=A(p["at"]), im=_load(p["file"], p.get("gray", False))))
+        for k, p in enumerate(PH): p["t1"] = A(p["until"]) if p.get("until") else (PH[k + 1]["t0"] if k + 1 < len(PH) else T.END)
+    PXF = float(D.get("photo_cut", 0.25))
+
+    def photo_mix(t):
+        """(alpha, layer) of the photo(s) showing at t, or (0, None)"""
+        a_tot, out = 0.0, None
+        for k, p in enumerate(PH):
+            gap = k + 1 >= len(PH) or PH[k + 1]["t0"] > p["t1"] + 0.01      # next photo follows straight away: no fade out
+            a_in = 1.0 if p["t0"] <= 0.01 else seg(t, p["t0"] - PXF, p["t0"])
+            a = a_in * (1 - seg(t, p["t1"] - PXF, p["t1"])) if gap else (a_in if t < p["t1"] + PXF else 0.0)
+            if a <= 0.001: continue
+            kb = p.get("kb") or [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]; u = ease((t - p["t0"]) / max(0.5, p["t1"] - p["t0"]))
+            lay = _kb(p["im"], kb[0] + (kb[3] - kb[0]) * u, kb[1] + (kb[4] - kb[1]) * u, kb[2] + (kb[5] - kb[2]) * u) * (1 - p.get("dim", 0.3)) * VIG
+            out = lay if out is None else out * (1 - a) + lay * a; a_tot = max(a_tot, a)
+        return a_tot, out
 
     def mapimg(cm, hi):
         key = (tuple(np.round(cm, 4)), tuple(sorted((k, round(v, 2)) for k, v in hi.items())))
@@ -204,6 +226,14 @@ def run(S):
                 x, y = geo(p["lon"], p["lat"]); c = COL.get(p.get("color", "red"), p.get("color", RED))
                 WG.pin(cv, x, y, c, pa, t)
                 if p.get("label"): WG.tag(cv, p["label"], x, y - 50, p.get("size", 40), YEL if c == YEL else WHITE, pa)
+        if PH:
+            pha, phl = photo_mix(t)
+            if pha > 0.001:
+                cv = Canvas(cv.out().astype(np.float32) * (1 - pha) + phl * pha)
+                for p in PH:
+                    ca = win(t, p["t0"], p["t1"], 0.25, 0.25)
+                    if ca > 0.01 and p.get("credit"):
+                        cv.text("Photo: " + p["credit"], 540, D.get("credit_y", 1712), 36, "#C9D6EA", 0.85 * ca, bold=False, maxw=1000, minsz=36)
         for CT in CTS:
             ca = win(t, CT["t0"], CT["t1"], 0.35, 0.35)
             if ca > 0.01:

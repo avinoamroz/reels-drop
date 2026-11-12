@@ -23,7 +23,7 @@
    "at": "L1:here's"
   },
   {
-   "say": "Step one: accept a split. Nineteen forty seven, the U.N. says two states. You say yes. Arab leaderships say no.",
+   "say": "Step one: accept a split. Forty seven: the U.N. says two states. You say yes. Arab leaderships say no.",
    "screen": "*1.* UN: two states. You: *yes.* Arab leaderships: *no.*",
    "screen_icon": "🗳️"
   },
@@ -33,12 +33,12 @@
    "screen_icon": "⚔️"
   },
   {
-   "say": "Step three: nineteen sixty seven. Armies mass on your borders. You strike first. Now you hold the West Bank and Gaza.",
+   "say": "Step three: sixty seven. Armies mass on your borders. You strike first, and hold the West Bank and Gaza.",
    "screen": "*3.* 1967: you hold the West Bank and Gaza",
    "screen_icon": "🪖"
   },
   {
-   "say": "Peace? The Arab League, in Khartoum: no peace, no recognition, no negotiations.",
+   "say": "Peace? Arab League, Khartoum: no peace, no recognition, no negotiations.",
    "screen": "\"No peace, no recognition, no negotiations\"",
    "screen_icon": "🙅",
    "at": "L5:no"
@@ -49,12 +49,12 @@
    "screen_icon": "🚢"
   },
   {
-   "say": "So you add patrols. Then checkpoints.",
+   "say": "So: patrols. Then checkpoints.",
    "screen": "+ patrols. + *checkpoints.*",
    "screen_icon": "🛂"
   },
   {
-   "say": "Step five: bombings and shootings. Seventy three attacks in under three years.",
+   "say": "Step five: bombings. Seventy three attacks in under three years.",
    "screen": "*5.* Bombings, shootings: *73* attacks in 34 months",
    "screen_icon": "💥"
   },
@@ -89,9 +89,9 @@
  ],
  "data": {
   "cam0": [
-   35.0,
-   31.6,
-   6.0
+   35.05,
+   31.55,
+   4.2
   ],
   "title_y": 300,
   "hook_y": 930,
@@ -101,17 +101,17 @@
     "view": [
      35.15,
      31.95,
-     3.2,
+     2.6,
      960
     ],
     "dur": 1.2
    },
    {
-    "at": "L11-0.2",
+    "at": "L10-0.2",
     "view": [
-     35.0,
-     31.6,
-     6.0,
+     35.05,
+     31.55,
+     4.2,
      960
     ],
     "dur": 1.2
@@ -121,7 +121,7 @@
    "label": "Layers of control",
    "at": "L3e",
    "until": "L10",
-   "y": 1300,
+   "y": 1320,
    "steps": [
     {
      "at": "L3e",
@@ -132,16 +132,12 @@
      "value": 2
     },
     {
-     "at": "L7:patrols",
+     "at": "L7:checkpoints",
      "value": 3
     },
     {
-     "at": "L7:checkpoints",
-     "value": 4
-    },
-    {
      "at": "L9:barrier",
-     "value": 5
+     "value": 4
     }
    ]
   },
@@ -320,13 +316,6 @@
     "tsize": 40
    },
    {
-    "at": "L7:patrols",
-    "lon": 35.62,
-    "lat": 32.2,
-    "emo": "🚙",
-    "size": 56
-   },
-   {
     "at": "L7:checkpoints",
     "lon": 35.26,
     "lat": 32.16,
@@ -356,24 +345,6 @@
     "label": "Barrier, from 2002",
     "label_dy": -70,
     "tsize": 40
-   },
-   {
-    "at": "L11:vote",
-    "lon": 34.95,
-    "lat": 32.75,
-    "emo": "🗳️",
-    "size": 60
-   },
-   {
-    "at": "L11:supreme",
-    "lon": 34.95,
-    "lat": 32.62,
-    "emo": "⚖️",
-    "size": 54,
-    "label": "Justice Khaled Kabub",
-    "label_dy": 62,
-    "tsize": 40,
-    "until": "L12"
    }
   ],
   "comment": {
@@ -386,7 +357,115 @@
    ],
    "y": 760,
    "size": 72
-  }
+  },
+  "tail": 0.55,
+  "photos": [
+   {
+    "file": "templates/photos/how_israel_colonized/hic_decl.jpg",
+    "at": "L3",
+    "until": "L3:five",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Rudi Weissenstein, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_67.jpg",
+    "at": "L4",
+    "until": "L4:hold",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.52,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Bamahane photographer, CC BY-SA 3.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_khar.jpg",
+    "at": "L5",
+    "until": "L5e",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.35,
+    "credit": "Not credited, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_chk.jpg",
+    "at": "L7",
+    "until": "L7e",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Czech160, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_bar.jpg",
+    "at": "L9",
+    "until": "L9:next",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Jasmine Halki, CC BY 2.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_kns.jpg",
+    "at": "L11",
+    "until": "L11:supreme",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Beit HaShalom (Hebrew Wikipedia user), attribution, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_kab.jpg",
+    "at": "L11:supreme",
+    "until": "L11e+0.2",
+    "kb": [
+     0.5,
+     0.4,
+     1.0,
+     0.5,
+     0.4,
+     1.08
+    ],
+    "dim": 0.25,
+    "credit": "Judiciary Spokesperson, CC BY-SA 4.0, Wikimedia Commons"
+   }
+  ]
  },
  "sources": [
   {
