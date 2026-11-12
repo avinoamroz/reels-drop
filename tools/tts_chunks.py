@@ -135,5 +135,47 @@ def main(req_path):
     print(json.dumps({k: rep[k] for k in ("median_pitch_hz", "median_rate_wps", "max_pitch_dev_pct", "total_s")}))
 
 
+
+
+def reassemble(req_path, target_rate):
+    """rebuild voice/<id>_vo.* from the stored raw takes (voice/raw_<id>/cNN.flac + .json), no new TTS: one rubberband pass per chunk
+    sets pitch to the median and tempo to target_rate words per second (formant preserved), then loudness match and concatenation."""
+    R = json.load(open(req_path)); sid = R["id"]; vid = R["voice_id"]; lines = [l.strip() for l in R["lines"]]
+    h = hashlib.sha1("\n".join(lines + [f"voice:{vid}"]).encode()).hexdigest()[:12]; raw = os.path.join("voice", "raw_" + sid)
+    takes = []
+    for ci in range(len(R["chunks"])):
+        y, _ = sf.read(os.path.join(raw, f"c{ci:02d}.flac"), dtype="float32"); w = json.load(open(os.path.join(raw, f"c{ci:02d}.json")))
+        takes.append(dict(y=y, w=w, p=pitch_median(y), r=rate(w)))
+    P = float(np.median([x["p"] for x in takes])); rep = dict(id=sid, voice_id=vid, hash=h, mode="reassembled from raw takes", median_pitch_hz=round(P, 2),
+                                                               target_rate_wps=target_rate, chunks=[])
+    outs, target = [], None
+    for ci, x in enumerate(takes):
+        tempo = target_rate / x["r"]; pitch = P / x["p"]
+        for it in range(4):       # pitch measured after the tempo change, corrected until within 1.2% of the median
+            y = ff(x["y"], f"rubberband=pitch={pitch:.5f}:formant=preserved,rubberband=tempo={tempo:.5f}")   # one instance with both ignores pitch
+            p2 = pitch_median(y)
+            if abs(p2 / P - 1) <= 0.012: break
+            pitch *= P / p2
+        w = [dict(d, start=d["start"] / tempo, end=d["end"] / tempo) for d in x["w"]]
+        rr = active_rms(y); target = target or rr; y = y * (target / rr); outs.append((y, w))
+        rep["chunks"].append(dict(chunk=ci, lines=R["chunks"][ci], raw_pitch_hz=round(x["p"], 2), raw_rate_wps=round(x["r"], 3), tempo=round(tempo, 4),
+                                  pitch_shift=round(pitch, 4), pitch_hz=round(p2, 2), rate_wps=round(rate(w), 3), dur_s=round(len(y) / SR, 2)))
+    Pm = float(np.median([c["pitch_hz"] for c in rep["chunks"]]))
+    for c in rep["chunks"]: c["pitch_dev_pct"] = round((c["pitch_hz"] / Pm - 1) * 100, 2)
+    pk = max(np.abs(y).max() for y, _ in outs); allw, buf, t = [], [], 0.0; sil = np.zeros(int(0.5 * SR), np.float32)
+    for y, w in outs:
+        y = (y / pk * 0.89).astype(np.float32)
+        for d in w: allw.append({"word": d["word"], "start": round(d["start"] + t, 4), "end": round(d["end"] + t, 4)})
+        buf += [y, sil]; t += (len(y) + len(sil)) / SR
+    if len(allw) != sum(len(l.split()) for l in lines): raise SystemExit("word count mismatch")
+    pre = os.path.join("voice", f"{sid}_vo")
+    sf.write(pre + ".wav", np.concatenate(buf), SR, subtype="PCM_16"); json.dump(allw, open(pre + "_words.json", "w"), indent=0); open(pre + ".hash", "w").write(h)
+    rep["median_after_hz"] = round(Pm, 2); rep["max_pitch_dev_pct"] = max(abs(c["pitch_dev_pct"]) for c in rep["chunks"]); rep["total_s"] = round(t, 1)
+    json.dump(rep, open(os.path.join("voice", f"{sid}_chunks_report.json"), "w"), indent=1)
+    print(json.dumps({k: rep[k] for k in ("median_after_hz", "max_pitch_dev_pct", "total_s")}))
+
+
 if __name__ == "__main__":
-    for p in sys.argv[1:]: main(p)
+    if sys.argv[1] == "--reassemble": reassemble(sys.argv[3], float(sys.argv[2]))
+    else:
+        for p in sys.argv[1:]: main(p)

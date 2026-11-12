@@ -1,0 +1,866 @@
+{
+ "id": "warrior_within_full",
+ "account": "noamroz__",
+ "template": "story_climb_full",
+ "hook": "The Warrior Within",
+ "voice": {
+  "id": "00a77add-48d5-4ef6-8157-71e5437b282d",
+  "name": "Calm Lady (Cartesia stock)",
+  "chain": "plain",
+  "tempo": 1.0,
+  "lead": 0.6,
+  "gap": 0.38,
+  "chunks": "voice/chunks/warrior_within_full.json"
+ },
+ "music": {
+  "lufs": -16,
+  "bed_lufs": -20
+ },
+ "lines": [
+  {
+   "say": "You're standing there."
+  },
+  {
+   "say": "You're nine years old, and suddenly a movie starts playing in front of your eyes, like strips of film."
+  },
+  {
+   "say": "Another one, another one, another one."
+  },
+  {
+   "say": "Fragments of memories spinning around you like a tornado you simply cannot escape.",
+   "gap": 0.7
+  },
+  {
+   "say": "And then it stops.",
+   "gap": 0.7
+  },
+  {
+   "say": "You're on the ground."
+  },
+  {
+   "say": "You see pictures on the wall, the piano beside your head, the staircase leading down, even the color of the walls.",
+   "gap": 0.85
+  },
+  {
+   "say": "You remember every detail except what actually happened to you."
+  },
+  {
+   "say": "You're frozen in a moment that somehow never ended.",
+   "gap": 1.1
+  },
+  {
+   "say": "And then you open your eyes."
+  },
+  {
+   "say": "You're 20 meters above ground."
+  },
+  {
+   "say": "Nothing but a harness, a rope, and another human being somewhere down there whom you're supposed to trust your life with.",
+   "gap": 0.85
+  },
+  {
+   "say": "You try to breathe, to move, to come back to reality, but you can't.",
+   "gap": 0.85
+  },
+  {
+   "say": "40 minutes pass.",
+   "gap": 0.6
+  },
+  {
+   "say": "You're crying, you're terrified, and that freezing feeling just won't end."
+  },
+  {
+   "say": "Too scared to commit to the next move, too scared to even let go.",
+   "gap": 1.1
+  },
+  {
+   "say": "And that's when you realize something: you cannot stay there forever."
+  },
+  {
+   "say": "Not on a rock, and not inside those memories.",
+   "gap": 0.85
+  },
+  {
+   "say": "So you reach for the next hold."
+  },
+  {
+   "say": "You really try, and you fall."
+  },
+  {
+   "say": "You fail, and this time it hurts more than usual, physically but mentally as well.",
+   "gap": 0.85
+  },
+  {
+   "say": "And somehow, something inside you softens, as it happens again and again, dozens of times, until you begin to recognize the pattern, anticipate it, learn how to communicate it, sometimes even to complete strangers.",
+   "gap": 0.85
+  },
+  {
+   "say": "And slowly the shame begins to disappear."
+  },
+  {
+   "say": "You start feeling proud, as though those movies inside your head are finally becoming a little afraid of you.",
+   "gap": 1.1
+  },
+  {
+   "say": "But then another earthquake, because life loves to surprise us, doesn't it?",
+   "gap": 0.85
+  },
+  {
+   "say": "You're five years old."
+  },
+  {
+   "say": "You're on the ground again, a belt striking your body."
+  },
+  {
+   "say": "You don't understand why, you don't know how to make it stop, so you learn to be quiet, to swallow everything, to survive without making a sound.",
+   "gap": 1.1
+  },
+  {
+   "say": "And years later, that silence follows you into the world."
+  },
+  {
+   "say": "You're terrified of judgment, terrified of failure, yet somehow you're willing to take enormous risks just to prove you're enough."
+  },
+  {
+   "say": "Sometimes you push too hard, sometimes you get hurt."
+  },
+  {
+   "say": "Because for most of your life you felt different, too emotional, too intense, or just too much.",
+   "gap": 0.85
+  },
+  {
+   "say": "And finally, at 26, you receive the diagnosis you feared the most: Borderline Personality Disorder."
+  },
+  {
+   "say": "Suddenly all those contradictions have a name: the fear, the intensity, the chaos.",
+   "gap": 1.1
+  },
+  {
+   "say": "And one day you're standing in line at the pharmacy, waiting for the three different kinds of meds you take every day just to feel like what you imagine a normal person feels like."
+  },
+  {
+   "say": "And you wonder: what a wonderful world."
+  },
+  {
+   "say": "But do I even feel it anymore?",
+   "gap": 0.85
+  },
+  {
+   "say": "Then you notice those little plastic pill organizers, the ones with compartments for every day of the week, and suddenly you imagine your entire future fitting in one of those little tiny boxes.",
+   "gap": 1.1
+  },
+  {
+   "say": "And that feeling reminds you of something: another mountain, another day."
+  },
+  {
+   "say": "You're hiking towards the summit, completely exhausted, dehydrated, carrying all the anger of the day inside you."
+  },
+  {
+   "say": "Every step feels impossible, but you keep going, faster than you're supposed to.",
+   "gap": 0.85
+  },
+  {
+   "say": "And finally you reach the top."
+  },
+  {
+   "say": "I made it."
+  },
+  {
+   "say": "You sit down, and for one beautiful second you believe it's over.",
+   "gap": 0.85
+  },
+  {
+   "say": "And then you look ahead: another peak, and another one, and another, and something inside you breaks."
+  },
+  {
+   "say": "How many mountains do you have to climb?"
+  },
+  {
+   "say": "How many times do you have to fight just to feel like you're finally there?",
+   "gap": 1.1
+  },
+  {
+   "say": "And then you break: a psychotic break, the first one in a very long time.",
+   "gap": 1.2
+  },
+  {
+   "say": "Well, apparently reaching the summit wasn't enough."
+  },
+  {
+   "say": "You're exhausted, not just from the mountain, but from life itself.",
+   "gap": 0.85
+  },
+  {
+   "say": "And standing there in that pharmacy, staring at those little plastic boxes, you remember exactly how that felt: another mountain, another battle, another summit that keeps moving further away.",
+   "gap": 1.1
+  },
+  {
+   "say": "So you go home and you research and research until you come across a number: 5 percent."
+  },
+  {
+   "say": "A number that makes you stop."
+  },
+  {
+   "say": "You read it as though it means only 5 percent of people like you might someday live without medication.",
+   "gap": 0.85
+  },
+  {
+   "say": "And suddenly you're furious at the possibility this could be your future, and the thought that your entire life might already have been decided by a diagnosis.",
+   "gap": 0.85
+  },
+  {
+   "say": "But then you realize something: a diagnosis can explain what you've been struggling to be."
+  },
+  {
+   "say": "It doesn't get to decide who you become.",
+   "gap": 0.7
+  },
+  {
+   "say": "And I decided to be one of those 5 percent.",
+   "gap": 1.1
+  },
+  {
+   "say": "And somehow the silence you learned to keep for most of your life becomes the very thing you refuse to accept."
+  },
+  {
+   "say": "You find your voice and you start using it to tell your story, to reach people, to make someone else feel a little less alone.",
+   "gap": 0.85
+  },
+  {
+   "say": "And you're not ashamed anymore."
+  },
+  {
+   "say": "You're proud.",
+   "gap": 1.1
+  },
+  {
+   "say": "And here you are again, 20 meters above ground, but this time you look around."
+  },
+  {
+   "say": "You see the mountains, the valleys, the endless beauty of the world beneath you."
+  },
+  {
+   "say": "You breathe and feel small, and for a moment the movies finally stop.",
+   "gap": 0.85
+  },
+  {
+   "say": "There is no past to escape, no future to fear."
+  },
+  {
+   "say": "Just you holding on to the rock, anticipating the next move, believing that if you made it this far, maybe you can make it a little further.",
+   "gap": 1.1
+  },
+  {
+   "say": "And every time you come down, whether you reach the top or not, something inside you feels quieter and happier."
+  },
+  {
+   "say": "Regardless of the result, little by little you carry that quietness into daily life.",
+   "gap": 0.85
+  },
+  {
+   "say": "You learn that falling doesn't mean failing, that asking for help isn't a weakness, it's strength."
+  },
+  {
+   "say": "That being afraid doesn't mean you cannot move."
+  },
+  {
+   "say": "Sometimes it means something inside you is finally moving too.",
+   "gap": 1.1
+  },
+  {
+   "say": "And that little girl who once learned to survive in silence deserves so much more than survival.",
+   "gap": 0.85
+  },
+  {
+   "say": "For years I felt like two different people living inside the same body."
+  },
+  {
+   "say": "One was terrified of life, the other desperately wanted to live it.",
+   "gap": 0.85
+  },
+  {
+   "say": "And eventually I understood I have a choice: not whether to have this diagnosis, not whether the memories will return, but whether I keep running from them.",
+   "gap": 0.85
+  },
+  {
+   "say": "I chose to be a warrior.",
+   "gap": 0.6
+  },
+  {
+   "say": "Not because I stopped falling."
+  },
+  {
+   "say": "Not because I stopped being afraid."
+  },
+  {
+   "say": "But because the little girl who once learned to survive by staying silent... Is standing here today.",
+   "gap": 0.9
+  },
+  {
+   "say": "And she's speaking.",
+   "gap": 0.0
+  }
+ ],
+ "subs_replace": {
+  "5 percent": "5%"
+ },
+ "data": {
+  "hook_y": 400,
+  "hook_until": "L1e",
+  "tail": 6.0,
+  "subs_size": 70,
+  "subs_y": 1640,
+  "crf": 18,
+  "scenes": [
+   {
+    "scene": "tornado",
+    "tag": "Age 9",
+    "d": {
+     "tornado_stop": "L4"
+    }
+   },
+   {
+    "scene": "strips",
+    "at": "L2"
+   },
+   {
+    "scene": "tornado",
+    "at": "L3",
+    "d": {
+     "tornado_stop": "L4"
+    }
+   },
+   {
+    "scene": "room",
+    "at": "L5",
+    "k": {
+     "pictures": "L6:pictures",
+     "piano": "L6:piano",
+     "stairs": "L6:staircase",
+     "color": "L6:color"
+    }
+   },
+   {
+    "scene": "memgap",
+    "at": "L7",
+    "k": {
+     "frozen": "L8:frozen"
+    }
+   },
+   {
+    "scene": "eyes",
+    "at": "L9"
+   },
+   {
+    "scene": "wall",
+    "at": "L10",
+    "tag": "20 m"
+   },
+   {
+    "scene": "rope",
+    "at": "L11",
+    "k": {
+     "harness": "L11:harness",
+     "rope": "L11:rope",
+     "human": "L11:human"
+    }
+   },
+   {
+    "scene": "breathe",
+    "at": "L12",
+    "k": {
+     "move": "L12:move",
+     "reality": "L12:reality",
+     "cant": "L12:can"
+    }
+   },
+   {
+    "scene": "clock",
+    "at": "L13",
+    "k": {
+     "crying": "L14:crying"
+    }
+   },
+   {
+    "scene": "stuck",
+    "at": "L15",
+    "k": {
+     "commit": "L15:commit",
+     "let": "L15:let"
+    }
+   },
+   {
+    "scene": "realize",
+    "at": "L16",
+    "k": {
+     "rock": "L17:rock",
+     "memories": "L17:memories"
+    }
+   },
+   {
+    "scene": "fall",
+    "at": "L18"
+   },
+   {
+    "scene": "again",
+    "at": "L21"
+   },
+   {
+    "scene": "pattern",
+    "at": "L21:recognize",
+    "k": {
+     "anticipate": "L21:anticipate"
+    }
+   },
+   {
+    "scene": "talk",
+    "at": "L21:communicate",
+    "k": {
+     "strangers": "L21:strangers"
+    }
+   },
+   {
+    "scene": "shame",
+    "at": "L22"
+   },
+   {
+    "scene": "proud",
+    "at": "L23",
+    "k": {
+     "afraid": "L23:afraid"
+    }
+   },
+   {
+    "scene": "quake",
+    "at": "L24"
+   },
+   {
+    "scene": "child",
+    "at": "L25",
+    "tag": "Age 5",
+    "d": {
+     "door_close": "L27:quiet"
+    }
+   },
+   {
+    "scene": "follows",
+    "at": "L28"
+   },
+   {
+    "scene": "judged",
+    "at": "L29"
+   },
+   {
+    "scene": "risks",
+    "at": "L29:risks"
+   },
+   {
+    "scene": "push",
+    "at": "L30",
+    "k": {
+     "hurt": "L30:hurt"
+    }
+   },
+   {
+    "scene": "toomuch",
+    "at": "L31",
+    "k": {
+     "emotional": "L31:emotional",
+     "intense": "L31:intense",
+     "much": "L31:much"
+    }
+   },
+   {
+    "scene": "diagnosis",
+    "at": "L32",
+    "tag": "Age 26",
+    "k": {
+     "borderline": "L32:borderline"
+    }
+   },
+   {
+    "scene": "name",
+    "at": "L33",
+    "k": {
+     "fear": "L33:fear",
+     "intensity": "L33:intensity",
+     "chaos": "L33:chaos"
+    }
+   },
+   {
+    "scene": "pharm_meds",
+    "at": "L34",
+    "k": {
+     "three": "L34:three"
+    }
+   },
+   {
+    "scene": "wonderful",
+    "at": "L35",
+    "k": {
+     "feel": "L36"
+    }
+   },
+   {
+    "scene": "organizer",
+    "at": "L37",
+    "k": {
+     "pills": "L37:plastic"
+    }
+   },
+   {
+    "scene": "hike",
+    "at": "L38",
+    "k": {
+     "dehydrated": "L39:dehydrated",
+     "anger": "L39:anger"
+    }
+   },
+   {
+    "scene": "steps",
+    "at": "L40",
+    "k": {
+     "faster": "L40:faster"
+    }
+   },
+   {
+    "scene": "summit",
+    "at": "L41",
+    "k": {
+     "made": "L42",
+     "sit": "L43"
+    }
+   },
+   {
+    "scene": "endless",
+    "at": "L44",
+    "k": {
+     "breaks": "L44:breaks"
+    }
+   },
+   {
+    "scene": "brk",
+    "at": "L47"
+   },
+   {
+    "scene": "exhausted",
+    "at": "L48",
+    "k": {
+     "life": "L49:life"
+    }
+   },
+   {
+    "scene": "boxmount",
+    "at": "L50",
+    "k": {
+     "mountain": "L50:mountain",
+     "battle": "L50:battle",
+     "summit": "L50:summit",
+     "further": "L50:further"
+    }
+   },
+   {
+    "scene": "research",
+    "at": "L51"
+   },
+   {
+    "scene": "five",
+    "at": "L51:number"
+   },
+   {
+    "scene": "furious",
+    "at": "L54",
+    "k": {
+     "decided": "L54:decided"
+    }
+   },
+   {
+    "scene": "explain",
+    "at": "L55",
+    "k": {
+     "explain": "L55:explain",
+     "decide": "L56:decide"
+    }
+   },
+   {
+    "scene": "five",
+    "at": "L57",
+    "d": {
+     "five": {
+      "at": "L57-6",
+      "value": 5,
+      "suffix": "%",
+      "dots": "L57"
+     }
+    }
+   },
+   {
+    "scene": "unmute",
+    "at": "L58",
+    "k": {
+     "refuse": "L58:refuse"
+    }
+   },
+   {
+    "scene": "voice",
+    "at": "L59",
+    "k": {
+     "alone": "L59:alone"
+    }
+   },
+   {
+    "scene": "stage",
+    "at": "L60",
+    "k": {
+     "ashamed": "L60:ashamed",
+     "proud": "L61"
+    }
+   },
+   {
+    "scene": "wall_again",
+    "at": "L62",
+    "tag": "20 m",
+    "k": {
+     "look": "L62:look"
+    }
+   },
+   {
+    "scene": "view",
+    "at": "L63",
+    "k": {
+     "movies": "L64:movies"
+    }
+   },
+   {
+    "scene": "now",
+    "at": "L65",
+    "k": {
+     "past": "L65:past",
+     "future": "L65:future"
+    }
+   },
+   {
+    "scene": "next",
+    "at": "L66"
+   },
+   {
+    "scene": "lower",
+    "at": "L67"
+   },
+   {
+    "scene": "daily",
+    "at": "L68"
+   },
+   {
+    "scene": "help",
+    "at": "L69",
+    "k": {
+     "help": "L69:help",
+     "strength": "L69:strength"
+    }
+   },
+   {
+    "scene": "afraid",
+    "at": "L70",
+    "k": {
+     "moving": "L71:moving"
+    }
+   },
+   {
+    "scene": "girl_light",
+    "at": "L72"
+   },
+   {
+    "scene": "two",
+    "at": "L73",
+    "k": {
+     "one": "L74",
+     "other": "L74:other"
+    }
+   },
+   {
+    "scene": "choice",
+    "at": "L75",
+    "k": {
+     "diagnosis": "L75:diagnosis",
+     "memories": "L75:memories",
+     "running": "L75:running"
+    }
+   },
+   {
+    "scene": "warrior",
+    "at": "L76",
+    "k": {
+     "falling": "L77:falling",
+     "afraid": "L78:afraid"
+    }
+   },
+   {
+    "scene": "together",
+    "at": "L79"
+   }
+  ],
+  "tornado_stop": "L4",
+  "height": "20 m",
+  "door_close": "L27:quiet",
+  "speak_at": "L80",
+  "five": {
+   "at": "L51:5",
+   "value": 5,
+   "suffix": "%",
+   "card": "Only *5%* might someday live without medication",
+   "chip": "how she read it"
+  },
+  "music": [
+   [
+    0,
+    "dark"
+   ],
+   [
+    "L9",
+    "tense"
+   ],
+   [
+    "L16",
+    "dark"
+   ],
+   [
+    "L22",
+    "warm"
+   ],
+   [
+    "L24",
+    "child"
+   ],
+   [
+    "L28",
+    "tense"
+   ],
+   [
+    "L34",
+    "dark"
+   ],
+   [
+    "L38",
+    "tense"
+   ],
+   [
+    "L47",
+    "quiet"
+   ],
+   [
+    "L50",
+    "dark"
+   ],
+   [
+    "L51:5",
+    "hope"
+   ],
+   [
+    "L58",
+    "rise"
+   ],
+   [
+    "L62",
+    "hope"
+   ],
+   [
+    "L76",
+    "rise"
+   ]
+  ],
+  "titles": [
+   {
+    "at": "L16:cannot",
+    "until": "L17",
+    "text": "You cannot stay there *forever.*",
+    "y": 400
+   },
+   {
+    "at": "L42",
+    "until": "L43",
+    "text": "*I made it.*",
+    "y": 420,
+    "size": 96
+   },
+   {
+    "at": "L45",
+    "until": "L46e",
+    "text": "How many mountains do you have to *climb?*",
+    "y": 400
+   },
+   {
+    "at": "L56",
+    "until": "L57",
+    "text": "It doesn't get to decide *who you become.*",
+    "y": 400
+   },
+   {
+    "at": "L69",
+    "until": "L69:help",
+    "text": "Falling doesn't mean *failing.*",
+    "y": 400
+   },
+   {
+    "at": "L69:strength",
+    "until": "L70",
+    "text": "It's *strength.*",
+    "y": 400,
+    "size": 96
+   },
+   {
+    "at": "L76",
+    "until": "L77",
+    "text": "I chose to be a *warrior.*",
+    "y": 420,
+    "size": 92
+   },
+   {
+    "at": "L80",
+    "text": "And she's *speaking.*",
+    "y": 430,
+    "size": 96
+   }
+  ],
+  "notes": [
+   {
+    "at": "L53",
+    "until": "L57e",
+    "text": "Her story.|Medication decisions belong with your doctor.",
+    "y": 1480
+   },
+   {
+    "at": "L80",
+    "text": "Need support in Israel? ERAN: 1201 (24/7)",
+    "y": 1535
+   }
+  ],
+  "start_credit": {
+   "text": "Her story, her words: Anna Os.",
+   "until": "L2",
+   "y": 1480,
+   "size": 44
+  },
+  "credit": {
+   "at": "L80",
+   "text": "Her story, her words: Anna Os.",
+   "y": 1440,
+   "size": 54
+  }
+ },
+ "sources": [],
+ "caption_en": "The Warrior Within, full story 🧗‍♀️\n\nFrozen on a rock wall, 20 meters above ground. Five years old and learning to stay silent. At 26, a diagnosis: Borderline Personality Disorder. And then, a decision.\n\n\"A diagnosis can explain. It doesn't get to decide who you become.\"\n\nHer story, her words: Anna Os.\n\nHer story. Medication decisions belong with your doctor.\n\nIf this touches something in you: ERAN emotional first aid, call 1201 (Israel), 24/7.\n\nAnimated, read by an AI voice from her own words.",
+ "caption_he": "הלוחמת שבפנים, הסיפור המלא\nהסיפור שלה, המילים שלה: Anna Os.\nהחלטות על תרופות: רק יחד עם הרופא שלך.\nאם זה נוגע בך: ער\"ן, עזרה ראשונה נפשית, 1201.",
+ "hashtags": [
+  "#MentalHealth",
+  "#Resilience",
+  "#Courage"
+ ],
+ "cover": {
+  "bg": "scene",
+  "t": "L63:mountains",
+  "dim": 0.6,
+  "text": "The *Warrior*|Within",
+  "label": "Her story, her words: Anna Os."
+ }
+}
