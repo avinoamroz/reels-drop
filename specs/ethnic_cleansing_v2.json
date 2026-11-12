@@ -244,10 +244,17 @@
   "#History"
  ],
  "cover": {
-  "bg": "frame",
-  "t": 6.0,
+  "inset_at": "L1:rubber",
+  "inset_crop": [
+   90,
+   1540
+  ],
+  "inset_scale": 0.6,
+  "inset_y": 1250,
   "dim": 1.0,
-  "y": 420
+  "y": 400,
+  "size": 150,
+  "text": "Ethnic cleansing:|*yes* *or* *no?*"
  },
  "caption_sources": "Sources: UN Commission of Experts, S/25274 (1993); UN Office on Genocide Prevention; USHMM; UN OHCHR, Zeid Ra'ad al-Hussein (11 Sep 2017); UNHCR; HRW (May, Jul 2024); US State Dept (Jan 2025); IDF via Jewish Press (Jan 2024); UN OCHA, UN experts (2024); Israeli figures via AP, Reuters; HAMAS Covenant 1988, Art. 7 (Avalon Project, Yale). Map: Natural Earth.\nPhotos: Carlos Gracia, el cajon yacht club, Charles Haynes (Commons).\nAI voice."
 }

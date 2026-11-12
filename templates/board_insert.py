@@ -258,6 +258,16 @@ def run(S):
     for c in CH: ev += [(c["t0"], "whoosh", -26), (c["t0"] + 0.45, "pop", -20), (c["t0"] + 0.5, "check", -22)]
     build_mix(S, T, work, ev, dur=SEG)
     seg_v = f"{work}/seg.mp4"; encode(frame, SEG, None, seg_v, loop=False)
+    CV = S.get("cover") or {}
+    if CV.get("inset_at") is not None:                                    # cover: blurred dark frame + framed inset of a segment frame
+        fr_ = frame(A(CV["inset_at"])).astype(np.float32)
+        bg = cv2.GaussianBlur(fr_, (0, 0), 22) * 0.38
+        y0, y1 = CV.get("inset_crop", [100, 1540]); crop = fr_[y0:y1]; sc = CV.get("inset_scale", 0.6)
+        crop = np.clip(cv2.resize(crop, (int(W * sc), int((y1 - y0) * sc)), interpolation=cv2.INTER_AREA) * CV.get("inset_gain", 1.35), 0, 255); h_, w_ = crop.shape[:2]
+        cy0 = int(CV.get("inset_y", 1230) - h_ / 2); cx0 = (W - w_) // 2; m = round_mask(w_, h_, 30)
+        bg[cy0:cy0 + h_, cx0:cx0 + w_] = bg[cy0:cy0 + h_, cx0:cx0 + w_] * (1 - m) + crop * m
+        cv = Canvas(bg); cv.rrect(cx0, cy0, w_, h_, 30, None, 1, stroke=SKY, lw=5, sa=0.95)
+        p_ = f"{work}/cover_bg.png"; cv2.imwrite(p_, cv.out()); S["_cover_bg"] = p_
     seg_a = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", f"{work}/mix.m4a", "-ar", str(SR), "-ac", "2", "-f", "f32le", "-"],
                                          capture_output=True, check=True).stdout, np.float32).reshape(-1, 2).T.astype(np.float64)
     n_seg = int(round(SEG * FPS)); seg_a = np.pad(seg_a, ((0, 0), (0, max(0, int(n_seg / FPS * SR) - seg_a.shape[1]))))[:, :int(n_seg / FPS * SR)]
