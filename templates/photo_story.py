@@ -16,6 +16,11 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
   quote    [{at, until, text, who, y}]                                       sourced quote card (*word* = gold)
   math     [{at, until, title, rows: [text, ...], result, y}]                arithmetic card (rows 52 px, result yellow)
   hook_y   default 900;  title_y default 300;  subs_y default 1612;  src_y default 1488;  credit_y default 1712
+  stamp    optional per stamp: mark "Y" (green tick) | "N" (red cross) drawn inside the stamp after the text
+  board    optional two-column scoreboard in the lower third (cards that chips drop into):
+           {at, until, y (top, default 1050), pitch (row pitch, default 72), rows (default 4),
+            cols: [{label: "NOT ETHNIC|CLEANSING", color: "sky"|"red"|hex}, {...}],
+            chips: [{col, row, label, emoji, at}]}   a chip drops from above into its slot at `at`, then its tick pops
 """
 import os, sys, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -72,6 +77,10 @@ def run(S):
     STM = [dict(s_, t0=A(s_["at"]), t1=A(s_.get("until"), T.END - 0.6)) for s_ in D.get("stamp", [])]
     QT = [dict(q, t0=A(q["at"]), t1=A(q.get("until"), T.END - 0.6)) for q in D.get("quote", [])]
     MT = [dict(m, t0=A(m["at"]), t1=A(m.get("until"), T.END - 0.6)) for m in D.get("math", [])]
+    BD = dict(D["board"]) if D.get("board") else None
+    if BD:
+        BD["t0"] = A(BD.get("at"), 0.0); BD["t1"] = A(BD.get("until"), T.END + 1)
+        BD["chips"] = [dict(c, t0=A(c["at"])) for c in BD.get("chips", [])]
     END_AT = A((S.get("end") or {}).get("at"), T.S(len(T.L) - 2)) if S.get("end") else None
     cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace")); hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 900)
     y_ = np.arange(H, dtype=np.float32)[:, None]
@@ -98,12 +107,45 @@ def run(S):
             lay = photo_layer(p, t); out = lay if a >= 0.999 else out * (1 - a) + lay * a
         return out
 
+    BCOL = dict(sky=SKY, red=RED, green=GREEN, yellow=YEL)
+    BFILL = {SKY: "#123C66", RED: "#5E1E2A", GREEN: "#14492F", YEL: "#4D4214"}
+
+    def draw_board(cv, t):
+        a = (1.0 if BD["t0"] <= 0.01 else seg(t, BD["t0"], BD["t0"] + 0.3)) * (1 - seg(t, BD["t1"] - 0.3, BD["t1"]))
+        if a <= 0.01: return
+        y0 = BD.get("y", 1050); P_ = BD.get("pitch", 72); nr = BD.get("rows", 4); cw = 476; xs = (52, 552)
+        hh = 108 + P_ * nr + 8
+        cv.rrect(40, y0, 1000, hh, 30, "#0B1730", 0.9 * a, stroke=SKY, lw=2, sa=0.35 * a)
+        cv.rrect(539, y0 + 18, 2, hh - 36, 1, "#C9D6EA", 0.25 * a)
+        for k, c in enumerate(BD["cols"][:2]):
+            col = BCOL.get(c.get("color", "sky"), c.get("color", SKY)); ls = c["label"].split("|")
+            for j, l in enumerate(ls): cv.text(l, xs[k] + cw / 2, y0 + 54 - 21 * (len(ls) - 1) + 42 * j, 40, col, a, maxw=cw - 30, shadow=False)
+            for r in range(nr): cv.rrect(xs[k] + 8, y0 + 108 + r * P_, cw - 16, P_ - 12, 16, "#FFFFFF", 0.06 * a)
+        for ch in BD["chips"]:
+            if t < ch["t0"]: continue
+            k = ch.get("col", 0); col = BCOL.get(BD["cols"][k].get("color", "sky"), SKY); fill = BFILL.get(col, "#123C66")
+            x = xs[k] + 8; y = y0 + 108 + ch["row"] * P_; w = cw - 16; h = P_ - 12; cx_, cy_ = x + w / 2, y + h / 2
+            u = (t - ch["t0"]) / 0.42; p = back(min(1.0, u), 1.2); s_ = 1 + 0.35 * (1 - eout(min(1.0, u)))
+            ca = a * min(1.0, u * 4); c = cv.c; c.save()
+            c.translate(cx_, cy_ - 260 * (1 - p)); c.scale(s_, s_); c.translate(-cx_, -cy_)
+            cv.rrect(x, y, w, h, 16, fill, 0.97 * ca, stroke=col, lw=3, sa=ca)
+            if ch.get("emoji"): WG.emo(cv, ch["emoji"], x + 38, cy_, 42, ca)
+            cv.text(ch["label"], x + 72, cy_, 44, WHITE, ca, align="l", maxw=w - 140, shadow=False)
+            c.restore()
+            land = ch["t0"] + 0.42
+            if t >= land:                                      # yellow "sorted" tick
+                r_ = 21 * WG.pop_s(t, land); mx = x + w - 34
+                if r_ > 0.5:
+                    cv.circ(mx, cy_, r_, YEL, a)
+                    cv.line([(mx - r_ * 0.45, cy_ + r_ * 0.02), (mx - r_ * 0.12, cy_ + r_ * 0.36), (mx + r_ * 0.5, cy_ - r_ * 0.34)], "#0B1730", r_ * 0.24, a)
+
     def frame(t):
         base = base_at(t)
         over = max([win(t, b["t0"] - 0.2, b["t1"], 0.3, 0.3) for b in BIG + QT + MT] +
                    ([seg(t, END_AT - 0.1, END_AT + 0.3)] if END_AT else []) + [0])
         if over > 0: base = base * (1 - 0.45 * over)
         cv = Canvas(base)
+        if BD: draw_board(cv, t)
         for p in P:                                            # credit line of the photo on screen
             ca = win(t, p["t0"], p["t1"], 0.25, 0.25)
             if ca > 0.01 and p.get("credit"):
@@ -143,9 +185,11 @@ def run(S):
                 col = STAMP_COL.get(s_.get("color", "red"), s_.get("color", RED)); sz = s_.get("size", 128) * k
                 y = s_.get("y", 1180); ang = math.radians(s_.get("angle", -9)); txt = s_["text"]
                 c = cv.c; c.save(); c.translate(540, y); c.rotate(ang); c.translate(-540, -y)
-                tw = min(cv.tw(txt, sz), 940) + 80
+                mk = s_.get("mark"); mr = sz * 0.38 if mk else 0
+                tw = min(cv.tw(txt, sz), 940 - 2.6 * mr) + 80 + 2.6 * mr
                 cv.rrect(540 - tw / 2, y - sz * 0.72, tw, sz * 1.44, 18, "#0B1730", 0.35 * sa, stroke=col, lw=10 * k, sa=sa)
-                cv.text(txt, 540, y, sz, col, sa, maxw=900, shadow=False, minsz=36)
+                cv.text(txt, 540 - 1.3 * mr, y, sz, col, sa, maxw=900 - 2.6 * mr, shadow=False, minsz=36)
+                if mk: WG.mark(cv, mk, 540 + tw / 2 - 40 - mr, y, mr, sa)
                 c.restore()
         draw_screen(cv, [c_ for c_ in cards if c_[1] > T.E(0) - 0.05], t, D.get("title_y", 300), 76)
         draw_sources(cv, S, T, t, D.get("src_y", 1488)); draw_end(cv, S, T, t)
@@ -157,6 +201,7 @@ def run(S):
     ev += [(s_["t0"], "thud", -18) for s_ in STM]
     ev += [(g["t0"], "roll", g["t0"] + 1.1) for g in BIG] + [(g["t0"] + 1.1, "ding", -26) for g in BIG]
     ev += [(q["t0"], "pop", -26) for q in QT] + [(m["t0"], "pop", -26) for m in MT]
+    if BD: ev += [(c["t0"] + 0.42, "check", -28) for c in BD["chips"]]
     aud = build_mix(S, T, work, ev)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
     encode(frame, T.END, f"{work}/mix.m4a", final, loop=True)
