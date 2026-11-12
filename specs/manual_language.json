@@ -1,0 +1,386 @@
+{
+ "id": "manual_language",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Build a country:|*resurrect* a language.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "How to build a country. Hard mode. Resurrect a dead language.",
+   "gap": 0.15
+  },
+  {
+   "say": "Step one: your people arrive from more than seventy countries.",
+   "screen": "*1.* People from *70+* countries"
+  },
+  {
+   "say": "Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Good luck with the first meeting.",
+   "screen": "Yiddish, Arabic, Ladino, Russian, Persian, Amharic..."
+  },
+  {
+   "say": "Step two: pick a language nobody has spoken as a mother tongue for about seventeen hundred years.",
+   "screen": "*2.* No native speakers for about *1,700* years"
+  },
+  {
+   "say": "Step three: one man, Eliezer Ben-Yehuda, raises his son in it.",
+   "screen": "*3.* Eliezer Ben-Yehuda raises his son in Hebrew"
+  },
+  {
+   "say": "Itamar, born eighteen eighty two. One of the first native speakers in modern times.",
+   "screen": "Itamar, *1882:* among the first native speakers"
+  },
+  {
+   "say": "Step four: no word for ice cream? Invent one.",
+   "screen": "*4.* No word? *Invent* one."
+  },
+  {
+   "say": "Dictionary. Ice cream. Doll. Omelette.",
+   "screen": "millon, glida, bubba, havita"
+  },
+  {
+   "say": "Then write the dictionary. Seventeen volumes. It takes fifty one years.",
+   "screen": "*17* volumes, *1908* to *1959*"
+  },
+  {
+   "say": "Step five: nineteen thirteen. Your new technical college plans to teach science in German.",
+   "screen": "*5.* 1913: the Technion picks *German*"
+  },
+  {
+   "say": "Teachers and students walk out. February nineteen fourteen: Hebrew wins.",
+   "screen": "Walkout. *1914:* Hebrew wins."
+  },
+  {
+   "say": "Step six: every wave of newcomers gets a Hebrew class. The ulpan. Since nineteen forty nine.",
+   "screen": "*6.* Ulpan: Hebrew class for newcomers, since *1949*"
+  },
+  {
+   "say": "Step seven: today, over nine million people speak it.",
+   "screen": "*7.* Today: *9 million+* speakers"
+  },
+  {
+   "say": "Linguists call it the most successful language revival in history.",
+   "screen": "The most successful language revival in history"
+  },
+  {
+   "say": "So if a country can learn a dead language, you can learn a living one.",
+   "gap": 0.3
+  },
+  {
+   "say": "Now. How do you build a country?"
+  }
+ ],
+ "data": {
+  "cut": 0.25,
+  "hook_y": 880,
+  "photos": [
+   {
+    "file": "templates/photos/manual_language/imm.jpg",
+    "at": 0.0,
+    "dim": 0.35,
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "credit": "Unknown photographer, public domain, PikiWiki Israel"
+   },
+   {
+    "file": "templates/photos/manual_language/ramon.jpg",
+    "at": "L2-0.1",
+    "dim": 0.3,
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.55,
+     1.15
+    ],
+    "credit": "Craig Talbert, CC BY 2.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_language/bypage.jpg",
+    "at": "L3-0.1",
+    "dim": 0.45,
+    "kb": [
+     0.5,
+     0.3,
+     1.1,
+     0.5,
+     0.6,
+     1.35
+    ],
+    "credit": "Ben-Yehuda dictionary, 1908, public domain",
+    "gray": true
+   },
+   {
+    "file": "templates/photos/manual_language/desk.jpg",
+    "at": "L4-0.1",
+    "dim": 0.25,
+    "kb": [
+     0.42,
+     0.5,
+     1.0,
+     0.45,
+     0.45,
+     1.15
+    ],
+    "credit": "Shlomo Narinsky, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_language/itamar.jpg",
+    "at": "L5-0.1",
+    "dim": 0.3,
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "credit": "GPO Israel, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_language/committee.jpg",
+    "at": "L6-0.1",
+    "dim": 0.3,
+    "kb": [
+     0.4,
+     0.6,
+     1.0,
+     0.35,
+     0.6,
+     1.15
+    ],
+    "credit": "Ya'ackov Ben-Dov, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_language/bypage.jpg",
+    "at": "L8-0.1",
+    "dim": 0.4,
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "credit": "Ben-Yehuda dictionary, 1908, public domain"
+   },
+   {
+    "file": "templates/photos/manual_language/tech.jpg",
+    "at": "L9-0.1",
+    "dim": 0.3,
+    "kb": [
+     0.5,
+     0.55,
+     1.15,
+     0.55,
+     0.55,
+     1.3
+    ],
+    "credit": "Matson Collection, Library of Congress, public domain"
+   },
+   {
+    "file": "templates/photos/manual_language/ulpan2.jpg",
+    "at": "L11-0.1",
+    "dim": 0.3,
+    "kb": [
+     0.45,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "credit": "Leni Sonnenfeld, public domain, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_language/street.jpg",
+    "at": "L12-0.1",
+    "dim": 0.3,
+    "kb": [
+     0.45,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.2
+    ],
+    "credit": "Korenn, CC BY-SA 4.0, Wikimedia Commons"
+   },
+   {
+    "file": "templates/photos/manual_language/desk.jpg",
+    "at": "L14-0.1",
+    "dim": 0.35,
+    "kb": [
+     0.45,
+     0.45,
+     1.15,
+     0.42,
+     0.5,
+     1.0
+    ],
+    "credit": "Shlomo Narinsky, public domain, Wikimedia Commons",
+    "gray": true
+   },
+   {
+    "file": "templates/photos/manual_language/imm.jpg",
+    "at": "L15-0.1",
+    "dim": 0.35,
+    "kb": [
+     0.5,
+     0.4,
+     1.12,
+     0.5,
+     0.45,
+     1.0
+    ],
+    "credit": "Unknown photographer, public domain, PikiWiki Israel"
+   }
+  ],
+  "big": [
+   {
+    "at": "L1:seventy",
+    "until": "L2-0.1",
+    "value": 70,
+    "from": 1,
+    "suffix": "+",
+    "sub": "countries of origin",
+    "y": 1000
+   },
+   {
+    "at": "L3:seventeen",
+    "until": "L4-0.1",
+    "value": 1700,
+    "from": 100,
+    "sub": "years with no native speakers",
+    "y": 1000
+   },
+   {
+    "at": "L8:seventeen",
+    "until": "L9-0.1",
+    "value": 17,
+    "from": 1,
+    "sub": "volumes, 51 years",
+    "y": 1000
+   },
+   {
+    "at": "L12:nine",
+    "until": "L13-0.1",
+    "value": 9,
+    "from": 0,
+    "suffix": "M+",
+    "sub": "people speak Hebrew today",
+    "y": 1000
+   }
+  ],
+  "stamp": [
+   {
+    "at": "L3:mother",
+    "until": "L4-0.1",
+    "text": "DEAD?",
+    "color": "red",
+    "y": 1320,
+    "angle": -6
+   },
+   {
+    "at": "L10:hebrew",
+    "until": "L11-0.1",
+    "text": "HEBREW",
+    "color": "green",
+    "y": 1150,
+    "angle": -6
+   },
+   {
+    "at": "L13:most",
+    "until": "L14-0.1",
+    "text": "REVIVED",
+    "color": "green",
+    "y": 1150,
+    "angle": -6
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Jewish Virtual Library: immigrants 1948 to 2011",
+   "year": 2011,
+   "at": "L1",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Kutscher, via Academy of the Hebrew Language",
+   "year": 1982,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Academy of the Hebrew Language, UNESCO file",
+   "year": 2026,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Academy of the Hebrew Language",
+   "year": 2026,
+   "at": "L6",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "Encyclopaedia Judaica: Language War",
+   "year": 2007,
+   "at": "L9",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "Jewish Agency: Ulpan Etzion, since 1949",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "Israel CBS survey; National Geographic",
+   "year": 2023,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "Grenoble and Whaley, Saving Languages",
+   "year": 2005,
+   "at": "L13",
+   "until": "L14-0.1"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "He didn't do it alone: *teachers, parents, kids* did.",
+  "cta": "Send this to someone learning a language"
+ },
+ "caption_en": "How to build a country. Hard mode. This time: resurrect a dead language. 📘\n\n1. Your people arrive from 70+ countries (3.09M immigrants 1948 to 2011, Jewish Virtual Library).\n2. Pick a language with no native speakers for about 1,700 years (spoken Hebrew died out around 200 CE: Kutscher, Academy of the Hebrew Language).\n3. Eliezer Ben-Yehuda raises his son Itamar Ben-Avi (born 1882) in Hebrew, one of its first native speakers in modern times.\n4. Invent words: millon (dictionary), glida (ice cream), bubba (doll), havita (omelette). His dictionary: 17 volumes, 1908 to 1959 (Academy of the Hebrew Language).\n5. 1913: the Technikum in Haifa plans science classes in German. Teachers and students walk out. Feb 1914: Hebrew wins (Encyclopaedia Judaica).\n6. Ulpan Hebrew classes for newcomers, since 1949 (Jewish Agency).\n7. Today: over 9 million speakers (Israel CBS 2023 survey; National Geographic 2023). The most successful language revival in history (Grenoble and Whaley, 2005).\n\nHe didn't do it alone: teachers, parents and kids did. And if a country can learn a dead language, you can learn a living one.\n\nPhotos (Wikimedia Commons): PikiWiki Israel; Craig Talbert CC BY 2.0; Shlomo Narinsky; GPO Israel; Ya'ackov Ben-Dov; Matson Collection, LOC; Leni Sonnenfeld; Korenn CC BY-SA 4.0. AI voice.\n\nSend this to someone learning a language.",
+ "caption_he": "איך בונים מדינה, רמת קושי: קשה. הפעם: מחיים שפה מתה.\nעולים מיותר מ־70 מדינות. שפה בלי דוברי אם כ־1,700 שנה. אליעזר בן־יהודה מגדל את איתמר (1882) בעברית. מילון, גלידה, בובה, חביתה. מלחמת השפות ב־1913 בטכניון. אולפן מאז 1949. היום: יותר מ־9 מיליון דוברים.\nאם מדינה שלמה למדה שפה מתה, גם אתם יכולים ללמוד שפה חיה.",
+ "hashtags": [
+  "#Israel",
+  "#Hebrew",
+  "#history"
+ ],
+ "cover": {
+  "t": 1.6,
+  "big": "1,700",
+  "text": "years dead.|Then *what?*",
+  "label": "Watch till the end",
+  "dim": 0.75
+ }
+}
