@@ -1,0 +1,688 @@
+{
+ "id": "warrior_within_full",
+ "account": "noamroz__",
+ "template": "story_climb_full",
+ "hook": "The Warrior Within",
+ "duration": 427.17,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/warrior_within_full.mp4",
+  "cover": "covers/warrior_within_full_cover.jpg",
+  "preview": "previews/warrior_within_full_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/warrior_within_full_0.jpg",
+  "1": "out/frames/warrior_within_full_1.jpg",
+  "3": "out/frames/warrior_within_full_3.jpg",
+  "last": "out/frames/warrior_within_full_last.jpg"
+ },
+ "caption_en": "The Warrior Within, full story 🧗‍♀️\n\nFrozen on a rock wall, 20 meters above ground. Five years old and learning to stay silent. At 26, a diagnosis: Borderline Personality Disorder. And then, a decision.\n\n\"A diagnosis can explain. It doesn't get to decide who you become.\"\n\nHer story, her words: Anna Os.\n\nHer story. Medication decisions belong with your doctor.\n\nIf this touches something in you: ERAN emotional first aid, call 1201 (Israel), 24/7.\n\nAnimated, read by an AI voice from her own words.",
+ "caption_he": "הלוחמת שבפנים, הסיפור המלא\nהסיפור שלה, המילים שלה: Anna Os.\nהחלטות על תרופות: רק יחד עם הרופא שלך.\nאם זה נוגע בך: ער\"ן, עזרה ראשונה נפשית, 1201.",
+ "hashtags": [
+  "#MentalHealth",
+  "#Resilience",
+  "#Courage"
+ ],
+ "sources": [],
+ "transcript": {
+  "score": 0.993,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "You're standing there.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're nine years old, and suddenly a movie starts playing in front of your eyes, like strips of film.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Another one, another one, another one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fragments of memories spinning around you like a tornado you simply cannot escape.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And then it stops.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're on the ground.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You see pictures on the wall, the piano beside your head, the staircase leading down, even the color of the walls.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You remember every detail except what actually happened to you.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're frozen in a moment that somehow never ended.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And then you open your eyes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're 20 meters above ground.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nothing but a harness, a rope, and another human being somewhere down there whom you're supposed to trust your life with.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You try to breathe, to move, to come back to reality, but you can't.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "40 minutes pass.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're crying, you're terrified, and that freezing feeling just won't end.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Too scared to commit to the next move, too scared to even let go.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And that's when you realize something: you cannot stay there forever.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not on a rock, and not inside those memories.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So you reach for the next hold.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You really try, and you fall.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You fail, and this time it hurts more than usual, physically but mentally as well.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And somehow, something inside you softens, as it happens again and again, dozens of times, until you begin to recognize the pattern, anticipate it, learn how to",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And slowly the shame begins to disappear.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You start feeling proud, as though those movies inside your head are finally becoming a little afraid of you.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But then another earthquake, because life loves to surprise us, doesn't it?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're five years old.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're on the ground again, a belt striking your body.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You don't understand why, you don't know how to make it stop, so you learn to be quiet, to swallow everything, to survive without making a sound.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And years later, that silence follows you into the world.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're terrified of judgment, terrified of failure, yet somehow you're willing to take enormous risks just to prove you're enough.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sometimes you push too hard, sometimes you get hurt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Because for most of your life you felt different, too emotional, too intense, or just too much.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And finally, at 26, you receive the diagnosis you feared the most: Borderline Personality Disorder.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Suddenly all those contradictions have a name: the fear, the intensity, the chaos.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And one day you're standing in line at the pharmacy, waiting for the three different kinds of meds you take every day just to feel like what you imagine a norma",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And you wonder: what a wonderful world.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But do I even feel it anymore?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then you notice those little plastic pill organizers, the ones with compartments for every day of the week, and suddenly you imagine your entire future fitting ",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And that feeling reminds you of something: another mountain, another day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're hiking towards the summit, completely exhausted, dehydrated, carrying all the anger of the day inside you.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every step feels impossible, but you keep going, faster than you're supposed to.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And finally you reach the top.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "I made it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You sit down, and for one beautiful second you believe it's over.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And then you look ahead: another peak, and another one, and another, and something inside you breaks.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "How many mountains do you have to climb?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "How many times do you have to fight just to feel like you're finally there?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And then you break: a psychotic break, the first one in a very long time.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Well, apparently reaching the summit wasn't enough.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're exhausted, not just from the mountain, but from life itself.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And standing there in that pharmacy, staring at those little plastic boxes, you remember exactly how that felt: another mountain, another battle, another summit",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So you go home and you research and research until you come across a number: 5 percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A number that makes you stop.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You read it as though it means only 5 percent of people like you might someday live without medication.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And suddenly you're furious at the possibility this could be your future, and the thought that your entire life might already have been decided by a diagnosis.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But then you realize something: a diagnosis can explain what you've been struggling to be.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It doesn't get to decide who you become.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And I decided to be one of those 5 percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And somehow the silence you learned to keep for most of your life becomes the very thing you refuse to accept.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "You find your voice and you start using it to tell your story, to reach people, to make someone else feel a little less alone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And you're not ashamed anymore.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're proud.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And here you are again, 20 meters above ground, but this time you look around.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You see the mountains, the valleys, the endless beauty of the world beneath you.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You breathe and feel small, and for a moment the movies finally stop.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "There is no past to escape, no future to fear.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Just you holding on to the rock, anticipating the next move, believing that if you made it this far, maybe you can make it a little further.",
+    "score": 0.926,
+    "flag": "ok"
+   },
+   {
+    "line": "And every time you come down, whether you reach the top or not, something inside you feels quieter and happier.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Regardless of the result, little by little you carry that quietness into daily life.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You learn that falling doesn't mean failing, that asking for help isn't a weakness, it's strength.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That being afraid doesn't mean you cannot move.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sometimes it means something inside you is finally moving too.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And that little girl who once learned to survive in silence deserves so much more than survival.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "For years I felt like two different people living inside the same body.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One was terrified of life, the other desperately wanted to live it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And eventually I understood I have a choice: not whether to have this diagnosis, not whether the memories will return, but whether I keep running from them.",
+    "score": 0.963,
+    "flag": "ok"
+   },
+   {
+    "line": "I chose to be a warrior.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not because I stopped falling.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not because I stopped being afraid.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But because the little girl who once learned to survive by staying silent... Is standing here today.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And she's speaking.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "You're standing there. You're 9 years old, and suddenly a movie starts playing in front of your eyes like strips of film. Another one, another one, another one. Fragments of memories spinning around you like a tornado, you simply cannot escape. And then it stops. You're on the ground. You see pictures on the wall, the piano beside your head, the staircase leading down, even the color of the walls. You remember every detail except what actually happened to you. You're frozen in a moment that somehow never ended. And then you open your eyes. You're 20 meters above ground. Nothing but a harness, a rope, and another human being somewhere down there whom you're supposed to trust your life with. You try to breathe, to move, to come back to reality, but you can't. 40 minutes pass. crying, you're terrified and that freezing feeling just won't end. Too scared to commit to the next move, too scared to even let go. And that's when you realize something. You cannot stay there forever. Not on a rock and not inside those memories. So you reach for the next hold. You really try and you fall. You fail and this time it hurts more than usual physically but mentally as well. And somehow, something inside you softens as it happens again and again, dozens of times, until you begin to recognize the pattern, anticipate it, learn how to communicate it, sometimes even to complete strangers. And slowly the shame begins to disappear. You start feeling proud, as though those movies inside your head are finally becoming a little afraid of you. But then another earthquake, because life loves to surprise us, doesn't it? You're five years old. You're on the ground again, a belt striking your body. You don't understand why, you don't know how to make it stop, so you learn to be quiet, to swallow everything, to survive without making a sound. And years later, that silence follows you into the world. You're terrified of judgment, terrified of failure, yet somehow you're willing to take enormous risks just to prove you're enough. Sometimes you push too hard, sometimes you get hurt, because for most of your life you felt different, too emotional, too intense, or just too much. And finally, at 26, you received the diagnosis you feared the most, Borderline Personality Disorder. Suddenly, all those contradictions have a name, the fear, the intensity, the chaos. And one day you're standing in line at the pharmacy, waiting for the three different kinds of meds you take every day just to feel like what you imagine a normal person feels like. And you wonder, what a wonderful world, but do I even feel it anymore? Then you notice those little plastic pill organizers, the ones with compartments for every day of the week, and suddenly you imagine your entire future fitting in one of those little tiny boxes. And that feeling reminds you of something, another mountain, another day. You're hiking towards the summit, completely exhausted, dehydrated, carrying all the anger of the day inside you. Every step feels impossible, but you keep going faster than you're supposed to. And finally, you reach the top. I made it. You sit down, and for one beautiful second, you believe it's over. And then you look ahead, another peak, and another one, and another. And something inside you breaks. How many mountains do you have to climb? How many times do you have to fight, just to feel like you're finally there? And then you break. A psychotic break, the first one in a very long time. Well, apparently reaching the summit wasn't enough. exhausted, not just from the mountain, but from life itself. And standing there in that pharmacy, staring at those little plastic boxes, you remember exactly how that felt. Another mountain, another battle, another summit that keeps moving further away. So you go home, and you research and research until you come across a number. Five percent. A number that makes you stop. You read it as though it means only 5% of people like you might someday live without medication. And suddenly you're furious at the possibility this could be your future, and the thought that your entire life might already have been decided by a diagnosis. But then you realize something, a diagnosis can explain what you've been struggling to be. It doesn't get to decide who you become. And I decided to be one of those five percent. And somehow the silence you learn to keep for most of your life becomes the very thing you refuse to accept. You find your voice and you start using it to tell your story, to reach people, to make someone else feel a little less alone, and you're not ashamed anymore, you're proud. And here you are again, 20 meters above ground, but this time you look around. You see the mountains, the valleys, the endless beauty of the world beneath you. You breathe and feel small, and for a moment the movies finally stop. But there is no pass to escape, no future to fear. Just you holding onto the rock, anticipating the next move, believing that if you made it this far, maybe you can make it a little further. And every time you come down, whether you reach the top or not, something inside you feels quieter and happier. Regardless of the result, little by little you carry that quietness into daily life. You learn that falling doesn't mean failing, that asking for help isn't a weakness, it's strength. That being afraid doesn't mean you cannot move. it means something inside you is finally moving too. And that little girl who once learned to survive in silence deserved so much more than survival. For years I felt like two different people living inside the same body. One was terrified of life, the other desperately wanted to live it. And eventually I understood I had a choice. Not whether to have this diagnosis, not whether the memories will return, but whether I keep running from them. I chose to be a warrior, not because I stopped falling, not because I stopped being afraid, but because the little girl who once learned to survive by staying silent is standing here today. And she's speaking.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "scenes": [
+  {
+   "scene": "tornado",
+   "t0": 0.0
+  },
+  {
+   "scene": "strips",
+   "t0": 8.16
+  },
+  {
+   "scene": "tornado",
+   "t0": 11.11
+  },
+  {
+   "scene": "room",
+   "t0": 18.89
+  },
+  {
+   "scene": "memgap",
+   "t0": 28.28
+  },
+  {
+   "scene": "eyes",
+   "t0": 35.97
+  },
+  {
+   "scene": "wall",
+   "t0": 38.05
+  },
+  {
+   "scene": "rope",
+   "t0": 40.45
+  },
+  {
+   "scene": "breathe",
+   "t0": 48.76
+  },
+  {
+   "scene": "clock",
+   "t0": 54.47
+  },
+  {
+   "scene": "stuck",
+   "t0": 61.16
+  },
+  {
+   "scene": "realize",
+   "t0": 66.25
+  },
+  {
+   "scene": "fall",
+   "t0": 74.73
+  },
+  {
+   "scene": "again",
+   "t0": 85.95
+  },
+  {
+   "scene": "pattern",
+   "t0": 92.5
+  },
+  {
+   "scene": "talk",
+   "t0": 95.7
+  },
+  {
+   "scene": "shame",
+   "t0": 99.78
+  },
+  {
+   "scene": "proud",
+   "t0": 102.49
+  },
+  {
+   "scene": "quake",
+   "t0": 108.97
+  },
+  {
+   "scene": "child",
+   "t0": 114.19
+  },
+  {
+   "scene": "follows",
+   "t0": 129.62
+  },
+  {
+   "scene": "judged",
+   "t0": 132.96
+  },
+  {
+   "scene": "risks",
+   "t0": 137.4
+  },
+  {
+   "scene": "push",
+   "t0": 139.55
+  },
+  {
+   "scene": "toomuch",
+   "t0": 142.72
+  },
+  {
+   "scene": "diagnosis",
+   "t0": 148.93
+  },
+  {
+   "scene": "name",
+   "t0": 156.06
+  },
+  {
+   "scene": "pharm_meds",
+   "t0": 162.99
+  },
+  {
+   "scene": "wonderful",
+   "t0": 174.09
+  },
+  {
+   "scene": "organizer",
+   "t0": 180.59
+  },
+  {
+   "scene": "hike",
+   "t0": 193.91
+  },
+  {
+   "scene": "steps",
+   "t0": 206.54
+  },
+  {
+   "scene": "summit",
+   "t0": 212.62
+  },
+  {
+   "scene": "endless",
+   "t0": 221.27
+  },
+  {
+   "scene": "brk",
+   "t0": 236.09
+  },
+  {
+   "scene": "exhausted",
+   "t0": 241.59
+  },
+  {
+   "scene": "boxmount",
+   "t0": 249.36
+  },
+  {
+   "scene": "research",
+   "t0": 261.75
+  },
+  {
+   "scene": "five",
+   "t0": 266.12
+  },
+  {
+   "scene": "furious",
+   "t0": 277.79
+  },
+  {
+   "scene": "explain",
+   "t0": 288.22
+  },
+  {
+   "scene": "five",
+   "t0": 297.59
+  },
+  {
+   "scene": "unmute",
+   "t0": 301.34
+  },
+  {
+   "scene": "voice",
+   "t0": 308.72
+  },
+  {
+   "scene": "stage",
+   "t0": 318.0
+  },
+  {
+   "scene": "wall_again",
+   "t0": 322.06
+  },
+  {
+   "scene": "view",
+   "t0": 328.29
+  },
+  {
+   "scene": "now",
+   "t0": 339.93
+  },
+  {
+   "scene": "next",
+   "t0": 343.94
+  },
+  {
+   "scene": "lower",
+   "t0": 353.49
+  },
+  {
+   "scene": "daily",
+   "t0": 359.67
+  },
+  {
+   "scene": "help",
+   "t0": 365.45
+  },
+  {
+   "scene": "afraid",
+   "t0": 371.4
+  },
+  {
+   "scene": "girl_light",
+   "t0": 379.61
+  },
+  {
+   "scene": "two",
+   "t0": 386.53
+  },
+  {
+   "scene": "choice",
+   "t0": 396.16
+  },
+  {
+   "scene": "warrior",
+   "t0": 406.16
+  },
+  {
+   "scene": "together",
+   "t0": 412.89
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number",
+  "no sources"
+ ],
+ "render_s": 729.8
+}
