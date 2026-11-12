@@ -263,7 +263,7 @@ def run(S):
         fr_ = frame(A(CV["inset_at"])).astype(np.float32)
         bg = cv2.GaussianBlur(fr_, (0, 0), 22) * 0.38
         y0, y1 = CV.get("inset_crop", [100, 1540]); crop = fr_[y0:y1]; sc = CV.get("inset_scale", 0.6)
-        crop = np.clip(cv2.resize(crop, (int(W * sc), int((y1 - y0) * sc)), interpolation=cv2.INTER_AREA) * CV.get("inset_gain", 1.35), 0, 255); h_, w_ = crop.shape[:2]
+        crop = np.clip(cv2.resize(crop, (int(W * sc), int((y1 - y0) * sc)), interpolation=cv2.INTER_AREA) / 255.0, 0, 1) ** CV.get("inset_gamma", 0.8) * 255; h_, w_ = crop.shape[:2]
         cy0 = int(CV.get("inset_y", 1230) - h_ / 2); cx0 = (W - w_) // 2; m = round_mask(w_, h_, 30)
         bg[cy0:cy0 + h_, cx0:cx0 + w_] = bg[cy0:cy0 + h_, cx0:cx0 + w_] * (1 - m) + crop * m
         cv = Canvas(bg); cv.rrect(cx0, cy0, w_, h_, 30, None, 1, stroke=SKY, lw=5, sa=0.95)
