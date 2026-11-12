@@ -1,0 +1,190 @@
+{
+ "id": "warrior_within",
+ "account": "noamroz__",
+ "template": "story_climb",
+ "hook": "*20* meters up.|Frozen.",
+ "duration": 67.53,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/warrior_within.mp4",
+  "cover": "covers/warrior_within_cover.jpg",
+  "preview": "previews/warrior_within_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/warrior_within_0.jpg",
+  "1": "out/frames/warrior_within_1.jpg",
+  "3": "out/frames/warrior_within_3.jpg",
+  "last": "out/frames/warrior_within_last.jpg"
+ },
+ "caption_en": "The Warrior Within 🧗‍♀️\n\nFrozen on a rock wall, 20 meters above ground. Five years old and learning to stay silent. At 26, a diagnosis: Borderline Personality Disorder. And then, a decision.\n\n\"A diagnosis can explain. It doesn't get to decide who you become.\"\n\nHer story, her words: Anna Os.\n\nHer story. Medication decisions belong with your doctor.\n\nIf this touches something in you: ERAN emotional first aid, call 1201 (Israel), 24/7.\n\nAnimated, read by an AI voice from her own words.",
+ "caption_he": "הלוחמת שבפנים\nקפאה על קיר טיפוס, 20 מטר מעל הקרקע. בגיל חמש למדה לשתוק. בגיל 26 קיבלה אבחנה. והיום היא מדברת.\nהסיפור שלה, המילים שלה: Anna Os.\nהחלטות על תרופות: רק יחד עם הרופא שלך.\nאם זה נוגע בך: ער\"ן, עזרה ראשונה נפשית, 1201.",
+ "hashtags": [
+  "#MentalHealth",
+  "#Resilience",
+  "#Courage"
+ ],
+ "sources": [],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "You're standing there. Nine years old. Memories spinning around you like a tornado.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You open your eyes. You're 20 meters above ground.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "40 minutes pass.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You cannot stay there forever. Not on a rock, not inside those memories.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You reach for the next hold. And you fall.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You're five years old. A belt striking your body.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So you learn to be quiet.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At 26, the diagnosis you feared most: Borderline Personality Disorder.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At the pharmacy, you imagine your entire future in those tiny pill boxes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The summit. Then: another peak, and another.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A psychotic break.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then you find a number: 5 percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A diagnosis can explain. It doesn't get to decide who you become.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And I decided to be one of those 5 percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You find your voice.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "20 meters up again. You look around.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Falling doesn't mean failing. Asking for help isn't a weakness, it's strength.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "I chose to be a warrior. Not because I stopped falling, or being afraid.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But because the little girl who survived by staying silent is standing here today.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And she's speaking.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "You're standing there. Nine years old. Memories spinning around you like a tornado. You open your eyes. You're 20 meters above ground. 40 minutes pass. You cannot stay there forever. Not on a rock, not inside those memories. You reach for the next hold. And you fall. You're five years old. A belt striking your body. So you learn to be quiet. At 26, the diagnosis you feared most. Borderline Personality Disorder. At the pharmacy, you imagine your entire future in those tiny pill boxes. The summit. Then another peak and another. The psychotic break. Then you find a number, 5%. A diagnosis can explain. It doesn't get to decide who you become. And I decided to be one of those 5%. You find your voice. 20 meters up again. You look around. Falling doesn't mean failing. Asking for help isn't a weakness, it's strength. I chose to be a warrior. Not because I stopped falling or being afraid, but because the little girl who survived by staying silent is standing here today. And she's speaking.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "scenes": [
+  {
+   "scene": "tornado",
+   "t0": 0.0
+  },
+  {
+   "scene": "wall",
+   "t0": 6.39
+  },
+  {
+   "scene": "fall",
+   "t0": 16.94
+  },
+  {
+   "scene": "child",
+   "t0": 19.78
+  },
+  {
+   "scene": "pharmacy",
+   "t0": 24.98
+  },
+  {
+   "scene": "peaks",
+   "t0": 34.61
+  },
+  {
+   "scene": "five",
+   "t0": 39.37
+  },
+  {
+   "scene": "voice",
+   "t0": 48.35
+  },
+  {
+   "scene": "view",
+   "t0": 49.69
+  },
+  {
+   "scene": "together",
+   "t0": 56.75
+  }
+ ],
+ "lint_warnings": [
+  "no sources"
+ ],
+ "render_s": 89.6
+}
