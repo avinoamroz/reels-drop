@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.977,
+  "score": 0.983,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -97,7 +97,7 @@
    },
    {
     "line": "ISIS, extremists using the same faith, blew up Palmyra's two thousand year old Temple of Bel.",
-    "score": 0.938,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -161,7 +161,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Three faiths. Two choices. Same faith. Build or destroy. The UAE, a Muslim country, put a probe in orbit around Mars in 2021. ISIS, extremists using the same faith, blew up Palmyra's 2,000-year-old Temple of Bell. Same faith. Opposite choices. Norway, a mostly Christian country, ranks second in the world in human development. In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least 60,000 children. Israel, the Jewish state, is number one in the world in research spending. In 1994, a Jewish extremist from the Kach movement murdered 29 Muslim worshippers in Hebron. Within three weeks, Israel's government outlawed cash as a terror group. Builders invest in schools, companies, medicine and tech. Destroyers invest in weapons. Norway, the UAE, and Israel are all in the world's top 30 for human development. The Lord's Resistance Army left over 100,000 dead. Every faint has builders and destroyers. The difference is the choice.",
+  "heard": "Three faiths. Two choices. Same faith. Build or destroy. The UAE, a Muslim country, put a probe in orbit around Mars in 2021. ISIS, extremists using the same faith, blew up Palmyra's 2,000-year-old temple of Bel. Same faith. Opposite choices. Norway, a mostly Christian country, ranks second in the world in human development. In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least 60,000 children. Israel, the Jewish state, is number one in the world in research spending. In 1994, a Jewish extremist from the Kach movement murdered 29 Muslim worshippers in Hebron. Within three weeks, Israel's government outlawed cash as a terror group. Builders invest in schools, companies, medicine and tech. Destroyers invest in weapons. Norway, the UAE, and Israel are all in the world's top 30 for human development. The Lord's Resistance Army left over 100,000 dead. Every faint has builders and destroyers. The difference is the choice.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -177,5 +177,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 237.4
+ "render_s": 176.0
 }
