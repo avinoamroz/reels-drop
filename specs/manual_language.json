@@ -45,11 +45,11 @@
    "screen": "millon, glida, bubba, havita"
   },
   {
-   "say": "Then write the dictionary. Seventeen volumes. It takes fifty one years.",
+   "say": "Then the dictionary. Seventeen volumes. Fifty one years.",
    "screen": "*17* volumes, *1908* to *1959*"
   },
   {
-   "say": "Step five: nineteen thirteen. Your new technical college plans to teach science in German.",
+   "say": "Step five: nineteen thirteen. Your technical college plans to teach science in German.",
    "screen": "*5.* 1913: the Technion picks *German*"
   },
   {
@@ -57,7 +57,7 @@
    "screen": "Walkout. *1914:* Hebrew wins."
   },
   {
-   "say": "Step six: every wave of newcomers gets a Hebrew class. The ulpan. Since nineteen forty nine.",
+   "say": "Step six: Hebrew class for every wave of newcomers. The ulpan, since nineteen forty nine.",
    "screen": "*6.* Ulpan: Hebrew class for newcomers, since *1949*"
   },
   {
@@ -69,7 +69,7 @@
    "screen": "The most successful language revival in history"
   },
   {
-   "say": "So if a country can learn a dead language, you can learn a living one.",
+   "say": "If a country can learn a dead language, you can learn a living one.",
    "gap": 0.3
   },
   {
@@ -367,7 +367,7 @@
  "end": {
   "at": "L14",
   "balance": "He didn't do it alone: *teachers, parents, kids* did.",
-  "cta": "Send this to someone learning a language"
+  "cta": "Send this to a language learner"
  },
  "caption_en": "How to build a country. Hard mode. This time: resurrect a dead language. 📘\n\n1. Your people arrive from 70+ countries (3.09M immigrants 1948 to 2011, Jewish Virtual Library).\n2. Pick a language with no native speakers for about 1,700 years (spoken Hebrew died out around 200 CE: Kutscher, Academy of the Hebrew Language).\n3. Eliezer Ben-Yehuda raises his son Itamar Ben-Avi (born 1882) in Hebrew, one of its first native speakers in modern times.\n4. Invent words: millon (dictionary), glida (ice cream), bubba (doll), havita (omelette). His dictionary: 17 volumes, 1908 to 1959 (Academy of the Hebrew Language).\n5. 1913: the Technikum in Haifa plans science classes in German. Teachers and students walk out. Feb 1914: Hebrew wins (Encyclopaedia Judaica).\n6. Ulpan Hebrew classes for newcomers, since 1949 (Jewish Agency).\n7. Today: over 9 million speakers (Israel CBS 2023 survey; National Geographic 2023). The most successful language revival in history (Grenoble and Whaley, 2005).\n\nHe didn't do it alone: teachers, parents and kids did. And if a country can learn a dead language, you can learn a living one.\n\nPhotos (Wikimedia Commons): PikiWiki Israel; Craig Talbert CC BY 2.0; Shlomo Narinsky; GPO Israel; Ya'ackov Ben-Dov; Matson Collection, LOC; Leni Sonnenfeld; Korenn CC BY-SA 4.0. AI voice.\n\nSend this to someone learning a language.",
  "caption_he": "איך בונים מדינה, רמת קושי: קשה. הפעם: מחיים שפה מתה.\nעולים מיותר מ־70 מדינות. שפה בלי דוברי אם כ־1,700 שנה. אליעזר בן־יהודה מגדל את איתמר (1882) בעברית. מילון, גלידה, בובה, חביתה. מלחמת השפות ב־1913 בטכניון. אולפן מאז 1949. היום: יותר מ־9 מיליון דוברים.\nאם מדינה שלמה למדה שפה מתה, גם אתם יכולים ללמוד שפה חיה.",
