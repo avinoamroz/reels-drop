@@ -34,25 +34,29 @@
    "gap": 0.35
   },
   {
-   "say": "The United Nations definition: force or fear, to remove a group from an area.",
-   "gap": 0.2,
+   "say": "The United Nations definition:",
+   "gap": 0.15,
    "screen": "The *United Nations* definition",
    "at": "L1",
-   "until": "L2-0.05"
+   "until": "L3-0.05"
+  },
+  {
+   "say": "force or fear, to remove a group from an area.",
+   "gap": 0.2
   },
   {
    "say": "A crime against humanity, or genocide.",
    "gap": 0.35,
    "screen": "A *crime against humanity,* or *genocide*",
-   "at": "L2",
-   "until": "L3-0.05"
+   "at": "L3",
+   "until": "L4-0.05"
   },
   {
    "say": "Cleansing, but not ethnic:",
    "gap": 0.15,
    "screen": "*Cleansing,* but not ethnic",
-   "at": "L3",
-   "until": "L6-0.05"
+   "at": "L4",
+   "until": "L7-0.05"
   },
   {
    "say": "Scrubbing a rubber duck.",
@@ -66,65 +70,85 @@
    "say": "Ethnic, but not cleansing: falafel.",
    "gap": 0.4,
    "screen": "*Ethnic,* but not cleansing",
-   "at": "L6",
-   "until": "L7-0.05"
+   "at": "L7",
+   "until": "L8-0.05"
   },
   {
    "say": "Nazi Germany deported Jews by train and murdered six million.",
    "gap": 0.2,
    "screen": "Nazi Germany, *1941 to 1945*",
-   "at": "L7",
-   "until": "L9-0.05"
+   "at": "L8",
+   "until": "L10-0.05"
   },
   {
    "say": "Worse than ethnic cleansing: genocide.",
    "gap": 0.4
   },
   {
-   "say": "Myanmar, twenty seventeen: over seven hundred thousand Rohingya driven out.",
-   "gap": 0.2,
+   "say": "Myanmar, twenty seventeen:",
+   "gap": 0.15,
    "screen": "Myanmar, *2017*",
-   "at": "L9",
-   "until": "L11-0.05"
+   "at": "L10",
+   "until": "L14-0.05"
   },
   {
-   "say": "The UN rights chief: a textbook example of ethnic cleansing.",
+   "say": "over seven hundred thousand Rohingya driven out.",
+   "gap": 0.2
+  },
+  {
+   "say": "The UN rights chief:",
+   "gap": 0.15
+  },
+  {
+   "say": "a textbook example of ethnic cleansing.",
    "gap": 0.4
   },
   {
-   "say": "Sudan, twenty twenty three: Human Rights Watch says the Masalit were ethnically cleansed.",
-   "gap": 0.4,
+   "say": "Sudan, twenty twenty three:",
+   "gap": 0.15,
    "screen": "West Darfur, Sudan, *2023*",
-   "at": "L11",
-   "until": "L12-0.05"
+   "at": "L14",
+   "until": "L16-0.05"
+  },
+  {
+   "say": "Human Rights Watch says the Masalit were ethnically cleansed.",
+   "gap": 0.4
   },
   {
    "say": "Israel fights <<h|ɑ|ˈ|m|ɑ|s>> in Gaza, and warned civilians:",
    "gap": 0.15,
    "screen": "Israel vs *HAMAS* in Gaza",
-   "at": "L12",
-   "until": "L13-0.05"
+   "at": "L16",
+   "until": "L17-0.05"
   },
   {
    "say": "seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
    "gap": 0.3,
    "screen": "Warnings, *plus* evacuation routes",
-   "at": "L13",
-   "until": "L14-0.05"
+   "at": "L17",
+   "until": "L18-0.05"
   },
   {
-   "say": "That's war. Sad and terrible. Not ethnic cleansing.",
-   "gap": 0.4,
+   "say": "That's war.",
+   "gap": 0.15,
    "screen": "*War.* Sad and terrible.",
-   "at": "L14",
-   "until": "L15-0.05"
+   "at": "L18",
+   "until": "L21-0.05"
+  },
+  {
+   "say": "Sad and terrible.",
+   "gap": 0.15
+  },
+  {
+   "say": "Not ethnic cleansing.",
+   "gap": 0.4
   },
   {
    "say": "Critics call the evacuations forced displacement.",
    "gap": 0.2,
    "screen": "Critics: *forced displacement*",
-   "at": "L15",
-   "until": "L16-0.05",
+   "at": "L21",
+   "until": "L22-0.05",
    "screen_y": 640,
    "screen_size": 84
   },
@@ -132,8 +156,8 @@
    "say": "Israel says they're temporary, for safety.",
    "gap": 0.2,
    "screen": "Israel: *temporary,* for safety",
-   "at": "L16",
-   "until": "L17-0.05",
+   "at": "L22",
+   "until": "L23-0.05",
    "screen_y": 640,
    "screen_size": 84
   },
@@ -141,17 +165,21 @@
    "say": "Judge it by the definition.",
    "gap": 0.4,
    "screen": "Judge it by *the definition.*",
-   "at": "L17",
-   "until": "L18-0.05",
+   "at": "L23",
+   "until": "L24-0.05",
    "screen_y": 640,
    "screen_size": 96
   },
   {
-   "say": "October seventh: <<h|ɑ|ˈ|m|ɑ|s>> killed about twelve hundred people, mostly civilians.",
-   "gap": 0.2,
+   "say": "October seventh:",
+   "gap": 0.15,
    "screen": "*7 October* 2023",
-   "at": "L18",
-   "until": "L21-0.05"
+   "at": "L24",
+   "until": "L28-0.05"
+  },
+  {
+   "say": "<<h|ɑ|ˈ|m|ɑ|s>> killed about twelve hundred people, mostly civilians.",
+   "gap": 0.2
   },
   {
    "say": "Its charter quotes a call to kill Jews.",
@@ -164,7 +192,7 @@
   {
    "say": "Next time someone shouts ethnic cleansing, ask what it means.",
    "screen": "Next time someone shouts *ethnic cleansing,* ask what it means.",
-   "at": "L21",
+   "at": "L28",
    "until": "END-0.3",
    "screen_y": 640,
    "screen_size": 84
@@ -182,7 +210,7 @@
    {
     "file": "templates/photos/ethnic_cleansing_v3/un.jpg",
     "at": "L1-0.1",
-    "until": "L3-0.05",
+    "until": "L4-0.05",
     "dim": 0.3,
     "kb": [
      0.5,
@@ -196,7 +224,7 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v2/duck.jpg",
-    "at": "L3-0.05",
+    "at": "L4-0.05",
     "dim": 0.12,
     "kb": [
      0.5,
@@ -210,7 +238,7 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v2/shirt.jpg",
-    "at": "L5-0.05",
+    "at": "L6-0.05",
     "dim": 0.12,
     "kb": [
      0.55,
@@ -224,8 +252,8 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v2/falafel.jpg",
-    "at": "L6-0.05",
-    "until": "L7-0.05",
+    "at": "L7-0.05",
+    "until": "L8-0.05",
     "dim": 0.12,
     "kb": [
      0.45,
@@ -239,8 +267,8 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v3/train.jpg",
-    "at": "L7-0.05",
-    "until": "L9-0.05",
+    "at": "L8-0.05",
+    "until": "L10-0.05",
     "dim": 0.3,
     "kb": [
      0.5,
@@ -254,8 +282,8 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v3/rohingya.jpg",
-    "at": "L9-0.05",
-    "until": "L11-0.05",
+    "at": "L10-0.05",
+    "until": "L14-0.05",
     "dim": 0.25,
     "kb": [
      0.45,
@@ -269,8 +297,8 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v3/leaflet.jpg",
-    "at": "L12-0.05",
-    "until": "L15-0.05",
+    "at": "L16-0.05",
+    "until": "L21-0.05",
     "dim": 0.2,
     "kb": [
      0.6,
@@ -284,8 +312,8 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v3/un.jpg",
-    "at": "L17-0.05",
-    "until": "L18-0.05",
+    "at": "L23-0.05",
+    "until": "L24-0.05",
     "dim": 0.45,
     "kb": [
      0.5,
@@ -299,8 +327,8 @@
    },
    {
     "file": "templates/photos/ethnic_cleansing_v3/kfar_aza.jpg",
-    "at": "L18-0.05",
-    "until": "L21-0.05",
+    "at": "L24-0.05",
+    "until": "L28-0.05",
     "dim": 0.3,
     "kb": [
      0.4,
@@ -315,27 +343,7 @@
   ],
   "stamp": [
    {
-    "at": "L3:cleansing",
-    "until": "L5-0.05",
-    "text": "CLEANSING",
-    "mark": "Y",
-    "color": "green",
-    "y": 680,
-    "angle": -6,
-    "size": 84
-   },
-   {
-    "at": "L3:ethnic",
-    "until": "L5-0.05",
-    "text": "ETHNIC",
-    "mark": "N",
-    "color": "red",
-    "y": 900,
-    "angle": 4,
-    "size": 84
-   },
-   {
-    "at": "L5:washing",
+    "at": "L4:cleansing",
     "until": "L6-0.05",
     "text": "CLEANSING",
     "mark": "Y",
@@ -345,7 +353,7 @@
     "size": 84
    },
    {
-    "at": "L5:shirt",
+    "at": "L4:ethnic",
     "until": "L6-0.05",
     "text": "ETHNIC",
     "mark": "N",
@@ -355,8 +363,28 @@
     "size": 84
    },
    {
-    "at": "L6:ethnic",
+    "at": "L6:washing",
     "until": "L7-0.05",
+    "text": "CLEANSING",
+    "mark": "Y",
+    "color": "green",
+    "y": 680,
+    "angle": -6,
+    "size": 84
+   },
+   {
+    "at": "L6:shirt",
+    "until": "L7-0.05",
+    "text": "ETHNIC",
+    "mark": "N",
+    "color": "red",
+    "y": 900,
+    "angle": 4,
+    "size": 84
+   },
+   {
+    "at": "L7:ethnic",
+    "until": "L8-0.05",
     "text": "ETHNIC",
     "mark": "Y",
     "color": "green",
@@ -365,8 +393,8 @@
     "size": 84
    },
    {
-    "at": "L6:cleansing",
-    "until": "L7-0.05",
+    "at": "L7:cleansing",
+    "until": "L8-0.05",
     "text": "CLEANSING",
     "mark": "N",
     "color": "red",
@@ -375,8 +403,8 @@
     "size": 84
    },
    {
-    "at": "L8:genocide",
-    "until": "L9-0.05",
+    "at": "L9:genocide",
+    "until": "L10-0.05",
     "text": "GENOCIDE",
     "color": "red",
     "y": 800,
@@ -384,8 +412,8 @@
     "size": 112
    },
    {
-    "at": "L14:not",
-    "until": "L15-0.05",
+    "at": "L20:not",
+    "until": "L21-0.05",
     "text": "NOT ETHNIC CLEANSING",
     "color": "sky",
     "y": 820,
@@ -393,8 +421,8 @@
     "size": 72
    },
    {
-    "at": "L20:targeting",
-    "until": "L21-0.05",
+    "at": "L27:targeting",
+    "until": "L28-0.05",
     "text": "TARGETED FOR WHO THEY ARE",
     "color": "red",
     "y": 820,
@@ -404,8 +432,8 @@
   ],
   "big": [
    {
-    "at": "L7:six",
-    "until": "L8:genocide-0.1",
+    "at": "L8:six",
+    "until": "L9:genocide-0.1",
     "value": 6000000,
     "from": 1000,
     "sub": "Jews murdered",
@@ -413,8 +441,8 @@
     "size": 150
    },
    {
-    "at": "L9:seven",
-    "until": "L10-0.05",
+    "at": "L11:over",
+    "until": "L12-0.05",
     "value": 700000,
     "from": 1000,
     "suffix": "+",
@@ -423,8 +451,8 @@
     "size": 150
    },
    {
-    "at": "L13:seven",
-    "until": "L13:thirteen-0.1",
+    "at": "L17:seven",
+    "until": "L17:thirteen-0.1",
     "value": 7.2,
     "dec": 1,
     "suffix": "M",
@@ -432,8 +460,8 @@
     "y": 800
    },
    {
-    "at": "L13:thirteen",
-    "until": "L13:fifteen-0.1",
+    "at": "L17:thirteen",
+    "until": "L17:fifteen-0.1",
     "value": 13.7,
     "dec": 1,
     "suffix": "M",
@@ -441,16 +469,16 @@
     "y": 800
    },
    {
-    "at": "L13:fifteen",
-    "until": "L14-0.05",
+    "at": "L17:fifteen",
+    "until": "L18-0.05",
     "value": 15,
     "suffix": "M",
     "sub": "recorded calls",
     "y": 800
    },
    {
-    "at": "L18:about",
-    "until": "L19-0.05",
+    "at": "L25:about",
+    "until": "L26-0.05",
     "value": 1200,
     "prefix": "~",
     "from": 10,
@@ -460,30 +488,30 @@
   ],
   "quote": [
    {
-    "at": "L1:force",
-    "until": "L2-0.05",
+    "at": "L2:force",
+    "until": "L3-0.05",
     "text": "rendering an area ethnically homogeneous by using *force or intimidation*",
     "who": "UN Commission of Experts, S/25274, 1993",
     "y": 720,
     "size": 64
    },
    {
-    "at": "L10",
-    "until": "L11-0.05",
+    "at": "L12",
+    "until": "L14-0.05",
     "text": "The situation seems a *textbook example* of ethnic cleansing.",
     "who": "Zeid Ra'ad al-Hussein, UN rights chief, 11 Sep 2017",
     "y": 720
    },
    {
-    "at": "L11:human",
-    "until": "L12-0.05",
+    "at": "L15:human",
+    "until": "L16-0.05",
     "text": "*Ethnic Cleansing* and Crimes Against Humanity in El Geneina, West Darfur",
     "who": "Human Rights Watch report title, May 2024",
     "y": 720
    },
    {
-    "at": "L19",
-    "until": "L20:targeting-0.1",
+    "at": "L26",
+    "until": "L27:targeting-0.1",
     "text": "...until Moslems fight the Jews *(killing the Jews)*",
     "who": "HAMAS Covenant, 1988, Article 7",
     "y": 720
@@ -510,56 +538,56 @@
      "row": 0,
      "label": "Duck bath",
      "emoji": "🦆",
-     "at": "L4e-0.1"
+     "at": "L5e-0.1"
     },
     {
      "col": 0,
      "row": 1,
      "label": "T-shirt",
      "emoji": "👕",
-     "at": "L5e-0.1"
+     "at": "L6e-0.1"
     },
     {
      "col": 0,
      "row": 2,
      "label": "Falafel",
      "emoji": "🧆",
-     "at": "L6:falafel+0.1"
+     "at": "L7:falafel+0.1"
     },
     {
      "col": 1,
      "row": 0,
      "label": "Holocaust",
      "emoji": "🚂",
-     "at": "L8:genocide"
+     "at": "L9:genocide"
     },
     {
      "col": 1,
      "row": 1,
      "label": "Rohingya",
      "emoji": "🇲🇲",
-     "at": "L10:cleansing"
+     "at": "L13:cleansing"
     },
     {
      "col": 1,
      "row": 2,
      "label": "Darfur",
      "emoji": "🇸🇩",
-     "at": "L11:cleansed"
+     "at": "L15:cleansed"
     },
     {
      "col": 0,
      "row": 3,
      "label": "Gaza war",
      "emoji": "🇮🇱",
-     "at": "L14:cleansing"
+     "at": "L20:cleansing"
     },
     {
      "col": 1,
      "row": 3,
      "label": "7 October",
      "emoji": "🗓️",
-     "at": "L20:who"
+     "at": "L27:who"
     }
    ]
   }
@@ -569,48 +597,48 @@
    "label": "UN Commission of Experts, S/25274; UN Office on Genocide Prevention",
    "year": 1993,
    "at": "L1",
-   "until": "L3-0.05"
+   "until": "L4-0.05"
   },
   {
    "label": "US Holocaust Memorial Museum, Holocaust Encyclopedia",
-   "at": "L7",
-   "until": "L9-0.05"
+   "at": "L8",
+   "until": "L10-0.05"
   },
   {
    "label": "UNHCR; UN Human Rights Office, 11 Sep",
    "year": 2017,
-   "at": "L9",
-   "until": "L11-0.05"
+   "at": "L10",
+   "until": "L14-0.05"
   },
   {
    "label": "Human Rights Watch, May",
    "year": 2024,
-   "at": "L11",
-   "until": "L12-0.05"
+   "at": "L14",
+   "until": "L16-0.05"
   },
   {
    "label": "Israel Defense Forces data via Jewish Press, Jan",
    "year": 2024,
-   "at": "L12",
-   "until": "L15-0.05"
+   "at": "L16",
+   "until": "L21-0.05"
   },
   {
    "label": "UN OCHA, UN experts; Government of Israel",
    "year": 2024,
-   "at": "L15",
-   "until": "L17-0.05"
+   "at": "L21",
+   "until": "L23-0.05"
   },
   {
    "label": "Israeli figures via AP and Reuters",
    "year": 2023,
-   "at": "L18",
-   "until": "L19-0.05"
+   "at": "L24",
+   "until": "L26-0.05"
   },
   {
    "label": "HAMAS Covenant, Art. 7 (Avalon Project, Yale)",
    "year": 1988,
-   "at": "L19",
-   "until": "L21-0.05"
+   "at": "L26",
+   "until": "L28-0.05"
   }
  ],
  "caption_en": "Ethnic cleansing: yes or no? 🧽\n\nUnited Nations definition (1993): \"rendering an area ethnically homogeneous by using force or intimidation\". It can amount to crimes against humanity or genocide.\n\nCleansing, not ethnic: a rubber duck, a T-shirt. Ethnic, not cleansing: falafel.\n\nNazi Germany deported Jews by train and murdered 6 million: genocide, worse than ethnic cleansing.\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \"a textbook example of ethnic cleansing\".\nWest Darfur, Sudan, 2023: Human Rights Watch documented ethnic cleansing of the Masalit.\n\nIsrael fights HAMAS in Gaza and warned civilians: 7.2M leaflets, 13.7M texts, 15M recorded calls (Israel Defense Forces, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\n\n7 October 2023: HAMAS killed about 1,200 people, mostly civilians. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\n\nSend this to someone who needs the definition.",
