@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "two_paths",
  "hook": "One *protects* lives.|One *spends* them.",
- "duration": 58.4,
+ "duration": 56.53,
  "audio": {
   "lufs": -16.0,
   "true_peak": -2.1
@@ -71,7 +71,7 @@
   }
  ],
  "transcript": {
-  "score": 0.967,
+  "score": 0.894,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -110,14 +110,14 @@
     "flag": "ok"
    },
    {
-    "line": "Under Gaza, HAMAS says it dug five hundred kilometres of tunnels.",
-    "score": 0.909,
-    "flag": "ok"
+    "line": "Under Gaza, <<h|ɑ|ˈ|m|ɑ|s>> says it dug five hundred kilometres of tunnels.",
+    "score": 0.692,
+    "flag": "MISS"
    },
    {
-    "line": "Asked why HAMAS built no bomb shelters, a senior official answered:",
-    "score": 1.0,
-    "flag": "ok"
+    "line": "Asked why <<h|ɑ|ˈ|m|ɑ|s>> built no bomb shelters, a senior official answered:",
+    "score": 0.692,
+    "flag": "MISS"
    },
    {
     "line": "These tunnels are meant to protect us from the airplanes.",
@@ -130,13 +130,13 @@
     "flag": "ok"
    },
    {
-    "line": "On HAMAS TV, a HAMAS lawmaker boasted of human shields: the women, the children, the elderly.",
-    "score": 1.0,
-    "flag": "ok"
+    "line": "On <<h|ɑ|ˈ|m|ɑ|s>> TV, a <<h|ɑ|ˈ|m|ɑ|s>> lawmaker boasted of human shields: the women, the children, the elderly.",
+    "score": 0.7,
+    "flag": "MISS"
    },
    {
     "line": "And Yahya Sinwar's messages, reported by the Wall Street Journal: civilian deaths are necessary sacrifices.",
-    "score": 0.933,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -155,7 +155,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "One protects lives. One spends them. Two fighters. Two ideas about life. The Israeli soldier. His Army's code says, above all, preserve human life. He risks his life so others can live. His country built shelters. Required by law since 1951. Since the 90s, a safe room in every new apartment. Now the other side. Under Gaza, Hamas says it dug 500 kilometers of tunnels. Asked why Hamas built no-bomb shelters, a senior official answered, These tunnels are meant to protect us from the airplanes. And civilians? The responsibility of the United Nations. On Hamas TV, a Hamas lawmaker boasted of human shields. The women, the children, the elderly. And Yahya Simor's messages, reported by the Wall Street Journal, civilian deaths are necessary sacrifices. One side counts every life. The other calls them sacrifices. One side builds shelters for its people. The other builds tunnels for its fighters.",
+  "heard": "One protects lives. One spends them. Two fighters. Two ideas about life. The Israeli soldier. His Army's code says, above all, preserve human life. He risks his life so others can live. His country built shelters. Required by law since 1951. Since the 90s, a safe room in every new apartment. Now, the other side. Under Gaza, Hamas says it dug 500 kilometers of tunnels. Asked why Hamas built no bomb shelters. a senior official answer. These tunnels are meant to protect us from the airplanes and civilians, the responsibility of the United Nations. On Hamas TV, a Hamas lawmaker boasted of human shields, the women, the children, the elderly. In Yahya Sinwar's messages, reported by the Wall Street Journal, civilian deaths are necessary sacrifices. One side counts every life. The other calls them sacrifices. One side builds shelters for its people. The other builds tunnels for its fighters.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -167,5 +167,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 122.1
+ "render_s": 128.3
 }
