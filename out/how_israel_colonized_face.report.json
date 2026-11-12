@@ -1,0 +1,108 @@
+{
+ "id": "how_israel_colonized_face",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Build a country:|*hard mode.*",
+ "duration": 64.63,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/how_israel_colonized_face.mp4",
+  "cover": "covers/how_israel_colonized_face_cover.jpg",
+  "preview": "previews/how_israel_colonized_face_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/how_israel_colonized_face_0.jpg",
+  "1": "out/frames/how_israel_colonized_face_1.jpg",
+  "3": "out/frames/how_israel_colonized_face_3.jpg",
+  "last": "out/frames/how_israel_colonized_face_last.jpg"
+ },
+ "caption_en": "How to build a country. Hard mode. A manual in 7 steps. 📘\n\n1. Accept a split. 29 Nov 1947: UN General Assembly Resolution 181 votes for a Jewish state and an Arab state. The Jewish Agency accepts. The Arab Higher Committee and the Arab League states reject it.\n2. They attack. 15 May 1948: the armies of Egypt, Transjordan, Syria, Lebanon and Iraq invade. Israel survives. Armistice lines, 1949.\n3. 1967: Egypt closes the Straits of Tiran, armies mass, Israel strikes first and ends up holding the West Bank and Gaza. 1 Sept 1967, Arab League summit in Khartoum: \"no peace with Israel, no recognition of Israel, no negotiations with it\".\n4. Weapons get smuggled. 3 Jan 2002: the Karine A, about 50 tons of weapons, mostly from Iran (Israel's letter to the UN Security Council). Patrols, then checkpoints.\n5. Suicide bombings, shootings, car bombs. Israeli security figures (Israel MFA, 2004): 73 attacks from northern Samaria in 34 months (Sept 2000 to July 2003), then 3 in the 11 months after the first barrier section. Israel's figures, as published.\n6. \"Apartheid!\" Israel's answer: Arab citizens are about 21% of Israel's population (CBS, 2025). They vote, sit in the Knesset, and sit on the Supreme Court (Justice Khaled Kabub, appointed 2022). The West Bank is different: territory under Israeli military rule since 1967, its Palestinians are not Israeli citizens, and the ICJ (2004) calls it occupied territory and the barrier route there unlawful. Israel argues the measures are about security after attacks, not race.\n7. Every layer came after a war or an attack. They call it colonizing.\n\nThe controls cost Palestinians dearly, every day. Peace treaties happened too: Egypt 1979, Jordan 1994.\n\nSend this to someone who says colonizer.",
+ "caption_he": "איך בונים מדינה. רמת קושי: גבוהה. מדריך ב־7 שלבים.\n\n1. מסכימים לחלוקה. 29.11.1947: עצרת האו\"ם מצביעה בעד החלטה 181, מדינה יהודית ומדינה ערבית. הסוכנות היהודית אומרת כן. הוועד הערבי העליון ומדינות הליגה הערבית אומרים לא.\n2. תוקפים אותך. 15.5.1948: צבאות מצרים, עבר הירדן, סוריה, לבנון ועיראק פולשים. שורדים. קווי שביתת הנשק, 1949.\n3. 1967: מצרים סוגרת את מצרי טיראן, צבאות מתקבצים, ישראל מכה ראשונה ומחזיקה בגדה המערבית ובעזה. 1.9.1967, ועידת חרטום של הליגה הערבית: לא שלום, לא הכרה, לא משא ומתן.\n4. מבריחים נשק. 3.1.2002: אוניית קארין A, כ־50 טון נשק, רובו מאיראן. סיורים, ואז מחסומים.\n5. פיגועי התאבדות, ירי ומכוניות תופת. לפי נתוני גורמי הביטחון (משרד החוץ, 2004): 73 פיגועים מצפון השומרון ב־34 חודשים, ו־3 ב־11 החודשים שאחרי קטע הגדר הראשון.\n6. \"אפרטהייד!\" התשובה של ישראל: כ־21% מאזרחי ישראל ערבים (הלמ\"ס, 2025). הם מצביעים, יושבים בכנסת ובבית המשפט העליון (השופט חאלד כבוב, מונה ב־2022). הגדה המערבית שונה: שלטון צבאי מאז 1967, הפלסטינים שם אינם אזרחי ישראל, ובית הדין הבינלאומי (2004) קבע שזה שטח כבוש ושתוואי הגדר שם אינו חוקי. ישראל טוענת שהצעדים נובעים מביטחון אחרי פיגועים, לא מגזע.\n7. כל שכבה נוספה אחרי מלחמה או פיגוע. וקוראים לזה קולוניאליזם.\n\nלפיקוח יש מחיר כבד לפלסטינים, כל יום. והיו גם הסכמי שלום: מצרים 1979, ירדן 1994.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "UN General Assembly Resolution 181",
+   "year": 1947,
+   "at": "L2",
+   "until": "L3",
+   "y": 995
+  },
+  {
+   "label": "Britannica: 1948 Arab-Israeli War",
+   "year": 1948,
+   "at": "L3",
+   "until": "L4",
+   "y": 995
+  },
+  {
+   "label": "US State Dept historian: 1967 war",
+   "year": 1967,
+   "at": "L4",
+   "until": "L5",
+   "y": 995
+  },
+  {
+   "label": "Khartoum Resolution, Arab League",
+   "year": 1967,
+   "at": "L5",
+   "until": "L6",
+   "y": 995
+  },
+  {
+   "label": "Karine A: Israel's letter to the UN",
+   "year": 2002,
+   "at": "L6",
+   "until": "L7e",
+   "y": 995
+  },
+  {
+   "label": "Israeli security figures via Israel MFA",
+   "year": 2004,
+   "at": "L8",
+   "until": "L10",
+   "y": 995
+  },
+  {
+   "label": "Israel CBS; Justice Kabub appointed 2022",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12",
+   "y": 995
+  },
+  {
+   "label": "ICJ advisory opinion: occupied territory",
+   "year": 2004,
+   "at": "L12",
+   "until": "L13",
+   "y": 995
+  }
+ ],
+ "transcript": null,
+ "status": "rendered, not posted",
+ "voice": "Noam's own recording (A)",
+ "body_s": 64.62,
+ "transcript_lines": [
+  "How to build a country. Hard mode.",
+  "Armies and armed groups want you gone. Here's the manual.",
+  "Step one: accept a split. 1947, the UN says two states. You say yes. The Arab leadership says no.",
+  "Step two: they attack. Five Arab armies. You survive.",
+  "Step three: 1967, armies mass on your borders. You strike first and hold the West Bank and Gaza.",
+  "Peace? Arab League says no peace, no recognition, no negotiations.",
+  "Step four: weapons get smuggled. One ship, 2002: 50 tons.",
+  "So: patrols, then checkpoints.",
+  "Step five: 73 attacks in under three years.",
+  "So you build a barrier. Next 11 months: only three.",
+  "Step six: someone yells apartheid.",
+  "One in five citizens is Arab. They vote, sit in the Knesset, even in the Supreme Court.",
+  "The West Bank? Military rule since 1967. For security, Israel says. Not race.",
+  "Step seven: every layer came after a war or an attack. They call it colonizing.",
+  "So, how do you build a country?"
+ ]
+}

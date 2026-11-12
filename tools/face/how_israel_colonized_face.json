@@ -1,0 +1,681 @@
+{
+ "id": "how_israel_colonized_face",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Build a country:|*hard mode.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "How to build a country. Hard mode.",
+   "gap": 0.15
+  },
+  {
+   "say": "Armies and armed groups want you gone. Here's the manual.",
+   "screen": "Here's the *manual.*",
+   "screen_icon": "📘",
+   "at": "L1:here's"
+  },
+  {
+   "say": "Step one: accept a split. 1947, the UN says two states. You say yes. The Arab leadership says no.",
+   "screen": "*1.* UN: two states. You: *yes.* Arab leaderships: *no.*",
+   "screen_icon": "🗳️"
+  },
+  {
+   "say": "Step two: they attack. Five Arab armies. You survive.",
+   "screen": "*2.* 1948: *5* Arab armies attack",
+   "screen_icon": "⚔️"
+  },
+  {
+   "say": "Step three: 1967, armies mass on your borders. You strike first and hold the West Bank and Gaza.",
+   "screen": "*3.* 1967: you hold the West Bank and Gaza",
+   "screen_icon": "🪖"
+  },
+  {
+   "say": "Peace? Arab League says no peace, no recognition, no negotiations.",
+   "screen": "\"No peace, no recognition, no negotiations\"",
+   "screen_icon": "🙅"
+  },
+  {
+   "say": "Step four: weapons get smuggled. One ship, 2002: 50 tons.",
+   "screen": "*4.* One ship, 2002: *50 tons* of weapons",
+   "screen_icon": "🚢"
+  },
+  {
+   "say": "So: patrols, then checkpoints.",
+   "screen": "+ patrols. + *checkpoints.*",
+   "screen_icon": "🛂"
+  },
+  {
+   "say": "Step five: 73 attacks in under three years.",
+   "screen": "*5.* Bombings, shootings: *73* attacks in 34 months",
+   "screen_icon": "💥"
+  },
+  {
+   "say": "So you build a barrier. Next 11 months: only three.",
+   "screen": "+ barrier. Next 11 months: *3*",
+   "screen_icon": "🧱"
+  },
+  {
+   "say": "Step six: someone yells apartheid.",
+   "screen": "*6.* \"Apartheid!\"",
+   "screen_icon": "📣"
+  },
+  {
+   "say": "One in five citizens is Arab. They vote, sit in the Knesset, even in the Supreme Court.",
+   "screen": "Arab citizens: *21%.* Vote. Knesset. Supreme Court.",
+   "screen_icon": "⚖️"
+  },
+  {
+   "say": "The West Bank? Military rule since 1967. For security, Israel says. Not race.",
+   "screen": "West Bank: military rule since *1967.* Not citizens.",
+   "screen_icon": "📍"
+  },
+  {
+   "say": "Step seven: every layer came after a war or an attack. They call it colonizing.",
+   "screen": "*7.* Every layer came *after* an attack.",
+   "screen_icon": "📚"
+  },
+  {
+   "say": "So, how do you build a country?"
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.05,
+   31.55,
+   4.2,
+   820
+  ],
+  "title_y": 250,
+  "hook_y": 640,
+  "cams": [
+   {
+    "at": "L8-0.2",
+    "view": [
+     35.15,
+     31.95,
+     2.6,
+     700
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L10-0.2",
+    "view": [
+     35.05,
+     31.55,
+     4.2,
+     820
+    ],
+    "dur": 1.2
+   }
+  ],
+  "counter": {
+   "label": "Layers of control",
+   "at": "L3e",
+   "until": "L10",
+   "y": -3000,
+   "steps": [
+    {
+     "at": "L3e",
+     "value": 1
+    },
+    {
+     "at": "L4:hold",
+     "value": 2
+    },
+    {
+     "at": "L7:checkpoints",
+     "value": 3
+    },
+    {
+     "at": "L9:barrier",
+     "value": 4
+    }
+   ]
+  },
+  "routes": [
+   {
+    "at": "L3:five",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      33.2,
+      30.6
+     ],
+     [
+      34.0,
+      31.0
+     ],
+     [
+      34.6,
+      31.5
+     ]
+    ],
+    "draw": 0.7
+   },
+   {
+    "at": "L3:five+0.1",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      36.4,
+      31.9
+     ],
+     [
+      35.9,
+      31.85
+     ],
+     [
+      35.35,
+      31.8
+     ]
+    ],
+    "draw": 0.7
+   },
+   {
+    "at": "L3:five+0.2",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      36.5,
+      33.2
+     ],
+     [
+      36.0,
+      33.0
+     ],
+     [
+      35.65,
+      32.85
+     ]
+    ],
+    "draw": 0.7
+   },
+   {
+    "at": "L3:five+0.3",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      35.6,
+      33.85
+     ],
+     [
+      35.4,
+      33.4
+     ],
+     [
+      35.25,
+      33.05
+     ]
+    ],
+    "draw": 0.7
+   },
+   {
+    "at": "L3:five+0.4",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      37.4,
+      32.4
+     ],
+     [
+      36.4,
+      32.35
+     ],
+     [
+      35.6,
+      32.35
+     ]
+    ],
+    "draw": 0.7
+   },
+   {
+    "at": "L9:barrier",
+    "path": [
+     [
+      35.52,
+      32.52
+     ],
+     [
+      35.3,
+      32.55
+     ],
+     [
+      35.08,
+      32.45
+     ],
+     [
+      35.0,
+      32.3
+     ],
+     [
+      34.97,
+      32.18
+     ],
+     [
+      35.01,
+      32.0
+     ],
+     [
+      34.98,
+      31.88
+     ],
+     [
+      35.05,
+      31.7
+     ]
+    ],
+    "kind": "wall",
+    "draw": 1.0
+   }
+  ],
+  "icons": [
+   {
+    "at": "L2:yes",
+    "lon": 34.78,
+    "lat": 32.08,
+    "emo": "✅",
+    "size": 64
+   },
+   {
+    "at": "L3e",
+    "lon": 34.98,
+    "lat": 32.62,
+    "emo": "🚧",
+    "size": 62,
+    "label": "1949: armistice line",
+    "label_dy": 64,
+    "tsize": 40
+   },
+   {
+    "at": "L4:hold",
+    "lon": 35.32,
+    "lat": 32.05,
+    "emo": "🪖",
+    "size": 66,
+    "label": "1967: military rule",
+    "label_dy": 66,
+    "tsize": 40
+   },
+   {
+    "at": "L7:checkpoints",
+    "lon": 35.27,
+    "lat": 32.33,
+    "emo": "🛂",
+    "size": 54
+   },
+   {
+    "at": "L7:checkpoints+0.15",
+    "lon": 35.2,
+    "lat": 31.84,
+    "emo": "🛂",
+    "size": 54
+   },
+   {
+    "at": "L7:checkpoints+0.3",
+    "lon": 34.53,
+    "lat": 31.56,
+    "emo": "🛂",
+    "size": 54
+   },
+   {
+    "at": "L9:barrier+0.6",
+    "lon": 34.92,
+    "lat": 32.36,
+    "emo": "🧱",
+    "size": 56,
+    "label": "Barrier, from 2002",
+    "label_dy": -70,
+    "tsize": 40
+   }
+  ],
+  "comment": {
+   "text": "Apartheid!",
+   "show": [
+    [
+     "L10",
+     "L11"
+    ]
+   ],
+   "y": 600,
+   "size": 72
+  },
+  "tail": 0.55,
+  "photos": [
+   {
+    "file": "templates/photos/how_israel_colonized/hic_decl.jpg",
+    "at": "L3",
+    "until": "L3:five",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Rudi Weissenstein, public domain, Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_67.jpg",
+    "at": "L4",
+    "until": "L4:hold",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.52,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Bamahane, CC BY-SA 3.0, Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_khar.jpg",
+    "at": "L5",
+    "until": "L5e",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.35,
+    "credit": "Not credited, public domain, Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_chk.jpg",
+    "at": "L7",
+    "until": "L7e",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Czech160, public domain, Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_bar.jpg",
+    "at": "L9",
+    "until": "L9:next",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Jasmine Halki, CC BY 2.0, Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_kns.jpg",
+    "at": "L11",
+    "until": "L11:supreme",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Beit HaShalom, attribution, Commons"
+   },
+   {
+    "file": "templates/photos/how_israel_colonized/hic_kab.jpg",
+    "at": "L11:supreme",
+    "until": "L11e+0.4",
+    "kb": [
+     0.5,
+     0.4,
+     1.0,
+     0.5,
+     0.4,
+     1.08
+    ],
+    "dim": 0.25,
+    "credit": "Israel Judiciary, CC BY-SA 4.0, Commons"
+   }
+  ],
+  "credit_y": 405
+ },
+ "sources": [
+  {
+   "label": "UN General Assembly Resolution 181",
+   "year": 1947,
+   "at": "L2",
+   "until": "L3",
+   "y": 995
+  },
+  {
+   "label": "Britannica: 1948 Arab-Israeli War",
+   "year": 1948,
+   "at": "L3",
+   "until": "L4",
+   "y": 995
+  },
+  {
+   "label": "US State Dept historian: 1967 war",
+   "year": 1967,
+   "at": "L4",
+   "until": "L5",
+   "y": 995
+  },
+  {
+   "label": "Khartoum Resolution, Arab League",
+   "year": 1967,
+   "at": "L5",
+   "until": "L6",
+   "y": 995
+  },
+  {
+   "label": "Karine A: Israel's letter to the UN",
+   "year": 2002,
+   "at": "L6",
+   "until": "L7e",
+   "y": 995
+  },
+  {
+   "label": "Israeli security figures via Israel MFA",
+   "year": 2004,
+   "at": "L8",
+   "until": "L10",
+   "y": 995
+  },
+  {
+   "label": "Israel CBS; Justice Kabub appointed 2022",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12",
+   "y": 995
+  },
+  {
+   "label": "ICJ advisory opinion: occupied territory",
+   "year": 2004,
+   "at": "L12",
+   "until": "L13",
+   "y": 995
+  }
+ ],
+ "end": {
+  "at": "L13:they",
+  "balance": "The controls cost Palestinians *dearly,* every day.",
+  "cta": "Send this to someone who says colonizer",
+  "y": 660
+ },
+ "caption_en": "How to build a country. Hard mode. A manual in 7 steps. 📘\n\n1. Accept a split. 29 Nov 1947: UN General Assembly Resolution 181 votes for a Jewish state and an Arab state. The Jewish Agency accepts. The Arab Higher Committee and the Arab League states reject it.\n2. They attack. 15 May 1948: the armies of Egypt, Transjordan, Syria, Lebanon and Iraq invade. Israel survives. Armistice lines, 1949.\n3. 1967: Egypt closes the Straits of Tiran, armies mass, Israel strikes first and ends up holding the West Bank and Gaza. 1 Sept 1967, Arab League summit in Khartoum: \"no peace with Israel, no recognition of Israel, no negotiations with it\".\n4. Weapons get smuggled. 3 Jan 2002: the Karine A, about 50 tons of weapons, mostly from Iran (Israel's letter to the UN Security Council). Patrols, then checkpoints.\n5. Suicide bombings, shootings, car bombs. Israeli security figures (Israel MFA, 2004): 73 attacks from northern Samaria in 34 months (Sept 2000 to July 2003), then 3 in the 11 months after the first barrier section. Israel's figures, as published.\n6. \"Apartheid!\" Israel's answer: Arab citizens are about 21% of Israel's population (CBS, 2025). They vote, sit in the Knesset, and sit on the Supreme Court (Justice Khaled Kabub, appointed 2022). The West Bank is different: territory under Israeli military rule since 1967, its Palestinians are not Israeli citizens, and the ICJ (2004) calls it occupied territory and the barrier route there unlawful. Israel argues the measures are about security after attacks, not race.\n7. Every layer came after a war or an attack. They call it colonizing.\n\nThe controls cost Palestinians dearly, every day. Peace treaties happened too: Egypt 1979, Jordan 1994.\n\nSend this to someone who says colonizer.",
+ "caption_he": "איך בונים מדינה. רמת קושי: גבוהה. מדריך ב־7 שלבים.\n\n1. מסכימים לחלוקה. 29.11.1947: עצרת האו\"ם מצביעה בעד החלטה 181, מדינה יהודית ומדינה ערבית. הסוכנות היהודית אומרת כן. הוועד הערבי העליון ומדינות הליגה הערבית אומרים לא.\n2. תוקפים אותך. 15.5.1948: צבאות מצרים, עבר הירדן, סוריה, לבנון ועיראק פולשים. שורדים. קווי שביתת הנשק, 1949.\n3. 1967: מצרים סוגרת את מצרי טיראן, צבאות מתקבצים, ישראל מכה ראשונה ומחזיקה בגדה המערבית ובעזה. 1.9.1967, ועידת חרטום של הליגה הערבית: לא שלום, לא הכרה, לא משא ומתן.\n4. מבריחים נשק. 3.1.2002: אוניית קארין A, כ־50 טון נשק, רובו מאיראן. סיורים, ואז מחסומים.\n5. פיגועי התאבדות, ירי ומכוניות תופת. לפי נתוני גורמי הביטחון (משרד החוץ, 2004): 73 פיגועים מצפון השומרון ב־34 חודשים, ו־3 ב־11 החודשים שאחרי קטע הגדר הראשון.\n6. \"אפרטהייד!\" התשובה של ישראל: כ־21% מאזרחי ישראל ערבים (הלמ\"ס, 2025). הם מצביעים, יושבים בכנסת ובבית המשפט העליון (השופט חאלד כבוב, מונה ב־2022). הגדה המערבית שונה: שלטון צבאי מאז 1967, הפלסטינים שם אינם אזרחי ישראל, ובית הדין הבינלאומי (2004) קבע שזה שטח כבוש ושתוואי הגדר שם אינו חוקי. ישראל טוענת שהצעדים נובעים מביטחון אחרי פיגועים, לא מגזע.\n7. כל שכבה נוספה אחרי מלחמה או פיגוע. וקוראים לזה קולוניאליזם.\n\nלפיקוח יש מחיר כבד לפלסטינים, כל יום. והיו גם הסכמי שלום: מצרים 1979, ירדן 1994.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "cover": {
+  "t": 3.0,
+  "big": "7 steps",
+  "text": "Build a country:|*hard mode.*",
+  "y": 900
+ },
+ "face": {
+  "sources": {
+   "A": {
+    "wav": "/tmp/claude-0/-home-claude/b92286a7-2fc5-5d63-9b99-51ddfdf225c3/scratchpad/hicf/A48.wav",
+    "fgr": "/tmp/claude-0/-home-claude/b92286a7-2fc5-5d63-9b99-51ddfdf225c3/scratchpad/hicf/A_fgr.mp4",
+    "alpha": "/tmp/claude-0/-home-claude/b92286a7-2fc5-5d63-9b99-51ddfdf225c3/scratchpad/hicf/A_alpha.mkv",
+    "words": "heygen/hicface_A.words.json"
+   }
+  },
+  "clips": "tools/face/how_israel_colonized_face_clips.json",
+  "place": {
+   "anchor": [
+    325,
+    400
+   ],
+   "rows": [
+    140,
+    860
+   ]
+  },
+  "subs_y": 1110,
+  "counter": {
+   "x": 748,
+   "y": 1175,
+   "w": 300,
+   "h": 250,
+   "label": [
+    "Layers of",
+    "control"
+   ]
+  },
+  "say_fix": {
+   "0": "How to build a country. Hard mode.",
+   "1": "Armies and armed groups want you gone. Here's the manual.",
+   "2": "Step one: accept a split. 1947, the UN says two states. You say yes. The Arab leadership says no.",
+   "3": "Step two: they attack. Five Arab armies. You survive.",
+   "4": "Step three: 1967, armies mass on your borders. You strike first and hold the West Bank and Gaza.",
+   "5": "Peace? Arab League says no peace, no recognition, no negotiations.",
+   "6": "Step four: weapons get smuggled. One ship, 2002: 50 tons.",
+   "7": "So: patrols, then checkpoints.",
+   "8": "Step five: 73 attacks in under three years.",
+   "9": "So you build a barrier. Next 11 months: only three.",
+   "10": "Step six: someone yells apartheid.",
+   "11": "One in five citizens is Arab. They vote, sit in the Knesset, even in the Supreme Court.",
+   "12": "The West Bank? Military rule since 1967. For security, Israel says. Not race.",
+   "13": "Step seven: every layer came after a war or an attack. They call it colonizing.",
+   "14": "So, how do you build a country?"
+  },
+  "bust": {
+   "fade_start": 630,
+   "fade_end": 830,
+   "half_width": 250,
+   "soft": 85,
+   "chin": 600
+  },
+  "modes": {
+   "lt": [
+    540,
+    1420,
+    0.92
+   ],
+   "lt_left": [
+    420,
+    1420,
+    0.92
+   ],
+   "corner_r": [
+    830,
+    1575,
+    0.68
+   ],
+   "corner_l": [
+    255,
+    1575,
+    0.68
+   ]
+  },
+  "moves": [
+   {
+    "at": 0,
+    "mode": "lt"
+   },
+   {
+    "at": "L3",
+    "mode": "corner_r"
+   },
+   {
+    "at": "L3:five",
+    "mode": "lt_left"
+   },
+   {
+    "at": "L4",
+    "mode": "corner_l"
+   },
+   {
+    "at": "L4:hold",
+    "mode": "lt_left"
+   },
+   {
+    "at": "L5",
+    "mode": "corner_l"
+   },
+   {
+    "at": "L5e",
+    "mode": "lt_left"
+   },
+   {
+    "at": "L7",
+    "mode": "corner_l"
+   },
+   {
+    "at": "L7e",
+    "mode": "lt_left"
+   },
+   {
+    "at": "L9",
+    "mode": "corner_l"
+   },
+   {
+    "at": "L9:next",
+    "mode": "lt_left"
+   },
+   {
+    "at": "L10",
+    "mode": "lt"
+   },
+   {
+    "at": "L11",
+    "mode": "corner_r"
+   },
+   {
+    "at": "L11e+0.4",
+    "mode": "lt"
+   }
+  ],
+  "cover_mode": "lt"
+ }
+}
