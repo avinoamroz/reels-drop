@@ -112,7 +112,7 @@
      0.5,
      1.12
     ],
-    "credit": "Eliran t, Gaza Strip, Oct 2024, CC BY-SA 4.0, Wikimedia Commons"
+    "credit": "Eliran t, Gaza, 2024, CC BY-SA 4.0"
    },
    {
     "file": "templates/photos/gaza_famine_claim/mawasi.jpg",
@@ -126,7 +126,7 @@
      0.5,
      1.18
     ],
-    "credit": "Ashraf Amra, Al-Mawasi, Jan 2025, CC BY-SA 3.0 IGO, Wikimedia Commons"
+    "credit": "Ashraf Amra, Al-Mawasi, Jan 2025, CC BY-SA 3.0 IGO"
    },
    {
     "file": "templates/photos/gaza_famine_claim/kerem.jpg",
@@ -140,7 +140,7 @@
      0.5,
      1.12
     ],
-    "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025, public domain"
+    "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025"
    },
    {
     "file": "templates/photos/gaza_famine_claim/zikim1.jpg",
@@ -154,7 +154,7 @@
      0.5,
      1.12
     ],
-    "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+    "credit": "U.S. Army, Zikim crossing, 25 Nov 2025"
    },
    {
     "file": "templates/photos/gaza_famine_claim/zikim2.jpg",
@@ -168,7 +168,7 @@
      0.5,
      1.12
     ],
-    "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+    "credit": "U.S. Army, Zikim crossing, 25 Nov 2025"
    },
    {
     "file": "templates/photos/gaza_famine_claim/kerem2.jpg",
@@ -182,7 +182,7 @@
      0.5,
      1.12
     ],
-    "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025, public domain"
+    "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025"
    },
    {
     "file": "templates/photos/gaza_famine_claim/kis.jpg",
@@ -197,7 +197,7 @@
      0.5,
      1.15
     ],
-    "credit": "U.S. Army, Kissufim crossing, 3 Dec 2025, public domain"
+    "credit": "U.S. Army, Kissufim crossing, 3 Dec 2025"
    },
    {
     "file": "templates/photos/gaza_famine_claim/cmcc.jpg",
@@ -212,7 +212,7 @@
      0.42,
      1.15
     ],
-    "credit": "U.S. Army, CMCC, Kiryat Gat, 23 Nov 2025, public domain"
+    "credit": "U.S. Army, CMCC, Kiryat Gat, 23 Nov 2025"
    },
    {
     "file": "templates/photos/gaza_famine_claim/zikim1.jpg",
@@ -226,7 +226,7 @@
      0.5,
      1.0
     ],
-    "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+    "credit": "U.S. Army, Zikim crossing, 25 Nov 2025"
    },
    {
     "file": "templates/photos/gaza_famine_claim/sack.jpg",
@@ -241,7 +241,7 @@
      0.5,
      1.0
     ],
-    "credit": "Eliran t, Gaza Strip, Oct 2024, CC BY-SA 4.0, Wikimedia Commons"
+    "credit": "Eliran t, Gaza, 2024, CC BY-SA 4.0"
    }
   ],
   "stamp": [
@@ -274,20 +274,21 @@
    },
    {
     "at": "L7:hundred",
-    "until": "L8e",
+    "until": "L8-0.05",
     "value": 104000,
     "sub": "at famine level, Oct to Nov 2025",
     "y": 1000,
     "size": 150
    },
    {
-    "at": "L9",
-    "until": "L10-0.1",
+    "at": "L8",
+    "until": "L10:over",
     "value": 0,
     "from": 104000,
     "sub": "at famine level, Apr to Jun 2026",
     "y": 1000,
-    "size": 170
+    "size": 170,
+    "roll": 1.4
    }
   ],
   "math": [
