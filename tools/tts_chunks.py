@@ -89,7 +89,7 @@ def main(req_path):
         for ci, c in enumerate(takes):
             for x in c: x["score"] = abs(x["p"] / P - 1) / 0.018 + abs(x["r"] / Q - 1) / 0.07
             best = min(c, key=lambda x: x["score"])
-            if abs(best["p"] / P - 1) > 0.018 or abs(best["r"] / Q - 1) > 0.07: bad.append(ci)
+            if abs(best["p"] / P - 1) > 0.018 or abs(best["r"] / Q - 1) > 0.09: bad.append(ci)
         print(f"round {rnd}: median pitch {P:.1f} Hz, rate {Q:.2f} w/s, off: {bad}", flush=True)
         if not bad: break
         for ci in bad:
@@ -110,14 +110,16 @@ def main(req_path):
         if abs(dp) > 0.015:
             y = ff(y, f"rubberband=pitch={1 / (1 + dp):.5f}:formant=preserved"); fix.append(f"pitch x{1 / (1 + dp):.4f}")
         dr = x["r"] / Q - 1
-        if abs(dr) > 0.06:
-            k = 1 / (1 + dr); y = ff(y, f"atempo={1 / k:.5f}"); fix.append(f"tempo x{1 / k:.4f}")
-            for d in w: d["start"] *= k; d["end"] *= k
+        if abs(dr) > 0.05:      # atempo > 1 speeds a slow chunk up; word times shrink by the same factor
+            at = Q / x["r"]; y = ff(y, f"atempo={at:.5f}"); fix.append(f"atempo {at:.4f}")
+            for d in w: d["start"] /= at; d["end"] /= at
+        os.makedirs(os.path.join("voice", "raw_" + sid), exist_ok=True)
+        sf.write(os.path.join("voice", "raw_" + sid, f"c{ci:02d}.flac"), x["y"], SR); json.dump(x["w"], open(os.path.join("voice", "raw_" + sid, f"c{ci:02d}.json"), "w"))
         p2 = pitch_median(y) if fix else x["p"]
         rr = active_rms(y); target = target or rr; y = y * (target / rr)
         outs.append((y, w))
         rep["chunks"].append(dict(chunk=ci, lines=R["chunks"][ci], takes=len(c), pitch_hz=round(p2, 2), pitch_dev_pct=round((p2 / P - 1) * 100, 2),
-                                  rate_wps=round(x["r"], 3), rate_dev_pct=round((x["r"] / Q - 1) * 100, 2), fixes=fix, dur_s=round(len(y) / SR, 2)))
+                                  rate_wps=round(x["r"], 3), rate_dev_pct=round((x["r"] / Q - 1) * 100, 2), rate_after_wps=round(rate(w), 3), fixes=fix, dur_s=round(len(y) / SR, 2)))
     pk = max(np.abs(y).max() for y, _ in outs); allw, buf, t = [], [], 0.0; sil = np.zeros(int(0.5 * SR), np.float32)
     for y, w in outs:
         y = y / pk * 0.89
