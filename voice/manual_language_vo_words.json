@@ -1,877 +1,807 @@
 [
 {
 "word": "How",
-"start": 0.12383976,
-"end": 0.32507935
+"start": 0.2012396,
+"end": 0.43343917
 },
 {
 "word": "to",
-"start": 0.32507935,
-"end": 0.44891912
+"start": 0.43343917,
+"end": 0.6191988
 },
 {
 "word": "build",
-"start": 0.44891912,
-"end": 0.6656387
+"start": 0.6191988,
+"end": 0.88235825
 },
 {
 "word": "a",
-"start": 0.6656387,
-"end": 0.69659865
+"start": 0.88235825,
+"end": 0.9442782
 },
 {
 "word": "country.",
-"start": 0.69659865,
-"end": 1.1764777
+"start": 0.9442782,
+"end": 1.3622373
 },
 {
 "word": "Hard",
-"start": 1.3777173,
-"end": 1.7337567
+"start": 1.7801965,
+"end": 2.0897958
 },
 {
 "word": "mode.",
-"start": 1.7337567,
-"end": 2.074316
+"start": 2.0897958,
+"end": 2.3839154
 },
 {
 "word": "Resurrect",
-"start": 2.7554345,
-"end": 3.1733937
+"start": 2.7399547,
+"end": 3.157914
 },
 {
 "word": "a",
-"start": 3.1733937,
-"end": 3.2353137
+"start": 3.2198336,
+"end": 3.2817535
 },
 {
 "word": "dead",
-"start": 3.2353137,
-"end": 3.5139532
+"start": 3.2817535,
+"end": 3.6377928
 },
 {
 "word": "language.",
-"start": 3.5139532,
-"end": 4.0557523
+"start": 3.6377928,
+"end": 4.241512
 },
 {
 "word": "Step",
-"start": 4.4737115,
-"end": 4.8297505
+"start": 4.597551,
+"end": 4.9690704
 },
 {
 "word": "one:",
-"start": 4.8297505,
-"end": 5.12387
+"start": 4.9690704,
+"end": 5.26319
 },
 {
 "word": "your",
-"start": 5.541829,
-"end": 5.7275887
+"start": 5.588269,
+"end": 5.804989
 },
 {
 "word": "people",
-"start": 5.7275887,
-"end": 6.021708
+"start": 5.804989,
+"end": 6.099108
 },
 {
 "word": "arrive",
-"start": 6.021708,
-"end": 6.3313074
+"start": 6.099108,
+"end": 6.3777475
 },
 {
 "word": "from",
-"start": 6.3313074,
-"end": 6.4861073
+"start": 6.3777475,
+"end": 6.5170674
 },
 {
 "word": "more",
-"start": 6.4861073,
-"end": 6.656387
+"start": 6.5170674,
+"end": 6.7957067
 },
 {
 "word": "than",
-"start": 6.656387,
-"end": 6.7802267
+"start": 6.7957067,
+"end": 6.950506
 },
 {
 "word": "seventy",
-"start": 6.7802267,
-"end": 7.2601056
+"start": 6.950506,
+"end": 7.3684654
 },
 {
 "word": "countries.",
-"start": 7.2601056,
-"end": 7.863825
+"start": 7.3684654,
+"end": 7.9567046
 },
 {
 "word": "Yiddish.",
-"start": 8.034104,
-"end": 8.575903
+"start": 8.235344,
+"end": 8.777143
 },
 {
 "word": "Arabic.",
-"start": 9.086742,
-"end": 9.659501
+"start": 9.195102,
+"end": 9.705941
 },
 {
 "word": "Ladino.",
-"start": 10.32514,
-"end": 10.805018
+"start": 10.30966,
+"end": 10.789539
 },
 {
 "word": "Russian.",
-"start": 11.130098,
-"end": 11.517097
+"start": 11.238458,
+"end": 11.656417
 },
 {
 "word": "Persian.",
-"start": 11.811217,
-"end": 12.322056
+"start": 11.919577,
+"end": 12.399456
 },
 {
 "word": "Amharic.",
-"start": 12.987695,
-"end": 13.560453
-},
-{
-"word": "Good",
-"start": 14.009373,
-"end": 14.226092
-},
-{
-"word": "luck",
-"start": 14.226092,
-"end": 14.427332
-},
-{
-"word": "with",
-"start": 14.427332,
-"end": 14.551171
-},
-{
-"word": "the",
-"start": 14.551171,
-"end": 14.613091
-},
-{
-"word": "first",
-"start": 14.613091,
-"end": 14.845291
-},
-{
-"word": "meeting.",
-"start": 14.845291,
-"end": 15.18585
+"start": 12.709055,
+"end": 13.219894
 },
 {
 "word": "Step",
-"start": 15.572849,
-"end": 15.866969
+"start": 13.699773,
+"end": 14.024853
 },
 {
 "word": "two:",
-"start": 15.866969,
-"end": 16.192049
+"start": 14.024853,
+"end": 14.380892
 },
 {
 "word": "pick",
-"start": 16.826727,
-"end": 17.043447
+"start": 14.829811,
+"end": 14.984611
 },
 {
 "word": "a",
-"start": 17.043447,
-"end": 17.074408
+"start": 14.984611,
+"end": 15.077491
 },
 {
 "word": "language",
-"start": 17.074408,
-"end": 17.430447
+"start": 15.077491,
+"end": 15.40257
 },
 {
-"word": "nobody",
-"start": 17.461407,
-"end": 17.817446
-},
-{
-"word": "has",
-"start": 17.817446,
-"end": 17.941284
-},
-{
-"word": "spoken",
-"start": 17.941284,
-"end": 18.266365
-},
-{
-"word": "as",
-"start": 18.266365,
-"end": 18.359243
-},
-{
-"word": "a",
-"start": 18.359243,
-"end": 18.390203
-},
-{
-"word": "mother",
-"start": 18.390203,
-"end": 18.684324
-},
-{
-"word": "tongue",
-"start": 18.684324,
-"end": 18.993923
-},
-{
-"word": "for",
-"start": 18.993923,
-"end": 19.102283
-},
-{
-"word": "about",
-"start": 19.102283,
-"end": 19.319002
-},
-{
-"word": "seventeen",
-"start": 19.319002,
-"end": 19.767921
-},
-{
-"word": "hundred",
-"start": 19.767921,
-"end": 20.03108
-},
-{
-"word": "years.",
-"start": 20.03108,
-"end": 20.57288
-},
-{
-"word": "Step",
-"start": 21.11468,
-"end": 21.455238
-},
-{
-"word": "three:",
-"start": 21.455238,
-"end": 21.780317
-},
-{
-"word": "one",
-"start": 22.461435,
-"end": 22.740076
-},
-{
-"word": "man,",
-"start": 22.740076,
-"end": 23.034195
-},
-{
-"word": "Eliezer",
-"start": 23.514074,
-"end": 23.901073
-},
-{
-"word": "Ben-Yehuda,",
-"start": 23.901073,
-"end": 24.411913
-},
-{
-"word": "raises",
-"start": 24.814392,
-"end": 25.170431
-},
-{
-"word": "his",
-"start": 25.170431,
-"end": 25.263311
-},
-{
-"word": "son",
-"start": 25.263311,
-"end": 25.58839
-},
-{
-"word": "in",
-"start": 25.58839,
-"end": 25.71223
-},
-{
-"word": "it.",
-"start": 25.71223,
-"end": 25.85155
-},
-{
-"word": "Itamar,",
-"start": 26.548147,
-"end": 27.120907
-},
-{
-"word": "born",
-"start": 27.538866,
-"end": 27.910385
-},
-{
-"word": "eighteen",
-"start": 27.956825,
-"end": 28.405745
-},
-{
-"word": "eighty",
-"start": 28.405745,
-"end": 28.622463
-},
-{
-"word": "two.",
-"start": 28.622463,
-"end": 28.978504
-},
-{
-"word": "One",
-"start": 29.706062,
-"end": 29.938261
-},
-{
-"word": "of",
-"start": 29.938261,
-"end": 30.000181
-},
-{
-"word": "the",
-"start": 30.000181,
-"end": 30.093061
-},
-{
-"word": "first",
-"start": 30.093061,
-"end": 30.4491
-},
-{
-"word": "native",
-"start": 30.4491,
-"end": 30.69678
-},
-{
-"word": "speakers",
-"start": 30.69678,
-"end": 31.238579
-},
-{
-"word": "in",
-"start": 31.238579,
-"end": 31.34694
-},
-{
-"word": "modern",
-"start": 31.34694,
-"end": 31.687498
-},
-{
-"word": "times.",
-"start": 31.687498,
-"end": 32.167377
-},
-{
-"word": "Step",
-"start": 32.678215,
-"end": 33.003296
-},
-{
-"word": "four:",
-"start": 33.003296,
-"end": 33.359333
+"word": "with",
+"start": 15.40257,
+"end": 15.557369
 },
 {
 "word": "no",
-"start": 33.901134,
-"end": 34.17977
+"start": 15.557369,
+"end": 15.820529
 },
 {
-"word": "word",
-"start": 34.17977,
-"end": 34.411972
+"word": "native",
+"start": 15.820529,
+"end": 16.161089
+},
+{
+"word": "speakers",
+"start": 16.161089,
+"end": 16.548088
 },
 {
 "word": "for",
-"start": 34.411972,
-"end": 34.535812
+"start": 16.548088,
+"end": 16.671926
 },
 {
-"word": "ice",
-"start": 34.535812,
-"end": 34.737053
+"word": "about",
+"start": 16.671926,
+"end": 16.904127
 },
 {
-"word": "cream?",
-"start": 34.737053,
-"end": 34.98473
+"word": "seventeen",
+"start": 16.904127,
+"end": 17.414967
 },
 {
-"word": "Invent",
-"start": 35.40269,
-"end": 35.69681
-},
-{
-"word": "one.",
-"start": 35.69681,
-"end": 35.94449
-},
-{
-"word": "Dictionary.",
-"start": 36.36245,
-"end": 36.935207
-},
-{
-"word": "Ice",
-"start": 37.569885,
-"end": 37.833046
-},
-{
-"word": "cream.",
-"start": 37.833046,
-"end": 38.080727
-},
-{
-"word": "Doll.",
-"start": 38.730885,
-"end": 39.14884
-},
-{
-"word": "Omelette.",
-"start": 39.96928,
-"end": 40.48012
-},
-{
-"word": "Then",
-"start": 41.22316,
-"end": 41.610157
-},
-{
-"word": "the",
-"start": 41.610157,
-"end": 41.733997
-},
-{
-"word": "dictionary.",
-"start": 41.733997,
-"end": 42.30676
-},
-{
-"word": "Seventeen",
-"start": 42.987877,
-"end": 43.498714
-},
-{
-"word": "volumes.",
-"start": 43.498714,
-"end": 44.102432
-},
-{
-"word": "Fifty",
-"start": 44.582314,
-"end": 44.90739
-},
-{
-"word": "one",
-"start": 44.90739,
-"end": 45.06219
+"word": "hundred",
+"start": 17.414967,
+"end": 17.678125
 },
 {
 "word": "years.",
-"start": 45.06219,
-"end": 45.480152
+"start": 17.678125,
+"end": 18.158005
 },
 {
 "word": "Step",
-"start": 45.83619,
-"end": 46.11483
+"start": 18.467604,
+"end": 18.792683
 },
 {
-"word": "five:",
-"start": 46.11483,
-"end": 46.43991
+"word": "three:",
+"start": 18.792683,
+"end": 19.117764
 },
 {
-"word": "nineteen",
-"start": 46.95075,
-"end": 47.368706
+"word": "Eliezer",
+"start": 19.303522,
+"end": 19.721481
 },
 {
-"word": "thirteen.",
-"start": 47.368706,
-"end": 47.755707
+"word": "Ben-Yehuda",
+"start": 19.721481,
+"end": 20.23232
 },
 {
-"word": "Your",
-"start": 48.545185,
-"end": 48.746426
+"word": "raises",
+"start": 20.23232,
+"end": 20.58836
 },
 {
-"word": "technical",
-"start": 48.746426,
-"end": 49.148903
+"word": "his",
+"start": 20.58836,
+"end": 20.7122
 },
 {
-"word": "college",
-"start": 49.148903,
-"end": 49.473984
-},
-{
-"word": "plans",
-"start": 49.473984,
-"end": 49.799065
-},
-{
-"word": "to",
-"start": 49.799065,
-"end": 49.9229
-},
-{
-"word": "teach",
-"start": 49.9229,
-"end": 50.247982
-},
-{
-"word": "science",
-"start": 50.247982,
-"end": 50.63498
+"word": "son",
+"start": 20.7122,
+"end": 20.959879
 },
 {
 "word": "in",
-"start": 50.63498,
-"end": 50.72786
-},
-{
-"word": "German.",
-"start": 50.72786,
-"end": 51.13034
-},
-{
-"word": "Teachers",
-"start": 51.65666,
-"end": 52.10558
-},
-{
-"word": "and",
-"start": 52.10558,
-"end": 52.19846
-},
-{
-"word": "students",
-"start": 52.19846,
-"end": 52.539017
-},
-{
-"word": "walk",
-"start": 52.539017,
-"end": 52.740257
-},
-{
-"word": "out.",
-"start": 52.740257,
-"end": 53.06534
-},
-{
-"word": "February",
-"start": 53.607136,
-"end": 54.148933
-},
-{
-"word": "nineteen",
-"start": 54.148933,
-"end": 54.535934
-},
-{
-"word": "fourteen:",
-"start": 54.535934,
-"end": 55.108692
-},
-{
-"word": "Hebrew",
-"start": 55.89817,
-"end": 56.25421
-},
-{
-"word": "wins.",
-"start": 56.25421,
-"end": 56.76505
-},
-{
-"word": "Step",
-"start": 56.93533,
-"end": 57.213966
-},
-{
-"word": "six:",
-"start": 57.213966,
-"end": 57.570007
-},
-{
-"word": "Hebrew",
-"start": 58.251125,
-"end": 58.638126
-},
-{
-"word": "class",
-"start": 58.638126,
-"end": 58.994164
-},
-{
-"word": "for",
-"start": 58.994164,
-"end": 59.148964
-},
-{
-"word": "every",
-"start": 59.148964,
-"end": 59.443085
-},
-{
-"word": "wave",
-"start": 59.443085,
-"end": 59.628845
-},
-{
-"word": "of",
-"start": 59.628845,
-"end": 59.7372
-},
-{
-"word": "newcomers.",
-"start": 59.7372,
-"end": 60.371883
-},
-{
-"word": "The",
-"start": 61.269722,
-"end": 61.45548
-},
-{
-"word": "ulpan,",
-"start": 61.48644,
-"end": 61.93536
-},
-{
-"word": "since",
-"start": 62.02824,
-"end": 62.322357
-},
-{
-"word": "nineteen",
-"start": 62.322357,
-"end": 62.6784
-},
-{
-"word": "forty",
-"start": 62.6784,
-"end": 62.95704
-},
-{
-"word": "nine.",
-"start": 62.95704,
-"end": 63.313076
-},
-{
-"word": "Step",
-"start": 64.396675,
-"end": 64.690796
-},
-{
-"word": "seven:",
-"start": 64.690796,
-"end": 65.13971
-},
-{
-"word": "today,",
-"start": 65.29451,
-"end": 65.77439
-},
-{
-"word": "over",
-"start": 65.86727,
-"end": 66.09947
-},
-{
-"word": "nine",
-"start": 66.09947,
-"end": 66.34715
-},
-{
-"word": "million",
-"start": 66.34715,
-"end": 66.64127
-},
-{
-"word": "people",
-"start": 66.64127,
-"end": 66.91991
-},
-{
-"word": "speak",
-"start": 66.91991,
-"end": 67.18307
+"start": 20.959879,
+"end": 21.06824
 },
 {
 "word": "it.",
-"start": 67.18307,
-"end": 67.36883
+"start": 21.06824,
+"end": 21.223038
 },
 {
-"word": "Linguists",
-"start": 68.43694,
-"end": 68.901344
+"word": "Itamar,",
+"start": 21.548119,
+"end": 22.058956
 },
 {
-"word": "call",
-"start": 68.901344,
-"end": 69.102585
+"word": "born",
+"start": 22.151836,
+"end": 22.430477
 },
 {
-"word": "it",
-"start": 69.102585,
-"end": 69.226425
+"word": "eighteen",
+"start": 22.430477,
+"end": 22.724596
+},
+{
+"word": "eighty",
+"start": 22.724596,
+"end": 22.910355
+},
+{
+"word": "two.",
+"start": 22.910355,
+"end": 23.173515
+},
+{
+"word": "One",
+"start": 23.653395,
+"end": 23.808193
+},
+{
+"word": "of",
+"start": 23.808193,
+"end": 23.870113
 },
 {
 "word": "the",
-"start": 69.257385,
-"end": 69.350266
+"start": 23.870113,
+"end": 23.932034
 },
 {
-"word": "most",
-"start": 69.350266,
-"end": 69.582466
+"word": "first",
+"start": 23.932034,
+"end": 24.257113
 },
 {
-"word": "successful",
-"start": 69.582466,
-"end": 70.06234
+"word": "native",
+"start": 24.257113,
+"end": 24.489311
 },
 {
-"word": "language",
-"start": 70.06234,
-"end": 70.38742
-},
-{
-"word": "revival",
-"start": 70.38742,
-"end": 70.82086
+"word": "speakers",
+"start": 24.489311,
+"end": 24.860832
 },
 {
 "word": "in",
-"start": 70.82086,
-"end": 70.89826
+"start": 24.860832,
+"end": 24.93823
 },
 {
-"word": "history.",
-"start": 70.89826,
-"end": 71.37814
+"word": "modern",
+"start": 24.93823,
+"end": 25.278791
 },
 {
-"word": "If",
-"start": 72.30694,
-"end": 72.46174
+"word": "times.",
+"start": 25.278791,
+"end": 25.85155
 },
 {
-"word": "a",
-"start": 72.46174,
-"end": 72.52366
+"word": "Step",
+"start": 26.03731,
+"end": 26.331429
 },
 {
-"word": "country",
-"start": 72.52366,
-"end": 72.81778
+"word": "four:",
+"start": 26.331429,
+"end": 26.671988
 },
 {
-"word": "can",
-"start": 72.81778,
-"end": 72.97258
+"word": "no",
+"start": 27.198307,
+"end": 27.445986
 },
 {
-"word": "learn",
-"start": 72.97258,
-"end": 73.12738
+"word": "word",
+"start": 27.445986,
+"end": 27.647226
 },
 {
-"word": "a",
-"start": 73.12738,
-"end": 73.1893
+"word": "for",
+"start": 27.647226,
+"end": 27.802025
 },
 {
-"word": "dead",
-"start": 73.1893,
-"end": 73.39053
+"word": "ice",
+"start": 27.802025,
+"end": 28.018745
 },
 {
-"word": "language,",
-"start": 73.39053,
-"end": 73.963295
+"word": "cream?",
+"start": 28.018745,
+"end": 28.343824
 },
 {
-"word": "you",
-"start": 74.025215,
-"end": 74.180016
-},
-{
-"word": "can",
-"start": 74.180016,
-"end": 74.288376
-},
-{
-"word": "learn",
-"start": 74.288376,
-"end": 74.47414
-},
-{
-"word": "a",
-"start": 74.47414,
-"end": 74.5051
-},
-{
-"word": "living",
-"start": 74.5051,
-"end": 74.7373
+"word": "Invent",
+"start": 28.823704,
+"end": 29.148783
 },
 {
 "word": "one.",
-"start": 74.7373,
-"end": 74.95401
+"start": 29.148783,
+"end": 29.396463
 },
 {
-"word": "Now.",
-"start": 75.55773,
-"end": 75.94473
+"word": "Dictionary.",
+"start": 29.659622,
+"end": 30.2943
 },
 {
-"word": "How",
-"start": 76.548454,
-"end": 76.68777
+"word": "Ice",
+"start": 30.77418,
+"end": 31.03734
 },
 {
-"word": "do",
-"start": 76.68777,
-"end": 76.81161
+"word": "cream.",
+"start": 31.03734,
+"end": 31.3779
 },
 {
-"word": "you",
-"start": 76.81161,
-"end": 76.90449
+"word": "Doll.",
+"start": 31.888739,
+"end": 32.275738
 },
 {
-"word": "build",
-"start": 76.90449,
-"end": 77.12121
+"word": "Omelette.",
+"start": 32.755615,
+"end": 33.142616
+},
+{
+"word": "Then",
+"start": 33.529613,
+"end": 33.715374
+},
+{
+"word": "the",
+"start": 33.715374,
+"end": 33.777294
+},
+{
+"word": "dictionary.",
+"start": 33.777294,
+"end": 34.35005
+},
+{
+"word": "Seventeen",
+"start": 35.00021,
+"end": 35.44913
+},
+{
+"word": "volumes.",
+"start": 35.44913,
+"end": 36.02189
+},
+{
+"word": "Fifty",
+"start": 36.50177,
+"end": 36.826847
+},
+{
+"word": "one",
+"start": 36.826847,
+"end": 36.981647
+},
+{
+"word": "years.",
+"start": 36.981647,
+"end": 37.461525
+},
+{
+"word": "Step",
+"start": 37.972366,
+"end": 38.266487
+},
+{
+"word": "five:",
+"start": 38.266487,
+"end": 38.668964
+},
+{
+"word": "nineteen",
+"start": 39.179802,
+"end": 39.566803
+},
+{
+"word": "thirteen.",
+"start": 39.566803,
+"end": 40.01572
+},
+{
+"word": "Your",
+"start": 40.37176,
+"end": 40.55752
+},
+{
+"word": "technical",
+"start": 40.55752,
+"end": 40.94452
+},
+{
+"word": "college",
+"start": 40.94452,
+"end": 41.2696
+},
+{
+"word": "plans",
+"start": 41.2696,
+"end": 41.610157
+},
+{
+"word": "to",
+"start": 41.610157,
+"end": 41.718517
+},
+{
+"word": "teach",
+"start": 41.718517,
+"end": 41.997158
+},
+{
+"word": "science",
+"start": 41.997158,
+"end": 42.32224
+},
+{
+"word": "in",
+"start": 42.32224,
+"end": 42.415115
+},
+{
+"word": "German.",
+"start": 42.415115,
+"end": 42.802116
+},
+{
+"word": "Teachers",
+"start": 43.560635,
+"end": 43.947636
+},
+{
+"word": "and",
+"start": 43.947636,
+"end": 44.040512
+},
+{
+"word": "students",
+"start": 44.040512,
+"end": 44.396553
+},
+{
+"word": "walk",
+"start": 44.396553,
+"end": 44.628754
+},
+{
+"word": "out.",
+"start": 44.628754,
+"end": 44.90739
+},
+{
+"word": "February",
+"start": 45.38727,
+"end": 45.74331
+},
+{
+"word": "nineteen",
+"start": 45.74331,
+"end": 46.09935
+},
+{
+"word": "fourteen:",
+"start": 46.09935,
+"end": 46.548267
+},
+{
+"word": "Hebrew",
+"start": 46.98171,
+"end": 47.368706
+},
+{
+"word": "wins.",
+"start": 47.368706,
+"end": 47.848587
+},
+{
+"word": "Step",
+"start": 48.467785,
+"end": 48.777386
+},
+{
+"word": "six:",
+"start": 48.777386,
+"end": 49.319183
+},
+{
+"word": "the",
+"start": 49.427544,
+"end": 49.582344
+},
+{
+"word": "ulpan.",
+"start": 49.613304,
+"end": 49.90742
+},
+{
+"word": "Hebrew",
+"start": 50.72786,
+"end": 50.99102
+},
+{
+"word": "class",
+"start": 50.99102,
+"end": 51.20774
+},
+{
+"word": "for",
+"start": 51.20774,
+"end": 51.30062
+},
+{
+"word": "newcomers,",
+"start": 51.30062,
+"end": 51.91982
+},
+{
+"word": "since",
+"start": 51.95078,
+"end": 52.26038
+},
+{
+"word": "nineteen",
+"start": 52.26038,
+"end": 52.616417
+},
+{
+"word": "forty",
+"start": 52.616417,
+"end": 52.817657
+},
+{
+"word": "nine.",
+"start": 52.817657,
+"end": 53.06534
+},
+{
+"word": "Step",
+"start": 53.792896,
+"end": 54.056053
+},
+{
+"word": "seven:",
+"start": 54.056053,
+"end": 54.381134
+},
+{
+"word": "today,",
+"start": 54.87649,
+"end": 55.263493
+},
+{
+"word": "over",
+"start": 55.464733,
+"end": 55.71241
+},
+{
+"word": "nine",
+"start": 55.71241,
+"end": 55.94461
+},
+{
+"word": "million",
+"start": 55.94461,
+"end": 56.19229
+},
+{
+"word": "people",
+"start": 56.19229,
+"end": 56.45545
+},
+{
+"word": "speak",
+"start": 56.45545,
+"end": 56.70313
+},
+{
+"word": "it.",
+"start": 56.70313,
+"end": 56.82697
+},
+{
+"word": "Linguists",
+"start": 57.399727,
+"end": 57.86413
+},
+{
+"word": "call",
+"start": 57.86413,
+"end": 58.080845
+},
+{
+"word": "it",
+"start": 58.080845,
+"end": 58.173725
+},
+{
+"word": "the",
+"start": 58.173725,
+"end": 58.235645
+},
+{
+"word": "most",
+"start": 58.235645,
+"end": 58.529766
+},
+{
+"word": "successful",
+"start": 58.529766,
+"end": 59.040604
+},
+{
+"word": "language",
+"start": 59.040604,
+"end": 59.365685
+},
+{
+"word": "revival",
+"start": 59.365685,
+"end": 59.7372
+},
+{
+"word": "in",
+"start": 59.7372,
+"end": 59.8146
+},
+{
+"word": "history.",
+"start": 59.8146,
+"end": 60.217083
+},
+{
+"word": "If",
+"start": 61.053,
+"end": 61.17684
 },
 {
 "word": "a",
-"start": 77.12121,
-"end": 77.16765
+"start": 61.17684,
+"end": 61.254242
+},
+{
+"word": "country",
+"start": 61.254242,
+"end": 61.62576
+},
+{
+"word": "can",
+"start": 61.62576,
+"end": 61.76508
+},
+{
+"word": "learn",
+"start": 61.76508,
+"end": 61.9818
+},
+{
+"word": "a",
+"start": 61.9818,
+"end": 62.04372
+},
+{
+"word": "dead",
+"start": 62.04372,
+"end": 62.244957
+},
+{
+"word": "language,",
+"start": 62.244957,
+"end": 62.81772
+},
+{
+"word": "you",
+"start": 63.173756,
+"end": 63.297596
+},
+{
+"word": "can",
+"start": 63.297596,
+"end": 63.452396
+},
+{
+"word": "learn",
+"start": 63.452396,
+"end": 63.638157
+},
+{
+"word": "a",
+"start": 63.638157,
+"end": 63.684597
+},
+{
+"word": "living",
+"start": 63.684597,
+"end": 63.963234
+},
+{
+"word": "one.",
+"start": 63.963234,
+"end": 64.148994
+},
+{
+"word": "Now.",
+"start": 64.613396,
+"end": 64.95396
+},
+{
+"word": "How",
+"start": 65.52671,
+"end": 65.63507
+},
+{
+"word": "do",
+"start": 65.63507,
+"end": 65.75891
+},
+{
+"word": "you",
+"start": 65.75891,
+"end": 65.82083
+},
+{
+"word": "build",
+"start": 65.82083,
+"end": 66.00659
+},
+{
+"word": "a",
+"start": 66.00659,
+"end": 66.03755
 },
 {
 "word": "country?",
-"start": 77.16765,
-"end": 77.61657
+"start": 66.03755,
+"end": 66.45551
 }
 ]

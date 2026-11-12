@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "Build a country:|*resurrect* a language.",
- "duration": 68.3,
+ "duration": 59.5,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -2.1
+  "lufs": -16.2,
+  "true_peak": -0.1
  },
  "outputs": {
   "mp4": "out/manual_language.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.955,
+  "score": 0.957,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -91,28 +91,28 @@
     "flag": "ok"
    },
    {
-    "line": "Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Good luck with the first meeting.",
-    "score": 0.917,
+    "line": "Yiddish. Arabic. Ladino. Russian. Persian. Amharic.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Step two: pick a language nobody has spoken as a mother tongue for about seventeen hundred years.",
-    "score": 0.941,
+    "line": "Step two: pick a language with no native speakers for about seventeen hundred years.",
+    "score": 0.929,
     "flag": "ok"
    },
    {
-    "line": "Step three: one man, Eliezer Ben-Yehuda, raises his son in it.",
+    "line": "Step three: Eliezer Ben-Yehuda raises his son in it.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Itamar, born eighteen eighty two. One of the first native speakers in modern times.",
-    "score": 0.857,
+    "score": 0.929,
     "flag": "ok"
    },
    {
     "line": "Step four: no word for ice cream? Invent one.",
-    "score": 1.0,
+    "score": 0.889,
     "flag": "ok"
    },
    {
@@ -136,8 +136,8 @@
     "flag": "ok"
    },
    {
-    "line": "Step six: Hebrew class for every wave of newcomers. The ulpan, since nineteen forty nine.",
-    "score": 0.867,
+    "line": "Step six: the ulpan. Hebrew class for newcomers, since nineteen forty nine.",
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -161,14 +161,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "How to build a country hard mode Resurrect a dead language step one your people arrive from more than 70 countries Yiddish Arabic Ladino Russian Persian and Herak good luck with the first meeting step two pick a language Nobody has spoken as a mother tongue for about 1,700 years step three one man Eliezer Ben Yehuda raises his son in it eat amar born 1882 2. One of the first native speakers in modern times. Step 4. No word for ice cream. Invent one. Dictionary. Ice cream. Doll. Omelette. Then the dictionary. 17 volumes. 51 years. Step 5. 1913. Your technical college plans to teach science in German. Teachers and students walk out. February 1914. Hebrew wins. Step 6. Hebrew class for every wave of newcomers. The Open since 1949. Step 7. Today. Over 9 million people speak it. Linguists call it the most successful language revival in history. If a country can learn a dead language, you can learn a living one. Now, how do you build a country?",
+  "heard": "How to build a country. Hard mode. Resurrect a dead language. Step 1. Your people arrive from more than 70 countries. Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Step 2. Pick a language with no native speakers for about 1700 years. Step 3. Eliezer Ben-Yehuda raises his son in it. Itamar, born 1882. One of the first native speakers in modern times. Step 4. No word for ice cream. In vent 1, dictionary, ice cream, doll, omelette. Then the dictionary. 17 volumes. 51 years. Step 5. 1913. Your technical college plans to teach science in German. Teachers and students walk out. February 1914. Hebrew wins. Step 6. The Open. Hebrew class for newcomers. Since 1949. Step 7. Today. Over 9 million people speak it. Linguists call it the most successful language revival in history. If a country can learn a dead language, you can learn a living one. Now, how do you build a country?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -2.1
+  "lufs": -16.2,
+  "true_peak": -0.1
  },
  "photos": [
   {
@@ -223,5 +223,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 202.8
+ "render_s": 173.6
 }
