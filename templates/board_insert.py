@@ -16,6 +16,7 @@ data keys (segment times are anchors: 1.2, "L3", "L3e", "L3:word", "L3:word+0.2"
   cut_a, cut_b                                  source seconds: head ends at cut_a, tail starts at cut_b
   drop        [[a, b], ...]                     source holds (no voice, no motion) cut out of the head
   xf          video cross-fade at both joins (default 0.2)
+  a1, a2      audio join centres, seconds after each video cross-fade starts (default xf / 2); audio_join = their width
   photos      [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], fx: "scrub"|"suds"|""}]
   titles      [{at, until, text}]               *word* = yellow
   stamps      [{at, until, text, ok, x}]        ok true = green tick, false = red cross
@@ -323,7 +324,7 @@ def run(S):
             paste(o, c["img"], x0 + (cxr - x0) * u, y0 + (cyr - y0) * u, s0 + (1 - s0) * u, min(1, (ts - f0t) / 0.06))
         enc.stdin.write(np.clip(o, 0, 255).astype(np.uint8).tobytes()); n_tail += 1
     enc.stdin.close(); assert enc.wait() == 0
-    tail_a = src_audio(src, cut_b)
+    PRE = min(0.3, cut_b); tail_a = src_audio(src, cut_b - PRE)                 # pre-roll so the audio join can sit before cut_b
 
     # ---------------------------------------------------------------- join
     off1 = (n_head - nX) / FPS; off2 = off1 + (n_seg - nX) / FPS; total = off2 + n_tail / FPS
@@ -338,7 +339,7 @@ def run(S):
     a1 = int((off1 + D.get("a1", XF / 2)) * SR); a2 = int((off2 + D.get("a2", XF / 2)) * SR)
     seg_full = np.concatenate([np.zeros((2, int(off1 * SR))), seg_a], 1)                     # segment on the output clock
     m1 = xfade_at(head_a, seg_full, a1, aj)
-    tail_full = np.concatenate([np.zeros((2, int(off2 * SR))), tail_a], 1)
+    tail_full = np.concatenate([np.zeros((2, int((off2 - PRE) * SR))), tail_a], 1)
     m2 = xfade_at(m1, tail_full, a2, aj)[:, :int(total * SR)]
     aud = loudnorm(m2, f"{work}/final.m4a", (S.get("music") or {}).get("lufs", -16))
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
