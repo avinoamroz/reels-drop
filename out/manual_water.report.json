@@ -1,0 +1,228 @@
+{
+ "id": "manual_water",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Build a country.|*No water.*",
+ "duration": 58.63,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/manual_water.mp4",
+  "cover": "covers/manual_water_cover.jpg",
+  "preview": "previews/manual_water_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/manual_water_0.jpg",
+  "1": "out/frames/manual_water_1.jpg",
+  "3": "out/frames/manual_water_3.jpg",
+  "last": "out/frames/manual_water_last.jpg"
+ },
+ "caption_en": "How to build a country. Hard mode. No water. 💧\n\n1. Start with a desert: the Negev is about 60% of Israel's land (Britannica; KKL-JNF). Rain in the far south is close to zero.\n2. Move a lake: the National Water Carrier opened on 10 June 1964, piping Sea of Galilee water south.\n3. Waste nothing: drip irrigation, Netafim, founded 1965 at Kibbutz Hatzerim in the Negev, building on Simcha Blass's invention (Times of Israel).\n4. Recycle the sewage: about 87% of treated wastewater is reused, mostly for farming (Knesset Research and Information Center, 2018, 2014 data). Spain is second at about 20% (Atlantic Council, 2019, citing a 2016 report).\n5. Drink the sea: Ashkelon (2005), Sorek (2013). Desalination supplied 540 million cubic meters in 2022 (State Comptroller, 2024). About 60% of drinking water is now desalinated (Taub Center, State of the Nation 2025).\n6. Share it: about 50 million cubic meters a year go to Jordan under the 1994 peace treaty. A 2021 deal doubled that; the extra 50 million lapsed in November 2025 and has not been renewed (Ynet, July 2026). And since 2025 the carrier also runs in reverse: desalinated sea water is pumped into the Sea of Galilee (Israel Water Authority, via TPS, 2025).\n\nWater is still a real point of tension in the region: Palestinian water access in the West Bank is governed by the 1995 Oslo II accords (Article 40) and remains disputed, and Jordan wants more than Israel now sells.\n\nPhotos via Wikimedia Commons: Godot13 (CC BY-SA 4.0, Negev); Fritz Cohen (public domain, carrier works, 1960s); Hanay (CC BY-SA 3.0, carrier canal); Almog (public domain); Avishai Teicher (CC BY-SA 4.0, Netafim, Hatzerim); Juandev (CC BY-SA 3.0, drip); Matty Stern, U.S. Embassy Tel Aviv (CC BY 2.0, Sorek plant); Israel GPO (CC BY-SA 3.0, Rabin and King Hussein, 1994); Davidi Vardi (CC BY 2.5, Sea of Galilee). AI voice.\n\nSend this to someone who builds.",
+ "caption_he": "איך בונים מדינה. רמת קושי: אין מים.\n1. מתחילים ממדבר: הנגב הוא כ־60% מהשטח.\n2. מזיזים אגם: המוביל הארצי, 1964.\n3. לא מבזבזים טיפה: טפטוף, נטפים, קיבוץ חצרים, 1965.\n4. ממחזרים ביוב: כ־87% מהקולחין המטוהרים חוזרים לחקלאות. מקום ראשון בעולם.\n5. שותים את הים: אשקלון 2005, שורק 2013. כ־60% ממי השתייה מותפלים.\n6. חולקים: כ־50 מיליון קוב בשנה לירדן לפי הסכם השלום. ומאז 2025 המוביל זורם גם הפוך, מים מותפלים לכנרת.\nהמים עדיין מקור למתח אמיתי באזור, עם הפלסטינים ועם השכנים.",
+ "hashtags": [
+  "#Israel",
+  "#water",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Britannica; KKL-JNF",
+   "year": 2025,
+   "at": "L1",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "National Water Carrier, opened 10 Jun",
+   "year": 1964,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Netafim, via Times of Israel",
+   "year": 2013,
+   "at": "L4",
+   "until": "L5-0.1"
+  },
+  {
+   "label": "Knesset Research Center (2014 data)",
+   "year": 2018,
+   "at": "L5",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Atlantic Council, citing a 2016 report",
+   "year": 2019,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "State Comptroller of Israel",
+   "year": 2024,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "Taub Center, State of the Nation",
+   "year": 2025,
+   "at": "L8",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "1994 peace treaty, via Ynet",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Israel Water Authority, via TPS",
+   "year": 2025,
+   "at": "L10",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "Oslo II Art. 40 (1995); Ynet",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.975,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "How to build a country. Hard mode. No water.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step one: start with a desert. About sixty percent of your land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Rain in the far south? Almost none.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step two: move a lake. Nineteen sixty four, you pipe the Sea of Galilee south.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Step three: waste nothing. A kibbutz in the desert starts making drippers. One drop, straight to the root.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step four: recycle the sewage. Eighty seven percent of treated wastewater goes back to the fields.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Number one in the world. Number two, Spain: about twenty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step five: drink the sea. Ashkelon, two thousand five. Sorek, two thousand thirteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, about sixty percent of your drinking water comes from the sea.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step six: share it. Fifty million cubic meters a year, to Jordan.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the old carrier? Now it runs backwards. Desalinated sea water, pumped into the Sea of Galilee.",
+    "score": 0.882,
+    "flag": "ok"
+   },
+   {
+    "line": "Water is still a real point of tension with Palestinians and neighbours.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "So. How do you build a country with no water?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "How to build a country. Hard mode. No water. Step 1. Start with a desert. About 60% of your land. Rain in the far south. Almost none. Step 2. Move a lake. 1964. You pipe the sea of Galilee south. Step 3. Waste nothing. A kibbutz in the desert starts making drippers. One drop, straight to the root. Step 4. Recycle the sewage. 87% of treated wastewater goes back to the fields. Number one in the world. Number two Spain, about 20. Step five, drink the sea. Ashkelon, 2005. Sorek, 2013. Today, about 60% of your drinking water comes from the sea. Step six, share it. 50 million cubic meters a year to Jordan, and the old carrier. Now it runs backwards, desalinated seawater, pumped into the Sea of Galilee. Water is still a real point of tension with Palestinians and neighbors. So, how do you build a country with no water.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/manual_water/negev.jpg",
+   "credit": "Godot13, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/dry.jpg",
+   "credit": "Godot13, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/pipe1964.jpg",
+   "credit": "Fritz Cohen, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/carrier.jpg",
+   "credit": "Hanay, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/netafim.jpg",
+   "credit": "Avishai Teicher, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/drip.jpg",
+   "credit": "Juandev, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/movil.jpg",
+   "credit": "Almog, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/dripsys.jpg",
+   "credit": "Juandev, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/sorek_m0.jpg",
+   "credit": "Matty Stern, U.S. Embassy Tel Aviv, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/manual_water/sorek_m2.jpg",
+   "credit": "Matty Stern, U.S. Embassy Tel Aviv, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/manual_water/jordan.jpg",
+   "credit": "Israel GPO, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/kinneret.jpg",
+   "credit": "Davidi Vardi, CC BY 2.5, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_water/negev.jpg",
+   "credit": "Godot13, CC BY-SA 4.0, Wikimedia Commons"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 173.7
+}
