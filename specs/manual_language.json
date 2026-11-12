@@ -21,15 +21,15 @@
    "screen": "*1.* People from *70+* countries"
   },
   {
-   "say": "Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Good luck with the first meeting.",
+   "say": "Yiddish. Arabic. Ladino. Russian. Persian. Amharic.",
    "screen": "Yiddish, Arabic, Ladino, Russian, Persian, Amharic..."
   },
   {
-   "say": "Step two: pick a language nobody has spoken as a mother tongue for about seventeen hundred years.",
+   "say": "Step two: pick a language with no native speakers for about seventeen hundred years.",
    "screen": "*2.* No native speakers for about *1,700* years"
   },
   {
-   "say": "Step three: one man, Eliezer Ben-Yehuda, raises his son in it.",
+   "say": "Step three: Eliezer Ben-Yehuda raises his son in it.",
    "screen": "*3.* Eliezer Ben-Yehuda raises his son in Hebrew"
   },
   {
@@ -57,7 +57,7 @@
    "screen": "Walkout. *1914:* Hebrew wins."
   },
   {
-   "say": "Step six: Hebrew class for every wave of newcomers. The ulpan, since nineteen forty nine.",
+   "say": "Step six: the ulpan. Hebrew class for newcomers, since nineteen forty nine.",
    "screen": "*6.* Ulpan: Hebrew class for newcomers, since *1949*"
   },
   {
@@ -289,7 +289,7 @@
   ],
   "stamp": [
    {
-    "at": "L3:mother",
+    "at": "L3:native",
     "until": "L4-0.1",
     "text": "DEAD?",
     "color": "red",
