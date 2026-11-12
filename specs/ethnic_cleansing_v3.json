@@ -41,7 +41,7 @@
    "until": "L2-0.05"
   },
   {
-   "say": "It can be a crime against humanity, or genocide.",
+   "say": "A crime against humanity, or genocide.",
    "gap": 0.35,
    "screen": "A *crime against humanity,* or *genocide*",
    "at": "L2",
@@ -110,7 +110,7 @@
    "until": "L14-0.05"
   },
   {
-   "say": "seven point two million leaflets, thirteen point seven million texts, fifteen million recorded calls.",
+   "say": "seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
    "gap": 0.3,
    "screen": "Warnings, *plus* evacuation routes",
    "at": "L14",
@@ -124,7 +124,7 @@
    "until": "L16-0.05"
   },
   {
-   "say": "Critics call mass evacuation orders forced displacement.",
+   "say": "Critics call the evacuations forced displacement.",
    "gap": 0.2,
    "screen": "Critics: *forced displacement*",
    "at": "L16",
@@ -166,7 +166,7 @@
    "gap": 0.4
   },
   {
-   "say": "Next time someone shouts ethnic cleansing, ask them what it means.",
+   "say": "Next time someone shouts ethnic cleansing, ask what it means.",
    "screen": "Next time someone shouts *ethnic cleansing,* ask what it means.",
    "at": "L22",
    "until": "END-0.3",
