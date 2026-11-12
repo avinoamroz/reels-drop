@@ -1,0 +1,19 @@
+{
+ "name": "gfc_loot",
+ "url": "https://commons.wikimedia.org/wiki/File:US_Drone_Observes_Aid_Truck_Looted_by_Hamas_in_Gaza.webm",
+ "source": "Wikimedia Commons",
+ "title": "File:US Drone Observes Aid Truck Looted by Hamas in Gaza.webm",
+ "page": "https://commons.wikimedia.org/wiki/File:US_Drone_Observes_Aid_Truck_Looted_by_Hamas_in_Gaza.webm",
+ "license": "Public domain",
+ "license_url": null,
+ "author": "U.S. Central Command Public Affairs",
+ "credit": "https://www.dvidshub.net/video/985788/us-drone-observes-aid-truck-looted-hamas-gaza",
+ "attribution_required": "false",
+ "usage_terms": "Public domain",
+ "date": "2025-10-31",
+ "description": "On Oct. 31, the U.S.-led Civil-Military Coordination Center (CMCC) observed suspected Hamas operatives looting an aid truck traveling as part of a humanitarian convoy delivering needed assistance from international partners to Gazans in northern Khan Younis.",
+ "credit_line": "U.S. Central Command Public Affairs, Public domain, Wikimedia Commons",
+ "downloaded": "https://upload.wikimedia.org/wikipedia/commons/7/77/US_Drone_Observes_Aid_Truck_Looted_by_Hamas_in_Gaza.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+ "ok": false,
+ "error": "ValueError: not an image: video/webm from https://upload.wikimedia.org/wikipedia/commons/7/77/US_Drone_Observes_Aid_Truck_Looted_by_Hamas_in_Gaza.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original"
+}
