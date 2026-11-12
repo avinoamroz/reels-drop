@@ -15,6 +15,7 @@
  },
  "subs_replace": {
   "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS",
+  "<<f|ə|ˈ|l|ɑ|f|ə|l>>": "Falafel",
   "T shirt": "T-shirt",
   "twenty seventeen": "2017",
   "twenty twenty three": "2023",
@@ -70,7 +71,7 @@
    "until": "L8-0.05"
   },
   {
-   "say": "Falafel.",
+   "say": "<<f|ə|ˈ|l|ɑ|f|ə|l>>.",
    "gap": 0.36
   },
   {
