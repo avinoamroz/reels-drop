@@ -71,7 +71,7 @@
   }
  ],
  "transcript": {
-  "score": 0.873,
+  "score": 0.879,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -136,7 +136,7 @@
    },
    {
     "line": "In July, the UN said gunmen of <<h|ɑ|ˈ|m|ɑ|s>>'s government stormed a food point.",
-    "score": 0.75,
+    "score": 0.688,
     "flag": "MISS"
    },
    {
@@ -146,8 +146,8 @@
    },
    {
     "line": "So where is hunger worst right now?",
-    "score": 0.571,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Sudan. A hundred and thirty-five thousand at the famine level. And where does the world look?",
@@ -161,11 +161,11 @@
    },
    {
     "line": "So. Famine in Gaza?",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.75,
+    "flag": "MISS"
    }
   ],
-  "heard": "Famine in Gaza. Watch. They're starving. There's no food. First, the truth. In August 2025, famine was confirmed around Gaza City. Israel disputed the method. But the hunger was real. Then, in October, a ceasefire. And trucks. By June, Israel counted 1.78 million tons of food. Flour, sugar, tomatoes. About 60% says the UN's food agency. Late 2025, 100,000 Gazans at the famine level. This summer, zero. Hunger isn't over. 1.2 million still face crisis or worse. And the food? The US drone filmed suspected Hamas men looting an aid truck. In July, the UN said gunmen of Hamas's government stormed a food point. These incidents are not isolated. So where is hunger worse, Dragon? Sudan. 135,000 at the famine level. famine level. And where does the world look? Gazans deserve food, and better than Hamas. So, famine in Gaza.",
+  "heard": "Famine in Gaza. Watch. They're starving. There's no food. First, the truth. In August 2025, famine was confirmed around Gaza City. Israel disputed the method. But the hunger was real. Then, in October, a ceasefire. And trucks. By June, Israel counted 1.78 million tons of food. Flour, sugar, tomatoes. About 60% cheaper, as the UN's food agency. Late 2025, 100,000 Gazans at the famine level. This summer, zero. Hunger isn't over. 1.2 million still face crisis or worse than the food? The US drone filmed suspected Hamas men looting an aid truck. In July, the UN said gunman of Hamas-esque government stormed a food point. These incidents are not isolated. So where is hunger worst right now? Sudan. 135,000 at the famine level. And where does the world look? Gazans deserve food and better than Hamas. Sorry, famine in Gaza.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -177,47 +177,47 @@
  "photos": [
   {
    "file": "templates/photos/gaza_famine_claim/sack.jpg",
-   "credit": "Eliran t, Gaza Strip, Oct 2024, CC BY-SA 4.0, Wikimedia Commons"
+   "credit": "Eliran t, Gaza, 2024, CC BY-SA 4.0"
   },
   {
    "file": "templates/photos/gaza_famine_claim/mawasi.jpg",
-   "credit": "Ashraf Amra, Al-Mawasi, Jan 2025, CC BY-SA 3.0 IGO, Wikimedia Commons"
+   "credit": "Ashraf Amra, Al-Mawasi, Jan 2025, CC BY-SA 3.0 IGO"
   },
   {
    "file": "templates/photos/gaza_famine_claim/kerem.jpg",
-   "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025, public domain"
+   "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025"
   },
   {
    "file": "templates/photos/gaza_famine_claim/zikim1.jpg",
-   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025"
   },
   {
    "file": "templates/photos/gaza_famine_claim/zikim2.jpg",
-   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025"
   },
   {
    "file": "templates/photos/gaza_famine_claim/kerem2.jpg",
-   "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025, public domain"
+   "credit": "U.S. Army, Kerem Shalom, 13 Nov 2025"
   },
   {
    "file": "templates/photos/gaza_famine_claim/kis.jpg",
-   "credit": "U.S. Army, Kissufim crossing, 3 Dec 2025, public domain"
+   "credit": "U.S. Army, Kissufim crossing, 3 Dec 2025"
   },
   {
    "file": "templates/photos/gaza_famine_claim/cmcc.jpg",
-   "credit": "U.S. Army, CMCC, Kiryat Gat, 23 Nov 2025, public domain"
+   "credit": "U.S. Army, CMCC, Kiryat Gat, 23 Nov 2025"
   },
   {
    "file": "templates/photos/gaza_famine_claim/zikim1.jpg",
-   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025, public domain"
+   "credit": "U.S. Army, Zikim crossing, 25 Nov 2025"
   },
   {
    "file": "templates/photos/gaza_famine_claim/sack.jpg",
-   "credit": "Eliran t, Gaza Strip, Oct 2024, CC BY-SA 4.0, Wikimedia Commons"
+   "credit": "Eliran t, Gaza, 2024, CC BY-SA 4.0"
   }
  ],
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 110.0
+ "render_s": 177.5
 }
