@@ -1,0 +1,227 @@
+{
+ "id": "manual_language",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Build a country:|*resurrect* a language.",
+ "duration": 67.13,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/manual_language.mp4",
+  "cover": "covers/manual_language_cover.jpg",
+  "preview": "previews/manual_language_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/manual_language_0.jpg",
+  "1": "out/frames/manual_language_1.jpg",
+  "3": "out/frames/manual_language_3.jpg",
+  "last": "out/frames/manual_language_last.jpg"
+ },
+ "caption_en": "How to build a country. Hard mode. This time: resurrect a dead language. 📘\n\n1. Your people arrive from 70+ countries (3.09M immigrants 1948 to 2011, Jewish Virtual Library).\n2. Pick a language with no native speakers for about 1,700 years (spoken Hebrew died out around 200 CE: Kutscher, Academy of the Hebrew Language).\n3. Eliezer Ben-Yehuda raises his son Itamar Ben-Avi (born 1882) in Hebrew, one of its first native speakers in modern times.\n4. Invent words: millon (dictionary), glida (ice cream), bubba (doll), havita (omelette). His dictionary: 17 volumes, 1908 to 1959 (Academy of the Hebrew Language).\n5. 1913: the Technikum in Haifa plans science classes in German. Teachers and students walk out. Feb 1914: Hebrew wins (Encyclopaedia Judaica).\n6. Ulpan Hebrew classes for newcomers, since 1949 (Jewish Agency).\n7. Today: over 9 million speakers (Israel CBS 2023 survey; National Geographic 2023). The most successful language revival in history (Grenoble and Whaley, 2005).\n\nHe didn't do it alone: teachers, parents and kids did. And if a country can learn a dead language, you can learn a living one.\n\nPhotos (Wikimedia Commons): PikiWiki Israel; Craig Talbert CC BY 2.0; Shlomo Narinsky; GPO Israel; Ya'ackov Ben-Dov; Matson Collection, LOC; Leni Sonnenfeld; Korenn CC BY-SA 4.0. AI voice.\n\nSend this to someone learning a language.",
+ "caption_he": "איך בונים מדינה, רמת קושי: קשה. הפעם: מחיים שפה מתה.\nעולים מיותר מ־70 מדינות. שפה בלי דוברי אם כ־1,700 שנה. אליעזר בן־יהודה מגדל את איתמר (1882) בעברית. מילון, גלידה, בובה, חביתה. מלחמת השפות ב־1913 בטכניון. אולפן מאז 1949. היום: יותר מ־9 מיליון דוברים.\nאם מדינה שלמה למדה שפה מתה, גם אתם יכולים ללמוד שפה חיה.",
+ "hashtags": [
+  "#Israel",
+  "#Hebrew",
+  "#history"
+ ],
+ "sources": [
+  {
+   "label": "Jewish Virtual Library: immigrants 1948 to 2011",
+   "year": 2011,
+   "at": "L1",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Kutscher, via Academy of the Hebrew Language",
+   "year": 1982,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Academy of the Hebrew Language, UNESCO file",
+   "year": 2026,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Academy of the Hebrew Language",
+   "year": 2026,
+   "at": "L6",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "Encyclopaedia Judaica: Language War",
+   "year": 2007,
+   "at": "L9",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "Jewish Agency: Ulpan Etzion, since 1949",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "Israel CBS survey; National Geographic",
+   "year": 2023,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "Grenoble and Whaley, Saving Languages",
+   "year": 2005,
+   "at": "L13",
+   "until": "L14-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.951,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "How to build a country. Hard mode. Resurrect a dead language.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step one: your people arrive from more than seventy countries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Good luck with the first meeting.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step two: pick a language nobody has spoken as a mother tongue for about seventeen hundred years.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Step three: one man, Eliezer Ben-Yehuda, raises his son in it.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Itamar, born eighteen eighty two. One of the first native speakers in modern times.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Step four: no word for ice cream? Invent one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Dictionary. Ice cream. Doll. Omelette.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then write the dictionary. Seventeen volumes. It takes fifty one years.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step five: nineteen thirteen. Your new technical college plans to teach science in German.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Teachers and students walk out. February nineteen fourteen: Hebrew wins.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Step six: every wave of newcomers gets a Hebrew class. The ulpan. Since nineteen forty nine.",
+    "score": 0.812,
+    "flag": "ok"
+   },
+   {
+    "line": "Step seven: today, over nine million people speak it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Linguists call it the most successful language revival in history.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So if a country can learn a dead language, you can learn a living one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now. How do you build a country?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "How to build a country. Hard mode. Resurrect a dead language. Step 1. Your people arrive from more than 70 countries. Yiddish. Arabic. Ladino. Russian. Persian. Amharic. Good luck with the first meeting. Step 2. Pick a language nobody has spoken as a mother tongue for about 1700 years. Step 3. One man, Ilya Zerben Yehuda, raises his son in it. Itamar. Born 1882. One of the first native speakers in modern times. Step 4. No word for ice cream. Invent one. Dictionary. Ice cream. Doll. Omelette. Then write the dictionary. 17 volumes. It takes 51 years. Step 5. 1913. Your new technical college plans to teach science in German. Teachers and students walk out. February 1914. Hebrew wins. Step 6. Every wave of newcomers gets a Hebrew class. The Open. 1949. Step seven. Today, over 9 million people speak it. Linguists call it the most successful language revival in history. So if a country can learn a dead language, you can learn a living one. Now, how do you build a country?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/manual_language/imm.jpg",
+   "credit": "Unknown photographer, public domain, PikiWiki Israel"
+  },
+  {
+   "file": "templates/photos/manual_language/ramon.jpg",
+   "credit": "Craig Talbert, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_language/bypage.jpg",
+   "credit": "Ben-Yehuda dictionary, 1908, public domain"
+  },
+  {
+   "file": "templates/photos/manual_language/desk.jpg",
+   "credit": "Shlomo Narinsky, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_language/itamar.jpg",
+   "credit": "GPO Israel, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_language/committee.jpg",
+   "credit": "Ya'ackov Ben-Dov, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_language/bypage.jpg",
+   "credit": "Ben-Yehuda dictionary, 1908, public domain"
+  },
+  {
+   "file": "templates/photos/manual_language/tech.jpg",
+   "credit": "Matson Collection, Library of Congress, public domain"
+  },
+  {
+   "file": "templates/photos/manual_language/ulpan2.jpg",
+   "credit": "Leni Sonnenfeld, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_language/street.jpg",
+   "credit": "Korenn, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_language/desk.jpg",
+   "credit": "Shlomo Narinsky, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/manual_language/imm.jpg",
+   "credit": "Unknown photographer, public domain, PikiWiki Israel"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 196.2
+}
