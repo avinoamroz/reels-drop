@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "board_insert",
  "hook": "Ethnic cleansing:|*yes or no?*",
- "duration": 65.63,
+ "duration": 64.9,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -1.8
  },
  "outputs": {
   "mp4": "out/ethnic_cleansing_v2.mp4",
@@ -19,8 +19,8 @@
   "3": "out/frames/ethnic_cleansing_v2_3.jpg",
   "last": "out/frames/ethnic_cleansing_v2_last.jpg"
  },
- "caption_en": "Ethnic cleansing: yes or no? Let's sort it 🧽\n\nUN definition (1993): \"rendering an area ethnically homogeneous by using force or intimidation\". Not a separate crime in law, but it can amount to crimes against humanity or genocide.\n\nCleansing, but not ethnic: scrubbing a rubber duck, washing a T-shirt. Ethnic, but not cleansing: a plate of falafel. None of them is ethnic cleansing.\n\nNazi Germany hunted Jews, deported them by train and murdered 6 million. Worse than ethnic cleansing: genocide.\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \"a textbook example of ethnic cleansing\".\nWest Darfur, Sudan, 2023: thousands of Masalit killed, hundreds of thousands driven out. Human Rights Watch: ethnic cleansing.\n\nIsrael fights HAMAS in Gaza and warned civilians with 7.2 million leaflets, 13.7 million texts and 15 million recorded calls (the IDF, Israel Defense Forces, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\n\n7 October 2023: HAMAS killed about 1,200 people in Israel, mostly civilians, house by house. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\n\nSend this to someone who uses the word without the definition.",
- "caption_he": "טיהור אתני: כן או לא? 🧽\nלפי הגדרת האו\"ם, טיהור אתני הוא שימוש בכוח או בהפחדה כדי לסלק קבוצה מאזור. טיהור, אבל לא אתני: לקרצף ברווז גומי, לכבס חולצת טי. אתני, אבל לא טיהור: צלחת פלאפל. אף אחד מהם הוא לא טיהור אתני.\nהשואה: 6 מיליון יהודים נרצחו. זה יותר מטיהור אתני, זה רצח עם. מיאנמר 2017 ודארפור 2023: טיהור אתני.\nישראל נלחמת בחמאס ומזהירה אזרחים במיליוני כרוזים, הודעות ושיחות. זו מלחמה, עצובה וקשה, לא טיהור אתני. תשפטו לפי ההגדרה.\n7 באוקטובר: חמאס רצח כ 1,200 בני אדם, רובם אזרחים. זה לפגוע באנשים בגלל מי שהם.",
+ "caption_en": "Ethnic cleansing: yes or no? 🧽\n\nUN definition (1993): \"rendering an area ethnically homogeneous by using force or intimidation\". Not a separate crime in law, but it can amount to crimes against humanity or genocide.\n\nCleansing, not ethnic: a rubber duck bath, a T-shirt wash. Ethnic, not cleansing: falafel.\n\nNazi Germany hunted Jews, deported them by train and murdered 6 million. Worse than ethnic cleansing: genocide.\nMyanmar, 2017: over 700,000 Rohingya driven out. The UN rights chief: \"a textbook example of ethnic cleansing\".\nWest Darfur, Sudan, 2023: thousands of Masalit killed, hundreds of thousands driven out. Human Rights Watch: ethnic cleansing.\n\nIsrael fights HAMAS in Gaza and warned civilians with 7.2 million leaflets, 13.7 million texts and 15 million recorded calls (Israel Defense Forces, Jan 2024), plus evacuation routes. That's war. Sad and terrible. Not ethnic cleansing.\nCritics call mass evacuation orders forced displacement. Israel says they're temporary, for safety. Judge it by the definition.\n\n7 October 2023: HAMAS killed about 1,200 people in Israel, mostly civilians, house by house. Its 1988 charter quotes a call to kill Jews. That's targeting people for who they are.\n\nSend this to someone who needs the definition.",
+ "caption_he": "טיהור אתני: כן או לא? 🧽\nלפי הגדרת האו\"ם, טיהור אתני הוא שימוש בכוח או בהפחדה כדי לסלק קבוצה מאזור. טיהור בלי אתני: ברווז באמבטיה, חולצה בכביסה. אתני בלי טיהור: פלאפל.\nהשואה: 6 מיליון יהודים נרצחו. זה יותר מטיהור אתני, זה רצח עם. מיאנמר 2017 ודארפור 2023: טיהור אתני.\nישראל נלחמת בחמאס ומזהירה אזרחים במיליוני כרוזים, הודעות ושיחות. זו מלחמה, עצובה וקשה, לא טיהור אתני. תשפטו לפי ההגדרה.\n7 באוקטובר: חמאס רצח כ 1,200 בני אדם, רובם אזרחים. זה לפגוע באנשים בגלל מי שהם.",
  "hashtags": [
   "#Israel",
   "#EthnicCleansing",
@@ -37,7 +37,7 @@
   }
  ],
  "transcript": {
-  "score": 1.0,
+  "score": 0.941,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -62,64 +62,64 @@
    },
    {
     "line": "Falafel.",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.0,
+    "flag": "MISS"
    }
   ],
-  "heard": "Ethnic cleansing. Yes or no. U.N. definition. Force or fear to remove a group from an area. It can be a crime against humanity or genocide. Cleansing but not ethnic. Scrubbing a rubber duck. Washing a t-shirt. Ethnic but not cleansing. Falafel. I see Germany-hunted Jews put them on trains and murdered 6 million. Worse than ethnic cleansing, genocide. Myanmar 2017. Over 700,000 Rohingya driven out. The U.N. A textbook example. Sudan, 2023. Thousands of masalit killed. Hundreds of thousands driven out. Human rights watch. Ethnic cleansing. Israel fights Hamas in Gaza, warning civilians with millions of leaflets, texts, and calls. That's war. Sad and terrible. Not ethnic cleansing. Critics call mass evacuations force displacement. Israel says they're temporary for safety. Judge by the definition. October 7th. Hamas killed about 1,200 people, mostly civilians, hunting them house by house. It's charter quotes a call to kill Jews. That's targeting people for who they are. So next time someone shouts ethnic cleansing, ask them what it means.",
+  "heard": "Ethnic Cleansing. Yes or no. UN definition force or fear to remove a group from an area. It can be a crime against humanity or genocide. Cleansing but not ethnic. Scrubbing a rubber duck. Washing a t-shirt. Ethnic but not cleansing. Falloff Nazi Germany-hunted Jews put them on trains and murdered 6 million. Worse than ethnic cleansing, genocide. Myanmar, 2017. Over 700,000 Rohingya-driven out. The UN. A textbook example. Sudan, 2023. Thousands of masalit killed, hundreds of thousands driven out, human rights watch, ethnic cleansing. Israel fights Hamas and Gaza, warning civilians with millions of leaflets, texts, and calls. That's war. Sad and terrible. Not ethnic cleansing. Critics call mass evacuations force displacement. Israel says they're temporary for safety. Judge by the definition. October 7th. Hamas killed about 1,200 people, mostly civilians, hunting them house by house. Its charter quotes a call to kill Jews. that's targeting people for who they are. So next time someone shouts ethnic cleansing, ask them what it means.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "source": "templates/photos/ethnic_cleansing_v2/src.mp4",
- "head_s": 8.867,
- "segment_s": 7.85,
+ "head_s": 8.7,
+ "segment_s": 7.42,
  "tail_s": 49.3,
  "cut_a": 9.75,
  "cut_b": 15.45,
  "dropped": [
   [
-   3.3,
-   3.75
+   3.24,
+   3.78
   ],
   [
-   8.42,
-   8.88
+   8.4,
+   8.9
   ]
  ],
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -1.8
  },
  "segment_lines": [
   [
    "Cleansing, but not ethnic:",
-   0.35,
-   1.842
+   0.25,
+   1.742
   ],
   [
    "Scrubbing a rubber duck.",
-   2.142,
-   3.328
+   1.992,
+   3.178
   ],
   [
    "Washing a T shirt.",
-   3.628,
-   4.632
+   3.428,
+   4.432
   ],
   [
    "Ethnic, but not cleansing:",
-   4.982,
-   6.656
+   4.732,
+   6.406
   ],
   [
    "Falafel.",
-   6.956,
-   7.5
+   6.656,
+   7.2
   ]
  ],
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 105.9
+ "render_s": 121.9
 }
