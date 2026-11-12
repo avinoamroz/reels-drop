@@ -90,8 +90,17 @@
    "until": "L15-0.1"
   },
   {
-   "say": "That is not a blockade. That is sponsorship.",
-   "gap": 0.4
+   "say": "That is not a blockade.",
+   "gap": 0.8,
+   "screen": "Not a *blockade.*",
+   "screen_size": 120,
+   "screen_y": 900,
+   "at": "L15",
+   "until": "L16-0.05"
+  },
+  {
+   "say": "That is sponsorship.",
+   "gap": 0.6
   },
   {
    "say": "Many countries would love to be blockaded like this.",
@@ -281,7 +290,7 @@
    {
     "file": "templates/photos/evil_blockade/zk3.jpg",
     "at": "L15",
-    "dim": 0.2,
+    "dim": 0.35,
     "kb": [
      0.5,
      0.5,
@@ -290,11 +299,26 @@
      0.5,
      1.2
     ],
+    "credit": "U.S. Army, public domain",
+    "gray": true
+   },
+   {
+    "file": "templates/photos/evil_blockade/zk3.jpg",
+    "at": "L16-0.05",
+    "dim": 0.15,
+    "kb": [
+     0.5,
+     0.5,
+     1.2,
+     0.5,
+     0.5,
+     1.3
+    ],
     "credit": "U.S. Army, public domain"
    },
    {
     "file": "templates/photos/evil_blockade/ks_sign.jpg",
-    "at": "L17-0.1",
+    "at": "L18-0.1",
     "gray": true,
     "dim": 0.3,
     "kb": [
@@ -324,12 +348,13 @@
     "y": 1150
    },
    {
-    "at": "L15:sponsorship",
-    "until": "L16",
+    "at": "L16:sponsorship",
+    "until": "L17-0.05",
     "text": "SPONSORED",
     "color": "green",
-    "y": 1150,
-    "angle": -7
+    "y": 960,
+    "angle": -7,
+    "size": 170
    }
   ],
   "big": [
@@ -444,7 +469,7 @@
   }
  ],
  "end": {
-  "at": "L16",
+  "at": "L17",
   "balance": "Gaza's people deserve *better* than HAMAS.",
   "cta": "Send this to *someone*"
  },

@@ -57,9 +57,10 @@
   },
   {
    "say": "In Uganda, the Lord's Resistance Army, claiming to fight in God's name, abducted at least sixty thousand children.",
-   "screen": "*Lord's Resistance Army,* Uganda",
+   "screen": "*Lord's Resistance Army:* fighting in *God's name*",
    "until": "L7-0.1",
-   "gap": 0.35
+   "gap": 0.35,
+   "screen_size": 96
   },
   {
    "say": "Israel, the Jewish state, is number one in the world in research spending.",
@@ -147,9 +148,9 @@
    {
     "at": "L6-0.3",
     "view": [
-     32.3,
-     2.8,
-     24.0,
+     32.4,
+     1.4,
+     12.0,
      960
     ],
     "dur": 1.4
@@ -256,7 +257,8 @@
     "lon": 32.3,
     "lat": 2.78,
     "label": "Northern Uganda",
-    "color": "red"
+    "color": "red",
+    "size": 56
    },
    {
     "at": "L8:hebron",
@@ -289,7 +291,7 @@
     "from": 0,
     "suffix": "+",
     "sub": "children abducted",
-    "y": 960
+    "y": 1180
    },
    {
     "at": "L7:research",
@@ -345,6 +347,13 @@
       "at": "L12:israel"
      }
     ]
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L6",
+    "until": "L7-0.1",
+    "code": "UGA"
    }
   ]
  },

@@ -10,6 +10,9 @@
  "voice": {
   "tempo": 1.1
  },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS"
+ },
  "lines": [
   {
    "say": "One protects lives. One spends them.",
@@ -45,14 +48,14 @@
    "screen": "The other side"
   },
   {
-   "say": "Under Gaza, HAMAS says it dug five hundred kilometres of tunnels.",
+   "say": "Under Gaza, <<h|ɑ|ˈ|m|ɑ|s>> says it dug five hundred kilometres of tunnels.",
    "gap": 0.4,
    "screen": "Tunnels under Gaza",
-   "at": "L7:HAMAS",
+   "at": "L7:hɑ",
    "until": "L8-0.1"
   },
   {
-   "say": "Asked why HAMAS built no bomb shelters, a senior official answered:",
+   "say": "Asked why <<h|ɑ|ˈ|m|ɑ|s>> built no bomb shelters, a senior official answered:",
    "gap": 0.3
   },
   {
@@ -64,7 +67,7 @@
    "gap": 0.55
   },
   {
-   "say": "On HAMAS TV, a HAMAS lawmaker boasted of human shields: the women, the children, the elderly.",
+   "say": "On <<h|ɑ|ˈ|m|ɑ|s>> TV, a <<h|ɑ|ˈ|m|ɑ|s>> lawmaker boasted of human shields: the women, the children, the elderly.",
    "gap": 0.55
   },
   {
@@ -107,7 +110,7 @@
   ],
   "dome_at": "L3",
   "shelter_at": "L5:safe",
-  "tunnel_at": "L7:HAMAS",
+  "tunnel_at": "L7:hɑ",
   "fighters_at": "L7:tunnels",
   "big": [
    {
