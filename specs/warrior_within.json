@@ -1,0 +1,226 @@
+{
+ "id": "warrior_within",
+ "account": "noamroz__",
+ "template": "story_climb",
+ "hook": "*20* meters up.|Frozen.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16,
+  "bed_lufs": -19,
+  "lift": "L11"
+ },
+ "voice": {
+  "id": "15a9cd88-84b0-4a8b-95f2-5d583b54c72e",
+  "name": "Claire - Storyteller (Cartesia stock)",
+  "chain": "plain",
+  "tempo": 1.05,
+  "lead": 0.3,
+  "gap": 0.2
+ },
+ "lines": [
+  {
+   "say": "You're standing there. Nine years old. Memories spinning around you like a tornado.",
+   "gap": 0.35
+  },
+  {
+   "say": "You open your eyes. You're 20 meters above ground."
+  },
+  {
+   "say": "40 minutes pass."
+  },
+  {
+   "say": "You cannot stay there forever. Not on a rock, not inside those memories."
+  },
+  {
+   "say": "You reach for the next hold. And you fall.",
+   "gap": 0.35
+  },
+  {
+   "say": "You're five years old. A belt striking your body."
+  },
+  {
+   "say": "So you learn to be quiet.",
+   "gap": 0.35
+  },
+  {
+   "say": "At 26, the diagnosis you feared most: Borderline Personality Disorder."
+  },
+  {
+   "say": "At the pharmacy, you imagine your entire future in those tiny pill boxes.",
+   "gap": 0.3
+  },
+  {
+   "say": "The summit. Then: another peak, and another."
+  },
+  {
+   "say": "A psychotic break.",
+   "gap": 0.35
+  },
+  {
+   "say": "Then you find a number: 5 percent."
+  },
+  {
+   "say": "A diagnosis can explain. It doesn't get to decide who you become."
+  },
+  {
+   "say": "And I decided to be one of those 5 percent.",
+   "gap": 0.3
+  },
+  {
+   "say": "You find your voice."
+  },
+  {
+   "say": "20 meters up again. You look around."
+  },
+  {
+   "say": "Falling doesn't mean failing. Asking for help isn't a weakness, it's strength.",
+   "gap": 0.3
+  },
+  {
+   "say": "I chose to be a warrior. Not because I stopped falling, or being afraid."
+  },
+  {
+   "say": "But because the little girl who survived by staying silent is standing here today.",
+   "gap": 0.45
+  },
+  {
+   "say": "And she's speaking."
+  }
+ ],
+ "subs_replace": {
+  "5 percent": "5%"
+ },
+ "data": {
+  "hook_y": 400,
+  "tail": 1.6,
+  "subs_size": 64,
+  "subs_y": 1640,
+  "scenes": [
+   {
+    "scene": "tornado",
+    "tag": "Age 9"
+   },
+   {
+    "scene": "wall",
+    "at": "L1"
+   },
+   {
+    "scene": "fall",
+    "at": "L4"
+   },
+   {
+    "scene": "child",
+    "at": "L5",
+    "tag": "Age 5"
+   },
+   {
+    "scene": "pharmacy",
+    "at": "L7",
+    "tag": "Age 26"
+   },
+   {
+    "scene": "peaks",
+    "at": "L9"
+   },
+   {
+    "scene": "five",
+    "at": "L11"
+   },
+   {
+    "scene": "voice",
+    "at": "L14"
+   },
+   {
+    "scene": "view",
+    "at": "L15",
+    "tag": "20 m"
+   },
+   {
+    "scene": "together",
+    "at": "L17"
+   }
+  ],
+  "tornado_stop": "L1-0.3",
+  "height": "20 m",
+  "clock_at": "L2",
+  "minutes": 40,
+  "door_close": "L6",
+  "pills": "L8",
+  "dim": "L10",
+  "speak_at": "L19",
+  "five": {
+   "at": "L11",
+   "value": 5,
+   "suffix": "%",
+   "card": "Only *5%* might someday live without medication",
+   "chip": "how she read it",
+   "dots": "L13"
+  },
+  "titles": [
+   {
+    "at": "L3",
+    "until": "L4",
+    "text": "You cannot stay there *forever.*",
+    "y": 1250
+   },
+   {
+    "at": "L7:borderline",
+    "until": "L8",
+    "text": "*Borderline* Personality Disorder",
+    "y": 430
+   },
+   {
+    "at": "L12:it",
+    "until": "L13",
+    "text": "It doesn't get to decide *who you become.*",
+    "y": 400
+   },
+   {
+    "at": "L16",
+    "until": "L17",
+    "text": "Falling doesn't mean *failing.*",
+    "y": 400
+   },
+   {
+    "at": "L19",
+    "text": "And she's *speaking.*",
+    "y": 430,
+    "size": 96
+   }
+  ],
+  "notes": [
+   {
+    "at": "L13",
+    "until": "L14e",
+    "text": "Her story.|Medication decisions belong with your doctor.",
+    "y": 1480
+   },
+   {
+    "at": "L19",
+    "text": "Need support in Israel? ERAN: 1201",
+    "y": 1545
+   }
+  ],
+  "credit": {
+   "at": "L19",
+   "text": "Her story, her words: Anna Os.",
+   "y": 1460,
+   "size": 54
+  },
+  "clock_until": "L3"
+ },
+ "sources": [],
+ "caption_en": "The Warrior Within 🧗‍♀️\n\nFrozen on a rock wall, 20 meters above ground. Five years old and learning to stay silent. At 26, a diagnosis: Borderline Personality Disorder. And then, a decision.\n\n\"A diagnosis can explain. It doesn't get to decide who you become.\"\n\nHer story, her words: Anna Os.\n\nHer story. Medication decisions belong with your doctor.\n\nIf this touches something in you: ERAN emotional first aid, call 1201 (Israel), 24/7.\n\nAnimated, read by an AI voice from her own words.",
+ "caption_he": "הלוחמת שבפנים\nקפאה על קיר טיפוס, 20 מטר מעל הקרקע. בגיל חמש למדה לשתוק. בגיל 26 קיבלה אבחנה. והיום היא מדברת.\nהסיפור שלה, המילים שלה: Anna Os.\nהחלטות על תרופות: רק יחד עם הרופא שלך.\nאם זה נוגע בך: ער\"ן, עזרה ראשונה נפשית, 1201.",
+ "hashtags": [
+  "#MentalHealth",
+  "#Resilience",
+  "#Courage"
+ ],
+ "cover": {
+  "bg": "scene",
+  "t": "L2:minutes",
+  "dim": 0.6,
+  "text": "She froze|*20* meters up"
+ }
+}

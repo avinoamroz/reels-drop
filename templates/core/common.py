@@ -89,18 +89,18 @@ def script_lines(S): return [L["say"].strip() for L in S["lines"] if L.get("say"
 def script_hash(lines): return hashlib.sha1("\n".join(lines).encode()).hexdigest()[:12]
 
 
-def tts_body(text, lang="en"):
-    return {"model_id": "sonic-3", "transcript": text, "voice": {"mode": "id", "id": VOICE_ID},
+def tts_body(text, lang="en", vid=None):
+    return {"model_id": "sonic-3", "transcript": text, "voice": {"mode": "id", "id": vid or VOICE_ID},
             "output_format": {"container": "raw", "encoding": "pcm_s16le", "sample_rate": 44100},
             "add_timestamps": True, "language": lang}
 
 
-def cartesia(text, out_prefix, lang="en"):
+def cartesia(text, out_prefix, lang="en", vid=None):
     """one SSE call (same body and headers as Make TTS1) -> out_prefix.wav (44.1 kHz mono) + out_prefix_words.json"""
     import requests, base64, wave
     key = os.environ.get("CARTESIA_API_KEY", "").strip()
     if not key: raise RuntimeError("CARTESIA_API_KEY not set")
-    r = requests.post(TTS_URL, json=tts_body(text, lang), timeout=300, stream=True,
+    r = requests.post(TTS_URL, json=tts_body(text, lang, vid), timeout=300, stream=True,
                       headers={"X-API-Key": key, "Cartesia-Version": TTS_VERSION, "Content-Type": "application/json"})
     if r.status_code != 200: raise RuntimeError(f"Cartesia HTTP {r.status_code}: {r.text[:300]}")
     pcm, words = bytearray(), []
@@ -124,13 +124,14 @@ def get_voice(S):
     """returns (raw_wav, words_json, how). Order: voice/<id>_vo.wav whose .hash matches the script (no new TTS cost),
     then Cartesia if the secret is set, then any pre-made voice/<id>_*.wav (+ _words.json), else a clear failure."""
     vd = os.path.join(REPO, "voice"); os.makedirs(vd, exist_ok=True)
-    lines = script_lines(S); h = script_hash(lines); pre = os.path.join(vd, f"{S['id']}_vo")
+    vid = S.get("voice", {}).get("id")            # optional stock/other Cartesia voice id (default: Noam's clone)
+    lines = script_lines(S); h = script_hash(lines + ([f"voice:{vid}"] if vid else [])); pre = os.path.join(vd, f"{S['id']}_vo")
     if os.path.exists(pre + ".wav") and os.path.exists(pre + "_words.json") and os.path.exists(pre + ".hash") \
             and open(pre + ".hash").read().strip() == h:
         return pre + ".wav", pre + "_words.json", "cached voice (script unchanged)"
     if os.environ.get("CARTESIA_API_KEY", "").strip() and not S.get("voice", {}).get("file"):
         text = re.sub(r"\s+", " ", " ".join(DASH_RE.sub(",", l) for l in lines)).strip()
-        sec, n = cartesia(text, pre, S.get("voice", {}).get("lang", "en"))
+        sec, n = cartesia(text, pre, S.get("voice", {}).get("lang", "en"), vid)
         open(pre + ".hash", "w").write(h)
         return pre + ".wav", pre + "_words.json", f"Cartesia sonic-3 ({sec:.1f} s, {n} words)"
     named = S.get("voice", {}).get("file")
@@ -144,9 +145,10 @@ def get_voice(S):
                      f"+ voice/{S['id']}_vo_words.json (Cartesia SSE output, e.g. from Make TTS1 + tools/sse_parse.py).")
 
 
-def house_chain(raw, tempo):
-    """raw wav -> float mono 48 kHz after pitch/bass/atempo (the reels' deeper Noam voice), plus the time factor k"""
-    af = f"rubberband=pitch=0.9715:formant=preserved,bass=g=2:f=135,atempo={tempo}"
+def house_chain(raw, tempo, plain=False):
+    """raw wav -> float mono 48 kHz after pitch/bass/atempo (the reels' deeper Noam voice), plus the time factor k.
+    plain=True (spec voice.chain "plain", e.g. a stock voice that is not Noam's): atempo only, no pitch or bass."""
+    af = f"atempo={tempo}" if plain else f"rubberband=pitch=0.9715:formant=preserved,bass=g=2:f=135,atempo={tempo}"
     def go(f):
         return np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", raw, "-af", f, "-ar", str(SR), "-ac", "1", "-f", "f32le", "-"],
                                             check=True, capture_output=True).stdout, np.float32).copy()
@@ -162,7 +164,7 @@ def build_voice(S, work):
     """-> work/vo.wav (48 kHz mono) + work/timing.json {dur, lines:[{i,text,t0,t1,words:[{w,t0,t1}]}]}"""
     raw, wj, how = get_voice(S); log("voice:", how)
     V = S.get("voice", {}); tempo = float(V.get("tempo", 1.1)); lead = float(V.get("lead", 0.3))
-    y, k = house_chain(raw, tempo)
+    y, k = house_chain(raw, tempo, V.get("chain", "house") == "plain")
     W_ = json.load(open(wj)); lines = script_lines(S)
     tot = sum(len(l.split()) for l in lines)
     if tot != len(W_): raise SystemExit(f"voice/script mismatch: script has {tot} words, voice has {len(W_)} (re-voice or fix the spec lines)")
@@ -307,7 +309,7 @@ def brand_bg():
 
 
 # ================================================================== audio
-def bed(name, dur):
+def bed(name, dur, lift=None):
     import music as MU
     if name.startswith("file:"):
         y = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-stream_loop", "-1", "-i", os.path.join(REPO, name[5:]), "-t", f"{dur:.3f}",
@@ -316,7 +318,8 @@ def bed(name, dur):
     if name == "doc_piano": return MU.doc_music(dur)
     if name == "journey": return MU.music(dur)
     if name in ("bounce", "skip", "warm"): return MU.kit_music(dur, name)
-    raise SystemExit(f"unknown music bed {name} (doc_piano, journey, bounce, skip, warm, file:<repo path>)")
+    if name == "soft_piano": return MU.soft_piano(dur, lift_at=lift)
+    raise SystemExit(f"unknown music bed {name} (doc_piano, journey, bounce, skip, warm, soft_piano, file:<repo path>)")
 
 
 def lufs_of(x):
@@ -347,7 +350,7 @@ def build_mix(S, T, work, events=(), vo_path=None, dur=None, speech=None):
     if vo_path or T is not None:
         vo, sr = sf.read(vo_path or f"{work}/vo.wav"); vo = np.pad(vo, (0, max(0, n - len(vo))))[:n]
     else: vo = np.zeros(n)
-    b = bed(M.get("bed", "doc_piano"), T_ + 0.6)[:, :n]
+    b = bed(M.get("bed", "doc_piano"), T_ + 0.6, M.get("_lift"))[:, :n]
     b = np.pad(b, ((0, 0), (0, max(0, n - b.shape[1]))))
     b *= 10 ** ((M.get("bed_lufs", -16) - lufs_of(b)) / 20)
     m = np.zeros(n)

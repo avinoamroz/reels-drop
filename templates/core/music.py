@@ -300,3 +300,40 @@ def kit_music(dur, style, seed=1):
                 put(nz * _env(len(nz), 0.001, 70), st + q * sub, (0.05 if q % 2 else 0.08) * (0.7 if style == "skip" else 1), pan=0.3)
     fade = np.minimum(1, np.arange(n) / (0.4 * SR)) * np.minimum(1, (n - np.arange(n)) / (1.8 * SR))
     out *= fade; return out / (np.abs(out).max() + 1e-9)
+
+
+# ------------------------------------------------------------------ soft_piano: gentle piano + strings for personal stories
+def soft_piano(dur, bpm=66, seed=7, lift_at=None, end_ring=3.0):
+    """soft, warm bed for first-person stories: slow string pad (A minor: Am, F, C, G), sparse felt-piano arpeggio, no drums.
+    After lift_at (seconds) the progression turns hopeful (F, C, G, Am -> C, G, Am, F voicing up) and a high string line enters."""
+    r = np.random.default_rng(seed); n = int(dur * SR); L = np.zeros(n); R = np.zeros(n)
+    beat = 60 / bpm; bar = 4 * beat; nb = int(dur / bar) + 2
+    A = [(45, [57, 60, 64]), (41, [57, 60, 65]), (48, [55, 60, 64]), (43, [55, 59, 62])]
+    B = [(41, [60, 65, 69]), (48, [60, 64, 67]), (43, [62, 67, 71]), (45, [60, 64, 69])]
+    def put(sig, st, g, pan=0.0):
+        i = int(st * SR)
+        if i >= n or i < 0: return
+        j = min(n, i + len(sig)); L[i:j] += g * (1 - pan) * sig[:j - i]; R[i:j] += g * (1 + pan) * sig[:j - i]
+    def piano(m, d=2.6):
+        tc = tt(d); f = hz(m)
+        s = sum(np.sin(2 * np.pi * k * f * tc * (1 + 0.0006 * k)) * np.exp(-tc * (1.4 + 1.1 * k)) / k ** 1.5 for k in range(1, 6))
+        return lp(s, 1900) * env(len(tc), 0.006, 0.5)
+    for b in range(nb):
+        st = b * bar; after = lift_at is not None and st >= lift_at - 0.01
+        root, ch = (B if after else A)[b % 4]
+        t = tt(bar + 1.6)
+        pad = sum(sum(saw(2 * np.pi * hz(m) * (1 + dt) * t + r.uniform(0, 6)) for dt in (-0.004, 0.0, 0.004)) for m in ch)
+        pad = lp(pad, 900 if not after else 1300, 2) * np.minimum(1, t / 1.4) * np.minimum(1, (bar + 1.6 - t) / 1.4)
+        put(pad, st, 0.010 if not after else 0.013, -0.1)
+        tb = tt(bar + 0.5); put(np.sin(2 * np.pi * hz(root - 12) * tb) * env(len(tb), 0.3, 0.8), st, 0.07)
+        notes = [ch[0] + 12, ch[1] + 12, ch[2] + 12, ch[1] + 12, ch[2] + 12, ch[0] + 24]
+        offs = [0, 1, 1.5, 2, 3, 3.5] if b % 2 == 0 else [0, 1, 2, 2.5, 3]
+        for k, off in enumerate(offs):
+            put(piano(notes[k % len(notes)]), st + off * beat, (0.05 if k else 0.065) * (1.0 if b >= 1 else 0.7), pan=0.25 * (1 if k % 2 else -1))
+        if after:
+            tl = tt(bar + 0.8); m = ch[2] + 24
+            line = np.sin(2 * np.pi * hz(m) * tl + 0.004 * np.sin(2 * np.pi * 5 * tl) * 60) * np.minimum(1, tl / 1.2) * np.minimum(1, (bar + 0.8 - tl) / 0.8)
+            put(lp(line, 3000), st, 0.022, 0.2)
+    x = np.stack([room(L, 2.2, 0.32, 1), room(R, 2.2, 0.32, 2)])
+    fade = np.minimum(1, np.arange(n) / (1.0 * SR)) * np.minimum(1, (n - np.arange(n)) / (end_ring * SR))
+    return x * fade / (np.abs(x).max() + 1e-9)
