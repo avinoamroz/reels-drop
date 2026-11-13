@@ -9,7 +9,7 @@
  },
  "voice": {
   "tempo": 1.1,
-  "gap": 0.15
+  "gap": 0.12
  },
  "subs_replace": {
   "Turkey": "Türkiye"
@@ -39,29 +39,29 @@
    "say": "Not our ikigai."
   },
   {
-   "say": "What fits? Research. Six point eight percent of GDP, number one in the OECD."
+   "say": "Research fits: six point eight percent of GDP, top of the OECD."
   },
   {
-   "say": "Tech is fifty six percent of exports. Israel's ikigai: building things."
+   "say": "Tech: fifty six percent of exports. Israel's ikigai: building things."
   },
   {
-   "say": "Saudi Arabia: energy. The world needs it and pays: oil is seventy three percent of exports."
+   "say": "Saudi Arabia: energy. Oil is seventy three percent of exports."
   },
   {
-   "say": "The UAE: the world's stopover. Dubai, the busiest international airport on Earth."
+   "say": "The UAE: the world's stopover. Busiest international airport on Earth."
   },
   {
-   "say": "Egypt: history and the Suez Canal. A record fifteen point seven million tourists."
+   "say": "Egypt: history and the Suez Canal. Fifteen point seven million tourists."
   },
   {
-   "say": "Turkey: making things. Two hundred sixty two billion dollars of exports, plus TV dramas."
+   "say": "Turkey: making things. Two hundred sixty two billion dollars of exports."
   },
   {
-   "say": "Jordan: hospitality. Petra, a wonder of the world, and over seven billion dinars from tourism."
+   "say": "Jordan: hospitality. Petra, a world wonder, and over seven billion dinars in tourism."
   },
   {
-   "say": "Different circles, different centres.",
-   "screen": "Different circles. Different *centres.*",
+   "say": "Different circles, different centers.",
+   "screen": "Different circles. Different *centers.*",
    "until": "L14e+0.2"
   },
   {
@@ -142,7 +142,7 @@
      },
      "needs": {
       "text": "Energy",
-      "at": "L9:world"
+      "at": "L9:energy+0.35"
      },
      "paid": {
       "text": "*73%* of|exports",
@@ -229,13 +229,13 @@
       "at": "L12:two"
      },
      "love": {
-      "text": "TV *dramas*",
-      "at": "L12:tv"
+      "text": "Trade",
+      "at": "L12+0.1"
      }
     },
     "center": {
      "text": "Making|things",
-     "at": "L12:dramas+0.2"
+     "at": "L12:exports"
     }
    },
    {
@@ -474,7 +474,7 @@
   "balance": "A country is what it *builds,* not what it's called.",
   "cta": "Send this to someone who *builds*"
  },
- "caption_en": "Every country has an ikigai: what it loves, what it's good at, what the world needs, and what it gets paid for.\n\nSome call Israel a colonizer. It fails every circle. Israel gave back Sinai to Egypt (peace treaty 1979, withdrawal 1982): about 60,000 km², almost three times Israel's 22,072 km².\n\nWhat fits: research and tech. Israel spends 6.8% of GDP on R&D, the highest in the OECD (OECD MSTI, March 2026 release, 2024 data). High tech is 56.4% of Israel's exports (Israel Innovation Authority, 2024).\n\nThe neighbours, each with its own centre:\n🇸🇦 Saudi Arabia: energy. Oil is 73.1% of exports (GASTAT, 2024). Vision 2030 is building a non-oil economy.\n🇦🇪 UAE: the world's stopover. Dubai International is No. 1 for international passengers, 95.2M in 2025 (ACI World).\n🇪🇬 Egypt: history and the Suez Canal. A record 15.7M tourists in 2024 (Ministry of Tourism).\n🇹🇷 Türkiye: making things. Record $262B of exports in 2024 (Trade Ministry), plus TV dramas sold worldwide.\n🇯🇴 Jordan: hospitality. Petra, one of the New 7 Wonders (2007), and JD 7.2B tourism income in 2024 (Central Bank of Jordan).\n\nA country is what it builds, not what it's called.\n\nPhotos (Wikimedia Commons): Zvi Roger (CC BY 3.0); B.alotaby (CC BY-SA 4.0); Chris Olszewski (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); SegLig (CC BY 4.0); Vyacheslav Argenberg (CC BY 4.0). AI voice.\nSend this to someone who builds.",
+ "caption_en": "Every country has an ikigai: what it loves, what it's good at, what the world needs, and what it gets paid for.\n\nSome call Israel a colonizer. It fails every circle. Israel gave back Sinai to Egypt (peace treaty 1979, withdrawal 1982): about 60,000 km², almost three times Israel's 22,072 km².\n\nWhat fits: research and tech. Israel spends 6.8% of GDP on R&D, the highest in the OECD (OECD MSTI, March 2026 release, 2024 data). High tech is 56.4% of Israel's exports (Israel Innovation Authority, 2024).\n\nThe neighbours, each with its own centre:\n🇸🇦 Saudi Arabia: energy. Oil is 73.1% of exports (GASTAT, 2024). Vision 2030 is building a non-oil economy.\n🇦🇪 UAE: the world's stopover. Dubai International is No. 1 for international passengers, 95.2M in 2025 (ACI World).\n🇪🇬 Egypt: history and the Suez Canal. A record 15.7M tourists in 2024 (Ministry of Tourism).\n🇹🇷 Türkiye: making things. Record $262B of exports in 2024 (Trade Ministry).\n🇯🇴 Jordan: hospitality. Petra, one of the New 7 Wonders (2007), and JD 7.2B tourism income in 2024 (Central Bank of Jordan).\n\nA country is what it builds, not what it's called.\n\nPhotos (Wikimedia Commons): Zvi Roger (CC BY 3.0); B.alotaby (CC BY-SA 4.0); Chris Olszewski (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); SegLig (CC BY 4.0); Vyacheslav Argenberg (CC BY 4.0). AI voice.\nSend this to someone who builds.",
  "caption_he": "לכל מדינה יש איקיגאי: מה היא אוהבת, במה היא טובה, מה העולם צריך, ועל מה משלמים לה.\nיש מי שקורא לישראל \"קולוניאליסטית\". זה נכשל בכל עיגול: ישראל החזירה את סיני, כמעט פי שלושה מגודלה.\nמה כן מתאים: מחקר וטכנולוגיה. 6.8% מהתוצר הולכים למו\"פ, המקום הראשון ב־OECD. ההייטק הוא 56% מהיצוא.\nולשכנות יש מרכז משלהן: סעודיה, אנרגיה. האמירויות, תחנת המעבר של העולם. מצרים, היסטוריה ותעלת סואץ. טורקיה, תעשייה. ירדן, הכנסת אורחים ופטרה.\nמדינה היא מה שהיא בונה, לא איך שקוראים לה.",
  "hashtags": [
   "#Israel",
