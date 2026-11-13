@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "brand_timeline",
  "hook": "*1932:*|The Palestine Post|was *Jewish.*",
- "duration": 70.07,
+ "duration": 65.8,
  "audio": {
-  "lufs": -16.1,
+  "lufs": -16.2,
   "true_peak": -2.0
  },
  "outputs": {
@@ -101,11 +101,11 @@
   }
  ],
  "transcript": {
-  "score": 0.941,
+  "score": 0.922,
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "Nineteen thirty-two. The Palestine Post. A Jewish newspaper.",
+    "line": "Nineteen thirty-two: the Palestine Post, a Jewish newspaper.",
     "score": 0.778,
     "flag": "MISS"
    },
@@ -115,23 +115,23 @@
     "flag": "ok"
    },
    {
-    "line": "Nineteen oh two. The Anglo-Palestine Bank. Founded by Zionists.",
+    "line": "Nineteen oh two: the Anglo-Palestine Bank, founded by Zionists.",
     "score": 0.8,
     "flag": "ok"
    },
    {
-    "line": "Under the British, Jews and Arabs were all Palestinian citizens.",
+    "line": "Under the British, Jews and Arabs were Palestinian citizens.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Thirty-four. Palestine's World Cup team. Every player, Jewish.",
+    "line": "Thirty-four: Palestine's World Cup team, every player Jewish.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Thirty-six. The Palestine Orchestra. Jewish musicians.",
-    "score": 0.857,
+    "line": "Thirty-six: the Palestine Orchestra, Jewish musicians.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -140,8 +140,8 @@
     "flag": "MISS"
    },
    {
-    "line": "Then, nineteen forty-eight. Israel is born. Time to rebrand.",
-    "score": 0.9,
+    "line": "Nineteen forty-eight, Israel is born. Rebrand time.",
+    "score": 0.875,
     "flag": "ok"
    },
    {
@@ -151,11 +151,11 @@
    },
    {
     "line": "The orchestra: Israel Philharmonic. The bank: Bank Leumi. The team: Israel.",
-    "score": 0.909,
-    "flag": "ok"
+    "score": 0.727,
+    "flag": "MISS"
    },
    {
-    "line": "And Palestinian now means the Arabs of the land.",
+    "line": "Palestinian now means the Arabs of the land.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -165,32 +165,32 @@
     "flag": "ok"
    },
    {
-    "line": "Nineteen sixteen. The Arab Revolt flag.",
+    "line": "Nineteen sixteen, the Arab Revolt flag.",
     "score": 0.833,
     "flag": "ok"
    },
    {
-    "line": "Forty-eight. The All-Palestine Government in Gaza adopts it.",
+    "line": "Forty-eight, Gaza's All-Palestine Government adopts it.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Sixty-four. The PLO, the Palestine Liberation Organization, is founded in Jordan-ruled East Jerusalem.",
+    "line": "Sixty-four, the PLO, the Palestine Liberation Organization, takes it.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Next to Jordan's flag? Almost identical, minus a star.",
+    "line": "Jordan's flag? Almost identical, plus a star.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "First leader? Not Arafat. Ahmad Shukeiri. Arafat came in sixty-nine.",
-    "score": 0.909,
-    "flag": "ok"
+    "line": "First leader? Not Arafat, but Ahmad Shukeiri.",
+    "score": 0.714,
+    "flag": "MISS"
    },
    {
-    "line": "Every nation is born sometime. Jordan, forty-six. Israel, forty-eight.",
+    "line": "Every nation is born sometime: Jordan forty-six, Israel forty-eight.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -200,18 +200,18 @@
     "flag": "ok"
    },
    {
-    "line": "The name just has a surprising history. It started with a newspaper.",
+    "line": "The name has a surprising history. It started with a newspaper.",
     "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "1932. The Palestine Post. The Jewish newspaper. Watch the word Palestinian change owners. 1902. The Anglo-Palestine Bank. Founded by Zionists. Under the British, Jews and Arabs were all Palestinian citizens. 34. Palestine's World Cup team. Every player, Jewish. 36. Palestine Orchestra. Jewish musicians. Arabs use the name too. The Jaffa Paper Philastin. Then, 1948. Israel is born. Time to rebrand. The Palestine Post becomes the Jerusalem Post. The orchestra. Israel. Philharmonic. The bank. Bank Lumi. The team. Israel. And Palestinian now means the Arabs of the land. The flag? Older than you think. 1916. The Arab revolt flag. 48. The all-Palestine government in Gaza adopts it. 64. The PLO, the Palestine Liberation Organization, is founded in Jordan-ruled East Jerusalem. Next to Jordan's flag. Almost identical, minus a star. First leader? Not Arafat. Ahmad Shukiri. Arafat came in 69. Every nation is born sometime. Jordan, 46. Israel, 48. Today millions call themselves Palestinian, and that's real. The name just has a surprising history. It started with a newspaper.",
+  "heard": "1932. The Palestine Post. The Jewish newspaper. Watch the word Palestinian change owners. 1902. The Anglo-Palestine Bank. Founded by Zionists. Under the British, Jews and Arabs were Palestinian citizens. 34. Palestine's World Cup team. Every player Jewish. 36. The Palestine Orchestra. Jewish musicians. Arabs use the name too. The Jaffa Paper. Philastin. 1948. Israel is born. Rebrand time. The Palestine Post becomes the Jerusalem Post. The Orchestra? Israel Philharmonic. The Bank? Banklemy. Pateen. Israel. Palestinian now means the Arabs of the land. The Flag? Older than you think. 1916. The Arab Revolt Flag. 48. Gaza's All-Palestine Government adopts it. 64. The PLO. The Palestine Liberation Organization takes it. Jordan's Flag? Almost identical, plus a star. First Leader? Not Arafat, but Ahmachu Kerry. Every nation is born sometime. Jordan 46, Israel 48. Today millions call themselves Palestinian and that's real. The name has a surprising history. It started with a newspaper.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
+  "lufs": -16.2,
   "true_peak": -2.0
  },
  "photos": [
@@ -289,5 +289,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 165.0
+ "render_s": 116.5
 }

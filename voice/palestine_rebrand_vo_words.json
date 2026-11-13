@@ -1,867 +1,787 @@
 [
 {
 "word": "Nineteen",
-"start": 0.09287982,
-"end": 0.6656387
+"start": 0.01547997,
+"end": 0.52631897
 },
 {
-"word": "thirty-two.",
-"start": 0.72755855,
-"end": 1.3467574
+"word": "thirty-two:",
+"start": 0.52631897,
+"end": 1.1455177
 },
 {
-"word": "The",
-"start": 1.5944369,
-"end": 1.7492366
+"word": "the",
+"start": 1.7182766,
+"end": 1.8730763
 },
 {
 "word": "Palestine",
-"start": 1.7492366,
-"end": 2.3065155
+"start": 1.8730763,
+"end": 2.3219955
 },
 {
-"word": "Post.",
-"start": 2.3065155,
-"end": 2.7863946
+"word": "Post,",
+"start": 2.3219955,
+"end": 2.8947544
 },
 {
-"word": "A",
-"start": 3.1269538,
-"end": 3.1888738
+"word": "a",
+"start": 3.3127136,
+"end": 3.3746333
 },
 {
 "word": "Jewish",
-"start": 3.1888738,
-"end": 3.544913
+"start": 3.3746333,
+"end": 3.7306726
 },
 {
 "word": "newspaper.",
-"start": 3.544913,
-"end": 4.226032
+"start": 3.7306726,
+"end": 4.3653517
 },
 {
 "word": "Watch",
-"start": 4.597551,
-"end": 4.9226303
+"start": 4.8142705,
+"end": 5.10839
 },
 {
 "word": "the",
-"start": 4.9226303,
-"end": 5.0774302
+"start": 5.10839,
+"end": 5.2322297
 },
 {
 "word": "word",
-"start": 5.0774302,
-"end": 5.27867
+"start": 5.2322297,
+"end": 5.4644294
 },
 {
 "word": "Palestinian",
-"start": 5.27867,
-"end": 5.8823886
+"start": 5.4644294,
+"end": 6.068148
 },
 {
 "word": "change",
-"start": 5.8823886,
-"end": 6.207468
+"start": 6.068148,
+"end": 6.3622675
 },
 {
 "word": "owners.",
-"start": 6.207468,
-"end": 6.594467
+"start": 6.3622675,
+"end": 6.842147
 },
 {
 "word": "Nineteen",
-"start": 6.656387,
-"end": 7.136266
+"start": 7.476825,
+"end": 7.9567046
 },
 {
 "word": "oh",
-"start": 7.136266,
-"end": 7.229146
+"start": 7.9567046,
+"end": 8.080544
 },
 {
-"word": "two.",
-"start": 7.229146,
-"end": 7.616145
+"word": "two:",
+"start": 8.080544,
+"end": 8.4365835
 },
 {
-"word": "The",
-"start": 7.8947845,
-"end": 8.065064
+"word": "the",
+"start": 8.560423,
+"end": 8.746182
 },
 {
 "word": "Anglo-Palestine",
-"start": 8.065064,
-"end": 8.993862
+"start": 8.746182,
+"end": 9.582101
 },
 {
-"word": "Bank.",
-"start": 8.993862,
-"end": 9.365381
-},
-{
-"word": "Founded",
-"start": 9.597581,
-"end": 9.98458
-},
-{
-"word": "by",
-"start": 9.98458,
-"end": 10.10842
-},
-{
-"word": "Zionists.",
-"start": 10.10842,
-"end": 10.774059
-},
-{
-"word": "Under",
-"start": 11.068178,
-"end": 11.284898
-},
-{
-"word": "the",
-"start": 11.284898,
-"end": 11.408738
-},
-{
-"word": "British,",
-"start": 11.408738,
-"end": 11.826697
-},
-{
-"word": "Jews",
-"start": 11.888617,
-"end": 12.275616
-},
-{
-"word": "and",
-"start": 12.275616,
-"end": 12.383976
-},
-{
-"word": "Arabs",
-"start": 12.383976,
-"end": 12.724535
-},
-{
-"word": "were",
-"start": 12.724535,
-"end": 12.848375
-},
-{
-"word": "all",
-"start": 12.848375,
-"end": 13.049615
-},
-{
-"word": "Palestinian",
-"start": 13.049615,
-"end": 13.684294
-},
-{
-"word": "citizens.",
-"start": 13.684294,
-"end": 14.257052
-},
-{
-"word": "Thirty-four.",
-"start": 14.458292,
-"end": 15.092971
-},
-{
-"word": "Palestine's",
-"start": 15.41805,
-"end": 16.021769
-},
-{
-"word": "World",
-"start": 16.021769,
-"end": 16.25397
-},
-{
-"word": "Cup",
-"start": 16.25397,
-"end": 16.470688
-},
-{
-"word": "team.",
-"start": 16.470688,
-"end": 16.795767
-},
-{
-"word": "Every",
-"start": 17.105366,
-"end": 17.368526
-},
-{
-"word": "player,",
-"start": 17.368526,
-"end": 17.786486
-},
-{
-"word": "Jewish.",
-"start": 17.910324,
-"end": 18.452124
-},
-{
-"word": "Thirty-six.",
-"start": 18.684324,
-"end": 19.380922
-},
-{
-"word": "The",
-"start": 19.56668,
-"end": 19.644081
-},
-{
-"word": "Palestine",
-"start": 19.644081,
-"end": 20.15492
-},
-{
-"word": "Orchestra.",
-"start": 20.15492,
-"end": 20.69672
-},
-{
-"word": "Jewish",
-"start": 20.882479,
-"end": 21.269478
-},
-{
-"word": "musicians.",
-"start": 21.269478,
-"end": 21.966078
-},
-{
-"word": "Arabs",
-"start": 22.260197,
-"end": 22.585276
-},
-{
-"word": "used",
-"start": 22.585276,
-"end": 22.771036
-},
-{
-"word": "the",
-"start": 22.771036,
-"end": 22.832956
-},
-{
-"word": "name",
-"start": 22.832956,
-"end": 23.034195
-},
-{
-"word": "too:",
-"start": 23.034195,
-"end": 23.343794
-},
-{
-"word": "the",
-"start": 23.606955,
-"end": 23.699833
-},
-{
-"word": "Jaffa",
-"start": 23.699833,
-"end": 23.993954
-},
-{
-"word": "paper",
-"start": 23.993954,
-"end": 24.272593
-},
-{
-"word": "Filastin.",
-"start": 24.272593,
-"end": 24.783432
-},
-{
-"word": "Then,",
-"start": 25.00015,
-"end": 25.40263
-},
-{
-"word": "nineteen",
-"start": 25.66579,
-"end": 26.08375
-},
-{
-"word": "forty-eight.",
-"start": 26.08375,
-"end": 26.53267
-},
-{
-"word": "Israel",
-"start": 26.904188,
-"end": 27.322147
-},
-{
-"word": "is",
-"start": 27.322147,
-"end": 27.461466
-},
-{
-"word": "born.",
-"start": 27.461466,
-"end": 27.832985
-},
-{
-"word": "Time",
-"start": 28.127106,
-"end": 28.390265
-},
-{
-"word": "to",
-"start": 28.390265,
-"end": 28.483145
-},
-{
-"word": "rebrand.",
-"start": 28.483145,
-"end": 28.870144
-},
-{
-"word": "The",
-"start": 29.117823,
-"end": 29.241663
-},
-{
-"word": "Palestine",
-"start": 29.241663,
-"end": 29.628662
-},
-{
-"word": "Post",
-"start": 29.628662,
-"end": 29.89182
-},
-{
-"word": "becomes",
-"start": 29.89182,
-"end": 30.201422
-},
-{
-"word": "The",
-"start": 30.201422,
-"end": 30.2943
-},
-{
-"word": "Jerusalem",
-"start": 30.2943,
-"end": 30.71226
-},
-{
-"word": "Post.",
-"start": 30.71226,
-"end": 31.099258
-},
-{
-"word": "The",
-"start": 31.331459,
-"end": 31.486258
-},
-{
-"word": "orchestra:",
-"start": 31.486258,
-"end": 31.997097
-},
-{
-"word": "Israel",
-"start": 32.213818,
-"end": 32.740135
-},
-{
-"word": "Philharmonic.",
-"start": 32.956856,
-"end": 33.730854
-},
-{
-"word": "The",
-"start": 34.009495,
-"end": 34.133335
-},
-{
-"word": "bank:",
-"start": 34.133335,
-"end": 34.551292
-},
-{
-"word": "Bank",
-"start": 34.938293,
-"end": 35.20145
-},
-{
-"word": "Leumi.",
-"start": 35.20145,
-"end": 35.48009
-},
-{
-"word": "The",
-"start": 35.86709,
-"end": 35.99093
-},
-{
-"word": "team:",
-"start": 35.99093,
-"end": 36.31601
-},
-{
-"word": "Israel.",
-"start": 36.641087,
-"end": 37.090008
-},
-{
-"word": "And",
-"start": 37.461525,
-"end": 37.569885
-},
-{
-"word": "Palestinian",
-"start": 37.569885,
-"end": 38.204567
-},
-{
-"word": "now",
-"start": 38.235527,
-"end": 38.483204
-},
-{
-"word": "means",
-"start": 38.483204,
-"end": 38.715405
-},
-{
-"word": "the",
-"start": 38.715405,
-"end": 38.839245
-},
-{
-"word": "Arabs",
-"start": 38.839245,
-"end": 39.16432
-},
-{
-"word": "of",
-"start": 39.16432,
-"end": 39.288162
-},
-{
-"word": "the",
-"start": 39.288162,
-"end": 39.350082
-},
-{
-"word": "land.",
-"start": 39.350082,
-"end": 39.551323
-},
-{
-"word": "The",
-"start": 39.860924,
-"end": 39.9538
-},
-{
-"word": "flag?",
-"start": 39.9538,
-"end": 40.43368
-},
-{
-"word": "Older",
-"start": 40.603962,
-"end": 40.8826
-},
-{
-"word": "than",
-"start": 40.8826,
-"end": 40.99096
-},
-{
-"word": "you",
-"start": 40.99096,
-"end": 41.08384
-},
-{
-"word": "think.",
-"start": 41.08384,
-"end": 41.33152
-},
-{
-"word": "Nineteen",
-"start": 41.749477,
-"end": 42.10552
-},
-{
-"word": "sixteen.",
-"start": 42.10552,
-"end": 42.523476
-},
-{
-"word": "The",
-"start": 42.879517,
-"end": 43.034317
-},
-{
-"word": "Arab",
-"start": 43.034317,
-"end": 43.251034
-},
-{
-"word": "Revolt",
-"start": 43.251034,
-"end": 43.545155
-},
-{
-"word": "flag.",
-"start": 43.545155,
-"end": 43.823795
-},
-{
-"word": "Forty-eight.",
-"start": 44.303673,
-"end": 44.98479
-},
-{
-"word": "The",
-"start": 45.30987,
-"end": 45.495632
-},
-{
-"word": "All-Palestine",
-"start": 45.495632,
-"end": 46.06839
-},
-{
-"word": "Government",
-"start": 46.06839,
-"end": 46.42443
-},
-{
-"word": "in",
-"start": 46.42443,
-"end": 46.548267
-},
-{
-"word": "Gaza",
-"start": 46.548267,
-"end": 46.93527
-},
-{
-"word": "adopts",
-"start": 46.99719,
-"end": 47.32227
-},
-{
-"word": "it.",
-"start": 47.32227,
-"end": 47.446106
-},
-{
-"word": "Sixty-four.",
-"start": 47.802147,
-"end": 48.467785
-},
-{
-"word": "The",
-"start": 49.164383,
-"end": 49.257263
-},
-{
-"word": "PLO,",
-"start": 49.257263,
-"end": 49.81454
-},
-{
-"word": "the",
-"start": 49.87646,
-"end": 50.03126
-},
-{
-"word": "Palestine",
-"start": 50.03126,
-"end": 50.387302
-},
-{
-"word": "Liberation",
-"start": 50.387302,
-"end": 50.7743
-},
-{
-"word": "Organization,",
-"start": 50.7743,
-"end": 51.43994
-},
-{
-"word": "is",
-"start": 51.625698,
-"end": 51.76502
+"word": "Bank,",
+"start": 9.582101,
+"end": 10.00006
 },
 {
 "word": "founded",
-"start": 51.76502,
-"end": 52.04366
+"start": 10.38706,
+"end": 10.805018
 },
 {
-"word": "in",
-"start": 52.04366,
-"end": 52.1675
+"word": "by",
+"start": 10.805018,
+"end": 10.959819
 },
 {
-"word": "Jordan-ruled",
-"start": 52.1675,
-"end": 52.693817
+"word": "Zionists.",
+"start": 10.959819,
+"end": 11.733817
 },
 {
-"word": "East",
-"start": 52.693817,
-"end": 52.879578
+"word": "Under",
+"start": 12.461375,
+"end": 12.662615
 },
 {
-"word": "Jerusalem.",
-"start": 52.879578,
-"end": 53.328495
+"word": "the",
+"start": 12.662615,
+"end": 12.786455
 },
 {
-"word": "Next",
-"start": 53.715496,
-"end": 53.994133
+"word": "British,",
+"start": 12.786455,
+"end": 13.328254
 },
 {
-"word": "to",
-"start": 53.994133,
-"end": 54.056053
-},
-{
-"word": "Jordan's",
-"start": 54.056053,
-"end": 54.319214
-},
-{
-"word": "flag?",
-"start": 54.319214,
-"end": 54.613335
-},
-{
-"word": "Almost",
-"start": 55.340893,
-"end": 55.60405
-},
-{
-"word": "identical,",
-"start": 55.60405,
-"end": 56.05297
-},
-{
-"word": "minus",
-"start": 56.08393,
-"end": 56.393528
-},
-{
-"word": "a",
-"start": 56.393528,
-"end": 56.424488
-},
-{
-"word": "star.",
-"start": 56.424488,
-"end": 56.81149
-},
-{
-"word": "First",
-"start": 57.322327,
-"end": 57.585487
-},
-{
-"word": "leader?",
-"start": 57.585487,
-"end": 57.97249
-},
-{
-"word": "Not",
-"start": 58.467846,
-"end": 58.761967
-},
-{
-"word": "Arafat.",
-"start": 58.761967,
-"end": 59.303764
-},
-{
-"word": "Ahmad",
-"start": 59.8146,
-"end": 60.139683
-},
-{
-"word": "Shukeiri.",
-"start": 60.139683,
-"end": 60.52668
-},
-{
-"word": "Arafat",
-"start": 61.254242,
-"end": 61.64124
-},
-{
-"word": "came",
-"start": 61.64124,
-"end": 61.85796
-},
-{
-"word": "in",
-"start": 61.85796,
-"end": 61.93536
-},
-{
-"word": "sixty-nine.",
-"start": 61.93536,
-"end": 62.508118
-},
-{
-"word": "Every",
-"start": 63.529797,
-"end": 63.777477
-},
-{
-"word": "nation",
-"start": 63.777477,
-"end": 64.040634
-},
-{
-"word": "is",
-"start": 64.040634,
-"end": 64.164474
-},
-{
-"word": "born",
-"start": 64.164474,
-"end": 64.365715
-},
-{
-"word": "sometime.",
-"start": 64.365715,
-"end": 64.81464
-},
-{
-"word": "Jordan,",
-"start": 65.29451,
-"end": 65.86727
-},
-{
-"word": "forty-six.",
-"start": 65.99111,
-"end": 66.82703
-},
-{
-"word": "Israel,",
-"start": 67.36883,
-"end": 67.94159
-},
-{
-"word": "forty-eight.",
-"start": 68.18927,
-"end": 68.746544
-},
-{
-"word": "Today",
-"start": 69.505066,
-"end": 69.73727
-},
-{
-"word": "millions",
-"start": 69.73727,
-"end": 70.13974
-},
-{
-"word": "call",
-"start": 70.13974,
-"end": 70.27906
-},
-{
-"word": "themselves",
-"start": 70.27906,
-"end": 70.66606
-},
-{
-"word": "Palestinian,",
-"start": 70.66606,
-"end": 71.26978
+"word": "Jews",
+"start": 13.575933,
+"end": 14.102252
 },
 {
 "word": "and",
-"start": 71.54842,
-"end": 71.68774
+"start": 14.102252,
+"end": 14.349932
 },
 {
-"word": "that's",
-"start": 71.68774,
-"end": 71.8735
+"word": "Arabs",
+"start": 14.349932,
+"end": 14.736931
 },
 {
-"word": "real.",
-"start": 71.8735,
-"end": 72.22954
+"word": "were",
+"start": 14.736931,
+"end": 14.891731
 },
 {
-"word": "The",
-"start": 72.8023,
-"end": 72.92614
+"word": "Palestinian",
+"start": 14.891731,
+"end": 15.52641
+},
+{
+"word": "citizens.",
+"start": 15.52641,
+"end": 16.20753
+},
+{
+"word": "Thirty-four:",
+"start": 16.904127,
+"end": 17.585245
+},
+{
+"word": "Palestine's",
+"start": 17.972244,
+"end": 18.575964
+},
+{
+"word": "World",
+"start": 18.575964,
+"end": 18.823643
+},
+{
+"word": "Cup",
+"start": 18.823643,
+"end": 18.993923
+},
+{
+"word": "team,",
+"start": 18.993923,
+"end": 19.334482
+},
+{
+"word": "every",
+"start": 19.690521,
+"end": 19.98464
+},
+{
+"word": "player",
+"start": 19.98464,
+"end": 20.26328
+},
+{
+"word": "Jewish.",
+"start": 20.26328,
+"end": 20.74316
+},
+{
+"word": "Thirty-six:",
+"start": 21.19208,
+"end": 21.935118
+},
+{
+"word": "the",
+"start": 22.600756,
+"end": 22.724596
+},
+{
+"word": "Palestine",
+"start": 22.724596,
+"end": 23.204475
+},
+{
+"word": "Orchestra,",
+"start": 23.204475,
+"end": 23.761753
+},
+{
+"word": "Jewish",
+"start": 24.040394,
+"end": 24.427393
+},
+{
+"word": "musicians.",
+"start": 24.427393,
+"end": 25.154951
+},
+{
+"word": "Arabs",
+"start": 25.83607,
+"end": 26.145668
+},
+{
+"word": "used",
+"start": 26.145668,
+"end": 26.315948
+},
+{
+"word": "the",
+"start": 26.315948,
+"end": 26.408829
 },
 {
 "word": "name",
-"start": 72.92614,
-"end": 73.1893
+"start": 26.408829,
+"end": 26.625547
 },
 {
-"word": "just",
-"start": 73.1893,
-"end": 73.37505
+"word": "too:",
+"start": 26.625547,
+"end": 26.950628
 },
 {
-"word": "has",
-"start": 73.37505,
-"end": 73.49889
+"word": "the",
+"start": 27.461466,
+"end": 27.616266
+},
+{
+"word": "Jaffa",
+"start": 27.616266,
+"end": 27.972305
+},
+{
+"word": "paper",
+"start": 28.003265,
+"end": 28.483145
+},
+{
+"word": "Filastin.",
+"start": 28.715343,
+"end": 29.226183
+},
+{
+"word": "Nineteen",
+"start": 30.031141,
+"end": 30.54198
+},
+{
+"word": "forty-eight,",
+"start": 30.54198,
+"end": 31.114738
+},
+{
+"word": "Israel",
+"start": 31.563658,
+"end": 31.981617
+},
+{
+"word": "is",
+"start": 31.981617,
+"end": 32.105457
+},
+{
+"word": "born.",
+"start": 32.105457,
+"end": 32.368618
+},
+{
+"word": "Rebrand",
+"start": 33.173576,
+"end": 33.591534
+},
+{
+"word": "time.",
+"start": 33.622494,
+"end": 33.932095
+},
+{
+"word": "The",
+"start": 34.582253,
+"end": 34.675133
+},
+{
+"word": "Palestine",
+"start": 34.675133,
+"end": 35.15501
+},
+{
+"word": "Post",
+"start": 35.15501,
+"end": 35.60393
+},
+{
+"word": "becomes",
+"start": 35.66585,
+"end": 36.02189
+},
+{
+"word": "The",
+"start": 36.02189,
+"end": 36.14573
+},
+{
+"word": "Jerusalem",
+"start": 36.14573,
+"end": 36.62561
+},
+{
+"word": "Post.",
+"start": 36.62561,
+"end": 37.105488
+},
+{
+"word": "The",
+"start": 37.771126,
+"end": 37.894966
+},
+{
+"word": "orchestra:",
+"start": 37.894966,
+"end": 38.452244
+},
+{
+"word": "Israel",
+"start": 38.916645,
+"end": 39.303642
+},
+{
+"word": "Philharmonic.",
+"start": 39.303642,
+"end": 40.01572
+},
+{
+"word": "The",
+"start": 40.619442,
+"end": 40.712322
+},
+{
+"word": "bank:",
+"start": 40.712322,
+"end": 41.13028
+},
+{
+"word": "Bank",
+"start": 41.733997,
+"end": 41.997158
+},
+{
+"word": "Leumi.",
+"start": 41.997158,
+"end": 42.21388
+},
+{
+"word": "The",
+"start": 42.956917,
+"end": 43.080757
+},
+{
+"word": "team:",
+"start": 43.080757,
+"end": 43.374874
+},
+{
+"word": "Israel.",
+"start": 43.916676,
+"end": 44.272713
+},
+{
+"word": "Palestinian",
+"start": 45.15507,
+"end": 45.74331
+},
+{
+"word": "now",
+"start": 45.74331,
+"end": 45.96003
+},
+{
+"word": "means",
+"start": 45.96003,
+"end": 46.31607
+},
+{
+"word": "the",
+"start": 46.31607,
+"end": 46.47087
+},
+{
+"word": "Arabs",
+"start": 46.47087,
+"end": 46.795948
+},
+{
+"word": "of",
+"start": 46.795948,
+"end": 46.88883
+},
+{
+"word": "the",
+"start": 46.88883,
+"end": 46.95075
+},
+{
+"word": "land.",
+"start": 46.95075,
+"end": 47.30679
+},
+{
+"word": "The",
+"start": 48.003387,
+"end": 48.065308
+},
+{
+"word": "flag?",
+"start": 48.065308,
+"end": 48.359425
+},
+{
+"word": "Older",
+"start": 49.086983,
+"end": 49.319183
+},
+{
+"word": "than",
+"start": 49.319183,
+"end": 49.473984
+},
+{
+"word": "you",
+"start": 49.473984,
+"end": 49.582344
+},
+{
+"word": "think.",
+"start": 49.582344,
+"end": 49.83002
+},
+{
+"word": "Nineteen",
+"start": 50.72786,
+"end": 51.14582
+},
+{
+"word": "sixteen,",
+"start": 51.14582,
+"end": 51.625698
+},
+{
+"word": "the",
+"start": 51.95078,
+"end": 52.04366
+},
+{
+"word": "Arab",
+"start": 52.04366,
+"end": 52.26038
+},
+{
+"word": "Revolt",
+"start": 52.26038,
+"end": 52.554497
+},
+{
+"word": "flag.",
+"start": 52.554497,
+"end": 52.802177
+},
+{
+"word": "Forty-eight,",
+"start": 53.607136,
+"end": 54.303734
+},
+{
+"word": "Gaza's",
+"start": 54.81457,
+"end": 55.170612
+},
+{
+"word": "All-Palestine",
+"start": 55.201572,
+"end": 55.80529
+},
+{
+"word": "Government",
+"start": 55.80529,
+"end": 56.16133
+},
+{
+"word": "adopts",
+"start": 56.16133,
+"end": 56.54833
+},
+{
+"word": "it.",
+"start": 56.54833,
+"end": 56.64121
+},
+{
+"word": "Sixty-four,",
+"start": 57.19849,
+"end": 57.89509
+},
+{
+"word": "the",
+"start": 57.89509,
+"end": 58.01893
+},
+{
+"word": "PLO,",
+"start": 58.01893,
+"end": 58.638126
+},
+{
+"word": "the",
+"start": 58.885803,
+"end": 58.978683
+},
+{
+"word": "Palestine",
+"start": 58.978683,
+"end": 59.427605
+},
+{
+"word": "Liberation",
+"start": 59.427605,
+"end": 59.845562
+},
+{
+"word": "Organization,",
+"start": 59.845562,
+"end": 60.480244
+},
+{
+"word": "takes",
+"start": 60.5112,
+"end": 60.77436
+},
+{
+"word": "it.",
+"start": 60.77436,
+"end": 60.8982
+},
+{
+"word": "Jordan's",
+"start": 61.34712,
+"end": 61.70316
+},
+{
+"word": "flag?",
+"start": 61.70316,
+"end": 62.0592
+},
+{
+"word": "Almost",
+"start": 63.111835,
+"end": 63.390476
+},
+{
+"word": "identical,",
+"start": 63.390476,
+"end": 63.978714
+},
+{
+"word": "plus",
+"start": 64.009674,
+"end": 64.257355
 },
 {
 "word": "a",
-"start": 73.49889,
-"end": 73.545334
+"start": 64.257355,
+"end": 64.288315
 },
 {
-"word": "surprising",
-"start": 73.545334,
-"end": 73.978775
+"word": "star.",
+"start": 64.288315,
+"end": 64.706276
 },
 {
-"word": "history.",
-"start": 73.978775,
-"end": 74.334816
+"word": "First",
+"start": 65.12423,
+"end": 65.41835
 },
 {
-"word": "It",
-"start": 75.01593,
-"end": 75.13977
+"word": "leader?",
+"start": 65.41835,
+"end": 65.78987
 },
 {
-"word": "started",
-"start": 75.13977,
-"end": 75.40293
+"word": "Not",
+"start": 66.14591,
+"end": 66.34715
 },
 {
-"word": "with",
-"start": 75.40293,
-"end": 75.52677
+"word": "Arafat,",
+"start": 66.34715,
+"end": 66.95087
 },
 {
-"word": "a",
-"start": 75.52677,
+"word": "but",
+"start": 67.10567,
+"end": 67.26047
+},
+{
+"word": "Ahmad",
+"start": 67.26047,
+"end": 67.49267
+},
+{
+"word": "Shukeiri.",
+"start": 67.49267,
+"end": 67.97255
+},
+{
+"word": "Every",
+"start": 68.57626,
+"end": 68.777504
+},
+{
+"word": "nation",
+"start": 68.777504,
+"end": 69.056145
+},
+{
+"word": "is",
+"start": 69.056145,
+"end": 69.149025
+},
+{
+"word": "born",
+"start": 69.149025,
+"end": 69.350266
+},
+{
+"word": "sometime:",
+"start": 69.350266,
+"end": 69.76823
+},
+{
+"word": "Jordan",
+"start": 70.20166,
+"end": 70.49578
+},
+{
+"word": "forty-six,",
+"start": 70.49578,
+"end": 71.0995
+},
+{
+"word": "Israel",
+"start": 71.16142,
+"end": 71.4865
+},
+{
+"word": "forty-eight.",
+"start": 71.4865,
+"end": 71.93542
+},
+{
+"word": "Today",
+"start": 72.6475,
+"end": 72.89518
+},
+{
+"word": "millions",
+"start": 72.89518,
+"end": 73.28217
+},
+{
+"word": "call",
+"start": 73.28217,
+"end": 73.46793
+},
+{
+"word": "themselves",
+"start": 73.46793,
+"end": 73.854935
+},
+{
+"word": "Palestinian,",
+"start": 73.854935,
+"end": 74.4277
+},
+{
+"word": "and",
+"start": 74.45866,
+"end": 74.59798
+},
+{
+"word": "that's",
+"start": 74.59798,
+"end": 74.8147
+},
+{
+"word": "real.",
+"start": 74.8147,
+"end": 75.04689
+},
+{
+"word": "The",
+"start": 75.49581,
 "end": 75.58869
 },
 {
-"word": "newspaper.",
+"word": "name",
 "start": 75.58869,
-"end": 76.13049
+"end": 75.77445
+},
+{
+"word": "has",
+"start": 75.77445,
+"end": 75.89829
+},
+{
+"word": "a",
+"start": 75.89829,
+"end": 75.92925
+},
+{
+"word": "surprising",
+"start": 75.92925,
+"end": 76.378174
+},
+{
+"word": "history.",
+"start": 76.378174,
+"end": 76.76517
+},
+{
+"word": "It",
+"start": 77.33793,
+"end": 77.44629
+},
+{
+"word": "started",
+"start": 77.44629,
+"end": 77.75589
+},
+{
+"word": "with",
+"start": 77.75589,
+"end": 77.84877
+},
+{
+"word": "a",
+"start": 77.84877,
+"end": 77.87973
+},
+{
+"word": "newspaper.",
+"start": 77.87973,
+"end": 78.390564
 }
 ]
