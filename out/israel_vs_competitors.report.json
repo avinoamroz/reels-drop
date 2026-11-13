@@ -1,6 +1,149 @@
 {
-  "id": "israel_vs_competitors",
-  "status": "FAILED",
-  "run": "43485889923",
-  "log": "voice ok: Cartesia sonic-3 (87.7 s, 163 words) voice/israel_vs_competitors_vo.wav\n[18:47:41] voice: cached voice (script unchanged)\n[ WARN:0@1.742] global loadsave.cpp:278 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/ml_tech.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/ml_tech.jpg\n"
+ "id": "israel_vs_competitors",
+ "account": "noamroz__",
+ "template": "lens_podium",
+ "hook": "Israel vs *6* rivals.|*4* tests.",
+ "duration": 74.47,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/israel_vs_competitors.mp4",
+  "cover": "covers/israel_vs_competitors_cover.jpg",
+  "preview": "previews/israel_vs_competitors_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_vs_competitors_0.jpg",
+  "1": "out/frames/israel_vs_competitors_1.jpg",
+  "3": "out/frames/israel_vs_competitors_3.jpg",
+  "last": "out/frames/israel_vs_competitors_last.jpg"
+ },
+ "caption_en": "Israel vs 6 of the world's most innovative small economies. 4 tests, pure math 📐\n\n1) R&D spending, % of GDP: Israel 6.35, Korea 4.94, Sweden 3.60, Switzerland 3.22, Netherlands 2.27, Singapore 1.81, UAE 1.49 (World Bank / UNESCO, 2023; Singapore 2022, UAE 2021).\n2) Venture capital deals received per $1bn GDP (PPP): Israel 1.2, Singapore 1.0, Sweden 0.7, Switzerland 0.6, Korea 0.6, Netherlands 0.4, UAE 0.3 (WIPO Global Innovation Index 2025).\n3) International patent (PCT) filings per $1bn GDP (PPP): Korea 6.6, Sweden 4.3, Israel 3.9, Switzerland 3.5, Netherlands 2.6, Singapore 1.2, UAE 0.2 (WIPO GII 2025).\n4) GDP per person, PPP, 2025: Singapore $164k, Switzerland $102k, Netherlands $85k, UAE $83k, Sweden $74k, Korea $65k, Israel $57k (IMF World Economic Outlook, April 2026).\n\nThe math: each test scaled 0 to 100 across the 7 (best = 100, last = 0), then averaged with equal weights.\nScores: Israel 64, Korea 53, Singapore 50, Sweden 42, Switzerland 41, Netherlands 23, UAE 6.\nIsrael: (100 + 100 + 58 + 0) / 4 = 64.\n\nPick other tests and the podium can change. Israel's weakest test is clear: income per person. World class ideas, now the incomes have to catch up.\n\nPhotos: Intel, Kiryat Gat (Kiryat Gat archive, CC BY 2.5); Tel Aviv (Makaf Ivri, CC BY-SA 4.0); Technion, Haifa, 1940s (Matson Collection, Library of Congress, public domain); Tel Aviv (Suicasmo, CC BY-SA 4.0), via Wikimedia Commons.",
+ "caption_he": "ישראל מול 6 מהכלכלות הקטנות והחדשניות בעולם. 4 מבחנים, מתמטיקה נקייה.\n\n1) הוצאה על מו\"פ באחוזי תוצר: ישראל 6.35, קוריאה 4.94, שוודיה 3.60, שווייץ 3.22, הולנד 2.27, סינגפור 1.81, איחוד האמירויות 1.49.\n2) עסקאות הון סיכון לכל מיליארד דולר תוצר: ישראל 1.2, סינגפור 1.0, שוודיה 0.7, שווייץ 0.6, קוריאה 0.6, הולנד 0.4, איחוד האמירויות 0.3.\n3) בקשות פטנט בינלאומיות (PCT) לכל מיליארד דולר תוצר: קוריאה 6.6, שוודיה 4.3, ישראל 3.9, שווייץ 3.5, הולנד 2.6, סינגפור 1.2, איחוד האמירויות 0.2.\n4) תוצר לנפש (PPP, 2025): סינגפור 164 אלף דולר, שווייץ 102 אלף, הולנד 85 אלף, איחוד האמירויות 83 אלף, שוודיה 74 אלף, קוריאה 65 אלף, ישראל 57 אלף.\n\nהחישוב: כל מבחן מנורמל מ-0 עד 100 בין שבע המדינות, ואז ממוצע במשקל שווה. ישראל 64, קוריאה 53, סינגפור 50.\nנקודת החולשה של ישראל ברורה: הכנסה לנפש. הרעיונות ברמה עולמית, עכשיו ההכנסות צריכות להדביק את הקצב.\n\nSources: World Bank / UNESCO R&D expenditure (% of GDP), 2023; WIPO Global Innovation Index 2025 (indicators 4.2.2 and 6.1.2); IMF World Economic Outlook, April 2026.",
+ "hashtags": [
+  "#Israel",
+  "#innovation",
+  "#StartupNation"
+ ],
+ "sources": [
+  {
+   "label": "R&D % of GDP: World Bank (UNESCO data), 2023; Singapore 2022, UAE 2021",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Venture capital deals per $1bn GDP (PPP): World Intellectual Property Organization (WIPO), Global Innovation Index",
+   "year": 2025,
+   "at": "L3",
+   "until": "L5-0.1"
+  },
+  {
+   "label": "International patent (PCT) filings per $1bn GDP (PPP): WIPO Global Innovation Index",
+   "year": 2025,
+   "at": "L5",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "GDP per person, PPP, 2025: International Monetary Fund, World Economic Outlook, April 2026",
+   "year": 2026,
+   "at": "L7",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "Calculation: min-max per test across the 7, equal weights",
+   "year": 2026,
+   "at": "L9",
+   "until": "L12-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.969,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel against six of the world's most innovative small economies. Four tests. Pure math.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Test one: research spending, as a share of the economy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel: six point three five percent. Number one, ahead of Korea and Sweden.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Test two: startup funding deals, per billion dollars of economy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel again: one point two. Singapore is close, with one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Test three: international patent filings, per billion dollars.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Korea wins this one, with six point six. Sweden is second. Israel takes bronze.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Test four: income per person, adjusted for prices.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Singapore: a hundred and sixty four thousand dollars. Israel: fifty six thousand. Last of the seven.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the math. Each test is scaled from zero to a hundred. Then we average.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Bronze: Singapore, fifty. Silver: Korea, fifty three.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And gold: Israel, sixty four.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Pick other tests and the podium can change. And Israel's weak spot is clear: income per person.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "World class ideas. Now the incomes have to catch up. Israel versus six rivals: four tests.",
+    "score": 0.938,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel against six of the world's most innovative small economies. Four tests. Sure math. Test one. Research spending as a share of the economy. Israel. 6.35%. Number one. Ahead of Korea and Sweden. Test two. Startup funding deals per billion dollars of economy. Israel again. 1.2. Singapore is close. With one. Test three. International patent filings per billion dollars. Korea wins this one with 6.6, Sweden a second, Israel takes bronze, test four, income per person, adjusted for prices, Singapore $164,000, Israel 56,000, last of the seven, now the math, each test is scaled from zero to 100, then we average bronze, Singapore 50, silver, Korea 53, And gold. Israel. 64. Pick other tests and the podium can change. And Israel's weak spot is clear. Income per person. World class ideas. Now the incomes have to catch up. Israel vs 6 rivals. 4 tests.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 74.47,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 126.2
 }
