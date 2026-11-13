@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "stock_chart",
  "hook": "*5* Christian stocks:|*buy* or *sell?*",
- "duration": 54.93,
+ "duration": 55.2,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/christians_stock.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.982,
+  "score": 1.0,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -122,7 +122,7 @@
    },
    {
     "line": "Thirty six thousand Christians in 1950. One hundred eighty four thousand today. Up every single decade.",
-    "score": 0.952,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -136,20 +136,20 @@
     "flag": "ok"
    },
    {
-    "line": "So, Middle East Christians: buy or sell?",
-    "score": 0.714,
-    "flag": "MISS"
+    "line": "So, Middle East Christians: buy, or sell?",
+    "score": 1.0,
+    "flag": "ok"
    }
   ],
-  "heard": "If Christians were stocks, would you buy? Iraq. One and a half million Christians before 2003. Today, fewer than 150,000. Down 90%. In 2014, ISIS, the Islamic State Group, took Mosul and told Christians, convert, pay, or die. Syria, 2.2 million before the war. About 580,000 by 2023. Turkey, about 110,000 Greek Orthodox in 1923. Fewer than 2,500 today. Bethlehem, where Christmas began, about 6,000 Christians for decades. Now roughly half that. In Israel, 36,000 Christians in 1950, 184,000 today, of every single decade. Of these five charts, only one line is green. Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration. So, Middle East Christians, buy yourself.",
+  "heard": "If Christians were stocks, would you buy? Iraq. One and a half million Christians before 2003. Today, fewer than 150,000. Down 90 percent. In 2014, ISIS, the Islamic State Group, took Mosul and told Christians, convert, pay, or die. Syria, 2.2 million before the war. About 580,000 by 2023. Turkey, about 110,000 Greek Orthodox in 1923. Fewer than 2,500 today, Bethlehem, where Christmas began, about 6,000 Christians for decades. Now roughly half that. In Israel, 36,000 Christians in 1950, 184,000 today. Up every single decade. Of these five charts, only one line is green. Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration. So Middle East Christians, buy or sell.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 119.8
+ "render_s": 92.5
 }
