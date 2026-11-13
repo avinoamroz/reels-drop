@@ -1,0 +1,1676 @@
+{
+ "id": "west_bank_east_bank",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Why is it the|*WEST* Bank?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Why is it called the West Bank?",
+   "gap": 0.15
+  },
+  {
+   "say": "Because there's an East Bank. And it was Palestine too.",
+   "screen": "There's an *East* Bank.",
+   "screen_icon": "🧭"
+  },
+  {
+   "say": "Nineteen twenty two. The League of Nations' Mandate for Palestine covers both banks of the Jordan.",
+   "screen": "1922: Mandate for Palestine. *Both* banks.",
+   "screen_icon": "📜"
+  },
+  {
+   "say": "But on the East Bank, Britain had already made Abdullah, a Hashemite prince from Mecca, its emir.",
+   "screen": "1921: Emir *Abdullah* gets the East Bank",
+   "screen_icon": "👑"
+  },
+  {
+   "say": "That's about seventy seven percent of the Mandate.",
+   "screen": "Transjordan: about *77%* of the Mandate",
+   "screen_icon": "📐"
+  },
+  {
+   "say": "In September, the League agreed: the Jewish national home clauses don't apply there.",
+   "screen": "Sept 1922: Jewish national home clauses *excluded*",
+   "screen_icon": "✂️"
+  },
+  {
+   "say": "Nineteen forty eight. Abdullah's army takes the land west of the river too.",
+   "screen": "1948: Abdullah's army takes the *west* bank",
+   "screen_icon": "🪖"
+  },
+  {
+   "say": "Nineteen fifty: Jordan annexes it, and calls it the West Bank. To tell it from the East Bank.",
+   "screen": "1950: annexed. Name: the *West* Bank.",
+   "screen_icon": "🏷️"
+  },
+  {
+   "say": "Its Palestinians become Jordanian citizens.",
+   "screen": "One kingdom, two banks. *Jordanian* citizens.",
+   "screen_icon": "🛂"
+  },
+  {
+   "say": "Sixty seven: Israel takes it. Eighty eight: Jordan drops its claim.",
+   "screen": "1967: Israel. 1988: Jordan drops its *claim.*",
+   "screen_icon": "📍"
+  },
+  {
+   "say": "Today, an estimated fifty five to seventy percent of Jordanians have Palestinian roots.",
+   "screen": "Jordan today",
+   "screen_icon": "🇯🇴"
+  },
+  {
+   "say": "Even the queen. Her parents are from Tulkarm and Nablus.",
+   "screen": "Queen Rania: parents from *Tulkarm* and *Nablus*",
+   "screen_icon": "👑"
+  },
+  {
+   "say": "Jordan's king says: Jordan is Jordan, and Palestine is Palestine. And Palestinians want their own state, in the West Bank and Gaza.",
+   "screen": "\"Jordan is Jordan and Palestine is Palestine\"",
+   "screen_icon": "🗣️"
+  },
+  {
+   "say": "Two banks. One river. One people? So, why is it called the West Bank?",
+   "screen": "Two banks. One river. *One* people?"
+  }
+ ],
+ "data": {
+  "cam0": [
+   36.55,
+   31.3,
+   6.6
+  ],
+  "title_y": 300,
+  "hook_y": 560,
+  "cams": [
+   {
+    "at": "L2-0.2",
+    "view": [
+     36.55,
+     31.3,
+     6.6,
+     1000
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L6-0.2",
+    "view": [
+     35.9,
+     31.75,
+     4.0,
+     1000
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L10-0.2",
+    "view": [
+     36.55,
+     31.3,
+     6.6,
+     1000
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L13-0.2",
+    "view": [
+     36.55,
+     31.3,
+     6.6,
+     960
+    ],
+    "dur": 0.8
+   }
+  ],
+  "zones": [
+   {
+    "at": 0,
+    "until": "L2-0.1",
+    "poly": [
+     [
+      38.774,
+      33.372
+     ],
+     [
+      39.058,
+      32.493
+     ],
+     [
+      38.982,
+      32.473
+     ],
+     [
+      39.041,
+      32.306
+     ],
+     [
+      39.247,
+      32.351
+     ],
+     [
+      39.293,
+      32.244
+     ],
+     [
+      38.962,
+      31.995
+     ],
+     [
+      36.959,
+      31.492
+     ],
+     [
+      37.98,
+      30.5
+     ],
+     [
+      37.65,
+      30.331
+     ],
+     [
+      37.469,
+      29.995
+     ],
+     [
+      36.704,
+      29.832
+     ],
+     [
+      36.476,
+      29.495
+     ],
+     [
+      36.068,
+      29.201
+     ],
+     [
+      34.951,
+      29.354
+     ],
+     [
+      35.142,
+      30.142
+     ],
+     [
+      35.141,
+      30.421
+     ],
+     [
+      35.439,
+      31.132
+     ],
+     [
+      35.401,
+      31.231
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.535,
+      32.103
+     ],
+     [
+      35.611,
+      32.682
+     ],
+     [
+      35.895,
+      32.714
+     ],
+     [
+      36.059,
+      32.534
+     ],
+     [
+      36.372,
+      32.387
+     ],
+     [
+      36.818,
+      32.317
+     ]
+    ],
+    "color": "#45A4DD",
+    "alpha": 0.45,
+    "label": "East Bank",
+    "label_at": [
+     36.9,
+     31.0
+    ],
+    "size": 52
+   },
+   {
+    "at": 0,
+    "until": "L1e",
+    "poly": [
+     [
+      35.551,
+      32.396
+     ],
+     [
+      35.572,
+      32.238
+     ],
+     [
+      35.531,
+      31.985
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.499,
+      31.672
+     ],
+     [
+      35.451,
+      31.479
+     ],
+     [
+      35.101,
+      31.366
+     ],
+     [
+      34.88,
+      31.368
+     ],
+     [
+      34.951,
+      31.602
+     ],
+     [
+      35.204,
+      31.75
+     ],
+     [
+      35.127,
+      31.817
+     ],
+     [
+      35.053,
+      31.838
+     ],
+     [
+      34.983,
+      31.817
+     ],
+     [
+      34.954,
+      31.841
+     ],
+     [
+      34.99,
+      31.913
+     ],
+     [
+      34.956,
+      32.161
+     ],
+     [
+      35.065,
+      32.46
+     ],
+     [
+      35.193,
+      32.534
+     ],
+     [
+      35.362,
+      32.507
+     ],
+     [
+      35.484,
+      32.402
+     ]
+    ],
+    "color": "#FFD23F",
+    "alpha": 0.0,
+    "label": "West Bank",
+    "label_at": [
+     35.05,
+     31.95
+    ],
+    "size": 44
+   },
+   {
+    "at": "L2:mandate",
+    "until": "L3:but",
+    "poly": [
+     [
+      38.774,
+      33.372
+     ],
+     [
+      39.058,
+      32.493
+     ],
+     [
+      38.982,
+      32.473
+     ],
+     [
+      39.041,
+      32.306
+     ],
+     [
+      39.247,
+      32.351
+     ],
+     [
+      39.293,
+      32.244
+     ],
+     [
+      38.962,
+      31.995
+     ],
+     [
+      36.959,
+      31.492
+     ],
+     [
+      37.98,
+      30.5
+     ],
+     [
+      37.65,
+      30.331
+     ],
+     [
+      37.469,
+      29.995
+     ],
+     [
+      36.704,
+      29.832
+     ],
+     [
+      36.476,
+      29.495
+     ],
+     [
+      36.068,
+      29.201
+     ],
+     [
+      34.951,
+      29.354
+     ],
+     [
+      35.142,
+      30.142
+     ],
+     [
+      35.141,
+      30.421
+     ],
+     [
+      35.439,
+      31.132
+     ],
+     [
+      35.401,
+      31.231
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.535,
+      32.103
+     ],
+     [
+      35.611,
+      32.682
+     ],
+     [
+      35.895,
+      32.714
+     ],
+     [
+      36.059,
+      32.534
+     ],
+     [
+      36.372,
+      32.387
+     ],
+     [
+      36.818,
+      32.317
+     ]
+    ],
+    "color": "#45A4DD",
+    "alpha": 0.5
+   },
+   {
+    "at": "L2:mandate",
+    "until": "L3:but",
+    "poly": [
+     [
+      35.643,
+      32.868
+     ],
+     [
+      35.583,
+      32.637
+     ],
+     [
+      35.545,
+      32.102
+     ],
+     [
+      35.569,
+      31.765
+     ],
+     [
+      35.475,
+      31.56
+     ],
+     [
+      35.411,
+      31.232
+     ],
+     [
+      35.449,
+      31.13
+     ],
+     [
+      35.183,
+      30.52
+     ],
+     [
+      35.151,
+      30.139
+     ],
+     [
+      34.983,
+      29.552
+     ],
+     [
+      34.902,
+      29.468
+     ],
+     [
+      34.188,
+      31.325
+     ],
+     [
+      34.469,
+      31.591
+     ],
+     [
+      34.67,
+      31.9
+     ],
+     [
+      35.102,
+      33.091
+     ],
+     [
+      35.409,
+      33.086
+     ],
+     [
+      35.585,
+      33.28
+     ],
+     [
+      35.651,
+      33.201
+     ],
+     [
+      35.588,
+      33.007
+     ]
+    ],
+    "color": "#45A4DD",
+    "alpha": 0.5,
+    "label": "Mandate for Palestine",
+    "label_at": [
+     36.5,
+     30.4
+    ],
+    "size": 50
+   },
+   {
+    "at": "L3:emir",
+    "until": "L6-0.1",
+    "poly": [
+     [
+      38.774,
+      33.372
+     ],
+     [
+      39.058,
+      32.493
+     ],
+     [
+      38.982,
+      32.473
+     ],
+     [
+      39.041,
+      32.306
+     ],
+     [
+      39.247,
+      32.351
+     ],
+     [
+      39.293,
+      32.244
+     ],
+     [
+      38.962,
+      31.995
+     ],
+     [
+      36.959,
+      31.492
+     ],
+     [
+      37.98,
+      30.5
+     ],
+     [
+      37.65,
+      30.331
+     ],
+     [
+      37.469,
+      29.995
+     ],
+     [
+      36.704,
+      29.832
+     ],
+     [
+      36.476,
+      29.495
+     ],
+     [
+      36.068,
+      29.201
+     ],
+     [
+      34.951,
+      29.354
+     ],
+     [
+      35.142,
+      30.142
+     ],
+     [
+      35.141,
+      30.421
+     ],
+     [
+      35.439,
+      31.132
+     ],
+     [
+      35.401,
+      31.231
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.535,
+      32.103
+     ],
+     [
+      35.611,
+      32.682
+     ],
+     [
+      35.895,
+      32.714
+     ],
+     [
+      36.059,
+      32.534
+     ],
+     [
+      36.372,
+      32.387
+     ],
+     [
+      36.818,
+      32.317
+     ]
+    ],
+    "color": "#FFD23F",
+    "alpha": 0.45,
+    "label": "Transjordan",
+    "label_at": [
+     36.9,
+     31.0
+    ],
+    "size": 52
+   },
+   {
+    "at": "L3:emir",
+    "until": "L6-0.1",
+    "poly": [
+     [
+      35.643,
+      32.868
+     ],
+     [
+      35.583,
+      32.637
+     ],
+     [
+      35.545,
+      32.102
+     ],
+     [
+      35.569,
+      31.765
+     ],
+     [
+      35.475,
+      31.56
+     ],
+     [
+      35.411,
+      31.232
+     ],
+     [
+      35.449,
+      31.13
+     ],
+     [
+      35.183,
+      30.52
+     ],
+     [
+      35.151,
+      30.139
+     ],
+     [
+      34.983,
+      29.552
+     ],
+     [
+      34.902,
+      29.468
+     ],
+     [
+      34.188,
+      31.325
+     ],
+     [
+      34.469,
+      31.591
+     ],
+     [
+      34.67,
+      31.9
+     ],
+     [
+      35.102,
+      33.091
+     ],
+     [
+      35.409,
+      33.086
+     ],
+     [
+      35.585,
+      33.28
+     ],
+     [
+      35.651,
+      33.201
+     ],
+     [
+      35.588,
+      33.007
+     ]
+    ],
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "label": "Palestine",
+    "label_at": [
+     34.75,
+     30.6
+    ],
+    "size": 44
+   },
+   {
+    "at": "L6:takes",
+    "until": "L9:israel",
+    "poly": [
+     [
+      38.774,
+      33.372
+     ],
+     [
+      39.058,
+      32.493
+     ],
+     [
+      38.982,
+      32.473
+     ],
+     [
+      39.041,
+      32.306
+     ],
+     [
+      39.247,
+      32.351
+     ],
+     [
+      39.293,
+      32.244
+     ],
+     [
+      38.962,
+      31.995
+     ],
+     [
+      36.959,
+      31.492
+     ],
+     [
+      37.98,
+      30.5
+     ],
+     [
+      37.65,
+      30.331
+     ],
+     [
+      37.469,
+      29.995
+     ],
+     [
+      36.704,
+      29.832
+     ],
+     [
+      36.476,
+      29.495
+     ],
+     [
+      36.068,
+      29.201
+     ],
+     [
+      34.951,
+      29.354
+     ],
+     [
+      35.142,
+      30.142
+     ],
+     [
+      35.141,
+      30.421
+     ],
+     [
+      35.439,
+      31.132
+     ],
+     [
+      35.401,
+      31.231
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.535,
+      32.103
+     ],
+     [
+      35.611,
+      32.682
+     ],
+     [
+      35.895,
+      32.714
+     ],
+     [
+      36.059,
+      32.534
+     ],
+     [
+      36.372,
+      32.387
+     ],
+     [
+      36.818,
+      32.317
+     ]
+    ],
+    "color": "#E5484D",
+    "alpha": 0.35,
+    "label": "East Bank",
+    "label_at": [
+     36.6,
+     31.0
+    ],
+    "size": 52
+   },
+   {
+    "at": "L6:takes",
+    "until": "L9:israel",
+    "poly": [
+     [
+      35.551,
+      32.396
+     ],
+     [
+      35.572,
+      32.238
+     ],
+     [
+      35.531,
+      31.985
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.499,
+      31.672
+     ],
+     [
+      35.451,
+      31.479
+     ],
+     [
+      35.101,
+      31.366
+     ],
+     [
+      34.88,
+      31.368
+     ],
+     [
+      34.951,
+      31.602
+     ],
+     [
+      35.204,
+      31.75
+     ],
+     [
+      35.127,
+      31.817
+     ],
+     [
+      35.053,
+      31.838
+     ],
+     [
+      34.983,
+      31.817
+     ],
+     [
+      34.954,
+      31.841
+     ],
+     [
+      34.99,
+      31.913
+     ],
+     [
+      34.956,
+      32.161
+     ],
+     [
+      35.065,
+      32.46
+     ],
+     [
+      35.193,
+      32.534
+     ],
+     [
+      35.362,
+      32.507
+     ],
+     [
+      35.484,
+      32.402
+     ]
+    ],
+    "color": "#E5484D",
+    "alpha": 0.45
+   },
+   {
+    "at": "L7:west",
+    "until": "L9:israel",
+    "poly": [
+     [
+      35.551,
+      32.396
+     ],
+     [
+      35.572,
+      32.238
+     ],
+     [
+      35.531,
+      31.985
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.499,
+      31.672
+     ],
+     [
+      35.451,
+      31.479
+     ],
+     [
+      35.101,
+      31.366
+     ],
+     [
+      34.88,
+      31.368
+     ],
+     [
+      34.951,
+      31.602
+     ],
+     [
+      35.204,
+      31.75
+     ],
+     [
+      35.127,
+      31.817
+     ],
+     [
+      35.053,
+      31.838
+     ],
+     [
+      34.983,
+      31.817
+     ],
+     [
+      34.954,
+      31.841
+     ],
+     [
+      34.99,
+      31.913
+     ],
+     [
+      34.956,
+      32.161
+     ],
+     [
+      35.065,
+      32.46
+     ],
+     [
+      35.193,
+      32.534
+     ],
+     [
+      35.362,
+      32.507
+     ],
+     [
+      35.484,
+      32.402
+     ]
+    ],
+    "color": "#E5484D",
+    "alpha": 0.0,
+    "label": "West Bank",
+    "label_at": [
+     35.2,
+     32.05
+    ],
+    "size": 48
+   },
+   {
+    "at": "L10",
+    "until": "L12",
+    "poly": [
+     [
+      38.774,
+      33.372
+     ],
+     [
+      39.058,
+      32.493
+     ],
+     [
+      38.982,
+      32.473
+     ],
+     [
+      39.041,
+      32.306
+     ],
+     [
+      39.247,
+      32.351
+     ],
+     [
+      39.293,
+      32.244
+     ],
+     [
+      38.962,
+      31.995
+     ],
+     [
+      36.959,
+      31.492
+     ],
+     [
+      37.98,
+      30.5
+     ],
+     [
+      37.65,
+      30.331
+     ],
+     [
+      37.469,
+      29.995
+     ],
+     [
+      36.704,
+      29.832
+     ],
+     [
+      36.476,
+      29.495
+     ],
+     [
+      36.068,
+      29.201
+     ],
+     [
+      34.951,
+      29.354
+     ],
+     [
+      35.142,
+      30.142
+     ],
+     [
+      35.141,
+      30.421
+     ],
+     [
+      35.439,
+      31.132
+     ],
+     [
+      35.401,
+      31.231
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.535,
+      32.103
+     ],
+     [
+      35.611,
+      32.682
+     ],
+     [
+      35.895,
+      32.714
+     ],
+     [
+      36.059,
+      32.534
+     ],
+     [
+      36.372,
+      32.387
+     ],
+     [
+      36.818,
+      32.317
+     ]
+    ],
+    "color": "#45A4DD",
+    "alpha": 0.45,
+    "label": "Jordan",
+    "label_at": [
+     36.9,
+     31.0
+    ],
+    "size": 52
+   },
+   {
+    "at": "L13",
+    "poly": [
+     [
+      38.774,
+      33.372
+     ],
+     [
+      39.058,
+      32.493
+     ],
+     [
+      38.982,
+      32.473
+     ],
+     [
+      39.041,
+      32.306
+     ],
+     [
+      39.247,
+      32.351
+     ],
+     [
+      39.293,
+      32.244
+     ],
+     [
+      38.962,
+      31.995
+     ],
+     [
+      36.959,
+      31.492
+     ],
+     [
+      37.98,
+      30.5
+     ],
+     [
+      37.65,
+      30.331
+     ],
+     [
+      37.469,
+      29.995
+     ],
+     [
+      36.704,
+      29.832
+     ],
+     [
+      36.476,
+      29.495
+     ],
+     [
+      36.068,
+      29.201
+     ],
+     [
+      34.951,
+      29.354
+     ],
+     [
+      35.142,
+      30.142
+     ],
+     [
+      35.141,
+      30.421
+     ],
+     [
+      35.439,
+      31.132
+     ],
+     [
+      35.401,
+      31.231
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.535,
+      32.103
+     ],
+     [
+      35.611,
+      32.682
+     ],
+     [
+      35.895,
+      32.714
+     ],
+     [
+      36.059,
+      32.534
+     ],
+     [
+      36.372,
+      32.387
+     ],
+     [
+      36.818,
+      32.317
+     ]
+    ],
+    "color": "#45A4DD",
+    "alpha": 0.45,
+    "label": "East Bank",
+    "label_at": [
+     36.9,
+     31.0
+    ],
+    "size": 52
+   },
+   {
+    "at": "L13",
+    "poly": [
+     [
+      35.551,
+      32.396
+     ],
+     [
+      35.572,
+      32.238
+     ],
+     [
+      35.531,
+      31.985
+     ],
+     [
+      35.559,
+      31.766
+     ],
+     [
+      35.499,
+      31.672
+     ],
+     [
+      35.451,
+      31.479
+     ],
+     [
+      35.101,
+      31.366
+     ],
+     [
+      34.88,
+      31.368
+     ],
+     [
+      34.951,
+      31.602
+     ],
+     [
+      35.204,
+      31.75
+     ],
+     [
+      35.127,
+      31.817
+     ],
+     [
+      35.053,
+      31.838
+     ],
+     [
+      34.983,
+      31.817
+     ],
+     [
+      34.954,
+      31.841
+     ],
+     [
+      34.99,
+      31.913
+     ],
+     [
+      34.956,
+      32.161
+     ],
+     [
+      35.065,
+      32.46
+     ],
+     [
+      35.193,
+      32.534
+     ],
+     [
+      35.362,
+      32.507
+     ],
+     [
+      35.484,
+      32.402
+     ]
+    ],
+    "color": "#FFD23F",
+    "alpha": 0.0,
+    "label": "West Bank",
+    "label_at": [
+     35.05,
+     31.95
+    ],
+    "size": 44
+   }
+  ],
+  "routes": [
+   {
+    "at": "L3:britain",
+    "until": "L6-0.1",
+    "path": [
+     [
+      35.62,
+      33.05
+     ],
+     [
+      35.643,
+      32.868
+     ],
+     [
+      35.583,
+      32.637
+     ],
+     [
+      35.545,
+      32.102
+     ],
+     [
+      35.569,
+      31.765
+     ],
+     [
+      35.475,
+      31.56
+     ],
+     [
+      35.411,
+      31.232
+     ],
+     [
+      35.449,
+      31.13
+     ],
+     [
+      35.183,
+      30.52
+     ],
+     [
+      35.151,
+      30.139
+     ],
+     [
+      34.983,
+      29.552
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 1.0,
+    "label": "the line",
+    "label_at": [
+     35.9,
+     32.4
+    ],
+    "label_dy": 0
+   }
+  ],
+  "icons": [
+   {
+    "at": "L9:sixty",
+    "until": "L10-0.1",
+    "lon": 35.25,
+    "lat": 31.95,
+    "emo": "🇮🇱",
+    "size": 64,
+    "label": "1967",
+    "label_dy": 64,
+    "tsize": 44
+   },
+   {
+    "at": "L9:eighty",
+    "until": "L10-0.1",
+    "lon": 36.3,
+    "lat": 31.95,
+    "emo": "🇯🇴",
+    "size": 64,
+    "label": "1988: claim dropped",
+    "label_dy": 64,
+    "tsize": 44
+   }
+  ],
+  "counter": [
+   {
+    "label": "East of the river, share of the Mandate",
+    "at": "L4",
+    "until": "L5e",
+    "y": 1250,
+    "suffix": "%",
+    "steps": [
+     {
+      "at": "L4:seventy",
+      "value": 77
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L10:fifty",
+    "until": "L10e",
+    "value": 55,
+    "from": 0,
+    "suffix": " to 70%",
+    "sub": "Jordanians of Palestinian origin (est.)",
+    "y": 1000
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/west_bank_east_bank/wbeb_map22.jpg",
+    "at": "L2",
+    "until": "L2:mandate",
+    "kb": [
+     0.27,
+     0.68,
+     1.3,
+     0.25,
+     0.7,
+     1.7
+    ],
+    "dim": 0.15,
+    "credit": "J. G. Bartholomew map, 1922, public domain, Commons"
+   },
+   {
+    "file": "templates/photos/west_bank_east_bank/wbeb_church.jpg",
+    "at": "L3",
+    "until": "L3:emir",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Churchill and Abdullah, Jerusalem 1921, American Colony, public domain"
+   },
+   {
+    "file": "templates/photos/west_bank_east_bank/wbeb_bridge.jpg",
+    "at": "L6",
+    "until": "L6:takes",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.52,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "credit": "Allenby Bridge, Jordan River, Matson Collection, public domain"
+   },
+   {
+    "file": "templates/photos/west_bank_east_bank/wbeb_stamp.jpg",
+    "at": "L8",
+    "until": "L8e",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.15,
+    "credit": "Jordan stamp, 1949, Palestine overprint, public domain"
+   },
+   {
+    "file": "templates/photos/west_bank_east_bank/wbeb_amman.jpg",
+    "at": "L10",
+    "until": "L10:fifty",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.3,
+    "credit": "Amman, Zairon, CC BY-SA 3.0, Commons"
+   },
+   {
+    "file": "templates/photos/west_bank_east_bank/wbeb_rania.jpg",
+    "at": "L11",
+    "until": "L12",
+    "kb": [
+     0.5,
+     0.35,
+     1.0,
+     0.5,
+     0.35,
+     1.1
+    ],
+    "dim": 0.25,
+    "credit": "Queen Rania, Haydar Othman for WEF, CC BY-SA 4.0"
+   }
+  ],
+  "tail": 0.55
+ },
+ "sources": [
+  {
+   "label": "League of Nations, Mandate for Palestine",
+   "year": 1922,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Britannica: Jordan, Transjordan",
+   "year": 1921,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Israel MFA; areas: Jordan 89k, west 27k km²",
+   "year": 1922,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "League of Nations, Transjordan memorandum",
+   "year": 1922,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Britannica: Jordan, the Palestine war",
+   "year": 1948,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Britannica: Judea and Samaria; West Bank",
+   "year": 1950,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Jordan Nationality Law No. 6",
+   "year": 1954,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Britannica: West Bank, claimed 1949 to 1988",
+   "at": "L9",
+   "until": "L10",
+   "year": 1988
+  },
+  {
+   "label": "US Congressional Research Service, estimate",
+   "year": 2024,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Britannica: Rania al-Abdullah",
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "Royal Hashemite Court, King Abdullah II",
+   "year": 2014,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L12:and#2",
+  "balance": "Jordan rejects \"Jordan is Palestine.\" Palestinians seek *their own* state.",
+  "cta": "Send this to someone who says West Bank"
+ },
+ "caption_en": "Why is it called the WEST Bank? 🧭 Because there's an EAST Bank.\n\n1922: the League of Nations' Mandate for Palestine covers both banks of the Jordan River.\n1921: on the East Bank, Britain had already made Abdullah, a Hashemite prince from Mecca, Emir of Transjordan. That's about 77% of the Mandate's area (Israel MFA; roughly 89,000 of 116,000 km²).\n16 Sept 1922: the League approves the Transjordan memorandum. The Jewish national home clauses don't apply east of the river.\n1948: Abdullah's Arab Legion takes the land west of the river, including East Jerusalem.\n1950: Jordan annexes it (only Britain and Pakistan recognised it), and it becomes \"the West Bank\", as opposed to the East Bank. Its Palestinians are Jordanian citizens (Nationality Law, 1954).\n1967: Israel takes it. 1988: Jordan drops its claim.\nToday an estimated 55 to 70% of Jordanians have Palestinian roots (US Congressional Research Service, 2024; estimates vary, Jordan publishes no official figure). Queen Rania's parents are from Tulkarm and Nablus.\n\nKing Abdullah II (2014): \"Jordan is Jordan and Palestine is Palestine.\" And Palestinians seek their own state in the West Bank and Gaza.\n\nTwo banks. One river. One people?\n\nSend this to someone who says \"West Bank\".",
+ "caption_he": "למה קוראים לזה \"הגדה המערבית\"? כי יש גדה מזרחית.\n1922: המנדט על פלשתינה של חבר הלאומים כולל את שתי גדות הירדן. כבר ב־1921 בריטניה הפכה את עבדאללה, נסיך האשמי ממכה, לאמיר עבר הירדן: כ־77% משטח המנדט. בספטמבר 1922 חבר הלאומים קבע שסעיפי הבית הלאומי היהודי לא חלים שם.\n1948: ירדן כובשת את הצד המערבי. 1950: מספחת וקוראת לו \"הגדה המערבית\". 1967: ישראל. 1988: ירדן מוותרת על התביעה.\nהיום, לפי הערכות, 55 עד 70% מהירדנים ממוצא פלסטיני, כולל המלכה ראניה.\nמלך ירדן: \"ירדן היא ירדן ופלסטין היא פלסטין\", והפלסטינים מבקשים מדינה משלהם בגדה ובעזה.\nשתי גדות. נהר אחד. עם אחד?",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#Jordan"
+ ],
+ "cover": {
+  "t": 7.0,
+  "big": "77%",
+  "text": "Why is it the|*WEST* Bank?"
+ }
+}
