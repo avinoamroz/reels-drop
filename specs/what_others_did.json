@@ -1,0 +1,532 @@
+{
+ "id": "what_others_did",
+ "account": "noamroz__",
+ "template": "high_horse",
+ "hook": "Easy to judge|from *up here.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS",
+  "seventy-four thousand": "74,000",
+  "nineteen sixty-seven": "1967",
+  "nineteen twenties": "1920s",
+  "one thousand and ninety": "1,090",
+  "fourteen hundred": "1,400",
+  "five hundred fifty": "550",
+  "seven point two million": "7.2 million",
+  "thirteen point seven million": "13.7 million",
+  "fifteen million": "15 million",
+  "Seven point two million": "7.2 million",
+  "Over seventy-four thousand": "Over 74,000"
+ },
+ "lines": [
+  {
+   "say": "Easy to judge from up here.",
+   "gap": 0.25
+  },
+  {
+   "say": "Over seventy-four thousand dead, says Gaza's health ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>.",
+   "gap": 0.12
+  },
+  {
+   "say": "Eight in ten buildings damaged.",
+   "gap": 0.12
+  },
+  {
+   "say": "Military rule in the West Bank since nineteen sixty-seven. Record settler attacks.",
+   "gap": 0.3
+  },
+  {
+   "say": "If I were Israel, I'd have done it differently.",
+   "gap": 0.15
+  },
+  {
+   "say": "Applause, without ever doing the job.",
+   "gap": 0.3,
+   "screen": "Applause, *without* the job",
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "say": "So let's climb down. What did governments actually do?",
+   "gap": 0.25
+  },
+  {
+   "say": "Spain, in Morocco, the nineteen twenties: mustard gas on Rif villages.",
+   "gap": 0.15,
+   "screen": "Spain in Morocco, *1921 to 1927*",
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "say": "France, in Algeria: hundreds of thousands dead.",
+   "gap": 0.15,
+   "screen": "France in Algeria, *1954 to 1962*",
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "say": "Britain, in Kenya: one thousand and ninety Kenyans hanged.",
+   "gap": 0.15,
+   "screen": "Britain in Kenya, *1952 to 1960*",
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "say": "Syria's regime gassed its own suburbs: fourteen hundred dead in one night.",
+   "gap": 0.15,
+   "screen": "Assad regime, Ghouta, *Aug 2013*",
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "say": "And Iran wasn't even at war. It killed over five hundred fifty protesters.",
+   "gap": 0.3,
+   "screen": "Iran's regime, protests, *2022*",
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "say": "Israel? Before striking, it warned.",
+   "gap": 0.12,
+   "screen": "Israel's warnings in Gaza",
+   "at": "L12",
+   "until": "L14"
+  },
+  {
+   "say": "Seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
+   "gap": 0.3
+  },
+  {
+   "say": "At the top: utopia. No one harmed.",
+   "gap": 0.15,
+   "screen": "The *utopia* scale",
+   "at": "L14",
+   "until": "L16",
+   "screen_y": 300
+  },
+  {
+   "say": "Israel is far from perfect. But compared with these cases, it's not the outlier it's painted as.",
+   "gap": 0.25
+  },
+  {
+   "say": "Every death in Gaza is a tragedy.",
+   "gap": 0.3
+  },
+  {
+   "say": "So get off your high horse, and join the club.",
+   "screen": "Get off the high horse, and *join the club.*",
+   "at": "L17",
+   "screen_y": 1340
+  }
+ ],
+ "data": {
+  "map": {
+   "view": [
+    33.7,
+    31.6,
+    6.0,
+    1150
+   ],
+   "until": "L7",
+   "labels": [
+    {
+     "text": "Gaza",
+     "lon": 33.95,
+     "lat": 31.15,
+     "size": 50
+    },
+    {
+     "text": "West Bank",
+     "lon": 35.75,
+     "lat": 32.75,
+     "size": 46
+    }
+   ],
+   "credit": "Map: Green Line in green; West Bank and Gaza shaded"
+  },
+  "horse": {
+   "x": 230,
+   "y": 1440,
+   "sc": 0.95,
+   "climb": [
+    "L6",
+    "L6:what"
+   ],
+   "until": "L7",
+   "back": {
+    "at": "L14",
+    "x": 890,
+    "y": 480,
+    "sc": 0.3
+   }
+  },
+  "chips": [
+   {
+    "at": "L1:over",
+    "until": "L4",
+    "big": "74,645",
+    "sub": "dead in Gaza, incl. fighters",
+    "y": 460,
+    "x": 60
+   },
+   {
+    "at": "L2",
+    "until": "L4",
+    "big": "81%",
+    "sub": "of buildings damaged",
+    "y": 460,
+    "x": 560
+   },
+   {
+    "at": "L3",
+    "until": "L4",
+    "big": "Since 1967",
+    "sub": "military rule, West Bank",
+    "y": 670,
+    "x": 60
+   },
+   {
+    "at": "L3:record",
+    "until": "L4",
+    "big": "Record",
+    "sub": "settler attacks, 2026",
+    "y": 670,
+    "x": 560
+   }
+  ],
+  "bubble": [
+   {
+    "at": "L4",
+    "until": "L5",
+    "text": "If I were Israel, I'd have done it *differently.*"
+   }
+  ],
+  "walker": {
+   "at": "L7",
+   "until": "L11e",
+   "y": 1395
+  },
+  "photos": [
+   {
+    "file": "templates/photos/what_others_did/gaza.jpg",
+    "at": "L2",
+    "until": "L4",
+    "credit": "Abedallah Alhaj, Gaza, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/what_others_did/rifship.jpg",
+    "at": "L7",
+    "until": "L8",
+    "credit": "Spanish Navy to the Rif War, 1922, R. Martín, PD",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.4,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3,
+    "gray": true
+   },
+   {
+    "file": "templates/photos/what_others_did/casbah1960.jpg",
+    "at": "L8",
+    "until": "L9",
+    "credit": "Casbah, 1960, Touring Club Italiano, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.26,
+     1.4,
+     0.5,
+     0.22,
+     1.5
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/what_others_did/hola.jpg",
+    "at": "L9",
+    "until": "L10",
+    "credit": "Hola memorial, Jerome KL, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.1
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/what_others_did/aleppo.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Aleppo 2016, Ortho, CC BY-SA 4.0",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.45,
+     0.5,
+     1.1
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/what_others_did/iranflag.jpg",
+    "at": "L11",
+    "until": "L12",
+    "credit": "IranAzadShod, CC0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.08
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/ethnic_cleansing_v3/leaflet.jpg",
+    "at": "L12",
+    "until": "L14",
+    "credit": "IDF leaflet, J. J. Badwan, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/what_others_did/gaza2.jpg",
+    "at": "L16",
+    "until": "END",
+    "credit": "Gaza 2024, Abedallah Alhaj, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.4
+   }
+  ],
+  "big": [
+   {
+    "at": "L7:mustard",
+    "until": "L8-0.1",
+    "txt": "Mustard gas",
+    "sub": "dropped on Rif villages",
+    "size": 140
+   },
+   {
+    "at": "L8:hundreds",
+    "until": "L9-0.1",
+    "txt": "350k to 1.5M",
+    "sub": "Algerians dead, by count",
+    "size": 130
+   },
+   {
+    "at": "L9:one",
+    "until": "L10-0.1",
+    "value": 1090,
+    "from": 10,
+    "sub": "Kenyans hanged"
+   },
+   {
+    "at": "L10:fourteen",
+    "until": "L11-0.1",
+    "value": 1429,
+    "from": 10,
+    "sub": "killed by sarin, one night"
+   },
+   {
+    "at": "L11:over",
+    "until": "L12-0.1",
+    "value": 551,
+    "from": 10,
+    "suffix": "+",
+    "sub": "protesters killed"
+   }
+  ],
+  "listcard": [
+   {
+    "at": "L13",
+    "until": "L14-0.1",
+    "title": "Oct 2023 to Jan 2024",
+    "y": 960,
+    "rows": [
+     {
+      "v": "7.2M",
+      "label": "leaflets",
+      "at": "L13:seven"
+     },
+     {
+      "v": "13.7M",
+      "label": "texts",
+      "at": "L13:thirteen"
+     },
+     {
+      "v": "15M",
+      "label": "calls",
+      "at": "L13:fifteen"
+     }
+    ]
+   }
+  ],
+  "ladder": {
+   "at": "L14",
+   "until": "L16",
+   "top": 460,
+   "pitch": 150,
+   "rows": [
+    {
+     "label": "UTOPIA: no one harmed",
+     "col": "yellow",
+     "at": "L14:utopia"
+    },
+    {
+     "label": "Israel, Gaza war: warned first",
+     "sub": "74,645 dead incl. fighters (split disputed)",
+     "col": "sky",
+     "hl": true,
+     "at": "L15:israel"
+    },
+    {
+     "label": "Spain, Rif",
+     "sub": "mustard gas on villages",
+     "col": "red",
+     "at": "L15:but"
+    },
+    {
+     "label": "Britain, Kenya",
+     "sub": "1,090 hanged; torture admitted",
+     "col": "red",
+     "at": "L15:compared"
+    },
+    {
+     "label": "France, Algeria",
+     "sub": "350,000 to 1.5 million dead",
+     "col": "red",
+     "at": "L15:these"
+    },
+    {
+     "label": "Syria's regime",
+     "sub": "sarin on its own suburbs",
+     "col": "red",
+     "at": "L15:cases"
+    },
+    {
+     "label": "Iran's regime",
+     "sub": "551+ protesters, no war",
+     "col": "red",
+     "at": "L15:not"
+    }
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Gaza Health Ministry (HAMAS-run), 10 Nov 2026; no civilian/fighter split",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "UN Satellite Centre (UNOSAT), 11 Oct 2025",
+   "year": 2025,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "UN OCHA (Office for the Coordination of Humanitarian Affairs)",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Balfour, Deadly Embrace",
+   "year": 2002,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "French official est. 350,000; FLN (National Liberation Front) 1.5M",
+   "year": 1962,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "D. Anderson, Histories of the Hanged",
+   "year": 2005,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "US Government assessment",
+   "year": 2013,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Iran Human Rights",
+   "year": 2023,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "IDF (Israel Defense Forces)",
+   "year": 2024,
+   "at": "L12",
+   "until": "L14"
+  },
+  {
+   "label": "Our comparison. Others in date order. Sources in caption",
+   "year": 2026,
+   "at": "L14",
+   "until": "L16"
+  }
+ ],
+ "end": {
+  "at": "L16",
+  "balance": "Every death in Gaza is a *tragedy.*",
+  "cta": "Send this to *someone*"
+ },
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#history"
+ ],
+ "cover": {
+  "t": 3.0,
+  "text": "Easy to judge|from *up here*",
+  "label": "What other governments actually did"
+ },
+ "caption_en": "Easy to judge from up here. 🐎\n\nThe accusations: Gaza's Health Ministry (run by HAMAS) counts 74,645 dead (10 Nov 2026), no civilian/fighter split. UN Satellite Centre (UNOSAT): 81% of structures damaged (Oct 2025). Military rule in the West Bank since 1967; UN OCHA: record settler attacks in 2026.\n\nWhat other governments did:\nSpain, Rif, 1921 to 1927: mustard gas, also from planes (Balfour, 2002).\nFrance, Algeria, 1954 to 1962: 350,000 dead (French est.) to 1.5M (FLN, National Liberation Front).\nBritain, Kenya: 1,090 hanged (Anderson, 2005); in 2013 the UK paid £19.9M to 5,228 torture victims.\nAssad regime, Ghouta, Aug 2013: sarin killed 1,429 (US Gov).\nIran's regime, 2022: 551+ protesters killed, no war (Iran Human Rights, 2023).\n\nIsrael's warnings, Oct 2023 to Jan 2024: 7.2M leaflets, 13.7M texts, 15M calls (IDF). Fighters among the dead: disputed (IDF says 22,000+).\n\nThe scale is our comparison, not a formula. By raw numbers some cases killed fewer than the Gaza war; we weigh warnings against deliberate attacks on civilians.\n\nIsrael is far from perfect, but not the outlier it's painted as. Every death in Gaza is a tragedy.\n\nPhotos: Abedallah Alhaj (CC BY-SA 3.0 IGO); Ricardo Martín (PD); Touring Club Italiano (CC BY-SA 4.0); Jerome KL (CC BY-SA 4.0); Ortho (CC BY-SA 4.0); IranAzadShod (CC0); Jaber Jehad Badwan (CC BY-SA 4.0); via Wikimedia Commons.\nAI voice. Send this to someone on a high horse.",
+ "caption_he": "קל לשפוט מלמעלה.\n74,645 הרוגים בעזה לפי משרד הבריאות של חמאס, 81% מהמבנים נפגעו, ושיא באלימות מתנחלים. הביקורת אמיתית.\nאבל ספרד: גז חרדל על כפרים. צרפת: מאות אלפי הרוגים באלג'יריה. בריטניה: 1,090 תלויים בקניה. אסד: סארין. איראן: 551 מפגינים.\nישראל רחוקה משלמות, אבל היא לא החריגה. כל מוות בעזה הוא טרגדיה."
+}
