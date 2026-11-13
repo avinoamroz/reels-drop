@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "irony_reasons",
  "hook": "*8* reasons I|“hate” the Jews",
- "duration": 48.77,
+ "duration": 55.07,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -0.9
+  "true_peak": -1.4
  },
  "outputs": {
   "mp4": "out/hate_the_jews_p1.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.964,
+  "score": 0.957,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -86,18 +86,18 @@
     "flag": "ok"
    },
    {
-    "line": "One. Jonas Salk made the polio vaccine. Now kids just run around. Ugh.",
-    "score": 0.923,
+    "line": "One. Jonas Salk made the polio vaccine. Now kids just run around. Unbearable.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Two. Israeli rescue teams pulled nineteen people out of the rubble in Turkey. Show offs.",
-    "score": 0.867,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Three. Israelis built modern drip irrigation. Now deserts grow food. Who asked for that?",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
@@ -107,17 +107,17 @@
    },
    {
     "line": "Five. Israelis built Waze. Now nobody has an excuse to be late. Great.",
-    "score": 0.923,
+    "score": 0.846,
     "flag": "ok"
    },
    {
     "line": "Six. Israelis patented the USB stick. Now my whole life fits on a keychain. Annoying.",
-    "score": 1.0,
+    "score": 0.933,
     "flag": "ok"
    },
    {
     "line": "Seven. Israelis put a camera in a pill. You swallow it, it films your insides. Disgusting.",
-    "score": 1.0,
+    "score": 0.938,
     "flag": "ok"
    },
    {
@@ -136,14 +136,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "8 reasons I hate the juice. 1. Jonas Salk made the polio vaccine. Now kids just run around. 2. Israeli rescue teams pulled 19 people out of the rubble in Turkey. Showoffs. 3. Israelis built modern drip irrigation. Now deserts grow food. Who asked for that? 4. Einstein's relativity. Without it, your GPS would drift miles every day. Thanks a lot. 5. Israelis built ways. Now nobody has an excuse to be late. Great. 6. Israelis patented the USB stick. Now my whole life fits on a keychain. Annoying. Seven. Israelis put a camera in a pill. You swallow it, it films your insides. Disgusting. Eight. Levi Strauss and Jacob Davis, two Jewish immigrants, invented blue jeans. Now everyone looks good. Rude. Obviously I'm Jewish. And we'll keep doing all of it. Eight more reasons on my profile.",
+  "heard": "Eight reasons I hate the juice. One. Jonas Salk made the polio vaccine. Now kids just run around. Unbearable. Two. Israeli rescue teams pulled 19 people out of the rubble in Turkey. Show-offs. Three. Israelis built modern drip irrigation. Now desserts grow food. Who asked for that? Four. Einstein's relativity. Without it, your GPS would drift miles every day. Thanks a lot. Bye. Israelis build weights. Now, nobody has an excuse to be late, or great, or sexy. Israelis patented the USB stick, now my whole life fits on a keychain, annoying, or sexy. Israelis put a camera in a pill, you swallow it, it films your insides, disgusting, hate. Levi Strauss and Jacob Davis, two Jewish immigrants, invented blue jeans, now everyone looks good, rude. Obviously, I'm Jewish. And we'll keep doing all of it, eight more reasons on my profile.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -0.9
+  "true_peak": -1.4
  },
  "photos": [
   {
@@ -180,5 +180,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 104.0
+ "render_s": 152.2
 }
