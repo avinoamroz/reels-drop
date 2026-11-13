@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "zoom_stock",
  "hook": "This is *utopia.*|Israel is *here.*",
- "duration": 49.77,
+ "duration": 50.8,
  "audio": {
-  "lufs": -16.1,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "outputs": {
@@ -19,7 +19,7 @@
   "3": "out/frames/not_perfect_zoom_3.jpg",
   "last": "out/frames/not_perfect_zoom_last.jpg"
  },
- "caption_en": "This is utopia: a perfect 100 on Freedom House's scale. Israel is at 73.\n\nSo what's in the gap? Plenty.\n• Corruption: former prime minister Ehud Olmert went to prison for bribery in 2016. Benjamin Netanyahu has been on trial since 2020 for bribery, fraud and breach of trust; he denies the charges. Transparency International: 62/100, 35th of 182 (2025).\n• Prices: the 4th highest price level of the 38 OECD (Organisation for Economic Co-operation and Development) countries (OECD Economic Survey of Israel, 2025).\n• Poverty: 20.7% of Israelis are poor, and child poverty is the 2nd highest in the OECD (National Insurance Institute, 2024 data).\n• Press freedom: 116th of 180 (Reporters Without Borders, 2026). Qatar (75th) and Lebanon (115th) rank higher.\n• Arab towns: a record 252 Arab citizens murdered in 2025 (Abraham Initiatives).\n\nNow zoom out. Same scale, Freedom House 2026:\n🇮🇱 Israel 73\n🇱🇧 Lebanon 41\n🇯🇴 Jordan 34\n🇪🇬 Egypt 18\n🇦🇪 UAE 18\n🇸🇾 Syria 10\n🇮🇷 Iran 10\n🇸🇦 Saudi Arabia 9\nDistance to utopia (100 minus the score): Israel 27, the neighbours 59 to 91. Every one of them is at least twice as far.\n\nOne honest catch: on corruption, the UAE scores cleaner than Israel (69 vs 62, Transparency International 2025).\n\nWe're not perfect. We know it. But on freedom, we're closer to utopia than anyone around us.\n\nSend this to a critic.",
+ "caption_en": "This is utopia: a perfect 100 on Freedom House's scale. Israel is at 73.\n\nSo what's in the gap? Plenty.\n• Corruption: former prime minister Ehud Olmert went to prison for bribery in 2016. Benjamin Netanyahu has been on trial since 2020 for bribery, fraud and breach of trust; he denies the charges. Transparency International: 62/100, 35th of 182 (2025).\n• Cost of living: the 4th highest price level of the 38 OECD (Organisation for Economic Co-operation and Development) countries (OECD Economic Survey of Israel, 2025).\n• Poverty: 20.7% of Israelis are poor, and child poverty is the 2nd highest in the OECD (National Insurance Institute, 2024 data).\n• Press freedom: 116th of 180 (Reporters Without Borders, 2026). Qatar (75th) and Lebanon (115th) rank higher.\n• Arab towns: a record 252 Arab citizens murdered in 2025 (Abraham Initiatives).\n\nNow zoom out. Same scale, Freedom House 2026:\n🇮🇱 Israel 73\n🇱🇧 Lebanon 41\n🇯🇴 Jordan 34\n🇪🇬 Egypt 18\n🇦🇪 UAE 18\n🇸🇾 Syria 10\n🇮🇷 Iran 10\n🇸🇦 Saudi Arabia 9\nDistance to utopia (100 minus the score): Israel 27, the neighbours 59 to 91. Every one of them is at least twice as far.\n\nOne honest catch: on corruption, the UAE scores cleaner than Israel (69 vs 62, Transparency International 2025).\n\nWe're not perfect. We know it. But on freedom, we're closer to utopia than anyone around us.\n\nSend this to a critic.",
  "caption_he": "זו אוטופיה: 100 מתוך 100 במדד של Freedom House. ישראל ב־73.\nמה יש בפער? שחיתות (ראש ממשלה לשעבר ישב בכלא, ונתניהו עומד לדין ומכחיש), יוקר מחיה, עוני, חופש עיתונות (מקום 116 מתוך 180), ושיא של 252 נרצחים בחברה הערבית ב־2025.\nעכשיו תעשו זום אאוט: לבנון 41, ירדן 34, מצרים ואיחוד האמירויות 18, סוריה ואיראן 10, סעודיה 9. כל השכנות רחוקות מהאוטופיה לפחות פי שניים.\nובכנות: במדד השחיתות איחוד האמירויות מקבלת ציון טוב יותר משלנו.\nאנחנו לא מושלמים. אנחנו יודעים. אבל בחופש, אנחנו הכי קרובים לאוטופיה באזור.",
  "hashtags": [
   "#Israel",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.944,
+  "score": 0.951,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -106,8 +106,8 @@
     "flag": "ok"
    },
    {
-    "line": "Prices? Among the highest in the developed world.",
-    "score": 0.875,
+    "line": "Cost of living? Among the highest in the developed world.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -156,13 +156,13 @@
     "flag": "ok"
    }
   ],
-  "heard": "This is utopia. Israel is here. 73 out of a hundred on Freedom House's scale. So what's in the gap? Corruption. A former prime minister went to prison. Netanyahu is on trial for bribery, fraud, and breach of trust. He denies the charges. Crisis. Among the highest in the developed world. Poverty? One in five Israelis. Press freedom? 116th out of 180. Arab towns? A record 252 murders last year. That's the gap. Now zoom out, Lebanon 41, Jordan 34, Egypt and the Emirates 18, Syria and Iran 10, Saudi Arabia 9, every neighbor is at least twice as far from Utopia. One honest catch? On corruption, the Emirates score cleaner than us. We're not perfect, we know it. But on freedom, we're closer to Utopia than anyone around us.",
+  "heard": "This is utopia. Israel is here. 73 out of a hundred on Freedom House's scale. So what's in the gap? Corruption. A former prime minister went to prison. Netanyahu is on trial for bribery, fraud, and breach of trust. He denies the charges. Cost of living? Among the highest in the developed world. Poverty? One in five Israelis. Press freedom. 116th out of 180. Arab towns? A record 252 murders last year. That's the gap. Now zoom out. Lebanon. 41. Jordan. 34. Egypt and the Emirates. 18. Syria and Iran. 10. Saudi Arabia. 9. Every neighbor is at least twice as far from utopia. One honest catch. On corruption, the Emirates score cleaner than us. We're not perfect. We know it. But on freedom, we're closer to utopia than anyone around us.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "photos": [
@@ -190,5 +190,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 103.0
+ "render_s": 60.6
 }
