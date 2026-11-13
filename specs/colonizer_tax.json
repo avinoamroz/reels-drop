@@ -1,0 +1,287 @@
+{
+ "id": "colonizer_tax",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*4* empires taxed|the conquered. *Israel?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Four empires taxed the conquered. And Israel?",
+   "gap": 0.15
+  },
+  {
+   "say": "Rome. Citizens in Italy stopped paying tribute. The conquered provinces paid.",
+   "screen": "Rome: the *provinces* paid",
+   "screen_icon": "🏛️"
+  },
+  {
+   "say": "The Ottoman Empire, like the caliphates before it: the jizya. A head tax only non-Muslims paid.",
+   "screen": "Jizya: a head tax on *non-Muslims*",
+   "screen_icon": "📜"
+  },
+  {
+   "say": "Gone by eighteen fifty six. Then ISIS, the Islamic State, revived it. Mosul, twenty fourteen.",
+   "screen": "Ended *1856.* ISIS revived it in *2014.*",
+   "screen_icon": "⚠️"
+  },
+  {
+   "say": "British India. Indian taxes paid for goods shipped to Britain. One estimate: forty five trillion dollars.",
+   "screen": "British India: *$45 trillion?*",
+   "screen_icon": "🚢"
+  },
+  {
+   "say": "Belgium's King Leopold: rubber quotas in the Congo, enforced with beatings. His Congo wealth built monuments in Brussels.",
+   "screen": "Congo rubber *built* Brussels monuments",
+   "screen_icon": "🏗️"
+  },
+  {
+   "say": "Every time, the money flows out. To the capital.",
+   "screen": "Money flows *out.*",
+   "screen_icon": "📤"
+  },
+  {
+   "say": "Now Israel, and its Arab citizens.",
+   "screen": "Israel's *Arab* citizens",
+   "screen_icon": "🏘️"
+  },
+  {
+   "say": "Same income tax. Same VAT. No special tax.",
+   "screen": "Same tax. *No* special tax.",
+   "screen_icon": "🧾"
+  },
+  {
+   "say": "Same national health insurance. Same benefits. Same vote.",
+   "screen": "Same health care. Same *vote.*",
+   "screen_icon": "🗳️"
+  },
+  {
+   "say": "And the money flows in. Five year plans for Arab towns: fifteen billion shekels, then thirty.",
+   "screen": "Money flows *in.*",
+   "screen_icon": "📥"
+  },
+  {
+   "say": "Not all of it was spent. The gaps are real, says Israel's central bank.",
+   "screen": "First plan: about *70%* actually spent",
+   "screen_icon": "📉"
+  },
+  {
+   "say": "If this is colonizing, it's a strange empire. Less tribute. More home improvement.",
+   "screen": "Less tribute. More *home improvement.*",
+   "screen_icon": "🔨"
+  },
+  {
+   "say": "Send this to someone who says colonizer."
+  },
+  {
+   "say": "Because four empires taxed the conquered. And Israel?"
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.0,
+   28.0,
+   112
+  ],
+  "title_y": 300,
+  "hook_y": 930,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     13.0,
+     41.0,
+     42,
+     980
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L2-0.2",
+    "view": [
+     34.0,
+     37.0,
+     40,
+     980
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L4-0.2",
+    "view": [
+     42.0,
+     33.0,
+     105,
+     960
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L5-0.2",
+    "view": [
+     8.0,
+     24.0,
+     70,
+     820
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L6-0.2",
+    "view": [
+     35.0,
+     28.0,
+     112,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     35.05,
+     31.95,
+     3.4,
+     800
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L13",
+    "view": [
+     35.0,
+     28.0,
+     112,
+     960
+    ],
+    "dur": 1.4
+   }
+  ],
+  "routes": [
+   {"at": "L1:stopped", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[-4.0, 40.0], [3.0, 40.6], [12.5, 41.9]], "draw": 0.6},
+   {"at": "L1:stopped+0.1", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[2.0, 46.5], [8.0, 44.5], [12.5, 41.9]], "draw": 0.6},
+   {"at": "L1:stopped+0.2", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[10.0, 36.6], [11.5, 39.0], [12.5, 41.9]], "draw": 0.6},
+   {"at": "L1:stopped+0.3", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[30.0, 38.5], [22.0, 38.0], [16.0, 39.5], [12.5, 41.9]], "draw": 0.6},
+   {"at": "L1:stopped+0.4", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[31.2, 30.5], [22.0, 33.5], [14.0, 39.0], [12.5, 41.9]], "draw": 0.6},
+   {"at": "L2:jizya", "until": "L2:head", "kind": "flow", "color": "red", "path": [[21.0, 42.5], [25.0, 41.8], [28.98, 41.01]], "draw": 0.6},
+   {"at": "L2:jizya+0.1", "until": "L2:head", "kind": "flow", "color": "red", "path": [[36.3, 33.5], [33.0, 37.2], [28.98, 41.01]], "draw": 0.6},
+   {"at": "L2:jizya+0.2", "until": "L2:head", "kind": "flow", "color": "red", "path": [[31.2, 30.0], [29.5, 35.5], [28.98, 41.01]], "draw": 0.6},
+   {"at": "L2:jizya+0.3", "until": "L2:head", "kind": "flow", "color": "red", "path": [[44.4, 33.3], [38.0, 38.5], [28.98, 41.01]], "draw": 0.6},
+   {"at": "L4:indian", "until": "L4:one", "kind": "flow", "color": "red", "path": [[88.4, 22.6], [80.0, 13.0], [72.0, 12.0], [55.0, 13.0], [44.0, 12.5], [33.0, 28.0], [25.0, 34.5], [10.0, 37.5], [-5.0, 36.0], [-9.5, 42.0], [-5.0, 48.0], [-0.1, 51.5]], "draw": 1.2, "speed": 180},
+   {"at": "L5:rubber", "until": "L5:his", "kind": "flow", "color": "red", "path": [[21.0, 0.5], [16.0, -4.0], [12.0, -6.0], [5.0, 0.0], [-12.0, 10.0], [-18.0, 22.0], [-12.0, 35.0], [-8.0, 44.0], [-2.0, 49.0], [4.35, 50.85]], "draw": 1.2, "speed": 180},
+   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[2.0, 46.5], [12.5, 41.9]], "draw": 0.5},
+   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[36.3, 33.5], [28.98, 41.01]], "draw": 0.5},
+   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[88.4, 22.6], [44.0, 12.5], [33.0, 28.0], [10.0, 37.5], [-0.1, 51.5]], "draw": 0.7, "speed": 180},
+   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[21.0, 0.5], [-12.0, 10.0], [-12.0, 35.0], [4.35, 50.85]], "draw": 0.7, "speed": 180},
+   {"at": "L10:money", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.0, 31.55], [34.75, 31.39]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
+   {"at": "L10:money+0.1", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.05, 32.05], [34.98, 32.27]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
+   {"at": "L10:money+0.2", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.2, 32.2], [35.15, 32.52]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
+   {"at": "L10:money+0.3", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.32, 32.3], [35.3, 32.7]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
+   {"at": "L10:money+0.4", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.4, 32.4], [35.29, 32.86]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7}
+  ],
+  "icons": [
+   {"at": "L1", "until": "L1:conquered", "lon": 12.5, "lat": 41.9, "emo": "👑", "size": 64, "label": "Rome", "label_dy": 66, "tsize": 44},
+   {"at": "L2", "until": "L3e", "lon": 28.98, "lat": 41.01, "emo": "👑", "size": 64, "label": "Istanbul", "label_dy": -70, "tsize": 44},
+   {"at": "L3:isis", "until": "L3e", "lon": 43.13, "lat": 36.34, "emo": "⚠️", "size": 60, "label": "Mosul 2014", "label_dy": 66, "tsize": 44},
+   {"at": "L4", "until": "L4:one", "lon": -0.1, "lat": 51.5, "emo": "👑", "size": 64, "label": "London", "label_dy": -70, "tsize": 44},
+   {"at": "L4", "until": "L4:one", "lon": 80.0, "lat": 22.0, "emo": "🌾", "size": 60, "label": "India", "label_dy": 66, "tsize": 44},
+   {"at": "L5", "until": "L5:his", "lon": 4.35, "lat": 50.85, "emo": "👑", "size": 64, "label": "Brussels", "label_dy": -70, "tsize": 44},
+   {"at": "L5", "until": "L5:his", "lon": 21.0, "lat": 0.5, "emo": "🌳", "size": 60, "label": "Congo", "label_dy": 66, "tsize": 44},
+   {"at": "L10:fifteen", "until": "L12", "lon": 34.75, "lat": 31.39, "emo": "🏗️", "size": 50, "label": "Rahat", "label_dy": 56, "tsize": 40},
+   {"at": "L10:fifteen+0.1", "until": "L12", "lon": 34.98, "lat": 32.27, "emo": "🏫", "size": 50, "label": "Tayibe", "label_dy": 56, "tsize": 40},
+   {"at": "L10:fifteen+0.2", "until": "L12", "lon": 35.15, "lat": 32.52, "emo": "🏗️", "size": 50},
+   {"at": "L10:fifteen+0.3", "until": "L12", "lon": 35.3, "lat": 32.7, "emo": "🏫", "size": 50, "label": "Nazareth", "label_dy": -60, "tsize": 40},
+   {"at": "L10:fifteen+0.4", "until": "L12", "lon": 35.29, "lat": 32.86, "emo": "🏗️", "size": 50}
+  ],
+  "bars": [
+   {
+    "at": "L10:five",
+    "until": "L11e",
+    "title": "Plans for Arab towns, NIS bn",
+    "y": 1290,
+    "vmax": 32,
+    "lab_w": 380,
+    "rows": [
+     {"label": "2016 to 2020", "value": 15, "txt": "15 bn", "at": "L10:fifteen", "color": "#45A4DD"},
+     {"label": "2022 to 2026", "value": 30, "txt": "30 bn", "at": "L10:thirty", "hl": true}
+    ]
+   }
+  ],
+  "tail": 0.55,
+  "photos": [
+   {
+    "file": "templates/photos/colonizer_tax/ctx_rom1.jpg",
+    "at": "L1:conquered",
+    "until": "L1e+0.1",
+    "kb": [0.62, 0.5, 1.0, 0.58, 0.5, 1.12],
+    "dim": 0.3,
+    "credit": "Wolfgang Moroder, CC BY-SA 3.0, Commons"
+   },
+   {
+    "file": "templates/photos/colonizer_tax/ctx_ott1.jpg",
+    "at": "L2:head",
+    "until": "L2e+0.1",
+    "kb": [0.47, 0.4, 1.15, 0.47, 0.38, 1.3],
+    "dim": 0.3,
+    "credit": "Canercangul, CC BY-SA 4.0, Commons"
+   },
+   {
+    "file": "templates/photos/colonizer_tax/ctx_eih1.jpg",
+    "at": "L4:one",
+    "until": "L4e+0.1",
+    "kb": [0.5, 0.45, 1.0, 0.52, 0.45, 1.12],
+    "dim": 0.3,
+    "credit": "East India House, London, c. 1800, CC0, Commons"
+   },
+   {
+    "file": "templates/photos/colonizer_tax/ctx_cinq1.jpg",
+    "at": "L5:his",
+    "until": "L5e+0.1",
+    "kb": [0.4, 0.5, 1.0, 0.42, 0.5, 1.12],
+    "dim": 0.3,
+    "credit": "Szilas, CC BY-SA 4.0, Commons"
+   },
+   {
+    "file": "templates/photos/colonizer_tax/ctx_sak1.jpg",
+    "at": "L12",
+    "until": "L12e+0.1",
+    "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12],
+    "dim": 0.3,
+    "credit": "Sakhnin, Shlomo Roded, CC BY 2.5, Commons"
+   }
+  ]
+ },
+ "sources": [
+  {"label": "Archaeology magazine: Roman taxes", "year": 2021, "at": "L1", "until": "L2"},
+  {"label": "Britannica; Encyclopedia of the Modern Middle East", "year": 1856, "at": "L2", "until": "L3"},
+  {"label": "Reuters: ISIS ultimatum, Mosul", "year": 2014, "at": "L3", "until": "L4"},
+  {"label": "Utsa Patnaik's estimate, with interest; disputed", "year": 2017, "at": "L4", "until": "L5"},
+  {"label": "Britannica; Debora Silverman, e-flux", "year": 2024, "at": "L5", "until": "L6"},
+  {"label": "National Health Insurance Law; Tax Authority", "year": 1994, "at": "L8", "until": "L10"},
+  {"label": "Gov. Resolutions 922 and 550", "year": 2021, "at": "L10", "until": "L11"},
+  {"label": "Bank of Israel research paper", "year": 2024, "at": "L11", "until": "L12"}
+ ],
+ "end": {
+  "at": "L13",
+  "balance": "Arab towns still trail Jewish towns. *Israel's own reports say so.*",
+  "cta": "Send this to someone who says colonizer"
+ },
+ "caption_en": "4 empires taxed the people they conquered. And Israel? 🧾\n\nRome: after 168 BC, Roman citizens in Italy stopped paying tributum. The conquered provinces paid (Archaeology magazine, 2021).\n\nThe Ottoman Empire, like the caliphates before it: the jizya, a head tax paid by non-Muslim subjects (Britannica). It was replaced after the 1856 reform edict, the Hatt-i Humayun (Encyclopedia of the Modern Middle East and North Africa). In July 2014 ISIS, the Islamic State, told Mosul's Christians: Islam, or the dhimma contract \"involving payment of jizya\", or \"nothing but the sword\" (Reuters, 18 July 2014).\n\nBritish India: taxes collected in India paid for goods shipped to Britain. Economist Utsa Patnaik estimates the drain from 1765 to 1938 at about $45 trillion, compounded with interest to today (Columbia University Press, 2017). Other historians dispute the figure and the method.\n\nCongo Free State, 1885 to 1908, under Belgium's King Leopold II: forced labour, rubber quotas enforced with beatings and lashings (Britannica). His Congo wealth built monuments in Brussels such as the Arcade du Cinquantenaire (Britannica; historian Debora Silverman, e-flux, 2024).\n\nNow Israel and its Arab citizens: the same income tax and VAT as every other citizen, and no special tax. The same national health insurance (National Health Insurance Law 1994, in force 1995), the same National Insurance (Bituach Leumi) benefits, the same vote.\n\nAnd the money flows in. Government Resolution 922 (Dec 2015): about NIS 15 billion announced for Arab towns, 2016 to 2020. Government Resolution 550 (Oct 2021): about NIS 30 billion, 2022 to 2026.\n\nNot all of it was spent. The Bank of Israel (2024) found about 70% of plan 922's budget was used, and large gaps remain, especially in education and local council budgets. Parts of Resolution 550 were cut in the 2025 budget and again in July 2026. Arab towns still trail Jewish towns, and Israel's own reports say so.\n\nIf this is colonizing, it's a strange empire. Less tribute, more home improvement.\n\nSend this to someone who says colonizer.\n\nPhotos: Roman Forum, Wolfgang Moroder, CC BY-SA 3.0. Topkapi Palace Imperial Gate, Istanbul, Canercangul, CC BY-SA 4.0. East India House, London, c. 1800, anonymous print, Yale Center for British Art, CC0. Arcade du Cinquantenaire, Brussels, Szilas, CC BY-SA 4.0. Sakhnin, Shlomo Roded, PikiWiki Israel, CC BY 2.5. All via Wikimedia Commons.",
+ "caption_he": "4 אימפריות גבו מס מהעמים שכבשו. וישראל? 🧾\n\nרומא: אחרי 168 לפנה\"ס אזרחי רומא באיטליה הפסיקו לשלם מס ישיר, והפרובינציות הכבושות שילמו.\nהאימפריה העות'מאנית, כמו הח'ליפויות לפניה: הג'יזיה, מס גולגולת שרק לא מוסלמים שילמו. בוטל אחרי צו הרפורמה של 1856. ב־2014 דאע\"ש, \"המדינה האסלאמית\", החזיר אותו במוסול (רויטרס).\nהודו הבריטית: מסים מהודו מימנו סחורות שנשלחו לבריטניה. הערכה אחת: כ־45 טריליון דולר כולל ריבית (אוטסה פטנאיק, 2017), הערכה שנויה במחלוקת.\nקונגו של לאופולד השני: מכסות גומי שנאכפו במכות. הכסף בנה מונומנטים בבריסל.\n\nבישראל: האזרחים הערבים משלמים אותו מס הכנסה ואותו מע\"מ, בלי מס מיוחד. אותו ביטוח בריאות ממלכתי, אותן קצבאות ביטוח לאומי, אותה זכות הצבעה.\nוהכסף זורם פנימה: החלטת ממשלה 922 (כ־15 מיליארד ש\"ח, 2016 עד 2020) והחלטה 550 (כ־30 מיליארד ש\"ח, 2022 עד 2026).\n\nלא הכול נוצל: לפי בנק ישראל (2024) נוצלו כ־70% מתקציב 922, והפערים עדיין גדולים. חלקים מהחלטה 550 קוצצו ב־2025 וביולי 2026.\n\nאם זה קולוניאליזם, זו אימפריה מוזרה. פחות מס לכובש, יותר שיפוץ הבית.\n\nשלחו למי שאומר קולוניאליסטים.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "cover": {
+  "t": 27.0,
+  "big": "4 empires",
+  "text": "Who paid the|*conqueror's tax?*"
+ }
+}
