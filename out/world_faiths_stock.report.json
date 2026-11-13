@@ -1,0 +1,187 @@
+{
+ "id": "world_faiths_stock",
+ "account": "noamroz__",
+ "template": "people_stock",
+ "hook": "*3,000* years.|*0.2%* of the world.",
+ "duration": 58.6,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/world_faiths_stock.mp4",
+  "cover": "covers/world_faiths_stock_cover.jpg",
+  "preview": "previews/world_faiths_stock_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/world_faiths_stock_0.jpg",
+  "1": "out/frames/world_faiths_stock_1.jpg",
+  "3": "out/frames/world_faiths_stock_3.jpg",
+  "last": "out/frames/world_faiths_stock_last.jpg"
+ },
+ "caption_en": "3,000 years. 0.2% of the world. 📈\n\nIf faiths were stocks: Jews, Christians, Muslims and everyone else, from 1000 BCE to today. Log scale, so the small line stays visible.\n\n1000 BCE: the Israelites, about 100,000 people (rough archaeological estimate), about 0.2% of a world of about 50 million.\n586 BCE: Babylon destroys the First Temple. 70 CE: Rome destroys the Second.\n1st century: maybe 4 to 8 million Jews (historians disagree; the chart uses 4.5 million).\nChristianity: about 6 million by 300 CE (Rodney Stark's estimate).\n610 CE: Islam begins.\n1096: the Crusades and the Rhineland massacres. 1492: Spain expels its Jews. For centuries the Jewish line stays near 1 million.\n1939: 16.7 million Jews. The Holocaust: 6 million murdered. 1945: about 11 million.\n1948: Israel.\nToday (2020 data): 2.3 billion Christians (28.8%), 2.0 billion Muslims (25.6%), about 15 million Jews (0.2%). Still fewer Jews than in 1939.\n\nThree faiths, one family tree: Abraham.\n\nWhich number surprised you most?\n\nSources: World population: McEvedy & Jones, Atlas of World Population History (1978); UN; World Christian Database (1900 to 2000). Jews: Broshi & Finkelstein (1992, rough Iron Age estimate); 1st century range (Harnack, Baron; contested); medieval estimates (Benjamin of Tudela, Jacobs); DellaPergola via Jewish Virtual Library (1880 to 2020). Christians: Rodney Stark, The Rise of Christianity (1996); Barrett, World Christian Encyclopedia (about 20% of the world in 1000 and 1500, 23% in 1800); World Christian Database (1900 to 2000). Muslims: rough estimate for 1000 CE from Findlay & O'Rourke, Power and Plenty (2007); about 91 million in 1800 (estimate); World Christian Database (1900 to 2000). 2020: Pew Research Center (2025). Ancient and medieval values are estimates; between anchors the chart interpolates.\nPhotos (Wikimedia Commons): Sheepdog85 (CC BY-SA 3.0 de); Berthold Werner (public domain). AI voice.",
+ "caption_he": "3,000 שנה. 0.2% מהעולם.\nאם דתות היו מניות: יהודים, נוצרים, מוסלמים וכל השאר, מ־1000 לפני הספירה ועד היום (סקאלה לוגריתמית, כדי שהקו הקטן יישאר גלוי).\n1000 לפני הספירה: בני ישראל, כ־100,000 איש (הערכה גסה), כ־0.2% מהעולם.\n586 לפני הספירה: בבל מחריבה את בית המקדש הראשון. 70 לספירה: רומא מחריבה את השני.\nהמאה הראשונה: אולי 4 עד 8 מיליון יהודים (ההיסטוריונים חלוקים).\nהנצרות: כ־6 מיליון עד שנת 300. 610: האסלאם מתחיל.\n1096: מסעי הצלב. 1492: גירוש ספרד. מאות שנים הקו היהודי תקוע סביב מיליון.\n1939: 16.7 מיליון יהודים. השואה: 6 מיליון נרצחו.\n1948: מדינת ישראל.\nהיום (נתוני 2020): 2.3 מיליארד נוצרים, 2 מיליארד מוסלמים, כ־15 מיליון יהודים (0.2%). עדיין פחות יהודים מאשר ב־1939.\nשלוש דתות, עץ משפחה אחד: אברהם.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Estimates: McEvedy & Jones 1978; Broshi 1992",
+   "at": "L1",
+   "until": "L6-0.1",
+   "year": 1992
+  },
+  {
+   "label": "Estimates: Stark 1996; Barrett; Findlay 2007",
+   "at": "L6",
+   "until": "L10-0.1",
+   "year": 2007
+  },
+  {
+   "label": "DellaPergola (JVL); World Christian Database; UN",
+   "at": "L10",
+   "until": "L14-0.1",
+   "year": 2024
+  },
+  {
+   "label": "Pew Research Center 2025 (2020 data)",
+   "at": "L14",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.968,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Three thousand years. Zero point two percent of the world.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If faiths were stocks, here's the chart.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One thousand BCE: the Israelites, early believers in one God.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Babylon destroys the First Temple. They survive in exile.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Roman times: maybe four to eight million Jews.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Rome burns the Second Temple. Exile again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A new line lists: Christianity. Six million by three hundred.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In six ten, Islam begins, and spreads fast.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Crusades. Massacres.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spain expels its Jews.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Jewish line stalls near one million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The world takes off. Jews reach sixteen point seven million by nineteen thirty-nine.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the Holocaust. Six million murdered.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen forty-eight: Israel. The climb restarts.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Today: two point three billion Christians, two billion Muslims, fifteen million Jews.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Still fewer Jews than in nineteen thirty-nine.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Zero point two percent of humanity, and still here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three faiths, one family tree: Abraham.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Three thousand years. Zero point two percent of the world.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "3,000 years 0.2% of the world If faiths were stocks, here's the chart 1,000 BCE The Israelites, early believers in one god Babylon destroys the first temple They survive in exile Roman times, maybe 4 to 8 million Jews Rome burns the second temple Exile again A new line lists Christianity 6 million by 300 In 610, Islam begins And spreads fast Crusades massacres. Spain expels its Jews. The Jewish line stalls near 1 million. The world takes off. Jews reach 16.7 million by 1939, then the Holocaust. 6 million murdered. 1948, Israel. The climb restarts. Today, 2.3 billion Christians, 2 billion Muslims, 15 million Jews. Still fewer Jews than in 1939. 0.2% of humanity, and still here. Three faiths, one family 3,000 years, 0.2% of the world.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/world_faiths_stock/wfs_wall.jpg",
+   "credit": "Western Wall, Sheepdog85, CC BY-SA 3.0 de"
+  },
+  {
+   "file": "templates/photos/world_faiths_stock/wfs_sepulchre.jpg",
+   "credit": "Golgotha: Berthold Werner, public domain"
+  },
+  {
+   "file": "templates/photos/world_faiths_stock/wfs_dome.jpg",
+   "credit": "Dome of the Rock: Berthold Werner, public domain"
+  },
+  {
+   "file": "templates/photos/world_faiths_stock/wfs_wall.jpg",
+   "credit": "Western Wall, Sheepdog85, CC BY-SA 3.0 de"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/bm_jlm2.jpg",
+   "credit": "Jerusalem: Berthold Werner, public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 79.5
+}
