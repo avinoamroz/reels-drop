@@ -26,7 +26,7 @@ import common as CMN
 from photo_story import _wrapped
 
 # ------------------------------------------------------------------ geometry and colours
-PX0, PY0, PW, PH = 112, 448, 872, 990          # the right-hand page (spine on its left edge)
+PX0, PY0, PW, PH = 104, 392, 884, 1100         # the right-hand page (spine on its left edge)
 CREAM, CREAM_D, INK, RED_INK, MUTE = "#F4EEE1", "#E4DCCB", "#14284D", "#C2313A", "#7C8597"
 STAMP_COL = dict(red=RED, green=GREEN, yellow=YEL, sky=SKY)
 
@@ -79,7 +79,7 @@ def _page_img(B, num, text):
         cv.text(f"RULE {num}", x0, PY0 + 230, 132, INK if text else "#B9B2A4", 1.0, align="l", shadow=False, maxw=760)
         cv.rrect(x0, PY0 + 318, 150, 12, 6, RED_INK if text else "#CFC7B6", 1.0)
     if text:
-        _rich_wrap(cv, text, x0, PY0 + 600, 80, INK, RED_INK, xr - x0)
+        _rich_wrap(cv, text, x0, PY0 + 660, 88, INK, RED_INK, xr - x0)
     else:                                                   # an unread page: grey bars where the text would be
         rng = np.random.default_rng(int(num or 0) + 7)
         for k in range(6):
