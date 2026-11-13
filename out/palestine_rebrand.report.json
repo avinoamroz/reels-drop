@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "brand_timeline",
  "hook": "*1932:*|The Palestine Post|was *Jewish.*",
- "duration": 65.8,
+ "duration": 59.2,
  "audio": {
   "lufs": -16.2,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/palestine_rebrand.mp4",
@@ -101,7 +101,7 @@
   }
  ],
  "transcript": {
-  "score": 0.922,
+  "score": 0.94,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -151,8 +151,8 @@
    },
    {
     "line": "The orchestra: Israel Philharmonic. The bank: Bank Leumi. The team: Israel.",
-    "score": 0.727,
-    "flag": "MISS"
+    "score": 0.909,
+    "flag": "ok"
    },
    {
     "line": "Palestinian now means the Arabs of the land.",
@@ -186,8 +186,8 @@
    },
    {
     "line": "First leader? Not Arafat, but Ahmad Shukeiri.",
-    "score": 0.714,
-    "flag": "MISS"
+    "score": 0.857,
+    "flag": "ok"
    },
    {
     "line": "Every nation is born sometime: Jordan forty-six, Israel forty-eight.",
@@ -205,14 +205,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "1932. The Palestine Post. The Jewish newspaper. Watch the word Palestinian change owners. 1902. The Anglo-Palestine Bank. Founded by Zionists. Under the British, Jews and Arabs were Palestinian citizens. 34. Palestine's World Cup team. Every player Jewish. 36. The Palestine Orchestra. Jewish musicians. Arabs use the name too. The Jaffa Paper. Philastin. 1948. Israel is born. Rebrand time. The Palestine Post becomes the Jerusalem Post. The Orchestra? Israel Philharmonic. The Bank? Banklemy. Pateen. Israel. Palestinian now means the Arabs of the land. The Flag? Older than you think. 1916. The Arab Revolt Flag. 48. Gaza's All-Palestine Government adopts it. 64. The PLO. The Palestine Liberation Organization takes it. Jordan's Flag? Almost identical, plus a star. First Leader? Not Arafat, but Ahmachu Kerry. Every nation is born sometime. Jordan 46, Israel 48. Today millions call themselves Palestinian and that's real. The name has a surprising history. It started with a newspaper.",
+  "heard": "1932. The Palestine Post. The Jewish newspaper. Watch the word Palestinian change owners. 1902. The Anglo-Palestine Bank. Founded by Zionists. Under the British, Jews and Arabs were Palestinian citizens. 34. Palestine's World Cup team. Every player Jewish. 36. The Palestine Orchestra. Jewish musicians. Arabs use the name too. The Jaffa Paper. Palestine. 1948. Israel is born. Rebrand time. The Palestine Post becomes the Jerusalem Post. The orchestra? Israel Philharmonic. The bank? Bank limit. The team? Israel. Palestinian now means the Arabs of the land. The flag? Older than you think. 1916. The Arab Revolt flag. 48. Gaza's all-Palestine government adopts it. 64. The PLO. The Palestine Liberation Organization takes it. Jordan's flag? Almost identical, plus a star. First leader? Not Arafat, but Ahmad Shukari. Every nation is born sometime. Jordan 46. Israel 48. Today, millions call themselves Palestinian, and that's real. The name has a surprising history. It started with a newspaper. you",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.2,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "photos": [
   {
@@ -289,5 +289,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 116.5
+ "render_s": 112.7
 }
