@@ -1,0 +1,83 @@
+{
+ "id": "bbc_rulebook",
+ "account": "noamroz__",
+ "template": "rulebook",
+ "hook": "The BBC rulebook,|rule *5*",
+ "music": {"bed": "doc_piano", "lufs": -16},
+ "voice": {"tempo": 1.1, "lead": 0.9, "gap": 0.14},
+ "subs_replace": {"<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS", "rule five": "rule 5", "Rule three": "Rule 3", "Rule nine": "Rule 9", "Rule two": "Rule 2",
+                  "twenty twenty five": "2025", "twenty twenty three": "2023", "twenty twenty one": "2021", "Al Shifa": "Al-Shifa"},
+ "lines": [
+  {"say": "Narrator's dad works for <<h|ɑ|ˈ|m|ɑ|s>>? Don't tell viewers.", "gap": 0.12},
+  {"say": "That's rule five of the BBC rulebook.", "gap": 0.12},
+  {"say": "Britain's regulator, Ofcom, twenty twenty five: a British Broadcasting Corporation Gaza film was materially misleading.", "gap": 0.12},
+  {"say": "The narrator's father? An official in <<h|ɑ|ˈ|m|ɑ|s>>'s government.", "gap": 0.45},
+  {"say": "Rule three. Hospital explodes? Blame Israel first.", "gap": 0.12},
+  {"say": "BBC, live: hard to see what else this could be, other than an Israeli air strike.", "gap": 0.12},
+  {"say": "U.S., British and French intelligence: likely a rocket from inside Gaza.", "gap": 0.12},
+  {"say": "The BBC later said: wrong to speculate.", "gap": 0.8},
+  {"say": "Rule nine. <<h|ɑ|ˈ|m|ɑ|s>> are militants. Never terrorists.", "gap": 0.12},
+  {"say": "The BBC's John Simpson: calling someone a terrorist means taking sides.", "gap": 0.12},
+  {"say": "Britain banned <<h|ɑ|ˈ|m|ɑ|s>> as a terrorist group in twenty twenty one.", "gap": 0.6},
+  {"say": "Rule two. Army brings doctors? Report: targeting doctors.", "gap": 0.12},
+  {"say": "Al Shifa hospital, twenty twenty three. BBC: the army is targeting medical teams.", "gap": 0.12},
+  {"say": "Wrong. The army brought medics. The BBC apologised.", "gap": 0.12},
+  {"say": "The White House: <<h|ɑ|ˈ|m|ɑ|s>> used Al Shifa as a command node.", "gap": 0.2},
+  {"say": "The BBC does issue corrections. Judge it by the record.", "gap": 0.15},
+  {"say": "Send this to someone who still trusts rule five.", "gap": 0.1}
+ ],
+ "data": {
+  "book": {"title": "THE BBC RULEBOOK", "tag": "SATIRE", "footer": "Unofficial. Not a BBC product.",
+           "cover_title": "THE BBC|RULEBOOK", "cover_sub": "Unofficial. Satire."},
+  "pages": {
+   "5": "Narrator's dad works for HAMAS? *Don't tell viewers.*",
+   "3": "Hospital explodes? *Blame Israel first.* Check later.",
+   "9": "HAMAS are \"militants\". *Never \"terrorists\".*",
+   "2": "Army brings doctors? Report: *\"targeting doctors\".*"
+  },
+  "hook_y": 250, "hook_s": 0.85, "hook_until": "L1e",
+  "scenes": [
+   {"kind": "book", "at": 0.8, "page": 5, "from": 1, "flip": 0.8, "u0": 0.22},
+   {"kind": "photo", "at": "L2", "file": "templates/photos/bbc_rulebook/bbc_bh2.jpg", "credit": "Oxyman, CC BY 2.5, Wikimedia Commons", "kb": [0.5, 0.42, 1.0, 0.5, 0.4, 1.15]},
+   {"kind": "photo", "at": "L3", "file": "templates/photos/bbc_rulebook/bbc_bh4.jpg", "credit": "Ben Brooksbank, CC BY-SA 2.0, Wikimedia Commons", "kb": [0.47, 0.5, 1.05, 0.5, 0.45, 1.2]},
+   {"kind": "book", "at": "L4", "page": 3, "flip": 0.5},
+   {"kind": "photo", "at": "L5", "file": "templates/photos/bbc_rulebook/bbc_bh3.jpg", "credit": "Stephen Craven, CC BY-SA 2.0, Wikimedia Commons", "kb": [0.45, 0.45, 1.0, 0.45, 0.4, 1.15]},
+   {"kind": "photo", "at": "L6", "file": "templates/photos/bbc_rulebook/bbc_wm1.jpg", "credit": "Diliff, CC BY-SA 2.5, Wikimedia Commons", "kb": [0.83, 0.5, 1.0, 0.8, 0.5, 1.12]},
+   {"kind": "photo", "at": "L7", "file": "templates/photos/bbc_rulebook/bbc_bh2.jpg", "credit": "Oxyman, CC BY 2.5, Wikimedia Commons", "kb": [0.5, 0.35, 1.25, 0.5, 0.35, 1.4]},
+   {"kind": "book", "at": "L8", "page": 9, "flip": 1.0},
+   {"kind": "photo", "at": "L9", "file": "templates/photos/bbc_rulebook/bbc_bh3.jpg", "credit": "Stephen Craven, CC BY-SA 2.0, Wikimedia Commons", "kb": [0.4, 0.3, 1.3, 0.42, 0.3, 1.45]},
+   {"kind": "photo", "at": "L10", "file": "templates/photos/bbc_rulebook/bbc_wm2.jpg", "credit": "Adrian Pingstone, public domain, Wikimedia Commons", "kb": [0.9, 0.45, 1.0, 0.88, 0.45, 1.12]},
+   {"kind": "book", "at": "L11", "page": 2, "flip": 0.7},
+   {"kind": "photo", "at": "L12", "file": "templates/photos/bbc_rulebook/bbc_bh4.jpg", "credit": "Ben Brooksbank, CC BY-SA 2.0, Wikimedia Commons", "kb": [0.5, 0.4, 1.2, 0.47, 0.4, 1.35]},
+   {"kind": "photo", "at": "L14", "file": "templates/photos/bbc_rulebook/bbc_wh1.jpg", "credit": "Matt H. Wade, CC BY-SA 3.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.5, 0.48, 1.12]},
+   {"kind": "close", "at": "L15", "dur": 0.4}
+  ],
+  "cards": [
+   {"type": "quote", "at": "L2:materially", "until": "L3", "text": "*Materially misleading*", "who": "Ofcom ruling, 17 Oct 2025|BBC film \"Gaza: How to Survive a Warzone\"", "h": 520},
+   {"type": "quote", "at": "L3", "until": "L3e+0.3", "mark": false, "text": "Narrator's father: official in the *HAMAS-run* administration", "who": "Not told to viewers. Ofcom, 17 Oct 2025", "size": 66},
+   {"type": "quote", "at": "L5", "until": "L5e+0.05", "text": "Hard to see what else this could be... other than an *Israeli air strike*", "who": "BBC News Channel, live, 17 Oct 2023", "size": 64, "h": 600},
+   {"type": "quote", "at": "L6", "until": "L6e+0.1", "text": "Likely caused by a missile... launched from *within Gaza*", "who": "UK Prime Minister to Parliament, 23 Oct 2023|Same view: US and French intelligence, Oct 2023", "size": 66, "h": 600},
+   {"type": "stamp", "at": "L7:wrong", "until": "L7e+0.5", "text": "WRONG TO SPECULATE", "color": "red", "y": 960, "size": 96, "who": "BBC News, 19 Oct 2023"},
+   {"type": "quote", "at": "L9", "until": "L9e+0.1", "text": "Calling someone a terrorist means you're *taking sides*", "who": "John Simpson, BBC World Affairs Editor, Oct 2023", "size": 66},
+   {"type": "stamp", "at": "L10:banned", "until": "L10e+0.4", "text": "PROSCRIBED: TERRORIST", "color": "yellow", "y": 960, "size": 86, "who": "UK Home Office: HAMAS banned in full, Nov 2021"},
+   {"type": "quote", "at": "L12:bbc", "until": "L12e+0.1", "mark": false, "text": "BBC reported: Israeli army *targeting* medical teams and Arabic speakers", "who": "BBC News, Al-Shifa raid, 15 Nov 2023", "size": 64},
+   {"type": "quote", "at": "L13", "until": "L13e+0.15", "text": "This was *incorrect* and misquoted a Reuters report", "who": "BBC News on-air apology, 15 Nov 2023|Troops included medics and Arabic speakers", "size": 66, "h": 600},
+   {"type": "quote", "at": "L14", "until": "L14e+0.15", "text": "HAMAS is using that hospital for a *command and control* node", "who": "White House, John Kirby, 14 Nov 2023|HAMAS denied it", "size": 64, "h": 600}
+  ]
+ },
+ "sources": [
+  {"label": "Ofcom ruling on BBC Gaza documentary", "year": "17 Oct 2025"},
+  {"label": "BBC News Channel, Al-Ahli blast coverage", "year": "17 Oct 2023"},
+  {"label": "UK PM statement to Parliament", "year": "23 Oct 2023"},
+  {"label": "BBC News, Jonathan Munro, Media Society (Press Gazette)", "year": "19 Oct 2023"},
+  {"label": "John Simpson, BBC (Press Gazette)", "year": "11 Oct 2023"},
+  {"label": "UK Home Office proscription of HAMAS", "year": "Nov 2021"},
+  {"label": "BBC News on-air apology, Al-Shifa", "year": "15 Nov 2023"},
+  {"label": "White House, John Kirby", "year": "14 Nov 2023"}
+ ],
+ "end": {"at": "L15", "y": 1235, "balance": "The BBC does correct. *Judge by the record.*", "cta": "Send this to a friend"},
+ "cover": {"t": 2.0, "text": "The BBC|rulebook", "big": "RULE 5"},
+ "caption_en": "see posting payload",
+ "caption_he": "see posting payload",
+ "hashtags": ["#BBC", "#Israel", "#MediaBias"]
+}
