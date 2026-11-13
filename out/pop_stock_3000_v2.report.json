@@ -1,0 +1,203 @@
+{
+ "id": "pop_stock_3000_v2",
+ "account": "noamroz__",
+ "template": "people_stock",
+ "hook": "*3,000* years.|Who *lived* here?",
+ "duration": 58.87,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/pop_stock_3000_v2.mp4",
+  "cover": "covers/pop_stock_3000_v2_cover.jpg",
+  "preview": "previews/pop_stock_3000_v2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/pop_stock_3000_v2_0.jpg",
+  "1": "out/frames/pop_stock_3000_v2_1.jpg",
+  "3": "out/frames/pop_stock_3000_v2_3.jpg",
+  "last": "out/frames/pop_stock_3000_v2_last.jpg"
+ },
+ "caption_en": "3,000 years. Who lived here? 📈\n\nIf peoples were stocks: the population of the land from the Jordan River to the sea, group by group, from 1200 BCE to today.\n\nThe Canaanites open on top (about 200,000 in 1200 BCE). The Jewish line rallies to about 350,000 by 750 BCE, crashes with Assyria and Babylon (about 50,000 by 538 BCE), climbs back under the Hasmoneans to about 750,000, then crashes again after Rome (70 CE and 135 CE).\nChristians lead in the Byzantine era (about 800,000 around 600 CE). After the Arab conquest (636 CE), Muslims slowly become the majority.\nThe Jewish low: about 7,000 (1517 to 1800), still living in Jerusalem, Safed, Hebron and Tiberias.\n1882: the First Aliyah. 1948: Israel is born, and about 700,000 Arabs flee or are expelled. Then Jews from Arab lands and the former Soviet Union.\nToday: about 7.6 million Jews, 6.9 million Muslims, 230,000 Christians, 155,000 Druze, 250,000 others and 900 Samaritans.\n\nMany peoples call this land home. The Jewish line never hit zero.\n\nAncient figures are scholarly estimates; same data as my 3,000 years population race. Includes the West Bank and Gaza.\nSources: Broshi (2001); DellaPergola (2001); McCarthy (1990); British censuses 1922 and 1931; Israel CBS; PCBS; UN Conciliation Commission for Palestine (1951).\nPhotos (Wikimedia Commons): Webscribe (CC BY-SA 3.0); Osama Shukir Muhammed Amin (CC BY-SA 4.0); Arch of Titus relief (PD); Auguste Salzmann (PD); Haifa port, about 1949 (PD); Berthold Werner (PD). AI voice.\n\nWhich line surprised you?",
+ "caption_he": "3,000 שנה. מי חי כאן?\nאם עמים היו מניות: האוכלוסייה מהירדן ועד הים, קבוצה אחר קבוצה, מ־1200 לפני הספירה ועד היום.\nהכנענים פותחים בראש. הקו היהודי עולה לכ־350,000, מתרסק עם אשור ובבל, חוזר בימי החשמונאים לכ־750,000, ומתרסק שוב אחרי רומא.\nבתקופה הביזנטית הנוצרים מובילים. אחרי הכיבוש הערבי המוסלמים הופכים לאט לרוב.\nבשפל, כ־7,000 יהודים בלבד, אבל עדיין בירושלים, צפת, חברון וטבריה.\n1882: העלייה הראשונה. 1948: מדינת ישראל קמה, וכ־700,000 ערבים בורחים או מגורשים. אחר כך יהודים מארצות ערב ומברית המועצות לשעבר.\nהיום: כ־7.6 מיליון יהודים, 6.9 מיליון מוסלמים, נוצרים, דרוזים ו־900 שומרונים.\nעמים רבים קוראים לארץ הזאת בית. הקו היהודי אף פעם לא הגיע לאפס.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Ancient figures: scholarly estimates (Broshi 2001; DellaPergola 2001)",
+   "year": 2001,
+   "at": "L1",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Estimates: DellaPergola 2001; McCarthy 1990 (Ottoman era)",
+   "year": 1990,
+   "at": "L10",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "British censuses 1922, 1931; Israel CBS; PCBS",
+   "year": 2025,
+   "at": "L13",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "Refugees: UN Conciliation Commission estimate, 1951",
+   "year": 1951,
+   "at": "L14",
+   "until": "L15-0.1"
+  },
+  {
+   "label": "Israel CBS; PCBS. Incl. West Bank and Gaza",
+   "year": 2025,
+   "at": "L15",
+   "until": "L18-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.976,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Three thousand years. Who lived here?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If peoples were stocks, here's the chart.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Canaanites open on top. Philistines list on the coast.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the Jewish stock rallies to three hundred fifty thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Crash. Assyria, then Babylon. The First Temple falls.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Exiles return, Greeks arrive, and the Hasmoneans spark a rally.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peak: about seven hundred fifty thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Rome burns the Temple and crushes Bar Kokhba.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Christians take the lead.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "After the Arab conquest, Muslims slowly become the majority.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Crusades, plague, empires. The whole market shrinks.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Jewish stock bottoms out at seven thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But never zero: Jerusalem, Safed, Hebron, Tiberias.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Eighteen eighty-two: the comeback starts.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen forty-eight: Israel is born, and about seven hundred thousand Arabs flee or are expelled.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Jews from Arab lands and the former Soviet Union.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today: seven point six million Jews, six point nine million Muslims.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Christians, Druze, even nine hundred Samaritans.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Many peoples call this land home. The Jewish line never hit zero.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three thousand years. Who lived here?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "3,000 years. Who lived here? If peoples were stocks, here's the chart. Canaanites open on top. Philistines list on the coast. Then the Jewish stock rallies to 350,000. Crash. Assyria, then Babylon. The first temple falls. Exiles return, Greeks arrive, and the Hasmoneans spark a rally. Peak. About 750,000. Then Rome burns the temple and crushes Bar Kokhba. Christians take the lead. After the Arab conquest, Muslims slowly become the majority. Crusades plague empires. The whole market shrinks. The Jewish stock bottoms out at $7,000. But never zero. Jerusalem. Safed. Hebron. Tiberius. 1882. The comeback starts. 1948. Israel is born. And about 700,000 Arabs flee or are expelled. Then Jews from Arab lands and the former Soviet Union. Today. 7.6 million Jews, 6.9 million Muslims. And Christians, Jews, even 900 Samaritans. Many peoples call this land home. The Jewish line never hit zero. 3,000 years. Who lived here?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/pop_stock_3000/pf_mern1.jpg",
+   "credit": "Merneptah Stele: Webscribe, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/am_lachish.jpg",
+   "credit": "Osama Shukir Muhammed Amin, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/am_titus2.jpg",
+   "credit": "Arch of Titus relief, Rome: public domain"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/salzmann_birket.jpg",
+   "credit": "Jerusalem, 1856: Auguste Salzmann, public domain"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/ml_imm.jpg",
+   "credit": "Haifa port, about 1949: public domain"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/bm_jlm2.jpg",
+   "credit": "Jerusalem: Berthold Werner, public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 74.2
+}
