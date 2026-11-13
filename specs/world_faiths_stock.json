@@ -1,0 +1,401 @@
+{
+ "id": "world_faiths_stock",
+ "account": "noamroz__",
+ "template": "people_stock",
+ "hook": "*3,000* years.|*0.2%* of the world.",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Three thousand": "3,000",
+  "Zero point two percent": "0.2%",
+  "One thousand BCE": "1000 BCE",
+  "four to eight million": "4 to 8 million",
+  "Six million by three hundred": "6 million by 300",
+  "Six million murdered": "6 million murdered",
+  "six ten": "610",
+  "one million": "1 million",
+  "sixteen point seven million": "16.7 million",
+  "nineteen thirty-nine": "1939",
+  "Nineteen forty-eight": "1948",
+  "two point three billion": "2.3 billion",
+  "two billion": "2 billion",
+  "fifteen million": "15 million"
+ },
+ "lines": [
+  {
+   "say": "Three thousand years. Zero point two percent of the world.",
+   "gap": 0.2
+  },
+  {
+   "say": "If faiths were stocks, here's the chart.",
+   "screen": "If *faiths* were stocks"
+  },
+  {
+   "say": "One thousand BCE: the Israelites, early believers in one God.",
+   "screen": "1000 BCE: *one God*"
+  },
+  {
+   "say": "Babylon destroys the First Temple. They survive in exile.",
+   "screen": "586 BCE: *Babylon*"
+  },
+  {
+   "say": "Roman times: maybe four to eight million Jews.",
+   "screen": "1st century: *4 to 8M?*"
+  },
+  {
+   "say": "Rome burns the Second Temple. Exile again.",
+   "screen": "70 CE: *Rome*"
+  },
+  {
+   "say": "A new line lists: Christianity. Six million by three hundred.",
+   "screen": "*Christianity:* 6M by 300 CE"
+  },
+  {
+   "say": "In six ten, Islam begins, and spreads fast.",
+   "screen": "610 CE: *Islam* begins"
+  },
+  {
+   "say": "Crusades. Massacres.",
+   "screen": "1096: the *Crusades*"
+  },
+  {
+   "say": "Spain expels its Jews.",
+   "screen": "1492: *Spain* expels Jews"
+  },
+  {
+   "say": "The Jewish line stalls near one million.",
+   "screen": "Stuck near *1M*"
+  },
+  {
+   "say": "The world takes off. Jews reach sixteen point seven million by nineteen thirty-nine.",
+   "screen": "*16.7M* Jews by 1939"
+  },
+  {
+   "say": "Then the Holocaust. Six million murdered.",
+   "screen": "The *Holocaust*"
+  },
+  {
+   "say": "Nineteen forty-eight: Israel. The climb restarts.",
+   "screen": "1948: *Israel*"
+  },
+  {
+   "say": "Today: two point three billion Christians, two billion Muslims, fifteen million Jews.",
+   "screen": "*Today*"
+  },
+  {
+   "say": "Still fewer Jews than in nineteen thirty-nine.",
+   "screen": "Still below *1939*"
+  },
+  {
+   "say": "Zero point two percent of humanity, and still here.",
+   "screen": "*0.2%* of humanity"
+  },
+  {
+   "say": "Three faiths, one family tree: Abraham.",
+   "screen": "Three faiths, one *family tree*",
+   "gap": 0.3
+  },
+  {
+   "say": "Three thousand years. Zero point two percent of the world."
+  }
+ ],
+ "data": {
+  "file": "templates/data/world_faiths_stock.json",
+  "map": {
+   "none": true,
+   "back": "L18"
+  },
+  "log": {
+   "lo": 1000,
+   "hi": 10000000000,
+   "note": "Log scale: each line is 10x",
+   "note_y": 560
+  },
+  "hook_y": 800,
+  "hook_end_y": 800,
+  "title_y": 400,
+  "year_y": 500,
+  "year_x": 1040,
+  "src_y": 1540,
+  "chart": {
+   "x0": 150,
+   "x1": 700,
+   "y0": 600,
+   "y1": 1090
+  },
+  "pie": {
+   "cx": 240,
+   "cy": 1330,
+   "r": 165,
+   "ri": 100,
+   "lx": 470,
+   "ly": 1222,
+   "lx2": 1050,
+   "row": 82,
+   "hl": "JEW",
+   "big": 64,
+   "start_deg": "center",
+   "pull": 14
+  },
+  "keys": [
+   [
+    -850,
+    0
+   ],
+   [
+    -750,
+    "L2e"
+   ],
+   [
+    -586,
+    "L3e"
+   ],
+   [
+    1,
+    "L4e"
+   ],
+   [
+    70,
+    "L5e"
+   ],
+   [
+    300,
+    "L6e"
+   ],
+   [
+    610,
+    "L7"
+   ],
+   [
+    1000,
+    "L7e"
+   ],
+   [
+    1096,
+    "L8e"
+   ],
+   [
+    1492,
+    "L9e"
+   ],
+   [
+    1750,
+    "L10e"
+   ],
+   [
+    1939,
+    "L11e"
+   ],
+   [
+    1945,
+    "L12e"
+   ],
+   [
+    1948,
+    "L13e"
+   ],
+   [
+    2020,
+    "L14e"
+   ]
+  ],
+  "views": [
+   {
+    "at": 0,
+    "span": 900
+   },
+   {
+    "at": "L4",
+    "span": 1400
+   },
+   {
+    "at": "L7",
+    "span": 1500
+   },
+   {
+    "at": "L10",
+    "span": 500,
+    "dur": 1.2
+   },
+   {
+    "at": "L11",
+    "span": 300
+   },
+   {
+    "at": "L12",
+    "span": 80,
+    "dur": 1.0
+   },
+   {
+    "at": "L13",
+    "span": 140
+   },
+   {
+    "at": "L14",
+    "x0": -1000,
+    "x1": 2500,
+    "dur": 1.4
+   }
+  ],
+  "marks": [
+   {
+    "at": "L4",
+    "until": "L5e",
+    "ticker": "JEW",
+    "year": 1,
+    "text": "4 to 8M? contested",
+    "col": "yellow",
+    "dy": 130
+   },
+   {
+    "at": "L12",
+    "until": "L13e",
+    "ticker": "JEW",
+    "year": 1945,
+    "text": "6 million murdered",
+    "col": "red",
+    "dy": 130
+   },
+   {
+    "at": "L15",
+    "until": "L16e",
+    "ticker": "JEW",
+    "year": 1939,
+    "text": "1939: 16.7M",
+    "col": "yellow",
+    "dy": 130
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/world_faiths_stock/wfs_wall.jpg",
+    "at": 0,
+    "until": "L5e",
+    "credit": "Western Wall, Sheepdog85, CC BY-SA 3.0 de",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/world_faiths_stock/wfs_sepulchre.jpg",
+    "at": "L6",
+    "until": "L6e",
+    "credit": "Golgotha: Berthold Werner, public domain",
+    "kb": [
+     0.45,
+     0.17,
+     1.3,
+     0.45,
+     0.15,
+     1.38
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/world_faiths_stock/wfs_dome.jpg",
+    "at": "L7",
+    "until": "L7e",
+    "credit": "Dome of the Rock: Berthold Werner, public domain",
+    "kb": [
+     0.48,
+     0.42,
+     1.0,
+     0.48,
+     0.4,
+     1.12
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/world_faiths_stock/wfs_wall.jpg",
+    "at": "L8",
+    "until": "L16e",
+    "credit": "Western Wall, Sheepdog85, CC BY-SA 3.0 de",
+    "kb": [
+     0.3,
+     0.5,
+     1.15,
+     0.7,
+     0.5,
+     1.15
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/bm_jlm2.jpg",
+    "at": "L17",
+    "until": "END",
+    "credit": "Jerusalem: Berthold Werner, public domain",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.15
+   }
+  ],
+  "band": {
+   "y0": 24,
+   "y1": 330,
+   "x0": 24,
+   "x1": 1056,
+   "r": 30
+  },
+  "labels_from": "L0e+0.3",
+  "subs_merge": true
+ },
+ "sources": [
+  {
+   "label": "Estimates: McEvedy & Jones 1978; Broshi 1992",
+   "at": "L1",
+   "until": "L6-0.1",
+   "year": 1992
+  },
+  {
+   "label": "Estimates: Stark 1996; Barrett; Findlay 2007",
+   "at": "L6",
+   "until": "L10-0.1",
+   "year": 2007
+  },
+  {
+   "label": "DellaPergola (JVL); World Christian Database; UN",
+   "at": "L10",
+   "until": "L14-0.1",
+   "year": 2024
+  },
+  {
+   "label": "Pew Research Center 2025 (2020 data)",
+   "at": "L14",
+   "year": 2025
+  }
+ ],
+ "caption_en": "3,000 years. 0.2% of the world. 📈\n\nIf faiths were stocks: Jews, Christians, Muslims and everyone else, from 1000 BCE to today. Log scale, so the small line stays visible.\n\n1000 BCE: the Israelites, about 100,000 people (rough archaeological estimate), about 0.2% of a world of about 50 million.\n586 BCE: Babylon destroys the First Temple. 70 CE: Rome destroys the Second.\n1st century: maybe 4 to 8 million Jews (historians disagree; the chart uses 4.5 million).\nChristianity: about 6 million by 300 CE (Rodney Stark's estimate).\n610 CE: Islam begins.\n1096: the Crusades and the Rhineland massacres. 1492: Spain expels its Jews. For centuries the Jewish line stays near 1 million.\n1939: 16.7 million Jews. The Holocaust: 6 million murdered. 1945: about 11 million.\n1948: Israel.\nToday (2020 data): 2.3 billion Christians (28.8%), 2.0 billion Muslims (25.6%), about 15 million Jews (0.2%). Still fewer Jews than in 1939.\n\nThree faiths, one family tree: Abraham.\n\nWhich number surprised you most?\n\nSources: World population: McEvedy & Jones, Atlas of World Population History (1978); UN; World Christian Database (1900 to 2000). Jews: Broshi & Finkelstein (1992, rough Iron Age estimate); 1st century range (Harnack, Baron; contested); medieval estimates (Benjamin of Tudela, Jacobs); DellaPergola via Jewish Virtual Library (1880 to 2020). Christians: Rodney Stark, The Rise of Christianity (1996); Barrett, World Christian Encyclopedia (about 20% of the world in 1000 and 1500, 23% in 1800); World Christian Database (1900 to 2000). Muslims: rough estimate for 1000 CE from Findlay & O'Rourke, Power and Plenty (2007); about 91 million in 1800 (estimate); World Christian Database (1900 to 2000). 2020: Pew Research Center (2025). Ancient and medieval values are estimates; between anchors the chart interpolates.\nPhotos (Wikimedia Commons): Sheepdog85 (CC BY-SA 3.0 de); Berthold Werner (public domain). AI voice.",
+ "caption_he": "3,000 שנה. 0.2% מהעולם.\nאם דתות היו מניות: יהודים, נוצרים, מוסלמים וכל השאר, מ־1000 לפני הספירה ועד היום (סקאלה לוגריתמית, כדי שהקו הקטן יישאר גלוי).\n1000 לפני הספירה: בני ישראל, כ־100,000 איש (הערכה גסה), כ־0.2% מהעולם.\n586 לפני הספירה: בבל מחריבה את בית המקדש הראשון. 70 לספירה: רומא מחריבה את השני.\nהמאה הראשונה: אולי 4 עד 8 מיליון יהודים (ההיסטוריונים חלוקים).\nהנצרות: כ־6 מיליון עד שנת 300. 610: האסלאם מתחיל.\n1096: מסעי הצלב. 1492: גירוש ספרד. מאות שנים הקו היהודי תקוע סביב מיליון.\n1939: 16.7 מיליון יהודים. השואה: 6 מיליון נרצחו.\n1948: מדינת ישראל.\nהיום (נתוני 2020): 2.3 מיליארד נוצרים, 2 מיליארד מוסלמים, כ־15 מיליון יהודים (0.2%). עדיין פחות יהודים מאשר ב־1939.\nשלוש דתות, עץ משפחה אחד: אברהם.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "cover": {
+  "t": 30.0,
+  "text": "3,000 years.|Who is the *0.2%*?",
+  "label": "If faiths were stocks",
+  "dim": 0.75
+ }
+}

@@ -20,6 +20,13 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-
   year_y   year counter centre y (default 470);  title_y 300;  src_y 1488;  subs_y 1612;  credit_y 1712;  hook_y 330
   photos   [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], dim}]
   marks    [{at, until, text, year, ticker, dy, col}]  callout pinned to a line point (col: yellow | red | green)
+optional (world_faiths_stock; specs without these keys render exactly as before):
+  map      {"none": true, "back": anchor}   no map: frame 0 is the moving chart with the hook over it; `back` = hook returns
+  log      {"lo": 1000, "hi": 1e10, "note": "Log scale: each line is 10x", "note_y": 520}   log y axis, fixed range
+  year_x / year_align / year_size   year counter position (defaults 1040 / "r" / 96)
+  pie      {"cx", "cy", "r", "ri", "lx", "ly", "row": 74, "hl": "JEW", "big": 64, "at": anchor}   live donut of each series'
+           share of the sum of all series at the head year (series order, clockwise from 12 o'clock), the `hl` slice
+           pulled out with a white edge and its % big in the hole; legend rows (dot LEFT of ticker, %) at lx, ly
 """
 import os, sys, json, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
@@ -33,6 +40,7 @@ SCREEN = np.array([34, 20, 10], np.float32)        # BGR near-black navy trading
 
 def fmt_v(v):
     v = max(0.0, float(v))
+    if v >= 1e9: return f"{v / 1e9:.2f}B"
     if v >= 1e6: return f"{v / 1e6:.2f}M"
     if v >= 1e4: return f"{v / 1e3:.0f}k"
     if v >= 1e3: return f"{v / 1e3:.1f}k".replace(".0k", "k")
@@ -41,6 +49,7 @@ def fmt_v(v):
 
 def fmt_axis(v):
     if v == 0: return "0"
+    if v >= 1e9: return f"{v / 1e9:g}B"
     if v >= 1e6: return f"{v / 1e6:g}M"
     return f"{v / 1e3:g}k"
 
@@ -67,6 +76,30 @@ def nice_step(span, n=4.0):
     return 10 * m
 
 
+def sub_chunks_merged(T, repl=None):
+    """like common.sub_chunks, but the subs_replace phrases are merged into one word BEFORE the 6 word chunking, so a
+    number never splits across two subtitles ("nineteen | thirty-nine"). Used when data.subs_merge is true."""
+    import re as _re
+    repl = repl or {}
+    class _T: pass
+    T2 = _T(); T2.L = []
+    for l in T.L:
+        ws = [dict(w) for w in l["words"]]; out = []; i = 0
+        while i < len(ws):
+            hit = None
+            for a, b in repl.items():
+                n = len(a.split())
+                if i + n <= len(ws):
+                    joined = " ".join(x["w"] for x in ws[i:i + n])
+                    if joined.startswith(a) and _re.fullmatch(r"[.,?!:;]*", joined[len(a):]):
+                        hit = (n, b + joined[len(a):]); break
+            if hit:
+                n, txt = hit; out.append(dict(w=txt, t0=ws[i]["t0"], t1=ws[i + n - 1]["t1"])); i += n
+            else: out.append(ws[i]); i += 1
+        T2.L.append(dict(l, words=out))
+    return sub_chunks(T2, None)
+
+
 def run(S):
     D = S["data"]; work = workdir(S)
     J = build_voice(S, work); T = Timing(J, D.get("tail", 0.75)); A = T.at
@@ -76,6 +109,12 @@ def run(S):
         P = np.array(s["pts"], float); SER.append(dict(s, X=P[:, 0], V=P[:, 1]))
     C = dict(dict(x0=120, x1=790, y0=560, y1=1320), **D.get("chart", {}))
     YMIN = float(D.get("ymin", 50000))
+    LOG = D.get("log")
+    if LOG: LLO, LHI = math.log10(float(LOG.get("lo", 1e3))), math.log10(float(LOG.get("hi", 1e10)))
+    def ypix(v, ym):
+        if LOG: return C["y1"] - (math.log10(max(float(v), 10 ** LLO)) - LLO) / (LHI - LLO) * (C["y1"] - C["y0"])
+        return C["y1"] - v / ym * (C["y1"] - C["y0"])
+    NOMAP = bool(D.get("map", {}).get("none"))
 
     def val(s, yr):
         X, V = s["X"], s["V"]
@@ -132,12 +171,14 @@ def run(S):
     MP = D.get("map", {})
     MAP_T1 = A(MP.get("until"), 1.2); MAP_BACK = A(MP.get("back"), T.END + 5)
     lon, lat, kk, sy = MP.get("view", [35.05, 31.55, 330, 1090])
-    MR = MapR(); cosf = math.cos(math.radians(lat))
-    mimg, MM = MR.render(MR.view(lon, lat, kk, cosf, sy), H); mimg = mimg.astype(np.float32)
     yy = np.arange(H, dtype=np.float32)[:, None]
-    mimg = mimg * (1 - np.clip(1 - yy / 620, 0, 1) ** 1.6 * 0.55)[..., None]
+    if not NOMAP:
+        MR = MapR(); cosf = math.cos(math.radians(lat))
+        mimg, MM = MR.render(MR.view(lon, lat, kk, cosf, sy), H); mimg = mimg.astype(np.float32)
+        mimg = mimg * (1 - np.clip(1 - yy / 620, 0, 1) ** 1.6 * 0.55)[..., None]
+    else: MAP_T1 = -1.0
     ZM = float(MP.get("zoom", 1.06))
-    LABS = [dict(l_, xy=geo2px(MM, l_["lon"], l_["lat"])) for l_ in MP.get("labels", [])]
+    LABS = [dict(l_, xy=geo2px(MM, l_["lon"], l_["lat"])) for l_ in MP.get("labels", [])] if not NOMAP else []
     def map_at(z):
         Mz = cv2.getRotationMatrix2D((540, sy), 0, z)
         img = cv2.warpAffine(mimg, Mz, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
@@ -163,7 +204,7 @@ def run(S):
         return img * (1 - dim) * VIG + NAVYC * dim * 0.35
 
     MK = [dict(m, t0=A(m["at"]), t1=A(m.get("until"), T.END - 0.6)) for m in D.get("marks", [])]
-    cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace"))
+    cards = screen_cards(S, T); CH = (sub_chunks_merged if D.get("subs_merge") else sub_chunks)(T, S.get("subs_replace"))
     hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 330)
     bg = SCREEN[None, None] + (NAVYC - SCREEN)[None, None] * 0.35 * np.clip(yy[..., None] / H, 0, 1)
     bg = np.broadcast_to(bg, (H, W, 3)).astype(np.float32)
@@ -173,13 +214,18 @@ def run(S):
         if ca <= 0.01: return
         x0, x1, ym = at_grid(t); hy = head(t)
         X = lambda yr: C["x0"] + (yr - x0) / (x1 - x0) * (C["x1"] - C["x0"])
-        Yp = lambda v: C["y1"] - v / ym * (C["y1"] - C["y0"])
+        Yp = lambda v: ypix(v, ym)
         c = cv.c; c.save(); c.rectangle(0, C["y0"] - 60, W, C["y1"] - C["y0"] + 140); c.clip()
-        st = nice_step(ym / 1.16, 3.2); v = 0.0
-        while v <= ym * 1.001:
-            y = Yp(v); cv.line([(C["x0"], y), (C["x1"] + 30, y)], GRID, 2, ca)
-            cv.text(fmt_axis(v), C["x0"] - 14, y, 36, AXIS, ca, bold=False, align="r", shadow=False)
-            v += st
+        if LOG:
+            for e in range(int(math.ceil(LLO)), int(math.floor(LHI)) + 1):
+                y = Yp(10 ** e); cv.line([(C["x0"], y), (C["x1"] + 30, y)], GRID, 2, ca)
+                cv.text(fmt_axis(10 ** e), C["x0"] - 14, y, 36, AXIS, ca, bold=False, align="r", shadow=False)
+        else:
+            st = nice_step(ym / 1.16, 3.2); v = 0.0
+            while v <= ym * 1.001:
+                y = Yp(v); cv.line([(C["x0"], y), (C["x1"] + 30, y)], GRID, 2, ca)
+                cv.text(fmt_axis(v), C["x0"] - 14, y, 36, AXIS, ca, bold=False, align="r", shadow=False)
+                v += st
         xs = nice_step(x1 - x0, 3.6); g = math.ceil(x0 / xs) * xs
         while g <= x1:
             x = X(g); cv.line([(x, C["y0"] - 10), (x, C["y1"])], GRID, 1.5, 0.7 * ca)
@@ -193,7 +239,7 @@ def run(S):
             ks = [x for x in s["X"] if x0 - (x1 - x0) * 0.05 < x < hi]
             lo = max(x0 - (x1 - x0) * 0.05, float(s["X"][0]))
             if hi <= lo: continue
-            xs_ = sorted(set([lo, hi] + ks)); pts = [(x, val(s, x)) for x in xs_]
+            xs_ = sorted(set([lo, hi] + ks + (list(np.linspace(lo, hi, 90)) if LOG else []))); pts = [(x, val(s, x)) for x in xs_]
             glow = []
             for (ya, va), (yb, vb) in zip(pts, pts[1:]):
                 if va <= 0 and vb <= 0: continue
@@ -224,7 +270,10 @@ def run(S):
                 if ys[k_] - ys[k_ - 1] < gap:
                     d = (gap - (ys[k_] - ys[k_ - 1])) / 2; ys[k_ - 1] -= d; ys[k_] += d
             ys = [min(max(y, C["y0"] - 20), C["y1"] + 10) for y in ys]
+        la_ = seg(t, A(D["labels_from"]), A(D["labels_from"]) + 0.3) if D.get("labels_from") is not None else 1.0
         for h, ly in zip(heads, ys):
+            h["a"] *= la_
+            if h["a"] <= 0.01: continue
             sz = 46; tk = h["s"]["ticker"]; vt = fmt_v(h["v"])
             arrow = "▲" if h["col"] == UP else ("▼" if h["col"] == DOWN else "")
             dot = sz * 0.62; gap_ = sz * 0.3
@@ -235,16 +284,69 @@ def run(S):
             cv.circ(lx + dot / 2, ly, dot / 2, h["s"]["col"], h["a"], stroke=WHITE, lw=2)          # group marker LEFT of the ticker
             cv.text(tk + " ", lx + dot + gap_, ly, sz, WHITE, h["a"], align="l", shadow=False)
             cv.text(vt + (" " + arrow if arrow else ""), lx + dot + gap_ + wt, ly, sz, h["col"], h["a"], align="l", shadow=False)
-        ya = ca * seg(t, T.E(0) - 0.1, T.E(0) + 0.3)
-        if ya > 0.01: cv.text(fmt_year(hy), 1040, D.get("year_y", 470), 96, YEL, ya, align="r", shadow=True)
+        ya = ca if NOMAP else ca * seg(t, T.E(0) - 0.1, T.E(0) + 0.3)
+        if ya > 0.01: cv.text(fmt_year(hy), D.get("year_x", 1040), D.get("year_y", 470), D.get("year_size", 96), YEL, ya,
+                              align=D.get("year_align", "r"), shadow=True)
+        if LOG and LOG.get("note"):
+            cv.text(LOG["note"], C["x0"] - 120, LOG.get("note_y", C["y0"] - 40), 36, AXIS, ca, bold=False, align="l", shadow=False)
+        if PIE: draw_pie(cv, t, ca * (1 if PIE.get("at") is None else seg(t, A(PIE["at"]), A(PIE["at"]) + 0.4)), hy)
+
+    PIE = D.get("pie")
+    def draw_pie(cv, t, a, hy):
+        if a <= 0.01: return
+        P = PIE; cx, cy, r, ri = P["cx"], P["cy"], P["r"], P["ri"]
+        vals = [(s, max(0.0, val(s, hy))) for s in SER]; tot = sum(v for _, v in vals) or 1.0
+        c = cv.c; hl = P.get("hl"); hls = None
+        if P.get("start_deg") == "center":       # centre the highlighted slice on 3 o'clock (next to the legend)
+            ang = -math.pi * sum(v for s_, v in vals if s_["ticker"] == hl) / tot
+        else: ang = math.radians(P.get("start_deg", -90))
+        cv.circ(cx, cy, r + 6, "#0B1322", 0.6 * a)
+        for s, v in vals:
+            sw = 2 * math.pi * v / tot
+            if sw <= 0: continue
+            off = P.get("pull", 16) if s["ticker"] == hl else 0
+            mx, my = math.cos(ang + sw / 2) * off, math.sin(ang + sw / 2) * off
+            c.new_path(); c.arc(cx + mx, cy + my, r + (8 if s["ticker"] == hl else 0), ang, ang + sw)
+            c.arc_negative(cx + mx, cy + my, ri, ang + sw, ang); c.close_path()
+            cv.col(s["col"], a); c.fill_preserve()
+            cv.col("#0B1322", a); c.set_line_width(3); c.stroke(); c.new_path()
+            if s["ticker"] == hl: hls = (ang, sw, mx, my, s)
+            ang += sw
+        if hls:                                  # thin slice: white edge + pointer so the eye finds it (true angle, no skew)
+            a0, sw, mx, my, s = hls; am = a0 + sw / 2
+            c.new_path(); c.arc(cx + mx, cy + my, r + 8, a0, a0 + max(sw, 1e-4)); c.arc_negative(cx + mx, cy + my, ri, a0 + max(sw, 1e-4), a0); c.close_path()
+            cv.col(WHITE, a); c.set_line_width(4); c.stroke(); c.new_path()
+            ux, uy = math.cos(am), math.sin(am); px, py = cx + mx + ux * (r + 16), cy + my + uy * (r + 16)
+            bx_, by_ = px + ux * 28, py + uy * 28
+            c.new_path(); c.move_to(px, py); c.line_to(bx_ - uy * 16, by_ + ux * 16); c.line_to(bx_ + uy * 16, by_ - ux * 16); c.close_path()
+            cv.col(YEL, a); c.fill(); c.new_path()
+            sh = 100 * dict((x["ticker"], v) for x, v in vals)[hl] / tot
+            cv.text(pct(sh), cx, cy - 8, P.get("big", 64), YEL, a, shadow=True, maxw=2 * ri - 10)
+            cv.text(s.get("name", hl), cx, cy + 44, 36, WHITE, a, bold=False, shadow=False, maxw=2 * ri - 10)
+        lx, ly, row = P["lx"], P["ly"], P.get("row", 74)
+        for k_, (s, v) in enumerate(vals):
+            y = ly + k_ * row; big = s["ticker"] == hl; sz = 56 if big else 50; dot = sz * 0.62
+            cv.circ(lx + dot / 2, y, dot / 2, s["col"], a, stroke=WHITE, lw=2)
+            cv.text(s["ticker"], lx + dot + 16, y, sz, WHITE, a, align="l", shadow=False)
+            cv.text(pct(100 * v / tot) if v > 0 else "0%", P.get("lx2", lx + 470), y, sz, YEL, a, align="r", shadow=False)
+            nm = s.get("name", "")
+            if nm: cv.text(nm, lx + dot + 16 + cv.tw(s["ticker"] + "  ", sz), y + 2, 36, AXIS, a, bold=False, align="l", shadow=False)
+
+    def pct(x):
+        if x <= 0: return "0%"
+        if x < 0.1: return "<0.1%"
+        if x < 1: return f"{x:.1f}%"
+        return f"{x:.0f}%"
 
     BAND = D.get("band")
     if BAND:
         bx0, bx1, by0, by1 = BAND.get("x0", 24), BAND.get("x1", 1056), BAND["y0"], BAND["y1"]
         bw, bh = bx1 - bx0, by1 - by0; bcy = (by0 + by1) / 2
         bk = float(BAND.get("map_k", kk * 0.36))
-        bmap, _ = MR.render(MR.view(lon, lat, bk, cosf, bcy + BAND.get("map_dy", 0)), H)
-        BMAP = bmap.astype(np.float32)[by0:by1, bx0:bx1].copy()
+        if NOMAP: BMAP = np.broadcast_to(NAVYC[None, None] * 0.6, (by1 - by0, bx1 - bx0, 3)).astype(np.float32).copy()
+        else:
+            bmap, _ = MR.render(MR.view(lon, lat, bk, cosf, bcy + BAND.get("map_dy", 0)), H)
+            BMAP = bmap.astype(np.float32)[by0:by1, bx0:bx1].copy()
         msk = np.zeros((bh, bw), np.uint8); r = int(BAND.get("r", 30))
         cv2.rectangle(msk, (r, 0), (bw - r, bh), 255, -1); cv2.rectangle(msk, (0, r), (bw, bh - r), 255, -1)
         for cx_, cy_ in ((r, r), (bw - r, r), (r, bh - r), (bw - r, bh - r)): cv2.circle(msk, (cx_, cy_), r, 255, -1)
@@ -283,7 +385,7 @@ def run(S):
             if a <= 0.01: continue
             x0, x1, ym = at_grid(t)
             s = next(x for x in SER if x["ticker"] == mk["ticker"])
-            px = C["x0"] + (mk["year"] - x0) / (x1 - x0) * (C["x1"] - C["x0"]); py = C["y1"] - val(s, mk["year"]) / ym * (C["y1"] - C["y0"])
+            px = C["x0"] + (mk["year"] - x0) / (x1 - x0) * (C["x1"] - C["x0"]); py = ypix(val(s, mk["year"]), ym)
             ly = py + mk.get("dy", -130); col = {"red": DOWN, "green": UP, "yellow": YEL}.get(mk.get("col", "yellow"), YEL)
             tw = cv.tw(mk["text"], 46) + 40; lx = min(max(px + mk.get("dx", 0), tw / 2 + 16), W - 16 - tw / 2)
             cv.line([(lx, ly + (34 if ly < py else -34)), (px, py + (-16 if ly < py else 16))], col, 4, a)
@@ -324,7 +426,7 @@ def run(S):
             if a <= 0.01: continue
             x0, x1, ym = at_grid(t)
             s = next(x for x in SER if x["ticker"] == mk["ticker"])
-            px = C["x0"] + (mk["year"] - x0) / (x1 - x0) * (C["x1"] - C["x0"]); py = C["y1"] - val(s, mk["year"]) / ym * (C["y1"] - C["y0"])
+            px = C["x0"] + (mk["year"] - x0) / (x1 - x0) * (C["x1"] - C["x0"]); py = ypix(val(s, mk["year"]), ym)
             ly = py + mk.get("dy", -130); col = {"red": DOWN, "green": UP, "yellow": YEL}.get(mk.get("col", "yellow"), YEL)
             tw = cv.tw(mk["text"], 46) + 40; lx = min(max(px + mk.get("dx", 0), tw / 2 + 16), W - 16 - tw / 2)
             cv.line([(lx, ly + (34 if ly < py else -34)), (px, py + (-16 if ly < py else 16))], col, 4, a)
@@ -345,7 +447,7 @@ def run(S):
         c2 = Canvas(out); draw_subs(c2, CH, t, D.get("subs_y", 1612)); return np.clip(c2.out(), 0, 255).astype(np.uint8)
 
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
-    ev = [(MAP_T1, "whoosh", -28), (MAP_BACK, "whoosh", -30)] + [(p["t0"], "whoosh", -32) for p in PH if p["t0"] > 0.01]
+    ev = ([] if NOMAP else [(MAP_T1, "whoosh", -28)]) + [(MAP_BACK, "whoosh", -30)] + [(p["t0"], "whoosh", -32) for p in PH if p["t0"] > 0.01]
     for (y0, t0), (y1, t1) in zip(KY, KY[1:]):
         if y1 > y0 + 0.01 and t1 > t0 + 0.2:
             for tt in np.arange(t0, t1, 0.16): ev.append((float(tt), "tick", -32))
