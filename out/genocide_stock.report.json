@@ -1,0 +1,172 @@
+{
+ "id": "genocide_stock",
+ "account": "noamroz__",
+ "template": "pop_stock",
+ "hook": "Genocide?|Check the *chart.*",
+ "duration": 51.27,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/genocide_stock.mp4",
+  "cover": "covers/genocide_stock_cover.jpg",
+  "preview": "previews/genocide_stock_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/genocide_stock_0.jpg",
+  "1": "out/frames/genocide_stock_1.jpg",
+  "3": "out/frames/genocide_stock_3.jpg",
+  "last": "out/frames/genocide_stock_last.jpg"
+ },
+ "caption_en": "Genocide? Check the chart. 📈\n\nArabs in Israel: about 156,000 in Nov 1948, 2.16 million in April 2026 (Israel CBS; from 1967 the count includes East Jerusalem).\nWest Bank Palestinians: 598,637 in 1967 (Israel CBS census, without East Jerusalem). PCBS censuses: 1.87M (1997), 2.35M (2007), 2.88M (2017). 3.43M at end 2025 (PCBS).\nGaza Strip: 356,261 in 1967 (Israel CBS census). 1.02M (1997), 1.42M (2007), 1.90M (2017), about 2.23M in mid 2023, then down to 2.13M at end 2025 (PCBS). PCBS says that is about 254,000 fewer than its pre-war projection.\n\nGaza's Health Ministry, run by HAMAS, reports 74,618 dead as of 4 Nov 2026 (via UN OCHA), with no split between civilians and fighters. 21,976 of the identified dead are children (7 Oct 2026). That pain is real.\n\nA chart is context, not a legal verdict. Under the 1948 Genocide Convention (Art. II), genocide means acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group. The International Court of Justice (ICJ) case, South Africa v. Israel, is still open: next filings are due in 2027 and 2029.\n\nBut a people that grows from 156,000 to over 2 million under Israel's flag is not being wiped out. Gaza's war is a tragedy. Judge the word by its definition.\n\nNote: both Israel CBS and PCBS count East Jerusalem's Arabs, so the first two lines overlap by a few hundred thousand people.\n\nSources: Israel CBS, Statistical Abstract of Israel 2024 (table 2.1) and Independence Day 2026 release; Israel CBS 1967 census of the West Bank and Gaza (Levy Institute digitized tables); PCBS censuses 1997, 2007, 2017, mid 2023 estimate and end 2025 release (31 Dec 2025); Gaza Ministry of Health via UN OCHA (4 Nov 2026); UN Genocide Convention (1948), Art. II; ICJ order, South Africa v. Israel (21 May 2026).\nPhotos (Wikimedia Commons): Israel GPO (public domain); Mark Neyman, GPO (CC BY-SA 3.0); Moataz Egbaria (CC BY-SA 3.0); Fred Romero (CC BY 2.0); Zairon (CC BY-SA 4.0). AI voice.\n\nSend this to someone who uses the word.",
+ "caption_he": "רצח עם? תבדקו את הגרף.\nערביי ישראל: כ־156,000 ב־1948, 2.16 מיליון היום (הלמ\"ס). יהודה ושומרון: כ־600,000 ב־1967, 3.43 מיליון בסוף 2025. עזה: 356,000 ב־1967, כ־2.2 מיליון ב־2023, ואז ירידה ל־2.13 מיליון בסוף 2025 (הלשכה המרכזית הפלסטינית לסטטיסטיקה).\nמשרד הבריאות בעזה, שבשליטת חמאס, מדווח על יותר מ־74,000 הרוגים, בלי הפרדה בין אזרחים ללוחמים, וכ־22,000 מהם ילדים. הכאב הזה אמיתי.\nרצח עם נמדד לפי כוונה להשמיד קבוצה (אמנת 1948), והתיק בבית הדין הבינלאומי לצדק עדיין פתוח. אבל עם שגדל מ־156,000 ליותר משני מיליון תחת דגל ישראל לא נמחק. המלחמה בעזה היא טרגדיה. תשפטו את המילה לפי ההגדרה.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#facts"
+ ],
+ "sources": [
+  {
+   "label": "Israel CBS, Statistical Abstract 2024; Independence Day release",
+   "year": 2026,
+   "at": "L1",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "1967: Israel CBS census; PCBS censuses 1997 to 2017; PCBS end 2025",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "1967: Israel CBS census; PCBS mid 2023 and end 2025 estimates",
+   "year": 2025,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Gaza Ministry of Health via UN OCHA, 4 Nov 2026 (children: 7 Oct 2026)",
+   "year": 2026,
+   "at": "L6",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "UN Genocide Convention, Art. II",
+   "year": 1948,
+   "at": "L8:legally",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "International Court of Justice (ICJ), South Africa v. Israel, order of 21 May 2026",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.948,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Genocide? Check the chart.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen forty-eight: a hundred fifty-six thousand Arabs stayed in Israel.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Today? Over two million. Lawmakers. Whole cities.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "West Bank: six hundred thousand in nineteen sixty-seven. Now, three point four million.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza. Three hundred fifty-six thousand. By twenty twenty-three, two point two million.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Then came the war. And the line turned red.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza's Health Ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>, counts over seventy-four thousand dead, without splitting civilians from fighters.",
+    "score": 0.842,
+    "flag": "ok"
+   },
+   {
+    "line": "About twenty-two thousand were children. That pain is real.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Is a chart the legal answer? No. Legally, genocide means intent to destroy a group.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The International Court of Justice is still hearing that case.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But a people that grows from a hundred fifty-six thousand to over two million under Israel's flag is not being wiped out.",
+    "score": 0.957,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza's war is a tragedy. Judge the word by its definition.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So. Genocide? Check the chart.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "The genocide. Check the chart. 1948. 156,000 Arabs stayed in Israel. Today? Over 2 million. Lawmakers. Whole cities. West Bank? 600,000 in 1967. Now, 3.4 million. Gaza? 356,000. By 2023, 2.2 million. Then came the war. And the line turned red. Gaza's health ministry, run by Hamas, counts over 74,000 dead without splitting civilians from fighters. About 22,000 were children. That pain is real. Is a chart the legal answer? No. Legally, genocide means intent to destroy a group. The International Court of Justice is still hearing that case. But a people that grows from 156,000 to over 2 million under Israel's flag is not being wiped out. Gaza's war is a tragedy. Judge the word by its definition. So, genocide. Check the chart.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/genocide_stock/umm1949.jpg",
+   "credit": "Umm al-Fahm, 1949: Israel GPO, public domain"
+  },
+  {
+   "file": "templates/photos/genocide_stock/ual.jpg",
+   "credit": "Arab MKs at Beit HaNassi, 2021: Mark Neyman (GPO), CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/genocide_stock/umm_sunset.jpg",
+   "credit": "Umm al-Fahm: Moataz Egbaria, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/genocide_stock/peace.jpg",
+   "credit": "Peace Palace, The Hague: Fred Romero, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/genocide_stock/naz.jpg",
+   "credit": "Nazareth: Zairon, CC BY-SA 4.0"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 138.5
+}
