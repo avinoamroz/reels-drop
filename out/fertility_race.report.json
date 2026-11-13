@@ -1,6 +1,139 @@
 {
-  "id": "fertility_race",
-  "status": "FAILED",
-  "run": "43393185004",
-  "log": ""
+ "id": "fertility_race",
+ "account": "noamroz__",
+ "template": "fert_race",
+ "hook": "Rich countries stopped having babies.|*Except?*",
+ "duration": 49.97,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/fertility_race.mp4",
+  "cover": "covers/fertility_race_cover.jpg",
+  "preview": "previews/fertility_race_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/fertility_race_0.jpg",
+  "1": "out/frames/fertility_race_1.jpg",
+  "3": "out/frames/fertility_race_3.jpg",
+  "last": "out/frames/fertility_race_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "World Bank WDI, fertility rate (births per woman)",
+   "year": 2026,
+   "at": 1.2,
+   "until": "L9"
+  },
+  {
+   "label": "Organisation for Economic Co-operation and Development, Society at a Glance (2022 data)",
+   "year": 2024,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Taub Center, Weinreb, Chernichovsky, Brill",
+   "year": 2018,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Taub Center, Why are there so many children in Israel?",
+   "year": 2019,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.979,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Rich countries stopped having babies. Except one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Babies per woman, from nineteen sixty to today.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "In nineteen sixty, Saudi Arabia, Iran, Syria and Jordan all had over seven.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Europe, about two and a half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the big drop. Iran went from six to two in fifteen years.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Emirates, one point two. Italy and Spain, barely one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel? It has stayed near three for thirty years.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, only Iraq and the West Bank and Gaza are higher.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel is the only rich country near the top.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Among thirty eight developed economies, Israel is number one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Why? Faith helps. But the Taub Center finds big families at every level of religion.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Even secular and traditional Israelis average over two kids.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A rich, modern country that still bets on the future.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So when someone tells you rich countries stopped having babies,",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Rich countries stopped having babies. Except one. Babies per woman from 1962 today. In 1960, Saudi Arabia, Iran, Syria and Jordan all had over seven. Europe. About two and a half. Then the big drop. Iran went from 6 to 2 in 15 years. The Emirates? 1.2. Italy and Spain? Barely one. And Israel? It has stayed near 3 for 30 years. Today, only Iraq and the and the West Bank and Gaza are higher. And Israel is the only rich country near the top. Among 38 developed economies, Israel is number one. Why? Faith helps. But the top center finds big families at every level of religion. Even secular and traditional Israelis average over two kids. A rich, modern country that still bets on the future. So when someone tells you rich countries stopped having babies,",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 105.5
 }
