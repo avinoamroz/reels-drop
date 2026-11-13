@@ -37,10 +37,7 @@
    "say": "And Israel? It has stayed near three for thirty years."
   },
   {
-   "say": "Today, only Iraq and the West Bank and Gaza are higher."
-  },
-  {
-   "say": "And Israel is the only rich country near the top."
+   "say": "Israel is the only rich country near the top."
   },
   {
    "say": "Among thirty eight developed economies, Israel is number one."
@@ -48,8 +45,8 @@
   {
    "say": "Why? Faith helps. But the Taub Center finds big families at every level of religion.",
    "screen": "Big families at *every* level of faith",
-   "at": "L10",
-   "until": "L10e"
+   "at": "L9",
+   "until": "L9e"
   },
   {
    "say": "Even secular and traditional Israelis average over two kids."
@@ -58,7 +55,7 @@
    "say": "A rich, modern country that still bets on the future."
   },
   {
-   "say": "So when someone tells you rich countries stopped having babies,"
+   "say": "Every rich country is running out of babies. One isn't."
   }
  ],
  "data": {
@@ -186,8 +183,8 @@
   },
   "tags": [
    {
-    "at": "L8",
-    "until": "L9-0.1",
+    "at": "L7+0.3",
+    "until": "L8-0.1",
     "text": "high income",
     "rows": [
      "Israel",
@@ -221,8 +218,8 @@
    },
    {
     "file": "templates/photos/fertility/indep1.jpg",
-    "at": "L10",
-    "until": "L11",
+    "at": "L9",
+    "until": "L10",
     "credit": "Independence Day picnic, 1976: IPPA, CC BY 4.0, Wikimedia",
     "kb": [
      0.5,
@@ -236,8 +233,8 @@
    },
    {
     "file": "templates/photos/fertility/dizen.jpg",
-    "at": "L11",
-    "until": "L12",
+    "at": "L10",
+    "until": "L11",
     "credit": "Shabbat on Dizengoff St, 1939: Zoltan Kluger, GPO (PD)",
     "kb": [
      0.5,
@@ -251,7 +248,7 @@
    },
    {
     "file": "templates/photos/fertility/play4.jpg",
-    "at": "L12",
+    "at": "L11",
     "until": "END",
     "credit": "Playground, Israel: Davidi Vardi, CC BY 2.5, PikiWiki",
     "kb": [
@@ -267,8 +264,8 @@
   ],
   "big": [
    {
-    "at": "L9",
-    "until": "L10-0.1",
+    "at": "L8",
+    "until": "L9-0.1",
     "value": 1,
     "from": 38,
     "prefix": "#",
@@ -276,8 +273,8 @@
     "y": 900
    },
    {
-    "at": "L11:average",
-    "until": "L12-0.1",
+    "at": "L10:average",
+    "until": "L11-0.1",
     "value": 2.2,
     "from": 0,
     "dec": 1,
@@ -292,29 +289,29 @@
    "label": "World Bank WDI, fertility rate (births per woman)",
    "year": 2026,
    "at": 1.2,
-   "until": "L9"
+   "until": "L8"
   },
   {
    "label": "Organisation for Economic Co-operation and Development, Society at a Glance (2022 data)",
    "year": 2024,
-   "at": "L9",
-   "until": "L10"
+   "at": "L8",
+   "until": "L9"
   },
   {
    "label": "Taub Center, Weinreb, Chernichovsky, Brill",
    "year": 2018,
-   "at": "L10",
-   "until": "L11"
+   "at": "L9",
+   "until": "L10"
   },
   {
    "label": "Taub Center, Why are there so many children in Israel?",
    "year": 2019,
-   "at": "L11",
-   "until": "L12"
+   "at": "L10",
+   "until": "L11"
   }
  ],
  "end": {
-  "at": "L12",
+  "at": "L11",
   "balance": "Big family or small, every choice is *valid.*",
   "cta": "Send this to someone who wants *a big family*"
  },
