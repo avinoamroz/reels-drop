@@ -142,7 +142,7 @@
   "dec": 1,
   "suffix": "%",
   "unit": "Christians, % of population (estimates)",
-  "hook_y": 900,
+  "hook_y": 640,
   "photos": [
    {
     "file": "templates/photos/me_christians_race/map_open.jpg",
@@ -246,7 +246,8 @@
      1.0
     ],
     "dim": 0.12,
-    "at": "L13"
+    "at": "L13",
+    "until": "END+1"
    }
   ],
   "big": [
