@@ -17,6 +17,7 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-
   final     {at, until, rows: [{key, label}]}  big score card (counts up)
   end       {at, until, balance, cta}
   outro     {at, month, day, dur}   the wheel turns to this date (e.g. 12, 1 = Tishrei 1 a year later), counters roll to 0
+  hook_until  anchor where the hook card starts to fade (default end of line 0)
   hook_y    default = cy;  card_y default 1300;  stamp_y default 1085;  src_y 1505;  subs_y 1612;  credit_y 1712
 """
 import os, sys, math
@@ -93,7 +94,7 @@ def run(S):
 
     FN = D.get("final"); F0 = A(FN["at"]) if FN else None; F1 = A(FN.get("until"), T.END) if FN else None
     EN = D.get("end"); E0 = A(EN["at"]) if EN else None; E1 = A(EN.get("until"), T.END - 0.5) if EN else None
-    CH = sub_chunks(T, S.get("subs_replace")); hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", CY)
+    CH = sub_chunks(T, S.get("subs_replace")); hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", CY); HK_END = A(D.get("hook_until"), T.E(0))
     CARD_Y = D.get("card_y", 1325); ST_Y = D.get("stamp_y", 975)
 
     def grave_at(t):
@@ -227,7 +228,7 @@ def run(S):
         g = grave_at(t)
         cv = Canvas(bars_moving_bg(t, 10))
         draw_wheel(cv, t)
-        ha = 1 - seg(t, T.E(0) + 0.15, T.E(0) + 0.55)            # hook legible over the spinning wheel
+        ha = 1 - seg(t, HK_END + 0.15, HK_END + 0.55)            # hook legible over the spinning wheel
         if ha > 0.01: cv.circ(CX, CY, R + 10, "#0B1730", 0.55 * ha)
         ov = max([win(t, F0 - 0.1, F1, 0.3, 0.3)] if F0 is not None else [0] + [0])
         if E0 is not None: ov = max(ov, win(t, E0 - 0.1, E1, 0.35, 0.35))
@@ -245,7 +246,7 @@ def run(S):
             if ca > 0.01 and b.get("credit"): cv.text("Photo: " + b["credit"], 540, D.get("credit_y", 1712), 36, "#C9D6EA", 0.85 * ca, bold=False, maxw=1000, minsz=36)
         draw_final(cv, t); draw_endcard(cv, t)
         draw_sources(cv, S, T, t, D.get("src_y", 1505))
-        out = paste_hook(cv.out().astype(np.float32), hook_img, t, T.E(0), HY, 0.95)
+        out = paste_hook(cv.out().astype(np.float32), hook_img, t, HK_END, HY, 0.95)
         c2 = Canvas(out); draw_subs(c2, CH, t, D.get("subs_y", 1612)); return np.clip(c2.out(), 0, 255).astype(np.uint8)
 
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
