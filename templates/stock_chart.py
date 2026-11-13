@@ -60,12 +60,41 @@ def tri(cv, x, y, s, up, col, a):
     c.close_path(); cv.col(col, a); c.fill()
 
 
+# country name -> ISO2 for WG.flag; a chart can set "flag": "XX" (or false to hide). Non-countries (towns, regions) get none.
+FLAGS = {"ISRAEL": "IL", "IRAQ": "IQ", "SYRIA": "SY", "TURKEY": "TR", "TURKIYE": "TR", "LEBANON": "LB", "EGYPT": "EG",
+         "JORDAN": "JO", "IRAN": "IR", "SAUDI ARABIA": "SA", "SAUDI": "SA", "QATAR": "QA", "UAE": "AE", "KUWAIT": "KW",
+         "BAHRAIN": "BH", "OMAN": "OM", "YEMEN": "YE", "LIBYA": "LY", "TUNISIA": "TN", "ALGERIA": "DZ", "MOROCCO": "MA",
+         "CYPRUS": "CY", "GREECE": "GR", "SUDAN": "SD", "USA": "US", "UK": "GB"}
+
+
+def flag_of(ch):
+    f = ch.get("flag")
+    if f is False: return None
+    return f or FLAGS.get(ch["name"].upper())
+
+
 def ticker(cv, ch, val, pct, x, y, a, sz=92, sub_sz=46, show_sub=True):
-    """NAME  value  [arrow] pct%   (left aligned at x, centred on y)"""
+    """[flag] NAME  value  [arrow] pct%   (left aligned at x, centred on y)"""
+    fl = flag_of(ch)
+    if "_tsz" not in ch:                              # one text size per chart: the widest row it will show fits the panel (x 1010)
+        p0 = ch["pts"][0][1]; vals = [q[1] for q in ch["pts"]]
+        def row_w(z):
+            w = (z * 1.26 if fl else 0) + min(560, cv.tw(ch["name"], z)) + 34
+            ws = [cv.tw(fmt(v), z) + (40 + z * 0.7 + cv.tw(f"{abs(v / p0 - 1) * 100:.0f}%", z) if k else 0) for k, v in enumerate(vals)]
+            ws.append(cv.tw(fmt(vals[-1], ch.get("prefix_last", "")), z) + 40 + z * 0.7 + cv.tw(f"{abs(vals[-1] / p0 - 1) * 100:.0f}%", z))
+            return w + max(ws)
+        z = sz
+        for _ in range(3):
+            w = row_w(z)
+            if x + w > 1010: z = z * (1010 - x) / w
+        ch["_tsz"] = min(sz, z)
+    sub_y = y + sz * 0.9; sz = ch["_tsz"]               # the sub line keeps its place
+    if fl:                                            # flag sized to the name, left of it; the row shifts right
+        fw = sz * 1.04; WG.flag(cv, fl, x + fw / 2, y, sz * 0.9, a); x += fw + sz * 0.22
     if pct is None:                                   # before the line moves: name + first value, neutral
         cv.text(ch["name"], x, y, sz, WHITE, a, align="l", maxw=560)
         cv.text(fmt(val), x + min(560, cv.tw(ch["name"], sz)) + 34, y, sz, "#C9D6EA", a, align="l", maxw=420)
-        if show_sub and ch.get("sub"): cv.text(ch["sub"], x, y + sz * 0.9, sub_sz, "#C9D6EA", a, align="l", bold=False, maxw=940)
+        if show_sub and ch.get("sub"): cv.text(ch["sub"], x, sub_y, sub_sz, "#C9D6EA", a, align="l", bold=False, maxw=940)
         return
     up = pct >= 0; col = UP if up else DOWN
     cv.text(ch["name"], x, y, sz, WHITE, a, align="l", maxw=560)
@@ -74,7 +103,7 @@ def ticker(cv, ch, val, pct, x, y, a, sz=92, sub_sz=46, show_sub=True):
     cv.text(vs, x2, y, sz, col, a, align="l", maxw=420); x3 = x2 + cv.tw(vs, sz) + 40
     tri(cv, x3 + sz * 0.3, y, sz * 0.3, up, col, a)
     cv.text(f"{abs(pct):.0f}%", x3 + sz * 0.7, y, sz, col, a, align="l", maxw=360)
-    if show_sub and ch.get("sub"): cv.text(ch["sub"], x, y + sz * 0.9, sub_sz, "#C9D6EA", a, align="l", bold=False, maxw=940)
+    if show_sub and ch.get("sub"): cv.text(ch["sub"], x, sub_y, sub_sz, "#C9D6EA", a, align="l", bold=False, maxw=940)
 
 
 def run(S):
@@ -206,7 +235,9 @@ def run(S):
                 else: cv.rrect(40, y - rh / 2 + 8, 1000, rh - 16, 26, "#0A1222", 0.6 * rka)
                 ch["_done"] = True
                 up = ch["pct"] >= 0; col = UP if up else DOWN
-                cv.text(ch.get("short", ch["name"]), 80, y - 30, 56, WHITE, rka, align="l", maxw=480)
+                fl = flag_of(ch); nx = 80
+                if fl: WG.flag(cv, fl, 80 + 29, y - 30, 50, rka); nx = 80 + 58 + 12
+                cv.text(ch.get("short", ch["name"]), nx, y - 30, 56, WHITE, rka, align="l", maxw=540 - nx)
                 vs = fmt(ch["pts"][-1][1], ch.get("prefix_last", "")); cv.text(vs, 80, y + 36, 54, col, rka, align="l", maxw=240)
                 xx = 80 + cv.tw(vs, 54) + 30; tri(cv, xx + 16, y + 36, 16, up, col, rka)
                 cv.text(f"{abs(ch['pct']):.0f}%", xx + 40, y + 36, 54, col, rka, align="l", maxw=220)

@@ -31,6 +31,18 @@ UP, DOWN = "#2BD67B", "#F0524F"
 GRID = "#22324F"; AXIS = "#8FA3C0"; SCREEN = (34, 20, 10)   # BGR near-black navy trading screen
 
 
+# ISO3 series code -> ISO2 for WG.flag (regional-indicator emoji); a series can override with "flag": "XX" or "flag": false
+ISO2 = dict(ISR="IL", QAT="QA", ARE="AE", SAU="SA", KWT="KW", BHR="BH", OMN="OM", TUR="TR", IRQ="IQ", IRN="IR", JOR="JO",
+            LBN="LB", EGY="EG", SYR="SY", YEM="YE", LBY="LY", TUN="TN", DZA="DZ", MAR="MA", CYP="CY", GRC="GR", SGP="SG",
+            KOR="KR", USA="US", GBR="GB", DEU="DE", FRA="FR", JPN="JP", CHN="CN", IND="IN", RUS="RU", PSE="PS", SDN="SD")
+
+
+def _flag_of(s):
+    f = s.get("flag")
+    if f is False: return None
+    return f or ISO2.get(s.get("code", "").upper())
+
+
 def _fmt(v):
     if v is None or not np.isfinite(v): return "no data"
     return f"${v:,.0f}"
@@ -165,10 +177,15 @@ def run(S):
         for h, ly in zip(heads, ys):
             sz = 46 if (h["s"].get("main") or h["s"].get("hl")) else 40
             txt = f"{h['s']['ticker']} {_fmt(h['v'])}" if (h["s"].get("main") or h["s"].get("hl")) else h["s"]["ticker"]
-            lx = min(h["x"] + 22, 1072 - cv.tw(txt, sz))
+            fl = _flag_of(h["s"]); fw = sz * 1.04 if fl else 0; fg = sz * 0.22 if fl else 0   # flag, sized to the text, LEFT of the ticker
+            room = 1072 - (h["x"] + 20)                       # keep the flag clear of the line heads: shrink a too-wide label a little
+            if fw + fg + cv.tw(txt, sz) > room and sz > 38:
+                sz = max(38, int(sz * room / (fw + fg + cv.tw(txt, sz)))); fw = sz * 1.04 if fl else 0; fg = sz * 0.22 if fl else 0
+            lx = min(h["x"] + 22, 1072 - cv.tw(txt, sz) - fw - fg)
             if abs(ly - h["y"]) > 8: cv.line([(h["x"] + 8, h["y"]), (lx - 6, ly)], h["col"], 2, 0.45 * h["a"])
             col = YEL if h["s"].get("hl") else h["col"]
-            cv.text(txt, lx, ly, sz, col, h["a"], align="l", maxw=1074 - lx, minsz=36, shadow=True)
+            if fl: WG.flag(cv, fl, lx + fw / 2, ly, sz * 0.9, h["a"])
+            cv.text(txt, lx + fw + fg, ly, sz, col, h["a"], align="l", maxw=1074 - lx - fw - fg, minsz=36, shadow=True)
         yr = int(math.floor(hy + 1e-6))
         if m < 0.99: cv.text(str(min(yr, int(YRS[-1]))), C["x0"] + 130, C["y0"] + 20, 100, YEL, 0.9 * ca * (1 - m), shadow=True)
 
