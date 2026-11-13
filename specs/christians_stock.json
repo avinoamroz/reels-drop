@@ -1,0 +1,455 @@
+{
+ "id": "christians_stock",
+ "account": "noamroz__",
+ "template": "stock_chart",
+ "hook": "*5* Christian stocks:|*buy* or *sell?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "If Christians were stocks, would you buy?"
+  },
+  {
+   "say": "Iraq: one and a half million Christians before 2003."
+  },
+  {
+   "say": "Today, fewer than one hundred fifty thousand. Down ninety percent."
+  },
+  {
+   "say": "In 2014, ISIS, the Islamic State group, took Mosul and told Christians: convert, pay, or die.",
+   "screen": "*ISIS* in Mosul, 2014: convert, pay, or die",
+   "at": "L3:convert",
+   "until": "L4"
+  },
+  {
+   "say": "Syria: two point two million before the war. About five hundred eighty thousand by 2023."
+  },
+  {
+   "say": "Turkey: about one hundred ten thousand Greek Orthodox in 1923. Fewer than two thousand five hundred today."
+  },
+  {
+   "say": "Bethlehem, where Christmas began: about six thousand Christians for decades. Now, roughly half that."
+  },
+  {
+   "say": "And Israel?"
+  },
+  {
+   "say": "Thirty six thousand Christians in 1950. One hundred eighty four thousand today. Up every single decade."
+  },
+  {
+   "say": "Of these five charts, only one line is green.",
+   "screen": "Of these five, only *one* line is green",
+   "at": "L9",
+   "until": "L10",
+   "screen_y": 330
+  },
+  {
+   "say": "Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration."
+  },
+  {
+   "say": "So, Middle East Christians: buy or sell?"
+  }
+ ],
+ "data": {
+  "map": {
+   "view": [
+    37.4,
+    35.0,
+    28.0,
+    1000
+   ],
+   "hi": [
+    "TUR",
+    "SYR",
+    "IRQ"
+   ],
+   "labels": [
+    {
+     "text": "Turkey",
+     "lon": 34.0,
+     "lat": 39.3,
+     "size": 62
+    },
+    {
+     "text": "Syria",
+     "lon": 38.6,
+     "lat": 35.2,
+     "size": 58
+    },
+    {
+     "text": "Iraq",
+     "lon": 43.6,
+     "lat": 33.0,
+     "size": 58
+    },
+    {
+     "text": "Israel",
+     "lon": 32.4,
+     "lat": 31.2,
+     "size": 54,
+     "col": "#FFD23F"
+    }
+   ],
+   "pins": [
+    {
+     "lon": 35.2,
+     "lat": 31.7,
+     "label": "Bethlehem",
+     "dx": 26,
+     "dy": 40,
+     "size": 48
+    }
+   ],
+   "until": "L0:would",
+   "again": "L11",
+   "credit": "Map: Natural Earth (PD)"
+  },
+  "charts": [
+   {
+    "name": "IRAQ",
+    "short": "IRAQ",
+    "sub": "Christians, number of people",
+    "points": [
+     [
+      2003,
+      1500000,
+      "1.5M"
+     ],
+     [
+      2019,
+      250000,
+      "<250k"
+     ],
+     [
+      2023,
+      150000,
+      "<150k"
+     ]
+    ],
+    "prefix_last": "<",
+    "at": "L0:would",
+    "until": "L3",
+    "draw": [
+     "L1:one",
+     "L2:ninety"
+    ]
+   },
+   {
+    "name": "SYRIA",
+    "short": "SYRIA",
+    "sub": "Christians, number of people",
+    "points": [
+     [
+      2011,
+      2200000,
+      "2.2M"
+     ],
+     [
+      2023,
+      579000,
+      "579k"
+     ]
+    ],
+    "at": "L4",
+    "until": "L5",
+    "draw": [
+     "L4:two",
+     "L4:by"
+    ]
+   },
+   {
+    "name": "TURKEY",
+    "short": "TURKEY (Greeks)",
+    "sub": "Greek Orthodox Christians",
+    "points": [
+     [
+      1923,
+      110000,
+      "110k"
+     ],
+     [
+      1992,
+      2500,
+      "2.5k"
+     ],
+     [
+      2023,
+      2500,
+      "<2.5k"
+     ]
+    ],
+    "prefix_last": "<",
+    "at": "L5",
+    "until": "L6",
+    "draw": [
+     "L5:about",
+     "L5:today"
+    ],
+    "years": [
+     1918,
+     2028
+    ],
+    "xticks": [
+     1920,
+     1950,
+     1980,
+     2010
+    ]
+   },
+   {
+    "name": "BETHLEHEM",
+    "short": "BETHLEHEM",
+    "sub": "Christians in the town",
+    "points": [
+     [
+      1922,
+      5838,
+      "5.8k"
+     ],
+     [
+      1931,
+      5588,
+      ""
+     ],
+     [
+      1945,
+      6430,
+      "6.4k"
+     ],
+     [
+      1967,
+      6231,
+      "6.2k"
+     ],
+     [
+      2017,
+      3431,
+      "3.4k",
+      true
+     ]
+    ],
+    "at": "L6:about",
+    "until": "L7",
+    "draw": [
+     "L6:about",
+     "L6:half"
+    ],
+    "years": [
+     1916,
+     2023
+    ],
+    "xticks": [
+     1920,
+     1950,
+     1980,
+     2010
+    ]
+   },
+   {
+    "name": "ISRAEL",
+    "short": "ISRAEL",
+    "sub": "Christians, number of people",
+    "hl": true,
+    "points": [
+     [
+      1950,
+      36000,
+      "36k"
+     ],
+     [
+      1960,
+      49600,
+      ""
+     ],
+     [
+      1970,
+      75500,
+      ""
+     ],
+     [
+      1980,
+      89900,
+      ""
+     ],
+     [
+      2000,
+      135100,
+      ""
+     ],
+     [
+      2010,
+      153400,
+      ""
+     ],
+     [
+      2020,
+      179500,
+      ""
+     ],
+     [
+      2024,
+      184200,
+      "184k"
+     ]
+    ],
+    "at": "L8",
+    "until": "L9",
+    "draw": [
+     "L8",
+     "L8:up"
+    ],
+    "years": [
+     1946,
+     2028
+    ],
+    "xticks": [
+     1950,
+     1970,
+     1990,
+     2010
+    ]
+   }
+  ],
+  "recap": {
+   "at": "L9",
+   "until": "L10",
+   "y0": 560,
+   "rowh": 185
+  },
+  "end_until": "L11",
+  "photos": [
+   {
+    "file": "templates/photos/me_christians_race/mosul.jpg",
+    "at": "L3",
+    "until": "L4",
+    "credit": "Mosul, 2024: Ali.tinbo (PD), Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/me_christians_race/nat1940.jpg",
+    "at": "L6",
+    "until": "L6:about",
+    "credit": "Bethlehem, 1940s: Matson Collection, LOC (PD)",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/me_christians_race/xmas_naz.jpg",
+    "at": "L7",
+    "until": "L8",
+    "credit": "Nazareth: Hoshvilim, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.42,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/me_christians_race/xmas_haifa.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Haifa: Deror avi, CC BY-SA 3.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.35
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "US State Dept religious freedom reports, 2019 and 2023",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Al Jazeera",
+   "year": 2014,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "US State Dept 2023, citing Open Doors / World Christian Database",
+   "year": 2023,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Human Rights Watch 1992; US State Dept 2023",
+   "year": 2023,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Censuses 1922, 1931, 1945, 1967; 2017 est. (12% of 28,591)",
+   "year": 2017,
+   "at": "L6:about",
+   "until": "L7"
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": 2025,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "US State Dept, HRW, censuses, Israel CBS",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "AFP via Arab News",
+   "year": 2023,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Israel isn't perfect: extremists spat at pilgrims in *2023.*",
+  "cta": "Send this to a friend"
+ },
+ "caption_en": "CAPTION_IN_PAYLOAD",
+ "caption_he": "CAPTION_IN_PAYLOAD",
+ "hashtags": [
+  "#Israel",
+  "#Christians",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 14.0,
+  "text": "*5* Christian stocks:|*buy* or *sell?*"
+ }
+}
