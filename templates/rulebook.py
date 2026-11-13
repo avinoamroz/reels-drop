@@ -18,7 +18,7 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-
   cut      crossfade seconds between scenes (default 0.12)
   hook_y   default 250;  hook_s default 0.85;  subs_y default 1612;  credit_y default 1712
 """
-import os, sys, math
+import os, sys, math, json
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
 import numpy as np
 from common import *
@@ -109,6 +109,34 @@ def _cover_img(B):
     return im
 
 
+def _tighten(J, work, maxgap=0.16):
+    """Noam's pacing rule: pauses inside a line (sentence breaks) cut to maxgap seconds; audio and timings shift together"""
+    import soundfile as sf
+    y, sr = sf.read(f"{work}/vo.wav"); cuts = []                     # (start_s, remove_s)
+    for L in J["lines"]:
+        ws = L["words"]
+        for a, b in zip(ws, ws[1:]):
+            g = b["t0"] - a["t1"] - 0.06                             # keep the word tails
+            if g > maxgap: cuts.append((a["t1"] + 0.06 + maxgap / 2, g - maxgap))
+    if not cuts: return J, 0.0
+    def sh(t): return t - sum(r for c, r in cuts if c < t)
+    keep, last = [], 0
+    for c, r in cuts:
+        i0, i1 = int(c * sr), int((c + r) * sr); keep.append(y[last:i0]); last = i1
+    keep.append(y[last:]); f = int(0.004 * sr); out = []
+    for k_ in keep:                                                  # tiny fades at the joins
+        k_ = k_.copy()
+        if len(k_) > 2 * f: k_[:f] *= np.linspace(0, 1, f); k_[-f:] *= np.linspace(1, 0, f)
+        out.append(k_)
+    sf.write(f"{work}/vo.wav", np.concatenate(out), sr)
+    for L in J["lines"]:
+        L["t0"] = round(sh(L["t0"]), 3); L["t1"] = round(sh(L["t1"]), 3)
+        for w in L["words"]: w["t0"] = round(sh(w["t0"]), 3); w["t1"] = round(sh(w["t1"]), 3)
+    tot = sum(r for _, r in cuts); J["dur"] = round(J["dur"] - tot, 3); J["tightened_s"] = round(tot, 2)
+    json.dump(J, open(f"{work}/timing.json", "w"), indent=0)
+    return J, tot
+
+
 def _desk():
     """brand gradient desk with a soft spotlight and the book boards / page stack under the page"""
     b = BG.copy(); yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
@@ -142,7 +170,9 @@ def _turn_quad(theta):
 def run(S):
     _sfx_patch()
     D = S["data"]; B = D.get("book", {}); work = workdir(S)
-    J = build_voice(S, work); T = Timing(J, D.get("tail", 0.75)); A = T.at
+    J = build_voice(S, work)
+    if D.get("tighten", 0.16): J, _cut = _tighten(J, work, float(D.get("tighten", 0.16))); log(f"pauses tightened by {_cut:.2f} s")
+    T = Timing(J, D.get("tail", 0.75)); A = T.at
     PAGES = {int(k): v for k, v in D.get("pages", {}).items()}
     cache = {}
     def page(n, ph=False):
@@ -303,6 +333,6 @@ def run(S):
     aud = build_mix(S, T, work, ev)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
     encode(frame, T.END, f"{work}/mix.m4a", final, loop=True)
-    return dict(voice=J["voice"], mix=aud, photos=[dict(file=s_["file"], credit=s_.get("credit")) for s_ in SC if s_["kind"] == "photo"],
+    return dict(voice=J["voice"], mix=aud, tightened_s=J.get("tightened_s", 0), photos=[dict(file=s_["file"], credit=s_.get("credit")) for s_ in SC if s_["kind"] == "photo"],
                 flips=[dict(page=s_["page"], seq=s_.get("seq"), start=round(s_["t0"], 2), land=round(s_.get("t1f", s_["t0"]), 2))
                        for s_ in SC if s_["kind"] in ("book", "close")])

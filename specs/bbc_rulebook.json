@@ -38,8 +38,8 @@
    "gap": 0.12
   },
   {
-   "say": "The narrator's father? A <<h|ɑ|ˈ|m|ɑ|s>> government official.",
-   "gap": 0.4
+   "say": "The narrator's father? A <<h|ɑ|ˈ|m|ɑ|s>> official.",
+   "gap": 0.32
   },
   {
    "say": "Rule three. Hospital explodes? Blame Israel first.",
@@ -50,31 +50,31 @@
    "gap": 0.12
   },
   {
-   "say": "U.S., British and French intelligence: likely a rocket from Gaza.",
+   "say": "Western intelligence: likely a rocket from Gaza.",
    "gap": 0.12
   },
   {
    "say": "BBC: wrong to speculate.",
-   "gap": 0.6
+   "gap": 0.38
   },
   {
    "say": "Rule nine. <<h|ɑ|ˈ|m|ɑ|s>> are militants. Never terrorists.",
    "gap": 0.12
   },
   {
-   "say": "BBC's John Simpson: calling someone a terrorist means taking sides.",
+   "say": "BBC's John Simpson: calling them terrorists means taking sides.",
    "gap": 0.12
   },
   {
-   "say": "Britain banned <<h|ɑ|ˈ|m|ɑ|s>> as terrorists in twenty twenty one.",
-   "gap": 0.5
+   "say": "Britain? Bans <<h|ɑ|ˈ|m|ɑ|s>> as terrorists.",
+   "gap": 0.35
   },
   {
    "say": "Rule two. Army brings doctors? Report: targeting doctors.",
    "gap": 0.12
   },
   {
-   "say": "Al Shifa, twenty twenty three. BBC: the army is targeting medical teams.",
+   "say": "Al Shifa raid. BBC: the army is targeting medical teams.",
    "gap": 0.12
   },
   {
@@ -326,7 +326,7 @@
    },
    {
     "type": "stamp",
-    "at": "L10:banned",
+    "at": "L10:bans",
     "until": "L10e+0.15",
     "text": "PROSCRIBED: TERRORIST",
     "color": "yellow",
@@ -361,7 +361,9 @@
     "size": 64,
     "h": 600
    }
-  ]
+  ],
+  "tail": 0.55,
+  "tighten": 0.13
  },
  "sources": [
   {
