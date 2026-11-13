@@ -1,0 +1,177 @@
+{
+ "id": "strategic_depth_map",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Israel is *15 km*|wide here.",
+ "duration": 58.67,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/strategic_depth_map.mp4",
+  "cover": "covers/strategic_depth_map_cover.jpg",
+  "preview": "previews/strategic_depth_map_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/strategic_depth_map_0.jpg",
+  "1": "out/frames/strategic_depth_map_1.jpg",
+  "3": "out/frames/strategic_depth_map_3.jpg",
+  "last": "out/frames/strategic_depth_map_last.jpg"
+ },
+ "caption_en": "Israel is 15 km wide here. 📍\n\nAt its narrowest, the Green Line (the 1949 armistice line) is about 14.5 km from the Mediterranean. From the hills of Qalqilya to the beach: about 3 hours on foot.\n\nOctober 7, 2023: HAMAS terrorists in two pickup trucks crossed from Gaza at 6:40 and reached Ofakim at 7:08. Ofakim is about 25 km from Gaza. About 1,200 people were murdered that day.\n\nNow picture the same raid, at the same pace, from Qalqilya in Judea and Samaria (the West Bank):\n🛣️ Route 6, Israel's main highway: in places almost right on the Green Line.\n✈️ Ben Gurion Airport: about 6 km from the Green Line. About 7 minutes.\n🏙️ Tel Aviv: about 18 km. About 20 minutes.\n🌊 The sea: about 16 minutes. Israel cut in two.\n(Minutes are our estimate at the Ofakim pace: 25 km in 28 minutes.)\n\n2005: Israel left Gaza, every soldier and every settlement. 2007: HAMAS took over. Then came October 7.\n\nPalestinians want a state there, and many argue security can be achieved by agreement. Israel's question: who guarantees it?\nPeace is the goal. Security control is what makes it last.\n\nSend this to someone who has never seen this map.",
+ "caption_he": "ישראל ברוחב 15 ק״מ כאן. 📍\nבנקודה הצרה ביותר, הקו הירוק נמצא בערך 14.5 ק״מ מהים. מהגבעות של קלקיליה לחוף: בערך 3 שעות הליכה.\n7 באוקטובר 2023: מחבלי חמאס בשני טנדרים חצו מעזה ב 6:40 והגיעו לאופקים ב 7:08. אופקים נמצאת בערך 25 ק״מ מעזה. כ 1,200 בני אדם נרצחו באותו יום.\nאותה פשיטה, באותו קצב, מקלקיליה שביהודה ושומרון:\nכביש 6: במקומות מסוימים כמעט על הקו הירוק.\nנתב״ג: בערך 6 ק״מ מהקו הירוק. בערך 7 דקות.\nתל אביב: בערך 18 ק״מ. בערך 20 דקות.\nהים: בערך 16 דקות. ישראל חתוכה לשתיים.\n2005: ישראל יצאה מעזה, כל חייל וכל יישוב. 2007: חמאס השתלט. ואז הגיע 7 באוקטובר.\nהפלסטינים רוצים מדינה שם, ורבים טוענים שאפשר להשיג ביטחון בהסכם. השאלה של ישראל: מי מבטיח את זה?\nשלום הוא המטרה. שליטה ביטחונית היא מה שגורם לו להחזיק.",
+ "hashtags": [
+  "#Israel",
+  "#Oct7",
+  "#geography"
+ ],
+ "sources": [
+  {
+   "label": "Israel MFA: about 14.5 km at the narrowest",
+   "year": 2024,
+   "at": 0.3,
+   "until": "L2"
+  },
+  {
+   "label": "IDF Ofakim probe via TPS",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4:twenty"
+  },
+  {
+   "label": "AFP: Ofakim about 25 km from Gaza",
+   "year": 2024,
+   "at": "L4:twenty",
+   "until": "L5"
+  },
+  {
+   "label": "Wikipedia: Highway 6, \"almost right on the Green Line\"",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Israel MFA: airport about 6 km from Green Line",
+   "year": 2024,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Jewish Virtual Library: 11 miles to Tel Aviv",
+   "year": 2024,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Minutes: estimate at the Ofakim pace, 25 km in 28 min",
+   "year": 2023,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Britannica: Gaza Strip",
+   "year": 2007,
+   "at": "L10",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.851,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel is fifteen kilometres wide here.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "From the hills of Qalqilya to the beach. About three hours on foot.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Now drive it at the October seventh pace.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "<<h|ɑ|ˈ|m|ɑ|s>> terrorists in two pickup trucks crossed from Gaza at six forty.",
+    "score": 0.643,
+    "flag": "MISS"
+   },
+   {
+    "line": "Seven oh eight: Ofakim. Twenty five kilometres in twenty eight minutes.",
+    "score": 0.727,
+    "flag": "MISS"
+   },
+   {
+    "line": "Now picture the same raid from Qalqilya, in Judea and Samaria.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Route six, Israel's main highway: in places, almost on the line.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Ben Gurion Airport: six kilometres from the line. About seven minutes.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Tel Aviv: about eighteen kilometres. Twenty minutes.",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "And the sea, in about sixteen. Israel, cut in two.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In two thousand five, Israel left Gaza. Every soldier, every settlement.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two years later, <<h|ɑ|ˈ|m|ɑ|s>> ruled it. Then came October seventh.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Palestinians want a state there, and many say security can come by agreement.",
+    "score": 0.846,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's question: who guarantees it?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peace is the goal. Security control is what makes it last.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Because here, Israel is fifteen kilometres wide.",
+    "score": 0.857,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel is 15 kilometers wide here, from the hills of Calcilia to the beach, about 3 hours on foot. Now drive it at the October 7th pace. Hamas terrorists and two pickup trucks crossed from Gaza at 6.40, 7.08 or Fakhine, 25 kilometers in 28 minutes. Now picture the same raid from Calcilia in Judea and Samaria, Route 6, Israel's main highway and places almost on the line. Ben Gurion Airport, 6 kilometers from the line, about 7 minutes. of Eve, about 18 kilometers, 20 minutes, and the sea in about 16. Israel cut in two. In 2005, Israel left Gaza. Every soldier, every settlement. Two years later, Hamas ruled it. Then came October 7. Palestinians want to stay there, and many say security can come by agreement. Israel's question, who guarantees it? Peace is the goal. Security control is what makes it last. Because here, Israel is 15 kilometers wide.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 58.67,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 130.5
+}
