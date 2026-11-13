@@ -8,88 +8,88 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
-  "gap": 0.15
+  "tempo": 1.12,
+  "gap": 0.12
  },
  "lines": [
   {
-   "say": "Nineteen thirty-two. The Palestine Post. A Jewish newspaper.",
-   "gap": 0.35
+   "say": "Nineteen thirty-two: the Palestine Post, a Jewish newspaper.",
+   "gap": 0.3
   },
   {
    "say": "Watch the word Palestinian change owners.",
-   "gap": 0.2
-  },
-  {
-   "say": "Nineteen oh two. The Anglo-Palestine Bank. Founded by Zionists.",
    "gap": 0.15
   },
   {
-   "say": "Under the British, Jews and Arabs were all Palestinian citizens.",
-   "gap": 0.15
+   "say": "Nineteen oh two: the Anglo-Palestine Bank, founded by Zionists.",
+   "gap": 0.12
   },
   {
-   "say": "Thirty-four. Palestine's World Cup team. Every player, Jewish.",
-   "gap": 0.15
+   "say": "Under the British, Jews and Arabs were Palestinian citizens.",
+   "gap": 0.12
   },
   {
-   "say": "Thirty-six. The Palestine Orchestra. Jewish musicians.",
-   "gap": 0.2
+   "say": "Thirty-four: Palestine's World Cup team, every player Jewish.",
+   "gap": 0.12
+  },
+  {
+   "say": "Thirty-six: the Palestine Orchestra, Jewish musicians.",
+   "gap": 0.15
   },
   {
    "say": "Arabs used the name too: the Jaffa paper Filastin.",
-   "gap": 0.25
+   "gap": 0.2
   },
   {
-   "say": "Then, nineteen forty-eight. Israel is born. Time to rebrand.",
-   "gap": 0.15
+   "say": "Nineteen forty-eight, Israel is born. Rebrand time.",
+   "gap": 0.12
   },
   {
    "say": "The Palestine Post becomes The Jerusalem Post.",
-   "gap": 0.15
+   "gap": 0.12
   },
   {
    "say": "The orchestra: Israel Philharmonic. The bank: Bank Leumi. The team: Israel.",
-   "gap": 0.15
+   "gap": 0.12
   },
   {
-   "say": "And Palestinian now means the Arabs of the land.",
-   "gap": 0.3
+   "say": "Palestinian now means the Arabs of the land.",
+   "gap": 0.25
   },
   {
    "say": "The flag? Older than you think.",
+   "gap": 0.12
+  },
+  {
+   "say": "Nineteen sixteen, the Arab Revolt flag.",
+   "gap": 0.12
+  },
+  {
+   "say": "Forty-eight, Gaza's All-Palestine Government adopts it.",
+   "gap": 0.12
+  },
+  {
+   "say": "Sixty-four, the PLO, the Palestine Liberation Organization, takes it.",
+   "gap": 0.12
+  },
+  {
+   "say": "Jordan's flag? Almost identical, plus a star.",
    "gap": 0.15
   },
   {
-   "say": "Nineteen sixteen. The Arab Revolt flag.",
-   "gap": 0.15
-  },
-  {
-   "say": "Forty-eight. The All-Palestine Government in Gaza adopts it.",
-   "gap": 0.15
-  },
-  {
-   "say": "Sixty-four. The PLO, the Palestine Liberation Organization, is founded in Jordan-ruled East Jerusalem.",
-   "gap": 0.15
-  },
-  {
-   "say": "Next to Jordan's flag? Almost identical, minus a star.",
+   "say": "First leader? Not Arafat, but Ahmad Shukeiri.",
    "gap": 0.2
   },
   {
-   "say": "First leader? Not Arafat. Ahmad Shukeiri. Arafat came in sixty-nine.",
-   "gap": 0.3
-  },
-  {
-   "say": "Every nation is born sometime. Jordan, forty-six. Israel, forty-eight.",
-   "gap": 0.2
+   "say": "Every nation is born sometime: Jordan forty-six, Israel forty-eight.",
+   "gap": 0.15
   },
   {
    "say": "Today millions call themselves Palestinian, and that's real.",
-   "gap": 0.2
+   "gap": 0.15
   },
   {
-   "say": "The name just has a surprising history. It started with a newspaper.",
+   "say": "The name has a surprising history. It started with a newspaper.",
    "gap": 0.0
   }
  ],
@@ -381,10 +381,6 @@
     {
      "at": "L14",
      "value": 1964
-    },
-    {
-     "at": "L16:sixty",
-     "value": 1969
     }
    ],
    "hide": [
