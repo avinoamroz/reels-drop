@@ -9,7 +9,7 @@
   "flip": "L9:nineteen"
  },
  "voice": {
-  "gap": 0.18,
+  "gap": 0.12,
   "lead": 0.1
  },
  "subs_replace": {
@@ -23,78 +23,78 @@
   "twenty-two thousand": "22,000",
   "nine in ten": "9 in 10",
   "Seven point two million": "7.2 million",
-  "Thirteen point seven million": "13.7 million",
-  "Fifteen million": "15 million",
-  "one point seven eight million": "1.78 million"
+  "one point seven eight million": "1.78 million",
+  "thirteen point seven million": "13.7 million",
+  "fifteen million": "15 million"
  },
  "lines": [
   {
    "say": "Three thousand years. Still standing. Why?",
-   "gap": 0.3
+   "gap": 0.2
   },
   {
-   "say": "In the small corner: the Jewish people.",
-   "gap": 0.18
+   "say": "Small corner: the Jewish people.",
+   "gap": 0.12
   },
   {
-   "say": "Round one. Pharaoh's Egypt. Slavery. They walk out.",
-   "gap": 0.18
+   "say": "Round one: Pharaoh's Egypt. Slavery, then they walk out.",
+   "gap": 0.12
   },
   {
-   "say": "Round two. Babylon, five eighty-six BCE. The Temple falls.",
-   "gap": 0.15
+   "say": "Round two: Babylon, five eighty-six BCE. The Temple falls.",
+   "gap": 0.12
   },
   {
    "say": "Help from the corner: Cyrus of Persia sends them home.",
-   "gap": 0.18
+   "gap": 0.12
   },
   {
-   "say": "Round three. Haman's plot to wipe them out. They survive.",
-   "gap": 0.18
+   "say": "Round three: Haman's plot. They survive.",
+   "gap": 0.12
   },
   {
-   "say": "Round four. Rome, seventy CE. The Temple burns again.",
-   "gap": 0.15
+   "say": "Round four: Rome, seventy CE. The Temple burns again.",
+   "gap": 0.12
   },
   {
-   "say": "Spain, fourteen ninety-two. Expelled.",
-   "gap": 0.35
+   "say": "Spain, fourteen ninety-two: expelled.",
+   "gap": 0.2
   },
   {
    "say": "Then the darkest round. Six million murdered.",
-   "gap": 0.6
+   "gap": 0.45
   },
   {
-   "say": "Most fighters stay down. Nineteen forty-eight: he gets up.",
-   "gap": 0.2
+   "say": "Nineteen forty-eight: he gets up.",
+   "gap": 0.12
   },
   {
    "say": "Nineteen seventy-three, on the ropes. America flies in twenty-two thousand tons.",
-   "gap": 0.18
+   "gap": 0.12
   },
   {
-   "say": "So he trains. An army. Startups. Iron Dome.",
-   "gap": 0.2
+   "say": "So he trains: an army, startups, Iron Dome.",
+   "gap": 0.12
   },
   {
    "say": "Nobody shoves him in the hallway. Iron Dome stops nine in ten.",
-   "gap": 0.2
+   "gap": 0.12
   },
   {
    "say": "Strongest kid in school? He warns before hitting back.",
-   "gap": 0.15
+   "gap": 0.12
   },
   {
-   "say": "Seven point two million leaflets. Thirteen point seven million texts. Fifteen million calls.",
-   "gap": 0.15
+   "say": "Seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
+   "gap": 0.12
   },
   {
-   "say": "And one point seven eight million tons of food into Gaza.",
-   "gap": 0.25
+   "say": "Plus one point seven eight million tons of food for Gaza.",
+   "gap": 0.15
   },
   {
    "say": "Israel gets criticised for how it fights. Scrutiny is fair.",
-   "gap": 0.2
+   "gap": 0.15
   },
   {
    "say": "Why so strong? He never stayed down.",
@@ -129,7 +129,7 @@
     74
    ],
    [
-    "L5:wipe",
+    "L5:plot",
     54
    ],
    [
@@ -303,7 +303,7 @@
    "L2:slavery",
    "L3:temple",
    "L3:falls",
-   "L5:wipe",
+   "L5:plot",
    "L6:temple",
    "L6:burns",
    "L7:expelled",
