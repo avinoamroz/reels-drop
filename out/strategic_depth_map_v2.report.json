@@ -1,0 +1,177 @@
+{
+ "id": "strategic_depth_map_v2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Israel is *15 km*|wide here.",
+ "duration": 60.6,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/strategic_depth_map_v2.mp4",
+  "cover": "covers/strategic_depth_map_v2_cover.jpg",
+  "preview": "previews/strategic_depth_map_v2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/strategic_depth_map_v2_0.jpg",
+  "1": "out/frames/strategic_depth_map_v2_1.jpg",
+  "3": "out/frames/strategic_depth_map_v2_3.jpg",
+  "last": "out/frames/strategic_depth_map_v2_last.jpg"
+ },
+ "caption_en": "Israel is 15 km wide here. 📍\n\nAt its narrowest, the Green Line (the 1949 armistice line) is about 14.5 km from the Mediterranean: about 3 hours on foot.\n\nIt already happened. In the Second Intifada (Sept 2000 to Dec 2005), terror attacks killed 1,084 Israelis, about half of them in 147 suicide bombings. In 2000 to 2003, about 64% of the bombers came from northern Samaria (the Jenin and Nablus area). Bombers sent from Jenin hit Hadera, Afula, Tel Aviv and Jerusalem.\n27 March 2002: a bomber from a HAMAS cell in Tulkarm hit the Passover seder at the Park Hotel in Netanya. 30 people were killed. Two days later Israel launched Operation Defensive Shield.\n\n2005: Israel left Gaza, every soldier and every settlement. 2007: HAMAS took over. 7 October 2023: terrorists in pickup trucks crossed at 6:40 and reached Ofakim, about 25 km away, at 7:08.\n\nWhat if Judea and Samaria were run like Gaza after 2005? 10 launch points along the line, from Jenin to the Hebron hills, at the same pace:\n⏱️ 10 minutes: Route 6, Kfar Saba, Ben Gurion Airport, Jerusalem.\n⏱️ 20 minutes: Tel Aviv, Netanya, the sea. Israel cut in two.\nAbout 6 in 10 Israelis live in the Tel Aviv and Jerusalem metro areas (CBS, end of 2024: 5.88M of 10.03M; our estimate from metro totals).\n(Minutes are our estimate at the Ofakim pace, 25 km in 28 minutes, on straight line map distances.)\n\nPalestinians want a state there, and many argue security can be achieved by agreement. Israel's question: who guarantees it?\nPeace is the goal. Security control is what makes it last.\n\nSend this to someone who has never seen this map.",
+ "caption_he": "ישראל ברוחב 15 ק״מ כאן. 📍\nבנקודה הצרה ביותר, הקו הירוק נמצא בערך 14.5 ק״מ מהים.\nזה כבר קרה. באינתיפאדה השנייה (2000 עד 2005) נרצחו 1,084 ישראלים בפיגועים, כמחציתם ב 147 פיגועי התאבדות. ב 2000 עד 2003 כ 64% מהמחבלים המתאבדים הגיעו מצפון השומרון (אזור ג׳נין ושכם).\n27 במרץ 2002: מחבל מחוליית חמאס בטולכרם פוצץ את עצמו בליל הסדר במלון פארק בנתניה. 30 נרצחו. יומיים אחר כך יצא מבצע חומת מגן.\n2005: ישראל יצאה מעזה. 2007: חמאס השתלט. 7 באוקטובר: מחבלים בטנדרים עברו 25 ק״מ ב 28 דקות.\nומה אם יהודה ושומרון היו מתנהלים כמו עזה אחרי 2005? 10 נקודות יציאה לאורך הקו, מג׳נין ועד הר חברון, באותו קצב:\n10 דקות: כביש 6, כפר סבא, נתב״ג, ירושלים.\n20 דקות: תל אביב, נתניה, הים. ישראל חתוכה לשתיים.\nכ 6 מכל 10 ישראלים גרים במטרופולין תל אביב וירושלים (למ״ס, סוף 2024, הערכה שלנו).\nהפלסטינים רוצים מדינה שם, ורבים טוענים שאפשר להשיג ביטחון בהסכם. השאלה של ישראל: מי מבטיח את זה?\nשלום הוא המטרה. שליטה ביטחונית היא מה שגורם לו להחזיק.",
+ "hashtags": [
+  "#Israel",
+  "#Oct7",
+  "#geography"
+ ],
+ "sources": [
+  {
+   "label": "Israel MFA: about 14.5 km at the narrowest",
+   "year": 2024,
+   "at": 0.3,
+   "until": "L2"
+  },
+  {
+   "label": "Israel gov study: 1,084 killed, Sept 2000 to Dec 2005",
+   "year": 2005,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Israel gov study: 64% of bombers from Samaria, 2000 to 2003",
+   "year": 2003,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Israel MFA: Park Hotel, HAMAS cell in Tulkarm",
+   "year": 2002,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Britannica: Gaza Strip",
+   "year": 2007,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "IDF Ofakim probe via TPS 2025; AFP: 25 km",
+   "year": 2023,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Minutes: our estimate at 25 km in 28 min, map distances",
+   "year": 2026,
+   "at": "L8",
+   "until": "L11"
+  },
+  {
+   "label": "CBS metro areas: 5.88M of 10.03M, our estimate",
+   "year": 2024,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.901,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel is fifteen kilometres wide here.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "From the hills to the beach: about three hours on foot.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And it already happened. Second Intifada: over a thousand Israelis killed.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Most suicide bombers came from cells around Jenin and Nablus.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A <<h|ɑ|ˈ|m|ɑ|s>> cell in Tulkarm bombed a Passover seder in Netanya. Thirty killed.",
+    "score": 0.6,
+    "flag": "MISS"
+   },
+   {
+    "line": "In two thousand five, Israel left Gaza. Two years later, <<h|ɑ|ˈ|m|ɑ|s>> ruled it.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "October seventh: terrorists in pickup trucks drove twenty five kilometres in twenty eight minutes.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Now, what if Judea and Samaria were run like Gaza after two thousand five?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ten launch points. Same pace. Same minute.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ten minutes: Route six, Kfar Saba, Ben Gurion Airport, Jerusalem.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty minutes: Tel Aviv, Netanya, the sea. Israel, cut in two.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "The Tel Aviv and Jerusalem areas: about six in ten Israelis.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Palestinians want a state there, and many say security can come by agreement.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's question: who guarantees it?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peace is the goal. Security control is what makes it last.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Because here, Israel is fifteen kilometres wide.",
+    "score": 0.857,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel is 15 kilometers wide here, from the hills to the beach, about 3 hours on foot, and it already happened. Second intifada, over a thousand Israelis killed. Most suicide bombers came from cells around Jenin and Nablus. Hamas cell and tokarm bombed a Passover Seder in Netanyahu, 30 killed. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th, terrorists in pickup trucks drove 25 kilometers in 28 minutes. Now, what if Judea and Samaria were run like Gaza after 2005? 10 launch points. Same pace. Same minute. 10 minutes. Route 6. K Farsaba. Ben Gurion Airport. Jerusalem. 20 minutes. Tel Aviv. Natania. The sea. Israel cut in two. The Tel Aviv and Jerusalem areas. About 6 in 10 Israelis. Palestinians want a state there, and many say security can come by agreement. Israel's question. Who guarantees it? Peace is the goal. Community control is what makes it last, because here, Israel is 15 kilometers wide.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 60.59,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 97.0
+}

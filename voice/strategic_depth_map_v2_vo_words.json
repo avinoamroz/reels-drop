@@ -1,0 +1,837 @@
+[
+{
+"word": "Israel",
+"start": 0.04643991,
+"end": 0.49535903
+},
+{
+"word": "is",
+"start": 0.49535903,
+"end": 0.68111867
+},
+{
+"word": "fifteen",
+"start": 0.68111867,
+"end": 1.2074376
+},
+{
+"word": "kilometres",
+"start": 1.2074376,
+"end": 1.8421164
+},
+{
+"word": "wide",
+"start": 1.8421164,
+"end": 2.120756
+},
+{
+"word": "here.",
+"start": 2.120756,
+"end": 2.4148753
+},
+{
+"word": "From",
+"start": 2.8637943,
+"end": 3.111474
+},
+{
+"word": "the",
+"start": 3.111474,
+"end": 3.1888738
+},
+{
+"word": "hills",
+"start": 3.1888738,
+"end": 3.4675133
+},
+{
+"word": "to",
+"start": 3.4675133,
+"end": 3.529433
+},
+{
+"word": "the",
+"start": 3.529433,
+"end": 3.6377928
+},
+{
+"word": "beach:",
+"start": 3.6377928,
+"end": 4.117672
+},
+{
+"word": "about",
+"start": 4.551111,
+"end": 4.8452306
+},
+{
+"word": "three",
+"start": 4.8452306,
+"end": 5.17031
+},
+{
+"word": "hours",
+"start": 5.17031,
+"end": 5.4799094
+},
+{
+"word": "on",
+"start": 5.4799094,
+"end": 5.650189
+},
+{
+"word": "foot.",
+"start": 5.650189,
+"end": 5.9907484
+},
+{
+"word": "And",
+"start": 6.2539077,
+"end": 6.439667
+},
+{
+"word": "it",
+"start": 6.439667,
+"end": 6.5170674
+},
+{
+"word": "already",
+"start": 6.5170674,
+"end": 6.7957067
+},
+{
+"word": "happened.",
+"start": 6.7957067,
+"end": 7.244626
+},
+{
+"word": "Second",
+"start": 7.569705,
+"end": 7.987664
+},
+{
+"word": "Intifada:",
+"start": 7.987664,
+"end": 8.684263
+},
+{
+"word": "over",
+"start": 8.900983,
+"end": 9.164142
+},
+{
+"word": "a",
+"start": 9.164142,
+"end": 9.257022
+},
+{
+"word": "thousand",
+"start": 9.318942,
+"end": 9.891701
+},
+{
+"word": "Israelis",
+"start": 9.907181,
+"end": 10.54186
+},
+{
+"word": "killed.",
+"start": 10.54186,
+"end": 10.990779
+},
+{
+"word": "Most",
+"start": 11.5325775,
+"end": 11.826697
+},
+{
+"word": "suicide",
+"start": 11.826697,
+"end": 12.306576
+},
+{
+"word": "bombers",
+"start": 12.306576,
+"end": 12.678095
+},
+{
+"word": "came",
+"start": 12.678095,
+"end": 12.879334
+},
+{
+"word": "from",
+"start": 12.879334,
+"end": 13.065095
+},
+{
+"word": "cells",
+"start": 13.065095,
+"end": 13.452094
+},
+{
+"word": "around",
+"start": 13.452094,
+"end": 13.730733
+},
+{
+"word": "Jenin",
+"start": 13.730733,
+"end": 14.148692
+},
+{
+"word": "and",
+"start": 14.148692,
+"end": 14.257052
+},
+{
+"word": "Nablus.",
+"start": 14.257052,
+"end": 14.92269
+},
+{
+"word": "A",
+"start": 15.24777,
+"end": 15.30969
+},
+{
+"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
+"start": 15.30969,
+"end": 15.69669
+},
+{
+"word": "cell",
+"start": 15.69669,
+"end": 15.975328
+},
+{
+"word": "in",
+"start": 15.975328,
+"end": 16.099169
+},
+{
+"word": "Tulkarm",
+"start": 16.099169,
+"end": 16.610008
+},
+{
+"word": "bombed",
+"start": 16.640968,
+"end": 16.873167
+},
+{
+"word": "a",
+"start": 16.873167,
+"end": 16.904127
+},
+{
+"word": "Passover",
+"start": 16.904127,
+"end": 17.414967
+},
+{
+"word": "seder",
+"start": 17.414967,
+"end": 17.740046
+},
+{
+"word": "in",
+"start": 17.740046,
+"end": 17.832926
+},
+{
+"word": "Netanya.",
+"start": 17.832926,
+"end": 18.343763
+},
+{
+"word": "Thirty",
+"start": 18.637884,
+"end": 19.009403
+},
+{
+"word": "killed.",
+"start": 19.009403,
+"end": 19.458323
+},
+{
+"word": "In",
+"start": 20.10848,
+"end": 20.29424
+},
+{
+"word": "two",
+"start": 20.29424,
+"end": 20.44904
+},
+{
+"word": "thousand",
+"start": 20.44904,
+"end": 20.805079
+},
+{
+"word": "five,",
+"start": 20.805079,
+"end": 21.253998
+},
+{
+"word": "Israel",
+"start": 21.377838,
+"end": 21.795797
+},
+{
+"word": "left",
+"start": 21.795797,
+"end": 22.058956
+},
+{
+"word": "Gaza.",
+"start": 22.058956,
+"end": 22.445955
+},
+{
+"word": "Two",
+"start": 22.879395,
+"end": 23.049675
+},
+{
+"word": "years",
+"start": 23.049675,
+"end": 23.297354
+},
+{
+"word": "later,",
+"start": 23.297354,
+"end": 23.746273
+},
+{
+"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
+"start": 23.870113,
+"end": 24.319033
+},
+{
+"word": "ruled",
+"start": 24.319033,
+"end": 24.551231
+},
+{
+"word": "it.",
+"start": 24.551231,
+"end": 24.829872
+},
+{
+"word": "October",
+"start": 25.51099,
+"end": 25.95991
+},
+{
+"word": "seventh:",
+"start": 25.95991,
+"end": 26.439789
+},
+{
+"word": "terrorists",
+"start": 26.501709,
+"end": 27.089947
+},
+{
+"word": "in",
+"start": 27.089947,
+"end": 27.213787
+},
+{
+"word": "pickup",
+"start": 27.213787,
+"end": 27.492426
+},
+{
+"word": "trucks",
+"start": 27.492426,
+"end": 27.910385
+},
+{
+"word": "drove",
+"start": 27.972305,
+"end": 28.266424
+},
+{
+"word": "twenty",
+"start": 28.266424,
+"end": 28.529585
+},
+{
+"word": "five",
+"start": 28.529585,
+"end": 28.808224
+},
+{
+"word": "kilometres",
+"start": 28.808224,
+"end": 29.520302
+},
+{
+"word": "in",
+"start": 29.520302,
+"end": 29.675102
+},
+{
+"word": "twenty",
+"start": 29.675102,
+"end": 29.953741
+},
+{
+"word": "eight",
+"start": 29.953741,
+"end": 30.062101
+},
+{
+"word": "minutes.",
+"start": 30.062101,
+"end": 30.51102
+},
+{
+"word": "Now,",
+"start": 31.083778,
+"end": 31.594618
+},
+{
+"word": "what",
+"start": 31.873259,
+"end": 32.229298
+},
+{
+"word": "if",
+"start": 32.229298,
+"end": 32.353138
+},
+{
+"word": "Judea",
+"start": 32.353138,
+"end": 32.833015
+},
+{
+"word": "and",
+"start": 32.879456,
+"end": 33.034256
+},
+{
+"word": "Samaria",
+"start": 33.034256,
+"end": 33.607014
+},
+{
+"word": "were",
+"start": 33.668934,
+"end": 33.839214
+},
+{
+"word": "run",
+"start": 33.839214,
+"end": 34.117855
+},
+{
+"word": "like",
+"start": 34.117855,
+"end": 34.411972
+},
+{
+"word": "Gaza",
+"start": 34.442932,
+"end": 34.953773
+},
+{
+"word": "after",
+"start": 35.01569,
+"end": 35.30981
+},
+{
+"word": "two",
+"start": 35.30981,
+"end": 35.46461
+},
+{
+"word": "thousand",
+"start": 35.46461,
+"end": 35.77421
+},
+{
+"word": "five?",
+"start": 35.77421,
+"end": 36.25409
+},
+{
+"word": "Ten",
+"start": 36.904247,
+"end": 37.120968
+},
+{
+"word": "launch",
+"start": 37.120968,
+"end": 37.35317
+},
+{
+"word": "points.",
+"start": 37.35317,
+"end": 37.833046
+},
+{
+"word": "Same",
+"start": 38.436764,
+"end": 38.730885
+},
+{
+"word": "pace.",
+"start": 38.730885,
+"end": 39.179802
+},
+{
+"word": "Same",
+"start": 39.814484,
+"end": 40.12408
+},
+{
+"word": "minute.",
+"start": 40.12408,
+"end": 40.51108
+},
+{
+"word": "Ten",
+"start": 41.05288,
+"end": 41.28508
+},
+{
+"word": "minutes:",
+"start": 41.28508,
+"end": 41.733997
+},
+{
+"word": "Route",
+"start": 41.950718,
+"end": 42.21388
+},
+{
+"word": "six,",
+"start": 42.21388,
+"end": 42.755676
+},
+{
+"word": "Kfar",
+"start": 42.817596,
+"end": 43.204597
+},
+{
+"word": "Saba,",
+"start": 43.204597,
+"end": 43.684475
+},
+{
+"word": "Ben",
+"start": 43.777355,
+"end": 44.102432
+},
+{
+"word": "Gurion",
+"start": 44.102432,
+"end": 44.473953
+},
+{
+"word": "Airport,",
+"start": 44.473953,
+"end": 44.860954
+},
+{
+"word": "Jerusalem.",
+"start": 45.09315,
+"end": 45.69687
+},
+{
+"word": "Twenty",
+"start": 46.08387,
+"end": 46.39347
+},
+{
+"word": "minutes:",
+"start": 46.39347,
+"end": 46.87335
+},
+{
+"word": "Tel",
+"start": 47.353226,
+"end": 47.554466
+},
+{
+"word": "Aviv,",
+"start": 47.554466,
+"end": 47.972427
+},
+{
+"word": "Netanya,",
+"start": 48.127228,
+"end": 48.669025
+},
+{
+"word": "the",
+"start": 48.932186,
+"end": 49.086983
+},
+{
+"word": "sea.",
+"start": 49.086983,
+"end": 49.381104
+},
+{
+"word": "Israel,",
+"start": 49.95386,
+"end": 50.433743
+},
+{
+"word": "cut",
+"start": 50.464703,
+"end": 50.65046
+},
+{
+"word": "in",
+"start": 50.65046,
+"end": 50.74334
+},
+{
+"word": "two.",
+"start": 50.74334,
+"end": 51.03746
+},
+{
+"word": "The",
+"start": 51.7031,
+"end": 51.81146
+},
+{
+"word": "Tel",
+"start": 51.81146,
+"end": 52.02818
+},
+{
+"word": "Aviv",
+"start": 52.02818,
+"end": 52.384216
+},
+{
+"word": "and",
+"start": 52.384216,
+"end": 52.569977
+},
+{
+"word": "Jerusalem",
+"start": 52.569977,
+"end": 53.08082
+},
+{
+"word": "areas:",
+"start": 53.08082,
+"end": 53.591656
+},
+{
+"word": "about",
+"start": 54.056053,
+"end": 54.334694
+},
+{
+"word": "six",
+"start": 54.334694,
+"end": 54.690735
+},
+{
+"word": "in",
+"start": 54.690735,
+"end": 54.78361
+},
+{
+"word": "ten",
+"start": 54.78361,
+"end": 54.98485
+},
+{
+"word": "Israelis.",
+"start": 54.98485,
+"end": 55.65049
+},
+{
+"word": "Palestinians",
+"start": 56.25421,
+"end": 56.90437
+},
+{
+"word": "want",
+"start": 56.90437,
+"end": 57.09013
+},
+{
+"word": "a",
+"start": 57.09013,
+"end": 57.15205
+},
+{
+"word": "state",
+"start": 57.15205,
+"end": 57.508087
+},
+{
+"word": "there,",
+"start": 57.508087,
+"end": 57.786728
+},
+{
+"word": "and",
+"start": 58.111805,
+"end": 58.282085
+},
+{
+"word": "many",
+"start": 58.282085,
+"end": 58.529766
+},
+{
+"word": "say",
+"start": 58.529766,
+"end": 58.792927
+},
+{
+"word": "security",
+"start": 58.792927,
+"end": 59.303764
+},
+{
+"word": "can",
+"start": 59.303764,
+"end": 59.458565
+},
+{
+"word": "come",
+"start": 59.458565,
+"end": 59.644325
+},
+{
+"word": "by",
+"start": 59.644325,
+"end": 59.78364
+},
+{
+"word": "agreement.",
+"start": 59.78364,
+"end": 60.294483
+},
+{
+"word": "Israel's",
+"start": 60.83628,
+"end": 61.254242
+},
+{
+"word": "question:",
+"start": 61.254242,
+"end": 61.76508
+},
+{
+"word": "who",
+"start": 62.1366,
+"end": 62.306877
+},
+{
+"word": "guarantees",
+"start": 62.306877,
+"end": 62.81772
+},
+{
+"word": "it?",
+"start": 62.81772,
+"end": 63.065395
+},
+{
+"word": "Peace",
+"start": 63.576237,
+"end": 63.839394
+},
+{
+"word": "is",
+"start": 63.839394,
+"end": 63.963234
+},
+{
+"word": "the",
+"start": 63.963234,
+"end": 64.056114
+},
+{
+"word": "goal.",
+"start": 64.056114,
+"end": 64.350235
+},
+{
+"word": "Security",
+"start": 64.86108,
+"end": 65.30999
+},
+{
+"word": "control",
+"start": 65.30999,
+"end": 65.75891
+},
+{
+"word": "is",
+"start": 65.75891,
+"end": 65.88275
+},
+{
+"word": "what",
+"start": 65.88275,
+"end": 66.05303
+},
+{
+"word": "makes",
+"start": 66.05303,
+"end": 66.23879
+},
+{
+"word": "it",
+"start": 66.23879,
+"end": 66.33167
+},
+{
+"word": "last.",
+"start": 66.33167,
+"end": 66.84251
+},
+{
+"word": "Because",
+"start": 67.32239,
+"end": 67.64747
+},
+{
+"word": "here,",
+"start": 67.64747,
+"end": 68.12735
+},
+{
+"word": "Israel",
+"start": 68.28215,
+"end": 68.7001
+},
+{
+"word": "is",
+"start": 68.7001,
+"end": 68.885864
+},
+{
+"word": "fifteen",
+"start": 68.885864,
+"end": 69.396706
+},
+{
+"word": "kilometres",
+"start": 69.396706,
+"end": 69.92303
+},
+{
+"word": "wide.",
+"start": 69.92303,
+"end": 70.26358
+}
+]
