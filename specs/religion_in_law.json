@@ -16,9 +16,6 @@
    "say": "Six laws. Who decides your wedding?"
   },
   {
-   "say": "Same life, five countries."
-  },
-  {
    "say": "Marry outside your religion? Israel isn't perfect: a Jew can't marry a Christian here."
   },
   {
@@ -43,10 +40,10 @@
    "say": "Women's dress? Iran forces the hijab by law. Saudi Arabia still fines revealing clothes."
   },
   {
-   "say": "America and Britain, six. Israel, four. Saudi Arabia, two. Iran, one and a half."
+   "say": "Final score: Israel four. Saudi Arabia two. Iran, one and a half."
   },
   {
-   "say": "I think Israel should allow civil marriage. But an awkward wedding isn't a death sentence."
+   "say": "I think Israel needs civil marriage. But an awkward wedding isn't a death sentence."
   },
   {
    "say": "So, who decides your wedding?"
@@ -80,7 +77,7 @@
    {
     "label": "Marry outside your religion?",
     "icon": "💍",
-    "at": "L2",
+    "at": "L1",
     "cells": [
      "Y",
      "Y",
@@ -89,17 +86,17 @@
      "P"
     ],
     "cells_at": [
-     "L2:marry+0.3",
-     "L2:marry+0.45",
-     "L2:israel",
-     "L4:saudi",
-     "L4:iran"
+     "L1:marry+0.3",
+     "L1:marry+0.45",
+     "L1:israel",
+     "L3:saudi",
+     "L3:iran"
     ]
    },
    {
     "label": "Divorce outside religious law?",
     "icon": "⚖️",
-    "at": "L5",
+    "at": "L4",
     "cells": [
      "Y",
      "Y",
@@ -108,17 +105,17 @@
      "N"
     ],
     "cells_at": [
-     "L5:divorce+0.3",
-     "L5:divorce+0.45",
-     "L5:israel",
-     "L5:saudi",
-     "L5:iran"
+     "L4:divorce+0.3",
+     "L4:divorce+0.45",
+     "L4:israel",
+     "L4:saudi",
+     "L4:iran"
     ]
    },
    {
     "label": "Buses on the day of rest?",
     "icon": "🚌",
-    "at": "L6",
+    "at": "L5",
     "cells": [
      "Y",
      "Y",
@@ -127,17 +124,17 @@
      "Y"
     ],
     "cells_at": [
-     "L6:shabbat+0.3",
-     "L6:shabbat+0.45",
-     "L6:israeli",
-     "L6:riyadh",
-     "L6:riyadh+0.2"
+     "L5:shabbat+0.3",
+     "L5:shabbat+0.45",
+     "L5:israeli",
+     "L5:riyadh",
+     "L5:riyadh+0.2"
     ]
    },
    {
     "label": "Same sex couples recognised?",
     "icon": "🏳️‍🌈",
-    "at": "L7:same",
+    "at": "L6:same",
     "cells": [
      "Y",
      "Y",
@@ -146,36 +143,36 @@
      "N"
     ],
     "cells_at": [
-     "L7:same+0.3",
-     "L7:same+0.45",
+     "L6:same+0.3",
+     "L6:same+0.45",
+     "L6:israel",
+     "L6:saudi",
+     "L6:iran"
+    ]
+   },
+   {
+    "label": "Leave your religion freely?",
+    "icon": "🕊️",
+    "at": "L7",
+    "cells": [
+     "Y",
+     "Y",
+     "Y",
+     "N",
+     "N"
+    ],
+    "cells_at": [
+     "L7:leave+0.3",
+     "L7:leave+0.45",
      "L7:israel",
      "L7:saudi",
      "L7:iran"
     ]
    },
    {
-    "label": "Leave your religion freely?",
-    "icon": "🕊️",
-    "at": "L8",
-    "cells": [
-     "Y",
-     "Y",
-     "Y",
-     "N",
-     "N"
-    ],
-    "cells_at": [
-     "L8:leave+0.3",
-     "L8:leave+0.45",
-     "L8:israel",
-     "L8:saudi",
-     "L8:iran"
-    ]
-   },
-   {
     "label": "Women choose what to wear?",
     "icon": "👗",
-    "at": "L9",
+    "at": "L8",
     "cells": [
      "Y",
      "Y",
@@ -184,51 +181,51 @@
      "N"
     ],
     "cells_at": [
-     "L9:dress+0.3",
-     "L9:dress+0.45",
-     "L9:dress+0.6",
-     "L9:saudi",
-     "L9:iran"
+     "L8:dress+0.3",
+     "L8:dress+0.45",
+     "L8:dress+0.6",
+     "L8:saudi",
+     "L8:iran"
     ]
    }
   ],
   "focus": [
    {
-    "at": "L2",
-    "until": "L4e",
+    "at": "L1",
+    "until": "L3e",
     "row": 0
+   },
+   {
+    "at": "L4",
+    "until": "L4e",
+    "row": 1
    },
    {
     "at": "L5",
     "until": "L5e",
-    "row": 1
-   },
-   {
-    "at": "L6",
-    "until": "L6e",
     "row": 2
    },
    {
-    "at": "L7:same",
-    "until": "L7e",
+    "at": "L6:same",
+    "until": "L6e",
     "row": 3
+   },
+   {
+    "at": "L7",
+    "until": "L7e",
+    "row": 4
    },
    {
     "at": "L8",
     "until": "L8e",
-    "row": 4
-   },
-   {
-    "at": "L9",
-    "until": "L9e",
     "row": 5
    }
   ],
   "photos": [
    {
     "file": "templates/photos/religion_in_law/knesset.jpg",
-    "at": "L2:israel",
-    "until": "L3:abroad",
+    "at": "L1:israel",
+    "until": "L2:abroad",
     "credit": "Knesset: Tsvika Israeli, GPO, CC BY-SA 3.0, Wikimedia",
     "kb": [
      0.5,
@@ -241,8 +238,8 @@
    },
    {
     "file": "templates/photos/religion_in_law/larnaca.jpg",
-    "at": "L3:abroad",
-    "until": "L4e",
+    "at": "L2:abroad",
+    "until": "L3e",
     "credit": "Larnaca, Cyprus: A.Savin, FAL, Wikimedia",
     "kb": [
      0.32,
@@ -255,8 +252,8 @@
    },
    {
     "file": "templates/photos/religion_in_law/pride.jpg",
-    "at": "L7:israel",
-    "until": "L7e",
+    "at": "L6:israel",
+    "until": "L6e",
     "credit": "Tel Aviv Pride: Niv Singer, CC BY-SA 2.0, Wikimedia",
     "kb": [
      0.5,
@@ -273,48 +270,48 @@
   {
    "label": "Israel CBS via Hiddush, 2012",
    "year": 2012,
-   "at": "L2",
-   "until": "L4"
+   "at": "L1",
+   "until": "L3"
   },
   {
    "label": "Amnesty, 2022; Iran Civil Code art. 1059",
    "year": 2022,
-   "at": "L4",
-   "until": "L5"
+   "at": "L3",
+   "until": "L4"
   },
   {
    "label": "Rabbinical Courts Law 1953; Iran Civil Code",
    "year": 1953,
-   "at": "L5",
-   "until": "L6"
+   "at": "L4",
+   "until": "L5"
   },
   {
    "label": "Times of Israel, 2019; Riyadh Metro, 2025",
    "year": 2025,
-   "at": "L6",
-   "until": "L7"
+   "at": "L5",
+   "until": "L6"
   },
   {
    "label": "Israel Supreme Court 2006; ILGA World 2020",
    "year": 2020,
-   "at": "L7",
-   "until": "L8"
+   "at": "L6",
+   "until": "L7"
   },
   {
    "label": "US State Dept religious freedom, 2023",
    "year": 2023,
-   "at": "L8",
-   "until": "L9"
+   "at": "L7",
+   "until": "L8"
   },
   {
    "label": "Amnesty, 2024; Saudi decency rules, 2019",
    "year": 2024,
-   "at": "L9",
-   "until": "L10e"
+   "at": "L8",
+   "until": "L9e"
   }
  ],
  "end": {
-  "at": "L11",
+  "at": "L10",
   "balance": "I think Israel needs *civil* *marriage.*",
   "cta": "Send this to a *Cyprus* couple"
  },
