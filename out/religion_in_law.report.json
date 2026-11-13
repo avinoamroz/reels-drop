@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "law_grid",
  "hook": "*6* laws. Who decides|your *wedding?*",
- "duration": 63.2,
+ "duration": 59.73,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/religion_in_law.mp4",
@@ -30,57 +30,52 @@
   {
    "label": "Israel CBS via Hiddush, 2012",
    "year": 2012,
-   "at": "L2",
-   "until": "L4"
+   "at": "L1",
+   "until": "L3"
   },
   {
    "label": "Amnesty, 2022; Iran Civil Code art. 1059",
    "year": 2022,
-   "at": "L4",
-   "until": "L5"
+   "at": "L3",
+   "until": "L4"
   },
   {
    "label": "Rabbinical Courts Law 1953; Iran Civil Code",
    "year": 1953,
-   "at": "L5",
-   "until": "L6"
+   "at": "L4",
+   "until": "L5"
   },
   {
    "label": "Times of Israel, 2019; Riyadh Metro, 2025",
    "year": 2025,
-   "at": "L6",
-   "until": "L7"
+   "at": "L5",
+   "until": "L6"
   },
   {
    "label": "Israel Supreme Court 2006; ILGA World 2020",
    "year": 2020,
-   "at": "L7",
-   "until": "L8"
+   "at": "L6",
+   "until": "L7"
   },
   {
    "label": "US State Dept religious freedom, 2023",
    "year": 2023,
-   "at": "L8",
-   "until": "L9"
+   "at": "L7",
+   "until": "L8"
   },
   {
    "label": "Amnesty, 2024; Saudi decency rules, 2019",
    "year": 2024,
-   "at": "L9",
-   "until": "L10e"
+   "at": "L8",
+   "until": "L9e"
   }
  ],
  "transcript": {
-  "score": 0.975,
+  "score": 0.974,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Six laws. Who decides your wedding?",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Same life, five countries.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -106,12 +101,12 @@
    },
    {
     "line": "Shabbat buses? Most Israeli cities stop. Riyadh's metro runs on Fridays.",
-    "score": 0.909,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Now the real gap. Same sex couples: Israel recognises their marriages from abroad. In Saudi Arabia and Iran, the law allows the death penalty.",
-    "score": 0.917,
+    "score": 0.958,
     "flag": "ok"
    },
    {
@@ -125,12 +120,12 @@
     "flag": "ok"
    },
    {
-    "line": "America and Britain, six. Israel, four. Saudi Arabia, two. Iran, one and a half.",
-    "score": 1.0,
+    "line": "Final score: Israel four. Saudi Arabia two. Iran, one and a half.",
+    "score": 0.833,
     "flag": "ok"
    },
    {
-    "line": "I think Israel should allow civil marriage. But an awkward wedding isn't a death sentence.",
+    "line": "I think Israel needs civil marriage. But an awkward wedding isn't a death sentence.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -140,15 +135,15 @@
     "flag": "ok"
    }
   ],
-  "heard": "Six laws. Who decides your wedding? Same life. Five countries. Marry outside your religion. Israel isn't perfect. A Jew can't marry a Christian here. No civil marriage. About 9,000 couples a year marry abroad, many in Cyprus. In Saudi Arabia and Iran, a Muslim woman may only marry a Muslim. Divorce outside religious law. Not in Israel, not in Saudi Arabia, not in Iran. Shabbat buses. Most Israeli cities stop. The Reate Metro runs on Fridays, now the real gap. Same-sex couples. Israel recognizes their marriages from abroad. In Saudi Arabia and Iran, the law allows a death penalty. Leave your religion? Legal in Israel. In Iran and Saudi Arabia, apostasy can mean death. Women's dress. Iran forces the hijab by law. Saudi Arabia still finds revealing clothes. America and Britain. Six. Israel, four. Saudi Arabia, two. Iran, one and a half. I think Israel should allow civil marriage, but an awkward wedding isn't a death sentence. So who decides your wedding?",
+  "heard": "6 Laws. Who decides your wedding? Marry outside your religion. Israel isn't perfect. A Jew can't marry a Christian here. No civil marriage. About 9,000 couples a year marry abroad, many in Cyprus. In Saudi Arabia and Iran, a Muslim woman may only marry a Muslim. Divorce outside religious law? Not in Israel. Not in Saudi Arabia. Not in Iran. Shabbat buses. Most Israeli cities stop. Riyadh's metro runs on Fridays. Now the real gap. Same-sex couples. Israel recognizes their marriages from abroad. In Saudi Arabia and Iran, the law allows the death penalty. Leave your religion? Legal in Israel. In Iran and Saudi Arabia, apostasy can mean death. Women's dress. Iran forces the hijab by law. Saudi Arabia still finds revealing clothes. Final score. Israel 4. Saudi Arabia 2. Iran 1.5. I think Israel needs civil marriage, but an awkward wedding isn't a death sentence. So, who decides your wedding?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 146.0
+ "render_s": 133.8
 }
