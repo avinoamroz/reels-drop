@@ -13,74 +13,171 @@
  },
  "lines": [
   {
-   "say": "Four empires taxed the conquered. And Israel?",
+   "say": "Four empires taxed the conquered.",
    "gap": 0.15
   },
   {
-   "say": "Rome. Citizens in Italy stopped paying tribute. The conquered provinces paid.",
+   "say": "And Israel?",
+   "gap": 0.15
+  },
+  {
+   "say": "Rome.",
+   "gap": 0.15,
    "screen": "Rome: the *provinces* paid",
-   "screen_icon": "🏛️"
+   "screen_icon": "🏛️",
+   "until": "L5"
   },
   {
-   "say": "The Ottoman Empire, like the caliphates before it: the jizya. A head tax only non-Muslims paid.",
+   "say": "Citizens in Italy stopped paying tribute.",
+   "gap": 0.15
+  },
+  {
+   "say": "The conquered provinces paid.",
+   "gap": 0.15
+  },
+  {
+   "say": "The Ottomans, like the caliphates before them: the jizya.",
+   "gap": 0.15,
    "screen": "Jizya: a head tax on *non-Muslims*",
-   "screen_icon": "📜"
+   "screen_icon": "📜",
+   "until": "L7"
   },
   {
-   "say": "Gone by eighteen fifty six. Then ISIS, the Islamic State, revived it. Mosul, twenty fourteen.",
+   "say": "A head tax only non-Muslims paid.",
+   "gap": 0.15
+  },
+  {
+   "say": "Gone by eighteen fifty six.",
+   "gap": 0.15,
    "screen": "Ended *1856.* ISIS revived it in *2014.*",
-   "screen_icon": "⚠️"
+   "screen_icon": "⚠️",
+   "until": "L10"
   },
   {
-   "say": "British India. Indian taxes paid for goods shipped to Britain. One estimate: forty five trillion dollars.",
+   "say": "Then ISIS, the Islamic State, revived it.",
+   "gap": 0.15
+  },
+  {
+   "say": "Mosul, twenty fourteen.",
+   "gap": 0.15
+  },
+  {
+   "say": "British India.",
+   "gap": 0.15,
    "screen": "British India: *$45 trillion?*",
-   "screen_icon": "🚢"
+   "screen_icon": "🚢",
+   "until": "L13"
   },
   {
-   "say": "Belgium's King Leopold: rubber quotas in the Congo, enforced with beatings. His Congo wealth built monuments in Brussels.",
+   "say": "Indian taxes paid for goods shipped to Britain.",
+   "gap": 0.15
+  },
+  {
+   "say": "One estimate: forty five trillion dollars.",
+   "gap": 0.15
+  },
+  {
+   "say": "Belgium's King Leopold: Congo rubber quotas, enforced with beatings.",
+   "gap": 0.15,
    "screen": "Congo rubber *built* Brussels monuments",
-   "screen_icon": "🏗️"
+   "screen_icon": "🏗️",
+   "until": "L15"
   },
   {
-   "say": "Every time, the money flows out. To the capital.",
+   "say": "His Congo wealth built monuments in Brussels.",
+   "gap": 0.15
+  },
+  {
+   "say": "The money flows out, to the capital.",
+   "gap": 0.15,
    "screen": "Money flows *out.*",
-   "screen_icon": "📤"
+   "screen_icon": "📤",
+   "until": "L16"
   },
   {
    "say": "Now Israel, and its Arab citizens.",
+   "gap": 0.15,
    "screen": "Israel's *Arab* citizens",
-   "screen_icon": "🏘️"
+   "screen_icon": "🏘️",
+   "until": "L17"
   },
   {
-   "say": "Same income tax. Same VAT. No special tax.",
+   "say": "Same income tax.",
+   "gap": 0.15,
    "screen": "Same tax. *No* special tax.",
-   "screen_icon": "🧾"
+   "screen_icon": "🧾",
+   "until": "L20"
   },
   {
-   "say": "Same national health insurance. Same benefits. Same vote.",
+   "say": "Same VAT.",
+   "gap": 0.15
+  },
+  {
+   "say": "No special tax.",
+   "gap": 0.15
+  },
+  {
+   "say": "Same national health insurance.",
+   "gap": 0.15,
    "screen": "Same health care. Same *vote.*",
-   "screen_icon": "🗳️"
+   "screen_icon": "🗳️",
+   "until": "L23"
   },
   {
-   "say": "And the money flows in. Five year plans for Arab towns: fifteen billion shekels, then thirty.",
+   "say": "Same benefits.",
+   "gap": 0.15
+  },
+  {
+   "say": "Same vote.",
+   "gap": 0.15
+  },
+  {
+   "say": "And the money flows in.",
+   "gap": 0.15,
    "screen": "Money flows *in.*",
-   "screen_icon": "📥"
+   "screen_icon": "📥",
+   "until": "L25"
   },
   {
-   "say": "Not all of it was spent. The gaps are real, says Israel's central bank.",
+   "say": "Five year plans for Arab towns: fifteen billion shekels, then thirty.",
+   "gap": 0.15
+  },
+  {
+   "say": "Not all of it was spent.",
+   "gap": 0.15,
    "screen": "First plan: about *70%* actually spent",
-   "screen_icon": "📉"
+   "screen_icon": "📉",
+   "until": "L27"
   },
   {
-   "say": "If this is colonizing, it's a strange empire. Less tribute. More home improvement.",
+   "say": "The gaps are real, says Israel's central bank.",
+   "gap": 0.15
+  },
+  {
+   "say": "If this is colonizing, it's a strange empire.",
+   "gap": 0.15,
    "screen": "Less tribute. More *home improvement.*",
-   "screen_icon": "🔨"
+   "screen_icon": "🔨",
+   "until": "L30"
   },
   {
-   "say": "Send this to someone who says colonizer."
+   "say": "Less tribute.",
+   "gap": 0.15
   },
   {
-   "say": "Because four empires taxed the conquered. And Israel?"
+   "say": "More home improvement.",
+   "gap": 0.15
+  },
+  {
+   "say": "Send this to someone who says colonizer.",
+   "gap": 0.15
+  },
+  {
+   "say": "Because four empires taxed the conquered.",
+   "gap": 0.15
+  },
+  {
+   "say": "And Israel?"
   }
  ],
  "data": {
@@ -93,7 +190,7 @@
   "hook_y": 930,
   "cams": [
    {
-    "at": "L1-0.2",
+    "at": "L2-0.2",
     "view": [
      13.0,
      41.0,
@@ -103,7 +200,7 @@
     "dur": 1.2
    },
    {
-    "at": "L2-0.2",
+    "at": "L5-0.2",
     "view": [
      34.0,
      37.0,
@@ -113,7 +210,7 @@
     "dur": 1.2
    },
    {
-    "at": "L4-0.2",
+    "at": "L10-0.2",
     "view": [
      42.0,
      33.0,
@@ -123,7 +220,7 @@
     "dur": 1.3
    },
    {
-    "at": "L5-0.2",
+    "at": "L13-0.2",
     "view": [
      8.0,
      24.0,
@@ -133,7 +230,7 @@
     "dur": 1.3
    },
    {
-    "at": "L6-0.2",
+    "at": "L15-0.2",
     "view": [
      35.0,
      28.0,
@@ -143,7 +240,7 @@
     "dur": 1.2
    },
    {
-    "at": "L7-0.2",
+    "at": "L16-0.2",
     "view": [
      35.05,
      31.95,
@@ -153,7 +250,7 @@
     "dur": 1.4
    },
    {
-    "at": "L13",
+    "at": "L30",
     "view": [
      35.0,
      28.0,
@@ -164,52 +261,673 @@
    }
   ],
   "routes": [
-   {"at": "L1:stopped", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[-4.0, 40.0], [3.0, 40.6], [12.5, 41.9]], "draw": 0.6},
-   {"at": "L1:stopped+0.1", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[2.0, 46.5], [8.0, 44.5], [12.5, 41.9]], "draw": 0.6},
-   {"at": "L1:stopped+0.2", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[10.0, 36.6], [11.5, 39.0], [12.5, 41.9]], "draw": 0.6},
-   {"at": "L1:stopped+0.3", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[30.0, 38.5], [22.0, 38.0], [16.0, 39.5], [12.5, 41.9]], "draw": 0.6},
-   {"at": "L1:stopped+0.4", "until": "L1:conquered", "kind": "flow", "color": "red", "path": [[31.2, 30.5], [22.0, 33.5], [14.0, 39.0], [12.5, 41.9]], "draw": 0.6},
-   {"at": "L2:jizya", "until": "L2:head", "kind": "flow", "color": "red", "path": [[21.0, 42.5], [25.0, 41.8], [28.98, 41.01]], "draw": 0.6},
-   {"at": "L2:jizya+0.1", "until": "L2:head", "kind": "flow", "color": "red", "path": [[36.3, 33.5], [33.0, 37.2], [28.98, 41.01]], "draw": 0.6},
-   {"at": "L2:jizya+0.2", "until": "L2:head", "kind": "flow", "color": "red", "path": [[31.2, 30.0], [29.5, 35.5], [28.98, 41.01]], "draw": 0.6},
-   {"at": "L2:jizya+0.3", "until": "L2:head", "kind": "flow", "color": "red", "path": [[44.4, 33.3], [38.0, 38.5], [28.98, 41.01]], "draw": 0.6},
-   {"at": "L4:indian", "until": "L4:one", "kind": "flow", "color": "red", "path": [[88.4, 22.6], [80.0, 13.0], [72.0, 12.0], [55.0, 13.0], [44.0, 12.5], [33.0, 28.0], [25.0, 34.5], [10.0, 37.5], [-5.0, 36.0], [-9.5, 42.0], [-5.0, 48.0], [-0.1, 51.5]], "draw": 1.2, "speed": 180},
-   {"at": "L5:rubber", "until": "L5:his", "kind": "flow", "color": "red", "path": [[21.0, 0.5], [16.0, -4.0], [12.0, -6.0], [5.0, 0.0], [-12.0, 10.0], [-18.0, 22.0], [-12.0, 35.0], [-8.0, 44.0], [-2.0, 49.0], [4.35, 50.85]], "draw": 1.2, "speed": 180},
-   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[2.0, 46.5], [12.5, 41.9]], "draw": 0.5},
-   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[36.3, 33.5], [28.98, 41.01]], "draw": 0.5},
-   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[88.4, 22.6], [44.0, 12.5], [33.0, 28.0], [10.0, 37.5], [-0.1, 51.5]], "draw": 0.7, "speed": 180},
-   {"at": "L6:money", "until": "L7-0.2", "kind": "flow", "color": "red", "path": [[21.0, 0.5], [-12.0, 10.0], [-12.0, 35.0], [4.35, 50.85]], "draw": 0.7, "speed": 180},
-   {"at": "L10:money", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.0, 31.55], [34.75, 31.39]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
-   {"at": "L10:money+0.1", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.05, 32.05], [34.98, 32.27]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
-   {"at": "L10:money+0.2", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.2, 32.2], [35.15, 32.52]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
-   {"at": "L10:money+0.3", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.32, 32.3], [35.3, 32.7]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7},
-   {"at": "L10:money+0.4", "until": "L12", "kind": "flow", "color": "sky", "path": [[35.21, 31.77], [35.4, 32.4], [35.29, 32.86]], "draw": 0.6, "speed": 60, "gap": 40, "width": 7}
+   {
+    "at": "L3:stopped",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      -4.0,
+      40.0
+     ],
+     [
+      3.0,
+      40.6
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L3:stopped+0.1",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      2.0,
+      46.5
+     ],
+     [
+      8.0,
+      44.5
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L3:stopped+0.2",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      10.0,
+      36.6
+     ],
+     [
+      11.5,
+      39.0
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L3:stopped+0.3",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      30.0,
+      38.5
+     ],
+     [
+      22.0,
+      38.0
+     ],
+     [
+      16.0,
+      39.5
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L3:stopped+0.4",
+    "until": "L4",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      31.2,
+      30.5
+     ],
+     [
+      22.0,
+      33.5
+     ],
+     [
+      14.0,
+      39.0
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L5:jizya",
+    "until": "L6",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      21.0,
+      42.5
+     ],
+     [
+      25.0,
+      41.8
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L5:jizya+0.1",
+    "until": "L6",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      36.3,
+      33.5
+     ],
+     [
+      33.0,
+      37.2
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L5:jizya+0.2",
+    "until": "L6",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      31.2,
+      30.0
+     ],
+     [
+      29.5,
+      35.5
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L5:jizya+0.3",
+    "until": "L6",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      44.4,
+      33.3
+     ],
+     [
+      38.0,
+      38.5
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ],
+    "draw": 0.6
+   },
+   {
+    "at": "L11:indian",
+    "until": "L12",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      88.4,
+      22.6
+     ],
+     [
+      80.0,
+      13.0
+     ],
+     [
+      72.0,
+      12.0
+     ],
+     [
+      55.0,
+      13.0
+     ],
+     [
+      44.0,
+      12.5
+     ],
+     [
+      33.0,
+      28.0
+     ],
+     [
+      25.0,
+      34.5
+     ],
+     [
+      10.0,
+      37.5
+     ],
+     [
+      -5.0,
+      36.0
+     ],
+     [
+      -9.5,
+      42.0
+     ],
+     [
+      -5.0,
+      48.0
+     ],
+     [
+      -0.1,
+      51.5
+     ]
+    ],
+    "draw": 1.2,
+    "speed": 180
+   },
+   {
+    "at": "L13:rubber",
+    "until": "L14",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      21.0,
+      0.5
+     ],
+     [
+      16.0,
+      -4.0
+     ],
+     [
+      12.0,
+      -6.0
+     ],
+     [
+      5.0,
+      0.0
+     ],
+     [
+      -12.0,
+      10.0
+     ],
+     [
+      -18.0,
+      22.0
+     ],
+     [
+      -12.0,
+      35.0
+     ],
+     [
+      -8.0,
+      44.0
+     ],
+     [
+      -2.0,
+      49.0
+     ],
+     [
+      4.35,
+      50.85
+     ]
+    ],
+    "draw": 1.2,
+    "speed": 180
+   },
+   {
+    "at": "L15:money",
+    "until": "L16-0.2",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      2.0,
+      46.5
+     ],
+     [
+      12.5,
+      41.9
+     ]
+    ],
+    "draw": 0.5
+   },
+   {
+    "at": "L15:money",
+    "until": "L16-0.2",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      36.3,
+      33.5
+     ],
+     [
+      28.98,
+      41.01
+     ]
+    ],
+    "draw": 0.5
+   },
+   {
+    "at": "L15:money",
+    "until": "L16-0.2",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      88.4,
+      22.6
+     ],
+     [
+      44.0,
+      12.5
+     ],
+     [
+      33.0,
+      28.0
+     ],
+     [
+      10.0,
+      37.5
+     ],
+     [
+      -0.1,
+      51.5
+     ]
+    ],
+    "draw": 0.7,
+    "speed": 180
+   },
+   {
+    "at": "L15:money",
+    "until": "L16-0.2",
+    "kind": "flow",
+    "color": "red",
+    "path": [
+     [
+      21.0,
+      0.5
+     ],
+     [
+      -12.0,
+      10.0
+     ],
+     [
+      -12.0,
+      35.0
+     ],
+     [
+      4.35,
+      50.85
+     ]
+    ],
+    "draw": 0.7,
+    "speed": 180
+   },
+   {
+    "at": "L23:money",
+    "until": "L27",
+    "kind": "flow",
+    "color": "sky",
+    "path": [
+     [
+      35.21,
+      31.77
+     ],
+     [
+      35.0,
+      31.55
+     ],
+     [
+      34.75,
+      31.39
+     ]
+    ],
+    "draw": 0.6,
+    "speed": 60,
+    "gap": 40,
+    "width": 7
+   },
+   {
+    "at": "L23:money+0.1",
+    "until": "L27",
+    "kind": "flow",
+    "color": "sky",
+    "path": [
+     [
+      35.21,
+      31.77
+     ],
+     [
+      35.05,
+      32.05
+     ],
+     [
+      34.98,
+      32.27
+     ]
+    ],
+    "draw": 0.6,
+    "speed": 60,
+    "gap": 40,
+    "width": 7
+   },
+   {
+    "at": "L23:money+0.2",
+    "until": "L27",
+    "kind": "flow",
+    "color": "sky",
+    "path": [
+     [
+      35.21,
+      31.77
+     ],
+     [
+      35.2,
+      32.2
+     ],
+     [
+      35.15,
+      32.52
+     ]
+    ],
+    "draw": 0.6,
+    "speed": 60,
+    "gap": 40,
+    "width": 7
+   },
+   {
+    "at": "L23:money+0.3",
+    "until": "L27",
+    "kind": "flow",
+    "color": "sky",
+    "path": [
+     [
+      35.21,
+      31.77
+     ],
+     [
+      35.32,
+      32.3
+     ],
+     [
+      35.3,
+      32.7
+     ]
+    ],
+    "draw": 0.6,
+    "speed": 60,
+    "gap": 40,
+    "width": 7
+   },
+   {
+    "at": "L23:money+0.4",
+    "until": "L27",
+    "kind": "flow",
+    "color": "sky",
+    "path": [
+     [
+      35.21,
+      31.77
+     ],
+     [
+      35.4,
+      32.4
+     ],
+     [
+      35.29,
+      32.86
+     ]
+    ],
+    "draw": 0.6,
+    "speed": 60,
+    "gap": 40,
+    "width": 7
+   }
   ],
   "icons": [
-   {"at": "L1", "until": "L1:conquered", "lon": 12.5, "lat": 41.9, "emo": "👑", "size": 64, "label": "Rome", "label_dy": 66, "tsize": 44},
-   {"at": "L2", "until": "L3e", "lon": 28.98, "lat": 41.01, "emo": "👑", "size": 64, "label": "Istanbul", "label_dy": -70, "tsize": 44},
-   {"at": "L3:isis", "until": "L3e", "lon": 43.13, "lat": 36.34, "emo": "⚠️", "size": 60, "label": "Mosul 2014", "label_dy": 66, "tsize": 44},
-   {"at": "L4", "until": "L4:one", "lon": -0.1, "lat": 51.5, "emo": "👑", "size": 64, "label": "London", "label_dy": -70, "tsize": 44},
-   {"at": "L4", "until": "L4:one", "lon": 80.0, "lat": 22.0, "emo": "🌾", "size": 60, "label": "India", "label_dy": 66, "tsize": 44},
-   {"at": "L5", "until": "L5:his", "lon": 4.35, "lat": 50.85, "emo": "👑", "size": 64, "label": "Brussels", "label_dy": -70, "tsize": 44},
-   {"at": "L5", "until": "L5:his", "lon": 21.0, "lat": 0.5, "emo": "🌳", "size": 60, "label": "Congo", "label_dy": 66, "tsize": 44},
-   {"at": "L10:fifteen", "until": "L12", "lon": 34.75, "lat": 31.39, "emo": "🏗️", "size": 50, "label": "Rahat", "label_dy": 56, "tsize": 40},
-   {"at": "L10:fifteen+0.1", "until": "L12", "lon": 34.98, "lat": 32.27, "emo": "🏫", "size": 50, "label": "Tayibe", "label_dy": 56, "tsize": 40},
-   {"at": "L10:fifteen+0.2", "until": "L12", "lon": 35.15, "lat": 32.52, "emo": "🏗️", "size": 50},
-   {"at": "L10:fifteen+0.3", "until": "L12", "lon": 35.3, "lat": 32.7, "emo": "🏫", "size": 50, "label": "Nazareth", "label_dy": -60, "tsize": 40},
-   {"at": "L10:fifteen+0.4", "until": "L12", "lon": 35.29, "lat": 32.86, "emo": "🏗️", "size": 50}
+   {
+    "at": "L2",
+    "until": "L4",
+    "lon": 12.5,
+    "lat": 41.9,
+    "emo": "👑",
+    "size": 64,
+    "label": "Rome",
+    "label_dy": 66,
+    "tsize": 44
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "lon": 28.98,
+    "lat": 41.01,
+    "emo": "👑",
+    "size": 64,
+    "label": "Istanbul",
+    "label_dy": -70,
+    "tsize": 44
+   },
+   {
+    "at": "L8:isis",
+    "until": "L9e",
+    "lon": 43.13,
+    "lat": 36.34,
+    "emo": "⚠️",
+    "size": 60,
+    "label": "Mosul 2014",
+    "label_dy": 66,
+    "tsize": 44
+   },
+   {
+    "at": "L10",
+    "until": "L12",
+    "lon": -0.1,
+    "lat": 51.5,
+    "emo": "👑",
+    "size": 64,
+    "label": "London",
+    "label_dy": -70,
+    "tsize": 44
+   },
+   {
+    "at": "L10",
+    "until": "L12",
+    "lon": 80.0,
+    "lat": 22.0,
+    "emo": "🌾",
+    "size": 60,
+    "label": "India",
+    "label_dy": 66,
+    "tsize": 44
+   },
+   {
+    "at": "L13",
+    "until": "L14",
+    "lon": 4.35,
+    "lat": 50.85,
+    "emo": "👑",
+    "size": 64,
+    "label": "Brussels",
+    "label_dy": -70,
+    "tsize": 44
+   },
+   {
+    "at": "L13",
+    "until": "L14",
+    "lon": 21.0,
+    "lat": 0.5,
+    "emo": "🌳",
+    "size": 60,
+    "label": "Congo",
+    "label_dy": 66,
+    "tsize": 44
+   },
+   {
+    "at": "L24:fifteen",
+    "until": "L27",
+    "lon": 34.75,
+    "lat": 31.39,
+    "emo": "🏗️",
+    "size": 50,
+    "label": "Rahat",
+    "label_dy": 56,
+    "tsize": 40
+   },
+   {
+    "at": "L24:fifteen+0.1",
+    "until": "L27",
+    "lon": 34.98,
+    "lat": 32.27,
+    "emo": "🏫",
+    "size": 50,
+    "label": "Tayibe",
+    "label_dy": 56,
+    "tsize": 40
+   },
+   {
+    "at": "L24:fifteen+0.2",
+    "until": "L27",
+    "lon": 35.15,
+    "lat": 32.52,
+    "emo": "🏗️",
+    "size": 50
+   },
+   {
+    "at": "L24:fifteen+0.3",
+    "until": "L27",
+    "lon": 35.3,
+    "lat": 32.7,
+    "emo": "🏫",
+    "size": 50,
+    "label": "Nazareth",
+    "label_dy": -60,
+    "tsize": 40
+   },
+   {
+    "at": "L24:fifteen+0.4",
+    "until": "L27",
+    "lon": 35.29,
+    "lat": 32.86,
+    "emo": "🏗️",
+    "size": 50
+   }
   ],
   "bars": [
    {
-    "at": "L10:five",
-    "until": "L11e",
+    "at": "L24:five",
+    "until": "L26e",
     "title": "Plans for Arab towns, NIS bn",
     "y": 1290,
     "vmax": 32,
     "lab_w": 380,
     "rows": [
-     {"label": "2016 to 2020", "value": 15, "txt": "15 bn", "at": "L10:fifteen", "color": "#45A4DD"},
-     {"label": "2022 to 2026", "value": 30, "txt": "30 bn", "at": "L10:thirty", "hl": true}
+     {
+      "label": "2016 to 2020",
+      "value": 15,
+      "txt": "15 bn",
+      "at": "L24:fifteen",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "2022 to 2026",
+      "value": 30,
+      "txt": "30 bn",
+      "at": "L24:thirty",
+      "hl": true
+     }
     ]
    }
   ],
@@ -217,58 +935,133 @@
   "photos": [
    {
     "file": "templates/photos/colonizer_tax/ctx_rom1.jpg",
-    "at": "L1:conquered",
-    "until": "L1e+0.1",
-    "kb": [0.62, 0.5, 1.0, 0.58, 0.5, 1.12],
+    "at": "L4",
+    "until": "L4e+0.1",
+    "kb": [
+     0.62,
+     0.5,
+     1.0,
+     0.58,
+     0.5,
+     1.12
+    ],
     "dim": 0.3,
     "credit": "Wolfgang Moroder, CC BY-SA 3.0, Commons"
    },
    {
     "file": "templates/photos/colonizer_tax/ctx_ott1.jpg",
-    "at": "L2:head",
-    "until": "L2e+0.1",
-    "kb": [0.47, 0.4, 1.15, 0.47, 0.38, 1.3],
+    "at": "L6",
+    "until": "L6e+0.1",
+    "kb": [
+     0.47,
+     0.4,
+     1.15,
+     0.47,
+     0.38,
+     1.3
+    ],
     "dim": 0.3,
     "credit": "Canercangul, CC BY-SA 4.0, Commons"
    },
    {
     "file": "templates/photos/colonizer_tax/ctx_eih1.jpg",
-    "at": "L4:one",
-    "until": "L4e+0.1",
-    "kb": [0.5, 0.45, 1.0, 0.52, 0.45, 1.12],
+    "at": "L12",
+    "until": "L12e+0.1",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.52,
+     0.45,
+     1.12
+    ],
     "dim": 0.3,
     "credit": "East India House, London, c. 1800, CC0, Commons"
    },
    {
     "file": "templates/photos/colonizer_tax/ctx_cinq1.jpg",
-    "at": "L5:his",
-    "until": "L5e+0.1",
-    "kb": [0.4, 0.5, 1.0, 0.42, 0.5, 1.12],
+    "at": "L14",
+    "until": "L14e+0.1",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.42,
+     0.5,
+     1.12
+    ],
     "dim": 0.3,
     "credit": "Szilas, CC BY-SA 4.0, Commons"
    },
    {
     "file": "templates/photos/colonizer_tax/ctx_sak1.jpg",
-    "at": "L12",
-    "until": "L12e+0.1",
-    "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12],
+    "at": "L27",
+    "until": "L29e+0.1",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
     "dim": 0.3,
     "credit": "Sakhnin, Shlomo Roded, CC BY 2.5, Commons"
    }
   ]
  },
  "sources": [
-  {"label": "Archaeology magazine: Roman taxes", "year": 2021, "at": "L1", "until": "L2"},
-  {"label": "Britannica; Encyclopedia of the Modern Middle East", "year": 1856, "at": "L2", "until": "L3"},
-  {"label": "Reuters: ISIS ultimatum, Mosul", "year": 2014, "at": "L3", "until": "L4"},
-  {"label": "Utsa Patnaik's estimate, with interest; disputed", "year": 2017, "at": "L4", "until": "L5"},
-  {"label": "Britannica; Debora Silverman, e-flux", "year": 2024, "at": "L5", "until": "L6"},
-  {"label": "National Health Insurance Law; Tax Authority", "year": 1994, "at": "L8", "until": "L10"},
-  {"label": "Gov. Resolutions 922 and 550", "year": 2021, "at": "L10", "until": "L11"},
-  {"label": "Bank of Israel research paper", "year": 2024, "at": "L11", "until": "L12"}
+  {
+   "label": "Archaeology magazine: Roman taxes",
+   "year": 2021,
+   "at": "L2",
+   "until": "L5"
+  },
+  {
+   "label": "Britannica; Encyclopedia of the Modern Middle East",
+   "year": 1856,
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "Reuters: ISIS ultimatum, Mosul",
+   "year": 2014,
+   "at": "L7",
+   "until": "L10"
+  },
+  {
+   "label": "Utsa Patnaik's estimate, with interest; disputed",
+   "year": 2017,
+   "at": "L10",
+   "until": "L13"
+  },
+  {
+   "label": "Britannica; Debora Silverman, e-flux",
+   "year": 2024,
+   "at": "L13",
+   "until": "L15"
+  },
+  {
+   "label": "National Health Insurance Law; Tax Authority",
+   "year": 1994,
+   "at": "L17",
+   "until": "L23"
+  },
+  {
+   "label": "Gov. Resolutions 922 and 550",
+   "year": 2021,
+   "at": "L23",
+   "until": "L25"
+  },
+  {
+   "label": "Bank of Israel research paper",
+   "year": 2024,
+   "at": "L25",
+   "until": "L27"
+  }
  ],
  "end": {
-  "at": "L13",
+  "at": "L30",
   "balance": "Arab towns still trail Jewish towns. *Israel's own reports say so.*",
   "cta": "Send this to someone who says colonizer"
  },
