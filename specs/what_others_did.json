@@ -415,37 +415,37 @@
      "sub": "74,645 dead incl. fighters (split disputed)",
      "col": "sky",
      "hl": true,
-     "at": "L15:israel"
+     "at": "L15"
     },
     {
      "label": "Spain, Rif",
      "sub": "mustard gas on villages",
      "col": "red",
-     "at": "L15:but"
+     "at": "L15+0.7"
     },
     {
      "label": "Britain, Kenya",
      "sub": "1,090 hanged; torture admitted",
      "col": "red",
-     "at": "L15:compared"
+     "at": "L15+1.0"
     },
     {
      "label": "France, Algeria",
      "sub": "350,000 to 1.5 million dead",
      "col": "red",
-     "at": "L15:these"
+     "at": "L15+1.3"
     },
     {
      "label": "Syria's regime",
      "sub": "sarin on its own suburbs",
      "col": "red",
-     "at": "L15:cases"
+     "at": "L15+1.6"
     },
     {
      "label": "Iran's regime",
      "sub": "551+ protesters, no war",
      "col": "red",
-     "at": "L15:not"
+     "at": "L15+1.9"
     }
    ]
   }
