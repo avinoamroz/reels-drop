@@ -1,0 +1,707 @@
+[
+{
+"word": "Who",
+"start": 0.04643991,
+"end": 0.24767952
+},
+{
+"word": "ate",
+"start": 0.24767952,
+"end": 0.4024792
+},
+{
+"word": "thirty",
+"start": 0.43343917,
+"end": 0.72755855
+},
+{
+"word": "five",
+"start": 0.72755855,
+"end": 0.9752381
+},
+{
+"word": "million",
+"start": 0.9752381,
+"end": 1.3003174
+},
+{
+"word": "square",
+"start": 1.3003174,
+"end": 1.532517
+},
+{
+"word": "kilometers?",
+"start": 1.532517,
+"end": 2.1981556
+},
+{
+"word": "Welcome",
+"start": 2.523235,
+"end": 2.8947544
+},
+{
+"word": "to",
+"start": 2.8947544,
+"end": 3.0031142
+},
+{
+"word": "Empire",
+"start": 3.0031142,
+"end": 3.4055934
+},
+{
+"word": "Munch.",
+"start": 3.4055934,
+"end": 3.8545125
+},
+{
+"word": "One",
+"start": 4.148632,
+"end": 4.4737115
+},
+{
+"word": "tile,",
+"start": 4.4737115,
+"end": 4.9535904
+},
+{
+"word": "one",
+"start": 5.2012696,
+"end": 5.588269
+},
+{
+"word": "million",
+"start": 5.588269,
+"end": 5.9752684
+},
+{
+"word": "square",
+"start": 5.9752684,
+"end": 6.2539077
+},
+{
+"word": "kilometers.",
+"start": 6.2539077,
+"end": 6.9040666
+},
+{
+"word": "Rome.",
+"start": 7.352986,
+"end": 7.755465
+},
+{
+"word": "Five",
+"start": 8.235344,
+"end": 8.684263
+},
+{
+"word": "million.",
+"start": 8.684263,
+"end": 9.009342
+},
+{
+"word": "Yummy.",
+"start": 9.427301,
+"end": 9.814301
+},
+{
+"word": "The",
+"start": 10.57282,
+"end": 10.727619
+},
+{
+"word": "Umayyads.",
+"start": 10.727619,
+"end": 11.470657
+},
+{
+"word": "Eleven",
+"start": 11.919577,
+"end": 12.275616
+},
+{
+"word": "million.",
+"start": 12.275616,
+"end": 12.647136
+},
+{
+"word": "Their",
+"start": 13.204414,
+"end": 13.421134
+},
+{
+"word": "faith",
+"start": 13.421134,
+"end": 13.684294
+},
+{
+"word": "spread",
+"start": 13.684294,
+"end": 13.962933
+},
+{
+"word": "over",
+"start": 13.962933,
+"end": 14.164172
+},
+{
+"word": "centuries.",
+"start": 14.164172,
+"end": 14.829811
+},
+{
+"word": "The",
+"start": 15.15489,
+"end": 15.30969
+},
+{
+"word": "Mongols.",
+"start": 15.30969,
+"end": 15.944369
+},
+{
+"word": "Twenty",
+"start": 16.331367,
+"end": 16.625488
+},
+{
+"word": "four",
+"start": 16.625488,
+"end": 16.842207
+},
+{
+"word": "million,",
+"start": 16.842207,
+"end": 17.260166
+},
+{
+"word": "and",
+"start": 17.322086,
+"end": 17.445927
+},
+{
+"word": "they",
+"start": 17.445927,
+"end": 17.523325
+},
+{
+"word": "converted",
+"start": 17.523325,
+"end": 17.956764
+},
+{
+"word": "no",
+"start": 17.956764,
+"end": 18.127045
+},
+{
+"word": "one.",
+"start": 18.127045,
+"end": 18.343763
+},
+{
+"word": "They",
+"start": 18.916523,
+"end": 19.055843
+},
+{
+"word": "took",
+"start": 19.055843,
+"end": 19.303522
+},
+{
+"word": "on",
+"start": 19.303522,
+"end": 19.442842
+},
+{
+"word": "the",
+"start": 19.442842,
+"end": 19.504763
+},
+{
+"word": "locals'",
+"start": 19.504763,
+"end": 19.907242
+},
+{
+"word": "faiths.",
+"start": 19.907242,
+"end": 20.4026
+},
+{
+"word": "Spain.",
+"start": 20.65028,
+"end": 21.06824
+},
+{
+"word": "Almost",
+"start": 21.842237,
+"end": 22.306637
+},
+{
+"word": "fourteen",
+"start": 22.306637,
+"end": 22.817476
+},
+{
+"word": "million,",
+"start": 22.817476,
+"end": 23.235435
+},
+{
+"word": "with",
+"start": 23.436674,
+"end": 23.684353
+},
+{
+"word": "Catholic",
+"start": 23.684353,
+"end": 24.133272
+},
+{
+"word": "missions",
+"start": 24.133272,
+"end": 24.520271
+},
+{
+"word": "across",
+"start": 24.520271,
+"end": 24.876312
+},
+{
+"word": "the",
+"start": 24.876312,
+"end": 24.96919
+},
+{
+"word": "Americas.",
+"start": 24.96919,
+"end": 25.57291
+},
+{
+"word": "Russia.",
+"start": 26.05279,
+"end": 26.470749
+},
+{
+"word": "Almost",
+"start": 27.275707,
+"end": 27.631746
+},
+{
+"word": "twenty",
+"start": 27.631746,
+"end": 27.941345
+},
+{
+"word": "three",
+"start": 27.941345,
+"end": 28.111626
+},
+{
+"word": "million.",
+"start": 28.111626,
+"end": 28.421225
+},
+{
+"word": "And",
+"start": 28.901104,
+"end": 29.040422
+},
+{
+"word": "Britain.",
+"start": 29.040422,
+"end": 29.411943
+},
+{
+"word": "Thirty",
+"start": 30.40266,
+"end": 30.7587
+},
+{
+"word": "five",
+"start": 30.7587,
+"end": 31.05282
+},
+{
+"word": "million.",
+"start": 31.05282,
+"end": 31.40886
+},
+{
+"word": "A",
+"start": 31.563658,
+"end": 31.656538
+},
+{
+"word": "quarter",
+"start": 31.656538,
+"end": 32.043537
+},
+{
+"word": "of",
+"start": 32.043537,
+"end": 32.167377
+},
+{
+"word": "the",
+"start": 32.167377,
+"end": 32.260258
+},
+{
+"word": "world's",
+"start": 32.260258,
+"end": 32.523415
+},
+{
+"word": "land.",
+"start": 32.523415,
+"end": 32.879456
+},
+{
+"word": "Next",
+"start": 33.065216,
+"end": 33.312897
+},
+{
+"word": "player:",
+"start": 33.312897,
+"end": 33.699894
+},
+{
+"word": "the",
+"start": 33.963055,
+"end": 34.117855
+},
+{
+"word": "Jews.",
+"start": 34.117855,
+"end": 34.597733
+},
+{
+"word": "Hmm.",
+"start": 34.891853,
+"end": 35.17049
+},
+{
+"word": "Not",
+"start": 35.52653,
+"end": 35.71229
+},
+{
+"word": "kosher.",
+"start": 35.71229,
+"end": 36.09929
+},
+{
+"word": "I",
+"start": 36.672047,
+"end": 36.780407
+},
+{
+"word": "don't",
+"start": 36.780407,
+"end": 36.966167
+},
+{
+"word": "feel",
+"start": 36.966167,
+"end": 37.151928
+},
+{
+"word": "like",
+"start": 37.151928,
+"end": 37.32221
+},
+{
+"word": "it.",
+"start": 37.32221,
+"end": 37.477005
+},
+{
+"word": "You",
+"start": 37.894966,
+"end": 38.049767
+},
+{
+"word": "want",
+"start": 38.049767,
+"end": 38.220047
+},
+{
+"word": "to",
+"start": 38.220047,
+"end": 38.281963
+},
+{
+"word": "convert?",
+"start": 38.281963,
+"end": 38.730885
+},
+{
+"word": "We'll",
+"start": 38.916645,
+"end": 39.071445
+},
+{
+"word": "say",
+"start": 39.071445,
+"end": 39.210762
+},
+{
+"word": "no",
+"start": 39.210762,
+"end": 39.427483
+},
+{
+"word": "three",
+"start": 39.427483,
+"end": 39.628723
+},
+{
+"word": "times.",
+"start": 39.628723,
+"end": 40.20148
+},
+{
+"word": "Empires",
+"start": 40.83616,
+"end": 41.25412
+},
+{
+"word": "spread",
+"start": 41.25412,
+"end": 41.47084
+},
+{
+"word": "faith",
+"start": 41.53276,
+"end": 41.826878
+},
+{
+"word": "by",
+"start": 41.826878,
+"end": 41.950718
+},
+{
+"word": "conquest.",
+"start": 41.950718,
+"end": 42.538956
+},
+{
+"word": "The",
+"start": 43.142677,
+"end": 43.235554
+},
+{
+"word": "faiths",
+"start": 43.235554,
+"end": 43.591595
+},
+{
+"word": "aren't",
+"start": 43.591595,
+"end": 43.808315
+},
+{
+"word": "the",
+"start": 43.808315,
+"end": 43.901196
+},
+{
+"word": "villain.",
+"start": 43.901196,
+"end": 44.257233
+},
+{
+"word": "High",
+"start": 45.09315,
+"end": 45.21699
+},
+{
+"word": "scores.",
+"start": 45.21699,
+"end": 45.665913
+},
+{
+"word": "The",
+"start": 46.40895,
+"end": 46.532787
+},
+{
+"word": "Jews:",
+"start": 46.532787,
+"end": 47.01267
+},
+{
+"word": "zero.",
+"start": 47.461586,
+"end": 47.910507
+},
+{
+"word": "Every",
+"start": 48.545185,
+"end": 48.808346
+},
+{
+"word": "people",
+"start": 48.808346,
+"end": 49.117943
+},
+{
+"word": "has",
+"start": 49.117943,
+"end": 49.272743
+},
+{
+"word": "conquered",
+"start": 49.272743,
+"end": 49.628784
+},
+{
+"word": "someone.",
+"start": 49.628784,
+"end": 50.01578
+},
+{
+"word": "We",
+"start": 50.278942,
+"end": 50.433743
+},
+{
+"word": "just",
+"start": 50.433743,
+"end": 50.619503
+},
+{
+"word": "never",
+"start": 50.619503,
+"end": 50.88266
+},
+{
+"word": "built",
+"start": 50.88266,
+"end": 51.09938
+},
+{
+"word": "an",
+"start": 51.09938,
+"end": 51.19226
+},
+{
+"word": "empire.",
+"start": 51.19226,
+"end": 51.610218
+},
+{
+"word": "Rome,",
+"start": 52.322296,
+"end": 52.833138
+},
+{
+"word": "game",
+"start": 53.313015,
+"end": 53.591656
+},
+{
+"word": "over.",
+"start": 53.591656,
+"end": 53.854816
+},
+{
+"word": "Mongols,",
+"start": 54.164413,
+"end": 54.79909
+},
+{
+"word": "game",
+"start": 54.96937,
+"end": 55.217052
+},
+{
+"word": "over.",
+"start": 55.217052,
+"end": 55.480213
+},
+{
+"word": "British",
+"start": 56.02201,
+"end": 56.33161
+},
+{
+"word": "Empire,",
+"start": 56.33161,
+"end": 56.74957
+},
+{
+"word": "game",
+"start": 57.07465,
+"end": 57.353287
+},
+{
+"word": "over.",
+"start": 57.353287,
+"end": 57.616447
+},
+{
+"word": "The",
+"start": 57.97249,
+"end": 58.096325
+},
+{
+"word": "Jews?",
+"start": 58.096325,
+"end": 58.638126
+},
+{
+"word": "Still",
+"start": 59.056084,
+"end": 59.350204
+},
+{
+"word": "here,",
+"start": 59.350204,
+"end": 59.76816
+},
+{
+"word": "three",
+"start": 59.76816,
+"end": 60.015842
+},
+{
+"word": "thousand",
+"start": 60.015842,
+"end": 60.279003
+},
+{
+"word": "years",
+"start": 60.279003,
+"end": 60.464764
+},
+{
+"word": "later.",
+"start": 60.464764,
+"end": 60.75888
+},
+{
+"word": "Insert",
+"start": 61.269722,
+"end": 61.68768
+},
+{
+"word": "coin.",
+"start": 61.68768,
+"end": 62.0592
+},
+{
+"word": "Round",
+"start": 62.322357,
+"end": 62.600998
+},
+{
+"word": "one:",
+"start": 62.600998,
+"end": 62.92608
+}
+]
