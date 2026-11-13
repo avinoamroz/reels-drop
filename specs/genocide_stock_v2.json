@@ -57,7 +57,7 @@
    "gap": 0.3
   },
   {
-   "say": "Gaza fell about four percent. But all together? Still rising: about a hundred fifty thousand more than in twenty twenty-three.",
+   "say": "Gaza fell about four percent. All together? Still rising: about a hundred fifty thousand more since twenty twenty-three.",
    "gap": 0.25
   },
   {
@@ -69,7 +69,7 @@
    "gap": 0.35
   },
   {
-   "say": "Is a chart the legal answer? No. Legally, genocide means intent to destroy a group.",
+   "say": "Is a chart the legal test? No. Genocide means intent to destroy a group.",
    "gap": 0.15
   },
   {
@@ -85,7 +85,7 @@
    "gap": 0.3
   },
   {
-   "say": "So. Genocide? Check the chart."
+   "say": "Genocide? Check the chart."
   }
  ],
  "data": {
@@ -201,7 +201,7 @@
     "flags": [
      "IL"
     ],
-    "until": "L6:but"
+    "until": "L6:all"
    },
    {
     "label": "WEST BANK",
@@ -251,7 +251,7 @@
     "flags": [
      "PS"
     ],
-    "until": "L6:but"
+    "until": "L6:all"
    },
    {
     "label": "GAZA STRIP",
@@ -314,7 +314,7 @@
     "flags": [
      "PS"
     ],
-    "until": "L6:but"
+    "until": "L6:all"
    },
    {
     "label": "ALL TOGETHER",
@@ -326,7 +326,7 @@
     "h": 900,
     "unit_max": 8000000,
     "grid": 2000000,
-    "at": "L6:but",
+    "at": "L6:all",
     "points": [
      [
       1950,
@@ -351,7 +351,7 @@
     ],
     "draw": [
      {
-      "at": "L6:all",
+      "at": "L6:together",
       "until": "L6:still",
       "to": 2023.5
      },
@@ -402,7 +402,7 @@
     "panel": 2
    },
    {
-    "at": "L6:but",
+    "at": "L6:all",
     "panel": 3
    },
    {
@@ -522,7 +522,7 @@
   ],
   "quote": [
    {
-    "at": "L9:legally",
+    "at": "L9:genocide",
     "until": "L10-0.1",
     "text": "acts committed with *intent to destroy,* in whole or in part, a national, ethnical, racial or religious group",
     "who": "Genocide Convention, 1948, Article II",
@@ -566,7 +566,7 @@
   {
    "label": "UN Genocide Convention, Art. II",
    "year": 1948,
-   "at": "L9:legally",
+   "at": "L9:genocide",
    "until": "L10-0.1"
   },
   {
