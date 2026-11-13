@@ -1,0 +1,489 @@
+{
+ "id": "country_stocks",
+ "account": "noamroz__",
+ "template": "gdp_stock",
+ "hook": "If countries were stocks:|*65* years",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "If countries were stocks, which one would you buy?"
+  },
+  {
+   "say": "GDP per person, 1960 to 2025.",
+   "screen": "GDP per person, *1960* to *2025*",
+   "at": "L1",
+   "until": "L5-0.2"
+  },
+  {
+   "say": "Then came oil, and the Gulf rockets."
+  },
+  {
+   "say": "Oil boom: Saudi Arabia hits twenty eight thousand dollars in 1981. Bust: nine thousand by 1988."
+  },
+  {
+   "say": "In 1987, Israel passes Saudi Arabia again, and stays above it every year since."
+  },
+  {
+   "say": "In 1960, an Israeli made nine times what an Egyptian made. Today, almost twenty times."
+  },
+  {
+   "say": "Now take out the oil and gas."
+  },
+  {
+   "say": "Iraq loses over forty percent. Saudi Arabia and Qatar, about a quarter. Israel, under half a percent.",
+   "screen": "Minus *resource rents*",
+   "at": "L7",
+   "until": "L9-0.2"
+  },
+  {
+   "say": "Qatar and Israel end up neck and neck."
+  },
+  {
+   "say": "Empires got rich by taking. Oil states, by drilling."
+  },
+  {
+   "say": "Israel, like Singapore and Korea, had no oil. It had people."
+  },
+  {
+   "say": "Drip irrigation, Waze, Mobileye, Iron Dome. Tech is now fifty eight percent of exports."
+  },
+  {
+   "say": "Something from nothing. Israel had no oil. It invested in people. Invest in Israel."
+  }
+ ],
+ "data": {
+  "file": "templates/data/country_stocks.json",
+  "map": {
+   "cam": [
+    41.5,
+    29.5,
+    34
+   ],
+   "y": 1010,
+   "until": 1.2,
+   "codes": [
+    "ISR",
+    "QAT",
+    "ARE",
+    "SAU",
+    "KWT",
+    "TUR",
+    "IRQ",
+    "JOR",
+    "LBN",
+    "EGY",
+    "SYR"
+   ],
+   "labels": [
+    {
+     "lon": 32.4,
+     "lat": 31.9,
+     "text": "ISR",
+     "hl": true
+    },
+    {
+     "lon": 34.3,
+     "lat": 34.6,
+     "text": "LBN"
+    },
+    {
+     "lon": 37.6,
+     "lat": 30.4,
+     "text": "JOR"
+    },
+    {
+     "lon": 38.8,
+     "lat": 35.2,
+     "text": "SYR"
+    },
+    {
+     "lon": 43.6,
+     "lat": 33.2,
+     "text": "IRQ"
+    },
+    {
+     "lon": 48.2,
+     "lat": 29.4,
+     "text": "KWT"
+    },
+    {
+     "lon": 51.0,
+     "lat": 26.6,
+     "text": "QAT"
+    },
+    {
+     "lon": 54.8,
+     "lat": 23.2,
+     "text": "UAE"
+    },
+    {
+     "lon": 44.5,
+     "lat": 24.0,
+     "text": "SAU"
+    },
+    {
+     "lon": 29.8,
+     "lat": 26.6,
+     "text": "EGY"
+    },
+    {
+     "lon": 35.0,
+     "lat": 39.0,
+     "text": "TUR"
+    }
+   ],
+   "credit": "Map: Natural Earth (PD)"
+  },
+  "keys": [
+   [
+    1960,
+    1.1
+   ],
+   [
+    1973,
+    "L2"
+   ],
+   [
+    1975,
+    "L2e"
+   ],
+   [
+    1981,
+    "L3:1981"
+   ],
+   [
+    1981,
+    "L3:bust"
+   ],
+   [
+    1988,
+    "L3:1988"
+   ],
+   [
+    1988,
+    "L4"
+   ],
+   [
+    2025,
+    "L4e"
+   ]
+  ],
+  "pass2": {
+   "at": "L7",
+   "dur": 2.2,
+   "ghost": true
+  },
+  "y": {
+   "max": 110000,
+   "step": 10000
+  },
+  "chart": {
+   "x0": 120,
+   "x1": 730,
+   "y0": 480,
+   "y1": 1330
+  },
+  "marks": [
+   {
+    "at": "L3:1981",
+    "until": "L3:bust",
+    "year": 1981,
+    "code": "SAU",
+    "text": "Oil boom",
+    "dy": -110,
+    "dx": -40,
+    "col": "green"
+   },
+   {
+    "at": "L3:bust",
+    "until": "L4",
+    "year": 1988,
+    "code": "SAU",
+    "text": "Oil bust",
+    "dy": -170,
+    "dx": -60,
+    "col": "red"
+   },
+   {
+    "at": "L4",
+    "until": "L4:stays",
+    "year": 1987,
+    "code": "ISR",
+    "text": "1987: Israel passes Saudi",
+    "dy": -400,
+    "dx": -120,
+    "col": "yellow"
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "year": 2021,
+    "code": "ISR",
+    "text": "Neck and neck, 2021",
+    "dy": -150,
+    "dx": -260,
+    "col": "yellow"
+   }
+  ],
+  "notes": [
+   {
+    "at": "L7",
+    "until": "L9",
+    "text": "Our calculation: GDP per person minus resource rents",
+    "y": 392,
+    "size": 36
+   },
+   {
+    "at": "L7",
+    "until": "L9",
+    "text": "Rough adjustment, not a counterfactual. Gaps: no rents data",
+    "y": 436,
+    "size": 36
+   }
+  ],
+  "disclaimer": {
+   "text": "Current US$. Not a stock. Not financial advice.",
+   "y": 1420,
+   "at": 1.2,
+   "until": "L9"
+  },
+  "bars": [
+   {
+    "at": "L6",
+    "until": "L7",
+    "title": "Natural resource *rents,* % of GDP",
+    "sub": "World Bank, 2021 (Kuwait, Syria: 2020)",
+    "y": 570,
+    "dec": 1,
+    "suffix": "%",
+    "rows": [
+     {
+      "label": "Iraq",
+      "flag": "IQ",
+      "value": 43.45
+     },
+     {
+      "label": "Kuwait",
+      "flag": "KW",
+      "value": 29.28,
+      "txt": "29.3% (2020)"
+     },
+     {
+      "label": "Qatar",
+      "flag": "QA",
+      "value": 27.29
+     },
+     {
+      "label": "Saudi",
+      "flag": "SA",
+      "value": 25.57
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 17.63
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 6.37,
+      "txt": "6.4% (2020)"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 5.14
+     },
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 0.83
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0.44,
+      "hl": true
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0.08
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 0.0
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L5",
+    "until": "L5:today",
+    "value": 9.3,
+    "from": 1,
+    "dec": 1,
+    "suffix": "x",
+    "sub": "Israeli vs Egyptian income, 1960",
+    "y": 900
+   },
+   {
+    "at": "L5:today",
+    "until": "L6",
+    "value": 19.6,
+    "from": 9.3,
+    "dec": 1,
+    "suffix": "x",
+    "sub": "Israeli vs Egyptian income, 2025",
+    "y": 900
+   },
+   {
+    "at": "L11:fifty",
+    "until": "L12",
+    "value": 58,
+    "from": 0,
+    "suffix": "%",
+    "sub": "of Israel's exports are high tech (2025)",
+    "y": 900
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/country_stocks/tlv3.jpg",
+    "at": "L5-0.15",
+    "until": "L6",
+    "credit": "Suicasmo, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.6,
+     0.45,
+     1.0,
+     0.66,
+     0.42,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/country_stocks/oil.jpg",
+    "at": "L6",
+    "until": "L7",
+    "credit": "Khurais oil field: Planet Labs, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/country_stocks/oil35.jpg",
+    "at": "L9",
+    "until": "L10",
+    "credit": "Oil survey, Saudi Arabia 1934: J. D. Mountain (PD)",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/country_stocks/intel.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Intel, Kiryat Gat: Kiryat Gat archive, CC BY 2.5, Wikimedia",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/country_stocks/negev.jpg",
+    "at": "L11",
+    "until": "L12",
+    "credit": "Hatzeva, Negev, 1971: Moshe Milner, GPO (PD)",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/country_stocks/tlv2.jpg",
+    "at": "L12",
+    "until": "END+1",
+    "credit": "Tel Aviv: Makaf Ivri, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.62,
+     0.45,
+     1.0,
+     0.68,
+     0.42,
+     1.12
+    ],
+    "dim": 0.3
+   }
+  ],
+  "hook_y": 300
+ },
+ "sources": [
+  {
+   "label": "World Bank WDI, GDP per capita (current US$)",
+   "year": 2026,
+   "at": 1.2,
+   "until": "L6"
+  },
+  {
+   "label": "World Bank WDI, natural resource rents (latest 2021)",
+   "year": 2026,
+   "at": "L6",
+   "until": "L9"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "end": {
+  "at": "L12:it",
+  "balance": "No oil isn't enough: *Jordan* and *Lebanon* have none either.",
+  "cta": "Send this to someone who invests"
+ },
+ "caption_en": "CAPTION_IN_PAYLOAD",
+ "caption_he": "CAPTION_IN_PAYLOAD",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Economy"
+ ],
+ "cover": {
+  "t": 15.5,
+  "text": "If countries were *stocks,*|which would you buy?"
+ }
+}
