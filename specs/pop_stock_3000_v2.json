@@ -1,0 +1,435 @@
+{
+ "id": "pop_stock_3000_v2",
+ "account": "noamroz__",
+ "template": "people_stock",
+ "hook": "*3,000* years.|Who *lived* here?",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Three thousand": "3,000",
+  "three hundred fifty thousand": "350,000",
+  "seven hundred fifty thousand": "750,000",
+  "seven thousand": "7,000",
+  "Eighteen eighty-two": "1882",
+  "Nineteen forty-eight": "1948",
+  "seven hundred thousand": "700,000",
+  "seven point six million": "7.6 million",
+  "six point nine million": "6.9 million",
+  "nine hundred": "900"
+ },
+ "lines": [
+  {
+   "say": "Three thousand years. Who lived here?",
+   "gap": 0.2
+  },
+  {
+   "say": "If peoples were stocks, here's the chart.",
+   "screen": "If *peoples* were stocks",
+   "until": "L2"
+  },
+  {
+   "say": "Canaanites open on top. Philistines list on the coast.",
+   "screen": "1200 BCE: *Canaan*",
+   "until": "L3"
+  },
+  {
+   "say": "Then the Jewish stock rallies to three hundred fifty thousand.",
+   "screen": "Kingdoms of *Israel* and *Judah*",
+   "until": "L4"
+  },
+  {
+   "say": "Crash. Assyria, then Babylon. The First Temple falls.",
+   "screen": "722 BCE *Assyria.* 586 BCE *Babylon.*",
+   "until": "L5"
+  },
+  {
+   "say": "Exiles return, Greeks arrive, and the Hasmoneans spark a rally.",
+   "screen": "538 BCE: the *exiles* return",
+   "until": "L6"
+  },
+  {
+   "say": "Peak: about seven hundred fifty thousand.",
+   "screen": "All time *high*",
+   "until": "L7"
+  },
+  {
+   "say": "Then Rome burns the Temple and crushes Bar Kokhba.",
+   "screen": "70 CE and 135 CE: *Rome*",
+   "until": "L8"
+  },
+  {
+   "say": "Christians take the lead.",
+   "screen": "Byzantine era: *Christians* lead",
+   "until": "L9"
+  },
+  {
+   "say": "After the Arab conquest, Muslims slowly become the majority.",
+   "screen": "636 CE: the *Arab* conquest",
+   "until": "L10"
+  },
+  {
+   "say": "Crusades, plague, empires. The whole market shrinks.",
+   "screen": "Crusades, plague, *Mamluks,* Ottomans",
+   "until": "L11"
+  },
+  {
+   "say": "The Jewish stock bottoms out at seven thousand.",
+   "screen": "The Jewish *low*",
+   "until": "L12"
+  },
+  {
+   "say": "But never zero: Jerusalem, Safed, Hebron, Tiberias.",
+   "screen": "Never *zero*",
+   "until": "L13"
+  },
+  {
+   "say": "Eighteen eighty-two: the comeback starts.",
+   "screen": "1882: the *First Aliyah*",
+   "until": "L14"
+  },
+  {
+   "say": "Nineteen forty-eight: Israel is born, and about seven hundred thousand Arabs flee or are expelled.",
+   "screen": "*1948:* Israel. About 700,000 Arabs flee or are expelled",
+   "until": "L15"
+  },
+  {
+   "say": "Then Jews from Arab lands and the former Soviet Union.",
+   "screen": "Jews from *Arab lands,* then the *USSR*",
+   "until": "L16"
+  },
+  {
+   "say": "Today: seven point six million Jews, six point nine million Muslims.",
+   "screen": "*Today,* from the Jordan to the sea",
+   "until": "L18"
+  },
+  {
+   "say": "And Christians, Druze, even nine hundred Samaritans."
+  },
+  {
+   "say": "Many peoples call this land home. The Jewish line never hit zero.",
+   "gap": 0.3
+  },
+  {
+   "say": "Three thousand years. Who lived here?"
+  }
+ ],
+ "data": {
+  "file": "templates/data/pop_stock_3000.json",
+  "hook_y": 330,
+  "year_y": 770,
+  "chart": {
+   "x0": 130,
+   "x1": 790,
+   "y0": 860,
+   "y1": 1370
+  },
+  "map": {
+   "view": [
+    35.05,
+    31.55,
+    330,
+    1090
+   ],
+   "zoom": 1.06,
+   "until": 1.1,
+   "back": "L19"
+  },
+  "keys": [
+   [
+    -1200,
+    1.15
+   ],
+   [
+    -1100,
+    "L1e"
+   ],
+   [
+    -1000,
+    "L2e"
+   ],
+   [
+    -750,
+    "L3e"
+   ],
+   [
+    -720,
+    "L4:then"
+   ],
+   [
+    -586,
+    "L4e"
+   ],
+   [
+    -538,
+    "L5:exiles"
+   ],
+   [
+    -160,
+    "L5e"
+   ],
+   [
+    66,
+    "L6e"
+   ],
+   [
+    136,
+    "L7e"
+   ],
+   [
+    400,
+    "L8e"
+   ],
+   [
+    1200,
+    "L9e"
+   ],
+   [
+    1517,
+    "L10e"
+   ],
+   [
+    1800,
+    "L11e"
+   ],
+   [
+    1881,
+    "L12e"
+   ],
+   [
+    1947,
+    "L13e"
+   ],
+   [
+    1951,
+    "L14e"
+   ],
+   [
+    2000,
+    "L15e"
+   ],
+   [
+    2026,
+    "L16e"
+   ]
+  ],
+  "views": [
+   {
+    "at": 0,
+    "span": 650
+   },
+   {
+    "at": "L3",
+    "span": 900
+   },
+   {
+    "at": "L5",
+    "span": 1000
+   },
+   {
+    "at": "L7",
+    "span": 1100
+   },
+   {
+    "at": "L9",
+    "span": 1300
+   },
+   {
+    "at": "L11",
+    "span": 900
+   },
+   {
+    "at": "L13",
+    "span": 320,
+    "dur": 1.2
+   },
+   {
+    "at": "L14",
+    "span": 200
+   },
+   {
+    "at": "L16",
+    "span": 160
+   }
+  ],
+  "marks": [
+   {
+    "at": "L4:first",
+    "until": "L5-0.1",
+    "ticker": "JEW",
+    "year": -586,
+    "text": "586 BCE",
+    "col": "red",
+    "dy": -150
+   },
+   {
+    "at": "L12:never",
+    "until": "L13-0.1",
+    "ticker": "JEW",
+    "year": 1650,
+    "text": "7,000: never zero",
+    "col": "yellow",
+    "dy": -170
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/pop_stock_3000/pf_mern1.jpg",
+    "at": "L2:philistines",
+    "until": "L2e",
+    "credit": "Merneptah Stele: Webscribe, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.42,
+     1.0,
+     0.5,
+     0.36,
+     1.1
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/am_lachish.jpg",
+    "at": "L4",
+    "until": "L4:then",
+    "credit": "Osama Shukir Muhammed Amin, CC BY-SA 4.0",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.1
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/am_titus2.jpg",
+    "at": "L7",
+    "until": "L7:and",
+    "credit": "Arch of Titus relief, Rome: public domain",
+    "kb": [
+     0.42,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.08
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/salzmann_birket.jpg",
+    "at": "L12:jerusalem",
+    "until": "L12e",
+    "credit": "Jerusalem, 1856: Auguste Salzmann, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.56,
+     0.5,
+     1.1
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/ml_imm.jpg",
+    "at": "L15",
+    "until": "L15e",
+    "credit": "Haifa port, about 1949: public domain",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.1
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/bm_jlm2.jpg",
+    "at": "L18",
+    "until": "L19-0.1",
+    "credit": "Jerusalem: Berthold Werner, public domain",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.35
+   }
+  ],
+  "band": {
+   "y0": 40,
+   "y1": 560,
+   "x0": 24,
+   "x1": 1056,
+   "r": 30,
+   "map_k": 95
+  },
+  "title_y": 615,
+  "hook_end_y": 300
+ },
+ "sources": [
+  {
+   "label": "Ancient figures: scholarly estimates (Broshi 2001; DellaPergola 2001)",
+   "year": 2001,
+   "at": "L1",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Estimates: DellaPergola 2001; McCarthy 1990 (Ottoman era)",
+   "year": 1990,
+   "at": "L10",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "British censuses 1922, 1931; Israel CBS; PCBS",
+   "year": 2025,
+   "at": "L13",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "Refugees: UN Conciliation Commission estimate, 1951",
+   "year": 1951,
+   "at": "L14",
+   "until": "L15-0.1"
+  },
+  {
+   "label": "Israel CBS; PCBS. Incl. West Bank and Gaza",
+   "year": 2025,
+   "at": "L15",
+   "until": "L18-0.1"
+  }
+ ],
+ "end": {
+  "at": "L18",
+  "y": 280,
+  "balance": "Many peoples call this land *home.*",
+  "cta": "The Jewish line never hit *zero*"
+ },
+ "caption_en": "3,000 years. Who lived here? 📈\n\nIf peoples were stocks: the population of the land from the Jordan River to the sea, group by group, from 1200 BCE to today.\n\nThe Canaanites open on top (about 200,000 in 1200 BCE). The Jewish line rallies to about 350,000 by 750 BCE, crashes with Assyria and Babylon (about 50,000 by 538 BCE), climbs back under the Hasmoneans to about 750,000, then crashes again after Rome (70 CE and 135 CE).\nChristians lead in the Byzantine era (about 800,000 around 600 CE). After the Arab conquest (636 CE), Muslims slowly become the majority.\nThe Jewish low: about 7,000 (1517 to 1800), still living in Jerusalem, Safed, Hebron and Tiberias.\n1882: the First Aliyah. 1948: Israel is born, and about 700,000 Arabs flee or are expelled. Then Jews from Arab lands and the former Soviet Union.\nToday: about 7.6 million Jews, 6.9 million Muslims, 230,000 Christians, 155,000 Druze, 250,000 others and 900 Samaritans.\n\nMany peoples call this land home. The Jewish line never hit zero.\n\nAncient figures are scholarly estimates; same data as my 3,000 years population race. Includes the West Bank and Gaza.\nSources: Broshi (2001); DellaPergola (2001); McCarthy (1990); British censuses 1922 and 1931; Israel CBS; PCBS; UN Conciliation Commission for Palestine (1951).\nPhotos (Wikimedia Commons): Webscribe (CC BY-SA 3.0); Osama Shukir Muhammed Amin (CC BY-SA 4.0); Arch of Titus relief (PD); Auguste Salzmann (PD); Haifa port, about 1949 (PD); Berthold Werner (PD). AI voice.\n\nWhich line surprised you?",
+ "caption_he": "3,000 שנה. מי חי כאן?\nאם עמים היו מניות: האוכלוסייה מהירדן ועד הים, קבוצה אחר קבוצה, מ־1200 לפני הספירה ועד היום.\nהכנענים פותחים בראש. הקו היהודי עולה לכ־350,000, מתרסק עם אשור ובבל, חוזר בימי החשמונאים לכ־750,000, ומתרסק שוב אחרי רומא.\nבתקופה הביזנטית הנוצרים מובילים. אחרי הכיבוש הערבי המוסלמים הופכים לאט לרוב.\nבשפל, כ־7,000 יהודים בלבד, אבל עדיין בירושלים, צפת, חברון וטבריה.\n1882: העלייה הראשונה. 1948: מדינת ישראל קמה, וכ־700,000 ערבים בורחים או מגורשים. אחר כך יהודים מארצות ערב ומברית המועצות לשעבר.\nהיום: כ־7.6 מיליון יהודים, 6.9 מיליון מוסלמים, נוצרים, דרוזים ו־900 שומרונים.\nעמים רבים קוראים לארץ הזאת בית. הקו היהודי אף פעם לא הגיע לאפס.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#facts"
+ ],
+ "cover": {
+  "t": 22.0,
+  "text": "3,000 years.|Who *lived* here?",
+  "label": "If peoples were stocks",
+  "dim": 0.75
+ }
+}

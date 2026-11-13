@@ -238,7 +238,75 @@ def run(S):
         ya = ca * seg(t, T.E(0) - 0.1, T.E(0) + 0.3)
         if ya > 0.01: cv.text(fmt_year(hy), 1040, D.get("year_y", 470), 96, YEL, ya, align="r", shadow=True)
 
+    BAND = D.get("band")
+    if BAND:
+        bx0, bx1, by0, by1 = BAND.get("x0", 24), BAND.get("x1", 1056), BAND["y0"], BAND["y1"]
+        bw, bh = bx1 - bx0, by1 - by0; bcy = (by0 + by1) / 2
+        bk = float(BAND.get("map_k", kk * 0.36))
+        bmap, _ = MR.render(MR.view(lon, lat, bk, cosf, bcy + BAND.get("map_dy", 0)), H)
+        BMAP = bmap.astype(np.float32)[by0:by1, bx0:bx1].copy()
+        msk = np.zeros((bh, bw), np.uint8); r = int(BAND.get("r", 30))
+        cv2.rectangle(msk, (r, 0), (bw - r, bh), 255, -1); cv2.rectangle(msk, (0, r), (bw, bh - r), 255, -1)
+        for cx_, cy_ in ((r, r), (bw - r, r), (r, bh - r), (bw - r, bh - r)): cv2.circle(msk, (cx_, cy_), r, 255, -1)
+        BM = (msk.astype(np.float32) / 255)[..., None]
+        byy = np.arange(bh, dtype=np.float32)[:, None]
+        BVIG = (1 - np.clip((byy - bh * 0.62) / (bh * 0.38), 0, 1) ** 1.3 * 0.55)[..., None]
+        def band_kb(im, cx, cy, z):
+            h_, w_ = im.shape[:2]; s_ = max(bw / w_, bh / h_) * max(1.0, z)
+            cw, ch = bw / s_, bh / s_
+            x0_ = min(max(cx * w_ - cw / 2, 0), w_ - cw); y0_ = min(max(cy * h_ - ch / 2, 0), h_ - ch)
+            M_ = np.array([[s_, 0, -x0_ * s_], [0, s_, -y0_ * s_]], np.float32)
+            return cv2.warpAffine(im, M_, (bw, bh), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT).astype(np.float32)
+        def band_img(t):
+            img = BMAP * 0.85
+            for p in PH:
+                a_ = win(t, p["t0"] - 0.15, p["t1"] + 0.15, 0.3, 0.3)
+                if a_ <= 0.001: continue
+                kb = p.get("kb") or [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]
+                u = ease((t - p["t0"]) / max(0.5, p["t1"] - p["t0"]))
+                ph = band_kb(p["im"], kb[0] + (kb[3] - kb[0]) * u, kb[1] + (kb[4] - kb[1]) * u, kb[2] + (kb[5] - kb[2]) * u)
+                img = img * (1 - a_) + ph * (1 - 0.6 * p.get("dim", 0.25)) * a_
+            return img * BVIG
+
+    def frame_band(t):
+        ma = 1 - seg(t, MAP_T1 - 0.2, MAP_T1 + 0.2)
+        if ma >= 0.999: base = map_at(1 + (ZM - 1) * eout(t / max(0.5, MAP_T1)))
+        else:
+            base = bg.copy()
+            reg = base[by0:by1, bx0:bx1]; base[by0:by1, bx0:bx1] = reg * (1 - BM) + band_img(t) * BM
+            if ma > 0.001: base = base * (1 - ma) + map_at(ZM) * ma
+        cv = Canvas(base)
+        if ma < 0.999: cv.rrect(bx0, by0, bw, bh, int(BAND.get("r", 30)), None, 1 - ma, stroke="#2A3B5C", lw=3, sa=1 - ma)
+        draw_chart(cv, t, 1 - ma)
+        for mk in MK:
+            a = win(t, mk["t0"], mk["t1"], 0.25, 0.25) * (1 - ma)
+            if a <= 0.01: continue
+            x0, x1, ym = at_grid(t)
+            s = next(x for x in SER if x["ticker"] == mk["ticker"])
+            px = C["x0"] + (mk["year"] - x0) / (x1 - x0) * (C["x1"] - C["x0"]); py = C["y1"] - val(s, mk["year"]) / ym * (C["y1"] - C["y0"])
+            ly = py + mk.get("dy", -130); col = {"red": DOWN, "green": UP, "yellow": YEL}.get(mk.get("col", "yellow"), YEL)
+            tw = cv.tw(mk["text"], 46) + 40; lx = min(max(px + mk.get("dx", 0), tw / 2 + 16), W - 16 - tw / 2)
+            cv.line([(lx, ly + (34 if ly < py else -34)), (px, py + (-16 if ly < py else 16))], col, 4, a)
+            cv.circ(px, py, 15, None, a, stroke=col, lw=4)
+            cv.rrect(lx - tw / 2, ly - 34, tw, 68, 18, "#0B1730", 0.92 * a, stroke=col, lw=3, sa=a)
+            cv.text(mk["text"], lx, ly, 46, WHITE, a, maxw=1040)
+        for k_, p in enumerate(PH):
+            a_ = win(t, p["t0"] - 0.15, p["t1"] + 0.15, 0.3, 0.3)
+            for q in PH[k_ + 1:]: a_ *= 1 - win(t, q["t0"] - 0.15, q["t1"] + 0.15, 0.3, 0.3)
+            if a_ > 0.01 and p.get("credit"):
+                txt = "Photo: " + p["credit"]; tw = min(bw - 30, cv.tw(txt, 36, bold=False) + 30)
+                cv.rrect(540 - tw / 2, by1 - 62, tw, 50, 14, "#0B1322", 0.7 * a_)
+                cv.text(txt, 540, by1 - 37, 36, "#E6EEF8", a_, bold=False, maxw=bw - 40, minsz=36, shadow=False)
+        draw_screen(cv, [c_ for c_ in cards if c_[1] > T.E(0) - 0.05], t, D.get("title_y", 300), 72)
+        draw_sources(cv, S, T, t, D.get("src_y", 1488))
+        if t < MAP_BACK: draw_end(cv, S, T, t)
+        out = cv.out().astype(np.float32)
+        out = paste_hook(out, hook_img, t, T.E(0), HY, 1.0)
+        if t >= MAP_BACK: out = HK.paste(out, hook_img, 540, D.get("hook_end_y", bcy), 1.0, seg(t, MAP_BACK, MAP_BACK + 0.4))
+        c2 = Canvas(out); draw_subs(c2, CH, t, D.get("subs_y", 1612)); return np.clip(c2.out(), 0, 255).astype(np.uint8)
+
     def frame(t):
+        if BAND: return frame_band(t)
         ma = max(1 - seg(t, MAP_T1 - 0.2, MAP_T1 + 0.2), seg(t, MAP_BACK, MAP_BACK + 0.4))
         if t < MAP_BACK: z = 1 + (ZM - 1) * eout(t / max(0.5, MAP_T1))
         else: z = ZM - (ZM - 1) * eout((t - MAP_BACK) / max(0.5, T.END - MAP_BACK))
