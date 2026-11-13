@@ -133,7 +133,7 @@
   ],
   "zones": [
    {
-    "at": 0,
+    "at": -0.6,
     "until": "L2-0.1",
     "poly": [
      [
@@ -251,7 +251,7 @@
     "size": 52
    },
    {
-    "at": 0,
+    "at": -0.6,
     "until": "L1e",
     "poly": [
      [
@@ -863,8 +863,8 @@
       32.317
      ]
     ],
-    "color": "#E5484D",
-    "alpha": 0.35,
+    "color": "#45A4DD",
+    "alpha": 0.5,
     "label": "East Bank",
     "label_at": [
      36.6,
@@ -957,8 +957,8 @@
       32.402
      ]
     ],
-    "color": "#E5484D",
-    "alpha": 0.45
+    "color": "#45A4DD",
+    "alpha": 0.5
    },
    {
     "at": "L7:west",
@@ -1045,7 +1045,7 @@
       32.402
      ]
     ],
-    "color": "#E5484D",
+    "color": "#FFD23F",
     "alpha": 0.0,
     "label": "West Bank",
     "label_at": [
@@ -1173,7 +1173,7 @@
     "size": 52
    },
    {
-    "at": "L13",
+    "at": "L13-0.5",
     "poly": [
      [
       38.774,
@@ -1290,7 +1290,7 @@
     "size": 52
    },
    {
-    "at": "L13",
+    "at": "L13-0.5",
     "poly": [
      [
       35.551,
@@ -1489,7 +1489,7 @@
     "at": "L10:fifty",
     "until": "L10e",
     "value": 55,
-    "from": 0,
+    "from": 55,
     "suffix": " to 70%",
     "sub": "Jordanians of Palestinian origin (est.)",
     "y": 1000
@@ -1658,7 +1658,7 @@
  ],
  "end": {
   "at": "L12:and#2",
-  "balance": "Jordan rejects \"Jordan is Palestine.\" Palestinians seek *their own* state.",
+  "balance": "Jordan says no. Palestinians want *their own* state.",
   "cta": "Send this to someone who says West Bank"
  },
  "caption_en": "Why is it called the WEST Bank? 🧭 Because there's an EAST Bank.\n\n1922: the League of Nations' Mandate for Palestine covers both banks of the Jordan River.\n1921: on the East Bank, Britain had already made Abdullah, a Hashemite prince from Mecca, Emir of Transjordan. That's about 77% of the Mandate's area (Israel MFA; roughly 89,000 of 116,000 km²).\n16 Sept 1922: the League approves the Transjordan memorandum. The Jewish national home clauses don't apply east of the river.\n1948: Abdullah's Arab Legion takes the land west of the river, including East Jerusalem.\n1950: Jordan annexes it (only Britain and Pakistan recognised it), and it becomes \"the West Bank\", as opposed to the East Bank. Its Palestinians are Jordanian citizens (Nationality Law, 1954).\n1967: Israel takes it. 1988: Jordan drops its claim.\nToday an estimated 55 to 70% of Jordanians have Palestinian roots (US Congressional Research Service, 2024; estimates vary, Jordan publishes no official figure). Queen Rania's parents are from Tulkarm and Nablus.\n\nKing Abdullah II (2014): \"Jordan is Jordan and Palestine is Palestine.\" And Palestinians seek their own state in the West Bank and Gaza.\n\nTwo banks. One river. One people?\n\nSend this to someone who says \"West Bank\".",
