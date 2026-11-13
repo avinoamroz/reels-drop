@@ -1,6 +1,224 @@
 {
-  "id": "hate_the_jews_p1_v2",
-  "status": "FAILED",
-  "run": "43500384253",
-  "log": "voice ok: cached voice (script unchanged) voice/hate_the_jews_p1_v2_vo.wav\n[20:19:42] voice: cached voice (script unchanged)\n"
+ "id": "hate_the_jews_p1_v2",
+ "account": "noamroz__",
+ "template": "irony_cine",
+ "hook": "*8* reasons I|“hate” the Jews",
+ "duration": 49.2,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/hate_the_jews_p1_v2.mp4",
+  "cover": "covers/hate_the_jews_p1_v2_cover.jpg",
+  "preview": "previews/hate_the_jews_p1_v2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hate_the_jews_p1_v2_0.jpg",
+  "1": "out/frames/hate_the_jews_p1_v2_1.jpg",
+  "3": "out/frames/hate_the_jews_p1_v2_3.jpg",
+  "last": "out/frames/hate_the_jews_p1_v2_last.jpg"
+ },
+ "caption_en": "Satire. 8 reasons I “hate” the Jews 🙄\n\n1. The polio vaccine: Jonas Salk (Jewish), declared safe and effective in 1955.\n2. Rescue teams: Israel's search and rescue delegation pulled 19 people out alive after the Türkiye earthquake, Feb 2023 (Israel Defense Forces, via JNS).\n3. Modern drip irrigation: Simcha Blass and Netafim, Israel, 1965.\n4. Relativity: Albert Einstein (Jewish), 1905 and 1915. GPS clocks are corrected for it, or positions would drift about 10 km a day (Ashby, Physics Today, 2002).\n5. Waze: founded in Israel, 2008; bought by Google in 2013 (Reuters).\n6. The USB flash drive: M-Systems (Israel), US Patent 6,148,354, filed 1999.\n7. The camera pill: Given Imaging (Israel), FDA cleared 2001.\n8. Blue jeans: Levi Strauss and Jacob Davis, both Jewish immigrants, US Patent 139,121, 1873.\n\nObviously, I'm Jewish. And we'll keep doing all of it. 😉 Part 2 on my profile.\n\nPhotos and video via Wikimedia Commons: SAS Scandinavian Airlines (public domain); Polygoon newsreel 1955, Beeld en Geluid (CC BY-SA 3.0); Deror avi (CC BY-SA 4.0, illustrative); IDF Spokesperson's Unit, Israeli rescue mission to Brazil 2019 (CC BY-SA 3.0); Israel Defense Forces (CC BY 2.0); Alan.ca (public domain); Juandev (CC BY-SA 3.0); USDA (public domain, illustrative); Ferdinand Schmutzer (public domain); U.S. Air Force (public domain); Shixart1985 (CC BY 2.0, illustrative); CAN Driver (CC BY 3.0, illustrative); Cjp24 (CC BY-SA 4.0); JOGOS Public Assets (CC BY-SA 4.0); capsule endoscope (public domain); Woo et al. (CC BY 2.0); Levi Strauss and Co. (public domain, CC0). AI voice.",
+ "caption_he": "סאטירה. 8 סיבות שאני \"שונא\" את היהודים 🙄\nחיסון הפוליו (יונס סאלק), משלחת החילוץ הישראלית שהוציאה 19 אנשים חיים מההריסות בטורקיה (2023), טפטפות (נטפים, 1965), תורת היחסות (איינשטיין), וייז, הדיסק און קי (אם-סיסטמס), גלולת המצלמה (גיוון אימג'ינג), והג'ינס (ליוויי שטראוס וג'ייקוב דייוויס).\nברור שאני יהודי. ונמשיך לעשות את כל זה. 😉 חלק 2 בפרופיל.",
+ "hashtags": [
+  "#satire",
+  "#Jewish",
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Salk vaccine declared safe and effective, 1955",
+   "year": 1955,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Israel Defense Forces via JNS, Feb 2023",
+   "year": 2023,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Netafim, founded 1965",
+   "year": 1965,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Ashby, Physics Today, 2002: GPS relativity",
+   "year": 2002,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Google buys Waze, Reuters, 2013",
+   "year": 2013,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "US Patent 6,148,354, 2000",
+   "year": 2000,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "FDA clearance, Aug 2001",
+   "year": 2001,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "US Patent 139,121, 1873",
+   "year": 1873,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.943,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Eight reasons I hate the Jews.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "One. Jonas Salk made the polio vaccine. Now kids just run around. Unbearable.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two. Israeli rescue teams pulled nineteen people out of the rubble in Turkey. Show offs.",
+    "score": 0.867,
+    "flag": "ok"
+   },
+   {
+    "line": "Three. Israelis built modern drip irrigation. Now deserts grow food. Who asked for that?",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Four. Einstein's relativity. Without it, your GPS would drift miles every day. Thanks a lot.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five. Israelis built Waze. Now nobody has an excuse to be late. Great.",
+    "score": 0.846,
+    "flag": "ok"
+   },
+   {
+    "line": "Six. Israelis patented the USB stick. Now my whole life fits on a keychain. Annoying.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seven. Israelis put a camera in a pill. You swallow it, it films your insides. Disgusting.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Eight. Levi Strauss and Jacob Davis, two Jewish immigrants, invented blue jeans. Now everyone looks good. Rude.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Obviously, I'm Jewish.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And we'll keep doing all of it. Eight more reasons on my profile.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Eight reasons I hate the juice. One, Jonas Salk made the polio vaccine. Now kids just run around. Unbearable. Two, Israeli rescue teams pulled 19 people out of the rubble in Turkey. Showoffs. Three, Israelis built modern drip irrigation. Now desserts grow food. Who asked for that? Four, Einstein's relativity. Without it, your GPS would drift miles every day. Thanks a lot. Five, Israelis built waste. Now nobody has an excuse to be late. Three, six. Israelis patented the USB stick. Now my whole life fits on a keychain. Annoying. Seven. Israelis put a camera in a pill. Swallow it. It just films your insides. Disgusting. Eight. Levi Strauss and Jacob Davis. Two Jewish immigrants invented blue jeans. Now everyone looks good. Room. Obviously, I'm Jewish. And we'll keep doing all of it. Eight more reasons on my profile.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "shots": [
+  {
+   "file": "templates/photos/hate_the_jews/salk.jpg",
+   "credit": "SAS Scandinavian Airlines, public domain"
+  },
+  {
+   "file": "templates/clips/htj/salkvial.mp4",
+   "credit": "Polygoon newsreel 1955, Beeld en Geluid, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/clips/htj/kidsrun.mp4",
+   "credit": "Deror avi, CC BY-SA 4.0 (illustrative)"
+  },
+  {
+   "file": "templates/clips/htj/idfplane.mp4",
+   "credit": "IDF Spokesperson's Unit, Brazil 2019, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/rescue.jpg",
+   "credit": "Israel Defense Forces, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/drip2.jpg",
+   "credit": "Alan.ca, public domain"
+  },
+  {
+   "file": "templates/clips/htj/dripline.mp4",
+   "credit": "Juandev, Rishpon, Israel, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/clips/htj/greenfield.mp4",
+   "credit": "USDA, public domain (illustrative)"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/einstein.jpg",
+   "credit": "Ferdinand Schmutzer, 1921, public domain"
+  },
+  {
+   "file": "templates/clips/htj/gpslaunch.mp4",
+   "credit": "GPS III launch, U.S. Air Force, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/waze.jpg",
+   "credit": "Shixart1985, CC BY 2.0 (illustrative)"
+  },
+  {
+   "file": "templates/clips/htj/highway.mp4",
+   "credit": "CAN Driver, CC BY 3.0 (illustrative)"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/usb.jpg",
+   "credit": "Cjp24, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/clips/htj/usbplug.mp4",
+   "credit": "JOGOS Public Assets, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/pill.jpg",
+   "credit": "Public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/clips/htj/gutcam.mp4",
+   "credit": "Woo et al., CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/jeans.jpg",
+   "credit": "Levi Strauss and Co. ad, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/jeans2.jpg",
+   "credit": "Levi Strauss and Co., MET, CC0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 124.4
 }
