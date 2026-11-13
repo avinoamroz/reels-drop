@@ -1,0 +1,200 @@
+{
+ "id": "radicals_chemistry",
+ "account": "noamroz__",
+ "template": "chem_lab",
+ "hook": "How to neutralise|a *radical.* Chemistry.",
+ "duration": 65.03,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.2
+ },
+ "outputs": {
+  "mp4": "out/radicals_chemistry.mp4",
+  "cover": "covers/radicals_chemistry_cover.jpg",
+  "preview": "previews/radicals_chemistry_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/radicals_chemistry_0.jpg",
+  "1": "out/frames/radicals_chemistry_1.jpg",
+  "3": "out/frames/radicals_chemistry_3.jpg",
+  "last": "out/frames/radicals_chemistry_last.jpg"
+ },
+ "caption_en": "How do you neutralise a radical? Chemistry. 🧪\n\nA free radical has one unpaired electron, so it is unstable and damages whatever it touches. An antioxidant fixes it by donating the missing electron.\n\nExtremists work the same way, and they are a small minority: in Pew's 2015 survey of 11 countries with large Muslim populations, in no country did more than 15% view ISIS, the Islamic State, favourably.\n\nThe real antioxidants, many led by Muslim majority states and Muslim scholars:\nRh: Saudi Arabia's rehab centre for terror convicts (since 2004)\nEx: Denmark's Aarhus exit programme (since 2007)\nHd: Hedayah, the UAE's global centre against violent extremism (2012)\nCl: the Marrakesh Declaration on the rights of religious minorities, signed by hundreds of Muslim scholars (2016)\nEd: Saudi school textbooks, most antisemitism removed (IMPACT-se, 2023)\n\nEvery group has its radicals. Same chemistry for all.\nSend this to a chemistry nerd.",
+ "caption_he": "איך מנטרלים רדיקל? כימיה. 🧪\nלרדיקל חופשי יש אלקטרון אחד לא מזווג, ולכן הוא לא יציב ופוגע בכל מה שהוא נוגע בו. נוגד חמצון מייצב אותו כשהוא תורם לו את האלקטרון החסר.\nקיצונים עובדים אותו דבר, והם מיעוט קטן: בסקר Pew משנת 2015 ב־11 מדינות עם אוכלוסייה מוסלמית גדולה, באף מדינה לא יותר מ־15% ראו את דאעש בעין יפה.\nנוגדי החמצון האמיתיים, רבים מהם בהובלת מדינות מוסלמיות וחכמי דת מוסלמים: מרכז השיקום הסעודי לאסירי טרור (מאז 2004), תוכנית היציאה של אורהוס בדנמרק (מאז 2007), מרכז הדאיה באבו דאבי נגד קיצוניות (2012), הצהרת מרקש על זכויות מיעוטים דתיים (2016), וספרי לימוד סעודיים שמהם הוסרה רוב האנטישמיות (2023).\nלכל קבוצה יש את הרדיקלים שלה. אותה כימיה לכולם.",
+ "hashtags": [
+  "#Israel",
+  "#science",
+  "#antisemitism"
+ ],
+ "sources": [
+  {
+   "label": "Lobo et al., Pharmacognosy Reviews",
+   "year": 2010,
+   "at": "L1",
+   "until": "L2e"
+  },
+  {
+   "label": "Pew Research Center",
+   "year": 2015,
+   "at": "L3:most",
+   "until": "L5e"
+  },
+  {
+   "label": "Times of Israel (AFP)",
+   "year": 2017,
+   "at": "L10",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "City of Aarhus",
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "UK Foreign Office, GCTF launch",
+   "year": 2012,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "Marrakesh Declaration",
+   "year": 2016,
+   "at": "L13",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "IMPACT-se textbook review",
+   "year": 2023,
+   "at": "L14",
+   "until": "L15-0.1"
+  },
+  {
+   "label": "Europol TE-SAT: separatist, left, right, jihadist attacks",
+   "year": 2024,
+   "at": "L15",
+   "until": "L16e"
+  }
+ ],
+ "transcript": {
+  "score": 0.908,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "How do you neutralise a radical? Chemistry.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "A free radical has one unpaired electron.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So it's unstable. It roams around and damages whatever it touches.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Extremists work the same way. And most Muslims reject them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Pew, twenty fifteen, eleven countries with large Muslim populations:",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "in none did more than fifteen percent view ISIS, the Islamic State, favourably.",
+    "score": 0.769,
+    "flag": "MISS"
+   },
+   {
+    "line": "So when someone screams: Kill the Jews,",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "clearly, he's missing an electron.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Step one: cool the reaction.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Step two: antioxidants. They donate the missing electron.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia: a rehab centre for terror convicts, since two thousand four.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Denmark: the Aarhus exit programme, since two thousand seven.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "The UAE: Hedayah, a global centre against extremism, since twenty twelve.",
+    "score": 0.727,
+    "flag": "MISS"
+   },
+   {
+    "line": "Twenty sixteen: hundreds of Muslim scholars sign the Marrakesh Declaration, for religious minorities.",
+    "score": 0.846,
+    "flag": "ok"
+   },
+   {
+    "line": "And schools: Saudi textbooks dropped most antisemitism by twenty twenty-three.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Every group has its radicals. Same chemistry for all.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Give the radical what he's missing, and the reaction stops.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's how you neutralise a radical.",
+    "score": 0.833,
+    "flag": "ok"
+   }
+  ],
+  "heard": "How do you neutralize a radical? Chemistry. A free radical has one unpaired electron, so it's unstable. It roams around and damages whatever it touches. Extremists work the same way, and most Muslims reject them. Pew. 2015, 11 countries with large Muslim populations. In London more than 15% view ISIS, the Islamic State, favorably. So when someone screams, kill the Jews, clearly, he's missing an electron. Step 1. the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007. The UAE. Hidaya, a global center against extremism since 2012. 2016. Hundreds of Muslim scholars signed the Marrakesh Declaration for religious minorities. And schools. Saudi textbooks dropped most antisemitism by 2023. Every group has its radicals. Same chemistry for all. Give the radical what he's missing, and the reaction stops. That's how you neutralize a radical.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.2
+ },
+ "phases": {
+  "beaker": 22.62,
+  "splash": 27.68,
+  "give": 32.57,
+  "tiles": [
+   34.02,
+   38.33,
+   41.48,
+   46.31,
+   51.54
+  ],
+  "end": 65.04
+ },
+ "lint_warnings": [
+  "hook has no number",
+  "source without year: City of Aarhus"
+ ],
+ "render_s": 152.9
+}
