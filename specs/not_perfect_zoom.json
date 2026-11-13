@@ -1,0 +1,452 @@
+{
+ "id": "not_perfect_zoom",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "This is *utopia.*|Israel is *here.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.3,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Seventy-three": "73",
+  "a hundred and sixteenth": "116th",
+  "a hundred and eighty": "180",
+  "two hundred fifty-two": "252",
+  "forty-one": "41",
+  "thirty-four": "34",
+  "eighteen": "18",
+  "ten.": "10.",
+  "nine.": "9."
+ },
+ "lines": [
+  {
+   "say": "This is utopia. Israel is here.",
+   "gap": 0.2
+  },
+  {
+   "say": "Seventy-three out of a hundred on Freedom House's scale.",
+   "gap": 0.12
+  },
+  {
+   "say": "So what's in the gap?",
+   "gap": 0.15
+  },
+  {
+   "say": "Corruption. A former prime minister went to prison.",
+   "screen": "*Olmert:* prison for bribery, 2016",
+   "at": "L3:a",
+   "gap": 0.1
+  },
+  {
+   "say": "Netanyahu is on trial for bribery, fraud and breach of trust. He denies the charges.",
+   "screen": "*Netanyahu:* on trial since 2020",
+   "gap": 0.15
+  },
+  {
+   "say": "Prices? Among the highest in the developed world.",
+   "screen": "*4th* highest prices of 38 rich countries",
+   "gap": 0.12
+  },
+  {
+   "say": "Poverty? One in five Israelis.",
+   "screen": "*20.7%* poor. Child poverty *2nd* in the OECD",
+   "gap": 0.12
+  },
+  {
+   "say": "Press freedom? A hundred and sixteenth out of a hundred and eighty.",
+   "screen": "*116th* of 180. Qatar and Lebanon rank higher",
+   "gap": 0.12
+  },
+  {
+   "say": "Arab towns? A record two hundred fifty-two murders last year.",
+   "screen": "*252* Arab citizens murdered in 2025, a record",
+   "gap": 0.15
+  },
+  {
+   "say": "That's the gap. Now zoom out.",
+   "gap": 0.1
+  },
+  {
+   "say": "Lebanon, forty-one. Jordan, thirty-four. Egypt and the Emirates, eighteen. Syria and Iran, ten. Saudi Arabia, nine.",
+   "screen": "Same scale. *The region.*",
+   "gap": 0.15,
+   "until": "L10e+0.3"
+  },
+  {
+   "say": "Every neighbour is at least twice as far from utopia.",
+   "gap": 0.15
+  },
+  {
+   "say": "One honest catch: on corruption, the Emirates score cleaner than us.",
+   "gap": 0.2
+  },
+  {
+   "say": "We're not perfect. We know it.",
+   "gap": 0.12
+  },
+  {
+   "say": "But on freedom, we're closer to utopia than anyone around us."
+  }
+ ],
+ "data": {
+  "scale": {
+   "lo0": 58,
+   "hi": 104,
+   "lo1": 0,
+   "zoom_at": "L9:zoom",
+   "zoom_dur": 1.8,
+   "back_at": "L13",
+   "back_dur": 1.4
+  },
+  "utopia": {
+   "value": 100,
+   "label": "UTOPIA",
+   "note": "= a perfect score on|Freedom House's scale"
+  },
+  "israel": {
+   "value": 73,
+   "ticker": "ISR",
+   "flag": "IL",
+   "map": true
+  },
+  "blocks": [
+   {
+    "at": "L3:corruption",
+    "label": "Corruption",
+    "value": "62/100"
+   },
+   {
+    "at": "L5:prices",
+    "label": "Prices",
+    "value": "4th of 38"
+   },
+   {
+    "at": "L6:poverty",
+    "label": "Poverty",
+    "value": "20.7%"
+   },
+   {
+    "at": "L7:press",
+    "label": "Press freedom",
+    "value": "116th"
+   },
+   {
+    "at": "L8:arab",
+    "label": "Arab towns",
+    "value": "252 murders"
+   }
+  ],
+  "rows": [
+   {
+    "at": "L10:lebanon",
+    "ticker": "LBN",
+    "flag": "LB",
+    "value": 41
+   },
+   {
+    "at": "L10:jordan",
+    "ticker": "JOR",
+    "flag": "JO",
+    "value": 34
+   },
+   {
+    "at": "L10:egypt",
+    "ticker": "EGY",
+    "flag": "EG",
+    "value": 18
+   },
+   {
+    "at": "L10:emirates",
+    "ticker": "UAE",
+    "flag": "AE",
+    "value": 18
+   },
+   {
+    "at": "L10:syria",
+    "ticker": "SYR",
+    "flag": "SY",
+    "value": 10
+   },
+   {
+    "at": "L10:iran",
+    "ticker": "IRN",
+    "flag": "IR",
+    "value": 10
+   },
+   {
+    "at": "L10:saudi",
+    "ticker": "SAU",
+    "flag": "SA",
+    "value": 9
+   }
+  ],
+  "bars": [
+   {
+    "at": "L11",
+    "until": "L11e+0.15",
+    "title": "Distance to *utopia*",
+    "sub": "100 minus the Freedom House score, 2026",
+    "y": 600,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 27,
+      "txt": "27",
+      "hl": true
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 59,
+      "txt": "59 (2.2x)",
+      "color": "#F0524F"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 66,
+      "txt": "66 (2.4x)",
+      "color": "#F0524F"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 82,
+      "txt": "82 (3.0x)",
+      "color": "#F0524F"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 82,
+      "txt": "82 (3.0x)",
+      "color": "#F0524F"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 90,
+      "txt": "90 (3.3x)",
+      "color": "#F0524F"
+     },
+     {
+      "label": "Iran",
+      "flag": "IR",
+      "value": 90,
+      "txt": "90 (3.3x)",
+      "color": "#F0524F"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 91,
+      "txt": "91 (3.4x)",
+      "color": "#F0524F"
+     }
+    ]
+   },
+   {
+    "at": "L12",
+    "until": "L12e+0.25",
+    "title": "Corruption: *cleanest* first",
+    "sub": "Transparency International, 2025. 100 = very clean",
+    "y": 600,
+    "rows": [
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 69,
+      "color": "#2BD67B"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 62,
+      "hl": true
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 57
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 50
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 30
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 23
+     },
+     {
+      "label": "Iran",
+      "flag": "IR",
+      "value": 23
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 15
+     }
+    ]
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+    "at": "L1",
+    "until": "L2e",
+    "credit": "Knesset, Beit HaShalom, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/court.jpg",
+    "at": "L3",
+    "until": "L4e",
+    "credit": "Supreme Court and Knesset, israeltourism, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/cranes.jpg",
+    "at": "L5",
+    "until": "L5e+0.1",
+    "credit": "Tel Aviv cranes, Chenspec, CC BY-SA 4.0",
+    "kb": [
+     0.64,
+     0.26,
+     1.7,
+     0.6,
+     0.22,
+     1.9
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/arabtown.jpg",
+    "at": "L8",
+    "until": "L8e+0.1",
+    "credit": "Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+    "at": "L13",
+    "until": "L14e",
+    "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0",
+    "band": false,
+    "dim": 0.45,
+    "kb": [
+     0.62,
+     0.4,
+     1.0,
+     0.6,
+     0.38,
+     1.12
+    ]
+   }
+  ],
+  "hook_y": 300,
+  "title_y": 330,
+  "blocks_until": "L13"
+ },
+ "sources": [
+  {
+   "label": "Freedom House, Freedom in the World",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2e"
+  },
+  {
+   "label": "Times of Israel (Olmert jailed); Jerusalem Post (trial ongoing)",
+   "year": 2026,
+   "at": "L3",
+   "until": "L3e"
+  },
+  {
+   "label": "Transparency International, Corruption Perceptions Index",
+   "year": 2025,
+   "at": "L4",
+   "until": "L4e"
+  },
+  {
+   "label": "Organisation for Economic Co-operation and Development (OECD), Economic Survey of Israel",
+   "year": 2025,
+   "at": "L5",
+   "until": "L5e"
+  },
+  {
+   "label": "National Insurance Institute, Poverty Report",
+   "year": 2025,
+   "at": "L6",
+   "until": "L6e"
+  },
+  {
+   "label": "Reporters Without Borders, World Press Freedom Index",
+   "year": 2026,
+   "at": "L7",
+   "until": "L7e"
+  },
+  {
+   "label": "Abraham Initiatives, annual report on 2025",
+   "year": 2026,
+   "at": "L8",
+   "until": "L8e"
+  },
+  {
+   "label": "Freedom House, Freedom in the World",
+   "year": 2026,
+   "at": "L10",
+   "until": "L11e"
+  }
+ ],
+ "end": {
+  "at": "L13",
+  "y": 1030,
+  "balance": "Not perfect. On freedom, *closer* than any neighbour.",
+  "cta": "Send this to a *critic*"
+ },
+ "caption_en": "This is utopia: a perfect 100 on Freedom House's scale. Israel is at 73.\n\nSo what's in the gap? Plenty.\n• Corruption: former prime minister Ehud Olmert went to prison for bribery in 2016. Benjamin Netanyahu has been on trial since 2020 for bribery, fraud and breach of trust; he denies the charges. Transparency International: 62/100, 35th of 182 (2025).\n• Prices: the 4th highest price level of the 38 OECD (Organisation for Economic Co-operation and Development) countries (OECD Economic Survey of Israel, 2025).\n• Poverty: 20.7% of Israelis are poor, and child poverty is the 2nd highest in the OECD (National Insurance Institute, 2024 data).\n• Press freedom: 116th of 180 (Reporters Without Borders, 2026). Qatar (75th) and Lebanon (115th) rank higher.\n• Arab towns: a record 252 Arab citizens murdered in 2025 (Abraham Initiatives).\n\nNow zoom out. Same scale, Freedom House 2026:\n🇮🇱 Israel 73\n🇱🇧 Lebanon 41\n🇯🇴 Jordan 34\n🇪🇬 Egypt 18\n🇦🇪 UAE 18\n🇸🇾 Syria 10\n🇮🇷 Iran 10\n🇸🇦 Saudi Arabia 9\nDistance to utopia (100 minus the score): Israel 27, the neighbours 59 to 91. Every one of them is at least twice as far.\n\nOne honest catch: on corruption, the UAE scores cleaner than Israel (69 vs 62, Transparency International 2025).\n\nWe're not perfect. We know it. But on freedom, we're closer to utopia than anyone around us.\n\nSend this to a critic.",
+ "caption_he": "זו אוטופיה: 100 מתוך 100 במדד של Freedom House. ישראל ב־73.\nמה יש בפער? שחיתות (ראש ממשלה לשעבר ישב בכלא, ונתניהו עומד לדין ומכחיש), יוקר מחיה, עוני, חופש עיתונות (מקום 116 מתוך 180), ושיא של 252 נרצחים בחברה הערבית ב־2025.\nעכשיו תעשו זום אאוט: לבנון 41, ירדן 34, מצרים ואיחוד האמירויות 18, סוריה ואיראן 10, סעודיה 9. כל השכנות רחוקות מהאוטופיה לפחות פי שניים.\nובכנות: במדד השחיתות איחוד האמירויות מקבלת ציון טוב יותר משלנו.\nאנחנו לא מושלמים. אנחנו יודעים. אבל בחופש, אנחנו הכי קרובים לאוטופיה באזור.",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Democracy"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "73 / 100",
+  "text": "What stands|between Israel|and *utopia?*"
+ }
+}
