@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "high_horse",
  "hook": "Easy to judge|from *up here.*",
- "duration": 56.07,
+ "duration": 58.9,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/what_others_did_v2.mp4",
@@ -71,7 +71,7 @@
   }
  ],
  "transcript": {
-  "score": 0.963,
+  "score": 0.951,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -101,7 +101,7 @@
    },
    {
     "line": "In Assad's Syria: over three hundred thousand civilians killed.",
-    "score": 1.0,
+    "score": 0.889,
     "flag": "ok"
    },
    {
@@ -116,7 +116,7 @@
    },
    {
     "line": "That's about a thousand a week. Gaza's war: about four hundred sixty.",
-    "score": 1.0,
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -155,14 +155,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Easy to judge from up here. Over 74,000 dead, says Gaza's health ministry, run by Hamas. If I were Israel, I'd have done it differently. Now let's climb down, to governments that turned on people they ruled. France, in Algeria. Up to one and a half million dead. In Assad's Syria, over 300,000 civilians killed. Britain in Kenya. Over 11,000 killed. Iran, January 2026. 7,000 confirmed dead. Up to 30,000 reported. That's about a thousand a week. Gaza's war, about 460. At that pace, the same three years. Over 150,000. Israel, attacked on October 7, warned before striking. 7.2 million leaflets, 13.7 million texts, 15 million calls. One side aims at people. The other warns them to leave. Israel is far from perfect. But it's not the outlier it's painted as. Every death in Gaza is a tragedy. So get off your high horse.",
+  "heard": "Easy to judge from up here. Over 74,000 dead, says Gaza's health ministry, run by Hamas. If I were Israel, I'd have done it differently. Now let's climb down, to governments that turned on people they ruled. France, in Algeria, up to one and a half million dead. In Assad, Syria, over 300,000 civilians killed. Britain, in Kenya, over 11,000 killed. Iran, January 2026, 7,000 confirmed dead, up to 30,000 reported. That's about 1,000 a week. Gaza's war, about 460. At that pace, the same three years. Over 150,000. Israel, attacked on October 7, warned before striking. 7.2 million leaflets, 13.7 million texts, 15 million calls. One side aims at people. The other warns them to leave. Israel is far from perfect. But it's not the outlier, it's painted as. Every death in Gaza is a tragedy, so get off your high horse.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "photos": [
   {
@@ -197,5 +197,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 169.6
+ "render_s": 108.9
 }
