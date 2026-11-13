@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "fert_race",
  "hook": "Rich countries stopped|having babies. *Except?*",
- "duration": 49.97,
+ "duration": 48.03,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/fertility_race.mp4",
@@ -27,35 +27,35 @@
    "label": "World Bank WDI, fertility rate (births per woman)",
    "year": 2026,
    "at": 1.2,
-   "until": "L9"
+   "until": "L8"
   },
   {
    "label": "Organisation for Economic Co-operation and Development, Society at a Glance (2022 data)",
    "year": 2024,
-   "at": "L9",
-   "until": "L10"
+   "at": "L8",
+   "until": "L9"
   },
   {
    "label": "Taub Center, Weinreb, Chernichovsky, Brill",
    "year": 2018,
-   "at": "L10",
-   "until": "L11"
+   "at": "L9",
+   "until": "L10"
   },
   {
    "label": "Taub Center, Why are there so many children in Israel?",
    "year": 2019,
-   "at": "L11",
-   "until": "L12"
+   "at": "L10",
+   "until": "L11"
   }
  ],
  "transcript": {
-  "score": 0.965,
+  "score": 0.977,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Rich countries stopped having babies. Except one.",
-    "score": 0.714,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Babies per woman, from nineteen sixty to today.",
@@ -88,12 +88,7 @@
     "flag": "ok"
    },
    {
-    "line": "Today, only Iraq and the West Bank and Gaza are higher.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "And Israel is the only rich country near the top.",
+    "line": "Israel is the only rich country near the top.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -118,22 +113,22 @@
     "flag": "ok"
    },
    {
-    "line": "So when someone tells you rich countries stopped having babies,",
+    "line": "Every rich country is running out of babies. One isn't.",
     "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "Rich country stopped having babies. Except one. Babies per woman from 1962 today. In 1960, Saudi Arabia, Iran, Syria and Jordan all had over seven. Europe. About two and a half. Then, the big drop. Iran went from 6 to 2 in 15 years. The Emirates? 1.2. Italy and Spain? Barely one. And Israel? It has stayed near 3 for 30 years. Today, only Iraq and the and the West Bank and Gaza are higher. And Israel is the only rich country near the top. Among 38 developed economies, Israel is number one. Why? Faith helps. But the top center finds big families at every level of religion. Even secular and traditional Israelis average over two kids. A rich, modern country that still bets on the future. So when someone tells you rich countries stopped having babies,",
+  "heard": "Rich countries stopped having babies, except one. Babies per woman, from 1960 to today. In 1960, Saudi Arabia, Iran, Syria, and Jordan all had over seven. Europe, about two and a half. Then the big drop. Iran went from 6 to 2 in 15 years. The Emirates, 1.2. Italy and Spain, barely one. And Israel? It has stayed near 3 for 30 years. Israel is the only rich country near the top. Among 38 developed economies, Israel is number one. Why? Faith helps. But the top center finds big families at every level of religion. Even secular and traditional Israelis average over two kids. A rich, modern country that still bets on the future. Every rich country is running out of babies. One isn't.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 154.1
+ "render_s": 158.1
 }
