@@ -1,0 +1,817 @@
+[
+{
+"word": "They",
+"start": 0.24767952,
+"end": 0.38699925
+},
+{
+"word": "tried",
+"start": 0.38699925,
+"end": 0.69659865
+},
+{
+"word": "to",
+"start": 0.69659865,
+"end": 0.7739985
+},
+{
+"word": "kill",
+"start": 0.7739985,
+"end": 1.0835979
+},
+{
+"word": "us.",
+"start": 1.0835979,
+"end": 1.4396372
+},
+{
+"word": "We",
+"start": 1.8575964,
+"end": 2.074316
+},
+{
+"word": "survived.",
+"start": 2.074316,
+"end": 2.8483145
+},
+{
+"word": "Let's",
+"start": 3.2043538,
+"end": 3.5139532
+},
+{
+"word": "eat.",
+"start": 3.5139532,
+"end": 3.9319124
+},
+{
+"word": "Every",
+"start": 4.504671,
+"end": 4.767831
+},
+{
+"word": "holiday?",
+"start": 4.767831,
+"end": 5.27867
+},
+{
+"word": "Let's",
+"start": 6.1145883,
+"end": 6.4241877
+},
+{
+"word": "spin",
+"start": 6.4241877,
+"end": 6.656387
+},
+{
+"word": "the",
+"start": 6.656387,
+"end": 6.7492666
+},
+{
+"word": "calendar.",
+"start": 6.7492666,
+"end": 7.352986
+},
+{
+"word": "Rosh",
+"start": 7.739985,
+"end": 8.065064
+},
+{
+"word": "Hashanah.",
+"start": 8.065064,
+"end": 8.606863
+},
+{
+"word": "No",
+"start": 9.055782,
+"end": 9.303462
+},
+{
+"word": "villain.",
+"start": 9.303462,
+"end": 9.659501
+},
+{
+"word": "Apples",
+"start": 10.01554,
+"end": 10.38706
+},
+{
+"word": "in",
+"start": 10.38706,
+"end": 10.4954195
+},
+{
+"word": "honey.",
+"start": 10.4954195,
+"end": 10.882419
+},
+{
+"word": "Yom",
+"start": 11.486137,
+"end": 11.795737
+},
+{
+"word": "Kippur.",
+"start": 11.795737,
+"end": 12.306576
+},
+{
+"word": "We",
+"start": 12.662615,
+"end": 12.832895
+},
+{
+"word": "fast.",
+"start": 12.832895,
+"end": 13.374694
+},
+{
+"word": "Twenty-five",
+"start": 13.823613,
+"end": 14.303492
+},
+{
+"word": "hours.",
+"start": 14.365412,
+"end": 14.845291
+},
+{
+"word": "Sukkot.",
+"start": 15.38709,
+"end": 15.897929
+},
+{
+"word": "Forty",
+"start": 16.594528,
+"end": 16.950567
+},
+{
+"word": "desert",
+"start": 16.950567,
+"end": 17.275646
+},
+{
+"word": "years.",
+"start": 17.275646,
+"end": 17.724566
+},
+{
+"word": "Dinner",
+"start": 18.297325,
+"end": 18.653364
+},
+{
+"word": "in",
+"start": 18.653364,
+"end": 18.746243
+},
+{
+"word": "a",
+"start": 18.746243,
+"end": 18.808163
+},
+{
+"word": "hut.",
+"start": 18.808163,
+"end": 19.102283
+},
+{
+"word": "Hanukkah.",
+"start": 19.473803,
+"end": 19.922722
+},
+{
+"word": "King",
+"start": 20.851519,
+"end": 21.14564
+},
+{
+"word": "Antiochus",
+"start": 21.14564,
+"end": 21.749357
+},
+{
+"word": "banned",
+"start": 21.749357,
+"end": 22.043476
+},
+{
+"word": "our",
+"start": 22.043476,
+"end": 22.167316
+},
+{
+"word": "faith,",
+"start": 22.167316,
+"end": 22.616236
+},
+{
+"word": "on",
+"start": 22.678156,
+"end": 22.863914
+},
+{
+"word": "pain",
+"start": 22.863914,
+"end": 23.096115
+},
+{
+"word": "of",
+"start": 23.096115,
+"end": 23.188995
+},
+{
+"word": "death.",
+"start": 23.188995,
+"end": 23.606955
+},
+{
+"word": "The",
+"start": 24.442873,
+"end": 24.535751
+},
+{
+"word": "Maccabees",
+"start": 24.535751,
+"end": 25.04659
+},
+{
+"word": "won.",
+"start": 25.04659,
+"end": 25.35619
+},
+{
+"word": "Fried",
+"start": 26.09923,
+"end": 26.548147
+},
+{
+"word": "donuts.",
+"start": 26.548147,
+"end": 27.120907
+},
+{
+"word": "Purim.",
+"start": 27.693666,
+"end": 28.173546
+},
+{
+"word": "Haman",
+"start": 28.715343,
+"end": 29.071383
+},
+{
+"word": "plotted",
+"start": 29.071383,
+"end": 29.396463
+},
+{
+"word": "to",
+"start": 29.396463,
+"end": 29.489342
+},
+{
+"word": "kill",
+"start": 29.489342,
+"end": 29.737022
+},
+{
+"word": "all",
+"start": 29.737022,
+"end": 29.87634
+},
+{
+"word": "the",
+"start": 29.87634,
+"end": 29.969221
+},
+{
+"word": "Jews.",
+"start": 29.969221,
+"end": 30.48006
+},
+{
+"word": "He",
+"start": 30.634861,
+"end": 30.77418
+},
+{
+"word": "lost.",
+"start": 30.77418,
+"end": 31.254059
+},
+{
+"word": "Cookies",
+"start": 32.012577,
+"end": 32.43054
+},
+{
+"word": "named",
+"start": 32.43054,
+"end": 32.693695
+},
+{
+"word": "after",
+"start": 32.693695,
+"end": 32.972336
+},
+{
+"word": "him.",
+"start": 32.972336,
+"end": 33.173576
+},
+{
+"word": "Passover.",
+"start": 34.16429,
+"end": 34.737053
+},
+{
+"word": "Pharaoh",
+"start": 36.14573,
+"end": 36.53273
+},
+{
+"word": "enslaved",
+"start": 36.53273,
+"end": 37.012608
+},
+{
+"word": "us",
+"start": 37.012608,
+"end": 37.27577
+},
+{
+"word": "and",
+"start": 37.523445,
+"end": 37.724686
+},
+{
+"word": "ordered",
+"start": 37.786606,
+"end": 38.127167
+},
+{
+"word": "our",
+"start": 38.127167,
+"end": 38.235527
+},
+{
+"word": "baby",
+"start": 38.235527,
+"end": 38.545124
+},
+{
+"word": "boys",
+"start": 38.545124,
+"end": 38.839245
+},
+{
+"word": "killed.",
+"start": 38.839245,
+"end": 39.14884
+},
+{
+"word": "Death",
+"start": 40.37176,
+"end": 40.696842
+},
+{
+"word": "passed",
+"start": 40.696842,
+"end": 41.0374
+},
+{
+"word": "over",
+"start": 41.0374,
+"end": 41.2696
+},
+{
+"word": "our",
+"start": 41.2696,
+"end": 41.36248
+},
+{
+"word": "homes.",
+"start": 41.36248,
+"end": 41.873318
+},
+{
+"word": "We",
+"start": 42.538956,
+"end": 42.709236
+},
+{
+"word": "ran",
+"start": 42.709236,
+"end": 42.956917
+},
+{
+"word": "so",
+"start": 42.956917,
+"end": 43.251034
+},
+{
+"word": "fast,",
+"start": 43.251034,
+"end": 43.761875
+},
+{
+"word": "the",
+"start": 44.117912,
+"end": 44.241753
+},
+{
+"word": "bread",
+"start": 44.241753,
+"end": 44.504913
+},
+{
+"word": "never",
+"start": 44.504913,
+"end": 44.783554
+},
+{
+"word": "rose.",
+"start": 44.783554,
+"end": 45.23247
+},
+{
+"word": "Holocaust",
+"start": 46.28511,
+"end": 46.82691
+},
+{
+"word": "Remembrance",
+"start": 46.82691,
+"end": 47.30679
+},
+{
+"word": "Day.",
+"start": 47.30679,
+"end": 47.538986
+},
+{
+"word": "Six",
+"start": 48.746426,
+"end": 49.102463
+},
+{
+"word": "million",
+"start": 49.102463,
+"end": 49.396584
+},
+{
+"word": "murdered.",
+"start": 49.396584,
+"end": 49.83002
+},
+{
+"word": "No",
+"start": 50.6969,
+"end": 50.9291
+},
+{
+"word": "food.",
+"start": 50.9291,
+"end": 51.26966
+},
+{
+"word": "Just",
+"start": 52.1675,
+"end": 52.616417
+},
+{
+"word": "silence.",
+"start": 52.709297,
+"end": 53.359455
+},
+{
+"word": "Eight",
+"start": 54.350174,
+"end": 54.597855
+},
+{
+"word": "days",
+"start": 54.597855,
+"end": 54.83005
+},
+{
+"word": "later:",
+"start": 54.83005,
+"end": 55.217052
+},
+{
+"word": "Independence",
+"start": 55.58857,
+"end": 56.14585
+},
+{
+"word": "Day.",
+"start": 56.14585,
+"end": 56.424488
+},
+{
+"word": "Five",
+"start": 57.229446,
+"end": 57.539047
+},
+{
+"word": "armies",
+"start": 57.539047,
+"end": 57.833168
+},
+{
+"word": "invaded.",
+"start": 57.833168,
+"end": 58.282085
+},
+{
+"word": "We",
+"start": 58.885803,
+"end": 59.009644
+},
+{
+"word": "survived.",
+"start": 59.009644,
+"end": 59.566925
+},
+{
+"word": "The",
+"start": 60.480244,
+"end": 60.5886
+},
+{
+"word": "whole",
+"start": 60.5886,
+"end": 60.7434
+},
+{
+"word": "country",
+"start": 60.7434,
+"end": 61.00656
+},
+{
+"word": "grills.",
+"start": 61.00656,
+"end": 61.40904
+},
+{
+"word": "Shavuot.",
+"start": 62.0592,
+"end": 62.69388
+},
+{
+"word": "We",
+"start": 63.498837,
+"end": 63.622677
+},
+{
+"word": "got",
+"start": 63.622677,
+"end": 63.777477
+},
+{
+"word": "the",
+"start": 63.777477,
+"end": 63.870354
+},
+{
+"word": "Torah.",
+"start": 63.870354,
+"end": 64.226395
+},
+{
+"word": "Nobody",
+"start": 64.87656,
+"end": 65.21711
+},
+{
+"word": "tried",
+"start": 65.21711,
+"end": 65.41835
+},
+{
+"word": "to",
+"start": 65.41835,
+"end": 65.48027
+},
+{
+"word": "kill",
+"start": 65.48027,
+"end": 65.69699
+},
+{
+"word": "us.",
+"start": 65.69699,
+"end": 65.99111
+},
+{
+"word": "We",
+"start": 66.62579,
+"end": 66.749626
+},
+{
+"word": "eat",
+"start": 66.749626,
+"end": 66.85799
+},
+{
+"word": "cheesecake",
+"start": 66.85799,
+"end": 67.27595
+},
+{
+"word": "anyway.",
+"start": 67.27595,
+"end": 67.61651
+},
+{
+"word": "Tisha",
+"start": 68.932304,
+"end": 69.226425
+},
+{
+"word": "B'Av.",
+"start": 69.257385,
+"end": 69.73727
+},
+{
+"word": "Babylon",
+"start": 70.41838,
+"end": 70.96018
+},
+{
+"word": "and",
+"start": 70.96018,
+"end": 71.0995
+},
+{
+"word": "Rome",
+"start": 71.0995,
+"end": 71.37814
+},
+{
+"word": "burned",
+"start": 71.37814,
+"end": 71.6413
+},
+{
+"word": "our",
+"start": 71.6413,
+"end": 71.73418
+},
+{
+"word": "Temples.",
+"start": 71.73418,
+"end": 72.27598
+},
+{
+"word": "When",
+"start": 72.91066,
+"end": 73.08094
+},
+{
+"word": "they",
+"start": 73.08094,
+"end": 73.20478
+},
+{
+"word": "won,",
+"start": 73.20478,
+"end": 73.49889
+},
+{
+"word": "we",
+"start": 73.49889,
+"end": 73.622734
+},
+{
+"word": "fast.",
+"start": 73.622734,
+"end": 74.133575
+},
+{
+"word": "Final",
+"start": 74.86114,
+"end": 75.21717
+},
+{
+"word": "score:",
+"start": 75.21717,
+"end": 75.60417
+},
+{
+"word": "four",
+"start": 75.83637,
+"end": 76.20789
+},
+{
+"word": "tried",
+"start": 76.20789,
+"end": 76.409134
+},
+{
+"word": "to",
+"start": 76.409134,
+"end": 76.502014
+},
+{
+"word": "kill",
+"start": 76.502014,
+"end": 76.68777
+},
+{
+"word": "us.",
+"start": 76.68777,
+"end": 76.95093
+},
+{
+"word": "Seven",
+"start": 77.91069,
+"end": 78.32864
+},
+{
+"word": "meals.",
+"start": 78.32864,
+"end": 78.808525
+},
+{
+"word": "Two",
+"start": 79.28841,
+"end": 79.44321
+},
+{
+"word": "fasts.",
+"start": 79.44321,
+"end": 79.95404
+},
+{
+"word": "The",
+"start": 80.759,
+"end": 80.88284
+},
+{
+"word": "secret?",
+"start": 80.88284,
+"end": 81.269844
+},
+{
+"word": "Remember",
+"start": 81.96644,
+"end": 82.26056
+},
+{
+"word": "everything.",
+"start": 82.26056,
+"end": 82.67852
+},
+{
+"word": "Then",
+"start": 83.158394,
+"end": 83.529915
+},
+{
+"word": "set",
+"start": 83.529915,
+"end": 83.731155
+},
+{
+"word": "the",
+"start": 83.731155,
+"end": 83.824036
+},
+{
+"word": "table.",
+"start": 83.824036,
+"end": 84.11816
+},
+{
+"word": "And",
+"start": 85.17079,
+"end": 85.29463
+},
+{
+"word": "the",
+"start": 85.29463,
+"end": 85.38751
+},
+{
+"word": "wheel",
+"start": 85.38751,
+"end": 85.68163
+},
+{
+"word": "turns",
+"start": 86.285355,
+"end": 86.51755
+},
+{
+"word": "again.",
+"start": 86.51755,
+"end": 86.73427
+}
+]
