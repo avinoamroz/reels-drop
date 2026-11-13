@@ -56,22 +56,19 @@ _ORIG_SFX = _CM._sfx_lib
 
 
 class Clip:
-    """lazy per-process reader: frame at local time t (ping-pong loop), cover-resized to 1080x1920 float32"""
+    """whole clip decoded up front by an ffmpeg subprocess (no in-process decoder threads, so the forked render workers
+    cannot deadlock), 540x960 at 24 fps; frame at local time t, ping-pong looping when the shot outlasts the clip"""
+    FPS_ = 24.0
     def __init__(s, path):
-        s.path = path if os.path.isabs(path) else os.path.join(REPO, path); s.cap = None; s.idx = -1; s.last = None
-        c = cv2.VideoCapture(s.path)
-        if not c.isOpened(): raise SystemExit(f"irony_cine: cannot open clip {path}")
-        s.n = int(c.get(cv2.CAP_PROP_FRAME_COUNT)) or 1; s.fps = c.get(cv2.CAP_PROP_FPS) or 30.0; c.release()
-        s.pid = None
+        p = path if os.path.isabs(path) else os.path.join(REPO, path)
+        raw = subprocess.run(["ffmpeg", "-v", "error", "-i", p, "-vf", "scale=540:960:force_original_aspect_ratio=increase,crop=540:960,fps=24",
+                              "-f", "rawvideo", "-pix_fmt", "bgr24", "-"], capture_output=True, check=True).stdout
+        s.fr = np.frombuffer(raw, np.uint8).reshape(-1, 960, 540, 3)
+        if not len(s.fr): raise SystemExit(f"irony_cine: no frames in clip {path}")
+        s.n = len(s.fr); s.fps = s.FPS_
     def frame(s, t):
-        if s.pid != os.getpid(): s.cap = cv2.VideoCapture(s.path); s.idx = -1; s.pid = os.getpid()
         k = int(t * s.fps); m = max(1, s.n - 1); k = k % (2 * m); k = k if k <= m else 2 * m - k
-        if k != s.idx:
-            if k != s.idx + 1: s.cap.set(cv2.CAP_PROP_POS_FRAMES, k)
-            ok, fr = s.cap.read()
-            if ok: s.last = fr
-            s.idx = k
-        return s.last
+        return s.fr[k]
 
 
 def _load(path, gray=False):
