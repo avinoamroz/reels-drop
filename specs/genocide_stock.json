@@ -1,0 +1,486 @@
+{
+ "id": "genocide_stock",
+ "account": "noamroz__",
+ "template": "pop_stock",
+ "hook": "Genocide?|Check the *chart.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.3,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS",
+  "nineteen forty-eight": "1948",
+  "nineteen sixty-seven": "1967",
+  "twenty twenty-three": "2023",
+  "a hundred fifty-six thousand": "156,000",
+  "three hundred fifty-six thousand": "356,000",
+  "six hundred thousand": "600,000",
+  "seventy-four thousand": "74,000",
+  "twenty-two thousand": "22,000",
+  "three point four million": "3.4 million",
+  "two point two million": "2.2 million",
+  "Nineteen forty-eight": "1948"
+ },
+ "lines": [
+  {
+   "say": "Genocide? Check the chart.",
+   "gap": 0.25
+  },
+  {
+   "say": "Nineteen forty-eight: a hundred fifty-six thousand Arabs stayed in Israel.",
+   "gap": 0.15
+  },
+  {
+   "say": "Today? Over two million. Lawmakers. Whole cities.",
+   "gap": 0.2
+  },
+  {
+   "say": "West Bank: six hundred thousand in nineteen sixty-seven. Now, three point four million.",
+   "gap": 0.15
+  },
+  {
+   "say": "Gaza. Three hundred fifty-six thousand. By twenty twenty-three, two point two million.",
+   "gap": 0.2
+  },
+  {
+   "say": "Then came the war. And the line turned red.",
+   "gap": 0.3
+  },
+  {
+   "say": "Gaza's Health Ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>, counts over seventy-four thousand dead, without splitting civilians from fighters.",
+   "gap": 0.2
+  },
+  {
+   "say": "About twenty-two thousand were children. That pain is real.",
+   "gap": 0.35
+  },
+  {
+   "say": "Is a chart the legal answer? No. Legally, genocide means intent to destroy a group.",
+   "gap": 0.15
+  },
+  {
+   "say": "The International Court of Justice is still hearing that case.",
+   "gap": 0.2
+  },
+  {
+   "say": "But a people that grows from a hundred fifty-six thousand to over two million under Israel's flag is not being wiped out.",
+   "gap": 0.25
+  },
+  {
+   "say": "Gaza's war is a tragedy. Judge the word by its definition.",
+   "gap": 0.3
+  },
+  {
+   "say": "So. Genocide? Check the chart."
+  }
+ ],
+ "data": {
+  "hook_y": 330,
+  "map": {
+   "view": [
+    35.05,
+    31.55,
+    330,
+    1090
+   ],
+   "until": "L0:the",
+   "back": "L12",
+   "zoom": 1.08,
+   "labels": [
+    {
+     "lon": 34.85,
+     "lat": 32.45,
+     "text": "Israel",
+     "dx": -120
+    },
+    {
+     "lon": 35.25,
+     "lat": 31.95,
+     "text": "West Bank",
+     "dx": 150
+    },
+    {
+     "lon": 34.4,
+     "lat": 31.42,
+     "text": "Gaza",
+     "dx": -95
+    }
+   ]
+  },
+  "years": [
+   1945,
+   2028
+  ],
+  "ticks": [
+   1950,
+   1970,
+   1990,
+   2010
+  ],
+  "panels": [
+   {
+    "label": "ARABS IN ISRAEL",
+    "y": 150,
+    "h": 400,
+    "unit_max": 2500000,
+    "grid": 1000000,
+    "at": "L0:chart",
+    "points": [
+     [
+      1948,
+      156000
+     ],
+     [
+      1960,
+      239100
+     ],
+     [
+      1970,
+      440100
+     ],
+     [
+      1980,
+      638900
+     ],
+     [
+      1990,
+      875000
+     ],
+     [
+      2000,
+      1188700
+     ],
+     [
+      2010,
+      1573100
+     ],
+     [
+      2020,
+      1957300
+     ],
+     [
+      2026,
+      2157000
+     ]
+    ],
+    "draw": [
+     {
+      "at": "L1:arabs",
+      "until": "L1e",
+      "to": 1990
+     },
+     {
+      "at": "L2",
+      "until": "L2:million",
+      "to": 2026
+     }
+    ],
+    "notes": [
+     {
+      "year": 1967,
+      "text": "from 1967 incl. East Jerusalem",
+      "at": "L1:stayed",
+      "y": 330,
+      "x": 190
+     }
+    ]
+   },
+   {
+    "label": "WEST BANK",
+    "y": 570,
+    "h": 400,
+    "unit_max": 4000000,
+    "grid": 2000000,
+    "at": "L3",
+    "points": [
+     [
+      1967,
+      598637
+     ],
+     [
+      1997,
+      1873476
+     ],
+     [
+      2007,
+      2350583
+     ],
+     [
+      2017,
+      2881957
+     ],
+     [
+      2025,
+      3430000
+     ]
+    ],
+    "draw": [
+     {
+      "at": "L3:six",
+      "until": "L3e",
+      "to": 2025
+     }
+    ],
+    "notes": [
+     {
+      "year": 1967,
+      "text": "1967 count excl. East Jerusalem",
+      "at": "L3:nineteen",
+      "y": 750,
+      "x": 190
+     }
+    ]
+   },
+   {
+    "label": "GAZA STRIP",
+    "y": 990,
+    "h": 400,
+    "unit_max": 3000000,
+    "grid": 1000000,
+    "at": "L4",
+    "points": [
+     [
+      1967,
+      356261
+     ],
+     [
+      1997,
+      1022207
+     ],
+     [
+      2007,
+      1416543
+     ],
+     [
+      2017,
+      1899291
+     ],
+     [
+      2023.5,
+      2226544
+     ],
+     [
+      2025.99,
+      2130000
+     ]
+    ],
+    "draw": [
+     {
+      "at": "L4:three",
+      "until": "L4e",
+      "to": 2023.5
+     },
+     {
+      "at": "L5:and",
+      "until": "L5e",
+      "to": 2025.99
+     }
+    ],
+    "notes": [
+     {
+      "year": 2025,
+      "text": "down about 97,000 since mid 2023",
+      "at": "L5:red",
+      "x": 1010,
+      "y": 1115,
+      "col": "red",
+      "bold": true,
+      "size": 40,
+      "align": "r"
+     }
+    ]
+   }
+  ],
+  "focus": [
+   {
+    "at": "L0:chart",
+    "panel": 0
+   },
+   {
+    "at": "L3",
+    "panel": 1
+   },
+   {
+    "at": "L4",
+    "panel": 2
+   },
+   {
+    "at": "L10",
+    "panel": 0
+   },
+   {
+    "at": "L11",
+    "panel": -1
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/genocide_stock/umm1949.jpg",
+    "at": "L1",
+    "until": "L1:arabs",
+    "credit": "Umm al-Fahm, 1949: Israel GPO, public domain",
+    "kb": [
+     0.42,
+     0.5,
+     1.0,
+     0.45,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/genocide_stock/ual.jpg",
+    "at": "L2:lawmakers",
+    "until": "L2:whole",
+    "credit": "Arab MKs at Beit HaNassi, 2021: Mark Neyman (GPO), CC BY-SA 3.0",
+    "kb": [
+     0.74,
+     0.5,
+     1.0,
+     0.68,
+     0.5,
+     1.1
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/genocide_stock/umm_sunset.jpg",
+    "at": "L2:whole",
+    "until": "L3-0.15",
+    "credit": "Umm al-Fahm: Moataz Egbaria, CC BY-SA 3.0",
+    "kb": [
+     0.72,
+     0.5,
+     1.0,
+     0.7,
+     0.5,
+     1.12
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/genocide_stock/peace.jpg",
+    "at": "L9",
+    "until": "L10-0.1",
+    "credit": "Peace Palace, The Hague: Fred Romero, CC BY 2.0",
+    "kb": [
+     0.84,
+     0.45,
+     1.0,
+     0.75,
+     0.45,
+     1.1
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/genocide_stock/naz.jpg",
+    "at": "L11-0.1",
+    "until": "L12-0.05",
+    "credit": "Nazareth: Zairon, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.3
+   }
+  ],
+  "big": [
+   {
+    "at": "L6:over",
+    "until": "L7-0.05",
+    "value": 74618,
+    "from": 1000,
+    "sub": "people died in Gaza|Health Ministry, HAMAS-run",
+    "y": 930
+   },
+   {
+    "at": "L7",
+    "until": "L7e+0.2",
+    "value": 21976,
+    "from": 1000,
+    "sub": "of them children",
+    "y": 930,
+    "col": "#FFFFFF",
+    "stroke": "#C9D6EA"
+   }
+  ],
+  "quote": [
+   {
+    "at": "L8:legally",
+    "until": "L9-0.1",
+    "text": "acts committed with *intent to destroy,* in whole or in part, a national, ethnical, racial or religious group",
+    "who": "Genocide Convention, 1948, Article II",
+    "y": 900,
+    "size": 62
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Israel CBS, Statistical Abstract 2024; Independence Day release",
+   "year": 2026,
+   "at": "L1",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "1967: Israel CBS census; PCBS censuses 1997 to 2017; PCBS end 2025",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "1967: Israel CBS census; PCBS mid 2023 and end 2025 estimates",
+   "year": 2025,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Gaza Ministry of Health via UN OCHA, 4 Nov 2026 (children: 7 Oct 2026)",
+   "year": 2026,
+   "at": "L6",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "UN Genocide Convention, Art. II",
+   "year": 1948,
+   "at": "L8:legally",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "International Court of Justice (ICJ), South Africa v. Israel, order of 21 May 2026",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10-0.1"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "y": 1010,
+  "balance": "Gaza's war is a *tragedy.* Judge the word by its definition.",
+  "cta": "Send this to *someone*"
+ },
+ "caption_en": "Genocide? Check the chart. 📈\n\nArabs in Israel: about 156,000 in Nov 1948, 2.16 million in April 2026 (Israel CBS; from 1967 the count includes East Jerusalem).\nWest Bank Palestinians: 598,637 in 1967 (Israel CBS census, without East Jerusalem). PCBS censuses: 1.87M (1997), 2.35M (2007), 2.88M (2017). 3.43M at end 2025 (PCBS).\nGaza Strip: 356,261 in 1967 (Israel CBS census). 1.02M (1997), 1.42M (2007), 1.90M (2017), about 2.23M in mid 2023, then down to 2.13M at end 2025 (PCBS). PCBS says that is about 254,000 fewer than its pre-war projection.\n\nGaza's Health Ministry, run by HAMAS, reports 74,618 dead as of 4 Nov 2026 (via UN OCHA), with no split between civilians and fighters. 21,976 of the identified dead are children (7 Oct 2026). That pain is real.\n\nA chart is context, not a legal verdict. Under the 1948 Genocide Convention (Art. II), genocide means acts committed with intent to destroy, in whole or in part, a national, ethnical, racial or religious group. The International Court of Justice (ICJ) case, South Africa v. Israel, is still open: next filings are due in 2027 and 2029.\n\nBut a people that grows from 156,000 to over 2 million under Israel's flag is not being wiped out. Gaza's war is a tragedy. Judge the word by its definition.\n\nNote: both Israel CBS and PCBS count East Jerusalem's Arabs, so the first two lines overlap by a few hundred thousand people.\n\nSources: Israel CBS, Statistical Abstract of Israel 2024 (table 2.1) and Independence Day 2026 release; Israel CBS 1967 census of the West Bank and Gaza (Levy Institute digitized tables); PCBS censuses 1997, 2007, 2017, mid 2023 estimate and end 2025 release (31 Dec 2025); Gaza Ministry of Health via UN OCHA (4 Nov 2026); UN Genocide Convention (1948), Art. II; ICJ order, South Africa v. Israel (21 May 2026).\nPhotos (Wikimedia Commons): Israel GPO (public domain); Mark Neyman, GPO (CC BY-SA 3.0); Moataz Egbaria (CC BY-SA 3.0); Fred Romero (CC BY 2.0); Zairon (CC BY-SA 4.0). AI voice.\n\nSend this to someone who uses the word.",
+ "caption_he": "רצח עם? תבדקו את הגרף.\nערביי ישראל: כ־156,000 ב־1948, 2.16 מיליון היום (הלמ\"ס). יהודה ושומרון: כ־600,000 ב־1967, 3.43 מיליון בסוף 2025. עזה: 356,000 ב־1967, כ־2.2 מיליון ב־2023, ואז ירידה ל־2.13 מיליון בסוף 2025 (הלשכה המרכזית הפלסטינית לסטטיסטיקה).\nמשרד הבריאות בעזה, שבשליטת חמאס, מדווח על יותר מ־74,000 הרוגים, בלי הפרדה בין אזרחים ללוחמים, וכ־22,000 מהם ילדים. הכאב הזה אמיתי.\nרצח עם נמדד לפי כוונה להשמיד קבוצה (אמנת 1948), והתיק בבית הדין הבינלאומי לצדק עדיין פתוח. אבל עם שגדל מ־156,000 ליותר משני מיליון תחת דגל ישראל לא נמחק. המלחמה בעזה היא טרגדיה. תשפטו את המילה לפי ההגדרה.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#facts"
+ ],
+ "cover": {
+  "t": 9.0,
+  "text": "Genocide?|Check the *chart*",
+  "label": "Watch till the end",
+  "dim": 0.75
+ }
+}
