@@ -115,7 +115,7 @@ def _tighten(J, work, maxgap=0.16):
     y, sr = sf.read(f"{work}/vo.wav"); cuts = []                     # (start_s, remove_s)
     hop = int(0.01 * sr); n = len(y) // hop
     rms = np.sqrt(np.mean(y[:n * hop].reshape(n, hop) ** 2, axis=1))
-    quiet = rms < 0.006                                              # measured on the audio: word timestamps can drift
+    quiet = rms < 0.004                                              # measured on the audio: word timestamps can drift
     for L in J["lines"]:
         i0, i1 = int(L["t0"] / 0.01), min(n, int(L["t1"] / 0.01))
         k = i0
@@ -124,7 +124,7 @@ def _tighten(J, work, maxgap=0.16):
                 j = k
                 while j < i1 and quiet[j]: j += 1
                 run = (j - k) * 0.01
-                if run > maxgap + 0.04 and j < i1: cuts.append((k * 0.01 + maxgap / 2, run - maxgap))
+                if run > maxgap + 0.07 and j < i1: cuts.append((k * 0.01 + 0.09, run - maxgap - 0.02))   # keep soft word endings
                 k = j
             else: k += 1
     if not cuts: return J, 0.0
