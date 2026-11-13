@@ -1,0 +1,832 @@
+[
+{
+"word": "Three",
+"start": 0.35603932,
+"end": 0.58823884
+},
+{
+"word": "thousand",
+"start": 0.58823884,
+"end": 0.9287982
+},
+{
+"word": "years.",
+"start": 0.9287982,
+"end": 1.3467574
+},
+{
+"word": "Who",
+"start": 1.9504762,
+"end": 2.0897958
+},
+{
+"word": "lived",
+"start": 2.0897958,
+"end": 2.3684354
+},
+{
+"word": "here?",
+"start": 2.3684354,
+"end": 2.6625547
+},
+{
+"word": "If",
+"start": 2.9721541,
+"end": 3.111474
+},
+{
+"word": "peoples",
+"start": 3.111474,
+"end": 3.3901134
+},
+{
+"word": "were",
+"start": 3.3901134,
+"end": 3.4675133
+},
+{
+"word": "stocks,",
+"start": 3.4675133,
+"end": 4.009312
+},
+{
+"word": "here's",
+"start": 4.133152,
+"end": 4.4272714
+},
+{
+"word": "the",
+"start": 4.4272714,
+"end": 4.520151
+},
+{
+"word": "chart.",
+"start": 4.520151,
+"end": 4.89167
+},
+{
+"word": "Canaanites",
+"start": 5.2167497,
+"end": 5.7585487
+},
+{
+"word": "open",
+"start": 5.789509,
+"end": 6.083628
+},
+{
+"word": "on",
+"start": 6.083628,
+"end": 6.207468
+},
+{
+"word": "top.",
+"start": 6.207468,
+"end": 6.594467
+},
+{
+"word": "Philistines",
+"start": 6.9814663,
+"end": 7.585185
+},
+{
+"word": "list",
+"start": 7.585185,
+"end": 7.848345
+},
+{
+"word": "on",
+"start": 7.848345,
+"end": 7.9412246
+},
+{
+"word": "the",
+"start": 7.9412246,
+"end": 8.034104
+},
+{
+"word": "coast.",
+"start": 8.034104,
+"end": 8.513984
+},
+{
+"word": "Then",
+"start": 8.777143,
+"end": 8.962902
+},
+{
+"word": "the",
+"start": 8.962902,
+"end": 9.086742
+},
+{
+"word": "Jewish",
+"start": 9.086742,
+"end": 9.349902
+},
+{
+"word": "stock",
+"start": 9.349902,
+"end": 9.659501
+},
+{
+"word": "rallies",
+"start": 9.659501,
+"end": 10.01554
+},
+{
+"word": "to",
+"start": 10.01554,
+"end": 10.13938
+},
+{
+"word": "three",
+"start": 10.13938,
+"end": 10.37158
+},
+{
+"word": "hundred",
+"start": 10.37158,
+"end": 10.681179
+},
+{
+"word": "fifty",
+"start": 10.681179,
+"end": 10.944339
+},
+{
+"word": "thousand.",
+"start": 10.944339,
+"end": 11.300378
+},
+{
+"word": "Crash.",
+"start": 11.486137,
+"end": 12.027937
+},
+{
+"word": "Assyria,",
+"start": 12.600696,
+"end": 13.157974
+},
+{
+"word": "then",
+"start": 13.374694,
+"end": 13.606894
+},
+{
+"word": "Babylon.",
+"start": 13.606894,
+"end": 14.086773
+},
+{
+"word": "The",
+"start": 14.427332,
+"end": 14.551171
+},
+{
+"word": "First",
+"start": 14.551171,
+"end": 14.814331
+},
+{
+"word": "Temple",
+"start": 14.814331,
+"end": 15.046531
+},
+{
+"word": "falls.",
+"start": 15.046531,
+"end": 15.51093
+},
+{
+"word": "Exiles",
+"start": 15.774089,
+"end": 16.161089
+},
+{
+"word": "return,",
+"start": 16.161089,
+"end": 16.610008
+},
+{
+"word": "Greeks",
+"start": 16.671926,
+"end": 16.966047
+},
+{
+"word": "arrive,",
+"start": 16.966047,
+"end": 17.399487
+},
+{
+"word": "and",
+"start": 17.662645,
+"end": 17.817446
+},
+{
+"word": "the",
+"start": 17.817446,
+"end": 17.879366
+},
+{
+"word": "Hasmoneans",
+"start": 17.879366,
+"end": 18.622404
+},
+{
+"word": "spark",
+"start": 18.684324,
+"end": 19.040363
+},
+{
+"word": "a",
+"start": 19.040363,
+"end": 19.102283
+},
+{
+"word": "rally.",
+"start": 19.102283,
+"end": 19.489283
+},
+{
+"word": "Peak:",
+"start": 19.96916,
+"end": 20.27876
+},
+{
+"word": "about",
+"start": 20.54192,
+"end": 20.820559
+},
+{
+"word": "seven",
+"start": 20.820559,
+"end": 21.08372
+},
+{
+"word": "hundred",
+"start": 21.08372,
+"end": 21.331398
+},
+{
+"word": "fifty",
+"start": 21.331398,
+"end": 21.594559
+},
+{
+"word": "thousand.",
+"start": 21.594559,
+"end": 21.950598
+},
+{
+"word": "Then",
+"start": 22.600756,
+"end": 22.801996
+},
+{
+"word": "Rome",
+"start": 22.801996,
+"end": 23.018715
+},
+{
+"word": "burns",
+"start": 23.018715,
+"end": 23.343794
+},
+{
+"word": "the",
+"start": 23.343794,
+"end": 23.436674
+},
+{
+"word": "Temple",
+"start": 23.436674,
+"end": 23.885593
+},
+{
+"word": "and",
+"start": 23.916553,
+"end": 24.040394
+},
+{
+"word": "crushes",
+"start": 24.040394,
+"end": 24.365473
+},
+{
+"word": "Bar",
+"start": 24.365473,
+"end": 24.551231
+},
+{
+"word": "Kokhba.",
+"start": 24.551231,
+"end": 24.93823
+},
+{
+"word": "Christians",
+"start": 25.57291,
+"end": 26.06827
+},
+{
+"word": "take",
+"start": 26.06827,
+"end": 26.254028
+},
+{
+"word": "the",
+"start": 26.254028,
+"end": 26.377869
+},
+{
+"word": "lead.",
+"start": 26.377869,
+"end": 26.702948
+},
+{
+"word": "After",
+"start": 27.120907,
+"end": 27.399546
+},
+{
+"word": "the",
+"start": 27.399546,
+"end": 27.523386
+},
+{
+"word": "Arab",
+"start": 27.523386,
+"end": 27.786545
+},
+{
+"word": "conquest,",
+"start": 27.786545,
+"end": 28.359304
+},
+{
+"word": "Muslims",
+"start": 28.560545,
+"end": 28.993984
+},
+{
+"word": "slowly",
+"start": 28.993984,
+"end": 29.350023
+},
+{
+"word": "become",
+"start": 29.350023,
+"end": 29.613182
+},
+{
+"word": "the",
+"start": 29.613182,
+"end": 29.737022
+},
+{
+"word": "majority.",
+"start": 29.737022,
+"end": 30.27882
+},
+{
+"word": "Crusades,",
+"start": 30.66582,
+"end": 31.36242
+},
+{
+"word": "plague,",
+"start": 31.532698,
+"end": 32.043537
+},
+{
+"word": "empires.",
+"start": 32.105457,
+"end": 32.740135
+},
+{
+"word": "The",
+"start": 33.127136,
+"end": 33.250977
+},
+{
+"word": "whole",
+"start": 33.250977,
+"end": 33.421253
+},
+{
+"word": "market",
+"start": 33.421253,
+"end": 33.730854
+},
+{
+"word": "shrinks.",
+"start": 33.730854,
+"end": 34.17977
+},
+{
+"word": "The",
+"start": 34.566772,
+"end": 34.659653
+},
+{
+"word": "Jewish",
+"start": 34.659653,
+"end": 34.953773
+},
+{
+"word": "stock",
+"start": 34.953773,
+"end": 35.29433
+},
+{
+"word": "bottoms",
+"start": 35.29433,
+"end": 35.58845
+},
+{
+"word": "out",
+"start": 35.58845,
+"end": 35.71229
+},
+{
+"word": "at",
+"start": 35.71229,
+"end": 35.805172
+},
+{
+"word": "seven",
+"start": 35.805172,
+"end": 36.03737
+},
+{
+"word": "thousand.",
+"start": 36.03737,
+"end": 36.42437
+},
+{
+"word": "But",
+"start": 37.028088,
+"end": 37.151928
+},
+{
+"word": "never",
+"start": 37.151928,
+"end": 37.38413
+},
+{
+"word": "zero:",
+"start": 37.38413,
+"end": 37.894966
+},
+{
+"word": "Jerusalem,",
+"start": 38.049767,
+"end": 38.622524
+},
+{
+"word": "Safed,",
+"start": 38.699924,
+"end": 39.210762
+},
+{
+"word": "Hebron,",
+"start": 39.334602,
+"end": 39.845444
+},
+{
+"word": "Tiberias.",
+"start": 39.876404,
+"end": 40.51108
+},
+{
+"word": "Eighteen",
+"start": 41.05288,
+"end": 41.40892
+},
+{
+"word": "eighty-two:",
+"start": 41.40892,
+"end": 41.919758
+},
+{
+"word": "the",
+"start": 42.05908,
+"end": 42.15196
+},
+{
+"word": "comeback",
+"start": 42.15196,
+"end": 42.538956
+},
+{
+"word": "starts.",
+"start": 42.538956,
+"end": 42.972397
+},
+{
+"word": "Nineteen",
+"start": 43.266514,
+"end": 43.653515
+},
+{
+"word": "forty-eight:",
+"start": 43.653515,
+"end": 44.195312
+},
+{
+"word": "Israel",
+"start": 44.613274,
+"end": 45.03123
+},
+{
+"word": "is",
+"start": 45.03123,
+"end": 45.15507
+},
+{
+"word": "born,",
+"start": 45.15507,
+"end": 45.480152
+},
+{
+"word": "and",
+"start": 45.77427,
+"end": 45.92907
+},
+{
+"word": "about",
+"start": 45.92907,
+"end": 46.14579
+},
+{
+"word": "seven",
+"start": 46.14579,
+"end": 46.43991
+},
+{
+"word": "hundred",
+"start": 46.43991,
+"end": 46.718548
+},
+{
+"word": "thousand",
+"start": 46.718548,
+"end": 47.10555
+},
+{
+"word": "Arabs",
+"start": 47.10555,
+"end": 47.399666
+},
+{
+"word": "flee",
+"start": 47.399666,
+"end": 47.616386
+},
+{
+"word": "or",
+"start": 47.616386,
+"end": 47.786667
+},
+{
+"word": "are",
+"start": 47.786667,
+"end": 47.910507
+},
+{
+"word": "expelled.",
+"start": 47.910507,
+"end": 48.483265
+},
+{
+"word": "Then",
+"start": 49.148903,
+"end": 49.412064
+},
+{
+"word": "Jews",
+"start": 49.412064,
+"end": 49.706184
+},
+{
+"word": "from",
+"start": 49.706184,
+"end": 49.89194
+},
+{
+"word": "Arab",
+"start": 49.89194,
+"end": 50.12414
+},
+{
+"word": "lands",
+"start": 50.12414,
+"end": 50.526623
+},
+{
+"word": "and",
+"start": 50.557583,
+"end": 50.75882
+},
+{
+"word": "the",
+"start": 50.75882,
+"end": 50.82074
+},
+{
+"word": "former",
+"start": 50.82074,
+"end": 51.14582
+},
+{
+"word": "Soviet",
+"start": 51.14582,
+"end": 51.548298
+},
+{
+"word": "Union.",
+"start": 51.548298,
+"end": 51.90434
+},
+{
+"word": "Today:",
+"start": 52.02818,
+"end": 52.446136
+},
+{
+"word": "seven",
+"start": 52.926018,
+"end": 53.343975
+},
+{
+"word": "point",
+"start": 53.343975,
+"end": 53.498775
+},
+{
+"word": "six",
+"start": 53.514256,
+"end": 53.792896
+},
+{
+"word": "million",
+"start": 53.792896,
+"end": 54.087013
+},
+{
+"word": "Jews,",
+"start": 54.087013,
+"end": 54.504974
+},
+{
+"word": "six",
+"start": 54.566895,
+"end": 54.90745
+},
+{
+"word": "point",
+"start": 54.90745,
+"end": 55.046772
+},
+{
+"word": "nine",
+"start": 55.046772,
+"end": 55.263493
+},
+{
+"word": "million",
+"start": 55.263493,
+"end": 55.526653
+},
+{
+"word": "Muslims.",
+"start": 55.526653,
+"end": 56.03749
+},
+{
+"word": "And",
+"start": 56.61025,
+"end": 56.79601
+},
+{
+"word": "Christians,",
+"start": 56.79601,
+"end": 57.337807
+},
+{
+"word": "Druze,",
+"start": 57.337807,
+"end": 57.817688
+},
+{
+"word": "even",
+"start": 57.86413,
+"end": 58.142765
+},
+{
+"word": "nine",
+"start": 58.142765,
+"end": 58.405926
+},
+{
+"word": "hundred",
+"start": 58.405926,
+"end": 58.653606
+},
+{
+"word": "Samaritans.",
+"start": 58.653606,
+"end": 59.319244
+},
+{
+"word": "Many",
+"start": 59.644325,
+"end": 59.876522
+},
+{
+"word": "peoples",
+"start": 59.876522,
+"end": 60.186123
+},
+{
+"word": "call",
+"start": 60.186123,
+"end": 60.418324
+},
+{
+"word": "this",
+"start": 60.418324,
+"end": 60.57312
+},
+{
+"word": "land",
+"start": 60.57312,
+"end": 60.80532
+},
+{
+"word": "home.",
+"start": 60.80532,
+"end": 61.08396
+},
+{
+"word": "The",
+"start": 61.71864,
+"end": 61.827
+},
+{
+"word": "Jewish",
+"start": 61.827,
+"end": 62.1366
+},
+{
+"word": "line",
+"start": 62.1366,
+"end": 62.337837
+},
+{
+"word": "never",
+"start": 62.337837,
+"end": 62.616478
+},
+{
+"word": "hit",
+"start": 62.616478,
+"end": 62.7558
+},
+{
+"word": "zero.",
+"start": 62.7558,
+"end": 63.204716
+},
+{
+"word": "Three",
+"start": 63.901314,
+"end": 64.148994
+},
+{
+"word": "thousand",
+"start": 64.148994,
+"end": 64.443115
+},
+{
+"word": "years.",
+"start": 64.443115,
+"end": 64.923
+},
+{
+"word": "Who",
+"start": 65.13971,
+"end": 65.24807
+},
+{
+"word": "lived",
+"start": 65.24807,
+"end": 65.49575
+},
+{
+"word": "here?",
+"start": 65.49575,
+"end": 65.78987
+}
+]
