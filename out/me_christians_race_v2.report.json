@@ -1,0 +1,153 @@
+{
+ "id": "me_christians_race_v2",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Bethlehem: *86%* Christian.|Now *12%.*",
+ "duration": 62.73,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/me_christians_race_v2.mp4",
+  "cover": "covers/me_christians_race_v2_cover.jpg",
+  "preview": "previews/me_christians_race_v2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/me_christians_race_v2_0.jpg",
+  "1": "out/frames/me_christians_race_v2_1.jpg",
+  "3": "out/frames/me_christians_race_v2_3.jpg",
+  "last": "out/frames/me_christians_race_v2_last.jpg"
+ },
+ "caption_en": "CAPTION_IN_PAYLOAD",
+ "caption_he": "CAPTION_IN_PAYLOAD",
+ "hashtags": [
+  "#Israel",
+  "#Christians",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "Times of Israel via EUAA, 1950 and 2016 (estimates)",
+   "year": 2016,
+   "at": 0,
+   "until": "L1"
+  },
+  {
+   "label": "US State Dept 2023, Open Doors 2024",
+   "year": 2024,
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Al Jazeera",
+   "year": 2014,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Pew, Open Doors, State Dept, Israel CBS",
+   "year": 2024,
+   "at": "L5",
+   "until": "L10"
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": 2025,
+   "at": "L10",
+   "until": "L12"
+  },
+  {
+   "label": "AFP via Arab News",
+   "year": 2023,
+   "at": "L12",
+   "until": "END"
+  }
+ ],
+ "transcript": {
+  "score": 0.968,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Bethlehem: eighty six percent Christian in 1950. By 2016, about twelve.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And it's not just Bethlehem.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq had one and a half million Christians before 2003, by Christian leaders' count.",
+    "score": 0.765,
+    "flag": "MISS"
+   },
+   {
+    "line": "Today, fewer than two hundred thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2014, ISIS, the Islamic State group, took Mosul and told Christians: convert, pay, or die.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the region: the Christian share of each country, before the wars and today.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria: one in ten before the war. Now, about two percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq: about six percent, down to under half a percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon: from a third to twenty eight percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's share slipped too: two percent to one point nine.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "One place the number keeps growing: Israel. Thirty six thousand Christians in 1950. One hundred eighty four thousand today.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Arab Christians in Israel start degrees more often than Hebrew school graduates.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So next time someone asks about Middle East Christians, start here:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Bethlehem? 86% Christian in 1950. By 2016, about 12. And it's not just Bethlehem. Iraq had 1.5 million Christians before 2003 by Christian leaders count. Today, fewer than 200,000. In 2014, ISIS, the Islamic State group, took Mosul and told Christians, Convert, pay or die. Now the region, the Christians share of each country before the wars and today. Syria. One in ten before the war. Now, about 2%. Iraq. About 6%. Down to under half a percent. Lebanon. From a third to 28%. Israel's share slipped 2%. 2% to 1.9%. One place the number keeps growing. Israel. 36,000 Christians in 1950. 184,000 today. And Arab Christians in Israel start degrees more often than Hebrew school graduates. Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration. So next time someone asks about Middle East Christians, start here.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 189.7
+}
