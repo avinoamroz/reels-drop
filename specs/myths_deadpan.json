@@ -1,0 +1,316 @@
+{
+ "id": "myths_deadpan",
+ "account": "noamroz__",
+ "template": "myth_scroll",
+ "hook": "*4* medieval myths|about Jews. *Busted.*",
+ "music": {
+  "bed": "skip",
+  "serious": "soft_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.5,
+  "gap": 0.16
+ },
+ "lines": [
+  {
+   "say": "Four medieval myths about Jews. Busted.",
+   "gap": 0.3
+  },
+  {
+   "say": "Myth one: Jews bake Christian blood into matzah.",
+   "gap": 0.45
+  },
+  {
+   "say": "Have you tasted matzah? Nothing has ever been added to matzah. That's the point.",
+   "gap": 0.75
+  },
+  {
+   "say": "Also, Jewish law bans eating blood. We salt it out of steak.",
+   "gap": 0.75
+  },
+  {
+   "say": "Norwich, eleven forty-four: the first such lie. A pope condemned it. Jews were still killed for centuries.",
+   "gap": 0.35
+  },
+  {
+   "say": "Myth two: Jews poisoned the wells and caused the Black Death.",
+   "gap": 0.45
+  },
+  {
+   "say": "We drank from the same wells. Worst plan ever.",
+   "gap": 0.75
+  },
+  {
+   "say": "Jews died of plague too. Strasbourg, thirteen forty-nine: up to two thousand burned.",
+   "gap": 0.35
+  },
+  {
+   "say": "Myth three: Jews secretly run the world.",
+   "gap": 0.45
+  },
+  {
+   "say": "If we ran the world, would we pick the one spot in the Middle East with basically no oil?",
+   "gap": 0.75
+  },
+  {
+   "say": "The proof? A forgery, exposed in nineteen twenty-one. The Nazis printed it anyway.",
+   "gap": 0.35
+  },
+  {
+   "say": "Myth four: Jews killed Jesus. All of us. Forever.",
+   "gap": 0.45
+  },
+  {
+   "say": "Even the Vatican cleared us. In writing. In nineteen sixty-five. We had it framed.",
+   "gap": 0.75
+  },
+  {
+   "say": "Before that, the charge fueled massacres, from ten ninety-six on.",
+   "gap": 0.45
+  },
+  {
+   "say": "The jokes are ours. The consequences were real.",
+   "gap": 0.2
+  }
+ ],
+ "data": {
+  "title": {
+   "head": "MEDIEVAL MYTHS ABOUT JEWS",
+   "items": [
+    "Blood in matzah",
+    "Poisoned wells",
+    "Running the world",
+    "Killing Jesus"
+   ]
+  },
+  "counter": {
+   "label": "Myths busted",
+   "of": 4,
+   "y": 128
+  },
+  "hook_y": 300,
+  "hook_until": "L0e",
+  "scenes": [
+   {
+    "kind": "title",
+    "at": 0
+   },
+   {
+    "kind": "myth",
+    "at": "L1-0.15",
+    "n": 1,
+    "text": "Jews bake *Christian blood*|into matzah.",
+    "stamp_at": "L1e+0.12"
+   },
+   {
+    "kind": "joke",
+    "at": "L2-0.1",
+    "emoji": "🫓",
+    "text": "Have you *tasted* matzah?|Nothing has ever been added.",
+    "sting": "L2e+0.08",
+    "photo": {
+     "file": "templates/photos/myths_deadpan/matzah.jpg",
+     "credit": "HaJunkiyada, CC BY-SA 4.0, Wikimedia",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.46,
+      1.15
+     ]
+    }
+   },
+   {
+    "kind": "joke",
+    "at": "L3-0.1",
+    "emoji": "🧂",
+    "text": "Jewish law bans eating blood.|We *salt it out* of steak.",
+    "sting": "L3e+0.08"
+   },
+   {
+    "kind": "fact",
+    "at": "L4-0.1",
+    "kicker": "WHAT REALLY HAPPENED",
+    "big": "1144",
+    "text": "Norwich, England. A pope condemned it in *1247.* Killings went on.",
+    "photo": {
+     "file": "templates/photos/myths_deadpan/norwich.jpg",
+     "credit": "Norwich Cathedral. Michael Dibb, CC BY-SA 2.0",
+     "kb": [
+      0.55,
+      0.4,
+      1.0,
+      0.6,
+      0.38,
+      1.12
+     ]
+    }
+   },
+   {
+    "kind": "myth",
+    "at": "L5-0.15",
+    "n": 2,
+    "text": "Jews *poisoned*|*the wells* and caused|the Black Death.",
+    "stamp_at": "L5e+0.12"
+   },
+   {
+    "kind": "joke",
+    "at": "L6-0.1",
+    "emoji": "🪣",
+    "text": "We drank from *the same wells.*|Worst plan ever.",
+    "sting": "L6e+0.08"
+   },
+   {
+    "kind": "fact",
+    "at": "L7-0.1",
+    "kicker": "WHAT REALLY HAPPENED",
+    "big": "1349",
+    "text": "Strasbourg: up to *2,000* Jews burned. A pope had defended them.",
+    "photo": {
+     "file": "templates/photos/myths_deadpan/strasbourg.jpg",
+     "credit": "Rue Brûlée, Strasbourg. J. Naeher, public domain",
+     "kb": [
+      0.55,
+      0.45,
+      1.0,
+      0.6,
+      0.45,
+      1.1
+     ]
+    }
+   },
+   {
+    "kind": "myth",
+    "at": "L8-0.15",
+    "n": 3,
+    "text": "Jews *secretly run*|the world.",
+    "stamp_at": "L8e+0.12"
+   },
+   {
+    "kind": "joke",
+    "at": "L9-0.1",
+    "emoji": "🛢️",
+    "text": "We'd pick the one spot|with *basically no oil?*",
+    "sting": "L9e+0.08"
+   },
+   {
+    "kind": "fact",
+    "at": "L10-0.1",
+    "kicker": "THE \"PROOF\"",
+    "big": "1921",
+    "text": "*The Protocols:* a forgery, exposed by The Times. Nazis reprinted it anyway.",
+    "photo": {
+     "file": "templates/photos/myths_deadpan/times.jpg",
+     "credit": "The Times, Aug 1921. Public domain",
+     "kb": [
+      0.5,
+      0.1,
+      1.0,
+      0.5,
+      0.14,
+      1.04
+     ]
+    }
+   },
+   {
+    "kind": "myth",
+    "at": "L11-0.15",
+    "n": 4,
+    "text": "Jews killed Jesus.|*All of them. Forever.*",
+    "stamp_at": "L11e+0.12"
+   },
+   {
+    "kind": "joke",
+    "at": "L12-0.1",
+    "emoji": "🖼️",
+    "text": "The Vatican cleared us.|In writing. *1965.*",
+    "sting": "L12e+0.08",
+    "photo": {
+     "file": "templates/photos/myths_deadpan/council.jpg",
+     "credit": "Vatican II, 1962. P. Geymayer, public domain",
+     "kb": [
+      0.6,
+      0.5,
+      1.0,
+      0.62,
+      0.48,
+      1.1
+     ]
+    }
+   },
+   {
+    "kind": "fact",
+    "at": "L13-0.1",
+    "kicker": "WHAT REALLY HAPPENED",
+    "big": "1096",
+    "text": "First Crusade, Rhineland: thousands of Jews killed as \"Christ killers\"."
+   },
+   {
+    "kind": "end",
+    "at": "L14-0.1",
+    "l1": "The jokes are ours.",
+    "l2": "The consequences|were real.",
+    "l2_at": "L14:the#2"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Torah, Leviticus 17:12; kashering meat by salting",
+   "year": "",
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Norwich charge (Thomas of Monmouth), 1144; Pope Innocent IV bull, 1247",
+   "year": "1144",
+   "at": "L4",
+   "until": "L5-0.2"
+  },
+  {
+   "label": "Pope Clement VI bulls, 1348; R. Gottfried, The Black Death",
+   "year": "1983",
+   "at": "L7",
+   "until": "L8-0.2"
+  },
+  {
+   "label": "Proven oil: Israel about 12M barrels, Saudi Arabia about 260B (US EIA)",
+   "year": "",
+   "at": "L9",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Philip Graves, The Times (London), Aug 1921; USHMM",
+   "year": "1921",
+   "at": "L10",
+   "until": "L11-0.2"
+  },
+  {
+   "label": "Nostra Aetate, Second Vatican Council, 28 Oct 1965",
+   "year": "1965",
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "Rhineland massacres (Jewish Virtual Library, The Crusades)",
+   "year": "1096",
+   "at": "L13",
+   "until": "L14-0.2"
+  }
+ ],
+ "caption_en": "Four medieval myths about Jews. Rated by a Jew. 🫓\n\n1. Blood in matzah. Jewish law forbids eating blood (Leviticus 17:12); kosher meat is salted to draw the blood out. The ritual murder charge began in Norwich, England, in 1144. Pope Innocent IV condemned the blood libel in 1247 (Lachrymabilem Judaeorum). Jews were still killed over it for centuries.\n\n2. Poisoned wells and the Black Death. Jews died of plague like everyone else; Pope Clement VI said so in his 1348 bulls. In Strasbourg, on 14 Feb 1349, up to 2,000 Jews were burned (R. Gottfried, The Black Death, 1983; other counts say about 900).\n\n3. Running the world. Israel's proven oil reserves: about 12 million barrels; Saudi Arabia: about 260 billion (US EIA). The 'proof', the Protocols of the Elders of Zion, was a forgery first printed in Russia in 1903 and exposed by Philip Graves in The Times, 16 to 18 Aug 1921. The Nazi Party published at least 23 editions (USHMM).\n\n4. Killing Jesus. Nostra Aetate, Second Vatican Council, 28 Oct 1965: what happened in His passion 'cannot be charged against all the Jews, without distinction, then alive, nor against the Jews of today.' Before that, the charge fed massacres: in 1096, First Crusade mobs killed thousands of Jews in the Rhineland (Jewish Virtual Library).\n\nThe jokes are ours. The consequences were real.\n\nPhotos: HaJunkiyada (CC BY-SA 4.0); Michael Dibb (CC BY-SA 2.0); Julius Naeher (public domain); The Times 1921 (public domain); Peter Geymayer (public domain); via Wikimedia Commons. AI voice.\nSend this to someone who still believes one of them.",
+ "caption_he": "ארבעה מיתוסים מימי הביניים על יהודים, בדירוג של יהודי.\nדם במצות? ההלכה אוסרת לאכול דם (ויקרא י״ז), ואנחנו אפילו מוציאים אותו מהבשר במליחה. העלילה התחילה בנוריץ׳, אנגליה, ב־1144. האפיפיור אינוקנטיוס הרביעי גינה אותה ב־1247.\nהרעלת בארות? יהודים מתו במגפה כמו כולם. בשטרסבורג, 1349: עד 2,000 יהודים נשרפו.\nשליטה בעולם? ההוכחה, הפרוטוקולים של זקני ציון, היא זיוף שנחשף ב־1921. הנאצים הדפיסו אותו בכל זאת.\nרצח ישו? הוותיקן ניקה אותנו בכתב, נוסטרה אטטה, 1965. לפני כן, ב־1096, נטבחו אלפי יהודים בחבל הריין.\nהבדיחות שלנו. התוצאות היו אמיתיות.",
+ "hashtags": [
+  "#Jewish",
+  "#History",
+  "#Antisemitism"
+ ],
+ "cover": {
+  "t": 1.6,
+  "text": "*4* medieval myths|about Jews",
+  "label": "Rated by a Jew. Deadpan."
+ }
+}
