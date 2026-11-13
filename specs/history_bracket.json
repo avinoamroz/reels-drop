@@ -1,0 +1,764 @@
+{
+ "id": "history_bracket",
+ "account": "noamroz__",
+ "template": "bracket",
+ "hook": "*3,000* year tournament.|Who's *still standing?*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Three thousand": "3,000",
+  "twenty-seven thousand": "27,000",
+  "Nineteen forty-eight": "1948"
+ },
+ "lines": [
+  {
+   "say": "Three thousand year tournament. Who's still standing?",
+   "gap": 0.2
+  },
+  {
+   "say": "Two rivals per match. Winner moves up.",
+   "gap": 0.15
+  },
+  {
+   "say": "Match one: Egypt versus Israel. By tradition, Pharaoh's army almost catches them. They escape.",
+   "gap": 0.15
+  },
+  {
+   "say": "Then Pharaoh Merneptah carves a result in stone: Israel is laid waste, his seed is not.",
+   "gap": 0.2
+  },
+  {
+   "say": "Match two: Assyria beats the Kingdom of Israel. Sargon boasts of over twenty-seven thousand captives.",
+   "gap": 0.15
+  },
+  {
+   "say": "Then Babylon and the Medes knock out Assyria. Nineveh falls.",
+   "gap": 0.15
+  },
+  {
+   "say": "Babylon beats Judah. The First Temple burns. Exile.",
+   "gap": 0.15
+  },
+  {
+   "say": "Comeback: Persia beats Babylon, and Cyrus lets the exiles go home.",
+   "gap": 0.15
+  },
+  {
+   "say": "Alexander's Greeks beat Persia.",
+   "gap": 0.15
+  },
+  {
+   "say": "Upset of the tournament: the Hasmoneans beat the Seleucid Greeks. That's Hanukkah.",
+   "gap": 0.15
+  },
+  {
+   "say": "Then Rome burns the Second Temple, crushes Bar Kokhba, and bans Jews from Jerusalem.",
+   "gap": 0.2
+  },
+  {
+   "say": "The Assyrian Empire, gone. Babylon's, gone. Persia's, gone. The Seleucids, gone. Western Rome, gone.",
+   "gap": 0.2
+  },
+  {
+   "say": "The empires fell. Their peoples moved on.",
+   "gap": 0.2
+  },
+  {
+   "say": "The team that lost almost every match? Nineteen forty-eight. Same land, same language, same city.",
+   "gap": 0.2
+  },
+  {
+   "say": "Mark Twain: All things are mortal but the Jew; all other forces pass, but he remains.",
+   "gap": 0.2
+  },
+  {
+   "say": "The tournament is still on. Who's still standing?",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "title": "3,000 YEAR TOURNAMENT",
+  "tail": 1.0,
+  "map": {
+   "view": [
+    32.5,
+    33.5,
+    28.8
+   ]
+  },
+  "places": {
+   "MEM": [
+    31.25,
+    29.85,
+    "Memphis"
+   ],
+   "CAN": [
+    35.2,
+    32.0,
+    "Canaan"
+   ],
+   "SAM": [
+    35.19,
+    32.28,
+    "Samaria"
+   ],
+   "NIN": [
+    43.15,
+    36.36,
+    "Nineveh"
+   ],
+   "BAB": [
+    44.42,
+    32.54,
+    "Babylon",
+    0,
+    104
+   ],
+   "JRS": [
+    35.23,
+    31.78,
+    "Jerusalem",
+    0,
+    104
+   ],
+   "SUS": [
+    48.26,
+    32.19,
+    "Susa",
+    -20,
+    0
+   ],
+   "PEL": [
+    22.52,
+    40.76,
+    "Pella",
+    0,
+    104
+   ],
+   "ANT": [
+    36.16,
+    36.2,
+    "Antioch"
+   ],
+   "ROM": [
+    12.5,
+    41.9,
+    "Rome",
+    40,
+    104
+   ]
+  },
+  "teams": {
+   "EGY": {
+    "name": "EGYPT",
+    "abbr": "EGY",
+    "col": "#2BB3A6",
+    "place": "MEM"
+   },
+   "ISR0": {
+    "name": "ISRAEL",
+    "abbr": "ISR",
+    "hero": true,
+    "place": "CAN"
+   },
+   "ISR": {
+    "name": "ISRAEL",
+    "abbr": "ISR",
+    "hero": true,
+    "place": "SAM"
+   },
+   "ASY": {
+    "name": "ASSYRIA",
+    "abbr": "ASY",
+    "col": "#8E6CEF",
+    "place": "NIN"
+   },
+   "BAB": {
+    "name": "BABYLON",
+    "abbr": "BAB",
+    "col": "#3E7BFA",
+    "place": "BAB"
+   },
+   "JUD": {
+    "name": "JUDAH",
+    "abbr": "JUD",
+    "hero": true,
+    "place": "JRS"
+   },
+   "PER": {
+    "name": "PERSIA",
+    "abbr": "PER",
+    "col": "#E0844A",
+    "place": "SUS"
+   },
+   "GRE": {
+    "name": "GREEKS",
+    "abbr": "GRE",
+    "col": "#45A4DD",
+    "place": "PEL"
+   },
+   "SEL": {
+    "name": "SELEUCIDS",
+    "abbr": "SEL",
+    "col": "#45A4DD",
+    "place": "ANT"
+   },
+   "HAS": {
+    "name": "HASMONEANS",
+    "abbr": "HAS",
+    "hero": true,
+    "place": "JRS"
+   },
+   "JDA": {
+    "name": "JUDEA",
+    "abbr": "JUD",
+    "hero": true,
+    "place": "JRS"
+   },
+   "ROM": {
+    "name": "ROME",
+    "abbr": "ROM",
+    "col": "#C2416B",
+    "place": "ROM"
+   }
+  },
+  "matches": [
+   {
+    "a": "EGY",
+    "b": "ISR0",
+    "at": -1.0,
+    "win": "a",
+    "win_at": "L3:stone",
+    "note": "claims the win",
+    "chip_lose": "ESCAPED"
+   },
+   {
+    "a": "ASY",
+    "b": "ISR",
+    "at": "L4:match",
+    "win": "a",
+    "win_at": "L4:beats",
+    "note": "27,290 captives",
+    "chip_lose": "EXILED"
+   },
+   {
+    "a": "BAB",
+    "b": "ASY",
+    "at": "L5-0.1",
+    "win": "a",
+    "win_at": "L5:knock",
+    "note": "with the Medes",
+    "chip_lose": "OUT"
+   },
+   {
+    "a": "JUD",
+    "b": "BAB",
+    "at": "L6-0.1",
+    "win": "b",
+    "win_at": "L6:beats",
+    "note": "First Temple burns",
+    "chip_lose": "EXILED"
+   },
+   {
+    "a": "PER",
+    "b": "BAB",
+    "at": "L7:persia-0.3",
+    "win": "a",
+    "win_at": "L7:beats",
+    "note": "exiles go home",
+    "chip_lose": "OUT"
+   },
+   {
+    "a": "GRE",
+    "b": "PER",
+    "at": "L8-0.1",
+    "win": "a",
+    "win_at": "L8:beat",
+    "note": "Alexander",
+    "chip_lose": "OUT"
+   },
+   {
+    "a": "HAS",
+    "b": "SEL",
+    "at": "L9:hasmoneans-0.4",
+    "win": "a",
+    "win_at": "L9:beat",
+    "note": "Hanukkah",
+    "win_tag": "UPSET",
+    "chip_lose": "OUT",
+    "carry_to": []
+   },
+   {
+    "a": "ROM",
+    "b": "JDA",
+    "at": "L10-0.1",
+    "win": "a",
+    "win_at": "L10:burns",
+    "note": "Second Temple burns",
+    "chip_lose": "BANNED"
+   }
+  ],
+  "final": {
+   "at": "L13:nineteen",
+   "title": "FINAL",
+   "name": "ISRAEL 1948",
+   "sub": "STILL STANDING"
+  },
+  "cams": [
+   {
+    "at": 0,
+    "k": 0,
+    "dur": 0.1
+   },
+   {
+    "at": "L4-0.2",
+    "k": 1
+   },
+   {
+    "at": "L5-0.35",
+    "k": 2
+   },
+   {
+    "at": "L6-0.35",
+    "k": 3
+   },
+   {
+    "at": "L7",
+    "k": 4
+   },
+   {
+    "at": "L8-0.35",
+    "k": 5
+   },
+   {
+    "at": "L9",
+    "k": 6
+   },
+   {
+    "at": "L10-0.35",
+    "k": 7
+   },
+   {
+    "at": "L11-0.3",
+    "k": 1,
+    "dur": 0.6
+   },
+   {
+    "at": "L11:babylon's-0.25",
+    "k": 3,
+    "dur": 0.4
+   },
+   {
+    "at": "L11:persia's-0.25",
+    "k": 4,
+    "dur": 0.4
+   },
+   {
+    "at": "L11:seleucids-0.3",
+    "k": 6,
+    "dur": 0.45
+   },
+   {
+    "at": "L11:western-0.3",
+    "k": 7,
+    "dur": 0.4
+   },
+   {
+    "at": "L13",
+    "k": 0,
+    "dur": 0.45
+   },
+   {
+    "at": "L13+0.45",
+    "k": 8,
+    "dur": 1.8
+   },
+   {
+    "at": "L15",
+    "k": 0,
+    "dur": 1.3
+   }
+  ],
+  "clock": [
+   {
+    "at": 0,
+    "text": "1208 BCE",
+    "round": "ROUND 1 OF 8"
+   },
+   {
+    "at": "L4:match",
+    "text": "722 BCE",
+    "round": "ROUND 2 OF 8"
+   },
+   {
+    "at": "L5",
+    "text": "612 BCE",
+    "round": "ROUND 3 OF 8"
+   },
+   {
+    "at": "L6",
+    "text": "586 BCE",
+    "round": "ROUND 4 OF 8"
+   },
+   {
+    "at": "L7:persia",
+    "text": "539 BCE",
+    "round": "ROUND 5 OF 8"
+   },
+   {
+    "at": "L8",
+    "text": "331 BCE",
+    "round": "ROUND 6 OF 8"
+   },
+   {
+    "at": "L9:hasmoneans",
+    "text": "164 BCE",
+    "round": "ROUND 7 OF 8"
+   },
+   {
+    "at": "L10",
+    "text": "70 CE",
+    "round": "ROUND 8 OF 8"
+   },
+   {
+    "at": "L10:bar",
+    "text": "135 CE",
+    "round": "ROUND 8 OF 8"
+   },
+   {
+    "at": "L11:assyrian",
+    "text": "609 BCE",
+    "round": "WHO FELL?"
+   },
+   {
+    "at": "L11:babylon's",
+    "text": "539 BCE",
+    "round": "WHO FELL?"
+   },
+   {
+    "at": "L11:persia's",
+    "text": "330 BCE",
+    "round": "WHO FELL?"
+   },
+   {
+    "at": "L11:seleucids",
+    "text": "63 BCE",
+    "round": "WHO FELL?"
+   },
+   {
+    "at": "L11:western",
+    "text": "476 CE",
+    "round": "WHO FELL?"
+   },
+   {
+    "at": "L13:nineteen",
+    "text": "1948",
+    "round": "FINAL"
+   },
+   {
+    "at": "L15+0.3",
+    "text": "1208 BCE",
+    "round": "ROUND 1 OF 8"
+   }
+  ],
+  "stamps": [
+   {
+    "at": "L11:gone",
+    "k": 1,
+    "text": "FELL 609 BCE"
+   },
+   {
+    "at": "L11:gone#2",
+    "k": 3,
+    "text": "FELL 539 BCE"
+   },
+   {
+    "at": "L11:gone#3",
+    "k": 4,
+    "text": "FELL 330 BCE"
+   },
+   {
+    "at": "L11:gone#4",
+    "k": 6,
+    "pos": "b",
+    "text": "FELL 63 BCE"
+   },
+   {
+    "at": "L11:gone#5",
+    "k": 7,
+    "text": "FELL 476 CE"
+   }
+  ],
+  "life": {
+   "at": "L13+0.4",
+   "dur": 1.85
+  },
+  "banners": [
+   {
+    "at": "L7",
+    "until": "L7:persia+0.3",
+    "text": "COMEBACK",
+    "col": "gold"
+   },
+   {
+    "at": "L9",
+    "until": "L9:hasmoneans-0.2",
+    "text": "UPSET!",
+    "col": "yellow"
+   }
+  ],
+  "tags": [
+   {
+    "at": "L2:by",
+    "until": "L3",
+    "text": "TRADITION: EXODUS",
+    "lon": 33.8,
+    "lat": 29.3,
+    "dy": 60,
+    "col": "gold"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/pop_stock_3000/pf_mern1.jpg",
+    "at": "L3",
+    "until": "L4-0.1",
+    "credit": "Merneptah Stele: Webscribe, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.3,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/am_lachish.jpg",
+    "at": "L4:sargon",
+    "until": "L4e+0.2",
+    "credit": "Assyrian Lachish relief: O. S. M. Amin, CC BY-SA 4.0",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/am_titus2.jpg",
+    "at": "L10:the",
+    "until": "L10e+0.2",
+    "credit": "Arch of Titus relief, Rome, about 81 CE: public domain",
+    "kb": [
+     0.42,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.08
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/colonizer_tax/ctx_rom1.jpg",
+    "at": "L12",
+    "until": "L12e+0.1",
+    "credit": "Roman Forum ruins: Wolfgang Moroder, CC BY-SA 3.0",
+    "kb": [
+     0.6,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/pop_stock_3000/bm_jlm2.jpg",
+    "at": "L13:same",
+    "until": "L14e",
+    "credit": "Jerusalem: Berthold Werner, public domain",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.52,
+     0.5,
+     1.12
+    ],
+    "dim": 0.25
+   }
+  ],
+  "cards": [
+   {
+    "kind": "quote",
+    "at": "L3:israel",
+    "until": "L4-0.1",
+    "y": 590,
+    "h": 250,
+    "text": "Israel is laid waste,|*his seed is not.*",
+    "who": "Merneptah Stele, about 1208 BCE",
+    "size": 60
+   },
+   {
+    "kind": "table",
+    "at": "L11-0.2",
+    "until": "L12-0.1",
+    "title": "STILL STANDING AS A STATE?",
+    "rows": [
+     {
+      "name": "Assyrian Empire",
+      "val": "fell 609 BCE",
+      "at": "L11:gone"
+     },
+     {
+      "name": "Babylonian Empire",
+      "val": "fell 539 BCE",
+      "at": "L11:gone#2"
+     },
+     {
+      "name": "Persian Empire",
+      "val": "fell 330 BCE",
+      "at": "L11:gone#3"
+     },
+     {
+      "name": "Seleucid Empire",
+      "val": "fell 63 BCE",
+      "at": "L11:gone#4"
+     },
+     {
+      "name": "Western Rome",
+      "val": "fell 476 CE",
+      "at": "L11:gone#5"
+     }
+    ]
+   },
+   {
+    "kind": "text",
+    "at": "L12",
+    "until": "L12e+0.1",
+    "y": 590,
+    "h": 230,
+    "text": "Empires fell.|Their *peoples* moved on.",
+    "size": 66
+   },
+   {
+    "kind": "quote",
+    "at": "L14",
+    "until": "L14e+0.1",
+    "y": 520,
+    "h": 360,
+    "text": "All things are mortal but the Jew;|all other forces pass,|but *he remains.*",
+    "who": "Mark Twain, Harper's, 1899",
+    "size": 56
+   }
+  ],
+  "cta": {
+   "at": "L15",
+   "text": "Send this to a *sports fan*"
+  },
+  "rewind": "L15",
+  "hook_back": "L15e-0.1",
+  "map_until": "L11-0.2"
+ },
+ "sources": [
+  {
+   "label": "Book of Exodus: tradition",
+   "year": "tradition",
+   "at": "L2:by",
+   "until": "L3-0.05"
+  },
+  {
+   "label": "Merneptah Stele, about 1208 BCE (J. A. Wilson translation)",
+   "year": "1208 BCE",
+   "at": "L3",
+   "until": "L4-0.05"
+  },
+  {
+   "label": "Annals of Sargon II, Khorsabad: 27,290 deported, 722 BCE",
+   "year": "722 BCE",
+   "at": "L4",
+   "until": "L5-0.05"
+  },
+  {
+   "label": "Babylonian Chronicle: fall of Nineveh, 612 BCE",
+   "year": "612 BCE",
+   "at": "L5",
+   "until": "L6-0.05"
+  },
+  {
+   "label": "2 Kings 25: Jerusalem falls, 586 BCE",
+   "year": "586 BCE",
+   "at": "L6",
+   "until": "L7-0.05"
+  },
+  {
+   "label": "Cyrus Cylinder, 539 BCE; Ezra 1",
+   "year": "539 BCE",
+   "at": "L7",
+   "until": "L8-0.05"
+  },
+  {
+   "label": "Arrian: Battle of Gaugamela, 331 BCE",
+   "year": "331 BCE",
+   "at": "L8",
+   "until": "L9-0.05"
+  },
+  {
+   "label": "1 Maccabees 4: Temple rededicated, 164 BCE",
+   "year": "164 BCE",
+   "at": "L9",
+   "until": "L10-0.05"
+  },
+  {
+   "label": "Josephus, 70 CE; Cassius Dio, 135 CE",
+   "year": "135 CE",
+   "at": "L10",
+   "until": "L11-0.05"
+  },
+  {
+   "label": "End dates: Encyclopaedia Britannica",
+   "year": 2025,
+   "at": "L11",
+   "until": "L13-0.05"
+  },
+  {
+   "label": "Israel Declaration of Independence, 14 May 1948",
+   "year": 1948,
+   "at": "L13",
+   "until": "L14-0.05"
+  },
+  {
+   "label": "Mark Twain, Concerning the Jews, Harper's, 1899",
+   "year": 1899,
+   "at": "L14",
+   "until": "L15-0.05"
+  }
+ ],
+ "cover": {
+  "t": 30.0,
+  "text": "*3,000* year|tournament.|Who's *still standing?*",
+  "label": "Every empire vs one small team",
+  "size": 140
+ },
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#Jewish"
+ ],
+ "caption_en": "3,000 year tournament. Who's still standing? 🏆\n\nTwo rivals per match, the winner moves up.\n\nRound 1, about 1208 BCE: Egypt vs Israel. By tradition, Pharaoh's army almost catches the Israelites at the sea, and they escape. Then Pharaoh Merneptah carves \"Israel is laid waste, his seed is not\" in stone: the first mention of Israel outside the Bible.\nRound 2, 722 BCE: Assyria beats the Kingdom of Israel. Sargon II boasts of 27,290 captives.\nRound 3, 612 BCE: Babylon and the Medes take Nineveh.\nRound 4, 586 BCE: Babylon beats Judah. The First Temple burns.\nRound 5, 539 BCE: Persia beats Babylon, and Cyrus lets the exiles go home.\nRound 6, 331 BCE: Alexander's Greeks beat Persia.\nRound 7, 164 BCE: the Hasmoneans beat the Seleucid Greeks. That's Hanukkah.\nRound 8, 70 and 135 CE: Rome burns the Second Temple, crushes Bar Kokhba and bans Jews from Jerusalem.\n\nThe final scoreboard, as states: the Assyrian Empire (609 BCE), the Neo-Babylonian Empire (539 BCE), Achaemenid Persia (330 BCE), the Seleucid Empire (63 BCE) and Western Rome (476 CE) are gone. 1948: Israel. Same land, same language, same city.\n\nThe empires fell. Their peoples moved on: Egyptians, Assyrians, Iranians, Greeks and Italians are all still here too.\n\n\"All things are mortal but the Jew; all other forces pass, but he remains.\" Mark Twain, Concerning the Jews, Harper's, 1899.\n\nSources: Book of Exodus (tradition); Merneptah Stele, about 1208 BCE (J. A. Wilson translation); Annals of Sargon II (Khorsabad); Babylonian Chronicle; 2 Kings 25; Cyrus Cylinder and Ezra 1; Arrian; 1 Maccabees 4; Josephus; Cassius Dio; Encyclopaedia Britannica (end dates); Israel's Declaration of Independence (1948).\nPhotos (Wikimedia Commons): Webscribe (CC BY-SA 3.0); Osama Shukir Muhammed Amin (CC BY-SA 4.0); Arch of Titus relief (PD); Wolfgang Moroder (CC BY-SA 3.0); Berthold Werner (PD). Map: Natural Earth (PD). AI voice.\n\nWhich round surprised you?",
+ "caption_he": "טורניר של 3,000 שנה. מי עוד עומד? 🏆\nשתי יריבות בכל משחק, המנצחת עולה שלב.\nסיבוב 1, בערך 1208 לפני הספירה: מצרים נגד ישראל. לפי המסורת, צבא פרעה כמעט תופס את בני ישראל, והם בורחים. אחר כך פרעה מרנפתח חורט באבן: \"ישראל הושמד, זרעו איננו\". האזכור הראשון של ישראל מחוץ לתנ\"ך.\nסיבוב 2, 722 לפני הספירה: אשור מנצחת את ממלכת ישראל. סרגון השני מתפאר ב 27,290 שבויים.\nסיבוב 3, 612 לפני הספירה: בבל והמדים כובשות את נינוה.\nסיבוב 4, 586 לפני הספירה: בבל מנצחת את יהודה. בית המקדש הראשון נשרף.\nסיבוב 5, 539 לפני הספירה: פרס מנצחת את בבל, וכורש מחזיר את הגולים הביתה.\nסיבוב 6, 331 לפני הספירה: היוונים של אלכסנדר מנצחים את פרס.\nסיבוב 7, 164 לפני הספירה: החשמונאים מנצחים את היוונים הסלאוקים. זו חנוכה.\nסיבוב 8, 70 ו 135 לספירה: רומא שורפת את בית המקדש השני, מדכאת את בר כוכבא ואוסרת על יהודים להיכנס לירושלים.\nלוח התוצאות, כמדינות: האימפריה האשורית, הבבלית, הפרסית, הסלאוקית ורומא המערבית כבר אינן. 1948: ישראל. אותה ארץ, אותה שפה, אותה עיר.\nהאימפריות נפלו. העמים שלהן ממשיכים: מצרים, אשורים, איראנים, יוונים ואיטלקים כולם עדיין כאן.\nמקורות ותמונות: ראו למעלה."
+}
