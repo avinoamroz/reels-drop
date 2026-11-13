@@ -1,0 +1,323 @@
+{
+ "id": "fertility_stock",
+ "account": "noamroz__",
+ "template": "fert_stock",
+ "hook": "Since *1990:*|only *1* line up",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "Since nineteen ninety, only one of these lines went up."
+  },
+  {
+   "say": "Babies per woman, traded like a stock.",
+   "screen": "Babies per woman, *1960* to *2024*",
+   "at": "L1",
+   "until": "L2-0.1"
+  },
+  {
+   "say": "Europe first. In nineteen sixty, about two and a half."
+  },
+  {
+   "say": "Then it slides. Spain, one point one. Italy, one point two. Germany, one point four."
+  },
+  {
+   "say": "Israel? Down from almost four, then flat near three."
+  },
+  {
+   "say": "Now the Middle East."
+  },
+  {
+   "say": "Saudi Arabia, Iran, Syria and Jordan started above seven. Then a long fall."
+  },
+  {
+   "say": "The Emirates, one point two. Turkey, one and a half. Iran, one point seven."
+  },
+  {
+   "say": "Even Egypt and Jordan are now below Israel."
+  },
+  {
+   "say": "The watchlist since nineteen ninety: sixteen red arrows, one green."
+  },
+  {
+   "say": "Israel, up almost two percent."
+  },
+  {
+   "say": "Why? The Taub Center finds a strong family culture at every level of religion.",
+   "screen": "Big families at *every* level of faith",
+   "at": "L11",
+   "until": "L11e"
+  },
+  {
+   "say": "Even secular and traditional Israelis average over two kids."
+  },
+  {
+   "say": "A rich, modern country, still investing in the future."
+  },
+  {
+   "say": "Seventeen countries. Which line would you buy?"
+  }
+ ],
+ "data": {
+  "file": "templates/data/fertility_tfr.json",
+  "map": {
+   "cam": [
+    24,
+    39,
+    74
+   ],
+   "y": 960,
+   "until": 1.2,
+   "codes": [
+    "ISR",
+    "GBR",
+    "FRA",
+    "DEU",
+    "ITA",
+    "ESP",
+    "EGY",
+    "IRQ",
+    "JOR",
+    "SAU",
+    "ARE",
+    "IRN",
+    "TUR",
+    "LBN",
+    "SYR"
+   ],
+   "labels": [
+    {
+     "lon": 34.9,
+     "lat": 31.4,
+     "text": "Israel",
+     "hl": true
+    },
+    {
+     "lon": 9,
+     "lat": 50.5,
+     "text": "Europe"
+    },
+    {
+     "lon": 44,
+     "lat": 27,
+     "text": "Middle East"
+    }
+   ]
+  },
+  "chart": {
+   "x0": 130,
+   "x1": 640,
+   "y0": 560,
+   "y1": 1330
+  },
+  "panels": [
+   {
+    "at": 1.2,
+    "until": "L5-0.1",
+    "codes": [
+     "ISR",
+     "EUU",
+     "DEU",
+     "FRA",
+     "ITA",
+     "ESP",
+     "GBR"
+    ],
+    "hl": "ISR",
+    "ymax": 4,
+    "ystep": 1,
+    "title": "Europe vs Israel",
+    "keys": [
+     [
+      1960,
+      1.2
+     ],
+     [
+      1960,
+      "L3"
+     ],
+     [
+      2024,
+      "L3e"
+     ]
+    ]
+   },
+   {
+    "at": "L5",
+    "until": "L9-0.1",
+    "codes": [
+     "ISR",
+     "EGY",
+     "IRQ",
+     "JOR",
+     "SAU",
+     "ARE",
+     "IRN",
+     "TUR",
+     "LBN",
+     "SYR",
+     "PSE"
+    ],
+    "hl": "ISR",
+    "ymax": 8,
+    "ystep": 2,
+    "title": "Middle East vs Israel",
+    "keys": [
+     [
+      1960,
+      "L5"
+     ],
+     [
+      1960,
+      "L6"
+     ],
+     [
+      2024,
+      "L7e"
+     ]
+    ]
+   }
+  ],
+  "board": [
+   {
+    "at": "L9",
+    "until": "L11-0.1",
+    "title": "Watchlist: change since 1990",
+    "sub": "babies per woman in 2024",
+    "base": 1990,
+    "hl": "ISR",
+    "y": 470,
+    "rowh": 52,
+    "codes": [
+     "ISR",
+     "EUU",
+     "DEU",
+     "FRA",
+     "ITA",
+     "ESP",
+     "GBR",
+     "EGY",
+     "IRQ",
+     "JOR",
+     "SAU",
+     "ARE",
+     "IRN",
+     "TUR",
+     "LBN",
+     "SYR",
+     "PSE"
+    ]
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/fertility/madrid2.jpg",
+    "at": "L2",
+    "until": "L3-0.05",
+    "credit": "Gran Via, Madrid: Javier Perez Montes, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/fertility/indep1.jpg",
+    "at": "L11",
+    "until": "L12",
+    "credit": "Independence Day picnic, 1976: IPPA, CC BY 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/fertility/play1.jpg",
+    "at": "L12",
+    "until": "L13",
+    "credit": "Hayarkon Park playground, 1972: IPPA, CC BY 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/fertility/play4.jpg",
+    "at": "L13",
+    "until": "END",
+    "credit": "Playground, Israel: Davidi Vardi, CC BY 2.5, PikiWiki",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   }
+  ],
+  "big": [
+   {
+    "at": "L12:average",
+    "until": "L13-0.1",
+    "value": 2.2,
+    "from": 0,
+    "dec": 1,
+    "suffix": "+",
+    "sub": "kids: secular + traditional",
+    "y": 900
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "World Bank WDI, fertility rate (births per woman)",
+   "year": 2026,
+   "at": 1.2,
+   "until": "L11"
+  },
+  {
+   "label": "Taub Center, Weinreb, Chernichovsky, Brill",
+   "year": 2018,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "Taub Center, Why are there so many children in Israel?",
+   "year": 2019,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L13",
+  "balance": "Big family or small, every choice is *valid.*",
+  "cta": "Send this to someone who *invests*"
+ },
+ "cover": {
+  "t": 14.0,
+  "big": "1 line up",
+  "text": "Since 1990, babies per woman:|only *one* country rose"
+ }
+}

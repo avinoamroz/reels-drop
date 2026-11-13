@@ -1,0 +1,326 @@
+{
+ "id": "fertility_race",
+ "account": "noamroz__",
+ "template": "fert_race",
+ "hook": "Rich countries stopped having babies.|*Except?*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "Rich countries stopped having babies. Except one."
+  },
+  {
+   "say": "Babies per woman, from nineteen sixty to today.",
+   "screen": "Babies per woman, *1960* to *2024*",
+   "at": "L1",
+   "until": "L6"
+  },
+  {
+   "say": "In nineteen sixty, Saudi Arabia, Iran, Syria and Jordan all had over seven."
+  },
+  {
+   "say": "Europe, about two and a half."
+  },
+  {
+   "say": "Then the big drop. Iran went from six to two in fifteen years."
+  },
+  {
+   "say": "The Emirates, one point two. Italy and Spain, barely one."
+  },
+  {
+   "say": "And Israel? It has stayed near three for thirty years."
+  },
+  {
+   "say": "Today, only Iraq and the West Bank and Gaza are higher."
+  },
+  {
+   "say": "And Israel is the only rich country near the top."
+  },
+  {
+   "say": "Among thirty eight developed economies, Israel is number one."
+  },
+  {
+   "say": "Why? Faith helps. But the Taub Center finds big families at every level of religion.",
+   "screen": "Big families at *every* level of faith",
+   "at": "L10",
+   "until": "L10e"
+  },
+  {
+   "say": "Even secular and traditional Israelis average over two kids."
+  },
+  {
+   "say": "A rich, modern country that still bets on the future."
+  },
+  {
+   "say": "So when someone tells you rich countries stopped having babies,"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/fertility_race.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "hl": true
+   },
+   "EU average": {
+    "flag": "EU"
+   },
+   "Germany": {
+    "flag": "DE"
+   },
+   "France": {
+    "flag": "FR"
+   },
+   "Italy": {
+    "flag": "IT"
+   },
+   "Spain": {
+    "flag": "ES"
+   },
+   "UK": {
+    "flag": "GB"
+   },
+   "Egypt": {
+    "flag": "EG"
+   },
+   "Iraq": {
+    "flag": "IQ"
+   },
+   "Jordan": {
+    "flag": "JO"
+   },
+   "Saudi Arabia": {
+    "flag": "SA"
+   },
+   "UAE": {
+    "flag": "AE"
+   },
+   "Iran": {
+    "flag": "IR"
+   },
+   "Turkey": {
+    "flag": "TR"
+   },
+   "Lebanon": {
+    "flag": "LB"
+   },
+   "Syria": {
+    "flag": "SY"
+   },
+   "West Bank & Gaza": {
+    "flag": "PS"
+   }
+  },
+  "at": 1.2,
+  "until": "L7",
+  "holds": {
+   "1960": 0.0
+  },
+  "top": 17,
+  "dec": 1,
+  "nodata": true,
+  "unit": "babies per woman (total fertility rate)",
+  "rows": {
+   "y0": 500,
+   "rowh": 52,
+   "lab": 40,
+   "val": 40,
+   "flag": 40,
+   "lab_w": 330,
+   "val_w": 290
+  },
+  "year": {
+   "x": 905,
+   "y": 1250,
+   "size": 130
+  },
+  "map": {
+   "cam": [
+    24,
+    39,
+    74
+   ],
+   "y": 960,
+   "until": 1.2,
+   "codes": [
+    "ISR",
+    "GBR",
+    "FRA",
+    "DEU",
+    "ITA",
+    "ESP",
+    "EGY",
+    "IRQ",
+    "JOR",
+    "SAU",
+    "ARE",
+    "IRN",
+    "TUR",
+    "LBN",
+    "SYR"
+   ],
+   "labels": [
+    {
+     "lon": 34.9,
+     "lat": 31.4,
+     "text": "Israel",
+     "hl": true
+    },
+    {
+     "lon": 9,
+     "lat": 50.5,
+     "text": "Europe"
+    },
+    {
+     "lon": 44,
+     "lat": 27,
+     "text": "Middle East"
+    }
+   ]
+  },
+  "tags": [
+   {
+    "at": "L8",
+    "until": "L9-0.1",
+    "text": "high income",
+    "rows": [
+     "Israel",
+     "Germany",
+     "France",
+     "Italy",
+     "Spain",
+     "UK",
+     "Saudi Arabia",
+     "UAE"
+    ],
+    "dim": 0.45
+   }
+  ],
+  "callouts": [],
+  "photos": [
+   {
+    "file": "templates/photos/fertility/rome1.jpg",
+    "at": "L5",
+    "until": "L6-0.1",
+    "credit": "Rome: Alexkom000, CC BY 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/fertility/indep1.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Independence Day picnic, 1976: IPPA, CC BY 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/fertility/dizen.jpg",
+    "at": "L11",
+    "until": "L12",
+    "credit": "Shabbat on Dizengoff St, 1939: Zoltan Kluger, GPO (PD)",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/fertility/play4.jpg",
+    "at": "L12",
+    "until": "END",
+    "credit": "Playground, Israel: Davidi Vardi, CC BY 2.5, PikiWiki",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   }
+  ],
+  "big": [
+   {
+    "at": "L9",
+    "until": "L10-0.1",
+    "value": 1,
+    "from": 38,
+    "prefix": "#",
+    "sub": "of 38 developed economies",
+    "y": 900
+   },
+   {
+    "at": "L11:average",
+    "until": "L12-0.1",
+    "value": 2.2,
+    "from": 0,
+    "dec": 1,
+    "suffix": "+",
+    "sub": "kids: secular + traditional",
+    "y": 900
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "World Bank WDI, fertility rate (births per woman)",
+   "year": 2026,
+   "at": 1.2,
+   "until": "L9"
+  },
+  {
+   "label": "Organisation for Economic Co-operation and Development, Society at a Glance (2022 data)",
+   "year": 2024,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Taub Center, Weinreb, Chernichovsky, Brill",
+   "year": 2018,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Taub Center, Why are there so many children in Israel?",
+   "year": 2019,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "balance": "Big family or small, every choice is *valid.*",
+  "cta": "Send this to someone who wants *a big family*"
+ },
+ "cover": {
+  "t": 20.0,
+  "big": "Except one?",
+  "text": "Rich countries stopped|having *babies.*"
+ }
+}
