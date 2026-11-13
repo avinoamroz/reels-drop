@@ -113,11 +113,20 @@ def _tighten(J, work, maxgap=0.16):
     """Noam's pacing rule: pauses inside a line (sentence breaks) cut to maxgap seconds; audio and timings shift together"""
     import soundfile as sf
     y, sr = sf.read(f"{work}/vo.wav"); cuts = []                     # (start_s, remove_s)
+    hop = int(0.01 * sr); n = len(y) // hop
+    rms = np.sqrt(np.mean(y[:n * hop].reshape(n, hop) ** 2, axis=1))
+    quiet = rms < 0.006                                              # measured on the audio: word timestamps can drift
     for L in J["lines"]:
-        ws = L["words"]
-        for a, b in zip(ws, ws[1:]):
-            g = b["t0"] - a["t1"] - 0.06                             # keep the word tails
-            if g > maxgap: cuts.append((a["t1"] + 0.06 + maxgap / 2, g - maxgap))
+        i0, i1 = int(L["t0"] / 0.01), min(n, int(L["t1"] / 0.01))
+        k = i0
+        while k < i1:
+            if quiet[k]:
+                j = k
+                while j < i1 and quiet[j]: j += 1
+                run = (j - k) * 0.01
+                if run > maxgap + 0.04 and j < i1: cuts.append((k * 0.01 + maxgap / 2, run - maxgap))
+                k = j
+            else: k += 1
     if not cuts: return J, 0.0
     def sh(t): return t - sum(r for c, r in cuts if c < t)
     keep, last = [], 0
