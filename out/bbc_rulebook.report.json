@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "rulebook",
  "hook": "The BBC rulebook,|rule *5*",
- "duration": 57.6,
+ "duration": 53.2,
  "audio": {
   "lufs": -16.0,
   "true_peak": -2.1
@@ -61,7 +61,7 @@
   }
  ],
  "transcript": {
-  "score": 0.859,
+  "score": 0.872,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -106,7 +106,7 @@
    },
    {
     "line": "Rule nine. <<h|ɑ|ˈ|m|ɑ|s>> are militants. Never terrorists.",
-    "score": 0.444,
+    "score": 0.556,
     "flag": "MISS"
    },
    {
@@ -136,7 +136,7 @@
    },
    {
     "line": "White House: <<h|ɑ|ˈ|m|ɑ|s>> used Al Shifa as a command and control node.",
-    "score": 0.714,
+    "score": 0.786,
     "flag": "MISS"
    },
    {
@@ -150,7 +150,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Narrator's dad works for Hamas. Don't tell viewers. That's Rule 5 of the BBC rulebook. Ofcom 2025. A British Broadcasting Corporation Gaza film was materially misleading. The narrator's father? A Hamas official. Rule 3. Hospital explodes? Blame Israel first. BBC. Live. Hard to see what else this could be? Other than an Israeli airstrike. Western intelligence? Likely a rocket from Gaza. BBC. Wrong to speculate. Rule 9. Hamas. Never terrorists. BBC's John Simpson calling them terrorists means taking sides. Britain bans Hamas as terrorists. Rule 2. Army brings doctors? Report. Targeting doctors. Al-Shifa raid. BBC. The army is targeting medical teams. Not true. The army brought medics. BBC apologized. White House. Hamas used Al-Shifa as a command and control note. The BBC does issue corrections. Judge it by the record. Send this to someone who still trusts Rule 5.",
+  "heard": "Narrator's dad works for Hamas. Don't tell viewers. That's Rule 5 of the BBC rulebook. Ofcom 2025. A British Broadcasting Corporation Gaza film was materially misleading. The narrator's father? A Hamas official. Rule 3. Hospital explodes. Blame Israel first. BBC. Live. Hard to see what else this could be, other than an Israeli airstrike. Western intelligence. Likely a rocket from Gaza. BBC. Wrong to speculate. Rule 9. Hamas. Our militants. Never terrorists. BBC's John Simpson. Calling them terrorists means taking sides. Britain bans Hamas as terrorists. Rule 2. Army brings doctors. Report targeting doctors. Al-Shifa raid. BBC. The army is targeting medical teams. Not true. The army brought medics. BBC apologists. White House. Hamas used Al-Shifa as a command and control node. The BBC does issue corrections. Judge it by the record. Send this to someone who still trusts Rule 5.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -159,7 +159,7 @@
   "lufs": -16.0,
   "true_peak": -2.1
  },
- "tightened_s": 6.16,
+ "tightened_s": 10.56,
  "photos": [
   {
    "file": "templates/photos/bbc_rulebook/bbc_bh2.jpg",
@@ -218,8 +218,8 @@
     4,
     3
    ],
-   "start": 13.97,
-   "land": 14.47
+   "start": 13.36,
+   "land": 13.86
   },
   {
    "page": 9,
@@ -232,8 +232,8 @@
     8,
     9
    ],
-   "start": 26.86,
-   "land": 27.86
+   "start": 25.01,
+   "land": 26.01
   },
   {
    "page": 2,
@@ -247,16 +247,16 @@
     3,
     2
    ],
-   "start": 37.14,
-   "land": 37.84
+   "start": 34.47,
+   "land": 35.17
   },
   {
    "page": 2,
    "seq": null,
-   "start": 52.22,
-   "land": 52.22
+   "start": 48.0,
+   "land": 48.0
   }
  ],
  "lint_warnings": [],
- "render_s": 154.8
+ "render_s": 79.8
 }
