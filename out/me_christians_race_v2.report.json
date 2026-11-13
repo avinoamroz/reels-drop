@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.968,
+  "score": 0.973,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -95,7 +95,7 @@
    },
    {
     "line": "Now the region: the Christian share of each country, before the wars and today.",
-    "score": 0.929,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -139,7 +139,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Bethlehem? 86% Christian in 1950. By 2016, about 12. And it's not just Bethlehem. Iraq had 1.5 million Christians before 2003 by Christian leaders count. Today, fewer than 200,000. In 2014, ISIS, the Islamic State group, took Mosul and told Christians, Convert, pay or die. Now the region, the Christians share of each country before the wars and today. Syria. One in ten before the war. Now, about 2%. Iraq. About 6%. Down to under half a percent. Lebanon. From a third to 28%. Israel's share slipped 2%. 2% to 1.9%. One place the number keeps growing. Israel. 36,000 Christians in 1950. 184,000 today. And Arab Christians in Israel start degrees more often than Hebrew school graduates. Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration. So next time someone asks about Middle East Christians, start here.",
+  "heard": "Bethlehem? 86% Christian in 1950. By 2016, about 12. And it's not just Bethlehem. Iraq had 1.5 million Christians before 2003 by Christian leaders count. Today, fewer than 200,000. In 2014, ISIS, the Islamic State group, took Mosul and told Christians, convert, pay or die. Now the region, the Christian share of each country before the wars and today. Syria. 1 in 10 before the war. Now, about 2%. Iraq. About 6%. Down to under half a percent. Lebanon. From a third to 28%. Israel's share slipped 2. 2% to 1.9. One place the number keeps growing. Israel. 36,000 Christians in 1950. 184,000 today. And Arab Christians in Israel start degrees more often than Hebrew school graduates. Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration. So next time someone asks about Middle East Christians, start here.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -149,5 +149,5 @@
   "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 189.7
+ "render_s": 204.8
 }
