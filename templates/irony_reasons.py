@@ -143,7 +143,8 @@ def run(S):
                 rise = 30 * (1 - eout((t - t0) / 0.4))
                 WG.title(cv, ln["text"], ln.get("y", 900) + rise, la, ln.get("size", 96))
         if E.get("emoji"):
-            ea = seg(t, END_AT, END_AT + 0.3); WG.emo(cv, E["emoji"], 540, E.get("emoji_y", 600), 190 * WG.pop_s(t, END_AT) if t < END_AT + 0.35 else 190, ea)
+            ea = seg(t, END_AT, END_AT + 0.3); esz = 190 * WG.pop_s(t, END_AT) if t < END_AT + 0.35 else 190
+            if ea > 0.01 and esz > 4: WG.emo(cv, E["emoji"], 540, E.get("emoji_y", 600), esz, ea)
         P_ = E.get("pill")
         if P_:
             t0 = A(P_.get("at"), END_AT + 1.0); pa = seg(t, t0, t0 + 0.3)
