@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.964,
+  "score": 0.976,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -152,8 +152,8 @@
    },
    {
     "line": "His Congo wealth built monuments in Brussels.",
-    "score": 0.714,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "The money flows out, to the capital.",
@@ -246,7 +246,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Four empires taxed the conquered, and Israel, Rome. Citizens in Italy stopped paying tribute. The conquered provinces paid. The Ottomans, like the Caliphates before them, the Jizya. A head tax only non-Muslims paid. Gone by 1856. Then ISIS, the Islamic State, revived it. Mosul, 2014, British India. Indian taxes paid for goods shipped to Britain. One estimate, $45 trillion. Belgium's King Leopold. Congo rubber quotas enforced with beatings. As Congo wealth built monuments and Brussels, the money flows out to the capital. Now Israel and its Arab citizens, same income tax, same VAT, no special tax, same national health insurance, same benefits, same vote. And the money flows in. Five-year plans for Arab towns, 15 billion shekels. Then 30, not all of it was spent. The gaps are real, says Israel's central bank. If this is colonizing, it's a strange empire. Less tribute, more home improvement. Send this to someone who says colonizer, because four empires tax the concrete, and Israel.",
+  "heard": "Four empires taxed the conquered, and Israel, Rome. Citizens in Italy stopped paying tribute. The conquered provinces paid. The Ottomans, like the Caliphates before them, the Jizya. A head tax only non-Muslims paid. Gone by 1856. Then ISIS, the Islamic State, revived it. Mosul 2014, British India. Indian taxes paid for goods shipped to Britain. One estimate, $45 trillion. Belgium's King Leopold. Congo rubber quotas enforced with beatings. His Congo wealth built monuments in Brussels. The money flows out to the capital. Now Israel and its Arab citizens. Same income tax, same VAT, no special tax, same national health insurance, same benefits, same vote. And the money flows in. Five-year plans for Arab towns, 15 billion shekels. Then 30, not all of it was spent. The gaps are real, says Israel's central bank. If this is colonizing, it's a strange empire. Less tribute, more home improvement. Send this to someone who says colonizer because four empires tax the conquered, and Israel.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -258,5 +258,5 @@
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 159.1
+ "render_s": 119.8
 }
