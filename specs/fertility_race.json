@@ -2,7 +2,7 @@
  "id": "fertility_race",
  "account": "noamroz__",
  "template": "fert_race",
- "hook": "Rich countries stopped having babies.|*Except?*",
+ "hook": "Rich countries stopped|having babies. *Except?*",
  "music": {
   "bed": "journey",
   "lufs": -16
