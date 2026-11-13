@@ -1,0 +1,612 @@
+{
+ "id": "israel_vs_competitors",
+ "account": "noamroz__",
+ "template": "lens_podium",
+ "hook": "Israel vs *6* rivals.|*4* tests.",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Israel against six of the world's most innovative small economies. Four tests. Pure math."
+  },
+  {
+   "say": "Test one: research spending, as a share of the economy.",
+   "screen": "Test 1: *research* spending, % of GDP"
+  },
+  {
+   "say": "Israel: six point three five percent. Number one, ahead of Korea and Sweden.",
+   "gap": 0.25
+  },
+  {
+   "say": "Test two: startup funding deals, per billion dollars of economy.",
+   "screen": "Test 2: *startup* deals per $1bn of GDP"
+  },
+  {
+   "say": "Israel again: one point two. Singapore is close, with one.",
+   "gap": 0.25
+  },
+  {
+   "say": "Test three: international patent filings, per billion dollars.",
+   "screen": "Test 3: *patents* per $1bn of GDP"
+  },
+  {
+   "say": "Korea wins this one, with six point six. Sweden is second. Israel takes bronze.",
+   "gap": 0.25
+  },
+  {
+   "say": "Test four: income per person, adjusted for prices.",
+   "screen": "Test 4: *income* per person"
+  },
+  {
+   "say": "Singapore: a hundred and sixty four thousand dollars. Israel: fifty six thousand. Last of the seven.",
+   "gap": 0.3
+  },
+  {
+   "say": "Now the math. Each test is scaled from zero to a hundred. Then we average.",
+   "screen": "The *math*",
+   "until": "L12-0.1"
+  },
+  {
+   "say": "Bronze: Singapore, fifty. Silver: Korea, fifty three."
+  },
+  {
+   "say": "And gold: Israel, sixty four.",
+   "gap": 0.35
+  },
+  {
+   "say": "Pick other tests and the podium can change. And Israel's weak spot is clear: income per person."
+  },
+  {
+   "say": "World class ideas. Now the incomes have to catch up. Israel versus six rivals: four tests."
+  }
+ ],
+ "data": {
+  "cam0": [
+   64.0,
+   30.0,
+   165.0,
+   450
+  ],
+  "hook_y": 940,
+  "highlight": [
+   {
+    "at": 0.0,
+    "until": "L1-0.2",
+    "code": "SGP"
+   },
+   {
+    "at": 0.0,
+    "until": "L1-0.2",
+    "code": "CHE"
+   },
+   {
+    "at": 0.0,
+    "until": "L1-0.2",
+    "code": "KOR"
+   },
+   {
+    "at": 0.0,
+    "until": "L1-0.2",
+    "code": "NLD"
+   },
+   {
+    "at": 0.0,
+    "until": "L1-0.2",
+    "code": "SWE"
+   },
+   {
+    "at": 0.0,
+    "until": "L1-0.2",
+    "code": "ARE"
+   }
+  ],
+  "icons": [
+   {
+    "at": 0.15,
+    "until": "L1-0.2",
+    "lon": 35.2,
+    "lat": 31.8,
+    "emo": "🇮🇱",
+    "size": 78
+   },
+   {
+    "at": 0.28,
+    "until": "L1-0.2",
+    "lon": 103.8,
+    "lat": 1.35,
+    "emo": "🇸🇬",
+    "size": 78
+   },
+   {
+    "at": 0.41000000000000003,
+    "until": "L1-0.2",
+    "lon": 7.45,
+    "lat": 46.95,
+    "emo": "🇨🇭",
+    "size": 78
+   },
+   {
+    "at": 0.54,
+    "until": "L1-0.2",
+    "lon": 127.0,
+    "lat": 37.6,
+    "emo": "🇰🇷",
+    "size": 78
+   },
+   {
+    "at": 0.67,
+    "until": "L1-0.2",
+    "lon": 4.9,
+    "lat": 52.4,
+    "emo": "🇳🇱",
+    "size": 78
+   },
+   {
+    "at": 0.8,
+    "until": "L1-0.2",
+    "lon": 18.07,
+    "lat": 59.33,
+    "emo": "🇸🇪",
+    "size": 78
+   },
+   {
+    "at": 0.93,
+    "until": "L1-0.2",
+    "lon": 54.4,
+    "lat": 24.5,
+    "emo": "🇦🇪",
+    "size": 78
+   }
+  ],
+  "podium": [
+   {
+    "at": 0.2,
+    "until": "L1-0.2",
+    "teaser": true,
+    "y": 1545,
+    "sc": 0.8,
+    "steps": [
+     {
+      "place": 3,
+      "at": 0.25
+     },
+     {
+      "place": 2,
+      "at": 0.45
+     },
+     {
+      "place": 1,
+      "at": 0.65
+     }
+    ]
+   },
+   {
+    "at": "L10-0.2",
+    "until": "L12-0.1",
+    "y": 1400,
+    "steps": [
+     {
+      "place": 3,
+      "label": "Singapore",
+      "flag": "SG",
+      "txt": "50",
+      "at": "L10:bronze"
+     },
+     {
+      "place": 2,
+      "label": "Korea",
+      "flag": "KR",
+      "txt": "53",
+      "at": "L10:silver"
+     },
+     {
+      "place": 1,
+      "label": "Israel",
+      "flag": "IL",
+      "txt": "64",
+      "at": "L11:gold"
+     }
+    ]
+   }
+  ],
+  "rest": [
+   {
+    "at": "L11:gold+0.7",
+    "until": "L12-0.1",
+    "y": 500,
+    "rows": [
+     {
+      "n": 4,
+      "label": "Sweden",
+      "flag": "SE",
+      "txt": "42"
+     },
+     {
+      "n": 5,
+      "label": "Switzerland",
+      "flag": "CH",
+      "txt": "41"
+     },
+     {
+      "n": 6,
+      "label": "Netherlands",
+      "flag": "NL",
+      "txt": "23"
+     },
+     {
+      "n": 7,
+      "label": "UAE",
+      "flag": "AE",
+      "txt": "6"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "at": "L9+0.6",
+    "until": "L12-0.1",
+    "text": "Score = average of 4 lenses, each scaled 0 to 100",
+    "y": 390,
+    "size": 40
+   },
+   {
+    "at": "L9:scaled",
+    "until": "L10-0.25",
+    "text": "Best = *100.* Last = *0.*",
+    "y": 860,
+    "size": 96
+   },
+   {
+    "at": "L9:average",
+    "until": "L10-0.25",
+    "text": "Then the *average* of all 4",
+    "y": 1010,
+    "size": 72
+   },
+   {
+    "at": "L11:gold+1.0",
+    "until": "L12-0.1",
+    "text": "Israel: (100 + 100 + 58 + 0) / 4 = *64*",
+    "y": 700,
+    "size": 46
+   }
+  ],
+  "bars": [
+   {
+    "at": "L2-0.2",
+    "until": "L3-0.1",
+    "y": 640,
+    "vmax": 6.35,
+    "lab_w": 450,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 6.35,
+      "txt": "6.35%",
+      "hl": true,
+      "at": "L2:israel"
+     },
+     {
+      "label": "Korea",
+      "flag": "KR",
+      "value": 4.94,
+      "txt": "4.94%",
+      "at": "L2:israel+0.55"
+     },
+     {
+      "label": "Sweden",
+      "flag": "SE",
+      "value": 3.6,
+      "txt": "3.60%",
+      "at": "L2:israel+0.75"
+     },
+     {
+      "label": "Switzerland",
+      "flag": "CH",
+      "value": 3.22,
+      "txt": "3.22%",
+      "at": "L2:israel+0.95"
+     },
+     {
+      "label": "Netherlands",
+      "flag": "NL",
+      "value": 2.27,
+      "txt": "2.27%",
+      "at": "L2:israel+1.15"
+     },
+     {
+      "label": "Singapore",
+      "flag": "SG",
+      "value": 1.81,
+      "txt": "1.81%",
+      "at": "L2:israel+1.35"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 1.49,
+      "txt": "1.49%",
+      "at": "L2:israel+1.55"
+     }
+    ]
+   },
+   {
+    "at": "L4-0.2",
+    "until": "L5-0.1",
+    "y": 640,
+    "vmax": 1.2,
+    "lab_w": 450,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 1.2,
+      "txt": "1.2",
+      "hl": true,
+      "at": "L4:israel"
+     },
+     {
+      "label": "Singapore",
+      "flag": "SG",
+      "value": 1.0,
+      "txt": "1.0",
+      "at": "L4:singapore"
+     },
+     {
+      "label": "Sweden",
+      "flag": "SE",
+      "value": 0.7,
+      "txt": "0.7",
+      "at": "L4:singapore+0.15"
+     },
+     {
+      "label": "Switzerland",
+      "flag": "CH",
+      "value": 0.6,
+      "txt": "0.6",
+      "at": "L4:singapore+0.30"
+     },
+     {
+      "label": "Korea",
+      "flag": "KR",
+      "value": 0.6,
+      "txt": "0.6",
+      "at": "L4:singapore+0.45"
+     },
+     {
+      "label": "Netherlands",
+      "flag": "NL",
+      "value": 0.4,
+      "txt": "0.4",
+      "at": "L4:singapore+0.60"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 0.3,
+      "txt": "0.3",
+      "at": "L4:singapore+0.75"
+     }
+    ]
+   },
+   {
+    "at": "L6-0.2",
+    "until": "L7-0.1",
+    "y": 640,
+    "vmax": 6.6,
+    "lab_w": 450,
+    "rows": [
+     {
+      "label": "Korea",
+      "flag": "KR",
+      "value": 6.6,
+      "txt": "6.6",
+      "at": "L6:korea"
+     },
+     {
+      "label": "Sweden",
+      "flag": "SE",
+      "value": 4.3,
+      "txt": "4.3",
+      "at": "L6:sweden"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 3.9,
+      "txt": "3.9",
+      "hl": true,
+      "at": "L6:israel"
+     },
+     {
+      "label": "Switzerland",
+      "flag": "CH",
+      "value": 3.5,
+      "txt": "3.5",
+      "at": "L6:israel+0.15"
+     },
+     {
+      "label": "Netherlands",
+      "flag": "NL",
+      "value": 2.6,
+      "txt": "2.6",
+      "at": "L6:israel+0.30"
+     },
+     {
+      "label": "Singapore",
+      "flag": "SG",
+      "value": 1.2,
+      "txt": "1.2",
+      "at": "L6:israel+0.45"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 0.2,
+      "txt": "0.2",
+      "at": "L6:israel+0.60"
+     }
+    ]
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L9-0.1",
+    "y": 640,
+    "vmax": 164.3,
+    "lab_w": 450,
+    "rows": [
+     {
+      "label": "Singapore",
+      "flag": "SG",
+      "value": 164.3,
+      "txt": "$164k",
+      "at": "L8:singapore"
+     },
+     {
+      "label": "Switzerland",
+      "flag": "CH",
+      "value": 102.1,
+      "txt": "$102k",
+      "at": "L8:singapore+0.68"
+     },
+     {
+      "label": "Netherlands",
+      "flag": "NL",
+      "value": 84.7,
+      "txt": "$85k",
+      "at": "L8:singapore+0.86"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 83.3,
+      "txt": "$83k",
+      "at": "L8:singapore+1.04"
+     },
+     {
+      "label": "Sweden",
+      "flag": "SE",
+      "value": 74.1,
+      "txt": "$74k",
+      "at": "L8:singapore+1.22"
+     },
+     {
+      "label": "Korea",
+      "flag": "KR",
+      "value": 65.4,
+      "txt": "$65k",
+      "at": "L8:singapore+1.40"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 56.5,
+      "txt": "$57k",
+      "hl": true,
+      "at": "L8:israel"
+     }
+    ]
+   }
+  ],
+  "dim": [
+   {
+    "at": "L9",
+    "until": "L10"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/country_stocks/intel.jpg",
+    "at": "L1-0.1",
+    "until": "L2-0.25",
+    "credit": "Intel, Kiryat Gat: Kiryat Gat archive, CC BY 2.5",
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/country_stocks/tlv2.jpg",
+    "at": "L3-0.1",
+    "until": "L4-0.25",
+    "credit": "Tel Aviv: Makaf Ivri, CC BY-SA 4.0",
+    "dim": 0.3
+   },
+   {
+    "file": "photos/ml_tech.jpg",
+    "at": "L5-0.1",
+    "until": "L6-0.25",
+    "credit": "Technion, 1940s: Matson Coll., LOC (PD)",
+    "dim": 0.3,
+    "kb": [
+     0.52,
+     0.47,
+     1.18,
+     0.5,
+     0.47,
+     1.3
+    ]
+   },
+   {
+    "file": "templates/photos/country_stocks/tlv3.jpg",
+    "at": "L7-0.1",
+    "until": "L8-0.25",
+    "credit": "Tel Aviv: Suicasmo, CC BY-SA 4.0",
+    "dim": 0.3
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "R&D % of GDP: World Bank (UNESCO data), 2023; Singapore 2022, UAE 2021",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Venture capital deals per $1bn GDP (PPP): World Intellectual Property Organization (WIPO), Global Innovation Index",
+   "year": 2025,
+   "at": "L3",
+   "until": "L5-0.1"
+  },
+  {
+   "label": "International patent (PCT) filings per $1bn GDP (PPP): WIPO Global Innovation Index",
+   "year": 2025,
+   "at": "L5",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "GDP per person, PPP, 2025: International Monetary Fund, World Economic Outlook, April 2026",
+   "year": 2026,
+   "at": "L7",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "Calculation: min-max per test across the 7, equal weights",
+   "year": 2026,
+   "at": "L9",
+   "until": "L12-0.1"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "balance": "Israel's weakest test: *income* per person.",
+  "cta": "Send this to a *numbers* person"
+ },
+ "caption_en": "Israel vs 6 of the world's most innovative small economies. 4 tests, pure math 📐\n\n1) R&D spending, % of GDP: Israel 6.35, Korea 4.94, Sweden 3.60, Switzerland 3.22, Netherlands 2.27, Singapore 1.81, UAE 1.49 (World Bank / UNESCO, 2023; Singapore 2022, UAE 2021).\n2) Venture capital deals received per $1bn GDP (PPP): Israel 1.2, Singapore 1.0, Sweden 0.7, Switzerland 0.6, Korea 0.6, Netherlands 0.4, UAE 0.3 (WIPO Global Innovation Index 2025).\n3) International patent (PCT) filings per $1bn GDP (PPP): Korea 6.6, Sweden 4.3, Israel 3.9, Switzerland 3.5, Netherlands 2.6, Singapore 1.2, UAE 0.2 (WIPO GII 2025).\n4) GDP per person, PPP, 2025: Singapore $164k, Switzerland $102k, Netherlands $85k, UAE $83k, Sweden $74k, Korea $65k, Israel $57k (IMF World Economic Outlook, April 2026).\n\nThe math: each test scaled 0 to 100 across the 7 (best = 100, last = 0), then averaged with equal weights.\nScores: Israel 64, Korea 53, Singapore 50, Sweden 42, Switzerland 41, Netherlands 23, UAE 6.\nIsrael: (100 + 100 + 58 + 0) / 4 = 64.\n\nPick other tests and the podium can change. Israel's weakest test is clear: income per person. World class ideas, now the incomes have to catch up.\n\nPhotos: Intel, Kiryat Gat (Kiryat Gat archive, CC BY 2.5); Tel Aviv (Makaf Ivri, CC BY-SA 4.0); Technion, Haifa, 1940s (Matson Collection, Library of Congress, public domain); Tel Aviv (Suicasmo, CC BY-SA 4.0), via Wikimedia Commons.",
+ "caption_he": "ישראל מול 6 מהכלכלות הקטנות והחדשניות בעולם. 4 מבחנים, מתמטיקה נקייה.\n\n1) הוצאה על מו\"פ באחוזי תוצר: ישראל 6.35, קוריאה 4.94, שוודיה 3.60, שווייץ 3.22, הולנד 2.27, סינגפור 1.81, איחוד האמירויות 1.49.\n2) עסקאות הון סיכון לכל מיליארד דולר תוצר: ישראל 1.2, סינגפור 1.0, שוודיה 0.7, שווייץ 0.6, קוריאה 0.6, הולנד 0.4, איחוד האמירויות 0.3.\n3) בקשות פטנט בינלאומיות (PCT) לכל מיליארד דולר תוצר: קוריאה 6.6, שוודיה 4.3, ישראל 3.9, שווייץ 3.5, הולנד 2.6, סינגפור 1.2, איחוד האמירויות 0.2.\n4) תוצר לנפש (PPP, 2025): סינגפור 164 אלף דולר, שווייץ 102 אלף, הולנד 85 אלף, איחוד האמירויות 83 אלף, שוודיה 74 אלף, קוריאה 65 אלף, ישראל 57 אלף.\n\nהחישוב: כל מבחן מנורמל מ-0 עד 100 בין שבע המדינות, ואז ממוצע במשקל שווה. ישראל 64, קוריאה 53, סינגפור 50.\nנקודת החולשה של ישראל ברורה: הכנסה לנפש. הרעיונות ברמה עולמית, עכשיו ההכנסות צריכות להדביק את הקצב.\n\nSources: World Bank / UNESCO R&D expenditure (% of GDP), 2023; WIPO Global Innovation Index 2025 (indicators 4.2.2 and 6.1.2); IMF World Economic Outlook, April 2026.",
+ "hashtags": [
+  "#Israel",
+  "#innovation",
+  "#StartupNation"
+ ],
+ "cover": {
+  "t": 9.0,
+  "big": "4 tests",
+  "text": "Israel vs *6* rivals:|who wins?"
+ }
+}
