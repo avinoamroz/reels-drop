@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rulebook",
  "hook": "The BBC rulebook,|rule *5*",
- "duration": 60.6,
+ "duration": 66.17,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/bbc_rulebook.mp4",
@@ -61,7 +61,7 @@
   }
  ],
  "transcript": {
-  "score": 0.86,
+  "score": 0.857,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -71,17 +71,17 @@
    },
    {
     "line": "That's rule five of the BBC rulebook.",
-    "score": 1.0,
+    "score": 0.857,
     "flag": "ok"
    },
    {
-    "line": "Britain's regulator, Ofcom, twenty twenty five: a British Broadcasting Corporation Gaza film was materially misleading.",
-    "score": 0.933,
+    "line": "Ofcom, twenty twenty five: a British Broadcasting Corporation Gaza film was materially misleading.",
+    "score": 0.923,
     "flag": "ok"
    },
    {
-    "line": "The narrator's father? An official in <<h|ɑ|ˈ|m|ɑ|s>>'s government.",
-    "score": 0.636,
+    "line": "The narrator's father? A <<h|ɑ|ˈ|m|ɑ|s>> government official.",
+    "score": 0.667,
     "flag": "MISS"
    },
    {
@@ -95,12 +95,12 @@
     "flag": "ok"
    },
    {
-    "line": "U.S., British and French intelligence: likely a rocket from inside Gaza.",
-    "score": 0.833,
+    "line": "U.S., British and French intelligence: likely a rocket from Gaza.",
+    "score": 0.818,
     "flag": "ok"
    },
    {
-    "line": "The BBC later said: wrong to speculate.",
+    "line": "BBC: wrong to speculate.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -110,13 +110,13 @@
     "flag": "MISS"
    },
    {
-    "line": "The BBC's John Simpson: calling someone a terrorist means taking sides.",
+    "line": "BBC's John Simpson: calling someone a terrorist means taking sides.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Britain banned <<h|ɑ|ˈ|m|ɑ|s>> as a terrorist group in twenty twenty one.",
-    "score": 0.692,
+    "line": "Britain banned <<h|ɑ|ˈ|m|ɑ|s>> as terrorists in twenty twenty one.",
+    "score": 0.636,
     "flag": "MISS"
    },
    {
@@ -125,18 +125,18 @@
     "flag": "ok"
    },
    {
-    "line": "Al Shifa hospital, twenty twenty three. BBC: the army is targeting medical teams.",
-    "score": 0.923,
+    "line": "Al Shifa, twenty twenty three. BBC: the army is targeting medical teams.",
+    "score": 0.917,
     "flag": "ok"
    },
    {
-    "line": "Wrong. The army brought medics. The BBC apologised.",
+    "line": "Not true. The army brought medics. BBC apologised.",
     "score": 0.875,
     "flag": "ok"
    },
    {
-    "line": "The White House: <<h|ɑ|ˈ|m|ɑ|s>> used Al Shifa as a command node.",
-    "score": 0.692,
+    "line": "White House: <<h|ɑ|ˈ|m|ɑ|s>> used Al Shifa as a command and control node.",
+    "score": 0.786,
     "flag": "MISS"
    },
    {
@@ -150,14 +150,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Narrator's dad works for Hamas? Don't tell viewers. That's Rule 5 of the BBC rulebook. Britain's regulator, Ofcom 2025. A British Broadcasting Corporation Gaza film was materially misleading. The narrator's father? An official in Hamas's government. Rule 3. Hospital explodes? Blame Israel first. BBC, live. Hard to see what else this could be. Other than an Israeli airstrike. US, British and French intelligence. Likely a rocket from inside Gaza. The BBC later said, wrong to speculate. Rule 9. Hamas are militants. Never terrorists. The BBC's John Simpson. Calling someone a terrorist means taking sides. Britain banned Hamas as a terrorist group in 2021. Rule 2. Army brings doctors. Report targeting doctors. Al-Shifa Hospital, 2023. BBC. The army is targeting medical teams. Raw. The army brought medics. The BBC apologized. The White House. Hamas used Al-Shifa as a command note. The BBC does issue corrections. Judge it by the record. Send this to someone who still trusts Rule 5.",
+  "heard": "Narrator's dad works for Hamas, don't tell viewers. That's Rule 5 of the BBC rule book, Ofcom 2025. A British Broadcasting Corporation Gaza film was materially misleading. The narrator's father, a Hamas government official. Rule 3. Hospital explodes, blame Israel first. BBC Live. Hard to see what else this could be, other than an Israeli airstrike. US, British and French intelligence. Likely a rocket from Gaza. B.C. Wrong to Speculate. Rule 9. Hamas are militants. Never terrorists. BBC's John Simpson. Calling someone a terrorist means taking sides. Britain banned Hamas as terrorists in 2021. Rule 2. Army brings doctors? Report. Targeting doctors. Al-Shifa, 2023. BBC. The army is targeting medical teams. It's not true. The army brought medics. BBC apologized. White House. Hamas used al-Shifa as a command and control node. The BBC does issue corrections. Judge it by the record. Send this to someone who still trusts Rule 5.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -2.0
  },
  "photos": [
   {
@@ -217,8 +217,8 @@
     4,
     3
    ],
-   "start": 14.41,
-   "land": 14.91
+   "start": 15.34,
+   "land": 15.84
   },
   {
    "page": 9,
@@ -231,8 +231,8 @@
     8,
     9
    ],
-   "start": 28.32,
-   "land": 29.32
+   "start": 30.37,
+   "land": 31.37
   },
   {
    "page": 2,
@@ -246,16 +246,16 @@
     3,
     2
    ],
-   "start": 38.8,
-   "land": 39.5
+   "start": 42.11,
+   "land": 42.81
   },
   {
    "page": 2,
    "seq": null,
-   "start": 54.77,
-   "land": 54.77
+   "start": 60.49,
+   "land": 60.49
   }
  ],
  "lint_warnings": [],
- "render_s": 148.3
+ "render_s": 161.7
 }
