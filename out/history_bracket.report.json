@@ -1,0 +1,221 @@
+{
+ "id": "history_bracket",
+ "account": "noamroz__",
+ "template": "bracket",
+ "hook": "*3,000* year tournament.|Who's *still standing?*",
+ "duration": 63.47,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/history_bracket.mp4",
+  "cover": "covers/history_bracket_cover.jpg",
+  "preview": "previews/history_bracket_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/history_bracket_0.jpg",
+  "1": "out/frames/history_bracket_1.jpg",
+  "3": "out/frames/history_bracket_3.jpg",
+  "last": "out/frames/history_bracket_last.jpg"
+ },
+ "caption_en": "3,000 year tournament. Who's still standing? 🏆\n\nTwo rivals per match, the winner moves up.\n\nRound 1, about 1208 BCE: Egypt vs Israel. By tradition, Pharaoh's army almost catches the Israelites at the sea, and they escape. Then Pharaoh Merneptah carves \"Israel is laid waste, his seed is not\" in stone: the first mention of Israel outside the Bible.\nRound 2, 722 BCE: Assyria beats the Kingdom of Israel. Sargon II boasts of 27,290 captives.\nRound 3, 612 BCE: Babylon and the Medes take Nineveh.\nRound 4, 586 BCE: Babylon beats Judah. The First Temple burns.\nRound 5, 539 BCE: Persia beats Babylon, and Cyrus lets the exiles go home.\nRound 6, 331 BCE: Alexander's Greeks beat Persia.\nRound 7, 164 BCE: the Hasmoneans beat the Seleucid Greeks. That's Hanukkah.\nRound 8, 70 and 135 CE: Rome burns the Second Temple, crushes Bar Kokhba and bans Jews from Jerusalem.\n\nThe final scoreboard, as states: the Assyrian Empire (609 BCE), the Neo-Babylonian Empire (539 BCE), Achaemenid Persia (330 BCE), the Seleucid Empire (63 BCE) and Western Rome (476 CE) are gone. 1948: Israel. Same land, same language, same city.\n\nThe empires fell. Their peoples moved on: Egyptians, Assyrians, Iranians, Greeks and Italians are all still here too.\n\n\"All things are mortal but the Jew; all other forces pass, but he remains.\" Mark Twain, Concerning the Jews, Harper's, 1899.\n\nSources: Book of Exodus (tradition); Merneptah Stele, about 1208 BCE (J. A. Wilson translation); Annals of Sargon II (Khorsabad); Babylonian Chronicle; 2 Kings 25; Cyrus Cylinder and Ezra 1; Arrian; 1 Maccabees 4; Josephus; Cassius Dio; Encyclopaedia Britannica (end dates); Israel's Declaration of Independence (1948).\nPhotos (Wikimedia Commons): Webscribe (CC BY-SA 3.0); Osama Shukir Muhammed Amin (CC BY-SA 4.0); Arch of Titus relief (PD); Wolfgang Moroder (CC BY-SA 3.0); Berthold Werner (PD). Map: Natural Earth (PD). AI voice.\n\nWhich round surprised you?",
+ "caption_he": "טורניר של 3,000 שנה. מי עוד עומד? 🏆\nשתי יריבות בכל משחק, המנצחת עולה שלב.\nסיבוב 1, בערך 1208 לפני הספירה: מצרים נגד ישראל. לפי המסורת, צבא פרעה כמעט תופס את בני ישראל, והם בורחים. אחר כך פרעה מרנפתח חורט באבן: \"ישראל הושמד, זרעו איננו\". האזכור הראשון של ישראל מחוץ לתנ\"ך.\nסיבוב 2, 722 לפני הספירה: אשור מנצחת את ממלכת ישראל. סרגון השני מתפאר ב 27,290 שבויים.\nסיבוב 3, 612 לפני הספירה: בבל והמדים כובשות את נינוה.\nסיבוב 4, 586 לפני הספירה: בבל מנצחת את יהודה. בית המקדש הראשון נשרף.\nסיבוב 5, 539 לפני הספירה: פרס מנצחת את בבל, וכורש מחזיר את הגולים הביתה.\nסיבוב 6, 331 לפני הספירה: היוונים של אלכסנדר מנצחים את פרס.\nסיבוב 7, 164 לפני הספירה: החשמונאים מנצחים את היוונים הסלאוקים. זו חנוכה.\nסיבוב 8, 70 ו 135 לספירה: רומא שורפת את בית המקדש השני, מדכאת את בר כוכבא ואוסרת על יהודים להיכנס לירושלים.\nלוח התוצאות, כמדינות: האימפריה האשורית, הבבלית, הפרסית, הסלאוקית ורומא המערבית כבר אינן. 1948: ישראל. אותה ארץ, אותה שפה, אותה עיר.\nהאימפריות נפלו. העמים שלהן ממשיכים: מצרים, אשורים, איראנים, יוונים ואיטלקים כולם עדיין כאן.\nמקורות ותמונות: ראו למעלה.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#Jewish"
+ ],
+ "sources": [
+  {
+   "label": "Book of Exodus: tradition",
+   "year": "tradition",
+   "at": "L2:by",
+   "until": "L3-0.05"
+  },
+  {
+   "label": "Merneptah Stele, about 1208 BCE (J. A. Wilson translation)",
+   "year": "1208 BCE",
+   "at": "L3",
+   "until": "L4-0.05"
+  },
+  {
+   "label": "Annals of Sargon II, Khorsabad: 27,290 deported, 722 BCE",
+   "year": "722 BCE",
+   "at": "L4",
+   "until": "L5-0.05"
+  },
+  {
+   "label": "Babylonian Chronicle: fall of Nineveh, 612 BCE",
+   "year": "612 BCE",
+   "at": "L5",
+   "until": "L6-0.05"
+  },
+  {
+   "label": "2 Kings 25: Jerusalem falls, 586 BCE",
+   "year": "586 BCE",
+   "at": "L6",
+   "until": "L7-0.05"
+  },
+  {
+   "label": "Cyrus Cylinder, 539 BCE; Ezra 1",
+   "year": "539 BCE",
+   "at": "L7",
+   "until": "L8-0.05"
+  },
+  {
+   "label": "Arrian: Battle of Gaugamela, 331 BCE",
+   "year": "331 BCE",
+   "at": "L8",
+   "until": "L9-0.05"
+  },
+  {
+   "label": "1 Maccabees 4: Temple rededicated, 164 BCE",
+   "year": "164 BCE",
+   "at": "L9",
+   "until": "L10-0.05"
+  },
+  {
+   "label": "Josephus, 70 CE; Cassius Dio, 135 CE",
+   "year": "135 CE",
+   "at": "L10",
+   "until": "L11-0.05"
+  },
+  {
+   "label": "End dates: Encyclopaedia Britannica",
+   "year": 2025,
+   "at": "L11",
+   "until": "L13-0.05"
+  },
+  {
+   "label": "Israel Declaration of Independence, 14 May 1948",
+   "year": 1948,
+   "at": "L13",
+   "until": "L14-0.05"
+  },
+  {
+   "label": "Mark Twain, Concerning the Jews, Harper's, 1899",
+   "year": 1899,
+   "at": "L14",
+   "until": "L15-0.05"
+  }
+ ],
+ "transcript": {
+  "score": 0.956,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Three thousand year tournament. Who's still standing?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two rivals per match. Winner moves up.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Match one: Egypt versus Israel. By tradition, Pharaoh's army almost catches them. They escape.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Pharaoh Merneptah carves a result in stone: Israel is laid waste, his seed is not.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Match two: Assyria beats the Kingdom of Israel. Sargon boasts of over twenty-seven thousand captives.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Babylon and the Medes knock out Assyria. Nineveh falls.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Babylon beats Judah. The First Temple burns. Exile.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Comeback: Persia beats Babylon, and Cyrus lets the exiles go home.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Alexander's Greeks beat Persia.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Upset of the tournament: the Hasmoneans beat the Seleucid Greeks. That's Hanukkah.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Rome burns the Second Temple, crushes Bar Kokhba, and bans Jews from Jerusalem.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "The Assyrian Empire, gone. Babylon's, gone. Persia's, gone. The Seleucids, gone. Western Rome, gone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The empires fell. Their peoples moved on.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "The team that lost almost every match? Nineteen forty-eight. Same land, same language, same city.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Mark Twain: All things are mortal but the Jew; all other forces pass, but he remains.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The tournament is still on. Who's still standing?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "3,000-year tournament. Who's still standing? Two rivals per match. Winner moves up. Match 1. Egypt vs Israel. By tradition, Pharaoh's army almost catches them. They escape. Then Pharaoh Monepta carves a result in stone. Israel is laid waste. His seat is not. Match 2. Assyria beats the Kingdom of Israel. Sargon boasts of over 27,000 captives. Then Babylon, the Medes knock out Assyria. Nineveh falls. Babylon beats Judah. The First Temple burns. Exile. Come back, Persia beats Babylon, and Cyrus lets the exiles go home. Alexander's Greeks beat Persia. Upset of the tournament, the Hasmoneans beat the Seleucid Greeks. That's Hanukkah. Then Rome burns the Second Temple, crushes Bar-Kukba and bans Jews from Jerusalem. The Assyrian Empire gone. Babylon's gone. Persia's gone. The Seleucids gone. Western Rome gone. The empires fell. Their pupils moved on. The team that lost almost every match? 1948. Same land, same language, same city. Mark Twain. All things are mortal but the Jew. All other forces pass, but he remains. The tournament is still on. Who's still standing?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/pop_stock_3000/pf_mern1.jpg",
+   "credit": "Merneptah Stele: Webscribe, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/am_lachish.jpg",
+   "credit": "Assyrian Lachish relief: O. S. M. Amin, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/am_titus2.jpg",
+   "credit": "Arch of Titus relief, Rome, about 81 CE: public domain"
+  },
+  {
+   "file": "templates/photos/colonizer_tax/ctx_rom1.jpg",
+   "credit": "Roman Forum ruins: Wolfgang Moroder, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/pop_stock_3000/bm_jlm2.jpg",
+   "credit": "Jerusalem: Berthold Werner, public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 101.4
+}
