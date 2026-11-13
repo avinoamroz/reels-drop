@@ -1,0 +1,293 @@
+{
+ "id": "palestine_rebrand",
+ "account": "noamroz__",
+ "template": "brand_timeline",
+ "hook": "*1932:*|The Palestine Post|was *Jewish.*",
+ "duration": 70.07,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/palestine_rebrand.mp4",
+  "cover": "covers/palestine_rebrand_cover.jpg",
+  "preview": "previews/palestine_rebrand_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/palestine_rebrand_0.jpg",
+  "1": "out/frames/palestine_rebrand_1.jpg",
+  "3": "out/frames/palestine_rebrand_3.jpg",
+  "last": "out/frames/palestine_rebrand_last.jpg"
+ },
+ "caption_en": "1932: The Palestine Post was Jewish. 📰 The story of a name that changed owners.\n\nBefore 1948, \"Palestine\" was on the letterhead of Jewish institutions:\n• The Palestine Post, founded 1 Dec 1932 by Gershon Agron, became The Jerusalem Post in 1950.\n• The Anglo-Palestine Company (1902, a Zionist movement bank) became Bank Leumi le-Israel in 1951.\n• The Palestine Orchestra (first concert 26 Dec 1936, Toscanini conducting) became the Israel Philharmonic in 1948.\n• Mandatory Palestine's team in the 1934 World Cup qualifiers vs Egypt fielded only Jewish players; after 1948 it became Israel's national team.\n• Under the Palestinian Citizenship Order (1925), Jews and Arabs alike were Palestinian citizens until 1948. Photo: the 1935 passport of a Jewish worker from Petah Tikva.\n\nArabs used the name too: Filastin, an Arabic daily, was founded in Jaffa in 1911. Historians such as Rashid Khalidi (Palestinian Identity, 1997) trace Palestinian Arab identity to the late Ottoman and early Mandate years; it grew much stronger after 1948 and 1967.\n\nThe flag: the Arab Revolt flag (1916 to 1918), in pan-Arab colours, used in Mandate Palestine from the 1920s, adopted by the All-Palestine Government in Gaza (Oct 1948) and by the PLO, the Palestine Liberation Organization, founded 28 May 1964 in East Jerusalem, then under Jordan. Jordan's flag is almost identical, plus a seven-pointed star; Sudan, Kuwait and the UAE use the same four colours.\nThe PLO's first chairman was Ahmad Shukeiri, not Yasser Arafat. Arafat co-founded Fatah in the late 1950s and became PLO chairman in 1969.\n\nEvery nation is born at some point: Jordan in 1946, Israel in 1948. Today millions call themselves Palestinian, and that's real. The name just has a surprising history.\n\nSources: The Jerusalem Post archives; JTA (1950); Bank Leumi history; Palestinian Citizenship Order (1925); RSSSF and FIFA records (1934); Israel Philharmonic Orchestra and Britannica; Palestinian Journeys, Institute for Palestine Studies (Filastin, PLO); Rashid Khalidi, Palestinian Identity (1997); Flags of the World; Britannica (Arafat, PLO, Jordan).\nPhotos, Wikimedia Commons: The Palestine Post 16 May 1948; Zoltan Kluger, GPO 1938; Government of Mandatory Palestine passport 1935; Palestine Orchestra 1936; Rudi Weissenstein 1948; Arab Revolt 1916 to 1918; Ahmad Shukeiri 1965 (all public domain); Filastin 1936 (CC BY-SA 4.0). Flags drawn. AI voice.\n\nSend this to a history buff.",
+ "caption_he": "1932: הפלסטיין פוסט היה עיתון יהודי. 📰 הסיפור של שם שהחליף בעלים.\nלפני 1948 \"פלשתינה\" הופיע על מוסדות יהודיים: הפלסטיין פוסט (מ־1950 הג'רוזלם פוסט), תזמורת פלשתינה (מ־1948 הפילהרמונית הישראלית), בנק אנגלו־פלשתינה (מ־1951 בנק לאומי), ונבחרת פלשתינה ב־1934 שכל שחקניה יהודים. בתקופת המנדט יהודים וערבים כאחד היו אזרחים פלשתינאים. גם ערבים השתמשו בשם: העיתון \"פלסטין\" יצא ביפו מ־1911.\nהדגל? דגל המרד הערבי מ־1916. ממשלת כל פלסטין בעזה אימצה אותו ב־1948, ואש\"ף, שנוסד ב־1964 במזרח ירושלים תחת שלטון ירדן, אימץ אותו גם. היו\"ר הראשון של אש\"ף: אחמד שוקיירי. ערפאת נכנס רק ב־1969.\nכל אומה נולדת מתישהו: ירדן ב־1946, ישראל ב־1948. היום מיליונים מגדירים את עצמם פלסטינים, וזה אמיתי. לשם פשוט יש היסטוריה מפתיעה.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#Palestine"
+ ],
+ "sources": [
+  {
+   "label": "The Jerusalem Post, history",
+   "year": 1932,
+   "at": "L0e",
+   "until": "L2"
+  },
+  {
+   "label": "Bank Leumi history; JTA",
+   "year": 1950,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Palestinian Citizenship Order",
+   "year": 1925,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "FIFA World Cup qualifiers; RSSSF",
+   "year": 1934,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Israel Philharmonic; Britannica",
+   "year": 1936,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Palestinian Journeys (IPS), Filastin",
+   "year": 1911,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "JTA; Britannica; Israel Football Association",
+   "year": 1950,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Rashid Khalidi, Palestinian Identity",
+   "year": 1997,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Flags of the World; Arab League",
+   "year": 1948,
+   "at": "L12",
+   "until": "L14"
+  },
+  {
+   "label": "Palestinian Journeys (IPS), PLO",
+   "year": 1964,
+   "at": "L14",
+   "until": "L15"
+  },
+  {
+   "label": "Britannica, Arafat and the PLO",
+   "year": 1969,
+   "at": "L16",
+   "until": "L17"
+  },
+  {
+   "label": "Britannica, Jordan; Israel",
+   "year": 1946,
+   "at": "L17",
+   "until": "L18"
+  }
+ ],
+ "transcript": {
+  "score": 0.941,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Nineteen thirty-two. The Palestine Post. A Jewish newspaper.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Watch the word Palestinian change owners.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen oh two. The Anglo-Palestine Bank. Founded by Zionists.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Under the British, Jews and Arabs were all Palestinian citizens.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirty-four. Palestine's World Cup team. Every player, Jewish.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirty-six. The Palestine Orchestra. Jewish musicians.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Arabs used the name too: the Jaffa paper Filastin.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Then, nineteen forty-eight. Israel is born. Time to rebrand.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "The Palestine Post becomes The Jerusalem Post.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The orchestra: Israel Philharmonic. The bank: Bank Leumi. The team: Israel.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "And Palestinian now means the Arabs of the land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The flag? Older than you think.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen sixteen. The Arab Revolt flag.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Forty-eight. The All-Palestine Government in Gaza adopts it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sixty-four. The PLO, the Palestine Liberation Organization, is founded in Jordan-ruled East Jerusalem.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Next to Jordan's flag? Almost identical, minus a star.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "First leader? Not Arafat. Ahmad Shukeiri. Arafat came in sixty-nine.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Every nation is born sometime. Jordan, forty-six. Israel, forty-eight.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today millions call themselves Palestinian, and that's real.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The name just has a surprising history. It started with a newspaper.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "1932. The Palestine Post. The Jewish newspaper. Watch the word Palestinian change owners. 1902. The Anglo-Palestine Bank. Founded by Zionists. Under the British, Jews and Arabs were all Palestinian citizens. 34. Palestine's World Cup team. Every player, Jewish. 36. Palestine Orchestra. Jewish musicians. Arabs use the name too. The Jaffa Paper Philastin. Then, 1948. Israel is born. Time to rebrand. The Palestine Post becomes the Jerusalem Post. The orchestra. Israel. Philharmonic. The bank. Bank Lumi. The team. Israel. And Palestinian now means the Arabs of the land. The flag? Older than you think. 1916. The Arab revolt flag. 48. The all-Palestine government in Gaza adopts it. 64. The PLO, the Palestine Liberation Organization, is founded in Jordan-ruled East Jerusalem. Next to Jordan's flag. Almost identical, minus a star. First leader? Not Arafat. Ahmad Shukiri. Arafat came in 69. Every nation is born sometime. Jordan, 46. Israel, 48. Today millions call themselves Palestinian, and that's real. The name just has a surprising history. It started with a newspaper.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/palestine_rebrand/post1948.jpg",
+   "credit": "The Palestine Post, 16 May 1948, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/cheque.jpg",
+   "credit": "Anglo-Palestine Co. cheque, 1913, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/passfull.jpg",
+   "credit": "Mandate passport, 1935, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/orch1936.jpg",
+   "credit": "Palestine Orchestra, 1936, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/filastin.jpg",
+   "credit": "Filastin, 1936, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/underdog_rounds/decl1948.jpg",
+   "credit": "Rudi Weissenstein, 1948, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/post1948.jpg",
+   "credit": "The Palestine Post, 16 May 1948, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/orch1936.jpg",
+   "credit": "Palestine Orchestra, 1936, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/cheque.jpg",
+   "credit": "Anglo-Palestine Co. cheque, 1913, public domain"
+  },
+  {
+   "file": "templates/photos/underdog_rounds/decl1948.jpg",
+   "credit": "Rudi Weissenstein, 1948, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/arab030.jpg",
+   "credit": "Maurice Bauche, Arab Revolt, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/flagbearer.jpg",
+   "credit": "Arab Revolt flag bearer, 1918, public domain"
+  },
+  {
+   "file": null,
+   "credit": null
+  },
+  {
+   "file": null,
+   "credit": null
+  },
+  {
+   "file": null,
+   "credit": null
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/shukeiri.jpg",
+   "credit": "Ahmad Shukeiri, 1965, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/amman1940.jpg",
+   "credit": "Amman, 1940, Matson Collection, public domain"
+  },
+  {
+   "file": "templates/photos/palestine_rebrand/post1948.jpg",
+   "credit": "The Palestine Post, 16 May 1948, public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 165.0
+}
