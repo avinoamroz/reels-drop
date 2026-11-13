@@ -312,5 +312,13 @@
   "t": 1.6,
   "text": "*4* medieval myths|about Jews",
   "label": "Rated by a Jew. Deadpan."
+ },
+ "subs_replace": {
+  "eleven forty-four": "1144",
+  "thirteen forty-nine": "1349",
+  "two thousand": "2,000",
+  "nineteen twenty-one": "1921",
+  "nineteen sixty-five": "1965",
+  "ten ninety-six": "1096"
  }
 }
