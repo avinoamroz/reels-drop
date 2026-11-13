@@ -31,63 +31,6 @@
   "nineteen fifty": "1950",
   "four percent": "4%"
  },
- "lines": [
-  {
-   "say": "Genocide? Check the chart.",
-   "gap": 0.25
-  },
-  {
-   "say": "Nineteen forty-eight: a hundred fifty-six thousand Arabs stayed in Israel.",
-   "gap": 0.15
-  },
-  {
-   "say": "Today? Over two million. Lawmakers. Whole cities.",
-   "gap": 0.2
-  },
-  {
-   "say": "West Bank: six hundred thousand in nineteen sixty-seven. Now, three point four million.",
-   "gap": 0.15
-  },
-  {
-   "say": "Gaza. Three hundred fifty-six thousand. By twenty twenty-three, two point two million.",
-   "gap": 0.2
-  },
-  {
-   "say": "Then came the war. And the line turned red.",
-   "gap": 0.3
-  },
-  {
-   "say": "Gaza fell about four percent. All together? Still rising: about a hundred fifty thousand more since twenty twenty-three.",
-   "gap": 0.25
-  },
-  {
-   "say": "Gaza's Health Ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>, counts over seventy-four thousand dead, without splitting civilians from fighters.",
-   "gap": 0.2
-  },
-  {
-   "say": "About twenty-two thousand were children. That pain is real.",
-   "gap": 0.35
-  },
-  {
-   "say": "Is a chart the legal test? No. Genocide means intent to destroy a group.",
-   "gap": 0.15
-  },
-  {
-   "say": "The International Court of Justice is still hearing that case.",
-   "gap": 0.2
-  },
-  {
-   "say": "All together: one point two million in nineteen fifty, seven point three million today. Not a people being wiped out.",
-   "gap": 0.25
-  },
-  {
-   "say": "Gaza's war is a tragedy. Judge the word by its definition.",
-   "gap": 0.3
-  },
-  {
-   "say": "Genocide? Check the chart."
-  }
- ],
  "data": {
   "hook_y": 330,
   "map": {
@@ -98,7 +41,7 @@
     1090
    ],
    "until": "L0:the",
-   "back": "L13",
+   "back": "L24",
    "zoom": 1.08,
    "labels": [
     {
@@ -201,7 +144,7 @@
     "flags": [
      "IL"
     ],
-    "until": "L6:all"
+    "until": "L11:all"
    },
    {
     "label": "WEST BANK",
@@ -209,7 +152,7 @@
     "h": 400,
     "unit_max": 4000000,
     "grid": 2000000,
-    "at": "L3",
+    "at": "L4",
     "points": [
      [
       1967,
@@ -234,8 +177,8 @@
     ],
     "draw": [
      {
-      "at": "L3:six",
-      "until": "L3e",
+      "at": "L4:six",
+      "until": "L5e",
       "to": 2025
      }
     ],
@@ -243,7 +186,7 @@
      {
       "year": 1967,
       "text": "1967 count excl. East Jerusalem",
-      "at": "L3:nineteen",
+      "at": "L4:nineteen",
       "y": 750,
       "x": 190
      }
@@ -251,7 +194,7 @@
     "flags": [
      "PS"
     ],
-    "until": "L6:all"
+    "until": "L11:all"
    },
    {
     "label": "GAZA STRIP",
@@ -259,7 +202,7 @@
     "h": 400,
     "unit_max": 3000000,
     "grid": 1000000,
-    "at": "L4",
+    "at": "L6",
     "points": [
      [
       1967,
@@ -288,13 +231,13 @@
     ],
     "draw": [
      {
-      "at": "L4:three",
-      "until": "L4e",
+      "at": "L6:three",
+      "until": "L7e",
       "to": 2023.5
      },
      {
-      "at": "L5:and",
-      "until": "L5e",
+      "at": "L9:and",
+      "until": "L9e",
       "to": 2025.99
      }
     ],
@@ -302,7 +245,7 @@
      {
       "year": 2025,
       "text": "down about 97,000 since mid 2023",
-      "at": "L5:red",
+      "at": "L9:red",
       "x": 1010,
       "y": 1115,
       "col": "red",
@@ -314,7 +257,7 @@
     "flags": [
      "PS"
     ],
-    "until": "L6:all"
+    "until": "L11:all"
    },
    {
     "label": "ALL TOGETHER",
@@ -326,7 +269,7 @@
     "h": 900,
     "unit_max": 8000000,
     "grid": 2000000,
-    "at": "L6:all",
+    "at": "L11:all",
     "points": [
      [
       1950,
@@ -351,13 +294,13 @@
     ],
     "draw": [
      {
-      "at": "L6:together",
-      "until": "L6:still",
+      "at": "L11:together",
+      "until": "L12:still",
       "to": 2023.5
      },
      {
-      "at": "L6:still",
-      "until": "L6:more",
+      "at": "L12:still",
+      "until": "L12:more",
       "to": 2025.99
      }
     ],
@@ -365,7 +308,7 @@
      {
       "year": 1950,
       "text": "Arabs in Israel + West Bank + Gaza",
-      "at": "L6:all",
+      "at": "L11:all",
       "x": 190,
       "y": 300,
       "size": 40,
@@ -374,14 +317,14 @@
      {
       "year": 1950,
       "text": "East Jerusalem Arabs counted once (JIPR)",
-      "at": "L6:all",
+      "at": "L11:all",
       "x": 190,
       "y": 352
      },
      {
       "year": 1950,
       "text": "1950: UN (UNCTAD) estimates",
-      "at": "L6:all",
+      "at": "L11:all",
       "x": 190,
       "y": 398
      }
@@ -394,19 +337,19 @@
     "panel": 0
    },
    {
-    "at": "L3",
+    "at": "L4",
     "panel": 1
    },
    {
-    "at": "L4",
+    "at": "L6",
     "panel": 2
    },
    {
-    "at": "L6:all",
+    "at": "L11:all",
     "panel": 3
    },
    {
-    "at": "L12",
+    "at": "L22",
     "panel": -1
    }
   ],
@@ -428,8 +371,8 @@
    },
    {
     "file": "templates/photos/genocide_stock/ual.jpg",
-    "at": "L2:lawmakers",
-    "until": "L2:whole",
+    "at": "L3:lawmakers",
+    "until": "L3:whole",
     "credit": "Arab MKs at Beit HaNassi, 2021: Mark Neyman (GPO), CC BY-SA 3.0",
     "kb": [
      0.74,
@@ -443,8 +386,8 @@
    },
    {
     "file": "templates/photos/genocide_stock/umm_sunset.jpg",
-    "at": "L2:whole",
-    "until": "L3-0.15",
+    "at": "L3:whole",
+    "until": "L4-0.15",
     "credit": "Umm al-Fahm: Moataz Egbaria, CC BY-SA 3.0",
     "kb": [
      0.72,
@@ -458,8 +401,8 @@
    },
    {
     "file": "templates/photos/genocide_stock/peace.jpg",
-    "at": "L10",
-    "until": "L11-0.1",
+    "at": "L19",
+    "until": "L20-0.1",
     "credit": "Peace Palace, The Hague: Fred Romero, CC BY 2.0",
     "kb": [
      0.84,
@@ -473,8 +416,8 @@
    },
    {
     "file": "templates/photos/genocide_stock/naz.jpg",
-    "at": "L12-0.1",
-    "until": "L13-0.05",
+    "at": "L22-0.1",
+    "until": "L24-0.05",
     "credit": "Nazareth: Zairon, CC BY-SA 4.0",
     "kb": [
      0.5,
@@ -489,8 +432,8 @@
   ],
   "big": [
    {
-    "at": "L6:about#2",
-    "until": "L7-0.1",
+    "at": "L12:about",
+    "until": "L13-0.1",
     "value": 150000,
     "from": 0,
     "prefix": "+",
@@ -502,16 +445,16 @@
     "size": 150
    },
    {
-    "at": "L7:over",
-    "until": "L8-0.05",
+    "at": "L13:over",
+    "until": "L14-0.05",
     "value": 74618,
     "from": 1000,
     "sub": "people died in Gaza|Health Ministry, HAMAS-run",
     "y": 930
    },
    {
-    "at": "L8",
-    "until": "L8e+0.2",
+    "at": "L14",
+    "until": "L15e+0.2",
     "value": 21976,
     "from": 1000,
     "sub": "of them children",
@@ -522,8 +465,8 @@
   ],
   "quote": [
    {
-    "at": "L9:genocide",
-    "until": "L10-0.1",
+    "at": "L18:genocide",
+    "until": "L19-0.1",
     "text": "acts committed with *intent to destroy,* in whole or in part, a national, ethnical, racial or religious group",
     "who": "Genocide Convention, 1948, Article II",
     "y": 900,
@@ -536,54 +479,54 @@
    "label": "Israel CBS, Statistical Abstract 2024; Independence Day release",
    "year": 2026,
    "at": "L1",
-   "until": "L3-0.1"
-  },
-  {
-   "label": "1967: Israel CBS census; PCBS censuses 1997 to 2017; PCBS end 2025",
-   "year": 2025,
-   "at": "L3",
    "until": "L4-0.1"
   },
   {
-   "label": "1967: Israel CBS census; PCBS mid 2023 and end 2025 estimates",
+   "label": "1967: Israel CBS census; PCBS censuses 1997 to 2017; PCBS end 2025",
    "year": 2025,
    "at": "L4",
    "until": "L6-0.1"
   },
   {
-   "label": "Israel CBS 2025; Jerusalem Institute (JIPR) 2023; PCBS end 2025; 1950: UNCTAD",
+   "label": "1967: Israel CBS census; PCBS mid 2023 and end 2025 estimates",
    "year": 2025,
    "at": "L6",
-   "until": "L7-0.1",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Israel CBS 2025; Jerusalem Institute (JIPR) 2023; PCBS end 2025; 1950: UNCTAD",
+   "year": 2025,
+   "at": "L10",
+   "until": "L13-0.1",
    "y": 1500
   },
   {
    "label": "Gaza Ministry of Health via UN OCHA, 4 Nov 2026 (children: 7 Oct 2026)",
    "year": 2026,
-   "at": "L7",
-   "until": "L9-0.1"
+   "at": "L13",
+   "until": "L16-0.1"
   },
   {
    "label": "UN Genocide Convention, Art. II",
    "year": 1948,
-   "at": "L9:genocide",
-   "until": "L10-0.1"
+   "at": "L18:genocide",
+   "until": "L19-0.1"
   },
   {
    "label": "International Court of Justice (ICJ), South Africa v. Israel, order of 21 May 2026",
    "year": 2026,
-   "at": "L10",
-   "until": "L11-0.1"
+   "at": "L19",
+   "until": "L20-0.1"
   },
   {
    "label": "1950: UNCTAD; 1967: Israel CBS census; then CBS, JIPR, PCBS",
    "year": 2025,
-   "at": "L11",
-   "until": "L12-0.1"
+   "at": "L20",
+   "until": "L22-0.1"
   }
  ],
  "end": {
-  "at": "L12",
+  "at": "L22",
   "y": 1010,
   "balance": "Gaza's war is a *tragedy.* Judge the word by its definition.",
   "cta": "Send this to *someone*"
@@ -600,5 +543,106 @@
   "text": "Genocide?|Check the *chart*",
   "label": "Watch till the end",
   "dim": 0.75
- }
+ },
+ "lines": [
+  {
+   "say": "Genocide? Check the chart.",
+   "gap": 0.25
+  },
+  {
+   "say": "Nineteen forty-eight: a hundred fifty-six thousand Arabs stayed in Israel.",
+   "gap": 0.15
+  },
+  {
+   "say": "Today? Over two million.",
+   "gap": 0.15
+  },
+  {
+   "say": "Lawmakers. Whole cities.",
+   "gap": 0.2
+  },
+  {
+   "say": "West Bank: six hundred thousand in nineteen sixty-seven.",
+   "gap": 0.15
+  },
+  {
+   "say": "Now, three point four million.",
+   "gap": 0.15
+  },
+  {
+   "say": "Gaza. Three hundred fifty-six thousand.",
+   "gap": 0.15
+  },
+  {
+   "say": "By twenty twenty-three, two point two million.",
+   "gap": 0.2
+  },
+  {
+   "say": "Then came the war.",
+   "gap": 0.15
+  },
+  {
+   "say": "And the line turned red.",
+   "gap": 0.3
+  },
+  {
+   "say": "Gaza fell about four percent.",
+   "gap": 0.15
+  },
+  {
+   "say": "All together?",
+   "gap": 0.15
+  },
+  {
+   "say": "Still rising: about a hundred fifty thousand more since twenty twenty-three.",
+   "gap": 0.25
+  },
+  {
+   "say": "Gaza's Health Ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>, counts over seventy-four thousand dead, without splitting civilians from fighters.",
+   "gap": 0.2
+  },
+  {
+   "say": "About twenty-two thousand were children.",
+   "gap": 0.15
+  },
+  {
+   "say": "That pain is real.",
+   "gap": 0.35
+  },
+  {
+   "say": "Is a chart the legal test?",
+   "gap": 0.15
+  },
+  {
+   "say": "No.",
+   "gap": 0.15
+  },
+  {
+   "say": "Genocide means intent to destroy a group.",
+   "gap": 0.15
+  },
+  {
+   "say": "The International Court of Justice is still hearing that case.",
+   "gap": 0.2
+  },
+  {
+   "say": "All together: one point two million in nineteen fifty, seven point three million today.",
+   "gap": 0.15
+  },
+  {
+   "say": "Not a people being wiped out.",
+   "gap": 0.25
+  },
+  {
+   "say": "Gaza's war is a tragedy.",
+   "gap": 0.15
+  },
+  {
+   "say": "Judge the word by its definition.",
+   "gap": 0.3
+  },
+  {
+   "say": "Genocide? Check the chart."
+  }
+ ]
 }
