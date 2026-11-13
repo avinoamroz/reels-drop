@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rulebook",
  "hook": "The BBC rulebook,|rule *5*",
- "duration": 66.17,
+ "duration": 57.6,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -2.0
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/bbc_rulebook.mp4",
@@ -61,7 +61,7 @@
   }
  ],
  "transcript": {
-  "score": 0.857,
+  "score": 0.859,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -71,7 +71,7 @@
    },
    {
     "line": "That's rule five of the BBC rulebook.",
-    "score": 0.857,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -80,8 +80,8 @@
     "flag": "ok"
    },
    {
-    "line": "The narrator's father? A <<h|ɑ|ˈ|m|ɑ|s>> government official.",
-    "score": 0.667,
+    "line": "The narrator's father? A <<h|ɑ|ˈ|m|ɑ|s>> official.",
+    "score": 0.625,
     "flag": "MISS"
    },
    {
@@ -95,8 +95,8 @@
     "flag": "ok"
    },
    {
-    "line": "U.S., British and French intelligence: likely a rocket from Gaza.",
-    "score": 0.818,
+    "line": "Western intelligence: likely a rocket from Gaza.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -106,17 +106,17 @@
    },
    {
     "line": "Rule nine. <<h|ɑ|ˈ|m|ɑ|s>> are militants. Never terrorists.",
-    "score": 0.667,
+    "score": 0.444,
     "flag": "MISS"
    },
    {
-    "line": "BBC's John Simpson: calling someone a terrorist means taking sides.",
+    "line": "BBC's John Simpson: calling them terrorists means taking sides.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Britain banned <<h|ɑ|ˈ|m|ɑ|s>> as terrorists in twenty twenty one.",
-    "score": 0.636,
+    "line": "Britain? Bans <<h|ɑ|ˈ|m|ɑ|s>> as terrorists.",
+    "score": 0.571,
     "flag": "MISS"
    },
    {
@@ -125,8 +125,8 @@
     "flag": "ok"
    },
    {
-    "line": "Al Shifa, twenty twenty three. BBC: the army is targeting medical teams.",
-    "score": 0.917,
+    "line": "Al Shifa raid. BBC: the army is targeting medical teams.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -136,7 +136,7 @@
    },
    {
     "line": "White House: <<h|ɑ|ˈ|m|ɑ|s>> used Al Shifa as a command and control node.",
-    "score": 0.786,
+    "score": 0.714,
     "flag": "MISS"
    },
    {
@@ -150,15 +150,16 @@
     "flag": "ok"
    }
   ],
-  "heard": "Narrator's dad works for Hamas, don't tell viewers. That's Rule 5 of the BBC rule book, Ofcom 2025. A British Broadcasting Corporation Gaza film was materially misleading. The narrator's father, a Hamas government official. Rule 3. Hospital explodes, blame Israel first. BBC Live. Hard to see what else this could be, other than an Israeli airstrike. US, British and French intelligence. Likely a rocket from Gaza. B.C. Wrong to Speculate. Rule 9. Hamas are militants. Never terrorists. BBC's John Simpson. Calling someone a terrorist means taking sides. Britain banned Hamas as terrorists in 2021. Rule 2. Army brings doctors? Report. Targeting doctors. Al-Shifa, 2023. BBC. The army is targeting medical teams. It's not true. The army brought medics. BBC apologized. White House. Hamas used al-Shifa as a command and control node. The BBC does issue corrections. Judge it by the record. Send this to someone who still trusts Rule 5.",
+  "heard": "Narrator's dad works for Hamas. Don't tell viewers. That's Rule 5 of the BBC rulebook. Ofcom 2025. A British Broadcasting Corporation Gaza film was materially misleading. The narrator's father? A Hamas official. Rule 3. Hospital explodes? Blame Israel first. BBC. Live. Hard to see what else this could be? Other than an Israeli airstrike. Western intelligence? Likely a rocket from Gaza. BBC. Wrong to speculate. Rule 9. Hamas. Never terrorists. BBC's John Simpson calling them terrorists means taking sides. Britain bans Hamas as terrorists. Rule 2. Army brings doctors? Report. Targeting doctors. Al-Shifa raid. BBC. The army is targeting medical teams. Not true. The army brought medics. BBC apologized. White House. Hamas used Al-Shifa as a command and control note. The BBC does issue corrections. Judge it by the record. Send this to someone who still trusts Rule 5.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -2.0
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
+ "tightened_s": 6.16,
  "photos": [
   {
    "file": "templates/photos/bbc_rulebook/bbc_bh2.jpg",
@@ -217,8 +218,8 @@
     4,
     3
    ],
-   "start": 15.34,
-   "land": 15.84
+   "start": 13.97,
+   "land": 14.47
   },
   {
    "page": 9,
@@ -231,8 +232,8 @@
     8,
     9
    ],
-   "start": 30.37,
-   "land": 31.37
+   "start": 26.86,
+   "land": 27.86
   },
   {
    "page": 2,
@@ -246,16 +247,16 @@
     3,
     2
    ],
-   "start": 42.11,
-   "land": 42.81
+   "start": 37.14,
+   "land": 37.84
   },
   {
    "page": 2,
    "seq": null,
-   "start": 60.49,
-   "land": 60.49
+   "start": 52.22,
+   "land": 52.22
   }
  ],
  "lint_warnings": [],
- "render_s": 161.7
+ "render_s": 154.8
 }
