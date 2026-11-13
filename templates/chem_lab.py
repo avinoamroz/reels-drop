@@ -408,7 +408,7 @@ def run(S):
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
     if (S.get("cover") or {}).get("bg") == "scene":
         p = f"{work}/cover_bg.png"; cv2.imwrite(p, layer(D.get("cover_t", 0.8), hook=False, subs=False, overlays=False)); S["_cover_bg"] = p
-    ev = [(0.05, "whoosh", -28), (tBk, "whoosh", -24), (tSp, "whoosh", -20), (tSp + 0.55, "thud", -18), (tSp + 0.6, "whoosh", -22),
+    ev = [(0.05, "whoosh", -28), (tBk, "whoosh", -24), (tSp, "whoosh", -27), (tSp + 0.55, "thud", -22), (tSp + 0.6, "whoosh", -27),
           (tDo, "pop", -24), (tGv, "whoosh", -26), (tGv + 0.9, "ding", -18)]
     if tB0 < 1e8: ev.append((tB0, "buzz", -26))
     if tM0 < 1e8: ev.append((tM0, "tick", -18))

@@ -8,7 +8,7 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
+  "tempo": 1.16,
   "gap": 0.15,
   "lead": 0.1
  },
@@ -22,7 +22,7 @@
    "gap": 0.15
   },
   {
-   "say": "So it's unstable. It roams around and damages whatever it touches.",
+   "say": "So it's unstable. It roams around, damaging whatever it touches.",
    "gap": 0.2
   },
   {
@@ -30,11 +30,11 @@
    "gap": 0.15
   },
   {
-   "say": "Pew, twenty fifteen, eleven countries with large Muslim populations:",
+   "say": "Pew, twenty fifteen, eleven countries with large Muslim populations.",
    "gap": 0.1
   },
   {
-   "say": "in none did more than fifteen percent view ISIS, the Islamic State, favourably.",
+   "say": "No country had more than fifteen percent viewing ISIS, the Islamic State, favourably.",
    "gap": 0.25
   },
   {
@@ -47,7 +47,7 @@
   },
   {
    "say": "Step one: cool the reaction.",
-   "gap": 0.6,
+   "gap": 0.45,
    "screen": "Step 1: *cool* the reaction",
    "at": "L8"
   },
@@ -67,15 +67,15 @@
    "gap": 0.15
   },
   {
-   "say": "The UAE: Hedayah, a global centre against extremism, since twenty twelve.",
+   "say": "The UAE: Hedayah, a centre against extremism, since twenty twelve.",
    "gap": 0.15
   },
   {
-   "say": "Twenty sixteen: hundreds of Muslim scholars sign the Marrakesh Declaration, for religious minorities.",
+   "say": "Twenty sixteen: hundreds of Muslim scholars sign the Marrakesh Declaration, for minorities.",
    "gap": 0.15
   },
   {
-   "say": "And schools: Saudi textbooks dropped most antisemitism by twenty twenty-three.",
+   "say": "And schools: Saudi textbooks cut most antisemitism by twenty twenty-three.",
    "gap": 0.25
   },
   {
@@ -131,7 +131,7 @@
    "until": "L8+0.3",
    "text": "Missing: 1 electron"
   },
-  "splash_at": "L8+0.1",
+  "splash_at": "L8:reaction",
   "donor_at": "L9:antioxidants",
   "give_at": "L9:donate",
   "tiles": [
