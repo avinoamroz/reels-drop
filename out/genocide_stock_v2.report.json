@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "pop_stock",
  "hook": "Genocide?|Check the *chart.*",
- "duration": 60.67,
+ "duration": 66.03,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/genocide_stock_v2.mp4",
@@ -61,7 +61,7 @@
   {
    "label": "UN Genocide Convention, Art. II",
    "year": 1948,
-   "at": "L9:legally",
+   "at": "L9:genocide",
    "until": "L10-0.1"
   },
   {
@@ -78,7 +78,7 @@
   }
  ],
  "transcript": {
-  "score": 0.918,
+  "score": 0.904,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -112,9 +112,9 @@
     "flag": "ok"
    },
    {
-    "line": "Gaza fell about four percent. But all together? Still rising: about a hundred fifty thousand more than in twenty twenty-three.",
-    "score": 0.81,
-    "flag": "ok"
+    "line": "Gaza fell about four percent. All together? Still rising: about a hundred fifty thousand more since twenty twenty-three.",
+    "score": 0.789,
+    "flag": "MISS"
    },
    {
     "line": "Gaza's Health Ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>, counts over seventy-four thousand dead, without splitting civilians from fighters.",
@@ -127,19 +127,19 @@
     "flag": "ok"
    },
    {
-    "line": "Is a chart the legal answer? No. Legally, genocide means intent to destroy a group.",
-    "score": 0.933,
+    "line": "Is a chart the legal test? No. Genocide means intent to destroy a group.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "The International Court of Justice is still hearing that case.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "All together: one point two million in nineteen fifty, seven point three million today. Not a people being wiped out.",
-    "score": 0.95,
-    "flag": "ok"
+    "score": 0.75,
+    "flag": "MISS"
    },
    {
     "line": "Gaza's war is a tragedy. Judge the word by its definition.",
@@ -147,19 +147,19 @@
     "flag": "ok"
    },
    {
-    "line": "So. Genocide? Check the chart.",
+    "line": "Genocide? Check the chart.",
     "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "Genocide, check the chart. 1948, 156,000 Arabs stayed in Israel. Today, over 2 million. Lawmakers, whole cities. West Bank, 600,000 in 1967. Now, 3.4 million. Gaza, 356,000. By 2023, 2.2 million. Then came the war. And the line turned red. Gaza fell about 4%. But altogether, still rising. About 150,000 more than in 2023. Gaza's health ministry, run by Hamas, counts over 74,000 dead without splitting civilians from fighters. About 22,000 were children. That pain is real. Is the chart the legal answer? No. Legally, genocide means intent to destroy a group. The International Court of Justice is still here in that case. All together, 1.2 million in 1950, 7.3 million today. Not a people being wiped out. Gaza's war is a tragedy. Judge the word by its definition. So genocide, check the chart.",
+  "heard": "Genocide? Check the chart. 1948, 156,000 Arabs stayed in Israel. Today, over 2 million. Lawmakers. Whole cities. West Bank, 600,000 in 1967. Now 3.4 million. Gaza. 356,000. By 2023, 2.2 million. Then came the war. And the line turned red. Gaza fell about 4%. Altogether. Still rising. About 150,000 more since 2023. Gaza's health ministry, run by Hamas, counts over 74,000 dead without splitting civilians from fighters. About 22,000 were children. That pain is real. Is a chart the legal test? No. Genocide means intent to destroy a group. The International Court of Justice is still hearing that case altogether. 1.2 million in 1950, 7.3 million today. people being wiped out. Gaza's war is a tragedy. Judge the word by its definition. Genocide. Check the chart.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "photos": [
   {
@@ -186,5 +186,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 118.6
+ "render_s": 97.7
 }
