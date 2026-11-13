@@ -176,7 +176,7 @@
    ]
   ],
   "pass2": {
-   "at": "L7",
+   "at": "L7:percent",
    "dur": 2.2,
    "ghost": true
   },
@@ -197,8 +197,8 @@
     "year": 1981,
     "code": "SAU",
     "text": "Oil boom",
-    "dy": -110,
-    "dx": -40,
+    "dy": -40,
+    "dx": -190,
     "col": "green"
    },
    {
@@ -207,8 +207,8 @@
     "year": 1988,
     "code": "SAU",
     "text": "Oil bust",
-    "dy": -170,
-    "dx": -60,
+    "dy": -330,
+    "dx": -40,
     "col": "red"
    },
    {
@@ -217,7 +217,7 @@
     "year": 1987,
     "code": "ISR",
     "text": "1987: Israel passes Saudi",
-    "dy": -400,
+    "dy": -560,
     "dx": -120,
     "col": "yellow"
    },
@@ -257,7 +257,7 @@
   "bars": [
    {
     "at": "L6",
-    "until": "L7",
+    "until": "L7:percent+0.3",
     "title": "Natural resource *rents,* % of GDP",
     "sub": "World Bank, 2021 (Kuwait, Syria: 2020)",
     "y": 570,
@@ -348,12 +348,13 @@
    },
    {
     "at": "L11:fifty",
-    "until": "L12",
+    "until": "L12+0.8",
     "value": 58,
-    "from": 0,
+    "from": 30,
     "suffix": "%",
     "sub": "of Israel's exports are high tech (2025)",
-    "y": 900
+    "y": 900,
+    "roll": 0.6
    }
   ],
   "photos": [
