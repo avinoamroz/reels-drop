@@ -1,0 +1,439 @@
+{
+ "id": "holidays_lets_eat",
+ "account": "noamroz__",
+ "template": "holiday_wheel",
+ "hook": "Tried to *kill* us.|Let's *eat.*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Twenty-five": "25",
+  "Forty": "40",
+  "Six million": "6 million",
+  "four tried": "4 tried",
+  "Seven meals": "7 meals",
+  "Two fasts": "2 fasts"
+ },
+ "lines": [
+  {
+   "say": "They tried to kill us. We survived. Let's eat.",
+   "gap": 0.2
+  },
+  {
+   "say": "Every holiday? Let's spin the calendar."
+  },
+  {
+   "say": "Rosh Hashanah. No villain. Apples in honey."
+  },
+  {
+   "say": "Yom Kippur. We fast. Twenty-five hours."
+  },
+  {
+   "say": "Sukkot. Forty desert years. Dinner in a hut."
+  },
+  {
+   "say": "Hanukkah. King Antiochus banned our faith, on pain of death."
+  },
+  {
+   "say": "The Maccabees won. Fried donuts."
+  },
+  {
+   "say": "Purim. Haman plotted to kill all the Jews."
+  },
+  {
+   "say": "He lost. Cookies named after him."
+  },
+  {
+   "say": "Passover. Pharaoh enslaved us and ordered our baby boys killed."
+  },
+  {
+   "say": "Death passed over our homes. We ran so fast, the bread never rose."
+  },
+  {
+   "say": "Holocaust Remembrance Day. Six million murdered. No food. Just silence.",
+   "gap": 0.45
+  },
+  {
+   "say": "Eight days later: Independence Day. Five armies invaded. We survived."
+  },
+  {
+   "say": "The whole country grills."
+  },
+  {
+   "say": "Shavuot. We got the Torah. Nobody tried to kill us."
+  },
+  {
+   "say": "We eat cheesecake anyway."
+  },
+  {
+   "say": "Tisha B'Av. Babylon and Rome burned our Temples. When they won, we fast."
+  },
+  {
+   "say": "Final score: four tried to kill us. Seven meals. Two fasts."
+  },
+  {
+   "say": "The secret? Remember everything. Then set the table."
+  },
+  {
+   "say": "And the wheel turns again."
+  }
+ ],
+ "data": {
+  "counters": [
+   {
+    "key": "kill",
+    "label": "Tried to kill us"
+   },
+   {
+    "key": "ate",
+    "label": "Then we ate"
+   },
+   {
+    "key": "fast",
+    "label": "Fasts"
+   }
+  ],
+  "ticks": [
+   {
+    "key": "ate",
+    "at": "L2:apples"
+   },
+   {
+    "key": "fast",
+    "at": "L3:fast"
+   },
+   {
+    "key": "ate",
+    "at": "L4:dinner"
+   },
+   {
+    "key": "kill",
+    "at": "L5:death"
+   },
+   {
+    "key": "ate",
+    "at": "L6:fried"
+   },
+   {
+    "key": "kill",
+    "at": "L7:kill"
+   },
+   {
+    "key": "ate",
+    "at": "L8:cookies"
+   },
+   {
+    "key": "kill",
+    "at": "L9:killed"
+   },
+   {
+    "key": "ate",
+    "at": "L10:rose"
+   },
+   {
+    "key": "kill",
+    "at": "L12:invaded"
+   },
+   {
+    "key": "ate",
+    "at": "L13:grills"
+   },
+   {
+    "key": "ate",
+    "at": "L15:cheesecake"
+   },
+   {
+    "key": "fast",
+    "at": "L16:fast"
+   }
+  ],
+  "spin": {
+   "turns": 2
+  },
+  "beats": [
+   {
+    "at": "L1",
+    "name": "Every Jewish holiday?",
+    "story": "A villain, then *dinner?*"
+   },
+   {
+    "at": "L2",
+    "month": 0,
+    "day": 1,
+    "name": "Rosh Hashanah",
+    "story": "The Jewish *new year.* No villain.",
+    "food": "Apples in honey",
+    "food_emoji": "🍯",
+    "emoji": "🍎",
+    "dot": "meal",
+    "stamp": {
+     "text": "NO VILLAIN.|STILL ATE.",
+     "color": "green",
+     "at": "L2:apples"
+    }
+   },
+   {
+    "at": "L3",
+    "month": 0,
+    "day": 10,
+    "name": "Yom Kippur",
+    "story": "Day of Atonement: *25 hours.*",
+    "food": "We fast",
+    "food_emoji": "🚫",
+    "emoji": "🚫",
+    "dot": "fast",
+    "stamp": {
+     "text": "WE FAST",
+     "color": "sky",
+     "at": "L3:fast"
+    }
+   },
+   {
+    "at": "L4",
+    "month": 0,
+    "day": 15,
+    "name": "Sukkot",
+    "story": "*40 years* in the desert, living in huts.",
+    "food": "Dinner in the sukkah",
+    "food_emoji": "🛖",
+    "photo": "templates/photos/holidays_lets_eat/sukkah.jpg",
+    "credit": "Bachrach44, CC BY-SA 3.0, Wikimedia Commons",
+    "dot": "meal",
+    "stamp": {
+     "text": "WE MADE IT.|DINNER OUTSIDE.",
+     "color": "green",
+     "at": "L4:dinner"
+    }
+   },
+   {
+    "at": "L5",
+    "month": 2,
+    "day": 25,
+    "name": "Hanukkah",
+    "story": "Antiochus IV *bans our faith.* Maccabees win.",
+    "food": "Sufganiyot and latkes",
+    "food_emoji": "🍩",
+    "photo": "templates/photos/holidays_lets_eat/sufganiyot.jpg",
+    "credit": "Noam Furer, CC0, Wikimedia Commons",
+    "dot": "meal",
+    "stamp": {
+     "text": "TRIED. FAILED.|DONUTS.",
+     "color": "yellow",
+     "at": "L6:fried"
+    }
+   },
+   {
+    "at": "L7",
+    "month": 5,
+    "day": 14,
+    "name": "Purim",
+    "story": "Haman plots to *kill every Jew* in the empire.",
+    "food": "Hamantaschen",
+    "food_emoji": "🍪",
+    "photo": "templates/photos/holidays_lets_eat/hamantaschen.jpg",
+    "credit": "Eden Aviv, CC0, Wikimedia Commons",
+    "dot": "meal",
+    "stamp": {
+     "text": "TRIED. FAILED.|COOKIES.",
+     "color": "yellow",
+     "at": "L8:cookies"
+    }
+   },
+   {
+    "at": "L9",
+    "month": 6,
+    "day": 15,
+    "name": "Passover",
+    "story": "Egypt: slaves. *Death passes over.*",
+    "food": "Matzah and the seder",
+    "food_emoji": "🫓",
+    "photo": "templates/photos/holidays_lets_eat/seder.jpg",
+    "credit": "shalom gurewicz, CC BY 2.0, Wikimedia Commons",
+    "dot": "meal",
+    "stamp": {
+     "text": "TRIED. FAILED.|MATZAH.",
+     "color": "yellow",
+     "at": "L10:rose"
+    }
+   },
+   {
+    "at": "L11",
+    "month": 6,
+    "day": 27,
+    "name": "Holocaust Remembrance Day",
+    "story": "*6,000,000* Jews murdered.",
+    "food": "A siren. Silence. No food.",
+    "food_emoji": "🕯️",
+    "emoji": "🕯️",
+    "plate": "dark",
+    "grave": true,
+    "dot": "grave"
+   },
+   {
+    "at": "L12",
+    "month": 7,
+    "day": 5,
+    "name": "Independence Day",
+    "story": "*1948:* five armies invade. We survive.",
+    "food": "Mangal: the whole country grills",
+    "food_emoji": "🔥",
+    "photo": "templates/photos/holidays_lets_eat/mangal.jpg",
+    "credit": "IPPA, National Library of Israel, 1976, CC BY 4.0",
+    "dot": "meal",
+    "stamp": {
+     "text": "TRIED. FAILED.|BARBECUE.",
+     "color": "yellow",
+     "at": "L13:grills"
+    },
+    "kb": [
+     1.15,
+     1.3
+    ]
+   },
+   {
+    "at": "L14",
+    "month": 8,
+    "day": 6,
+    "name": "Shavuot",
+    "story": "The *Torah.* The wheat harvest.",
+    "food": "Cheesecake",
+    "food_emoji": "🍰",
+    "emoji": "🍰",
+    "dot": "meal",
+    "stamp": {
+     "text": "NO ONE TRIED TO KILL US.|WE ATE ANYWAY.",
+     "color": "red",
+     "at": "L15:cheesecake"
+    }
+   },
+   {
+    "at": "L16",
+    "month": 10,
+    "day": 9,
+    "name": "Tisha B'Av",
+    "story": "Temples destroyed: *586 BCE, 70 CE.*",
+    "food": "We fast and mourn",
+    "food_emoji": "🚫",
+    "emoji": "📜",
+    "plate": "dark",
+    "dot": "fast",
+    "stamp": {
+     "text": "THEY WON.|WE FAST.",
+     "color": "sky",
+     "at": "L16:fast"
+    }
+   }
+  ],
+  "final": {
+   "at": "L17",
+   "until": "L18",
+   "title": "Final *score*",
+   "rows": [
+    {
+     "key": "kill",
+     "label": "Tried to kill us"
+    },
+    {
+     "key": "ate",
+     "label": "Then we ate"
+    },
+    {
+     "key": "fast",
+     "label": "Fasts"
+    }
+   ]
+  },
+  "end": {
+   "at": "L18",
+   "until": "L19+0.4",
+   "balance": "Remember *everything.*|Then set the *table.*",
+   "cta": "Send this to whoever *hosts*"
+  },
+  "outro": {
+   "at": "L19",
+   "month": 12,
+   "day": 1,
+   "dur": 1.6
+  }
+ },
+ "sources": [
+  {
+   "label": "Torah, Leviticus 23:24",
+   "year": "tradition",
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Torah, Leviticus 23:27",
+   "year": "tradition",
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Torah, Leviticus 23:42 to 43",
+   "year": "tradition",
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "1 Maccabees 1:41 to 50 and 4:52",
+   "year": "164 BCE",
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "Book of Esther 3:13",
+   "year": "tradition",
+   "at": "L7",
+   "until": "L9"
+  },
+  {
+   "label": "Book of Exodus 1:22, 12:23, 12:39",
+   "year": "tradition",
+   "at": "L9",
+   "until": "L11"
+  },
+  {
+   "label": "Yad Vashem",
+   "year": "1933 to 1945",
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "Encyclopaedia Britannica: invasion of 15 May 1948",
+   "year": "1948",
+   "at": "L12",
+   "until": "L14"
+  },
+  {
+   "label": "Torah, Exodus 19 and 34:22",
+   "year": "tradition",
+   "at": "L14",
+   "until": "L16"
+  },
+  {
+   "label": "Mishnah Taanit 4:6",
+   "year": "tradition",
+   "at": "L16",
+   "until": "L17"
+  }
+ ],
+ "caption_en": "They tried to kill us. We survived. Let's eat. 🍽️\n\nI spun the Jewish calendar and kept score:\n🍎 Rosh Hashanah: no villain. Apples in honey anyway.\n🚫 Yom Kippur: we fast, about 25 hours.\n🛖 Sukkot: 40 years in the desert, so dinner in a hut.\n🍩 Hanukkah: the Seleucid king Antiochus IV banned our faith on pain of death. The Maccabees won (164 BCE). Donuts.\n🍪 Purim: Haman plotted to kill every Jew in the Persian empire. He lost. Hamantaschen.\n🫓 Passover: slaves in Egypt, Pharaoh ordered the baby boys killed, death passed over our homes, the bread never rose. Matzah.\n🕯️ Holocaust Remembrance Day: 6 million Jews murdered. No food. A siren, then silence.\n🔥 Independence Day: 1948, five armies invaded. We survived. The whole country grills.\n🍰 Shavuot: nobody tried to kill us. Cheesecake anyway.\n📜 Tisha B'Av: both Temples destroyed (586 BCE, 70 CE). When they won, we fast.\n\nFinal score: tried to kill us 4. Meals 7. Fasts 2.\nRemember everything. Then set the table.\n\nBiblical stories as told in Jewish tradition.\nSources: Torah (Exodus 1:22, 12:23, 12:39, 19, 34:22; Leviticus 23); Book of Esther 3:13; 1 Maccabees 1:41 to 50 and 4:52; Mishnah Taanit 4:6; Yad Vashem; Encyclopaedia Britannica (invasion of 15 May 1948).\nPhotos (Wikimedia Commons): Bachrach44 (CC BY-SA 3.0); Noam Furer (CC0); Eden Aviv (CC0); shalom gurewicz (CC BY 2.0); IPPA photographer, Dan Hadani collection, National Library of Israel, 1976 (CC BY 4.0). AI voice.\n\nWhich holiday has the best food?",
+ "caption_he": "ניסו להרוג אותנו. שרדנו. בואו נאכל. 🍽️\n\nסובבתי את לוח השנה העברי וספרתי:\n🍎 ראש השנה: אין נבל. תפוח בדבש בכל זאת.\n🚫 יום כיפור: צמים, בערך 25 שעות.\n🛖 סוכות: 40 שנה במדבר, אז אוכלים בסוכה.\n🍩 חנוכה: אנטיוכוס הרביעי אסר את האמונה שלנו. המכבים ניצחו. סופגניות.\n🍪 פורים: המן זמם להשמיד את כל היהודים. הוא הפסיד. אוזני המן.\n🫓 פסח: עבדים במצרים, ברחנו כל כך מהר שהבצק לא הספיק לתפוח. מצה.\n🕯️ יום השואה: 6 מיליון יהודים נרצחו. בלי אוכל. צפירה, ושקט.\n🔥 יום העצמאות: 1948, חמישה צבאות פלשו. שרדנו. כל המדינה על המנגל.\n🍰 שבועות: אף אחד לא ניסה להרוג אותנו. עוגת גבינה בכל זאת.\n📜 תשעה באב: שני בתי המקדש חרבו. כשהם ניצחו, אנחנו צמים.\n\nהתוצאה הסופית: ניסו להרוג אותנו 4. ארוחות 7. צומות 2.\nלזכור הכול. ואז לערוך את השולחן.\n\nאיזה חג הכי טעים אצלכם?",
+ "hashtags": [
+  "#Jewish",
+  "#JewishHolidays",
+  "#Israel"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 3.0,
+  "text": "They tried to kill us.|Let's *eat.*"
+ }
+}
