@@ -9,13 +9,13 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-
   map      {view: [lon, lat, k, sy], until, back, labels: [{lon, lat, text}], zoom: 1.08}
            frame 0 map; `until` = when the chart takes over; `back` = when the map returns for the circular ending
   years    [1945, 2028]    shared x axis;  ticks [1950, 1970, 1990, 2010]
-  panels   [{label, unit_max, y, h, at, points: [[year, value], ...], draw: [{at, until, to}], notes: [{year, text, at}]}]
+  panels   [{label, flags: ["IL"], unit_max, y, h, at, until, points: [[year, value], ...], draw: [{at, until, to}], notes: [{year, text, at}]}]
            `at` = panel slides in; each draw step moves the line head from the previous `to` year to this `to` year
            between `at` and `until`. Segments that fall are red, rising green; the ticker shows the head value, an arrow
            and the % change since the first point (rising) or since the peak (falling). Dots mark the real data points.
   focus    [{at, panel}]   the panel the voice is on (others dim a little); panel -1 = none
   photos   [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], dim}]   full-bleed photos over the chart
-  big      [{at, until, value, from, prefix, suffix, dec, sub, y, size}]       counting number card (yellow)
+  big      [{at, until, value, from, prefix, suffix, dec, sub, y, size, col, stroke, nodim}]   counting number card (nodim: chart stays bright)
   quote    [{at, until, text, who, y, size}]                                    sourced quote card
   hook_y   default 330 (hook over the map);  title_y 300;  subs_y 1612;  src_y 1488;  credit_y 1712
 """
@@ -93,7 +93,7 @@ def run(S):
     # ---------------------------------------------------------------- panels
     P = []
     for p in D["panels"]:
-        q = dict(p); q["t0"] = A(p["at"]); pts = [tuple(x) for x in p["points"]]; q["pts"] = pts
+        q = dict(p); q["t0"] = A(p["at"]); q["t1"] = A(p.get("until"), T.END + 5); pts = [tuple(x) for x in p["points"]]; q["pts"] = pts
         steps, prev = [], pts[0][0]
         for s_ in p["draw"]:
             a0 = A(s_["at"]); a1 = A(s_.get("until"), a0 + 1.5); steps.append((a0, max(a0 + 0.2, a1), prev, s_["to"])); prev = s_["to"]
@@ -161,7 +161,10 @@ def run(S):
             tick = f"{fmt_pop(hv)} {arrow} {pct:,.1f}%" if pct < 10 else f"{fmt_pop(hv)} {arrow} {pct:,.0f}%"
         else:
             col = "#C9D6EA"; tick = fmt_pop(q["pts"][0][1])
-        cv.text(q["label"], 56, y0 + 50, 52, col, a, align="l", maxw=560, shadow=False)
+        fl = q.get("flags", []); lx = 56
+        for f_ in fl: WG.flag(cv, f_, lx + 26, y0 + 50, 52, a); lx += 62
+        if fl: lx += 6
+        cv.text(q["label"], lx, y0 + 50, 52, col, a, align="l", maxw=560 - (lx - 56), shadow=False)
         cv.text(tick, 1024, y0 + 50, 56, col, a, align="r", maxw=520, shadow=False)
         for n in q["notes"]:
             na = a * seg(t, n["t0"], n["t0"] + 0.3)
@@ -195,7 +198,7 @@ def run(S):
         for a0, pi in FOC:
             if t >= a0: foc = pi
         for i, q in enumerate(P):
-            a = seg(t, q["t0"] - 0.1, q["t0"] + 0.35)
+            a = seg(t, q["t0"] - 0.1, q["t0"] + 0.35) * (1 - seg(t, q["t1"] - 0.3, q["t1"]))
             if a > 0.01:
                 c = cv.c; c.save(); c.translate(0, 40 * (1 - a)); draw_panel(cv, q, t, a, foc is None or foc == i or foc < 0); c.restore()
         return cv.out().astype(np.float32)
@@ -214,7 +217,7 @@ def run(S):
         for p in PH:
             pa = photo_alpha(p, t)
             if pa > 0.001: base = base * (1 - pa) + photo_layer(p, t) * pa
-        over = max([win(t, b["t0"] - 0.2, b["t1"], 0.3, 0.3) for b in BIG + QT] + ([seg(t, END_AT - 0.1, END_AT + 0.3) * (1 - seg(t, MAP_BACK - 0.2, MAP_BACK + 0.2))] if END_AT else []) + [0])
+        over = max([win(t, b["t0"] - 0.2, b["t1"], 0.3, 0.3) for b in [b_ for b_ in BIG if not b_.get("nodim")] + QT] + ([seg(t, END_AT - 0.1, END_AT + 0.3) * (1 - seg(t, MAP_BACK - 0.2, MAP_BACK + 0.2))] if END_AT else []) + [0])
         if over > 0: base = base * (1 - 0.5 * over)
         cv = Canvas(base)
         for p in PH:
