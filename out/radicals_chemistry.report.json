@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "chem_lab",
  "hook": "How to neutralise|a *radical.* Chemistry.",
- "duration": 65.03,
+ "duration": 60.3,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -1.2
+  "lufs": -16.1,
+  "true_peak": -1.7
  },
  "outputs": {
   "mp4": "out/radicals_chemistry.mp4",
@@ -76,7 +76,7 @@
   }
  ],
  "transcript": {
-  "score": 0.908,
+  "score": 0.894,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -90,28 +90,28 @@
     "flag": "ok"
    },
    {
-    "line": "So it's unstable. It roams around and damages whatever it touches.",
+    "line": "So it's unstable. It roams around, damaging whatever it touches.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Extremists work the same way. And most Muslims reject them.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
-    "line": "Pew, twenty fifteen, eleven countries with large Muslim populations:",
+    "line": "Pew, twenty fifteen, eleven countries with large Muslim populations.",
     "score": 0.889,
     "flag": "ok"
    },
    {
-    "line": "in none did more than fifteen percent view ISIS, the Islamic State, favourably.",
-    "score": 0.769,
-    "flag": "MISS"
+    "line": "No country had more than fifteen percent viewing ISIS, the Islamic State, favourably.",
+    "score": 0.923,
+    "flag": "ok"
    },
    {
     "line": "So when someone screams: Kill the Jews,",
-    "score": 1.0,
+    "score": 0.857,
     "flag": "ok"
    },
    {
@@ -121,12 +121,12 @@
    },
    {
     "line": "Step one: cool the reaction.",
-    "score": 0.8,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Step two: antioxidants. They donate the missing electron.",
-    "score": 1.0,
+    "score": 0.875,
     "flag": "ok"
    },
    {
@@ -140,18 +140,18 @@
     "flag": "ok"
    },
    {
-    "line": "The UAE: Hedayah, a global centre against extremism, since twenty twelve.",
-    "score": 0.727,
+    "line": "The UAE: Hedayah, a centre against extremism, since twenty twelve.",
+    "score": 0.7,
     "flag": "MISS"
    },
    {
-    "line": "Twenty sixteen: hundreds of Muslim scholars sign the Marrakesh Declaration, for religious minorities.",
-    "score": 0.846,
+    "line": "Twenty sixteen: hundreds of Muslim scholars sign the Marrakesh Declaration, for minorities.",
+    "score": 0.833,
     "flag": "ok"
    },
    {
-    "line": "And schools: Saudi textbooks dropped most antisemitism by twenty twenty-three.",
-    "score": 0.909,
+    "line": "And schools: Saudi textbooks cut most antisemitism by twenty twenty-three.",
+    "score": 0.818,
     "flag": "ok"
    },
    {
@@ -166,35 +166,35 @@
    },
    {
     "line": "That's how you neutralise a radical.",
-    "score": 0.833,
-    "flag": "ok"
+    "score": 0.667,
+    "flag": "MISS"
    }
   ],
-  "heard": "How do you neutralize a radical? Chemistry. A free radical has one unpaired electron, so it's unstable. It roams around and damages whatever it touches. Extremists work the same way, and most Muslims reject them. Pew. 2015, 11 countries with large Muslim populations. In London more than 15% view ISIS, the Islamic State, favorably. So when someone screams, kill the Jews, clearly, he's missing an electron. Step 1. the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007. The UAE. Hidaya, a global center against extremism since 2012. 2016. Hundreds of Muslim scholars signed the Marrakesh Declaration for religious minorities. And schools. Saudi textbooks dropped most antisemitism by 2023. Every group has its radicals. Same chemistry for all. Give the radical what he's missing, and the reaction stops. That's how you neutralize a radical.",
+  "heard": "How do you neutralize a radical? Chemistry. A free radical has one unpaired electron, so it's unstable. It roams around, damaging whatever it touches. Extremists work the same way, and most Muslims reject it. Pew, 2015, 11 countries with large Muslim populations. No country had more than 15% viewing ISIS, the Islamic State, favorably. Someone screams. Kill the Jews. Clearly. He's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing letter. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007. The UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities. And schools, Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals, same chemistry for all. Give the radical what he's missing, and the reaction stops. That's how you neutralize a wrap.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -1.2
+  "lufs": -16.1,
+  "true_peak": -1.7
  },
  "phases": {
-  "beaker": 22.62,
-  "splash": 27.68,
-  "give": 32.57,
+  "beaker": 20.64,
+  "splash": 26.72,
+  "give": 30.2,
   "tiles": [
-   34.02,
-   38.33,
-   41.48,
-   46.31,
-   51.54
+   31.59,
+   35.89,
+   39.47,
+   43.99,
+   48.77
   ],
-  "end": 65.04
+  "end": 60.29
  },
  "lint_warnings": [
   "hook has no number",
   "source without year: City of Aarhus"
  ],
- "render_s": 152.9
+ "render_s": 113.5
 }
