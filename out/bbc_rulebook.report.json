@@ -1,0 +1,261 @@
+{
+ "id": "bbc_rulebook",
+ "account": "noamroz__",
+ "template": "rulebook",
+ "hook": "The BBC rulebook,|rule *5*",
+ "duration": 60.6,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/bbc_rulebook.mp4",
+  "cover": "covers/bbc_rulebook_cover.jpg",
+  "preview": "previews/bbc_rulebook_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/bbc_rulebook_0.jpg",
+  "1": "out/frames/bbc_rulebook_1.jpg",
+  "3": "out/frames/bbc_rulebook_3.jpg",
+  "last": "out/frames/bbc_rulebook_last.jpg"
+ },
+ "caption_en": "see posting payload",
+ "caption_he": "see posting payload",
+ "hashtags": [
+  "#BBC",
+  "#Israel",
+  "#MediaBias"
+ ],
+ "sources": [
+  {
+   "label": "Ofcom ruling on BBC Gaza documentary",
+   "year": "17 Oct 2025"
+  },
+  {
+   "label": "BBC News Channel, Al-Ahli blast coverage",
+   "year": "17 Oct 2023"
+  },
+  {
+   "label": "UK PM statement to Parliament",
+   "year": "23 Oct 2023"
+  },
+  {
+   "label": "BBC News, Jonathan Munro, Media Society (Press Gazette)",
+   "year": "19 Oct 2023"
+  },
+  {
+   "label": "John Simpson, BBC (Press Gazette)",
+   "year": "11 Oct 2023"
+  },
+  {
+   "label": "UK Home Office proscription of HAMAS",
+   "year": "Nov 2021"
+  },
+  {
+   "label": "BBC News on-air apology, Al-Shifa",
+   "year": "15 Nov 2023"
+  },
+  {
+   "label": "White House, John Kirby",
+   "year": "14 Nov 2023"
+  }
+ ],
+ "transcript": {
+  "score": 0.86,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Narrator's dad works for <<h|ɑ|ˈ|m|ɑ|s>>? Don't tell viewers.",
+    "score": 0.7,
+    "flag": "MISS"
+   },
+   {
+    "line": "That's rule five of the BBC rulebook.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain's regulator, Ofcom, twenty twenty five: a British Broadcasting Corporation Gaza film was materially misleading.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "The narrator's father? An official in <<h|ɑ|ˈ|m|ɑ|s>>'s government.",
+    "score": 0.636,
+    "flag": "MISS"
+   },
+   {
+    "line": "Rule three. Hospital explodes? Blame Israel first.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "BBC, live: hard to see what else this could be, other than an Israeli air strike.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "U.S., British and French intelligence: likely a rocket from inside Gaza.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "The BBC later said: wrong to speculate.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Rule nine. <<h|ɑ|ˈ|m|ɑ|s>> are militants. Never terrorists.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "The BBC's John Simpson: calling someone a terrorist means taking sides.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain banned <<h|ɑ|ˈ|m|ɑ|s>> as a terrorist group in twenty twenty one.",
+    "score": 0.692,
+    "flag": "MISS"
+   },
+   {
+    "line": "Rule two. Army brings doctors? Report: targeting doctors.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Al Shifa hospital, twenty twenty three. BBC: the army is targeting medical teams.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Wrong. The army brought medics. The BBC apologised.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "The White House: <<h|ɑ|ˈ|m|ɑ|s>> used Al Shifa as a command node.",
+    "score": 0.692,
+    "flag": "MISS"
+   },
+   {
+    "line": "The BBC does issue corrections. Judge it by the record.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Send this to someone who still trusts rule five.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Narrator's dad works for Hamas? Don't tell viewers. That's Rule 5 of the BBC rulebook. Britain's regulator, Ofcom 2025. A British Broadcasting Corporation Gaza film was materially misleading. The narrator's father? An official in Hamas's government. Rule 3. Hospital explodes? Blame Israel first. BBC, live. Hard to see what else this could be. Other than an Israeli airstrike. US, British and French intelligence. Likely a rocket from inside Gaza. The BBC later said, wrong to speculate. Rule 9. Hamas are militants. Never terrorists. The BBC's John Simpson. Calling someone a terrorist means taking sides. Britain banned Hamas as a terrorist group in 2021. Rule 2. Army brings doctors. Report targeting doctors. Al-Shifa Hospital, 2023. BBC. The army is targeting medical teams. Raw. The army brought medics. The BBC apologized. The White House. Hamas used Al-Shifa as a command note. The BBC does issue corrections. Judge it by the record. Send this to someone who still trusts Rule 5.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "photos": [
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_bh2.jpg",
+   "credit": "Oxyman, CC BY 2.5, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_bh4.jpg",
+   "credit": "Ben Brooksbank, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_bh3.jpg",
+   "credit": "Stephen Craven, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_wm1.jpg",
+   "credit": "Diliff, CC BY-SA 2.5, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_bh2.jpg",
+   "credit": "Oxyman, CC BY 2.5, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_bh3.jpg",
+   "credit": "Stephen Craven, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_wm2.jpg",
+   "credit": "Adrian Pingstone, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_bh4.jpg",
+   "credit": "Ben Brooksbank, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/bbc_rulebook/bbc_wh1.jpg",
+   "credit": "Matt H. Wade, CC BY-SA 3.0, Wikimedia Commons"
+  }
+ ],
+ "flips": [
+  {
+   "page": 5,
+   "seq": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "start": 0.0,
+   "land": 0.8
+  },
+  {
+   "page": 3,
+   "seq": [
+    5,
+    4,
+    3
+   ],
+   "start": 14.41,
+   "land": 14.91
+  },
+  {
+   "page": 9,
+   "seq": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "start": 28.32,
+   "land": 29.32
+  },
+  {
+   "page": 2,
+   "seq": [
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2
+   ],
+   "start": 38.8,
+   "land": 39.5
+  },
+  {
+   "page": 2,
+   "seq": null,
+   "start": 54.77,
+   "land": 54.77
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 148.3
+}
