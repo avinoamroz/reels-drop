@@ -1,0 +1,187 @@
+{
+ "id": "west_bank_east_bank",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Why is it the|*WEST* Bank?",
+ "duration": 60.43,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/west_bank_east_bank.mp4",
+  "cover": "covers/west_bank_east_bank_cover.jpg",
+  "preview": "previews/west_bank_east_bank_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/west_bank_east_bank_0.jpg",
+  "1": "out/frames/west_bank_east_bank_1.jpg",
+  "3": "out/frames/west_bank_east_bank_3.jpg",
+  "last": "out/frames/west_bank_east_bank_last.jpg"
+ },
+ "caption_en": "Why is it called the WEST Bank? 🧭 Because there's an EAST Bank.\n\n1922: the League of Nations' Mandate for Palestine covers both banks of the Jordan River.\n1921: on the East Bank, Britain had already made Abdullah, a Hashemite prince from Mecca, Emir of Transjordan. That's about 77% of the Mandate's area (Israel MFA; roughly 89,000 of 116,000 km²).\n16 Sept 1922: the League approves the Transjordan memorandum. The Jewish national home clauses don't apply east of the river.\n1948: Abdullah's Arab Legion takes the land west of the river, including East Jerusalem.\n1950: Jordan annexes it (only Britain and Pakistan recognised it), and it becomes \"the West Bank\", as opposed to the East Bank. Its Palestinians are Jordanian citizens (Nationality Law, 1954).\n1967: Israel takes it. 1988: Jordan drops its claim.\nToday an estimated 55 to 70% of Jordanians have Palestinian roots (US Congressional Research Service, 2024; estimates vary, Jordan publishes no official figure). Queen Rania's parents are from Tulkarm and Nablus.\n\nKing Abdullah II (2014): \"Jordan is Jordan and Palestine is Palestine.\" And Palestinians seek their own state in the West Bank and Gaza.\n\nTwo banks. One river. One people?\n\nSend this to someone who says \"West Bank\".",
+ "caption_he": "למה קוראים לזה \"הגדה המערבית\"? כי יש גדה מזרחית.\n1922: המנדט על פלשתינה של חבר הלאומים כולל את שתי גדות הירדן. כבר ב־1921 בריטניה הפכה את עבדאללה, נסיך האשמי ממכה, לאמיר עבר הירדן: כ־77% משטח המנדט. בספטמבר 1922 חבר הלאומים קבע שסעיפי הבית הלאומי היהודי לא חלים שם.\n1948: ירדן כובשת את הצד המערבי. 1950: מספחת וקוראת לו \"הגדה המערבית\". 1967: ישראל. 1988: ירדן מוותרת על התביעה.\nהיום, לפי הערכות, 55 עד 70% מהירדנים ממוצא פלסטיני, כולל המלכה ראניה.\nמלך ירדן: \"ירדן היא ירדן ופלסטין היא פלסטין\", והפלסטינים מבקשים מדינה משלהם בגדה ובעזה.\nשתי גדות. נהר אחד. עם אחד?",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#Jordan"
+ ],
+ "sources": [
+  {
+   "label": "League of Nations, Mandate for Palestine",
+   "year": 1922,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Britannica: Jordan, Transjordan",
+   "year": 1921,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Israel MFA; areas: Jordan 89k, west 27k km²",
+   "year": 1922,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "League of Nations, Transjordan memorandum",
+   "year": 1922,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Britannica: Jordan, the Palestine war",
+   "year": 1948,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Britannica: Judea and Samaria; West Bank",
+   "year": 1950,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Jordan Nationality Law No. 6",
+   "year": 1954,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Britannica: West Bank, claimed 1949 to 1988",
+   "at": "L9",
+   "until": "L10",
+   "year": 1988
+  },
+  {
+   "label": "US Congressional Research Service, estimate",
+   "year": 2024,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Britannica: Rania al-Abdullah",
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "Royal Hashemite Court, King Abdullah II",
+   "year": 2014,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.966,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Why is it called the West Bank?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Because there's an East Bank. And it was Palestine too.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen twenty two. The League of Nations' Mandate for Palestine covers both banks of the Jordan.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "But on the East Bank, Britain had already made Abdullah, a Hashemite prince from Mecca, its emir.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "That's about seventy seven percent of the Mandate.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In September, the League agreed: the Jewish national home clauses don't apply there.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen forty eight. Abdullah's army takes the land west of the river too.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen fifty: Jordan annexes it, and calls it the West Bank. To tell it from the East Bank.",
+    "score": 0.944,
+    "flag": "ok"
+   },
+   {
+    "line": "Its Palestinians become Jordanian citizens.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sixty seven: Israel takes it. Eighty eight: Jordan drops its claim.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, an estimated fifty five to seventy percent of Jordanians have Palestinian roots.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Even the queen. Her parents are from Tulkarm and Nablus.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan's king says: Jordan is Jordan, and Palestine is Palestine. And Palestinians want their own state, in the West Bank and Gaza.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two banks. One river. One people? So, why is it called the West Bank?",
+    "score": 0.929,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Why is it called the West Bank? Because there's an East Bank, and it was Palestine too, 1922. The League of Nations' mandate for Palestine covers both banks of the Jordan, but on the East Bank, Britain had already made Abdullah a Hashemite prince from Mecca. It's a mirror. That's about 77% of the mandate. In September, the League agreed. The Jewish National Home Clauses don't apply there. 1948. Abdullah's army takes the land west of the river too. 1950. Jordan annexes it and calls it the West Bank, to tell it from the East Bank. its Palestinians become Jordanian citizens. 67. Israel takes it. 88. Jordan drops its claim. Today, an estimated 55-70% of Jordanians have Palestinian roots, even the queen. Her parents are from Tulkarm and Nablus. Jordan's king says, Jordan is Jordan, and Palestine is Palestine. And Palestinians want their own state in the West Bank and Gaza. Two banks. One river. One people. So, why is it called the West Main?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 60.44,
+ "opener": null,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [
+  "hook has no number",
+  "source without year: Britannica: Rania al-Abdullah"
+ ],
+ "render_s": 138.9
+}

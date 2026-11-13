@@ -1,0 +1,887 @@
+[
+{
+"word": "Why",
+"start": 0.04643991,
+"end": 0.37151927
+},
+{
+"word": "is",
+"start": 0.37151927,
+"end": 0.49535903
+},
+{
+"word": "it",
+"start": 0.49535903,
+"end": 0.58823884
+},
+{
+"word": "called",
+"start": 0.58823884,
+"end": 0.8204384
+},
+{
+"word": "the",
+"start": 0.8204384,
+"end": 0.88235825
+},
+{
+"word": "West",
+"start": 0.88235825,
+"end": 1.1300378
+},
+{
+"word": "Bank?",
+"start": 1.1300378,
+"end": 1.517037
+},
+{
+"word": "Because",
+"start": 2.0897958,
+"end": 2.3529553
+},
+{
+"word": "there's",
+"start": 2.3529553,
+"end": 2.5387151
+},
+{
+"word": "an",
+"start": 2.5387151,
+"end": 2.6625547
+},
+{
+"word": "East",
+"start": 2.7089946,
+"end": 2.9876342
+},
+{
+"word": "Bank.",
+"start": 2.9876342,
+"end": 3.4365532
+},
+{
+"word": "And",
+"start": 4.071232,
+"end": 4.2105517
+},
+{
+"word": "it",
+"start": 4.2105517,
+"end": 4.3034315
+},
+{
+"word": "was",
+"start": 4.3034315,
+"end": 4.4582314
+},
+{
+"word": "Palestine",
+"start": 4.4582314,
+"end": 4.9381104
+},
+{
+"word": "too.",
+"start": 4.9381104,
+"end": 5.2322297
+},
+{
+"word": "Nineteen",
+"start": 5.6037493,
+"end": 6.083628
+},
+{
+"word": "twenty",
+"start": 6.083628,
+"end": 6.3467875
+},
+{
+"word": "two.",
+"start": 6.3467875,
+"end": 6.671867
+},
+{
+"word": "The",
+"start": 7.089826,
+"end": 7.213666
+},
+{
+"word": "League",
+"start": 7.213666,
+"end": 7.461345
+},
+{
+"word": "of",
+"start": 7.461345,
+"end": 7.569705
+},
+{
+"word": "Nations'",
+"start": 7.569705,
+"end": 8.003144
+},
+{
+"word": "Mandate",
+"start": 8.003144,
+"end": 8.4211035
+},
+{
+"word": "for",
+"start": 8.4211035,
+"end": 8.529464
+},
+{
+"word": "Palestine",
+"start": 8.529464,
+"end": 9.009342
+},
+{
+"word": "covers",
+"start": 9.009342,
+"end": 9.318942
+},
+{
+"word": "both",
+"start": 9.318942,
+"end": 9.613061
+},
+{
+"word": "banks",
+"start": 9.613061,
+"end": 9.922661
+},
+{
+"word": "of",
+"start": 9.922661,
+"end": 9.969101
+},
+{
+"word": "the",
+"start": 9.969101,
+"end": 10.06198
+},
+{
+"word": "Jordan.",
+"start": 10.06198,
+"end": 10.479939
+},
+{
+"word": "But",
+"start": 10.758579,
+"end": 10.913379
+},
+{
+"word": "on",
+"start": 10.913379,
+"end": 11.021738
+},
+{
+"word": "the",
+"start": 11.021738,
+"end": 11.114618
+},
+{
+"word": "East",
+"start": 11.176538,
+"end": 11.470657
+},
+{
+"word": "Bank,",
+"start": 11.470657,
+"end": 11.8731365
+},
+{
+"word": "Britain",
+"start": 11.919577,
+"end": 12.198216
+},
+{
+"word": "had",
+"start": 12.198216,
+"end": 12.322056
+},
+{
+"word": "already",
+"start": 12.322056,
+"end": 12.647136
+},
+{
+"word": "made",
+"start": 12.647136,
+"end": 12.879334
+},
+{
+"word": "Abdullah,",
+"start": 12.879334,
+"end": 13.390174
+},
+{
+"word": "a",
+"start": 13.483053,
+"end": 13.575933
+},
+{
+"word": "Hashemite",
+"start": 13.575933,
+"end": 14.055813
+},
+{
+"word": "prince",
+"start": 14.055813,
+"end": 14.380892
+},
+{
+"word": "from",
+"start": 14.380892,
+"end": 14.535691
+},
+{
+"word": "Mecca,",
+"start": 14.535691,
+"end": 14.95365
+},
+{
+"word": "its",
+"start": 15.37161,
+"end": 15.588329
+},
+{
+"word": "emir.",
+"start": 15.588329,
+"end": 15.944369
+},
+{
+"word": "That's",
+"start": 16.25397,
+"end": 16.455208
+},
+{
+"word": "about",
+"start": 16.455208,
+"end": 16.702887
+},
+{
+"word": "seventy",
+"start": 16.702887,
+"end": 17.120846
+},
+{
+"word": "seven",
+"start": 17.120846,
+"end": 17.476887
+},
+{
+"word": "percent",
+"start": 17.476887,
+"end": 17.801966
+},
+{
+"word": "of",
+"start": 17.801966,
+"end": 17.863886
+},
+{
+"word": "the",
+"start": 17.863886,
+"end": 17.925804
+},
+{
+"word": "Mandate.",
+"start": 17.925804,
+"end": 18.374723
+},
+{
+"word": "In",
+"start": 19.148722,
+"end": 19.272562
+},
+{
+"word": "September,",
+"start": 19.272562,
+"end": 20.00012
+},
+{
+"word": "the",
+"start": 20.13944,
+"end": 20.26328
+},
+{
+"word": "League",
+"start": 20.26328,
+"end": 20.51096
+},
+{
+"word": "agreed:",
+"start": 20.51096,
+"end": 20.959879
+},
+{
+"word": "the",
+"start": 21.11468,
+"end": 21.207558
+},
+{
+"word": "Jewish",
+"start": 21.207558,
+"end": 21.501678
+},
+{
+"word": "national",
+"start": 21.501678,
+"end": 21.919638
+},
+{
+"word": "home",
+"start": 21.919638,
+"end": 22.105396
+},
+{
+"word": "clauses",
+"start": 22.105396,
+"end": 22.554316
+},
+{
+"word": "don't",
+"start": 22.554316,
+"end": 22.771036
+},
+{
+"word": "apply",
+"start": 22.771036,
+"end": 23.003235
+},
+{
+"word": "there.",
+"start": 23.003235,
+"end": 23.328314
+},
+{
+"word": "Nineteen",
+"start": 23.730793,
+"end": 24.117792
+},
+{
+"word": "forty",
+"start": 24.117792,
+"end": 24.380953
+},
+{
+"word": "eight.",
+"start": 24.380953,
+"end": 24.659592
+},
+{
+"word": "Abdullah's",
+"start": 25.108511,
+"end": 25.55743
+},
+{
+"word": "army",
+"start": 25.55743,
+"end": 25.91347
+},
+{
+"word": "takes",
+"start": 25.91347,
+"end": 26.176628
+},
+{
+"word": "the",
+"start": 26.176628,
+"end": 26.300468
+},
+{
+"word": "land",
+"start": 26.300468,
+"end": 26.687468
+},
+{
+"word": "west",
+"start": 26.687468,
+"end": 26.966106
+},
+{
+"word": "of",
+"start": 26.966106,
+"end": 27.028027
+},
+{
+"word": "the",
+"start": 27.028027,
+"end": 27.120907
+},
+{
+"word": "river",
+"start": 27.120907,
+"end": 27.322147
+},
+{
+"word": "too.",
+"start": 27.322147,
+"end": 27.678186
+},
+{
+"word": "Nineteen",
+"start": 28.219984,
+"end": 28.606983
+},
+{
+"word": "fifty:",
+"start": 28.606983,
+"end": 29.086863
+},
+{
+"word": "Jordan",
+"start": 29.179743,
+"end": 29.566742
+},
+{
+"word": "annexes",
+"start": 29.566742,
+"end": 30.000181
+},
+{
+"word": "it,",
+"start": 30.000181,
+"end": 30.031141
+},
+{
+"word": "and",
+"start": 30.2943,
+"end": 30.41814
+},
+{
+"word": "calls",
+"start": 30.41814,
+"end": 30.74322
+},
+{
+"word": "it",
+"start": 30.74322,
+"end": 30.80514
+},
+{
+"word": "the",
+"start": 30.80514,
+"end": 30.89802
+},
+{
+"word": "West",
+"start": 30.89802,
+"end": 31.099258
+},
+{
+"word": "Bank.",
+"start": 31.099258,
+"end": 31.47078
+},
+{
+"word": "To",
+"start": 32.028057,
+"end": 32.182858
+},
+{
+"word": "tell",
+"start": 32.182858,
+"end": 32.39958
+},
+{
+"word": "it",
+"start": 32.39958,
+"end": 32.47698
+},
+{
+"word": "from",
+"start": 32.47698,
+"end": 32.662735
+},
+{
+"word": "the",
+"start": 32.662735,
+"end": 32.724655
+},
+{
+"word": "East",
+"start": 32.724655,
+"end": 32.910416
+},
+{
+"word": "Bank.",
+"start": 32.910416,
+"end": 33.297417
+},
+{
+"word": "Its",
+"start": 33.901134,
+"end": 34.071415
+},
+{
+"word": "Palestinians",
+"start": 34.071415,
+"end": 34.644173
+},
+{
+"word": "become",
+"start": 34.644173,
+"end": 34.969254
+},
+{
+"word": "Jordanian",
+"start": 34.969254,
+"end": 35.44913
+},
+{
+"word": "citizens.",
+"start": 35.44913,
+"end": 36.11477
+},
+{
+"word": "Sixty",
+"start": 36.43985,
+"end": 36.780407
+},
+{
+"word": "seven:",
+"start": 36.780407,
+"end": 37.22933
+},
+{
+"word": "Israel",
+"start": 37.492485,
+"end": 37.879486
+},
+{
+"word": "takes",
+"start": 37.879486,
+"end": 38.127167
+},
+{
+"word": "it.",
+"start": 38.127167,
+"end": 38.328403
+},
+{
+"word": "Eighty",
+"start": 39.288162,
+"end": 39.566803
+},
+{
+"word": "eight:",
+"start": 39.566803,
+"end": 39.860924
+},
+{
+"word": "Jordan",
+"start": 40.04668,
+"end": 40.52656
+},
+{
+"word": "drops",
+"start": 40.52656,
+"end": 40.8826
+},
+{
+"word": "its",
+"start": 40.8826,
+"end": 41.0374
+},
+{
+"word": "claim.",
+"start": 41.0374,
+"end": 41.36248
+},
+{
+"word": "Today,",
+"start": 42.05908,
+"end": 42.585396
+},
+{
+"word": "an",
+"start": 42.802116,
+"end": 42.987877
+},
+{
+"word": "estimated",
+"start": 43.018837,
+"end": 43.529675
+},
+{
+"word": "fifty",
+"start": 43.529675,
+"end": 43.854755
+},
+{
+"word": "five",
+"start": 43.854755,
+"end": 44.148872
+},
+{
+"word": "to",
+"start": 44.148872,
+"end": 44.241753
+},
+{
+"word": "seventy",
+"start": 44.241753,
+"end": 44.628754
+},
+{
+"word": "percent",
+"start": 44.628754,
+"end": 45.04671
+},
+{
+"word": "of",
+"start": 45.04671,
+"end": 45.13959
+},
+{
+"word": "Jordanians",
+"start": 45.13959,
+"end": 45.83619
+},
+{
+"word": "have",
+"start": 46.06839,
+"end": 46.28511
+},
+{
+"word": "Palestinian",
+"start": 46.28511,
+"end": 46.88883
+},
+{
+"word": "roots.",
+"start": 46.88883,
+"end": 47.368706
+},
+{
+"word": "Even",
+"start": 48.173664,
+"end": 48.467785
+},
+{
+"word": "the",
+"start": 48.467785,
+"end": 48.529705
+},
+{
+"word": "queen.",
+"start": 48.529705,
+"end": 48.916706
+},
+{
+"word": "Her",
+"start": 49.706184,
+"end": 49.87646
+},
+{
+"word": "parents",
+"start": 49.87646,
+"end": 50.387302
+},
+{
+"word": "are",
+"start": 50.449223,
+"end": 50.573063
+},
+{
+"word": "from",
+"start": 50.573063,
+"end": 50.75882
+},
+{
+"word": "Tulkarm",
+"start": 50.75882,
+"end": 51.20774
+},
+{
+"word": "and",
+"start": 51.20774,
+"end": 51.30062
+},
+{
+"word": "Nablus.",
+"start": 51.30062,
+"end": 51.82694
+},
+{
+"word": "Jordan's",
+"start": 52.616417,
+"end": 53.003418
+},
+{
+"word": "king",
+"start": 53.003418,
+"end": 53.297535
+},
+{
+"word": "says:",
+"start": 53.297535,
+"end": 53.777416
+},
+{
+"word": "Jordan",
+"start": 54.350174,
+"end": 54.76813
+},
+{
+"word": "is",
+"start": 54.76813,
+"end": 54.95389
+},
+{
+"word": "Jordan,",
+"start": 54.95389,
+"end": 55.340893
+},
+{
+"word": "and",
+"start": 56.14585,
+"end": 56.30065
+},
+{
+"word": "Palestine",
+"start": 56.30065,
+"end": 56.93533
+},
+{
+"word": "is",
+"start": 56.93533,
+"end": 57.13657
+},
+{
+"word": "Palestine.",
+"start": 57.13657,
+"end": 57.678368
+},
+{
+"word": "And",
+"start": 58.560726,
+"end": 58.700047
+},
+{
+"word": "Palestinians",
+"start": 58.700047,
+"end": 59.396645
+},
+{
+"word": "want",
+"start": 59.396645,
+"end": 59.566925
+},
+{
+"word": "their",
+"start": 59.566925,
+"end": 59.72172
+},
+{
+"word": "own",
+"start": 59.72172,
+"end": 59.907482
+},
+{
+"word": "state,",
+"start": 59.907482,
+"end": 60.263523
+},
+{
+"word": "in",
+"start": 60.5886,
+"end": 60.71244
+},
+{
+"word": "the",
+"start": 60.71244,
+"end": 60.80532
+},
+{
+"word": "West",
+"start": 60.80532,
+"end": 61.00656
+},
+{
+"word": "Bank",
+"start": 61.00656,
+"end": 61.19232
+},
+{
+"word": "and",
+"start": 61.19232,
+"end": 61.316162
+},
+{
+"word": "Gaza.",
+"start": 61.316162,
+"end": 61.64124
+},
+{
+"word": "Two",
+"start": 62.72484,
+"end": 62.9106
+},
+{
+"word": "banks.",
+"start": 62.9106,
+"end": 63.390476
+},
+{
+"word": "One",
+"start": 64.009674,
+"end": 64.257355
+},
+{
+"word": "river.",
+"start": 64.257355,
+"end": 64.582436
+},
+{
+"word": "One",
+"start": 65.27903,
+"end": 65.54219
+},
+{
+"word": "people?",
+"start": 65.54219,
+"end": 65.96015
+},
+{
+"word": "So,",
+"start": 66.85799,
+"end": 67.39979
+},
+{
+"word": "why",
+"start": 67.64747,
+"end": 67.94159
+},
+{
+"word": "is",
+"start": 67.94159,
+"end": 68.03447
+},
+{
+"word": "it",
+"start": 68.03447,
+"end": 68.12735
+},
+{
+"word": "called",
+"start": 68.12735,
+"end": 68.32858
+},
+{
+"word": "the",
+"start": 68.32858,
+"end": 68.3905
+},
+{
+"word": "West",
+"start": 68.3905,
+"end": 68.57626
+},
+{
+"word": "Bank?",
+"start": 68.57626,
+"end": 68.870384
+}
+]
