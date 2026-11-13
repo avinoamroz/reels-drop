@@ -1,0 +1,573 @@
+{
+ "id": "what_others_did_v2",
+ "account": "noamroz__",
+ "template": "high_horse",
+ "hook": "Easy to judge|from *up here.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS",
+  "seventy-four thousand": "74,000",
+  "one and a half million": "1.5 million",
+  "three hundred thousand": "300,000",
+  "eleven thousand": "11,000",
+  "twenty twenty-six": "2026",
+  "seven thousand": "7,000",
+  "thirty thousand": "30,000",
+  "a thousand a week": "1,000 a week",
+  "four hundred sixty": "460",
+  "a hundred fifty thousand": "150,000",
+  "Seven point two million": "7.2 million",
+  "thirteen point seven million": "13.7 million",
+  "fifteen million": "15 million"
+ },
+ "lines": [
+  {
+   "say": "Easy to judge from up here.",
+   "gap": 0.25
+  },
+  {
+   "say": "Over seventy-four thousand dead, says Gaza's health ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>.",
+   "gap": 0.3
+  },
+  {
+   "say": "If I were Israel, I'd have done it differently.",
+   "gap": 0.2
+  },
+  {
+   "say": "Now let's climb down, to governments that turned on people they ruled.",
+   "gap": 0.25
+  },
+  {
+   "say": "France, in Algeria: up to one and a half million dead.",
+   "gap": 0.2
+  },
+  {
+   "say": "In Assad's Syria: over three hundred thousand civilians killed.",
+   "gap": 0.2
+  },
+  {
+   "say": "Britain, in Kenya: over eleven thousand killed.",
+   "gap": 0.2
+  },
+  {
+   "say": "Iran, January twenty twenty-six: seven thousand confirmed dead. Up to thirty thousand reported.",
+   "gap": 0.25
+  },
+  {
+   "say": "That's about a thousand a week. Gaza's war: about four hundred sixty.",
+   "gap": 0.2
+  },
+  {
+   "say": "At that pace, the same three years: over a hundred fifty thousand.",
+   "gap": 0.3
+  },
+  {
+   "say": "Israel, attacked on October seventh, warned before striking.",
+   "gap": 0.15
+  },
+  {
+   "say": "Seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
+   "gap": 0.2
+  },
+  {
+   "say": "One side aims at people. The other warns them to leave.",
+   "gap": 0.3
+  },
+  {
+   "say": "Israel is far from perfect. But it's not the outlier it's painted as.",
+   "gap": 0.25
+  },
+  {
+   "say": "Every death in Gaza is a tragedy.",
+   "gap": 0.3
+  },
+  {
+   "say": "So get off your high horse.",
+   "screen": "Get off your *high horse.*",
+   "at": "L15",
+   "screen_y": 600,
+   "screen_size": 110
+  }
+ ],
+ "data": {
+  "map": {
+   "view": [
+    33.7,
+    31.6,
+    6.0,
+    1150
+   ],
+   "until": "L4",
+   "labels": [
+    {
+     "text": "Gaza",
+     "lon": 33.95,
+     "lat": 31.15,
+     "size": 50
+    },
+    {
+     "text": "West Bank",
+     "lon": 35.75,
+     "lat": 32.75,
+     "size": 46
+    }
+   ],
+   "credit": "Map: Green Line in green; West Bank and Gaza shaded"
+  },
+  "horse": {
+   "x": 230,
+   "y": 1440,
+   "sc": 0.95,
+   "climb": [
+    "L3",
+    "L3:governments"
+   ],
+   "until": "L4",
+   "back": {
+    "at": "L13",
+    "x": 890,
+    "y": 470,
+    "sc": 0.3
+   }
+  },
+  "chips": [
+   {
+    "at": "L1:over",
+    "until": "L2",
+    "big": "74,645",
+    "sub": "dead in Gaza, incl. fighters",
+    "y": 460,
+    "x": 60
+   },
+   {
+    "at": "L1:says",
+    "until": "L2",
+    "big": "81%",
+    "sub": "of buildings damaged",
+    "y": 460,
+    "x": 560
+   },
+   {
+    "at": "L1:health",
+    "until": "L2",
+    "big": "Since 1967",
+    "sub": "military rule, West Bank",
+    "y": 670,
+    "x": 60
+   },
+   {
+    "at": "L1:run",
+    "until": "L2",
+    "big": "Record",
+    "sub": "settler attacks, 2026",
+    "y": 670,
+    "x": 560
+   }
+  ],
+  "bubble": [
+   {
+    "at": "L2",
+    "until": "L3",
+    "text": "If I were Israel, I'd have done it *differently.*"
+   }
+  ],
+  "walker": {
+   "at": "L4",
+   "until": "L7e",
+   "y": 1440
+  },
+  "photos": [
+   {
+    "file": "templates/photos/what_others_did/gaza.jpg",
+    "at": "L1:health",
+    "until": "L2",
+    "credit": "Abedallah Alhaj, Gaza, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/what_others_did/casbah1960.jpg",
+    "at": "L4",
+    "until": "L5",
+    "credit": "Casbah, 1960, Touring Club Italiano, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.26,
+     1.4,
+     0.5,
+     0.22,
+     1.5
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/what_others_did/aleppo.jpg",
+    "at": "L5",
+    "until": "L6",
+    "credit": "Aleppo 2016, Ortho, CC BY-SA 4.0",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.45,
+     0.5,
+     1.1
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/what_others_did/hola.jpg",
+    "at": "L6",
+    "until": "L7",
+    "credit": "Hola memorial, Jerome KL, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.1
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/what_others_did/iranflag.jpg",
+    "at": "L7",
+    "until": "L8",
+    "credit": "IranAzadShod, CC0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.08
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/ethnic_cleansing_v3/leaflet.jpg",
+    "at": "L10",
+    "until": "L13",
+    "credit": "IDF leaflet, J. J. Badwan, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.45
+   },
+   {
+    "file": "templates/photos/what_others_did/gaza2.jpg",
+    "at": "L14",
+    "until": "END",
+    "credit": "Gaza 2024, Abedallah Alhaj, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.4
+   }
+  ],
+  "big": [
+   {
+    "at": "L4:up",
+    "until": "L5-0.1",
+    "value": 1500000,
+    "from": 1000,
+    "roll": 1.4,
+    "head": "France in Algeria, 1954 to 1962",
+    "flag": "FR",
+    "sub": "Algerians dead, FLN count",
+    "sub2": "French official estimate: 350,000",
+    "y": 930,
+    "size": 180
+   },
+   {
+    "at": "L5:over",
+    "until": "L6-0.1",
+    "value": 306887,
+    "from": 1000,
+    "roll": 1.3,
+    "head": "Assad's Syria, 2011 to 2021",
+    "flag": "SY",
+    "sub": "civilians killed, all sides (UN)",
+    "sub2": "UN inquiry: deliberate starvation, hospitals hit",
+    "y": 930,
+    "size": 180
+   },
+   {
+    "at": "L6:over",
+    "until": "L7-0.1",
+    "value": 11000,
+    "from": 100,
+    "suffix": "+",
+    "roll": 1.0,
+    "head": "Britain in Kenya, 1952 to 1960",
+    "flag": "GB",
+    "sub": "killed, official figure",
+    "sub2": "Historian D. Anderson: likely 20,000+",
+    "y": 930,
+    "size": 180
+   },
+   {
+    "at": "L7:seven",
+    "until": "L8-0.1",
+    "value": 7007,
+    "from": 100,
+    "roll": 1.0,
+    "head": "Iran's regime, Jan 2026",
+    "flag": "IR",
+    "sub": "dead in 50 days, confirmed (HRANA)",
+    "sub2": "Reported: 30,000+ (Time, health officials)",
+    "y": 930,
+    "size": 180
+   },
+   {
+    "at": "L9:over",
+    "until": "L10-0.1",
+    "value": 158358,
+    "from": 1000,
+    "roll": 1.3,
+    "head": "At that pace: hypothetical",
+    "sub": "Iran's rate over the same 3 years",
+    "sub2": "Gaza war, actual: 74,645. Iran's pace, 1 year: 51,151",
+    "y": 930,
+    "size": 180
+   }
+  ],
+  "listcard": [
+   {
+    "at": "L8",
+    "until": "L9-0.1",
+    "title": "Deaths per week",
+    "y": 930,
+    "vx": 360,
+    "vsize": 120,
+    "lsize": 56,
+    "rows": [
+     {
+      "v": "981",
+      "label": "Iran's regime",
+      "flag": "IR",
+      "sub": "HRANA: 7,007 in 50 days",
+      "at": "L8:thousand"
+     },
+     {
+      "v": "462",
+      "label": "Gaza war",
+      "sub": "74,645 in 1,130 days, fighters incl.",
+      "at": "L8:gaza's"
+     }
+    ]
+   }
+  ],
+  "ladder": {
+   "at": "L13",
+   "until": "L14",
+   "top": 460,
+   "pitch": 150,
+   "rows": [
+    {
+     "label": "UTOPIA: no one harmed",
+     "col": "yellow",
+     "at": "L13"
+    },
+    {
+     "label": "Israel, Gaza war: warned first",
+     "flag": "IL",
+     "sub": "74,645 dead incl. fighters (split disputed)",
+     "col": "sky",
+     "hl": true,
+     "at": "L13+0.3"
+    },
+    {
+     "label": "Britain, Kenya",
+     "flag": "GB",
+     "sub": "11,000+ killed; 1,090 hanged",
+     "col": "red",
+     "at": "L13+0.6"
+    },
+    {
+     "label": "France, Algeria",
+     "flag": "FR",
+     "sub": "350,000 to 1.5 million dead",
+     "col": "red",
+     "at": "L13+0.9"
+    },
+    {
+     "label": "Assad's Syria",
+     "flag": "SY",
+     "sub": "306,887 civilians killed, all sides",
+     "col": "red",
+     "at": "L13+1.2"
+    },
+    {
+     "label": "Iran's regime",
+     "flag": "IR",
+     "sub": "7,007 dead in 50 days; 1,639 hanged",
+     "col": "red",
+     "at": "L13+1.5"
+    }
+   ]
+  },
+  "versus": [
+   {
+    "at": "L10",
+    "until": "L13",
+    "y0": 390,
+    "pitch": 160,
+    "left": {
+     "title": "The regimes",
+     "col": "red",
+     "mark": "N",
+     "items": [
+      {
+       "text": "Shot protesters",
+       "src": "Iran, HRANA 2026",
+       "at": "L10+0.2"
+      },
+      {
+       "text": "Starved sieged towns",
+       "src": "Syria, UN inquiry 2018",
+       "at": "L10+0.6"
+      },
+      {
+       "text": "Bombed hospitals",
+       "src": "Syria, UN inquiry 2020",
+       "at": "L10+1.0"
+      },
+      {
+       "text": "6,786 died in custody",
+       "src": "Syria, HRW 2015",
+       "at": "L10+1.4"
+      },
+      {
+       "text": "1,639 hanged in 2025",
+       "src": "Iran, IHR 2025",
+       "at": "L10+1.8"
+      }
+     ]
+    },
+    "right": {
+     "title": "Israel",
+     "flag": "IL",
+     "col": "sky",
+     "mark": "Y",
+     "note": "Critics say warnings weren't enough.",
+     "note_at": "L12:leave",
+     "items": [
+      {
+       "text": "7.2M leaflets",
+       "src": "IDF, Jan 2024",
+       "at": "L11:seven"
+      },
+      {
+       "text": "13.7M texts",
+       "src": "IDF, Jan 2024",
+       "at": "L11:thirteen"
+      },
+      {
+       "text": "15M calls",
+       "src": "IDF, Jan 2024",
+       "at": "L11:fifteen"
+      },
+      {
+       "text": "Daily escape corridor",
+       "src": "UN OCHA, Nov 2023",
+       "at": "L12:other"
+      },
+      {
+       "text": "1.78M tons of food",
+       "src": "COGAT, 2025 to 2026",
+       "at": "L12:warns"
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Gaza Health Ministry (HAMAS-run), 10 Nov 2026, no civilian/fighter split; UNOSAT 2025; UN OCHA",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "French official est. 350,000; FLN (National Liberation Front) 1.5M",
+   "year": 1962,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "UN OHCHR 2022; UN Commission of Inquiry 2018, 2020",
+   "year": 2022,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Official figures; D. Anderson, Histories of the Hanged",
+   "year": 2005,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "HRANA, Feb 2026; Time, Jan 2026",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Our math: HRANA 7,007 in 50 days; Gaza MoH 74,645 in 1,130 days",
+   "year": 2026,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Our comparison. Others in date order",
+   "year": 2026,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "Every death in Gaza is a *tragedy.*",
+  "cta": "Send this to someone on a *high horse*",
+  "cta_size": 46
+ },
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#history"
+ ],
+ "cover": {
+  "t": 3.0,
+  "text": "Easy to judge|from *up here*",
+  "label": "What other governments actually did"
+ },
+ "caption_en": "Easy to judge from up here. 🐎\n\nThe accusations: Gaza's Health Ministry (run by HAMAS) counts 74,645 dead (10 Nov 2026), no civilian/fighter split. UN Satellite Centre (UNOSAT): 81% of structures damaged. UN OCHA: record settler attacks in 2026.\n\nGovernments that turned on people they ruled:\nFrance, Algeria, 1954 to 1962: 350,000 dead (French est.) to 1.5M (FLN, National Liberation Front).\nAssad's Syria: 306,887 civilians killed by all sides, 2011 to 2021 (UN OHCHR, 2022); up to 617,910 dead in all (SOHR, 2024). UN inquiry: deliberate starvation (2018), deliberate strikes on medical facilities (2020). 6,786 died in custody (HRW, 2015).\nBritain, Kenya: 11,000+ killed officially; likely 20,000+ (historian David Anderson); 1,090 hanged.\nIran's regime, Jan 2026: 7,007 confirmed dead in 50 days (HRANA); 30,000+ reported (Time, citing health officials). 1,639 hanged in 2025 (Iran Human Rights).\n\nPace, our math: Iran 981 a week vs Gaza war 462 a week. At Iran's pace, the same 1,130 days would mean about 158,000 (hypothetical).\n\nIsrael, attacked on 7 Oct 2023, warned: 7.2M leaflets, 13.7M texts, 15M calls (IDF, Jan 2024); daily evacuation corridor (UN OCHA, Nov 2023); 1.78M tons of food in, Oct 2025 to Jun 2026 (COGAT). Critics say warnings weren't enough. Fighters among the dead: disputed.\n\nIsrael is far from perfect, but not the outlier it's painted as. Every death in Gaza is a tragedy.\n\nPhotos: Abedallah Alhaj; Touring Club Italiano; Ortho; Jerome KL; J. J. Badwan (CC BY-SA); IranAzadShod (CC0); via Wikimedia Commons. AI voice.\nSend this to someone on a high horse.",
+ "caption_he": "קל לשפוט מלמעלה.\nצרפת באלג'יריה: עד 1.5 מיליון הרוגים. סוריה של אסד: מעל 300 אלף אזרחים. בריטניה בקניה: מעל 11 אלף. איראן, ינואר 2026: 7,007 הרוגים מאומתים ב־50 יום, ודיווחים על 30 אלף.\nישראל הותקפה, והזהירה לפני שתקפה. רחוקה משלמות, אבל לא החריגה. כל מוות בעזה הוא טרגדיה.\nאז רדו מהסוס הגבוה."
+}

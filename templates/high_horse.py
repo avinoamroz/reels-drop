@@ -10,9 +10,12 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "END-2"):
   bubble   [{at, until, text}]             speech bubble from the rider
   walker   {at, until, y}                  small figure walking left to right at ground level during the cases
   photos   [{file, at, until, credit, kb, dim, gray}]  as photo_story
-  big      [{at, until, value, from, prefix, suffix, dec, sub, y, size, txt}]  counting number card (txt: fixed text instead)
-  listcard [{at, until, title, rows: [{v, label, at}], y}]   rows pop in at their anchors (yellow value + white label)
-  ladder   {at, until, rows: [{label, sub, col, at, hl}], top (y of first row, default 470), pitch (default 150)}
+  big      [{at, until, value, from, prefix, suffix, dec, sub, sub2, head, flag, y, size, txt, roll}]  counting number card
+           (txt: fixed text instead; head: country line with its flag on the left; sub2: small grey line)
+  listcard [{at, until, title, rows: [{v, label, flag, sub, at}], y, vx, vsize, lsize}]   rows pop in at their anchors (yellow value + white label)
+  versus   [{at, until, y0, pitch, left: {title, flag, col, mark: "N", items: [{text, src, at}]}, right: {..., mark: "Y", note, note_at}}]
+           split screen, two columns of items with a red cross or green tick each
+  ladder   {at, until, rows: [{label, sub ("|" = 2 lines), flag, col, at, hl}], top (y of first row, default 470), pitch (default 150)}
   hook_y default 300; title_y default 300; src_y 1488; subs_y 1612; credit_y 1712
 """
 import os, sys, math
@@ -82,6 +85,12 @@ def run(S):
     PH = [dict(p, t0=A(p["at"]), t1=A(p.get("until"), T.END), im=_load(p["file"], p.get("gray", False))) for p in D.get("photos", [])]
     BIG = [dict(g, t0=A(g["at"]), t1=A(g.get("until"), T.END - 0.6)) for g in D.get("big", [])]
     LC = [dict(l, t0=A(l["at"]), t1=A(l.get("until"), T.END - 0.6), rows=[dict(r, t0=A(r["at"])) for r in l["rows"]]) for l in D.get("listcard", [])]
+    VS = []
+    for V in D.get("versus", []):
+        V = dict(V, t0=A(V["at"]), t1=A(V.get("until"), T.END - 0.6))
+        for side in ("left", "right"):
+            V[side] = dict(V[side], items=[dict(it, t0=A(it.get("at"), V["t0"] + 0.3 * k)) for k, it in enumerate(V[side]["items"])])
+        VS.append(V)
     LD = D.get("ladder")
     if LD:
         LD = dict(LD, t0=A(LD["at"]), t1=A(LD.get("until"), T.END - 0.6)); LD["rows"] = [dict(r, t0=A(r.get("at"), LD["t0"] + 0.2 * k)) for k, r in enumerate(LD["rows"])]
@@ -125,7 +134,7 @@ def run(S):
         for p in PH:
             a_ = ph_alpha(p, t)
             if a_ > 0.001: base = base * (1 - a_) + ph_layer(p, t) * a_; pa = 1 - (1 - pa) * (1 - a_)
-        over = max([win(t, b["t0"] - 0.2, b["t1"], 0.3, 0.3) for b in BIG + LC] + [win(t, e0 - 0.1, e1, 0.3, 0.3) if E else 0, 0])
+        over = max([win(t, b["t0"] - 0.2, b["t1"], 0.3, 0.3) for b in BIG + LC + VS] + [win(t, e0 - 0.1, e1, 0.3, 0.3) if E else 0, 0])
         if over > 0: base = base * (1 - 0.4 * over)
         cv = Canvas(base); mla = ma * (1 - pa)
         if mla > 0.01:
@@ -153,12 +162,21 @@ def run(S):
         for g in BIG:
             ga = win(t, g["t0"] - 0.1, g["t1"], 0.35, 0.35)
             if ga > 0.01:
-                y = g.get("y", 960); cv.rrect(110, y - 175, 860, 350, 40, "#0B1730", 0.9 * ga, stroke=YEL, lw=3, sa=ga)
-                if g.get("txt"): cv.text(g["txt"], 540, y - 35, g.get("size", 150), YEL, ga, maxw=800)
+                y = g.get("y", 960); tall = bool(g.get("head") or g.get("sub2"))
+                top, bot = (y - 250, y + 230) if tall else (y - 175, y + 175)
+                cv.rrect(80, top, 920, bot - top, 40, "#0B1730", 0.9 * ga, stroke=YEL, lw=4, sa=ga)
+                if g.get("head"):
+                    hw = min(700, cv.tw(g["head"], 54)); fx = 540 - hw / 2 - 52 if g.get("flag") else None
+                    if fx: WG.flag(cv, g["flag"], fx, y - 175, 70, ga)
+                    cv.text(g["head"], 540 + (24 if fx else 0), y - 175, 54, WHITE, ga, maxw=700)
+                ny = y - (10 if tall else 35)
+                if g.get("txt"): cv.text(g["txt"], 540, ny, g.get("size", 150), YEL, ga, maxw=860)
                 else:
                     v = WG.roll(t, g["t0"], float(g.get("from", 0)), float(g["value"]), g.get("roll", 1.0))
-                    cv.text(WG.fmtn(v, g.get("dec", 0), g.get("prefix", ""), g.get("suffix", "")), 540, y - 35, g.get("size", 170), YEL, ga, maxw=800)
-                if g.get("sub"): cv.text(g["sub"], 540, y + 105, 56, WHITE, ga, maxw=800)
+                    k = 1.0 + 0.08 * (1 - eout((t - g["t0"] - g.get("roll", 1.0)) / 0.35)) if t > g["t0"] + g.get("roll", 1.0) else 1.0
+                    cv.text(WG.fmtn(v, g.get("dec", 0), g.get("prefix", ""), g.get("suffix", "")), 540, ny, g.get("size", 170) * k, YEL, ga, maxw=880)
+                if g.get("sub"): cv.text(g["sub"], 540, ny + 125, 54, WHITE, ga, maxw=860)
+                if g.get("sub2"): cv.text(g["sub2"], 540, ny + 185, 40, "#C9D6EA", ga, maxw=860, bold=False, minsz=36)
         # list card
         for l in LC:
             la = win(t, l["t0"] - 0.1, l["t1"], 0.3, 0.3)
@@ -169,8 +187,36 @@ def run(S):
             for k, r in enumerate(rows):
                 ra = la * seg(t, r["t0"] - 0.05, r["t0"] + 0.25); yy = top + 190 + 130 * k
                 if ra <= 0.01: continue
-                cv.text(r["v"], 470, yy, 92, YEL, ra, align="r", maxw=400)
-                cv.text(r["label"], 500, yy, 60, WHITE, ra, align="l", maxw=480)
+                vx = l.get("vx", 470); cv.text(r["v"], vx, yy, l.get("vsize", 92), YEL, ra, align="r", maxw=vx - 90)
+                lx = vx + 30
+                if r.get("flag"): WG.flag(cv, r["flag"], lx + 30, yy, 56, ra); lx += 70
+                cv.text(r["label"], lx, yy, l.get("lsize", 60), WHITE, ra, align="l", maxw=1010 - lx)
+                if r.get("sub"): cv.text(r["sub"], lx, yy + 50, 38, "#C9D6EA", ra, align="l", bold=False, maxw=1010 - lx, minsz=36)
+        # split screen: two columns of marked items
+        for V in VS:
+            va = win(t, V["t0"] - 0.1, V["t1"], 0.3, 0.3)
+            if va <= 0.01: continue
+            top = V.get("y0", 400); P_ = V.get("pitch", 150)
+            for ci, (side, x0) in enumerate(((V["left"], 40), (V["right"], 550))):
+                col = COLS.get(side.get("col", "red"), side.get("col")); n = len(side["items"])
+                cv.rrect(x0, top, 490, 110 + P_ * n + 20, 30, "#0B1730", 0.88 * va, stroke=col, lw=3, sa=0.8 * va)
+                if side.get("flag"): WG.flag(cv, side["flag"], x0 + 60, top + 58, 56, va)
+                cv.text(side["title"], x0 + (100 if side.get("flag") else 245), top + 58, 54, col, va, align="l" if side.get("flag") else "c", maxw=380)
+                for k, it in enumerate(side["items"]):
+                    ia = va * seg(t, it["t0"] - 0.05, it["t0"] + 0.25)
+                    if ia <= 0.01: continue
+                    y = top + 110 + P_ * k + P_ / 2
+                    WG.mark(cv, "Y" if side.get("mark", "N") == "Y" else "N", x0 + 48, y, 26, ia, WG.pop_s(t, it["t0"]) if t < it["t0"] + 0.35 else 1)
+                    words = it["text"].split(); lines = [[]]
+                    for w in words:
+                        if lines[-1] and cv.tw(" ".join(lines[-1] + [w]), V.get("fsz", 44)) > 390: lines.append([w])
+                        else: lines[-1].append(w)
+                    yy = y - (len(lines) - 1) * 26 - (14 if it.get("src") else 0)
+                    for j, ln in enumerate(lines): cv.text(" ".join(ln), x0 + 88, yy + 50 * j, V.get("fsz", 44), WHITE, ia, align="l", maxw=395)
+                    if it.get("src"): cv.text(it["src"], x0 + 88, yy + 50 * (len(lines) - 1) + 44, 36, "#C9D6EA", ia, align="l", bold=False, maxw=395, minsz=36)
+                if side.get("note"):
+                    na = va * seg(t, A(side.get("note_at"), V["t0"] + 1.0), A(side.get("note_at"), V["t0"] + 1.0) + 0.3)
+                    cv.text(side["note"], 540, top + 110 + P_ * n + 70, 44, WHITE, na, bold=False, maxw=1000, minsz=36)
         # utopia scale
         if LD:
             la = win(t, LD["t0"] - 0.1, LD["t1"], 0.35, 0.35) * (1 - pa)
@@ -185,8 +231,10 @@ def run(S):
                     cv.circ(ax, y, 22 * (0.6 + 0.4 * WG.pop_s(t, r["t0"]) if t < r["t0"] + 0.35 else 1), col, ra, stroke="#FFFFFF", lw=4)
                     subs = [x for x in (r.get("sub") or "").split("|") if x]; ns = len(subs)
                     ty = y - (0 if not ns else 24 + 22 * (ns - 1))
-                    cv.text(r["label"], 150, ty, r.get("size", 58), WHITE if not r.get("hl") else YEL, ra, align="l", maxw=r.get("maxw", 860))
-                    for j, sl in enumerate(subs): cv.text(sl, 150, ty + 58 + 44 * j, 40, "#C9D6EA", ra, align="l", bold=False, maxw=860, minsz=36)
+                    lx = 150
+                    if r.get("flag"): WG.flag(cv, r["flag"], 180, ty, 52, ra); lx = 222
+                    cv.text(r["label"], lx, ty, r.get("size", 58), WHITE if not r.get("hl") else YEL, ra, align="l", maxw=r.get("maxw", 1020 - lx))
+                    for j, sl in enumerate(subs): cv.text(sl, lx, ty + 58 + 44 * j, 40, "#C9D6EA", ra, align="l", bold=False, maxw=1020 - lx, minsz=36)
         # photo credits
         for k_, p in enumerate(PH):
             a_ = ph_alpha(p, t)
@@ -203,8 +251,8 @@ def run(S):
                 y = E.get("y", 1010); WG.panel(cv, 60, y - 230, 960, 460, a)
                 if E.get("balance"): WG.title(cv, E["balance"], y - 90, a, 66)
                 if E.get("cta"):
-                    ca = a * seg(t, e0 + 0.6, e0 + 1.0); tw = min(940, cv.tw(E["cta"].replace("*", ""), 60) + 90)
-                    cv.rrect(540 - tw / 2, y + 60, tw, 120, 60, SKY, ca); WG.title(cv, E["cta"], y + 120, ca, 60)
+                    cs = E.get("cta_size", 60); ca = a * seg(t, e0 + 0.6, e0 + 1.0); tw = min(960, cv.tw(E["cta"].replace("*", ""), cs) + 90)
+                    cv.rrect(540 - tw / 2, y + 60, tw, 120, 60, SKY, ca); WG.title(cv, E["cta"], y + 120, ca, cs, maxw=900)
         out = paste_hook(cv.out().astype(np.float32), hook_img, t, T.E(0), HY, 0.9)
         c2 = Canvas(out); draw_subs(c2, SUBS, t, D.get("subs_y", 1612)); return np.clip(c2.out(), 0, 255).astype(np.uint8)
 
@@ -212,6 +260,7 @@ def run(S):
     ev = [(p["t0"], "whoosh", -30) for p in PH] + [(c["t0"], "thud", -22) for c in CHP] + [(b["t0"], "pop", -26) for b in BUB]
     ev += [(g["t0"], "roll", g["t0"] + 1.0) for g in BIG if not g.get("txt")] + [(g["t0"] + (0 if g.get("txt") else 1.0), "ding", -26) for g in BIG]
     for l in LC: ev += [(r["t0"], "pop", -26) for r in l["rows"]]
+    for V in VS: ev += [(it["t0"], "check" if V[sd].get("mark") == "Y" else "thud", -26) for sd in ("left", "right") for it in V[sd]["items"]]
     if LD: ev += [(r["t0"], "tick", -20) for r in LD["rows"]]
     ev += [(c0, "whoosh", -30)]
     aud = build_mix(S, T, work, ev)
