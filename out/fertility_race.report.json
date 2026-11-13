@@ -2,7 +2,7 @@
  "id": "fertility_race",
  "account": "noamroz__",
  "template": "fert_race",
- "hook": "Rich countries stopped having babies.|*Except?*",
+ "hook": "Rich countries stopped|having babies. *Except?*",
  "duration": 49.97,
  "audio": {
   "lufs": -16.0,
@@ -49,13 +49,13 @@
   }
  ],
  "transcript": {
-  "score": 0.979,
+  "score": 0.965,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Rich countries stopped having babies. Except one.",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.714,
+    "flag": "MISS"
    },
    {
     "line": "Babies per woman, from nineteen sixty to today.",
@@ -123,7 +123,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Rich countries stopped having babies. Except one. Babies per woman from 1962 today. In 1960, Saudi Arabia, Iran, Syria and Jordan all had over seven. Europe. About two and a half. Then the big drop. Iran went from 6 to 2 in 15 years. The Emirates? 1.2. Italy and Spain? Barely one. And Israel? It has stayed near 3 for 30 years. Today, only Iraq and the and the West Bank and Gaza are higher. And Israel is the only rich country near the top. Among 38 developed economies, Israel is number one. Why? Faith helps. But the top center finds big families at every level of religion. Even secular and traditional Israelis average over two kids. A rich, modern country that still bets on the future. So when someone tells you rich countries stopped having babies,",
+  "heard": "Rich country stopped having babies. Except one. Babies per woman from 1962 today. In 1960, Saudi Arabia, Iran, Syria and Jordan all had over seven. Europe. About two and a half. Then, the big drop. Iran went from 6 to 2 in 15 years. The Emirates? 1.2. Italy and Spain? Barely one. And Israel? It has stayed near 3 for 30 years. Today, only Iraq and the and the West Bank and Gaza are higher. And Israel is the only rich country near the top. Among 38 developed economies, Israel is number one. Why? Faith helps. But the top center finds big families at every level of religion. Even secular and traditional Israelis average over two kids. A rich, modern country that still bets on the future. So when someone tells you rich countries stopped having babies,",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -135,5 +135,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 105.5
+ "render_s": 154.1
 }
