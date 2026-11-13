@@ -1,0 +1,342 @@
+{
+ "id": "me_christians_race_v2",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Bethlehem: *86%* Christian.|Now *12%.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "Bethlehem: eighty six percent Christian in 1950. By 2016, about twelve."
+  },
+  {
+   "say": "And it's not just Bethlehem."
+  },
+  {
+   "say": "Iraq had one and a half million Christians before 2003, by Christian leaders' count."
+  },
+  {
+   "say": "Today, fewer than two hundred thousand."
+  },
+  {
+   "say": "In 2014, ISIS, the Islamic State group, took Mosul and told Christians: convert, pay, or die.",
+   "screen": "*ISIS* in Mosul, 2014: convert, pay, or die",
+   "at": "L4:convert",
+   "until": "L5"
+  },
+  {
+   "say": "Now the region: the Christian share of each country, before the wars and today."
+  },
+  {
+   "say": "Syria: one in ten before the war. Now, about two percent."
+  },
+  {
+   "say": "Iraq: about six percent, down to under half a percent."
+  },
+  {
+   "say": "Lebanon: from a third to twenty eight percent."
+  },
+  {
+   "say": "Israel's share slipped too: two percent to one point nine."
+  },
+  {
+   "say": "One place the number keeps growing: Israel. Thirty six thousand Christians in 1950. One hundred eighty four thousand today."
+  },
+  {
+   "say": "And Arab Christians in Israel start degrees more often than Hebrew school graduates.",
+   "screen": "Arab Christians starting a degree within *8* years of school",
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "say": "Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration."
+  },
+  {
+   "say": "So next time someone asks about Middle East Christians, start here:"
+  }
+ ],
+ "data": {
+  "table": {
+   "keys": [
+    "2000s",
+    "Today"
+   ],
+   "series": [
+    {
+     "label": "Lebanon",
+     "flag": "LB",
+     "values": [
+      33,
+      28
+     ]
+    },
+    {
+     "label": "Egypt",
+     "flag": "EG",
+     "values": [
+      5,
+      5
+     ]
+    },
+    {
+     "label": "Syria",
+     "flag": "SY",
+     "values": [
+      10,
+      2.4
+     ]
+    },
+    {
+     "label": "Israel",
+     "flag": "IL",
+     "values": [
+      2.0,
+      1.9
+     ],
+     "hl": true
+    },
+    {
+     "label": "Jordan",
+     "flag": "JO",
+     "values": [
+      null,
+      1.5
+     ]
+    },
+    {
+     "label": "Pal. terr.",
+     "flag": "PS",
+     "values": [
+      null,
+      1.0
+     ]
+    },
+    {
+     "label": "Iraq",
+     "flag": "IQ",
+     "values": [
+      6,
+      0.4
+     ]
+    },
+    {
+     "label": "Turkey",
+     "flag": "TR",
+     "values": [
+      null,
+      0.3
+     ]
+    }
+   ]
+  },
+  "nodata": true,
+  "at": "L5-0.4",
+  "until": "L9:slipped",
+  "top": 8,
+  "dec": 1,
+  "suffix": "%",
+  "unit": "Christians, % of population (estimates)",
+  "hook_y": 900,
+  "photos": [
+   {
+    "file": "templates/photos/me_christians_race/map_open.jpg",
+    "credit": "Map: Natural Earth (PD)",
+    "kb": [
+     0.38,
+     0.575,
+     1.0,
+     0.38,
+     0.575,
+     1.06
+    ],
+    "dim": 0.12,
+    "at": 0,
+    "until": 1.2
+   },
+   {
+    "file": "templates/photos/me_christians_race/nat1940.jpg",
+    "at": 1.2,
+    "until": "L0:by",
+    "credit": "Bethlehem, 1940s: Matson Collection, LOC (PD)",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/me_christians_race/manger.jpg",
+    "at": "L0:by",
+    "until": "L2-0.1",
+    "credit": "Fjmustak, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.62,
+     0.5,
+     1.0,
+     0.66,
+     0.45,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/me_christians_race/mosul.jpg",
+    "at": "L2-0.1",
+    "until": "L5-0.1",
+    "credit": "Mosul, 2024: Ali.tinbo (PD), Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/me_christians_race/xmas_naz.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Hoshvilim, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.42,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/me_christians_race/xmas_haifa.jpg",
+    "at": "L11",
+    "credit": "Deror avi, CC BY-SA 3.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.3,
+    "until": "L13"
+   },
+   {
+    "file": "templates/photos/me_christians_race/map_open.jpg",
+    "credit": "Map: Natural Earth (PD)",
+    "kb": [
+     0.38,
+     0.575,
+     1.06,
+     0.38,
+     0.575,
+     1.0
+    ],
+    "dim": 0.12,
+    "at": "L13"
+   }
+  ],
+  "big": [
+   {
+    "at": "L3",
+    "until": "L4",
+    "value": 187,
+    "from": 1500,
+    "suffix": "k",
+    "sub": "Christians in Iraq today (est.)"
+   },
+   {
+    "at": "L10:thirty",
+    "until": "L10:one#2",
+    "value": 36000,
+    "from": 0,
+    "sub": "Christians in Israel, 1950"
+   },
+   {
+    "at": "L10:one#2",
+    "until": "L11",
+    "value": 184200,
+    "from": 36000,
+    "sub": "Christians in Israel, 2024"
+   },
+   {
+    "at": "L11+0.6",
+    "until": "L12",
+    "value": 52.6,
+    "from": 0,
+    "dec": 1,
+    "suffix": "%",
+    "sub": "vs 47.3%, Hebrew schools",
+    "y": 1060
+   }
+  ],
+  "src_y": 1525
+ },
+ "sources": [
+  {
+   "label": "Times of Israel via EUAA, 1950 and 2016 (estimates)",
+   "year": 2016,
+   "at": 0,
+   "until": "L1"
+  },
+  {
+   "label": "US State Dept 2023, Open Doors 2024",
+   "year": 2024,
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Al Jazeera",
+   "year": 2014,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Pew, Open Doors, State Dept, Israel CBS",
+   "year": 2024,
+   "at": "L5",
+   "until": "L10"
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": 2025,
+   "at": "L10",
+   "until": "L12"
+  },
+  {
+   "label": "AFP via Arab News",
+   "year": 2023,
+   "at": "L12",
+   "until": "END"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "balance": "Israel isn't perfect: extremists spat at pilgrims in *2023.*",
+  "cta": "Send this to someone who needs it"
+ },
+ "caption_en": "CAPTION_IN_PAYLOAD",
+ "caption_he": "CAPTION_IN_PAYLOAD",
+ "hashtags": [
+  "#Israel",
+  "#Christians",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 24.0,
+  "text": "Bethlehem: *86%* Christian.|Now *12%.*"
+ }
+}
