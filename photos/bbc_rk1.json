@@ -1,0 +1,6 @@
+{
+ "name": "bbc_rk1",
+ "url": "https://commons.wikimedia.org/wiki/File:Flickr_-_Israel_Defense_Forces_-_Iron_Dome_Intercepts_Rockets_from_the_Gaza_Strip.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}

@@ -1,0 +1,6 @@
+{
+ "name": "bbc_ofc2",
+ "url": "https://commons.wikimedia.org/wiki/File:Riverside_House,_Southwark_Bridge_Road.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}

@@ -1,0 +1,6 @@
+{
+ "name": "bbc_shifa3",
+ "url": "https://commons.wikimedia.org/wiki/File:Shifa_Hospital.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}

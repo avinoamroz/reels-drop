@@ -1,0 +1,6 @@
+{
+ "name": "bbc_ahli2",
+ "url": "https://commons.wikimedia.org/wiki/File:Al_Ahli_Arab_Hospital.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}
