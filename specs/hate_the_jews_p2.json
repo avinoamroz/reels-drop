@@ -1,0 +1,320 @@
+{
+ "id": "hate_the_jews_p2",
+ "account": "noamroz__",
+ "template": "irony_reasons",
+ "hook": "*Part 2:* I “hate”|the Jews",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Part two. Eight more reasons I hate the Jews.",
+   "gap": 0.12
+  },
+  {
+   "say": "One. Israelis built Mobileye. Now cars brake before you crash. How dare they.",
+   "gap": 0.22
+  },
+  {
+   "say": "Two. Selman Waksman found the first antibiotic that beat tuberculosis. Typical.",
+   "gap": 0.22
+  },
+  {
+   "say": "Three. An Israeli army medic invented the emergency bandage. It stops people bleeding out. Ugh.",
+   "gap": 0.22
+  },
+  {
+   "say": "Four. Albert Sabin made a polio vaccine you just swallow. Show off.",
+   "gap": 0.22
+  },
+  {
+   "say": "Five. Baruch Blumberg found hepatitis B. Now babies get a vaccine for it. Overachiever.",
+   "gap": 0.22
+  },
+  {
+   "say": "Six. Bernard Lown built the modern defibrillator. Now hearts get shocked back into rhythm. Unreal.",
+   "gap": 0.22
+  },
+  {
+   "say": "Seven. Israeli scientists made Copaxone. People with multiple sclerosis take it worldwide. Seriously?",
+   "gap": 0.22
+  },
+  {
+   "say": "Eight. Rosalind Franklin, a Jewish scientist, helped reveal the shape of DNA. Unforgivable.",
+   "gap": 0.22
+  },
+  {
+   "say": "Obviously, I'm Jewish.",
+   "gap": 0.25
+  },
+  {
+   "say": "And we'll keep doing all of it. Part one is on my profile."
+  }
+ ],
+ "subs_replace": {
+  "hate": "“hate”"
+ },
+ "data": {
+  "badge": "SARCASM",
+  "badge_emoji": "🙄",
+  "hook_emoji": "🙄",
+  "first_at": 1.2,
+  "of": 8,
+  "reasons": [
+   {
+    "n": 1,
+    "at": "L1",
+    "photo": "templates/photos/hate_the_jews/mobileye.jpg",
+    "credit": "U.S. Embassy Tel Aviv, CC BY 2.0",
+    "kb": [
+     0.62,
+     0.55,
+     1.0,
+     0.66,
+     0.55,
+     1.12
+    ],
+    "title": "*Mobileye*",
+    "who": "Founded in Jerusalem, 1999",
+    "src": "Mobileye; Intel deal, 2017",
+    "punch": "HOW DARE THEY.",
+    "punch_at": "L1:how",
+    "emoji": "🙄"
+   },
+   {
+    "n": 2,
+    "at": "L2",
+    "photo": "templates/photos/hate_the_jews/waksman.jpg",
+    "credit": "New York World-Telegram, public domain",
+    "kb": [
+     0.58,
+     0.42,
+     1.0,
+     0.6,
+     0.4,
+     1.12
+    ],
+    "title": "First *TB* antibiotic",
+    "who": "Selman Waksman, Jewish, Nobel 1952",
+    "src": "Nobel Prize: streptomycin, 1952",
+    "punch": "TYPICAL.",
+    "punch_at": "L2:typical",
+    "emoji": "🙄"
+   },
+   {
+    "n": 3,
+    "at": "L3",
+    "photo": "templates/photos/hate_the_jews/bandage.jpg",
+    "credit": "Struppig taucher, CC BY 4.0",
+    "kb": [
+     0.45,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "title": "Emergency *bandage*",
+    "who": "Bernard Bar-Natan, Israeli army medic",
+    "src": "Used at the Tucson shooting, NPR, 2011",
+    "punch": "UGH.",
+    "punch_at": "L3:ugh",
+    "emoji": "🙄"
+   },
+   {
+    "n": 4,
+    "at": "L4",
+    "photo": "templates/photos/hate_the_jews/sabin.jpg",
+    "credit": "Public domain, Wikimedia Commons",
+    "kb": [
+     0.42,
+     0.45,
+     1.0,
+     0.44,
+     0.42,
+     1.1
+    ],
+    "title": "The *oral* polio vaccine",
+    "who": "Albert Sabin, Jewish, licensed 1961",
+    "src": "CDC, polio vaccine history, 1961",
+    "punch": "SHOW-OFF.",
+    "punch_at": "L4:show",
+    "emoji": "🙄"
+   },
+   {
+    "n": 5,
+    "at": "L5",
+    "photo": "templates/photos/hate_the_jews/blumberg.jpg",
+    "credit": "Tom Trower, NASA, public domain",
+    "kb": [
+     0.5,
+     0.4,
+     1.0,
+     0.5,
+     0.36,
+     1.12
+    ],
+    "title": "*Hepatitis B*",
+    "who": "Baruch Blumberg, Jewish, Nobel 1976",
+    "src": "Nobel Prize in Medicine, 1976",
+    "punch": "OVERACHIEVER.",
+    "punch_at": "L5:overachiever",
+    "emoji": "🙄"
+   },
+   {
+    "n": 6,
+    "at": "L6",
+    "photo": "templates/photos/hate_the_jews/aed.jpg",
+    "credit": "APneunzehn74, CC0 (illustrative)",
+    "kb": [
+     0.7,
+     0.55,
+     1.0,
+     0.7,
+     0.58,
+     1.15
+    ],
+    "title": "The *defibrillator*",
+    "who": "Bernard Lown, Jewish, 1962",
+    "src": "Lown et al., JAMA, 1962",
+    "punch": "UNREAL.",
+    "punch_at": "L6:unreal",
+    "emoji": "🙄",
+    "dim": 0.3
+   },
+   {
+    "n": 7,
+    "at": "L7",
+    "photo": "templates/photos/hate_the_jews/weizmann.jpg",
+    "credit": "Deror_avi, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.52,
+     0.5,
+     1.12
+    ],
+    "title": "*Copaxone,* for MS",
+    "who": "Weizmann Institute, Israel, FDA approved 1996",
+    "src": "Weizmann Institute, 1996",
+    "punch": "SERIOUSLY?",
+    "punch_at": "L7:seriously",
+    "emoji": "🙄",
+    "dim": 0.3
+   },
+   {
+    "n": 8,
+    "at": "L8",
+    "photo": "templates/photos/hate_the_jews/franklin.jpg",
+    "credit": "CSHL, CC BY-SA 4.0",
+    "kb": [
+     0.24,
+     0.45,
+     1.0,
+     0.26,
+     0.42,
+     1.12
+    ],
+    "title": "The shape of *DNA*",
+    "who": "Rosalind Franklin, Jewish, Photo 51, 1952",
+    "src": "Franklin and Gosling, Nature, 1953",
+    "punch": "UNFORGIVABLE.",
+    "punch_at": "L8:unforgivable",
+    "emoji": "🙄"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Mobileye; Intel deal, 2017",
+   "year": 2017,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Nobel Prize: streptomycin, 1952",
+   "year": 1952,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Used at the Tucson shooting, NPR, 2011",
+   "year": 2011,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "CDC, polio vaccine history, 1961",
+   "year": 1961,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Nobel Prize in Medicine, 1976",
+   "year": 1976,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Lown et al., JAMA, 1962",
+   "year": 1962,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Weizmann Institute, 1996",
+   "year": 1996,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Franklin and Gosling, Nature, 1953",
+   "year": 1953,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "emoji": "😉",
+  "emoji_y": 560,
+  "lines": [
+   {
+    "text": "Obviously, I'm *Jewish.*",
+    "at": "L9",
+    "y": 800,
+    "size": 104
+   },
+   {
+    "text": "And we'll keep doing *all of it.*",
+    "at": "L10",
+    "y": 1010,
+    "size": 84
+   }
+  ],
+  "pill": {
+   "text": "Part 1 on my profile",
+   "at": "L10+1.4",
+   "y": 1250
+  }
+ },
+ "caption_en": "Satire. Part 2: 8 more reasons I “hate” the Jews 🙄\n\n1. Mobileye: founded in Jerusalem, 1999; its cameras power automatic emergency braking in many cars (Intel bought it in 2017).\n2. Streptomycin, the first antibiotic effective against tuberculosis: Selman Waksman (Jewish), Nobel Prize 1952.\n3. The emergency bandage: invented by Israeli military medic Bernard Bar-Natan; used on victims of the 2011 Tucson shooting (NPR).\n4. The oral polio vaccine: Albert Sabin (Jewish), licensed in the US in 1961 (CDC).\n5. Hepatitis B: Baruch Blumberg (Jewish) discovered the virus, which led to the vaccine; Nobel Prize 1976.\n6. The DC defibrillator: Bernard Lown (Jewish), 1962 (JAMA).\n7. Copaxone, a multiple sclerosis drug: developed at Israel's Weizmann Institute, FDA approved 1996.\n8. The shape of DNA: Rosalind Franklin (Jewish), Photo 51, 1952 (Franklin and Gosling, Nature, 1953).\n\nObviously, I'm Jewish. And we'll keep doing all of it. 😉 Part 1 on my profile.\n\nPhotos via Wikimedia Commons: U.S. Embassy Tel Aviv (CC BY 2.0); New York World-Telegram (public domain); Struppig taucher (CC BY 4.0); Albert Sabin (public domain); Tom Trower, NASA (public domain); APneunzehn74 (CC0, illustrative); Deror_avi (CC BY-SA 4.0); CSHL (CC BY-SA 4.0). AI voice.",
+ "caption_he": "סאטירה. חלק 2: עוד 8 סיבות שאני \"שונא\" את היהודים 🙄\nמובילאיי, סטרפטומיצין נגד שחפת (זלמן וקסמן), התחבושת האישית (ברנרד בר-נתן), חיסון הפוליו בטיפות (אלברט סייבין), הפטיטיס B (ברוך בלומברג), הדפיברילטור (ברנרד לאון), קופקסון (מכון ויצמן), ומבנה ה-DNA (רוזלינד פרנקלין).\nברור שאני יהודי. ונמשיך לעשות את כל זה. 😉 חלק 1 בפרופיל.",
+ "hashtags": [
+  "#satire",
+  "#Jewish",
+  "#Israel"
+ ],
+ "cover": {
+  "t": 34.0,
+  "text": "*Part 2:* I “hate”|the Jews",
+  "label": "Satire. Watch till the end",
+  "dim": 0.75
+ }
+}

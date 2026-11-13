@@ -1,0 +1,319 @@
+{
+ "id": "hate_the_jews_p1",
+ "account": "noamroz__",
+ "template": "irony_reasons",
+ "hook": "*8* reasons I|“hate” the Jews",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Eight reasons I hate the Jews.",
+   "gap": 0.12
+  },
+  {
+   "say": "One. Jonas Salk made the polio vaccine. Now kids just run around. Ugh.",
+   "gap": 0.22
+  },
+  {
+   "say": "Two. Israeli rescue teams pulled nineteen people out of the rubble in Turkey. Show offs.",
+   "gap": 0.22
+  },
+  {
+   "say": "Three. Israelis built modern drip irrigation. Now deserts grow food. Who asked for that?",
+   "gap": 0.22
+  },
+  {
+   "say": "Four. Einstein's relativity. Without it, your GPS would drift miles every day. Thanks a lot.",
+   "gap": 0.22
+  },
+  {
+   "say": "Five. Israelis built Waze. Now nobody has an excuse to be late. Great.",
+   "gap": 0.22
+  },
+  {
+   "say": "Six. Israelis patented the USB stick. Now my whole life fits on a keychain. Annoying.",
+   "gap": 0.22
+  },
+  {
+   "say": "Seven. Israelis put a camera in a pill. You swallow it, it films your insides. Disgusting.",
+   "gap": 0.22
+  },
+  {
+   "say": "Eight. Levi Strauss and Jacob Davis, two Jewish immigrants, invented blue jeans. Now everyone looks good. Rude.",
+   "gap": 0.22
+  },
+  {
+   "say": "Obviously, I'm Jewish.",
+   "gap": 0.25
+  },
+  {
+   "say": "And we'll keep doing all of it. Eight more reasons on my profile."
+  }
+ ],
+ "subs_replace": {
+  "hate": "“hate”"
+ },
+ "data": {
+  "badge": "SARCASM",
+  "badge_emoji": "🙄",
+  "hook_emoji": "🙄",
+  "first_at": 1.2,
+  "of": 8,
+  "reasons": [
+   {
+    "n": 1,
+    "at": "L1",
+    "photo": "templates/photos/hate_the_jews/salk.jpg",
+    "credit": "SAS Scandinavian Airlines, public domain",
+    "kb": [
+     0.5,
+     0.42,
+     1.0,
+     0.5,
+     0.38,
+     1.12
+    ],
+    "title": "The *polio* vaccine",
+    "who": "Jonas Salk, Jewish, 1955",
+    "src": "Salk vaccine declared safe and effective, 1955",
+    "punch": "UGH.",
+    "punch_at": "L1:ugh",
+    "emoji": "🙄"
+   },
+   {
+    "n": 2,
+    "at": "L2",
+    "photo": "templates/photos/hate_the_jews/rescue.jpg",
+    "credit": "Israel Defense Forces, CC BY 2.0",
+    "kb": [
+     0.62,
+     0.5,
+     1.0,
+     0.66,
+     0.55,
+     1.12
+    ],
+    "title": "Rescue teams *abroad*",
+    "who": "Israeli rescue team, Türkiye 2023: 19 saved",
+    "src": "Israel Defense Forces via JNS, Feb 2023",
+    "punch": "SHOW-OFFS.",
+    "punch_at": "L2:show",
+    "emoji": "🙄"
+   },
+   {
+    "n": 3,
+    "at": "L3",
+    "photo": "templates/photos/hate_the_jews/drip2.jpg",
+    "credit": "Alan.ca, public domain",
+    "kb": [
+     0.42,
+     0.45,
+     1.0,
+     0.46,
+     0.45,
+     1.15
+    ],
+    "title": "*Drip* irrigation",
+    "who": "Simcha Blass and Netafim, Israel, 1965",
+    "src": "Netafim, founded 1965",
+    "punch": "WHO ASKED?",
+    "punch_at": "L3:who",
+    "emoji": "🙄"
+   },
+   {
+    "n": 4,
+    "at": "L4",
+    "photo": "templates/photos/hate_the_jews/einstein.jpg",
+    "credit": "Ferdinand Schmutzer, 1921, public domain",
+    "kb": [
+     0.5,
+     0.4,
+     1.0,
+     0.52,
+     0.36,
+     1.12
+    ],
+    "title": "*Relativity*",
+    "who": "Albert Einstein, Jewish, 1905 and 1915",
+    "src": "Ashby, Physics Today, 2002: GPS relativity",
+    "punch": "THANKS A LOT.",
+    "punch_at": "L4:thanks",
+    "emoji": "🙄"
+   },
+   {
+    "n": 5,
+    "at": "L5",
+    "photo": "templates/photos/hate_the_jews/waze.jpg",
+    "credit": "Shixart1985, CC BY 2.0 (illustrative)",
+    "kb": [
+     0.42,
+     0.5,
+     1.0,
+     0.46,
+     0.5,
+     1.12
+    ],
+    "title": "*Waze*",
+    "who": "Founded in Israel, 2008",
+    "src": "Google buys Waze, Reuters, 2013",
+    "punch": "GREAT.",
+    "punch_at": "L5:great",
+    "emoji": "🙄"
+   },
+   {
+    "n": 6,
+    "at": "L6",
+    "photo": "templates/photos/hate_the_jews/usb.jpg",
+    "credit": "Cjp24, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "title": "The *USB* stick",
+    "who": "M-Systems, Israel, patent filed 1999",
+    "src": "US Patent 6,148,354, 2000",
+    "punch": "ANNOYING.",
+    "punch_at": "L6:annoying",
+    "emoji": "🙄",
+    "dim": 0.25
+   },
+   {
+    "n": 7,
+    "at": "L7",
+    "photo": "templates/photos/hate_the_jews/pill.jpg",
+    "credit": "Public domain, Wikimedia Commons",
+    "kb": [
+     0.4,
+     0.42,
+     1.0,
+     0.42,
+     0.42,
+     1.15
+    ],
+    "title": "The camera *pill*",
+    "who": "Given Imaging, Israel, FDA cleared 2001",
+    "src": "FDA clearance, Aug 2001",
+    "punch": "DISGUSTING.",
+    "punch_at": "L7:disgusting",
+    "emoji": "🤢"
+   },
+   {
+    "n": 8,
+    "at": "L8",
+    "photo": "templates/photos/hate_the_jews/jeans.jpg",
+    "credit": "Levi Strauss and Co. ad, public domain",
+    "kb": [
+     0.5,
+     0.4,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "title": "Blue *jeans*",
+    "who": "Levi Strauss and Jacob Davis, Jewish, 1873",
+    "src": "US Patent 139,121, 1873",
+    "punch": "RUDE.",
+    "punch_at": "L8:rude",
+    "emoji": "🙄"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Salk vaccine declared safe and effective, 1955",
+   "year": 1955,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Israel Defense Forces via JNS, Feb 2023",
+   "year": 2023,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Netafim, founded 1965",
+   "year": 1965,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Ashby, Physics Today, 2002: GPS relativity",
+   "year": 2002,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Google buys Waze, Reuters, 2013",
+   "year": 2013,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "US Patent 6,148,354, 2000",
+   "year": 2000,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "FDA clearance, Aug 2001",
+   "year": 2001,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "US Patent 139,121, 1873",
+   "year": 1873,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "emoji": "😉",
+  "emoji_y": 560,
+  "lines": [
+   {
+    "text": "Obviously, I'm *Jewish.*",
+    "at": "L9",
+    "y": 800,
+    "size": 104
+   },
+   {
+    "text": "And we'll keep doing *all of it.*",
+    "at": "L10",
+    "y": 1010,
+    "size": 84
+   }
+  ],
+  "pill": {
+   "text": "Part 2 on my profile",
+   "at": "L10+1.4",
+   "y": 1250
+  }
+ },
+ "caption_en": "Satire. 8 reasons I “hate” the Jews 🙄\n\n1. The polio vaccine: Jonas Salk (Jewish), declared safe and effective in 1955.\n2. Rescue teams: Israel's search and rescue delegation pulled 19 people out alive after the Türkiye earthquake, Feb 2023 (Israel Defense Forces, via JNS).\n3. Modern drip irrigation: Simcha Blass and Netafim, Israel, 1965.\n4. Relativity: Albert Einstein (Jewish), 1905 and 1915. GPS clocks are corrected for it, or positions would drift about 10 km a day (Ashby, Physics Today, 2002).\n5. Waze: founded in Israel, 2008; bought by Google in 2013 (Reuters).\n6. The USB flash drive: M-Systems (Israel), US Patent 6,148,354, filed 1999.\n7. The camera pill: Given Imaging (Israel), FDA cleared 2001.\n8. Blue jeans: Levi Strauss and Jacob Davis, both Jewish immigrants, US Patent 139,121, 1873.\n\nObviously, I'm Jewish. And we'll keep doing all of it. 😉 Part 2 on my profile.\n\nPhotos via Wikimedia Commons: SAS Scandinavian Airlines (public domain); Israel Defense Forces (CC BY 2.0); Alan.ca (public domain); Ferdinand Schmutzer (public domain); Shixart1985 (CC BY 2.0, illustrative); Cjp24 (CC BY-SA 4.0); capsule endoscope (public domain); Levi Strauss and Co. ad (public domain). AI voice.",
+ "caption_he": "סאטירה. 8 סיבות שאני \"שונא\" את היהודים 🙄\nחיסון הפוליו (יונס סאלק), משלחת החילוץ הישראלית שהוציאה 19 אנשים חיים מההריסות בטורקיה (2023), טפטפות (נטפים, 1965), תורת היחסות (איינשטיין), וייז, הדיסק און קי (אם-סיסטמס), גלולת המצלמה (גיוון אימג'ינג), והג'ינס (ליוויי שטראוס וג'ייקוב דייוויס).\nברור שאני יהודי. ונמשיך לעשות את כל זה. 😉 חלק 2 בפרופיל.",
+ "hashtags": [
+  "#satire",
+  "#Jewish",
+  "#Israel"
+ ],
+ "cover": {
+  "t": 26.0,
+  "text": "*8* reasons I|“hate” the Jews",
+  "label": "Satire. Watch till the end",
+  "dim": 0.75
+ }
+}
