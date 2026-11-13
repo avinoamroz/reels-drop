@@ -1,6 +1,184 @@
 {
-  "id": "hate_the_jews_p1",
-  "status": "FAILED",
-  "run": "43491957190",
-  "log": "9:27:54] frame 1200/1463\nmultiprocessing.pool.RemoteTraceback: \n\"\"\"\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 125, in worker\n    result = (True, func(*args, **kwds))\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 48, in mapstar\n    return list(map(*args))\n           ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 396, in _one\n    def _one(i): return _FR[0](i / FPS).tobytes()\n                        ^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 404, in fr\n    img = frame(t)\n          ^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/irony_reasons.py\", line 159, in frame\n    end_card(cv, t)\n  File \"/home/runner/work/reels-drop/reels-drop/templates/irony_reasons.py\", line 146, in end_card\n    ea = seg(t, END_AT, END_AT + 0.3); WG.emo(cv, E[\"emoji\"], 540, E.get(\"emoji_y\", 600), 190 * WG.pop_s(t, END_AT) if t < END_AT + 0.35 else 190, ea)\n                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/widgets.py\", line 48, in emo\n    def emo(cv, ch, cx, cy, sz=64, a=1.0): cv.image(emoji(ch), cx, cy, sz / 109, a)\n                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/base.py\", line 129, in image\n    s.c.save(); s.c.translate(cx, cy); s.c.scale(scale, scale); s.c.set_source_surface(sf, -w / 2, -h / 2); s.c.paint_with_alpha(a); s.c.restore()\n                                       ^^^^^^^^^^^^^^^^^^^^^^^\ncairo.Error: invalid matrix (not invertible)\n\"\"\"\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/irony_reasons.py\", line 174, in run\n    encode(frame, T.END, f\"{work}/mix.m4a\", final, loop=True)\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 414, in encode\n    for i, b in enumerate(P.imap(_one, range(nfr), chunksize=6)):\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 423, in <genexpr>\n    return (item for chunk in result for item in chunk)\n                              ^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 873, in next\n    raise value\ncairo.Error: invalid matrix (not invertible)\n"
+ "id": "hate_the_jews_p1",
+ "account": "noamroz__",
+ "template": "irony_reasons",
+ "hook": "*8* reasons I|“hate” the Jews",
+ "duration": 48.77,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -0.9
+ },
+ "outputs": {
+  "mp4": "out/hate_the_jews_p1.mp4",
+  "cover": "covers/hate_the_jews_p1_cover.jpg",
+  "preview": "previews/hate_the_jews_p1_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hate_the_jews_p1_0.jpg",
+  "1": "out/frames/hate_the_jews_p1_1.jpg",
+  "3": "out/frames/hate_the_jews_p1_3.jpg",
+  "last": "out/frames/hate_the_jews_p1_last.jpg"
+ },
+ "caption_en": "Satire. 8 reasons I “hate” the Jews 🙄\n\n1. The polio vaccine: Jonas Salk (Jewish), declared safe and effective in 1955.\n2. Rescue teams: Israel's search and rescue delegation pulled 19 people out alive after the Türkiye earthquake, Feb 2023 (Israel Defense Forces, via JNS).\n3. Modern drip irrigation: Simcha Blass and Netafim, Israel, 1965.\n4. Relativity: Albert Einstein (Jewish), 1905 and 1915. GPS clocks are corrected for it, or positions would drift about 10 km a day (Ashby, Physics Today, 2002).\n5. Waze: founded in Israel, 2008; bought by Google in 2013 (Reuters).\n6. The USB flash drive: M-Systems (Israel), US Patent 6,148,354, filed 1999.\n7. The camera pill: Given Imaging (Israel), FDA cleared 2001.\n8. Blue jeans: Levi Strauss and Jacob Davis, both Jewish immigrants, US Patent 139,121, 1873.\n\nObviously, I'm Jewish. And we'll keep doing all of it. 😉 Part 2 on my profile.\n\nPhotos via Wikimedia Commons: SAS Scandinavian Airlines (public domain); Israel Defense Forces (CC BY 2.0); Alan.ca (public domain); Ferdinand Schmutzer (public domain); Shixart1985 (CC BY 2.0, illustrative); Cjp24 (CC BY-SA 4.0); capsule endoscope (public domain); Levi Strauss and Co. ad (public domain). AI voice.",
+ "caption_he": "סאטירה. 8 סיבות שאני \"שונא\" את היהודים 🙄\nחיסון הפוליו (יונס סאלק), משלחת החילוץ הישראלית שהוציאה 19 אנשים חיים מההריסות בטורקיה (2023), טפטפות (נטפים, 1965), תורת היחסות (איינשטיין), וייז, הדיסק און קי (אם-סיסטמס), גלולת המצלמה (גיוון אימג'ינג), והג'ינס (ליוויי שטראוס וג'ייקוב דייוויס).\nברור שאני יהודי. ונמשיך לעשות את כל זה. 😉 חלק 2 בפרופיל.",
+ "hashtags": [
+  "#satire",
+  "#Jewish",
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Salk vaccine declared safe and effective, 1955",
+   "year": 1955,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Israel Defense Forces via JNS, Feb 2023",
+   "year": 2023,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Netafim, founded 1965",
+   "year": 1965,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Ashby, Physics Today, 2002: GPS relativity",
+   "year": 2002,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Google buys Waze, Reuters, 2013",
+   "year": 2013,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "US Patent 6,148,354, 2000",
+   "year": 2000,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "FDA clearance, Aug 2001",
+   "year": 2001,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "US Patent 139,121, 1873",
+   "year": 1873,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.964,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Eight reasons I hate the Jews.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "One. Jonas Salk made the polio vaccine. Now kids just run around. Ugh.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Two. Israeli rescue teams pulled nineteen people out of the rubble in Turkey. Show offs.",
+    "score": 0.867,
+    "flag": "ok"
+   },
+   {
+    "line": "Three. Israelis built modern drip irrigation. Now deserts grow food. Who asked for that?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Four. Einstein's relativity. Without it, your GPS would drift miles every day. Thanks a lot.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five. Israelis built Waze. Now nobody has an excuse to be late. Great.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Six. Israelis patented the USB stick. Now my whole life fits on a keychain. Annoying.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seven. Israelis put a camera in a pill. You swallow it, it films your insides. Disgusting.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eight. Levi Strauss and Jacob Davis, two Jewish immigrants, invented blue jeans. Now everyone looks good. Rude.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Obviously, I'm Jewish.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And we'll keep doing all of it. Eight more reasons on my profile.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "8 reasons I hate the juice. 1. Jonas Salk made the polio vaccine. Now kids just run around. 2. Israeli rescue teams pulled 19 people out of the rubble in Turkey. Showoffs. 3. Israelis built modern drip irrigation. Now deserts grow food. Who asked for that? 4. Einstein's relativity. Without it, your GPS would drift miles every day. Thanks a lot. 5. Israelis built ways. Now nobody has an excuse to be late. Great. 6. Israelis patented the USB stick. Now my whole life fits on a keychain. Annoying. Seven. Israelis put a camera in a pill. You swallow it, it films your insides. Disgusting. Eight. Levi Strauss and Jacob Davis, two Jewish immigrants, invented blue jeans. Now everyone looks good. Rude. Obviously I'm Jewish. And we'll keep doing all of it. Eight more reasons on my profile.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -0.9
+ },
+ "photos": [
+  {
+   "file": "templates/photos/hate_the_jews/salk.jpg",
+   "credit": "SAS Scandinavian Airlines, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/rescue.jpg",
+   "credit": "Israel Defense Forces, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/drip2.jpg",
+   "credit": "Alan.ca, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/einstein.jpg",
+   "credit": "Ferdinand Schmutzer, 1921, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/waze.jpg",
+   "credit": "Shixart1985, CC BY 2.0 (illustrative)"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/usb.jpg",
+   "credit": "Cjp24, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/pill.jpg",
+   "credit": "Public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/jeans.jpg",
+   "credit": "Levi Strauss and Co. ad, public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 104.0
 }
