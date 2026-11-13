@@ -1,0 +1,6 @@
+{
+  "id": "israel_vs_competitors",
+  "status": "FAILED",
+  "run": "43485889923",
+  "log": "voice ok: Cartesia sonic-3 (87.7 s, 163 words) voice/israel_vs_competitors_vo.wav\n[18:47:41] voice: cached voice (script unchanged)\n[ WARN:0@1.742] global loadsave.cpp:278 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/ml_tech.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/ml_tech.jpg\n"
+}
