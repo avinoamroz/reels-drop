@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "fert_stock",
  "hook": "Since *1990:*|only *1* line up",
- "duration": 59.9,
+ "duration": 49.73,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -2.0
+  "lufs": -16.1,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/fertility_stock.mp4",
@@ -27,23 +27,23 @@
    "label": "World Bank WDI, fertility rate (births per woman)",
    "year": 2026,
    "at": 1.2,
-   "until": "L11"
+   "until": "L10"
   },
   {
    "label": "Taub Center, Weinreb, Chernichovsky, Brill",
    "year": 2018,
-   "at": "L11",
-   "until": "L12"
+   "at": "L10",
+   "until": "L11"
   },
   {
    "label": "Taub Center, Why are there so many children in Israel?",
    "year": 2019,
-   "at": "L12",
-   "until": "L13"
+   "at": "L11",
+   "until": "L12"
   }
  ],
  "transcript": {
-  "score": 0.944,
+  "score": 0.939,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -58,11 +58,11 @@
    },
    {
     "line": "Europe first. In nineteen sixty, about two and a half.",
-    "score": 0.9,
+    "score": 0.8,
     "flag": "ok"
    },
    {
-    "line": "Then it slides. Spain, one point one. Italy, one point two. Germany, one point four.",
+    "line": "Spain, one point one. Italy, one point two. Germany, one point four.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -72,12 +72,7 @@
     "flag": "ok"
    },
    {
-    "line": "Now the Middle East.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Saudi Arabia, Iran, Syria and Jordan started above seven. Then a long fall.",
+    "line": "Middle East: Saudi Arabia, Iran, Syria and Jordan started above seven.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -92,8 +87,8 @@
     "flag": "ok"
    },
    {
-    "line": "The watchlist since nineteen ninety: sixteen red arrows, one green.",
-    "score": 0.8,
+    "line": "Since nineteen ninety: sixteen red arrows, one green.",
+    "score": 0.875,
     "flag": "ok"
    },
    {
@@ -117,20 +112,20 @@
     "flag": "ok"
    },
    {
-    "line": "Seventeen countries. Which line would you buy?",
+    "line": "So, which line would you buy?",
     "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "Since 1990, only one of these lines went up. Babies per woman, traded like a stock. Europe first. In 1960, about two and a half. Then it slides. Spain, 1.1. Italy, 1.2. Germany, 1.4. Israel, down from almost four. Then flat near three. Now the Middle East. Saudi Arabia, Iran. Syria and Jordan started above seven. Then a long fall. The Emirates, 1.2. Turkey, 1.5. Iran, 1.7. Even Egypt and Jordan are now below Israel. The watch list, since 1990. 16 red arrows, 1 green. Israel, up almost 2%. Why? The top center finds a strong family culture at every level of religion. Even secular and traditional Israelis average over 2 kids. A rich, modern country, still investing in the future. 17 countries. Which line would you buy?",
+  "heard": "Since 1990, only one of these lines went up. Babies per woman, traded like a stock. Europe first. In 1960, about 2.5. Spain, 1.1. Italy, 1.2. Germany, 1.4. Israel? Down from almost 4, then flat near 3. Middle East. Saudi Arabia, Iran, Syria, and Jordan started above 7. The Emirates, 1.2. Turkey, 1.5. Iran, 1.7. Even Egypt and Jordan are now below Israel. Since 1990, 16 red arrows, one green. Israel, up almost 2%. Why? The top center finds a strong family culture at every level of religion. Even secular and traditional Israelis average over two kids. A rich, modern country, still investing in the future. So, which line would you buy?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -2.0
+  "lufs": -16.1,
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 138.3
+ "render_s": 122.3
 }
