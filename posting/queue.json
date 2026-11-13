@@ -951,16 +951,6 @@
    "posts_at": "2026-11-17 17:47"
   },
   {
-   "id": "bbs_news",
-   "account": "noam",
-   "due": "2026-11-17T21:40:00+02:00",
-   "payload": {
-    "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/bbs_news.mp4\", \"caption\": \"SATIRE 📺 BBS: Barely Bothered with Sources. A made-up channel, made-up anchors, made-up \\\"news\\\".\\n\\nIsrael colonized Mars. The stones of Jerusalem are protesting. The aliens can't get falafel. Every fact checked by our expert (also us).\\n\\nNow the part that's actually true:\\n1. On 17 Oct 2025, Ofcom, the UK broadcast regulator, ruled that the BBC documentary \\\"Gaza: How to Survive a Warzone\\\" was \\\"materially misleading\\\": it never told viewers the boy narrator's father held a position in the HAMAS-run administration (deputy minister of agriculture).\\n2. On 9 Nov 2025, the BBC's Director General and the CEO of BBC News resigned after a misleading Panorama edit of a Trump speech.\\n\\nThe BBC also does serious reporting. Just check the source, every time.\\n\\nWhat should Israel annex next? 👇\\n\\nסאטירה 📺 ערוץ חדשות מומצא שמדווח \\\"עובדות\\\" מופרכות על ישראל: התנחלות על מאדים, אבנים שמפגינות בשקט, וחייזרים בלי פלאפל.\\nועכשיו החלק האמיתי: ב-17 באוקטובר 2025 קבע Ofcom, הרגולטור הבריטי, שסרט תיעודי של ה-BBC על עזה היה \\\"מטעה מהותית\\\", כי לא גילה שאביו של הילד המספר היה סגן שר בממשל של חמאס. ב-9 בנובמבר 2025 התפטרו מנכ\\\"ל ה-BBC ומנכ\\\"לית חטיבת החדשות בעקבות עריכה מטעה של נאום טראמפ.\\nה-BBC עושה גם עיתונות רצינית. פשוט תבדקו את המקור, כל פעם.\\n\\nSources: Ofcom investigation finding, 17 Oct 2025 (ofcom.org.uk); BBC review of \\\"Gaza: How to Survive a Warzone\\\", 14 Jul 2025; BBC News and Al Jazeera, 9 and 10 Nov 2025.\\n\\nAI-generated satire. All characters are fictional.\\n\\n#Satire #MediaBias #Israel #FactCheck #BBC\", \"share_to_feed\": true, \"is_ai_generated\": true, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/bbs_news_cover.jpg\", \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}}"
-   },
-   "due_epoch": 1794944400,
-   "posts_at": "2026-11-17 21:47"
-  },
-  {
    "id": "babysit_spectrum_ex",
    "account": "express",
    "due": "2026-11-18T08:30:00+02:00",
@@ -1825,15 +1815,6 @@
     }
    }
   },
-  "s997191": {
-   "noam": {
-    "id": "bbs_news",
-    "due": "2026-11-17T21:40:00+02:00",
-    "payload": {
-     "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/bbs_news.mp4\", \"caption\": \"SATIRE 📺 BBS: Barely Bothered with Sources. A made-up channel, made-up anchors, made-up \\\"news\\\".\\n\\nIsrael colonized Mars. The stones of Jerusalem are protesting. The aliens can't get falafel. Every fact checked by our expert (also us).\\n\\nNow the part that's actually true:\\n1. On 17 Oct 2025, Ofcom, the UK broadcast regulator, ruled that the BBC documentary \\\"Gaza: How to Survive a Warzone\\\" was \\\"materially misleading\\\": it never told viewers the boy narrator's father held a position in the HAMAS-run administration (deputy minister of agriculture).\\n2. On 9 Nov 2025, the BBC's Director General and the CEO of BBC News resigned after a misleading Panorama edit of a Trump speech.\\n\\nThe BBC also does serious reporting. Just check the source, every time.\\n\\nWhat should Israel annex next? 👇\\n\\nסאטירה 📺 ערוץ חדשות מומצא שמדווח \\\"עובדות\\\" מופרכות על ישראל: התנחלות על מאדים, אבנים שמפגינות בשקט, וחייזרים בלי פלאפל.\\nועכשיו החלק האמיתי: ב-17 באוקטובר 2025 קבע Ofcom, הרגולטור הבריטי, שסרט תיעודי של ה-BBC על עזה היה \\\"מטעה מהותית\\\", כי לא גילה שאביו של הילד המספר היה סגן שר בממשל של חמאס. ב-9 בנובמבר 2025 התפטרו מנכ\\\"ל ה-BBC ומנכ\\\"לית חטיבת החדשות בעקבות עריכה מטעה של נאום טראמפ.\\nה-BBC עושה גם עיתונות רצינית. פשוט תבדקו את המקור, כל פעם.\\n\\nSources: Ofcom investigation finding, 17 Oct 2025 (ofcom.org.uk); BBC review of \\\"Gaza: How to Survive a Warzone\\\", 14 Jul 2025; BBC News and Al Jazeera, 9 and 10 Nov 2025.\\n\\nAI-generated satire. All characters are fictional.\\n\\n#Satire #MediaBias #Israel #FactCheck #BBC\", \"share_to_feed\": true, \"is_ai_generated\": true, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/bbs_news_cover.jpg\", \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}}"
-    }
-   }
-  },
   "s997213": {
    "express": {
     "id": "babysit_spectrum_ex",
@@ -1844,6 +1825,6 @@
    }
   }
  },
- "due_buckets": "|996855|996859|996860|996861|996862|996874|996877|996880|996883|996885|996886|996888|996889|996891|996892|996894|996895|996898|996903|996907|996909|996922|996925|996928|996931|996932|996933|996934|996936|996937|996939|996940|996942|996943|996945|996946|996948|996951|996954|996970|996973|996976|996979|996981|996982|996984|996985|996987|996988|996990|996991|996993|996994|996996|996999|997002|997018|997021|997024|997027|997029|997030|997032|997033|997035|997036|997038|997041|997044|997047|997050|997069|997077|997078|997080|997083|997086|997087|997089|997092|997095|997098|997117|997125|997126|997128|997131|997134|997135|997137|997165|997174|997179|997183|997191|997213|",
- "generated_at": "2026-11-12T21:19:37+00:00"
+ "due_buckets": "|996855|996859|996860|996861|996862|996874|996877|996880|996883|996885|996886|996888|996889|996891|996892|996894|996895|996898|996903|996907|996909|996922|996925|996928|996931|996932|996933|996934|996936|996937|996939|996940|996942|996943|996945|996946|996948|996951|996954|996970|996973|996976|996979|996981|996982|996984|996985|996987|996988|996990|996991|996993|996994|996996|996999|997002|997018|997021|997024|997027|997029|997030|997032|997033|997035|997036|997038|997041|997044|997047|997050|997069|997077|997078|997080|997083|997086|997087|997089|997092|997095|997098|997117|997125|997126|997128|997131|997134|997135|997137|997165|997174|997179|997183|997213|",
+ "generated_at": "2026-11-13T05:48:10+00:00"
 }
