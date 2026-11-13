@@ -17,7 +17,7 @@
    "gap": 0.12
   },
   {
-   "say": "One. Jonas Salk made the polio vaccine. Now kids just run around. Ugh.",
+   "say": "One. Jonas Salk made the polio vaccine. Now kids just run around. Unbearable.",
    "gap": 0.22
   },
   {
@@ -82,8 +82,8 @@
     "title": "The *polio* vaccine",
     "who": "Jonas Salk, Jewish, 1955",
     "src": "Salk vaccine declared safe and effective, 1955",
-    "punch": "UGH.",
-    "punch_at": "L1:ugh",
+    "punch": "UNBEARABLE.",
+    "punch_at": "L1:unbearable",
     "emoji": "🙄"
    },
    {
@@ -287,20 +287,20 @@
    {
     "text": "Obviously, I'm *Jewish.*",
     "at": "L9",
-    "y": 800,
+    "y": 760,
     "size": 104
    },
    {
     "text": "And we'll keep doing *all of it.*",
     "at": "L10",
-    "y": 1010,
+    "y": 1075,
     "size": 84
    }
   ],
   "pill": {
    "text": "Part 2 on my profile",
    "at": "L10+1.4",
-   "y": 1250
+   "y": 1300
   }
  },
  "caption_en": "Satire. 8 reasons I “hate” the Jews 🙄\n\n1. The polio vaccine: Jonas Salk (Jewish), declared safe and effective in 1955.\n2. Rescue teams: Israel's search and rescue delegation pulled 19 people out alive after the Türkiye earthquake, Feb 2023 (Israel Defense Forces, via JNS).\n3. Modern drip irrigation: Simcha Blass and Netafim, Israel, 1965.\n4. Relativity: Albert Einstein (Jewish), 1905 and 1915. GPS clocks are corrected for it, or positions would drift about 10 km a day (Ashby, Physics Today, 2002).\n5. Waze: founded in Israel, 2008; bought by Google in 2013 (Reuters).\n6. The USB flash drive: M-Systems (Israel), US Patent 6,148,354, filed 1999.\n7. The camera pill: Given Imaging (Israel), FDA cleared 2001.\n8. Blue jeans: Levi Strauss and Jacob Davis, both Jewish immigrants, US Patent 139,121, 1873.\n\nObviously, I'm Jewish. And we'll keep doing all of it. 😉 Part 2 on my profile.\n\nPhotos via Wikimedia Commons: SAS Scandinavian Airlines (public domain); Israel Defense Forces (CC BY 2.0); Alan.ca (public domain); Ferdinand Schmutzer (public domain); Shixart1985 (CC BY 2.0, illustrative); Cjp24 (CC BY-SA 4.0); capsule endoscope (public domain); Levi Strauss and Co. ad (public domain). AI voice.",
