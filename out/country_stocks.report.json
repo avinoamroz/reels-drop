@@ -1,0 +1,130 @@
+{
+ "id": "country_stocks",
+ "account": "noamroz__",
+ "template": "gdp_stock",
+ "hook": "If countries were stocks:|*65* years",
+ "duration": 52.63,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/country_stocks.mp4",
+  "cover": "covers/country_stocks_cover.jpg",
+  "preview": "previews/country_stocks_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/country_stocks_0.jpg",
+  "1": "out/frames/country_stocks_1.jpg",
+  "3": "out/frames/country_stocks_3.jpg",
+  "last": "out/frames/country_stocks_last.jpg"
+ },
+ "caption_en": "CAPTION_IN_PAYLOAD",
+ "caption_he": "CAPTION_IN_PAYLOAD",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Economy"
+ ],
+ "sources": [
+  {
+   "label": "World Bank WDI, GDP per capita (current US$)",
+   "year": 2026,
+   "at": 1.2,
+   "until": "L6"
+  },
+  {
+   "label": "World Bank WDI, natural resource rents (latest 2021)",
+   "year": 2026,
+   "at": "L6",
+   "until": "L9"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.994,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "If countries were stocks, which one would you buy?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "GDP per person, 1960 to 2025.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then came oil, and the Gulf rockets.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Oil boom: Saudi Arabia hits twenty eight thousand dollars in 1981. Bust: nine thousand by 1988.",
+    "score": 0.964,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1987, Israel passes Saudi Arabia again, and stays above it every year since.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1960, an Israeli made nine times what an Egyptian made. Today, almost twenty times.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now take out the oil and gas.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq loses over forty percent. Saudi Arabia and Qatar, about a quarter. Israel, under half a percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Qatar and Israel end up neck and neck.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Empires got rich by taking. Oil states, by drilling.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel, like Singapore and Korea, had no oil. It had people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Drip irrigation, Waze, Mobileye, Iron Dome. Tech is now fifty eight percent of exports.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Something from nothing. Israel had no oil. It invested in people. Invest in Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "If countries were stocks, which one would you buy? GDP per person? 1960 to 2025. Then came oil, and the Gulf rockets. Oil boom. Saudi Arabia hits $28,000 in 1981. Bust 9,000 by 1988. In 1987, Israel passes Saudi Arabia again and stays above it every year since. In 1960, an Israeli made 9 times what an Egyptian made. Today, almost 20 times. Now take out the oil and gas. Iraq loses over 40 percent. Saudi Arabia and Qatar about a quarter. Israel under half a percent. Qatar and Israel end up neck and neck. Empires got rich by taking. Oil states by drilling. Israel, like Singapore and Korea, had no oil. It had people. Drip irrigation. Waze, Mobileye, Iron Dome. Tech is now 58 percent of exports. Something from nothing. Israel had no oil. It invested in people. Invest in Israel.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 139.3
+}
