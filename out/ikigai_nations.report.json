@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "ikigai",
  "hook": "Every country has an *ikigai.*",
- "duration": 70.37,
+ "duration": 61.47,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -1.8
  },
  "outputs": {
   "mp4": "out/ikigai_nations.mp4",
@@ -19,7 +19,7 @@
   "3": "out/frames/ikigai_nations_3.jpg",
   "last": "out/frames/ikigai_nations_last.jpg"
  },
- "caption_en": "Every country has an ikigai: what it loves, what it's good at, what the world needs, and what it gets paid for.\n\nSome call Israel a colonizer. It fails every circle. Israel gave back Sinai to Egypt (peace treaty 1979, withdrawal 1982): about 60,000 km², almost three times Israel's 22,072 km².\n\nWhat fits: research and tech. Israel spends 6.8% of GDP on R&D, the highest in the OECD (OECD MSTI, March 2026 release, 2024 data). High tech is 56.4% of Israel's exports (Israel Innovation Authority, 2024).\n\nThe neighbours, each with its own centre:\n🇸🇦 Saudi Arabia: energy. Oil is 73.1% of exports (GASTAT, 2024). Vision 2030 is building a non-oil economy.\n🇦🇪 UAE: the world's stopover. Dubai International is No. 1 for international passengers, 95.2M in 2025 (ACI World).\n🇪🇬 Egypt: history and the Suez Canal. A record 15.7M tourists in 2024 (Ministry of Tourism).\n🇹🇷 Türkiye: making things. Record $262B of exports in 2024 (Trade Ministry), plus TV dramas sold worldwide.\n🇯🇴 Jordan: hospitality. Petra, one of the New 7 Wonders (2007), and JD 7.2B tourism income in 2024 (Central Bank of Jordan).\n\nA country is what it builds, not what it's called.\n\nPhotos (Wikimedia Commons): Zvi Roger (CC BY 3.0); B.alotaby (CC BY-SA 4.0); Chris Olszewski (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); SegLig (CC BY 4.0); Vyacheslav Argenberg (CC BY 4.0). AI voice.\nSend this to someone who builds.",
+ "caption_en": "Every country has an ikigai: what it loves, what it's good at, what the world needs, and what it gets paid for.\n\nSome call Israel a colonizer. It fails every circle. Israel gave back Sinai to Egypt (peace treaty 1979, withdrawal 1982): about 60,000 km², almost three times Israel's 22,072 km².\n\nWhat fits: research and tech. Israel spends 6.8% of GDP on R&D, the highest in the OECD (OECD MSTI, March 2026 release, 2024 data). High tech is 56.4% of Israel's exports (Israel Innovation Authority, 2024).\n\nThe neighbours, each with its own centre:\n🇸🇦 Saudi Arabia: energy. Oil is 73.1% of exports (GASTAT, 2024). Vision 2030 is building a non-oil economy.\n🇦🇪 UAE: the world's stopover. Dubai International is No. 1 for international passengers, 95.2M in 2025 (ACI World).\n🇪🇬 Egypt: history and the Suez Canal. A record 15.7M tourists in 2024 (Ministry of Tourism).\n🇹🇷 Türkiye: making things. Record $262B of exports in 2024 (Trade Ministry).\n🇯🇴 Jordan: hospitality. Petra, one of the New 7 Wonders (2007), and JD 7.2B tourism income in 2024 (Central Bank of Jordan).\n\nA country is what it builds, not what it's called.\n\nPhotos (Wikimedia Commons): Zvi Roger (CC BY 3.0); B.alotaby (CC BY-SA 4.0); Chris Olszewski (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); SegLig (CC BY 4.0); Vyacheslav Argenberg (CC BY 4.0). AI voice.\nSend this to someone who builds.",
  "caption_he": "לכל מדינה יש איקיגאי: מה היא אוהבת, במה היא טובה, מה העולם צריך, ועל מה משלמים לה.\nיש מי שקורא לישראל \"קולוניאליסטית\". זה נכשל בכל עיגול: ישראל החזירה את סיני, כמעט פי שלושה מגודלה.\nמה כן מתאים: מחקר וטכנולוגיה. 6.8% מהתוצר הולכים למו\"פ, המקום הראשון ב־OECD. ההייטק הוא 56% מהיצוא.\nולשכנות יש מרכז משלהן: סעודיה, אנרגיה. האמירויות, תחנת המעבר של העולם. מצרים, היסטוריה ותעלת סואץ. טורקיה, תעשייה. ירדן, הכנסת אורחים ופטרה.\nמדינה היא מה שהיא בונה, לא איך שקוראים לה.",
  "hashtags": [
   "#Israel",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.977,
+  "score": 0.961,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -97,7 +97,7 @@
    },
    {
     "line": "Love it? Israelis can't agree on a government, never mind an empire.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -107,7 +107,7 @@
    },
    {
     "line": "World needs it? No. Paid for it? No.",
-    "score": 0.875,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -116,44 +116,44 @@
     "flag": "ok"
    },
    {
-    "line": "What fits? Research. Six point eight percent of GDP, number one in the OECD.",
+    "line": "Research fits: six point eight percent of GDP, top of the OECD.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Tech is fifty six percent of exports. Israel's ikigai: building things.",
+    "line": "Tech: fifty six percent of exports. Israel's ikigai: building things.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia: energy. Oil is seventy three percent of exports.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The UAE: the world's stopover. Busiest international airport on Earth.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt: history and the Suez Canal. Fifteen point seven million tourists.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey: making things. Two hundred sixty two billion dollars of exports.",
     "score": 0.909,
     "flag": "ok"
    },
    {
-    "line": "Saudi Arabia: energy. The world needs it and pays: oil is seventy three percent of exports.",
+    "line": "Jordan: hospitality. Petra, a world wonder, and over seven billion dinars in tourism.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "The UAE: the world's stopover. Dubai, the busiest international airport on Earth.",
+    "line": "Different circles, different centers.",
     "score": 1.0,
     "flag": "ok"
-   },
-   {
-    "line": "Egypt: history and the Suez Canal. A record fifteen point seven million tourists.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Turkey: making things. Two hundred sixty two billion dollars of exports, plus TV dramas.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Jordan: hospitality. Petra, a wonder of the world, and over seven billion dinars from tourism.",
-    "score": 0.933,
-    "flag": "ok"
-   },
-   {
-    "line": "Different circles, different centres.",
-    "score": 0.75,
-    "flag": "MISS"
    },
    {
     "line": "A country is what it builds, not what it's called.",
@@ -162,21 +162,21 @@
    },
    {
     "line": "Israel? Still building.",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.667,
+    "flag": "MISS"
    }
   ],
-  "heard": "Every country has an Ikigai. What you love? What you're good at? What the world needs? What pays? Some call Israel a colonizer. Drop it in. Love it? Israelis can't agree on a government. Never mind an empire. Good at it? Israel gave back Sinai almost three times its size. World needs it? No. Paid for? No. Not our Ikigai. What fits? Research. 6.8% of GDP. Number one in the OECD. Tech is 56% of exports. Israel's Ikegaon. Building things. Saudi Arabia. Energy. The world needs it and pays. Oil is 73% of exports. The UAE. The world's stopover. Dubai. The busiest international airport on earth. Egypt. History and the Suez Canal. A record 15.7 million tourists. Turkey. Making things. 262 billion dollars of exports plus TV dramas. Jordan. Hospitality. Petra. A wonder of the world. And over seven billion denars from tourism. Different circles, different centers. A country is what it builds, not what it's called. Israel? Still building.",
+  "heard": "Every country has an Ikigai. What you love, what you're good at, what the world needs, what pays. Some call it Israel a colonizer. Drop it in. Love it? Israelis can't agree on a government. Nevermind an empire. Good at it? Israel gave back Sinai almost three times its size. World needs it? No. Paid for it? No. Not our Ikigai. Research fits. 6.8% of GDP. Top of the OECD. Tech. 56% of exports. Israel's Iqigai, building things. Saudi Arabia, energy. Oil is 73% of exports. The UAE, the world's south over. Busiest international airport on earth, Egypt. History and the Suez Canal. 15.7 million tourists. Turkey, making things. $262 billion of exports. Jordan, hospitality. Petra, a world wonder, and over seven billion dinars in tourism. Different circles, different centers. The country is what it builds, not what it's called. Israel? Still go.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -1.8
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 135.2
+ "render_s": 117.6
 }
