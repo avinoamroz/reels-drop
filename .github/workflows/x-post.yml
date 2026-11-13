@@ -42,7 +42,7 @@ jobs:
           queue,_ = get("posting/x_queue.json"); queue = queue or []
           posted, psha = get("posting/x_posted.json"); posted = posted or {}
           now = datetime.datetime.now(datetime.timezone.utc)
-          due = [q for q in queue if q["id"] not in posted and datetime.datetime.fromisoformat(q["due"]) <= now]
+          due = [q for q in queue if "tweet_id" not in posted.get(q["id"], {}) and datetime.datetime.fromisoformat(q["due"]) <= now]
           print(f"{len(due)} due")
           if not due: raise SystemExit
           if os.environ.get("DRY_RUN") == "true":
