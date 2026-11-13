@@ -146,7 +146,7 @@
   "photos": [
    {
     "file": "templates/photos/me_christians_race/map_open.jpg",
-    "credit": "Map: Natural Earth (PD)",
+    "credit": "Natural Earth map (PD)",
     "kb": [
      0.38,
      0.575,
@@ -236,7 +236,7 @@
    },
    {
     "file": "templates/photos/me_christians_race/map_open.jpg",
-    "credit": "Map: Natural Earth (PD)",
+    "credit": "Natural Earth map (PD)",
     "kb": [
      0.38,
      0.575,
@@ -337,7 +337,7 @@
   "#MiddleEast"
  ],
  "cover": {
-  "t": 24.0,
+  "t": 62.3,
   "text": "Bethlehem: *86%* Christian.|Now *12%.*"
  }
 }
