@@ -1,6 +1,136 @@
 {
-  "id": "fertility_stock",
-  "status": "FAILED",
-  "run": "43393185004",
-  "log": ""
+ "id": "fertility_stock",
+ "account": "noamroz__",
+ "template": "fert_stock",
+ "hook": "Since *1990:*|only *1* line up",
+ "duration": 59.9,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/fertility_stock.mp4",
+  "cover": "covers/fertility_stock_cover.jpg",
+  "preview": "previews/fertility_stock_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/fertility_stock_0.jpg",
+  "1": "out/frames/fertility_stock_1.jpg",
+  "3": "out/frames/fertility_stock_3.jpg",
+  "last": "out/frames/fertility_stock_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "World Bank WDI, fertility rate (births per woman)",
+   "year": 2026,
+   "at": 1.2,
+   "until": "L11"
+  },
+  {
+   "label": "Taub Center, Weinreb, Chernichovsky, Brill",
+   "year": 2018,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "Taub Center, Why are there so many children in Israel?",
+   "year": 2019,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.944,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Since nineteen ninety, only one of these lines went up.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Babies per woman, traded like a stock.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Europe first. In nineteen sixty, about two and a half.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Then it slides. Spain, one point one. Italy, one point two. Germany, one point four.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel? Down from almost four, then flat near three.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the Middle East.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia, Iran, Syria and Jordan started above seven. Then a long fall.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Emirates, one point two. Turkey, one and a half. Iran, one point seven.",
+    "score": 0.786,
+    "flag": "MISS"
+   },
+   {
+    "line": "Even Egypt and Jordan are now below Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The watchlist since nineteen ninety: sixteen red arrows, one green.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel, up almost two percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Why? The Taub Center finds a strong family culture at every level of religion.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Even secular and traditional Israelis average over two kids.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A rich, modern country, still investing in the future.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seventeen countries. Which line would you buy?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Since 1990, only one of these lines went up. Babies per woman, traded like a stock. Europe first. In 1960, about two and a half. Then it slides. Spain, 1.1. Italy, 1.2. Germany, 1.4. Israel, down from almost four. Then flat near three. Now the Middle East. Saudi Arabia, Iran. Syria and Jordan started above seven. Then a long fall. The Emirates, 1.2. Turkey, 1.5. Iran, 1.7. Even Egypt and Jordan are now below Israel. The watch list, since 1990. 16 red arrows, 1 green. Israel, up almost 2%. Why? The top center finds a strong family culture at every level of religion. Even secular and traditional Israelis average over 2 kids. A rich, modern country, still investing in the future. 17 countries. Which line would you buy?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 138.3
 }
