@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "pop_stock",
  "hook": "Genocide?|Check the *chart.*",
- "duration": 66.03,
+ "duration": 57.43,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/genocide_stock_v2.mp4",
@@ -31,54 +31,54 @@
    "label": "Israel CBS, Statistical Abstract 2024; Independence Day release",
    "year": 2026,
    "at": "L1",
-   "until": "L3-0.1"
-  },
-  {
-   "label": "1967: Israel CBS census; PCBS censuses 1997 to 2017; PCBS end 2025",
-   "year": 2025,
-   "at": "L3",
    "until": "L4-0.1"
   },
   {
-   "label": "1967: Israel CBS census; PCBS mid 2023 and end 2025 estimates",
+   "label": "1967: Israel CBS census; PCBS censuses 1997 to 2017; PCBS end 2025",
    "year": 2025,
    "at": "L4",
    "until": "L6-0.1"
   },
   {
-   "label": "Israel CBS 2025; Jerusalem Institute (JIPR) 2023; PCBS end 2025; 1950: UNCTAD",
+   "label": "1967: Israel CBS census; PCBS mid 2023 and end 2025 estimates",
    "year": 2025,
    "at": "L6",
-   "until": "L7-0.1",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Israel CBS 2025; Jerusalem Institute (JIPR) 2023; PCBS end 2025; 1950: UNCTAD",
+   "year": 2025,
+   "at": "L10",
+   "until": "L13-0.1",
    "y": 1500
   },
   {
    "label": "Gaza Ministry of Health via UN OCHA, 4 Nov 2026 (children: 7 Oct 2026)",
    "year": 2026,
-   "at": "L7",
-   "until": "L9-0.1"
+   "at": "L13",
+   "until": "L16-0.1"
   },
   {
    "label": "UN Genocide Convention, Art. II",
    "year": 1948,
-   "at": "L9:genocide",
-   "until": "L10-0.1"
+   "at": "L18:genocide",
+   "until": "L19-0.1"
   },
   {
    "label": "International Court of Justice (ICJ), South Africa v. Israel, order of 21 May 2026",
    "year": 2026,
-   "at": "L10",
-   "until": "L11-0.1"
+   "at": "L19",
+   "until": "L20-0.1"
   },
   {
    "label": "1950: UNCTAD; 1967: Israel CBS census; then CBS, JIPR, PCBS",
    "year": 2025,
-   "at": "L11",
-   "until": "L12-0.1"
+   "at": "L20",
+   "until": "L22-0.1"
   }
  ],
  "transcript": {
-  "score": 0.904,
+  "score": 0.934,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -92,29 +92,59 @@
     "flag": "ok"
    },
    {
-    "line": "Today? Over two million. Lawmakers. Whole cities.",
+    "line": "Today? Over two million.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "West Bank: six hundred thousand in nineteen sixty-seven. Now, three point four million.",
-    "score": 0.929,
-    "flag": "ok"
-   },
-   {
-    "line": "Gaza. Three hundred fifty-six thousand. By twenty twenty-three, two point two million.",
-    "score": 0.929,
-    "flag": "ok"
-   },
-   {
-    "line": "Then came the war. And the line turned red.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Gaza fell about four percent. All together? Still rising: about a hundred fifty thousand more since twenty twenty-three.",
-    "score": 0.789,
+    "line": "Lawmakers. Whole cities.",
+    "score": 0.667,
     "flag": "MISS"
+   },
+   {
+    "line": "West Bank: six hundred thousand in nineteen sixty-seven.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Now, three point four million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza. Three hundred fifty-six thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By twenty twenty-three, two point two million.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Then came the war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the line turned red.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza fell about four percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "All together?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Still rising: about a hundred fifty thousand more since twenty twenty-three.",
+    "score": 0.833,
+    "flag": "ok"
    },
    {
     "line": "Gaza's Health Ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>, counts over seventy-four thousand dead, without splitting civilians from fighters.",
@@ -122,12 +152,27 @@
     "flag": "ok"
    },
    {
-    "line": "About twenty-two thousand were children. That pain is real.",
+    "line": "About twenty-two thousand were children.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Is a chart the legal test? No. Genocide means intent to destroy a group.",
+    "line": "That pain is real.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Is a chart the legal test?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "No.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Genocide means intent to destroy a group.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -137,12 +182,22 @@
     "flag": "ok"
    },
    {
-    "line": "All together: one point two million in nineteen fifty, seven point three million today. Not a people being wiped out.",
-    "score": 0.75,
-    "flag": "MISS"
+    "line": "All together: one point two million in nineteen fifty, seven point three million today.",
+    "score": 0.929,
+    "flag": "ok"
    },
    {
-    "line": "Gaza's war is a tragedy. Judge the word by its definition.",
+    "line": "Not a people being wiped out.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza's war is a tragedy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Judge the word by its definition.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -152,14 +207,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Genocide? Check the chart. 1948, 156,000 Arabs stayed in Israel. Today, over 2 million. Lawmakers. Whole cities. West Bank, 600,000 in 1967. Now 3.4 million. Gaza. 356,000. By 2023, 2.2 million. Then came the war. And the line turned red. Gaza fell about 4%. Altogether. Still rising. About 150,000 more since 2023. Gaza's health ministry, run by Hamas, counts over 74,000 dead without splitting civilians from fighters. About 22,000 were children. That pain is real. Is a chart the legal test? No. Genocide means intent to destroy a group. The International Court of Justice is still hearing that case altogether. 1.2 million in 1950, 7.3 million today. people being wiped out. Gaza's war is a tragedy. Judge the word by its definition. Genocide. Check the chart.",
+  "heard": "Genocide? Check the chart! 1948, 156,000 Arabs stayed in Israel. Today? Over 2 million. Lawmakers. Full cities. West Bank, 600,000 in 1967. Now 3.4 million. Gaza, 356,000. By 2023, 2.2 million. Then came the war. And the line turned red. Gaza fell about 4%. All together, still rising. About 150,000 more since 2023. Gaza's health ministry, run by Hamas, counts over 74,000 dead without splitting civilians from fighters. About 22,000 were children. That pain is real. Is a chart the legal test? No. Genocide means intent to destroy a group. The International Court of Justice is still hearing that case. Altogether, 1.2 million in 1950, 7.3 million today. Not a people being wiped out. Gaza's war is a tragedy. Judge the word by its definition. Genocide? Check the chart.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "photos": [
   {
@@ -186,5 +241,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 97.7
+ "render_s": 83.6
 }
