@@ -1,0 +1,155 @@
+{
+ "id": "christians_stock",
+ "account": "noamroz__",
+ "template": "stock_chart",
+ "hook": "*5* Christian stocks:|*buy* or *sell?*",
+ "duration": 54.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/christians_stock.mp4",
+  "cover": "covers/christians_stock_cover.jpg",
+  "preview": "previews/christians_stock_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/christians_stock_0.jpg",
+  "1": "out/frames/christians_stock_1.jpg",
+  "3": "out/frames/christians_stock_3.jpg",
+  "last": "out/frames/christians_stock_last.jpg"
+ },
+ "caption_en": "CAPTION_IN_PAYLOAD",
+ "caption_he": "CAPTION_IN_PAYLOAD",
+ "hashtags": [
+  "#Israel",
+  "#Christians",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "US State Dept religious freedom reports, 2019 and 2023",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Al Jazeera",
+   "year": 2014,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "US State Dept 2023, citing Open Doors / World Christian Database",
+   "year": 2023,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Human Rights Watch 1992; US State Dept 2023",
+   "year": 2023,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Censuses 1922, 1931, 1945, 1967; 2017 est. (12% of 28,591)",
+   "year": 2017,
+   "at": "L6:about",
+   "until": "L7"
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": 2025,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "US State Dept, HRW, censuses, Israel CBS",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "AFP via Arab News",
+   "year": 2023,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.982,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "If Christians were stocks, would you buy?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq: one and a half million Christians before 2003.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, fewer than one hundred fifty thousand. Down ninety percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2014, ISIS, the Islamic State group, took Mosul and told Christians: convert, pay, or die.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria: two point two million before the war. About five hundred eighty thousand by 2023.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey: about one hundred ten thousand Greek Orthodox in 1923. Fewer than two thousand five hundred today.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Bethlehem, where Christmas began: about six thousand Christians for decades. Now, roughly half that.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirty six thousand Christians in 1950. One hundred eighty four thousand today. Up every single decade.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Of these five charts, only one line is green.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, Middle East Christians: buy or sell?",
+    "score": 0.714,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "If Christians were stocks, would you buy? Iraq. One and a half million Christians before 2003. Today, fewer than 150,000. Down 90%. In 2014, ISIS, the Islamic State Group, took Mosul and told Christians, convert, pay, or die. Syria, 2.2 million before the war. About 580,000 by 2023. Turkey, about 110,000 Greek Orthodox in 1923. Fewer than 2,500 today. Bethlehem, where Christmas began, about 6,000 Christians for decades. Now roughly half that. In Israel, 36,000 Christians in 1950, 184,000 today, of every single decade. Of these five charts, only one line is green. Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration. So, Middle East Christians, buy yourself.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 119.8
+}
