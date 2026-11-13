@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "chem_lab",
  "hook": "How to neutralise|a *radical.* Chemistry.",
- "duration": 60.3,
+ "duration": 59.83,
  "audio": {
   "lufs": -16.1,
   "true_peak": -1.7
@@ -96,7 +96,7 @@
    },
    {
     "line": "Extremists work the same way. And most Muslims reject them.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -141,7 +141,7 @@
    },
    {
     "line": "The UAE: Hedayah, a centre against extremism, since twenty twelve.",
-    "score": 0.7,
+    "score": 0.6,
     "flag": "MISS"
    },
    {
@@ -161,16 +161,16 @@
    },
    {
     "line": "Give the radical what he's missing, and the reaction stops.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
     "line": "That's how you neutralise a radical.",
-    "score": 0.667,
-    "flag": "MISS"
+    "score": 0.833,
+    "flag": "ok"
    }
   ],
-  "heard": "How do you neutralize a radical? Chemistry. A free radical has one unpaired electron, so it's unstable. It roams around, damaging whatever it touches. Extremists work the same way, and most Muslims reject it. Pew, 2015, 11 countries with large Muslim populations. No country had more than 15% viewing ISIS, the Islamic State, favorably. Someone screams. Kill the Jews. Clearly. He's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing letter. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007. The UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities. And schools, Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals, same chemistry for all. Give the radical what he's missing, and the reaction stops. That's how you neutralize a wrap.",
+  "heard": "How do you neutralize a radical? Chemistry. A free radical has one unpaired electron, so it's unstable. It roams around, damaging whatever it touches. Extremists work the same way, and most Muslims reject them. Pew, 2015, 11 countries, with large Muslim populations. No country had more than 15% viewing ISIS, the Islamic State, favorably, so someone screams. Kill the Jews. Clearly, he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electorate. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007. The UAE, Hidaya, the center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities. And schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Give the radical what he's missing, and reaction stops. That's how you neutralize a radical.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -180,21 +180,21 @@
   "true_peak": -1.7
  },
  "phases": {
-  "beaker": 20.64,
-  "splash": 26.72,
-  "give": 30.2,
+  "beaker": 20.59,
+  "splash": 26.67,
+  "give": 30.05,
   "tiles": [
-   31.59,
-   35.89,
-   39.47,
-   43.99,
-   48.77
+   31.45,
+   35.74,
+   39.32,
+   43.84,
+   48.62
   ],
-  "end": 60.29
+  "end": 59.84
  },
  "lint_warnings": [
   "hook has no number",
   "source without year: City of Aarhus"
  ],
- "render_s": 113.5
+ "render_s": 110.6
 }
