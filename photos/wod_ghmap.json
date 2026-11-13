@@ -1,0 +1,6 @@
+{
+ "name": "wod_ghmap",
+ "url": "https://commons.wikimedia.org/wiki/File:Syria_-_Damascus_Areas_of_Influence_and_Areas_Reportedly_Affected_by_21_August_2013_Chemical_Attack.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}

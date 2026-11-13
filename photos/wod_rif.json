@@ -1,0 +1,6 @@
+{
+ "name": "wod_rif",
+ "url": "https://commons.wikimedia.org/wiki/File:Despedida_de_un_soldado_camino_a_la_guerra_del_Rif._Puerto_de_Pasajes_1921.jpg",
+ "ok": false,
+ "error": "KeyError: 'imageinfo'"
+}
