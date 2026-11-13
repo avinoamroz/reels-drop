@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*4* empires taxed|the conquered. *Israel?*",
- "duration": 76.13,
+ "duration": 60.8,
  "audio": {
   "lufs": -16.1,
   "true_peak": -2.0
@@ -30,88 +30,133 @@
   {
    "label": "Archaeology magazine: Roman taxes",
    "year": 2021,
-   "at": "L1",
-   "until": "L2"
+   "at": "L2",
+   "until": "L5"
   },
   {
    "label": "Britannica; Encyclopedia of the Modern Middle East",
    "year": 1856,
-   "at": "L2",
-   "until": "L3"
+   "at": "L5",
+   "until": "L7"
   },
   {
    "label": "Reuters: ISIS ultimatum, Mosul",
    "year": 2014,
-   "at": "L3",
-   "until": "L4"
+   "at": "L7",
+   "until": "L10"
   },
   {
    "label": "Utsa Patnaik's estimate, with interest; disputed",
    "year": 2017,
-   "at": "L4",
-   "until": "L5"
+   "at": "L10",
+   "until": "L13"
   },
   {
    "label": "Britannica; Debora Silverman, e-flux",
    "year": 2024,
-   "at": "L5",
-   "until": "L6"
+   "at": "L13",
+   "until": "L15"
   },
   {
    "label": "National Health Insurance Law; Tax Authority",
    "year": 1994,
-   "at": "L8",
-   "until": "L10"
+   "at": "L17",
+   "until": "L23"
   },
   {
    "label": "Gov. Resolutions 922 and 550",
    "year": 2021,
-   "at": "L10",
-   "until": "L11"
+   "at": "L23",
+   "until": "L25"
   },
   {
    "label": "Bank of Israel research paper",
    "year": 2024,
-   "at": "L11",
-   "until": "L12"
+   "at": "L25",
+   "until": "L27"
   }
  ],
  "transcript": {
-  "score": 0.971,
+  "score": 0.964,
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "Four empires taxed the conquered. And Israel?",
+    "line": "Four empires taxed the conquered.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Rome. Citizens in Italy stopped paying tribute. The conquered provinces paid.",
+    "line": "And Israel?",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "The Ottoman Empire, like the caliphates before it: the jizya. A head tax only non-Muslims paid.",
+    "line": "Rome.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Gone by eighteen fifty six. Then ISIS, the Islamic State, revived it. Mosul, twenty fourteen.",
-    "score": 0.867,
-    "flag": "ok"
-   },
-   {
-    "line": "British India. Indian taxes paid for goods shipped to Britain. One estimate: forty five trillion dollars.",
-    "score": 0.938,
-    "flag": "ok"
-   },
-   {
-    "line": "Belgium's King Leopold: rubber quotas in the Congo, enforced with beatings. His Congo wealth built monuments in Brussels.",
+    "line": "Citizens in Italy stopped paying tribute.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Every time, the money flows out. To the capital.",
+    "line": "The conquered provinces paid.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Ottomans, like the caliphates before them: the jizya.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A head tax only non-Muslims paid.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gone by eighteen fifty six.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Then ISIS, the Islamic State, revived it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Mosul, twenty fourteen.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "British India.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Indian taxes paid for goods shipped to Britain.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One estimate: forty five trillion dollars.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Belgium's King Leopold: Congo rubber quotas, enforced with beatings.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "His Congo wealth built monuments in Brussels.",
+    "score": 0.714,
+    "flag": "MISS"
+   },
+   {
+    "line": "The money flows out, to the capital.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -121,27 +166,67 @@
     "flag": "ok"
    },
    {
-    "line": "Same income tax. Same VAT. No special tax.",
+    "line": "Same income tax.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Same national health insurance. Same benefits. Same vote.",
+    "line": "Same VAT.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "And the money flows in. Five year plans for Arab towns: fifteen billion shekels, then thirty.",
-    "score": 0.938,
-    "flag": "ok"
-   },
-   {
-    "line": "Not all of it was spent. The gaps are real, says Israel's central bank.",
+    "line": "No special tax.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "If this is colonizing, it's a strange empire. Less tribute. More home improvement.",
+    "line": "Same national health insurance.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same benefits.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same vote.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the money flows in.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five year plans for Arab towns: fifteen billion shekels, then thirty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not all of it was spent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The gaps are real, says Israel's central bank.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If this is colonizing, it's a strange empire.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Less tribute.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "More home improvement.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -151,22 +236,27 @@
     "flag": "ok"
    },
    {
-    "line": "Because four empires taxed the conquered. And Israel?",
-    "score": 0.875,
+    "line": "Because four empires taxed the conquered.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel?",
+    "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "Four empires taxed the conquered, and Israel, Rome. Citizens in Italy stopped paying tribute. The conquered provinces paid. The Ottoman Empire, like the Caliphates before it, the Jizya, a head tax only non-Muslims paid. Gone by 1856. Then ISIS, the Islamic State, revived it. Mosul, 2014, British India. Indian taxes paid for goods shipped to Britain. One estimate, $45 trillion. Belgium's King Leopold, rubber quotas in the Congo enforced with beatings. His Congo wealth built monuments in Brussels every time the money flows out to the capital. Now Israel and its Arab citizens. Same income tax, same VAT. No special tax. Same national health insurance. Same benefits. Same vote. And the money flows in. year plans for Arab towns? 15 billion shekels. Then 30. Not all of it was spent. The gaps are real, says Israel's central bank. If this is colonizing, it's a strange empire. Less tribute. More home improvement. Send this to someone who says colonizer, because four empires tax the conquered. And Israel?",
+  "heard": "Four empires taxed the conquered, and Israel, Rome. Citizens in Italy stopped paying tribute. The conquered provinces paid. The Ottomans, like the Caliphates before them, the Jizya. A head tax only non-Muslims paid. Gone by 1856. Then ISIS, the Islamic State, revived it. Mosul, 2014, British India. Indian taxes paid for goods shipped to Britain. One estimate, $45 trillion. Belgium's King Leopold. Congo rubber quotas enforced with beatings. As Congo wealth built monuments and Brussels, the money flows out to the capital. Now Israel and its Arab citizens, same income tax, same VAT, no special tax, same national health insurance, same benefits, same vote. And the money flows in. Five-year plans for Arab towns, 15 billion shekels. Then 30, not all of it was spent. The gaps are real, says Israel's central bank. If this is colonizing, it's a strange empire. Less tribute, more home improvement. Send this to someone who says colonizer, because four empires tax the concrete, and Israel.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 76.13,
+ "body_s": 60.79,
  "opener": null,
  "mix": {
   "lufs": -16.1,
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 188.4
+ "render_s": 159.1
 }
