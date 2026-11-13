@@ -1,0 +1,313 @@
+{
+ "id": "radicals_chemistry",
+ "account": "noamroz__",
+ "template": "chem_lab",
+ "hook": "How to neutralise|a *radical.* Chemistry.",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "How do you neutralise a radical? Chemistry.",
+   "gap": 0.2
+  },
+  {
+   "say": "A free radical has one unpaired electron.",
+   "gap": 0.15
+  },
+  {
+   "say": "So it's unstable. It roams around and damages whatever it touches.",
+   "gap": 0.2
+  },
+  {
+   "say": "Extremists work the same way. And most Muslims reject them.",
+   "gap": 0.15
+  },
+  {
+   "say": "Pew, twenty fifteen, eleven countries with large Muslim populations:",
+   "gap": 0.1
+  },
+  {
+   "say": "in none did more than fifteen percent view ISIS, the Islamic State, favourably.",
+   "gap": 0.25
+  },
+  {
+   "say": "So when someone screams: Kill the Jews,",
+   "gap": 0.1
+  },
+  {
+   "say": "clearly, he's missing an electron.",
+   "gap": 0.3
+  },
+  {
+   "say": "Step one: cool the reaction.",
+   "gap": 0.6,
+   "screen": "Step 1: *cool* the reaction",
+   "at": "L8"
+  },
+  {
+   "say": "Step two: antioxidants. They donate the missing electron.",
+   "gap": 0.25,
+   "screen": "Step 2: *antioxidants*",
+   "at": "L9",
+   "until": "L10-0.2"
+  },
+  {
+   "say": "Saudi Arabia: a rehab centre for terror convicts, since two thousand four.",
+   "gap": 0.15
+  },
+  {
+   "say": "Denmark: the Aarhus exit programme, since two thousand seven.",
+   "gap": 0.15
+  },
+  {
+   "say": "The UAE: Hedayah, a global centre against extremism, since twenty twelve.",
+   "gap": 0.15
+  },
+  {
+   "say": "Twenty sixteen: hundreds of Muslim scholars sign the Marrakesh Declaration, for religious minorities.",
+   "gap": 0.15
+  },
+  {
+   "say": "And schools: Saudi textbooks dropped most antisemitism by twenty twenty-three.",
+   "gap": 0.25
+  },
+  {
+   "say": "Every group has its radicals. Same chemistry for all.",
+   "gap": 0.15
+  },
+  {
+   "say": "Give the radical what he's missing, and the reaction stops.",
+   "gap": 0.2
+  },
+  {
+   "say": "That's how you neutralise a radical."
+  }
+ ],
+ "data": {
+  "label_at": "L1:one",
+  "label_until": "L3",
+  "zap_until": "L3",
+  "photos": [
+   {
+    "file": "templates/photos/radicals_chemistry/lab.jpg",
+    "at": 0.0,
+    "until": "L3-0.2",
+    "credit": "Photo: ElNokko, CC BY-SA 4.0",
+    "dim": 0.3,
+    "kb": [
+     0.6,
+     0.45,
+     1.0,
+     0.62,
+     0.5,
+     1.15
+    ]
+   }
+  ],
+  "stat": {
+   "at": "L3:most",
+   "until": "L5e+0.3",
+   "top": "No country *above*",
+   "value": 15,
+   "suffix": "%",
+   "sub": "viewed ISIS favourably (11 countries)"
+  },
+  "beaker_at": "L6",
+  "beaker_label": "EXTREMISM",
+  "bubble": {
+   "at": "L6:kill",
+   "until": "L7:missing",
+   "text": "Kill the Jews!"
+  },
+  "missing": {
+   "at": "L7:missing",
+   "until": "L8+0.3",
+   "text": "Missing: 1 electron"
+  },
+  "splash_at": "L8+0.1",
+  "donor_at": "L9:antioxidants",
+  "give_at": "L9:donate",
+  "tiles": [
+   {
+    "at": "L10",
+    "num": 1,
+    "sym": "Rh",
+    "name": "Rehab",
+    "year": 2004,
+    "line": "Saudi Arabia: rehab for *terror convicts*",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/riyadh.jpg",
+     "credit": "Photo: B.alotaby, CC BY-SA 4.0",
+     "kb": [
+      0.75,
+      0.45,
+      1.0,
+      0.7,
+      0.45,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L11",
+    "num": 2,
+    "sym": "Ex",
+    "name": "Exit",
+    "year": 2007,
+    "line": "Denmark: the *Aarhus* exit programme",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/aarhus.jpg",
+     "credit": "Photo: Ciara Ní Riain, CC BY-SA 4.0",
+     "kb": [
+      0.55,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L12",
+    "num": 3,
+    "sym": "Hd",
+    "name": "Hedayah",
+    "year": 2012,
+    "line": "UAE: *Hedayah* centre, Abu Dhabi",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/abudhabi.jpg",
+     "credit": "Photo: Sabithnav, CC BY-SA 4.0",
+     "kb": [
+      0.6,
+      0.4,
+      1.0,
+      0.65,
+      0.4,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L13",
+    "num": 4,
+    "sym": "Cl",
+    "name": "Clerics",
+    "year": 2016,
+    "line": "The *Marrakesh* Declaration",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/marrakesh.jpg",
+     "credit": "Photo: Najibelfatimi, CC BY-SA 4.0",
+     "kb": [
+      0.47,
+      0.3,
+      1.0,
+      0.47,
+      0.28,
+      1.15
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L14",
+    "num": 5,
+    "sym": "Ed",
+    "name": "Education",
+    "year": 2023,
+    "line": "Saudi textbooks: antisemitism *mostly removed*",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/books.jpg",
+     "credit": "Photo: John Liu, CC BY 2.0",
+     "kb": [
+      0.4,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   }
+  ],
+  "tiles_until": "L15",
+  "hook_back": "L17"
+ },
+ "sources": [
+  {
+   "label": "Lobo et al., Pharmacognosy Reviews",
+   "year": 2010,
+   "at": "L1",
+   "until": "L2e"
+  },
+  {
+   "label": "Pew Research Center",
+   "year": 2015,
+   "at": "L3:most",
+   "until": "L5e"
+  },
+  {
+   "label": "Times of Israel (AFP)",
+   "year": 2017,
+   "at": "L10",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "City of Aarhus",
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "UK Foreign Office, GCTF launch",
+   "year": 2012,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "Marrakesh Declaration",
+   "year": 2016,
+   "at": "L13",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "IMPACT-se textbook review",
+   "year": 2023,
+   "at": "L14",
+   "until": "L15-0.1"
+  },
+  {
+   "label": "Europol TE-SAT: separatist, left, right, jihadist attacks",
+   "year": 2024,
+   "at": "L15",
+   "until": "L16e"
+  }
+ ],
+ "end": {
+  "at": "L15",
+  "balance": "Every group has its *radicals.*",
+  "cta": "Send this to a *chemistry* nerd"
+ },
+ "caption_en": "How do you neutralise a radical? Chemistry. 🧪\n\nA free radical has one unpaired electron, so it is unstable and damages whatever it touches. An antioxidant fixes it by donating the missing electron.\n\nExtremists work the same way, and they are a small minority: in Pew's 2015 survey of 11 countries with large Muslim populations, in no country did more than 15% view ISIS, the Islamic State, favourably.\n\nThe real antioxidants, many led by Muslim majority states and Muslim scholars:\nRh: Saudi Arabia's rehab centre for terror convicts (since 2004)\nEx: Denmark's Aarhus exit programme (since 2007)\nHd: Hedayah, the UAE's global centre against violent extremism (2012)\nCl: the Marrakesh Declaration on the rights of religious minorities, signed by hundreds of Muslim scholars (2016)\nEd: Saudi school textbooks, most antisemitism removed (IMPACT-se, 2023)\n\nEvery group has its radicals. Same chemistry for all.\nSend this to a chemistry nerd.",
+ "caption_he": "איך מנטרלים רדיקל? כימיה. 🧪\nלרדיקל חופשי יש אלקטרון אחד לא מזווג, ולכן הוא לא יציב ופוגע בכל מה שהוא נוגע בו. נוגד חמצון מייצב אותו כשהוא תורם לו את האלקטרון החסר.\nקיצונים עובדים אותו דבר, והם מיעוט קטן: בסקר Pew משנת 2015 ב־11 מדינות עם אוכלוסייה מוסלמית גדולה, באף מדינה לא יותר מ־15% ראו את דאעש בעין יפה.\nנוגדי החמצון האמיתיים, רבים מהם בהובלת מדינות מוסלמיות וחכמי דת מוסלמים: מרכז השיקום הסעודי לאסירי טרור (מאז 2004), תוכנית היציאה של אורהוס בדנמרק (מאז 2007), מרכז הדאיה באבו דאבי נגד קיצוניות (2012), הצהרת מרקש על זכויות מיעוטים דתיים (2016), וספרי לימוד סעודיים שמהם הוסרה רוב האנטישמיות (2023).\nלכל קבוצה יש את הרדיקלים שלה. אותה כימיה לכולם.",
+ "hashtags": [
+  "#Israel",
+  "#science",
+  "#antisemitism"
+ ],
+ "cover": {
+  "bg": "scene",
+  "text": "How to neutralise|a *radical?*"
+ },
+ "sources_caption": "Sources: Lobo et al., Pharmacognosy Reviews (2010); Pew Research Center (Nov 2015); Times of Israel/AFP (Nov 2017); City of Aarhus; UK Foreign Office on the GCTF launch of the Abu Dhabi centre (Dec 2012); Marrakesh Declaration (Jan 2016); IMPACT-se review of Saudi textbooks (2023); Europol TE-SAT 2024.\nPhotos, Wikimedia Commons: ElNokko (CC BY-SA 4.0); B.alotaby (CC BY-SA 4.0); Ciara Ní Riain (CC BY-SA 4.0); Sabithnav (CC BY-SA 4.0); Najibelfatimi (CC BY-SA 4.0); John Liu (CC BY 2.0). AI voice, animation and synthesised music."
+}
