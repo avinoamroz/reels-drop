@@ -23,7 +23,7 @@
   },
   {
    "say": "So it's unstable. It roams around, damaging whatever it touches.",
-   "gap": 0.2
+   "gap": 0.15
   },
   {
    "say": "Extremists work the same way. And most Muslims reject them.",
@@ -47,7 +47,7 @@
   },
   {
    "say": "Step one: cool the reaction.",
-   "gap": 0.45,
+   "gap": 0.35,
    "screen": "Step 1: *cool* the reaction",
    "at": "L8"
   },
@@ -242,7 +242,8 @@
    }
   ],
   "tiles_until": "L15",
-  "hook_back": "L17"
+  "hook_back": "L17",
+  "tail": 1.1
  },
  "sources": [
   {
