@@ -1,0 +1,6 @@
+{
+  "id": "underdog_rounds",
+  "status": "FAILED",
+  "run": "43484150385",
+  "log": "template must be one of ('map_counter', 'data_race', 'scorecard', 'slang_scene', 'rehook', 'pun_sequence', 'pun_ladder', 'classroom', 'build_vs_war', 'two_paths', 'surgery', 'crowd_equals', 'versus_card', 'board_insert', 'story_climb', 'story_climb_full', 'rulebook', 'stock_chart', 'zoom_stock', 'gdp_stock', 'pop_stock', 'high_horse', 'fert_race', 'fert_stock', 'people_stock', 'bracket', 'photo_story')\n"
+}
