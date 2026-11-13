@@ -1,0 +1,333 @@
+{
+ "id": "religion_in_law",
+ "account": "noamroz__",
+ "template": "law_grid",
+ "hook": "*6* laws. Who decides|your *wedding?*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "Six laws. Who decides your wedding?"
+  },
+  {
+   "say": "Same life, five countries."
+  },
+  {
+   "say": "Marry outside your religion? Israel isn't perfect: a Jew can't marry a Christian here."
+  },
+  {
+   "say": "No civil marriage. About nine thousand couples a year marry abroad, many in Cyprus."
+  },
+  {
+   "say": "In Saudi Arabia and Iran, a Muslim woman may only marry a Muslim."
+  },
+  {
+   "say": "Divorce outside religious law? Not in Israel, not in Saudi Arabia, not in Iran."
+  },
+  {
+   "say": "Buses on the day of rest? Most Israeli cities stop for Shabbat. Riyadh's metro runs on Fridays."
+  },
+  {
+   "say": "Now the real gap. Same sex couples: Israel recognises their marriages from abroad. In Saudi Arabia and Iran, the law allows the death penalty."
+  },
+  {
+   "say": "Leave your religion? Legal in Israel. In Iran and Saudi Arabia, apostasy can mean death."
+  },
+  {
+   "say": "Women's dress? Iran forces the hijab by law. Saudi Arabia still fines immodest dress."
+  },
+  {
+   "say": "Score: America and Britain six. Israel four. Saudi Arabia two. Iran one and a half."
+  },
+  {
+   "say": "I think Israel should allow civil marriage. But an awkward wedding is not a death sentence."
+  },
+  {
+   "say": "So, who decides your wedding?"
+  }
+ ],
+ "data": {
+  "columns": [
+   {
+    "code": "US",
+    "label": "US"
+   },
+   {
+    "code": "GB",
+    "label": "UK"
+   },
+   {
+    "code": "IL",
+    "label": "IL",
+    "hl": true
+   },
+   {
+    "code": "SA",
+    "label": "SA"
+   },
+   {
+    "code": "IR",
+    "label": "IR"
+   }
+  ],
+  "rows": [
+   {
+    "label": "Marry outside your religion?",
+    "icon": "💍",
+    "at": "L2",
+    "cells": [
+     "Y",
+     "Y",
+     "P",
+     "P",
+     "P"
+    ],
+    "cells_at": [
+     "L2:marry+0.3",
+     "L2:marry+0.45",
+     "L2:israel",
+     "L4:saudi",
+     "L4:iran"
+    ]
+   },
+   {
+    "label": "Divorce outside religious law?",
+    "icon": "⚖️",
+    "at": "L5",
+    "cells": [
+     "Y",
+     "Y",
+     "N",
+     "N",
+     "N"
+    ],
+    "cells_at": [
+     "L5:divorce+0.3",
+     "L5:divorce+0.45",
+     "L5:israel",
+     "L5:saudi",
+     "L5:iran"
+    ]
+   },
+   {
+    "label": "Buses on the day of rest?",
+    "icon": "🚌",
+    "at": "L6",
+    "cells": [
+     "Y",
+     "Y",
+     "P",
+     "Y",
+     "Y"
+    ],
+    "cells_at": [
+     "L6:buses+0.3",
+     "L6:buses+0.45",
+     "L6:israeli",
+     "L6:riyadh",
+     "L6:riyadh+0.2"
+    ]
+   },
+   {
+    "label": "Same sex couples recognised?",
+    "icon": "🏳️‍🌈",
+    "at": "L7:same",
+    "cells": [
+     "Y",
+     "Y",
+     "Y",
+     "N",
+     "N"
+    ],
+    "cells_at": [
+     "L7:same+0.3",
+     "L7:same+0.45",
+     "L7:israel",
+     "L7:saudi",
+     "L7:iran"
+    ]
+   },
+   {
+    "label": "Leave your religion freely?",
+    "icon": "🕊️",
+    "at": "L8",
+    "cells": [
+     "Y",
+     "Y",
+     "Y",
+     "N",
+     "N"
+    ],
+    "cells_at": [
+     "L8:leave+0.3",
+     "L8:leave+0.45",
+     "L8:israel",
+     "L8:saudi",
+     "L8:iran"
+    ]
+   },
+   {
+    "label": "Women choose what to wear?",
+    "icon": "👗",
+    "at": "L9",
+    "cells": [
+     "Y",
+     "Y",
+     "Y",
+     "P",
+     "N"
+    ],
+    "cells_at": [
+     "L9:dress+0.3",
+     "L9:dress+0.45",
+     "L9:dress+0.6",
+     "L9:saudi",
+     "L9:iran"
+    ]
+   }
+  ],
+  "focus": [
+   {
+    "at": "L2",
+    "until": "L4e",
+    "row": 0
+   },
+   {
+    "at": "L5",
+    "until": "L5e",
+    "row": 1
+   },
+   {
+    "at": "L6",
+    "until": "L6e",
+    "row": 2
+   },
+   {
+    "at": "L7:same",
+    "until": "L7e",
+    "row": 3
+   },
+   {
+    "at": "L8",
+    "until": "L8e",
+    "row": 4
+   },
+   {
+    "at": "L9",
+    "until": "L9e",
+    "row": 5
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/religion_in_law/knesset.jpg",
+    "at": "L2:israel",
+    "until": "L3:abroad",
+    "credit": "Knesset: Tsvika Israeli, GPO, CC BY-SA 3.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.48,
+     1.0,
+     0.52,
+     0.48,
+     1.25
+    ]
+   },
+   {
+    "file": "templates/photos/religion_in_law/larnaca.jpg",
+    "at": "L3:abroad",
+    "until": "L4e",
+    "credit": "Larnaca, Cyprus: A.Savin, FAL, Wikimedia",
+    "kb": [
+     0.32,
+     0.55,
+     1.0,
+     0.38,
+     0.55,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/religion_in_law/pride.jpg",
+    "at": "L7:israel",
+    "until": "L7e",
+    "credit": "Tel Aviv Pride: Niv Singer, CC BY-SA 2.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.42,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Israel CBS via Hiddush, 2012; Marriage in Israel",
+   "year": 2012,
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Saudi Personal Status Law (Amnesty), 2022; Iran Civil Code art. 1059",
+   "year": 2022,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Rabbinical Courts Law, 1953; Iran Civil Code art. 1133",
+   "year": 1953,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Times of Israel, 2019; Riyadh Metro, 2025",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Israel Supreme Court, 2006; ILGA World, 2020",
+   "year": 2020,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "US State Dept, Religious Freedom Reports, 2023",
+   "year": 2023,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Amnesty, 2024; Saudi public decency rules, 2019",
+   "year": 2024,
+   "at": "L9",
+   "until": "L10e"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "I think Israel needs *civil* *marriage.*",
+  "cta": "Send this to a *Cyprus* couple"
+ },
+ "caption_en": "Who decides your wedding? Same life, five countries, six laws.\n\n🇺🇸 US | 🇬🇧 UK | 🇮🇱 Israel | 🇸🇦 Saudi Arabia | 🇮🇷 Iran\n\n1. Marry outside your religion, at home: ✅ ✅ partly, partly, partly. Israel has no civil marriage: marriage and divorce go through each community's religious courts (rabbinical, Sharia and church courts). A Jew and a Christian can't marry inside Israel, but marriages done abroad are registered. About 9,000 couples a year register a wedding from abroad (Israel CBS figures, Hiddush, 2012), many of them in Cyprus. In Israel's own Sharia courts, and in Saudi Arabia and Iran, a Muslim man may marry a Christian or Jewish woman; a Muslim woman may only marry a Muslim.\n2. Divorce outside religious law: ✅ ✅ ❌ ❌ ❌. Jewish Israelis divorce in rabbinical courts, Muslim citizens in Israel's Sharia courts. Iran's Civil Code (art. 1133) lets a husband divorce whenever he wishes.\n3. Buses on the day of rest: ✅ ✅ partly ✅ ✅. Most Israeli cities have no public buses on Shabbat; Tel Aviv has run free weekend lines since 2019, and Arab towns and Haifa run some. Riyadh Metro runs on Fridays.\n4. Same sex couples recognised: ✅ ✅ ✅ ❌ ❌. Israel's Supreme Court ordered same sex marriages from abroad to be registered in 2006. ILGA World lists Saudi Arabia and Iran among states where the law allows the death penalty.\n5. Leave your religion: ✅ ✅ ✅ ❌ ❌. Saudi Arabia: apostasy is legally punishable by death. Iran: treated as a crime punishable by death (US State Department, 2023).\n6. Women choose what to wear: ✅ ✅ ✅ partly ❌. Iran enforces the hijab by law. Saudi women have driven since 2018, but public decency rules (2019) still fine immodest dress.\n\nScore: US 6, UK 6, Israel 4, Saudi Arabia 2, Iran 1.5.\n\nI think Israel needs civil marriage. But an awkward wedding is not a death sentence.\n\nSend this to a Cyprus couple.",
+ "caption_he": "מי מחליט על החתונה שלך? אותם חיים, חמש מדינות, שישה חוקים.\n\nארה\"ב | בריטניה | ישראל | סעודיה | איראן\n1. להתחתן עם בן או בת דת אחרת, בבית: כן, כן, חלקית, חלקית, חלקית. בישראל אין נישואים אזרחיים: נישואים וגירושים עוברים דרך בתי הדין הדתיים של כל עדה (רבני, שרעי, כנסייתי). יהודי ונוצרייה לא יכולים להתחתן בישראל, אבל נישואים בחו\"ל נרשמים. כ־9,000 זוגות בשנה רושמים חתונה מחו\"ל (נתוני הלמ\"ס, חדו\"ש, 2012), רבים מהם בקפריסין. בבתי הדין השרעיים בישראל, וגם בסעודיה ובאיראן, גבר מוסלמי רשאי להתחתן עם נוצרייה או יהודייה, ואישה מוסלמית רק עם מוסלמי.\n2. גירושים מחוץ לדין הדתי: כן, כן, לא, לא, לא.\n3. אוטובוסים ביום המנוחה: כן, כן, חלקית, כן, כן. ברוב הערים בישראל אין תחבורה ציבורית בשבת; בתל אביב יש קווי סופ\"ש חינמיים מאז 2019. המטרו בריאד פועל בימי שישי.\n4. הכרה בזוגות חד מיניים: כן, כן, כן, לא, לא. בג\"ץ הורה ב־2006 לרשום נישואים חד מיניים מחו\"ל. לפי ILGA World, בסעודיה ובאיראן החוק מאפשר עונש מוות.\n5. לעזוב את הדת: כן, כן, כן, לא, לא. בסעודיה ובאיראן כפירה עלולה להיענש במוות (מחלקת המדינה האמריקאית, 2023).\n6. נשים בוחרות מה ללבוש: כן, כן, כן, חלקית, לא. באיראן חובת חיג'אב בחוק; בסעודיה נשים נוהגות מאז 2018, אבל יש קנסות על לבוש \"לא צנוע\" (2019).\n\nציון: ארה\"ב 6, בריטניה 6, ישראל 4, סעודיה 2, איראן 1.5.\nאני חושב שישראל צריכה נישואים אזרחיים. אבל חתונה מסורבלת היא לא גזר דין מוות.\n\nSources: Israel Central Bureau of Statistics via Hiddush (2012); Rabbinical Courts Jurisdiction (Marriage and Divorce) Law (1953); Israel Supreme Court, Ben Ari v. Ministry of Interior (2006); Amnesty International on Saudi Arabia's Personal Status Law (2022); Iran Civil Code arts. 1059 and 1133 (via US Institute of Peace, Iran Primer); Times of Israel (2019); Riyadh Metro Friday hours (2025); ILGA World, State-Sponsored Homophobia (2020); US State Department, International Religious Freedom Reports, Saudi Arabia and Iran (2023); Amnesty International on Iran's hijab law (2024); Saudi public decency regulations (2019).\nPhotos, Wikimedia Commons: Knesset, Tsvika Israeli, Government Press Office (CC BY-SA 3.0); Larnaca, A.Savin (Free Art License); Tel Aviv Pride 2008, Niv Singer (CC BY-SA 2.0). AI voice, synthesised music.",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Marriage"
+ ],
+ "cover": {
+  "t": 1.4,
+  "big": "6 laws",
+  "text": "Who decides|your *wedding?*"
+ }
+}
