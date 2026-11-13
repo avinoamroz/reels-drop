@@ -1,0 +1,233 @@
+{
+ "id": "what_others_did",
+ "account": "noamroz__",
+ "template": "high_horse",
+ "hook": "Easy to judge|from *up here.*",
+ "duration": 60.97,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/what_others_did.mp4",
+  "cover": "covers/what_others_did_cover.jpg",
+  "preview": "previews/what_others_did_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/what_others_did_0.jpg",
+  "1": "out/frames/what_others_did_1.jpg",
+  "3": "out/frames/what_others_did_3.jpg",
+  "last": "out/frames/what_others_did_last.jpg"
+ },
+ "caption_en": "Easy to judge from up here. 🐎\n\nThe accusations: Gaza's Health Ministry (run by HAMAS) counts 74,645 dead (10 Nov 2026), no civilian/fighter split. UN Satellite Centre (UNOSAT): 81% of structures damaged (Oct 2025). Military rule in the West Bank since 1967; UN OCHA: record settler attacks in 2026.\n\nWhat other governments did:\nSpain, Rif, 1921 to 1927: mustard gas, also from planes (Balfour, 2002).\nFrance, Algeria, 1954 to 1962: 350,000 dead (French est.) to 1.5M (FLN, National Liberation Front).\nBritain, Kenya: 1,090 hanged (Anderson, 2005); in 2013 the UK paid £19.9M to 5,228 torture victims.\nAssad regime, Ghouta, Aug 2013: sarin killed 1,429 (US Gov).\nIran's regime, 2022: 551+ protesters killed, no war (Iran Human Rights, 2023).\n\nIsrael's warnings, Oct 2023 to Jan 2024: 7.2M leaflets, 13.7M texts, 15M calls (IDF). Fighters among the dead: disputed (IDF says 22,000+).\n\nThe scale is our comparison, not a formula. By raw numbers some cases killed fewer than the Gaza war; we weigh warnings against deliberate attacks on civilians.\n\nIsrael is far from perfect, but not the outlier it's painted as. Every death in Gaza is a tragedy.\n\nPhotos: Abedallah Alhaj (CC BY-SA 3.0 IGO); Ricardo Martín (PD); Touring Club Italiano (CC BY-SA 4.0); Jerome KL (CC BY-SA 4.0); Ortho (CC BY-SA 4.0); IranAzadShod (CC0); Jaber Jehad Badwan (CC BY-SA 4.0); via Wikimedia Commons.\nAI voice. Send this to someone on a high horse.",
+ "caption_he": "קל לשפוט מלמעלה.\n74,645 הרוגים בעזה לפי משרד הבריאות של חמאס, 81% מהמבנים נפגעו, ושיא באלימות מתנחלים. הביקורת אמיתית.\nאבל ספרד: גז חרדל על כפרים. צרפת: מאות אלפי הרוגים באלג'יריה. בריטניה: 1,090 תלויים בקניה. אסד: סארין. איראן: 551 מפגינים.\nישראל רחוקה משלמות, אבל היא לא החריגה. כל מוות בעזה הוא טרגדיה.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#history"
+ ],
+ "sources": [
+  {
+   "label": "Gaza Health Ministry (HAMAS-run), 10 Nov 2026; no civilian/fighter split",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "UN Satellite Centre (UNOSAT), 11 Oct 2025",
+   "year": 2025,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "UN OCHA (Office for the Coordination of Humanitarian Affairs)",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Balfour, Deadly Embrace",
+   "year": 2002,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "French official est. 350,000; FLN (National Liberation Front) 1.5M",
+   "year": 1962,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "D. Anderson, Histories of the Hanged",
+   "year": 2005,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "US Government assessment",
+   "year": 2013,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Iran Human Rights",
+   "year": 2023,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "IDF (Israel Defense Forces)",
+   "year": 2024,
+   "at": "L12",
+   "until": "L14"
+  },
+  {
+   "label": "Our comparison. Others in date order. Sources in caption",
+   "year": 2026,
+   "at": "L14",
+   "until": "L16"
+  }
+ ],
+ "transcript": {
+  "score": 0.954,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Easy to judge from up here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Over seventy-four thousand dead, says Gaza's health ministry, run by <<h|ɑ|ˈ|m|ɑ|s>>.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Eight in ten buildings damaged.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Military rule in the West Bank since nineteen sixty-seven. Record settler attacks.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "If I were Israel, I'd have done it differently.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Applause, without ever doing the job.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So let's climb down. What did governments actually do?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spain, in Morocco, the nineteen twenties: mustard gas on Rif villages.",
+    "score": 0.727,
+    "flag": "MISS"
+   },
+   {
+    "line": "France, in Algeria: hundreds of thousands dead.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain, in Kenya: one thousand and ninety Kenyans hanged.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria's regime gassed its own suburbs: fourteen hundred dead in one night.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "And Iran wasn't even at war. It killed over five hundred fifty protesters.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel? Before striking, it warned.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At the top: utopia. No one harmed.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel is far from perfect. But compared with these cases, it's not the outlier it's painted as.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every death in Gaza is a tragedy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So get off your high horse, and join the club.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Easy to judge from up here. Over 74,000 dead, says Gaza's health ministry, run by Hamas. 8 in 10 buildings damaged. Military rule in the West Bank since 1967. Record settler attacks. If I were Israel, I'd have done it differently. Applause without ever doing the job. So let's climb down. What did governments actually do? Spain in Morocco. The 1920s. Mustard gas on rift villages. France in Algeria. Hundreds of thousands dead. Britain and Kenya. 1,090 Kenyans hanged. Syria's regime gassed its own suburbs. 1,400 dead in one night. And Iran wasn't even at war. It killed over 550 protesters. Israel. Before striking it warned. 7.2 million leaflets. 13.7 million texts. 15 million calls. At the top. Utopia. No one harmed. Israel is far from perfect. But compared with these cases, it's not the outlier it's painted as. Every death in Gaza is a tragedy. So get off your high horse and join the club.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/what_others_did/gaza.jpg",
+   "credit": "Abedallah Alhaj, Gaza, CC BY-SA 3.0 IGO"
+  },
+  {
+   "file": "templates/photos/what_others_did/rifship.jpg",
+   "credit": "Spanish Navy to the Rif War, 1922, R. Martín, PD"
+  },
+  {
+   "file": "templates/photos/what_others_did/casbah1960.jpg",
+   "credit": "Casbah, 1960, Touring Club Italiano, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/what_others_did/hola.jpg",
+   "credit": "Hola memorial, Jerome KL, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/what_others_did/aleppo.jpg",
+   "credit": "Aleppo 2016, Ortho, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/what_others_did/iranflag.jpg",
+   "credit": "IranAzadShod, CC0"
+  },
+  {
+   "file": "templates/photos/ethnic_cleansing_v3/leaflet.jpg",
+   "credit": "IDF leaflet, J. J. Badwan, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/what_others_did/gaza2.jpg",
+   "credit": "Gaza 2024, Abedallah Alhaj, CC BY-SA 3.0 IGO"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 209.7
+}
