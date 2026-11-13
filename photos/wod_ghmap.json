@@ -1,6 +1,26 @@
 {
  "name": "wod_ghmap",
- "url": "https://commons.wikimedia.org/wiki/File:Syria_-_Damascus_Areas_of_Influence_and_Areas_Reportedly_Affected_by_21_August_2013_Chemical_Attack.jpg",
- "ok": false,
- "error": "KeyError: 'imageinfo'"
+ "url": "https://commons.wikimedia.org/wiki/File:Syria_-_Damascus_Areas_of_Influence_and_Areas_Reportedly_Affected_by_21_August_Chemical_Attack.jpg",
+ "source": "Wikimedia Commons",
+ "title": "File:Syria - Damascus Areas of Influence and Areas Reportedly Affected by 21 August Chemical Attack.jpg",
+ "page": "https://commons.wikimedia.org/wiki/File:Syria_-_Damascus_Areas_of_Influence_and_Areas_Reportedly_Affected_by_21_August_Chemical_Attack.jpg",
+ "license": "Public domain",
+ "license_url": null,
+ "author": "whitehouse.gov",
+ "credit": "http://www.whitehouse.gov/sites/default/files/docs/2013-08-30_map_accompanying_usg_assessment_on_syria.pdf",
+ "attribution_required": "false",
+ "usage_terms": "Public domain",
+ "date": "2013-09-03 16:28:14",
+ "description": "A map published by the US Government showing the extent of chemical attacks 21 August 2013 in Ghouta, Damascaus, Syria",
+ "credit_line": "whitehouse.gov, Public domain, Wikimedia Commons",
+ "downloaded": "https://upload.wikimedia.org/wikipedia/commons/8/86/Syria_-_Damascus_Areas_of_Influence_and_Areas_Reportedly_Affected_by_21_August_Chemical_Attack.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+ "original_size": [
+  911,
+  546
+ ],
+ "size": [
+  911,
+  546
+ ],
+ "ok": true
 }

@@ -1,6 +1,26 @@
 {
  "name": "wod_rif",
- "url": "https://commons.wikimedia.org/wiki/File:Despedida_de_un_soldado_camino_a_la_guerra_del_Rif._Puerto_de_Pasajes_1921.jpg",
- "ok": false,
- "error": "KeyError: 'imageinfo'"
+ "url": "https://commons.wikimedia.org/wiki/File:Despedida_de_un_soldado_camino_a_la_guerra_del_Rif._Puerto_de_Pasajes_1921.n_el_puerto_de_Pasajes.jpg",
+ "source": "Wikimedia Commons",
+ "title": "File:Despedida de un soldado camino a la guerra del Rif. Puerto de Pasajes 1921.n el puerto de Pasajes.jpg",
+ "page": "https://commons.wikimedia.org/wiki/File:Despedida_de_un_soldado_camino_a_la_guerra_del_Rif._Puerto_de_Pasajes_1921.n_el_puerto_de_Pasajes.jpg",
+ "license": "Public domain",
+ "license_url": null,
+ "author": "Ricardo Martín",
+ "credit": "Own work",
+ "attribution_required": "false",
+ "usage_terms": "Public domain",
+ "date": "2025-08-18",
+ "description": "Despedida",
+ "credit_line": "Ricardo Martín, Public domain, Wikimedia Commons",
+ "downloaded": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Despedida_de_un_soldado_camino_a_la_guerra_del_Rif._Puerto_de_Pasajes_1921.n_el_puerto_de_Pasajes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+ "original_size": [
+  1748,
+  1836
+ ],
+ "size": [
+  1748,
+  1836
+ ],
+ "ok": true
 }
