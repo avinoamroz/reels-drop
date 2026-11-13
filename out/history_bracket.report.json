@@ -101,7 +101,7 @@
   }
  ],
  "transcript": {
-  "score": 0.956,
+  "score": 0.95,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -161,7 +161,7 @@
    },
    {
     "line": "The Assyrian Empire, gone. Babylon's, gone. Persia's, gone. The Seleucids, gone. Western Rome, gone.",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
@@ -185,7 +185,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "3,000-year tournament. Who's still standing? Two rivals per match. Winner moves up. Match 1. Egypt vs Israel. By tradition, Pharaoh's army almost catches them. They escape. Then Pharaoh Monepta carves a result in stone. Israel is laid waste. His seat is not. Match 2. Assyria beats the Kingdom of Israel. Sargon boasts of over 27,000 captives. Then Babylon, the Medes knock out Assyria. Nineveh falls. Babylon beats Judah. The First Temple burns. Exile. Come back, Persia beats Babylon, and Cyrus lets the exiles go home. Alexander's Greeks beat Persia. Upset of the tournament, the Hasmoneans beat the Seleucid Greeks. That's Hanukkah. Then Rome burns the Second Temple, crushes Bar-Kukba and bans Jews from Jerusalem. The Assyrian Empire gone. Babylon's gone. Persia's gone. The Seleucids gone. Western Rome gone. The empires fell. Their pupils moved on. The team that lost almost every match? 1948. Same land, same language, same city. Mark Twain. All things are mortal but the Jew. All other forces pass, but he remains. The tournament is still on. Who's still standing?",
+  "heard": "3,000 year tournament. Who's still standing? Two rivals per match. Winner moves up. Match 1. Egypt vs Israel. By tradition, Pharaoh's army almost catches them. They escape. Then Pharaoh Mernipta carves a result in stone. Israel is laid waste. His seat is not. Match 2. Assyria beats the Kingdom of Israel. Sargon boasts of over 27,000 captives. Then Babylon the Medes knock out Assyria. Nineveh falls. Babylon beats Judah. The First Temple burns. Exile. Come back, Persia beats Babylon, and Cyrus lets the exiles go home. Alexander's Greeks beat Persia. Upset of the tournament, the Hasmoneans beat the Seleucid Greeks. That's Hanukkah. Then Rome burns the Second Temple, crushes Bar-Kukba, and bans Jews from Jerusalem. The Assyrian Empire gone. Babylon's gone. Persia's gone. The Seleucid's gone. Western Rome, gone. The empires fell. Their pupils moved on. The team that lost almost every match, 1948. Same land, same language, same city. Mark Twain. All things are mortal, but the Jew, all other forces pass, but he remains. The tournament is still on. Who's still standing?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -217,5 +217,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 101.4
+ "render_s": 125.2
 }
