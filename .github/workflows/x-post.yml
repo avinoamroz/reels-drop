@@ -1,0 +1,65 @@
+name: x-post
+# Posts reels to X (@noam_roz) from posting/x_queue.json. Uses OAuth 1.0a user keys stored as repo secrets
+# X_API_KEY, X_API_SECRET, X_ACCESS_TOKEN, X_ACCESS_SECRET (added by Noam in GitHub settings; never in the repo).
+# Each item: {"id","video_url","text","due"(ISO with offset)}. Posted ids are recorded in posting/x_posted.json.
+# Only items Noam approved go into the queue. Without the secrets the job exits without posting.
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'true = check only, post nothing'
+        default: 'false'
+permissions:
+  contents: write
+concurrency: x-post
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post due items
+        env:
+          GH_TOKEN: ${{ github.token }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          if [ -z "$X_API_KEY" ] || [ -z "$X_ACCESS_SECRET" ]; then echo "X secrets not set yet: nothing posted."; exit 0; fi
+          pip install -q tweepy==4.14.0 requests
+          cat > /tmp/xpost.py <<'PY'
+          import os, json, base64, datetime, subprocess, requests, tweepy
+          repo = os.environ["GITHUB_REPOSITORY"]
+          def get(path):
+              r = subprocess.run(["gh","api",f"repos/{repo}/contents/{path}"],capture_output=True,text=True)
+              if r.returncode: return None, None
+              j = json.loads(r.stdout); return json.loads(base64.b64decode(j["content"]).decode()), j["sha"]
+          queue,_ = get("posting/x_queue.json"); queue = queue or []
+          posted, psha = get("posting/x_posted.json"); posted = posted or {}
+          now = datetime.datetime.now(datetime.timezone.utc)
+          due = [q for q in queue if q["id"] not in posted and datetime.datetime.fromisoformat(q["due"]) <= now]
+          print(f"{len(due)} due")
+          if not due: raise SystemExit
+          if os.environ.get("DRY_RUN") == "true":
+              print("dry run:", [q["id"] for q in due]); raise SystemExit
+          auth = tweepy.OAuth1UserHandler(os.environ["X_API_KEY"], os.environ["X_API_SECRET"], os.environ["X_ACCESS_TOKEN"], os.environ["X_ACCESS_SECRET"])
+          api = tweepy.API(auth)
+          client = tweepy.Client(consumer_key=os.environ["X_API_KEY"], consumer_secret=os.environ["X_API_SECRET"], access_token=os.environ["X_ACCESS_TOKEN"], access_token_secret=os.environ["X_ACCESS_SECRET"])
+          for q in due[:2]:
+              try:
+                  f = f"/tmp/{q['id']}.mp4"
+                  open(f,"wb").write(requests.get(q["video_url"],timeout=300).content)
+                  m = api.media_upload(f, media_category="tweet_video", chunked=True, wait_for_async_finalize=True)
+                  t = client.create_tweet(text=q["text"], media_ids=[m.media_id])
+                  posted[q["id"]] = {"tweet_id": t.data["id"], "at": now.isoformat()}
+                  print("posted", q["id"], t.data["id"])
+              except Exception as e:
+                  posted[q["id"]] = {"error": str(e)[:300], "at": now.isoformat()}
+                  print("FAILED", q["id"], e)
+          body = {"message":"x-post: record [skip ci]","content":base64.b64encode(json.dumps(posted,indent=1,ensure_ascii=False).encode()).decode()}
+          if psha: body["sha"] = psha
+          subprocess.run(["gh","api","-X","PUT",f"repos/{repo}/contents/posting/x_posted.json","--input","-"],input=json.dumps(body),text=True,check=True)
+          PY
+          python3 /tmp/xpost.py
