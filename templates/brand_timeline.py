@@ -89,9 +89,46 @@ def draw_flag(cv, code, x, y, w, h, a=1.0):
     cv.rrect(x, y, w, h, 4, None, a, stroke="#FFFFFF", lw=2, sa=0.35 * a)
 
 
+def build_voice_tight(S, work):
+    """build_voice, plus intra-line pause trimming: inside a line, any pause between words longer than voice.maxpause
+    (default 0.2 s) is cut down to it (Noam, 11 Nov: minimal pauses). Same outputs as common.build_voice."""
+    import json as _j, soundfile as sf
+    raw, wj, how = get_voice(S); log("voice:", how)
+    V = S.get("voice", {}); tempo = float(V.get("tempo", 1.1)); lead = float(V.get("lead", 0.3)); mp = float(V.get("maxpause", 0.2))
+    y, k = house_chain(raw, tempo, V.get("chain", "house") == "plain")
+    W_ = _j.load(open(wj)); lines = script_lines(S)
+    tot = sum(len(l.split()) for l in lines)
+    if tot != len(W_): raise SystemExit(f"voice/script mismatch: script has {tot} words, voice has {len(W_)}")
+    y = y / (np.abs(y).max() + 1e-9) * 0.89
+    gaps = [float(L.get("gap", V.get("gap", 0.3))) for L in S["lines"] if L.get("say", "").strip()]
+    segs, out, idx, t = [], [], 0, lead
+    for i, text in enumerate(lines):
+        n = len(text.split()); ws = W_[idx:idx + n]; idx += n; toks = text.split()
+        runs = [[0]]
+        for j in range(1, n):
+            if (ws[j]["start"] - ws[j - 1]["end"]) * k > mp: runs.append([j])
+            else: runs[-1].append(j)
+        t_line0 = t; wout = []
+        for r_i, r in enumerate(runs):
+            a = max(0, ws[r[0]]["start"] * k - 0.05); b = ws[r[-1]]["end"] * k + 0.08
+            seg_ = y[int(a * SR):int(b * SR)].copy(); f = int(0.01 * SR)
+            if len(seg_) > 2 * f: seg_[:f] *= np.linspace(0, 1, f); seg_[-f:] *= np.linspace(1, 0, f)
+            segs.append((t, seg_))
+            for j in r:
+                w = ws[j]; wout.append(dict(w=toks[j], t0=round(t + w["start"] * k - a, 3), t1=round(t + max(w["end"], w["start"] + 0.04) * k - a, 3)))
+            t += len(seg_) / SR + (mp - 0.13 if r_i < len(runs) - 1 else 0)
+        out.append(dict(i=i, text=text, t0=round(t_line0 + 0.05, 3), t1=round(t - 0.08, 3), words=wout))
+        t += gaps[i]
+    vo = np.zeros(int((t + 1) * SR), np.float32)
+    for t0, s_ in segs: vo[int(t0 * SR):int(t0 * SR) + len(s_)] += s_
+    sf.write(f"{work}/vo.wav", vo[:int(t * SR)], SR)
+    J = dict(dur=round(t, 3), voice=how, lines=out); _j.dump(J, open(f"{work}/timing.json", "w"), indent=0)
+    return J
+
+
 def run(S):
     D = S["data"]; work = workdir(S)
-    J = build_voice(S, work); T = Timing(J, D.get("tail", 0.75)); A = T.at
+    J = build_voice_tight(S, work); T = Timing(J, D.get("tail", 0.75)); A = T.at
     BH = int(D.get("band_h", 700))
     P = []
     for p in D["photos"]:
