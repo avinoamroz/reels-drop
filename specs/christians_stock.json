@@ -53,7 +53,7 @@
    "say": "Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration."
   },
   {
-   "say": "So, Middle East Christians: buy or sell?"
+   "say": "So, Middle East Christians: buy, or sell?"
   }
  ],
  "data": {
@@ -136,7 +136,7 @@
     "at": "L0:would",
     "until": "L3",
     "draw": [
-     "L1:one",
+     "L0:would+0.15",
      "L2:ninety"
     ]
    },
@@ -449,7 +449,8 @@
   "#MiddleEast"
  ],
  "cover": {
-  "t": 14.0,
+  "t": 20.0,
+  "blur": 5,
   "text": "*5* Christian stocks:|*buy* or *sell?*"
  }
 }

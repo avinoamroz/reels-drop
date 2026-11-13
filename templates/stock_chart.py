@@ -62,6 +62,11 @@ def tri(cv, x, y, s, up, col, a):
 
 def ticker(cv, ch, val, pct, x, y, a, sz=92, sub_sz=46, show_sub=True):
     """NAME  value  [arrow] pct%   (left aligned at x, centred on y)"""
+    if pct is None:                                   # before the line moves: name + first value, neutral
+        cv.text(ch["name"], x, y, sz, WHITE, a, align="l", maxw=560)
+        cv.text(fmt(val), x + min(560, cv.tw(ch["name"], sz)) + 34, y, sz, "#C9D6EA", a, align="l", maxw=420)
+        if show_sub and ch.get("sub"): cv.text(ch["sub"], x, y + sz * 0.9, sub_sz, "#C9D6EA", a, align="l", bold=False, maxw=940)
+        return
     up = pct >= 0; col = UP if up else DOWN
     cv.text(ch["name"], x, y, sz, WHITE, a, align="l", maxw=560)
     x2 = x + min(560, cv.tw(ch["name"], sz)) + 34
@@ -185,10 +190,12 @@ def run(S):
             a = win(t, ch["t0"] - 0.05, ch["t1"], 0.25, 0.25) * (1 - pa)
             if a <= 0.01: continue
             cv.rrect(40, 250, 1000, 1180, 40, "#0A1222", 0.55 * a)
-            hv = draw_chart(cv, ch, t, a)
-            done = t >= ch["d1"]; ch["_done"] = done
-            pct = (hv / ch["pts"][0][1] - 1) * 100 if t >= ch["d0"] else 0.0
-            ticker(cv, ch, hv, pct, 90, 340, a)
+            draw_chart(cv, ch, t, a)
+            # the ticker steps to the last REAL data point the line has reached (no interpolated values on screen)
+            yr = head(ch, t)[0]; reached = [q for q in ch["pts"] if q[0] <= yr + 1e-6] or ch["pts"][:1]
+            ch["_done"] = len(reached) == len(ch["pts"])
+            pct = (reached[-1][1] / ch["pts"][0][1] - 1) * 100 if len(reached) > 1 else None
+            ticker(cv, ch, reached[-1][1], pct, 90, 340, a)
         # recap: every line as a sparkline row
         ra = win(t, rc0, rc1, 0.3, 0.3) * (1 - pa) if RC else 0
         if ra > 0.01:
