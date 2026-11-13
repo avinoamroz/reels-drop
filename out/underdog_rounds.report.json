@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "boxing_ring",
  "hook": "*3,000* years.|Still standing.|*Why?*",
- "duration": 68.33,
+ "duration": 59.7,
  "audio": {
   "lufs": -16.1,
   "true_peak": -2.0
@@ -101,7 +101,7 @@
   }
  ],
  "transcript": {
-  "score": 0.958,
+  "score": 0.949,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -110,17 +110,17 @@
     "flag": "ok"
    },
    {
-    "line": "In the small corner: the Jewish people.",
+    "line": "Small corner: the Jewish people.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Round one. Pharaoh's Egypt. Slavery. They walk out.",
+    "line": "Round one: Pharaoh's Egypt. Slavery, then they walk out.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Round two. Babylon, five eighty-six BCE. The Temple falls.",
+    "line": "Round two: Babylon, five eighty-six BCE. The Temple falls.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -130,17 +130,17 @@
     "flag": "ok"
    },
    {
-    "line": "Round three. Haman's plot to wipe them out. They survive.",
-    "score": 0.8,
-    "flag": "ok"
-   },
-   {
-    "line": "Round four. Rome, seventy CE. The Temple burns again.",
+    "line": "Round three: Haman's plot. They survive.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Spain, fourteen ninety-two. Expelled.",
+    "line": "Round four: Rome, seventy CE. The Temple burns again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spain, fourteen ninety-two: expelled.",
     "score": 0.8,
     "flag": "ok"
    },
@@ -150,8 +150,8 @@
     "flag": "ok"
    },
    {
-    "line": "Most fighters stay down. Nineteen forty-eight: he gets up.",
-    "score": 0.9,
+    "line": "Nineteen forty-eight: he gets up.",
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -160,7 +160,7 @@
     "flag": "ok"
    },
    {
-    "line": "So he trains. An army. Startups. Iron Dome.",
+    "line": "So he trains: an army, startups, Iron Dome.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -171,16 +171,16 @@
    },
    {
     "line": "Strongest kid in school? He warns before hitting back.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Seven point two million leaflets, thirteen point seven million texts, fifteen million calls.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Seven point two million leaflets. Thirteen point seven million texts. Fifteen million calls.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "And one point seven eight million tons of food into Gaza.",
+    "line": "Plus one point seven eight million tons of food for Gaza.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -191,11 +191,11 @@
    },
    {
     "line": "Why so strong? He never stayed down.",
-    "score": 1.0,
+    "score": 0.857,
     "flag": "ok"
    }
   ],
-  "heard": "3,000 years. Still standing. Why? In the small corner. The Jewish people. Round 1. Pharaoh's Egypt. Slavery. They walk out. Round 2. Babylon 586 BCE. The temple falls. Help from the corner. Cyrus of Persia sends them home. Round 3. Haman's plots wipe them out. They survive. Round 4. Rome. 70 CE. The temple burns again. Spain. 1492. Expelled. Then the darkest round. 6 million murdered. Most fighters stay down. 1948. He gets up. 1973. On the ropes. America flies in 22,000 tons. So he trains. An army. Startups. Iron Dome. Nobody shoves him in the hallway. Iron Dome stops 9 and 10. Strongest kid in school. He warns before hitting back. 7.2 million leaflets, 13.7 million texts, 15 million calls, and 1.78 million tons of food into Gaza. Israel gets criticized for how it fights. Scrutiny is fair. Why so strong? He never stayed down.",
+  "heard": "3,000 years. Still standing. Why? Small corner. The Jewish people. Round 1. Pharaoh's Egypt. Slavery. Then they walk out. Round 2. Babylon. 586 BCE. The temple falls. Help from the corner. Cyrus of Persia sends them home. Round 3. Haman's plot. They survive. Round 4. Rome. 70 CE. The temple burns again. Spain. 1492. Expelled. Then the darkest round. 6 million murdered. 1948, he gets up. 1973, on the ropes. America flies in 22,000 tons, so he trains. An army, startups, Iron Dome, nobody shoves him in the hallway. Iron Dome stops 9 and 10, strongest kid in school, and warns before heading back. 7.2 million leaflets, 13.7 million texts, 15 million calls, plus 1.78 million tons of food for Gaza. Israel gets criticized for how it fights. Scrutiny is fair. Why so strong? Never stayed down.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -223,5 +223,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 134.4
+ "render_s": 116.9
 }
