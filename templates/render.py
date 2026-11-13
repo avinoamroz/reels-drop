@@ -13,11 +13,7 @@ import os, sys, time, json, importlib
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
 import common as CM
 
-<<<<<<< Updated upstream
-TEMPLATES = ("map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war", "two_paths", "surgery", "crowd_equals", "versus_card", "board_insert", "story_climb", "story_climb_full", "rulebook", "stock_chart", "zoom_stock", "gdp_stock", "pop_stock", "high_horse")
-=======
-TEMPLATES = ("map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war", "two_paths", "surgery", "crowd_equals", "versus_card", "board_insert", "story_climb", "story_climb_full", "rulebook", "stock_chart", "zoom_stock", "gdp_stock", "pop_stock", "fert_race", "fert_stock")
->>>>>>> Stashed changes
+TEMPLATES = ("map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war", "two_paths", "surgery", "crowd_equals", "versus_card", "board_insert", "story_climb", "story_climb_full", "rulebook", "stock_chart", "zoom_stock", "gdp_stock", "pop_stock", "high_horse", "fert_race", "fert_stock")
 
 
 def main():
