@@ -25,6 +25,9 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
   photos      [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], dim, gray}]   optional real photos, full bleed
               over the map in their window (crossfade `photo_cut`, default 0.25 s); map pins/icons/routes/zones fade
               out under a photo, counter/cards/subs stay on top; "Photo: <credit>" at credit_y (default 1712, 36 px)
+  overlays    [{at, until, text, y, size, pill, cue}]   extra on-screen text not tied to a spoken line (*word* yellow):
+              pill: background colour (e.g. "#45A4DD") or omitted for a dark pill; cue: true draws the sky chevron cue below
+  brand       {text, show: [[at, until], ...]}   small mark top left (default "Israel Facts", shown on the hook and the loop end)
 """
 import os, sys, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -124,6 +127,36 @@ def draw_comment(cv, C, a, sc=1.0):
     c.restore()
 
 
+def draw_chevron(cv, cx, cy, r, a):
+    """sky circle with a white rounded down-chevron (the house cue, no hand shapes)"""
+    if a <= 0.01: return
+    cv.circ(cx, cy, r, SKY, a); c = cv.c
+    c.save(); c.set_line_cap(1); c.set_line_join(1)
+    cv.line([(cx - r * 0.42, cy - r * 0.16), (cx, cy + r * 0.26), (cx + r * 0.42, cy - r * 0.16)], "#FFFFFF", r * 0.2, a)
+    c.restore()
+
+
+def draw_overlay(cv, o, a, sc=1.0):
+    """pill with text (*word* yellow), optional chevron cue under it"""
+    y = o.get("y", 1180); sz = o.get("size", 64); lines = o["text"].split("|"); lh = sz * 1.2
+    tw = min(980, max(cv.tw(l.replace("*", ""), sz) for l in lines) + 100); h = int(sz * 0.7 + lh * len(lines))
+    c = cv.c; c.save(); c.translate(540, y); c.scale(sc, sc); c.translate(-540, -y)
+    r = min(h / 2, 48)
+    if o.get("pill"): cv.rrect(540 - tw / 2, y - h / 2, tw, h, r, o["pill"], 0.95 * a)
+    else: cv.rrect(540 - tw / 2, y - h / 2, tw, h, r, "#0B1730", 0.88 * a, stroke=SKY, lw=3, sa=0.8 * a)
+    for k, l in enumerate(lines): WG.title(cv, l, y + (k - (len(lines) - 1) / 2) * lh, a, sz, maxw=940)
+    c.restore()
+    if o.get("cue"): draw_chevron(cv, 540, y + h / 2 + 70, 46, a)
+
+
+def draw_brand(cv, txt, a):
+    """small 'Israel Facts' mark, top left inside the safe zone"""
+    w = cv.tw(txt, 38) + 56
+    cv.rrect(70, 196, w, 64, 32, "#0B1730", 0.8 * a, stroke=SKY, lw=2, sa=0.7 * a)
+    cv.circ(70 + 30, 228, 9, YEL, a)
+    cv.text(txt, 70 + 50, 228, 38, WHITE, a, maxw=w, align="l", shadow=False)
+
+
 def run(S):
     D = S["data"]; work = workdir(S)
     J = build_voice(S, work); T = Timing(J, D.get("tail", 0.75))
@@ -161,6 +194,8 @@ def run(S):
     if S.get("end"): DIM.append((A(S["end"].get("at"), T.S(len(T.L) - 2)), T.END))
     cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace")); hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 930)
     CMT = D.get("comment"); CMW = [(A(w_[0]), A(w_[1])) for w_ in (CMT or {}).get("show", [])]
+    OVL = [dict(o, t0=A(o["at"]), t1=A(o.get("until"), T.END - 0.6)) for o in D.get("overlays", [])]
+    BR = D.get("brand") or {}; BRW = [(A(w_[0]), A(w_[1])) for w_ in BR.get("show", [])]
     MR = MapR(); cache = {}
     PH = []
     if D.get("photos"):
@@ -265,6 +300,12 @@ def run(S):
         for e_, t0, t1, y in SICON:
             ea = win(t, t0 - 0.1, t1, 0.3, 0.3)
             if ea > 0.01: WG.emo(cv, e_, 540, y, 96 * max(0.05, back(seg(t, t0, t0 + 0.4, lambda u: u)) if t < t0 + 0.4 else 1.0), ea)
+        for o in OVL:
+            oa = win(t, o["t0"] - 0.1, o["t1"], 0.3, 0.3)
+            if oa > 0.01: draw_overlay(cv, o, oa, max(0.05, back(seg(t, o["t0"], o["t0"] + 0.35, lambda u: u))) if t < o["t0"] + 0.35 else 1.0)
+        for b0, b1 in BRW:
+            bra = 1.0 if b0 <= 0.01 and t < b1 - 0.3 else win(t, b0, b1, 0.3, 0.3)
+            if bra > 0.01: draw_brand(cv, BR.get("text", "Israel Facts"), bra)
         draw_sources(cv, S, T, t); draw_end(cv, S, T, t)
         for c0, c1 in CMW:
             cma = 1.0 if c0 <= 0.01 and t < c1 - 0.3 else win(t, c0, c1, 0.2, 0.3)
