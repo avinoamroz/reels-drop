@@ -18,6 +18,8 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
                 flow/pipe/power move arrows or dots along the path; `cut` (anchor) turns it into a red dashed line with an X
   zones       [{at, until, poly: [[lon, lat], ...], color, alpha, label, label_at, emo}]   filled areas (buffer zone ...)
   icons       [{at, until, lon, lat, emo, size, label, label_dy, col}]    emoji on the map with an optional tag
+  dots        [{at, until, lon, lat, n, color, r, step, fill, dx, dy, label, size}]  a cluster of n dots (e.g. 1 dot = 10,000 people) around a
+              point, sunflower packed (dot radius r px, default 2.6; spacing step, default 4.4), filling in over `fill` s (default 1.5)
   lines[i].screen_icon   emoji drawn above that line's screen card (title_y - 125)
   comment     {text, show: [[at, until], ...], y, name, size}   a generic, anonymous social comment bubble (grey avatar,
               placeholder name, never a real user or screenshot); pops in at each window start, e.g. [[0, "L0e"], ["END-2", "END"]]
@@ -181,6 +183,7 @@ def run(S):
               for r in D.get("routes", [])]
     ZONES = [dict(z, t0=A(z["at"]), t1=A(z.get("until"), T.END - 0.6)) for z in D.get("zones", [])]
     ICONS = [dict(c, t0=A(c["at"]), t1=A(c.get("until"), T.END - 0.6)) for c in D.get("icons", [])]
+    DOTS = [dict(d, t0=A(d["at"]), t1=A(d.get("until"), T.END - 0.6)) for d in D.get("dots", [])]
     SICON = []
     for i, L in enumerate(S["lines"]):
         if L.get("screen_icon") and L.get("screen"):
@@ -255,6 +258,17 @@ def run(S):
                 x, y = geo(c_["lon"], c_["lat"]); sc = back(seg(t, c_["t0"], c_["t0"] + 0.4, lambda u: u)) if t < c_["t0"] + 0.4 else 1.0
                 WG.emo(cv, c_["emo"], x, y, c_.get("size", 80) * max(0.05, sc), ia)
                 if c_.get("label"): WG.tag(cv, c_["label"], x, y + c_.get("label_dy", 75), c_.get("tsize", 44), COL.get(c_.get("col", "yellow"), YEL), ia)
+        for d_ in DOTS:
+            da = win(t, d_["t0"] - 0.05, d_["t1"], 0.2, 0.3)
+            if da > 0.01:
+                x, y = geo(d_["lon"], d_["lat"]); x += d_.get("dx", 0); y += d_.get("dy", 0)
+                n_ = int(round(d_["n"] * min(1.0, max(0.0, (t - d_["t0"]) / float(d_.get("fill", 1.5))))))
+                r_, st = float(d_.get("r", 2.6)), float(d_.get("step", 4.4)); c = cv.c; c.new_path()
+                for k in range(n_):
+                    rr = st * math.sqrt(k + 0.5); th = k * 2.39996323
+                    c.new_sub_path(); c.arc(x + rr * math.cos(th), y + rr * math.sin(th), r_, 0, 2 * math.pi)
+                cv.col(COL.get(d_.get("color", "yellow"), d_.get("color", YEL)), 0.95 * da); c.fill()
+                if d_.get("label"): WG.tag(cv, d_["label"], x, y - st * math.sqrt(d_["n"]) - 34, d_.get("size", 40), WHITE, da)
         for p in PINS:
             pa = win(t, p["t0"] - 0.1, p["t1"], 0.3, 0.3)
             if pa > 0.01:
