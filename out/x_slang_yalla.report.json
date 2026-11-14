@@ -1,0 +1,92 @@
+{
+ "id": "x_slang_yalla",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Yalla in English? 3 ways",
+ "duration": 16.83,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/x_slang_yalla.mp4",
+  "cover": "covers/x_slang_yalla_cover.jpg",
+  "preview": "previews/x_slang_yalla_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/x_slang_yalla_0.jpg",
+  "1": "out/frames/x_slang_yalla_1.jpg",
+  "3": "out/frames/x_slang_yalla_3.jpg",
+  "last": "out/frames/x_slang_yalla_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "יאללה זו אולי המילה הכי ישראלית שיש. אבל באמריקאית היא שתי מילים שונות 🚀\n\nיאללה בהתחלה: Let's go! או Let's get started.\nיאללה בסוף: Let's wrap up.\n(בואו נסכם)\n\nבפגישה באנגלית: Let's get started בדקה הראשונה, Let's wrap up בחמש האחרונות.\n\nכתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.977,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Ben says, everyone's here. Should we start?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You say, let's go!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Or, let's do this.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At work, say, let's get started.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "We have five minutes left.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Let's wrap up. What are the next steps?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "I'll send a summary.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting.",
+    "score": 0.833,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Ben says everyone's here. Should we start? You say let's go. Or let's do this. At work, say let's get started. We have five minutes left. Let's wrap up. What are the next steps? I'll send a summary. Save this for your next meal.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [],
+ "render_s": 38.5
+}
