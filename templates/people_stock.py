@@ -265,7 +265,12 @@ def run(S):
             heads.append(dict(s=s, x=hx, y=hyp, v=hv, col=col, a=la))
         c.restore()
         heads.sort(key=lambda h: h["y"]); gap = D.get("head_gap", 54); ys = [h["y"] for h in heads]
-        for _ in range(120):
+        if D.get("head_layout") == "stack_up":      # each label at its own line's height; only push UP where two would overlap
+            for k_ in range(len(ys) - 2, -1, -1):
+                ys[k_] = min(ys[k_], ys[k_ + 1] - gap)
+            if ys: ys[0] = max(ys[0], C["y0"] - D.get("head_top_pad", 20))       # never above the chart top (year label lives there)
+            for k_ in range(1, len(ys)): ys[k_] = max(ys[k_], ys[k_ - 1] + gap)
+        for _ in range(0 if D.get("head_layout") == "stack_up" else 120):
             for k_ in range(1, len(ys)):
                 if ys[k_] - ys[k_ - 1] < gap:
                     d = (gap - (ys[k_] - ys[k_ - 1])) / 2; ys[k_ - 1] -= d; ys[k_] += d
