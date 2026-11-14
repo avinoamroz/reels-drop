@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "myth_scroll",
  "hook": "*4* medieval myths|about Jews. *Busted.*",
- "duration": 59.47,
+ "duration": 60.33,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -1.5
  },
  "outputs": {
   "mp4": "out/myths_deadpan.mp4",
@@ -71,7 +71,7 @@
   }
  ],
  "transcript": {
-  "score": 0.954,
+  "score": 0.943,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -81,32 +81,32 @@
    },
    {
     "line": "Myth one: Jews bake Christian blood into matzah.",
-    "score": 1.0,
+    "score": 0.875,
     "flag": "ok"
    },
    {
-    "line": "Have you tasted matzah? Nothing has ever been added to matzah. That's the point.",
-    "score": 1.0,
+    "line": "Not in matzah. In a Hanukkah doughnut? That red filling is jam. And it's delicious.",
+    "score": 0.933,
     "flag": "ok"
    },
    {
     "line": "Also, Jewish law bans eating blood. We salt it out of steak.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    },
    {
     "line": "Norwich, eleven forty-four: the first such lie. A pope condemned it. Jews were still killed for centuries.",
-    "score": 0.944,
+    "score": 0.889,
     "flag": "ok"
    },
    {
     "line": "Myth two: Jews poisoned the wells and caused the Black Death.",
-    "score": 0.818,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "We drank from the same wells. Worst plan ever.",
-    "score": 0.889,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -150,16 +150,16 @@
     "flag": "ok"
    }
   ],
-  "heard": "4 Medieval Myths about Jews. Busted. Myth 1. Jews bake Christian blood into Matzah. Have you tasted Matzah? Nothing has ever been added to Matzah. That's the point. Also, Jewish law bans eating blood. We salt it out of steak. Norwich. 1144. The first such lie. A pope condemned it. Jews were still killed for centuries. Myth 2. Jews poison the wells and cause the Black Death. We drink from the same wells. Worst plan ever. Jews died of plague too. Strasbourg, 1349. Up to 2000 burned. Myth 3. Jews secretly run the world. If we ran the world, would we pick the one spot in the Middle East with basically no oil? The proof? A forgery, exposed in 1921. The Nazis printed it anyway. Myth 4. Jews killed Jesus. All of us. Forever. Even the Vatican cleared us. In writing, in 1965, we had it framed. Before that, the charge fueled massacres from 1096 on. The jokes are ours. The consequences were real.",
+  "heard": "4 medieval myths about Jews. Busted. Myth 1. Jews baked Christian blood into Matzah. Not in Matzah. In a Hanukkah donut. That red filling is jam. And it's delicious. Also, Jewish law bans eating blood. We salted out of steak. Norwich. 1144. The first such lie. Pope condemned it. Jews were still killed for centuries. Myth 2. Jews poisoned the wells and caused the Black Death. We drank from the same wells. Worst plan ever. Jews died of plague too. Strasbourg, 1349. Up to 2000 burned. Myth 3. Jews secretly run the world. If we ran the world, would we pick the one spot in the Middle East with basically no oil? The proof? A forgery, exposed in 1921. The Nazis printed it anyway. Myth 4. Jews killed Jesus. All of us. Forever. Even the Vatican cleared us. In writing, in 1965, we had it framed. Before that, the charge fueled massacres. From 1096 on. The jokes are ours. The consequences were real.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
- "voice": "cached voice (script unchanged)",
+ "voice": "pre-made voice file voice/myths_deadpan_splice.wav",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -1.5
  },
- "tightened_s": 8.54,
+ "tightened_s": 9.35,
  "photos": [
   {
    "file": "templates/photos/myths_deadpan/matzah.jpg",
@@ -189,64 +189,64 @@
   },
   {
    "kind": "myth",
-   "start": 3.35
+   "start": 3.36
   },
   {
    "kind": "joke",
-   "start": 6.61
+   "start": 6.62
   },
   {
    "kind": "joke",
-   "start": 11.01
+   "start": 11.81
   },
   {
    "kind": "fact",
-   "start": 14.65
+   "start": 15.45
   },
   {
    "kind": "myth",
-   "start": 20.36
+   "start": 21.2
   },
   {
    "kind": "joke",
-   "start": 23.73
+   "start": 24.58
   },
   {
    "kind": "fact",
-   "start": 27.0
+   "start": 27.86
   },
   {
    "kind": "myth",
-   "start": 31.58
+   "start": 32.45
   },
   {
    "kind": "joke",
-   "start": 34.21
+   "start": 35.09
   },
   {
    "kind": "fact",
-   "start": 38.57
+   "start": 39.45
   },
   {
    "kind": "myth",
-   "start": 43.12
+   "start": 44.0
   },
   {
    "kind": "joke",
-   "start": 46.96
+   "start": 47.82
   },
   {
    "kind": "fact",
-   "start": 52.16
+   "start": 53.04
   },
   {
    "kind": "end",
-   "start": 55.94
+   "start": 56.82
   }
  ],
  "lint_warnings": [
   "source without year: Torah, Leviticus 17:12; kashering meat by salting",
   "source without year: Proven oil: Israel about 12M barrels, Saudi Arabia about 260B (US EIA)"
  ],
- "render_s": 111.9
+ "render_s": 117.5
 }
