@@ -28,16 +28,16 @@
  ],
  "sources": [],
  "transcript": {
-  "score": 0.972,
+  "score": 0.962,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Here is a white Jew from Yemen, a white Jew from Ethiopia, very white. Morocco, white. Iraq, also white. Iran, Persian white. Kurdistan, Kurdish white. Bukhara,",
-    "score": 0.972,
+    "score": 0.962,
     "flag": "ok"
    }
   ],
-  "heard": "9 Jewish communities. All white. Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara. And Uzbekistan. White. India. Extremely white. And Poland. OK, this one is actually white. All white. can't you see? Here's the thing, about half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East, and Asia. And almost 180,000 Israelis have roots in Ethiopia. Nine places on this map, thousands of kilometers apart. One people. Jews are not a skin color, we're a people. So next time someone tells you...",
+  "heard": "9 Jewish communities. All white. Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara. And Uzbekistan. White. India. Extremely white. And Poland. OK, this one is actually white. All white. Can't you see? Here's the thing. About half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East, and Asia. And almost 180,000 Israelis have roots in Ethiopia, 9 places on this map, thousands of kilometers apart, 1 people. Jews are not a skin color, we're a people. The next time someone tells you",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
@@ -51,5 +51,5 @@
  },
  "body_kept_s": 51.9,
  "lint_warnings": [],
- "render_s": 47.4
+ "render_s": 78.5
 }
