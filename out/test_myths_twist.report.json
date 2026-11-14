@@ -1,0 +1,59 @@
+{
+ "id": "test_myths_twist",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* line test",
+ "duration": 10.9,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/test_myths_twist.mp4",
+  "cover": "covers/test_myths_twist_cover.jpg",
+  "preview": "previews/test_myths_twist_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_myths_twist_0.jpg",
+  "1": "out/frames/test_myths_twist_1.jpg",
+  "3": "out/frames/test_myths_twist_3.jpg",
+  "last": "out/frames/test_myths_twist_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting (myths_deadpan line 2 take).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.87,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Myth one: Jews bake Christian blood into matzah.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not in matzah. In a Hanukkah doughnut? That red filling is jam. And it's delicious.",
+    "score": 0.8,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Myth 1, Jews bake Christian blood into matzah, not imatzah, in a Hanukkah donut. That red filling is jam, and it's delicious.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 10.89,
+ "opener": null,
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 20.1
+}
