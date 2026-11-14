@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*6* fronts. One address.",
- "duration": 62.87,
+ "duration": 54.93,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.8
  },
  "outputs": {
   "mp4": "out/iran_one_address.mp4",
@@ -31,36 +31,36 @@
   {
    "label": "US DoD: 241 US service members killed, Beirut",
    "year": 1983,
-   "at": "L2",
-   "until": "L2:tied"
+   "at": "L1",
+   "until": "L1:tied"
   },
   {
    "label": "Peterson v. Islamic Republic of Iran, US District Court",
    "year": 2003,
-   "at": "L2:tied",
-   "until": "L3"
+   "at": "L1:tied",
+   "until": "L2"
   },
   {
    "label": "US State Dept, Country Reports on Terrorism",
    "year": 2023,
-   "at": "L3",
-   "until": "L7"
+   "at": "L2",
+   "until": "L6"
   },
   {
    "label": "Argentina Federal Court of Cassation (AMIA ruling)",
    "year": 2024,
-   "at": "L7",
-   "until": "L9"
+   "at": "L6",
+   "until": "L8"
   },
   {
    "label": "Marco Rubio, US Secretary of State, 13 Nov",
    "year": 2026,
-   "at": "L9",
-   "until": "L11"
+   "at": "L8",
+   "until": "L10"
   }
  ],
  "transcript": {
-  "score": 0.926,
+  "score": 0.933,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -69,13 +69,8 @@
     "flag": "ok"
    },
    {
-    "line": "Start in Tehran.",
-    "score": 0.667,
-    "flag": "MISS"
-   },
-   {
-    "line": "Front one: Lebanon. Hezbollah. In nineteen eighty three, a bombing in Beirut, tied by a US court to Iran and Hezbollah, killed two hundred forty one American tr",
-    "score": 0.964,
+    "line": "Front one: Lebanon. Hezbollah. In nineteen eighty three, a Beirut bombing, tied by a US court to Iran and Hezbollah, killed two hundred forty one American troop",
+    "score": 0.963,
     "flag": "ok"
    },
    {
@@ -84,23 +79,23 @@
     "flag": "ok"
    },
    {
-    "line": "Front three: Syria. Years of backing Assad in the civil war.",
+    "line": "Front three: Syria. Backing Assad's war.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Front four: Yemen. The Houthis, firing on Saudi Arabia, and on ships.",
+    "line": "Front four: Yemen. The Houthis, firing on Saudi Arabia and on ships.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Front five: Gaza. <<h|ɑ|ˈ|m|ɑ|s>>, funded and armed by Iran, says the US State Department.",
-    "score": 0.75,
-    "flag": "MISS"
+    "score": 0.812,
+    "flag": "ok"
    },
    {
-    "line": "Front six is the one people forget. Argentina, nineteen ninety four. A bomb at the Jewish community centre in Buenos Aires killed eighty five people.",
-    "score": 0.92,
+    "line": "Front six, the one people forget: Argentina, nineteen ninety four. A bomb at a Jewish centre in Buenos Aires killed eighty five.",
+    "score": 0.909,
     "flag": "ok"
    },
    {
@@ -109,7 +104,7 @@
     "flag": "ok"
    },
    {
-    "line": "This week, America's Secretary of State put it this way: every major problem in the Middle East, one common denominator.",
+    "line": "This week, the US Secretary of State said it: every major problem in the Middle East, one common denominator.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -134,17 +129,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "6 fronts, one address, star in Tehran, front one, Lebanon, Hezbollah. In 1983, a bombing in Beirut, tied by a US court to Iran and Hezbollah, killed 241 American troops, front two, Iraq, Iran backed militias, front three, Syria, years of backing Assad in the civil war, front four, Yemen, the Houthis, firing on Saudi Arabia and on ships, front Front 5, Gaza, Hamas, funded and armed by Iran, says the U.S. State Department. Front 6 is the one people forget. Argentina, 1994, a bomb at the Jewish Community Center in Buenos Aires killed 85 people. Argentina's courts blamed Iran and Hezbollah. This week, America's Secretary of State put it this way, every major problem in the Middle East, one common denominator. And if you don't understand this, you don't understand Iran. This is about the regime, not the Iranian people, and not a faith. If you like Israel facts, follow Noam Ra's for more. Count the lines, they all start in one city.",
+  "heard": "6. Fronts One address Front 1 Lebanon Hezbollah In 1983, a Beirut bombing, tied by a US court to Iran and Hezbollah, killed 241 American troops. Front 2 Iraq Iran backed militias Front 3 Syria Backing Assad's war Front 4 Yemen The Houthis Firing on Saudi Arabia and on ships Front 5 Gaza Hamas Funded and armed by Iran, says the US State Department. Front 6 The one people forget Argentina 1994, a bomb at a Jewish center in Buenos Aires killed 85. Argentina's courts blamed Iran and Hezbollah. This week, the US Secretary of State said it. Every major problem in the Middle East, one common denominator. And if you don't understand this, you don't understand Iran. This is about the regime, not the Iranian people, and not a faith. If you like Israel facts, follow Noam Ross for more. Count the lines, they all start in one city.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 62.85,
+ "body_s": 54.94,
  "opener": null,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.8
  },
  "lint_warnings": [],
- "render_s": 77.0
+ "render_s": 67.0
 }
