@@ -1,0 +1,135 @@
+{
+ "id": "europe_jews_map_v2c",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Where did Europe's|*Jews* go?",
+ "duration": 51.2,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.6
+ },
+ "outputs": {
+  "mp4": "out/europe_jews_map_v2c.mp4",
+  "cover": "covers/europe_jews_map_v2c_cover.jpg",
+  "preview": "previews/europe_jews_map_v2c_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/europe_jews_map_v2c_0.jpg",
+  "1": "out/frames/europe_jews_map_v2c_1.jpg",
+  "3": "out/frames/europe_jews_map_v2c_3.jpg",
+  "last": "out/frames/europe_jews_map_v2c_last.jpg"
+ },
+ "caption_en": "Nine and a half million in 1933. Count what is left.\n\nWhere did Europe's Jews go? 🕯️\n\n1933: about 9.5 million Jews lived in Europe. Poland over 3 million, the Soviet Union (European part) 2,525,000, Romania 756,000, Germany 525,000, Hungary 445,000, Britain 300,000, France 250,000.\n1950: about 3.5 million.\nPoland: from about 3,000,000 to about 45,000. Germany: from 525,000 to 37,000. Hungary: 445,000 to 190,000. Czechoslovakia: 357,000 to 17,000.\nAbout 136,000 Jewish displaced persons settled in Israel, and over 80,000 in the United States by 1952. The Soviet Union still had some two million Jews.\nSix million Jews were murdered in the Holocaust.\n\nThe real data points are 1933 and 1950; the counter in between is drawn for the animation.\n\nSources: United States Holocaust Memorial Museum (USHMM), Holocaust Encyclopedia (Jewish population of Europe in 1933; Remaining Jewish population of Europe in 1945; Displaced persons), based on the American Jewish Year Book. AI voice (Noam's own cloned voice).",
+ "caption_he": "לאן נעלמו יהודי אירופה? ב 1933 חיו באירופה כ 9.5 מיליון יהודים. ב 1950 נותרו כ 3.5 מיליון. שישה מיליון נרצחו בשואה.",
+ "hashtags": [
+  "#Holocaust",
+  "#JewishHistory",
+  "#NeverForget",
+  "#IsraelFacts"
+ ],
+ "sources": [
+  {
+   "label": "USHMM Holocaust Encyclopedia (American Jewish Year Book)",
+   "year": 1950,
+   "at": "L1",
+   "until": "L9"
+  },
+  {
+   "label": "USHMM: displaced persons",
+   "year": 1952,
+   "at": "L9",
+   "until": "L12"
+  },
+  {
+   "label": "USHMM Holocaust Encyclopedia",
+   "year": 2024,
+   "at": "L12",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.931,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Where did Europe's Jews go?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen thirty three. Nine and a half million Jews live in Europe.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Poland, over three million. The Soviet Union, two and a half million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Romania. Germany. Hungary. Britain. France.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Families, schools, synagogues, whole towns.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then come the Nazis, and the war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By nineteen fifty, the counter reads three and a half million.",
+    "score": 0.727,
+    "flag": "MISS"
+   },
+   {
+    "line": "Poland: from three million, to forty five thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Germany: from over half a million, to thirty seven thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About one hundred thirty six thousand survivors went to Israel, and over eighty thousand to the United States.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+    "score": 0.615,
+    "flag": "MISS"
+   },
+   {
+    "line": "The Soviet Union still had about two million. But most of the missing never went anywhere.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Six million Jews were murdered in the Holocaust.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Where did Europe's Jews go? 1933, nine and a half million Jews live in Europe. Poland, over three million. The Soviet Union, two and a half million. Romania, Germany, Hungary, Britain, France. Families, schools, synagogues, whole towns. Then come the Nazis and the war. By 1950, The counter reads 3.5 million, Poland, from 3 million to 45,000, Germany. From over half a million to 37,000. About 136,000 survivors went to Israel, and over 80,000 to the United States. If you like Israel facts, follow Noam Roz for more. The Soviet Union still had about 2 million, but most of the missing never went anywhere. 6 million Jews were murdered in the Holocaust.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 51.21,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.6
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 76.5
+}
