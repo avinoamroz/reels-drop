@@ -33,12 +33,12 @@
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "In this corner, Israel, $54,000, and in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. Eight count",
+    "line": "In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey, eight count",
     "score": 0.99,
     "flag": "ok"
    }
   ],
-  "heard": "$54,000 against 9 countries In this corner, Israel, $54,000 And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey 8 countries, 42,000 together, and Israel holds Ok, let's swap Turkey for Oman, 47,000, still Israel Fine, everyone together, 63,000 Finally, Israel slides over the line. It took a team of 9 to out-pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back, and oil lifts the Gulf. Ready for the rematch? Same rope.",
+  "heard": "$54,000 against 9 countries. In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. 8 countries, 42,000 together, and Israel holds. Okay, let's swap Turkey for Oman, 47,000, still Israel. Fine. Everyone together, 63,000. Finally, Israel slides over the line. It took a team of nine to out pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back and oil lifts the Gulf. Ready for the rematch? Same rope.",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
@@ -52,5 +52,5 @@
  },
  "body_kept_s": 43.09,
  "lint_warnings": [],
- "render_s": 68.0
+ "render_s": 91.0
 }
