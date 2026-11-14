@@ -1004,6 +1004,105 @@
     "tsize": 40,
     "col": "white"
    }
+  ],
+  "photo_box": [
+   90,
+   1525,
+   900,
+   355,
+   28
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/iran_one_address/hezb_weapons.jpg",
+    "at": "L1:hezbollah",
+    "until": "L1:nineteen-0.1",
+    "credit": "Hezbollah weapons, IDF, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/iran_one_address/beirut_sign.jpg",
+    "at": "L1:nineteen",
+    "until": "L2-0.1",
+    "credit": "Beirut 1983, US Navy Chaplaincy (PD)",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/iran_one_address/syria_homs.jpg",
+    "at": "L3:syria",
+    "until": "L4-0.1",
+    "credit": "Homs 2012, US State Dept (PD)",
+    "kb": [
+     0.72,
+     0.5,
+     1.0,
+     0.72,
+     0.5,
+     1.15
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/iran_one_address/carney.jpg",
+    "at": "L4:yemen",
+    "until": "L5-0.1",
+    "credit": "USS Carney, Red Sea 2023, US Navy (PD)",
+    "kb": [
+     0.6,
+     0.4,
+     1.0,
+     0.6,
+     0.35,
+     1.12
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/iran_one_address/hamas_tunnel.jpg",
+    "at": "L5:gaza",
+    "until": "L6-0.1",
+    "credit": "HAMAS tunnel, IDF, CC BY-SA 2.0",
+    "kb": [
+     0.4,
+     0.6,
+     1.0,
+     0.4,
+     0.6,
+     1.12
+    ],
+    "dim": 0.2
+   },
+   {
+    "file": "templates/photos/iran_one_address/amia_pasteur.jpg",
+    "at": "L6:argentina",
+    "until": "L8-0.1",
+    "credit": "AMIA memorial, Buenos Aires, CC BY 2.5 AR",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.55,
+     1.1
+    ],
+    "dim": 0.15
+   }
   ]
  },
  "sources": [
@@ -1038,7 +1137,7 @@
    "until": "L10"
   }
  ],
- "caption_en": "Count the lines. They all start in one city.\n\n6 fronts, one address:\n1. Lebanon: Hezbollah. In 1983 the Beirut barracks bombing killed 241 US service members (US Department of Defense); a US federal court (Peterson v. Islamic Republic of Iran, 2003) held Iran responsible, with Hezbollah carrying it out.\n2. Iraq: Iran backed militias (US State Department, Country Reports on Terrorism 2023).\n3. Syria: Iran's Islamic Revolutionary Guard Corps (IRGC) backed the Assad regime through the civil war (same report).\n4. Yemen: the Houthis, armed by Iran, fired on Saudi Arabia and on ships in the Red Sea (same report).\n5. Gaza: HAMAS, funded and armed by Iran (same report).\n6. Argentina: in 1994 a bomb at the AMIA (Argentine Israelite Mutual Association) Jewish community centre in Buenos Aires killed 85 people. In 2024 Argentina's Federal Court of Cassation ruled that Iran ordered it and Hezbollah carried it out.\n\nMarco Rubio, US Secretary of State, Federalist Society, 13 Nov 2026 (official State Department transcript): \"every major problem in the Middle East ... one common denominator\" and \"if you don't understand this, you don't understand Iran.\"\n\nThis is about the regime. Not the Iranian people, and not a faith.\n\nName a 7th front?\nAI voice (Noam's own cloned voice), AI made visuals. Map, not footage.",
+ "caption_en": "Count the lines. They all start in one city.\n\n6 fronts, one address:\n1. Lebanon: Hezbollah. In 1983 the Beirut barracks bombing killed 241 US service members (US Department of Defense); a US federal court (Peterson v. Islamic Republic of Iran, 2003) held Iran responsible, with Hezbollah carrying it out.\n2. Iraq: Iran backed militias (US State Department, Country Reports on Terrorism 2023).\n3. Syria: Iran's Islamic Revolutionary Guard Corps (IRGC) backed the Assad regime through the civil war (same report).\n4. Yemen: the Houthis, armed by Iran, fired on Saudi Arabia and on ships in the Red Sea (same report).\n5. Gaza: HAMAS, funded and armed by Iran (same report).\n6. Argentina: in 1994 a bomb at the AMIA (Argentine Israelite Mutual Association) Jewish community centre in Buenos Aires killed 85 people. In 2024 Argentina's Federal Court of Cassation ruled that Iran ordered it and Hezbollah carried it out.\n\nMarco Rubio, US Secretary of State, Federalist Society, 13 Nov 2026 (official State Department transcript): \"every major problem in the Middle East ... one common denominator\" and \"if you don't understand this, you don't understand Iran.\"\n\nThis is about the regime. Not the Iranian people, and not a faith.\n\nName a 7th front?\nAI voice (Noam's own cloned voice), AI made visuals. Map, not footage.\n\nPhotos via Wikimedia Commons: Israel Defense Forces (CC BY 2.0, CC BY-SA 2.0); US Navy Chaplaincy School (PD); US State Department (PD); US Navy (PD); Buenos Aires Ciudad (CC BY 2.5 AR).",
  "caption_he": "תספרו את הקווים. כולם מתחילים בעיר אחת.\n6 חזיתות, כתובת אחת:\n1. לבנון: חיזבאללה. ב 1983 הפיצוץ במגורי הנחתים בביירות הרג 241 אנשי צבא אמריקאים. בית משפט פדרלי בארה״ב קבע שאיראן אחראית.\n2. עיראק: מיליציות בגיבוי איראן.\n3. סוריה: תמיכה במשטר אסד במלחמת האזרחים.\n4. תימן: החות׳ים יורים על סעודיה ועל ספינות.\n5. עזה: חמאס, במימון ובחימוש איראני (משרד החוץ האמריקאי).\n6. ארגנטינה: ב 1994 פיגוע בבניין הקהילה היהודית AMIA בבואנוס איירס הרג 85 בני אדם. ב 2024 בית המשפט בארגנטינה קבע שאיראן הורתה עליו וחיזבאללה ביצע.\nמדובר במשטר. לא בעם האיראני, ולא בדת.",
  "hashtags": [
   "#Iran",

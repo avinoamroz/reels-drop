@@ -25,6 +25,7 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
               placeholder name, never a real user or screenshot); pops in at each window start, e.g. [[0, "L0e"], ["END-2", "END"]]
               so the loop lands on it again; text wraps to 2 lines (default size 60, name 40)
   photos      [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], dim, gray}]   optional real photos, full bleed
+  photo_box   [x, y, w, h, radius]  optional: show the photos inside this rounded panel instead (map, pins and routes stay visible)
               over the map in their window (crossfade `photo_cut`, default 0.25 s); map pins/icons/routes/zones fade
               out under a photo, counter/cards/subs stay on top; "Photo: <credit>" at credit_y (default 1712, 36 px)
   overlays    [{at, until, text, y, size, pill, cue}]   extra on-screen text not tied to a spoken line (*word* yellow):
@@ -206,6 +207,19 @@ def run(S):
         for p in D["photos"]: PH.append(dict(p, t0=A(p["at"]), im=_load(p["file"], p.get("gray", False))))
         for k, p in enumerate(PH): p["t1"] = A(p["until"]) if p.get("until") else (PH[k + 1]["t0"] if k + 1 < len(PH) else T.END)
     PXF = float(D.get("photo_cut", 0.25))
+    BOX = D.get("photo_box")                      # [x, y, w, h, radius]: photos in a rounded panel (map stays visible) instead of full bleed
+    if BOX:
+        bw_, bh_, br_ = int(BOX[2]), int(BOX[3]), int(BOX[4]) if len(BOX) > 4 else 28
+        BOXM = np.ones((bh_, bw_), np.float32); yy, xx = np.mgrid[0:bh_, 0:bw_]
+        for cx_, cy_ in ((br_, br_), (bw_ - br_ - 1, br_), (br_, bh_ - br_ - 1), (bw_ - br_ - 1, bh_ - br_ - 1)):
+            q = ((np.abs(xx - cx_) <= br_) & (np.abs(yy - cy_) <= br_) & ((xx < br_) | (xx >= bw_ - br_)) & ((yy < br_) | (yy >= bh_ - br_)))
+            BOXM[q] = np.clip(br_ + 0.5 - np.hypot(xx - cx_, yy - cy_), 0, 1)[q]
+
+    def _kb_box(im, cx, cy, z, bw, bh):
+        h, w = im.shape[:2]; s_ = max(bw / w, bh / h) * max(1.0, z); cw, ch = bw / s_, bh / s_
+        x0 = min(max(cx * w - cw / 2, 0), w - cw); y0 = min(max(cy * h - ch / 2, 0), h - ch)
+        M = np.array([[s_, 0, -x0 * s_], [0, s_, -y0 * s_]], np.float32)
+        return cv2.warpAffine(im, M, (bw, bh), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT).astype(np.float32)
 
     def photo_mix(t):
         """(alpha, layer) of the photo(s) showing at t, or (0, None)"""
@@ -275,7 +289,20 @@ def run(S):
                 x, y = geo(p["lon"], p["lat"]); c = COL.get(p.get("color", "red"), p.get("color", RED))
                 WG.pin(cv, x, y, c, pa, t)
                 if p.get("label"): WG.tag(cv, p["label"], x, y - 50, p.get("size", 40), YEL if c == YEL else WHITE, pa)
-        if PH:
+        if PH and BOX:
+            for p in PH:
+                ba = win(t, p["t0"] - PXF, p["t1"], PXF, PXF)
+                if ba <= 0.01: continue
+                bx, by, bw, bh = [int(v) for v in BOX[:4]]
+                kb = p.get("kb") or [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]; u = ease((t - p["t0"]) / max(0.5, p["t1"] - p["t0"]))
+                lay = _kb_box(p["im"], kb[0] + (kb[3] - kb[0]) * u, kb[1] + (kb[4] - kb[1]) * u, kb[2] + (kb[5] - kb[2]) * u, bw, bh) * (1 - p.get("dim", 0.15))
+                base_ = cv.out().astype(np.float32); m = BOXM[..., None] * ba
+                base_[by:by + bh, bx:bx + bw] = base_[by:by + bh, bx:bx + bw] * (1 - m) + lay * m
+                cv = Canvas(base_)
+                cv.rrect(bx, by, bw, bh, BOX[4] if len(BOX) > 4 else 28, None, 0, stroke="#FFFFFF", lw=3, sa=0.55 * ba)
+                if p.get("credit"):
+                    cv.text("Photo: " + p["credit"], 540, by + bh - 30, 36, "#FFFFFF", 0.9 * ba, bold=False, maxw=bw - 40, minsz=36)
+        elif PH:
             pha, phl = photo_mix(t)
             if pha > 0.001:
                 cv = Canvas(cv.out().astype(np.float32) * (1 - pha) + phl * pha)
