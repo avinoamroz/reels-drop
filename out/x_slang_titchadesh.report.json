@@ -34,7 +34,7 @@
   }
  ],
  "transcript": {
-  "score": 0.977,
+  "score": 1.0,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -54,7 +54,7 @@
    },
    {
     "line": "At work, say, congrats on the new role!",
-    "score": 0.875,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -78,7 +78,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Sarah says, check out my new laptop. You say, nice, enjoy it. Or looks great. At work, say, congrats on the new roll. I got promoted to team lead. Congrats, well deserved. Thanks, coffee is on me. Save this for your next meeting.",
+  "heard": "Sarah says, check out my new laptop, you say nice, enjoy it, or looks great, at work say congrats on the new role, I got promoted to team lead, congrats, well deserved, thanks, coffee is on me, save this for your next meeting.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -88,5 +88,5 @@
   "true_peak": -1.7
  },
  "lint_warnings": [],
- "render_s": 44.3
+ "render_s": 34.9
 }
