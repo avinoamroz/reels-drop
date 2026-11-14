@@ -1,0 +1,30 @@
+{
+ "id": "trend_followers_c",
+ "account": "expressenglishcom",
+ "template": "trend_text",
+ "hook": "At *10,614.* Let's see!",
+ "lines": [],
+ "data": {
+  "dur": 9.0,
+  "text": "Seeing people gain *2k* followers a week with this sound.|I'm currently at *10,614.*|Let's see!",
+  "bg": "express",
+  "size": 80,
+  "y": 780,
+  "he": "אני כרגע על 10,614. בואו נראה!",
+  "he_y": 1500,
+  "he_size": 60
+ },
+ "sources": [],
+ "caption_en": "Let's see. 📈",
+ "caption_he": "רואה אנשים שמרוויחים 2,000 עוקבים בשבוע עם הסאונד הזה. אנחנו כרגע על 10,614. בואו נראה! 📈\n\nכל יום: עוד צעד לאנגלית בטוחה בעבודה.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#LearnEnglish",
+  "#trend"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 6.0,
+  "text": "At *10,614.* Let's see!"
+ }
+}
