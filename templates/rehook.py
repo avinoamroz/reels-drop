@@ -12,6 +12,7 @@ data keys:
   peek       source time for the card's background (the reveal; no faces), default 60 % of the reel
   count      {from, to, prefix, suffix, dec, label}  the moving number on the card
   hook_y     default 760
+  peek_blur, peek_dim, text_panels   background blur (default 16), brightness (default 0.36), dark panels behind the text
 """
 import os, sys, math, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -38,9 +39,12 @@ def run(S):
 
     def frame(t):
         k = min(len(PF) - 1, int(t * 0.6 * FPS)); z = 1.0 + 0.08 * (t / hd)
-        bg = cv2.GaussianBlur(PF[k], (0, 0), 16).astype(np.float32)
-        M = cv2.getRotationMatrix2D((W / 2, H / 2), 0, z); bg = cv2.warpAffine(bg, M, (W, H), borderMode=cv2.BORDER_REFLECT) * 0.36
+        bl = float(D.get("peek_blur", 16)); bg = (cv2.GaussianBlur(PF[k], (0, 0), bl) if bl > 0 else PF[k]).astype(np.float32)
+        M = cv2.getRotationMatrix2D((W / 2, H / 2), 0, z); bg = cv2.warpAffine(bg, M, (W, H), borderMode=cv2.BORDER_REFLECT) * float(D.get("peek_dim", 0.36))
         cv = Canvas(bg)
+        if D.get("text_panels"):     # readable panels over a sharp, moving background
+            cv.rrect(40, HY - 190, 1000, 380, 44, "#0B1730", 0.78)
+            if CT: cv.rrect(90, 1030, 900, 420, 44, "#0B1730", 0.78)
         if CT:
             u = eout((t - 0.3) / 1.1); v = CT.get("from", 0) + (CT["to"] - CT.get("from", 0)) * u if t > 0.3 else CT.get("from", 0)
             cv.text(WG.fmtn(v, CT.get("dec", 0), CT.get("prefix", ""), CT.get("suffix", "")), 540, 1180, 300, YEL, 1.0, maxw=960)

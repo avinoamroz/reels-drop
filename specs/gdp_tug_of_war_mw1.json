@@ -8,27 +8,30 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
-  "gap": 0.2,
-  "lead": 0.25
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12
  },
  "lines": [
   {
-   "say": "Fifty four thousand dollars a person, against nine countries. Welcome to the GDP championship."
+   "say": "Fifty four thousand dollars, against nine countries."
   }
  ],
  "data": {
   "source": "gdp_tug_of_war.mp4",
   "cut": 6.0,
-  "hook_dur": 2.2,
+  "hook_dur": 2.5,
   "peek": 30.0,
   "count": {
-   "from": 0,
+   "from": 54291,
    "to": 54291,
    "prefix": "$",
    "label": "Israel, GDP per person, 2024 (IMF)"
   },
-  "brand": true
+  "brand": true,
+  "peek_blur": 2.5,
+  "peek_dim": 0.62,
+  "text_panels": true
  },
  "sources": [],
  "caption_en": "One country against nine. Watch the rope. 🪢\n\n1 Israeli vs 9 countries. Who wins the GDP tug of war? 🪢\n\nGDP per person, 2024 (US$):\n🇮🇱 Israel: 54,291\n🇾🇪 Yemen: 442\n🇸🇾 Syria: 1,057 (World Bank, 2022, latest)\n🇱🇧 Lebanon: 5,248\n🇮🇷 Iran: 4,834\n🇪🇬 Egypt: 3,594\n🇯🇴 Jordan: 5,003\n🇮🇶 Iraq: 6,388\n🇹🇷 Turkey: 15,914\n🇴🇲 Oman: 20,529\n\n8 countries together: 42,480. Israel holds.\nSwap Turkey for Oman: 47,095. Still Israel.\nAll 9 together: 63,009. Only then they win.\n\nAdding up per-person numbers is a playful scoreboard, not an economic statistic. It shows the size of the gap.\nWar and sanctions hold Yemen and Syria back, and oil lifts the Gulf. This is about economies, not about anyone being less.\n\nישראלי אחד מול 9 מדינות. תוצר לנפש, 2024: ישראל 54,291. שמונה מדינות ביחד: 42,480, וישראל מחזיקה. רק כשכל ה 9 מושכים ביחד, 63,009, הם מנצחים.\n\nSources: IMF World Economic Outlook, Oct 2026, GDP per capita (NGDPDPC), 2024. Syria: World Bank, NY.GDP.PCAP.CD, 2022.\nMade with AI tools.\nAI voice (Noam's own cloned voice) on the new opening.",

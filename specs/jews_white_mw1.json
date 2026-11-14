@@ -8,26 +8,29 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
-  "gap": 0.2,
-  "lead": 0.25
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12
  },
  "lines": [
   {
-   "say": "Nine Jewish communities. All white, of course. Let me show you."
+   "say": "Nine Jewish communities. All white, obviously."
   }
  ],
  "data": {
   "source": "jews_white.mp4",
   "cut": 5.4,
-  "hook_dur": 2.2,
+  "hook_dur": 2.5,
   "peek": 47.0,
   "count": {
-   "from": 1,
+   "from": 9,
    "to": 9,
    "label": "Jewish communities"
   },
-  "brand": true
+  "brand": true,
+  "peek_blur": 2.5,
+  "peek_dim": 0.62,
+  "text_panels": true
  },
  "sources": [],
  "caption_en": "9 Jewish communities. Spot the pattern. 🙃\n\nJews are white. Obviously. 🙃\n\nYemenite white. Ethiopian white. Moroccan white. Iraqi white. Persian white. Kurdish white. Bukharan white. Indian (Bene Israel) white. And Ashkenazi: actually white.\n\nThe facts behind the joke:\n🇮🇱 About half of Israel's Jews are Mizrahi or Sephardi: 48%, against 45% Ashkenazi (Pew Research Center, \"Israel's Religiously Divided Society\", 2016).\n🇪🇹 177,600 Israelis are of Ethiopian origin (Israel Central Bureau of Statistics, 2024 data, published November 2025).\n🗺️ Their families came home from North Africa, the Middle East, Asia and Europe: Yemen, Ethiopia, Morocco, Iraq, Iran, Kurdistan, Bukhara, India, Poland and many more.\n\nJews aren't a skin color. We're a people.\n\nIllustrations: drawn for this reel, not real people. AI-assisted.\n\nSend this to someone who still thinks Jews are one color.\n\nיהודים הם לבנים. ברור. 🙃\nהעובדות: כמחצית מיהודי ישראל הם מזרחים או ספרדים, 48% לעומת 45% אשכנזים (Pew, 2016). 177,600 ישראלים ממוצא אתיופי (הלמ\"ס, נתוני 2024).\nיהודים הם לא צבע עור. אנחנו עם.\nAI voice (Noam's own cloned voice) on the new opening.",

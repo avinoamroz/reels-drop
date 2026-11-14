@@ -8,26 +8,29 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
-  "gap": 0.2,
-  "lead": 0.25
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12
  },
  "lines": [
   {
-   "say": "Twenty six hundred years of Jewish journeys, in forty seconds. Guess where the most Jews live today."
+   "say": "Twenty six hundred years. Where did Jews live?"
   }
  ],
  "data": {
   "source": "tiktok/mw_lib_vid_jews_world_v3_ig.mp4",
   "cut": 5.0,
-  "hook_dur": 2.2,
+  "hook_dur": 2.5,
   "peek": 30.0,
   "count": {
-   "from": 0,
+   "from": 2600,
    "to": 2600,
    "label": "years of Jewish journeys"
   },
-  "brand": true
+  "brand": true,
+  "peek_blur": 2.5,
+  "peek_dim": 0.62,
+  "text_panels": true
  },
  "sources": [],
  "caption_en": "Where do most Jews live today? Watch until the end. 🌍\n\nWhere did the Jews live? 2,600 years of Jewish journeys in 40 seconds. 🌍\n\nFrom the Kingdom of Judah to Babylon, Spain, Poland, Russia, America, and back to Israel. Today Israel is home to the most Jews in the world.\n\nאיפה חיו היהודים? 2,600 שנה של מסעות יהודיים ב 40 שניות. מממלכת יהודה לבבל, ספרד, פולין, רוסיה, אמריקה, ובחזרה לישראל.\n\nWhere did YOUR family live 100 years ago?\nאיפה המשפחה שלכם חיה לפני 100 שנה?\n\nApproximate: ancient figures are estimates. Map: NASA Blue Marble (public domain), Natural Earth borders. Sources: Sergio DellaPergola (Jewish population estimates); Jewish Agency; national censuses.\nAI voice (Noam's own cloned voice) on the new opening.",

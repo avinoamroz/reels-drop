@@ -8,26 +8,29 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
-  "gap": 0.2,
-  "lead": 0.25
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12
  },
  "lines": [
   {
-   "say": "At the lowest point, about seven thousand Jews lived here. Today, seven point six million. Watch three thousand years."
+   "say": "Seven thousand Jews were left. Then this."
   }
  ],
  "data": {
   "source": "tiktok/vert_pop_race_v6_en_ig.mp4",
   "cut": 5.0,
-  "hook_dur": 2.2,
+  "hook_dur": 2.5,
   "peek": 40.0,
   "count": {
    "from": 7000,
    "to": 7600000,
    "label": "Jews here: lowest point to today"
   },
-  "brand": true
+  "brand": true,
+  "peek_blur": 2.5,
+  "peek_dim": 0.62,
+  "text_panels": true
  },
  "sources": [],
  "caption_en": "The lowest point was 7,000. Watch what came next. 🗺️\n\n3,000 years. Who lived in this land? 🗺️\n\nFrom the Jordan to the sea, people by religion: Jews, Canaanites, Philistines, Samaritans, Greek and Roman pagans, Christians, Muslims and Druze. Each dot on the map is 2,000 people.\n\nJews never fully left. At the lowest point, from the 1500s to 1800, about 7,000 Jews lived here. Today it's about 7.6 million.\n\nFigures are rounded estimates, and ancient numbers have wide ranges. The area includes the West Bank and Gaza.\n\nSources: Magen Broshi (ancient population estimates); Sergio DellaPergola (Jewish demography); Justin McCarthy, The Population of Palestine (Ottoman era); British Mandate censuses 1922 and 1931; Israel Central Bureau of Statistics; Palestinian Central Bureau of Statistics.\n\nWhich era surprised you the most?\nAI voice (Noam's own cloned voice) on the new opening.",
