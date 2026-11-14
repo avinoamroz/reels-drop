@@ -3765,21 +3765,6 @@
     ],
     "dim": 0.15,
     "credit": "Sa'ar 6 corvette: Marco Kuntzsch, CC BY-SA 3.0, Commons"
-   },
-   {
-    "file": "templates/photos/israel_shield_layers/hfc.jpg",
-    "at": "L8:safe",
-    "until": "L8e",
-    "kb": [
-     0.5,
-     0.5,
-     1.0,
-     0.5,
-     0.5,
-     1.1
-    ],
-    "dim": 0.2,
-    "credit": "Home Front Command drill: IDF, CC BY 2.0, Commons"
    }
   ],
   "tail": 0.55
@@ -3822,7 +3807,7 @@
    "until": "L8"
   },
   {
-   "label": "Home Front Command; safe room specs from 1992",
+   "label": "Home Front Command; safe room specs after the Gulf War",
    "year": 1992,
    "at": "L8",
    "until": "L9"
