@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*4* claims, *3,000* years.|True?",
- "duration": 62.8,
+ "duration": 60.4,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -3.4
+  "true_peak": -3.1
  },
  "outputs": {
   "mp4": "out/philistines_vs_pal_mw1.mp4",
@@ -29,28 +29,28 @@
  ],
  "sources": [],
  "transcript": {
-  "score": 0.934,
+  "score": 0.947,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Gath. Claim one. Palestinians are the Philistines? No. The Philisti",
-    "score": 0.934,
+    "score": 0.947,
     "flag": "ok"
    }
   ],
-  "heard": "Four claims, 3,000 years, which are true. Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and death. Claim one. Palestinians are the Philistines? No. The Philistines came from the Aegean. Their European DNA faded in two centuries. 604 BCE. Babylon destroys Ashkelon. Only the name survived. Claim two. Palestinians are Canaanites here before the Jews. They're Levantine Arabs, closest to Jordanians and Lebanese. Some ancient local DNA, yes, like their neighbors. A Canaanite people, no. Claim 3. Jews are foreigners from Europe. No roots here? No. Egypt named Israel in 1208 BCE, before the Philistines. Jewish DNA worldwide shows Levantine roots. Claim 4. The Romans named it Palestine to erase the Jews, partly. After the Bar-Kukba revolt, Hadrian made Judea Syria-Palestina, a punishment, but the name was older. Herodotus used it. People's carry Canaanite roots one borrowed name so next time someone asks",
+  "heard": "Four claims, 3,000 years. Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Dath. Claim one. Palestinians are the Philistines? No. The Philistines came from the Aegean. Their European DNA faded in two centuries. 604 BCE. Babylon destroys Ashkelon. Only the name survived. Claim two. Palestinians are Canaanites here before the Jews. They're Levantine Arabs, closest to Jordanians and Lebanese. Some ancient local DNA? Yes, like their neighbors. A Canaanite people? No. Claim 3. Jews are foreigners from Europe. No roots here? No. Egypt named Israel in 1208 BCE before the Philistines. Jewish DNA worldwide shows Levantine roots. Claim 4. The Romans named it Palestine to erase the Jews. Partly. After the Bar-Kukba revolt, Hadrian made Judea Syria-Palestina. A punishment. But the name was older. Herodotus used it. Both peoples carry Canaanite roots. One borrowed name. So next time someone asks",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "philistines_vs_pal_v4.mp4",
  "cut": 5.1,
- "hook_dur": 4.92,
+ "hook_dur": 2.5,
  "mix": {
   "lufs": -16.0,
-  "true_peak": -3.4
+  "true_peak": -3.1
  },
  "body_kept_s": 58.13,
  "lint_warnings": [],
- "render_s": 100.1
+ "render_s": 97.0
 }
