@@ -1,0 +1,92 @@
+{
+ "id": "x_slang_lo_naim_li",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Lo na'im li? 3 ways",
+ "duration": 22.53,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.0
+ },
+ "outputs": {
+  "mp4": "out/x_slang_lo_naim_li.mp4",
+  "cover": "covers/x_slang_lo_naim_li_cover.jpg",
+  "preview": "previews/x_slang_lo_naim_li_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/x_slang_lo_naim_li_0.jpg",
+  "1": "out/frames/x_slang_lo_naim_li_1.jpg",
+  "3": "out/frames/x_slang_lo_naim_li_3.jpg",
+  "last": "out/frames/x_slang_lo_naim_li_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "הבוס מבקש משהו בעשר בלילה, ולא נעים לכם להגיד לא. איך אומרים לא נעים לי באנגלית, בלי להישמע גסים? 😬\n\nבשיחה: I hate to say no, but I can't.\nאו: I feel bad, but I can't tonight.\nבעבודה: I'm afraid I can't. How about tomorrow?\n(אני חושש שלא אוכל. מה לגבי מחר?)\n\nהסוד: לא נעים לי + הצעה אחרת = לא שנשמע כמו כן.\n\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\n\nלמי לא נעים לכם להגיד לא? 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.967,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Tom says, can you send the report tonight?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You say, I hate to say no, but I can't.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Or, I feel bad, but I can't tonight.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At work, say, I'm afraid I can't. How about tomorrow?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Can you join a call at 8 PM?",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "I'm afraid I can't. How about 9 AM?",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "9 works. Thanks!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Tom says, can you send the report tonight? You say, I hate to say no, but I can't. Or I feel bad, but I can't tonight. At work, say, I'm afraid I can't. How about tomorrow? Can you join a call at 8 p.m.? I'm afraid I can't. How about 9 a.m.? 9 works. Thanks. Save this for your next meeting.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.0
+ },
+ "lint_warnings": [],
+ "render_s": 29.4
+}
