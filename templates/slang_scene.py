@@ -12,6 +12,8 @@ data keys:
   chat       [{who: them | me, text, at}]     mini chat, 2 to 4 bubbles
   save       {at, text}                       default "Save this for your next meeting"
   hook_y     default 330
+  design     2 = Noam's 14 Nov fix: bigger figures, props between them (no table through a body), zoom tiles
+             that hold the figures with the bubble above them, option tag on its own row (no overlap)
 """
 import os, sys, math, re
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -51,6 +53,19 @@ def rich_wrap(cv, txt, cx, cy, sz, a, maxw, base=WHITE, align="c"):
     return len(lines) * lh
 
 
+def props2(cv, kind, a):
+    """design 2 (Noam fix 14 Nov): props sit BETWEEN the bigger figures, nothing crosses a body"""
+    if kind == "office":
+        cv.rrect(390, 1150, 300, 24, 10, "#2B4A80", a); cv.line([(420, 1174), (420, 1330)], "#2B4A80", 10, a); cv.line([(660, 1174), (660, 1330)], "#2B4A80", 10, a)
+        cv.rrect(470, 1080, 140, 70, 8, "#0E2250", a, stroke=SKY, lw=3)
+    elif kind == "coffee":
+        cv.rrect(420, 1160, 240, 22, 10, "#2B4A80", a); cv.line([(540, 1182), (540, 1330)], "#2B4A80", 10, a); cv.line([(470, 1330), (610, 1330)], "#2B4A80", 10, a)
+        for x in (480, 600): cv.rrect(x - 20, 1114, 40, 46, 9, "#E8EEF8", a); cv.line([(x + 20, 1127), (x + 32, 1127), (x + 32, 1145), (x + 20, 1145)], "#E8EEF8", 5, a)
+    elif kind == "zoom":
+        for k in range(2):
+            cv.rrect(70 + k * 490, 800, 450, 560, 26, "#0E2250", a, stroke=SKY, lw=3)
+
+
 def props(cv, kind, a):
     if kind == "office":
         cv.rrect(170, 1090, 740, 26, 10, "#2B4A80", a); cv.line([(220, 1116), (220, 1250)], "#2B4A80", 10, a); cv.line([(860, 1116), (860, 1250)], "#2B4A80", 10, a)
@@ -64,7 +79,7 @@ def props(cv, kind, a):
 
 
 def run(S):
-    D = S["data"]; work = workdir(S)
+    D = S["data"]; work = workdir(S); V2 = D.get("design") == 2
     J = build_voice(S, work); T = Timing(J, D.get("tail", 2.0)); A = T.at
     SP = D["speaker"]; t_sp = A(SP.get("at"), 0.5) if SP.get("at") is not None else 0.5
     OP = [dict(o, t0=A(o["at"])) for o in D.get("options", [])][:3]
@@ -78,7 +93,21 @@ def run(S):
         cv = Canvas(bars_moving_bg(t, 8))
         # 1. scene
         sa = 1 - seg(t, t_op - 0.2, t_op + 0.2)
-        if sa > 0.01:
+        if sa > 0.01 and V2:
+            kind = D.get("setting", "office"); props2(cv, kind, sa)
+            walk = 1.0 if kind == "zoom" else eout(t / 0.9)
+            xs = (295 if kind == "zoom" else 240) - 120 * (1 - walk); xl = (785 if kind == "zoom" else 840) + 120 * (1 - walk)
+            talk = t_sp <= t < t_op; fs = 2.8 if kind == "zoom" else 3.0
+            figure(cv, xs, 1330, fs, BLUE, badge=False, arms="point" if talk else "down", a=sa, walk=t * 7 if walk < 1 else 0)
+            figure(cv, xl, 1330, fs, ORANGE, badge=False, arms="down", a=sa, flip=-1, walk=t * 7 if walk < 1 else 0)
+            cv.text(SP.get("name", "Boss"), xs, 1400, 54, BLUE, sa, maxw=400)
+            ba = sa * WG.pop_s(t, t_sp) if t >= t_sp else 0
+            if ba > 0.01:
+                cv.rrect(70, 500, 940, 210, 46, BLUE, min(1, ba) * 0.95)
+                tx = xs if kind == "zoom" else 300
+                cv.c.move_to(tx - 45, 708); cv.c.line_to(tx + 45, 708); cv.c.line_to(tx, 780); cv.c.close_path(); cv.col(BLUE, min(1, ba) * 0.95); cv.c.fill()
+                rich_wrap(cv, SP["says"], 540, 605, 72, min(1, ba), 860)
+        elif sa > 0.01:
             props(cv, D.get("setting", "office"), sa)
             walk = eout(t / 0.9)
             xs = 300 - 160 * (1 - walk); xl = 780 + 160 * (1 - walk)
@@ -97,7 +126,14 @@ def run(S):
             for k, o in enumerate(OP):
                 a = oa * seg(t, o["t0"] - 0.1, o["t0"] + 0.25)
                 if a <= 0.01: continue
-                y = 640 + k * 260; sc = 0.92 + 0.08 * eout((t - o["t0"]) / 0.3)
+                sc = 0.92 + 0.08 * eout((t - o["t0"]) / 0.3)
+                if V2:   # taller card, tag on its own row above the text so a 2-line option never hits it
+                    y = 620 + k * 280
+                    cv.rrect(70, y - 120 * sc, 940, 250 * sc, 34, "#0B1A3C", 0.9 * a, stroke=BLUE, lw=3, sa=a)
+                    cv.text(o.get("tag", ""), 115, y - 82, 42, "#C9D6EA", a, align="l", maxw=400, bold=False)
+                    rich_wrap(cv, o["text"], 540, y + 30, 72, a, 860, base=BLUE)
+                    continue
+                y = 640 + k * 260
                 cv.rrect(70, y - 105 * sc, 940, 210 * sc, 34, "#0B1A3C", 0.9 * a, stroke=BLUE, lw=3, sa=a)
                 cv.text(o.get("tag", ""), 120, y - 58, 40, "#C9D6EA", a, align="l", maxw=400, bold=False)
                 rich_wrap(cv, o["text"], 540, y + 25, 74, a, 860, base=BLUE)
