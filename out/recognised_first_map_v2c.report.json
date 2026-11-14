@@ -1,0 +1,134 @@
+{
+ "id": "recognised_first_map_v2c",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Who recognised|*Israel* first?",
+ "duration": 50.3,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/recognised_first_map_v2c.mp4",
+  "cover": "covers/recognised_first_map_v2c_cover.jpg",
+  "preview": "previews/recognised_first_map_v2c_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/recognised_first_map_v2c_0.jpg",
+  "1": "out/frames/recognised_first_map_v2c_1.jpg",
+  "3": "out/frames/recognised_first_map_v2c_3.jpg",
+  "last": "out/frames/recognised_first_map_v2c_last.jpg"
+ },
+ "caption_en": "The first one took 11 minutes. Guess who.\n\nWho recognised Israel first? 🌍\n\n14 May 1948: Israel declares independence. 11 minutes later, the United States recognises it (de facto). 17 May 1948: the Soviet Union gives the first full legal (de jure) recognition.\n\nEnd of 1948: 17 countries. By 1950: 47. The 1960s: dozens of newly independent African states. 1979: Egypt, the first Arab country. The 1990s: 40 more as the Soviet Union breaks up, including China (1992) and Jordan (1994). 2020: the UAE, Bahrain, Morocco and Bhutan. Plus 21 countries with no date on record.\n\nToday: 169 of the other 192 United Nations (UN) members. 23 do not: Afghanistan, Algeria, Bangladesh, Brunei, Comoros, Djibouti, Indonesia, Iran, Iraq, Kuwait, Lebanon, Libya, Malaysia, North Korea, Oman, Pakistan, Qatar, Saudi Arabia, Somalia, Sudan, Syria, Tunisia, Yemen.\n\nRecognising is not agreeing: many of them criticise Israel too, and some have cut ties and restored them over the years.\n\nWhich one surprised you?\n\nSources: Wikipedia, International recognition of Israel (Feb 2026); US National Archives, \"U.S. Recognition of the State of Israel\". AI voice (Noam's own cloned voice).",
+ "caption_he": "מי הכיר בישראל ראשונה? ארצות הברית, 11 דקות אחרי ההכרזה (הכרה בפועל), וברית המועצות שלושה ימים אחר כך (ההכרה המשפטית המלאה הראשונה). היום: 169 מתוך 192 חברות האו״ם האחרות.",
+ "hashtags": [
+  "#Israel",
+  "#History",
+  "#Diplomacy",
+  "#IsraelFacts"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia, International recognition of Israel (Feb 2026)",
+   "year": 2026,
+   "at": "L2",
+   "until": "L11"
+  },
+  {
+   "label": "US National Archives: U.S. Recognition of the State of Israel",
+   "year": 1948,
+   "at": "L11",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.886,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Who recognised Israel first?",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "May fourteenth, nineteen forty eight. Israel declares independence.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "By the end of that year, seventeen countries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By nineteen fifty, forty seven.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "In the sixties, dozens of newly independent African states.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen seventy nine. Egypt, the first Arab country.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the Soviet Union falls. Forty more in the nineties, including China and Jordan.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty twenty. The UAE, Bahrain, Morocco and Bhutan.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Today, one hundred sixty nine of the other one hundred ninety two United Nations members.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty three still say no. Twenty two are Muslim majority countries. The other is North Korea.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Recognising is not agreeing. Many of them criticise Israel too.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "The Soviet Union gave the first full legal recognition, three days later.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+    "score": 0.615,
+    "flag": "MISS"
+   },
+   {
+    "line": "But the very first? The United States. Eleven minutes after.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Who recognized Israel first? May 14, 1948. Israel declares independence. By the end of that year, 17 countries. By 1950, 47. In the 60s, dozens of newly independent African states. 1979. Egypt, the first Arab country. Then the Soviet Union falls. 40 more in the 90s, including China and Jordan. 2020. UAE, Bahrain, Morocco, and Bhutan. Today, 169 of the other 192 United Nations members. 23 still say no. 22 are Muslim-majority countries. The other is North Korea. Recognizing is not agreeing. Many of them criticize Israel too. The Soviet Union gave the first full legal recognition three days later. If you like Israel facts, follow Noam Roz for more. But the very first. The United States. 11 minutes after.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 50.29,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 64.4
+}
