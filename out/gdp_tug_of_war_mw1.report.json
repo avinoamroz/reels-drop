@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*$54,291* vs|*9* countries. Who wins?",
- "duration": 48.5,
+ "duration": 46.03,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/gdp_tug_of_war_mw1.mp4",
@@ -19,33 +19,38 @@
   "3": "out/frames/gdp_tug_of_war_mw1_3.jpg",
   "last": "out/frames/gdp_tug_of_war_mw1_last.jpg"
  },
- "caption_en": "",
+ "caption_en": "One country against nine. Watch the rope. 🪢\n\n1 Israeli vs 9 countries. Who wins the GDP tug of war? 🪢\n\nGDP per person, 2024 (US$):\n🇮🇱 Israel: 54,291\n🇾🇪 Yemen: 442\n🇸🇾 Syria: 1,057 (World Bank, 2022, latest)\n🇱🇧 Lebanon: 5,248\n🇮🇷 Iran: 4,834\n🇪🇬 Egypt: 3,594\n🇯🇴 Jordan: 5,003\n🇮🇶 Iraq: 6,388\n🇹🇷 Turkey: 15,914\n🇴🇲 Oman: 20,529\n\n8 countries together: 42,480. Israel holds.\nSwap Turkey for Oman: 47,095. Still Israel.\nAll 9 together: 63,009. Only then they win.\n\nAdding up per-person numbers is a playful scoreboard, not an economic statistic. It shows the size of the gap.\nWar and sanctions hold Yemen and Syria back, and oil lifts the Gulf. This is about economies, not about anyone being less.\n\nישראלי אחד מול 9 מדינות. תוצר לנפש, 2024: ישראל 54,291. שמונה מדינות ביחד: 42,480, וישראל מחזיקה. רק כשכל ה 9 מושכים ביחד, 63,009, הם מנצחים.\n\nSources: IMF World Economic Outlook, Oct 2026, GDP per capita (NGDPDPC), 2024. Syria: World Bank, NY.GDP.PCAP.CD, 2022.\nMade with AI tools.\nAI voice (Noam's own cloned voice) on the new opening.",
  "caption_he": "",
- "hashtags": [],
+ "hashtags": [
+  "#Israel",
+  "#Economy",
+  "#MiddleEast",
+  "#GDP"
+ ],
  "sources": [],
  "transcript": {
   "score": 0.99,
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey, eight count",
+    "line": "In this corner, Israel, $54,000, and in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. Eight count",
     "score": 0.99,
     "flag": "ok"
    }
   ],
-  "heard": "$54,000 a person against 9 countries. Welcome to the GDP Championship. In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. 8 countries, 42,000 together, and Israel holds. Okay, let's swap Turkey for Oman, 47,000, still Israel. Fine. Everyone together, 63,000. Finally, Israel slides over the line. It took a team of nine to out-pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back and oil lifts the Gulf. Ready for the rematch? Same rope.",
+  "heard": "$54,000 against 9 countries In this corner, Israel, $54,000 And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey 8 countries, 42,000 together, and Israel holds Ok, let's swap Turkey for Oman, 47,000, still Israel Fine, everyone together, 63,000 Finally, Israel slides over the line. It took a team of 9 to out-pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back, and oil lifts the Gulf. Ready for the rematch? Same rope.",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "gdp_tug_of_war.mp4",
  "cut": 6.0,
- "hook_dur": 5.69,
+ "hook_dur": 3.21,
  "mix": {
   "lufs": -16.0,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "body_kept_s": 43.09,
  "lint_warnings": [],
- "render_s": 109.8
+ "render_s": 68.0
 }
