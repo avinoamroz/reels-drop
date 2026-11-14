@@ -1,0 +1,51 @@
+{
+ "id": "life_longest_race_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*11* countries, *60* years.|Who wins?",
+ "duration": 45.6,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -3.2
+ },
+ "outputs": {
+  "mp4": "out/life_longest_race_mw1.mp4",
+  "cover": "covers/life_longest_race_mw1_cover.jpg",
+  "preview": "previews/life_longest_race_mw1_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/life_longest_race_mw1_0.jpg",
+  "1": "out/frames/life_longest_race_mw1_1.jpg",
+  "3": "out/frames/life_longest_race_mw1_3.jpg",
+  "last": "out/frames/life_longest_race_mw1_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "sources": [],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "1961, Israel leads at 72 years. Lebanon is next. Then the Gulf starts climbing. 1975, civil war in Lebanon. It drops eight years. Iraq slides through the 80s. 2",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "11 countries. 60 years of World Bank data. Who lives longest? 1961. Israel leads at 72 years. Lebanon is next. Then the Gulf starts climbing. 1975. Civil War in Lebanon. It drops 8 years. Iraq slides through the 80s. 2005. The UAE overtakes Israel. 2015. Syria's civil war costs 10 years. 2019. Qatar on top. Then, the pandemic hits the gulf. 2023. The Palestinian territories drop 11 years, the year the war began, and the top of the table? Israel. 83.2 years. The UAE is under half a year behind, and Qatar under one. So when someone asks you...",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "new spoken hook + source reel audio kept after the cut",
+ "source": "life_longest_race.mp4",
+ "cut": 6.0,
+ "hook_dur": 5.11,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.2
+ },
+ "body_kept_s": 40.73,
+ "lint_warnings": [],
+ "render_s": 87.1
+}
