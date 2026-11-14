@@ -1,0 +1,131 @@
+{
+ "id": "life_longest_race_v2c",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Who lives longest in the|*Middle East?*",
+ "duration": 44.6,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/life_longest_race_v2c.mp4",
+  "cover": "covers/life_longest_race_v2c_cover.jpg",
+  "preview": "previews/life_longest_race_v2c_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/life_longest_race_v2c_0.jpg",
+  "1": "out/frames/life_longest_race_v2c_1.jpg",
+  "3": "out/frames/life_longest_race_v2c_3.jpg",
+  "last": "out/frames/life_longest_race_v2c_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#IsraelFacts",
+  "#LifeExpectancy"
+ ],
+ "sources": [
+  {
+   "label": "World Bank, SP.DYN.LE00.IN",
+   "year": 2023,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.92,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Who lives longest in the Middle East?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sixty years of World Bank data. Eleven countries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel starts on top, at seventy two years. Lebanon is next.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the Gulf starts climbing.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nineteen seventy five. Civil war in Lebanon. It drops eight years.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq slides through the eighties.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Two thousand five. The UAE overtakes Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria's civil war costs ten years.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty nineteen. Qatar on top.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the pandemic hits the Gulf.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty twenty three. The Palestinian territories drop eleven years, the year the war began.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "The runner up ends less than half a year behind. The third, less than one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+    "score": 0.615,
+    "flag": "MISS"
+   },
+   {
+    "line": "And the top of the table?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel. Eighty three point two years.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Who lives longest in the Middle East? 60 years of World Bank data. 11 countries. Israel starts on top at 72 years. Lebanon is next. Then the Gulf starts climbing. 1975. Civil War in Lebanon. It drops 8 years. Iraq slides through the 80s. 2005. The UAE overtakes Israel. Syria's civil war costs 10 years. 2019. Qatar on top. Then the pandemic hits the Gulf. the Gulf. 2023. The Palestinian territories dropped 11 years, the year the war began. The runner-up ends less than half a year behind. The third, less than one. If you like Israel facts, follow Noam Ra's for more. And the top of the table? Israel. 83.2 years.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 101.8
+}
