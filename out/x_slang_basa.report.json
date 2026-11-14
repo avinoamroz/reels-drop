@@ -1,0 +1,92 @@
+{
+ "id": "x_slang_basa",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Basa in English? 3 ways",
+ "duration": 22.07,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/x_slang_basa.mp4",
+  "cover": "covers/x_slang_basa_cover.jpg",
+  "preview": "previews/x_slang_basa_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/x_slang_basa_0.jpg",
+  "1": "out/frames/x_slang_basa_1.jpg",
+  "3": "out/frames/x_slang_basa_3.jpg",
+  "last": "out/frames/x_slang_basa_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "הלקוח ביטל את הדמו של יום שישי. באסה. אבל מה אומרים לו באנגלית? 😕\n\nבאסה בשיחה: What a bummer!\nבאסה מנומס: That's a shame.\nבאסה בעבודה: That's disappointing, but I understand.\n(מאכזב, אבל אני מבין)\n\nהטריק: אחרי הבאסה, תמיד הצעה. That's a shame. Can we book next week?\n\nאיזו באסה הייתה לכם השבוע? כתבו באנגלית בתגובות 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.958,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Dana says, the launch moved to March.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "You say, what a bummer!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Or, that's a shame.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At work, say, that's disappointing, but I understand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The client cancelled Friday's demo.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "That's a shame. Can we book next week?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sending a new invite now.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Dana says the launch moved to Mars you say what a bummer or that's a shame at work say That's disappointing, but I understand The client canceled Friday's demo. That's a shame Can we book next week sending a new invite now? Save this for your next meeting",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [],
+ "render_s": 54.7
+}
