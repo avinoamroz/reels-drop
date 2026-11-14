@@ -1,0 +1,150 @@
+{
+ "id": "iran_one_address",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*6* fronts. One address.",
+ "duration": 62.87,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/iran_one_address.mp4",
+  "cover": "covers/iran_one_address_cover.jpg",
+  "preview": "previews/iran_one_address_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/iran_one_address_0.jpg",
+  "1": "out/frames/iran_one_address_1.jpg",
+  "3": "out/frames/iran_one_address_3.jpg",
+  "last": "out/frames/iran_one_address_last.jpg"
+ },
+ "caption_en": "Count the lines. They all start in one city.\n\n6 fronts, one address:\n1. Lebanon: Hezbollah. In 1983 the Beirut barracks bombing killed 241 US service members (US Department of Defense); a US federal court (Peterson v. Islamic Republic of Iran, 2003) held Iran responsible, with Hezbollah carrying it out.\n2. Iraq: Iran backed militias (US State Department, Country Reports on Terrorism 2023).\n3. Syria: Iran's Islamic Revolutionary Guard Corps (IRGC) backed the Assad regime through the civil war (same report).\n4. Yemen: the Houthis, armed by Iran, fired on Saudi Arabia and on ships in the Red Sea (same report).\n5. Gaza: HAMAS, funded and armed by Iran (same report).\n6. Argentina: in 1994 a bomb at the AMIA (Argentine Israelite Mutual Association) Jewish community centre in Buenos Aires killed 85 people. In 2024 Argentina's Federal Court of Cassation ruled that Iran ordered it and Hezbollah carried it out.\n\nMarco Rubio, US Secretary of State, Federalist Society, 13 Nov 2026 (official State Department transcript): \"every major problem in the Middle East ... one common denominator\" and \"if you don't understand this, you don't understand Iran.\"\n\nThis is about the regime. Not the Iranian people, and not a faith.\n\nName a 7th front?\nAI voice (Noam's own cloned voice), AI made visuals. Map, not footage.",
+ "caption_he": "תספרו את הקווים. כולם מתחילים בעיר אחת.\n6 חזיתות, כתובת אחת:\n1. לבנון: חיזבאללה. ב 1983 הפיצוץ במגורי הנחתים בביירות הרג 241 אנשי צבא אמריקאים. בית משפט פדרלי בארה״ב קבע שאיראן אחראית.\n2. עיראק: מיליציות בגיבוי איראן.\n3. סוריה: תמיכה במשטר אסד במלחמת האזרחים.\n4. תימן: החות׳ים יורים על סעודיה ועל ספינות.\n5. עזה: חמאס, במימון ובחימוש איראני (משרד החוץ האמריקאי).\n6. ארגנטינה: ב 1994 פיגוע בבניין הקהילה היהודית AMIA בבואנוס איירס הרג 85 בני אדם. ב 2024 בית המשפט בארגנטינה קבע שאיראן הורתה עליו וחיזבאללה ביצע.\nמדובר במשטר. לא בעם האיראני, ולא בדת.",
+ "hashtags": [
+  "#Iran",
+  "#Israel",
+  "#IsraelFacts",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "US DoD: 241 US service members killed, Beirut",
+   "year": 1983,
+   "at": "L2",
+   "until": "L2:tied"
+  },
+  {
+   "label": "Peterson v. Islamic Republic of Iran, US District Court",
+   "year": 2003,
+   "at": "L2:tied",
+   "until": "L3"
+  },
+  {
+   "label": "US State Dept, Country Reports on Terrorism",
+   "year": 2023,
+   "at": "L3",
+   "until": "L7"
+  },
+  {
+   "label": "Argentina Federal Court of Cassation (AMIA ruling)",
+   "year": 2024,
+   "at": "L7",
+   "until": "L9"
+  },
+  {
+   "label": "Marco Rubio, US Secretary of State, 13 Nov",
+   "year": 2026,
+   "at": "L9",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.926,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Six fronts. One address.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Start in Tehran.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Front one: Lebanon. Hezbollah. In nineteen eighty three, a bombing in Beirut, tied by a US court to Iran and Hezbollah, killed two hundred forty one American tr",
+    "score": 0.964,
+    "flag": "ok"
+   },
+   {
+    "line": "Front two: Iraq. Iran backed militias.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Front three: Syria. Years of backing Assad in the civil war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Front four: Yemen. The Houthis, firing on Saudi Arabia, and on ships.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Front five: Gaza. <<h|ɑ|ˈ|m|ɑ|s>>, funded and armed by Iran, says the US State Department.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Front six is the one people forget. Argentina, nineteen ninety four. A bomb at the Jewish community centre in Buenos Aires killed eighty five people.",
+    "score": 0.92,
+    "flag": "ok"
+   },
+   {
+    "line": "Argentina's courts blamed Iran and Hezbollah.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This week, America's Secretary of State put it this way: every major problem in the Middle East, one common denominator.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And, if you don't understand this, you don't understand Iran.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This is about the regime. Not the Iranian people, and not a faith.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+    "score": 0.615,
+    "flag": "MISS"
+   },
+   {
+    "line": "Count the lines. They all start in one city.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "6 fronts, one address, star in Tehran, front one, Lebanon, Hezbollah. In 1983, a bombing in Beirut, tied by a US court to Iran and Hezbollah, killed 241 American troops, front two, Iraq, Iran backed militias, front three, Syria, years of backing Assad in the civil war, front four, Yemen, the Houthis, firing on Saudi Arabia and on ships, front Front 5, Gaza, Hamas, funded and armed by Iran, says the U.S. State Department. Front 6 is the one people forget. Argentina, 1994, a bomb at the Jewish Community Center in Buenos Aires killed 85 people. Argentina's courts blamed Iran and Hezbollah. This week, America's Secretary of State put it this way, every major problem in the Middle East, one common denominator. And if you don't understand this, you don't understand Iran. This is about the regime, not the Iranian people, and not a faith. If you like Israel facts, follow Noam Ra's for more. Count the lines, they all start in one city.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 62.85,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 77.0
+}
