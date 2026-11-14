@@ -36,7 +36,8 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -q -m "Photos [skip ci]"
           for i in 1 2 3 4 5 6; do
-            git pull -q --rebase && git push -q && exit 0
+            git -c gc.auto=0 pull -q --rebase -X theirs && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
             sleep $(( (RANDOM % 10) + 5 ))
           done
           exit 1
