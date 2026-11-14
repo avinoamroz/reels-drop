@@ -1,0 +1,6 @@
+{
+  "id": "pop_race_v6_en_vert",
+  "status": "FAILED",
+  "run": "43599480940",
+  "log": "column_recut: no new voice needed\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/column_recut.py\", line 46, in run\n    dur = dur_of(src); n_fr = int(round(dur * FPS))\n          ^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 424, in dur_of\n    return float(subprocess.run([\"ffprobe\", \"-v\", \"error\", \"-show_entries\", \"format=duration\", \"-of\", \"csv=p=0\", p], capture_output=True, text=True).stdout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: could not convert string to float: ''\n"
+}
