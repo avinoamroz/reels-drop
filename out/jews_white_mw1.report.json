@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*9* communities.|All white. Obviously.",
- "duration": 56.13,
+ "duration": 55.83,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -3.4
+  "true_peak": -3.5
  },
  "outputs": {
   "mp4": "out/jews_white_mw1.mp4",
@@ -19,9 +19,13 @@
   "3": "out/frames/jews_white_mw1_3.jpg",
   "last": "out/frames/jews_white_mw1_last.jpg"
  },
- "caption_en": "",
+ "caption_en": "9 Jewish communities. Spot the pattern. 🙃\n\nJews are white. Obviously. 🙃\n\nYemenite white. Ethiopian white. Moroccan white. Iraqi white. Persian white. Kurdish white. Bukharan white. Indian (Bene Israel) white. And Ashkenazi: actually white.\n\nThe facts behind the joke:\n🇮🇱 About half of Israel's Jews are Mizrahi or Sephardi: 48%, against 45% Ashkenazi (Pew Research Center, \"Israel's Religiously Divided Society\", 2016).\n🇪🇹 177,600 Israelis are of Ethiopian origin (Israel Central Bureau of Statistics, 2024 data, published November 2025).\n🗺️ Their families came home from North Africa, the Middle East, Asia and Europe: Yemen, Ethiopia, Morocco, Iraq, Iran, Kurdistan, Bukhara, India, Poland and many more.\n\nJews aren't a skin color. We're a people.\n\nIllustrations: drawn for this reel, not real people. AI-assisted.\n\nSend this to someone who still thinks Jews are one color.\n\nיהודים הם לבנים. ברור. 🙃\nהעובדות: כמחצית מיהודי ישראל הם מזרחים או ספרדים, 48% לעומת 45% אשכנזים (Pew, 2016). 177,600 ישראלים ממוצא אתיופי (הלמ\"ס, נתוני 2024).\nיהודים הם לא צבע עור. אנחנו עם.\nAI voice (Noam's own cloned voice) on the new opening.",
  "caption_he": "",
- "hashtags": [],
+ "hashtags": [
+  "#Israel",
+  "#Jewish",
+  "#JewishHistory"
+ ],
  "sources": [],
  "transcript": {
   "score": 0.991,
@@ -33,19 +37,19 @@
     "flag": "ok"
    }
   ],
-  "heard": "9 Jewish communities. All white, of course. Let me show you. Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara. In Uzbekistan. White. India. Extremely white. And Poland. Okay, this one is actually white. All white. Can't you see? Here's the thing. About half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East, and Asia. And almost 180,000 Israelis have roots in Ethiopia. Nine places on this map. Thousands of kilometers apart. One people. Jews are not a skin color, we're a people. So next time someone tells you...",
+  "heard": "9 Jewish communities. All white, obviously. Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara. In Uzbekistan. White. India. Extremely white. And Poland. Okay, this one is actually white. All white. Can't you see? Here's the thing. About half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East, and Asia. And almost 180,000 Israelis have roots in Ethiopia. Nine places on this map. Thousands of kilometers apart. One people. Jews are not a skin color. We're a people. So next time someone tells you...",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "jews_white.mp4",
  "cut": 5.4,
- "hook_dur": 4.470000000000001,
+ "hook_dur": 4.19,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -3.4
+  "true_peak": -3.5
  },
  "body_kept_s": 51.9,
  "lint_warnings": [],
- "render_s": 73.8
+ "render_s": 77.1
 }
