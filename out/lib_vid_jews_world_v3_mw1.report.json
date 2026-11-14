@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*2,600* years.|Where did Jews live?",
- "duration": 41.6,
+ "duration": 38.97,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -3.9
+  "true_peak": -3.2
  },
  "outputs": {
   "mp4": "out/lib_vid_jews_world_v3_mw1.mp4",
@@ -19,33 +19,38 @@
   "3": "out/frames/lib_vid_jews_world_v3_mw1_3.jpg",
   "last": "out/frames/lib_vid_jews_world_v3_mw1_last.jpg"
  },
- "caption_en": "",
+ "caption_en": "Where do most Jews live today? Watch until the end. 🌍\n\nWhere did the Jews live? 2,600 years of Jewish journeys in 40 seconds. 🌍\n\nFrom the Kingdom of Judah to Babylon, Spain, Poland, Russia, America, and back to Israel. Today Israel is home to the most Jews in the world.\n\nאיפה חיו היהודים? 2,600 שנה של מסעות יהודיים ב 40 שניות. מממלכת יהודה לבבל, ספרד, פולין, רוסיה, אמריקה, ובחזרה לישראל.\n\nWhere did YOUR family live 100 years ago?\nאיפה המשפחה שלכם חיה לפני 100 שנה?\n\nApproximate: ancient figures are estimates. Map: NASA Blue Marble (public domain), Natural Earth borders. Sources: Sergio DellaPergola (Jewish population estimates); Jewish Agency; national censuses.\nAI voice (Noam's own cloned voice) on the new opening.",
  "caption_he": "",
- "hashtags": [],
+ "hashtags": [
+  "#JewishHistory",
+  "#Diaspora",
+  "#Israel",
+  "#DataVisualization"
+ ],
  "sources": [],
  "transcript": {
-  "score": 1.0,
+  "score": 0.0,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "You",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.0,
+    "flag": "MISS"
    }
   ],
-  "heard": "2,600 years of Jewish journeys in 40 seconds. Guess where the most Jews live today? You",
+  "heard": "2,600 years. Where did Jews live? Thanks for watching!",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "tiktok/mw_lib_vid_jews_world_v3_ig.mp4",
  "cut": 5.0,
- "hook_dur": 6.050000000000001,
+ "hook_dur": 3.4099999999999997,
  "mix": {
   "lufs": -16.2,
-  "true_peak": -3.9
+  "true_peak": -3.2
  },
  "body_kept_s": 35.92,
  "lint_warnings": [],
- "render_s": 86.2
+ "render_s": 75.9
 }
