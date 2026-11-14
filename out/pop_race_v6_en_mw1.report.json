@@ -1,0 +1,51 @@
+{
+ "id": "pop_race_v6_en_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*7,000* Jews left.|Then this.",
+ "duration": 47.97,
+ "audio": {
+  "lufs": -15.9,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/pop_race_v6_en_mw1.mp4",
+  "cover": "covers/pop_race_v6_en_mw1_cover.jpg",
+  "preview": "previews/pop_race_v6_en_mw1_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/pop_race_v6_en_mw1_0.jpg",
+  "1": "out/frames/pop_race_v6_en_mw1_1.jpg",
+  "3": "out/frames/pop_race_v6_en_mw1_3.jpg",
+  "last": "out/frames/pop_race_v6_en_mw1_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "sources": [],
+ "transcript": {
+  "score": 0.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "",
+    "score": 0.0,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "At the lowest point, about 7,000 Jews lived here. Today, 7.6 million. Watch 3,000 years.",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "new spoken hook + source reel audio kept after the cut",
+ "source": "tiktok/vert_pop_race_v6_en_ig.mp4",
+ "cut": 5.0,
+ "hook_dur": 8.200000000000001,
+ "mix": {
+  "lufs": -15.9,
+  "true_peak": -2.0
+ },
+ "body_kept_s": 40.11,
+ "lint_warnings": [],
+ "render_s": 97.8
+}
