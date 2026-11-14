@@ -48,25 +48,24 @@
   },
   {
    "say": "Argentina's courts blamed Iran and Hezbollah.",
-   "screen": "Argentina's courts: *Iran and Hezbollah*"
+   "screen": "Argentina's courts: *Iran and Hezbollah*",
+   "until": "L8"
   },
   {
-   "say": "This week, the US Secretary of State said it: every major problem in the Middle East, one common denominator.",
-   "screen": "\"Every major problem in the Middle East ... one *common denominator*\"",
-   "screen_size": 64
+   "say": "This week, the US Secretary of State said it: every major problem in the Middle East, one common denominator."
   },
   {
-   "say": "And, if you don't understand this, you don't understand Iran.",
-   "screen": "\"... if you don't understand this, you don't understand *Iran.*\"",
-   "screen_size": 64
+   "say": "And, if you don't understand this, you don't understand Iran."
   },
   {
    "say": "This is about the regime. Not the Iranian people, and not a faith.",
-   "screen": "The *regime.* Not the people. Not a faith."
+   "screen": "The *regime.* Not the people. Not a faith.",
+   "until": "L11"
   },
   {
    "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
-   "screen": "Like Israel facts? Follow *@noamroz__*"
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "until": "L12"
   },
   {
    "say": "Count the lines. They all start in one city."
@@ -119,7 +118,7 @@
      16.0,
      1000
     ],
-    "dur": 2.4
+    "dur": 1.2
    }
   ],
   "routes": [
@@ -897,11 +896,25 @@
    },
    {
     "at": "L12",
-    "until": "END-0.55",
+    "until": "END-0.45",
     "text": "*One* address.",
     "y": 1100,
     "size": 84,
     "pill": "#163261"
+   },
+   {
+    "at": "L8:every",
+    "until": "L9-0.1",
+    "text": "\"Every major problem|in the Middle East ...|one *common denominator*\"",
+    "y": 420,
+    "size": 64
+   },
+   {
+    "at": "L9",
+    "until": "L10-0.1",
+    "text": "\"... if you don't understand this,|you don't understand *Iran.*\"",
+    "y": 420,
+    "size": 60
    }
   ],
   "brand": {
@@ -917,7 +930,7 @@
     ]
    ]
   },
-  "tail": 0.6,
+  "tail": 1.6,
   "icons": [
    {
     "at": "L1:lebanon+0.6",
