@@ -1,0 +1,92 @@
+{
+ "id": "x_slang_titchadesh",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Titchadesh in English? 3 ways",
+ "duration": 19.9,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/x_slang_titchadesh.mp4",
+  "cover": "covers/x_slang_titchadesh_cover.jpg",
+  "preview": "previews/x_slang_titchadesh_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/x_slang_titchadesh_0.jpg",
+  "1": "out/frames/x_slang_titchadesh_1.jpg",
+  "3": "out/frames/x_slang_titchadesh_3.jpg",
+  "last": "out/frames/x_slang_titchadesh_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "חברה מהעבודה מראה לכם לפטופ חדש. אתם אומרים: תתחדשי! ובאנגלית? בטח לא Renew yourself 😅\n\nתתחדש על חפץ: Nice! Enjoy it! או Looks great!\nתתחדש על תפקיד חדש: Congrats on the new role!\n(מזל טוב על התפקיד החדש)\n\nלמי אתם צריכים להגיד היום Well deserved? תייגו אותו 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.977,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Sarah says, check out my new laptop!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You say, nice! Enjoy it!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Or, looks great!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At work, say, congrats on the new role!",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "I got promoted to team lead!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Congrats! Well deserved.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thanks! Coffee is on me.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Sarah says, check out my new laptop. You say, nice, enjoy it. Or looks great. At work, say, congrats on the new roll. I got promoted to team lead. Congrats, well deserved. Thanks, coffee is on me. Save this for your next meeting.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [],
+ "render_s": 44.3
+}
