@@ -1,6 +1,58 @@
 {
-  "id": "homicide_race_vert",
-  "status": "FAILED",
-  "run": "43599310825",
-  "log": "[13:21:51] lint warning: hook has no number\ncolumn_recut: no new voice needed\n[13:21:51] lint warning: hook has no number\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/column_recut.py\", line 44, in run\n    dur = dur_of(src); n_fr = int(round(dur * FPS))\n          ^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 424, in dur_of\n    return float(subprocess.run([\"ffprobe\", \"-v\", \"error\", \"-show_entries\", \"format=duration\", \"-of\", \"csv=p=0\", p], capture_output=True, text=True).stdout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: could not convert string to float: ''\n"
+ "id": "homicide_race_vert",
+ "account": "noamroz__",
+ "template": "column_recut",
+ "hook": "Is Israel a *violent* country?",
+ "duration": 54.53,
+ "audio": {
+  "lufs": -14.2,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/homicide_race_vert.mp4",
+  "cover": "covers/homicide_race_vert_cover.jpg",
+  "preview": "previews/homicide_race_vert_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/homicide_race_vert_0.jpg",
+  "1": "out/frames/homicide_race_vert_1.jpg",
+  "3": "out/frames/homicide_race_vert_3.jpg",
+  "last": "out/frames/homicide_race_vert_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#IsraelFacts"
+ ],
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data",
+   "year": 2022
+  },
+  {
+   "label": "Split: Taub Center 2025, Israel CBS",
+   "year": 2022
+  }
+ ],
+ "transcript": {
+  "score": 0.0,
+  "model": "faster-whisper small.en",
+  "lines": [],
+  "heard": "Is Israel a violent country? Let's race the numbers. Murders per 100,000 people, every year, since 2000. Israel starts at 2.5 and mostly falls. By 2022, the last full year before October 7th, 1.6. Turkey and Lebanon sit higher. Jordan, Saudi Arabia report lower than Israel, and the United States. Four times Israel's rate, Germany, about half. Now split Israel in two. Jewish Israelis, about half a murder per 100,000. Lower than Germany. Arab Israelis, over 5. Close to the United States. But there's a catch. Arab Israelis are 10 times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens, caught between Arab crime organizations and smuggled guns. And the state is failing to protect them. Also, some governments undercount, and war deaths are not in these numbers. So the next time someone asks you,",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "original audio track kept (voice and music unchanged)",
+ "body_s": 54.53,
+ "opener": null,
+ "mix": {
+  "lufs": -14.2,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 73.2
 }
