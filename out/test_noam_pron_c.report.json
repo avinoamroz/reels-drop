@@ -1,0 +1,59 @@
+{
+ "id": "test_noam_pron_c",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* name test",
+ "duration": 6.17,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/test_noam_pron_c.mp4",
+  "cover": "covers/test_noam_pron_c_cover.jpg",
+  "preview": "previews/test_noam_pron_c_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_noam_pron_c_0.jpg",
+  "1": "out/frames/test_noam_pron_c_1.jpg",
+  "3": "out/frames/test_noam_pron_c_3.jpg",
+  "last": "out/frames/test_noam_pron_c_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting (Noam Roz pronunciation test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.5,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>> for more.",
+    "score": 0.615,
+    "flag": "MISS"
+   },
+   {
+    "line": "I am <<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>>.",
+    "score": 0.286,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "If you like Israel facts, follow Noam Roz for more. I am Noam Roz.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 6.16,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.2
+ },
+ "lint_warnings": [],
+ "render_s": 7.4
+}
