@@ -1,0 +1,59 @@
+{
+ "id": "test_noam_pron_a",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* name test",
+ "duration": 4.97,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/test_noam_pron_a.mp4",
+  "cover": "covers/test_noam_pron_a_cover.jpg",
+  "preview": "previews/test_noam_pron_a_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_noam_pron_a_0.jpg",
+  "1": "out/frames/test_noam_pron_a_1.jpg",
+  "3": "out/frames/test_noam_pron_a_3.jpg",
+  "last": "out/frames/test_noam_pron_a_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting (Noam Roz pronunciation test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.5,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "If you like Israel facts, follow No-ahm Rahz for more.",
+    "score": 0.727,
+    "flag": "MISS"
+   },
+   {
+    "line": "I am No-ahm Rahz.",
+    "score": 0.0,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "If you like Israel facts, follow Noach and Ross for more, and Noach and Ross.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 4.98,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 8.6
+}
