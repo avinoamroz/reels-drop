@@ -1,0 +1,49 @@
+{
+ "id": "trend_followers_a",
+ "account": "noamroz__",
+ "template": "trend_text",
+ "hook": "At *5,319.* Let's see!",
+ "duration": 9.0,
+ "audio": {
+  "lufs": -70.0,
+  "true_peak": -Infinity
+ },
+ "outputs": {
+  "mp4": "out/trend_followers_a.mp4",
+  "cover": "covers/trend_followers_a_cover.jpg",
+  "preview": "previews/trend_followers_a_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/trend_followers_a_0.jpg",
+  "1": "out/frames/trend_followers_a_1.jpg",
+  "3": "out/frames/trend_followers_a_3.jpg",
+  "last": "out/frames/trend_followers_a_last.jpg"
+ },
+ "caption_en": "Day 1 of the experiment. 📈\n\nSeeing people gain 2k followers a week with this sound. I'm currently at 5,319. Let's see!\n\nEvery day: one map, one number, one fact about Israel, sourced.",
+ "caption_he": "יום 1 של הניסוי. 📈\nרואה אנשים שמרוויחים 2,000 עוקבים בשבוע עם הסאונד הזה. אני כרגע על 5,319. בואו נראה!\nכל יום: מפה אחת, מספר אחד, עובדה אחת על ישראל, עם מקור.",
+ "hashtags": [
+  "#IsraelFacts",
+  "#Israel",
+  "#trend"
+ ],
+ "sources": [],
+ "transcript": {
+  "score": 0.0,
+  "model": "faster-whisper small.en",
+  "lines": [],
+  "heard": "You",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (silent: trending sound is added in the Instagram app)",
+ "body_s": 9.0,
+ "opener": null,
+ "mix": {
+  "lufs": null,
+  "true_peak": null
+ },
+ "lint_warnings": [
+  "no sources"
+ ],
+ "render_s": 18.3
+}
