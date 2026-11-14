@@ -1,6 +1,52 @@
 {
-  "id": "pop_race_v6_en_vert",
-  "status": "FAILED",
-  "run": "43599480940",
-  "log": "column_recut: no new voice needed\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/column_recut.py\", line 46, in run\n    dur = dur_of(src); n_fr = int(round(dur * FPS))\n          ^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 424, in dur_of\n    return float(subprocess.run([\"ffprobe\", \"-v\", \"error\", \"-show_entries\", \"format=duration\", \"-of\", \"csv=p=0\", p], capture_output=True, text=True).stdout)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: could not convert string to float: ''\n"
+ "id": "pop_race_v6_en_vert",
+ "account": "noamroz__",
+ "template": "column_recut",
+ "hook": "*3,000* years. Who lived here?",
+ "duration": 45.0,
+ "audio": {
+  "lufs": -14.1,
+  "true_peak": -0.4
+ },
+ "outputs": {
+  "mp4": "out/pop_race_v6_en_vert.mp4",
+  "cover": "covers/pop_race_v6_en_vert_cover.jpg",
+  "preview": "previews/pop_race_v6_en_vert_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/pop_race_v6_en_vert_0.jpg",
+  "1": "out/frames/pop_race_v6_en_vert_1.jpg",
+  "3": "out/frames/pop_race_v6_en_vert_3.jpg",
+  "last": "out/frames/pop_race_v6_en_vert_last.jpg"
+ },
+ "caption_en": "3,000 years. Who lived in this land? 🗺️\n\nFrom the Jordan to the sea, people by religion: Jews, Canaanites, Philistines, Samaritans, Greek and Roman pagans, Christians, Muslims and Druze. Each dot on the map is 2,000 people.\n\nJews never fully left. At the lowest point, from the 1500s to 1800, about 7,000 Jews lived here. Today it's about 7.6 million.\n\nFigures are rounded estimates, and ancient numbers have wide ranges. The area includes the West Bank and Gaza.\n\nSources: Magen Broshi (ancient population estimates); Sergio DellaPergola (Jewish demography); Justin McCarthy, The Population of Palestine (Ottoman era); British Mandate censuses 1922 and 1931; Israel Central Bureau of Statistics; Palestinian Central Bureau of Statistics.\n\nWhich era surprised you the most?",
+ "caption_he": "",
+ "hashtags": [
+  "#history",
+  "#israel",
+  "#demographics"
+ ],
+ "sources": [
+  {
+   "label": "Scholarly estimates, censuses, CBS, PCBS",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.0,
+  "model": "faster-whisper small.en",
+  "lines": [],
+  "heard": "I'll see you in the next video.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "original audio track kept (voice and music unchanged)",
+ "body_s": 45.0,
+ "opener": null,
+ "mix": {
+  "lufs": -14.1,
+  "true_peak": -0.4
+ },
+ "lint_warnings": [],
+ "render_s": 52.3
 }
