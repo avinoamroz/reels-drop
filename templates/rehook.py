@@ -2,7 +2,8 @@
 `cut`, puts a new hook card in front (max 6 words with a number, on screen at frame 0, a count-up moving by 1.5 s over
 a blurred, slowly zooming peek of the reel's own reveal), keeps the body untouched, and dissolves the last 1 s into
 the new frame 0 (circular, starts before the source's own loop dissolve). New cover from the new hook. No new voice needed (the card runs on music and SFX);
-add "hook_say" + the Cartesia secret later if a spoken hook is wanted.
+Spoken new hook (optional): give the spec "lines" (one line, the new hook); it is voiced like any spec (Cartesia, Noam's clone),
+mixed over the ducked bed, subtitled, and the card lasts as long as the line. data.brand true adds the Israel Facts mark.
 
 data keys:
   source     repo path of the published reel, e.g. "homicide_race_v4.mp4"
@@ -28,8 +29,12 @@ def run(S):
     D = S["data"]; work = workdir(S); src = os.path.join(REPO, D["source"])
     if not os.path.exists(src): raise SystemExit(f"rehook source not found: {D['source']}")
     L = dur_of(src); cut = float(D.get("cut", 3.0)); hd = float(D.get("hook_dur", 2.2)); xf = 0.25
+    VO = None; CH = []
+    if S.get("lines"):                       # spoken new hook (Cartesia via the normal voice path): the card lasts as long as the line
+        J = build_voice(S, work); T = Timing(J, 0.35); VO = f"{work}/vo.wav"; hd = max(hd, T.END + 0.15); CH = sub_chunks(T, S.get("subs_replace"))
     peek = float(D.get("peek", L * 0.6)); PF = read_frames(src, peek, hd * 0.6 + 0.2)
     hook_img = HK.make(S["_hook"], 130); HY = D.get("hook_y", 760); CT = D.get("count")
+    BR = D.get("brand")
 
     def frame(t):
         k = min(len(PF) - 1, int(t * 0.6 * FPS)); z = 1.0 + 0.08 * (t / hd)
@@ -40,7 +45,12 @@ def run(S):
             u = eout((t - 0.3) / 1.1); v = CT.get("from", 0) + (CT["to"] - CT.get("from", 0)) * u if t > 0.3 else CT.get("from", 0)
             cv.text(WG.fmtn(v, CT.get("dec", 0), CT.get("prefix", ""), CT.get("suffix", "")), 540, 1180, 300, YEL, 1.0, maxw=960)
             if CT.get("label"): cv.text(CT["label"], 540, 1370, 56, WHITE, seg(t, 0.3, 0.8), maxw=960)
+        if BR:
+            import map_counter as MC
+            MC.draw_brand(cv, BR if isinstance(BR, str) else "Israel Facts", 1.0)
         out = HK.paste(cv.out().astype(np.float32), hook_img, 540, HY, 0.94 + 0.06 * eout(t / 0.2), 1.0)
+        if CH:
+            c2 = Canvas(out); draw_subs(c2, CH, t, D.get("subs_y", 1612)); out = c2.out().astype(np.float32)
         return np.clip(out, 0, 255).astype(np.uint8)
 
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
@@ -51,6 +61,10 @@ def run(S):
     import common as CM_; K = CM_._sfx_lib(); sfx = np.zeros(n)
     for t0, kind, db in ((0.0, "whoosh", -16), (1.4, "ding", -18)):
         y = K[kind](); i = int(t0 * SR); sfx[i:i + len(y)] += y[:n - i] * 10 ** (db / 20)
+    if VO:   # voice on top, bed ducked under it
+        import soundfile as sf_
+        v, _ = sf_.read(VO); v = np.pad(v, (0, max(0, n - len(v))))[:n]; b *= 0.35; sfx *= 0.5
+        b = b + np.stack([v, v]) * 0.9
     fade = np.minimum(1, (n - np.arange(n)) / (0.35 * SR)); a = (b + sfx[None]) * fade[None]
     import soundfile as sf
     sf.write(f"{work}/card.wav", a.T.astype(np.float32), SR)
@@ -74,5 +88,5 @@ def run(S):
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{work}/joined.mkv", "-i", f"{work}/mix.m4a", "-map", "0:v", "-map", "1:a", "-c", "copy",
                     "-shortest", "-movflags", "+faststart", final], check=True)
-    return dict(voice="none (source reel audio kept, hook card on music)", source=D["source"], cut=cut, hook_dur=hd, mix=aud,
+    return dict(voice=("new spoken hook + " if VO else "") + "source reel audio kept after the cut", source=D["source"], cut=cut, hook_dur=hd, mix=aud,
                 body_kept_s=round(BL, 2))
