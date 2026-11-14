@@ -20,12 +20,14 @@ data keys (times in seconds of the source):
   sort       "asc": lowest value is the leader (left), e.g. murder rates; default highest first
   label      "flag_name" (flag + short name under the column) | "rotated" (name rotated 90 degrees, colour dot)
   vmax_fix   fixed scale maximum (else the smoothed leader)
+  overlays   [{at, until, text, y, size, pill, cue}]  extra on-screen pills (map_counter style), e.g. the follow line overlay
   loop_blend seconds at the end over which the columns blend into their frame 0 state (the source's own loop dissolve)
 """
 import os, sys, math, subprocess, json
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
 import numpy as np
 from common import *
+import map_counter as MC
 
 
 def fmt_val(v, fmt, striped):
@@ -140,7 +142,12 @@ def run(S):
     def composite(img, t):
         a = alpha_at(t)
         base = img.astype(np.float32)
-        if a <= 0.01: return img
+        OV = [o for o in D.get("overlays", []) if o["at"] - 0.1 <= t <= o["until"]]
+        if a <= 0.01 and not OV: return img
+        if a <= 0.01:
+            cv = Canvas(img.astype(np.float32))
+            for o in OV: MC.draw_overlay(cv, o, win(t, o["at"], o["until"], 0.3, 0.3), 1.0)
+            return cv.out()
         strip = np.median(base[Y:Y + RH, bx0:bx1], axis=1)                      # (RH, 3) background gradient
         base[Y:Y + RH, X:X + RW] = base[Y:Y + RH, X:X + RW] * (1 - a) + strip[:, None, :] * a
         cv = Canvas(base); lb = float(D.get("loop_blend", 0.0))
@@ -157,6 +164,7 @@ def run(S):
             pos.clear(); pos.update(p_now); vmax_s[0] = v_now
         else:
             draw(cv, t, a)
+        for o in OV: MC.draw_overlay(cv, o, win(t, o["at"], o["until"], 0.3, 0.3), 1.0)
         return cv.out()
 
     if os.environ.get("TPL_SNAPS"):
