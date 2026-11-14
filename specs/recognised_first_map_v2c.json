@@ -1,0 +1,399 @@
+{
+ "id": "recognised_first_map_v2c",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Who recognised|*Israel* first?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "<<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>": "Noam Roz"
+ },
+ "lines": [
+  {
+   "say": "Who recognised Israel first?",
+   "gap": 0.15
+  },
+  {
+   "say": "May fourteenth, nineteen forty eight. Israel declares independence.",
+   "screen": "*14 May 1948:* independence"
+  },
+  {
+   "say": "By the end of that year, seventeen countries.",
+   "screen": "End of 1948: *17* countries"
+  },
+  {
+   "say": "By nineteen fifty, forty seven.",
+   "screen": "*1950:* 47"
+  },
+  {
+   "say": "In the sixties, dozens of newly independent African states.",
+   "screen": "1960s: newly independent *African* states"
+  },
+  {
+   "say": "Nineteen seventy nine. Egypt, the first Arab country.",
+   "screen": "*1979:* Egypt, the first Arab country"
+  },
+  {
+   "say": "Then the Soviet Union falls. Forty more in the nineties, including China and Jordan.",
+   "screen": "1990s: *40* more, incl. China and Jordan"
+  },
+  {
+   "say": "Twenty twenty. The UAE, Bahrain, Morocco and Bhutan.",
+   "screen": "*2020:* UAE, Bahrain, Morocco, Bhutan"
+  },
+  {
+   "say": "Today, one hundred sixty nine of the other one hundred ninety two United Nations members.",
+   "screen": "Today: *169* of 192 United Nations members"
+  },
+  {
+   "say": "Twenty three still say no. Twenty two are Muslim majority countries. The other is North Korea.",
+   "screen": "*23* still say no"
+  },
+  {
+   "say": "Recognising is not agreeing. Many of them criticise Israel too.",
+   "screen": "Recognising is *not* agreeing"
+  },
+  {
+   "say": "The Soviet Union gave the first full legal recognition, three days later.",
+   "screen": "17 May 1948: Soviet Union, *first legal* recognition"
+  },
+  {
+   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+   "screen": "Like Israel facts? Follow *@noamroz__*"
+  },
+  {
+   "say": "But the very first? The United States. Eleven minutes after.",
+   "screen": "First: the *United States,* 11 minutes after"
+  }
+ ],
+ "data": {
+  "cam0": [
+   30.0,
+   30.0,
+   120.0
+  ],
+  "hook_y": 760,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L0+0.6",
+    "view": [
+     35.0,
+     30.0,
+     105.0,
+     900
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L11-0.3",
+    "view": [
+     0.0,
+     40.0,
+     140.0,
+     900
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L13-0.3",
+    "view": [
+     -40.0,
+     40.0,
+     130.0,
+     900
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "AFG"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "DZA"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "BGD"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "BRN"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "COM"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "DJI"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "IDN"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "IRN"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "IRQ"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "KWT"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "LBN"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "LBY"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "MYS"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "PRK"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "OMN"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "PAK"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "QAT"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "SAU"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "SOM"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "SDN"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "SYR"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "TUN"
+   },
+   {
+    "at": "L9:twenty",
+    "until": "L11",
+    "code": "YEM"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L5:egypt",
+    "until": "L6",
+    "lon": 31.2,
+    "lat": 30.0,
+    "label": "Egypt 1979",
+    "color": "yellow"
+   },
+   {
+    "at": "L6:china",
+    "until": "L7",
+    "lon": 116.4,
+    "lat": 39.9,
+    "label": "China 1992",
+    "color": "yellow"
+   },
+   {
+    "at": "L6:jordan",
+    "until": "L7",
+    "lon": 35.9,
+    "lat": 31.95,
+    "label": "Jordan 1994",
+    "color": "yellow"
+   },
+   {
+    "at": "L7:uae",
+    "until": "L8",
+    "lon": 54.4,
+    "lat": 24.45,
+    "label": "UAE",
+    "color": "yellow"
+   },
+   {
+    "at": "L7:morocco",
+    "until": "L8",
+    "lon": -6.85,
+    "lat": 34.0,
+    "label": "Morocco",
+    "color": "yellow"
+   },
+   {
+    "at": "L7:bhutan",
+    "until": "L8",
+    "lon": 89.6,
+    "lat": 27.5,
+    "label": "Bhutan",
+    "color": "yellow"
+   },
+   {
+    "at": "L11",
+    "until": "END-0.6",
+    "lon": 37.6,
+    "lat": 55.75,
+    "label": "Soviet Union: 17 May",
+    "color": "yellow"
+   },
+   {
+    "at": "L13:united",
+    "until": "END-0.6",
+    "lon": -77.0,
+    "lat": 38.9,
+    "label": "USA: 11 minutes",
+    "color": "yellow"
+   }
+  ],
+  "counter": [
+   {
+    "label": "Countries that recognise Israel",
+    "at": "L2-0.2",
+    "until": "L4-0.2",
+    "y": 1300,
+    "steps": [
+     {
+      "at": "L2:seventeen",
+      "value": 17
+     },
+     {
+      "at": "L3:forty",
+      "value": 47
+     }
+    ]
+   },
+   {
+    "label": "Recognise Israel today",
+    "at": "L8-0.2",
+    "until": "L10-0.2",
+    "y": 1300,
+    "of": 192,
+    "steps": [
+     {
+      "at": "L8:one",
+      "value": 169
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L13:eleven",
+    "until": "END-0.6",
+    "value": 11,
+    "from": 11,
+    "sub": "minutes after the declaration",
+    "y": 1250
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L6",
+    "until": "L8-0.1",
+    "text": "Save this map",
+    "y": 520,
+    "size": 48
+   },
+   {
+    "at": "L10",
+    "until": "L12-0.1",
+    "text": "Which one *surprised* you?",
+    "y": 540,
+    "size": 56
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.4"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "tail": 1.0
+ },
+ "sources": [
+  {
+   "label": "Wikipedia, International recognition of Israel (Feb 2026)",
+   "year": 2026,
+   "at": "L2",
+   "until": "L11"
+  },
+  {
+   "label": "US National Archives: U.S. Recognition of the State of Israel",
+   "year": 1948,
+   "at": "L11",
+   "until": "END-0.6"
+  }
+ ],
+ "caption_en": "The first one took 11 minutes. Guess who.\n\nWho recognised Israel first? 🌍\n\n14 May 1948: Israel declares independence. 11 minutes later, the United States recognises it (de facto). 17 May 1948: the Soviet Union gives the first full legal (de jure) recognition.\n\nEnd of 1948: 17 countries. By 1950: 47. The 1960s: dozens of newly independent African states. 1979: Egypt, the first Arab country. The 1990s: 40 more as the Soviet Union breaks up, including China (1992) and Jordan (1994). 2020: the UAE, Bahrain, Morocco and Bhutan. Plus 21 countries with no date on record.\n\nToday: 169 of the other 192 United Nations (UN) members. 23 do not: Afghanistan, Algeria, Bangladesh, Brunei, Comoros, Djibouti, Indonesia, Iran, Iraq, Kuwait, Lebanon, Libya, Malaysia, North Korea, Oman, Pakistan, Qatar, Saudi Arabia, Somalia, Sudan, Syria, Tunisia, Yemen.\n\nRecognising is not agreeing: many of them criticise Israel too, and some have cut ties and restored them over the years.\n\nWhich one surprised you?\n\nSources: Wikipedia, International recognition of Israel (Feb 2026); US National Archives, \"U.S. Recognition of the State of Israel\". AI voice (Noam's own cloned voice).",
+ "caption_he": "מי הכיר בישראל ראשונה? ארצות הברית, 11 דקות אחרי ההכרזה (הכרה בפועל), וברית המועצות שלושה ימים אחר כך (ההכרה המשפטית המלאה הראשונה). היום: 169 מתוך 192 חברות האו״ם האחרות.",
+ "hashtags": [
+  "#Israel",
+  "#History",
+  "#Diplomacy",
+  "#IsraelFacts"
+ ],
+ "hook_original": true,
+ "cover": {
+  "t": 30.0,
+  "text": "Who recognised|*Israel* first?"
+ }
+}
