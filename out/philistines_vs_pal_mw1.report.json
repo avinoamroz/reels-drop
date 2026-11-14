@@ -29,16 +29,16 @@
  ],
  "sources": [],
  "transcript": {
-  "score": 0.947,
+  "score": 0.928,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Gath. Claim one. Palestinians are the Philistines? No. The Philisti",
-    "score": 0.947,
+    "score": 0.928,
     "flag": "ok"
    }
   ],
-  "heard": "Four claims, 3,000 years. Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Dath. Claim one. Palestinians are the Philistines? No. The Philistines came from the Aegean. Their European DNA faded in two centuries. 604 BCE. Babylon destroys Ashkelon. Only the name survived. Claim two. Palestinians are Canaanites here before the Jews. They're Levantine Arabs, closest to Jordanians and Lebanese. Some ancient local DNA? Yes, like their neighbors. A Canaanite people? No. Claim 3. Jews are foreigners from Europe. No roots here? No. Egypt named Israel in 1208 BCE before the Philistines. Jewish DNA worldwide shows Levantine roots. Claim 4. The Romans named it Palestine to erase the Jews. Partly. After the Bar-Kukba revolt, Hadrian made Judea Syria-Palestina. A punishment. But the name was older. Herodotus used it. Both peoples carry Canaanite roots. One borrowed name. So next time someone asks",
+  "heard": "Four claims, 3,000 years. Egypt fights invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Dath. Claim one. Palestinians are the Philistines? No. The Philistines came from the Aegean. Their European DNA faded in two centuries. 604 BCE. Babylon destroys Ashkelon. Only the name survived. Claim two. Palestinians are Canaanites here before the Jews. They're Levantine Arabs, closest to Jordanians and Lebanese. Some ancient local DNA, yes, like their neighbors. A Canaanite people, no. Claim 3. Jews are foreigners from Europe. No roots here? No. Egypt named Israel in 1208 BCE, before the Philistines. Jewish DNA worldwide shows Levantine roots. Claim 4. The Romans named it Palestine to erase the Jews, partly. After the Bar-Kukba revolt, Hadrian made Judea Syria-Palestina, a punishment. The name was older. Herodotus used it. People's carry Canaanite roots one borrowed name so next time someone asks",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
@@ -52,5 +52,5 @@
  },
  "body_kept_s": 58.13,
  "lint_warnings": [],
- "render_s": 97.0
+ "render_s": 117.9
 }
