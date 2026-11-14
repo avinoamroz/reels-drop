@@ -2742,14 +2742,20 @@
    "caption_short": null
   }
  ],
- "posted": [],
+ "posted": [
+  {
+   "ig_id": "18111997772603090",
+   "account": "noamroz__",
+   "views": 344372,
+   "fb_video_id": "4549457411969478",
+   "posted_at": "2026-11-14T17:24:57Z"
+  }
+ ],
  "skipped": [],
  "fb_page_baseline": {
   "note": "Videos already on the page before this job (FB1 list at 2026-11-12 16:20 UTC, one page of results, no next page; oldest 2026-10-14). They have no descriptions and none matches the top IG candidates by time. Dedupe rule: skip an IG reel if a page video was created within 30 min of its IG timestamp.",
   "oldest": "2026-10-14T05:08:18+0000",
   "newest": "2026-11-10T21:53:55+0000"
  },
- "status": {
-  "2026-11-12": "BLOCKED: no publish access to page 1154857144379801. Data-store Meta token lacks pages_manage_posts ('(#100) No permission to publish the video'); Make Facebook connections 4884728 and 4787335 only list the English Express page 1792867521003763. Fix: reauthorize Make connection 4884728 ('Noam's Facebook connection') and tick this page. Nothing was posted."
- }
+ "status": "unblocked 14 Nov 2026 19:24: Noam reauthorized Make connection 653317 (My Facebook connection), which now lists all 3 pages; FB1 uses it. Connection 4884728 no longer exists."
 }
