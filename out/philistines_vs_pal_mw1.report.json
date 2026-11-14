@@ -1,0 +1,51 @@
+{
+ "id": "philistines_vs_pal_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*4* claims, *3,000* years.|True?",
+ "duration": 62.37,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -3.4
+ },
+ "outputs": {
+  "mp4": "out/philistines_vs_pal_mw1.mp4",
+  "cover": "covers/philistines_vs_pal_mw1_cover.jpg",
+  "preview": "previews/philistines_vs_pal_mw1_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/philistines_vs_pal_mw1_0.jpg",
+  "1": "out/frames/philistines_vs_pal_mw1_1.jpg",
+  "3": "out/frames/philistines_vs_pal_mw1_3.jpg",
+  "last": "out/frames/philistines_vs_pal_mw1_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "sources": [],
+ "transcript": {
+  "score": 0.946,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Gath. Claim 1. Palestinians are the Philistines? No. The Philistines came from the Aegean. Their Europe",
+    "score": 0.946,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Four claims about the Philistines. Three thousand years of evidence. It starts with invaders from the sea. The Pelissates settle Gaza, Ashkelon, Ashdod, Ekron, and Dath. Claim one. Palestinians are the Philistines? No. The Philistines came from the Aegean. Their European DNA faded in two centuries. 604 BCE. Babylon destroys Ashkelon. Only the name survived. Claim two. Palestinians are Canaanites here before the Jews. They're eleventeen Arabs. Closest to Jordanians and Lebanese. Some ancient local DNA? Yes, like their neighbors. A Canaanite people? No, claim three. Jews are foreigners from Europe. No roots here? No. Egypt named Israel in 1208 BCE before the Philistines. Jewish DNA worldwide shows Levantine roots. Claim four. The Romans named it Palestine to erase the Jews, partly. After the Bar-Kukba revolt, Hadrian made Judea Syria-Palestina, a punishment. The name was older. Herodotus used it. Both peoples carry Canaanite roots, one borrowed name, so next time someone asks",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "new spoken hook + source reel audio kept after the cut",
+ "source": "philistines_vs_pal_v4.mp4",
+ "cut": 7.0,
+ "hook_dur": 6.380000000000001,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -3.4
+ },
+ "body_kept_s": 56.23,
+ "lint_warnings": [],
+ "render_s": 109.4
+}
