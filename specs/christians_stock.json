@@ -9,7 +9,9 @@
  },
  "voice": {
   "gap": 0.15,
-  "lead": 0.1
+  "lead": 0.1,
+  "tempo": 1.21,
+  "file": "voice/christians_stock_vo.wav"
  },
  "lines": [
   {
@@ -50,7 +52,7 @@
    "screen_y": 330
   },
   {
-   "say": "Israel isn't perfect. In 2023, extremists spat at Christian pilgrims in Jerusalem. Netanyahu called it a desecration."
+   "say": "Israel isn't perfect."
   },
   {
    "say": "So, Middle East Christians: buy, or sell?"
@@ -327,7 +329,7 @@
    {
     "file": "templates/photos/me_christians_race/mosul.jpg",
     "at": "L3",
-    "until": "L4",
+    "until": "L3+1.0",
     "credit": "Mosul, 2024: Ali.tinbo (PD), Wikimedia",
     "kb": [
      0.5,
@@ -342,7 +344,7 @@
    {
     "file": "templates/photos/me_christians_race/nat1940.jpg",
     "at": "L6",
-    "until": "L6:about",
+    "until": "L6+1.0",
     "credit": "Bethlehem, 1940s: Matson Collection, LOC (PD)",
     "kb": [
      0.5,
@@ -357,7 +359,7 @@
    {
     "file": "templates/photos/me_christians_race/xmas_naz.jpg",
     "at": "L7",
-    "until": "L8",
+    "until": "L7+1.0",
     "credit": "Nazareth: Hoshvilim, CC BY-SA 4.0, Wikimedia",
     "kb": [
      0.5,
@@ -372,7 +374,7 @@
    {
     "file": "templates/photos/me_christians_race/xmas_haifa.jpg",
     "at": "L10",
-    "until": "L11",
+    "until": "L10+1.0",
     "credit": "Haifa: Deror avi, CC BY-SA 3.0, Wikimedia",
     "kb": [
      0.5,
@@ -428,17 +430,11 @@
    "year": 2025,
    "at": "L9",
    "until": "L10"
-  },
-  {
-   "label": "AFP via Arab News",
-   "year": 2023,
-   "at": "L10",
-   "until": "L11"
   }
  ],
  "end": {
   "at": "L10",
-  "balance": "Israel isn't perfect: extremists spat at pilgrims in *2023.*",
+  "balance": "Israel isn't *perfect.*",
   "cta": "Send this to a friend"
  },
  "caption_en": "CAPTION_IN_PAYLOAD",
