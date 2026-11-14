@@ -1,0 +1,98 @@
+{
+ "id": "x_slang_titchadesh",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Titchadesh in English? 3 ways",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Sarah says, check out my new laptop!"
+  },
+  {
+   "say": "You say, nice! Enjoy it!"
+  },
+  {
+   "say": "Or, looks great!"
+  },
+  {
+   "say": "At work, say, congrats on the new role!",
+   "gap": 0.6
+  },
+  {
+   "say": "I got promoted to team lead!"
+  },
+  {
+   "say": "Congrats! Well deserved."
+  },
+  {
+   "say": "Thanks! Coffee is on me.",
+   "gap": 0.6
+  },
+  {
+   "say": "Save this for your next meeting."
+  }
+ ],
+ "data": {
+  "he": "תתחדש",
+  "setting": "coffee",
+  "speaker": {
+   "name": "Sarah",
+   "says": "Check out my new laptop!",
+   "at": "L0+0.6"
+  },
+  "options": [
+   {
+    "tag": "Casual",
+    "text": "*Nice! Enjoy it!*",
+    "at": "L1"
+   },
+   {
+    "tag": "Or",
+    "text": "*Looks great!*",
+    "at": "L2"
+   },
+   {
+    "tag": "At work",
+    "text": "*Congrats* on the new role!",
+    "at": "L3"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "I got promoted to team lead!",
+    "at": "L4"
+   },
+   {
+    "who": "me",
+    "text": "*Congrats!* Well deserved.",
+    "at": "L5"
+   },
+   {
+    "who": "them",
+    "text": "Thanks! Coffee is on me.",
+    "at": "L6"
+   }
+  ],
+  "save": {
+   "at": "L7"
+  }
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "חברה מהעבודה מראה לכם לפטופ חדש. אתם אומרים: תתחדשי! ובאנגלית? בטח לא Renew yourself 😅\n\nתתחדש על חפץ: Nice! Enjoy it! או Looks great!\nתתחדש על תפקיד חדש: Congrats on the new role!\n(מזל טוב על התפקיד החדש)\n\nלמי אתם צריכים להגיד היום Well deserved? תייגו אותו 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "x_slang_lo_naim_li",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Lo na'im li? 3 ways",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Tom says, can you send the report tonight?"
+  },
+  {
+   "say": "You say, I hate to say no, but I can't."
+  },
+  {
+   "say": "Or, I feel bad, but I can't tonight."
+  },
+  {
+   "say": "At work, say, I'm afraid I can't. How about tomorrow?",
+   "gap": 0.6
+  },
+  {
+   "say": "Can you join a call at 8 PM?"
+  },
+  {
+   "say": "I'm afraid I can't. How about 9 AM?"
+  },
+  {
+   "say": "9 works. Thanks!",
+   "gap": 0.6
+  },
+  {
+   "say": "Save this for your next meeting."
+  }
+ ],
+ "data": {
+  "he": "לא נעים לי",
+  "setting": "office",
+  "speaker": {
+   "name": "Tom",
+   "says": "Can you send the report tonight?",
+   "at": "L0+0.6"
+  },
+  "options": [
+   {
+    "tag": "Casual",
+    "text": "*I hate to say no,* but I can't.",
+    "at": "L1"
+   },
+   {
+    "tag": "Or",
+    "text": "*I feel bad,* but I can't tonight.",
+    "at": "L2"
+   },
+   {
+    "tag": "At work",
+    "text": "*I'm afraid* I can't. How about tomorrow?",
+    "at": "L3"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "Can you join a call at 8 PM?",
+    "at": "L4"
+   },
+   {
+    "who": "me",
+    "text": "*I'm afraid* I can't. How about 9 AM?",
+    "at": "L5"
+   },
+   {
+    "who": "them",
+    "text": "9 works. Thanks!",
+    "at": "L6"
+   }
+  ],
+  "save": {
+   "at": "L7"
+  }
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "הבוס מבקש משהו בעשר בלילה, ולא נעים לכם להגיד לא. איך אומרים לא נעים לי באנגלית, בלי להישמע גסים? 😬\n\nבשיחה: I hate to say no, but I can't.\nאו: I feel bad, but I can't tonight.\nבעבודה: I'm afraid I can't. How about tomorrow?\n(אני חושש שלא אוכל. מה לגבי מחר?)\n\nהסוד: לא נעים לי + הצעה אחרת = לא שנשמע כמו כן.\n\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\n\nלמי לא נעים לכם להגיד לא? 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ]
+}

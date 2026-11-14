@@ -1,0 +1,98 @@
+{
+ "id": "x_slang_fadicha",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Fadicha in English? 3 ways",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Mike says, you were on mute the whole time."
+  },
+  {
+   "say": "You say, awkward!"
+  },
+  {
+   "say": "Or, how embarrassing!"
+  },
+  {
+   "say": "At work, say, my bad, let me start again.",
+   "gap": 0.6
+  },
+  {
+   "say": "You sent the client the deck with our comments."
+  },
+  {
+   "say": "How embarrassing! Sending the clean one now."
+  },
+  {
+   "say": "Happens to everyone.",
+   "gap": 0.6
+  },
+  {
+   "say": "Save this for your next meeting."
+  }
+ ],
+ "data": {
+  "he": "פדיחה",
+  "setting": "zoom",
+  "speaker": {
+   "name": "Mike",
+   "says": "You were on mute the whole time.",
+   "at": "L0+0.6"
+  },
+  "options": [
+   {
+    "tag": "Casual",
+    "text": "*Awkward!*",
+    "at": "L1"
+   },
+   {
+    "tag": "Or",
+    "text": "*How embarrassing!*",
+    "at": "L2"
+   },
+   {
+    "tag": "At work",
+    "text": "*My bad,* let me start again.",
+    "at": "L3"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "You sent the client the deck with our comments.",
+    "at": "L4"
+   },
+   {
+    "who": "me",
+    "text": "*How embarrassing!* Sending the clean one now.",
+    "at": "L5"
+   },
+   {
+    "who": "them",
+    "text": "Happens to everyone.",
+    "at": "L6"
+   }
+  ],
+  "save": {
+   "at": "L7"
+  }
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "שכחתם לעשות אנמיוט ודיברתם 5 דקות לבד. פדיחה. ואיך אומרים את זה באנגלית? 🙈\n\nפדיחה בשיחה: Awkward! או How embarrassing!\nפדיחה בעבודה: My bad, let me start again.\n(טעות שלי, אתחיל מההתחלה)\n\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\n\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\n\nמה הפדיחה הכי גדולה שלכם בזום? כתבו באנגלית בתגובות 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ]
+}

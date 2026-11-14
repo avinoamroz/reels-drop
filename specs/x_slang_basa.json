@@ -1,0 +1,98 @@
+{
+ "id": "x_slang_basa",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Basa in English? 3 ways",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Dana says, the launch moved to March."
+  },
+  {
+   "say": "You say, what a bummer!"
+  },
+  {
+   "say": "Or, that's a shame."
+  },
+  {
+   "say": "At work, say, that's disappointing, but I understand.",
+   "gap": 0.6
+  },
+  {
+   "say": "The client cancelled Friday's demo."
+  },
+  {
+   "say": "That's a shame. Can we book next week?"
+  },
+  {
+   "say": "Sending a new invite now.",
+   "gap": 0.6
+  },
+  {
+   "say": "Save this for your next meeting."
+  }
+ ],
+ "data": {
+  "he": "באסה",
+  "setting": "office",
+  "speaker": {
+   "name": "Dana",
+   "says": "The launch moved to March.",
+   "at": "L0+0.6"
+  },
+  "options": [
+   {
+    "tag": "Casual",
+    "text": "*What a bummer!*",
+    "at": "L1"
+   },
+   {
+    "tag": "Or",
+    "text": "*That's a shame.*",
+    "at": "L2"
+   },
+   {
+    "tag": "At work",
+    "text": "*That's disappointing,* but I understand.",
+    "at": "L3"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "The client cancelled Friday's demo.",
+    "at": "L4"
+   },
+   {
+    "who": "me",
+    "text": "*That's a shame.* Can we book next week?",
+    "at": "L5"
+   },
+   {
+    "who": "them",
+    "text": "Sending a new invite now.",
+    "at": "L6"
+   }
+  ],
+  "save": {
+   "at": "L7"
+  }
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "הלקוח ביטל את הדמו של יום שישי. באסה. אבל מה אומרים לו באנגלית? 😕\n\nבאסה בשיחה: What a bummer!\nבאסה מנומס: That's a shame.\nבאסה בעבודה: That's disappointing, but I understand.\n(מאכזב, אבל אני מבין)\n\nהטריק: אחרי הבאסה, תמיד הצעה. That's a shame. Can we book next week?\n\nאיזו באסה הייתה לכם השבוע? כתבו באנגלית בתגובות 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "id": "x_slang_yalla",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Yalla in English? 3 ways",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Ben says, everyone's here. Should we start?"
+  },
+  {
+   "say": "You say, let's go!"
+  },
+  {
+   "say": "Or, let's do this."
+  },
+  {
+   "say": "At work, say, let's get started.",
+   "gap": 0.6
+  },
+  {
+   "say": "We have five minutes left."
+  },
+  {
+   "say": "Let's wrap up. What are the next steps?"
+  },
+  {
+   "say": "I'll send a summary.",
+   "gap": 0.6
+  },
+  {
+   "say": "Save this for your next meeting."
+  }
+ ],
+ "data": {
+  "he": "יאללה",
+  "setting": "office",
+  "speaker": {
+   "name": "Ben",
+   "says": "Everyone's here. Should we start?",
+   "at": "L0+0.6"
+  },
+  "options": [
+   {
+    "tag": "Casual",
+    "text": "*Let's go!*",
+    "at": "L1"
+   },
+   {
+    "tag": "Or",
+    "text": "*Let's do this.*",
+    "at": "L2"
+   },
+   {
+    "tag": "At work",
+    "text": "*Let's get started.*",
+    "at": "L3"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "We have five minutes left.",
+    "at": "L4"
+   },
+   {
+    "who": "me",
+    "text": "*Let's wrap up.* What are the next steps?",
+    "at": "L5"
+   },
+   {
+    "who": "them",
+    "text": "I'll send a summary.",
+    "at": "L6"
+   }
+  ],
+  "save": {
+   "at": "L7"
+  }
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "יאללה זו אולי המילה הכי ישראלית שיש. אבל באמריקאית היא שתי מילים שונות 🚀\n\nיאללה בהתחלה: Let's go! או Let's get started.\nיאללה בסוף: Let's wrap up.\n(בואו נסכם)\n\nבפגישה באנגלית: Let's get started בדקה הראשונה, Let's wrap up בחמש האחרונות.\n\nכתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ]
+}

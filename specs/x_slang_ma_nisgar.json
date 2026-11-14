@@ -1,0 +1,98 @@
+{
+ "id": "x_slang_ma_nisgar",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Ma nisgar in English? 3 ways",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "lines": [
+  {
+   "say": "Emma says, great call. Let's talk again soon!"
+  },
+  {
+   "say": "You say, so, are we on?"
+  },
+  {
+   "say": "Or, what's the plan?"
+  },
+  {
+   "say": "At work, say, where do we stand on this?",
+   "gap": 0.6
+  },
+  {
+   "say": "Thanks everyone, great meeting!"
+  },
+  {
+   "say": "Where do we stand on the budget?"
+  },
+  {
+   "say": "Approved. I'll email it today.",
+   "gap": 0.6
+  },
+  {
+   "say": "Save this for your next meeting."
+  }
+ ],
+ "data": {
+  "he": "מה נסגר?",
+  "setting": "zoom",
+  "speaker": {
+   "name": "Emma",
+   "says": "Great call. Let's talk again soon!",
+   "at": "L0+0.6"
+  },
+  "options": [
+   {
+    "tag": "Casual",
+    "text": "*So, are we on?*",
+    "at": "L1"
+   },
+   {
+    "tag": "Or",
+    "text": "*What's the plan?*",
+    "at": "L2"
+   },
+   {
+    "tag": "At work",
+    "text": "*Where do we stand* on this?",
+    "at": "L3"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "Thanks everyone, great meeting!",
+    "at": "L4"
+   },
+   {
+    "who": "me",
+    "text": "*Where do we stand* on the budget?",
+    "at": "L5"
+   },
+   {
+    "who": "them",
+    "text": "Approved. I'll email it today.",
+    "at": "L6"
+   }
+  ],
+  "save": {
+   "at": "L7"
+  }
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "שעה של שיחה, כולם נחמדים, ואף אחד לא סגר כלום. מה נסגר? ואיך שואלים את זה באנגלית? 🤝\n\nבשיחה: So, are we on?\nאו: What's the plan?\nבעבודה: Where do we stand on this?\n(איפה אנחנו עומדים עם זה?)\n\nשאלה אחת בסוף הפגישה, וחוסכים שבוע של מיילים.\n\nכתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ]
+}
