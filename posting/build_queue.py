@@ -70,12 +70,12 @@ def main(path=PATH):
             b = json.loads(it["payload"]["body"])
         except Exception:
             continue
-        if "trial_params" in b:
+        if "trial_params" in b and datetime.fromisoformat(it["due"]) > datetime.now(tz):
             k = (it["account"], datetime.fromisoformat(it["due"]).astimezone(tz).date().isoformat())
             per.setdefault(k, []).append(it["id"])
     now_day = datetime.now(tz).date().isoformat()
     for (acc, day), ids in per.items():
-        if day >= now_day and len(ids) > 5:
+        if len(ids) > 5:
             errs.append(f"{acc} {day}: {len(ids)} trial reels, cap is 5 a day ({', '.join(ids)})")
     if errs:
         print("ERRORS:\n  " + "\n  ".join(errs))
