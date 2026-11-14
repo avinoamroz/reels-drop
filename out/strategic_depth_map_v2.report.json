@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Israel is *15 km*|wide here.",
- "duration": 60.6,
+ "duration": 61.43,
  "audio": {
   "lufs": -16.1,
   "true_peak": -2.1
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.895,
+  "score": 0.886,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -97,12 +97,12 @@
    },
    {
     "line": "Most suicide bombers came from cells around Jenin and Nablus.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
     "line": "A <<h|ɑ|ˈ|m|ɑ|s>> cell in Tulkarm bombed a Passover seder in Netanya. Thirty killed.",
-    "score": 0.6,
+    "score": 0.733,
     "flag": "MISS"
    },
    {
@@ -117,12 +117,12 @@
    },
    {
     "line": "Now, what if Judea and Samaria were run like Gaza after two thousand five?",
-    "score": 0.929,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Ten launch points. Same pace. Same minute.",
-    "score": 1.0,
+    "score": 0.857,
     "flag": "ok"
    },
    {
@@ -142,7 +142,7 @@
    },
    {
     "line": "Palestinians want a state there, and many say security can come by agreement.",
-    "score": 1.0,
+    "score": 0.846,
     "flag": "ok"
    },
    {
@@ -156,22 +156,27 @@
     "flag": "ok"
    },
    {
+    "line": "Follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
     "line": "Because here, Israel is fifteen kilometres wide.",
     "score": 0.857,
     "flag": "ok"
    }
   ],
-  "heard": "Israel is 15 kilometers wide here, from the hills to the beach, about 3 hours on foot, and it already happened. Second intifada, over a thousand Israelis killed. Most suicide bombers came from cells around Jenin and Nablus. Hamas cell and tokarm bombed a Passover Seder in Netanyahu. 30 killed. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th, terrorists in pickup trucks drove 25 kilometers in 28 minutes. What if Judea and Samaria were run like Gaza after 2005? 10 launch points. Same pace. Same minute. 10 minutes. Route 6. Kfarsaba. Ben Gurion Airport. Jerusalem. 20 minutes. Tel Aviv. Natania. The sea. Israel cut in two. The Tel Aviv and Jerusalem areas. About 6 in 10 Israelis. Palestinians want a state there, and many say security can come by agreement. Israel's question. Who guarantees it? Peace is the goal. Community control is what makes it last, because here, Israel is 15 kilometers wide.",
+  "heard": "Israel is 15 kilometers wide here, from the hills to the beach, about 3 hours on foot, and it already happened. Second intifada, over a thousand Israelis killed. Most suicide bombers came from cells around Janine and Nablus. Hamas cell in Tulkarm bombed a Passover Seder in Natania. 30 killed. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th. Terrorists in pickup trucks drove 25 kilometers in 28 minutes. Now what if Judea and Samaria were run like Gaza after 2005? 10 launch points. Same pace. Same minutes. 10 minutes. Route 6. Kafar Sabah. Ben Gurion Airport. Jerusalem. 20 minutes. Tel Aviv. Natania. The sea. Israel cut in two. The Tel Aviv and Jerusalem areas. About 6 in 10 Israelis. Palestinians want to stay there. And many say security can come by agreement. Israel's question. Who guarantees it? Peace is the goal. Every control is what makes it last. Follow Noam Ra's for more. Because here, Israel is 15 kilometers wide.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 60.59,
+ "body_s": 61.43,
  "opener": null,
  "mix": {
   "lufs": -16.1,
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 130.3
+ "render_s": 76.3
 }
