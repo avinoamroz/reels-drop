@@ -1,0 +1,49 @@
+{
+ "id": "trend_followers_c",
+ "account": "expressenglishcom",
+ "template": "trend_text",
+ "hook": "At *10,614.* Let's see!",
+ "duration": 9.0,
+ "audio": {
+  "lufs": -70.0,
+  "true_peak": -Infinity
+ },
+ "outputs": {
+  "mp4": "out/trend_followers_c.mp4",
+  "cover": "covers/trend_followers_c_cover.jpg",
+  "preview": "previews/trend_followers_c_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/trend_followers_c_0.jpg",
+  "1": "out/frames/trend_followers_c_1.jpg",
+  "3": "out/frames/trend_followers_c_3.jpg",
+  "last": "out/frames/trend_followers_c_last.jpg"
+ },
+ "caption_en": "Let's see. 📈",
+ "caption_he": "רואה אנשים שמרוויחים 2,000 עוקבים בשבוע עם הסאונד הזה. אנחנו כרגע על 10,614. בואו נראה! 📈\n\nכל יום: עוד צעד לאנגלית בטוחה בעבודה.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#LearnEnglish",
+  "#trend"
+ ],
+ "sources": [],
+ "transcript": {
+  "score": 0.0,
+  "model": "faster-whisper small.en",
+  "lines": [],
+  "heard": "You",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "none (silent: trending sound is added in the Instagram app)",
+ "body_s": 9.0,
+ "opener": null,
+ "mix": {
+  "lufs": null,
+  "true_peak": null
+ },
+ "lint_warnings": [
+  "no sources"
+ ],
+ "render_s": 20.2
+}
