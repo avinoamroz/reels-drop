@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*9* communities.|All white. Obviously.",
- "duration": 55.83,
+ "duration": 54.77,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -3.5
+  "true_peak": -3.4
  },
  "outputs": {
   "mp4": "out/jews_white_mw1.mp4",
@@ -28,28 +28,28 @@
  ],
  "sources": [],
  "transcript": {
-  "score": 0.991,
+  "score": 0.972,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Here is a white Jew from Yemen, a white Jew from Ethiopia, very white. Morocco, white. Iraq, also white. Iran, Persian white. Kurdistan, Kurdish white. Bukhara,",
-    "score": 0.991,
+    "score": 0.972,
     "flag": "ok"
    }
   ],
-  "heard": "9 Jewish communities. All white, obviously. Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara. In Uzbekistan. White. India. Extremely white. And Poland. Okay, this one is actually white. All white. Can't you see? Here's the thing. About half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East, and Asia. And almost 180,000 Israelis have roots in Ethiopia. Nine places on this map. Thousands of kilometers apart. One people. Jews are not a skin color. We're a people. So next time someone tells you...",
+  "heard": "9 Jewish communities. All white. Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara. And Uzbekistan. White. India. Extremely white. And Poland. OK, this one is actually white. All white. can't you see? Here's the thing, about half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East, and Asia. And almost 180,000 Israelis have roots in Ethiopia. Nine places on this map, thousands of kilometers apart. One people. Jews are not a skin color, we're a people. So next time someone tells you...",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "jews_white.mp4",
  "cut": 5.4,
- "hook_dur": 4.19,
+ "hook_dur": 3.13,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -3.5
+  "true_peak": -3.4
  },
  "body_kept_s": 51.9,
  "lint_warnings": [],
- "render_s": 77.1
+ "render_s": 47.4
 }
