@@ -1,87 +1,42 @@
 [
 {
 "word": "Four",
-"start": 0.32507935,
-"end": 0.74303854
+"start": 0.85139835,
+"end": 1.1455177
 },
 {
-"word": "claims",
-"start": 0.74303854,
-"end": 1.1609977
-},
-{
-"word": "about",
-"start": 1.1609977,
-"end": 1.3777173
-},
-{
-"word": "the",
-"start": 1.3777173,
-"end": 1.4551171
-},
-{
-"word": "Philistines.",
-"start": 1.4551171,
-"end": 2.3065155
+"word": "claims.",
+"start": 1.1455177,
+"end": 1.6873167
 },
 {
 "word": "Three",
-"start": 3.018594,
-"end": 3.2972336
+"start": 2.523235,
+"end": 2.8637943
 },
 {
 "word": "thousand",
-"start": 3.2972336,
-"end": 3.6842327
+"start": 2.8637943,
+"end": 3.2507937
 },
 {
-"word": "years",
-"start": 3.6842327,
-"end": 3.9473922
+"word": "years.",
+"start": 3.2507937,
+"end": 3.7616327
 },
 {
-"word": "of",
-"start": 3.9473922,
-"end": 4.040272
+"word": "Which",
+"start": 4.89167,
+"end": 5.10839
 },
 {
-"word": "evidence.",
-"start": 4.040272,
-"end": 4.674951
+"word": "are",
+"start": 5.10839,
+"end": 5.2012696
 },
 {
-"word": "It",
-"start": 4.8297505,
-"end": 4.9690704
-},
-{
-"word": "starts",
-"start": 4.9690704,
-"end": 5.2477098
-},
-{
-"word": "with",
-"start": 5.2477098,
-"end": 5.4179893
-},
-{
-"word": "invaders",
-"start": 5.4179893,
-"end": 5.9288282
-},
-{
-"word": "from",
-"start": 5.9288282,
-"end": 6.083628
-},
-{
-"word": "the",
-"start": 6.083628,
-"end": 6.176508
-},
-{
-"word": "sea.",
-"start": 6.176508,
-"end": 6.5325475
+"word": "true?",
+"start": 5.2012696,
+"end": 5.681149
 }
 ]
