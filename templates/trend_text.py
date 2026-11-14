@@ -51,6 +51,8 @@ def run(S):
     text = D["text"]; sz = int(D.get("size", 84)); ty = float(D.get("y", 820)); t0, t1 = D.get("type", [0.0, 4.2])
     kind = D.get("bg", "map"); mark = D.get("mark", "English Express" if kind == "express" else "Israel Facts")
     nchar = len(text.replace("*", "").replace("|", " "))
+    from bidi.algorithm import get_display
+    HE_VIS = get_display(D["he"]) if D.get("he") else ""   # common.hebrew_img leaves the order logical here; pre-apply bidi (checked on CI frames)
     MR = MapR() if kind != "express" else None; cache = {}
     y_ = np.arange(H, dtype=np.float32)[:, None]
     VIG = (1 - np.maximum(np.clip(1 - y_ / 520, 0, 1) ** 1.6 * 0.45, np.clip((y_ - 1180) / 740, 0, 1) ** 1.2 * 0.62))[..., None]
@@ -102,7 +104,7 @@ def run(S):
             if parts:
                 tw_ = sum(cv.c.text_extents(p).x_advance for p, _ in parts)
                 outline_text(cv, parts, 540 - fw / 2 + tw_ / 2, y0 + li * lh, sz, 1.0)
-        if D.get("he"): hebrew(cv, D["he"], 540, D.get("he_y", 1500), D.get("he_size", 56), (255, 255, 255), seg(t, t1 - 0.5, t1))
+        if D.get("he"): hebrew(cv, HE_VIS, 540, D.get("he_y", 1500), D.get("he_size", 56), (255, 255, 255), seg(t, t1 - 0.5, t1))
         return np.clip(cv.out(), 0, 255).astype(np.uint8)
 
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
