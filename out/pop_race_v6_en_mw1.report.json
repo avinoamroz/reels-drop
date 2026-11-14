@@ -37,7 +37,7 @@
     "flag": "MISS"
    }
   ],
-  "heard": "7,000 Jews were left. Thanks for watching!",
+  "heard": "7,000 Jews were left.",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
@@ -51,5 +51,5 @@
  },
  "body_kept_s": 40.11,
  "lint_warnings": [],
- "render_s": 64.3
+ "render_s": 67.0
 }
