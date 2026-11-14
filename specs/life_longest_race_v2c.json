@@ -2,7 +2,7 @@
  "id": "life_longest_race_v2c",
  "account": "noamroz__",
  "template": "data_race",
- "hook": "Who lives longest in the|*Middle East?*",
+ "hook": "Who lives longest|in the *Middle East?*",
  "music": {
   "bed": "doc_piano",
   "lufs": -16,
@@ -263,7 +263,7 @@
  "cover": {
   "t": 6.0,
   "big": "?",
-  "text": "Who lives longest in the|*Middle East?*"
+  "text": "Who lives longest|in the *Middle East?*"
  },
  "hook_original": true
 }
