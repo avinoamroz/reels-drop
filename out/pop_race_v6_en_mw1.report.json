@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*7,000* Jews left.|Then this.",
- "duration": 43.47,
+ "duration": 42.27,
  "audio": {
   "lufs": -15.9,
-  "true_peak": -2.4
+  "true_peak": -2.2
  },
  "outputs": {
   "mp4": "out/pop_race_v6_en_mw1.mp4",
@@ -37,19 +37,19 @@
     "flag": "MISS"
    }
   ],
-  "heard": "7,000 Jews were left. Then this. Thanks for watching!",
+  "heard": "7,000 Jews were left. Thanks for watching!",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "tiktok/vert_pop_race_v6_en_ig.mp4",
  "cut": 5.0,
- "hook_dur": 3.71,
+ "hook_dur": 2.5,
  "mix": {
   "lufs": -15.9,
-  "true_peak": -2.4
+  "true_peak": -2.2
  },
  "body_kept_s": 40.11,
  "lint_warnings": [],
- "render_s": 70.8
+ "render_s": 64.3
 }
