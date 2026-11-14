@@ -1,0 +1,41 @@
+{
+ "id": "gdp_tug_of_war_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*$54,291* vs|*9* countries. Who wins?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.2,
+  "lead": 0.25
+ },
+ "lines": [
+  {
+   "say": "Fifty four thousand dollars a person, against nine countries. Welcome to the GDP championship."
+  }
+ ],
+ "data": {
+  "source": "gdp_tug_of_war.mp4",
+  "cut": 6.0,
+  "hook_dur": 2.2,
+  "peek": 30.0,
+  "count": {
+   "from": 0,
+   "to": 54291,
+   "prefix": "$",
+   "label": "Israel, GDP per person, 2024 (IMF)"
+  },
+  "brand": true
+ },
+ "sources": [],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "cover": {
+  "t": 1.2,
+  "text": "*$54,291* vs|*9* countries. Who wins?"
+ }
+}

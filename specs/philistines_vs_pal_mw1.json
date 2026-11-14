@@ -1,0 +1,40 @@
+{
+ "id": "philistines_vs_pal_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*4* claims, *3,000* years.|True?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.2,
+  "lead": 0.25
+ },
+ "lines": [
+  {
+   "say": "Four claims about the Philistines. Three thousand years of evidence. It starts with invaders from the sea."
+  }
+ ],
+ "data": {
+  "source": "philistines_vs_pal_v4.mp4",
+  "cut": 7.0,
+  "hook_dur": 2.2,
+  "peek": 20.0,
+  "count": {
+   "from": 0,
+   "to": 3000,
+   "label": "years of evidence"
+  },
+  "brand": true
+ },
+ "sources": [],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "cover": {
+  "t": 1.2,
+  "text": "*4* claims, *3,000* years.|True?"
+ }
+}

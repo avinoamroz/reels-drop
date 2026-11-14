@@ -1,0 +1,40 @@
+{
+ "id": "lib_vid_jews_world_v3_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*2,600* years.|Where did Jews live?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.2,
+  "lead": 0.25
+ },
+ "lines": [
+  {
+   "say": "Twenty six hundred years of Jewish journeys, in forty seconds. Guess where the most Jews live today."
+  }
+ ],
+ "data": {
+  "source": "tiktok/mw_lib_vid_jews_world_v3_ig.mp4",
+  "cut": 5.0,
+  "hook_dur": 2.2,
+  "peek": 30.0,
+  "count": {
+   "from": 0,
+   "to": 2600,
+   "label": "years of Jewish journeys"
+  },
+  "brand": true
+ },
+ "sources": [],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "cover": {
+  "t": 1.2,
+  "text": "*2,600* years.|Where did Jews live?"
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "id": "pop_race_v6_en_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*7,000* Jews left.|Then this.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.2,
+  "lead": 0.25
+ },
+ "lines": [
+  {
+   "say": "At the lowest point, about seven thousand Jews lived here. Today, seven point six million. Watch three thousand years."
+  }
+ ],
+ "data": {
+  "source": "tiktok/vert_pop_race_v6_en_ig.mp4",
+  "cut": 5.0,
+  "hook_dur": 2.2,
+  "peek": 40.0,
+  "count": {
+   "from": 7000,
+   "to": 7600000,
+   "label": "Jews here: lowest point to today"
+  },
+  "brand": true
+ },
+ "sources": [],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "cover": {
+  "t": 1.2,
+  "text": "*7,000* Jews left.|Then this."
+ }
+}

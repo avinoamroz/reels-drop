@@ -1,0 +1,40 @@
+{
+ "id": "life_longest_race_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*11* countries, *60* years.|Who wins?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.2,
+  "lead": 0.25
+ },
+ "lines": [
+  {
+   "say": "Eleven countries. Sixty years of World Bank data. Who lives longest?"
+  }
+ ],
+ "data": {
+  "source": "life_longest_race.mp4",
+  "cut": 6.0,
+  "hook_dur": 2.2,
+  "peek": 36.0,
+  "count": {
+   "from": 0,
+   "to": 60,
+   "label": "years of World Bank data"
+  },
+  "brand": true
+ },
+ "sources": [],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "cover": {
+  "t": 1.2,
+  "text": "*11* countries, *60* years.|Who wins?"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "id": "homicide_race_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*0.5* or *5.4?*|Same country.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.2,
+  "lead": 0.25
+ },
+ "lines": [
+  {
+   "say": "Point five, or five point four. Same country. Let's race murders per hundred thousand people, since two thousand."
+  }
+ ],
+ "data": {
+  "source": "homicide_race_v4.mp4",
+  "cut": 7.25,
+  "hook_dur": 2.2,
+  "peek": 22.0,
+  "count": {
+   "from": 0.5,
+   "to": 5.4,
+   "dec": 1,
+   "label": "murders per 100,000, two groups, 2022"
+  },
+  "brand": true
+ },
+ "sources": [],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "cover": {
+  "t": 1.2,
+  "text": "*0.5* or *5.4?*|Same country."
+ }
+}

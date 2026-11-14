@@ -1,0 +1,40 @@
+{
+ "id": "jews_white_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*9* communities.|All white. Obviously.",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.2,
+  "lead": 0.25
+ },
+ "lines": [
+  {
+   "say": "Nine Jewish communities. All white, of course. Let me show you."
+  }
+ ],
+ "data": {
+  "source": "jews_white.mp4",
+  "cut": 5.4,
+  "hook_dur": 2.2,
+  "peek": 47.0,
+  "count": {
+   "from": 1,
+   "to": 9,
+   "label": "Jewish communities"
+  },
+  "brand": true
+ },
+ "sources": [],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "cover": {
+  "t": 1.2,
+  "text": "*9* communities.|All white. Obviously."
+ }
+}
