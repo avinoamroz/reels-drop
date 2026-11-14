@@ -1,0 +1,92 @@
+{
+ "id": "x_slang_ma_nisgar",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Ma nisgar in English? 3 ways",
+ "duration": 19.2,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.1
+ },
+ "outputs": {
+  "mp4": "out/x_slang_ma_nisgar.mp4",
+  "cover": "covers/x_slang_ma_nisgar_cover.jpg",
+  "preview": "previews/x_slang_ma_nisgar_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/x_slang_ma_nisgar_0.jpg",
+  "1": "out/frames/x_slang_ma_nisgar_1.jpg",
+  "3": "out/frames/x_slang_ma_nisgar_3.jpg",
+  "last": "out/frames/x_slang_ma_nisgar_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "שעה של שיחה, כולם נחמדים, ואף אחד לא סגר כלום. מה נסגר? ואיך שואלים את זה באנגלית? 🤝\n\nבשיחה: So, are we on?\nאו: What's the plan?\nבעבודה: Where do we stand on this?\n(איפה אנחנו עומדים עם זה?)\n\nשאלה אחת בסוף הפגישה, וחוסכים שבוע של מיילים.\n\nכתבו SPEAKER בתגובות ונשלח לכם סרטון 🎥\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.98,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Emma says, great call. Let's talk again soon!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You say, so, are we on?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Or, what's the plan?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At work, say, where do we stand on this?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thanks everyone, great meeting!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Where do we stand on the budget?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Approved. I'll email it today.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Emma says great call. Let's talk again soon. You say so are we on or what's the plan at work? Say, where do we stand on this? Thanks, everyone. Great meeting. Where do we stand on the budget? I'll email it today Save this for your next meeting",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.1
+ },
+ "lint_warnings": [],
+ "render_s": 33.2
+}
