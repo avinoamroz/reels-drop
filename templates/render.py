@@ -13,7 +13,7 @@ import os, sys, time, json, importlib
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
 import common as CM
 
-TEMPLATES = ("trend_text", "irony_cine", "brand_timeline", "myth_scroll", "irony_reasons", "law_grid", "map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war", "two_paths", "surgery", "crowd_equals", "versus_card", "board_insert", "story_climb", "story_climb_full", "rulebook", "stock_chart", "zoom_stock", "gdp_stock", "pop_stock", "high_horse", "fert_race", "fert_stock", "people_stock", "bracket", "boxing_ring", "holiday_wheel", "swot", "ikigai", "lens_podium", "chem_lab")
+TEMPLATES = ("column_recut", "trend_text", "irony_cine", "brand_timeline", "myth_scroll", "irony_reasons", "law_grid", "map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war", "two_paths", "surgery", "crowd_equals", "versus_card", "board_insert", "story_climb", "story_climb_full", "rulebook", "stock_chart", "zoom_stock", "gdp_stock", "pop_stock", "high_horse", "fert_race", "fert_stock", "people_stock", "bracket", "boxing_ring", "holiday_wheel", "swot", "ikigai", "lens_podium", "chem_lab")
 
 
 def main():
@@ -23,7 +23,7 @@ def main():
     for w in warn: CM.log("lint warning:", w)
     if "--lint" in sys.argv: print("lint ok"); return
     if "--voice-only" in sys.argv:          # workflow step 1: make sure a voice exists (Cartesia or voice/<id>_*.wav)
-        if S["template"] in ("rehook", "trend_text") and not S.get("lines"): print(f"{S['template']}: no new voice needed"); return
+        if S["template"] in ("rehook", "trend_text", "column_recut") and not S.get("lines"): print(f"{S['template']}: no new voice needed"); return
         raw, wj, how = CM.get_voice(S); print("voice ok:", how, os.path.relpath(raw, CM.REPO)); return
     t0 = time.time(); mod = importlib.import_module(S["template"])
     extra = mod.run(S) or {}

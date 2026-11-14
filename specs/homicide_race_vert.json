@@ -1,0 +1,31 @@
+{
+ "id": "homicide_race_vert",
+ "account": "noamroz__",
+ "template": "column_recut",
+ "hook": "Is Israel a *violent* country?",
+ "lines": [],
+ "data": {
+  "file": "templates/data/homicide_race_vert.json"
+ },
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data",
+   "year": 2022
+  },
+  {
+   "label": "Split: Taub Center 2025, Israel CBS",
+   "year": 2022
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#IsraelFacts"
+ ],
+ "cover": {
+  "t": 21.0,
+  "text": "Is Israel a|*violent* country?"
+ }
+}
