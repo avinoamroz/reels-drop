@@ -42,7 +42,8 @@ def run(S):
         bl = float(D.get("peek_blur", 16)); bg = (cv2.GaussianBlur(PF[k], (0, 0), bl) if bl > 0 else PF[k]).astype(np.float32)
         M = cv2.getRotationMatrix2D((W / 2, H / 2), 0, z); bg = cv2.warpAffine(bg, M, (W, H), borderMode=cv2.BORDER_REFLECT) * float(D.get("peek_dim", 0.36))
         cv = Canvas(bg)
-        if D.get("text_panels"):     # readable panels over a sharp, moving background
+        if D.get("text_panels"):     # readable panels over a sharp, moving background; the source's burned subtitles band is shaded out
+            cv.rrect(0, 1480, 1080, 300, 0, "#0B1730", 0.92)
             cv.rrect(40, HY - 190, 1000, 380, 44, "#0B1730", 0.78)
             if CT: cv.rrect(90, 1030, 900, 420, 44, "#0B1730", 0.78)
         if CT:

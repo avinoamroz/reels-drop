@@ -29,8 +29,8 @@
    "label": "murders per 100,000, two groups, 2022"
   },
   "brand": true,
-  "peek_blur": 2.5,
-  "peek_dim": 0.62,
+  "peek_blur": 7,
+  "peek_dim": 0.5,
   "text_panels": true
  },
  "sources": [],
