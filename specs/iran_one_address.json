@@ -1,0 +1,1045 @@
+{
+ "id": "iran_one_address",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*6* fronts. One address.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS",
+  "<<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>": "Noam Roz"
+ },
+ "lines": [
+  {
+   "say": "Six fronts. One address.",
+   "gap": 0.15
+  },
+  {
+   "say": "Start in Tehran.",
+   "screen": "Start in *Tehran*"
+  },
+  {
+   "say": "Front one: Lebanon. Hezbollah. In nineteen eighty three, a bombing in Beirut, tied by a US court to Iran and Hezbollah, killed two hundred forty one American troops.",
+   "screen": "Front 1: *Lebanon.* Hezbollah."
+  },
+  {
+   "say": "Front two: Iraq. Iran backed militias.",
+   "screen": "Front 2: *Iraq.* Iran backed militias"
+  },
+  {
+   "say": "Front three: Syria. Years of backing Assad in the civil war.",
+   "screen": "Front 3: *Syria.* Backing Assad"
+  },
+  {
+   "say": "Front four: Yemen. The Houthis, firing on Saudi Arabia, and on ships.",
+   "screen": "Front 4: *Yemen.* The Houthis"
+  },
+  {
+   "say": "Front five: Gaza. <<h|ɑ|ˈ|m|ɑ|s>>, funded and armed by Iran, says the US State Department.",
+   "screen": "Front 5: *Gaza.* HAMAS"
+  },
+  {
+   "say": "Front six is the one people forget. Argentina, nineteen ninety four. A bomb at the Jewish community centre in Buenos Aires killed eighty five people.",
+   "screen": "Front 6: *Argentina,* 1994"
+  },
+  {
+   "say": "Argentina's courts blamed Iran and Hezbollah.",
+   "screen": "Argentina's courts: *Iran and Hezbollah*"
+  },
+  {
+   "say": "This week, America's Secretary of State put it this way: every major problem in the Middle East, one common denominator.",
+   "screen": "\"Every major problem in the Middle East ... one *common denominator*\"",
+   "screen_size": 64
+  },
+  {
+   "say": "And, if you don't understand this, you don't understand Iran.",
+   "screen": "\"... if you don't understand this, you don't understand *Iran.*\"",
+   "screen_size": 64
+  },
+  {
+   "say": "This is about the regime. Not the Iranian people, and not a faith.",
+   "screen": "The *regime.* Not the people. Not a faith."
+  },
+  {
+   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+   "screen": "Like Israel facts? Follow *@noamroz__*"
+  },
+  {
+   "say": "Count the lines. They all start in one city."
+  }
+ ],
+ "data": {
+  "cam0": [
+   42.0,
+   27.0,
+   34.0
+  ],
+  "hook_y": 760,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L0+0.6",
+    "view": [
+     44.0,
+     29.0,
+     30.0,
+     1000
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L7-0.3",
+    "view": [
+     -5.0,
+     -2.0,
+     230.0,
+     700
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L9-0.3",
+    "view": [
+     44.0,
+     29.0,
+     30.0,
+     1000
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L13-0.2",
+    "view": [
+     49.0,
+     33.0,
+     16.0,
+     1000
+    ],
+    "dur": 2.4
+   }
+  ],
+  "routes": [
+   {
+    "at": "L2:lebanon",
+    "until": "END-0.6",
+    "path": [
+     [
+      51.39,
+      35.69
+     ],
+     [
+      50.714,
+      35.201
+     ],
+     [
+      50.037,
+      34.721
+     ],
+     [
+      49.358,
+      34.256
+     ],
+     [
+      48.676,
+      33.816
+     ],
+     [
+      47.991,
+      33.408
+     ],
+     [
+      47.301,
+      33.037
+     ],
+     [
+      46.607,
+      32.711
+     ],
+     [
+      45.907,
+      32.434
+     ],
+     [
+      45.2,
+      32.209
+     ],
+     [
+      44.488,
+      32.041
+     ],
+     [
+      43.769,
+      31.93
+     ],
+     [
+      43.043,
+      31.877
+     ],
+     [
+      42.311,
+      31.882
+     ],
+     [
+      41.573,
+      31.943
+     ],
+     [
+      40.828,
+      32.057
+     ],
+     [
+      40.078,
+      32.219
+     ],
+     [
+      39.324,
+      32.426
+     ],
+     [
+      38.564,
+      32.671
+     ],
+     [
+      37.801,
+      32.947
+     ],
+     [
+      37.036,
+      33.248
+     ],
+     [
+      36.268,
+      33.565
+     ],
+     [
+      35.5,
+      33.89
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.8,
+    "speed": 90
+   },
+   {
+    "at": "L3:iraq",
+    "until": "END-0.6",
+    "path": [
+     [
+      51.39,
+      35.69
+     ],
+     [
+      51.131,
+      35.402
+     ],
+     [
+      50.872,
+      35.117
+     ],
+     [
+      50.609,
+      34.84
+     ],
+     [
+      50.343,
+      34.573
+     ],
+     [
+      50.073,
+      34.32
+     ],
+     [
+      49.796,
+      34.085
+     ],
+     [
+      49.514,
+      33.868
+     ],
+     [
+      49.223,
+      33.673
+     ],
+     [
+      48.925,
+      33.502
+     ],
+     [
+      48.619,
+      33.356
+     ],
+     [
+      48.303,
+      33.235
+     ],
+     [
+      47.979,
+      33.139
+     ],
+     [
+      47.647,
+      33.069
+     ],
+     [
+      47.306,
+      33.024
+     ],
+     [
+      46.957,
+      33.003
+     ],
+     [
+      46.601,
+      33.003
+     ],
+     [
+      46.238,
+      33.022
+     ],
+     [
+      45.87,
+      33.059
+     ],
+     [
+      45.497,
+      33.109
+     ],
+     [
+      45.12,
+      33.17
+     ],
+     [
+      44.741,
+      33.238
+     ],
+     [
+      44.36,
+      33.31
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.8,
+    "speed": 90
+   },
+   {
+    "at": "L4:syria",
+    "until": "END-0.6",
+    "path": [
+     [
+      51.39,
+      35.69
+     ],
+     [
+      50.759,
+      35.204
+     ],
+     [
+      50.128,
+      34.726
+     ],
+     [
+      49.494,
+      34.264
+     ],
+     [
+      48.857,
+      33.824
+     ],
+     [
+      48.215,
+      33.415
+     ],
+     [
+      47.568,
+      33.041
+     ],
+     [
+      46.916,
+      32.71
+     ],
+     [
+      46.256,
+      32.425
+     ],
+     [
+      45.589,
+      32.19
+     ],
+     [
+      44.915,
+      32.009
+     ],
+     [
+      44.232,
+      31.882
+     ],
+     [
+      43.542,
+      31.811
+     ],
+     [
+      42.844,
+      31.794
+     ],
+     [
+      42.138,
+      31.83
+     ],
+     [
+      41.425,
+      31.917
+     ],
+     [
+      40.705,
+      32.05
+     ],
+     [
+      39.979,
+      32.226
+     ],
+     [
+      39.248,
+      32.437
+     ],
+     [
+      38.512,
+      32.678
+     ],
+     [
+      37.773,
+      32.942
+     ],
+     [
+      37.032,
+      33.222
+     ],
+     [
+      36.29,
+      33.51
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.8,
+    "speed": 90
+   },
+   {
+    "at": "L5:yemen",
+    "until": "END-0.6",
+    "path": [
+     [
+      51.39,
+      35.69
+     ],
+     [
+      51.585,
+      34.582
+     ],
+     [
+      51.769,
+      33.477
+     ],
+     [
+      51.932,
+      32.379
+     ],
+     [
+      52.064,
+      31.293
+     ],
+     [
+      52.156,
+      30.221
+     ],
+     [
+      52.199,
+      29.166
+     ],
+     [
+      52.185,
+      28.131
+     ],
+     [
+      52.109,
+      27.118
+     ],
+     [
+      51.966,
+      26.129
+     ],
+     [
+      51.75,
+      25.165
+     ],
+     [
+      51.461,
+      24.228
+     ],
+     [
+      51.098,
+      23.316
+     ],
+     [
+      50.66,
+      22.431
+     ],
+     [
+      50.151,
+      21.571
+     ],
+     [
+      49.575,
+      20.735
+     ],
+     [
+      48.935,
+      19.921
+     ],
+     [
+      48.239,
+      19.126
+     ],
+     [
+      47.495,
+      18.349
+     ],
+     [
+      46.71,
+      17.587
+     ],
+     [
+      45.894,
+      16.835
+     ],
+     [
+      45.057,
+      16.091
+     ],
+     [
+      44.21,
+      15.35
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.8,
+    "speed": 90
+   },
+   {
+    "at": "L6:gaza",
+    "until": "END-0.6",
+    "path": [
+     [
+      51.39,
+      35.69
+     ],
+     [
+      50.727,
+      35.066
+     ],
+     [
+      50.062,
+      34.45
+     ],
+     [
+      49.393,
+      33.852
+     ],
+     [
+      48.718,
+      33.28
+     ],
+     [
+      48.034,
+      32.741
+     ],
+     [
+      47.34,
+      32.243
+     ],
+     [
+      46.634,
+      31.792
+     ],
+     [
+      45.916,
+      31.393
+     ],
+     [
+      45.184,
+      31.05
+     ],
+     [
+      44.437,
+      30.767
+     ],
+     [
+      43.674,
+      30.546
+     ],
+     [
+      42.897,
+      30.386
+     ],
+     [
+      42.104,
+      30.288
+     ],
+     [
+      41.296,
+      30.25
+     ],
+     [
+      40.474,
+      30.268
+     ],
+     [
+      39.64,
+      30.338
+     ],
+     [
+      38.794,
+      30.455
+     ],
+     [
+      37.938,
+      30.613
+     ],
+     [
+      37.073,
+      30.805
+     ],
+     [
+      36.202,
+      31.022
+     ],
+     [
+      35.327,
+      31.257
+     ],
+     [
+      34.45,
+      31.5
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.8,
+    "speed": 90
+   },
+   {
+    "at": "L7:argentina",
+    "until": "END-0.6",
+    "path": [
+     [
+      51.39,
+      35.69
+     ],
+     [
+      49.308,
+      32.899
+     ],
+     [
+      47.221,
+      30.115
+     ],
+     [
+      45.126,
+      27.343
+     ],
+     [
+      43.019,
+      24.591
+     ],
+     [
+      40.897,
+      21.863
+     ],
+     [
+      38.754,
+      19.166
+     ],
+     [
+      36.587,
+      16.507
+     ],
+     [
+      34.394,
+      13.889
+     ],
+     [
+      32.17,
+      11.32
+     ],
+     [
+      29.912,
+      8.803
+     ],
+     [
+      27.617,
+      6.344
+     ],
+     [
+      25.283,
+      3.946
+     ],
+     [
+      22.907,
+      1.614
+     ],
+     [
+      20.486,
+      -0.648
+     ],
+     [
+      18.019,
+      -2.838
+     ],
+     [
+      15.504,
+      -4.954
+     ],
+     [
+      12.939,
+      -6.992
+     ],
+     [
+      10.324,
+      -8.951
+     ],
+     [
+      7.658,
+      -10.83
+     ],
+     [
+      4.94,
+      -12.627
+     ],
+     [
+      2.17,
+      -14.344
+     ],
+     [
+      -0.653,
+      -15.98
+     ],
+     [
+      -3.526,
+      -17.535
+     ],
+     [
+      -6.45,
+      -19.012
+     ],
+     [
+      -9.424,
+      -20.411
+     ],
+     [
+      -12.445,
+      -21.735
+     ],
+     [
+      -15.513,
+      -22.987
+     ],
+     [
+      -18.625,
+      -24.17
+     ],
+     [
+      -21.779,
+      -25.287
+     ],
+     [
+      -24.973,
+      -26.342
+     ],
+     [
+      -28.204,
+      -27.34
+     ],
+     [
+      -31.468,
+      -28.285
+     ],
+     [
+      -34.763,
+      -29.182
+     ],
+     [
+      -38.085,
+      -30.037
+     ],
+     [
+      -41.431,
+      -30.855
+     ],
+     [
+      -44.797,
+      -31.641
+     ],
+     [
+      -48.178,
+      -32.403
+     ],
+     [
+      -51.572,
+      -33.146
+     ],
+     [
+      -54.974,
+      -33.876
+     ],
+     [
+      -58.38,
+      -34.6
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 1.2,
+    "speed": 90
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1",
+    "until": "END-0.6",
+    "lon": 51.39,
+    "lat": 35.69,
+    "label": "Tehran",
+    "color": "yellow"
+   }
+  ],
+  "counter": [
+   {
+    "label": "Fronts",
+    "at": "L1",
+    "until": "END-0.6",
+    "y": 1250,
+    "steps": [
+     {
+      "at": "L1",
+      "value": 0
+     },
+     {
+      "at": "L2:lebanon",
+      "value": 1
+     },
+     {
+      "at": "L3:iraq",
+      "value": 2
+     },
+     {
+      "at": "L4:syria",
+      "value": 3
+     },
+     {
+      "at": "L5:yemen",
+      "value": 4
+     },
+     {
+      "at": "L6:gaza",
+      "value": 5
+     },
+     {
+      "at": "L7:argentina",
+      "value": 6
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L2:killed",
+    "until": "L3-0.1",
+    "value": 241,
+    "from": 1,
+    "sub": "US troops killed, Beirut 1983",
+    "y": 900
+   },
+   {
+    "at": "L7:killed",
+    "until": "L8-0.1",
+    "value": 85,
+    "from": 1,
+    "sub": "killed, Buenos Aires 1994",
+    "y": 640
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L5",
+    "until": "L7-0.1",
+    "text": "Save this map",
+    "y": 520,
+    "size": 48
+   },
+   {
+    "at": "L11",
+    "until": "L13-0.1",
+    "text": "Name a *7th* front?",
+    "y": 540,
+    "size": 56
+   },
+   {
+    "at": "L13",
+    "until": "END-0.55",
+    "text": "*One* address.",
+    "y": 1100,
+    "size": 84,
+    "pill": "#163261"
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.4"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "tail": 0.6,
+  "icons": [
+   {
+    "at": "L2:lebanon+0.6",
+    "until": "END-0.6",
+    "lon": 35.5,
+    "lat": 33.89,
+    "emo": "🇱🇧",
+    "size": 52,
+    "label": "Lebanon",
+    "label_dy": -60.0,
+    "tsize": 40,
+    "col": "white"
+   },
+   {
+    "at": "L3:iraq+0.6",
+    "until": "END-0.6",
+    "lon": 44.36,
+    "lat": 33.31,
+    "emo": "🇮🇶",
+    "size": 52,
+    "label": "Iraq",
+    "label_dy": -60.0,
+    "tsize": 40,
+    "col": "white"
+   },
+   {
+    "at": "L4:syria+0.6",
+    "until": "END-0.6",
+    "lon": 36.29,
+    "lat": 33.51,
+    "emo": "🇸🇾",
+    "size": 52,
+    "label": "Syria",
+    "label_dy": 60.0,
+    "tsize": 40,
+    "col": "white"
+   },
+   {
+    "at": "L5:yemen+0.6",
+    "until": "END-0.6",
+    "lon": 44.21,
+    "lat": 15.35,
+    "emo": "🇾🇪",
+    "size": 52,
+    "label": "Yemen",
+    "label_dy": -60.0,
+    "tsize": 40,
+    "col": "white"
+   },
+   {
+    "at": "L6:gaza+0.6",
+    "until": "END-0.6",
+    "lon": 34.45,
+    "lat": 31.5,
+    "emo": "📍",
+    "size": 52,
+    "label": "Gaza",
+    "label_dy": 60.0,
+    "tsize": 40,
+    "col": "white"
+   },
+   {
+    "at": "L7:argentina+0.6",
+    "until": "END-0.6",
+    "lon": -58.38,
+    "lat": -34.6,
+    "emo": "🇦🇷",
+    "size": 52,
+    "label": "Buenos Aires",
+    "label_dy": -60.0,
+    "tsize": 40,
+    "col": "white"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "US DoD: 241 US service members killed, Beirut",
+   "year": 1983,
+   "at": "L2",
+   "until": "L2:tied"
+  },
+  {
+   "label": "Peterson v. Islamic Republic of Iran, US District Court",
+   "year": 2003,
+   "at": "L2:tied",
+   "until": "L3"
+  },
+  {
+   "label": "US State Dept, Country Reports on Terrorism",
+   "year": 2023,
+   "at": "L3",
+   "until": "L7"
+  },
+  {
+   "label": "Argentina Federal Court of Cassation (AMIA ruling)",
+   "year": 2024,
+   "at": "L7",
+   "until": "L9"
+  },
+  {
+   "label": "Marco Rubio, US Secretary of State, 13 Nov",
+   "year": 2026,
+   "at": "L9",
+   "until": "L11"
+  }
+ ],
+ "caption_en": "Count the lines. They all start in one city.\n\n6 fronts, one address:\n1. Lebanon: Hezbollah. In 1983 the Beirut barracks bombing killed 241 US service members (US Department of Defense); a US federal court (Peterson v. Islamic Republic of Iran, 2003) held Iran responsible, with Hezbollah carrying it out.\n2. Iraq: Iran backed militias (US State Department, Country Reports on Terrorism 2023).\n3. Syria: Iran's Islamic Revolutionary Guard Corps (IRGC) backed the Assad regime through the civil war (same report).\n4. Yemen: the Houthis, armed by Iran, fired on Saudi Arabia and on ships in the Red Sea (same report).\n5. Gaza: HAMAS, funded and armed by Iran (same report).\n6. Argentina: in 1994 a bomb at the AMIA (Argentine Israelite Mutual Association) Jewish community centre in Buenos Aires killed 85 people. In 2024 Argentina's Federal Court of Cassation ruled that Iran ordered it and Hezbollah carried it out.\n\nMarco Rubio, US Secretary of State, Federalist Society, 13 Nov 2026 (official State Department transcript): \"every major problem in the Middle East ... one common denominator\" and \"if you don't understand this, you don't understand Iran.\"\n\nThis is about the regime. Not the Iranian people, and not a faith.\n\nName a 7th front?\nAI voice (Noam's own cloned voice), AI made visuals. Map, not footage.",
+ "caption_he": "תספרו את הקווים. כולם מתחילים בעיר אחת.\n6 חזיתות, כתובת אחת:\n1. לבנון: חיזבאללה. ב 1983 הפיצוץ במגורי הנחתים בביירות הרג 241 אנשי צבא אמריקאים. בית משפט פדרלי בארה״ב קבע שאיראן אחראית.\n2. עיראק: מיליציות בגיבוי איראן.\n3. סוריה: תמיכה במשטר אסד במלחמת האזרחים.\n4. תימן: החות׳ים יורים על סעודיה ועל ספינות.\n5. עזה: חמאס, במימון ובחימוש איראני (משרד החוץ האמריקאי).\n6. ארגנטינה: ב 1994 פיגוע בבניין הקהילה היהודית AMIA בבואנוס איירס הרג 85 בני אדם. ב 2024 בית המשפט בארגנטינה קבע שאיראן הורתה עליו וחיזבאללה ביצע.\nמדובר במשטר. לא בעם האיראני, ולא בדת.",
+ "hashtags": [
+  "#Iran",
+  "#Israel",
+  "#IsraelFacts",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 47.0,
+  "big": "6",
+  "text": "fronts.|*One* address."
+ }
+}
