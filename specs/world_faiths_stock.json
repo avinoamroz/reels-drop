@@ -358,7 +358,9 @@
    "r": 30
   },
   "labels_from": "L0e+0.3",
-  "subs_merge": true
+  "subs_merge": true,
+  "head_size": 56,
+  "head_gap": 78
  },
  "sources": [
   {

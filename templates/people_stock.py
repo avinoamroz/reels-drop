@@ -264,7 +264,7 @@ def run(S):
             cv.circ(hx, hyp, 9, WHITE, la)
             heads.append(dict(s=s, x=hx, y=hyp, v=hv, col=col, a=la))
         c.restore()
-        heads.sort(key=lambda h: h["y"]); gap = 54; ys = [h["y"] for h in heads]
+        heads.sort(key=lambda h: h["y"]); gap = D.get("head_gap", 54); ys = [h["y"] for h in heads]
         for _ in range(120):
             for k_ in range(1, len(ys)):
                 if ys[k_] - ys[k_ - 1] < gap:
@@ -274,7 +274,7 @@ def run(S):
         for h, ly in zip(heads, ys):
             h["a"] *= la_
             if h["a"] <= 0.01: continue
-            sz = 46; tk = h["s"]["ticker"]; vt = fmt_v(h["v"])
+            sz = D.get("head_size", 46); tk = h["s"]["ticker"]; vt = fmt_v(h["v"])
             arrow = "▲" if h["col"] == UP else ("▼" if h["col"] == DOWN else "")
             dot = sz * 0.62; gap_ = sz * 0.3
             wt = cv.tw(tk + " ", sz); wv = cv.tw(vt + (" " + arrow if arrow else ""), sz)
