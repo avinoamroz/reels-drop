@@ -1,0 +1,158 @@
+{
+ "id": "apartheid_olympics_v2c",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*5* laws split people.|Find Israel's.",
+ "duration": 50.23,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/apartheid_olympics_v2c.mp4",
+  "cover": "covers/apartheid_olympics_v2c_cover.jpg",
+  "preview": "previews/apartheid_olympics_v2c_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/apartheid_olympics_v2c_0.jpg",
+  "1": "out/frames/apartheid_olympics_v2c_1.jpg",
+  "3": "out/frames/apartheid_olympics_v2c_3.jpg",
+  "last": "out/frames/apartheid_olympics_v2c_last.jpg"
+ },
+ "caption_en": "One country on this map has no law that splits its citizens by race. Watch which one.\n\nLaws that split people by race or faith:\n📜 South Africa, 1950: every person classified by race, by law (Population Registration Act).\n📜 Lebanon: Palestinian refugees barred from over 30 professions and from owning property.\n📜 Myanmar: a 1982 law leaves the Rohingya stateless.\n📜 Kuwait: about 92,000 stateless residents, mostly Bidoon.\n📜 Saudi Arabia: no public worship for non Muslims.\n\nIsrael: Arab citizens (about 21%) vote on the same ballot, Arab parties won 19 of 120 seats in Oct 2026, Justice Khaled Kabub sits on the Supreme Court, and about 1 in 4 doctors is Arab.\n\nCritics like Amnesty point to the West Bank. Its checkpoints came after the Second Intifada (1,048 Israelis killed, 2000 to 2005): a security measure, not rule by race.\n\nIs that a fair answer? Tell me below.\n\nThese are laws and governments, not peoples.\n\nSources: Britannica, Population Registration Act 1950; Amnesty International and Human Rights Watch 2010 (Lebanon, 2001 property law); Human Rights Watch and UN (Myanmar 1982 Citizenship Law); UNHCR, end of 2023 (Kuwait); USCIRF 2024 (Saudi Arabia); Israel CBS 2026; Knesset election final results, Oct 2026 (i24NEWS); Rosen and Miaari 2025; Shin Bet via JTA 2005. AI voice (Noam's own cloned voice).",
+ "caption_he": "חוקים שמפרידים בין אנשים לפי גזע או דת: דרום אפריקה, לבנון, מיאנמר, כווית, סעודיה. וישראל? האזרחים הערבים מצביעים באותו פתק, המפלגות הערביות זכו ב 19 מושבים, שופט ערבי בבית המשפט העליון, וכרבע מהרופאים ערבים. המחסומים ביהודה ושומרון הגיעו אחרי האינתיפאדה השנייה (1,048 הרוגים): צעד ביטחוני, לא גזע.",
+ "hashtags": [
+  "#Israel",
+  "#Apartheid",
+  "#HumanRights",
+  "#IsraelFacts"
+ ],
+ "sources": [
+  {
+   "label": "Britannica: Population Registration Act",
+   "year": 1950,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Amnesty and HRW (Lebanon, 2001 property law)",
+   "year": 2010,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "HRW and UN: Myanmar Citizenship Law",
+   "year": 1982,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "UNHCR, end of 2023",
+   "year": 2023,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "USCIRF",
+   "year": 2024,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Israel CBS; Rosen and Miaari",
+   "year": 2025,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Shin Bet via JTA",
+   "year": 2005,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Knesset election final results (i24NEWS)",
+   "year": 2026,
+   "at": "L11",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.921,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Five laws that split people. Find Israel's.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "South Africa, nineteen fifty: every person classified by race, by law.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon: Palestinian refugees barred from over thirty professions, and from owning property.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Myanmar: a nineteen eighty two law leaves the Rohingya stateless.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Kuwait: about ninety two thousand stateless residents, mostly Bidoon.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Saudi Arabia: no public worship for non Muslims.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now Israel. Arab citizens are about one in five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They vote on the same ballot. An Arab justice sits on the Supreme Court. About one in four doctors is Arab.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Critics point to the West Bank. Its checkpoints came after the Second Intifada, when over a thousand Israelis were killed.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A security measure, not rule by race.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+    "score": 0.615,
+    "flag": "MISS"
+   },
+   {
+    "line": "Israel's law that splits its citizens by race? Arab parties won nineteen seats.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "5 Laws that split people. Find Israel's. South Africa 1950. Every person classified by race, by law. Lebanon. Palestinian refugees barred from over 30 professions and from owning property. Myanmar. A 1982 law leaves the Rohingya stateless. Wait. About 92,000 stateless residents, mostly by dune. Saudi Arabia. No public worship for non-Muslims. Now Israel. Arab citizens are about 1 in 5. They vote on the same ballot. Arab justice sits on the Supreme Court. About one in four doctors is Arab. Critics point to the West Bank. Its checkpoints came after the second intifada, when over a thousand Israelis were killed. A security measure, not ruled by race. If you like Israel facts, follow Noam Raj for more. Israel's law that splits its citizens by race. Arab parties won 19 seats.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 50.23,
+ "opener": null,
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [],
+ "render_s": 92.4
+}
