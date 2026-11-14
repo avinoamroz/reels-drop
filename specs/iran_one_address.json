@@ -23,11 +23,7 @@
    "gap": 0.15
   },
   {
-   "say": "Start in Tehran.",
-   "screen": "Start in *Tehran*"
-  },
-  {
-   "say": "Front one: Lebanon. Hezbollah. In nineteen eighty three, a bombing in Beirut, tied by a US court to Iran and Hezbollah, killed two hundred forty one American troops.",
+   "say": "Front one: Lebanon. Hezbollah. In nineteen eighty three, a Beirut bombing, tied by a US court to Iran and Hezbollah, killed two hundred forty one American troops.",
    "screen": "Front 1: *Lebanon.* Hezbollah."
   },
   {
@@ -35,11 +31,11 @@
    "screen": "Front 2: *Iraq.* Iran backed militias"
   },
   {
-   "say": "Front three: Syria. Years of backing Assad in the civil war.",
+   "say": "Front three: Syria. Backing Assad's war.",
    "screen": "Front 3: *Syria.* Backing Assad"
   },
   {
-   "say": "Front four: Yemen. The Houthis, firing on Saudi Arabia, and on ships.",
+   "say": "Front four: Yemen. The Houthis, firing on Saudi Arabia and on ships.",
    "screen": "Front 4: *Yemen.* The Houthis"
   },
   {
@@ -47,7 +43,7 @@
    "screen": "Front 5: *Gaza.* HAMAS"
   },
   {
-   "say": "Front six is the one people forget. Argentina, nineteen ninety four. A bomb at the Jewish community centre in Buenos Aires killed eighty five people.",
+   "say": "Front six, the one people forget: Argentina, nineteen ninety four. A bomb at a Jewish centre in Buenos Aires killed eighty five.",
    "screen": "Front 6: *Argentina,* 1994"
   },
   {
@@ -55,7 +51,7 @@
    "screen": "Argentina's courts: *Iran and Hezbollah*"
   },
   {
-   "say": "This week, America's Secretary of State put it this way: every major problem in the Middle East, one common denominator.",
+   "say": "This week, the US Secretary of State said it: every major problem in the Middle East, one common denominator.",
    "screen": "\"Every major problem in the Middle East ... one *common denominator*\"",
    "screen_size": 64
   },
@@ -96,7 +92,7 @@
     "dur": 1.0
    },
    {
-    "at": "L7-0.3",
+    "at": "L6-0.3",
     "view": [
      -5.0,
      -2.0,
@@ -106,7 +102,7 @@
     "dur": 1.4
    },
    {
-    "at": "L9-0.3",
+    "at": "L8-0.3",
     "view": [
      44.0,
      29.0,
@@ -116,7 +112,7 @@
     "dur": 1.2
    },
    {
-    "at": "L13-0.2",
+    "at": "L12-0.2",
     "view": [
      49.0,
      33.0,
@@ -128,7 +124,7 @@
   ],
   "routes": [
    {
-    "at": "L2:lebanon",
+    "at": "L1:lebanon",
     "until": "END-0.6",
     "path": [
      [
@@ -231,7 +227,7 @@
     "speed": 90
    },
    {
-    "at": "L3:iraq",
+    "at": "L2:iraq",
     "until": "END-0.6",
     "path": [
      [
@@ -334,7 +330,7 @@
     "speed": 90
    },
    {
-    "at": "L4:syria",
+    "at": "L3:syria",
     "until": "END-0.6",
     "path": [
      [
@@ -437,7 +433,7 @@
     "speed": 90
    },
    {
-    "at": "L5:yemen",
+    "at": "L4:yemen",
     "until": "END-0.6",
     "path": [
      [
@@ -540,7 +536,7 @@
     "speed": 90
    },
    {
-    "at": "L6:gaza",
+    "at": "L5:gaza",
     "until": "END-0.6",
     "path": [
      [
@@ -643,7 +639,7 @@
     "speed": 90
    },
    {
-    "at": "L7:argentina",
+    "at": "L6:argentina",
     "until": "END-0.6",
     "path": [
      [
@@ -820,7 +816,7 @@
   ],
   "pins": [
    {
-    "at": "L1",
+    "at": "L0e",
     "until": "END-0.6",
     "lon": 51.39,
     "lat": 35.69,
@@ -831,36 +827,36 @@
   "counter": [
    {
     "label": "Fronts",
-    "at": "L1",
+    "at": "L0e",
     "until": "END-0.6",
     "y": 1250,
     "steps": [
      {
-      "at": "L1",
+      "at": "L0e",
       "value": 0
      },
      {
-      "at": "L2:lebanon",
+      "at": "L1:lebanon",
       "value": 1
      },
      {
-      "at": "L3:iraq",
+      "at": "L2:iraq",
       "value": 2
      },
      {
-      "at": "L4:syria",
+      "at": "L3:syria",
       "value": 3
      },
      {
-      "at": "L5:yemen",
+      "at": "L4:yemen",
       "value": 4
      },
      {
-      "at": "L6:gaza",
+      "at": "L5:gaza",
       "value": 5
      },
      {
-      "at": "L7:argentina",
+      "at": "L6:argentina",
       "value": 6
      }
     ]
@@ -868,16 +864,16 @@
   ],
   "big": [
    {
-    "at": "L2:killed",
-    "until": "L3-0.1",
+    "at": "L1:killed",
+    "until": "L2-0.1",
     "value": 241,
     "from": 1,
     "sub": "US troops killed, Beirut 1983",
     "y": 900
    },
    {
-    "at": "L7:killed",
-    "until": "L8-0.1",
+    "at": "L6:killed",
+    "until": "L7-0.1",
     "value": 85,
     "from": 1,
     "sub": "killed, Buenos Aires 1994",
@@ -886,21 +882,21 @@
   ],
   "overlays": [
    {
-    "at": "L5",
-    "until": "L7-0.1",
+    "at": "L4",
+    "until": "L6-0.1",
     "text": "Save this map",
     "y": 520,
     "size": 48
    },
    {
-    "at": "L11",
-    "until": "L13-0.1",
+    "at": "L10",
+    "until": "L12-0.1",
     "text": "Name a *7th* front?",
     "y": 540,
     "size": 56
    },
    {
-    "at": "L13",
+    "at": "L12",
     "until": "END-0.55",
     "text": "*One* address.",
     "y": 1100,
@@ -924,7 +920,7 @@
   "tail": 0.6,
   "icons": [
    {
-    "at": "L2:lebanon+0.6",
+    "at": "L1:lebanon+0.6",
     "until": "END-0.6",
     "lon": 35.5,
     "lat": 33.89,
@@ -936,7 +932,7 @@
     "col": "white"
    },
    {
-    "at": "L3:iraq+0.6",
+    "at": "L2:iraq+0.6",
     "until": "END-0.6",
     "lon": 44.36,
     "lat": 33.31,
@@ -948,7 +944,7 @@
     "col": "white"
    },
    {
-    "at": "L4:syria+0.6",
+    "at": "L3:syria+0.6",
     "until": "END-0.6",
     "lon": 36.29,
     "lat": 33.51,
@@ -960,7 +956,7 @@
     "col": "white"
    },
    {
-    "at": "L5:yemen+0.6",
+    "at": "L4:yemen+0.6",
     "until": "END-0.6",
     "lon": 44.21,
     "lat": 15.35,
@@ -972,7 +968,7 @@
     "col": "white"
    },
    {
-    "at": "L6:gaza+0.6",
+    "at": "L5:gaza+0.6",
     "until": "END-0.6",
     "lon": 34.45,
     "lat": 31.5,
@@ -984,7 +980,7 @@
     "col": "white"
    },
    {
-    "at": "L7:argentina+0.6",
+    "at": "L6:argentina+0.6",
     "until": "END-0.6",
     "lon": -58.38,
     "lat": -34.6,
@@ -1001,32 +997,32 @@
   {
    "label": "US DoD: 241 US service members killed, Beirut",
    "year": 1983,
-   "at": "L2",
-   "until": "L2:tied"
+   "at": "L1",
+   "until": "L1:tied"
   },
   {
    "label": "Peterson v. Islamic Republic of Iran, US District Court",
    "year": 2003,
-   "at": "L2:tied",
-   "until": "L3"
+   "at": "L1:tied",
+   "until": "L2"
   },
   {
    "label": "US State Dept, Country Reports on Terrorism",
    "year": 2023,
-   "at": "L3",
-   "until": "L7"
+   "at": "L2",
+   "until": "L6"
   },
   {
    "label": "Argentina Federal Court of Cassation (AMIA ruling)",
    "year": 2024,
-   "at": "L7",
-   "until": "L9"
+   "at": "L6",
+   "until": "L8"
   },
   {
    "label": "Marco Rubio, US Secretary of State, 13 Nov",
    "year": 2026,
-   "at": "L9",
-   "until": "L11"
+   "at": "L8",
+   "until": "L10"
   }
  ],
  "caption_en": "Count the lines. They all start in one city.\n\n6 fronts, one address:\n1. Lebanon: Hezbollah. In 1983 the Beirut barracks bombing killed 241 US service members (US Department of Defense); a US federal court (Peterson v. Islamic Republic of Iran, 2003) held Iran responsible, with Hezbollah carrying it out.\n2. Iraq: Iran backed militias (US State Department, Country Reports on Terrorism 2023).\n3. Syria: Iran's Islamic Revolutionary Guard Corps (IRGC) backed the Assad regime through the civil war (same report).\n4. Yemen: the Houthis, armed by Iran, fired on Saudi Arabia and on ships in the Red Sea (same report).\n5. Gaza: HAMAS, funded and armed by Iran (same report).\n6. Argentina: in 1994 a bomb at the AMIA (Argentine Israelite Mutual Association) Jewish community centre in Buenos Aires killed 85 people. In 2024 Argentina's Federal Court of Cassation ruled that Iran ordered it and Hezbollah carried it out.\n\nMarco Rubio, US Secretary of State, Federalist Society, 13 Nov 2026 (official State Department transcript): \"every major problem in the Middle East ... one common denominator\" and \"if you don't understand this, you don't understand Iran.\"\n\nThis is about the regime. Not the Iranian people, and not a faith.\n\nName a 7th front?\nAI voice (Noam's own cloned voice), AI made visuals. Map, not footage.",
