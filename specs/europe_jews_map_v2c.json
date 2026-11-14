@@ -1,0 +1,462 @@
+{
+ "id": "europe_jews_map_v2c",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Where did Europe's|*Jews* go?",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.05,
+  "gap": 0.2
+ },
+ "subs_replace": {
+  "<<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>": "Noam Roz"
+ },
+ "lines": [
+  {
+   "say": "Where did Europe's Jews go?",
+   "gap": 0.15
+  },
+  {
+   "say": "Nineteen thirty three. Nine and a half million Jews live in Europe.",
+   "screen": "*1933:* 9.5 million Jews in Europe"
+  },
+  {
+   "say": "Poland, over three million. The Soviet Union, two and a half million.",
+   "screen": "Poland *3M.* Soviet Union *2.5M.*"
+  },
+  {
+   "say": "Romania. Germany. Hungary. Britain. France.",
+   "screen": "Romania, Germany, Hungary, Britain, France"
+  },
+  {
+   "say": "Families, schools, synagogues, whole towns.",
+   "screen": "Families. Schools. *Synagogues.* Whole towns."
+  },
+  {
+   "say": "Then come the Nazis, and the war.",
+   "screen": "Then come the *Nazis,* and the war"
+  },
+  {
+   "say": "By nineteen fifty, the counter reads three and a half million.",
+   "screen": "*1950:* 3.5 million"
+  },
+  {
+   "say": "Poland: from three million, to forty five thousand.",
+   "screen": "Poland: *3,000,000* to *45,000*"
+  },
+  {
+   "say": "Germany: from over half a million, to thirty seven thousand.",
+   "screen": "Germany: *525,000* to *37,000*"
+  },
+  {
+   "say": "About one hundred thirty six thousand survivors went to Israel, and over eighty thousand to the United States.",
+   "screen": "Survivors: *136,000* to Israel, *80,000+* to the US"
+  },
+  {
+   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+   "screen": "Like Israel facts? Follow *@noamroz__*"
+  },
+  {
+   "say": "The Soviet Union still had about two million. But most of the missing never went anywhere.",
+   "screen": "Most of the missing *never went anywhere*",
+   "until": "L12"
+  },
+  {
+   "say": "Six million Jews were murdered in the Holocaust."
+  }
+ ],
+ "data": {
+  "cam0": [
+   18.0,
+   48.0,
+   38.0
+  ],
+  "hook_y": 760,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L0+0.6",
+    "view": [
+     16.0,
+     49.0,
+     32.0,
+     1000
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L9-0.2",
+    "view": [
+     10.0,
+     42.0,
+     60.0,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L11-0.2",
+    "view": [
+     18.0,
+     48.0,
+     38.0,
+     1000
+    ],
+    "dur": 1.2
+   }
+  ],
+  "pins": [
+   {
+    "at": "L2:poland",
+    "lon": 21.0,
+    "lat": 52.2,
+    "label": "Poland",
+    "color": "yellow",
+    "until": "L11"
+   },
+   {
+    "at": "L2:soviet",
+    "lon": 30.5,
+    "lat": 50.4,
+    "label": "Soviet Union",
+    "color": "yellow",
+    "until": "L11"
+   },
+   {
+    "at": "L3:romania",
+    "lon": 26.1,
+    "lat": 44.4,
+    "label": "Romania",
+    "color": "yellow",
+    "until": "L11"
+   },
+   {
+    "at": "L3:germany",
+    "lon": 13.4,
+    "lat": 52.5,
+    "label": "Germany",
+    "color": "yellow",
+    "until": "L11"
+   },
+   {
+    "at": "L3:hungary",
+    "lon": 19.0,
+    "lat": 47.5,
+    "label": "Hungary",
+    "color": "yellow",
+    "until": "L11"
+   },
+   {
+    "at": "L3:britain",
+    "lon": -0.1,
+    "lat": 51.5,
+    "label": "Britain",
+    "color": "yellow",
+    "until": "L11"
+   },
+   {
+    "at": "L3:france",
+    "lon": 2.35,
+    "lat": 48.85,
+    "label": "France",
+    "color": "yellow",
+    "until": "L11"
+   }
+  ],
+  "counter": [
+   {
+    "label": "Jews in Europe",
+    "at": "L1-0.2",
+    "until": "L7-0.2",
+    "y": 1260,
+    "steps": [
+     {
+      "at": "L1:nine",
+      "value": 9500000
+     },
+     {
+      "at": "L6:three",
+      "value": 3500000
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L7:forty",
+    "until": "L8-0.1",
+    "value": 45000,
+    "from": 3000000,
+    "sub": "Jews in Poland, 1950",
+    "y": 1000
+   },
+   {
+    "at": "L8:thirty",
+    "until": "L9-0.1",
+    "value": 37000,
+    "from": 525000,
+    "sub": "Jews in Germany, 1950",
+    "y": 1000
+   },
+   {
+    "at": "L12:six",
+    "until": "END-0.6",
+    "value": 6000000,
+    "from": 6000000,
+    "sub": "Jews murdered in the Holocaust",
+    "y": 1000
+   }
+  ],
+  "routes": [
+   {
+    "at": "L9:israel",
+    "until": "L10e",
+    "kind": "flow",
+    "color": "sky",
+    "path": [
+     [
+      16.0,
+      48.5
+     ],
+     [
+      17.472,
+      48.238
+     ],
+     [
+      18.931,
+      47.962
+     ],
+     [
+      20.364,
+      47.657
+     ],
+     [
+      21.758,
+      47.31
+     ],
+     [
+      23.104,
+      46.909
+     ],
+     [
+      24.391,
+      46.442
+     ],
+     [
+      25.609,
+      45.9
+     ],
+     [
+      26.754,
+      45.276
+     ],
+     [
+      27.818,
+      44.564
+     ],
+     [
+      28.8,
+      43.76
+     ],
+     [
+      29.698,
+      42.864
+     ],
+     [
+      30.514,
+      41.876
+     ],
+     [
+      31.249,
+      40.8
+     ],
+     [
+      31.911,
+      39.642
+     ],
+     [
+      32.504,
+      38.409
+     ],
+     [
+      33.038,
+      37.11
+     ],
+     [
+      33.524,
+      35.757
+     ],
+     [
+      33.971,
+      34.362
+     ],
+     [
+      34.392,
+      32.938
+     ],
+     [
+      34.8,
+      31.5
+     ]
+    ],
+    "label": "Israel 136,000",
+    "draw": 0.8
+   },
+   {
+    "at": "L9:united",
+    "until": "L10e",
+    "kind": "flow",
+    "color": "sky",
+    "path": [
+     [
+      10.0,
+      50.5
+     ],
+     [
+      8.121,
+      51.046
+     ],
+     [
+      6.245,
+      51.572
+     ],
+     [
+      4.375,
+      52.058
+     ],
+     [
+      2.515,
+      52.486
+     ],
+     [
+      0.667,
+      52.837
+     ],
+     [
+      -1.167,
+      53.097
+     ],
+     [
+      -2.985,
+      53.253
+     ],
+     [
+      -4.785,
+      53.293
+     ],
+     [
+      -6.565,
+      53.21
+     ],
+     [
+      -8.325,
+      53.0
+     ],
+     [
+      -10.065,
+      52.66
+     ],
+     [
+      -11.785,
+      52.193
+     ],
+     [
+      -13.485,
+      51.603
+     ],
+     [
+      -15.167,
+      50.897
+     ],
+     [
+      -16.833,
+      50.087
+     ],
+     [
+      -18.485,
+      49.186
+     ],
+     [
+      -20.125,
+      48.208
+     ],
+     [
+      -21.755,
+      47.172
+     ],
+     [
+      -23.379,
+      46.096
+     ],
+     [
+      -25.0,
+      45.0
+     ]
+    ],
+    "label": "USA 80,000+",
+    "draw": 0.8
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L4",
+    "until": "L6-0.1",
+    "text": "Save this map",
+    "y": 520,
+    "size": 48
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.4"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "tail": 1.2
+ },
+ "sources": [
+  {
+   "label": "USHMM Holocaust Encyclopedia (American Jewish Year Book)",
+   "year": 1950,
+   "at": "L1",
+   "until": "L9"
+  },
+  {
+   "label": "USHMM: displaced persons",
+   "year": 1952,
+   "at": "L9",
+   "until": "L12"
+  },
+  {
+   "label": "USHMM Holocaust Encyclopedia",
+   "year": 2024,
+   "at": "L12",
+   "until": "END-0.6"
+  }
+ ],
+ "caption_en": "Nine and a half million in 1933. Count what is left.\n\nWhere did Europe's Jews go? 🕯️\n\n1933: about 9.5 million Jews lived in Europe. Poland over 3 million, the Soviet Union (European part) 2,525,000, Romania 756,000, Germany 525,000, Hungary 445,000, Britain 300,000, France 250,000.\n1950: about 3.5 million.\nPoland: from about 3,000,000 to about 45,000. Germany: from 525,000 to 37,000. Hungary: 445,000 to 190,000. Czechoslovakia: 357,000 to 17,000.\nAbout 136,000 Jewish displaced persons settled in Israel, and over 80,000 in the United States by 1952. The Soviet Union still had some two million Jews.\nSix million Jews were murdered in the Holocaust.\n\nThe real data points are 1933 and 1950; the counter in between is drawn for the animation.\n\nSources: United States Holocaust Memorial Museum (USHMM), Holocaust Encyclopedia (Jewish population of Europe in 1933; Remaining Jewish population of Europe in 1945; Displaced persons), based on the American Jewish Year Book. AI voice (Noam's own cloned voice).",
+ "caption_he": "לאן נעלמו יהודי אירופה? ב 1933 חיו באירופה כ 9.5 מיליון יהודים. ב 1950 נותרו כ 3.5 מיליון. שישה מיליון נרצחו בשואה.",
+ "hashtags": [
+  "#Holocaust",
+  "#JewishHistory",
+  "#NeverForget",
+  "#IsraelFacts"
+ ],
+ "hook_original": true,
+ "cover": {
+  "t": 6.0,
+  "text": "Where did Europe's|*Jews* go?"
+ }
+}
