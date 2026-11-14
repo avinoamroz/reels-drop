@@ -64,7 +64,7 @@ jobs:
             /voice/${{ matrix.id }}_*
       - name: Rehook source and named voice file
         run: |
-          src=$(jq -r 'if .template == "rehook" then .data.source else empty end' "$SPEC")
+          src=$(jq -r 'if (.template == "rehook" or .template == "column_recut") then .data.source else empty end' "$SPEC")
           vf=$(jq -r '.voice.file // empty' "$SPEC")
           for f in $src $vf; do git sparse-checkout add "/$f"; done
           [ -z "$vf" ] || git sparse-checkout add "/${vf%.wav}_words.json"

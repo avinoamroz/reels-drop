@@ -5,7 +5,8 @@
  "hook": "Is Israel a *violent* country?",
  "lines": [],
  "data": {
-  "file": "templates/data/homicide_race_vert.json"
+  "file": "templates/data/homicide_race_vert.json",
+  "source": "homicide_race_v4.mp4"
  },
  "sources": [
   {

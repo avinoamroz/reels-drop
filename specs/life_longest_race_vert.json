@@ -4,10 +4,25 @@
  "template": "column_recut",
  "hook": "Who lives longest? *Middle East*",
  "lines": [],
- "data": {"file": "templates/data/life_longest_race_vert.json"},
- "sources": [{"label": "World Bank, SP.DYN.LE00.IN (via FRED)", "year": 2023}],
+ "data": {
+  "file": "templates/data/life_longest_race_vert.json",
+  "source": "life_longest_race.mp4"
+ },
+ "sources": [
+  {
+   "label": "World Bank, SP.DYN.LE00.IN (via FRED)",
+   "year": 2023
+  }
+ ],
  "caption_en": "",
  "caption_he": "",
- "hashtags": ["#Israel", "#MiddleEast", "#IsraelFacts"],
- "cover": {"t": 34.0, "text": "Who lives longest in the|*Middle East?*"}
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#IsraelFacts"
+ ],
+ "cover": {
+  "t": 34.0,
+  "text": "Who lives longest in the|*Middle East?*"
+ }
 }
