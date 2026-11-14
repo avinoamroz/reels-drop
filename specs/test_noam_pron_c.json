@@ -1,0 +1,45 @@
+{
+ "account": "noamroz__",
+ "template": "map_counter",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.3
+ },
+ "data": {
+  "cam0": [
+   35.0,
+   31.5,
+   9.0
+  ],
+  "hook_y": 930
+ },
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "caption_en": "TEST RENDER, not for posting (Noam Roz pronunciation test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "cover": {
+  "bg": "brand"
+ },
+ "id": "test_noam_pron_c",
+ "hook": "*1* name test",
+ "lines": [
+  {
+   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>> for more."
+  },
+  {
+   "say": "I am <<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>>."
+  }
+ ],
+ "subs_replace": {
+  "<<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>>": "Noam Roz"
+ }
+}
