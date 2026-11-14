@@ -1,0 +1,45 @@
+{
+ "account": "noamroz__",
+ "template": "map_counter",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.45
+ },
+ "data": {
+  "cam0": [
+   35.0,
+   31.5,
+   9.0
+  ],
+  "hook_y": 930
+ },
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "caption_en": "TEST RENDER, not for posting (myths_deadpan line 2 take).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "cover": {
+  "bg": "brand"
+ },
+ "id": "test_myths_twist",
+ "hook": "*1* line test",
+ "lines": [
+  {
+   "say": "Myth one: Jews bake Christian blood into matzah."
+  },
+  {
+   "say": "Not in matzah. In a Hanukkah doughnut? That red filling is jam. And it's delicious."
+  }
+ ],
+ "subs_replace": {
+  "<<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>>": "Noam Roz"
+ }
+}
