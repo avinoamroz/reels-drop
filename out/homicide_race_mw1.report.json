@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*0.5* or *5.4?*|Same country.",
- "duration": 50.57,
+ "duration": 50.47,
  "audio": {
-  "lufs": -16.2,
-  "true_peak": -3.6
+  "lufs": -16.1,
+  "true_peak": -3.8
  },
  "outputs": {
   "mp4": "out/homicide_race_mw1.mp4",
@@ -26,28 +26,28 @@
  ],
  "sources": [],
  "transcript": {
-  "score": 0.965,
+  "score": 0.979,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Israel starts at two and a half, and mostly falls. By 2022, the last full year before October 7th, 1.6. Turkey and Lebanon sit higher. Jordan, Saudi Arabia repo",
-    "score": 0.965,
+    "score": 0.979,
     "flag": "ok"
    }
   ],
-  "heard": "0.5 or 5.4. Same country. Israel starts at 2.5 and mostly falls. By 2022, the last full year before October 7th, 1.6. Turkey and Lebanon sit higher. Jordan, Saudi Arabia report lower than Israel. And the United States. Four times Israel's rate, Germany. About half. Now split Israel in two. Jewish Israelis, about half a murder per 100,000. Lower than Germany. Arab Israelis, over five. close to the United States, but there's a catch. Arab Israelis are 10 times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens, caught between Arab crime organizations and smuggled guns, and the state is failing to protect them. Also, some governments undercount, and war deaths are not in these numbers. So the next time someone asks you...",
+  "heard": "0.5 or 5.4. Same country. Israel starts at 2.5 and mostly falls. By 2022, the last full year before October 7th, 1.6, Turkey and Lebanon sit higher. Jordan, Saudi Arabia report lower than Israel and the United States. Four times Israel's rate, Germany, about half. Now split Israel in two. Jewish Israelis, about half a murder per 100,000, lower than Germany. Arab Israelis, over five. close to the United States, but there's a catch. Arab Israelis are 10 times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens, caught between Arab crime organizations and smuggled guns, and the state is failing to protect them. Also, some governments under count, and war deaths are not in these numbers. So the next time someone asks you...",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "homicide_race_v4.mp4",
  "cut": 7.25,
- "hook_dur": 3.56,
+ "hook_dur": 3.4499999999999997,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -3.6
+  "true_peak": -3.8
  },
  "body_kept_s": 47.3,
  "lint_warnings": [],
- "render_s": 72.3
+ "render_s": 45.6
 }
