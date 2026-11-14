@@ -45,6 +45,11 @@ jobs:
     if: needs.plan.outputs.ids != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    # one render per spec id at a time: a newer push of the same spec cancels the older render, so two runs never
+    # race to push conflicting binaries for the same reel (14 Nov: homicide_race_mw1, philistines_vs_pal_mw1)
+    concurrency:
+      group: spec-render-${{ matrix.id }}
+      cancel-in-progress: true
     strategy:
       fail-fast: false
       max-parallel: 20
