@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*11* countries, *60* years.|Who wins?",
- "duration": 44.23,
+ "duration": 43.37,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -3.2
+  "true_peak": -3.3
  },
  "outputs": {
   "mp4": "out/life_longest_race_mw1.mp4",
@@ -37,19 +37,19 @@
     "flag": "ok"
    }
   ],
-  "heard": "11 countries. 60 years. Who lives longest? 1961. Israel leads at 72 years. Lebanon is next. Then the Gulf starts climbing. 1975. Civil war in Lebanon. It drops 8 years. Iraq slides through the 80s. 2005. The UAE overtakes Israel. 2015. Syria's civil war costs 10 years. 2019. Qatar on top. then the pandemic hits the gulf. 2023. The Palestinian territories drop 11 years, the year the war began, and the top of the table? Israel. 83.2 years, the UAE is under half a year behind, and Qatar under one. So when someone asks you...",
+  "heard": "11 countries, 60 years, 1961, Israel leads at 72 years, Lebanon is next, then the Gulf starts climbing, 1975, civil war in Lebanon, it drops 8 years, Iraq slides through the 80s, 2005, the UAE overtakes Israel, 2015, Syria's civil war costs 10 years, 2019, Qatar on top. Then the pandemic hits the gulf. 2023. The Palestinian territories drop 11 years, the year the war began. And the top of the table? Israel. 83.2 years, the UAE is under half a year behind, and Qatar under one. So when someone asks you…",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "life_longest_race.mp4",
  "cut": 6.0,
- "hook_dur": 3.75,
+ "hook_dur": 2.87,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -3.2
+  "true_peak": -3.3
  },
  "body_kept_s": 40.73,
  "lint_warnings": [],
- "render_s": 59.7
+ "render_s": 49.9
 }
