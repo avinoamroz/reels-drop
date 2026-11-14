@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*6* fronts. One address.",
- "duration": 54.93,
+ "duration": 55.93,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/iran_one_address.mp4",
@@ -60,7 +60,7 @@
   }
  ],
  "transcript": {
-  "score": 0.933,
+  "score": 0.92,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -95,7 +95,7 @@
    },
    {
     "line": "Front six, the one people forget: Argentina, nineteen ninety four. A bomb at a Jewish centre in Buenos Aires killed eighty five.",
-    "score": 0.909,
+    "score": 0.864,
     "flag": "ok"
    },
    {
@@ -115,7 +115,7 @@
    },
    {
     "line": "This is about the regime. Not the Iranian people, and not a faith.",
-    "score": 1.0,
+    "score": 0.923,
     "flag": "ok"
    },
    {
@@ -129,17 +129,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "6. Fronts One address Front 1 Lebanon Hezbollah In 1983, a Beirut bombing, tied by a US court to Iran and Hezbollah, killed 241 American troops. Front 2 Iraq Iran backed militias Front 3 Syria Backing Assad's war Front 4 Yemen The Houthis Firing on Saudi Arabia and on ships Front 5 Gaza Hamas Funded and armed by Iran, says the US State Department. Front 6 The one people forget Argentina 1994, a bomb at a Jewish center in Buenos Aires killed 85. Argentina's courts blamed Iran and Hezbollah. This week, the US Secretary of State said it. Every major problem in the Middle East, one common denominator. And if you don't understand this, you don't understand Iran. This is about the regime, not the Iranian people, and not a faith. If you like Israel facts, follow Noam Ross for more. Count the lines, they all start in one city.",
+  "heard": "6. Fronts One address Front 1 Lebanon Hezbollah In 1983, a Beirut bombing, tied by a US court to Iran and Hezbollah, killed 241 American troops. Front 2 Iraq Iran backed militias Front 3 Syria Backing Assad's war Front 4 Yemen The Houthis Firing on Saudi Arabia and on ships Front 5 Gaza Hamas Funded and armed by Iran, says the US State Department. Front 6 One people forget, Argentina 1994, a bomb at a Jewish center in Buenos Aires killed 85. Argentina's courts blamed Iran and Hezbollah. This week, the US Secretary of State said it, every major problem in the Middle East, one common denominator. And if you don't understand this, you don't understand Iran. This is about the regime, not the Iranian people, and not of faith. If you like Israel facts, follow Noam Ross for more. Count the lines, they all start in one city.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 54.94,
+ "body_s": 55.94,
  "opener": null,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 67.0
+ "render_s": 123.8
 }
