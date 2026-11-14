@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.901,
+  "score": 0.895,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -117,7 +117,7 @@
    },
    {
     "line": "Now, what if Judea and Samaria were run like Gaza after two thousand five?",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
@@ -161,7 +161,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Israel is 15 kilometers wide here, from the hills to the beach, about 3 hours on foot, and it already happened. Second intifada, over a thousand Israelis killed. Most suicide bombers came from cells around Jenin and Nablus. Hamas cell and tokarm bombed a Passover Seder in Netanyahu, 30 killed. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th, terrorists in pickup trucks drove 25 kilometers in 28 minutes. Now, what if Judea and Samaria were run like Gaza after 2005? 10 launch points. Same pace. Same minute. 10 minutes. Route 6. K Farsaba. Ben Gurion Airport. Jerusalem. 20 minutes. Tel Aviv. Natania. The sea. Israel cut in two. The Tel Aviv and Jerusalem areas. About 6 in 10 Israelis. Palestinians want a state there, and many say security can come by agreement. Israel's question. Who guarantees it? Peace is the goal. Community control is what makes it last, because here, Israel is 15 kilometers wide.",
+  "heard": "Israel is 15 kilometers wide here, from the hills to the beach, about 3 hours on foot, and it already happened. Second intifada, over a thousand Israelis killed. Most suicide bombers came from cells around Jenin and Nablus. Hamas cell and tokarm bombed a Passover Seder in Netanyahu. 30 killed. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th, terrorists in pickup trucks drove 25 kilometers in 28 minutes. What if Judea and Samaria were run like Gaza after 2005? 10 launch points. Same pace. Same minute. 10 minutes. Route 6. Kfarsaba. Ben Gurion Airport. Jerusalem. 20 minutes. Tel Aviv. Natania. The sea. Israel cut in two. The Tel Aviv and Jerusalem areas. About 6 in 10 Israelis. Palestinians want a state there, and many say security can come by agreement. Israel's question. Who guarantees it? Peace is the goal. Community control is what makes it last, because here, Israel is 15 kilometers wide.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -173,5 +173,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 97.0
+ "render_s": 130.3
 }
