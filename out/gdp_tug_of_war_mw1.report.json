@@ -1,0 +1,51 @@
+{
+ "id": "gdp_tug_of_war_mw1",
+ "account": "noamroz__",
+ "template": "rehook",
+ "hook": "*$54,291* vs|*9* countries. Who wins?",
+ "duration": 48.5,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/gdp_tug_of_war_mw1.mp4",
+  "cover": "covers/gdp_tug_of_war_mw1_cover.jpg",
+  "preview": "previews/gdp_tug_of_war_mw1_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/gdp_tug_of_war_mw1_0.jpg",
+  "1": "out/frames/gdp_tug_of_war_mw1_1.jpg",
+  "3": "out/frames/gdp_tug_of_war_mw1_3.jpg",
+  "last": "out/frames/gdp_tug_of_war_mw1_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [],
+ "sources": [],
+ "transcript": {
+  "score": 0.99,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey, eight count",
+    "score": 0.99,
+    "flag": "ok"
+   }
+  ],
+  "heard": "$54,000 a person against 9 countries. Welcome to the GDP Championship. In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. 8 countries, 42,000 together, and Israel holds. Okay, let's swap Turkey for Oman, 47,000, still Israel. Fine. Everyone together, 63,000. Finally, Israel slides over the line. It took a team of nine to out-pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back and oil lifts the Gulf. Ready for the rematch? Same rope.",
+  "expected": "source reel transcript after the cut"
+ },
+ "status": "rendered, not posted",
+ "voice": "new spoken hook + source reel audio kept after the cut",
+ "source": "gdp_tug_of_war.mp4",
+ "cut": 6.0,
+ "hook_dur": 5.69,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "body_kept_s": 43.09,
+ "lint_warnings": [],
+ "render_s": 109.8
+}
