@@ -78,7 +78,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ben says everyone's here. Should we start? You say let's go. Or let's do this. At work, say let's get started. We have five minutes left. Let's wrap up. What are the next steps? I'll send a summary. Save this for your next meal.",
+  "heard": "Ben says everyone's here. Should we start? You say let's go. Or let's do this. At work say let's get started. We have five minutes left. Let's wrap up. What are the next steps? I'll send a summary. Save this for your next meal.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -88,5 +88,5 @@
   "true_peak": -1.7
  },
  "lint_warnings": [],
- "render_s": 38.5
+ "render_s": 30.1
 }
