@@ -1,0 +1,216 @@
+{
+ "id": "hate_the_jews_p2_v2",
+ "account": "noamroz__",
+ "template": "irony_cine",
+ "hook": "*Part 2:* I “hate”|the Jews",
+ "duration": 53.07,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/hate_the_jews_p2_v2.mp4",
+  "cover": "covers/hate_the_jews_p2_v2_cover.jpg",
+  "preview": "previews/hate_the_jews_p2_v2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hate_the_jews_p2_v2_0.jpg",
+  "1": "out/frames/hate_the_jews_p2_v2_1.jpg",
+  "3": "out/frames/hate_the_jews_p2_v2_3.jpg",
+  "last": "out/frames/hate_the_jews_p2_v2_last.jpg"
+ },
+ "caption_en": "Satire. Part 2: 8 more reasons I “hate” the Jews 🙄\n\n1. Mobileye: founded in Jerusalem, 1999; its cameras power automatic emergency braking in many cars (Intel bought it in 2017).\n2. Streptomycin, the first antibiotic effective against tuberculosis: Selman Waksman (Jewish), Nobel Prize 1952.\n3. The emergency bandage: invented by Israeli military medic Bernard Bar-Natan; used on victims of the 2011 Tucson shooting (NPR).\n4. The oral polio vaccine: Albert Sabin (Jewish), licensed in the US in 1961 (CDC).\n5. Hepatitis B: Baruch Blumberg (Jewish) discovered the virus, which led to the vaccine; Nobel Prize 1976.\n6. The DC defibrillator: Bernard Lown (Jewish), 1962 (JAMA).\n7. Copaxone, a multiple sclerosis drug: developed at Israel's Weizmann Institute, FDA approved 1996.\n8. The shape of DNA: Rosalind Franklin (Jewish), Photo 51, 1952 (Franklin and Gosling, Nature, 1953).\n\nObviously, I'm Jewish. And we'll keep doing all of it. 😉 Part 1 on my profile.\n\nPhotos via Wikimedia Commons: U.S. Embassy Tel Aviv (CC BY 2.0); New York World-Telegram (public domain); Struppig taucher (CC BY 4.0); Albert Sabin (public domain); Tom Trower, NASA (public domain); APneunzehn74 (CC0, illustrative); Deror_avi (CC BY-SA 4.0); CSHL (CC BY-SA 4.0). Highway clip: CAN Driver (CC BY 3.0, illustrative). AI voice.",
+ "caption_he": "סאטירה. חלק 2: עוד 8 סיבות שאני \"שונא\" את היהודים 🙄\nמובילאיי, סטרפטומיצין נגד שחפת (זלמן וקסמן), התחבושת האישית (ברנרד בר-נתן), חיסון הפוליו בטיפות (אלברט סייבין), הפטיטיס B (ברוך בלומברג), הדפיברילטור (ברנרד לאון), קופקסון (מכון ויצמן), ומבנה ה-DNA (רוזלינד פרנקלין).\nברור שאני יהודי. ונמשיך לעשות את כל זה. 😉 חלק 1 בפרופיל.",
+ "hashtags": [
+  "#satire",
+  "#Jewish",
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Mobileye; Intel deal, 2017",
+   "year": 2017,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Nobel Prize: streptomycin, 1952",
+   "year": 1952,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Used at the Tucson shooting, NPR, 2011",
+   "year": 2011,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "CDC, polio vaccine history, 1961",
+   "year": 1961,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Nobel Prize in Medicine, 1976",
+   "year": 1976,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Lown et al., JAMA, 1962",
+   "year": 1962,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Weizmann Institute, 1996",
+   "year": 1996,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Franklin and Gosling, Nature, 1953",
+   "year": 1953,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.931,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Part two. Eight more reasons I hate the Jews.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One. Israelis built Mobileye. Now cars brake before you crash. How dare they.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Two. Selman Waksman found the first antibiotic that beat tuberculosis. Typical.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Three. An Israeli army medic invented the emergency bandage. It stops people bleeding out. Ugh.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Four. Albert Sabin made a polio vaccine you just swallow. Show off.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Five. Baruch Blumberg found hepatitis B. Now babies get a vaccine for it. Overachiever.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Six. Bernard Lown built the modern defibrillator. Now hearts get shocked back into rhythm. Unreal.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Seven. Israeli scientists made Copaxone. People with multiple sclerosis take it worldwide. Seriously?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eight. Rosalind Franklin, a Jewish scientist, helped reveal the shape of DNA. Unforgivable.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Obviously, I'm Jewish.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And we'll keep doing all of it. Part one is on my profile.",
+    "score": 0.923,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Part 2. 8 more reasons I hate the Jews. 1. Israelis built Mobileye. Now cars break before you crash. How dare they. 2. Selman Waksman found the first antibiotic that beat tuberculosis. Typically. 3. An Israeli army medic invented the emergency bandage. It stops people bleeding out. 4. Albert Saban made a polio vaccine you just swallowed. Showoff. 5. Baruch Blumberg found Hepatitis B. Now babies get a vaccine for it. Overachiever. Six. Bernard Lohn built the modern defibrillator. Now hearts get shocked back into rhythm. Unreal. Seven. Israeli scientists made Copaxone. People with multiple sclerosis take it worldwide. Seriously? Eight. Rosalind Franklin, a Jewish scientist, helped reveal the shape of DNA. Unforgivable. Obviously, I'm Jewish, and will keep doing all of it. Part one is on my profile.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.7
+ },
+ "shots": [
+  {
+   "file": "templates/photos/hate_the_jews/mobileye.jpg",
+   "credit": "U.S. Embassy Tel Aviv, CC BY 2.0"
+  },
+  {
+   "file": "templates/clips/htj/highway.mp4",
+   "credit": "CAN Driver, CC BY 3.0 (illustrative)"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/waksman.jpg",
+   "credit": "New York World-Telegram, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/waksman.jpg",
+   "credit": "New York World-Telegram, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/bandage.jpg",
+   "credit": "Struppig taucher, CC BY 4.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/bandage.jpg",
+   "credit": "Struppig taucher, CC BY 4.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/sabin.jpg",
+   "credit": "Public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/sabin.jpg",
+   "credit": "Public domain, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/blumberg.jpg",
+   "credit": "Tom Trower, NASA, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/blumberg.jpg",
+   "credit": "Tom Trower, NASA, public domain"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/aed.jpg",
+   "credit": "APneunzehn74, CC0 (illustrative)"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/aed.jpg",
+   "credit": "APneunzehn74, CC0 (illustrative)"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/weizmann.jpg",
+   "credit": "Deror_avi, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/weizmann.jpg",
+   "credit": "Deror_avi, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/franklin.jpg",
+   "credit": "CSHL, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/hate_the_jews/franklin.jpg",
+   "credit": "CSHL, CC BY-SA 4.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 119.7
+}
