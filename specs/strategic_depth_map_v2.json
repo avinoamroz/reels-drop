@@ -78,6 +78,11 @@
    "screen": "Peace is the goal. *Security* makes it last."
   },
   {
+   "say": "Follow Noam Roz for more.",
+   "screen": "Follow @noamroz__ for more",
+   "screen_icon": "🔽"
+  },
+  {
    "say": "Because here, Israel is fifteen kilometres wide.",
    "screen": "Because here, Israel is *15 km* wide."
   }
@@ -152,7 +157,7 @@
     "dur": 1.0
    },
    {
-    "at": "L15-0.2",
+    "at": "L16-0.2",
     "view": [
      35.15,
      31.75,
