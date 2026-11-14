@@ -1,0 +1,468 @@
+{
+ "id": "israel_porter_diamond",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "*6* reasons nobody|copies *Israel*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "gap": 0.15,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "Six reasons nobody can copy Israel."
+  },
+  {
+   "say": "In nineteen ninety, Michael Porter drew a diamond that explains why countries win.",
+   "screen": "Porter's Diamond, *1990*",
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "say": "Corner one, people. Half of adults have a degree, and army tech units train them young.",
+   "screen": "Factor conditions: *people*",
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "say": "Corner two, demand. Ten million people is a tiny market, so startups go global from day one.",
+   "screen": "Demand: a *tiny* home market",
+   "at": "L3",
+   "until": "L4e"
+  },
+  {
+   "say": "That's why high tech is fifty eight percent of exports."
+  },
+  {
+   "say": "Corner three, the cluster. Over five hundred multinationals have set up here since two thousand.",
+   "screen": "Related industries: *the cluster*",
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "say": "Corner four, rivalry. About seven hundred fifty new tech companies a year, all fighting for talent.",
+   "screen": "Rivalry: *750* new companies a year",
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "say": "Then two outside forces. Government: in nineteen ninety three, Yozma put one hundred million dollars into venture capital.",
+   "screen": "Government: *Yozma,* 1993",
+   "at": "L7",
+   "until": "L8e"
+  },
+  {
+   "say": "Today, six point three five percent of the economy goes to research. Highest among developed countries."
+  },
+  {
+   "say": "And chance. When the Soviet Union fell, almost nine hundred thousand people came, many of them engineers.",
+   "screen": "Chance: the *Soviet* collapse",
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "say": "The weak spot? High tech is only about one in nine jobs.",
+   "screen": "The *weak* spot",
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "say": "Six forces, feeding each other. That's why nobody can just copy Israel."
+  }
+ ],
+ "data": {
+  "layout": "diamond",
+  "band": {
+   "y0": 170,
+   "y1": 540
+  },
+  "fact_y": 1365,
+  "src_y": 1515,
+  "subs_y": 1655,
+  "draw": {
+   "at": 0.15,
+   "dur": 1.25
+  },
+  "nodes": [
+   {
+    "id": "chance",
+    "label": "Chance|outside force",
+    "icon": "🎲",
+    "x": 190,
+    "y": 640,
+    "outer": true
+   },
+   {
+    "id": "rivalry",
+    "label": "Rivalry|firm strategy",
+    "icon": "⚔️",
+    "x": 540,
+    "y": 680
+   },
+   {
+    "id": "factors",
+    "label": "Factors|people, skills",
+    "icon": "🧠",
+    "x": 190,
+    "y": 895
+   },
+   {
+    "id": "demand",
+    "label": "Demand|home market",
+    "icon": "🛒",
+    "x": 890,
+    "y": 895
+   },
+   {
+    "id": "related",
+    "label": "Related|industries",
+    "icon": "🏭",
+    "x": 540,
+    "y": 1105
+   },
+   {
+    "id": "gov",
+    "label": "Government|outside force",
+    "icon": "🏛️",
+    "x": 890,
+    "y": 1125,
+    "outer": true
+   }
+  ],
+  "edges": [
+   [
+    "factors",
+    "rivalry"
+   ],
+   [
+    "rivalry",
+    "demand"
+   ],
+   [
+    "demand",
+    "related"
+   ],
+   [
+    "related",
+    "factors"
+   ],
+   [
+    "factors",
+    "demand"
+   ],
+   [
+    "rivalry",
+    "related"
+   ],
+   [
+    "chance",
+    "rivalry"
+   ],
+   [
+    "chance",
+    "factors"
+   ],
+   [
+    "gov",
+    "related"
+   ],
+   [
+    "gov",
+    "demand"
+   ]
+  ],
+  "focus": [
+   {
+    "target": "factors",
+    "at": "L2",
+    "until": "L3"
+   },
+   {
+    "target": "demand",
+    "at": "L3",
+    "until": "L5"
+   },
+   {
+    "target": "related",
+    "at": "L5",
+    "until": "L6"
+   },
+   {
+    "target": "rivalry",
+    "at": "L6",
+    "until": "L7"
+   },
+   {
+    "target": "gov",
+    "at": "L7",
+    "until": "L9"
+   },
+   {
+    "target": "chance",
+    "at": "L9",
+    "until": "L10"
+   }
+  ],
+  "chips": [
+   {
+    "node": "factors",
+    "text": "51% degrees",
+    "at": "L2:half"
+   },
+   {
+    "node": "demand",
+    "text": "58% of exports",
+    "at": "L4:fifty"
+   },
+   {
+    "node": "related",
+    "text": "511 multinationals",
+    "at": "L5:five",
+    "dy": 92,
+    "dx": -60
+   },
+   {
+    "node": "rivalry",
+    "text": "750 a year",
+    "at": "L6:seven"
+   },
+   {
+    "node": "gov",
+    "text": "Yozma + 6.35%",
+    "at": "L8:six",
+    "dy": 92,
+    "dx": 30
+   },
+   {
+    "node": "chance",
+    "text": "887k immigrants",
+    "at": "L9:nine"
+   }
+  ],
+  "facts": [
+   {
+    "at": "L2:half",
+    "until": "L3",
+    "count": {
+     "from": 0,
+     "to": 51,
+     "suffix": "%"
+    },
+    "text": "of adults hold a degree"
+   },
+   {
+    "at": "L3:ten",
+    "until": "L4",
+    "count": {
+     "from": 0,
+     "to": 10.2,
+     "dec": 1,
+     "suffix": "M"
+    },
+    "text": "people: a small home market"
+   },
+   {
+    "at": "L4:fifty",
+    "until": "L5",
+    "count": {
+     "from": 0,
+     "to": 58,
+     "suffix": "%"
+    },
+    "text": "of exports are high tech"
+   },
+   {
+    "at": "L5:five",
+    "until": "L6",
+    "count": {
+     "from": 0,
+     "to": 511
+    },
+    "text": "multinationals since 2000"
+   },
+   {
+    "at": "L6:seven",
+    "until": "L7",
+    "count": {
+     "from": 0,
+     "to": 750,
+     "prefix": "~"
+    },
+    "text": "new tech companies a year"
+   },
+   {
+    "at": "L7:one",
+    "until": "L8",
+    "count": {
+     "from": 0,
+     "to": 100,
+     "prefix": "$",
+     "suffix": "M"
+    },
+    "text": "Yozma program, 1993"
+   },
+   {
+    "at": "L8:six",
+    "until": "L9",
+    "count": {
+     "from": 0,
+     "to": 6.35,
+     "dec": 2,
+     "suffix": "%"
+    },
+    "text": "of GDP on research"
+   },
+   {
+    "at": "L9:nine",
+    "until": "L10",
+    "count": {
+     "from": 0,
+     "to": 887000
+    },
+    "text": "from the former USSR"
+   },
+   {
+    "at": "L10:one",
+    "until": "L11",
+    "count": {
+     "from": 0,
+     "to": 11.4,
+     "dec": 1,
+     "suffix": "%"
+    },
+    "text": "of jobs are high tech"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/israel_porter_diamond/pd_porter.jpg",
+    "at": "L1",
+    "until": "L1e",
+    "credit": "PORTER_CREDIT",
+    "kb": [
+     0.5,
+     0.35,
+     1.0,
+     0.5,
+     0.35,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/israel_porter_diamond/pd_intel.jpg",
+    "at": "L5",
+    "until": "L5e",
+    "credit": "Lehava Center Qiryat Gat, PikiWiki Israel, CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/israel_porter_diamond/pd_tlv.jpg",
+    "at": "L6",
+    "until": "L6e",
+    "credit": "מקף־עברי, Wikimedia Commons, CC BY-SA 4.0",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/israel_porter_diamond/pd_soviet.jpg",
+    "at": "L9",
+    "until": "L9e",
+    "credit": "SOVIET_CREDIT",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.1
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Michael Porter, The Competitive Advantage of Nations",
+   "year": 1990,
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "label": "OECD (Organisation for Economic Co-operation and Development), Education at a Glance",
+   "year": 2023,
+   "at": "L2:half",
+   "until": "L3"
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": 2025,
+   "at": "L3:ten",
+   "until": "L4"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L4",
+   "until": "L7"
+  },
+  {
+   "label": "Yozma program (Israeli government), launched 1993",
+   "year": 1993,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "OECD Main Science and Technology Indicators, 2023 data",
+   "year": 2025,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Israel CBS via Jewish Virtual Library, 1989 to 2000",
+   "year": 2000,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L10",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Tech: *11.4%* of jobs, *58%* of exports.",
+  "balance2": "A strong diamond on a narrow base.",
+  "balance2_at": "L11:that's",
+  "cta": "Send this to a founder",
+  "cta_at": "L11:that's+0.6"
+ },
+ "caption_en": "CAPTION_EN",
+ "caption_he": "CAPTION_HE",
+ "hashtags": [
+  "#Israel",
+  "#business",
+  "#startupnation"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "6",
+  "text": "Why nobody can|copy *Israel*"
+ }
+}

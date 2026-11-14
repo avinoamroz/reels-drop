@@ -1,0 +1,88 @@
+{
+ "id": "israel_bcg_matrix",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "Israel's economy|in *4* boxes",
+ "music": {"bed": "journey", "lufs": -16},
+ "voice": {"gap": 0.15, "lead": 0.1},
+ "lines": [
+  {"say": "Israel's whole economy, in four boxes."},
+  {"say": "The Boston Consulting Group's growth share matrix. Four boxes, one honest map.",
+   "screen": "Boston Consulting Group *matrix*", "at": "L1", "until": "L2"},
+  {"say": "Stars: growing market, big share. Cyber. Israeli cyber startups raised five point one billion dollars last year.",
+   "screen": "Stars: *cyber*", "at": "L2", "until": "L3e"},
+  {"say": "Then Google paid thirty two billion dollars for one of them, Wiz."},
+  {"say": "Star two, AI. About one in three tech dollars here now goes to AI companies.",
+   "screen": "Stars: *AI*", "at": "L4", "until": "L5"},
+  {"say": "Cash cows: slow market, big share. Defence. World arms trade barely grew, yet Israel signed a record nineteen point two billion dollars in deals.",
+   "screen": "Cash cows: *defence*", "at": "L5", "until": "L6"},
+  {"say": "Question marks: growing fast, still small. Gas, with a thirty five billion dollar deal to supply Egypt.",
+   "screen": "Question marks: *gas*", "at": "L6", "until": "L7"},
+  {"say": "And food tech. Israel gave the world's first approval for cultivated beef.",
+   "screen": "Question marks: *food tech*", "at": "L7", "until": "L8"},
+  {"say": "Dogs: slow market, shrinking share. Polished diamonds, down from about seven billion dollars a year to under two.",
+   "screen": "Dogs: *polished diamonds*", "at": "L8", "until": "L9"},
+  {"say": "The catch? High tech is fifty eight percent of exports. That's a lot of eggs in one basket."},
+  {"say": "So which box would you bet on next?"}
+ ],
+ "data": {
+  "layout": "matrix",
+  "band": {"y0": 170, "y1": 540},
+  "grid": {"x0": 40, "x1": 1040, "y0": 650, "y1": 1210},
+  "fact_y": 1365, "src_y": 1515, "subs_y": 1655,
+  "draw": {"at": 0.15, "dur": 1.25},
+  "axes": {"left": "High market share", "right": "Low market share"},
+  "quads": [
+   {"name": "Stars", "icon": "⭐", "sub": "high growth, high share", "col": "yellow"},
+   {"name": "Question marks", "icon": "❓", "sub": "high growth, low share", "col": "sky"},
+   {"name": "Cash cows", "icon": "🐄", "sub": "low growth, high share", "col": "green"},
+   {"name": "Dogs", "icon": "🐕", "sub": "low growth, low share", "col": "grey"}
+  ],
+  "items": [
+   {"label": "Cyber", "icon": "🔐", "quad": 0, "fx": 0.5, "fy": 0.58, "at": "L2:cyber"},
+   {"label": "AI", "icon": "🤖", "quad": 0, "fx": 0.5, "fy": 0.85, "at": "L4:star"},
+   {"label": "Defence", "icon": "🛡️", "quad": 2, "fx": 0.5, "fy": 0.7, "at": "L5:defence"},
+   {"label": "Gas", "icon": "🔥", "quad": 1, "fx": 0.5, "fy": 0.58, "at": "L6:gas"},
+   {"label": "Food tech", "icon": "🥩", "quad": 1, "fx": 0.5, "fy": 0.85, "at": "L7:food"},
+   {"label": "Diamonds", "icon": "💎", "quad": 3, "fx": 0.5, "fy": 0.7, "at": "L8:polished"}
+  ],
+  "focus": [
+   {"target": 0, "at": "L2", "until": "L5"},
+   {"target": 2, "at": "L5", "until": "L6"},
+   {"target": 1, "at": "L6", "until": "L8"},
+   {"target": 3, "at": "L8", "until": "L9"}
+  ],
+  "facts": [
+   {"at": "L2:five", "until": "L3", "count": {"from": 0, "to": 5.1, "dec": 1, "prefix": "$", "suffix": "B"}, "text": "raised by Israeli cyber, 2025"},
+   {"at": "L3:thirty", "until": "L4", "count": {"from": 0, "to": 32, "prefix": "$", "suffix": "B"}, "text": "Google's price for Wiz"},
+   {"at": "L4:one", "until": "L5", "big": "1 in 3", "text": "tech dollars go to AI"},
+   {"at": "L5:nineteen", "until": "L6", "count": {"from": 0, "to": 19.2, "dec": 1, "prefix": "$", "suffix": "B"}, "text": "defence exports, 2025"},
+   {"at": "L6:thirty", "until": "L7", "count": {"from": 0, "to": 35, "prefix": "$", "suffix": "B"}, "text": "gas deal with Egypt, to 2040"},
+   {"at": "L7:first", "until": "L8", "big": "1st", "text": "approval for cultivated beef"},
+   {"at": "L8:seven", "until": "L9", "big": "$7B to $1.9B", "text": "polished diamond exports"},
+   {"at": "L9:fifty", "until": "L10", "count": {"from": 0, "to": 58, "suffix": "%"}, "text": "of exports are high tech"}
+  ],
+  "photos": [
+   {"file": "templates/photos/israel_bcg_matrix/bcg_tlv.jpg", "at": "L2", "until": "L3e", "credit": "Suicasmo, Wikimedia Commons, CC BY-SA 4.0", "kb": [0.45, 0.5, 1.0, 0.55, 0.5, 1.12]},
+   {"file": "templates/photos/israel_bcg_matrix/bcg_dome.jpg", "at": "L5", "until": "L5e", "credit": "Shlomo Roded, PikiWiki Israel, CC BY 2.5", "kb": [0.5, 0.5, 1.0, 0.5, 0.45, 1.1]},
+   {"file": "templates/photos/israel_bcg_matrix/bcg_gas.jpg", "at": "L6", "until": "L6e", "credit": "GAS_CREDIT", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]},
+   {"file": "templates/photos/israel_bcg_matrix/bcg_diamond.jpg", "at": "L8", "until": "L8e", "credit": "DIAMOND_CREDIT", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]}
+  ]
+ },
+ "sources": [
+  {"label": "Boston Consulting Group, growth share matrix (Bruce Henderson)", "year": 1970, "at": "L1", "until": "L2"},
+  {"label": "YL Ventures, State of the Cyber Nation", "year": 2026, "at": "L2:five", "until": "L3"},
+  {"label": "Google, Wiz acquisition completed", "year": 2026, "at": "L3", "until": "L4"},
+  {"label": "Israel Innovation Authority, State of High Tech", "year": 2026, "at": "L4", "until": "L5"},
+  {"label": "Israel Ministry of Defense (SIBAT), 2026; SIPRI, 2025", "year": 2026, "at": "L5", "until": "L6"},
+  {"label": "NewMed Energy, Leviathan export deal", "year": 2025, "at": "L6", "until": "L7"},
+  {"label": "Israel Ministry of Health, Aleph Farms approval", "year": 2024, "at": "L7", "until": "L8"},
+  {"label": "Israel Ministry of Economy, 2025; peak about $7B (Ynet, 2026)", "year": 2025, "at": "L8", "until": "L9"},
+  {"label": "Israel Innovation Authority, State of High Tech", "year": 2026, "at": "L9", "until": "END-0.6"}
+ ],
+ "end": {"at": "L9:that's", "balance": "Bright *stars.* But *58%* of exports in one basket.", "balance2": "The cows and question marks matter too.", "balance2_at": "L10", "cta": "Send this to an investor", "cta_at": "L10:which"},
+ "caption_en": "CAPTION_EN",
+ "caption_he": "CAPTION_HE",
+ "hashtags": ["#Israel", "#business", "#investing"],
+ "cover": {"t": 30.0, "big": "4", "text": "Israel's economy|in *4* boxes"}
+}

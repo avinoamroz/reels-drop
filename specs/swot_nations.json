@@ -1,0 +1,492 @@
+{
+ "id": "swot_nations",
+ "account": "noamroz__",
+ "template": "swot",
+ "hook": "*7* countries.|One business *test.*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "six point three percent": "6.3%",
+  "twenty thirty": "2030",
+  "sixty percent": "60%",
+  "thirty percent": "30%",
+  "forty trillion dollars": "$40 trillion",
+  "R and D": "R&D",
+  "A.I.": "AI"
+ },
+ "lines": [
+  {
+   "say": "Seven countries. One business test.",
+   "gap": 0.2
+  },
+  {
+   "say": "Israel. Strength: R and D, six point three percent of GDP. Weakness: the cost of living. Opportunity: the Abraham Accords. Threat: Iran and its proxies."
+  },
+  {
+   "say": "Saudi Arabia: the second biggest oil reserves, a budget hooked on oil, Vision twenty thirty, and cheap oil as the risk."
+  },
+  {
+   "say": "Egypt: the Suez Canal, heavy debt, record tourism. Then Houthi attacks cut canal income by over sixty percent."
+  },
+  {
+   "say": "Iran: huge gas reserves, inflation near sixty percent, a young educated population, and a regime facing war and unrest."
+  },
+  {
+   "say": "Russia: energy and the biggest nuclear arsenal, an economy riding on commodities, Arctic sea routes, and the bill for war."
+  },
+  {
+   "say": "China: about thirty percent of world manufacturing, a shrinking population, the lead in electric cars and solar, and trade wars."
+  },
+  {
+   "say": "And the U.S.: innovation and the dollar, forty trillion dollars of debt, the lead in A.I., and deep polarisation."
+  },
+  {
+   "say": "Side by side, every grid has a red box."
+  },
+  {
+   "say": "No country is all green. What counts is what it does next.",
+   "gap": 0.3
+  },
+  {
+   "say": "So, which one would you invest in?"
+  }
+ ],
+ "data": {
+  "map": {
+   "view": [
+    12.0,
+    38.0,
+    5.0,
+    1010
+   ],
+   "grid_at": 0.85,
+   "back": "L10"
+  },
+  "hook_y": 400,
+  "countries": [
+   {
+    "name": "Israel",
+    "flag": "IL",
+    "code": "ISR",
+    "at": "L1",
+    "mini": [
+     35.2,
+     31.4,
+     30
+    ],
+    "pin": [
+     34.9,
+     31.5
+    ],
+    "photo": {
+     "file": "photos/sw_telaviv.jpg",
+     "credit": "",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.55,
+      0.5,
+      1.12
+     ]
+    },
+    "items": {
+     "S": {
+      "text": "R&D 6.3% of GDP",
+      "short": "R&D",
+      "at": "L1:strength"
+     },
+     "W": {
+      "text": "High cost of living",
+      "short": "Prices",
+      "at": "L1:weakness"
+     },
+     "O": {
+      "text": "Abraham Accords trade",
+      "short": "Peace deals",
+      "at": "L1:opportunity"
+     },
+     "T": {
+      "text": "Iran and its proxies",
+      "short": "Iran",
+      "at": "L1:threat"
+     }
+    },
+    "fdx": -60,
+    "fdy": -80
+   },
+   {
+    "name": "Saudi Arabia",
+    "flag": "SA",
+    "code": "SAU",
+    "at": "L2",
+    "mini": [
+     45.0,
+     24.0,
+     8.5
+    ],
+    "pin": [
+     45.0,
+     24.0
+    ],
+    "photo": {
+     "file": "photos/sw_riyadh.jpg",
+     "credit": "",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.45,
+      0.5,
+      1.12
+     ]
+    },
+    "items": {
+     "S": {
+      "text": "2nd largest oil reserves",
+      "short": "Oil",
+      "at": "L2:second"
+     },
+     "W": {
+      "text": "Budget hooked on oil",
+      "short": "Oil budget",
+      "at": "L2:budget"
+     },
+     "O": {
+      "text": "Vision 2030",
+      "short": "Vision 2030",
+      "at": "L2:vision"
+     },
+     "T": {
+      "text": "Cheap oil",
+      "short": "Cheap oil",
+      "at": "L2:cheap"
+     }
+    },
+    "fdx": 30,
+    "fdy": 80
+   },
+   {
+    "name": "Egypt",
+    "flag": "EG",
+    "code": "EGY",
+    "at": "L3",
+    "mini": [
+     30.5,
+     27.0,
+     12
+    ],
+    "pin": [
+     30.5,
+     27.0
+    ],
+    "photo": {
+     "file": "photos/sw_suez.jpg",
+     "credit": "",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.55,
+      0.5,
+      1.12
+     ]
+    },
+    "items": {
+     "S": {
+      "text": "Suez Canal",
+      "short": "Suez",
+      "at": "L3:suez"
+     },
+     "W": {
+      "text": "Heavy debt",
+      "short": "Debt",
+      "at": "L3:heavy"
+     },
+     "O": {
+      "text": "Record tourism",
+      "short": "Tourism",
+      "at": "L3:record"
+     },
+     "T": {
+      "text": "Red Sea attacks",
+      "short": "Red Sea",
+      "at": "L3:houthi"
+     }
+    },
+    "fdx": -80,
+    "fdy": 30
+   },
+   {
+    "name": "Iran",
+    "flag": "IR",
+    "code": "IRN",
+    "at": "L4",
+    "mini": [
+     53.5,
+     32.5,
+     9.5
+    ],
+    "pin": [
+     53.5,
+     32.5
+    ],
+    "photo": {
+     "file": "photos/sw_tehran.jpg",
+     "credit": "",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.45,
+      0.5,
+      1.12
+     ]
+    },
+    "items": {
+     "S": {
+      "text": "2nd largest gas reserves",
+      "short": "Gas",
+      "at": "L4:huge"
+     },
+     "W": {
+      "text": "Sanctions, 60% inflation",
+      "short": "Inflation",
+      "at": "L4:inflation"
+     },
+     "O": {
+      "text": "Young, educated population",
+      "short": "Youth",
+      "at": "L4:young"
+     },
+     "T": {
+      "text": "Isolation, war, unrest",
+      "short": "Unrest",
+      "at": "L4:regime"
+     }
+    },
+    "fdx": 80,
+    "fdy": -40
+   },
+   {
+    "name": "Russia",
+    "flag": "RU",
+    "code": "RUS",
+    "at": "L5",
+    "mini": [
+     100.0,
+     62.0,
+     2.4
+    ],
+    "pin": [
+     45.0,
+     56.0
+    ],
+    "photo": {
+     "file": "photos/sw_kremlin.jpg",
+     "credit": "",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.55,
+      0.5,
+      1.12
+     ]
+    },
+    "items": {
+     "S": {
+      "text": "Energy, top nuclear arsenal",
+      "short": "Energy",
+      "at": "L5:energy"
+     },
+     "W": {
+      "text": "Commodity-heavy economy",
+      "short": "Commodities",
+      "at": "L5:economy"
+     },
+     "O": {
+      "text": "Arctic sea route",
+      "short": "Arctic",
+      "at": "L5:arctic"
+     },
+     "T": {
+      "text": "War costs, sanctions",
+      "short": "War bill",
+      "at": "L5:bill"
+     }
+    }
+   },
+   {
+    "name": "China",
+    "flag": "CN",
+    "code": "CHN",
+    "at": "L6",
+    "mini": [
+     104.0,
+     35.5,
+     4.2
+    ],
+    "pin": [
+     108.0,
+     33.0
+    ],
+    "photo": {
+     "file": "photos/sw_shanghai.jpg",
+     "credit": "",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.45,
+      0.5,
+      1.12
+     ]
+    },
+    "items": {
+     "S": {
+      "text": "30% of world manufacturing",
+      "short": "Factories",
+      "at": "L6:about"
+     },
+     "W": {
+      "text": "Shrinking population",
+      "short": "Ageing",
+      "at": "L6:shrinking"
+     },
+     "O": {
+      "text": "Leads EVs and solar",
+      "short": "EVs, solar",
+      "at": "L6:lead"
+     },
+     "T": {
+      "text": "Trade wars",
+      "short": "Tariffs",
+      "at": "L6:trade"
+     }
+    }
+   },
+   {
+    "name": "United States",
+    "flag": "US",
+    "code": "USA",
+    "at": "L7",
+    "mini": [
+     -97.0,
+     39.0,
+     4.3
+    ],
+    "pin": [
+     -98.0,
+     39.0
+    ],
+    "photo": {
+     "file": "photos/sw_capitol.jpg",
+     "credit": "",
+     "kb": [
+      0.5,
+      0.5,
+      1.0,
+      0.55,
+      0.5,
+      1.12
+     ]
+    },
+    "items": {
+     "S": {
+      "text": "Innovation and the dollar",
+      "short": "Dollar",
+      "at": "L7:innovation"
+     },
+     "W": {
+      "text": "$40 trillion debt",
+      "short": "Debt",
+      "at": "L7:forty"
+     },
+     "O": {
+      "text": "Leads in AI",
+      "short": "AI",
+      "at": "L7:lead"
+     },
+     "T": {
+      "text": "Political polarisation",
+      "short": "Division",
+      "at": "L7:deep"
+     }
+    }
+   }
+  ],
+  "board": {
+   "at": "L8",
+   "red_at": "L8:red"
+  }
+ },
+ "sources": [
+  {
+   "label": "OECD MSTI (R&D, 2023 data); OECD Economic Survey of Israel",
+   "year": 2025,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "OPEC Statistical Bulletin; Saudi Ministry of Finance",
+   "year": 2025,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Suez Canal Authority (2023 vs 2024); IMF; Egypt tourism ministry",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Energy Institute; Statistical Centre of Iran",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "FAS nuclear forces; IMF; World Bank",
+   "year": 2025,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "UNIDO; China NBS; IEA",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "US Treasury; IMF COFER; Stanford AI Index; Pew",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "No country is all *green.* What counts is what it does next.",
+  "cta": "Send this to someone who invests"
+ },
+ "caption_en": "7 countries. One business test. 📊\n\nA SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is what companies run before a big decision. Here it is for 7 countries, one sharp item per box:\n\n🇮🇱 Israel: R&D at 6.3% of GDP, the highest in the OECD (2023) | high cost of living | Abraham Accords trade (2020) | Iran and its proxies\n🇸🇦 Saudi Arabia: 2nd largest proven oil reserves | a budget that leans on oil | Vision 2030 diversification | cheap oil (2025 deficit: SAR 277 bn as Brent fell)\n🇪🇬 Egypt: the Suez Canal | heavy debt, IMF programme | record tourism (about 19M visitors in 2025) | Houthi attacks on Red Sea shipping cut canal income from $10.25 bn (2023) to $4.0 bn (2024)\n🇮🇷 Iran: 2nd largest gas reserves | sanctions and inflation near 60% | a young, educated population | a regime facing isolation, war and unrest\n🇷🇺 Russia: energy and the largest nuclear arsenal | an economy riding on commodities | Arctic sea routes | the cost of war and sanctions\n🇨🇳 China: about 30% of world manufacturing | a shrinking, ageing population | the lead in EVs and solar | trade wars and tariffs\n🇺🇸 United States: innovation and the dollar | $40 trillion of debt (passed in Aug 2026) | the lead in AI | political polarisation\n\nNo country is all green. What counts is what it does next.\n\nSo, which one would you invest in?\n\nSources: OECD MSTI (2025, 2023 data); OECD Economic Survey of Israel (2025); OPEC Annual Statistical Bulletin (2025); Saudi Ministry of Finance (2025 budget results); Suez Canal Authority (2025); IMF; Egypt Ministry of Tourism (2026); Energy Institute Statistical Review; Statistical Centre of Iran via Euronews (2026); Federation of American Scientists (2025); UNIDO (2024); China NBS; IEA; US Treasury via Reuters (2026); IMF COFER; Stanford AI Index (2025); Pew Research Center.\nPHOTOS_LINE AI voice.",
+ "caption_he": "7 מדינות. מבחן עסקי אחד. 📊\nניתוח SWOT (חוזקות, חולשות, הזדמנויות, איומים) הוא מה שחברות עושות לפני החלטה גדולה. הנה הוא ל־7 מדינות, פריט אחד חד בכל משבצת:\n🇮🇱 ישראל: מו\"פ 6.3% מהתמ\"ג, הגבוה ב־OECD | יוקר מחיה | הסכמי אברהם | איראן ושלוחיה\n🇸🇦 סעודיה: עתודות הנפט השניות בגודלן | תקציב שתלוי בנפט | חזון 2030 | נפט זול\n🇪🇬 מצרים: תעלת סואץ | חוב כבד | שיא בתיירות | התקפות החות'ים בים האדום חתכו את הכנסות התעלה ביותר מ־60%\n🇮🇷 איראן: עתודות הגז השניות בגודלן | סנקציות ואינפלציה של כמעט 60% | אוכלוסייה צעירה ומשכילה | משטר מול בידוד, מלחמה ומחאות\n🇷🇺 רוסיה: אנרגיה והארסנל הגרעיני הגדול בעולם | כלכלה שנשענת על סחורות | נתיבי השיט בארקטי | מחיר המלחמה והסנקציות\n🇨🇳 סין: כ־30% מהייצור התעשייתי בעולם | אוכלוסייה שמצטמקת | הובלה ברכב חשמלי ובסולארי | מלחמות סחר\n🇺🇸 ארה\"ב: חדשנות והדולר | חוב של 40 טריליון דולר | הובלה ב־AI | קיטוב פוליטי\nאף מדינה לא ירוקה לגמרי. מה שקובע זה מה היא עושה עם זה.\nאז במי הייתם משקיעים?",
+ "hashtags": [
+  "#Israel",
+  "#geopolitics",
+  "#economy"
+ ],
+ "cover": {
+  "t": 52.0,
+  "text": "*7* countries.|One business *test.*",
+  "big": "SWOT"
+ }
+}

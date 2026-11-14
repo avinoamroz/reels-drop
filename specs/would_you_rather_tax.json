@@ -1,0 +1,95 @@
+{
+ "id": "would_you_rather_tax",
+ "account": "noamroz__",
+ "template": "game_show",
+ "hook": "Would you rather *pay?*",
+ "music": {"bed": "bounce", "lufs": -16},
+ "voice": {"tempo": 1.1, "gap": 0.15},
+ "lines": [
+  {"say": "Would you rather pay?", "gap": 0.2},
+  {"say": "Three doors. Three taxes. Pick one.", "gap": 0.15, "screen": "*3* doors. *3* taxes. Pick one."},
+  {"say": "Door one: income tax. A slice of what you earn.", "gap": 0.15, "screen": "Door 1: *income tax*"},
+  {"say": "You pay for being successful.", "gap": 0.15, "screen": "You pay for being *successful*"},
+  {"say": "Plus: the rich pay more. Minus: forms. So many forms.", "gap": 0.25, "screen": "Rich pay more. But *forms.* So many *forms.*"},
+  {"say": "Door two: VAT, value added tax.", "gap": 0.15, "screen": "Door 2: *VAT,* value added tax"},
+  {"say": "You pay eighteen percent on hummus.", "gap": 0.15, "screen": "*18%* on your hummus"},
+  {"say": "Plus: simple, hard to dodge. Minus: it hits the poor hardest.", "gap": 0.25, "screen": "Simple. But hits the *poor* hardest"},
+  {"say": "Door three: the jizya, a tax of old empires.", "gap": 0.15, "screen": "Door 3: the *jizya*"},
+  {"say": "Bonus: no army service included.", "gap": 0.15, "screen": "Bonus: *no army service*"},
+  {"say": "Wait. No reserve duty? Where do I sign?", "gap": 0.15},
+  {"say": "The catch? Only if you're the wrong religion.", "gap": 0.15, "screen": "The catch: only for *non-Muslims*"},
+  {"say": "Non-Muslim men paid it. Protected, but not equal.", "gap": 0.15, "screen": "Dhimmi status: *protected,* not *equal*"},
+  {"say": "Ah. Hard pass.", "gap": 0.25},
+  {"say": "The Ottomans dropped it in eighteen fifty six.", "gap": 0.15, "screen": "Ottomans: gone *1856.* Persia: *1882.*"},
+  {"say": "Only armed groups revived it: the Pakistani Taliban, and ISIS, the Islamic State.", "gap": 0.25, "screen": "Revived only by *armed groups*"},
+  {"say": "And in Israel? Jews, Muslims, Christians, Druze.", "gap": 0.15, "screen": "Israel: Jews, Muslims, Christians, Druze"},
+  {"say": "Same income tax. Same VAT. Your faith doesn't change your bill.", "gap": 0.25, "screen": "Same tax. Same VAT. *Same bill.*"},
+  {"say": "Taxes are never fun. Equal taxes are the fair kind.", "gap": 0.3},
+  {"say": "So, would you rather pay?", "gap": 0.2}
+ ],
+ "data": {
+  "hook_y": 250,
+  "title_y": 285,
+  "doors": [
+   {"num": 1, "tag": "% of pay", "icon": "💼", "name": "INCOME TAX", "value": "10% to 50%", "sub": "of what you earn", "open": "L2:income", "close": "L18"},
+   {"num": 2, "tag": "% of price", "icon": "🧾", "name": "VAT", "value": "18%", "sub": "on what you buy", "open": "L5:VAT", "close": "L18"},
+   {"num": 3, "tag": "???", "icon": "📜", "name": "JIZYA", "value": "Fixed sum", "sub": "per non-Muslim man", "color": "#F2A93B", "open": "L8:jizya", "close": "L18"}
+  ],
+  "heads": [{"icon": "💼", "name": "INCOME"}, {"icon": "🧾", "name": "VAT"}, {"icon": "📜", "name": "JIZYA"}],
+  "cams": [
+   {"at": "L2-0.1", "view": 0, "dur": 0.7},
+   {"at": "L4e", "view": "wide", "dur": 0.5},
+   {"at": "L5-0.1", "view": 1, "dur": 0.7},
+   {"at": "L7e", "view": "wide", "dur": 0.5},
+   {"at": "L8-0.1", "view": 2, "dur": 0.7},
+   {"at": "L10-0.2", "view": "wide", "dur": 0.5},
+   {"at": "L11", "view": 2, "dur": 0.6},
+   {"at": "L13-0.1", "view": "wide", "dur": 0.4}
+  ],
+  "points": [
+   {"door": 0, "kind": "N", "at": "L3:successful"},
+   {"door": 0, "kind": "Y", "at": "L4:rich"},
+   {"door": 0, "kind": "N", "at": "L4:forms"},
+   {"door": 1, "kind": "N", "at": "L6:hummus"},
+   {"door": 1, "kind": "Y", "at": "L7:simple"},
+   {"door": 1, "kind": "N", "at": "L7:hits"},
+   {"door": 2, "kind": "Y", "at": "L9:army"},
+   {"door": 2, "kind": "N", "at": "L11:wrong"},
+   {"door": 2, "kind": "N", "at": "L12:equal"}
+  ],
+  "buzz": [
+   {"at": "L2:income", "kind": "buzz"},
+   {"at": "L5:VAT", "kind": "buzz"},
+   {"at": "L8:jizya", "kind": "buzz"},
+   {"at": "L13:hard", "kind": "wrong"}
+  ],
+  "bubbles": [
+   {"at": "L10", "until": "L10e+0.15", "text": "Wait. No *reserve duty?* Where do I sign?"},
+   {"at": "L13", "until": "L13e+0.2", "text": "Ah. *Hard pass.*"}
+  ],
+  "poses": [
+   {"at": "L10", "pose": "excited"},
+   {"at": "L11", "pose": "think"},
+   {"at": "L13", "pose": "recoil"},
+   {"at": "L14", "pose": "idle"}
+  ],
+  "stamp": [
+   {"at": "L13:hard", "until": "L14-0.05", "text": "HARD PASS", "color": "red", "y": 700, "angle": -8, "size": 140}
+  ],
+  "photos": [],
+  "endcard": {"at": "L18", "until": "L19-0.1", "balance": "Taxes are never fun. *Equal* taxes are the fair kind.", "cta": "Send this to your accountant"},
+  "reprise": "L19"
+ },
+ "sources": [
+  {"label": "PwC Worldwide Tax Summaries, Israel", "year": 2026, "at": "L2", "until": "L5"},
+  {"label": "Israel Tax Authority via Sovos; Davar", "year": 2025, "at": "L5", "until": "L8"},
+  {"label": "Britannica, Jizya; Bernard Lewis, The Jews of Islam", "year": 1984, "at": "L8", "until": "L14"},
+  {"label": "Hatt-i Humayun 1856; Qajar decree 1882 (Encyclopaedia Iranica)", "at": "L14", "until": "L15"},
+  {"label": "Dawn, Orakzai 2009; ISIS Raqqa pact, Middle East Forum 2014", "at": "L15", "until": "L16"},
+  {"label": "Israel Income Tax Ordinance; VAT Law", "year": 1975, "at": "L16", "until": "L18"}
+ ],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": ["#Israel", "#taxes", "#history"],
+ "cover": {"t": 3.0, "text": "Would you rather|*pay?*", "big": "?"}
+}
