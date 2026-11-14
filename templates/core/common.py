@@ -67,7 +67,7 @@ def lint(S):
     hw = len(re.sub(r"[*|]", " ", hook).split())
     if S.get("template") != "rehook" or hook:
         if not hook: errs.append("hook missing")
-        elif hw > 6: errs.append(f"hook has {hw} words (max 6)")
+        elif hw > 6 and not S.get("hook_original"): errs.append(f"hook has {hw} words (max 6)")   # hook_original: a winner's original hook kept on a remake (Noam 14 Nov)
         elif not re.search(r"\d", hook): warn.append("hook has no number")
     for i, L in enumerate(S["lines"]):
         scr = L.get("screen") or ""

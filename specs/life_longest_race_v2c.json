@@ -1,0 +1,269 @@
+{
+ "id": "life_longest_race_v2c",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Who lives longest in the|*Middle East?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 12
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "<<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>": "Noam Roz"
+ },
+ "lines": [
+  {
+   "say": "Who lives longest in the Middle East?",
+   "gap": 0.15
+  },
+  {
+   "say": "Sixty years of World Bank data. Eleven countries.",
+   "screen": "Life expectancy at birth, *1961* to 2023"
+  },
+  {
+   "say": "Israel starts on top, at seventy two years. Lebanon is next.",
+   "screen": "*1961:* Israel 72, Lebanon 64"
+  },
+  {
+   "say": "Then the Gulf starts climbing.",
+   "screen": "The *Gulf* starts climbing"
+  },
+  {
+   "say": "Nineteen seventy five. Civil war in Lebanon. It drops eight years.",
+   "screen": "Lebanon's civil war: *8 years* lost"
+  },
+  {
+   "say": "Iraq slides through the eighties.",
+   "screen": "Iraq slides through the *1980s*"
+  },
+  {
+   "say": "Two thousand five. The UAE overtakes Israel.",
+   "screen": "*2005:* the UAE overtakes Israel"
+  },
+  {
+   "say": "Syria's civil war costs ten years.",
+   "screen": "Syria's civil war: *10 years* lost"
+  },
+  {
+   "say": "Twenty nineteen. Qatar on top.",
+   "screen": "*2019:* Qatar on top"
+  },
+  {
+   "say": "Then the pandemic hits the Gulf.",
+   "screen": "The *pandemic* hits the Gulf"
+  },
+  {
+   "say": "Twenty twenty three. The Palestinian territories drop eleven years, the year the war began.",
+   "screen": "West Bank and Gaza: *11 years* down in 2023"
+  },
+  {
+   "say": "The runner up ends less than half a year behind. The third, less than one.",
+   "screen": "Gold and silver: less than *half a year* apart"
+  },
+  {
+   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "until": "L13"
+  },
+  {
+   "say": "And the top of the table?",
+   "gap": 0.25
+  },
+  {
+   "say": "Israel. Eighty three point two years.",
+   "screen": "Israel: *83.2* years"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/life_longest_race_v2c.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "short": "ISR",
+    "color": "#44A3DC",
+    "hl": true
+   },
+   "Qatar": {
+    "flag": "QA",
+    "short": "QAT",
+    "color": "#9B4E8D",
+    "hl": false
+   },
+   "UAE": {
+    "flag": "AE",
+    "short": "UAE",
+    "color": "#2DBE6F",
+    "hl": false
+   },
+   "Jordan": {
+    "flag": "JO",
+    "short": "JOR",
+    "color": "#C8A249",
+    "hl": false
+   },
+   "Syria": {
+    "flag": "SY",
+    "short": "SYR",
+    "color": "#B28BEF",
+    "hl": false
+   },
+   "Turkey": {
+    "flag": "TR",
+    "short": "TUR",
+    "color": "#EF894A",
+    "hl": false
+   },
+   "Lebanon": {
+    "flag": "LB",
+    "short": "LBN",
+    "color": "#DF5D5C",
+    "hl": false
+   },
+   "Iran": {
+    "flag": "IR",
+    "short": "IRN",
+    "color": "#3FB8A4",
+    "hl": false
+   },
+   "Egypt": {
+    "flag": "EG",
+    "short": "EGY",
+    "color": "#D8B06E",
+    "hl": false
+   },
+   "Iraq": {
+    "flag": "IQ",
+    "short": "IRQ",
+    "color": "#8FA6C8",
+    "hl": false
+   },
+   "West Bank and Gaza": {
+    "flag": "PS",
+    "short": "WBG",
+    "color": "#6E9A72",
+    "hl": false
+   }
+  },
+  "orient": "vertical",
+  "nodata": true,
+  "top": 11,
+  "dec": 1,
+  "area": {
+   "x0": 40,
+   "x1": 1040,
+   "base": 1130,
+   "top": 640,
+   "val_size": 38,
+   "lab_size": 38,
+   "key_y": 1330
+  },
+  "keyframes": [
+   [
+    "L0",
+    "1961"
+   ],
+   [
+    "L1",
+    "1962"
+   ],
+   [
+    "L2e",
+    "1966"
+   ],
+   [
+    "L3e",
+    "1972"
+   ],
+   [
+    "L4",
+    "1975"
+   ],
+   [
+    "L4e",
+    "1977"
+   ],
+   [
+    "L5",
+    "1982"
+   ],
+   [
+    "L5e",
+    "1990"
+   ],
+   [
+    "L6",
+    "2005"
+   ],
+   [
+    "L6e",
+    "2008"
+   ],
+   [
+    "L7",
+    "2011"
+   ],
+   [
+    "L7e",
+    "2016"
+   ],
+   [
+    "L8",
+    "2019"
+   ],
+   [
+    "L9",
+    "2020"
+   ],
+   [
+    "L9e",
+    "2021"
+   ],
+   [
+    "L10",
+    "2023"
+   ]
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "hook_y": 440,
+  "title_y": 300
+ },
+ "sources": [
+  {
+   "label": "World Bank, SP.DYN.LE00.IN",
+   "year": 2023,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "caption_en": "",
+ "caption_he": "",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#IsraelFacts",
+  "#LifeExpectancy"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "?",
+  "text": "Who lives longest in the|*Middle East?*"
+ },
+ "hook_original": true
+}

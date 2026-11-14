@@ -18,11 +18,17 @@ data keys:
              a photo is up, credit line at credit_y (default 1712). A photo with at 0 is on screen from frame 0.
   src_y      source chip y (default 1488)
   big        [{at, until, value, from, prefix, suffix, dec, sub, y, size}] counting number card (yellow), as in photo_story
+  orient     "vertical": columns rising from a baseline (leader left, smooth swaps, value on top, flag + short label under
+             each column, "no data" in the slot); area {x0, x1, base, top}, key label at key_y (default base + 200)
+  keyframes  [[anchor, key], ...]  pin keys to narration anchors (e.g. ["L4", "1975"]); replaces the even at/until timing
+  brand      {text, show: [[at, until], ...]}  small "Israel Facts" mark top left (frame 0 signature)
+  callout_y  callout card centre y (default 1330)
 """
 import os, sys, csv, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
 import numpy as np
 from common import *
+import map_counter as MC
 
 
 def load_table(D):
@@ -47,7 +53,10 @@ def run(S):
     t0, t1 = A(D.get("at"), 0.5), A(D.get("until"), T.END - 3.0)
     holds = D.get("holds", {}); w = np.array([1.0 + float(holds.get(k, 0)) for k in keys])   # time weight per key step
     cum = np.concatenate([[0], np.cumsum(w[1:])]); cum = cum / cum[-1] if cum[-1] > 0 else cum
+    KF = [(A(a), keys.index(str(k))) for a, k in D.get("keyframes", [])]
     def kpos(t):     # fractional key index at time t
+        if KF:
+            return float(np.interp(t, [a for a, _ in KF], [k for _, k in KF]))
         u = min(1, max(0, (t - t0) / max(0.1, t1 - t0)))
         i = int(np.searchsorted(cum, u, "right") - 1); i = min(i, nk - 2)
         return i + (u - cum[i]) / max(1e-9, cum[i + 1] - cum[i]) if nk > 1 else 0.0
@@ -55,7 +64,7 @@ def run(S):
     def ranks(i):
         v = np.nan_to_num(V[:, i], nan=-1e18); order = np.argsort(-v, kind="stable"); r = np.empty(len(v)); r[order] = np.arange(len(v)); return r
     R = np.array([ranks(i) for i in range(nk)]).T
-    top = min(10, D.get("top", 8)); cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace"))
+    top = min(12 if D.get("orient") == "vertical" else 10, D.get("top", 8)); cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace"))
     hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 300)
     CO = [(A(c["at"]), A(c.get("until"), T.END - 0.6), c["text"]) for c in D.get("callouts", [])]
     y0, rowh = 560, min(100, 820 // top); x0, lab_w = 60, 330; bw_max = 1000 - x0 - lab_w - 180
@@ -84,6 +93,28 @@ def run(S):
         dim = p.get("dim", 0.25)
         return img * (1 - dim) * VIG + NAVYC * dim * 0.35
 
+    VA = D.get("area", dict(x0=40, x1=1040, base=1150, top=620)); BR = D.get("brand") or {}; BRW = [(A(w_[0]), A(w_[1])) for w_ in BR.get("show", [])]
+    vpos = {}; vmax_v = [None]
+
+    def draw_vertical(cv, series, vals, rk, ca):
+        idx = [n_ for n_ in range(len(series)) if rk[n_] <= top - 0.05 or (np.isnan(vals[n_]) and D.get("nodata"))]
+        n = max(1, len(series) if D.get("nodata") else min(top, len(idx))); pitch = (VA["x1"] - VA["x0"]) / n
+        fin = vals[~np.isnan(vals)]; mx = float(fin.max()) if len(fin) else 1.0
+        vmax_v[0] = mx if vmax_v[0] is None else vmax_v[0] + (mx - vmax_v[0]) * 0.15
+        hmax = VA["base"] - VA["top"]; cw = min(110, pitch * 0.64)
+        for n_ in idx:
+            s_ = series[n_]; cx = VA["x0"] + pitch * (rk[n_] + 0.5); hl = s_.get("hl"); col = s_.get("color", SKY); a = ca
+            if s_.get("flag"): WG.flag(cv, s_["flag"], cx, VA["base"] + 44, min(60, pitch * 0.62), a)
+            cv.text(s_.get("short", s_["label"]), cx, VA["base"] + 98, VA.get("lab_size", 40), YEL if hl else WHITE, a, maxw=pitch * 1.2, minsz=36)
+            if np.isnan(vals[n_]):
+                cv.text("no", cx, VA["base"] - 70, 36, "#9AA6BD", a, maxw=pitch); cv.text("data", cx, VA["base"] - 32, 36, "#9AA6BD", a, maxw=pitch)
+                continue
+            h = min(hmax, max(6.0, hmax * vals[n_] / max(1e-9, vmax_v[0]))); x0_ = cx - cw / 2; yy = VA["base"] - h
+            cv.rrect(x0_, yy, cw, h, min(12, cw / 4), col, 0.95 * a)
+            if hl: cv.rrect(x0_ - 4, yy - 4, cw + 8, h + 8, min(14, cw / 4 + 3), None, a, stroke=YEL, lw=4, sa=a)
+            cv.text(WG.fmtn(vals[n_], D.get("dec", 0), D.get("prefix", ""), D.get("suffix", "")), cx, yy - 34, VA.get("val_size", 40),
+                    YEL if hl else WHITE, a, maxw=pitch - 6, minsz=36)
+
     def frame(t):
         base = bars_moving_bg(t); pa = 0.0
         for p in PH:
@@ -99,7 +130,9 @@ def run(S):
         rk = np.mean([rk_at(t - d_) for d_ in (0.0, 0.08, 0.16, 0.24, 0.32, 0.40)], axis=0)
         vmax = np.nanmax(np.where(rk < top, vals, np.nan)) if np.any(rk < top) else 1.0
         ca = 1.0 - pa
-        for n_, s in enumerate(series):
+        if D.get("orient") == "vertical" and ca > 0.01:
+            draw_vertical(cv, series, vals, rk, ca)
+        for n_, s in enumerate(series if D.get("orient") != "vertical" else []):
             if ca <= 0.01: break
             if np.isnan(vals[n_]) and D.get("nodata") and rk[n_] <= top - 0.05:
                 y = y0 + rk[n_] * rowh; a = ca * min(1, top - rk[n_]) * 0.85; ix = x0 + 34
@@ -120,8 +153,9 @@ def run(S):
             cv.rrect(x0 + lab_w, y - rowh * 0.34, max(10, bw), rowh * 0.68, 14, col, a)
             cv.text(WG.fmtn(vals[n_], D.get("dec", 0), D.get("prefix", ""), D.get("suffix", "")), x0 + lab_w + max(10, bw) + 14, y, 50,
                     YEL if s.get("hl") else WHITE, a, align="l", maxw=200, minsz=38)
-        kl = keys[min(nk - 1, int(round(kp)))]
-        if ca > 0.01: cv.text(str(kl), 1010 - cv.tw(str(kl), 150) / 2, y0 + top * rowh + 40, 150, YEL, 0.9 * ca, maxw=500)
+        kl = keys[min(nk - 1, int(math.floor(kp + 1e-6)))]
+        if ca > 0.01 and D.get("orient") == "vertical": cv.text(str(kl), 540, VA.get("key_y", VA["base"] + 200), 150, YEL, 0.95 * ca, maxw=600)
+        elif ca > 0.01: cv.text(str(kl), 1010 - cv.tw(str(kl), 150) / 2, y0 + top * rowh + 40, 150, YEL, 0.9 * ca, maxw=500)
         for k_, p in enumerate(PH):
             a_ = ph_alpha(p, t)
             for q in PH[k_ + 1:]: a_ *= 1 - ph_alpha(q, t)
@@ -137,7 +171,11 @@ def run(S):
         if D.get("unit") and ca > 0.01: cv.text(D["unit"], 540, y0 - 70, 44, "#C9D6EA", ca, bold=False, maxw=960)
         for a0, a1, txt in CO:
             a = win(t, a0, a1, 0.3, 0.3)
-            if a > 0.01: WG.panel(cv, 80, 1230, 920, 200, a, stroke=YEL); WG.title(cv, txt, 1330, a, 64)
+            cy_ = D.get("callout_y", 1330)
+            if a > 0.01: WG.panel(cv, 80, cy_ - 100, 920, 200, a, stroke=YEL); WG.title(cv, txt, cy_, a, 64)
+        for b0, b1 in BRW:
+            bra = 1.0 if b0 <= 0.01 and t < b1 - 0.3 else win(t, b0, b1, 0.3, 0.3)
+            if bra > 0.01: MC.draw_brand(cv, BR.get("text", "Israel Facts"), bra)
         draw_screen(cv, [c for c in cards if c[1] > T.E(0)], t, D.get("title_y", 290), 72)
         draw_sources(cv, S, T, t, D.get("src_y", 1488)); draw_end(cv, S, T, t)
         out = paste_hook(cv.out().astype(np.float32), hook_img, t, T.E(0), HY, 0.9)
