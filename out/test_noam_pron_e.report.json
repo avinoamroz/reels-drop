@@ -1,0 +1,64 @@
+{
+ "id": "test_noam_pron_e",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* name test",
+ "duration": 9.4,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/test_noam_pron_e.mp4",
+  "cover": "covers/test_noam_pron_e_cover.jpg",
+  "preview": "previews/test_noam_pron_e_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_noam_pron_e_0.jpg",
+  "1": "out/frames/test_noam_pron_e_1.jpg",
+  "3": "out/frames/test_noam_pron_e_3.jpg",
+  "last": "out/frames/test_noam_pron_e_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting (Noam Roz pronunciation test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.808,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Security control is what makes it last.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> Rahz for more.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Because here, Israel is fifteen kilometres wide.",
+    "score": 0.857,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Security control is what makes it last. If you like Israel facts, follow Noam Ross for more. Because here, Israel is 15 kilometers wide.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 9.41,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 13.9
+}
