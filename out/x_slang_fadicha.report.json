@@ -1,0 +1,92 @@
+{
+ "id": "x_slang_fadicha",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Fadicha in English? 3 ways",
+ "duration": 19.73,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.6
+ },
+ "outputs": {
+  "mp4": "out/x_slang_fadicha.mp4",
+  "cover": "covers/x_slang_fadicha_cover.jpg",
+  "preview": "previews/x_slang_fadicha_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/x_slang_fadicha_0.jpg",
+  "1": "out/frames/x_slang_fadicha_1.jpg",
+  "3": "out/frames/x_slang_fadicha_3.jpg",
+  "last": "out/frames/x_slang_fadicha_last.jpg"
+ },
+ "caption_en": "",
+ "caption_he": "שכחתם לעשות אנמיוט ודיברתם 5 דקות לבד. פדיחה. ואיך אומרים את זה באנגלית? 🙈\n\nפדיחה בשיחה: Awkward! או How embarrassing!\nפדיחה בעבודה: My bad, let me start again.\n(טעות שלי, אתחיל מההתחלה)\n\nבכחול: מילים שאתם כבר משתמשים בהן. בכתום: מילים שאתם מכירים ולא משתמשים. באדום: חדש.\n\nהערב: 7 דקות של דיבור עם עצמכם באנגלית בוואטסאפ, ואז להסביר את אותו רעיון לחבר בשיחה.\n\nמה הפדיחה הכי גדולה שלכם בזום? כתבו באנגלית בתגובות 👇\n\nמקור: Cambridge Dictionary.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#BusinessEnglish",
+  "#אנגלית",
+  "#סלנג"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Mike says, you were on mute the whole time.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You say, awkward!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Or, how embarrassing!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At work, say, my bad, let me start again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You sent the client the deck with our comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "How embarrassing! Sending the clean one now.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Happens to everyone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next meeting.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Mike says you were on mute the whole time you say awkward or how embarrassing at work say my bad Let me start again You sent the client the deck with our comments how embarrassing Sending the clean one now happens to everyone Save this for your next meeting",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.6
+ },
+ "lint_warnings": [],
+ "render_s": 43.4
+}
