@@ -68,17 +68,6 @@
   "why": "Noam 14 Nov 15:05: pulled to rebuild with One Peak course rules (repost of a live reel)"
  },
  {
-  "id": "english_natives",
-  "account": "express",
-  "due": "2026-11-15T08:30:00+02:00",
-  "payload": {
-   "body": "{\"media_type\": \"REELS\", \"video_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/out/english_natives.mp4\", \"caption\": \"מיליארד וחצי אנשים מדברים אנגלית. רק 390 מיליון מהם דוברים ילידיים. 🗣️\\n\\nכל השאר, 1.1 מיליארד, למדו אותה. בערך שלושה מכל ארבעה דוברי אנגלית בעולם הם בדיוק כמוך.\\nאין שפה בעולם עם יותר לומדים: ערבית ספרותית 335 מיליון, הינדי 264, צרפתית 238, מנדרינית 194, ספרדית 74.\\n\\nהמבטא שלך הוא לא חריג. הוא הרוב. ובגלל זה הביזנס בעולם רץ באנגלית, מתל אביב ועד טוקיו.\\n\\nשלחו למישהו שמתבייש לדבר אנגלית בישיבות.\\n\\nמקור: Ethnologue 2025, דרך ויקיפדיה (List of languages by total number of speakers).\\n\\n#EnglishExpress #BusinessEnglish #English #אנגלית\", \"share_to_feed\": true, \"is_ai_generated\": true, \"cover_url\": \"https://raw.githubusercontent.com/avinoamroz/reels-drop/main/covers/english_natives_cover.jpg\", \"trial_params\": {\"graduation_strategy\": \"SS_PERFORMANCE\"}}"
-  },
-  "due_epoch": 1794724200,
-  "posts_at": "2026-11-15 08:47",
-  "why": "Express trials stopped 14 Nov; feed only"
- },
- {
   "id": "fsi_hebrew",
   "account": "express",
   "due": "2026-11-15T13:00:00+02:00",
