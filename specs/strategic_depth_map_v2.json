@@ -14,7 +14,7 @@
  },
  "subs_replace": {
   "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS",
-  "<<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>>": "Noam Roz"
+  "<<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>": "Noam Roz"
  },
  "lines": [
   {
@@ -80,7 +80,7 @@
    "screen": "Peace is the goal. *Security* makes it last."
   },
   {
-   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<r|ɑ|z>> for more.",
+   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
    "screen": "Like Israel facts? Follow @noamroz__",
    "screen_icon": "🔽"
   },
