@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "rehook",
  "hook": "*7,000* Jews left.|Then this.",
- "duration": 47.97,
+ "duration": 43.47,
  "audio": {
   "lufs": -15.9,
-  "true_peak": -2.0
+  "true_peak": -2.4
  },
  "outputs": {
   "mp4": "out/pop_race_v6_en_mw1.mp4",
@@ -19,9 +19,13 @@
   "3": "out/frames/pop_race_v6_en_mw1_3.jpg",
   "last": "out/frames/pop_race_v6_en_mw1_last.jpg"
  },
- "caption_en": "",
+ "caption_en": "The lowest point was 7,000. Watch what came next. 🗺️\n\n3,000 years. Who lived in this land? 🗺️\n\nFrom the Jordan to the sea, people by religion: Jews, Canaanites, Philistines, Samaritans, Greek and Roman pagans, Christians, Muslims and Druze. Each dot on the map is 2,000 people.\n\nJews never fully left. At the lowest point, from the 1500s to 1800, about 7,000 Jews lived here. Today it's about 7.6 million.\n\nFigures are rounded estimates, and ancient numbers have wide ranges. The area includes the West Bank and Gaza.\n\nSources: Magen Broshi (ancient population estimates); Sergio DellaPergola (Jewish demography); Justin McCarthy, The Population of Palestine (Ottoman era); British Mandate censuses 1922 and 1931; Israel Central Bureau of Statistics; Palestinian Central Bureau of Statistics.\n\nWhich era surprised you the most?\nAI voice (Noam's own cloned voice) on the new opening.",
  "caption_he": "",
- "hashtags": [],
+ "hashtags": [
+  "#history",
+  "#israel",
+  "#demographics"
+ ],
  "sources": [],
  "transcript": {
   "score": 0.0,
@@ -33,19 +37,19 @@
     "flag": "MISS"
    }
   ],
-  "heard": "At the lowest point, about 7,000 Jews lived here. Today, 7.6 million. Watch 3,000 years.",
+  "heard": "7,000 Jews were left. Then this. Thanks for watching!",
   "expected": "source reel transcript after the cut"
  },
  "status": "rendered, not posted",
  "voice": "new spoken hook + source reel audio kept after the cut",
  "source": "tiktok/vert_pop_race_v6_en_ig.mp4",
  "cut": 5.0,
- "hook_dur": 8.200000000000001,
+ "hook_dur": 3.71,
  "mix": {
   "lufs": -15.9,
-  "true_peak": -2.0
+  "true_peak": -2.4
  },
  "body_kept_s": 40.11,
  "lint_warnings": [],
- "render_s": 97.8
+ "render_s": 70.8
 }

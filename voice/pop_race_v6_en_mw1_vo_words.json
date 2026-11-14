@@ -1,97 +1,37 @@
 [
 {
-"word": "At",
-"start": 0.52631897,
-"end": 0.6501587
-},
-{
-"word": "the",
-"start": 0.6501587,
-"end": 0.72755855
-},
-{
-"word": "lowest",
-"start": 0.72755855,
-"end": 1.0990778
-},
-{
-"word": "point,",
-"start": 1.0990778,
-"end": 1.517037
-},
-{
-"word": "about",
-"start": 1.9040363,
-"end": 2.1826758
-},
-{
-"word": "seven",
-"start": 2.1826758,
-"end": 2.5387151
+"word": "Seven",
+"start": 0.26315948,
+"end": 0.7739985
 },
 {
 "word": "thousand",
-"start": 2.5387151,
-"end": 2.8947544
+"start": 0.8049584,
+"end": 1.2538775
 },
 {
 "word": "Jews",
-"start": 2.8947544,
-"end": 3.157914
+"start": 1.2538775,
+"end": 1.6099168
 },
 {
-"word": "lived",
-"start": 3.157914,
-"end": 3.3746333
+"word": "were",
+"start": 1.6099168,
+"end": 1.7647165
 },
 {
-"word": "here.",
-"start": 3.3746333,
-"end": 3.668753
+"word": "left.",
+"start": 1.7647165,
+"end": 2.1517158
 },
 {
-"word": "Today,",
-"start": 4.752351,
-"end": 5.2012696
+"word": "Then",
+"start": 3.018594,
+"end": 3.2972336
 },
 {
-"word": "seven",
-"start": 5.588269,
-"end": 5.9907484
-},
-{
-"word": "point",
-"start": 6.021708,
-"end": 6.130068
-},
-{
-"word": "six",
-"start": 6.161028,
-"end": 6.4706273
-},
-{
-"word": "million.",
-"start": 6.4706273,
-"end": 6.8576264
-},
-{
-"word": "Watch",
-"start": 7.3994255,
-"end": 7.693545
-},
-{
-"word": "three",
-"start": 7.693545,
-"end": 7.9102645
-},
-{
-"word": "thousand",
-"start": 7.9102645,
-"end": 8.266304
-},
-{
-"word": "years.",
-"start": 8.266304,
-"end": 8.746182
+"word": "this.",
+"start": 3.2972336,
+"end": 3.7151928
 }
 ]
