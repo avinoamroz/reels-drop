@@ -78,7 +78,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Mike says you were on mute the whole time you say awkward or how embarrassing at work say my bad Let me start again You sent the client the deck with our comments how embarrassing Sending the clean one now happens to everyone Save this for your next meeting",
+  "heard": "Mike says you were on mute the whole time you say awkward or how embarrassing at work say my bad Let me start again You sent the client the deck with our comments. How embarrassing Sending the clean one now happens to everyone Save this for your next meeting",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -88,5 +88,5 @@
   "true_peak": -1.6
  },
  "lint_warnings": [],
- "render_s": 43.4
+ "render_s": 44.5
 }
