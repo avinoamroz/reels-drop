@@ -1,0 +1,39 @@
+{
+ "id": "jews_white_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*9* places.|Are Jews white?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/hb_jews_white.mp4",
+  "flip": true,
+  "said": "Are Jews white? Watch where they actually came from.",
+  "source": "jews_white.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "doc_piano",
+   "before": "so next time someone tells"
+  },
+  "cut": 5.4
+ },
+ "sources": [
+  {
+   "label": "Pew Research Center",
+   "year": 2016
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2025
+  }
+ ],
+ "cover": {
+  "big": "9",
+  "text": "places.|Are Jews *white?*"
+ }
+}

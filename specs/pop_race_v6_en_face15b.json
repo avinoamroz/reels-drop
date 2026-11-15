@@ -1,0 +1,34 @@
+{
+ "id": "pop_race_v6_en_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*3,000* years.|Who lived here?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/hb_s3000_3000years.mp4",
+  "flip": true,
+  "said": "3,000 years. Who actually lived here?",
+  "source": "tiktok/vert_pop_race_v6_en_ig.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "doc_piano",
+   "at": 43.9
+  },
+  "cut": 0.0
+ },
+ "sources": [
+  {
+   "label": "Broshi, DellaPergola, McCarthy, Mandate censuses, CBS, PCBS",
+   "year": 2026
+  }
+ ],
+ "cover": {
+  "text": "*3,000* years.|Who lived here?"
+ }
+}

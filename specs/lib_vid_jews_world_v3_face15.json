@@ -1,0 +1,35 @@
+{
+ "id": "lib_vid_jews_world_v3_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "Where do Jews live?|*2,600* years",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/h_jews_world.mp4",
+  "flip": true,
+  "said": "So where do the world's Jews actually live?",
+  "source": "tiktok/mw_lib_vid_jews_world_v3_ig.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "doc_piano",
+   "at": 40.2
+  },
+  "cut": 1.0
+ },
+ "sources": [
+  {
+   "label": "DellaPergola; Jewish Agency; national censuses",
+   "year": 2026
+  }
+ ],
+ "cover": {
+  "big": "2,600",
+  "text": "years.|Where do *Jews* live?"
+ }
+}

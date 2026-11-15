@@ -1,0 +1,35 @@
+{
+ "id": "homicide_race_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "Violent country?|*23* years of data",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/h_violent_country.mp4",
+  "flip": true,
+  "said": "Is Israel a violent country? Let's check the numbers.",
+  "source": "homicide_race_v4.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "doc_piano",
+   "before": "so the next time someone asks"
+  },
+  "cut_after": "the numbers"
+ },
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data; Taub Center",
+   "year": 2025
+  }
+ ],
+ "cover": {
+  "big": "1.6",
+  "text": "Is Israel|a *violent* country?"
+ }
+}

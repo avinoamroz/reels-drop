@@ -1,0 +1,52 @@
+{
+ "id": "iran_one_address_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*6* fronts.|One address.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/hb_six_fronts.mp4",
+  "flip": true,
+  "said": "Six fronts, one address.",
+  "source": "out/iran_one_address.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "replace",
+   "bed": "doc_piano",
+   "replace": "if you like israel facts",
+   "replace_end": "for more"
+  },
+  "cut_after": "one address"
+ },
+ "sources": [
+  {
+   "label": "US DoD: 241 US service members killed, Beirut",
+   "year": 1983
+  },
+  {
+   "label": "Peterson v. Islamic Republic of Iran, US District Court",
+   "year": 2003
+  },
+  {
+   "label": "US State Dept, Country Reports on Terrorism",
+   "year": 2023
+  },
+  {
+   "label": "Argentina Federal Court of Cassation (AMIA ruling)",
+   "year": 2024
+  },
+  {
+   "label": "Marco Rubio, US Secretary of State, 13 Nov",
+   "year": 2026
+  }
+ ],
+ "cover": {
+  "big": "6",
+  "text": "fronts.|*One* address."
+ }
+}

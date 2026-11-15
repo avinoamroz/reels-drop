@@ -1,0 +1,35 @@
+{
+ "id": "gdp_tug_of_war_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*1* Israeli vs|*9* countries",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/h_money_flows.mp4",
+  "flip": true,
+  "said": "Same region, watch where the money flows.",
+  "source": "gdp_tug_of_war.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "doc_piano",
+   "before": "ready for the rematch"
+  },
+  "cut": 6.0
+ },
+ "sources": [
+  {
+   "label": "IMF World Economic Outlook, GDP per capita",
+   "year": 2026
+  }
+ ],
+ "cover": {
+  "big": "1 vs 9",
+  "text": "Same region.|Follow the *money*"
+ }
+}

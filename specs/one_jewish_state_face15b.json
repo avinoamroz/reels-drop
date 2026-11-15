@@ -1,0 +1,39 @@
+{
+ "id": "one_jewish_state_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*120* Christian countries.|Jewish ones?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/hb_christian_countries.mp4",
+  "flip": true,
+  "said": "120 Christian countries around the world. How many are Jewish?",
+  "source": "out/one_jewish_state.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "doc_piano",
+   "before": "so when someone says"
+  },
+  "cut_after": "how many jewish ones"
+ },
+ "sources": [
+  {
+   "label": "Pew Research Center, majority religion by country",
+   "year": 2025
+  },
+  {
+   "label": "Pew Research Center, religious symbols on flags",
+   "year": 2014
+  }
+ ],
+ "cover": {
+  "big": "120",
+  "text": "Christian countries.|*Jewish* ones?"
+ }
+}

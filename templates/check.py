@@ -35,6 +35,10 @@ def main(S, rp):
     got = heard(m, os.path.join(REPO, "out", f"{S['id']}.mp4"))
     if S.get("template") == "rehook":
         D = S["data"]; exp_lines = [heard(m, os.path.join(REPO, D["source"]), float(D.get("cut", 3.0)) + 0.3)]
+    elif S.get("template") == "face_hook":     # Noam's own words + the source after the cut (+ his follow line)
+        D = S["data"]; cut = float(R.get("cut", D.get("cut", 0.0)))
+        exp_lines = [D["said"], heard(m, os.path.join(REPO, D["source"]), cut + 0.3)]
+        if R.get("follow_text"): exp_lines.append(R["follow_text"])
     else:
         exp_lines = [L["say"] for L in S.get("lines", []) if L.get("say")]
     G = norm(got); per = []; tot = hit = 0
@@ -45,7 +49,7 @@ def main(S, rp):
         per.append(dict(line=line[:160], score=round(sc, 3), flag="MISS" if sc < 0.8 else "ok"))
         tot += len(E); hit += h
     R["transcript"] = dict(score=round(hit / max(1, tot), 3), model="faster-whisper small.en", lines=per, heard=got,
-                           expected="spec lines" if S.get("template") != "rehook" else "source reel transcript after the cut")
+                           expected={"rehook": "source reel transcript after the cut", "face_hook": "Noam's words, source transcript after the cut, follow line"}.get(S.get("template"), "spec lines"))
     json.dump(R, open(rp, "w"), indent=1, ensure_ascii=False)
     print("transcript score", R["transcript"]["score"])
     for p in per: print(p["flag"], p["score"], p["line"][:90])

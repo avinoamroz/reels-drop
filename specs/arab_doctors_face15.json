@@ -1,0 +1,35 @@
+{
+ "id": "arab_doctors_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "Arabs: *21%* of Israel.|Doctors?",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/h_arab_doctors.mp4",
+  "flip": true,
+  "said": "Arabs are 21% of Israel. How many doctors?",
+  "source": "out/arab_doctors.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "journey",
+   "before": "so the next time someone says"
+  },
+  "cut_after": "share of its doctors"
+ },
+ "sources": [
+  {
+   "label": "Rosen and Miaari, Israel Journal of Health Policy Research",
+   "year": 2025
+  }
+ ],
+ "cover": {
+  "big": "21%",
+  "text": "of Israel.|*Doctors?*"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "id": "life_longest_race_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "Who lives longest?|*11* countries",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "data": {
+  "clip": "hooks/face/h_intro_numbers.mp4",
+  "flip": true,
+  "said": "I'm Noam, here's what the numbers say.",
+  "source": "life_longest_race.mp4",
+  "brand": true,
+  "follow": {
+   "wav": "ref/follow_line_noam.wav",
+   "text": "If you love Israeli facts, follow Noam Roz for more.",
+   "mode": "insert",
+   "bed": "doc_piano",
+   "before": "so when someone asks"
+  },
+  "cut": 0.0
+ },
+ "sources": [
+  {
+   "label": "World Bank, life expectancy at birth",
+   "year": 2023
+  }
+ ],
+ "cover": {
+  "big": "83.2",
+  "text": "Who lives *longest*|in the Middle East?"
+ }
+}
