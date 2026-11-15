@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""osm_city: OpenStreetMap -> rasters for the city_flyover template (run on GitHub, the container cannot reach Overpass).
+"""osm_city: OpenStreetMap -> rasters for the city_flyover template (run on GitHub: Geofabrik extract + osmium; the container
+cannot reach it).
 
   python tools/osm_city.py <name> <south> <west> <north> <east> [m_per_px]
 
@@ -13,7 +14,7 @@ writes templates/data/city_<name>/
 Data (c) OpenStreetMap contributors, ODbL. Heights: OSM height, else building:levels x 3.2 m + 1.5, else 9 to 15 m (id hash).
 """
 import json, math, os, sys, time, zlib
-import numpy as np, cv2, requests
+import numpy as np, cv2
 
 name, S, Wl, N, E = sys.argv[1], *map(float, sys.argv[2:6])
 MPP = float(sys.argv[6]) if len(sys.argv) > 6 else 2.0
@@ -21,22 +22,53 @@ OUT = f"templates/data/city_{name}"; os.makedirs(OUT, exist_ok=True)
 LAT0 = (S + N) / 2; MLAT = 111320.0; MLON = 111320.0 * math.cos(math.radians(LAT0))
 WM, HM = (E - Wl) * MLON, (N - S) * MLAT; PW, PH = int(round(WM / MPP)), int(round(HM / MPP))
 print("raster", PW, PH, "m/px", MPP)
-UA = {"User-Agent": "reels-drop-osm/1.0 (github.com/avinoamroz/reels-drop)"}
-EPS = ["https://overpass-api.de/api/interpreter", "https://overpass.kumi.systems/api/interpreter",
-       "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
+PBF = "https://download.geofabrik.de/asia/israel-and-palestine-latest.osm.pbf"
 
 
-def q(body):
-    bb = f"({S},{Wl},{N},{E})"; ql = f"[out:json][timeout:300][maxsize:1073741824];({body.replace('BB', bb)});out geom;"
-    for k in range(6):
-        ep = EPS[k % len(EPS)]
-        try:
-            r = requests.post(ep, data={"data": ql}, headers=UA, timeout=400)
-            if r.status_code == 200: return r.json()["elements"]
-            print("overpass", ep, r.status_code, r.text[:200])
-        except Exception as e: print("overpass", ep, e)
-        time.sleep(15)
-    raise SystemExit("overpass failed")
+def load_features():
+    """Geofabrik extract -> osmium bbox cut -> GeoJSON seq -> Overpass-like elements (ways with geometry, relations with rings)"""
+    import subprocess
+    if not os.path.exists("/tmp/src.osm.pbf"):
+        subprocess.run(["curl", "-sSL", "--fail", "--retry", "4", "-o", "/tmp/src.osm.pbf", PBF], check=True)
+    subprocess.run(["osmium", "extract", "-b", f"{Wl},{S},{E},{N}", "--strategy", "smart", "-O", "-o", "/tmp/cut.osm.pbf", "/tmp/src.osm.pbf"], check=True)
+    subprocess.run(["osmium", "export", "-O", "-f", "geojsonseq", "-x", "print_record_separator=false", "-a", "type,id",
+                    "-o", "/tmp/cut.geojsonseq", "/tmp/cut.osm.pbf"], check=True)
+    els = []
+    for ln in open("/tmp/cut.geojsonseq", encoding="utf-8"):
+        ln = ln.strip().lstrip("\x1e")
+        if not ln: continue
+        f = json.loads(ln); g = f.get("geometry") or {}; pr = f.get("properties") or {}
+        tags = {k: v for k, v in pr.items() if not k.startswith("@")}; oid = pr.get("@id", len(els))
+        gt = g.get("type"); cs = g.get("coordinates")
+        G_ = lambda ring: [{"lon": c[0], "lat": c[1]} for c in ring]
+        if gt == "LineString": els.append(dict(type="way", id=oid, tags=tags, geometry=G_(cs), linear=True))
+        elif gt == "MultiLineString":
+            for part in cs: els.append(dict(type="way", id=oid, tags=tags, geometry=G_(part), linear=True))
+        elif gt in ("Polygon", "MultiPolygon"):
+            polys = [cs] if gt == "Polygon" else cs; mem = []
+            for poly in polys:
+                for k, ring in enumerate(poly): mem.append(dict(type="way", role="outer" if k == 0 else "inner", geometry=G_(ring)))
+            els.append(dict(type="relation", id=oid, tags=tags, members=mem))
+    print("features", len(els))
+    return els
+
+
+ALL = []
+
+
+def q(kind):
+    if not ALL: ALL.extend(load_features())
+    out = []
+    for el in ALL:
+        t = el["tags"]
+        if kind == "B" and "building" in t and t.get("building") != "no" and el["type"] == "relation": out.append(el)
+        elif kind == "G" and (t.get("leisure") in ("park", "garden", "golf_course", "pitch", "nature_reserve", "playground")
+                              or t.get("landuse") in ("grass", "forest", "recreation_ground", "meadow", "orchard", "village_green", "cemetery", "allotments")
+                              or t.get("natural") in ("wood", "scrub", "grassland", "beach", "sand") or t.get("place") == "square") and el["type"] == "relation": out.append(el)
+        elif kind == "W" and (t.get("natural") in ("water", "coastline") or "waterway" in t or t.get("landuse") in ("basin", "reservoir")): out.append(el)
+        elif kind == "R" and el["type"] == "way" and (t.get("railway") == "rail" or t.get("highway") in (
+                "motorway", "motorway_link", "trunk", "trunk_link", "primary", "secondary", "tertiary", "residential", "unclassified", "living_street", "pedestrian")): out.append(el)
+    return out
 
 
 def px(lon, lat): return ((lon - Wl) * MLON / MPP, (N - lat) * MLAT / MPP)
@@ -60,8 +92,9 @@ def fill(img, el, val):
     sh = 4
     for r in outs:
         if len(r) >= 3: cv2.fillPoly(img, [np.round(r * (1 << sh)).astype(np.int32)], val, cv2.LINE_8, sh)
+    if not np.isscalar(val): return          # colour fills keep their holes filled (holes are small yards)
     for r in ins:
-        if len(r) >= 3: cv2.fillPoly(img, [np.round(r * (1 << sh)).astype(np.int32)], 0 if np.isscalar(val) else (0, 0, 0), cv2.LINE_8, sh)
+        if len(r) >= 3: cv2.fillPoly(img, [np.round(r * (1 << sh)).astype(np.int32)], 0, cv2.LINE_8, sh)
 
 
 def line(img, el, val, w):
@@ -86,15 +119,10 @@ def hgt(el):
 
 
 t0 = time.time()
-B = q('way["building"]BB;relation["building"]BB;'); print("buildings", len(B), round(time.time() - t0))
-G = q('way["leisure"~"park|garden|golf_course|pitch|nature_reserve|playground"]BB;relation["leisure"~"park|garden|nature_reserve"]BB;'
-      'way["landuse"~"grass|forest|recreation_ground|meadow|orchard|village_green|cemetery|allotments"]BB;'
-      'relation["landuse"~"grass|forest|recreation_ground|meadow"]BB;way["natural"~"wood|scrub|grassland|beach|sand"]BB;'
-      'way["place"="square"]BB;'); print("green", len(G))
-Wt = q('way["natural"="water"]BB;relation["natural"="water"]BB;way["waterway"]BB;way["natural"="coastline"]BB;'
-       'way["landuse"~"basin|reservoir"]BB;'); print("water", len(Wt))
-R = q('way["highway"~"^(motorway|motorway_link|trunk|trunk_link|primary|secondary|tertiary|residential|unclassified|living_street|pedestrian)$"]BB;'
-      'way["railway"="rail"]BB;'); print("roads", len(R))
+B = q("B"); print("buildings", len(B), round(time.time() - t0))
+G = q("G"); print("green", len(G))
+Wt = q("W"); print("water", len(Wt))
+R = q("R"); print("roads", len(R))
 
 # ---------------------------------------------------------------- height
 Hh = np.zeros((PH, PW), np.float32)
@@ -110,7 +138,10 @@ gnd = np.zeros((PH, PW, 3), np.uint8); gnd[:] = LAND
 bar = np.zeros((PH + 2, PW + 2), np.uint8)
 coast = [el for el in Wt if el.get("tags", {}).get("natural") == "coastline"]
 cm = np.zeros((PH, PW), np.uint8)
-for el in coast: line(cm, el, 255, 3)
+for el in coast:
+    if el["type"] == "way": line(cm, el, 255, 3)
+    else:
+        for m in el["members"]: line(cm, m, 255, 3)
 bar[1:-1, 1:-1] = cm
 seeds = [(2, y) for y in range(10, PH - 10, max(1, PH // 40)) if cm[y, 2] == 0]
 img = np.zeros((PH, PW), np.uint8)

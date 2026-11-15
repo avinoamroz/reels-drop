@@ -24,7 +24,10 @@ jobs:
             templates/data
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: pip install -q --retries 5 numpy opencv-python-headless requests
+      - run: |
+          sudo apt-get -o Acquire::Retries=3 update -qq && sudo apt-get install -y -qq --no-install-recommends osmium-tool > /dev/null
+          pip install -q --retries 5 numpy opencv-python-headless
+          osmium --version | head -1
       - name: Build rasters
         run: |
           grep -v '^#' tools/osm_city_req.txt | while read -r n s w no e m; do
