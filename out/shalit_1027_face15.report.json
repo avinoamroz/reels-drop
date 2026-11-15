@@ -1,0 +1,159 @@
+{
+ "id": "shalit_1027_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*1* soldier.|How many prisoners?",
+ "duration": 57.83,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/shalit_1027_face15.mp4",
+  "cover": "covers/shalit_1027_face15_cover.jpg",
+  "preview": "previews/shalit_1027_face15_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/shalit_1027_face15_0.jpg",
+  "1": "out/frames/shalit_1027_face15_1.jpg",
+  "3": "out/frames/shalit_1027_face15_3.jpg",
+  "last": "out/frames/shalit_1027_face15_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Asharq Al-Awsat, tally of prisoner swaps",
+   "year": 2025
+  },
+  {
+   "label": "Al Jazeera, Shalit swap profiles",
+   "year": 2011
+  },
+  {
+   "label": "Al Majalla, Yahya Sinwar profile",
+   "year": 2023
+  }
+ ],
+ "transcript": {
+  "score": 0.95,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One Israeli soldier equals how many prisoners?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Start with October 2025. 20 living hostages came home from Gaza after two years in captivity. Israel freed 1,968 prisoners. 250 were serving life or long senten",
+    "score": 0.994,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.2,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "1 Israeli soldier equals how many prisoners? Start with October 2025. 20 living hostages came home from Gaza after two years in captivity. Israel freed 1,968 prisoners. 250 were serving life or long sentences. About 98 for every living hostage. Earlier that year, the deal set a price in advance. 30 prisoners for each civilian. 50 for each soldier. Now go back to 2011. soldier, Gilad Shalit. Hamas held him in Gaza. To bring him home, Israel freed 1,027 prisoners. The most senior of them was Yahya Sinwar. Al Jazeera called him the most prominent prisoner released. 12 years later, he was the mastermind of October 7th. Many of those freed in 2025 were detained during the war, not convicted. Bringing people home is right, it matters who walks out. So when people ask what one Israeli life is worth, start with this.",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/h_soldier_prisoners.mp4",
+ "said": "One Israeli soldier equals how many prisoners?",
+ "clip_heard": "One Israeli soldier equals how many prisoners?",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "One",
+   0.0,
+   1.4
+  ],
+  [
+   "Israeli",
+   1.4,
+   1.7
+  ],
+  [
+   "soldier",
+   1.7,
+   2.22
+  ],
+  [
+   "equals",
+   2.22,
+   2.8
+  ],
+  [
+   "how",
+   2.8,
+   3.36
+  ],
+  [
+   "many",
+   3.36,
+   3.52
+  ],
+  [
+   "prisoners?",
+   3.52,
+   3.8
+  ]
+ ],
+ "clip_trim": [
+  0.0,
+  3.94
+ ],
+ "face_s": 3.9333,
+ "source": "out/shalit_1027.mp4",
+ "cut": 5.96,
+ "cut_how": "after 'bring him home' (1.0)",
+ "follow": "inserted before 'so when people ask' at 53.36 s (1.0)",
+ "follow_part": {
+  "freeze_at": 53.32,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -16.1
+ },
+ "levels_final": {
+  "face": -15.5,
+  "body": -16.0
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "body_kept_s": 50.97,
+ "subs": [
+  [
+   "One Israeli soldier equals",
+   0.0,
+   2.78
+  ],
+  [
+   "how many prisoners?",
+   2.8,
+   3.8
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 83.1
+}
