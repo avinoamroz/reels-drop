@@ -1,0 +1,156 @@
+{
+ "id": "arab_doctors_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "Arabs: *21%* of Israel.|Doctors?",
+ "duration": 57.47,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/arab_doctors_face15.mp4",
+  "cover": "covers/arab_doctors_face15_cover.jpg",
+  "preview": "previews/arab_doctors_face15_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/arab_doctors_face15_0.jpg",
+  "1": "out/frames/arab_doctors_face15_1.jpg",
+  "3": "out/frames/arab_doctors_face15_3.jpg",
+  "last": "out/frames/arab_doctors_face15_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Rosen and Miaari, Israel Journal of Health Policy Research",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.994,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Arabs are 21% of Israel. How many doctors?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Here's an apartheid test almost nobody runs, one 2025 study in the Israel Journal of Health Policy Research. Start in 2010, Arab citizens are 8% of doctors, 17%",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Arabs are 21% of Israel. How many doctors? Here's an apartheid test almost nobody runs. One 2025 study in the Israel Journal of Health Policy Research. Start in 2010. Arab citizens are 8% of doctors, 17% of nurses, 19% of dentists, 28% of pharmacists. Now watch 2023. 13 years later. Doctors. 25%. More than triple in 13 years. nurses and dentists, 27%, pharmacists, 49%, almost half. Pick up medicine in Israel, and it's close to a coin flip that an Arab pharmacist hands it to you. And of all new doctors licensed since 2010, 38% are Arab. That's the next generation of Israeli medicine. The same study says real gaps and challenges remain. Equality is not finished. If you love Israeli facts, follow Noam Ross for more. So the next time someone says apartheid, ask them this.",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/h_arab_doctors.mp4",
+ "said": "Arabs are 21% of Israel. How many doctors?",
+ "clip_heard": "Arabs are 21 % of Israel. How many doctors?",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "Arabs",
+   0.78,
+   1.22
+  ],
+  [
+   "are",
+   1.22,
+   1.4
+  ],
+  [
+   "21%",
+   1.4,
+   2.06
+  ],
+  [
+   "of",
+   2.06,
+   2.26
+  ],
+  [
+   "Israel.",
+   2.26,
+   2.6
+  ],
+  [
+   "How",
+   3.46,
+   3.6
+  ],
+  [
+   "many",
+   3.6,
+   3.76
+  ],
+  [
+   "doctors?",
+   3.76,
+   3.98
+  ]
+ ],
+ "clip_trim": [
+  0.7,
+  4.12
+ ],
+ "face_s": 3.4333,
+ "source": "out/arab_doctors.mp4",
+ "cut": 4.4,
+ "cut_how": "after 'share of its doctors' (1.0)",
+ "follow": "inserted before 'so the next time someone says' at 52.36 s (1.0)",
+ "follow_part": {
+  "freeze_at": 52.32,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -16.1
+ },
+ "levels_final": {
+  "face": -14.7,
+  "body": -16.1
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "body_kept_s": 51.1,
+ "subs": [
+  [
+   "Arabs are 21% of Israel.",
+   0.07999999999999996,
+   2.7399999999999998
+  ],
+  [
+   "How many doctors?",
+   2.76,
+   3.28
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 105.4
+}
