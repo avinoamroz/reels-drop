@@ -15,27 +15,27 @@
  },
  "lines": [
   {
-   "say": "Eleven empires invaded this small land. Watch who stayed.",
+   "say": "Eleven empires invaded this small land. Guess who stayed.",
    "gap": 0.15
   },
   {
-   "say": "722 BCE. Assyria conquers the northern kingdom and deports its people.",
+   "say": "722 BCE. Assyria takes the north and deports its people.",
    "screen": "Sargon II's own records: *27,290* deported",
    "at": "L1:deports",
    "gap": 0.12
   },
   {
-   "say": "586 BCE. Babylon destroys Jerusalem and its Temple, and exiles Judah.",
+   "say": "586. Babylon burns the Temple and exiles Judah.",
    "screen": "*Babylon* burns the Temple",
    "gap": 0.12
   },
   {
-   "say": "539 BCE. Persia lets the exiles go home and rebuild.",
+   "say": "539. Persia lets them rebuild.",
    "screen": "*Persia* lets them rebuild",
    "gap": 0.12
   },
   {
-   "say": "332, Alexander. 63 BCE, Rome.",
+   "say": "Then Alexander. Then Rome.",
    "screen": "*Alexander,* then *Rome*",
    "gap": 0.12
   },
@@ -51,18 +51,18 @@
    "gap": 0.12
   },
   {
-   "say": "Byzantium. The caliphate in 636. Crusaders in 1099. Mamluks in 1260.",
+   "say": "Byzantium. The caliphate. Crusaders. Mamluks.",
    "screen": "Empire after *empire*",
    "gap": 0.12
   },
   {
-   "say": "In 1488, a visiting rabbi counts seventy Jewish families in Jerusalem.",
+   "say": "In 1488, a rabbi counts seventy Jewish families in Jerusalem.",
    "screen": "Still *here*",
    "at": "L8:seventy",
    "gap": 0.12
   },
   {
-   "say": "1516, the Ottomans. Their own tax records count about seven thousand Jews.",
+   "say": "The Ottomans. Their tax records count about seven thousand Jews.",
    "screen": "*Ottoman* tax registers",
    "at": "L9:tax",
    "gap": 0.12
@@ -72,7 +72,7 @@
    "gap": 0.12
   },
   {
-   "say": "1917, Britain. Its own census: about 84,000 Jews in 1922. 175,000 in 1931.",
+   "say": "Britain. Its census: 84,000 Jews in 1922. 175,000 in 1931.",
    "screen": "*British* census of Palestine",
    "at": "L11:census",
    "gap": 0.12
@@ -840,8 +840,8 @@
     "size": 46
    },
    {
-    "at": "L4:332",
-    "until": "L4:63",
+    "at": "L4:alexander",
+    "until": "L4:rome",
     "path": [
      [
       27.5,
@@ -1086,7 +1086,7 @@
     "size": 46
    },
    {
-    "at": "L4:63",
+    "at": "L4:rome",
     "until": "L6e",
     "path": [
      [
@@ -2676,11 +2676,11 @@
      "year": -539
     },
     {
-     "at": "L4:332",
+     "at": "L4:alexander",
      "year": -332
     },
     {
-     "at": "L4:63",
+     "at": "L4:rome",
      "year": -63
     },
     {
@@ -2712,7 +2712,7 @@
      "year": 1488
     },
     {
-     "at": "L9:1516",
+     "at": "L9:ottomans",
      "year": 1516
     },
     {
@@ -2720,7 +2720,7 @@
      "year": 1880
     },
     {
-     "at": "L11:1917",
+     "at": "L11:britain",
      "year": 1917
     },
     {
