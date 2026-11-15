@@ -289,7 +289,7 @@ def run(S):
     flt.append(f"[{k}:v]format=rgba,fade=in:st={tot - 1.0:.3f}:d=0.9:alpha=1[o];[cat][o]overlay=shortest=1:format=auto,tpad=stop_mode=clone:stop_duration=1,format=yuv420p[v]")
     vid = f"{work}/joined.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(flt), "-map", "[v]", "-c:v", "libx264", "-crf", "18",
-                    "-preset", "medium", "-t", f"{tot:.3f}", vid], check=True)
+                    "-preset", "medium", "-t", f"{tot + 0.1:.3f}", vid], check=True)
     # 7. audio join + loudness; his voice is matched to the body on the final file (one correction pass if they differ by > 0.7 LU)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
     fx = gain_to(fx, body_lufs) if np.abs(fx).max() > 0 else fx
@@ -299,7 +299,7 @@ def run(S):
         x = np.concatenate([fx_, BA], axis=1); x = np.pad(x, ((0, 0), (0, max(0, n - x.shape[1]))))[:, :n]
         a_ = loudnorm(x, f"{work}/mix.m4a", LUFS)
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", vid, "-i", f"{work}/mix.m4a", "-map", "0:v", "-map", "1:a", "-c", "copy",
-                        "-shortest", "-movflags", "+faststart", final], check=True)
+                        "-t", f"{tot:.3f}", "-movflags", "+faststart", final], check=True)
         sl = {nm: round(lufs_of(audio_of(final, a, b - a)), 1) for nm, (a, b) in (("face", (0, fd)), ("body", (fd, tot)))}
         return a_, sl
     aud, seg_l = mixdown(fx); passes = 1
