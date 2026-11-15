@@ -1,0 +1,549 @@
+{
+ "id": "mein_kampf_face",
+ "account": "noamroz__",
+ "template": "talk_cut",
+ "hook": "Hitler was bad at *English.*",
+ "duration": 45.14,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/mein_kampf_face.mp4",
+  "cover": "covers/mein_kampf_face_cover.jpg",
+  "preview": "previews/mein_kampf_face_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/mein_kampf_face_0.jpg",
+  "1": "out/frames/mein_kampf_face_1.jpg",
+  "3": "out/frames/mein_kampf_face_3.jpg",
+  "last": "out/frames/mein_kampf_face_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Historisches Lexikon Bayerns, Mein Kampf vol. 1 published 18 July 1925",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.953,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "As a kid, Adolf wasn't very social. He found it hard to connect. When he went to a summer camp one summer, one kid named Danny said, Welcome to my camp. Adolf s",
+    "score": 0.953,
+    "flag": "ok"
+   }
+  ],
+  "heard": "As a kid, Adolf wasn't very social. He found it hard to connect. When he went to a summer camp one summer, one kid named Danny said, Welcome to my camp. Adolf said, Camp? Mine. Danny said, Okay, okay. You can join. You just have to share. But he said, Nine. Mine? Camp. My camp. Mine camp. Put that over there, right? He never got it. He had issues with possessives and possessions. Honestly, he was a bit possessive. Later, we realized it wasn't only his English, he was really struggling, which is exactly why I called his book Mein Kampf, my struggle. The struggle was real. Maybe because...",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own voice (one take, cut), his recorded follow line, quiet bed",
+ "clip": "hooks/face/talk_noam_1115f.mp4",
+ "keep": [
+  [
+   1.05,
+   3.92
+  ],
+  [
+   3.98,
+   5.72
+  ],
+  [
+   5.92,
+   10.47
+  ],
+  [
+   10.55,
+   11.64
+  ],
+  [
+   11.78,
+   14.55
+  ],
+  [
+   15.02,
+   18.62
+  ],
+  [
+   18.72,
+   21.6
+  ],
+  [
+   22.25,
+   25.88
+  ],
+  [
+   33.55,
+   35.6
+  ],
+  [
+   35.62,
+   38.52
+  ],
+  [
+   38.7,
+   40.98
+  ],
+  [
+   41.15,
+   45.98
+  ],
+  [
+   46.05,
+   50.25
+  ],
+  [
+   50.4,
+   52.7
+  ],
+  [
+   55.35,
+   58.8
+  ]
+ ],
+ "parts": [
+  [
+   "clip",
+   1.05,
+   3.92
+  ],
+  [
+   "clip",
+   3.98,
+   5.72
+  ],
+  [
+   "clip",
+   5.92,
+   10.47
+  ],
+  [
+   "clip",
+   10.55,
+   11.64
+  ],
+  [
+   "clip",
+   11.78,
+   14.55
+  ],
+  [
+   "clip",
+   15.02,
+   18.62
+  ],
+  [
+   "clip",
+   18.72,
+   21.6
+  ],
+  [
+   "clip",
+   22.25,
+   25.88
+  ],
+  [
+   "clip",
+   33.55,
+   35.6
+  ],
+  [
+   "clip",
+   35.62,
+   38.52
+  ],
+  [
+   "clip",
+   38.7,
+   40.98
+  ],
+  [
+   "clip",
+   41.15,
+   45.98
+  ],
+  [
+   "clip",
+   46.05,
+   50.25
+  ],
+  [
+   "clip",
+   50.4,
+   52.7
+  ],
+  [
+   "clip",
+   55.35,
+   58.8
+  ]
+ ],
+ "mix": {
+  "lufs": -15.9,
+  "true_peak": -2.0
+ },
+ "levels": {
+  "speech": -22.0,
+  "follow_before_mix": -22.0
+ },
+ "subs": [
+  [
+   "As a kid",
+   0.0,
+   1.6199999999999999
+  ],
+  [
+   "Adolf wasn't very social.",
+   1.64,
+   2.8466666666666667
+  ],
+  [
+   "He found it",
+   2.8666666666666667,
+   3.8666666666666667
+  ],
+  [
+   "hard to connect.",
+   3.8866666666666667,
+   4.58
+  ],
+  [
+   "When he went to a",
+   4.6,
+   5.84
+  ],
+  [
+   "summer camp one summer",
+   5.859999999999999,
+   7.74
+  ],
+  [
+   "one kid named Danny said",
+   7.76,
+   9.146666666666667
+  ],
+  [
+   "Welcome to my camp.",
+   9.166666666666666,
+   10.246666666666666
+  ],
+  [
+   "Adolf said, Camp?",
+   10.266666666666666,
+   12.566666666666666
+  ],
+  [
+   "Mine.",
+   12.586666666666666,
+   13.013333333333332
+  ],
+  [
+   "Danny said, Okay",
+   13.033333333333331,
+   14.873333333333331
+  ],
+  [
+   "okay, you can join.",
+   14.89333333333333,
+   15.713333333333331
+  ],
+  [
+   "You just have to share.",
+   15.73333333333333,
+   16.613333333333333
+  ],
+  [
+   "But he said",
+   16.633333333333333,
+   17.713333333333335
+  ],
+  [
+   "Nein.",
+   17.733333333333334,
+   18.633333333333333
+  ],
+  [
+   "Mine?",
+   18.653333333333332,
+   19.213333333333335
+  ],
+  [
+   "Camp?",
+   19.233333333333334,
+   19.48
+  ],
+  [
+   "My camp.",
+   19.5,
+   21.36
+  ],
+  [
+   "Mine Kampf.",
+   21.38,
+   22.18
+  ],
+  [
+   "Potato, potahto, right?",
+   22.2,
+   23.113333333333333
+  ],
+  [
+   "He never got it.",
+   23.133333333333333,
+   25.18
+  ],
+  [
+   "He had issues with",
+   25.2,
+   26.380000000000003
+  ],
+  [
+   "possessives and possessions.",
+   26.400000000000002,
+   28.839999999999996
+  ],
+  [
+   "Honestly, he was",
+   28.859999999999996,
+   29.459999999999994
+  ],
+  [
+   "a bit possessive.",
+   29.479999999999993,
+   30.346666666666664
+  ],
+  [
+   "Later, we realized it",
+   30.366666666666664,
+   32.48666666666666
+  ],
+  [
+   "wasn't only his English.",
+   32.50666666666666,
+   34.10666666666666
+  ],
+  [
+   "He was really struggling.",
+   34.126666666666665,
+   35.17999999999999
+  ],
+  [
+   "Which is exactly why",
+   35.199999999999996,
+   37.199999999999996
+  ],
+  [
+   "he called his book",
+   37.22,
+   38.779999999999994
+  ],
+  [
+   "Mein Kampf.",
+   38.8,
+   39.379999999999995
+  ],
+  [
+   "My struggle.",
+   39.4,
+   41.67999999999999
+  ],
+  [
+   "The struggle was real.",
+   41.699999999999996,
+   44.31999999999999
+  ],
+  [
+   "Maybe because...",
+   44.339999999999996,
+   45.12
+  ]
+ ],
+ "heard_kept": [
+  [
+   1.05,
+   3.92,
+   "As a kid, adults wasn't very social."
+  ],
+  [
+   3.98,
+   5.72,
+   "You found it hard to connect."
+  ],
+  [
+   5.92,
+   10.47,
+   "When he went to a summer camp one summer, one kid named Danny said"
+  ],
+  [
+   10.55,
+   11.64,
+   "Welcome to my camp."
+  ],
+  [
+   11.78,
+   14.55,
+   "out of said camp my"
+  ],
+  [
+   15.02,
+   18.62,
+   "Then he said, okay, okay, you can join, you just have to share."
+  ],
+  [
+   18.72,
+   21.6,
+   "But he said 9. Mine can't..."
+  ],
+  [
+   22.25,
+   25.88,
+   "My camp, mine camp, put that over data, right?"
+  ],
+  [
+   33.55,
+   35.6,
+   "He never got it."
+  ],
+  [
+   35.62,
+   38.52,
+   "He had issues with possessives and possession."
+  ],
+  [
+   38.7,
+   40.98,
+   "Honestly, he was a bit possessive."
+  ],
+  [
+   41.15,
+   45.98,
+   "Later, we realized it wasn't only his English, he was really struggling."
+  ],
+  [
+   46.05,
+   50.25,
+   "which is exactly why I call this book Mein Kampf."
+  ],
+  [
+   50.4,
+   52.7,
+   "My struggle."
+  ],
+  [
+   55.35,
+   58.8,
+   "The struggle was real. Maybe because"
+  ]
+ ],
+ "heard_cut": [
+  [
+   14.55,
+   15.02,
+   "Thanks for watching!"
+  ],
+  [
+   21.6,
+   22.25,
+   ""
+  ],
+  [
+   25.88,
+   33.55,
+   "He never got it. He had issues with the possessives, right, with possessions."
+  ],
+  [
+   52.7,
+   55.35,
+   ""
+  ]
+ ],
+ "said": "As a kid, Adolf wasn't very social. He found it hard to connect. When he went to a summer camp one summer, one kid named Danny said, Welcome to my camp. Adolf said, Camp? Mine. Danny said, Okay, okay, you can join. You just have to share. But he said, Nein. Mine? Camp? My camp. Mine Kampf. Potato, potahto, right? He never got it. He had issues with possessives and possessions. Honestly, he was a bit possessive. Later, we realized it wasn't only his English. He was really struggling. Which is exactly why he called his book, Mein Kampf. My struggle. The struggle was real. Maybe because...",
+ "follow_at": null,
+ "part_match": [
+  [
+   1.05,
+   3.92,
+   1.0
+  ],
+  [
+   3.98,
+   5.72,
+   1.0
+  ],
+  [
+   5.92,
+   10.47,
+   1.0
+  ],
+  [
+   10.55,
+   11.64,
+   1.0
+  ],
+  [
+   11.78,
+   14.55,
+   1.0
+  ],
+  [
+   15.02,
+   18.62,
+   1.0
+  ],
+  [
+   18.72,
+   21.6,
+   1.0
+  ],
+  [
+   22.25,
+   25.88,
+   1.0
+  ],
+  [
+   33.55,
+   35.6,
+   1.0
+  ],
+  [
+   35.62,
+   38.52,
+   1.0
+  ],
+  [
+   38.7,
+   40.98,
+   1.0
+  ],
+  [
+   41.15,
+   45.98,
+   1.0
+  ],
+  [
+   46.05,
+   50.25,
+   1.0
+  ],
+  [
+   50.4,
+   52.7,
+   1.0
+  ],
+  [
+   55.35,
+   58.8,
+   1.0
+  ]
+ ],
+ "photos": [],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 162.7
+}
