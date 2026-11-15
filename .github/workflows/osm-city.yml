@@ -1,0 +1,47 @@
+name: osm-city
+# OpenStreetMap rasters for templates/city_flyover.py (the container cannot reach Overpass).
+# Lines in tools/osm_city_req.txt: "name south west north east m_per_px". Writes templates/data/city_<name>/ and commits.
+on:
+  push:
+    paths: ['tools/osm_city_req.txt', 'tools/osm_city.py', '.github/workflows/osm-city.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: osm-city
+  cancel-in-progress: false
+jobs:
+  osm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout: |
+            tools/osm_city.py
+            tools/osm_city_req.txt
+            templates/data
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -q --retries 5 numpy opencv-python-headless requests
+      - name: Build rasters
+        run: |
+          grep -v '^#' tools/osm_city_req.txt | while read -r n s w no e m; do
+            [ -z "$n" ] && continue
+            [ -f "templates/data/city_$n/meta.json" ] && continue
+            python tools/osm_city.py "$n" "$s" "$w" "$no" "$e" "$m"
+            ls -la "templates/data/city_$n"
+          done
+      - name: Commit
+        run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add --sparse templates/data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "osm-city rasters [skip ci]"
+          for i in 1 2 3 4 5 6; do
+            git -c gc.auto=0 pull -q --rebase && git push -q && exit 0
+            git rebase --abort 2>/dev/null || true
+            sleep $(( (RANDOM % 10) + 5 ))
+          done
+          exit 1
