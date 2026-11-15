@@ -23,7 +23,7 @@ data keys:
   hook_y      default 1240 (over his chest); hook_size default 118; brand true adds the Israel Facts mark
   zoom        push-in over the face clip, default 0.04
 """
-import os, sys, re, json, subprocess
+import os, sys, re, json, math, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
 import numpy as np
 from common import *
@@ -283,7 +283,7 @@ def run(S):
         else:
             ins += ["-i", fol_mp4]; flt.append(f"[{k}:v]scale={W}:{H},fps={FPS},setsar=1,format=yuv420p,setpts=PTS-STARTPTS[v{k}]")
         labs.append(f"[v{k}]"); k += 1
-    tot = fd + BA.shape[1] / SR
+    tot = math.floor((fd + BA.shape[1] / SR) * FPS) / FPS     # whole frames: audio never outlasts the video
     ins += ["-loop", "1", "-framerate", str(FPS), "-t", f"{tot:.3f}", "-i", f0]
     flt.append(f"{''.join(labs)}concat=n={len(labs)}:v=1:a=0[cat]")
     flt.append(f"[{k}:v]format=rgba,fade=in:st={tot - 1.0:.3f}:d=0.9:alpha=1[o];[cat][o]overlay=shortest=1:format=auto,tpad=stop_mode=clone:stop_duration=1,format=yuv420p[v]")
