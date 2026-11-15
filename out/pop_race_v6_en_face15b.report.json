@@ -1,0 +1,146 @@
+{
+ "id": "pop_race_v6_en_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*3,000* years.|Who lived here?",
+ "duration": 50.57,
+ "audio": {
+  "lufs": -15.9,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/pop_race_v6_en_face15b.mp4",
+  "cover": "covers/pop_race_v6_en_face15b_cover.jpg",
+  "preview": "previews/pop_race_v6_en_face15b_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/pop_race_v6_en_face15b_0.jpg",
+  "1": "out/frames/pop_race_v6_en_face15b_1.jpg",
+  "3": "out/frames/pop_race_v6_en_face15b_3.jpg",
+  "last": "out/frames/pop_race_v6_en_face15b_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Broshi, DellaPergola, McCarthy, Mandate censuses, CBS, PCBS",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.941,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "3,000 years. Who actually lived here?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "",
+    "score": 0.0,
+    "flag": "MISS"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   }
+  ],
+  "heard": "3,000 years. Who actually lived here? If you love Israeli facts, follow Noam Ross for more.",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/hb_s3000_3000years.mp4",
+ "said": "3,000 years. Who actually lived here?",
+ "clip_heard": "3 ,000 years. Who actually lived here?",
+ "said_match": 0.857,
+ "said_words": [
+  [
+   "3,000",
+   0.0,
+   0.6
+  ],
+  [
+   "years.",
+   1.1,
+   1.36
+  ],
+  [
+   "Who",
+   1.66,
+   1.8
+  ],
+  [
+   "actually",
+   1.8,
+   2.06
+  ],
+  [
+   "lived",
+   2.06,
+   2.28
+  ],
+  [
+   "here?",
+   2.28,
+   2.48
+  ]
+ ],
+ "clip_trim": [
+  0.0,
+  2.62
+ ],
+ "face_s": 2.6333,
+ "source": "tiktok/vert_pop_race_v6_en_ig.mp4",
+ "cut": 0.0,
+ "cut_how": "fixed",
+ "follow": "inserted at 43.90 s (fixed)",
+ "follow_part": {
+  "freeze_at": 43.86,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -14.2
+ },
+ "levels_final": {
+  "face": -15.7,
+  "body": -16.0
+ },
+ "mix": {
+  "lufs": -15.9,
+  "true_peak": -2.2
+ },
+ "body_kept_s": 45.11,
+ "subs": [
+  [
+   "3,000 years.",
+   0.0,
+   1.64
+  ],
+  [
+   "Who actually lived here?",
+   1.66,
+   2.48
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 57.9
+}
