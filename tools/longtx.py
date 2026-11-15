@@ -2,7 +2,7 @@ import json, os, sys, subprocess
 name, fid = sys.argv[1], sys.argv[2]
 os.makedirs('long', exist_ok=True)
 src = f'/tmp/{name}.src'
-subprocess.run(['curl', '-sSL', '--fail', '-o', src, f'https://drive.usercontent.google.com/download?id={fid}&export=download&confirm=t'], check=True)
+subprocess.run(['curl', '-sSL', '--fail', '-o', src, fid if fid.startswith('http') else f'https://drive.usercontent.google.com/download?id={fid}&export=download&confirm=t'], check=True)   # a Drive file id or a direct URL
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', src, '-ac', '1', '-ar', '16000', f'/tmp/{name}.wav'], check=True)
 dur = float(subprocess.run(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', src], capture_output=True, text=True).stdout.strip() or 0)
 info = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', src], capture_output=True, text=True).stdout.strip()
