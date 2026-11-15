@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "face_hook",
  "hook": "*1* Israeli vs|*9* countries",
- "duration": 48.97,
+ "duration": 49.0,
  "audio": {
   "lufs": -16.0,
   "true_peak": -2.1
@@ -29,7 +29,7 @@
   }
  ],
  "transcript": {
-  "score": 0.992,
+  "score": 0.975,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -39,16 +39,16 @@
    },
    {
     "line": "In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey, eight count",
-    "score": 1.0,
+    "score": 0.99,
     "flag": "ok"
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
+    "score": 0.8,
     "flag": "ok"
    }
   ],
-  "heard": "Same region, watch where the money flows. In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. Eight countries, 42,000 together, and Israel holds. Okay, let's swap Turkey for Oman, 47,000, still Israel. Fine, everyone together, 63,000. Finally, Israel slides over the line. It took a team of nine to out pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back and oil lifts the Gulf. If you love Israeli facts, follow Noah and Roz for more. Ready for the rematch? Same rope.",
+  "heard": "Same region, watch where the money flows. In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. Eight countries, 42,000 together, and Israel holds. Okay, let's swap Turkey for Oman, 47,000, still Israel. Fine, everyone together, 63,000. Finally Israel slides over the line. It took a team of nine to out pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back and oil lifts the Gulf. If you love Israeli facts, follow Noah Mraz for more. Ready for the rematch? Same role.",
   "expected": "Noam's words, source transcript after the cut, follow line"
  },
  "status": "rendered, not posted",
@@ -126,9 +126,10 @@
   "body": -15.9
  },
  "levels_final": {
-  "face": -14.7,
+  "face": -14.9,
   "body": -16.1
  },
+ "level_passes": 2,
  "mix": {
   "lufs": -16.0,
   "true_peak": -2.1
@@ -147,5 +148,5 @@
   ]
  ],
  "lint_warnings": [],
- "render_s": 78.8
+ "render_s": 81.8
 }
