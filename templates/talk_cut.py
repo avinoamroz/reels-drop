@@ -14,6 +14,7 @@ data keys:
   photos      [{"file": "photos/x.jpg", "from": src_t, "until": src_t, "title": "...", "label": "...", "credit": "..."}]
   follow      {"wav": "ref/follow_line_noam.wav", "text": "...", "before": src_t}
   hook_until  source seconds the hook stays on screen (default: end of the first sentence)
+  subs_size   subtitle text size (default 56; face reels 64+)
 """
 import os, sys, re, json, math, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
@@ -143,7 +144,7 @@ def run(S):
         if F and t_f - 0.05 <= t <= t_f + fdur:
             al = min(1.0, (t - t_f) / 0.2) * min(1.0, (t_f + fdur - t) / 0.15 + 1e-4)
             MC.draw_overlay(cv, {"text": F.get("screen", "Like Israel facts?|Follow *@noamroz__*"), "y": int(F.get("y", 1250)), "size": 76, "cue": True}, max(0.0, al), 0.92 + 0.08 * eout(min(1.0, (t - t_f) / 0.25)))
-        draw_subs(cv, CH, t, D.get("subs_y", 1612))
+        draw_subs(cv, CH, t, D.get("subs_y", 1612), D.get("subs_size", 56))
         return cv.out()
 
     if os.environ.get("TPL_SNAPS"):

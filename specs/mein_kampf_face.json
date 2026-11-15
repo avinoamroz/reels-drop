@@ -1,0 +1,110 @@
+{
+ "id": "mein_kampf_face",
+ "account": "noamroz__",
+ "template": "talk_cut",
+ "hook": "Hitler was bad at *English.*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16,
+  "bed_rel": -20
+ },
+ "sources": [
+  {
+   "label": "Historisches Lexikon Bayerns, Mein Kampf vol. 1 published 18 July 1925",
+   "year": 2026
+  }
+ ],
+ "data": {
+  "clip": "hooks/face/talk_noam_1115f.mp4",
+  "words": "long/noam_take_1115f.json",
+  "flip": true,
+  "keep": [
+   [
+    1.05,
+    3.92,
+    "As a kid, Adolf wasn't very social."
+   ],
+   [
+    3.98,
+    5.72,
+    "He found it hard to connect."
+   ],
+   [
+    5.92,
+    10.47,
+    "When he went to a summer camp one summer, one kid named Danny said,"
+   ],
+   [
+    10.55,
+    11.64,
+    "Welcome to my camp."
+   ],
+   [
+    11.78,
+    14.55,
+    "Adolf said, Camp? Mine."
+   ],
+   [
+    15.02,
+    18.62,
+    "Danny said, Okay, okay, you can join. You just have to share."
+   ],
+   [
+    18.72,
+    21.6,
+    "But he said, Nein. Mine? Camp?"
+   ],
+   [
+    22.25,
+    25.88,
+    "My camp. Mine Kampf. Potato, potahto, right?"
+   ],
+   [
+    33.55,
+    35.6,
+    "He never got it."
+   ],
+   [
+    35.62,
+    38.52,
+    "He had issues with possessives and possessions."
+   ],
+   [
+    38.7,
+    40.98,
+    "Honestly, he was a bit possessive."
+   ],
+   [
+    41.15,
+    45.98,
+    "Later, we realized it wasn't only his English. He was really struggling."
+   ],
+   [
+    46.05,
+    50.25,
+    "Which is exactly why he called his book, Mein Kampf."
+   ],
+   [
+    50.4,
+    52.7,
+    "My struggle."
+   ],
+   [
+    55.35,
+    58.8,
+    "The struggle was real. Maybe because..."
+   ]
+  ],
+  "hook_until": 3.92,
+  "hook_y": 1240,
+  "subs_size": 68,
+  "subs_y": 1640,
+  "case": {
+   "nein": "Nein"
+  }
+ },
+ "cover": {
+  "t": 20.0,
+  "text": "Hitler was bad at *English.*"
+ }
+}
