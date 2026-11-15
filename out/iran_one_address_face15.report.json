@@ -1,0 +1,147 @@
+{
+ "id": "iran_one_address_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*6* fronts.|One address.",
+ "duration": 57.37,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/iran_one_address_face15.mp4",
+  "cover": "covers/iran_one_address_face15_cover.jpg",
+  "preview": "previews/iran_one_address_face15_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/iran_one_address_face15_0.jpg",
+  "1": "out/frames/iran_one_address_face15_1.jpg",
+  "3": "out/frames/iran_one_address_face15_3.jpg",
+  "last": "out/frames/iran_one_address_face15_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "US DoD: 241 US service members killed, Beirut",
+   "year": 1983
+  },
+  {
+   "label": "Peterson v. Islamic Republic of Iran, US District Court",
+   "year": 2003
+  },
+  {
+   "label": "US State Dept, Country Reports on Terrorism",
+   "year": 2023
+  },
+  {
+   "label": "Argentina Federal Court of Cassation (AMIA ruling)",
+   "year": 2024
+  },
+  {
+   "label": "Marco Rubio, US Secretary of State, 13 Nov",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.909,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Six fronts, one address.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Front 1. Lebanon. Hezbollah. In 1983, a Beirut bombing, tied by a U.S. court to Iran and Hezbollah, killed 241 American troops. Front 2. Iraq. Iran backed milit",
+    "score": 0.908,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   }
+  ],
+  "heard": "6 fronts, one address. Front 1. Lebanon. Hezbollah. In 1983, a Beirut bombing, tied by a US court to Iran and Hezbollah, killed 241 American troops. Front 2. Iraq. Iran backed militias. Front 3. Syria. Backing Assad's war. Front 4. Yemen. The Houthis. Firing on Saudi Arabia and on ships. Front 5. Gaza. Hamas. Funded and armed by Iran, says the US State Department. Front 6. One people forget, Argentina 1994, a bomb at a Jewish center in Buenos Aires killed 85. Argentina's courts blamed Iran and Hezbollah. This week, the US Secretary of State said it, every major problem in the Middle East, one common denominator. And if you don't understand this, you don't understand Iran. This is about the regime, not the Iranian people, and not of faith. If you love Israeli facts, follow Noam Ross for more. Count the lines, they all start in one city.",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/h_six_fronts.mp4",
+ "said": "Six fronts, one address.",
+ "clip_heard": "Six fronts, one address.",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "Six",
+   1.46,
+   2.42
+  ],
+  [
+   "fronts,",
+   2.42,
+   2.9
+  ],
+  [
+   "one",
+   3.56,
+   3.74
+  ],
+  [
+   "address.",
+   3.74,
+   4.08
+  ]
+ ],
+ "clip_trim": [
+  1.38,
+  4.133
+ ],
+ "face_s": 2.7667,
+ "source": "out/iran_one_address.mp4",
+ "cut": 1.94,
+ "cut_how": "after 'one address' (1.0)",
+ "follow": "replaced TTS follow line 49.73 to 52.06 s (1.0, 1.0)",
+ "follow_part": {
+  "freeze_at": 50.895,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -16.2
+ },
+ "levels_final": {
+  "face": -14.5,
+  "body": -16.1
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "body_kept_s": 53.99,
+ "subs": [
+  [
+   "Six fronts, one address.",
+   0.08000000000000007,
+   2.7
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 102.1
+}
