@@ -1,0 +1,104 @@
+{
+ "id": "story_hl_what_i_do",
+ "account": "noamroz__",
+ "lang": "en",
+ "tag": "WHAT I DO",
+ "seed": 11,
+ "voice_id": "story_hl_vo",
+ "out_dir": "stories/story_hl_what_i_do",
+ "preview": "previews/story_hl_what_i_do_540.mp4",
+ "frames": [
+  {
+   "n": "01",
+   "name": "founded_2016",
+   "type": "broll",
+   "vo": 2,
+   "dur": 6.0,
+   "clips": [
+    {
+     "src": "broll/cut/k01_sokolov.mp4"
+    },
+    {
+     "src": "broll/cut/k04_room.mp4"
+    }
+   ],
+   "big": "2016",
+   "head": "I founded *English Express.*",
+   "sub": "Sokolov 2, Tel Aviv.",
+   "second": "2016: הקמתי את אינגליש אקספרס. סוקולוב 2, תל אביב."
+  },
+  {
+   "n": "02",
+   "name": "english_speakers",
+   "type": "text",
+   "big": "2,200",
+   "head": "English Speakers so far.",
+   "sub": "We turn away about 15% of applicants.",
+   "second": "כ-2,200 דוברי אנגלית עד היום. אנחנו דוחים כ-15% מהמועמדים."
+  },
+  {
+   "n": "03",
+   "name": "coach_community_habits",
+   "type": "broll",
+   "vo": 3,
+   "dur": 6.5,
+   "clips": [
+    {
+     "src": "broll/cut/k07b_crowd.mp4"
+    },
+    {
+     "src": "broll/cut/k04_room.mp4"
+    },
+    {
+     "src": "broll/cut/k06_bluex.mp4"
+    }
+   ],
+   "head": "A personal coach. A community. Daily habits.",
+   "sub": "In that order.",
+   "second": "מאמן אישי. קהילה. הרגלים יומיים. בדיוק בסדר הזה."
+  },
+  {
+   "n": "04",
+   "name": "expressx_51",
+   "type": "broll",
+   "vo": 4,
+   "dur": 6.0,
+   "clips": [
+    {
+     "src": "broll/cut/k06_bluex.mp4"
+    },
+    {
+     "src": "broll/cut/k09_wide.mp4"
+    }
+   ],
+   "big": "51",
+   "head": "ExpressX nights.",
+   "sub": "Our English Speakers on stage.",
+   "second": "51 ערבי ExpressX. דוברי האנגלית שלנו על הבמה."
+  },
+  {
+   "n": "05",
+   "name": "the_board",
+   "type": "still",
+   "src": "/home/claude/b8w/src/st_noam_2018a.jpg",
+   "framed": true,
+   "frame_y": 250,
+   "kb": [
+    1.0,
+    1.05
+   ],
+   "head": "*The Board:* a Tel Aviv business owners club.",
+   "sub": "Plus dinners at home.",
+   "second": "The Board: מועדון בעלי עסקים בתל אביב. ועוד ארוחות ערב אצלי בבית."
+  },
+  {
+   "n": "06",
+   "name": "israel_facts_dm",
+   "type": "text",
+   "head": "And *Israel Facts,* right here.",
+   "sub": "Curious about any of it? *DM me.*",
+   "sub_big": true,
+   "second": "ועמוד Israel Facts, ממש כאן. סקרנים? שלחו לי הודעה."
+  }
+ ]
+}

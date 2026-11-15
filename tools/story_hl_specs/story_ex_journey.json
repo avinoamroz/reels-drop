@@ -1,0 +1,97 @@
+{
+ "id": "story_ex_journey",
+ "account": "expressenglishcom",
+ "lang": "he",
+ "tag": "המסע",
+ "seed": 21,
+ "lift": 20,
+ "out_dir": "stories/story_ex_journey",
+ "preview": "previews/story_ex_journey_540.mp4",
+ "frames": [
+  {
+   "n": "01",
+   "name": "understand_cant_speak",
+   "type": "text",
+   "head": "\"אני מבין הכל. אבל לא מצליח לדבר.\"",
+   "sub": "נשמע מוכר? ככה מתחילים כמעט כולם.",
+   "second": "I understand, but I can't speak."
+  },
+  {
+   "n": "02",
+   "name": "four_stages",
+   "type": "text",
+   "head": "4 שלבים בדרך לאנגלית מדוברת",
+   "rows": [
+    "מגרש חנייה",
+    "שכונה",
+    "עיר",
+    "כביש מהיר"
+   ],
+   "second": "Parking lot, neighborhood, city, highway.",
+   "dur": 6.5
+  },
+  {
+   "n": "03",
+   "name": "the_freeze",
+   "type": "still",
+   "src": "/home/claude/b8w/src/st_noam_board.jpg",
+   "focus": [
+    0.62,
+    0.45
+   ],
+   "kb": [
+    1.0,
+    1.07
+   ],
+   "head": "הפריז: לא מצליחים לסיים משפט, אז קופאים.",
+   "sub": "ככה זה מרגיש בהתחלה. יש דרך החוצה.",
+   "second": "The freeze: you can't finish, so you freeze."
+  },
+  {
+   "n": "04",
+   "name": "keep_going",
+   "type": "broll",
+   "dur": 6.0,
+   "clips": [
+    {
+     "src": "broll/cut/k08_teach.mp4"
+    },
+    {
+     "src": "broll/cut/k02_present.mp4"
+    },
+    {
+     "src": "broll/cut/k06_bluex.mp4"
+    }
+   ],
+   "head": "באקספרס מתאמנים להמשיך לדבר.",
+   "sub": "נתקעתם? סיימו את המשפט בעברית. כמו עקיפה בכביש חסום.",
+   "second": "Stuck? Finish in Hebrew. Like a detour."
+  },
+  {
+   "n": "05",
+   "name": "passive_to_active",
+   "type": "text",
+   "head": "ממילים פסיביות למילים אקטיביות.",
+   "sub": "מילים שאתם מבינים הופכות למילים שאתם אומרים.",
+   "second": "From passive words to active words."
+  },
+  {
+   "n": "06",
+   "name": "link-booking",
+   "type": "broll",
+   "dur": 6.0,
+   "y": 330,
+   "clips": [
+    {
+     "src": "broll/cut/k09_wide.mp4"
+    },
+    {
+     "src": "broll/cut/k10_end.mp4"
+    }
+   ],
+   "head": "רוצים להתחיל את המסע?",
+   "sub": "קבעו שיחת היכרות בלינק כאן למטה",
+   "second": "Book a call. Link below."
+  }
+ ]
+}

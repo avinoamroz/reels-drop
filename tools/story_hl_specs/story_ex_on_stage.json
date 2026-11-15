@@ -1,0 +1,80 @@
+{
+ "id": "story_ex_on_stage",
+ "account": "expressenglishcom",
+ "lang": "he",
+ "tag": "משקט לבמה",
+ "seed": 45,
+ "lift": 10,
+ "out_dir": "stories/story_ex_on_stage",
+ "preview": "previews/story_ex_on_stage_540.mp4",
+ "frames": [
+  {
+   "n": "01",
+   "name": "silent_to_stage",
+   "type": "text",
+   "head": "משקט מוחלט לבמה.",
+   "sub": "שלושה דוברי אנגלית שלנו, במילים שלהם.",
+   "sub_big": true,
+   "second": "From silent to on stage. In their own words."
+  },
+  {
+   "n": "02",
+   "name": "klil",
+   "type": "tm",
+   "src": "/home/claude/b8w/src/vt_klil.mp4",
+   "ss": 0.0,
+   "t": 6.5,
+   "dur": 7.2,
+   "who": "קליל, Intel",
+   "head": "\"לפני שלושה חודשים לא היה לי ביטחון לדבר או להעביר הרצאה.\"",
+   "quote": "I didn't have the confidence to speak or to do any lecture.",
+   "label": "expressenglish.co.il/stories",
+   "second": "היום: הרצאות של 30 עד 40 דקות מול אנשים."
+  },
+  {
+   "n": "03",
+   "name": "ohad",
+   "type": "tm",
+   "src": "/home/claude/b8w/src/vt_ohad.mp4",
+   "ss": 3.35,
+   "t": 6.3,
+   "dur": 7.0,
+   "who": "אוהד, עורך דין",
+   "head": "\"היום אני מרגיש שאני יכול לדבר שעות, ואני נהנה מזה.\"",
+   "quote": "I feel that I can speak for hours and I like it.",
+   "label": "expressenglish.co.il/stories"
+  },
+  {
+   "n": "04",
+   "name": "shlomi",
+   "type": "tm",
+   "src": "/home/claude/b8w/src/vt_shlomi.mp4",
+   "ss": 8.95,
+   "t": 4.65,
+   "dur": 6.0,
+   "who": "שלומי, MediaTek",
+   "head": "\"לא הצלחתי להגיד אפילו משפט אחד באנגלית.\"",
+   "quote": "I couldn't speak even one sentence in English.",
+   "second": "6 חודשים אחר כך: הרצאה באנגלית.",
+   "label": "expressenglish.co.il/stories"
+  },
+  {
+   "n": "05",
+   "name": "link-booking",
+   "type": "still",
+   "src": "/home/claude/b8w/src/noam_expressx_stage.jpg",
+   "focus": [
+    0.6,
+    0.45
+   ],
+   "kb": [
+    1.0,
+    1.06
+   ],
+   "y": 330,
+   "head": "הבא על הבמה? אולי אתם.",
+   "sub": "קבעו שיחת היכרות בלינק כאן למטה",
+   "second": "Next on stage? Book a call."
+  }
+ ]
+}

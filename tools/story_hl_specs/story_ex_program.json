@@ -1,0 +1,109 @@
+{
+ "id": "story_ex_program",
+ "account": "expressenglishcom",
+ "lang": "he",
+ "tag": "מה קורה בתוכנית",
+ "seed": 33,
+ "lift": 18,
+ "out_dir": "stories/story_ex_program",
+ "preview": "previews/story_ex_program_540.mp4",
+ "frames": [
+  {
+   "n": "01",
+   "name": "personal_coach",
+   "type": "broll",
+   "dur": 6.0,
+   "clips": [
+    {
+     "src": "broll/cut/k03_group8.mp4"
+    },
+    {
+     "src": "broll/cut/k03b_group8.mp4"
+    }
+   ],
+   "head": "שלב 1: מאמן אישי.",
+   "sub": "תוכנית שבנויה סביב העבודה והחיים שלכם.",
+   "second": "Step one: a personal coach."
+  },
+  {
+   "n": "02",
+   "name": "seven_minutes",
+   "type": "text",
+   "big": "7 דקות",
+   "head": "כל יום מדברים לעצמכם באנגלית בוואטסאפ.",
+   "sub": "ולא עוצרים את השעון.",
+   "second": "7 minutes a day. Never stop the clock."
+  },
+  {
+   "n": "03",
+   "name": "hebrew_share",
+   "type": "text",
+   "head": "נתקעתם על מילה? אמרו אותה בעברית, ותמשיכו.",
+   "bar": {
+    "from": 60,
+    "to": 90,
+    "left": "אנגלית",
+    "right": "עברית",
+    "rtl": true
+   },
+   "sub": "ככה האנגלית תופסת יותר מקום, שבוע אחרי שבוע.",
+   "second": "English share: from 60/40 to 90/10.",
+   "dur": 6.5
+  },
+  {
+   "n": "04",
+   "name": "buddies_community",
+   "type": "broll",
+   "dur": 6.0,
+   "clips": [
+    {
+     "src": "broll/cut/k04_room.mp4"
+    },
+    {
+     "src": "broll/cut/k07b_crowd.mp4"
+    }
+   ],
+   "head": "משבוע 6: שיחות English Buddies ומפגשי קהילה אונליין.",
+   "sub": "על הפגישות האמיתיות שלכם בעבודה.",
+   "second": "From week 6: Buddies calls and community sessions."
+  },
+  {
+   "n": "05",
+   "name": "live_in_english",
+   "type": "still",
+   "src": "/home/claude/b8w/src/st_noam_cover.jpg",
+   "focus": [
+    0.5,
+    0.38
+   ],
+   "kb": [
+    1.28,
+    1.34
+   ],
+   "head": "לא עוזבים את השגרה בשביל קורס.",
+   "sub": "מתחילים לחיות אותה באנגלית.",
+   "sub_big": true,
+   "second": "Don't leave your routine. Live it in English."
+  },
+  {
+   "n": "06",
+   "name": "stage_message_us",
+   "type": "broll",
+   "dur": 6.0,
+   "clips": [
+    {
+     "src": "broll/cut/k05_stage.mp4"
+    },
+    {
+     "src": "broll/cut/k06_bluex.mp4"
+    },
+    {
+     "src": "broll/cut/k07b_crowd.mp4"
+    }
+   ],
+   "head": "ובסוף: הבמה של ExpressX.",
+   "sub": "רוצים לשמוע איך זה עובד אצלכם? שלחו לנו הודעה.",
+   "second": "Then the ExpressX stage. Send us a message."
+  }
+ ]
+}

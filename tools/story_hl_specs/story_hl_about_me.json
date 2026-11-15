@@ -1,0 +1,149 @@
+{
+ "id": "story_hl_about_me",
+ "account": "noamroz__",
+ "lang": "en",
+ "tag": "ABOUT ME",
+ "seed": 7,
+ "voice_id": "story_hl_vo",
+ "out_dir": "stories/story_hl_about_me",
+ "preview": "previews/story_hl_about_me_540.mp4",
+ "frames": [
+  {
+   "n": "01",
+   "name": "hi_noam",
+   "type": "still",
+   "src": "/home/claude/b8w/src/noam_portrait_navy.jpg",
+   "focus": [
+    0.5,
+    0.38
+   ],
+   "kb": [
+    1.0,
+    1.07
+   ],
+   "head": "Hi, I'm *Noam Roz.*",
+   "sub": "38. Tel Aviv. Born in Israel.",
+   "second": "היי, אני נועם רז. בן 38, גר בתל אביב, נולדתי בישראל."
+  },
+  {
+   "n": "02",
+   "name": "two_worlds",
+   "type": "text",
+   "head": "Dad from *Shiraz, Iran.* Mom from *America.*",
+   "sub": "The conflict lives in me.",
+   "second": "אבא משיראז שבאיראן, אמא מאמריקה. הקונפליקט חי בתוכי."
+  },
+  {
+   "n": "03",
+   "name": "pooch",
+   "type": "tm",
+   "src": "/home/claude/b8w/src/pooch_tower.mp4",
+   "ss": 6.4,
+   "t": 6.0,
+   "mute": true,
+   "dur": 6.2,
+   "who": "Meet *Pooch.*",
+   "head": "Officially my cat. Actually my boss.",
+   "second": "תכירו את פוץ'. רשמית החתול שלי. בפועל, הבוס."
+  },
+  {
+   "n": "04",
+   "name": "age_16",
+   "type": "text",
+   "big": "16",
+   "head": "I couldn't speak English. So I talked to *myself.*",
+   "second": "בגיל 16 לא דיברתי אנגלית. אז התחלתי לדבר עם עצמי, בקול."
+  },
+  {
+   "n": "05",
+   "name": "mamram",
+   "type": "text",
+   "big": "7 years",
+   "head": "in Mamram. I learned *Russian* on night shifts.",
+   "second": "7 שנים בממר\"ם, יחידת המחשבים של צה\"ל. למדתי רוסית במשמרות לילה."
+  },
+  {
+   "n": "06",
+   "name": "israel_trail",
+   "type": "tm",
+   "src": "/home/claude/b8w/src/trail3.mp4",
+   "ss": 0,
+   "t": 4.9,
+   "speed": 0.85,
+   "mute": true,
+   "vo": 0,
+   "dur": 6.4,
+   "who": "2013: the *Israel Trail.*",
+   "head": "42 km on my 25th birthday.",
+   "second": "2013: שביל ישראל. 42 ק\"מ ביום ההולדת ה-25 שלי.",
+   "label": "My own footage, Israel Trail, 2013"
+  },
+  {
+   "n": "07",
+   "name": "america_road",
+   "type": "tm",
+   "src": "tiktok/hl8_ggb_drive_2013.ogv",
+   "ss": 0,
+   "t": 6.0,
+   "mute": true,
+   "vo": 1,
+   "dur": 6.0,
+   "who": "2013: *America,* by road.",
+   "head": "A road trip across the US.",
+   "second": "2013: טיול כביש לרוחב ארצות הברית.",
+   "label": "Footage: Tuxyso, Wikimedia Commons, CC BY-SA 3.0"
+  },
+  {
+   "n": "08",
+   "name": "tony_firewalk",
+   "type": "broll",
+   "dur": 7.0,
+   "second": "קלן, 2025: טוני רובינס העלה אותי לבמה. ואז הלכתי על גחלים.",
+   "clip_audio": true,
+   "clips": [
+    {
+     "src": "/home/claude/b8w/src/upw_0906_0004.mp4",
+     "ss": 25.0,
+     "t": 7.0,
+     "x": 0.5
+    }
+   ],
+   "sub": "Then I walked on *fire.*",
+   "head": "Tony Robbins called me on stage.",
+   "big": "2025"
+  },
+  {
+   "n": "09",
+   "name": "happy_place",
+   "type": "still",
+   "src": "/home/claude/b8w/src/noam_sea.jpg",
+   "framed": true,
+   "frame_y": 230,
+   "kb": [
+    1.0,
+    1.05
+   ],
+   "head": "Books, the brain, Friday dinners at home.",
+   "sub": "My happy place.",
+   "second": "ספרים, המוח, וארוחות שישי בבית. המקום השמח שלי."
+  },
+  {
+   "n": "10",
+   "name": "say_hi_dm",
+   "type": "still",
+   "src": "/home/claude/b8w/src/noam_beach.jpg",
+   "focus": [
+    0.56,
+    0.5
+   ],
+   "kb": [
+    1.0,
+    1.06
+   ],
+   "head": "Now you know me.",
+   "sub": "Say hi in DM. *Where are you from?*",
+   "sub_big": true,
+   "second": "עכשיו אתם מכירים אותי. שלחו לי הודעה, מאיפה אתם?"
+  }
+ ]
+}
