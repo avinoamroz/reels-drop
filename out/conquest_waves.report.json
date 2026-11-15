@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*11* empires invaded.|Who *stayed?*",
- "duration": 69.7,
+ "duration": 57.67,
  "audio": {
-  "lufs": -16.4,
-  "true_peak": -1.9
+  "lufs": -16.6,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/conquest_waves.mp4",
@@ -84,31 +84,31 @@
   }
  ],
  "transcript": {
-  "score": 0.979,
+  "score": 0.974,
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "Eleven empires invaded this small land. Watch who stayed.",
-    "score": 0.778,
-    "flag": "MISS"
-   },
-   {
-    "line": "722 BCE. Assyria conquers the northern kingdom and deports its people.",
+    "line": "Eleven empires invaded this small land. Guess who stayed.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "586 BCE. Babylon destroys Jerusalem and its Temple, and exiles Judah.",
+    "line": "722 BCE. Assyria takes the north and deports its people.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "539 BCE. Persia lets the exiles go home and rebuild.",
+    "line": "586. Babylon burns the Temple and exiles Judah.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "332, Alexander. 63 BCE, Rome.",
+    "line": "539. Persia lets them rebuild.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Alexander. Then Rome.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -123,27 +123,27 @@
     "flag": "ok"
    },
    {
-    "line": "Byzantium. The caliphate in 636. Crusaders in 1099. Mamluks in 1260.",
-    "score": 0.958,
+    "line": "Byzantium. The caliphate. Crusaders. Mamluks.",
+    "score": 0.8,
     "flag": "ok"
    },
    {
-    "line": "In 1488, a visiting rabbi counts seventy Jewish families in Jerusalem.",
+    "line": "In 1488, a rabbi counts seventy Jewish families in Jerusalem.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "1516, the Ottomans. Their own tax records count about seven thousand Jews.",
+    "line": "The Ottomans. Their tax records count about seven thousand Jews.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "By the 1880s, fifteen to twenty four thousand.",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
-    "line": "1917, Britain. Its own census: about 84,000 Jews in 1922. 175,000 in 1931.",
+    "line": "Britain. Its census: 84,000 Jews in 1922. 175,000 in 1931.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -169,8 +169,8 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
-    "flag": "ok"
+    "score": 0.7,
+    "flag": "MISS"
    },
    {
     "line": "So count them again. Eleven empires.",
@@ -178,17 +178,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "11 empires invaded this small land, Wachu stayed. 722 BCE. Assyria conquers the northern kingdom and deports its people. 586 BCE. Babylon destroys Jerusalem and its temple, and exiles Judah. 539 BCE. Persia lets the exiles go home and rebuild. 332 Alexander. 63 BCE. Rome. In 70 CE, Rome burns the second temple. In 135, it crushes the last revolt and renames the land. The Caliphate in 636, Crusaders in 1099, Mamluks in 1260, in 1488, a visiting rabbi counts 70 Jewish families in Jerusalem, 1516, the Ottomans. Their own tax records count about 7,000 Jews. By the 1880s, 15,000 to 24,000, 1917, Britain. Its own census, about 84,000 Jews in 1922, 175,000 in 1931, 1948, Independence, today about 7.3 million. Many peoples lived here too, and their history is real. Every empire left. The Jewish people never did. If you love Israeli facts, follow Noah Mraz for more. So count them again. 11 empires.",
+  "heard": "11 empires invaded this small land. Guess who stayed? 722 BCE. Assyria takes the north and deports its people. 586. Babylon burns the temple and exiles Judah. 539. Persia lets them rebuild. Then Alexander. Then Rome. In 70 CE Rome burns the second temple. In 135 it crushes the last revolt and renames the land. Byzantium. The Caliphate. Crusaders. In 1488, a rabbi counts 70 Jewish families in Jerusalem, the Ottomans. Their tax records count about 7,000 Jews. By the 1880s, 15-24,000. Britain. Its census, 84,000 Jews in 1922, 175,000 in 1931, 1948, independence. Today about 7.3 million. Many peoples lived here too, and their history is real. Every empire left. The Jewish people never did. If you love Israeli facts, follow the Amraz from more. So count them again, 11 empires.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 69.69,
+ "body_s": 57.67,
  "opener": null,
  "mix": {
-  "lufs": -16.4,
-  "true_peak": -1.9
+  "lufs": -16.6,
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 85.3
+ "render_s": 122.9
 }
