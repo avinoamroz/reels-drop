@@ -1,0 +1,200 @@
+{
+ "id": "tlv_hidden_engineering",
+ "account": "noamroz__",
+ "template": "city_flyover",
+ "hook": "Tel Aviv's *3* hidden|engineering tricks",
+ "duration": 52.23,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/tlv_hidden_engineering.mp4",
+  "cover": "covers/tlv_hidden_engineering_cover.jpg",
+  "preview": "previews/tlv_hidden_engineering_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/tlv_hidden_engineering_0.jpg",
+  "1": "out/frames/tlv_hidden_engineering_1.jpg",
+  "3": "out/frames/tlv_hidden_engineering_3.jpg",
+  "last": "out/frames/tlv_hidden_engineering_last.jpg"
+ },
+ "caption_en": "Most drivers on this highway never notice what's running right beside them.\n\nThree pieces of hidden engineering in Tel Aviv:\n1. Yarkon Park is about the size of New York's Central Park (3.5 km² vs 3.4 km²). Until the 1930s the Yarkon River powered the Seven Mills, Ottoman era flour mills.\n2. The Ayalon highway was built along the Ayalon stream. The stream still runs in a concrete channel squeezed between the lanes and the railway. In big storms it overflows: on 8 Jan 2013 the highway closed in both directions from Glilot to HaShalom, and on 7 Dec 2018 it closed for about 5 hours. New drainage works are under way.\n3. In 1925 Patrick Geddes planned the city's boulevards and blocks built around gardens, with east west streets that bring in the sea breeze. In 2003 UNESCO made the White City a World Heritage Site (about 4,000 Bauhaus style buildings).\n\nWhich city should I fly over next? Comment HOME for the sources.\n\nSources: Wikipedia (Yarkon Park; Geddes Plan; Highway 20), Ganei Yehoshua park company (Seven Mills), Globes 8 Jan 2013, Ynetnews 7 Dec 2018, ynet 27 Jul 2026, Calcalist 14 Aug 2025, Tel Aviv-Yafo Municipality (White City), UNESCO 2003.\nMap: OpenStreetMap contributors (ODbL), heights exaggerated. Photos (Wikimedia Commons): Seven Mills 1921, Frank Scholten, public domain; Ayalon, Ilya Platonov, public domain; Patrick Geddes 1932, Bassano Ltd, public domain; Rothschild Blvd, Artem.G, CC BY-SA 4.0; Yarkon Park aerial, Ynhockey, CC BY-SA 4.0.",
+ "caption_he": "רוב הנהגים באיילון לא שמים לב למה שזורם ממש לידם.\n\nשלושה פלאי הנדסה נסתרים בתל אביב:\n1. פארק הירקון גדול בערך כמו סנטרל פארק בניו יורק. עד שנות ה-30 הירקון הניע את שבע הטחנות, טחנות קמח מהתקופה העות'מאנית.\n2. נתיבי איילון נבנו לאורך נחל איילון, והנחל עדיין זורם בתעלת בטון בין הכביש למסילה. בסערות גדולות הוא עולה על גדותיו: ב-8 בינואר 2013 האיילון נסגר בשני הכיוונים מגלילות עד השלום, וב-7 בדצמבר 2018 נסגר לכחמש שעות. עבודות ניקוז חדשות בדרך.\n3. ב-1925 פטריק גדס תכנן את השדרות ואת הבלוקים סביב גינות, עם רחובות ממזרח למערב שמכניסים את בריזת הים. ב-2003 אונסק\"ו הכריזה על העיר הלבנה כאתר מורשת עולמית.\n\nאיזו עיר לטוס מעליה בפעם הבאה? כתבו HOME בתגובות ואשלח את המקורות.",
+ "hashtags": [
+  "#TelAviv",
+  "#UrbanPlanning",
+  "#IsraelFacts"
+ ],
+ "sources": [
+  {
+   "label": "Yarkon Park 3.5 km², Central Park 3.4 km²: Wikipedia",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Seven Mills: Ganei Yehoshua park company",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Channel between highway and rail: ynet",
+   "year": 2026,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "Globes, 8 Jan",
+   "year": 2013,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Ynetnews, 7 Dec",
+   "year": 2018,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Geddes Plan for Tel Aviv",
+   "year": 1925,
+   "at": "L11",
+   "until": "L13"
+  },
+  {
+   "label": "UNESCO; Tel Aviv-Yafo Municipality",
+   "year": 2003,
+   "at": "L13",
+   "until": "L14"
+  },
+  {
+   "label": "Flood risk and drainage works: ynet; Calcalist",
+   "year": 2026,
+   "at": "L14",
+   "until": "L14e"
+  }
+ ],
+ "transcript": {
+  "score": 0.941,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "This is Tel Aviv. Three pieces of hidden engineering keep it running.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One. This long green strip is Yarkon Park.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It's about as big as New York's Central Park.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Until the 1930s, this river powered seven flour mills.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Two. The Ayalon, the city's main highway.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "It was built along a stream, and the stream is still there.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It runs in a concrete channel, squeezed between the lanes and the railway.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In a big winter storm, it fills up fast.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In January 2013, it overflowed, and the highway closed from Glilot to HaShalom.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "It closed again in December 2018.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three. The streets themselves.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1925, a Scottish planner, Patrick Geddes, drew shady boulevards and blocks built around gardens.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "East west streets carry the sea breeze into the city.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2003, UNESCO made the White City a World Heritage Site.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+    "score": 0.615,
+    "flag": "MISS"
+   },
+   {
+    "line": "So next time you're stuck on the Ayalon, look beside you. That's a river.",
+    "score": 0.929,
+    "flag": "ok"
+   }
+  ],
+  "heard": "This is Tel Aviv. Three pieces of hidden engineering keep it running. One. This long green strip is Yarkon Park. It's about as big as New York's Central Park. Until the 1930s, this river powered seven flower mills. Two. The Iolon, the city's main highway. It was built along a stream, and the stream is still there. It runs in a concrete channel squeezed between the lanes and the railway. In a big winter storm, it fills up fast. In January 2013, it overflowed, and the highway closed from Gleilat to Hashelam. closed again in December 2018. Three, the streets themselves. In 1925, a Scottish planner, Patrick Eddys, drew shady boulevards and blocks built around gardens. East-west streets carry the sea breeze into the city. In 2003, UNESCO made the White City a World Heritage Site. If you like Israel facts, follow Noam Roz for more. So next time you're stuck on the island, look beside you, that's a river.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "city": "tlv",
+ "osm_made": "2026-11-15 01:53 UTC",
+ "buildings": 41155,
+ "photos": [
+  {
+   "file": "templates/photos/tlv_hidden_engineering/the_mills1921.jpg",
+   "credit": "Seven Mills, 1921, Frank Scholten, public domain"
+  },
+  {
+   "file": "templates/photos/tlv_hidden_engineering/the_ayalon.jpg",
+   "credit": "Ilya Platonov, public domain"
+  },
+  {
+   "file": "templates/photos/tlv_hidden_engineering/the_geddes.jpg",
+   "credit": "Patrick Geddes, 1932, Bassano Ltd, public domain"
+  },
+  {
+   "file": "templates/photos/tlv_hidden_engineering/the_bauhaus.jpg",
+   "credit": "Rothschild Blvd, Artem.G, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/tlv_hidden_engineering/the_yaerial.jpg",
+   "credit": "Yarkon Park, Ynhockey, CC BY-SA 4.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 647.1
+}
