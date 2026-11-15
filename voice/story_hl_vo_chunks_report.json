@@ -1,0 +1,95 @@
+{
+ "id": "story_hl_vo",
+ "voice_id": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+ "hash": "ef84eb8cfb7d",
+ "median_pitch_hz": 148.13,
+ "median_rate_wps": 3.117,
+ "chunks": [
+  {
+   "chunk": 0,
+   "lines": [
+    0,
+    1
+   ],
+   "takes": 4,
+   "pitch_hz": 149.4,
+   "pitch_dev_pct": 0.86,
+   "rate_wps": 3.147,
+   "rate_dev_pct": 0.99,
+   "rate_after_wps": 3.147,
+   "fixes": [
+    "pitch x1.0264"
+   ],
+   "dur_s": 5.62
+  },
+  {
+   "chunk": 1,
+   "lines": [
+    1,
+    2
+   ],
+   "takes": 4,
+   "pitch_hz": 147.68,
+   "pitch_dev_pct": -0.3,
+   "rate_wps": 3.319,
+   "rate_dev_pct": 6.51,
+   "rate_after_wps": 3.125,
+   "fixes": [
+    "pitch x1.0688",
+    "atempo 0.9389"
+   ],
+   "dur_s": 4.98
+  },
+  {
+   "chunk": 2,
+   "lines": [
+    2,
+    3
+   ],
+   "takes": 2,
+   "pitch_hz": 149.4,
+   "pitch_dev_pct": 0.86,
+   "rate_wps": 2.887,
+   "rate_dev_pct": -7.38,
+   "rate_after_wps": 3.106,
+   "fixes": [
+    "atempo 1.0796"
+   ],
+   "dur_s": 4.27
+  },
+  {
+   "chunk": 3,
+   "lines": [
+    3,
+    4
+   ],
+   "takes": 3,
+   "pitch_hz": 149.4,
+   "pitch_dev_pct": 0.86,
+   "rate_wps": 3.117,
+   "rate_dev_pct": 0.0,
+   "rate_after_wps": 3.117,
+   "fixes": [
+    "pitch x1.0384"
+   ],
+   "dur_s": 5.39
+  },
+  {
+   "chunk": 4,
+   "lines": [
+    4,
+    5
+   ],
+   "takes": 2,
+   "pitch_hz": 148.13,
+   "pitch_dev_pct": 0.0,
+   "rate_wps": 2.977,
+   "rate_dev_pct": -4.48,
+   "rate_after_wps": 2.977,
+   "fixes": [],
+   "dur_s": 3.39
+  }
+ ],
+ "max_pitch_dev_pct": 0.86,
+ "total_s": 26.1
+}

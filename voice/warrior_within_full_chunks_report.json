@@ -2,9 +2,8 @@
  "id": "warrior_within_full",
  "voice_id": "00a77add-48d5-4ef6-8157-71e5437b282d",
  "hash": "8ee62d5a5eb4",
- "mode": "reassembled from raw takes",
- "median_pitch_hz": 201.16,
- "target_rate_wps": 2.95,
+ "median_pitch_hz": 193.75,
+ "median_rate_wps": 3.26,
  "chunks": [
   {
    "chunk": 0,
@@ -12,14 +11,17 @@
     0,
     9
    ],
-   "raw_pitch_hz": 194.87,
-   "raw_rate_wps": 3.321,
-   "tempo": 0.8884,
-   "pitch_shift": 1.0323,
-   "pitch_hz": 201.74,
-   "rate_wps": 2.97,
-   "dur_s": 34.93,
-   "pitch_dev_pct": 0.0
+   "takes": 2,
+   "pitch_hz": 192.63,
+   "pitch_dev_pct": -0.58,
+   "rate_wps": 3.096,
+   "rate_dev_pct": -5.04,
+   "rate_after_wps": 3.248,
+   "fixes": [
+    "pitch x0.9772",
+    "atempo 1.0531"
+   ],
+   "dur_s": 30.81
   },
   {
    "chunk": 1,
@@ -27,14 +29,14 @@
     9,
     16
    ],
-   "raw_pitch_hz": 201.74,
-   "raw_rate_wps": 2.995,
-   "tempo": 0.9849,
-   "pitch_shift": 0.9971,
-   "pitch_hz": 201.74,
-   "rate_wps": 2.954,
-   "dur_s": 28.83,
-   "pitch_dev_pct": 0.0
+   "takes": 3,
+   "pitch_hz": 194.87,
+   "pitch_dev_pct": 0.58,
+   "rate_wps": 3.265,
+   "rate_dev_pct": 0.14,
+   "rate_after_wps": 3.265,
+   "fixes": [],
+   "dur_s": 26.1
   },
   {
    "chunk": 2,
@@ -42,14 +44,14 @@
     16,
     24
    ],
-   "raw_pitch_hz": 197.13,
-   "raw_rate_wps": 3.083,
-   "tempo": 0.9568,
-   "pitch_shift": 1.0204,
-   "pitch_hz": 201.16,
-   "rate_wps": 2.961,
-   "dur_s": 40.88,
-   "pitch_dev_pct": -0.29
+   "takes": 1,
+   "pitch_hz": 196.0,
+   "pitch_dev_pct": 1.16,
+   "rate_wps": 3.105,
+   "rate_dev_pct": -4.75,
+   "rate_after_wps": 3.105,
+   "fixes": [],
+   "dur_s": 37.01
   },
   {
    "chunk": 3,
@@ -57,14 +59,16 @@
     24,
     28
    ],
-   "raw_pitch_hz": 204.09,
-   "raw_rate_wps": 3.546,
-   "tempo": 0.832,
-   "pitch_shift": 0.9857,
-   "pitch_hz": 200.58,
-   "rate_wps": 2.984,
-   "dur_s": 21.34,
-   "pitch_dev_pct": -0.57
+   "takes": 4,
+   "pitch_hz": 193.75,
+   "pitch_dev_pct": 0.0,
+   "rate_wps": 3.275,
+   "rate_dev_pct": 0.47,
+   "rate_after_wps": 3.275,
+   "fixes": [
+    "pitch x0.9548"
+   ],
+   "dur_s": 17.8
   },
   {
    "chunk": 4,
@@ -72,14 +76,17 @@
     28,
     34
    ],
-   "raw_pitch_hz": 207.65,
-   "raw_rate_wps": 2.622,
-   "tempo": 1.1249,
-   "pitch_shift": 0.9494,
-   "pitch_hz": 200.58,
-   "rate_wps": 2.927,
-   "dur_s": 32.21,
-   "pitch_dev_pct": -0.57
+   "takes": 4,
+   "pitch_hz": 194.87,
+   "pitch_dev_pct": 0.58,
+   "rate_wps": 2.814,
+   "rate_dev_pct": -13.68,
+   "rate_after_wps": 3.233,
+   "fixes": [
+    "pitch x0.9772",
+    "atempo 1.1585"
+   ],
+   "dur_s": 27.97
   },
   {
    "chunk": 5,
@@ -87,14 +94,14 @@
     34,
     38
    ],
-   "raw_pitch_hz": 201.74,
-   "raw_rate_wps": 3.503,
-   "tempo": 0.8421,
-   "pitch_shift": 0.9971,
-   "pitch_hz": 201.74,
-   "rate_wps": 2.97,
-   "dur_s": 30.02,
-   "pitch_dev_pct": 0.0
+   "takes": 3,
+   "pitch_hz": 191.52,
+   "pitch_dev_pct": -1.15,
+   "rate_wps": 3.404,
+   "rate_dev_pct": 4.4,
+   "rate_after_wps": 3.404,
+   "fixes": [],
+   "dur_s": 27.91
   },
   {
    "chunk": 6,
@@ -102,14 +109,16 @@
     38,
     47
    ],
-   "raw_pitch_hz": 200.58,
-   "raw_rate_wps": 2.946,
-   "tempo": 1.0013,
-   "pitch_shift": 1.0029,
-   "pitch_hz": 200.58,
-   "rate_wps": 2.95,
-   "dur_s": 41.8,
-   "pitch_dev_pct": -0.57
+   "takes": 1,
+   "pitch_hz": 192.63,
+   "pitch_dev_pct": -0.58,
+   "rate_wps": 3.023,
+   "rate_dev_pct": -7.27,
+   "rate_after_wps": 3.236,
+   "fixes": [
+    "atempo 1.0784"
+   ],
+   "dur_s": 35.8
   },
   {
    "chunk": 7,
@@ -117,14 +126,16 @@
     47,
     51
    ],
-   "raw_pitch_hz": 202.91,
-   "raw_rate_wps": 2.953,
-   "tempo": 0.9991,
-   "pitch_shift": 0.9914,
-   "pitch_hz": 201.74,
-   "rate_wps": 2.95,
-   "dur_s": 22.84,
-   "pitch_dev_pct": 0.0
+   "takes": 4,
+   "pitch_hz": 193.19,
+   "pitch_dev_pct": -0.29,
+   "rate_wps": 2.666,
+   "rate_dev_pct": -18.22,
+   "rate_after_wps": 3.211,
+   "fixes": [
+    "atempo 1.2228"
+   ],
+   "dur_s": 21.27
   },
   {
    "chunk": 8,
@@ -132,14 +143,16 @@
     51,
     58
    ],
-   "raw_pitch_hz": 200.58,
-   "raw_rate_wps": 3.555,
-   "tempo": 0.8297,
-   "pitch_shift": 1.0029,
-   "pitch_hz": 201.74,
-   "rate_wps": 2.982,
-   "dur_s": 39.19,
-   "pitch_dev_pct": 0.0
+   "takes": 3,
+   "pitch_hz": 191.52,
+   "pitch_dev_pct": -1.15,
+   "rate_wps": 3.455,
+   "rate_dev_pct": 5.97,
+   "rate_after_wps": 3.27,
+   "fixes": [
+    "atempo 0.9437"
+   ],
+   "dur_s": 34.53
   },
   {
    "chunk": 9,
@@ -147,14 +160,16 @@
     58,
     62
    ],
-   "raw_pitch_hz": 198.28,
-   "raw_rate_wps": 3.531,
-   "tempo": 0.8355,
-   "pitch_shift": 1.0145,
-   "pitch_hz": 201.74,
-   "rate_wps": 2.976,
-   "dur_s": 20.08,
-   "pitch_dev_pct": 0.0
+   "takes": 4,
+   "pitch_hz": 192.63,
+   "pitch_dev_pct": -0.58,
+   "rate_wps": 3.605,
+   "rate_dev_pct": 10.59,
+   "rate_after_wps": 3.277,
+   "fixes": [
+    "atempo 0.9043"
+   ],
+   "dur_s": 17.54
   },
   {
    "chunk": 10,
@@ -162,14 +177,16 @@
     62,
     67
    ],
-   "raw_pitch_hz": 202.91,
-   "raw_rate_wps": 3.282,
-   "tempo": 0.8989,
-   "pitch_shift": 0.9914,
-   "pitch_hz": 201.74,
-   "rate_wps": 2.978,
-   "dur_s": 29.56,
-   "pitch_dev_pct": 0.0
+   "takes": 3,
+   "pitch_hz": 193.75,
+   "pitch_dev_pct": 0.0,
+   "rate_wps": 3.26,
+   "rate_dev_pct": 0.0,
+   "rate_after_wps": 3.26,
+   "fixes": [
+    "pitch x1.0175"
+   ],
+   "dur_s": 26.94
   },
   {
    "chunk": 11,
@@ -177,14 +194,14 @@
     67,
     72
    ],
-   "raw_pitch_hz": 201.16,
-   "raw_rate_wps": 3.292,
-   "tempo": 0.8962,
-   "pitch_shift": 1.0,
-   "pitch_hz": 202.91,
-   "rate_wps": 2.968,
-   "dur_s": 25.56,
-   "pitch_dev_pct": 0.58
+   "takes": 3,
+   "pitch_hz": 191.52,
+   "pitch_dev_pct": -1.15,
+   "rate_wps": 3.114,
+   "rate_dev_pct": -4.48,
+   "rate_after_wps": 3.114,
+   "fixes": [],
+   "dur_s": 24.15
   },
   {
    "chunk": 12,
@@ -192,17 +209,18 @@
     72,
     81
    ],
-   "raw_pitch_hz": 199.42,
-   "raw_rate_wps": 3.43,
-   "tempo": 0.8599,
-   "pitch_shift": 1.0087,
-   "pitch_hz": 199.42,
-   "rate_wps": 2.98,
-   "dur_s": 40.73,
-   "pitch_dev_pct": -1.15
+   "takes": 3,
+   "pitch_hz": 190.42,
+   "pitch_dev_pct": -1.72,
+   "rate_wps": 3.474,
+   "rate_dev_pct": 6.56,
+   "rate_after_wps": 3.275,
+   "fixes": [
+    "atempo 0.9384"
+   ],
+   "dur_s": 35.92
   }
  ],
- "median_after_hz": 201.74,
- "max_pitch_dev_pct": 1.15,
- "total_s": 414.5
+ "max_pitch_dev_pct": 1.72,
+ "total_s": 370.2
 }
