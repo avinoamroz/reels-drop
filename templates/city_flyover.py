@@ -319,6 +319,11 @@ def run(S):
     ev += [(f["t0"], "ding", -28) for f in BG_] + [(s_["t0"], "thud", -22) for s_ in ST] + [(p["t0"], "whoosh", -34) for p in PH if p["t0"] > 0.5]
     aud = build_mix(S, T, work, ev)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
-    encode(frame, T.END, f"{work}/mix.m4a", final, loop=True)
+    crf = int(D.get("crf", 26)); encode(frame, T.END, f"{work}/mix.m4a", final, loop=True, crf=crf)
+    while os.path.getsize(final) > 90e6 and crf < 40:      # GitHub rejects files over 100 MB; the city texture is detailed
+        crf += 3; tmp = final + ".re.mp4"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", final, "-c:v", "libx264", "-preset", "medium", "-crf", str(crf), "-pix_fmt", "yuv420p",
+                        "-c:a", "copy", "-movflags", "+faststart", tmp], check=True); os.replace(tmp, final)
+        log("re-encoded at crf", crf, round(os.path.getsize(final) / 1e6, 1), "MB")
     return dict(voice=J["voice"], mix=aud, city=C.meta.get("name"), osm_made=C.meta.get("made"), buildings=C.meta.get("buildings"),
                 photos=[dict(file=p["file"], credit=p.get("credit")) for p in PH])
