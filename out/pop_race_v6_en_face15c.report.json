@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "face_hook",
  "hook": "*3,000* years.|Who lived here?",
- "duration": 50.9,
+ "duration": 51.0,
  "audio": {
-  "lufs": -15.9,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "outputs": {
@@ -38,17 +38,12 @@
     "flag": "ok"
    },
    {
-    "line": "",
-    "score": 0.0,
-    "flag": "MISS"
-   },
-   {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
     "score": 0.9,
     "flag": "ok"
    }
   ],
-  "heard": "3,000 years. Who actually lived here? If you love Israeli facts, follow Noem Roz for more.",
+  "heard": "3,000 years. Who actually lived here? If you love Israeli facts, follow Noam Ross for more.",
   "expected": "Noam's words, source transcript after the cut, follow line"
  },
  "status": "rendered, not posted",
@@ -121,11 +116,12 @@
   "body": -14.2
  },
  "levels_final": {
-  "face": -15.6,
-  "body": -15.9
+  "face": -15.3,
+  "body": -16.0
  },
+ "level_passes": 1,
  "mix": {
-  "lufs": -15.9,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "body_kept_s": 45.11,
@@ -142,5 +138,5 @@
   ]
  ],
  "lint_warnings": [],
- "render_s": 81.4
+ "render_s": 51.9
 }
