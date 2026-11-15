@@ -1,0 +1,157 @@
+{
+ "id": "who_killed_rivals",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*161* dead in 8 days.|Silence?",
+ "duration": 45.87,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/who_killed_rivals.mp4",
+  "cover": "covers/who_killed_rivals_cover.jpg",
+  "preview": "previews/who_killed_rivals_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/who_killed_rivals_0.jpg",
+  "1": "out/frames/who_killed_rivals_1.jpg",
+  "3": "out/frames/who_killed_rivals_3.jpg",
+  "last": "out/frames/who_killed_rivals_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Human Rights Watch, 12 June",
+   "year": 2007,
+   "at": "L2",
+   "until": "L3",
+   "y": 1520
+  },
+  {
+   "label": "Human Rights Watch, Internal Fight report",
+   "year": 2008,
+   "at": "L3",
+   "until": "L4",
+   "y": 1520
+  },
+  {
+   "label": "Human Rights Watch, 12 June",
+   "year": 2007,
+   "at": "L4",
+   "until": "L5",
+   "y": 1520
+  },
+  {
+   "label": "Human Rights Watch, Internal Fight report",
+   "year": 2008,
+   "at": "L5",
+   "until": "L6",
+   "y": 1520
+  },
+  {
+   "label": "PCHR, 7 to 14 June 2007, via HRW",
+   "year": 2008,
+   "at": "L9",
+   "until": "L10",
+   "y": 1520
+  },
+  {
+   "label": "HRW, 12 June 2007; B'Tselem, 17 June",
+   "year": 2007,
+   "at": "L11",
+   "until": "L12",
+   "y": 1520
+  }
+ ],
+ "transcript": {
+  "score": 0.904,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "161 dead in eight days. Where is the outrage?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A party wins an election. Then its gunmen hunt down the rival party.",
+    "score": 0.769,
+    "flag": "MISS"
+   },
+   {
+    "line": "They throw a rival from a fifteen story building, hands and legs tied.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They shoot captured men, again and again, in the legs.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They execute a rival leader in the street.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Within days, they control the whole territory.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "How could they? Where are the protests? Where is the U.N.?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Oh, wait. That wasn't Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That was <<h|ɑ|ˈ|m|ɑ|s>>, killing Fatah. Gaza, June 2007.",
+    "score": 0.692,
+    "flag": "MISS"
+   },
+   {
+    "line": "A Palestinian rights group counted 161 dead. 41 were civilians.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Strange. You don't remember the protests?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fatah forces committed abuses too. They threw a <<h|ɑ|ˈ|m|ɑ|s>> preacher from a high rise.",
+    "score": 0.688,
+    "flag": "MISS"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Now watch it again, knowing who.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "161 dead in 8 days. Where is the outrage? A party wins an election. Then it's gunmanhunt down the rival party. They throw a rival from a 15-story building, hands and legs tied. They shoot captured men, again and again, in the legs. They execute a rival leader in the street. Within days, they control the whole territory. How could they? Where are the protests? Where is the UN? Oh, wait. That wasn't Israel. That was Hamas killing Fata. Gaza, June 2007. A Palestinian rights group counted 161 dead. 41 were civilians. Strange. You don't remember the protests? The top forces committed abuses too. They threw a Hamas preacher from high-rise. If you love Israeli facts, follow Noah Mraz for more. Now watch it again, knowing who.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 45.88,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 65.8
+}
