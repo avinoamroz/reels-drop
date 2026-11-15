@@ -35,6 +35,8 @@ def main(S, rp):
     got = heard(m, os.path.join(REPO, "out", f"{S['id']}.mp4"))
     if S.get("template") == "rehook":
         D = S["data"]; exp_lines = [heard(m, os.path.join(REPO, D["source"]), float(D.get("cut", 3.0)) + 0.3)]
+    elif S.get("template") == "talk_cut":       # Noam's own words as subtitled (kept parts) + his follow line
+        exp_lines = [R.get("said", "")] + ([S["data"]["follow"].get("text", "If you love Israeli facts, follow Noam Roz for more.")] if S["data"].get("follow") else [])
     elif S.get("template") == "face_hook":     # Noam's own words + the source after the cut (+ his follow line)
         D = S["data"]; cut = float(R.get("cut", D.get("cut", 0.0)))
         exp_lines = [D["said"]] + ([heard(m, os.path.join(REPO, D["source"]), cut + 0.3)] if D.get("source_speech", True) else [])
