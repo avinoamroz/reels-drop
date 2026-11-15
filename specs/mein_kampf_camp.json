@@ -1,0 +1,239 @@
+{
+ "id": "mein_kampf_camp",
+ "account": "noamroz__",
+ "template": "camp_story",
+ "hook": "Hitler was bad at *English.*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16,
+  "bed_lufs": -28,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.04,
+  "gap": 0.4
+ },
+ "subs_replace": {
+  "<<ˈ|k|ɑ|m|p|f>>": "Kampf",
+  "<<p|ə|ˈ|t|ɑː|t|oʊ>>": "potahto"
+ },
+ "lines": [
+  {
+   "say": "As a kid, Adolf wasn't very social. He found it hard to connect.",
+   "gap": 0.4
+  },
+  {
+   "say": "When he went to a summer camp...",
+   "gap": 0.35
+  },
+  {
+   "say": "The kids said: \"Welcome to our camp!\"",
+   "gap": 0.3
+  },
+  {
+   "say": "He said: \"No. Mine camp.\"",
+   "gap": 0.45
+  },
+  {
+   "say": "They said: \"OK, you can join. You just have to share.\"",
+   "gap": 0.3
+  },
+  {
+   "say": "He said: \"Nein. My camp.\"",
+   "gap": 0.5
+  },
+  {
+   "say": "\"My camp, mine <<ˈ|k|ɑ|m|p|f>>. Potato, <<p|ə|ˈ|t|ɑː|t|oʊ>>, right?\"",
+   "gap": 0.5
+  },
+  {
+   "say": "He never got it. He had issues with possessives.",
+   "gap": 0.4
+  },
+  {
+   "say": "Also with possessions.",
+   "gap": 0.45
+  },
+  {
+   "say": "Honestly, he was a bit possessed.",
+   "gap": 0.5
+  },
+  {
+   "say": "Later we realised it wasn't only his English. He was really struggling.",
+   "gap": 0.4
+  },
+  {
+   "say": "Which is why he called his book... Mein <<ˈ|k|ɑ|m|p|f>>.",
+   "gap": 0.75
+  },
+  {
+   "say": "My Struggle.",
+   "gap": 0.6
+  },
+  {
+   "say": "The struggle was real... maybe because",
+   "gap": 0.0
+  }
+ ],
+ "data": {
+  "hook_y": 520,
+  "title_y": 520,
+  "tail": 0.3,
+  "stand": {
+   "at": "L2",
+   "until": "L13"
+  },
+  "shrug": {
+   "at": "L6",
+   "until": "L7"
+  },
+  "hoard": {
+   "at": "L8",
+   "until": "L9"
+  },
+  "possessed": {
+   "at": "L9",
+   "until": "L10"
+  },
+  "sweat": {
+   "at": "L10",
+   "until": "L11"
+  },
+  "bubbles": [
+   {
+    "at": "L2:welcome",
+    "until": "L3",
+    "who": "kids",
+    "text": "Welcome to *our* camp!"
+   },
+   {
+    "at": "L3:no",
+    "until": "L4",
+    "who": "hero",
+    "text": "No. *Mine* camp."
+   },
+   {
+    "at": "L4:ok",
+    "until": "L5",
+    "who": "kids",
+    "text": "OK, you can join.|You just have to *share.*"
+   },
+   {
+    "at": "L5:nein",
+    "until": "L6",
+    "who": "hero",
+    "text": "Nein. *MY* camp."
+   },
+   {
+    "at": "L6",
+    "until": "L7",
+    "who": "hero",
+    "text": "My camp, *mine Kampf.*|Potato, potahto, right?"
+   }
+  ],
+  "titles": [
+   {
+    "at": "L1",
+    "until": "L2",
+    "text": "*Summer camp*"
+   },
+   {
+    "at": "L7:issues",
+    "until": "L8",
+    "text": "Issues with *possessives*"
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "text": "Also with *possessions*"
+   },
+   {
+    "at": "L9",
+    "until": "L10",
+    "text": "A bit *possessed*"
+   },
+   {
+    "at": "L10:struggling",
+    "until": "L11",
+    "text": "Really *struggling*"
+   }
+  ],
+  "tags": [
+   {
+    "at": "L0",
+    "until": "L1",
+    "who": "hero",
+    "text": "little Adolf"
+   }
+  ],
+  "book": {
+   "at": "L11:called",
+   "until": "L13",
+   "title": "Mein Kampf",
+   "sub": "= My Struggle",
+   "sub_at": "L12",
+   "src": "Mein Kampf, vol. 1 published 18 July 1925 (Historisches Lexikon Bayerns)"
+  },
+  "cams": [
+   {
+    "at": "L0+0.8",
+    "who": "log"
+   },
+   {
+    "at": "L1",
+    "who": "wide"
+   },
+   {
+    "at": "L2:welcome",
+    "who": "kids"
+   },
+   {
+    "at": "L3:no",
+    "who": "hero"
+   },
+   {
+    "at": "L4:ok",
+    "who": "kids"
+   },
+   {
+    "at": "L5:nein",
+    "who": "hero",
+    "z": 1.38
+   },
+   {
+    "at": "L6",
+    "who": "hero",
+    "z": 1.45
+   },
+   {
+    "at": "L7",
+    "who": "wide"
+   },
+   {
+    "at": "L9",
+    "who": "hero",
+    "z": 1.35
+   },
+   {
+    "at": "L10",
+    "who": "wide"
+   },
+   {
+    "at": "L13-0.6",
+    "who": "wide",
+    "dur": 0.5
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Historisches Lexikon Bayerns, Mein Kampf (1925/26)",
+   "year": 2026,
+   "at": "END+5"
+  }
+ ],
+ "cover": {
+  "t": 3.0,
+  "text": "Hitler was bad at *English.*"
+ }
+}
