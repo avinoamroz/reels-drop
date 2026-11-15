@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "talk_cut",
  "hook": "*3,000* years.|Who actually lived here?",
- "duration": 51.98,
+ "duration": 46.2,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.2
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/s3000_talk15.mp4",
@@ -45,12 +45,12 @@
   }
  ],
  "transcript": {
-  "score": 0.985,
+  "score": 0.978,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone. On it, one name, Isra",
-    "score": 0.992,
+    "score": 0.984,
     "flag": "ok"
    },
    {
@@ -59,7 +59,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone on it, one name, Israel. 9th century BCE, a stone in Dan mentions the house of David. Around 700 BCE, under Jerusalem, workers carved around 700 BCE. Under Jerusalem, workers carve a tunnel inscription in Hebrew. Around 600 B.C. a hundred years later, two tiny silver scrolls with a priestly blessing. The oldest Bible text ever found. 132 CE, coins from the revolt say for the freedom of Jerusalem. Other peoples, to be fair, other peoples lived here too, and their stones are here as well. But stones don't lie. Jews were here. If you love Israeli facts, follow Noam Ross for more. Comment history and I'll send you the sources.",
+  "heard": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone on it, one name, Israel. 9th century BCE, a stone in Dan mentions the house of David. Around 700 BCE, under Jerusalem, workers carve a tunnel inscription in Hebrew. Around 600 BCE, like 100 years later, two tiny silver scrolls with a priestly blessing. The oldest Bible text ever found. 132 CE, coins from the revolt say, for the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But stones don't lie. Jews were here. If you love Israeli facts, follow Noam Ross for more. Comment history and I'll send you the sources.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -75,11 +75,7 @@
    5.28
   ],
   [
-   5.92,
-   6.9
-  ],
-  [
-   9.38,
+   9.3,
    13.55
   ],
   [
@@ -87,16 +83,8 @@
    15.98
   ],
   [
-   16.35,
-   18.1
-  ],
-  [
-   20.3,
+   18.55,
    22.98
-  ],
-  [
-   23.5,
-   27.45
   ],
   [
    30.9,
@@ -104,10 +92,6 @@
   ],
   [
    58.35,
-   60.22
-  ],
-  [
-   60.33,
    63.97
   ],
   [
@@ -123,7 +107,7 @@
    74.15
   ],
   [
-   77.05,
+   78.17,
    81.05
   ],
   [
@@ -148,12 +132,7 @@
   ],
   [
    "clip",
-   5.92,
-   6.9
-  ],
-  [
-   "clip",
-   9.38,
+   9.3,
    13.55
   ],
   [
@@ -163,18 +142,8 @@
   ],
   [
    "clip",
-   16.35,
-   18.1
-  ],
-  [
-   "clip",
-   20.3,
+   18.55,
    22.98
-  ],
-  [
-   "clip",
-   23.5,
-   27.45
   ],
   [
    "clip",
@@ -184,11 +153,6 @@
   [
    "clip",
    58.35,
-   60.22
-  ],
-  [
-   "clip",
-   60.33,
    63.97
   ],
   [
@@ -208,7 +172,7 @@
   ],
   [
    "clip",
-   77.05,
+   78.17,
    81.05
   ],
   [
@@ -229,177 +193,177 @@
  ],
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.2
+  "true_peak": -2.1
  },
  "levels": {
-  "speech": -17.6,
-  "follow_before_mix": -17.6
+  "speech": -17.9,
+  "follow_before_mix": -17.9
  },
  "subs": [
   [
    "3,000 years.",
-   0.07,
-   1.49
+   0.0,
+   1.66
   ],
   [
    "Who actually lived here?",
-   1.51,
-   2.4966666666666675
+   1.68,
+   2.8266666666666667
   ],
   [
    "Don't take my",
-   2.5166666666666675,
-   3.316666666666667
+   2.8466666666666667,
+   3.466666666666667
   ],
   [
    "word for it.",
-   3.336666666666667,
-   4.0166666666666675
+   3.486666666666667,
+   4.2266666666666675
   ],
   [
    "Look at the stones.",
-   4.036666666666667,
-   4.8433333333333355
+   4.246666666666667,
+   4.813333333333334
   ],
   [
    "1208 BCE, an Egyptian pharaoh",
-   4.863333333333335,
-   7.970000000000001
+   4.833333333333334,
+   7.333333333333334
   ],
   [
    "carved a victory stone.",
-   7.99,
-   9.946666666666669
+   7.3533333333333335,
+   9.063333333333334
   ],
   [
    "On it, one name",
-   9.966666666666669,
-   11.92666666666667
+   9.083333333333334,
+   11.38
   ],
   [
    "Israel.",
-   11.946666666666669,
-   12.420000000000002
+   11.4,
+   11.513333333333335
   ],
   [
    "9th century BCE",
-   12.440000000000001,
-   14.113333333333337
+   11.533333333333335,
+   13.513333333333335
   ],
   [
    "a stone in Dan mentions",
-   14.133333333333336,
-   15.523333333333333
+   13.533333333333335,
+   14.813333333333336
   ],
   [
    "the house of David.",
-   15.543333333333333,
-   16.780000000000005
+   14.833333333333336,
+   15.946666666666669
   ],
   [
    "Around 700 BCE",
-   16.800000000000004,
-   18.310000000000006
+   15.966666666666669,
+   17.706666666666667
   ],
   [
    "under Jerusalem, workers carved a",
-   18.330000000000005,
-   24.223333333333333
+   17.726666666666667,
+   19.68666666666667
   ],
   [
    "tunnel inscription in Hebrew.",
-   24.243333333333332,
-   26.196666666666662
+   19.70666666666667,
+   21.380000000000003
   ],
   [
    "Around 600 BCE",
-   26.21666666666666,
-   28.023333333333337
+   21.400000000000002,
+   23.439999999999998
   ],
   [
-   "a hundred years later",
-   28.043333333333337,
-   29.12333333333333
+   "like a hundred years later",
+   23.459999999999997,
+   24.6
   ],
   [
    "two tiny silver scrolls",
-   29.14333333333333,
-   30.523333333333337
+   24.62,
+   25.9
   ],
   [
    "with a priestly blessing.",
-   30.543333333333337,
-   31.706666666666674
+   25.919999999999998,
+   27.013333333333335
   ],
   [
    "The oldest Bible",
-   31.726666666666674,
-   33.106666666666676
+   27.033333333333335,
+   28.63333333333334
   ],
   [
    "text ever found.",
-   33.12666666666668,
-   34.42666666666667
+   28.65333333333334,
+   29.713333333333335
   ],
   [
    "132 CE, coins from",
-   34.44666666666667,
-   36.40666666666666
+   29.733333333333334,
+   31.95333333333333
   ],
   [
    "the revolt say",
-   36.42666666666666,
-   37.78666666666667
+   31.97333333333333,
+   33.23333333333333
   ],
   [
    "for the freedom of Jerusalem.",
-   37.80666666666667,
-   39.42666666666667
+   33.25333333333333,
+   34.85333333333333
   ],
   [
    "Other peoples lived here too",
-   39.44666666666667,
-   42.14000000000001
+   34.873333333333335,
+   36.30466666666667
   ],
   [
    "and their stones are",
-   42.16000000000001,
-   43.40000000000001
+   36.32466666666667,
+   37.44866666666666
   ],
   [
    "here as well.",
-   43.420000000000016,
-   44.15000000000001
+   37.468666666666664,
+   38.31333333333333
   ],
   [
    "But stones don't lie.",
-   44.170000000000016,
-   46.190000000000005
+   38.333333333333336,
+   40.753333333333345
   ],
   [
    "Jews were here.",
-   46.21000000000001,
-   47.18000000000001
+   40.77333333333335,
+   41.413333333333334
   ],
   [
    "If you love Israeli facts",
-   47.20000000000001,
-   48.60000000000001
+   41.43333333333334,
+   42.833333333333336
   ],
   [
    "follow Noam Roz for more.",
-   48.62000000000001,
-   49.91666666666668
+   42.85333333333334,
+   44.150000000000006
   ],
   [
    "Comment HISTORY, and I'll",
-   50.036666666666676,
-   51.11666666666667
+   44.2,
+   45.52
   ],
   [
    "send you the sources.",
-   51.13666666666667,
-   51.89666666666669
+   45.540000000000006,
+   46.18000000000001
   ]
  ],
  "heard_kept": [
@@ -414,14 +378,9 @@
    "Don't take my word for it. Look at the stone."
   ],
   [
-   5.92,
-   6.9,
-   "12, 8, B, C..."
-  ],
-  [
-   9.38,
+   9.3,
    13.55,
-   "1208 BCE, an Egyptian pharaoh carved a victory stone."
+   "1208 BCE, an Egyptian pharaoh carved a victory stone"
   ],
   [
    13.55,
@@ -429,19 +388,9 @@
    "On it one name"
   ],
   [
-   16.35,
-   18.1,
-   "9th century BC"
-  ],
-  [
-   20.3,
+   18.55,
    22.98,
-   "A stone in Dan mentions the house of David."
-  ],
-  [
-   23.5,
-   27.45,
-   "Around 700 B .C. under Jerusalem, workers carved..."
+   "9th century BCE, a stone in Dan mentions the house of David."
   ],
   [
    30.9,
@@ -450,13 +399,8 @@
   ],
   [
    58.35,
-   60.22,
-   "around 600 B .C."
-  ],
-  [
-   60.33,
    63.97,
-   "like a hundred years later, two tiny silver scrolls with a priestly blessing."
+   "Around 600 B .C., like a hundred years later, two tiny silver scrolls with a priestly blessing"
   ],
   [
    64.1,
@@ -474,9 +418,9 @@
    "other people."
   ],
   [
-   77.05,
+   78.17,
    81.05,
-   "To be fair, other peoples lived here too, and their stones are here as well."
+   "people's lived here too and their stones are here as well."
   ],
   [
    81.1,
@@ -492,38 +436,23 @@
  "heard_cut": [
   [
    5.28,
-   5.92,
-   "Thanks."
-  ],
-  [
-   6.9,
-   9.38,
-   "Mm -hmm"
+   9.3,
+   "12 -8 -B's."
   ],
   [
    15.98,
-   16.35,
-   "Go."
-  ],
-  [
-   18.1,
-   20.3,
-   "9th century BCE."
+   18.55,
+   "9th century B .C .E."
   ],
   [
    22.98,
-   23.5,
-   "it."
-  ],
-  [
-   27.45,
    30.9,
-   "Good."
+   "Around 700 B .C. under Jerusalem, workers carved..."
   ],
   [
    36.32,
    58.35,
-   "around 600 B .C., 100 years later, around 600 B .C., two tiny silver scrolls with a priestly blessing."
+   "Around 600 B .C., 100 years later, around 600 B .C., two tiny silver scrolls with a priestly blessing. 100 years later, around 600 B .C., two tiny silver scrolls with a priestly blessing."
   ],
   [
    66.8,
@@ -537,44 +466,111 @@
   ],
   [
    74.15,
-   77.05,
-   "That was it."
+   78.17,
+   "To be fair, other"
   ]
  ],
- "said": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone. On it, one name, Israel. 9th century BCE, a stone in Dan mentions the house of David. Around 700 BCE, under Jerusalem, workers carved a tunnel inscription in Hebrew. Around 600 BCE, a hundred years later, two tiny silver scrolls with a priestly blessing. The oldest Bible text ever found. 132 CE, coins from the revolt say, for the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But stones don't lie. Jews were here. Comment HISTORY, and I'll send you the sources.",
- "follow_at": 47.1,
+ "said": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone. On it, one name, Israel. 9th century BCE, a stone in Dan mentions the house of David. Around 700 BCE, under Jerusalem, workers carved a tunnel inscription in Hebrew. Around 600 BCE, like a hundred years later, two tiny silver scrolls with a priestly blessing. The oldest Bible text ever found. 132 CE, coins from the revolt say, for the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But stones don't lie. Jews were here. Comment HISTORY, and I'll send you the sources.",
+ "follow_at": 41.333,
+ "part_match": [
+  [
+   0.3,
+   2.78,
+   0.857
+  ],
+  [
+   2.92,
+   5.28,
+   1.0
+  ],
+  [
+   9.3,
+   13.55,
+   1.0
+  ],
+  [
+   13.55,
+   15.98,
+   1.0
+  ],
+  [
+   18.55,
+   22.98,
+   1.0
+  ],
+  [
+   30.9,
+   36.32,
+   1.0
+  ],
+  [
+   58.35,
+   63.97,
+   1.0
+  ],
+  [
+   64.1,
+   66.8,
+   1.0
+  ],
+  [
+   67.4,
+   72.4,
+   1.0
+  ],
+  [
+   73.42,
+   74.15,
+   1.0
+  ],
+  [
+   78.17,
+   81.05,
+   0.0
+  ],
+  [
+   81.1,
+   84.1,
+   1.0
+  ],
+  [
+   84.3,
+   86.3,
+   1.0
+  ]
+ ],
  "photos": [
   {
    "file": "photos/s3t_merneptah.jpg",
    "title": "Merneptah Stele, about *1208 BCE*",
    "a": 4.833333333333334,
-   "b": 12.396666666666668
+   "b": 11.530000000000001
   },
   {
    "file": "photos/s3t_teldan.jpg",
    "title": "Tel Dan Stele, *9th c. BCE*",
-   "a": 12.400000000000002,
-   "b": 16.813333333333336
+   "a": 11.533333333333335,
+   "b": 15.963333333333335
   },
   {
    "file": "photos/s3t_siloam.jpg",
    "title": "Siloam inscription, about *700 BCE*",
-   "a": 16.800000000000004,
-   "b": 26.15333333333334
+   "a": 15.966666666666669,
+   "b": 21.38666666666667
   },
   {
    "file": "photos/s3t_ketef.jpg",
    "title": "Ketef Hinnom scrolls, about *600 BCE*",
-   "a": 26.16666666666667,
-   "b": 34.366666666666674
+   "a": 21.400000000000002,
+   "b": 29.733333333333338
   },
   {
    "file": "photos/s3t_kokhba.jpg",
    "title": "Bar Kokhba revolt coin, *132 CE*",
-   "a": 34.366666666666674,
-   "b": 39.366666666666674
+   "a": 29.733333333333334,
+   "b": 34.733333333333334
   }
  ],
  "lint_warnings": [],
- "render_s": 218.3
+ "render_s": 217.4
 }
