@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "face_hook",
  "hook": "*3,000* years.|Who lived here?",
- "duration": 50.57,
+ "duration": 50.7,
  "audio": {
-  "lufs": -15.9,
-  "true_peak": -2.2
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/pop_race_v6_en_face15b.mp4",
@@ -36,11 +36,6 @@
     "line": "3,000 years. Who actually lived here?",
     "score": 1.0,
     "flag": "ok"
-   },
-   {
-    "line": "",
-    "score": 0.0,
-    "flag": "MISS"
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
@@ -121,12 +116,13 @@
   "body": -14.2
  },
  "levels_final": {
-  "face": -15.7,
+  "face": -15.4,
   "body": -16.0
  },
+ "level_passes": 1,
  "mix": {
-  "lufs": -15.9,
-  "true_peak": -2.2
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
  "body_kept_s": 45.11,
  "subs": [
@@ -142,5 +138,5 @@
   ]
  ],
  "lint_warnings": [],
- "render_s": 57.9
+ "render_s": 77.1
 }
