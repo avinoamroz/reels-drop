@@ -30,7 +30,8 @@ def run(S):
     miss = [f for f in need if not os.path.exists(os.path.join(REPO, f))]
     if miss: subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", *["/" + f for f in miss]], check=False)
     clip = os.path.join(REPO, D["clip"])
-    keep = [(float(a), float(b)) for a, b in D["keep"]]
+    keep = [(float(k[0]), float(k[1])) for k in D["keep"]]
+    ktext = [k[2] if len(k) > 2 else None for k in D["keep"]]      # exact words per kept part: timed by whisper on that part
     # words: merge "3" + ",000"; fixes; casing
     WD = []
     for s in json.load(open(os.path.join(REPO, D["words"])))["segs"]:
@@ -81,6 +82,17 @@ def run(S):
         if b - a < 0.02: oa, ob = oa - 0.12, ob + 0.12
         if (not OW or re.search(r"[.?!]$", OW[-1][0])) and w[:1].islower(): w = w[:1].upper() + w[1:]
         OW.append([w, oa, ob])
+    if any(ktext):
+        OW = []; part_match = []
+        for (a, b), txt in zip(keep, ktext):
+            if not txt: continue
+            hw = FH.asr_words(clip, a, b - a, prompt=txt); ws, sc = FH.align_said(txt, hw); part_match.append([a, b, sc])
+            for w, wa, wb in ws:
+                oa, ob = out_t(min(max(wa, a), b)), out_t(min(max(wb, a), b))
+                if oa is None or ob is None: continue
+                if (not OW or re.search(r"[.?!]$", OW[-1][0])) and w[:1].islower(): w = w[:1].upper() + w[1:]
+                OW.append([w, oa, max(ob, oa + 0.08)])
+    else: part_match = None
     CH = FH.chunks(OW, 0.0)
     if F:
         t_f = next(t0 for p, t0, n in segs if p[0] == "follow")
@@ -203,4 +215,4 @@ def run(S):
     lv = {"speech": round(sp_l, 1), "follow_before_mix": round(lufs_of(fw2), 1)}
     return dict(voice="Noam's own voice (one take, cut), his recorded follow line, quiet bed", clip=D["clip"], keep=keep, parts=[list(p) for p, _, _ in segs],
                 mix=aud, levels=lv, subs=CH, heard_kept=heard_k, heard_cut=heard_gap, said=" ".join(w[0] for w in OW),
-                follow_at=round(t_f, 3) if F else None, photos=[{k_: ph[k_] for k_ in ("file", "title", "a", "b")} for ph in PH])
+                follow_at=round(t_f, 3) if F else None, part_match=part_match, photos=[{k_: ph[k_] for k_ in ("file", "title", "a", "b")} for ph in PH])
