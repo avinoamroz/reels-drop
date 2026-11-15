@@ -1,0 +1,194 @@
+{
+ "id": "conquest_waves",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*11* empires invaded.|Who *stayed?*",
+ "duration": 69.7,
+ "audio": {
+  "lufs": -16.4,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/conquest_waves.mp4",
+  "cover": "covers/conquest_waves_cover.jpg",
+  "preview": "previews/conquest_waves_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/conquest_waves_0.jpg",
+  "1": "out/frames/conquest_waves_1.jpg",
+  "3": "out/frames/conquest_waves_3.jpg",
+  "last": "out/frames/conquest_waves_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Sargon II, Khorsabad annals (as translated in ANET)",
+   "year": "about 707 BCE",
+   "at": "L1:deports",
+   "until": "L2",
+   "y": 1520
+  },
+  {
+   "label": "Hadrian renames the province Syria Palaestina",
+   "year": "about 135 CE",
+   "at": "L6:renames",
+   "until": "L7",
+   "y": 1520
+  },
+  {
+   "label": "Broshi and Finkelstein, BASOR 287",
+   "year": 1992,
+   "at": "END+5"
+  },
+  {
+   "label": "Finkelstein, JSOT; Lipschits",
+   "year": "2008; 2003",
+   "at": "END+5"
+  },
+  {
+   "label": "Broshi, BASOR 236",
+   "year": 1979,
+   "at": "END+5"
+  },
+  {
+   "label": "Obadiah of Bertinoro, letter from Jerusalem",
+   "year": 1488,
+   "at": "END+5"
+  },
+  {
+   "label": "DellaPergola, Demography in Israel/Palestine (Ottoman registers 1553)",
+   "year": 2001,
+   "at": "END+5"
+  },
+  {
+   "label": "Ottoman census 1878 (via Dowty 2012); estimate for 1882",
+   "year": 1882,
+   "at": "END+5"
+  },
+  {
+   "label": "Census of Palestine, British Mandate",
+   "year": "1922, 1931",
+   "at": "END+5"
+  },
+  {
+   "label": "Israel CBS, Statistical Abstract table 2.1",
+   "year": 2024,
+   "at": "END+5"
+  },
+  {
+   "label": "Jewish Agency, Sergio DellaPergola",
+   "year": 2024,
+   "at": "END+5"
+  }
+ ],
+ "transcript": {
+  "score": 0.979,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Eleven empires invaded this small land. Watch who stayed.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "722 BCE. Assyria conquers the northern kingdom and deports its people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "586 BCE. Babylon destroys Jerusalem and its Temple, and exiles Judah.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "539 BCE. Persia lets the exiles go home and rebuild.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "332, Alexander. 63 BCE, Rome.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 70 CE, Rome burns the Second Temple.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 135, it crushes the last revolt and renames the land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Byzantium. The caliphate in 636. Crusaders in 1099. Mamluks in 1260.",
+    "score": 0.958,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1488, a visiting rabbi counts seventy Jewish families in Jerusalem.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1516, the Ottomans. Their own tax records count about seven thousand Jews.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By the 1880s, fifteen to twenty four thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1917, Britain. Its own census: about 84,000 Jews in 1922. 175,000 in 1931.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1948. Independence.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, about 7.3 million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Many peoples lived here too, and their history is real.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every empire left. The Jewish people never did.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "So count them again. Eleven empires.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "11 empires invaded this small land, Wachu stayed. 722 BCE. Assyria conquers the northern kingdom and deports its people. 586 BCE. Babylon destroys Jerusalem and its temple, and exiles Judah. 539 BCE. Persia lets the exiles go home and rebuild. 332 Alexander. 63 BCE. Rome. In 70 CE, Rome burns the second temple. In 135, it crushes the last revolt and renames the land. The Caliphate in 636, Crusaders in 1099, Mamluks in 1260, in 1488, a visiting rabbi counts 70 Jewish families in Jerusalem, 1516, the Ottomans. Their own tax records count about 7,000 Jews. By the 1880s, 15,000 to 24,000, 1917, Britain. Its own census, about 84,000 Jews in 1922, 175,000 in 1931, 1948, Independence, today about 7.3 million. Many peoples lived here too, and their history is real. Every empire left. The Jewish people never did. If you love Israeli facts, follow Noah Mraz for more. So count them again. 11 empires.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 69.69,
+ "opener": null,
+ "mix": {
+  "lufs": -16.4,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 85.3
+}
