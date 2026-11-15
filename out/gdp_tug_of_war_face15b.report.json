@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "face_hook",
  "hook": "*1* Israeli vs|*9* countries",
- "duration": 50.0,
+ "duration": 50.03,
  "audio": {
   "lufs": -16.0,
   "true_peak": -2.0
@@ -38,7 +38,7 @@
     "flag": "MISS"
    },
    {
-    "line": "In this corner, Israel, $54,000, and in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. Eight count",
+    "line": "In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey, eight count",
     "score": 0.99,
     "flag": "ok"
    },
@@ -61,11 +61,11 @@
   [
    "It's",
    0.0,
-   0.68
+   0.7
   ],
   [
    "all",
-   0.68,
+   0.7,
    0.92
   ],
   [
@@ -81,11 +81,11 @@
   [
    "money.",
    1.24,
-   1.52
+   1.5
   ],
   [
    "Same",
-   2.28,
+   2.06,
    2.34
   ],
   [
@@ -151,9 +151,10 @@
   "body": -15.9
  },
  "levels_final": {
-  "face": -15.1,
+  "face": -15.3,
   "body": -16.1
  },
+ "level_passes": 2,
  "mix": {
   "lufs": -16.0,
   "true_peak": -2.0
@@ -163,11 +164,11 @@
   [
    "It's all about the money.",
    0.0,
-   2.26
+   2.04
   ],
   [
    "Same region.",
-   2.28,
+   2.06,
    3.16
   ],
   [
@@ -177,5 +178,5 @@
   ]
  ],
  "lint_warnings": [],
- "render_s": 76.2
+ "render_s": 85.4
 }
