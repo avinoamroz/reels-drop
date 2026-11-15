@@ -1,0 +1,151 @@
+{
+ "id": "homicide_race_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "Violent country?|*23* years of data",
+ "duration": 57.23,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -3.5
+ },
+ "outputs": {
+  "mp4": "out/homicide_race_face15b.mp4",
+  "cover": "covers/homicide_race_face15b_cover.jpg",
+  "preview": "previews/homicide_race_face15b_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/homicide_race_face15b_0.jpg",
+  "1": "out/frames/homicide_race_face15b_1.jpg",
+  "3": "out/frames/homicide_race_face15b_3.jpg",
+  "last": "out/frames/homicide_race_face15b_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data; Taub Center",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.532,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Is Israel a violent country? Let's check.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Murders per 100,000 people, every year, since 2000. Israel starts at two and a half, and mostly falls. By 2022, the last full year before October 7th, 1.6. Turk",
+    "score": 0.487,
+    "flag": "MISS"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Is Israel a violent country? Let's check. Arab Israelis. Over five. Close to the United States. But there's a catch. Arab Israelis are 10 times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens, caught between Arab crime organizations and smuggled guns. And the state is failing to protect them. Also, some governments undercount. And war deaths are not in these numbers. If you love Israeli facts, follow Noam Ross for more. So the next time someone asks you...",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/hb_violent_country.mp4",
+ "said": "Is Israel a violent country? Let's check.",
+ "clip_heard": "Is Israel a violent country? Let's check.",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "Is",
+   0.0,
+   0.52
+  ],
+  [
+   "Israel",
+   0.52,
+   0.76
+  ],
+  [
+   "a",
+   0.76,
+   0.94
+  ],
+  [
+   "violent",
+   0.94,
+   1.16
+  ],
+  [
+   "country?",
+   1.16,
+   1.64
+  ],
+  [
+   "Let's",
+   2.4,
+   2.6
+  ],
+  [
+   "check.",
+   2.6,
+   2.78
+  ]
+ ],
+ "clip_trim": [
+  0.0,
+  2.92
+ ],
+ "face_s": 2.9333,
+ "source": "homicide_race_v4.mp4",
+ "cut": 3.14,
+ "cut_how": "after 'the numbers' (1.0)",
+ "follow": "inserted before 'so the next time someone asks' at 51.78 s (1.0)",
+ "follow_part": {
+  "freeze_at": 51.74,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -14.3
+ },
+ "levels_final": {
+  "face": -17.7,
+  "body": -16.0
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.5
+ },
+ "body_kept_s": 51.41,
+ "subs": [
+  [
+   "Is Israel a violent country?",
+   0.0,
+   2.38
+  ],
+  [
+   "Let's check.",
+   2.4,
+   2.78
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 73.3
+}
