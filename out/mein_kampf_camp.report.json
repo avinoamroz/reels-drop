@@ -1,0 +1,120 @@
+{
+ "id": "mein_kampf_camp",
+ "account": "noamroz__",
+ "template": "camp_story",
+ "hook": "Hitler was bad at *English.*",
+ "duration": 36.47,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/mein_kampf_camp.mp4",
+  "cover": "covers/mein_kampf_camp_cover.jpg",
+  "preview": "previews/mein_kampf_camp_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/mein_kampf_camp_0.jpg",
+  "1": "out/frames/mein_kampf_camp_1.jpg",
+  "3": "out/frames/mein_kampf_camp_3.jpg",
+  "last": "out/frames/mein_kampf_camp_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Historisches Lexikon Bayerns, Mein Kampf (1925/26)",
+   "year": 2026,
+   "at": "END+5"
+  }
+ ],
+ "transcript": {
+  "score": 0.847,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "As a kid, Adolf wasn't very social. He found it hard to connect.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "When he went to a summer camp...",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The kids said: \"Welcome to our camp!\"",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "He said: \"No. Mine camp.\"",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They said: \"OK, you can join. You just have to share.\"",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "He said: \"Nein. My camp.\"",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "\"My camp, mine <<ˈ|k|ɑ|m|p|f>>. Potato, <<p|ə|ˈ|t|ɑː|t|oʊ>>, right?\"",
+    "score": 0.385,
+    "flag": "MISS"
+   },
+   {
+    "line": "He never got it. He had issues with possessives.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Also with possessions.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Honestly, he was a bit possessed.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Later we realised it wasn't only his English. He was really struggling.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Which is why he called his book... Mein <<ˈ|k|ɑ|m|p|f>>.",
+    "score": 0.583,
+    "flag": "MISS"
+   },
+   {
+    "line": "My Struggle.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The struggle was real... maybe because",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "As a kid, Adolf wasn't very social. He found it hard to connect. When he went to a summer camp, the kid said, welcome to our camp. He said, no, mine camp. They said, okay, you can join. You just have to share. He said, name, my camp. My camp, mine comp. Potato Pitado, right? He never got it. He had issues with possessives. Also with possessions. Honestly, he was a bit possessed. Later, we realized it wasn't only his English. He was really struggling, which is why he called his book main comp my struggle the struggle was real maybe because",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 65.9
+}
