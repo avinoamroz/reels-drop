@@ -1,0 +1,151 @@
+{
+ "id": "lib_vid_jews_world_v3_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "Where do Jews live?|*2,600* years",
+ "duration": 44.8,
+ "audio": {
+  "lufs": -15.9,
+  "true_peak": -2.9
+ },
+ "outputs": {
+  "mp4": "out/lib_vid_jews_world_v3_face15b.mp4",
+  "cover": "covers/lib_vid_jews_world_v3_face15b_cover.jpg",
+  "preview": "previews/lib_vid_jews_world_v3_face15b_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/lib_vid_jews_world_v3_face15b_0.jpg",
+  "1": "out/frames/lib_vid_jews_world_v3_face15b_1.jpg",
+  "3": "out/frames/lib_vid_jews_world_v3_face15b_3.jpg",
+  "last": "out/frames/lib_vid_jews_world_v3_face15b_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "DellaPergola; Jewish Agency; national censuses",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.85,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Where do the world's Jews actually live?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thanks for watching!",
+    "score": 0.333,
+    "flag": "MISS"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Where do the world's Jews actually live? If you love Israeli facts, follow Noam Ross for more.",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/hb_jews_world.mp4",
+ "said": "Where do the world's Jews actually live?",
+ "clip_heard": "Where do the world's Jews actually live?",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "Where",
+   0.5,
+   0.88
+  ],
+  [
+   "do",
+   0.88,
+   1.04
+  ],
+  [
+   "the",
+   1.04,
+   1.16
+  ],
+  [
+   "world's",
+   1.16,
+   1.56
+  ],
+  [
+   "Jews",
+   1.56,
+   1.72
+  ],
+  [
+   "actually",
+   1.72,
+   2.14
+  ],
+  [
+   "live?",
+   2.14,
+   2.36
+  ]
+ ],
+ "clip_trim": [
+  0.42,
+  2.5
+ ],
+ "face_s": 2.0667,
+ "source": "tiktok/mw_lib_vid_jews_world_v3_ig.mp4",
+ "cut": 1.0,
+ "cut_how": "fixed",
+ "follow": "inserted at 40.20 s (fixed)",
+ "follow_part": {
+  "freeze_at": 40.16,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -14.1
+ },
+ "levels_final": {
+  "face": -17.6,
+  "body": -15.8
+ },
+ "mix": {
+  "lufs": -15.9,
+  "true_peak": -2.9
+ },
+ "body_kept_s": 39.92,
+ "subs": [
+  [
+   "Where do the world's",
+   0.08000000000000002,
+   1.12
+  ],
+  [
+   "Jews actually live?",
+   1.1400000000000001,
+   1.94
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 53.0
+}
