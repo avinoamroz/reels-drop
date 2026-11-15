@@ -1,0 +1,175 @@
+{
+ "id": "one_jewish_state_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*120* Christian countries.|Jewish ones?",
+ "duration": 53.7,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/one_jewish_state_face15b.mp4",
+  "cover": "covers/one_jewish_state_face15b_cover.jpg",
+  "preview": "previews/one_jewish_state_face15b_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/one_jewish_state_face15b_0.jpg",
+  "1": "out/frames/one_jewish_state_face15b_1.jpg",
+  "3": "out/frames/one_jewish_state_face15b_3.jpg",
+  "last": "out/frames/one_jewish_state_face15b_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Pew Research Center, majority religion by country",
+   "year": 2025
+  },
+  {
+   "label": "Pew Research Center, religious symbols on flags",
+   "year": 2014
+  }
+ ],
+ "transcript": {
+  "score": 0.981,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "120 Christian countries around the world. How many are Jewish?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Pew counted 201 countries and territories, every place with at least a hundred thousand people. Christian majority, 120, Muslim majority, 53, no religion, 10, B",
+    "score": 0.985,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   }
+  ],
+  "heard": "120 Christian countries around the world. How many are Jewish? Pew counted 201 countries and territories, every place with at least 100,000 people. Christian majority, 120. Muslim majority, 53. No religion, 10. Buddhist, seven. Hindu, two. And Jewish majority, hold that thought. Now the flags. 64 national flags carry a religious symbol. That's about one in three. 31 have a cross, like Britain, Greece and Norway, 21 of a Muslim symbol like Turkey and Algeria, and one flag has a star of David right between two blue stripes, one Jewish majority country out of 201, one Jewish flag. A cross or a crescent on a flag doesn't make a country unfree. Laws do. If you love Israeli facts, follow Noam Ross for more. So when someone says the world has one Jewish state too many, ask them.",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/hb_christian_countries.mp4",
+ "said": "120 Christian countries around the world. How many are Jewish?",
+ "clip_heard": "120 Christian countries around the world. How many are Jewish?",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "120",
+   0.9,
+   1.3
+  ],
+  [
+   "Christian",
+   1.3,
+   1.7
+  ],
+  [
+   "countries",
+   1.7,
+   2.18
+  ],
+  [
+   "around",
+   2.18,
+   2.48
+  ],
+  [
+   "the",
+   2.48,
+   2.62
+  ],
+  [
+   "world.",
+   2.62,
+   2.86
+  ],
+  [
+   "How",
+   3.5,
+   3.56
+  ],
+  [
+   "many",
+   3.56,
+   3.66
+  ],
+  [
+   "are",
+   3.66,
+   3.82
+  ],
+  [
+   "Jewish?",
+   3.82,
+   3.94
+  ]
+ ],
+ "clip_trim": [
+  0.82,
+  4.08
+ ],
+ "face_s": 3.2667,
+ "source": "out/one_jewish_state.mp4",
+ "cut": 5.24,
+ "cut_how": "after 'how many jewish ones' (1.0)",
+ "follow": "inserted before 'so when someone says' at 48.36 s (1.0)",
+ "follow_part": {
+  "freeze_at": 48.32,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -16.2
+ },
+ "levels_final": {
+  "face": -15.6,
+  "body": -16.0
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "body_kept_s": 47.49,
+ "subs": [
+  [
+   "120 Christian countries",
+   0.07999999999999996,
+   1.34
+  ],
+  [
+   "around the world.",
+   1.36,
+   2.6599999999999997
+  ],
+  [
+   "How many are Jewish?",
+   2.6799999999999997,
+   3.12
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 87.5
+}
