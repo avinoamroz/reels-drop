@@ -5,9 +5,14 @@ Map rules built in: whole land of Israel gold, West Bank and Gaza a darker gold,
 data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-2"):
   cam0        [lon, lat, width_deg] where the opener lands (frame 0 of the body)
   cams        [{at, view: [lon, lat, width_deg, screen_y], dur}]       camera moves
-  highlight   [{at, until, code}]                                        countries tinted red (ISO3, e.g. "RUS")
+  highlight   [{at, until, code, color, alpha, flash, flash_s}]          countries tinted red (ISO3, e.g. "RUS"); optional color
+              (name or #hex), alpha (default 0.85; 1.0 is fastest), flash: colour for the first flash_s s (default 0.6)
+  israel_at   anchor: before it Israel is drawn as plain land (no gold, no Green Line); it fades in gold at the anchor
+  clock       {at, until, y, size, label, era, steps: [{at, year}], tick}   big running year clock, linear between steps
+              (era: true writes 1000 BCE / 70 CE; tick: true adds soft clock ticks while it runs)
   pins        [{at, until, lon, lat, label, color: red|yellow|grey}]
-  counter     {label, of, at, until, y, steps: [{at, value}], prefix, suffix, dec}
+  counter     {label, of, at, until, y, h, steps: [{at, value | text, src}], prefix, suffix, dec}   a step with "text" shows that
+              text instead of a number (ranges, "No reliable count"), "src" a small source + year line under it
   bars        [{at, until, title, y, rows: [{label, flag, value, txt, at, hl}], vmax}]
   big         [{at, until, value, from, prefix, suffix, sub, y, dec}]
   dim         [{at, until}]                                              darken the map behind cards
@@ -174,12 +179,26 @@ def run(S):
             prev = keys[i - 1][2] if i else k; u = ease((t - t0) / d); cur = prev + (k - prev) * u
             if u < 1: return cur
         return cur
-    HL = [(A(h["at"]), A(h.get("until"), T.END), h["code"]) for h in D.get("highlight", [])]
+    CLK = D.get("clock")
+    if CLK: CLK = dict(CLK, t0=A(CLK.get("at"), A(CLK["steps"][0]["at"])), t1=A(CLK.get("until"), T.END - 0.6),
+                       st=[(A(s_["at"]), float(s_["year"])) for s_ in CLK["steps"]])
+    def TY(y):
+        """time at which the clock shows year y (items may give "year" instead of "at")"""
+        st = CLK["st"]
+        if y <= st[0][1]: return st[0][0]
+        for k_ in range(len(st) - 1):
+            (a0, y0), (a1, y1) = st[k_], st[k_ + 1]
+            if y0 <= y <= y1 and y1 > y0: return a0 + (a1 - a0) * (y - y0) / (y1 - y0)
+        return st[-1][0]
+    def AY(it, key="at"): return TY(float(it["year"])) if it.get("year") is not None and CLK else A(it[key])
+    HL = [(AY(h), A(h.get("until"), T.END), h["code"], h) for h in D.get("highlight", [])]
+    ISR_AT = A(D["israel_at"]) if D.get("israel_at") is not None else None
     PINS = [dict(p, t0=A(p["at"]), t1=A(p.get("until"), T.END - 0.6)) for p in D.get("pins", [])]
     CTS = D.get("counter") or []
     if isinstance(CTS, dict): CTS = [CTS]
-    CTS = [dict(c, t0=A(c.get("at"), A(c["steps"][0]["at"]) - 0.4), t1=A(c.get("until"), T.END - 0.6),
-                st=[(A(s["at"]), float(s["value"])) for s in c["steps"]]) for c in CTS]
+    CTS = [dict(c, t0=A(c.get("at"), AY(c["steps"][0]) - 0.4), t1=A(c.get("until"), T.END - 0.6),
+                st=[(AY(s), float(s.get("value", 0))) for s in c["steps"]],
+                tx=[(AY(s), s.get("text"), s.get("src")) for s in c["steps"]]) for c in CTS]
     ROUTES = [dict(r, t0=A(r["at"]), t1=A(r.get("until"), T.END - 0.6), tc=A(r["cut"]) if r.get("cut") is not None else None)
               for r in D.get("routes", [])]
     ZONES = [dict(z, t0=A(z["at"]), t1=A(z.get("until"), T.END - 0.6)) for z in D.get("zones", [])]
@@ -234,22 +253,34 @@ def run(S):
             out = lay if out is None else out * (1 - a) + lay * a; a_tot = max(a_tot, a)
         return a_tot, out
 
-    def mapimg(cm, hi):
-        key = (tuple(np.round(cm, 4)), tuple(sorted((k, round(v, 2)) for k, v in hi.items())))
+    def mapimg(cm, hi, hc=None, isr=True):
+        key = (tuple(np.round(cm, 4)), tuple(sorted((k, round(v, 2)) for k, v in hi.items())), tuple(sorted((hc or {}).items())), isr)
         if key not in cache:
             if len(cache) > 12: cache.clear()
             lon, lat, lk, cosf, sy = cm
-            cache[key] = MR.render(MR.view(lon, lat, math.exp(lk), cosf, sy), H, hi=[k for k, v in hi.items() if v > 0.02], hi_a=hi)
+            cache[key] = MR.render(MR.view(lon, lat, math.exp(lk), cosf, sy), H, hi=[k for k, v in hi.items() if v > 0.02], hi_a=hi,
+                                   hi_c=hc or None, israel=isr)
         return cache[key]
     y_ = np.arange(H, dtype=np.float32)[:, None]
     VIG = (1 - np.maximum(np.clip(1 - y_ / 520, 0, 1) ** 1.6 * 0.45, np.clip((y_ - 1180) / 740, 0, 1) ** 1.2 * 0.62))[..., None]
 
     def frame(t):
-        hi = {}
-        for t0, t1, code in HL:
-            v = 0.85 * seg(t, t0, t0 + 0.4) * (1 - seg(t, t1 - 0.3, t1 + 0.2))
-            if v > 0.02: hi[code] = max(hi.get(code, 0), v)
-        img, M = mapimg(cam_at(t), hi); base = img.astype(np.float32) * VIG
+        hi, hc = {}, {}
+        for t0, t1, code, h_ in HL:
+            v = float(h_.get("alpha", 0.85)) * seg(t, t0, t0 + 0.4) * (1 - seg(t, t1 - 0.3, t1 + 0.2))
+            if v > 0.02:
+                hi[code] = max(hi.get(code, 0), v)
+                c_ = h_.get("flash") if h_.get("flash") and t < t0 + float(h_.get("flash_s", 0.6)) else h_.get("color")
+                if c_: hc[code] = COL.get(c_, c_)
+        cm_ = cam_at(t)
+        if ISR_AT is not None and t < ISR_AT + 0.5:
+            u_ = seg(t, ISR_AT, ISR_AT + 0.5)
+            img, M = mapimg(cm_, {k: v for k, v in hi.items() if k != "ISR"}, {k: v for k, v in hc.items() if k != "ISR"}, False)
+            if u_ > 0.001:
+                img2, _ = mapimg(cm_, hi, hc, True); img = (img.astype(np.float32) * (1 - u_) + img2.astype(np.float32) * u_)
+        else:
+            img, M = mapimg(cm_, hi, hc)
+        base = img.astype(np.float32) * VIG
         dm = max([win(t, a - 0.3, b, 0.4, 0.4) for a, b in DIM] or [0])
         if dm > 0: base *= (1 - 0.5 * dm)
         cv = Canvas(base); geo = lambda lon, lat: geo2px(M, lon, lat)
@@ -317,10 +348,37 @@ def run(S):
                 for t0, val in CT["st"]:
                     if t >= t0: v = WG.roll(t, t0, prev, val, 0.7)
                     prev = val
-                y = CT.get("y", 1240); WG.panel(cv, 90, y - 150, 900, 300, ca)
+                y = CT.get("y", 1240); ph = CT.get("h", 300); WG.panel(cv, 90, y - 150, 900, ph, ca)
                 cv.text(CT.get("label", ""), 540, y - 85, 48, "#C9D6EA", ca, maxw=820)
-                txt = WG.fmtn(v, CT.get("dec", 0), CT.get("prefix", ""), CT.get("suffix", "")) + (f" / {CT['of']}" if CT.get("of") else "")
-                cv.text(txt, 540, y + 40, 150, YEL, ca, maxw=820)
+                cur = [s_ for s_ in CT["tx"] if t >= s_[0]]
+                if cur and (cur[-1][1] or cur[-1][2]):          # text step (range, "No reliable count") and/or source line
+                    t0_, txt_, src_ = cur[-1]; fa = seg(t, t0_, t0_ + 0.3); sc_ = 0.85 + 0.15 * back(seg(t, t0_, t0_ + 0.35, lambda u: u))
+                    if len(cur) > 1 and fa < 1:                 # crossfade from the previous step
+                        p_ = cur[-2]; ptxt = p_[1] or WG.fmtn(CT["st"][len(cur) - 2][1], CT.get("dec", 0), CT.get("prefix", ""), CT.get("suffix", ""))
+                        cv.text(ptxt, 540, y + 30, CT.get("size", 130), YEL, ca * (1 - fa), maxw=820, minsz=56)
+                        if p_[2]: cv.text(p_[2], 540, y + 112, 38, "#C9D6EA", ca * (1 - fa), bold=False, maxw=840, minsz=36)
+                    txt = txt_ or WG.fmtn(v, CT.get("dec", 0), CT.get("prefix", ""), CT.get("suffix", ""))
+                    c_ = cv.c; c_.save(); c_.translate(540, y + 30); c_.scale(sc_, sc_); c_.translate(-540, -(y + 30))
+                    cv.text(txt, 540, y + 30, CT.get("size", 130) if txt_ is None or len(txt_) < 14 else CT.get("tsize", 92), YEL, ca * fa, maxw=820, minsz=56)
+                    c_.restore()
+                    if src_: cv.text(src_, 540, y + 112, 38, "#C9D6EA", ca * fa, bold=False, maxw=840, minsz=36)
+                else:
+                    txt = WG.fmtn(v, CT.get("dec", 0), CT.get("prefix", ""), CT.get("suffix", "")) + (f" / {CT['of']}" if CT.get("of") else "")
+                    cv.text(txt, 540, y + 40, 150, YEL, ca, maxw=820)
+        if CLK:
+            ka = (1.0 - seg(t, CLK["t1"] - 0.3, CLK["t1"])) if CLK["t0"] <= 0.01 else win(t, CLK["t0"] - 0.1, CLK["t1"], 0.3, 0.3)
+            if ka > 0.01:
+                st = CLK["st"]; yr = st[0][1]
+                for k_ in range(len(st)):
+                    if t >= st[k_][0]:
+                        yr = st[k_][1] if k_ + 1 >= len(st) else st[k_][1] + (st[k_ + 1][1] - st[k_][1]) * min(1.0, (t - st[k_][0]) / max(1e-3, st[k_ + 1][0] - st[k_][0]))
+                yi = int(math.floor(yr + 1e-6)) if yr >= 0 else -int(math.floor(-yr + 1e-6))
+                if yi == 0: yi = 1 if yr >= 0 else -1                 # there is no year 0
+                if CLK.get("era"): ytxt = f"{-yi} BCE" if yi < 0 else (f"{yi} CE" if yi < 1000 else f"{yi}")
+                else: ytxt = f"{yi}"
+                ky = CLK.get("y", 470); ks = CLK.get("size", 170)
+                if CLK.get("label"): cv.text(CLK["label"], 540, ky - ks * 0.62, 44, "#C9D6EA", ka, maxw=900)
+                cv.text(ytxt, 540, ky, ks, YEL if CLK.get("color", "yellow") == "yellow" else WHITE, ka, maxw=1000)
         for b in BARS:
             ba = win(t, b["t0"] - 0.1, b["t1"], 0.4, 0.4)
             if ba > 0.01:
@@ -359,7 +417,11 @@ def run(S):
 
     ev = [(p["t0"], "pop", -22) for p in PINS] + [(b["t0"] - 0.2, "whoosh", -24) for b in BARS] + [(g["t0"], "roll", g["t0"] + 1.2) for g in BIG]
     ev += [(g["t0"] + 1.2, "ding", -26) for g in BIG]
-    for CT in CTS: ev += [(t0, "roll", t0 + 0.7) for t0, _ in CT["st"]]
+    for CT in CTS: ev += [(t0, "roll", t0 + 0.7) if not tx_ else (t0, "pop", -26) for (t0, _), (_, tx_, _s) in zip(CT["st"], CT["tx"])]
+    if CLK and CLK.get("tick"):
+        for k_ in range(len(CLK["st"]) - 1):
+            a_, b_ = CLK["st"][k_][0], CLK["st"][k_ + 1][0]
+            if CLK["st"][k_ + 1][1] != CLK["st"][k_][1]: ev += [(tt_, "tick", -34) for tt_ in np.arange(a_, b_, 0.25)]
     ev += [(r["t0"], "whoosh", -28) for r in ROUTES if r.get("kind") != "wall"] + [(r["t0"], "thud", -22) for r in ROUTES if r.get("kind") == "wall"]
     ev += [(r["tc"], "buzz", -24) for r in ROUTES if r["tc"] is not None] + [(c_["t0"], "pop", -24) for c_ in ICONS]
     ev += [(c0, "pop", -24) for c0, _ in CMW if c0 > 0.01]

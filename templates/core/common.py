@@ -83,7 +83,28 @@ def lint(S):
 
 
 # ================================================================== voice
-def script_lines(S): return [L["say"].strip() for L in S["lines"] if L.get("say", "").strip()]
+def script_lines(S):
+    """the TTS script: every spoken line except lines voiced by a recording ("wav", e.g. Noam's own follow line)"""
+    return [L["say"].strip() for L in S["lines"] if L.get("say", "").strip() and not L.get("wav")]
+
+
+def own_line(L, ref_lufs):
+    """a spoken line from a real recording (spec line "wav": repo path, e.g. ref/follow_line_noam.wav): no house chain,
+    silence trimmed, loudness matched to the TTS voice (+ line "wav_db"), words spread over the voiced part by length"""
+    p = os.path.join(REPO, L["wav"])
+    if not os.path.exists(p):      # the CI checkout is sparse: pull the recording in
+        subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", "/" + L["wav"]], check=False)
+    if not os.path.exists(p): raise SystemExit(f"recording not found: {L['wav']}")
+    y = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", p, "-ar", str(SR), "-ac", "1", "-f", "f32le", "-"],
+                                     check=True, capture_output=True).stdout, np.float32).copy()
+    fr = int(0.02 * SR); env = np.array([np.sqrt(np.mean(y[i:i + fr] ** 2) + 1e-12) for i in range(0, max(1, len(y) - fr), fr)])
+    on = np.where(env > env.max() * 0.06)[0]
+    a = max(0, on[0] * fr - int(0.06 * SR)) if len(on) else 0; b = min(len(y), (on[-1] + 1) * fr + int(0.12 * SR)) if len(on) else len(y)
+    y = y[a:b]; f = int(0.01 * SR); y[:f] *= np.linspace(0, 1, f); y[-f:] *= np.linspace(1, 0, f)
+    y *= 10 ** ((ref_lufs + float(L.get("wav_db", 0)) - lufs_of(np.stack([y, y]))) / 20)
+    ws = L["say"].split(); d = len(y) / SR; w8 = np.array([len(re.sub(r"[^\w]", "", w)) + 2 for w in ws], float); cum = np.concatenate([[0], np.cumsum(w8)]) / w8.sum()
+    v0, v1 = 0.06, d - 0.12
+    return y, [dict(w=w, t0=v0 + (v1 - v0) * cum[k], t1=v0 + (v1 - v0) * cum[k + 1] - 0.02) for k, w in enumerate(ws)]
 
 
 def script_hash(lines): return hashlib.sha1("\n".join(lines).encode()).hexdigest()[:12]
@@ -165,13 +186,19 @@ def build_voice(S, work):
     raw, wj, how = get_voice(S); log("voice:", how)
     V = S.get("voice", {}); tempo = float(V.get("tempo", 1.1)); lead = float(V.get("lead", 0.3))
     y, k = house_chain(raw, tempo, V.get("chain", "house") == "plain")
-    W_ = json.load(open(wj)); lines = script_lines(S)
-    tot = sum(len(l.split()) for l in lines)
+    W_ = json.load(open(wj)); SAY = [L for L in S["lines"] if L.get("say", "").strip()]; lines = [L["say"].strip() for L in SAY]
+    tot = sum(len(l.split()) for l in script_lines(S))
     if tot != len(W_): raise SystemExit(f"voice/script mismatch: script has {tot} words, voice has {len(W_)} (re-voice or fix the spec lines)")
     peak = np.abs(y).max() + 1e-9; y = y / peak * 0.89
     segs, out, idx, t = [], [], 0, lead
-    gaps = [float(L.get("gap", V.get("gap", 0.3))) for L in S["lines"] if L.get("say", "").strip()]
+    gaps = [float(L.get("gap", V.get("gap", 0.3))) for L in SAY]
+    ref = lufs_of(np.stack([y, y])) if any(L.get("wav") for L in SAY) else None
     for i, text in enumerate(lines):
+        if SAY[i].get("wav"):          # a real recording (Noam's own follow line): placed as is, no TTS
+            seg_, wl = own_line(SAY[i], ref); segs.append((t, seg_))
+            out.append(dict(i=i, text=text, t0=round(t + wl[0]["t0"], 3), t1=round(t + wl[-1]["t1"], 3), own=SAY[i]["wav"],
+                            words=[dict(w=w["w"], t0=round(t + w["t0"], 3), t1=round(t + w["t1"], 3)) for w in wl]))
+            t += len(seg_) / SR + gaps[i]; continue
         n = len(text.split()); ws = W_[idx:idx + n]; idx += n
         a, b = ws[0]["start"] * k - 0.05, ws[-1]["end"] * k + 0.10; a = max(0, a)
         seg_ = y[int(a * SR):int(b * SR)].copy(); f = int(0.01 * SR)

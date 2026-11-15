@@ -40,8 +40,9 @@ class MapR:
         s.golan = pack(g["golan"]); s.sinai = pack(g["sinai"]); s.isr = pack(g["isr49"]); s.terr = pack(g["wb"]) + pack(g["gaza"])
     def country(s, code): return s.local.get(code) or s.world[code]
     def view(s, lon, lat, k, cosf, sy): return mt.View((lon, lat), (540.0, sy), k, 0.0, cosf)
-    def render(s, v, bh, hi=(), hi_a=None, israel=True, extra=None):
-        """BGR uint8 (bh, W) of the map under View v. hi: country codes tinted red (alpha per code via hi_a dict)"""
+    def render(s, v, bh, hi=(), hi_a=None, israel=True, extra=None, hi_c=None):
+        """BGR uint8 (bh, W) of the map under View v. hi: country codes tinted red (alpha per code via hi_a dict,
+        colour per code via hi_c dict of '#RRGGBB', default red)"""
         M = v.M(); inv = np.linalg.inv(M); c = mt.apply(inv, np.array([[-40, -40], [W + 40, -40], [-40, bh + 40], [W + 40, bh + 40]], float))
         vb = (c[:, 0].min(), c[:, 1].min(), c[:, 0].max(), c[:, 1].max())
         cv = np.empty((bh, W, 3), np.uint8); cv[:] = s.OCEAN.astype(np.uint8)
@@ -58,7 +59,8 @@ class MapR:
             mt.fill(cv, M, r2, s.LAND, 1.0, vb, outline=s.LAND_B, lw=lw, oalpha=0.55)
         for code in hi:
             a = (hi_a or {}).get(code, 0.88)
-            mt.fill(cv, M, s.country(code), mt.RED, a, vb, outline=mt.hexc("FFB3B5"), lw=lw * 1.2, oalpha=0.9)
+            hc = (hi_c or {}).get(code)
+            mt.fill(cv, M, s.country(code), mt.hexc(hc) if hc else mt.RED, a, vb, outline=mt.hexc("FFFFFF" if hc else "FFB3B5"), lw=lw * 1.2, oalpha=0.6 if hc else 0.9)
         if israel:
             mt.fill(cv, M, s.sinai, s.LAND, 1.0, vb, outline=s.LAND_B, lw=lw, oalpha=0.55)
             if "SYR" in hi: mt.fill(cv, M, s.golan, mt.RED, (hi_a or {}).get("SYR", 0.88), vb)

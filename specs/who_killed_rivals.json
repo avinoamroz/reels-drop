@@ -1,0 +1,326 @@
+{
+ "id": "who_killed_rivals",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*161* dead in 8 days.|Silence?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS"
+ },
+ "lines": [
+  {
+   "say": "161 dead in eight days. Where is the outrage?",
+   "gap": 0.15
+  },
+  {
+   "say": "A party wins an election. Then its gunmen hunt down the rival party.",
+   "screen": "BREAKING: ruling party hunts its *rivals*",
+   "gap": 0.12
+  },
+  {
+   "say": "They throw a rival from a fifteen story building, hands and legs tied.",
+   "screen": "Thrown from *15* floors, hands and legs tied",
+   "gap": 0.12
+  },
+  {
+   "say": "They shoot captured men, again and again, in the legs.",
+   "screen": "Captives shot *in the legs*",
+   "gap": 0.12
+  },
+  {
+   "say": "They execute a rival leader in the street.",
+   "screen": "A rival leader *executed* in the street",
+   "gap": 0.12
+  },
+  {
+   "say": "Within days, they control the whole territory.",
+   "screen": "Full control in *days*",
+   "gap": 0.12
+  },
+  {
+   "say": "How could they? Where are the protests? Where is the U.N.?",
+   "screen": "Where are the *protests?*",
+   "gap": 0.2
+  },
+  {
+   "say": "Oh, wait. That wasn't Israel.",
+   "screen": "Oh, *wait.*",
+   "gap": 0.15
+  },
+  {
+   "say": "That was <<h|ɑ|ˈ|m|ɑ|s>>, killing Fatah. Gaza, June 2007.",
+   "screen": "*HAMAS* vs Fatah. Gaza, June 2007",
+   "gap": 0.12
+  },
+  {
+   "say": "A Palestinian rights group counted 161 dead. 41 were civilians.",
+   "screen": "*161* dead. *41* civilians.",
+   "gap": 0.12
+  },
+  {
+   "say": "Strange. You don't remember the protests?",
+   "screen": "Strange. *No* protests?",
+   "gap": 0.15
+  },
+  {
+   "say": "Fatah forces committed abuses too. They threw a <<h|ɑ|ˈ|m|ɑ|s>> preacher from a high rise.",
+   "screen": "Fatah forces committed *abuses* too",
+   "gap": 0.12
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "Now watch it again, knowing who.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   36.0,
+   31.8,
+   14.0
+  ],
+  "hook_y": 900,
+  "title_y": 370,
+  "cams": [
+   {
+    "at": 0.3,
+    "view": [
+     35.6,
+     31.6,
+     11.0,
+     960
+    ],
+    "dur": 1.6
+   },
+   {
+    "at": "L8-0.2",
+    "view": [
+     34.5,
+     31.45,
+     2.4,
+     900
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L12",
+    "view": [
+     36.0,
+     31.8,
+     14.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "israel_at": "L8",
+  "dim": [
+   {
+    "at": 0,
+    "until": "L8"
+   },
+   {
+    "at": "L12",
+    "until": "END"
+   }
+  ],
+  "zones": [
+   {
+    "at": "L8",
+    "until": "L12",
+    "poly": [
+     [
+      34.22,
+      31.3
+     ],
+     [
+      34.27,
+      31.22
+     ],
+     [
+      34.38,
+      31.31
+     ],
+     [
+      34.53,
+      31.5
+     ],
+     [
+      34.57,
+      31.56
+     ],
+     [
+      34.49,
+      31.6
+     ],
+     [
+      34.35,
+      31.45
+     ]
+    ],
+    "color": "#E5484D",
+    "alpha": 0.4,
+    "label": "Gaza Strip",
+    "label_at": [
+     34.33,
+     31.18
+    ]
+   }
+  ],
+  "icons": [
+   {
+    "at": "L1",
+    "until": "L2",
+    "lon": 35.6,
+    "lat": 31.9,
+    "emo": "🚨",
+    "size": 120
+   },
+   {
+    "at": "L2",
+    "until": "L3",
+    "lon": 35.6,
+    "lat": 31.9,
+    "emo": "🏢",
+    "size": 130
+   },
+   {
+    "at": "L3",
+    "until": "L4",
+    "lon": 35.6,
+    "lat": 31.9,
+    "emo": "⛓️",
+    "size": 120
+   },
+   {
+    "at": "L5",
+    "until": "L6",
+    "lon": 35.6,
+    "lat": 31.9,
+    "emo": "🚩",
+    "size": 120
+   },
+   {
+    "at": "L6",
+    "until": "L7",
+    "lon": 35.6,
+    "lat": 31.9,
+    "emo": "📢",
+    "size": 120
+   },
+   {
+    "at": "L10",
+    "until": "L11",
+    "lon": 34.42,
+    "lat": 31.62,
+    "emo": "🤔",
+    "size": 110
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L1",
+    "until": "L7",
+    "text": "LIVE: BREAKING NEWS",
+    "y": 196,
+    "size": 40,
+    "pill": "#E5484D"
+   },
+   {
+    "at": "L12",
+    "until": "L12e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   },
+   {
+    "at": "L11",
+    "until": "L12",
+    "text": "Which side's abuses *do* you remember?",
+    "y": 1330,
+    "size": 56
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "L7",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Human Rights Watch, 12 June",
+   "year": 2007,
+   "at": "L2",
+   "until": "L3",
+   "y": 1520
+  },
+  {
+   "label": "Human Rights Watch, Internal Fight report",
+   "year": 2008,
+   "at": "L3",
+   "until": "L4",
+   "y": 1520
+  },
+  {
+   "label": "Human Rights Watch, 12 June",
+   "year": 2007,
+   "at": "L4",
+   "until": "L5",
+   "y": 1520
+  },
+  {
+   "label": "Human Rights Watch, Internal Fight report",
+   "year": 2008,
+   "at": "L5",
+   "until": "L6",
+   "y": 1520
+  },
+  {
+   "label": "PCHR, 7 to 14 June 2007, via HRW",
+   "year": 2008,
+   "at": "L9",
+   "until": "L10",
+   "y": 1520
+  },
+  {
+   "label": "HRW, 12 June 2007; B'Tselem, 17 June",
+   "year": 2007,
+   "at": "L11",
+   "until": "L12",
+   "y": 1520
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Fatah forces also *executed* captives, says HRW.",
+  "y": 1000
+ },
+ "cover": {
+  "t": 6.0,
+  "big": "161",
+  "text": "dead in 8 days.|*Silence?*"
+ }
+}

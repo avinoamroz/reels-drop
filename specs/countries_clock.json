@@ -1,0 +1,2788 @@
+{
+ "id": "countries_clock",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*193* countries.|Guess Israel's *rank.*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "193 countries today. Guess where Israel ranks by age.",
+   "gap": 0.15
+  },
+  {
+   "say": "Each one lights up the year it became fully sovereign.",
+   "screen": "Lit when *fully sovereign*",
+   "gap": 0.12
+  },
+  {
+   "say": "The oldest dates go back more than a thousand years. Japan, Denmark, France.",
+   "gap": 0.12
+  },
+  {
+   "say": "1776, the United States. Then Latin America breaks away from Spain.",
+   "gap": 0.12
+  },
+  {
+   "say": "By 1900, only 52 of today's countries exist.",
+   "screen": "1900: only *52*",
+   "at": "L4:52",
+   "gap": 0.12
+  },
+  {
+   "say": "Two world wars later, the map starts moving fast.",
+   "gap": 0.12
+  },
+  {
+   "say": "May 1948. Israel.",
+   "gap": 0.15
+  },
+  {
+   "say": "Israel is country number 81. 112 of today's countries didn't exist yet.",
+   "gap": 0.12
+  },
+  {
+   "say": "1960: seventeen new countries in Africa, in one year.",
+   "screen": "1960: *17* in Africa alone",
+   "at": "L8:seventeen",
+   "gap": 0.12
+  },
+  {
+   "say": "Kuwait, 1961. Qatar, Bahrain and the UAE, 1971.",
+   "screen": "Gulf states: *1961* to *1971*",
+   "gap": 0.12
+  },
+  {
+   "say": "1991: the Soviet Union and Yugoslavia break apart.",
+   "screen": "1991: *14* new countries",
+   "gap": 0.12
+  },
+  {
+   "say": "And South Sudan, 2011. The youngest.",
+   "screen": "*2011:* the youngest",
+   "gap": 0.12
+  },
+  {
+   "say": "Some dates are debated, and age doesn't make a country better.",
+   "screen": "*193* countries, one clock",
+   "gap": 0.12
+  },
+  {
+   "say": "But Israel is older than 112 of the world's 193 countries.",
+   "gap": 0.15
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "Now guess again. 193 countries.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   70.0,
+   34.0,
+   150.0
+  ],
+  "hook_y": 900,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": 0.3,
+    "view": [
+     55.0,
+     38.0,
+     120.0,
+     960
+    ],
+    "dur": 1.6
+   },
+   {
+    "at": "L3-0.2",
+    "view": [
+     -62.0,
+     12.0,
+     120.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L4",
+    "view": [
+     20.0,
+     30.0,
+     170.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L6-0.3",
+    "view": [
+     37.0,
+     31.0,
+     28.0,
+     900
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L8-0.2",
+    "view": [
+     15.0,
+     4.0,
+     85.0,
+     960
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L9-0.2",
+    "view": [
+     44.0,
+     27.0,
+     32.0,
+     900
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L10-0.2",
+    "view": [
+     55.0,
+     47.0,
+     95.0,
+     960
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L11-0.2",
+    "view": [
+     31.0,
+     8.0,
+     50.0,
+     960
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L12-0.2",
+    "view": [
+     20.0,
+     20.0,
+     190.0,
+     960
+    ],
+    "dur": 1.3
+   }
+  ],
+  "highlight": [
+   {
+    "year": 539,
+    "code": "JPN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 714,
+    "code": "DNK",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 843,
+    "code": "FRA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 872,
+    "code": "NOR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 895,
+    "code": "HUN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 970,
+    "code": "SWE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1137,
+    "code": "ETH",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1139.566,
+    "code": "PRT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1154,
+    "code": "OMN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1278.683,
+    "code": "AND",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1291,
+    "code": "SMR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1299,
+    "code": "TUR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1351.175,
+    "code": "THA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1479,
+    "code": "ESP",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1480,
+    "code": "RUS",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1501,
+    "code": "IRN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1559,
+    "code": "NPL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1616,
+    "code": "BTN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1616.127,
+    "code": "CHN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1631,
+    "code": "MAR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1648.813,
+    "code": "CHE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1720,
+    "code": "ITA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1776.508,
+    "code": "USA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1801.0,
+    "code": "GBR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1804.0,
+    "code": "HTI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1806.597,
+    "code": "LIE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1810.399,
+    "code": "ARG",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1810.708,
+    "code": "MEX",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1811.369,
+    "code": "PRY",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1813.885,
+    "code": "NLD",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1815.205,
+    "code": "LUX",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1818.113,
+    "code": "CHL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1819.6,
+    "code": "COL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1821.574,
+    "code": "PER",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1822.232,
+    "code": "GRC",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1822.683,
+    "code": "BRA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1825.597,
+    "code": "BOL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1828.655,
+    "code": "URY",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1830.033,
+    "code": "VEN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1830.366,
+    "code": "ECU",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1830.758,
+    "code": "BEL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1838.818,
+    "code": "HND",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1838.866,
+    "code": "NIC",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1838.869,
+    "code": "CRI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1839.294,
+    "code": "GTM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1841.083,
+    "code": "SLV",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1844.155,
+    "code": "DOM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1847.568,
+    "code": "LBR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1861.086,
+    "code": "MCO",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1863.405,
+    "code": "AFG",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1867.5,
+    "code": "DEU",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1877.358,
+    "code": "ROU",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1902.385,
+    "code": "CUB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1903.839,
+    "code": "PAN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1908.761,
+    "code": "BGR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1912.907,
+    "code": "ALB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1917.93,
+    "code": "FIN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1918.124,
+    "code": "LTU",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1918.146,
+    "code": "EST",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1918.861,
+    "code": "POL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1918.88,
+    "code": "LVA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1918.917,
+    "code": "ISL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1919.691,
+    "code": "AUT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1921.2,
+    "code": "MNG",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1922.157,
+    "code": "EGY",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1931.944,
+    "code": "CAN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1931.944,
+    "code": "IRL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1931.944,
+    "code": "ZAF",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1932.727,
+    "code": "SAU",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1932.755,
+    "code": "IRQ",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1942.772,
+    "code": "AUS",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1943.891,
+    "code": "LBN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1945.627,
+    "code": "IDN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1946.399,
+    "code": "JOR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1946.508,
+    "code": "PHL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1947.619,
+    "code": "PAK",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1947.622,
+    "code": "IND",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1947.899,
+    "code": "NZL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1948.008,
+    "code": "MMR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1948.092,
+    "code": "LKA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1948.622,
+    "code": "KOR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1948.689,
+    "code": "PRK",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1949.167,
+    "code": "LBY",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1953.808,
+    "code": "LAO",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1953.855,
+    "code": "KHM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1956.0,
+    "code": "SDN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1956.219,
+    "code": "TUN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1957.347,
+    "code": "GHA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1957.666,
+    "code": "MYS",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1958.753,
+    "code": "GIN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.0,
+    "code": "CMR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.321,
+    "code": "TGO",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.485,
+    "code": "MDG",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.496,
+    "code": "COD",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.5,
+    "code": "SOM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.583,
+    "code": "BEN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.594,
+    "code": "BFA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.6,
+    "code": "CIV",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.6,
+    "code": "NER",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.611,
+    "code": "TCD",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.616,
+    "code": "CAF",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.622,
+    "code": "COG",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.624,
+    "code": "CYP",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.627,
+    "code": "GAB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.635,
+    "code": "MLI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.635,
+    "code": "SEN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.75,
+    "code": "NGA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1960.907,
+    "code": "MRT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1961.321,
+    "code": "SLE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1961.466,
+    "code": "KWT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1961.741,
+    "code": "SYR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1962.0,
+    "code": "WSM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1962.5,
+    "code": "BDI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1962.5,
+    "code": "RWA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1962.505,
+    "code": "DZA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1962.597,
+    "code": "JAM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1962.666,
+    "code": "TTO",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1962.772,
+    "code": "UGA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1963.947,
+    "code": "KEN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1964.318,
+    "code": "TZA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1964.514,
+    "code": "MWI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1964.721,
+    "code": "MLT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1964.813,
+    "code": "ZMB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1965.13,
+    "code": "GMB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1965.568,
+    "code": "MDV",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1965.605,
+    "code": "SGP",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1965.861,
+    "code": "ZWE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1966.402,
+    "code": "GUY",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1966.746,
+    "code": "BWA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1966.758,
+    "code": "LSO",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1966.913,
+    "code": "BRB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1968.082,
+    "code": "NRU",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1968.197,
+    "code": "MUS",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1968.68,
+    "code": "SWZ",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1968.78,
+    "code": "GNQ",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1970.425,
+    "code": "TON",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1970.775,
+    "code": "FJI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1971.672,
+    "code": "QAT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1971.919,
+    "code": "ARE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1971.958,
+    "code": "BHR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1971.958,
+    "code": "BGD",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1973.525,
+    "code": "BHS",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1973.73,
+    "code": "GNB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1974.1,
+    "code": "GRD",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1975.482,
+    "code": "MOZ",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1975.511,
+    "code": "CPV",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1975.514,
+    "code": "COM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1975.53,
+    "code": "STP",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1975.708,
+    "code": "PNG",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1975.861,
+    "code": "AGO",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1975.899,
+    "code": "SUR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1976.493,
+    "code": "SYC",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1976.503,
+    "code": "VNM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1977.488,
+    "code": "DJI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1978.516,
+    "code": "SLB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1978.75,
+    "code": "TUV",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1978.839,
+    "code": "DMA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1979.141,
+    "code": "LCA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1979.53,
+    "code": "KIR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1979.821,
+    "code": "VCT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1980.579,
+    "code": "VUT",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1981.721,
+    "code": "BLZ",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1981.833,
+    "code": "ATG",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1983.716,
+    "code": "KNA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1984.0,
+    "code": "BRN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1986.805,
+    "code": "MHL",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1986.839,
+    "code": "FSM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1990.221,
+    "code": "NAM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1990.391,
+    "code": "YEM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.272,
+    "code": "GEO",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.482,
+    "code": "SVN",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.646,
+    "code": "UKR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.649,
+    "code": "BLR",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.655,
+    "code": "MDA",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.663,
+    "code": "AZE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.666,
+    "code": "KGZ",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.667,
+    "code": "UZB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.686,
+    "code": "MKD",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.689,
+    "code": "TJK",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.727,
+    "code": "ARM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.769,
+    "code": "HRV",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.821,
+    "code": "TKM",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1991.958,
+    "code": "KAZ",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1992.172,
+    "code": "BIH",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1993.0,
+    "code": "CZE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1993.0,
+    "code": "SVK",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1993.396,
+    "code": "ERI",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 1994.75,
+    "code": "PLW",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 2002.385,
+    "code": "TLS",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 2003.092,
+    "code": "MNE",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 2003.092,
+    "code": "SRB",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   },
+   {
+    "year": 2011.522,
+    "code": "SDS",
+    "color": "#2F7FBF",
+    "flash": "#FFD23F",
+    "flash_s": 0.7,
+    "alpha": 1.0
+   }
+  ],
+  "israel_at": "L6:israel",
+  "clock": {
+   "y": 470,
+   "size": 140,
+   "tick": false,
+   "until": "END-0.6",
+   "steps": [
+    {
+     "at": 0,
+     "year": 500
+    },
+    {
+     "at": "L2:japan",
+     "year": 539
+    },
+    {
+     "at": "L2:france",
+     "year": 843
+    },
+    {
+     "at": "L2e+0.2",
+     "year": 1480
+    },
+    {
+     "at": "L3:1776",
+     "year": 1776
+    },
+    {
+     "at": "L3e",
+     "year": 1845
+    },
+    {
+     "at": "L4:1900",
+     "year": 1900
+    },
+    {
+     "at": "L5e",
+     "year": 1947.9
+    },
+    {
+     "at": "L6:israel",
+     "year": 1948.37
+    },
+    {
+     "at": "L7e",
+     "year": 1948.4
+    },
+    {
+     "at": "L8:1960",
+     "year": 1960.0
+    },
+    {
+     "at": "L8e",
+     "year": 1960.99
+    },
+    {
+     "at": "L9:kuwait",
+     "year": 1961.46
+    },
+    {
+     "at": "L9:1971",
+     "year": 1971.95
+    },
+    {
+     "at": "L10:1991",
+     "year": 1991.0
+    },
+    {
+     "at": "L10e",
+     "year": 1993.6
+    },
+    {
+     "at": "L11:2011",
+     "year": 2011.6
+    },
+    {
+     "at": "L12",
+     "year": 2026
+    }
+   ]
+  },
+  "counter": {
+   "label": "Countries",
+   "y": 1330,
+   "at": "L1",
+   "until": "L12",
+   "steps": [
+    {
+     "at": 0,
+     "value": 0
+    },
+    {
+     "year": 539,
+     "value": 1
+    },
+    {
+     "year": 714,
+     "value": 2
+    },
+    {
+     "year": 843,
+     "value": 3
+    },
+    {
+     "year": 872,
+     "value": 4
+    },
+    {
+     "year": 895,
+     "value": 5
+    },
+    {
+     "year": 970,
+     "value": 6
+    },
+    {
+     "year": 1137,
+     "value": 7
+    },
+    {
+     "year": 1139.566,
+     "value": 8
+    },
+    {
+     "year": 1154,
+     "value": 9
+    },
+    {
+     "year": 1278.683,
+     "value": 10
+    },
+    {
+     "year": 1291,
+     "value": 11
+    },
+    {
+     "year": 1299,
+     "value": 12
+    },
+    {
+     "year": 1351.175,
+     "value": 13
+    },
+    {
+     "year": 1479,
+     "value": 14
+    },
+    {
+     "year": 1480,
+     "value": 15
+    },
+    {
+     "year": 1501,
+     "value": 16
+    },
+    {
+     "year": 1559,
+     "value": 17
+    },
+    {
+     "year": 1616,
+     "value": 18
+    },
+    {
+     "year": 1616.127,
+     "value": 19
+    },
+    {
+     "year": 1631,
+     "value": 20
+    },
+    {
+     "year": 1648.813,
+     "value": 21
+    },
+    {
+     "year": 1720,
+     "value": 22
+    },
+    {
+     "year": 1776.508,
+     "value": 23
+    },
+    {
+     "year": 1801.0,
+     "value": 24
+    },
+    {
+     "year": 1804.0,
+     "value": 25
+    },
+    {
+     "year": 1806.597,
+     "value": 26
+    },
+    {
+     "year": 1810.399,
+     "value": 27
+    },
+    {
+     "year": 1810.708,
+     "value": 28
+    },
+    {
+     "year": 1811.369,
+     "value": 29
+    },
+    {
+     "year": 1813.885,
+     "value": 30
+    },
+    {
+     "year": 1815.205,
+     "value": 31
+    },
+    {
+     "year": 1818.113,
+     "value": 32
+    },
+    {
+     "year": 1819.6,
+     "value": 33
+    },
+    {
+     "year": 1821.574,
+     "value": 34
+    },
+    {
+     "year": 1822.232,
+     "value": 35
+    },
+    {
+     "year": 1822.683,
+     "value": 36
+    },
+    {
+     "year": 1825.597,
+     "value": 37
+    },
+    {
+     "year": 1828.655,
+     "value": 38
+    },
+    {
+     "year": 1830.033,
+     "value": 39
+    },
+    {
+     "year": 1830.366,
+     "value": 40
+    },
+    {
+     "year": 1830.758,
+     "value": 41
+    },
+    {
+     "year": 1838.818,
+     "value": 42
+    },
+    {
+     "year": 1838.866,
+     "value": 43
+    },
+    {
+     "year": 1838.869,
+     "value": 44
+    },
+    {
+     "year": 1839.294,
+     "value": 45
+    },
+    {
+     "year": 1841.083,
+     "value": 46
+    },
+    {
+     "year": 1844.155,
+     "value": 47
+    },
+    {
+     "year": 1847.568,
+     "value": 48
+    },
+    {
+     "year": 1861.086,
+     "value": 49
+    },
+    {
+     "year": 1863.405,
+     "value": 50
+    },
+    {
+     "year": 1867.5,
+     "value": 51
+    },
+    {
+     "year": 1877.358,
+     "value": 52
+    },
+    {
+     "year": 1902.385,
+     "value": 53
+    },
+    {
+     "year": 1903.839,
+     "value": 54
+    },
+    {
+     "year": 1908.761,
+     "value": 55
+    },
+    {
+     "year": 1912.907,
+     "value": 56
+    },
+    {
+     "year": 1917.93,
+     "value": 57
+    },
+    {
+     "year": 1918.124,
+     "value": 58
+    },
+    {
+     "year": 1918.146,
+     "value": 59
+    },
+    {
+     "year": 1918.861,
+     "value": 60
+    },
+    {
+     "year": 1918.88,
+     "value": 61
+    },
+    {
+     "year": 1918.917,
+     "value": 62
+    },
+    {
+     "year": 1919.691,
+     "value": 63
+    },
+    {
+     "year": 1921.2,
+     "value": 64
+    },
+    {
+     "year": 1922.157,
+     "value": 65
+    },
+    {
+     "year": 1931.944,
+     "value": 66
+    },
+    {
+     "year": 1931.944,
+     "value": 67
+    },
+    {
+     "year": 1931.944,
+     "value": 68
+    },
+    {
+     "year": 1932.727,
+     "value": 69
+    },
+    {
+     "year": 1932.755,
+     "value": 70
+    },
+    {
+     "year": 1942.772,
+     "value": 71
+    },
+    {
+     "year": 1943.891,
+     "value": 72
+    },
+    {
+     "year": 1945.627,
+     "value": 73
+    },
+    {
+     "year": 1946.399,
+     "value": 74
+    },
+    {
+     "year": 1946.508,
+     "value": 75
+    },
+    {
+     "year": 1947.619,
+     "value": 76
+    },
+    {
+     "year": 1947.622,
+     "value": 77
+    },
+    {
+     "year": 1947.899,
+     "value": 78
+    },
+    {
+     "year": 1948.008,
+     "value": 79
+    },
+    {
+     "year": 1948.092,
+     "value": 80
+    },
+    {
+     "year": 1948.369,
+     "value": 81
+    },
+    {
+     "year": 1948.622,
+     "value": 82
+    },
+    {
+     "year": 1948.689,
+     "value": 83
+    },
+    {
+     "year": 1949.167,
+     "value": 84
+    },
+    {
+     "year": 1953.808,
+     "value": 85
+    },
+    {
+     "year": 1953.855,
+     "value": 86
+    },
+    {
+     "year": 1956.0,
+     "value": 87
+    },
+    {
+     "year": 1956.219,
+     "value": 88
+    },
+    {
+     "year": 1957.347,
+     "value": 89
+    },
+    {
+     "year": 1957.666,
+     "value": 90
+    },
+    {
+     "year": 1958.753,
+     "value": 91
+    },
+    {
+     "year": 1960.0,
+     "value": 92
+    },
+    {
+     "year": 1960.321,
+     "value": 93
+    },
+    {
+     "year": 1960.485,
+     "value": 94
+    },
+    {
+     "year": 1960.496,
+     "value": 95
+    },
+    {
+     "year": 1960.5,
+     "value": 96
+    },
+    {
+     "year": 1960.583,
+     "value": 97
+    },
+    {
+     "year": 1960.594,
+     "value": 98
+    },
+    {
+     "year": 1960.6,
+     "value": 99
+    },
+    {
+     "year": 1960.6,
+     "value": 100
+    },
+    {
+     "year": 1960.611,
+     "value": 101
+    },
+    {
+     "year": 1960.616,
+     "value": 102
+    },
+    {
+     "year": 1960.622,
+     "value": 103
+    },
+    {
+     "year": 1960.624,
+     "value": 104
+    },
+    {
+     "year": 1960.627,
+     "value": 105
+    },
+    {
+     "year": 1960.635,
+     "value": 106
+    },
+    {
+     "year": 1960.635,
+     "value": 107
+    },
+    {
+     "year": 1960.75,
+     "value": 108
+    },
+    {
+     "year": 1960.907,
+     "value": 109
+    },
+    {
+     "year": 1961.321,
+     "value": 110
+    },
+    {
+     "year": 1961.466,
+     "value": 111
+    },
+    {
+     "year": 1961.741,
+     "value": 112
+    },
+    {
+     "year": 1962.0,
+     "value": 113
+    },
+    {
+     "year": 1962.5,
+     "value": 114
+    },
+    {
+     "year": 1962.5,
+     "value": 115
+    },
+    {
+     "year": 1962.505,
+     "value": 116
+    },
+    {
+     "year": 1962.597,
+     "value": 117
+    },
+    {
+     "year": 1962.666,
+     "value": 118
+    },
+    {
+     "year": 1962.772,
+     "value": 119
+    },
+    {
+     "year": 1963.947,
+     "value": 120
+    },
+    {
+     "year": 1964.318,
+     "value": 121
+    },
+    {
+     "year": 1964.514,
+     "value": 122
+    },
+    {
+     "year": 1964.721,
+     "value": 123
+    },
+    {
+     "year": 1964.813,
+     "value": 124
+    },
+    {
+     "year": 1965.13,
+     "value": 125
+    },
+    {
+     "year": 1965.568,
+     "value": 126
+    },
+    {
+     "year": 1965.605,
+     "value": 127
+    },
+    {
+     "year": 1965.861,
+     "value": 128
+    },
+    {
+     "year": 1966.402,
+     "value": 129
+    },
+    {
+     "year": 1966.746,
+     "value": 130
+    },
+    {
+     "year": 1966.758,
+     "value": 131
+    },
+    {
+     "year": 1966.913,
+     "value": 132
+    },
+    {
+     "year": 1968.082,
+     "value": 133
+    },
+    {
+     "year": 1968.197,
+     "value": 134
+    },
+    {
+     "year": 1968.68,
+     "value": 135
+    },
+    {
+     "year": 1968.78,
+     "value": 136
+    },
+    {
+     "year": 1970.425,
+     "value": 137
+    },
+    {
+     "year": 1970.775,
+     "value": 138
+    },
+    {
+     "year": 1971.672,
+     "value": 139
+    },
+    {
+     "year": 1971.919,
+     "value": 140
+    },
+    {
+     "year": 1971.958,
+     "value": 141
+    },
+    {
+     "year": 1971.958,
+     "value": 142
+    },
+    {
+     "year": 1973.525,
+     "value": 143
+    },
+    {
+     "year": 1973.73,
+     "value": 144
+    },
+    {
+     "year": 1974.1,
+     "value": 145
+    },
+    {
+     "year": 1975.482,
+     "value": 146
+    },
+    {
+     "year": 1975.511,
+     "value": 147
+    },
+    {
+     "year": 1975.514,
+     "value": 148
+    },
+    {
+     "year": 1975.53,
+     "value": 149
+    },
+    {
+     "year": 1975.708,
+     "value": 150
+    },
+    {
+     "year": 1975.861,
+     "value": 151
+    },
+    {
+     "year": 1975.899,
+     "value": 152
+    },
+    {
+     "year": 1976.493,
+     "value": 153
+    },
+    {
+     "year": 1976.503,
+     "value": 154
+    },
+    {
+     "year": 1977.488,
+     "value": 155
+    },
+    {
+     "year": 1978.516,
+     "value": 156
+    },
+    {
+     "year": 1978.75,
+     "value": 157
+    },
+    {
+     "year": 1978.839,
+     "value": 158
+    },
+    {
+     "year": 1979.141,
+     "value": 159
+    },
+    {
+     "year": 1979.53,
+     "value": 160
+    },
+    {
+     "year": 1979.821,
+     "value": 161
+    },
+    {
+     "year": 1980.579,
+     "value": 162
+    },
+    {
+     "year": 1981.721,
+     "value": 163
+    },
+    {
+     "year": 1981.833,
+     "value": 164
+    },
+    {
+     "year": 1983.716,
+     "value": 165
+    },
+    {
+     "year": 1984.0,
+     "value": 166
+    },
+    {
+     "year": 1986.805,
+     "value": 167
+    },
+    {
+     "year": 1986.839,
+     "value": 168
+    },
+    {
+     "year": 1990.221,
+     "value": 169
+    },
+    {
+     "year": 1990.391,
+     "value": 170
+    },
+    {
+     "year": 1991.272,
+     "value": 171
+    },
+    {
+     "year": 1991.482,
+     "value": 172
+    },
+    {
+     "year": 1991.646,
+     "value": 173
+    },
+    {
+     "year": 1991.649,
+     "value": 174
+    },
+    {
+     "year": 1991.655,
+     "value": 175
+    },
+    {
+     "year": 1991.663,
+     "value": 176
+    },
+    {
+     "year": 1991.666,
+     "value": 177
+    },
+    {
+     "year": 1991.667,
+     "value": 178
+    },
+    {
+     "year": 1991.686,
+     "value": 179
+    },
+    {
+     "year": 1991.689,
+     "value": 180
+    },
+    {
+     "year": 1991.727,
+     "value": 181
+    },
+    {
+     "year": 1991.769,
+     "value": 182
+    },
+    {
+     "year": 1991.821,
+     "value": 183
+    },
+    {
+     "year": 1991.958,
+     "value": 184
+    },
+    {
+     "year": 1992.172,
+     "value": 185
+    },
+    {
+     "year": 1993.0,
+     "value": 186
+    },
+    {
+     "year": 1993.0,
+     "value": 187
+    },
+    {
+     "year": 1993.396,
+     "value": 188
+    },
+    {
+     "year": 1994.75,
+     "value": 189
+    },
+    {
+     "year": 2002.385,
+     "value": 190
+    },
+    {
+     "year": 2003.092,
+     "value": 191
+    },
+    {
+     "year": 2003.092,
+     "value": 192
+    },
+    {
+     "year": 2011.522,
+     "value": 193
+    }
+   ]
+  },
+  "icons": [
+   {
+    "at": "L6:israel",
+    "until": "L8",
+    "lon": 35.0,
+    "lat": 31.6,
+    "emo": "🇮🇱",
+    "size": 90,
+    "label": "Israel",
+    "label_dy": -80
+   },
+   {
+    "at": "L9:kuwait",
+    "until": "L10",
+    "lon": 47.7,
+    "lat": 29.3,
+    "emo": "🇰🇼",
+    "size": 64,
+    "label": "Kuwait 1961",
+    "label_dy": -70
+   },
+   {
+    "at": "L9:qatar",
+    "until": "L10",
+    "lon": 51.2,
+    "lat": 25.3,
+    "emo": "🇶🇦",
+    "size": 64,
+    "label": "Qatar 1971",
+    "label_dy": 70
+   },
+   {
+    "at": "L9:bahrain",
+    "until": "L10",
+    "lon": 50.55,
+    "lat": 26.1,
+    "emo": "🇧🇭",
+    "size": 64,
+    "label": "Bahrain 1971",
+    "label_dy": -70
+   },
+   {
+    "at": "L9:uae",
+    "until": "L10",
+    "lon": 54.4,
+    "lat": 24.2,
+    "emo": "🇦🇪",
+    "size": 64,
+    "label": "UAE 1971",
+    "label_dy": 70
+   },
+   {
+    "at": "L11:south",
+    "until": "L12",
+    "lon": 31.3,
+    "lat": 7.3,
+    "emo": "🇸🇸",
+    "size": 70,
+    "label": "South Sudan 2011",
+    "label_dy": 75
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L7:81",
+    "until": "L8",
+    "text": "Israel: country *#81*",
+    "y": 640,
+    "size": 72
+   },
+   {
+    "at": "L7:112",
+    "until": "L8",
+    "text": "*112* of today's countries came later",
+    "y": 780,
+    "size": 60
+   },
+   {
+    "at": "L7:112+0.6",
+    "until": "L8",
+    "text": "Older: Egypt 1922, Lebanon 1943, Jordan 1946",
+    "y": 1120,
+    "size": 44
+   },
+   {
+    "at": "L12",
+    "until": "L13",
+    "text": "Dates are *debated.*|Age doesn't make a country better.",
+    "y": 1000,
+    "size": 64
+   },
+   {
+    "at": "L12",
+    "until": "L13",
+    "text": "Which birth year *surprised* you?",
+    "y": 1420,
+    "size": 60
+   },
+   {
+    "at": "L14",
+    "until": "L14e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   },
+   {
+    "at": "L13",
+    "until": "L14",
+    "text": "Save this map",
+    "y": 640,
+    "size": 48,
+    "pill": "#45A4DD"
+   }
+  ],
+  "big": [
+   {
+    "at": "L13",
+    "until": "L14",
+    "value": 112,
+    "from": 1,
+    "sub": "of 193 countries are younger",
+    "y": 1000
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/underdog_rounds/decl1948.jpg",
+    "at": "L6:israel+0.3",
+    "until": "L6e+0.5",
+    "credit": "Declaration, 14 May 1948: Rudi Weissenstein, public domain"
+   },
+   {
+    "file": "templates/photos/palestine_rebrand/post1948.jpg",
+    "at": "L6e+0.5",
+    "until": "L7:81",
+    "credit": "The Palestine Post, 16 May 1948, public domain"
+   },
+   {
+    "file": "templates/photos/ikigai_nations/ik_dxb.jpg",
+    "at": "L9:1971",
+    "until": "L9e+0.1",
+    "credit": "Dubai: Chris Olszewski, CC BY-SA 4.0"
+   }
+  ],
+  "photo_box": [
+   110,
+   560,
+   860,
+   520,
+   28
+  ],
+  "dim": [
+   {
+    "at": "L12",
+    "until": "END"
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "L13",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Wikipedia: states by date of full sovereignty",
+   "year": 2026,
+   "at": "L1",
+   "until": "L6",
+   "y": 1525
+  },
+  {
+   "label": "Same dataset, 193 UN members",
+   "year": 2026,
+   "at": "L13",
+   "until": "L14",
+   "y": 1525
+  }
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "193",
+  "text": "countries.|Guess Israel's *rank.*"
+ }
+}
