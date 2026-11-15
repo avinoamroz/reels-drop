@@ -1,0 +1,139 @@
+{
+ "id": "countries_clock",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*193* countries.|Guess Israel's *rank.*",
+ "duration": 58.57,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/countries_clock.mp4",
+  "cover": "covers/countries_clock_cover.jpg",
+  "preview": "previews/countries_clock_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/countries_clock_0.jpg",
+  "1": "out/frames/countries_clock_1.jpg",
+  "3": "out/frames/countries_clock_3.jpg",
+  "last": "out/frames/countries_clock_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Wikipedia: states by date of full sovereignty",
+   "year": 2026,
+   "at": "L1",
+   "until": "L6",
+   "y": 1525
+  },
+  {
+   "label": "Same dataset, 193 UN members",
+   "year": 2026,
+   "at": "L13",
+   "until": "L14",
+   "y": 1525
+  }
+ ],
+ "transcript": {
+  "score": 0.985,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "193 countries today. Guess where Israel ranks by age.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Each one lights up the year it became fully sovereign.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The oldest dates go back more than a thousand years. Japan, Denmark, France.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "1776, the United States. Then Latin America breaks away from Spain.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By 1900, only 52 of today's countries exist.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two world wars later, the map starts moving fast.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "May 1948. Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel is country number 81. 112 of today's countries didn't exist yet.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1960: seventeen new countries in Africa, in one year.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Kuwait, 1961. Qatar, Bahrain and the UAE, 1971.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1991: the Soviet Union and Yugoslavia break apart.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And South Sudan, 2011. The youngest.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Some dates are debated, and age doesn't make a country better.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But Israel is older than 112 of the world's 193 countries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Now guess again. 193 countries.",
+    "score": 0.889,
+    "flag": "ok"
+   }
+  ],
+  "heard": "193 countries today. Guess where Israel ranks by age? Each one lights up the year it became fully sovereign. The oldest states go back more than a thousand years. Japan, Denmark, France, 1776, the United States. Then Latin America breaks away from Spain. By 1900, only 52 of today's countries exist. Two world wars later, the map starts moving fast. May 1948, Israel. Israel is country number 81. 112 of today's countries didn't exist yet. 1960, 17 new countries in Africa in one year, Kuwait 1961, Qatar, Bahrain and the UAE 1971. 1991, the Soviet Union and Yugoslavia break apart, and South Sudan 2011. The youngest. Some dates are debated and age doesn't make a country better. But Israel is older than 112 of the world's 193 countries. If you love Israeli facts, follow Noam Ross for more. Don't guess again, 193 countries.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 58.56,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 165.7
+}
