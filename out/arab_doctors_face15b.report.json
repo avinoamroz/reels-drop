@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "face_hook",
  "hook": "Arabs: *21%* of Israel.|Doctors?",
- "duration": 56.9,
+ "duration": 56.3,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -1.4
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/arab_doctors_face15b.mp4",
@@ -29,7 +29,7 @@
   }
  ],
  "transcript": {
-  "score": 0.982,
+  "score": 0.976,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -38,8 +38,8 @@
     "flag": "ok"
    },
    {
-    "line": "Here's an apartheid test almost nobody runs. One 2025 study in the Israel Journal of Health Policy Research. Start in 2010. Arab citizens are 8% of doctors, 17%",
-    "score": 0.993,
+    "line": "part-time test almost nobody runs. One 2025 study in the Israel Journal of Health Policy Research. Start in 2010. Arab citizens are 8% of doctors, 17% of nurses",
+    "score": 0.986,
     "flag": "ok"
    },
    {
@@ -48,70 +48,70 @@
     "flag": "ok"
    }
   ],
-  "heard": "Arabs are 21% of Israel. How about the doctors? Here's an apartheid test almost nobody runs. One 2025 study in the Israel Journal of Health Policy Research. Start in 2010. Arab citizens are 8% of doctors, 17% of nurses, 19% of dentists, 28% of pharmacists. Now watch 2023. 13 years later, doctors, 25%, more than triple and 13 years, nurses and dentists, 27%. pharmacists 49% almost half. Pick up medicine in Israel and it's close to a coin flip that an Arab pharmacist hands it to you. And of all new doctors licensed since 2010 38% are Arab. That's the next generation of Israeli medicine. The same study says real gaps and challenges remain. Equality is not finished. If you love Israeli facts, follow Noah Mraz for more. So the next time someone says apartheid, ask them this.",
+  "heard": "Arabs are 21% of Israel. How about the doctor? Here's an apartheid test almost nobody runs. One 2025 study in the Israel Journal of Health Policy Research. Start in 2010. Arab citizens are 8% of doctors. 17% of nurses. 19% of dentists. 28% of pharmacists. Now watch 2023. 13 years later. Doctors. 25%. More than triple in 13 years. Nurses and dentists. 27%. pharmacists 49% almost half. Pick up medicine in Israel and it's close to a coin flip that an Arab pharmacist hands it to you. And of all new doctors licensed since 2010 38% are Arab. That's the next generation of Israeli medicine. The same study says real gaps and challenges remain. Equality is not finished. If you love Israeli facts, follow Noah Mraz for more. So the next time someone says apartheid, ask them this.",
   "expected": "Noam's words, source transcript after the cut, follow line"
  },
  "status": "rendered, not posted",
  "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
  "clip": "hooks/face/hb_arab_doctors.mp4",
  "said": "Arabs are 21% of Israel. How about the doctors?",
- "clip_heard": "How about the doctors?",
- "said_match": 0.364,
+ "clip_heard": "Arabs are 21 % of Israel. How about the doctor?",
+ "said_match": 0.909,
  "said_words": [
   [
    "Arabs",
-   0.25,
-   0.6
+   0.0,
+   0.68
   ],
   [
    "are",
-   0.6,
-   0.95
+   0.68,
+   0.86
   ],
   [
    "21%",
-   0.95,
-   1.3
+   0.86,
+   1.5
   ],
   [
    "of",
-   1.3,
-   1.65
+   1.5,
+   1.68
   ],
   [
    "Israel.",
-   1.65,
-   2.0
+   1.68,
+   1.96
   ],
   [
    "How",
-   2.0,
-   2.32
+   2.46,
+   2.54
   ],
   [
    "about",
-   2.32,
+   2.54,
    2.64
   ],
   [
    "the",
    2.64,
-   2.76
+   2.78
   ],
   [
    "doctors?",
-   2.76,
-   2.92
+   2.78,
+   3.13
   ]
  ],
  "clip_trim": [
-  0.17,
-  3.06
+  0.0,
+  3.1
  ],
- "face_s": 2.9,
+ "face_s": 3.1,
  "source": "out/arab_doctors.mp4",
- "cut": 4.42,
- "cut_how": "after 'share of its doctors' (1.0)",
+ "cut": 5.21,
+ "cut_how": "after 'share of its doctors' (1.0), snapped from 4.42 to the next word",
  "follow": "inserted before 'so the next time someone says' at 52.36 s (1.0)",
  "follow_part": {
   "freeze_at": 52.32,
@@ -136,26 +136,27 @@
   "body": -16.1
  },
  "levels_final": {
-  "face": -15.2,
-  "body": -16.0
+  "face": -15.3,
+  "body": -16.1
  },
+ "level_passes": 2,
  "mix": {
   "lufs": -16.0,
-  "true_peak": -1.4
+  "true_peak": -2.1
  },
- "body_kept_s": 51.08,
+ "body_kept_s": 50.29,
  "subs": [
   [
    "Arabs are 21% of Israel.",
-   0.08000000000000002,
-   1.81
+   0.0,
+   2.44
   ],
   [
    "How about the doctors?",
-   1.83,
-   2.75
+   2.46,
+   3.13
   ]
  ],
  "lint_warnings": [],
- "render_s": 98.0
+ "render_s": 108.8
 }
