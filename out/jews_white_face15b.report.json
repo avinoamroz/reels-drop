@@ -1,6 +1,171 @@
 {
-  "id": "jews_white_face15b",
-  "status": "FAILED",
-  "run": "43690788924",
-  "log": "face_hook: no new voice needed\nWarning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n[07:38:37] clip hooks/face/hb_jews_white.mp4: heard 'Are Jews white? Watch where they actually came from.' (match 1.0), trim 0.00 to 3.50 s\n[07:38:48] frame 0/105\n[07:39:01] frame 0/88\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 33, in main\n    rep = CM.finish(S, final, extra)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 492, in finish\n    p = f\"out/frames/{sid}_{lab}.jpg\"; cv2.imwrite(os.path.join(REPO, p), grab(final, t, 540), [cv2.IMWRITE_JPEG_QUALITY, 85]); frames[lab] = p\n                                                                          ^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 455, in grab\n    return cv2.imdecode(np.frombuffer(r, np.uint8), cv2.IMREAD_COLOR)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncv2.error: OpenCV(5.0.0) /io/opencv/modules/imgcodecs/src/loadsave.cpp:1291: error: (-215:Assertion failed) !buf.empty() in function 'imdecode_'\n\n"
+ "id": "jews_white_face15b",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*9* places.|Are Jews white?",
+ "duration": 57.8,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -3.7
+ },
+ "outputs": {
+  "mp4": "out/jews_white_face15b.mp4",
+  "cover": "covers/jews_white_face15b_cover.jpg",
+  "preview": "previews/jews_white_face15b_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/jews_white_face15b_0.jpg",
+  "1": "out/frames/jews_white_face15b_1.jpg",
+  "3": "out/frames/jews_white_face15b_3.jpg",
+  "last": "out/frames/jews_white_face15b_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "Pew Research Center",
+   "year": 2016
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.976,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Are Jews white? Watch where they actually came from.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara. And Uzbek",
+    "score": 0.971,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Are Jews white? Watch where they actually came from. Here is a white Jew from Yemen. A white Jew from Ethiopia. Very white. Morocco. White. Iraq. Also white. Iran. Persian white. Kurdistan. Kurdish white. Bukhara in Uzbekistan. White. India. Extremely white. And Poland. Okay, this one is actually white. All white. Can't you see? Here's the thing. About half of Israel's Jews are Mizrahi or Sephardi. Their families came from North Africa, the Middle East, and Asia. And almost 180,000 Israelis have roots in Ethiopia. Nine places on this map. Thousands of kilometers apart. One people. Jews are not a skin color. We're a people. If you love Israeli facts, follow Noam Roz for more. The next time someone tells you",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/hb_jews_white.mp4",
+ "said": "Are Jews white? Watch where they actually came from.",
+ "clip_heard": "Are Jews white? Watch where they actually came from.",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "Are",
+   0.0,
+   0.54
+  ],
+  [
+   "Jews",
+   0.54,
+   0.76
+  ],
+  [
+   "white?",
+   0.76,
+   1.12
+  ],
+  [
+   "Watch",
+   2.04,
+   2.42
+  ],
+  [
+   "where",
+   2.42,
+   2.56
+  ],
+  [
+   "they",
+   2.56,
+   2.74
+  ],
+  [
+   "actually",
+   2.74,
+   2.98
+  ],
+  [
+   "came",
+   2.98,
+   3.24
+  ],
+  [
+   "from.",
+   3.24,
+   3.48
+  ]
+ ],
+ "clip_trim": [
+  0.0,
+  3.5
+ ],
+ "face_s": 3.5,
+ "source": "jews_white.mp4",
+ "cut": 5.89,
+ "cut_how": "fixed, snapped from 5.40 to the next word",
+ "follow": "inserted before 'so next time someone tells' at 54.42 s (1.0)",
+ "follow_part": {
+  "freeze_at": 54.38,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -14.2
+ },
+ "levels_final": {
+  "face": -16.1,
+  "body": -16.1
+ },
+ "level_passes": 1,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -3.7
+ },
+ "body_kept_s": 51.41,
+ "subs": [
+  [
+   "Are Jews white?",
+   0.0,
+   2.02
+  ],
+  [
+   "Watch where they",
+   2.04,
+   2.72
+  ],
+  [
+   "actually came from.",
+   2.74,
+   3.48
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 98.8
 }
