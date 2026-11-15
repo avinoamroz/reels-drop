@@ -168,11 +168,11 @@
   ],
   "book": {
    "at": "L11:called",
-   "until": "L13",
+   "until": "L13:real",
    "title": "Mein Kampf",
    "sub": "= My Struggle",
    "sub_at": "L12",
-   "src": "Mein Kampf, vol. 1 published 18 July 1925 (Historisches Lexikon Bayerns)"
+   "src": "Vol. 1 published 18 July 1925 (Hist. Lexikon Bayerns)"
   },
   "cams": [
    {
