@@ -6,7 +6,7 @@
  "duration": 46.2,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.2
  },
  "outputs": {
   "mp4": "out/s3000_talk15.mp4",
@@ -59,7 +59,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone on it, one name, Israel. 9th century BCE, a stone in Dan mentions the house of David. Around 700 BCE, under Jerusalem, workers carve a tunnel inscription in Hebrew. Around 600 BCE, like 100 years later, two tiny silver scrolls with a priestly blessing. The oldest Bible text ever found. 132 CE, coins from the revolt say, for the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But stones don't lie. Jews were here. If you love Israeli facts, follow Noam Ross for more. Comment history and I'll send you the sources.",
+  "heard": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone on it, one name, Israel. 9th century BCE, a stone in Dan mentions the House of David. Around 700 BCE, under Jerusalem, workers carve a tunnel inscription in Hebrew. Around 600 BCE, like 100 years later, two tiny silver scrolls with a priestly blessing. The oldest Bible text ever found. 132 CE, coins from the revolt say for the freedom of Jerusalem. There, other peoples lived here too, and their stones are here as well. But stones don't lie. Jews were here. If you love Israeli facts, follow Noam Ross for more. Comment history and I'll send you the sources.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -103,11 +103,7 @@
    72.4
   ],
   [
-   73.42,
-   74.15
-  ],
-  [
-   78.17,
+   77.45,
    81.05
   ],
   [
@@ -167,12 +163,7 @@
   ],
   [
    "clip",
-   73.42,
-   74.15
-  ],
-  [
-   "clip",
-   78.17,
+   77.45,
    81.05
   ],
   [
@@ -193,11 +184,11 @@
  ],
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.2
  },
  "levels": {
-  "speech": -17.9,
-  "follow_before_mix": -17.9
+  "speech": -17.7,
+  "follow_before_mix": -17.7
  },
  "subs": [
   [
@@ -318,21 +309,21 @@
   [
    "for the freedom of Jerusalem.",
    33.25333333333333,
-   34.85333333333333
+   35.193333333333335
   ],
   [
    "Other peoples lived here too",
-   34.873333333333335,
-   36.30466666666667
+   35.21333333333334,
+   36.73333333333333
   ],
   [
    "and their stones are",
-   36.32466666666667,
-   37.44866666666666
+   36.75333333333333,
+   37.77333333333333
   ],
   [
    "here as well.",
-   37.468666666666664,
+   37.79333333333334,
    38.31333333333333
   ],
   [
@@ -413,14 +404,9 @@
    "132 CE, coins from the revolt say for the freedom of Jerusalem."
   ],
   [
-   73.42,
-   74.15,
-   "other people."
-  ],
-  [
-   78.17,
+   77.45,
    81.05,
-   "people's lived here too and their stones are here as well."
+   "fair, other peoples lived here too, and their stones are here as well."
   ],
   [
    81.1,
@@ -461,13 +447,8 @@
   ],
   [
    72.4,
-   73.42,
-   "to be fair"
-  ],
-  [
-   74.15,
-   78.17,
-   "To be fair, other"
+   77.45,
+   "to be fair other people's to be"
   ]
  ],
  "said": "3,000 years. Who actually lived here? Don't take my word for it. Look at the stones. 1208 BCE, an Egyptian pharaoh carved a victory stone. On it, one name, Israel. 9th century BCE, a stone in Dan mentions the house of David. Around 700 BCE, under Jerusalem, workers carved a tunnel inscription in Hebrew. Around 600 BCE, like a hundred years later, two tiny silver scrolls with a priestly blessing. The oldest Bible text ever found. 132 CE, coins from the revolt say, for the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But stones don't lie. Jews were here. Comment HISTORY, and I'll send you the sources.",
@@ -519,14 +500,9 @@
    1.0
   ],
   [
-   73.42,
-   74.15,
-   1.0
-  ],
-  [
-   78.17,
+   77.45,
    81.05,
-   0.0
+   1.0
   ],
   [
    81.1,
@@ -572,5 +548,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 217.4
+ "render_s": 209.1
 }
