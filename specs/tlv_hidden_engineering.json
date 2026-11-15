@@ -1,0 +1,484 @@
+{
+ "id": "tlv_hidden_engineering",
+ "account": "noamroz__",
+ "template": "city_flyover",
+ "hook": "Tel Aviv's *3* hidden|engineering tricks",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "duck_db": 12
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "<<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>": "Noam Roz"
+ },
+ "lines": [
+  {
+   "say": "This is Tel Aviv. Three pieces of hidden engineering keep it running."
+  },
+  {
+   "say": "One. This long green strip is Yarkon Park.",
+   "screen": "*1.* Yarkon Park"
+  },
+  {
+   "say": "It's about as big as New York's Central Park.",
+   "screen": "About the size of *Central Park*"
+  },
+  {
+   "say": "Until the 1930s, this river powered seven flour mills.",
+   "screen": "*7* flour mills on the river"
+  },
+  {
+   "say": "Two. The Ayalon, the city's main highway.",
+   "screen": "*2.* The Ayalon highway"
+  },
+  {
+   "say": "It was built along a stream, and the stream is still there.",
+   "screen": "Built along a *stream*"
+  },
+  {
+   "say": "It runs in a concrete channel, squeezed between the lanes and the railway.",
+   "screen": "A *concrete channel* beside the lanes"
+  },
+  {
+   "say": "In a big winter storm, it fills up fast.",
+   "screen": "Winter storm: it *fills up*"
+  },
+  {
+   "say": "In January 2013, it overflowed, and the highway closed from Glilot to HaShalom."
+  },
+  {
+   "say": "It closed again in December 2018."
+  },
+  {
+   "say": "Three. The streets themselves.",
+   "screen": "*3.* The street plan"
+  },
+  {
+   "say": "In 1925, a Scottish planner, Patrick Geddes, drew shady boulevards and blocks built around gardens.",
+   "screen": "Patrick Geddes plan, *1925*"
+  },
+  {
+   "say": "East west streets carry the sea breeze into the city.",
+   "screen": "East west streets catch the *sea breeze*"
+  },
+  {
+   "say": "In 2003, UNESCO made the White City a World Heritage Site.",
+   "screen": "UNESCO World Heritage, *2003*"
+  },
+  {
+   "say": "If you like Israel facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more.",
+   "screen": "Which city should I fly over *next?*"
+  },
+  {
+   "say": "So next time you're stuck on the Ayalon, look beside you. That's a river.",
+   "screen": "Look beside you: *that's a river*"
+  }
+ ],
+ "data": {
+  "city": "templates/data/city_tlv",
+  "exag": 1.5,
+  "cam0": {
+   "lon": 34.786,
+   "lat": 32.068,
+   "dist": 5200,
+   "yaw": 15,
+   "pitch": 52
+  },
+  "drift": {
+   "yaw": 14,
+   "dist": -0.08
+  },
+  "cams": [
+   {
+    "at": 0.15,
+    "dur": 3.0,
+    "dist": 4300
+   },
+   {
+    "at": "L1-0.3",
+    "dur": 2.0,
+    "lon": 34.806,
+    "lat": 32.097,
+    "dist": 4600,
+    "yaw": 2,
+    "pitch": 46
+   },
+   {
+    "at": "L3",
+    "dur": 2.2,
+    "lon": 34.8,
+    "lat": 32.1,
+    "dist": 2800,
+    "yaw": 25,
+    "pitch": 50
+   },
+   {
+    "at": "L4-0.3",
+    "dur": 2.0,
+    "lon": 34.7937,
+    "lat": 32.072,
+    "dist": 2600,
+    "yaw": 8,
+    "pitch": 55
+   },
+   {
+    "at": "L6",
+    "dur": 2.5,
+    "lon": 34.7945,
+    "lat": 32.077,
+    "dist": 1500,
+    "yaw": 14,
+    "pitch": 58
+   },
+   {
+    "at": "L8",
+    "dur": 3.0,
+    "lon": 34.797,
+    "lat": 32.082,
+    "dist": 2400,
+    "yaw": 0,
+    "pitch": 54
+   },
+   {
+    "at": "L10-0.3",
+    "dur": 2.0,
+    "lon": 34.776,
+    "lat": 32.08,
+    "dist": 3300,
+    "yaw": -12,
+    "pitch": 46
+   },
+   {
+    "at": "L11:boulevards",
+    "dur": 2.6,
+    "lon": 34.776,
+    "lat": 32.073,
+    "dist": 2300,
+    "yaw": -4,
+    "pitch": 52
+   },
+   {
+    "at": "L12",
+    "dur": 2.4,
+    "lon": 34.774,
+    "lat": 32.082,
+    "dist": 2700,
+    "yaw": 80,
+    "pitch": 50
+   },
+   {
+    "at": "L13",
+    "dur": 2.2,
+    "lon": 34.776,
+    "lat": 32.078,
+    "dist": 2500,
+    "yaw": -8,
+    "pitch": 48
+   },
+   {
+    "at": "L15",
+    "dur": 2.6,
+    "lon": 34.786,
+    "lat": 32.068,
+    "dist": 5200,
+    "yaw": 15,
+    "pitch": 52
+   }
+  ],
+  "hl": [
+   {
+    "at": "L1",
+    "until": "L4-0.3",
+    "layer": "yarkon",
+    "pulse": true
+   },
+   {
+    "at": "L3",
+    "until": "L4-0.3",
+    "layer": "water",
+    "a": 0.6
+   },
+   {
+    "at": "L4",
+    "until": "L6",
+    "layer": "ayalon",
+    "a": 0.55
+   },
+   {
+    "at": "L11:boulevards",
+    "until": "L14",
+    "layer": "blvd",
+    "a": 0.9
+   },
+   {
+    "at": "L11:gardens",
+    "until": "L14",
+    "layer": "gardens",
+    "a": 0.8
+   },
+   {
+    "at": "L15:Ayalon",
+    "until": "END-0.6",
+    "layer": "channel",
+    "a": 0.8
+   }
+  ],
+  "flood": {
+   "at": "L6:concrete",
+   "spill": "L7:fills",
+   "until": "L10-0.3"
+  },
+  "shapes": [
+   {
+    "at": "L2:Central",
+    "until": "L3",
+    "kind": "rect",
+    "lon": 34.8079,
+    "lat": 32.0993,
+    "w": 4023,
+    "h": 805,
+    "rot": -6,
+    "color": "#FFD23F",
+    "label": "Central Park, same scale"
+   },
+   {
+    "at": "L11",
+    "until": "L14",
+    "kind": "poly",
+    "color": "#45A4DD",
+    "fill": 0.12,
+    "label": "Geddes plan area (approx.)",
+    "pts": [
+     [
+      34.77,
+      32.097
+     ],
+     [
+      34.776,
+      32.0975
+     ],
+     [
+      34.7825,
+      32.093
+     ],
+     [
+      34.7815,
+      32.078
+     ],
+     [
+      34.776,
+      32.072
+     ],
+     [
+      34.7665,
+      32.073
+     ],
+     [
+      34.7695,
+      32.085
+     ]
+    ]
+   }
+  ],
+  "pins": [
+   {
+    "at": "L4",
+    "until": "L6",
+    "lon": 34.7937,
+    "lat": 32.075,
+    "label": "Ayalon Highway",
+    "color": "#45A4DD"
+   },
+   {
+    "at": "L11:boulevards",
+    "until": "L12",
+    "lon": 34.7755,
+    "lat": 32.066,
+    "label": "Rothschild Boulevard"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/tlv_hidden_engineering/the_mills1921.jpg",
+    "at": "L3:seven",
+    "until": "L4-0.3",
+    "credit": "Seven Mills, 1921, Frank Scholten, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.45,
+     0.55,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/tlv_hidden_engineering/the_ayalon.jpg",
+    "at": "L6:squeezed",
+    "until": "L7",
+    "credit": "Ilya Platonov, public domain",
+    "kb": [
+     0.45,
+     0.8,
+     1.3,
+     0.45,
+     0.85,
+     1.6
+    ]
+   },
+   {
+    "file": "templates/photos/tlv_hidden_engineering/the_geddes.jpg",
+    "at": "L11:Patrick",
+    "until": "L11:blocks",
+    "credit": "Patrick Geddes, 1932, Bassano Ltd, public domain",
+    "kb": [
+     0.5,
+     0.35,
+     1.0,
+     0.5,
+     0.35,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/tlv_hidden_engineering/the_bauhaus.jpg",
+    "at": "L13",
+    "until": "L14",
+    "credit": "Rothschild Blvd, Artem.G, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/tlv_hidden_engineering/the_yaerial.jpg",
+    "at": "L1:Yarkon",
+    "until": "L2:Central",
+    "credit": "Yarkon Park, Ynhockey, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.6,
+     1.0,
+     0.56,
+     0.6,
+     1.15
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L8",
+    "until": "L9",
+    "text": "8 Jan 2013",
+    "sub": "Ayalon closed, both directions"
+   },
+   {
+    "at": "L9",
+    "until": "L10-0.3",
+    "text": "7 Dec 2018",
+    "sub": "Closed about 5 hours"
+   },
+   {
+    "at": "L13:World",
+    "until": "L14",
+    "text": "About 4,000",
+    "sub": "Bauhaus style buildings"
+   }
+  ],
+  "stamp": [
+   {
+    "at": "L8:closed",
+    "until": "L9",
+    "text": "CLOSED",
+    "color": "red",
+    "y": 820
+   }
+  ],
+  "photo_box": [
+   400,
+   960
+  ],
+  "title_y": 300,
+  "hook_y": 700,
+  "big_y": 1250
+ },
+ "sources": [
+  {
+   "label": "Yarkon Park 3.5 km², Central Park 3.4 km²: Wikipedia",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Seven Mills: Ganei Yehoshua park company",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Channel between highway and rail: ynet",
+   "year": 2026,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "Globes, 8 Jan",
+   "year": 2013,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Ynetnews, 7 Dec",
+   "year": 2018,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Geddes Plan for Tel Aviv",
+   "year": 1925,
+   "at": "L11",
+   "until": "L13"
+  },
+  {
+   "label": "UNESCO; Tel Aviv-Yafo Municipality",
+   "year": 2003,
+   "at": "L13",
+   "until": "L14"
+  },
+  {
+   "label": "Flood risk and drainage works: ynet; Calcalist",
+   "year": 2026,
+   "at": "L14",
+   "until": "L14e"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "until": "L14e+0.3",
+  "y": 1080,
+  "balance": "Flooding is still a risk: new drainage works are under way.",
+  "balance2": "Like Israel facts? Follow @noamroz__",
+  "cta": "Comment HOME for the sources"
+ },
+ "caption_en": "Most drivers on this highway never notice what's running right beside them.\n\nThree pieces of hidden engineering in Tel Aviv:\n1. Yarkon Park is about the size of New York's Central Park (3.5 km² vs 3.4 km²). Until the 1930s the Yarkon River powered the Seven Mills, Ottoman era flour mills.\n2. The Ayalon highway was built along the Ayalon stream. The stream still runs in a concrete channel squeezed between the lanes and the railway. In big storms it overflows: on 8 Jan 2013 the highway closed in both directions from Glilot to HaShalom, and on 7 Dec 2018 it closed for about 5 hours. New drainage works are under way.\n3. In 1925 Patrick Geddes planned the city's boulevards and blocks built around gardens, with east west streets that bring in the sea breeze. In 2003 UNESCO made the White City a World Heritage Site (about 4,000 Bauhaus style buildings).\n\nWhich city should I fly over next? Comment HOME for the sources.\n\nSources: Wikipedia (Yarkon Park; Geddes Plan; Highway 20), Ganei Yehoshua park company (Seven Mills), Globes 8 Jan 2013, Ynetnews 7 Dec 2018, ynet 27 Jul 2026, Calcalist 14 Aug 2025, Tel Aviv-Yafo Municipality (White City), UNESCO 2003.\nMap: OpenStreetMap contributors (ODbL), heights exaggerated. Photos (Wikimedia Commons): Seven Mills 1921, Frank Scholten, public domain; Ayalon, Ilya Platonov, public domain; Patrick Geddes 1932, Bassano Ltd, public domain; Rothschild Blvd, Artem.G, CC BY-SA 4.0; Yarkon Park aerial, Ynhockey, CC BY-SA 4.0.",
+ "caption_he": "רוב הנהגים באיילון לא שמים לב למה שזורם ממש לידם.\n\nשלושה פלאי הנדסה נסתרים בתל אביב:\n1. פארק הירקון גדול בערך כמו סנטרל פארק בניו יורק. עד שנות ה-30 הירקון הניע את שבע הטחנות, טחנות קמח מהתקופה העות'מאנית.\n2. נתיבי איילון נבנו לאורך נחל איילון, והנחל עדיין זורם בתעלת בטון בין הכביש למסילה. בסערות גדולות הוא עולה על גדותיו: ב-8 בינואר 2013 האיילון נסגר בשני הכיוונים מגלילות עד השלום, וב-7 בדצמבר 2018 נסגר לכחמש שעות. עבודות ניקוז חדשות בדרך.\n3. ב-1925 פטריק גדס תכנן את השדרות ואת הבלוקים סביב גינות, עם רחובות ממזרח למערב שמכניסים את בריזת הים. ב-2003 אונסק\"ו הכריזה על העיר הלבנה כאתר מורשת עולמית.\n\nאיזו עיר לטוס מעליה בפעם הבאה? כתבו HOME בתגובות ואשלח את המקורות.",
+ "hashtags": [
+  "#TelAviv",
+  "#UrbanPlanning",
+  "#IsraelFacts"
+ ],
+ "cover": {
+  "t": 3.0,
+  "big": "3",
+  "text": "Tel Aviv's hidden|engineering",
+  "label": "Save this map"
+ }
+}
