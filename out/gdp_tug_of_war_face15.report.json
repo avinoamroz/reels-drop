@@ -1,0 +1,151 @@
+{
+ "id": "gdp_tug_of_war_face15",
+ "account": "noamroz__",
+ "template": "face_hook",
+ "hook": "*1* Israeli vs|*9* countries",
+ "duration": 48.97,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/gdp_tug_of_war_face15.mp4",
+  "cover": "covers/gdp_tug_of_war_face15_cover.jpg",
+  "preview": "previews/gdp_tug_of_war_face15_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/gdp_tug_of_war_face15_0.jpg",
+  "1": "out/frames/gdp_tug_of_war_face15_1.jpg",
+  "3": "out/frames/gdp_tug_of_war_face15_3.jpg",
+  "last": "out/frames/gdp_tug_of_war_face15_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": null,
+ "sources": [
+  {
+   "label": "IMF World Economic Outlook, GDP per capita",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.992,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Same region, watch where the money flows.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey, eight count",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Same region, watch where the money flows. In this corner, Israel, $54,000. And in the other corner, Yemen and Syria, plus Lebanon, plus Iran, plus Egypt, plus Jordan, plus Iraq, plus Turkey. Eight countries, 42,000 together, and Israel holds. Okay, let's swap Turkey for Oman, 47,000, still Israel. Fine, everyone together, 63,000. Finally, Israel slides over the line. It took a team of nine to out pull one Israeli. That's how hard Israelis work, building for themselves and for the world. War and sanctions hold Yemen and Syria back and oil lifts the Gulf. If you love Israeli facts, follow Noah and Roz for more. Ready for the rematch? Same rope.",
+  "expected": "Noam's words, source transcript after the cut, follow line"
+ },
+ "status": "rendered, not posted",
+ "voice": "Noam's own face clip (real voice) + source reel audio after the cut + Noam's own follow line",
+ "clip": "hooks/face/h_money_flows.mp4",
+ "said": "Same region, watch where the money flows.",
+ "clip_heard": "Same region, watch where the money flows.",
+ "said_match": 1.0,
+ "said_words": [
+  [
+   "Same",
+   0.68,
+   1.16
+  ],
+  [
+   "region,",
+   1.16,
+   1.6
+  ],
+  [
+   "watch",
+   2.34,
+   2.58
+  ],
+  [
+   "where",
+   2.58,
+   2.8
+  ],
+  [
+   "the",
+   2.8,
+   2.94
+  ],
+  [
+   "money",
+   2.94,
+   3.08
+  ],
+  [
+   "flows.",
+   3.08,
+   3.42
+  ]
+ ],
+ "clip_trim": [
+  0.6,
+  3.56
+ ],
+ "face_s": 2.9667,
+ "source": "gdp_tug_of_war.mp4",
+ "cut": 6.0,
+ "cut_how": "fixed",
+ "follow": "inserted before 'ready for the rematch' at 45.36 s (1.0)",
+ "follow_part": {
+  "freeze_at": 45.32,
+  "dur": 2.9333,
+  "subs": [
+   [
+    "If you love Israeli facts",
+    0.12,
+    1.52
+   ],
+   [
+    "follow Noam Roz for more.",
+    1.54,
+    2.8833
+   ]
+  ],
+  "match": 1.0
+ },
+ "follow_text": "If you love Israeli facts, follow Noam Roz for more.",
+ "levels_before_final": {
+  "face": -16.0,
+  "body": -15.9
+ },
+ "levels_final": {
+  "face": -14.7,
+  "body": -16.1
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "body_kept_s": 43.09,
+ "subs": [
+  [
+   "Same region, watch where",
+   0.07999999999999996,
+   2.1799999999999997
+  ],
+  [
+   "the money flows.",
+   2.1999999999999997,
+   2.82
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 78.8
+}
