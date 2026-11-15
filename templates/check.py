@@ -37,7 +37,7 @@ def main(S, rp):
         D = S["data"]; exp_lines = [heard(m, os.path.join(REPO, D["source"]), float(D.get("cut", 3.0)) + 0.3)]
     elif S.get("template") == "face_hook":     # Noam's own words + the source after the cut (+ his follow line)
         D = S["data"]; cut = float(R.get("cut", D.get("cut", 0.0)))
-        exp_lines = [D["said"], heard(m, os.path.join(REPO, D["source"]), cut + 0.3)]
+        exp_lines = [D["said"]] + ([heard(m, os.path.join(REPO, D["source"]), cut + 0.3)] if D.get("source_speech", True) else [])
         if R.get("follow_text"): exp_lines.append(R["follow_text"])
     else:
         exp_lines = [L["say"] for L in S.get("lines", []) if L.get("say")]

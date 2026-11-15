@@ -161,6 +161,9 @@ def run(S):
     # 1. time Noam's words in the clip
     heard = asr_words(clip, 0.0, None, prompt=said)
     words, wscore = align_said(said, heard)
+    if wscore < 0.8:                     # the prompt can make whisper drop words: try without it and keep the better timing
+        h2 = asr_words(clip, 0.0, None); w2, s2 = align_said(said, h2)
+        if s2 > wscore: heard, words, wscore = h2, w2, s2
     cin = float(D.get("clip_in", max(0.0, words[0][1] - 0.08)))
     cout = float(D.get("clip_out", min(CL, words[-1][2] + 0.14)))
     fd = round(round((cout - cin) * FPS) / FPS, 4)
@@ -168,12 +171,17 @@ def run(S):
     log(f"clip {D['clip']}: heard '{' '.join(w[0] for w in heard)}' (match {wscore}), trim {cin:.2f} to {cout:.2f} s")
     # 2. resolve the cut and the follow line in the source
     F = D.get("follow") or {}; fmode = F.get("mode", "insert")
-    need_asr = bool(D.get("cut_after")) or fmode == "replace" or (fmode == "insert" and F.get("at") is None)
+    speech = D.get("source_speech", True)          # false for music-only sources
+    need_asr = speech or bool(D.get("cut_after")) or fmode == "replace" or (fmode == "insert" and F.get("at") is None)
     STK = tokens(asr_words(src)) if need_asr else []
     if D.get("cut_after"):
         _, e, r = find_phrase(STK, D["cut_after"]); cut = e + float(D.get("cut_pad", 0.06)); cut_how = f"after '{D['cut_after']}' ({r})"
     else:
         cut = float(D.get("cut", 0.0)); cut_how = "fixed"
+    if speech and D.get("snap", True) and STK:      # land the cut on the next spoken word so the old hook's subtitle is gone
+        nxt = [t[1] for t in STK if t[1] >= cut - 0.02]
+        if nxt and nxt[0] - cut <= 1.2 and nxt[0] - 0.03 > cut:
+            cut_how += f", snapped from {cut:.2f} to the next word"; cut = nxt[0] - 0.03
     fwav = os.path.join(REPO, F.get("wav", "ref/follow_line_noam.wav"))
     fa = fb = None
     if fmode == "replace":
@@ -278,22 +286,28 @@ def run(S):
     tot = fd + BA.shape[1] / SR
     ins += ["-loop", "1", "-framerate", str(FPS), "-t", f"{tot:.3f}", "-i", f0]
     flt.append(f"{''.join(labs)}concat=n={len(labs)}:v=1:a=0[cat]")
-    flt.append(f"[{k}:v]format=rgba,fade=in:st={tot - 1.0:.3f}:d=0.9:alpha=1[o];[cat][o]overlay=shortest=1:format=auto,format=yuv420p[v]")
+    flt.append(f"[{k}:v]format=rgba,fade=in:st={tot - 1.0:.3f}:d=0.9:alpha=1[o];[cat][o]overlay=shortest=1:format=auto,tpad=stop_mode=clone:stop_duration=1,format=yuv420p[v]")
     vid = f"{work}/joined.mp4"
     subprocess.run(["ffmpeg", "-v", "error", "-y", *ins, "-filter_complex", ";".join(flt), "-map", "[v]", "-c:v", "libx264", "-crf", "18",
                     "-preset", "medium", "-t", f"{tot:.3f}", vid], check=True)
-    # 7. audio join + loudness
-    x = np.concatenate([fx, BA], axis=1); n = int(tot * SR); x = np.pad(x, ((0, 0), (0, max(0, n - x.shape[1]))))[:, :n]
-    aud = loudnorm(x, f"{work}/mix.m4a", LUFS)
+    # 7. audio join + loudness; his voice is matched to the body on the final file (one correction pass if they differ by > 0.7 LU)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", vid, "-i", f"{work}/mix.m4a", "-map", "0:v", "-map", "1:a", "-c", "copy",
-                    "-shortest", "-movflags", "+faststart", final], check=True)
-    seg_l = {}
-    for nm, (a, b) in (("face", (0, fd)), ("body", (fd, tot))):
-        y = audio_of(final, a, b - a); seg_l[nm] = round(lufs_of(y), 1)
+    fx = gain_to(fx, body_lufs) if np.abs(fx).max() > 0 else fx
+    n = int(tot * SR)
+
+    def mixdown(fx_):
+        x = np.concatenate([fx_, BA], axis=1); x = np.pad(x, ((0, 0), (0, max(0, n - x.shape[1]))))[:, :n]
+        a_ = loudnorm(x, f"{work}/mix.m4a", LUFS)
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", vid, "-i", f"{work}/mix.m4a", "-map", "0:v", "-map", "1:a", "-c", "copy",
+                        "-shortest", "-movflags", "+faststart", final], check=True)
+        sl = {nm: round(lufs_of(audio_of(final, a, b - a)), 1) for nm, (a, b) in (("face", (0, fd)), ("body", (fd, tot)))}
+        return a_, sl
+    aud, seg_l = mixdown(fx); passes = 1
+    if abs(seg_l["face"] - seg_l["body"]) > 0.7:
+        fx = fx * 10 ** ((seg_l["body"] - seg_l["face"]) / 20); aud, seg_l = mixdown(fx); passes = 2
     return dict(voice="Noam's own face clip (real voice) + source reel audio after the cut" + (" + Noam's own follow line" if fmode != "none" else ""),
                 clip=D["clip"], said=said, clip_heard=" ".join(w[0] for w in heard), said_match=wscore, said_words=words,
                 clip_trim=[round(cin, 3), round(cout, 3)], face_s=fd, source=D["source"], cut=round(cut, 3), cut_how=cut_how,
                 follow=fhow, follow_part=fol_info, follow_text=F.get("text", "If you love Israeli facts, follow Noam Roz for more.") if fmode != "none" else None,
-                levels_before_final=dict(face=face_lufs, body=body_lufs), levels_final=seg_l, mix=aud,
+                levels_before_final=dict(face=face_lufs, body=body_lufs), levels_final=seg_l, level_passes=passes, mix=aud,
                 body_kept_s=round(L - cut, 2), subs=CH)
