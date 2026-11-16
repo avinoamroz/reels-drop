@@ -23,7 +23,7 @@ def main():
     for w in warn: CM.log("lint warning:", w)
     if "--lint" in sys.argv: print("lint ok"); return
     if "--voice-only" in sys.argv:          # workflow step 1: make sure a voice exists (Cartesia or voice/<id>_*.wav)
-        if S["template"] in ("rehook", "trend_text", "column_recut", "face_hook", "talk_cut") and not S.get("lines"): print(f"{S['template']}: no new voice needed"); return
+        if (S["template"] in ("rehook", "trend_text", "column_recut", "face_hook", "talk_cut") or S.get("data", {}).get("take")) and not S.get("lines"): print(f"{S['template']}: no new voice needed"); return
         raw, wj, how = CM.get_voice(S); print("voice ok:", how, os.path.relpath(raw, CM.REPO)); return
     t0 = time.time(); mod = importlib.import_module(S["template"])
     extra = mod.run(S) or {}

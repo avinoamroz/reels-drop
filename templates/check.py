@@ -41,6 +41,8 @@ def main(S, rp):
         D = S["data"]; cut = float(R.get("cut", D.get("cut", 0.0)))
         exp_lines = [D["said"]] + ([heard(m, os.path.join(REPO, D["source"]), cut + 0.3)] if D.get("source_speech", True) else [])
         if R.get("follow_text"): exp_lines.append(R["follow_text"])
+    elif S.get("data", {}).get("take"):       # Noam's own take under an animation: the exact words of the kept parts
+        exp_lines = [k[2] for k in S["data"]["take"]["keep"]]
     else:
         exp_lines = [L["say"] for L in S.get("lines", []) if L.get("say")]
     G = norm(got); per = []; tot = hit = 0

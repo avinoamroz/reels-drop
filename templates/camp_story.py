@@ -16,8 +16,15 @@ data keys (all times are anchors):
   tags       [{at, until, who, text}]
   cams       [{at, who: wide|hero|kids, z, dur}]   the camera eases to the speaker
   hook_y (520), title_y (520), subs_y (1690), tail (0.25)
+  shift_y    move the whole scene up (negative px, grass fills the bottom), e.g. to make room for a floating head
+  src_y      y of the book's source label (default 1430); book_dy moves the book card up or down; subs_size (default 56)
+  take       Noam's real voice instead of TTS: {clip, words (longtx json), keep: [[a, b, "exact words"], ...]}.
+             The kept parts are joined (his own audio, his own frame timing); lines L0, L1 ... are the kept parts.
+  head       floating head cut out of the take (core/head_cut.py, u2net person model, never mirrored), lips in sync:
+             {crop: [x, y, w, h], cut_w: 480, mode: fixed | presenter, w (px wide), cx, bottom,
+              spots: {name: [cx, bottom]}, cues: [{at, spot}], pops: [anchor], pop: 1.18, bob: 8}
 """
-import os, sys, math, re, shutil
+import os, sys, math, re, shutil, json, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
 import numpy as np, cv2
 from common import *
@@ -164,9 +171,61 @@ def pill_title(cv, txt, y, a):
     WG.title(cv, txt, y, a, 76)
 
 
+def take_voice(S, TK, work):
+    """his kept parts joined: work/vo.wav (48 kHz mono), timing json, and the source frame for every output frame"""
+    import soundfile as sf
+    need = [TK["clip"], TK["words"]]; miss = [f for f in need if not os.path.exists(os.path.join(REPO, f))]
+    if miss: subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", *["/" + f for f in miss]], check=False)
+    clip = os.path.join(REPO, TK["clip"])
+    WD = [w for sg in json.load(open(os.path.join(REPO, TK["words"])))["segs"] for w in sg["w"]]
+    au = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", clip, "-vn", "-ac", "1", "-ar", str(SR), "-f", "f32le", "-"],
+                                      check=True, capture_output=True).stdout, np.float32)
+    fr = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=r_frame_rate", "-of", "csv=p=0", clip],
+                        capture_output=True, text=True).stdout.strip().split("/")
+    sfps = float(fr[0]) / float(fr[1] if len(fr) > 1 else 1)
+    lines, parts, ot, f_ = [], [], 0.0, int(0.008 * SR)
+    for i, k in enumerate(TK["keep"]):
+        a, b, txt = float(k[0]), float(k[1]), k[2]
+        ws = [w for w in WD if a - 0.05 <= w[1] < b]; tok = txt.split()
+        if len(ws) == len(tok): tw = [(tk, w[1], w[2]) for tk, w in zip(tok, ws)]
+        else:     # spread the exact words over the heard span by length
+            s0, s1 = (ws[0][1], ws[-1][2]) if ws else (a + 0.05, b - 0.05); L8 = np.array([len(x) + 2 for x in tok], float); c = np.concatenate([[0], np.cumsum(L8)]) / L8.sum()
+            tw = [(tk, s0 + (s1 - s0) * c[j], s0 + (s1 - s0) * c[j + 1] - 0.02) for j, tk in enumerate(tok)]
+        seg_ = au[int(a * SR):int(b * SR)].copy(); seg_[:f_] *= np.linspace(0, 1, f_); seg_[-f_:] *= np.linspace(1, 0, f_); parts.append(seg_)
+        lines.append(dict(i=i, text=txt, t0=round(ot + tw[0][1] - a, 3), t1=round(ot + tw[-1][2] - a, 3),
+                          words=[dict(w=x, t0=round(ot + p - a, 3), t1=round(ot + q - a, 3)) for x, p, q in tw], src=[a, b], out=round(ot, 3)))
+        ot += len(seg_) / SR
+    sf.write(f"{work}/vo.wav", np.concatenate(parts), SR)
+    src_idx = []
+    for i in range(int(round(ot * FPS))):
+        t = i / FPS; L = [l for l in lines if l["out"] <= t + 1e-6][-1]
+        src_idx.append(int(round((L["src"][0] + t - L["out"]) * sfps)))
+    J = dict(dur=round(ot, 3), voice=f"Noam's own voice from {TK['clip']}", lines=lines)
+    json.dump(J, open(f"{work}/timing.json", "w"), indent=0)
+    return J, src_idx, clip
+
+
 def run(S):
-    D = S["data"]; work = workdir(S)
-    J = build_voice(S, work); T = Timing(J, D.get("tail", 0.25)); A = T.at
+    D = S["data"]; work = workdir(S); TK = D.get("take"); HD = D.get("head")
+    if TK:
+        J, SRC_IDX, CLIP = take_voice(S, TK, work); T = Timing(J, J["dur"] - J["lines"][-1]["t1"])
+    else:
+        J = build_voice(S, work); T = Timing(J, D.get("tail", 0.25))
+    A = T.at
+    HEADS = None
+    if HD:
+        import importlib
+        try: importlib.import_module("onnxruntime")
+        except ImportError: subprocess.run([sys.executable, "-m", "pip", "install", "-q", "onnxruntime"], check=True)
+        import head_cut as HC
+        idx = SRC_IDX
+        if os.environ.get("TPL_SNAPS"):
+            want = [int(round(float(x) * FPS)) for x in os.environ["TPL_SNAPS"].split(",")]; idx = [SRC_IDX[min(i, len(SRC_IDX) - 1)] for i in want]
+        HEADS = HC.cut(CLIP, idx, tuple(HD["crop"]), int(HD.get("cut_w", 480)), f"{work}/heads.npy", log=log)
+        HSNAP = {w_: j for j, w_ in enumerate(want)} if os.environ.get("TPL_SNAPS") else None
+        SPOTS = {k: tuple(v) for k, v in (HD.get("spots") or {}).items()}
+        HCUE = [(A(c["at"]), SPOTS[c["spot"]]) for c in HD.get("cues", [])]
+        POPS = [A(p) for p in HD.get("pops", [])]
     def W_(k): v = D.get(k); return (A(v["at"]), A(v.get("until"), T.END)) if v else None
     def on(k, t, f=0.3):
         w = W_(k); return 0.0 if not w else win(t, w[0], w[1], f, f)
@@ -220,9 +279,9 @@ def run(S):
                 WG.tag(cv, tg["text"], x_, y_, 42, YEL, ta)
         img = cv.out().astype(np.float32)
         cx, cy, z = cam(t)
-        x0 = min(0.0, max(W - z * W, 540 - z * cx)); y0 = min(0.0, max(H - z * H, 960 - z * cy))
+        x0 = min(0.0, max(W - z * W, 540 - z * cx)); y0 = min(0.0, max(H - z * H, 960 - z * cy)) + float(D.get("shift_y", 0))
         M = np.array([[z, 0, x0], [0, z, y0]], np.float32)
-        if z > 1.001: img = cv2.warpAffine(img, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
+        if z > 1.001 or abs(y0) > 0.5: img = cv2.warpAffine(img, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REPLICATE)
         sp = lambda p: (p[0] * z + x0, p[1] * z + y0)
         cv = Canvas(img)
         for b in BUB:
@@ -236,7 +295,7 @@ def run(S):
         if BK:
             ba = win(t, BK["t0"] - 0.1, BK["t1"], 0.35, 0.3)
             if ba > 0.01:
-                s_ = 0.9 + 0.1 * eout(seg(t, BK["t0"], BK["t0"] + 0.4)); c = cv.c; c.save(); c.translate(540, 900); c.scale(s_, s_); c.translate(-540, -900)
+                s_ = 0.9 + 0.1 * eout(seg(t, BK["t0"], BK["t0"] + 0.4)); c = cv.c; c.save(); c.translate(540, 900 + float(D.get("book_dy", 0))); c.scale(s_, s_); c.translate(-540, -900)
                 cv.rrect(250, 520, 600, 780, 26, "#F5F5F7", ba, stroke=INK, lw=4)
                 cv.rrect(230, 500, 600, 780, 26, NAVY, ba, stroke=INK, lw=4)
                 cv.rrect(250, 500, 24, 780, 6, "#0B1730", ba)
@@ -246,21 +305,37 @@ def run(S):
                 if sa > 0.01: cv.text(BK["sub"], 540, 1070, 76, WHITE, sa, maxw=540)
                 c.restore()
                 if BK.get("src"):
-                    sw_ = min(1020, cv.tw(BK["src"], 38, False) + 60); cv.rrect(540 - sw_ / 2, 1392, sw_, 76, 30, NAVY, 0.9 * ba)
-                    cv.text(BK["src"], 540, 1430, 38, "#F5F5F7", ba, bold=False, maxw=980, shadow=False, minsz=36)
+                    sy_ = D.get("src_y", 1430); sw_ = min(1020, cv.tw(BK["src"], 38, False) + 60); cv.rrect(540 - sw_ / 2, sy_ - 38, sw_, 76, 30, NAVY, 0.9 * ba)
+                    cv.text(BK["src"], 540, sy_, 38, "#F5F5F7", ba, bold=False, maxw=980, shadow=False, minsz=36)
         out = cv.out().astype(np.float32)
+        if HEADS is not None:
+            fi = int(round(t * FPS)); fi = HSNAP.get(fi, 0) if HSNAP is not None else min(fi, len(HEADS) - 1)
+            rgba = np.asarray(HEADS[fi]); sc = float(HD.get("w", 432)) / rgba.shape[1]
+            if HD.get("mode", "fixed") == "fixed": hx_, hb_ = float(HD.get("cx", 250)), float(HD.get("bottom", 1950))
+            else:
+                (hx_, hb_) = HCUE[0][1] if HCUE else (540.0, 1900.0)
+                for k_ in range(1, len(HCUE)):
+                    if t >= HCUE[k_][0]:
+                        u_ = ease((t - HCUE[k_][0]) / 0.6); p0, p1 = HCUE[k_ - 1][1], HCUE[k_][1]
+                        if u_ >= 1: hx_, hb_ = p1
+                        else:   # glide from wherever it was
+                            q = HCUE[k_ - 1][1]; hx_, hb_ = q[0] + (p1[0] - q[0]) * u_, q[1] + (p1[1] - q[1]) * u_
+                b_ = float(HD.get("bob", 8)); hb_ += b_ * math.sin(2 * math.pi * t / 2.6); hx_ += b_ * 0.6 * math.sin(2 * math.pi * t / 3.7)
+                pk = max([seg(t, p, p + 0.25, eout) * (1 - seg(t, p + 0.85, p + 1.2)) for p in POPS] or [0])
+                sc *= 1 + (float(HD.get("pop", 1.18)) - 1) * pk
+            out = HC.paste(out, rgba, hx_, hb_, sc)
         ha = 1 - seg(t, tH + 0.15, tH + 0.55)
         if ha > 0.01:
             c2 = Canvas(out); c2.rrect(40, HY - 140, 1000, 280, 50, NAVY, 0.9 * ha); out = c2.out().astype(np.float32)
             out = paste_hook(out, hook_img, t, tH, HY, 1.0)
-        c3 = Canvas(out); draw_subs(c3, CH, t, D.get("subs_y", 1690))
+        c3 = Canvas(out); draw_subs(c3, CH, t, D.get("subs_y", 1690), D.get("subs_size", 56))
         return np.clip(c3.out(), 0, 255).astype(np.uint8)
 
     ev = [(b["t0"], "pop", -24) for b in BUB] + [(ti["t0"], "whoosh", -30) for ti in TIT]
     if BK: ev += [(BK["t0"] - 0.2, "whoosh", -24), (BK["ts"], "ding", -24)]
     if D.get("possessed"): ev.append((A(D["possessed"]["at"]), "buzz", -30))
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
-    aud = build_mix(S, T, work, ev)
+    aud = build_mix(S, T, work, ev, vo_path=f"{work}/vo.wav" if TK else None, dur=T.END if TK else None)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
     encode(frame, T.END, f"{work}/mix.m4a", final, loop=True)
-    return dict(voice=J["voice"], mix=aud)
+    return dict(voice=J["voice"], mix=aud, keep=[l.get("src") for l in J["lines"]] if TK else None)
