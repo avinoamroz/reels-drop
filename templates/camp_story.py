@@ -13,7 +13,7 @@ data keys (all times are anchors):
   bubbles    [{at, until, who: hero|kids|grandpa, text}]   *word* in red, | = line break
   titles     [{at, until, text}]  navy pill title at title_y (*word* yellow)
   book       {at, until, title, sub, sub_at, src}
-  tags       [{at, until, who, text}]
+  tags       [{at, until, who: hero|kids|grandpa, text}]   (kids: under the middle kid, the one with the bubbles)
   cams       [{at, who: wide|hero|kids, z, dur}]   the camera eases to the speaker
   hook_y (520), title_y (520), subs_y (1690), tail (0.25)
   shift_y    move the whole scene up (negative px, grass fills the bottom), e.g. to make room for a floating head
@@ -275,6 +275,7 @@ def run(S):
             ta = win(t, tg["t0"], tg["t1"], 0.25, 0.25)
             if ta > 0.01:
                 if tg["who"] == "grandpa": x_, y_ = GRANDPA_X + 200 * (1 - gp), FEET + 50
+                elif tg["who"] == "kids": x_, y_ = KIDS[1][0] + lean, FEET + 55
                 else: x_, y_ = hx, FEET + 55
                 WG.tag(cv, tg["text"], x_, y_, 42, YEL, ta)
         img = cv.out().astype(np.float32)
