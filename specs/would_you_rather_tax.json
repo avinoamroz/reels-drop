@@ -9,7 +9,8 @@
  },
  "voice": {
   "tempo": 1.1,
-  "gap": 0.15
+  "gap": 0.15,
+  "maxpause": 0.25
  },
  "lines": [
   {
@@ -37,7 +38,7 @@
    "screen": "Rich pay more. But *forms.* So many *forms.*"
   },
   {
-   "say": "Door two: VAT, value added tax.",
+   "say": "Door two: value added tax, V A T.",
    "gap": 0.15,
    "screen": "Door 2: *VAT,* value added tax"
   },
@@ -76,7 +77,7 @@
    "screen": "Dhimmi status: *protected,* not *equal*"
   },
   {
-   "say": "Ah. Hard pass.",
+   "say": "Yeah, hard pass.",
    "gap": 0.25
   },
   {
@@ -90,12 +91,12 @@
    "screen": "Revived only by *armed groups*"
   },
   {
-   "say": "And in Israel? Jews, Muslims, Christians, Druze.",
+   "say": "And in Israel? Jews, Muslims, Christians, Drooz.",
    "gap": 0.15,
    "screen": "Israel: Jews, Muslims, Christians, Druze"
   },
   {
-   "say": "Same income tax. Same VAT. Your faith doesn't change your bill.",
+   "say": "Same income tax. Same V A T. Your faith doesn't change your bill.",
    "gap": 0.25,
    "screen": "Same tax. Same VAT. *Same bill.*"
   },
@@ -136,7 +137,7 @@
     "name": "VAT",
     "value": "18%",
     "sub": "on what you buy",
-    "open": "L5:VAT",
+    "open": "L5:value",
     "close": "L18"
    },
    {
@@ -260,7 +261,7 @@
     "kind": "buzz"
    },
    {
-    "at": "L5:VAT",
+    "at": "L5:value",
     "kind": "buzz"
    },
    {
@@ -414,5 +415,9 @@
   "t": 3.0,
   "text": "Would you rather|*pay?*",
   "big": "?"
+ },
+ "subs_replace": {
+  "V A T": "VAT",
+  "Drooz": "Druze"
  }
 }
