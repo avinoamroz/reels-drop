@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "game_show",
  "hook": "Would you rather *pay?*",
- "duration": 59.63,
+ "duration": 61.97,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -1.8
  },
  "outputs": {
   "mp4": "out/would_you_rather_tax.mp4",
@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.913,
+  "score": 0.919,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -110,7 +110,7 @@
    },
    {
     "line": "Door three: the jizya. An old imperial tax.",
-    "score": 1.0,
+    "score": 0.875,
     "flag": "ok"
    },
    {
@@ -124,8 +124,8 @@
     "flag": "ok"
    },
    {
-    "line": "The catch? Only if you're the wrong religion.",
-    "score": 0.875,
+    "line": "But here's the catch: only if you're the wrong religion.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -139,19 +139,19 @@
     "flag": "ok"
    },
    {
-    "line": "The Ottomans dropped it in eighteen fifty six.",
-    "score": 0.75,
-    "flag": "MISS"
-   },
-   {
-    "line": "Only armed groups revived it: the Pakistani Taliban, and ISIS, the Islamic State.",
-    "score": 1.0,
+    "line": "The Ottomans abolished it in eighteen fifty six.",
+    "score": 0.875,
     "flag": "ok"
    },
    {
-    "line": "And in Israel? Jews, Muslims, Christians, <<d|r|uː|z>>.",
-    "score": 0.6,
-    "flag": "MISS"
+    "line": "Only armed groups revived it: the Pakistani Taliban, and ISIS, the Islamic State.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "And in Israel? Jews, Muslims, Christians and Druze.",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Same income tax. Same V A T. Your faith doesn't change your bill.",
@@ -165,23 +165,23 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
-    "flag": "ok"
+    "score": 0.6,
+    "flag": "MISS"
    },
    {
     "line": "So, would you rather pay?",
-    "score": 1.0,
+    "score": 0.8,
     "flag": "ok"
    }
   ],
-  "heard": "Would you rather pay? Three doors, three taxes, pick one. Door one, income tax, a slice of what you earn. You pay for being successful. Plus, the rich pay more. Minus, forms, so many forms. Door two, value added tax, VAT. You pay 18% on hummus. Plus, simple, hard to dodge. Minus, it hits the poor hardest. Door three, the jizya, an old imperial tax. Bonus, no army service included. Wait, no reserve duty. Where do I sign up? The cache. Only if you're the wrong religion. Non-Muslim men paid it. Protected, but not equal. No thanks. Hard pass. The Ottomans dropped in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS, the Islamic State. And in Israel, Jews, Muslims, Christians, Jews. Same income tax, same VAT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow me on Ross for more. So would you rather pay?",
+  "heard": "Would you rather pay? Three doors, three taxes, pick one. Door one, income tax, a slice of what you earn. You pay for being successful. Plus, the rich pay more. Minus, forms, so many forms. Door two, value added tax, VAT. You pay 18% on hummus. Plus, simple, hard to dodge. Minus, it hits the poor hardest. Door three, the jizz in, an old imperial tax. Bonus, no army service included. Wait, no reserve duty. Where do I sign up? But here's the catch. Only if you're the wrong religion, non-Muslim men paid it. Protected, but not equal. No thanks. Hard pass. The Ottomans abolished it in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS, Islamic State. And in Israel, Jews, Muslims, Christians and Druze. Same income tax, same VAT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow me on",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
- "voice": "cached voice (script unchanged)",
+ "voice": "pre-made voice file voice/would_you_rather_tax_splice.wav",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -1.8
  },
  "photos": [
   {
@@ -200,5 +200,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 118.0
+ "render_s": 152.9
 }
