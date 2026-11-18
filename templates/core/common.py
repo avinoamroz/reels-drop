@@ -2,7 +2,8 @@
 
   spec      load + lint (no dashes, HAMAS in caps, hook max 6 words with a number, max 12 English words per card)
   voice     Cartesia TTS (sonic-3, "Noam Roz - reels", same body as Make TTS1) or a pre-made voice/<id>_*.wav,
-            house chain (pitch 0.9715 formant preserved, bass +2 dB at 135 Hz, atempo), lines re-spaced by spec gaps
+            house chain (pitch 0.9715 formant preserved, bass +2 dB at 135 Hz, atempo), lines re-spaced by spec gaps,
+            voice.maxpause (or a line's maxpause): pauses inside a line cut down to that many seconds
   timing    T.S(i), T.E(i), T.WT(i, word), T.at("L3:fifteen" | "L3" | "L3e" | 12.5)
   overlays  hook card at frame 0, screen-text titles, source chips, end card (balance line + CTA), subtitles
   audio     music bed at -16 LUFS ducked 9 dB under speech, SFX, final two-pass loudnorm (spec music.lufs, default -16)
@@ -202,11 +203,27 @@ def build_voice(S, work):
         n = len(text.split()); ws = W_[idx:idx + n]; idx += n
         a, b = ws[0]["start"] * k - 0.05, ws[-1]["end"] * k + 0.10; a = max(0, a)
         seg_ = y[int(a * SR):int(b * SR)].copy(); f = int(0.01 * SR)
+        mp_ = SAY[i].get("maxpause", V.get("maxpause"))
+        rel = [(w["start"] * k - a, max(w["end"], w["start"] + 0.04) * k - a) for w in ws]
+        cuts = []                      # voice.maxpause (or line maxpause): pauses inside a line longer than this are cut down to it
+        if mp_ is not None:
+            for j in range(len(rel) - 1):
+                g = rel[j + 1][0] - rel[j][1]
+                if g > float(mp_) + 0.02: cuts.append((rel[j][1] + float(mp_) / 2, rel[j + 1][0] - float(mp_) / 2))
+        if cuts:
+            parts_, s0, cf = [], 0.0, int(0.008 * SR)
+            for c0, c1 in cuts + [(len(seg_) / SR, None)]:
+                pc = seg_[int(s0 * SR):int(c0 * SR)].copy()
+                if len(pc) > 2 * cf: pc[:cf] *= np.linspace(0, 1, cf); pc[-cf:] *= np.linspace(1, 0, cf)
+                parts_.append(pc); s0 = c1 if c1 is not None else s0
+            seg_ = np.concatenate(parts_)
+        def mapt(x):
+            return x - sum(c1 - c0 for c0, c1 in cuts if c1 <= x + 1e-6)
         if len(seg_) > 2 * f: seg_[:f] *= np.linspace(0, 1, f); seg_[-f:] *= np.linspace(1, 0, f)
         segs.append((t, seg_))
-        out.append(dict(i=i, text=text, t0=round(t + 0.05, 3), t1=round(t + (b - a) - 0.10, 3),
-                        words=[dict(w=sw, t0=round(t + w["start"] * k - a, 3), t1=round(t + max(w["end"], w["start"] + 0.04) * k - a, 3))
-                               for w, sw in zip(ws, text.split())]))
+        out.append(dict(i=i, text=text, t0=round(t + 0.05, 3), t1=round(t + len(seg_) / SR - 0.10, 3),
+                        words=[dict(w=sw, t0=round(t + mapt(r0), 3), t1=round(t + mapt(r1), 3))
+                               for (r0, r1), sw in zip(rel, text.split())]))
         t += len(seg_) / SR + gaps[i]
     vo = np.zeros(int((t + 1) * SR), np.float32)
     for t0, s_ in segs: vo[int(t0 * SR):int(t0 * SR) + len(s_)] += s_

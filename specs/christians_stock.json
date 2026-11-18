@@ -11,7 +11,8 @@
   "gap": 0.15,
   "lead": 0.1,
   "tempo": 1.21,
-  "file": "voice/christians_stock_vo.wav"
+  "file": "voice/christians_stock_vo.wav",
+  "maxpause": 0.2
  },
  "lines": [
   {

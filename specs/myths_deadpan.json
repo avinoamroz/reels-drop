@@ -256,6 +256,13 @@
     "l2": "The consequences|were real.",
     "l2_at": "L14:the#2"
    }
+  ],
+  "keep_beats": [
+   2,
+   3,
+   6,
+   9,
+   12
   ]
  },
  "sources": [

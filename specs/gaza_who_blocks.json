@@ -719,6 +719,43 @@
      }
     ]
    }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/gaza_who_blocks/gwb_tunnel.jpg",
+    "at": "L1:five",
+    "until": "L2",
+    "credit": "Egypt border tunnel, 2006: IDF, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.55,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/gaza_who_blocks/gwb_rafah.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Rafah crossing, 2023: A. Amra, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.55,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.1
+    ]
+   }
+  ],
+  "photo_box": [
+   60,
+   600,
+   960,
+   560,
+   28
   ]
  },
  "sources": [

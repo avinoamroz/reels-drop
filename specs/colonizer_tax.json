@@ -1008,6 +1008,224 @@
     "dim": 0.3,
     "credit": "Sakhnin, Shlomo Roded, CC BY 2.5, Commons"
    }
+  ],
+  "names": [
+   {
+    "at": "L2",
+    "until": "L4e",
+    "text": "Italy",
+    "lon": 12.2,
+    "lat": 43.6,
+    "size": 40
+   },
+   {
+    "at": "L2",
+    "until": "L4e",
+    "text": "France",
+    "lon": 2.5,
+    "lat": 46.6,
+    "size": 40
+   },
+   {
+    "at": "L2",
+    "until": "L4e",
+    "text": "Spain",
+    "lon": -3.7,
+    "lat": 40.2,
+    "size": 40
+   },
+   {
+    "at": "L2",
+    "until": "L4e",
+    "text": "Greece",
+    "lon": 22.0,
+    "lat": 39.3,
+    "size": 40
+   },
+   {
+    "at": "L2",
+    "until": "L4e",
+    "text": "Turkey",
+    "lon": 33.5,
+    "lat": 39.4,
+    "size": 40
+   },
+   {
+    "at": "L2",
+    "until": "L4e",
+    "text": "Tunisia",
+    "lon": 9.4,
+    "lat": 34.0,
+    "size": 40
+   },
+   {
+    "at": "L2",
+    "until": "L4e",
+    "text": "Libya",
+    "lon": 17.5,
+    "lat": 27.5,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Turkey",
+    "lon": 32.5,
+    "lat": 39.6,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Greece",
+    "lon": 22.0,
+    "lat": 39.3,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Syria",
+    "lon": 38.4,
+    "lat": 35.2,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Iraq",
+    "lon": 43.5,
+    "lat": 32.6,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Egypt",
+    "lon": 29.8,
+    "lat": 26.3,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Saudi Arabia",
+    "lon": 44.5,
+    "lat": 24.5,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Iran",
+    "lon": 53.0,
+    "lat": 32.5,
+    "size": 40
+   },
+   {
+    "at": "L5",
+    "until": "L9e",
+    "text": "Israel",
+    "lon": 34.6,
+    "lat": 31.0,
+    "size": 40
+   },
+   {
+    "at": "L10",
+    "until": "L12e",
+    "text": "United Kingdom",
+    "lon": -2.5,
+    "lat": 54.5,
+    "size": 40
+   },
+   {
+    "at": "L10",
+    "until": "L12e",
+    "text": "Pakistan",
+    "lon": 66.5,
+    "lat": 28.5,
+    "size": 40
+   },
+   {
+    "at": "L10",
+    "until": "L12e",
+    "text": "Bangladesh",
+    "lon": 90.3,
+    "lat": 24.0,
+    "size": 40
+   },
+   {
+    "at": "L10",
+    "until": "L12e",
+    "text": "Iran",
+    "lon": 53.5,
+    "lat": 32.5,
+    "size": 40
+   },
+   {
+    "at": "L10",
+    "until": "L12e",
+    "text": "Saudi Arabia",
+    "lon": 44.5,
+    "lat": 24.0,
+    "size": 40
+   },
+   {
+    "at": "L10",
+    "until": "L12e",
+    "text": "Egypt",
+    "lon": 29.8,
+    "lat": 26.3,
+    "size": 40
+   },
+   {
+    "at": "L10",
+    "until": "L12e",
+    "text": "Turkey",
+    "lon": 33.0,
+    "lat": 39.2,
+    "size": 40
+   },
+   {
+    "at": "L13",
+    "until": "L14e",
+    "text": "France",
+    "lon": 2.5,
+    "lat": 46.6,
+    "size": 40
+   },
+   {
+    "at": "L13",
+    "until": "L14e",
+    "text": "Nigeria",
+    "lon": 8.0,
+    "lat": 9.5,
+    "size": 40
+   },
+   {
+    "at": "L13",
+    "until": "L14e",
+    "text": "Egypt",
+    "lon": 29.8,
+    "lat": 26.3,
+    "size": 40
+   },
+   {
+    "at": "L13",
+    "until": "L14e",
+    "text": "Libya",
+    "lon": 17.5,
+    "lat": 27.0,
+    "size": 40
+   },
+   {
+    "at": "L13",
+    "until": "L14e",
+    "text": "Algeria",
+    "lon": 2.6,
+    "lat": 28.0,
+    "size": 40
+   }
   ]
  },
  "sources": [

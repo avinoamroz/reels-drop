@@ -7,6 +7,8 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
   cams        [{at, view: [lon, lat, width_deg, screen_y], dur}]       camera moves
   highlight   [{at, until, code, color, alpha, flash, flash_s}]          countries tinted red (ISO3, e.g. "RUS"); optional color
               (name or #hex), alpha (default 0.85; 1.0 is fastest), flash: colour for the first flash_s s (default 0.6)
+  names       [{at, until, text, lon, lat, size, dx, dy}]   plain place names on the map (no marker), e.g. the states
+              in each scene (Noam 14 Nov: "add names of states"); white with a soft shadow, size >= 36
   israel_at   anchor: before it Israel is drawn as plain land (no gold, no Green Line); it fades in gold at the anchor
   clock       {at, until, y, size, label, era, steps: [{at, year}], tick}   big running year clock, linear between steps
               (era: true writes 1000 BCE / 70 CE; tick: true adds soft clock ticks while it runs)
@@ -204,6 +206,7 @@ def run(S):
     ZONES = [dict(z, t0=A(z["at"]), t1=A(z.get("until"), T.END - 0.6)) for z in D.get("zones", [])]
     ICONS = [dict(c, t0=A(c["at"]), t1=A(c.get("until"), T.END - 0.6)) for c in D.get("icons", [])]
     DOTS = [dict(d, t0=A(d["at"]), t1=A(d.get("until"), T.END - 0.6)) for d in D.get("dots", [])]
+    NAMES = [dict(n_, t0=A(n_["at"]), t1=A(n_.get("until"), T.END - 0.6)) for n_ in D.get("names", [])]
     SICON = []
     for i, L in enumerate(S["lines"]):
         if L.get("screen_icon") and L.get("screen"):
@@ -295,6 +298,11 @@ def run(S):
                     x, y = geo(*z.get("label_at", z["poly"][0]))
                     if z.get("emo"): WG.emo(cv, z["emo"], x, y - 70, 72, za)
                     if z.get("label"): WG.tag(cv, z["label"], x, y, z.get("size", 44), YEL, za)
+        for n_ in NAMES:
+            na = win(t, n_["t0"] - 0.1, n_["t1"], 0.35, 0.3)
+            if na > 0.01:
+                x, y = geo(n_["lon"], n_["lat"])
+                cv.text(n_["text"], x + n_.get("dx", 0), y + n_.get("dy", 0), max(36, n_.get("size", 40)), n_.get("color", "#F5F5F7"), 0.92 * na, maxw=600, minsz=36)
         for r in ROUTES:
             draw_route(cv, r, t, geo)
         for c_ in ICONS:

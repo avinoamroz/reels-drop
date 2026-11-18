@@ -16,6 +16,7 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-
            {kind: "fact", at, kicker, big, text (*word* = yellow), photo: {file, credit, kb}, quote: true}
            {kind: "end", at, l1, l2, sub}
   cut      crossfade seconds between scenes (default 0.22);  tighten (default 0.16): max pause inside a line
+  keep_beats  line indices whose pauses are never tightened (the joke lines: their deadpan beats are the joke)
   hook_y   default 300;  subs_y default 1612;  src_y default 1488
 """
 import os, sys, math, json
@@ -83,13 +84,14 @@ def _mix(S, T, work, events, serious):
     return loudnorm(np.stack([vo, vo]) + x + np.stack([sfx, sfx]), f"{work}/mix.m4a", M.get("lufs", -16))
 
 
-def _tighten(J, work, maxgap=0.16):
+def _tighten(J, work, maxgap=0.16, keep=()):
     """Noam's pacing rule: pauses inside a line cut to maxgap seconds; audio and timings shift together (as rulebook)"""
     import soundfile as sf
     y, sr = sf.read(f"{work}/vo.wav"); cuts = []
     hop = int(0.01 * sr); n = len(y) // hop
     rms = np.sqrt(np.mean(y[:n * hop].reshape(n, hop) ** 2, axis=1)); quiet = rms < 0.004
-    for L in J["lines"]:
+    for li, L in enumerate(J["lines"]):
+        if li in keep: continue              # joke lines keep their deadpan beats (Noam 14 Nov: "you're ruining the jokes")
         i0, i1 = int(L["t0"] / 0.01), min(n, int(L["t1"] / 0.01)); k = i0
         while k < i1:
             if quiet[k]:
@@ -188,7 +190,7 @@ def run(S):
     _sfx_patch()
     D = S["data"]; work = workdir(S)
     J = build_voice(S, work)
-    if D.get("tighten", 0.16): J, _cut = _tighten(J, work, float(D.get("tighten", 0.16))); log(f"pauses tightened by {_cut:.2f} s")
+    if D.get("tighten", 0.16): J, _cut = _tighten(J, work, float(D.get("tighten", 0.16)), set(D.get("keep_beats", []))); log(f"pauses tightened by {_cut:.2f} s")
     T = Timing(J, D.get("tail", 0.9)); A = T.at
     TI = D.get("title", {}); CO = D.get("counter", {}); OF = int(CO.get("of", 4))
     SC = []
