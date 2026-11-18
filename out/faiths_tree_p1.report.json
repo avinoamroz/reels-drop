@@ -1,6 +1,208 @@
 {
-  "id": "faiths_tree_p1",
-  "status": "FAILED",
-  "run": "44400812684",
-  "log": "voice ok: Cartesia sonic-3 (54.2 s, 140 words) voice/faiths_tree_p1_vo.wav\n[21:23:43] voice: cached voice (script unchanged)\n[ WARN:0@2.768] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/fD_ur.jpg'): can't open/read file: check file path/integrity\nfaith_tree: cannot read photo photos/fD_ur.jpg\n"
+ "id": "faiths_tree_p1",
+ "account": "noamroz__",
+ "template": "faith_tree",
+ "hook": "*4,000* years.|*One* family tree.",
+ "duration": 50.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/faiths_tree_p1.mp4",
+  "cover": "covers/faiths_tree_p1_cover.jpg",
+  "preview": "previews/faiths_tree_p1_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/faiths_tree_p1_0.jpg",
+  "1": "out/frames/faiths_tree_p1_1.jpg",
+  "3": "out/frames/faiths_tree_p1_3.jpg",
+  "last": "out/frames/faiths_tree_p1_last.jpg"
+ },
+ "caption_en": "The last branch on this tree has not woken up yet. 🌳\n\nAccording to the Torah, it starts c. 2000 BC with one man in Ur: Abraham, and his two sons, Ishmael and Isaac.\nIsaac's grandson Jacob is renamed Israel. His family ends up enslaved in Egypt. At Mount Sinai they receive the Torah: one God (Genesis, Exodus, Deuteronomy 6:4; tradition, dates debated).\nc. 1000 BC: King David makes Jerusalem the capital (the Tel Dan Stele, 9th century BC, names the \"House of David\"). Solomon builds the First Temple.\n586 BC: Babylon destroys it. Exile.\n539 BC: Persia's King Cyrus lets them return (Cyrus Cylinder, British Museum). 516 BC: the Second Temple (Ezra 6:15). From Judah come the words Jew and Judaism.\nc. AD 30: Rome crucifies a Jewish teacher from Galilee, Jesus (Tacitus, Annals 15.44, c. AD 116). His followers believe he is the Messiah: Christianity. Judaism still waits for the Messiah.\n\nAnd Ishmael's line? It wakes up in AD 610. Part 2 is on my profile.\n\nTwo faiths, one root. Each tells the story its own way.\nWhich part was new to you? Tell me in the comments.\n\nQuotes: Genesis 12:2 and Deuteronomy 6:4 (NIV); Tacitus, Annals 15.44 (Church and Brodribb translation).\nPhotos (Wikimedia Commons): US DoD (public domain); Djampa (CC BY-SA 4.0); Grand Parc Bordeaux (CC BY 2.0); Aleppo Codex (public domain); Babylon (public domain); Mike Peel (CC BY-SA 4.0); Sheepdog85 (CC BY-SA 3.0 de); Berthold Werner (public domain); GusJuned (CC BY-SA 3.0). AI voice.",
+ "caption_he": "ארבעת אלפים שנה. עץ משפחה אחד.\nלפי התורה, הכול מתחיל באור כשדים עם אדם אחד: אברהם, ושני בניו, ישמעאל ויצחק. יעקב נקרא ישראל, משפחתו משועבדת במצרים, ובהר סיני מקבלים את התורה: אל אחד.\nדוד המלך הופך את ירושלים לבירה, שלמה בונה את בית המקדש הראשון. 586 לפני הספירה: בבל מחריבה אותו. כורש מחזיר את הגולים, ובית המקדש השני נבנה.\nבסביבות שנת 30 לספירה רומא צולבת מורה יהודי מהגליל, ישו. תלמידיו מאמינים שהוא המשיח: הנצרות.\nומה עם הענף של ישמעאל? הוא מתעורר בשנת 610. חלק 2 בפרופיל שלי.\nאיזה חלק היה חדש לכם?",
+ "hashtags": [
+  "#Judaism",
+  "#Christianity",
+  "#history"
+ ],
+ "sources": [
+  {
+   "label": "Torah, Genesis 11 to 25 (tradition)",
+   "year": "NIV 2011",
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Torah, Genesis and Exodus (tradition); dates debated",
+   "year": "NIV 2011",
+   "at": "L3",
+   "until": "L5"
+  },
+  {
+   "label": "Tel Dan Stele names the House of David",
+   "year": "9th c. BC",
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Babylonian Chronicles; 2 Kings 25",
+   "year": "586 BC",
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Cyrus Cylinder (British Museum); Ezra 6:15",
+   "year": "539 to 516 BC",
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Tacitus, Annals 15.44; the Gospels (tradition)",
+   "year": "c. AD 116",
+   "at": "L8",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.91,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Four thousand years. One family tree.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "According to the Torah, it starts with one man in Ur: Abraham.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "His two sons: Ishmael and Isaac. Remember Ishmael.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Isaac's grandson Jacob is renamed Israel. His family ends up slaves in Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At Mount Sinai, they receive the Torah. One God.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Around one thousand B.C., King David makes Jerusalem the capital. Solomon builds the Temple.",
+    "score": 0.867,
+    "flag": "ok"
+   },
+   {
+    "line": "Five eighty-six B.C., Babylon destroys it. Exile.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Persia's King Cyrus lets them return. They build the Second Temple.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Around A.D. thirty, Rome crucifies a Jewish teacher from Galilee: Jesus.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "His followers believe he is the Messiah. Split number one: Christianity.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One faith still waits for the Messiah. One says he came.",
+    "score": 0.818,
+    "flag": "ok"
+   },
+   {
+    "line": "And Ishmael's line? It wakes up in A.D. six-ten. Part two, on my profile.",
+    "score": 0.812,
+    "flag": "ok"
+   },
+   {
+    "line": "Which part was new to you?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Every branch goes back to one root.",
+    "score": 0.857,
+    "flag": "ok"
+   }
+  ],
+  "heard": "4,000 years. One family tree. According to the Torah, it starts with one man in Ur, Abraham. His two sons, Ishmael and Isaac. Remember Ishmael. Isaac's grandson Jacob is renamed Israel. His family ends up slaves in Egypt. At Mount Sinai they receive the Torah, one god. Around 1000 BC, King David makes Jerusalem the capital. Solomon builds the temple. 586 BC. Babylon destroys it. Exile. Persia's King Cyrus lets them return. They build the second temple. Around AD30, Rome crucifies a Jewish teacher from Galilee, Jesus. His followers believe he is the Messiah. Split number one, Christianity. One faith still waits for the Messiah, once as he came. In Ishma's line, it wakes up in AD 610, part 2 on my profile. Which part was new to you? If you love Israeli facts, follow me on browse for more. Every branch goes back to one route.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/faiths_tree/fD_ur.jpg",
+   "credit": "Ziggurat of Ur, Iraq. US DoD, Public domain"
+  },
+  {
+   "file": "templates/photos/faiths_tree/bm_hebron.jpg",
+   "credit": "Cave of the Patriarchs, Hebron. Djampa, CC BY-SA 4.0"
+  },
+  {
+   "file": null,
+   "credit": "Illustration"
+  },
+  {
+   "file": "templates/photos/faiths_tree/fD_sinai.jpg",
+   "credit": "Mount Sinai. Grand Parc Bordeaux, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/faiths_tree/fD_aleppo.jpg",
+   "credit": "Aleppo Codex, c. AD 930. Public domain"
+  },
+  {
+   "file": null,
+   "credit": "Illustration"
+  },
+  {
+   "file": "templates/photos/faiths_tree/bm_babylon.jpg",
+   "credit": "Babylon, Iraq. Public domain"
+  },
+  {
+   "file": "templates/photos/faiths_tree/ur_cyrus.jpg",
+   "credit": "Cyrus Cylinder. Mike Peel, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/faiths_tree/wfs_wall.jpg",
+   "credit": "Western Wall. Sheepdog85, CC BY-SA 3.0 de"
+  },
+  {
+   "file": "templates/photos/faiths_tree/wfs_sepulchre.jpg",
+   "credit": "Holy Sepulchre, Jerusalem. B. Werner, Public domain"
+  },
+  {
+   "file": "templates/photos/faiths_tree/fD_kaaba.jpg",
+   "credit": "Kaaba, Mecca. GusJuned, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/faiths_tree/fD_ur.jpg",
+   "credit": "Ziggurat of Ur, Iraq. US DoD, Public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 118.4
 }
