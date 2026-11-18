@@ -169,7 +169,7 @@ def run(S):
             if d.get("value"): cv.text(d["value"], cx, y0 + 385, 66, YEL, ia, maxw=DW - 16, minsz=36)
             if d.get("sub"): _wrapped(cv, d["sub"], cx, y0 + 470, ia, 38, DW - 24, "#C9D6EA")
         # the door panel (hinged on the left edge, swings away)
-        ang = u * 1.95; w = DW * math.cos(ang); sk = 34 * math.sin(ang)
+        ang = u * 1.67; w = DW * math.cos(ang); sk = 34 * math.sin(ang)   # open leaf ends about 30 px wide, inside the gap (1.95 covered the next door's text)
         if abs(w) > 2 or u > 0.5:
             c = cv.c; c.new_path()
             c.move_to(x0, y0); c.line_to(x0 + w, y0 - sk); c.line_to(x0 + w, y0 + DH + sk); c.line_to(x0, y0 + DH); c.close_path()

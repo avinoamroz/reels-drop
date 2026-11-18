@@ -10,7 +10,8 @@
  "voice": {
   "tempo": 1.1,
   "gap": 0.15,
-  "maxpause": 0.25
+  "maxpause": 0.25,
+  "file": "voice/would_you_rather_tax_splice.wav"
  },
  "lines": [
   {
@@ -67,7 +68,7 @@
    "gap": 0.15
   },
   {
-   "say": "The catch? Only if you're the wrong religion.",
+   "say": "But here's the catch: only if you're the wrong religion.",
    "gap": 0.15,
    "screen": "The catch: only for *non-Muslims*"
   },
@@ -81,7 +82,7 @@
    "gap": 0.25
   },
   {
-   "say": "The Ottomans dropped it in eighteen fifty six.",
+   "say": "The Ottomans abolished it in eighteen fifty six.",
    "gap": 0.15,
    "screen": "Ottomans: gone *1856.* Persia: *1882.*"
   },
@@ -91,7 +92,7 @@
    "screen": "Revived only by *armed groups*"
   },
   {
-   "say": "And in Israel? Jews, Muslims, Christians, <<d|r|uː|z>>.",
+   "say": "And in Israel? Jews, Muslims, Christians and Druze.",
    "gap": 0.15,
    "screen": "Israel: Jews, Muslims, Christians, Druze"
   },
@@ -277,7 +278,7 @@
    {
     "at": "L10",
     "until": "L10e+0.15",
-    "text": "Wait. No *reserve duty?* Where do I sign?"
+    "text": "Wait. No *reserve duty?* Where do I sign up?"
    },
    {
     "at": "L13",

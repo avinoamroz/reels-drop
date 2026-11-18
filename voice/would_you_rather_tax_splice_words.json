@@ -1,0 +1,807 @@
+[
+{
+"word": "Would",
+"start": 0.41,
+"end": 0.5957
+},
+{
+"word": "you",
+"start": 0.5957,
+"end": 0.6731
+},
+{
+"word": "rather",
+"start": 0.6731,
+"end": 0.9208
+},
+{
+"word": "pay?",
+"start": 0.9208,
+"end": 1.2459
+},
+{
+"word": "Three",
+"start": 1.7759,
+"end": 2.3177
+},
+{
+"word": "doors.",
+"start": 2.457,
+"end": 2.9678
+},
+{
+"word": "Three",
+"start": 3.0298,
+"end": 3.3084
+},
+{
+"word": "taxes.",
+"start": 3.3084,
+"end": 3.9895
+},
+{
+"word": "Pick",
+"start": 4.5623,
+"end": 4.7945
+},
+{
+"word": "one.",
+"start": 4.7945,
+"end": 5.0421
+},
+{
+"word": "Door",
+"start": 5.5721,
+"end": 5.8972
+},
+{
+"word": "one:",
+"start": 5.8972,
+"end": 6.1604
+},
+{
+"word": "income",
+"start": 6.5628,
+"end": 6.8879
+},
+{
+"word": "tax.",
+"start": 6.8879,
+"end": 7.4297
+},
+{
+"word": "A",
+"start": 7.5536,
+"end": 7.631
+},
+{
+"word": "slice",
+"start": 7.631,
+"end": 7.9715
+},
+{
+"word": "of",
+"start": 7.9715,
+"end": 8.0799
+},
+{
+"word": "what",
+"start": 8.0799,
+"end": 8.2347
+},
+{
+"word": "you",
+"start": 8.2347,
+"end": 8.3276
+},
+{
+"word": "earn.",
+"start": 8.3585,
+"end": 8.6836
+},
+{
+"word": "You",
+"start": 9.2136,
+"end": 9.3993
+},
+{
+"word": "pay",
+"start": 9.3993,
+"end": 9.5387
+},
+{
+"word": "for",
+"start": 9.5387,
+"end": 9.6935
+},
+{
+"word": "being",
+"start": 9.6935,
+"end": 9.9102
+},
+{
+"word": "successful.",
+"start": 9.9102,
+"end": 10.5294
+},
+{
+"word": "Plus:",
+"start": 11.0594,
+"end": 11.5083
+},
+{
+"word": "the",
+"start": 11.6321,
+"end": 11.7869
+},
+{
+"word": "rich",
+"start": 11.7869,
+"end": 12.0191
+},
+{
+"word": "pay",
+"start": 12.0191,
+"end": 12.1739
+},
+{
+"word": "more.",
+"start": 12.1739,
+"end": 12.5919
+},
+{
+"word": "Minus:",
+"start": 13.1646,
+"end": 13.7838
+},
+{
+"word": "forms.",
+"start": 14.0006,
+"end": 14.6972
+},
+{
+"word": "So",
+"start": 15.0222,
+"end": 15.3473
+},
+{
+"word": "many",
+"start": 15.3473,
+"end": 15.564
+},
+{
+"word": "forms.",
+"start": 15.564,
+"end": 16.1523
+},
+{
+"word": "Door",
+"start": 16.6822,
+"end": 16.9144
+},
+{
+"word": "two:",
+"start": 16.9144,
+"end": 17.3324
+},
+{
+"word": "value",
+"start": 17.7813,
+"end": 18.1993
+},
+{
+"word": "added",
+"start": 18.1993,
+"end": 18.4779
+},
+{
+"word": "tax,",
+"start": 18.4779,
+"end": 19.0507
+},
+{
+"word": "V",
+"start": 19.3758,
+"end": 19.608
+},
+{
+"word": "A",
+"start": 19.608,
+"end": 19.7008
+},
+{
+"word": "T.",
+"start": 19.7008,
+"end": 20.0724
+},
+{
+"word": "You",
+"start": 20.6023,
+"end": 20.7571
+},
+{
+"word": "pay",
+"start": 20.7571,
+"end": 20.9274
+},
+{
+"word": "eighteen",
+"start": 20.9274,
+"end": 21.3299
+},
+{
+"word": "percent",
+"start": 21.3299,
+"end": 21.7479
+},
+{
+"word": "on",
+"start": 21.8253,
+"end": 21.9801
+},
+{
+"word": "hummus.",
+"start": 21.9801,
+"end": 22.4909
+},
+{
+"word": "Plus:",
+"start": 23.0209,
+"end": 23.4698
+},
+{
+"word": "simple,",
+"start": 23.8258,
+"end": 24.4605
+},
+{
+"word": "hard",
+"start": 24.5224,
+"end": 24.8166
+},
+{
+"word": "to",
+"start": 24.8166,
+"end": 24.9094
+},
+{
+"word": "dodge.",
+"start": 24.9094,
+"end": 25.4203
+},
+{
+"word": "Minus:",
+"start": 26.055,
+"end": 26.5658
+},
+{
+"word": "it",
+"start": 27.0147,
+"end": 27.154
+},
+{
+"word": "hits",
+"start": 27.154,
+"end": 27.3398
+},
+{
+"word": "the",
+"start": 27.3398,
+"end": 27.4636
+},
+{
+"word": "poor",
+"start": 27.4636,
+"end": 27.6339
+},
+{
+"word": "hardest.",
+"start": 27.6339,
+"end": 28.1448
+},
+{
+"word": "Door",
+"start": 28.6747,
+"end": 28.9224
+},
+{
+"word": "three:",
+"start": 28.9224,
+"end": 29.3404
+},
+{
+"word": "the",
+"start": 29.4952,
+"end": 29.6345
+},
+{
+"word": "jizya.",
+"start": 29.6345,
+"end": 30.0215
+},
+{
+"word": "An",
+"start": 30.9813,
+"end": 31.1361
+},
+{
+"word": "old",
+"start": 31.1361,
+"end": 31.4457
+},
+{
+"word": "imperial",
+"start": 31.4457,
+"end": 31.8327
+},
+{
+"word": "tax.",
+"start": 31.8327,
+"end": 32.4054
+},
+{
+"word": "Bonus:",
+"start": 32.9354,
+"end": 33.4772
+},
+{
+"word": "no",
+"start": 33.7868,
+"end": 34.1119
+},
+{
+"word": "army",
+"start": 34.1119,
+"end": 34.3286
+},
+{
+"word": "service",
+"start": 34.3286,
+"end": 34.6227
+},
+{
+"word": "included.",
+"start": 34.6227,
+"end": 35.0716
+},
+{
+"word": "Wait.",
+"start": 35.6016,
+"end": 35.9576
+},
+{
+"word": "No",
+"start": 36.7471,
+"end": 36.9019
+},
+{
+"word": "reserve",
+"start": 36.9019,
+"end": 37.227
+},
+{
+"word": "duty?",
+"start": 37.227,
+"end": 37.583
+},
+{
+"word": "Where",
+"start": 38.2177,
+"end": 38.388
+},
+{
+"word": "do",
+"start": 38.388,
+"end": 38.4499
+},
+{
+"word": "I",
+"start": 38.4499,
+"end": 38.5428
+},
+{
+"word": "sign",
+"start": 38.5428,
+"end": 38.7905
+},
+{
+"word": "up?",
+"start": 38.7905,
+"end": 39.0846
+},
+{
+"word": "But",
+"start": 39.6146,
+"end": 39.8003
+},
+{
+"word": "here's",
+"start": 39.8003,
+"end": 40.0171
+},
+{
+"word": "the",
+"start": 40.0171,
+"end": 40.1099
+},
+{
+"word": "catch:",
+"start": 40.1099,
+"end": 40.5898
+},
+{
+"word": "only",
+"start": 40.7911,
+"end": 41.1471
+},
+{
+"word": "if",
+"start": 41.1471,
+"end": 41.3019
+},
+{
+"word": "you're",
+"start": 41.3019,
+"end": 41.5496
+},
+{
+"word": "the",
+"start": 41.5496,
+"end": 41.6579
+},
+{
+"word": "wrong",
+"start": 41.6579,
+"end": 41.9366
+},
+{
+"word": "religion.",
+"start": 41.9366,
+"end": 42.4165
+},
+{
+"word": "Non-Muslim",
+"start": 42.9464,
+"end": 43.5192
+},
+{
+"word": "men",
+"start": 43.5192,
+"end": 43.705
+},
+{
+"word": "paid",
+"start": 43.705,
+"end": 43.9372
+},
+{
+"word": "it.",
+"start": 43.9372,
+"end": 44.1848
+},
+{
+"word": "Protected,",
+"start": 45.0517,
+"end": 45.7793
+},
+{
+"word": "but",
+"start": 45.9496,
+"end": 46.1044
+},
+{
+"word": "not",
+"start": 46.1044,
+"end": 46.3056
+},
+{
+"word": "equal.",
+"start": 46.3056,
+"end": 46.739
+},
+{
+"word": "No",
+"start": 47.269,
+"end": 47.4857
+},
+{
+"word": "thanks.",
+"start": 47.4857,
+"end": 47.8727
+},
+{
+"word": "Hard",
+"start": 48.4765,
+"end": 48.7396
+},
+{
+"word": "pass.",
+"start": 48.7396,
+"end": 49.1576
+},
+{
+"word": "The",
+"start": 49.6876,
+"end": 49.8424
+},
+{
+"word": "Ottomans",
+"start": 49.8424,
+"end": 50.2603
+},
+{
+"word": "abolished",
+"start": 50.2603,
+"end": 50.7402
+},
+{
+"word": "it",
+"start": 50.7402,
+"end": 50.9879
+},
+{
+"word": "in",
+"start": 51.1427,
+"end": 51.282
+},
+{
+"word": "eighteen",
+"start": 51.3129,
+"end": 51.669
+},
+{
+"word": "fifty",
+"start": 51.669,
+"end": 51.9167
+},
+{
+"word": "six.",
+"start": 51.9167,
+"end": 52.3656
+},
+{
+"word": "Only",
+"start": 52.7756,
+"end": 53.0387
+},
+{
+"word": "armed",
+"start": 53.0387,
+"end": 53.2555
+},
+{
+"word": "groups",
+"start": 53.2555,
+"end": 53.4722
+},
+{
+"word": "revived",
+"start": 53.4722,
+"end": 53.8282
+},
+{
+"word": "it:",
+"start": 53.8282,
+"end": 53.9985
+},
+{
+"word": "the",
+"start": 54.2462,
+"end": 54.37
+},
+{
+"word": "Pakistani",
+"start": 54.37,
+"end": 54.8499
+},
+{
+"word": "Taliban,",
+"start": 54.8499,
+"end": 55.4381
+},
+{
+"word": "and",
+"start": 55.5929,
+"end": 55.8406
+},
+{
+"word": "ISIS,",
+"start": 55.8716,
+"end": 56.3205
+},
+{
+"word": "the",
+"start": 56.3824,
+"end": 56.4908
+},
+{
+"word": "Islamic",
+"start": 56.4908,
+"end": 56.8004
+},
+{
+"word": "State.",
+"start": 56.8004,
+"end": 57.1255
+},
+{
+"word": "And",
+"start": 57.6554,
+"end": 57.8721
+},
+{
+"word": "in",
+"start": 57.8721,
+"end": 57.996
+},
+{
+"word": "Israel?",
+"start": 57.996,
+"end": 58.4759
+},
+{
+"word": "Jews,",
+"start": 58.9557,
+"end": 59.4975
+},
+{
+"word": "Muslims,",
+"start": 59.7297,
+"end": 60.5037
+},
+{
+"word": "Christians",
+"start": 60.7514,
+"end": 61.3242
+},
+{
+"word": "and",
+"start": 61.3242,
+"end": 61.4945
+},
+{
+"word": "Druze.",
+"start": 61.4945,
+"end": 62.0672
+},
+{
+"word": "Same",
+"start": 62.5972,
+"end": 62.9842
+},
+{
+"word": "income",
+"start": 62.9842,
+"end": 63.2318
+},
+{
+"word": "tax.",
+"start": 63.2318,
+"end": 63.7117
+},
+{
+"word": "Same",
+"start": 64.2845,
+"end": 64.7334
+},
+{
+"word": "V",
+"start": 64.7334,
+"end": 64.8727
+},
+{
+"word": "A",
+"start": 64.8727,
+"end": 64.9656
+},
+{
+"word": "T.",
+"start": 64.9656,
+"end": 65.2442
+},
+{
+"word": "Your",
+"start": 66.0337,
+"end": 66.173
+},
+{
+"word": "faith",
+"start": 66.173,
+"end": 66.3898
+},
+{
+"word": "doesn't",
+"start": 66.3898,
+"end": 66.622
+},
+{
+"word": "change",
+"start": 66.622,
+"end": 66.9006
+},
+{
+"word": "your",
+"start": 66.9006,
+"end": 67.0244
+},
+{
+"word": "bill.",
+"start": 67.0244,
+"end": 67.2876
+},
+{
+"word": "Taxes",
+"start": 67.8176,
+"end": 68.2355
+},
+{
+"word": "are",
+"start": 68.2355,
+"end": 68.3284
+},
+{
+"word": "never",
+"start": 68.3284,
+"end": 68.6225
+},
+{
+"word": "fun.",
+"start": 68.6225,
+"end": 68.9321
+},
+{
+"word": "Equal",
+"start": 69.768,
+"end": 70.0622
+},
+{
+"word": "taxes",
+"start": 70.0622,
+"end": 70.604
+},
+{
+"word": "are",
+"start": 70.6969,
+"end": 70.7897
+},
+{
+"word": "the",
+"start": 70.7897,
+"end": 70.8826
+},
+{
+"word": "fair",
+"start": 70.8826,
+"end": 71.0838
+},
+{
+"word": "kind.",
+"start": 71.0838,
+"end": 71.3625
+},
+{
+"word": "So,",
+"start": 71.8925,
+"end": 72.2176
+},
+{
+"word": "would",
+"start": 72.2176,
+"end": 72.3724
+},
+{
+"word": "you",
+"start": 72.3724,
+"end": 72.4962
+},
+{
+"word": "rather",
+"start": 72.4962,
+"end": 72.7284
+},
+{
+"word": "pay?",
+"start": 72.7284,
+"end": 73.007
+}
+]
