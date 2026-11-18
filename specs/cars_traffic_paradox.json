@@ -35,22 +35,26 @@
   {
    "say": "Three and a half times more crowded.",
    "screen": "*3.5x* the OECD average",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L6"
   },
   {
    "say": "How? A tiny country, and a population that doubled since 1990.",
    "screen": "Population: *doubled* since 1990",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L7"
   },
   {
    "say": "Plus the highest birth rate in the OECD: about three kids per woman.",
    "screen": "*2.9* kids per woman: top of the OECD",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L8"
   },
   {
    "say": "Now send them all to work in Tel Aviv.",
    "screen": "Everyone to *Tel Aviv*",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L9"
   },
   {
    "say": "Evening rush hour on the Ayalon highway: fourteen kilometres an hour.",
@@ -59,12 +63,14 @@
   {
    "say": "That's bicycle speed.",
    "screen": "That's *bicycle* speed 🚲",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L11"
   },
   {
    "say": "The fix has started. The Red Line light rail opened in 2023, and two more lines are being built.",
    "screen": "Red Line: *2023.* Two more lines coming",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L12"
   },
   {
    "say": "So, train or car? Which would you take?",
