@@ -1,0 +1,171 @@
+{
+ "id": "visit_lebanon_checklist",
+ "account": "noamroz__",
+ "template": "law_grid",
+ "hook": "*6* steps to|visit *Beirut?*",
+ "duration": 64.8,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/visit_lebanon_checklist.mp4",
+  "cover": "covers/visit_lebanon_checklist_cover.jpg",
+  "preview": "previews/visit_lebanon_checklist_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/visit_lebanon_checklist_0.jpg",
+  "1": "out/frames/visit_lebanon_checklist_1.jpg",
+  "3": "out/frames/visit_lebanon_checklist_3.jpg",
+  "last": "out/frames/visit_lebanon_checklist_last.jpg"
+ },
+ "caption_en": "The last box is the one tourists notice first. 🛂\n\nWhat would it take for Israelis to holiday in Beirut? 6 steps, with Egypt as the control.\n\n🇪🇬 Egypt: 6/6. Peace treaty (1979), boycott ended (1980), one army, an agreed border, open channels, and Israelis enter Sinai at Taba. Israel's Sinai warning is at the top level; Israelis go anyway.\n\n🇱🇧 Lebanon: 1.5/6.\n❌ Peace treaty: none.\n❌ Boycott: the 1955 law bans dealings with Israelis. Lebanon's presidency: no formal plan to repeal it (Annahar, 2026).\n🟡 Direct talks: a first, in 2026 (Washington; military talks in October).\n🟡 One army: Aug 2025, the cabinet ordered all weapons under the state. Hezbollah refused.\n🟡 Border: sea border agreed Oct 2022, land border not.\n❌ Israeli tourists: barred. UK FCDO: even an Israeli stamp can get you refused.\n\nPeace takes two: Israel still holds positions in south Lebanon until Hezbollah disarms (Katz, Oct 2026), and Israeli law bans visits to Lebanon without a permit (1954 law).\n\nIsraelis would love a weekend in Beirut. Which step should come first?\n\nSources: Peace Treaty 1979; JTA 1980; Israel NSC; Annahar via Kataeb.org, 2026; Al-Monitor, Apr 2026; AP, 14 Apr 2026 (first direct talks in Washington); Ynet, Oct 2026; Lebanese cabinet, Aug 2025; maritime deal, Oct 2022; UK FCDO 2026.\nPhotos (Wikimedia Commons): jay8085 CC BY 2.0; Zenwort PD; Dominik Tefert PD; V. Argenberg CC BY 4.0; IDF CC BY 2.0. Map: ours.",
+ "caption_he": "מה צריך לקרות כדי שישראלים יטוסו לחופשה בביירות? 6 צעדים.\nמצרים: 6 מתוך 6. הסכם שלום (1979), סוף החרם (1980), צבא אחד, גבול מוסכם, ערוצי שיחה, וישראלים נכנסים לסיני.\nלבנון: 1.5 מתוך 6. אין הסכם שלום. חוק החרם מ-1955 עדיין בתוקף. שיחות ישירות, לראשונה ב-2026. הממשלה הורתה לפרק את הנשק, חיזבאללה סירב. גבול ימי הוסכם ב-2022, היבשתי עוד לא. ישראלים לא נכנסים.\nושלום צריך שניים: ישראל עדיין מחזיקה עמדות בדרום לבנון, והחוק הישראלי אוסר לנסוע לשם בלי היתר.\nאיזה צעד צריך לבוא קודם?",
+ "hashtags": [
+  "#Israel",
+  "#Lebanon",
+  "#Beirut",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "Egypt-Israel Peace Treaty 1979; JTA",
+   "year": 1980,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Israel National Security Council",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Lebanon boycott law 1955; Annahar; Al-Monitor",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "US State Dept; Ynet",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Lebanese cabinet, Aug 2025; Reuters",
+   "year": 2025,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Maritime agreement, Oct 2022",
+   "year": 2022,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "UK FCDO travel advice",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Ynet; Israel Prevention of Infiltration Law",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.985,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Six steps before Israelis can holiday in Beirut.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "First, the country where it already works: Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peace treaty, 1979. Boycott, over by 1980. One army. A fixed border. Talks, and tourists. Six out of six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel warns against Sinai. Israelis go anyway.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now Lebanon. Peace treaty? No.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Its 1955 boycott law bans any dealings with Israelis. Repeal? The president's office says there's no plan.",
+    "score": 0.957,
+    "flag": "ok"
+   },
+   {
+    "line": "Talks? This year, for the first time, direct talks in Washington. Half a point.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One army? The cabinet ordered all weapons under the state. Hezbollah refused. Half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Border? The sea border, agreed in 2022. The land border, not yet. Half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israelis let in? No. Even an Israeli stamp can get a tourist turned away.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon: one and a half out of six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And peace takes two. Israel still holds positions in south Lebanon, and Israeli law bans the trip too.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israelis would love a weekend in Beirut. Which step should come first?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Until then: Sinai. And six steps to Beirut.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Six steps before Israelis can holiday in Beirut. First, the country where it already works. Egypt. Peace treaty 1979. Boycott, over by 1980. One army. A fixed border. Talks and tourists. Six out of six. Israel warns against Sinai. Israelis go anyway. Now Lebanon. Peace treaty? No. It's 1955 boycott law bans any dealings with Israelis. Repeal. The president's office says there's no plan. Talks. This year, for the first time, direct talks in Washington. Half a point. One army? The cabinet ordered all weapons under the state. Hezbollah refused. Half. Border? The sea border agreed in 2022. The land border? Not yet. Half. Israelis let in? No. Even an Israeli stamp can get a tourist turned away. Lebanon, one and a half out of six. And peace takes two. Israel still holds positions in South Lebanon. And Israeli law bans the trip too. Israelis would love a weekend in Beirut. Which step should come first? If you love Israeli facts, follow me on broads for more. Until then, Sinai, and six steps to Beirut.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 93.5
+}
