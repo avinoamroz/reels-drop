@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "game_show",
  "hook": "Would you rather *pay?*",
- "duration": 57.73,
+ "duration": 59.63,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -1.7
+  "lufs": -16.1,
+  "true_peak": -1.6
  },
  "outputs": {
   "mp4": "out/would_you_rather_tax.mp4",
@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.881,
+  "score": 0.913,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -80,7 +80,7 @@
    },
    {
     "line": "Door one: income tax. A slice of what you earn.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -109,9 +109,9 @@
     "flag": "ok"
    },
    {
-    "line": "Door three: the jizya, a tax of old empires.",
-    "score": 0.778,
-    "flag": "MISS"
+    "line": "Door three: the jizya. An old imperial tax.",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Bonus: no army service included.",
@@ -119,14 +119,14 @@
     "flag": "ok"
    },
    {
-    "line": "Wait. No reserve duty? Where do I sign?",
-    "score": 0.5,
-    "flag": "MISS"
+    "line": "Wait. No reserve duty? Where do I sign up?",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "The catch? Only if you're the wrong religion.",
-    "score": 0.75,
-    "flag": "MISS"
+    "score": 0.875,
+    "flag": "ok"
    },
    {
     "line": "Non-Muslim men paid it. Protected, but not equal.",
@@ -134,14 +134,14 @@
     "flag": "ok"
    },
    {
-    "line": "Yeah, hard pass.",
-    "score": 0.667,
-    "flag": "MISS"
+    "line": "No thanks. Hard pass.",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "The Ottomans dropped it in eighteen fifty six.",
-    "score": 0.875,
-    "flag": "ok"
+    "score": 0.75,
+    "flag": "MISS"
    },
    {
     "line": "Only armed groups revived it: the Pakistani Taliban, and ISIS, the Islamic State.",
@@ -149,9 +149,9 @@
     "flag": "ok"
    },
    {
-    "line": "And in Israel? Jews, Muslims, Christians, Drooz.",
-    "score": 0.857,
-    "flag": "ok"
+    "line": "And in Israel? Jews, Muslims, Christians, <<d|r|uː|z>>.",
+    "score": 0.6,
+    "flag": "MISS"
    },
    {
     "line": "Same income tax. Same V A T. Your faith doesn't change your bill.",
@@ -174,14 +174,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Would you rather pay? Three doors. Three taxes. Pick one. Door one. Income tax. A slice of what you earned. You pay for being successful. Plus, the rich pay more. Minus. Forms. So many forms. Door two. Value added tax. VAT. You pay 18% on hummus. Plus, simple, hard to dodge. Minus. It hits the poor hardest. Door three. The jizya attacks of old empires. Bonus. No army service included. Wait. No reserve duty? side. The catch. Only for the wrong religion. Non-Muslim men paid it. Protected, but not equal. Yeah, but hard guns. The Ottomans dropped it in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS, the Islamic State. And in Israel. Jews, Muslims, Christians, Jews. Same income tax. Same VAT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow Omra's for more. So, would you rather pay?",
+  "heard": "Would you rather pay? Three doors, three taxes, pick one. Door one, income tax, a slice of what you earn. You pay for being successful. Plus, the rich pay more. Minus, forms, so many forms. Door two, value added tax, VAT. You pay 18% on hummus. Plus, simple, hard to dodge. Minus, it hits the poor hardest. Door three, the jizya, an old imperial tax. Bonus, no army service included. Wait, no reserve duty. Where do I sign up? The cache. Only if you're the wrong religion. Non-Muslim men paid it. Protected, but not equal. No thanks. Hard pass. The Ottomans dropped in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS, the Islamic State. And in Israel, Jews, Muslims, Christians, Jews. Same income tax, same VAT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow me on Ross for more. So would you rather pay?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
-  "true_peak": -1.7
+  "lufs": -16.1,
+  "true_peak": -1.6
  },
  "photos": [
   {
@@ -200,5 +200,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 114.0
+ "render_s": 118.0
 }
