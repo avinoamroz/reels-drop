@@ -71,7 +71,7 @@
   }
  ],
  "transcript": {
-  "score": 0.969,
+  "score": 0.957,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -116,8 +116,8 @@
    },
    {
     "line": "Six thirty-eight, Caliph Umar takes Jerusalem.",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.714,
+    "flag": "MISS"
    },
    {
     "line": "By six ninety-one, the Dome of the Rock stands there.",
@@ -155,7 +155,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Three faiths, one father, Abraham. In the Torah, Abraham has two sons, Isaac's line, Judaism, then Christianity, and Ishmael. Islamic tradition traces the Arabs back to him, 8610 Mecca. Muslims believe Muhammad starts receiving the Quran. The Quran says Abraham and Ishmael raise the Kaaba. 622, he moves to Medina, year one of the Islamic calendar. 632, he dies. Who leads now? Most back Abu Bakr, Sunni. Some back Ali, his cousin, Shia. Split number two. 638, Caliph Umar takes Jerusalem. By 691, the Dome of the Rock stands there. 1099, Crusaders take Jerusalem. 88 years later, Saladin takes it back. Today, 2.3 billion Christians, 2 billion Muslims, 15 million Jews, three faiths, one family. Part one is on my profile. Which fact was new to you? If you love Israeli facts, follow Noah Mraz for more. And every branch goes back to one name.",
+  "heard": "Three faiths, one father, Abraham. In the Torah, Abraham has two sons, Isaac's line, Judaism, then Christianity, and Ishmael. Islamic tradition traces the Arabs back to him, 8610 Mecca. Muslims believe Muhammad starts receiving the Quran. The Quran says Abraham and Ishmael raise the Kaaba. 622, he moves to Medina, year one of the Islamic calendar. 632, he dies. Who leads now? Most back Abu Bakr, Sunni. Some back Ali, his cousin, Shia. Split number two. 638, Qalafoumar takes Jerusalem. By 691, the Dome of the Rock stands there. 1099, Crusaders take Jerusalem. 88 years later, Saladin takes it back. Today, 2.3 billion Christians, 2 billion Muslims, 15 million Jews, three faiths, one family. Part one is on my profile. Which fact was new to you? If you love Israeli facts, follow Noah Mraz for more. And every branch goes back to one name.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -219,5 +219,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 138.8
+ "render_s": 82.1
 }
