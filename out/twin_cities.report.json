@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Every country has|a *Tel Aviv.*",
- "duration": 65.87,
+ "duration": 56.77,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/twin_cities.mp4",
@@ -20,7 +20,7 @@
   "last": "out/frames/twin_cities_last.jpg"
  },
  "caption_en": "Every country has one city that runs it, and one that never sleeps. 🏙️\n\n🇮🇱 Jerusalem and Tel Aviv: 55 km apart. Jerusalem is the seat of the Knesset and the government; Tel Aviv was founded in 1909, on the sand.\n🇹🇷 Ankara and Istanbul: 349 km\n🇲🇦 Rabat and Casablanca: 85 km\n🇸🇦 Riyadh and Jeddah: 845 km\n🇺🇸 Washington and New York: 328 km\n🇦🇺 Canberra and Sydney: 247 km\n🇨🇭 Bern and Zurich: 95 km\n🇪🇬 Egypt went the other way: since April 2024 its seat of government is a brand new city, The New Capital, about 50 km east of Cairo.\n\nWashington (chosen in 1790), Canberra (site chosen in 1908) and Ankara (capital since 1923) were picked to be capitals. Jerusalem was King David's capital about 3,000 years ago.\n\nDistances are straight lines between city centres (our calculation). Which city would you pick?\n\nSources: US Senate (Residence Act 1790); Parliament of Australia (Seat of Government Act 1908); Grand National Assembly of Türkiye (13 Oct 1923); Tel Aviv-Yafo Municipality (founded 1909); ACUD and Egyptian Streets, Nov 2025 (The New Capital, seat of government since 2 April 2024).\nPhotos: Western Wall Plaza, Gary Todd (CC0); Tel Aviv, Markus Trienke (CC BY-SA 3.0); Istanbul, SegLig (CC BY 4.0); Hassan II Mosque, Casablanca, OussamaHamama (CC BY-SA 4.0); New York, Oleg Yunakov (CC BY-SA 4.0); Sydney, Dietmar Rabich (CC BY-SA 4.0); The New Capital, Mohamed Ouda (CC BY-SA 4.0); all via Wikimedia Commons.",
- "caption_he": "לכל מדינה יש תל אביב. עיר אחת שמנהלת, ועיר אחת שלא נרדמת.\nירושלים ותל אביב: 55 ק\"מ. אנקרה ואיסטנבול: 349. רבאט וקזבלנקה: 85. ריאד וג'דה: 845. וושינגטון וניו יורק: 328. קנברה וסידני: 247. ברן וציריך: 95.\nמצרים הלכה הפוך: מאפריל 2024 הממשלה יושבת בעיר חדשה במדבר, כ-50 ק\"מ מקהיר.\nירושלים מתפללת, חיפה עובדת, תל אביב חוגגת. ואיזו עיר אתם הייתם בוחרים?",
+ "caption_he": "לכל מדינה יש תל אביב. עיר אחת שמנהלת, ועיר אחת שלא נרדמת.\nירושלים ותל אביב: 55 ק\"מ. אנקרה ואיסטנבול: 349. רבאט וקזבלנקה: 85. ריאד וג'דה: 845. וושינגטון וניו יורק: 328. קנברה וסידני: 247. ברן וציריך: 95.\nמצרים הלכה הפוך: מאפריל 2024 הממשלה יושבת בעיר חדשה במדבר, כ-50 ק\"מ מקהיר.\nירושלים מתפללת, תל אביב חוגגת. ואיזו עיר אתם הייתם בוחרים?",
  "hashtags": [
   "#Israel",
   "#TelAviv",
@@ -30,7 +30,7 @@
  "sources": [
   {
    "label": "Straight line, city centres (our calculation)",
-   "at": "L2:fifty",
+   "at": "L2:tel",
    "until": "L3-0.1",
    "year": 2026
   },
@@ -60,7 +60,7 @@
   }
  ],
  "transcript": {
-  "score": 0.892,
+  "score": 0.975,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -74,8 +74,8 @@
     "flag": "ok"
    },
    {
-    "line": "Israel: Jerusalem, seat of the Knesset and the government. Tel Aviv: beaches and startups. Fifty-five kilometers apart.",
-    "score": 0.944,
+    "line": "Israel: Jerusalem, seat of the Knesset and the government. Tel Aviv: beaches and startups.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -85,7 +85,7 @@
    },
    {
     "line": "Morocco: Rabat is the capital. Casablanca is the business hub.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -119,34 +119,34 @@
     "flag": "ok"
    },
    {
-    "line": "Israelis say: Jerusalem prays, Haifa works, Tel Aviv plays.",
-    "score": 0.444,
-    "flag": "MISS"
+    "line": "As Israelis say: Jerusalem prays, and Tel Aviv plays.",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.0,
-    "flag": "MISS"
+    "score": 0.8,
+    "flag": "ok"
    },
    {
     "line": "So, where's your country's Tel Aviv?",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    }
   ],
-  "heard": "Every country has a Tel Aviv and a Jerusalem. One runs the country. One has the fun. Israel. Jerusalem. Seat of the Knesset and the government. Tel Aviv. Beaches and start-ups. 55 kilometers apart. Turkey. Ankara runs it. Istanbul gets the tourists. Morocco. Rabah is the capital. Casablanca is the business hub. Saudi Arabia. Riyadh rules. Jeddah is the city by the sea. America. Washington and New York. Jeddah is the city by the sea, America, Washington and New York, Australia, Canberra and Sydney, Switzerland, Bern and Zurich, Washington, Canberra and Cairo, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded in 1909. Egypt went the other way. In 2024, it moved its government out of Cairo to a brand new city in the desert, Israel, 55 kilometers only Egypt's brand-new capital is closer is really saying Jerusalem praise hypo works Tel Aviv place So where's your country's Tel Aviv",
+  "heard": "Every country has a Tel Aviv and a Jerusalem. One runs the country, one has the fun. Israel, Jerusalem, the seat of the Knesset and the government. Tel Aviv, beaches and startups. Turkey, Ankara runs it. Istanbul gets the tourists. Morocco, Rabat is the capital. Casablanca is the business hub. Saudi Arabia, Riyadh rules. Jeddah is the city by the sea. America, Washington and New York. Australia, Canberra and Sydney. Switzerland, Bern and Zurich, Washington Canberra and Grom, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded in 1909, Egypt went the other way. In 2024, it moved its government out of Cairo, to a brand new city in the desert, Israel, 55 kilometers. Only Egypt's brand new capital is closer, as Israelis say, Jerusalem prays, and Tel Aviv plays. If you love Israeli facts, follow Mount Ross for more. So where is your country's Tel Aviv?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 65.86,
+ "body_s": 56.77,
  "opener": null,
  "mix": {
   "lufs": -16.0,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 107.1
+ "render_s": 94.0
 }
