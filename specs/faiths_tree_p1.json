@@ -1,0 +1,579 @@
+{
+ "id": "faiths_tree_p1",
+ "account": "noamroz__",
+ "template": "faith_tree",
+ "hook": "*4,000* years.|*One* family tree.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.07,
+  "lead": 0.15,
+  "gap": 0.15,
+  "maxpause": 0.2
+ },
+ "subs_replace": {
+  "Five eighty-six B.C.": "586 BC",
+  "one thousand B.C.": "1000 BC",
+  "A.D. thirty": "AD 30",
+  "A.D. six-ten": "AD 610",
+  "Noam Roz": "@noamroz__"
+ },
+ "lines": [
+  {
+   "say": "Four thousand years. One family tree.",
+   "gap": 0.3
+  },
+  {
+   "say": "According to the Torah, it starts with one man in Ur: Abraham."
+  },
+  {
+   "say": "His two sons: Ishmael and Isaac. Remember Ishmael."
+  },
+  {
+   "say": "Isaac's grandson Jacob is renamed Israel. His family ends up slaves in Egypt."
+  },
+  {
+   "say": "At Mount Sinai, they receive the Torah. One God."
+  },
+  {
+   "say": "Around one thousand B.C., King David makes Jerusalem the capital. Solomon builds the Temple."
+  },
+  {
+   "say": "Five eighty-six B.C., Babylon destroys it. Exile."
+  },
+  {
+   "say": "Persia's King Cyrus lets them return. They build the Second Temple."
+  },
+  {
+   "say": "Around A.D. thirty, Rome crucifies a Jewish teacher from Galilee: Jesus."
+  },
+  {
+   "say": "His followers believe he is the Messiah. Split number one: Christianity."
+  },
+  {
+   "say": "One faith still waits for the Messiah. One says he came.",
+   "gap": 0.25
+  },
+  {
+   "say": "And Ishmael's line? It wakes up in A.D. six-ten. Part two, on my profile.",
+   "gap": 0.25
+  },
+  {
+   "say": "Which part was new to you?",
+   "screen": "Which part was *new* to you?",
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L13",
+   "until": "L14"
+  },
+  {
+   "say": "Every branch goes back to one root."
+  }
+ ],
+ "data": {
+  "band": [
+   {
+    "file": "photos/fD_ur.jpg",
+    "at": 0,
+    "credit": "Ziggurat of Ur, Iraq. US DoD, Public domain",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "photos/bm_hebron.jpg",
+    "at": "L2",
+    "credit": "Cave of the Patriarchs, Hebron. Djampa, CC BY-SA 4.0"
+   },
+   {
+    "icons": [
+     [
+      "☀️",
+      880,
+      270,
+      150
+     ],
+     [
+      "🌴",
+      170,
+      330,
+      190
+     ]
+    ],
+    "walk": {
+     "n": 6,
+     "y": 560,
+     "dir": 1,
+     "load": "brick"
+    },
+    "at": "L3:family",
+    "credit": "Illustration"
+   },
+   {
+    "file": "photos/fD_sinai.jpg",
+    "at": "L4",
+    "credit": "Mount Sinai. Grand Parc Bordeaux, CC BY 2.0"
+   },
+   {
+    "file": "photos/fD_aleppo.jpg",
+    "at": "L4:Torah",
+    "credit": "Aleppo Codex, c. AD 930. Public domain",
+    "kb": [
+     0.5,
+     0.35,
+     1.3,
+     0.5,
+     0.45,
+     1.5
+    ]
+   },
+   {
+    "icons": [
+     [
+      "👑",
+      330,
+      340,
+      200
+     ],
+     [
+      "🏛️",
+      760,
+      340,
+      220
+     ]
+    ],
+    "at": "L5",
+    "credit": "Illustration"
+   },
+   {
+    "file": "photos/bm_babylon.jpg",
+    "at": "L6",
+    "credit": "Babylon, Iraq. Public domain"
+   },
+   {
+    "file": "photos/ur_cyrus.jpg",
+    "at": "L7",
+    "credit": "Cyrus Cylinder. Mike Peel, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/wfs_wall.jpg",
+    "at": "L7:Second",
+    "credit": "Western Wall. Sheepdog85, CC BY-SA 3.0 de"
+   },
+   {
+    "file": "photos/wfs_sepulchre.jpg",
+    "at": "L8",
+    "credit": "Holy Sepulchre, Jerusalem. B. Werner, Public domain"
+   },
+   {
+    "file": "photos/fD_kaaba.jpg",
+    "at": "L11",
+    "credit": "Kaaba, Mecca. GusJuned, CC BY-SA 3.0"
+   },
+   {
+    "file": "photos/fD_ur.jpg",
+    "at": "L14",
+    "credit": "Ziggurat of Ur, Iraq. US DoD, Public domain",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.55,
+     1.0
+    ]
+   }
+  ],
+  "years": {
+   "steps": [
+    {
+     "at": 0,
+     "y": -2000,
+     "approx": true
+    },
+    {
+     "at": "L3",
+     "y": -1700,
+     "approx": true
+    },
+    {
+     "at": "L4",
+     "y": -1300,
+     "approx": true
+    },
+    {
+     "at": "L5",
+     "y": -1000,
+     "approx": true
+    },
+    {
+     "at": "L6",
+     "y": -586
+    },
+    {
+     "at": "L7",
+     "y": -539
+    },
+    {
+     "at": "L7:Second",
+     "y": -516
+    },
+    {
+     "at": "L8",
+     "y": 30,
+     "approx": true
+    },
+    {
+     "at": "L11:wakes",
+     "y": 610
+    }
+   ]
+  },
+  "places": {
+   "coords": {
+    "Ur": [
+     46.1,
+     30.96
+    ],
+    "Hebron": [
+     35.1,
+     31.53
+    ],
+    "Egypt": [
+     31.4,
+     30.4
+    ],
+    "Mt Sinai": [
+     33.97,
+     28.54
+    ],
+    "Jerusalem": [
+     35.23,
+     31.78
+    ],
+    "Babylon": [
+     44.42,
+     32.54
+    ],
+    "Persia": [
+     52.9,
+     29.9
+    ],
+    "Mecca": [
+     39.83,
+     21.42
+    ]
+   },
+   "steps": [
+    {
+     "at": 0,
+     "name": "Ur"
+    },
+    {
+     "at": "L2",
+     "name": "Hebron"
+    },
+    {
+     "at": "L3:family",
+     "name": "Egypt"
+    },
+    {
+     "at": "L4",
+     "name": "Mt Sinai"
+    },
+    {
+     "at": "L5",
+     "name": "Jerusalem"
+    },
+    {
+     "at": "L6:exile",
+     "name": "Babylon"
+    },
+    {
+     "at": "L7:return",
+     "name": "Jerusalem"
+    },
+    {
+     "at": "L11",
+     "name": "Mecca"
+    }
+   ],
+   "map": {
+    "lon": 39.6,
+    "lat": 27.2,
+    "k": 64
+   }
+  },
+  "tree": {
+   "x0": 90,
+   "top": 1050,
+   "bottom": 1425,
+   "xmap": [
+    [
+     -2000,
+     110
+    ],
+    [
+     -1700,
+     220
+    ],
+    [
+     -1300,
+     320
+    ],
+    [
+     -1000,
+     430
+    ],
+    [
+     -586,
+     560
+    ],
+    [
+     -516,
+     640
+    ],
+    [
+     30,
+     830
+    ],
+    [
+     610,
+     1000
+    ]
+   ],
+   "branches": [
+    {
+     "id": "root",
+     "col": "sky",
+     "y": 1120,
+     "at": 0,
+     "lab_x": 100,
+     "lab_dy": -44,
+     "labels": [
+      {
+       "at": 0,
+       "text": "ABRAHAM"
+      },
+      {
+       "at": "L2:Isaac",
+       "text": "ISAAC"
+      },
+      {
+       "at": "L3:Israel",
+       "text": "ISRAELITES"
+      },
+      {
+       "at": "L7:Second",
+       "text": "JUDAISM"
+      }
+     ]
+    },
+    {
+     "id": "ishmael",
+     "col": "green",
+     "y": 1370,
+     "parent": "root",
+     "split": -1960,
+     "at": "L2:Ishmael",
+     "dash_until": 700,
+     "lab_x": 200,
+     "lab_dy": -44,
+     "labels": [
+      {
+       "at": "L2:Ishmael",
+       "text": "ISHMAEL"
+      },
+      {
+       "at": "L11",
+       "text": "ISHMAEL: PART 2"
+      }
+     ]
+    },
+    {
+     "id": "chr",
+     "col": "gold",
+     "y": 1245,
+     "parent": "root",
+     "split": 30,
+     "at": "L9:split",
+     "lab_x": 420,
+     "lab_dy": 0,
+     "labels": [
+      {
+       "at": "L9:split",
+       "text": "CHRISTIANITY"
+      }
+     ]
+    }
+   ],
+   "marks": [
+    {
+     "branch": "root",
+     "year": -1300,
+     "at": "L4:One",
+     "until": "L5",
+     "text": "One God",
+     "dy": 56
+    },
+    {
+     "branch": "root",
+     "year": -960,
+     "at": "L5:Temple",
+     "until": "L6",
+     "text": "First Temple",
+     "dy": 56
+    },
+    {
+     "branch": "root",
+     "year": -586,
+     "at": "L6",
+     "until": "L7",
+     "text": "Exile",
+     "dy": 56
+    },
+    {
+     "branch": "root",
+     "year": -516,
+     "at": "L7:Second",
+     "until": "L8",
+     "text": "Second Temple",
+     "dy": 56
+    },
+    {
+     "branch": "root",
+     "year": 120,
+     "at": "L10",
+     "until": "L11",
+     "text": "Messiah: still to come",
+     "dy": 52
+    },
+    {
+     "branch": "chr",
+     "year": 120,
+     "at": "L10:One#2",
+     "until": "L11",
+     "text": "Messiah: has come",
+     "dy": 56
+    }
+   ],
+   "walkers": [
+    {
+     "at": "L1",
+     "until": "L2",
+     "branch": "root",
+     "n": 3
+    },
+    {
+     "at": "L6:Exile",
+     "until": "L7:return",
+     "branch": "root",
+     "n": 4
+    }
+   ]
+  },
+  "chapters": [
+   {
+    "at": "L1+0.2",
+    "until": "L1:Abraham",
+    "kicker": "CHAPTER 1",
+    "title": "ONE FAMILY"
+   },
+   {
+    "at": "L9:split",
+    "until": "L10",
+    "kicker": "SPLIT #1",
+    "title": "CHRISTIANITY",
+    "col": "gold"
+   }
+  ],
+  "quotes": [
+   {
+    "at": "L1:Abraham",
+    "until": "L2:Remember",
+    "text": "“I will make you into a *great nation.*”",
+    "who": "God to Abraham, Genesis 12:2 (NIV)"
+   },
+   {
+    "at": "L4:One",
+    "until": "L5",
+    "text": "“Hear, O Israel: The LORD our God, the LORD is *one.*”",
+    "who": "Deuteronomy 6:4 (NIV)"
+   },
+   {
+    "at": "L8:crucifies",
+    "until": "L9:split",
+    "text": "“Christus... suffered the *extreme penalty*... at the hands of... Pontius Pilatus”",
+    "who": "Tacitus, Annals 15.44, c. AD 116"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Torah, Genesis 11 to 25 (tradition)",
+   "year": "NIV 2011",
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Torah, Genesis and Exodus (tradition); dates debated",
+   "year": "NIV 2011",
+   "at": "L3",
+   "until": "L5"
+  },
+  {
+   "label": "Tel Dan Stele names the House of David",
+   "year": "9th c. BC",
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Babylonian Chronicles; 2 Kings 25",
+   "year": "586 BC",
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Cyrus Cylinder (British Museum); Ezra 6:15",
+   "year": "539 to 516 BC",
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Tacitus, Annals 15.44; the Gospels (tradition)",
+   "year": "c. AD 116",
+   "at": "L8",
+   "until": "L11"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Two faiths, one root. Each tells it *its own way.*",
+  "cta": "Part 2 on my profile"
+ },
+ "caption_en": "The last branch on this tree has not woken up yet. 🌳\n\nAccording to the Torah, it starts c. 2000 BC with one man in Ur: Abraham, and his two sons, Ishmael and Isaac.\nIsaac's grandson Jacob is renamed Israel. His family ends up enslaved in Egypt. At Mount Sinai they receive the Torah: one God (Genesis, Exodus, Deuteronomy 6:4; tradition, dates debated).\nc. 1000 BC: King David makes Jerusalem the capital (the Tel Dan Stele, 9th century BC, names the \"House of David\"). Solomon builds the First Temple.\n586 BC: Babylon destroys it. Exile.\n539 BC: Persia's King Cyrus lets them return (Cyrus Cylinder, British Museum). 516 BC: the Second Temple (Ezra 6:15). From Judah come the words Jew and Judaism.\nc. AD 30: Rome crucifies a Jewish teacher from Galilee, Jesus (Tacitus, Annals 15.44, c. AD 116). His followers believe he is the Messiah: Christianity. Judaism still waits for the Messiah.\n\nAnd Ishmael's line? It wakes up in AD 610. Part 2 is on my profile.\n\nTwo faiths, one root. Each tells the story its own way.\nWhich part was new to you? Tell me in the comments.\n\nQuotes: Genesis 12:2 and Deuteronomy 6:4 (NIV); Tacitus, Annals 15.44 (Church and Brodribb translation).\nPhotos (Wikimedia Commons): US DoD (public domain); Djampa (CC BY-SA 4.0); Grand Parc Bordeaux (CC BY 2.0); Aleppo Codex (public domain); Babylon (public domain); Mike Peel (CC BY-SA 4.0); Sheepdog85 (CC BY-SA 3.0 de); Berthold Werner (public domain); GusJuned (CC BY-SA 3.0). AI voice.",
+ "caption_he": "ארבעת אלפים שנה. עץ משפחה אחד.\nלפי התורה, הכול מתחיל באור כשדים עם אדם אחד: אברהם, ושני בניו, ישמעאל ויצחק. יעקב נקרא ישראל, משפחתו משועבדת במצרים, ובהר סיני מקבלים את התורה: אל אחד.\nדוד המלך הופך את ירושלים לבירה, שלמה בונה את בית המקדש הראשון. 586 לפני הספירה: בבל מחריבה אותו. כורש מחזיר את הגולים, ובית המקדש השני נבנה.\nבסביבות שנת 30 לספירה רומא צולבת מורה יהודי מהגליל, ישו. תלמידיו מאמינים שהוא המשיח: הנצרות.\nומה עם הענף של ישמעאל? הוא מתעורר בשנת 610. חלק 2 בפרופיל שלי.\nאיזה חלק היה חדש לכם?",
+ "hashtags": [
+  "#Judaism",
+  "#Christianity",
+  "#history"
+ ],
+ "cover": {
+  "t": 20.0,
+  "big": "4,000",
+  "text": "years. One|*family tree.*"
+ }
+}

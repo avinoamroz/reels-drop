@@ -1,0 +1,586 @@
+{
+ "id": "faiths_tree_p2",
+ "account": "noamroz__",
+ "template": "faith_tree",
+ "hook": "*3* faiths.|*1* father.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.07,
+  "lead": 0.15,
+  "gap": 0.15,
+  "maxpause": 0.2
+ },
+ "subs_replace": {
+  "A.D. six-ten": "AD 610",
+  "Six twenty-two": "622",
+  "Six thirty-two": "632",
+  "Six thirty-eight": "638",
+  "six ninety-one": "691",
+  "Ten ninety-nine": "1099",
+  "two point three billion": "2.3 billion",
+  "Two billion": "2 billion",
+  "Fifteen million": "15 million",
+  "Noam Roz": "@noamroz__"
+ },
+ "lines": [
+  {
+   "say": "Three faiths. One father: Abraham.",
+   "gap": 0.3
+  },
+  {
+   "say": "In the Torah, Abraham has two sons. Isaac's line: Judaism, then Christianity."
+  },
+  {
+   "say": "And Ishmael? Islamic tradition traces the Arabs back to him."
+  },
+  {
+   "say": "A.D. six-ten, Mecca. Muslims believe Muhammad starts receiving the Quran."
+  },
+  {
+   "say": "The Quran says Abraham and Ishmael raised the Kaaba."
+  },
+  {
+   "say": "Six twenty-two, he moves to Medina. Year one of the Islamic calendar."
+  },
+  {
+   "say": "Six thirty-two, he dies. Who leads now?"
+  },
+  {
+   "say": "Most back Abu Bakr: Sunni. Some back Ali, his cousin: Shia. Split number two."
+  },
+  {
+   "say": "Six thirty-eight, Caliph Umar takes Jerusalem."
+  },
+  {
+   "say": "By six ninety-one, the Dome of the Rock stands there."
+  },
+  {
+   "say": "Ten ninety-nine, Crusaders take Jerusalem. Eighty-eight years later, Saladin takes it back."
+  },
+  {
+   "say": "Today: two point three billion Christians. Two billion Muslims. Fifteen million Jews.",
+   "gap": 0.25
+  },
+  {
+   "say": "Three faiths, one family. Part one is on my profile.",
+   "gap": 0.25
+  },
+  {
+   "say": "Which fact was new to you?",
+   "screen": "Which fact was *new* to you?",
+   "at": "L13",
+   "until": "L14"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L14",
+   "until": "L15"
+  },
+  {
+   "say": "And every branch goes back to one name."
+  }
+ ],
+ "data": {
+  "band": [
+   {
+    "file": "photos/bm_hebron.jpg",
+    "at": 0,
+    "credit": "Cave of the Patriarchs, Hebron. Djampa, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/wfs_wall.jpg",
+    "at": "L1:Judaism",
+    "credit": "Western Wall. Sheepdog85, CC BY-SA 3.0 de"
+   },
+   {
+    "file": "photos/wfs_sepulchre.jpg",
+    "at": "L1:Christianity",
+    "credit": "Holy Sepulchre, Jerusalem. B. Werner, Public domain"
+   },
+   {
+    "icons": [
+     [
+      "🌙",
+      860,
+      290,
+      150
+     ],
+     [
+      "🐪",
+      250,
+      380,
+      210
+     ],
+     [
+      "🌴",
+      600,
+      360,
+      170
+     ]
+    ],
+    "at": "L2",
+    "credit": "Illustration"
+   },
+   {
+    "file": "photos/fD_kaaba.jpg",
+    "at": "L3",
+    "credit": "Kaaba, Mecca. GusJuned, CC BY-SA 3.0"
+   },
+   {
+    "file": "photos/fD_quran.jpg",
+    "at": "L3:Quran",
+    "credit": "Birmingham Quran folios, c. AD 568 to 645. Public domain"
+   },
+   {
+    "file": "photos/fD_kaaba.jpg",
+    "at": "L4:raised",
+    "credit": "Kaaba, Mecca. GusJuned, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.4,
+     1.2,
+     0.5,
+     0.45,
+     1.35
+    ]
+   },
+   {
+    "file": "photos/fD_nabawi.jpg",
+    "at": "L5",
+    "credit": "Prophet's Mosque, Medina. Konevi, CC0"
+   },
+   {
+    "file": "photos/fD_karbala.jpg",
+    "at": "L7:Ali",
+    "credit": "Imam Husayn Shrine, Karbala. Ali Majid Abbood, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/wfs_dome.jpg",
+    "at": "L8",
+    "credit": "Dome of the Rock, Jerusalem. B. Werner, Public domain"
+   },
+   {
+    "file": "photos/fD_krak.jpg",
+    "at": "L10",
+    "credit": "Krak des Chevaliers, Syria. V. Argenberg, CC BY 4.0"
+   },
+   {
+    "icons": [
+     [
+      "🌍",
+      540,
+      330,
+      300
+     ]
+    ],
+    "at": "L11",
+    "credit": "Illustration"
+   },
+   {
+    "file": "photos/bm_hebron.jpg",
+    "at": "L12",
+    "credit": "Cave of the Patriarchs, Hebron. Djampa, CC BY-SA 4.0"
+   }
+  ],
+  "years": {
+   "steps": [
+    {
+     "at": 0,
+     "y": -2000,
+     "approx": true
+    },
+    {
+     "at": "L1:Isaac's",
+     "y": 600,
+     "approx": true
+    },
+    {
+     "at": "L3",
+     "y": 610
+    },
+    {
+     "at": "L5",
+     "y": 622
+    },
+    {
+     "at": "L6",
+     "y": 632
+    },
+    {
+     "at": "L8",
+     "y": 638
+    },
+    {
+     "at": "L9",
+     "y": 691
+    },
+    {
+     "at": "L10",
+     "y": 1099
+    },
+    {
+     "at": "L10:Saladin",
+     "y": 1187
+    },
+    {
+     "at": "L11",
+     "y": 2026
+    }
+   ]
+  },
+  "places": {
+   "coords": {
+    "Hebron": [
+     35.1,
+     31.53
+    ],
+    "Jerusalem": [
+     35.23,
+     31.78
+    ],
+    "Arabia": [
+     42.0,
+     24.5
+    ],
+    "Mecca": [
+     39.83,
+     21.42
+    ],
+    "Medina": [
+     39.61,
+     24.47
+    ],
+    "Karbala": [
+     44.03,
+     32.62
+    ]
+   },
+   "steps": [
+    {
+     "at": 0,
+     "name": "Hebron"
+    },
+    {
+     "at": "L1:Judaism",
+     "name": "Jerusalem"
+    },
+    {
+     "at": "L2",
+     "name": "Arabia"
+    },
+    {
+     "at": "L3",
+     "name": "Mecca"
+    },
+    {
+     "at": "L5",
+     "name": "Medina"
+    },
+    {
+     "at": "L7:Ali",
+     "name": "Karbala"
+    },
+    {
+     "at": "L8",
+     "name": "Jerusalem"
+    },
+    {
+     "at": "L12",
+     "name": "Hebron"
+    }
+   ],
+   "map": {
+    "lon": 39.6,
+    "lat": 27.2,
+    "k": 64
+   }
+  },
+  "tree": {
+   "x0": 90,
+   "top": 1050,
+   "bottom": 1425,
+   "xmap": [
+    [
+     -2000,
+     100
+    ],
+    [
+     30,
+     330
+    ],
+    [
+     600,
+     470
+    ],
+    [
+     610,
+     490
+    ],
+    [
+     622,
+     545
+    ],
+    [
+     632,
+     600
+    ],
+    [
+     638,
+     650
+    ],
+    [
+     691,
+     720
+    ],
+    [
+     1099,
+     820
+    ],
+    [
+     1187,
+     845
+    ],
+    [
+     2026,
+     985
+    ]
+   ],
+   "branches": [
+    {
+     "id": "root",
+     "col": "sky",
+     "y": 1115,
+     "at": 0,
+     "lab_x": 100,
+     "lab_dy": -40,
+     "labels": [
+      {
+       "at": 0,
+       "text": "ABRAHAM"
+      },
+      {
+       "at": "L1:Isaac's",
+       "text": "ISAAC"
+      },
+      {
+       "at": "L1:Judaism",
+       "text": "JUDAISM"
+      }
+     ]
+    },
+    {
+     "id": "chr",
+     "col": "gold",
+     "y": 1195,
+     "parent": "root",
+     "split": 30,
+     "at": "L1:Christianity",
+     "lab_x": 400,
+     "lab_dy": -38,
+     "labels": [
+      {
+       "at": "L1:Christianity",
+       "text": "CHRISTIANITY"
+      }
+     ]
+    },
+    {
+     "id": "isl",
+     "col": "green",
+     "y": 1285,
+     "parent": "root",
+     "split": -1960,
+     "at": "L2",
+     "dash_until": 610,
+     "lab_x": 140,
+     "lab_dy": -38,
+     "labels": [
+      {
+       "at": "L2",
+       "text": "ISHMAEL"
+      },
+      {
+       "at": "L3:Quran",
+       "text": "ISLAM"
+      },
+      {
+       "at": "L7:Sunni",
+       "text": "ISLAM: SUNNI"
+      }
+     ]
+    },
+    {
+     "id": "shia",
+     "col": "mint",
+     "y": 1375,
+     "parent": "isl",
+     "split": 632,
+     "at": "L7:Shia",
+     "lab_x": 140,
+     "lab_dy": 0,
+     "labels": [
+      {
+       "at": "L7:Shia",
+       "text": "SHIA"
+      }
+     ]
+    }
+   ],
+   "marks": [
+    {
+     "branch": "isl",
+     "year": 610,
+     "at": "L3:receiving",
+     "until": "L5",
+     "text": "Quran",
+     "dy": -46
+    },
+    {
+     "branch": "isl",
+     "year": 622,
+     "at": "L5",
+     "until": "L6",
+     "text": "Year 1",
+     "dy": -46
+    },
+    {
+     "branch": "root",
+     "year": 691,
+     "at": "L9:Dome",
+     "until": "L10",
+     "text": "Dome of the Rock",
+     "dy": 46
+    },
+    {
+     "branch": "chr",
+     "year": 1099,
+     "at": "L10",
+     "until": "L11",
+     "text": "Crusade 1099",
+     "dy": 44
+    },
+    {
+     "branch": "root",
+     "year": 2026,
+     "at": "L11:Jews",
+     "until": "L12+1.5",
+     "text": "15M",
+     "dy": 0
+    },
+    {
+     "branch": "chr",
+     "year": 2026,
+     "at": "L11:two",
+     "until": "L12+1.5",
+     "text": "2.3B",
+     "dy": 0
+    },
+    {
+     "branch": "isl",
+     "year": 2026,
+     "at": "L11:Muslims",
+     "until": "L12+1.5",
+     "text": "2.0B",
+     "dy": 0
+    }
+   ]
+  },
+  "chapters": [
+   {
+    "at": "L3",
+    "until": "L3:Muhammad",
+    "kicker": "CHAPTER 3",
+    "title": "ISLAM",
+    "col": "green"
+   },
+   {
+    "at": "L7:split",
+    "until": "L8",
+    "kicker": "SPLIT #2",
+    "title": "SUNNI AND SHIA",
+    "col": "mint"
+   }
+  ],
+  "quotes": [
+   {
+    "at": "L2:Islamic",
+    "until": "L3",
+    "text": "“As for Ishmael... I will make him into a *great nation.*”",
+    "who": "Genesis 17:20 (NIV)"
+   },
+   {
+    "at": "L4:raised",
+    "until": "L5",
+    "text": "“...when Abraham was raising the foundations of the House and [with him] *Ishmael*”",
+    "who": "Quran 2:127 (Sahih International)"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Torah, Genesis 16 to 25 (tradition)",
+   "year": "NIV 2011",
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Islamic tradition; Birmingham Quran folios dated 568 to 645",
+   "year": "Univ. of Birmingham 2015",
+   "at": "L3",
+   "until": "L5"
+  },
+  {
+   "label": "Encyclopaedia Britannica: Hijrah 622, death 632",
+   "year": "2025",
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "Shia: 10 to 13% of Muslims, Pew Research Center",
+   "year": "2009",
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Britannica: Umar 638; Dome inscription AH 72",
+   "year": "AD 691/692",
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Britannica: First Crusade 1099; Saladin 1187",
+   "year": "2025",
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Pew Research Center 2025 (2020 data): 2.3B, 2.0B, 14.8M",
+   "year": "2025",
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "balance": "Three faiths. Each tells it *its own way.* One father.",
+  "cta": "Part 1 on my profile"
+ },
+ "caption_en": "Three faiths call him father. Here is how the tree split. 🌳\n\nIn the Torah, Abraham has two sons: Isaac and Ishmael. Isaac's line becomes Judaism, then Christianity. Genesis 17:20: \"As for Ishmael... I will make him into a great nation.\" Islamic tradition traces the Arabs back to Ishmael.\nAD 610, Mecca: Muslims believe Muhammad starts receiving the Quran. The Quran (2:127) says Abraham and Ishmael raised the foundations of the Kaaba. (The Birmingham Quran folios are radiocarbon dated to AD 568 to 645.)\n622: the move to Medina, year 1 of the Islamic calendar. 632: Muhammad dies. Who leads? Most back Abu Bakr (Sunni); some back Ali, his cousin and son-in-law (Shia). Today Shia are about 10 to 13% of Muslims (Pew, 2009).\n638: Caliph Umar takes Jerusalem. 691/692: the Dome of the Rock stands on the Temple Mount.\n1099: Crusaders take Jerusalem. 1187: Saladin takes it back.\nToday (Pew Research Center 2025, 2020 data): 2.3 billion Christians (28.8%), 2.0 billion Muslims (25.6%), 14.8 million Jews (0.2%).\n\nThree faiths, one family. Each tells the story its own way. Part 1 is on my profile.\nWhich fact was new to you? Tell me in the comments.\n\nQuotes: Genesis 17:20 (NIV); Quran 2:127 (Sahih International).\nSources: Encyclopaedia Britannica; Pew Research Center (2009, 2025); University of Birmingham (2015).\nPhotos (Wikimedia Commons): Djampa (CC BY-SA 4.0); Sheepdog85 (CC BY-SA 3.0 de); Berthold Werner (public domain); GusJuned (CC BY-SA 3.0); Birmingham Quran (public domain); Konevi (CC0); Ali Majid Abbood (CC BY-SA 4.0); Vyacheslav Argenberg (CC BY 4.0). AI voice.",
+ "caption_he": "שלוש דתות. אב אחד: אברהם.\nבתורה לאברהם שני בנים. מיצחק יוצאים היהדות ואחריה הנצרות. המסורת האסלאמית מייחסת את הערבים לישמעאל.\n610, מכה: לפי האמונה המוסלמית מוחמד מתחיל לקבל את הקוראן. 622: המעבר למדינה, שנה 1 בלוח המוסלמי. 632: מי ינהיג? רובם בחרו באבו בכר (סונים), חלק בעלי (שיעים).\n638: ירושלים נכבשת. 691: כיפת הסלע. 1099: הצלבנים. 1187: צלאח א־דין.\nהיום: 2.3 מיליארד נוצרים, 2 מיליארד מוסלמים, 14.8 מיליון יהודים.\nחלק 1 בפרופיל שלי. איזו עובדה הייתה חדשה לכם?",
+ "hashtags": [
+  "#Islam",
+  "#Judaism",
+  "#history"
+ ],
+ "cover": {
+  "t": 38.0,
+  "big": "3 / 1",
+  "text": "faiths, one|*father?*"
+ }
+}
