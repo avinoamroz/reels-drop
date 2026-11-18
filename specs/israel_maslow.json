@@ -1,0 +1,437 @@
+{
+ "id": "israel_maslow",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "*5* levels. Israel|climbed *backwards.*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Five levels. Israel climbed them backwards.",
+   "gap": 0.2
+  },
+  {
+   "say": "In nineteen forty three, Abraham Maslow drew a pyramid of human needs.",
+   "screen": "Maslow's pyramid, *1943*",
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "say": "Basics at the bottom. Dreams at the top."
+  },
+  {
+   "say": "Israel built it upside down. And started at the top.",
+   "screen": "Israel's version: *upside down*",
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "say": "Self actualisation? Fourteen Nobel prizes since nineteen forty eight."
+  },
+  {
+   "say": "And the highest research spending of any rich country: six point three five percent."
+  },
+  {
+   "say": "Esteem? Four Eurovision wins. Very important for national security."
+  },
+  {
+   "say": "Belonging? Almost three kids per woman. Friday dinner is a crowd."
+  },
+  {
+   "say": "Then, finally, the bottom. Safety."
+  },
+  {
+   "say": "Every new home since nineteen ninety three needs a safe room. Fifty six percent still don't have one."
+  },
+  {
+   "say": "And the basics? In a desert, eighty six percent of drinking water comes from the sea."
+  },
+  {
+   "say": "Maslow said: fix the basics, then dream."
+  },
+  {
+   "say": "Israel said: dream first. The basics will catch up."
+  },
+  {
+   "say": "The result? The eighth happiest country on Earth."
+  },
+  {
+   "say": "Which level should Israel fix next?",
+   "screen": "Which level should Israel *fix next?*",
+   "at": "L14",
+   "until": "L15"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L15",
+   "until": "L16"
+  },
+  {
+   "say": "Five levels. And Israel climbed them backwards."
+  }
+ ],
+ "data": {
+  "layout": "diamond",
+  "band": {
+   "y0": 170,
+   "y1": 540
+  },
+  "fact_y": 1392,
+  "src_y": 1545,
+  "subs_y": 1665,
+  "draw": {
+   "at": 0.15,
+   "dur": 1.25
+  },
+  "nodes": [
+   {
+    "id": "self",
+    "label": "Self actualisation|dreams, purpose",
+    "icon": "🚀",
+    "x": 540,
+    "y": 640,
+    "w": 1000
+   },
+   {
+    "id": "esteem",
+    "label": "Esteem|respect, status",
+    "icon": "🏆",
+    "x": 540,
+    "y": 778,
+    "w": 840
+   },
+   {
+    "id": "belong",
+    "label": "Belonging|family, friends",
+    "icon": "💛",
+    "x": 540,
+    "y": 916,
+    "w": 680
+   },
+   {
+    "id": "safety",
+    "label": "Safety|shelter",
+    "icon": "🛡️",
+    "x": 540,
+    "y": 1054,
+    "w": 520
+   },
+   {
+    "id": "basics",
+    "label": "Basics|food, water",
+    "icon": "💧",
+    "x": 540,
+    "y": 1192,
+    "w": 400
+   }
+  ],
+  "edges": [],
+  "focus": [
+   {
+    "target": "basics",
+    "at": "L2",
+    "until": "L2:dreams"
+   },
+   {
+    "target": "self",
+    "at": "L2:dreams",
+    "until": "L2e"
+   },
+   {
+    "target": "self",
+    "at": "L4",
+    "until": "L6"
+   },
+   {
+    "target": "esteem",
+    "at": "L6",
+    "until": "L7"
+   },
+   {
+    "target": "belong",
+    "at": "L7",
+    "until": "L8"
+   },
+   {
+    "target": "safety",
+    "at": "L8",
+    "until": "L10"
+   },
+   {
+    "target": "basics",
+    "at": "L10",
+    "until": "L11"
+   }
+  ],
+  "chips": [
+   {
+    "node": "self",
+    "text": "14 Nobels",
+    "at": "L4:fourteen",
+    "dx": 330,
+    "dy": 0
+   },
+   {
+    "node": "esteem",
+    "text": "4 wins",
+    "at": "L6:four",
+    "dx": 300,
+    "dy": 0
+   },
+   {
+    "node": "belong",
+    "text": "2.9 kids",
+    "at": "L7:almost",
+    "dx": 220,
+    "dy": 0
+   },
+   {
+    "node": "safety",
+    "text": "56% none",
+    "at": "L9:fifty",
+    "dx": 385,
+    "dy": 0
+   },
+   {
+    "node": "basics",
+    "text": "86% sea",
+    "at": "L10:eighty",
+    "dx": 330,
+    "dy": 0
+   }
+  ],
+  "facts": [
+   {
+    "at": "L4:fourteen",
+    "until": "L5",
+    "count": {
+     "from": 0,
+     "to": 14
+    },
+    "text": "Israeli Nobel laureates since 1948"
+   },
+   {
+    "at": "L5:six",
+    "until": "L6",
+    "count": {
+     "from": 0,
+     "to": 6.35,
+     "dec": 2,
+     "suffix": "%"
+    },
+    "text": "of the economy on research: #1 rich country"
+   },
+   {
+    "at": "L6:four",
+    "until": "L7",
+    "count": {
+     "from": 0,
+     "to": 4
+    },
+    "text": "Eurovision wins: 1978, 1979, 1998, 2018"
+   },
+   {
+    "at": "L7:almost",
+    "until": "L8",
+    "count": {
+     "from": 0,
+     "to": 2.9,
+     "dec": 1
+    },
+    "text": "kids per woman: #1 rich country"
+   },
+   {
+    "at": "L9:fifty",
+    "until": "L10",
+    "count": {
+     "from": 0,
+     "to": 56,
+     "suffix": "%"
+    },
+    "text": "of homes have no safe room"
+   },
+   {
+    "at": "L10:eighty",
+    "until": "L11",
+    "count": {
+     "from": 0,
+     "to": 86,
+     "suffix": "%"
+    },
+    "text": "of drinking water is desalinated"
+   },
+   {
+    "at": "L13:eighth",
+    "until": "L14",
+    "count": {
+     "from": 1,
+     "to": 8,
+     "prefix": "#"
+    },
+    "text": "happiest country on Earth"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/israel_maslow/medal.jpg",
+    "at": "L4",
+    "until": "L5e",
+    "credit": "Nobel medal. Berlin-George, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/israel_maslow/netta.jpg",
+    "at": "L6",
+    "until": "L6e",
+    "credit": "Netta, Eurovision 2018. Lauren Outerson, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/israel_maslow/table.jpg",
+    "at": "L7",
+    "until": "L7e",
+    "credit": "Friday table. Crzrussian, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.55,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/israel_maslow/mamad.jpg",
+    "at": "L9",
+    "until": "L9e",
+    "credit": "A safe room, 2023. CC0, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.3,
+     1.0,
+     0.5,
+     0.35,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/israel_maslow/sorek.jpg",
+    "at": "L10",
+    "until": "L10e",
+    "credit": "Sorek desalination plant. Mark Neyman, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/israel_maslow/beach.jpg",
+    "at": "L13",
+    "until": "L13e",
+    "credit": "Tel Aviv beach. Dan Harrelson, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.55,
+     1.12
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Maslow, Psychological Review",
+   "year": 1943,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Nobel laureates with Israeli citizenship",
+   "year": 2025,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "OECD MSTI, 2023 data",
+   "year": 2025,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Eurovision Song Contest winners",
+   "year": 2018,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "OECD 2024; Israel CBS 2.88 for 2025",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Israel Builders Association via Jewish Press",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Israel Water Authority data",
+   "year": 2022,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "World Happiness Report",
+   "year": 2026,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Big on dreams. Basics still *unfinished.*",
+  "cta": "Send this to a psychologist"
+ },
+ "caption_en": "Maslow would need a minute with this one. 🔺\n\nIn 1943 Abraham Maslow drew a pyramid of human needs: basics and safety first, dreams last. Israel built it upside down:\n\n🚀 Self actualisation: 14 Israeli Nobel laureates since 1948 (latest: Joel Mokyr, 2025). Research spending 6.35% of GDP, the highest in the OECD, the Organisation for Economic Co-operation and Development (OECD MSTI, 2023 data).\n🏆 Esteem: 4 Eurovision wins (1978, 1979, 1998, 2018).\n💛 Belonging: 2.9 children per woman, the highest in the OECD (OECD 2024; Israel CBS: 2.88 in 2025).\n🛡️ Safety: a protected room (mamad) is required in every new home since a 1993 law, yet 56% of households still have none (Israel Builders Association, 2025).\n💧 Basics: about 86% of drinking water came from desalination in 2022 (Israel Water Authority data).\n\nThe result: 8th happiest country on Earth (World Happiness Report 2026).\n\nBig on dreams. Basics still unfinished.\n\nWhich level should Israel fix next? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Berlin-George (CC BY-SA 3.0); Lauren Outerson, EuroVisionary (CC BY-SA 4.0); Crzrussian (CC BY-SA 3.0); Yaakov (CC0); Mark Neyman, GPO (CC BY-SA 3.0); Dan Harrelson (CC BY 2.0). AI voice.",
+ "caption_he": "מאסלו צייר ב־1943 פירמידת צרכים: קודם בסיס וביטחון, ורק בסוף חלומות. ישראל בנתה אותה הפוך.\n14 זוכי נובל, 6.35% מהתוצר על מחקר (הכי גבוה ב־OECD), 4 זכיות באירוויזיון, 2.9 ילדים לאישה.\nאבל 56% מהדירות עדיין בלי ממ\"ד, ו־86% ממי השתייה מגיעים מהים.\nוהתוצאה? המדינה השמינית הכי מאושרת בעולם.\nאיזו קומה ישראל צריכה לתקן קודם?",
+ "hashtags": [
+  "#Israel",
+  "#psychology",
+  "#Maslow"
+ ],
+ "cover": {
+  "t": 46.0,
+  "big": "5 levels",
+  "text": "Why is Israel's|pyramid *upside down?*"
+ }
+}
