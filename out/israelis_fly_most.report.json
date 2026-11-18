@@ -54,7 +54,7 @@
   }
  ],
  "transcript": {
-  "score": 0.958,
+  "score": 0.952,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -119,16 +119,16 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
-    "flag": "ok"
+    "score": 0.6,
+    "flag": "MISS"
    },
    {
     "line": "Until then, nine in ten of us leave by plane.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "9 and 10 Israeli trips abroad leave by plane, because Israel's borders aren't exactly road trip friendly. North, Lebanon and Syria. Closed. South and East. Egypt and Jordan. Open. Since the peace treaties of 1979 and 1994. Still, almost everyone takes off from here. So who travels abroad the most? Trips for a person in 2019. Israel. About one trip a year. Twice the Americans. Brits and Germans travel more. But 6 and 10 German trips abroad go by car, bus, or train, count only flights, and Israelis fly abroad almost twice as often as Germans. Over a lifetime, that's roughly 80 trips abroad, and since 2020, the Abraham Accords added direct flights to Dubai and Abu Dhabi. If the neighbors ever open up, we'll drive. Where would you go first? If you love Israeli facts, follow me on broads for more. Until then, 9 and 10 of us leave by plane.",
+  "heard": "9 and 10 Israeli trips abroad leave by plane, because Israel's borders aren't exactly road trip friendly. North, Lebanon, and Syria. Closed. South and East. Egypt and Jordan. Open, since the peace treaties of 1979 and 1994. Still, almost everyone takes off from here. So who travels abroad the most? Trips for a person, in 2019. Israel, about one trip a year, twice the Americans. Brits and Germans travel more. But 6 and 10 German trips abroad go by car, bus, or train. Count only flights, and Israelis fly abroad almost twice as often as Germans. Over a lifetime, that's roughly 80 trips abroad, and since 2020, the Abraham Accords added direct flights to Dubai and Abu Dhabi. If the neighbors ever open up, we'll drive. Where would you go first? If you love Israeli facts, follow us on the link below. Until then, 9 in 10 of us leave by plane.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -140,5 +140,5 @@
   "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 125.4
+ "render_s": 82.3
 }
