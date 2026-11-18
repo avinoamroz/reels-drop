@@ -8,7 +8,7 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
+  "tempo": 1.05,
   "lead": 0.1,
   "gap": 0.15
  },
@@ -27,7 +27,7 @@
    "say": "Grandma first. She's not going anywhere. Israeli women live to almost eighty six."
   },
   {
-   "say": "Mom. Almost three kids per woman, the most of any developed country."
+   "say": "Mom. Almost three kids per woman, the most of any developed country. The average? One and a half."
   },
   {
    "say": "So the kids are everywhere. One in three Israelis is a child."
@@ -379,7 +379,7 @@
   "balance": "Nobody agrees. Everybody *shows up.*",
   "cta": "Send this to your family group"
  },
- "caption_en": "Every family has roles. Here is Israel's. 🍽️\n\n👵 Grandma: Israeli women live to 85.7 on average (Israel CBS, 2023 data, published 2026).\n👩 Mom: 2.9 children per woman, the highest in the OECD, the Organisation for Economic Co-operation and Development (OECD 2024; CBS: 2.88 in 2025).\n🧒 The kids: one in three Israelis (31.7%) is under 18 (CBS, end of 2024).\n👨 Dad: opinions. 5 Knesset elections between April 2019 and November 2022.\n🧒 And the young ones: Israel's under 25s rank 3rd happiest in the world (World Happiness Report 2026, via JNS).\n🍽️ The whole table: 8th happiest country on Earth (World Happiness Report 2026).\n\nLoud, crowded, nobody agrees. Everybody shows up.\n\nWhich seat is yours at this table? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Crzrussian (CC BY-SA 3.0); MathKnight and Zachi Evenor (CC BY-SA 4.0); IPPA (CC BY 4.0); Dan Harrelson (CC BY 2.0); Yong Woo Park (CC BY 4.0). AI voice.",
+ "caption_en": "Every family has roles. Here is Israel's. 🍽️\n\n👵 Grandma: Israeli women live to 85.7 on average (Israel CBS, 2023 data, published 2026).\n👩 Mom: 2.9 children per woman, the highest in the OECD, the Organisation for Economic Co-operation and Development, where the average is about 1.5 (OECD Society at a Glance 2024; CBS: 2.88 in 2025).\n🧒 The kids: one in three Israelis (31.7%) is under 18 (CBS, end of 2024).\n👨 Dad: opinions. 5 Knesset elections between April 2019 and November 2022.\n🧒 And the young ones: Israel's under 25s rank 3rd happiest in the world (World Happiness Report 2026, via JNS).\n🍽️ The whole table: 8th happiest country on Earth (World Happiness Report 2026).\n\nLoud, crowded, nobody agrees. Everybody shows up.\n\nWhich seat is yours at this table? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Crzrussian (CC BY-SA 3.0); MathKnight and Zachi Evenor (CC BY-SA 4.0); IPPA (CC BY 4.0); Dan Harrelson (CC BY 2.0); Yong Woo Park (CC BY 4.0). AI voice.",
  "caption_he": "עשרה מיליון איש. ארוחת שישי אחת.\nסבתא: נשים בישראל חיות בממוצע עד 85.9. אמא: 2.9 ילדים לאישה, הכי הרבה ב־OECD. הילדים: אחד מכל שלושה ישראלים הוא ילד. אבא: דעות. 5 בחירות בפחות מארבע שנים.\nוהצעירים? השלישיים הכי מאושרים בעולם. והמשפחה כולה: מקום שמיני בעולם באושר.\nאף אחד לא מסכים. כולם מגיעים. איזה כיסא שלכם?",
  "hashtags": [
   "#Israel",
