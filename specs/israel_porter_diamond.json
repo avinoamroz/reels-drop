@@ -16,7 +16,7 @@
    "say": "Six reasons nobody can copy Israel."
   },
   {
-   "say": "In nineteen ninety, Michael Porter drew a diamond that explains why countries win.",
+   "say": "In nineteen ninety, Michael Porter drew a diamond for why countries win.",
    "screen": "Porter's Diamond, *1990*",
    "at": "L1",
    "until": "L2"
@@ -37,25 +37,25 @@
    "say": "That's why high tech is fifty eight percent of exports."
   },
   {
-   "say": "Corner three, the cluster. Over five hundred multinationals have set up here since two thousand.",
+   "say": "Corner three, the cluster. Over five hundred multinationals operate here.",
    "screen": "Related industries: *the cluster*",
    "at": "L5",
    "until": "L6"
   },
   {
-   "say": "Corner four, rivalry. About seven hundred fifty new tech companies a year, all fighting for talent.",
-   "screen": "Rivalry: *750* new companies a year",
+   "say": "Corner four, rivalry. About seven hundred seventy five new startups in 2025, all fighting for talent.",
+   "screen": "Rivalry: *775* new startups a year",
    "at": "L6",
    "until": "L7"
   },
   {
-   "say": "Then two outside forces. Government: in nineteen ninety three, Yozma put one hundred million dollars into venture capital.",
+   "say": "Then two outside forces. Government: in nineteen ninety three, Yozma put a hundred million dollars into venture capital.",
    "screen": "Government: *Yozma,* 1993",
    "at": "L7",
    "until": "L8e"
   },
   {
-   "say": "Today, six point three five percent of the economy goes to research. Highest among developed countries."
+   "say": "Today, six point eight percent of the economy goes to research. Highest in the OECD."
   },
   {
    "say": "And chance. When the Soviet Union fell, almost nine hundred thousand people came, many of them engineers.",
@@ -68,6 +68,13 @@
    "screen": "The *weak* spot",
    "at": "L10",
    "until": "L11"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12,
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "until": "L12-0.05"
   },
   {
    "say": "Six forces, feeding each other. That's why nobody can just copy Israel."
@@ -226,12 +233,12 @@
    },
    {
     "node": "rivalry",
-    "text": "750 a year",
+    "text": "775 in 2025",
     "at": "L6:seven"
    },
    {
     "node": "gov",
-    "text": "Yozma + 6.35%",
+    "text": "Yozma + 6.8%",
     "at": "L8:six",
     "dy": 92,
     "dx": 30
@@ -281,20 +288,20 @@
      "from": 0,
      "to": 511
     },
-    "text": "multinationals since 2000"
+    "text": "multinationals operate here"
    },
    {
     "at": "L6:seven",
     "until": "L7",
     "count": {
      "from": 0,
-     "to": 750,
+     "to": 775,
      "prefix": "~"
     },
-    "text": "new tech companies a year"
+    "text": "new startups in 2025"
    },
    {
-    "at": "L7:one",
+    "at": "L7:hundred",
     "until": "L8",
     "count": {
      "from": 0,
@@ -309,11 +316,11 @@
     "until": "L9",
     "count": {
      "from": 0,
-     "to": 6.35,
-     "dec": 2,
+     "to": 6.8,
+     "dec": 1,
      "suffix": "%"
     },
-    "text": "of GDP on research"
+    "text": "of GDP on R&D"
    },
    {
     "at": "L9:nine",
@@ -338,16 +345,16 @@
   ],
   "photos": [
    {
-    "file": "templates/photos/israel_porter_diamond/pd_porter.jpg",
+    "file": "templates/photos/israel_porter_diamond/pd_matam.jpg",
     "at": "L1",
     "until": "L1e",
-    "credit": "PORTER_CREDIT",
+    "credit": "Matam, Haifa. Zvi Roger, CC BY 3.0",
     "kb": [
      0.5,
-     0.35,
+     0.5,
      1.0,
      0.5,
-     0.35,
+     0.45,
      1.1
     ]
    },
@@ -355,7 +362,7 @@
     "file": "templates/photos/israel_porter_diamond/pd_intel.jpg",
     "at": "L5",
     "until": "L5e",
-    "credit": "Lehava Center Qiryat Gat, PikiWiki Israel, CC BY 2.5",
+    "credit": "Intel, Haifa. xiquinhosilva, CC BY 2.0",
     "kb": [
      0.5,
      0.5,
@@ -369,7 +376,7 @@
     "file": "templates/photos/israel_porter_diamond/pd_tlv.jpg",
     "at": "L6",
     "until": "L6e",
-    "credit": "מקף־עברי, Wikimedia Commons, CC BY-SA 4.0",
+    "credit": "Azrieli Towers. Justin McIntosh, CC BY 2.0",
     "kb": [
      0.45,
      0.5,
@@ -383,7 +390,7 @@
     "file": "templates/photos/israel_porter_diamond/pd_soviet.jpg",
     "at": "L9",
     "until": "L9e",
-    "credit": "SOVIET_CREDIT",
+    "credit": "Soviet immigrants. Tsvika Israeli, GPO, CC BY-SA 3.0",
     "kb": [
      0.5,
      0.5,
@@ -427,8 +434,8 @@
    "until": "L8"
   },
   {
-   "label": "OECD Main Science and Technology Indicators, 2023 data",
-   "year": 2025,
+   "label": "OECD Main Science and Technology Indicators, 2024 data",
+   "year": 2026,
    "at": "L8",
    "until": "L9"
   },
@@ -446,15 +453,15 @@
   }
  ],
  "end": {
-  "at": "L11",
+  "at": "L12",
   "balance": "Tech: *11.4%* of jobs, *58%* of exports.",
   "balance2": "A strong diamond on a narrow base.",
-  "balance2_at": "L11:that's",
+  "balance2_at": "L12:that's",
   "cta": "Send this to a founder",
-  "cta_at": "L11:that's+0.6"
+  "cta_at": "L12:that's+0.6"
  },
- "caption_en": "CAPTION_EN",
- "caption_he": "CAPTION_HE",
+ "caption_en": "Michael Porter wrote the playbook for why countries win. Israel checks every box but one.\n\nPorter's Diamond (The Competitive Advantage of Nations, 1990), applied to Israel:\n1. Factor conditions, people: about half of adults hold a degree (OECD Education at a Glance, 2023), and army tech units train them young.\n2. Demand: a home market of 10.2 million (CBS) forces startups to go global from day one. High tech is 58% of exports (Israel Innovation Authority, 2026).\n3. Related industries: 511 multinationals operate here (Innovation Authority, 2026).\n4. Rivalry: about 775 new startups were founded in 2025 (Innovation Authority).\n5. Government: Yozma (1993) put $100 million into venture capital. R&D is 6.8% of GDP, the highest in the OECD (OECD MSTI, 2024 data).\n6. Chance: almost 900,000 people came from the former Soviet Union in 1989 to 2000 (CBS), many of them engineers.\n\nThe weak spot: high tech is 11.4% of jobs but 58% of exports. A strong diamond on a narrow base.\n\nWhich corner would you strengthen first? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Zvi Roger (CC BY 3.0); xiquinhosilva (CC BY 2.0); Justin McIntosh (CC BY 2.0); Tsvika Israeli, Government Press Office (CC BY-SA 3.0). AI voice.",
+ "caption_he": "היהלום של פורטר (1990) מסביר למה מדינות מנצחות. ישראל: חצי מהמבוגרים עם תואר, שוק בית קטן שמכריח ללכת לעולם, 511 חברות רב לאומיות, כ־775 סטארטאפים חדשים ב־2025, יוזמה (1993) ו־6.8% מהתוצר למו\"פ, והעלייה מברית המועצות.\nנקודת התורפה: ההייטק הוא 11.4% מהמשרות אבל 58% מהיצוא.",
  "hashtags": [
   "#Israel",
   "#business",
