@@ -1,0 +1,204 @@
+{
+ "id": "would_you_rather_tax",
+ "account": "noamroz__",
+ "template": "game_show",
+ "hook": "Would you rather *pay?*",
+ "duration": 70.4,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.4
+ },
+ "outputs": {
+  "mp4": "out/would_you_rather_tax.mp4",
+  "cover": "covers/would_you_rather_tax_cover.jpg",
+  "preview": "previews/would_you_rather_tax_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/would_you_rather_tax_0.jpg",
+  "1": "out/frames/would_you_rather_tax_1.jpg",
+  "3": "out/frames/would_you_rather_tax_3.jpg",
+  "last": "out/frames/would_you_rather_tax_last.jpg"
+ },
+ "caption_en": "Door number 3 sounds great. Until the catch.\n\nThree taxes, game show style:\n1. Income tax: a share of what you earn. In Israel 10% to 47%, plus a 3% surtax on high incomes (PwC Worldwide Tax Summaries, 2026).\n2. VAT: a share of what you buy. Israel raised it to 18% on 1 January 2025.\n3. The jizya: a fixed per head tax that empires levied on non-Muslim adult men. Women, children, the elderly and the poor were exempt, and payers were exempt from military service. It came with dhimmi status: protected, but not equal (Encyclopaedia Iranica; Bernard Lewis, The Jews of Islam, 1984).\n\nThe Ottoman Empire dropped it with the 1856 reform edict (Hatt-i Humayun). Persia dropped it for Zoroastrians in 1882. In modern times it came back only with armed groups: the Pakistani Taliban from Sikhs in Orakzai (2009) and ISIS, the Islamic State, in Raqqa (2014). No recognised state levies it today.\n\nIn Israel, Jews, Muslims, Christians and Druze pay the same income tax and the same VAT. Your faith does not change your bill.\n\nTaxes are never fun. Equal taxes are the fair kind.\n\nWhich door would you pick? Tell me in the comments.\n\nPhotos (Wikimedia Commons): israel zeller, PikiWiki Israel (CC BY 2.5); Jorge Láscar (CC BY 2.0); Tsvika Israeli, Government Press Office (CC BY-SA 3.0). AI voice.",
+ "caption_he": "מה הייתם מעדיפים לשלם? מס הכנסה (10% עד 47%, ועוד 3% מס יסף), מע\"מ (18% מינואר 2025), או ג'זיה: מס גולגולת שאימפריות גבו מגברים לא מוסלמים, עם פטור משירות צבאי. הבעיה: הוא הגיע עם מעמד של \"מוגן אבל לא שווה\".\nהאימפריה העות'מאנית ביטלה אותו ב־1856, פרס ב־1882. רק ארגונים חמושים החזירו אותו: הטליבאן הפקיסטני (2009) ודאעש (2014).\nבישראל יהודים, מוסלמים, נוצרים ודרוזים משלמים אותו מס הכנסה ואותו מע\"מ. הדת לא משנה את החשבון.",
+ "hashtags": [
+  "#Israel",
+  "#taxes",
+  "#history"
+ ],
+ "sources": [
+  {
+   "label": "PwC Worldwide Tax Summaries, Israel: 10% to 47%, 3% surtax",
+   "year": 2026,
+   "at": "L2",
+   "until": "L5"
+  },
+  {
+   "label": "Israel Tax Authority via Sovos; Davar",
+   "year": 2025,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "Britannica, Jizya; Bernard Lewis, The Jews of Islam",
+   "year": 1984,
+   "at": "L8",
+   "until": "L14"
+  },
+  {
+   "label": "Hatt-i Humayun (1856); Encyclopaedia Iranica, Jezya",
+   "at": "L14",
+   "until": "L15",
+   "year": 1856
+  },
+  {
+   "label": "Dawn, Orakzai; Reuters, Raqqa 2014",
+   "at": "L15",
+   "until": "L16",
+   "year": 2009
+  },
+  {
+   "label": "Israel Income Tax Ordinance; VAT Law",
+   "year": 1975,
+   "at": "L16",
+   "until": "L18"
+  }
+ ],
+ "transcript": {
+  "score": 0.921,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Would you rather pay?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three doors. Three taxes. Pick one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Door one: income tax. A slice of what you earn.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "You pay for being successful.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Plus: the rich pay more. Minus: forms. So many forms.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Door two: VAT, value added tax.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "You pay eighteen percent on hummus.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Plus: simple, hard to dodge. Minus: it hits the poor hardest.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Door three: the jizya, a tax of old empires.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Bonus: no army service included.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Wait. No reserve duty? Where do I sign?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The catch? Only if you're the wrong religion.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Non-Muslim men paid it. Protected, but not equal.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ah. Hard pass.",
+    "score": 0.333,
+    "flag": "MISS"
+   },
+   {
+    "line": "The Ottomans dropped it in eighteen fifty six.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Only armed groups revived it: the Pakistani Taliban, and ISIS, the Islamic State.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "And in Israel? Jews, Muslims, Christians, Druze.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Same income tax. Same VAT. Your faith doesn't change your bill.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Taxes are never fun. Equal taxes are the fair kind.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "So, would you rather pay?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Would you rather pay three doors three taxes pick one door one income tax a slice of what you earn You pay for being successful plus the rich pay more minus forms so many forms door to Value-added tax you pay 18% on hummus plus simply hard to dodge Minus. It hits the poor hardest. Door 3. The Jizya. Attacks of old empires. Bonus. No army service included. Wait. No reserve duty? Where do I sign? The catch. Only if you're the wrong religion. Non-Muslim men paid it. Protected but not equal. Markhams. The Ottomans dropped it in 1856. Only armed groups revived it. The Pakistani Taliban in ISIS. The Islamic State. And in Israel. Jews. Muslims. Christians. Jews. Same income tax. Same VIT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow no laws for more. So, would you rather pay?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.4
+ },
+ "photos": [
+  {
+   "file": "templates/photos/would_you_rather_tax/wyr_hummus.jpg",
+   "credit": "israel zeller, PikiWiki Israel, CC BY 2.5"
+  },
+  {
+   "file": "templates/photos/would_you_rather_tax/wyr_carmel.jpg",
+   "credit": "Jorge Láscar, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/would_you_rather_tax/wyr_knesset.jpg",
+   "credit": "Tsvika Israeli, GPO, CC BY-SA 3.0"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 187.9
+}
