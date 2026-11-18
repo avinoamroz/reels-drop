@@ -1,0 +1,6 @@
+{
+  "id": "faiths_tree_p1",
+  "status": "FAILED",
+  "run": "44400812684",
+  "log": "voice ok: Cartesia sonic-3 (54.2 s, 140 words) voice/faiths_tree_p1_vo.wav\n[21:23:43] voice: cached voice (script unchanged)\n[ WARN:0@2.768] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/fD_ur.jpg'): can't open/read file: check file path/integrity\nfaith_tree: cannot read photo photos/fD_ur.jpg\n"
+}
