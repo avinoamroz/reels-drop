@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Every country has|a *Tel Aviv.*",
- "duration": 67.9,
+ "duration": 65.87,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -1.8
+  "lufs": -16.0,
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/twin_cities.mp4",
@@ -55,12 +55,12 @@
   {
    "label": "Straight line, city centres (our calculation)",
    "at": "L10",
-   "until": "L12-0.1",
+   "until": "L11-0.1",
    "year": 2026
   }
  ],
  "transcript": {
-  "score": 0.961,
+  "score": 0.892,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -69,8 +69,8 @@
     "flag": "ok"
    },
    {
-    "line": "And a Jerusalem. One city runs the country. The other one has the fun.",
-    "score": 0.929,
+    "line": "And a Jerusalem. One runs the country, one has the fun.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -85,7 +85,7 @@
    },
    {
     "line": "Morocco: Rabat is the capital. Casablanca is the business hub.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -99,8 +99,8 @@
     "flag": "ok"
    },
    {
-    "line": "Notice something? Washington, Canberra, Ankara: all picked to be capitals.",
-    "score": 1.0,
+    "line": "Washington, Canberra, Ankara: all picked to be capitals.",
+    "score": 0.875,
     "flag": "ok"
    },
    {
@@ -114,23 +114,18 @@
     "flag": "ok"
    },
    {
-    "line": "So how far apart are the two cities?",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
     "line": "Israel: fifty-five kilometers. Only Egypt's brand new capital is closer.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Israelis say: Jerusalem prays, Haifa works, Tel Aviv plays.",
-    "score": 0.889,
-    "flag": "ok"
+    "score": 0.444,
+    "flag": "MISS"
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.6,
+    "score": 0.0,
     "flag": "MISS"
    },
    {
@@ -139,19 +134,19 @@
     "flag": "ok"
    }
   ],
-  "heard": "Every country has a Tel Aviv and a Jerusalem. One city runs the country, the other one has the fire. Israel, Jerusalem, seat of the Knesset and the government, Tel Aviv, beaches and start-ups. 55 kilometers apart, Turkey, Ankara runs it, Istanbul gets the tourists, Morocco, Rabat is the capital, Casablanca is the business hub, Saudi Arabia, Riyadh rules, Jeddah is the city by the sea, America, Washington and New York, Australia, Canberra, and Sydney, Switzerland, Bern and Zurich. Notice something? Washington, Canberra, Ankara, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded in 1909. Egypt went the other way. In 2024, it moved its government out of Cairo to a brand new city in the desert. So how far apart are the two cities? Israel, 55 kilometers. Only Egypt's brand new capital is closer. Israeli say, Jerusalem prays, Haifa works, Tel Aviv plays. If you love Israeli facts, follow Noah Ross from war. So, where's your country's Tel Aviv?",
+  "heard": "Every country has a Tel Aviv and a Jerusalem. One runs the country. One has the fun. Israel. Jerusalem. Seat of the Knesset and the government. Tel Aviv. Beaches and start-ups. 55 kilometers apart. Turkey. Ankara runs it. Istanbul gets the tourists. Morocco. Rabah is the capital. Casablanca is the business hub. Saudi Arabia. Riyadh rules. Jeddah is the city by the sea. America. Washington and New York. Jeddah is the city by the sea, America, Washington and New York, Australia, Canberra and Sydney, Switzerland, Bern and Zurich, Washington, Canberra and Cairo, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded in 1909. Egypt went the other way. In 2024, it moved its government out of Cairo to a brand new city in the desert, Israel, 55 kilometers only Egypt's brand-new capital is closer is really saying Jerusalem praise hypo works Tel Aviv place So where's your country's Tel Aviv",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 67.9,
+ "body_s": 65.86,
  "opener": null,
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -1.8
+  "lufs": -16.0,
+  "true_peak": -1.9
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 142.8
+ "render_s": 107.1
 }
