@@ -29,7 +29,8 @@
    "screen": "Peace: Egypt *1979,* Jordan *1994*",
    "at": "L3:open",
    "gap": 0.12,
-   "until": "L4"
+   "until": "L4",
+   "screen_size": 60
   },
   {
    "say": "Still, almost everyone takes off from here.",
