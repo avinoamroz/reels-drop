@@ -31,17 +31,20 @@
   {
    "say": "Turkey: Ankara runs it. Istanbul gets the tourists.",
    "screen": "Ankara and Istanbul",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L4"
   },
   {
    "say": "Morocco: Rabat is the capital. Casablanca is the business hub.",
    "screen": "Rabat and Casablanca",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L5"
   },
   {
    "say": "Saudi Arabia: Riyadh rules. Jeddah is the city by the sea.",
    "screen": "Riyadh and Jeddah",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L6"
   },
   {
    "say": "America: Washington and New York. Australia: Canberra and Sydney. Switzerland: Bern and Zurich.",
