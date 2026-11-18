@@ -1,0 +1,483 @@
+{
+ "id": "promenades_world",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*14 km.* Best promenade|on *Earth?*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Fourteen kilometres of seafront. The best on Earth?",
+   "gap": 0.2
+  },
+  {
+   "say": "Tel Aviv's promenade runs from Jaffa all the way north. Thirteen beaches on one walk.",
+   "screen": "Tel Aviv: *14 km,* 13 beaches",
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "say": "So let's race it against the world's famous seafronts. By length.",
+   "screen": "Seafront promenades, by *length*",
+   "at": "L2",
+   "until": "L2e"
+  },
+  {
+   "say": "Alexandria's Corniche: over sixteen kilometres. The Mediterranean champion."
+  },
+  {
+   "say": "Then Tel Aviv, fourteen. Doha and Nice, about seven each."
+  },
+  {
+   "say": "Bondi to Coogee, six. Beirut, almost five. Copacabana, four. Venice Beach, three."
+  },
+  {
+   "say": "Tel Aviv takes silver. Not bad for a city of half a million."
+  },
+  {
+   "say": "Now, how busy? Tel Aviv counts eight and a half million beach visits a year.",
+   "screen": "Beach visits *per year*",
+   "at": "L7:busy",
+   "until": "L8e"
+  },
+  {
+   "say": "Venice Beach says about ten million. The others publish no official count."
+  },
+  {
+   "say": "And beauty? No ranking can measure that. So you decide.",
+   "screen": "Beauty: *you* decide",
+   "at": "L9:you",
+   "until": "L9e"
+  },
+  {
+   "say": "Nice at sunset?"
+  },
+  {
+   "say": "Copacabana's famous waves?"
+  },
+  {
+   "say": "Beirut from the sea?"
+  },
+  {
+   "say": "Or Tel Aviv, beach after beach?"
+  },
+  {
+   "say": "Which one would you walk?",
+   "screen": "Which one would *you* walk?",
+   "at": "L14",
+   "until": "L15"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L15",
+   "until": "L16"
+  },
+  {
+   "say": "Fourteen kilometres of seafront. The best on Earth?"
+  }
+ ],
+ "data": {
+  "cam0": [
+   34.75,
+   32.06,
+   2.6
+  ],
+  "hook_y": 930,
+  "cams": [
+   {
+    "at": "L2-0.3",
+    "view": [
+     15,
+     10,
+     330,
+     600
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L16-0.5",
+    "view": [
+     34.75,
+     32.06,
+     2.6,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "pins": [
+   {
+    "at": 0.2,
+    "until": "L2",
+    "lon": 34.77,
+    "lat": 32.08,
+    "label": "Tel Aviv",
+    "color": "yellow"
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "QAT",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "FRA",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "AUS",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "LBN",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "BRA",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L2:famous",
+    "until": "L7",
+    "code": "ISR",
+    "color": "#F5C542",
+    "alpha": 0.9
+   }
+  ],
+  "dim": [
+   {
+    "at": "L3-0.2",
+    "until": "L9"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L3-0.1",
+    "until": "L7-0.1",
+    "title": "Promenade length, km",
+    "y": 520,
+    "vmax": 16.1,
+    "rows": [
+     {
+      "label": "Alexandria",
+      "flag": "EG",
+      "value": 16.1,
+      "txt": "16+",
+      "at": "L3:sixteen",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Tel Aviv",
+      "flag": "IL",
+      "value": 14,
+      "txt": "14",
+      "at": "L4:fourteen",
+      "hl": true
+     },
+     {
+      "label": "Doha",
+      "flag": "QA",
+      "value": 7,
+      "txt": "7",
+      "at": "L4:doha",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Nice",
+      "flag": "FR",
+      "value": 6.9,
+      "txt": "~7",
+      "at": "L4:nice",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Bondi to Coogee",
+      "flag": "AU",
+      "value": 6,
+      "txt": "6",
+      "at": "L5:six",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Beirut",
+      "flag": "LB",
+      "value": 4.8,
+      "txt": "4.8",
+      "at": "L5:beirut",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Copacabana",
+      "flag": "BR",
+      "value": 4,
+      "txt": "4",
+      "at": "L5:four",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Venice Beach",
+      "flag": "US",
+      "value": 3.2,
+      "txt": "3.2",
+      "at": "L5:venice",
+      "color": "#45A4DD"
+     }
+    ]
+   },
+   {
+    "at": "L7-0.1",
+    "until": "L9-0.1",
+    "title": "Beach visits per year, millions",
+    "y": 520,
+    "vmax": 10,
+    "rows": [
+     {
+      "label": "Venice Beach",
+      "flag": "US",
+      "value": 10,
+      "txt": "~10M",
+      "at": "L8:venice",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Tel Aviv",
+      "flag": "IL",
+      "value": 8.5,
+      "txt": "8.5M",
+      "at": "L7:eight",
+      "hl": true
+     },
+     {
+      "label": "Alexandria",
+      "flag": "EG",
+      "value": 0,
+      "txt": "no data",
+      "at": "L8:others",
+      "color": "#8FA3C0"
+     },
+     {
+      "label": "Doha",
+      "flag": "QA",
+      "value": 0,
+      "txt": "no data",
+      "at": "L8:others+0.1",
+      "color": "#8FA3C0"
+     },
+     {
+      "label": "Nice",
+      "flag": "FR",
+      "value": 0,
+      "txt": "no data",
+      "at": "L8:others+0.2",
+      "color": "#8FA3C0"
+     },
+     {
+      "label": "Bondi to Coogee",
+      "flag": "AU",
+      "value": 0,
+      "txt": "no data",
+      "at": "L8:others+0.3",
+      "color": "#8FA3C0"
+     },
+     {
+      "label": "Beirut",
+      "flag": "LB",
+      "value": 0,
+      "txt": "no data",
+      "at": "L8:others+0.4",
+      "color": "#8FA3C0"
+     },
+     {
+      "label": "Copacabana",
+      "flag": "BR",
+      "value": 0,
+      "txt": "no data",
+      "at": "L8:others+0.5",
+      "color": "#8FA3C0"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L6",
+    "until": "L7-0.2",
+    "value": 2,
+    "from": 8,
+    "prefix": "#",
+    "sub": "Tel Aviv, by length",
+    "y": 1380
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/promenades_world/tlvair.jpg",
+    "at": "L1",
+    "until": "L1e",
+    "credit": "Jaffa and Tel Aviv. Yong Woo Park, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.45,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/promenades_world/alex.jpg",
+    "at": "L3",
+    "until": "L3:champion",
+    "credit": "Alexandria Corniche. Daniel Mayer, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/promenades_world/nice.jpg",
+    "at": "L10",
+    "until": "L10e",
+    "credit": "Promenade des Anglais. Txllxt TxllxT, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/promenades_world/copa.jpg",
+    "at": "L11",
+    "until": "L11e",
+    "credit": "Copacabana. Wilfredor, CC0",
+    "kb": [
+     0.5,
+     0.6,
+     1.0,
+     0.5,
+     0.65,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/promenades_world/beirut.jpg",
+    "at": "L12",
+    "until": "L12e",
+    "credit": "Beirut seafront. Wusel007, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/promenades_world/tlv.jpg",
+    "at": "L13",
+    "until": "L14-0.1",
+    "credit": "Tel Aviv promenade. Avishai Teicher, CC BY 2.5",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.55,
+     1.15
+    ]
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L4:fourteen",
+    "until": "L7-0.1",
+    "text": "*Save* this list",
+    "y": 1700,
+    "size": 44
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Tel Aviv-Yafo Municipality",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Wikipedia; Visit Qatar; Explore Nice; Destination NSW; NEH",
+   "year": 2026,
+   "at": "L3",
+   "until": "L7"
+  },
+  {
+   "label": "Tel Aviv-Yafo Municipality; ABC News",
+   "year": 2023,
+   "at": "L7",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "Alexandria wins on length. *You* pick the view.",
+  "cta": "Which one would you walk?"
+ },
+ "caption_en": "One of these walks wins on length. The view is your call. 🌊\n\nThe Tel Aviv promenade runs about 14 km from Jaffa to the north, past 13 beaches (Tel Aviv-Yafo Municipality), in a city of about half a million people (Israel CBS). How it ranks against famous seafronts, by length:\n\n🇪🇬 Alexandria Corniche: over 16 km (over ten miles, Wikipedia)\n🇮🇱 Tel Aviv: 14 km (8.7 miles, Tel Aviv-Yafo Municipality)\n🇶🇦 Doha Corniche: 7 km (Visit Qatar)\n🇫🇷 Promenade des Anglais, Nice: almost 7 km (Explore Nice Côte d'Azur)\n🇦🇺 Bondi to Coogee walk: 6 km (Destination NSW)\n🇱🇧 Beirut Corniche: 4.8 km (Wikipedia)\n🇧🇷 Copacabana: 4 km (National Endowment for the Humanities)\n🇺🇸 Venice Beach boardwalk: about 3.2 km (Wikipedia)\n\nBeach visits a year: Venice Beach about 10 million (ABC News, 2023), Tel Aviv 8.5 million bathers (Tel Aviv-Yafo Municipality). The others publish no official count, so we show no data.\n\nBeauty has no fair ranking. You decide: which one would you walk? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Yong Woo Park (CC BY 4.0); Daniel Mayer (CC BY-SA 4.0); Txllxt TxllxT (CC BY-SA 4.0); Wilfredor (CC0); Wusel007 (CC BY-SA 3.0); Dr. Avishai Teicher, PikiWiki Israel (CC BY 2.5). AI voice.",
+ "caption_he": "הטיילת של תל אביב: כ־14 ק\"מ מיפו צפונה, 13 חופים ו־8.5 מיליון רוחצים בשנה (עיריית תל אביב־יפו).\nבאורך היא במקום השני בעולם מבין הטיילות המפורסמות, אחרי הקורניש של אלכסנדריה (יותר מ־16 ק\"מ). דוחה וניס כ־7, בונדי לקוג'י 6, ביירות 4.8, קופקבנה 4, ונציה ביץ' כ־3.2.\nויופי? את זה אין מדד הוגן שמודד. אתם מחליטים: באיזו טיילת הייתם הולכים?",
+ "hashtags": [
+  "#TelAviv",
+  "#promenade",
+  "#Israel"
+ ],
+ "cover": {
+  "t": 12.0,
+  "big": "14 km",
+  "text": "Best promenade|on *Earth?*"
+ }
+}
