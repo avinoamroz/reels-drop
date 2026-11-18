@@ -1,0 +1,624 @@
+{
+ "id": "cars_traffic_paradox",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Fewer cars.|Worse *traffic.* How?",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "Fewer cars. Worse traffic. How?",
+   "gap": 0.12
+  },
+  {
+   "say": "Israel has four hundred and four vehicles for every thousand people.",
+   "gap": 0.12
+  },
+  {
+   "say": "America has more than twice that. Germany and the Netherlands, about six hundred.",
+   "gap": 0.12
+  },
+  {
+   "say": "So Israelis own fewer cars. Now look at the roads.",
+   "screen": "Fewer cars. Now the *roads.*",
+   "gap": 0.12
+  },
+  {
+   "say": "Vehicles per kilometre of road: Israel, two thousand seven hundred. The OECD average: under eight hundred.",
+   "gap": 0.12
+  },
+  {
+   "say": "Three and a half times more crowded.",
+   "screen": "*3.5x* the OECD average",
+   "gap": 0.12
+  },
+  {
+   "say": "How? A tiny country, and a population that doubled since 1990.",
+   "screen": "Population: *doubled* since 1990",
+   "gap": 0.12
+  },
+  {
+   "say": "Plus the highest birth rate in the OECD: about three kids per woman.",
+   "screen": "*2.9* kids per woman: top of the OECD",
+   "gap": 0.12
+  },
+  {
+   "say": "Now send them all to work in Tel Aviv.",
+   "screen": "Everyone to *Tel Aviv*",
+   "gap": 0.12
+  },
+  {
+   "say": "Evening rush hour on the Ayalon highway: fourteen kilometres an hour.",
+   "gap": 0.12
+  },
+  {
+   "say": "That's bicycle speed.",
+   "screen": "That's *bicycle* speed 🚲",
+   "gap": 0.12
+  },
+  {
+   "say": "The fix has started. The Red Line light rail opened in 2023, and two more lines are being built.",
+   "screen": "Red Line: *2023.* Two more lines coming",
+   "gap": 0.12
+  },
+  {
+   "say": "So, train or car? Tell me which you'd take.",
+   "gap": 0.12
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "Until then: fewer cars, worse traffic.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   34.85,
+   32.07,
+   0.75
+  ],
+  "hook_y": 1160,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L0e",
+    "view": [
+     34.95,
+     31.7,
+     3.6,
+     700
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L8-0.3",
+    "view": [
+     34.84,
+     32.07,
+     0.6,
+     760
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L11",
+    "view": [
+     34.8,
+     32.07,
+     0.45,
+     760
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L14-0.3",
+    "view": [
+     34.85,
+     32.07,
+     0.75,
+     960
+    ],
+    "dur": 1.0
+   }
+  ],
+  "routes": [
+   {
+    "at": 0,
+    "until": "L1",
+    "path": [
+     [
+      34.807,
+      32.147
+     ],
+     [
+      34.799,
+      32.118
+     ],
+     [
+      34.792,
+      32.088
+     ],
+     [
+      34.789,
+      32.073
+     ],
+     [
+      34.783,
+      32.055
+     ],
+     [
+      34.776,
+      32.035
+     ],
+     [
+      34.779,
+      32.01
+     ]
+    ],
+    "kind": "flow",
+    "color": "#E5484D",
+    "width": 14,
+    "draw": 0.6,
+    "speed": 0.25
+   },
+   {
+    "at": "L8",
+    "until": "L11",
+    "path": [
+     [
+      34.807,
+      32.147
+     ],
+     [
+      34.799,
+      32.118
+     ],
+     [
+      34.792,
+      32.088
+     ],
+     [
+      34.789,
+      32.073
+     ],
+     [
+      34.783,
+      32.055
+     ],
+     [
+      34.776,
+      32.035
+     ],
+     [
+      34.779,
+      32.01
+     ]
+    ],
+    "kind": "flow",
+    "color": "#E5484D",
+    "width": 14,
+    "draw": 0.8,
+    "speed": 0.12,
+    "label": "Ayalon",
+    "label_at": [
+     34.83,
+     32.1
+    ],
+    "label_dy": -40
+   },
+   {
+    "at": "L14",
+    "until": "END",
+    "path": [
+     [
+      34.807,
+      32.147
+     ],
+     [
+      34.799,
+      32.118
+     ],
+     [
+      34.792,
+      32.088
+     ],
+     [
+      34.789,
+      32.073
+     ],
+     [
+      34.783,
+      32.055
+     ],
+     [
+      34.776,
+      32.035
+     ],
+     [
+      34.779,
+      32.01
+     ]
+    ],
+    "kind": "flow",
+    "color": "#E5484D",
+    "width": 14,
+    "draw": 0.6,
+    "speed": 0.25
+   }
+  ],
+  "icons": [
+   {
+    "at": 0,
+    "until": "L1",
+    "lon": 34.795,
+    "lat": 32.1,
+    "emo": "🚗",
+    "size": 80
+   },
+   {
+    "at": 0.3,
+    "until": "L1",
+    "lon": 34.788,
+    "lat": 32.065,
+    "emo": "🚙",
+    "size": 80
+   },
+   {
+    "at": 0.6,
+    "until": "L1",
+    "lon": 34.778,
+    "lat": 32.03,
+    "emo": "🚕",
+    "size": 80
+   },
+   {
+    "at": "L8:tel",
+    "until": "L11",
+    "lon": 34.86,
+    "lat": 32.18,
+    "emo": "🚗",
+    "size": 70
+   },
+   {
+    "at": "L8:tel",
+    "until": "L11",
+    "lon": 34.9,
+    "lat": 32.02,
+    "emo": "🚙",
+    "size": 70
+   },
+   {
+    "at": "L8:tel",
+    "until": "L11",
+    "lon": 34.85,
+    "lat": 31.95,
+    "emo": "🚕",
+    "size": 70
+   },
+   {
+    "at": "L14",
+    "until": "END",
+    "lon": 34.795,
+    "lat": 32.1,
+    "emo": "🚗",
+    "size": 80
+   },
+   {
+    "at": "L14",
+    "until": "END",
+    "lon": 34.788,
+    "lat": 32.065,
+    "emo": "🚙",
+    "size": 80
+   }
+  ],
+  "pins": [
+   {
+    "at": "L8:tel",
+    "until": "L11",
+    "lon": 34.8,
+    "lat": 32.07,
+    "label": "Tel Aviv",
+    "color": "yellow"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L1",
+    "until": "L4-0.1",
+    "title": "Vehicles per *1,000* people, 2020",
+    "y": 520,
+    "vmax": 860,
+    "lab_w": 440,
+    "rows": [
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 860,
+      "txt": "860",
+      "at": "L2:america",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 627,
+      "txt": "627",
+      "at": "L2:germany",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Netherlands",
+      "flag": "NL",
+      "value": 588,
+      "txt": "588",
+      "at": "L2:netherlands",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 404,
+      "txt": "404",
+      "hl": true,
+      "at": "L1:four"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 343,
+      "txt": "343",
+      "at": "L1e",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Türkiye",
+      "flag": "TR",
+      "value": 220,
+      "txt": "220",
+      "at": "L1e",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 64,
+      "txt": "64",
+      "at": "L1e",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0,
+      "txt": "no data",
+      "at": "L1e",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 0,
+      "txt": "no data",
+      "at": "L1e",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 0,
+      "txt": "no data",
+      "at": "L1e",
+      "color": "#45A4DD"
+     }
+    ]
+   },
+   {
+    "at": "L4",
+    "until": "L6-0.1",
+    "title": "Vehicles per *km of road*",
+    "y": 600,
+    "vmax": 2730,
+    "lab_w": 440,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 2730,
+      "txt": "2,730",
+      "hl": true,
+      "at": "L4:israel"
+     },
+     {
+      "label": "OECD average",
+      "flag": "",
+      "value": 774,
+      "txt": "774",
+      "at": "L4:oecd",
+      "color": "#45A4DD"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L9:fourteen",
+    "until": "L10e",
+    "value": 14,
+    "from": 120,
+    "suffix": " km/h",
+    "sub": "Ayalon, evening rush hour",
+    "y": 760
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/tlv_hidden_engineering/the_ayalon.jpg",
+    "at": "L8:work",
+    "until": "L9-0.1",
+    "credit": "Tel Aviv and the Ayalon: Ilya Platonov, public domain",
+    "kb": [
+     0.45,
+     0.6,
+     1.0,
+     0.3,
+     0.85,
+     1.5
+    ],
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/tlv_hidden_engineering/the_ayalon.jpg",
+    "at": "L10",
+    "until": "L11-0.1",
+    "credit": "Ayalon Highway: Ilya Platonov, public domain",
+    "kb": [
+     0.2,
+     0.85,
+     1.8,
+     0.25,
+     0.88,
+     2.2
+    ],
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/cars_traffic_paradox/lrt.jpg",
+    "at": "L11:red",
+    "until": "L11:two",
+    "credit": "Red Line test ride: Erel Herzog, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/cars_traffic_paradox/lrt2.jpg",
+    "at": "L11:two",
+    "until": "L12-0.1",
+    "credit": "Red Line station: Nizzan Cohen, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.1
+   }
+  ],
+  "photo_box": [
+   60,
+   1010,
+   960,
+   430,
+   28
+  ],
+  "overlays": [
+   {
+    "at": "L1",
+    "until": "L4-0.1",
+    "text": "Cars, vans, buses and trucks in use (OICA)",
+    "y": 1470,
+    "size": 40,
+    "pill": "#163261"
+   },
+   {
+    "at": "L12",
+    "until": "L13",
+    "text": "Train or car: which would *you* take?",
+    "y": 1250,
+    "size": 60
+   },
+   {
+    "at": "L13",
+    "until": "L13e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1250,
+    "size": 72,
+    "cue": true
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "L14",
+     "END"
+    ]
+   ]
+  },
+  "tail": 0.55
+ },
+ "sources": [
+  {
+   "label": "OICA, vehicles in use",
+   "year": 2020,
+   "at": "L1",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "State Comptroller of Israel (OECD data)",
+   "year": 2019,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "OECD Family Database; Israel CBS",
+   "year": 2023,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "Globes, Nov 2025",
+   "year": 2025,
+   "at": "L9",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "NTA; Globes",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12-0.1"
+  }
+ ],
+ "caption_en": "The jam isn't about how many cars Israelis own. 🚗\n\nVehicles per 1,000 people (OICA, 2020): 🇺🇸 USA 860, 🇩🇪 Germany 627, 🇳🇱 Netherlands 588, 🇮🇱 Israel 404, 🇦🇪 UAE 343, 🇹🇷 Türkiye 220, 🇪🇬 Egypt 64. 🇯🇴 Jordan, 🇱🇧 Lebanon, 🇸🇦 Saudi Arabia: no data in the 2020 table. Counts cars, vans, buses and trucks in use.\n\nVehicles per km of road: Israel 2,730, OECD average 774. About 3.5 times more crowded (State Comptroller of Israel, March 2019, using OECD data).\n\nWhy? A small country, a population that doubled since 1990 (about 4.8 million then, over 10 million now, CBS), the highest fertility rate in the OECD (2.9 children per woman), and a lot of it heading into Tel Aviv. Evening rush hour on the busiest stretch of the Ayalon: 14 km/h (Globes, Nov 2025).\n\nThe fix has started: the Red Line light rail opened in August 2023, and the Purple and Green Lines are under construction.\n\nTrain or car: which would you take?\n\nSources: OICA motorization rate 2020; State Comptroller of Israel 2019 (via Times of Israel); Israel CBS; OECD Family Database; Globes, 2 Nov 2025; NTA.\nPhotos (Wikimedia Commons): Tel Aviv and the Ayalon, Ilya Platonov (public domain); Red Line test ride, Erel Herzog (CC BY-SA 4.0); Red Line station, Nizzan Cohen (CC BY 4.0). Map: ours.",
+ "caption_he": "פחות מכוניות, יותר פקקים. איך?\nכלי רכב לכל 1,000 תושבים (OICA, 2020): ארה\"ב 860, גרמניה 627, הולנד 588, ישראל 404.\nאבל כלי רכב לק\"מ כביש: ישראל 2,730, ממוצע OECD 774. פי 3.5 יותר צפוף (מבקר המדינה, 2019).\nמדינה קטנה, אוכלוסייה שהוכפלה מאז 1990, שיעור הילודה הגבוה ב-OECD, וכולם נוסעים לתל אביב. איילון בפקק של הערב: 14 קמ\"ש.\nהקו האדום נפתח ב-2023, הסגול והירוק בבנייה. רכבת או אוטו? מה אתם הייתם בוחרים?",
+ "hashtags": [
+  "#Israel",
+  "#TelAviv",
+  "#traffic",
+  "#cars"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "3.5x",
+  "text": "Fewer cars.|Worse *traffic.* How?"
+ }
+}
