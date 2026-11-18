@@ -1,6 +1,163 @@
 {
-  "id": "cars_traffic_paradox",
-  "status": "FAILED",
-  "run": "44395770972",
-  "log": ""
+ "id": "cars_traffic_paradox",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Fewer cars.|Worse *traffic.* How?",
+ "duration": 50.2,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/cars_traffic_paradox.mp4",
+  "cover": "covers/cars_traffic_paradox_cover.jpg",
+  "preview": "previews/cars_traffic_paradox_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/cars_traffic_paradox_0.jpg",
+  "1": "out/frames/cars_traffic_paradox_1.jpg",
+  "3": "out/frames/cars_traffic_paradox_3.jpg",
+  "last": "out/frames/cars_traffic_paradox_last.jpg"
+ },
+ "caption_en": "The jam isn't about how many cars Israelis own. 🚗\n\nVehicles per 1,000 people (OICA, 2020): 🇺🇸 USA 860, 🇩🇪 Germany 627, 🇳🇱 Netherlands 588, 🇮🇱 Israel 404, 🇦🇪 UAE 343, 🇹🇷 Türkiye 220, 🇪🇬 Egypt 64. 🇯🇴 Jordan, 🇱🇧 Lebanon, 🇸🇦 Saudi Arabia: no data in the 2020 table. Counts cars, vans, buses and trucks in use.\n\nVehicles per km of road: Israel 2,730, OECD average 774. About 3.5 times more crowded (State Comptroller of Israel, March 2019, using OECD data).\n\nWhy? A small country, a population that doubled since 1990 (about 4.8 million then, over 10 million now, CBS), the highest fertility rate in the OECD (2.9 children per woman), and a lot of it heading into Tel Aviv. Evening rush hour on the busiest stretch of the Ayalon: 14 km/h (Globes, Nov 2025).\n\nThe fix has started: the Red Line light rail opened in August 2023, and the Purple and Green Lines are under construction.\n\nTrain or car: which would you take?\n\nSources: OICA motorization rate 2020; State Comptroller of Israel 2019 (via Times of Israel); Israel CBS; OECD Family Database; Globes, 2 Nov 2025; NTA.\nPhotos (Wikimedia Commons): Tel Aviv and the Ayalon, Ilya Platonov (public domain); Red Line test ride, Erel Herzog (CC BY-SA 4.0); Red Line station, Nizzan Cohen (CC BY 4.0). Map: ours.",
+ "caption_he": "פחות מכוניות, יותר פקקים. איך?\nכלי רכב לכל 1,000 תושבים (OICA, 2020): ארה\"ב 860, גרמניה 627, הולנד 588, ישראל 404.\nאבל כלי רכב לק\"מ כביש: ישראל 2,730, ממוצע OECD 774. פי 3.5 יותר צפוף (מבקר המדינה, 2019).\nמדינה קטנה, אוכלוסייה שהוכפלה מאז 1990, שיעור הילודה הגבוה ב-OECD, וכולם נוסעים לתל אביב. איילון בפקק של הערב: 14 קמ\"ש.\nהקו האדום נפתח ב-2023, הסגול והירוק בבנייה. רכבת או אוטו? מה אתם הייתם בוחרים?",
+ "hashtags": [
+  "#Israel",
+  "#TelAviv",
+  "#traffic",
+  "#cars"
+ ],
+ "sources": [
+  {
+   "label": "OICA, vehicles in use",
+   "year": 2020,
+   "at": "L1",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "State Comptroller of Israel (OECD data)",
+   "year": 2019,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "OECD Family Database; Israel CBS",
+   "year": 2023,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "Globes, Nov 2025",
+   "year": 2025,
+   "at": "L9",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "NTA; Globes",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.963,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Fewer cars. Worse traffic. How?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel has four hundred and four vehicles for every thousand people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "America has more than twice that. Germany and the Netherlands, about six hundred.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So Israelis own fewer cars. Now look at the roads.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Vehicles per kilometre of road: Israel, two thousand seven hundred. The OECD average: under eight hundred.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Three and a half times more crowded.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "How? A tiny country, and a population that doubled since 1990.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Plus the highest birth rate in the OECD: about three kids per woman.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now send them all to work in Tel Aviv.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Evening rush hour on the Ayalon highway: fourteen kilometres an hour.",
+    "score": 0.818,
+    "flag": "ok"
+   },
+   {
+    "line": "That's bicycle speed.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The fix has started. The Red Line light rail opened in 2023, and two more lines are being built.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, train or car? Which would you take?",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Until then: fewer cars, worse traffic.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Fewer cars, worse traffic, how? Israel has 404 vehicles for every thousand people. America has more than twice that. Germany and the Netherlands about 600. So Israelis own fewer cars. Now look at the roads. Vehicles per kilometer of road. Israel, 2,700. The OECD average, under 800. Three and a half times more crowded. How? A tiny country and a population that doubled since 1990. Plus the highest birth rate in the OECD, about three kids per woman. Now send them all to work in Tel Aviv. Evening rush hour on the Eilon Highway. 14 kilometers an hour. That's bicycle speed. The fix has started. The red line light rail opened in 2023 and two more lines are being built. So train your car. Which would you take? If you love Israeli facts, follow on broad for more. Until then, fewer cars, worse traffic.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 50.21,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 77.3
 }
