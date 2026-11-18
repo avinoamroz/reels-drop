@@ -1,0 +1,172 @@
+{
+ "id": "visit_syria_iraq_checklist",
+ "account": "noamroz__",
+ "template": "law_grid",
+ "hook": "*4* steps to|visit *Damascus?*",
+ "duration": 58.9,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/visit_syria_iraq_checklist.mp4",
+  "cover": "covers/visit_syria_iraq_checklist_cover.jpg",
+  "preview": "previews/visit_syria_iraq_checklist_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/visit_syria_iraq_checklist_0.jpg",
+  "1": "out/frames/visit_syria_iraq_checklist_1.jpg",
+  "3": "out/frames/visit_syria_iraq_checklist_3.jpg",
+  "last": "out/frames/visit_syria_iraq_checklist_last.jpg"
+ },
+ "caption_en": "One of these countries scores zero. It's not the one most people guess. 🛂\n\nWhat would it take for Israelis to visit Damascus or Baghdad? 4 steps, with Egypt as the control.\n\n🇪🇬 Egypt: 4/4. Peace treaty (1979), direct talks, one army, and Israelis enter Sinai at Taba.\n\n🇸🇾 Syria: 1/4.\n❌ Peace treaty: never signed.\n🟡 Direct talks: security talks since 2025; President al-Sharaa says they reached about 90% before stalling (Sept 2026).\n🟡 One army: the Kurdish-led SDF agreed to merge into the state in Jan 2026; integration is still under way.\n❌ Israeli tourists: Israeli nationals are barred from entering or transiting.\n\n🇮🇶 Iraq: 0/4.\n❌ Peace treaty: none.\n❌ Talks: Anti-Normalisation Law No. 1 of 2022 punishes cooperation with Israel with life or death; the first life sentence came in July 2025.\n❌ One army: about 50,000 fighters in Iran-backed militias, the Islamic Resistance in Iraq coalition (security officials via Arab News, July 2026).\n❌ Israeli tourists: barred.\n\nPeace takes two: Israeli troops still hold positions in southern Syria taken after Assad fell, and Israeli law bans visits to Syria and Iraq without a permit (1954 law).\n\nIsraelis would love to see old Damascus and Babylon. Who gets there first?\n\nSources: Peace Treaty 1979; Reuters, Dec 2024; Anadolu, 23 Sept 2026; Al Jazeera, 30 Jan 2026; Asharq Al-Awsat, Sept 2026; The New Arab, July 2025; Arab News, July 2026; visa policies of Syria and Iraq.\nPhotos (Wikimedia Commons): jay8085 CC BY 2.0; V. Argenberg CC BY 4.0; Dosseman CC BY-SA 4.0; Matson Collection PD. Map: ours.",
+ "caption_he": "מה צריך לקרות כדי שישראלים יבקרו בדמשק או בבגדד? 4 צעדים.\nמצרים: 4 מתוך 4.\nסוריה: 1 מתוך 4. אין הסכם שלום, יש שיחות ביטחוניות ישירות, איחוד הכוחות לצבא אחד עוד בתהליך, וישראלים לא נכנסים.\nעיראק: 0 מתוך 4. חוק מ-2022 מעניש על קשר עם ישראל עד מוות, וכ-50 אלף לוחמים במיליציות בחסות איראן.\nושלום צריך שניים: כוחות ישראליים עדיין בדרום סוריה, והחוק הישראלי אוסר לנסוע לשם בלי היתר.\nמי יגיע ראשונה?",
+ "hashtags": [
+  "#Israel",
+  "#Syria",
+  "#Iraq",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "Egypt-Israel Peace Treaty",
+   "year": 1979,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Reuters, Dec 2024",
+   "year": 2024,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Anadolu, al-Sharaa at the Atlantic Council",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Al Jazeera; Asharq Al-Awsat",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Visa policies of Syria and Iraq",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Iraq Law No. 1 of 2022; The New Arab",
+   "year": 2025,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Arab News, security officials",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Visa policy of Iraq",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Anadolu; Israel Prevention of Infiltration Law",
+   "year": 2026,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.976,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Four steps before Israelis can visit Damascus, or Baghdad.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt passed all four: peace treaty, talks, one army, and Israeli tourists.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria first. Assad fell in December 2024.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peace treaty? No. Syria and Israel never signed one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Talks? Yes, direct security talks. Syria's president says they got ninety percent there. Half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One army? The Kurdish-led forces agreed to merge in January. Still in progress. Half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israeli tourists? Banned. Syria: one out of four.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq. Peace treaty? No. And a 2022 law punishes contact with Israel, up to death.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "One army? About fifty thousand fighters in Iran-backed militias. No.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Israeli tourists? Banned. Iraq: zero out of four.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peace takes two. Israeli troops still hold positions in southern Syria, and Israeli law bans the trip too.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israelis would love to see old Damascus, and Babylon. Who gets there first?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Until then: Sinai. And four steps to Damascus.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Four steps before Israelis can visit Damascus or Baghdad. Egypt passed all four. Peace treaty. Talks, one army and Israeli tourists. Syria first. Assad fell in December 2024. Peace treaty? No. Syria and Israel never signed one. Talks? Yes, direct security talks. Syria's president says they got 90% there. Half. One army? The Kurdish-led forces agreed to merge in January. Still in progress. Half. Israeli tourists? Banned. Syria. 1 out of 4. Iran. Peace treaty? No. And a 2022 law punishes contact with Israel up to death. One army. About 50,000 fighters in Iran back militias? No. Israeli tourists? Banned. Iraq. 0 out of 4. Peace takes 2. Israeli troops still hold positions in southern Syria and Israeli law bans the trip too. Israelis would love to see old Damascus and Babylon. Who gets there first? If you love Israeli facts, follow Noah Mraz for more. Until then, Sinai, and four steps to Damascus.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 146.1
+}
