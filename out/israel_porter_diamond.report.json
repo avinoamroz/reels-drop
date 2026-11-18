@@ -1,0 +1,179 @@
+{
+ "id": "israel_porter_diamond",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "*6* reasons nobody|copies *Israel*",
+ "duration": 53.1,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/israel_porter_diamond.mp4",
+  "cover": "covers/israel_porter_diamond_cover.jpg",
+  "preview": "previews/israel_porter_diamond_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_porter_diamond_0.jpg",
+  "1": "out/frames/israel_porter_diamond_1.jpg",
+  "3": "out/frames/israel_porter_diamond_3.jpg",
+  "last": "out/frames/israel_porter_diamond_last.jpg"
+ },
+ "caption_en": "Michael Porter wrote the playbook for why countries win. Israel checks every box but one.\n\nPorter's Diamond (The Competitive Advantage of Nations, 1990), applied to Israel:\n1. Factor conditions, people: about half of adults hold a degree (OECD Education at a Glance, 2023), and army tech units train them young.\n2. Demand: a home market of 10.2 million (CBS) forces startups to go global from day one. High tech is 58% of exports (Israel Innovation Authority, 2026).\n3. Related industries: 511 multinationals operate here (Innovation Authority, 2026).\n4. Rivalry: about 775 new startups were founded in 2025 (Innovation Authority).\n5. Government: Yozma (1993) put $100 million into venture capital. R&D is 6.8% of GDP, the highest in the OECD (OECD MSTI, 2024 data).\n6. Chance: almost 900,000 people came from the former Soviet Union in 1989 to 2000 (CBS), many of them engineers.\n\nThe weak spot: high tech is 11.4% of jobs but 58% of exports. A strong diamond on a narrow base.\n\nWhich corner would you strengthen first? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Zvi Roger (CC BY 3.0); xiquinhosilva (CC BY 2.0); Justin McIntosh (CC BY 2.0); Tsvika Israeli, Government Press Office (CC BY-SA 3.0). AI voice.",
+ "caption_he": "היהלום של פורטר (1990) מסביר למה מדינות מנצחות. ישראל: חצי מהמבוגרים עם תואר, שוק בית קטן שמכריח ללכת לעולם, 511 חברות רב לאומיות, כ־775 סטארטאפים חדשים ב־2025, יוזמה (1993) ו־6.8% מהתוצר למו\"פ, והעלייה מברית המועצות.\nנקודת התורפה: ההייטק הוא 11.4% מהמשרות אבל 58% מהיצוא.",
+ "hashtags": [
+  "#Israel",
+  "#business",
+  "#startupnation"
+ ],
+ "sources": [
+  {
+   "label": "Michael Porter, The Competitive Advantage of Nations",
+   "year": 1990,
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "label": "OECD (Organisation for Economic Co-operation and Development), Education at a Glance",
+   "year": 2023,
+   "at": "L2:half",
+   "until": "L3"
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": 2025,
+   "at": "L3:ten",
+   "until": "L4"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L4",
+   "until": "L7"
+  },
+  {
+   "label": "Yozma program (Israeli government), launched 1993",
+   "year": 1993,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "OECD Main Science and Technology Indicators, 2024 data",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Israel CBS via Jewish Virtual Library, 1989 to 2000",
+   "year": 2000,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L10",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.92,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Six reasons nobody can copy Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In nineteen ninety, Michael Porter drew a diamond for why countries win.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Corner one, people. Half of adults have a degree, and army tech units train them young.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Corner two, demand. Ten million people is a tiny market, so startups go global from day one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's why high tech is fifty eight percent of exports.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Corner three, the cluster. Over five hundred multinationals operate here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Corner four, rivalry. About seven hundred seventy five new startups in 2025, all fighting for talent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then two outside forces. Government: in nineteen ninety three, Yozma put a hundred million dollars into venture capital.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Today, six point eight percent of the economy goes to research. Highest in the OECD.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And chance. When the Soviet Union fell, almost nine hundred thousand people came, many of them engineers.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The weak spot? High tech is only about one in nine jobs.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.1,
+    "flag": "MISS"
+   },
+   {
+    "line": "Six forces, feeding each other. That's why nobody can just copy Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Six reasons nobody can copy Israel. In 1990, Michael Porter drew a diamond for why countries win. Corner 1 people. Half of adults have a degree, and Army tech units train them young. Corner 2 demand. Ten million people is a tiny market, so startups go global from day one. That's why high tech is 58% of exports. Corner 3, the cluster. Over 500 multinationals operate here. Corner 4, rivalry. About 775 new startups in 2025, all fighting for talent. Then two outside forces. Government, in 1993, Yosma put $100 million into venture capital. Today, 6.8% of the economy goes to research. Highest in the OECD, and chance. When the Soviet Union fell, almost 900,000 people came, many of them engineers. The weak spot? High tech is only about one in nine jobs. Six forces. Feeding each other. That's why nobody can just copy Israel.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "layout": "diamond",
+ "photos": [
+  {
+   "file": "templates/photos/israel_porter_diamond/pd_matam.jpg",
+   "credit": "Matam, Haifa. Zvi Roger, CC BY 3.0"
+  },
+  {
+   "file": "templates/photos/israel_porter_diamond/pd_intel.jpg",
+   "credit": "Intel, Haifa. xiquinhosilva, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/israel_porter_diamond/pd_tlv.jpg",
+   "credit": "Azrieli Towers. Justin McIntosh, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/israel_porter_diamond/pd_soviet.jpg",
+   "credit": "Soviet immigrants. Tsvika Israeli, GPO, CC BY-SA 3.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 124.1
+}
