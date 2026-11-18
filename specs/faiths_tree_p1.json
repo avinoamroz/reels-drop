@@ -17,8 +17,10 @@
  "subs_replace": {
   "Five eighty-six B.C.": "586 BC",
   "one thousand B.C.": "1000 BC",
-  "A.D. thirty": "AD 30",
-  "A.D. six-ten": "AD 610",
+  "Around A.D.": "Around AD 30,",
+  "thirty, Rome crucifies": "Rome crucifies",
+  "It wakes up in A.D.": "It wakes up in AD 610.",
+  "six-ten. Part two": "Part 2",
   "Noam Roz": "@noamroz__"
  },
  "lines": [
@@ -380,7 +382,8 @@
        "at": "L7:Second",
        "text": "JUDAISM"
       }
-     ]
+     ],
+     "stub": 90
     },
     {
      "id": "ishmael",
@@ -455,15 +458,15 @@
     },
     {
      "branch": "root",
-     "year": 120,
+     "year": 30,
      "at": "L10",
      "until": "L11",
      "text": "Messiah: still to come",
-     "dy": 52
+     "dy": -52
     },
     {
      "branch": "chr",
-     "year": 120,
+     "year": 300,
      "at": "L10:One#2",
      "until": "L11",
      "text": "Messiah: has come",
@@ -516,7 +519,7 @@
    {
     "at": "L8:crucifies",
     "until": "L9:split",
-    "text": "“Christus... suffered the *extreme penalty*... at the hands of... Pontius Pilatus”",
+    "text": "“Christus... suffered the|*extreme penalty*... at the hands|of... Pontius Pilatus”",
     "who": "Tacitus, Annals 15.44, c. AD 116"
    }
   ]

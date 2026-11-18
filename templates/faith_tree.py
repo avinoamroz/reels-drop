@@ -50,7 +50,7 @@ def _kb(im, cx, cy, z, bw, bh):
 
 def fmt_year(v, approx=False):
     y = int(round(v))
-    s = f"{abs(y)} BC" if y < 0 else ("today" if y >= 2026 else f"AD {max(1, y)}")
+    s = f"{abs(y)} BC" if y < 0 else ("Today" if y >= 2026 else f"AD {max(1, y)}")
     return ("c. " + s) if approx and y < 2026 else s
 
 
@@ -169,9 +169,9 @@ def run(S):
 
     def b_head(b, t, pyr):
         xs, _ = b_geom(b)
-        g = seg(t, b["t0"], b["t0"] + 0.7)
+        g = 1.0 if b["t0"] <= 0.01 else seg(t, b["t0"], b["t0"] + 0.7)
         end = X(min(pyr, b.get("end", 99999)))
-        if b.get("parent"): end = max(end, xs + b.get("stub", 120))
+        if b.get("parent") or b.get("stub"): end = max(end, xs + b.get("stub", 120))
         return xs + (max(xs, end) - xs) * g
 
     def draw_tree(cv, t, pyr):
@@ -195,7 +195,7 @@ def run(S):
                 pulse = 0.5 + 0.5 * math.sin(t * 6)
                 cv.circ(hx, hy, 22 + 4 * pulse, b["col"], 0.25); cv.circ(hx, hy, 13, b["col"], 1.0); cv.circ(hx, hy, 5, NAVY0, 1.0)
             # label (crossfade between labels)
-            la = seg(t, b["t0"] + 0.2, b["t0"] + 0.6)
+            la = 1.0 if b["t0"] <= 0.01 else seg(t, b["t0"] + 0.2, b["t0"] + 0.6)
             if la > 0.01 and b["labs"]:
                 lx = b.get("lab_x", xs + 80); ly = b["y"] + b.get("lab_dy", -42)
                 cur = None; prv = None
@@ -265,8 +265,9 @@ def run(S):
             a = win(t, q["t0"] - 0.05, q["t1"], 0.3, 0.3)
             if a <= 0.01: continue
             WG.panel(cv, 50, 230, 980, 330, a, stroke=YEL)
-            WG.title(cv, q["text"], 365, a, 64, maxw=900)
-            if q.get("who"): cv.text(q["who"], 540, 505, 42, "#C9D6EA", a, bold=False, maxw=900)
+            ql = q["text"].split("|")
+            for k_, ln in enumerate(ql): WG.title(cv, ln, 350 + (k_ - (len(ql) - 1) / 2) * 68, a, 60 if len(ql) > 2 else 64, maxw=920)
+            if q.get("who"): cv.text(q["who"], 540, 515, 42, "#C9D6EA", a, bold=False, maxw=900)
         for txt, t0, t1, yy, ss in SCR:
             a = win(t, t0 - 0.1, t1, 0.3, 0.3)
             if a <= 0.01: continue
