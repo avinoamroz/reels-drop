@@ -6,7 +6,7 @@
  "duration": 54.97,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/israel_spirit_animal.mp4",
@@ -71,7 +71,7 @@
   }
  ],
  "transcript": {
-  "score": 0.932,
+  "score": 0.938,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -156,7 +156,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -165,14 +165,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Five countries as animals, not by vibes, by data. The Netherlands, a beaver. 26% of the country is below sea level, so they build dams, professionally, Switzerland, and Ibex. In 1809, the last Swiss Ibex was shot. In 1906, Switzerland smuggled some back from Italy. Today, about 17,000. Very organized. Japan, a tortoise. Over 107,000 people aged 100 or more. The emeralds, a falcon, literally. Falcons there get passports. Over 28,000 of them in Israel, a hedgehog, small. About 0.015% of the world's land speak to it. Iron Dome stopped about 90% of the rockets aimed at its cities and somehow still cuddly. The eighth happiest country on earth. Which animal is your country? If you love Israeli facts, follow Noah Ross for more. Five countries as animals. idea.",
+  "heard": "Five countries as animals, not by vibes, by data. The Netherlands, a beaver. 26% of the country is below sea level, so they build dams. Professionally, Switzerland, and Ibex. In 1809, the last Swiss Ibex was shot. In 1906, Switzerland smuggled some back from Italy. Today, about 17,000. Very organized. Japan, a tortoise. Over 107,000 people, aged 100 or more. Or the emeralds, a falcon, literally. Falcons there get passports, over 28,000 of them, in Israel, a hedgehog, small. About 0.015% of the world's land, speak to you. Iron Dome stopped about 90% of the rockets aimed at its cities, and somehow still cuddly. The eighth happiest country on earth, which animal is your country? If you love Israeli facts, follow Noam Ross for more. Five countries as animals, by data.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "photos": [
   {
@@ -221,5 +221,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 162.6
+ "render_s": 161.1
 }
