@@ -1,0 +1,782 @@
+[
+{
+"word": "Seven",
+"start": 1.1300378,
+"end": 1.547997
+},
+{
+"word": "countries.",
+"start": 1.547997,
+"end": 2.1362357
+},
+{
+"word": "One",
+"start": 2.4148753,
+"end": 2.7089946
+},
+{
+"word": "business",
+"start": 2.7089946,
+"end": 3.049554
+},
+{
+"word": "test.",
+"start": 3.049554,
+"end": 3.4675133
+},
+{
+"word": "Israel.",
+"start": 4.0557523,
+"end": 4.5665913
+},
+{
+"word": "Strength:",
+"start": 5.17031,
+"end": 5.804989
+},
+{
+"word": "R",
+"start": 5.8978686,
+"end": 6.099108
+},
+{
+"word": "and",
+"start": 6.099108,
+"end": 6.222948
+},
+{
+"word": "D,",
+"start": 6.222948,
+"end": 6.4861073
+},
+{
+"word": "six",
+"start": 6.4861073,
+"end": 6.7957067
+},
+{
+"word": "point",
+"start": 6.7957067,
+"end": 7.0279064
+},
+{
+"word": "eight",
+"start": 7.0279064,
+"end": 7.244626
+},
+{
+"word": "percent",
+"start": 7.244626,
+"end": 7.569705
+},
+{
+"word": "of",
+"start": 7.569705,
+"end": 7.693545
+},
+{
+"word": "GDP.",
+"start": 7.724505,
+"end": 8.328224
+},
+{
+"word": "Weakness:",
+"start": 9.009342,
+"end": 9.644021
+},
+{
+"word": "cost",
+"start": 10.03102,
+"end": 10.3561
+},
+{
+"word": "of",
+"start": 10.3561,
+"end": 10.448979
+},
+{
+"word": "living.",
+"start": 10.448979,
+"end": 10.805018
+},
+{
+"word": "Opportunity:",
+"start": 11.470657,
+"end": 12.198216
+},
+{
+"word": "Abraham",
+"start": 12.616176,
+"end": 13.065095
+},
+{
+"word": "Accords.",
+"start": 13.065095,
+"end": 13.606894
+},
+{
+"word": "Threat:",
+"start": 14.024853,
+"end": 14.380892
+},
+{
+"word": "Iran's",
+"start": 14.95365,
+"end": 15.30969
+},
+{
+"word": "proxies.",
+"start": 15.30969,
+"end": 15.913409
+},
+{
+"word": "Saudi",
+"start": 16.099169,
+"end": 16.424248
+},
+{
+"word": "Arabia:",
+"start": 16.424248,
+"end": 16.873167
+},
+{
+"word": "second",
+"start": 17.089886,
+"end": 17.507845
+},
+{
+"word": "biggest",
+"start": 17.507845,
+"end": 17.801966
+},
+{
+"word": "oil",
+"start": 17.801966,
+"end": 17.987724
+},
+{
+"word": "reserves,",
+"start": 17.987724,
+"end": 18.560484
+},
+{
+"word": "a",
+"start": 18.854603,
+"end": 18.947483
+},
+{
+"word": "budget",
+"start": 18.947483,
+"end": 19.303522
+},
+{
+"word": "hooked",
+"start": 19.303522,
+"end": 19.504763
+},
+{
+"word": "on",
+"start": 19.504763,
+"end": 19.628601
+},
+{
+"word": "oil,",
+"start": 19.628601,
+"end": 20.0156
+},
+{
+"word": "Vision",
+"start": 20.10848,
+"end": 20.44904
+},
+{
+"word": "twenty",
+"start": 20.44904,
+"end": 20.68124
+},
+{
+"word": "thirty,",
+"start": 20.68124,
+"end": 21.13016
+},
+{
+"word": "and",
+"start": 21.19208,
+"end": 21.377838
+},
+{
+"word": "cheap",
+"start": 21.377838,
+"end": 21.610037
+},
+{
+"word": "oil.",
+"start": 21.610037,
+"end": 21.919638
+},
+{
+"word": "Egypt:",
+"start": 22.507875,
+"end": 23.049675
+},
+{
+"word": "the",
+"start": 23.653395,
+"end": 23.777233
+},
+{
+"word": "Suez",
+"start": 23.777233,
+"end": 24.133272
+},
+{
+"word": "Canal,",
+"start": 24.133272,
+"end": 24.644112
+},
+{
+"word": "heavy",
+"start": 24.798912,
+"end": 25.09303
+},
+{
+"word": "debt,",
+"start": 25.09303,
+"end": 25.44907
+},
+{
+"word": "record",
+"start": 25.727709,
+"end": 26.11471
+},
+{
+"word": "tourism,",
+"start": 26.11471,
+"end": 26.625547
+},
+{
+"word": "and",
+"start": 26.625547,
+"end": 26.795828
+},
+{
+"word": "Houthi",
+"start": 26.795828,
+"end": 27.043507
+},
+{
+"word": "attacks",
+"start": 27.043507,
+"end": 27.430506
+},
+{
+"word": "that",
+"start": 27.430506,
+"end": 27.616266
+},
+{
+"word": "cut",
+"start": 27.616266,
+"end": 27.786545
+},
+{
+"word": "canal",
+"start": 27.786545,
+"end": 28.158066
+},
+{
+"word": "income",
+"start": 28.158066,
+"end": 28.483145
+},
+{
+"word": "sixty",
+"start": 28.483145,
+"end": 28.808224
+},
+{
+"word": "percent.",
+"start": 28.808224,
+"end": 29.179743
+},
+{
+"word": "Iran:",
+"start": 30.139502,
+"end": 30.55746
+},
+{
+"word": "huge",
+"start": 30.97542,
+"end": 31.43982
+},
+{
+"word": "gas",
+"start": 31.43982,
+"end": 31.733938
+},
+{
+"word": "reserves,",
+"start": 31.733938,
+"end": 32.275738
+},
+{
+"word": "over",
+"start": 32.538895,
+"end": 32.848495
+},
+{
+"word": "fifty",
+"start": 32.848495,
+"end": 33.173576
+},
+{
+"word": "percent",
+"start": 33.173576,
+"end": 33.467693
+},
+{
+"word": "inflation,",
+"start": 33.560574,
+"end": 34.133335
+},
+{
+"word": "young",
+"start": 34.427452,
+"end": 34.737053
+},
+{
+"word": "educated",
+"start": 34.737053,
+"end": 35.21693
+},
+{
+"word": "people,",
+"start": 35.21693,
+"end": 35.60393
+},
+{
+"word": "and",
+"start": 35.66585,
+"end": 35.83613
+},
+{
+"word": "a",
+"start": 35.83613,
+"end": 35.86709
+},
+{
+"word": "regime",
+"start": 35.86709,
+"end": 36.28505
+},
+{
+"word": "facing",
+"start": 36.28505,
+"end": 36.656567
+},
+{
+"word": "unrest.",
+"start": 36.656567,
+"end": 37.167408
+},
+{
+"word": "Russia:",
+"start": 37.755646,
+"end": 38.189087
+},
+{
+"word": "energy",
+"start": 38.359364,
+"end": 38.932125
+},
+{
+"word": "and",
+"start": 38.932125,
+"end": 39.086926
+},
+{
+"word": "the",
+"start": 39.086926,
+"end": 39.179802
+},
+{
+"word": "top",
+"start": 39.179802,
+"end": 39.473923
+},
+{
+"word": "nuclear",
+"start": 39.473923,
+"end": 39.860924
+},
+{
+"word": "arsenal,",
+"start": 39.860924,
+"end": 40.37176
+},
+{
+"word": "a",
+"start": 40.78972,
+"end": 40.85164
+},
+{
+"word": "commodity",
+"start": 40.85164,
+"end": 41.33152
+},
+{
+"word": "economy,",
+"start": 41.33152,
+"end": 41.904278
+},
+{
+"word": "Arctic",
+"start": 41.966198,
+"end": 42.29128
+},
+{
+"word": "sea",
+"start": 42.29128,
+"end": 42.477036
+},
+{
+"word": "routes,",
+"start": 42.477036,
+"end": 42.864037
+},
+{
+"word": "and",
+"start": 42.925957,
+"end": 43.096237
+},
+{
+"word": "the",
+"start": 43.096237,
+"end": 43.158157
+},
+{
+"word": "bill",
+"start": 43.158157,
+"end": 43.374874
+},
+{
+"word": "for",
+"start": 43.374874,
+"end": 43.514194
+},
+{
+"word": "war.",
+"start": 43.514194,
+"end": 43.978596
+},
+{
+"word": "China:",
+"start": 44.458473,
+"end": 44.845474
+},
+{
+"word": "thirty",
+"start": 45.17055,
+"end": 45.495632
+},
+{
+"word": "percent",
+"start": 45.495632,
+"end": 45.80523
+},
+{
+"word": "of",
+"start": 45.80523,
+"end": 45.89811
+},
+{
+"word": "world",
+"start": 45.89811,
+"end": 46.09935
+},
+{
+"word": "manufacturing,",
+"start": 46.09935,
+"end": 46.82691
+},
+{
+"word": "a",
+"start": 46.85787,
+"end": 46.96623
+},
+{
+"word": "shrinking",
+"start": 46.96623,
+"end": 47.368706
+},
+{
+"word": "population,",
+"start": 47.368706,
+"end": 48.049828
+},
+{
+"word": "the",
+"start": 48.266544,
+"end": 48.374905
+},
+{
+"word": "lead",
+"start": 48.374905,
+"end": 48.653545
+},
+{
+"word": "in",
+"start": 48.653545,
+"end": 48.746426
+},
+{
+"word": "electric",
+"start": 48.746426,
+"end": 49.102463
+},
+{
+"word": "cars",
+"start": 49.102463,
+"end": 49.489464
+},
+{
+"word": "and",
+"start": 49.489464,
+"end": 49.675224
+},
+{
+"word": "solar,",
+"start": 49.675224,
+"end": 50.06222
+},
+{
+"word": "and",
+"start": 50.12414,
+"end": 50.309902
+},
+{
+"word": "trade",
+"start": 50.309902,
+"end": 50.511143
+},
+{
+"word": "wars.",
+"start": 50.511143,
+"end": 50.9291
+},
+{
+"word": "The",
+"start": 51.65666,
+"end": 51.74954
+},
+{
+"word": "U.S.:",
+"start": 51.74954,
+"end": 52.19846
+},
+{
+"word": "innovation",
+"start": 52.26038,
+"end": 52.941498
+},
+{
+"word": "and",
+"start": 53.003418,
+"end": 53.220135
+},
+{
+"word": "the",
+"start": 53.220135,
+"end": 53.297535
+},
+{
+"word": "dollar,",
+"start": 53.297535,
+"end": 53.730976
+},
+{
+"word": "forty",
+"start": 54.117973,
+"end": 54.566895
+},
+{
+"word": "trillion",
+"start": 54.566895,
+"end": 54.95389
+},
+{
+"word": "dollars",
+"start": 54.95389,
+"end": 55.248013
+},
+{
+"word": "of",
+"start": 55.248013,
+"end": 55.340893
+},
+{
+"word": "debt,",
+"start": 55.340893,
+"end": 55.68145
+},
+{
+"word": "the",
+"start": 56.00653,
+"end": 56.13037
+},
+{
+"word": "lead",
+"start": 56.13037,
+"end": 56.36257
+},
+{
+"word": "in",
+"start": 56.36257,
+"end": 56.45545
+},
+{
+"word": "A.I.,",
+"start": 56.45545,
+"end": 56.93533
+},
+{
+"word": "and",
+"start": 56.96629,
+"end": 57.229446
+},
+{
+"word": "deep",
+"start": 57.229446,
+"end": 57.508087
+},
+{
+"word": "polarisation.",
+"start": 57.508087,
+"end": 58.220165
+},
+{
+"word": "Every",
+"start": 59.148964,
+"end": 59.427605
+},
+{
+"word": "grid",
+"start": 59.427605,
+"end": 59.907482
+},
+{
+"word": "has",
+"start": 60.000362,
+"end": 60.263523
+},
+{
+"word": "a",
+"start": 60.263523,
+"end": 60.356403
+},
+{
+"word": "red",
+"start": 60.356403,
+"end": 60.54216
+},
+{
+"word": "box.",
+"start": 60.54216,
+"end": 61.02204
+},
+{
+"word": "No",
+"start": 61.40904,
+"end": 61.73412
+},
+{
+"word": "country",
+"start": 61.73412,
+"end": 62.399757
+},
+{
+"word": "is",
+"start": 62.539078,
+"end": 62.72484
+},
+{
+"word": "all",
+"start": 62.72484,
+"end": 62.94156
+},
+{
+"word": "green.",
+"start": 62.94156,
+"end": 63.266636
+},
+{
+"word": "What",
+"start": 64.009674,
+"end": 64.288315
+},
+{
+"word": "counts",
+"start": 64.288315,
+"end": 64.768196
+},
+{
+"word": "is",
+"start": 64.83012,
+"end": 64.96944
+},
+{
+"word": "what",
+"start": 64.96944,
+"end": 65.15519
+},
+{
+"word": "it",
+"start": 65.15519,
+"end": 65.21711
+},
+{
+"word": "does",
+"start": 65.21711,
+"end": 65.40287
+},
+{
+"word": "next.",
+"start": 65.40287,
+"end": 65.86727
+},
+{
+"word": "So,",
+"start": 66.47099,
+"end": 66.84251
+},
+{
+"word": "which",
+"start": 67.16759,
+"end": 67.43075
+},
+{
+"word": "one",
+"start": 67.43075,
+"end": 67.74035
+},
+{
+"word": "would",
+"start": 67.74035,
+"end": 67.87967
+},
+{
+"word": "you",
+"start": 67.87967,
+"end": 68.00351
+},
+{
+"word": "invest",
+"start": 68.00351,
+"end": 68.35954
+},
+{
+"word": "in?",
+"start": 68.35954,
+"end": 68.5453
+}
+]

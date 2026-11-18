@@ -1,0 +1,179 @@
+{
+ "id": "swot_nations",
+ "account": "noamroz__",
+ "template": "swot",
+ "hook": "*7* countries.|One business *test.*",
+ "duration": 62.47,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.6
+ },
+ "outputs": {
+  "mp4": "out/swot_nations.mp4",
+  "cover": "covers/swot_nations_cover.jpg",
+  "preview": "previews/swot_nations_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/swot_nations_0.jpg",
+  "1": "out/frames/swot_nations_1.jpg",
+  "3": "out/frames/swot_nations_3.jpg",
+  "last": "out/frames/swot_nations_last.jpg"
+ },
+ "caption_en": "Every country has a red box. Which one would you invest in?\n\nA SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is what companies run before a big decision. Here it is for 7 countries, one item per box:\n\n🇮🇱 Israel: R&D at 6.8% of GDP, highest in the OECD (OECD MSTI, 2024 data) | cost of living | Abraham Accords (2020) | Iran's proxies\n🇸🇦 Saudi Arabia: 2nd largest proven oil reserves (OPEC) | a budget that leans on oil | Vision 2030 | cheap oil\n🇪🇬 Egypt: the Suez Canal | heavy debt, IMF programme | record tourism | Houthi attacks cut canal income from $10.25B (2023) to $4.0B (2024) (Suez Canal Authority)\n🇮🇷 Iran: 2nd largest gas reserves (Energy Institute) | inflation above 50% (Statistical Centre of Iran, 2026) | a young, educated population | a regime facing unrest\n🇷🇺 Russia: energy and the largest nuclear arsenal (FAS, 2025) | a commodity economy | Arctic sea routes | the cost of war and sanctions\n🇨🇳 China: about 30% of world manufacturing (UNIDO) | a shrinking population (NBS) | the lead in EVs and solar (IEA) | trade wars\n🇺🇸 US: innovation and the dollar (IMF COFER) | $40 trillion of debt (US Treasury, Aug 2026) | the lead in AI (Stanford AI Index) | polarisation (Pew)\n\nNo country is all green. What counts is what it does next.\n\nPhotos (Wikimedia Commons): PikiWiki Israel (CC BY 2.5); B.alotaby (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); Salehi1990mohsen (CC BY-SA 4.0); Vyacheslav Argenberg (CC BY 4.0); King of Hearts (CC BY-SA 4.0); USCapitol (public domain). AI voice.",
+ "caption_he": "ניתוח SWOT ל־7 מדינות, פריט אחד בכל משבצת: חוזקה, חולשה, הזדמנות, איום.\nישראל: מו\"פ 6.8% מהתוצר, הגבוה ב־OECD | יוקר המחיה | הסכמי אברהם | שלוחי איראן.\nאף מדינה לא ירוקה לגמרי. מה שקובע זה מה היא עושה עם זה. במי הייתם משקיעים?",
+ "hashtags": [
+  "#Israel",
+  "#geopolitics",
+  "#economy"
+ ],
+ "sources": [
+  {
+   "label": "OECD MSTI (R&D, 2024 data); OECD Economic Survey of Israel",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "OPEC Statistical Bulletin; Saudi Ministry of Finance",
+   "year": 2025,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Suez Canal Authority (2023 vs 2024); IMF; Egypt tourism ministry",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Energy Institute; Statistical Centre of Iran",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "FAS nuclear forces; IMF; World Bank",
+   "year": 2025,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "UNIDO; China NBS; IEA",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "US Treasury; IMF COFER; Stanford AI Index; Pew",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  }
+ ],
+ "transcript": {
+  "score": 0.899,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Seven countries. One business test.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel. Strength: R and D, six point eight percent of GDP. Weakness: cost of living. Opportunity: Abraham Accords. Threat: Iran's proxies.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia: second biggest oil reserves, a budget hooked on oil, Vision twenty thirty, and cheap oil.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt: the Suez Canal, heavy debt, record tourism, and Houthi attacks that cut canal income sixty percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iran: huge gas reserves, over fifty percent inflation, young educated people, and a regime facing unrest.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Russia: energy and the top nuclear arsenal, a commodity economy, Arctic sea routes, and the bill for war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "China: thirty percent of world manufacturing, a shrinking population, the lead in electric cars and solar, and trade wars.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The U.S.: innovation and the dollar, forty trillion dollars of debt, the lead in A.I., and deep polarisation.",
+    "score": 0.7,
+    "flag": "MISS"
+   },
+   {
+    "line": "Every grid has a red box.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "No country is all green. What counts is what it does next.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.1,
+    "flag": "MISS"
+   },
+   {
+    "line": "So, which one would you invest in?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Seven countries, one business test, Israel, strength, R&D 6.8% of GDP, weakness, cost of living, opportunity, Abraham Accords, threat, Iran's proxies, Saudi Arabia, second biggest oil reserves, a budget hooked on oil, Vision 2030, and cheap oil, Egypt, the Suez Canal, heavy debt, record tourism, and Houthi attacks that cut canal income 60%, Iran, huge gas reserves, over 50% inflation, young educated people, and a regime facing unrest, Russia, energy and the top nuclear arsenal, a commodity economy, arctic sea routes, and the bill for war, China, 30% of world manufacturing, a shrinking population, the lead in electric cars and solar, and trade wars, the US, innovation, and the dollar, $40 trillion of debt, the lead in AI, and deep polarization. Every grid has a red box. No country is all green. What counts is what it does next. So which one would you invest in?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.6
+ },
+ "photos": [
+  {
+   "file": "templates/photos/swot_nations/sw_telaviv.jpg",
+   "credit": "Tel Aviv. PikiWiki Israel, CC BY 2.5"
+  },
+  {
+   "file": "templates/photos/swot_nations/sw_riyadh.jpg",
+   "credit": "Riyadh. B.alotaby, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/swot_nations/sw_suez.jpg",
+   "credit": "Suez Canal. Aah-Yeah, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/swot_nations/sw_tehran.jpg",
+   "credit": "Tehran. Salehi1990mohsen, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/swot_nations/sw_kremlin.jpg",
+   "credit": "Moscow. Vyacheslav Argenberg, CC BY 4.0"
+  },
+  {
+   "file": "templates/photos/swot_nations/sw_shanghai.jpg",
+   "credit": "Shanghai. King of Hearts, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/swot_nations/sw_capitol.jpg",
+   "credit": "US Capitol. USCapitol, public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 104.9
+}
