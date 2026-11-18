@@ -49,3 +49,9 @@ b3_ee_home.html https://expressenglish.co.il/
 b3_ee_media_noam.json https://expressenglish.co.il/wp-json/wp/v2/media?search=noam&per_page=100&_fields=id,source_url,alt_text,title,media_details.width,media_details.height
 b3_ee_media_roz.json https://expressenglish.co.il/wp-json/wp/v2/media?search=%D7%A0%D7%95%D7%A2%D7%9D&per_page=100&_fields=id,source_url,alt_text,title
 hl8_ggb_drive_2013.ogv https://commons.wikimedia.org/wiki/Special:FilePath/Drive_over_Golden_Gate_Bridge_2013.ogv
+bB_wb_dprt.json https://api.worldbank.org/v2/country/ISR;USA;GBR;DEU;FRA;EGY;JOR;SAU;ARE;TUR;LBN;NLD;ITA;ESP;CHE;CAN/indicator/ST.INT.DPRT?format=json&date=2015:2024&per_page=1000
+bB_wb_pop.json https://api.worldbank.org/v2/country/ISR;USA;GBR;DEU;FRA;EGY;JOR;SAU;ARE;TUR;LBN;NLD;ITA;ESP;CHE;CAN/indicator/SP.POP.TOTL?format=json&date=2015:2024&per_page=1000
+bB_es_tttr.json https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/tour_dem_tttr?format=JSON&lang=EN&time=2019&time=2023
+bB_oica.html https://www.oica.net/category/vehicles-in-use/
+bB_oica_total.pdf https://www.oica.net/wp-content/uploads/Total_in-use-All-Vehicles.pdf
+bB_tt_tlv.html https://www.tomtom.com/traffic-index/tel-aviv-traffic/
