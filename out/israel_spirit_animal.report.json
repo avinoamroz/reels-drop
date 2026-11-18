@@ -1,0 +1,225 @@
+{
+ "id": "israel_spirit_animal",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*5* countries as|animals. *By data.*",
+ "duration": 54.97,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/israel_spirit_animal.mp4",
+  "cover": "covers/israel_spirit_animal_cover.jpg",
+  "preview": "previews/israel_spirit_animal_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_spirit_animal_0.jpg",
+  "1": "out/frames/israel_spirit_animal_1.jpg",
+  "3": "out/frames/israel_spirit_animal_3.jpg",
+  "last": "out/frames/israel_spirit_animal_last.jpg"
+ },
+ "caption_en": "If countries were animals. Not by vibes. By data. 🐾\n\n🇳🇱 Netherlands = beaver: 26% of the country is below sea level, so it builds dams and dikes (PBL Netherlands Environmental Assessment Agency, 2010).\n🇨🇭 Switzerland = ibex: the last Swiss ibex was shot in 1809; in 1906 Switzerland smuggled ibex kids back from Italy. About 17,000 live there today (Swissinfo, 2017).\n🇯🇵 Japan = tortoise: 107,677 people aged 100 or more (Ministry of Health, Labour and Welfare, Sept 2026).\n🇦🇪 UAE = falcon: falcons get passports; more than 28,000 issued since 2002 (Environment Agency Abu Dhabi via Gulf News, 2018).\n🇮🇱 Israel = hedgehog: small (about 22,000 km², roughly 0.015% of the world's land, our math: Israel CBS 22,072 km² ÷ Earth's land 148.9 million km²), spiky (Iron Dome intercepted about 90% of the rockets it engaged over populated areas in 2014, IDF) and still cuddly: 8th happiest country on Earth (World Happiness Report 2026).\n\nSmall, spiky, happy.\n\nWhich animal is your country? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Giles Laurent (CC BY-SA 4.0); Bouke ten Cate (CC BY 4.0); Denkrahm (CC BY 4.0); Lisa James (CC BY 4.0); Denise Chan (CC BY-SA 2.0); Yuriy75 (CC BY-SA 3.0); Israel Defense Forces (CC BY 2.0); Dan Harrelson (CC BY 2.0). AI voice.",
+ "caption_he": "אם מדינות היו חיות. לא לפי תחושה, לפי נתונים.\nהולנד בונה (26% מתחת לפני הים), שווייץ יעל (הוברחו בחזרה מאיטליה ב־1906), יפן צב (107,677 בני 100 ומעלה), איחוד האמירויות בז (לבזים יש דרכונים).\nוישראל? קיפוד. קטנה, דוקרנית, ושמינית בעולם באושר.\nאיזו חיה המדינה שלכם?",
+ "hashtags": [
+  "#Israel",
+  "#animals",
+  "#funfacts"
+ ],
+ "sources": [
+  {
+   "label": "PBL Netherlands Environmental Assessment Agency",
+   "year": 2010,
+   "at": "L2",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Swissinfo",
+   "year": 2017,
+   "at": "L4",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Japan Ministry of Health, Labour and Welfare",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "Environment Agency Abu Dhabi via Gulf News",
+   "year": 2018,
+   "at": "L9",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "Israel CBS 22,072 km² ÷ Earth's land; our math",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "IDF via Ynet, Operation Protective Edge",
+   "year": 2014,
+   "at": "L13",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "World Happiness Report",
+   "year": 2026,
+   "at": "L14",
+   "until": "L15-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.932,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Five countries as animals. Not by vibes. By data.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Netherlands: a beaver.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twenty six percent of the country is below sea level. So they build dams. Professionally.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Switzerland: an ibex.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "In eighteen oh nine, the last Swiss ibex was shot. In nineteen oh six, Switzerland smuggled some back from Italy.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, about seventeen thousand. Very organised.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Japan: a tortoise.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Over one hundred seven thousand people aged one hundred or more.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Emirates: a falcon.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Literally. Falcons there get passports. Over twenty eight thousand of them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A hedgehog.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Small: about point zero one five percent of the world's land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spiky: Iron Dome stopped about ninety percent of the rockets aimed at its cities.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "And somehow, still cuddly. The eighth happiest country on Earth.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which animal is your country?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Five countries as animals. By data.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Five countries as animals, not by vibes, by data. The Netherlands, a beaver. 26% of the country is below sea level, so they build dams, professionally, Switzerland, and Ibex. In 1809, the last Swiss Ibex was shot. In 1906, Switzerland smuggled some back from Italy. Today, about 17,000. Very organized. Japan, a tortoise. Over 107,000 people aged 100 or more. The emeralds, a falcon, literally. Falcons there get passports. Over 28,000 of them in Israel, a hedgehog, small. About 0.015% of the world's land speak to it. Iron Dome stopped about 90% of the rockets aimed at its cities and somehow still cuddly. The eighth happiest country on earth. Which animal is your country? If you love Israeli facts, follow Noah Ross for more. Five countries as animals. idea.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "photos": [
+  {
+   "file": "templates/photos/israel_spirit_animal/ibex.jpg",
+   "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/beaver.jpg",
+   "credit": "Bouke ten Cate, CC BY 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/dike.jpg",
+   "credit": "Denkrahm, CC BY 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/ibex.jpg",
+   "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/tort.jpg",
+   "credit": "Lisa James, CC BY 4.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/falcon.jpg",
+   "credit": "Denise Chan, CC BY-SA 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/hog.jpg",
+   "credit": "Yuriy75, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/dome.jpg",
+   "credit": "IDF, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/beach.jpg",
+   "credit": "Dan Harrelson, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/hog.jpg",
+   "credit": "Yuriy75, CC BY-SA 3.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/ibex.jpg",
+   "credit": "Giles Laurent, CC BY-SA 4.0, Wikimedia Commons"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 162.6
+}
