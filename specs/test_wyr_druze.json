@@ -1,0 +1,58 @@
+{
+ "id": "test_wyr_druze",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.3
+ },
+ "data": {
+  "cam0": [
+   35.0,
+   31.5,
+   9.0
+  ],
+  "hook_y": 930
+ },
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "caption_en": "TEST RENDER, not for posting (Druze pronunciation test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "cover": {
+  "bg": "brand"
+ },
+ "hook": "*1* word test",
+ "lines": [
+  {
+   "say": "And in Israel? Jews, Muslims, Christians and Druze."
+  },
+  {
+   "say": "Same tax for the Druze community."
+  },
+  {
+   "say": "Jews, Muslims, Christians, Drooze."
+  },
+  {
+   "say": "Jews, Muslims, Christians, <<ˈ|d|r|uː|z>> citizens."
+  },
+  {
+   "say": "But here's the catch: only if you're the wrong religion."
+  },
+  {
+   "say": "The Ottomans abolished it in eighteen fifty six."
+  }
+ ],
+ "subs_replace": {
+  "Drooze": "Druze",
+  "<<ˈ|d|r|uː|z>>": "Druze"
+ }
+}
