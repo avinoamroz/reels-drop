@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Gaza's *13 km* wall.|*Whose?*",
- "duration": 59.23,
+ "duration": 59.17,
  "audio": {
   "lufs": -16.1,
   "true_peak": -2.0
@@ -173,7 +173,7 @@
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 57.75,
+ "body_s": 57.65,
  "opener": {
   "style": "map_tear_v2",
   "opener_s": 2.4,
@@ -184,5 +184,5 @@
   "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 160.1
+ "render_s": 131.4
 }
