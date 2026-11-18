@@ -53,7 +53,7 @@
    "screen": "Simple. But hits the *poor* hardest"
   },
   {
-   "say": "Door three: the jizya, a tax of old empires.",
+   "say": "Door three: the jizya. An old imperial tax.",
    "gap": 0.15,
    "screen": "Door 3: the *jizya*"
   },
@@ -63,7 +63,7 @@
    "screen": "Bonus: *no army service*"
   },
   {
-   "say": "Wait. No reserve duty? Where do I sign?",
+   "say": "Wait. No reserve duty? Where do I sign up?",
    "gap": 0.15
   },
   {
@@ -77,7 +77,7 @@
    "screen": "Dhimmi status: *protected,* not *equal*"
   },
   {
-   "say": "Yeah, hard pass.",
+   "say": "No thanks. Hard pass.",
    "gap": 0.25
   },
   {
@@ -91,7 +91,7 @@
    "screen": "Revived only by *armed groups*"
   },
   {
-   "say": "And in Israel? Jews, Muslims, Christians, Drooz.",
+   "say": "And in Israel? Jews, Muslims, Christians, <<d|r|uː|z>>.",
    "gap": 0.15,
    "screen": "Israel: Jews, Muslims, Christians, Druze"
   },
@@ -282,7 +282,7 @@
    {
     "at": "L13",
     "until": "L13e+0.2",
-    "text": "Ah. *Hard pass.*"
+    "text": "No thanks. *Hard pass.*"
    }
   ],
   "poses": [
@@ -418,6 +418,6 @@
  },
  "subs_replace": {
   "V A T": "VAT",
-  "Drooz": "Druze"
+  "<<d|r|uː|z>>": "Druze"
  }
 }
