@@ -175,7 +175,7 @@
     "dec": 1,
     "suffix": "%",
     "sub": "of US adults are obese",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L1:fifteen",
@@ -184,7 +184,7 @@
     "from": 0,
     "prefix": "$",
     "sub": "health spending per American, 2024",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L3:thirteen",
@@ -194,7 +194,7 @@
     "dec": 1,
     "suffix": "M",
     "sub": "Syrians food insecure",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L4:over",
@@ -203,7 +203,7 @@
     "from": 0,
     "suffix": "%+",
     "sub": "of 553 attacks on medical sites, 2011 to 2018",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L5:twenty#2",
@@ -212,7 +212,7 @@
     "from": 0,
     "suffix": "M",
     "sub": "Yemenis need aid in 2026",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L7:nearly",
@@ -222,7 +222,7 @@
     "prefix": "~",
     "suffix": "%",
     "sub": "of Lebanon's doctors left since 2019",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L8:one",
@@ -232,7 +232,7 @@
     "dec": 1,
     "suffix": "%",
     "sub": "adult diabetes, Kuwait (US: 13.7%)",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L11:ten",
@@ -242,7 +242,7 @@
     "dec": 1,
     "suffix": "%",
     "sub": "adult diabetes, Israel (US: 13.7%)",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L12:five",
@@ -251,7 +251,7 @@
     "from": 0,
     "dec": 1,
     "sub": "years: Israel life expectancy (US: 78.4)",
-    "y": 1380
+    "y": 1200
    },
    {
     "at": "L13:half",
@@ -260,7 +260,7 @@
     "from": 0,
     "dec": 2,
     "sub": "hospital beds per 1,000 (OECD: 3.18)",
-    "y": 1380
+    "y": 1200
    }
   ],
   "overlays": [
@@ -268,7 +268,7 @@
     "at": "L3:food#2",
     "until": "L4-0.1",
     "text": "SOLVED ✓",
-    "y": 1150,
+    "y": 960,
     "size": 96,
     "pill": "#E5484D"
    },
@@ -276,7 +276,7 @@
     "at": "L4:ninety+0.3",
     "until": "L5-0.1",
     "text": "SOLVED ✓",
-    "y": 1150,
+    "y": 960,
     "size": 96,
     "pill": "#E5484D"
    },
@@ -284,7 +284,7 @@
     "at": "L5:aid",
     "until": "L6-0.1",
     "text": "SOLVED ✓",
-    "y": 1150,
+    "y": 960,
     "size": 96,
     "pill": "#E5484D"
    },
@@ -292,7 +292,7 @@
     "at": "L7:left",
     "until": "L8-0.1",
     "text": "SOLVED ✓",
-    "y": 1150,
+    "y": 960,
     "size": 96,
     "pill": "#E5484D"
    },
@@ -463,7 +463,7 @@
  "end": {
   "at": "L14",
   "balance": "Joke's on the *regimes.* Never on the people.",
-  "cta": "Which health system would you pick?"
+  "cta": "Tell me in the comments"
  },
  "caption_en": "Every problem has a solution. Some solutions are the problem. 🩺\n\nThe American problem: 40.3% of adults are obese (CDC, NHANES Aug 2021 to Aug 2023) and health care cost $15,474 per person in 2024 (CMS).\n\nThe regimes that \"solved\" it (sarcasm aimed at governments, never at the people who pay the price):\n🇸🇾 Syria: 13.3 million people food insecure (WFP, Aug 2026). Of 553 attacks on medical facilities from 2011 to 2018, over 90% were by the Assad regime and its allies (Physicians for Human Rights, 2019).\n🇾🇪 Yemen: the Houthis seized Sana'a in 2014; 21 million people need humanitarian aid in 2026 (UN, via Reuters).\n🇱🇧 Lebanon: the World Bank called the collapse a \"Deliberate Depression\" (Lebanon Economic Monitor, Fall 2020); nearly 40% of doctors left since October 2019 (WHO, 2021).\n\nPlot twist: the Gulf went the other way. Adult diabetes, age adjusted, 20 to 79 (IDF Diabetes Atlas 2024): Kuwait 25.6%, Qatar 24.6%, Saudi Arabia 23.1%, USA 13.7%, Israel 10.1%.\n\nNo jokes: Israel has covered every resident since the National Health Insurance Law (passed 1994, in force 1995). Life expectancy 83.8 years (OECD, 2023 data) vs 78.4 in the US (CDC NCHS, 2023). Fair is fair: Israel has 1.76 general hospital beds per 1,000 people vs an OECD average of 3.18 (Taub Center, 2025).\n\nWhich health system would you pick? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Starzoner (CC BY-SA 4.0); Harrison Keely (CC BY 4.0); KevForkan (CC BY-SA 4.0); Matt May (CC BY 2.0); Mehrdad Sarhangi (CC BY 3.0); Dan Harrelson (CC BY 2.0). AI voice.",
  "caption_he": "בעיה אמריקאית: 40% מהמבוגרים סובלים מהשמנה, ובריאות עולה 15,474 דולר לאדם בשנה.\nכמה משטרים \"פתרו\" את זה: בסוריה 13.3 מיליון בלי ביטחון תזונתי, ומשטר אסד ובעלי בריתו ביצעו מעל 90% מ־553 התקיפות על מתקנים רפואיים. בתימן, שהחות'ים כבשו את בירתה ב־2014, 21 מיליון זקוקים לסיוע. בלבנון כמעט 40% מהרופאים עזבו.\nהטוויסט: במפרץ זה הפוך. רבע מהמבוגרים בכווית, קטאר וסעודיה חולי סוכרת, לעומת 13.7% בארה\"ב.\nובלי בדיחות: בישראל ביטוח בריאות ממלכתי מ־1995, סוכרת 10.1%, ותוחלת חיים 83.8 מול 78.4 בארה\"ב. אבל: 1.76 מיטות אשפוז ל־1,000 איש, מול 3.18 בממוצע OECD.\nאיזו מערכת בריאות הייתם בוחרים?",
