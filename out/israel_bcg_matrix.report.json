@@ -1,0 +1,180 @@
+{
+ "id": "israel_bcg_matrix",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "Israel's economy|in *4* boxes",
+ "duration": 56.57,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/israel_bcg_matrix.mp4",
+  "cover": "covers/israel_bcg_matrix_cover.jpg",
+  "preview": "previews/israel_bcg_matrix_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_bcg_matrix_0.jpg",
+  "1": "out/frames/israel_bcg_matrix_1.jpg",
+  "3": "out/frames/israel_bcg_matrix_3.jpg",
+  "last": "out/frames/israel_bcg_matrix_last.jpg"
+ },
+ "caption_en": "Every economy has stars, cash cows and dogs. Here is Israel's.\n\nThe BCG growth share matrix (Boston Consulting Group, 1970), applied to Israel's exports:\n⭐ Stars: cyber, a record $4.4B raised by Israeli cyber startups in 2025 (YL Ventures), and Google's $32B purchase of Wiz (2026). AI: about 1 in 3 tech investment dollars (Israel Innovation Authority, 2026).\n🐄 Cash cows: defence, a record $19.2B in export deals in 2025 (Israel Ministry of Defense, SIBAT).\n❓ Question marks: gas, a $35B Leviathan supply deal with Egypt (NewMed Energy, 2025), and food tech: the world's first approval for cultivated beef (Aleph Farms, Ministry of Health, 2024).\n🐕 Dogs: polished diamonds, about $7B at the 2015 peak, now at historic lows (Ynet, 2026).\n\nThe catch: high tech is 58% of exports (Innovation Authority, 2026). Bright stars, but a lot of eggs in one basket.\n\nWhich box would you bet on next? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Zvi Roger (CC BY 3.0); Shlomo Roded, PikiWiki Israel (CC BY 2.5); Amir.bendavid (CC BY-SA 4.0); Chenspec (CC BY-SA 4.0). AI voice.",
+ "caption_he": "מטריצת BCG של הכלכלה הישראלית: כוכבים: סייבר (שיא של 4.4 מיליארד דולר ב־2025) ו־AI. פרות מזומנים: ביטחון, שיא של 19.2 מיליארד דולר. סימני שאלה: גז ופודטק. כלבים: יהלומים מלוטשים, כ־7 מיליארד ב־2015, היום בשפל היסטורי.\nההייטק הוא 58% מהיצוא. הרבה ביצים בסל אחד.",
+ "hashtags": [
+  "#Israel",
+  "#business",
+  "#investing"
+ ],
+ "sources": [
+  {
+   "label": "Boston Consulting Group, growth share matrix (Bruce Henderson)",
+   "year": 1970,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "YL Ventures, State of the Cyber Nation",
+   "year": 2026,
+   "at": "L2:four",
+   "until": "L3"
+  },
+  {
+   "label": "Google, Wiz acquisition completed",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Israel Ministry of Defense (SIBAT), 2026; SIPRI, 2025",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "NewMed Energy, Leviathan export deal",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Israel Ministry of Health, Aleph Farms approval",
+   "year": 2024,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Ynet, Israel diamond exports (2015 peak about $7B)",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Israel Innovation Authority, State of High Tech",
+   "year": 2026,
+   "at": "L9",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.96,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel's whole economy, in four boxes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Boston Consulting Group matrix. Four boxes, one honest map.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Stars: growing market, big share. Cyber. Israeli cyber startups raised a record four point four billion dollars last year.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Google paid thirty two billion dollars for one of them, Wiz.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Star two, AI. About one in three tech dollars here now goes to AI companies.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Cash cows: slow market, big share. Defence. World arms trade barely grew, yet Israel signed a record nineteen point two billion dollars in deals.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Question marks: growing fast, still small. Gas, with a thirty five billion dollar deal to supply Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And food tech. Israel gave the world's first approval for cultivated beef.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Dogs: slow market, shrinking share. Polished diamonds, about seven billion dollars at the 2015 peak, now at historic lows.",
+    "score": 0.955,
+    "flag": "ok"
+   },
+   {
+    "line": "The catch? High tech is fifty eight percent of exports. That's a lot of eggs in one basket.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "So which box would you bet on next?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel's whole economy in four boxes. The Boston consulting group Matrix. Four boxes, one honest map. Stars. Growing market, big share. Cyber. Israeli cyber startups raised a record $4.4 billion last year. Then Google paid $32 billion for one of them, Wiz. Star 2, AI. About one in three tech dollars here now goes to AI companies. Cash cows. Slow market, big share. Defense. World arms trade barely grew, yet Israel signed a record $19.2 dollars in deals. Question marks. Growing fast, still small. Gas. With a 35 billion dollar deal to supply Egypt. And food tech. Israel gave the world's first approval for cultivated beef. Dogs. Slow market. Shrinking share. Polish diamonds. About 7 billion dollars at the 2015 peak. Now at historic lows. The catch? High tech is 58% of exports. That's a lot of eggs in one basket. If you love Israeli facts, follow Noah Mraz for more. So which box would you bet on next?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "layout": "matrix",
+ "photos": [
+  {
+   "file": "templates/photos/israel_bcg_matrix/bcg_tech.jpg",
+   "credit": "Matam, Haifa. Zvi Roger, CC BY 3.0"
+  },
+  {
+   "file": "templates/photos/israel_bcg_matrix/bcg_dome.jpg",
+   "credit": "Iron Dome interceptions. Shlomo Roded, PikiWiki Israel, CC BY 2.5"
+  },
+  {
+   "file": "templates/photos/israel_bcg_matrix/bcg_gas.jpg",
+   "credit": "Leviathan platform. Amir.bendavid, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/israel_bcg_matrix/bcg_diamond.jpg",
+   "credit": "Diamond Exchange, Ramat Gan. Chenspec, CC BY-SA 4.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 132.3
+}
