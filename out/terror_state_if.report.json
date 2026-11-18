@@ -1,0 +1,208 @@
+{
+ "id": "terror_state_if",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Israel at Iran's rate: *180* hangings?",
+ "duration": 64.4,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.4
+ },
+ "outputs": {
+  "mp4": "out/terror_state_if.mp4",
+  "cover": "covers/terror_state_if_cover.jpg",
+  "preview": "previews/terror_state_if_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/terror_state_if_0.jpg",
+  "1": "out/frames/terror_state_if_1.jpg",
+  "3": "out/frames/terror_state_if_3.jpg",
+  "last": "out/frames/terror_state_if_last.jpg"
+ },
+ "caption_en": "One number changes how this debate sounds.\n\nIf Israel acted like Iran's regime, here is the math, per person:\n\nIran executed at least 1,639 people in 2025, the most since 1989 (Iran Human Rights and ECPM, April 2026). Iran has about 92 million people (UN, 2025). At that rate, Israel's 10.2 million (CBS) would mean about 180 executions a year. Israel's real total since 1948: two, one of them Nazi Holocaust organizer Adolf Eichmann (1962).\n\nIn January 2026, Iran's own government admitted 3,117 deaths in its protest crackdown (AFP); rights groups say far more. At Israel's size: more than 300.\n\nIn 2023, hundreds of thousands of Israelis protested their government for months, and nobody was shot. The opposition sits in the Knesset.\n\nLand: Israel returned Sinai in 1982 (about 60,000 km², almost 3x Israel's 22,072 km²), left south Lebanon in 2000 (confirmed by the UN) and left Gaza in 2005, moving out over 8,000 of its own citizens.\n\nIran's regime has been on the US State Sponsors of Terrorism list since 1984.\n\nIsrael makes mistakes, and its wars cost real lives. But regimes like Iran's don't give land back, and can't be voted out.\n\nIs restraint strength or weakness? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Asadi (public domain); Israel GPO (public domain); Hosseinronaghi (CC BY 4.0); Oren Rozen (CC BY-SA 4.0); Tsvika Israeli, GPO (CC BY-SA 3.0); NASA (public domain); IDF (CC BY-SA 2.0). AI voice.",
+ "caption_he": "מה אם ישראל הייתה מתנהגת כמו המשטר באיראן? איראן הוציאה להורג לפחות 1,639 בני אדם ב־2025. בקנה המידה של ישראל: כ־180 בשנה. ישראל: שתי הוצאות להורג מאז 1948, אחת מהן אייכמן.\nבינואר 2026 הממשלה באיראן עצמה הודתה ב־3,117 הרוגים בדיכוי המחאה. ב־2023 מאות אלפי ישראלים הפגינו חודשים, ואף אחד לא נורה.\nישראל החזירה את סיני (1982), יצאה מלבנון (2000) ומעזה (2005).\nישראל טועה, ולמלחמות שלה יש מחיר אמיתי בחיים. אבל משטרים כאלה לא מחזירים שטח ואי אפשר להחליף אותם בבחירות.",
+ "hashtags": [
+  "#Israel",
+  "#Iran",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "US State Department, State Sponsors of Terrorism",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Iran Human Rights and ECPM, annual report",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "UN World Population Prospects; Israel CBS",
+   "year": 2025,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Israel Ministry of Justice; Eichmann executed 1962",
+   "year": 1962,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Iran government figure via AFP",
+   "year": 2026,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Times of Israel, judicial overhaul protests",
+   "year": 2023,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Egypt Israel Peace Treaty; UN; Knesset",
+   "year": 2005,
+   "at": "L10",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.99,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "What if Israel acted like Iran's regime?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iran's regime has been on the US terror sponsor list since 1984.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Let's do the math, per person.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2025, Iran executed at least 1,639 people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At Israel's size, that's about one hundred eighty a year.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's real number? Two, since 1948. One was Nazi Holocaust organizer Adolf Eichmann.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In January 2026, Iran's own government admitted 3,117 protest deaths.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At Israel's size: over three hundred.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2023, hundreds of thousands of Israelis protested for months. Nobody was shot.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The opposition sits in the Knesset.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Land? Israel gave back Sinai, almost three times its size.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It left Lebanon in 2000, and Gaza in 2005, moving out over eight thousand of its own citizens.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel makes mistakes, and its wars cost real lives.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But regimes like Iran's don't give land back, and can't be voted out.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Restraint: strength or weakness? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Now picture Israel at Iran's rate.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "What if Israel acted like Iran's regime? Iran's regime has been on the US terror sponsor list since 1984 Let's do the math, per person. In 2025 Iran executed at least 1,639 people. At Israel's size, that's about 180 a year. Israel's real number? Two since 1948. One was Nazi Holocaust organizer Adolf Eichmann. In January 2026, Iran's own government admitted 3,117 protest deaths. At Israel's size, over 300. In 2023, hundreds of thousands of Israelis protested for months. Nobody was shot. The opposition sits in the Knesset. Land? Israel gave back Sinai almost three times its size. It left Lebanon in 2000 and Gaza in 2005, moving out over 8,000 of its own citizens. Israel makes mistakes and its wars cost real lives. But regimes like Iran's don't give land back, and can't be voted out. Restraint, strength, or weakness. Tell me below. If you love Israeli facts, follow Noah Mraz for more. Now picture Israel at Iran's rate.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.4
+ },
+ "photos": [
+  {
+   "file": "templates/photos/terror_state_if/tsi_azadi.jpg",
+   "credit": "Azadi Tower, Tehran. Photo: Asadi, public domain"
+  },
+  {
+   "file": "templates/photos/terror_state_if/tsi_eich.jpg",
+   "credit": "Eichmann trial, 1961. Israel GPO, public domain"
+  },
+  {
+   "file": "templates/photos/terror_state_if/tsi_iranp1.jpg",
+   "credit": "Protest graffiti, Iran 2026. Hosseinronaghi, CC BY 4.0"
+  },
+  {
+   "file": "templates/photos/terror_state_if/tsi_kap1.jpg",
+   "credit": "Tel Aviv protest, 2023. Oren Rozen, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/terror_state_if/tsi_knesset.jpg",
+   "credit": "The Knesset. Tsvika Israeli, GPO, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/terror_state_if/tsi_sinaispace.jpg",
+   "credit": "Sinai and Israel from space. NASA, public domain"
+  },
+  {
+   "file": "templates/photos/terror_state_if/tsi_gaza05.jpg",
+   "credit": "IDF leaves Gaza, 2005. IDF, CC BY-SA 2.0"
+  },
+  {
+   "file": "templates/photos/terror_state_if/tsi_azadi.jpg",
+   "credit": "Azadi Tower, Tehran. Photo: Asadi, public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 140.8
+}
