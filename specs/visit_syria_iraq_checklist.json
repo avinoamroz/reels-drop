@@ -1,0 +1,390 @@
+{
+ "id": "visit_syria_iraq_checklist",
+ "account": "noamroz__",
+ "template": "law_grid",
+ "hook": "*4* steps to|visit *Damascus?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "Four steps before Israelis can visit Damascus, or Baghdad.",
+   "gap": 0.12
+  },
+  {
+   "say": "Egypt passed all four: peace treaty, talks, one army, and Israeli tourists.",
+   "gap": 0.12
+  },
+  {
+   "say": "Syria first. Assad fell in December 2024.",
+   "screen": "Assad: *gone* since Dec 2024",
+   "at": "L2:assad",
+   "gap": 0.12
+  },
+  {
+   "say": "Peace treaty? No. Syria and Israel never signed one.",
+   "gap": 0.12
+  },
+  {
+   "say": "Talks? Yes, direct security talks. Syria's president says they got ninety percent there. Half.",
+   "gap": 0.12
+  },
+  {
+   "say": "One army? The Kurdish-led forces agreed to merge in January. Still in progress. Half.",
+   "gap": 0.12
+  },
+  {
+   "say": "Israeli tourists? Banned. Syria: one out of four.",
+   "gap": 0.12
+  },
+  {
+   "say": "Iraq. Peace treaty? No. And a 2022 law punishes contact with Israel, up to death.",
+   "gap": 0.12
+  },
+  {
+   "say": "One army? About fifty thousand fighters in Iran-backed militias. No.",
+   "gap": 0.12
+  },
+  {
+   "say": "Israeli tourists? Banned. Iraq: zero out of four.",
+   "gap": 0.12
+  },
+  {
+   "say": "Peace takes two. Israeli troops still hold positions in southern Syria, and Israeli law bans the trip too.",
+   "screen": "Peace takes *two*",
+   "at": "L10",
+   "gap": 0.12
+  },
+  {
+   "say": "Israelis would love to see old Damascus, and Babylon. Who gets there first?",
+   "gap": 0.12
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "Until then: Sinai. And four steps to Damascus.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "columns": [
+   {
+    "code": "EG",
+    "label": "EG"
+   },
+   {
+    "code": "SY",
+    "label": "SY",
+    "hl": true
+   },
+   {
+    "code": "IQ",
+    "label": "IQ",
+    "hl": true
+   }
+  ],
+  "rows": [
+   {
+    "label": "Peace treaty with Israel",
+    "icon": "🕊️",
+    "at": "L1:peace-0.15",
+    "cells": [
+     "Y",
+     "N",
+     "N"
+    ],
+    "cells_at": [
+     "L1:peace",
+     "L3:no",
+     "L7:no"
+    ]
+   },
+   {
+    "label": "Direct talks with Israel",
+    "icon": "🤝",
+    "at": "L1:talks-0.15",
+    "cells": [
+     "Y",
+     "P",
+     "N"
+    ],
+    "cells_at": [
+     "L1:talks",
+     "L4:half",
+     "L7:death"
+    ]
+   },
+   {
+    "label": "One army, no militias",
+    "icon": "🪖",
+    "at": "L1:army-0.15",
+    "cells": [
+     "Y",
+     "P",
+     "N"
+    ],
+    "cells_at": [
+     "L1:army",
+     "L5:half",
+     "L8:no"
+    ]
+   },
+   {
+    "label": "Israeli tourists let in",
+    "icon": "🛂",
+    "at": "L1:tourists-0.15",
+    "cells": [
+     "Y",
+     "N",
+     "N"
+    ],
+    "cells_at": [
+     "L1:tourists",
+     "L6:banned",
+     "L9:banned"
+    ]
+   }
+  ],
+  "focus": [
+   {
+    "at": "L3",
+    "until": "L4",
+    "row": 0
+   },
+   {
+    "at": "L4",
+    "until": "L5",
+    "row": 1
+   },
+   {
+    "at": "L5",
+    "until": "L6",
+    "row": 2
+   },
+   {
+    "at": "L6",
+    "until": "L7",
+    "row": 3
+   },
+   {
+    "at": "L7",
+    "until": "L7:law",
+    "row": 0
+   },
+   {
+    "at": "L7:law",
+    "until": "L8",
+    "row": 1
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "row": 2
+   },
+   {
+    "at": "L9",
+    "until": "L10",
+    "row": 3
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/map0.jpg",
+    "at": 0,
+    "until": "L1",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.08
+    ],
+    "dim": 0.0
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/dahab.jpg",
+    "at": "L1",
+    "until": "L2",
+    "credit": "Dahab, Sinai: jay8085, CC BY 2.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/umayyad.jpg",
+    "at": "L2",
+    "until": "L4",
+    "credit": "Umayyad Mosque, Damascus: V. Argenberg, CC BY 4.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/map0.jpg",
+    "at": "L4",
+    "until": "L7",
+    "kb": [
+     0.35,
+     0.45,
+     1.25,
+     0.3,
+     0.45,
+     1.35
+    ],
+    "dim": 0.0
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/babylon.jpg",
+    "at": "L7",
+    "until": "L8",
+    "credit": "Babylon, about 1932: Matson Collection, public domain",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/map0.jpg",
+    "at": "L8",
+    "until": "L10",
+    "kb": [
+     0.75,
+     0.55,
+     1.25,
+     0.78,
+     0.55,
+     1.35
+    ],
+    "dim": 0.0
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/umayyad2.jpg",
+    "at": "L11",
+    "until": "L11:babylon",
+    "credit": "Damascus: Dosseman, CC BY-SA 4.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/babylon.jpg",
+    "at": "L11:babylon",
+    "until": "L12",
+    "credit": "Babylon: Matson Collection, public domain",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/map0.jpg",
+    "at": "L13",
+    "until": "END",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.0
+    ],
+    "dim": 0.0
+   }
+  ],
+  "band": {
+   "y": 40,
+   "h": 400
+  },
+  "verdict": [
+   {
+    "at": "L6:syria",
+    "until": "L7",
+    "text": "Syria: *1* out of 4"
+   },
+   {
+    "at": "L9:iraq",
+    "until": "L10",
+    "text": "Iraq: *0* out of 4"
+   }
+  ],
+  "grid_y": 500,
+  "row_h": 150,
+  "hook_y": 250,
+  "title_y": 250,
+  "tail": 0.55
+ },
+ "sources": [
+  {
+   "label": "Egypt-Israel Peace Treaty",
+   "year": 1979,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Reuters, Dec 2024",
+   "year": 2024,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Anadolu, al-Sharaa at the Atlantic Council",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Al Jazeera; Asharq Al-Awsat",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Visa policies of Syria and Iraq",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Iraq Law No. 1 of 2022; The New Arab",
+   "year": 2025,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Arab News, security officials",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Visa policy of Iraq",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Anadolu; Israel Prevention of Infiltration Law",
+   "year": 2026,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "hashtags": [
+  "#Israel",
+  "#Syria",
+  "#Iraq",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 20.0,
+  "big": "4 steps",
+  "text": "Can Israelis visit|*Damascus?*"
+ },
+ "caption_en": "One of these countries scores zero. It's not the one most people guess. 🛂\n\nWhat would it take for Israelis to visit Damascus or Baghdad? 4 steps, with Egypt as the control.\n\n🇪🇬 Egypt: 4/4. Peace treaty (1979), direct talks, one army, and Israelis enter Sinai at Taba.\n\n🇸🇾 Syria: 1/4.\n❌ Peace treaty: never signed.\n🟡 Direct talks: security talks since 2025; President al-Sharaa says they reached about 90% before stalling (Sept 2026).\n🟡 One army: the Kurdish-led SDF agreed to merge into the state in Jan 2026; integration is still under way.\n❌ Israeli tourists: Israeli nationals are barred from entering or transiting.\n\n🇮🇶 Iraq: 0/4.\n❌ Peace treaty: none.\n❌ Talks: Anti-Normalisation Law No. 1 of 2022 punishes cooperation with Israel with life or death; the first life sentence came in July 2025.\n❌ One army: about 50,000 fighters in Iran-backed militias, the Islamic Resistance in Iraq coalition (security officials via Arab News, July 2026).\n❌ Israeli tourists: barred.\n\nPeace takes two: Israeli troops still hold positions in southern Syria taken after Assad fell, and Israeli law bans visits to Syria and Iraq without a permit (1954 law).\n\nIsraelis would love to see old Damascus and Babylon. Who gets there first?\n\nSources: Peace Treaty 1979; Reuters, Dec 2024; Anadolu, 23 Sept 2026; Al Jazeera, 30 Jan 2026; Asharq Al-Awsat, Sept 2026; The New Arab, July 2025; Arab News, July 2026; visa policies of Syria and Iraq.\nPhotos (Wikimedia Commons): jay8085 CC BY 2.0; V. Argenberg CC BY 4.0; Dosseman CC BY-SA 4.0; Matson Collection PD. Map: ours.",
+ "caption_he": "מה צריך לקרות כדי שישראלים יבקרו בדמשק או בבגדד? 4 צעדים.\nמצרים: 4 מתוך 4.\nסוריה: 1 מתוך 4. אין הסכם שלום, יש שיחות ביטחוניות ישירות, איחוד הכוחות לצבא אחד עוד בתהליך, וישראלים לא נכנסים.\nעיראק: 0 מתוך 4. חוק מ-2022 מעניש על קשר עם ישראל עד מוות, וכ-50 אלף לוחמים במיליציות בחסות איראן.\nושלום צריך שניים: כוחות ישראליים עדיין בדרום סוריה, והחוק הישראלי אוסר לנסוע לשם בלי היתר.\nמי יגיע ראשונה?"
+}

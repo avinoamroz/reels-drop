@@ -1,0 +1,766 @@
+{
+ "id": "israelis_fly_most",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*9 in 10* leave|by *plane*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "Nine in ten Israeli trips abroad leave by plane.",
+   "gap": 0.12
+  },
+  {
+   "say": "Because Israel's borders aren't exactly road-trip friendly.",
+   "gap": 0.12
+  },
+  {
+   "say": "North: Lebanon and Syria. Closed.",
+   "gap": 0.12
+  },
+  {
+   "say": "South and east: Egypt and Jordan. Open, since the peace treaties of 1979 and 1994.",
+   "screen": "Peace: Egypt *1979,* Jordan *1994*",
+   "at": "L3:open",
+   "gap": 0.12
+  },
+  {
+   "say": "Still, almost everyone takes off from here.",
+   "gap": 0.12
+  },
+  {
+   "say": "So who travels abroad the most? Trips per person, in 2019.",
+   "gap": 0.12
+  },
+  {
+   "say": "Israel: about one trip a year. Twice the Americans.",
+   "gap": 0.12
+  },
+  {
+   "say": "Brits and Germans travel more. But six in ten German trips abroad go by car, bus or train.",
+   "screen": "Germany: *6 in 10* trips abroad by land",
+   "at": "L7:six",
+   "gap": 0.12
+  },
+  {
+   "say": "Count only flights, and Israelis fly abroad almost twice as often as Germans.",
+   "gap": 0.12
+  },
+  {
+   "say": "Over a lifetime, that's roughly eighty trips abroad.",
+   "gap": 0.12
+  },
+  {
+   "say": "And since 2020, the Abraham Accords added direct flights to Dubai and Abu Dhabi.",
+   "screen": "Since *2020:* direct flights to the UAE",
+   "at": "L10:since",
+   "gap": 0.12
+  },
+  {
+   "say": "If the neighbours ever open up, we'll drive. Where would you go first?",
+   "gap": 0.12
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "Until then, nine in ten of us leave by plane.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.0,
+   31.6,
+   4.2
+  ],
+  "hook_y": 1160,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1",
+    "view": [
+     35.3,
+     31.6,
+     5.0,
+     760
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L4",
+    "view": [
+     34.95,
+     31.95,
+     1.8,
+     760
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L5-0.2",
+    "view": [
+     35.3,
+     31.6,
+     5.0,
+     760
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L10",
+    "view": [
+     44.0,
+     28.0,
+     22,
+     760
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L11",
+    "view": [
+     35.3,
+     31.6,
+     5.0,
+     760
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L13-0.2",
+    "view": [
+     35.0,
+     31.6,
+     4.2,
+     960
+    ],
+    "dur": 1.0
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L2:lebanon",
+    "until": "L5-0.2",
+    "code": "LBN",
+    "color": "#5B6B85",
+    "alpha": 0.8
+   },
+   {
+    "at": "L2:syria",
+    "until": "L5-0.2",
+    "code": "SYR",
+    "color": "#5B6B85",
+    "alpha": 0.8
+   },
+   {
+    "at": "L3:egypt",
+    "until": "L5-0.2",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L3:jordan",
+    "until": "L5-0.2",
+    "code": "JOR",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L11",
+    "until": "L12",
+    "code": "LBN",
+    "color": "#45A4DD",
+    "alpha": 0.4
+   },
+   {
+    "at": "L11",
+    "until": "L12",
+    "code": "SYR",
+    "color": "#45A4DD",
+    "alpha": 0.4
+   }
+  ],
+  "icons": [
+   {
+    "at": "L2:lebanon",
+    "until": "L5-0.2",
+    "lon": 35.45,
+    "lat": 33.25,
+    "emo": "⛔",
+    "size": 80,
+    "label": "Closed",
+    "label_dy": 70
+   },
+   {
+    "at": "L2:syria",
+    "until": "L5-0.2",
+    "lon": 36.2,
+    "lat": 33.0,
+    "emo": "⛔",
+    "size": 80
+   },
+   {
+    "at": "L3:egypt",
+    "until": "L5-0.2",
+    "lon": 34.85,
+    "lat": 29.45,
+    "emo": "✅",
+    "size": 72,
+    "label": "Taba",
+    "label_dy": 65
+   },
+   {
+    "at": "L3:jordan",
+    "until": "L5-0.2",
+    "lon": 35.65,
+    "lat": 31.87,
+    "emo": "✅",
+    "size": 72,
+    "label": "Allenby",
+    "label_dy": 65
+   },
+   {
+    "at": "L11:drive",
+    "until": "L12",
+    "lon": 35.6,
+    "lat": 33.6,
+    "emo": "🚗",
+    "size": 90
+   }
+  ],
+  "pins": [
+   {
+    "at": "L4",
+    "until": "L5-0.2",
+    "lon": 34.886,
+    "lat": 32.005,
+    "label": "Ben Gurion Airport",
+    "color": "yellow"
+   },
+   {
+    "at": "L10:dubai",
+    "until": "L11-0.2",
+    "lon": 55.27,
+    "lat": 25.2,
+    "label": "Dubai",
+    "color": "yellow"
+   },
+   {
+    "at": "L10:abu",
+    "until": "L11-0.2",
+    "lon": 54.37,
+    "lat": 24.45,
+    "label": "Abu Dhabi",
+    "color": "yellow"
+   }
+  ],
+  "routes": [
+   {
+    "at": 0,
+    "until": "L2-0.2",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      31.9
+     ],
+     [
+      33.2,
+      33.6
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": 0.25,
+    "until": "L2-0.2",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      32.05
+     ],
+     [
+      32.6,
+      32.4
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": 0.5,
+    "until": "L2-0.2",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      32.199999999999996
+     ],
+     [
+      33.0,
+      31.3
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": "L4",
+    "until": "L5-0.2",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      31.9
+     ],
+     [
+      33.2,
+      33.6
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": "L4+0.25",
+    "until": "L5-0.2",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      32.05
+     ],
+     [
+      32.6,
+      32.4
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": "L4+0.5",
+    "until": "L5-0.2",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      32.199999999999996
+     ],
+     [
+      33.0,
+      31.3
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": "L13",
+    "until": "END",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      31.9
+     ],
+     [
+      33.2,
+      33.6
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": "L13+0.25",
+    "until": "END",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      32.05
+     ],
+     [
+      32.6,
+      32.4
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": "L13+0.5",
+    "until": "END",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      34.6,
+      32.199999999999996
+     ],
+     [
+      33.0,
+      31.3
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 0.9,
+    "emo": "✈️"
+   },
+   {
+    "at": "L10:direct",
+    "until": "L11-0.2",
+    "path": [
+     [
+      34.886,
+      32.005
+     ],
+     [
+      42.0,
+      27.5
+     ],
+     [
+      55.27,
+      25.2
+     ]
+    ],
+    "kind": "flow",
+    "color": "yellow",
+    "width": 7,
+    "draw": 1.0,
+    "emo": "✈️"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L5:trips",
+    "until": "L7-0.1",
+    "title": "Trips abroad *per person,* 2019",
+    "y": 560,
+    "vmax": 2.0,
+    "lab_w": 430,
+    "rows": [
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 2.0,
+      "txt": "2.0"
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 1.4,
+      "txt": "1.4"
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 1.2,
+      "txt": "1.2"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 1.01,
+      "txt": "1.0",
+      "hl": true
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 0.9,
+      "txt": "0.9"
+     },
+     {
+      "label": "France",
+      "flag": "FR",
+      "value": 0.73,
+      "txt": "0.7"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 0.52,
+      "txt": "0.5"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0.14,
+      "txt": "0.14"
+     },
+     {
+      "label": "Türkiye",
+      "flag": "TR",
+      "value": 0.12,
+      "txt": "0.12"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 0.0,
+      "txt": "no data"
+     }
+    ]
+   },
+   {
+    "at": "L8:count",
+    "until": "L9-0.1",
+    "title": "Trips abroad *by plane,* per person, 2023",
+    "y": 600,
+    "vmax": 0.81,
+    "lab_w": 430,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0.81,
+      "txt": "0.81",
+      "hl": true
+     },
+     {
+      "label": "Netherlands",
+      "flag": "NL",
+      "value": 0.52,
+      "txt": "0.52"
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 0.46,
+      "txt": "0.46"
+     },
+     {
+      "label": "EU average",
+      "flag": "EU",
+      "value": 0.33,
+      "txt": "0.33"
+     },
+     {
+      "label": "France",
+      "flag": "FR",
+      "value": 0.27,
+      "txt": "0.27"
+     },
+     {
+      "label": "Spain",
+      "flag": "ES",
+      "value": 0.22,
+      "txt": "0.22"
+     },
+     {
+      "label": "Italy",
+      "flag": "IT",
+      "value": 0.11,
+      "txt": "0.11"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L9:roughly",
+    "until": "L10-0.1",
+    "value": 80,
+    "sub": "trips abroad in a lifetime (rough estimate)",
+    "y": 900,
+    "from": 0
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/israelis_fly_most/bgu.jpg",
+    "at": "L4:everyone",
+    "until": "L5-0.2",
+    "credit": "Ben Gurion Airport: Rakoon, CC0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/israelis_fly_most/allenby.jpg",
+    "at": "L3:jordan+0.3",
+    "until": "L4-0.1",
+    "credit": "Allenby Bridge: Kounosu, CC BY-SA 3.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/israelis_fly_most/border.jpg",
+    "at": "L7:car",
+    "until": "L8-0.1",
+    "credit": "Austria-Germany border: High Contrast, CC BY 3.0 de",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/israelis_fly_most/elal.jpg",
+    "at": "L10:flights",
+    "until": "L11-0.2",
+    "credit": "El Al 787: km30192002, CC BY 2.0",
+    "dim": 0.1
+   }
+  ],
+  "photo_box": [
+   60,
+   1010,
+   960,
+   430,
+   28
+  ],
+  "overlays": [
+   {
+    "at": "L11:where",
+    "until": "L12",
+    "text": "Where would *you* drive first?",
+    "y": 1250,
+    "size": 60
+   },
+   {
+    "at": "L12",
+    "until": "L12e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1250,
+    "size": 72,
+    "cue": true
+   },
+   {
+    "at": "L5",
+    "until": "L7-0.1",
+    "text": "Departures per resident: World Bank / UN Tourism",
+    "y": 1420,
+    "size": 40,
+    "pill": "#163261"
+   },
+   {
+    "at": "L8",
+    "until": "L9-0.1",
+    "text": "Israel: CBS departures. EU: Eurostat trips of 1+ nights.",
+    "y": 1420,
+    "size": 40,
+    "pill": "#163261"
+   },
+   {
+    "at": "L9",
+    "until": "L10-0.1",
+    "text": "1 trip a year x 80+ years",
+    "y": 1180,
+    "size": 52
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "L13",
+     "END"
+    ]
+   ]
+  },
+  "tail": 0.55
+ },
+ "sources": [
+  {
+   "label": "CBS, Statistical Abstract of Israel",
+   "year": 2024,
+   "at": "L0",
+   "until": "L1"
+  },
+  {
+   "label": "World Bank, ST.INT.DPRT (2019 data)",
+   "year": 2026,
+   "at": "L5",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "Eurostat tour_dem_tttr (2023 data)",
+   "year": 2026,
+   "at": "L7",
+   "until": "L9-0.1"
+  },
+  {
+   "label": "Rough estimate: 1 trip a year x CBS life expectancy",
+   "year": 2024,
+   "at": "L9",
+   "until": "L10-0.1"
+  }
+ ],
+ "hashtags": [
+  "#Israel",
+  "#travel",
+  "#BenGurionAirport",
+  "#Israelis"
+ ],
+ "cover": {
+  "t": 20.0,
+  "big": "9 in 10",
+  "text": "How Israelis|*leave* Israel"
+ },
+ "caption_en": "Most countries can drive out. Israelis mostly can't. ✈️\n\n🛫 9 in 10 trips abroad by Israelis leave by plane: 88.7% by air, 9.7% by land, 1.6% by sea (CBS, 2023).\n\nThe neighbours: Lebanon and Syria, closed. Egypt (peace treaty 1979) and Jordan (1994), open at Taba, Allenby and other crossings.\n\nTrips abroad per person, 2019 (World Bank departures / population): UAE 2.0, UK 1.4, Germany 1.2, Israel 1.0, Saudi Arabia 0.9, France 0.7, USA 0.5, Jordan 0.14, Türkiye 0.12, Egypt no data. Israelis travel abroad about twice as often as Americans.\n\nGermans and Brits travel more, but 6 in 10 German trips abroad go by land (Eurostat, 2023).\n\nTrips abroad by plane per person, 2023: Israel 0.81 (CBS departures x air share), Netherlands 0.52, Germany 0.46, EU 0.33, France 0.27, Spain 0.22, Italy 0.11 (Eurostat trips of 1+ nights). Different definitions, so read it as a rough comparison.\n\nOver a lifetime of 80+ years, about one trip a year adds up to roughly 80 trips abroad (rough estimate).\n\nSince 2020, the Abraham Accords added direct flights to the UAE. If the neighbours ever open up, we'll drive. Where would you go first?\n\nSources: CBS Statistical Abstract of Israel 2024; World Bank ST.INT.DPRT and SP.POP.TOTL; Eurostat tour_dem_tttr.\nPhotos (Wikimedia Commons): Ben Gurion Airport, Rakoon (CC0); Allenby Bridge, Kounosu (CC BY-SA 3.0); Austria-Germany border, High Contrast (CC BY 3.0 de); El Al 787, km30192002 (CC BY 2.0).",
+ "caption_he": "9 מכל 10 נסיעות של ישראלים לחו\"ל יוצאות בטיסה (למ\"ס, 2023).\nבממוצע ישראלי נוסע לחו\"ל בערך פעם בשנה, פי 2 מאמריקאי. גרמנים ובריטים נוסעים יותר, אבל 6 מכל 10 נסיעות של גרמנים לחו\"ל הן ביבשה.\nבטיסות בלבד, ישראלים טסים לחו\"ל כמעט פי 2 מגרמנים.\nאם השכנים ייפתחו יום אחד, ניסע באוטו. לאן הייתם נוסעים קודם?"
+}
