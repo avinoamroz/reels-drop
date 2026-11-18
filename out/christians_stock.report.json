@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "stock_chart",
  "hook": "*5* Christian stocks:|*buy* or *sell?*",
- "duration": 43.87,
+ "duration": 41.53,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -1.4
  },
  "outputs": {
   "mp4": "out/christians_stock.mp4",
@@ -135,15 +135,15 @@
     "flag": "ok"
    }
   ],
-  "heard": "If Christians were stocks, would you buy? Iraq. One and a half million Christians before 2003. Today, fewer than 150,000. Down 90%. In 2014, ISIS, the Islamic State group, took Mosul and told Christians, convert, pay or die. Syria, 2.2 million before the war. About 580,000 by 2023. Turkey, about 110,000 Greek Orthodox in 1923. Fewer than 2,500 today. Bethlehem, where Christmas began. About 6,000 Christians for decades. Now roughly half that, and Israel? 36,000 Christians in 1950, 184,000 today. Up every single decade. Of these five charts, only one line is green. Israel isn't perfect. So Middle East Christians, buy or sell.",
+  "heard": "If Christians were stocks, would you buy? Iraq. One and a half million Christians before 2003. Today, fewer than 150,000. Down 90%. In 2014, ISIS, the Islamic State Group, took Mosul and told Christians, convert, pay, or die. Syria, 2.2 million before the war. About 580,000 by 2023. Turkey, about 110,000 Greek Orthodox in 1923. Fewer than 2,500 today. Bethlehem, where Christmas Times began, about 6,000 Christians for decades, now roughly half that. And Israel? 36,000 Christians in 1950, 184,000 today, up every single decade. Of these five charts, only one line is green, Israel isn't perfect. So Middle East Christians, buy or sell.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "pre-made voice file voice/christians_stock_vo.wav",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -1.4
  },
  "lint_warnings": [],
- "render_s": 111.7
+ "render_s": 109.5
 }
