@@ -89,17 +89,17 @@
  "data": {
   "band": [
    {
-    "file": "photos/bm_hebron.jpg",
+    "file": "templates/photos/faiths_tree/bm_hebron.jpg",
     "at": 0,
     "credit": "Cave of the Patriarchs, Hebron. Djampa, CC BY-SA 4.0"
    },
    {
-    "file": "photos/wfs_wall.jpg",
+    "file": "templates/photos/faiths_tree/wfs_wall.jpg",
     "at": "L1:Judaism",
     "credit": "Western Wall. Sheepdog85, CC BY-SA 3.0 de"
    },
    {
-    "file": "photos/wfs_sepulchre.jpg",
+    "file": "templates/photos/faiths_tree/wfs_sepulchre.jpg",
     "at": "L1:Christianity",
     "credit": "Holy Sepulchre, Jerusalem. B. Werner, Public domain"
    },
@@ -128,17 +128,17 @@
     "credit": "Illustration"
    },
    {
-    "file": "photos/fD_kaaba.jpg",
+    "file": "templates/photos/faiths_tree/fD_kaaba.jpg",
     "at": "L3",
     "credit": "Kaaba, Mecca. GusJuned, CC BY-SA 3.0"
    },
    {
-    "file": "photos/fD_quran.jpg",
+    "file": "templates/photos/faiths_tree/fD_quran.jpg",
     "at": "L3:Quran",
     "credit": "Birmingham Quran folios, c. AD 568 to 645. Public domain"
    },
    {
-    "file": "photos/fD_kaaba.jpg",
+    "file": "templates/photos/faiths_tree/fD_kaaba.jpg",
     "at": "L4:raised",
     "credit": "Kaaba, Mecca. GusJuned, CC BY-SA 3.0",
     "kb": [
@@ -151,22 +151,22 @@
     ]
    },
    {
-    "file": "photos/fD_nabawi.jpg",
+    "file": "templates/photos/faiths_tree/fD_nabawi.jpg",
     "at": "L5",
     "credit": "Prophet's Mosque, Medina. Konevi, CC0"
    },
    {
-    "file": "photos/fD_karbala.jpg",
+    "file": "templates/photos/faiths_tree/fD_karbala.jpg",
     "at": "L7:Ali",
     "credit": "Imam Husayn Shrine, Karbala. Ali Majid Abbood, CC BY-SA 4.0"
    },
    {
-    "file": "photos/wfs_dome.jpg",
+    "file": "templates/photos/faiths_tree/wfs_dome.jpg",
     "at": "L8",
     "credit": "Dome of the Rock, Jerusalem. B. Werner, Public domain"
    },
    {
-    "file": "photos/fD_krak.jpg",
+    "file": "templates/photos/faiths_tree/fD_krak.jpg",
     "at": "L10",
     "credit": "Krak des Chevaliers, Syria. V. Argenberg, CC BY 4.0"
    },
@@ -183,7 +183,7 @@
     "credit": "Illustration"
    },
    {
-    "file": "photos/bm_hebron.jpg",
+    "file": "templates/photos/faiths_tree/bm_hebron.jpg",
     "at": "L12",
     "credit": "Cave of the Patriarchs, Hebron. Djampa, CC BY-SA 4.0"
    }
