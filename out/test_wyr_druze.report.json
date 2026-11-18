@@ -1,0 +1,79 @@
+{
+ "id": "test_wyr_druze",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* word test",
+ "duration": 20.53,
+ "audio": {
+  "lufs": -15.8,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/test_wyr_druze.mp4",
+  "cover": "covers/test_wyr_druze_cover.jpg",
+  "preview": "previews/test_wyr_druze_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_wyr_druze_0.jpg",
+  "1": "out/frames/test_wyr_druze_1.jpg",
+  "3": "out/frames/test_wyr_druze_3.jpg",
+  "last": "out/frames/test_wyr_druze_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting (Druze pronunciation test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.864,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "And in Israel? Jews, Muslims, Christians and Druze.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same tax for the Druze community.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jews, Muslims, Christians, Drooze.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Jews, Muslims, Christians, <<ˈ|d|r|uː|z>> citizens.",
+    "score": 0.5,
+    "flag": "MISS"
+   },
+   {
+    "line": "But here's the catch: only if you're the wrong religion.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Ottomans abolished it in eighteen fifty six.",
+    "score": 0.875,
+    "flag": "ok"
+   }
+  ],
+  "heard": "And in Israel, Jews, Muslims, Christians, and Druze. Same tax for the Druze community. Jews, Muslims, Christians, Druze. Jews, Muslims, Christians. Druze, citizens. But here's the catch, only if you're the wrong religion. The Ottomans abolished it in 1856.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 20.52,
+ "opener": null,
+ "mix": {
+  "lufs": -15.9,
+  "true_peak": -2.2
+ },
+ "lint_warnings": [],
+ "render_s": 36.5
+}
