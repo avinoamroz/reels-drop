@@ -60,7 +60,7 @@
   }
  ],
  "transcript": {
-  "score": 0.975,
+  "score": 0.926,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -125,8 +125,8 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
-    "flag": "ok"
+    "score": 0.0,
+    "flag": "MISS"
    },
    {
     "line": "So, where's your country's Tel Aviv?",
@@ -134,7 +134,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Every country has a Tel Aviv and a Jerusalem. One runs the country, one has the fun. Israel, Jerusalem, the seat of the Knesset and the government. Tel Aviv, beaches and startups. Turkey, Ankara runs it. Istanbul gets the tourists. Morocco, Rabat is the capital. Casablanca is the business hub. Saudi Arabia, Riyadh rules. Jeddah is the city by the sea. America, Washington and New York. Australia, Canberra and Sydney. Switzerland, Bern and Zurich, Washington Canberra and Grom, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded in 1909, Egypt went the other way. In 2024, it moved its government out of Cairo, to a brand new city in the desert, Israel, 55 kilometers. Only Egypt's brand new capital is closer, as Israelis say, Jerusalem prays, and Tel Aviv plays. If you love Israeli facts, follow Mount Ross for more. So where is your country's Tel Aviv?",
+  "heard": "Every country has a Tel Aviv and a Jerusalem. One runs the country, one has the fun. Israel, Jerusalem, the seat of the Knesset and the government. Tel Aviv, beaches and startups. Turkey, Ankara runs it. Istanbul gets the tourists. Morocco, Rabat is the capital. Casablanca is the business hub. Saudi Arabia, Riyadh rules. Jeddah is the city by the sea. America, Washington and New York. Australia, Canberra and Sydney. Switzerland, Bern, and Zurich, Washington, Canberra, and Durham, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded in 1909. Egypt went the other way. In 2024, it moved its government out of Cairo to a brand new city in the desert, Israel, 55 kilometers. Only Egypt's brand new capital is closer. As Israelis say, Jerusalem prays, and Tel Aviv plays. So, where is your country's Tel Aviv?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -148,5 +148,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 94.0
+ "render_s": 136.2
 }
