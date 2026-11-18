@@ -1,0 +1,207 @@
+{
+ "id": "israel_maslow",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "*5* levels. Israel|climbed *backwards.*",
+ "duration": 59.87,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/israel_maslow.mp4",
+  "cover": "covers/israel_maslow_cover.jpg",
+  "preview": "previews/israel_maslow_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_maslow_0.jpg",
+  "1": "out/frames/israel_maslow_1.jpg",
+  "3": "out/frames/israel_maslow_3.jpg",
+  "last": "out/frames/israel_maslow_last.jpg"
+ },
+ "caption_en": "Maslow would need a minute with this one. 🔺\n\nIn 1943 Abraham Maslow drew a pyramid of human needs: basics and safety first, dreams last. Israel built it upside down:\n\n🚀 Self actualisation: 14 Israeli Nobel laureates since 1948 (latest: Joel Mokyr, 2025). Research spending 6.35% of GDP, the highest in the OECD, the Organisation for Economic Co-operation and Development (OECD MSTI, 2023 data).\n🏆 Esteem: 4 Eurovision wins (1978, 1979, 1998, 2018).\n💛 Belonging: 2.9 children per woman, the highest in the OECD (OECD 2024; Israel CBS: 2.88 in 2025).\n🛡️ Safety: a protected room (mamad) is required in every new home since a 1993 law, yet 56% of households still have none (Israel Builders Association, 2025).\n💧 Basics: about 86% of drinking water came from desalination in 2022 (Israel Water Authority data).\n\nThe result: 8th happiest country on Earth (World Happiness Report 2026).\n\nBig on dreams. Basics still unfinished.\n\nWhich level should Israel fix next? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Berlin-George (CC BY-SA 3.0); Lauren Outerson, EuroVisionary (CC BY-SA 4.0); Crzrussian (CC BY-SA 3.0); Yaakov (CC0); Mark Neyman, GPO (CC BY-SA 3.0); Dan Harrelson (CC BY 2.0). AI voice.",
+ "caption_he": "מאסלו צייר ב־1943 פירמידת צרכים: קודם בסיס וביטחון, ורק בסוף חלומות. ישראל בנתה אותה הפוך.\n14 זוכי נובל, 6.35% מהתוצר על מחקר (הכי גבוה ב־OECD), 4 זכיות באירוויזיון, 2.9 ילדים לאישה.\nאבל 56% מהדירות עדיין בלי ממ\"ד, ו־86% ממי השתייה מגיעים מהים.\nוהתוצאה? המדינה השמינית הכי מאושרת בעולם.\nאיזו קומה ישראל צריכה לתקן קודם?",
+ "hashtags": [
+  "#Israel",
+  "#psychology",
+  "#Maslow"
+ ],
+ "sources": [
+  {
+   "label": "Maslow, Psychological Review",
+   "year": 1943,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Nobel laureates with Israeli citizenship",
+   "year": 2025,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "OECD MSTI, 2023 data",
+   "year": 2025,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Eurovision Song Contest winners",
+   "year": 2018,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "OECD 2024; Israel CBS 2.88 for 2025",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Israel Builders Association via Jewish Press",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Israel Water Authority data",
+   "year": 2022,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "World Happiness Report",
+   "year": 2026,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.958,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Five levels. Israel climbed them backwards.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In nineteen forty three, Abraham Maslow drew a pyramid of human needs.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Basics at the bottom. Dreams at the top.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel built it upside down. And started at the top.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Self actualisation? Fourteen Nobel prizes since nineteen forty eight.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "And the highest research spending of any rich country: six point three five percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Esteem? Four Eurovision wins. Very important for national security.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Belonging? Almost three kids per woman. Friday dinner is a crowd.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then, finally, the bottom. Safety.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every new home since nineteen ninety three needs a safe room. Fifty six percent still don't have one.",
+    "score": 0.944,
+    "flag": "ok"
+   },
+   {
+    "line": "And the basics? In a desert, eighty six percent of drinking water comes from the sea.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "Maslow said: fix the basics, then dream.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel said: dream first. The basics will catch up.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The result? The eighth happiest country on Earth.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which level should Israel fix next?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Five levels. And Israel climbed them backwards.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Five levels. Israel climbed them backwards. In 1943, Abraham Maslow drew a pyramid of human needs. Basics at the bottom. Dreams at the top. Israel built it upside down. And started at the top. Self-actualization. 14 Nobel Prizes since 1948. And the highest research spending of any rich country. 6.35%. Esteem. 4 Eurovision wins. Very important for national security. Belonging? Almost 3 kids per woman. Friday dinner is a crowd. Then finally the bottom. Safety. Every new home since 1993 needs a safe room. 56% still don't have one. And the basics? In a daysick, 86% of drinking water comes from the sea. Maslow said, fix the basics, then dream. Israel said, dream first. The basics will catch up. The result? The eighth happiest country on earth. Which level should Israel fix next? If you love Israeli facts, follow Noah Brosse for more. Five levels. and Israel climbed them backwards.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "layout": "diamond",
+ "photos": [
+  {
+   "file": "templates/photos/israel_maslow/medal.jpg",
+   "credit": "Nobel medal. Berlin-George, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/netta.jpg",
+   "credit": "Netta, Eurovision 2018. Lauren Outerson, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/table.jpg",
+   "credit": "Friday table. Crzrussian, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/mamad.jpg",
+   "credit": "A safe room, 2023. CC0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_maslow/sorek.jpg",
+   "credit": "Sorek desalination plant. Mark Neyman, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/beach.jpg",
+   "credit": "Tel Aviv beach. Dan Harrelson, CC BY 2.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 106.2
+}
