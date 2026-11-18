@@ -27,32 +27,40 @@
    "gap": 0.2
   },
   {
-   "say": "Israel. Strength: R and D, six point three percent of GDP. Weakness: the cost of living. Opportunity: the Abraham Accords. Threat: Iran and its proxies."
+   "say": "Israel. Strength: R and D, six point eight percent of GDP. Weakness: cost of living. Opportunity: Abraham Accords. Threat: Iran's proxies."
   },
   {
-   "say": "Saudi Arabia: the second biggest oil reserves, a budget hooked on oil, Vision twenty thirty, and cheap oil as the risk."
+   "say": "Saudi Arabia: second biggest oil reserves, a budget hooked on oil, Vision twenty thirty, and cheap oil."
   },
   {
-   "say": "Egypt: the Suez Canal, heavy debt, record tourism. Then Houthi attacks cut canal income by over sixty percent."
+   "say": "Egypt: the Suez Canal, heavy debt, record tourism, and Houthi attacks that cut canal income sixty percent."
   },
   {
-   "say": "Iran: huge gas reserves, inflation near sixty percent, a young educated population, and a regime facing war and unrest."
+   "say": "Iran: huge gas reserves, over fifty percent inflation, young educated people, and a regime facing unrest."
   },
   {
-   "say": "Russia: energy and the biggest nuclear arsenal, an economy riding on commodities, Arctic sea routes, and the bill for war."
+   "say": "Russia: energy and the top nuclear arsenal, a commodity economy, Arctic sea routes, and the bill for war."
   },
   {
-   "say": "China: about thirty percent of world manufacturing, a shrinking population, the lead in electric cars and solar, and trade wars."
+   "say": "China: thirty percent of world manufacturing, a shrinking population, the lead in electric cars and solar, and trade wars."
   },
   {
-   "say": "And the U.S.: innovation and the dollar, forty trillion dollars of debt, the lead in A.I., and deep polarisation."
+   "say": "The U.S.: innovation and the dollar, forty trillion dollars of debt, the lead in A.I., and deep polarisation."
   },
   {
-   "say": "Side by side, every grid has a red box."
+   "say": "Every grid has a red box."
   },
   {
    "say": "No country is all green. What counts is what it does next.",
    "gap": 0.3
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12,
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "until": "L11-0.05",
+   "screen_y": 1530
   },
   {
    "say": "So, which one would you invest in?"
@@ -67,7 +75,7 @@
     1010
    ],
    "grid_at": 0.85,
-   "back": "L10"
+   "back": "L11"
   },
   "hook_y": 400,
   "countries": [
@@ -86,8 +94,8 @@
      31.5
     ],
     "photo": {
-     "file": "photos/sw_telaviv.jpg",
-     "credit": "",
+     "file": "templates/photos/swot_nations/sw_telaviv.jpg",
+     "credit": "Tel Aviv. PikiWiki Israel, CC BY 2.5",
      "kb": [
       0.5,
       0.5,
@@ -99,7 +107,7 @@
     },
     "items": {
      "S": {
-      "text": "R&D 6.3% of GDP",
+      "text": "R&D 6.8% of GDP",
       "short": "R&D",
       "at": "L1:strength"
      },
@@ -114,7 +122,7 @@
       "at": "L1:opportunity"
      },
      "T": {
-      "text": "Iran and its proxies",
+      "text": "Iran's proxies",
       "short": "Iran",
       "at": "L1:threat"
      }
@@ -137,8 +145,8 @@
      24.0
     ],
     "photo": {
-     "file": "photos/sw_riyadh.jpg",
-     "credit": "",
+     "file": "templates/photos/swot_nations/sw_riyadh.jpg",
+     "credit": "Riyadh. B.alotaby, CC BY-SA 4.0",
      "kb": [
       0.5,
       0.5,
@@ -188,8 +196,8 @@
      27.0
     ],
     "photo": {
-     "file": "photos/sw_suez.jpg",
-     "credit": "",
+     "file": "templates/photos/swot_nations/sw_suez.jpg",
+     "credit": "Suez Canal. Aah-Yeah, CC BY 2.0",
      "kb": [
       0.5,
       0.5,
@@ -239,8 +247,8 @@
      32.5
     ],
     "photo": {
-     "file": "photos/sw_tehran.jpg",
-     "credit": "",
+     "file": "templates/photos/swot_nations/sw_tehran.jpg",
+     "credit": "Tehran. Salehi1990mohsen, CC BY-SA 4.0",
      "kb": [
       0.5,
       0.5,
@@ -257,7 +265,7 @@
       "at": "L4:huge"
      },
      "W": {
-      "text": "Sanctions, 60% inflation",
+      "text": "Sanctions, 50%+ inflation",
       "short": "Inflation",
       "at": "L4:inflation"
      },
@@ -290,8 +298,8 @@
      56.0
     ],
     "photo": {
-     "file": "photos/sw_kremlin.jpg",
-     "credit": "",
+     "file": "templates/photos/swot_nations/sw_kremlin.jpg",
+     "credit": "Moscow. Vyacheslav Argenberg, CC BY 4.0",
      "kb": [
       0.5,
       0.5,
@@ -308,7 +316,7 @@
       "at": "L5:energy"
      },
      "W": {
-      "text": "Commodity-heavy economy",
+      "text": "Commodity economy",
       "short": "Commodities",
       "at": "L5:economy"
      },
@@ -339,8 +347,8 @@
      33.0
     ],
     "photo": {
-     "file": "photos/sw_shanghai.jpg",
-     "credit": "",
+     "file": "templates/photos/swot_nations/sw_shanghai.jpg",
+     "credit": "Shanghai. King of Hearts, CC BY-SA 4.0",
      "kb": [
       0.5,
       0.5,
@@ -354,7 +362,7 @@
      "S": {
       "text": "30% of world manufacturing",
       "short": "Factories",
-      "at": "L6:about"
+      "at": "L6:thirty"
      },
      "W": {
       "text": "Shrinking population",
@@ -388,8 +396,8 @@
      39.0
     ],
     "photo": {
-     "file": "photos/sw_capitol.jpg",
-     "credit": "",
+     "file": "templates/photos/swot_nations/sw_capitol.jpg",
+     "credit": "US Capitol. USCapitol, public domain",
      "kb": [
       0.5,
       0.5,
@@ -430,8 +438,8 @@
  },
  "sources": [
   {
-   "label": "OECD MSTI (R&D, 2023 data); OECD Economic Survey of Israel",
-   "year": 2025,
+   "label": "OECD MSTI (R&D, 2024 data); OECD Economic Survey of Israel",
+   "year": 2026,
    "at": "L1",
    "until": "L2"
   },
@@ -477,8 +485,8 @@
   "balance": "No country is all *green.* What counts is what it does next.",
   "cta": "Send this to someone who invests"
  },
- "caption_en": "7 countries. One business test. 📊\n\nA SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is what companies run before a big decision. Here it is for 7 countries, one sharp item per box:\n\n🇮🇱 Israel: R&D at 6.3% of GDP, the highest in the OECD (2023) | high cost of living | Abraham Accords trade (2020) | Iran and its proxies\n🇸🇦 Saudi Arabia: 2nd largest proven oil reserves | a budget that leans on oil | Vision 2030 diversification | cheap oil (2025 deficit: SAR 277 bn as Brent fell)\n🇪🇬 Egypt: the Suez Canal | heavy debt, IMF programme | record tourism (about 19M visitors in 2025) | Houthi attacks on Red Sea shipping cut canal income from $10.25 bn (2023) to $4.0 bn (2024)\n🇮🇷 Iran: 2nd largest gas reserves | sanctions and inflation near 60% | a young, educated population | a regime facing isolation, war and unrest\n🇷🇺 Russia: energy and the largest nuclear arsenal | an economy riding on commodities | Arctic sea routes | the cost of war and sanctions\n🇨🇳 China: about 30% of world manufacturing | a shrinking, ageing population | the lead in EVs and solar | trade wars and tariffs\n🇺🇸 United States: innovation and the dollar | $40 trillion of debt (passed in Aug 2026) | the lead in AI | political polarisation\n\nNo country is all green. What counts is what it does next.\n\nSo, which one would you invest in?\n\nSources: OECD MSTI (2025, 2023 data); OECD Economic Survey of Israel (2025); OPEC Annual Statistical Bulletin (2025); Saudi Ministry of Finance (2025 budget results); Suez Canal Authority (2025); IMF; Egypt Ministry of Tourism (2026); Energy Institute Statistical Review; Statistical Centre of Iran via Euronews (2026); Federation of American Scientists (2025); UNIDO (2024); China NBS; IEA; US Treasury via Reuters (2026); IMF COFER; Stanford AI Index (2025); Pew Research Center.\nPHOTOS_LINE AI voice.",
- "caption_he": "7 מדינות. מבחן עסקי אחד. 📊\nניתוח SWOT (חוזקות, חולשות, הזדמנויות, איומים) הוא מה שחברות עושות לפני החלטה גדולה. הנה הוא ל־7 מדינות, פריט אחד חד בכל משבצת:\n🇮🇱 ישראל: מו\"פ 6.3% מהתמ\"ג, הגבוה ב־OECD | יוקר מחיה | הסכמי אברהם | איראן ושלוחיה\n🇸🇦 סעודיה: עתודות הנפט השניות בגודלן | תקציב שתלוי בנפט | חזון 2030 | נפט זול\n🇪🇬 מצרים: תעלת סואץ | חוב כבד | שיא בתיירות | התקפות החות'ים בים האדום חתכו את הכנסות התעלה ביותר מ־60%\n🇮🇷 איראן: עתודות הגז השניות בגודלן | סנקציות ואינפלציה של כמעט 60% | אוכלוסייה צעירה ומשכילה | משטר מול בידוד, מלחמה ומחאות\n🇷🇺 רוסיה: אנרגיה והארסנל הגרעיני הגדול בעולם | כלכלה שנשענת על סחורות | נתיבי השיט בארקטי | מחיר המלחמה והסנקציות\n🇨🇳 סין: כ־30% מהייצור התעשייתי בעולם | אוכלוסייה שמצטמקת | הובלה ברכב חשמלי ובסולארי | מלחמות סחר\n🇺🇸 ארה\"ב: חדשנות והדולר | חוב של 40 טריליון דולר | הובלה ב־AI | קיטוב פוליטי\nאף מדינה לא ירוקה לגמרי. מה שקובע זה מה היא עושה עם זה.\nאז במי הייתם משקיעים?",
+ "caption_en": "Every country has a red box. Which one would you invest in?\n\nA SWOT analysis (Strengths, Weaknesses, Opportunities, Threats) is what companies run before a big decision. Here it is for 7 countries, one item per box:\n\n🇮🇱 Israel: R&D at 6.8% of GDP, highest in the OECD (OECD MSTI, 2024 data) | cost of living | Abraham Accords (2020) | Iran's proxies\n🇸🇦 Saudi Arabia: 2nd largest proven oil reserves (OPEC) | a budget that leans on oil | Vision 2030 | cheap oil\n🇪🇬 Egypt: the Suez Canal | heavy debt, IMF programme | record tourism | Houthi attacks cut canal income from $10.25B (2023) to $4.0B (2024) (Suez Canal Authority)\n🇮🇷 Iran: 2nd largest gas reserves (Energy Institute) | inflation above 50% (Statistical Centre of Iran, 2026) | a young, educated population | a regime facing unrest\n🇷🇺 Russia: energy and the largest nuclear arsenal (FAS, 2025) | a commodity economy | Arctic sea routes | the cost of war and sanctions\n🇨🇳 China: about 30% of world manufacturing (UNIDO) | a shrinking population (NBS) | the lead in EVs and solar (IEA) | trade wars\n🇺🇸 US: innovation and the dollar (IMF COFER) | $40 trillion of debt (US Treasury, Aug 2026) | the lead in AI (Stanford AI Index) | polarisation (Pew)\n\nNo country is all green. What counts is what it does next.\n\nPhotos (Wikimedia Commons): PikiWiki Israel (CC BY 2.5); B.alotaby (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); Salehi1990mohsen (CC BY-SA 4.0); Vyacheslav Argenberg (CC BY 4.0); King of Hearts (CC BY-SA 4.0); USCapitol (public domain). AI voice.",
+ "caption_he": "ניתוח SWOT ל־7 מדינות, פריט אחד בכל משבצת: חוזקה, חולשה, הזדמנות, איום.\nישראל: מו\"פ 6.8% מהתוצר, הגבוה ב־OECD | יוקר המחיה | הסכמי אברהם | שלוחי איראן.\nאף מדינה לא ירוקה לגמרי. מה שקובע זה מה היא עושה עם זה. במי הייתם משקיעים?",
  "hashtags": [
   "#Israel",
   "#geopolitics",
