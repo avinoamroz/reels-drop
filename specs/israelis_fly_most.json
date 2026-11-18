@@ -28,7 +28,8 @@
    "say": "South and east: Egypt and Jordan. Open, since the peace treaties of 1979 and 1994.",
    "screen": "Peace: Egypt *1979,* Jordan *1994*",
    "at": "L3:open",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L4"
   },
   {
    "say": "Still, almost everyone takes off from here.",
@@ -46,7 +47,8 @@
    "say": "Brits and Germans travel more. But six in ten German trips abroad go by car, bus or train.",
    "screen": "Germany: *6 in 10* trips abroad by land",
    "at": "L7:six",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L8"
   },
   {
    "say": "Count only flights, and Israelis fly abroad almost twice as often as Germans.",
@@ -60,7 +62,8 @@
    "say": "And since 2020, the Abraham Accords added direct flights to Dubai and Abu Dhabi.",
    "screen": "Since *2020:* direct flights to the UAE",
    "at": "L10:since",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L11"
   },
   {
    "say": "If the neighbours ever open up, we'll drive. Where would you go first?",
@@ -509,19 +512,22 @@
       "label": "UAE",
       "flag": "AE",
       "value": 2.0,
-      "txt": "2.0"
+      "txt": "2.0",
+      "color": "#45A4DD"
      },
      {
       "label": "UK",
       "flag": "GB",
       "value": 1.4,
-      "txt": "1.4"
+      "txt": "1.4",
+      "color": "#45A4DD"
      },
      {
       "label": "Germany",
       "flag": "DE",
       "value": 1.2,
-      "txt": "1.2"
+      "txt": "1.2",
+      "color": "#45A4DD"
      },
      {
       "label": "Israel",
@@ -534,37 +540,43 @@
       "label": "Saudi Arabia",
       "flag": "SA",
       "value": 0.9,
-      "txt": "0.9"
+      "txt": "0.9",
+      "color": "#45A4DD"
      },
      {
       "label": "France",
       "flag": "FR",
       "value": 0.73,
-      "txt": "0.7"
+      "txt": "0.7",
+      "color": "#45A4DD"
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 0.52,
-      "txt": "0.5"
+      "txt": "0.5",
+      "color": "#45A4DD"
      },
      {
       "label": "Jordan",
       "flag": "JO",
       "value": 0.14,
-      "txt": "0.14"
+      "txt": "0.14",
+      "color": "#45A4DD"
      },
      {
       "label": "Türkiye",
       "flag": "TR",
       "value": 0.12,
-      "txt": "0.12"
+      "txt": "0.12",
+      "color": "#45A4DD"
      },
      {
       "label": "Egypt",
       "flag": "EG",
       "value": 0.0,
-      "txt": "no data"
+      "txt": "no data",
+      "color": "#45A4DD"
      }
     ]
    },
@@ -587,37 +599,43 @@
       "label": "Netherlands",
       "flag": "NL",
       "value": 0.52,
-      "txt": "0.52"
+      "txt": "0.52",
+      "color": "#45A4DD"
      },
      {
       "label": "Germany",
       "flag": "DE",
       "value": 0.46,
-      "txt": "0.46"
+      "txt": "0.46",
+      "color": "#45A4DD"
      },
      {
       "label": "EU average",
       "flag": "EU",
       "value": 0.33,
-      "txt": "0.33"
+      "txt": "0.33",
+      "color": "#45A4DD"
      },
      {
       "label": "France",
       "flag": "FR",
       "value": 0.27,
-      "txt": "0.27"
+      "txt": "0.27",
+      "color": "#45A4DD"
      },
      {
       "label": "Spain",
       "flag": "ES",
       "value": 0.22,
-      "txt": "0.22"
+      "txt": "0.22",
+      "color": "#45A4DD"
      },
      {
       "label": "Italy",
       "flag": "IT",
       "value": 0.11,
-      "txt": "0.11"
+      "txt": "0.11",
+      "color": "#45A4DD"
      }
     ]
    }

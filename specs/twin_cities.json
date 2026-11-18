@@ -17,7 +17,7 @@
    "gap": 0.12
   },
   {
-   "say": "And a Jerusalem. One city runs the country. The other one has the fun.",
+   "say": "And a Jerusalem. One runs the country, one has the fun.",
    "screen": "One *runs* it. One has the *fun.*",
    "at": "L1:one",
    "gap": 0.12
@@ -48,7 +48,7 @@
    "gap": 0.12
   },
   {
-   "say": "Notice something? Washington, Canberra, Ankara: all picked to be capitals.",
+   "say": "Washington, Canberra, Ankara: all picked to be capitals.",
    "screen": "Picked to be capitals: *1790, 1908, 1923*",
    "at": "L7:washington",
    "gap": 0.12
@@ -63,10 +63,6 @@
    "say": "Egypt went the other way. In 2024 it moved its government out of Cairo, to a brand new city in the desert.",
    "screen": "Egypt: a *new* capital, since 2024",
    "at": "L9:in",
-   "gap": 0.12
-  },
-  {
-   "say": "So how far apart are the two cities?",
    "gap": 0.12
   },
   {
@@ -198,7 +194,7 @@
     "dur": 1.0
    },
    {
-    "at": "L13-0.3",
+    "at": "L12-0.3",
     "view": [
      35.0,
      31.95,
@@ -277,7 +273,7 @@
     "color": "blue"
    },
    {
-    "at": "L13",
+    "at": "L12",
     "until": "END",
     "lon": 35.2345,
     "lat": 31.7767,
@@ -285,7 +281,7 @@
     "color": "yellow"
    },
    {
-    "at": "L13",
+    "at": "L12",
     "until": "END",
     "lon": 34.7806,
     "lat": 32.0809,
@@ -471,7 +467,7 @@
     "label_dy": -40
    },
    {
-    "at": "L13",
+    "at": "L12",
     "until": "END",
     "path": [
      [
@@ -665,8 +661,8 @@
   ],
   "bars": [
    {
-    "at": "L10:far",
-    "until": "L12-0.1",
+    "at": "L10",
+    "until": "L11-0.1",
     "title": "Capital to *fun city*, km",
     "y": 560,
     "rows": [
@@ -815,15 +811,15 @@
   ],
   "overlays": [
    {
-    "at": "L12",
-    "until": "L13",
+    "at": "L11",
+    "until": "L12",
     "text": "Which city would *you* pick?",
     "y": 1250,
     "size": 60
    },
    {
-    "at": "L13",
-    "until": "L13e+0.1",
+    "at": "L12",
+    "until": "L12e+0.1",
     "text": "Like Israel facts?|Follow *@noamroz__*",
     "y": 1250,
     "size": 72,
@@ -838,7 +834,7 @@
      "L1"
     ],
     [
-     "L14",
+     "L13",
      "END"
     ]
    ]
@@ -873,7 +869,7 @@
   {
    "label": "Straight line, city centres (our calculation)",
    "at": "L10",
-   "until": "L12-0.1",
+   "until": "L11-0.1",
    "year": 2026
   }
  ],
