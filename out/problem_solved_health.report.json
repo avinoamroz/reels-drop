@@ -1,6 +1,200 @@
 {
-  "id": "problem_solved_health",
-  "status": "FAILED",
-  "run": "44395707583",
-  "log": "voice ok: cached voice (script unchanged) voice/problem_solved_health_vo.wav\n[20:54:10] voice: cached voice (script unchanged)\n[20:54:23] frame 0/1684\n"
+ "id": "problem_solved_health",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*40%* of Americans obese.|Problem *solved?*",
+ "duration": 56.13,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/problem_solved_health.mp4",
+  "cover": "covers/problem_solved_health_cover.jpg",
+  "preview": "previews/problem_solved_health_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/problem_solved_health_0.jpg",
+  "1": "out/frames/problem_solved_health_1.jpg",
+  "3": "out/frames/problem_solved_health_3.jpg",
+  "last": "out/frames/problem_solved_health_last.jpg"
+ },
+ "caption_en": "Every problem has a solution. Some solutions are the problem. 🩺\n\nThe American problem: 40.3% of adults are obese (CDC, NHANES Aug 2021 to Aug 2023) and health care cost $15,474 per person in 2024 (CMS).\n\nThe regimes that \"solved\" it (sarcasm aimed at governments, never at the people who pay the price):\n🇸🇾 Syria: 13.3 million people food insecure (WFP, Aug 2026). Of 553 attacks on medical facilities from 2011 to 2018, over 90% were by the Assad regime and its allies (Physicians for Human Rights, 2019).\n🇾🇪 Yemen: the Houthis seized Sana'a in 2014; 21 million people need humanitarian aid in 2026 (UN, via Reuters).\n🇱🇧 Lebanon: the World Bank called the collapse a \"Deliberate Depression\" (Lebanon Economic Monitor, Fall 2020); nearly 40% of doctors left since October 2019 (WHO, 2021).\n\nPlot twist: the Gulf went the other way. Adult diabetes, age adjusted, 20 to 79 (IDF Diabetes Atlas 2024): Kuwait 25.6%, Qatar 24.6%, Saudi Arabia 23.1%, USA 13.7%, Israel 10.1%.\n\nNo jokes: Israel has covered every resident since the National Health Insurance Law (passed 1994, in force 1995). Life expectancy 83.8 years (OECD, 2023 data) vs 78.4 in the US (CDC NCHS, 2023). Fair is fair: Israel has 1.76 general hospital beds per 1,000 people vs an OECD average of 3.18 (Taub Center, 2025).\n\nWhich health system would you pick? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Starzoner (CC BY-SA 4.0); Harrison Keely (CC BY 4.0); KevForkan (CC BY-SA 4.0); Matt May (CC BY 2.0); Mehrdad Sarhangi (CC BY 3.0); Dan Harrelson (CC BY 2.0). AI voice.",
+ "caption_he": "בעיה אמריקאית: 40% מהמבוגרים סובלים מהשמנה, ובריאות עולה 15,474 דולר לאדם בשנה.\nכמה משטרים \"פתרו\" את זה: בסוריה 13.3 מיליון בלי ביטחון תזונתי, ומשטר אסד ובעלי בריתו ביצעו מעל 90% מ־553 התקיפות על מתקנים רפואיים. בתימן, שהחות'ים כבשו את בירתה ב־2014, 21 מיליון זקוקים לסיוע. בלבנון כמעט 40% מהרופאים עזבו.\nהטוויסט: במפרץ זה הפוך. רבע מהמבוגרים בכווית, קטאר וסעודיה חולי סוכרת, לעומת 13.7% בארה\"ב.\nובלי בדיחות: בישראל ביטוח בריאות ממלכתי מ־1995, סוכרת 10.1%, ותוחלת חיים 83.8 מול 78.4 בארה\"ב. אבל: 1.76 מיטות אשפוז ל־1,000 איש, מול 3.18 בממוצע OECD.\nאיזו מערכת בריאות הייתם בוחרים?",
+ "hashtags": [
+  "#Israel",
+  "#healthcare",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "CDC NHANES 2021 to 2023",
+   "year": 2026,
+   "at": "L0",
+   "until": "L1"
+  },
+  {
+   "label": "CMS National Health Expenditure",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "WFP via Arab News",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Physicians for Human Rights",
+   "year": 2019,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "UN via Reuters",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "World Bank Lebanon Economic Monitor",
+   "year": 2020,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "WHO via Gulf News",
+   "year": 2021,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "IDF Diabetes Atlas, age adjusted, 20 to 79",
+   "year": 2024,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "National Health Insurance Law 1994; IDF Diabetes Atlas",
+   "year": 2024,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "OECD 2023 data; CDC NCHS 2023",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "label": "Taub Center, State of the Nation",
+   "year": 2025,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.953,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Forty percent of American adults are obese. Some regimes found a fix.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Problem two: health care. Over fifteen thousand dollars per person a year.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Luckily, the Middle East has problem solvers.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria. Too much food? After Assad's war, thirteen million Syrians are food insecure.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Hospitals? His regime and its allies made over ninety percent of the attacks on them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yemen. The Houthis took the capital in twenty fourteen. Now twenty one million need aid.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon. Its leaders let the economy sink.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Doctor bills? Nearly forty percent of doctors left.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "The Gulf went the other way: about one adult in four has diabetes.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "America? About one in seven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "No jokes now. Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Health insurance for every resident by law since nineteen ninety five. Diabetes: ten percent.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Israelis live five years longer than Americans.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Fair is fair: Israel has about half the hospital beds of the OECD average.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which health system would you pick?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Forty percent obese. Some regimes found a fix.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "40% of American adults are obese. Some regimes found a fix. Problem 2. Healthcare. Over $15,000 per person a year. Luckily, the Middle East has problem solvers. Syria. Too much food? After Assad's war, 13 million Syrians are food insecure. Hospitals? His regime and its allies made over 90% of the attacks on them. Yemen. The Houthis took the capital in 2014. Now 21 million need aid. Lebanon? Its leaders let the economy sink. Dr. Bills, nearly 40% of doctors left. The gulf went the other way. About one adult and four has diabetes. America, about one in seven. No jokes now. Israel, health insurance for every resident by law since 1995. Diabetes, 10%. Israelis lie five years longer than Americans. Fair is fair. Israel has about half the hospital beds of the OECD average. Which health system would you pick? If you love Israeli facts, follow Noam Roz for more. 40% obese. Some regimes found a fix.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 56.15,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 140.2
 }
