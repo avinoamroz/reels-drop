@@ -24,7 +24,8 @@
    "say": "Syria first. Assad fell in December 2024.",
    "screen": "Assad: *gone* since Dec 2024",
    "at": "L2:assad",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L3"
   },
   {
    "say": "Peace treaty? No. Syria and Israel never signed one.",
@@ -58,7 +59,8 @@
    "say": "Peace takes two. Israeli troops still hold positions in southern Syria, and Israeli law bans the trip too.",
    "screen": "Peace takes *two*",
    "at": "L10",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L11"
   },
   {
    "say": "Israelis would love to see old Damascus, and Babylon. Who gets there first?",
@@ -198,7 +200,7 @@
   "photos": [
    {
     "file": "templates/photos/visit_syria_iraq_checklist/map0.jpg",
-    "at": 0,
+    "at": -0.5,
     "until": "L1",
     "kb": [
      0.5,

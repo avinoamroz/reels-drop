@@ -27,7 +27,8 @@
   {
    "say": "Israel warns against Sinai. Israelis go anyway.",
    "screen": "Israel's Sinai warning: *top level.* They go anyway.",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L4"
   },
   {
    "say": "Now Lebanon. Peace treaty? No.",
@@ -61,7 +62,8 @@
    "say": "And peace takes two. Israel still holds positions in south Lebanon, and Israeli law bans the trip too.",
    "screen": "Peace takes *two*",
    "at": "L11",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L12"
   },
   {
    "say": "Israelis would love a weekend in Beirut. Which step should come first?",
@@ -204,7 +206,7 @@
   "photos": [
    {
     "file": "templates/photos/visit_lebanon_checklist/map0.jpg",
-    "at": 0,
+    "at": -0.5,
     "until": "L1",
     "kb": [
      0.5,
@@ -248,7 +250,7 @@
    {
     "file": "templates/photos/visit_lebanon_checklist/map0.jpg",
     "at": "L5",
-    "until": "L7",
+    "until": "L9",
     "kb": [
      0.5,
      0.4,
@@ -256,27 +258,6 @@
      0.5,
      0.4,
      1.15
-    ],
-    "dim": 0.0
-   },
-   {
-    "file": "templates/photos/iran_one_address/hezb_weapons.jpg",
-    "at": "L7:hezbollah",
-    "until": "L8",
-    "credit": "Hezbollah weapons cache: IDF, CC BY 2.0",
-    "dim": 0.1
-   },
-   {
-    "file": "templates/photos/visit_lebanon_checklist/map0.jpg",
-    "at": "L8",
-    "until": "L9",
-    "kb": [
-     0.55,
-     0.45,
-     1.1,
-     0.55,
-     0.5,
-     1.2
     ],
     "dim": 0.0
    },
@@ -380,6 +361,6 @@
   "big": "6 steps",
   "text": "Can Israelis|visit *Beirut?*"
  },
- "caption_en": "The last box is the one tourists notice first. 🛂\n\nWhat would it take for Israelis to holiday in Beirut? 6 steps, with Egypt as the control.\n\n🇪🇬 Egypt: 6/6. Peace treaty (1979), boycott ended (1980), one army, an agreed border, open channels, and Israelis enter Sinai at Taba. Israel's Sinai warning is at the top level; Israelis go anyway.\n\n🇱🇧 Lebanon: 1.5/6.\n❌ Peace treaty: none.\n❌ Boycott: the 1955 law bans dealings with Israelis. Lebanon's presidency: no formal plan to repeal it (Annahar, 2026).\n🟡 Direct talks: a first, in 2026 (Washington; military talks in October).\n🟡 One army: Aug 2025, the cabinet ordered all weapons under the state. Hezbollah refused.\n🟡 Border: sea border agreed Oct 2022, land border not.\n❌ Israeli tourists: barred. UK FCDO: even an Israeli stamp can get you refused.\n\nPeace takes two: Israel still holds positions in south Lebanon until Hezbollah disarms (Katz, Oct 2026), and Israeli law bans visits to Lebanon without a permit (1954 law).\n\nIsraelis would love a weekend in Beirut. Which step should come first?\n\nSources: Peace Treaty 1979; JTA 1980; Israel NSC; Annahar via Kataeb.org, 2026; Al-Monitor, Apr 2026; AP, 14 Apr 2026 (first direct talks in Washington); Ynet, Oct 2026; Lebanese cabinet, Aug 2025; maritime deal, Oct 2022; UK FCDO 2026.\nPhotos (Wikimedia Commons): jay8085 CC BY 2.0; Zenwort PD; Dominik Tefert PD; V. Argenberg CC BY 4.0; IDF CC BY 2.0. Map: ours.",
+ "caption_en": "The last box is the one tourists notice first. 🛂\n\nWhat would it take for Israelis to holiday in Beirut? 6 steps, with Egypt as the control.\n\n🇪🇬 Egypt: 6/6. Peace treaty (1979), boycott ended (1980), one army, an agreed border, open channels, and Israelis enter Sinai at Taba. Israel's Sinai warning is at the top level; Israelis go anyway.\n\n🇱🇧 Lebanon: 1.5/6.\n❌ Peace treaty: none.\n❌ Boycott: the 1955 law bans dealings with Israelis. Lebanon's presidency: no formal plan to repeal it (Annahar, 2026).\n🟡 Direct talks: a first, in 2026 (Washington; military talks in October).\n🟡 One army: Aug 2025, the cabinet ordered all weapons under the state. Hezbollah refused.\n🟡 Border: sea border agreed Oct 2022, land border not.\n❌ Israeli tourists: barred. UK FCDO: even an Israeli stamp can get you refused.\n\nPeace takes two: Israel still holds positions in south Lebanon until Hezbollah disarms (Katz, Oct 2026), and Israeli law bans visits to Lebanon without a permit (1954 law).\n\nIsraelis would love a weekend in Beirut. Which step should come first?\n\nSources: Peace Treaty 1979; JTA 1980; Israel NSC; Annahar via Kataeb.org, 2026; Al-Monitor, Apr 2026; AP, 14 Apr 2026 (first direct talks in Washington); Ynet, Oct 2026; Lebanese cabinet, Aug 2025; maritime deal, Oct 2022; UK FCDO 2026.\nPhotos (Wikimedia Commons): jay8085 CC BY 2.0; Zenwort PD; Dominik Tefert PD; V. Argenberg CC BY 4.0. Map: ours.",
  "caption_he": "מה צריך לקרות כדי שישראלים יטוסו לחופשה בביירות? 6 צעדים.\nמצרים: 6 מתוך 6. הסכם שלום (1979), סוף החרם (1980), צבא אחד, גבול מוסכם, ערוצי שיחה, וישראלים נכנסים לסיני.\nלבנון: 1.5 מתוך 6. אין הסכם שלום. חוק החרם מ-1955 עדיין בתוקף. שיחות ישירות, לראשונה ב-2026. הממשלה הורתה לפרק את הנשק, חיזבאללה סירב. גבול ימי הוסכם ב-2022, היבשתי עוד לא. ישראלים לא נכנסים.\nושלום צריך שניים: ישראל עדיין מחזיקה עמדות בדרום לבנון, והחוק הישראלי אוסר לנסוע לשם בלי היתר.\nאיזה צעד צריך לבוא קודם?"
 }
