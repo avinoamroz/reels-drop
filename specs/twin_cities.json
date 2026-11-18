@@ -23,9 +23,9 @@
    "gap": 0.12
   },
   {
-   "say": "Israel: Jerusalem, seat of the Knesset and the government. Tel Aviv: beaches and startups. Fifty-five kilometers apart.",
+   "say": "Israel: Jerusalem, seat of the Knesset and the government. Tel Aviv: beaches and startups.",
    "screen": "Jerusalem and Tel Aviv: *55 km*",
-   "at": "L2:fifty",
+   "at": "L2:tel",
    "gap": 0.12
   },
   {
@@ -70,8 +70,8 @@
    "gap": 0.12
   },
   {
-   "say": "Israelis say: Jerusalem prays, Haifa works, Tel Aviv plays.",
-   "screen": "Jerusalem *prays.* Haifa *works.* Tel Aviv *plays.*",
+   "say": "As Israelis say: Jerusalem prays, and Tel Aviv plays.",
+   "screen": "Jerusalem *prays.* Tel Aviv *plays.*",
    "gap": 0.12
   },
   {
@@ -754,7 +754,7 @@
    {
     "file": "templates/photos/twin_cities/tlv.jpg",
     "at": "L2:tel",
-    "until": "L2:fifty",
+    "until": "L3-0.2",
     "credit": "Tel Aviv: Markus Trienke, CC BY-SA 3.0",
     "kb": [
      0.5,
@@ -844,7 +844,7 @@
  "sources": [
   {
    "label": "Straight line, city centres (our calculation)",
-   "at": "L2:fifty",
+   "at": "L2:tel",
    "until": "L3-0.1",
    "year": 2026
   },
@@ -874,7 +874,7 @@
   }
  ],
  "caption_en": "Every country has one city that runs it, and one that never sleeps. 🏙️\n\n🇮🇱 Jerusalem and Tel Aviv: 55 km apart. Jerusalem is the seat of the Knesset and the government; Tel Aviv was founded in 1909, on the sand.\n🇹🇷 Ankara and Istanbul: 349 km\n🇲🇦 Rabat and Casablanca: 85 km\n🇸🇦 Riyadh and Jeddah: 845 km\n🇺🇸 Washington and New York: 328 km\n🇦🇺 Canberra and Sydney: 247 km\n🇨🇭 Bern and Zurich: 95 km\n🇪🇬 Egypt went the other way: since April 2024 its seat of government is a brand new city, The New Capital, about 50 km east of Cairo.\n\nWashington (chosen in 1790), Canberra (site chosen in 1908) and Ankara (capital since 1923) were picked to be capitals. Jerusalem was King David's capital about 3,000 years ago.\n\nDistances are straight lines between city centres (our calculation). Which city would you pick?\n\nSources: US Senate (Residence Act 1790); Parliament of Australia (Seat of Government Act 1908); Grand National Assembly of Türkiye (13 Oct 1923); Tel Aviv-Yafo Municipality (founded 1909); ACUD and Egyptian Streets, Nov 2025 (The New Capital, seat of government since 2 April 2024).\nPhotos: Western Wall Plaza, Gary Todd (CC0); Tel Aviv, Markus Trienke (CC BY-SA 3.0); Istanbul, SegLig (CC BY 4.0); Hassan II Mosque, Casablanca, OussamaHamama (CC BY-SA 4.0); New York, Oleg Yunakov (CC BY-SA 4.0); Sydney, Dietmar Rabich (CC BY-SA 4.0); The New Capital, Mohamed Ouda (CC BY-SA 4.0); all via Wikimedia Commons.",
- "caption_he": "לכל מדינה יש תל אביב. עיר אחת שמנהלת, ועיר אחת שלא נרדמת.\nירושלים ותל אביב: 55 ק\"מ. אנקרה ואיסטנבול: 349. רבאט וקזבלנקה: 85. ריאד וג'דה: 845. וושינגטון וניו יורק: 328. קנברה וסידני: 247. ברן וציריך: 95.\nמצרים הלכה הפוך: מאפריל 2024 הממשלה יושבת בעיר חדשה במדבר, כ-50 ק\"מ מקהיר.\nירושלים מתפללת, חיפה עובדת, תל אביב חוגגת. ואיזו עיר אתם הייתם בוחרים?",
+ "caption_he": "לכל מדינה יש תל אביב. עיר אחת שמנהלת, ועיר אחת שלא נרדמת.\nירושלים ותל אביב: 55 ק\"מ. אנקרה ואיסטנבול: 349. רבאט וקזבלנקה: 85. ריאד וג'דה: 845. וושינגטון וניו יורק: 328. קנברה וסידני: 247. ברן וציריך: 95.\nמצרים הלכה הפוך: מאפריל 2024 הממשלה יושבת בעיר חדשה במדבר, כ-50 ק\"מ מקהיר.\nירושלים מתפללת, תל אביב חוגגת. ואיזו עיר אתם הייתם בוחרים?",
  "hashtags": [
   "#Israel",
   "#TelAviv",
