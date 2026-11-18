@@ -21,6 +21,9 @@ data keys (times in seconds of the source):
   label      "flag_name" (flag + short name under the column) | "rotated" (name rotated 90 degrees, colour dot)
   vmax_fix   fixed scale maximum (else the smoothed leader)
   overlays   [{at, until, text, y, size, pill, cue}]  extra on-screen pills (map_counter style), e.g. the follow line overlay
+  style      "cars" (Noam 14 Nov, "car race?"): one road lane per series, ordered by rank (leader on top), a car with the
+             flag drives right as the value grows; cars: {x0, x1, y0, y1, vmin, vmax, finish} (vmin/vmax: values at the
+             lane start and at the finish line)
   loop_blend seconds at the end over which the columns blend into their frame 0 state (the source's own loop dissolve)
 """
 import os, sys, math, subprocess, json
@@ -88,8 +91,38 @@ def run(S):
 
     pos = {}; vmax_s = [None]
 
+    def draw_cars(cv, t, a, ST, order):
+        C = D["cars"]; n = max(1, len(order)); lh = (C["y1"] - C["y0"]) / n
+        for i, e in enumerate(order):
+            k = e[0]["id"]; p = pos.get(k)
+            pos[k] = float(i) if p is None else p + (i - p) * 0.2
+        vmin, vmax = float(C["vmin"]), float(C["vmax"]); lx0 = C["x0"] + 150; lx1 = C["x1"] - 40
+        cv.rrect(lx1 - 6, C["y0"] - 8, 22, C["y1"] - C["y0"] + 16, 4, "#FFFFFF", 0.85 * a)        # chequered finish line
+        for r_ in range(int((C["y1"] - C["y0"] + 16) // 11)):
+            cv.rrect(lx1 - 6 + (r_ % 2) * 11, C["y0"] - 8 + r_ * 11, 11, 11, 0, "#0B1730", 0.85 * a)
+        for s_, v, st, sa in sorted(ST, key=lambda e: -pos[e[0]["id"]]):
+            aa = a * sa; yc = C["y0"] + lh * (pos[s_["id"]] + 0.5); hl = s_.get("hl")
+            cv.rrect(C["x0"] + 140, yc - lh * 0.42, C["x1"] - C["x0"] - 140, lh * 0.84, 10, "#2A3550", 0.8 * aa,
+                     stroke=YEL if hl else None, lw=3, sa=aa)
+            c = cv.c; c.set_dash([18, 14]); cv.col("#C9D6EA", 0.35 * aa); c.set_line_width(2)
+            c.move_to(C["x0"] + 150, yc); c.line_to(lx1 - 10, yc); c.stroke(); c.set_dash([])
+            if s_.get("flag"): WG.flag(cv, s_["flag"], C["x0"] + 32, yc, min(50, lh * 0.8), aa)
+            cv.text(s_["label"], C["x0"] + 100, yc, 36, YEL if hl else WHITE, aa, maxw=110, minsz=36)
+            if v is None:
+                cv.text("no data", lx0 + 70, yc, 36, "#9AA6BD", aa, maxw=200, minsz=36); continue
+            u = min(1.0, max(0.0, (v - vmin) / max(1e-6, vmax - vmin))); xc = lx0 + (lx1 - lx0 - 60) * u
+            car = emoji("\U0001F3CE")[:, ::-1].copy()                              # racing car, facing right
+            cv.image(car, xc, yc, min(1.2, lh * 1.35 / 109), aa)
+            vt = fmt_val(v, fmt, st); tw_ = cv.tw(vt, 36)
+            tx = xc + 52 + tw_ / 2 if xc + 60 + tw_ < lx1 - 20 else xc - 52 - tw_ / 2
+            cv.text(vt, tx, yc, 36, YEL if hl else WHITE, aa, maxw=200, minsz=36)
+
     def draw(cv, t, a, smooth=True):
         ST = state(t)
+        if D.get("style") == "cars":
+            order = sorted(ST, key=lambda e: -(e[1] if e[1] is not None else -1e9))
+            if not smooth: pos.clear()
+            return draw_cars(cv, t, a, ST, order)
         if D.get("sort") == "asc": order = sorted(ST, key=lambda e: (e[1] is None, e[1] if e[1] is not None else 0))
         else: order = sorted(ST, key=lambda e: -(e[1] if e[1] is not None else -1e9))
         if D.get("top"):
