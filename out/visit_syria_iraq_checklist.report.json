@@ -6,7 +6,7 @@
  "duration": 58.9,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -1.8
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/visit_syria_iraq_checklist.mp4",
@@ -84,7 +84,7 @@
   }
  ],
  "transcript": {
-  "score": 0.976,
+  "score": 0.982,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -124,12 +124,12 @@
    },
    {
     "line": "Iraq. Peace treaty? No. And a 2022 law punishes contact with Israel, up to death.",
-    "score": 0.947,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "One army? About fifty thousand fighters in Iran-backed militias. No.",
-    "score": 0.909,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -149,8 +149,8 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
-    "flag": "ok"
+    "score": 0.7,
+    "flag": "MISS"
    },
    {
     "line": "Until then: Sinai. And four steps to Damascus.",
@@ -158,15 +158,15 @@
     "flag": "ok"
    }
   ],
-  "heard": "Four steps before Israelis can visit Damascus or Baghdad. Egypt passed all four. Peace treaty. Talks, one army and Israeli tourists. Syria first. Assad fell in December 2024. Peace treaty? No. Syria and Israel never signed one. Talks? Yes, direct security talks. Syria's president says they got 90% there. Half. One army? The Kurdish-led forces agreed to merge in January. Still in progress. Half. Israeli tourists? Banned. Syria. 1 out of 4. Iran. Peace treaty? No. And a 2022 law punishes contact with Israel up to death. One army. About 50,000 fighters in Iran back militias? No. Israeli tourists? Banned. Iraq. 0 out of 4. Peace takes 2. Israeli troops still hold positions in southern Syria and Israeli law bans the trip too. Israelis would love to see old Damascus and Babylon. Who gets there first? If you love Israeli facts, follow Noah Mraz for more. Until then, Sinai, and four steps to Damascus.",
+  "heard": "Four steps before Israelis can visit Damascus or Baghdad, Egypt passed all four. Peace treaty. Talks. One army and Israeli tourists. Syria first. Assad fell in December 2024. Peace treaty? No. Syria and Israel never signed one. Talks? Yes. Direct security talks. Syria's president says they got 90% there. Half. One army. The Kurdish-led forces agreed to merge in January. Still in progress. Half. Israeli tourists? Banned. Syria. One out of four. Iraq. Peace treaty? No. And a 2022 law punishes contact with Israel up to death. One army. About 50,000 fighters in Iran-backed militias? No. Israeli tourists? Banned. Iraq. Zero out of four. Peace takes two. Israeli troops still hold positions in southern Syria and Israeli law bans the trip too. Israelis would love to see old Damascus and Babylon. Who gets there first? If you love Israeli facts, It's following Omraz for more. Until then, Sinai, and four steps to Damascus.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.0,
-  "true_peak": -1.8
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 146.1
+ "render_s": 150.3
 }
