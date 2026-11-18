@@ -292,6 +292,24 @@
     "y": 1000,
     "angle": -7,
     "size": 150
+   },
+   {
+    "at": "L4:eighteen",
+    "until": "L4:nineteen-0.1",
+    "text": "1809",
+    "color": "yellow",
+    "y": 1050,
+    "angle": -4,
+    "size": 150
+   },
+   {
+    "at": "L4:nineteen",
+    "until": "L5-0.1",
+    "text": "1906",
+    "color": "yellow",
+    "y": 1050,
+    "angle": -4,
+    "size": 150
    }
   ],
   "big": [
@@ -301,22 +319,6 @@
     "value": 26,
     "suffix": "%",
     "sub": "of the land is below sea level",
-    "y": 1050
-   },
-   {
-    "at": "L4:eighteen",
-    "until": "L4:nineteen-0.1",
-    "value": 1809,
-    "from": 1700,
-    "sub": "the last Swiss ibex is shot",
-    "y": 1050
-   },
-   {
-    "at": "L4:nineteen",
-    "until": "L5-0.1",
-    "value": 1906,
-    "from": 1809,
-    "sub": "ibex smuggled back from Italy",
     "y": 1050
    },
    {
@@ -419,9 +421,9 @@
   }
  ],
  "end": {
-  "at": "L15",
+  "at": "L16",
   "balance": "Small, spiky, *happy.*",
-  "cta": "Send this to someone who loves animals"
+  "cta": "Follow *@noamroz__*"
  },
  "caption_en": "If countries were animals. Not by vibes. By data. 🐾\n\n🇳🇱 Netherlands = beaver: 26% of the country is below sea level, so it builds dams and dikes (PBL Netherlands Environmental Assessment Agency, 2010).\n🇨🇭 Switzerland = ibex: the last Swiss ibex was shot in 1809; in 1906 Switzerland smuggled ibex kids back from Italy. About 17,000 live there today (Swissinfo, 2017).\n🇯🇵 Japan = tortoise: 107,677 people aged 100 or more (Ministry of Health, Labour and Welfare, Sept 2026).\n🇦🇪 UAE = falcon: falcons get passports; more than 28,000 issued since 2002 (Environment Agency Abu Dhabi via Gulf News, 2018).\n🇮🇱 Israel = hedgehog: small (about 22,000 km², roughly 0.015% of the world's land, our math: Israel CBS 22,072 km² ÷ Earth's land 148.9 million km²), spiky (Iron Dome intercepted about 90% of the rockets it engaged over populated areas in 2014, IDF) and still cuddly: 8th happiest country on Earth (World Happiness Report 2026).\n\nSmall, spiky, happy.\n\nWhich animal is your country? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Giles Laurent (CC BY-SA 4.0); Bouke ten Cate (CC BY 4.0); Denkrahm (CC BY 4.0); Lisa James (CC BY 4.0); Denise Chan (CC BY-SA 2.0); Yuriy75 (CC BY-SA 3.0); Israel Defense Forces (CC BY 2.0); Dan Harrelson (CC BY 2.0). AI voice.",
  "caption_he": "אם מדינות היו חיות. לא לפי תחושה, לפי נתונים.\nהולנד בונה (26% מתחת לפני הים), שווייץ יעל (הוברחו בחזרה מאיטליה ב־1906), יפן צב (107,677 בני 100 ומעלה), איחוד האמירויות בז (לבזים יש דרכונים).\nוישראל? קיפוד. קטנה, דוקרנית, ושמינית בעולם באושר.\nאיזו חיה המדינה שלכם?",
