@@ -538,11 +538,12 @@ function sync(first){if(!HOOK||!S.user)return;try{post({a:"save",email:S.user.e,
 function setLogin(){$("loginBtn").textContent=S.user?S.user.n:T.login}
 const LW="https://goglobal.expressenglish.co.il/slang-game";
 function lwUser(){try{const u=window.EE_USER||(window.parent&&window.parent.me);if(u&&u.email)return{n:(u.firstName||u.username||"").split(" ")[0]||"Speaker",e:String(u.email).toLowerCase()}}catch(_){}return null}
-function goLW(){let h="";try{h="#s="+btoa(JSON.stringify({o:S.order,r:S.res}))}catch(_){}const u=LW+(LANG==="en"?"?lang=en":"")+h;try{window.top.location.href=u}catch(_){location.href=u}}
+function inLW(){try{return /goglobal\.expressenglish\.co\.il$/.test(window.parent.location.hostname)}catch(_){return false}}
+function goLW(){if(inLW()){const u="/slang-game?msg=not-logged-in"+(LANG==="en"?"&lang=en":"");try{window.top.location.href=u}catch(_){location.href=u}return}let h="";try{h="#s="+btoa(JSON.stringify({o:S.order,r:S.res}))}catch(_){}const u=LW+(LANG==="en"?"?lang=en":"")+h;try{window.top.location.href=u}catch(_){location.href=u}}
 $("saveGo").onclick=e=>{e.preventDefault();goLW()};
 $("loginBtn").onclick=()=>{if(!S.user)goLW()};
-async function lwLogin(){const u=lwUser();if(!u)return;
-  try{const hs=(window.parent.location.hash||"").match(/#s=(.+)/);if(hs){const v=JSON.parse(atob(decodeURIComponent(hs[1])));if(v.o&&v.o.length===TOTAL&&v.r.length>S.res.length){S.order=v.o;S.res=v.r}try{window.parent.history.replaceState(null,"",window.parent.location.pathname+window.parent.location.search)}catch(_){}}}catch(_){}
+function takeHash(){try{const hs=(window.parent.location.hash||"").match(/#s=(.+)/);if(hs){const v=JSON.parse(atob(decodeURIComponent(hs[1])));if(v.o&&v.o.length===TOTAL&&v.r.length>S.res.length){S.order=v.o;S.res=v.r}try{window.parent.history.replaceState(null,"",window.parent.location.pathname+window.parent.location.search)}catch(_){}save()}}catch(_){}}
+async function lwLogin(){takeHash();const u=lwUser();if(!u)return;
   let first=true;try{const r=await post({a:"load",email:u.e});const v=await r.json();if(v&&v.order&&v.order.length===TOTAL&&Array.isArray(v.res)){first=false;if(v.res.length>S.res.length){S.order=v.order;S.res=v.res}}}catch(_){}
   const was=!!(S.user&&S.user.e===u.e);S.user=u;save();sync(first);setLogin();if(!was)toast(T.saved.replace("{n}",u.n));
   if(!$("sGame").hidden&&$("reveal").hidden)renderQ();renderRoad(false);renderStart()}
