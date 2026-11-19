@@ -1,7 +1,7 @@
 [
 {
 "word": "Gaza",
-"start": 0,
+"start": 0.03095994,
 "end": 0.38699925
 },
 {
@@ -12,516 +12,621 @@
 {
 "word": "two",
 "start": 0.6656387,
-"end": 0.86687833
+"end": 0.9287982
 },
 {
 "word": "borders.",
-"start": 0.86687833,
-"end": 1.5015571
+"start": 0.9287982,
+"end": 1.5944369
 },
 {
 "word": "Only",
-"start": 1.7027967,
-"end": 1.9814361
+"start": 1.8885564,
+"end": 2.1981556
 },
 {
 "word": "one",
-"start": 1.9814361,
-"end": 2.2445955
+"start": 2.1981556,
+"end": 2.4613152
 },
 {
 "word": "ever",
-"start": 2.2445955,
-"end": 2.523235
+"start": 2.4613152,
+"end": 2.647075
 },
 {
 "word": "gets",
-"start": 2.523235,
-"end": 2.7244747
+"start": 2.647075,
+"end": 2.8483145
 },
 {
 "word": "the",
-"start": 2.7244747,
-"end": 2.8173544
+"start": 2.8483145,
+"end": 2.9411943
 },
 {
 "word": "questions.",
-"start": 2.8173544,
-"end": 3.4829931
-},
-{
-"word": "This",
-"start": 3.9319124,
-"end": 4.1950717
-},
-{
-"word": "is",
-"start": 4.1950717,
-"end": 4.3189116
-},
-{
-"word": "the",
-"start": 4.3189116,
-"end": 4.4117913
-},
-{
-"word": "other",
-"start": 4.4117913,
-"end": 4.582071
-},
-{
-"word": "one.",
-"start": 4.582071,
-"end": 4.7987905
-},
-{
-"word": "Rafah.",
-"start": 5.3405895,
-"end": 5.8204684
-},
-{
-"word": "Egypt's",
-"start": 6.207468,
-"end": 6.594467
-},
-{
-"word": "gate.",
-"start": 6.594467,
-"end": 6.9195466
-},
-{
-"word": "After",
-"start": 7.461345,
-"end": 7.7709446
-},
-{
-"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
-"start": 7.7709446,
-"end": 8.0960245
-},
-{
-"word": "took",
-"start": 8.0960245,
-"end": 8.250824
-},
-{
-"word": "Gaza",
-"start": 8.250824,
-"end": 8.575903
-},
-{
-"word": "in",
-"start": 8.575903,
-"end": 8.637823
-},
-{
-"word": "two",
-"start": 8.637823,
-"end": 8.7616625
-},
-{
-"word": "thousand",
-"start": 8.7616625,
-"end": 9.086742
-},
-{
-"word": "seven,",
-"start": 9.086742,
-"end": 9.597581
-},
-{
-"word": "Egypt",
-"start": 9.752381,
-"end": 10.10842
-},
-{
-"word": "kept",
-"start": 10.10842,
-"end": 10.34062
-},
-{
-"word": "it",
-"start": 10.34062,
-"end": 10.464459
-},
-{
-"word": "shut",
-"start": 10.464459,
-"end": 10.712139
-},
-{
-"word": "for",
-"start": 10.712139,
-"end": 10.851459
-},
-{
-"word": "long",
-"start": 10.851459,
-"end": 11.068178
-},
-{
-"word": "stretches.",
-"start": 11.068178,
-"end": 11.702857
+"start": 2.9411943,
+"end": 3.6842327
 },
 {
 "word": "One",
-"start": 11.966017,
-"end": 12.2136965
-},
-{
-"word": "U.N.",
-"start": 12.2136965,
-"end": 12.476855
-},
-{
-"word": "count:",
-"start": 12.476855,
-"end": 12.863854
-},
-{
-"word": "open",
-"start": 13.204414,
-"end": 13.436614
-},
-{
-"word": "thirty",
-"start": 13.436614,
-"end": 13.684294
-},
-{
-"word": "four",
-"start": 13.684294,
-"end": 13.854573
-},
-{
-"word": "days",
-"start": 13.854573,
-"end": 14.195132
-},
-{
-"word": "in",
-"start": 14.210612,
-"end": 14.365412
-},
-{
-"word": "eleven",
-"start": 14.365412,
-"end": 14.659532
-},
-{
-"word": "months.",
-"start": 14.659532,
-"end": 15.092971
-},
-{
-"word": "In",
-"start": 15.68121,
-"end": 15.805049
-},
-{
-"word": "twenty",
-"start": 15.805049,
-"end": 16.052729
-},
-{
-"word": "fifteen,",
-"start": 16.052729,
-"end": 16.563568
-},
-{
-"word": "Egypt",
-"start": 16.594528,
-"end": 17.012487
-},
-{
-"word": "flooded",
-"start": 17.012487,
-"end": 17.306606
-},
-{
-"word": "the",
-"start": 17.306606,
-"end": 17.399487
-},
-{
-"word": "smuggling",
-"start": 17.399487,
-"end": 17.817446
-},
-{
-"word": "tunnels",
-"start": 17.817446,
-"end": 18.111565
+"start": 3.8390324,
+"end": 4.1795917
 },
 {
 "word": "with",
-"start": 18.111565,
-"end": 18.235405
+"start": 4.1795917,
+"end": 4.3189116
 },
 {
-"word": "seawater.",
-"start": 18.235405,
-"end": 18.808163
+"word": "Israel,",
+"start": 4.3189116,
+"end": 4.89167
 },
 {
-"word": "In",
-"start": 19.58216,
-"end": 19.736961
+"word": "fifty",
+"start": 5.2477098,
+"end": 5.634709
 },
 {
-"word": "twenty",
-"start": 19.736961,
-"end": 20.0156
+"word": "nine",
+"start": 5.634709,
+"end": 5.8514285
 },
 {
-"word": "twenty",
-"start": 20.0156,
-"end": 20.27876
+"word": "kilometres.",
+"start": 5.8514285,
+"end": 6.6254272
 },
 {
-"word": "three,",
-"start": 20.27876,
-"end": 20.820559
+"word": "One",
+"start": 7.0433865,
+"end": 7.352986
 },
 {
-"word": "Egypt's",
-"start": 20.944399,
-"end": 21.331398
+"word": "with",
+"start": 7.352986,
+"end": 7.5077853
 },
 {
-"word": "president",
-"start": 21.331398,
-"end": 21.749357
+"word": "Egypt,",
+"start": 7.5387454,
+"end": 8.034104
 },
 {
-"word": "rejected",
-"start": 21.749357,
-"end": 22.198277
+"word": "thirteen.",
+"start": 8.281784,
+"end": 9.024822
 },
 {
-"word": "moving",
-"start": 22.198277,
-"end": 22.461435
+"word": "This",
+"start": 9.4582615,
+"end": 9.721421
 },
 {
-"word": "Gazans",
-"start": 22.461435,
-"end": 22.894875
-},
-{
-"word": "into",
-"start": 22.894875,
-"end": 23.127075
-},
-{
-"word": "Sinai.",
-"start": 23.127075,
-"end": 23.637915
-},
-{
-"word": "Since",
-"start": 24.226152,
-"end": 24.535751
-},
-{
-"word": "May",
-"start": 24.535751,
-"end": 24.721512
-},
-{
-"word": "twenty",
-"start": 24.721512,
-"end": 24.98467
-},
-{
-"word": "twenty",
-"start": 24.98467,
-"end": 25.247831
-},
-{
-"word": "four,",
-"start": 25.247831,
-"end": 25.727709
-},
-{
-"word": "Israel",
-"start": 25.789629,
-"end": 26.145668
-},
-{
-"word": "holds",
-"start": 26.145668,
-"end": 26.393349
+"word": "is",
+"start": 9.721421,
+"end": 9.845261
 },
 {
 "word": "the",
-"start": 26.393349,
-"end": 26.486229
+"start": 9.845261,
+"end": 9.969101
+},
+{
+"word": "other",
+"start": 9.969101,
+"end": 10.13938
+},
+{
+"word": "one.",
+"start": 10.13938,
+"end": 10.418019
+},
+{
+"word": "Rafah.",
+"start": 11.222978,
+"end": 11.733817
+},
+{
+"word": "Egypt's",
+"start": 12.337536,
+"end": 12.724535
+},
+{
+"word": "gate.",
+"start": 12.724535,
+"end": 13.111534
+},
+{
+"word": "After",
+"start": 13.622374,
+"end": 13.916492
+},
+{
+"word": "<<h|\u00c9\u0091|\u00cb\u0088|m|\u00c9\u0091|s>>",
+"start": 13.916492,
+"end": 14.257052
+},
+{
+"word": "took",
+"start": 14.257052,
+"end": 14.396372
 },
 {
 "word": "Gaza",
-"start": 26.486229,
-"end": 26.780348
+"start": 14.396372,
+"end": 14.705972
 },
 {
-"word": "side.",
-"start": 26.780348,
-"end": 27.167347
-},
-{
-"word": "It",
-"start": 27.832985,
-"end": 27.987785
-},
-{
-"word": "reopened",
-"start": 27.987785,
-"end": 28.405745
-},
-{
-"word": "this",
-"start": 28.405745,
-"end": 28.545065
-},
-{
-"word": "February,",
-"start": 28.545065,
-"end": 29.148783
-},
-{
-"word": "for",
-"start": 29.148783,
-"end": 29.334543
-},
-{
-"word": "limited",
-"start": 29.334543,
-"end": 29.659622
-},
-{
-"word": "foot",
-"start": 29.659622,
-"end": 29.84538
-},
-{
-"word": "traffic.",
-"start": 29.84538,
-"end": 30.38718
-},
-{
-"word": "Israel",
-"start": 30.71226,
-"end": 31.0683
-},
-{
-"word": "restricts",
-"start": 31.0683,
-"end": 31.43982
-},
-{
-"word": "Gaza",
-"start": 31.43982,
-"end": 31.733938
-},
-{
-"word": "too,",
-"start": 31.733938,
-"end": 31.966137
-},
-{
-"word": "and",
-"start": 31.966137,
-"end": 32.120937
-},
-{
-"word": "that",
-"start": 32.120937,
-"end": 32.244778
-},
-{
-"word": "deserves",
-"start": 32.244778,
-"end": 32.538895
-},
-{
-"word": "hard",
-"start": 32.538895,
-"end": 32.724655
-},
-{
-"word": "questions.",
-"start": 32.724655,
-"end": 33.374813
-},
-{
-"word": "But",
-"start": 33.978535,
-"end": 34.16429
-},
-{
-"word": "when",
-"start": 34.16429,
-"end": 34.35005
-},
-{
-"word": "did",
-"start": 34.35005,
-"end": 34.489372
-},
-{
-"word": "you",
-"start": 34.489372,
-"end": 34.613213
-},
-{
-"word": "last",
-"start": 34.613213,
-"end": 34.907333
-},
-{
-"word": "hear",
-"start": 34.907333,
-"end": 35.30981
-},
-{
-"word": "anyone",
-"start": 35.35625,
-"end": 35.789692
-},
-{
-"word": "ask",
-"start": 35.789692,
-"end": 36.02189
-},
-{
-"word": "Egypt?",
-"start": 36.02189,
-"end": 36.47081
-},
-{
-"word": "Because",
-"start": 37.105488,
-"end": 37.39961
-},
-{
-"word": "Gaza",
-"start": 37.39961,
-"end": 37.678246
-},
-{
-"word": "has",
-"start": 37.678246,
-"end": 37.910446
+"word": "in",
+"start": 14.705972,
+"end": 14.767891
 },
 {
 "word": "two",
-"start": 37.910446,
-"end": 38.127167
+"start": 14.767891,
+"end": 14.907211
+},
+{
+"word": "thousand",
+"start": 14.907211,
+"end": 15.21681
+},
+{
+"word": "seven,",
+"start": 15.21681,
+"end": 15.69669
+},
+{
+"word": "Egypt",
+"start": 15.789569,
+"end": 16.145609
+},
+{
+"word": "kept",
+"start": 16.145609,
+"end": 16.346848
+},
+{
+"word": "it",
+"start": 16.346848,
+"end": 16.439728
+},
+{
+"word": "shut",
+"start": 16.439728,
+"end": 16.656448
+},
+{
+"word": "for",
+"start": 16.656448,
+"end": 16.795767
+},
+{
+"word": "long",
+"start": 16.795767,
+"end": 16.981527
+},
+{
+"word": "stretches.",
+"start": 16.981527,
+"end": 17.585245
+},
+{
+"word": "One",
+"start": 18.003204,
+"end": 18.297325
+},
+{
+"word": "U.N.",
+"start": 18.297325,
+"end": 18.575964
+},
+{
+"word": "count:",
+"start": 18.575964,
+"end": 18.839123
+},
+{
+"word": "open",
+"start": 19.319002,
+"end": 19.628601
+},
+{
+"word": "thirty",
+"start": 19.628601,
+"end": 19.922722
+},
+{
+"word": "four",
+"start": 19.922722,
+"end": 20.12396
+},
+{
+"word": "days",
+"start": 20.12396,
+"end": 20.371641
+},
+{
+"word": "in",
+"start": 20.371641,
+"end": 20.46452
+},
+{
+"word": "eleven",
+"start": 20.46452,
+"end": 20.72768
+},
+{
+"word": "months.",
+"start": 20.72768,
+"end": 21.1766
+},
+{
+"word": "In",
+"start": 21.935118,
+"end": 22.074436
+},
+{
+"word": "twenty",
+"start": 22.074436,
+"end": 22.322117
+},
+{
+"word": "fifteen,",
+"start": 22.322117,
+"end": 22.832956
+},
+{
+"word": "Egypt",
+"start": 22.863914,
+"end": 23.343794
+},
+{
+"word": "flooded",
+"start": 23.343794,
+"end": 23.699833
+},
+{
+"word": "the",
+"start": 23.699833,
+"end": 23.792713
+},
+{
+"word": "smuggling",
+"start": 23.792713,
+"end": 24.241632
+},
+{
+"word": "tunnels",
+"start": 24.241632,
+"end": 24.535751
+},
+{
+"word": "with",
+"start": 24.535751,
+"end": 24.690552
+},
+{
+"word": "seawater.",
+"start": 24.690552,
+"end": 25.232351
+},
+{
+"word": "Egypt",
+"start": 26.176628,
+"end": 26.501709
+},
+{
+"word": "also",
+"start": 26.501709,
+"end": 26.811308
+},
+{
+"word": "razed",
+"start": 26.811308,
+"end": 27.105427
+},
+{
+"word": "over",
+"start": 27.105427,
+"end": 27.291187
+},
+{
+"word": "three",
+"start": 27.291187,
+"end": 27.523386
+},
+{
+"word": "thousand",
+"start": 27.523386,
+"end": 27.863945
+},
+{
+"word": "buildings",
+"start": 27.863945,
+"end": 28.219984
+},
+{
+"word": "for",
+"start": 28.219984,
+"end": 28.343824
+},
+{
+"word": "a",
+"start": 28.343824,
+"end": 28.405745
+},
+{
+"word": "buffer",
+"start": 28.405745,
+"end": 28.699863
+},
+{
+"word": "zone.",
+"start": 28.699863,
+"end": 29.024942
+},
+{
+"word": "In",
+"start": 29.659622,
+"end": 29.814423
+},
+{
+"word": "twenty",
+"start": 29.814423,
+"end": 30.077581
+},
+{
+"word": "twenty",
+"start": 30.077581,
+"end": 30.35622
+},
+{
+"word": "three,",
+"start": 30.35622,
+"end": 30.85158
+},
+{
+"word": "Egypt's",
+"start": 31.130219,
+"end": 31.486258
+},
+{
+"word": "president",
+"start": 31.486258,
+"end": 31.873259
+},
+{
+"word": "rejected",
+"start": 31.873259,
+"end": 32.275738
+},
+{
+"word": "moving",
+"start": 32.275738,
+"end": 32.538895
+},
+{
+"word": "Gazans",
+"start": 32.538895,
+"end": 32.956856
+},
+{
+"word": "into",
+"start": 32.956856,
+"end": 33.173576
+},
+{
+"word": "Sinai.",
+"start": 33.173576,
+"end": 33.684414
+},
+{
+"word": "Since",
+"start": 34.396492,
+"end": 34.706093
+},
+{
+"word": "May",
+"start": 34.706093,
+"end": 34.876373
+},
+{
+"word": "twenty",
+"start": 34.876373,
+"end": 35.12405
+},
+{
+"word": "twenty",
+"start": 35.12405,
+"end": 35.35625
+},
+{
+"word": "four,",
+"start": 35.35625,
+"end": 35.86709
+},
+{
+"word": "Israel",
+"start": 36.11477,
+"end": 36.43985
+},
+{
+"word": "holds",
+"start": 36.43985,
+"end": 36.672047
+},
+{
+"word": "the",
+"start": 36.672047,
+"end": 36.764927
+},
+{
+"word": "Gaza",
+"start": 36.764927,
+"end": 37.043568
+},
+{
+"word": "side.",
+"start": 37.043568,
+"end": 37.39961
+},
+{
+"word": "It",
+"start": 37.817566,
+"end": 37.972366
+},
+{
+"word": "reopened",
+"start": 37.972366,
+"end": 38.328403
+},
+{
+"word": "this",
+"start": 38.328403,
+"end": 38.483204
+},
+{
+"word": "February,",
+"start": 38.483204,
+"end": 39.13336
+},
+{
+"word": "for",
+"start": 39.226242,
+"end": 39.442963
+},
+{
+"word": "limited",
+"start": 39.442963,
+"end": 39.768044
+},
+{
+"word": "foot",
+"start": 39.768044,
+"end": 39.9538
+},
+{
+"word": "traffic.",
+"start": 39.9538,
+"end": 40.46464
+},
+{
+"word": "Israel",
+"start": 41.14576,
+"end": 41.48632
+},
+{
+"word": "restricts",
+"start": 41.48632,
+"end": 41.842358
+},
+{
+"word": "Gaza",
+"start": 41.842358,
+"end": 42.13648
+},
+{
+"word": "too,",
+"start": 42.13648,
+"end": 42.523476
+},
+{
+"word": "and",
+"start": 42.740196,
+"end": 42.925957
+},
+{
+"word": "that",
+"start": 42.925957,
+"end": 43.096237
+},
+{
+"word": "deserves",
+"start": 43.096237,
+"end": 43.405834
+},
+{
+"word": "hard",
+"start": 43.405834,
+"end": 43.576115
+},
+{
+"word": "questions.",
+"start": 43.576115,
+"end": 44.241753
+},
+{
+"word": "But",
+"start": 44.92287,
+"end": 45.07767
+},
+{
+"word": "when",
+"start": 45.07767,
+"end": 45.26343
+},
+{
+"word": "did",
+"start": 45.26343,
+"end": 45.37179
+},
+{
+"word": "you",
+"start": 45.37179,
+"end": 45.464672
+},
+{
+"word": "last",
+"start": 45.464672,
+"end": 45.74331
+},
+{
+"word": "hear",
+"start": 45.74331,
+"end": 45.91359
+},
+{
+"word": "anyone",
+"start": 45.91359,
+"end": 46.25415
+},
+{
+"word": "ask",
+"start": 46.25415,
+"end": 46.45539
+},
+{
+"word": "Egypt?",
+"start": 46.45539,
+"end": 46.84239
+},
+{
+"word": "Because",
+"start": 47.538986,
+"end": 47.802147
+},
+{
+"word": "Gaza",
+"start": 47.802147,
+"end": 48.111748
+},
+{
+"word": "has",
+"start": 48.111748,
+"end": 48.282024
+},
+{
+"word": "two",
+"start": 48.282024,
+"end": 48.436825
 },
 {
 "word": "borders.",
-"start": 38.127167,
-"end": 38.746365
+"start": 48.436825,
+"end": 48.978622
 }
 ]

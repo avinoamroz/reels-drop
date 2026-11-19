@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "*2* borders.|Only *1* gets asked.",
- "duration": 37.0,
+ "duration": 45.13,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/border_question_1_v2_r2.mp4",
@@ -19,8 +19,8 @@
   "3": "out/frames/border_question_1_v2_r2_3.jpg",
   "last": "out/frames/border_question_1_v2_r2_last.jpg"
  },
- "caption_en": "The other border never makes the news. 🎙️\n\nGaza has two borders. Only one ever gets the questions.\n🔒 After HAMAS took over Gaza in 2007, Egypt kept the Rafah crossing shut for long stretches (UN OCHA: open 34 days between Oct 2014 and Sep 2015).\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Al Jazeera, Sep 2015).\n🏜️ 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah. The crossing reopened on 2 February 2026 for limited foot traffic (Israeli and Egyptian security approval) and has been shut again several times since.\n\nIsrael restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt?",
- "caption_he": "לעזה יש שני גבולות. רק אחד מקבל את השאלות.\n🔒 אחרי שחמאס השתלט על עזה ב 2007, מצרים החזיקה את מעבר רפיח סגור לתקופות ארוכות (OCHA: נפתח 34 ימים בין אוקטובר 2014 לספטמבר 2015).\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\n🏜️ 2023: נשיא מצרים דחה העברת עזתים לסיני.\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח. ב 2 בפברואר 2026 המעבר נפתח מחדש למעבר מוגבל של הולכי רגל, ומאז נסגר שוב כמה פעמים.\nגם ישראל מגבילה את עזה, וזה ראוי לשאלות קשות. אבל מתי בפעם האחרונה שמעתם מישהו שואל את מצרים?\n\nSources: UN OCHA (2015); Al Jazeera (2015); Reuters (2023); AP (2024, 2026).\nPhotos: A. Amra (CC BY-SA 3.0 IGO); J. J. Badwan (CC BY-SA 4.0); IDF (CC BY 2.0, CC BY-SA 2.0), Wikimedia Commons. AI voice.",
+ "caption_en": "The other border never makes the news. 🎙️\n\nGaza has two borders: Israel about 59 km, Egypt about 13 km (CIA World Factbook). Only one ever gets the questions.\n🔒 After HAMAS took over Gaza in 2007, Egypt kept the Rafah crossing shut for long stretches (UN OCHA: open 34 days between Oct 2014 and Sep 2015).\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Al Jazeera, Sep 2015).\n🏚️ 2013 to 2015: Egypt razed 3,255 buildings in Rafah for a buffer zone (Human Rights Watch, 2015).\n🏜️ 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah. The crossing reopened on 2 February 2026 for limited foot traffic (Israeli and Egyptian security approval) and has been shut again several times since.\n\nIsrael restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt?",
+ "caption_he": "לעזה יש שני גבולות. רק אחד מקבל את השאלות.\n🔒 אחרי שחמאס השתלט על עזה ב 2007, מצרים החזיקה את מעבר רפיח סגור לתקופות ארוכות (OCHA: נפתח 34 ימים בין אוקטובר 2014 לספטמבר 2015).\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\n🏚️ 2013 עד 2015: מצרים הרסה 3,255 מבנים ברפיח לטובת אזור חיץ (HRW).\n🏜️ 2023: נשיא מצרים דחה העברת עזתים לסיני.\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח. ב 2 בפברואר 2026 המעבר נפתח מחדש למעבר מוגבל של הולכי רגל, ומאז נסגר שוב כמה פעמים.\nגם ישראל מגבילה את עזה, וזה ראוי לשאלות קשות. אבל מתי בפעם האחרונה שמעתם מישהו שואל את מצרים?\n\nSources: CIA World Factbook; UN OCHA (2015); Human Rights Watch (2015); Al Jazeera (2015); Reuters (2023); AP (2024, 2026).\nPhotos: A. Amra (CC BY-SA 3.0 IGO); J. J. Badwan (CC BY-SA 4.0); IDF (CC BY 2.0, CC BY-SA 2.0), Wikimedia Commons. AI voice.",
  "hashtags": [
   "#Israel",
   "#Gaza",
@@ -28,37 +28,54 @@
  ],
  "sources": [
   {
+   "label": "CIA World Factbook, Gaza Strip",
+   "year": 2024,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
    "label": "UN OCHA, Gaza crossings",
    "year": 2015,
-   "at": "L2",
-   "until": "L4"
+   "at": "L3",
+   "until": "L5"
   },
   {
    "label": "Al Jazeera",
    "year": 2015,
-   "at": "L4",
-   "until": "L5"
-  },
-  {
-   "label": "Reuters, 18 Oct",
-   "year": 2023,
    "at": "L5",
    "until": "L6"
   },
   {
+   "label": "Reuters, 18 Oct",
+   "year": 2023,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
    "label": "AP",
    "year": "2024, 2026",
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Human Rights Watch",
+   "year": 2015,
    "at": "L6",
    "until": "L7"
   }
  ],
  "transcript": {
-  "score": 0.932,
+  "score": 0.935,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Gaza has two borders. Only one ever gets the questions.",
     "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One with Israel, fifty nine kilometres. One with Egypt, thirteen.",
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -73,12 +90,17 @@
    },
    {
     "line": "One U.N. count: open thirty four days in eleven months.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
     "line": "In twenty fifteen, Egypt flooded the smuggling tunnels with seawater.",
     "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt also razed over three thousand buildings for a buffer zone.",
+    "score": 0.909,
     "flag": "ok"
    },
    {
@@ -103,7 +125,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -112,14 +134,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Gaza has two borders. Only one ever gets the questions. This is the other one. Rafah. Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days in 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noah Mraz for more. Because Gaza has two borders.",
+  "heard": "Gaza has two borders. Only one ever gets the questions. One with Israel, 59 kilometers. One with Egypt, 13. This is the other one. Rafah. Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days and 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. Egypt also raised over 3,000 buildings for a buffer zone. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Roz for more. Because Gaza has two borders.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "photos": [
   {
@@ -133,6 +155,10 @@
   {
    "file": "templates/photos/gaza_who_blocks/gwb_tunnel.jpg",
    "credit": "Egypt border tunnel, 2006: IDF, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/evil_blockade/raf2.jpg",
+   "credit": "Rafah: J. J. Badwan, CC BY-SA 4.0, Commons"
   },
   {
    "file": "templates/photos/evil_blockade/tun1.jpg",
@@ -152,5 +178,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 102.0
+ "render_s": 96.3
 }
