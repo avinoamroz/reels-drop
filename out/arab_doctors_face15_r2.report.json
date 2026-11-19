@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "*49%* of pharmacists.|Guess who?",
- "duration": 42.97,
+ "duration": 38.77,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.2
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/arab_doctors_face15_r2.mp4",
@@ -35,7 +35,7 @@
   }
  ],
  "transcript": {
-  "score": 0.966,
+  "score": 0.872,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -45,12 +45,12 @@
    },
    {
     "line": "Arab citizens. They are twenty one percent of Israel.",
-    "score": 1.0,
+    "score": 0.889,
     "flag": "ok"
    },
    {
-    "line": "But behind the pharmacy counter: forty nine percent.",
-    "score": 1.0,
+    "line": "Behind the pharmacy counter, in twenty ten: twenty eight percent. By twenty twenty three: forty nine.",
+    "score": 0.875,
     "flag": "ok"
    },
    {
@@ -65,7 +65,7 @@
    },
    {
     "line": "By twenty twenty three: twenty five. More than triple.",
-    "score": 0.889,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -80,18 +80,18 @@
    },
    {
     "line": "The same study says real gaps remain. Equality isn't finished.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
     "line": "So next time you pick up medicine in Israel, look at the name tag.",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
-    "flag": "ok"
+    "score": 0.1,
+    "flag": "MISS"
    },
    {
     "line": "Because almost half of Israel's pharmacists come from one minority.",
@@ -99,49 +99,49 @@
     "flag": "ok"
    }
   ],
-  "heard": "Almost half of Israel's pharmacists come from one minority. Guess which? Arab citizens. They are 21% of Israel. But behind the pharmacy counter, 49%, nurses, 27%, dentists, 27. And doctors? In 2010? 8%. By 2023? 25. More than triple. Of all new doctors licensed since 2010? 38%. Some call Israel apartheid. This is a test almost nobody runs. The same study says real gaps remain. Equality isn't finished. So next time you pick up medicine in Israel, look at the name tag. If you love Israeli facts, follow Noam Ross for more. Because almost half of Israel's pharmacists come from one minority.",
+  "heard": "Almost half of Israel's pharmacists come from one minority. Guess which? Arab citizens. There are 21% of Israel. Behind the pharmacy counter in 2010, 28%. By 2023, 49. Nurses, 27%. Dentists, 27. And doctors? In 2010, 8%. By 2023, 25. More than triple. Of all new doctors licensed since 2010, 38%. Some call Israel apartheid. This is a test almost nobody runs. The same study says real gaps remain. isn't finished. So next time you pick up Medicine Israel, look at the name tag, because almost half of Israel's pharmacists come from one minority.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.2
+  "true_peak": -2.0
  },
  "photos": [
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_superpharm.jpg",
-   "credit": "Pharmacy aisle: Rakoon, CC0, Commons"
+   "credit": "Rakoon, CC0, Commons"
   },
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
-   "credit": "Alkamal Pharmacy: Israel Preker, PikiWiki, CC BY 2.5"
+   "credit": "Israel Preker, PikiWiki, CC BY 2.5"
   },
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
-   "credit": "Hadassah Ein Kerem: Davidi Vardi, PikiWiki, CC BY 2.5"
+   "credit": "Davidi Vardi, PikiWiki, CC BY 2.5"
   },
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_soroka.jpg",
-   "credit": "Soroka and BGU: Omer Berner, CC BY-SA 4.0, Commons"
+   "credit": "Omer Berner, CC BY-SA 4.0"
   },
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_taumed.jpg",
-   "credit": "Tel Aviv University medicine: Israel Zeller, PikiWiki, CC BY 2.5"
+   "credit": "Israel Zeller, PikiWiki, CC BY 2.5"
   },
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
-   "credit": "Hadassah Ein Kerem: Davidi Vardi, PikiWiki, CC BY 2.5"
+   "credit": "Davidi Vardi, PikiWiki, CC BY 2.5"
   },
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
-   "credit": "Alkamal Pharmacy: Israel Preker, PikiWiki, CC BY 2.5"
+   "credit": "Israel Preker, PikiWiki, CC BY 2.5"
   },
   {
    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_superpharm.jpg",
-   "credit": "Pharmacy aisle: Rakoon, CC0, Commons"
+   "credit": "Rakoon, CC0, Commons"
   }
  ],
  "lint_warnings": [],
- "render_s": 131.2
+ "render_s": 73.2
 }
