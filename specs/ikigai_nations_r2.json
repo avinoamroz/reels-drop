@@ -58,7 +58,8 @@
   },
   {
    "say": "A country is what it builds, not what it's called. What's your country's ikigai?",
-   "screen": "What's *your* country's ikigai?"
+   "screen": "What's *your* country's ikigai?",
+   "until": "L14-0.1"
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
