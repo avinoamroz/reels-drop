@@ -6,7 +6,7 @@
  "duration": 48.93,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/elon_fish_rod_r2.mp4",
@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.951,
+  "score": 0.895,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -130,21 +130,21 @@
    },
    {
     "line": "Aid still saves lives in a disaster. And Musk has given billions, though critics question how it's used.",
-    "score": 1.0,
+    "score": 0.944,
     "flag": "ok"
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
-    "flag": "ok"
+    "score": 0.2,
+    "flag": "MISS"
    },
    {
     "line": "So: a hundred and twenty dollars each, once? Or the rod?",
-    "score": 0.727,
+    "score": 0.636,
     "flag": "MISS"
    }
   ],
-  "heard": "$1,000,000. Why not give it all away? People keep asking it in the comments about Elon Musk. Fine, let's do it. Every share sold, at full price. Split it among 8.2 billion people. That's about $120 each. One good dinner, once. Money is a fish. It feeds you for a day. Skills and tools are the rod. Now look at a country that never had the fish. Israel had no oil. Its big gas fields were found only from 2009. So it bet on brains. and development, 6.3% of GDP, the highest of any OECD country, drip irrigation, iron dome. Today, tech is 58% of Israel's exports, aid still saves lives in a disaster, and Musk has given billions, though critics question how it's used. If you love Israeli facts, follow Noam Ross for more. So, $120 each, once, or the rod?",
+  "heard": "$1,000,000. Why not give it all away? People keep asking it in the comments about Elon Musk. Fine, let's do it. Every share sold, at full price. Split it among 8.2 billion people. That's about $120 each. One good dinner, once. Money is a fish. It feeds you for a day. Skills and tools are the rod. Now look at a country that never had the fish. Israel had no oil. Its big gas fields were found only from 2009. So it bet on brains. and development, 6.3% of GDP, the highest of any OECD country, drip irrigation, iron dome. Today, tech is 58% of Israel's exports. AIDS still saves lives in a disaster. And Musk has given billions, though critics question how it's used. So, $120 each, once? Or the",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -157,8 +157,8 @@
  },
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 210.0
+ "render_s": 131.5
 }
