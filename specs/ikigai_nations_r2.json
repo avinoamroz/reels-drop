@@ -8,7 +8,7 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
+  "tempo": 1.15,
   "gap": 0.12
  },
  "subs_replace": {
@@ -23,7 +23,8 @@
   },
   {
    "say": "So drop the word in.",
-   "screen": "Drop in: *colonizer.*"
+   "screen": "Drop in: *colonizer.*",
+   "until": "L5e+0.3"
   },
   {
    "say": "Love it? Israelis can't agree on a government, never mind an empire."
@@ -32,19 +33,13 @@
    "say": "Good at it? Israel gave back Sinai, almost three times its own size."
   },
   {
-   "say": "World needs it? No. Paid for it? No."
+   "say": "World needs it? No. Paid for it? No. Zero out of four."
   },
   {
-   "say": "Zero out of four. Not our ikigai."
-  },
-  {
-   "say": "So what does fit? Ask the neighbours."
+   "say": "So what fits? Ask the neighbours."
   },
   {
    "say": "Saudi Arabia: energy. Oil is seventy three percent of exports."
-  },
-  {
-   "say": "The UAE: the world's stopover. The busiest international airport on Earth."
   },
   {
    "say": "Egypt: history and the Suez Canal. A record fifteen point seven million tourists."
@@ -97,186 +92,158 @@
     "name": "Israel",
     "flag": "IL",
     "at": 0.0,
-    "until": "L6e+0.5",
+    "until": "L5e+0.6",
     "recap": false
    },
    {
     "name": "Saudi Arabia",
     "flag": "SA",
-    "at": "L8",
-    "until": "L8e+0.15",
+    "at": "L7",
+    "until": "L7e+0.15",
     "items": {
      "love": {
       "text": "Vision *2030*",
-      "at": "L8+0.1"
+      "at": "L7+0.1"
      },
      "good": {
       "text": "Oil",
-      "at": "L8:energy"
+      "at": "L7:energy"
      },
      "needs": {
       "text": "Energy",
-      "at": "L8:energy+0.35"
+      "at": "L7:energy+0.35"
      },
      "paid": {
       "text": "*73%* of|exports",
-      "at": "L8:seventy"
+      "at": "L7:seventy"
      }
     },
     "center": {
      "text": "Fuelling|the world",
-     "at": "L8:exports"
-    }
-   },
-   {
-    "name": "UAE",
-    "flag": "AE",
-    "at": "L9",
-    "until": "L9e+0.15",
-    "items": {
-     "love": {
-      "text": "Hosting",
-      "at": "L9+0.1"
-     },
-     "good": {
-      "text": "Logistics",
-      "at": "L9:world's"
-     },
-     "needs": {
-      "text": "Flights",
-      "at": "L9:stopover"
-     },
-     "paid": {
-      "text": "*95M*|passengers",
-      "at": "L9:busiest"
-     }
-    },
-    "center": {
-     "text": "The world's|stopover",
-     "at": "L9:earth"
+     "at": "L7:exports"
     }
    },
    {
     "name": "Egypt",
     "flag": "EG",
-    "at": "L10",
-    "until": "L10e+0.15",
+    "at": "L8",
+    "until": "L8e+0.15",
     "items": {
      "love": {
       "text": "*History*",
-      "at": "L10:history"
+      "at": "L8:history"
      },
      "good": {
       "text": "Welcome",
-      "at": "L10:history+0.3"
+      "at": "L8:history+0.3"
      },
      "needs": {
       "text": "Suez|Canal",
-      "at": "L10:suez"
+      "at": "L8:suez"
      },
      "paid": {
       "text": "*15.7M*|tourists",
-      "at": "L10:fifteen"
+      "at": "L8:fifteen"
      }
     },
     "center": {
      "text": "Gateway",
-     "at": "L10:tourists"
+     "at": "L8:tourists"
     }
    },
    {
     "name": "Türkiye",
     "flag": "TR",
-    "at": "L11",
-    "until": "L11e+0.15",
+    "at": "L9",
+    "until": "L9e+0.15",
     "items": {
      "good": {
       "text": "Factories",
-      "at": "L11:making"
+      "at": "L9:making"
      },
      "needs": {
       "text": "Goods",
-      "at": "L11:things"
+      "at": "L9:things"
      },
      "paid": {
       "text": "*$262B*|exports",
-      "at": "L11:two"
+      "at": "L9:two"
      },
      "love": {
       "text": "Trade",
-      "at": "L11+0.1"
+      "at": "L9+0.1"
      }
     },
     "center": {
      "text": "Making|things",
-     "at": "L11:exports"
+     "at": "L9:exports"
     }
    },
    {
     "name": "Jordan",
     "flag": "JO",
-    "at": "L12",
-    "until": "L12e+0.15",
+    "at": "L10",
+    "until": "L10e+0.15",
     "items": {
      "love": {
       "text": "Hospitality",
-      "at": "L12:hospitality"
+      "at": "L10:hospitality"
      },
      "good": {
       "text": "Petra",
-      "at": "L12:petra"
+      "at": "L10:petra"
      },
      "needs": {
       "text": "A *wonder*",
-      "at": "L12:wonder"
+      "at": "L10:wonder"
      },
      "paid": {
       "text": "*$7.2B*|tourism",
-      "at": "L12:seven"
+      "at": "L10:seven"
      }
     },
     "center": {
      "text": "Welcome",
-     "at": "L12:tourism"
+     "at": "L10:tourism"
     }
    },
    {
     "name": "Israel",
     "flag": "IL",
-    "at": "L13-0.1",
+    "at": "L11-0.1",
     "recap": false,
     "items": {
      "love": {
       "text": "Solving *problems*",
-      "at": "L13:research"
+      "at": "L11:research"
      },
      "good": {
       "text": "R&D:|*6.8%*|of GDP",
-      "at": "L13:six"
+      "at": "L11:six"
      },
      "needs": {
       "text": "New *tech*",
-      "at": "L14:tech"
+      "at": "L12:tech"
      },
      "paid": {
       "text": "*56%* of|exports",
-      "at": "L14:fifty"
+      "at": "L12:fifty"
      }
     },
     "center": {
      "text": "Building|things",
-     "at": "L14:building"
+     "at": "L12:building"
     }
    }
   ],
   "intruder": {
    "text": "Colonizer",
    "at": "L2:drop",
-   "fall": "L6",
+   "fall": "L5:zero",
    "stamp": {
     "text": "0 OF 4",
-    "at": "L6:zero",
-    "until": "L6e+0.5"
+    "at": "L5:zero",
+    "until": "L5e+0.6"
    },
    "tests": [
     {
@@ -304,8 +271,8 @@
   "photos": [
    {
     "file": "templates/photos/ikigai_nations/ik_riyadh.jpg",
-    "at": "L8",
-    "until": "L8e+0.15",
+    "at": "L7",
+    "until": "L7e+0.15",
     "credit": "B.alotaby, CC BY-SA 4.0, Wikimedia Commons",
     "kb": [
      0.5,
@@ -317,23 +284,9 @@
     ]
    },
    {
-    "file": "templates/photos/ikigai_nations/ik_dxb.jpg",
-    "at": "L9",
-    "until": "L9e+0.15",
-    "credit": "Chris Olszewski, CC BY-SA 4.0, Wikimedia Commons",
-    "kb": [
-     0.5,
-     0.3,
-     1.0,
-     0.5,
-     0.3,
-     1.12
-    ]
-   },
-   {
     "file": "templates/photos/ikigai_nations/ik_suez.jpg",
-    "at": "L10",
-    "until": "L10e+0.15",
+    "at": "L8",
+    "until": "L8e+0.15",
     "credit": "Aah-Yeah, CC BY 2.0, Wikimedia Commons",
     "kb": [
      0.4,
@@ -346,8 +299,8 @@
    },
    {
     "file": "templates/photos/ikigai_nations/ik_istanbul.jpg",
-    "at": "L11",
-    "until": "L11e+0.15",
+    "at": "L9",
+    "until": "L9e+0.15",
     "credit": "SegLig, CC BY 4.0, Wikimedia Commons",
     "kb": [
      0.5,
@@ -360,8 +313,8 @@
    },
    {
     "file": "templates/photos/ikigai_nations/ik_petra.jpg",
-    "at": "L12",
-    "until": "L12e+0.15",
+    "at": "L10",
+    "until": "L10e+0.15",
     "credit": "Vyacheslav Argenberg, CC BY 4.0, Wikimedia Commons",
     "kb": [
      0.5,
@@ -374,8 +327,8 @@
    },
    {
     "file": "templates/photos/ikigai_nations/ik_matam.jpg",
-    "at": "L13",
-    "until": "L14e+0.15",
+    "at": "L11",
+    "until": "L12e+0.15",
     "credit": "Zvi Roger, CC BY 3.0, Wikimedia Commons",
     "kb": [
      0.5,
@@ -387,7 +340,7 @@
     ]
    }
   ],
-  "end_until": "L16e"
+  "end_until": "L14e"
  },
  "sources": [
   {
@@ -399,53 +352,47 @@
   {
    "label": "Oil share of exports: Saudi GASTAT",
    "year": 2024,
+   "at": "L7",
+   "until": "L7e+0.15"
+  },
+  {
+   "label": "Record tourists: Egypt Ministry of Tourism",
+   "year": 2024,
    "at": "L8",
    "until": "L8e+0.15"
   },
   {
-   "label": "No. 1 for international passengers: ACI World",
-   "year": 2025,
+   "label": "Exports: Türkiye Trade Ministry",
+   "year": 2024,
    "at": "L9",
    "until": "L9e+0.15"
   },
   {
-   "label": "Record tourists: Egypt Ministry of Tourism",
+   "label": "Tourism income $7.24B: Central Bank of Jordan; New7Wonders, 2007",
    "year": 2024,
    "at": "L10",
    "until": "L10e+0.15"
   },
   {
-   "label": "Exports: Türkiye Trade Ministry",
-   "year": 2024,
-   "at": "L11",
-   "until": "L11e+0.15"
-  },
-  {
-   "label": "Tourism income $7.24B: Central Bank of Jordan; New7Wonders, 2007",
-   "year": 2024,
-   "at": "L12",
-   "until": "L12e+0.15"
-  },
-  {
    "label": "R&D share of GDP: OECD MSTI, March 2026 release",
    "year": 2024,
-   "at": "L13",
-   "until": "L13e+0.2"
+   "at": "L11",
+   "until": "L11e+0.2"
   },
   {
    "label": "High tech share of exports: Israel Innovation Authority",
    "year": 2024,
-   "at": "L14",
-   "until": "L14e+0.15"
+   "at": "L12",
+   "until": "L12e+0.15"
   }
  ],
  "end": {
-  "at": "L16",
+  "at": "L14",
   "balance": "A country is what it *builds,* not what it's called.",
   "cta": "Follow *@noamroz__*"
  },
- "caption_en": "The word fails every circle. The answer was in the last one. 🌍\n\nEvery country has an ikigai: what it loves, what it's good at, what the world needs, and what it gets paid for.\n\nSome call Israel a colonizer. Test it: 0 of 4. Israel gave back Sinai to Egypt (peace treaty 1979, withdrawal 1982): about 60,000 km², almost three times Israel's 22,072 km² (Britannica; Israel CBS).\n\nThe neighbours, each with its own centre:\n🇸🇦 Saudi Arabia: energy. Oil is 73.1% of exports (GASTAT, 2024).\n🇦🇪 UAE: the world's stopover. Dubai International is No. 1 for international passengers, 95.2M in 2025 (ACI World).\n🇪🇬 Egypt: history and the Suez Canal. A record 15.7M tourists in 2024 (Ministry of Tourism).\n🇹🇷 Türkiye: making things. Record $262B of exports in 2024 (Trade Ministry).\n🇯🇴 Jordan: hospitality. Petra, one of the New 7 Wonders (2007), and $7.24B tourism income in 2024 (Central Bank of Jordan).\n\n🇮🇱 Israel: building things. R&D is 6.8% of GDP, the highest in the OECD, the Organisation for Economic Co-operation and Development (OECD MSTI, March 2026 release). High tech is 56.4% of exports (Israel Innovation Authority, 2024).\n\nA country is what it builds, not what it's called. What's your country's ikigai? Tell me in the comments.\n\nPhotos (Wikimedia Commons): B.alotaby (CC BY-SA 4.0); Chris Olszewski (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); SegLig (CC BY 4.0); Vyacheslav Argenberg (CC BY 4.0); Zvi Roger (CC BY 3.0). AI voice.",
- "caption_he": "\"קולוניאליסטית\"? ישראל נכשלת ב־4 מתוך 4.\nלכל מדינה יש איקיגאי: מה היא אוהבת, במה היא טובה, מה העולם צריך, ועל מה משלמים לה. ישראל החזירה את סיני, כמעט פי שלושה מגודלה.\nלשכנות יש מרכז משלהן: סעודיה, אנרגיה (73% מהיצוא נפט). האמירויות, תחנת המעבר של העולם. מצרים, היסטוריה ותעלת סואץ. טורקיה, תעשייה. ירדן, הכנסת אורחים ופטרה.\nולישראל: 6.8% מהתוצר למחקר, הכי הרבה ב־OECD, וההייטק הוא 56% מהיצוא. האיקיגאי שלה: לבנות.\nמדינה היא מה שהיא בונה, לא איך שקוראים לה. מה האיקיגאי של המדינה שלכם?",
+ "caption_en": "The word fails every circle. The answer was in the last one. 🌍\n\nEvery country has an ikigai: what it loves, what it's good at, what the world needs, and what it gets paid for.\n\nSome call Israel a colonizer. Test it: 0 of 4. Israel gave back Sinai to Egypt (peace treaty 1979, withdrawal 1982): about 60,000 km², almost three times Israel's 22,072 km² (Britannica; Israel CBS).\n\nThe neighbours, each with its own centre:\n🇸🇦 Saudi Arabia: energy. Oil is 73.1% of exports (GASTAT, 2024).\n🇪🇬 Egypt: history and the Suez Canal. A record 15.7M tourists in 2024 (Ministry of Tourism).\n🇹🇷 Türkiye: making things. Record $262B of exports in 2024 (Trade Ministry).\n🇯🇴 Jordan: hospitality. Petra, one of the New 7 Wonders (2007), and $7.24B tourism income in 2024 (Central Bank of Jordan).\n\n🇮🇱 Israel: building things. R&D is 6.8% of GDP, the highest in the OECD, the Organisation for Economic Co-operation and Development (OECD MSTI, March 2026 release). High tech is 56.4% of exports (Israel Innovation Authority, 2024).\n\nA country is what it builds, not what it's called. What's your country's ikigai? Tell me in the comments.\n\nPhotos (Wikimedia Commons): B.alotaby (CC BY-SA 4.0); Chris Olszewski (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); SegLig (CC BY 4.0); Vyacheslav Argenberg (CC BY 4.0); Zvi Roger (CC BY 3.0). AI voice.",
+ "caption_he": "\"קולוניאליסטית\"? ישראל נכשלת ב־4 מתוך 4.\nלכל מדינה יש איקיגאי: מה היא אוהבת, במה היא טובה, מה העולם צריך, ועל מה משלמים לה. ישראל החזירה את סיני, כמעט פי שלושה מגודלה.\nלשכנות יש מרכז משלהן: סעודיה, אנרגיה (73% מהיצוא נפט). מצרים, היסטוריה ותעלת סואץ. טורקיה, תעשייה. ירדן, הכנסת אורחים ופטרה.\nולישראל: 6.8% מהתוצר למחקר, הכי הרבה ב־OECD, וההייטק הוא 56% מהיצוא. האיקיגאי שלה: לבנות.\nמדינה היא מה שהיא בונה, לא איך שקוראים לה. מה האיקיגאי של המדינה שלכם?",
  "hashtags": [
   "#Israel",
   "#MiddleEast",
