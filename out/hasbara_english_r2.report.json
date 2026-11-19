@@ -1,0 +1,129 @@
+{
+ "id": "hasbara_english_r2",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "Don't say *hasbara.*|Say these *3.*",
+ "duration": 44.9,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/hasbara_english_r2.mp4",
+  "cover": "covers/hasbara_english_r2_cover.jpg",
+  "preview": "previews/hasbara_english_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hasbara_english_r2_0.jpg",
+  "1": "out/frames/hasbara_english_r2_1.jpg",
+  "3": "out/frames/hasbara_english_r2_3.jpg",
+  "last": "out/frames/hasbara_english_r2_last.jpg"
+ },
+ "caption_en": "Don't say hasbara in English. Public diplomacy, explaining Israel, advocacy.",
+ "caption_he": "אל תגידו hasbara באנגלית. תגידו אחת משלוש אלה 👇\n\nדנה בשיחת זום עם לונדון. שואלים אותה מה היא עושה ברשת. היא עונה: I do hasbara!\nשקט. בשבילם זו סתם מילה זרה.\n\nהסברה = explaining. אז באנגלית בוחרים מילה לפי החדר:\nבפגישה: Public diplomacy\nעם חברים: Explaining Israel\nבפאנל: Advocacy\n\nלישראל אפילו היה משרד בשם Ministry of Public Diplomacy (משרד ההסברה והתפוצות, מ 2009).\n\nטייק 2: Public diplomacy. I tell Israel's story in English.\nאותו סיפור. מילה אחת השתנתה, ולונדון התקרבה למסך.\n\nשמרו את זה לשיחה הבאה.\n\nמקור: Wikipedia, Ministry of Public Diplomacy and Diaspora Affairs; Public diplomacy of Israel (2026).",
+ "hashtags": [
+  "#EnglishExpress",
+  "#אנגלית",
+  "#הסברה"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia: Ministry of Public Diplomacy and Diaspora Affairs",
+   "year": 2009,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia: Public diplomacy of Israel",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  }
+ ],
+ "transcript": {
+  "score": 0.947,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Don't say hasbara in English. Say one of these three.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Dana joins a call with London. They ask what she does online. She says: I do hasbara!",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Silence. To them, it's just a foreign word.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Hasbara literally means explaining. So in English, pick the word for the room.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "In a meeting: public diplomacy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "With friends: explaining Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "On a panel: advocacy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel even had a Ministry of Public Diplomacy, from two thousand nine.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Take two. So, what do you do online?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Public diplomacy. I tell Israel's story in English.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fascinating. Tell me more.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same story. One word changed, and London leaned in.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this for your next call.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And remember: don't say hasbara.",
+    "score": 0.8,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Don't say Hasbro in English. Say one of these three. Dana joins a call with London. They ask what she does online. She says, I do Hasbro. Silence. To them, it's just a foreign word. Hasbro literally means explaining. So in English, pick the word for the room. In a meeting, public diplomacy. With friends explaining Israel. On a panel, advocacy. Israel even had the Ministry of Public Diplomacy in 2009. Take two. So what do you do online? Public diplomacy. I tell Israel's story in English. Fascinating. Tell me more. Same story. One word changed, and London leaned in. Save this for your next call. And remember, don't say Hasbro.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 74.4
+}
