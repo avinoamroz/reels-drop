@@ -1,6 +1,199 @@
 {
-  "id": "problem_solved_health_r2",
-  "status": "FAILED",
-  "run": "44462325885",
-  "log": "voice ok: Cartesia sonic-3 (60.2 s, 169 words) voice/problem_solved_health_r2_vo.wav\n[05:03:08] voice: cached voice (script unchanged)\n[05:03:22] frame 0/1688\n[05:03:51] frame 300/1688\n[05:04:13] frame 600/1688\n[05:04:37] frame 900/1688\n[05:04:58] frame 1200/1688\n[05:05:20] frame 1500/1688\nusage: map_open.py [-h] --style\n                   {globe_spin_fast,globe_spin_reverse,globe_spin_whip,globe_spin_night,globe_unpeel,map_crumple,map_tear,map_tear_v2,map_fold,map_puzzle}\n                   [--reel REEL] [--cam CAM] [--box BOX] [--dur DUR]\n                   [--hold HOLD] [--plain] [--title TITLE] [--hook HOOK]\n                   [--hook-y HOOK_Y] [--hook-s HOOK_S] --out OUT\n                   [--snaps SNAPS]\nmap_open.py: error: argument --cam: expected one argument\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/map_counter.py\", line 442, in run\n    op = wrap_opener(body, S, final, D[\"cam0\"], HY, work)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 479, in wrap_opener\n    subprocess.run([sys.executable, MO, *common, \"--snaps\", \"0\", \"--out\", f\"{tmp}/op.mp4\"], check=True); op0 = f\"{tmp}/op_0.00.png\"\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/subprocess.py\", line 571, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command '['/opt/hostedtoolcache/Python/3.12.16/x64/bin/python', '/home/runner/work/reels-drop/reels-drop/templates/opener/map_open.py', '--style', 'globe_unpeel', '--cam', '-35,36,150,960', '--hook', '*5* extra years.|Israel vs *USA.*', '--hook-y', '930', '--hook-s', '1.0', '--dur', '2.4', '--plain', '--snaps', '0', '--out', '/tmp/tpl_problem_solved_health_r2/opw_dc31dysw/op.mp4']' returned non-zero exit status 2.\n"
+ "id": "problem_solved_health_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*5* extra years.|Israel vs *USA.*",
+ "duration": 57.47,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -0.6
+ },
+ "outputs": {
+  "mp4": "out/problem_solved_health_r2.mp4",
+  "cover": "covers/problem_solved_health_r2_cover.jpg",
+  "preview": "previews/problem_solved_health_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/problem_solved_health_r2_0.jpg",
+  "1": "out/frames/problem_solved_health_r2_1.jpg",
+  "3": "out/frames/problem_solved_health_r2_3.jpg",
+  "last": "out/frames/problem_solved_health_r2_last.jpg"
+ },
+ "caption_en": "Five extra years of life. The map shows where they come from. 🩺\n\nThe American problem: 40.3% of adults are obese (CDC, NHANES Aug 2021 to Aug 2023) and health care cost $15,474 per person in 2024 (CMS).\n\nWhere regimes broke their own health systems:\n🇸🇾 Syria: 13.3 million people food insecure (WFP, Aug 2026). Of 553 attacks on medical facilities from 2011 to 2018, over 90% were by the Assad regime and its allies (Physicians for Human Rights, 2019).\n🇾🇪 Yemen: the Houthis seized Sana'a in 2014; 21 million people need humanitarian aid in 2026 (UN, via Reuters).\n🇱🇧 Lebanon: the World Bank called the collapse a \"Deliberate Depression\" (Lebanon Economic Monitor, Fall 2020); nearly 40% of doctors left since October 2019 (WHO, 2021).\n\nThe rich Gulf has the opposite problem. Adult diabetes, age adjusted, 20 to 79 (IDF Diabetes Atlas 2024): Kuwait 25.6%, Qatar 24.6%, Saudi Arabia 23.1%, USA 13.7%, Israel 10.1%.\n\nIsrael has covered every resident since the National Health Insurance Law (passed 1994, in force 1995). Life expectancy 83.8 years (OECD, 2023 data) vs 78.4 in the US (CDC NCHS, 2023). Fair is fair: Israel has 1.76 general hospital beds per 1,000 people vs an OECD average of 3.18 (Taub Center, 2025).\n\nWhich health system would you pick? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Starzoner (CC BY-SA 4.0); Harrison Keely (CC BY 4.0); KevForkan (CC BY-SA 4.0); Matt May (CC BY 2.0); Mehrdad Sarhangi (CC BY 3.0); Dan Harrelson (CC BY 2.0). AI voice.",
+ "caption_he": "ישראלים חיים 5 שנים יותר מאמריקאים. מאיפה זה מגיע?\nבעיה אמריקאית: 40% מהמבוגרים סובלים מהשמנה, ובריאות עולה 15,474 דולר לאדם בשנה.\nאיפה משטרים שברו את מערכת הבריאות של עצמם: בסוריה 13.3 מיליון בלי ביטחון תזונתי, ומשטר אסד ובעלי בריתו ביצעו מעל 90% מ־553 התקיפות על מתקנים רפואיים. בתימן, שהחות'ים כבשו את בירתה ב־2014, 21 מיליון זקוקים לסיוע. בלבנון כמעט 40% מהרופאים עזבו.\nבמפרץ העשיר הבעיה הפוכה: רבע מהמבוגרים בכווית, קטאר וסעודיה חולי סוכרת, לעומת 13.7% בארה\"ב.\nבישראל ביטוח בריאות ממלכתי מ־1995, סוכרת 10.1%, ותוחלת חיים 83.8 מול 78.4 בארה\"ב. אבל: 1.76 מיטות אשפוז ל־1,000 איש, מול 3.18 בממוצע OECD.\nאיזו מערכת בריאות הייתם בוחרים?",
+ "hashtags": [
+  "#Israel",
+  "#healthcare",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "OECD 2023 data; CDC NCHS 2023",
+   "year": 2025,
+   "at": "L0",
+   "until": "L1"
+  },
+  {
+   "label": "CDC NHANES 2021 to 2023",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "CMS National Health Expenditure",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "WFP via Arab News",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Physicians for Human Rights",
+   "year": 2019,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "UN via Reuters",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "World Bank; WHO via Gulf News",
+   "year": 2021,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "IDF Diabetes Atlas, age adjusted, 20 to 79",
+   "year": 2024,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "National Health Insurance Law 1994; IDF Diabetes Atlas",
+   "year": 2024,
+   "at": "L9",
+   "until": "L11"
+  },
+  {
+   "label": "Taub Center, State of the Nation",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "OECD 2023 data; CDC NCHS 2023",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.972,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israelis live five years longer than Americans. What's behind it?",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Start in America. Forty percent of adults are obese.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And health care costs over fifteen thousand dollars per person a year.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the Middle East, where some regimes broke their own health systems.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria: after Assad's war, thirteen million people are food insecure.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "His regime and its allies made over ninety percent of the attacks on hospitals.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yemen: since the Houthis took the capital in twenty fourteen, twenty one million need aid.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon: its leaders let the economy sink. Nearly forty percent of doctors left.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The rich Gulf has the opposite problem. About one adult in four has diabetes. America: one in seven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel? Health insurance for every resident, by law, since nineteen ninety five.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Diabetes: ten percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fair is fair: about half the hospital beds of the OECD average.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The bottom line: eighty three point eight years, against seventy eight point four.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which health system would you pick?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Five extra years. So where do they come from?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel is live five years longer than Americans. What's behind it? Start in America. 40% of adults are obese, and health care costs over $15,000 per person a year. Now the Middle East, where some regimes broke their own health systems. Syria. After Assad's war, 13 million people are food insecure. His regime and its allies made over 90% of the attacks on hospitals. Yemen. Since the Houthis took the capital in 2014, 21 million need aid. Lebanon. Its Its leaders let the economy sink. Nearly 40% of doctors left. The rich gulf has the opposite problem. About one adult in four has diabetes. America, one in seven. And Israel, health insurance for every resident, by law, since 1995. Diabetes, 10%. Fair is fair, about half the hospital beds of the OECD average. The bottom line, 83.8 years against 78.4. Which health system would you pick? If you love Israeli facts, follow Noam Ross for more. Five extra years. So where do they come from?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 56.25,
+ "opener": {
+  "style": "globe_unpeel",
+  "opener_s": 2.4,
+  "narration_starts": 1.2
+ },
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 221.3
 }
