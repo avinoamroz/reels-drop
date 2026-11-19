@@ -434,23 +434,16 @@
     ]
    ]
   },
-  "callouts": [
-   {
-    "at": "L3:latest",
-    "until": "L5e",
-    "text": "Israel *2024:* Taub Center count + CBS population"
-   }
-  ],
   "photos": [
    {
-    "file": "templates/photos/me_christians_race/map_open.jpg",
-    "credit": "Natural Earth map (PD)",
+    "file": "templates/photos/homicide_race_today/map0.jpg",
+    "credit": "Map: Natural Earth (PD)",
     "kb": [
-     0.38,
-     0.575,
+     0.5,
+     0.5,
      1.0,
-     0.38,
-     0.575,
+     0.5,
+     0.5,
      1.06
     ],
     "dim": 0.12,
@@ -542,6 +535,12 @@
    "label": "UNODC via Our World in Data",
    "year": 2026,
    "at": "L1",
+   "until": "L3:latest"
+  },
+  {
+   "label": "UNODC via OWID; Israel 2024: Taub Center + CBS",
+   "year": 2025,
+   "at": "L3:latest",
    "until": "L6"
   },
   {
