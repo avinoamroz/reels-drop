@@ -1,0 +1,419 @@
+{
+ "id": "elon_fish_rod_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*$1 trillion.*|Give it all away?",
+ "opener": {
+  "style": "globe_spin_reverse"
+ },
+ "music": {
+  "bed": "bounce",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "One trillion dollars. Why not give it all away?",
+   "gap": 0.15
+  },
+  {
+   "say": "People keep asking it in the comments about Elon Musk."
+  },
+  {
+   "say": "Fine. Let's do it. Every share sold, at full price.",
+   "screen": "Sell *everything.* Full price."
+  },
+  {
+   "say": "Split it among eight point two billion people.",
+   "screen": "Split among *8.2 billion* people"
+  },
+  {
+   "say": "That's about one hundred twenty dollars each.",
+   "screen": "About *$120* each"
+  },
+  {
+   "say": "One good dinner. Once.",
+   "screen": "One good dinner. *Once.*",
+   "gap": 0.3
+  },
+  {
+   "say": "Money is a fish. It feeds you for a day. Skills and tools are the rod.",
+   "screen": "Money is the *fish.* Skills are the *rod.*"
+  },
+  {
+   "say": "Now look at a country that never had the fish."
+  },
+  {
+   "say": "Israel had no oil. Its big gas fields were found only from 2009.",
+   "screen": "No oil. Big gas only from *2009*"
+  },
+  {
+   "say": "So it bet on brains. Research and development: six point three percent of GDP."
+  },
+  {
+   "say": "The highest of any OECD country.",
+   "screen": "Highest R&D of any *OECD* country"
+  },
+  {
+   "say": "Drip irrigation. Iron Dome. Today, tech is fifty eight percent of Israel's exports."
+  },
+  {
+   "say": "Aid still saves lives in a disaster. And Musk has given billions, though critics question how it's used.",
+   "screen": "Aid saves lives. Musk gave *billions.* Critics question how."
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*"
+  },
+  {
+   "say": "So: a hundred and twenty dollars each, once? Or the rod?",
+   "screen": "*$120* once? Or the *rod?*"
+  }
+ ],
+ "data": {
+  "cam0": [
+   -97.0,
+   37.0,
+   62.0
+  ],
+  "hook_y": 760,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L7-0.3",
+    "view": [
+     20.0,
+     33.0,
+     90.0,
+     960
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L7:country",
+    "view": [
+     35.0,
+     31.4,
+     12.0,
+     960
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L14-0.3",
+    "view": [
+     -97.0,
+     37.0,
+     62.0,
+     960
+    ],
+    "dur": 1.0
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1",
+    "until": "L3",
+    "lon": -97.16,
+    "lat": 25.99,
+    "label": "Starbase",
+    "color": "yellow"
+   },
+   {
+    "at": "L1",
+    "until": "L3",
+    "lon": -97.62,
+    "lat": 30.22,
+    "label": "Giga Texas",
+    "color": "yellow"
+   },
+   {
+    "at": "L8:gas",
+    "until": "L9",
+    "lon": 34.0,
+    "lat": 32.6,
+    "label": "Leviathan, 2010",
+    "color": "yellow"
+   },
+   {
+    "at": "L8:gas",
+    "until": "L9",
+    "lon": 34.1,
+    "lat": 33.0,
+    "label": "Tamar, 2009",
+    "color": "yellow"
+   }
+  ],
+  "counter": [
+   {
+    "label": "Musk's fortune, on paper",
+    "prefix": "$",
+    "at": "L0",
+    "until": "L4-0.05",
+    "y": 1300,
+    "steps": [
+     {
+      "at": "L0+0.3",
+      "value": 1000000000000
+     }
+    ]
+   },
+   {
+    "label": "Each person, once",
+    "prefix": "$",
+    "at": "L4",
+    "until": "L6-0.1",
+    "y": 1300,
+    "steps": [
+     {
+      "at": "L4",
+      "value": 1000
+     },
+     {
+      "at": "L4:hundred",
+      "value": 120
+     }
+    ]
+   }
+  ],
+  "comment": {
+   "text": "Elon should donate it all!",
+   "show": [
+    [
+     "L1",
+     "L2"
+    ]
+   ],
+   "y": 420,
+   "name": "anonymous comment"
+  },
+  "icons": [
+   {
+    "at": "L6:fish",
+    "until": "L7",
+    "lon": -104.0,
+    "lat": 38.0,
+    "emo": "🐟",
+    "size": 150,
+    "label": "one day"
+   },
+   {
+    "at": "L6:rod",
+    "until": "L7",
+    "lon": -88.0,
+    "lat": 38.0,
+    "emo": "🎣",
+    "size": 150,
+    "label": "a lifetime"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L9:research",
+    "until": "L11",
+    "title": "R&D, *% of GDP* (2023)",
+    "y": 1180,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 6.3,
+      "txt": "6.3%",
+      "hl": true
+     },
+     {
+      "label": "Korea",
+      "flag": "KR",
+      "value": 5.0,
+      "txt": "5.0%"
+     },
+     {
+      "label": "OECD average",
+      "value": 2.7,
+      "txt": "2.7%"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L11:fifty",
+    "until": "L12",
+    "value": 58,
+    "from": 20,
+    "suffix": "%",
+    "sub": "of Israel's exports are high tech",
+    "y": 1250
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/bf_elon/starbase.jpg",
+    "at": "L2",
+    "until": "L3",
+    "credit": "Starbase, Texas, 2026: NOAA (PD)",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/bf_elon/giga.jpg",
+    "at": "L3",
+    "until": "L4",
+    "credit": "Gigafactory Texas: Larry D. Moore, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/bf_elon/leviathan.jpg",
+    "at": "L8+0.2",
+    "until": "L8:gas",
+    "credit": "Leviathan gas installation: Deror Avi, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/bf_elon/weizmann.jpg",
+    "at": "L9",
+    "until": "L9:research",
+    "credit": "Weizmann Institute: Deror Avi, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/bf_elon/drip.jpg",
+    "at": "L11",
+    "until": "L11:iron",
+    "credit": "Drip irrigation: MajaGra, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/bf_elon/irondome.jpg",
+    "at": "L11:iron",
+    "until": "L11:fifty",
+    "credit": "Iron Dome: IDF, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.45,
+     1.12
+    ],
+    "dim": 0.25
+   }
+  ],
+  "photo_box": [
+   60,
+   380,
+   960,
+   620,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-1",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Forbes real-time billionaires, Oct",
+   "year": 2026,
+   "at": "L0+0.4",
+   "until": "L3"
+  },
+  {
+   "label": "UN World Population Prospects; our calculation",
+   "year": 2024,
+   "at": "L3",
+   "until": "L6"
+  },
+  {
+   "label": "Tamar 2009, Leviathan 2010",
+   "year": 2010,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "OECD R&D statistics, March 2025 release",
+   "year": 2023,
+   "at": "L9",
+   "until": "L11"
+  },
+  {
+   "label": "Israel Innovation Authority",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "SEC filing via Bloomberg 2022; NYT",
+   "year": 2024,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "caption_en": "\"Give it all away\" sounds generous. Do the math first.\n\nElon Musk is worth about $1 trillion on paper (Forbes real-time billionaires, Oct 2026), almost all of it in shares of SpaceX, xAI and Tesla.\nSay every share sold at full price (it wouldn't: a sale that big would push the price down) and the money was split among about 8.2 billion people (UN World Population Prospects 2024, 2025). That's about $120 each, once. Our calculation.\n\nMoney is the fish. Skills and tools are the rod.\nIsrael had no oil, and its big gas fields were found only from 2009 (Tamar 2009, Leviathan 2010). So it bet on brains: R&D at 6.3% of GDP, the highest of any OECD country (Korea 5.0%, OECD average 2.7%; OECD, March 2025 release, 2023 data). Drip irrigation, Iron Dome, and high tech at 58% of Israel's exports (Israel Innovation Authority, 2025).\n\nFair to say: aid still saves lives in a disaster. And Musk has given billions (about $5.7B in Tesla shares to his own foundation in 2021, SEC filing via Bloomberg 2022), though critics question how that money is used (NYT 2024).\n\nFish or rod? Tell me below.\n\nPhotos: Starbase, Texas, 2026, NOAA (PD); Gigafactory Texas, Larry D. Moore, CC BY 4.0; Leviathan gas installation, Deror Avi, CC BY-SA 4.0; Weizmann Institute, Deror Avi, CC BY-SA 4.0; drip tape, MajaGra, CC BY-SA 4.0; Iron Dome, IDF, CC BY 2.0. Made with AI tools, AI voice (Noam's cloned voice), follow line in Noam's own voice.",
+ "caption_he": "\"שאלון מאסק פשוט יתרום הכל.\" בואו נעשה את החשבון.\nטריליון דולר, גם אם כל מניה נמכרת במחיר מלא, חלקי 8.2 מיליארד בני אדם: בערך 120 דולר לאדם. פעם אחת. ארוחה טובה.\nכסף הוא הדג. כישורים וכלים הם החכה.\nלישראל לא היה נפט, והגז הגדול נמצא רק מ 2009. אז היא הימרה על מוחות: מו\"פ ב 6.3% מהתמ\"ג, הכי גבוה ב OECD. טפטפות, כיפת ברזל, והייטק שהוא 58% מהיצוא.\nוגם: סיוע מציל חיים באסון, ומאסק תרם מיליארדים, אם כי יש ביקורת על איך הכסף מנוצל.",
+ "hashtags": [
+  "#Israel",
+  "#ElonMusk",
+  "#Innovation"
+ ],
+ "cover": {
+  "t": 11.0,
+  "big": "$120",
+  "text": "*$1 trillion,*|split 8.2 billion ways?"
+ }
+}
