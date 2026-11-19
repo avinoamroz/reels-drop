@@ -1,0 +1,203 @@
+{
+ "id": "test_maslow_top",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "*14* Nobels.|*56%* no safe room.",
+ "duration": 49.67,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/test_maslow_top.mp4",
+  "cover": "covers/test_maslow_top_cover.jpg",
+  "preview": "previews/test_maslow_top_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_maslow_top_0.jpg",
+  "1": "out/frames/test_maslow_top_1.jpg",
+  "3": "out/frames/test_maslow_top_3.jpg",
+  "last": "out/frames/test_maslow_top_last.jpg"
+ },
+ "caption_en": "Maslow says this country should not exist. 🔺\n\nIn 1943 Abraham Maslow drew a pyramid of human needs: basics and safety first, dreams last. Climb Israel's from the bottom:\n\n💧 Basics: about 86% of drinking water came from desalination in 2022 (Israel Water Authority data).\n🛡️ Safety: a protected room (mamad) is required in every new home since a 1993 law, yet 56% of households still have none (Israel Builders Association, 2025).\n💛 Belonging: 2.9 children per woman, the highest in the OECD, the Organisation for Economic Co-operation and Development (OECD 2024; Israel CBS: 2.88 in 2025).\n🏆 Esteem: 4 Eurovision wins (1978, 1979, 1998, 2018).\n🚀 Self actualisation: 14 Israeli Nobel laureates since 1948 (latest: Joel Mokyr, 2025). Research spending 6.8% of GDP, the highest in the OECD (OECD MSTI, March 2026 release, 2024 data).\n\nThe result: 8th happiest country on Earth (World Happiness Report 2026).\n\nBig on dreams. Basics still unfinished. Which level should Israel fix next? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Mark Neyman, GPO (CC BY-SA 3.0); Yaakov (CC0); Crzrussian (CC BY-SA 3.0); Lauren Outerson, EuroVisionary (CC BY-SA 4.0); Berlin-George (CC BY-SA 3.0); Dan Harrelson (CC BY 2.0). AI voice.",
+ "caption_he": "14 זוכי נובל. ו־56% מהבתים בלי ממ\"ד.\nלפי הפירמידה של מאסלו (1943) מתחילים מהבסיס ורק בסוף חולמים. בואו נטפס על הפירמידה של ישראל מלמטה:\nמים: 86% ממי השתייה מגיעים מהים. ביטחון: ממ\"ד חובה בכל בית חדש מאז 1993, אבל 56% מהבתים עדיין בלי. שייכות: 2.9 ילדים לאישה, הכי הרבה ב־OECD. הערכה: 4 זכיות באירוויזיון. ובפסגה: 14 זוכי נובל ו־6.8% מהתוצר למחקר.\nהתוצאה? המדינה השמינית הכי מאושרת בעולם.\nאיזו קומה ישראל צריכה לתקן קודם?",
+ "hashtags": [
+  "#Israel",
+  "#psychology",
+  "#Maslow"
+ ],
+ "sources": [
+  {
+   "label": "Maslow, Psychological Review",
+   "year": 1943,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Israel Water Authority data",
+   "year": 2022,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Israel Builders Association via Jewish Press",
+   "year": 2025,
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "OECD 2024; Israel CBS 2.88 for 2025",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Eurovision Song Contest winners",
+   "year": 2018,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Nobel laureates with Israeli citizenship",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "OECD MSTI, March 2026 release",
+   "year": 2024,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "World Happiness Report",
+   "year": 2026,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.967,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Fourteen Nobel prizes. And most homes have no safe room.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Maslow's pyramid says that's impossible.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Basics first. Dreams last.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So let's climb Israel's pyramid. From the bottom.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Water. In a desert, eighty six percent of drinking water comes from the sea.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Next, safety. Every new home since nineteen ninety three must have a safe room.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Yet fifty six percent of homes still don't have one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Belonging? Almost three kids per woman, the most in the OECD. Friday dinner is a crowd.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Esteem? Four Eurovision wins. Very important for national security.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "And at the very top: fourteen Nobel prizes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Six point eight percent of GDP on research. No rich country spends more.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Maslow said: fix the basics, then dream. Israel dreamed first.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The result? The eighth happiest country on Earth.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which level should Israel fix next?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "So how does one country have this?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "14 Nobel Prizes, and most homes have no safe room. Maslow's pyramid says that's impossible. Basics first. Dreams last. So let's climb Israel's pyramid. From the bottom, water. In a desert, 86% of drinking water comes from the sea. Next, safety. Every new home since 1993 must have a safe room. Yet 56% of homes still don't have one. The longing? Almost three kids per woman, the most in the OCD. Friday dinner is a crowd. Esteem? Four-year vision wins. Very important for national security. And at the very top, 14 Nobel Prizes. 6.8% of GDP on research. No rich country spends more. Maslow said, fix the basics, then dream. Israel dreamed first, the result. The eighth happiest country on earth. Which level should Israel fix next? If you love Israeli facts, follow Noam Ross for more. So how does one country have this?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "opener": null,
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "layout": "diamond",
+ "photos": [
+  {
+   "file": "templates/photos/israel_maslow/sorek.jpg",
+   "credit": "Sorek desalination plant. Mark Neyman, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/mamad.jpg",
+   "credit": "A safe room, 2023. CC0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_maslow/table.jpg",
+   "credit": "Friday table. Crzrussian, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/netta.jpg",
+   "credit": "Netta, Eurovision 2018. Lauren Outerson, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/medal.jpg",
+   "credit": "Nobel medal. Berlin-George, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/israel_maslow/beach.jpg",
+   "credit": "Tel Aviv beach. Dan Harrelson, CC BY 2.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 68.9
+}
