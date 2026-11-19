@@ -1,0 +1,571 @@
+{
+ "id": "homicide_race_today",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*0.8* or *10.5?*|Same country.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12
+ },
+ "lines": [
+  {
+   "say": "Zero point eight, or ten point five. Same country."
+  },
+  {
+   "say": "Israel starts at two and a half, and mostly falls."
+  },
+  {
+   "say": "By 2022, one point six."
+  },
+  {
+   "say": "Then it jumps. In 2024, the latest year, about two point eight."
+  },
+  {
+   "say": "Turkey, three point two. The United States, almost six."
+  },
+  {
+   "say": "Jordan, Saudi Arabia and Germany report about one."
+  },
+  {
+   "say": "Now split Israel in two."
+  },
+  {
+   "say": "Jewish Israelis, under one per 100,000. Lower than Germany."
+  },
+  {
+   "say": "Arab Israelis, ten point five. Almost double the United States."
+  },
+  {
+   "say": "Arab Israelis are fourteen times more likely to be murdered."
+  },
+  {
+   "say": "Most Arab and Jewish Israelis live in peace."
+  },
+  {
+   "say": "Many of the victims are peaceful Arab citizens, caught between Arab crime organisations and smuggled guns."
+  },
+  {
+   "say": "And 2025 was worse: two hundred fifty two Arab citizens killed. A record."
+  },
+  {
+   "say": "And the state is failing to protect them."
+  },
+  {
+   "say": "Also, some governments undercount, and war deaths are not in these numbers."
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L15",
+   "until": "L15e"
+  },
+  {
+   "say": "Two numbers. One country."
+  }
+ ],
+ "subs_replace": {},
+ "data": {
+  "table": {
+   "keys": [
+    "2000",
+    "2001",
+    "2002",
+    "2003",
+    "2004",
+    "2005",
+    "2006",
+    "2007",
+    "2008",
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2024"
+   ],
+   "series": [
+    {
+     "label": "Israel",
+     "flag": "IL",
+     "values": [
+      2.52,
+      3.08,
+      3.26,
+      2.63,
+      2.4,
+      2.51,
+      2.24,
+      1.94,
+      1.69,
+      2.0,
+      2.04,
+      1.97,
+      1.68,
+      1.69,
+      1.63,
+      1.49,
+      1.34,
+      1.63,
+      1.46,
+      1.64,
+      1.67,
+      1.93,
+      1.63,
+      2.8
+     ],
+     "hl": true
+    },
+    {
+     "label": "Egypt",
+     "flag": "EG",
+     "values": [
+      null,
+      null,
+      null,
+      0.6,
+      0.41,
+      0.64,
+      0.66,
+      0.81,
+      1.13,
+      1.04,
+      2.06,
+      2.97,
+      2.37,
+      null,
+      2.96,
+      1.72,
+      1.51,
+      1.31,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1.31
+     ]
+    },
+    {
+     "label": "Jordan",
+     "flag": "JO",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      1.64,
+      1.72,
+      1.43,
+      1.75,
+      1.9,
+      2.21,
+      2.05,
+      2.08,
+      1.77,
+      1.48,
+      1.3,
+      0.9,
+      1.14,
+      0.99,
+      1.03,
+      1.12,
+      0.99
+     ]
+    },
+    {
+     "label": "Lebanon",
+     "flag": "LB",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      3.72,
+      2.9,
+      3.23,
+      3.3,
+      3.71,
+      4.11,
+      3.78,
+      3.57,
+      3.72,
+      3.99,
+      2.87,
+      3.14,
+      2.24,
+      null,
+      null,
+      2.24
+     ]
+    },
+    {
+     "label": "Syria",
+     "flag": "SY",
+     "values": [
+      2.15,
+      2.21,
+      2.11,
+      2.26,
+      2.32,
+      2.29,
+      2.27,
+      2.55,
+      2.44,
+      2.17,
+      2.06,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      2.06
+     ]
+    },
+    {
+     "label": "Iran",
+     "flag": "IR",
+     "values": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      2.9,
+      null,
+      null,
+      null,
+      2.53,
+      2.38,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      2.38
+     ]
+    },
+    {
+     "label": "Turkey",
+     "flag": "TR",
+     "values": [
+      null,
+      null,
+      null,
+      4.18,
+      4.25,
+      4.77,
+      4.52,
+      5.09,
+      4.55,
+      null,
+      4.18,
+      4.12,
+      4.28,
+      null,
+      null,
+      2.79,
+      3.31,
+      3.06,
+      2.56,
+      2.4,
+      2.49,
+      2.5,
+      2.62,
+      3.23
+     ]
+    },
+    {
+     "label": "Saudi Arabia",
+     "flag": "SA",
+     "values": [
+      1.07,
+      1.34,
+      1.59,
+      1.33,
+      1.53,
+      1.44,
+      1.19,
+      1.18,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      0.74,
+      0.94,
+      null,
+      null,
+      null,
+      0.94
+     ]
+    },
+    {
+     "label": "Germany",
+     "flag": "DE",
+     "values": [
+      1.67,
+      1.44,
+      1.43,
+      1.34,
+      1.35,
+      1.27,
+      1.21,
+      1.09,
+      1.02,
+      0.99,
+      0.98,
+      0.91,
+      0.81,
+      0.84,
+      0.88,
+      0.83,
+      1.16,
+      0.98,
+      0.95,
+      0.75,
+      0.94,
+      0.83,
+      0.82,
+      0.91
+     ]
+    },
+    {
+     "label": "USA",
+     "flag": "US",
+     "values": [
+      5.54,
+      6.7,
+      5.65,
+      null,
+      null,
+      null,
+      5.79,
+      5.67,
+      5.4,
+      5.0,
+      4.73,
+      4.67,
+      4.68,
+      4.47,
+      4.38,
+      4.87,
+      5.29,
+      5.21,
+      4.89,
+      4.93,
+      6.35,
+      6.78,
+      6.51,
+      5.76
+     ]
+    }
+   ]
+  },
+  "nodata": true,
+  "top": 10,
+  "dec": 1,
+  "unit": "murders per 100,000 (UNODC, latest reported year)",
+  "keyframes": [
+   [
+    "L1",
+    "2000"
+   ],
+   [
+    "L2e",
+    "2022"
+   ],
+   [
+    "L3:jumps",
+    "2022"
+   ],
+   [
+    "L3:latest",
+    "2024"
+   ]
+  ],
+  "hook_y": 640,
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ]
+   ]
+  },
+  "callouts": [
+   {
+    "at": "L3:latest",
+    "until": "L5e",
+    "text": "Israel *2024:* Taub Center count + CBS population"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/me_christians_race/map_open.jpg",
+    "credit": "Natural Earth map (PD)",
+    "kb": [
+     0.38,
+     0.575,
+     1.0,
+     0.38,
+     0.575,
+     1.06
+    ],
+    "dim": 0.12,
+    "at": 0,
+    "until": "L1"
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/arabtown.jpg",
+    "at": "L10",
+    "until": "L11e",
+    "credit": "Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/court.jpg",
+    "at": "L13",
+    "until": "L14e",
+    "credit": "Supreme Court and Knesset, israeltourism, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.2
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+    "at": "L15",
+    "until": "END+1",
+    "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0",
+    "kb": [
+     0.62,
+     0.4,
+     1.0,
+     0.6,
+     0.38,
+     1.12
+    ],
+    "dim": 0.45
+   }
+  ],
+  "big": [
+   {
+    "at": "L7",
+    "until": "L7e",
+    "value": 0.8,
+    "from": 0,
+    "dec": 1,
+    "sub": "Jewish Israelis, murders per 100,000, 2024"
+   },
+   {
+    "at": "L8",
+    "until": "L8e",
+    "value": 10.5,
+    "from": 0,
+    "dec": 1,
+    "sub": "Arab Israelis, murders per 100,000, 2024"
+   },
+   {
+    "at": "L9",
+    "until": "L9e",
+    "value": 14,
+    "from": 1,
+    "suffix": "x",
+    "sub": "more likely to be murdered (Arab vs Jewish)"
+   },
+   {
+    "at": "L12",
+    "until": "L12e",
+    "value": 252,
+    "from": 0,
+    "sub": "Arab citizens killed in 2025, a record"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "UNODC via Our World in Data",
+   "year": 2026,
+   "at": "L1",
+   "until": "L6"
+  },
+  {
+   "label": "Taub Center; Israel CBS",
+   "year": 2025,
+   "at": "L6",
+   "until": "L10"
+  },
+  {
+   "label": "Abraham Initiatives",
+   "year": 2025,
+   "at": "L12",
+   "until": "L12e"
+  }
+ ],
+ "caption_en": "Two numbers, one country. The gap is the story. 🔍\n\nIs Israel a violent country? Now with the latest data.\n\nMurders per 100,000 people, UNODC data (via Our World in Data, June 2026 update), latest year each country reported:\nGermany 0.9 (2023), Saudi Arabia 0.9 (2019), Jordan 1.0 (2023), Egypt 1.3 (2017), Syria 2.1 (2010), Lebanon 2.2 (2020), Iran 2.4 (2014), Turkey 3.2 (2023), USA 5.8 (2023).\nIsrael: 1.6 in 2022 (UNODC, its latest). 2024: about 2.8 (Taub Center count of 278 victims: 220 Arab, 58 Jewish; Israel CBS population 10,027,000, end of 2024). Israel has no UNODC figure for 2023 yet, so the race jumps from 2022 to 2024.\n\nNow split Israel in two (2024):\nJewish Israelis: 58 victims, about 0.8 per 100,000. Lower than Germany.\nArab Israelis: 220 victims, about 10.5 per 100,000. Almost double the USA.\nTaub Center: Arab citizens are 14 times more likely to be murdered.\n2025: 252 Arab citizens killed, the deadliest year on record (Abraham Initiatives).\n\nMost Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens caught between Arab crime organisations and smuggled guns. The state is failing to protect them.\nSmall print: some governments undercount, Taub's count leaves out terror attacks, and war deaths are not in these numbers. Gaps between reported years are filled in a straight line.\n\nSources: UNODC intentional homicide rate via Our World in Data (2026); Taub Center homicide update (Feb 2025); Israel CBS population, end of 2024; Abraham Initiatives 2025 summary report.\nPhotos: Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5; Supreme Court, israeltourism, CC BY 2.0; Tel Aviv, Maqaf Ivri, CC BY-SA 4.0.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ישראל מדינה אלימה? עכשיו עם הנתונים העדכניים.\n\nרציחות לכל 100,000 תושבים (UNODC). ישראל: 1.6 ב-2022, וכ-2.8 ב-2024 (מרכז טאוב והלמ\"ס).\nכשמפצלים את ישראל (2024): יהודים כ-0.8 (פחות מגרמניה), ערבים כ-10.5 (כמעט פי 2 מארה\"ב). פי 14.\n2025: 252 אזרחים ערבים נרצחו, השנה הקטלנית ביותר שנרשמה (יוזמות אברהם).\n\nרוב הערבים והיהודים בישראל חיים בשלום. רבים מהקורבנות הם אזרחים ערבים שלווים שנקלעו בין ארגוני פשיעה לנשק מוברח. המדינה לא מצליחה להגן עליהם.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "*0.8* or *10.5?*|Same country."
+ }
+}
