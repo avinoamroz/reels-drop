@@ -79,13 +79,23 @@
  ],
  "data": {
   "cam0": [
-   -97.0,
-   37.0,
-   62.0
+   -30.0,
+   36.0,
+   140.0
   ],
   "hook_y": 760,
   "title_y": 300,
   "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     -97.0,
+     37.0,
+     62.0,
+     960
+    ],
+    "dur": 1.2
+   },
    {
     "at": "L7-0.3",
     "view": [
@@ -109,9 +119,9 @@
    {
     "at": "L14-0.3",
     "view": [
-     -97.0,
-     37.0,
-     62.0,
+     -30.0,
+     36.0,
+     140.0,
      960
     ],
     "dur": 1.0
@@ -194,26 +204,6 @@
    "y": 420,
    "name": "anonymous comment"
   },
-  "icons": [
-   {
-    "at": "L6:fish",
-    "until": "L7",
-    "lon": -104.0,
-    "lat": 38.0,
-    "emo": "🐟",
-    "size": 150,
-    "label": "one day"
-   },
-   {
-    "at": "L6:rod",
-    "until": "L7",
-    "lon": -88.0,
-    "lat": 38.0,
-    "emo": "🎣",
-    "size": 150,
-    "label": "a lifetime"
-   }
-  ],
   "bars": [
    {
     "at": "L9:research",
@@ -364,7 +354,25 @@
      "END"
     ]
    ]
-  }
+  },
+  "overlays": [
+   {
+    "at": "L6:fish",
+    "until": "L7",
+    "text": "*Fish:* feeds you a day",
+    "y": 820,
+    "size": 64,
+    "pill": "#0B1730"
+   },
+   {
+    "at": "L6:rod",
+    "until": "L7",
+    "text": "*Rod:* feeds you for life",
+    "y": 980,
+    "size": 64,
+    "pill": "#0B1730"
+   }
+  ]
  },
  "sources": [
   {

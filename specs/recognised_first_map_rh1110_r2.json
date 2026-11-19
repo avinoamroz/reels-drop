@@ -133,57 +133,57 @@
     "at": "L3:truman",
     "until": "L14",
     "code": "USA",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L5:soviet",
     "until": "L14",
     "code": "RUS",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L8:egypt",
     "until": "L14",
     "code": "EGY",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L9:china",
     "until": "L14",
     "code": "CHN",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L9:jordan",
     "until": "L14",
     "code": "JOR",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L10:uae",
     "until": "L14",
     "code": "ARE",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L10:uae",
     "until": "L14",
     "code": "BHR",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L10:uae",
     "until": "L14",
     "code": "MAR",
-    "color": "#45A4DD",
-    "alpha": 0.85
+    "color": "#FFFFFF",
+    "alpha": 0.7
    },
    {
     "at": "L14:twenty",
@@ -416,7 +416,7 @@
    {
     "label": "Countries that recognise Israel",
     "at": "L7",
-    "until": "L12-0.1",
+    "until": "L8-0.1",
     "y": 1300,
     "steps": [
      {
@@ -426,7 +426,16 @@
      {
       "at": "L7:forty",
       "value": 47
-     },
+     }
+    ]
+   },
+   {
+    "label": "UN members that recognise Israel",
+    "of": 192,
+    "at": "L11",
+    "until": "L12-0.1",
+    "y": 1300,
+    "steps": [
      {
       "at": "L11:one",
       "value": 169
@@ -473,7 +482,7 @@
     "at": "L14:twenty",
     "until": "END-0.6",
     "value": 23,
-    "from": 1,
+    "from": 23,
     "sub": "UN members still say no",
     "y": 1300
    }
@@ -483,8 +492,9 @@
     "at": "L11",
     "until": "L13-0.1",
     "text": "Which one *surprised* you?",
-    "y": 1480,
-    "size": 54
+    "y": 1010,
+    "size": 56,
+    "pill": "#0B1730"
    }
   ],
   "photos": [
