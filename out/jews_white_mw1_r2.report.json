@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Jews are white?|Count *9* homelands.",
- "duration": 50.93,
+ "duration": 48.57,
  "audio": {
   "lufs": -16.2,
-  "true_peak": -2.0
+  "true_peak": -1.5
  },
  "outputs": {
   "mp4": "out/jews_white_mw1_r2.mp4",
@@ -59,7 +59,7 @@
   }
  ],
  "transcript": {
-  "score": 0.986,
+  "score": 0.993,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -88,8 +88,8 @@
     "flag": "ok"
    },
    {
-    "line": "Bukhara. India.",
-    "score": 0.5,
+    "line": "Bukhara, in Uzbekistan. India.",
+    "score": 0.75,
     "flag": "MISS"
    },
    {
@@ -124,7 +124,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -133,12 +133,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "Jews are white? Let's count the homelands. Yemen. 1949 to 1950. Nearly 49,000 Jews are flown to Israel. Iraq. 1951. More than 120,000. Ethiopia 1991. Over 14,000 people in just 36 hours. Morocco. Iran. Kurdistan. Gokara. India. And Poland. Okay, that one is pretty white. So what does Israel look like today? 48% Mizrahi or Sephardi? 45% Ashkenazi and 177,600 Israelis of Ethiopian origin. Jews aren't a skin color. We're a people. Which Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian. Tell me. If you love Israeli facts, follow Noam Roz from more. Now count again. 9 homelands",
+  "heard": "Jews are white. Let's count the homelands. Yemen. 1949 to 1950. Nearly 49,000 Jews are flown to Israel. Iraq. 1951. More than 120,000. Ethiopia in 1991. Over 14,000 people in just 36 hours. Morocco. Iran. Kurdistan. Buhara. In Uzbekistan. India. And Poland. Okay, that one is pretty white. So, what does Israel look like today? 48% Mizrahi or Sephardi, 45% Ashkenazi, and 177,600 Israelis of Ethiopian origin. Jews aren't a skin color, we're a people. Which Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me. If you love Israeli facts, follow Noam Roz for more. Now count again, nine homelands.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 49.42,
+ "body_s": 47.08,
  "opener": {
   "style": "globe_spin_fast",
   "opener_s": 2.4,
@@ -146,8 +146,8 @@
  },
  "mix": {
   "lufs": -16.2,
-  "true_peak": -2.0
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 152.6
+ "render_s": 235.2
 }
