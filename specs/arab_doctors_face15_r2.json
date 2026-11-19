@@ -1,0 +1,264 @@
+{
+ "id": "arab_doctors_face15_r2",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*49%* of pharmacists.|Guess who?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "Almost half of Israel's pharmacists come from one minority. Guess which.",
+   "gap": 0.15
+  },
+  {
+   "say": "Arab citizens. They are twenty one percent of Israel.",
+   "screen": "Arab citizens: *21%* of Israel"
+  },
+  {
+   "say": "But behind the pharmacy counter: forty nine percent.",
+   "screen": "Pharmacists: *49%*"
+  },
+  {
+   "say": "Nurses: twenty seven percent. Dentists: twenty seven.",
+   "screen": "Nurses *27%.* Dentists *27%.*"
+  },
+  {
+   "say": "And doctors? In twenty ten, eight percent.",
+   "screen": "Doctors, *2010*"
+  },
+  {
+   "say": "By twenty twenty three: twenty five. More than triple.",
+   "screen": "Doctors, *2023*"
+  },
+  {
+   "say": "Of all new doctors licensed since twenty ten: thirty eight percent.",
+   "screen": "New doctors since 2010"
+  },
+  {
+   "say": "Some call Israel apartheid. This is a test almost nobody runs."
+  },
+  {
+   "say": "The same study says real gaps remain. Equality isn't finished."
+  },
+  {
+   "say": "So next time you pick up medicine in Israel, look at the name tag.",
+   "screen": "Look at the *name tag*"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "gap": 0.12
+  },
+  {
+   "say": "Because almost half of Israel's pharmacists come from one minority.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cut": 0.25,
+  "hook_y": 880,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_superpharm.jpg",
+    "at": 0.0,
+    "credit": "Pharmacy aisle: Rakoon, CC0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
+    "at": "L2",
+    "credit": "Alkamal Pharmacy: Israel Preker, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.45,
+     0.5,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
+    "at": "L3",
+    "credit": "Hadassah Ein Kerem: Davidi Vardi, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.55,
+     0.45,
+     1.0,
+     0.55,
+     0.45,
+     1.18
+    ]
+   },
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_soroka.jpg",
+    "at": "L4",
+    "credit": "Soroka and BGU: Omer Berner, CC BY-SA 4.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_taumed.jpg",
+    "at": "L6",
+    "credit": "Tel Aviv University medicine: Israel Zeller, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.35,
+     0.5,
+     1.0,
+     0.4,
+     0.45,
+     1.18
+    ]
+   },
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
+    "at": "L7",
+    "credit": "Hadassah Ein Kerem: Davidi Vardi, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.55,
+     0.45,
+     1.15,
+     0.55,
+     0.45,
+     1.0
+    ],
+    "dim": 0.45
+   },
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
+    "at": "L9",
+    "credit": "Alkamal Pharmacy: Israel Preker, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.45,
+     0.5,
+     1.2,
+     0.4,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "file": "templates/photos/arab_doctors_face15_r2/bI_ad_superpharm.jpg",
+    "at": "L11",
+    "credit": "Pharmacy aisle: Rakoon, CC0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.0
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L1:twenty",
+    "until": "L2-0.1",
+    "value": 21,
+    "from": 0,
+    "suffix": "%",
+    "sub": "of Israel's population",
+    "y": 1000
+   },
+   {
+    "at": "L2:forty",
+    "until": "L3-0.1",
+    "value": 49,
+    "from": 21,
+    "suffix": "%",
+    "sub": "of pharmacists, 2023",
+    "y": 1000
+   },
+   {
+    "at": "L4:eight",
+    "until": "L5-0.1",
+    "value": 8,
+    "from": 0,
+    "suffix": "%",
+    "sub": "of doctors, 2010",
+    "y": 1000
+   },
+   {
+    "at": "L5:twenty#3",
+    "until": "L6-0.1",
+    "value": 25,
+    "from": 8,
+    "suffix": "%",
+    "sub": "of doctors, 2023",
+    "y": 1000
+   },
+   {
+    "at": "L6:thirty",
+    "until": "L7-0.1",
+    "value": 38,
+    "from": 0,
+    "suffix": "%",
+    "sub": "of new doctor licences, 2010 to 2022",
+    "y": 1000
+   }
+  ],
+  "math": [
+   {
+    "at": "L7:test",
+    "until": "L8-0.1",
+    "title": "Arab citizens of Israel",
+    "rows": [
+     "Population: 21%",
+     "Doctors: 25%",
+     "Pharmacists: 49%"
+    ],
+    "result": "over-represented",
+    "y": 900
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Rosen and Miaari, Israel Journal of Health Policy Research",
+   "year": 2025,
+   "at": "L1",
+   "until": "L8"
+  }
+ ],
+ "end": {
+  "at": "L8",
+  "balance": "Real gaps *remain.* Equality isn't finished.",
+  "cta": "Look at the *name tag*"
+ },
+ "caption_en": "The last number is the one nobody talks about. 🩺\n\nArab citizens are 21% of Israel. Their share of its health workforce:\n💊 Pharmacists: 49% (2023), up from 28% in 2010. Almost half.\n🩺 Doctors: 8% (2010) to 25% (2023). More than triple.\nNurses 27%. Dentists 27%.\n🎓 Of new physician licences 2010 to 2022: 38%.\n\nSome call Israel apartheid. This is a test almost nobody runs. The same study says real gaps and challenges remain: equality isn't finished.\n\nNext time you pick up medicine in Israel, look at the name tag.",
+ "caption_he": "כמעט חצי מהרוקחים בישראל באים ממיעוט אחד. 🩺\nאזרחים ערבים הם 21% מאוכלוסיית ישראל. החלק שלהם בכוח האדם ברפואה:\n💊 רוקחים: 49% (2023), לעומת 28% ב 2010.\n🩺 רופאים: 8% (2010) עד 25% (2023). יותר מפי שלושה.\nאחיות 27%. רופאי שיניים 27%.\n🎓 מרישיונות הרופאים החדשים 2010 עד 2022: 38%.\nאותו מחקר אומר שנשארו פערים ואתגרים אמיתיים: השוויון עוד לא הושלם.\nבפעם הבאה שאתם קונים תרופה בישראל, תסתכלו על תג השם.\n\nSource: Rosen B, Miaari S. \"Arab representation in Israeli healthcare professions: achievements, challenges and opportunities\", Israel Journal of Health Policy Research 14:7 (2025). 2023 shares include Arab residents of east Jerusalem; employed professionals up to age 67.\nPhotos: Rakoon (CC0); Israel Preker, Davidi Vardi, Israel Zeller (PikiWiki, CC BY 2.5); Omer Berner (CC BY-SA 4.0), Wikimedia Commons. AI voice.",
+ "hashtags": [
+  "#Israel",
+  "#healthcare",
+  "#apartheid"
+ ],
+ "cover": {
+  "t": 1.0,
+  "big": "49%",
+  "text": "of Israel's pharmacists.|*Guess who?*"
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "id": "europe_jews_map_v2c_r2",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*9.5 million* Jews.|Now count again.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.05,
+  "gap": 0.14
+ },
+ "lines": [
+  {
+   "say": "Nine and a half million Jews lived in Europe in nineteen thirty three. Now count again.",
+   "gap": 0.15
+  },
+  {
+   "say": "Warsaw: over three hundred and fifty thousand Jews. About thirty percent of the city.",
+   "screen": "Warsaw: *350,000+* Jews"
+  },
+  {
+   "say": "Markets. Schools. Newspapers. Theatres.",
+   "screen": "Markets. Schools. *Newspapers.*"
+  },
+  {
+   "say": "And this: the Great Synagogue on Tlomackie Street.",
+   "screen": "The *Great Synagogue,* Warsaw"
+  },
+  {
+   "say": "In nineteen forty three, the Nazis blew it up. Today it survives as a model.",
+   "screen": "*1943:* blown up"
+  },
+  {
+   "say": "By nineteen fifty, Europe's count: three and a half million.",
+   "screen": "*1933* to *1950*"
+  },
+  {
+   "say": "Poland: from about three million, to forty five thousand.",
+   "screen": "*Poland*"
+  },
+  {
+   "say": "Germany: from over half a million, to thirty seven thousand.",
+   "screen": "*Germany*"
+  },
+  {
+   "say": "Survivors waited in displaced persons camps, some for years.",
+   "screen": "Displaced persons *camps*"
+  },
+  {
+   "say": "About one hundred thirty six thousand went to Israel. Over eighty thousand to the United States.",
+   "screen": "*136,000* to Israel. *80,000+* to the US."
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "gap": 0.12
+  },
+  {
+   "say": "The Soviet Union still had about two million. But most of the missing never went anywhere.",
+   "screen": "Most of the missing *never left*"
+  },
+  {
+   "say": "Six million Jews were murdered in the Holocaust. Out of nine and a half million.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cut": 0.3,
+  "hook_y": 880,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
+    "at": 0.0,
+    "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "gray": true
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_warsaw34.jpg",
+    "at": "L1",
+    "credit": "Jewish quarter, Warsaw, 1934: Willem van de Poll, CC0, Nationaal Archief",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.55,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
+    "at": "L3",
+    "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use",
+    "kb": [
+     0.62,
+     0.45,
+     1.0,
+     0.66,
+     0.42,
+     1.25
+    ],
+    "gray": true
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_model.jpg",
+    "at": "L4:today",
+    "credit": "Model, POLIN Museum: DaringDonna, CC BY-SA 4.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_warsaw34.jpg",
+    "at": "L5",
+    "credit": "Jewish quarter, Warsaw, 1934: Willem van de Poll, CC0, Nationaal Archief",
+    "kb": [
+     0.5,
+     0.5,
+     1.2,
+     0.5,
+     0.5,
+     1.0
+    ],
+    "gray": true,
+    "dim": 0.55
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_dp13.jpg",
+    "at": "L8",
+    "credit": "Barletta DP camp, 1947: Shalom Strassberg, CC BY-SA 3.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_exodus47.jpg",
+    "at": "L9",
+    "credit": "Exodus 1947, Haifa: Hans Pinn, GPO, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_dp2.jpg",
+    "at": "L10",
+    "credit": "Barletta DP camp, 1947: Shalom Strassberg, CC BY-SA 3.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.4
+   },
+   {
+    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
+    "at": "L11",
+    "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use",
+    "kb": [
+     0.5,
+     0.5,
+     1.1,
+     0.5,
+     0.5,
+     1.0
+    ],
+    "gray": true,
+    "dim": 0.5
+   }
+  ],
+  "big": [
+   {
+    "at": "L1:three",
+    "until": "L2-0.1",
+    "value": 350000,
+    "from": 0,
+    "suffix": "+",
+    "sub": "Jews in Warsaw, before the war",
+    "y": 1000
+   },
+   {
+    "at": "L6:forty",
+    "until": "L7-0.1",
+    "value": 45000,
+    "from": 3000000,
+    "sub": "Jews in Poland, 1950",
+    "y": 1000
+   },
+   {
+    "at": "L7:thirty",
+    "until": "L8-0.1",
+    "value": 37000,
+    "from": 525000,
+    "sub": "Jews in Germany, 1950",
+    "y": 1000
+   },
+   {
+    "at": "L12:six",
+    "until": "END-0.4",
+    "value": 6000000,
+    "from": 6000000,
+    "sub": "Jews murdered in the Holocaust",
+    "y": 1000
+   }
+  ],
+  "stamp": [
+   {
+    "at": "L4:blew",
+    "until": "L4:today-0.1",
+    "text": "1943",
+    "color": "red",
+    "y": 1150,
+    "angle": -5
+   }
+  ],
+  "math": [
+   {
+    "at": "L5:three",
+    "until": "L6-0.1",
+    "title": "Jews in Europe",
+    "rows": [
+     "1933: 9,500,000",
+     "1950: 3,500,000"
+    ],
+    "result": "6,000,000 fewer",
+    "y": 900
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "USHMM Holocaust Encyclopedia, Warsaw",
+   "year": 2024,
+   "at": "L1",
+   "until": "L5"
+  },
+  {
+   "label": "USHMM (American Jewish Year Book)",
+   "year": 1950,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "USHMM: displaced persons",
+   "year": 1952,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "USHMM Holocaust Encyclopedia",
+   "year": 2024,
+   "at": "L12",
+   "until": "END-0.4"
+  }
+ ],
+ "caption_en": "Nine and a half million in 1933. Count what is left. 🕯️\n\n1933: about 9.5 million Jews lived in Europe. Poland over 3 million, the Soviet Union (European part) 2,525,000, Romania 756,000, Germany 525,000, Hungary 445,000, Britain 300,000, France 250,000.\nWarsaw alone: over 350,000 Jews, about 30% of the city. Its Great Synagogue on Tlomackie Street was blown up by the Nazis on 16 May 1943.\n1950: about 3.5 million.\nPoland: from about 3,000,000 to about 45,000. Germany: from 525,000 to 37,000.\nAbout 136,000 Jewish displaced persons settled in Israel, and over 80,000 in the United States by 1952. The Soviet Union still had some two million Jews.\nSix million Jews were murdered in the Holocaust.",
+ "caption_he": "ב 1933 חיו באירופה כ 9.5 מיליון יהודים. בוורשה לבדה יותר מ 350,000, כשליש מהעיר. בית הכנסת הגדול ברחוב טלומצקה פוצץ בידי הנאצים ב 1943.\nב 1950 נותרו באירופה כ 3.5 מיליון. בפולין: מכ 3 מיליון לכ 45,000. בגרמניה: מ 525,000 ל 37,000.\nכ 136,000 עקורים יהודים עלו לישראל, ויותר מ 80,000 היגרו לארצות הברית.\nשישה מיליון יהודים נרצחו בשואה.\n\nSources: United States Holocaust Memorial Museum (USHMM), Holocaust Encyclopedia (Jewish population of Europe in 1933; Remaining Jewish population of Europe in 1945; Warsaw; Displaced persons), based on the American Jewish Year Book.\nPhotos: Willem van de Poll (CC0, Nationaal Archief); Great Synagogue (copyrighted free use); DaringDonna (CC BY-SA 4.0); Shalom Strassberg (CC BY-SA 3.0); Hans Pinn (GPO, public domain), Wikimedia Commons. AI voice.",
+ "hashtags": [
+  "#Holocaust",
+  "#JewishHistory",
+  "#NeverForget"
+ ],
+ "cover": {
+  "t": 1.0,
+  "big": "9,500,000",
+  "text": "Jews in Europe, 1933.|*Count again.*"
+ }
+}
