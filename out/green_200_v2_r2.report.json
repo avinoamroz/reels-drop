@@ -1,0 +1,153 @@
+{
+ "id": "green_200_v2_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*240 million* trees.|Who *planted* them?",
+ "duration": 54.03,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.0
+ },
+ "outputs": {
+  "mp4": "out/green_200_v2_r2.mp4",
+  "cover": "covers/green_200_v2_r2_cover.jpg",
+  "preview": "previews/green_200_v2_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/green_200_v2_r2_0.jpg",
+  "1": "out/frames/green_200_v2_r2_1.jpg",
+  "3": "out/frames/green_200_v2_r2_3.jpg",
+  "last": "out/frames/green_200_v2_r2_last.jpg"
+ },
+ "caption_en": "Twain would need a new word for it. 🌳\n\n1867: Mark Twain rides through the land and calls it \"a desolate country\" (The Innocents Abroad, 1869, ch. 56).\n1901: the Jewish National Fund (KKL-JNF) is founded to buy land and plant it.\nPlanted forest: 14 km² in 1901, 35 in 1942, about 600 in the early 1970s, over 1,000 by 2019 (KKL-JNF Forestry Facts and Figures, 2025).\n1964: the first trees go into Yatir, on the edge of the desert, with about 250 to 275 mm of rain a year. Today it is Israel's largest planted forest: 30,000 dunams and more than 4 million trees (KKL-JNF).\nIn total, KKL-JNF says it has planted more than 240 million trees.\n\nIt isn't spotless: some forests were planted over Arab villages emptied in 1948 and 1967 (Canada Park stands on Imwas, Yalu and Beit Nuba). And ecologists argue some of the desert should stay wild.\n\nPlant the desert, or leave it wild? Tell me below.\n\nSources: Mark Twain, The Innocents Abroad (1869); KKL-JNF Forestry Facts and Figures (2025); KKL-JNF Yatir Forest page; Haaretz and Zochrot on Canada Park.\nPhotos (Wikimedia Commons): Mark Twain, 1867: Abdullah Frères, public domain; Bethany hills, about 1870s: Félix Bonfils, Rijksmuseum, CC0; KKL planting, 1930s: Matson Collection, public domain; Yatir Forest: Okedem, CC BY-SA 3.0; Yatir Forest: Deror Avi, CC BY-SA 4.0. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "240 מיליון עצים. מי נטע אותם?\nב-1867 מארק טוויין קרא לארץ \"ארץ שוממה\". ב-1901 נוסדה קק\"ל כדי לקנות אדמה ולנטוע. היער הנטוע גדל מ-14 קמ\"ר ליותר מאלף.\nב-1964 ניטעו העצים הראשונים ביתיר, בשולי המדבר, עם 250 עד 275 מ\"מ גשם בשנה. היום זה היער הנטוע הגדול בישראל, עם יותר מ-4 מיליון עצים.\nזה לא בלי כתמים: חלק מהיערות ניטעו על כפרים ערביים שהתרוקנו ב-1948 וב-1967. ואקולוגים טוענים שחלק מהמדבר צריך להישאר פראי.\nלנטוע את המדבר או להשאיר אותו פראי? ספרו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#Trees",
+  "#IsraelFacts"
+ ],
+ "sources": [
+  {
+   "label": "Mark Twain, The Innocents Abroad, ch. 56",
+   "year": 1869,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "KKL-JNF Forestry Facts and Figures",
+   "year": 2025,
+   "at": "L3",
+   "until": "L6"
+  },
+  {
+   "label": "KKL-JNF, Yatir Forest page",
+   "year": 2026,
+   "at": "L6",
+   "until": "L9"
+  },
+  {
+   "label": "Canada Park: Imwas, Yalu, Beit Nuba (Haaretz, Zochrot)",
+   "year": 1967,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "KKL-JNF: more than 240 million trees",
+   "year": 2026,
+   "at": "L13",
+   "until": "END"
+  }
+ ],
+ "transcript": {
+  "score": 0.978,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "240 million trees. Who planted them?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1867. Mark Twain rides through this land.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "He calls it a desolate country.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1901. The Jewish National Fund is born, to buy land and plant it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Year one: 14 square kilometers of planted forest.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1942: 35. The early seventies: about 600. Today: over 1,000.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "Then they planted where it barely rains.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1964. The edge of the desert. About 250 millimeters of rain a year.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today it's Yatir, Israel's largest planted forest. Over 4 million trees.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ecologists also argue the desert should stay wild.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, plant the desert, or leave it wild? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Twain would need a new word. 240 million trees.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "240 million trees. Who planted them? 1867. Mark Twain writes through this land. He calls it a desolate country. 1901. The Jewish National Fund is born to buy land and plant it. Year 1. 14 square kilometers of planted forest. 1942. 35. The early 70s. About 600. Today. Over 1000. Then they planted where it barely rains. 1964. The edge of the desert. About 250 millimeters of rain a year. Today it's Yathir, Israel's largest planted forest. Over four million trees. It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967. Ecologists also argue the desert should stay wild. So, plant the desert or leave it wild. Tell me below. If you love Israeli facts, follow Noam Ross for more. Twain would need a new word. 240 million trees.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 52.54,
+ "opener": {
+  "style": "map_tear_v2",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 217.2
+}
