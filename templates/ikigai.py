@@ -270,5 +270,10 @@ def run(S):
         for k in range(len(RCL)): ev.append((rc0 + (rc1 - rc0) / len(RCL) * k, "tick", -22))
     aud = build_mix(S, T, work, ev)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
-    encode(frame, T.END, f"{work}/mix.m4a", final, loop=True)
-    return dict(voice=J["voice"], mix=aud)
+    op = None
+    if S.get("opener"):    # optional globe/map motion opener (map_open.py) in front, zooms to opener.cam [lon, lat, width_deg]
+        body = f"{work}/body.mp4"; encode(frame, T.END, f"{work}/mix.m4a", body, loop=False)
+        op = wrap_opener(body, S, final, S["opener"].get("cam", [35.0, 31.5, 9.0]), HY, work)
+    else:
+        encode(frame, T.END, f"{work}/mix.m4a", final, loop=True)
+    return dict(opener=op, voice=J["voice"], mix=aud)
