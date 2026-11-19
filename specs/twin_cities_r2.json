@@ -1,0 +1,948 @@
+{
+ "id": "twin_cities_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*55 km* from prayer|to *party.*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "Fifty five kilometres. From praying to partying.",
+   "gap": 0.12
+  },
+  {
+   "say": "Many countries have two cities. One runs it, one has the fun. How far apart are they?",
+   "screen": "One *runs* it. One has the *fun.*",
+   "at": "L1:one",
+   "gap": 0.12
+  },
+  {
+   "say": "Saudi Arabia: Riyadh rules, Jeddah has the sea. Eight hundred forty five kilometres.",
+   "gap": 0.12
+  },
+  {
+   "say": "Turkey: Ankara runs it, Istanbul gets the tourists. Three hundred forty nine.",
+   "gap": 0.12
+  },
+  {
+   "say": "Washington and New York, three hundred twenty eight. Canberra and Sydney, two hundred forty seven.",
+   "gap": 0.12
+  },
+  {
+   "say": "Bern and Zurich, ninety five. Rabat and Casablanca, eighty five.",
+   "gap": 0.12
+  },
+  {
+   "say": "Washington, Canberra, Ankara: all picked to be capitals.",
+   "screen": "Picked to be capitals: *1790, 1908, 1923*",
+   "at": "L6:washington",
+   "gap": 0.12
+  },
+  {
+   "say": "Jerusalem was a capital three thousand years ago. Tel Aviv was founded on the sand in nineteen oh nine.",
+   "screen": "Jerusalem: a capital *3,000* years ago",
+   "at": "L7",
+   "gap": 0.12
+  },
+  {
+   "say": "Fifty five kilometres apart. The closest pair so far.",
+   "gap": 0.12
+  },
+  {
+   "say": "Only Egypt is closer. In twenty twenty four it moved its government to a brand new city, fifty kilometres from Cairo.",
+   "screen": "Egypt: a *new* capital, since 2024",
+   "at": "L9:in",
+   "gap": 0.12
+  },
+  {
+   "say": "So Israelis say: Jerusalem prays, Tel Aviv plays.",
+   "screen": "Jerusalem *prays.* Tel Aviv *plays.*",
+   "gap": 0.12
+  },
+  {
+   "say": "Where's your country's Tel Aviv?",
+   "gap": 0.12
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "And the drive between them?",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.0,
+   31.95,
+   2.2
+  ],
+  "hook_y": 1160,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.3",
+    "view": [
+     25.0,
+     30.0,
+     130,
+     700
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L2-0.4",
+    "view": [
+     42.9,
+     23.1,
+     15,
+     640
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L3-0.4",
+    "view": [
+     30.9,
+     40.3,
+     9.5,
+     640
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L4-0.35",
+    "view": [
+     -75.4,
+     39.6,
+     6.5,
+     640
+    ],
+    "dur": 0.9
+   },
+   {
+    "at": "L4:canberra-0.35",
+    "view": [
+     150.1,
+     -34.6,
+     5.0,
+     640
+    ],
+    "dur": 0.9
+   },
+   {
+    "at": "L5-0.35",
+    "view": [
+     7.95,
+     47.15,
+     2.6,
+     640
+    ],
+    "dur": 0.9
+   },
+   {
+    "at": "L5:rabat-0.35",
+    "view": [
+     -7.2,
+     33.8,
+     2.6,
+     640
+    ],
+    "dur": 0.9
+   },
+   {
+    "at": "L6-0.3",
+    "view": [
+     20.0,
+     35.0,
+     60,
+     700
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L7-0.3",
+    "view": [
+     35.0,
+     31.95,
+     1.5,
+     640
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L9-0.3",
+    "view": [
+     31.5,
+     30.05,
+     1.5,
+     640
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L10-0.3",
+    "view": [
+     35.0,
+     31.95,
+     1.5,
+     640
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L13-0.3",
+    "view": [
+     35.0,
+     31.95,
+     2.2,
+     960
+    ],
+    "dur": 0.8
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L2",
+    "until": "L3-0.2",
+    "code": "SAU",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L3",
+    "until": "L4-0.2",
+    "code": "TUR",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L4",
+    "until": "L4:canberra-0.1",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L4:canberra",
+    "until": "L5-0.2",
+    "code": "AUS",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L5",
+    "until": "L5:rabat-0.1",
+    "code": "CHE",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L5:rabat",
+    "until": "L6-0.2",
+    "code": "MAR",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   },
+   {
+    "at": "L9",
+    "until": "L10-0.2",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.45
+   }
+  ],
+  "pins": [
+   {
+    "at": 0,
+    "until": "L1-0.2",
+    "lon": 35.2345,
+    "lat": 31.7767,
+    "label": "Jerusalem",
+    "color": "yellow"
+   },
+   {
+    "at": 0,
+    "until": "L1-0.2",
+    "lon": 34.7806,
+    "lat": 32.0809,
+    "label": "Tel Aviv",
+    "color": "blue"
+   },
+   {
+    "at": "L13",
+    "until": "END",
+    "lon": 35.2345,
+    "lat": 31.7767,
+    "label": "Jerusalem",
+    "color": "yellow"
+   },
+   {
+    "at": "L13",
+    "until": "END",
+    "lon": 34.7806,
+    "lat": 32.0809,
+    "label": "Tel Aviv",
+    "color": "blue"
+   },
+   {
+    "at": "L2+0.15",
+    "until": "L3-0.2",
+    "lon": 46.6753,
+    "lat": 24.7136,
+    "label": "Riyadh",
+    "color": "yellow"
+   },
+   {
+    "at": "L2+0.35",
+    "until": "L3-0.2",
+    "lon": 39.1925,
+    "lat": 21.4858,
+    "label": "Jeddah",
+    "color": "blue"
+   },
+   {
+    "at": "L3+0.15",
+    "until": "L4-0.2",
+    "lon": 32.8597,
+    "lat": 39.9334,
+    "label": "Ankara",
+    "color": "yellow"
+   },
+   {
+    "at": "L3+0.35",
+    "until": "L4-0.2",
+    "lon": 28.9784,
+    "lat": 41.0082,
+    "label": "Istanbul",
+    "color": "blue"
+   },
+   {
+    "at": "L4+0.15",
+    "until": "L4:canberra-0.1",
+    "lon": -77.0364,
+    "lat": 38.8951,
+    "label": "Washington",
+    "color": "yellow"
+   },
+   {
+    "at": "L4+0.35",
+    "until": "L4:canberra-0.1",
+    "lon": -74.006,
+    "lat": 40.7128,
+    "label": "New York",
+    "color": "blue"
+   },
+   {
+    "at": "L4:canberra+0.15",
+    "until": "L5-0.2",
+    "lon": 149.13,
+    "lat": -35.2809,
+    "label": "Canberra",
+    "color": "yellow"
+   },
+   {
+    "at": "L4:canberra+0.35",
+    "until": "L5-0.2",
+    "lon": 151.2093,
+    "lat": -33.8688,
+    "label": "Sydney",
+    "color": "blue"
+   },
+   {
+    "at": "L5+0.15",
+    "until": "L5:rabat-0.1",
+    "lon": 7.4474,
+    "lat": 46.948,
+    "label": "Bern",
+    "color": "yellow"
+   },
+   {
+    "at": "L5+0.35",
+    "until": "L5:rabat-0.1",
+    "lon": 8.5417,
+    "lat": 47.3769,
+    "label": "Zurich",
+    "color": "blue"
+   },
+   {
+    "at": "L5:rabat+0.15",
+    "until": "L6-0.2",
+    "lon": -6.8416,
+    "lat": 34.0209,
+    "label": "Rabat",
+    "color": "yellow"
+   },
+   {
+    "at": "L5:rabat+0.35",
+    "until": "L6-0.2",
+    "lon": -7.5898,
+    "lat": 33.5731,
+    "label": "Casablanca",
+    "color": "blue"
+   },
+   {
+    "at": "L6:washington",
+    "until": "L7-0.2",
+    "lon": -77.0364,
+    "lat": 38.8951,
+    "label": "1790",
+    "color": "yellow"
+   },
+   {
+    "at": "L6:canberra",
+    "until": "L7-0.2",
+    "lon": 149.13,
+    "lat": -35.2809,
+    "label": "1908",
+    "color": "yellow"
+   },
+   {
+    "at": "L6:ankara",
+    "until": "L7-0.2",
+    "lon": 32.8597,
+    "lat": 39.9334,
+    "label": "1923",
+    "color": "yellow"
+   },
+   {
+    "at": "L7",
+    "until": "L9-0.2",
+    "lon": 35.2345,
+    "lat": 31.7767,
+    "label": "Jerusalem",
+    "color": "yellow"
+   },
+   {
+    "at": "L7:tel",
+    "until": "L9-0.2",
+    "lon": 34.7806,
+    "lat": 32.0809,
+    "label": "Tel Aviv, 1909",
+    "color": "blue"
+   },
+   {
+    "at": "L9:cairo",
+    "until": "L10-0.2",
+    "lon": 31.2357,
+    "lat": 30.0444,
+    "label": "Cairo",
+    "color": "blue"
+   },
+   {
+    "at": "L9:brand",
+    "until": "L10-0.2",
+    "lon": 31.755,
+    "lat": 30.0219,
+    "label": "The New Capital",
+    "color": "yellow"
+   },
+   {
+    "at": "L10",
+    "until": "L13-0.2",
+    "lon": 35.2345,
+    "lat": 31.7767,
+    "label": "Jerusalem",
+    "color": "yellow"
+   },
+   {
+    "at": "L10",
+    "until": "L13-0.2",
+    "lon": 34.7806,
+    "lat": 32.0809,
+    "label": "Tel Aviv",
+    "color": "blue"
+   }
+  ],
+  "routes": [
+   {
+    "at": 0,
+    "until": "L1-0.2",
+    "path": [
+     [
+      35.2345,
+      31.7767
+     ],
+     [
+      34.7806,
+      32.0809
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.7,
+    "label": "55 km",
+    "label_at": [
+     35.0075,
+     32.0488
+    ],
+    "label_dy": -40
+   },
+   {
+    "at": "L13",
+    "until": "END",
+    "path": [
+     [
+      35.2345,
+      31.7767
+     ],
+     [
+      34.7806,
+      32.0809
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.7,
+    "label": "55 km",
+    "label_at": [
+     35.0075,
+     32.0488
+    ],
+    "label_dy": -40
+   },
+   {
+    "at": "L2+0.45",
+    "until": "L3-0.2",
+    "path": [
+     [
+      46.6753,
+      24.7136
+     ],
+     [
+      39.1925,
+      21.4858
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.5,
+    "label": "845 km",
+    "label_at": [
+     42.9339,
+     23.0997
+    ],
+    "label_dy": -50
+   },
+   {
+    "at": "L3+0.45",
+    "until": "L4-0.2",
+    "path": [
+     [
+      32.8597,
+      39.9334
+     ],
+     [
+      28.9784,
+      41.0082
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.5,
+    "label": "349 km",
+    "label_at": [
+     30.91905,
+     40.4708
+    ],
+    "label_dy": -50
+   },
+   {
+    "at": "L4+0.45",
+    "until": "L4:canberra-0.1",
+    "path": [
+     [
+      -77.0364,
+      38.8951
+     ],
+     [
+      -74.006,
+      40.7128
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.5,
+    "label": "328 km",
+    "label_at": [
+     -75.5212,
+     39.80395
+    ],
+    "label_dy": -50
+   },
+   {
+    "at": "L4:canberra+0.45",
+    "until": "L5-0.2",
+    "path": [
+     [
+      149.13,
+      -35.2809
+     ],
+     [
+      151.2093,
+      -33.8688
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.5,
+    "label": "247 km",
+    "label_at": [
+     150.16965,
+     -34.57485
+    ],
+    "label_dy": -50
+   },
+   {
+    "at": "L5+0.45",
+    "until": "L5:rabat-0.1",
+    "path": [
+     [
+      7.4474,
+      46.948
+     ],
+     [
+      8.5417,
+      47.3769
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.5,
+    "label": "95 km",
+    "label_at": [
+     7.99455,
+     47.16245
+    ],
+    "label_dy": -50
+   },
+   {
+    "at": "L5:rabat+0.45",
+    "until": "L6-0.2",
+    "path": [
+     [
+      -6.8416,
+      34.0209
+     ],
+     [
+      -7.5898,
+      33.5731
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.5,
+    "label": "85 km",
+    "label_at": [
+     -7.2157,
+     33.797
+    ],
+    "label_dy": -50
+   },
+   {
+    "at": "L8",
+    "until": "L9-0.2",
+    "path": [
+     [
+      35.2345,
+      31.7767
+     ],
+     [
+      34.7806,
+      32.0809
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.6,
+    "label": "55 km",
+    "label_at": [
+     35.0075,
+     32.0488
+    ],
+    "label_dy": -40
+   },
+   {
+    "at": "L9:fifty",
+    "until": "L10-0.2",
+    "path": [
+     [
+      31.2357,
+      30.0444
+     ],
+     [
+      31.755,
+      30.0219
+     ]
+    ],
+    "kind": "line",
+    "color": "yellow",
+    "width": 8,
+    "draw": 0.5,
+    "label": "50 km",
+    "label_at": [
+     31.5,
+     30.14
+    ],
+    "label_dy": -40
+   }
+  ],
+  "bars": [
+   {
+    "at": "L8:closest",
+    "until": "L10-0.1",
+    "title": "Capital to *fun city*, km",
+    "y": 560,
+    "rows": [
+     {
+      "label": "Egypt (new)",
+      "flag": "EG",
+      "value": 50,
+      "txt": "50 km",
+      "hl": false,
+      "color": "#45A4DD",
+      "at": "L9:only"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 55,
+      "txt": "55 km",
+      "hl": true,
+      "color": "#45A4DD",
+      "at": "L8:closest"
+     },
+     {
+      "label": "Morocco",
+      "flag": "MA",
+      "value": 85,
+      "txt": "85 km",
+      "hl": false,
+      "color": "#45A4DD",
+      "at": "L8:closest"
+     },
+     {
+      "label": "Switzerland",
+      "flag": "CH",
+      "value": 95,
+      "txt": "95 km",
+      "hl": false,
+      "color": "#45A4DD",
+      "at": "L8:closest"
+     },
+     {
+      "label": "Australia",
+      "flag": "AU",
+      "value": 247,
+      "txt": "247 km",
+      "hl": false,
+      "color": "#45A4DD",
+      "at": "L8:closest"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 328,
+      "txt": "328 km",
+      "hl": false,
+      "color": "#45A4DD",
+      "at": "L8:closest"
+     },
+     {
+      "label": "Türkiye",
+      "flag": "TR",
+      "value": 349,
+      "txt": "349 km",
+      "hl": false,
+      "color": "#45A4DD",
+      "at": "L8:closest"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 845,
+      "txt": "845 km",
+      "hl": false,
+      "color": "#45A4DD",
+      "at": "L8:closest"
+     }
+    ],
+    "vmax": 845,
+    "lab_w": 420
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/ikigai_nations/ik_riyadh.jpg",
+    "at": "L2:riyadh",
+    "until": "L3-0.2",
+    "credit": "Riyadh: B.alotaby, CC BY-SA 4.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/ikigai_nations/ik_istanbul.jpg",
+    "at": "L3:istanbul",
+    "until": "L4-0.2",
+    "credit": "Istanbul: SegLig, CC BY 4.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/twin_cities/nyc.jpg",
+    "at": "L4:new",
+    "until": "L4:canberra-0.1",
+    "credit": "New York: Oleg Yunakov, CC BY-SA 4.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/twin_cities/sydney.jpg",
+    "at": "L4:sydney",
+    "until": "L5-0.2",
+    "credit": "Sydney: Dietmar Rabich, CC BY-SA 4.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/twin_cities/casa.jpg",
+    "at": "L5:casablanca",
+    "until": "L6-0.2",
+    "credit": "Casablanca: OussamaHamama, CC BY-SA 4.0",
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/twin_cities/wall.jpg",
+    "at": "L7:jerusalem",
+    "until": "L7:tel",
+    "credit": "Western Wall Plaza: Gary Todd, CC0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.1
+    ],
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/twin_cities/tlv.jpg",
+    "at": "L7:tel",
+    "until": "L8-0.2",
+    "credit": "Tel Aviv: Markus Trienke, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.1
+    ],
+    "dim": 0.1
+   },
+   {
+    "file": "templates/photos/twin_cities/nac.jpg",
+    "at": "L9:brand",
+    "until": "L10-0.2",
+    "credit": "The New Capital: Mohamed Ouda, CC BY-SA 4.0",
+    "dim": 0.1
+   }
+  ],
+  "photo_box": [
+   60,
+   1010,
+   960,
+   430,
+   28
+  ],
+  "overlays": [
+   {
+    "at": "L11",
+    "until": "L12",
+    "text": "Where's *your* country's Tel Aviv?",
+    "y": 1250,
+    "size": 60
+   },
+   {
+    "at": "L12",
+    "until": "L12e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1250,
+    "size": 72,
+    "cue": true
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "L13",
+     "END"
+    ]
+   ]
+  },
+  "tail": 0.55
+ },
+ "sources": [
+  {
+   "label": "Straight line, city centres (our calculation)",
+   "at": "L2",
+   "until": "L6-0.1",
+   "year": 2026
+  },
+  {
+   "label": "US Senate; Parliament of Australia; TBMM",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "Tel Aviv-Yafo Municipality",
+   "year": 2024,
+   "at": "L7:tel",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "ACUD; Egyptian Streets",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10-0.1"
+  }
+ ],
+ "caption_en": "The capital and the party city: guess which pair sits closest. 🏙️\n\n🇮🇱 Jerusalem and Tel Aviv: 55 km apart. Jerusalem is the seat of the Knesset and the government; Tel Aviv was founded in 1909, on the sand.\n🇹🇷 Ankara and Istanbul: 349 km\n🇲🇦 Rabat and Casablanca: 85 km\n🇸🇦 Riyadh and Jeddah: 845 km\n🇺🇸 Washington and New York: 328 km\n🇦🇺 Canberra and Sydney: 247 km\n🇨🇭 Bern and Zurich: 95 km\n🇪🇬 Egypt went the other way: since April 2024 its seat of government is a brand new city, The New Capital, about 50 km east of Cairo.\n\nWashington (chosen in 1790), Canberra (site chosen in 1908) and Ankara (capital since 1923) were picked to be capitals. Jerusalem was King David's capital about 3,000 years ago.\n\nDistances are straight lines between city centres (our calculation). Which city would you pick?\n\nSources: US Senate (Residence Act 1790); Parliament of Australia (Seat of Government Act 1908); Grand National Assembly of Türkiye (13 Oct 1923); Tel Aviv-Yafo Municipality (founded 1909); ACUD and Egyptian Streets, Nov 2025 (The New Capital, seat of government since 2 April 2024).\nPhotos: Western Wall Plaza, Gary Todd (CC0); Tel Aviv, Markus Trienke (CC BY-SA 3.0); Istanbul, SegLig (CC BY 4.0); Hassan II Mosque, Casablanca, OussamaHamama (CC BY-SA 4.0); New York, Oleg Yunakov (CC BY-SA 4.0); Sydney, Dietmar Rabich (CC BY-SA 4.0); The New Capital, Mohamed Ouda (CC BY-SA 4.0); all via Wikimedia Commons.",
+ "caption_he": "55 ק\"מ בין תפילה למסיבה.\nלכל מדינה יש תל אביב. עיר אחת שמנהלת, ועיר אחת שלא נרדמת.\nירושלים ותל אביב: 55 ק\"מ. אנקרה ואיסטנבול: 349. רבאט וקזבלנקה: 85. ריאד וג'דה: 845. וושינגטון וניו יורק: 328. קנברה וסידני: 247. ברן וציריך: 95.\nמצרים הלכה הפוך: מאפריל 2024 הממשלה יושבת בעיר חדשה במדבר, כ-50 ק\"מ מקהיר.\nירושלים מתפללת, תל אביב חוגגת. ואיזו עיר אתם הייתם בוחרים?",
+ "hashtags": [
+  "#Israel",
+  "#TelAviv",
+  "#Jerusalem"
+ ],
+ "cover": {
+  "t": 25.0,
+  "big": "55 km",
+  "text": "From prayer|to *party*"
+ },
+ "opener": {
+  "style": "map_puzzle"
+ },
+ "subs_replace": {
+  "Turkey": "Türkiye"
+ }
+}
