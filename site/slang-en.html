@@ -1,0 +1,522 @@
+<title>Israeli Slang Game</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one calm column, Apple-like. A mountain of 75 tiny steps; each slang is one step. Two people talk in a scene, you answer. */
+#eesg{
+  --bg:#f5f5f7; --card:#ffffff; --ink:#1d1d1f; --ink-2:#6e6e73; --hair:#d2d2d7;
+  --accent:#1f8fd6; --accent-ink:#ffffff; --navy:#163261;
+  --speaker:#45A4DD; --you:#F2994A; --good:#28a46a; --bad:#e2483d; --gold:#f5b800;
+  --bubble:#e9e9ee; --mine:#1f8fd6;
+  --f:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Heebo",system-ui,sans-serif;
+  --f-he:"Heebo",-apple-system,system-ui,sans-serif;
+  --shadow:0 1px 2px #0000000a,0 8px 24px #0000000f;
+  color-scheme:light;
+  font-family:var(--f); color:var(--ink); background:var(--bg); direction:ltr;
+  min-height:100vh; box-sizing:border-box; -webkit-font-smoothing:antialiased;
+  padding-left:max(16px,env(safe-area-inset-left,0px)); padding-right:max(16px,env(safe-area-inset-right,0px));
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #eesg{--bg:#000;--card:#1c1c1e;--ink:#f5f5f7;--ink-2:#a1a1a6;--hair:#38383a;--bubble:#2c2c2e;--accent:#3aa0ec;--shadow:none;color-scheme:dark}}
+:root[data-theme="dark"] #eesg{--bg:#000;--card:#1c1c1e;--ink:#f5f5f7;--ink-2:#a1a1a6;--hair:#38383a;--bubble:#2c2c2e;--accent:#3aa0ec;--shadow:none;color-scheme:dark}
+html,body{margin:0;background:#f5f5f7}
+@media (prefers-color-scheme:dark){html:not([data-theme="light"]),html:not([data-theme="light"]) body{background:#000}}
+#eesg *{box-sizing:border-box}
+#eesg [hidden]{display:none!important}
+#eesg .app{max-width:480px;margin:0 auto;display:flex;flex-direction:column;gap:16px;padding-block:14px 32px}
+#eesg header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 4px;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px)}
+#eesg .brand{font-weight:700;font-size:15px;letter-spacing:-.01em}
+#eesg .brand span{color:var(--accent)}
+#eesg .hbtns{display:flex;gap:8px;align-items:center}
+#eesg .login{appearance:none;border:0;cursor:pointer;font:inherit;font-size:13px;font-weight:600;color:var(--accent)}
+#eesg .pill{display:flex;align-items:center;gap:5px;font-variant-numeric:tabular-nums;font-size:13px;font-weight:600;color:var(--ink-2);background:var(--card);border-radius:999px;padding:6px 11px;box-shadow:var(--shadow)}
+#eesg .icon{appearance:none;cursor:pointer;background:var(--card);border:0;color:var(--ink);border-radius:999px;width:34px;height:34px;display:grid;place-items:center;box-shadow:var(--shadow)}
+#eesg .card{background:var(--card);border-radius:22px;box-shadow:var(--shadow);padding:22px 20px;display:flex;flex-direction:column;gap:14px}
+#eesg h1{font-size:34px;line-height:1.08;letter-spacing:-.025em;font-weight:800;margin:0;text-wrap:balance}
+#eesg h1 .he{font-family:var(--f-he);color:var(--accent)}
+#eesg .lead{margin:0;color:var(--ink-2);font-size:17px;line-height:1.5}
+#eesg .btn{appearance:none;border:0;cursor:pointer;font:inherit;font-weight:600;font-size:17px;border-radius:999px;padding:14px 22px;background:var(--accent);color:var(--accent-ink);text-decoration:none;text-align:center;display:block;width:100%;transition:transform .15s ease,filter .15s}
+#eesg .btn:active{transform:scale(.98)}
+#eesg .link{appearance:none;border:0;background:none;cursor:pointer;font:inherit;font-size:15px;color:var(--accent);text-align:center;text-decoration:none;padding:6px;display:block;width:100%}
+#eesg .btn:focus-visible,#eesg .opt:focus-visible,#eesg .link:focus-visible,#eesg .icon:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 45%,transparent);outline-offset:2px}
+#eesg .fine{font-size:13px;color:var(--ink-2);text-align:center;margin:0}
+
+/* mountain: 75 tiny steps to the summit */
+#eesg{--mtn1:#e4e7ee;--mtn2:#cfd5e1;--snow:#ffffff;--step:#c3c9d6}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #eesg{--mtn1:#232327;--mtn2:#2f3036;--snow:#d8dbe2;--step:#4a4b52}}
+:root[data-theme="dark"] #eesg{--mtn1:#232327;--mtn2:#2f3036;--snow:#d8dbe2;--step:#4a4b52}
+#eesg svg.mtn{width:100%;height:auto;display:block;direction:ltr;overflow:visible}
+#eesg .mtn .st{fill:var(--step);transition:fill .35s}
+#eesg .mtn .st.ok{fill:var(--good)} #eesg .mtn .st.no{fill:var(--bad)}
+#eesg .mtn .st.tech{stroke-dasharray:0}
+#eesg .mtn .climber{transition:transform .55s cubic-bezier(.2,.8,.2,1)}
+#eesg .mtn .climber.hop .body{animation:hop .55s ease}
+@keyframes hop{0%,100%{transform:translateY(0)}45%{transform:translateY(-5px)}}
+#eesg .startmtn{background:var(--bg);border-radius:16px;padding:14px 12px 8px}
+#eesg .save{gap:10px;animation:pop .35s cubic-bezier(.2,.8,.2,1);border:1.5px solid color-mix(in srgb,var(--accent) 35%,transparent)}
+#eesg .savehead{display:flex;justify-content:space-between;align-items:center}
+#eesg .savehead b{font-size:19px;letter-spacing:-.02em}
+#eesg .savesub{margin:0;color:var(--ink-2);font-size:15px;line-height:1.45}
+#eesg .x{appearance:none;border:0;background:var(--bubble);color:var(--ink-2);width:28px;height:28px;border-radius:50%;font-size:18px;line-height:1;cursor:pointer}
+#eesg form{display:flex;flex-direction:column;gap:8px}
+#eesg input{font:inherit;font-size:17px;color:var(--ink);background:var(--bg);border:1.5px solid transparent;border-radius:14px;padding:13px 16px;outline:none;width:100%}
+#eesg input:focus{border-color:var(--accent)}
+#eesg .climb{padding:12px 14px 10px;gap:6px}
+#eesg .climbhead{display:flex;justify-content:space-between;align-items:baseline;font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums}
+#eesg .climbhead b{color:var(--ink);font-weight:600}
+
+/* scene */
+#eesg .scene{padding:16px 14px 12px;gap:6px}
+#eesg .tag{align-self:flex-start;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2)}
+#eesg .tag.tech{color:var(--accent)}
+#eesg .stage{position:relative;display:flex;flex-direction:column;gap:8px;direction:ltr}
+#eesg .bub{max-width:84%;border-radius:20px;padding:11px 15px;font-size:18px;line-height:1.4;position:relative;animation:pop .3s cubic-bezier(.2,.8,.2,1)}
+#eesg .bub.them{align-self:flex-start;background:var(--bubble);border-bottom-left-radius:6px;direction:ltr;text-align:start;font-family:var(--f)}
+#eesg .bub.them mark{background:none;color:var(--accent);font-weight:700;font-family:var(--f-he)}
+#eesg .bub.mine{align-self:flex-end;background:var(--mine);color:#fff;border-bottom-right-radius:6px;font-weight:500}
+#eesg .bub.mine.wrong{background:var(--bad)}
+#eesg .bub.think{align-self:flex-end;background:var(--bubble);border-bottom-right-radius:6px;padding:14px 16px;display:flex;gap:5px}
+#eesg .bub.think i{width:7px;height:7px;border-radius:50%;background:var(--ink-2);opacity:.35;animation:dot 1.2s infinite}
+#eesg .bub.think i:nth-child(2){animation-delay:.15s} #eesg .bub.think i:nth-child(3){animation-delay:.3s}
+@keyframes dot{0%,60%,100%{opacity:.25;transform:none}30%{opacity:.8;transform:translateY(-3px)}}
+#eesg .room{background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 7%,var(--card)),var(--card));border-radius:16px;overflow:hidden}
+#eesg .talk .mouth{animation:talk .28s ease-in-out infinite alternate}
+@keyframes talk{from{transform:scaleY(.35)}to{transform:scaleY(1.15)}}
+#eesg .mouth{transform-box:fill-box;transform-origin:center}
+#eesg .eyes{animation:blink 4.5s infinite;transform-box:fill-box;transform-origin:center}
+@keyframes blink{0%,94%,100%{transform:none}96%{transform:scaleY(.1)}}
+#eesg .sweat{opacity:0;transition:opacity .3s} #eesg .no .sweat{opacity:1}
+#eesg svg.people{width:100%;height:auto;display:block}
+#eesg .names{display:flex;justify-content:space-between;font-size:12.5px;color:var(--ink-2);direction:ltr;padding:0 6px}
+#eesg .names span:last-child{text-align:right}
+#eesg .ask{font-size:15px;color:var(--ink-2);margin:4px 2px 0}
+#eesg .opts{display:flex;flex-direction:column;gap:8px}
+#eesg .opt{appearance:none;cursor:pointer;direction:ltr;text-align:left;font:inherit;font-size:17px;letter-spacing:-.01em;color:var(--ink);background:var(--bg);border:1.5px solid transparent;border-radius:16px;padding:15px 18px;transition:transform .12s ease,background .2s,border-color .2s,color .2s;width:100%}
+#eesg .opt:hover:not([disabled]){border-color:color-mix(in srgb,var(--accent) 50%,transparent)}
+#eesg .opt:active:not([disabled]){transform:scale(.99)}
+#eesg .opt[disabled]{cursor:default}
+#eesg .opt.right{background:color-mix(in srgb,var(--good) 12%,var(--card));border-color:var(--good);color:var(--good);font-weight:600}
+
+#eesg .opt.wrong{background:color-mix(in srgb,var(--bad) 10%,var(--card));border-color:var(--bad);color:var(--bad)}
+#eesg .opt.dim{opacity:.4}
+
+#eesg .reveal{display:flex;flex-direction:column;gap:12px;padding-top:4px;animation:pop .3s cubic-bezier(.2,.8,.2,1)}
+#eesg .verdict{font-size:22px;font-weight:700;letter-spacing:-.02em}
+#eesg .verdict.ok{color:var(--good)} #eesg .verdict.no{color:var(--bad)}
+#eesg .verdict .mv{font-size:14px;font-weight:600;margin-inline-start:10px;opacity:.75;letter-spacing:0}
+#eesg .kv{display:grid;grid-template-columns:auto 1fr;gap:6px 12px;align-items:baseline}
+#eesg .kv .k{font-size:13px;color:var(--ink-2)}
+#eesg .kv .v{direction:ltr;text-align:left;font-weight:600}
+#eesg .kv .lit{direction:ltr;text-align:left;color:var(--ink-2);text-decoration:line-through;text-decoration-color:color-mix(in srgb,var(--bad) 60%,transparent)}
+#eesg .ex{direction:ltr;text-align:left;font-size:15px;line-height:1.5;background:var(--bg);border-radius:12px;padding:11px 13px}
+#eesg .ex b{color:var(--accent);font-weight:600}
+#eesg .tip{font-size:14px;color:var(--ink-2);line-height:1.5;margin:0}
+#eesg .say{appearance:none;cursor:pointer;border:0;background:var(--bubble);color:var(--ink);border-radius:999px;font:inherit;font-size:13px;font-weight:500;padding:5px 11px;justify-self:start}
+
+#eesg .big{font-weight:700;font-size:64px;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums;direction:ltr;text-align:center}
+#eesg .big small{font-size:24px;color:var(--ink-2);font-weight:600}
+#eesg .mtitle{font-size:26px;font-weight:700;letter-spacing:-.02em;text-align:center;margin:0}
+#eesg .mtext{margin:0;color:var(--ink-2);line-height:1.55;text-align:center;font-size:16px}
+#eesg .emoji{font-size:44px;text-align:center;animation:pop .5s cubic-bezier(.2,.8,.2,1)}
+#eesg .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:14px;z-index:99}
+@keyframes pop{from{transform:translateY(6px) scale(.98);opacity:0}to{transform:none;opacity:1}}
+@media (prefers-reduced-motion:reduce){#eesg *{animation:none!important;transition:none!important}}
+</style>
+
+<div id="eesg"><div class="app">
+  <header>
+    <div class="brand">English <span>Express</span></div>
+    <div class="hbtns">
+      <button class="pill login" id="loginBtn" type="button">Log in</button>
+      <div class="pill" id="hudScore" hidden><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5 10 17 19 7"/></svg> <span id="okCount">0</span></div>
+      <button class="icon" id="mute" type="button"></button>
+    </div>
+  </header>
+
+  <section id="sStart" class="card">
+    <h1>How do you say <span class="he">"חבל על הזמן"</span> in English?</h1>
+    <p class="lead">75 things Israelis say at work. Pick what a native speaker would say. Every answer is one step up the mountain.</p>
+    <div class="startmtn"><svg class="mtn" id="mtnStart" viewBox="0 0 360 170" aria-hidden="true"></svg></div><p class="fine" id="startStep"></p>
+    <button class="btn" id="go">Start</button>
+    <button class="link" id="reset" type="button" hidden>Start over</button>
+    <p class="fine">Your progress is saved on this device.</p>
+  </section>
+
+  <section id="sGame" hidden style="display:flex;flex-direction:column;gap:14px">
+    <div class="card scene">
+      <span class="tag" id="tag"></span>
+      <div class="stage">
+        <div class="bub them" id="msg"></div>
+        <div class="bub think" id="think"><i></i><i></i><i></i></div>
+        <div class="bub mine" id="mine" hidden></div>
+      </div>
+      <div class="room"><svg class="people" viewBox="0 0 360 160" aria-hidden="true">
+        <rect x="0" y="0" width="360" height="160" fill="none"/>
+        <rect x="150" y="28" width="60" height="44" rx="6" fill="var(--card)" opacity=".7"/>
+        <path d="M156 64 L170 50 L180 58 L192 44 L204 64Z" fill="var(--accent)" opacity=".25"/>
+        <g id="pThem" transform="translate(92 0)">
+          <path d="M-40 150 C-40 116 -26 104 0 104 C26 104 40 116 40 150 Z" fill="var(--speaker)"/>
+          <path d="M-10 104 L0 116 L10 104 Z" fill="#ffffff" opacity=".9"/>
+          <rect x="-7" y="88" width="14" height="18" rx="6" fill="#f2c9a5"/>
+          <ellipse cx="0" cy="70" rx="21" ry="24" fill="#f2c9a5"/>
+          <ellipse cx="21" cy="72" rx="4" ry="6" fill="#f2c9a5"/>
+          <path d="M-22 70 C-24 40 -6 38 0 40 C14 38 26 48 22 72 C20 60 14 54 4 52 C-6 56 -16 56 -22 70Z" fill="#4a2f23"/><path d="M-22 70 C-28 90 -26 104 -18 112 L-12 92Z" fill="#4a2f23"/>
+          <g class="eyes"><circle cx="-4" cy="70" r="2.4" fill="#1d1d1f"/><circle cx="10" cy="70" r="2.4" fill="#1d1d1f"/></g>
+          <path class="brow" d="M-8 62 Q-4 60 0 62 M6 62 Q10 60 14 62" stroke="#3a2a20" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <circle cx="-8" cy="79" r="3.5" fill="#ff8a7a" opacity=".25"/><circle cx="14" cy="79" r="3.5" fill="#ff8a7a" opacity=".25"/>
+          <path class="mouth" d="M-2 82 Q3 86 8 82" stroke="#7a3b2e" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path class="sweat" d="M-19 58 q3 5 0 8 q-3 -3 0 -8Z" fill="#7cc4f2"/>
+        </g>
+        <g id="pYou" transform="translate(268 0)">
+          <path d="M-40 150 C-40 116 -26 104 0 104 C26 104 40 116 40 150 Z" fill="var(--you)"/>
+          <path d="M-10 104 L0 116 L10 104 Z" fill="#ffffff" opacity=".9"/>
+          <rect x="-7" y="88" width="14" height="18" rx="6" fill="#d9a27a"/>
+          <ellipse cx="0" cy="70" rx="21" ry="24" fill="#d9a27a"/>
+          <ellipse cx="-21" cy="72" rx="4" ry="6" fill="#d9a27a"/>
+          <path d="M-21 66 C-22 46 -8 42 2 44 C14 42 24 50 21 66 C18 56 10 52 0 54 C-8 52 -16 56 -21 66Z" fill="#2b2b2e"/>
+          <g class="eyes"><circle cx="-10" cy="70" r="2.4" fill="#1d1d1f"/><circle cx="4" cy="70" r="2.4" fill="#1d1d1f"/></g>
+          <path class="brow" d="M-14 62 Q-10 60 -6 62 M0 62 Q4 60 8 62" stroke="#3a2a20" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <circle cx="-14" cy="79" r="3.5" fill="#ff8a7a" opacity=".25"/><circle cx="8" cy="79" r="3.5" fill="#ff8a7a" opacity=".25"/>
+          <path class="mouth" d="M-8 82 Q-3 86 2 82" stroke="#7a3b2e" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+          <path class="sweat" d="M19 58 q3 5 0 8 q-3 -3 0 -8Z" fill="#7cc4f2"/>
+        </g>
+        <rect x="0" y="140" width="360" height="20" fill="var(--hair)" opacity=".55"/>
+        <path d="M150 140 L156 120 L204 120 L210 140Z" fill="#b8bcc6"/><rect x="146" y="138" width="68" height="4" rx="2" fill="#9ea3ae"/>
+        <circle cx="180" cy="130" r="2.2" fill="#fff" opacity=".8"/>
+        <rect x="56" y="126" width="12" height="14" rx="3" fill="#fff" stroke="var(--hair)"/><rect x="292" y="126" width="12" height="14" rx="3" fill="#fff" stroke="var(--hair)"/>
+      </svg></div>
+      <div class="names"><span id="who"></span><span>You</span></div>
+      <p class="ask">What do you say?</p>
+      <div class="opts" id="opts"></div>
+      <div class="reveal" id="reveal" hidden>
+      <div class="verdict" id="verdict"></div>
+      <button class="say" id="say" type="button" hidden>▶ Listen</button>
+      <button class="btn" id="next"></button>
+    </div>
+    </div>
+    <div class="card save" id="saveCard" hidden>
+      <div class="savehead"><b>Save your climb</b><button class="x" id="saveX" type="button" aria-label="Close">×</button></div>
+      <p class="savesub">Log in with your English Express account. Your progress is saved and you can keep climbing on any device.</p>
+      <form id="saveF" autocomplete="on">
+        <input id="fName" name="name" autocomplete="given-name" placeholder="First name" required>
+        <input id="fEmail" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Email" required dir="ltr">
+        <button class="btn" type="submit">Save my progress</button>
+      </form>
+    </div>
+    <div class="card climb">
+      <div class="climbhead"><b id="stepTxt"></b><span id="toTop"></span></div>
+      <svg class="mtn" id="mtnBar" viewBox="0 0 360 120" aria-hidden="true"></svg>
+    </div>
+  </section>
+
+  <section id="sMile" class="card" hidden>
+    <div class="emoji" id="mEmoji"><svg viewBox="0 0 64 48" width="72" height="54"><path d="M2 46 24 10 34 26 42 16 62 46Z" fill="var(--mtn2)"/><path d="M24 10 30 20 26 18 22 21 19 18Z" fill="var(--snow)"/><line x1="42" y1="16" x2="42" y2="2" stroke="var(--ink-2)" stroke-width="1.5"/><path d="M42 2l10 3.5-10 3.5Z" fill="var(--gold)"/></svg></div>
+    <p class="mtitle" id="mTitle"></p>
+    <div class="big" id="mScore"></div>
+    <p class="mtext" id="mText"></p>
+    <button class="btn" id="mNext">Keep climbing</button>
+    <a class="link" id="mBook" target="_blank" rel="noopener">Want a coach for the climb? Book a free fit call</a>
+  </section>
+
+  <section id="sEnd" class="card" hidden>
+    <div class="emoji"><svg viewBox="0 0 64 48" width="72" height="54"><path d="M2 46 24 10 34 26 42 16 62 46Z" fill="var(--mtn2)"/><path d="M24 10 30 20 26 18 22 21 19 18Z" fill="var(--snow)"/><line x1="42" y1="16" x2="42" y2="2" stroke="var(--ink-2)" stroke-width="1.5"/><path d="M42 2l10 3.5-10 3.5Z" fill="var(--gold)"/></svg></div>
+    <p class="mtitle" id="endT"></p>
+    <div class="big" id="eScore"></div>
+    <p class="mtext" id="eText"></p>
+    <a class="btn" id="eBook" target="_blank" rel="noopener">Book a free fit call</a>
+    <button class="link" id="share" type="button">Copy your score</button>
+    <button class="link" id="again" type="button">Climb again</button>
+  </section>
+</div></div>
+
+<script>
+(function(){
+const LANG="en";
+const BOOK="https://online.expressenglish.co.il/1/?utm_source=expressenglish&utm_medium=organic&utm_campaign=organic&utm_content=slang_game_"+LANG+"&utm_term=organic#/1";
+const AUDIO_SRC="";
+const T={"start": "Start", "seeResult": "See your score", "cont": "Continue from question {n}", "step": "Question {n} of {t}", "rule": "Right answer: 2 steps up. Wrong: 1 step down.", "left": "{n} steps to the top", "up": "+2 steps", "down": "1 step down", "saved": "Welcome, {n}. Your climb is saved.", "login": "Log in", "endTop": "You reached the summit", "endMid": "You climbed {n} of 100 steps", "tech": "Tech slang", "reg": "Slang", "ok": "Correct", "streak": "Correct. {n} in a row", "close": "Not quite", "next": "Next step", "toMile": "Next step", "toEnd": "To the summit", "mileT": "{n} steps up. {r} to the top.", "mile": ["A third of the way up.", "Two thirds done. The summit is close.", ""], "levels": ["You understand the words. Speaking like a native is the next climb.", "Good base. Time to sound natural at work.", "You sound natural most of the time.", "You sound like you work in English every day."], "shareTxt": "I got {n}/{t} on the English Express slang game. How do you say \"חבל על הזמן\" in English?", "copied": "Copied", "mutel": "Mute", "unmute": "Sound on"};
+const PEOPLE=[["Dana", "Product Manager"], ["Michal", "VP Sales"], ["Shiran", "UX Designer"], ["Noa", "Marketing Manager"], ["Maya", "Team Lead"], ["Yael", "CTO"], ["Tamar", "CEO"], ["Lior", "Account Manager"]];
+const BANK=[
+ {q:"הדמו אתמול היה <mark>חבל על הזמן</mark> 🔥",a:"It was amazing!",l:"It was a pity on the time",d:"It was a waste of time",ex:"The client demo yesterday? <b>It was amazing!</b> They want a second meeting.",tip:"זהירות: \"a waste of time\" זה בדיוק ההפך."},
+ {q:"נפגשים ב-10? <mark>סגור</mark>",a:"Deal. See you at 10.",l:"Closed. See you at 10.",d:"Shut. See you at 10.",ex:"\"Can we meet at 10?\" <b>\"Deal.\"</b>",tip:"\"Closed\" נשמע כאילו החנות סגורה."},
+ {q:"הפגישה עם הספק הייתה <mark>על הפנים</mark>",a:"It was terrible.",l:"It was on the face.",d:"It was face to face.",ex:"Honestly, the vendor meeting <b>was terrible</b>. Nothing got decided.",tip:"\"Face to face\" אומר שנפגשתם פנים מול פנים, לא שהיה גרוע."},
+ {q:"הוא ביקש עוד 30% הנחה? <mark>אין מצב</mark>",a:"No way!",l:"There is no situation.",d:"No problem!",ex:"Another 30% discount? <b>No way.</b> We're already at cost.",tip:"\"No problem\" זה הפוך, זה כן."},
+ {q:"הלקוח הזה <mark>חי בסרט</mark>, הוא רוצה את זה עד מחר",a:"He's living in a dream world.",l:"He's living in a movie.",d:"He's watching a movie.",ex:"He wants it by tomorrow? <b>He's living in a dream world.</b>",tip:"אפשר גם: \"He's delusional\" או \"That's not realistic\"."},
+ {q:"מנהל הפרויקט <mark>חופר</mark> כבר שעה בזום",a:"He's been going on and on for an hour.",l:"He's been digging for an hour.",d:"He's been drilling for an hour.",ex:"Can someone stop him? <b>He's been going on and on</b> for an hour.",tip:"\"Digging\" באנגלית זה לחפור באדמה, או לחקור משהו."},
+ {q:"תשמע, ה-standup הזה <mark>קרע אותי</mark> 😂",a:"It cracked me up!",l:"It tore me!",d:"It broke me down.",ex:"That standup joke about Jira <b>cracked me up</b>.",tip:"\"Broke me down\" זה שבר אותי רגשית."},
+ {q:"הבאג הזה <mark>שבר לי את הראש</mark> כל הבוקר",a:"It drove me crazy all morning.",l:"It broke my head all morning.",d:"It hurt my head all morning.",ex:"This bug <b>drove me crazy</b> all morning. Turns out it was a typo.",tip:"אפשר גם: \"I racked my brain over it\"."},
+ {q:"אחי, <mark>תוריד הילוך</mark>, זה רק מייל",a:"Take it down a notch, it's just an email.",l:"Lower a gear, it's just an email.",d:"Shift gears, it's just an email.",ex:"Hey, <b>take it down a notch</b>. It's just an email, not a lawsuit.",tip:"\"Shift gears\" זה לעבור לנושא אחר."},
+ {q:"את הפיצ׳ר הזה שמים <mark>על אש קטנה</mark> עד ינואר",a:"Let's put it on the back burner.",l:"Let's put it on a small fire.",d:"Let's put it on fire.",ex:"No budget this quarter, so <b>let's put it on the back burner</b> until January.",tip:"באנגלית זה דווקא הכיריים האחוריות."},
+ {q:"לא נורא שאיחרת, <mark>בקטנה</mark>",a:"No big deal.",l:"In small.",d:"A little bit.",ex:"You're five minutes late? <b>No big deal.</b>",tip:"אפשר גם: \"Don't worry about it\"."},
+ {q:"<mark>מה הלחץ?</mark> הדדליין רק ביום חמישי",a:"What's the rush?",l:"What's the pressure?",d:"Why the stress test?",ex:"<b>What's the rush?</b> The deadline is only on Thursday.",tip:"\"Pressure\" זה לחץ נפשי. על זמן אומרים rush."},
+ {q:"שלחתי לו מייל לא נכון עם כל הצוות ב-CC. <mark>פדיחה</mark>",a:"So embarrassing.",l:"Fadicha.",d:"So boring.",ex:"I replied-all with the wrong file. <b>So embarrassing.</b>",tip:"אפשר גם: \"Awkward!\"."},
+ {q:"<mark>יש לי חור</mark> בלו״ז ב-3, מתאים?",a:"I have a gap at 3. Does that work?",l:"I have a hole at 3. Does that work?",d:"I have a break-in at 3. Does that work?",ex:"<b>I have a gap at 3</b> if you want to sync. Does that work?",tip:"אפשר גם: \"I'm free at 3\"."},
+ {q:"המנהל שלי <mark>שם פס</mark> על כל ההערות שלי",a:"He completely ignores my comments.",l:"He puts a stripe on my comments.",d:"He underlines my comments.",ex:"I keep flagging it, but <b>he completely ignores my comments</b>.",tip:"אפשר גם: \"He couldn't care less\"."},
+ {q:"<mark>עלה לי הסעיף</mark> כשהוא לקח את הקרדיט",a:"I lost it when he took the credit.",l:"My section went up when he took the credit.",d:"I lost the credit when he took it.",ex:"<b>I totally lost it</b> when he presented my slides as his own.",tip:"אפשר גם: \"It really got to me\"."},
+ {q:"הרעיון של הקמפיין? <mark>עושה לי את זה</mark>",a:"I love it! It really works for me.",l:"It's doing it to me.",d:"It's done for me.",ex:"The new campaign idea? <b>It really works for me.</b> Let's go with it.",tip:"\"Doing it to me\" נשמע ממש לא טוב באנגלית. לא להגיד."},
+ {q:"<mark>ירדתי מזה</mark>, זה לא שווה את הזמן",a:"I dropped it. It's not worth the time.",l:"I went down from it.",d:"I fell for it.",ex:"I wanted to rebuild the dashboard, but <b>I dropped it</b>. Not worth the time.",tip:"\"I fell for it\" זה נפלתי בפח."},
+ {q:"<mark>תכל׳ס</mark>, מה אנחנו צריכים מהם?",a:"Bottom line, what do we need from them?",l:"Tachles, what do we need from them?",d:"Totally, what do we need from them?",ex:"<b>Bottom line</b>, what do we need from legal by Friday?",tip:"אפשר גם: \"Let's cut to the chase\"."},
+ {q:"אם הם לא חותמים עד מחר, <mark>הלך עליהם</mark>",a:"If they don't sign by tomorrow, they're out.",l:"If they don't sign by tomorrow, it went on them.",d:"If they don't sign by tomorrow, they walk on us.",ex:"If they don't sign by tomorrow, <b>they're out</b>. We go with the other vendor.",tip:"אפשר גם: \"they're done\"."},
+ {q:"טוב חברים, <mark>זזתי</mark>, נתראה מחר",a:"Okay, I'm off. See you tomorrow.",l:"Okay, I moved. See you tomorrow.",d:"Okay, I'm moving out. See you tomorrow.",ex:"It's 6 already? <b>Okay, I'm off.</b> See you all tomorrow.",tip:"\"I moved\" זה עברתי דירה."},
+ {q:"הג׳וניור החדש <mark>בכיוון</mark>, רק צריך עוד קצת זמן",a:"He's on the right track.",l:"He's in the direction.",d:"He's going the wrong way.",ex:"The new junior isn't there yet, but <b>he's on the right track</b>.",tip:"אפשר גם: \"He's getting there\"."},
+ {q:"מחר הפרזנטציה למשקיעים? <mark>תן בראש!</mark>",a:"Go for it! You've got this.",l:"Give in the head!",d:"Give it a rest!",ex:"Investor pitch tomorrow? <b>Go for it. You've got this.</b>",tip:"\"Give it a rest\" זה תפסיק כבר."},
+ {q:"הלוגו החדש? <mark>אני מת על זה</mark>",a:"I love it!",l:"I'm dead on it!",d:"I'm dying for it!",ex:"The new logo? <b>I love it.</b> Ship it.",tip:"\"I'm dying for it\" זה אני מת שיהיה לי, משהו אחר."},
+ {q:"עשיתי לו את כל העבודה והוא לקח בונוס. <mark>יצאתי פראייר</mark>",a:"I felt like a sucker.",l:"I came out a fraier.",d:"I came out fine.",ex:"I did all the work and he got the bonus. <b>I felt like such a sucker.</b>",tip:"אפשר גם: \"I got played\"."},
+ {q:"אתה מפוטר! <mark>סתם</mark> 😂",a:"Just kidding!",l:"Simply!",d:"Just because!",ex:"\"You're fired!\" ...<b>Just kidding!</b> Great job today.",tip:"\"Simply\" זה פשוט. לא קשור."},
+ {q:"המפתחת החדשה <mark>תותחית</mark>, סגרה 20 טיקטים ביום",a:"She's a rockstar.",l:"She's a cannon.",d:"She's a shooter.",ex:"The new developer closed 20 tickets in a day. <b>She's a rockstar.</b>",tip:"אפשר גם: \"She's brilliant\" או \"She's killing it\"."},
+ {q:"זה <mark>לא בוער</mark>, אפשר בשבוע הבא",a:"It's not urgent. Next week is fine.",l:"It's not burning. Next week is fine.",d:"It's not hot. Next week is fine.",ex:"<b>It's not urgent</b>, so next week is fine.",tip:"אפשר גם: \"No rush\"."},
+ {q:"רק בפגישה השלישית <mark>נפל לי האסימון</mark>",a:"It finally clicked in the third meeting.",l:"My token fell in the third meeting.",d:"I dropped the ball in the third meeting.",ex:"I didn't get the pricing model until the third meeting. Then <b>it finally clicked</b>.",tip:"זהירות: \"I dropped the ball\" זה פישלתי."},
+ {q:"שלוש פעמים שינו לי את הדרישות. <mark>נשבר לי</mark>",a:"I'm fed up.",l:"It broke to me.",d:"I'm broken.",ex:"They changed the requirements three times. <b>I'm fed up.</b>",tip:"אפשר גם: \"I've had enough\"."},
+ {q:"אין תוכנית מסודרת לאוף-סייט, <mark>תזרום</mark>",a:"Just go with the flow.",l:"Just flow.",d:"Go with the river.",ex:"There's no fixed agenda for the offsite. <b>Just go with the flow.</b>",tip:"ביטוי שאומרים בדיוק ככה באנגלית, רק עם with the."},
+ {q:"<mark>מה נסגר</mark> עם ההצעת מחיר?",a:"So what's the deal with the quote?",l:"What got closed with the quote?",d:"When do we close the quote?",ex:"<b>So what's the deal with the quote?</b> Did they sign or not?",tip:"אפשר גם: \"Any update on the quote?\"."},
+ {q:"שכחתי לשלוח את הדוח למנכ״ל. <mark>אכלתי אותה</mark>",a:"I'm in trouble.",l:"I ate her.",d:"I had lunch.",ex:"I forgot to send the CEO the report. <b>I'm in so much trouble.</b>",tip:"\"I ate her\" זה... ממש לא. לא להגיד בפגישה."},
+ {q:"קבענו לצהריים והוא <mark>דפק לי ברז</mark>",a:"He stood me up.",l:"He knocked me a faucet.",d:"He fixed my sink.",ex:"We had a lunch meeting and <b>he stood me up</b>. Not even a text.",tip:"אפשר גם: \"He bailed on me\"."},
+ {q:"הם קנו את המתחרה? <mark>אני בשוק</mark>",a:"I can't believe it!",l:"I'm in the market!",d:"I'm shopping!",ex:"They acquired our biggest competitor? <b>I can't believe it.</b>",tip:"אפשר גם: \"I'm in shock\"."},
+ {q:"הקפה היום <mark>על חשבון הבית</mark> ☕",a:"Coffee's on the house today.",l:"Coffee's on the account of the house today.",d:"Coffee's in the house today.",ex:"Great quarter, everyone. <b>Coffee's on the house today.</b>",tip:"אפשר גם: \"It's on me\" כשאתה מזמין."},
+ {q:"המחיר <mark>זה לא הסיפור</mark>, הבעיה היא הזמנים",a:"Price isn't the point. The issue is timing.",l:"Price isn't the story. The issue is timing.",d:"Price isn't the plot. The issue is timing.",ex:"<b>Price isn't the point.</b> The real issue is the timeline.",tip:"אפשר גם: \"Price isn't the issue\"."},
+ {q:"עוד ישיבת סטטוס? <mark>זה יוצא לי מהאף</mark>",a:"I'm so sick of it.",l:"It's coming out of my nose.",d:"I'm sneezing it out.",ex:"Another status meeting? <b>I'm so sick of it.</b>",tip:"אפשר גם: \"I've had it up to here\"."},
+ {q:"<mark>בגדול</mark>, הרבעון היה טוב",a:"Overall, it was a good quarter.",l:"In big, it was a good quarter.",d:"Largely speaking, a big quarter.",ex:"<b>Overall</b>, it was a good quarter. Sales are up 12%.",tip:"אפשר גם: \"All in all\"."},
+ {q:"הספק <mark>זורק אותי מכאן לשם</mark> כבר שבוע",a:"He's been giving me the runaround for a week.",l:"He's been throwing me from here to there.",d:"He's been passing me around the office.",ex:"I keep asking for the invoice, and <b>he's been giving me the runaround</b>.",tip:"ביטוי מצוין לשירות לקוחות גרוע."},
+ {q:"התחלנו כלקוח, עכשיו אנחנו שותפים. <mark>סגרנו מעגל</mark>",a:"We've come full circle.",l:"We closed a circle.",d:"We closed the loop.",ex:"We started as their client and now we're partners. <b>We've come full circle.</b>",tip:"\"Close the loop\" זה לחזור עם עדכון. משמעות אחרת."},
+ {q:"פרויקט חדש עם הצוות מברלין? <mark>אני בעניין</mark>",a:"I'm in!",l:"I'm in the matter!",d:"I'm in trouble!",ex:"A new project with the Berlin team? <b>Count me in!</b>",tip:"אפשר גם: \"Count me in\"."},
+ {q:"דיברנו על זה <mark>בארבע עיניים</mark>",a:"We talked about it one-on-one.",l:"We talked about it with four eyes.",d:"We talked about it on FaceTime.",ex:"I didn't raise it in the meeting. <b>We talked about it one-on-one.</b>",tip:"אפשר גם: \"in private\"."},
+ {q:"הלקוח <mark>הרים לי להנחתה</mark> עם השאלה הזאת",a:"He teed it up perfectly for me.",l:"He lifted it for my smash.",d:"He picked it up for me.",ex:"Then the client asked about ROI. <b>He teed it up perfectly for me.</b>",tip:"מגולף: tee זה המקום שמניחים עליו את הכדור."},
+ {q:"סגרת את הדיל? <mark>שיחקת אותה!</mark>",a:"You nailed it!",l:"You played her!",d:"You played it!",ex:"You closed the deal in one call? <b>You nailed it!</b>",tip:"אפשר גם: \"Killed it!\"."},
+ {q:"המחמאה מהלקוח <mark>עשתה לי את היום</mark>",a:"That compliment made my day.",l:"That compliment did me the day.",d:"That compliment took my day.",ex:"The client said our demo was the best they'd seen. <b>That made my day.</b>",tip:"ביטוי ממש שימושי במיילים: \"You made my day!\"."},
+ {q:"הדוח הרבעוני היה <mark>כאפה</mark> בשבילנו",a:"The quarterly report was a wake-up call.",l:"The quarterly report was a slap.",d:"The quarterly report was a tap.",ex:"Churn doubled. <b>That report was a real wake-up call.</b>",tip:"\"A slap in the face\" קיים, אבל זה עלבון, לא תמרור אזהרה."},
+ {q:"אני אבדוק את זה <mark>על הדרך</mark>",a:"I'll check it while I'm at it.",l:"I'll check it on the road.",d:"I'll check it on my way out.",ex:"I'm already in the CRM, so <b>I'll check it while I'm at it</b>.",tip:"\"On the road\" זה בנסיעה."},
+ {q:"הקפה מהמכונה החדשה? <mark>אין על זה</mark>",a:"Nothing beats it.",l:"There's nothing on it.",d:"There's nothing to it.",ex:"The new coffee machine? <b>Nothing beats it.</b>",tip:"\"There's nothing to it\" זה זה קל מאוד. משמעות אחרת."},
+ {q:"<mark>מה הקטע</mark> עם כל המיילים ב-CC?",a:"What's the deal with all the CCs?",l:"What's the piece with all the CCs?",d:"What's the part with all the CCs?",ex:"<b>What's the deal with</b> CC-ing the whole company on every email?",tip:"אפשר גם: \"Why all the CCs?\"."}
+];
+const EN_Q=[
+["The demo yesterday was <mark>חבל על הזמן</mark> 🔥","Careful: \"a waste of time\" means the exact opposite."],
+["Meet at 10? <mark>סגור</mark>","\"Closed\" sounds like a shop that shut for the day."],
+["The vendor meeting was <mark>על הפנים</mark>","\"Face to face\" means you met in person, not that it went badly."],
+["He wants another 30% off? <mark>אין מצב</mark>","\"No problem\" means yes. The opposite."],
+["This client is <mark>חי בסרט</mark>, he wants it by tomorrow","You can also say \"That's not realistic\"."],
+["The project manager has been <mark>חופר</mark> on Zoom for an hour","\"Digging\" means digging in the ground, or researching."],
+["That standup <mark>קרע אותי</mark> 😂","\"Broke me down\" means emotionally crushed."],
+["This bug <mark>שבר לי את הראש</mark> all morning","You can also say \"I racked my brain over it\"."],
+["Bro, <mark>תוריד הילוך</mark>, it's just an email","\"Shift gears\" means change the topic."],
+["We're putting this feature <mark>על אש קטנה</mark> until January","In English it's the back burner of the stove."],
+["You're five minutes late? <mark>בקטנה</mark>","You can also say \"Don't worry about it\"."],
+["<mark>מה הלחץ?</mark> The deadline is only on Thursday","\"Pressure\" is stress. For time, say rush."],
+["I sent the wrong file with the whole team on CC. <mark>פדיחה</mark>","You can also say \"Awkward!\"."],
+["<mark>יש לי חור</mark> in my schedule at 3, does that work?","You can also say \"I'm free at 3\"."],
+["My manager <mark>שם פס</mark> on all my comments","You can also say \"He couldn't care less\"."],
+["<mark>עלה לי הסעיף</mark> when he took the credit","You can also say \"It really got to me\"."],
+["The campaign idea? <mark>עושה לי את זה</mark>","\"It's doing it to me\" sounds very wrong in English. Avoid it."],
+["<mark>ירדתי מזה</mark>, it's not worth the time","\"I fell for it\" means you got tricked."],
+["<mark>תכל׳ס</mark>, what do we need from them?","You can also say \"Let's cut to the chase\"."],
+["If they don't sign by tomorrow, <mark>הלך עליהם</mark>","You can also say \"they're done\"."],
+["Okay everyone, <mark>זזתי</mark>, see you tomorrow","\"I moved\" means you moved house."],
+["The new junior is <mark>בכיוון</mark>, he just needs time","You can also say \"He's getting there\"."],
+["Investor pitch tomorrow? <mark>תן בראש!</mark>","\"Give it a rest\" means stop already."],
+["The new logo? <mark>אני מת על זה</mark>","\"I'm dying for it\" means you really want it. Different."],
+["I did all the work and he got the bonus. <mark>יצאתי פראייר</mark>","You can also say \"I got played\"."],
+["You're fired! <mark>סתם</mark> 😂","\"Simply\" has nothing to do with it."],
+["The new developer is <mark>תותחית</mark>, 20 tickets in a day","You can also say \"She's killing it\"."],
+["It's <mark>לא בוער</mark>, next week is fine","You can also say \"No rush\"."],
+["Only in the third meeting <mark>נפל לי האסימון</mark>","Careful: \"I dropped the ball\" means I messed up."],
+["They changed the requirements three times. <mark>נשבר לי</mark>","You can also say \"I've had enough\"."],
+["There's no agenda for the offsite, <mark>תזרום</mark>","Same idea in English, just say it with \"go with the\"."],
+["<mark>מה נסגר</mark> with the quote?","You can also say \"Any update on the quote?\"."],
+["I forgot to send the CEO the report. <mark>אכלתי אותה</mark>","Never say \"I ate her\" in a meeting."],
+["We had lunch planned and he <mark>דפק לי ברז</mark>","You can also say \"He bailed on me\"."],
+["They bought our biggest competitor? <mark>אני בשוק</mark>","You can also say \"I'm in shock\"."],
+["Coffee today is <mark>על חשבון הבית</mark> ☕","When you're paying, say \"It's on me\"."],
+["The price <mark>זה לא הסיפור</mark>, the timeline is","You can also say \"Price isn't the issue\"."],
+["Another status meeting? <mark>זה יוצא לי מהאף</mark>","You can also say \"I've had it up to here\"."],
+["<mark>בגדול</mark>, it was a good quarter","You can also say \"All in all\"."],
+["The vendor has been <mark>זורק אותי מכאן לשם</mark> for a week","Great phrase for bad customer service."],
+["We started as their client, now we're partners. <mark>סגרנו מעגל</mark>","\"Close the loop\" means follow up with an update. Different."],
+["A new project with the Berlin team? <mark>אני בעניין</mark>","You can also say \"Count me in\"."],
+["We talked about it <mark>בארבע עיניים</mark>","You can also say \"in private\"."],
+["The client <mark>הרים לי להנחתה</mark> with that question","From golf: the tee is where you set up the ball."],
+["You closed the deal in one call? <mark>שיחקת אותה!</mark>","You can also say \"Killed it!\"."],
+["The client's compliment <mark>עשתה לי את היום</mark>","Great in emails too: \"You made my day!\"."],
+["The quarterly report was a <mark>כאפה</mark> for us","\"A slap in the face\" exists, but it means an insult, not a warning."],
+["I'll check it <mark>על הדרך</mark>","\"On the road\" means while driving or traveling."],
+["The new coffee machine? <mark>אין על זה</mark>","\"There's nothing to it\" means it's easy. Different."],
+["<mark>מה הקטע</mark> with all the CCs?","You can also say \"Why all the CCs?\"."]];
+
+const TECH=[
+ {q:"ה-VP החדש <mark>עושה לי מיקרו-מנג׳מנט</mark> על כל קומיט",qe:"The new VP is <mark>עושה לי מיקרו-מנג׳מנט</mark> on every commit",a:"He's micromanaging me.",l:"He's doing me micro-management.",d:"He's managing me micro.",ex:"He checks every commit I push. <b>He's micromanaging me.</b>",tip:"פועל אחד, בלי \"doing\": to micromanage.",tipe:"It's one verb: to micromanage."},
+ {q:"הפיצ׳ר <mark>עלה לאוויר</mark> הלילה 🚀",qe:"The feature <mark>עלה לאוויר</mark> last night 🚀",a:"The feature went live last night.",l:"The feature went up to the air last night.",d:"The feature was on air last night.",ex:"Good news: <b>the new checkout went live</b> at 2am with zero bugs.",tip:"\"On air\" זה ברדיו ובטלוויזיה.",tipe:"\"On air\" is for radio and TV."},
+ {q:"<mark>השרת נפל</mark> באמצע הדמו",qe:"<mark>השרת נפל</mark> in the middle of the demo",a:"The server went down mid-demo.",l:"The server fell mid-demo.",d:"The server dropped out mid-demo.",ex:"Worst timing ever: <b>the server went down</b> in the middle of the demo.",tip:"שרתים ואתרים \"go down\", לא נופלים.",tipe:"Servers and sites \"go down\", they don't fall."},
+ {q:"כשאתה מסיים <mark>תעשה לי פינג</mark>",qe:"When you're done, <mark>תעשה לי פינג</mark>",a:"Ping me when you're done.",l:"Do me a ping when you're done.",d:"Ping on me when you're done.",ex:"<b>Ping me</b> on Slack when the build is green.",tip:"באנגלית ping הוא פועל. פשוט ping me.",tipe:"In English, ping is a verb: just \"ping me\"."},
+ {q:"יש לי שאלה קצרה, <mark>תרים לי טלפון</mark>?",qe:"Quick question, can you <mark>תרים לי טלפון</mark>?",a:"Can you give me a call?",l:"Can you lift me a phone?",d:"Can you pick me up?",ex:"Quick question about the contract. <b>Can you give me a call?</b>",tip:"\"Pick me up\" זה לבוא לאסוף אותי ברכב.",tipe:"\"Pick me up\" means come get me in the car."},
+ {q:"לפני שאני שולח ללקוח, <mark>תעשה לי סאניטי צ׳ק</mark>",qe:"Before I send it to the client, <mark>תעשה לי סאניטי צ׳ק</mark>",a:"Can you sanity-check this?",l:"Do me a sanity check.",d:"Can you check my sanity?",ex:"Before this goes to the client, <b>can you sanity-check the numbers?</b>",tip:"\"Check my sanity\" זה לבדוק אם השתגעתי.",tipe:"\"Check my sanity\" means checking whether you've gone crazy."},
+ {q:"<mark>הדיפלוי עף</mark>, צריך להריץ שוב",qe:"<mark>הדיפלוי עף</mark>, we need to run it again",a:"The deployment failed. We need to rerun it.",l:"The deploy flew. We need to rerun it.",d:"The deploy took off. We need to rerun it.",ex:"<b>The deployment failed</b> on the migration step. Rerunning now.",tip:"\"Took off\" זה דווקא הצליח בגדול.",tipe:"\"Took off\" actually means it was a big success."},
+ {q:"הוא עובד עם <mark>ראש גדול</mark>, לוקח אחריות על הכל",qe:"He works with a <mark>ראש גדול</mark>, owns everything",a:"He really takes ownership.",l:"He has a big head.",d:"He's a big shot.",ex:"You never have to chase him. <b>He really takes ownership.</b>",tip:"זהירות: \"big head\" באנגלית זה שחצן.",tipe:"Careful: \"a big head\" in English means arrogant."},
+ {q:"הוא עובד עם <mark>ראש קטן</mark>, רק מה שביקשו ממנו",qe:"He works with a <mark>ראש קטן</mark>, only what he's asked",a:"He only does the bare minimum.",l:"He has a small head.",d:"He's small-minded.",ex:"Don't expect ideas from him. <b>He only does the bare minimum.</b>",tip:"\"Small-minded\" זה קטנוני. משהו אחר.",tipe:"\"Small-minded\" means petty. Different."},
+ {q:"אנחנו <mark>מגייסים סבב</mark> ברבעון הבא",qe:"We're <mark>מגייסים סבב</mark> next quarter",a:"We're raising a round next quarter.",l:"We're recruiting a round next quarter.",d:"We're drafting a round next quarter.",ex:"<b>We're raising a Series A</b> next quarter, so the deck has to be perfect.",tip:"גיוס כסף = raise. גיוס עובדים = hire.",tipe:"Money is \"raised\". People are \"hired\"."},
+ {q:"בוא <mark>נרד לפרטים</mark> של התמחור",qe:"Let's <mark>נרד לפרטים</mark> on pricing",a:"Let's dig into the details on pricing.",l:"Let's go down to the details on pricing.",d:"Let's go down on pricing.",ex:"Before we sign, <b>let's dig into the details</b> on pricing.",tip:"אפשר גם: \"Let's drill down\".",tipe:"You can also say \"Let's drill down\"."},
+ {q:"<mark>תסגור לי את זה</mark> עד סוף היום?",qe:"Can you <mark>תסגור לי את זה</mark> by end of day?",a:"Can you wrap this up by end of day?",l:"Can you close me this by end of day?",d:"Can you shut this by end of day?",ex:"<b>Can you wrap this up by EOD?</b> The client needs it tomorrow.",tip:"\"Close me\" לא קיים. \"Wrap up\" זה לסיים.",tipe:"\"Close me this\" isn't English. \"Wrap up\" means finish."},
+ {q:"שלח לי את המצגת, <mark>אני אעבור על זה</mark>",qe:"Send me the deck, <mark>אני אעבור על זה</mark>",a:"Send me the deck and I'll go over it.",l:"Send me the deck and I'll pass on it.",d:"Send me the deck and I'll walk on it.",ex:"<b>Send it over and I'll go over it</b> tonight.",tip:"זהירות: \"I'll pass on it\" זה אני מוותר.",tipe:"Careful: \"I'll pass on it\" means I'll decline."},
+ {q:"אחרי הישיבה <mark>תעשה לי מייל מסכם</mark>",qe:"After the meeting, <mark>תעשה לי מייל מסכם</mark>",a:"Send me a recap email after the meeting.",l:"Do me a summarizing mail after the meeting.",d:"Make me a summary mail after the meeting.",ex:"Great call. <b>Can you send a recap email</b> with the next steps?",tip:"אפשר גם: \"a follow-up email\".",tipe:"You can also say \"a follow-up email\"."},
+ {q:"זה ענק, בוא <mark>נשבור את זה לטסקים</mark>",qe:"It's huge, let's <mark>נשבור את זה לטסקים</mark>",a:"Let's break it down into tasks.",l:"Let's break it to tasks.",d:"Let's crash it into tasks.",ex:"This epic is too big. <b>Let's break it down into tasks.</b>",tip:"\"Break it down\" עם down, אחרת זה לשבור ממש.",tipe:"\"Break it down\" needs \"down\", or it means smash it."},
+ {q:"אני מחכה בלובי, <mark>תכניס אותי לזום</mark>",qe:"I'm stuck in the waiting room, <mark>תכניס אותי לזום</mark>",a:"Can you let me into the Zoom?",l:"Can you insert me into the Zoom?",d:"Can you put me inside Zoom?",ex:"I'm in the waiting room. <b>Can you let me in?</b>",tip:"\"Insert\" נשמע כמו להכניס חפץ.",tipe:"\"Insert\" sounds like putting an object somewhere."},
+ {q:"שמעת? הוא <mark>עף מהחברה</mark>",qe:"Did you hear? He <mark>עף מהחברה</mark>",a:"He got let go.",l:"He flew from the company.",d:"He flew out of the company.",ex:"Did you hear about Daniel? <b>He got let go</b> on Monday.",tip:"עדין יותר: let go. ישיר: fired.",tipe:"Softer: let go. Blunter: fired."},
+ {q:"השבוע <mark>יש לי עומס</mark> מטורף",qe:"This week <mark>יש לי עומס</mark> like crazy",a:"I'm completely swamped this week.",l:"I have a crazy load this week.",d:"I'm totally loaded this week.",ex:"Can we push it? <b>I'm completely swamped</b> this week.",tip:"זהירות: \"loaded\" זה עשיר מאוד, או שיכור.",tipe:"Careful: \"loaded\" means very rich, or drunk."},
+ {q:"זה דחוף, <mark>תקפיץ את זה</mark> למעלה ברשימה",qe:"It's urgent, <mark>תקפיץ את זה</mark> up the list",a:"Please bump it up the list.",l:"Please jump it up the list.",d:"Please bounce it up the list.",ex:"The client is blocked. <b>Please bump it up the list.</b>",tip:"אפשר גם: \"prioritize it\".",tipe:"You can also say \"prioritize it\"."},
+ {q:"יש לך 5 דקות? בוא <mark>נקפוץ לשיחה</mark>",qe:"Got 5 minutes? Let's <mark>נקפוץ לשיחה</mark>",a:"Let's hop on a quick call.",l:"Let's jump to a conversation.",d:"Let's skip to a call.",ex:"Got five minutes? <b>Let's hop on a quick call.</b>",tip:"אפשר גם: \"jump on a call\". עם on, לא to.",tipe:"You can also say \"jump on a call\". It's on, not to."},
+ {q:"ברגע האחרון <mark>הלקוח ירד מהעסקה</mark>",qe:"At the last minute, <mark>הלקוח ירד מהעסקה</mark>",a:"The client backed out at the last minute.",l:"The client went down from the deal at the last minute.",d:"The client got off the deal at the last minute.",ex:"Everything was signed off, then <b>the client backed out</b> at the last minute.",tip:"אפשר גם: \"pulled out\".",tipe:"You can also say \"pulled out\"."},
+ {q:"אין זמן לזה בספרינט, <mark>בוא נוריד את הפיצ׳ר</mark>",qe:"No time in the sprint, <mark>בוא נוריד את הפיצ׳ר</mark>",a:"Let's cut the feature.",l:"Let's take down the feature.",d:"Let's download the feature.",ex:"We won't make the release. <b>Let's cut the feature</b> and ship without it.",tip:"\"Download\" 😅 זה להוריד קובץ.",tipe:"\"Download\" 😅 is for files."},
+ {q:"לפני ההשקה הוא <mark>סגר את כל הקצוות</mark>",qe:"Before launch he <mark>סגר את כל הקצוות</mark>",a:"He tied up all the loose ends.",l:"He closed all the edges.",d:"He cut all the corners.",ex:"Launch went smoothly because <b>he tied up all the loose ends</b>.",tip:"זהירות: \"cut corners\" זה עבד ברישול.",tipe:"Careful: \"cut corners\" means did sloppy work."},
+ {q:"אני <mark>בפגישות רצופות</mark> עד 4",qe:"I'm in <mark>פגישות רצופות</mark> until 4",a:"I'm in back-to-back meetings until 4.",l:"I'm in continuous meetings until 4.",d:"I'm in running meetings until 4.",ex:"Sorry, <b>I'm in back-to-back meetings</b> until 4. Can it wait?",tip:"back-to-back = אחת אחרי השנייה בלי הפסקה.",tipe:"Back-to-back means one right after another."},
+ {q:"<mark>תשלח לי זימון</mark> לחמישי ב-10",qe:"<mark>תשלח לי זימון</mark> for Thursday at 10",a:"Send me an invite for Thursday at 10.",l:"Send me a summons for Thursday at 10.",d:"Send me an invitation card for Thursday at 10.",ex:"Works for me. <b>Send me an invite</b> for Thursday at 10.",tip:"זהירות: \"summons\" זה זימון לבית משפט 😅",tipe:"Careful: a \"summons\" is a court order 😅"}
+];
+
+const CUES={};
+// regular + tech items, each with its audio cue index
+const REG=BANK.map((x,i)=>Object.assign({},x,{t:0,k:i,qe:EN_Q[i][0],tipe:EN_Q[i][1]}));
+const TEC=TECH.map((x,i)=>Object.assign({},x,{t:1,k:BANK.length+i}));
+const ITEMS=[...REG,...TEC], TOTAL=ITEMS.length, SUMMIT=100;
+function climb(res){let p=0;for(const r of res)p=Math.max(0,Math.min(SUMMIT,p+(r?2:-1)));return p}
+const STAGES=[{a:0,b:25},{a:25,b:50},{a:50,b:75}];
+const KEY="ee_slang_v4_"+LANG;
+const HOOK="https://hook.us1.make.com/tyvp3c4f4pxb095uvff9xxahdf0ft77w";
+const $=id=>document.getElementById(id);
+function shuffle(a){a=a.slice();for(let k=a.length-1;k>0;k--){const j=Math.floor(Math.random()*(k+1));[a[k],a[j]]=[a[j],a[k]]}return a}
+function makeOrder(){const r=shuffle(REG.map(x=>x.k)),t=shuffle(TEC.map(x=>x.k)),o=[];while(r.length||t.length){if(r.length)o.push(r.shift());if(r.length)o.push(r.shift());if(t.length)o.push(t.shift())}return o}
+function fresh(){return{order:makeOrder(),res:[],mute:false,user:null,skip:0}}
+function load(){try{const v=JSON.parse(localStorage.getItem(KEY));if(v&&v.order&&v.order.length===TOTAL)return v}catch(e){}return fresh()}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+let S=load();
+function okIn(z){return S.res.slice(z.a,z.b).filter(Boolean).length}
+function show(id){for(const s of ["sStart","sGame","sMile","sEnd"])$(s).hidden=s!==id;$("hudScore").hidden=id!=="sGame";window.scrollTo({top:0,behavior:"smooth"})}
+const item=pos=>ITEMS[S.order[pos]];
+
+/* sound: soft, short, quiet */
+let AC=null;function ac(){try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();if(AC.state==="suspended")AC.resume()}catch(e){}return AC}
+function ping(f,t0,d,vol,type){const c=ac();if(!c||S.mute)return;const o=c.createOscillator(),g=c.createGain(),lp=c.createBiquadFilter();lp.type="lowpass";lp.frequency.value=3200;o.type=type||"sine";o.frequency.value=f;const t=c.currentTime+t0;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol,t+.008);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(lp).connect(g).connect(c.destination);o.start(t);o.stop(t+d+.02)}
+const SFX={ok(){ping(1318.5,0,.35,.05);ping(1975.5,.07,.45,.035)},no(){ping(311,0,.18,.05,"triangle");ping(233,.09,.22,.04,"triangle")},step(){ping(2093,0,.06,.02)},win(){[1046.5,1318.5,1568,2093].forEach((f,k)=>ping(f,k*.09,.5,.035))}};
+/* voice: Noam's recorded voice, one file, played by segment; falls back to the browser voice */
+const AUD=new Audio();let audOK=false,stopAt=0;
+if(AUDIO_SRC){AUD.preload="auto";AUD.src=AUDIO_SRC;AUD.addEventListener("canplaythrough",()=>audOK=true,{once:true});AUD.addEventListener("timeupdate",()=>{if(stopAt&&AUD.currentTime>=stopAt){AUD.pause();stopAt=0}})}
+function speak(it,force){if(S.mute&&!force)return;const cue=CUES[it.k];
+  if(audOK&&cue){try{AUD.currentTime=cue[0];stopAt=cue[1];AUD.play()}catch(e){}return}
+}
+function setMute(){$("mute").innerHTML=S.mute?'<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="m16 9 6 6M22 9l-6 6"/></svg>':'<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';$("mute").setAttribute("aria-label",S.mute?T.unmute:T.mutel)}
+
+/* the mountain: one svg built once per element, then updated so the climber walks */
+const NS="http://www.w3.org/2000/svg";
+function buildMtn(svg,H){
+  // a mountain with a switchback trail of 75 small stones, three legs of 25
+  const W=360,peakX=300,peakY=16,baseY=H-6,legs=3,per=SUMMIT/legs,pts=[];
+  const legY=k=>baseY-8-(baseY-8-peakY-10)*k/legs;
+  for(let i=0;i<SUMMIT;i++){const leg=Math.floor(i/per),f=(i%per)/(per-1),y0=legY(leg),y1=legY(leg+1)+6;
+    const half=(1-(leg+f*.95)/legs);const L=peakX-(peakX-14)*half,R=peakX+(W-8-peakX)*half*.55;
+    const xa=leg%2?R-6:L+6,xb=leg%2?L+16:R-16,x=leg===legs-1?xa+(peakX-6-xa)*f:xa+(xb-xa)*f,y=y0+(y1-y0)*f;pts.push([x,y])}
+  let h=`<path d="M-4 ${baseY} L60 ${baseY-(baseY-peakY)*.42} L105 ${baseY-(baseY-peakY)*.3} L175 ${baseY-(baseY-peakY)*.62} L215 ${baseY-(baseY-peakY)*.5} L${W+4} ${baseY-(baseY-peakY)*.55} L${W+4} ${baseY}Z" fill="var(--mtn1)"/>`;
+  h+=`<path d="M10 ${baseY} L${peakX} ${peakY} L${W-4} ${baseY}Z" fill="var(--mtn2)"/>`;
+  h+=`<path d="M${peakX-26} ${peakY+(baseY-peakY)*.18} L${peakX} ${peakY} L${peakX+20} ${peakY+(baseY-peakY)*.2} L${peakX+9} ${peakY+(baseY-peakY)*.14} L${peakX-2} ${peakY+(baseY-peakY)*.22} L${peakX-12} ${peakY+(baseY-peakY)*.14}Z" fill="var(--snow)"/>`;
+  h+=`<polyline points="${pts.map(p=>p.map(v=>v.toFixed(1)).join(",")).join(" ")} ${peakX},${peakY}" fill="none" stroke="var(--card)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>`;
+  pts.forEach(([x,y])=>{h+=`<rect class="st" x="${(x-2.6).toFixed(1)}" y="${(y-1.6).toFixed(1)}" width="5.2" height="3.2" rx="1.6"/>`});
+  h+=`<line x1="${peakX}" y1="${peakY}" x2="${peakX}" y2="${peakY-16}" stroke="var(--ink-2)" stroke-width="1.5"/><path d="M${peakX} ${peakY-16} l12 4 l-12 4Z" fill="var(--gold)"/>`;
+  h+=`<g class="climber"><g class="body"><circle cx="0" cy="-15" r="3.6" fill="var(--you)"/><rect x="-3.4" y="-11" width="6.8" height="8" rx="3" fill="var(--you)"/><rect x="-6" y="-10.5" width="3.4" height="6" rx="1.5" fill="var(--navy)"/><path d="M-1.6 -3.5 L-2.6 0 M1.6 -3.5 L2.8 0" stroke="var(--you)" stroke-width="2.2" stroke-linecap="round"/></g></g>`;
+  svg.innerHTML=h;svg._g={pts,peakX,peakY};
+}
+function updMtn(svg,anim){
+  const g=svg._g,pos=climb(S.res),last=S.res[S.res.length-1];
+  svg.querySelectorAll(".st").forEach((el,i)=>{el.setAttribute("class","st"+(i<pos?" ok":(last===0&&i===pos)?" no":""))});
+  const c=svg.querySelector(".climber"),[x,y]=pos>=SUMMIT?[g.peakX,g.peakY]:g.pts[pos];
+  c.style.transform=`translate(${x}px,${y-1}px)`;
+  if(anim){c.classList.remove("hop");void c.getBoundingClientRect();c.classList.add("hop")}
+}
+function renderStart(){
+  const pos=S.res.length;updMtn($("mtnStart"),false);
+  $("startStep").textContent=pos?T.left.replace("{n}",SUMMIT-climb(S.res)):T.rule;
+  $("go").textContent=pos===0?T.start:pos>=TOTAL?T.seeResult:T.cont.replace("{n}",pos+1);
+  $("reset").hidden=pos===0;
+}
+function renderRoad(anim){
+  const pos=S.res.length;
+  $("stepTxt").textContent=T.step.replace("{n}",Math.min(pos+1,TOTAL)).replace("{t}",TOTAL);
+  $("toTop").textContent=T.left.replace("{n}",SUMMIT-climb(S.res));
+  updMtn($("mtnBar"),anim);
+  $("okCount").textContent=S.res.filter(Boolean).length;
+}
+let cur=null;
+function pose(state){ // speaker talks, you react
+  const th=$("pThem"),yo=$("pYou");
+  th.classList.toggle("talk",state==="talk");yo.classList.toggle("talk",state==="ok"||state==="no");
+  yo.classList.toggle("no",state==="no");
+  const m=yo.querySelector(".mouth"),mt=th.querySelector(".mouth");
+  m.setAttribute("d",state==="no"?"M-8 84 Q-3 81 2 84":"M-8 81 Q-3 87 2 81");
+  mt.setAttribute("d",state==="no"?"M-2 83 L8 83":"M-2 82 Q3 87 8 82");
+  setTimeout(()=>{th.classList.remove("talk");yo.classList.remove("talk")},state==="talk"?1400:1100);
+}
+function renderQ(){
+  const pos=S.res.length;cur=item(pos);const p=PEOPLE[pos%PEOPLE.length];
+  $("tag").textContent=cur.t?T.tech:T.reg;$("tag").className="tag"+(cur.t?" tech":"");
+  $("who").textContent=p[0]+" · "+p[1];
+  const m=$("msg");m.innerHTML=LANG==="en"?cur.qe:cur.q;m.style.animation="none";void m.offsetWidth;m.style.animation="";
+  $("think").hidden=false;$("mine").hidden=true;$("reveal").hidden=true;pose("talk");
+  const box=$("opts");box.innerHTML="";
+  shuffle([cur.a,cur.l,cur.d]).forEach(t=>{const b=document.createElement("button");b.className="opt";b.type="button";b.textContent=t;b.onclick=()=>pick(b,t);box.appendChild(b)});
+  renderRoad(false);
+}
+function pick(btn,t){
+  ac();const ok=t===cur.a;
+  for(const b of $("opts").children){b.disabled=true;if(b.textContent===cur.a)b.classList.add("right");else if(b===btn)b.classList.add("wrong");else b.classList.add("dim")}
+  S.res.push(ok?1:0);save();sync(false);
+  $("think").hidden=true;const mine=$("mine");mine.textContent=t;mine.className="bub mine"+(ok?"":" wrong");mine.hidden=false;pose(ok?"ok":"no");
+  let streak=0;for(let k=S.res.length-1;k>=0&&S.res[k];k--)streak++;
+  const v=$("verdict");v.className="verdict "+(ok?"ok":"no");
+  v.textContent=ok?(streak>=3?T.streak.replace("{n}",streak):T.ok):T.close;
+  const mv=document.createElement("span");mv.className="mv";mv.textContent=ok?T.up:T.down;v.appendChild(mv);
+  $("say").hidden=!(AUDIO_SRC&&CUES[cur.k]);
+  const pos=S.res.length,endsStage=STAGES.some(z=>z.b===pos);
+  $("next").textContent=pos>=TOTAL?T.toEnd:endsStage?T.toMile:T.next;
+  updMtn($("mtnBar"),true);$("toTop").textContent=T.left.replace("{n}",SUMMIT-climb(S.res));
+  $("saveCard").hidden=!(!S.user&&pos%3===0&&pos<TOTAL&&pos!==S.skip);
+  $("reveal").hidden=false;$("okCount").textContent=S.res.filter(Boolean).length;
+  (ok?SFX.ok:SFX.no)();setTimeout(()=>speak(cur),380);
+  setTimeout(()=>$("reveal").scrollIntoView({behavior:"smooth",block:"nearest"}),80);
+}
+function next(){
+  const pos=S.res.length,z=STAGES.find(z=>z.b===pos);
+  if(pos>=TOTAL)return finish();
+  if(z)return milestone(z);
+  SFX.step();renderQ();
+  $("sGame").scrollIntoView({behavior:"smooth",block:"start"});
+}
+function milestone(z){
+  SFX.win();show("sMile");const len=z.b-z.a,ok=okIn(z),k=STAGES.indexOf(z);
+  const cp=climb(S.res);$("mTitle").textContent=T.mileT.replace("{n}",cp).replace("{r}",SUMMIT-cp);
+  $("mScore").innerHTML=`${ok}<small>/${len}</small>`;$("mText").textContent=T.mile[k]||"";
+  $("mBook").href=BOOK.replace("utm_term=organic","utm_term=stage"+(k+1));
+}
+function finish(){
+  const cp=climb(S.res);(cp>=SUMMIT?SFX.win:SFX.step)();show("sEnd");$("endT").textContent=cp>=SUMMIT?T.endTop:T.endMid.replace("{n}",cp);const ok=S.res.filter(Boolean).length,r=ok/TOTAL,lv=r<.45?0:r<.65?1:r<.85?2:3;
+  $("eScore").innerHTML=`${ok}<small>/${TOTAL}</small>`;
+  $("eText").textContent=T.levels[lv];
+  $("eBook").href=BOOK;
+}
+function toast(t){const d=document.createElement("div");d.className="toast";d.textContent=t;$("eesg").appendChild(d);setTimeout(()=>d.remove(),2400)}
+$("go").onclick=()=>{ac();if(S.res.length>=TOTAL)return finish();show("sGame");renderQ()};
+$("reset").onclick=()=>{const m=S.mute;S=fresh();S.mute=m;save();renderStart()};
+$("again").onclick=()=>{const m=S.mute;S=fresh();S.mute=m;save();show("sGame");renderQ()};
+$("next").onclick=()=>{$("saveCard").hidden=true;next()};
+$("saveX").onclick=()=>{S.skip=S.res.length;save();$("saveCard").hidden=true};
+function post(d){return fetch(HOOK,{method:"POST",body:new URLSearchParams(d),keepalive:true})}
+function sync(first){if(!HOOK||!S.user)return;try{post({a:"save",email:S.user.e,name:S.user.n,lang:LANG,first:first?"1":"0",climb:climb(S.res),answered:S.res.length,state:JSON.stringify({order:S.order,res:S.res})}).catch(()=>{})}catch(_){}}
+function setLogin(){$("loginBtn").textContent=S.user?S.user.n:T.login}
+$("loginBtn").onclick=()=>{if(S.user)return;if($("sGame").hidden){show("sGame");renderQ()}$("saveCard").hidden=false;$("saveCard").scrollIntoView({behavior:"smooth",block:"center"});setTimeout(()=>$("fName").focus(),350)};
+$("saveF").onsubmit=async e=>{e.preventDefault();const n=$("fName").value.trim(),em=$("fEmail").value.trim().toLowerCase();
+  if(!n||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){$("fEmail").focus();return}
+  const btn=e.target.querySelector("button");btn.disabled=true;let first=true;
+  try{const r=await post({a:"load",email:em});const v=await r.json();if(v&&v.order&&v.order.length===TOTAL&&Array.isArray(v.res)){first=false;if(v.res.length>S.res.length){S.order=v.order;S.res=v.res}}}catch(_){}
+  S.user={n,e:em};save();sync(first);btn.disabled=false;$("saveCard").hidden=true;setLogin();toast(T.saved.replace("{n}",n));
+  if(!$("sGame").hidden&&$("reveal").hidden)renderQ();renderRoad(false);renderStart()};
+$("mNext").onclick=()=>{SFX.step();show("sGame");renderQ()};
+$("say").onclick=()=>speak(cur,true);
+$("mute").onclick=()=>{S.mute=!S.mute;save();setMute();if(S.mute){try{AUD.pause()}catch(e){}}};
+$("share").onclick=()=>{const ok=S.res.filter(Boolean).length,t=T.shareTxt.replace("{n}",ok).replace("{t}",TOTAL);
+  if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>toast(T.copied)).catch(()=>toast(t));else toast(t)};
+window.addEventListener("resize",()=>{if(!$("sGame").hidden)renderRoad(false)});
+buildMtn($("mtnStart"),170);buildMtn($("mtnBar"),120);setMute();setLogin();renderStart();
+})();
+</script>
