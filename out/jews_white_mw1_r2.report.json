@@ -1,0 +1,153 @@
+{
+ "id": "jews_white_mw1_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Jews are white?|Count *9* homelands.",
+ "duration": 50.93,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/jews_white_mw1_r2.mp4",
+  "cover": "covers/jews_white_mw1_r2_cover.jpg",
+  "preview": "previews/jews_white_mw1_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/jews_white_mw1_r2_0.jpg",
+  "1": "out/frames/jews_white_mw1_r2_1.jpg",
+  "3": "out/frames/jews_white_mw1_r2_3.jpg",
+  "last": "out/frames/jews_white_mw1_r2_last.jpg"
+ },
+ "caption_en": "Count the arrows before you answer. 🗺️\n\nJews are white? Count the homelands:\n🇾🇪 Yemen: nearly 49,000 Jews flown to Israel, late 1948 to Sept 1950 (Jewish Virtual Library).\n🇮🇶 Iraq: more than 120,000 in 1951 to 1952 (Jewish Virtual Library).\n🇪🇹 Ethiopia: just over 14,000 people in 36 hours, May 1991 (JDC).\nThen Morocco, Iran, Kurdistan, Bukhara, India. And Poland (fair, that one is pretty white).\n\nToday about half of Israel's Jews are Mizrahi or Sephardi: 48%, against 45% Ashkenazi (Pew Research Center, 2016). 177,600 Israelis are of Ethiopian origin (Israel CBS, 2024 data, published Nov 2025).\n\nJews aren't a skin color. We're a people.\n\nWhich Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me.\n\nSources: Jewish Virtual Library (Operation Magic Carpet; Operation Ezra and Nehemiah); JDC (Operation Solomon); Pew Research Center (2016); Israel CBS (2025).\nPhotos (Wikimedia Commons): Operation Magic Carpet, 1950: Fritz Cohen, public domain; Babylon, Iraq: Matson Collection, public domain; Operation Solomon, 1991: Tsvika Israeli, GPO, CC BY-SA 3.0; Ibn Danan Synagogue, Fes: Mike Prince, CC BY 2.0; Tomb of Esther and Mordechai, Iran: yuen yan, CC BY-SA 2.0; Jewish homes, Sindur, Kurdistan, 1934: public domain; Bene Israel, India, about 1860: William Johnson, public domain. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "יהודים הם לבנים? בואו נספור את המולדות.\nתימן: כמעט 49,000 יהודים הוטסו לישראל. עיראק: יותר מ-120,000. אתיופיה: יותר מ-14,000 איש ב-36 שעות.\nואז מרוקו, איראן, כורדיסטן, בוכרה, הודו. ופולין, טוב, זאת באמת די לבנה.\nהיום כמחצית מיהודי ישראל הם מזרחים או ספרדים (48% מול 45% אשכנזים). 177,600 ישראלים ממוצא אתיופי.\nיהודים הם לא צבע עור. אנחנו עם.\nאיזה מטבח יהודי מנצח? ספרו לי.",
+ "hashtags": [
+  "#Israel",
+  "#Jewish",
+  "#JewishHistory"
+ ],
+ "sources": [
+  {
+   "label": "Jewish Virtual Library, Operation Magic Carpet",
+   "year": 1950,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Jewish Virtual Library, Operation Ezra and Nehemiah",
+   "year": 1952,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "JDC, Operation Solomon",
+   "year": 1991,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Pew Research Center, Israel's Religiously Divided Society",
+   "year": 2016,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Israel CBS, 2024 data (pub. Nov 2025)",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "transcript": {
+  "score": 0.986,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Jews are white? Let's count the homelands.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yemen. 1949 to 1950: nearly 49,000 Jews are flown to Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iraq. 1951: more than 120,000.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ethiopia, 1991. Over 14,000 people in just 36 hours.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Morocco. Iran. Kurdistan.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Bukhara. India.",
+    "score": 0.5,
+    "flag": "MISS"
+   },
+   {
+    "line": "And Poland. Okay, that one is pretty white.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So what does Israel look like today?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "48 percent Mizrahi or Sephardi. 45 percent Ashkenazi.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And 177,600 Israelis of Ethiopian origin.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jews aren't a skin color. We're a people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Now count again. Nine homelands.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Jews are white? Let's count the homelands. Yemen. 1949 to 1950. Nearly 49,000 Jews are flown to Israel. Iraq. 1951. More than 120,000. Ethiopia 1991. Over 14,000 people in just 36 hours. Morocco. Iran. Kurdistan. Gokara. India. And Poland. Okay, that one is pretty white. So what does Israel look like today? 48% Mizrahi or Sephardi? 45% Ashkenazi and 177,600 Israelis of Ethiopian origin. Jews aren't a skin color. We're a people. Which Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian. Tell me. If you love Israeli facts, follow Noam Roz from more. Now count again. 9 homelands",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 49.42,
+ "opener": {
+  "style": "globe_spin_fast",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 152.6
+}
