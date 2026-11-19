@@ -10,7 +10,8 @@
  "voice": {
   "tempo": 1.1,
   "lead": 0.1,
-  "gap": 0.15
+  "gap": 0.15,
+  "file": "voice/israel_maslow_r2_vo_s1.wav"
  },
  "lines": [
   {
@@ -48,7 +49,7 @@
    "say": "Esteem? Four Eurovision wins. Very important for national security."
   },
   {
-   "say": "And the top. Fourteen Nobel prizes."
+   "say": "And at the very top: fourteen Nobel prizes."
   },
   {
    "say": "Six point eight percent of GDP on research. No rich country spends more."
