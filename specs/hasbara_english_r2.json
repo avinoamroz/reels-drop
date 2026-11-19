@@ -9,11 +9,11 @@
  },
  "lines": [
   {
-   "say": "Don't say hasbara in English. Say one of these three.",
+   "say": "Don't say <<h|ɑ|s|b|ɑ|ˈ|r|ɑ>> in English. Say one of these three.",
    "gap": 0.2
   },
   {
-   "say": "Dana joins a call with London. They ask what she does online. She says: I do hasbara!",
+   "say": "Dana joins a call with London. They ask what she does online. She says: I do <<h|ɑ|s|b|ɑ|ˈ|r|ɑ>>!",
    "gap": 0.3
   },
   {
@@ -21,7 +21,7 @@
    "gap": 0.3
   },
   {
-   "say": "Hasbara literally means explaining. So in English, pick the word for the room."
+   "say": "<<h|ɑ|s|b|ɑ|ˈ|r|ɑ>> literally means explaining. So in English, pick the word for the room."
   },
   {
    "say": "In a meeting: public diplomacy.",
@@ -55,7 +55,7 @@
    "say": "Save this for your next call."
   },
   {
-   "say": "And remember: don't say hasbara.",
+   "say": "And remember: don't say <<h|ɑ|s|b|ɑ|ˈ|r|ɑ>>.",
    "gap": 0.1
   }
  ],
@@ -132,5 +132,8 @@
   "t": 6.0,
   "big": "3 words",
   "text": "Don't say|*hasbara*"
+ },
+ "subs_replace": {
+  "<<h|ɑ|s|b|ɑ|ˈ|r|ɑ>>": "hasbara"
  }
 }

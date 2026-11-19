@@ -22,6 +22,10 @@
    "gap": 0.15
   },
   {
+   "say": "One with Israel, fifty nine kilometres. One with Egypt, thirteen.",
+   "screen": "Israel *59 km.* Egypt *13 km.*"
+  },
+  {
    "say": "This is the other one. Rafah. Egypt's gate.",
    "screen": "*Rafah:* Egypt's gate"
   },
@@ -36,6 +40,10 @@
   {
    "say": "In twenty fifteen, Egypt flooded the smuggling tunnels with seawater.",
    "screen": "*2015:* tunnels flooded"
+  },
+  {
+   "say": "Egypt also razed over three thousand buildings for a buffer zone.",
+   "screen": "Egypt's *buffer zone*"
   },
   {
    "say": "In twenty twenty three, Egypt's president rejected moving Gazans into Sinai.",
@@ -81,7 +89,7 @@
    },
    {
     "file": "templates/photos/evil_blockade/raf2.jpg",
-    "at": "L2",
+    "at": "L3",
     "credit": "Rafah: J. J. Badwan, CC BY-SA 4.0, Commons",
     "kb": [
      0.5,
@@ -95,7 +103,7 @@
    },
    {
     "file": "templates/photos/gaza_who_blocks/gwb_tunnel.jpg",
-    "at": "L4",
+    "at": "L5",
     "credit": "Egypt border tunnel, 2006: IDF, CC BY 2.0",
     "kb": [
      0.5,
@@ -107,8 +115,22 @@
     ]
    },
    {
+    "file": "templates/photos/evil_blockade/raf2.jpg",
+    "at": "L6",
+    "credit": "Rafah: J. J. Badwan, CC BY-SA 4.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.15,
+     0.5,
+     0.5,
+     1.0
+    ],
+    "gray": true
+   },
+   {
     "file": "templates/photos/evil_blockade/tun1.jpg",
-    "at": "L5",
+    "at": "L7",
     "credit": "Tunnel: IDF, CC BY-SA 2.0, Commons",
     "kb": [
      0.5,
@@ -122,7 +144,7 @@
    },
    {
     "file": "templates/photos/gaza_who_blocks/gwb_rafah.jpg",
-    "at": "L6",
+    "at": "L8",
     "credit": "Rafah crossing, 2023: A. Amra, CC BY-SA 3.0 IGO",
     "kb": [
      0.5,
@@ -135,7 +157,7 @@
    },
    {
     "file": "templates/photos/evil_blockade/raf2.jpg",
-    "at": "L7",
+    "at": "L9",
     "credit": "Rafah: J. J. Badwan, CC BY-SA 4.0, Commons",
     "kb": [
      0.5,
@@ -149,7 +171,7 @@
    },
    {
     "file": "templates/photos/gaza_who_blocks/gwb_rafah.jpg",
-    "at": "L10-0.2",
+    "at": "L12-0.2",
     "credit": "Rafah crossing, 2023: A. Amra, CC BY-SA 3.0 IGO",
     "kb": [
      0.5,
@@ -163,31 +185,31 @@
   ],
   "stamp": [
    {
-    "at": "L2:shut",
-    "until": "L3-0.1",
+    "at": "L3:shut",
+    "until": "L4-0.1",
     "text": "CLOSED",
     "color": "red",
     "y": 1150
    },
    {
-    "at": "L4:flooded",
-    "until": "L5-0.1",
+    "at": "L5:flooded",
+    "until": "L6-0.1",
     "text": "FLOODED",
     "color": "red",
     "y": 1150,
     "angle": -6
    },
    {
-    "at": "L5:rejected",
-    "until": "L6-0.1",
+    "at": "L7:rejected",
+    "until": "L8-0.1",
     "text": "REJECTED",
     "color": "red",
     "y": 1150,
     "angle": 5
    },
    {
-    "at": "L8:egypt",
-    "until": "L9-0.1",
+    "at": "L10:egypt",
+    "until": "L11-0.1",
     "text": "ASK EGYPT?",
     "color": "yellow",
     "y": 1150,
@@ -197,8 +219,8 @@
   ],
   "big": [
    {
-    "at": "L3:thirty",
-    "until": "L4-0.1",
+    "at": "L4:thirty",
+    "until": "L5-0.1",
     "value": 34,
     "from": 0,
     "suffix": " days",
@@ -206,49 +228,60 @@
     "y": 1000
    },
    {
-    "at": "L7",
-    "until": "L8-0.1",
-    "value": 2,
-    "from": 2,
-    "suffix": " borders",
-    "sub": "both closed, often",
+    "at": "L6:three",
+    "until": "L7-0.1",
+    "value": 3255,
+    "from": 0,
+    "sub": "buildings razed, Egypt's Rafah, 2013 to 2015",
     "y": 1000
    }
   ]
  },
  "sources": [
   {
+   "label": "CIA World Factbook, Gaza Strip",
+   "year": 2024,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
    "label": "UN OCHA, Gaza crossings",
    "year": 2015,
-   "at": "L2",
-   "until": "L4"
+   "at": "L3",
+   "until": "L5"
   },
   {
    "label": "Al Jazeera",
    "year": 2015,
-   "at": "L4",
-   "until": "L5"
-  },
-  {
-   "label": "Reuters, 18 Oct",
-   "year": 2023,
    "at": "L5",
    "until": "L6"
   },
   {
+   "label": "Reuters, 18 Oct",
+   "year": 2023,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
    "label": "AP",
    "year": "2024, 2026",
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Human Rights Watch",
+   "year": 2015,
    "at": "L6",
    "until": "L7"
   }
  ],
  "end": {
-  "at": "L7",
+  "at": "L9",
   "balance": "Israel restricts Gaza too. That deserves *questions.*",
   "cta": "Your answer? *Comments.*"
  },
- "caption_en": "The other border never makes the news. 🎙️\n\nGaza has two borders. Only one ever gets the questions.\n🔒 After HAMAS took over Gaza in 2007, Egypt kept the Rafah crossing shut for long stretches (UN OCHA: open 34 days between Oct 2014 and Sep 2015).\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Al Jazeera, Sep 2015).\n🏜️ 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah. The crossing reopened on 2 February 2026 for limited foot traffic (Israeli and Egyptian security approval) and has been shut again several times since.\n\nIsrael restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt?",
- "caption_he": "לעזה יש שני גבולות. רק אחד מקבל את השאלות.\n🔒 אחרי שחמאס השתלט על עזה ב 2007, מצרים החזיקה את מעבר רפיח סגור לתקופות ארוכות (OCHA: נפתח 34 ימים בין אוקטובר 2014 לספטמבר 2015).\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\n🏜️ 2023: נשיא מצרים דחה העברת עזתים לסיני.\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח. ב 2 בפברואר 2026 המעבר נפתח מחדש למעבר מוגבל של הולכי רגל, ומאז נסגר שוב כמה פעמים.\nגם ישראל מגבילה את עזה, וזה ראוי לשאלות קשות. אבל מתי בפעם האחרונה שמעתם מישהו שואל את מצרים?\n\nSources: UN OCHA (2015); Al Jazeera (2015); Reuters (2023); AP (2024, 2026).\nPhotos: A. Amra (CC BY-SA 3.0 IGO); J. J. Badwan (CC BY-SA 4.0); IDF (CC BY 2.0, CC BY-SA 2.0), Wikimedia Commons. AI voice.",
+ "caption_en": "The other border never makes the news. 🎙️\n\nGaza has two borders: Israel about 59 km, Egypt about 13 km (CIA World Factbook). Only one ever gets the questions.\n🔒 After HAMAS took over Gaza in 2007, Egypt kept the Rafah crossing shut for long stretches (UN OCHA: open 34 days between Oct 2014 and Sep 2015).\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Al Jazeera, Sep 2015).\n🏚️ 2013 to 2015: Egypt razed 3,255 buildings in Rafah for a buffer zone (Human Rights Watch, 2015).\n🏜️ 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah. The crossing reopened on 2 February 2026 for limited foot traffic (Israeli and Egyptian security approval) and has been shut again several times since.\n\nIsrael restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt?",
+ "caption_he": "לעזה יש שני גבולות. רק אחד מקבל את השאלות.\n🔒 אחרי שחמאס השתלט על עזה ב 2007, מצרים החזיקה את מעבר רפיח סגור לתקופות ארוכות (OCHA: נפתח 34 ימים בין אוקטובר 2014 לספטמבר 2015).\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\n🏚️ 2013 עד 2015: מצרים הרסה 3,255 מבנים ברפיח לטובת אזור חיץ (HRW).\n🏜️ 2023: נשיא מצרים דחה העברת עזתים לסיני.\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח. ב 2 בפברואר 2026 המעבר נפתח מחדש למעבר מוגבל של הולכי רגל, ומאז נסגר שוב כמה פעמים.\nגם ישראל מגבילה את עזה, וזה ראוי לשאלות קשות. אבל מתי בפעם האחרונה שמעתם מישהו שואל את מצרים?\n\nSources: CIA World Factbook; UN OCHA (2015); Human Rights Watch (2015); Al Jazeera (2015); Reuters (2023); AP (2024, 2026).\nPhotos: A. Amra (CC BY-SA 3.0 IGO); J. J. Badwan (CC BY-SA 4.0); IDF (CC BY 2.0, CC BY-SA 2.0), Wikimedia Commons. AI voice.",
  "hashtags": [
   "#Israel",
   "#Gaza",

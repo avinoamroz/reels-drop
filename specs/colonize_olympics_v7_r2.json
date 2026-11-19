@@ -9,7 +9,7 @@
  "music": {
   "bed": "bounce",
   "lufs": -16,
-  "bed_lufs": -26,
+  "bed_lufs": -29,
   "duck_db": 14
  },
  "voice": {
@@ -87,10 +87,10 @@
    {
     "at": "L1-0.2",
     "view": [
-     40.0,
-     38.0,
-     220.0,
-     700
+     45.0,
+     42.0,
+     150.0,
+     600
     ],
     "dur": 1.4
    },
@@ -107,10 +107,10 @@
    {
     "at": "L8:different",
     "view": [
-     40.0,
-     38.0,
-     220.0,
-     700
+     45.0,
+     42.0,
+     150.0,
+     600
     ],
     "dur": 1.2
    },
@@ -172,7 +172,7 @@
     "at": "L2:twenty-0.3",
     "until": "L7-0.2",
     "title": "Share of Earth's land at peak",
-    "y": 1020,
+    "y": 900,
     "vmax": 25,
     "rows": [
      {
@@ -221,9 +221,9 @@
    },
    {
     "at": "L8:different",
-    "until": "L10-0.2",
+    "until": "L9-0.1",
     "title": "Share of Earth's land at peak",
-    "y": 1020,
+    "y": 780,
     "vmax": 25,
     "rows": [
      {
@@ -372,9 +372,9 @@
    {
     "at": "L11",
     "until": "L12-0.1",
-    "text": "Your call: what's the *fairest* scoreboard?",
+    "text": "Fairest scoreboard? *Your call.*",
     "y": 520,
-    "size": 52
+    "size": 56
    }
   ],
   "brand": {

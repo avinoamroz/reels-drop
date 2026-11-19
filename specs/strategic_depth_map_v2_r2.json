@@ -5777,15 +5777,6 @@
    }
   ],
   "tail": 0.5,
-  "overlays": [
-   {
-    "at": "L9:cut+0.4",
-    "until": "L10-0.2",
-    "text": "Save this map",
-    "y": 520,
-    "size": 48
-   }
-  ],
   "brand": {
    "text": "Israel Facts",
    "show": [
