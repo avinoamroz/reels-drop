@@ -1,0 +1,147 @@
+{
+ "id": "promenades_world_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*14 km.* Who beats|*Tel Aviv?*",
+ "duration": 49.13,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/promenades_world_r2.mp4",
+  "cover": "covers/promenades_world_r2_cover.jpg",
+  "preview": "previews/promenades_world_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/promenades_world_r2_0.jpg",
+  "1": "out/frames/promenades_world_r2_1.jpg",
+  "3": "out/frames/promenades_world_r2_3.jpg",
+  "last": "out/frames/promenades_world_r2_last.jpg"
+ },
+ "caption_en": "Tel Aviv was winning. Then one seafront showed up. 🌊\n\nThe Tel Aviv promenade runs about 14 km from Jaffa to the north, past 13 beaches (Tel Aviv-Yafo Municipality), in a city of about half a million people (Israel CBS). How it ranks against famous seafronts, by length:\n\n🇪🇬 Alexandria Corniche: over 16 km (over ten miles, Wikipedia)\n🇮🇱 Tel Aviv: 14 km (8.7 miles, Tel Aviv-Yafo Municipality)\n🇶🇦 Doha Corniche: 7 km (Visit Qatar)\n🇫🇷 Promenade des Anglais, Nice: almost 7 km (Explore Nice Côte d'Azur)\n🇦🇺 Bondi to Coogee walk: 6 km (Destination NSW)\n🇱🇧 Beirut Corniche: 4.8 km (Wikipedia)\n🇧🇷 Copacabana: 4 km (National Endowment for the Humanities)\n🇺🇸 Venice Beach boardwalk: about 3.2 km (Wikipedia)\n\nBeach visits a year: Venice Beach about 10 million (ABC News, 2023), Tel Aviv 8.5 million bathers (Tel Aviv-Yafo Municipality). The others publish no official count, so we show no data.\n\nBeauty has no fair ranking. You decide: which one would you walk? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Yong Woo Park (CC BY 4.0); Daniel Mayer (CC BY-SA 4.0); Txllxt TxllxT (CC BY-SA 4.0); Wilfredor (CC0); Wusel007 (CC BY-SA 3.0); Dr. Avishai Teicher, PikiWiki Israel (CC BY 2.5). AI voice.",
+ "caption_he": "הטיילת של תל אביב: כ־14 ק\"מ מיפו צפונה, 13 חופים ו־8.5 מיליון רוחצים בשנה (עיריית תל אביב־יפו).\nבאורך היא במקום השני בעולם מבין הטיילות המפורסמות, אחרי הקורניש של אלכסנדריה (יותר מ־16 ק\"מ). דוחה וניס כ־7, בונדי לקוג'י 6, ביירות 4.8, קופקבנה 4, ונציה ביץ' כ־3.2.\nויופי? את זה אין מדד הוגן שמודד. אתם מחליטים: באיזו טיילת הייתם הולכים?",
+ "hashtags": [
+  "#TelAviv",
+  "#promenade",
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Tel Aviv-Yafo Municipality",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Wikipedia; Visit Qatar; Explore Nice; Destination NSW; NEH",
+   "year": 2026,
+   "at": "L3",
+   "until": "L7"
+  },
+  {
+   "label": "Tel Aviv-Yafo Municipality; ABC News",
+   "year": 2023,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Alexandria Corniche: Wikipedia",
+   "year": 2026,
+   "at": "L9",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.863,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Fourteen kilometres of seafront. Who beats Tel Aviv?",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Its promenade runs from Jaffa to the north. Thirteen beaches, one walk.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Let's race the world's famous seafronts. Shortest first.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Venice Beach, three kilometres. Copacabana, four.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Beirut, almost five. Bondi to Coogee, six.",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "Nice and Doha, about seven each.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Tel Aviv, fourteen. Double everyone so far.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And busy: eight and a half million beach visits a year. Only Venice Beach claims more.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "So is Tel Aviv the champion? Not quite. One seafront is longer.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Alexandria's Corniche, in Egypt. Over sixteen kilometres.",
+    "score": 0.714,
+    "flag": "MISS"
+   },
+   {
+    "line": "Tel Aviv takes silver. Not bad for a city of half a million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which one would you walk?",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.6,
+    "flag": "MISS"
+   },
+   {
+    "line": "Fourteen kilometres. And still not the longest.",
+    "score": 0.429,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "14 kilometers of seafront. Who beats Tel Aviv? Its promenade runs from Jaffa to the north. 13 beaches, one walk. Let's race the world's famous seafronts. Shortest first. Venice Beach, three kilometers. Copacabana, four. Beirut, almost five. Bandi Takuji, six. Nice and Doha, about seven each. Tel Aviv, 14. Double everyone so far. And visit. Eight and a half million beach visits a year. Only Venice Beach claims more. So is Tel Aviv the champion? Not quite. One seafront is longer. Alexandria's Cornish in Egypt. Over 16 kilometers Tel Aviv takes silver. Not bad for a city of half a million. Which one would you want? If you love Israeli facts, follow me on",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 47.63,
+ "opener": {
+  "style": "globe_spin_fast",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 199.4
+}
