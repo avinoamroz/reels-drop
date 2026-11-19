@@ -2,11 +2,11 @@
  "id": "promenades_world_r2",
  "account": "noamroz__",
  "template": "map_counter",
- "hook": "*14 km.* Who beats|*Tel Aviv?*",
- "duration": 49.13,
+ "hook": "*14* km. Who beats|*Tel Aviv?*",
+ "duration": 54.03,
  "audio": {
-  "lufs": -16.2,
-  "true_peak": -2.0
+  "lufs": -16.1,
+  "true_peak": -0.8
  },
  "outputs": {
   "mp4": "out/promenades_world_r2.mp4",
@@ -53,7 +53,7 @@
   }
  ],
  "transcript": {
-  "score": 0.863,
+  "score": 0.904,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -73,8 +73,8 @@
    },
    {
     "line": "Venice Beach, three kilometres. Copacabana, four.",
-    "score": 0.833,
-    "flag": "ok"
+    "score": 0.667,
+    "flag": "MISS"
    },
    {
     "line": "Beirut, almost five. Bondi to Coogee, six.",
@@ -92,8 +92,8 @@
     "flag": "ok"
    },
    {
-    "line": "And busy: eight and a half million beach visits a year. Only Venice Beach claims more.",
-    "score": 0.938,
+    "line": "It's busy too: eight and a half million beach visits a year. Only Venice Beach claims more.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -103,7 +103,7 @@
    },
    {
     "line": "Alexandria's Corniche, in Egypt. Over sixteen kilometres.",
-    "score": 0.714,
+    "score": 0.571,
     "flag": "MISS"
    },
    {
@@ -113,35 +113,35 @@
    },
    {
     "line": "Which one would you walk?",
-    "score": 0.8,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.6,
-    "flag": "MISS"
+    "score": 0.8,
+    "flag": "ok"
    },
    {
     "line": "Fourteen kilometres. And still not the longest.",
-    "score": 0.429,
-    "flag": "MISS"
+    "score": 0.857,
+    "flag": "ok"
    }
   ],
-  "heard": "14 kilometers of seafront. Who beats Tel Aviv? Its promenade runs from Jaffa to the north. 13 beaches, one walk. Let's race the world's famous seafronts. Shortest first. Venice Beach, three kilometers. Copacabana, four. Beirut, almost five. Bandi Takuji, six. Nice and Doha, about seven each. Tel Aviv, 14. Double everyone so far. And visit. Eight and a half million beach visits a year. Only Venice Beach claims more. So is Tel Aviv the champion? Not quite. One seafront is longer. Alexandria's Cornish in Egypt. Over 16 kilometers Tel Aviv takes silver. Not bad for a city of half a million. Which one would you want? If you love Israeli facts, follow me on",
+  "heard": "14 kilometers of seafront. Who beats Tel Aviv? Its promenade runs from Jaffa to the north. 13 beaches. One walk. Let's race the world's famous seafronts. Shortest first. Venice Beach. 3 kilometers. Opacabana. 4. Beirut. Almost 5. Bandi Takuji. 6. Nice and Doha. About 7 each. Tel Aviv. 14. Double everyone so far. It's busy too. Eight and a half million beach visits a year. Only Venice Beach claims more. So is Tel Aviv the champion? Not quite. One seafront is longer. Alexandria is Cornish in Egypt. Over 16 kilometers. Tel Aviv takes silver. Not bad for a city of half a million. Which one would you walk? If you love Israeli facts, follow Norm Ross for more. 14 kilometers. And still not the longest.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 47.63,
+ "body_s": 52.52,
  "opener": {
   "style": "globe_spin_fast",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.2,
-  "true_peak": -1.9
+  "lufs": -16.1,
+  "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 199.4
+ "render_s": 215.7
 }
