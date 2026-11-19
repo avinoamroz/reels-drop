@@ -1,0 +1,651 @@
+{
+ "id": "jews_white_mw1_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Jews are white?|Count *9* homelands.",
+ "opener": {
+  "style": "globe_spin_fast"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -27,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "Jews are white? Let's count the homelands.",
+   "gap": 0.2
+  },
+  {
+   "say": "Yemen. 1949 to 1950: nearly 49,000 Jews are flown to Israel.",
+   "screen": "Yemen: *~49,000* flown in"
+  },
+  {
+   "say": "Iraq. 1951: more than 120,000.",
+   "screen": "Iraq: *120,000+*"
+  },
+  {
+   "say": "Ethiopia, 1991. Over 14,000 people in just 36 hours.",
+   "screen": "Ethiopia: *14,000* in *36* hours"
+  },
+  {
+   "say": "Morocco. Iran. Kurdistan.",
+   "screen": "Morocco, Iran, *Kurdistan*"
+  },
+  {
+   "say": "Bukhara. India.",
+   "screen": "Bukhara, *India*"
+  },
+  {
+   "say": "And Poland. Okay, that one is pretty white.",
+   "screen": "Poland: *okay,* fair"
+  },
+  {
+   "say": "So what does Israel look like today?",
+   "screen": "Israel's Jews *today*"
+  },
+  {
+   "say": "48 percent Mizrahi or Sephardi. 45 percent Ashkenazi.",
+   "screen": "*48%* Mizrahi or Sephardi"
+  },
+  {
+   "say": "And 177,600 Israelis of Ethiopian origin.",
+   "screen": "*177,600* of Ethiopian origin"
+  },
+  {
+   "say": "Jews aren't a skin color. We're a people.",
+   "screen": "Not a skin color. *A people.*"
+  },
+  {
+   "say": "Which Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me.",
+   "screen": "Which Jewish kitchen *wins?*"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "Now count again. Nine homelands.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   40.0,
+   30.0,
+   60.0
+  ],
+  "hook_y": 930,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     40.0,
+     24.0,
+     34.0,
+     960
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L4-0.2",
+    "view": [
+     30.0,
+     34.0,
+     70.0,
+     960
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L5-0.2",
+    "view": [
+     52.0,
+     32.0,
+     60.0,
+     960
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L6-0.2",
+    "view": [
+     30.0,
+     40.0,
+     70.0,
+     960
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     34.9,
+     31.5,
+     5.0,
+     950
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L10",
+    "view": [
+     40.0,
+     30.0,
+     60.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "routes": [
+   {
+    "at": "L1",
+    "until": "L9",
+    "path": [
+     [
+      44.2,
+      15.35
+     ],
+     [
+      39.5,
+      26.7
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Yemen",
+    "label_at": [
+     44.2,
+     15.35
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L2",
+    "until": "L9",
+    "path": [
+     [
+      44.4,
+      33.3
+     ],
+     [
+      39.599999999999994,
+      35.675
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Iraq",
+    "label_at": [
+     44.4,
+     33.3
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L3",
+    "until": "L9",
+    "path": [
+     [
+      37.5,
+      12.6
+     ],
+     [
+      36.15,
+      25.325
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Ethiopia",
+    "label_at": [
+     37.5,
+     12.6
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L4:morocco",
+    "until": "L9",
+    "path": [
+     [
+      -7.6,
+      33.6
+     ],
+     [
+      13.599999999999998,
+      35.825
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Morocco",
+    "label_at": [
+     -7.6,
+     33.6
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L4:iran",
+    "until": "L9",
+    "path": [
+     [
+      51.4,
+      35.7
+     ],
+     [
+      43.099999999999994,
+      36.875
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Iran",
+    "label_at": [
+     51.4,
+     35.7
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L4:kurdistan",
+    "until": "L9",
+    "path": [
+     [
+      43.9,
+      36.2
+     ],
+     [
+      39.349999999999994,
+      37.125
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Kurdistan",
+    "label_at": [
+     43.9,
+     36.2
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L5:bukhara",
+    "until": "L9",
+    "path": [
+     [
+      64.4,
+      39.8
+     ],
+     [
+      49.6,
+      38.925
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Bukhara",
+    "label_at": [
+     64.4,
+     39.8
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L5:india",
+    "until": "L9",
+    "path": [
+     [
+      72.9,
+      19.1
+     ],
+     [
+      53.85,
+      28.575
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "India",
+    "label_at": [
+     72.9,
+     19.1
+    ],
+    "label_dy": 60
+   },
+   {
+    "at": "L6:poland",
+    "until": "L9",
+    "path": [
+     [
+      21.0,
+      52.2
+     ],
+     [
+      27.9,
+      45.125
+     ],
+     [
+      34.8,
+      32.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 0.9,
+    "label": "Poland",
+    "label_at": [
+     21.0,
+     52.2
+    ],
+    "label_dy": 60
+   }
+  ],
+  "counter": [
+   {
+    "label": "homelands counted",
+    "at": "L1",
+    "until": "L7-0.1",
+    "y": 1250,
+    "of": 9,
+    "steps": [
+     {
+      "at": "L1",
+      "value": 1
+     },
+     {
+      "at": "L2",
+      "value": 2
+     },
+     {
+      "at": "L3",
+      "value": 3
+     },
+     {
+      "at": "L4:morocco",
+      "value": 4
+     },
+     {
+      "at": "L4:iran",
+      "value": 5
+     },
+     {
+      "at": "L4:kurdistan",
+      "value": 6
+     },
+     {
+      "at": "L5:bukhara",
+      "value": 7
+     },
+     {
+      "at": "L5:india",
+      "value": 8
+     },
+     {
+      "at": "L6:poland",
+      "value": 9
+     }
+    ]
+   }
+  ],
+  "bars": [
+   {
+    "at": "L8",
+    "until": "L10-0.1",
+    "y": 620,
+    "vmax": 48,
+    "title": "Israel's Jews, Pew 2016",
+    "rows": [
+     {
+      "label": "Mizrahi or Sephardi",
+      "value": 48,
+      "txt": "48%",
+      "hl": true
+     },
+     {
+      "label": "Ashkenazi",
+      "value": 45,
+      "txt": "45%"
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L9",
+    "until": "L10-0.1",
+    "value": 177600,
+    "from": 0,
+    "sub": "Israelis of Ethiopian origin",
+    "y": 1200
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/jews_white_mw1_r2/yemen_plane.jpg",
+    "at": "L1+0.3",
+    "until": "L1e",
+    "credit": "Operation Magic Carpet, 1950: Fritz Cohen, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.6,
+     0.45,
+     1.25
+    ]
+   },
+   {
+    "file": "templates/photos/visit_syria_iraq_checklist/babylon.jpg",
+    "at": "L2+0.2",
+    "until": "L2e",
+    "credit": "Babylon, Iraq: Matson Collection, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/jews_white_mw1_r2/solomon.jpg",
+    "at": "L3:over",
+    "until": "L3e+0.1",
+    "credit": "Operation Solomon, 1991: Tsvika Israeli, GPO, CC BY-SA 3.0",
+    "kb": [
+     0.6,
+     0.5,
+     1.0,
+     0.65,
+     0.45,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/jews_white_mw1_r2/fes.jpg",
+    "at": "L4:morocco",
+    "until": "L4:iran",
+    "credit": "Ibn Danan Synagogue, Fes: Mike Prince, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/jews_white_mw1_r2/hamadan.jpg",
+    "at": "L4:iran",
+    "until": "L4:kurdistan",
+    "credit": "Tomb of Esther and Mordechai, Iran: yuen yan, CC BY-SA 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/jews_white_mw1_r2/sindur.jpg",
+    "at": "L4:kurdistan",
+    "until": "L4e+0.2",
+    "credit": "Jewish homes, Sindur, Kurdistan, 1934: public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/jews_white_mw1_r2/bene_israel.jpg",
+    "at": "L5:india",
+    "until": "L5e+0.2",
+    "credit": "Bene Israel, India, about 1860: William Johnson, public domain",
+    "kb": [
+     0.5,
+     0.45,
+     1.7,
+     0.5,
+     0.45,
+     1.9
+    ]
+   }
+  ],
+  "photo_box": [
+   60,
+   560,
+   960,
+   640,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L12",
+    "until": "L12e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   },
+   {
+    "at": "L7",
+    "until": "L10",
+    "text": "Save this map",
+    "y": 640,
+    "size": 48,
+    "pill": "#45A4DD"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Jewish Virtual Library, Operation Magic Carpet",
+   "year": 1950,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Jewish Virtual Library, Operation Ezra and Nehemiah",
+   "year": 1952,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "JDC, Operation Solomon",
+   "year": 1991,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Pew Research Center, Israel's Religiously Divided Society",
+   "year": 2016,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Israel CBS, 2024 data (pub. Nov 2025)",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Not a skin color. *A people.*"
+ },
+ "subs_replace": {},
+ "hashtags": [
+  "#Israel",
+  "#Jewish",
+  "#JewishHistory"
+ ],
+ "cover": {
+  "t": 10.0,
+  "big": "9",
+  "text": "Jews are white?|Count the *homelands.*"
+ },
+ "caption_en": "Count the arrows before you answer. 🗺️\n\nJews are white? Count the homelands:\n🇾🇪 Yemen: nearly 49,000 Jews flown to Israel, late 1948 to Sept 1950 (Jewish Virtual Library).\n🇮🇶 Iraq: more than 120,000 in 1951 to 1952 (Jewish Virtual Library).\n🇪🇹 Ethiopia: just over 14,000 people in 36 hours, May 1991 (JDC).\nThen Morocco, Iran, Kurdistan, Bukhara, India. And Poland (fair, that one is pretty white).\n\nToday about half of Israel's Jews are Mizrahi or Sephardi: 48%, against 45% Ashkenazi (Pew Research Center, 2016). 177,600 Israelis are of Ethiopian origin (Israel CBS, 2024 data, published Nov 2025).\n\nJews aren't a skin color. We're a people.\n\nWhich Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me.\n\nSources: Jewish Virtual Library (Operation Magic Carpet; Operation Ezra and Nehemiah); JDC (Operation Solomon); Pew Research Center (2016); Israel CBS (2025).\nPhotos (Wikimedia Commons): Operation Magic Carpet, 1950: Fritz Cohen, public domain; Babylon, Iraq: Matson Collection, public domain; Operation Solomon, 1991: Tsvika Israeli, GPO, CC BY-SA 3.0; Ibn Danan Synagogue, Fes: Mike Prince, CC BY 2.0; Tomb of Esther and Mordechai, Iran: yuen yan, CC BY-SA 2.0; Jewish homes, Sindur, Kurdistan, 1934: public domain; Bene Israel, India, about 1860: William Johnson, public domain. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "יהודים הם לבנים? בואו נספור את המולדות.\nתימן: כמעט 49,000 יהודים הוטסו לישראל. עיראק: יותר מ-120,000. אתיופיה: יותר מ-14,000 איש ב-36 שעות.\nואז מרוקו, איראן, כורדיסטן, בוכרה, הודו. ופולין, טוב, זאת באמת די לבנה.\nהיום כמחצית מיהודי ישראל הם מזרחים או ספרדים (48% מול 45% אשכנזים). 177,600 ישראלים ממוצא אתיופי.\nיהודים הם לא צבע עור. אנחנו עם.\nאיזה מטבח יהודי מנצח? ספרו לי."
+}

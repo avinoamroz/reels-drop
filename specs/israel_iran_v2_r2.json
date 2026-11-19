@@ -1,0 +1,442 @@
+{
+ "id": "israel_iran_v2_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*2* Iranians hugged me.|*Why?*",
+ "opener": {
+  "style": "globe_spin_whip"
+ },
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16,
+  "bed_lufs": -27,
+  "duck_db": 14,
+  "lift": "L12"
+ },
+ "voice": {
+  "tempo": 1.06,
+  "gap": 0.14
+ },
+ "lines": [
+  {
+   "say": "Two Iranians hugged me. Here's why.",
+   "gap": 0.2
+  },
+  {
+   "say": "Vienna, 2016. A debate competition. Two Iranian guys sit next to me.",
+   "screen": "Vienna, *2016*"
+  },
+  {
+   "say": "They hear I'm from Israel. They say, wow, I love Israel. And they hug me.",
+   "screen": "\"Wow, I *love* Israel\""
+  },
+  {
+   "say": "I was shocked. My father's family is from Shiraz.",
+   "screen": "My father's family: *Shiraz*"
+  },
+  {
+   "say": "I grew up sure that Iranians hate us. It's the regime that does.",
+   "screen": "The *regime*, not the people"
+  },
+  {
+   "say": "Our bond is 2,500 years old. Cyrus let the Jews go home and rebuild the Temple.",
+   "screen": "*2,500* years"
+  },
+  {
+   "say": "1950: Iran recognises Israel. Until 1979, El Al flies from Tel Aviv to Tehran.",
+   "screen": "El Al to Tehran, until *1979*"
+  },
+  {
+   "say": "Then the new regime cuts the line.",
+   "screen": "*1979:* ties cut"
+  },
+  {
+   "say": "It pays Hezbollah about 700 million dollars a year, and arms <<h|ɑ|ˈ|m|ɑ|s>>.",
+   "screen": "*$700M* a year to Hezbollah"
+  },
+  {
+   "say": "June 2025: about 550 ballistic missiles fired at Israel.",
+   "screen": "June 2025: *~550* missiles"
+  },
+  {
+   "say": "And Iran's people? They chant: Woman, life, freedom.",
+   "screen": "Woman, life, *freedom*"
+  },
+  {
+   "say": "They ask for free elections, prisoners freed, women free to choose, an open internet.",
+   "screen": "What Iranians *ask for*"
+  },
+  {
+   "say": "Can they win it peacefully? Tell me what you think.",
+   "screen": "Can they win it *peacefully?*"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "The day they do, El Al flies to Tehran again. And maybe two Iranians hug me again.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   43.0,
+   33.0,
+   30.0
+  ],
+  "hook_y": 930,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     24.0,
+     42.0,
+     40.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L3-0.2",
+    "view": [
+     43.5,
+     32.0,
+     26.0,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L8-0.2",
+    "view": [
+     40.0,
+     32.0,
+     30.0,
+     960
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L14",
+    "view": [
+     43.0,
+     33.0,
+     30.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L4",
+    "until": "L6",
+    "code": "IRN",
+    "color": "#2F7FBF",
+    "alpha": 0.8
+   },
+   {
+    "at": "L8",
+    "until": "L10",
+    "code": "IRN",
+    "color": "#8A93A6",
+    "alpha": 0.75
+   },
+   {
+    "at": "L10",
+    "until": "L13",
+    "code": "IRN",
+    "color": "#2F7FBF",
+    "alpha": 0.8
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1",
+    "until": "L3e",
+    "lon": 16.37,
+    "lat": 48.21,
+    "label": "Vienna",
+    "color": "yellow"
+   },
+   {
+    "at": "L3",
+    "until": "L4e",
+    "lon": 52.53,
+    "lat": 29.61,
+    "label": "Shiraz",
+    "color": "yellow"
+   },
+   {
+    "at": "L3",
+    "until": "L13",
+    "lon": 34.78,
+    "lat": 32.08,
+    "label": "Tel Aviv",
+    "color": "yellow"
+   },
+   {
+    "at": "L6",
+    "until": "L13",
+    "lon": 51.39,
+    "lat": 35.69,
+    "label": "Tehran",
+    "color": "grey"
+   }
+  ],
+  "routes": [
+   {
+    "at": "L3:shiraz",
+    "until": "L4e",
+    "path": [
+     [
+      52.53,
+      29.61
+     ],
+     [
+      34.78,
+      32.08
+     ]
+    ],
+    "kind": "line",
+    "draw": 1.0,
+    "label": "1,700 km"
+   },
+   {
+    "at": "L6:el",
+    "until": "L8e",
+    "path": [
+     [
+      34.78,
+      32.08
+     ],
+     [
+      43.0,
+      35.5
+     ],
+     [
+      51.39,
+      35.69
+     ]
+    ],
+    "kind": "flow",
+    "draw": 1.2,
+    "emo": "✈️",
+    "label": "El Al",
+    "cut": "L7:cuts",
+    "cut_label": "Ties cut, 1979"
+   },
+   {
+    "at": "L14:el",
+    "until": "END",
+    "path": [
+     [
+      34.78,
+      32.08
+     ],
+     [
+      43.0,
+      35.5
+     ],
+     [
+      51.39,
+      35.69
+     ]
+    ],
+    "kind": "flow",
+    "draw": 1.2,
+    "emo": "✈️",
+    "label": "One day?"
+   }
+  ],
+  "counter": [
+   {
+    "label": "to Hezbollah a year, US State Dept",
+    "at": "L8",
+    "until": "L9-0.1",
+    "y": 1250,
+    "prefix": "$",
+    "suffix": "M",
+    "steps": [
+     {
+      "at": "L8:700",
+      "value": 700
+     }
+    ]
+   },
+   {
+    "label": "ballistic missiles, June 2025",
+    "at": "L9",
+    "until": "L10-0.1",
+    "y": 1250,
+    "prefix": "~",
+    "steps": [
+     {
+      "at": "L9:550",
+      "value": 550
+     }
+    ]
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/israel_iran_v2_r2/shiraz.jpg",
+    "at": "L3:shiraz",
+    "until": "L4",
+    "credit": "Nasir al-Mulk Mosque, Shiraz: Laurens R. Krol, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.25
+    ]
+   },
+   {
+    "file": "templates/photos/underdog_rounds/cyrus.jpg",
+    "at": "L5:cyrus",
+    "until": "L5e+0.1",
+    "credit": "Cyrus Cylinder: Mike Peel, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.05,
+     0.5,
+     0.5,
+     1.3
+    ]
+   },
+   {
+    "file": "templates/photos/israel_iran_v2_r2/elal707.jpg",
+    "at": "L6",
+    "until": "L6:el",
+    "credit": "El Al Boeing 707 4X-ATA, museum: Dmitry Avdeev, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/terror_state_if/tsi_iranp1.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Protest graffiti, Iran: Hosseinronaghi, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.25
+    ]
+   }
+  ],
+  "photo_box": [
+   60,
+   560,
+   960,
+   640,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L13",
+    "until": "L13e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Noam's own story, Vienna",
+   "year": 2016,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Shiraz to Tel Aviv, straight line",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Book of Ezra 1",
+   "year": "about 538 BCE",
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Iran recognition 6 Mar 1950; El Al Tehran (JTA)",
+   "year": 2015,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "US State Dept, N. Sales",
+   "year": 2018,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "IDF via Times of Israel",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "UN Fact-Finding Mission on Iran",
+   "year": 2024,
+   "at": "L10",
+   "until": "L12"
+  },
+  {
+   "label": "Chenoweth and Stephan, Why Civil Resistance Works",
+   "year": 2011,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "balance": "The *regime* is the enemy. Not the people."
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS"
+ },
+ "hashtags": [
+  "#Israel",
+  "#Iran",
+  "#WomanLifeFreedom"
+ ],
+ "cover": {
+  "t": 20.0,
+  "big": "2",
+  "text": "Iranians hugged me.|*Why?*"
+ },
+ "caption_en": "The day it happens, I'll fly El Al to Tehran. 🇮🇱🇮🇷\n\nVienna, 2016, a debate competition. Two Iranian guys sat next to me. When they heard I'm from Israel, they said \"Wow, I love Israel\" and hugged me. My father's family is from Shiraz, and I grew up sure that Iranians hate us. It's the regime that does.\n\nOur bond is about 2,500 years old: Cyrus let the Jews go home and rebuild the Temple (Book of Ezra 1). Iran recognised Israel de facto in March 1950, and until 1979 El Al flew Tel Aviv to Tehran (JTA). Then the new regime cut ties. It pays Hezbollah about $700 million a year (US State Dept, 2018) and arms HAMAS. In June 2025 it fired about 550 ballistic missiles at Israel (IDF).\n\nIranians ask for free elections, political prisoners freed, women free to choose, an open internet. Research on 1900 to 2006 campaigns found nonviolent ones succeeded about twice as often as violent ones (Chenoweth and Stephan, 2011).\n\nCan they win it peacefully? Tell me what you think.\n\nSources: Book of Ezra 1 (about 538 BCE); JTA (2015); US State Dept, N. Sales (Nov 2018); IDF via Times of Israel (June 2025); UN Fact-Finding Mission on Iran (2024); Chenoweth and Stephan, Why Civil Resistance Works (2011).\nPhotos (Wikimedia Commons): Nasir al-Mulk Mosque, Shiraz: Laurens R. Krol, CC BY 4.0; Cyrus Cylinder: Mike Peel, CC BY-SA 4.0; El Al Boeing 707 4X-ATA, museum: Dmitry Avdeev, CC BY-SA 3.0; Protest graffiti, Iran: Hosseinronaghi, CC BY 4.0. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "שני איראנים חיבקו אותי. הנה למה.\nב-2016, בתחרות דיבייט בווינה, שני איראנים ישבו לידי. כששמעו שאני מישראל, אמרו \"וואו, אני אוהב את ישראל\" וחיבקו אותי. המשפחה של אבא שלי משיראז, וגדלתי בטוח שאיראנים שונאים אותנו. השלטון שונא אותנו.\nעד 1979 אל על טסה מתל אביב לטהרן. אז המשטר ניתק את הקשר, מממן את חיזבאללה ומחמש את חמאס. ביוני 2025 שוגרו כ-550 טילים בליסטיים לישראל.\nהאיראנים מבקשים בחירות חופשיות, שחרור אסירים פוליטיים, חופש לנשים ואינטרנט פתוח. האם הם יכולים לנצח בדרכי שלום? ספרו לי מה אתם חושבים."
+}
