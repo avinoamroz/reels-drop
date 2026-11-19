@@ -6,7 +6,7 @@
  "duration": 49.23,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.7
  },
  "outputs": {
   "mp4": "out/colonize_olympics_v7_r2.mp4",
@@ -47,7 +47,7 @@
   }
  ],
  "transcript": {
-  "score": 0.929,
+  "score": 0.979,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -112,8 +112,8 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.1,
-    "flag": "MISS"
+    "score": 0.8,
+    "flag": "ok"
    },
    {
     "line": "Because one empire once ruled almost a quarter of the Earth.",
@@ -121,7 +121,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold. The British Empire. 23.8%. Silver. The Mongols. 16. Bronze. The Russian Empire. 15. Then Spain. 9. France. Almost 8. The Ottomans. 3.5. And the country the internet calls a colonizer. Israel. Even with the West Bank and Gaza, 0.02%, it didn't even qualify. So it entered a different event, drip irrigation, a camera you swallow, cars that see the road, Israel's borders are still argued over. And that debate is real. But on the conquest scoreboard? Not even on the podium, because one empire once ruled almost a quarter of the earth.",
+  "heard": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold. The British Empire. 23.8%. Silver. The Mongols. 16. Bronze. The Russian Empire. 15. Then Spain. 9. France. Almost 8. The Ottomans? 3.5. And the country the internet calls a colonizer. Israel. Even with the West Bank and Gaza, 0.02%, it didn't even qualify. So it entered a different event, drip irrigation, a camera you swallow, cars that see the road, Israel's borders are still argued over. And that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noah Mraz for more. Because one empire once ruled almost a quarter of the earth.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -134,8 +134,8 @@
  },
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 247.5
+ "render_s": 140.8
 }
