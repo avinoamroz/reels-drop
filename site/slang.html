@@ -3,7 +3,7 @@
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap">
 <style>
-/* Layout: one calm column, Apple-like. A mountain of 75 tiny steps; each slang is one step. Two people talk in a scene, you answer. */
+/* Layout: one calm column, Apple-like. A commute of 100 steps (home, car, 3 blocks, parking, office); each answer moves you. Two people talk in a scene, you answer. */
 #eesg{
   --bg:#f5f5f7; --card:#ffffff; --ink:#1d1d1f; --ink-2:#6e6e73; --hair:#d2d2d7;
   --accent:#1f8fd6; --accent-ink:#ffffff; --navy:#163261;
@@ -46,13 +46,13 @@ html,body{margin:0;background:#f5f5f7}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #eesg{--mtn1:#232327;--mtn2:#2f3036;--snow:#d8dbe2;--step:#4a4b52}}
 :root[data-theme="dark"] #eesg{--mtn1:#232327;--mtn2:#2f3036;--snow:#d8dbe2;--step:#4a4b52}
 #eesg svg.mtn{width:100%;height:auto;display:block;direction:ltr;overflow:visible}
-#eesg .mtn .st{fill:var(--step);transition:fill .35s}
-#eesg .mtn .st.ok{fill:var(--good)} #eesg .mtn .st.no{fill:var(--bad)}
+#eesg .mtn .st{fill:var(--card);stroke:var(--step);stroke-width:1.2;transition:fill .35s,stroke .35s}
+#eesg .mtn .st.ok{fill:var(--good);stroke:var(--good)} #eesg .mtn .st.no{fill:var(--bad);stroke:var(--bad)}
 #eesg .mtn .st.tech{stroke-dasharray:0}
 #eesg .mtn .climber{transition:transform .55s cubic-bezier(.2,.8,.2,1)}
 #eesg .mtn .climber.hop .body{animation:hop .55s ease}
 @keyframes hop{0%,100%{transform:translateY(0)}45%{transform:translateY(-5px)}}
-#eesg .startmtn{background:var(--bg);border-radius:16px;padding:14px 12px 8px}
+#eesg .startmtn{background:var(--bg);border-radius:16px;padding:12px 10px 6px}
 #eesg .save{gap:10px;animation:pop .35s cubic-bezier(.2,.8,.2,1);border:1.5px solid color-mix(in srgb,var(--accent) 35%,transparent)}
 #eesg .savehead{display:flex;justify-content:space-between;align-items:center}
 #eesg .savehead b{font-size:19px;letter-spacing:-.02em}
@@ -135,8 +135,8 @@ html,body{margin:0;background:#f5f5f7}
 
   <section id="sStart" class="card">
     <h1>How do you say <span class="he">"חבל על הזמן"</span> in English?</h1>
-    <p class="lead">75 things Israelis say at work. Pick what a native speaker would say. Every answer is one step up the mountain.</p>
-    <div class="startmtn"><svg class="mtn" id="mtnStart" viewBox="0 0 360 170" aria-hidden="true"></svg></div><p class="fine" id="startStep"></p>
+    <p class="lead">75 things Israelis say at work. Pick what a native speaker would say. Every right answer gets you closer to the office.</p>
+    <div class="startmtn"><svg class="mtn" id="mtnStart" viewBox="0 -14 360 314" aria-hidden="true"></svg></div><p class="fine" id="startStep"></p>
     <button class="btn" id="go">Start</button>
     <button class="link" id="reset" type="button" hidden>Start over</button>
     <p class="fine">Your progress is saved on this device.</p>
@@ -195,7 +195,7 @@ html,body{margin:0;background:#f5f5f7}
     </div>
     </div>
     <div class="card save" id="saveCard" hidden>
-      <div class="savehead"><b>Save your climb</b><button class="x" id="saveX" type="button" aria-label="Close">×</button></div>
+      <div class="savehead"><b>Save your progress</b><button class="x" id="saveX" type="button" aria-label="Close">×</button></div>
       <p class="savesub">Log in with your English Express account. Your progress is saved and you can keep climbing on any device.</p>
       <form id="saveF" autocomplete="on">
         <input id="fName" name="name" autocomplete="given-name" placeholder="First name" required>
@@ -205,27 +205,27 @@ html,body{margin:0;background:#f5f5f7}
     </div>
     <div class="card climb">
       <div class="climbhead"><b id="stepTxt"></b><span id="toTop"></span></div>
-      <svg class="mtn" id="mtnBar" viewBox="0 0 360 120" aria-hidden="true"></svg>
+      <svg class="mtn" id="mtnBar" viewBox="0 -14 360 314" aria-hidden="true"></svg>
     </div>
   </section>
 
   <section id="sMile" class="card" hidden>
-    <div class="emoji" id="mEmoji"><svg viewBox="0 0 64 48" width="72" height="54"><path d="M2 46 24 10 34 26 42 16 62 46Z" fill="var(--mtn2)"/><path d="M24 10 30 20 26 18 22 21 19 18Z" fill="var(--snow)"/><line x1="42" y1="16" x2="42" y2="2" stroke="var(--ink-2)" stroke-width="1.5"/><path d="M42 2l10 3.5-10 3.5Z" fill="var(--gold)"/></svg></div>
+    <div class="emoji" id="mEmoji"><svg viewBox="0 0 64 56" width="64" height="56"><rect x="22" y="4" width="26" height="50" rx="3" fill="var(--navy)"/><g fill="#45A4DD"><rect x="27" y="10" width="6" height="4" rx="1"/><rect x="37" y="10" width="6" height="4" rx="1"/><rect x="27" y="19" width="6" height="4" rx="1" opacity=".4"/><rect x="37" y="19" width="6" height="4" rx="1" opacity=".4"/><rect x="27" y="28" width="6" height="4" rx="1" opacity=".4"/><rect x="37" y="28" width="6" height="4" rx="1" opacity=".4"/></g><circle cx="12" cy="44" r="4" fill="var(--you)"/><rect x="8.5" y="48" width="7" height="8" rx="3" fill="var(--you)"/></svg></div>
     <p class="mtitle" id="mTitle"></p>
     <div class="big" id="mScore"></div>
     <p class="mtext" id="mText"></p>
-    <button class="btn" id="mNext">Keep climbing</button>
-    <a class="link" id="mBook" target="_blank" rel="noopener">Want a coach for the climb? Book a free fit call</a>
+    <button class="btn" id="mNext">Keep going</button>
+    <a class="link" id="mBook" target="_blank" rel="noopener">Want a coach for the way? Book a free fit call</a>
   </section>
 
   <section id="sEnd" class="card" hidden>
-    <div class="emoji"><svg viewBox="0 0 64 48" width="72" height="54"><path d="M2 46 24 10 34 26 42 16 62 46Z" fill="var(--mtn2)"/><path d="M24 10 30 20 26 18 22 21 19 18Z" fill="var(--snow)"/><line x1="42" y1="16" x2="42" y2="2" stroke="var(--ink-2)" stroke-width="1.5"/><path d="M42 2l10 3.5-10 3.5Z" fill="var(--gold)"/></svg></div>
+    <div class="emoji"><svg viewBox="0 0 64 56" width="64" height="56"><rect x="22" y="4" width="26" height="50" rx="3" fill="var(--navy)"/><g fill="#45A4DD"><rect x="27" y="10" width="6" height="4" rx="1"/><rect x="37" y="10" width="6" height="4" rx="1"/><rect x="27" y="19" width="6" height="4" rx="1" opacity=".4"/><rect x="37" y="19" width="6" height="4" rx="1" opacity=".4"/><rect x="27" y="28" width="6" height="4" rx="1" opacity=".4"/><rect x="37" y="28" width="6" height="4" rx="1" opacity=".4"/></g><circle cx="12" cy="44" r="4" fill="var(--you)"/><rect x="8.5" y="48" width="7" height="8" rx="3" fill="var(--you)"/></svg></div>
     <p class="mtitle" id="endT"></p>
     <div class="big" id="eScore"></div>
     <p class="mtext" id="eText"></p>
     <a class="btn" id="eBook" target="_blank" rel="noopener">Book a free fit call</a>
     <button class="link" id="share" type="button">Copy your score</button>
-    <button class="link" id="again" type="button">Climb again</button>
+    <button class="link" id="again" type="button">Play again</button>
   </section>
 </div></div>
 
@@ -234,7 +234,7 @@ html,body{margin:0;background:#f5f5f7}
 const LANG="he";
 const BOOK="https://online.expressenglish.co.il/1/?utm_source=expressenglish&utm_medium=organic&utm_campaign=organic&utm_content=slang_game_"+LANG+"&utm_term=organic#/1";
 const AUDIO_SRC="";
-const T={"start": "Start", "seeResult": "See your score", "cont": "Continue from question {n}", "step": "Question {n} of {t}", "rule": "Right answer: 2 steps up. Wrong: 1 step down.", "left": "{n} steps to the top", "up": "+2 steps", "down": "1 step down", "saved": "Welcome, {n}. Your climb is saved.", "login": "Log in", "endTop": "You reached the summit", "endMid": "You climbed {n} of 100 steps", "tech": "Tech slang", "reg": "Slang", "ok": "Correct", "streak": "Correct. {n} in a row", "close": "Not quite", "next": "Next step", "toMile": "Next step", "toEnd": "To the summit", "mileT": "{n} steps up. {r} to the top.", "mile": ["A third of the way up.", "Two thirds done. The summit is close.", ""], "levels": ["You understand the words. Speaking like a native is the next climb.", "Good base. Time to sound natural at work.", "You sound natural most of the time.", "You sound like you work in English every day."], "shareTxt": "I got {n}/{t} on the English Express slang game. How do you say \"חבל על הזמן\" in English?", "copied": "Copied", "mutel": "Mute", "unmute": "Sound on"};
+const T={"start": "Start", "seeResult": "See your score", "cont": "Continue from question {n}", "step": "Question {n} of {t}", "rule": "Right answer: 2 steps forward. Wrong: 1 step back.", "left": "{n} steps to the office", "up": "+2 steps", "down": "1 step back", "saved": "Welcome, {n}. Your progress is saved.", "login": "Log in", "endTop": "You made it to the office", "endMid": "You made it {n} of 100 steps", "tech": "Tech slang", "reg": "Slang", "ok": "Correct", "streak": "Correct. {n} in a row", "close": "Not quite", "next": "Next step", "toMile": "Next step", "toEnd": "To the summit", "mileT": "{n} steps done. {r} to the office.", "mile": ["You are on the road.", "Almost at the parking. Keep going.", ""], "levels": ["You understand the words. Speaking like a native is the next step.", "Good base. Time to sound natural at work.", "You sound natural most of the time.", "You sound like you work in English every day."], "shareTxt": "I got {n}/{t} on the English Express slang game. How do you say \"חבל על הזמן\" in English?", "copied": "Copied", "mutel": "Mute", "unmute": "Sound on"};
 const PEOPLE=[["Dana", "Product Manager"], ["Michal", "VP Sales"], ["Shiran", "UX Designer"], ["Noa", "Marketing Manager"], ["Maya", "Team Lead"], ["Yael", "CTO"], ["Tamar", "CEO"], ["Lior", "Account Manager"]];
 const BANK=[
  {q:"הדמו אתמול היה <mark>חבל על הזמן</mark> 🔥",a:"It was amazing!",l:"It was a pity on the time",d:"It was a waste of time",ex:"The client demo yesterday? <b>It was amazing!</b> They want a second meeting.",tip:"זהירות: \"a waste of time\" זה בדיוק ההפך."},
@@ -417,26 +417,47 @@ function setMute(){$("mute").innerHTML=S.mute?'<svg viewBox="0 0 24 24" width="1
 
 /* the mountain: one svg built once per element, then updated so the climber walks */
 const NS="http://www.w3.org/2000/svg";
-function buildMtn(svg,H){
-  // a mountain with a switchback trail of 75 small stones, three legs of 25
-  const W=360,peakX=300,peakY=16,baseY=H-6,legs=3,per=SUMMIT/legs,pts=[];
-  const legY=k=>baseY-8-(baseY-8-peakY-10)*k/legs;
-  for(let i=0;i<SUMMIT;i++){const leg=Math.floor(i/per),f=(i%per)/(per-1),y0=legY(leg),y1=legY(leg+1)+6;
-    const half=(1-(leg+f*.95)/legs);const L=peakX-(peakX-14)*half,R=peakX+(W-8-peakX)*half*.55;
-    const xa=leg%2?R-6:L+6,xb=leg%2?L+16:R-16,x=leg===legs-1?xa+(peakX-6-xa)*f:xa+(xb-xa)*f,y=y0+(y1-y0)*f;pts.push([x,y])}
-  let h=`<path d="M-4 ${baseY} L60 ${baseY-(baseY-peakY)*.42} L105 ${baseY-(baseY-peakY)*.3} L175 ${baseY-(baseY-peakY)*.62} L215 ${baseY-(baseY-peakY)*.5} L${W+4} ${baseY-(baseY-peakY)*.55} L${W+4} ${baseY}Z" fill="var(--mtn1)"/>`;
-  h+=`<path d="M10 ${baseY} L${peakX} ${peakY} L${W-4} ${baseY}Z" fill="var(--mtn2)"/>`;
-  h+=`<path d="M${peakX-26} ${peakY+(baseY-peakY)*.18} L${peakX} ${peakY} L${peakX+20} ${peakY+(baseY-peakY)*.2} L${peakX+9} ${peakY+(baseY-peakY)*.14} L${peakX-2} ${peakY+(baseY-peakY)*.22} L${peakX-12} ${peakY+(baseY-peakY)*.14}Z" fill="var(--snow)"/>`;
-  h+=`<polyline points="${pts.map(p=>p.map(v=>v.toFixed(1)).join(",")).join(" ")} ${peakX},${peakY}" fill="none" stroke="var(--card)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" opacity=".55"/>`;
-  pts.forEach(([x,y])=>{h+=`<rect class="st" x="${(x-2.6).toFixed(1)}" y="${(y-1.6).toFixed(1)}" width="5.2" height="3.2" rx="1.6"/>`});
-  h+=`<line x1="${peakX}" y1="${peakY}" x2="${peakX}" y2="${peakY-16}" stroke="var(--ink-2)" stroke-width="1.5"/><path d="M${peakX} ${peakY-16} l12 4 l-12 4Z" fill="var(--gold)"/>`;
-  h+=`<g class="climber"><g class="body"><circle cx="0" cy="-15" r="3.6" fill="var(--you)"/><rect x="-3.4" y="-11" width="6.8" height="8" rx="3" fill="var(--you)"/><rect x="-6" y="-10.5" width="3.4" height="6" rx="1.5" fill="var(--navy)"/><path d="M-1.6 -3.5 L-2.6 0 M1.6 -3.5 L2.8 0" stroke="var(--you)" stroke-width="2.2" stroke-linecap="round"/></g></g>`;
-  svg.innerHTML=h;svg._g={pts,peakX,peakY};
+/* the commute: home, walk to the car, drive 3 blocks through 3 junctions, park, walk in, ride up to the office. 100 steps. */
+function buildMtn(svg){
+  const pts=[],seg=[];const P=(x,y,m)=>{pts.push([x,y]);seg.push(m)};
+  const A=268,B=184,C=100,L=34,R=326;
+  for(let i=0;i<10;i++)P(52+i*4.2,A+16,"walk");                       // 1-10 home to the car
+  for(let i=0;i<20;i++)P(98+i*(R-98)/19,A,"car");                       // 11-30 block 1
+  for(let i=0;i<20;i++)P(R-i*(R-L)/19,B,"car");                         // 31-50 block 2
+  for(let i=0;i<20;i++)P(L+i*(236-L)/19,C,"car");                       // 51-70 block 3
+  for(let i=0;i<10;i++)P(246+i*2.6,C+4+i*2.6,"car");                    // 71-80 into the parking
+  for(let i=0;i<10;i++)P(278+i*2.4,C+30-i*1.2,"walk");                  // 81-90 walk to the office
+  for(let i=0;i<10;i++)P(316,C+6-i*9.2,"walk");                         // 91-100 up to the office
+  const road=(d)=>`<path d="${d}" fill="none" stroke="var(--mtn2)" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>`;
+  let h=road(`M88 ${A} H${R} V${B} H${L} V${C} H246`);
+  h+=`<path d="M88 ${A} H${R} V${B} H${L} V${C} H246" fill="none" stroke="var(--card)" stroke-width="1.3" stroke-dasharray="6 6" opacity=".9"/>`;
+  // blocks of buildings between the roads
+  const block=(x0,x1,y,hs)=>{const w=(x1-x0)/hs.length;hs.forEach((hh,k)=>{const x=x0+k*w;h+=`<rect x="${(x+2).toFixed(1)}" y="${y-hh}" width="${(w-4).toFixed(1)}" height="${hh}" rx="3" fill="var(--mtn1)"/>`;for(let wy=y-hh+7;wy<y-8;wy+=10)for(let wx=x+7;wx<x+w-8;wx+=9)h+=`<rect x="${wx.toFixed(1)}" y="${wy}" width="4" height="5" rx="1" fill="var(--card)" opacity=".85"/>`})};
+  block(56,R-16,A-14,[44,30,56,36,48,28]); block(L+16,R-16,B-14,[40,58,34,50,44,30]);
+  // junctions with traffic lights and numbers
+  const J=[[R,A,1],[L,B,2],[R,B,3],[L,C,4]];
+  J.forEach(([x,y,n],k)=>{for(let z=0;z<4;z++)h+=`<rect x="${x-10}" y="${y-9+z*5}" width="20" height="2.6" fill="var(--card)" opacity=".8"/>`;
+    const lx=x>180?x+14:x-18;h+=`<rect x="${lx+3}" y="${y-30}" width="2" height="20" fill="var(--ink-2)"/><rect x="${lx}" y="${y-40}" width="8" height="13" rx="2.5" fill="var(--ink)"/><circle cx="${lx+4}" cy="${y-36}" r="1.8" fill="var(--bad)" opacity=".8"/><circle cx="${lx+4}" cy="${y-31}" r="1.8" fill="var(--good)"/>`});
+  // home
+  h+=`<path d="M6 ${A+26} V${A-8} L28 ${A-28} L50 ${A-8} V${A+26}Z" fill="var(--accent)"/><rect x="22" y="${A+8}" width="12" height="18" rx="2" fill="var(--card)"/><rect x="12" y="${A-4}" width="9" height="8" rx="1.5" fill="var(--card)"/><rect x="35" y="${A-4}" width="9" height="8" rx="1.5" fill="var(--card)"/>`;
+  h+=`<text x="28" y="${A+40}" text-anchor="middle" font-size="9" font-weight="700" fill="var(--ink-2)" font-family="var(--f)" letter-spacing=".06em">HOME</text>`;
+  // parking
+  h+=`<rect x="240" y="${C+12}" width="44" height="34" rx="4" fill="var(--mtn1)"/>`;for(let k=0;k<4;k++)h+=`<line x1="${246+k*11}" y1="${C+14}" x2="${246+k*11}" y2="${C+28}" stroke="var(--card)" stroke-width="1.5"/>`;
+  h+=`<text x="262" y="${C+42}" text-anchor="middle" font-size="11" font-weight="800" fill="var(--accent)" font-family="var(--f)">P</text>`;
+  // office tower
+  h+=`<rect x="292" y="2" width="50" height="${C+38}" rx="4" fill="var(--navy)"/>`;
+  for(let f=0;f<11;f++){const y=8+f*11.6;for(let k=0;k<3;k++)h+=`<rect x="${298+k*14}" y="${y.toFixed(1)}" width="10" height="5.5" rx="1" fill="#45A4DD" opacity="${f===0?1:.3}"/>`}
+  h+=`<text x="317" y="-4" text-anchor="middle" font-size="9" font-weight="700" fill="var(--ink-2)" font-family="var(--f)" letter-spacing=".06em">OFFICE</text>`;
+  pts.forEach(([x,y])=>{h+=`<circle class="st" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="2.3"/>`});
+  h+=`<g class="climber"><g class="body"><g class="walker"><circle cx="0" cy="-15" r="3.8" fill="var(--you)"/><rect x="-3.6" y="-11" width="7.2" height="8.5" rx="3" fill="var(--you)"/><rect x="-6.4" y="-10.5" width="3.4" height="6.5" rx="1.5" fill="var(--navy)"/><path d="M-1.6 -3.2 L-2.6 0.5 M1.6 -3.2 L2.8 0.5" stroke="var(--you)" stroke-width="2.3" stroke-linecap="round"/></g>
+    <g class="car" style="display:none"><path d="M-12 -2 V-7 Q-12 -9.5 -9.5 -9.5 L-6.5 -9.5 L-3.5 -15 H5.5 L8.5 -9.5 H10.5 Q13 -9.5 13 -7 V-2Z" fill="var(--you)"/><rect x="-2" y="-13.5" width="8.5" height="4" rx="1" fill="#fff" opacity=".85"/><circle cx="-6" cy="-1.5" r="2.8" fill="var(--ink)"/><circle cx="7.5" cy="-1.5" r="2.8" fill="var(--ink)"/></g></g></g>`;
+  svg.innerHTML=h;svg._g={pts,seg,end:[316,-2]};
 }
 function updMtn(svg,anim){
   const g=svg._g,pos=climb(S.res),last=S.res[S.res.length-1];
   svg.querySelectorAll(".st").forEach((el,i)=>{el.setAttribute("class","st"+(i<pos?" ok":(last===0&&i===pos)?" no":""))});
-  const c=svg.querySelector(".climber"),[x,y]=pos>=SUMMIT?[g.peakX,g.peakY]:g.pts[pos];
+  const c=svg.querySelector(".climber"),[x,y]=pos>=SUMMIT?g.end:g.pts[pos],mode=pos>=SUMMIT?"walk":g.seg[pos];
+  c.querySelector(".walker").style.display=mode==="car"?"none":"";c.querySelector(".car").style.display=mode==="car"?"":"none";
   c.style.transform=`translate(${x}px,${y-1}px)`;
   if(anim){c.classList.remove("hop");void c.getBoundingClientRect();c.classList.add("hop")}
 }
@@ -532,6 +553,6 @@ $("mute").onclick=()=>{S.mute=!S.mute;save();setMute();if(S.mute){MUS.stop();try
 $("share").onclick=()=>{const ok=S.res.filter(Boolean).length,t=T.shareTxt.replace("{n}",ok).replace("{t}",TOTAL);
   if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>toast(T.copied)).catch(()=>toast(t));else toast(t)};
 window.addEventListener("resize",()=>{if(!$("sGame").hidden)renderRoad(false)});
-buildMtn($("mtnStart"),170);buildMtn($("mtnBar"),120);setMute();setLogin();renderStart();
+buildMtn($("mtnStart"));buildMtn($("mtnBar"));setMute();setLogin();renderStart();
 })();
 </script>
