@@ -23,8 +23,8 @@
    "screen": "Arab citizens: *21%* of Israel"
   },
   {
-   "say": "But behind the pharmacy counter: forty nine percent.",
-   "screen": "Pharmacists: *49%*"
+   "say": "Behind the pharmacy counter, in twenty ten: twenty eight percent. By twenty twenty three: forty nine.",
+   "screen": "Pharmacists: *28%* to *49%*"
   },
   {
    "say": "Nurses: twenty seven percent. Dentists: twenty seven.",
@@ -71,7 +71,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_superpharm.jpg",
     "at": 0.0,
-    "credit": "Pharmacy aisle: Rakoon, CC0, Commons",
+    "credit": "Rakoon, CC0, Commons",
     "kb": [
      0.5,
      0.5,
@@ -84,7 +84,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
     "at": "L2",
-    "credit": "Alkamal Pharmacy: Israel Preker, PikiWiki, CC BY 2.5",
+    "credit": "Israel Preker, PikiWiki, CC BY 2.5",
     "kb": [
      0.4,
      0.5,
@@ -97,7 +97,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
     "at": "L3",
-    "credit": "Hadassah Ein Kerem: Davidi Vardi, PikiWiki, CC BY 2.5",
+    "credit": "Davidi Vardi, PikiWiki, CC BY 2.5",
     "kb": [
      0.55,
      0.45,
@@ -110,7 +110,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_soroka.jpg",
     "at": "L4",
-    "credit": "Soroka and BGU: Omer Berner, CC BY-SA 4.0, Commons",
+    "credit": "Omer Berner, CC BY-SA 4.0",
     "kb": [
      0.5,
      0.5,
@@ -123,7 +123,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_taumed.jpg",
     "at": "L6",
-    "credit": "Tel Aviv University medicine: Israel Zeller, PikiWiki, CC BY 2.5",
+    "credit": "Israel Zeller, PikiWiki, CC BY 2.5",
     "kb": [
      0.35,
      0.5,
@@ -136,7 +136,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
     "at": "L7",
-    "credit": "Hadassah Ein Kerem: Davidi Vardi, PikiWiki, CC BY 2.5",
+    "credit": "Davidi Vardi, PikiWiki, CC BY 2.5",
     "kb": [
      0.55,
      0.45,
@@ -150,7 +150,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
     "at": "L9",
-    "credit": "Alkamal Pharmacy: Israel Preker, PikiWiki, CC BY 2.5",
+    "credit": "Israel Preker, PikiWiki, CC BY 2.5",
     "kb": [
      0.45,
      0.5,
@@ -163,7 +163,7 @@
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_superpharm.jpg",
     "at": "L11",
-    "credit": "Pharmacy aisle: Rakoon, CC0, Commons",
+    "credit": "Rakoon, CC0, Commons",
     "kb": [
      0.5,
      0.5,
@@ -188,7 +188,7 @@
     "at": "L2:forty",
     "until": "L3-0.1",
     "value": 49,
-    "from": 21,
+    "from": 28,
     "suffix": "%",
     "sub": "of pharmacists, 2023",
     "y": 1000

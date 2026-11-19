@@ -7,7 +7,7 @@
   "style": "globe_spin_fast"
  },
  "music": {
-  "bed": "bounce",
+  "bed": "warm",
   "lufs": -16,
   "bed_lufs": -29,
   "duck_db": 14
@@ -172,7 +172,7 @@
     "at": "L2:twenty-0.3",
     "until": "L7-0.2",
     "title": "Share of Earth's land at peak",
-    "y": 900,
+    "y": 700,
     "vmax": 25,
     "rows": [
      {
@@ -223,7 +223,7 @@
     "at": "L8:different",
     "until": "L9-0.1",
     "title": "Share of Earth's land at peak",
-    "y": 780,
+    "y": 700,
     "vmax": 25,
     "rows": [
      {
