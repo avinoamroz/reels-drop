@@ -1,0 +1,517 @@
+{
+ "id": "problem_solved_health_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*5* extra years.|Israel vs *USA.*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Israelis live five years longer than Americans. What's behind it?",
+   "gap": 0.2
+  },
+  {
+   "say": "Start in America. Forty percent of adults are obese."
+  },
+  {
+   "say": "And health care costs over fifteen thousand dollars per person a year."
+  },
+  {
+   "say": "Now the Middle East, where some regimes broke their own health systems.",
+   "screen": "Regimes vs *health care*",
+   "at": "L3",
+   "until": "L3e"
+  },
+  {
+   "say": "Syria: after Assad's war, thirteen million people are food insecure."
+  },
+  {
+   "say": "His regime and its allies made over ninety percent of the attacks on hospitals."
+  },
+  {
+   "say": "Yemen: since the Houthis took the capital in twenty fourteen, twenty one million need aid."
+  },
+  {
+   "say": "Lebanon: its leaders let the economy sink. Nearly forty percent of doctors left."
+  },
+  {
+   "say": "The rich Gulf has the opposite problem. About one adult in four has diabetes. America: one in seven."
+  },
+  {
+   "say": "And Israel? Health insurance for every resident, by law, since nineteen ninety five."
+  },
+  {
+   "say": "Diabetes: ten percent."
+  },
+  {
+   "say": "Fair is fair: about half the hospital beds of the OECD average."
+  },
+  {
+   "say": "The bottom line: eighty three point eight years, against seventy eight point four."
+  },
+  {
+   "say": "Which health system would you pick?",
+   "screen": "Which system would *you* pick?",
+   "at": "L13",
+   "until": "L14"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L14",
+   "until": "L15"
+  },
+  {
+   "say": "Five extra years. So where do they come from?"
+  }
+ ],
+ "data": {
+  "cam0": [
+   -35,
+   36,
+   150
+  ],
+  "hook_y": 930,
+  "cams": [
+   {
+    "at": "L1-0.3",
+    "view": [
+     -98,
+     39,
+     62,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L3-0.3",
+    "view": [
+     42,
+     27,
+     34,
+     820
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L9-0.3",
+    "view": [
+     35.0,
+     31.6,
+     6,
+     760
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L12-0.3",
+    "view": [
+     -35,
+     36,
+     150,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L15-0.3",
+    "view": [
+     -35,
+     36,
+     150,
+     960
+    ],
+    "dur": 0.5
+   }
+  ],
+  "highlight": [
+   {
+    "at": 0.0,
+    "until": "L3",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0.0,
+    "until": "L1",
+    "code": "ISR",
+    "color": "#F5C542",
+    "alpha": 0.9
+   },
+   {
+    "at": "L4",
+    "until": "L8",
+    "code": "SYR",
+    "color": "#E5484D",
+    "alpha": 0.8
+   },
+   {
+    "at": "L6",
+    "until": "L8",
+    "code": "YEM",
+    "color": "#E5484D",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "LBN",
+    "color": "#E5484D",
+    "alpha": 0.8
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "code": "KWT",
+    "color": "#F28C6B",
+    "alpha": 0.85
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "code": "QAT",
+    "color": "#F28C6B",
+    "alpha": 0.85
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "code": "SAU",
+    "color": "#F28C6B",
+    "alpha": 0.85
+   },
+   {
+    "at": "L9",
+    "until": "END",
+    "code": "ISR",
+    "color": "#F5C542",
+    "alpha": 0.9
+   },
+   {
+    "at": "L12",
+    "until": "END",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   }
+  ],
+  "dim": [
+   {
+    "at": "L1+0.6",
+    "until": "L3"
+   },
+   {
+    "at": "L4",
+    "until": "L13"
+   }
+  ],
+  "big": [
+   {
+    "at": "L0:five",
+    "until": "L1-0.1",
+    "value": 5.4,
+    "from": 0,
+    "dec": 1,
+    "suffix": " yrs",
+    "sub": "longer life in Israel than the US",
+    "y": 1200
+   },
+   {
+    "at": "L1:forty",
+    "until": "L2-0.1",
+    "value": 40.3,
+    "from": 0,
+    "dec": 1,
+    "suffix": "%",
+    "sub": "of US adults are obese",
+    "y": 1200
+   },
+   {
+    "at": "L2:fifteen",
+    "until": "L3-0.1",
+    "value": 15474,
+    "from": 0,
+    "prefix": "$",
+    "sub": "health spending per American, 2024",
+    "y": 1200
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L5-0.1",
+    "value": 13.3,
+    "from": 0,
+    "dec": 1,
+    "suffix": "M",
+    "sub": "Syrians food insecure",
+    "y": 1200
+   },
+   {
+    "at": "L5:over",
+    "until": "L6-0.1",
+    "value": 90,
+    "from": 0,
+    "suffix": "%+",
+    "sub": "of 553 attacks on medical sites, 2011 to 2018",
+    "y": 1200
+   },
+   {
+    "at": "L6:twenty#2",
+    "until": "L7-0.1",
+    "value": 21,
+    "from": 0,
+    "suffix": "M",
+    "sub": "Yemenis need aid in 2026",
+    "y": 1200
+   },
+   {
+    "at": "L7:nearly",
+    "until": "L8-0.1",
+    "value": 40,
+    "from": 0,
+    "prefix": "~",
+    "suffix": "%",
+    "sub": "of Lebanon's doctors left since 2019",
+    "y": 1200
+   },
+   {
+    "at": "L8:one",
+    "until": "L9-0.1",
+    "value": 25.6,
+    "from": 0,
+    "dec": 1,
+    "suffix": "%",
+    "sub": "adult diabetes, Kuwait (US: 13.7%)",
+    "y": 1200
+   },
+   {
+    "at": "L10:ten",
+    "until": "L11-0.1",
+    "value": 10.1,
+    "from": 0,
+    "dec": 1,
+    "suffix": "%",
+    "sub": "adult diabetes, Israel (US: 13.7%)",
+    "y": 1200
+   },
+   {
+    "at": "L11:half",
+    "until": "L12-0.1",
+    "value": 1.76,
+    "from": 0,
+    "dec": 2,
+    "sub": "hospital beds per 1,000 (OECD: 3.18)",
+    "y": 1200
+   },
+   {
+    "at": "L12:eighty",
+    "until": "L13-0.1",
+    "value": 83.8,
+    "from": 0,
+    "dec": 1,
+    "sub": "years in Israel. US: 78.4",
+    "y": 1200
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L8",
+    "until": "L9-0.1",
+    "text": "The *opposite* problem",
+    "y": 330,
+    "size": 64,
+    "pill": "#45A4DD"
+   },
+   {
+    "at": "L12",
+    "until": "L13-0.1",
+    "text": "Israel *83.8* vs USA *78.4*",
+    "y": 330,
+    "size": 64
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/problem_solved_health/aisle.jpg",
+    "at": "L1+0.6",
+    "until": "L1e",
+    "credit": "US supermarket. Starzoner, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/problem_solved_health/er.jpg",
+    "at": "L2",
+    "until": "L2e",
+    "credit": "US emergency room. Harrison Keely, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/problem_solved_health/damascus.jpg",
+    "at": "L4",
+    "until": "L4:war",
+    "credit": "Damascus. KevForkan, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.4,
+     1.0,
+     0.5,
+     0.4,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/problem_solved_health/sanaa.jpg",
+    "at": "L6",
+    "until": "L6:fourteen",
+    "credit": "Old Sana'a. Matt May, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/problem_solved_health/beirut.jpg",
+    "at": "L7",
+    "until": "L7:sink",
+    "credit": "Beirut. Mehrdad Sarhangi, CC BY 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/problem_solved_health/beach.jpg",
+    "at": "L9",
+    "until": "L9e",
+    "credit": "Tel Aviv. Dan Harrelson, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.55,
+     1.12
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "OECD 2023 data; CDC NCHS 2023",
+   "year": 2025,
+   "at": "L0",
+   "until": "L1"
+  },
+  {
+   "label": "CDC NHANES 2021 to 2023",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "CMS National Health Expenditure",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "WFP via Arab News",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Physicians for Human Rights",
+   "year": 2019,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "UN via Reuters",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "World Bank; WHO via Gulf News",
+   "year": 2021,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "IDF Diabetes Atlas, age adjusted, 20 to 79",
+   "year": 2024,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "National Health Insurance Law 1994; IDF Diabetes Atlas",
+   "year": 2024,
+   "at": "L9",
+   "until": "L11"
+  },
+  {
+   "label": "Taub Center, State of the Nation",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "OECD 2023 data; CDC NCHS 2023",
+   "year": 2025,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "Regimes break health systems. *People* pay the price.",
+  "cta": "Follow *@noamroz__*"
+ },
+ "caption_en": "Five extra years of life. The map shows where they come from. 🩺\n\nThe American problem: 40.3% of adults are obese (CDC, NHANES Aug 2021 to Aug 2023) and health care cost $15,474 per person in 2024 (CMS).\n\nWhere regimes broke their own health systems:\n🇸🇾 Syria: 13.3 million people food insecure (WFP, Aug 2026). Of 553 attacks on medical facilities from 2011 to 2018, over 90% were by the Assad regime and its allies (Physicians for Human Rights, 2019).\n🇾🇪 Yemen: the Houthis seized Sana'a in 2014; 21 million people need humanitarian aid in 2026 (UN, via Reuters).\n🇱🇧 Lebanon: the World Bank called the collapse a \"Deliberate Depression\" (Lebanon Economic Monitor, Fall 2020); nearly 40% of doctors left since October 2019 (WHO, 2021).\n\nThe rich Gulf has the opposite problem. Adult diabetes, age adjusted, 20 to 79 (IDF Diabetes Atlas 2024): Kuwait 25.6%, Qatar 24.6%, Saudi Arabia 23.1%, USA 13.7%, Israel 10.1%.\n\nIsrael has covered every resident since the National Health Insurance Law (passed 1994, in force 1995). Life expectancy 83.8 years (OECD, 2023 data) vs 78.4 in the US (CDC NCHS, 2023). Fair is fair: Israel has 1.76 general hospital beds per 1,000 people vs an OECD average of 3.18 (Taub Center, 2025).\n\nWhich health system would you pick? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Starzoner (CC BY-SA 4.0); Harrison Keely (CC BY 4.0); KevForkan (CC BY-SA 4.0); Matt May (CC BY 2.0); Mehrdad Sarhangi (CC BY 3.0); Dan Harrelson (CC BY 2.0). AI voice.",
+ "caption_he": "ישראלים חיים 5 שנים יותר מאמריקאים. מאיפה זה מגיע?\nבעיה אמריקאית: 40% מהמבוגרים סובלים מהשמנה, ובריאות עולה 15,474 דולר לאדם בשנה.\nאיפה משטרים שברו את מערכת הבריאות של עצמם: בסוריה 13.3 מיליון בלי ביטחון תזונתי, ומשטר אסד ובעלי בריתו ביצעו מעל 90% מ־553 התקיפות על מתקנים רפואיים. בתימן, שהחות'ים כבשו את בירתה ב־2014, 21 מיליון זקוקים לסיוע. בלבנון כמעט 40% מהרופאים עזבו.\nבמפרץ העשיר הבעיה הפוכה: רבע מהמבוגרים בכווית, קטאר וסעודיה חולי סוכרת, לעומת 13.7% בארה\"ב.\nבישראל ביטוח בריאות ממלכתי מ־1995, סוכרת 10.1%, ותוחלת חיים 83.8 מול 78.4 בארה\"ב. אבל: 1.76 מיטות אשפוז ל־1,000 איש, מול 3.18 בממוצע OECD.\nאיזו מערכת בריאות הייתם בוחרים?",
+ "hashtags": [
+  "#Israel",
+  "#healthcare",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 50.0,
+  "big": "+5 years",
+  "text": "Israel vs USA:|*why?*"
+ },
+ "_rev": 3,
+ "opener": {
+  "style": "globe_unpeel"
+ }
+}
