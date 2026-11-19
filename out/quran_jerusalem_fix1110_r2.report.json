@@ -65,12 +65,12 @@
   }
  ],
  "transcript": {
-  "score": 0.978,
+  "score": 0.971,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "6,236 verses in the Quran. How many name Jerusalem?",
-    "score": 1.0,
+    "score": 0.933,
     "flag": "ok"
    },
    {
@@ -134,7 +134,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "6,236 verses in the Quran. How many name Jerusalem? I search the Arabic text verse by verse. Mecca? Named. Medina? Named. Egypt? Babylon? Mount Sinai? All named. Jerusalem? Al-Quds? Zero. But one people comes up again and again. The Children of Israel? 41 times. Chapter 5 verse 21. Moses tells them, Enter the Holy Land which God has destined for you. commentators place that land around Jerusalem. Jerusalem matters in Islam too. Chapter 17 names Al-Aqsa, the farthest mosque, but doesn't say where. Muslim tradition places it in Jerusalem, Islam's third holiest site. Can one city be holy to two faiths at once? Tell me below. If you love Israeli facts, follow Noam Ross for more. Now search again. 6236 verses.",
+  "heard": "6,236 verses in the Qur'an. How many name Jerusalem? I search the Arabic text verse by verse. Mecca, named, Medina, named, Egypt, Babylon, Mount Sinai. All named. Jerusalem, Al-Quds, zero. But one people comes up again and again. The children of Israel, 41 times. Chapter 5 verse 21. Moses tells them, Enter the Holy Land which God has destined for you. commentators place that land around Jerusalem. Jerusalem matters in Islam too. Chapter 17 names Al-Aqsa, the farthest mosque, but doesn't say where. Muslim tradition places it in Jerusalem, Islam's third holiest site. Can one city be holy to two faiths at once? Tell me below. If you love Israeli facts, follow Noam Ross for more. Now search again. 6236 verses.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -147,8 +147,8 @@
  },
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -1.8
  },
  "lint_warnings": [],
- "render_s": 199.7
+ "render_s": 200.1
 }
