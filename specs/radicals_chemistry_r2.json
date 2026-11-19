@@ -1,0 +1,299 @@
+{
+ "id": "radicals_chemistry_r2",
+ "account": "noamroz__",
+ "template": "chem_lab",
+ "hook": "Every radical: *1*|electron *short.*",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.16,
+  "gap": 0.12,
+  "lead": 0.1
+ },
+ "lines": [
+  {
+   "say": "Every radical is one electron short."
+  },
+  {
+   "say": "Pew asked eleven countries with large Muslim populations about ISIS, the Islamic State."
+  },
+  {
+   "say": "In none did more than fifteen percent view it favourably. Radicals are a small minority. So, chemistry."
+  },
+  {
+   "say": "A free radical has one unpaired electron."
+  },
+  {
+   "say": "It's unstable, damaging whatever it touches."
+  },
+  {
+   "say": "So when someone screams: Kill the Jews,"
+  },
+  {
+   "say": "clearly, he's missing an electron."
+  },
+  {
+   "say": "Step one: cool the reaction."
+  },
+  {
+   "say": "Step two: antioxidants. They donate the missing electron."
+  },
+  {
+   "say": "Saudi Arabia: a rehab centre for terror convicts, since two thousand four."
+  },
+  {
+   "say": "Denmark: the Aarhus exit programme, since two thousand seven."
+  },
+  {
+   "say": "The UAE: Hedayah, a centre against extremism, since twenty twelve."
+  },
+  {
+   "say": "Twenty sixteen: hundreds of Muslim scholars sign the Marrakesh Declaration, for minorities."
+  },
+  {
+   "say": "And schools: Saudi textbooks cut most antisemitism by twenty twenty-three."
+  },
+  {
+   "say": "Every group has its radicals. Same chemistry for all."
+  },
+  {
+   "say": "Which antioxidant works best?",
+   "screen": "Which antioxidant works *best?*",
+   "at": "L15",
+   "until": "L16"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L16",
+   "until": "L17"
+  },
+  {
+   "say": "Give him what he's missing, and the reaction stops. Why?"
+  }
+ ],
+ "data": {
+  "label_at": "L3:one",
+  "label_until": "L5",
+  "zap_until": "L5",
+  "photos": [
+   {
+    "file": "templates/photos/radicals_chemistry/lab.jpg",
+    "at": 0.0,
+    "until": "L3-0.2",
+    "credit": "Photo: ElNokko, CC BY-SA 4.0",
+    "dim": 0.3,
+    "kb": [
+     0.6,
+     0.45,
+     1.0,
+     0.62,
+     0.5,
+     1.15
+    ]
+   }
+  ],
+  "stat": {
+   "at": "L2:none",
+   "until": "L2e+0.3",
+   "top": "No country *above*",
+   "value": 15,
+   "suffix": "%",
+   "sub": "viewed ISIS favourably (11 countries)"
+  },
+  "beaker_at": "L5",
+  "beaker_label": "EXTREMISM",
+  "bubble": {
+   "at": "L5:kill",
+   "until": "L6:missing",
+   "text": "Kill the Jews!"
+  },
+  "missing": {
+   "at": "L6:missing",
+   "until": "L7+0.3",
+   "text": "Missing: 1 electron"
+  },
+  "splash_at": "L7:reaction",
+  "donor_at": "L8:antioxidants",
+  "give_at": "L8:donate",
+  "tiles": [
+   {
+    "at": "L9",
+    "num": 1,
+    "sym": "Rh",
+    "name": "Rehab",
+    "year": 2004,
+    "line": "Saudi Arabia: rehab for *terror convicts*",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/riyadh.jpg",
+     "credit": "Photo: B.alotaby, CC BY-SA 4.0",
+     "kb": [
+      0.75,
+      0.45,
+      1.0,
+      0.7,
+      0.45,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L10",
+    "num": 2,
+    "sym": "Ex",
+    "name": "Exit",
+    "year": 2007,
+    "line": "Denmark: the *Aarhus* exit programme",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/aarhus.jpg",
+     "credit": "Photo: Ciara Ní Riain, CC BY-SA 4.0",
+     "kb": [
+      0.55,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L11",
+    "num": 3,
+    "sym": "Hd",
+    "name": "Hedayah",
+    "year": 2012,
+    "line": "UAE: *Hedayah* centre, Abu Dhabi",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/abudhabi.jpg",
+     "credit": "Photo: Sabithnav, CC BY-SA 4.0",
+     "kb": [
+      0.6,
+      0.4,
+      1.0,
+      0.65,
+      0.4,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L12",
+    "num": 4,
+    "sym": "Cl",
+    "name": "Clerics",
+    "year": 2016,
+    "line": "The *Marrakesh* Declaration",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/marrakesh.jpg",
+     "credit": "Photo: Najibelfatimi, CC BY-SA 4.0",
+     "kb": [
+      0.47,
+      0.3,
+      1.0,
+      0.47,
+      0.28,
+      1.15
+     ],
+     "dim": 0.3
+    }
+   },
+   {
+    "at": "L13",
+    "num": 5,
+    "sym": "Ed",
+    "name": "Education",
+    "year": 2023,
+    "line": "Saudi textbooks: antisemitism *mostly removed*",
+    "photo": {
+     "file": "templates/photos/radicals_chemistry/books.jpg",
+     "credit": "Photo: John Liu, CC BY 2.0",
+     "kb": [
+      0.4,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      1.12
+     ],
+     "dim": 0.3
+    }
+   }
+  ],
+  "tiles_until": "L14",
+  "hook_back": "L17",
+  "tail": 1.1
+ },
+ "sources": [
+  {
+   "label": "Pew Research Center",
+   "year": 2015,
+   "at": "L1",
+   "until": "L2e"
+  },
+  {
+   "label": "Lobo et al., Pharmacognosy Reviews",
+   "year": 2010,
+   "at": "L3",
+   "until": "L4e"
+  },
+  {
+   "label": "Times of Israel (AFP)",
+   "year": 2017,
+   "at": "L9",
+   "until": "L10-0.1"
+  },
+  {
+   "label": "City of Aarhus",
+   "at": "L10",
+   "until": "L11-0.1"
+  },
+  {
+   "label": "UK Foreign Office, GCTF launch",
+   "year": 2012,
+   "at": "L11",
+   "until": "L12-0.1"
+  },
+  {
+   "label": "Marrakesh Declaration",
+   "year": 2016,
+   "at": "L12",
+   "until": "L13-0.1"
+  },
+  {
+   "label": "IMPACT-se textbook review",
+   "year": 2023,
+   "at": "L13",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "Europol TE-SAT: separatist, left, right, jihadist attacks",
+   "year": 2024,
+   "at": "L14",
+   "until": "L15e"
+  }
+ ],
+ "end": {
+  "at": "L16",
+  "balance": "Every group has its *radicals.*",
+  "cta": "Follow *@noamroz__*"
+ },
+ "caption_en": "The fix is one electron. Here's who's handing it out. 🧪\n\nA free radical has one unpaired electron, so it is unstable and damages whatever it touches. An antioxidant fixes it by donating the missing electron.\n\nExtremists work the same way, and they are a small minority: in Pew's 2015 survey of 11 countries with large Muslim populations, in no country did more than 15% view ISIS, the Islamic State, favourably.\n\nThe real antioxidants, many led by Muslim majority states and Muslim scholars:\nRh: Saudi Arabia's rehab centre for terror convicts (since 2004)\nEx: Denmark's Aarhus exit programme (since 2007)\nHd: Hedayah, the UAE's global centre against violent extremism (2012)\nCl: the Marrakesh Declaration on the rights of religious minorities, signed by hundreds of Muslim scholars (2016)\nEd: Saudi school textbooks, most antisemitism removed (IMPACT-se, 2023)\n\nEvery group has its radicals. Same chemistry for all.\nWhich antioxidant works best? Tell me in the comments.",
+ "caption_he": "לכל רדיקל חסר אלקטרון אחד. 🧪\nלרדיקל חופשי יש אלקטרון אחד לא מזווג, ולכן הוא לא יציב ופוגע בכל מה שהוא נוגע בו. נוגד חמצון מייצב אותו כשהוא תורם לו את האלקטרון החסר.\nקיצונים עובדים אותו דבר, והם מיעוט קטן: בסקר Pew משנת 2015 ב־11 מדינות עם אוכלוסייה מוסלמית גדולה, באף מדינה לא יותר מ־15% ראו את דאעש בעין יפה.\nנוגדי החמצון האמיתיים, רבים מהם בהובלת מדינות מוסלמיות וחכמי דת מוסלמים: מרכז השיקום הסעודי לאסירי טרור (מאז 2004), תוכנית היציאה של אורהוס בדנמרק (מאז 2007), מרכז הדאיה באבו דאבי נגד קיצוניות (2012), הצהרת מרקש על זכויות מיעוטים דתיים (2016), וספרי לימוד סעודיים שמהם הוסרה רוב האנטישמיות (2023).\nלכל קבוצה יש את הרדיקלים שלה. אותה כימיה לכולם.",
+ "hashtags": [
+  "#Israel",
+  "#science",
+  "#antisemitism"
+ ],
+ "cover": {
+  "bg": "scene",
+  "text": "Every radical is|*1* electron *short*"
+ },
+ "sources_caption": "Sources: Lobo et al., Pharmacognosy Reviews (2010); Pew Research Center (Nov 2015); Times of Israel/AFP (Nov 2017); City of Aarhus; UK Foreign Office on the GCTF launch of the Abu Dhabi centre (Dec 2012); Marrakesh Declaration (Jan 2016); IMPACT-se review of Saudi textbooks (2023); Europol TE-SAT 2024.\nPhotos, Wikimedia Commons: ElNokko (CC BY-SA 4.0); B.alotaby (CC BY-SA 4.0); Ciara Ní Riain (CC BY-SA 4.0); Sabithnav (CC BY-SA 4.0); Najibelfatimi (CC BY-SA 4.0); John Liu (CC BY 2.0). AI voice, animation and synthesised music."
+}
