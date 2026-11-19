@@ -85,8 +85,8 @@
       "ig_id": "18124195453903573",
       "account": "noamroz__",
       "views": 36171,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/Dfco7jkD9gY/",
+      "caption_short": "Is Israel a violent country?"
     },
     {
       "ig_id": "18042774383795998",
@@ -99,8 +99,8 @@
       "ig_id": "17992548084076339",
       "account": "noamroz__",
       "views": 26369,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DfUr0qkjHh0/",
+      "caption_short": "Jews are white. Obviously."
     },
     {
       "ig_id": "18269858863246240",
@@ -113,8 +113,8 @@
       "ig_id": "18121075696704628",
       "account": "noamroz__",
       "views": 23184,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/Das4KuNMQ1v/",
+      "caption_short": "איך להפסיק לתרגם מעברית לאנגלית"
     },
     {
       "ig_id": "18122374330518777",
@@ -127,8 +127,8 @@
       "ig_id": "18099990200786242",
       "account": "noamroz__",
       "views": 22984,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/Dfk65a4D2bb/",
+      "caption_short": "1 Israeli vs 9 countries. GDP tug of war"
     },
     {
       "ig_id": "18035836514079452",
@@ -2784,9 +2784,35 @@
       "views": 8308,
       "fb_video_id": "1796157571619640",
       "posted_at": "2026-11-18T10:52:54Z"
+    },
+    {
+      "ig_id": "18121075696704628",
+      "account": "noamroz__",
+      "views": 23184,
+      "fb_video_id": "3564318770404006",
+      "posted_at": "2026-11-19T07:48:26Z"
     }
   ],
-  "skipped": [],
+  "skipped": [
+    {
+      "ig_id": "18124195453903573",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (Is Israel a violent country, fb 1124704056634201 and 4535254470028281)",
+      "skipped_at": "2026-11-19T07:48:00Z"
+    },
+    {
+      "ig_id": "17992548084076339",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (Jews are white, fb 1122311610656916)",
+      "skipped_at": "2026-11-19T07:48:00Z"
+    },
+    {
+      "ig_id": "18099990200786242",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (GDP tug of war, fb 1524092876226825)",
+      "skipped_at": "2026-11-19T07:48:00Z"
+    }
+  ],
   "fb_page_baseline": {
     "note": "Videos already on the page before this job (FB1 list at 2026-11-12 16:20 UTC, one page of results, no next page; oldest 2026-10-14). They have no descriptions and none matches the top IG candidates by time. Dedupe rule: skip an IG reel if a page video was created within 30 min of its IG timestamp.",
     "oldest": "2026-10-14T05:08:18+0000",
