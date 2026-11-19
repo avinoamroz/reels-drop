@@ -1,0 +1,599 @@
+{
+ "id": "recognised_first_map_rh1110_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Who recognised|*Israel* first?",
+ "opener": {
+  "style": "globe_spin_whip"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "Who recognised Israel first?",
+   "gap": 0.15
+  },
+  {
+   "say": "May fourteenth, 1948. In Tel Aviv, Israel's leaders sign the Declaration of Independence.",
+   "screen": "*14 May 1948:* the Declaration"
+  },
+  {
+   "say": "At midnight in Tel Aviv, six in the evening in Washington, the new state is born.",
+   "screen": "Washington: *6:00 PM*"
+  },
+  {
+   "say": "Eleven minutes later, President Truman recognises it.",
+   "screen": "*11 minutes* later: Truman"
+  },
+  {
+   "say": "The United States is first. In practice, not yet in law.",
+   "screen": "First: the *United States*"
+  },
+  {
+   "say": "Three days later, the Soviet Union gives the first full legal recognition.",
+   "screen": "*17 May:* Soviet Union, first in law"
+  },
+  {
+   "say": "Then the clock speeds up."
+  },
+  {
+   "say": "By the end of 1948, seventeen countries. By 1950, forty seven."
+  },
+  {
+   "say": "1979: Egypt, the first Arab country.",
+   "screen": "*1979:* Egypt, the first Arab country"
+  },
+  {
+   "say": "The nineties: forty more, including China and Jordan.",
+   "screen": "1990s: *40* more, incl. China and Jordan"
+  },
+  {
+   "say": "2020: the UAE, Bahrain and Morocco.",
+   "screen": "*2020:* UAE, Bahrain, Morocco"
+  },
+  {
+   "say": "Today: one hundred sixty nine of the other one hundred ninety two United Nations members.",
+   "screen": "Today: *169* of 192 UN members"
+  },
+  {
+   "say": "Recognising isn't agreeing. Many of them still criticise Israel.",
+   "screen": "Recognising is *not* agreeing"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*"
+  },
+  {
+   "say": "The first took eleven minutes. Twenty three still haven't, seventy eight years later.",
+   "screen": "First: *11 minutes.* *23* still waiting."
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.0,
+   31.5,
+   40.0
+  ],
+  "hook_y": 760,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L2-0.3",
+    "view": [
+     -77.0,
+     39.0,
+     40.0,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L5-0.3",
+    "view": [
+     37.6,
+     55.7,
+     50.0,
+     960
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L6-0.2",
+    "view": [
+     20.0,
+     25.0,
+     200.0,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L14-0.3",
+    "view": [
+     55.0,
+     18.0,
+     140.0,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L3:truman",
+    "until": "L14",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L5:soviet",
+    "until": "L14",
+    "code": "RUS",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L8:egypt",
+    "until": "L14",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L9:china",
+    "until": "L14",
+    "code": "CHN",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L9:jordan",
+    "until": "L14",
+    "code": "JOR",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L10:uae",
+    "until": "L14",
+    "code": "ARE",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L10:uae",
+    "until": "L14",
+    "code": "BHR",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L10:uae",
+    "until": "L14",
+    "code": "MAR",
+    "color": "#45A4DD",
+    "alpha": 0.85
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "AFG",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "DZA",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "BGD",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "BRN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "COM",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "DJI",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "IDN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "IRN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "IRQ",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "KWT",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "LBN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "LBY",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "MYS",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "PRK",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "OMN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "PAK",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "QAT",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "SAU",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "SOM",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "SDN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "SYR",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "TUN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "code": "YEM",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1",
+    "until": "L2",
+    "lon": 34.78,
+    "lat": 32.07,
+    "label": "Tel Aviv",
+    "color": "yellow"
+   },
+   {
+    "at": "L2",
+    "until": "L5",
+    "lon": -77.04,
+    "lat": 38.9,
+    "label": "Washington",
+    "color": "yellow"
+   },
+   {
+    "at": "L5",
+    "until": "L6",
+    "lon": 37.62,
+    "lat": 55.75,
+    "label": "Moscow",
+    "color": "yellow"
+   }
+  ],
+  "counter": [
+   {
+    "label": "Washington, 14 May 1948",
+    "at": "L2",
+    "until": "L5-0.1",
+    "y": 1300,
+    "steps": [
+     {
+      "at": "L2:six",
+      "text": "6:00 PM"
+     },
+     {
+      "at": "L3:eleven",
+      "text": "6:11 PM"
+     }
+    ]
+   },
+   {
+    "label": "Countries that recognise Israel",
+    "at": "L7",
+    "until": "L12-0.1",
+    "y": 1300,
+    "steps": [
+     {
+      "at": "L7:seventeen",
+      "value": 17
+     },
+     {
+      "at": "L7:forty",
+      "value": 47
+     },
+     {
+      "at": "L11:one",
+      "value": 169
+     }
+    ]
+   }
+  ],
+  "clock": {
+   "at": "L6",
+   "until": "L12-0.1",
+   "y": 1080,
+   "size": 110,
+   "label": "",
+   "steps": [
+    {
+     "at": "L6",
+     "year": 1948
+    },
+    {
+     "at": "L7:by#2",
+     "year": 1950
+    },
+    {
+     "at": "L8",
+     "year": 1979
+    },
+    {
+     "at": "L9",
+     "year": 1995
+    },
+    {
+     "at": "L10",
+     "year": 2020
+    },
+    {
+     "at": "L11",
+     "year": 2026
+    }
+   ],
+   "tick": true
+  },
+  "big": [
+   {
+    "at": "L14:twenty",
+    "until": "END-0.6",
+    "value": 23,
+    "from": 1,
+    "sub": "UN members still say no",
+    "y": 1300
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L11",
+    "until": "L13-0.1",
+    "text": "Which one *surprised* you?",
+    "y": 1480,
+    "size": 54
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/bf_recog/kaplan.jpg",
+    "at": "L1+0.3",
+    "until": "L2",
+    "credit": "Declaration signing, 14 May 1948: Zoltan Kluger, GPO (PD)",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/bf_recog/letter.jpg",
+    "at": "L3:truman",
+    "until": "L4",
+    "credit": "Israel's letter to Truman, 14 May 1948: Truman Library (PD)",
+    "kb": [
+     0.5,
+     0.3,
+     1.0,
+     0.5,
+     0.35,
+     1.15
+    ],
+    "dim": 0.15
+   },
+   {
+    "file": "templates/photos/bf_recog/campdavid.jpg",
+    "at": "L8+0.4",
+    "until": "L9",
+    "credit": "Sadat, Carter, Begin, Camp David Accords, 1978 (PD)",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "dim": 0.25
+   },
+   {
+    "file": "templates/photos/bf_recog/abraham.jpg",
+    "at": "L10+0.4",
+    "until": "L11",
+    "credit": "Abraham Accords, 2020: White House (PD)",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.25
+   }
+  ],
+  "photo_box": [
+   60,
+   380,
+   960,
+   620,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-1",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "US National Archives, U.S. Recognition of the State of Israel",
+   "year": 2026,
+   "at": "L2",
+   "until": "L6"
+  },
+  {
+   "label": "Wikipedia, International recognition of Israel",
+   "year": 2026,
+   "at": "L6",
+   "until": "END"
+  }
+ ],
+ "caption_en": "The first one took 11 minutes. The rest is still being counted.\n\n14 May 1948: Israel's leaders sign the Declaration of Independence in Tel Aviv. At midnight Tel Aviv time (6 pm in Washington) the British Mandate ends and the state is born. 11 minutes later, the United States recognises it (de facto). 17 May 1948: the Soviet Union gives the first full legal (de jure) recognition.\n\nEnd of 1948: 17 countries. By 1950: 47. The 1960s: dozens of newly independent African states. 1979: Egypt, the first Arab country. The 1990s: about 40 more as the Soviet Union breaks up, including China (1992) and Jordan (1994). 2020: the UAE, Bahrain and Morocco (and Bhutan).\n\nToday: 169 of the other 192 UN members. 23 do not: Afghanistan, Algeria, Bangladesh, Brunei, Comoros, Djibouti, Indonesia, Iran, Iraq, Kuwait, Lebanon, Libya, Malaysia, North Korea, Oman, Pakistan, Qatar, Saudi Arabia, Somalia, Sudan, Syria, Tunisia, Yemen. These are governments' decisions, not peoples'.\n\nRecognising is not agreeing: many of them criticise Israel too, and some have cut ties and restored them over the years.\n\nWhich one surprised you?\n\nSources: US National Archives, \"U.S. Recognition of the State of Israel\" (11 minutes); Wikipedia, International recognition of Israel (Feb 2026). Photos: Eliezer Kaplan signs the Declaration, 1948, Zoltan Kluger, GPO (PD); Eliahu Epstein's letter to President Truman, 14 May 1948, Truman Library (PD); Sadat, Carter and Begin at the Camp David Accords, 1978, the road to the 1979 treaty (PD); Abraham Accords signing, 2020, White House (PD). Map: Natural Earth (PD). Made with AI tools, AI voice (Noam's cloned voice), follow line in Noam's own voice.",
+ "caption_he": "מי הכיר בישראל ראשונה? ארצות הברית, 11 דקות אחרי שהמדינה קמה (הכרה בפועל). שלושה ימים אחר כך, ברית המועצות נתנה את ההכרה המשפטית המלאה הראשונה.\nסוף 1948: 17 מדינות. 1950: 47. 1979: מצרים, המדינה הערבית הראשונה. שנות ה 90: עוד כ 40, כולל סין וירדן. 2020: איחוד האמירויות, בחריין ומרוקו.\nהיום: 169 מתוך 192 חברות האו\"ם האחרות. 23 עדיין לא מכירות. הכרה היא לא הסכמה.",
+ "hashtags": [
+  "#Israel",
+  "#History",
+  "#Diplomacy"
+ ],
+ "cover": {
+  "t": 9.0,
+  "big": "11 min",
+  "text": "Who recognised|*Israel* first?"
+ }
+}
