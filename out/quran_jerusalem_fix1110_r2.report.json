@@ -1,0 +1,154 @@
+{
+ "id": "quran_jerusalem_fix1110_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*6,236* verses.|Jerusalem named: *0*",
+ "duration": 52.63,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -0.2
+ },
+ "outputs": {
+  "mp4": "out/quran_jerusalem_fix1110_r2.mp4",
+  "cover": "covers/quran_jerusalem_fix1110_r2_cover.jpg",
+  "preview": "previews/quran_jerusalem_fix1110_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/quran_jerusalem_fix1110_r2_0.jpg",
+  "1": "out/frames/quran_jerusalem_fix1110_r2_1.jpg",
+  "3": "out/frames/quran_jerusalem_fix1110_r2_3.jpg",
+  "last": "out/frames/quran_jerusalem_fix1110_r2_last.jpg"
+ },
+ "caption_en": "I searched every verse for one word. 🔎\n\nThe Quran has 6,236 verses (standard Hafs count). I searched the Arabic text.\nNamed: Mecca (48:24), Medina (63:8), Egypt (10:87), Babylon (2:102), Mount Sinai (95:2).\nJerusalem (Al-Quds): not named.\nThe Children of Israel (Bani Isra'il): 41 times.\n5:21, Moses to his people: \"Enter, O my people! the holy land which God hath destined for you\" (tr. J. M. Rodwell, 1861). Classical commentators place that land around Jerusalem (Ibn Kathir; Ma'ariful Quran).\n\nJerusalem matters in Islam too: 17:1 names al-Masjid al-Aqsa, \"the farthest mosque\", without saying where. Muslim tradition places it in Jerusalem, Islam's third holiest site.\n\nCan one city be holy to two faiths at once? Tell me below.\n\nSources: Arabic text, quranenc.com; IslamiCity, Quran in numbers (6,236 verses); WikiShia, Bani Isra'il (41 times); Rodwell (1861); Tafsir Ibn Kathir; Britannica, al-Aqsa.\nPhotos (Wikimedia Commons): Birmingham Quran folios, about 568 to 645 CE: public domain; Kaaba, Mecca: GusJuned, CC BY-SA 3.0; Prophet's Mosque, Medina: Konevi, CC0; Giza, Egypt: Ricardo Liberato, CC BY-SA 2.0; Babylon, Iraq: public domain; Mount Sinai: Grand Parc Bordeaux, CC BY 2.0; Al-Aqsa Mosque, Jerusalem: Godot13, CC BY-SA 4.0. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "6,236 פסוקים בקוראן. בכמה מהם מוזכרת ירושלים?\nחיפשתי בטקסט הערבי. מכה, מדינה, מצרים, בבל והר סיני מוזכרים בשמם. ירושלים (אל קודס): אפס.\n\"בני ישראל\" מוזכרים 41 פעמים, ובפסוק 5:21 משה אומר להם: \"היכנסו לארץ הקדושה שאלוהים ייעד לכם\". פרשנים קלאסיים ממקמים אותה סביב ירושלים.\nירושלים חשובה גם באסלאם: פסוק 17:1 מזכיר את אל אקצא, \"המסגד הרחוק ביותר\", בלי לומר איפה. המסורת המוסלמית ממקמת אותו בירושלים, המקום השלישי בקדושתו באסלאם.\nעיר אחת יכולה להיות קדושה לשתי דתות? ספרו לי בתגובות.",
+ "hashtags": [
+  "#Quran",
+  "#Jerusalem",
+  "#Israel"
+ ],
+ "sources": [
+  {
+   "label": "Quran, 6,236 verses (Hafs count; IslamiCity)",
+   "year": 2026,
+   "at": "L0+1.5",
+   "until": "L2"
+  },
+  {
+   "label": "Arabic text, quranenc.com: 48:24, 63:8, 10:87, 2:102, 95:2",
+   "year": 2026,
+   "at": "L2",
+   "until": "L5"
+  },
+  {
+   "label": "WikiShia, Bani Isra'il: 41 times",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Quran 5:21, tr. J. M. Rodwell",
+   "year": 1861,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Tafsir Ibn Kathir; Ma'ariful Quran, on 5:21",
+   "year": 1990,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Quran 17:1 (no place named); Britannica, al-Aqsa",
+   "year": 2026,
+   "at": "L8",
+   "until": "L10"
+  }
+ ],
+ "transcript": {
+  "score": 0.978,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "6,236 verses in the Quran. How many name Jerusalem?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "I searched the Arabic text, verse by verse.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Mecca? Named. Medina? Named.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt, Babylon, Mount Sinai. All named.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jerusalem, Al-Quds? Zero.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But one people comes up again and again. The Children of Israel. 41 times.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Chapter 5, verse 21. Moses tells them: enter the holy land which God has destined for you.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Classical commentators place that land around Jerusalem.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Jerusalem matters in Islam too. Chapter 17 names Al-Aqsa, the farthest mosque, but doesn't say where.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Muslim tradition places it in Jerusalem, Islam's third holiest site.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Can one city be holy to two faiths at once? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Now search again. 6,236 verses.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "6,236 verses in the Quran. How many name Jerusalem? I search the Arabic text verse by verse. Mecca? Named. Medina? Named. Egypt? Babylon? Mount Sinai? All named. Jerusalem? Al-Quds? Zero. But one people comes up again and again. The Children of Israel? 41 times. Chapter 5 verse 21. Moses tells them, Enter the Holy Land which God has destined for you. commentators place that land around Jerusalem. Jerusalem matters in Islam too. Chapter 17 names Al-Aqsa, the farthest mosque, but doesn't say where. Muslim tradition places it in Jerusalem, Islam's third holiest site. Can one city be holy to two faiths at once? Tell me below. If you love Israeli facts, follow Noam Ross for more. Now search again. 6236 verses.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 51.15,
+ "opener": {
+  "style": "globe_spin_night",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 199.7
+}
