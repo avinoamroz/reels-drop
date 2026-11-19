@@ -196,12 +196,8 @@ html,body{margin:0;background:#f5f5f7}
     </div>
     <div class="card save" id="saveCard" hidden>
       <div class="savehead"><b>Save your progress</b><button class="x" id="saveX" type="button" aria-label="Close">×</button></div>
-      <p class="savesub">Log in with your English Express account. Your progress is saved and you can keep climbing on any device.</p>
-      <form id="saveF" autocomplete="on">
-        <input id="fName" name="name" autocomplete="given-name" placeholder="First name" required>
-        <input id="fEmail" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Email" required dir="ltr">
-        <button class="btn" type="submit">Save my progress</button>
-      </form>
+      <p class="savesub">Sign up free to the English Express school. Your progress is saved and you keep playing on any device.</p>
+      <a class="btn" id="saveGo" href="#" target="_top">Sign up or log in</a>
     </div>
     <div class="card climb">
       <div class="climbhead"><b id="stepTxt"></b><span id="toTop"></span></div>
@@ -540,19 +536,22 @@ $("saveX").onclick=()=>{S.skip=S.res.length;save();$("saveCard").hidden=true};
 function post(d){return fetch(HOOK,{method:"POST",body:new URLSearchParams(d),keepalive:true})}
 function sync(first){if(!HOOK||!S.user)return;try{post({a:"save",email:S.user.e,name:S.user.n,lang:LANG,first:first?"1":"0",climb:climb(S.res),answered:S.res.length,state:JSON.stringify({order:S.order,res:S.res})}).catch(()=>{})}catch(_){}}
 function setLogin(){$("loginBtn").textContent=S.user?S.user.n:T.login}
-$("loginBtn").onclick=()=>{if(S.user)return;if($("sGame").hidden){show("sGame");renderQ()}$("saveCard").hidden=false;$("saveCard").scrollIntoView({behavior:"smooth",block:"center"});setTimeout(()=>$("fName").focus(),350)};
-$("saveF").onsubmit=async e=>{e.preventDefault();const n=$("fName").value.trim(),em=$("fEmail").value.trim().toLowerCase();
-  if(!n||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){$("fEmail").focus();return}
-  const btn=e.target.querySelector("button");btn.disabled=true;let first=true;
-  try{const r=await post({a:"load",email:em});const v=await r.json();if(v&&v.order&&v.order.length===TOTAL&&Array.isArray(v.res)){first=false;if(v.res.length>S.res.length){S.order=v.order;S.res=v.res}}}catch(_){}
-  S.user={n,e:em};save();sync(first);btn.disabled=false;$("saveCard").hidden=true;setLogin();toast(T.saved.replace("{n}",n));
-  if(!$("sGame").hidden&&$("reveal").hidden)renderQ();renderRoad(false);renderStart()};
+const LW="https://goglobal.expressenglish.co.il/slang-game";
+function lwUser(){try{const u=window.EE_USER||(window.parent&&window.parent.me);if(u&&u.email)return{n:(u.firstName||u.username||"").split(" ")[0]||"Speaker",e:String(u.email).toLowerCase()}}catch(_){}return null}
+function goLW(){let h="";try{h="#s="+btoa(JSON.stringify({o:S.order,r:S.res}))}catch(_){}const u=LW+(LANG==="en"?"?lang=en":"")+h;try{window.top.location.href=u}catch(_){location.href=u}}
+$("saveGo").onclick=e=>{e.preventDefault();goLW()};
+$("loginBtn").onclick=()=>{if(!S.user)goLW()};
+async function lwLogin(){const u=lwUser();if(!u)return;
+  try{const hs=(window.parent.location.hash||"").match(/#s=(.+)/);if(hs){const v=JSON.parse(atob(decodeURIComponent(hs[1])));if(v.o&&v.o.length===TOTAL&&v.r.length>S.res.length){S.order=v.o;S.res=v.r}try{window.parent.history.replaceState(null,"",window.parent.location.pathname+window.parent.location.search)}catch(_){}}}catch(_){}
+  let first=true;try{const r=await post({a:"load",email:u.e});const v=await r.json();if(v&&v.order&&v.order.length===TOTAL&&Array.isArray(v.res)){first=false;if(v.res.length>S.res.length){S.order=v.order;S.res=v.res}}}catch(_){}
+  const was=!!(S.user&&S.user.e===u.e);S.user=u;save();sync(first);setLogin();if(!was)toast(T.saved.replace("{n}",u.n));
+  if(!$("sGame").hidden&&$("reveal").hidden)renderQ();renderRoad(false);renderStart()}
 $("mNext").onclick=()=>{SFX.step();show("sGame");renderQ()};
 $("say").onclick=()=>speak(cur,true);
 $("mute").onclick=()=>{S.mute=!S.mute;save();setMute();if(S.mute){MUS.stop();try{AUD.pause()}catch(e){}}else MUS.start()};
 $("share").onclick=()=>{const ok=S.res.filter(Boolean).length,t=T.shareTxt.replace("{n}",ok).replace("{t}",TOTAL);
   if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>toast(T.copied)).catch(()=>toast(t));else toast(t)};
 window.addEventListener("resize",()=>{if(!$("sGame").hidden)renderRoad(false)});
-buildMtn($("mtnStart"));buildMtn($("mtnBar"));setMute();setLogin();renderStart();
+buildMtn($("mtnStart"));buildMtn($("mtnBar"));if(!lwUser()&&S.user)S.user=null;setMute();setLogin();renderStart();lwLogin();
 })();
 </script>
