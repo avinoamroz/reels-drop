@@ -59,7 +59,7 @@
   },
   {
    "say": "Israeli officials said about half. Leaked IDF data, reported in the press, suggested 83 percent. The IDF disputes it.",
-   "screen": "Estimates *vary*"
+   "screen": "Civilian share: *estimates vary*"
   },
   {
    "say": "Gaza's civilian toll is real and heavy. Every strike can be judged, by the law, with one yardstick for everyone.",
@@ -172,21 +172,21 @@
     "title": "Killed in city battles",
     "rows": [
      {
-      "label": "Dresden 1945",
+      "label": "Dresden",
       "flag": "DE",
       "value": 25000,
       "txt": "up to 25,000",
       "color": "#45A4DD"
      },
      {
-      "label": "Mosul 2016 to 2017",
+      "label": "Mosul",
       "flag": "IQ",
       "value": 10000,
       "txt": "9,000 to 11,000",
       "color": "#45A4DD"
      },
      {
-      "label": "Raqqa 2017",
+      "label": "Raqqa",
       "flag": "SY",
       "value": 1600,
       "txt": "1,600+",
@@ -199,17 +199,16 @@
     "until": "L11-0.1",
     "y": 620,
     "vmax": 100,
-    "title": "Gaza: share of dead who were civilians",
     "rows": [
      {
-      "label": "Israeli officials, 2024",
+      "label": "Israeli officials",
       "value": 50,
       "txt": "about half",
       "at": "L10:israeli",
       "color": "#45A4DD"
      },
      {
-      "label": "Leaked IDF data, 2025",
+      "label": "Leaked IDF data",
       "value": 83,
       "txt": "83%",
       "at": "L10:leaked",
