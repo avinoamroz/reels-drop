@@ -1,0 +1,147 @@
+{
+ "id": "twin_cities_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*55 km* from prayer|to *party.*",
+ "duration": 53.0,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -0.8
+ },
+ "outputs": {
+  "mp4": "out/twin_cities_r2.mp4",
+  "cover": "covers/twin_cities_r2_cover.jpg",
+  "preview": "previews/twin_cities_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/twin_cities_r2_0.jpg",
+  "1": "out/frames/twin_cities_r2_1.jpg",
+  "3": "out/frames/twin_cities_r2_3.jpg",
+  "last": "out/frames/twin_cities_r2_last.jpg"
+ },
+ "caption_en": "The capital and the party city: guess which pair sits closest. 🏙️\n\n🇮🇱 Jerusalem and Tel Aviv: 55 km apart. Jerusalem is the seat of the Knesset and the government; Tel Aviv was founded in 1909, on the sand.\n🇹🇷 Ankara and Istanbul: 349 km\n🇲🇦 Rabat and Casablanca: 85 km\n🇸🇦 Riyadh and Jeddah: 845 km\n🇺🇸 Washington and New York: 328 km\n🇦🇺 Canberra and Sydney: 247 km\n🇨🇭 Bern and Zurich: 95 km\n🇪🇬 Egypt went the other way: since April 2024 its seat of government is a brand new city, The New Capital, about 50 km east of Cairo.\n\nWashington (chosen in 1790), Canberra (site chosen in 1908) and Ankara (capital since 1923) were picked to be capitals. Jerusalem was King David's capital about 3,000 years ago.\n\nDistances are straight lines between city centres (our calculation). Which city would you pick?\n\nSources: US Senate (Residence Act 1790); Parliament of Australia (Seat of Government Act 1908); Grand National Assembly of Türkiye (13 Oct 1923); Tel Aviv-Yafo Municipality (founded 1909); ACUD and Egyptian Streets, Nov 2025 (The New Capital, seat of government since 2 April 2024).\nPhotos: Western Wall Plaza, Gary Todd (CC0); Tel Aviv, Markus Trienke (CC BY-SA 3.0); Istanbul, SegLig (CC BY 4.0); Hassan II Mosque, Casablanca, OussamaHamama (CC BY-SA 4.0); New York, Oleg Yunakov (CC BY-SA 4.0); Sydney, Dietmar Rabich (CC BY-SA 4.0); The New Capital, Mohamed Ouda (CC BY-SA 4.0); all via Wikimedia Commons.",
+ "caption_he": "55 ק\"מ בין תפילה למסיבה.\nלכל מדינה יש תל אביב. עיר אחת שמנהלת, ועיר אחת שלא נרדמת.\nירושלים ותל אביב: 55 ק\"מ. אנקרה ואיסטנבול: 349. רבאט וקזבלנקה: 85. ריאד וג'דה: 845. וושינגטון וניו יורק: 328. קנברה וסידני: 247. ברן וציריך: 95.\nמצרים הלכה הפוך: מאפריל 2024 הממשלה יושבת בעיר חדשה במדבר, כ-50 ק\"מ מקהיר.\nירושלים מתפללת, תל אביב חוגגת. ואיזו עיר אתם הייתם בוחרים?",
+ "hashtags": [
+  "#Israel",
+  "#TelAviv",
+  "#Jerusalem"
+ ],
+ "sources": [
+  {
+   "label": "Straight line, city centres (our calculation)",
+   "at": "L2",
+   "until": "L6-0.1",
+   "year": 2026
+  },
+  {
+   "label": "US Senate; Parliament of Australia; TBMM",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "Tel Aviv-Yafo Municipality",
+   "year": 2024,
+   "at": "L7:tel",
+   "until": "L8-0.1"
+  },
+  {
+   "label": "ACUD; Egyptian Streets",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.925,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Fifty five kilometres. From praying to partying.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Many countries have two cities. One runs it, one has the fun. How far apart are they?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia: Riyadh rules, Jeddah has the sea. Eight hundred forty five kilometres.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey: Ankara runs it, Istanbul gets the tourists. Three hundred forty nine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Washington and New York, three hundred twenty eight. Canberra and Sydney, two hundred forty seven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Bern and Zurich, ninety five. Rabat and Casablanca, eighty five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Washington, Canberra, Ankara: all picked to be capitals.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jerusalem was a capital three thousand years ago. Tel Aviv was founded on the sand in nineteen oh nine.",
+    "score": 0.895,
+    "flag": "ok"
+   },
+   {
+    "line": "Fifty five kilometres apart. The closest pair so far.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Only Egypt is closer. In twenty twenty four it moved its government to a brand new city, fifty kilometres from Cairo.",
+    "score": 0.905,
+    "flag": "ok"
+   },
+   {
+    "line": "So Israelis say: Jerusalem prays, Tel Aviv plays.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Where's your country's Tel Aviv?",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.6,
+    "flag": "MISS"
+   },
+   {
+    "line": "And the drive between them?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "55 kilometers. From praying to partying, many countries have two cities. One runs it. One has the fun. How far apart are they? Saudi Arabia. Riyadh rules. Jeddah has the sea. 845 kilometers. Turkey. Ankara runs it. Istanbul gets the tourists. 349. Washington and New York. 328. Canberra and Sydney. 247. Bern and Zurich. 95. Rabat and Casablanca. 85. Washington, camera, Ankara, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded on the sand in 1909, 55 kilometers apart, the closest pair so far. Only Egypt is closer. In 2024, it moved its government to a brand new city, 50 kilometers from Cairo. So Israelis say, Jerusalem prays, Tel Aviv plays. Where is your country's Tel Aviv? If you love Israeli facts, follow an Amraj from war. And the drive between them.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 51.51,
+ "opener": {
+  "style": "map_puzzle",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "lint_warnings": [],
+ "render_s": 209.6
+}

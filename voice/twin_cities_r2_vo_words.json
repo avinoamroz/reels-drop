@@ -1,0 +1,747 @@
+[
+{
+"word": "Fifty",
+"start": 0.10835979,
+"end": 0.47987905
+},
+{
+"word": "five",
+"start": 0.47987905,
+"end": 0.71207863
+},
+{
+"word": "kilometres.",
+"start": 0.71207863,
+"end": 1.3777173
+},
+{
+"word": "From",
+"start": 1.7337567,
+"end": 1.9814361
+},
+{
+"word": "praying",
+"start": 1.9814361,
+"end": 2.2445955
+},
+{
+"word": "to",
+"start": 2.2445955,
+"end": 2.3684354
+},
+{
+"word": "partying.",
+"start": 2.3684354,
+"end": 2.7863946
+},
+{
+"word": "Many",
+"start": 2.7863946,
+"end": 3.018594
+},
+{
+"word": "countries",
+"start": 3.018594,
+"end": 3.3901134
+},
+{
+"word": "have",
+"start": 3.3901134,
+"end": 3.529433
+},
+{
+"word": "two",
+"start": 3.529433,
+"end": 3.6842327
+},
+{
+"word": "cities.",
+"start": 3.6842327,
+"end": 4.1950717
+},
+{
+"word": "One",
+"start": 4.7987905,
+"end": 5.18579
+},
+{
+"word": "runs",
+"start": 5.18579,
+"end": 5.541829
+},
+{
+"word": "it,",
+"start": 5.541829,
+"end": 5.7275887
+},
+{
+"word": "one",
+"start": 5.7275887,
+"end": 6.083628
+},
+{
+"word": "has",
+"start": 6.083628,
+"end": 6.2693877
+},
+{
+"word": "the",
+"start": 6.2693877,
+"end": 6.3467875
+},
+{
+"word": "fun.",
+"start": 6.3467875,
+"end": 6.7957067
+},
+{
+"word": "How",
+"start": 7.074346,
+"end": 7.2601056
+},
+{
+"word": "far",
+"start": 7.2601056,
+"end": 7.461345
+},
+{
+"word": "apart",
+"start": 7.461345,
+"end": 7.7709446
+},
+{
+"word": "are",
+"start": 7.7709446,
+"end": 7.848345
+},
+{
+"word": "they?",
+"start": 7.848345,
+"end": 8.157944
+},
+{
+"word": "Saudi",
+"start": 8.668783,
+"end": 9.086742
+},
+{
+"word": "Arabia:",
+"start": 9.086742,
+"end": 9.659501
+},
+{
+"word": "Riyadh",
+"start": 10.07746,
+"end": 10.55734
+},
+{
+"word": "rules,",
+"start": 10.55734,
+"end": 11.068178
+},
+{
+"word": "Jeddah",
+"start": 11.130098,
+"end": 11.455177
+},
+{
+"word": "has",
+"start": 11.455177,
+"end": 11.687377
+},
+{
+"word": "the",
+"start": 11.687377,
+"end": 11.780257
+},
+{
+"word": "sea.",
+"start": 11.780257,
+"end": 12.167256
+},
+{
+"word": "Eight",
+"start": 12.832895,
+"end": 13.049615
+},
+{
+"word": "hundred",
+"start": 13.049615,
+"end": 13.281814
+},
+{
+"word": "forty",
+"start": 13.281814,
+"end": 13.498533
+},
+{
+"word": "five",
+"start": 13.498533,
+"end": 13.730733
+},
+{
+"word": "kilometres.",
+"start": 13.730733,
+"end": 14.458292
+},
+{
+"word": "Turkey:",
+"start": 14.93817,
+"end": 15.41805
+},
+{
+"word": "Ankara",
+"start": 15.68121,
+"end": 16.130129
+},
+{
+"word": "runs",
+"start": 16.130129,
+"end": 16.408768
+},
+{
+"word": "it,",
+"start": 16.408768,
+"end": 16.548088
+},
+{
+"word": "Istanbul",
+"start": 16.579048,
+"end": 17.058928
+},
+{
+"word": "gets",
+"start": 17.058928,
+"end": 17.275646
+},
+{
+"word": "the",
+"start": 17.275646,
+"end": 17.368526
+},
+{
+"word": "tourists.",
+"start": 17.368526,
+"end": 17.956764
+},
+{
+"word": "Three",
+"start": 18.235405,
+"end": 18.467604
+},
+{
+"word": "hundred",
+"start": 18.467604,
+"end": 18.715284
+},
+{
+"word": "forty",
+"start": 18.715284,
+"end": 18.916523
+},
+{
+"word": "nine.",
+"start": 18.916523,
+"end": 19.288042
+},
+{
+"word": "Washington",
+"start": 19.845322,
+"end": 20.41808
+},
+{
+"word": "and",
+"start": 20.41808,
+"end": 20.54192
+},
+{
+"word": "New",
+"start": 20.54192,
+"end": 20.66576
+},
+{
+"word": "York,",
+"start": 20.66576,
+"end": 21.05276
+},
+{
+"word": "three",
+"start": 21.269478,
+"end": 21.470718
+},
+{
+"word": "hundred",
+"start": 21.470718,
+"end": 21.718397
+},
+{
+"word": "twenty",
+"start": 21.718397,
+"end": 21.950598
+},
+{
+"word": "eight.",
+"start": 21.950598,
+"end": 22.260197
+},
+{
+"word": "Canberra",
+"start": 22.523355,
+"end": 22.941315
+},
+{
+"word": "and",
+"start": 22.941315,
+"end": 23.096115
+},
+{
+"word": "Sydney,",
+"start": 23.096115,
+"end": 23.545034
+},
+{
+"word": "two",
+"start": 23.839153,
+"end": 24.117792
+},
+{
+"word": "hundred",
+"start": 24.117792,
+"end": 24.411913
+},
+{
+"word": "forty",
+"start": 24.411913,
+"end": 24.628632
+},
+{
+"word": "seven.",
+"start": 24.628632,
+"end": 25.01563
+},
+{
+"word": "Bern",
+"start": 25.51099,
+"end": 25.743189
+},
+{
+"word": "and",
+"start": 25.743189,
+"end": 25.83607
+},
+{
+"word": "Zurich,",
+"start": 25.83607,
+"end": 26.223068
+},
+{
+"word": "ninety",
+"start": 26.284988,
+"end": 26.594587
+},
+{
+"word": "five.",
+"start": 26.594587,
+"end": 27.012547
+},
+{
+"word": "Rabat",
+"start": 27.244747,
+"end": 27.662706
+},
+{
+"word": "and",
+"start": 27.724627,
+"end": 27.910385
+},
+{
+"word": "Casablanca,",
+"start": 27.910385,
+"end": 28.514105
+},
+{
+"word": "eighty",
+"start": 28.715343,
+"end": 28.963024
+},
+{
+"word": "five.",
+"start": 28.963024,
+"end": 29.380983
+},
+{
+"word": "Washington,",
+"start": 29.922781,
+"end": 30.6039
+},
+{
+"word": "Canberra,",
+"start": 30.6039,
+"end": 31.05282
+},
+{
+"word": "Ankara:",
+"start": 31.114738,
+"end": 31.563658
+},
+{
+"word": "all",
+"start": 31.687498,
+"end": 31.904217
+},
+{
+"word": "picked",
+"start": 31.904217,
+"end": 32.105457
+},
+{
+"word": "to",
+"start": 32.105457,
+"end": 32.167377
+},
+{
+"word": "be",
+"start": 32.167377,
+"end": 32.291218
+},
+{
+"word": "capitals.",
+"start": 32.291218,
+"end": 32.863976
+},
+{
+"word": "Jerusalem",
+"start": 33.405773,
+"end": 33.963055
+},
+{
+"word": "was",
+"start": 33.963055,
+"end": 34.117855
+},
+{
+"word": "a",
+"start": 34.117855,
+"end": 34.148815
+},
+{
+"word": "capital",
+"start": 34.148815,
+"end": 34.597733
+},
+{
+"word": "three",
+"start": 34.597733,
+"end": 34.814453
+},
+{
+"word": "thousand",
+"start": 34.814453,
+"end": 35.10857
+},
+{
+"word": "years",
+"start": 35.10857,
+"end": 35.29433
+},
+{
+"word": "ago.",
+"start": 35.29433,
+"end": 35.58845
+},
+{
+"word": "Tel",
+"start": 36.25409,
+"end": 36.54821
+},
+{
+"word": "Aviv",
+"start": 36.54821,
+"end": 36.904247
+},
+{
+"word": "was",
+"start": 36.966167,
+"end": 37.151928
+},
+{
+"word": "founded",
+"start": 37.151928,
+"end": 37.44605
+},
+{
+"word": "on",
+"start": 37.44605,
+"end": 37.569885
+},
+{
+"word": "the",
+"start": 37.569885,
+"end": 37.631805
+},
+{
+"word": "sand",
+"start": 37.631805,
+"end": 37.864006
+},
+{
+"word": "in",
+"start": 37.864006,
+"end": 37.956886
+},
+{
+"word": "nineteen",
+"start": 37.956886,
+"end": 38.266487
+},
+{
+"word": "oh",
+"start": 38.266487,
+"end": 38.343884
+},
+{
+"word": "nine.",
+"start": 38.343884,
+"end": 38.684444
+},
+{
+"word": "Fifty",
+"start": 38.792805,
+"end": 39.071445
+},
+{
+"word": "five",
+"start": 39.071445,
+"end": 39.303642
+},
+{
+"word": "kilometres",
+"start": 39.303642,
+"end": 39.752563
+},
+{
+"word": "apart.",
+"start": 39.752563,
+"end": 40.15504
+},
+{
+"word": "The",
+"start": 40.32532,
+"end": 40.4182
+},
+{
+"word": "closest",
+"start": 40.4182,
+"end": 40.743282
+},
+{
+"word": "pair",
+"start": 40.743282,
+"end": 40.92904
+},
+{
+"word": "so",
+"start": 40.92904,
+"end": 41.08384
+},
+{
+"word": "far.",
+"start": 41.08384,
+"end": 41.37796
+},
+{
+"word": "Only",
+"start": 41.981678,
+"end": 42.30676
+},
+{
+"word": "Egypt",
+"start": 42.30676,
+"end": 42.616356
+},
+{
+"word": "is",
+"start": 42.616356,
+"end": 42.724716
+},
+{
+"word": "closer.",
+"start": 42.724716,
+"end": 43.173637
+},
+{
+"word": "In",
+"start": 43.576115,
+"end": 43.715435
+},
+{
+"word": "twenty",
+"start": 43.715435,
+"end": 43.963116
+},
+{
+"word": "twenty",
+"start": 43.963116,
+"end": 44.164352
+},
+{
+"word": "four",
+"start": 44.164352,
+"end": 44.535873
+},
+{
+"word": "it",
+"start": 44.535873,
+"end": 44.613274
+},
+{
+"word": "moved",
+"start": 44.613274,
+"end": 44.829994
+},
+{
+"word": "its",
+"start": 44.829994,
+"end": 44.95383
+},
+{
+"word": "government",
+"start": 44.95383,
+"end": 45.34083
+},
+{
+"word": "to",
+"start": 45.34083,
+"end": 45.464672
+},
+{
+"word": "a",
+"start": 45.464672,
+"end": 45.526592
+},
+{
+"word": "brand",
+"start": 45.526592,
+"end": 45.82071
+},
+{
+"word": "new",
+"start": 45.82071,
+"end": 45.94455
+},
+{
+"word": "city,",
+"start": 45.94455,
+"end": 46.36251
+},
+{
+"word": "fifty",
+"start": 46.625668,
+"end": 46.96623
+},
+{
+"word": "kilometres",
+"start": 46.96623,
+"end": 47.415146
+},
+{
+"word": "from",
+"start": 47.415146,
+"end": 47.554466
+},
+{
+"word": "Cairo.",
+"start": 47.554466,
+"end": 48.003387
+},
+{
+"word": "So",
+"start": 48.436825,
+"end": 48.653545
+},
+{
+"word": "Israelis",
+"start": 48.653545,
+"end": 49.102463
+},
+{
+"word": "say:",
+"start": 49.102463,
+"end": 49.520424
+},
+{
+"word": "Jerusalem",
+"start": 49.96934,
+"end": 50.480183
+},
+{
+"word": "prays,",
+"start": 50.480183,
+"end": 51.02198
+},
+{
+"word": "Tel",
+"start": 51.22322,
+"end": 51.470898
+},
+{
+"word": "Aviv",
+"start": 51.470898,
+"end": 51.76502
+},
+{
+"word": "plays.",
+"start": 51.76502,
+"end": 52.21394
+},
+{
+"word": "Where's",
+"start": 52.910538,
+"end": 53.142735
+},
+{
+"word": "your",
+"start": 53.142735,
+"end": 53.235615
+},
+{
+"word": "country's",
+"start": 53.235615,
+"end": 53.653576
+},
+{
+"word": "Tel",
+"start": 53.653576,
+"end": 53.839336
+},
+{
+"word": "Aviv?",
+"start": 53.839336,
+"end": 54.226334
+},
+{
+"word": "And",
+"start": 54.79909,
+"end": 54.98485
+},
+{
+"word": "the",
+"start": 54.98485,
+"end": 55.031292
+},
+{
+"word": "drive",
+"start": 55.031292,
+"end": 55.340893
+},
+{
+"word": "between",
+"start": 55.340893,
+"end": 55.63501
+},
+{
+"word": "them?",
+"start": 55.63501,
+"end": 55.82077
+}
+]
