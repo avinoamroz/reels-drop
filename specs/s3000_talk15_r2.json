@@ -1,0 +1,287 @@
+{
+ "id": "s3000_talk15_r2",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Who lived here?|*5* stones answer.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "Who lived here three thousand years ago? Five stones answer.",
+   "gap": 0.15
+  },
+  {
+   "say": "Stone one. Twelve oh eight BCE. An Egyptian pharaoh carves his victories.",
+   "screen": "*1208 BCE:* Merneptah Stele"
+  },
+  {
+   "say": "Among the names: Israel. Its oldest known mention outside the Bible.",
+   "screen": "Oldest mention of *Israel* outside the Bible"
+  },
+  {
+   "say": "Stone two. Ninth century BCE, at Tel Dan. It names the House of David.",
+   "screen": "*9th c. BCE:* Tel Dan Stele"
+  },
+  {
+   "say": "Stone three. Around seven hundred BCE, a tunnel under Jerusalem. The workers sign it in Hebrew.",
+   "screen": "*700 BCE:* Siloam inscription"
+  },
+  {
+   "say": "Stone four is silver. Around six hundred BCE: two tiny scrolls with the priestly blessing.",
+   "screen": "*600 BCE:* Ketef Hinnom scrolls"
+  },
+  {
+   "say": "The oldest Bible text ever found.",
+   "screen": "Oldest *Bible text* ever found"
+  },
+  {
+   "say": "Stone five is a coin. One thirty two CE. It reads: for the freedom of Jerusalem.",
+   "screen": "*132 CE:* Bar Kokhba coin"
+  },
+  {
+   "say": "Other peoples lived here too, and their stones are here as well."
+  },
+  {
+   "say": "But five stones, across thirteen centuries, keep writing one name.",
+   "screen": "*5* stones. *13* centuries."
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "gap": 0.12
+  },
+  {
+   "say": "So, who lived here? Ask the stones.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cut": 0.25,
+  "hook_y": 880,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_merneptah.jpg",
+    "at": 0.0,
+    "credit": "Merneptah Stele, Egyptian Museum. Darer101, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_merneptah.jpg",
+    "at": "L2",
+    "credit": "Merneptah Stele, Egyptian Museum. Darer101, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.1,
+     0.5,
+     0.45,
+     1.35
+    ]
+   },
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_teldan.jpg",
+    "at": "L3",
+    "credit": "Tel Dan Stele, Israel Museum. Liadmalone, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.25
+    ]
+   },
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_siloam.jpg",
+    "at": "L4",
+    "credit": "Siloam inscription, Istanbul. Yong Woo Park, CC0",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.6,
+     0.5,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_ketef.jpg",
+    "at": "L5",
+    "credit": "Ketef Hinnom scrolls, Israel Museum. Bachrach44, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.3
+    ]
+   },
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_kokhba.jpg",
+    "at": "L7",
+    "credit": "Bar Kokhba revolt coin. IsraelXKV8R, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_teldan.jpg",
+    "at": "L8",
+    "credit": "Tel Dan Stele, Israel Museum. Liadmalone, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.08
+    ],
+    "dim": 0.5
+   },
+   {
+    "file": "templates/photos/s3000_talk15_r2/s3t_merneptah.jpg",
+    "at": "L11",
+    "credit": "Merneptah Stele, Egyptian Museum. Darer101, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.0
+    ]
+   }
+  ],
+  "stamp": [
+   {
+    "at": "L2:israel",
+    "until": "L3-0.1",
+    "text": "ISRAEL",
+    "color": "yellow",
+    "y": 1150,
+    "angle": -6
+   },
+   {
+    "at": "L3:david",
+    "until": "L4-0.1",
+    "text": "HOUSE OF DAVID",
+    "color": "yellow",
+    "y": 1150,
+    "angle": 5,
+    "size": 120
+   },
+   {
+    "at": "L4:hebrew",
+    "until": "L5-0.1",
+    "text": "HEBREW",
+    "color": "yellow",
+    "y": 1150,
+    "angle": -5
+   },
+   {
+    "at": "L5:blessing",
+    "until": "L7-0.1",
+    "text": "BLESSING",
+    "color": "yellow",
+    "y": 1150,
+    "angle": 4
+   },
+   {
+    "at": "L7:jerusalem",
+    "until": "L8-0.1",
+    "text": "JERUSALEM",
+    "color": "yellow",
+    "y": 1150,
+    "angle": -5
+   }
+  ],
+  "math": [
+   {
+    "at": "L9",
+    "until": "L10-0.05",
+    "title": "Five stones",
+    "rows": [
+     "1208 BCE: Israel",
+     "9th c. BCE: House of David",
+     "700 BCE: Hebrew",
+     "600 BCE: the blessing",
+     "132 CE: Jerusalem"
+    ],
+    "result": "about 1,340 years",
+    "y": 900
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Merneptah Stele, Egyptian Museum, Cairo",
+   "year": "about 1208 BCE",
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Tel Dan Stele, Israel Museum",
+   "year": "9th c. BCE",
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Siloam inscription, Istanbul Archaeology Museums",
+   "year": "about 700 BCE",
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Ketef Hinnom scrolls, Israel Museum",
+   "year": "about 600 BCE",
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "Bar Kokhba coins, Jewish Virtual Library",
+   "year": "132 to 135 CE",
+   "at": "L7",
+   "until": "L8"
+  }
+ ],
+ "end": {
+  "at": "L8",
+  "balance": "Other peoples lived here too. Their stones are *real* too.",
+  "cta": "Which stone *surprised* you?"
+ },
+ "caption_en": "The fifth one fits in your pocket. 🪨\n\nWho lived here 3,000 years ago? Five stones answer.\n1️⃣ Merneptah Stele, about 1208 BCE: an Egyptian pharaoh lists his victories. Among the names: Israel. Its oldest known mention outside the Bible. (Egyptian Museum, Cairo)\n2️⃣ Tel Dan Stele, 9th century BCE: \"the House of David\". (Israel Museum)\n3️⃣ Siloam inscription, about 700 BCE: workers sign a water tunnel under Jerusalem, in Hebrew. (Istanbul Archaeology Museums)\n4️⃣ Ketef Hinnom scrolls, about 600 BCE: two tiny silver scrolls with the priestly blessing, the oldest Bible text ever found. (Israel Museum)\n5️⃣ Bar Kokhba revolt coin, 132 to 135 CE: \"for the freedom of Jerusalem\".\n\nOther peoples lived here too, and their stones are here as well. But five stones, across about 1,340 years, keep writing one name.\n\nWhich one surprised you?",
+ "caption_he": "מי חי כאן לפני 3,000 שנה? חמש אבנים עונות.\n1️⃣ מצבת מרנפתח, בערך 1208 לפנה״ס: פרעה מונה את ניצחונותיו. בין השמות: ישראל. האזכור הקדום ביותר הידוע של ישראל מחוץ לתנ״ך.\n2️⃣ כתובת תל דן, המאה ה 9 לפנה״ס: ״בית דוד״.\n3️⃣ כתובת השילוח, בערך 700 לפנה״ס: הפועלים חותמים על נקבה מתחת לירושלים, בעברית.\n4️⃣ מגילות כתף הינום, בערך 600 לפנה״ס: שתי מגילות כסף זעירות עם ברכת כהנים, טקסט התנ״ך הקדום ביותר שנמצא.\n5️⃣ מטבע מרד בר כוכבא, 132 עד 135 לספירה: ״לחרות ירושלים״.\nגם עמים אחרים חיו כאן, והאבנים שלהם כאן גם כן. אבל חמש אבנים, לאורך כ 1,340 שנה, כותבות שם אחד.\n\nSources: Egyptian Museum, Cairo; Israel Museum, Jerusalem; Istanbul Archaeology Museums; Jewish Virtual Library (Bar Kokhba coins).\nPhotos, Wikimedia Commons: Darer101 (CC BY-SA 4.0); Liadmalone (CC BY-SA 4.0); Yong Woo Park (CC0); Bachrach44 (CC BY-SA 3.0); IsraelXKV8R (CC BY-SA 3.0). AI voice.",
+ "hashtags": [
+  "#Israel",
+  "#archaeology",
+  "#JewishHistory"
+ ],
+ "cover": {
+  "t": 3.0,
+  "big": "5 stones",
+  "text": "Who lived|here *first?*"
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "id": "border_question_1_v2_r2",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*2* borders.|Only *1* gets asked.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.12
+ },
+ "subs_replace": {
+  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS"
+ },
+ "lines": [
+  {
+   "say": "Gaza has two borders. Only one ever gets the questions.",
+   "gap": 0.15
+  },
+  {
+   "say": "This is the other one. Rafah. Egypt's gate.",
+   "screen": "*Rafah:* Egypt's gate"
+  },
+  {
+   "say": "After <<h|ɑ|ˈ|m|ɑ|s>> took Gaza in two thousand seven, Egypt kept it shut for long stretches.",
+   "screen": "After *2007:* shut for long stretches"
+  },
+  {
+   "say": "One U.N. count: open thirty four days in eleven months.",
+   "screen": "Oct 2014 to Sep 2015"
+  },
+  {
+   "say": "In twenty fifteen, Egypt flooded the smuggling tunnels with seawater.",
+   "screen": "*2015:* tunnels flooded"
+  },
+  {
+   "say": "In twenty twenty three, Egypt's president rejected moving Gazans into Sinai.",
+   "screen": "*2023:* no Gazans into Sinai"
+  },
+  {
+   "say": "Since May twenty twenty four, Israel holds the Gaza side. It reopened this February, for limited foot traffic.",
+   "screen": "*Feb 2026:* limited foot traffic"
+  },
+  {
+   "say": "Israel restricts Gaza too, and that deserves hard questions."
+  },
+  {
+   "say": "But when did you last hear anyone ask Egypt?"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "gap": 0.12
+  },
+  {
+   "say": "Because Gaza has two borders.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cut": 0.22,
+  "hook_y": 880,
+  "photos": [
+   {
+    "file": "templates/photos/gaza_who_blocks/gwb_rafah.jpg",
+    "at": 0.0,
+    "credit": "Rafah crossing, 2023: A. Amra, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/evil_blockade/raf2.jpg",
+    "at": "L2",
+    "credit": "Rafah: J. J. Badwan, CC BY-SA 4.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.52,
+     0.5,
+     1.15
+    ],
+    "gray": true
+   },
+   {
+    "file": "templates/photos/gaza_who_blocks/gwb_tunnel.jpg",
+    "at": "L4",
+    "credit": "Egypt border tunnel, 2006: IDF, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.55,
+     1.18
+    ]
+   },
+   {
+    "file": "templates/photos/evil_blockade/tun1.jpg",
+    "at": "L5",
+    "credit": "Tunnel: IDF, CC BY-SA 2.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/gaza_who_blocks/gwb_rafah.jpg",
+    "at": "L6",
+    "credit": "Rafah crossing, 2023: A. Amra, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.5,
+     0.5,
+     1.12,
+     0.5,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "file": "templates/photos/evil_blockade/raf2.jpg",
+    "at": "L7",
+    "credit": "Rafah: J. J. Badwan, CC BY-SA 4.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.45
+   },
+   {
+    "file": "templates/photos/gaza_who_blocks/gwb_rafah.jpg",
+    "at": "L10-0.2",
+    "credit": "Rafah crossing, 2023: A. Amra, CC BY-SA 3.0 IGO",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.0
+    ]
+   }
+  ],
+  "stamp": [
+   {
+    "at": "L2:shut",
+    "until": "L3-0.1",
+    "text": "CLOSED",
+    "color": "red",
+    "y": 1150
+   },
+   {
+    "at": "L4:flooded",
+    "until": "L5-0.1",
+    "text": "FLOODED",
+    "color": "red",
+    "y": 1150,
+    "angle": -6
+   },
+   {
+    "at": "L5:rejected",
+    "until": "L6-0.1",
+    "text": "REJECTED",
+    "color": "red",
+    "y": 1150,
+    "angle": 5
+   },
+   {
+    "at": "L8:egypt",
+    "until": "L9-0.1",
+    "text": "ASK EGYPT?",
+    "color": "yellow",
+    "y": 1150,
+    "angle": -5,
+    "size": 150
+   }
+  ],
+  "big": [
+   {
+    "at": "L3:thirty",
+    "until": "L4-0.1",
+    "value": 34,
+    "from": 0,
+    "suffix": " days",
+    "sub": "Rafah open, in 11 months",
+    "y": 1000
+   },
+   {
+    "at": "L7",
+    "until": "L8-0.1",
+    "value": 2,
+    "from": 2,
+    "suffix": " borders",
+    "sub": "both closed, often",
+    "y": 1000
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "UN OCHA, Gaza crossings",
+   "year": 2015,
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Al Jazeera",
+   "year": 2015,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Reuters, 18 Oct",
+   "year": 2023,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "AP",
+   "year": "2024, 2026",
+   "at": "L6",
+   "until": "L7"
+  }
+ ],
+ "end": {
+  "at": "L7",
+  "balance": "Israel restricts Gaza too. That deserves *questions.*",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "The other border never makes the news. 🎙️\n\nGaza has two borders. Only one ever gets the questions.\n🔒 After HAMAS took over Gaza in 2007, Egypt kept the Rafah crossing shut for long stretches (UN OCHA: open 34 days between Oct 2014 and Sep 2015).\n🌊 2015: Egypt flooded the smuggling tunnels with seawater (Al Jazeera, Sep 2015).\n🏜️ 2023: Egypt's president rejected moving Gazans into Sinai (Reuters, 18 Oct 2023).\n🇮🇱 Since May 2024, Israel holds the Gaza side of Rafah. The crossing reopened on 2 February 2026 for limited foot traffic (Israeli and Egyptian security approval) and has been shut again several times since.\n\nIsrael restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt?",
+ "caption_he": "לעזה יש שני גבולות. רק אחד מקבל את השאלות.\n🔒 אחרי שחמאס השתלט על עזה ב 2007, מצרים החזיקה את מעבר רפיח סגור לתקופות ארוכות (OCHA: נפתח 34 ימים בין אוקטובר 2014 לספטמבר 2015).\n🌊 2015: מצרים הציפה במי ים את מנהרות ההברחה.\n🏜️ 2023: נשיא מצרים דחה העברת עזתים לסיני.\n🇮🇱 מאז מאי 2024 ישראל מחזיקה בצד העזתי של רפיח. ב 2 בפברואר 2026 המעבר נפתח מחדש למעבר מוגבל של הולכי רגל, ומאז נסגר שוב כמה פעמים.\nגם ישראל מגבילה את עזה, וזה ראוי לשאלות קשות. אבל מתי בפעם האחרונה שמעתם מישהו שואל את מצרים?\n\nSources: UN OCHA (2015); Al Jazeera (2015); Reuters (2023); AP (2024, 2026).\nPhotos: A. Amra (CC BY-SA 3.0 IGO); J. J. Badwan (CC BY-SA 4.0); IDF (CC BY 2.0, CC BY-SA 2.0), Wikimedia Commons. AI voice.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#Egypt"
+ ],
+ "cover": {
+  "t": 12.0,
+  "big": "2 borders",
+  "text": "Only *one*|gets asked"
+ }
+}
