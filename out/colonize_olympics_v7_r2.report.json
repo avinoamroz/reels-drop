@@ -1,0 +1,141 @@
+{
+ "id": "colonize_olympics_v7_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Who grabbed *24%*|of Earth?",
+ "duration": 49.23,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/colonize_olympics_v7_r2.mp4",
+  "cover": "covers/colonize_olympics_v7_r2_cover.jpg",
+  "preview": "previews/colonize_olympics_v7_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/colonize_olympics_v7_r2_0.jpg",
+  "1": "out/frames/colonize_olympics_v7_r2_1.jpg",
+  "3": "out/frames/colonize_olympics_v7_r2_3.jpg",
+  "last": "out/frames/colonize_olympics_v7_r2_last.jpg"
+ },
+ "caption_en": "The last row on this scoreboard is the one nobody checks. 🏅 (satire)\n\nThe Colonization Olympics. Event: who grabbed the most of the planet. Share of the world's land at each empire's peak:\n🥇 British Empire 23.8%\n🥈 Mongols 16.1%\n🥉 Russian Empire 15.3%\nSpain 9.2%\nFrance 7.7%\nOttomans 3.5%\nIsrael, even with the West Bank and Gaza: 0.02%\n\nSo Israel entered a different event: drip irrigation (Netafim, 1965), a camera you swallow (PillCam, FDA 2001), cars that see the road (Mobileye, Jerusalem, 1999).\n\nIsrael's borders are still argued over, and that debate is real. But on the conquest scoreboard, it isn't even on the podium.\n\nYour call: what's the fairest scoreboard?",
+ "caption_he": "אולימפיאדת הקולוניזציה 🏅 (סאטירה)\nהאירוע: מי תפס הכי הרבה מכדור הארץ. אחוז מהיבשה בעולם בשיא של כל אימפריה:\n🥇 האימפריה הבריטית 23.8%\n🥈 המונגולים 16.1%\n🥉 האימפריה הרוסית 15.3%\nספרד 9.2%, צרפת 7.7%, העות׳מאנים 3.5%\nישראל, גם עם יהודה ושומרון ועזה: 0.02%\nאז ישראל נכנסה לאירוע אחר: טפטוף (נטפים, 1965), מצלמה שבולעים (PillCam), מכוניות שרואות את הכביש (מובילאיי).\nהגבולות של ישראל עדיין שנויים במחלוקת, והוויכוח הזה אמיתי. אבל בטבלת הכיבושים? היא אפילו לא על הפודיום.\n\nSources: Taagepera, empire sizes at peak, via Wikipedia \"List of largest empires\" (world land 148.9M km2); Israel CBS and CIA World Factbook (Israel, West Bank, Gaza about 28,000 km2; share is our calculation); Netafim (founded 1965, Kibbutz Hatzerim); Given Imaging, FDA clearance 2001; Mobileye (founded Jerusalem, 1999).\nPhotos, Wikimedia Commons: East India House c. 1800 (CC0); Canercangul (CC BY-SA 4.0); Alan.ca (public domain); capsule camera (public domain); U.S. Embassy Tel Aviv (CC BY 2.0). AI voice.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#satire"
+ ],
+ "sources": [
+  {
+   "label": "Taagepera via Wikipedia, List of largest empires",
+   "year": 2026,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Israel + WB + Gaza about 28,000 km2 of 148.9M: our maths",
+   "year": 2024,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Netafim 1965; Given Imaging FDA 2001; Mobileye 1999",
+   "year": 2001,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "transcript": {
+  "score": 0.929,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One empire once ruled almost a quarter of the land on Earth.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Welcome to the Colonization Olympics. The event: who grabbed the most of the planet.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gold: the British Empire. Twenty three point eight percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Silver: the Mongols. Sixteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Bronze: the Russian Empire. Fifteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Spain, nine. France, almost eight. The Ottomans, three and a half.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "And the country the internet calls a colonizer?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel. Even with the West Bank and Gaza: zero point zero two percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It didn't even qualify. So it entered a different event.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Drip irrigation. A camera you swallow. Cars that see the road.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel's borders are still argued over, and that debate is real.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But on the conquest scoreboard? Not even on the podium.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.1,
+    "flag": "MISS"
+   },
+   {
+    "line": "Because one empire once ruled almost a quarter of the Earth.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold. The British Empire. 23.8%. Silver. The Mongols. 16. Bronze. The Russian Empire. 15. Then Spain. 9. France. Almost 8. The Ottomans. 3.5. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%, it didn't even qualify. So it entered a different event, drip irrigation, a camera you swallow, cars that see the road, Israel's borders are still argued over. And that debate is real. But on the conquest scoreboard? Not even on the podium, because one empire once ruled almost a quarter of the earth.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 47.75,
+ "opener": {
+  "style": "globe_spin_fast",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 224.1
+}
