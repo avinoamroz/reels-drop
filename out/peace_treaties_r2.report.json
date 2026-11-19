@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Who gave back *3x*|its size?",
- "duration": 73.6,
+ "duration": 60.03,
  "audio": {
-  "lufs": -16.0,
-  "true_peak": -1.7
+  "lufs": -16.2,
+  "true_peak": -0.8
  },
  "outputs": {
   "mp4": "out/peace_treaties_r2.mp4",
@@ -32,47 +32,41 @@
    "label": "Britannica (Sinai); Israel CBS (Israel 22,072 km²)",
    "year": 2024,
    "at": "L1",
-   "until": "L3"
+   "until": "L2"
   },
   {
    "label": "US State Dept, FRUS 1977 to 1980, vol. VIII, doc. 152",
    "year": 1977,
-   "at": "L3",
-   "until": "L5"
+   "at": "L2",
+   "until": "L3"
   },
   {
-   "label": "JTA, 26 Nov 1979 (Sinai oil)",
-   "year": 1979,
-   "at": "L6",
-   "until": "L7"
-  },
-  {
-   "label": "Yamit evacuated Apr 1982; Taba award 1988, handed over Mar 1989",
+   "label": "JTA 1979 (oil); Yamit Apr 1982; Taba handed over Mar 1989",
    "year": 1989,
-   "at": "L7",
-   "until": "L9"
+   "at": "L4",
+   "until": "L5"
   },
   {
    "label": "Israel Jordan treaty, Annex II; Moscow Times 1995",
    "year": 1994,
-   "at": "L10",
-   "until": "L12"
+   "at": "L6",
+   "until": "L7"
   },
   {
    "label": "Jewish Virtual Library (Sinai share of 1967 land)",
    "year": 2024,
-   "at": "L12",
-   "until": "L13"
+   "at": "L7",
+   "until": "L8"
   },
   {
    "label": "Arab Barometer",
    "year": 2025,
-   "at": "L13",
-   "until": "L14"
+   "at": "L8",
+   "until": "L9"
   }
  ],
  "transcript": {
-  "score": 0.98,
+  "score": 0.935,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -81,43 +75,23 @@
     "flag": "ok"
    },
    {
-    "line": "1967. After the Six Day War, Israel holds the Sinai. 61,000 square kilometers.",
+    "line": "1967. After the Six Day War, Israel holds the Sinai. 61,000 square kilometers. Almost three times Israel.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Israel itself? About 22,000.",
+    "line": "November 1977. Egypt's president, Anwar Sadat, lands in Israel and speaks in the Knesset.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "November 1977. A plane lands at Ben Gurion airport. On board: Egypt's president, Anwar Sadat.",
+    "line": "1979: peace. And Israel gives the Sinai back.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "The next day, he speaks in the Knesset, Israel's parliament.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "1979: peace. And Israel starts giving the Sinai back.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "The oil fields, a quarter of Israel's oil.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Yamit, a whole town, torn down in 1982.",
-    "score": 0.929,
-    "flag": "ok"
-   },
-   {
-    "line": "Even tiny Taba, handed over in 1989.",
-    "score": 0.923,
+    "line": "The oil fields. Yamit, a whole town, torn down. Even tiny Taba, by 1989.",
+    "score": 0.95,
     "flag": "ok"
    },
    {
@@ -126,22 +100,17 @@
     "flag": "ok"
    },
    {
-    "line": "1994: Jordan. Rabin and King Hussein sign in the Arava desert.",
-    "score": 0.882,
-    "flag": "ok"
-   },
-   {
-    "line": "Israel hands back 380 square kilometers, and sends 50 million cubic meters of water a year.",
+    "line": "1994: Jordan. Israel hands back 380 square kilometers, and sends 50 million cubic meters of water a year.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "In all, Sinai alone was almost 90 percent of the land Israel took in 1967.",
+    "line": "Sinai alone was almost 90 percent of the land Israel took in 1967.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Not perfect. Both are a cold peace. Only 5 percent in Egypt and in Jordan back normalization. And the West Bank and Gaza are still unresolved.",
+    "line": "It's a cold peace. Only 5 percent in Egypt and in Jordan back normalization. And the West Bank and Gaza are unresolved.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -152,30 +121,30 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
-    "flag": "ok"
+    "score": 0.1,
+    "flag": "MISS"
    },
    {
     "line": "One country did it. Almost three times its own size.",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.7,
+    "flag": "MISS"
    }
   ],
-  "heard": "Which country gave back almost three times its own size? 1967. After the six-day war, Israel holds the Sinai. 61,000 square kilometers. Israel itself. About 22,000. November 1977. A plane lands at Ben Gurion Airport. On board, Egypt's president, Anwar Sadat. The next day, he speaks in the Knesset, Israel's parliament. 1979. Peace. and Israel starts giving the Sinai back. The oil fields, a quarter of Israel's oil, Yameet, a whole town torn down in 1982, even tiny Tabah handed over in 1989. Sadat paid for peace with his life. 1981. 1994. Jordan. Robin and King Hussein sign in the Arab desert. Israel hands back 380 square kilometers and sends 50 million cubic meters of water a year. In all, Sinai alone was almost 90% 50% of the land Israel took in 1967. Not perfect. Both are a cold peace. Only 5% in Egypt and in Jordan back normalization, and the West Bank and Gaza are still unresolved. Land for peace. Was it worth it? Tell me below. If you love Israeli facts, follow Noam Ross for more. One country did it. Almost three times its own size.",
+  "heard": "Which country gave back almost three times its own size? 1967. After the Six-Day War, Israel holds the Sinai. 61,000 square kilometers. Almost three times Israel. November 1977. Egypt's president, Anwar Sadat, lands in Israel and speaks in the Knesset. 1979. Peace. And Israel gives the Sinai back. The oil fields. Yamit. A whole town. torn down. Even tiny tabah by 1989. Sadat paid for peace with his life. 1981. 1994. Jordan. Israel hands back 380 square kilometers and sends 50 million cubic meters of water a year. Sinai alone was almost 90% of the land Israel took in 1967. It's a cold peace. Only 5% in Egypt and in Jordan back normalization. And the West Bank and Gaza are unresolved. Land for peace. Was it worth Worth it? Tell me below.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 72.11,
+ "body_s": 58.52,
  "opener": {
   "style": "map_puzzle",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.0,
+  "lufs": -16.1,
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 249.9
+ "render_s": 206.0
 }
