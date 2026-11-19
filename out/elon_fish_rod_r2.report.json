@@ -1,0 +1,164 @@
+{
+ "id": "elon_fish_rod_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*$1 trillion.*|Give it all away?",
+ "duration": 48.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.6
+ },
+ "outputs": {
+  "mp4": "out/elon_fish_rod_r2.mp4",
+  "cover": "covers/elon_fish_rod_r2_cover.jpg",
+  "preview": "previews/elon_fish_rod_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/elon_fish_rod_r2_0.jpg",
+  "1": "out/frames/elon_fish_rod_r2_1.jpg",
+  "3": "out/frames/elon_fish_rod_r2_3.jpg",
+  "last": "out/frames/elon_fish_rod_r2_last.jpg"
+ },
+ "caption_en": "\"Give it all away\" sounds generous. Do the math first.\n\nElon Musk is worth about $1 trillion on paper (Forbes real-time billionaires, Oct 2026), almost all of it in shares of SpaceX, xAI and Tesla.\nSay every share sold at full price (it wouldn't: a sale that big would push the price down) and the money was split among about 8.2 billion people (UN World Population Prospects 2024, 2025). That's about $120 each, once. Our calculation.\n\nMoney is the fish. Skills and tools are the rod.\nIsrael had no oil, and its big gas fields were found only from 2009 (Tamar 2009, Leviathan 2010). So it bet on brains: R&D at 6.3% of GDP, the highest of any OECD country (Korea 5.0%, OECD average 2.7%; OECD, March 2025 release, 2023 data). Drip irrigation, Iron Dome, and high tech at 58% of Israel's exports (Israel Innovation Authority, 2025).\n\nFair to say: aid still saves lives in a disaster. And Musk has given billions (about $5.7B in Tesla shares to his own foundation in 2021, SEC filing via Bloomberg 2022), though critics question how that money is used (NYT 2024).\n\nFish or rod? Tell me below.\n\nPhotos: Starbase, Texas, 2026, NOAA (PD); Gigafactory Texas, Larry D. Moore, CC BY 4.0; Leviathan gas installation, Deror Avi, CC BY-SA 4.0; Weizmann Institute, Deror Avi, CC BY-SA 4.0; drip tape, MajaGra, CC BY-SA 4.0; Iron Dome, IDF, CC BY 2.0. Made with AI tools, AI voice (Noam's cloned voice), follow line in Noam's own voice.",
+ "caption_he": "\"שאלון מאסק פשוט יתרום הכל.\" בואו נעשה את החשבון.\nטריליון דולר, גם אם כל מניה נמכרת במחיר מלא, חלקי 8.2 מיליארד בני אדם: בערך 120 דולר לאדם. פעם אחת. ארוחה טובה.\nכסף הוא הדג. כישורים וכלים הם החכה.\nלישראל לא היה נפט, והגז הגדול נמצא רק מ 2009. אז היא הימרה על מוחות: מו\"פ ב 6.3% מהתמ\"ג, הכי גבוה ב OECD. טפטפות, כיפת ברזל, והייטק שהוא 58% מהיצוא.\nוגם: סיוע מציל חיים באסון, ומאסק תרם מיליארדים, אם כי יש ביקורת על איך הכסף מנוצל.",
+ "hashtags": [
+  "#Israel",
+  "#ElonMusk",
+  "#Innovation"
+ ],
+ "sources": [
+  {
+   "label": "Forbes real-time billionaires, Oct",
+   "year": 2026,
+   "at": "L0+0.4",
+   "until": "L3"
+  },
+  {
+   "label": "UN World Population Prospects; our calculation",
+   "year": 2024,
+   "at": "L3",
+   "until": "L6"
+  },
+  {
+   "label": "Tamar 2009, Leviathan 2010",
+   "year": 2010,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "OECD R&D statistics, March 2025 release",
+   "year": 2023,
+   "at": "L9",
+   "until": "L11"
+  },
+  {
+   "label": "Israel Innovation Authority",
+   "year": 2025,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "SEC filing via Bloomberg 2022; NYT",
+   "year": 2024,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.951,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One trillion dollars. Why not give it all away?",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "People keep asking it in the comments about Elon Musk.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fine. Let's do it. Every share sold, at full price.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Split it among eight point two billion people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's about one hundred twenty dollars each.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "One good dinner. Once.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Money is a fish. It feeds you for a day. Skills and tools are the rod.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now look at a country that never had the fish.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel had no oil. Its big gas fields were found only from 2009.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So it bet on brains. Research and development: six point three percent of GDP.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "The highest of any OECD country.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Drip irrigation. Iron Dome. Today, tech is fifty eight percent of Israel's exports.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Aid still saves lives in a disaster. And Musk has given billions, though critics question how it's used.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "So: a hundred and twenty dollars each, once? Or the rod?",
+    "score": 0.727,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "$1,000,000. Why not give it all away? People keep asking it in the comments about Elon Musk. Fine, let's do it. Every share sold, at full price. Split it among 8.2 billion people. That's about $120 each. One good dinner, once. Money is a fish. It feeds you for a day. Skills and tools are the rod. Now look at a country that never had the fish. Israel had no oil. Its big gas fields were found only from 2009. So it bet on brains. and development, 6.3% of GDP, the highest of any OECD country, drip irrigation, iron dome. Today, tech is 58% of Israel's exports, aid still saves lives in a disaster, and Musk has given billions, though critics question how it's used. If you love Israeli facts, follow Noam Ross for more. So, $120 each, once, or the rod?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 47.44,
+ "opener": {
+  "style": "globe_spin_reverse",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 210.0
+}
