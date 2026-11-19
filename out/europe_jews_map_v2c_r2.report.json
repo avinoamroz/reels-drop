@@ -1,0 +1,174 @@
+{
+ "id": "europe_jews_map_v2c_r2",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*9.5 million* Jews.|Now count again.",
+ "duration": 54.33,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/europe_jews_map_v2c_r2.mp4",
+  "cover": "covers/europe_jews_map_v2c_r2_cover.jpg",
+  "preview": "previews/europe_jews_map_v2c_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/europe_jews_map_v2c_r2_0.jpg",
+  "1": "out/frames/europe_jews_map_v2c_r2_1.jpg",
+  "3": "out/frames/europe_jews_map_v2c_r2_3.jpg",
+  "last": "out/frames/europe_jews_map_v2c_r2_last.jpg"
+ },
+ "caption_en": "Nine and a half million in 1933. Count what is left. 🕯️\n\n1933: about 9.5 million Jews lived in Europe. Poland over 3 million, the Soviet Union (European part) 2,525,000, Romania 756,000, Germany 525,000, Hungary 445,000, Britain 300,000, France 250,000.\nWarsaw alone: over 350,000 Jews, about 30% of the city. Its Great Synagogue on Tlomackie Street was blown up by the Nazis on 16 May 1943.\n1950: about 3.5 million.\nPoland: from about 3,000,000 to about 45,000. Germany: from 525,000 to 37,000.\nAbout 136,000 Jewish displaced persons settled in Israel, and over 80,000 in the United States by 1952. The Soviet Union still had some two million Jews.\nSix million Jews were murdered in the Holocaust.",
+ "caption_he": "ב 1933 חיו באירופה כ 9.5 מיליון יהודים. בוורשה לבדה יותר מ 350,000, כשליש מהעיר. בית הכנסת הגדול ברחוב טלומצקה פוצץ בידי הנאצים ב 1943.\nב 1950 נותרו באירופה כ 3.5 מיליון. בפולין: מכ 3 מיליון לכ 45,000. בגרמניה: מ 525,000 ל 37,000.\nכ 136,000 עקורים יהודים עלו לישראל, ויותר מ 80,000 היגרו לארצות הברית.\nשישה מיליון יהודים נרצחו בשואה.\n\nSources: United States Holocaust Memorial Museum (USHMM), Holocaust Encyclopedia (Jewish population of Europe in 1933; Remaining Jewish population of Europe in 1945; Warsaw; Displaced persons), based on the American Jewish Year Book.\nPhotos: Willem van de Poll (CC0, Nationaal Archief); Great Synagogue (copyrighted free use); DaringDonna (CC BY-SA 4.0); Shalom Strassberg (CC BY-SA 3.0); Hans Pinn (GPO, public domain), Wikimedia Commons. AI voice.",
+ "hashtags": [
+  "#Holocaust",
+  "#JewishHistory",
+  "#NeverForget"
+ ],
+ "sources": [
+  {
+   "label": "USHMM Holocaust Encyclopedia, Warsaw",
+   "year": 2024,
+   "at": "L1",
+   "until": "L5"
+  },
+  {
+   "label": "USHMM (American Jewish Year Book)",
+   "year": 1950,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "USHMM: displaced persons",
+   "year": 1952,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "USHMM Holocaust Encyclopedia",
+   "year": 2024,
+   "at": "L12",
+   "until": "END-0.4"
+  }
+ ],
+ "transcript": {
+  "score": 0.908,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Nine and a half million Jews lived in Europe in nineteen thirty three. Now count again.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Warsaw: over three hundred and fifty thousand Jews. About thirty percent of the city.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Markets. Schools. Newspapers. Theatres.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "And this: the Great Synagogue on Tlomackie Street.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "In nineteen forty three, the Nazis blew it up. Today it survives as a model.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "By nineteen fifty, Europe's count: three and a half million.",
+    "score": 0.7,
+    "flag": "MISS"
+   },
+   {
+    "line": "Poland: from about three million, to forty five thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Germany: from over half a million, to thirty seven thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Survivors waited in displaced persons camps, some for years.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About one hundred thirty six thousand went to Israel. Over eighty thousand to the United States.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "The Soviet Union still had about two million. But most of the missing never went anywhere.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Six million Jews were murdered in the Holocaust. Out of nine and a half million.",
+    "score": 0.8,
+    "flag": "ok"
+   }
+  ],
+  "heard": "9.5 million Jews lived in Europe in 1933. Now count again. Warsaw? Over 350,000 Jews. About 30% of the city, markets, schools, newspapers, theaters, and this. The Great Synagogue on Klamakie Street. In 1943, the Nazis blew it up. Today it survives as a model. By 1950, Europe's count 3.5 million, Poland. From about 3 million to 45,000, Germany. From over half a million to 37,000, survivors waited in displaced persons camps, some for years. About 136,000 went to Israel. Over 80,000 to the United States. If you love Israeli facts, follow Noam Ross for more. The Soviet Union still had about 2 million. But most of the missing never went anywhere. 6 million Jews were murdered in the Holocaust, out of 9.5 million.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
+   "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_warsaw34.jpg",
+   "credit": "Jewish quarter, Warsaw, 1934: Willem van de Poll, CC0, Nationaal Archief"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
+   "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_model.jpg",
+   "credit": "Model, POLIN Museum: DaringDonna, CC BY-SA 4.0, Commons"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_warsaw34.jpg",
+   "credit": "Jewish quarter, Warsaw, 1934: Willem van de Poll, CC0, Nationaal Archief"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_dp13.jpg",
+   "credit": "Barletta DP camp, 1947: Shalom Strassberg, CC BY-SA 3.0, Commons"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_exodus47.jpg",
+   "credit": "Exodus 1947, Haifa: Hans Pinn, GPO, public domain"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_dp2.jpg",
+   "credit": "Barletta DP camp, 1947: Shalom Strassberg, CC BY-SA 3.0, Commons"
+  },
+  {
+   "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
+   "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 155.7
+}
