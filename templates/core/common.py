@@ -474,7 +474,7 @@ def wrap_opener(body, S, out, cam, hook_y=930, work="."):
     O = S.get("opener") or {}; style = O.get("style", "globe_spin_whip"); T = float(O.get("dur", 2.4))
     z0 = (0.5 if style == "globe_unpeel" else 0.625) * T; d = T - z0
     MO = os.path.join(TPL, "opener", "map_open.py"); tmp = tempfile.mkdtemp(prefix="opw_", dir=work)
-    common = ["--style", style, "--cam", ",".join(str(x) for x in cam) + ",960", "--hook", S["_hook"], "--hook-y", str(hook_y),
+    common = ["--style", style, "--cam=" + ",".join(str(x) for x in cam) + ",960", "--hook", S["_hook"], "--hook-y", str(hook_y),
               "--hook-s", "1.0", "--dur", str(T)] + (["--plain"] if O.get("plain", True) else [])
     subprocess.run([sys.executable, MO, *common, "--snaps", "0", "--out", f"{tmp}/op.mp4"], check=True); op0 = f"{tmp}/op_0.00.png"
     L = dur_of(body) - d; bod = f"{tmp}/body.mp4"
