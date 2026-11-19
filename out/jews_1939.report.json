@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*1939:* 16.6 million Jews.|Today?",
- "duration": 49.43,
+ "duration": 49.33,
  "audio": {
   "lufs": -15.9,
   "true_peak": -1.2
@@ -117,7 +117,7 @@
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 47.93,
+ "body_s": 47.83,
  "opener": {
   "style": "globe_spin_night",
   "opener_s": 2.4,
@@ -128,5 +128,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 228.6
+ "render_s": 226.4
 }
