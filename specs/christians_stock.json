@@ -27,8 +27,10 @@
   {
    "say": "In 2014, ISIS, the Islamic State group, took Mosul and told Christians: convert, pay, or die.",
    "screen": "*ISIS* in Mosul, 2014: convert, pay, or die",
-   "at": "L3:convert",
-   "until": "L4"
+   "at": "L3+1.0",
+   "until": "L4",
+   "screen_y": 820,
+   "screen_size": 84
   },
   {
    "say": "Syria: two point two million before the war. About five hundred eighty thousand by 2023."
@@ -237,7 +239,7 @@
       true
      ]
     ],
-    "at": "L6:about",
+    "at": "L6+1.0",
     "until": "L7",
     "draw": [
      "L6:about",
