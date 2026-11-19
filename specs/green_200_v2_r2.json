@@ -1,0 +1,357 @@
+{
+ "id": "green_200_v2_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*240 million* trees.|Who *planted* them?",
+ "opener": {
+  "style": "map_tear_v2"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -27,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.06,
+  "gap": 0.14
+ },
+ "lines": [
+  {
+   "say": "240 million trees. Who planted them?",
+   "gap": 0.2
+  },
+  {
+   "say": "1867. Mark Twain rides through this land.",
+   "screen": "*1867:* Mark Twain rides through"
+  },
+  {
+   "say": "He calls it a desolate country.",
+   "screen": "\"A *desolate* country\""
+  },
+  {
+   "say": "1901. The Jewish National Fund is born, to buy land and plant it.",
+   "screen": "Jewish National Fund (KKL-JNF), *1901*"
+  },
+  {
+   "say": "Year one: 14 square kilometers of planted forest.",
+   "screen": "Planted forest, km²"
+  },
+  {
+   "say": "1942: 35. The early seventies: about 600. Today: over 1,000."
+  },
+  {
+   "say": "Then they planted where it barely rains.",
+   "screen": "Where it *barely* rains"
+  },
+  {
+   "say": "1964. The edge of the desert. About 250 millimeters of rain a year.",
+   "screen": "*250 mm* of rain a year"
+  },
+  {
+   "say": "Today it's Yatir, Israel's largest planted forest. Over 4 million trees.",
+   "screen": "Yatir: *4 million* trees"
+  },
+  {
+   "say": "It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967.",
+   "screen": "Not spotless"
+  },
+  {
+   "say": "Ecologists also argue the desert should stay wild."
+  },
+  {
+   "say": "So, plant the desert, or leave it wild? Tell me below.",
+   "screen": "Plant the desert, or leave it *wild?*"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "gap": 0.12
+  },
+  {
+   "say": "Twain would need a new word. 240 million trees.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   35.0,
+   31.4,
+   4.2
+  ],
+  "hook_y": 930,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L3-0.2",
+    "view": [
+     35.0,
+     31.6,
+     3.6,
+     980
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     35.05,
+     31.35,
+     1.6,
+     900
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L9-0.2",
+    "view": [
+     35.0,
+     31.6,
+     2.6,
+     950
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L11",
+    "view": [
+     35.0,
+     31.4,
+     4.2,
+     980
+    ],
+    "dur": 1.2
+   }
+  ],
+  "bars": [
+   {
+    "at": "L4",
+    "until": "L6-0.1",
+    "y": 620,
+    "title": "Planted forest, km²",
+    "vmax": 1000,
+    "rows": [
+     {
+      "label": "1901",
+      "value": 14,
+      "txt": "14",
+      "at": "L4:14"
+     },
+     {
+      "label": "1942",
+      "value": 35,
+      "txt": "35",
+      "at": "L5:1942"
+     },
+     {
+      "label": "Early 1970s",
+      "value": 600,
+      "txt": "~600",
+      "at": "L5:seventies"
+     },
+     {
+      "label": "2019",
+      "value": 1000,
+      "txt": "1,000+",
+      "at": "L5:today",
+      "hl": true
+     }
+    ]
+   }
+  ],
+  "pins": [
+   {
+    "at": "L7",
+    "until": "L9-0.1",
+    "lon": 35.03,
+    "lat": 31.36,
+    "label": "Yatir Forest",
+    "color": "yellow"
+   },
+   {
+    "at": "L9",
+    "until": "L10e",
+    "lon": 35.0,
+    "lat": 31.84,
+    "label": "Canada Park",
+    "color": "grey"
+   }
+  ],
+  "counter": [
+   {
+    "label": "trees in Yatir Forest",
+    "at": "L8",
+    "until": "L9-0.1",
+    "y": 1250,
+    "steps": [
+     {
+      "at": "L8:over",
+      "value": 4000000
+     }
+    ],
+    "suffix": "+"
+   }
+  ],
+  "big": [
+   {
+    "at": "L13",
+    "until": "END",
+    "value": 240000000,
+    "from": 4000000,
+    "sub": "trees planted, KKL-JNF says",
+    "y": 1200
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/green_200_v2_r2/twain.jpg",
+    "at": "L1",
+    "until": "L1e+0.1",
+    "credit": "Mark Twain, 1867: Abdullah Frères, public domain",
+    "kb": [
+     0.5,
+     0.35,
+     1.15,
+     0.5,
+     0.3,
+     1.3
+    ]
+   },
+   {
+    "file": "templates/photos/green_200_v2_r2/bethany.jpg",
+    "at": "L2",
+    "until": "L2e+0.2",
+    "credit": "Bethany hills, about 1870s: Félix Bonfils, Rijksmuseum, CC0",
+    "kb": [
+     0.5,
+     0.45,
+     1.15,
+     0.5,
+     0.4,
+     1.35
+    ]
+   },
+   {
+    "file": "templates/photos/green_200_v2_r2/afforest.jpg",
+    "at": "L3",
+    "until": "L3e",
+    "credit": "KKL planting, 1930s: Matson Collection, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.55,
+     1.25
+    ]
+   },
+   {
+    "file": "templates/photos/green_200_v2_r2/yatir_aerial.jpg",
+    "at": "L7",
+    "until": "L7e",
+    "credit": "Yatir Forest: Okedem, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.6,
+     1.3
+    ]
+   },
+   {
+    "file": "templates/photos/green_200_v2_r2/yatir.jpg",
+    "at": "L8",
+    "until": "L8e",
+    "credit": "Yatir Forest: Deror Avi, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.45,
+     0.5,
+     1.25
+    ]
+   }
+  ],
+  "photo_box": [
+   60,
+   560,
+   960,
+   640,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L12",
+    "until": "L12e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Mark Twain, The Innocents Abroad, ch. 56",
+   "year": 1869,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "KKL-JNF Forestry Facts and Figures",
+   "year": 2025,
+   "at": "L3",
+   "until": "L6"
+  },
+  {
+   "label": "KKL-JNF, Yatir Forest page",
+   "year": 2026,
+   "at": "L6",
+   "until": "L9"
+  },
+  {
+   "label": "Canada Park: Imwas, Yalu, Beit Nuba (Haaretz, Zochrot)",
+   "year": 1967,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "KKL-JNF: more than 240 million trees",
+   "year": 2026,
+   "at": "L13",
+   "until": "END"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Planted over some emptied villages, too. *Both* are true."
+ },
+ "subs_replace": {},
+ "caption_en": "Twain would need a new word for it. 🌳\n\n1867: Mark Twain rides through the land and calls it \"a desolate country\" (The Innocents Abroad, 1869, ch. 56).\n1901: the Jewish National Fund (KKL-JNF) is founded to buy land and plant it.\nPlanted forest: 14 km² in 1901, 35 in 1942, about 600 in the early 1970s, over 1,000 by 2019 (KKL-JNF Forestry Facts and Figures, 2025).\n1964: the first trees go into Yatir, on the edge of the desert, with about 250 to 275 mm of rain a year. Today it is Israel's largest planted forest: 30,000 dunams and more than 4 million trees (KKL-JNF).\nIn total, KKL-JNF says it has planted more than 240 million trees.\n\nIt isn't spotless: some forests were planted over Arab villages emptied in 1948 and 1967 (Canada Park stands on Imwas, Yalu and Beit Nuba). And ecologists argue some of the desert should stay wild.\n\nPlant the desert, or leave it wild? Tell me below.\n\nSources: Mark Twain, The Innocents Abroad (1869); KKL-JNF Forestry Facts and Figures (2025); KKL-JNF Yatir Forest page; Haaretz and Zochrot on Canada Park.\nPhotos (Wikimedia Commons): Mark Twain, 1867: Abdullah Frères, public domain; Bethany hills, about 1870s: Félix Bonfils, Rijksmuseum, CC0; KKL planting, 1930s: Matson Collection, public domain; Yatir Forest: Okedem, CC BY-SA 3.0; Yatir Forest: Deror Avi, CC BY-SA 4.0. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "240 מיליון עצים. מי נטע אותם?\nב-1867 מארק טוויין קרא לארץ \"ארץ שוממה\". ב-1901 נוסדה קק\"ל כדי לקנות אדמה ולנטוע. היער הנטוע גדל מ-14 קמ\"ר ליותר מאלף.\nב-1964 ניטעו העצים הראשונים ביתיר, בשולי המדבר, עם 250 עד 275 מ\"מ גשם בשנה. היום זה היער הנטוע הגדול בישראל, עם יותר מ-4 מיליון עצים.\nזה לא בלי כתמים: חלק מהיערות ניטעו על כפרים ערביים שהתרוקנו ב-1948 וב-1967. ואקולוגים טוענים שחלק מהמדבר צריך להישאר פראי.\nלנטוע את המדבר או להשאיר אותו פראי? ספרו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#Trees",
+  "#IsraelFacts"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "240,000,000",
+  "text": "trees. Who|*planted* them?"
+ }
+}
