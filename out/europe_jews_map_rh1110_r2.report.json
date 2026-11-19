@@ -6,7 +6,7 @@
  "duration": 47.53,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -0.5
+  "true_peak": -0.6
  },
  "outputs": {
   "mp4": "out/europe_jews_map_rh1110_r2.mp4",
@@ -134,10 +134,10 @@
  },
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 168.1
+ "render_s": 124.3
 }
