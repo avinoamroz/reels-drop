@@ -407,7 +407,7 @@ document.addEventListener("visibilitychange",()=>{if(document.hidden)MUS.stop();
 const AUD=new Audio();let audOK=false,stopAt=0;
 if(AUDIO_SRC){AUD.preload="auto";AUD.src=AUDIO_SRC;AUD.addEventListener("canplaythrough",()=>audOK=true,{once:true});AUD.addEventListener("timeupdate",()=>{if(stopAt&&AUD.currentTime>=stopAt){AUD.pause();stopAt=0}})}
 function speak(it,force){if(S.mute&&!force)return;const cue=CUES[it.k];
-  if(cue){try{if(MUS.g&&AC){MUS.g.gain.cancelScheduledValues(AC.currentTime);MUS.g.gain.linearRampToValueAtTime(.15,AC.currentTime+.2);MUS.g.gain.linearRampToValueAtTime(.55,AC.currentTime+(cue[1]-cue[0])+1.2)}AUD.currentTime=cue[0];stopAt=cue[1];AUD.play()}catch(e){}return}
+  if(cue){try{if(MUS.g&&AC){MUS.g.gain.cancelScheduledValues(AC.currentTime);MUS.g.gain.linearRampToValueAtTime(.15,AC.currentTime+.2);MUS.g.gain.linearRampToValueAtTime(.55,AC.currentTime+(cue[1]-cue[0])+1.2)}AUD.currentTime=cue[0];stopAt=cue[1];const pp=AUD.play();if(pp&&pp.catch)pp.catch(()=>{})}catch(e){}return}
 }
 function setMute(){$("mute").innerHTML=S.mute?'<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="m16 9 6 6M22 9l-6 6"/></svg>':'<svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 5 6 9H3v6h3l5 4z" fill="currentColor"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/></svg>';$("mute").setAttribute("aria-label",S.mute?T.unmute:T.mutel)}
 
