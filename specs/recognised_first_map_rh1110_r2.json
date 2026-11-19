@@ -489,7 +489,7 @@
   ],
   "overlays": [
    {
-    "at": "L11",
+    "at": "L12",
     "until": "L13-0.1",
     "text": "Which one *surprised* you?",
     "y": 1010,
