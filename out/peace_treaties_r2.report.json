@@ -1,0 +1,181 @@
+{
+ "id": "peace_treaties_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Who gave back *3x*|its size?",
+ "duration": 73.6,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/peace_treaties_r2.mp4",
+  "cover": "covers/peace_treaties_r2_cover.jpg",
+  "preview": "previews/peace_treaties_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/peace_treaties_r2_0.jpg",
+  "1": "out/frames/peace_treaties_r2_1.jpg",
+  "3": "out/frames/peace_treaties_r2_3.jpg",
+  "last": "out/frames/peace_treaties_r2_last.jpg"
+ },
+ "caption_en": "Most people have never heard the end of this story. 🕊️\n\n1967: after the Six Day War, Israel holds the Sinai, about 61,000 km² (Britannica). Israel itself is 22,072 km² (Israel CBS). Almost 3x.\n19 Nov 1977: Egypt's President Anwar Sadat lands at Ben Gurion Airport, and speaks in the Knesset (US State Dept, FRUS).\n1979: peace treaty. Israel hands back the Sinai: the oil fields (about a quarter of Israel's oil, JTA 1979), the town of Yamit (evacuated and torn down, April 1982), and finally Taba (arbitration 1988, handed over March 1989).\n1981: Sadat is assassinated by enemies of the peace.\n1994: peace with Jordan, signed in the Arava. Israel hands back about 380 km² and sends 50 million m³ of water a year (treaty Annex II).\nSinai alone was almost 90% of the land Israel took in 1967 (Jewish Virtual Library).\n\nNot perfect: both are a cold peace. Only 5% in Egypt and in Jordan back normalization with Israel (Arab Barometer, Jan 2025). The West Bank and Gaza are still unresolved.\n\nLand for peace: was it worth it? Tell me below.\n\nSources: Britannica; Israel CBS; US State Dept FRUS 1977 to 1980 vol. VIII; JTA (1979); Taba award (1988); Israel Jordan treaty, Annex II (1994); The Moscow Times (1995); Jewish Virtual Library; Arab Barometer (2025).\nPhotos (Wikimedia Commons): Sadat and Begin, Jerusalem, Nov 1977: Israel GPO, CC BY-SA 3.0; Sadat, Carter, Begin, Camp David Accords, 1978: public domain; Yamit ruins, 1983: Evdpnl, CC BY-SA 4.0; Israel Jordan treaty signing, Arava, 1994: Tsvika Israeli, GPO, CC BY-SA 3.0. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "מי החזיר פי 3 מהגודל שלו?\nב-1967 ישראל מחזיקה בסיני, כ-61,000 קמ\"ר. ישראל עצמה: כ-22,000.\nב-19 בנובמבר 1977 נוחת סאדאת בנתב\"ג ונואם בכנסת. ב-1979 נחתם שלום, וישראל מחזירה את סיני: שדות הנפט, העיר ימית, ובסוף גם טאבה.\nסאדאת שילם על השלום בחייו, ב-1981. ב-1994 שלום עם ירדן: ישראל מחזירה כ-380 קמ\"ר ומעבירה 50 מיליון מ\"ק מים בשנה.\nלא מושלם: שלום קר, רק 5% במצרים ובירדן תומכים בנורמליזציה, והגדה ועזה עדיין לא פתורות.\nשטחים תמורת שלום: היה שווה? ספרו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#Egypt",
+  "#Jordan",
+  "#Peace"
+ ],
+ "sources": [
+  {
+   "label": "Britannica (Sinai); Israel CBS (Israel 22,072 km²)",
+   "year": 2024,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "US State Dept, FRUS 1977 to 1980, vol. VIII, doc. 152",
+   "year": 1977,
+   "at": "L3",
+   "until": "L5"
+  },
+  {
+   "label": "JTA, 26 Nov 1979 (Sinai oil)",
+   "year": 1979,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Yamit evacuated Apr 1982; Taba award 1988, handed over Mar 1989",
+   "year": 1989,
+   "at": "L7",
+   "until": "L9"
+  },
+  {
+   "label": "Israel Jordan treaty, Annex II; Moscow Times 1995",
+   "year": 1994,
+   "at": "L10",
+   "until": "L12"
+  },
+  {
+   "label": "Jewish Virtual Library (Sinai share of 1967 land)",
+   "year": 2024,
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "label": "Arab Barometer",
+   "year": 2025,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.98,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Which country gave back almost three times its own size?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1967. After the Six Day War, Israel holds the Sinai. 61,000 square kilometers.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel itself? About 22,000.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "November 1977. A plane lands at Ben Gurion airport. On board: Egypt's president, Anwar Sadat.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The next day, he speaks in the Knesset, Israel's parliament.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1979: peace. And Israel starts giving the Sinai back.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The oil fields, a quarter of Israel's oil.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yamit, a whole town, torn down in 1982.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Even tiny Taba, handed over in 1989.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Sadat paid for peace with his life. 1981.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1994: Jordan. Rabin and King Hussein sign in the Arava desert.",
+    "score": 0.882,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel hands back 380 square kilometers, and sends 50 million cubic meters of water a year.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In all, Sinai alone was almost 90 percent of the land Israel took in 1967.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not perfect. Both are a cold peace. Only 5 percent in Egypt and in Jordan back normalization. And the West Bank and Gaza are still unresolved.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Land for peace: was it worth it? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "One country did it. Almost three times its own size.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Which country gave back almost three times its own size? 1967. After the six-day war, Israel holds the Sinai. 61,000 square kilometers. Israel itself. About 22,000. November 1977. A plane lands at Ben Gurion Airport. On board, Egypt's president, Anwar Sadat. The next day, he speaks in the Knesset, Israel's parliament. 1979. Peace. and Israel starts giving the Sinai back. The oil fields, a quarter of Israel's oil, Yameet, a whole town torn down in 1982, even tiny Tabah handed over in 1989. Sadat paid for peace with his life. 1981. 1994. Jordan. Robin and King Hussein sign in the Arab desert. Israel hands back 380 square kilometers and sends 50 million cubic meters of water a year. In all, Sinai alone was almost 90% 50% of the land Israel took in 1967. Not perfect. Both are a cold peace. Only 5% in Egypt and in Jordan back normalization, and the West Bank and Gaza are still unresolved. Land for peace. Was it worth it? Tell me below. If you love Israeli facts, follow Noam Ross for more. One country did it. Almost three times its own size.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 72.11,
+ "opener": {
+  "style": "map_puzzle",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 249.9
+}
