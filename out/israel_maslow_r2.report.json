@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "framework",
  "hook": "*14* Nobels.|*56%* no safe room.",
- "duration": 49.77,
+ "duration": 50.2,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -0.6
+  "true_peak": -1.1
  },
  "outputs": {
   "mp4": "out/israel_maslow_r2.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.927,
+  "score": 0.947,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -126,9 +126,9 @@
     "flag": "MISS"
    },
    {
-    "line": "And the top. Fourteen Nobel prizes.",
-    "score": 0.5,
-    "flag": "MISS"
+    "line": "And at the very top: fourteen Nobel prizes.",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Six point eight percent of GDP on research. No rich country spends more.",
@@ -161,7 +161,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "14 Nobel Prizes and most homes have no safe room. Maslow's pyramid says that's impossible, basics first, dreams last. So let's climb Israel's pyramid. From the bottom, water. In a desert, 86% of drinking water comes from the sea. Next, safety. Every new home since 1993 must have a safe room, yet 56% of homes still don't have one. Belonging. Almost 3 kids per woman, the most in the OECD. Friday dinner is a crowd. Esteem? 4-year vision wins. important for national security. And the tie. 14 Nobel Prizes. 6.8% of GDP on research. No rich country spends more. Maslow said, fix the basics, then dream. Israel dream first. The result? The eight happiest countries on earth. Which level should Israel fix next? If you love Israeli facts, follow Bob Ross for more. So, how does one country have this?",
+  "heard": "14 Nobel Prizes, and most homes have no safe room. Maslow's pyramid says that's impossible, basics first, dreams last. So let's climb Israel's pyramid. From the bottom, water. In a desert, 86% of drinking water comes from the sea. Next, safety. Every new home since 1993 must have a safe room, yet 56% of homes still don't have one. Belonging. Almost 3 kids per woman, the most in the OECD. Friday dinner is a crowd. Esteem? 4-year vision wins. important for national security. And at the very top, 14 Nobel Prizes. 6.8% of GDP on research. No rich country spends more. Maslow said, fix the basics, then dream. Israel dream first. The result? The eight happiest countries on earth. Which level should Israel fix next? If you love Israeli facts, follow Noah Mraz for more. So, how does one country have this?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -170,10 +170,10 @@
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
- "voice": "cached voice (script unchanged)",
+ "voice": "pre-made voice file voice/israel_maslow_r2_vo_s1.wav",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "layout": "diamond",
  "photos": [
@@ -203,5 +203,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 257.3
+ "render_s": 224.0
 }
