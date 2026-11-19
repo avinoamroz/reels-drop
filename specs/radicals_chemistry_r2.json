@@ -79,23 +79,7 @@
   "label_at": "L3:one",
   "label_until": "L5",
   "zap_until": "L5",
-  "photos": [
-   {
-    "file": "templates/photos/radicals_chemistry/lab.jpg",
-    "at": 0.0,
-    "until": "L3-0.2",
-    "credit": "Photo: ElNokko, CC BY-SA 4.0",
-    "dim": 0.3,
-    "kb": [
-     0.6,
-     0.45,
-     1.0,
-     0.62,
-     0.5,
-     1.15
-    ]
-   }
-  ],
+  "photos": [],
   "stat": {
    "at": "L2:none",
    "until": "L2e+0.3",
@@ -295,5 +279,5 @@
   "bg": "scene",
   "text": "Every radical is|*1* electron *short*"
  },
- "sources_caption": "Sources: Lobo et al., Pharmacognosy Reviews (2010); Pew Research Center (Nov 2015); Times of Israel/AFP (Nov 2017); City of Aarhus; UK Foreign Office on the GCTF launch of the Abu Dhabi centre (Dec 2012); Marrakesh Declaration (Jan 2016); IMPACT-se review of Saudi textbooks (2023); Europol TE-SAT 2024.\nPhotos, Wikimedia Commons: ElNokko (CC BY-SA 4.0); B.alotaby (CC BY-SA 4.0); Ciara Ní Riain (CC BY-SA 4.0); Sabithnav (CC BY-SA 4.0); Najibelfatimi (CC BY-SA 4.0); John Liu (CC BY 2.0). AI voice, animation and synthesised music."
+ "sources_caption": "Sources: Lobo et al., Pharmacognosy Reviews (2010); Pew Research Center (Nov 2015); Times of Israel/AFP (Nov 2017); City of Aarhus; UK Foreign Office on the GCTF launch of the Abu Dhabi centre (Dec 2012); Marrakesh Declaration (Jan 2016); IMPACT-se review of Saudi textbooks (2023); Europol TE-SAT 2024.\nPhotos, Wikimedia Commons: B.alotaby (CC BY-SA 4.0); Ciara Ní Riain (CC BY-SA 4.0); Sabithnav (CC BY-SA 4.0); Najibelfatimi (CC BY-SA 4.0); John Liu (CC BY 2.0). AI voice, animation and synthesised music."
 }
