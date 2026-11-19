@@ -31,6 +31,12 @@
    "label": "UNODC via Our World in Data",
    "year": 2026,
    "at": "L1",
+   "until": "L3:latest"
+  },
+  {
+   "label": "UNODC via OWID; Israel 2024: Taub Center + CBS",
+   "year": 2025,
+   "at": "L3:latest",
    "until": "L6"
   },
   {
@@ -136,7 +142,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "0.8 or 10.5 Same country. Israel starts at 2.5 and mostly falls. By 2022, 1.6. Then it jumps. In 2024, the latest year, about 2.8. Turkey, 3.2. The United States, almost 6. Jordan, Saudi Arabia and Germany report about 1. Now, split Israel in 2. Jewish Israelis, under 1 per 100,000. Lower than Germany. Arab Israelis, 10.5. Almost double the United States. Arab Israelis are 14 times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens, caught between Arab crime organizations and smuggled guns. In 2025 was worse, 252 Arab citizens killed. A record. And the state is failing to protect them. Also, some governments undercount, and war deaths are not in these numbers. If you love Israeli facts, follow Noam Ross from war. Two numbers. One country.",
+  "heard": "0.8 or 10.5 Same country. Israel starts at 2.5 and mostly falls. By 2022, 1.6. Then it jumps. In 2024, the latest year, about 2.8. Turkey, 3.2. The United States, almost 6. Jordan, Saudi Arabia and Germany report about 1. Now, split Israel in 2. Jewish Israelis under 1 per 100,000. Lower than Germany. Arab Israelis, 10.5. Almost double the United States. Arab Israelis are 14 times more likely to be murdered. Most Arab and Jewish Israelis live in peace. Many of the victims are peaceful Arab citizens, caught between Arab crime organizations and smuggled guns. In 2025 was worse, 252 Arab citizens killed. A record. And the state is failing to protect them. Also, some governments undercount and war deaths are not in these numbers. If you love Israeli facts, follow Noam Ross from war. Two numbers. One country.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -146,5 +152,5 @@
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 82.5
+ "render_s": 111.4
 }
