@@ -1,0 +1,190 @@
+{
+ "id": "ikigai_nations_r2",
+ "account": "noamroz__",
+ "template": "ikigai",
+ "hook": "*Colonizer?* Israel fails|*4* of *4.*",
+ "duration": 74.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/ikigai_nations_r2.mp4",
+  "cover": "covers/ikigai_nations_r2_cover.jpg",
+  "preview": "previews/ikigai_nations_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/ikigai_nations_r2_0.jpg",
+  "1": "out/frames/ikigai_nations_r2_1.jpg",
+  "3": "out/frames/ikigai_nations_r2_3.jpg",
+  "last": "out/frames/ikigai_nations_r2_last.jpg"
+ },
+ "caption_en": "The word fails every circle. The answer was in the last one. 🌍\n\nEvery country has an ikigai: what it loves, what it's good at, what the world needs, and what it gets paid for.\n\nSome call Israel a colonizer. Test it: 0 of 4. Israel gave back Sinai to Egypt (peace treaty 1979, withdrawal 1982): about 60,000 km², almost three times Israel's 22,072 km² (Britannica; Israel CBS).\n\nThe neighbours, each with its own centre:\n🇸🇦 Saudi Arabia: energy. Oil is 73.1% of exports (GASTAT, 2024).\n🇦🇪 UAE: the world's stopover. Dubai International is No. 1 for international passengers, 95.2M in 2025 (ACI World).\n🇪🇬 Egypt: history and the Suez Canal. A record 15.7M tourists in 2024 (Ministry of Tourism).\n🇹🇷 Türkiye: making things. Record $262B of exports in 2024 (Trade Ministry).\n🇯🇴 Jordan: hospitality. Petra, one of the New 7 Wonders (2007), and $7.24B tourism income in 2024 (Central Bank of Jordan).\n\n🇮🇱 Israel: building things. R&D is 6.8% of GDP, the highest in the OECD, the Organisation for Economic Co-operation and Development (OECD MSTI, March 2026 release). High tech is 56.4% of exports (Israel Innovation Authority, 2024).\n\nA country is what it builds, not what it's called. What's your country's ikigai? Tell me in the comments.\n\nPhotos (Wikimedia Commons): B.alotaby (CC BY-SA 4.0); Chris Olszewski (CC BY-SA 4.0); Aah-Yeah (CC BY 2.0); SegLig (CC BY 4.0); Vyacheslav Argenberg (CC BY 4.0); Zvi Roger (CC BY 3.0). AI voice.",
+ "caption_he": "\"קולוניאליסטית\"? ישראל נכשלת ב־4 מתוך 4.\nלכל מדינה יש איקיגאי: מה היא אוהבת, במה היא טובה, מה העולם צריך, ועל מה משלמים לה. ישראל החזירה את סיני, כמעט פי שלושה מגודלה.\nלשכנות יש מרכז משלהן: סעודיה, אנרגיה (73% מהיצוא נפט). האמירויות, תחנת המעבר של העולם. מצרים, היסטוריה ותעלת סואץ. טורקיה, תעשייה. ירדן, הכנסת אורחים ופטרה.\nולישראל: 6.8% מהתוצר למחקר, הכי הרבה ב־OECD, וההייטק הוא 56% מהיצוא. האיקיגאי שלה: לבנות.\nמדינה היא מה שהיא בונה, לא איך שקוראים לה. מה האיקיגאי של המדינה שלכם?",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#ikigai"
+ ],
+ "sources": [
+  {
+   "label": "Sinai about 60,000 km² (Britannica), Israel 22,072 km² (Israel CBS)",
+   "year": 2024,
+   "at": "L4",
+   "until": "L5e"
+  },
+  {
+   "label": "Oil share of exports: Saudi GASTAT",
+   "year": 2024,
+   "at": "L8",
+   "until": "L8e+0.15"
+  },
+  {
+   "label": "No. 1 for international passengers: ACI World",
+   "year": 2025,
+   "at": "L9",
+   "until": "L9e+0.15"
+  },
+  {
+   "label": "Record tourists: Egypt Ministry of Tourism",
+   "year": 2024,
+   "at": "L10",
+   "until": "L10e+0.15"
+  },
+  {
+   "label": "Exports: Türkiye Trade Ministry",
+   "year": 2024,
+   "at": "L11",
+   "until": "L11e+0.15"
+  },
+  {
+   "label": "Tourism income $7.24B: Central Bank of Jordan; New7Wonders, 2007",
+   "year": 2024,
+   "at": "L12",
+   "until": "L12e+0.15"
+  },
+  {
+   "label": "R&D share of GDP: OECD MSTI, March 2026 release",
+   "year": 2024,
+   "at": "L13",
+   "until": "L13e+0.2"
+  },
+  {
+   "label": "High tech share of exports: Israel Innovation Authority",
+   "year": 2024,
+   "at": "L14",
+   "until": "L14e+0.15"
+  }
+ ],
+ "transcript": {
+  "score": 0.947,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Colonizer? Israel fails all four tests.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every country has an ikigai: what it loves, what it's good at, what the world needs, what pays.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So drop the word in.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Love it? Israelis can't agree on a government, never mind an empire.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Good at it? Israel gave back Sinai, almost three times its own size.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "World needs it? No. Paid for it? No.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Zero out of four. Not our ikigai.",
+    "score": 0.714,
+    "flag": "MISS"
+   },
+   {
+    "line": "So what does fit? Ask the neighbours.",
+    "score": 0.714,
+    "flag": "MISS"
+   },
+   {
+    "line": "Saudi Arabia: energy. Oil is seventy three percent of exports.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The UAE: the world's stopover. The busiest international airport on Earth.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt: history and the Suez Canal. A record fifteen point seven million tourists.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey: making things. Two hundred sixty two billion dollars of exports.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan: hospitality. Petra, a world wonder, and over seven billion dollars from tourism.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel? Research: six point eight percent of GDP, the highest in the OECD.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Tech: fifty six percent of exports. Israel's ikigai: building things.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "A country is what it builds, not what it's called. What's your country's ikigai?",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.6,
+    "flag": "MISS"
+   },
+   {
+    "line": "And the word they keep using?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Colonizer? Israel fails all four tests. Every country has an ikigai. What it loves, what it's good at, what the world needs, what pays. So, drop the word in. Love it? Israelis can't agree on a government. Never mind an empire. Good at it? Israel gave back Sinai almost three times its own size. World needs it? No. Paid for it? No. Zero out of four. Not are a good guy. So what is fit? Ask the neighbors. Saudi Arabia. Energy. Oil is 73% of exports. The UAE. The world's stopover. The busiest international airport on earth. Egypt. History and the Suez Canal. A record 15.7 million tourists. Turkey. Making things. 262 billion dollars of exports. Jordan. Hospitality. Petra. A world wonder. And over 7 billion dollars from tourism. And Israel. Research. 6.8% of GDP. The highest in the OECD. Tech. 56% of exports. Israel's IKEA guy. Building things. A country is what it builds, not what it's called. What's your country's IKEA guy? If you love Israeli facts, follow the operas from war. And the word they keep using.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "opener": {
+  "style": "globe_spin_whip",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 278.9
+}
