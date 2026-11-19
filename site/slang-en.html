@@ -392,6 +392,21 @@ const item=pos=>ITEMS[S.order[pos]];
 let AC=null;function ac(){try{AC=AC||new (window.AudioContext||window.webkitAudioContext)();if(AC.state==="suspended")AC.resume()}catch(e){}return AC}
 function ping(f,t0,d,vol,type){const c=ac();if(!c||S.mute)return;const o=c.createOscillator(),g=c.createGain(),lp=c.createBiquadFilter();lp.type="lowpass";lp.frequency.value=3200;o.type=type||"sine";o.frequency.value=f;const t=c.currentTime+t0;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol,t+.008);g.gain.exponentialRampToValueAtTime(.0001,t+d);o.connect(lp).connect(g).connect(c.destination);o.start(t);o.stop(t+d+.02)}
 const SFX={ok(){ping(1318.5,0,.35,.05);ping(1975.5,.07,.45,.035)},no(){ping(311,0,.18,.05,"triangle");ping(233,.09,.22,.04,"triangle")},step(){ping(2093,0,.06,.02)},win(){[1046.5,1318.5,1568,2093].forEach((f,k)=>ping(f,k*.09,.5,.035))}};
+/* background music: soft generative loop, Apple-like (warm pad + gentle bell notes), very quiet */
+const MUS={on:false,g:null,t:null,step:0,
+  chords:[[261.63,329.63,392,493.88],[220,261.63,329.63,392],[174.61,220,261.63,329.63],[196,246.94,293.66,392]],
+  start(){const c=ac();if(!c||this.on||S.mute)return;this.on=true;
+    this.g=c.createGain();this.g.gain.value=0;const lp=c.createBiquadFilter();lp.type="lowpass";lp.frequency.value=1800;
+    const dl=c.createDelay();dl.delayTime.value=.38;const fb=c.createGain();fb.gain.value=.28;dl.connect(fb).connect(dl);
+    this.g.connect(lp);lp.connect(c.destination);lp.connect(dl);dl.connect(c.destination);this.out=this.g;
+    this.g.gain.linearRampToValueAtTime(.55,c.currentTime+3);this.bar();this.t=setInterval(()=>this.bar(),4000)},
+  bar(){const c=AC;if(!c||!this.on)return;const ch=this.chords[this.step++%4],t=c.currentTime+.05;
+    ch.forEach(f=>{const o=c.createOscillator(),g=c.createGain();o.type="sine";o.frequency.value=f/2;o.detune.value=(Math.random()-.5)*8;
+      g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(.022,t+1.4);g.gain.linearRampToValueAtTime(.0001,t+4.3);o.connect(g).connect(this.out);o.start(t);o.stop(t+4.4)});
+    const notes=[ch[0]*2,ch[2]*2,ch[3]*2,ch[1]*2];for(let k=0;k<4;k++){if(Math.random()<.3)continue;const o=c.createOscillator(),g=c.createGain(),tt=t+k*1+Math.random()*.08;
+      o.type="triangle";o.frequency.value=notes[(k+this.step)%4];g.gain.setValueAtTime(0,tt);g.gain.linearRampToValueAtTime(.012,tt+.01);g.gain.exponentialRampToValueAtTime(.0001,tt+1.6);o.connect(g).connect(this.out);o.start(tt);o.stop(tt+1.7)}},
+  stop(){if(!this.on)return;this.on=false;clearInterval(this.t);try{this.g.gain.linearRampToValueAtTime(0,AC.currentTime+.6)}catch(e){}}};
+document.addEventListener("visibilitychange",()=>{if(document.hidden)MUS.stop();else if(!S.mute&&!$("sStart").hidden===false)MUS.start()});
 /* voice: Noam's recorded voice, one file, played by segment; falls back to the browser voice */
 const AUD=new Audio();let audOK=false,stopAt=0;
 if(AUDIO_SRC){AUD.preload="auto";AUD.src=AUDIO_SRC;AUD.addEventListener("canplaythrough",()=>audOK=true,{once:true});AUD.addEventListener("timeupdate",()=>{if(stopAt&&AUD.currentTime>=stopAt){AUD.pause();stopAt=0}})}
@@ -496,7 +511,7 @@ function finish(){
   $("eBook").href=BOOK;
 }
 function toast(t){const d=document.createElement("div");d.className="toast";d.textContent=t;$("eesg").appendChild(d);setTimeout(()=>d.remove(),2400)}
-$("go").onclick=()=>{ac();if(S.res.length>=TOTAL)return finish();show("sGame");renderQ()};
+$("go").onclick=()=>{ac();MUS.start();if(S.res.length>=TOTAL)return finish();show("sGame");renderQ()};
 $("reset").onclick=()=>{const m=S.mute;S=fresh();S.mute=m;save();renderStart()};
 $("again").onclick=()=>{const m=S.mute;S=fresh();S.mute=m;save();show("sGame");renderQ()};
 $("next").onclick=()=>{$("saveCard").hidden=true;next()};
@@ -513,7 +528,7 @@ $("saveF").onsubmit=async e=>{e.preventDefault();const n=$("fName").value.trim()
   if(!$("sGame").hidden&&$("reveal").hidden)renderQ();renderRoad(false);renderStart()};
 $("mNext").onclick=()=>{SFX.step();show("sGame");renderQ()};
 $("say").onclick=()=>speak(cur,true);
-$("mute").onclick=()=>{S.mute=!S.mute;save();setMute();if(S.mute){try{AUD.pause()}catch(e){}}};
+$("mute").onclick=()=>{S.mute=!S.mute;save();setMute();if(S.mute){MUS.stop();try{AUD.pause()}catch(e){}}else MUS.start()};
 $("share").onclick=()=>{const ok=S.res.filter(Boolean).length,t=T.shareTxt.replace("{n}",ok).replace("{t}",TOTAL);
   if(navigator.clipboard)navigator.clipboard.writeText(t).then(()=>toast(T.copied)).catch(()=>toast(t));else toast(t)};
 window.addEventListener("resize",()=>{if(!$("sGame").hidden)renderRoad(false)});
