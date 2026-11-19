@@ -1,0 +1,143 @@
+{
+ "id": "europe_jews_map_rh1110_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Where did Europe's|*Jews* go?",
+ "duration": 47.53,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -0.5
+ },
+ "outputs": {
+  "mp4": "out/europe_jews_map_rh1110_r2.mp4",
+  "cover": "covers/europe_jews_map_rh1110_r2_cover.jpg",
+  "preview": "previews/europe_jews_map_rh1110_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/europe_jews_map_rh1110_r2_0.jpg",
+  "1": "out/frames/europe_jews_map_rh1110_r2_1.jpg",
+  "3": "out/frames/europe_jews_map_rh1110_r2_3.jpg",
+  "last": "out/frames/europe_jews_map_rh1110_r2_last.jpg"
+ },
+ "caption_en": "Every grey dot on this map is 10,000 people who never went anywhere.\n\nWhere did Europe's Jews go? 🕯️\n\n1933: about 9.5 million Jews lived in Europe. 1950: about 3.5 million.\nPoland: over 3,000,000 to about 45,000. Germany: 525,000 to 37,000. Hungary: 445,000 to 190,000. Romania: nearly 757,000 (1930) to about 280,000. Czechoslovakia: 357,000 to 17,000. Austria: 191,000 to 18,000. Greece: 73,000 to 7,000. Yugoslavia: 70,000 to 3,500. Bulgaria: 50,000 to 6,500. Italy: 48,000 to 35,000. France: 250,000 to 235,000. Britain: 300,000 to about 450,000. The Soviet Union (European part 2,525,000 in 1933) still had some 2 million Jews in 1950.\nAbout 136,000 Jewish displaced persons settled in Israel, and over 80,000 in the United States by 1952.\nSix million Jews were murdered in the Holocaust.\n\n1 dot = 10,000 people, 13 countries, rounded. Dots are placed at each country's centre, not where people lived. The Soviet Union's 1950 dots are the whole Soviet Union.\n\nSources: United States Holocaust Memorial Museum (USHMM), Holocaust Encyclopedia: \"Jewish Population of Europe in 1933\", \"Remaining Jewish Population of Europe in 1945\", \"Displaced Persons\", based on the American Jewish Year Book. Photos: Warsaw 1934, Willem van de Poll, Nationaal Archief (CC0); the Great Synagogue of Warsaw, before 1939 (PD, destroyed 1943); the Exodus at Haifa, 1947, Fritz Cohen, GPO (PD). Map: Natural Earth (PD). Made with AI tools, AI voice (Noam's cloned voice), follow line in Noam's own voice.",
+ "caption_he": "לאן נעלמו יהודי אירופה? ב 1933 חיו באירופה כ 9.5 מיליון יהודים. ב 1950 נותרו כ 3.5 מיליון. בפולין: משלושה מיליון לכ 45 אלף. כ 136 אלף ניצולים בנו את חייהם מחדש בישראל, ויותר מ 80 אלף בארצות הברית. הנקודות האפורות לא הלכו לשום מקום: שישה מיליון יהודים נרצחו בשואה.",
+ "hashtags": [
+  "#Holocaust",
+  "#JewishHistory",
+  "#NeverForget"
+ ],
+ "sources": [
+  {
+   "label": "USHMM Holocaust Encyclopedia (American Jewish Year Book)",
+   "year": 2026,
+   "at": "L1",
+   "until": "L10"
+  },
+  {
+   "label": "USHMM, Displaced Persons (by 1952)",
+   "year": 2026,
+   "at": "L10",
+   "until": "L12"
+  },
+  {
+   "label": "USHMM Holocaust Encyclopedia",
+   "year": 2026,
+   "at": "L13",
+   "until": "END"
+  }
+ ],
+ "transcript": {
+  "score": 0.918,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Where did Europe's Jews go?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1933. Nine and a half million Jews live in Europe.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every dot is ten thousand people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Poland, three million. The Soviet Union, two and a half. Then Romania, Germany, Hungary.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Tailors, students, rabbis, grandparents. Whole streets.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the Nazis take power. Then the war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now watch the dots.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1950. Three and a half million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Poland: from three million, to forty five thousand.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Greece, Czechoslovakia, Yugoslavia: over nine in ten, gone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Some survived and left. About one hundred thirty six thousand rebuilt their lives in Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Over eighty thousand in the United States.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.0,
+    "flag": "MISS"
+   },
+   {
+    "line": "And the grey dots? They never went anywhere. Six million Jews were murdered in the Holocaust.",
+    "score": 0.938,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Where did Europe's Jews go? 1933. Nine and a half million Jews live in Europe. Every dot is 10,000 people. Poland? 3 million. The Soviet Union? Two and a half. Then Romania, Germany, Hungary. Tailors, students, rabbis, grandparents, whole streets. Then the Nazis take power. Then the war. Now watch the dots. 1950. Three and a half million. Poland from 3 million to 45,000. Greece, Czechoslovakia, Yugoslavia, over 9 in 10, gone. Some survived and left. About 136,000 rebuilt their lives in Israel, over 80,000 in the United States, and the great dots? They never went anywhere. 6 million Jews were murdered in the Holocaust.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 46.35,
+ "opener": {
+  "style": "globe_unpeel",
+  "opener_s": 2.4,
+  "narration_starts": 1.2
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 168.1
+}
