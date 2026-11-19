@@ -20,7 +20,8 @@
    "say": "Many countries have two cities. One runs it, one has the fun. How far apart are they?",
    "screen": "One *runs* it. One has the *fun.*",
    "at": "L1:one",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L2-0.1"
   },
   {
    "say": "Saudi Arabia: Riyadh rules, Jeddah has the sea. Eight hundred forty five kilometres.",
@@ -42,13 +43,15 @@
    "say": "Washington, Canberra, Ankara: all picked to be capitals.",
    "screen": "Picked to be capitals: *1790, 1908, 1923*",
    "at": "L6:washington",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L7-0.1"
   },
   {
    "say": "Jerusalem was a capital three thousand years ago. Tel Aviv was founded on the sand in nineteen oh nine.",
    "screen": "Jerusalem: a capital *3,000* years ago",
    "at": "L7",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L8-0.1"
   },
   {
    "say": "Fifty five kilometres apart. The closest pair so far.",
@@ -58,7 +61,8 @@
    "say": "Only Egypt is closer. In twenty twenty four it moved its government to a brand new city, fifty kilometres from Cairo.",
    "screen": "Egypt: a *new* capital, since 2024",
    "at": "L9:in",
-   "gap": 0.12
+   "gap": 0.12,
+   "until": "L10-0.1"
   },
   {
    "say": "So Israelis say: Jerusalem prays, Tel Aviv plays.",
@@ -482,10 +486,10 @@
     "draw": 0.7,
     "label": "55 km",
     "label_at": [
-     35.0075,
-     32.0488
+     35.25,
+     32.0
     ],
-    "label_dy": -40
+    "label_dy": 0
    },
    {
     "at": "L13",
@@ -506,10 +510,10 @@
     "draw": 0.7,
     "label": "55 km",
     "label_at": [
-     35.0075,
-     32.0488
+     35.25,
+     32.0
     ],
-    "label_dy": -40
+    "label_dy": 0
    },
    {
     "at": "L2+0.45",
@@ -674,10 +678,10 @@
     "draw": 0.6,
     "label": "55 km",
     "label_at": [
-     35.0075,
-     32.0488
+     35.25,
+     32.0
     ],
-    "label_dy": -40
+    "label_dy": 0
    },
    {
     "at": "L9:fifty",
@@ -709,7 +713,7 @@
     "at": "L8:closest",
     "until": "L10-0.1",
     "title": "Capital to *fun city*, km",
-    "y": 560,
+    "y": 700,
     "rows": [
      {
       "label": "Egypt (new)",
