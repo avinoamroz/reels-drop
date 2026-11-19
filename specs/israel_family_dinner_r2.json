@@ -1,0 +1,405 @@
+{
+ "id": "israel_family_dinner_r2",
+ "account": "noamroz__",
+ "template": "framework",
+ "hook": "*5* elections. Still|*8th* happiest?",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.05,
+  "lead": 0.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Five elections in under four years. And still the eighth happiest country?",
+   "gap": 0.2
+  },
+  {
+   "say": "To get it, picture Israel as one family dinner. Ten million seats.",
+   "screen": "Israel: *one* family dinner",
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "say": "Dad has opinions. So does everyone. Five elections, from April twenty nineteen to November twenty twenty two."
+  },
+  {
+   "say": "Mom? Almost three kids per woman. The rich country average is one and a half."
+  },
+  {
+   "say": "So the kids are everywhere. One Israeli in three is under eighteen."
+  },
+  {
+   "say": "And Grandma isn't going anywhere. Israeli women live to almost eighty six."
+  },
+  {
+   "say": "Now the clue. The kids at this loud table are the third happiest young people on Earth."
+  },
+  {
+   "say": "Maybe that's the secret. A loud table is a full table."
+  },
+  {
+   "say": "Crowded, nobody agrees, everybody shows up. The eighth happiest family on Earth."
+  },
+  {
+   "say": "Which seat is yours at this table?",
+   "screen": "Which seat is *yours?*",
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "say": "So how is a family this loud this happy?"
+  }
+ ],
+ "data": {
+  "layout": "diamond",
+  "band": {
+   "y0": 170,
+   "y1": 540
+  },
+  "fact_y": 1395,
+  "src_y": 1545,
+  "subs_y": 1665,
+  "draw": {
+   "at": 0.15,
+   "dur": 1.25
+  },
+  "nodes": [
+   {
+    "id": "table",
+    "label": "Friday dinner|10M+ seats",
+    "icon": "🍽️",
+    "x": 540,
+    "y": 915,
+    "w": 520
+   },
+   {
+    "id": "grandma",
+    "label": "Grandma|the elder",
+    "icon": "👵",
+    "x": 275,
+    "y": 680,
+    "w": 450
+   },
+   {
+    "id": "mom",
+    "label": "Mom|the boss",
+    "icon": "👩",
+    "x": 805,
+    "y": 680,
+    "w": 450
+   },
+   {
+    "id": "dad",
+    "label": "Dad|the opinions",
+    "icon": "👨",
+    "x": 275,
+    "y": 1150,
+    "w": 450
+   },
+   {
+    "id": "kids",
+    "label": "The kids|everywhere",
+    "icon": "🧒",
+    "x": 805,
+    "y": 1150,
+    "w": 450
+   }
+  ],
+  "edges": [
+   [
+    "table",
+    "grandma"
+   ],
+   [
+    "table",
+    "mom"
+   ],
+   [
+    "table",
+    "dad"
+   ],
+   [
+    "table",
+    "kids"
+   ]
+  ],
+  "focus": [
+   {
+    "target": "table",
+    "at": "L1",
+    "until": "L2"
+   },
+   {
+    "target": "dad",
+    "at": "L2",
+    "until": "L3"
+   },
+   {
+    "target": "mom",
+    "at": "L3",
+    "until": "L4"
+   },
+   {
+    "target": "kids",
+    "at": "L4",
+    "until": "L5"
+   },
+   {
+    "target": "grandma",
+    "at": "L5",
+    "until": "L6"
+   },
+   {
+    "target": "kids",
+    "at": "L6",
+    "until": "L7"
+   },
+   {
+    "target": "table",
+    "at": "L7",
+    "until": "L9"
+   }
+  ],
+  "chips": [
+   {
+    "node": "dad",
+    "text": "5 elections",
+    "at": "L2:five"
+   },
+   {
+    "node": "mom",
+    "text": "2.9 kids",
+    "at": "L3:almost"
+   },
+   {
+    "node": "kids",
+    "text": "1 in 3",
+    "at": "L4:one"
+   },
+   {
+    "node": "grandma",
+    "text": "85.7 years",
+    "at": "L5:almost"
+   },
+   {
+    "node": "kids",
+    "text": "#3 happiest",
+    "at": "L6:third",
+    "dy": -98
+   },
+   {
+    "node": "table",
+    "text": "#8 on Earth",
+    "at": "L8:eighth"
+   }
+  ],
+  "facts": [
+   {
+    "at": "L2:five",
+    "until": "L3",
+    "count": {
+     "from": 0,
+     "to": 5
+    },
+    "text": "elections in under 4 years"
+   },
+   {
+    "at": "L3:almost",
+    "until": "L4",
+    "count": {
+     "from": 0,
+     "to": 2.9,
+     "dec": 1
+    },
+    "text": "kids per woman: OECD average 1.5"
+   },
+   {
+    "at": "L4:one",
+    "until": "L5",
+    "count": {
+     "from": 0,
+     "to": 31.7,
+     "dec": 1,
+     "suffix": "%"
+    },
+    "text": "of Israelis are under 18"
+   },
+   {
+    "at": "L5:almost",
+    "until": "L6",
+    "count": {
+     "from": 0,
+     "to": 85.7,
+     "dec": 1
+    },
+    "text": "years, Israeli women's lifespan"
+   },
+   {
+    "at": "L6:third",
+    "until": "L7",
+    "count": {
+     "from": 1,
+     "to": 3,
+     "prefix": "#"
+    },
+    "text": "happiest under 25s in the world"
+   },
+   {
+    "at": "L8:eighth",
+    "until": "L9",
+    "count": {
+     "from": 1,
+     "to": 8,
+     "prefix": "#"
+    },
+    "text": "happiest country on Earth"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/israel_family_dinner/table.jpg",
+    "at": "L1",
+    "until": "L2",
+    "credit": "Crzrussian, CC BY-SA 3.0, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/israel_family_dinner/knesset.jpg",
+    "at": "L2",
+    "until": "L3",
+    "credit": "IPPA, CC BY 4.0, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/israel_family_dinner/jlm.jpg",
+    "at": "L5",
+    "until": "L6",
+    "credit": "MathKnight and Zachi Evenor, CC BY-SA 4.0, Wikimedia Commons",
+    "kb": [
+     0.3,
+     0.5,
+     1.0,
+     0.7,
+     0.5,
+     1.0
+    ]
+   },
+   {
+    "file": "templates/photos/israel_family_dinner/beach.jpg",
+    "at": "L6",
+    "until": "L7",
+    "credit": "Dan Harrelson, CC BY 2.0, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.55,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/israel_family_dinner/tlvair.jpg",
+    "at": "L8",
+    "until": "L9",
+    "credit": "Yong Woo Park, CC BY 4.0, Wikimedia Commons",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.6,
+     0.5,
+     1.1
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Knesset election results",
+   "year": 2022,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "OECD 2024; Israel CBS 2.88 for 2025",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Israel CBS, end of 2024",
+   "year": 2025,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Israel CBS, women's life expectancy 2023",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "World Happiness Report, under 25s, via JNS",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "World Happiness Report",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Nobody agrees. Everybody *shows up.*",
+  "cta": "Follow *@noamroz__*"
+ },
+ "caption_en": "The loudest table in the world has a secret. 🍽️\n\n👨 Dad: opinions. 5 Knesset elections between April 2019 and November 2022.\n👩 Mom: 2.9 children per woman, the highest in the OECD, the Organisation for Economic Co-operation and Development, where the average is about 1.5 (OECD Society at a Glance 2024; CBS: 2.88 in 2025).\n🧒 The kids: one in three Israelis (31.7%) is under 18 (CBS, end of 2024).\n👵 Grandma: Israeli women live to 85.7 on average (Israel CBS, 2023 data, published 2026).\n🧒 And the young ones: Israel's under 25s rank 3rd happiest in the world (World Happiness Report 2026, via JNS).\n🍽️ The whole table: 8th happiest country on Earth (World Happiness Report 2026).\n\nCrowded, nobody agrees, everybody shows up.\n\nWhich seat is yours at this table? Tell me in the comments.\n\nPhotos (Wikimedia Commons): Crzrussian (CC BY-SA 3.0); IPPA (CC BY 4.0); MathKnight and Zachi Evenor (CC BY-SA 4.0); Dan Harrelson (CC BY 2.0); Yong Woo Park (CC BY 4.0). AI voice.",
+ "caption_he": "5 בחירות בפחות מארבע שנים. ועדיין המקום השמיני בעולם באושר?\nדמיינו את ישראל כארוחת שישי אחת, עשרה מיליון כיסאות.\nאבא: דעות. 5 מערכות בחירות. אמא: 2.9 ילדים לאישה, כשהממוצע ב־OECD הוא 1.5. הילדים: אחד מכל שלושה ישראלים מתחת לגיל 18. סבתא: נשים בישראל חיות בממוצע עד 85.7.\nוהילדים בשולחן הרועש הזה? הצעירים השלישיים הכי מאושרים בעולם.\nאף אחד לא מסכים. כולם מגיעים. איזה כיסא שלכם?",
+ "hashtags": [
+  "#Israel",
+  "#family",
+  "#psychology"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "5 elections",
+  "text": "Still *8th* happiest?|How?"
+ },
+ "opener": {
+  "style": "globe_spin_night",
+  "cam": [
+   35.0,
+   31.5,
+   7.0
+  ]
+ }
+}
