@@ -23,6 +23,10 @@
    "screen": "Arab citizens: *21%* of Israel"
   },
   {
+   "say": "So what share of Israel's health jobs do they hold? Start at the pharmacy.",
+   "screen": "Start at the *pharmacy*"
+  },
+  {
    "say": "Behind the pharmacy counter, in twenty ten: twenty eight percent. By twenty twenty three: forty nine.",
    "screen": "Pharmacists: *28%* to *49%*"
   },
@@ -41,6 +45,10 @@
   {
    "say": "Of all new doctors licensed since twenty ten: thirty eight percent.",
    "screen": "New doctors since 2010"
+  },
+  {
+   "say": "That's the next generation of Israeli medicine.",
+   "screen": "The *next generation*"
   },
   {
    "say": "Some call Israel apartheid. This is a test almost nobody runs."
@@ -83,7 +91,7 @@
    },
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
-    "at": "L2",
+    "at": "L3",
     "credit": "Israel Preker, PikiWiki, CC BY 2.5",
     "kb": [
      0.4,
@@ -96,7 +104,7 @@
    },
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
-    "at": "L3",
+    "at": "L4",
     "credit": "Davidi Vardi, PikiWiki, CC BY 2.5",
     "kb": [
      0.55,
@@ -109,7 +117,7 @@
    },
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_soroka.jpg",
-    "at": "L4",
+    "at": "L5",
     "credit": "Omer Berner, CC BY-SA 4.0",
     "kb": [
      0.5,
@@ -122,7 +130,7 @@
    },
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_taumed.jpg",
-    "at": "L6",
+    "at": "L7",
     "credit": "Israel Zeller, PikiWiki, CC BY 2.5",
     "kb": [
      0.35,
@@ -135,7 +143,7 @@
    },
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_hadassah.jpg",
-    "at": "L7",
+    "at": "L9",
     "credit": "Davidi Vardi, PikiWiki, CC BY 2.5",
     "kb": [
      0.55,
@@ -149,7 +157,7 @@
    },
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_alkamal.jpg",
-    "at": "L9",
+    "at": "L11",
     "credit": "Israel Preker, PikiWiki, CC BY 2.5",
     "kb": [
      0.45,
@@ -162,7 +170,7 @@
    },
    {
     "file": "templates/photos/arab_doctors_face15_r2/bI_ad_superpharm.jpg",
-    "at": "L11",
+    "at": "L13",
     "credit": "Rakoon, CC0, Commons",
     "kb": [
      0.5,
@@ -177,7 +185,7 @@
   "big": [
    {
     "at": "L1:twenty",
-    "until": "L2-0.1",
+    "until": "L3-0.1",
     "value": 21,
     "from": 0,
     "suffix": "%",
@@ -185,8 +193,8 @@
     "y": 1000
    },
    {
-    "at": "L2:forty",
-    "until": "L3-0.1",
+    "at": "L3:forty",
+    "until": "L4-0.1",
     "value": 49,
     "from": 28,
     "suffix": "%",
@@ -194,8 +202,8 @@
     "y": 1000
    },
    {
-    "at": "L4:eight",
-    "until": "L5-0.1",
+    "at": "L5:eight",
+    "until": "L6-0.1",
     "value": 8,
     "from": 0,
     "suffix": "%",
@@ -203,8 +211,8 @@
     "y": 1000
    },
    {
-    "at": "L5:twenty#3",
-    "until": "L6-0.1",
+    "at": "L6:twenty#3",
+    "until": "L7-0.1",
     "value": 25,
     "from": 8,
     "suffix": "%",
@@ -212,8 +220,8 @@
     "y": 1000
    },
    {
-    "at": "L6:thirty",
-    "until": "L7-0.1",
+    "at": "L7:thirty",
+    "until": "L9-0.1",
     "value": 38,
     "from": 0,
     "suffix": "%",
@@ -223,8 +231,8 @@
   ],
   "math": [
    {
-    "at": "L7:test",
-    "until": "L8-0.1",
+    "at": "L9:test",
+    "until": "L10-0.1",
     "title": "Arab citizens of Israel",
     "rows": [
      "Population: 21%",
@@ -241,11 +249,11 @@
    "label": "Rosen and Miaari, Israel Journal of Health Policy Research",
    "year": 2025,
    "at": "L1",
-   "until": "L8"
+   "until": "L10"
   }
  ],
  "end": {
-  "at": "L8",
+  "at": "L10",
   "balance": "Real gaps *remain.* Equality isn't finished.",
   "cta": "Look at the *name tag*"
  },
