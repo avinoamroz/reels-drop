@@ -2,7 +2,7 @@
  "id": "promenades_world_r2",
  "account": "noamroz__",
  "template": "map_counter",
- "hook": "*14 km.* Who beats|*Tel Aviv?*",
+ "hook": "*14* km. Who beats|*Tel Aviv?*",
  "music": {
   "bed": "bounce",
   "lufs": -16
@@ -42,7 +42,7 @@
    "say": "Tel Aviv, fourteen. Double everyone so far."
   },
   {
-   "say": "And busy: eight and a half million beach visits a year. Only Venice Beach claims more."
+   "say": "It's busy too: eight and a half million beach visits a year. Only Venice Beach claims more."
   },
   {
    "say": "So is Tel Aviv the champion? Not quite. One seafront is longer."
@@ -76,7 +76,7 @@
    32.06,
    2.6
   ],
-  "hook_y": 930,
+  "hook_y": 1330,
   "cams": [
    {
     "at": 0.15,
