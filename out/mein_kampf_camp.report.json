@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "camp_story",
  "hook": "Hitler was bad at *English.*",
- "duration": 40.5,
+ "duration": 43.27,
  "audio": {
-  "lufs": -16.2,
-  "true_peak": -2.1
+  "lufs": -16.1,
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/mein_kampf_camp.mp4",
@@ -104,18 +104,18 @@
     "flag": "ok"
    }
   ],
-  "heard": "As a kid, Adolf wasn't very social, he found it hard to connect. When he went to a summer camp, the kid said, welcome to our camp. He said, no, mine camp. They said, okay, you can join, you just have to share. He said, nine, my camp, my camp, mine camp. Potato-potato, right? He never got it, he had issues with possessives. Also with possessions. Honestly, he was a bit possessed. Later we realized it wasn't only his English, he was really struggling. Which is why he called his book, Main Kampf. My struggle. The struggle was real, maybe because...",
+  "heard": "As a kid, Adolf wasn't very social. He found it hard to connect. When he went to a summer camp, the kid said, welcome to our camp. He said, no, mine camp. They said, okay, you can join. You just have to share. He said, nine, my camp. My camp, mine camp. Potato Catato, right? He never got it. He had issues with possessives. Also with possessions. Honestly, he was a bit possessed. Later we realized it wasn't only his English. He was really struggling. Which is why he called his book, Menkomf. My struggle. The struggle was real, maybe because.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.2,
-  "true_peak": -2.1
+  "lufs": -16.1,
+  "true_peak": -2.0
  },
  "keep": null,
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 72.4
+ "render_s": 64.6
 }
