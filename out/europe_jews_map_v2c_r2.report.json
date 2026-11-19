@@ -53,13 +53,13 @@
   }
  ],
  "transcript": {
-  "score": 0.908,
+  "score": 0.888,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Nine and a half million Jews lived in Europe in nineteen thirty three. Now count again.",
-    "score": 0.75,
-    "flag": "MISS"
+    "score": 0.938,
+    "flag": "ok"
    },
    {
     "line": "Warsaw: over three hundred and fifty thousand Jews. About thirty percent of the city.",
@@ -83,8 +83,8 @@
    },
    {
     "line": "By nineteen fifty, Europe's count: three and a half million.",
-    "score": 0.7,
-    "flag": "MISS"
+    "score": 0.9,
+    "flag": "ok"
    },
    {
     "line": "Poland: from about three million, to forty five thousand.",
@@ -108,8 +108,8 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
-    "flag": "ok"
+    "score": 0.1,
+    "flag": "MISS"
    },
    {
     "line": "The Soviet Union still had about two million. But most of the missing never went anywhere.",
@@ -122,7 +122,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "9.5 million Jews lived in Europe in 1933. Now count again. Warsaw? Over 350,000 Jews. About 30% of the city, markets, schools, newspapers, theaters, and this. The Great Synagogue on Klamakie Street. In 1943, the Nazis blew it up. Today it survives as a model. By 1950, Europe's count 3.5 million, Poland. From about 3 million to 45,000, Germany. From over half a million to 37,000, survivors waited in displaced persons camps, some for years. About 136,000 went to Israel. Over 80,000 to the United States. If you love Israeli facts, follow Noam Ross for more. The Soviet Union still had about 2 million. But most of the missing never went anywhere. 6 million Jews were murdered in the Holocaust, out of 9.5 million.",
+  "heard": "Nine and a half million Jews lived in Europe in 1933. Now count again, Warsaw? Over 350,000 Jews. About 30% of the city, markets, schools, newspapers, theaters, and this. The great synagogue on Klamakki Street, in 1943, the Nazis blew it up. Today it survives as a model. By 1950, Europe's count three and a half million, Poland. From about 3 million to 45,000, Germany, from over half a million to 37,000, survivors waited in displaced persons camps, some for years. About 136,000 went to Israel, over 80,000 to the United States. The Soviet Union still had about 2 million, but most of the missing never went anywhere. 6 million Jews were murdered in the Holocaust, out of 9.5 million.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -134,41 +134,41 @@
  "photos": [
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
-   "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use"
+   "credit": "Commons, copyrighted free use"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_warsaw34.jpg",
-   "credit": "Jewish quarter, Warsaw, 1934: Willem van de Poll, CC0, Nationaal Archief"
+   "credit": "W. van de Poll, 1934, CC0"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
-   "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use"
+   "credit": "Commons, copyrighted free use"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_model.jpg",
-   "credit": "Model, POLIN Museum: DaringDonna, CC BY-SA 4.0, Commons"
+   "credit": "DaringDonna, CC BY-SA 4.0"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_warsaw34.jpg",
-   "credit": "Jewish quarter, Warsaw, 1934: Willem van de Poll, CC0, Nationaal Archief"
+   "credit": "W. van de Poll, 1934, CC0"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_dp13.jpg",
-   "credit": "Barletta DP camp, 1947: Shalom Strassberg, CC BY-SA 3.0, Commons"
+   "credit": "S. Strassberg, 1947, CC BY-SA 3.0"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_exodus47.jpg",
-   "credit": "Exodus 1947, Haifa: Hans Pinn, GPO, public domain"
+   "credit": "Hans Pinn, GPO, public domain"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_dp2.jpg",
-   "credit": "Barletta DP camp, 1947: Shalom Strassberg, CC BY-SA 3.0, Commons"
+   "credit": "S. Strassberg, 1947, CC BY-SA 3.0"
   },
   {
    "file": "templates/photos/europe_jews_map_v2c_r2/bI_ej_tlomackie.jpg",
-   "credit": "Great Synagogue, Warsaw, before 1939: Commons, copyrighted free use"
+   "credit": "Commons, copyrighted free use"
   }
  ],
  "lint_warnings": [],
- "render_s": 155.7
+ "render_s": 162.2
 }
