@@ -120,7 +120,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Who recognized Israel first? May 14, 1948 In Tel Aviv, Israel's leaders signed the Declaration of Independence. At midnight in Tel Aviv, six in the evening in Washington, the new state is born. Eleven minutes later, President Truman recognizes it. The United States is first. In practice, not yet in law. Three days later, the Soviet Union gives the first full legal recognition. Then the clock speeds up. By the end of 1948, 17 countries. The 1950-47, 1979, Egypt, the first Arab country, the 90s, 40 more, including China and Jordan, 2020, the UAE, Bahrain, and Morocco, today 169 of the other 192 United Nations members. Recognizing isn't agreeing, many of them still criticize Israel. The first took 11 minutes, 23 still haven't, 78 years later.",
+  "heard": "Who recognized Israel first? May 14, 1948 In Tel Aviv, Israel's leaders signed the Declaration of Independence. At midnight in Tel Aviv, 6 in the evening in Washington, the new state is born. Eleven minutes later, President Truman recognizes it. United States is first. In practice, not yet in law. Three days later, the Soviet Union gives the first full legal recognition. Then the clock speeds up. By the end of 1948, 17 countries. The 1950-47, 1979, Egypt, the first Arab country, the 90s, 40 more, including China and Jordan, 2020, the UAE, Bahrain, and Morocco, today 169 of the other 192 United Nations members. Recognizing isn't agreeing, many of them still criticize Israel. The first took 11 minutes, 23 still haven't, 78 years later.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -138,5 +138,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 268.3
+ "render_s": 268.0
 }
