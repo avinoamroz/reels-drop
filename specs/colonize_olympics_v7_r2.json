@@ -1,0 +1,432 @@
+{
+ "id": "colonize_olympics_v7_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Who grabbed *24%*|of Earth?",
+ "opener": {
+  "style": "globe_spin_fast"
+ },
+ "music": {
+  "bed": "bounce",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.12
+ },
+ "lines": [
+  {
+   "say": "One empire once ruled almost a quarter of the land on Earth.",
+   "gap": 0.15
+  },
+  {
+   "say": "Welcome to the Colonization Olympics. The event: who grabbed the most of the planet.",
+   "screen": "Event: *most of the planet*"
+  },
+  {
+   "say": "Gold: the British Empire. Twenty three point eight percent.",
+   "screen": "*Gold:* British Empire"
+  },
+  {
+   "say": "Silver: the Mongols. Sixteen.",
+   "screen": "*Silver:* the Mongols"
+  },
+  {
+   "say": "Bronze: the Russian Empire. Fifteen.",
+   "screen": "*Bronze:* Russian Empire"
+  },
+  {
+   "say": "Then Spain, nine. France, almost eight. The Ottomans, three and a half.",
+   "screen": "Spain. France. *Ottomans.*"
+  },
+  {
+   "say": "And the country the internet calls a colonizer?",
+   "screen": "And the *colonizer?*"
+  },
+  {
+   "say": "Israel. Even with the West Bank and Gaza: zero point zero two percent.",
+   "screen": "Israel, with West Bank and Gaza"
+  },
+  {
+   "say": "It didn't even qualify. So it entered a different event.",
+   "screen": "Different event: *inventions*"
+  },
+  {
+   "say": "Drip irrigation. A camera you swallow. Cars that see the road.",
+   "screen": "Netafim. *PillCam.* Mobileye."
+  },
+  {
+   "say": "Israel's borders are still argued over, and that debate is real."
+  },
+  {
+   "say": "But on the conquest scoreboard? Not even on the podium."
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "screen_icon": "🔽",
+   "gap": 0.12
+  },
+  {
+   "say": "Because one empire once ruled almost a quarter of the Earth.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   30.0,
+   32.0,
+   200.0
+  ],
+  "hook_y": 760,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     40.0,
+     38.0,
+     220.0,
+     700
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     35.0,
+     31.6,
+     9.0,
+     700
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L8:different",
+    "view": [
+     40.0,
+     38.0,
+     220.0,
+     700
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L13-0.2",
+    "view": [
+     30.0,
+     32.0,
+     200.0,
+     960
+    ],
+    "dur": 1.0
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L2:british",
+    "until": "L7-0.2",
+    "code": "GBR"
+   },
+   {
+    "at": "L3:mongols",
+    "until": "L7-0.2",
+    "code": "MNG"
+   },
+   {
+    "at": "L4:russian",
+    "until": "L7-0.2",
+    "code": "RUS"
+   },
+   {
+    "at": "L5:spain",
+    "until": "L7-0.2",
+    "code": "ESP"
+   },
+   {
+    "at": "L5:france",
+    "until": "L7-0.2",
+    "code": "FRA"
+   },
+   {
+    "at": "L5:ottomans",
+    "until": "L7-0.2",
+    "code": "TUR"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L7",
+    "until": "L8-0.2",
+    "lon": 35.0,
+    "lat": 31.6,
+    "label": "Israel",
+    "color": "yellow"
+   }
+  ],
+  "bars": [
+   {
+    "at": "L2:twenty-0.3",
+    "until": "L7-0.2",
+    "title": "Share of Earth's land at peak",
+    "y": 1020,
+    "vmax": 25,
+    "rows": [
+     {
+      "label": "British Empire",
+      "flag": "GB",
+      "value": 23.8,
+      "txt": "23.8%",
+      "at": "L2:twenty"
+     },
+     {
+      "label": "Mongols",
+      "flag": "MN",
+      "value": 16.1,
+      "txt": "16.1%",
+      "at": "L3:sixteen"
+     },
+     {
+      "label": "Russian Empire",
+      "flag": "RU",
+      "value": 15.3,
+      "txt": "15.3%",
+      "at": "L4:fifteen"
+     },
+     {
+      "label": "Spain",
+      "flag": "ES",
+      "value": 9.2,
+      "txt": "9.2%",
+      "at": "L5:nine"
+     },
+     {
+      "label": "France",
+      "flag": "FR",
+      "value": 7.7,
+      "txt": "7.7%",
+      "at": "L5:eight"
+     },
+     {
+      "label": "Ottomans",
+      "flag": "TR",
+      "value": 3.5,
+      "txt": "3.5%",
+      "at": "L5:half"
+     }
+    ]
+   },
+   {
+    "at": "L8:different",
+    "until": "L10-0.2",
+    "title": "Share of Earth's land at peak",
+    "y": 1020,
+    "vmax": 25,
+    "rows": [
+     {
+      "label": "British Empire",
+      "flag": "GB",
+      "value": 23.8,
+      "txt": "23.8%",
+      "at": "L8:different"
+     },
+     {
+      "label": "Mongols",
+      "flag": "MN",
+      "value": 16.1,
+      "txt": "16.1%",
+      "at": "L8:different"
+     },
+     {
+      "label": "Russian Empire",
+      "flag": "RU",
+      "value": 15.3,
+      "txt": "15.3%",
+      "at": "L8:different"
+     },
+     {
+      "label": "Spain",
+      "flag": "ES",
+      "value": 9.2,
+      "txt": "9.2%",
+      "at": "L8:different"
+     },
+     {
+      "label": "France",
+      "flag": "FR",
+      "value": 7.7,
+      "txt": "7.7%",
+      "at": "L8:different"
+     },
+     {
+      "label": "Ottomans",
+      "flag": "TR",
+      "value": 3.5,
+      "txt": "3.5%",
+      "at": "L8:different"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0.02,
+      "txt": "0.02%",
+      "at": "L8:different",
+      "hl": true
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L7:zero",
+    "until": "L8:different-0.1",
+    "value": 0.02,
+    "from": 23.8,
+    "suffix": "%",
+    "dec": 2,
+    "sub": "Israel + West Bank + Gaza",
+    "y": 1100
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/colonizer_tax/ctx_eih1.jpg",
+    "at": "L2",
+    "until": "L2:twenty-0.35",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "dim": 0.25,
+    "credit": "East India House, London, c. 1800, CC0, Commons"
+   },
+   {
+    "file": "templates/photos/colonizer_tax/ctx_ott1.jpg",
+    "at": "L5:ottomans",
+    "until": "L6-0.1",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.25,
+    "credit": "Canercangul, CC BY-SA 4.0, Commons"
+   },
+   {
+    "file": "templates/photos/hate_the_jews/drip2.jpg",
+    "at": "L9",
+    "until": "L9:camera",
+    "kb": [
+     0.42,
+     0.5,
+     1.0,
+     0.45,
+     0.45,
+     1.25
+    ],
+    "dim": 0.2,
+    "credit": "Drip irrigation: Alan.ca, public domain"
+   },
+   {
+    "file": "templates/photos/hate_the_jews/pill.jpg",
+    "at": "L9:camera",
+    "until": "L9:cars",
+    "kb": [
+     0.42,
+     0.42,
+     1.0,
+     0.4,
+     0.42,
+     1.25
+    ],
+    "dim": 0.2,
+    "credit": "Capsule camera: public domain, Commons"
+   },
+   {
+    "file": "templates/photos/hate_the_jews/mobileye.jpg",
+    "at": "L9:cars",
+    "until": "L9e",
+    "kb": [
+     0.62,
+     0.55,
+     1.0,
+     0.66,
+     0.55,
+     1.25
+    ],
+    "dim": 0.2,
+    "credit": "Mobileye: U.S. Embassy Tel Aviv, CC BY 2.0"
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L11",
+    "until": "L12-0.1",
+    "text": "Your call: what's the *fairest* scoreboard?",
+    "y": 520,
+    "size": 52
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.4"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "tail": 0.5
+ },
+ "sources": [
+  {
+   "label": "Taagepera via Wikipedia, List of largest empires",
+   "year": 2026,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Israel + WB + Gaza about 28,000 km2 of 148.9M: our maths",
+   "year": 2024,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Netafim 1965; Given Imaging FDA 2001; Mobileye 1999",
+   "year": 2001,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Israel's borders are argued over. *Fair.* But colonizer?",
+  "cta": "Save this for the *next argument*"
+ },
+ "caption_en": "The last row on this scoreboard is the one nobody checks. 🏅 (satire)\n\nThe Colonization Olympics. Event: who grabbed the most of the planet. Share of the world's land at each empire's peak:\n🥇 British Empire 23.8%\n🥈 Mongols 16.1%\n🥉 Russian Empire 15.3%\nSpain 9.2%\nFrance 7.7%\nOttomans 3.5%\nIsrael, even with the West Bank and Gaza: 0.02%\n\nSo Israel entered a different event: drip irrigation (Netafim, 1965), a camera you swallow (PillCam, FDA 2001), cars that see the road (Mobileye, Jerusalem, 1999).\n\nIsrael's borders are still argued over, and that debate is real. But on the conquest scoreboard, it isn't even on the podium.\n\nYour call: what's the fairest scoreboard?",
+ "caption_he": "אולימפיאדת הקולוניזציה 🏅 (סאטירה)\nהאירוע: מי תפס הכי הרבה מכדור הארץ. אחוז מהיבשה בעולם בשיא של כל אימפריה:\n🥇 האימפריה הבריטית 23.8%\n🥈 המונגולים 16.1%\n🥉 האימפריה הרוסית 15.3%\nספרד 9.2%, צרפת 7.7%, העות׳מאנים 3.5%\nישראל, גם עם יהודה ושומרון ועזה: 0.02%\nאז ישראל נכנסה לאירוע אחר: טפטוף (נטפים, 1965), מצלמה שבולעים (PillCam), מכוניות שרואות את הכביש (מובילאיי).\nהגבולות של ישראל עדיין שנויים במחלוקת, והוויכוח הזה אמיתי. אבל בטבלת הכיבושים? היא אפילו לא על הפודיום.\n\nSources: Taagepera, empire sizes at peak, via Wikipedia \"List of largest empires\" (world land 148.9M km2); Israel CBS and CIA World Factbook (Israel, West Bank, Gaza about 28,000 km2; share is our calculation); Netafim (founded 1965, Kibbutz Hatzerim); Given Imaging, FDA clearance 2001; Mobileye (founded Jerusalem, 1999).\nPhotos, Wikimedia Commons: East India House c. 1800 (CC0); Canercangul (CC BY-SA 4.0); Alan.ca (public domain); capsule camera (public domain); U.S. Embassy Tel Aviv (CC BY 2.0). AI voice.",
+ "hashtags": [
+  "#Israel",
+  "#history",
+  "#satire"
+ ],
+ "cover": {
+  "t": 20.0,
+  "big": "0.02%",
+  "text": "Colonization Olympics:|Israel's *score*"
+ }
+}
