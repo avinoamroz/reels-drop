@@ -1,0 +1,176 @@
+{
+ "id": "israel_iran_v2_r2",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*2* Iranians hugged me.|*Why?*",
+ "duration": 63.1,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.2
+ },
+ "outputs": {
+  "mp4": "out/israel_iran_v2_r2.mp4",
+  "cover": "covers/israel_iran_v2_r2_cover.jpg",
+  "preview": "previews/israel_iran_v2_r2_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_iran_v2_r2_0.jpg",
+  "1": "out/frames/israel_iran_v2_r2_1.jpg",
+  "3": "out/frames/israel_iran_v2_r2_3.jpg",
+  "last": "out/frames/israel_iran_v2_r2_last.jpg"
+ },
+ "caption_en": "The day it happens, I'll fly El Al to Tehran. 🇮🇱🇮🇷\n\nVienna, 2016, a debate competition. Two Iranian guys sat next to me. When they heard I'm from Israel, they said \"Wow, I love Israel\" and hugged me. My father's family is from Shiraz, and I grew up sure that Iranians hate us. It's the regime that does.\n\nOur bond is about 2,500 years old: Cyrus let the Jews go home and rebuild the Temple (Book of Ezra 1). Iran recognised Israel de facto in March 1950, and until 1979 El Al flew Tel Aviv to Tehran (JTA). Then the new regime cut ties. It pays Hezbollah about $700 million a year (US State Dept, 2018) and arms HAMAS. In June 2025 it fired about 550 ballistic missiles at Israel (IDF).\n\nIranians ask for free elections, political prisoners freed, women free to choose, an open internet. Research on 1900 to 2006 campaigns found nonviolent ones succeeded about twice as often as violent ones (Chenoweth and Stephan, 2011).\n\nCan they win it peacefully? Tell me what you think.\n\nSources: Book of Ezra 1 (about 538 BCE); JTA (2015); US State Dept, N. Sales (Nov 2018); IDF via Times of Israel (June 2025); UN Fact-Finding Mission on Iran (2024); Chenoweth and Stephan, Why Civil Resistance Works (2011).\nPhotos (Wikimedia Commons): Nasir al-Mulk Mosque, Shiraz: Laurens R. Krol, CC BY 4.0; Cyrus Cylinder: Mike Peel, CC BY-SA 4.0; El Al Boeing 707 4X-ATA, museum: Dmitry Avdeev, CC BY-SA 3.0; Protest graffiti, Iran: Hosseinronaghi, CC BY 4.0. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_he": "שני איראנים חיבקו אותי. הנה למה.\nב-2016, בתחרות דיבייט בווינה, שני איראנים ישבו לידי. כששמעו שאני מישראל, אמרו \"וואו, אני אוהב את ישראל\" וחיבקו אותי. המשפחה של אבא שלי משיראז, וגדלתי בטוח שאיראנים שונאים אותנו. השלטון שונא אותנו.\nעד 1979 אל על טסה מתל אביב לטהרן. אז המשטר ניתק את הקשר, מממן את חיזבאללה ומחמש את חמאס. ביוני 2025 שוגרו כ-550 טילים בליסטיים לישראל.\nהאיראנים מבקשים בחירות חופשיות, שחרור אסירים פוליטיים, חופש לנשים ואינטרנט פתוח. האם הם יכולים לנצח בדרכי שלום? ספרו לי מה אתם חושבים.",
+ "hashtags": [
+  "#Israel",
+  "#Iran",
+  "#WomanLifeFreedom"
+ ],
+ "sources": [
+  {
+   "label": "Noam's own story, Vienna",
+   "year": 2016,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Shiraz to Tel Aviv, straight line",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Book of Ezra 1",
+   "year": "about 538 BCE",
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Iran recognition 6 Mar 1950; El Al Tehran (JTA)",
+   "year": 2015,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "US State Dept, N. Sales",
+   "year": 2018,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "IDF via Times of Israel",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "UN Fact-Finding Mission on Iran",
+   "year": 2024,
+   "at": "L10",
+   "until": "L12"
+  },
+  {
+   "label": "Chenoweth and Stephan, Why Civil Resistance Works",
+   "year": 2011,
+   "at": "L12",
+   "until": "L13"
+  }
+ ],
+ "transcript": {
+  "score": 0.965,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Two Iranians hugged me. Here's why.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Vienna, 2016. A debate competition. Two Iranian guys sit next to me.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They hear I'm from Israel. They say, wow, I love Israel. And they hug me.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "I was shocked. My father's family is from Shiraz.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "I grew up sure that Iranians hate us. It's the regime that does.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Our bond is 2,500 years old. Cyrus let the Jews go home and rebuild the Temple.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1950: Iran recognises Israel. Until 1979, El Al flies from Tel Aviv to Tehran.",
+    "score": 0.96,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the new regime cuts the line.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It pays Hezbollah about 700 million dollars a year, and arms <<h|ɑ|ˈ|m|ɑ|s>>.",
+    "score": 0.733,
+    "flag": "MISS"
+   },
+   {
+    "line": "June 2025: about 550 ballistic missiles fired at Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Iran's people? They chant: Woman, life, freedom.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They ask for free elections, prisoners freed, women free to choose, an open internet.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Can they win it peacefully? Tell me what you think.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you love Israeli facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "The day they do, El Al flies to Tehran again. And maybe two Iranians hug me again.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Two Iranians hugged me. Here's why. Vienna? 2016. A debate competition. Two Iranian guys sit next to me. They hear I'm from Israel. They say, wow, I love Israel. And they hug me. I was shocked. My father's family is from Shiraz. I grew up sure that Iranians hate us. It's the regime that does. Our bond is 2,500 years old. Cyrus let the Jews go home and rebuild the temple. 1950. Iran recognizes Israel. Until 1979, El Al flies from Tel Aviv to Tehran. Then the new regime cuts the line. It pays Hezbollah about $700 million a year and arms Hamas. June 2025. About 550 ballistic missiles fired at Israel and Iran's people, they chant. Woman, life, freedom. They ask for free elections, prisoners freed, women free to choose, and open internet. Can they win it peacefully? Tell me what you think. If you love Israeli facts, follow Noam Ross for more. The day they do, El Al flies to Tehran again. And maybe two Iranians hug me again.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 61.59,
+ "opener": {
+  "style": "globe_spin_whip",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 265.6
+}
