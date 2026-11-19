@@ -1,9 +1,1 @@
-dj_orig druze_jethro.mp4 ^\W*(live|lives|lived|living|leave|lib)\W*$
-dj_A voice/druze_jethro_v2_fixA.wav ^\W*(live|living|leave|lib|liv)\W*$
-dj_B voice/druze_jethro_v2_fixB.wav ^\W*(live|living|leave|lib|liv)\W*$
-dj_orig_cut phon/dj_orig_cut.wav WHOLE
-dj_A_cut phon/dj_A_cut.wav WHOLE
-dj_B_cut phon/dj_B_cut.wav WHOLE
-dj_orig_ctx phon/dj_orig_ctx.wav WHOLE
-dj_A_ctx phon/dj_A_ctx.wav WHOLE
-dj_B_ctx phon/dj_B_ctx.wav WHOLE
+dj_v2final druze_jethro_v2.mp4 ^\W*(live|lives|lived|living|leave)\W*$
