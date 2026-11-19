@@ -40,7 +40,8 @@
   },
   {
    "say": "It takes thirty one years to climb back.",
-   "screen": "*31* years to climb back"
+   "screen": "*31* years to climb back",
+   "until": "L7"
   },
   {
    "say": "Today, about thirty four thousand dollars."
@@ -57,14 +58,16 @@
   },
   {
    "say": "Since 1962, it never falls more than fifteen percent.",
-   "screen": "Since 1962: never down more than *15%*"
+   "screen": "Since 1962: never down more than *15%*",
+   "until": "L12"
   },
   {
    "say": "Today, sixty thousand dollars."
   },
   {
    "say": "Stock A grew the most. But what a ride.",
-   "screen": "A grew most. C ends *highest.*"
+   "screen": "A grew most. C ends *highest.*",
+   "until": "L13"
   },
   {
    "say": "The reveal. Stock A is Saudi Arabia, the oil stock."
@@ -502,10 +505,10 @@
   ],
   "end_until": "L16",
   "hook_y": 300,
-  "title_y": 1440,
-  "src_y": 1545,
-  "subs_y": 1660,
-  "credit_y": 1770
+  "title_y": 1420,
+  "src_y": 1765,
+  "subs_y": 1640,
+  "credit_y": 1830
  },
  "sources": [
   {
