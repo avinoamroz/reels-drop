@@ -38,7 +38,7 @@
    "screen": "Morocco, Iran, *Kurdistan*"
   },
   {
-   "say": "Bukhara. India.",
+   "say": "Bukhara, in Uzbekistan. India.",
    "screen": "Bukhara, *India*"
   },
   {
@@ -386,7 +386,7 @@
     "label": "homelands counted",
     "at": "L1",
     "until": "L7-0.1",
-    "y": 1250,
+    "y": 1330,
     "of": 9,
     "steps": [
      {
@@ -434,7 +434,6 @@
     "until": "L10-0.1",
     "y": 620,
     "vmax": 48,
-    "title": "Israel's Jews, Pew 2016",
     "rows": [
      {
       "label": "Mizrahi or Sephardi",
@@ -445,7 +444,8 @@
      {
       "label": "Ashkenazi",
       "value": 45,
-      "txt": "45%"
+      "txt": "45%",
+      "color": "#45A4DD"
      }
     ]
    }
@@ -458,6 +458,12 @@
     "from": 0,
     "sub": "Israelis of Ethiopian origin",
     "y": 1200
+   }
+  ],
+  "dim": [
+   {
+    "at": "L7",
+    "until": "L13"
    }
   ],
   "photos": [
@@ -588,14 +594,6 @@
     "y": 1420,
     "size": 72,
     "cue": true
-   },
-   {
-    "at": "L7",
-    "until": "L10",
-    "text": "Save this map",
-    "y": 640,
-    "size": 48,
-    "pill": "#45A4DD"
    }
   ]
  },
@@ -631,10 +629,6 @@
    "until": "L10"
   }
  ],
- "end": {
-  "at": "L10",
-  "balance": "Not a skin color. *A people.*"
- },
  "subs_replace": {},
  "hashtags": [
   "#Israel",

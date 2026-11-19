@@ -22,55 +22,35 @@
    "gap": 0.2
   },
   {
-   "say": "1967. After the Six Day War, Israel holds the Sinai. 61,000 square kilometers.",
+   "say": "1967. After the Six Day War, Israel holds the Sinai. 61,000 square kilometers. Almost three times Israel.",
    "screen": "Sinai: *61,000* km²"
   },
   {
-   "say": "Israel itself? About 22,000.",
-   "screen": "Almost *3x* Israel"
+   "say": "November 1977. Egypt's president, Anwar Sadat, lands in Israel and speaks in the Knesset.",
+   "screen": "*19 Nov 1977:* Sadat in Israel"
   },
   {
-   "say": "November 1977. A plane lands at Ben Gurion airport. On board: Egypt's president, Anwar Sadat.",
-   "screen": "*19 Nov 1977:* Sadat lands"
-  },
-  {
-   "say": "The next day, he speaks in the Knesset, Israel's parliament.",
-   "screen": "An enemy leader, in the *Knesset*"
-  },
-  {
-   "say": "1979: peace. And Israel starts giving the Sinai back.",
+   "say": "1979: peace. And Israel gives the Sinai back.",
    "screen": "*1979:* peace treaty"
   },
   {
-   "say": "The oil fields, a quarter of Israel's oil.",
-   "screen": "*1/4* of Israel's oil"
-  },
-  {
-   "say": "Yamit, a whole town, torn down in 1982.",
-   "screen": "Yamit, *1982*"
-  },
-  {
-   "say": "Even tiny Taba, handed over in 1989.",
-   "screen": "Taba, *1989*"
+   "say": "The oil fields. Yamit, a whole town, torn down. Even tiny Taba, by 1989.",
+   "screen": "Oil fields, Yamit, *Taba*"
   },
   {
    "say": "Sadat paid for peace with his life. 1981.",
    "screen": "Sadat, killed *1981*"
   },
   {
-   "say": "1994: Jordan. Rabin and King Hussein sign in the Arava desert.",
+   "say": "1994: Jordan. Israel hands back 380 square kilometers, and sends 50 million cubic meters of water a year.",
    "screen": "*1994:* peace with Jordan"
   },
   {
-   "say": "Israel hands back 380 square kilometers, and sends 50 million cubic meters of water a year.",
-   "screen": "*50 million* m³ of water a year"
-  },
-  {
-   "say": "In all, Sinai alone was almost 90 percent of the land Israel took in 1967.",
+   "say": "Sinai alone was almost 90 percent of the land Israel took in 1967.",
    "screen": "*~90%* of the 1967 land"
   },
   {
-   "say": "Not perfect. Both are a cold peace. Only 5 percent in Egypt and in Jordan back normalization. And the West Bank and Gaza are still unresolved.",
+   "say": "It's a cold peace. Only 5 percent in Egypt and in Jordan back normalization. And the West Bank and Gaza are unresolved.",
    "screen": "A *cold* peace"
   },
   {
@@ -97,42 +77,42 @@
   "title_y": 300,
   "cams": [
    {
-    "at": "L3-0.2",
+    "at": "L2-0.2",
     "view": [
      34.8,
      31.6,
-     4.0,
-     950
+     6.0,
+     1000
     ],
     "dur": 1.1
    },
    {
-    "at": "L5-0.2",
+    "at": "L3-0.2",
     "view": [
      33.8,
      29.6,
-     7.5,
-     950
+     8.0,
+     1000
     ],
     "dur": 1.1
    },
    {
-    "at": "L10-0.2",
+    "at": "L6-0.2",
     "view": [
      35.4,
      31.0,
-     6.0,
-     950
+     7.0,
+     1000
     ],
     "dur": 1.1
    },
    {
-    "at": "L12-0.2",
+    "at": "L7-0.2",
     "view": [
      34.0,
      30.0,
      9.0,
-     950
+     1000
     ],
     "dur": 1.0
    }
@@ -140,7 +120,7 @@
   "zones": [
    {
     "at": "L1",
-    "until": "L5:back",
+    "until": "L3:back",
     "poly": [
      [
       32.32,
@@ -200,8 +180,8 @@
     ]
    },
    {
-    "at": "L5:back",
-    "until": "L13",
+    "at": "L3:back",
+    "until": "L8",
     "poly": [
      [
       32.32,
@@ -263,8 +243,8 @@
   ],
   "bars": [
    {
-    "at": "L2",
-    "until": "L3-0.1",
+    "at": "L1:almost",
+    "until": "L2-0.1",
     "y": 640,
     "vmax": 61000,
     "rows": [
@@ -279,28 +259,7 @@
       "flag": "IL",
       "value": 22072,
       "txt": "22,072 km²",
-      "at": "L2:itself"
-     }
-    ]
-   },
-   {
-    "at": "L12+0.3",
-    "until": "L13-0.1",
-    "y": 640,
-    "vmax": 47,
-    "title": "Years of peace",
-    "rows": [
-     {
-      "label": "Egypt, since 1979",
-      "flag": "EG",
-      "value": 47,
-      "txt": "47 yrs"
-     },
-     {
-      "label": "Jordan, since 1994",
-      "flag": "JO",
-      "value": 32,
-      "txt": "32 yrs"
+      "color": "#45A4DD"
      }
     ]
    }
@@ -308,36 +267,36 @@
   "counter": [
    {
     "label": "km² returned to Egypt",
-    "at": "L5",
-    "until": "L9-0.1",
-    "y": 1250,
+    "at": "L3:back",
+    "until": "L5-0.1",
+    "y": 1330,
     "steps": [
      {
-      "at": "L5:back",
+      "at": "L3:back",
       "value": 0
      },
      {
-      "at": "L6e",
+      "at": "L4:oil",
       "value": 16000
      },
      {
-      "at": "L7e",
+      "at": "L4:yamit",
       "value": 47998
      },
      {
-      "at": "L8:taba",
+      "at": "L4:taba",
       "value": 61000
      }
     ]
    },
    {
     "label": "km² returned to Jordan",
-    "at": "L11",
-    "until": "L12-0.1",
-    "y": 1250,
+    "at": "L6:hands",
+    "until": "L7-0.1",
+    "y": 1330,
     "steps": [
      {
-      "at": "L11:380",
+      "at": "L6:380",
       "value": 380
      }
     ]
@@ -345,32 +304,32 @@
   ],
   "pins": [
    {
-    "at": "L6",
-    "until": "L9",
+    "at": "L4:oil",
+    "until": "L5",
     "lon": 33.15,
     "lat": 28.9,
     "label": "Oil fields",
     "color": "yellow"
    },
    {
-    "at": "L7",
-    "until": "L9",
+    "at": "L4:yamit",
+    "until": "L5",
     "lon": 34.18,
     "lat": 31.22,
     "label": "Yamit",
     "color": "red"
    },
    {
-    "at": "L8",
-    "until": "L9e",
+    "at": "L4:taba",
+    "until": "L5e",
     "lon": 34.89,
     "lat": 29.49,
     "label": "Taba",
     "color": "yellow"
    },
    {
-    "at": "L10",
-    "until": "L12",
+    "at": "L6",
+    "until": "L7",
     "lon": 35.2,
     "lat": 30.55,
     "label": "Arava crossing",
@@ -379,8 +338,8 @@
   ],
   "routes": [
    {
-    "at": "L11:sends",
-    "until": "L12",
+    "at": "L6:sends",
+    "until": "L7",
     "path": [
      [
       35.57,
@@ -406,8 +365,8 @@
   ],
   "big": [
    {
-    "at": "L12",
-    "until": "L12e+0.2",
+    "at": "L7",
+    "until": "L7e+0.2",
     "value": 90,
     "from": 0,
     "prefix": "~",
@@ -416,11 +375,17 @@
     "y": 1200
    }
   ],
+  "dim": [
+   {
+    "at": "L7",
+    "until": "L10"
+   }
+  ],
   "photos": [
    {
     "file": "templates/photos/peace_treaties_r2/sadatbegin.jpg",
-    "at": "L3:on",
-    "until": "L4e",
+    "at": "L2:anwar",
+    "until": "L2e+0.1",
     "credit": "Sadat and Begin, Jerusalem, Nov 1977: Israel GPO, CC BY-SA 3.0",
     "kb": [
      0.5,
@@ -433,8 +398,8 @@
    },
    {
     "file": "templates/photos/peace_treaties_r2/campdavid.jpg",
-    "at": "L5",
-    "until": "L5:back",
+    "at": "L3",
+    "until": "L3:back",
     "credit": "Sadat, Carter, Begin, Camp David Accords, 1978: public domain",
     "kb": [
      0.5,
@@ -447,8 +412,8 @@
    },
    {
     "file": "templates/photos/peace_treaties_r2/yamit.jpg",
-    "at": "L7",
-    "until": "L7e",
+    "at": "L4:yamit",
+    "until": "L4:even",
     "credit": "Yamit ruins, 1983: Evdpnl, CC BY-SA 4.0",
     "kb": [
      0.5,
@@ -461,8 +426,8 @@
    },
    {
     "file": "templates/photos/peace_treaties_r2/arava.jpg",
-    "at": "L10:rabin",
-    "until": "L10e+0.1",
+    "at": "L6:jordan",
+    "until": "L6:hands",
     "credit": "Israel Jordan treaty signing, Arava, 1994: Tsvika Israeli, GPO, CC BY-SA 3.0",
     "kb": [
      0.5,
@@ -496,8 +461,8 @@
   },
   "overlays": [
    {
-    "at": "L15",
-    "until": "L15e+0.1",
+    "at": "L10",
+    "until": "L10e+0.1",
     "text": "Like Israel facts?|Follow *@noamroz__*",
     "y": 1420,
     "size": 72,
@@ -510,47 +475,41 @@
    "label": "Britannica (Sinai); Israel CBS (Israel 22,072 km²)",
    "year": 2024,
    "at": "L1",
-   "until": "L3"
+   "until": "L2"
   },
   {
    "label": "US State Dept, FRUS 1977 to 1980, vol. VIII, doc. 152",
    "year": 1977,
-   "at": "L3",
-   "until": "L5"
+   "at": "L2",
+   "until": "L3"
   },
   {
-   "label": "JTA, 26 Nov 1979 (Sinai oil)",
-   "year": 1979,
-   "at": "L6",
-   "until": "L7"
-  },
-  {
-   "label": "Yamit evacuated Apr 1982; Taba award 1988, handed over Mar 1989",
+   "label": "JTA 1979 (oil); Yamit Apr 1982; Taba handed over Mar 1989",
    "year": 1989,
-   "at": "L7",
-   "until": "L9"
+   "at": "L4",
+   "until": "L5"
   },
   {
    "label": "Israel Jordan treaty, Annex II; Moscow Times 1995",
    "year": 1994,
-   "at": "L10",
-   "until": "L12"
+   "at": "L6",
+   "until": "L7"
   },
   {
    "label": "Jewish Virtual Library (Sinai share of 1967 land)",
    "year": 2024,
-   "at": "L12",
-   "until": "L13"
+   "at": "L7",
+   "until": "L8"
   },
   {
    "label": "Arab Barometer",
    "year": 2025,
-   "at": "L13",
-   "until": "L14"
+   "at": "L8",
+   "until": "L9"
   }
  ],
  "end": {
-  "at": "L13",
+  "at": "L8",
   "balance": "A *cold* peace. Still peace."
  },
  "subs_replace": {},
@@ -561,7 +520,7 @@
   "#Peace"
  ],
  "cover": {
-  "t": 16.0,
+  "t": 9.0,
   "big": "3x",
   "text": "Who gave back|*its own size?*"
  },

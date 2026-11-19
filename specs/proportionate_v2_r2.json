@@ -38,11 +38,11 @@
    "screen": "Not a *body count* contest"
   },
   {
-   "say": "So what do city battles look like? Look at other armies.",
+   "say": "Now, city battles fought by other armies.",
    "screen": "City battles, *other armies*"
   },
   {
-   "say": "Dresden, 1945. Up to 25,000 people killed in a few days of bombing.",
+   "say": "Dresden, 1945. Up to 25,000 people killed.",
    "screen": "Dresden, *1945*"
   },
   {
@@ -63,7 +63,7 @@
   },
   {
    "say": "Gaza's civilian toll is real and heavy. Every strike can be judged, by the law, with one yardstick for everyone.",
-   "screen": "*One* yardstick"
+   "screen": "Real toll. *One* yardstick."
   },
   {
    "say": "Per strike, or by body count? How would you judge it? Tell me below.",
@@ -111,10 +111,10 @@
    {
     "at": "L9-0.2",
     "view": [
-     34.6,
+     34.8,
      31.4,
-     3.0,
-     950
+     7.0,
+     1000
     ],
     "dur": 1.1
    },
@@ -175,19 +175,22 @@
       "label": "Dresden 1945",
       "flag": "DE",
       "value": 25000,
-      "txt": "up to 25,000"
+      "txt": "up to 25,000",
+      "color": "#45A4DD"
      },
      {
       "label": "Mosul 2016 to 2017",
       "flag": "IQ",
       "value": 10000,
-      "txt": "9,000 to 11,000"
+      "txt": "9,000 to 11,000",
+      "color": "#45A4DD"
      },
      {
       "label": "Raqqa 2017",
       "flag": "SY",
       "value": 1600,
-      "txt": "1,600+"
+      "txt": "1,600+",
+      "color": "#45A4DD"
      }
     ]
    },
@@ -199,76 +202,19 @@
     "title": "Gaza: share of dead who were civilians",
     "rows": [
      {
-      "label": "Israeli officials, May 2024",
+      "label": "Israeli officials, 2024",
       "value": 50,
       "txt": "about half",
-      "at": "L10:israeli"
+      "at": "L10:israeli",
+      "color": "#45A4DD"
      },
      {
-      "label": "Leaked IDF data, press, Aug 2025",
+      "label": "Leaked IDF data, 2025",
       "value": 83,
       "txt": "83%",
-      "at": "L10:leaked"
+      "at": "L10:leaked",
+      "color": "#45A4DD"
      }
-    ]
-   }
-  ],
-  "counter": [
-   {
-    "label": "civilian killed, coalition strikes",
-    "at": "L8",
-    "until": "L8e",
-    "y": 1250,
-    "steps": [
-     {
-      "at": "L8:1,600",
-      "value": 1600
-     }
-    ],
-    "suffix": "+"
-   }
-  ],
-  "photos": [
-   {
-    "file": "templates/photos/genocide_stock/peace.jpg",
-    "at": "L1",
-    "until": "L2e",
-    "credit": "Peace Palace, The Hague: Fred Romero, CC BY 2.0",
-    "kb": [
-     0.5,
-     0.5,
-     1.0,
-     0.5,
-     0.5,
-     1.2
-    ]
-   },
-   {
-    "file": "templates/photos/proportionate_v2_r2/dresden.jpg",
-    "at": "L6",
-    "until": "L6e+0.1",
-    "credit": "Dresden, 1945: Bundesarchiv Bild 183-Z0309-310, G. Beyer, CC BY-SA 3.0 de",
-    "kb": [
-     0.5,
-     0.5,
-     1.0,
-     0.5,
-     0.5,
-     1.2
-    ]
-   },
-   {
-    "file": "templates/photos/proportionate_v2_r2/raqqa.jpg",
-    "at": "L8",
-    "until": "L8e",
-    "credit": "Raqqa, 2017: VOA, public domain",
-    "kb": [
-     0.5,
-     0.5,
-     1.0,
-     0.5,
-     0.5,
-     1.2
     ]
    }
   ],
@@ -341,10 +287,6 @@
    "until": "L12"
   }
  ],
- "end": {
-  "at": "L11",
-  "balance": "Gaza's civilian toll is *real.* Judge it by the law."
- },
  "subs_replace": {},
  "hashtags": [
   "#Israel",
@@ -356,6 +298,6 @@
   "big": "10 : 10?",
   "text": "What *proportionate*|really means"
  },
- "caption_en": "Proportionate doesn't mean what most people think. ⚖️\n\nUnder the laws of war, proportionality is a test for each single strike: is the expected harm to civilians excessive compared with the concrete and direct military advantage? (Additional Protocol I, 1977, Art. 51(5)(b) and 57; ICRC Customary IHL, Rule 14). It is never a comparison of death tolls between two sides.\n\nCity battles fought by other armies: Dresden 1945, up to 25,000 people killed (Dresden Historians' Commission, 2010). Mosul 2016 to 2017, 9,000 to 11,000 civilians (AP, Dec 2017). Raqqa 2017, more than 1,600 civilians killed by coalition strikes (Amnesty International and Airwars, 2019).\n\nGaza: the Gaza Ministry of Health (HAMAS run) counted about 67,000 dead by Oct 2025, without a civilian split. The civilian share is disputed: Israeli officials said about half (May 2024); leaked IDF data reported by the Guardian, +972 and Local Call suggested 83% (Aug 2025); the IDF disputes it.\n\nGaza's civilian toll is real and heavy. Every strike can be judged: by the law, with one yardstick for everyone.\n\nPer strike, or by body count: how would you judge it?\n\nSources: Additional Protocol I (1977); ICRC Customary IHL Rule 14; Dresden Historians' Commission (2010); AP (2017); Amnesty International and Airwars (2019); Netanyahu (May 2024); Guardian, +972, Local Call (Aug 2025).\nPhotos (Wikimedia Commons): Peace Palace, The Hague: Fred Romero, CC BY 2.0; Dresden, 1945: Bundesarchiv Bild 183-Z0309-310, G. Beyer, CC BY-SA 3.0 de; Raqqa, 2017: VOA, public domain. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
+ "caption_en": "Proportionate doesn't mean what most people think. ⚖️\n\nUnder the laws of war, proportionality is a test for each single strike: is the expected harm to civilians excessive compared with the concrete and direct military advantage? (Additional Protocol I, 1977, Art. 51(5)(b) and 57; ICRC Customary IHL, Rule 14). It is never a comparison of death tolls between two sides.\n\nCity battles fought by other armies: Dresden 1945, up to 25,000 people killed (Dresden Historians' Commission, 2010). Mosul 2016 to 2017, 9,000 to 11,000 civilians (AP, Dec 2017). Raqqa 2017, more than 1,600 civilians killed by coalition strikes (Amnesty International and Airwars, 2019).\n\nGaza: the Gaza Ministry of Health (HAMAS run) counted about 67,000 dead by Oct 2025, without a civilian split. The civilian share is disputed: Israeli officials said about half (May 2024); leaked IDF data reported by the Guardian, +972 and Local Call suggested 83% (Aug 2025); the IDF disputes it.\n\nGaza's civilian toll is real and heavy. Every strike can be judged: by the law, with one yardstick for everyone.\n\nPer strike, or by body count: how would you judge it?\n\nSources: Additional Protocol I (1977); ICRC Customary IHL Rule 14; Dresden Historians' Commission (2010); AP (2017); Amnesty International and Airwars (2019); Netanyahu (May 2024); Guardian, +972, Local Call (Aug 2025).\nAI voice (Noam's cloned voice).",
  "caption_he": "מידתיות זה לא \"ירו 10 טילים, יורים 10 בחזרה\".\nלפי דיני המלחמה בודקים כל תקיפה בנפרד: האם הנזק הצפוי לאזרחים מופרז ביחס ליתרון הצבאי. זו אף פעם לא השוואה של מספרי הרוגים.\nקרבות ערים של צבאות אחרים: דרזדן 1945, עד 25,000 הרוגים. מוסול 2016 עד 2017, 9,000 עד 11,000 אזרחים. רקה 2017, יותר מ-1,600 אזרחים.\nבעזה, שיעור האזרחים מבין ההרוגים שנוי במחלוקת. המחיר האזרחי אמיתי וכבד, ושופטים כל תקיפה לפי החוק, באותו סרגל לכולם.\nלפי תקיפה או לפי מספר הרוגים: איך אתם הייתם שופטים?"
 }

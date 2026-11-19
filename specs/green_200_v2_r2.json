@@ -2,7 +2,7 @@
  "id": "green_200_v2_r2",
  "account": "noamroz__",
  "template": "map_counter",
- "hook": "*240 million* trees.|Who *planted* them?",
+ "hook": "*240* *million* trees.|Who *planted* them?",
  "opener": {
   "style": "map_tear_v2"
  },
@@ -34,8 +34,7 @@
    "screen": "Jewish National Fund (KKL-JNF), *1901*"
   },
   {
-   "say": "Year one: 14 square kilometers of planted forest.",
-   "screen": "Planted forest, km²"
+   "say": "Year one: 14 square kilometers of planted forest."
   },
   {
    "say": "1942: 35. The early seventies: about 600. Today: over 1,000."
@@ -135,19 +134,22 @@
       "label": "1901",
       "value": 14,
       "txt": "14",
-      "at": "L4:14"
+      "at": "L4:14",
+      "color": "#45A4DD"
      },
      {
       "label": "1942",
       "value": 35,
       "txt": "35",
-      "at": "L5:1942"
+      "at": "L5:1942",
+      "color": "#45A4DD"
      },
      {
       "label": "Early 1970s",
       "value": 600,
       "txt": "~600",
-      "at": "L5:seventies"
+      "at": "L5:seventies",
+      "color": "#45A4DD"
      },
      {
       "label": "2019",
@@ -200,6 +202,12 @@
     "from": 4000000,
     "sub": "trees planted, KKL-JNF says",
     "y": 1200
+   }
+  ],
+  "dim": [
+   {
+    "at": "L6",
+    "until": "L12"
    }
   ],
   "photos": [
@@ -337,10 +345,6 @@
    "until": "END"
   }
  ],
- "end": {
-  "at": "L11",
-  "balance": "Planted over some emptied villages, too. *Both* are true."
- },
  "subs_replace": {},
  "caption_en": "Twain would need a new word for it. 🌳\n\n1867: Mark Twain rides through the land and calls it \"a desolate country\" (The Innocents Abroad, 1869, ch. 56).\n1901: the Jewish National Fund (KKL-JNF) is founded to buy land and plant it.\nPlanted forest: 14 km² in 1901, 35 in 1942, about 600 in the early 1970s, over 1,000 by 2019 (KKL-JNF Forestry Facts and Figures, 2025).\n1964: the first trees go into Yatir, on the edge of the desert, with about 250 to 275 mm of rain a year. Today it is Israel's largest planted forest: 30,000 dunams and more than 4 million trees (KKL-JNF).\nIn total, KKL-JNF says it has planted more than 240 million trees.\n\nIt isn't spotless: some forests were planted over Arab villages emptied in 1948 and 1967 (Canada Park stands on Imwas, Yalu and Beit Nuba). And ecologists argue some of the desert should stay wild.\n\nPlant the desert, or leave it wild? Tell me below.\n\nSources: Mark Twain, The Innocents Abroad (1869); KKL-JNF Forestry Facts and Figures (2025); KKL-JNF Yatir Forest page; Haaretz and Zochrot on Canada Park.\nPhotos (Wikimedia Commons): Mark Twain, 1867: Abdullah Frères, public domain; Bethany hills, about 1870s: Félix Bonfils, Rijksmuseum, CC0; KKL planting, 1930s: Matson Collection, public domain; Yatir Forest: Okedem, CC BY-SA 3.0; Yatir Forest: Deror Avi, CC BY-SA 4.0. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
  "caption_he": "240 מיליון עצים. מי נטע אותם?\nב-1867 מארק טוויין קרא לארץ \"ארץ שוממה\". ב-1901 נוסדה קק\"ל כדי לקנות אדמה ולנטוע. היער הנטוע גדל מ-14 קמ\"ר ליותר מאלף.\nב-1964 ניטעו העצים הראשונים ביתיר, בשולי המדבר, עם 250 עד 275 מ\"מ גשם בשנה. היום זה היער הנטוע הגדול בישראל, עם יותר מ-4 מיליון עצים.\nזה לא בלי כתמים: חלק מהיערות ניטעו על כפרים ערביים שהתרוקנו ב-1948 וב-1967. ואקולוגים טוענים שחלק מהמדבר צריך להישאר פראי.\nלנטוע את המדבר או להשאיר אותו פראי? ספרו לי בתגובות.",

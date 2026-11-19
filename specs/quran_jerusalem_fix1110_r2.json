@@ -104,9 +104,9 @@
     "at": "L4-0.2",
     "view": [
      35.2,
-     31.6,
-     3.0,
-     950
+     31.5,
+     6.5,
+     1000
     ],
     "dur": 1.1
    },
@@ -126,11 +126,27 @@
     "label": "verses searched",
     "at": "L1",
     "until": "L4-0.1",
-    "y": 1250,
+    "y": 1330,
     "steps": [
      {
       "at": "L1",
       "value": 0
+     },
+     {
+      "at": "L1e",
+      "value": 1200
+     },
+     {
+      "at": "L2:medina",
+      "value": 2600
+     },
+     {
+      "at": "L3",
+      "value": 3900
+     },
+     {
+      "at": "L3:sinai",
+      "value": 5100
      },
      {
       "at": "L3e",
@@ -207,6 +223,12 @@
     "lat": 31.776,
     "label": "Muslim tradition: al-Aqsa",
     "color": "yellow"
+   }
+  ],
+  "dim": [
+   {
+    "at": "L5",
+    "until": "L12"
    }
   ],
   "photos": [
@@ -378,10 +400,6 @@
    "until": "L10"
   }
  ],
- "end": {
-  "at": "L9",
-  "balance": "Jerusalem is holy in Islam *too.*"
- },
  "subs_replace": {},
  "hashtags": [
   "#Quran",
