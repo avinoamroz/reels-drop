@@ -16,6 +16,9 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "END-2"):
   recap    {at, until, y0 (default 470), rowh (default 190)}  every chart as a sparkline row, hl row boxed
   end_until  anchor: the end card (spec "end") shows from end.at until this (default END-0.5)
   hook_y   default 300;  title_y default 300;  src_y default 1488;  subs_y default 1612
+  per chart optional: reveal {at, name, flag}: a mystery chart (name "Stock A", flag false) whose recap row switches to the
+           real name and flag at `at` (hl box only from then). Spec "opener" (as map_counter) puts a motion opener in front;
+           then map.view needs centre_y 960 so the opener's last frame matches the map.
 """
 import os, sys, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -153,6 +156,8 @@ def run(S):
         img = _kb(p["im"], kb[0] + (kb[3] - kb[0]) * u, kb[1] + (kb[4] - kb[1]) * u, kb[2] + (kb[5] - kb[2]) * u)
         dim = p.get("dim", 0.3); return img * (1 - dim) * VIG + DARK * dim
     RC = D.get("recap"); rc0, rc1 = (A(RC["at"]), A(RC.get("until"), T.END - 0.6)) if RC else (1e9, 1e9)
+    for ch in CH:                                     # optional mystery reveal (bF 19 Nov): recap row shows reveal name/flag from its anchor
+        if ch.get("reveal"): ch["_rv"] = A(ch["reveal"]["at"])
     cards = screen_cards(S, T); SUBS = sub_chunks(T, S.get("subs_replace"))
     hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 300)
     E = S.get("end") or {}; e0 = A(E.get("at"), T.END - 3) if E else 1e9; e1 = A(D.get("end_until"), T.END - 0.5)
@@ -231,13 +236,15 @@ def run(S):
             y0, rh = RC.get("y0", 520), RC.get("rowh", 190)
             for k, ch in enumerate(CH):
                 rka = ra * seg(t, rc0 + 0.12 * k, rc0 + 0.12 * k + 0.3); y = y0 + k * rh
-                if ch.get("hl"): cv.rrect(40, y - rh / 2 + 8, 1000, rh - 16, 26, UP, 0.16 * rka, stroke=UP, lw=3, sa=0.8 * rka)
+                rv = ch.get("_rv"); shown = rv is None or t >= rv
+                if ch.get("hl") and shown: cv.rrect(40, y - rh / 2 + 8, 1000, rh - 16, 26, UP, 0.16 * rka, stroke=UP, lw=3, sa=0.8 * rka)
                 else: cv.rrect(40, y - rh / 2 + 8, 1000, rh - 16, 26, "#0A1222", 0.6 * rka)
                 ch["_done"] = True
                 up = ch["pct"] >= 0; col = UP if up else DOWN
-                fl = flag_of(ch); nx = 80
+                fl = flag_of(ch); nx = 80; lab = ch.get("short", ch["name"])
+                if rv is not None and shown: fl = ch["reveal"].get("flag"); lab = ch["reveal"]["name"]
                 if fl: WG.flag(cv, fl, 80 + 29, y - 30, 50, rka); nx = 80 + 58 + 12
-                cv.text(ch.get("short", ch["name"]), nx, y - 30, 56, WHITE, rka, align="l", maxw=540 - nx)
+                cv.text(lab, nx, y - 30, 56, YEL if (rv is not None and shown and t < rv + 1.2) else WHITE, rka, align="l", maxw=540 - nx)
                 vs = fmt(ch["pts"][-1][1], ch.get("prefix_last", "")); cv.text(vs, 80, y + 36, 54, col, rka, align="l", maxw=240)
                 xx = 80 + cv.tw(vs, 54) + 30; tri(cv, xx + 16, y + 36, 16, up, col, rka)
                 cv.text(f"{abs(ch['pct']):.0f}%", xx + 40, y + 36, 54, col, rka, align="l", maxw=220)
@@ -278,5 +285,9 @@ def run(S):
     if RC: ev.append((rc0, "pop", -24))
     aud = build_mix(S, T, work, ev)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
+    if S.get("opener"):                               # optional motion opener (as map_counter): map.view must be [lon, lat, width, 960]
+        body = f"{work}/body.mp4"; encode(frame, T.END, f"{work}/mix.m4a", body, loop=False)
+        op = wrap_opener(body, S, final, M_["view"][:3], HY, work)
+        return dict(voice=J["voice"], mix=aud, opener=op)
     encode(frame, T.END, f"{work}/mix.m4a", final, loop=True)
     return dict(voice=J["voice"], mix=aud)

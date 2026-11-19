@@ -1,0 +1,1050 @@
+{
+ "id": "country_stocks_r2",
+ "account": "noamroz__",
+ "template": "stock_chart",
+ "hook": "*3* mystery stocks.|Pick *one.*",
+ "opener": {
+  "style": "globe_spin_fast"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15,
+  "lead": 0.1,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "Three mystery stocks. Sixty five years. Pick one.",
+   "gap": 0.15
+  },
+  {
+   "say": "Each stock is a country's income per person, since 1960.",
+   "screen": "GDP per person, *1960* to *2025*"
+  },
+  {
+   "say": "Stock A starts at seven hundred dollars."
+  },
+  {
+   "say": "Then it rockets. Forty times in twenty one years.",
+   "screen": "*40x* in 21 years"
+  },
+  {
+   "say": "Then it crashes. Down sixty eight percent in seven years.",
+   "screen": "Down *68%* in 7 years"
+  },
+  {
+   "say": "It takes thirty one years to climb back.",
+   "screen": "*31* years to climb back"
+  },
+  {
+   "say": "Today, about thirty four thousand dollars."
+  },
+  {
+   "say": "Stock B starts at one hundred fifty six dollars, and climbs slowly to about three thousand."
+  },
+  {
+   "say": "Stock C starts at fourteen hundred dollars."
+  },
+  {
+   "say": "No boom. No crash.",
+   "screen": "No boom. *No crash.*"
+  },
+  {
+   "say": "Since 1962, it never falls more than fifteen percent.",
+   "screen": "Since 1962: never down more than *15%*"
+  },
+  {
+   "say": "Today, sixty thousand dollars."
+  },
+  {
+   "say": "Stock A grew the most. But what a ride.",
+   "screen": "A grew most. C ends *highest.*"
+  },
+  {
+   "say": "The reveal. Stock A is Saudi Arabia, the oil stock."
+  },
+  {
+   "say": "Stock B is Egypt."
+  },
+  {
+   "say": "No oil isn't the secret on its own. Jordan and Lebanon have almost none either."
+  },
+  {
+   "say": "If you love Israeli facts, follow Noam Roz for more.",
+   "wav": "ref/follow_line_noam.wav",
+   "screen": "Like Israel facts? Follow *@noamroz__*"
+  },
+  {
+   "say": "And stock C, with almost no oil at all? Israel. Would you have picked it?",
+   "screen": "Stock C: *Israel*"
+  }
+ ],
+ "data": {
+  "map": {
+   "view": [
+    41.5,
+    29.5,
+    34,
+    960
+   ],
+   "hi": [
+    "ISR",
+    "QAT",
+    "ARE",
+    "SAU",
+    "KWT",
+    "TUR",
+    "IRQ",
+    "JOR",
+    "LBN",
+    "EGY",
+    "SYR"
+   ],
+   "labels": [],
+   "until": "L1",
+   "credit": "Map: Natural Earth (PD)"
+  },
+  "charts": [
+   {
+    "name": "STOCK A",
+    "flag": false,
+    "sub": "GDP per person, current US$",
+    "points": [
+     [
+      1960,
+      718
+     ],
+     [
+      1961,
+      760
+     ],
+     [
+      1962,
+      813
+     ],
+     [
+      1963,
+      812
+     ],
+     [
+      1964,
+      840
+     ],
+     [
+      1965,
+      904
+     ],
+     [
+      1966,
+      961
+     ],
+     [
+      1967,
+      1032
+     ],
+     [
+      1968,
+      1276
+     ],
+     [
+      1969,
+      1313
+     ],
+     [
+      1970,
+      1509
+     ],
+     [
+      1971,
+      1929
+     ],
+     [
+      1972,
+      2474
+     ],
+     [
+      1973,
+      3640
+     ],
+     [
+      1974,
+      10503
+     ],
+     [
+      1975,
+      10266
+     ],
+     [
+      1976,
+      13313
+     ],
+     [
+      1977,
+      14595
+     ],
+     [
+      1978,
+      14914
+     ],
+     [
+      1979,
+      19612
+     ],
+     [
+      1980,
+      27206
+     ],
+     [
+      1981,
+      28703
+     ],
+     [
+      1982,
+      22454
+     ],
+     [
+      1983,
+      17810
+     ],
+     [
+      1984,
+      15541
+     ],
+     [
+      1985,
+      12745
+     ],
+     [
+      1986,
+      10078
+     ],
+     [
+      1987,
+      9386
+     ],
+     [
+      1988,
+      9166
+     ],
+     [
+      1989,
+      9414
+     ],
+     [
+      1990,
+      11055
+     ],
+     [
+      1991,
+      11847
+     ],
+     [
+      1992,
+      11730
+     ],
+     [
+      1993,
+      10885
+     ],
+     [
+      1994,
+      10602
+     ],
+     [
+      1995,
+      10786
+     ],
+     [
+      1996,
+      11472
+     ],
+     [
+      1997,
+      11545
+     ],
+     [
+      1998,
+      9836
+     ],
+     [
+      1999,
+      10452
+     ],
+     [
+      2000,
+      11715
+     ],
+     [
+      2001,
+      10805
+     ],
+     [
+      2002,
+      10586
+     ],
+     [
+      2003,
+      11487
+     ],
+     [
+      2004,
+      13154
+     ],
+     [
+      2005,
+      15976
+     ],
+     [
+      2006,
+      17564
+     ],
+     [
+      2007,
+      18596
+     ],
+     [
+      2008,
+      22320
+     ],
+     [
+      2009,
+      17718
+     ],
+     [
+      2010,
+      22028
+     ],
+     [
+      2011,
+      27127
+     ],
+     [
+      2012,
+      28733
+     ],
+     [
+      2013,
+      27865
+     ],
+     [
+      2014,
+      27805
+     ],
+     [
+      2015,
+      23256
+     ],
+     [
+      2016,
+      22268
+     ],
+     [
+      2017,
+      23929
+     ],
+     [
+      2018,
+      29360
+     ],
+     [
+      2019,
+      29567
+     ],
+     [
+      2020,
+      24339
+     ],
+     [
+      2021,
+      31921
+     ],
+     [
+      2022,
+      38510
+     ],
+     [
+      2023,
+      36157
+     ],
+     [
+      2024,
+      35528
+     ],
+     [
+      2025,
+      34537
+     ]
+    ],
+    "at": "L2",
+    "until": "L7",
+    "draw": [
+     "L3",
+     "L5e"
+    ],
+    "reveal": {
+     "at": "L13:saudi",
+     "name": "SAUDI ARABIA",
+     "flag": "SA"
+    }
+   },
+   {
+    "name": "STOCK B",
+    "flag": false,
+    "sub": "GDP per person, current US$",
+    "points": [
+     [
+      1960,
+      156
+     ],
+     [
+      1961,
+      163
+     ],
+     [
+      1962,
+      142
+     ],
+     [
+      1963,
+      144
+     ],
+     [
+      1964,
+      158
+     ],
+     [
+      1965,
+      162
+     ],
+     [
+      1966,
+      168
+     ],
+     [
+      1967,
+      174
+     ],
+     [
+      1968,
+      180
+     ],
+     [
+      1969,
+      193
+     ],
+     [
+      1970,
+      232
+     ],
+     [
+      1971,
+      243
+     ],
+     [
+      1972,
+      256
+     ],
+     [
+      1973,
+      272
+     ],
+     [
+      1974,
+      243
+     ],
+     [
+      1975,
+      299
+     ],
+     [
+      1976,
+      335
+     ],
+     [
+      1977,
+      353
+     ],
+     [
+      1978,
+      355
+     ],
+     [
+      1979,
+      421
+     ],
+     [
+      1980,
+      493
+     ],
+     [
+      1981,
+      490
+     ],
+     [
+      1982,
+      596
+     ],
+     [
+      1983,
+      648
+     ],
+     [
+      1984,
+      690
+     ],
+     [
+      1985,
+      770
+     ],
+     [
+      1986,
+      790
+     ],
+     [
+      1987,
+      754
+     ],
+     [
+      1988,
+      634
+     ],
+     [
+      1989,
+      701
+     ],
+     [
+      1990,
+      736
+     ],
+     [
+      1991,
+      623
+     ],
+     [
+      1992,
+      681
+     ],
+     [
+      1993,
+      740
+     ],
+     [
+      1994,
+      807
+     ],
+     [
+      1995,
+      916
+     ],
+     [
+      1996,
+      1009
+     ],
+     [
+      1997,
+      1146
+     ],
+     [
+      1998,
+      1213
+     ],
+     [
+      1999,
+      1268
+     ],
+     [
+      2000,
+      1366
+     ],
+     [
+      2001,
+      1295
+     ],
+     [
+      2002,
+      1117
+     ],
+     [
+      2003,
+      1031
+     ],
+     [
+      2004,
+      991
+     ],
+     [
+      2005,
+      1106
+     ],
+     [
+      2006,
+      1299
+     ],
+     [
+      2007,
+      1548
+     ],
+     [
+      2008,
+      1896
+     ],
+     [
+      2009,
+      2162
+     ],
+     [
+      2010,
+      2455
+     ],
+     [
+      2011,
+      2591
+     ],
+     [
+      2012,
+      2996
+     ],
+     [
+      2013,
+      3026
+     ],
+     [
+      2014,
+      3133
+     ],
+     [
+      2015,
+      3307
+     ],
+     [
+      2016,
+      3271
+     ],
+     [
+      2017,
+      2395
+     ],
+     [
+      2018,
+      2485
+     ],
+     [
+      2019,
+      2963
+     ],
+     [
+      2020,
+      3511
+     ],
+     [
+      2021,
+      3827
+     ],
+     [
+      2022,
+      4233
+     ],
+     [
+      2023,
+      3457
+     ],
+     [
+      2024,
+      3338
+     ],
+     [
+      2025,
+      3086
+     ]
+    ],
+    "at": "L7",
+    "until": "L8",
+    "draw": [
+     "L7+0.3",
+     "L7e"
+    ],
+    "reveal": {
+     "at": "L14:egypt",
+     "name": "EGYPT",
+     "flag": "EG"
+    }
+   },
+   {
+    "name": "STOCK C",
+    "flag": false,
+    "sub": "GDP per person, current US$",
+    "points": [
+     [
+      1960,
+      1452
+     ],
+     [
+      1961,
+      1696
+     ],
+     [
+      1962,
+      1293
+     ],
+     [
+      1963,
+      1485
+     ],
+     [
+      1964,
+      1625
+     ],
+     [
+      1965,
+      1688
+     ],
+     [
+      1966,
+      1788
+     ],
+     [
+      1967,
+      1734
+     ],
+     [
+      1968,
+      1946
+     ],
+     [
+      1969,
+      2188
+     ],
+     [
+      1970,
+      2489
+     ],
+     [
+      1971,
+      2297
+     ],
+     [
+      1972,
+      2928
+     ],
+     [
+      1973,
+      3629
+     ],
+     [
+      1974,
+      5082
+     ],
+     [
+      1975,
+      4669
+     ],
+     [
+      1976,
+      4514
+     ],
+     [
+      1977,
+      5050
+     ],
+     [
+      1978,
+      4794
+     ],
+     [
+      1979,
+      5968
+     ],
+     [
+      1980,
+      6544
+     ],
+     [
+      1981,
+      6791
+     ],
+     [
+      1982,
+      7253
+     ],
+     [
+      1983,
+      7955
+     ],
+     [
+      1984,
+      7364
+     ],
+     [
+      1985,
+      6824
+     ],
+     [
+      1986,
+      8330
+     ],
+     [
+      1987,
+      9847
+     ],
+     [
+      1988,
+      11846
+     ],
+     [
+      1989,
+      11601
+     ],
+     [
+      1990,
+      13300
+     ],
+     [
+      1991,
+      14337
+     ],
+     [
+      1992,
+      15500
+     ],
+     [
+      1993,
+      15169
+     ],
+     [
+      1994,
+      16796
+     ],
+     [
+      1995,
+      19014
+     ],
+     [
+      1996,
+      20213
+     ],
+     [
+      1997,
+      20457
+     ],
+     [
+      1998,
+      20176
+     ],
+     [
+      1999,
+      19809
+     ],
+     [
+      2000,
+      21690
+     ],
+     [
+      2001,
+      20949
+     ],
+     [
+      2002,
+      19059
+     ],
+     [
+      2003,
+      19624
+     ],
+     [
+      2004,
+      20550
+     ],
+     [
+      2005,
+      21262
+     ],
+     [
+      2006,
+      22500
+     ],
+     [
+      2007,
+      25689
+     ],
+     [
+      2008,
+      30231
+     ],
+     [
+      2009,
+      28470
+     ],
+     [
+      2010,
+      31399
+     ],
+     [
+      2011,
+      34477
+     ],
+     [
+      2012,
+      33269
+     ],
+     [
+      2013,
+      36981
+     ],
+     [
+      2014,
+      38265
+     ],
+     [
+      2015,
+      36138
+     ],
+     [
+      2016,
+      37571
+     ],
+     [
+      2017,
+      41013
+     ],
+     [
+      2018,
+      42269
+     ],
+     [
+      2019,
+      44092
+     ],
+     [
+      2020,
+      44591
+     ],
+     [
+      2021,
+      52258
+     ],
+     [
+      2022,
+      54947
+     ],
+     [
+      2023,
+      52126
+     ],
+     [
+      2024,
+      54217
+     ],
+     [
+      2025,
+      60337
+     ]
+    ],
+    "at": "L8",
+    "until": "L12",
+    "draw": [
+     "L9",
+     "L11e"
+    ],
+    "reveal": {
+     "at": "L17:israel",
+     "name": "ISRAEL",
+     "flag": "IL"
+    },
+    "hl": true
+   }
+  ],
+  "recap": {
+   "at": "L12",
+   "until": "END-0.05",
+   "y0": 520,
+   "rowh": 175
+  },
+  "photos": [
+   {
+    "file": "templates/photos/country_stocks/oil.jpg",
+    "at": "L13:saudi+0.6",
+    "until": "L14",
+    "credit": "Khurais oil field: Planet Labs, CC BY-SA 4.0, Wikimedia",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/country_stocks/intel.jpg",
+    "at": "L16",
+    "until": "L16:Noam",
+    "credit": "Intel, Kiryat Gat: Kiryat Gat archive, CC BY 2.5, Wikimedia",
+    "kb": [
+     0.4,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/country_stocks/negev.jpg",
+    "at": "L16:Noam",
+    "until": "L17",
+    "credit": "Hatzeva, Negev, 1971: Moshe Milner, GPO (PD)",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   }
+  ],
+  "end_until": "L16",
+  "hook_y": 300
+ },
+ "sources": [
+  {
+   "label": "World Bank WDI, GDP per capita (current US$)",
+   "year": 2026,
+   "at": "L1",
+   "until": "L15"
+  },
+  {
+   "label": "World Bank WDI, natural resource rents (2021)",
+   "year": 2026,
+   "at": "L15",
+   "until": "L16"
+  }
+ ],
+ "end": {
+  "at": "L15",
+  "y": 1200,
+  "balance": "No oil isn't enough: *Jordan* and *Lebanon* have almost none.",
+  "cta": "Send this to someone who invests"
+ },
+ "caption_en": "One of these three stocks never fell more than 15% in 63 years. Guess which before the end.\n\nIf countries were stocks: GDP per person, current US$, World Bank, 1960 to 2025.\n\nStock A: $718 in 1960. Oil boom: $28,703 in 1981 (40x in 21 years). Bust: $9,166 by 1988 (down 68%). Back above the 1981 peak only in 2012. 2025: $34,537.\nStock B: $156 in 1960, $3,086 in 2025.\nStock C: $1,452 in 1960. Since 1962, never down more than 15% (worst: 1983 to 1985, down 14%). 2025: $60,337.\n\nStock A grew the most in percent. Stock C ends highest.\n\nThe reveal: A is Saudi Arabia. B is Egypt. C, with almost no oil or gas income (natural resource rents 0.4% of GDP, 2021), is Israel.\n\nNo oil isn't the secret on its own: Jordan (0.1%) and Lebanon (0.0%) have almost none either.\n\nCurrent US$, not adjusted for inflation or prices. Not a stock, not a forecast, not financial advice.\n\nSources: World Bank, World Development Indicators: GDP per capita (current US$, NY.GDP.PCAP.CD) and total natural resource rents (% of GDP, NY.GDP.TOTL.RT.ZS), accessed Nov 2026. Photos: Khurais oil field, Planet Labs, CC BY-SA 4.0; Intel Kiryat Gat, Kiryat Gat archive, CC BY 2.5; Hatzeva, Negev 1971, Moshe Milner, GPO (PD). Made with AI tools, AI voice (Noam's cloned voice), follow line in Noam's own voice.",
+ "caption_he": "3 מניות מסתוריות. 65 שנה. באיזו הייתם בוחרים?\nהתמ\"ג לנפש (הבנק העולמי, דולרים שוטפים):\nמניה A: 718 דולר ב-1960, 28,703 ב-1981, ואז קריסה של 68% עד 1988. רק ב-2012 חזרה לשיא. היום 34,537.\nמניה B: 156 דולר ב-1960, 3,086 היום.\nמניה C: 1,452 דולר ב-1960. מאז 1962 אף פעם לא ירדה ביותר מ-15%. היום 60,337.\nA היא סעודיה. B היא מצרים. C, כמעט בלי הכנסות מנפט וגז, היא ישראל.\nלא מניה, לא תחזית, לא ייעוץ השקעות.",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#Economy"
+ ],
+ "cover": {
+  "t": 14.0,
+  "blur": 6,
+  "text": "*65* years, *3* stocks.|Which would you buy?"
+ }
+}
