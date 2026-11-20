@@ -1,0 +1,4002 @@
+[
+{
+"q": "הדמו אתמול היה [חבל על הזמן] 🔥",
+"a": "It was amazing!",
+"l": "It was a pity on the time",
+"d": "It was a waste of time",
+"step": 1,
+"stage": 1
+},
+{
+"q": "נפגשים ב-10? [סגור]",
+"a": "Deal. See you at 10.",
+"l": "Closed. See you at 10.",
+"d": "Shut. See you at 10.",
+"step": 2,
+"stage": 1
+},
+{
+"q": "הפגישה עם הספק הייתה [על הפנים]",
+"a": "It was terrible.",
+"l": "It was on the face.",
+"d": "It was face to face.",
+"step": 3,
+"stage": 1
+},
+{
+"q": "הוא ביקש עוד 30% הנחה? [אין מצב]",
+"a": "No way!",
+"l": "There is no situation.",
+"d": "No problem!",
+"step": 4,
+"stage": 1
+},
+{
+"q": "הלקוח הזה [חי בסרט], הוא רוצה את זה עד מחר",
+"a": "He's living in a dream world.",
+"l": "He's living in a movie.",
+"d": "He's watching a movie.",
+"step": 5,
+"stage": 1
+},
+{
+"q": "מנהל הפרויקט [חופר] כבר שעה בזום",
+"a": "He's been going on and on for an hour.",
+"l": "He's been digging for an hour.",
+"d": "He's been drilling for an hour.",
+"step": 6,
+"stage": 1
+},
+{
+"q": "תשמע, ה-standup הזה [קרע אותי] 😂",
+"a": "It cracked me up!",
+"l": "It tore me!",
+"d": "It broke me down.",
+"step": 7,
+"stage": 1
+},
+{
+"q": "הבאג הזה [שבר לי את הראש] כל הבוקר",
+"a": "It drove me crazy all morning.",
+"l": "It broke my head all morning.",
+"d": "It hurt my head all morning.",
+"step": 8,
+"stage": 1
+},
+{
+"q": "אחי, [תוריד הילוך], זה רק מייל",
+"a": "Take it down a notch, it's just an email.",
+"l": "Lower a gear, it's just an email.",
+"d": "Shift gears, it's just an email.",
+"step": 9,
+"stage": 1
+},
+{
+"q": "את הפיצ׳ר הזה שמים [על אש קטנה] עד ינואר",
+"a": "Let's put it on the back burner.",
+"l": "Let's put it on a small fire.",
+"d": "Let's put it on fire.",
+"step": 10,
+"stage": 1
+},
+{
+"q": "לא נורא שאיחרת, [בקטנה]",
+"a": "No big deal.",
+"l": "In small.",
+"d": "A little bit.",
+"step": 11,
+"stage": 1
+},
+{
+"q": "[מה הלחץ?] הדדליין רק ביום חמישי",
+"a": "What's the rush?",
+"l": "What's the pressure?",
+"d": "Why the stress test?",
+"step": 12,
+"stage": 1
+},
+{
+"q": "שלחתי לו מייל לא נכון עם כל הצוות ב-CC. [פדיחה]",
+"a": "So embarrassing.",
+"l": "Fadicha.",
+"d": "So boring.",
+"step": 13,
+"stage": 1
+},
+{
+"q": "[יש לי חור] בלו״ז ב-3, מתאים?",
+"a": "I have a gap at 3. Does that work?",
+"l": "I have a hole at 3. Does that work?",
+"d": "I have a break-in at 3. Does that work?",
+"step": 14,
+"stage": 1
+},
+{
+"q": "המנהל שלי [שם פס] על כל ההערות שלי",
+"a": "He completely ignores my comments.",
+"l": "He puts a stripe on my comments.",
+"d": "He underlines my comments.",
+"step": 15,
+"stage": 1
+},
+{
+"q": "[עלה לי הסעיף] כשהוא לקח את הקרדיט",
+"a": "I lost it when he took the credit.",
+"l": "My section went up when he took the credit.",
+"d": "I lost the credit when he took it.",
+"step": 16,
+"stage": 1
+},
+{
+"q": "הרעיון של הקמפיין? [עושה לי את זה]",
+"a": "I love it! It really works for me.",
+"l": "It's doing it to me.",
+"d": "It's done for me.",
+"step": 17,
+"stage": 1
+},
+{
+"q": "[ירדתי מזה], זה לא שווה את הזמן",
+"a": "I dropped it. It's not worth the time.",
+"l": "I went down from it.",
+"d": "I fell for it.",
+"step": 18,
+"stage": 1
+},
+{
+"q": "[תכל׳ס], מה אנחנו צריכים מהם?",
+"a": "Bottom line, what do we need from them?",
+"l": "Tachles, what do we need from them?",
+"d": "Totally, what do we need from them?",
+"step": 19,
+"stage": 1
+},
+{
+"q": "אם הם לא חותמים עד מחר, [הלך עליהם]",
+"a": "If they don't sign by tomorrow, they're out.",
+"l": "If they don't sign by tomorrow, it went on them.",
+"d": "If they don't sign by tomorrow, they walk on us.",
+"step": 20,
+"stage": 1
+},
+{
+"q": "טוב חברים, [זזתי], נתראה מחר",
+"a": "Okay, I'm off. See you tomorrow.",
+"l": "Okay, I moved. See you tomorrow.",
+"d": "Okay, I'm moving out. See you tomorrow.",
+"step": 21,
+"stage": 1
+},
+{
+"q": "הג׳וניור החדש [בכיוון], רק צריך עוד קצת זמן",
+"a": "He's on the right track.",
+"l": "He's in the direction.",
+"d": "He's going the wrong way.",
+"step": 22,
+"stage": 1
+},
+{
+"q": "מחר הפרזנטציה למשקיעים? [תן בראש!]",
+"a": "Go for it! You've got this.",
+"l": "Give in the head!",
+"d": "Give it a rest!",
+"step": 23,
+"stage": 1
+},
+{
+"q": "הלוגו החדש? [אני מת על זה]",
+"a": "I love it!",
+"l": "I'm dead on it!",
+"d": "I'm dying for it!",
+"step": 24,
+"stage": 1
+},
+{
+"q": "עשיתי לו את כל העבודה והוא לקח בונוס. [יצאתי פראייר]",
+"a": "I felt like a sucker.",
+"l": "I came out a fraier.",
+"d": "I came out fine.",
+"step": 25,
+"stage": 1
+},
+{
+"q": "אתה מפוטר! [סתם] 😂",
+"a": "Just kidding!",
+"l": "Simply!",
+"d": "Just because!",
+"step": 26,
+"stage": 1
+},
+{
+"q": "המפתחת החדשה [תותחית], סגרה 20 טיקטים ביום",
+"a": "She's a rockstar.",
+"l": "She's a cannon.",
+"d": "She's a shooter.",
+"step": 27,
+"stage": 1
+},
+{
+"q": "זה [לא בוער], אפשר בשבוע הבא",
+"a": "It's not urgent. Next week is fine.",
+"l": "It's not burning. Next week is fine.",
+"d": "It's not hot. Next week is fine.",
+"step": 28,
+"stage": 1
+},
+{
+"q": "רק בפגישה השלישית [נפל לי האסימון]",
+"a": "It finally clicked in the third meeting.",
+"l": "My token fell in the third meeting.",
+"d": "I dropped the ball in the third meeting.",
+"step": 29,
+"stage": 1
+},
+{
+"q": "שלוש פעמים שינו לי את הדרישות. [נשבר לי]",
+"a": "I'm fed up.",
+"l": "It broke to me.",
+"d": "I'm broken.",
+"step": 30,
+"stage": 1
+},
+{
+"q": "אין תוכנית מסודרת לאוף-סייט, [תזרום]",
+"a": "Just go with the flow.",
+"l": "Just flow.",
+"d": "Go with the river.",
+"step": 31,
+"stage": 1
+},
+{
+"q": "[מה נסגר] עם ההצעת מחיר?",
+"a": "So what's the deal with the quote?",
+"l": "What got closed with the quote?",
+"d": "When do we close the quote?",
+"step": 32,
+"stage": 1
+},
+{
+"q": "שכחתי לשלוח את הדוח למנכ״ל. [אכלתי אותה]",
+"a": "I'm in trouble.",
+"l": "I ate her.",
+"d": "I had lunch.",
+"step": 33,
+"stage": 1
+},
+{
+"q": "קבענו לצהריים והוא [דפק לי ברז]",
+"a": "He stood me up.",
+"l": "He knocked me a faucet.",
+"d": "He fixed my sink.",
+"step": 34,
+"stage": 1
+},
+{
+"q": "הם קנו את המתחרה? [אני בשוק]",
+"a": "I can't believe it!",
+"l": "I'm in the market!",
+"d": "I'm shopping!",
+"step": 35,
+"stage": 1
+},
+{
+"q": "הקפה היום [על חשבון הבית] ☕",
+"a": "Coffee's on the house today.",
+"l": "Coffee's on the account of the house today.",
+"d": "Coffee's in the house today.",
+"step": 36,
+"stage": 1
+},
+{
+"q": "המחיר [זה לא הסיפור], הבעיה היא הזמנים",
+"a": "Price isn't the point. The issue is timing.",
+"l": "Price isn't the story. The issue is timing.",
+"d": "Price isn't the plot. The issue is timing.",
+"step": 37,
+"stage": 1
+},
+{
+"q": "עוד ישיבת סטטוס? [זה יוצא לי מהאף]",
+"a": "I'm so sick of it.",
+"l": "It's coming out of my nose.",
+"d": "I'm sneezing it out.",
+"step": 38,
+"stage": 1
+},
+{
+"q": "[בגדול], הרבעון היה טוב",
+"a": "Overall, it was a good quarter.",
+"l": "In big, it was a good quarter.",
+"d": "Largely speaking, a big quarter.",
+"step": 39,
+"stage": 1
+},
+{
+"q": "הספק [זורק אותי מכאן לשם] כבר שבוע",
+"a": "He's been giving me the runaround for a week.",
+"l": "He's been throwing me from here to there.",
+"d": "He's been passing me around the office.",
+"step": 40,
+"stage": 1
+},
+{
+"q": "התחלנו כלקוח, עכשיו אנחנו שותפים. [סגרנו מעגל]",
+"a": "We've come full circle.",
+"l": "We closed a circle.",
+"d": "We closed the loop.",
+"step": 41,
+"stage": 1
+},
+{
+"q": "פרויקט חדש עם הצוות מברלין? [אני בעניין]",
+"a": "I'm in!",
+"l": "I'm in the matter!",
+"d": "I'm in trouble!",
+"step": 42,
+"stage": 1
+},
+{
+"q": "דיברנו על זה [בארבע עיניים]",
+"a": "We talked about it one-on-one.",
+"l": "We talked about it with four eyes.",
+"d": "We talked about it on FaceTime.",
+"step": 43,
+"stage": 1
+},
+{
+"q": "הלקוח [הרים לי להנחתה] עם השאלה הזאת",
+"a": "He teed it up perfectly for me.",
+"l": "He lifted it for my smash.",
+"d": "He picked it up for me.",
+"step": 44,
+"stage": 1
+},
+{
+"q": "סגרת את הדיל? [שיחקת אותה!]",
+"a": "You nailed it!",
+"l": "You played her!",
+"d": "You played it!",
+"step": 45,
+"stage": 1
+},
+{
+"q": "המחמאה מהלקוח [עשתה לי את היום]",
+"a": "That compliment made my day.",
+"l": "That compliment did me the day.",
+"d": "That compliment took my day.",
+"step": 46,
+"stage": 1
+},
+{
+"q": "הדוח הרבעוני היה [כאפה] בשבילנו",
+"a": "The quarterly report was a wake-up call.",
+"l": "The quarterly report was a slap.",
+"d": "The quarterly report was a tap.",
+"step": 47,
+"stage": 1
+},
+{
+"q": "אני אבדוק את זה [על הדרך]",
+"a": "I'll check it while I'm at it.",
+"l": "I'll check it on the road.",
+"d": "I'll check it on my way out.",
+"step": 48,
+"stage": 1
+},
+{
+"q": "הקפה מהמכונה החדשה? [אין על זה]",
+"a": "Nothing beats it.",
+"l": "There's nothing on it.",
+"d": "There's nothing to it.",
+"step": 49,
+"stage": 1
+},
+{
+"q": "[מה הקטע] עם כל המיילים ב-CC?",
+"a": "What's the deal with all the CCs?",
+"l": "What's the piece with all the CCs?",
+"d": "What's the part with all the CCs?",
+"step": 50,
+"stage": 1
+},
+{
+"q": "הבוס [עלה עליי] היום בפגישה",
+"a": "He came down on me.",
+"l": "He went up on me.",
+"d": "He climbed on me.",
+"step": 51,
+"stage": 1
+},
+{
+"q": "[יאללה], מתחילים",
+"a": "Come on, let's start.",
+"l": "Yalla, let's start.",
+"d": "God, let's start.",
+"step": 52,
+"stage": 1
+},
+{
+"q": "הוא [עף על עצמו]",
+"a": "He's full of himself.",
+"l": "He's flying on himself.",
+"d": "He's flying alone.",
+"step": 53,
+"stage": 1
+},
+{
+"q": "[שבור לי הלב] מהמחיר הזה",
+"a": "It breaks my heart.",
+"l": "My heart is broken from it.",
+"d": "My heart stopped.",
+"step": 54,
+"stage": 1
+},
+{
+"q": "מה אתה [עושה פרצוף]?",
+"a": "Why the long face?",
+"l": "Why are you making a face?",
+"d": "What face are you doing?",
+"step": 55,
+"stage": 1
+},
+{
+"q": "[סע בשקט], אני מסתדר",
+"a": "Go ahead, I've got it.",
+"l": "Drive quietly, I'm fine.",
+"d": "Drive in silence.",
+"step": 56,
+"stage": 1
+},
+{
+"q": "הוא [מוכר לי לוקש]",
+"a": "He's feeding me a line.",
+"l": "He's selling me a lokesh.",
+"d": "He's selling me fish.",
+"step": 57,
+"stage": 1
+},
+{
+"q": "[לא שם עליו]",
+"a": "I couldn't care less about him.",
+"l": "I don't put on him.",
+"d": "I'm not putting him.",
+"step": 58,
+"stage": 1
+},
+{
+"q": "[על הכיפאק]!",
+"a": "Awesome!",
+"l": "On the kifak!",
+"d": "On the hat!",
+"step": 59,
+"stage": 1
+},
+{
+"q": "[יצא לי מהאוזניים]",
+"a": "I've had it up to here.",
+"l": "It came out of my ears.",
+"d": "My ears are full.",
+"step": 60,
+"stage": 1
+},
+{
+"q": "זה [לא מזיז לי]",
+"a": "It doesn't bother me.",
+"l": "It doesn't move me.",
+"d": "It doesn't push me.",
+"step": 61,
+"stage": 1
+},
+{
+"q": "[איזה סרט!] הלקוח ביטל ברגע האחרון",
+"a": "What a mess!",
+"l": "What a movie!",
+"d": "What a film!",
+"step": 62,
+"stage": 1
+},
+{
+"q": "[תן לי חמש דקות]",
+"a": "Give me a sec.",
+"l": "Give me five minutes.",
+"d": "Give me five.",
+"step": 63,
+"stage": 1
+},
+{
+"q": "הוא [נתקע לי בגרון]",
+"a": "He really gets on my nerves.",
+"l": "He's stuck in my throat.",
+"d": "He's in my throat.",
+"step": 64,
+"stage": 1
+},
+{
+"q": "[מגניב]!",
+"a": "Cool!",
+"l": "Magniv!",
+"d": "Freezing!",
+"step": 65,
+"stage": 1
+},
+{
+"q": "הפרויקט [בדרך לפח]",
+"a": "The project is going nowhere.",
+"l": "The project is on the way to the trash.",
+"d": "The project is in the bin road.",
+"step": 66,
+"stage": 1
+},
+{
+"q": "[קח את זה בקלות]",
+"a": "Take it easy.",
+"l": "Take it in easiness.",
+"d": "Take it light.",
+"step": 67,
+"stage": 1
+},
+{
+"q": "[זה לא הולך לקרות]",
+"a": "That's not happening.",
+"l": "That's not going to happen walking.",
+"d": "It won't walk.",
+"step": 68,
+"stage": 1
+},
+{
+"q": "[נו באמת]",
+"a": "Oh, come on.",
+"l": "Nu, really.",
+"d": "Well, truly.",
+"step": 69,
+"stage": 1
+},
+{
+"q": "הוא [שם לי רגל]",
+"a": "He tripped me up.",
+"l": "He put me a leg.",
+"d": "He gave me a foot.",
+"step": 70,
+"stage": 1
+},
+{
+"q": "[יש לי פרפרים בבטן]",
+"a": "I'm nervous.",
+"l": "I have butterflies in my stomach.",
+"d": "I'm hungry.",
+"step": 71,
+"stage": 1
+},
+{
+"q": "[סגרנו?]",
+"a": "Are we good?",
+"l": "Did we close?",
+"d": "Did we shut?",
+"step": 72,
+"stage": 1
+},
+{
+"q": "[זה עולה לי על העצבים]",
+"a": "It gets on my nerves.",
+"l": "It climbs on my nerves.",
+"d": "It goes up my nerves.",
+"step": 73,
+"stage": 1
+},
+{
+"q": "[שים לב]",
+"a": "Heads up.",
+"l": "Put heart.",
+"d": "Put attention.",
+"step": 74,
+"stage": 1
+},
+{
+"q": "[אני לא מתלהב]",
+"a": "I'm not thrilled.",
+"l": "I'm not enthusing.",
+"d": "I'm not on fire.",
+"step": 75,
+"stage": 1
+},
+{
+"q": "[עזוב שטויות]",
+"a": "Forget it.",
+"l": "Leave nonsense.",
+"d": "Leave the stupid.",
+"step": 76,
+"stage": 1
+},
+{
+"q": "[מה זה הדבר הזה?]",
+"a": "What on earth is this?",
+"l": "What is this thing?",
+"d": "What thing is this?",
+"step": 77,
+"stage": 1
+},
+{
+"q": "הוא [מת על עצמו]",
+"a": "He loves himself.",
+"l": "He's dead on himself.",
+"d": "He died on himself.",
+"step": 78,
+"stage": 1
+},
+{
+"q": "[אני בסדר גמור]",
+"a": "I'm totally fine.",
+"l": "I'm in complete order.",
+"d": "I'm in total line.",
+"step": 79,
+"stage": 1
+},
+{
+"q": "[חבל]",
+"a": "Too bad.",
+"l": "Rope.",
+"d": "Pity.",
+"step": 80,
+"stage": 1
+},
+{
+"q": "[זה לא היה בתוכנית]",
+"a": "That wasn't the plan.",
+"l": "That wasn't in the program.",
+"d": "That wasn't on TV.",
+"step": 81,
+"stage": 1
+},
+{
+"q": "[יצאתי מזה]",
+"a": "I'm out.",
+"l": "I went out of it.",
+"d": "I exited it.",
+"step": 82,
+"stage": 1
+},
+{
+"q": "[בוא נזרום עם זה]",
+"a": "Let's go with it.",
+"l": "Let's flow with it.",
+"d": "Let's swim with it.",
+"step": 83,
+"stage": 1
+},
+{
+"q": "[סבבה לגמרי]",
+"a": "Totally fine.",
+"l": "Completely sababa.",
+"d": "All round.",
+"step": 84,
+"stage": 1
+},
+{
+"q": "[זה הכל בראש]",
+"a": "It's all in your head.",
+"l": "It's all in the head.",
+"d": "It's all on top.",
+"step": 85,
+"stage": 1
+},
+{
+"q": "הוא [מכיר את החומר]",
+"a": "He knows his stuff.",
+"l": "He knows the material.",
+"d": "He knows the fabric.",
+"step": 86,
+"stage": 1
+},
+{
+"q": "[לא נורא]",
+"a": "No big deal.",
+"l": "Not terrible.",
+"d": "Not awful.",
+"step": 87,
+"stage": 1
+},
+{
+"q": "[קדימה]",
+"a": "Let's go!",
+"l": "Forward!",
+"d": "To the front!",
+"step": 88,
+"stage": 1
+},
+{
+"q": "הוא [עושה שרירים]",
+"a": "He's flexing.",
+"l": "He's making muscles.",
+"d": "He's at the gym.",
+"step": 89,
+"stage": 1
+},
+{
+"q": "[מה העניינים?]",
+"a": "What's up?",
+"l": "What are the matters?",
+"d": "What are the issues?",
+"step": 90,
+"stage": 1
+},
+{
+"q": "[הכל טוב]",
+"a": "All good.",
+"l": "Everything good.",
+"d": "Everything is fine thank you.",
+"step": 91,
+"stage": 1
+},
+{
+"q": "[זה בכלל לא קשור]",
+"a": "That's beside the point.",
+"l": "It's not tied at all.",
+"d": "It's not knotted.",
+"step": 92,
+"stage": 1
+},
+{
+"q": "[דיר באלאק]",
+"a": "Watch out.",
+"l": "Dir balak.",
+"d": "Be careful of the balak.",
+"step": 93,
+"stage": 1
+},
+{
+"q": "[אחי]",
+"a": "Bro.",
+"l": "My brother.",
+"d": "Sibling.",
+"step": 94,
+"stage": 1
+},
+{
+"q": "[מה אתה מתחכם?]",
+"a": "Don't be a smart aleck.",
+"l": "Why are you wising?",
+"d": "What are you smart?",
+"step": 95,
+"stage": 1
+},
+{
+"q": "[אני על זה]",
+"a": "I'm on it.",
+"l": "I'm on this.",
+"d": "I'm sitting on it.",
+"step": 96,
+"stage": 1
+},
+{
+"q": "[סוף הדרך]",
+"a": "Out of this world.",
+"l": "The end of the road.",
+"d": "Game over.",
+"step": 97,
+"stage": 1
+},
+{
+"q": "[זה לא במקרה]",
+"a": "That's no accident.",
+"l": "It's not in case.",
+"d": "It's not in the event.",
+"step": 98,
+"stage": 1
+},
+{
+"q": "[שווה כל שקל]",
+"a": "Worth every penny.",
+"l": "Worth every shekel.",
+"d": "Worth a lot of shekels.",
+"step": 99,
+"stage": 1
+},
+{
+"q": "[בלי לחץ]",
+"a": "No pressure.",
+"l": "Without pressure.",
+"d": "Without squeezing.",
+"step": 100,
+"stage": 1
+},
+{
+"q": "[תעשה לי טובה]",
+"a": "Do me a favor.",
+"l": "Make me a good.",
+"d": "Do me good.",
+"step": 101,
+"stage": 2
+},
+{
+"q": "[אני גמור]",
+"a": "I'm wiped out.",
+"l": "I'm finished.",
+"d": "I'm complete.",
+"step": 102,
+"stage": 2
+},
+{
+"q": "[זה יושב לי על הראש]",
+"a": "It's weighing on me.",
+"l": "It's sitting on my head.",
+"d": "It's on my hat.",
+"step": 103,
+"stage": 2
+},
+{
+"q": "[שמעתי שמועה]",
+"a": "A little bird told me.",
+"l": "I heard a rumor.",
+"d": "I heard a noise.",
+"step": 104,
+"stage": 2
+},
+{
+"q": "[לא לעניין]",
+"a": "Not cool.",
+"l": "Not to the matter.",
+"d": "Not to the subject.",
+"step": 105,
+"stage": 2
+},
+{
+"q": "[תבוא כבר]",
+"a": "Get over here.",
+"l": "Come already.",
+"d": "Arrive yet.",
+"step": 106,
+"stage": 2
+},
+{
+"q": "[זה לא יקרה עליי]",
+"a": "Not on my watch.",
+"l": "It won't happen on me.",
+"d": "It won't fall on me.",
+"step": 107,
+"stage": 2
+},
+{
+"q": "[בטח]",
+"a": "Sure.",
+"l": "Safe.",
+"d": "Surely safe.",
+"step": 108,
+"stage": 2
+},
+{
+"q": "[מה פתאום!]",
+"a": "No way! Not at all!",
+"l": "What suddenly!",
+"d": "Why suddenly?",
+"step": 109,
+"stage": 2
+},
+{
+"q": "[הוא מסתדר]",
+"a": "He manages.",
+"l": "He arranges himself.",
+"d": "He lines up.",
+"step": 110,
+"stage": 2
+},
+{
+"q": "[פיצוץ]!",
+"a": "Amazing!",
+"l": "Explosion!",
+"d": "Boom!",
+"step": 111,
+"stage": 2
+},
+{
+"q": "[לך תדע]",
+"a": "Who knows.",
+"l": "Go know.",
+"d": "Walk and know.",
+"step": 112,
+"stage": 2
+},
+{
+"q": "[קטן עליי]",
+"a": "Piece of cake.",
+"l": "Small on me.",
+"d": "Too small for me.",
+"step": 113,
+"stage": 2
+},
+{
+"q": "[וואו, איזה בלאגן]",
+"a": "What a mess.",
+"l": "Wow, what a balagan.",
+"d": "Wow, what a party.",
+"step": 114,
+"stage": 2
+},
+{
+"q": "[ממש לא]",
+"a": "Absolutely not.",
+"l": "Really not.",
+"d": "Very no.",
+"step": 115,
+"stage": 2
+},
+{
+"q": "[איך זה הולך?]",
+"a": "How's it going?",
+"l": "How does it walk?",
+"d": "How does this go walking?",
+"step": 116,
+"stage": 2
+},
+{
+"q": "[זה לא הזמן]",
+"a": "Now's not the time.",
+"l": "It's not the time.",
+"d": "It's not the hour.",
+"step": 117,
+"stage": 2
+},
+{
+"q": "[אני בדרך]",
+"a": "On my way.",
+"l": "I'm in the road.",
+"d": "I'm on the street.",
+"step": 118,
+"stage": 2
+},
+{
+"q": "[יאללה ביי]",
+"a": "Okay, bye.",
+"l": "Yalla bye.",
+"d": "Come on, goodbye.",
+"step": 119,
+"stage": 2
+},
+{
+"q": "[נדבר]",
+"a": "Talk soon.",
+"l": "We'll talk.",
+"d": "Speak.",
+"step": 120,
+"stage": 2
+},
+{
+"q": "[סחתיין]!",
+"a": "Well done!",
+"l": "Sachtein!",
+"d": "Two healths!",
+"step": 121,
+"stage": 2
+},
+{
+"q": "[בהצלחה]",
+"a": "Good luck.",
+"l": "In success.",
+"d": "With success.",
+"step": 122,
+"stage": 2
+},
+{
+"q": "[נו, מה קורה?]",
+"a": "So, what's new?",
+"l": "Nu, what's happening?",
+"d": "Well, what happens?",
+"step": 123,
+"stage": 2
+},
+{
+"q": "[זה קשה לי]",
+"a": "I'm struggling with it.",
+"l": "It's hard to me.",
+"d": "It's hard on me.",
+"step": 124,
+"stage": 2
+},
+{
+"q": "הוא [בא לי טוב]",
+"a": "I'm in the mood for it.",
+"l": "It comes to me good.",
+"d": "It arrives well.",
+"step": 125,
+"stage": 2
+},
+{
+"q": "[אין לי כוח]",
+"a": "I can't be bothered.",
+"l": "I have no power.",
+"d": "I have no strength.",
+"step": 126,
+"stage": 2
+},
+{
+"q": "[תפסיק לבלבל את המוח]",
+"a": "Stop bugging me.",
+"l": "Stop confusing the brain.",
+"d": "Stop mixing my brain.",
+"step": 127,
+"stage": 2
+},
+{
+"q": "[מה אתה מבלבל לי את המוח?]",
+"a": "What are you on about?",
+"l": "Why are you confusing my brain?",
+"d": "Why mix my brain?",
+"step": 128,
+"stage": 2
+},
+{
+"q": "[זה שטויות במיץ]",
+"a": "That's total nonsense.",
+"l": "That's nonsense in juice.",
+"d": "That's juice nonsense.",
+"step": 129,
+"stage": 2
+},
+{
+"q": "[סוף סוף]",
+"a": "Finally.",
+"l": "End end.",
+"d": "The end, the end.",
+"step": 130,
+"stage": 2
+},
+{
+"q": "[היה שווה]",
+"a": "It was worth it.",
+"l": "It was equal.",
+"d": "It was same.",
+"step": 131,
+"stage": 2
+},
+{
+"q": "[בוא נעשה חיים]",
+"a": "Let's have fun.",
+"l": "Let's make life.",
+"d": "Let's do living.",
+"step": 132,
+"stage": 2
+},
+{
+"q": "[עשינו חיים]",
+"a": "We had a blast.",
+"l": "We made life.",
+"d": "We did life.",
+"step": 133,
+"stage": 2
+},
+{
+"q": "[תן לי לחשוב על זה]",
+"a": "Let me sleep on it.",
+"l": "Give me to think on it.",
+"d": "Let me think on this.",
+"step": 134,
+"stage": 2
+},
+{
+"q": "[חבל על הכסף]",
+"a": "Totally worth it!",
+"l": "A pity on the money.",
+"d": "A waste of money.",
+"step": 135,
+"stage": 2
+},
+{
+"q": "[מה הבעיה שלך?]",
+"a": "What's your problem?",
+"l": "What's the problem of you?",
+"d": "What problem do you have?",
+"step": 136,
+"stage": 2
+},
+{
+"q": "[זה לא לרמה שלי]",
+"a": "That's beneath me.",
+"l": "It's not to my level.",
+"d": "It's not my floor.",
+"step": 137,
+"stage": 2
+},
+{
+"q": "[מגיע לך]",
+"a": "You deserve it.",
+"l": "It arrives to you.",
+"d": "It's coming to you.",
+"step": 138,
+"stage": 2
+},
+{
+"q": "[בא לי למות]",
+"a": "I'm mortified.",
+"l": "I want to die.",
+"d": "I feel like dying.",
+"step": 139,
+"stage": 2
+},
+{
+"q": "[מתתי מצחוק]",
+"a": "I died laughing.",
+"l": "I died from laughter.",
+"d": "I was dying of laughing.",
+"step": 140,
+"stage": 2
+},
+{
+"q": "[ישבתי על זה כל הלילה]",
+"a": "I worked on it all night.",
+"l": "I sat on it all night.",
+"d": "I sat on this all night long.",
+"step": 141,
+"stage": 2
+},
+{
+"q": "[תשאיר את זה ככה]",
+"a": "Leave it as is.",
+"l": "Leave it like this.",
+"d": "Leave it so.",
+"step": 142,
+"stage": 2
+},
+{
+"q": "[זה הזוי]",
+"a": "That's crazy.",
+"l": "That's hallucinated.",
+"d": "That's a dream.",
+"step": 143,
+"stage": 2
+},
+{
+"q": "[מסכן]",
+"a": "Poor thing.",
+"l": "Miserable.",
+"d": "Dangerous.",
+"step": 144,
+"stage": 2
+},
+{
+"q": "[תעוף מפה]",
+"a": "Get lost.",
+"l": "Fly from here.",
+"d": "Fly away.",
+"step": 145,
+"stage": 2
+},
+{
+"q": "[ראית את זה?]",
+"a": "Did you catch that?",
+"l": "Did you see this?",
+"d": "Have you seen it?",
+"step": 146,
+"stage": 2
+},
+{
+"q": "[שיחקת]",
+"a": "Nailed it.",
+"l": "You played.",
+"d": "You acted.",
+"step": 147,
+"stage": 2
+},
+{
+"q": "[קיבלתי שוק]",
+"a": "I was stunned.",
+"l": "I got a shock.",
+"d": "I received a market.",
+"step": 148,
+"stage": 2
+},
+{
+"q": "[בוא נתחיל מההתחלה]",
+"a": "Let's start over.",
+"l": "Let's start from the start.",
+"d": "Let's begin the beginning.",
+"step": 149,
+"stage": 2
+},
+{
+"q": "[אני לא בקטע]",
+"a": "I'm not into it.",
+"l": "I'm not in the piece.",
+"d": "I'm not in the section.",
+"step": 150,
+"stage": 2
+},
+{
+"q": "[הוא מבסוט]",
+"a": "He's pleased.",
+"l": "He's mabsut.",
+"d": "He's busted.",
+"step": 151,
+"stage": 2
+},
+{
+"q": "[אני מבסוט עד הגג]",
+"a": "I'm over the moon.",
+"l": "I'm mabsut to the roof.",
+"d": "I'm happy to the roof.",
+"step": 152,
+"stage": 2
+},
+{
+"q": "[מה הסיפור?]",
+"a": "What's the deal?",
+"l": "What's the story?",
+"d": "What's the tale?",
+"step": 153,
+"stage": 2
+},
+{
+"q": "[תפסיק לקטר]",
+"a": "Stop whining.",
+"l": "Stop complaining loudly.",
+"d": "Stop to kvetch.",
+"step": 154,
+"stage": 2
+},
+{
+"q": "[הוא קוטר]",
+"a": "He's a whiner.",
+"l": "He's a diameter.",
+"d": "He's complaining.",
+"step": 155,
+"stage": 2
+},
+{
+"q": "[אכלתי סרט]",
+"a": "I freaked out.",
+"l": "I ate a movie.",
+"d": "I watched a movie.",
+"step": 156,
+"stage": 2
+},
+{
+"q": "[עזוב אותי]",
+"a": "Leave me alone.",
+"l": "Leave me.",
+"d": "Abandon me.",
+"step": 157,
+"stage": 2
+},
+{
+"q": "[אני מרים ידיים]",
+"a": "I give up.",
+"l": "I'm raising hands.",
+"d": "Hands up.",
+"step": 158,
+"stage": 2
+},
+{
+"q": "[זה דפוק]",
+"a": "That's messed up.",
+"l": "That's knocked.",
+"d": "That's banged.",
+"step": 159,
+"stage": 2
+},
+{
+"q": "[על המקום]",
+"a": "On the spot.",
+"l": "On the place.",
+"d": "In the place.",
+"step": 160,
+"stage": 2
+},
+{
+"q": "[הוא נפל עליי]",
+"a": "He showed up out of nowhere.",
+"l": "He fell on me.",
+"d": "He dropped on me.",
+"step": 161,
+"stage": 2
+},
+{
+"q": "[לא בא לי]",
+"a": "I don't feel like it.",
+"l": "It doesn't come to me.",
+"d": "It's not coming.",
+"step": 162,
+"stage": 2
+},
+{
+"q": "[זה אחלה רעיון]",
+"a": "That's a great idea.",
+"l": "That's an achla idea.",
+"d": "That's a fine idea.",
+"step": 163,
+"stage": 2
+},
+{
+"q": "[רגע, רגע]",
+"a": "Hold on a sec.",
+"l": "Moment, moment.",
+"d": "Wait, wait.",
+"step": 164,
+"stage": 2
+},
+{
+"q": "[בשמחה]",
+"a": "My pleasure.",
+"l": "In happiness.",
+"d": "With joy.",
+"step": 165,
+"stage": 2
+},
+{
+"q": "[אני חייב לך]",
+"a": "I owe you one.",
+"l": "I must you.",
+"d": "I have to you.",
+"step": 166,
+"stage": 2
+},
+{
+"q": "[זה לא נגמר טוב]",
+"a": "That didn't end well.",
+"l": "It didn't finish good.",
+"d": "It ended bad.",
+"step": 167,
+"stage": 2
+},
+{
+"q": "[הלכתי לאיבוד]",
+"a": "I got lost.",
+"l": "I went to loss.",
+"d": "I went missing.",
+"step": 168,
+"stage": 2
+},
+{
+"q": "[נשמע טוב]",
+"a": "Sounds good.",
+"l": "It's heard good.",
+"d": "It hears well.",
+"step": 169,
+"stage": 2
+},
+{
+"q": "[אני כבר לא יודע]",
+"a": "I'm not sure anymore.",
+"l": "I already don't know.",
+"d": "I know no more.",
+"step": 170,
+"stage": 2
+},
+{
+"q": "[איזה כיף]",
+"a": "How fun.",
+"l": "What fun.",
+"d": "What a kef.",
+"step": 171,
+"stage": 2
+},
+{
+"q": "[עפתי על זה]",
+"a": "I loved it.",
+"l": "I flew on it.",
+"d": "I flew over it.",
+"step": 172,
+"stage": 2
+},
+{
+"q": "[זה הורג אותי]",
+"a": "It's killing me.",
+"l": "It kills me.",
+"d": "This murders me.",
+"step": 173,
+"stage": 2
+},
+{
+"q": "[בדיוק!]",
+"a": "Exactly!",
+"l": "Precisely!",
+"d": "In accuracy!",
+"step": 174,
+"stage": 2
+},
+{
+"q": "[הוא רק מדבר]",
+"a": "He's all talk.",
+"l": "He only speaks.",
+"d": "He just talks.",
+"step": 175,
+"stage": 2
+},
+{
+"q": "[דבר איתי]",
+"a": "Talk to me.",
+"l": "Speak with me.",
+"d": "Speak to me.",
+"step": 176,
+"stage": 2
+},
+{
+"q": "[לא היה לי מושג]",
+"a": "I had no clue.",
+"l": "I had no concept.",
+"d": "I had no idea.",
+"step": 177,
+"stage": 2
+},
+{
+"q": "[סתם, צחקתי]",
+"a": "Just kidding.",
+"l": "Just, I laughed.",
+"d": "For nothing, I laughed.",
+"step": 178,
+"stage": 2
+},
+{
+"q": "[זה נחמד]",
+"a": "That's nice.",
+"l": "It's nice.",
+"d": "This is pleasant.",
+"step": 179,
+"stage": 2
+},
+{
+"q": "הוא [מוריד לי את הנשמה]",
+"a": "He's driving me crazy.",
+"l": "He's taking down my soul.",
+"d": "He's taking my breath.",
+"step": 180,
+"stage": 2
+},
+{
+"q": "[שם לי מקל בגלגלים]",
+"a": "He threw a wrench in the works.",
+"l": "He put a stick in my wheels.",
+"d": "He stopped my bike.",
+"step": 181,
+"stage": 2
+},
+{
+"q": "[נפלה עליו שמיים]",
+"a": "He was devastated.",
+"l": "The sky fell on him.",
+"d": "It rained on him.",
+"step": 182,
+"stage": 2
+},
+{
+"q": "[ראש בקיר]",
+"a": "Banging my head against the wall.",
+"l": "Head in the wall.",
+"d": "Head on the wall.",
+"step": 183,
+"stage": 2
+},
+{
+"q": "[יצא מהכלים]",
+"a": "He lost it.",
+"l": "He came out of the dishes.",
+"d": "He left the kitchen.",
+"step": 184,
+"stage": 2
+},
+{
+"q": "[שופך את הלב]",
+"a": "Pouring my heart out.",
+"l": "Spilling the heart.",
+"d": "Pouring the heart.",
+"step": 185,
+"stage": 2
+},
+{
+"q": "[עושה לי עיניים]",
+"a": "He's flirting with me.",
+"l": "He's making me eyes.",
+"d": "He's doing eyes.",
+"step": 186,
+"stage": 2
+},
+{
+"q": "[בלע את הלשון]",
+"a": "He was speechless.",
+"l": "He swallowed his tongue.",
+"d": "He ate his tongue.",
+"step": 187,
+"stage": 2
+},
+{
+"q": "[עשה ממני צחוק]",
+"a": "He made a fool of me.",
+"l": "He made laughter from me.",
+"d": "He laughed me.",
+"step": 188,
+"stage": 2
+},
+{
+"q": "[אכל לי את הראש]",
+"a": "He nagged me to death.",
+"l": "He ate my head.",
+"d": "He bit my head.",
+"step": 189,
+"stage": 2
+},
+{
+"q": "[נשאר עם הפנים לקיר]",
+"a": "Left out in the cold.",
+"l": "Stayed with the face to the wall.",
+"d": "Faced the wall.",
+"step": 190,
+"stage": 2
+},
+{
+"q": "[מחזיק את האף למעלה]",
+"a": "He's stuck up.",
+"l": "Holding his nose up.",
+"d": "His nose is high.",
+"step": 191,
+"stage": 2
+},
+{
+"q": "[הכל דבש]",
+"a": "Everything is peachy.",
+"l": "Everything is honey.",
+"d": "All is sweet.",
+"step": 192,
+"stage": 2
+},
+{
+"q": "[על כוס קפה]",
+"a": "Over coffee.",
+"l": "On a cup of coffee.",
+"d": "On top of coffee.",
+"step": 193,
+"stage": 2
+},
+{
+"q": "[סוגר חשבון]",
+"a": "Getting even.",
+"l": "Closing an account.",
+"d": "Paying the bill.",
+"step": 194,
+"stage": 2
+},
+{
+"q": "[הוא לא בנוי לזה]",
+"a": "He's not cut out for it.",
+"l": "He's not built for it.",
+"d": "He's not constructed.",
+"step": 195,
+"stage": 2
+},
+{
+"q": "[אכלתי אותה בגדול]",
+"a": "I really blew it.",
+"l": "I ate her big.",
+"d": "I ate it big.",
+"step": 196,
+"stage": 2
+},
+{
+"q": "[הלך לו החשק]",
+"a": "He lost interest.",
+"l": "His desire walked away.",
+"d": "His wish went.",
+"step": 197,
+"stage": 2
+},
+{
+"q": "[שובר שיאים]",
+"a": "Through the roof.",
+"l": "Breaking records.",
+"d": "Breaking peaks.",
+"step": 198,
+"stage": 2
+},
+{
+"q": "[חוזר לשגרה]",
+"a": "Back to the grind.",
+"l": "Returning to routine.",
+"d": "Back to normal.",
+"step": 199,
+"stage": 2
+},
+{
+"q": "[מתפוצץ מגאווה]",
+"a": "Bursting with pride.",
+"l": "Exploding from pride.",
+"d": "Popping with pride.",
+"step": 200,
+"stage": 2
+},
+{
+"q": "[צריך לשים את זה בצד]",
+"a": "Let's park that.",
+"l": "Need to put it on the side.",
+"d": "Need to put it aside side.",
+"step": 201,
+"stage": 3
+},
+{
+"q": "[לא רואה ממטר]",
+"a": "Can't see straight.",
+"l": "Can't see from a meter.",
+"d": "Can't see a meter.",
+"step": 202,
+"stage": 3
+},
+{
+"q": "[ביד רמה]",
+"a": "Hands down.",
+"l": "With a high hand.",
+"d": "With hands up.",
+"step": 203,
+"stage": 3
+},
+{
+"q": "[אין לי מושג ירוק]",
+"a": "I haven't the foggiest.",
+"l": "I have no green idea.",
+"d": "No green concept.",
+"step": 204,
+"stage": 3
+},
+{
+"q": "[הוא שרוף על זה]",
+"a": "He's crazy about it.",
+"l": "He's burnt on it.",
+"d": "He's on fire for it.",
+"step": 205,
+"stage": 3
+},
+{
+"q": "[נשרף לי]",
+"a": "I burned out.",
+"l": "It got burned to me.",
+"d": "It burned for me.",
+"step": 206,
+"stage": 3
+},
+{
+"q": "[צריך ללכת על בטוח]",
+"a": "Better safe than sorry.",
+"l": "Need to walk on safe.",
+"d": "Walk on the safe.",
+"step": 207,
+"stage": 3
+},
+{
+"q": "[הולך על ביצים]",
+"a": "Walking on eggshells.",
+"l": "Walking on eggs.",
+"d": "Going on eggs.",
+"step": 208,
+"stage": 3
+},
+{
+"q": "[מחפש את הפינה]",
+"a": "Looking for an easy way out.",
+"l": "Looking for the corner.",
+"d": "Finding a corner.",
+"step": 209,
+"stage": 3
+},
+{
+"q": "[ציפור קטנה לחשה לי]",
+"a": "A little bird told me.",
+"l": "A small bird whispered to me.",
+"d": "A bird told me.",
+"step": 210,
+"stage": 3
+},
+{
+"q": "[לא בא בחשבון]",
+"a": "Out of the question.",
+"l": "Doesn't come in the account.",
+"d": "Not in the bill.",
+"step": 211,
+"stage": 3
+},
+{
+"q": "[עשה עסק]",
+"a": "Made a big deal.",
+"l": "He did business.",
+"d": "He made a business.",
+"step": 212,
+"stage": 3
+},
+{
+"q": "[עושה מזה עניין]",
+"a": "Making a big deal out of it.",
+"l": "Making a matter of it.",
+"d": "Doing an issue of it.",
+"step": 213,
+"stage": 3
+},
+{
+"q": "[לקחת ללב]",
+"a": "Take it to heart.",
+"l": "Take to the heart.",
+"d": "Take to heart.",
+"step": 214,
+"stage": 3
+},
+{
+"q": "[צריך לבדוק את זה עם עצמי]",
+"a": "I need to think it over.",
+"l": "Need to check it with myself.",
+"d": "Check it with me.",
+"step": 215,
+"stage": 3
+},
+{
+"q": "[שוחה בזה]",
+"a": "He's a pro at it.",
+"l": "He swims in it.",
+"d": "He's swimming.",
+"step": 216,
+"stage": 3
+},
+{
+"q": "[על הגובה]",
+"a": "Up to the task.",
+"l": "On the height.",
+"d": "On the high.",
+"step": 217,
+"stage": 3
+},
+{
+"q": "[שם את הקלפים על השולחן]",
+"a": "Putting my cards on the table.",
+"l": "Putting the cards on the table.",
+"d": "Showing cards.",
+"step": 218,
+"stage": 3
+},
+{
+"q": "[עגול]",
+"a": "Smooth sailing.",
+"l": "Round.",
+"d": "Circle.",
+"step": 219,
+"stage": 3
+},
+{
+"q": "[קיבל רגליים קרות]",
+"a": "He got cold feet.",
+"l": "He got cold legs.",
+"d": "His legs froze.",
+"step": 220,
+"stage": 3
+},
+{
+"q": "[כמו גלגל חמישי]",
+"a": "Like a third wheel.",
+"l": "Like a fifth wheel.",
+"d": "Like a spare tire.",
+"step": 221,
+"stage": 3
+},
+{
+"q": "[על קצה המזלג]",
+"a": "In a nutshell.",
+"l": "On the tip of the fork.",
+"d": "On the edge of the fork.",
+"step": 222,
+"stage": 3
+},
+{
+"q": "[הוא בעננים]",
+"a": "He's on cloud nine.",
+"l": "He's in the clouds.",
+"d": "He's flying.",
+"step": 223,
+"stage": 3
+},
+{
+"q": "[חתול בשק]",
+"a": "A pig in a poke.",
+"l": "A cat in a sack.",
+"d": "A cat in a bag.",
+"step": 224,
+"stage": 3
+},
+{
+"q": "[מוכר קרח לאסקימוסים]",
+"a": "He could sell sand in the desert.",
+"l": "Selling ice to Eskimos.",
+"d": "Selling ice cubes.",
+"step": 225,
+"stage": 3
+},
+{
+"q": "[הכסף לא גדל על העצים]",
+"a": "Money doesn't grow on trees.",
+"l": "Money doesn't grow on the trees.",
+"d": "No money trees.",
+"step": 226,
+"stage": 3
+},
+{
+"q": "[הוא אוכל לבד]",
+"a": "He's a lone wolf.",
+"l": "He eats alone.",
+"d": "He eats by himself.",
+"step": 227,
+"stage": 3
+},
+{
+"q": "[פתח לי את הראש]",
+"a": "It opened my mind.",
+"l": "It opened my head.",
+"d": "It cracked my head.",
+"step": 228,
+"stage": 3
+},
+{
+"q": "[לא שווה את הנייר]",
+"a": "Not worth the paper it's written on.",
+"l": "Not worth the paper.",
+"d": "Paper is not worth.",
+"step": 229,
+"stage": 3
+},
+{
+"q": "[מים שקטים]",
+"a": "Still waters run deep.",
+"l": "Quiet waters.",
+"d": "Silent water.",
+"step": 230,
+"stage": 3
+},
+{
+"q": "[עושה רוח]",
+"a": "He's all hot air.",
+"l": "He's making wind.",
+"d": "He's doing wind.",
+"step": 231,
+"stage": 3
+},
+{
+"q": "[גמרנו את הסיפור]",
+"a": "That's settled.",
+"l": "We finished the story.",
+"d": "The story is done.",
+"step": 232,
+"stage": 3
+},
+{
+"q": "[דפק את הראש]",
+"a": "He went for it.",
+"l": "He banged the head.",
+"d": "He hit his head.",
+"step": 233,
+"stage": 3
+},
+{
+"q": "[שולף מהמותן]",
+"a": "Shooting from the hip.",
+"l": "Pulling from the waist.",
+"d": "Drawing from the hip.",
+"step": 234,
+"stage": 3
+},
+{
+"q": "[יש לו גב]",
+"a": "He's got backing.",
+"l": "He has a back.",
+"d": "He has a spine.",
+"step": 235,
+"stage": 3
+},
+{
+"q": "[לשים את הכסף איפה שהפה]",
+"a": "Put your money where your mouth is.",
+"l": "Put the money where the mouth.",
+"d": "Money in mouth.",
+"step": 236,
+"stage": 3
+},
+{
+"q": "[עושה כבוד]",
+"a": "Shows respect.",
+"l": "Makes honor.",
+"d": "Does honor.",
+"step": 237,
+"stage": 3
+},
+{
+"q": "[הוא ראש קטן]",
+"a": "He does the bare minimum.",
+"l": "He's a small head.",
+"d": "He has a small head.",
+"step": 238,
+"stage": 3
+},
+{
+"q": "[הוא ראש גדול]",
+"a": "He goes the extra mile.",
+"l": "He's a big head.",
+"d": "He's big headed.",
+"step": 239,
+"stage": 3
+},
+{
+"q": "[גלגל הצלה]",
+"a": "A lifesaver.",
+"l": "A rescue wheel.",
+"d": "A safety wheel.",
+"step": 240,
+"stage": 3
+},
+{
+"q": "[קורע את התחת]",
+"a": "Working my butt off.",
+"l": "Tearing the butt.",
+"d": "Ripping my bottom.",
+"step": 241,
+"stage": 3
+},
+{
+"q": "[החיים קשים]",
+"a": "Life's tough.",
+"l": "The life is hard.",
+"d": "Life is difficult.",
+"step": 242,
+"stage": 3
+},
+{
+"q": "[מת על הקרשים]",
+"a": "Bombed on stage.",
+"l": "Died on the boards.",
+"d": "Dead on the planks.",
+"step": 243,
+"stage": 3
+},
+{
+"q": "[אחרי המבול]",
+"a": "After the storm.",
+"l": "After the flood.",
+"d": "After the rain.",
+"step": 244,
+"stage": 3
+},
+{
+"q": "[הוא דג סלמון]",
+"a": "He goes against the flow.",
+"l": "He's a salmon fish.",
+"d": "He's a fish.",
+"step": 245,
+"stage": 3
+},
+{
+"q": "[עשה בית ספר]",
+"a": "He schooled everyone.",
+"l": "He made a school.",
+"d": "He did school.",
+"step": 246,
+"stage": 3
+},
+{
+"q": "[שם עין]",
+"a": "Has his eye on it.",
+"l": "Put an eye.",
+"d": "Placed an eye.",
+"step": 247,
+"stage": 3
+},
+{
+"q": "[ישן בעמידה]",
+"a": "Dead on his feet.",
+"l": "Sleeping standing.",
+"d": "Sleeping up.",
+"step": 248,
+"stage": 3
+},
+{
+"q": "[לא גבר על הסוסים]",
+"a": "He couldn't keep up.",
+"l": "Didn't beat the horses.",
+"d": "Lost the horses.",
+"step": 249,
+"stage": 3
+},
+{
+"q": "[מה שבא בקלות הולך בקלות]",
+"a": "Easy come, easy go.",
+"l": "What comes in ease goes in ease.",
+"d": "Easy in, easy out.",
+"step": 250,
+"stage": 3
+},
+{
+"q": "[סובל בשקט]",
+"a": "Suffering in silence.",
+"l": "Suffering quietly.",
+"d": "Silent suffering.",
+"step": 251,
+"stage": 3
+},
+{
+"q": "[לא מכיר את המילה לא]",
+"a": "He won't take no for an answer.",
+"l": "Doesn't know the word no.",
+"d": "Doesn't know no.",
+"step": 252,
+"stage": 3
+},
+{
+"q": "[יש לו שרירים בלשון]",
+"a": "He's all talk.",
+"l": "He has muscles in the tongue.",
+"d": "Strong tongue.",
+"step": 253,
+"stage": 3
+},
+{
+"q": "[דוחף את האף]",
+"a": "Sticking his nose in.",
+"l": "Pushing the nose.",
+"d": "Pushing his nose.",
+"step": 254,
+"stage": 3
+},
+{
+"q": "[כמו פיל בחנות חרסינה]",
+"a": "Like a bull in a china shop.",
+"l": "Like an elephant in a china shop.",
+"d": "Like an elephant in a shop.",
+"step": 255,
+"stage": 3
+},
+{
+"q": "[הלך עם הראש בקיר]",
+"a": "He went at it head first.",
+"l": "He walked with the head in the wall.",
+"d": "He hit the wall.",
+"step": 256,
+"stage": 3
+},
+{
+"q": "[סתם מדברים]",
+"a": "It's just talk.",
+"l": "Just talking.",
+"d": "For nothing talking.",
+"step": 257,
+"stage": 3
+},
+{
+"q": "[זה לא חכמה]",
+"a": "Anyone can do that.",
+"l": "That's no wisdom.",
+"d": "That's not clever.",
+"step": 258,
+"stage": 3
+},
+{
+"q": "[חכם בלילה]",
+"a": "Wise after the fact.",
+"l": "Smart at night.",
+"d": "Night genius.",
+"step": 259,
+"stage": 3
+},
+{
+"q": "[השמיים הם הגבול]",
+"a": "The sky's the limit.",
+"l": "The skies are the border.",
+"d": "The sky is the border.",
+"step": 260,
+"stage": 3
+},
+{
+"q": "[סוף טוב הכל טוב]",
+"a": "All's well that ends well.",
+"l": "Good end, all good.",
+"d": "End good everything good.",
+"step": 261,
+"stage": 3
+},
+{
+"q": "[זה כמו לחפש מחט בערימת שחת]",
+"a": "Like looking for a needle in a haystack.",
+"l": "Like searching a needle in a pile of hay.",
+"d": "Like a needle in hay.",
+"step": 262,
+"stage": 3
+},
+{
+"q": "[הכדור אצלך]",
+"a": "The ball's in your court.",
+"l": "The ball is by you.",
+"d": "You have the ball.",
+"step": 263,
+"stage": 3
+},
+{
+"q": "[לשחק אותה קשוח]",
+"a": "Play hardball.",
+"l": "Play her tough.",
+"d": "Play it hard.",
+"step": 264,
+"stage": 3
+},
+{
+"q": "[מוריד את הכובע]",
+"a": "Hats off.",
+"l": "Taking off the hat.",
+"d": "Removing my hat.",
+"step": 265,
+"stage": 3
+},
+{
+"q": "[חם לי על הלב]",
+"a": "It warms my heart.",
+"l": "It's hot on my heart.",
+"d": "My heart is hot.",
+"step": 266,
+"stage": 3
+},
+{
+"q": "[מכה מתחת לחגורה]",
+"a": "A low blow.",
+"l": "A hit under the belt.",
+"d": "Under the belt.",
+"step": 267,
+"stage": 3
+},
+{
+"q": "[קם על צד שמאל]",
+"a": "Got up on the wrong side of the bed.",
+"l": "Got up on the left side.",
+"d": "Woke up left.",
+"step": 268,
+"stage": 3
+},
+{
+"q": "[טוב לב]",
+"a": "Kind-hearted.",
+"l": "Good of heart.",
+"d": "Good heart.",
+"step": 269,
+"stage": 3
+},
+{
+"q": "[בלב שלם]",
+"a": "Wholeheartedly.",
+"l": "With a whole heart.",
+"d": "Full heart.",
+"step": 270,
+"stage": 3
+},
+{
+"q": "[עלה על השעון]",
+"a": "He's on the clock.",
+"l": "Climbed on the clock.",
+"d": "Got on the watch.",
+"step": 271,
+"stage": 3
+},
+{
+"q": "[ירד מהפסים]",
+"a": "Went off the rails.",
+"l": "Went down from the tracks.",
+"d": "Off the tracks.",
+"step": 272,
+"stage": 3
+},
+{
+"q": "[על הפסים]",
+"a": "On track.",
+"l": "On the rails.",
+"d": "On the tracks.",
+"step": 273,
+"stage": 3
+},
+{
+"q": "[קשה לי עם זה]",
+"a": "I have a hard time with that.",
+"l": "It's hard to me with it.",
+"d": "Hard with this.",
+"step": 274,
+"stage": 3
+},
+{
+"q": "[לראות את האור בקצה המנהרה]",
+"a": "Light at the end of the tunnel.",
+"l": "See the light in the end of the tunnel.",
+"d": "Tunnel light.",
+"step": 275,
+"stage": 3
+},
+{
+"q": "[לא סוף העולם]",
+"a": "It's not the end of the world.",
+"l": "Not end of the world.",
+"d": "The world isn't over.",
+"step": 276,
+"stage": 3
+},
+{
+"q": "[שומר על פרופיל נמוך]",
+"a": "Keeping a low profile.",
+"l": "Guarding a low profile.",
+"d": "Low profile.",
+"step": 277,
+"stage": 3
+},
+{
+"q": "[מושך בחוטים]",
+"a": "Pulling the strings.",
+"l": "Pulling in the strings.",
+"d": "Pulling ropes.",
+"step": 278,
+"stage": 3
+},
+{
+"q": "[קפץ בראש]",
+"a": "Jumped in head first.",
+"l": "Jumped in the head.",
+"d": "Jumped head.",
+"step": 279,
+"stage": 3
+},
+{
+"q": "[זה כבר היסטוריה]",
+"a": "That's water under the bridge.",
+"l": "It's already history.",
+"d": "It's history now.",
+"step": 280,
+"stage": 3
+},
+{
+"q": "[חולם בהקיץ]",
+"a": "Daydreaming.",
+"l": "Dreaming awake.",
+"d": "Awake dreaming.",
+"step": 281,
+"stage": 3
+},
+{
+"q": "[תפוח לא נופל רחוק מהעץ]",
+"a": "The apple doesn't fall far from the tree.",
+"l": "An apple doesn't fall far from the tree.",
+"d": "Apples fall close.",
+"step": 282,
+"stage": 3
+},
+{
+"q": "[תמונה שווה אלף מילים]",
+"a": "A picture is worth a thousand words.",
+"l": "A picture equals a thousand words.",
+"d": "A photo is a thousand words.",
+"step": 283,
+"stage": 3
+},
+{
+"q": "[רק על הנייר]",
+"a": "Only on paper.",
+"l": "Only on the paper.",
+"d": "Just paper.",
+"step": 284,
+"stage": 3
+},
+{
+"q": "[לא ממהר לשום מקום]",
+"a": "In no rush.",
+"l": "Not hurrying to any place.",
+"d": "Going nowhere fast.",
+"step": 285,
+"stage": 3
+},
+{
+"q": "[בשניות]",
+"a": "In a flash.",
+"l": "In seconds.",
+"d": "In some seconds.",
+"step": 286,
+"stage": 3
+},
+{
+"q": "[שובר את הראש]",
+"a": "Racking my brain.",
+"l": "Breaking the head.",
+"d": "Cracking the head.",
+"step": 287,
+"stage": 3
+},
+{
+"q": "[לחתוך את הפינות]",
+"a": "Cut corners.",
+"l": "Cut the corners.",
+"d": "Cutting corners off.",
+"step": 288,
+"stage": 3
+},
+{
+"q": "[עובר מעל הראש]",
+"a": "It went over my head.",
+"l": "Passing over the head.",
+"d": "Above my head.",
+"step": 289,
+"stage": 3
+},
+{
+"q": "[בלי עין הרע]",
+"a": "Knock on wood.",
+"l": "Without the evil eye.",
+"d": "No bad eye.",
+"step": 290,
+"stage": 3
+},
+{
+"q": "[כמו שעון]",
+"a": "Like clockwork.",
+"l": "Like a clock.",
+"d": "Like a watch.",
+"step": 291,
+"stage": 3
+},
+{
+"q": "[לא קונה את זה]",
+"a": "I'm not buying it.",
+"l": "Not buying it.",
+"d": "I won't buy it.",
+"step": 292,
+"stage": 3
+},
+{
+"q": "[מנקה את השולחן]",
+"a": "Clearing the decks.",
+"l": "Cleaning the table.",
+"d": "Wiping the table.",
+"step": 293,
+"stage": 3
+},
+{
+"q": "[פתח דף חדש]",
+"a": "Turned over a new leaf.",
+"l": "Opened a new page.",
+"d": "New page.",
+"step": 294,
+"stage": 3
+},
+{
+"q": "[ממש בטעם שלי]",
+"a": "Right up my alley.",
+"l": "Really in my taste.",
+"d": "Very my taste.",
+"step": 295,
+"stage": 3
+},
+{
+"q": "[להוריד את הרגל מהגז]",
+"a": "Ease off.",
+"l": "Take the leg off the gas.",
+"d": "Foot off the gas.",
+"step": 296,
+"stage": 3
+},
+{
+"q": "[עם הגב לקיר]",
+"a": "With his back to the wall.",
+"l": "With the back to the wall.",
+"d": "Back on the wall.",
+"step": 297,
+"stage": 3
+},
+{
+"q": "[מכה כפולה]",
+"a": "A double whammy.",
+"l": "A double hit.",
+"d": "Hit twice.",
+"step": 298,
+"stage": 3
+},
+{
+"q": "[עם שתי ידיים שמאליות]",
+"a": "All thumbs.",
+"l": "With two left hands.",
+"d": "Two lefts.",
+"step": 299,
+"stage": 3
+},
+{
+"q": "[תרגיע]",
+"a": "Chill out.",
+"l": "Calm.",
+"d": "Relax yourself.",
+"step": 300,
+"stage": 3
+},
+{
+"q": "[על סף]",
+"a": "On the verge.",
+"l": "On the threshold.",
+"d": "On the door.",
+"step": 301,
+"stage": 4
+},
+{
+"q": "[ראש בראש]",
+"a": "Neck and neck.",
+"l": "Head to head.",
+"d": "Head in head.",
+"step": 302,
+"stage": 4
+},
+{
+"q": "[כמו בבית]",
+"a": "Make yourself at home.",
+"l": "Like at home.",
+"d": "Like home.",
+"step": 303,
+"stage": 4
+},
+{
+"q": "[לא ראיתי את זה בא]",
+"a": "I didn't see that coming.",
+"l": "I didn't see it come.",
+"d": "Didn't see it.",
+"step": 304,
+"stage": 4
+},
+{
+"q": "[לא עלינו]",
+"a": "Heaven forbid.",
+"l": "Not on us.",
+"d": "Not upon us.",
+"step": 305,
+"stage": 4
+},
+{
+"q": "[בלי נדר]",
+"a": "No promises.",
+"l": "Without a vow.",
+"d": "No vow.",
+"step": 306,
+"stage": 4
+},
+{
+"q": "[הוא שיכור מכוח]",
+"a": "Power went to his head.",
+"l": "He's drunk from power.",
+"d": "Drunk on power.",
+"step": 307,
+"stage": 4
+},
+{
+"q": "[חפיף] עשה את זה",
+"a": "He did a sloppy job.",
+"l": "He did it overlapping.",
+"d": "He did it fast and well.",
+"step": 308,
+"stage": 4
+},
+{
+"q": "[פראייר] אני לא",
+"a": "I'm no sucker.",
+"l": "I'm not a freier.",
+"d": "I'm not a free man.",
+"step": 309,
+"stage": 4
+},
+{
+"q": "[שוויצר] כזה",
+"a": "Such a show-off.",
+"l": "Such a Swiss.",
+"d": "Such a sweater.",
+"step": 310,
+"stage": 4
+},
+{
+"q": "[חנון] של אקסל",
+"a": "An Excel nerd.",
+"l": "A chanun of Excel.",
+"d": "A shopkeeper of Excel.",
+"step": 311,
+"stage": 4
+},
+{
+"q": "זה היה [גלאט]",
+"a": "It went smoothly.",
+"l": "It was glatt.",
+"d": "It was kosher.",
+"step": 312,
+"stage": 4
+},
+{
+"q": "[מבאס]",
+"a": "That sucks.",
+"l": "It's mevaes.",
+"d": "It's boring.",
+"step": 313,
+"stage": 4
+},
+{
+"q": "[טיל]!",
+"a": "Super fast!",
+"l": "Missile!",
+"d": "Rocket man!",
+"step": 314,
+"stage": 4
+},
+{
+"q": "הוא [דפוק בראש]",
+"a": "He's nuts.",
+"l": "He's knocked in the head.",
+"d": "He has a headache.",
+"step": 315,
+"stage": 4
+},
+{
+"q": "[קוּל עליו]",
+"a": "He's cool.",
+"l": "Kul on him.",
+"d": "He's cold.",
+"step": 316,
+"stage": 4
+},
+{
+"q": "[בום]!",
+"a": "Spot on!",
+"l": "Boom!",
+"d": "Explosion!",
+"step": 317,
+"stage": 4
+},
+{
+"q": "[פצצה]!",
+"a": "Gorgeous!",
+"l": "Bomb!",
+"d": "A bomb went off.",
+"step": 318,
+"stage": 4
+},
+{
+"q": "[מגעיל לי]",
+"a": "It grosses me out.",
+"l": "It's disgusting to me.",
+"d": "It makes me sick to me.",
+"step": 319,
+"stage": 4
+},
+{
+"q": "[שפכטל]",
+"a": "Squeezed in a quick one.",
+"l": "Putty knife.",
+"d": "Spatula.",
+"step": 320,
+"stage": 4
+},
+{
+"q": "[פדיחה רצינית]",
+"a": "Super embarrassing.",
+"l": "A serious padicha.",
+"d": "A serious problem.",
+"step": 321,
+"stage": 4
+},
+{
+"q": "[מניאק]",
+"a": "What a jerk.",
+"l": "Maniac.",
+"d": "Crazy person.",
+"step": 322,
+"stage": 4
+},
+{
+"q": "[סטלן] כזה",
+"a": "Such a slacker.",
+"l": "Such a stoner.",
+"d": "Such a stalin.",
+"step": 323,
+"stage": 4
+},
+{
+"q": "[פרייארים] לא מתים, רק מתחלפים",
+"a": "A sucker is born every minute.",
+"l": "Freiers don't die, they switch.",
+"d": "Free men live forever.",
+"step": 324,
+"stage": 4
+},
+{
+"q": "[אחלה גבר]",
+"a": "Great guy.",
+"l": "Achla man.",
+"d": "Good male.",
+"step": 325,
+"stage": 4
+},
+{
+"q": "[גבר גבר]",
+"a": "A real mensch.",
+"l": "Man man.",
+"d": "Double man.",
+"step": 326,
+"stage": 4
+},
+{
+"q": "[מלך]!",
+"a": "You're the best!",
+"l": "King!",
+"d": "Your majesty!",
+"step": 327,
+"stage": 4
+},
+{
+"q": "[מלכה]!",
+"a": "You're amazing!",
+"l": "Queen!",
+"d": "Your highness!",
+"step": 328,
+"stage": 4
+},
+{
+"q": "[נשמה]",
+"a": "Sweetheart.",
+"l": "Soul.",
+"d": "Breath.",
+"step": 329,
+"stage": 4
+},
+{
+"q": "[כפרה עליך]",
+"a": "Love you, man.",
+"l": "Atonement on you.",
+"d": "Sin on you.",
+"step": 330,
+"stage": 4
+},
+{
+"q": "[חיים שלי]",
+"a": "My love.",
+"l": "My life.",
+"d": "My lives.",
+"step": 331,
+"stage": 4
+},
+{
+"q": "[מאמי]",
+"a": "Babe.",
+"l": "Mommy.",
+"d": "Mom.",
+"step": 332,
+"stage": 4
+},
+{
+"q": "[בובה]",
+"a": "Darling.",
+"l": "Doll.",
+"d": "Toy.",
+"step": 333,
+"stage": 4
+},
+{
+"q": "[יא אללה]",
+"a": "Oh my God.",
+"l": "Ya Allah.",
+"d": "God help.",
+"step": 334,
+"stage": 4
+},
+{
+"q": "[חבל\"ז]",
+"a": "Amazing!",
+"l": "A pity on the time.",
+"d": "A waste.",
+"step": 335,
+"stage": 4
+},
+{
+"q": "[סבבוש]",
+"a": "Cool cool.",
+"l": "Sababush.",
+"d": "Small sababa.",
+"step": 336,
+"stage": 4
+},
+{
+"q": "[וואלק]",
+"a": "Seriously, man.",
+"l": "Walak.",
+"d": "Wow, really.",
+"step": 337,
+"stage": 4
+},
+{
+"q": "[אחושלוקי]",
+"a": "Whoa, dude!",
+"l": "Achushluki!",
+"d": "Brother slug!",
+"step": 338,
+"stage": 4
+},
+{
+"q": "[יאללה בלגן]",
+"a": "Let's party!",
+"l": "Yalla balagan!",
+"d": "Come on mess!",
+"step": 339,
+"stage": 4
+},
+{
+"q": "[אש]!",
+"a": "Awesome!",
+"l": "Fire!",
+"d": "Burn!",
+"step": 340,
+"stage": 4
+},
+{
+"q": "[גדול]!",
+"a": "Awesome!",
+"l": "Big!",
+"d": "Large!",
+"step": 341,
+"stage": 4
+},
+{
+"q": "[על אמת]?",
+"a": "For real?",
+"l": "On truth?",
+"d": "On real?",
+"step": 342,
+"stage": 4
+},
+{
+"q": "[תכל'ס כן]",
+"a": "Basically, yes.",
+"l": "Tachles yes.",
+"d": "Actually yes yes.",
+"step": 343,
+"stage": 4
+},
+{
+"q": "[חלמתי עליך]",
+"a": "Just the person I wanted.",
+"l": "I dreamed about you.",
+"d": "I had a dream of you.",
+"step": 344,
+"stage": 4
+},
+{
+"q": "[נתקעתי]",
+"a": "I got stuck.",
+"l": "I was stuck in.",
+"d": "I stuck.",
+"step": 345,
+"stage": 4
+},
+{
+"q": "[דחוף לי]",
+"a": "It's urgent for me.",
+"l": "Push to me.",
+"d": "Pushed me.",
+"step": 346,
+"stage": 4
+},
+{
+"q": "[זה בוער?]",
+"a": "Is it urgent?",
+"l": "Is it burning?",
+"d": "Is it on fire?",
+"step": 347,
+"stage": 4
+},
+{
+"q": "[מתקתק]",
+"a": "Running like clockwork.",
+"l": "Ticking.",
+"d": "Sweetish.",
+"step": 348,
+"stage": 4
+},
+{
+"q": "[מדויק]",
+"a": "Spot on.",
+"l": "Accurate.",
+"d": "Precise.",
+"step": 349,
+"stage": 4
+},
+{
+"q": "[על הפנים לגמרי]",
+"a": "Totally awful.",
+"l": "Completely on the face.",
+"d": "Totally face.",
+"step": 350,
+"stage": 4
+},
+{
+"q": "[בסוף נסתדר]",
+"a": "It'll work out.",
+"l": "In the end we'll arrange.",
+"d": "We'll line up.",
+"step": 351,
+"stage": 4
+},
+{
+"q": "[יהיה בסדר]",
+"a": "It'll be fine.",
+"l": "It will be in order.",
+"d": "It'll be in line.",
+"step": 352,
+"stage": 4
+},
+{
+"q": "[צ'ק צ'ק]",
+"a": "In no time.",
+"l": "Chik chak.",
+"d": "Check check.",
+"step": 353,
+"stage": 4
+},
+{
+"q": "[ככה ככה]",
+"a": "So-so.",
+"l": "Like this like this.",
+"d": "This way this way.",
+"step": 354,
+"stage": 4
+},
+{
+"q": "[מה זה משנה?]",
+"a": "What difference does it make?",
+"l": "What does it change?",
+"d": "What is change?",
+"step": 355,
+"stage": 4
+},
+{
+"q": "[תלוי]",
+"a": "It depends.",
+"l": "Hanging.",
+"d": "Hung.",
+"step": 356,
+"stage": 4
+},
+{
+"q": "[מה אכפת לך?]",
+"a": "Why do you care?",
+"l": "What do you care?",
+"d": "What's your care?",
+"step": 357,
+"stage": 4
+},
+{
+"q": "[שומע?]",
+"a": "You know what I mean?",
+"l": "Hearing?",
+"d": "Do you hear?",
+"step": 358,
+"stage": 4
+},
+{
+"q": "[אתה רציני?]",
+"a": "Are you serious?",
+"l": "You're serious?",
+"d": "You're Rachel?",
+"step": 359,
+"stage": 4
+},
+{
+"q": "[ברור]",
+"a": "Obviously.",
+"l": "Clear.",
+"d": "Transparent.",
+"step": 360,
+"stage": 4
+},
+{
+"q": "[מה נשמע?]",
+"a": "How are you?",
+"l": "What is heard?",
+"d": "What do you hear?",
+"step": 361,
+"stage": 4
+},
+{
+"q": "[מה המצב?]",
+"a": "What's up?",
+"l": "What's the situation?",
+"d": "What's the condition?",
+"step": 362,
+"stage": 4
+},
+{
+"q": "[שיהיה]",
+"a": "Whatever.",
+"l": "Let it be.",
+"d": "It shall be.",
+"step": 363,
+"stage": 4
+},
+{
+"q": "[לא משנה]",
+"a": "Never mind.",
+"l": "Doesn't change.",
+"d": "No change.",
+"step": 364,
+"stage": 4
+},
+{
+"q": "[בוא נראה]",
+"a": "We'll see.",
+"l": "Come let's see.",
+"d": "Come see.",
+"step": 365,
+"stage": 4
+},
+{
+"q": "[מה הקשר?]",
+"a": "What does that have to do with it?",
+"l": "What's the connection?",
+"d": "What's the knot?",
+"step": 366,
+"stage": 4
+},
+{
+"q": "[מה העניין?]",
+"a": "What's the matter?",
+"l": "What's the issue?",
+"d": "What's the interest?",
+"step": 367,
+"stage": 4
+},
+{
+"q": "[בקיצור]",
+"a": "Long story short.",
+"l": "In shortness.",
+"d": "In short short.",
+"step": 368,
+"stage": 4
+},
+{
+"q": "[בעיקרון]",
+"a": "Basically.",
+"l": "In principle.",
+"d": "In the root.",
+"step": 369,
+"stage": 4
+},
+{
+"q": "[עזוב]",
+"a": "Forget about it.",
+"l": "Leave.",
+"d": "Abandon.",
+"step": 370,
+"stage": 4
+},
+{
+"q": "[סבלנות]",
+"a": "Hang in there.",
+"l": "Patience.",
+"d": "Be patient please.",
+"step": 371,
+"stage": 4
+},
+{
+"q": "[בכיף]",
+"a": "Gladly.",
+"l": "In fun.",
+"d": "With fun.",
+"step": 372,
+"stage": 4
+},
+{
+"q": "[אין דבר]",
+"a": "No worries.",
+"l": "There is no thing.",
+"d": "Nothing.",
+"step": 373,
+"stage": 4
+},
+{
+"q": "[טוב, נו]",
+"a": "Oh, all right.",
+"l": "Good, nu.",
+"d": "Okay well.",
+"step": 374,
+"stage": 4
+},
+{
+"q": "[אוף]",
+"a": "Ugh.",
+"l": "Off.",
+"d": "Oof.",
+"step": 375,
+"stage": 4
+},
+{
+"q": "[מה זה החום הזה]",
+"a": "It's boiling.",
+"l": "What is this heat.",
+"d": "What's this fever.",
+"step": 376,
+"stage": 4
+},
+{
+"q": "[אני מתה מחום]",
+"a": "I'm melting.",
+"l": "I'm dying of heat.",
+"d": "I'm hot dead.",
+"step": 377,
+"stage": 4
+},
+{
+"q": "[בא לי משהו מתוק]",
+"a": "I'm craving something sweet.",
+"l": "Something sweet comes to me.",
+"d": "A sweet arrives.",
+"step": 378,
+"stage": 4
+},
+{
+"q": "[שווה ניסיון]",
+"a": "Worth a shot.",
+"l": "Worth a try.",
+"d": "Equal attempt.",
+"step": 379,
+"stage": 4
+},
+{
+"q": "[אין מה לעשות]",
+"a": "It is what it is.",
+"l": "There's nothing to do.",
+"d": "Nothing to make.",
+"step": 380,
+"stage": 4
+},
+{
+"q": "[ככה זה]",
+"a": "That's life.",
+"l": "This is how it is.",
+"d": "Like this it.",
+"step": 381,
+"stage": 4
+},
+{
+"q": "[זה מה יש]",
+"a": "Take it or leave it.",
+"l": "This is what there is.",
+"d": "That's what's there.",
+"step": 382,
+"stage": 4
+},
+{
+"q": "[ניפגש בחוץ]",
+"a": "See you outside.",
+"l": "We'll meet in the outside.",
+"d": "Meet out.",
+"step": 383,
+"stage": 4
+},
+{
+"q": "[יאללה, לעבודה]",
+"a": "Back to work.",
+"l": "Yalla, to the work.",
+"d": "Come on, to job.",
+"step": 384,
+"stage": 4
+},
+{
+"q": "[מה עשית?!]",
+"a": "What have you done?!",
+"l": "What did you make?!",
+"d": "What did you do do?",
+"step": 385,
+"stage": 4
+},
+{
+"q": "[לא ייאמן]",
+"a": "Unbelievable.",
+"l": "Won't be believed.",
+"d": "Not believing.",
+"step": 386,
+"stage": 4
+},
+{
+"q": "[יופי]",
+"a": "Great.",
+"l": "Beauty.",
+"d": "Pretty.",
+"step": 387,
+"stage": 4
+},
+{
+"q": "[יופי טופי]",
+"a": "Super duper.",
+"l": "Yofi tofi.",
+"d": "Beauty drum.",
+"step": 388,
+"stage": 4
+},
+{
+"q": "[קטן עלינו]",
+"a": "We've got this.",
+"l": "Small on us.",
+"d": "Little on us.",
+"step": 389,
+"stage": 4
+},
+{
+"q": "[עזרה!]",
+"a": "Help me out here!",
+"l": "Help!",
+"d": "Assistance!",
+"step": 390,
+"stage": 4
+},
+{
+"q": "[כן, בטח]",
+"a": "Yeah, right.",
+"l": "Yes, safe.",
+"d": "Yes surely.",
+"step": 391,
+"stage": 4
+},
+{
+"q": "[כאילו]",
+"a": "Like.",
+"l": "As if.",
+"d": "Like as.",
+"step": 392,
+"stage": 4
+},
+{
+"q": "[סתם ככה]",
+"a": "Just because.",
+"l": "Just like that.",
+"d": "For nothing like this.",
+"step": 393,
+"stage": 4
+},
+{
+"q": "[מה נהיה?]",
+"a": "What's going on?",
+"l": "What became?",
+"d": "What's being?",
+"step": 394,
+"stage": 4
+},
+{
+"q": "[זה היה ממש חוויה]",
+"a": "That was quite something.",
+"l": "It was really an experience.",
+"d": "It was an experience really.",
+"step": 395,
+"stage": 4
+},
+{
+"q": "[איזה מזל]",
+"a": "Lucky break.",
+"l": "What luck.",
+"d": "Which luck.",
+"step": 396,
+"stage": 4
+},
+{
+"q": "[נגמר לי הסבלנות]",
+"a": "I've run out of patience.",
+"l": "The patience ended to me.",
+"d": "My patience finished me.",
+"step": 397,
+"stage": 4
+},
+{
+"q": "[קשה לי להאמין]",
+"a": "I find it hard to believe.",
+"l": "It's hard to me to believe.",
+"d": "Hard believing.",
+"step": 398,
+"stage": 4
+},
+{
+"q": "[חוזר בי]",
+"a": "I take it back.",
+"l": "I return in me.",
+"d": "I'm returning.",
+"step": 399,
+"stage": 4
+},
+{
+"q": "[תודה רבה על כלום]",
+"a": "Thanks for nothing.",
+"l": "Thank you a lot on nothing.",
+"d": "Many thanks for none.",
+"step": 400,
+"stage": 4
+},
+{
+"q": "[בשקט בשקט]",
+"a": "On the quiet.",
+"l": "In quiet in quiet.",
+"d": "Quietly quietly.",
+"step": 401,
+"stage": 5
+},
+{
+"q": "[קיבלתי צמרמורת]",
+"a": "It gave me chills.",
+"l": "I received a shiver.",
+"d": "I got a shake.",
+"step": 402,
+"stage": 5
+},
+{
+"q": "[מחר בבוקר]",
+"a": "First thing tomorrow.",
+"l": "Tomorrow in the morning.",
+"d": "Morning tomorrow.",
+"step": 403,
+"stage": 5
+},
+{
+"q": "[דיברנו על זה]",
+"a": "We've been over this.",
+"l": "We spoke about it.",
+"d": "We talked on it.",
+"step": 404,
+"stage": 5
+},
+{
+"q": "[מה שתגיד]",
+"a": "Whatever you say.",
+"l": "What that you say.",
+"d": "What you'll say.",
+"step": 405,
+"stage": 5
+},
+{
+"q": "[קדימה, תזוז]",
+"a": "Come on, move it.",
+"l": "Forward, move.",
+"d": "Front, move.",
+"step": 406,
+"stage": 5
+},
+{
+"q": "[תרגיש בבית]",
+"a": "Make yourself at home.",
+"l": "Feel in the home.",
+"d": "Feel home.",
+"step": 407,
+"stage": 5
+},
+{
+"q": "[בואו נעשה הפסקה]",
+"a": "Let's take five.",
+"l": "Come let's do a break.",
+"d": "Let's make a stop.",
+"step": 408,
+"stage": 5
+},
+{
+"q": "[בוא נסכם]",
+"a": "Let's wrap up.",
+"l": "Come let's summarize.",
+"d": "Let's sum.",
+"step": 409,
+"stage": 5
+},
+{
+"q": "[אני לא בטוח בזה]",
+"a": "I'm not so sure.",
+"l": "I'm not safe in it.",
+"d": "I'm not insured.",
+"step": 410,
+"stage": 5
+},
+{
+"q": "[זה לא מצחיק]",
+"a": "That's not funny.",
+"l": "This isn't laughing.",
+"d": "It doesn't laugh.",
+"step": 411,
+"stage": 5
+},
+{
+"q": "[מה אתה צוחק?]",
+"a": "Are you kidding me?",
+"l": "What are you laughing?",
+"d": "Why laugh?",
+"step": 412,
+"stage": 5
+},
+{
+"q": "[אתה צוחק עליי]",
+"a": "You're pulling my leg.",
+"l": "You're laughing on me.",
+"d": "You laugh at me.",
+"step": 413,
+"stage": 5
+},
+{
+"q": "[מה אתה עובד עליי?]",
+"a": "Are you messing with me?",
+"l": "What are you working on me?",
+"d": "Why work on me?",
+"step": 414,
+"stage": 5
+},
+{
+"q": "[עבדו עליו]",
+"a": "He got played.",
+"l": "They worked on him.",
+"d": "They worked him.",
+"step": 415,
+"stage": 5
+},
+{
+"q": "[זה עבד עליי]",
+"a": "I fell for it.",
+"l": "It worked on me.",
+"d": "It worked for me.",
+"step": 416,
+"stage": 5
+},
+{
+"q": "[הוא מבין עניין]",
+"a": "He knows his stuff.",
+"l": "He understands matter.",
+"d": "He gets the issue.",
+"step": 417,
+"stage": 5
+},
+{
+"q": "[לא יודע מה להגיד]",
+"a": "I'm at a loss for words.",
+"l": "Don't know what to say.",
+"d": "Not knowing saying.",
+"step": 418,
+"stage": 5
+},
+{
+"q": "[בוא נשים את זה ככה]",
+"a": "Let's put it this way.",
+"l": "Come let's put it like this.",
+"d": "Let's place it so.",
+"step": 419,
+"stage": 5
+},
+{
+"q": "[זה לא בשבילי]",
+"a": "It's not my cup of tea.",
+"l": "It's not for me.",
+"d": "Not for me it.",
+"step": 420,
+"stage": 5
+},
+{
+"q": "[זה הכי בשבילי]",
+"a": "It's right up my alley.",
+"l": "It's the most for me.",
+"d": "It's most me.",
+"step": 421,
+"stage": 5
+},
+{
+"q": "[לך על זה]",
+"a": "Go for it.",
+"l": "Walk on it.",
+"d": "Go on it.",
+"step": 422,
+"stage": 5
+},
+{
+"q": "[תכף]",
+"a": "In a sec.",
+"l": "Soon.",
+"d": "Immediately.",
+"step": 423,
+"stage": 5
+},
+{
+"q": "[עוד שנייה]",
+"a": "Just a sec.",
+"l": "One more second.",
+"d": "Another second.",
+"step": 424,
+"stage": 5
+},
+{
+"q": "[בסוף היום]",
+"a": "At the end of the day.",
+"l": "In the end of the day.",
+"d": "End of day.",
+"step": 425,
+"stage": 5
+},
+{
+"q": "[מכל הלב]",
+"a": "From the bottom of my heart.",
+"l": "From all the heart.",
+"d": "From the whole heart.",
+"step": 426,
+"stage": 5
+},
+{
+"q": "[אני שבור]",
+"a": "I'm heartbroken.",
+"l": "I'm broken.",
+"d": "I'm cracked.",
+"step": 427,
+"stage": 5
+},
+{
+"q": "[הוא נעלם]",
+"a": "He ghosted me.",
+"l": "He disappeared.",
+"d": "He vanished.",
+"step": 428,
+"stage": 5
+},
+{
+"q": "[עשה לי גוסט]",
+"a": "He ghosted me.",
+"l": "He made me ghost.",
+"d": "He did a ghost.",
+"step": 429,
+"stage": 5
+},
+{
+"q": "[הוא סגור על עצמו]",
+"a": "He's set in his ways.",
+"l": "He's closed on himself.",
+"d": "He's locked in.",
+"step": 430,
+"stage": 5
+},
+{
+"q": "[פתוח לרעיונות]",
+"a": "Open-minded.",
+"l": "Open to ideas.",
+"d": "Opened ideas.",
+"step": 431,
+"stage": 5
+},
+{
+"q": "[מנסה את מזלי]",
+"a": "Trying my luck.",
+"l": "Trying my mazal.",
+"d": "Testing my luck.",
+"step": 432,
+"stage": 5
+},
+{
+"q": "[הוא מחובר]",
+"a": "He's well-connected.",
+"l": "He's connected.",
+"d": "He's plugged in.",
+"step": 433,
+"stage": 5
+},
+{
+"q": "[נדבר על זה אחר כך]",
+"a": "Let's table this.",
+"l": "We'll talk about it after so.",
+"d": "Talk later so.",
+"step": 434,
+"stage": 5
+},
+{
+"q": "[אני מתבייש]",
+"a": "I'm embarrassed.",
+"l": "I'm ashamed.",
+"d": "I'm shy.",
+"step": 435,
+"stage": 5
+},
+{
+"q": "[הוא שחקן]",
+"a": "He's a player.",
+"l": "He's an actor.",
+"d": "He plays.",
+"step": 436,
+"stage": 5
+},
+{
+"q": "[היא שחקנית]",
+"a": "She's a star.",
+"l": "She's an actress.",
+"d": "She plays.",
+"step": 437,
+"stage": 5
+},
+{
+"q": "[אני מכור]",
+"a": "I'm hooked.",
+"l": "I'm addicted.",
+"d": "I'm sold.",
+"step": 438,
+"stage": 5
+},
+{
+"q": "[עשה לי את הערב]",
+"a": "It made my night.",
+"l": "It did me the evening.",
+"d": "It made my evening night.",
+"step": 439,
+"stage": 5
+},
+{
+"q": "[עשית לי חיוך]",
+"a": "You made me smile.",
+"l": "You did me a smile.",
+"d": "You made a smile.",
+"step": 440,
+"stage": 5
+},
+{
+"q": "[אני לא בפוקוס]",
+"a": "I can't focus.",
+"l": "I'm not in focus.",
+"d": "I'm out of the photo.",
+"step": 441,
+"stage": 5
+},
+{
+"q": "[איבדתי את זה]",
+"a": "I lost it.",
+"l": "I lost this.",
+"d": "I missed it.",
+"step": 442,
+"stage": 5
+},
+{
+"q": "[זה עובד?]",
+"a": "Does it work?",
+"l": "Is it working?",
+"d": "Is this a job?",
+"step": 443,
+"stage": 5
+},
+{
+"q": "[זה לא בראש שלי עכשיו]",
+"a": "It's not on my radar.",
+"l": "It's not in my head now.",
+"d": "Not my head.",
+"step": 444,
+"stage": 5
+},
+{
+"q": "[על הבוקר]",
+"a": "First thing in the morning.",
+"l": "On the morning.",
+"d": "Upon the morning.",
+"step": 445,
+"stage": 5
+},
+{
+"q": "[מאוחר מדי]",
+"a": "Too late.",
+"l": "Too much late.",
+"d": "Very late.",
+"step": 446,
+"stage": 5
+},
+{
+"q": "[מוקדם מדי]",
+"a": "Too early.",
+"l": "Too much early.",
+"d": "Very early.",
+"step": 447,
+"stage": 5
+},
+{
+"q": "[קצת מוגזם]",
+"a": "A bit much.",
+"l": "A little exaggerated.",
+"d": "Little extra.",
+"step": 448,
+"stage": 5
+},
+{
+"q": "[זה חוצפה]",
+"a": "That's outrageous.",
+"l": "That's chutzpah.",
+"d": "That's brave.",
+"step": 449,
+"stage": 5
+},
+{
+"q": "[חצוף]",
+"a": "Cheeky.",
+"l": "Chutzpadik.",
+"d": "Rude brave.",
+"step": 450,
+"stage": 5
+},
+{
+"q": "[יש לו חוצפה]",
+"a": "He's got some nerve.",
+"l": "He has chutzpah.",
+"d": "He has courage.",
+"step": 451,
+"stage": 5
+},
+{
+"q": "[נו, תגיד כבר]",
+"a": "Spit it out.",
+"l": "Nu, say already.",
+"d": "Well say yet.",
+"step": 452,
+"stage": 5
+},
+{
+"q": "[דבר לעניין]",
+"a": "Get to the point.",
+"l": "Speak to the matter.",
+"d": "Talk to the issue.",
+"step": 453,
+"stage": 5
+},
+{
+"q": "[סגור, נתראה]",
+"a": "Deal, see you.",
+"l": "Closed, we'll see each other.",
+"d": "Shut, see you.",
+"step": 454,
+"stage": 5
+},
+{
+"q": "[תשמור על עצמך]",
+"a": "Take care.",
+"l": "Guard on yourself.",
+"d": "Watch yourself.",
+"step": 455,
+"stage": 5
+},
+{
+"q": "[לבריאות]",
+"a": "Bless you.",
+"l": "To health.",
+"d": "For health.",
+"step": 456,
+"stage": 5
+},
+{
+"q": "[לחיים]",
+"a": "Cheers.",
+"l": "To life.",
+"d": "For life.",
+"step": 457,
+"stage": 5
+},
+{
+"q": "[שיהיה בהצלחה]",
+"a": "Best of luck.",
+"l": "That it will be in success.",
+"d": "May success be.",
+"step": 458,
+"stage": 5
+},
+{
+"q": "[מזל טוב]",
+"a": "Congrats!",
+"l": "Good luck.",
+"d": "Good mazal.",
+"step": 459,
+"stage": 5
+},
+{
+"q": "[בתיאבון]",
+"a": "Enjoy your meal.",
+"l": "In appetite.",
+"d": "With hunger.",
+"step": 460,
+"stage": 5
+},
+{
+"q": "[שבת שלום]",
+"a": "Have a good weekend.",
+"l": "Shabbat peace.",
+"d": "Saturday peace.",
+"step": 461,
+"stage": 5
+},
+{
+"q": "[שבוע טוב]",
+"a": "Have a good week.",
+"l": "Good week.",
+"d": "Week good.",
+"step": 462,
+"stage": 5
+},
+{
+"q": "[חג שמח]",
+"a": "Happy holidays.",
+"l": "Happy holiday.",
+"d": "Holiday happy.",
+"step": 463,
+"stage": 5
+},
+{
+"q": "[רפואה שלמה]",
+"a": "Get well soon.",
+"l": "Complete medicine.",
+"d": "Full medicine.",
+"step": 464,
+"stage": 5
+},
+{
+"q": "[תתחדש]",
+"a": "Enjoy it, it looks great.",
+"l": "Renew yourself.",
+"d": "Be new.",
+"step": 465,
+"stage": 5
+},
+{
+"q": "[כל הכבוד]",
+"a": "Well done.",
+"l": "All the honor.",
+"d": "All respect.",
+"step": 466,
+"stage": 5
+},
+{
+"q": "[יישר כוח]",
+"a": "More power to you.",
+"l": "Straighten power.",
+"d": "Straight strength.",
+"step": 467,
+"stage": 5
+},
+{
+"q": "[בשעה טובה]",
+"a": "Congratulations.",
+"l": "In a good hour.",
+"d": "At a good time.",
+"step": 468,
+"stage": 5
+},
+{
+"q": "[עד מאה ועשרים]",
+"a": "Many happy returns.",
+"l": "Until one hundred twenty.",
+"d": "Live to 120.",
+"step": 469,
+"stage": 5
+},
+{
+"q": "[אני על הגל]",
+"a": "I'm on a roll.",
+"l": "I'm on the wave.",
+"d": "I'm surfing.",
+"step": 470,
+"stage": 5
+},
+{
+"q": "[הוא על הגל]",
+"a": "He's trending.",
+"l": "He's on the wave.",
+"d": "He's surfing.",
+"step": 471,
+"stage": 5
+},
+{
+"q": "[שקט, מקליטים]",
+"a": "Quiet, we're rolling.",
+"l": "Quiet, recording.",
+"d": "Silence, record.",
+"step": 472,
+"stage": 5
+},
+{
+"q": "[ביום בהיר]",
+"a": "Out of the blue.",
+"l": "On a clear day.",
+"d": "On a bright day.",
+"step": 473,
+"stage": 5
+},
+{
+"q": "[ככה לא עושים]",
+"a": "That's not how it's done.",
+"l": "Like this you don't do.",
+"d": "So not doing.",
+"step": 474,
+"stage": 5
+},
+{
+"q": "[כמו שצריך]",
+"a": "Properly.",
+"l": "Like it needs.",
+"d": "As needed.",
+"step": 475,
+"stage": 5
+},
+{
+"q": "[מה אתה מתעצבן?]",
+"a": "Why are you getting worked up?",
+"l": "What are you nerving?",
+"d": "Why angry you?",
+"step": 476,
+"stage": 5
+},
+{
+"q": "[אני מאוהב]",
+"a": "I'm head over heels.",
+"l": "I'm in love.",
+"d": "I'm loved.",
+"step": 477,
+"stage": 5
+},
+{
+"q": "[נדלקתי עליה]",
+"a": "I've got a crush on her.",
+"l": "I lit up on her.",
+"d": "I caught fire on her.",
+"step": 478,
+"stage": 5
+},
+{
+"q": "[הוא נדלק]",
+"a": "He got all excited.",
+"l": "He lit up.",
+"d": "He turned on.",
+"step": 479,
+"stage": 5
+},
+{
+"q": "[מה קרה לך?]",
+"a": "What's gotten into you?",
+"l": "What happened to you?",
+"d": "What happened you?",
+"step": 480,
+"stage": 5
+},
+{
+"q": "[לא היה לי זמן לנשום]",
+"a": "I didn't have a minute.",
+"l": "I had no time to breathe.",
+"d": "No breath time.",
+"step": 481,
+"stage": 5
+},
+{
+"q": "[ריצה אחת גדולה]",
+"a": "Nonstop rush.",
+"l": "One big run.",
+"d": "A big run.",
+"step": 482,
+"stage": 5
+},
+{
+"q": "[טוב שבאת]",
+"a": "Glad you could make it.",
+"l": "Good that you came.",
+"d": "Good you came.",
+"step": 483,
+"stage": 5
+},
+{
+"q": "[תעשה חשבון]",
+"a": "Do the math.",
+"l": "Make an account.",
+"d": "Make a bill.",
+"step": 484,
+"stage": 5
+},
+{
+"q": "[הוא בונה עליי]",
+"a": "He's counting on me.",
+"l": "He's building on me.",
+"d": "He's constructing me.",
+"step": 485,
+"stage": 5
+},
+{
+"q": "[אל תבנה על זה]",
+"a": "Don't count on it.",
+"l": "Don't build on it.",
+"d": "Don't construct on it.",
+"step": 486,
+"stage": 5
+},
+{
+"q": "[שם את זה על השולחן]",
+"a": "Laid it all out.",
+"l": "Put it on the table.",
+"d": "Put it on the desk.",
+"step": 487,
+"stage": 5
+},
+{
+"q": "[יוצא לי מהתחת]",
+"a": "I've had it with this.",
+"l": "It comes out of my butt.",
+"d": "It goes out of me.",
+"step": 488,
+"stage": 5
+},
+{
+"q": "[מה אתה עושה מזה סיפור?]",
+"a": "Why make a fuss?",
+"l": "Why are you making a story of it?",
+"d": "Why tell a story?",
+"step": 489,
+"stage": 5
+},
+{
+"q": "[בא לי לבכות]",
+"a": "I could cry.",
+"l": "It comes to me to cry.",
+"d": "I come to cry.",
+"step": 490,
+"stage": 5
+},
+{
+"q": "[עזוב, לא חשוב]",
+"a": "Never mind, forget it.",
+"l": "Leave, not important.",
+"d": "Abandon, not important.",
+"step": 491,
+"stage": 5
+},
+{
+"q": "[נפל עליי מהשמיים]",
+"a": "It was a godsend.",
+"l": "It fell on me from the sky.",
+"d": "It dropped from heaven.",
+"step": 492,
+"stage": 5
+},
+{
+"q": "[מכה בשטח]",
+"a": "A real hit.",
+"l": "A blow in the field.",
+"d": "A field hit.",
+"step": 493,
+"stage": 5
+},
+{
+"q": "[שבר את הרשת]",
+"a": "It went viral.",
+"l": "It broke the net.",
+"d": "It broke the internet cable.",
+"step": 494,
+"stage": 5
+},
+{
+"q": "[הכל פתוח]",
+"a": "Anything can happen.",
+"l": "Everything is open.",
+"d": "All is opened.",
+"step": 495,
+"stage": 5
+},
+{
+"q": "[לא מקבל את זה]",
+"a": "I won't accept that.",
+"l": "Not receiving it.",
+"d": "Not getting it.",
+"step": 496,
+"stage": 5
+},
+{
+"q": "[סוגרים את השבוע]",
+"a": "Wrapping up the week.",
+"l": "Closing the week.",
+"d": "Shutting the week.",
+"step": 497,
+"stage": 5
+},
+{
+"q": "[בוא נשבור את הראש ביחד]",
+"a": "Let's put our heads together.",
+"l": "Let's break the head together.",
+"d": "Let's crack heads.",
+"step": 498,
+"stage": 5
+},
+{
+"q": "[תוריד פרופיל]",
+"a": "Keep a low profile.",
+"l": "Take down profile.",
+"d": "Delete your profile.",
+"step": 499,
+"stage": 5
+},
+{
+"q": "[הוא עף מהכיסא]",
+"a": "He was blown away.",
+"l": "He flew from the chair.",
+"d": "He fell off the chair.",
+"step": 500,
+"stage": 5
+}
+]

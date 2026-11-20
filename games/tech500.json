@@ -1,0 +1,4002 @@
+[
+{
+"q": "ה-VP החדש [עושה לי מיקרו-מנג׳מנט] על כל קומיט",
+"a": "He's micromanaging me.",
+"l": "He's doing me micro-management.",
+"d": "He's managing me micro.",
+"step": 1,
+"stage": 1
+},
+{
+"q": "הפיצ׳ר [עלה לאוויר] הלילה 🚀",
+"a": "The feature went live last night.",
+"l": "The feature went up to the air last night.",
+"d": "The feature was on air last night.",
+"step": 2,
+"stage": 1
+},
+{
+"q": "[השרת נפל] באמצע הדמו",
+"a": "The server went down mid-demo.",
+"l": "The server fell mid-demo.",
+"d": "The server dropped out mid-demo.",
+"step": 3,
+"stage": 1
+},
+{
+"q": "כשאתה מסיים [תעשה לי פינג]",
+"a": "Ping me when you're done.",
+"l": "Do me a ping when you're done.",
+"d": "Ping on me when you're done.",
+"step": 4,
+"stage": 1
+},
+{
+"q": "יש לי שאלה קצרה, [תרים לי טלפון]?",
+"a": "Can you give me a call?",
+"l": "Can you lift me a phone?",
+"d": "Can you pick me up?",
+"step": 5,
+"stage": 1
+},
+{
+"q": "לפני שאני שולח ללקוח, [תעשה לי סאניטי צ׳ק]",
+"a": "Can you sanity-check this?",
+"l": "Do me a sanity check.",
+"d": "Can you check my sanity?",
+"step": 6,
+"stage": 1
+},
+{
+"q": "[הדיפלוי עף], צריך להריץ שוב",
+"a": "The deployment failed. We need to rerun it.",
+"l": "The deploy flew. We need to rerun it.",
+"d": "The deploy took off. We need to rerun it.",
+"step": 7,
+"stage": 1
+},
+{
+"q": "הוא עובד עם [ראש גדול], לוקח אחריות על הכל",
+"a": "He really takes ownership.",
+"l": "He has a big head.",
+"d": "He's a big shot.",
+"step": 8,
+"stage": 1
+},
+{
+"q": "הוא עובד עם [ראש קטן], רק מה שביקשו ממנו",
+"a": "He only does the bare minimum.",
+"l": "He has a small head.",
+"d": "He's small-minded.",
+"step": 9,
+"stage": 1
+},
+{
+"q": "אנחנו [מגייסים סבב] ברבעון הבא",
+"a": "We're raising a round next quarter.",
+"l": "We're recruiting a round next quarter.",
+"d": "We're drafting a round next quarter.",
+"step": 10,
+"stage": 1
+},
+{
+"q": "בוא [נרד לפרטים] של התמחור",
+"a": "Let's dig into the details on pricing.",
+"l": "Let's go down to the details on pricing.",
+"d": "Let's go down on pricing.",
+"step": 11,
+"stage": 1
+},
+{
+"q": "[תסגור לי את זה] עד סוף היום?",
+"a": "Can you wrap this up by end of day?",
+"l": "Can you close me this by end of day?",
+"d": "Can you shut this by end of day?",
+"step": 12,
+"stage": 1
+},
+{
+"q": "שלח לי את המצגת, [אני אעבור על זה]",
+"a": "Send me the deck and I'll go over it.",
+"l": "Send me the deck and I'll pass on it.",
+"d": "Send me the deck and I'll walk on it.",
+"step": 13,
+"stage": 1
+},
+{
+"q": "אחרי הישיבה [תעשה לי מייל מסכם]",
+"a": "Send me a recap email after the meeting.",
+"l": "Do me a summarizing mail after the meeting.",
+"d": "Make me a summary mail after the meeting.",
+"step": 14,
+"stage": 1
+},
+{
+"q": "זה ענק, בוא [נשבור את זה לטסקים]",
+"a": "Let's break it down into tasks.",
+"l": "Let's break it to tasks.",
+"d": "Let's crash it into tasks.",
+"step": 15,
+"stage": 1
+},
+{
+"q": "אני מחכה בלובי, [תכניס אותי לזום]",
+"a": "Can you let me into the Zoom?",
+"l": "Can you insert me into the Zoom?",
+"d": "Can you put me inside Zoom?",
+"step": 16,
+"stage": 1
+},
+{
+"q": "שמעת? הוא [עף מהחברה]",
+"a": "He got let go.",
+"l": "He flew from the company.",
+"d": "He flew out of the company.",
+"step": 17,
+"stage": 1
+},
+{
+"q": "השבוע [יש לי עומס] מטורף",
+"a": "I'm completely swamped this week.",
+"l": "I have a crazy load this week.",
+"d": "I'm totally loaded this week.",
+"step": 18,
+"stage": 1
+},
+{
+"q": "זה דחוף, [תקפיץ את זה] למעלה ברשימה",
+"a": "Please bump it up the list.",
+"l": "Please jump it up the list.",
+"d": "Please bounce it up the list.",
+"step": 19,
+"stage": 1
+},
+{
+"q": "יש לך 5 דקות? בוא [נקפוץ לשיחה]",
+"a": "Let's hop on a quick call.",
+"l": "Let's jump to a conversation.",
+"d": "Let's skip to a call.",
+"step": 20,
+"stage": 1
+},
+{
+"q": "ברגע האחרון [הלקוח ירד מהעסקה]",
+"a": "The client backed out at the last minute.",
+"l": "The client went down from the deal at the last minute.",
+"d": "The client got off the deal at the last minute.",
+"step": 21,
+"stage": 1
+},
+{
+"q": "אין זמן לזה בספרינט, [בוא נוריד את הפיצ׳ר]",
+"a": "Let's cut the feature.",
+"l": "Let's take down the feature.",
+"d": "Let's download the feature.",
+"step": 22,
+"stage": 1
+},
+{
+"q": "לפני ההשקה הוא [סגר את כל הקצוות]",
+"a": "He tied up all the loose ends.",
+"l": "He closed all the edges.",
+"d": "He cut all the corners.",
+"step": 23,
+"stage": 1
+},
+{
+"q": "אני [בפגישות רצופות] עד 4",
+"a": "I'm in back-to-back meetings until 4.",
+"l": "I'm in continuous meetings until 4.",
+"d": "I'm in running meetings until 4.",
+"step": 24,
+"stage": 1
+},
+{
+"q": "[תשלח לי זימון] לחמישי ב-10",
+"a": "Send me an invite for Thursday at 10.",
+"l": "Send me a summons for Thursday at 10.",
+"d": "Send me an invitation card for Thursday at 10.",
+"step": 25,
+"stage": 1
+},
+{
+"q": "בוא [נעשה סינק] מחר",
+"a": "Let's sync tomorrow.",
+"l": "Let's do a sink tomorrow.",
+"d": "Let's make a sink.",
+"step": 26,
+"stage": 1
+},
+{
+"q": "[תעדכן אותי] כשזה מוכן",
+"a": "Keep me posted.",
+"l": "Update me.",
+"d": "Renew me.",
+"step": 27,
+"stage": 1
+},
+{
+"q": "הלקוח [עשה לנו ברז]",
+"a": "The client stood us up.",
+"l": "The client made us a faucet.",
+"d": "The client opened the tap.",
+"step": 28,
+"stage": 1
+},
+{
+"q": "[אני על זה] עד הצהריים",
+"a": "I'll have it by noon.",
+"l": "I'm on it until noon.",
+"d": "I'm on top of it at noon.",
+"step": 29,
+"stage": 1
+},
+{
+"q": "[תשים אותי ב-CC]",
+"a": "Copy me on it.",
+"l": "Put me in CC.",
+"d": "Put me in the sea.",
+"step": 30,
+"stage": 1
+},
+{
+"q": "[תשלח לי בוואטסאפ]",
+"a": "Text me.",
+"l": "Send me in WhatsApp.",
+"d": "Send me inside WhatsApp.",
+"step": 31,
+"stage": 1
+},
+{
+"q": "הוא [עשה לנו פיילוט]",
+"a": "He ran a pilot for us.",
+"l": "He made us a pilot.",
+"d": "He flew us a plane.",
+"step": 32,
+"stage": 1
+},
+{
+"q": "[הספרינט נשרף]",
+"a": "The sprint fell apart.",
+"l": "The sprint burned.",
+"d": "The sprint caught fire.",
+"step": 33,
+"stage": 1
+},
+{
+"q": "[הבאג מתחבא]",
+"a": "The bug is hard to reproduce.",
+"l": "The bug is hiding.",
+"d": "The bug went hiding.",
+"step": 34,
+"stage": 1
+},
+{
+"q": "[זה בפרודקשן]",
+"a": "It's live in production.",
+"l": "It's in the production.",
+"d": "It's in the factory.",
+"step": 35,
+"stage": 1
+},
+{
+"q": "[תוריד את זה מהבורד]",
+"a": "Take it off the board.",
+"l": "Download it from the board.",
+"d": "Take it down from the table.",
+"step": 36,
+"stage": 1
+},
+{
+"q": "[נעשה לזה ריפקטור]",
+"a": "Let's refactor it.",
+"l": "We'll make it a refactor.",
+"d": "Let's do a factory.",
+"step": 37,
+"stage": 1
+},
+{
+"q": "[המייל נפל לספאם]",
+"a": "The email went to spam.",
+"l": "The email fell into spam.",
+"d": "The email dropped in spam.",
+"step": 38,
+"stage": 1
+},
+{
+"q": "[הוא עונה רק בסלאק]",
+"a": "He only answers on Slack.",
+"l": "He answers only in Slack.",
+"d": "He answers loosely.",
+"step": 39,
+"stage": 1
+},
+{
+"q": "[יש לי חסם]",
+"a": "I'm blocked.",
+"l": "I have a block.",
+"d": "I have a dam.",
+"step": 40,
+"stage": 1
+},
+{
+"q": "[מי הבעלים של זה?]",
+"a": "Who owns this?",
+"l": "Who is the owner of this?",
+"d": "Who is the husband of this?",
+"step": 41,
+"stage": 1
+},
+{
+"q": "[תעשה לי אונר]",
+"a": "Take ownership.",
+"l": "Do me an owner.",
+"d": "Make me honor.",
+"step": 42,
+"stage": 1
+},
+{
+"q": "[אנחנו בפיגור]",
+"a": "We're behind schedule.",
+"l": "We're in delay.",
+"d": "We're retarded.",
+"step": 43,
+"stage": 1
+},
+{
+"q": "[הדדליין דופק]",
+"a": "The deadline is breathing down our neck.",
+"l": "The deadline is knocking.",
+"d": "The deadline is banging.",
+"step": 44,
+"stage": 1
+},
+{
+"q": "[לא נספיק]",
+"a": "We won't make it.",
+"l": "We won't manage.",
+"d": "We won't finish enough.",
+"step": 45,
+"stage": 1
+},
+{
+"q": "[הוא עף על הפיצ'ר]",
+"a": "He loves the feature.",
+"l": "He's flying on the feature.",
+"d": "He flew with it.",
+"step": 46,
+"stage": 1
+},
+{
+"q": "[תן לי הערכה]",
+"a": "Give me an estimate.",
+"l": "Give me an appreciation.",
+"d": "Give me a review.",
+"step": 47,
+"stage": 1
+},
+{
+"q": "[זה ייקח שבוע עבודה]",
+"a": "That's a week of work.",
+"l": "It will take a work week.",
+"d": "It takes a job week.",
+"step": 48,
+"stage": 1
+},
+{
+"q": "[המערכת קרסה]",
+"a": "The system crashed.",
+"l": "The system collapsed.",
+"d": "The system fell down.",
+"step": 49,
+"stage": 1
+},
+{
+"q": "[צריך לעשות ריסטארט]",
+"a": "We need to restart it.",
+"l": "Need to do a restart.",
+"d": "Need to make a restart.",
+"step": 50,
+"stage": 1
+},
+{
+"q": "[תעשה ריפרש]",
+"a": "Refresh the page.",
+"l": "Make a refresh.",
+"d": "Do refreshing.",
+"step": 51,
+"stage": 1
+},
+{
+"q": "[זה תקוע אצל המשפטיות]",
+"a": "It's stuck with legal.",
+"l": "It's stuck at the lawyeresses.",
+"d": "It's stuck by the judges.",
+"step": 52,
+"stage": 1
+},
+{
+"q": "[זה עבר QA]",
+"a": "It passed QA.",
+"l": "It went through QA.",
+"d": "It passed by QA.",
+"step": 53,
+"stage": 1
+},
+{
+"q": "[תסגור את הטיקט]",
+"a": "Close the ticket.",
+"l": "Shut the ticket.",
+"d": "Lock the ticket.",
+"step": 54,
+"stage": 1
+},
+{
+"q": "[הפיצ'ר הזה הוא נייס טו האב]",
+"a": "That's a nice-to-have.",
+"l": "This feature is nice to have.",
+"d": "This is a good have.",
+"step": 55,
+"stage": 1
+},
+{
+"q": "[זה מאסט]",
+"a": "It's a must-have.",
+"l": "It's a must.",
+"d": "It's mast.",
+"step": 56,
+"stage": 1
+},
+{
+"q": "[בוא נחשוב מחוץ לקופסה]",
+"a": "Let's think outside the box.",
+"l": "Let's think outside of the box.",
+"d": "Let's think out of a box.",
+"step": 57,
+"stage": 1
+},
+{
+"q": "[הצוות בפול גז]",
+"a": "The team is full speed ahead.",
+"l": "The team is in full gas.",
+"d": "The team has full gas.",
+"step": 58,
+"stage": 1
+},
+{
+"q": "[הוא לקח חופש]",
+"a": "He's on PTO.",
+"l": "He took freedom.",
+"d": "He took a free.",
+"step": 59,
+"stage": 1
+},
+{
+"q": "[אני במילואים]",
+"a": "I'm on reserve duty.",
+"l": "I'm in fillings.",
+"d": "I'm in the fillings.",
+"step": 60,
+"stage": 1
+},
+{
+"q": "[אני עובד מהבית]",
+"a": "I'm working remotely.",
+"l": "I'm working from the house.",
+"d": "I work out of house.",
+"step": 61,
+"stage": 1
+},
+{
+"q": "[תפתח מצלמה]",
+"a": "Turn your camera on.",
+"l": "Open camera.",
+"d": "Open the camera door.",
+"step": 62,
+"stage": 1
+},
+{
+"q": "[אני לא שומע אותך טוב]",
+"a": "You're breaking up.",
+"l": "I don't hear you good.",
+"d": "I'm not hearing you well good.",
+"step": 63,
+"stage": 1
+},
+{
+"q": "[נתקע לך המסך]",
+"a": "Your screen froze.",
+"l": "Your screen got stuck to you.",
+"d": "The screen stuck you.",
+"step": 64,
+"stage": 1
+},
+{
+"q": "[תשתף מסך]",
+"a": "Share your screen.",
+"l": "Share screen.",
+"d": "Partner the screen.",
+"step": 65,
+"stage": 1
+},
+{
+"q": "[תעלה את זה לדרייב]",
+"a": "Upload it to Drive.",
+"l": "Raise it to the Drive.",
+"d": "Put it up the drive.",
+"step": 66,
+"stage": 1
+},
+{
+"q": "[תוריד את הקובץ]",
+"a": "Download the file.",
+"l": "Take down the file.",
+"d": "Lower the file.",
+"step": 67,
+"stage": 1
+},
+{
+"q": "[זה לא מסתנכרן]",
+"a": "It's not syncing.",
+"l": "It's not synchronizing itself.",
+"d": "It's not sinking.",
+"step": 68,
+"stage": 1
+},
+{
+"q": "[המצגת מוכנה?]",
+"a": "Is the deck ready?",
+"l": "Is the presentation ready?",
+"d": "Is the show ready?",
+"step": 69,
+"stage": 1
+},
+{
+"q": "[תכין לי וואן פייג'ר]",
+"a": "Put together a one-pager.",
+"l": "Prepare me a one pager.",
+"d": "Make me a page one.",
+"step": 70,
+"stage": 1
+},
+{
+"q": "[בוא נעשה בריינסטורם]",
+"a": "Let's brainstorm.",
+"l": "Let's do a brainstorm.",
+"d": "Let's make a brain storm.",
+"step": 71,
+"stage": 1
+},
+{
+"q": "[נעשה שולחן עגול]",
+"a": "Let's go around the table.",
+"l": "We'll do a round table.",
+"d": "Let's make a round table.",
+"step": 72,
+"stage": 1
+},
+{
+"q": "[תציג את עצמך]",
+"a": "Introduce yourself.",
+"l": "Show yourself.",
+"d": "Display yourself.",
+"step": 73,
+"stage": 1
+},
+{
+"q": "[מה התפקיד שלך?]",
+"a": "What's your role?",
+"l": "What's your function?",
+"d": "What's your job title role?",
+"step": 74,
+"stage": 1
+},
+{
+"q": "[אני מנהל מוצר]",
+"a": "I'm a product manager.",
+"l": "I'm a manager of product.",
+"d": "I manage a product.",
+"step": 75,
+"stage": 1
+},
+{
+"q": "[הוא ג'וניור]",
+"a": "He's junior.",
+"l": "He's a junior.",
+"d": "He's a kid.",
+"step": 76,
+"stage": 1
+},
+{
+"q": "[היא סניורית]",
+"a": "She's senior.",
+"l": "She's a senior.",
+"d": "She's old.",
+"step": 77,
+"stage": 1
+},
+{
+"q": "[הוא פול סטאק]",
+"a": "He's a full-stack developer.",
+"l": "He's a full stack.",
+"d": "He's full of stacks.",
+"step": 78,
+"stage": 1
+},
+{
+"q": "[המנכ\"ל מעורב בזה]",
+"a": "The CEO is involved.",
+"l": "The CEO is mixed in it.",
+"d": "The CEO is mixed up.",
+"step": 79,
+"stage": 1
+},
+{
+"q": "[זה עלה לדירקטוריון]",
+"a": "It went up to the board.",
+"l": "It climbed to the board.",
+"d": "It rose to the directors.",
+"step": 80,
+"stage": 1
+},
+{
+"q": "[אנחנו בסבב גיוס]",
+"a": "We're raising a round.",
+"l": "We're in a recruiting round.",
+"d": "We're in a hiring round.",
+"step": 81,
+"stage": 1
+},
+{
+"q": "[גייסנו סיד]",
+"a": "We closed our seed round.",
+"l": "We recruited a seed.",
+"d": "We hired a seed.",
+"step": 82,
+"stage": 1
+},
+{
+"q": "[המשקיעים נכנסו]",
+"a": "The investors came on board.",
+"l": "The investors entered.",
+"d": "The investors came in the room.",
+"step": 83,
+"stage": 1
+},
+{
+"q": "[הוא אנג'ל]",
+"a": "He's an angel investor.",
+"l": "He's an angel.",
+"d": "He's holy.",
+"step": 84,
+"stage": 1
+},
+{
+"q": "[תעשה לי אינטרו]",
+"a": "Can you introduce me?",
+"l": "Make me an intro.",
+"d": "Do me an intro song.",
+"step": 85,
+"stage": 1
+},
+{
+"q": "[נעשה קולד קול]",
+"a": "We'll cold call them.",
+"l": "We'll make a cold call.",
+"d": "We'll call cold.",
+"step": 86,
+"stage": 1
+},
+{
+"q": "[הלקוח חם]",
+"a": "It's a warm lead.",
+"l": "The client is hot.",
+"d": "The client is sexy.",
+"step": 87,
+"stage": 1
+},
+{
+"q": "[הליד התקרר]",
+"a": "The lead went cold.",
+"l": "The lead got cold.",
+"d": "The lead cooled down.",
+"step": 88,
+"stage": 1
+},
+{
+"q": "[סגרנו עסקה]",
+"a": "We closed the deal.",
+"l": "We closed a business.",
+"d": "We shut a deal.",
+"step": 89,
+"stage": 1
+},
+{
+"q": "[הלקוח חתם]",
+"a": "The client signed.",
+"l": "The client stamped.",
+"d": "The client sealed.",
+"step": 90,
+"stage": 1
+},
+{
+"q": "[הם בפיילוט]",
+"a": "They're piloting it.",
+"l": "They're in pilot.",
+"d": "They're flying.",
+"step": 91,
+"stage": 1
+},
+{
+"q": "[אנחנו בצנרת]",
+"a": "It's in the pipeline.",
+"l": "We're in the pipes.",
+"d": "We're in the plumbing.",
+"step": 92,
+"stage": 1
+},
+{
+"q": "[זה בצנרת]",
+"a": "It's in the pipeline.",
+"l": "It's in the plumbing.",
+"d": "It's in the pipes.",
+"step": 93,
+"stage": 1
+},
+{
+"q": "[הכנסות חוזרות]",
+"a": "Recurring revenue.",
+"l": "Returning incomes.",
+"d": "Coming back money.",
+"step": 94,
+"stage": 1
+},
+{
+"q": "[שרפנו את התקציב]",
+"a": "We burned through the budget.",
+"l": "We burned the budget.",
+"d": "We set fire to the budget.",
+"step": 95,
+"stage": 1
+},
+{
+"q": "[קצב שריפה]",
+"a": "Burn rate.",
+"l": "Speed of burning.",
+"d": "Fire speed.",
+"step": 96,
+"stage": 1
+},
+{
+"q": "[יש לנו ראנוויי לשנה]",
+"a": "We have a year of runway.",
+"l": "We have a runway for a year.",
+"d": "We have an airport.",
+"step": 97,
+"stage": 1
+},
+{
+"q": "[עשינו פיבוט]",
+"a": "We pivoted.",
+"l": "We made a pivot.",
+"d": "We did a pivot turn.",
+"step": 98,
+"stage": 1
+},
+{
+"q": "[היינו צריכים להוריד אנשים]",
+"a": "We had to lay people off.",
+"l": "We needed to take down people.",
+"d": "We took people down.",
+"step": 99,
+"stage": 1
+},
+{
+"q": "[פיטרו אותו]",
+"a": "He was let go.",
+"l": "They fired him.",
+"d": "They burned him.",
+"step": 100,
+"stage": 1
+},
+{
+"q": "[הוא התפטר]",
+"a": "He quit.",
+"l": "He resigned himself.",
+"d": "He fired himself.",
+"step": 101,
+"stage": 2
+},
+{
+"q": "[זה הסוף שלו פה]",
+"a": "His days here are numbered.",
+"l": "It's his end here.",
+"d": "This is his finish.",
+"step": 102,
+"stage": 2
+},
+{
+"q": "[הוא קיבל העלאה]",
+"a": "He got a raise.",
+"l": "He got an upload.",
+"d": "He got a lift.",
+"step": 103,
+"stage": 2
+},
+{
+"q": "[הוא קיבל קידום]",
+"a": "He got promoted.",
+"l": "He got a promotion.",
+"d": "He got a sale.",
+"step": 104,
+"stage": 2
+},
+{
+"q": "[תעשה לי פידבק]",
+"a": "Give me feedback.",
+"l": "Make me feedback.",
+"d": "Do me a feedback.",
+"step": 105,
+"stage": 2
+},
+{
+"q": "[פידבק בונה]",
+"a": "Constructive feedback.",
+"l": "Building feedback.",
+"d": "Feedback that builds.",
+"step": 106,
+"stage": 2
+},
+{
+"q": "[הוא לוקח הכל אישית]",
+"a": "He takes everything personally.",
+"l": "He takes all personally.",
+"d": "He takes it personal.",
+"step": 107,
+"stage": 2
+},
+{
+"q": "[בוא נעשה תיאום ציפיות]",
+"a": "Let's set expectations.",
+"l": "Let's make a coordination of hopes.",
+"d": "Let's sync hopes.",
+"step": 108,
+"stage": 2
+},
+{
+"q": "[אני רוצה לתאם ציפיות]",
+"a": "I want to align on expectations.",
+"l": "I want to coordinate expectations.",
+"d": "I want to match hopes.",
+"step": 109,
+"stage": 2
+},
+{
+"q": "[על איזה זמנים אנחנו מדברים?]",
+"a": "What's the timeline?",
+"l": "On which times are we talking?",
+"d": "What times speak?",
+"step": 110,
+"stage": 2
+},
+{
+"q": "[מה הלו\"ז?]",
+"a": "What's the schedule?",
+"l": "What's the luz?",
+"d": "What's the almond?",
+"step": 111,
+"stage": 2
+},
+{
+"q": "[זה בלו\"ז]",
+"a": "It's on the schedule.",
+"l": "It's in the luz.",
+"d": "It's in the timetable.",
+"step": 112,
+"stage": 2
+},
+{
+"q": "[אני מפוצץ בפגישות]",
+"a": "I'm swamped with meetings.",
+"l": "I'm exploded with meetings.",
+"d": "I'm bursting meetings.",
+"step": 113,
+"stage": 2
+},
+{
+"q": "[יש לי פגישה על פגישה]",
+"a": "I'm in back-to-back meetings.",
+"l": "I have meeting on meeting.",
+"d": "Meeting over meeting.",
+"step": 114,
+"stage": 2
+},
+{
+"q": "[ביטלו לי את הפגישה]",
+"a": "My meeting got canceled.",
+"l": "They canceled me the meeting.",
+"d": "My meeting was erased.",
+"step": 115,
+"stage": 2
+},
+{
+"q": "[נדחה למחר]",
+"a": "It got pushed to tomorrow.",
+"l": "It was pushed off to tomorrow.",
+"d": "It's rejected to tomorrow.",
+"step": 116,
+"stage": 2
+},
+{
+"q": "[בוא נקדים]",
+"a": "Let's move it up.",
+"l": "Let's make it early.",
+"d": "Let's come before.",
+"step": 117,
+"stage": 2
+},
+{
+"q": "[אני מאחר בחמש דקות]",
+"a": "I'm running five minutes late.",
+"l": "I'm late in five minutes.",
+"d": "I'm five minutes delaying.",
+"step": 118,
+"stage": 2
+},
+{
+"q": "[מחכה לך בזום]",
+"a": "I'm waiting for you on Zoom.",
+"l": "Waiting for you in Zoom.",
+"d": "Waiting in Zoom room.",
+"step": 119,
+"stage": 2
+},
+{
+"q": "[נתנתק]",
+"a": "Let's hang up.",
+"l": "We'll disconnect.",
+"d": "We'll unplug.",
+"step": 120,
+"stage": 2
+},
+{
+"q": "[השיחה נפלה]",
+"a": "The call dropped.",
+"l": "The call fell.",
+"d": "The call fell down.",
+"step": 121,
+"stage": 2
+},
+{
+"q": "[אני חוזר אליך]",
+"a": "I'll get back to you.",
+"l": "I'm returning to you.",
+"d": "I'm coming back to you.",
+"step": 122,
+"stage": 2
+},
+{
+"q": "[תחזור אליי]",
+"a": "Get back to me.",
+"l": "Return to me.",
+"d": "Come back to me.",
+"step": 123,
+"stage": 2
+},
+{
+"q": "[לא קיבלתי מענה]",
+"a": "I haven't heard back.",
+"l": "I didn't receive an answer.",
+"d": "I got no reply text.",
+"step": 124,
+"stage": 2
+},
+{
+"q": "[הוא לא עונה לטלפונים]",
+"a": "He's not picking up.",
+"l": "He doesn't answer to phones.",
+"d": "He doesn't answer the phones.",
+"step": 125,
+"stage": 2
+},
+{
+"q": "[השארתי לו הודעה]",
+"a": "I left him a voicemail.",
+"l": "I left him a message.",
+"d": "I left a message for him.",
+"step": 126,
+"stage": 2
+},
+{
+"q": "[תסמס לי]",
+"a": "Text me.",
+"l": "SMS me.",
+"d": "Message me.",
+"step": 127,
+"stage": 2
+},
+{
+"q": "[תחייג אליי]",
+"a": "Give me a call.",
+"l": "Dial to me.",
+"d": "Dial me.",
+"step": 128,
+"stage": 2
+},
+{
+"q": "[עשיתי לך מיסקול]",
+"a": "I gave you a missed call.",
+"l": "I made you a miscall.",
+"d": "I made you a mistake.",
+"step": 129,
+"stage": 2
+},
+{
+"q": "[בוא נעשה טלפון]",
+"a": "Let's hop on a call.",
+"l": "Let's make a phone.",
+"d": "Let's do a phone.",
+"step": 130,
+"stage": 2
+},
+{
+"q": "[אני עם הלקוח]",
+"a": "I'm with a client.",
+"l": "I'm with the customer.",
+"d": "I'm at the client.",
+"step": 131,
+"stage": 2
+},
+{
+"q": "[אני בפגישה, אחזור אליך]",
+"a": "In a meeting, will call you back.",
+"l": "I'm in a meeting, I'll return to you.",
+"d": "Meeting, back to you.",
+"step": 132,
+"stage": 2
+},
+{
+"q": "[הלקוח עצבני]",
+"a": "The client is upset.",
+"l": "The client is nervous.",
+"d": "The client is anxious.",
+"step": 133,
+"stage": 2
+},
+{
+"q": "[צריך לכבות שריפות]",
+"a": "We need to put out fires.",
+"l": "Need to turn off fires.",
+"d": "Need to extinguish burning.",
+"step": 134,
+"stage": 2
+},
+{
+"q": "[אני מכבה שריפות כל היום]",
+"a": "I'm firefighting all day.",
+"l": "I'm turning off fires all day.",
+"d": "I'm a firefighter today.",
+"step": 135,
+"stage": 2
+},
+{
+"q": "[יש פה בלאגן]",
+"a": "It's a mess here.",
+"l": "There's a balagan here.",
+"d": "There's a party here.",
+"step": 136,
+"stage": 2
+},
+{
+"q": "[זה גרם לבלגן]",
+"a": "It caused chaos.",
+"l": "It made a balagan.",
+"d": "It made a party.",
+"step": 137,
+"stage": 2
+},
+{
+"q": "[הוא עושה פוליטיקות]",
+"a": "He's playing politics.",
+"l": "He's making politics.",
+"d": "He's doing politics.",
+"step": 138,
+"stage": 2
+},
+{
+"q": "[שמתי לב לזה]",
+"a": "I noticed that.",
+"l": "I put heart to it.",
+"d": "I put attention.",
+"step": 139,
+"stage": 2
+},
+{
+"q": "[קח בחשבון]",
+"a": "Keep in mind.",
+"l": "Take in the account.",
+"d": "Take into account bill.",
+"step": 140,
+"stage": 2
+},
+{
+"q": "[בהתאם]",
+"a": "Accordingly.",
+"l": "In accordance.",
+"d": "In agreement.",
+"step": 141,
+"stage": 2
+},
+{
+"q": "[לגבי זה]",
+"a": "Regarding that.",
+"l": "About this.",
+"d": "Toward that.",
+"step": 142,
+"stage": 2
+},
+{
+"q": "[בנוגע לזה]",
+"a": "As for that.",
+"l": "Touching that.",
+"d": "Concerning touching.",
+"step": 143,
+"stage": 2
+},
+{
+"q": "[בהמשך למייל הקודם]",
+"a": "Following up on my last email.",
+"l": "In continuation to the previous mail.",
+"d": "Continuing the previous email.",
+"step": 144,
+"stage": 2
+},
+{
+"q": "[מצרף קובץ]",
+"a": "Please find attached.",
+"l": "Attaching file.",
+"d": "I'm joining a file.",
+"step": 145,
+"stage": 2
+},
+{
+"q": "[אשמח לתשובה]",
+"a": "Looking forward to hearing from you.",
+"l": "I'll be happy for an answer.",
+"d": "Happy for an answer.",
+"step": 146,
+"stage": 2
+},
+{
+"q": "[בברכה]",
+"a": "Best regards.",
+"l": "With blessing.",
+"d": "With blessings.",
+"step": 147,
+"stage": 2
+},
+{
+"q": "[תודה מראש]",
+"a": "Thanks in advance.",
+"l": "Thanks from the head.",
+"d": "Thank you from the beginning.",
+"step": 148,
+"stage": 2
+},
+{
+"q": "[אני מרים את הכפפה]",
+"a": "I'll take that on.",
+"l": "I'm raising the glove.",
+"d": "I'm picking up the glove.",
+"step": 149,
+"stage": 2
+},
+{
+"q": "[זה כבר מאחורינו]",
+"a": "That's behind us.",
+"l": "It's already behind us.",
+"d": "It's in our back.",
+"step": 150,
+"stage": 2
+},
+{
+"q": "[הוא עושה מיקרו]",
+"a": "He micromanages.",
+"l": "He makes micro.",
+"d": "He's microwaving.",
+"step": 151,
+"stage": 2
+},
+{
+"q": "[הוא נותן חופש]",
+"a": "He gives us autonomy.",
+"l": "He gives freedom.",
+"d": "He gives a vacation.",
+"step": 152,
+"stage": 2
+},
+{
+"q": "[בוא נדבר על המספרים]",
+"a": "Let's talk numbers.",
+"l": "Let's speak about the numbers.",
+"d": "Let's discuss numbers numbers.",
+"step": 153,
+"stage": 2
+},
+{
+"q": "[זה לא מסתדר במספרים]",
+"a": "The numbers don't add up.",
+"l": "It doesn't arrange in the numbers.",
+"d": "It doesn't line up in numbers.",
+"step": 154,
+"stage": 2
+},
+{
+"q": "[זה רווחי?]",
+"a": "Is it profitable?",
+"l": "Is it profitful?",
+"d": "Is it winning?",
+"step": 155,
+"stage": 2
+},
+{
+"q": "[אנחנו מאוזנים]",
+"a": "We're breaking even.",
+"l": "We're balanced.",
+"d": "We're in balance.",
+"step": 156,
+"stage": 2
+},
+{
+"q": "[אנחנו ברווח]",
+"a": "We're in the black.",
+"l": "We're in profit.",
+"d": "We're winning.",
+"step": 157,
+"stage": 2
+},
+{
+"q": "[אנחנו בהפסד]",
+"a": "We're in the red.",
+"l": "We're in loss.",
+"d": "We're losing.",
+"step": 158,
+"stage": 2
+},
+{
+"q": "[פספסנו את היעד]",
+"a": "We missed our target.",
+"l": "We missed the goal.",
+"d": "We missed the destination.",
+"step": 159,
+"stage": 2
+},
+{
+"q": "[עברנו את היעד]",
+"a": "We beat our target.",
+"l": "We passed the target.",
+"d": "We went past the goal.",
+"step": 160,
+"stage": 2
+},
+{
+"q": "[תשבור את זה לשלבים]",
+"a": "Break it down into steps.",
+"l": "Break it to stairs.",
+"d": "Break it into stages floors.",
+"step": 161,
+"stage": 2
+},
+{
+"q": "[בוא נעשה דיבריף]",
+"a": "Let's do a debrief.",
+"l": "Let's make a debrief.",
+"d": "Let's do a brief.",
+"step": 162,
+"stage": 2
+},
+{
+"q": "[תעשה סיכום פגישה]",
+"a": "Send out the meeting notes.",
+"l": "Make a meeting summary.",
+"d": "Do a meeting sum.",
+"step": 163,
+"stage": 2
+},
+{
+"q": "[מי לוקח את זה?]",
+"a": "Who's taking point on this?",
+"l": "Who takes this?",
+"d": "Who is taking it home?",
+"step": 164,
+"stage": 2
+},
+{
+"q": "[זה עליך]",
+"a": "That's yours.",
+"l": "It's on you.",
+"d": "It's upon you.",
+"step": 165,
+"stage": 2
+},
+{
+"q": "[זה לא בתחום שלי]",
+"a": "That's not my area.",
+"l": "It's not in my field.",
+"d": "It's not my territory.",
+"step": 166,
+"stage": 2
+},
+{
+"q": "[העברתי את זה הלאה]",
+"a": "I passed it on.",
+"l": "I moved it further.",
+"d": "I transferred it far.",
+"step": 167,
+"stage": 2
+},
+{
+"q": "[הוא מעביר את האחריות]",
+"a": "He's passing the buck.",
+"l": "He's moving the responsibility.",
+"d": "He's transferring blame.",
+"step": 168,
+"stage": 2
+},
+{
+"q": "[תעשה הסלמה]",
+"a": "Escalate it.",
+"l": "Make an escalation.",
+"d": "Do an escalator.",
+"step": 169,
+"stage": 2
+},
+{
+"q": "[צריך להעלות את זה למעלה]",
+"a": "We need to escalate this.",
+"l": "Need to raise it up.",
+"d": "Need to bring it upstairs.",
+"step": 170,
+"stage": 2
+},
+{
+"q": "[אני אבדוק ואחזור]",
+"a": "Let me check and get back to you.",
+"l": "I'll check and return.",
+"d": "I'll check and come back.",
+"step": 171,
+"stage": 2
+},
+{
+"q": "[אני לא בטוח, אבדוק]",
+"a": "Not sure, I'll find out.",
+"l": "I'm not safe, I'll check.",
+"d": "I'm not insured, will check.",
+"step": 172,
+"stage": 2
+},
+{
+"q": "[זה בבדיקה]",
+"a": "We're looking into it.",
+"l": "It's in checking.",
+"d": "It's being checked up.",
+"step": 173,
+"stage": 2
+},
+{
+"q": "[זה בטיפול]",
+"a": "It's being handled.",
+"l": "It's in treatment.",
+"d": "It's in therapy.",
+"step": 174,
+"stage": 2
+},
+{
+"q": "[הבעיה מטופלת]",
+"a": "The issue is being taken care of.",
+"l": "The problem is treated.",
+"d": "The problem is in therapy.",
+"step": 175,
+"stage": 2
+},
+{
+"q": "[זה תוקן]",
+"a": "It's been fixed.",
+"l": "It was repaired.",
+"d": "It's corrected.",
+"step": 176,
+"stage": 2
+},
+{
+"q": "[זה עדיין לא עובד]",
+"a": "It's still not working.",
+"l": "It still doesn't work.",
+"d": "It's not working yet still.",
+"step": 177,
+"stage": 2
+},
+{
+"q": "[זה עובד אצלי]",
+"a": "It works on my machine.",
+"l": "It works by me.",
+"d": "It works at me.",
+"step": 178,
+"stage": 2
+},
+{
+"q": "[ניקיתי את הקאש]",
+"a": "I cleared the cache.",
+"l": "I cleaned the cash.",
+"d": "I cleaned the money.",
+"step": 179,
+"stage": 2
+},
+{
+"q": "[תנקה את הקוקיז]",
+"a": "Clear your cookies.",
+"l": "Clean the cookies.",
+"d": "Wash the cookies.",
+"step": 180,
+"stage": 2
+},
+{
+"q": "[הסיסמה לא עובדת]",
+"a": "My password isn't working.",
+"l": "The password doesn't work.",
+"d": "The password isn't employed.",
+"step": 181,
+"stage": 2
+},
+{
+"q": "[תאפס לי סיסמה]",
+"a": "Reset my password.",
+"l": "Zero me a password.",
+"d": "Make my password zero.",
+"step": 182,
+"stage": 2
+},
+{
+"q": "[קיבלתי קוד באס אם אס]",
+"a": "I got a code by text.",
+"l": "I received a code in SMS.",
+"d": "I got an SMS code inside.",
+"step": 183,
+"stage": 2
+},
+{
+"q": "[המחשב נתקע]",
+"a": "My computer froze.",
+"l": "The computer got stuck.",
+"d": "The computer is jammed.",
+"step": 184,
+"stage": 2
+},
+{
+"q": "[המחשב איטי]",
+"a": "My laptop is slow.",
+"l": "The computer is slow.",
+"d": "The computer is lazy.",
+"step": 185,
+"stage": 2
+},
+{
+"q": "[נגמרה לי הסוללה]",
+"a": "My battery died.",
+"l": "My battery finished.",
+"d": "The battery ended to me.",
+"step": 186,
+"stage": 2
+},
+{
+"q": "[אין לי קליטה]",
+"a": "I have no signal.",
+"l": "I have no reception.",
+"d": "I have no absorption.",
+"step": 187,
+"stage": 2
+},
+{
+"q": "[האינטרנט נפל]",
+"a": "The internet is down.",
+"l": "The internet fell.",
+"d": "The internet dropped.",
+"step": 188,
+"stage": 2
+},
+{
+"q": "[תעשה לי לינק]",
+"a": "Send me a link.",
+"l": "Make me a link.",
+"d": "Do me a link.",
+"step": 189,
+"stage": 2
+},
+{
+"q": "[אין לי הרשאה]",
+"a": "I don't have access.",
+"l": "I have no permission.",
+"d": "I'm not allowed.",
+"step": 190,
+"stage": 2
+},
+{
+"q": "[תן לי גישה]",
+"a": "Give me access.",
+"l": "Give me approach.",
+"d": "Give me entry.",
+"step": 191,
+"stage": 2
+},
+{
+"q": "[תעשה לי שיתוף]",
+"a": "Share it with me.",
+"l": "Make me a share.",
+"d": "Do me sharing.",
+"step": 192,
+"stage": 2
+},
+{
+"q": "[מה הסטטוס?]",
+"a": "Where are we on this?",
+"l": "What's the status?",
+"d": "What's the statue?",
+"step": 193,
+"stage": 2
+},
+{
+"q": "[אנחנו בתכנון]",
+"a": "We're in the planning stage.",
+"l": "We're in planning.",
+"d": "We're planning in.",
+"step": 194,
+"stage": 2
+},
+{
+"q": "[אנחנו בביצוע]",
+"a": "We're executing.",
+"l": "We're in execution.",
+"d": "We're being executed.",
+"step": 195,
+"stage": 2
+},
+{
+"q": "[ביצענו]",
+"a": "We delivered.",
+"l": "We executed.",
+"d": "We performed.",
+"step": 196,
+"stage": 2
+},
+{
+"q": "[הוצאנו גרסה]",
+"a": "We shipped a release.",
+"l": "We took out a version.",
+"d": "We released a version out.",
+"step": 197,
+"stage": 2
+},
+{
+"q": "[עלינו לאוויר]",
+"a": "We launched.",
+"l": "We went up to the air.",
+"d": "We flew.",
+"step": 198,
+"stage": 2
+},
+{
+"q": "[השקה]",
+"a": "Launch.",
+"l": "Watering.",
+"d": "Irrigation.",
+"step": 199,
+"stage": 2
+},
+{
+"q": "[לפני ההשקה]",
+"a": "Pre-launch.",
+"l": "Before the watering.",
+"d": "Before the drinking.",
+"step": 200,
+"stage": 2
+},
+{
+"q": "[היה באזז]",
+"a": "There was buzz.",
+"l": "There was a buzz.",
+"d": "It buzzed.",
+"step": 201,
+"stage": 3
+},
+{
+"q": "[עשינו רעש]",
+"a": "We made a splash.",
+"l": "We made noise.",
+"d": "We made a sound.",
+"step": 202,
+"stage": 3
+},
+{
+"q": "[זה התפוצץ]",
+"a": "It blew up.",
+"l": "It exploded.",
+"d": "It burst.",
+"step": 203,
+"stage": 3
+},
+{
+"q": "[זה נכשל]",
+"a": "It flopped.",
+"l": "It failed.",
+"d": "It crashed.",
+"step": 204,
+"stage": 3
+},
+{
+"q": "[למדנו מזה]",
+"a": "We learned from it.",
+"l": "We learned from this.",
+"d": "We studied it.",
+"step": 205,
+"stage": 3
+},
+{
+"q": "[נכשלנו מהר]",
+"a": "We failed fast.",
+"l": "We failed quickly.",
+"d": "We fell fast.",
+"step": 206,
+"stage": 3
+},
+{
+"q": "[נוריד את זה מהשולחן]",
+"a": "Let's take it off the table.",
+"l": "We'll take it down from the table.",
+"d": "Remove it off the desk.",
+"step": 207,
+"stage": 3
+},
+{
+"q": "[נעשה אובר דליבר]",
+"a": "We'll overdeliver.",
+"l": "We'll do over deliver.",
+"d": "We'll deliver over.",
+"step": 208,
+"stage": 3
+},
+{
+"q": "[זה מעל ומעבר]",
+"a": "That's above and beyond.",
+"l": "It's over and beyond.",
+"d": "It's above and over.",
+"step": 209,
+"stage": 3
+},
+{
+"q": "[תעשה את המינימום]",
+"a": "Do the bare minimum.",
+"l": "Make the minimum.",
+"d": "Do minimum.",
+"step": 210,
+"stage": 3
+},
+{
+"q": "[הוא עושה את המינימום]",
+"a": "He coasts.",
+"l": "He makes the minimum.",
+"d": "He does minimum.",
+"step": 211,
+"stage": 3
+},
+{
+"q": "[הוא חרוץ]",
+"a": "He's hardworking.",
+"l": "He's grooved.",
+"d": "He's a ditch.",
+"step": 212,
+"stage": 3
+},
+{
+"q": "[היא תותחית]",
+"a": "She's a rockstar.",
+"l": "She's a cannoness.",
+"d": "She's a cannon.",
+"step": 213,
+"stage": 3
+},
+{
+"q": "[הוא אלוף]",
+"a": "He's the best.",
+"l": "He's a general.",
+"d": "He's a champion general.",
+"step": 214,
+"stage": 3
+},
+{
+"q": "[הם צוות מנצח]",
+"a": "They're a winning team.",
+"l": "They're a winning crew.",
+"d": "They're winning team.",
+"step": 215,
+"stage": 3
+},
+{
+"q": "[הוא אוכל לי את הזמן]",
+"a": "He's eating up my time.",
+"l": "He eats my time.",
+"d": "He's eating the clock.",
+"step": 216,
+"stage": 3
+},
+{
+"q": "[זה בזבוז זמן]",
+"a": "It's a waste of time.",
+"l": "It's a wasting of time.",
+"d": "It's losing time.",
+"step": 217,
+"stage": 3
+},
+{
+"q": "[שווה את הזמן]",
+"a": "Worth the time.",
+"l": "Equal to the time.",
+"d": "Worth the hour.",
+"step": 218,
+"stage": 3
+},
+{
+"q": "[נייצר ערך]",
+"a": "We'll add value.",
+"l": "We'll produce value.",
+"d": "We'll make worth.",
+"step": 219,
+"stage": 3
+},
+{
+"q": "[בוא נמנף את זה]",
+"a": "Let's leverage that.",
+"l": "Let's crane it.",
+"d": "Let's lift it.",
+"step": 220,
+"stage": 3
+},
+{
+"q": "[יש סינרגיה]",
+"a": "There's synergy.",
+"l": "There's synergia.",
+"d": "There's energy.",
+"step": 221,
+"stage": 3
+},
+{
+"q": "[תעשה סדר]",
+"a": "Get organized.",
+"l": "Make order.",
+"d": "Do order.",
+"step": 222,
+"stage": 3
+},
+{
+"q": "[תעשה סדר בראש]",
+"a": "Clear your head.",
+"l": "Make order in the head.",
+"d": "Arrange the head.",
+"step": 223,
+"stage": 3
+},
+{
+"q": "[אין לי ראש לזה]",
+"a": "I can't deal with this now.",
+"l": "I have no head for it.",
+"d": "I don't have a head.",
+"step": 224,
+"stage": 3
+},
+{
+"q": "[אני בעומס]",
+"a": "I'm swamped.",
+"l": "I'm in a load.",
+"d": "I'm loaded.",
+"step": 225,
+"stage": 3
+},
+{
+"q": "[אני מפוצל]",
+"a": "I'm stretched thin.",
+"l": "I'm split.",
+"d": "I'm divided.",
+"step": 226,
+"stage": 3
+},
+{
+"q": "[אני לא זמין]",
+"a": "I'm unavailable.",
+"l": "I'm not available.",
+"d": "I'm not on.",
+"step": 227,
+"stage": 3
+},
+{
+"q": "[אני זמין אחרי ארבע]",
+"a": "I'm free after four.",
+"l": "I'm available after four.",
+"d": "I'm open after four.",
+"step": 228,
+"stage": 3
+},
+{
+"q": "[מתי נוח לך?]",
+"a": "When works for you?",
+"l": "When is comfortable to you?",
+"d": "When are you comfy?",
+"step": 229,
+"stage": 3
+},
+{
+"q": "[מתאים לי]",
+"a": "Works for me.",
+"l": "It fits me.",
+"d": "It suits me.",
+"step": 230,
+"stage": 3
+},
+{
+"q": "[לא מתאים לי]",
+"a": "That doesn't work for me.",
+"l": "It doesn't fit me.",
+"d": "It doesn't suit me.",
+"step": 231,
+"stage": 3
+},
+{
+"q": "[בוא נקבע]",
+"a": "Let's set a time.",
+"l": "Let's fix.",
+"d": "Let's determine.",
+"step": 232,
+"stage": 3
+},
+{
+"q": "[תקבע לי]",
+"a": "Book a slot for me.",
+"l": "Fix me.",
+"d": "Determine me.",
+"step": 233,
+"stage": 3
+},
+{
+"q": "[קבענו]",
+"a": "It's a date.",
+"l": "We fixed.",
+"d": "We decided.",
+"step": 234,
+"stage": 3
+},
+{
+"q": "[אני מבטל]",
+"a": "I need to cancel.",
+"l": "I'm canceling.",
+"d": "I'm nullifying.",
+"step": 235,
+"stage": 3
+},
+{
+"q": "[סליחה על האיחור]",
+"a": "Sorry I'm late.",
+"l": "Sorry on the delay.",
+"d": "Sorry for the lateness.",
+"step": 236,
+"stage": 3
+},
+{
+"q": "[סליחה על הבלבול]",
+"a": "Sorry for the confusion.",
+"l": "Sorry on the confusion.",
+"d": "Sorry for mixing.",
+"step": 237,
+"stage": 3
+},
+{
+"q": "[סליחה על העיכוב]",
+"a": "Sorry for the delay.",
+"l": "Sorry on the holding.",
+"d": "Sorry for holding.",
+"step": 238,
+"stage": 3
+},
+{
+"q": "[תודה על הסבלנות]",
+"a": "Thanks for your patience.",
+"l": "Thanks on the patience.",
+"d": "Thanks for patience you.",
+"step": 239,
+"stage": 3
+},
+{
+"q": "[יפה מאוד]",
+"a": "Great job.",
+"l": "Very pretty.",
+"d": "Very beautiful.",
+"step": 240,
+"stage": 3
+},
+{
+"q": "[עבודה טובה]",
+"a": "Good work.",
+"l": "Good job.",
+"d": "Good working.",
+"step": 241,
+"stage": 3
+},
+{
+"q": "[המשך כך]",
+"a": "Keep it up.",
+"l": "Continue like this.",
+"d": "Continue so.",
+"step": 242,
+"stage": 3
+},
+{
+"q": "[יש מקום לשיפור]",
+"a": "There's room for improvement.",
+"l": "There's place for improvement.",
+"d": "There's room to improve upon.",
+"step": 243,
+"stage": 3
+},
+{
+"q": "[לא רע בכלל]",
+"a": "Not bad at all.",
+"l": "Not bad in general.",
+"d": "Not bad in all.",
+"step": 244,
+"stage": 3
+},
+{
+"q": "[זה פצצה]",
+"a": "It's awesome.",
+"l": "It's a bomb.",
+"d": "It's explosive.",
+"step": 245,
+"stage": 3
+},
+{
+"q": "[אחלה עבודה]",
+"a": "Great job.",
+"l": "Achla work.",
+"d": "Fine work.",
+"step": 246,
+"stage": 3
+},
+{
+"q": "[וואו, מרשים]",
+"a": "Wow, impressive.",
+"l": "Wow, impressing.",
+"d": "Wow, impressed.",
+"step": 247,
+"stage": 3
+},
+{
+"q": "[הצלת אותי]",
+"a": "You saved me.",
+"l": "You rescued me.",
+"d": "You saved my life.",
+"step": 248,
+"stage": 3
+},
+{
+"q": "[עשית לי את היום]",
+"a": "You made my day.",
+"l": "You did me the day.",
+"d": "You made the day.",
+"step": 249,
+"stage": 3
+},
+{
+"q": "[אני חייב לך בירה]",
+"a": "I owe you a beer.",
+"l": "I must you a beer.",
+"d": "I have to give you a beer.",
+"step": 250,
+"stage": 3
+},
+{
+"q": "[ננסה ונראה]",
+"a": "Let's try and see.",
+"l": "We'll try and we'll see.",
+"d": "Try and see.",
+"step": 251,
+"stage": 3
+},
+{
+"q": "[לא בטוח שזה יעבוד]",
+"a": "Not sure that'll fly.",
+"l": "Not safe that it will work.",
+"d": "Not sure it works.",
+"step": 252,
+"stage": 3
+},
+{
+"q": "[זה לא יעוף]",
+"a": "That won't fly.",
+"l": "It won't fly.",
+"d": "It won't take off.",
+"step": 253,
+"stage": 3
+},
+{
+"q": "[זה נשמע לי מוזר]",
+"a": "That sounds off to me.",
+"l": "It sounds to me strange.",
+"d": "It sounds weird to me.",
+"step": 254,
+"stage": 3
+},
+{
+"q": "[יש פה משהו לא ברור]",
+"a": "Something's not clear here.",
+"l": "There's something not clear here.",
+"d": "Something unclear here.",
+"step": 255,
+"stage": 3
+},
+{
+"q": "[תסביר לי שוב]",
+"a": "Walk me through it again.",
+"l": "Explain me again.",
+"d": "Explain to me again again.",
+"step": 256,
+"stage": 3
+},
+{
+"q": "[לא הבנתי]",
+"a": "I didn't catch that.",
+"l": "I didn't understand.",
+"d": "I didn't get.",
+"step": 257,
+"stage": 3
+},
+{
+"q": "[אפשר לחזור על זה?]",
+"a": "Could you repeat that?",
+"l": "Possible to return on it?",
+"d": "Can you go back on it?",
+"step": 258,
+"stage": 3
+},
+{
+"q": "[תדבר לאט]",
+"a": "Slow down a bit.",
+"l": "Speak slow.",
+"d": "Talk slowly please.",
+"step": 259,
+"stage": 3
+},
+{
+"q": "[מה הכוונה?]",
+"a": "What do you mean?",
+"l": "What is the intention?",
+"d": "What's the aim?",
+"step": 260,
+"stage": 3
+},
+{
+"q": "[למה הכוונה?]",
+"a": "What do you mean by that?",
+"l": "To what the intention?",
+"d": "What's intended?",
+"step": 261,
+"stage": 3
+},
+{
+"q": "[תן דוגמה]",
+"a": "Give me an example.",
+"l": "Give example.",
+"d": "Give a sample.",
+"step": 262,
+"stage": 3
+},
+{
+"q": "[בוא נצלול לזה]",
+"a": "Let's dive into that.",
+"l": "Let's dive to it.",
+"d": "Let's sink into it.",
+"step": 263,
+"stage": 3
+},
+{
+"q": "[ברמה העקרונית]",
+"a": "In principle.",
+"l": "In the principled level.",
+"d": "At the principle level.",
+"step": 264,
+"stage": 3
+},
+{
+"q": "[ברמה הגבוהה]",
+"a": "At a high level.",
+"l": "In the high level.",
+"d": "At the top floor.",
+"step": 265,
+"stage": 3
+},
+{
+"q": "[נרד לרזולוציה]",
+"a": "Let's get granular.",
+"l": "We'll go down to resolution.",
+"d": "Let's lower the resolution.",
+"step": 266,
+"stage": 3
+},
+{
+"q": "[מה השורה התחתונה?]",
+"a": "What's the bottom line?",
+"l": "What's the lower line?",
+"d": "What's the bottom row?",
+"step": 267,
+"stage": 3
+},
+{
+"q": "[תכלס, מה עושים?]",
+"a": "So, what's the plan?",
+"l": "Tachles, what do we do?",
+"d": "Actually what make?",
+"step": 268,
+"stage": 3
+},
+{
+"q": "[הוא חי את המוצר]",
+"a": "He lives and breathes the product.",
+"l": "He lives the product.",
+"d": "He's alive the product.",
+"step": 269,
+"stage": 3
+},
+{
+"q": "[המוצר בשל]",
+"a": "The product is mature.",
+"l": "The product is ripe.",
+"d": "The product is cooked.",
+"step": 270,
+"stage": 3
+},
+{
+"q": "[המוצר לא בשל]",
+"a": "The product isn't ready yet.",
+"l": "The product isn't ripe.",
+"d": "The product is raw.",
+"step": 271,
+"stage": 3
+},
+{
+"q": "[הלקוחות משוגעים עליו]",
+"a": "Customers love it.",
+"l": "The customers are crazy on it.",
+"d": "Customers are mad at it.",
+"step": 272,
+"stage": 3
+},
+{
+"q": "[הלקוחות נוטשים]",
+"a": "Customers are churning.",
+"l": "The customers are abandoning.",
+"d": "Customers are leaving us behind.",
+"step": 273,
+"stage": 3
+},
+{
+"q": "[נטישה]",
+"a": "Churn.",
+"l": "Abandonment.",
+"d": "Desertion.",
+"step": 274,
+"stage": 3
+},
+{
+"q": "[שימור לקוחות]",
+"a": "Customer retention.",
+"l": "Customer preservation.",
+"d": "Pickling customers.",
+"step": 275,
+"stage": 3
+},
+{
+"q": "[גיוס לקוחות]",
+"a": "Customer acquisition.",
+"l": "Recruiting customers.",
+"d": "Drafting customers.",
+"step": 276,
+"stage": 3
+},
+{
+"q": "[קהל יעד]",
+"a": "Target audience.",
+"l": "Destination crowd.",
+"d": "Goal audience.",
+"step": 277,
+"stage": 3
+},
+{
+"q": "[שוק יעד]",
+"a": "Target market.",
+"l": "Destination market.",
+"d": "Goal market.",
+"step": 278,
+"stage": 3
+},
+{
+"q": "[התחרות חזקה]",
+"a": "The competition is fierce.",
+"l": "The competition is strong.",
+"d": "The race is strong.",
+"step": 279,
+"stage": 3
+},
+{
+"q": "[אנחנו מובילים בשוק]",
+"a": "We're the market leader.",
+"l": "We're leading in the market.",
+"d": "We lead the shuk.",
+"step": 280,
+"stage": 3
+},
+{
+"q": "[יש לנו יתרון]",
+"a": "We have an edge.",
+"l": "We have an advantage.",
+"d": "We have extra.",
+"step": 281,
+"stage": 3
+},
+{
+"q": "[זה ה-USP שלנו]",
+"a": "That's our selling point.",
+"l": "This is our USP.",
+"d": "That's our USB.",
+"step": 282,
+"stage": 3
+},
+{
+"q": "[המתחרים העתיקו אותנו]",
+"a": "The competitors copied us.",
+"l": "The competitors moved us.",
+"d": "The competitors relocated us.",
+"step": 283,
+"stage": 3
+},
+{
+"q": "[תעשה בנצ'מרק]",
+"a": "Benchmark it.",
+"l": "Make a benchmark.",
+"d": "Do a bench mark.",
+"step": 284,
+"stage": 3
+},
+{
+"q": "[תבדוק את השטח]",
+"a": "Check the market.",
+"l": "Check the field.",
+"d": "Check the area.",
+"step": 285,
+"stage": 3
+},
+{
+"q": "[ירדנו לשטח]",
+"a": "We went into the field.",
+"l": "We went down to the field.",
+"d": "We descended to the area.",
+"step": 286,
+"stage": 3
+},
+{
+"q": "[דיברנו עם לקוחות]",
+"a": "We talked to customers.",
+"l": "We spoke with customers.",
+"d": "We talked with clients.",
+"step": 287,
+"stage": 3
+},
+{
+"q": "[הם אמרו שזה כואב להם]",
+"a": "They said it's a pain point.",
+"l": "They said it hurts them.",
+"d": "They said they're in pain.",
+"step": 288,
+"stage": 3
+},
+{
+"q": "[פתרנו להם כאב]",
+"a": "We solved a pain point.",
+"l": "We solved them a pain.",
+"d": "We fixed their ache.",
+"step": 289,
+"stage": 3
+},
+{
+"q": "[הם מוכנים לשלם]",
+"a": "They're willing to pay.",
+"l": "They're ready to pay.",
+"d": "They're prepared to pay.",
+"step": 290,
+"stage": 3
+},
+{
+"q": "[המחיר גבוה מדי]",
+"a": "It's too pricey.",
+"l": "The price is too high.",
+"d": "The price is high too much.",
+"step": 291,
+"stage": 3
+},
+{
+"q": "[תן לי הנחה]",
+"a": "Can you cut me a deal?",
+"l": "Give me a discount.",
+"d": "Give me a lower.",
+"step": 292,
+"stage": 3
+},
+{
+"q": "[זה המחיר הסופי]",
+"a": "That's my final offer.",
+"l": "It's the final price.",
+"d": "That's the end price.",
+"step": 293,
+"stage": 3
+},
+{
+"q": "[בוא ניפגש באמצע]",
+"a": "Let's meet halfway.",
+"l": "Let's meet in the middle.",
+"d": "Let's meet at the center.",
+"step": 294,
+"stage": 3
+},
+{
+"q": "[הם מתמקחים]",
+"a": "They're haggling.",
+"l": "They're bargaining.",
+"d": "They're shopping.",
+"step": 295,
+"stage": 3
+},
+{
+"q": "[סוגרים על זה]",
+"a": "Let's lock it in.",
+"l": "Closing on it.",
+"d": "Shutting on it.",
+"step": 296,
+"stage": 3
+},
+{
+"q": "[לחיצת יד]",
+"a": "Handshake deal.",
+"l": "Squeeze of hand.",
+"d": "A hand press.",
+"step": 297,
+"stage": 3
+},
+{
+"q": "[ננסח הסכם]",
+"a": "We'll draft an agreement.",
+"l": "We'll formulate an agreement.",
+"d": "We'll write a deal.",
+"step": 298,
+"stage": 3
+},
+{
+"q": "[העו\"ד עובר על זה]",
+"a": "The lawyer is reviewing it.",
+"l": "The lawyer is passing on it.",
+"d": "The lawyer is skipping it.",
+"step": 299,
+"stage": 3
+},
+{
+"q": "[חתמנו]",
+"a": "It's signed.",
+"l": "We signed.",
+"d": "We stamped.",
+"step": 300,
+"stage": 3
+},
+{
+"q": "[מזל טוב לכולם]",
+"a": "Congrats, everyone.",
+"l": "Good luck to everyone.",
+"d": "Good mazal for all.",
+"step": 301,
+"stage": 4
+},
+{
+"q": "[מגיע לנו]",
+"a": "We earned it.",
+"l": "It arrives to us.",
+"d": "It's coming to us.",
+"step": 302,
+"stage": 4
+},
+{
+"q": "[נחגוג]",
+"a": "Let's celebrate.",
+"l": "We'll celebrate.",
+"d": "We'll party.",
+"step": 303,
+"stage": 4
+},
+{
+"q": "[ערב צוות]",
+"a": "A team night out.",
+"l": "A team evening.",
+"d": "Evening of team.",
+"step": 304,
+"stage": 4
+},
+{
+"q": "[יום כיף]",
+"a": "A team fun day.",
+"l": "Fun day.",
+"d": "A day of fun.",
+"step": 305,
+"stage": 4
+},
+{
+"q": "[טיול שנתי]",
+"a": "Annual company trip.",
+"l": "Annual trip.",
+"d": "Yearly travel.",
+"step": 306,
+"stage": 4
+},
+{
+"q": "[מתנה לחג]",
+"a": "Holiday gift.",
+"l": "Gift for the holiday.",
+"d": "A holiday present.",
+"step": 307,
+"stage": 4
+},
+{
+"q": "[תלוש משכורת]",
+"a": "Pay slip.",
+"l": "Salary stub.",
+"d": "Salary ticket.",
+"step": 308,
+"stage": 4
+},
+{
+"q": "[קרן השתלמות]",
+"a": "Study fund.",
+"l": "Training fund.",
+"d": "Education fund.",
+"step": 309,
+"stage": 4
+},
+{
+"q": "[ימי מחלה]",
+"a": "Sick days.",
+"l": "Days of sickness.",
+"d": "Ill days.",
+"step": 310,
+"stage": 4
+},
+{
+"q": "[ימי חופש]",
+"a": "Vacation days.",
+"l": "Days of freedom.",
+"d": "Free days.",
+"step": 311,
+"stage": 4
+},
+{
+"q": "[אני בחל\"ת]",
+"a": "I'm on unpaid leave.",
+"l": "I'm in khalat.",
+"d": "I'm in a robe.",
+"step": 312,
+"stage": 4
+},
+{
+"q": "[היא בחופשת לידה]",
+"a": "She's on maternity leave.",
+"l": "She's in a birth vacation.",
+"d": "She's on birth holiday.",
+"step": 313,
+"stage": 4
+},
+{
+"q": "[הוא בהשתלמות]",
+"a": "He's at a training.",
+"l": "He's in an improvement.",
+"d": "He's in a course.",
+"step": 314,
+"stage": 4
+},
+{
+"q": "[תעשה לי מרג']",
+"a": "Merge it for me.",
+"l": "Make me a merge.",
+"d": "Do me a march.",
+"step": 315,
+"stage": 4
+},
+{
+"q": "[יש קונפליקט]",
+"a": "There's a merge conflict.",
+"l": "There's a conflict.",
+"d": "There's a war.",
+"step": 316,
+"stage": 4
+},
+{
+"q": "[תדחוף את זה]",
+"a": "Push it.",
+"l": "Shove it.",
+"d": "Push it hard.",
+"step": 317,
+"stage": 4
+},
+{
+"q": "[תמשוך את הבראנץ']",
+"a": "Pull the branch.",
+"l": "Drag the branch.",
+"d": "Pull the tree.",
+"step": 318,
+"stage": 4
+},
+{
+"q": "[הבילד אדום]",
+"a": "The build is failing.",
+"l": "The build is red.",
+"d": "The building is red.",
+"step": 319,
+"stage": 4
+},
+{
+"q": "[הבילד ירוק]",
+"a": "The build is passing.",
+"l": "The build is green.",
+"d": "The building is green.",
+"step": 320,
+"stage": 4
+},
+{
+"q": "[תריץ את הטסטים]",
+"a": "Run the tests.",
+"l": "Make the tests run.",
+"d": "Race the tests.",
+"step": 321,
+"stage": 4
+},
+{
+"q": "[הטסט נפל]",
+"a": "The test failed.",
+"l": "The test fell.",
+"d": "The test dropped.",
+"step": 322,
+"stage": 4
+},
+{
+"q": "[כיסוי טסטים נמוך]",
+"a": "Low test coverage.",
+"l": "Low test blanket.",
+"d": "Low covering.",
+"step": 323,
+"stage": 4
+},
+{
+"q": "[זה באג או פיצ'ר?]",
+"a": "Is it a bug or a feature?",
+"l": "Is this a bug or feature?",
+"d": "Bug or a future?",
+"step": 324,
+"stage": 4
+},
+{
+"q": "[זה עובד כמו שצריך]",
+"a": "It works as intended.",
+"l": "It works like it needs.",
+"d": "It works as needed.",
+"step": 325,
+"stage": 4
+},
+{
+"q": "[זה התנהגות צפויה]",
+"a": "That's expected behavior.",
+"l": "It's an expected behavior.",
+"d": "It's a predicted manners.",
+"step": 326,
+"stage": 4
+},
+{
+"q": "[קריסה בפרוד]",
+"a": "A crash in prod.",
+"l": "A collapse in prod.",
+"d": "A fall in production.",
+"step": 327,
+"stage": 4
+},
+{
+"q": "[עשינו רולבק]",
+"a": "We rolled it back.",
+"l": "We made a rollback.",
+"d": "We did a roll back.",
+"step": 328,
+"stage": 4
+},
+{
+"q": "[פאץ']",
+"a": "A patch.",
+"l": "Patch.",
+"d": "A sticker.",
+"step": 329,
+"stage": 4
+},
+{
+"q": "[השרת חנוק]",
+"a": "The server is overloaded.",
+"l": "The server is choked.",
+"d": "The server can't breathe.",
+"step": 330,
+"stage": 4
+},
+{
+"q": "[צריך להרים שרת]",
+"a": "We need to spin up a server.",
+"l": "Need to lift a server.",
+"d": "Need to raise a server.",
+"step": 331,
+"stage": 4
+},
+{
+"q": "[להוריד את השרת]",
+"a": "Take the server down.",
+"l": "Lower the server.",
+"d": "Drop the server.",
+"step": 332,
+"stage": 4
+},
+{
+"q": "[זמן השבתה]",
+"a": "Downtime.",
+"l": "Time of strike.",
+"d": "Shutdown time.",
+"step": 333,
+"stage": 4
+},
+{
+"q": "[השירות למטה]",
+"a": "The service is down.",
+"l": "The service is below.",
+"d": "The service is downstairs.",
+"step": 334,
+"stage": 4
+},
+{
+"q": "[אנחנו באוויר]",
+"a": "We're back up.",
+"l": "We're in the air.",
+"d": "We're flying.",
+"step": 335,
+"stage": 4
+},
+{
+"q": "[הכל ירוק]",
+"a": "All systems go.",
+"l": "Everything is green.",
+"d": "All green.",
+"step": 336,
+"stage": 4
+},
+{
+"q": "[תוריד את העומס מהשרת]",
+"a": "Take the load off the server.",
+"l": "Take down the load from the server.",
+"d": "Lower the server weight.",
+"step": 337,
+"stage": 4
+},
+{
+"q": "[תעשה סקייל]",
+"a": "Scale it.",
+"l": "Make a scale.",
+"d": "Do a fish scale.",
+"step": 338,
+"stage": 4
+},
+{
+"q": "[זה לא סקיילבילי]",
+"a": "It doesn't scale.",
+"l": "It's not scalable.",
+"d": "It's not on the scale.",
+"step": 339,
+"stage": 4
+},
+{
+"q": "[חוב טכני]",
+"a": "Technical debt.",
+"l": "Technical loan.",
+"d": "A tech debt bill.",
+"step": 340,
+"stage": 4
+},
+{
+"q": "[קוד ספגטי]",
+"a": "Spaghetti code.",
+"l": "Code spaghetti.",
+"d": "Pasta code.",
+"step": 341,
+"stage": 4
+},
+{
+"q": "[קוד מורשת]",
+"a": "Legacy code.",
+"l": "Inheritance code.",
+"d": "Heritage code.",
+"step": 342,
+"stage": 4
+},
+{
+"q": "[צריך לכתוב מחדש]",
+"a": "We need a rewrite.",
+"l": "Need to write from new.",
+"d": "Need to re-type.",
+"step": 343,
+"stage": 4
+},
+{
+"q": "[פתרון זמני]",
+"a": "A quick fix.",
+"l": "A temporary solution.",
+"d": "A for-now answer.",
+"step": 344,
+"stage": 4
+},
+{
+"q": "[פלסטר]",
+"a": "A band-aid fix.",
+"l": "A plaster.",
+"d": "A bandage.",
+"step": 345,
+"stage": 4
+},
+{
+"q": "[הדבקנו פלסטר]",
+"a": "We slapped a band-aid on it.",
+"l": "We stuck a plaster.",
+"d": "We glued a plaster.",
+"step": 346,
+"stage": 4
+},
+{
+"q": "[זה דורש מחקר]",
+"a": "It needs some research.",
+"l": "It demands research.",
+"d": "It requires a study.",
+"step": 347,
+"stage": 4
+},
+{
+"q": "[תעשה POC]",
+"a": "Build a proof of concept.",
+"l": "Make a POC.",
+"d": "Do a POC.",
+"step": 348,
+"stage": 4
+},
+{
+"q": "[אב טיפוס]",
+"a": "A prototype.",
+"l": "Father of drop.",
+"d": "A dad type.",
+"step": 349,
+"stage": 4
+},
+{
+"q": "[MVP]",
+"a": "A minimum viable product.",
+"l": "MVP.",
+"d": "Most valuable player.",
+"step": 350,
+"stage": 4
+},
+{
+"q": "[המוצר מינימלי]",
+"a": "It's bare bones.",
+"l": "The product is minimal.",
+"d": "The product is small.",
+"step": 351,
+"stage": 4
+},
+{
+"q": "[בטא סגורה]",
+"a": "A closed beta.",
+"l": "A shut beta.",
+"d": "A locked beta.",
+"step": 352,
+"stage": 4
+},
+{
+"q": "[תעשה AB טסט]",
+"a": "Run an A/B test.",
+"l": "Make an AB test.",
+"d": "Do an AB exam.",
+"step": 353,
+"stage": 4
+},
+{
+"q": "[ההמרות עלו]",
+"a": "Conversions went up.",
+"l": "The conversions climbed.",
+"d": "The conversions rose up.",
+"step": 354,
+"stage": 4
+},
+{
+"q": "[פאנל]",
+"a": "A funnel.",
+"l": "Panel.",
+"d": "A board.",
+"step": 355,
+"stage": 4
+},
+{
+"q": "[המשפך דולף]",
+"a": "The funnel is leaking.",
+"l": "The funnel is dripping.",
+"d": "The funnel is broken.",
+"step": 356,
+"stage": 4
+},
+{
+"q": "[לנדינג פייג']",
+"a": "A landing page.",
+"l": "Landing page.",
+"d": "Airport page.",
+"step": 357,
+"stage": 4
+},
+{
+"q": "[הקמפיין טס]",
+"a": "The campaign is crushing it.",
+"l": "The campaign is flying.",
+"d": "The campaign took off.",
+"step": 358,
+"stage": 4
+},
+{
+"q": "[הקמפיין לא ממיר]",
+"a": "The campaign isn't converting.",
+"l": "The campaign doesn't convert.",
+"d": "The campaign won't change.",
+"step": 359,
+"stage": 4
+},
+{
+"q": "[תעלה תקציב]",
+"a": "Increase the budget.",
+"l": "Raise budget.",
+"d": "Upload the budget.",
+"step": 360,
+"stage": 4
+},
+{
+"q": "[תוריד תקציב]",
+"a": "Cut the budget.",
+"l": "Take down budget.",
+"d": "Download the budget.",
+"step": 361,
+"stage": 4
+},
+{
+"q": "[עלות לליד]",
+"a": "Cost per lead.",
+"l": "Cost to lead.",
+"d": "Price for lead.",
+"step": 362,
+"stage": 4
+},
+{
+"q": "[לידים זבל]",
+"a": "Junk leads.",
+"l": "Garbage leads.",
+"d": "Trash leads.",
+"step": 363,
+"stage": 4
+},
+{
+"q": "[הקהל לא מגיב]",
+"a": "The audience isn't engaging.",
+"l": "The crowd doesn't react.",
+"d": "The audience doesn't answer.",
+"step": 364,
+"stage": 4
+},
+{
+"q": "[זה עשה ויראלי]",
+"a": "It went viral.",
+"l": "It did viral.",
+"d": "It made viral.",
+"step": 365,
+"stage": 4
+},
+{
+"q": "[צריך תוכן]",
+"a": "We need content.",
+"l": "Need content.",
+"d": "We need contents.",
+"step": 366,
+"stage": 4
+},
+{
+"q": "[תעלה פוסט]",
+"a": "Post something.",
+"l": "Raise a post.",
+"d": "Upload a post.",
+"step": 367,
+"stage": 4
+},
+{
+"q": "[תעשה לי לייק]",
+"a": "Like my post.",
+"l": "Make me a like.",
+"d": "Do me a like.",
+"step": 368,
+"stage": 4
+},
+{
+"q": "[יש לנו באזז]",
+"a": "We've got buzz.",
+"l": "We have buzz.",
+"d": "We have a buzz.",
+"step": 369,
+"stage": 4
+},
+{
+"q": "[מיתוג מחדש]",
+"a": "A rebrand.",
+"l": "Branding from new.",
+"d": "New branding.",
+"step": 370,
+"stage": 4
+},
+{
+"q": "[שפה מותגית]",
+"a": "Brand voice.",
+"l": "Brand language.",
+"d": "Branded language.",
+"step": 371,
+"stage": 4
+},
+{
+"q": "[תעשה לי מצגת משקיעים]",
+"a": "Put together a pitch deck.",
+"l": "Make me an investors presentation.",
+"d": "Do me an investor show.",
+"step": 372,
+"stage": 4
+},
+{
+"q": "[שקף אחד]",
+"a": "One slide.",
+"l": "One transparency.",
+"d": "One clear.",
+"step": 373,
+"stage": 4
+},
+{
+"q": "[תעביר שקף]",
+"a": "Next slide.",
+"l": "Pass slide.",
+"d": "Move the slide.",
+"step": 374,
+"stage": 4
+},
+{
+"q": "[הוא קורא מהשקפים]",
+"a": "He's reading off the slides.",
+"l": "He reads from the transparencies.",
+"d": "He reads the slides.",
+"step": 375,
+"stage": 4
+},
+{
+"q": "[תדבר בגובה העיניים]",
+"a": "Talk to them as equals.",
+"l": "Speak in the height of the eyes.",
+"d": "Talk at eye level.",
+"step": 376,
+"stage": 4
+},
+{
+"q": "[תדבר בשפה שלהם]",
+"a": "Speak their language.",
+"l": "Talk in their language.",
+"d": "Speak in their tongue.",
+"step": 377,
+"stage": 4
+},
+{
+"q": "[תוריד את זה לקרקע]",
+"a": "Make it practical.",
+"l": "Take it down to the ground.",
+"d": "Ground it.",
+"step": 378,
+"stage": 4
+},
+{
+"q": "[זה באוויר]",
+"a": "It's still up in the air.",
+"l": "It's in the air.",
+"d": "It's flying.",
+"step": 379,
+"stage": 4
+},
+{
+"q": "[אין החלטה]",
+"a": "Nothing's been decided.",
+"l": "There's no decision.",
+"d": "No deciding.",
+"step": 380,
+"stage": 4
+},
+{
+"q": "[זה מגיע מלמעלה]",
+"a": "It's coming from the top.",
+"l": "It comes from above.",
+"d": "It's from upstairs.",
+"step": 381,
+"stage": 4
+},
+{
+"q": "[תיישר קו]",
+"a": "Get on board.",
+"l": "Straighten a line.",
+"d": "Make a line straight.",
+"step": 382,
+"stage": 4
+},
+{
+"q": "[אנחנו מיושרים]",
+"a": "We're aligned.",
+"l": "We're straightened.",
+"d": "We're in a line.",
+"step": 383,
+"stage": 4
+},
+{
+"q": "[צריך לסגור פערים]",
+"a": "We need to close the gaps.",
+"l": "Need to close gaps.",
+"d": "Need to shut gaps.",
+"step": 384,
+"stage": 4
+},
+{
+"q": "[צריך עוד ידיים]",
+"a": "We need more hands on deck.",
+"l": "Need more hands.",
+"d": "Need extra hands.",
+"step": 385,
+"stage": 4
+},
+{
+"q": "[אנחנו מגייסים]",
+"a": "We're hiring.",
+"l": "We're recruiting.",
+"d": "We're drafting.",
+"step": 386,
+"stage": 4
+},
+{
+"q": "[תעשה לו ראיון]",
+"a": "Interview him.",
+"l": "Make him an interview.",
+"d": "Do him an interview.",
+"step": 387,
+"stage": 4
+},
+{
+"q": "[מטלת בית]",
+"a": "A take-home assignment.",
+"l": "A home task.",
+"d": "A house chore.",
+"step": 388,
+"stage": 4
+},
+{
+"q": "[הוא מתאים לתרבות]",
+"a": "He's a culture fit.",
+"l": "He fits the culture.",
+"d": "He fits culture.",
+"step": 389,
+"stage": 4
+},
+{
+"q": "[הוא לא מתאים]",
+"a": "He's not a fit.",
+"l": "He doesn't fit.",
+"d": "He doesn't suit.",
+"step": 390,
+"stage": 4
+},
+{
+"q": "[יום ראשון בעבודה]",
+"a": "First day on the job.",
+"l": "First day in the work.",
+"d": "Sunday at work.",
+"step": 391,
+"stage": 4
+},
+{
+"q": "[הוא מלשן]",
+"a": "He's a snitch.",
+"l": "He's a tongue.",
+"d": "He's a tattle.",
+"step": 392,
+"stage": 4
+},
+{
+"q": "[הוא מתחנף לבוס]",
+"a": "He's sucking up to the boss.",
+"l": "He's flattering to the boss.",
+"d": "He's kissing the boss.",
+"step": 393,
+"stage": 4
+},
+{
+"q": "[הוא לוקח קרדיט]",
+"a": "He takes the credit.",
+"l": "He takes credit.",
+"d": "He takes a loan.",
+"step": 394,
+"stage": 4
+},
+{
+"q": "[היא עושה הכל]",
+"a": "She does the heavy lifting.",
+"l": "She does everything.",
+"d": "She makes everything.",
+"step": 395,
+"stage": 4
+},
+{
+"q": "[הוא שורד]",
+"a": "He's a survivor.",
+"l": "He survives.",
+"d": "He's surviving.",
+"step": 396,
+"stage": 4
+},
+{
+"q": "[הוא תקוע באותו תפקיד]",
+"a": "He's stuck in the same role.",
+"l": "He's stuck in the same function.",
+"d": "He's stuck in the role same.",
+"step": 397,
+"stage": 4
+},
+{
+"q": "[תקרת זכוכית]",
+"a": "Glass ceiling.",
+"l": "Ceiling of glass.",
+"d": "Glass roof.",
+"step": 398,
+"stage": 4
+},
+{
+"q": "[מסלול קריירה]",
+"a": "Career path.",
+"l": "Career track.",
+"d": "Career route.",
+"step": 399,
+"stage": 4
+},
+{
+"q": "[היא קפצה מדרגה]",
+"a": "She leveled up.",
+"l": "She jumped a stair.",
+"d": "She skipped a stair.",
+"step": 400,
+"stage": 4
+},
+{
+"q": "[ראש צוות]",
+"a": "Team lead.",
+"l": "Head of team.",
+"d": "Team head.",
+"step": 401,
+"stage": 5
+},
+{
+"q": "[מנהל ישיר]",
+"a": "Direct manager.",
+"l": "Straight manager.",
+"d": "Direct boss.",
+"step": 402,
+"stage": 5
+},
+{
+"q": "[יש לו תחת כבד]",
+"a": "He's slow to act.",
+"l": "He has a heavy butt.",
+"d": "His butt is heavy.",
+"step": 403,
+"stage": 5
+},
+{
+"q": "[הוא עם תחת על הכיסא]",
+"a": "He's glued to his desk.",
+"l": "He's with butt on chair.",
+"d": "He sits a lot.",
+"step": 404,
+"stage": 5
+},
+{
+"q": "[הוא ג'ינג'י]",
+"a": "He's a redhead.",
+"l": "He's a ginger.",
+"d": "He's ginger.",
+"step": 405,
+"stage": 5
+},
+{
+"q": "[הוא מהנדס תוכנה]",
+"a": "He's a software engineer.",
+"l": "He's an engineer of software.",
+"d": "He engineers programs.",
+"step": 406,
+"stage": 5
+},
+{
+"q": "[מוצר בי טו בי]",
+"a": "A B2B product.",
+"l": "A product B to B.",
+"d": "A bee to bee product.",
+"step": 407,
+"stage": 5
+},
+{
+"q": "[יוניקורן]",
+"a": "A unicorn.",
+"l": "Unicorn.",
+"d": "A horse with a horn.",
+"step": 408,
+"stage": 5
+},
+{
+"q": "[אקזיט]",
+"a": "An exit.",
+"l": "Exit.",
+"d": "A way out.",
+"step": 409,
+"stage": 5
+},
+{
+"q": "[הם עשו אקזיט]",
+"a": "They had an exit.",
+"l": "They made an exit.",
+"d": "They exited.",
+"step": 410,
+"stage": 5
+},
+{
+"q": "[הוא עשיר מאקזיט]",
+"a": "He made it big on an exit.",
+"l": "He's rich from exit.",
+"d": "He's rich from exiting.",
+"step": 411,
+"stage": 5
+},
+{
+"q": "[אופציות]",
+"a": "Stock options.",
+"l": "Options.",
+"d": "Choices.",
+"step": 412,
+"stage": 5
+},
+{
+"q": "[הבשלה]",
+"a": "Vesting.",
+"l": "Ripening.",
+"d": "Cooking.",
+"step": 413,
+"stage": 5
+},
+{
+"q": "[האופציות הבשילו]",
+"a": "My options vested.",
+"l": "The options ripened.",
+"d": "The options cooked.",
+"step": 414,
+"stage": 5
+},
+{
+"q": "[מניות]",
+"a": "Equity.",
+"l": "Shares.",
+"d": "Stocks of meat.",
+"step": 415,
+"stage": 5
+},
+{
+"q": "[דילול]",
+"a": "Dilution.",
+"l": "Thinning.",
+"d": "Watering down.",
+"step": 416,
+"stage": 5
+},
+{
+"q": "[שווי של מיליארד]",
+"a": "A billion-dollar valuation.",
+"l": "A worth of billion.",
+"d": "Worth a billion shekels.",
+"step": 417,
+"stage": 5
+},
+{
+"q": "[קרן הון סיכון]",
+"a": "A VC fund.",
+"l": "A fund of risk capital.",
+"d": "Danger money fund.",
+"step": 418,
+"stage": 5
+},
+{
+"q": "[דירקטוריון]",
+"a": "The board.",
+"l": "Directorate.",
+"d": "The directors room.",
+"step": 419,
+"stage": 5
+},
+{
+"q": "[בעלי מניות]",
+"a": "Shareholders.",
+"l": "Owners of shares.",
+"d": "Share husbands.",
+"step": 420,
+"stage": 5
+},
+{
+"q": "[מייסד שותף]",
+"a": "Co-founder.",
+"l": "Partner founder.",
+"d": "Founder partner.",
+"step": 421,
+"stage": 5
+},
+{
+"q": "[חממה]",
+"a": "An incubator.",
+"l": "A greenhouse.",
+"d": "A hothouse.",
+"step": 422,
+"stage": 5
+},
+{
+"q": "[מאיץ]",
+"a": "An accelerator.",
+"l": "Accelerator.",
+"d": "A speeder.",
+"step": 423,
+"stage": 5
+},
+{
+"q": "[יום דמו]",
+"a": "Demo day.",
+"l": "Day of demo.",
+"d": "Demo date.",
+"step": 424,
+"stage": 5
+},
+{
+"q": "[פיץ' של מעלית]",
+"a": "An elevator pitch.",
+"l": "A pitch of elevator.",
+"d": "An elevator tar.",
+"step": 425,
+"stage": 5
+},
+{
+"q": "[צמיחה חודשית]",
+"a": "Month-over-month growth.",
+"l": "Monthly growth.",
+"d": "Growing monthly.",
+"step": 426,
+"stage": 5
+},
+{
+"q": "[צומחים פי שלוש]",
+"a": "Growing three-x.",
+"l": "Growing times three.",
+"d": "Growing triple times.",
+"step": 427,
+"stage": 5
+},
+{
+"q": "[סבב A]",
+"a": "Series A.",
+"l": "Round A.",
+"d": "Turn A.",
+"step": 428,
+"stage": 5
+},
+{
+"q": "[הקלוז קרוב]",
+"a": "We're close to closing.",
+"l": "The close is near.",
+"d": "The shut is near.",
+"step": 429,
+"stage": 5
+},
+{
+"q": "[תעשה דיו דיליג'נס]",
+"a": "Do the due diligence.",
+"l": "Make due diligence.",
+"d": "Do the diligence due.",
+"step": 430,
+"stage": 5
+},
+{
+"q": "[טרם שיט]",
+"a": "A term sheet.",
+"l": "Term sheet.",
+"d": "A sheet of terms.",
+"step": 431,
+"stage": 5
+},
+{
+"q": "[המשקיע ירד]",
+"a": "The investor walked away.",
+"l": "The investor went down.",
+"d": "The investor descended.",
+"step": 432,
+"stage": 5
+},
+{
+"q": "[זה עדיין רלוונטי?]",
+"a": "Is this still relevant?",
+"l": "Is it still relevant?",
+"d": "Still relevant?",
+"step": 433,
+"stage": 5
+},
+{
+"q": "[לא רלוונטי יותר]",
+"a": "No longer relevant.",
+"l": "Not relevant more.",
+"d": "Not relevant anymore more.",
+"step": 434,
+"stage": 5
+},
+{
+"q": "[נתקדם]",
+"a": "Let's move forward.",
+"l": "We'll advance.",
+"d": "We'll progress.",
+"step": 435,
+"stage": 5
+},
+{
+"q": "[בוא נתקדם לנושא הבא]",
+"a": "Let's move on.",
+"l": "Let's advance to the next subject.",
+"d": "Next topic please.",
+"step": 436,
+"stage": 5
+},
+{
+"q": "[נקודה טובה]",
+"a": "Good point.",
+"l": "Good dot.",
+"d": "Good spot.",
+"step": 437,
+"stage": 5
+},
+{
+"q": "[צודק]",
+"a": "Fair enough.",
+"l": "Right.",
+"d": "Correct.",
+"step": 438,
+"stage": 5
+},
+{
+"q": "[מסכים איתך]",
+"a": "I'm with you.",
+"l": "Agreeing with you.",
+"d": "I agree with you agree.",
+"step": 439,
+"stage": 5
+},
+{
+"q": "[לא מסכים]",
+"a": "I beg to differ.",
+"l": "Not agreeing.",
+"d": "I don't agree.",
+"step": 440,
+"stage": 5
+},
+{
+"q": "[אני מבין את הצד שלך]",
+"a": "I see where you're coming from.",
+"l": "I understand your side.",
+"d": "I get your side.",
+"step": 441,
+"stage": 5
+},
+{
+"q": "[בוא נשים את זה בצד]",
+"a": "Let's set that aside.",
+"l": "Let's put it on the side.",
+"d": "Put it sideways.",
+"step": 442,
+"stage": 5
+},
+{
+"q": "[נחזור לזה]",
+"a": "Let's circle back to this.",
+"l": "We'll return to it.",
+"d": "We'll come back to it.",
+"step": 443,
+"stage": 5
+},
+{
+"q": "[לא עכשיו]",
+"a": "Not right now.",
+"l": "Not now.",
+"d": "No now.",
+"step": 444,
+"stage": 5
+},
+{
+"q": "[זה לא העדיפות]",
+"a": "It's not a priority.",
+"l": "It's not the priority.",
+"d": "It's not preferred.",
+"step": 445,
+"stage": 5
+},
+{
+"q": "[עדיפות עליונה]",
+"a": "Top priority.",
+"l": "Upper priority.",
+"d": "High preference.",
+"step": 446,
+"stage": 5
+},
+{
+"q": "[דחוף ביותר]",
+"a": "Super urgent.",
+"l": "Most urgent.",
+"d": "Very pushed.",
+"step": 447,
+"stage": 5
+},
+{
+"q": "[עד סוף היום]",
+"a": "By end of day.",
+"l": "Until the end of the day.",
+"d": "Till day end.",
+"step": 448,
+"stage": 5
+},
+{
+"q": "[עד סוף השבוע]",
+"a": "By the end of the week.",
+"l": "Until the end of the week.",
+"d": "Till week end.",
+"step": 449,
+"stage": 5
+},
+{
+"q": "[ביום ראשון]",
+"a": "On Sunday.",
+"l": "On the first day.",
+"d": "On day one.",
+"step": 450,
+"stage": 5
+},
+{
+"q": "[סופ\"ש]",
+"a": "The weekend.",
+"l": "Sofash.",
+"d": "End of weekend.",
+"step": 451,
+"stage": 5
+},
+{
+"q": "[בשבוע הבא]",
+"a": "Next week.",
+"l": "In the coming week.",
+"d": "In the next week.",
+"step": 452,
+"stage": 5
+},
+{
+"q": "[בחודש הבא]",
+"a": "Next month.",
+"l": "In the coming month.",
+"d": "In the next month.",
+"step": 453,
+"stage": 5
+},
+{
+"q": "[ברבעון הבא]",
+"a": "Next quarter.",
+"l": "In the coming quarter.",
+"d": "In next quarter.",
+"step": 454,
+"stage": 5
+},
+{
+"q": "[אני יוצא לחופשה]",
+"a": "I'm going on vacation.",
+"l": "I'm going out to vacation.",
+"d": "I'm leaving to vacation.",
+"step": 455,
+"stage": 5
+},
+{
+"q": "[אני חוזר ביום שני]",
+"a": "I'll be back Monday.",
+"l": "I'm returning on Monday.",
+"d": "I'm coming back Monday.",
+"step": 456,
+"stage": 5
+},
+{
+"q": "[תשאיר לי הודעה במייל]",
+"a": "Drop me an email.",
+"l": "Leave me a message in the mail.",
+"d": "Leave me mail.",
+"step": 457,
+"stage": 5
+},
+{
+"q": "[מחוץ למשרד]",
+"a": "Out of office.",
+"l": "Outside of the office.",
+"d": "Outside the office.",
+"step": 458,
+"stage": 5
+},
+{
+"q": "[הודעת היעדרות]",
+"a": "Out-of-office reply.",
+"l": "Absence message.",
+"d": "Absent message.",
+"step": 459,
+"stage": 5
+},
+{
+"q": "[אני נלחם בזה]",
+"a": "I'm wrestling with it.",
+"l": "I'm fighting in it.",
+"d": "I'm at war with it.",
+"step": 460,
+"stage": 5
+},
+{
+"q": "[שבע שנים בהייטק]",
+"a": "Seven years in tech.",
+"l": "Seven years in high tech.",
+"d": "Seven years in high technology.",
+"step": 461,
+"stage": 5
+},
+{
+"q": "[הייטקיסט]",
+"a": "A tech worker.",
+"l": "A hightechist.",
+"d": "A high tech guy.",
+"step": 462,
+"stage": 5
+},
+{
+"q": "[הוא נשרף מהייטק]",
+"a": "He burned out of tech.",
+"l": "He got burned from high tech.",
+"d": "He's burnt by tech.",
+"step": 463,
+"stage": 5
+},
+{
+"q": "[אני צריך פסק זמן]",
+"a": "I need a breather.",
+"l": "I need a time stop.",
+"d": "I need a stop time.",
+"step": 464,
+"stage": 5
+},
+{
+"q": "[ריפוי בעיסוק]",
+"a": "Occupational therapy.",
+"l": "Healing in occupation.",
+"d": "Work healing.",
+"step": 465,
+"stage": 5
+},
+{
+"q": "[שקט תעשייתי]",
+"a": "Labor peace.",
+"l": "Industrial quiet.",
+"d": "Factory silence.",
+"step": 466,
+"stage": 5
+},
+{
+"q": "[אנחנו מתייעלים]",
+"a": "We're streamlining.",
+"l": "We're becoming efficient.",
+"d": "We're efficiencing.",
+"step": 467,
+"stage": 5
+},
+{
+"q": "[קיצוצים]",
+"a": "Cutbacks.",
+"l": "Cuts.",
+"d": "Chopping.",
+"step": 468,
+"stage": 5
+},
+{
+"q": "[תעשה לי ריוויו]",
+"a": "Can you review it?",
+"l": "Make me a review.",
+"d": "Do me a revue.",
+"step": 469,
+"stage": 5
+},
+{
+"q": "[הקוד לא קריא]",
+"a": "The code is hard to read.",
+"l": "The code isn't readable.",
+"d": "The code doesn't read.",
+"step": 470,
+"stage": 5
+},
+{
+"q": "[תוסיף הערות לקוד]",
+"a": "Add comments to the code.",
+"l": "Add remarks to the code.",
+"d": "Add notes to code.",
+"step": 471,
+"stage": 5
+},
+{
+"q": "[שם משתנה גרוע]",
+"a": "A bad variable name.",
+"l": "A bad changing name.",
+"d": "A bad name that changes.",
+"step": 472,
+"stage": 5
+},
+{
+"q": "[פונקציה ענקית]",
+"a": "A monster function.",
+"l": "A giant function.",
+"d": "A huge function.",
+"step": 473,
+"stage": 5
+},
+{
+"q": "[תפצל את זה]",
+"a": "Split it up.",
+"l": "Split it.",
+"d": "Divide it.",
+"step": 474,
+"stage": 5
+},
+{
+"q": "[מונוליט]",
+"a": "A monolith.",
+"l": "Monolith.",
+"d": "A big stone.",
+"step": 475,
+"stage": 5
+},
+{
+"q": "[עברנו לענן]",
+"a": "We moved to the cloud.",
+"l": "We passed to the cloud.",
+"d": "We went up to the sky.",
+"step": 476,
+"stage": 5
+},
+{
+"q": "[חשבון AWS שרף לנו כסף]",
+"a": "The AWS bill burned through our cash.",
+"l": "The AWS account burned us money.",
+"d": "AWS set our money on fire.",
+"step": 477,
+"stage": 5
+},
+{
+"q": "[צריך להוריד עלויות ענן]",
+"a": "We need to cut cloud costs.",
+"l": "Need to take down cloud costs.",
+"d": "Need to lower the cloud.",
+"step": 478,
+"stage": 5
+},
+{
+"q": "[אבטחת מידע]",
+"a": "Infosec.",
+"l": "Information security.",
+"d": "Guarding info.",
+"step": 479,
+"stage": 5
+},
+{
+"q": "[היה ניסיון פריצה]",
+"a": "There was a breach attempt.",
+"l": "There was a break-in attempt.",
+"d": "Someone tried to break in.",
+"step": 480,
+"stage": 5
+},
+{
+"q": "[פרצו לנו]",
+"a": "We got hacked.",
+"l": "They broke into us.",
+"d": "They broke us.",
+"step": 481,
+"stage": 5
+},
+{
+"q": "[פישינג]",
+"a": "A phishing attack.",
+"l": "Fishing.",
+"d": "Phishing fish.",
+"step": 482,
+"stage": 5
+},
+{
+"q": "[אל תלחץ על הלינק]",
+"a": "Don't click the link.",
+"l": "Don't press on the link.",
+"d": "Don't squeeze the link.",
+"step": 483,
+"stage": 5
+},
+{
+"q": "[הזדהות דו שלבית]",
+"a": "Two-factor authentication.",
+"l": "Two stage identification.",
+"d": "Two step ID.",
+"step": 484,
+"stage": 5
+},
+{
+"q": "[תצפין את זה]",
+"a": "Encrypt it.",
+"l": "Make it north.",
+"d": "Send it north.",
+"step": 485,
+"stage": 5
+},
+{
+"q": "[גיבוי]",
+"a": "A backup.",
+"l": "A backing.",
+"d": "Support.",
+"step": 486,
+"stage": 5
+},
+{
+"q": "[יש גיבוי?]",
+"a": "Do we have a backup?",
+"l": "Is there a backing?",
+"d": "Is there support?",
+"step": 487,
+"stage": 5
+},
+{
+"q": "[שחזור]",
+"a": "A restore.",
+"l": "A reconstruction.",
+"d": "A rebuild.",
+"step": 488,
+"stage": 5
+},
+{
+"q": "[מחקתי בטעות]",
+"a": "I deleted it by mistake.",
+"l": "I erased in mistake.",
+"d": "I deleted in error.",
+"step": 489,
+"stage": 5
+},
+{
+"q": "[תבדוק בפח]",
+"a": "Check the trash.",
+"l": "Check in the bin.",
+"d": "Look in the can.",
+"step": 490,
+"stage": 5
+},
+{
+"q": "[הלך לאיבוד]",
+"a": "It's gone.",
+"l": "It went to loss.",
+"d": "It went missing.",
+"step": 491,
+"stage": 5
+},
+{
+"q": "[דיסק מלא]",
+"a": "The disk is full.",
+"l": "Full disk.",
+"d": "A full plate.",
+"step": 492,
+"stage": 5
+},
+{
+"q": "[תעשה ניקיון]",
+"a": "Clean it up.",
+"l": "Make cleaning.",
+"d": "Do cleaning.",
+"step": 493,
+"stage": 5
+},
+{
+"q": "[עדכון גרסה]",
+"a": "A version update.",
+"l": "A version renewal.",
+"d": "Updating version.",
+"step": 494,
+"stage": 5
+},
+{
+"q": "[תעדכן את האפליקציה]",
+"a": "Update the app.",
+"l": "Renew the app.",
+"d": "Update the application form.",
+"step": 495,
+"stage": 5
+},
+{
+"q": "[האפליקציה קורסת]",
+"a": "The app keeps crashing.",
+"l": "The app is collapsing.",
+"d": "The app falls.",
+"step": 496,
+"stage": 5
+},
+{
+"q": "[המשתמש הולך לאיבוד]",
+"a": "Users get lost.",
+"l": "The user goes to loss.",
+"d": "The user goes missing.",
+"step": 497,
+"stage": 5
+},
+{
+"q": "[צריך לפשט]",
+"a": "We need to simplify.",
+"l": "Need to make simple.",
+"d": "Need to make it easy.",
+"step": 498,
+"stage": 5
+},
+{
+"q": "[מסך כניסה]",
+"a": "Login screen.",
+"l": "Entrance screen.",
+"d": "Door screen.",
+"step": 499,
+"stage": 5
+},
+{
+"q": "[כפתור הרשמה]",
+"a": "Sign-up button.",
+"l": "Registration button.",
+"d": "Register button.",
+"step": 500,
+"stage": 5
+}
+]

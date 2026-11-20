@@ -1,0 +1,4502 @@
+[
+{
+"q": "In what year did Israel declare independence?",
+"a": "1948",
+"w1": "1947",
+"w2": "1956",
+"src": "Declaration of Independence, 1948",
+"step": 1,
+"stage": 1
+},
+{
+"q": "Who read out Israel's Declaration of Independence?",
+"a": "David Ben-Gurion",
+"w1": "Chaim Weizmann",
+"w2": "Golda Meir",
+"src": "Israel State Archives",
+"step": 2,
+"stage": 1
+},
+{
+"q": "In which city was independence declared?",
+"a": "Tel Aviv",
+"w1": "Jerusalem",
+"w2": "Haifa",
+"src": "Independence Hall, Tel Aviv",
+"step": 3,
+"stage": 1
+},
+{
+"q": "On what date was independence declared?",
+"a": "14 May 1948",
+"w1": "29 November 1947",
+"w2": "15 June 1948",
+"src": "Israel State Archives",
+"step": 4,
+"stage": 1
+},
+{
+"q": "Who was Israel's first president?",
+"a": "Chaim Weizmann",
+"w1": "David Ben-Gurion",
+"w2": "Yitzhak Ben-Zvi",
+"src": "Knesset",
+"step": 5,
+"stage": 1
+},
+{
+"q": "Who was Israel's first prime minister?",
+"a": "David Ben-Gurion",
+"w1": "Moshe Sharett",
+"w2": "Levi Eshkol",
+"src": "Knesset",
+"step": 6,
+"stage": 1
+},
+{
+"q": "Who was Israel's first female prime minister?",
+"a": "Golda Meir",
+"w1": "Tzipi Livni",
+"w2": "Ayelet Shaked",
+"src": "Knesset",
+"step": 7,
+"stage": 1
+},
+{
+"q": "What is the name of Israel's parliament?",
+"a": "The Knesset",
+"w1": "The Senate",
+"w2": "The Majlis",
+"src": "Knesset",
+"step": 8,
+"stage": 1
+},
+{
+"q": "How many members sit in the Knesset?",
+"a": "120",
+"w1": "100",
+"w2": "150",
+"src": "Knesset",
+"step": 9,
+"stage": 1
+},
+{
+"q": "What is Israel's national anthem?",
+"a": "Hatikvah",
+"w1": "Jerusalem of Gold",
+"w2": "Hava Nagila",
+"src": "Knesset",
+"step": 10,
+"stage": 1
+},
+{
+"q": "What does \"Hatikvah\" mean?",
+"a": "The Hope",
+"w1": "The Light",
+"w2": "The Return",
+"src": "Knesset",
+"step": 11,
+"stage": 1
+},
+{
+"q": "What is Israel's currency?",
+"a": "The new shekel",
+"w1": "The lira",
+"w2": "The dinar",
+"src": "Bank of Israel",
+"step": 12,
+"stage": 1
+},
+{
+"q": "What colour are the stripes on Israel's flag?",
+"a": "Blue",
+"w1": "Black",
+"w2": "Green",
+"src": "Flag and Emblem Law, 1949",
+"step": 13,
+"stage": 1
+},
+{
+"q": "What symbol is in the middle of Israel's flag?",
+"a": "Star of David",
+"w1": "Menorah",
+"w2": "Olive branch",
+"src": "Flag and Emblem Law, 1949",
+"step": 14,
+"stage": 1
+},
+{
+"q": "What is on Israel's national emblem?",
+"a": "A menorah with olive branches",
+"w1": "A lion",
+"w2": "An eagle",
+"src": "Flag and Emblem Law, 1949",
+"step": 15,
+"stage": 1
+},
+{
+"q": "What are Israel's two official languages before 2018?",
+"a": "Hebrew and Arabic",
+"w1": "Hebrew and English",
+"w2": "Hebrew and Yiddish",
+"src": "Nation-State Law, 2018",
+"step": 16,
+"stage": 1
+},
+{
+"q": "Which language was revived as a spoken language in the modern era?",
+"a": "Hebrew",
+"w1": "Aramaic",
+"w2": "Latin",
+"src": "Academy of the Hebrew Language",
+"step": 17,
+"stage": 1
+},
+{
+"q": "Who is known as the reviver of modern Hebrew?",
+"a": "Eliezer Ben-Yehuda",
+"w1": "Theodor Herzl",
+"w2": "Ahad Ha'am",
+"src": "Academy of the Hebrew Language",
+"step": 18,
+"stage": 1
+},
+{
+"q": "Who wrote \"The Jewish State\" in 1896?",
+"a": "Theodor Herzl",
+"w1": "Max Nordau",
+"w2": "Leon Pinsker",
+"src": "Herzl, 1896",
+"step": 19,
+"stage": 1
+},
+{
+"q": "Where was the First Zionist Congress held?",
+"a": "Basel",
+"w1": "Vienna",
+"w2": "Paris",
+"src": "1897 Congress records",
+"step": 20,
+"stage": 1
+},
+{
+"q": "In what year was the First Zionist Congress?",
+"a": "1897",
+"w1": "1917",
+"w2": "1882",
+"src": "1897 Congress records",
+"step": 21,
+"stage": 1
+},
+{
+"q": "What was the Balfour Declaration?",
+"a": "British support for a Jewish national home",
+"w1": "A peace treaty",
+"w2": "A UN vote",
+"src": "Balfour Declaration, 1917",
+"step": 22,
+"stage": 1
+},
+{
+"q": "In what year was the Balfour Declaration?",
+"a": "1917",
+"w1": "1922",
+"w2": "1939",
+"src": "Balfour Declaration, 1917",
+"step": 23,
+"stage": 1
+},
+{
+"q": "What did the UN vote for on 29 November 1947?",
+"a": "The partition plan",
+"w1": "Israel's UN membership",
+"w2": "A ceasefire",
+"src": "UN Resolution 181",
+"step": 24,
+"stage": 1
+},
+{
+"q": "Which UN resolution was the partition plan?",
+"a": "Resolution 181",
+"w1": "Resolution 242",
+"w2": "Resolution 338",
+"src": "UN Resolution 181",
+"step": 25,
+"stage": 1
+},
+{
+"q": "Did the Jewish leadership accept the 1947 partition plan?",
+"a": "Yes",
+"w1": "No",
+"w2": "They abstained",
+"src": "UN records, 1947",
+"step": 26,
+"stage": 1
+},
+{
+"q": "How many Arab armies invaded Israel in May 1948?",
+"a": "Five",
+"w1": "Two",
+"w2": "Eight",
+"src": "History of the 1948 war",
+"step": 27,
+"stage": 1
+},
+{
+"q": "In what year did Israel join the UN?",
+"a": "1949",
+"w1": "1948",
+"w2": "1950",
+"src": "UN membership records",
+"step": 28,
+"stage": 1
+},
+{
+"q": "What is the largest city in Israel by population?",
+"a": "Jerusalem",
+"w1": "Tel Aviv",
+"w2": "Haifa",
+"src": "Israel CBS",
+"step": 29,
+"stage": 1
+},
+{
+"q": "What is Israel's capital, as declared by Israel?",
+"a": "Jerusalem",
+"w1": "Tel Aviv",
+"w2": "Haifa",
+"src": "Basic Law: Jerusalem, 1980",
+"step": 30,
+"stage": 1
+},
+{
+"q": "Which city is called \"the city that never stops\"?",
+"a": "Tel Aviv",
+"w1": "Jerusalem",
+"w2": "Eilat",
+"src": "Tel Aviv municipality",
+"step": 31,
+"stage": 1
+},
+{
+"q": "What year was Tel Aviv founded?",
+"a": "1909",
+"w1": "1880",
+"w2": "1948",
+"src": "Tel Aviv municipality",
+"step": 32,
+"stage": 1
+},
+{
+"q": "Tel Aviv's White City is a UNESCO site for which style?",
+"a": "Bauhaus",
+"w1": "Gothic",
+"w2": "Art Deco",
+"src": "UNESCO, 2003",
+"step": 33,
+"stage": 1
+},
+{
+"q": "What is Israel's southernmost city?",
+"a": "Eilat",
+"w1": "Beersheba",
+"w2": "Mitzpe Ramon",
+"src": "Israel CBS",
+"step": 34,
+"stage": 1
+},
+{
+"q": "Which sea does Eilat sit on?",
+"a": "The Red Sea",
+"w1": "The Mediterranean",
+"w2": "The Dead Sea",
+"src": "Geography",
+"step": 35,
+"stage": 1
+},
+{
+"q": "What is the lowest point on land on Earth?",
+"a": "The Dead Sea shore",
+"w1": "Death Valley",
+"w2": "The Sea of Galilee",
+"src": "Geography",
+"step": 36,
+"stage": 1
+},
+{
+"q": "Why can you float easily in the Dead Sea?",
+"a": "It is very salty",
+"w1": "It is very warm",
+"w2": "It is very shallow",
+"src": "Geography",
+"step": 37,
+"stage": 1
+},
+{
+"q": "What is the Sea of Galilee called in Hebrew?",
+"a": "Kinneret",
+"w1": "Yam Suf",
+"w2": "Yam HaMelach",
+"src": "Geography",
+"step": 38,
+"stage": 1
+},
+{
+"q": "What is the main freshwater lake in Israel?",
+"a": "The Sea of Galilee",
+"w1": "The Dead Sea",
+"w2": "Lake Hula",
+"src": "Geography",
+"step": 39,
+"stage": 1
+},
+{
+"q": "Which river flows into the Dead Sea?",
+"a": "The Jordan",
+"w1": "The Yarkon",
+"w2": "The Kishon",
+"src": "Geography",
+"step": 40,
+"stage": 1
+},
+{
+"q": "What is the largest desert in Israel?",
+"a": "The Negev",
+"w1": "The Sinai",
+"w2": "The Judean desert only",
+"src": "Geography",
+"step": 41,
+"stage": 1
+},
+{
+"q": "About what share of Israel's land is the Negev?",
+"a": "More than half",
+"w1": "About a tenth",
+"w2": "About a quarter",
+"src": "Israel CBS",
+"step": 42,
+"stage": 1
+},
+{
+"q": "What is the giant erosion crater in the Negev called?",
+"a": "Makhtesh Ramon",
+"w1": "Masada",
+"w2": "Timna",
+"src": "Israel Nature and Parks Authority",
+"step": 43,
+"stage": 1
+},
+{
+"q": "Which city sits on Mount Carmel?",
+"a": "Haifa",
+"w1": "Nazareth",
+"w2": "Tiberias",
+"src": "Geography",
+"step": 44,
+"stage": 1
+},
+{
+"q": "Which faith has its world centre in Haifa?",
+"a": "The Baha'i Faith",
+"w1": "The Druze faith",
+"w2": "Sikhism",
+"src": "UNESCO, 2008",
+"step": 45,
+"stage": 1
+},
+{
+"q": "What is the Western Wall?",
+"a": "A remaining wall of the Temple Mount compound",
+"w1": "A city gate",
+"w2": "A castle",
+"src": "Western Wall Heritage Foundation",
+"step": 46,
+"stage": 1
+},
+{
+"q": "Which king built the First Temple, by tradition?",
+"a": "Solomon",
+"w1": "David",
+"w2": "Herod",
+"src": "Hebrew Bible",
+"step": 47,
+"stage": 1
+},
+{
+"q": "Who expanded the Second Temple compound?",
+"a": "Herod",
+"w1": "Solomon",
+"w2": "Hadrian",
+"src": "Josephus",
+"step": 48,
+"stage": 1
+},
+{
+"q": "In what year did the Romans destroy the Second Temple?",
+"a": "70 CE",
+"w1": "135 CE",
+"w2": "586 BCE",
+"src": "Josephus",
+"step": 49,
+"stage": 1
+},
+{
+"q": "What was Masada?",
+"a": "A desert fortress",
+"w1": "A port",
+"w2": "A temple",
+"src": "UNESCO, 2001",
+"step": 50,
+"stage": 1
+},
+{
+"q": "Who rebelled against Rome in 132 CE?",
+"a": "Bar Kokhba",
+"w1": "Judah Maccabee",
+"w2": "Herod",
+"src": "Roman histories",
+"step": 51,
+"stage": 1
+},
+{
+"q": "Which festival marks the Maccabees' victory?",
+"a": "Hanukkah",
+"w1": "Purim",
+"w2": "Passover",
+"src": "Books of Maccabees",
+"step": 52,
+"stage": 1
+},
+{
+"q": "Which festival marks the Exodus from Egypt?",
+"a": "Passover",
+"w1": "Shavuot",
+"w2": "Sukkot",
+"src": "Hebrew Bible",
+"step": 53,
+"stage": 1
+},
+{
+"q": "What is Israel's Remembrance Day for the Holocaust called?",
+"a": "Yom HaShoah",
+"w1": "Yom HaZikaron",
+"w2": "Tisha B'Av",
+"src": "Knesset law, 1959",
+"step": 54,
+"stage": 1
+},
+{
+"q": "What is the name of Israel's Holocaust memorial in Jerusalem?",
+"a": "Yad Vashem",
+"w1": "Beit Hatfutsot",
+"w2": "Yad Mordechai",
+"src": "Yad Vashem",
+"step": 55,
+"stage": 1
+},
+{
+"q": "About how many Jews were murdered in the Holocaust?",
+"a": "6 million",
+"w1": "1 million",
+"w2": "12 million",
+"src": "Yad Vashem",
+"step": 56,
+"stage": 1
+},
+{
+"q": "Who was captured by Israel in Argentina in 1960?",
+"a": "Adolf Eichmann",
+"w1": "Josef Mengele",
+"w2": "Klaus Barbie",
+"src": "Eichmann trial, 1961",
+"step": 57,
+"stage": 1
+},
+{
+"q": "What does the Law of Return grant?",
+"a": "Jews the right to immigrate",
+"w1": "Free housing",
+"w2": "Tax exemption",
+"src": "Law of Return, 1950",
+"step": 58,
+"stage": 1
+},
+{
+"q": "In what year was the Law of Return passed?",
+"a": "1950",
+"w1": "1948",
+"w2": "1967",
+"src": "Law of Return, 1950",
+"step": 59,
+"stage": 1
+},
+{
+"q": "What is Jewish immigration to Israel called?",
+"a": "Aliyah",
+"w1": "Yerida",
+"w2": "Teshuvah",
+"src": "Jewish Agency",
+"step": 60,
+"stage": 1
+},
+{
+"q": "What was Operation Solomon in 1991?",
+"a": "An airlift of Ethiopian Jews",
+"w1": "A military raid",
+"w2": "A peace summit",
+"src": "Jewish Agency",
+"step": 61,
+"stage": 1
+},
+{
+"q": "About how many people were airlifted in Operation Solomon?",
+"a": "About 14,000",
+"w1": "About 1,400",
+"w2": "About 140,000",
+"src": "Jewish Agency",
+"step": 62,
+"stage": 1
+},
+{
+"q": "Roughly how many people moved from the former Soviet Union in the 1990s?",
+"a": "About 1 million",
+"w1": "About 100,000",
+"w2": "About 5 million",
+"src": "Israel CBS",
+"step": 63,
+"stage": 1
+},
+{
+"q": "What was Operation Magic Carpet?",
+"a": "The airlift of Yemenite Jews",
+"w1": "A tank battle",
+"w2": "A space launch",
+"src": "Jewish Agency",
+"step": 64,
+"stage": 1
+},
+{
+"q": "Roughly how many Jews left or were expelled from Arab countries and Iran after 1948?",
+"a": "About 850,000",
+"w1": "About 50,000",
+"w2": "About 3 million",
+"src": "Historical estimates",
+"step": 65,
+"stage": 1
+},
+{
+"q": "What was the Six-Day War year?",
+"a": "1967",
+"w1": "1956",
+"w2": "1973",
+"src": "History",
+"step": 66,
+"stage": 1
+},
+{
+"q": "What was the Yom Kippur War year?",
+"a": "1973",
+"w1": "1967",
+"w2": "1982",
+"src": "History",
+"step": 67,
+"stage": 1
+},
+{
+"q": "Which country signed the first peace treaty with Israel?",
+"a": "Egypt",
+"w1": "Jordan",
+"w2": "Morocco",
+"src": "Camp David, 1979",
+"step": 68,
+"stage": 1
+},
+{
+"q": "In what year was the Israel-Egypt peace treaty signed?",
+"a": "1979",
+"w1": "1973",
+"w2": "1994",
+"src": "Treaty text, 1979",
+"step": 69,
+"stage": 1
+},
+{
+"q": "Who were the leaders at Camp David in 1978?",
+"a": "Begin and Sadat",
+"w1": "Rabin and Hussein",
+"w2": "Peres and Arafat",
+"src": "Camp David Accords",
+"step": 70,
+"stage": 1
+},
+{
+"q": "In what year did Israel and Jordan sign peace?",
+"a": "1994",
+"w1": "1979",
+"w2": "2000",
+"src": "Treaty text, 1994",
+"step": 71,
+"stage": 1
+},
+{
+"q": "Which Israeli PM was assassinated in 1995?",
+"a": "Yitzhak Rabin",
+"w1": "Shimon Peres",
+"w2": "Menachem Begin",
+"src": "History",
+"step": 72,
+"stage": 1
+},
+{
+"q": "What were the Abraham Accords?",
+"a": "Normalisation deals with Arab states",
+"w1": "A war plan",
+"w2": "A trade ban",
+"src": "Abraham Accords, 2020",
+"step": 73,
+"stage": 1
+},
+{
+"q": "In what year were the Abraham Accords signed?",
+"a": "2020",
+"w1": "2018",
+"w2": "2022",
+"src": "Abraham Accords, 2020",
+"step": 74,
+"stage": 1
+},
+{
+"q": "Which two Gulf states signed the Abraham Accords first?",
+"a": "UAE and Bahrain",
+"w1": "Saudi Arabia and Qatar",
+"w2": "Oman and Kuwait",
+"src": "Abraham Accords, 2020",
+"step": 75,
+"stage": 1
+},
+{
+"q": "Which North African country normalised ties in 2020?",
+"a": "Morocco",
+"w1": "Algeria",
+"w2": "Tunisia",
+"src": "Abraham Accords, 2020",
+"step": 76,
+"stage": 1
+},
+{
+"q": "Which African country also joined the accords in 2020 to 2021?",
+"a": "Sudan",
+"w1": "Kenya",
+"w2": "Nigeria",
+"src": "US State Department",
+"step": 77,
+"stage": 1
+},
+{
+"q": "When did Israel leave Gaza?",
+"a": "2005",
+"w1": "2000",
+"w2": "2010",
+"src": "Disengagement Plan, 2005",
+"step": 78,
+"stage": 1
+},
+{
+"q": "Who controls Gaza since 2007?",
+"a": "HAMAS",
+"w1": "Fatah",
+"w2": "Israel",
+"src": "History",
+"step": 79,
+"stage": 1
+},
+{
+"q": "On what date did HAMAS attack Israel in 2023?",
+"a": "7 October",
+"w1": "7 November",
+"w2": "7 September",
+"src": "History",
+"step": 80,
+"stage": 1
+},
+{
+"q": "About how many people were murdered in Israel on 7 October 2023?",
+"a": "About 1,200",
+"w1": "About 120",
+"w2": "About 12,000",
+"src": "Israeli government figures",
+"step": 81,
+"stage": 1
+},
+{
+"q": "About how many hostages were taken to Gaza on 7 October?",
+"a": "About 250",
+"w1": "About 25",
+"w2": "About 2,500",
+"src": "Israeli government figures",
+"step": 82,
+"stage": 1
+},
+{
+"q": "Which music festival was attacked on 7 October?",
+"a": "Nova",
+"w1": "Tamar",
+"w2": "Indingo",
+"src": "History",
+"step": 83,
+"stage": 1
+},
+{
+"q": "What is Israel's army called?",
+"a": "The IDF",
+"w1": "The Haganah",
+"w2": "The Palmach",
+"src": "IDF",
+"step": 84,
+"stage": 1
+},
+{
+"q": "What does IDF stand for?",
+"a": "Israel Defense Forces",
+"w1": "Israel Desert Force",
+"w2": "Internal Defense Front",
+"src": "IDF",
+"step": 85,
+"stage": 1
+},
+{
+"q": "Is military service compulsory for most Israeli Jews?",
+"a": "Yes",
+"w1": "No",
+"w2": "Only in wartime",
+"src": "Defense Service Law",
+"step": 86,
+"stage": 1
+},
+{
+"q": "What is Israel's missile defence system for short-range rockets?",
+"a": "Iron Dome",
+"w1": "David's Sling",
+"w2": "Arrow",
+"src": "IDF",
+"step": 87,
+"stage": 1
+},
+{
+"q": "In what year did Iron Dome first intercept a rocket?",
+"a": "2011",
+"w1": "2006",
+"w2": "2016",
+"src": "IDF",
+"step": 88,
+"stage": 1
+},
+{
+"q": "What is Israel's laser interception system called?",
+"a": "Iron Beam",
+"w1": "Iron Sword",
+"w2": "Laser Dome",
+"src": "Israel MOD",
+"step": 89,
+"stage": 1
+},
+{
+"q": "What was the Haganah?",
+"a": "A pre-state Jewish defence force",
+"w1": "A political party",
+"w2": "A newspaper",
+"src": "History",
+"step": 90,
+"stage": 1
+},
+{
+"q": "Which unit is famous for the 1976 Entebbe rescue?",
+"a": "Sayeret Matkal",
+"w1": "Golani",
+"w2": "Paratroopers",
+"src": "History",
+"step": 91,
+"stage": 1
+},
+{
+"q": "In which country is Entebbe?",
+"a": "Uganda",
+"w1": "Kenya",
+"w2": "Ethiopia",
+"src": "History",
+"step": 92,
+"stage": 1
+},
+{
+"q": "Who was the only Israeli soldier killed in the Entebbe raid?",
+"a": "Yoni Netanyahu",
+"w1": "Uzi Dayan",
+"w2": "Ehud Barak",
+"src": "History",
+"step": 93,
+"stage": 1
+},
+{
+"q": "What is the Israeli intelligence agency abroad?",
+"a": "The Mossad",
+"w1": "The Shin Bet",
+"w2": "Aman",
+"src": "History",
+"step": 94,
+"stage": 1
+},
+{
+"q": "What does Shin Bet handle?",
+"a": "Internal security",
+"w1": "Foreign spying",
+"w2": "Air defence",
+"src": "History",
+"step": 95,
+"stage": 1
+},
+{
+"q": "What is a kibbutz?",
+"a": "A collective community",
+"w1": "A religious school",
+"w2": "A military base",
+"src": "History",
+"step": 96,
+"stage": 1
+},
+{
+"q": "What was the first kibbutz?",
+"a": "Degania",
+"w1": "Ein Gedi",
+"w2": "Hanita",
+"src": "History",
+"step": 97,
+"stage": 1
+},
+{
+"q": "In what year was Degania founded?",
+"a": "1910",
+"w1": "1948",
+"w2": "1882",
+"src": "History",
+"step": 98,
+"stage": 1
+},
+{
+"q": "What is a moshav?",
+"a": "A cooperative farming village",
+"w1": "A fortress",
+"w2": "A market",
+"src": "History",
+"step": 99,
+"stage": 1
+},
+{
+"q": "Which Israeli invention lets farmers save water with tubes?",
+"a": "Drip irrigation",
+"w1": "The sprinkler",
+"w2": "Hydroponics",
+"src": "Netafim",
+"step": 100,
+"stage": 1
+},
+{
+"q": "Which company is linked to modern drip irrigation?",
+"a": "Netafim",
+"w1": "Teva",
+"w2": "Elbit",
+"src": "Netafim",
+"step": 101,
+"stage": 2
+},
+{
+"q": "About what share of Israel's wastewater is recycled for farming?",
+"a": "About 90 percent",
+"w1": "About 30 percent",
+"w2": "About 10 percent",
+"src": "Israel Water Authority",
+"step": 102,
+"stage": 2
+},
+{
+"q": "Where does most of Israel's drinking water now come from?",
+"a": "Desalination",
+"w1": "Rain only",
+"w2": "The Jordan River",
+"src": "Israel Water Authority",
+"step": 103,
+"stage": 2
+},
+{
+"q": "What is Sorek?",
+"a": "A large desalination plant",
+"w1": "A missile",
+"w2": "A river",
+"src": "IDE Technologies",
+"step": 104,
+"stage": 2
+},
+{
+"q": "Which Israeli app helps drivers beat traffic?",
+"a": "Waze",
+"w1": "Moovit only",
+"w2": "Uber",
+"src": "Waze history",
+"step": 105,
+"stage": 2
+},
+{
+"q": "Which tech giant bought Waze?",
+"a": "Google",
+"w1": "Apple",
+"w2": "Microsoft",
+"src": "Google, 2013",
+"step": 106,
+"stage": 2
+},
+{
+"q": "Which Israeli company made the USB flash drive popular?",
+"a": "M-Systems",
+"w1": "Check Point",
+"w2": "Wix",
+"src": "M-Systems history",
+"step": 107,
+"stage": 2
+},
+{
+"q": "Which Israeli company makes firewalls?",
+"a": "Check Point",
+"w1": "Fiverr",
+"w2": "Mobileye",
+"src": "Check Point",
+"step": 108,
+"stage": 2
+},
+{
+"q": "Which Israeli company works on self-driving vision chips?",
+"a": "Mobileye",
+"w1": "Monday.com",
+"w2": "Wix",
+"src": "Mobileye",
+"step": 109,
+"stage": 2
+},
+{
+"q": "Who bought Mobileye in 2017?",
+"a": "Intel",
+"w1": "Tesla",
+"w2": "Google",
+"src": "Intel, 2017",
+"step": 110,
+"stage": 2
+},
+{
+"q": "What is Wix known for?",
+"a": "Website building",
+"w1": "Food delivery",
+"w2": "Car rentals",
+"src": "Wix",
+"step": 111,
+"stage": 2
+},
+{
+"q": "What is Fiverr?",
+"a": "A freelance marketplace",
+"w1": "A bank",
+"w2": "A game",
+"src": "Fiverr",
+"step": 112,
+"stage": 2
+},
+{
+"q": "Which Israeli pill-sized camera became famous in medicine?",
+"a": "PillCam",
+"w1": "PillBot",
+"w2": "CamScan",
+"src": "Given Imaging",
+"step": 113,
+"stage": 2
+},
+{
+"q": "Which Israeli company is a giant in generic drugs?",
+"a": "Teva",
+"w1": "Pfizer",
+"w2": "Novartis",
+"src": "Teva",
+"step": 114,
+"stage": 2
+},
+{
+"q": "What does \"Start-Up Nation\" refer to?",
+"a": "Israel's tech scene",
+"w1": "A TV show",
+"w2": "A bank",
+"src": "Senor and Singer, 2009",
+"step": 115,
+"stage": 2
+},
+{
+"q": "How many Israelis have won a Nobel Prize, roughly?",
+"a": "About 13",
+"w1": "About 3",
+"w2": "About 40",
+"src": "Nobel Foundation",
+"step": 116,
+"stage": 2
+},
+{
+"q": "Who was the first Israeli to win a Nobel Prize?",
+"a": "S. Y. Agnon",
+"w1": "Menachem Begin",
+"w2": "Elie Wiesel",
+"src": "Nobel Foundation",
+"step": 117,
+"stage": 2
+},
+{
+"q": "In which field did Agnon win the Nobel?",
+"a": "Literature",
+"w1": "Peace",
+"w2": "Chemistry",
+"src": "Nobel Foundation",
+"step": 118,
+"stage": 2
+},
+{
+"q": "Which Israeli won the Nobel in Economics in 2002?",
+"a": "Daniel Kahneman",
+"w1": "Robert Aumann",
+"w2": "Ada Yonath",
+"src": "Nobel Foundation",
+"step": 119,
+"stage": 2
+},
+{
+"q": "Which Israeli woman won the Nobel in Chemistry in 2009?",
+"a": "Ada Yonath",
+"w1": "Golda Meir",
+"w2": "Dan Shechtman",
+"src": "Nobel Foundation",
+"step": 120,
+"stage": 2
+},
+{
+"q": "Who discovered quasicrystals and won a Nobel in 2011?",
+"a": "Dan Shechtman",
+"w1": "Aaron Ciechanover",
+"w2": "Avram Hershko",
+"src": "Nobel Foundation",
+"step": 121,
+"stage": 2
+},
+{
+"q": "Which three got the 1994 Nobel Peace Prize?",
+"a": "Rabin, Peres and Arafat",
+"w1": "Begin, Sadat and Carter",
+"w2": "Rabin, Hussein and Clinton",
+"src": "Nobel Foundation",
+"step": 122,
+"stage": 2
+},
+{
+"q": "Who shared the 1978 Nobel Peace Prize with Begin?",
+"a": "Anwar Sadat",
+"w1": "Jimmy Carter",
+"w2": "King Hussein",
+"src": "Nobel Foundation",
+"step": 123,
+"stage": 2
+},
+{
+"q": "Which Israeli singer won Eurovision in 2018?",
+"a": "Netta",
+"w1": "Dana International",
+"w2": "Eden Golan",
+"src": "Eurovision",
+"step": 124,
+"stage": 2
+},
+{
+"q": "What was Netta's winning song?",
+"a": "Toy",
+"w1": "Diva",
+"w2": "Hurricane",
+"src": "Eurovision",
+"step": 125,
+"stage": 2
+},
+{
+"q": "Who won Eurovision for Israel in 1998?",
+"a": "Dana International",
+"w1": "Ofra Haza",
+"w2": "Izhar Cohen",
+"src": "Eurovision",
+"step": 126,
+"stage": 2
+},
+{
+"q": "How many times has Israel won Eurovision?",
+"a": "Four",
+"w1": "Two",
+"w2": "Six",
+"src": "Eurovision",
+"step": 127,
+"stage": 2
+},
+{
+"q": "Which Israeli actress played Wonder Woman?",
+"a": "Gal Gadot",
+"w1": "Natalie Portman",
+"w2": "Shira Haas",
+"src": "Film credits",
+"step": 128,
+"stage": 2
+},
+{
+"q": "Which Oscar winner was born in Jerusalem?",
+"a": "Natalie Portman",
+"w1": "Gal Gadot",
+"w2": "Scarlett Johansson",
+"src": "Biography",
+"step": 129,
+"stage": 2
+},
+{
+"q": "Which Israeli series was remade as \"Homeland\"?",
+"a": "Prisoners of War",
+"w1": "Fauda",
+"w2": "Shtisel",
+"src": "TV credits",
+"step": 130,
+"stage": 2
+},
+{
+"q": "Which Israeli series follows an undercover unit?",
+"a": "Fauda",
+"w1": "Shtisel",
+"w2": "Unorthodox",
+"src": "Netflix",
+"step": 131,
+"stage": 2
+},
+{
+"q": "Which Israeli series is about a Haredi family in Jerusalem?",
+"a": "Shtisel",
+"w1": "Fauda",
+"w2": "Tehran",
+"src": "Netflix",
+"step": 132,
+"stage": 2
+},
+{
+"q": "Which Israeli basketball team won the EuroLeague several times?",
+"a": "Maccabi Tel Aviv",
+"w1": "Hapoel Jerusalem",
+"w2": "Maccabi Haifa",
+"src": "EuroLeague",
+"step": 133,
+"stage": 2
+},
+{
+"q": "Which Israeli won Olympic gold in windsurfing in 2004?",
+"a": "Gal Fridman",
+"w1": "Shahar Tzuberi",
+"w2": "Lee Korzits",
+"src": "IOC",
+"step": 134,
+"stage": 2
+},
+{
+"q": "Which Israeli gymnast won gold at Tokyo 2020?",
+"a": "Artem Dolgopyat",
+"w1": "Linoy Ashram only",
+"w2": "Alex Shatilov",
+"src": "IOC",
+"step": 135,
+"stage": 2
+},
+{
+"q": "Which Israeli won rhythmic gymnastics gold at Tokyo 2020?",
+"a": "Linoy Ashram",
+"w1": "Nicol Zelikman",
+"w2": "Daria Atamanov",
+"src": "IOC",
+"step": 136,
+"stage": 2
+},
+{
+"q": "What is the name of Israel's national football stadium in Ramat Gan?",
+"a": "Ramat Gan Stadium",
+"w1": "Teddy Stadium",
+"w2": "Bloomfield",
+"src": "Football history",
+"step": 137,
+"stage": 2
+},
+{
+"q": "Which city hosted the 1968 Paralympics?",
+"a": "Tel Aviv",
+"w1": "Mexico City",
+"w2": "Munich",
+"src": "IPC",
+"step": 138,
+"stage": 2
+},
+{
+"q": "Where were 11 Israeli athletes murdered in 1972?",
+"a": "Munich",
+"w1": "Montreal",
+"w2": "Mexico City",
+"src": "IOC",
+"step": 139,
+"stage": 2
+},
+{
+"q": "What is the Maccabiah?",
+"a": "The Jewish Olympics held in Israel",
+"w1": "A festival meal",
+"w2": "A song",
+"src": "Maccabi World Union",
+"step": 140,
+"stage": 2
+},
+{
+"q": "What is falafel mostly made from?",
+"a": "Chickpeas",
+"w1": "Lentils",
+"w2": "Potatoes",
+"src": "Food",
+"step": 141,
+"stage": 2
+},
+{
+"q": "What is shakshuka?",
+"a": "Eggs in tomato sauce",
+"w1": "A sweet pastry",
+"w2": "A salad",
+"src": "Food",
+"step": 142,
+"stage": 2
+},
+{
+"q": "What is sabich?",
+"a": "Pita with fried aubergine and egg",
+"w1": "A soup",
+"w2": "A drink",
+"src": "Food",
+"step": 143,
+"stage": 2
+},
+{
+"q": "Where did sabich come to Israel with?",
+"a": "Iraqi Jews",
+"w1": "Polish Jews",
+"w2": "French Jews",
+"src": "Food history",
+"step": 144,
+"stage": 2
+},
+{
+"q": "What is Bamba?",
+"a": "A peanut snack",
+"w1": "A dance",
+"w2": "A coin",
+"src": "Osem",
+"step": 145,
+"stage": 2
+},
+{
+"q": "What is a \"sabra\"?",
+"a": "An Israeli-born Jew",
+"w1": "A soldier",
+"w2": "A rabbi",
+"src": "Hebrew usage",
+"step": 146,
+"stage": 2
+},
+{
+"q": "Why is a sabra a symbol?",
+"a": "Prickly outside, sweet inside",
+"w1": "It's the national flower",
+"w2": "It grows in Europe",
+"src": "Hebrew usage",
+"step": 147,
+"stage": 2
+},
+{
+"q": "What is Israel's national bird?",
+"a": "The hoopoe",
+"w1": "The eagle",
+"w2": "The dove",
+"src": "Knesset vote, 2008",
+"step": 148,
+"stage": 2
+},
+{
+"q": "What is Israel's national flower?",
+"a": "The anemone",
+"w1": "The rose",
+"w2": "The lily",
+"src": "KKL vote, 2013",
+"step": 149,
+"stage": 2
+},
+{
+"q": "What is Israel's national tree?",
+"a": "The olive tree",
+"w1": "The palm",
+"w2": "The cedar",
+"src": "Knesset decision",
+"step": 150,
+"stage": 2
+},
+{
+"q": "What day is the weekly day of rest in Israel?",
+"a": "Saturday",
+"w1": "Sunday",
+"w2": "Friday",
+"src": "Hours of Work and Rest Law",
+"step": 151,
+"stage": 2
+},
+{
+"q": "What day does the Israeli work week start?",
+"a": "Sunday",
+"w1": "Monday",
+"w2": "Saturday",
+"src": "Common practice",
+"step": 152,
+"stage": 2
+},
+{
+"q": "What is the Israeli airline flag carrier?",
+"a": "El Al",
+"w1": "Arkia",
+"w2": "Israir",
+"src": "El Al",
+"step": 153,
+"stage": 2
+},
+{
+"q": "What does \"El Al\" mean?",
+"a": "To the skies",
+"w1": "Our wings",
+"w2": "Fly high",
+"src": "El Al",
+"step": 154,
+"stage": 2
+},
+{
+"q": "What is Israel's main international airport?",
+"a": "Ben Gurion Airport",
+"w1": "Ramon only",
+"w2": "Haifa Airport",
+"src": "Israel Airports Authority",
+"step": 155,
+"stage": 2
+},
+{
+"q": "Where is Ramon Airport?",
+"a": "Near Eilat",
+"w1": "Near Haifa",
+"w2": "Near Tel Aviv",
+"src": "Israel Airports Authority",
+"step": 156,
+"stage": 2
+},
+{
+"q": "Which country borders Israel to the north?",
+"a": "Lebanon",
+"w1": "Syria",
+"w2": "Turkey",
+"src": "Geography",
+"step": 157,
+"stage": 2
+},
+{
+"q": "Which country borders Israel to the north-east?",
+"a": "Syria",
+"w1": "Iraq",
+"w2": "Jordan",
+"src": "Geography",
+"step": 158,
+"stage": 2
+},
+{
+"q": "Which country borders Israel to the east?",
+"a": "Jordan",
+"w1": "Iraq",
+"w2": "Saudi Arabia",
+"src": "Geography",
+"step": 159,
+"stage": 2
+},
+{
+"q": "Which country borders Israel to the south-west?",
+"a": "Egypt",
+"w1": "Libya",
+"w2": "Sudan",
+"src": "Geography",
+"step": 160,
+"stage": 2
+},
+{
+"q": "Which sea is on Israel's west coast?",
+"a": "The Mediterranean",
+"w1": "The Red Sea",
+"w2": "The Black Sea",
+"src": "Geography",
+"step": 161,
+"stage": 2
+},
+{
+"q": "What is the white cliff grotto on the Lebanon border called?",
+"a": "Rosh HaNikra",
+"w1": "Achziv",
+"w2": "Dor",
+"src": "Israel Nature and Parks Authority",
+"step": 162,
+"stage": 2
+},
+{
+"q": "Which ancient port city near Haifa was a Crusader stronghold?",
+"a": "Acre (Akko)",
+"w1": "Caesarea",
+"w2": "Jaffa",
+"src": "UNESCO, 2001",
+"step": 163,
+"stage": 2
+},
+{
+"q": "Which harbour city did Herod build on the coast?",
+"a": "Caesarea",
+"w1": "Ashdod",
+"w2": "Ashkelon",
+"src": "UNESCO",
+"step": 164,
+"stage": 2
+},
+{
+"q": "Which is Israel's largest port city?",
+"a": "Haifa",
+"w1": "Eilat",
+"w2": "Ashkelon",
+"src": "Israel Ports",
+"step": 165,
+"stage": 2
+},
+{
+"q": "What is Jaffa famous for exporting?",
+"a": "Oranges",
+"w1": "Wine",
+"w2": "Cotton",
+"src": "History",
+"step": 166,
+"stage": 2
+},
+{
+"q": "How long is Israel from north to south, roughly?",
+"a": "About 470 km",
+"w1": "About 1,000 km",
+"w2": "About 150 km",
+"src": "Geography",
+"step": 167,
+"stage": 2
+},
+{
+"q": "How wide is Israel at its narrowest point inside the Green Line?",
+"a": "About 15 km",
+"w1": "About 60 km",
+"w2": "About 120 km",
+"src": "Geography",
+"step": 168,
+"stage": 2
+},
+{
+"q": "Which city is known as the capital of the Negev?",
+"a": "Beersheba",
+"w1": "Dimona",
+"w2": "Arad",
+"src": "Israel CBS",
+"step": 169,
+"stage": 2
+},
+{
+"q": "Which university is in Beersheba?",
+"a": "Ben-Gurion University",
+"w1": "Technion",
+"w2": "Weizmann Institute",
+"src": "BGU",
+"step": 170,
+"stage": 2
+},
+{
+"q": "Where is the Technion?",
+"a": "Haifa",
+"w1": "Tel Aviv",
+"w2": "Rehovot",
+"src": "Technion",
+"step": 171,
+"stage": 2
+},
+{
+"q": "Where is the Weizmann Institute?",
+"a": "Rehovot",
+"w1": "Jerusalem",
+"w2": "Haifa",
+"src": "Weizmann Institute",
+"step": 172,
+"stage": 2
+},
+{
+"q": "Which university did Einstein help found?",
+"a": "The Hebrew University",
+"w1": "Tel Aviv University",
+"w2": "Technion",
+"src": "Hebrew University",
+"step": 173,
+"stage": 2
+},
+{
+"q": "Where did Einstein leave his archive?",
+"a": "The Hebrew University",
+"w1": "Princeton",
+"w2": "Berlin",
+"src": "Hebrew University",
+"step": 174,
+"stage": 2
+},
+{
+"q": "Was Einstein offered Israel's presidency?",
+"a": "Yes",
+"w1": "No",
+"w2": "He asked for it",
+"src": "History, 1952",
+"step": 175,
+"stage": 2
+},
+{
+"q": "In which city is the Church of the Annunciation?",
+"a": "Nazareth",
+"w1": "Jerusalem",
+"w2": "Bethlehem",
+"src": "Geography",
+"step": 176,
+"stage": 2
+},
+{
+"q": "Which city on the Sea of Galilee is one of four holy cities?",
+"a": "Tiberias",
+"w1": "Nazareth",
+"w2": "Afula",
+"src": "Jewish tradition",
+"step": 177,
+"stage": 2
+},
+{
+"q": "Which hilltop city is known for Kabbalah?",
+"a": "Safed (Tzfat)",
+"w1": "Tiberias",
+"w2": "Hebron",
+"src": "Jewish tradition",
+"step": 178,
+"stage": 2
+},
+{
+"q": "Which are the four holy cities in Jewish tradition?",
+"a": "Jerusalem, Hebron, Safed, Tiberias",
+"w1": "Jerusalem, Tel Aviv, Haifa, Eilat",
+"w2": "Jerusalem, Jaffa, Acre, Safed",
+"src": "Jewish tradition",
+"step": 179,
+"stage": 2
+},
+{
+"q": "Which city has the Cave of the Patriarchs?",
+"a": "Hebron",
+"w1": "Bethlehem",
+"w2": "Nablus",
+"src": "Hebrew Bible",
+"step": 180,
+"stage": 2
+},
+{
+"q": "Which oasis sits by the Dead Sea with waterfalls and ibex?",
+"a": "Ein Gedi",
+"w1": "Ein Bokek",
+"w2": "Eilat",
+"src": "Israel Nature and Parks Authority",
+"step": 181,
+"stage": 2
+},
+{
+"q": "What animal climbs the cliffs at Ein Gedi?",
+"a": "The Nubian ibex",
+"w1": "The camel",
+"w2": "The deer",
+"src": "Israel Nature and Parks Authority",
+"step": 182,
+"stage": 2
+},
+{
+"q": "What are the red pillars near Eilat called?",
+"a": "Solomon's Pillars at Timna",
+"w1": "Masada Towers",
+"w2": "Red Canyon Gates",
+"src": "Timna Park",
+"step": 183,
+"stage": 2
+},
+{
+"q": "What is mined near the Dead Sea?",
+"a": "Potash and minerals",
+"w1": "Gold",
+"w2": "Coal",
+"src": "ICL",
+"step": 184,
+"stage": 2
+},
+{
+"q": "Which valley in the north is a major bird migration route?",
+"a": "The Hula Valley",
+"w1": "The Arava",
+"w2": "The Jezreel only",
+"src": "Hula Nature Reserve",
+"step": 185,
+"stage": 2
+},
+{
+"q": "About how many birds pass over Israel each year on migration?",
+"a": "About 500 million",
+"w1": "About 5 million",
+"w2": "About 50,000",
+"src": "Israeli Ornithology Center",
+"step": 186,
+"stage": 2
+},
+{
+"q": "Which valley runs between the Dead Sea and Eilat?",
+"a": "The Arava",
+"w1": "The Hula",
+"w2": "The Jezreel",
+"src": "Geography",
+"step": 187,
+"stage": 2
+},
+{
+"q": "What is the green farming valley in the north called?",
+"a": "The Jezreel Valley",
+"w1": "The Arava",
+"w2": "The Zin Valley",
+"src": "Geography",
+"step": 188,
+"stage": 2
+},
+{
+"q": "What is the famous hill of the Battle of Armageddon?",
+"a": "Megiddo",
+"w1": "Tabor",
+"w2": "Gilboa",
+"src": "UNESCO",
+"step": 189,
+"stage": 2
+},
+{
+"q": "Which mountain is a traditional site of the Transfiguration?",
+"a": "Mount Tabor",
+"w1": "Mount Carmel",
+"w2": "Mount Gilboa",
+"src": "Christian tradition",
+"step": 190,
+"stage": 2
+},
+{
+"q": "Which mountain overlooks the Jordan river headwaters and has ski slopes?",
+"a": "Mount Hermon",
+"w1": "Mount Meron",
+"w2": "Mount Tabor",
+"src": "Geography",
+"step": 191,
+"stage": 2
+},
+{
+"q": "Which river springs at Banias and Dan?",
+"a": "The Jordan",
+"w1": "The Yarkon",
+"w2": "The Kishon",
+"src": "Geography",
+"step": 192,
+"stage": 2
+},
+{
+"q": "Which river runs through Tel Aviv?",
+"a": "The Yarkon",
+"w1": "The Jordan",
+"w2": "The Kishon",
+"src": "Geography",
+"step": 193,
+"stage": 2
+},
+{
+"q": "What is the park in Tel Aviv along the Yarkon?",
+"a": "HaYarkon Park",
+"w1": "Central Park",
+"w2": "Gan Sacher",
+"src": "Tel Aviv municipality",
+"step": 194,
+"stage": 2
+},
+{
+"q": "What is Jerusalem's biggest park?",
+"a": "Gan Sacher",
+"w1": "HaYarkon Park",
+"w2": "Ramat Hanadiv",
+"src": "Jerusalem municipality",
+"step": 195,
+"stage": 2
+},
+{
+"q": "What is the name of Jerusalem's famous market?",
+"a": "Mahane Yehuda",
+"w1": "Carmel Market",
+"w2": "Levinsky",
+"src": "Jerusalem municipality",
+"step": 196,
+"stage": 2
+},
+{
+"q": "What is Tel Aviv's famous market?",
+"a": "Carmel Market",
+"w1": "Mahane Yehuda",
+"w2": "Talpiot",
+"src": "Tel Aviv municipality",
+"step": 197,
+"stage": 2
+},
+{
+"q": "What is Jaffa's flea market called?",
+"a": "Shuk HaPishpeshim",
+"w1": "Shuk HaCarmel",
+"w2": "Shuk Levinsky",
+"src": "Tel Aviv municipality",
+"step": 198,
+"stage": 2
+},
+{
+"q": "How many quarters is Jerusalem's Old City traditionally divided into?",
+"a": "Four",
+"w1": "Three",
+"w2": "Six",
+"src": "Geography",
+"step": 199,
+"stage": 2
+},
+{
+"q": "Name the four quarters of Jerusalem's Old City.",
+"a": "Jewish, Christian, Muslim, Armenian",
+"w1": "Jewish, Christian, Muslim, Druze",
+"w2": "North, South, East, West",
+"src": "Geography",
+"step": 200,
+"stage": 2
+},
+{
+"q": "How many gates are open in the Old City walls of Jerusalem?",
+"a": "Seven",
+"w1": "Twelve",
+"w2": "Four",
+"src": "Jerusalem municipality",
+"step": 201,
+"stage": 3
+},
+{
+"q": "Which Ottoman sultan built Jerusalem's current walls?",
+"a": "Suleiman the Magnificent",
+"w1": "Saladin",
+"w2": "Mehmed II",
+"src": "History",
+"step": 202,
+"stage": 3
+},
+{
+"q": "Who reunified Jerusalem under Israel in 1967?",
+"a": "The IDF in the Six-Day War",
+"w1": "The UN",
+"w2": "Britain",
+"src": "History",
+"step": 203,
+"stage": 3
+},
+{
+"q": "What was the British rule in the region called?",
+"a": "The British Mandate",
+"w1": "The Protectorate",
+"w2": "The Dominion",
+"src": "League of Nations, 1922",
+"step": 204,
+"stage": 3
+},
+{
+"q": "When did the British Mandate end?",
+"a": "1948",
+"w1": "1945",
+"w2": "1939",
+"src": "History",
+"step": 205,
+"stage": 3
+},
+{
+"q": "Who ruled the region for about 400 years before Britain?",
+"a": "The Ottoman Empire",
+"w1": "Persia",
+"w2": "Egypt",
+"src": "History",
+"step": 206,
+"stage": 3
+},
+{
+"q": "When did the Ottomans lose Jerusalem to Britain?",
+"a": "1917",
+"w1": "1923",
+"w2": "1898",
+"src": "History",
+"step": 207,
+"stage": 3
+},
+{
+"q": "Who entered Jerusalem in 1917?",
+"a": "General Allenby",
+"w1": "Lawrence of Arabia",
+"w2": "Churchill",
+"src": "History",
+"step": 208,
+"stage": 3
+},
+{
+"q": "What was the White Paper of 1939?",
+"a": "A British limit on Jewish immigration",
+"w1": "A peace plan",
+"w2": "A census",
+"src": "British White Paper, 1939",
+"step": 209,
+"stage": 3
+},
+{
+"q": "What was the ship Exodus 1947?",
+"a": "A ship of Holocaust survivors turned back by Britain",
+"w1": "A cruise ship",
+"w2": "A warship",
+"src": "History",
+"step": 210,
+"stage": 3
+},
+{
+"q": "What is the \"Green Line\"?",
+"a": "The 1949 armistice lines",
+"w1": "A railway",
+"w2": "A river",
+"src": "Armistice Agreements, 1949",
+"step": 211,
+"stage": 3
+},
+{
+"q": "What does \"Judea and Samaria\" refer to?",
+"a": "The West Bank",
+"w1": "The Negev",
+"w2": "The Galilee",
+"src": "Common usage",
+"step": 212,
+"stage": 3
+},
+{
+"q": "When did Israel capture the Golan Heights?",
+"a": "1967",
+"w1": "1973",
+"w2": "1948",
+"src": "History",
+"step": 213,
+"stage": 3
+},
+{
+"q": "When did Israel apply its law to the Golan?",
+"a": "1981",
+"w1": "1967",
+"w2": "1994",
+"src": "Golan Heights Law, 1981",
+"step": 214,
+"stage": 3
+},
+{
+"q": "What is the Druze community?",
+"a": "An Arabic-speaking religious minority",
+"w1": "A Jewish sect",
+"w2": "A Christian order",
+"src": "Israel CBS",
+"step": 215,
+"stage": 3
+},
+{
+"q": "Do Druze men serve in the IDF?",
+"a": "Yes, most are drafted",
+"w1": "No",
+"w2": "Only officers",
+"src": "Defense Service Law",
+"step": 216,
+"stage": 3
+},
+{
+"q": "What share of Israel's citizens are Arab, roughly?",
+"a": "About 21 percent",
+"w1": "About 5 percent",
+"w2": "About 40 percent",
+"src": "Israel CBS",
+"step": 217,
+"stage": 3
+},
+{
+"q": "Roughly what is Israel's population today?",
+"a": "About 10 million",
+"w1": "About 5 million",
+"w2": "About 20 million",
+"src": "Israel CBS",
+"step": 218,
+"stage": 3
+},
+{
+"q": "Roughly what share of Israelis are Jewish?",
+"a": "About 73 percent",
+"w1": "About 50 percent",
+"w2": "About 95 percent",
+"src": "Israel CBS",
+"step": 219,
+"stage": 3
+},
+{
+"q": "Which former Israeli president was convicted and jailed?",
+"a": "Moshe Katsav",
+"w1": "Shimon Peres",
+"w2": "Ezer Weizman",
+"src": "Israeli courts",
+"step": 220,
+"stage": 3
+},
+{
+"q": "Are Arab citizens of Israel able to vote?",
+"a": "Yes",
+"w1": "No",
+"w2": "Only locally",
+"src": "Knesset",
+"step": 221,
+"stage": 3
+},
+{
+"q": "Has an Arab party been part of an Israeli coalition?",
+"a": "Yes, Ra'am in 2021",
+"w1": "No",
+"w2": "Only in 1949",
+"src": "Knesset",
+"step": 222,
+"stage": 3
+},
+{
+"q": "Who are the Bedouin?",
+"a": "Traditionally nomadic Arab tribes",
+"w1": "A Jewish group",
+"w2": "A Christian order",
+"src": "Israel CBS",
+"step": 223,
+"stage": 3
+},
+{
+"q": "Which Arab Israeli won MasterChef Israel?",
+"a": "Nof Atamna-Ismaeel",
+"w1": "Mira Awad",
+"w2": "Lucy Aharish",
+"src": "TV records",
+"step": 224,
+"stage": 3
+},
+{
+"q": "Which Arab Israeli anchored a main news channel and lit a torch on Independence Day?",
+"a": "Lucy Aharish",
+"w1": "Rana Raslan",
+"w2": "Mira Awad",
+"src": "Media records",
+"step": 225,
+"stage": 3
+},
+{
+"q": "Who was the first Arab Miss Israel?",
+"a": "Rana Raslan",
+"w1": "Lucy Aharish",
+"w2": "Mira Awad",
+"src": "Miss Israel, 1999",
+"step": 226,
+"stage": 3
+},
+{
+"q": "What do Israelis call Ethiopian Jews' community holiday?",
+"a": "Sigd",
+"w1": "Mimouna",
+"w2": "Saharana",
+"src": "Knesset law, 2008",
+"step": 227,
+"stage": 3
+},
+{
+"q": "What is Mimouna?",
+"a": "A Moroccan Jewish post-Passover celebration",
+"w1": "A fast day",
+"w2": "A wedding",
+"src": "Tradition",
+"step": 228,
+"stage": 3
+},
+{
+"q": "Which Jewish groups came from Iraq in the 1950s airlift?",
+"a": "Iraqi Jews",
+"w1": "Yemenite Jews",
+"w2": "Polish Jews",
+"src": "Operation Ezra and Nehemiah",
+"step": 229,
+"stage": 3
+},
+{
+"q": "What does \"Mizrahi\" mean in Israel?",
+"a": "Jews from the Middle East and North Africa",
+"w1": "European Jews",
+"w2": "American Jews",
+"src": "Common usage",
+"step": 230,
+"stage": 3
+},
+{
+"q": "What does \"Ashkenazi\" mean?",
+"a": "Jews from Central and Eastern Europe",
+"w1": "Jews from Spain",
+"w2": "Jews from Yemen",
+"src": "Common usage",
+"step": 231,
+"stage": 3
+},
+{
+"q": "What does \"Sephardi\" originally mean?",
+"a": "Jews from Spain",
+"w1": "Jews from Poland",
+"w2": "Jews from Iran",
+"src": "Common usage",
+"step": 232,
+"stage": 3
+},
+{
+"q": "Which year were Jews expelled from Spain?",
+"a": "1492",
+"w1": "1290",
+"w2": "1648",
+"src": "History",
+"step": 233,
+"stage": 3
+},
+{
+"q": "Which group lived in Iran for over 2,500 years?",
+"a": "Persian Jews",
+"w1": "Ashkenazi Jews",
+"w2": "Ethiopian Jews",
+"src": "History",
+"step": 234,
+"stage": 3
+},
+{
+"q": "What is the oldest continuous Jewish community outside Israel by tradition?",
+"a": "Iraq (Babylon)",
+"w1": "Poland",
+"w2": "Germany",
+"src": "History",
+"step": 235,
+"stage": 3
+},
+{
+"q": "Which Babylonian king destroyed the First Temple?",
+"a": "Nebuchadnezzar",
+"w1": "Cyrus",
+"w2": "Darius",
+"src": "Hebrew Bible",
+"step": 236,
+"stage": 3
+},
+{
+"q": "Which Persian king let Jews return to Jerusalem?",
+"a": "Cyrus the Great",
+"w1": "Xerxes",
+"w2": "Darius III",
+"src": "Cyrus Cylinder",
+"step": 237,
+"stage": 3
+},
+{
+"q": "What is the main Jewish religious text?",
+"a": "The Torah",
+"w1": "The Talmud only",
+"w2": "The Zohar",
+"src": "Tradition",
+"step": 238,
+"stage": 3
+},
+{
+"q": "How many books are in the Torah?",
+"a": "Five",
+"w1": "Ten",
+"w2": "Twelve",
+"src": "Tradition",
+"step": 239,
+"stage": 3
+},
+{
+"q": "What were found at Qumran in 1947?",
+"a": "The Dead Sea Scrolls",
+"w1": "Gold coins",
+"w2": "A temple",
+"src": "Israel Museum",
+"step": 240,
+"stage": 3
+},
+{
+"q": "Where are the Dead Sea Scrolls kept?",
+"a": "The Shrine of the Book",
+"w1": "The Louvre",
+"w2": "The British Museum",
+"src": "Israel Museum",
+"step": 241,
+"stage": 3
+},
+{
+"q": "How old are the oldest Dead Sea Scrolls, roughly?",
+"a": "About 2,200 years",
+"w1": "About 500 years",
+"w2": "About 5,000 years",
+"src": "Israel Museum",
+"step": 242,
+"stage": 3
+},
+{
+"q": "What does \"shalom\" mean?",
+"a": "Peace, hello and goodbye",
+"w1": "Thank you",
+"w2": "Good luck",
+"src": "Hebrew",
+"step": 243,
+"stage": 3
+},
+{
+"q": "What does \"toda\" mean?",
+"a": "Thank you",
+"w1": "Hello",
+"w2": "Sorry",
+"src": "Hebrew",
+"step": 244,
+"stage": 3
+},
+{
+"q": "What does \"boker tov\" mean?",
+"a": "Good morning",
+"w1": "Good night",
+"w2": "Good luck",
+"src": "Hebrew",
+"step": 245,
+"stage": 3
+},
+{
+"q": "What does \"mazal tov\" mean?",
+"a": "Congratulations",
+"w1": "Good morning",
+"w2": "Bon appetit",
+"src": "Hebrew",
+"step": 246,
+"stage": 3
+},
+{
+"q": "What does \"le'chaim\" mean?",
+"a": "To life (cheers)",
+"w1": "To health",
+"w2": "To peace",
+"src": "Hebrew",
+"step": 247,
+"stage": 3
+},
+{
+"q": "What does \"yalla\" mean in Israeli slang?",
+"a": "Come on, let's go",
+"w1": "Stop",
+"w2": "Goodbye",
+"src": "Israeli slang",
+"step": 248,
+"stage": 3
+},
+{
+"q": "What does \"sababa\" mean?",
+"a": "Cool, great",
+"w1": "Bad",
+"w2": "Expensive",
+"src": "Israeli slang",
+"step": 249,
+"stage": 3
+},
+{
+"q": "What does \"balagan\" mean?",
+"a": "A mess",
+"w1": "A party",
+"w2": "A bank",
+"src": "Israeli slang",
+"step": 250,
+"stage": 3
+},
+{
+"q": "What does \"chutzpah\" mean?",
+"a": "Bold nerve",
+"w1": "Kindness",
+"w2": "Fear",
+"src": "Hebrew",
+"step": 251,
+"stage": 3
+},
+{
+"q": "Which language did most of Israel's founders speak at home before Hebrew?",
+"a": "Yiddish",
+"w1": "English",
+"w2": "French",
+"src": "History",
+"step": 252,
+"stage": 3
+},
+{
+"q": "How old is the Hebrew alphabet, roughly?",
+"a": "About 3,000 years",
+"w1": "About 500 years",
+"w2": "About 1,000 years",
+"src": "Academy of the Hebrew Language",
+"step": 253,
+"stage": 3
+},
+{
+"q": "How many letters are in the Hebrew alphabet?",
+"a": "22",
+"w1": "26",
+"w2": "28",
+"src": "Hebrew",
+"step": 254,
+"stage": 3
+},
+{
+"q": "Which direction is Hebrew written?",
+"a": "Right to left",
+"w1": "Left to right",
+"w2": "Top to bottom",
+"src": "Hebrew",
+"step": 255,
+"stage": 3
+},
+{
+"q": "What does \"Israel\" mean in the Bible?",
+"a": "One who struggles with God",
+"w1": "Land of milk",
+"w2": "Promised land",
+"src": "Genesis 32",
+"step": 256,
+"stage": 3
+},
+{
+"q": "Who was renamed Israel in the Bible?",
+"a": "Jacob",
+"w1": "Abraham",
+"w2": "Moses",
+"src": "Genesis 32",
+"step": 257,
+"stage": 3
+},
+{
+"q": "How many tribes of Israel are there in tradition?",
+"a": "Twelve",
+"w1": "Ten",
+"w2": "Seven",
+"src": "Hebrew Bible",
+"step": 258,
+"stage": 3
+},
+{
+"q": "Which city did King David make his capital?",
+"a": "Jerusalem",
+"w1": "Hebron",
+"w2": "Shiloh",
+"src": "Hebrew Bible",
+"step": 259,
+"stage": 3
+},
+{
+"q": "How long ago did King David rule, roughly?",
+"a": "About 3,000 years",
+"w1": "About 1,500 years",
+"w2": "About 5,000 years",
+"src": "Archaeology",
+"step": 260,
+"stage": 3
+},
+{
+"q": "What is the Tel Dan stele?",
+"a": "An inscription mentioning the House of David",
+"w1": "A sword",
+"w2": "A statue",
+"src": "Israel Museum",
+"step": 261,
+"stage": 3
+},
+{
+"q": "What is the Knesset Menorah?",
+"a": "A large bronze menorah outside the Knesset",
+"w1": "A candle shop",
+"w2": "A bank",
+"src": "Knesset",
+"step": 262,
+"stage": 3
+},
+{
+"q": "Who gifted the Knesset Menorah?",
+"a": "The British Parliament",
+"w1": "The US Congress",
+"w2": "France",
+"src": "Knesset, 1956",
+"step": 263,
+"stage": 3
+},
+{
+"q": "What is Israel's highest court?",
+"a": "The Supreme Court",
+"w1": "The Knesset",
+"w2": "The Rabbinate",
+"src": "Judiciary",
+"step": 264,
+"stage": 3
+},
+{
+"q": "What is Israel's system of government?",
+"a": "Parliamentary democracy",
+"w1": "Presidential republic",
+"w2": "Monarchy",
+"src": "Basic Laws",
+"step": 265,
+"stage": 3
+},
+{
+"q": "Who leads Israel's government?",
+"a": "The prime minister",
+"w1": "The president",
+"w2": "The king",
+"src": "Basic Laws",
+"step": 266,
+"stage": 3
+},
+{
+"q": "What is the president's role mostly?",
+"a": "Ceremonial head of state",
+"w1": "Head of the army",
+"w2": "Head of government",
+"src": "Basic Laws",
+"step": 267,
+"stage": 3
+},
+{
+"q": "Does Israel have a written constitution?",
+"a": "No, it has Basic Laws",
+"w1": "Yes, since 1948",
+"w2": "Yes, since 1995",
+"src": "Knesset",
+"step": 268,
+"stage": 3
+},
+{
+"q": "What is the voting threshold to enter the Knesset?",
+"a": "3.25 percent",
+"w1": "5 percent",
+"w2": "1 percent",
+"src": "Knesset Elections Law",
+"step": 269,
+"stage": 3
+},
+{
+"q": "At what age can Israelis vote?",
+"a": "18",
+"w1": "16",
+"w2": "21",
+"src": "Knesset Elections Law",
+"step": 270,
+"stage": 3
+},
+{
+"q": "What is Israel's emergency medical service?",
+"a": "Magen David Adom",
+"w1": "Red Crescent",
+"w2": "Zaka",
+"src": "MDA",
+"step": 271,
+"stage": 3
+},
+{
+"q": "What is the symbol of Magen David Adom?",
+"a": "A red Star of David",
+"w1": "A red cross",
+"w2": "A red crescent",
+"src": "MDA",
+"step": 272,
+"stage": 3
+},
+{
+"q": "What volunteer group rides motorbikes to emergencies?",
+"a": "United Hatzalah",
+"w1": "Zaka",
+"w2": "MDA only",
+"src": "United Hatzalah",
+"step": 273,
+"stage": 3
+},
+{
+"q": "What does Israel's IsraAID do?",
+"a": "Disaster relief worldwide",
+"w1": "Builds tanks",
+"w2": "Runs schools",
+"src": "IsraAID",
+"step": 274,
+"stage": 3
+},
+{
+"q": "Which Israeli army field hospital helped after the 2010 Haiti earthquake?",
+"a": "IDF field hospital",
+"w1": "US Navy",
+"w2": "UN only",
+"src": "IDF",
+"step": 275,
+"stage": 3
+},
+{
+"q": "Which country did Israel send rescue teams to after the 2023 earthquake?",
+"a": "Turkey",
+"w1": "Iran",
+"w2": "Japan",
+"src": "IDF Home Front Command",
+"step": 276,
+"stage": 3
+},
+{
+"q": "What does Save a Child's Heart do?",
+"a": "Free heart surgery for children worldwide",
+"w1": "Builds schools",
+"w2": "Plants trees",
+"src": "Save a Child's Heart",
+"step": 277,
+"stage": 3
+},
+{
+"q": "Which Israeli hospital treated wounded Syrians across the border?",
+"a": "Ziv Medical Center in Safed",
+"w1": "Ichilov",
+"w2": "Hadassah only",
+"src": "Operation Good Neighbor",
+"step": 278,
+"stage": 3
+},
+{
+"q": "What was Operation Good Neighbor?",
+"a": "Aid to Syrians near the border",
+"w1": "A war",
+"w2": "A trade deal",
+"src": "IDF, 2016 to 2018",
+"step": 279,
+"stage": 3
+},
+{
+"q": "What is KKL-JNF known for?",
+"a": "Planting trees",
+"w1": "Building airports",
+"w2": "Banking",
+"src": "KKL-JNF",
+"step": 280,
+"stage": 3
+},
+{
+"q": "About how many trees has KKL-JNF planted?",
+"a": "Over 250 million",
+"w1": "About 1 million",
+"w2": "About 10,000",
+"src": "KKL-JNF",
+"step": 281,
+"stage": 3
+},
+{
+"q": "Is Israel one of the few countries with more trees than 100 years ago?",
+"a": "Yes",
+"w1": "No",
+"w2": "Unknown",
+"src": "KKL-JNF",
+"step": 282,
+"stage": 3
+},
+{
+"q": "Who was Israel's first astronaut?",
+"a": "Ilan Ramon",
+"w1": "Eytan Stibbe",
+"w2": "Moshe Arens",
+"src": "NASA",
+"step": 283,
+"stage": 3
+},
+{
+"q": "On which space shuttle did Ilan Ramon fly?",
+"a": "Columbia",
+"w1": "Challenger",
+"w2": "Atlantis",
+"src": "NASA, 2003",
+"step": 284,
+"stage": 3
+},
+{
+"q": "Who was the second Israeli in space?",
+"a": "Eytan Stibbe",
+"w1": "Ilan Ramon",
+"w2": "Ofer Ben-Ami",
+"src": "Axiom, 2022",
+"step": 285,
+"stage": 3
+},
+{
+"q": "What was Beresheet?",
+"a": "An Israeli lunar lander",
+"w1": "A satellite TV channel",
+"w2": "A missile",
+"src": "SpaceIL, 2019",
+"step": 286,
+"stage": 3
+},
+{
+"q": "Did Beresheet land softly on the Moon?",
+"a": "No, it crashed",
+"w1": "Yes",
+"w2": "It never launched",
+"src": "SpaceIL, 2019",
+"step": 287,
+"stage": 3
+},
+{
+"q": "What is the name of Israel's first satellite?",
+"a": "Ofek-1",
+"w1": "Amos-1",
+"w2": "Eros",
+"src": "Israel Space Agency",
+"step": 288,
+"stage": 3
+},
+{
+"q": "What does the IDF rank \"Rav Aluf\" mean?",
+"a": "Chief of Staff",
+"w1": "Sergeant",
+"w2": "Major",
+"src": "IDF",
+"step": 289,
+"stage": 3
+},
+{
+"q": "What is the IDF's top officer called?",
+"a": "The Chief of the General Staff",
+"w1": "The Field Marshal",
+"w2": "The Defence Minister",
+"src": "IDF",
+"step": 290,
+"stage": 3
+},
+{
+"q": "What is \"Tzav Rishon\"?",
+"a": "The first draft notice",
+"w1": "A tank",
+"w2": "A medal",
+"src": "IDF",
+"step": 291,
+"stage": 3
+},
+{
+"q": "How long is the standard service for men, roughly?",
+"a": "About 32 months",
+"w1": "About 12 months",
+"w2": "About 5 years",
+"src": "Defense Service Law",
+"step": 292,
+"stage": 3
+},
+{
+"q": "What is \"miluim\"?",
+"a": "Reserve duty",
+"w1": "Basic training",
+"w2": "A holiday",
+"src": "IDF",
+"step": 293,
+"stage": 3
+},
+{
+"q": "What is Unit 8200?",
+"a": "Israel's signals intelligence unit",
+"w1": "A tank brigade",
+"w2": "A navy unit",
+"src": "IDF",
+"step": 294,
+"stage": 3
+},
+{
+"q": "Which brigade wears brown berets?",
+"a": "Golani",
+"w1": "Givati",
+"w2": "Paratroopers",
+"src": "IDF",
+"step": 295,
+"stage": 3
+},
+{
+"q": "Which brigade wears purple berets?",
+"a": "Givati",
+"w1": "Golani",
+"w2": "Nahal",
+"src": "IDF",
+"step": 296,
+"stage": 3
+},
+{
+"q": "Which brigade wears red berets?",
+"a": "Paratroopers",
+"w1": "Golani",
+"w2": "Kfir",
+"src": "IDF",
+"step": 297,
+"stage": 3
+},
+{
+"q": "What is the Nahal brigade's origin?",
+"a": "Soldiers who also founded farming communities",
+"w1": "Navy divers",
+"w2": "Pilots",
+"src": "IDF",
+"step": 298,
+"stage": 3
+},
+{
+"q": "Who was the IDF's first female fighter pilot to graduate?",
+"a": "Roni Zuckerman",
+"w1": "Alice Miller",
+"w2": "Golda Meir",
+"src": "IAF, 2001",
+"step": 299,
+"stage": 3
+},
+{
+"q": "Who sued in 1995 to let women join pilot training?",
+"a": "Alice Miller",
+"w1": "Roni Zuckerman",
+"w2": "Ayelet Shaked",
+"src": "High Court, 1995",
+"step": 300,
+"stage": 3
+},
+{
+"q": "What was Operation Opera in 1981?",
+"a": "The strike on Iraq's nuclear reactor",
+"w1": "A music festival",
+"w2": "A rescue",
+"src": "History",
+"step": 301,
+"stage": 4
+},
+{
+"q": "Which reactor did Israel strike in Syria in 2007?",
+"a": "Al Kibar",
+"w1": "Osirak",
+"w2": "Natanz",
+"src": "History",
+"step": 302,
+"stage": 4
+},
+{
+"q": "What was the Six-Day War triggered by, in part?",
+"a": "Egypt closing the Straits of Tiran",
+"w1": "A UN vote",
+"w2": "An earthquake",
+"src": "History",
+"step": 303,
+"stage": 4
+},
+{
+"q": "Who was Defence Minister in the Six-Day War?",
+"a": "Moshe Dayan",
+"w1": "Ariel Sharon",
+"w2": "Yitzhak Rabin",
+"src": "History",
+"step": 304,
+"stage": 4
+},
+{
+"q": "Who was Chief of Staff in the Six-Day War?",
+"a": "Yitzhak Rabin",
+"w1": "Moshe Dayan",
+"w2": "Ehud Barak",
+"src": "History",
+"step": 305,
+"stage": 4
+},
+{
+"q": "Who was Prime Minister in the Yom Kippur War?",
+"a": "Golda Meir",
+"w1": "Levi Eshkol",
+"w2": "Menachem Begin",
+"src": "History",
+"step": 306,
+"stage": 4
+},
+{
+"q": "On which holy day did the 1973 war begin?",
+"a": "Yom Kippur",
+"w1": "Passover",
+"w2": "Hanukkah",
+"src": "History",
+"step": 307,
+"stage": 4
+},
+{
+"q": "Which general crossed the Suez Canal in 1973?",
+"a": "Ariel Sharon",
+"w1": "Moshe Dayan",
+"w2": "Rafael Eitan",
+"src": "History",
+"step": 308,
+"stage": 4
+},
+{
+"q": "Who was PM during the Camp David Accords?",
+"a": "Menachem Begin",
+"w1": "Yitzhak Shamir",
+"w2": "Shimon Peres",
+"src": "History",
+"step": 309,
+"stage": 4
+},
+{
+"q": "Which peninsula did Israel return to Egypt?",
+"a": "Sinai",
+"w1": "Golan",
+"w2": "Gaza",
+"src": "Treaty, 1979",
+"step": 310,
+"stage": 4
+},
+{
+"q": "When did Israel complete its Sinai withdrawal?",
+"a": "1982",
+"w1": "1979",
+"w2": "1990",
+"src": "History",
+"step": 311,
+"stage": 4
+},
+{
+"q": "When did Israel leave southern Lebanon?",
+"a": "2000",
+"w1": "1985",
+"w2": "2006",
+"src": "History",
+"step": 312,
+"stage": 4
+},
+{
+"q": "What was the Second Lebanon War year?",
+"a": "2006",
+"w1": "2000",
+"w2": "2012",
+"src": "History",
+"step": 313,
+"stage": 4
+},
+{
+"q": "Which group fought Israel in 2006?",
+"a": "Hezbollah",
+"w1": "HAMAS",
+"w2": "ISIS",
+"src": "History",
+"step": 314,
+"stage": 4
+},
+{
+"q": "What are the Oslo Accords?",
+"a": "Israel-PLO agreements in the 1990s",
+"w1": "A Norway trade deal",
+"w2": "A ceasefire with Syria",
+"src": "Oslo Accords, 1993",
+"step": 315,
+"stage": 4
+},
+{
+"q": "In what year was Oslo I signed?",
+"a": "1993",
+"w1": "1979",
+"w2": "2000",
+"src": "Oslo Accords, 1993",
+"step": 316,
+"stage": 4
+},
+{
+"q": "Who shook hands on the White House lawn in 1993?",
+"a": "Rabin and Arafat",
+"w1": "Begin and Sadat",
+"w2": "Peres and Mubarak",
+"src": "History",
+"step": 317,
+"stage": 4
+},
+{
+"q": "What was offered at Camp David in 2000?",
+"a": "A Palestinian state on most of the West Bank and Gaza",
+"w1": "Nothing",
+"w2": "Only Gaza",
+"src": "Clinton parameters",
+"step": 318,
+"stage": 4
+},
+{
+"q": "Did Arafat accept the 2000 offer?",
+"a": "No",
+"w1": "Yes",
+"w2": "He asked for time and signed",
+"src": "History",
+"step": 319,
+"stage": 4
+},
+{
+"q": "Did Mahmoud Abbas accept Olmert's 2008 offer?",
+"a": "No, he did not reply",
+"w1": "Yes",
+"w2": "He signed it",
+"src": "History",
+"step": 320,
+"stage": 4
+},
+{
+"q": "What did the Peel Commission propose in 1937?",
+"a": "Partition",
+"w1": "A single state",
+"w2": "Independence for Jordan",
+"src": "Peel Commission, 1937",
+"step": 321,
+"stage": 4
+},
+{
+"q": "What was the Arab position on the 1947 partition?",
+"a": "Rejected it",
+"w1": "Accepted it",
+"w2": "Abstained",
+"src": "UN records",
+"step": 322,
+"stage": 4
+},
+{
+"q": "Which country annexed the West Bank in 1950?",
+"a": "Jordan",
+"w1": "Egypt",
+"w2": "Syria",
+"src": "History",
+"step": 323,
+"stage": 4
+},
+{
+"q": "Which country ruled Gaza from 1948 to 1967?",
+"a": "Egypt",
+"w1": "Jordan",
+"w2": "Britain",
+"src": "History",
+"step": 324,
+"stage": 4
+},
+{
+"q": "Could Jews visit the Western Wall from 1948 to 1967?",
+"a": "No",
+"w1": "Yes",
+"w2": "Only on holidays",
+"src": "History",
+"step": 325,
+"stage": 4
+},
+{
+"q": "How many synagogues were destroyed in Jerusalem's Jewish Quarter under Jordan?",
+"a": "Dozens",
+"w1": "None",
+"w2": "One",
+"src": "History",
+"step": 326,
+"stage": 4
+},
+{
+"q": "What is the Hurva Synagogue?",
+"a": "A rebuilt synagogue in the Jewish Quarter",
+"w1": "A museum in Tel Aviv",
+"w2": "A school",
+"src": "Jewish Quarter Development Co.",
+"step": 327,
+"stage": 4
+},
+{
+"q": "What is Ammunition Hill?",
+"a": "A 1967 battle site in Jerusalem",
+"w1": "A mall",
+"w2": "A park in Tel Aviv",
+"src": "Ammunition Hill Memorial",
+"step": 328,
+"stage": 4
+},
+{
+"q": "What is Latrun known for?",
+"a": "The Armoured Corps museum",
+"w1": "A beach",
+"w2": "A port",
+"src": "Yad La-Shiryon",
+"step": 329,
+"stage": 4
+},
+{
+"q": "What is the \"Burma Road\"?",
+"a": "A 1948 bypass road to besieged Jerusalem",
+"w1": "A shopping street",
+"w2": "A railway",
+"src": "History",
+"step": 330,
+"stage": 4
+},
+{
+"q": "Who led the Palmach in 1948?",
+"a": "Yigal Allon",
+"w1": "Moshe Dayan",
+"w2": "Ariel Sharon",
+"src": "History",
+"step": 331,
+"stage": 4
+},
+{
+"q": "What was the Irgun?",
+"a": "A pre-state underground group",
+"w1": "A political party only",
+"w2": "A bank",
+"src": "History",
+"step": 332,
+"stage": 4
+},
+{
+"q": "Who commanded the Irgun?",
+"a": "Menachem Begin",
+"w1": "Ben-Gurion",
+"w2": "Yitzhak Shamir",
+"src": "History",
+"step": 333,
+"stage": 4
+},
+{
+"q": "What is Yom HaZikaron?",
+"a": "Memorial Day for fallen soldiers and victims of terror",
+"w1": "Independence Day",
+"w2": "Holocaust Day",
+"src": "Knesset law",
+"step": 334,
+"stage": 4
+},
+{
+"q": "What happens at 11 am on Yom HaZikaron?",
+"a": "A siren and two minutes of silence",
+"w1": "Fireworks",
+"w2": "A parade",
+"src": "Tradition",
+"step": 335,
+"stage": 4
+},
+{
+"q": "What day comes right after Yom HaZikaron?",
+"a": "Independence Day",
+"w1": "Yom Kippur",
+"w2": "Purim",
+"src": "Knesset law",
+"step": 336,
+"stage": 4
+},
+{
+"q": "What is Yom Ha'atzmaut?",
+"a": "Independence Day",
+"w1": "Memorial Day",
+"w2": "Jerusalem Day",
+"src": "Knesset law",
+"step": 337,
+"stage": 4
+},
+{
+"q": "What is Yom Yerushalayim?",
+"a": "Jerusalem Day",
+"w1": "Independence Day",
+"w2": "New Year",
+"src": "Knesset law",
+"step": 338,
+"stage": 4
+},
+{
+"q": "What is Rosh Hashanah?",
+"a": "The Jewish New Year",
+"w1": "The Day of Atonement",
+"w2": "A harvest festival",
+"src": "Tradition",
+"step": 339,
+"stage": 4
+},
+{
+"q": "What is Yom Kippur?",
+"a": "The Day of Atonement",
+"w1": "The New Year",
+"w2": "The Festival of Lights",
+"src": "Tradition",
+"step": 340,
+"stage": 4
+},
+{
+"q": "What happens on Israeli roads on Yom Kippur?",
+"a": "They empty and kids ride bikes",
+"w1": "Traffic jams",
+"w2": "Parades",
+"src": "Common practice",
+"step": 341,
+"stage": 4
+},
+{
+"q": "What is Sukkot?",
+"a": "The Festival of Booths",
+"w1": "The Festival of Lights",
+"w2": "The New Year",
+"src": "Tradition",
+"step": 342,
+"stage": 4
+},
+{
+"q": "What is a sukkah?",
+"a": "A temporary hut",
+"w1": "A candle",
+"w2": "A prayer",
+"src": "Tradition",
+"step": 343,
+"stage": 4
+},
+{
+"q": "What is Purim known for?",
+"a": "Costumes and the Book of Esther",
+"w1": "Fasting",
+"w2": "Lighting candles",
+"src": "Tradition",
+"step": 344,
+"stage": 4
+},
+{
+"q": "What is eaten on Passover instead of bread?",
+"a": "Matzah",
+"w1": "Pita",
+"w2": "Challah",
+"src": "Tradition",
+"step": 345,
+"stage": 4
+},
+{
+"q": "What is the Passover meal called?",
+"a": "The Seder",
+"w1": "The Kiddush",
+"w2": "The Havdalah",
+"src": "Tradition",
+"step": 346,
+"stage": 4
+},
+{
+"q": "What is Shavuot known for in Israel?",
+"a": "Dairy foods and harvest",
+"w1": "Fasting",
+"w2": "Costumes",
+"src": "Tradition",
+"step": 347,
+"stage": 4
+},
+{
+"q": "What is Tu BiShvat?",
+"a": "New Year of the Trees",
+"w1": "A fast",
+"w2": "A memorial",
+"src": "Tradition",
+"step": 348,
+"stage": 4
+},
+{
+"q": "What is Lag BaOmer known for?",
+"a": "Bonfires",
+"w1": "Fireworks only",
+"w2": "Fasting",
+"src": "Tradition",
+"step": 349,
+"stage": 4
+},
+{
+"q": "What is Tu B'Av?",
+"a": "A love holiday",
+"w1": "A fast",
+"w2": "New Year",
+"src": "Tradition",
+"step": 350,
+"stage": 4
+},
+{
+"q": "What is a challah?",
+"a": "A braided Shabbat bread",
+"w1": "A soup",
+"w2": "A dance",
+"src": "Tradition",
+"step": 351,
+"stage": 4
+},
+{
+"q": "What does \"kosher\" mean?",
+"a": "Fit under Jewish dietary law",
+"w1": "Spicy",
+"w2": "Cheap",
+"src": "Tradition",
+"step": 352,
+"stage": 4
+},
+{
+"q": "What is the Israeli breakfast famous for?",
+"a": "Salads, eggs and cheeses",
+"w1": "Only pancakes",
+"w2": "Only cereal",
+"src": "Food",
+"step": 353,
+"stage": 4
+},
+{
+"q": "What is \"Krembo\"?",
+"a": "A chocolate-coated marshmallow treat",
+"w1": "A drink",
+"w2": "A bread",
+"src": "Strauss",
+"step": 354,
+"stage": 4
+},
+{
+"q": "What is Israel's most popular soft cheese?",
+"a": "Cottage cheese",
+"w1": "Brie",
+"w2": "Feta",
+"src": "Tnuva",
+"step": 355,
+"stage": 4
+},
+{
+"q": "What was the 2011 cottage cheese protest about?",
+"a": "Food prices",
+"w1": "Taxes",
+"w2": "Rent only",
+"src": "History",
+"step": 356,
+"stage": 4
+},
+{
+"q": "What is \"jachnun\"?",
+"a": "A Yemenite Shabbat pastry",
+"w1": "A soup",
+"w2": "A salad",
+"src": "Food",
+"step": 357,
+"stage": 4
+},
+{
+"q": "What is \"malawach\"?",
+"a": "A Yemenite flaky flatbread",
+"w1": "A dessert",
+"w2": "A drink",
+"src": "Food",
+"step": 358,
+"stage": 4
+},
+{
+"q": "What is \"sufganiya\"?",
+"a": "A Hanukkah doughnut",
+"w1": "A soup",
+"w2": "A cake",
+"src": "Food",
+"step": 359,
+"stage": 4
+},
+{
+"q": "What is \"schnitzel\" in Israel usually made of?",
+"a": "Chicken",
+"w1": "Pork",
+"w2": "Fish",
+"src": "Food",
+"step": 360,
+"stage": 4
+},
+{
+"q": "What is \"tahini\" made from?",
+"a": "Sesame",
+"w1": "Chickpeas",
+"w2": "Peanuts",
+"src": "Food",
+"step": 361,
+"stage": 4
+},
+{
+"q": "What is \"zhug\"?",
+"a": "A spicy Yemenite sauce",
+"w1": "A drink",
+"w2": "A pastry",
+"src": "Food",
+"step": 362,
+"stage": 4
+},
+{
+"q": "What is \"amba\"?",
+"a": "A pickled mango sauce",
+"w1": "A dance",
+"w2": "A cheese",
+"src": "Food",
+"step": 363,
+"stage": 4
+},
+{
+"q": "Which Israeli chef runs restaurants worldwide with \"Jerusalem\" cookbooks?",
+"a": "Yotam Ottolenghi",
+"w1": "Eyal Shani",
+"w2": "Michael Solomonov",
+"src": "Cookbook credits",
+"step": 364,
+"stage": 4
+},
+{
+"q": "Which Israeli chef is known for whole roasted cauliflower?",
+"a": "Eyal Shani",
+"w1": "Ottolenghi",
+"w2": "Meir Adoni",
+"src": "Miznon",
+"step": 365,
+"stage": 4
+},
+{
+"q": "Which wine region in the north is famous?",
+"a": "The Golan Heights",
+"w1": "The Negev only",
+"w2": "Eilat",
+"src": "Golan Heights Winery",
+"step": 366,
+"stage": 4
+},
+{
+"q": "Is wine grown in the Negev desert?",
+"a": "Yes",
+"w1": "No",
+"w2": "Only grapes for juice",
+"src": "Negev wineries",
+"step": 367,
+"stage": 4
+},
+{
+"q": "Which ancient drink was traded from Gaza in Byzantine times?",
+"a": "Wine",
+"w1": "Coffee",
+"w2": "Tea",
+"src": "Archaeology",
+"step": 368,
+"stage": 4
+},
+{
+"q": "What is the Israeli coffee called that is boiled with grounds?",
+"a": "Turkish coffee (botz)",
+"w1": "Espresso",
+"w2": "Filter",
+"src": "Common usage",
+"step": 369,
+"stage": 4
+},
+{
+"q": "What does \"botz\" literally mean?",
+"a": "Mud",
+"w1": "Sand",
+"w2": "Black",
+"src": "Hebrew",
+"step": 370,
+"stage": 4
+},
+{
+"q": "Which Israeli coffee chain is famous?",
+"a": "Aroma",
+"w1": "Starbucks",
+"w2": "Costa",
+"src": "Aroma",
+"step": 371,
+"stage": 4
+},
+{
+"q": "Did Starbucks succeed in Israel in the early 2000s?",
+"a": "No, it closed",
+"w1": "Yes",
+"w2": "It never opened",
+"src": "History",
+"step": 372,
+"stage": 4
+},
+{
+"q": "Which Israeli fashion brand is famous for swimwear?",
+"a": "Gottex",
+"w1": "Zara",
+"w2": "Castro",
+"src": "Gottex",
+"step": 373,
+"stage": 4
+},
+{
+"q": "Which Israeli singer sang \"Im Nin'alu\" worldwide?",
+"a": "Ofra Haza",
+"w1": "Noa",
+"w2": "Rita",
+"src": "Music history",
+"step": 374,
+"stage": 4
+},
+{
+"q": "Which Israeli singer is famous for \"Toy\"?",
+"a": "Netta",
+"w1": "Noa Kirel",
+"w2": "Eden Golan",
+"src": "Eurovision",
+"step": 375,
+"stage": 4
+},
+{
+"q": "Which Israeli violinist is world famous?",
+"a": "Itzhak Perlman",
+"w1": "Yo-Yo Ma",
+"w2": "Joshua Bell",
+"src": "Biography",
+"step": 376,
+"stage": 4
+},
+{
+"q": "Which Israeli conductor led the Israel Philharmonic for decades?",
+"a": "Zubin Mehta",
+"w1": "Leonard Bernstein",
+"w2": "Daniel Barenboim",
+"src": "IPO",
+"step": 377,
+"stage": 4
+},
+{
+"q": "Which song is called \"Jerusalem of Gold\"?",
+"a": "Yerushalayim Shel Zahav",
+"w1": "Hatikvah",
+"w2": "Hava Nagila",
+"src": "Naomi Shemer, 1967",
+"step": 378,
+"stage": 4
+},
+{
+"q": "Who wrote \"Jerusalem of Gold\"?",
+"a": "Naomi Shemer",
+"w1": "Arik Einstein",
+"w2": "Ehud Manor",
+"src": "Music history",
+"step": 379,
+"stage": 4
+},
+{
+"q": "Who is Arik Einstein?",
+"a": "A beloved Israeli singer",
+"w1": "A physicist",
+"w2": "A general",
+"src": "Music history",
+"step": 380,
+"stage": 4
+},
+{
+"q": "Who wrote \"Ein Li Eretz Acheret\"?",
+"a": "Ehud Manor",
+"w1": "Naomi Shemer",
+"w2": "Shalom Hanoch",
+"src": "Music history",
+"step": 381,
+"stage": 4
+},
+{
+"q": "What does \"Ein Li Eretz Acheret\" mean?",
+"a": "I have no other country",
+"w1": "I love my country",
+"w2": "My land of gold",
+"src": "Music history",
+"step": 382,
+"stage": 4
+},
+{
+"q": "Which Israeli author wrote \"A Tale of Love and Darkness\"?",
+"a": "Amos Oz",
+"w1": "David Grossman",
+"w2": "Etgar Keret",
+"src": "Literature",
+"step": 383,
+"stage": 4
+},
+{
+"q": "Which Israeli historian wrote \"Sapiens\"?",
+"a": "Yuval Noah Harari",
+"w1": "Amos Oz",
+"w2": "Daniel Kahneman",
+"src": "Book credits",
+"step": 384,
+"stage": 4
+},
+{
+"q": "Which Israeli psychologist wrote \"Thinking, Fast and Slow\"?",
+"a": "Daniel Kahneman",
+"w1": "Dan Ariely",
+"w2": "Harari",
+"src": "Book credits",
+"step": 385,
+"stage": 4
+},
+{
+"q": "Which Israeli author writes very short stories, like \"The Bus Driver Who Wanted to Be God\"?",
+"a": "Etgar Keret",
+"w1": "David Grossman",
+"w2": "A. B. Yehoshua",
+"src": "Literature",
+"step": 386,
+"stage": 4
+},
+{
+"q": "Which Israeli author won the 2017 Man Booker International?",
+"a": "David Grossman",
+"w1": "Amos Oz",
+"w2": "Etgar Keret",
+"src": "Booker Prize",
+"step": 387,
+"stage": 4
+},
+{
+"q": "What is Israel's top film award called?",
+"a": "The Ophir Award",
+"w1": "The Oscar",
+"w2": "The Golden Lion",
+"src": "Israeli Film Academy",
+"step": 388,
+"stage": 4
+},
+{
+"q": "Which Israeli film was nominated for an Oscar about Lebanon 1982?",
+"a": "Waltz with Bashir",
+"w1": "Footnote",
+"w2": "Beaufort only",
+"src": "Academy Awards",
+"step": 389,
+"stage": 4
+},
+{
+"q": "What kind of film is \"Waltz with Bashir\"?",
+"a": "Animated documentary",
+"w1": "Comedy",
+"w2": "Musical",
+"src": "Film credits",
+"step": 390,
+"stage": 4
+},
+{
+"q": "Which Israeli series about Mossad agents in Iran aired on Apple TV?",
+"a": "Tehran",
+"w1": "Fauda",
+"w2": "Hostages",
+"src": "Apple TV",
+"step": 391,
+"stage": 4
+},
+{
+"q": "Which Israeli actress starred in \"Unorthodox\"?",
+"a": "Shira Haas",
+"w1": "Gal Gadot",
+"w2": "Ayelet Zurer",
+"src": "Netflix",
+"step": 392,
+"stage": 4
+},
+{
+"q": "Which Israeli model became world famous in the 2000s?",
+"a": "Bar Refaeli",
+"w1": "Gal Gadot",
+"w2": "Esti Ginzburg",
+"src": "Media",
+"step": 393,
+"stage": 4
+},
+{
+"q": "What is the most visited museum in Israel?",
+"a": "The Israel Museum",
+"w1": "Yad Vashem",
+"w2": "The Tel Aviv Museum",
+"src": "Ministry of Tourism",
+"step": 394,
+"stage": 4
+},
+{
+"q": "Which museum in Tel Aviv tells the story of the Jewish people?",
+"a": "ANU Museum",
+"w1": "Israel Museum",
+"w2": "Eretz Israel Museum",
+"src": "ANU",
+"step": 395,
+"stage": 4
+},
+{
+"q": "How many museums per person does Israel have relative to most countries?",
+"a": "Among the most in the world",
+"w1": "Very few",
+"w2": "Average",
+"src": "ICOM",
+"step": 396,
+"stage": 4
+},
+{
+"q": "How many Israelis travel abroad every year, roughly?",
+"a": "Millions",
+"w1": "Thousands",
+"w2": "Hundreds",
+"src": "Israel Airports Authority",
+"step": 397,
+"stage": 4
+},
+{
+"q": "Which country do Israelis say is the most popular backpacking trip after the army?",
+"a": "India or South America",
+"w1": "Iceland",
+"w2": "Russia",
+"src": "Common usage",
+"step": 398,
+"stage": 4
+},
+{
+"q": "What is the \"Israel National Trail\"?",
+"a": "A 1,000 km hiking trail",
+"w1": "A train line",
+"w2": "A highway",
+"src": "Israel Trail Committee",
+"step": 399,
+"stage": 4
+},
+{
+"q": "Where does the Israel National Trail start and end?",
+"a": "Dan in the north to Eilat in the south",
+"w1": "Haifa to Tel Aviv",
+"w2": "Jerusalem to Eilat",
+"src": "Israel Trail Committee",
+"step": 400,
+"stage": 4
+},
+{
+"q": "What is Highway 6?",
+"a": "Israel's toll motorway",
+"w1": "A hiking trail",
+"w2": "A railway",
+"src": "Cross Israel Highway",
+"step": 401,
+"stage": 5
+},
+{
+"q": "What is the fast train between Tel Aviv and Jerusalem?",
+"a": "The A1 line",
+"w1": "The Orient Express",
+"w2": "The Red Line",
+"src": "Israel Railways",
+"step": 402,
+"stage": 5
+},
+{
+"q": "How long does the fast train take Tel Aviv to Jerusalem, roughly?",
+"a": "About 30 minutes",
+"w1": "About 2 hours",
+"w2": "About 10 minutes",
+"src": "Israel Railways",
+"step": 403,
+"stage": 5
+},
+{
+"q": "What opened in Tel Aviv in 2023?",
+"a": "The Red Line light rail",
+"w1": "A subway",
+"w2": "A cable car",
+"src": "NTA",
+"step": 404,
+"stage": 5
+},
+{
+"q": "What is the Haifa cable car to the Technion called?",
+"a": "The Rakavlit",
+"w1": "The Carmelit",
+"w2": "The Haifa Flyer",
+"src": "Haifa municipality",
+"step": 405,
+"stage": 5
+},
+{
+"q": "What is the Carmelit?",
+"a": "Haifa's underground funicular",
+"w1": "A song",
+"w2": "A beach",
+"src": "Haifa municipality",
+"step": 406,
+"stage": 5
+},
+{
+"q": "Is Israel's Carmelit one of the smallest subways in the world?",
+"a": "Yes",
+"w1": "No",
+"w2": "It closed in 1990",
+"src": "Haifa municipality",
+"step": 407,
+"stage": 5
+},
+{
+"q": "What is Israel's biggest bank?",
+"a": "Bank Leumi or Hapoalim",
+"w1": "Citi",
+"w2": "HSBC",
+"src": "Bank of Israel",
+"step": 408,
+"stage": 5
+},
+{
+"q": "Which bank was founded by the Zionist movement in 1902?",
+"a": "Anglo-Palestine Company, now Leumi",
+"w1": "Hapoalim",
+"w2": "Discount",
+"src": "Bank Leumi",
+"step": 409,
+"stage": 5
+},
+{
+"q": "What is Israel's stock exchange called?",
+"a": "TASE",
+"w1": "NASDAQ IL",
+"w2": "ISX",
+"src": "TASE",
+"step": 410,
+"stage": 5
+},
+{
+"q": "How many Israeli companies trade on NASDAQ, roughly?",
+"a": "Around 100 or more",
+"w1": "About 5",
+"w2": "About 2,000",
+"src": "NASDAQ",
+"step": 411,
+"stage": 5
+},
+{
+"q": "Which big chipmaker has major fabs in Israel?",
+"a": "Intel",
+"w1": "Samsung",
+"w2": "TSMC",
+"src": "Intel",
+"step": 412,
+"stage": 5
+},
+{
+"q": "Which Intel chip was designed in Haifa and saved the company's laptop line?",
+"a": "Centrino (Pentium M)",
+"w1": "Pentium 4",
+"w2": "Itanium",
+"src": "Intel history",
+"step": 413,
+"stage": 5
+},
+{
+"q": "Which Israeli invention lets you chat online instantly in the 1990s?",
+"a": "ICQ",
+"w1": "MSN",
+"w2": "AIM",
+"src": "Mirabilis, 1996",
+"step": 414,
+"stage": 5
+},
+{
+"q": "Who bought ICQ in 1998?",
+"a": "AOL",
+"w1": "Microsoft",
+"w2": "Yahoo",
+"src": "AOL, 1998",
+"step": 415,
+"stage": 5
+},
+{
+"q": "Which Israeli company created the Iron Dome?",
+"a": "Rafael",
+"w1": "Elbit",
+"w2": "IAI",
+"src": "Rafael",
+"step": 416,
+"stage": 5
+},
+{
+"q": "Which Israeli company makes Arrow missiles with Boeing?",
+"a": "Israel Aerospace Industries",
+"w1": "Rafael",
+"w2": "Elbit",
+"src": "IAI",
+"step": 417,
+"stage": 5
+},
+{
+"q": "What is Israel's spending on research and development as a share of GDP?",
+"a": "Among the highest in the world",
+"w1": "Among the lowest",
+"w2": "Average",
+"src": "OECD",
+"step": 418,
+"stage": 5
+},
+{
+"q": "What is Monday.com?",
+"a": "A work management platform",
+"w1": "A calendar app",
+"w2": "A bank",
+"src": "Monday.com",
+"step": 419,
+"stage": 5
+},
+{
+"q": "What is SodaStream?",
+"a": "A home soda maker",
+"w1": "A drink",
+"w2": "A bank",
+"src": "SodaStream",
+"step": 420,
+"stage": 5
+},
+{
+"q": "Who bought SodaStream in 2018?",
+"a": "PepsiCo",
+"w1": "Coca-Cola",
+"w2": "Nestle",
+"src": "PepsiCo, 2018",
+"step": 421,
+"stage": 5
+},
+{
+"q": "What did Israeli scientists develop for Parkinson's, called Azilect?",
+"a": "A drug",
+"w1": "A device",
+"w2": "A diet",
+"src": "Teva",
+"step": 422,
+"stage": 5
+},
+{
+"q": "What is Copaxone?",
+"a": "A multiple sclerosis drug developed in Israel",
+"w1": "A vitamin",
+"w2": "A vaccine",
+"src": "Weizmann Institute",
+"step": 423,
+"stage": 5
+},
+{
+"q": "What does the ReWalk do?",
+"a": "Helps paralysed people walk",
+"w1": "Cleans water",
+"w2": "Grows food",
+"src": "ReWalk",
+"step": 424,
+"stage": 5
+},
+{
+"q": "What is the Israeli bandage invented for soldiers?",
+"a": "The Emergency Bandage",
+"w1": "Band-Aid",
+"w2": "Gauze roll",
+"src": "First Care Products",
+"step": 425,
+"stage": 5
+},
+{
+"q": "Which Israeli tech helps the blind read with a camera on glasses?",
+"a": "OrCam",
+"w1": "Mobileye",
+"w2": "Waze",
+"src": "OrCam",
+"step": 426,
+"stage": 5
+},
+{
+"q": "What is \"Watergen\" known for?",
+"a": "Making water from air",
+"w1": "Desalination only",
+"w2": "Bottled water",
+"src": "Watergen",
+"step": 427,
+"stage": 5
+},
+{
+"q": "Was Viber founded by Israelis?",
+"a": "Yes",
+"w1": "No",
+"w2": "Unknown",
+"src": "Viber",
+"step": 428,
+"stage": 5
+},
+{
+"q": "Who bought Viber in 2014?",
+"a": "Rakuten",
+"w1": "Facebook",
+"w2": "Google",
+"src": "Rakuten, 2014",
+"step": 429,
+"stage": 5
+},
+{
+"q": "What is Israel's most famous beach city north of Tel Aviv?",
+"a": "Netanya",
+"w1": "Ashkelon",
+"w2": "Eilat",
+"src": "Geography",
+"step": 430,
+"stage": 5
+},
+{
+"q": "Which Tel Aviv suburb is called the \"diamond capital\"?",
+"a": "Ramat Gan",
+"w1": "Holon",
+"w2": "Bat Yam",
+"src": "Israel Diamond Exchange",
+"step": 431,
+"stage": 5
+},
+{
+"q": "Is diamond polishing a big Israeli export?",
+"a": "Yes",
+"w1": "No",
+"w2": "It's illegal",
+"src": "Israel Diamond Exchange",
+"step": 432,
+"stage": 5
+},
+{
+"q": "What is the Azrieli Center?",
+"a": "Tel Aviv skyscrapers with a mall",
+"w1": "A park",
+"w2": "A hospital",
+"src": "Azrieli Group",
+"step": 433,
+"stage": 5
+},
+{
+"q": "What is Israel's largest hospital?",
+"a": "Sheba Medical Center",
+"w1": "Hadassah",
+"w2": "Ichilov",
+"src": "Sheba",
+"step": 434,
+"stage": 5
+},
+{
+"q": "Was Sheba ranked among the world's best hospitals by Newsweek?",
+"a": "Yes",
+"w1": "No",
+"w2": "Never ranked",
+"src": "Newsweek",
+"step": 435,
+"stage": 5
+},
+{
+"q": "What is Israel's life expectancy among OECD countries?",
+"a": "Among the highest",
+"w1": "Among the lowest",
+"w2": "Average",
+"src": "OECD",
+"step": 436,
+"stage": 5
+},
+{
+"q": "What is Israel's fertility rate among OECD countries?",
+"a": "The highest",
+"w1": "The lowest",
+"w2": "Average",
+"src": "OECD",
+"step": 437,
+"stage": 5
+},
+{
+"q": "About how many children does an Israeli woman have on average?",
+"a": "About 3",
+"w1": "About 1",
+"w2": "About 5",
+"src": "Israel CBS",
+"step": 438,
+"stage": 5
+},
+{
+"q": "What does the World Happiness Report usually rank Israel?",
+"a": "In the top 10",
+"w1": "In the bottom 10",
+"w2": "Around 100",
+"src": "World Happiness Report",
+"step": 439,
+"stage": 5
+},
+{
+"q": "What is Israel's median age, roughly?",
+"a": "About 30",
+"w1": "About 45",
+"w2": "About 20",
+"src": "Israel CBS",
+"step": 440,
+"stage": 5
+},
+{
+"q": "How many Jews live in Israel today, roughly?",
+"a": "About 7 million",
+"w1": "About 3 million",
+"w2": "About 12 million",
+"src": "Israel CBS",
+"step": 441,
+"stage": 5
+},
+{
+"q": "Where do most Jews in the world live today?",
+"a": "Israel",
+"w1": "The US",
+"w2": "France",
+"src": "Jewish People Policy Institute",
+"step": 442,
+"stage": 5
+},
+{
+"q": "About how many Jews are there in the world today?",
+"a": "About 15 to 16 million",
+"w1": "About 50 million",
+"w2": "About 3 million",
+"src": "Jewish People Policy Institute",
+"step": 443,
+"stage": 5
+},
+{
+"q": "Who planted the first trees in Ben Shemen Forest?",
+"a": "KKL-JNF",
+"w1": "The British",
+"w2": "The Ottomans",
+"src": "KKL-JNF",
+"step": 444,
+"stage": 5
+},
+{
+"q": "What is the Ramon Crater roughly in length?",
+"a": "About 40 km",
+"w1": "About 4 km",
+"w2": "About 400 km",
+"src": "Israel Nature and Parks Authority",
+"step": 445,
+"stage": 5
+},
+{
+"q": "What is \"Mitzpe Ramon\" famous for at night?",
+"a": "Stargazing",
+"w1": "Nightclubs",
+"w2": "Fireworks",
+"src": "Dark Sky Park",
+"step": 446,
+"stage": 5
+},
+{
+"q": "How salty is the Dead Sea compared to the ocean?",
+"a": "About 10 times saltier",
+"w1": "Twice as salty",
+"w2": "The same",
+"src": "Geography",
+"step": 447,
+"stage": 5
+},
+{
+"q": "How fast is the Dead Sea dropping, roughly?",
+"a": "About 1 metre a year",
+"w1": "About 1 cm a year",
+"w2": "It's rising",
+"src": "Geological Survey of Israel",
+"step": 448,
+"stage": 5
+},
+{
+"q": "What are sinkholes near the Dead Sea caused by?",
+"a": "The sea level dropping",
+"w1": "Earthquakes only",
+"w2": "Mining only",
+"src": "Geological Survey of Israel",
+"step": 449,
+"stage": 5
+},
+{
+"q": "Which Israeli city is famous for its Bahai Gardens terraces?",
+"a": "Haifa",
+"w1": "Acre",
+"w2": "Nazareth",
+"src": "UNESCO, 2008",
+"step": 450,
+"stage": 5
+},
+{
+"q": "Which city is Israel's main Arab city?",
+"a": "Nazareth",
+"w1": "Haifa",
+"w2": "Ramla",
+"src": "Israel CBS",
+"step": 451,
+"stage": 5
+},
+{
+"q": "Which mixed Jewish-Arab city sits by the sea south of Tel Aviv?",
+"a": "Jaffa",
+"w1": "Eilat",
+"w2": "Afula",
+"src": "Tel Aviv municipality",
+"step": 452,
+"stage": 5
+},
+{
+"q": "Which city has a famous White Tower from the Middle Ages?",
+"a": "Ramla",
+"w1": "Beersheba",
+"w2": "Holon",
+"src": "Ramla municipality",
+"step": 453,
+"stage": 5
+},
+{
+"q": "Which city is known for its Ottoman railway station turned culture complex in Tel Aviv?",
+"a": "HaTachana",
+"w1": "Sarona",
+"w2": "Neve Tzedek",
+"src": "Tel Aviv municipality",
+"step": 454,
+"stage": 5
+},
+{
+"q": "What is Sarona in Tel Aviv?",
+"a": "A restored Templer colony",
+"w1": "A beach",
+"w2": "A stadium",
+"src": "Tel Aviv municipality",
+"step": 455,
+"stage": 5
+},
+{
+"q": "What is Neve Tzedek?",
+"a": "Tel Aviv's first neighbourhood outside Jaffa",
+"w1": "A kibbutz",
+"w2": "A mall",
+"src": "Tel Aviv municipality",
+"step": 456,
+"stage": 5
+},
+{
+"q": "What is Rothschild Boulevard known for?",
+"a": "Bauhaus buildings and start-ups",
+"w1": "Factories",
+"w2": "Farms",
+"src": "Tel Aviv municipality",
+"step": 457,
+"stage": 5
+},
+{
+"q": "What is Dizengoff Street named after?",
+"a": "Tel Aviv's first mayor",
+"w1": "A general",
+"w2": "A poet",
+"src": "Tel Aviv municipality",
+"step": 458,
+"stage": 5
+},
+{
+"q": "Who was Tel Aviv's first mayor?",
+"a": "Meir Dizengoff",
+"w1": "Teddy Kollek",
+"w2": "Ron Huldai",
+"src": "Tel Aviv municipality",
+"step": 459,
+"stage": 5
+},
+{
+"q": "Which Jerusalem mayor served 28 years and built the Israel Museum?",
+"a": "Teddy Kollek",
+"w1": "Ehud Olmert",
+"w2": "Nir Barkat",
+"src": "Jerusalem municipality",
+"step": 460,
+"stage": 5
+},
+{
+"q": "What is the Knesset building's neighbourhood?",
+"a": "Givat Ram",
+"w1": "Rehavia",
+"w2": "Talpiot",
+"src": "Knesset",
+"step": 461,
+"stage": 5
+},
+{
+"q": "What is the Israel Museum's model of ancient Jerusalem?",
+"a": "The Holyland Model",
+"w1": "The Davidson Model",
+"w2": "The Temple Lego",
+"src": "Israel Museum",
+"step": 462,
+"stage": 5
+},
+{
+"q": "What is the City of David?",
+"a": "The ancient core of Jerusalem",
+"w1": "A mall",
+"w2": "A suburb",
+"src": "City of David Foundation",
+"step": 463,
+"stage": 5
+},
+{
+"q": "What is Hezekiah's Tunnel?",
+"a": "An ancient water tunnel in Jerusalem",
+"w1": "A subway",
+"w2": "A bunker",
+"src": "Archaeology",
+"step": 464,
+"stage": 5
+},
+{
+"q": "How old is Hezekiah's Tunnel, roughly?",
+"a": "About 2,700 years",
+"w1": "About 700 years",
+"w2": "About 200 years",
+"src": "Archaeology",
+"step": 465,
+"stage": 5
+},
+{
+"q": "What is the Siloam Inscription?",
+"a": "An ancient Hebrew text in Hezekiah's Tunnel",
+"w1": "A Roman coin",
+"w2": "A Greek poem",
+"src": "Archaeology",
+"step": 466,
+"stage": 5
+},
+{
+"q": "What is the Temple Mount called in Hebrew?",
+"a": "Har HaBayit",
+"w1": "Har Herzl",
+"w2": "Har Sinai",
+"src": "Common usage",
+"step": 467,
+"stage": 5
+},
+{
+"q": "What is Mount Herzl?",
+"a": "Israel's national cemetery",
+"w1": "A ski site",
+"w2": "A mall",
+"src": "Mount Herzl",
+"step": 468,
+"stage": 5
+},
+{
+"q": "Who is buried on Mount Herzl?",
+"a": "Theodor Herzl and national leaders",
+"w1": "Only soldiers",
+"w2": "Only rabbis",
+"src": "Mount Herzl",
+"step": 469,
+"stage": 5
+},
+{
+"q": "Where is Ben-Gurion buried?",
+"a": "Sde Boker",
+"w1": "Jerusalem",
+"w2": "Tel Aviv",
+"src": "Ben-Gurion Heritage Institute",
+"step": 470,
+"stage": 5
+},
+{
+"q": "Why did Ben-Gurion move to the Negev?",
+"a": "To inspire settling the desert",
+"w1": "To retire abroad",
+"w2": "For a hospital",
+"src": "Ben-Gurion Heritage Institute",
+"step": 471,
+"stage": 5
+},
+{
+"q": "What was Ben-Gurion's dream for the Negev?",
+"a": "Making the desert bloom",
+"w1": "Building a port",
+"w2": "A capital city",
+"src": "Ben-Gurion Heritage Institute",
+"step": 472,
+"stage": 5
+},
+{
+"q": "What is Dimona known for?",
+"a": "A nuclear research centre",
+"w1": "A port",
+"w2": "Ski slopes",
+"src": "Public record",
+"step": 473,
+"stage": 5
+},
+{
+"q": "Which city is near the border with Gaza and was attacked on 7 October?",
+"a": "Sderot",
+"w1": "Herzliya",
+"w2": "Netanya",
+"src": "History",
+"step": 474,
+"stage": 5
+},
+{
+"q": "Which kibbutz near Gaza lost about a quarter of its people on 7 October?",
+"a": "Be'eri",
+"w1": "Degania",
+"w2": "Ein Gedi",
+"src": "History",
+"step": 475,
+"stage": 5
+},
+{
+"q": "What is the \"Envelope of Gaza\"?",
+"a": "The communities near the Gaza border",
+"w1": "A UN zone",
+"w2": "A tunnel",
+"src": "Common usage",
+"step": 476,
+"stage": 5
+},
+{
+"q": "What are HAMAS terror tunnels used for?",
+"a": "Attacks and hiding weapons",
+"w1": "Trains",
+"w2": "Water",
+"src": "IDF",
+"step": 477,
+"stage": 5
+},
+{
+"q": "How long is the HAMAS tunnel network estimated to be?",
+"a": "Hundreds of kilometres",
+"w1": "A few metres",
+"w2": "About 2 km",
+"src": "IDF estimates",
+"step": 478,
+"stage": 5
+},
+{
+"q": "Which group fires rockets from Lebanon at northern Israel?",
+"a": "Hezbollah",
+"w1": "HAMAS only",
+"w2": "Fatah",
+"src": "History",
+"step": 479,
+"stage": 5
+},
+{
+"q": "How many Israelis were evacuated from the north in 2023 to 2024, roughly?",
+"a": "About 60,000",
+"w1": "About 600",
+"w2": "About 6 million",
+"src": "Israeli government",
+"step": 480,
+"stage": 5
+},
+{
+"q": "What was the pager operation of September 2024 against?",
+"a": "Hezbollah operatives",
+"w1": "HAMAS in Gaza",
+"w2": "Iran's navy",
+"src": "Public reports",
+"step": 481,
+"stage": 5
+},
+{
+"q": "Which country fired hundreds of missiles at Israel in April 2024?",
+"a": "Iran",
+"w1": "Syria",
+"w2": "Iraq",
+"src": "History",
+"step": 482,
+"stage": 5
+},
+{
+"q": "How many of Iran's April 2024 missiles and drones were intercepted, roughly?",
+"a": "About 99 percent",
+"w1": "About 50 percent",
+"w2": "About 10 percent",
+"src": "IDF",
+"step": 483,
+"stage": 5
+},
+{
+"q": "Which countries helped intercept Iran's April 2024 attack?",
+"a": "The US, UK, France and Jordan",
+"w1": "Russia and China",
+"w2": "Turkey and Qatar",
+"src": "Public reports",
+"step": 484,
+"stage": 5
+},
+{
+"q": "What is David's Sling?",
+"a": "A mid-range missile defence system",
+"w1": "A slingshot",
+"w2": "A tank",
+"src": "IDF",
+"step": 485,
+"stage": 5
+},
+{
+"q": "What is the Arrow system for?",
+"a": "Long-range ballistic missiles",
+"w1": "Short rockets",
+"w2": "Drones only",
+"src": "IDF",
+"step": 486,
+"stage": 5
+},
+{
+"q": "What is \"Tzeva Adom\"?",
+"a": "The Red Alert rocket siren",
+"w1": "A football team",
+"w2": "A paint brand",
+"src": "Home Front Command",
+"step": 487,
+"stage": 5
+},
+{
+"q": "How many seconds does Sderot get to reach a shelter?",
+"a": "About 15",
+"w1": "About 90",
+"w2": "About 5 minutes",
+"src": "Home Front Command",
+"step": 488,
+"stage": 5
+},
+{
+"q": "What is a \"mamad\"?",
+"a": "A reinforced safe room",
+"w1": "A kitchen",
+"w2": "A bus stop",
+"src": "Home Front Command",
+"step": 489,
+"stage": 5
+},
+{
+"q": "Since when must new Israeli homes have a safe room?",
+"a": "Since the 1990s",
+"w1": "Since 1948",
+"w2": "Since 2020",
+"src": "Home Front Command",
+"step": 490,
+"stage": 5
+},
+{
+"q": "What is Israel's alert app?",
+"a": "The Home Front Command app",
+"w1": "Waze",
+"w2": "Moovit",
+"src": "Home Front Command",
+"step": 491,
+"stage": 5
+},
+{
+"q": "What is Zaka?",
+"a": "A volunteer group that recovers victims",
+"w1": "A bank",
+"w2": "A university",
+"src": "Zaka",
+"step": 492,
+"stage": 5
+},
+{
+"q": "What is the \"Bring Them Home\" ribbon colour?",
+"a": "Yellow",
+"w1": "Blue",
+"w2": "Red",
+"src": "Hostages and Missing Families Forum",
+"step": 493,
+"stage": 5
+},
+{
+"q": "Where was Hostages Square?",
+"a": "Outside the Tel Aviv Museum of Art",
+"w1": "In Jerusalem",
+"w2": "In Haifa",
+"src": "Hostages and Missing Families Forum",
+"step": 494,
+"stage": 5
+},
+{
+"q": "What is the Kotel Plaza?",
+"a": "The open area at the Western Wall",
+"w1": "A mall",
+"w2": "A beach",
+"src": "Western Wall Heritage Foundation",
+"step": 495,
+"stage": 5
+},
+{
+"q": "What do people place in the cracks of the Western Wall?",
+"a": "Notes with prayers",
+"w1": "Coins",
+"w2": "Flowers",
+"src": "Western Wall Heritage Foundation",
+"step": 496,
+"stage": 5
+},
+{
+"q": "About how many notes are cleared from the Wall twice a year?",
+"a": "About a million",
+"w1": "About a hundred",
+"w2": "About ten",
+"src": "Western Wall Heritage Foundation",
+"step": 497,
+"stage": 5
+},
+{
+"q": "Which mountain is the highest in Israel within the Green Line?",
+"a": "Mount Meron",
+"w1": "Mount Carmel",
+"w2": "Mount Tabor",
+"src": "Geography",
+"step": 498,
+"stage": 5
+},
+{
+"q": "How high is Mount Meron, roughly?",
+"a": "About 1,200 m",
+"w1": "About 500 m",
+"w2": "About 3,000 m",
+"src": "Geography",
+"step": 499,
+"stage": 5
+},
+{
+"q": "Which mountain overlooks the Galilee where Lag BaOmer crowds gather?",
+"a": "Mount Meron",
+"w1": "Mount Tabor",
+"w2": "Mount Gilboa",
+"src": "Tradition",
+"step": 500,
+"stage": 5
+}
+]
