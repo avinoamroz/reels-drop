@@ -126,10 +126,22 @@ class CM:
         return len(r.content) / 88200, len(text.split())
 
 
+def j_join(J):
+    import numpy as np, soundfile as sf
+    parts = []
+    for f in J["parts"]:
+        y, sr = sf.read(os.path.join(REPO, f), dtype="float32"); parts += [y, np.zeros(int(0.3 * sr), "float32")]
+    out = os.path.join(REPO, J["out"]); sf.write(out, np.concatenate(parts[:-1]), sr)
+    save(os.path.basename(out).rsplit(".", 1)[0] + ".json", dict(file=J["out"], secs=round(sum(len(p) for p in parts[:-1]) / sr, 1), parts=J["parts"]))
+
+
 def j_audition(J):
     import difflib, pron as PR
     res = []
     for k, vid in enumerate(J["voices"]):
+        if vid.endswith(".json"):                      # a clone made earlier in this run: read its id
+            try: vid = json.load(open(os.path.join(OUT, vid)))["id"]
+            except Exception as e: res.append(dict(voice=vid, error="no clone id: " + str(e)[:100])); continue
         for nk in ([True, False] if J.get("both") else [J.get("nikud", True)]):
             pairs = PR.prepare(J["text"], "he", {"nikud": nk})
             pre = os.path.join(OUT, f"aud_{k}{'' if nk else '_plain'}")
@@ -139,7 +151,7 @@ def j_audition(J):
             got = " ".join(s.text.strip() for s in segs); E, G = he_norm(J["text"]), he_norm(got)
             sm = difflib.SequenceMatcher(None, E, G, autojunk=False); h = sum(b.size for b in sm.get_matching_blocks())
             wrong = [dict(said=" ".join(E[a:b]), heard=" ".join(G[c:d])) for op, a, b, c, d in sm.get_opcodes() if op in ("replace", "delete")]
-            res.append(dict(voice=vid, nikud=nk, wav=os.path.relpath(pre + ".wav", REPO), secs=round(sec, 2), score=round(h / max(1, len(E)), 3),
+            res.append(dict(voice=vid, name=J.get("names", {}).get(J["voices"][k], ""), nikud=nk, wav=os.path.relpath(pre + ".wav", REPO), secs=round(sec, 2), score=round(h / max(1, len(E)), 3),
                             heard=got, misread=wrong, sent=PR.tts_text(pairs)))
             try: os.remove(pre + "_words.json")
             except OSError: pass
@@ -148,7 +160,7 @@ def j_audition(J):
 
 def j_clone(J):
     import requests
-    p = os.path.join(OUT, "clone.json")
+    out = J.get("out", "clone.json"); p = os.path.join(OUT, out)
     if os.path.exists(p) and json.load(open(p)).get("id"): print("clone exists, skipped"); return
     with open(os.path.join(REPO, J["clip"]), "rb") as f:
         r = requests.post(f"{API}/voices/clone", headers=HDR, timeout=180,
@@ -156,8 +168,8 @@ def j_clone(J):
                           data={"name": J.get("name", "Noam Roz - Hebrew"), "description": J.get("description", "Noam Roz, Hebrew, cloned from his own Hebrew reels (20 Nov 2026)"),
                                 "language": J.get("language", "he"), "mode": J.get("mode", "similarity"), "enhance": str(J.get("enhance", False)).lower()})
     if r.status_code not in (200, 201):
-        save("clone.json", dict(error=r.status_code, body=r.text[:500])); return
-    v = r.json(); save("clone.json", dict(id=v.get("id"), name=v.get("name"), language=v.get("language"), created=time.strftime("%Y-%m-%d %H:%M")))
+        save(out, dict(error=r.status_code, body=r.text[:500])); return
+    v = r.json(); save(out, dict(id=v.get("id"), name=v.get("name"), language=v.get("language"), created=time.strftime("%Y-%m-%d %H:%M")))
 
 
 if __name__ == "__main__":

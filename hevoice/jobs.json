@@ -1,23 +1,83 @@
 [
  {
-  "do": "voices"
- },
- {
-  "do": "nakdan",
-  "text": "סגרנו את העסקה ב-3 ימים. הספר מונח על הספה, והספר של העיר סיפר לנו סיפור."
- },
- {
-  "do": "fetch",
+  "do": "cut",
   "name": "src16",
-  "drive": "1-oMftWGko0S6VPIanug2mNsnWtS_1kd6"
+  "drive": "1-oMftWGko0S6VPIanug2mNsnWtS_1kd6",
+  "from": [
+   [
+    0.1,
+    30.3
+   ]
+  ],
+  "out": "ref/noam_he_sample_a.wav"
  },
  {
-  "do": "fetch",
+  "do": "cut",
   "name": "src18",
-  "drive": "1tt4dDj47dWivUiZBGvAjgjjLa0Yey6w0"
+  "drive": "1tt4dDj47dWivUiZBGvAjgjjLa0Yey6w0",
+  "from": [
+   [
+    0.15,
+    21.8
+   ]
+  ],
+  "out": "ref/noam_he_sample_b.wav"
  },
  {
-  "do": "nakdan",
-  "text": "שתיתי חלב, אבל לא אכלתי חלב. הבוקר במדבר מדבר עם הפרות."
+  "do": "join",
+  "parts": [
+   "ref/noam_he_sample_a.wav",
+   "ref/noam_he_sample_b.wav"
+  ],
+  "out": "ref/noam_he_sample.wav"
+ },
+ {
+  "do": "cut",
+  "name": "src16",
+  "drive": "1-oMftWGko0S6VPIanug2mNsnWtS_1kd6",
+  "from": [
+   [
+    3.9,
+    19.2
+   ]
+  ],
+  "out": "ref/noam_he_sample_15s.wav"
+ },
+ {
+  "do": "clone",
+  "clip": "ref/noam_he_sample.wav",
+  "name": "Noam Roz - Hebrew",
+  "language": "he",
+  "out": "clone.json"
+ },
+ {
+  "do": "clone",
+  "clip": "ref/noam_he_sample_15s.wav",
+  "name": "Noam Roz - Hebrew 15s",
+  "language": "he",
+  "out": "clone_15s.json"
+ },
+ {
+  "do": "audition",
+  "text": "נועם רז ייסד את אקספרס ב-2016. היום יש לנו 2,200 מתאמנים, ו-15% מהם סוגרים עסקה תוך 3 חודשים. שלחתי מייל עם פידבק לפני הדדליין בזום, והבוקר במדבר מדבר עם הפרות.",
+  "voices": [
+   "clone.json",
+   "clone_15s.json",
+   "3e32f3c5-9ac0-4192-9994-87fdb277120f",
+   "84b969ad-19c7-428d-b742-48d387f7f138",
+   "431b7e77-b46d-4eda-8362-db430ac0913c",
+   "daa4d6bb-da62-4e16-8065-76cd87942475",
+   "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  ],
+  "names": {
+   "clone.json": "Noam Roz - Hebrew (52 s)",
+   "clone_15s.json": "Noam Roz - Hebrew 15s",
+   "3e32f3c5-9ac0-4192-9994-87fdb277120f": "Noam - Broadcaster",
+   "84b969ad-19c7-428d-b742-48d387f7f138": "Gil - Friendly Host",
+   "431b7e77-b46d-4eda-8362-db430ac0913c": "Oren - Steady Advisor",
+   "daa4d6bb-da62-4e16-8065-76cd87942475": "Eitan - Modern Communicator",
+   "cd06f613-0c92-4347-9b94-b34cb4a0239f": "Noam Roz - reels (English clone)"
+  },
+  "both": true
  }
 ]

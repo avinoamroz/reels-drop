@@ -392,7 +392,7 @@ def sub_chunks(T, repl=None):
                 CH.append([" ".join(x["w"] for x in cur), cur[0]["t0"], cur[-1]["t1"]]); cur = []
         if cur: CH.append([" ".join(x["w"] for x in cur), cur[0]["t0"], cur[-1]["t1"]])
     for c in CH:
-        c[0] = re.sub(r"[\"“”]", "", c[0]).rstrip(",;:")
+        c[0] = re.sub(r"[\"“”\u0591-\u05C7]", "", c[0]).rstrip(",;:")     # nikud written into a say line never shows in subtitles
         for a, b in (repl or {}).items(): c[0] = c[0].replace(a, b)
     for j in range(len(CH) - 1):
         CH[j][2] = min(CH[j + 1][1] - 0.02, CH[j][2] + 0.5) if CH[j + 1][1] - CH[j][2] < 0.5 else CH[j][2] + 0.25

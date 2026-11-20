@@ -329,12 +329,21 @@ def he_pass(text, use_nikud=True, notes=None):
     """-> [(original word, tts chunk)]. Order: numbers -> lexicon -> nikud for the rest of the line."""
     L = lex("he"); WL = L.get("words", {}); masc = set(L.get("masc_nouns", []))
     toks = text.split(); out = []
+    fixed = {}                                          # lexicon phrases: several words read together (context homographs)
+    bare = [NIKUD.sub("", split_tok(t)[1]) for t in toks]
+    for ph_, rep in L.get("phrases", {}).items():
+        pw, rw = ph_.split(), rep.split()
+        if len(pw) != len(rw): continue
+        for i in range(len(toks) - len(pw) + 1):
+            if bare[i:i + len(pw)] == pw:
+                for k in range(len(pw)): fixed[i + k] = rw[k]
     plain = [split_tok(t)[1] for t in toks]
     for i, tok in enumerate(toks):
         a, core, b = split_tok(tok); nxt = NIKUD.sub("", plain[i + 1]) if i + 1 < len(toks) else ""
         num = he_number(core, nxt, masc) if core else None
         key = NIKUD.sub("", core)
         if num: out.append([tok, a + num + b, "num"])
+        elif i in fixed: out.append([tok, a + fixed[i] + b, "lex"])
         elif key in WL: out.append([tok, a + WL[key] + b, "lex"])
         elif not HEB.search(core) or NIKUD.search(core): out.append([tok, tok, "keep"])      # English word, digits, or already vowelised
         else: out.append([tok, tok, "auto"])
