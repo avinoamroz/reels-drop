@@ -1,0 +1,18 @@
+{
+ "notes": [
+  "live -> live_verb",
+  "live -> live_verb",
+  "read -> read_past",
+  "record -> record_verb"
+ ],
+ "runs": [
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 13.61,
+   "words": 42,
+   "exact": true,
+   "text": "About one hundred and fifty thousand <<ˈ|d|r|uː|z>> <<ˈ|l|ɪ|v>> in Israel today. Most families <<ˈ|l|ɪ|v>> in the Galilee and the Carmel. Yesterday I <<ˈ|r|ɛ|d>> the nineteen forty eight report about the <<ˈ|k|n|ɛ|s|ɛ|t>> and <<h|ɑ|ˈ|m|ɑ|s>>. The <<ˌ|aɪ|ˌ|d|iː|ˈ|ɛ|f>> and the <<ˈ|ʃ|ɪ|n>> <<ˈ|b|ɛ|t>> <<r|ɪ|ˈ|k|ɔ|r|d>> every attack."
+  }
+ ]
+}

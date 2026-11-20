@@ -1,0 +1,69 @@
+{
+ "id": "test_pron_live",
+ "account": "expressenglishcom",
+ "template": "map_counter",
+ "hook": "*2* words, 1 voice",
+ "duration": 12.63,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/test_pron_live.mp4",
+  "cover": "covers/test_pron_live_cover.jpg",
+  "preview": "previews/test_pron_live_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/test_pron_live_0.jpg",
+  "1": "out/frames/test_pron_live_1.jpg",
+  "3": "out/frames/test_pron_live_3.jpg",
+  "last": "out/frames/test_pron_live_last.jpg"
+ },
+ "caption_en": "TEST RENDER, not for posting (pronunciation pass test).",
+ "caption_he": "בדיקה, לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Test render, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": 0.935,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "About 150,000 Druze live in Israel today.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Most families live in the Galilee and the Carmel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Yesterday I read the 1948 report about the Knesset and HAMAS.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "The IDF and the Shin Bet record every attack.",
+    "score": 0.778,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "About 150,000 Druze live in Israel today. Most families live in the Galilee and the Carmel. Yesterday I read the 1948 report about the Neset and Hamas. The IDF and the Shinbet record every attack.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 12.63,
+ "opener": null,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 17.7
+}
