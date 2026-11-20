@@ -1,6 +1,47 @@
 {
-  "id": "he_xp_saying_no",
-  "status": "FAILED",
-  "run": "44675588133",
-  "log": "[04:38:05] pron [he]: טום, המנהל שלכם, מבקש עוד פרויקט, ואין לכם דקה פנויה. הוא שואל:\n[04:38:05] pron [en]: Can you take this project too?\n[04:38:05] pron [he]: במקום לא יבש, נסו:\n[04:38:05] pron [en]: I'd love to, but my plate is full.\n[04:38:05] pron [he]: או, אם אפשר לדחות:\n[04:38:05] pron [en]: Not this week, but maybe next week.\n[04:38:05] pron [he]: והכי מקצועי, תנו לו לבחור:\n[04:38:05] pron [en]: Which project should I put on hold? Can you finish the report by Friday? My plate is full this week. Monday? Monday works.\n[04:38:05] pron [he]: שמרו את זה לפגישה הבאה שלכם.\nvoice ok: Cartesia sonic-3 (28.0 s, 75 words, 9 run(s), pronunciation pass) voice/he_xp_saying_no_vo.wav\n"
+ "id": "he_xp_saying_no",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "איך אומרים לא?|*3* דרכים מנומסות",
+ "duration": 37.03,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/he_xp_saying_no.mp4",
+  "cover": "covers/he_xp_saying_no_cover.jpg",
+  "preview": "previews/he_xp_saying_no_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/he_xp_saying_no_0.jpg",
+  "1": "out/frames/he_xp_saying_no_1.jpg",
+  "3": "out/frames/he_xp_saying_no_3.jpg",
+  "last": "out/frames/he_xp_saying_no_last.jpg"
+ },
+ "caption_en": "3 polite ways to say no at work: I'd love to, but my plate is full. / Not this week, but maybe next week. / Which project should I put on hold?",
+ "caption_he": "המשפט השלישי גורם למנהל להגיד תודה, לא להתעצבן.\n\n3 דרכים להגיד לא באנגלית, בנימוס:\n1. I'd love to, but my plate is full. (יש לי יותר מדי על הצלחת)\n2. Not this week, but maybe next week. (לא עכשיו, אולי בהמשך)\n3. Which project should I put on hold? (איזה פרויקט לעצור?)\n\nאיזה מהם תגידו מחר? כתבו בתגובות.",
+ "hashtags": [
+  "#אנגליתלעסקים",
+  "#EnglishExpress",
+  "#BusinessEnglish"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": null,
+  "error": "name 'x' is not defined"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 61.8
 }

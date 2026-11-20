@@ -4,7 +4,7 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 4.97,
+   "secs": 3.02,
    "words": 12,
    "exact": true,
    "text": "טום, המנהל שלכם, מבקש עוד פרויקט, ואין לכם דקה פנויה. הוא שואל:"
@@ -12,7 +12,7 @@
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 1.67,
+   "secs": 1.44,
    "words": 6,
    "exact": true,
    "text": "Can you take this project too?"
@@ -20,7 +20,7 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.35,
+   "secs": 1.44,
    "words": 4,
    "exact": true,
    "text": "במקום לא יבש, נסו:"
@@ -28,7 +28,7 @@
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 3.2,
+   "secs": 3.11,
    "words": 8,
    "exact": true,
    "text": "I'd love to, but my plate is full."
@@ -36,15 +36,15 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.21,
-   "words": 4,
+   "secs": 3.2,
+   "words": 11,
    "exact": true,
-   "text": "או, אם אפשר לדחות:"
+   "text": "כלומר: יש לי יותר מדי על הצלחת. או, אם אפשר לדחות:"
   },
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 2.23,
+   "secs": 1.81,
    "words": 7,
    "exact": true,
    "text": "Not this week, but maybe next week."
@@ -52,23 +52,39 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.72,
-   "words": 5,
+   "secs": 2.41,
+   "words": 10,
    "exact": true,
-   "text": "והכי מקצועי, תנו לו לבחור:"
+   "text": "אתם לא סוגרים את הדלת. והכי מקצועי, תנו לו לבחור:"
   },
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 7.94,
-   "words": 23,
+   "secs": 1.63,
+   "words": 7,
    "exact": true,
-   "text": "Which project should I put on hold? Can you finish the report by Friday? My plate is full this week. Monday? Monday works."
+   "text": "Which project should I put on hold?"
   },
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.67,
+   "secs": 3.53,
+   "words": 9,
+   "exact": true,
+   "text": "המנהל מחליט, ואתם נשמעים מקצועיים. וכך זה נשמע בצ'אט:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 6.27,
+   "words": 16,
+   "exact": true,
+   "text": "Can you finish the report by Friday? My plate is full this week. Monday? Monday works."
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.53,
    "words": 6,
    "exact": true,
    "text": "שמרו את זה לפגישה הבאה שלכם."
