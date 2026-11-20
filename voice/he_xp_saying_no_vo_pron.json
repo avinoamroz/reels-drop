@@ -1,0 +1,77 @@
+{
+ "notes": [],
+ "runs": [
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 4.97,
+   "words": 12,
+   "exact": true,
+   "text": "טום, המנהל שלכם, מבקש עוד פרויקט, ואין לכם דקה פנויה. הוא שואל:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 1.67,
+   "words": 6,
+   "exact": true,
+   "text": "Can you take this project too?"
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.35,
+   "words": 4,
+   "exact": true,
+   "text": "במקום לא יבש, נסו:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 3.2,
+   "words": 8,
+   "exact": true,
+   "text": "I'd love to, but my plate is full."
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.21,
+   "words": 4,
+   "exact": true,
+   "text": "או, אם אפשר לדחות:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 2.23,
+   "words": 7,
+   "exact": true,
+   "text": "Not this week, but maybe next week."
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.72,
+   "words": 5,
+   "exact": true,
+   "text": "והכי מקצועי, תנו לו לבחור:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 7.94,
+   "words": 23,
+   "exact": true,
+   "text": "Which project should I put on hold? Can you finish the report by Friday? My plate is full this week. Monday? Monday works."
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.67,
+   "words": 6,
+   "exact": true,
+   "text": "שמרו את זה לפגישה הבאה שלכם."
+  }
+ ]
+}

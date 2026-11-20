@@ -1,6 +1,6 @@
 {
   "id": "he_xp_saying_no",
   "status": "FAILED",
-  "run": "44674940290",
-  "log": ""
+  "run": "44675588133",
+  "log": "[04:38:05] pron [he]: טום, המנהל שלכם, מבקש עוד פרויקט, ואין לכם דקה פנויה. הוא שואל:\n[04:38:05] pron [en]: Can you take this project too?\n[04:38:05] pron [he]: במקום לא יבש, נסו:\n[04:38:05] pron [en]: I'd love to, but my plate is full.\n[04:38:05] pron [he]: או, אם אפשר לדחות:\n[04:38:05] pron [en]: Not this week, but maybe next week.\n[04:38:05] pron [he]: והכי מקצועי, תנו לו לבחור:\n[04:38:05] pron [en]: Which project should I put on hold? Can you finish the report by Friday? My plate is full this week. Monday? Monday works.\n[04:38:05] pron [he]: שמרו את זה לפגישה הבאה שלכם.\nvoice ok: Cartesia sonic-3 (28.0 s, 75 words, 9 run(s), pronunciation pass) voice/he_xp_saying_no_vo.wav\n"
 }
