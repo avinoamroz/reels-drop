@@ -33,8 +33,206 @@
   }
  ],
  "transcript": {
-  "score": null,
-  "error": "name 'x' is not defined"
+  "score": 0.885,
+  "model": "ivrit-ai/whisper-large-v3-turbo-ct2 (he) + faster-whisper small.en (en), per line",
+  "lines": [
+   {
+    "line": "טום, המנהל שלכם, מבקש עוד פרויקט, ואין לכם דקה פנויה. הוא שואל:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "תום המנהל שלכם מבקש עוד פרויקט ואין לכם דקה פנויה.",
+    "score": 0.75,
+    "flag": "MISS",
+    "misread": [
+     {
+      "said": "טום",
+      "heard": "תום"
+     },
+     {
+      "said": "הוא שואל",
+      "heard": ""
+     }
+    ]
+   },
+   {
+    "line": "Can you take this project too?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Can you take this project too?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "במקום לא יבש, נסו:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "במקום לא יבש, נסו.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "I'd love to, but my plate is full.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "I'd love to, but my plate is full.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "כלומר: יש לי יותר מדי על הצלחת.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "כלומר, יש לי יותר מדי על הצלחת, או אם אפשר לדחות.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "או, אם אפשר לדחות:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "קדחות",
+    "score": 0.0,
+    "flag": "MISS",
+    "misread": [
+     {
+      "said": "או אם אפשר לדחות",
+      "heard": "קדחות"
+     }
+    ]
+   },
+   {
+    "line": "Not this week, but maybe next week.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Not this week, but maybe next week.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "אתם לא סוגרים את הדלת.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "אתם לא סוגרים את הדין.",
+    "score": 0.8,
+    "flag": "ok",
+    "misread": [
+     {
+      "said": "הדלת",
+      "heard": "הדין"
+     }
+    ]
+   },
+   {
+    "line": "והכי מקצועי, תנו לו לבחור:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "את הדלת, והכי מקצועי...",
+    "score": 0.4,
+    "flag": "MISS",
+    "misread": [
+     {
+      "said": "תנו לו לבחור",
+      "heard": ""
+     }
+    ]
+   },
+   {
+    "line": "Which project should I put on hold?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Which project should I put on hold?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "המנהל מחליט, ואתם נשמעים מקצועיים.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "המנהל מחליט ואתם נשמעים מקצועיים.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "וכך זה נשמע בצ'אט:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "וכך זה נשמע בצ'אט.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "Can you finish the report by Friday?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Can you finish the report by Friday?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "My plate is full this week. Monday?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "My plate is full this week, Monday",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "Monday works.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Monday works",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "שמרו את זה לפגישה הבאה שלכם.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "שמרו את זה לפגישה הבאה שלכם.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   }
+  ],
+  "misread": [
+   {
+    "said": "טום",
+    "heard": "תום",
+    "line": 0
+   },
+   {
+    "said": "הוא שואל",
+    "heard": "",
+    "line": 0
+   },
+   {
+    "said": "או אם אפשר לדחות",
+    "heard": "קדחות",
+    "line": 5
+   },
+   {
+    "said": "הדלת",
+    "heard": "הדין",
+    "line": 7
+   },
+   {
+    "said": "תנו לו לבחור",
+    "heard": "",
+    "line": 8
+   }
+  ],
+  "expected": "spec lines, each heard in its own language"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
@@ -43,5 +241,5 @@
   "true_peak": -1.8
  },
  "lint_warnings": [],
- "render_s": 61.8
+ "render_s": 61.0
 }
