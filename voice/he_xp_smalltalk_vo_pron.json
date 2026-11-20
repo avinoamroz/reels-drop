@@ -4,7 +4,7 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 3.11,
+   "secs": 3.25,
    "words": 10,
    "exact": true,
    "text": "שיחת זום עם שרה, לקוחה מלונדון. לפני העסקים, היא שואלת:"
@@ -12,7 +12,7 @@
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 2.32,
+   "secs": 2.14,
    "words": 5,
    "exact": true,
    "text": "Hi! How's everything over there?"
@@ -20,7 +20,7 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 2.6,
+   "secs": 2.69,
    "words": 7,
    "exact": true,
    "text": "אל תקפצו ישר למצגת. תענו ותחזירו שאלה:"
@@ -28,7 +28,7 @@
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 2.23,
+   "secs": 2.37,
    "words": 5,
    "exact": true,
    "text": "All good, thanks. How's London?"
@@ -36,15 +36,15 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.58,
-   "words": 5,
+   "secs": 2.83,
+   "words": 9,
    "exact": true,
-   "text": "או, אם השבוע היה עמוס:"
+   "text": "עניתם, והחזרתם את הכדור. או, אם השבוע היה עמוס:"
   },
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 1.9,
+   "secs": 2.23,
    "words": 6,
    "exact": true,
    "text": "Busy week, but a good one."
@@ -52,23 +52,39 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.39,
-   "words": 5,
+   "secs": 2.88,
+   "words": 8,
    "exact": true,
-   "text": "ואם רוצים לחמם את השיחה:"
+   "text": "כנה, אבל חיובי. ואם רוצים לחמם את השיחה:"
   },
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 7.15,
-   "words": 17,
+   "secs": 1.25,
+   "words": 5,
    "exact": true,
-   "text": "Any plans for the weekend? Just a quiet one, maybe the park. Sounds perfect. Shall we start?"
+   "text": "Any plans for the weekend?"
   },
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.76,
+   "secs": 3.39,
+   "words": 9,
+   "exact": true,
+   "text": "שאלה קלה שפותחת שיחה אמיתית. וכך זה נשמע בזום:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 4.92,
+   "words": 12,
+   "exact": true,
+   "text": "Just a quiet one, maybe the park. Sounds perfect. Shall we start?"
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 3.3,
    "words": 7,
    "exact": true,
    "text": "שמרו את זה לשיחת הזום הבאה שלכם."

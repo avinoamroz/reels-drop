@@ -3,10 +3,10 @@
  "account": "expressenglishcom",
  "template": "slang_scene",
  "hook": "*3* משפטים|לסמול טוק בזום",
- "duration": 27.57,
+ "duration": 38.1,
  "audio": {
   "lufs": -16.2,
-  "true_peak": -1.8
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/he_xp_smalltalk.mp4",
@@ -40,8 +40,8 @@
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.2,
-  "true_peak": -1.8
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 60.0
+ "render_s": 84.9
 }
