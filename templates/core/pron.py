@@ -358,7 +358,7 @@ def he_pass(text, use_nikud="lex", notes=None):
         num = he_number(core, nxt, masc) if core else None
         key = NIKUD.sub("", core)
         if num: out.append([tok, a + num + b, "num"])
-        elif mode != "raw" and i in fixed: out.append([tok, a + fixed[i] + b, "lex"])
+        elif mode == "lex" and i in fixed: out.append([tok, a + fixed[i] + b, "lex"])     # phrases: the lex-mode homograph fix (full/light leave context to Dicta)
         elif mode != "raw" and key in WL: out.append([tok, a + WL[key] + b, "lex"])
         elif not HEB.search(core) or NIKUD.search(core): out.append([tok, tok, "keep"])      # English word, digits, or already vowelised
         else: out.append([tok, tok, "auto"])

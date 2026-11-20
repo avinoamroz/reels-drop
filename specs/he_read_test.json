@@ -1,0 +1,121 @@
+{
+ "account": "expressenglishcom",
+ "template": "he_cards",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "lang": "he",
+  "tempo": 1.0,
+  "gap": 0.3,
+  "chain": "plain"
+ },
+ "data": {
+  "hook_y": 420,
+  "card_y": 1000,
+  "size": 104,
+  "hook_hold": 1.6,
+  "show_tts": true
+ },
+ "sources": [
+  {
+   "label": "Hebrew voice read test, not for posting",
+   "year": 2026
+  }
+ ],
+ "caption_en": "Hebrew read test: the same 4 sentences with full nikud, without nikud, and without nikud plus the lexicon (the new default). Not for posting.",
+ "caption_he": "בדיקת קריאה בעברית: אותם 4 משפטים עם ניקוד מלא, בלי ניקוד, ובלי ניקוד עם מילון המילים (ברירת המחדל החדשה). לא לפרסום.",
+ "hashtags": [],
+ "cover": {
+  "bg": "brand"
+ },
+ "id": "he_read_test",
+ "hook": "3 קריאות, אותם *4* משפטים",
+ "lines": [
+  {
+   "say": "הספר סיפר לי על הספר החדש שלו.",
+   "lang": "he",
+   "nikud": "full",
+   "label": "ניקוד מלא",
+   "gap": 0.3
+  },
+  {
+   "say": "שתיתי חלב, אבל לא אכלתי חלב.",
+   "lang": "he",
+   "nikud": "full",
+   "label": "ניקוד מלא",
+   "gap": 0.3
+  },
+  {
+   "say": "נועם רז ייסד את אקספרס ב-2016, עם 2,200 מתאמנים.",
+   "lang": "he",
+   "nikud": "full",
+   "label": "ניקוד מלא",
+   "gap": 0.3
+  },
+  {
+   "say": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
+   "lang": "he",
+   "nikud": "full",
+   "label": "ניקוד מלא",
+   "gap": 0.8
+  },
+  {
+   "say": "הספר סיפר לי על הספר החדש שלו.",
+   "lang": "he",
+   "nikud": "raw",
+   "label": "בלי ניקוד",
+   "gap": 0.3
+  },
+  {
+   "say": "שתיתי חלב, אבל לא אכלתי חלב.",
+   "lang": "he",
+   "nikud": "raw",
+   "label": "בלי ניקוד",
+   "gap": 0.3
+  },
+  {
+   "say": "נועם רז ייסד את אקספרס ב-2016, עם 2,200 מתאמנים.",
+   "lang": "he",
+   "nikud": "raw",
+   "label": "בלי ניקוד",
+   "gap": 0.3
+  },
+  {
+   "say": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
+   "lang": "he",
+   "nikud": "raw",
+   "label": "בלי ניקוד",
+   "gap": 0.8
+  },
+  {
+   "say": "הספר סיפר לי על הספר החדש שלו.",
+   "lang": "he",
+   "nikud": "lex",
+   "label": "בלי ניקוד + מילון (ברירת המחדל)",
+   "gap": 0.3
+  },
+  {
+   "say": "שתיתי חלב, אבל לא אכלתי חלב.",
+   "lang": "he",
+   "nikud": "lex",
+   "label": "בלי ניקוד + מילון (ברירת המחדל)",
+   "gap": 0.3
+  },
+  {
+   "say": "נועם רז ייסד את אקספרס ב-2016, עם 2,200 מתאמנים.",
+   "lang": "he",
+   "nikud": "lex",
+   "label": "בלי ניקוד + מילון (ברירת המחדל)",
+   "gap": 0.3
+  },
+  {
+   "say": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
+   "lang": "he",
+   "nikud": "lex",
+   "label": "בלי ניקוד + מילון (ברירת המחדל)",
+   "gap": 0.8
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "lang": "he",
+  "tempo": 1.05,
+  "gap": 0.25,
+  "maxpause": 0.25
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "id": "he_xp_saying_no",
+ "hook": "איך אומרים *לא*?|3 דרכים מנומסות",
+ "lines": [
+  {
+   "say": "טום, המנהל שלכם, מבקש עוד פרויקט, ואין לכם דקה פנויה. הוא שואל:",
+   "lang": "he"
+  },
+  {
+   "say": "Can you take this project too?",
+   "lang": "en",
+   "gap": 0.5
+  },
+  {
+   "say": "במקום לא יבש, נסו:",
+   "lang": "he"
+  },
+  {
+   "say": "I'd love to, but my plate is full.",
+   "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "או, אם אפשר לדחות:",
+   "lang": "he"
+  },
+  {
+   "say": "Not this week, but maybe next week.",
+   "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "והכי מקצועי, תנו לו לבחור:",
+   "lang": "he"
+  },
+  {
+   "say": "Which project should I put on hold?",
+   "lang": "en",
+   "gap": 0.6
+  },
+  {
+   "say": "Can you finish the report by Friday?",
+   "lang": "en"
+  },
+  {
+   "say": "My plate is full this week. Monday?",
+   "lang": "en"
+  },
+  {
+   "say": "Monday works.",
+   "lang": "en",
+   "gap": 0.6
+  },
+  {
+   "say": "שמרו את זה לפגישה הבאה שלכם.",
+   "lang": "he"
+  }
+ ],
+ "data": {
+  "design": 2,
+  "he": "לא, בנימוס",
+  "setting": "office",
+  "speaker": {
+   "name": "Tom",
+   "says": "Can you take this *project* too?",
+   "at": "L1"
+  },
+  "options": [
+   {
+    "tag": "Soft no",
+    "text": "I'd love to, but *my plate is full.*",
+    "at": "L3"
+   },
+   {
+    "tag": "Not now",
+    "text": "*Not this week,* but maybe next week.",
+    "at": "L5"
+   },
+   {
+    "tag": "Most professional",
+    "text": "Which project should I *put on hold?*",
+    "at": "L7"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "Can you finish the report by Friday?",
+    "at": "L8"
+   },
+   {
+    "who": "me",
+    "text": "*My plate is full* this week. Monday?",
+    "at": "L9"
+   },
+   {
+    "who": "them",
+    "text": "Monday works.",
+    "at": "L10"
+   }
+  ],
+  "save": {
+   "at": "L11"
+  }
+ },
+ "caption_he": "המשפט השלישי גורם למנהל להגיד תודה, לא להתעצבן.\n\n3 דרכים להגיד לא באנגלית, בנימוס:\n1. I'd love to, but my plate is full. (יש לי יותר מדי על הצלחת)\n2. Not this week, but maybe next week. (לא עכשיו, אולי בהמשך)\n3. Which project should I put on hold? (איזה פרויקט לעצור?)\n\nאיזה מהם תגידו מחר? כתבו בתגובות.",
+ "caption_en": "3 polite ways to say no at work: I'd love to, but my plate is full. / Not this week, but maybe next week. / Which project should I put on hold?",
+ "hashtags": [
+  "#אנגליתלעסקים",
+  "#EnglishExpress",
+  "#BusinessEnglish"
+ ]
+}

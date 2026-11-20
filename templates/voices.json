@@ -1,4 +1,12 @@
 {
- "_note": "Cartesia voice per language for core/common.py line_voice(). en = Noam's clone 'Noam Roz - reels'. he = the Hebrew voice (Noam's Hebrew clone 'Noam Roz - Hebrew' when it exists, else the best native Hebrew voice by the he-voice audition). A spec can override with voice.ids.",
- "en": {"id": "cd06f613-0c92-4347-9b94-b34cb4a0239f", "name": "Noam Roz - reels"}
+ "_note": "Cartesia voice per language for core/common.py line_voice(). en = Noam's clone 'Noam Roz - reels'. he = the Hebrew voice (Noam's Hebrew clone 'Noam Roz - Hebrew 15s', chosen by the he-voice audition 20 Nov). A spec can override with voice.ids.",
+ "en": {
+  "id": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+  "name": "Noam Roz - reels"
+ },
+ "he": {
+  "id": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+  "name": "Noam Roz - Hebrew 15s",
+  "note": "Noam's Hebrew clone from 15.3 s of his own Hebrew reel (ref/noam_he_sample_15s.wav), created 20 Nov 2026; best Hebrew ASR score in hevoice/audition_2a/2b.json. Alternative: Noam Roz - Hebrew (52 s) f5ff9288-576d-4a1c-afbe-c9349ea9bee4"
+ }
 }

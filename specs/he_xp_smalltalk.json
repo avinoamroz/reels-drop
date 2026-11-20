@@ -1,0 +1,122 @@
+{
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "lang": "he",
+  "tempo": 1.05,
+  "gap": 0.25,
+  "maxpause": 0.25
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "id": "he_xp_smalltalk",
+ "hook": "*3* משפטים|לסמול טוק בזום",
+ "lines": [
+  {
+   "say": "שיחת זום עם שרה, לקוחה מלונדון. לפני העסקים, היא שואלת:",
+   "lang": "he"
+  },
+  {
+   "say": "Hi! How's everything over there?",
+   "lang": "en",
+   "gap": 0.5
+  },
+  {
+   "say": "אל תקפצו ישר למצגת. תענו ותחזירו שאלה:",
+   "lang": "he"
+  },
+  {
+   "say": "All good, thanks. How's London?",
+   "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "או, אם השבוע היה עמוס:",
+   "lang": "he"
+  },
+  {
+   "say": "Busy week, but a good one.",
+   "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "ואם רוצים לחמם את השיחה:",
+   "lang": "he"
+  },
+  {
+   "say": "Any plans for the weekend?",
+   "lang": "en",
+   "gap": 0.6
+  },
+  {
+   "say": "Just a quiet one, maybe the park.",
+   "lang": "en"
+  },
+  {
+   "say": "Sounds perfect. Shall we start?",
+   "lang": "en",
+   "gap": 0.6
+  },
+  {
+   "say": "שמרו את זה לשיחת הזום הבאה שלכם.",
+   "lang": "he"
+  }
+ ],
+ "data": {
+  "design": 2,
+  "he": "סמול טוק",
+  "setting": "zoom",
+  "speaker": {
+   "name": "Sarah",
+   "says": "Hi! How's everything *over there*?",
+   "at": "L1"
+  },
+  "options": [
+   {
+    "tag": "Answer and ask back",
+    "text": "All good, thanks. *How's London?*",
+    "at": "L3"
+   },
+   {
+    "tag": "Busy week",
+    "text": "*Busy week,* but a good one.",
+    "at": "L5"
+   },
+   {
+    "tag": "Warm it up",
+    "text": "Any *plans for the weekend?*",
+    "at": "L7"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "Just a quiet one, maybe the park.",
+    "at": "L8"
+   },
+   {
+    "who": "me",
+    "text": "*Sounds perfect.* Shall we start?",
+    "at": "L9"
+   }
+  ],
+  "save": {
+   "at": "L10"
+  }
+ },
+ "caption_he": "הדקה הראשונה בזום קובעת איך תיגמר השיחה.\n\n3 משפטים לסמול טוק עם לקוח מחו\"ל:\n1. All good, thanks. How's London? (עונים ומחזירים שאלה)\n2. Busy week, but a good one. (כשהשבוע עמוס)\n3. Any plans for the weekend? (מחממים את השיחה)\n\nואז עוברים לעניין: Shall we start?\nשמרו את הסרטון לשיחה הבאה.",
+ "caption_en": "3 small talk lines for a client call: All good, thanks. How's London? / Busy week, but a good one. / Any plans for the weekend?",
+ "hashtags": [
+  "#אנגליתלעסקים",
+  "#EnglishExpress",
+  "#SmallTalk"
+ ]
+}

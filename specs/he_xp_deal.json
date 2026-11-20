@@ -1,0 +1,131 @@
+{
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16
+ },
+ "voice": {
+  "lang": "he",
+  "tempo": 1.05,
+  "gap": 0.25,
+  "maxpause": 0.25
+ },
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "id": "he_xp_deal",
+ "hook": "איך אומרים *סגרנו*?|3 דרכים",
+ "lines": [
+  {
+   "say": "מארק, לקוח מניו יורק, שואל בסוף הפגישה:",
+   "lang": "he"
+  },
+  {
+   "say": "So, do we have a deal?",
+   "lang": "en",
+   "gap": 0.5
+  },
+  {
+   "say": "ואתם רוצים להגיד: סגרנו. אז בשיחה רגילה:",
+   "lang": "he"
+  },
+  {
+   "say": "Deal!",
+   "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "כשהכול מוכן להתחיל לעבוד:",
+   "lang": "he"
+  },
+  {
+   "say": "We're good to go.",
+   "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "ובמייל הרשמי שאחרי הפגישה:",
+   "lang": "he"
+  },
+  {
+   "say": "Let's make it official.",
+   "lang": "en",
+   "gap": 0.6
+  },
+  {
+   "say": "Can we start on Monday?",
+   "lang": "en"
+  },
+  {
+   "say": "We're good to go. Monday it is.",
+   "lang": "en"
+  },
+  {
+   "say": "Great, I'll send the contract.",
+   "lang": "en",
+   "gap": 0.6
+  },
+  {
+   "say": "שמרו את זה לפגישה הבאה שלכם.",
+   "lang": "he"
+  }
+ ],
+ "data": {
+  "design": 2,
+  "he": "סגרנו",
+  "setting": "office",
+  "speaker": {
+   "name": "Mark",
+   "says": "So, do we have a *deal*?",
+   "at": "L1"
+  },
+  "options": [
+   {
+    "tag": "Casual",
+    "text": "*Deal!*",
+    "at": "L3"
+   },
+   {
+    "tag": "Ready to start",
+    "text": "*We're good to go.*",
+    "at": "L5"
+   },
+   {
+    "tag": "In the email",
+    "text": "Let's make it *official.*",
+    "at": "L7"
+   }
+  ],
+  "chat": [
+   {
+    "who": "them",
+    "text": "Can we start on Monday?",
+    "at": "L8"
+   },
+   {
+    "who": "me",
+    "text": "*We're good to go.* Monday it is.",
+    "at": "L9"
+   },
+   {
+    "who": "them",
+    "text": "Great, I'll send the contract.",
+    "at": "L10"
+   }
+  ],
+  "save": {
+   "at": "L11"
+  }
+ },
+ "caption_he": "יש דרך אחת להגיד \"סגרנו\" שעובדת דווקא במייל.\n\n3 דרכים להגיד סגרנו באנגלית:\n1. Deal! (בשיחה, בקלילות)\n2. We're good to go. (הכול מוכן, מתחילים)\n3. Let's make it official. (במייל המסכם)\n\nבאיזו מהן אתם משתמשים? כתבו בתגובות.\nשמרו את הסרטון לפגישה הבאה.",
+ "caption_en": "3 ways to say \"we closed it\" in English: Deal! / We're good to go. / Let's make it official.",
+ "hashtags": [
+  "#אנגליתלעסקים",
+  "#EnglishExpress",
+  "#BusinessEnglish"
+ ]
+}
