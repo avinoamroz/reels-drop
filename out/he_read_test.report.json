@@ -3,7 +3,7 @@
  "account": "expressenglishcom",
  "template": "he_cards",
  "hook": "3 קריאות, אותם *4* משפטים",
- "duration": 33.2,
+ "duration": 33.03,
  "audio": {
   "lufs": -16.0,
   "true_peak": -2.2
@@ -19,7 +19,7 @@
   "3": "out/frames/he_read_test_3.jpg",
   "last": "out/frames/he_read_test_last.jpg"
  },
- "caption_en": "Hebrew read test: the same 4 sentences with full nikud, without nikud, and without nikud plus the lexicon (the new default). Not for posting.",
+ "caption_en": "Hebrew read test: the same 4 sentences with full nikud, without nikud, and without nikud plus the lexicon (the new default). Not for posting. Round 2: lexicon phrases vowelise only the ambiguous word.",
  "caption_he": "בדיקת קריאה בעברית: אותם 4 משפטים עם ניקוד מלא, בלי ניקוד, ובלי ניקוד עם מילון המילים (ברירת המחדל החדשה). לא לפרסום.",
  "hashtags": [],
  "sources": [
@@ -29,14 +29,14 @@
   }
  ],
  "transcript": {
-  "score": 0.8,
+  "score": 0.878,
   "model": "ivrit-ai/whisper-large-v3-turbo-ct2 (he) + faster-whisper small.en (en), per line",
   "lines": [
    {
     "line": "הספר סיפר לי על הספר החדש שלו.",
     "lang": "he",
     "nikud": "full",
-    "heard": "הספר סיפר לי על הספר החדש שלו.",
+    "heard": "הספר סיפר לי על הספר החדש שלו, שולו.",
     "score": 1.0,
     "flag": "ok",
     "misread": []
@@ -59,35 +59,26 @@
     "line": "נועם רז ייסד את אקספרס ב-2016, עם 2,200 מתאמנים.",
     "lang": "he",
     "nikud": "full",
-    "heard": "נועם רז יסד את אקספרס ב-2016, עם 2,200 מתאמתמים.",
-    "score": 0.8,
+    "heard": "נועם רז ייסד את אקספרס ב-2016 עם 2,200 מתאמנים.",
+    "score": 1.0,
     "flag": "ok",
-    "misread": [
-     {
-      "said": "ייסד",
-      "heard": "יסד"
-     },
-     {
-      "said": "מתאמנים",
-      "heard": "מתאמתמים"
-     }
-    ]
+    "misread": []
    },
    {
     "line": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
     "lang": "he",
     "nikud": "full",
-    "heard": "שולחתם נהיה אל עם פידבק לפני, ידעד להם בזום.",
-    "score": 0.571,
+    "heard": "שולחתי מהם פידבק לפני הדד ליין בזום.",
+    "score": 0.429,
     "flag": "MISS",
     "misread": [
      {
-      "said": "שלחתי מייל",
-      "heard": "שולחתם נהיה אל"
+      "said": "שלחתי מייל עם",
+      "heard": "שולחתי מהם"
      },
      {
       "said": "הדדליין",
-      "heard": "ידעד להם"
+      "heard": "הדד ליין"
      }
     ]
    },
@@ -104,91 +95,86 @@
     "line": "שתיתי חלב, אבל לא אכלתי חלב.",
     "lang": "he",
     "nikud": "raw",
-    "heard": "שתיתי חלב, אבל לא אכלתי חלב.",
-    "score": 1.0,
+    "heard": "קטיתי חלב אבל לא אכלתי חלב.",
+    "score": 0.833,
     "flag": "ok",
-    "misread": []
+    "misread": [
+     {
+      "said": "שתיתי",
+      "heard": "קטיתי"
+     }
+    ]
    },
    {
     "line": "נועם רז ייסד את אקספרס ב-2016, עם 2,200 מתאמנים.",
     "lang": "he",
     "nikud": "raw",
-    "heard": "נועה אמרה על סנט אקספס ב-2016 עם 2,200 מתאמנים.",
-    "score": 0.5,
-    "flag": "MISS",
-    "misread": [
-     {
-      "said": "נועם רז ייסד את אקספרס",
-      "heard": "נועה אמרה על סנט אקספס"
-     }
-    ]
+    "heard": "נועם רז ייסד את אקספרס ב-2016 עם 2,200 מתאמנים.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
    },
    {
     "line": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
     "lang": "he",
     "nikud": "raw",
-    "heard": "שלחתי מיילים פידבק לפני הדדליינג הזה.",
-    "score": 0.429,
+    "heard": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "הספר סיפר לי על הספר החדש שלו.",
+    "lang": "he",
+    "nikud": "lex",
+    "heard": "הסאפר סיפר לי על הסאפר החדש שלו.",
+    "score": 0.714,
+    "flag": "MISS",
+    "misread": [
+     {
+      "said": "הספר",
+      "heard": "הסאפר"
+     },
+     {
+      "said": "הספר",
+      "heard": "הסאפר"
+     }
+    ]
+   },
+   {
+    "line": "שתיתי חלב, אבל לא אכלתי חלב.",
+    "lang": "he",
+    "nikud": "lex",
+    "heard": "השתיתי חלב אבל לא אכלתי חלב",
+    "score": 0.833,
+    "flag": "ok",
+    "misread": [
+     {
+      "said": "שתיתי",
+      "heard": "השתיתי"
+     }
+    ]
+   },
+   {
+    "line": "נועם רז ייסד את אקספרס ב-2016, עם 2,200 מתאמנים.",
+    "lang": "he",
+    "nikud": "lex",
+    "heard": "נועם רז ייסד את אקספרס ב-2016 עם 2,200 מתאמנים.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
+    "lang": "he",
+    "nikud": "lex",
+    "heard": "שלחתי מיילים פידבק לפני הדדליין בזום.",
+    "score": 0.714,
     "flag": "MISS",
     "misread": [
      {
       "said": "מייל עם",
       "heard": "מיילים"
-     },
-     {
-      "said": "הדדליין בזום",
-      "heard": "הדדליינג הזה"
-     }
-    ]
-   },
-   {
-    "line": "הספר סיפר לי על הספר החדש שלו.",
-    "lang": "he",
-    "nikud": "lex",
-    "heard": "הספר סיפר לי על הספר החדש שלו, שלו.",
-    "score": 1.0,
-    "flag": "ok",
-    "misread": []
-   },
-   {
-    "line": "שתיתי חלב, אבל לא אכלתי חלב.",
-    "lang": "he",
-    "nikud": "lex",
-    "heard": "פשוט איתי חלב, אבל לא אכלתי חלב.",
-    "score": 0.833,
-    "flag": "ok",
-    "misread": [
-     {
-      "said": "שתיתי",
-      "heard": "פשוט איתי"
-     }
-    ]
-   },
-   {
-    "line": "נועם רז ייסד את אקספרס ב-2016, עם 2,200 מתאמנים.",
-    "lang": "he",
-    "nikud": "lex",
-    "heard": "נועם רז ייסד את אקספס ב-2016 עם 2,200 מתאמנים.",
-    "score": 0.9,
-    "flag": "ok",
-    "misread": [
-     {
-      "said": "אקספרס",
-      "heard": "אקספס"
-     }
-    ]
-   },
-   {
-    "line": "שלחתי מייל עם פידבק לפני הדדליין בזום.",
-    "lang": "he",
-    "nikud": "lex",
-    "heard": "שלחתי מייל עם פדבק לפני הדדליין בזום.",
-    "score": 0.857,
-    "flag": "ok",
-    "misread": [
-     {
-      "said": "פידבק",
-      "heard": "פדבק"
      }
     ]
    }
@@ -200,53 +186,38 @@
     "line": 1
    },
    {
-    "said": "ייסד",
-    "heard": "יסד",
-    "line": 2
-   },
-   {
-    "said": "מתאמנים",
-    "heard": "מתאמתמים",
-    "line": 2
-   },
-   {
-    "said": "שלחתי מייל",
-    "heard": "שולחתם נהיה אל",
+    "said": "שלחתי מייל עם",
+    "heard": "שולחתי מהם",
     "line": 3
    },
    {
     "said": "הדדליין",
-    "heard": "ידעד להם",
+    "heard": "הדד ליין",
     "line": 3
    },
    {
-    "said": "נועם רז ייסד את אקספרס",
-    "heard": "נועה אמרה על סנט אקספס",
-    "line": 6
+    "said": "שתיתי",
+    "heard": "קטיתי",
+    "line": 5
+   },
+   {
+    "said": "הספר",
+    "heard": "הסאפר",
+    "line": 8
+   },
+   {
+    "said": "הספר",
+    "heard": "הסאפר",
+    "line": 8
+   },
+   {
+    "said": "שתיתי",
+    "heard": "השתיתי",
+    "line": 9
    },
    {
     "said": "מייל עם",
     "heard": "מיילים",
-    "line": 7
-   },
-   {
-    "said": "הדדליין בזום",
-    "heard": "הדדליינג הזה",
-    "line": 7
-   },
-   {
-    "said": "שתיתי",
-    "heard": "פשוט איתי",
-    "line": 9
-   },
-   {
-    "said": "אקספרס",
-    "heard": "אקספס",
-    "line": 10
-   },
-   {
-    "said": "פידבק",
-    "heard": "פדבק",
     "line": 11
    }
   ],
@@ -259,5 +230,5 @@
   "true_peak": -2.2
  },
  "lint_warnings": [],
- "render_s": 73.6
+ "render_s": 71.6
 }
