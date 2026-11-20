@@ -4,7 +4,7 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 2.46,
+   "secs": 2.23,
    "words": 7,
    "exact": true,
    "text": "מארק, לקוח מניו יורק, שואל בסוף הפגישה:"
@@ -12,7 +12,7 @@
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 1.25,
+   "secs": 2.51,
    "words": 6,
    "exact": true,
    "text": "So, do we have a deal?"
@@ -20,7 +20,7 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 2.51,
+   "secs": 3.16,
    "words": 7,
    "exact": true,
    "text": "ואתם רוצים להגיד: סגרנו. אז בשיחה רגילה:"
@@ -28,7 +28,7 @@
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 0.65,
+   "secs": 0.93,
    "words": 1,
    "exact": true,
    "text": "Deal!"
@@ -36,15 +36,15 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.44,
-   "words": 4,
+   "secs": 3.3,
+   "words": 9,
    "exact": true,
-   "text": "כשהכול מוכן להתחיל לעבוד:"
+   "text": "קצר וחם, בדיוק כמו סגרנו. כשהכול מוכן להתחיל לעבוד:"
   },
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 1.49,
+   "secs": 0.74,
    "words": 4,
    "exact": true,
    "text": "We're good to go."
@@ -52,23 +52,39 @@
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 2.23,
-   "words": 4,
+   "secs": 3.72,
+   "words": 8,
    "exact": true,
-   "text": "ובמייל הרשמי שאחרי הפגישה:"
+   "text": "כלומר: הכול מוכן, מתחילים. ובמייל הרשמי שאחרי הפגישה:"
   },
   {
    "lang": "en",
    "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
-   "secs": 6.5,
-   "words": 21,
+   "secs": 1.07,
+   "words": 4,
    "exact": true,
-   "text": "Let's make it official. Can we start on Monday? We're good to go. Monday it is. Great, I'll send the contract."
+   "text": "Let's make it official."
   },
   {
    "lang": "he",
    "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
-   "secs": 1.49,
+   "secs": 3.16,
+   "words": 11,
+   "exact": true,
+   "text": "זה המשפט ששולחים במייל המסכם. וכך זה נשמע בצ'אט עם מארק:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 6.83,
+   "words": 17,
+   "exact": true,
+   "text": "Can we start on Monday? We're good to go. Monday it is. Great, I'll send the contract."
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.72,
    "words": 6,
    "exact": true,
    "text": "שמרו את זה לפגישה הבאה שלכם."

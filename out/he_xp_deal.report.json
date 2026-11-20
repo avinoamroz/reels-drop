@@ -3,10 +3,10 @@
  "account": "expressenglishcom",
  "template": "slang_scene",
  "hook": "איך אומרים *סגרנו*?|3 דרכים",
- "duration": 24.1,
+ "duration": 34.53,
  "audio": {
   "lufs": -16.2,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/he_xp_deal.mp4",
@@ -40,8 +40,8 @@
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.2,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 53.3
+ "render_s": 56.8
 }
