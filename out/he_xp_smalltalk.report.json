@@ -1,0 +1,47 @@
+{
+ "id": "he_xp_smalltalk",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "*3* משפטים|לסמול טוק בזום",
+ "duration": 27.57,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/he_xp_smalltalk.mp4",
+  "cover": "covers/he_xp_smalltalk_cover.jpg",
+  "preview": "previews/he_xp_smalltalk_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/he_xp_smalltalk_0.jpg",
+  "1": "out/frames/he_xp_smalltalk_1.jpg",
+  "3": "out/frames/he_xp_smalltalk_3.jpg",
+  "last": "out/frames/he_xp_smalltalk_last.jpg"
+ },
+ "caption_en": "3 small talk lines for a client call: All good, thanks. How's London? / Busy week, but a good one. / Any plans for the weekend?",
+ "caption_he": "הדקה הראשונה בזום קובעת איך תיגמר השיחה.\n\n3 משפטים לסמול טוק עם לקוח מחו\"ל:\n1. All good, thanks. How's London? (עונים ומחזירים שאלה)\n2. Busy week, but a good one. (כשהשבוע עמוס)\n3. Any plans for the weekend? (מחממים את השיחה)\n\nואז עוברים לעניין: Shall we start?\nשמרו את הסרטון לשיחה הבאה.",
+ "hashtags": [
+  "#אנגליתלעסקים",
+  "#EnglishExpress",
+  "#SmallTalk"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": null,
+  "error": "name 'x' is not defined"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 60.0
+}
