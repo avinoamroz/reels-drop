@@ -33,8 +33,207 @@
   }
  ],
  "transcript": {
-  "score": null,
-  "error": "name 'x' is not defined"
+  "score": 0.904,
+  "model": "ivrit-ai/whisper-large-v3-turbo-ct2 (he) + faster-whisper small.en (en), per line",
+  "lines": [
+   {
+    "line": "שיחת זום עם שרה, לקוחה מלונדון. לפני העסקים, היא שואלת:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "שיחת זום עם שרה, לקוחה מלונדון. בפני עסקים היא שואלת...",
+    "score": 0.8,
+    "flag": "ok",
+    "misread": [
+     {
+      "said": "לפני העסקים",
+      "heard": "בפני עסקים"
+     }
+    ]
+   },
+   {
+    "line": "Hi! How's everything over there?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Hi, how's everything over there?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "אל תקפצו ישר למצגת. תענו ותחזירו שאלה:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "אל תקפצו ישר למצגת, תענו ותחזירו שאלה.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "All good, thanks. How's London?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "All good, thanks. How's London?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "עניתם, והחזרתם את הכדור.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "עניתם והחזרתם את הכדור.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "או, אם השבוע היה עמוס:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "כדור בור אם השבוע היה עמוס",
+    "score": 0.8,
+    "flag": "ok",
+    "misread": [
+     {
+      "said": "או",
+      "heard": "כדור בור"
+     }
+    ]
+   },
+   {
+    "line": "Busy week, but a good one.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Busy week, but good one.",
+    "score": 0.833,
+    "flag": "ok",
+    "misread": [
+     {
+      "said": "a",
+      "heard": ""
+     }
+    ]
+   },
+   {
+    "line": "כנה, אבל חיובי.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "כנה, אבל חיובי.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "ואם רוצים לחמם את השיחה:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "ואם רוצים לחמם...",
+    "score": 0.6,
+    "flag": "MISS",
+    "misread": [
+     {
+      "said": "את השיחה",
+      "heard": ""
+     }
+    ]
+   },
+   {
+    "line": "Any plans for the weekend?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Any plans for the weekend?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "שאלה קלה שפותחת שיחה אמיתית.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "שאלה קלה שפותחת שיחה אמיתית.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "וכך זה נשמע בזום:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "וכך זה נשמע בזום.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "Just a quiet one, maybe the park.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Just a quiet one, maybe the park.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "Sounds perfect. Shall we start?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Sounds perfect. Shall we start?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "שמרו את זה לשיחת הזום הבאה שלכם.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "ראו את זה בשיחת הזום הבאה שלכם.",
+    "score": 0.714,
+    "flag": "MISS",
+    "misread": [
+     {
+      "said": "שמרו",
+      "heard": "ראו"
+     },
+     {
+      "said": "לשיחת",
+      "heard": "בשיחת"
+     }
+    ]
+   }
+  ],
+  "misread": [
+   {
+    "said": "לפני העסקים",
+    "heard": "בפני עסקים",
+    "line": 0
+   },
+   {
+    "said": "או",
+    "heard": "כדור בור",
+    "line": 5
+   },
+   {
+    "said": "a",
+    "heard": "",
+    "line": 6
+   },
+   {
+    "said": "את השיחה",
+    "heard": "",
+    "line": 8
+   },
+   {
+    "said": "שמרו",
+    "heard": "ראו",
+    "line": 14
+   },
+   {
+    "said": "לשיחת",
+    "heard": "בשיחת",
+    "line": 14
+   }
+  ],
+  "expected": "spec lines, each heard in its own language"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
@@ -43,5 +242,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 84.9
+ "render_s": 62.3
 }
