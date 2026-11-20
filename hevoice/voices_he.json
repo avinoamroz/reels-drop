@@ -1,0 +1,257 @@
+{
+ "total": 922,
+ "hebrew": [
+  {
+   "id": "ebc02c0d-61fd-48f2-a6c9-0d6683b7d466",
+   "name": "Ayala - Expert Narrator",
+   "description": "Ayala's expressive yet controlled delivery makes her perfect for engaging narrations and insightful presentations.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "3e32f3c5-9ac0-4192-9994-87fdb277120f",
+   "name": "Noam - Broadcaster",
+   "description": "Clear and authoritative adult male voice for announcements, broadcasts, and formal presentations",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "ff857c8e-e7f9-4afd-af42-dce9f3c5ab02",
+   "name": "Yarden - Trusted Advisor",
+   "description": "Composed Hebrew female for reliable customer assistance.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "84b969ad-19c7-428d-b742-48d387f7f138",
+   "name": "Gil - Friendly Host",
+   "description": "Warm, genuine Hebrew male perfect for conversational experiences.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "431b7e77-b46d-4eda-8362-db430ac0913c",
+   "name": "Oren - Steady Advisor",
+   "description": "Calm, measured Hebrew male suited for professional communication.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "daa4d6bb-da62-4e16-8065-76cd87942475",
+   "name": "Eitan - Modern Communicator",
+   "description": "Strong Hebrew male providing a clear tone for corporate messaging.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "2821fd0c-35c7-4adf-9c42-32e394bf85cb",
+   "name": "Adi - Efficient Expert",
+   "description": "Articulate, professional Hebrew female for customer assistance.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "32a91a5d-05d2-4c1e-bd5a-ff5fd0c413f2",
+   "name": "Tehila - Calm Specialist",
+   "description": "Calm, precise sound for careful guidance, sensitive support, and focused professional assistance.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "731d8feb-5eb8-4e2b-b6b3-723dfccdcd18",
+   "name": "Neta - Clear Professional",
+   "description": "Delivers information with a measured, articulate tone, perfect for e-learning and professional guidance.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "33124162-0d74-48af-ab1c-c1c01bac0247",
+   "name": "Ido - Calm Communicator",
+   "description": "Ido's mid-pitched voice offers a reassuring and composed delivery, perfect for customer support and detailed narration.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "921f4026-af53-4761-ac56-1c32e44856e8",
+   "name": "Ronen - Calm Consultant",
+   "description": "Consultative and composed delivery for expert guidance, decision support, and professional assistance.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "1cd6668f-84b9-41a2-adbd-b7328f8d6ef4",
+   "name": "Hila - Warm Guide",
+   "description": "Hila is a warm and clear voice, perfect for guiding and providing reassuring customer support.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "4ff88d85-28a2-4870-bdc4-cd9697fd5af5",
+   "name": "Aviva - Patient Guide",
+   "description": "Patient and reassuring delivery for careful explanations, scheduling support, and step-by-step guidance.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "a976c076-3e31-4bf2-a178-8c3ce3d52b2a",
+   "name": "Eyal - Grounded Guide",
+   "description": "Grounded and calm presence for professional help, issue resolution, and confident next-step guidance.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "80589fbe-9893-45f7-9c35-13555f8fd02d",
+   "name": "Shai - Focused Administrator",
+   "description": "Offers an organized and steady delivery, perfect for managing tasks and administrative instructions.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "db3dc8a6-d8f8-4ca5-add9-559c849a6fa0",
+   "name": "Itai - Measured Advisor",
+   "description": "Measured, thoughtful tone for structured support, careful explanations, and calm customer interactions.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "43300c5e-f925-4cd2-adf7-0a031c0e242e",
+   "name": "Alma - Clear Advisor",
+   "description": "Crisp advisory tone for concise directions, customer answers, and well-structured support flows.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "b54dc7e4-afca-4877-aa67-2c725419b600",
+   "name": "Liora - Gentle Guide",
+   "description": "Gentle delivery for confident assistance, structured support, and professional conversations.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "8193c793-825c-4bb1-b522-13d458ce8d68",
+   "name": "Nava - Warm Specialist",
+   "description": "Warm specialist for supportive service, patient explanations, and approachable customer care.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "858c98dc-db9e-4d1a-9435-557cdf77685c",
+   "name": "Avi - Calm Consultant",
+   "description": "Calm, consultative presence for thoughtful guidance, account help, and clear next-step support.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "3a1546bd-6781-4376-984d-70b4e9f3d2c4",
+   "name": "Dafna - Supportive Guide",
+   "description": "Supportive and composed tone for guided onboarding, service reassurance, and clear assistance.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "d179b385-3cd4-4972-b155-e7cb2445776f",
+   "name": "Rina - Articulate Coordinator",
+   "description": "Clear, composed delivery for direct guidance, support tasks, and practical assistant interactions.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "52271edb-c161-4c76-9e33-c5c1d39de6e3",
+   "name": "Asaf - Steady Advisor",
+   "description": "Steady, grounded delivery for reliable guidance, account assistance, and clear service conversations.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "95d91579-a3f1-4bb3-b5e1-9a97ef401628",
+   "name": "Yonatan - Measured Professional",
+   "description": "Steady and even pacing that offers a grounding presence for any script.",
+   "gender": "masculine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "c5bc902c-bc31-40a8-b81f-7d3a1e1920bd",
+   "name": "Yardena - Expert Facilitator",
+   "description": "Hebrew female for efficient customer communication.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "e8e2079b-b690-40e6-8e21-02721d3d56bc",
+   "name": "Maayan - Refined Speaker",
+   "description": "Elegant and precise articulation suited for sophisticated brand communications.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "94c2e193-a498-44e4-b958-174478734c3f",
+   "name": "Tamar - Crisp Announcer",
+   "description": "Clean and authoritative articulation perfect for clear, public-facing statements.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "d0be495c-5e23-4b88-b12d-bc42d38be9a5",
+   "name": "Shira - Comforting Presence",
+   "description": "Deeply warm and steady tone designed to soothe and reassure the listener.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "bd05edd9-cec9-4600-9af4-c9ba4e032ff9",
+   "name": "Talia - Approachable Guide",
+   "description": "Friendly and clear voice that makes detailed information easy to digest.",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  },
+  {
+   "id": "1daba551-67af-465e-a189-f91495aa2347",
+   "name": "Yael - Casual Presence",
+   "description": "Voice with relaxed tone and friendly warmth, ideal for conversational dialogue and everyday narration",
+   "gender": "feminine",
+   "is_owner": false,
+   "language": "he"
+  }
+ ],
+ "mine": [
+  {
+   "id": "2addc5c4-2e46-4d23-a91f-401921be4dcc",
+   "name": "Noam Roz - reels 58s",
+   "language": "en"
+  },
+  {
+   "id": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "name": "Noam Roz - reels",
+   "language": "en"
+  }
+ ]
+}

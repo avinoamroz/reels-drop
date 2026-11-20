@@ -1,0 +1,11 @@
+{
+ "raw": {
+  "url": "https://nakdan-5-3.loadbalancer.dicta.org.il/api",
+  "status": 200,
+  "body": "{\"data\":[{\"nakdan\":{\"word\":\"שתיתי\",\"options\":[{\"w\":\"שָׁתִיתִי\",\"levelChoice\":1,\"Acc\":\"Acc1\",\"prefix_len\":0},{\"w\":\"שָׁתִיתִי\",\"levelChoice\":2,\"Acc\":\"Acc0\",\"prefix_len\":0},{\"w\":\"שָׁתִיתִי\",\"levelChoice\":3,\"Acc\":\"AccUnk\",\"fTanakh\":true,\"prefix_len\":0},{\"w\":\"שְׁתִיתֵי\",\"levelChoice\":3,\"Acc\":\"AccUnk\",\"prefix_len\":0},{\"w\":\"שְׁתִיָּתִי\",\"levelChoice\":3,\"Acc\":\"Acc0\",\"prefix_len\":0},{\"w\":\"שִׁתִּיתִי\",\"levelChoice\":3,\"Acc\":\"Acc0\",\"prefix_len\":0},{\"w\":\"שַׁתֵּתִי\",\"levelChoice\":3,\"Acc\":\"Acc1\",\"fPoetry\":true,\"fRabbinic\":true,\"prefix_len\":0},{\"w\":\"שֶׁ|תִּתִּי\",\"levelChoice\":3,\"Acc\":\"Acc1\",\"prefix_len\":1},{\"w\":\"שֶׁ|תִּתִּי\",\"levelChoice\":3,\"Acc\":\"AccUnk\",\"fTanakh\":true,\"prefix_len\":1}],\"sep\":false,\"fpasuk\":false,\"fconfident\":false},\"str\":\"שתיתי\",\"pStr\":\"שתיתי\",\"sep\":false},{\"nakdan\":{\"word\":\" \",\"options\":[],\"sep\":true},\"str\":\" \",\"pStr\":\" \",\"sep\":true,\"break\":0},{\"nakdan\":{\"word\":\"חלב\",\"options\":[{\"w\":\"חָלָב\",\"levelChoice\":1,\"Acc\":\"Acc0\",\"prefix_len\":0},{\"w\":\"חַלַבּ\",\"levelChoice\":2,\"Acc\":\"AccUnk\",\"prefix_len\":0},{\"w\":\"חָלָב\",\"levelChoice\":3,\"Acc\":\"AccUnk\",\"fTanakh\":true,\"prefix_len\":0},{\"w\":\"חָלָב\",\"levelChoice\":3,\"Acc\":\"AccUnk\",\"fPoetry\":true,\"prefix_len\":0},{\"w\":\"חָלָב\",\"levelChoice\":3,\"Acc\":\"AccUnk\",\"fPoetry\":true,\"prefix_len\":0},{\"w\":\"חֲלֵב\",\"levelChoice\":2,\"Acc\":\"AccUnk\",\"fTanakh\":true,\"prefix_len\":0},{\"w\":\"חֵלֶב\",\"levelChoice\":2,\"Acc\":\"Acc1\",\"prefix_len\":0},{\"w\":\"חֵלֶב\",\"levelChoice\":2,\"Acc\":\"AccUnk\",\"fTanakh\":true,\"prefix_len\":0},{\"w\":\"חֵלֶב\",\"levelChoice\":3,\"Acc\":\"AccUnk\",\"fTanakh\":"
+ },
+ "vowelised": "שָׁתִיתִי חָלָב, אֲבָל לֹא אָכַלְתִּי חָלָב. הַבֹּקֶר בַּמִּדְבָּר מִדְבָּר עִם הַפָּרוֹת.",
+ "notes": [
+  "nikud: dicta"
+ ]
+}
