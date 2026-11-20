@@ -1,0 +1,13 @@
+{
+ "_note": "Hebrew pronunciation lexicon for templates/core/pron.py. 'words': plain spelling (no nikud) -> the exact vowelised spelling sent to TTS, used instead of Dicta's automatic nikud. Add a word here whenever the Hebrew ASR check (out/<id>.report.json transcript.misread) or Noam flags a misreading. 'masc_nouns': a number right before these nouns is read in the masculine form (שלושה ימים); otherwise feminine (שלוש שנים).",
+ "words": {
+  "נועם": "נֹעַם",
+  "רז": "רָז",
+  "אקספרס": "אֶקְסְפְּרֶס",
+  "אינגליש": "אִינְגְּלִישׁ",
+  "פיצ'ר": "פִיצֶ'ר",
+  "דדליין": "דֶּדְלַיין",
+  "פידבק": "פִידְבֶּק"
+ },
+ "masc_nouns": ["ימים", "שבועות", "חודשים", "אנשים", "עובדים", "לקוחות", "מתאמנים", "דברים", "משפטים", "שלבים", "צעדים", "מקרים", "מיליון", "אלף", "שקלים", "דולר", "דולרים", "אחוזים", "מיליארד", "פרקים", "חלקים", "רגעים", "טיפים", "סוגים", "כללים", "עשורים", "ילדים", "מנהלים", "מקומות", "סיפורים"]
+}

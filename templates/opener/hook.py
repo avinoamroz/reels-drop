@@ -11,7 +11,34 @@ FONT = "/usr/share/fonts/opentype/inter/Inter-ExtraBold.otf"
 GOLD_RGB = (255, 205, 80)
 
 
+import os
+HEEBO = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "fonts", "Heebo-800.ttf")
+
+
+def make_he(text, size=124, maxw=1000):
+    """Hebrew hook (20 Nov): Heebo, each line put in visual (right to left) order with bidi; *word* and numbers in gold"""
+    import re
+    from bidi.algorithm import get_display
+    fnt = ImageFont.truetype(HEEBO, size, layout_engine=ImageFont.Layout.BASIC); lines = [l.strip() for l in text.split("|")]
+    gold = {w.strip("*.,!?") for w in text.replace("|", " ").split() if w.startswith("*")}
+    vis = [get_display(ln.replace("*", "")) for ln in lines]
+    lh = int(size * 1.2); pad = 40
+    widths = [fnt.getlength(v) for v in vis]
+    s = min(1.0, maxw / max(widths))
+    if s < 1: return make_he(text, int(size * s), maxw)
+    im = Image.new("RGBA", (maxw + 2 * pad, lh * len(lines) + 2 * pad), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+    for i, v in enumerate(vis):
+        x = (maxw + 2 * pad - widths[i]) / 2; y = pad + i * lh + lh / 2
+        for w in v.split(" "):
+            g = bool(re.search(r"\d", w)) or w.strip(".,!?") in gold or w.strip(".,!?")[::-1] in gold
+            d.text((x, y), w, font=fnt, fill=GOLD_RGB + (255,) if g else (255, 255, 255, 255), anchor="lm")
+            x += fnt.getlength(w + " ")
+    return np.asarray(im).astype(np.float32) / 255
+
+
 def make(text, size=124, maxw=1000):
+    import re
+    if re.search(r"[֐-׿]", text): return make_he(text, size, maxw)
     fnt = ImageFont.truetype(FONT, size); lines = [l.strip() for l in text.split("|")]
     lh = int(size * 1.1); pad = 40
     widths = [sum(fnt.getlength(w.strip("*") + " ") for w in ln.split()) - fnt.getlength(" ") for ln in lines]

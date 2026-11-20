@@ -1,0 +1,48 @@
+{
+ "_note": "Cartesia sonic-3 IPA phonemes, one phoneme per |, stress mark as its own token before the stressed syllable. Used by templates/core/pron.py on every TTS script. Tested: live (dwell) needs the stress mark <<ˈ|l|ɪ|v>> (19 Nov); HAMAS <<h|ɑ|ˈ|m|ɑ|s>> (11 Nov); Noam Roz (14 Nov). Add a word here when the voice fumbles it, then verify with phon/jobs.txt.",
+ "heteronyms": {
+  "live_verb": "ˈ|l|ɪ|v", "live_adj": "ˈ|l|aɪ|v",
+  "lives_verb": "ˈ|l|ɪ|v|z", "lives_noun": "ˈ|l|aɪ|v|z",
+  "read_past": "ˈ|r|ɛ|d", "read_present": "ˈ|r|iː|d",
+  "lead_metal": "ˈ|l|ɛ|d", "lead_verb": "ˈ|l|iː|d",
+  "close_adj": "ˈ|k|l|oʊ|s", "close_verb": "ˈ|k|l|oʊ|z",
+  "tear_rip": "ˈ|t|ɛ|r", "tear_cry": "ˈ|t|ɪ|r", "tears_rip": "ˈ|t|ɛ|r|z", "tears_cry": "ˈ|t|ɪ|r|z",
+  "wind_air": "ˈ|w|ɪ|n|d", "wind_turn": "ˈ|w|aɪ|n|d",
+  "record_noun": "ˈ|r|ɛ|k|ɚ|d", "record_verb": "r|ɪ|ˈ|k|ɔ|r|d",
+  "records_noun": "ˈ|r|ɛ|k|ɚ|d|z", "records_verb": "r|ɪ|ˈ|k|ɔ|r|d|z",
+  "present_noun": "ˈ|p|r|ɛ|z|ə|n|t", "present_verb": "p|r|ɪ|ˈ|z|ɛ|n|t",
+  "minute_tiny": "m|aɪ|ˈ|n|uː|t",
+  "content_noun": "ˈ|k|ɑ|n|t|ɛ|n|t", "content_adj": "k|ə|n|ˈ|t|ɛ|n|t",
+  "object_noun": "ˈ|ɑ|b|dʒ|ɛ|k|t", "object_verb": "ə|b|ˈ|dʒ|ɛ|k|t",
+  "desert_noun": "ˈ|d|ɛ|z|ɚ|t", "desert_verb": "d|ɪ|ˈ|z|ɝ|t",
+  "wound_injury": "ˈ|w|uː|n|d", "wound_turn": "ˈ|w|aʊ|n|d",
+  "bass_music": "ˈ|b|eɪ|s", "bass_fish": "ˈ|b|æ|s",
+  "row_line": "ˈ|r|oʊ", "row_fight": "ˈ|r|aʊ",
+  "use_noun": "ˈ|j|uː|s", "use_verb": "ˈ|j|uː|z"
+ },
+ "names": {
+  "hamas": "h|ɑ|ˈ|m|ɑ|s",
+  "hezbollah": "ˌ|h|ɛ|z|b|ə|ˈ|l|ɑ",
+  "druze": "ˈ|d|r|uː|z",
+  "kampf": "ˈ|k|ɑ|m|p|f",
+  "corniche": "k|ɔ|r|ˈ|n|iː|ʃ",
+  "hasbara": "h|ɑ|s|b|ɑ|ˈ|r|ɑ",
+  "sderot": "s|d|ɛ|ˈ|r|oʊ|t",
+  "tiberias": "t|aɪ|ˈ|b|ɪ|r|i|ə|s",
+  "jethro": "ˈ|dʒ|ɛ|θ|r|oʊ",
+  "nabi": {"ipa": "ˈ|n|ɑ|b|i", "next": ["shu'ayb", "shuayb", "shuaib", "shu'aib"]},
+  "shu'ayb": "ʃ|uː|ˈ|eɪ|b", "shuayb": "ʃ|uː|ˈ|eɪ|b", "shuaib": "ʃ|uː|ˈ|eɪ|b", "shu'aib": "ʃ|uː|ˈ|eɪ|b",
+  "ayalon": "ˌ|ɑ|j|ɑ|ˈ|l|oʊ|n",
+  "knesset": "ˈ|k|n|ɛ|s|ɛ|t",
+  "kibbutz": "k|ɪ|ˈ|b|ʊ|t|s",
+  "kibbutzim": "ˌ|k|ɪ|b|ʊ|ˈ|t|s|iː|m",
+  "idf": "ˌ|aɪ|ˌ|d|iː|ˈ|ɛ|f",
+  "mossad": "m|oʊ|ˈ|s|ɑ|d",
+  "shin": {"ipa": "ˈ|ʃ|ɪ|n", "next": ["bet"]},
+  "bet": {"ipa": "ˈ|b|ɛ|t", "prev": ["shin"]},
+  "noam": {"ipa": "n|oʊ|ˈ|ɑ|m", "next": ["roz", "roz's"]}
+ },
+ "case_sensitive": {
+  "Roz": {"ipa": "ˈ|r|ɑː|z", "prev": ["noam"]}
+ }
+}

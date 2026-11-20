@@ -28,7 +28,56 @@ def heard(model, path, start=0.0):
     return " ".join(s.text.strip() for s in segs)
 
 
+HE_MODEL = "ivrit-ai/whisper-large-v3-turbo-ct2"      # Hebrew ASR (ivrit.ai fine-tune of whisper large-v3-turbo, CTranslate2)
+
+
+def he_norm(s):
+    s = re.sub(r"[֑-ׇ]", "", s).replace("־", " ").replace("-", " ")
+    s = re.sub(r"\d+(\.\d+)?", lambda m: " #" + m.group() + " ", s.replace(",", ""))
+    return re.sub(r"[^א-תa-z0-9#' ]+", " ", s.lower()).split()
+
+
+def is_he(S): return S.get("voice", {}).get("lang") == "he" or any(L.get("lang") == "he" for L in S.get("lines", []))
+
+
+def main_he(S, rp):
+    """Hebrew (or mixed) reel: each spoken line cut from the mp4 by its timing and heard in its own language
+    (Hebrew: ivrit-ai whisper large-v3-turbo; English: small.en). Report: score per line + every misread word."""
+    import numpy as np
+    from faster_whisper import WhisperModel
+    import tempfile
+    R = json.load(open(rp)); T = json.load(open(os.path.join(tempfile.gettempdir(), "tpl_" + S["id"], "timing.json")))   # left by the render step (common.workdir); x = pcm(os.path.join(REPO, "out", f"{S['id']}.mp4"))
+    SAY = [L for L in S["lines"] if L.get("say", "").strip()]
+    nth = os.cpu_count() or 4
+    mh = WhisperModel(HE_MODEL, device="cpu", compute_type="int8", cpu_threads=nth)
+    me = None; per = []; tot = hit = 0; mis = []
+    for L, tl in zip(SAY, T["lines"]):
+        lg = L.get("lang") or S.get("voice", {}).get("lang", "en")
+        a, b = max(0, int((tl["t0"] - 0.15) * 16000)), int((tl["t1"] + 0.3) * 16000); cut = x[a:b]
+        if lg == "he":
+            segs, _ = mh.transcribe(cut, language="he", beam_size=5, condition_on_previous_text=False, vad_filter=False)
+            got = " ".join(s.text.strip() for s in segs); E, G = he_norm(L["say"]), he_norm(got)
+        else:
+            if me is None: me = WhisperModel("small.en", device="cpu", compute_type="int8", cpu_threads=nth)
+            segs, _ = me.transcribe(cut, language="en", beam_size=5, condition_on_previous_text=False)
+            got = " ".join(s.text.strip() for s in segs); E, G = norm(L["say"]), norm(got)
+        sm = difflib.SequenceMatcher(None, E, G, autojunk=False); h = sum(bk.size for bk in sm.get_matching_blocks())
+        wrong = []
+        for op, i1, i2, j1, j2 in sm.get_opcodes():
+            if op in ("replace", "delete"): wrong.append(dict(said=" ".join(E[i1:i2]), heard=" ".join(G[j1:j2])))
+        sc = h / max(1, len(E)); tot += len(E); hit += h
+        per.append(dict(line=L["say"][:160], lang=lg, nikud=L.get("nikud", True) if lg == "he" else None, heard=got,
+                        score=round(sc, 3), flag="MISS" if sc < 0.8 else "ok", misread=wrong))
+        mis += [dict(w, line=len(per) - 1) for w in wrong]
+    R["transcript"] = dict(score=round(hit / max(1, tot), 3), model=f"{HE_MODEL} (he) + faster-whisper small.en (en), per line",
+                           lines=per, misread=mis, expected="spec lines, each heard in its own language")
+    json.dump(R, open(rp, "w"), indent=1, ensure_ascii=False)
+    print("transcript score", R["transcript"]["score"])
+    for p in per: print(p["flag"], p["score"], p["lang"], p["line"][:70], "| heard:", p["heard"][:70], "| misread:", p["misread"])
+
+
 def main(S, rp):
+    if is_he(S): return main_he(S, rp)
     R = json.load(open(rp))
     from faster_whisper import WhisperModel
     m = WhisperModel("small.en", device="cpu", compute_type="int8", cpu_threads=os.cpu_count() or 4)

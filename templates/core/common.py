@@ -142,20 +142,82 @@ def cartesia(text, out_prefix, lang="en", vid=None):
     return len(pcm) / 88200, len(words)
 
 
+def voices():
+    """templates/voices.json: Cartesia voice id per language ("en": Noam Roz - reels, "he": Hebrew voice)"""
+    p = os.path.join(TPL, "voices.json")
+    v = json.load(open(p, encoding="utf-8")) if os.path.exists(p) else {}
+    return {k: (x["id"] if isinstance(x, dict) else x) for k, x in v.items() if not k.startswith("_")}
+
+
+def line_lang(S, L): return L.get("lang") or S.get("voice", {}).get("lang", "en")
+
+
+def line_voice(S, lang):
+    """voice.ids.<lang>, else voice.id for the spec's main language, else voices.json, else Noam's English clone"""
+    V = S.get("voice", {})
+    return (V.get("ids") or {}).get(lang) or (V.get("id") if lang == V.get("lang", "en") else None) or voices().get(lang) or VOICE_ID
+
+
+def pron_plan(S):
+    """the pronunciation pass (core/pron.py) for every TTS line -> [(line, lang, voice id, [(word, tts chunk)])], notes"""
+    import pron as PR
+    notes, plan = [], []
+    for L in S["lines"]:
+        if not L.get("say", "").strip() or L.get("wav"): continue
+        lg = line_lang(S, L); txt = DASH_RE.sub(",", L["say"].strip())
+        plan.append((L, lg, line_voice(S, lg), PR.prepare(txt, lg, S.get("pron"), L, notes)))
+    return plan, notes
+
+
+def cartesia_runs(S, plan, pre):
+    """one Cartesia call per run of lines with the same language and voice; PCM joined with 0.25 s of silence;
+    word timestamps folded back onto the spec's own words -> pre.wav + pre_words.json"""
+    import wave, pron as PR
+    runs = []
+    for p in plan:
+        if runs and runs[-1][0] == (p[1], p[2]): runs[-1][1].append(p)
+        else: runs.append(((p[1], p[2]), [p]))
+    pcm, words, t_off, info = bytearray(), [], 0.0, []
+    for k, ((lg, vid), ps) in enumerate(runs):
+        pairs = [x for p in ps for x in p[3]]
+        tmp = f"{pre}_r{k}"
+        sec, n = cartesia(PR.tts_text(pairs), tmp, lg, vid)
+        W_ = json.load(open(tmp + "_words.json")); grp, exact = PR.regroup(W_, pairs)
+        if not exact: log(f"pron: run {k} ({lg}) Cartesia gave {len(W_)} words for {sum(len(c.split()) for _, c in pairs)}: timestamps mapped proportionally")
+        with wave.open(tmp + ".wav") as w: fr = w.readframes(w.getnframes())
+        if k: pcm += b"\x00\x00" * int(0.25 * 44100); t_off += 0.25
+        words += [dict(word=g["word"], start=round(g["start"] + t_off, 3), end=round(g["end"] + t_off, 3)) for g in grp]
+        pcm += fr; t_off += len(fr) / 88200
+        info.append(dict(lang=lg, voice=vid, secs=round(sec, 2), words=n, exact=exact, text=PR.tts_text(pairs)))
+        for f in (tmp + ".wav", tmp + "_words.json"):
+            try: os.remove(f)
+            except OSError: pass
+    with wave.open(pre + ".wav", "wb") as w:
+        w.setnchannels(1); w.setsampwidth(2); w.setframerate(44100); w.writeframes(bytes(pcm))
+    json.dump(words, open(pre + "_words.json", "w"), indent=0, ensure_ascii=False)
+    return len(pcm) / 88200, len(words), info
+
+
 def get_voice(S):
     """returns (raw_wav, words_json, how). Order: voice/<id>_vo.wav whose .hash matches the script (no new TTS cost),
-    then Cartesia if the secret is set, then any pre-made voice/<id>_*.wav (+ _words.json), else a clear failure."""
+    then Cartesia if the secret is set, then any pre-made voice/<id>_*.wav (+ _words.json), else a clear failure.
+    Every Cartesia script goes through the pronunciation pass first (core/pron.py: numbers as words, heteronym and name
+    phonemes, Hebrew nikud); voice/<id>_vo_pron.json keeps exactly what was sent."""
     vd = os.path.join(REPO, "voice"); os.makedirs(vd, exist_ok=True)
     vid = S.get("voice", {}).get("id")            # optional stock/other Cartesia voice id (default: Noam's clone)
-    lines = script_lines(S); h = script_hash(lines + ([f"voice:{vid}"] if vid else [])); pre = os.path.join(vd, f"{S['id']}_vo")
+    lines = script_lines(S); legacy = script_hash(lines + ([f"voice:{vid}"] if vid else [])); pre = os.path.join(vd, f"{S['id']}_vo")
+    plan, notes = pron_plan(S)
+    h = "p2:" + script_hash([f"{lg}|{v}|" + " ".join(c for _, c in pr) for _, lg, v, pr in plan])
     if os.path.exists(pre + ".wav") and os.path.exists(pre + "_words.json") and os.path.exists(pre + ".hash") \
-            and open(pre + ".hash").read().strip() == h:
+            and open(pre + ".hash").read().strip() in (h, legacy):
         return pre + ".wav", pre + "_words.json", "cached voice (script unchanged)"
     if os.environ.get("CARTESIA_API_KEY", "").strip() and not S.get("voice", {}).get("file"):
-        text = re.sub(r"\s+", " ", " ".join(DASH_RE.sub(",", l) for l in lines)).strip()
-        sec, n = cartesia(text, pre, S.get("voice", {}).get("lang", "en"), vid)
+        sec, n, info = cartesia_runs(S, plan, pre)
         open(pre + ".hash", "w").write(h)
-        return pre + ".wav", pre + "_words.json", f"Cartesia sonic-3 ({sec:.1f} s, {n} words)"
+        json.dump(dict(notes=notes, runs=info), open(pre + "_pron.json", "w"), indent=1, ensure_ascii=False)
+        for x in info: log(f"pron [{x['lang']}]:", x["text"][:400])
+        if notes: log("pron notes:", "; ".join(notes))
+        return pre + ".wav", pre + "_words.json", f"Cartesia sonic-3 ({sec:.1f} s, {n} words, {len(info)} run(s), pronunciation pass)"
     named = S.get("voice", {}).get("file")
     cands = [os.path.join(REPO, named)] if named else sorted(
         p for p in (os.path.join(vd, f) for f in os.listdir(vd)) if os.path.basename(p).startswith(S["id"] + "_") and p.endswith(".wav"))
@@ -342,6 +404,12 @@ def draw_subs(cv, CH, t, y=1612, sz=56):
     for txt, a, b in CH:
         if a - 0.05 <= t <= b:
             al = min(1, (t - (a - 0.05)) / 0.1) * min(1, (b - t) / 0.1 + 1e-4)
+            if re.search(r"[֐-׿]", txt):      # Hebrew (or mixed) subtitle: Heebo + bidi, right to left
+                s2 = sz; im = hebrew_img(txt, s2)
+                while im.shape[1] > 940 and s2 > 40: s2 -= 4; im = hebrew_img(txt, s2)
+                w = min(1000, im.shape[1] + 56)
+                cv.rrect(540 - w / 2, y - 48, w, 96, 28, "#0B1730", 0.82 * al, stroke=YEL, lw=2, sa=0.5 * al)
+                cv.image(im, 540, y, 1.0, al); return
             w = min(1000, cv.tw(txt, sz) + 56)
             cv.rrect(540 - w / 2, y - 48, w, 96, 28, "#0B1730", 0.82 * al, stroke=YEL, lw=2, sa=0.5 * al)
             cv.text(txt, 540, y, sz, WHITE, al, maxw=960, shadow=False)

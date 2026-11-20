@@ -122,7 +122,7 @@ jobs:
               '{id:$id, status:"FAILED", run:$run, log:.}' > "out/$ID.report.json"
           fi
           git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
-          for f in "out/$ID.mp4" "out/$ID.report.json" out/frames/${ID}_*.jpg "covers/${ID}_cover.jpg" "previews/${ID}_540.mp4" voice/${ID}_vo.wav voice/${ID}_vo_words.json voice/${ID}_vo.hash; do
+          for f in "out/$ID.mp4" "out/$ID.report.json" out/frames/${ID}_*.jpg "covers/${ID}_cover.jpg" "previews/${ID}_540.mp4" voice/${ID}_vo.wav voice/${ID}_vo_words.json voice/${ID}_vo.hash voice/${ID}_vo_pron.json; do
             if [ -f "$f" ]; then git add --sparse -f "$f"; fi
           done
           git -c gc.auto=0 commit -q -m "spec-render: $ID" || { echo "nothing to commit"; exit 0; }

@@ -1,0 +1,4 @@
+{
+ "_note": "Cartesia voice per language for core/common.py line_voice(). en = Noam's clone 'Noam Roz - reels'. he = the Hebrew voice (Noam's Hebrew clone 'Noam Roz - Hebrew' when it exists, else the best native Hebrew voice by the he-voice audition). A spec can override with voice.ids.",
+ "en": {"id": "cd06f613-0c92-4347-9b94-b34cb4a0239f", "name": "Noam Roz - reels"}
+}
