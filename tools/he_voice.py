@@ -142,9 +142,9 @@ def j_audition(J):
         if vid.endswith(".json"):                      # a clone made earlier in this run: read its id
             try: vid = json.load(open(os.path.join(OUT, vid)))["id"]
             except Exception as e: res.append(dict(voice=vid, error="no clone id: " + str(e)[:100])); continue
-        for nk in ([True, False] if J.get("both") else [J.get("nikud", True)]):
+        for nk in J.get("modes") or ([True, False] if J.get("both") else [J.get("nikud", True)]):
             pairs = PR.prepare(J["text"], "he", {"nikud": nk})
-            pre = os.path.join(OUT, f"aud_{k}{'' if nk else '_plain'}")
+            pre = os.path.join(OUT, f"{J.get('prefix', 'aud')}_{k}_{nk if isinstance(nk, str) else ('full' if nk else 'plain')}")
             try: sec, n = CM.cartesia(PR.tts_text(pairs), pre, "he", vid)
             except Exception as e: res.append(dict(voice=vid, nikud=nk, error=str(e)[:300])); continue
             segs, _ = model().transcribe(wav16(pre + ".wav"), language="he", beam_size=5)

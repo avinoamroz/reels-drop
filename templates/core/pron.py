@@ -13,7 +13,8 @@ Hebrew (lexicon templates/lexicon_he.json):
 Every original word of the spec ("say") maps to one TTS chunk (one or more words), so the spec text, subtitles and
 anchors stay exactly as written; regroup() folds Cartesia's word timestamps back onto the original words.
 Spec switches: "pron": {"off": true} (no pass), "pron": {"lex": {"word": "ˈ|w|ɜ|r|d"}} (extra English phonemes),
-"pron": {"nikud": false} (Hebrew without nikud); a line's "pron_off": true or "nikud": false applies to that line only.
+"pron": {"nikud": "lex" | "full" | "light" | "raw"} (Hebrew nikud mode, default "lex", see he_mode); a line's
+"pron_off": true or "nikud": <mode> applies to that line only.
 ElevenLabs is not used for TTS (Cartesia only since Oct 2026); el_alias() gives the ElevenLabs form if it comes back."""
 import os, re, json, unicodedata
 
@@ -325,8 +326,22 @@ def nakdan(text, timeout=40):
     return None
 
 
-def he_pass(text, use_nikud=True, notes=None):
-    """-> [(original word, tts chunk)]. Order: numbers -> lexicon -> nikud for the rest of the line."""
+LIGHT_STRIP = re.compile(r"[\u05B0\u05BC\u05BD\u05BF]")      # shva, dagesh/mapiq, meteg, rafe
+
+
+def he_mode(m):
+    """nikud mode: "lex" (default: plain text, nikud only on lexicon words and phrases), "full" (Dicta nikud on every
+    word), "light" (Dicta vowels without dagesh and shva), "raw" (no nikud at all, numbers still as words)"""
+    if m is True: return "full"
+    if m in (False, None, "off"): return "raw" if m is not None else "lex"
+    return m
+
+
+def he_pass(text, use_nikud="lex", notes=None):
+    """-> [(original word, tts chunk)]. Order: numbers -> lexicon -> Dicta nikud for the rest (modes "full"/"light").
+    Tested 20 Nov (hevoice/audition.json): Cartesia sonic-3 reads PLAIN Hebrew better than fully vowelised Hebrew
+    (every voice: plain 0.91 to 1.00 vs full nikud 0.70 to 0.82 word accuracy by Hebrew ASR), so the default is "lex"."""
+    mode = he_mode(use_nikud)
     L = lex("he"); WL = L.get("words", {}); masc = set(L.get("masc_nouns", []))
     toks = text.split(); out = []
     fixed = {}                                          # lexicon phrases: several words read together (context homographs)
@@ -343,11 +358,11 @@ def he_pass(text, use_nikud=True, notes=None):
         num = he_number(core, nxt, masc) if core else None
         key = NIKUD.sub("", core)
         if num: out.append([tok, a + num + b, "num"])
-        elif i in fixed: out.append([tok, a + fixed[i] + b, "lex"])
-        elif key in WL: out.append([tok, a + WL[key] + b, "lex"])
+        elif mode != "raw" and i in fixed: out.append([tok, a + fixed[i] + b, "lex"])
+        elif mode != "raw" and key in WL: out.append([tok, a + WL[key] + b, "lex"])
         elif not HEB.search(core) or NIKUD.search(core): out.append([tok, tok, "keep"])      # English word, digits, or already vowelised
         else: out.append([tok, tok, "auto"])
-    if use_nikud and any(k == "auto" for _, _, k in out):
+    if mode in ("full", "light") and any(k == "auto" for _, _, k in out):
         line = " ".join(c for _, c, _ in out)
         v = nakdan(line)
         vt = v.split() if v else []
@@ -355,9 +370,9 @@ def he_pass(text, use_nikud=True, notes=None):
             k = 0
             for o in out:
                 n = len(o[1].split())
-                if o[2] == "auto": o[1] = " ".join(vt[k:k + n])
+                if o[2] == "auto": o[1] = " ".join(vt[k:k + n]) if mode == "full" else LIGHT_STRIP.sub("", " ".join(vt[k:k + n]))
                 k += n
-            if notes is not None: notes.append("nikud: dicta")
+            if notes is not None: notes.append(f"nikud: dicta ({mode})")
         elif notes is not None:
             notes.append("nikud: FAILED (" + ("no answer" if not v else f"{len(vt)} vs {len(line.split())} words") + "), plain text sent")
     return [(o[0], o[1]) for o in out]
@@ -368,7 +383,7 @@ def prepare(text, lang="en", spec_pron=None, line=None, notes=None):
     P = spec_pron or {}; line = line or {}
     if P.get("off") or line.get("pron_off"): return [(t, t) for t in text.split()]
     if lang == "he":
-        return he_pass(text, use_nikud=P.get("nikud", True) and line.get("nikud", True), notes=notes)
+        return he_pass(text, use_nikud=line.get("nikud", P.get("nikud", "lex")), notes=notes)
     return en_pass(text, P.get("lex"), notes)
 
 

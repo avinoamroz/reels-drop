@@ -35,7 +35,7 @@ def run(S):
     if D.get("show_tts"):          # show the vowelised text the voice got (nikud lines), so the intended reading is visible
         plan, _ = pron_plan(S)
         for L, lg, v, pr in plan:
-            if lg == "he" and L.get("nikud", True) and not L.get("pron_off"): shown[id(L)] = " ".join(c for _, c in pr)
+            if lg == "he" and not L.get("pron_off"): shown[id(L)] = " ".join(c for _, c in pr)
     cards = []
     for i, L in enumerate(SAY):
         im, sz = card_imgs(L.get("screen") or shown.get(id(L)) or L["say"], SZ)
