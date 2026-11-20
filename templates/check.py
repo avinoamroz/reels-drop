@@ -46,7 +46,9 @@ def main_he(S, rp):
     import numpy as np
     from faster_whisper import WhisperModel
     import tempfile
-    R = json.load(open(rp)); T = json.load(open(os.path.join(tempfile.gettempdir(), "tpl_" + S["id"], "timing.json")))   # left by the render step (common.workdir); x = pcm(os.path.join(REPO, "out", f"{S['id']}.mp4"))
+    R = json.load(open(rp))
+    T = json.load(open(os.path.join(tempfile.gettempdir(), "tpl_" + S["id"], "timing.json")))   # left by the render step (common.workdir)
+    x = pcm(os.path.join(REPO, "out", f"{S['id']}.mp4"))
     SAY = [L for L in S["lines"] if L.get("say", "").strip()]
     nth = os.cpu_count() or 4
     mh = WhisperModel(HE_MODEL, device="cpu", compute_type="int8", cpu_threads=nth)
