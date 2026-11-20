@@ -1,46 +1,8 @@
 [
  {
-  "do": "audition",
-  "text": "נועם רז ייסד את אקספרס ב-2016. היום יש לנו 2,200 מתאמנים, ו-15% מהם סוגרים עסקה תוך 3 חודשים. שלחתי מייל עם פידבק לפני הדדליין בזום, והבוקר במדבר מדבר עם הפרות.",
-  "voices": [
-   "clone_15s.json",
-   "clone.json",
-   "431b7e77-b46d-4eda-8362-db430ac0913c"
-  ],
-  "names": {
-   "clone_15s.json": "Noam Roz - Hebrew 15s",
-   "clone.json": "Noam Roz - Hebrew (52 s)",
-   "431b7e77-b46d-4eda-8362-db430ac0913c": "Oren - Steady Advisor"
-  },
-  "modes": [
-   "full",
-   "light",
-   "lex",
-   "raw"
-  ],
-  "out": "audition_2a.json",
-  "prefix": "a2a"
- },
- {
-  "do": "audition",
-  "text": "הספר סיפר לי על הספר החדש שלו. שתיתי חלב, אבל לא אכלתי חלב. בבוקר המנהל ביקש ממני לסגור את העסקה עד יום חמישי.",
-  "voices": [
-   "clone_15s.json",
-   "clone.json",
-   "431b7e77-b46d-4eda-8362-db430ac0913c"
-  ],
-  "names": {
-   "clone_15s.json": "Noam Roz - Hebrew 15s",
-   "clone.json": "Noam Roz - Hebrew (52 s)",
-   "431b7e77-b46d-4eda-8362-db430ac0913c": "Oren - Steady Advisor"
-  },
-  "modes": [
-   "full",
-   "light",
-   "lex",
-   "raw"
-  ],
-  "out": "audition_2b.json",
-  "prefix": "a2b"
+  "do": "ipa",
+  "src": "out/he_read_test.mp4",
+  "words": "ה?ספר|סיפר|חלב|ה?בוקר",
+  "name": "read_test"
  }
 ]

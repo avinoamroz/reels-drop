@@ -7,7 +7,7 @@
  },
  "voice": {
   "lang": "he",
-  "tempo": 1.05,
+  "tempo": 1.0,
   "gap": 0.25,
   "maxpause": 0.25
  },
@@ -39,12 +39,22 @@
    "gap": 0.4
   },
   {
+   "say": "כלומר: יש לי יותר מדי על הצלחת.",
+   "lang": "he",
+   "gap": 0.4
+  },
+  {
    "say": "או, אם אפשר לדחות:",
    "lang": "he"
   },
   {
    "say": "Not this week, but maybe next week.",
    "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "אתם לא סוגרים את הדלת.",
+   "lang": "he",
    "gap": 0.4
   },
   {
@@ -55,6 +65,16 @@
    "say": "Which project should I put on hold?",
    "lang": "en",
    "gap": 0.6
+  },
+  {
+   "say": "המנהל מחליט, ואתם נשמעים מקצועיים.",
+   "lang": "he",
+   "gap": 0.5
+  },
+  {
+   "say": "וכך זה נשמע בצ'אט:",
+   "lang": "he",
+   "gap": 0.4
   },
   {
    "say": "Can you finish the report by Friday?",
@@ -92,33 +112,33 @@
    {
     "tag": "Not now",
     "text": "*Not this week,* but maybe next week.",
-    "at": "L5"
+    "at": "L6"
    },
    {
     "tag": "Most professional",
     "text": "Which project should I *put on hold?*",
-    "at": "L7"
+    "at": "L9"
    }
   ],
   "chat": [
    {
     "who": "them",
     "text": "Can you finish the report by Friday?",
-    "at": "L8"
+    "at": "L12"
    },
    {
     "who": "me",
     "text": "*My plate is full* this week. Monday?",
-    "at": "L9"
+    "at": "L13"
    },
    {
     "who": "them",
     "text": "Monday works.",
-    "at": "L10"
+    "at": "L14"
    }
   ],
   "save": {
-   "at": "L11"
+   "at": "L15"
   }
  },
  "caption_he": "המשפט השלישי גורם למנהל להגיד תודה, לא להתעצבן.\n\n3 דרכים להגיד לא באנגלית, בנימוס:\n1. I'd love to, but my plate is full. (יש לי יותר מדי על הצלחת)\n2. Not this week, but maybe next week. (לא עכשיו, אולי בהמשך)\n3. Which project should I put on hold? (איזה פרויקט לעצור?)\n\nאיזה מהם תגידו מחר? כתבו בתגובות.",

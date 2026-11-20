@@ -7,7 +7,7 @@
  },
  "voice": {
   "lang": "he",
-  "tempo": 1.05,
+  "tempo": 1.0,
   "gap": 0.25,
   "maxpause": 0.25
  },
@@ -39,12 +39,22 @@
    "gap": 0.4
   },
   {
+   "say": "עניתם, והחזרתם את הכדור.",
+   "lang": "he",
+   "gap": 0.4
+  },
+  {
    "say": "או, אם השבוע היה עמוס:",
    "lang": "he"
   },
   {
    "say": "Busy week, but a good one.",
    "lang": "en",
+   "gap": 0.4
+  },
+  {
+   "say": "כנה, אבל חיובי.",
+   "lang": "he",
    "gap": 0.4
   },
   {
@@ -55,6 +65,16 @@
    "say": "Any plans for the weekend?",
    "lang": "en",
    "gap": 0.6
+  },
+  {
+   "say": "שאלה קלה שפותחת שיחה אמיתית.",
+   "lang": "he",
+   "gap": 0.5
+  },
+  {
+   "say": "וכך זה נשמע בזום:",
+   "lang": "he",
+   "gap": 0.4
   },
   {
    "say": "Just a quiet one, maybe the park.",
@@ -88,28 +108,28 @@
    {
     "tag": "Busy week",
     "text": "*Busy week,* but a good one.",
-    "at": "L5"
+    "at": "L6"
    },
    {
     "tag": "Warm it up",
     "text": "Any *plans for the weekend?*",
-    "at": "L7"
+    "at": "L9"
    }
   ],
   "chat": [
    {
     "who": "them",
     "text": "Just a quiet one, maybe the park.",
-    "at": "L8"
+    "at": "L12"
    },
    {
     "who": "me",
     "text": "*Sounds perfect.* Shall we start?",
-    "at": "L9"
+    "at": "L13"
    }
   ],
   "save": {
-   "at": "L10"
+   "at": "L14"
   }
  },
  "caption_he": "הדקה הראשונה בזום קובעת איך תיגמר השיחה.\n\n3 משפטים לסמול טוק עם לקוח מחו\"ל:\n1. All good, thanks. How's London? (עונים ומחזירים שאלה)\n2. Busy week, but a good one. (כשהשבוע עמוס)\n3. Any plans for the weekend? (מחממים את השיחה)\n\nואז עוברים לעניין: Shall we start?\nשמרו את הסרטון לשיחה הבאה.",
