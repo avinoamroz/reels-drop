@@ -1,1 +1,2 @@
-dj_v2final_ctx phon/dj_v2final_ctx.wav WHOLE
+bl_pron_live voice/test_pron_live_vo.wav live|read
+bl_pron_names voice/test_pron_live_vo.wav Druze|Knesset|Neset|Hamas|IDF|record
