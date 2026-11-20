@@ -1746,21 +1746,12 @@
 "stage": 2
 },
 {
-"q": "What is Jerusalem's biggest park?",
-"a": "Gan Sacher",
-"w1": "HaYarkon Park",
-"w2": "Ramat Hanadiv",
-"src": "Jerusalem municipality",
-"step": 195,
-"stage": 2
-},
-{
 "q": "What is the name of Jerusalem's famous market?",
 "a": "Mahane Yehuda",
 "w1": "Carmel Market",
 "w2": "Levinsky",
 "src": "Jerusalem municipality",
-"step": 196,
+"step": 195,
 "stage": 2
 },
 {
@@ -1769,7 +1760,7 @@
 "w1": "Mahane Yehuda",
 "w2": "Talpiot",
 "src": "Tel Aviv municipality",
-"step": 197,
+"step": 196,
 "stage": 2
 },
 {
@@ -1778,7 +1769,7 @@
 "w1": "Shuk HaCarmel",
 "w2": "Shuk Levinsky",
 "src": "Tel Aviv municipality",
-"step": 198,
+"step": 197,
 "stage": 2
 },
 {
@@ -1787,7 +1778,7 @@
 "w1": "Three",
 "w2": "Six",
 "src": "Geography",
-"step": 199,
+"step": 198,
 "stage": 2
 },
 {
@@ -1796,7 +1787,7 @@
 "w1": "Jewish, Christian, Muslim, Druze",
 "w2": "North, South, East, West",
 "src": "Geography",
-"step": 200,
+"step": 199,
 "stage": 2
 },
 {
@@ -1805,8 +1796,8 @@
 "w1": "Twelve",
 "w2": "Four",
 "src": "Jerusalem municipality",
-"step": 201,
-"stage": 3
+"step": 200,
+"stage": 2
 },
 {
 "q": "Which Ottoman sultan built Jerusalem's current walls?",
@@ -1814,7 +1805,7 @@
 "w1": "Saladin",
 "w2": "Mehmed II",
 "src": "History",
-"step": 202,
+"step": 201,
 "stage": 3
 },
 {
@@ -1823,7 +1814,7 @@
 "w1": "The UN",
 "w2": "Britain",
 "src": "History",
-"step": 203,
+"step": 202,
 "stage": 3
 },
 {
@@ -1832,7 +1823,7 @@
 "w1": "The Protectorate",
 "w2": "The Dominion",
 "src": "League of Nations, 1922",
-"step": 204,
+"step": 203,
 "stage": 3
 },
 {
@@ -1841,7 +1832,7 @@
 "w1": "1945",
 "w2": "1939",
 "src": "History",
-"step": 205,
+"step": 204,
 "stage": 3
 },
 {
@@ -1850,7 +1841,7 @@
 "w1": "Persia",
 "w2": "Egypt",
 "src": "History",
-"step": 206,
+"step": 205,
 "stage": 3
 },
 {
@@ -1859,7 +1850,7 @@
 "w1": "1923",
 "w2": "1898",
 "src": "History",
-"step": 207,
+"step": 206,
 "stage": 3
 },
 {
@@ -1868,7 +1859,7 @@
 "w1": "Lawrence of Arabia",
 "w2": "Churchill",
 "src": "History",
-"step": 208,
+"step": 207,
 "stage": 3
 },
 {
@@ -1877,7 +1868,7 @@
 "w1": "A peace plan",
 "w2": "A census",
 "src": "British White Paper, 1939",
-"step": 209,
+"step": 208,
 "stage": 3
 },
 {
@@ -1886,7 +1877,7 @@
 "w1": "A cruise ship",
 "w2": "A warship",
 "src": "History",
-"step": 210,
+"step": 209,
 "stage": 3
 },
 {
@@ -1895,7 +1886,7 @@
 "w1": "A railway",
 "w2": "A river",
 "src": "Armistice Agreements, 1949",
-"step": 211,
+"step": 210,
 "stage": 3
 },
 {
@@ -1904,7 +1895,7 @@
 "w1": "The Negev",
 "w2": "The Galilee",
 "src": "Common usage",
-"step": 212,
+"step": 211,
 "stage": 3
 },
 {
@@ -1913,7 +1904,7 @@
 "w1": "1973",
 "w2": "1948",
 "src": "History",
-"step": 213,
+"step": 212,
 "stage": 3
 },
 {
@@ -1922,7 +1913,7 @@
 "w1": "1967",
 "w2": "1994",
 "src": "Golan Heights Law, 1981",
-"step": 214,
+"step": 213,
 "stage": 3
 },
 {
@@ -1931,7 +1922,7 @@
 "w1": "A Jewish sect",
 "w2": "A Christian order",
 "src": "Israel CBS",
-"step": 215,
+"step": 214,
 "stage": 3
 },
 {
@@ -1940,7 +1931,7 @@
 "w1": "No",
 "w2": "Only officers",
 "src": "Defense Service Law",
-"step": 216,
+"step": 215,
 "stage": 3
 },
 {
@@ -1949,7 +1940,7 @@
 "w1": "About 5 percent",
 "w2": "About 40 percent",
 "src": "Israel CBS",
-"step": 217,
+"step": 216,
 "stage": 3
 },
 {
@@ -1958,7 +1949,7 @@
 "w1": "About 5 million",
 "w2": "About 20 million",
 "src": "Israel CBS",
-"step": 218,
+"step": 217,
 "stage": 3
 },
 {
@@ -1967,7 +1958,7 @@
 "w1": "About 50 percent",
 "w2": "About 95 percent",
 "src": "Israel CBS",
-"step": 219,
+"step": 218,
 "stage": 3
 },
 {
@@ -1976,7 +1967,7 @@
 "w1": "Shimon Peres",
 "w2": "Ezer Weizman",
 "src": "Israeli courts",
-"step": 220,
+"step": 219,
 "stage": 3
 },
 {
@@ -1985,7 +1976,7 @@
 "w1": "No",
 "w2": "Only locally",
 "src": "Knesset",
-"step": 221,
+"step": 220,
 "stage": 3
 },
 {
@@ -1994,7 +1985,7 @@
 "w1": "No",
 "w2": "Only in 1949",
 "src": "Knesset",
-"step": 222,
+"step": 221,
 "stage": 3
 },
 {
@@ -2003,7 +1994,7 @@
 "w1": "A Jewish group",
 "w2": "A Christian order",
 "src": "Israel CBS",
-"step": 223,
+"step": 222,
 "stage": 3
 },
 {
@@ -2012,7 +2003,7 @@
 "w1": "Mira Awad",
 "w2": "Lucy Aharish",
 "src": "TV records",
-"step": 224,
+"step": 223,
 "stage": 3
 },
 {
@@ -2021,7 +2012,7 @@
 "w1": "Rana Raslan",
 "w2": "Mira Awad",
 "src": "Media records",
-"step": 225,
+"step": 224,
 "stage": 3
 },
 {
@@ -2030,7 +2021,7 @@
 "w1": "Lucy Aharish",
 "w2": "Mira Awad",
 "src": "Miss Israel, 1999",
-"step": 226,
+"step": 225,
 "stage": 3
 },
 {
@@ -2039,7 +2030,7 @@
 "w1": "Mimouna",
 "w2": "Saharana",
 "src": "Knesset law, 2008",
-"step": 227,
+"step": 226,
 "stage": 3
 },
 {
@@ -2048,7 +2039,7 @@
 "w1": "A fast day",
 "w2": "A wedding",
 "src": "Tradition",
-"step": 228,
+"step": 227,
 "stage": 3
 },
 {
@@ -2057,7 +2048,7 @@
 "w1": "Yemenite Jews",
 "w2": "Polish Jews",
 "src": "Operation Ezra and Nehemiah",
-"step": 229,
+"step": 228,
 "stage": 3
 },
 {
@@ -2066,7 +2057,7 @@
 "w1": "European Jews",
 "w2": "American Jews",
 "src": "Common usage",
-"step": 230,
+"step": 229,
 "stage": 3
 },
 {
@@ -2075,7 +2066,7 @@
 "w1": "Jews from Spain",
 "w2": "Jews from Yemen",
 "src": "Common usage",
-"step": 231,
+"step": 230,
 "stage": 3
 },
 {
@@ -2084,7 +2075,7 @@
 "w1": "Jews from Poland",
 "w2": "Jews from Iran",
 "src": "Common usage",
-"step": 232,
+"step": 231,
 "stage": 3
 },
 {
@@ -2093,7 +2084,7 @@
 "w1": "1290",
 "w2": "1648",
 "src": "History",
-"step": 233,
+"step": 232,
 "stage": 3
 },
 {
@@ -2102,7 +2093,7 @@
 "w1": "Ashkenazi Jews",
 "w2": "Ethiopian Jews",
 "src": "History",
-"step": 234,
+"step": 233,
 "stage": 3
 },
 {
@@ -2111,7 +2102,7 @@
 "w1": "Poland",
 "w2": "Germany",
 "src": "History",
-"step": 235,
+"step": 234,
 "stage": 3
 },
 {
@@ -2120,7 +2111,7 @@
 "w1": "Cyrus",
 "w2": "Darius",
 "src": "Hebrew Bible",
-"step": 236,
+"step": 235,
 "stage": 3
 },
 {
@@ -2129,7 +2120,7 @@
 "w1": "Xerxes",
 "w2": "Darius III",
 "src": "Cyrus Cylinder",
-"step": 237,
+"step": 236,
 "stage": 3
 },
 {
@@ -2138,7 +2129,7 @@
 "w1": "The Talmud only",
 "w2": "The Zohar",
 "src": "Tradition",
-"step": 238,
+"step": 237,
 "stage": 3
 },
 {
@@ -2147,7 +2138,7 @@
 "w1": "Ten",
 "w2": "Twelve",
 "src": "Tradition",
-"step": 239,
+"step": 238,
 "stage": 3
 },
 {
@@ -2156,7 +2147,7 @@
 "w1": "Gold coins",
 "w2": "A temple",
 "src": "Israel Museum",
-"step": 240,
+"step": 239,
 "stage": 3
 },
 {
@@ -2165,7 +2156,7 @@
 "w1": "The Louvre",
 "w2": "The British Museum",
 "src": "Israel Museum",
-"step": 241,
+"step": 240,
 "stage": 3
 },
 {
@@ -2174,7 +2165,7 @@
 "w1": "About 500 years",
 "w2": "About 5,000 years",
 "src": "Israel Museum",
-"step": 242,
+"step": 241,
 "stage": 3
 },
 {
@@ -2183,7 +2174,7 @@
 "w1": "Thank you",
 "w2": "Good luck",
 "src": "Hebrew",
-"step": 243,
+"step": 242,
 "stage": 3
 },
 {
@@ -2192,7 +2183,7 @@
 "w1": "Hello",
 "w2": "Sorry",
 "src": "Hebrew",
-"step": 244,
+"step": 243,
 "stage": 3
 },
 {
@@ -2201,7 +2192,7 @@
 "w1": "Good night",
 "w2": "Good luck",
 "src": "Hebrew",
-"step": 245,
+"step": 244,
 "stage": 3
 },
 {
@@ -2210,7 +2201,7 @@
 "w1": "Good morning",
 "w2": "Bon appetit",
 "src": "Hebrew",
-"step": 246,
+"step": 245,
 "stage": 3
 },
 {
@@ -2219,7 +2210,7 @@
 "w1": "To health",
 "w2": "To peace",
 "src": "Hebrew",
-"step": 247,
+"step": 246,
 "stage": 3
 },
 {
@@ -2228,7 +2219,7 @@
 "w1": "Stop",
 "w2": "Goodbye",
 "src": "Israeli slang",
-"step": 248,
+"step": 247,
 "stage": 3
 },
 {
@@ -2237,7 +2228,7 @@
 "w1": "Bad",
 "w2": "Expensive",
 "src": "Israeli slang",
-"step": 249,
+"step": 248,
 "stage": 3
 },
 {
@@ -2246,7 +2237,7 @@
 "w1": "A party",
 "w2": "A bank",
 "src": "Israeli slang",
-"step": 250,
+"step": 249,
 "stage": 3
 },
 {
@@ -2255,7 +2246,7 @@
 "w1": "Kindness",
 "w2": "Fear",
 "src": "Hebrew",
-"step": 251,
+"step": 250,
 "stage": 3
 },
 {
@@ -2264,7 +2255,7 @@
 "w1": "English",
 "w2": "French",
 "src": "History",
-"step": 252,
+"step": 251,
 "stage": 3
 },
 {
@@ -2273,7 +2264,7 @@
 "w1": "About 500 years",
 "w2": "About 1,000 years",
 "src": "Academy of the Hebrew Language",
-"step": 253,
+"step": 252,
 "stage": 3
 },
 {
@@ -2282,7 +2273,7 @@
 "w1": "26",
 "w2": "28",
 "src": "Hebrew",
-"step": 254,
+"step": 253,
 "stage": 3
 },
 {
@@ -2291,7 +2282,7 @@
 "w1": "Left to right",
 "w2": "Top to bottom",
 "src": "Hebrew",
-"step": 255,
+"step": 254,
 "stage": 3
 },
 {
@@ -2300,7 +2291,7 @@
 "w1": "Land of milk",
 "w2": "Promised land",
 "src": "Genesis 32",
-"step": 256,
+"step": 255,
 "stage": 3
 },
 {
@@ -2309,7 +2300,7 @@
 "w1": "Abraham",
 "w2": "Moses",
 "src": "Genesis 32",
-"step": 257,
+"step": 256,
 "stage": 3
 },
 {
@@ -2318,7 +2309,7 @@
 "w1": "Ten",
 "w2": "Seven",
 "src": "Hebrew Bible",
-"step": 258,
+"step": 257,
 "stage": 3
 },
 {
@@ -2327,7 +2318,7 @@
 "w1": "Hebron",
 "w2": "Shiloh",
 "src": "Hebrew Bible",
-"step": 259,
+"step": 258,
 "stage": 3
 },
 {
@@ -2336,7 +2327,7 @@
 "w1": "About 1,500 years",
 "w2": "About 5,000 years",
 "src": "Archaeology",
-"step": 260,
+"step": 259,
 "stage": 3
 },
 {
@@ -2345,7 +2336,7 @@
 "w1": "A sword",
 "w2": "A statue",
 "src": "Israel Museum",
-"step": 261,
+"step": 260,
 "stage": 3
 },
 {
@@ -2354,7 +2345,7 @@
 "w1": "A candle shop",
 "w2": "A bank",
 "src": "Knesset",
-"step": 262,
+"step": 261,
 "stage": 3
 },
 {
@@ -2363,7 +2354,7 @@
 "w1": "The US Congress",
 "w2": "France",
 "src": "Knesset, 1956",
-"step": 263,
+"step": 262,
 "stage": 3
 },
 {
@@ -2372,7 +2363,7 @@
 "w1": "The Knesset",
 "w2": "The Rabbinate",
 "src": "Judiciary",
-"step": 264,
+"step": 263,
 "stage": 3
 },
 {
@@ -2381,7 +2372,7 @@
 "w1": "Presidential republic",
 "w2": "Monarchy",
 "src": "Basic Laws",
-"step": 265,
+"step": 264,
 "stage": 3
 },
 {
@@ -2390,7 +2381,7 @@
 "w1": "The president",
 "w2": "The king",
 "src": "Basic Laws",
-"step": 266,
+"step": 265,
 "stage": 3
 },
 {
@@ -2399,7 +2390,7 @@
 "w1": "Head of the army",
 "w2": "Head of government",
 "src": "Basic Laws",
-"step": 267,
+"step": 266,
 "stage": 3
 },
 {
@@ -2408,7 +2399,7 @@
 "w1": "Yes, since 1948",
 "w2": "Yes, since 1995",
 "src": "Knesset",
-"step": 268,
+"step": 267,
 "stage": 3
 },
 {
@@ -2417,7 +2408,7 @@
 "w1": "5 percent",
 "w2": "1 percent",
 "src": "Knesset Elections Law",
-"step": 269,
+"step": 268,
 "stage": 3
 },
 {
@@ -2426,7 +2417,7 @@
 "w1": "16",
 "w2": "21",
 "src": "Knesset Elections Law",
-"step": 270,
+"step": 269,
 "stage": 3
 },
 {
@@ -2435,7 +2426,7 @@
 "w1": "Red Crescent",
 "w2": "Zaka",
 "src": "MDA",
-"step": 271,
+"step": 270,
 "stage": 3
 },
 {
@@ -2444,7 +2435,7 @@
 "w1": "A red cross",
 "w2": "A red crescent",
 "src": "MDA",
-"step": 272,
+"step": 271,
 "stage": 3
 },
 {
@@ -2453,7 +2444,7 @@
 "w1": "Zaka",
 "w2": "MDA only",
 "src": "United Hatzalah",
-"step": 273,
+"step": 272,
 "stage": 3
 },
 {
@@ -2462,7 +2453,7 @@
 "w1": "Builds tanks",
 "w2": "Runs schools",
 "src": "IsraAID",
-"step": 274,
+"step": 273,
 "stage": 3
 },
 {
@@ -2471,7 +2462,7 @@
 "w1": "US Navy",
 "w2": "UN only",
 "src": "IDF",
-"step": 275,
+"step": 274,
 "stage": 3
 },
 {
@@ -2480,7 +2471,7 @@
 "w1": "Iran",
 "w2": "Japan",
 "src": "IDF Home Front Command",
-"step": 276,
+"step": 275,
 "stage": 3
 },
 {
@@ -2489,7 +2480,7 @@
 "w1": "Builds schools",
 "w2": "Plants trees",
 "src": "Save a Child's Heart",
-"step": 277,
+"step": 276,
 "stage": 3
 },
 {
@@ -2498,7 +2489,7 @@
 "w1": "Ichilov",
 "w2": "Hadassah only",
 "src": "Operation Good Neighbor",
-"step": 278,
+"step": 277,
 "stage": 3
 },
 {
@@ -2507,7 +2498,7 @@
 "w1": "A war",
 "w2": "A trade deal",
 "src": "IDF, 2016 to 2018",
-"step": 279,
+"step": 278,
 "stage": 3
 },
 {
@@ -2516,16 +2507,16 @@
 "w1": "Building airports",
 "w2": "Banking",
 "src": "KKL-JNF",
-"step": 280,
+"step": 279,
 "stage": 3
 },
 {
 "q": "About how many trees has KKL-JNF planted?",
-"a": "Over 250 million",
+"a": "Over 240 million",
 "w1": "About 1 million",
 "w2": "About 10,000",
 "src": "KKL-JNF",
-"step": 281,
+"step": 280,
 "stage": 3
 },
 {
@@ -2534,7 +2525,7 @@
 "w1": "No",
 "w2": "Unknown",
 "src": "KKL-JNF",
-"step": 282,
+"step": 281,
 "stage": 3
 },
 {
@@ -2543,7 +2534,7 @@
 "w1": "Eytan Stibbe",
 "w2": "Moshe Arens",
 "src": "NASA",
-"step": 283,
+"step": 282,
 "stage": 3
 },
 {
@@ -2552,7 +2543,7 @@
 "w1": "Challenger",
 "w2": "Atlantis",
 "src": "NASA, 2003",
-"step": 284,
+"step": 283,
 "stage": 3
 },
 {
@@ -2561,7 +2552,7 @@
 "w1": "Ilan Ramon",
 "w2": "Ofer Ben-Ami",
 "src": "Axiom, 2022",
-"step": 285,
+"step": 284,
 "stage": 3
 },
 {
@@ -2570,7 +2561,7 @@
 "w1": "A satellite TV channel",
 "w2": "A missile",
 "src": "SpaceIL, 2019",
-"step": 286,
+"step": 285,
 "stage": 3
 },
 {
@@ -2579,7 +2570,7 @@
 "w1": "Yes",
 "w2": "It never launched",
 "src": "SpaceIL, 2019",
-"step": 287,
+"step": 286,
 "stage": 3
 },
 {
@@ -2588,7 +2579,7 @@
 "w1": "Amos-1",
 "w2": "Eros",
 "src": "Israel Space Agency",
-"step": 288,
+"step": 287,
 "stage": 3
 },
 {
@@ -2597,7 +2588,7 @@
 "w1": "Sergeant",
 "w2": "Major",
 "src": "IDF",
-"step": 289,
+"step": 288,
 "stage": 3
 },
 {
@@ -2606,7 +2597,7 @@
 "w1": "The Field Marshal",
 "w2": "The Defence Minister",
 "src": "IDF",
-"step": 290,
+"step": 289,
 "stage": 3
 },
 {
@@ -2615,7 +2606,7 @@
 "w1": "A tank",
 "w2": "A medal",
 "src": "IDF",
-"step": 291,
+"step": 290,
 "stage": 3
 },
 {
@@ -2624,7 +2615,7 @@
 "w1": "About 12 months",
 "w2": "About 5 years",
 "src": "Defense Service Law",
-"step": 292,
+"step": 291,
 "stage": 3
 },
 {
@@ -2633,7 +2624,7 @@
 "w1": "Basic training",
 "w2": "A holiday",
 "src": "IDF",
-"step": 293,
+"step": 292,
 "stage": 3
 },
 {
@@ -2642,7 +2633,7 @@
 "w1": "A tank brigade",
 "w2": "A navy unit",
 "src": "IDF",
-"step": 294,
+"step": 293,
 "stage": 3
 },
 {
@@ -2651,7 +2642,7 @@
 "w1": "Givati",
 "w2": "Paratroopers",
 "src": "IDF",
-"step": 295,
+"step": 294,
 "stage": 3
 },
 {
@@ -2660,7 +2651,7 @@
 "w1": "Golani",
 "w2": "Nahal",
 "src": "IDF",
-"step": 296,
+"step": 295,
 "stage": 3
 },
 {
@@ -2669,7 +2660,7 @@
 "w1": "Golani",
 "w2": "Kfir",
 "src": "IDF",
-"step": 297,
+"step": 296,
 "stage": 3
 },
 {
@@ -2678,7 +2669,7 @@
 "w1": "Navy divers",
 "w2": "Pilots",
 "src": "IDF",
-"step": 298,
+"step": 297,
 "stage": 3
 },
 {
@@ -2687,7 +2678,7 @@
 "w1": "Alice Miller",
 "w2": "Golda Meir",
 "src": "IAF, 2001",
-"step": 299,
+"step": 298,
 "stage": 3
 },
 {
@@ -2696,7 +2687,7 @@
 "w1": "Roni Zuckerman",
 "w2": "Ayelet Shaked",
 "src": "High Court, 1995",
-"step": 300,
+"step": 299,
 "stage": 3
 },
 {
@@ -2705,8 +2696,8 @@
 "w1": "A music festival",
 "w2": "A rescue",
 "src": "History",
-"step": 301,
-"stage": 4
+"step": 300,
+"stage": 3
 },
 {
 "q": "Which reactor did Israel strike in Syria in 2007?",
@@ -2714,7 +2705,7 @@
 "w1": "Osirak",
 "w2": "Natanz",
 "src": "History",
-"step": 302,
+"step": 301,
 "stage": 4
 },
 {
@@ -2723,7 +2714,7 @@
 "w1": "A UN vote",
 "w2": "An earthquake",
 "src": "History",
-"step": 303,
+"step": 302,
 "stage": 4
 },
 {
@@ -2732,7 +2723,7 @@
 "w1": "Ariel Sharon",
 "w2": "Yitzhak Rabin",
 "src": "History",
-"step": 304,
+"step": 303,
 "stage": 4
 },
 {
@@ -2741,7 +2732,7 @@
 "w1": "Moshe Dayan",
 "w2": "Ehud Barak",
 "src": "History",
-"step": 305,
+"step": 304,
 "stage": 4
 },
 {
@@ -2750,7 +2741,7 @@
 "w1": "Levi Eshkol",
 "w2": "Menachem Begin",
 "src": "History",
-"step": 306,
+"step": 305,
 "stage": 4
 },
 {
@@ -2759,7 +2750,7 @@
 "w1": "Passover",
 "w2": "Hanukkah",
 "src": "History",
-"step": 307,
+"step": 306,
 "stage": 4
 },
 {
@@ -2768,7 +2759,7 @@
 "w1": "Moshe Dayan",
 "w2": "Rafael Eitan",
 "src": "History",
-"step": 308,
+"step": 307,
 "stage": 4
 },
 {
@@ -2777,7 +2768,7 @@
 "w1": "Yitzhak Shamir",
 "w2": "Shimon Peres",
 "src": "History",
-"step": 309,
+"step": 308,
 "stage": 4
 },
 {
@@ -2786,7 +2777,7 @@
 "w1": "Golan",
 "w2": "Gaza",
 "src": "Treaty, 1979",
-"step": 310,
+"step": 309,
 "stage": 4
 },
 {
@@ -2795,7 +2786,7 @@
 "w1": "1979",
 "w2": "1990",
 "src": "History",
-"step": 311,
+"step": 310,
 "stage": 4
 },
 {
@@ -2804,7 +2795,7 @@
 "w1": "1985",
 "w2": "2006",
 "src": "History",
-"step": 312,
+"step": 311,
 "stage": 4
 },
 {
@@ -2813,7 +2804,7 @@
 "w1": "2000",
 "w2": "2012",
 "src": "History",
-"step": 313,
+"step": 312,
 "stage": 4
 },
 {
@@ -2822,7 +2813,7 @@
 "w1": "HAMAS",
 "w2": "ISIS",
 "src": "History",
-"step": 314,
+"step": 313,
 "stage": 4
 },
 {
@@ -2831,7 +2822,7 @@
 "w1": "A Norway trade deal",
 "w2": "A ceasefire with Syria",
 "src": "Oslo Accords, 1993",
-"step": 315,
+"step": 314,
 "stage": 4
 },
 {
@@ -2840,7 +2831,7 @@
 "w1": "1979",
 "w2": "2000",
 "src": "Oslo Accords, 1993",
-"step": 316,
+"step": 315,
 "stage": 4
 },
 {
@@ -2849,7 +2840,7 @@
 "w1": "Begin and Sadat",
 "w2": "Peres and Mubarak",
 "src": "History",
-"step": 317,
+"step": 316,
 "stage": 4
 },
 {
@@ -2858,7 +2849,7 @@
 "w1": "Nothing",
 "w2": "Only Gaza",
 "src": "Clinton parameters",
-"step": 318,
+"step": 317,
 "stage": 4
 },
 {
@@ -2867,7 +2858,7 @@
 "w1": "Yes",
 "w2": "He asked for time and signed",
 "src": "History",
-"step": 319,
+"step": 318,
 "stage": 4
 },
 {
@@ -2876,7 +2867,7 @@
 "w1": "Yes",
 "w2": "He signed it",
 "src": "History",
-"step": 320,
+"step": 319,
 "stage": 4
 },
 {
@@ -2885,7 +2876,7 @@
 "w1": "A single state",
 "w2": "Independence for Jordan",
 "src": "Peel Commission, 1937",
-"step": 321,
+"step": 320,
 "stage": 4
 },
 {
@@ -2894,7 +2885,7 @@
 "w1": "Accepted it",
 "w2": "Abstained",
 "src": "UN records",
-"step": 322,
+"step": 321,
 "stage": 4
 },
 {
@@ -2903,7 +2894,7 @@
 "w1": "Egypt",
 "w2": "Syria",
 "src": "History",
-"step": 323,
+"step": 322,
 "stage": 4
 },
 {
@@ -2912,7 +2903,7 @@
 "w1": "Jordan",
 "w2": "Britain",
 "src": "History",
-"step": 324,
+"step": 323,
 "stage": 4
 },
 {
@@ -2921,7 +2912,7 @@
 "w1": "Yes",
 "w2": "Only on holidays",
 "src": "History",
-"step": 325,
+"step": 324,
 "stage": 4
 },
 {
@@ -2930,7 +2921,7 @@
 "w1": "None",
 "w2": "One",
 "src": "History",
-"step": 326,
+"step": 325,
 "stage": 4
 },
 {
@@ -2939,7 +2930,7 @@
 "w1": "A museum in Tel Aviv",
 "w2": "A school",
 "src": "Jewish Quarter Development Co.",
-"step": 327,
+"step": 326,
 "stage": 4
 },
 {
@@ -2948,7 +2939,7 @@
 "w1": "A mall",
 "w2": "A park in Tel Aviv",
 "src": "Ammunition Hill Memorial",
-"step": 328,
+"step": 327,
 "stage": 4
 },
 {
@@ -2957,7 +2948,7 @@
 "w1": "A beach",
 "w2": "A port",
 "src": "Yad La-Shiryon",
-"step": 329,
+"step": 328,
 "stage": 4
 },
 {
@@ -2966,7 +2957,7 @@
 "w1": "A shopping street",
 "w2": "A railway",
 "src": "History",
-"step": 330,
+"step": 329,
 "stage": 4
 },
 {
@@ -2975,7 +2966,7 @@
 "w1": "Moshe Dayan",
 "w2": "Ariel Sharon",
 "src": "History",
-"step": 331,
+"step": 330,
 "stage": 4
 },
 {
@@ -2984,7 +2975,7 @@
 "w1": "A political party only",
 "w2": "A bank",
 "src": "History",
-"step": 332,
+"step": 331,
 "stage": 4
 },
 {
@@ -2993,7 +2984,7 @@
 "w1": "Ben-Gurion",
 "w2": "Yitzhak Shamir",
 "src": "History",
-"step": 333,
+"step": 332,
 "stage": 4
 },
 {
@@ -3002,7 +2993,7 @@
 "w1": "Independence Day",
 "w2": "Holocaust Day",
 "src": "Knesset law",
-"step": 334,
+"step": 333,
 "stage": 4
 },
 {
@@ -3011,7 +3002,7 @@
 "w1": "Fireworks",
 "w2": "A parade",
 "src": "Tradition",
-"step": 335,
+"step": 334,
 "stage": 4
 },
 {
@@ -3020,7 +3011,7 @@
 "w1": "Yom Kippur",
 "w2": "Purim",
 "src": "Knesset law",
-"step": 336,
+"step": 335,
 "stage": 4
 },
 {
@@ -3029,7 +3020,7 @@
 "w1": "Memorial Day",
 "w2": "Jerusalem Day",
 "src": "Knesset law",
-"step": 337,
+"step": 336,
 "stage": 4
 },
 {
@@ -3038,7 +3029,7 @@
 "w1": "Independence Day",
 "w2": "New Year",
 "src": "Knesset law",
-"step": 338,
+"step": 337,
 "stage": 4
 },
 {
@@ -3047,7 +3038,7 @@
 "w1": "The Day of Atonement",
 "w2": "A harvest festival",
 "src": "Tradition",
-"step": 339,
+"step": 338,
 "stage": 4
 },
 {
@@ -3056,7 +3047,7 @@
 "w1": "The New Year",
 "w2": "The Festival of Lights",
 "src": "Tradition",
-"step": 340,
+"step": 339,
 "stage": 4
 },
 {
@@ -3065,7 +3056,7 @@
 "w1": "Traffic jams",
 "w2": "Parades",
 "src": "Common practice",
-"step": 341,
+"step": 340,
 "stage": 4
 },
 {
@@ -3074,7 +3065,7 @@
 "w1": "The Festival of Lights",
 "w2": "The New Year",
 "src": "Tradition",
-"step": 342,
+"step": 341,
 "stage": 4
 },
 {
@@ -3083,7 +3074,7 @@
 "w1": "A candle",
 "w2": "A prayer",
 "src": "Tradition",
-"step": 343,
+"step": 342,
 "stage": 4
 },
 {
@@ -3092,7 +3083,7 @@
 "w1": "Fasting",
 "w2": "Lighting candles",
 "src": "Tradition",
-"step": 344,
+"step": 343,
 "stage": 4
 },
 {
@@ -3101,7 +3092,7 @@
 "w1": "Pita",
 "w2": "Challah",
 "src": "Tradition",
-"step": 345,
+"step": 344,
 "stage": 4
 },
 {
@@ -3110,7 +3101,7 @@
 "w1": "The Kiddush",
 "w2": "The Havdalah",
 "src": "Tradition",
-"step": 346,
+"step": 345,
 "stage": 4
 },
 {
@@ -3119,7 +3110,7 @@
 "w1": "Fasting",
 "w2": "Costumes",
 "src": "Tradition",
-"step": 347,
+"step": 346,
 "stage": 4
 },
 {
@@ -3128,7 +3119,7 @@
 "w1": "A fast",
 "w2": "A memorial",
 "src": "Tradition",
-"step": 348,
+"step": 347,
 "stage": 4
 },
 {
@@ -3137,7 +3128,7 @@
 "w1": "Fireworks only",
 "w2": "Fasting",
 "src": "Tradition",
-"step": 349,
+"step": 348,
 "stage": 4
 },
 {
@@ -3146,7 +3137,7 @@
 "w1": "A fast",
 "w2": "New Year",
 "src": "Tradition",
-"step": 350,
+"step": 349,
 "stage": 4
 },
 {
@@ -3155,7 +3146,7 @@
 "w1": "A soup",
 "w2": "A dance",
 "src": "Tradition",
-"step": 351,
+"step": 350,
 "stage": 4
 },
 {
@@ -3164,7 +3155,7 @@
 "w1": "Spicy",
 "w2": "Cheap",
 "src": "Tradition",
-"step": 352,
+"step": 351,
 "stage": 4
 },
 {
@@ -3173,7 +3164,7 @@
 "w1": "Only pancakes",
 "w2": "Only cereal",
 "src": "Food",
-"step": 353,
+"step": 352,
 "stage": 4
 },
 {
@@ -3182,7 +3173,7 @@
 "w1": "A drink",
 "w2": "A bread",
 "src": "Strauss",
-"step": 354,
+"step": 353,
 "stage": 4
 },
 {
@@ -3191,7 +3182,7 @@
 "w1": "Brie",
 "w2": "Feta",
 "src": "Tnuva",
-"step": 355,
+"step": 354,
 "stage": 4
 },
 {
@@ -3200,7 +3191,7 @@
 "w1": "Taxes",
 "w2": "Rent only",
 "src": "History",
-"step": 356,
+"step": 355,
 "stage": 4
 },
 {
@@ -3209,7 +3200,7 @@
 "w1": "A soup",
 "w2": "A salad",
 "src": "Food",
-"step": 357,
+"step": 356,
 "stage": 4
 },
 {
@@ -3218,7 +3209,7 @@
 "w1": "A dessert",
 "w2": "A drink",
 "src": "Food",
-"step": 358,
+"step": 357,
 "stage": 4
 },
 {
@@ -3227,7 +3218,7 @@
 "w1": "A soup",
 "w2": "A cake",
 "src": "Food",
-"step": 359,
+"step": 358,
 "stage": 4
 },
 {
@@ -3236,7 +3227,7 @@
 "w1": "Pork",
 "w2": "Fish",
 "src": "Food",
-"step": 360,
+"step": 359,
 "stage": 4
 },
 {
@@ -3245,7 +3236,7 @@
 "w1": "Chickpeas",
 "w2": "Peanuts",
 "src": "Food",
-"step": 361,
+"step": 360,
 "stage": 4
 },
 {
@@ -3254,7 +3245,7 @@
 "w1": "A drink",
 "w2": "A pastry",
 "src": "Food",
-"step": 362,
+"step": 361,
 "stage": 4
 },
 {
@@ -3263,7 +3254,7 @@
 "w1": "A dance",
 "w2": "A cheese",
 "src": "Food",
-"step": 363,
+"step": 362,
 "stage": 4
 },
 {
@@ -3272,7 +3263,7 @@
 "w1": "Eyal Shani",
 "w2": "Michael Solomonov",
 "src": "Cookbook credits",
-"step": 364,
+"step": 363,
 "stage": 4
 },
 {
@@ -3281,7 +3272,7 @@
 "w1": "Ottolenghi",
 "w2": "Meir Adoni",
 "src": "Miznon",
-"step": 365,
+"step": 364,
 "stage": 4
 },
 {
@@ -3290,7 +3281,7 @@
 "w1": "The Negev only",
 "w2": "Eilat",
 "src": "Golan Heights Winery",
-"step": 366,
+"step": 365,
 "stage": 4
 },
 {
@@ -3299,7 +3290,7 @@
 "w1": "No",
 "w2": "Only grapes for juice",
 "src": "Negev wineries",
-"step": 367,
+"step": 366,
 "stage": 4
 },
 {
@@ -3308,7 +3299,7 @@
 "w1": "Coffee",
 "w2": "Tea",
 "src": "Archaeology",
-"step": 368,
+"step": 367,
 "stage": 4
 },
 {
@@ -3317,7 +3308,7 @@
 "w1": "Espresso",
 "w2": "Filter",
 "src": "Common usage",
-"step": 369,
+"step": 368,
 "stage": 4
 },
 {
@@ -3326,7 +3317,7 @@
 "w1": "Sand",
 "w2": "Black",
 "src": "Hebrew",
-"step": 370,
+"step": 369,
 "stage": 4
 },
 {
@@ -3335,7 +3326,7 @@
 "w1": "Starbucks",
 "w2": "Costa",
 "src": "Aroma",
-"step": 371,
+"step": 370,
 "stage": 4
 },
 {
@@ -3344,7 +3335,7 @@
 "w1": "Yes",
 "w2": "It never opened",
 "src": "History",
-"step": 372,
+"step": 371,
 "stage": 4
 },
 {
@@ -3353,7 +3344,7 @@
 "w1": "Zara",
 "w2": "Castro",
 "src": "Gottex",
-"step": 373,
+"step": 372,
 "stage": 4
 },
 {
@@ -3362,7 +3353,7 @@
 "w1": "Noa",
 "w2": "Rita",
 "src": "Music history",
-"step": 374,
+"step": 373,
 "stage": 4
 },
 {
@@ -3371,7 +3362,7 @@
 "w1": "Noa Kirel",
 "w2": "Eden Golan",
 "src": "Eurovision",
-"step": 375,
+"step": 374,
 "stage": 4
 },
 {
@@ -3380,16 +3371,16 @@
 "w1": "Yo-Yo Ma",
 "w2": "Joshua Bell",
 "src": "Biography",
-"step": 376,
+"step": 375,
 "stage": 4
 },
 {
-"q": "Which Israeli conductor led the Israel Philharmonic for decades?",
+"q": "Which conductor led the Israel Philharmonic for about 50 years?",
 "a": "Zubin Mehta",
 "w1": "Leonard Bernstein",
 "w2": "Daniel Barenboim",
 "src": "IPO",
-"step": 377,
+"step": 376,
 "stage": 4
 },
 {
@@ -3398,7 +3389,7 @@
 "w1": "Hatikvah",
 "w2": "Hava Nagila",
 "src": "Naomi Shemer, 1967",
-"step": 378,
+"step": 377,
 "stage": 4
 },
 {
@@ -3407,7 +3398,7 @@
 "w1": "Arik Einstein",
 "w2": "Ehud Manor",
 "src": "Music history",
-"step": 379,
+"step": 378,
 "stage": 4
 },
 {
@@ -3416,7 +3407,7 @@
 "w1": "A physicist",
 "w2": "A general",
 "src": "Music history",
-"step": 380,
+"step": 379,
 "stage": 4
 },
 {
@@ -3425,7 +3416,7 @@
 "w1": "Naomi Shemer",
 "w2": "Shalom Hanoch",
 "src": "Music history",
-"step": 381,
+"step": 380,
 "stage": 4
 },
 {
@@ -3434,7 +3425,7 @@
 "w1": "I love my country",
 "w2": "My land of gold",
 "src": "Music history",
-"step": 382,
+"step": 381,
 "stage": 4
 },
 {
@@ -3443,7 +3434,7 @@
 "w1": "David Grossman",
 "w2": "Etgar Keret",
 "src": "Literature",
-"step": 383,
+"step": 382,
 "stage": 4
 },
 {
@@ -3452,7 +3443,7 @@
 "w1": "Amos Oz",
 "w2": "Daniel Kahneman",
 "src": "Book credits",
-"step": 384,
+"step": 383,
 "stage": 4
 },
 {
@@ -3461,7 +3452,7 @@
 "w1": "Dan Ariely",
 "w2": "Harari",
 "src": "Book credits",
-"step": 385,
+"step": 384,
 "stage": 4
 },
 {
@@ -3470,7 +3461,7 @@
 "w1": "David Grossman",
 "w2": "A. B. Yehoshua",
 "src": "Literature",
-"step": 386,
+"step": 385,
 "stage": 4
 },
 {
@@ -3479,7 +3470,7 @@
 "w1": "Amos Oz",
 "w2": "Etgar Keret",
 "src": "Booker Prize",
-"step": 387,
+"step": 386,
 "stage": 4
 },
 {
@@ -3488,7 +3479,7 @@
 "w1": "The Oscar",
 "w2": "The Golden Lion",
 "src": "Israeli Film Academy",
-"step": 388,
+"step": 387,
 "stage": 4
 },
 {
@@ -3497,7 +3488,7 @@
 "w1": "Footnote",
 "w2": "Beaufort only",
 "src": "Academy Awards",
-"step": 389,
+"step": 388,
 "stage": 4
 },
 {
@@ -3506,7 +3497,7 @@
 "w1": "Comedy",
 "w2": "Musical",
 "src": "Film credits",
-"step": 390,
+"step": 389,
 "stage": 4
 },
 {
@@ -3515,7 +3506,7 @@
 "w1": "Fauda",
 "w2": "Hostages",
 "src": "Apple TV",
-"step": 391,
+"step": 390,
 "stage": 4
 },
 {
@@ -3524,7 +3515,7 @@
 "w1": "Gal Gadot",
 "w2": "Ayelet Zurer",
 "src": "Netflix",
-"step": 392,
+"step": 391,
 "stage": 4
 },
 {
@@ -3533,16 +3524,7 @@
 "w1": "Gal Gadot",
 "w2": "Esti Ginzburg",
 "src": "Media",
-"step": 393,
-"stage": 4
-},
-{
-"q": "What is the most visited museum in Israel?",
-"a": "The Israel Museum",
-"w1": "Yad Vashem",
-"w2": "The Tel Aviv Museum",
-"src": "Ministry of Tourism",
-"step": 394,
+"step": 392,
 "stage": 4
 },
 {
@@ -3551,7 +3533,7 @@
 "w1": "Israel Museum",
 "w2": "Eretz Israel Museum",
 "src": "ANU",
-"step": 395,
+"step": 393,
 "stage": 4
 },
 {
@@ -3560,7 +3542,7 @@
 "w1": "Very few",
 "w2": "Average",
 "src": "ICOM",
-"step": 396,
+"step": 394,
 "stage": 4
 },
 {
@@ -3569,7 +3551,7 @@
 "w1": "Thousands",
 "w2": "Hundreds",
 "src": "Israel Airports Authority",
-"step": 397,
+"step": 395,
 "stage": 4
 },
 {
@@ -3578,7 +3560,7 @@
 "w1": "Iceland",
 "w2": "Russia",
 "src": "Common usage",
-"step": 398,
+"step": 396,
 "stage": 4
 },
 {
@@ -3587,7 +3569,7 @@
 "w1": "A train line",
 "w2": "A highway",
 "src": "Israel Trail Committee",
-"step": 399,
+"step": 397,
 "stage": 4
 },
 {
@@ -3596,7 +3578,7 @@
 "w1": "Haifa to Tel Aviv",
 "w2": "Jerusalem to Eilat",
 "src": "Israel Trail Committee",
-"step": 400,
+"step": 398,
 "stage": 4
 },
 {
@@ -3605,8 +3587,8 @@
 "w1": "A hiking trail",
 "w2": "A railway",
 "src": "Cross Israel Highway",
-"step": 401,
-"stage": 5
+"step": 399,
+"stage": 4
 },
 {
 "q": "What is the fast train between Tel Aviv and Jerusalem?",
@@ -3614,8 +3596,8 @@
 "w1": "The Orient Express",
 "w2": "The Red Line",
 "src": "Israel Railways",
-"step": 402,
-"stage": 5
+"step": 400,
+"stage": 4
 },
 {
 "q": "How long does the fast train take Tel Aviv to Jerusalem, roughly?",
@@ -3623,7 +3605,7 @@
 "w1": "About 2 hours",
 "w2": "About 10 minutes",
 "src": "Israel Railways",
-"step": 403,
+"step": 401,
 "stage": 5
 },
 {
@@ -3632,7 +3614,7 @@
 "w1": "A subway",
 "w2": "A cable car",
 "src": "NTA",
-"step": 404,
+"step": 402,
 "stage": 5
 },
 {
@@ -3641,7 +3623,7 @@
 "w1": "The Carmelit",
 "w2": "The Haifa Flyer",
 "src": "Haifa municipality",
-"step": 405,
+"step": 403,
 "stage": 5
 },
 {
@@ -3650,7 +3632,7 @@
 "w1": "A song",
 "w2": "A beach",
 "src": "Haifa municipality",
-"step": 406,
+"step": 404,
 "stage": 5
 },
 {
@@ -3659,16 +3641,7 @@
 "w1": "No",
 "w2": "It closed in 1990",
 "src": "Haifa municipality",
-"step": 407,
-"stage": 5
-},
-{
-"q": "What is Israel's biggest bank?",
-"a": "Bank Leumi or Hapoalim",
-"w1": "Citi",
-"w2": "HSBC",
-"src": "Bank of Israel",
-"step": 408,
+"step": 405,
 "stage": 5
 },
 {
@@ -3677,7 +3650,7 @@
 "w1": "Hapoalim",
 "w2": "Discount",
 "src": "Bank Leumi",
-"step": 409,
+"step": 406,
 "stage": 5
 },
 {
@@ -3686,7 +3659,7 @@
 "w1": "NASDAQ IL",
 "w2": "ISX",
 "src": "TASE",
-"step": 410,
+"step": 407,
 "stage": 5
 },
 {
@@ -3695,7 +3668,7 @@
 "w1": "About 5",
 "w2": "About 2,000",
 "src": "NASDAQ",
-"step": 411,
+"step": 408,
 "stage": 5
 },
 {
@@ -3704,7 +3677,7 @@
 "w1": "Samsung",
 "w2": "TSMC",
 "src": "Intel",
-"step": 412,
+"step": 409,
 "stage": 5
 },
 {
@@ -3713,7 +3686,7 @@
 "w1": "Pentium 4",
 "w2": "Itanium",
 "src": "Intel history",
-"step": 413,
+"step": 410,
 "stage": 5
 },
 {
@@ -3722,7 +3695,7 @@
 "w1": "MSN",
 "w2": "AIM",
 "src": "Mirabilis, 1996",
-"step": 414,
+"step": 411,
 "stage": 5
 },
 {
@@ -3731,7 +3704,7 @@
 "w1": "Microsoft",
 "w2": "Yahoo",
 "src": "AOL, 1998",
-"step": 415,
+"step": 412,
 "stage": 5
 },
 {
@@ -3740,7 +3713,7 @@
 "w1": "Elbit",
 "w2": "IAI",
 "src": "Rafael",
-"step": 416,
+"step": 413,
 "stage": 5
 },
 {
@@ -3749,7 +3722,7 @@
 "w1": "Rafael",
 "w2": "Elbit",
 "src": "IAI",
-"step": 417,
+"step": 414,
 "stage": 5
 },
 {
@@ -3758,7 +3731,7 @@
 "w1": "Among the lowest",
 "w2": "Average",
 "src": "OECD",
-"step": 418,
+"step": 415,
 "stage": 5
 },
 {
@@ -3767,7 +3740,7 @@
 "w1": "A calendar app",
 "w2": "A bank",
 "src": "Monday.com",
-"step": 419,
+"step": 416,
 "stage": 5
 },
 {
@@ -3776,7 +3749,7 @@
 "w1": "A drink",
 "w2": "A bank",
 "src": "SodaStream",
-"step": 420,
+"step": 417,
 "stage": 5
 },
 {
@@ -3785,7 +3758,7 @@
 "w1": "Coca-Cola",
 "w2": "Nestle",
 "src": "PepsiCo, 2018",
-"step": 421,
+"step": 418,
 "stage": 5
 },
 {
@@ -3794,7 +3767,7 @@
 "w1": "A device",
 "w2": "A diet",
 "src": "Teva",
-"step": 422,
+"step": 419,
 "stage": 5
 },
 {
@@ -3803,7 +3776,7 @@
 "w1": "A vitamin",
 "w2": "A vaccine",
 "src": "Weizmann Institute",
-"step": 423,
+"step": 420,
 "stage": 5
 },
 {
@@ -3812,7 +3785,7 @@
 "w1": "Cleans water",
 "w2": "Grows food",
 "src": "ReWalk",
-"step": 424,
+"step": 421,
 "stage": 5
 },
 {
@@ -3821,7 +3794,7 @@
 "w1": "Band-Aid",
 "w2": "Gauze roll",
 "src": "First Care Products",
-"step": 425,
+"step": 422,
 "stage": 5
 },
 {
@@ -3830,7 +3803,7 @@
 "w1": "Mobileye",
 "w2": "Waze",
 "src": "OrCam",
-"step": 426,
+"step": 423,
 "stage": 5
 },
 {
@@ -3839,7 +3812,7 @@
 "w1": "Desalination only",
 "w2": "Bottled water",
 "src": "Watergen",
-"step": 427,
+"step": 424,
 "stage": 5
 },
 {
@@ -3848,7 +3821,7 @@
 "w1": "No",
 "w2": "Unknown",
 "src": "Viber",
-"step": 428,
+"step": 425,
 "stage": 5
 },
 {
@@ -3857,7 +3830,7 @@
 "w1": "Facebook",
 "w2": "Google",
 "src": "Rakuten, 2014",
-"step": 429,
+"step": 426,
 "stage": 5
 },
 {
@@ -3866,7 +3839,7 @@
 "w1": "Ashkelon",
 "w2": "Eilat",
 "src": "Geography",
-"step": 430,
+"step": 427,
 "stage": 5
 },
 {
@@ -3875,7 +3848,7 @@
 "w1": "Holon",
 "w2": "Bat Yam",
 "src": "Israel Diamond Exchange",
-"step": 431,
+"step": 428,
 "stage": 5
 },
 {
@@ -3884,7 +3857,7 @@
 "w1": "No",
 "w2": "It's illegal",
 "src": "Israel Diamond Exchange",
-"step": 432,
+"step": 429,
 "stage": 5
 },
 {
@@ -3893,7 +3866,7 @@
 "w1": "A park",
 "w2": "A hospital",
 "src": "Azrieli Group",
-"step": 433,
+"step": 430,
 "stage": 5
 },
 {
@@ -3902,7 +3875,7 @@
 "w1": "Hadassah",
 "w2": "Ichilov",
 "src": "Sheba",
-"step": 434,
+"step": 431,
 "stage": 5
 },
 {
@@ -3911,7 +3884,7 @@
 "w1": "No",
 "w2": "Never ranked",
 "src": "Newsweek",
-"step": 435,
+"step": 432,
 "stage": 5
 },
 {
@@ -3920,7 +3893,7 @@
 "w1": "Among the lowest",
 "w2": "Average",
 "src": "OECD",
-"step": 436,
+"step": 433,
 "stage": 5
 },
 {
@@ -3929,7 +3902,7 @@
 "w1": "The lowest",
 "w2": "Average",
 "src": "OECD",
-"step": 437,
+"step": 434,
 "stage": 5
 },
 {
@@ -3938,7 +3911,7 @@
 "w1": "About 1",
 "w2": "About 5",
 "src": "Israel CBS",
-"step": 438,
+"step": 435,
 "stage": 5
 },
 {
@@ -3947,7 +3920,7 @@
 "w1": "In the bottom 10",
 "w2": "Around 100",
 "src": "World Happiness Report",
-"step": 439,
+"step": 436,
 "stage": 5
 },
 {
@@ -3956,7 +3929,7 @@
 "w1": "About 45",
 "w2": "About 20",
 "src": "Israel CBS",
-"step": 440,
+"step": 437,
 "stage": 5
 },
 {
@@ -3965,7 +3938,7 @@
 "w1": "About 3 million",
 "w2": "About 12 million",
 "src": "Israel CBS",
-"step": 441,
+"step": 438,
 "stage": 5
 },
 {
@@ -3974,7 +3947,7 @@
 "w1": "The US",
 "w2": "France",
 "src": "Jewish People Policy Institute",
-"step": 442,
+"step": 439,
 "stage": 5
 },
 {
@@ -3983,7 +3956,7 @@
 "w1": "About 50 million",
 "w2": "About 3 million",
 "src": "Jewish People Policy Institute",
-"step": 443,
+"step": 440,
 "stage": 5
 },
 {
@@ -3992,7 +3965,7 @@
 "w1": "The British",
 "w2": "The Ottomans",
 "src": "KKL-JNF",
-"step": 444,
+"step": 441,
 "stage": 5
 },
 {
@@ -4001,7 +3974,7 @@
 "w1": "About 4 km",
 "w2": "About 400 km",
 "src": "Israel Nature and Parks Authority",
-"step": 445,
+"step": 442,
 "stage": 5
 },
 {
@@ -4010,7 +3983,7 @@
 "w1": "Nightclubs",
 "w2": "Fireworks",
 "src": "Dark Sky Park",
-"step": 446,
+"step": 443,
 "stage": 5
 },
 {
@@ -4019,7 +3992,7 @@
 "w1": "Twice as salty",
 "w2": "The same",
 "src": "Geography",
-"step": 447,
+"step": 444,
 "stage": 5
 },
 {
@@ -4028,7 +4001,7 @@
 "w1": "About 1 cm a year",
 "w2": "It's rising",
 "src": "Geological Survey of Israel",
-"step": 448,
+"step": 445,
 "stage": 5
 },
 {
@@ -4037,7 +4010,7 @@
 "w1": "Earthquakes only",
 "w2": "Mining only",
 "src": "Geological Survey of Israel",
-"step": 449,
+"step": 446,
 "stage": 5
 },
 {
@@ -4046,7 +4019,7 @@
 "w1": "Acre",
 "w2": "Nazareth",
 "src": "UNESCO, 2008",
-"step": 450,
+"step": 447,
 "stage": 5
 },
 {
@@ -4055,7 +4028,7 @@
 "w1": "Haifa",
 "w2": "Ramla",
 "src": "Israel CBS",
-"step": 451,
+"step": 448,
 "stage": 5
 },
 {
@@ -4064,7 +4037,7 @@
 "w1": "Eilat",
 "w2": "Afula",
 "src": "Tel Aviv municipality",
-"step": 452,
+"step": 449,
 "stage": 5
 },
 {
@@ -4073,7 +4046,7 @@
 "w1": "Beersheba",
 "w2": "Holon",
 "src": "Ramla municipality",
-"step": 453,
+"step": 450,
 "stage": 5
 },
 {
@@ -4082,7 +4055,7 @@
 "w1": "Sarona",
 "w2": "Neve Tzedek",
 "src": "Tel Aviv municipality",
-"step": 454,
+"step": 451,
 "stage": 5
 },
 {
@@ -4091,7 +4064,7 @@
 "w1": "A beach",
 "w2": "A stadium",
 "src": "Tel Aviv municipality",
-"step": 455,
+"step": 452,
 "stage": 5
 },
 {
@@ -4100,7 +4073,7 @@
 "w1": "A kibbutz",
 "w2": "A mall",
 "src": "Tel Aviv municipality",
-"step": 456,
+"step": 453,
 "stage": 5
 },
 {
@@ -4109,7 +4082,7 @@
 "w1": "Factories",
 "w2": "Farms",
 "src": "Tel Aviv municipality",
-"step": 457,
+"step": 454,
 "stage": 5
 },
 {
@@ -4118,7 +4091,7 @@
 "w1": "A general",
 "w2": "A poet",
 "src": "Tel Aviv municipality",
-"step": 458,
+"step": 455,
 "stage": 5
 },
 {
@@ -4127,7 +4100,7 @@
 "w1": "Teddy Kollek",
 "w2": "Ron Huldai",
 "src": "Tel Aviv municipality",
-"step": 459,
+"step": 456,
 "stage": 5
 },
 {
@@ -4136,7 +4109,7 @@
 "w1": "Ehud Olmert",
 "w2": "Nir Barkat",
 "src": "Jerusalem municipality",
-"step": 460,
+"step": 457,
 "stage": 5
 },
 {
@@ -4145,7 +4118,7 @@
 "w1": "Rehavia",
 "w2": "Talpiot",
 "src": "Knesset",
-"step": 461,
+"step": 458,
 "stage": 5
 },
 {
@@ -4154,7 +4127,7 @@
 "w1": "The Davidson Model",
 "w2": "The Temple Lego",
 "src": "Israel Museum",
-"step": 462,
+"step": 459,
 "stage": 5
 },
 {
@@ -4163,7 +4136,7 @@
 "w1": "A mall",
 "w2": "A suburb",
 "src": "City of David Foundation",
-"step": 463,
+"step": 460,
 "stage": 5
 },
 {
@@ -4172,7 +4145,7 @@
 "w1": "A subway",
 "w2": "A bunker",
 "src": "Archaeology",
-"step": 464,
+"step": 461,
 "stage": 5
 },
 {
@@ -4181,7 +4154,7 @@
 "w1": "About 700 years",
 "w2": "About 200 years",
 "src": "Archaeology",
-"step": 465,
+"step": 462,
 "stage": 5
 },
 {
@@ -4190,7 +4163,7 @@
 "w1": "A Roman coin",
 "w2": "A Greek poem",
 "src": "Archaeology",
-"step": 466,
+"step": 463,
 "stage": 5
 },
 {
@@ -4199,7 +4172,7 @@
 "w1": "Har Herzl",
 "w2": "Har Sinai",
 "src": "Common usage",
-"step": 467,
+"step": 464,
 "stage": 5
 },
 {
@@ -4208,7 +4181,7 @@
 "w1": "A ski site",
 "w2": "A mall",
 "src": "Mount Herzl",
-"step": 468,
+"step": 465,
 "stage": 5
 },
 {
@@ -4217,7 +4190,7 @@
 "w1": "Only soldiers",
 "w2": "Only rabbis",
 "src": "Mount Herzl",
-"step": 469,
+"step": 466,
 "stage": 5
 },
 {
@@ -4226,7 +4199,7 @@
 "w1": "Jerusalem",
 "w2": "Tel Aviv",
 "src": "Ben-Gurion Heritage Institute",
-"step": 470,
+"step": 467,
 "stage": 5
 },
 {
@@ -4235,7 +4208,7 @@
 "w1": "To retire abroad",
 "w2": "For a hospital",
 "src": "Ben-Gurion Heritage Institute",
-"step": 471,
+"step": 468,
 "stage": 5
 },
 {
@@ -4244,7 +4217,7 @@
 "w1": "Building a port",
 "w2": "A capital city",
 "src": "Ben-Gurion Heritage Institute",
-"step": 472,
+"step": 469,
 "stage": 5
 },
 {
@@ -4253,7 +4226,7 @@
 "w1": "A port",
 "w2": "Ski slopes",
 "src": "Public record",
-"step": 473,
+"step": 470,
 "stage": 5
 },
 {
@@ -4262,16 +4235,16 @@
 "w1": "Herzliya",
 "w2": "Netanya",
 "src": "History",
-"step": 474,
+"step": 471,
 "stage": 5
 },
 {
-"q": "Which kibbutz near Gaza lost about a quarter of its people on 7 October?",
+"q": "Which kibbutz near Gaza suffered one of the deadliest attacks on 7 October?",
 "a": "Be'eri",
 "w1": "Degania",
 "w2": "Ein Gedi",
 "src": "History",
-"step": 475,
+"step": 472,
 "stage": 5
 },
 {
@@ -4280,7 +4253,7 @@
 "w1": "A UN zone",
 "w2": "A tunnel",
 "src": "Common usage",
-"step": 476,
+"step": 473,
 "stage": 5
 },
 {
@@ -4289,7 +4262,7 @@
 "w1": "Trains",
 "w2": "Water",
 "src": "IDF",
-"step": 477,
+"step": 474,
 "stage": 5
 },
 {
@@ -4298,7 +4271,7 @@
 "w1": "A few metres",
 "w2": "About 2 km",
 "src": "IDF estimates",
-"step": 478,
+"step": 475,
 "stage": 5
 },
 {
@@ -4307,7 +4280,7 @@
 "w1": "HAMAS only",
 "w2": "Fatah",
 "src": "History",
-"step": 479,
+"step": 476,
 "stage": 5
 },
 {
@@ -4316,7 +4289,7 @@
 "w1": "About 600",
 "w2": "About 6 million",
 "src": "Israeli government",
-"step": 480,
+"step": 477,
 "stage": 5
 },
 {
@@ -4325,7 +4298,7 @@
 "w1": "HAMAS in Gaza",
 "w2": "Iran's navy",
 "src": "Public reports",
-"step": 481,
+"step": 478,
 "stage": 5
 },
 {
@@ -4334,7 +4307,7 @@
 "w1": "Syria",
 "w2": "Iraq",
 "src": "History",
-"step": 482,
+"step": 479,
 "stage": 5
 },
 {
@@ -4343,7 +4316,7 @@
 "w1": "About 50 percent",
 "w2": "About 10 percent",
 "src": "IDF",
-"step": 483,
+"step": 480,
 "stage": 5
 },
 {
@@ -4352,7 +4325,7 @@
 "w1": "Russia and China",
 "w2": "Turkey and Qatar",
 "src": "Public reports",
-"step": 484,
+"step": 481,
 "stage": 5
 },
 {
@@ -4361,7 +4334,7 @@
 "w1": "A slingshot",
 "w2": "A tank",
 "src": "IDF",
-"step": 485,
+"step": 482,
 "stage": 5
 },
 {
@@ -4370,7 +4343,7 @@
 "w1": "Short rockets",
 "w2": "Drones only",
 "src": "IDF",
-"step": 486,
+"step": 483,
 "stage": 5
 },
 {
@@ -4379,7 +4352,7 @@
 "w1": "A football team",
 "w2": "A paint brand",
 "src": "Home Front Command",
-"step": 487,
+"step": 484,
 "stage": 5
 },
 {
@@ -4388,7 +4361,7 @@
 "w1": "About 90",
 "w2": "About 5 minutes",
 "src": "Home Front Command",
-"step": 488,
+"step": 485,
 "stage": 5
 },
 {
@@ -4397,7 +4370,7 @@
 "w1": "A kitchen",
 "w2": "A bus stop",
 "src": "Home Front Command",
-"step": 489,
+"step": 486,
 "stage": 5
 },
 {
@@ -4406,7 +4379,7 @@
 "w1": "Since 1948",
 "w2": "Since 2020",
 "src": "Home Front Command",
-"step": 490,
+"step": 487,
 "stage": 5
 },
 {
@@ -4415,7 +4388,7 @@
 "w1": "Waze",
 "w2": "Moovit",
 "src": "Home Front Command",
-"step": 491,
+"step": 488,
 "stage": 5
 },
 {
@@ -4424,7 +4397,7 @@
 "w1": "A bank",
 "w2": "A university",
 "src": "Zaka",
-"step": 492,
+"step": 489,
 "stage": 5
 },
 {
@@ -4433,7 +4406,7 @@
 "w1": "Blue",
 "w2": "Red",
 "src": "Hostages and Missing Families Forum",
-"step": 493,
+"step": 490,
 "stage": 5
 },
 {
@@ -4442,7 +4415,7 @@
 "w1": "In Jerusalem",
 "w2": "In Haifa",
 "src": "Hostages and Missing Families Forum",
-"step": 494,
+"step": 491,
 "stage": 5
 },
 {
@@ -4451,7 +4424,7 @@
 "w1": "A mall",
 "w2": "A beach",
 "src": "Western Wall Heritage Foundation",
-"step": 495,
+"step": 492,
 "stage": 5
 },
 {
@@ -4460,16 +4433,7 @@
 "w1": "Coins",
 "w2": "Flowers",
 "src": "Western Wall Heritage Foundation",
-"step": 496,
-"stage": 5
-},
-{
-"q": "About how many notes are cleared from the Wall twice a year?",
-"a": "About a million",
-"w1": "About a hundred",
-"w2": "About ten",
-"src": "Western Wall Heritage Foundation",
-"step": 497,
+"step": 493,
 "stage": 5
 },
 {
@@ -4478,7 +4442,7 @@
 "w1": "Mount Carmel",
 "w2": "Mount Tabor",
 "src": "Geography",
-"step": 498,
+"step": 494,
 "stage": 5
 },
 {
@@ -4487,7 +4451,7 @@
 "w1": "About 500 m",
 "w2": "About 3,000 m",
 "src": "Geography",
-"step": 499,
+"step": 495,
 "stage": 5
 },
 {
@@ -4496,6 +4460,42 @@
 "w1": "Mount Tabor",
 "w2": "Mount Gilboa",
 "src": "Tradition",
+"step": 496,
+"stage": 5
+},
+{
+"q": "What is the Hula Valley famous for in winter?",
+"a": "Tens of thousands of cranes",
+"w1": "Snow",
+"w2": "Fireworks",
+"src": "Hula Nature Reserve",
+"step": 497,
+"stage": 5
+},
+{
+"q": "What reptile lives in the Hamat Gader park?",
+"a": "Crocodiles",
+"w1": "Komodo dragons",
+"w2": "Alligators",
+"src": "Hamat Gader",
+"step": 498,
+"stage": 5
+},
+{
+"q": "What is Hamat Gader known for?",
+"a": "Hot springs",
+"w1": "Snow",
+"w2": "Diamonds",
+"src": "Hamat Gader",
+"step": 499,
+"stage": 5
+},
+{
+"q": "Which Israeli park is a safari in Ramat Gan?",
+"a": "The Safari",
+"w1": "Zoo Haifa",
+"w2": "Biblical Zoo",
+"src": "Ramat Gan Safari",
 "step": 500,
 "stage": 5
 }
