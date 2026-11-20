@@ -36,6 +36,7 @@ jobs:
       - run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg libcairo2-dev pkg-config libsndfile1 > /dev/null
           pip install -q requests numpy soundfile num2words python-bidi pillow opencv-python-headless pycairo faster-whisper==1.2.1
+          if grep -q '"ipa"' hevoice/jobs.json; then sudo apt-get install -y -qq espeak-ng > /dev/null; pip install -q torch --extra-index-url https://download.pytorch.org/whl/cpu; pip install -q transformers==4.44.2 phonemizer; fi
       - env:
           CARTESIA_API_KEY: ${{ secrets.CARTESIA_API_KEY }}
         run: python -u tools/he_voice.py

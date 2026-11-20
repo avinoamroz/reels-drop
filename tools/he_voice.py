@@ -158,6 +158,27 @@ def j_audition(J):
     save(J.get("out", "audition.json"), dict(text=J["text"], results=res))
 
 
+def j_ipa(J):
+    """IPA of chosen Hebrew words in a repo audio/video (Hebrew ASR cannot hear vowels: חָלָב and חֵלֶב are spelt
+    the same). Hebrew whisper word timestamps, each matching word cut (+0.06 s) and read by the wav2vec2 phoneme
+    recogniser (facebook/wav2vec2-xlsr-53-espeak-cv-ft, as in phon.yml) -> hevoice/<name>_ipa.json"""
+    import torch, soundfile as sf
+    from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
+    subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", "/" + J["src"]], check=False)
+    x = wav16(os.path.join(REPO, J["src"])); rx = re.compile(J["words"])
+    P = Wav2Vec2Processor.from_pretrained("facebook/wav2vec2-xlsr-53-espeak-cv-ft"); M = Wav2Vec2ForCTC.from_pretrained("facebook/wav2vec2-xlsr-53-espeak-cv-ft").eval()
+    segs, _ = model().transcribe(x, language="he", beam_size=5, word_timestamps=True, condition_on_previous_text=False)
+    words = [w for s in segs for w in s.words]; out = []
+    for k, w in enumerate(words):
+        bare = re.sub(r"[^\u05D0-\u05EA]", "", w.word)
+        if not rx.fullmatch(bare): continue
+        a, b = max(0, int((w.start - 0.06) * 16000)), int((w.end + 0.06) * 16000)
+        with torch.no_grad(): lg = M(P(x[a:b], sampling_rate=16000, return_tensors="pt").input_values).logits
+        ctx = "".join(v.word for v in words[max(0, k - 4):k + 4]).strip()
+        out.append(dict(word=bare, start=round(w.start, 2), ipa=P.batch_decode(torch.argmax(lg, -1))[0], context=ctx))
+    save(f"{J['name']}_ipa.json", dict(src=J["src"], hits=out))
+
+
 def j_clone(J):
     import requests
     out = J.get("out", "clone.json"); p = os.path.join(OUT, out)
