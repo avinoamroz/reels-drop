@@ -1,0 +1,30 @@
+{
+ "name": "bl_pron_live",
+ "hits": [
+  {
+   "n": 1,
+   "word": "live",
+   "start": 2.42,
+   "end": 2.74,
+   "ipa": "s l ɪ v",
+   "context": "About 150,000 Druze live in Israel today. Most"
+  },
+  {
+   "n": 2,
+   "word": "live",
+   "start": 4.8,
+   "end": 5.02,
+   "ipa": "m eɪ z l ɪ v",
+   "context": "live in Israel today. Most families live in the Galilee and"
+  },
+  {
+   "n": 3,
+   "word": "read",
+   "start": 7.82,
+   "end": 7.94,
+   "ipa": "ɹ ʌ d",
+   "context": "Galilee and the Carmel. Yesterday I read the 1948 report about"
+  }
+ ],
+ "n_words": 37
+}

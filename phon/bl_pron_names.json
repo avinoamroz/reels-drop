@@ -1,0 +1,46 @@
+{
+ "name": "bl_pron_names",
+ "hits": [
+  {
+   "n": 1,
+   "word": "Druze",
+   "start": 1.94,
+   "end": 2.42,
+   "ipa": "n dʒ ɹ uː z",
+   "context": "About 150,000 Druze live in Israel today."
+  },
+  {
+   "n": 2,
+   "word": "Neset",
+   "start": 9.52,
+   "end": 9.86,
+   "ipa": "o n a s e",
+   "context": "read the 1948 report about the Neset and Hamas. The IDF"
+  },
+  {
+   "n": 3,
+   "word": "Hamas.",
+   "start": 10.0,
+   "end": 10.26,
+   "ipa": "æ n h ɚ m ɑː",
+   "context": "1948 report about the Neset and Hamas. The IDF and the"
+  },
+  {
+   "n": 4,
+   "word": "IDF",
+   "start": 11.16,
+   "end": 11.52,
+   "ipa": "aɪ d iː",
+   "context": "about the Neset and Hamas. The IDF and the Shin Bet"
+  },
+  {
+   "n": 5,
+   "word": "record",
+   "start": 12.36,
+   "end": 12.7,
+   "ipa": "æ t ɹ ɪ k oː d",
+   "context": "The IDF and the Shin Bet record every attack."
+  }
+ ],
+ "n_words": 37
+}
