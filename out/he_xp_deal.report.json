@@ -1,0 +1,47 @@
+{
+ "id": "he_xp_deal",
+ "account": "expressenglishcom",
+ "template": "slang_scene",
+ "hook": "איך אומרים *סגרנו*?|3 דרכים",
+ "duration": 24.1,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/he_xp_deal.mp4",
+  "cover": "covers/he_xp_deal_cover.jpg",
+  "preview": "previews/he_xp_deal_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/he_xp_deal_0.jpg",
+  "1": "out/frames/he_xp_deal_1.jpg",
+  "3": "out/frames/he_xp_deal_3.jpg",
+  "last": "out/frames/he_xp_deal_last.jpg"
+ },
+ "caption_en": "3 ways to say \"we closed it\" in English: Deal! / We're good to go. / Let's make it official.",
+ "caption_he": "יש דרך אחת להגיד \"סגרנו\" שעובדת דווקא במייל.\n\n3 דרכים להגיד סגרנו באנגלית:\n1. Deal! (בשיחה, בקלילות)\n2. We're good to go. (הכול מוכן, מתחילים)\n3. Let's make it official. (במייל המסכם)\n\nבאיזו מהן אתם משתמשים? כתבו בתגובות.\nשמרו את הסרטון לפגישה הבאה.",
+ "hashtags": [
+  "#אנגליתלעסקים",
+  "#EnglishExpress",
+  "#BusinessEnglish"
+ ],
+ "sources": [
+  {
+   "label": "Cambridge Dictionary",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": null,
+  "error": "name 'x' is not defined"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 53.3
+}

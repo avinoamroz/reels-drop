@@ -1,0 +1,77 @@
+{
+ "notes": [],
+ "runs": [
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 2.46,
+   "words": 7,
+   "exact": true,
+   "text": "מארק, לקוח מניו יורק, שואל בסוף הפגישה:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 1.25,
+   "words": 6,
+   "exact": true,
+   "text": "So, do we have a deal?"
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 2.51,
+   "words": 7,
+   "exact": true,
+   "text": "ואתם רוצים להגיד: סגרנו. אז בשיחה רגילה:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 0.65,
+   "words": 1,
+   "exact": true,
+   "text": "Deal!"
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.44,
+   "words": 4,
+   "exact": true,
+   "text": "כשהכול מוכן להתחיל לעבוד:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 1.49,
+   "words": 4,
+   "exact": true,
+   "text": "We're good to go."
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 2.23,
+   "words": 4,
+   "exact": true,
+   "text": "ובמייל הרשמי שאחרי הפגישה:"
+  },
+  {
+   "lang": "en",
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f",
+   "secs": 6.5,
+   "words": 21,
+   "exact": true,
+   "text": "Let's make it official. Can we start on Monday? We're good to go. Monday it is. Great, I'll send the contract."
+  },
+  {
+   "lang": "he",
+   "voice": "176ee319-58ca-4736-b3c2-a69b5bd18bd2",
+   "secs": 1.49,
+   "words": 6,
+   "exact": true,
+   "text": "שמרו את זה לפגישה הבאה שלכם."
+  }
+ ]
+}
