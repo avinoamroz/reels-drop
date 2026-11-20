@@ -33,8 +33,187 @@
   }
  ],
  "transcript": {
-  "score": null,
-  "error": "name 'x' is not defined"
+  "score": 0.963,
+  "model": "ivrit-ai/whisper-large-v3-turbo-ct2 (he) + faster-whisper small.en (en), per line",
+  "lines": [
+   {
+    "line": "מארק, לקוח מניו יורק, שואל בסוף הפגישה:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "מרק, לקוח מניו יורק, שואל בסוף הפגישה?",
+    "score": 0.857,
+    "flag": "ok",
+    "misread": [
+     {
+      "said": "מארק",
+      "heard": "מרק"
+     }
+    ]
+   },
+   {
+    "line": "So, do we have a deal?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "So, do we have a deal?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "ואתם רוצים להגיד: סגרנו. אז בשיחה רגילה:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "ואתם רוצים להגיד, סגרנו, אז בשיחה רגילה...",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "Deal!",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Deal.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "קצר וחם, בדיוק כמו סגרנו.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "קצר וחם בדיוק כמו סגרנו.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "כשהכול מוכן להתחיל לעבוד:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "כשהכול מוכן להתחיל לעבוד.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "We're good to go.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "We're good to go.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "כלומר: הכול מוכן, מתחילים.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "כלומר, הכל מוכן, מתחילים.",
+    "score": 0.75,
+    "flag": "MISS",
+    "misread": [
+     {
+      "said": "הכול",
+      "heard": "הכל"
+     }
+    ]
+   },
+   {
+    "line": "ובמייל הרשמי שאחרי הפגישה:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "ובמייל הרשמי שאחרי הפגישה.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "Let's make it official.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Let's make it official.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "זה המשפט ששולחים במייל המסכם.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "זה המשפט ששולחים במייל המסכם.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "וכך זה נשמע בצ'אט עם מארק:",
+    "lang": "he",
+    "nikud": true,
+    "heard": "וכך זה נשמע בצ'אט עם מרק.",
+    "score": 0.833,
+    "flag": "ok",
+    "misread": [
+     {
+      "said": "מארק",
+      "heard": "מרק"
+     }
+    ]
+   },
+   {
+    "line": "Can we start on Monday?",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Can we start on Monday?",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "We're good to go. Monday it is.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "We're good to go. Monday it is.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "Great, I'll send the contract.",
+    "lang": "en",
+    "nikud": null,
+    "heard": "Great, I'll send the contract.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   },
+   {
+    "line": "שמרו את זה לפגישה הבאה שלכם.",
+    "lang": "he",
+    "nikud": true,
+    "heard": "שמרו את זה לפגישה הבאה שלכם.",
+    "score": 1.0,
+    "flag": "ok",
+    "misread": []
+   }
+  ],
+  "misread": [
+   {
+    "said": "מארק",
+    "heard": "מרק",
+    "line": 0
+   },
+   {
+    "said": "הכול",
+    "heard": "הכל",
+    "line": 7
+   },
+   {
+    "said": "מארק",
+    "heard": "מרק",
+    "line": 11
+   }
+  ],
+  "expected": "spec lines, each heard in its own language"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
@@ -43,5 +222,5 @@
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 56.8
+ "render_s": 61.8
 }
