@@ -1,0 +1,43 @@
+{
+ "id": "he_read_test",
+ "account": "expressenglishcom",
+ "template": "he_cards",
+ "hook": "3 קריאות, אותם *4* משפטים",
+ "duration": 33.2,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "outputs": {
+  "mp4": "out/he_read_test.mp4",
+  "cover": "covers/he_read_test_cover.jpg",
+  "preview": "previews/he_read_test_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/he_read_test_0.jpg",
+  "1": "out/frames/he_read_test_1.jpg",
+  "3": "out/frames/he_read_test_3.jpg",
+  "last": "out/frames/he_read_test_last.jpg"
+ },
+ "caption_en": "Hebrew read test: the same 4 sentences with full nikud, without nikud, and without nikud plus the lexicon (the new default). Not for posting.",
+ "caption_he": "בדיקת קריאה בעברית: אותם 4 משפטים עם ניקוד מלא, בלי ניקוד, ובלי ניקוד עם מילון המילים (ברירת המחדל החדשה). לא לפרסום.",
+ "hashtags": [],
+ "sources": [
+  {
+   "label": "Hebrew voice read test, not for posting",
+   "year": 2026
+  }
+ ],
+ "transcript": {
+  "score": null,
+  "error": "name 'x' is not defined"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.2
+ },
+ "lint_warnings": [],
+ "render_s": 56.6
+}
