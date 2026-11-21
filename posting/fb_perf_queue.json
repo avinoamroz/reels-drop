@@ -155,8 +155,8 @@
       "ig_id": "18200352457387116",
       "account": "noamroz__",
       "views": 16167,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DfdNCwegdC3/",
+      "caption_short": "Who lives longest in the Middle East?"
     },
     {
       "ig_id": "18055496632837911",
@@ -169,8 +169,8 @@
       "ig_id": "17907097743355168",
       "account": "noamroz__",
       "views": 15737,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/Dfhdw6FGBrJ/",
+      "caption_short": "10 million Israelis. 150 million neighbours."
     },
     {
       "ig_id": "17915612252947202",
@@ -183,8 +183,8 @@
       "ig_id": "18113380010184243",
       "account": "noamroz__",
       "views": 15732,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DfaOGzGAIEq/",
+      "caption_short": "Philistines and Palestinians: same people?"
     },
     {
       "ig_id": "17889482741922595",
@@ -197,8 +197,8 @@
       "ig_id": "18470539264185415",
       "account": "noamroz__",
       "views": 15290,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DfPkQ4QAgAU/",
+      "caption_short": "1 UN agency. For 1 people?"
     },
     {
       "ig_id": "18061582169749738",
@@ -2812,6 +2812,13 @@
       "views": 7463,
       "fb_video_id": "2999751287091038",
       "posted_at": "2026-11-21T08:06:03Z"
+    },
+    {
+      "ig_id": "18470539264185415",
+      "account": "noamroz__",
+      "views": 15290,
+      "fb_video_id": "1334030092137492",
+      "posted_at": "2026-11-21T10:45:54Z"
     }
   ],
   "skipped": [
@@ -2832,6 +2839,24 @@
       "account": "noamroz__",
       "reason": "near-duplicate: already on page (GDP tug of war, fb 1524092876226825)",
       "skipped_at": "2026-11-19T07:48:00Z"
+    },
+    {
+      "ig_id": "18200352457387116",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (Who lives longest in the Middle East, fb 1496067562380796)",
+      "skipped_at": "2026-11-21T10:46:00Z"
+    },
+    {
+      "ig_id": "17907097743355168",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (10 million Israelis, 150 million neighbours, fb 1228934676126414)",
+      "skipped_at": "2026-11-21T10:46:00Z"
+    },
+    {
+      "ig_id": "18113380010184243",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (Philistines and Palestinians, fb 2261271681103966)",
+      "skipped_at": "2026-11-21T10:46:00Z"
     }
   ],
   "fb_page_baseline": {
