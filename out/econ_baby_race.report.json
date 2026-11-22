@@ -1,6 +1,109 @@
 {
-  "id": "econ_baby_race",
-  "status": "FAILED",
-  "run": "45055227674",
-  "log": "[18:29:22] pron [en]: Thirty eight babies in every thousand died before their first birthday. That was Israel in nineteen sixty. Britain was at twenty three. Egypt and Turkey, more than one baby in six. Then the whole region starts racing down. Turkey cuts its rate by ninety five percent. Egypt falls from one seventy three to twenty one. Iran, from eighty eight to ten. Lebanon goes the other way. Since twenty fifteen, \nvoice ok: Cartesia sonic-3 (42.7 s, 114 words, 1 run(s), pronunciation pass) voice/econ_baby_race_vo.wav\n[18:29:23] voice: cached voice (script unchanged)\n[ WARN:0@2.004] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bI_ad_hadassah.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bI_ad_hadassah.jpg\n"
+ "id": "econ_baby_race",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*38* babies in *1,000.*|Now?",
+ "duration": 42.77,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/econ_baby_race.mp4",
+  "cover": "covers/econ_baby_race_cover.jpg",
+  "preview": "previews/econ_baby_race_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_baby_race_0.jpg",
+  "1": "out/frames/econ_baby_race_1.jpg",
+  "3": "out/frames/econ_baby_race_3.jpg",
+  "last": "out/frames/econ_baby_race_last.jpg"
+ },
+ "caption_en": "One country started at 38. The finish is the part nobody guesses.\n\nBabies who die before their first birthday, per 1,000 live births (World Bank, 2024):\nIsrael 2.7\nUAE 3.8\nUK 4.1\nSaudi Arabia 4.7\nUSA 5.5\nTurkey 8.0\nIran 10.3\nJordan 12.0\nLebanon 15.3\nSyria 17.7\nEgypt 20.8\n\nIn 1960: Israel 38.4, UK 22.9, Lebanon 65.5, Jordan 111, Egypt 173, Turkey 178 (Iran and Saudi Arabia: no data before the 1970s).\nTurkey cut its rate by 95%. Lebanon rose from 11.3 (2015) to 15.3 (2024) during its economic crisis. Every country here is far better than in 1960.\n\nSource: World Bank, World Development Indicators, SP.DYN.IMRT.IN (UN Inter-agency Group for Child Mortality Estimation), 1960 to 2024. Modelled estimates; the animation interpolates between years.\nPhotos: Hadassah Ein Kerem (Davidi Vardi, PikiWiki, CC BY 2.5), Istanbul (SegLig, CC BY 4.0), Riyadh (B.alotaby, CC BY-SA 4.0), Beirut (Wusel007, CC BY-SA 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ב 1960, 38 מכל 1,000 תינוקות בישראל לא הגיעו ליום ההולדת הראשון. היום: 2.7, הנמוך ביותר בטבלה, לפני בריטניה (4.1) וארה\"ב (5.5). מקור: הבנק העולמי, 2024.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#MiddleEast",
+  "#Health"
+ ],
+ "sources": [
+  {
+   "label": "World Bank (UN IGME), infant mortality SP.DYN.IMRT.IN",
+   "year": 2024,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.967,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Thirty eight babies in every thousand died before their first birthday. That was Israel in 1960.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain was at twenty three. Egypt and Turkey, more than one baby in six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the whole region starts racing down.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey cuts its rate by ninety five percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt falls from one seventy three to twenty one. Iran, from eighty eight to ten.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon goes the other way. Since 2015, its crisis pushes the rate back up.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia and the UAE drop below five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "America ends at five and a half. Britain at four point one.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Which number surprised you most? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel today?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two point seven. Down from thirty eight.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "38 babies and every thousand died before their first birthday. That was Israel in 1960. Britain was at 23. Egypt and Turkey. More than one baby in six. Then the whole region starts racing down. Turkey cuts its rate by 95%. Egypt falls from 173 to 21. Iran from 88 to 10. Lebanon goes the other way. Since 2015, its crisis pushes the rate back up. Saudi Arabia and the UAE drop below 5. America ends at 5.5, Britain at 4.1. Which number surprised you most? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. And Israel today, 2.7, down from 38.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 88.1
 }
