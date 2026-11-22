@@ -1,0 +1,142 @@
+{
+ "id": "abraham_2_then_4",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*41* years: *2.*|*4* months: *4.*",
+ "duration": 42.63,
+ "audio": {
+  "lufs": -16.3,
+  "true_peak": -0.5
+ },
+ "outputs": {
+  "mp4": "out/abraham_2_then_4.mp4",
+  "cover": "covers/abraham_2_then_4_cover.jpg",
+  "preview": "previews/abraham_2_then_4_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/abraham_2_then_4_0.jpg",
+  "1": "out/frames/abraham_2_then_4_1.jpg",
+  "3": "out/frames/abraham_2_then_4_3.jpg",
+  "last": "out/frames/abraham_2_then_4_last.jpg"
+ },
+ "caption_en": "The fastest year in Middle East peace. 🕊️\n\n1979: Egypt, the first Arab country at peace with Israel. 1994: Jordan. Then 26 years of nothing.\n2020: the UAE (Aug), Bahrain (Sep), Sudan (Oct), Morocco (Dec). The Abraham Accords.\n31 Aug 2020: the first direct El Al flight from Israel lands in Abu Dhabi. In Nov 2025 Kazakhstan said it would join too (Al Jazeera, 6 Nov 2025).\n\nNot all of it held: Sudan's deal is still not ratified (Wikipedia, as of 2024), and Palestinian President Mahmoud Abbas called the UAE deal \"a stab in the back\" (Times of Israel, 18 Aug 2020).\n\nWho joins next? Tell me below.\n\nSources: Britannica; Abraham Accords texts (US State Dept, 2020); US Embassy Jerusalem (2020); Al Jazeera (2025); Times of Israel (2020).\nPhotos (Wikimedia Commons): White House (public domain); US Embassy Jerusalem (CC BY 2.0); Jjm2311, Zairon, OussamaHamama (CC BY-SA 4.0). Map: Natural Earth. AI voice.",
+ "caption_he": "41 שנה: 2 הסכמי שלום. 4 חודשים: 4.\n1979 מצרים, 1994 ירדן, ואז 26 שנה של כלום.\n2020: איחוד האמירויות, בחריין, סודן ומרוקו. הסכמי אברהם. תוך שבועות הטיסה הישירה הראשונה נוחתת באבו דאבי, וב 2025 גם קזחסטן הודיעה שתצטרף.\nלא הכול החזיק: ההסכם עם סודן לא אושרר, ואבו מאזן קרא להסכם עם האמירויות סכין בגב.\nמי מצטרפת הבאה? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#AbrahamAccords",
+  "#Peace"
+ ],
+ "sources": [
+  {
+   "label": "Britannica; Abraham Accords, US State Dept",
+   "year": 2020,
+   "at": "L1",
+   "until": "L8"
+  },
+  {
+   "label": "US Embassy Jerusalem",
+   "year": 2020,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Al Jazeera, 6 Nov",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Times of Israel, 18 Aug 2020; Sudan status 2024",
+   "year": 2024,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Forty one years, two peace deals. Then four in four months.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1979: Egypt. The first Arab country to make peace with Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1994: Jordan.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then, for twenty six years, nothing.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "August 2020: the United Arab Emirates.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "September: Bahrain.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "October: Sudan. December: Morocco.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They're called the Abraham Accords.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Within weeks, the first direct flight from Israel lands in Abu Dhabi.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2025, Kazakhstan said it would join too.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not all of it held. Sudan's deal is still not ratified, and Palestinian leaders called it a stab in the back.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Who joins next? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peace, by the numbers.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "41 years, 2 peace deals, then 4 in 4 months, 1979, Egypt, the first Arab country to make peace with Israel, 1994, Jordan, then, for 26 years, nothing, August 2020, the United Arab Emirates, September, Bahrain, October, Sudan, December, Morocco, they're called the Abraham Accords, within weeks, the first direct flight from Israel lands in Abu Dhabi. In 2025, Kazakhstan said it would join too. Not all of it held. Sudan's deal is still not ratified, and Palestinian leaders called it a stab in the back. Who joins next? Tell me below. If you love Israeli facts, follow Noam Roz for more. Peace by the numbers.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 41.12,
+ "opener": {
+  "style": "map_puzzle",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 173.1
+}
