@@ -29,7 +29,7 @@ jobs:
         with: {python-version: '3.12'}
       - run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg libsndfile1 > /dev/null
-          pip install -q --retries 5 numpy soundfile requests librosa faster-whisper==1.1.1
+          pip install -q --retries 5 numpy soundfile requests librosa num2words faster-whisper==1.1.1
           ref=$(python3 -c "import json;print(json.load(open('ref/follow_tts/job.json')).get('ref',''))")
           [ -z "$ref" ] || git sparse-checkout add "/$ref" "/${ref%.wav}_words.json"
       - name: Voice and check
