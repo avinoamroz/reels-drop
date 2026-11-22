@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*240* *million* trees.|Who *planted* them?",
- "duration": 54.03,
+ "duration": 54.67,
  "audio": {
   "lufs": -16.1,
   "true_peak": -1.0
@@ -59,7 +59,7 @@
   }
  ],
  "transcript": {
-  "score": 0.978,
+  "score": 0.989,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -104,7 +104,7 @@
    },
    {
     "line": "Today it's Yatir, Israel's largest planted forest. Over 4 million trees.",
-    "score": 0.909,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -124,7 +124,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -133,12 +133,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "240 million trees. Who planted them? 1867. Mark Twain writes through this land. He calls it a desolate country. 1901. The Jewish National Fund is born to buy land and plant it. Year 1. 14 square kilometers of planted forest. 1942. 35. The early 70s. About 600. Today. Over 1000. Then they planted where it barely rains. 1964. The edge of the desert. About 250 millimeters of rain a year. Today it's Yathir, Israel's largest planted forest. Over four million trees. It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967. Ecologists also argue the desert should stay wild. So, plant the desert or leave it wild. Tell me below. If you love Israeli facts, follow Noam Ross for more. Twain would need a new word. 240 million trees.",
+  "heard": "240 million trees. Who planted them? 1867. Mark Twain writes through this land. He calls it a desolate country. 1901. The Jewish National Fund is born to buy land and plant it. Year 1. 14 square kilometers of planted forest. 1942. 35. The early 70s. About 600. Today. Over 1000. Then they planted where it barely rains. 1964. The edge of the desert. About 250 millimeters of rain a year. Today it's Yatir, Israel's largest planted forest. Over four million trees. It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967. Ecologists also argue the desert should stay wild. So, plant the desert or leave it wild. Tell me below. If you love Israeli facts, follow Noam Roz for more. Twain would need a new word. 240 million trees.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 52.54,
+ "body_s": 53.16,
  "opener": {
   "style": "map_tear_v2",
   "opener_s": 2.4,
@@ -149,5 +149,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 213.3
+ "render_s": 217.0
 }
