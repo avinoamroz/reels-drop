@@ -2,51 +2,51 @@
 {
 "word": "If",
 "start": 0.05,
-"end": 0.205
+"end": 0.143
 },
 {
 "word": "you",
-"start": 0.205,
-"end": 0.344
+"start": 0.143,
+"end": 0.236
 },
 {
 "word": "love",
-"start": 0.344,
-"end": 0.623
+"start": 0.236,
+"end": 0.406
 },
 {
 "word": "Israeli",
-"start": 0.623,
-"end": 1.01
+"start": 0.406,
+"end": 0.778
 },
 {
 "word": "facts,",
-"start": 1.01,
-"end": 1.459
+"start": 0.778,
+"end": 1.304
 },
 {
 "word": "follow",
-"start": 1.459,
-"end": 1.784
+"start": 1.675,
+"end": 2.186
 },
 {
 "word": "Noam",
-"start": 1.784,
-"end": 2.124
+"start": 3.08,
+"end": 3.452
 },
 {
 "word": "Roz",
-"start": 2.124,
-"end": 2.48
+"start": 3.452,
+"end": 3.932
 },
 {
 "word": "for",
-"start": 2.48,
-"end": 2.604
+"start": 4.334,
+"end": 4.489
 },
 {
 "word": "more.",
-"start": 2.604,
-"end": 2.929
+"start": 4.489,
+"end": 4.845
 }
 ]
