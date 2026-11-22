@@ -1,6 +1,136 @@
 {
-  "id": "econ_gas_pipe",
-  "status": "FAILED",
-  "run": "45055364608",
-  "log": ""
+ "id": "econ_gas_pipe",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* pipe.|Reversed in *2020.*",
+ "duration": 61.7,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/econ_gas_pipe.mp4",
+  "cover": "covers/econ_gas_pipe_cover.jpg",
+  "preview": "previews/econ_gas_pipe_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_gas_pipe_0.jpg",
+  "1": "out/frames/econ_gas_pipe_1.jpg",
+  "3": "out/frames/econ_gas_pipe_3.jpg",
+  "last": "out/frames/econ_gas_pipe_last.jpg"
+ },
+ "caption_en": "The same pipe, the same desert. Only the direction changed.\n\n2008: Egypt starts selling gas to Israel through the pipeline from El Arish to Ashkelon.\n2011 to 2012: the line in Sinai is attacked again and again. April 2012: Egypt cancels the deal.\n2009 and 2010: Israel discovers the Tamar and Leviathan fields at sea. Tamar starts producing in 2013, Leviathan at the end of 2019.\nJanuary 2020: the pipeline runs in reverse, and Israeli gas flows to Egypt. Jordan receives Israeli gas too.\n2024: Israel produces a record 27.4 billion m³ and exports 13.1 billion m³ (almost half) to Egypt and Jordan. Egypt buys about 10 billion m³ a year, Jordan about 3.1.\nMany Jordanians protested the gas deal, and both peace treaties are often called a cold peace.\n\nSources: Reuters (April 2012, January 2020); Israel Ministry of Energy, 2024 figures (via Enerdata, 2025); Israel Natural Gas Authority via Globes, May 2025. Map positions of the fields are approximate.\nPhotos: Leviathan platform installation (Deror Avi, CC BY-SA 4.0), Leviathan platform (Amir.bendavid, CC BY-SA 4.0), Amman (Zairon, CC BY-SA 3.0), Egypt Israel treaty signing 1979 (Yaakov Saar, GPO, CC BY-SA 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "אותו צינור, אותו מדבר. ב 2008 מצרים מכרה גז לישראל דרך הצינור מאל עריש לאשקלון. ב 2012 העסקה בוטלה. ב 2020 הצינור התהפך, והגז הישראלי זורם למצרים ולירדן. ב 2024 ישראל הפיקה שיא של 27.4 מיליארד מ\"ק, וייצאה 13.1 מיליארד.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Egypt",
+  "#Energy"
+ ],
+ "sources": [
+  {
+   "label": "Reuters (2012 cancellation, 2020 exports)",
+   "year": 2020,
+   "at": "L1",
+   "until": "L7e"
+  },
+  {
+   "label": "Israel Ministry of Energy; Natural Gas Authority via Globes",
+   "year": 2025,
+   "at": "L8",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.989,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "One pipeline under the Sinai coast. In 2020, the gas started flowing the other way.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "2008. Egypt sells gas to Israel, through this pipe from El Arish to Ashkelon.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2011 and 2012, attackers in Sinai blow up the line again and again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2012, Egypt cancels the deal.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "But Israel has already struck gas at sea. Tamar, in 2009. Leviathan, in 2010.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Tamar starts pumping in 2013. Leviathan, at the end of 2019.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "January 2020. The old pipe runs in reverse. Israeli gas flows into Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan gets Israeli gas too.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2024, Israel produces a record twenty seven point four billion cubic meters.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Almost half goes abroad. Thirteen point one billion, to Egypt and Jordan.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt buys about ten billion a year. Jordan, about three.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Can energy make peace last longer? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same pipe. Same desert.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Just flowing the other way.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "One pipeline under the Sinai coast. In 2020, the gas started flowing the other way. 2008, Egypt sells gas to Israel through this pipe from El Arish to Ashkelon. In 2011 and 2012, attackers in Sinai blow up the line again and again. In 2012, Egypt cancels a deal. But Israel has already struck gas at sea. Tamar. In 2009, Leviathan in 2010. Tamar starts pumping in 2013. Leviathan at the end of 2019. January 2020, the old pipe runs in reverse. Israeli gas flows into Egypt. Jordan gets Israeli gas too. In 2024, Israel produces a wreck 27.4 billion cubic meters. Almost half goes abroad. 13.1 billion to Egypt and Jordan. Egypt buys about 10 billion a year. Jordan about three. Can energy make peace last longer? Tell me in the comments. If you love Israeli facts, follow. Noam Roz for more, same pipe, same desert, just flowing the other way.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 60.19,
+ "opener": {
+  "style": "globe_spin_fast",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 158.4
 }
