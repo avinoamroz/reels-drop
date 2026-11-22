@@ -30,7 +30,11 @@ DASH_RE = re.compile("[\u2012\u2013\u2014\u2015]")
 # a line with "own_voice": true keeps the recording. New specs: a line {"follow": true} fills say, wav and screen.
 FOLLOW_TEXT = "If you love Israeli facts, follow Noam Roz for more."
 FOLLOW_SCREEN = "Like Israel facts? Follow *@noamroz__*"
-FOLLOW_TTS = "ref/follow_line_tts.wav"
+# 22 Nov round 2 (mix test in the 14 reels, tools/follow_mix.py): take 3 (120 ms break, name at 0.9 speed, comma after Roz)
+# read "Noam Roz" in 10 of 14 mixes against 7 of 14 for the first cut, so it is the default from now on. Specs that name
+# ref/follow_line_tts.wav keep that exact cut (their renders were checked with it).
+FOLLOW_TTS = "ref/follow_line_tts_t3.wav"
+FOLLOW_TTS_ALL = ("ref/follow_line_tts.wav", "ref/follow_line_tts_t3.wav")
 OWN_FOLLOW = ("ref/follow_line_noam.wav", "ref/follow_line_noam_short.wav")
 
 

@@ -66,7 +66,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_tts.wav",
+   "wav": "ref/follow_line_tts_t3.wav",
    "gap": 0.12
   },
   {
@@ -360,5 +360,5 @@
   "big": "240,000,000",
   "text": "trees. Who|*planted* them?"
  },
- "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept; 22 Nov round 2: take 3 (ref/follow_line_tts_t3.wav), the first cut was misheard in the mix test"
 }

@@ -22,11 +22,18 @@ def main(sid):
     J = json.load(open(os.path.join(REPO, "ref", "follow_tts", "mix_job.json")))
     from faster_whisper import WhisperModel
     W = WhisperModel("small.en", device="cpu", compute_type="int8", cpu_threads=os.cpu_count() or 4)
+    # optional extra passes ({"passes": [{"model": "medium.en", "beam": 5}, ...]}): the same mix transcribed again, to tell
+    # a real mispronunciation from transcriber noise. The first result (small.en, beam 5) stays the gate, like check.py.
+    PW = {}
+    for ps in J.get("passes", []):
+        PW.setdefault(ps.get("model", "small.en"), None)
+    for m in PW: PW[m] = W if m == "small.en" else WhisperModel(m, device="cpu", compute_type="int8", cpu_threads=os.cpu_count() or 4)
+    only = J.get("only", {})   # {"<id>": [takes]}: per reel take list instead of J["takes"]
     out = dict(id=sid, takes=[])
-    for tk in J["takes"]:
+    for tk in only.get(sid, J["takes"]):
         S = C.load_spec(os.path.join(REPO, "specs", f"{sid}.json"))
-        fl = [L for L in S["lines"] if L.get("wav") == C.FOLLOW_TTS]
-        if not fl: out["error"] = "no follow line on ref/follow_line_tts.wav"; break
+        fl = [L for L in S["lines"] if L.get("wav") in C.FOLLOW_TTS_ALL or str(L.get("wav", "")).startswith("ref/follow_tts/")]
+        if not fl: out["error"] = "no follow line on a follow TTS take"; break
         for L in fl: L["wav"] = tk
         work = tempfile.mkdtemp(prefix="fm_")
         try:
@@ -39,6 +46,14 @@ def main(sid):
             nm = heard_name(tx)
             r = dict(take=tk, heard=nm, exact=bool(nm) and bool(re.fullmatch(r"noam\s+roz", nm, re.I)),
                      transcript=tx, lufs=C.measure(f"{work}/mix.m4a")["lufs"])
+            if J.get("passes"):
+                r["passes"] = []
+                for ps in J["passes"]:
+                    sg, _ = PW[ps.get("model", "small.en")].transcribe(pcm, language="en", beam_size=ps.get("beam", 5),
+                                                                       temperature=ps.get("temperature", 0.0),
+                                                                       condition_on_previous_text=False)
+                    t2 = " ".join(x.text.strip() for x in sg).strip(); n2 = heard_name(t2)
+                    r["passes"].append(dict(ps, heard=n2, exact=bool(n2) and bool(re.fullmatch(r"noam\s+roz", n2, re.I))))
         except Exception as e:
             r = dict(take=tk, error=str(e)[:300])
         finally:

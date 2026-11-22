@@ -85,7 +85,8 @@ def main(job_path):
         rw = json.load(open(os.path.join(REPO, J["ref"])[:-4] + "_words.json"))
         if ry.ndim > 1: ry = ry.mean(1)
         ref = stats(ry, rw, rsr)
-    rep = dict(follow=follow, ref=J.get("ref"), ref_stats=ref, takes=[])
+    tag = J.get("tag", "")   # e.g. "r3_": files r3_take<k>.* and report_r3.json, so earlier takes are not overwritten
+    rep = dict(follow=follow, ref=J.get("ref"), ref_stats=ref, takes=[], tag=tag)
     for k, T in enumerate(J["takes"], 1):
         # a take may carry "follow_tts": the raw Cartesia text for the follow part (phonemes, <break time=".."/>,
         # <speed ratio=".."/>); the follow span is then found by Cartesia word counts of the context around it
@@ -112,10 +113,10 @@ def main(job_path):
         cut = y[int(a * 44100):int(b * 44100)].copy(); fr = int(0.01 * 44100)
         cut[:fr] *= np.linspace(0, 1, fr); cut[-fr:] *= np.linspace(1, 0, fr)
         words = [dict(word=w, start=round(s["start"] - a, 3), end=round(s["end"] - a, 3)) for w, s in zip(fw, seg)]
-        sf.write(f"{OUT}/take{k}.wav", cut, 44100, subtype="PCM_16")
-        json.dump(words, open(f"{OUT}/take{k}_words.json", "w"), indent=0)
-        sf.write(f"{OUT}/take{k}_context.wav", y, 44100, subtype="PCM_16")
-        json.dump(g, open(f"{OUT}/take{k}_context_words.json", "w"), indent=0)
+        sf.write(f"{OUT}/{tag}take{k}.wav", cut, 44100, subtype="PCM_16")
+        json.dump(words, open(f"{OUT}/{tag}take{k}_words.json", "w"), indent=0)
+        sf.write(f"{OUT}/{tag}take{k}_context.wav", y, 44100, subtype="PCM_16")
+        json.dump(g, open(f"{OUT}/{tag}take{k}_context_words.json", "w"), indent=0)
         h = chain(cut)
         segs, _ = W.transcribe(h, language="en", beam_size=5)       # 16 kHz array (no file decode)
         tx = " ".join(s.text.strip() for s in segs).strip()
@@ -129,14 +130,14 @@ def main(job_path):
         if ref:
             d = round(abs(st["pitch_hz"] / ref["pitch_hz"] - 1) * 100 + abs(st["rate_wps"] / ref["rate_wps"] - 1) * 100
                       + abs(st["pitch_var_st"] - ref["pitch_var_st"]) * 5, 2)
-        r = dict(take=k, name=T.get("name", ""), file=f"ref/follow_tts/take{k}.wav", context=text, tts_text=tts_txt, exact_words=exact,
+        r = dict(take=k, name=T.get("name", ""), file=f"ref/follow_tts/{tag}take{k}.wav", context=text, tts_text=tts_txt, exact_words=exact,
                  secs=round(len(cut) / 44100, 2), transcript=tx, transcript_context=txc, name_ok=name_ok, name_exact=name_exact,
                  stats=st, dist_to_ref=d, voice=vid)
         rep["takes"].append(r); print(json.dumps(r, ensure_ascii=False), flush=True)
     ok = [t for t in rep["takes"] if t["name_ok"]] or rep["takes"]
     best = sorted(ok, key=lambda t: (not t["name_exact"], t["dist_to_ref"] if t["dist_to_ref"] is not None else 0))[0]
     rep["best"] = best["take"]
-    json.dump(rep, open(f"{OUT}/report.json", "w"), indent=1, ensure_ascii=False)
+    json.dump(rep, open(f"{OUT}/report{'_' + tag.strip('_') if tag else ''}.json", "w"), indent=1, ensure_ascii=False)
     print("best take:", best["take"], best["transcript"])
 
 
