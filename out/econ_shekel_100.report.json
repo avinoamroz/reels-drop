@@ -1,6 +1,114 @@
 {
-  "id": "econ_shekel_100",
-  "status": "FAILED",
-  "run": "45055227674",
-  "log": "[18:29:09] pron [en]: A hundred dollars in twenty fifteen. Change it into your local money, and wait ten years. Here is what it is worth in dollars, every year. Jordan, Saudi Arabia and the UAE stay at a hundred. Their money is pegged to the dollar. Syria's pound keeps collapsing in the civil war. Turkey's lira slides every single year. Egypt devalues again and again. Lebanon's banks freeze in twenty nineteen. Then the\nvoice ok: Cartesia sonic-3 (45.7 s, 136 words, 1 run(s), pronunciation pass) voice/econ_shekel_100_vo.wav\n[18:29:09] voice: cached voice (script unchanged)\n[ WARN:0@2.239] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bc_ps_damascus.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bc_ps_damascus.jpg\n"
+ "id": "econ_shekel_100",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*$100* in 2015.|What's left?",
+ "duration": 47.47,
+ "audio": {
+  "lufs": -16.3,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/econ_shekel_100.mp4",
+  "cover": "covers/econ_shekel_100_cover.jpg",
+  "preview": "previews/econ_shekel_100_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_shekel_100_0.jpg",
+  "1": "out/frames/econ_shekel_100_1.jpg",
+  "3": "out/frames/econ_shekel_100_3.jpg",
+  "last": "out/frames/econ_shekel_100_last.jpg"
+ },
+ "caption_en": "Ten years, eleven currencies. The winner went through two years of war.\n\nUS$100 changed into local money in 2015, measured back in dollars (World Bank official exchange rates, yearly averages):\nIsrael (shekel) 2025: $112.60\nEuro 2025: $101.84\nJordan, Saudi Arabia, UAE: $100 (pegged to the dollar)\nUK pound 2025: $86.18\nEgypt 2025: $15.62\nSyria 2022 (latest): $9.46\nTurkey 2025: $6.89\nLebanon 2025: $1.68\nIran: no data (the official rate stayed frozen at 42,000 rial while the market rate moved)\n\nExchange rates are not wealth, and a strong shekel also hurts Israeli exporters and tourism. This is not financial advice.\n\nSource: World Bank, World Development Indicators, PA.NUS.FCRF (official exchange rate, LCU per US$, period average), 2015 to 2025. Value = 100 x rate in 2015 / rate in that year.\nPhotos: Damascus (KevForkan, CC BY-SA 4.0), Istanbul (SegLig, CC BY 4.0), Suez Canal (Aah-Yeah, CC BY 2.0), Beirut (Wusel007, CC BY-SA 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "100 דולר ב 2015, הומרו למטבע מקומי. כמה הם שווים היום בדולרים? ישראל: 112.60, הכי הרבה בטבלה, גם אחרי שנתיים של מלחמה. מצרים 15.62, טורקיה 6.89, לבנון 1.68. מקור: הבנק העולמי. לא ייעוץ השקעות.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Shekel",
+  "#Economy"
+ ],
+ "sources": [
+  {
+   "label": "World Bank, official exchange rate PA.NUS.FCRF, yearly average",
+   "year": 2025,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.925,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "A hundred dollars in 2015. Change it into your local money, and wait ten years.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Here is what it is worth in dollars, every year.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan, Saudi Arabia and the UAE stay at a hundred. Their money is pegged to the dollar.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria's pound keeps collapsing in the civil war.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey's lira slides every single year.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt devalues again and again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon's banks freeze in 2019. Then the pound falls off a cliff.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iran's official rate is frozen, so it tells us nothing. No data.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "The euro ends near a hundred and two. The British pound, eighty six.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Which currency surprised you? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel, after two years of war?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The shekel. It peaks at a hundred and twenty in 2021, and ends at a hundred and twelve dollars and sixty cents.",
+    "score": 0.769,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "$100 in 2015. Change it into your local money, and wait 10 years. Here is what it is worth in dollars. Every year. Jordan, Saudi Arabia, and the UAE stay at $100. Their money is pegged to the dollar. Syria's pound keeps collapsing in the civil war. Turkey's lira slides every single year. Egypt devalues again and again. Lebanon's banks freeze in 2019. Then the pound falls off a cliff. Iran's official rate is frozen, so it tells us nothing. data. The euro ends near 102, the British pound 86. Which currency surprised you? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. And Israel after two years of war, the Shekel. It peaks at 120 in 2021 and ends at $112.60.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.3,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 93.5
 }
