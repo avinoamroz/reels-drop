@@ -79,7 +79,8 @@
      0.5,
      0.5,
      1.12
-    ]
+    ],
+    "dim": 0.62
    },
    {
     "file": "templates/photos/n8/n8_bal_portrait.jpg",
@@ -105,7 +106,8 @@
      0.5,
      0.45,
      1.45
-    ]
+    ],
+    "dim": 0.62
    },
    {
     "file": "templates/photos/n8/n8_bal_allenby.jpg",
@@ -144,7 +146,8 @@
      0.5,
      0.58,
      1.5
-    ]
+    ],
+    "dim": 0.62
    },
    {
     "file": "templates/photos/n8/n8_dec_bg.jpg",
@@ -171,7 +174,7 @@
      0.5,
      1.0
     ],
-    "dim": 0.45,
+    "dim": 0.62,
     "gray": true
    },
    {
@@ -185,19 +188,11 @@
      0.5,
      0.45,
      1.0
-    ]
+    ],
+    "dim": 0.62
    }
   ],
   "big": [
-   {
-    "at": "L0:sixty",
-    "until": "L1-0.1",
-    "value": 67,
-    "from": 0,
-    "suffix": " words",
-    "sub": "the whole promise",
-    "y": 1150
-   },
    {
     "at": "L7:thirty",
     "until": "L8-0.1",
