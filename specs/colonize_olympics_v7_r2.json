@@ -14,7 +14,8 @@
  },
  "voice": {
   "tempo": 1.12,
-  "gap": 0.12
+  "gap": 0.12,
+  "file": "voice/colonize_olympics_v7_r2_vo.wav"
  },
  "lines": [
   {
@@ -65,7 +66,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*",
    "screen_icon": "🔽",
    "gap": 0.12
@@ -428,5 +429,6 @@
   "t": 20.0,
   "big": "0.02%",
   "text": "Colonization Olympics:|Israel's *score*"
- }
+ },
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }

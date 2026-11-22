@@ -10,7 +10,8 @@
  "voice": {
   "tempo": 1.16,
   "gap": 0.12,
-  "lead": 0.1
+  "lead": 0.1,
+  "file": "voice/radicals_chemistry_r2_vo.wav"
  },
  "lines": [
   {
@@ -66,7 +67,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*",
    "at": "L16",
    "until": "L17"
@@ -279,5 +280,6 @@
   "bg": "scene",
   "text": "Every radical is|*1* electron *short*"
  },
- "sources_caption": "Sources: Lobo et al., Pharmacognosy Reviews (2010); Pew Research Center (Nov 2015); Times of Israel/AFP (Nov 2017); City of Aarhus; UK Foreign Office on the GCTF launch of the Abu Dhabi centre (Dec 2012); Marrakesh Declaration (Jan 2016); IMPACT-se review of Saudi textbooks (2023); Europol TE-SAT 2024.\nPhotos, Wikimedia Commons: B.alotaby (CC BY-SA 4.0); Ciara Ní Riain (CC BY-SA 4.0); Sabithnav (CC BY-SA 4.0); Najibelfatimi (CC BY-SA 4.0); John Liu (CC BY 2.0). AI voice, animation and synthesised music."
+ "sources_caption": "Sources: Lobo et al., Pharmacognosy Reviews (2010); Pew Research Center (Nov 2015); Times of Israel/AFP (Nov 2017); City of Aarhus; UK Foreign Office on the GCTF launch of the Abu Dhabi centre (Dec 2012); Marrakesh Declaration (Jan 2016); IMPACT-se review of Saudi textbooks (2023); Europol TE-SAT 2024.\nPhotos, Wikimedia Commons: B.alotaby (CC BY-SA 4.0); Ciara Ní Riain (CC BY-SA 4.0); Sabithnav (CC BY-SA 4.0); Najibelfatimi (CC BY-SA 4.0); John Liu (CC BY 2.0). AI voice, animation and synthesised music.",
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }

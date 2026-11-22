@@ -9,7 +9,8 @@
  },
  "voice": {
   "gap": 0.15,
-  "lead": 0.1
+  "lead": 0.1,
+  "file": "voice/israel_porter_diamond_vo.wav"
  },
  "lines": [
   {
@@ -71,7 +72,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "gap": 0.12,
    "screen": "Like Israel facts? Follow *@noamroz__*",
    "until": "L12-0.05"
@@ -471,5 +472,6 @@
   "t": 30.0,
   "big": "6",
   "text": "Why nobody can|copy *Israel*"
- }
+ },
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }

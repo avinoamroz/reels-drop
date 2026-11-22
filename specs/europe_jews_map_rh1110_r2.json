@@ -15,7 +15,8 @@
  "voice": {
   "tempo": 1.05,
   "gap": 0.18,
-  "maxpause": 0.25
+  "maxpause": 0.25,
+  "file": "voice/europe_jews_map_rh1110_r2_vo.wav"
  },
  "lines": [
   {
@@ -68,7 +69,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*"
   },
   {
@@ -823,5 +824,6 @@
   "t": 30.0,
   "big": "9.5M",
   "text": "Where did Europe's|*Jews* go?"
- }
+ },
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }

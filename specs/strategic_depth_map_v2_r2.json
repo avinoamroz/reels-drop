@@ -14,7 +14,8 @@
  },
  "voice": {
   "tempo": 1.12,
-  "gap": 0.12
+  "gap": 0.12,
+  "file": "voice/strategic_depth_map_v2_r2_vo.wav"
  },
  "subs_replace": {
   "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS"
@@ -68,7 +69,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*",
    "screen_icon": "🔽",
    "gap": 0.12
@@ -5851,5 +5852,6 @@
   "text": "From these hills|to *the sea*"
  },
  "caption_en": "Fifteen kilometres. Then, the sea. 🌊\n\nAt its narrowest, the Green Line (the 1949 armistice line) is about 14.5 km from the Mediterranean: about 3 hours on foot.\n\nIt already happened. In the Second Intifada (Sept 2000 to Dec 2005), terror attacks killed 1,084 Israelis, about half of them in 147 suicide bombings. In 2000 to 2003, about 64% of the bombers came from northern Samaria (the Jenin and Nablus area). Bombers sent from Jenin hit Hadera, Afula, Tel Aviv and Jerusalem.\n27 March 2002: a bomber from a HAMAS cell in Tulkarm hit the Passover seder at the Park Hotel in Netanya. 30 people were killed. Two days later Israel launched Operation Defensive Shield.\n\n2005: Israel left Gaza, every soldier and every settlement. 2007: HAMAS took over. 7 October 2023: terrorists in pickup trucks crossed at 6:40 and reached Ofakim, about 25 km away, at 7:08.\n\nWhat if Judea and Samaria were run like Gaza after 2005? 10 launch points along the line, from Jenin to the Hebron hills, at the same pace:\n⏱️ 10 minutes: Route 6, Kfar Saba, Ben Gurion Airport, Jerusalem.\n⏱️ 20 minutes: Tel Aviv, Netanya, the sea. Israel cut in two.\nAbout 6 in 10 Israelis live in the Tel Aviv and Jerusalem metro areas (CBS, end of 2024: 5.88M of 10.03M; our estimate from metro totals).\n(Minutes are our estimate at the Ofakim pace, 25 km in 28 minutes, on straight line map distances.)\n\nPalestinians want a state there, and many argue security can be achieved by agreement. Israel's question: who guarantees it?\nPeace is the goal. Security control is what makes it last.\n\nSave this map.",
- "caption_he": "15 ק״מ. ואז הים. 🌊\nבנקודה הצרה ביותר, הקו הירוק נמצא בערך 14.5 ק״מ מהים.\nזה כבר קרה. באינתיפאדה השנייה (2000 עד 2005) נרצחו 1,084 ישראלים בפיגועים, כמחציתם ב 147 פיגועי התאבדות. ב 2000 עד 2003 כ 64% מהמחבלים המתאבדים הגיעו מצפון השומרון (אזור ג׳נין ושכם).\n27 במרץ 2002: מחבל מחוליית חמאס בטולכרם פוצץ את עצמו בליל הסדר במלון פארק בנתניה. 30 נרצחו. יומיים אחר כך יצא מבצע חומת מגן.\n2005: ישראל יצאה מעזה. 2007: חמאס השתלט. 7 באוקטובר: מחבלים בטנדרים עברו 25 ק״מ ב 28 דקות.\nומה אם יהודה ושומרון היו מתנהלים כמו עזה אחרי 2005? 10 נקודות יציאה לאורך הקו, מג׳נין ועד הר חברון, באותו קצב:\n10 דקות: כביש 6, כפר סבא, נתב״ג, ירושלים.\n20 דקות: תל אביב, נתניה, הים. ישראל חתוכה לשתיים.\nכ 6 מכל 10 ישראלים גרים במטרופולין תל אביב וירושלים (למ״ס, סוף 2024, הערכה שלנו).\nהפלסטינים רוצים מדינה שם, ורבים טוענים שאפשר להשיג ביטחון בהסכם. השאלה של ישראל: מי מבטיח את זה?\nשלום הוא המטרה. שליטה ביטחונית היא מה שגורם לו להחזיק."
+ "caption_he": "15 ק״מ. ואז הים. 🌊\nבנקודה הצרה ביותר, הקו הירוק נמצא בערך 14.5 ק״מ מהים.\nזה כבר קרה. באינתיפאדה השנייה (2000 עד 2005) נרצחו 1,084 ישראלים בפיגועים, כמחציתם ב 147 פיגועי התאבדות. ב 2000 עד 2003 כ 64% מהמחבלים המתאבדים הגיעו מצפון השומרון (אזור ג׳נין ושכם).\n27 במרץ 2002: מחבל מחוליית חמאס בטולכרם פוצץ את עצמו בליל הסדר במלון פארק בנתניה. 30 נרצחו. יומיים אחר כך יצא מבצע חומת מגן.\n2005: ישראל יצאה מעזה. 2007: חמאס השתלט. 7 באוקטובר: מחבלים בטנדרים עברו 25 ק״מ ב 28 דקות.\nומה אם יהודה ושומרון היו מתנהלים כמו עזה אחרי 2005? 10 נקודות יציאה לאורך הקו, מג׳נין ועד הר חברון, באותו קצב:\n10 דקות: כביש 6, כפר סבא, נתב״ג, ירושלים.\n20 דקות: תל אביב, נתניה, הים. ישראל חתוכה לשתיים.\nכ 6 מכל 10 ישראלים גרים במטרופולין תל אביב וירושלים (למ״ס, סוף 2024, הערכה שלנו).\nהפלסטינים רוצים מדינה שם, ורבים טוענים שאפשר להשיג ביטחון בהסכם. השאלה של ישראל: מי מבטיח את זה?\nשלום הוא המטרה. שליטה ביטחונית היא מה שגורם לו להחזיק.",
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }

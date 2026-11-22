@@ -14,7 +14,8 @@
  },
  "voice": {
   "tempo": 1.08,
-  "gap": 0.12
+  "gap": 0.12,
+  "file": "voice/jews_white_mw1_r2_vo.wav"
  },
  "lines": [
   {
@@ -67,7 +68,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "gap": 0.12
   },
   {
@@ -641,5 +642,6 @@
   "text": "Jews are white?|Count the *homelands.*"
  },
  "caption_en": "Count the arrows before you answer. 🗺️\n\nJews are white? Count the homelands:\n🇾🇪 Yemen: nearly 49,000 Jews flown to Israel, late 1948 to Sept 1950 (Jewish Virtual Library).\n🇮🇶 Iraq: more than 120,000 in 1951 to 1952 (Jewish Virtual Library).\n🇪🇹 Ethiopia: just over 14,000 people in 36 hours, May 1991 (JDC).\nThen Morocco, Iran, Kurdistan, Bukhara, India. And Poland (fair, that one is pretty white).\n\nToday about half of Israel's Jews are Mizrahi or Sephardi: 48%, against 45% Ashkenazi (Pew Research Center, 2016). 177,600 Israelis are of Ethiopian origin (Israel CBS, 2024 data, published Nov 2025).\n\nJews aren't a skin color. We're a people.\n\nWhich Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me.\n\nSources: Jewish Virtual Library (Operation Magic Carpet; Operation Ezra and Nehemiah); JDC (Operation Solomon); Pew Research Center (2016); Israel CBS (2025).\nPhotos (Wikimedia Commons): Operation Magic Carpet, 1950: Fritz Cohen, public domain; Babylon, Iraq: Matson Collection, public domain; Operation Solomon, 1991: Tsvika Israeli, GPO, CC BY-SA 3.0; Ibn Danan Synagogue, Fes: Mike Prince, CC BY 2.0; Tomb of Esther and Mordechai, Iran: yuen yan, CC BY-SA 2.0; Jewish homes, Sindur, Kurdistan, 1934: public domain; Bene Israel, India, about 1860: William Johnson, public domain. Map: Natural Earth.\nAI voice (Noam's cloned voice).",
- "caption_he": "יהודים הם לבנים? בואו נספור את המולדות.\nתימן: כמעט 49,000 יהודים הוטסו לישראל. עיראק: יותר מ-120,000. אתיופיה: יותר מ-14,000 איש ב-36 שעות.\nואז מרוקו, איראן, כורדיסטן, בוכרה, הודו. ופולין, טוב, זאת באמת די לבנה.\nהיום כמחצית מיהודי ישראל הם מזרחים או ספרדים (48% מול 45% אשכנזים). 177,600 ישראלים ממוצא אתיופי.\nיהודים הם לא צבע עור. אנחנו עם.\nאיזה מטבח יהודי מנצח? ספרו לי."
+ "caption_he": "יהודים הם לבנים? בואו נספור את המולדות.\nתימן: כמעט 49,000 יהודים הוטסו לישראל. עיראק: יותר מ-120,000. אתיופיה: יותר מ-14,000 איש ב-36 שעות.\nואז מרוקו, איראן, כורדיסטן, בוכרה, הודו. ופולין, טוב, זאת באמת די לבנה.\nהיום כמחצית מיהודי ישראל הם מזרחים או ספרדים (48% מול 45% אשכנזים). 177,600 ישראלים ממוצא אתיופי.\nיהודים הם לא צבע עור. אנחנו עם.\nאיזה מטבח יהודי מנצח? ספרו לי.",
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }

@@ -9,7 +9,8 @@
  },
  "voice": {
   "tempo": 1.12,
-  "gap": 0.12
+  "gap": 0.12,
+  "file": "voice/twin_cities_r2_vo.wav"
  },
  "lines": [
   {
@@ -75,7 +76,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "gap": 0.12
   },
   {
@@ -948,5 +949,6 @@
  },
  "subs_replace": {
   "Turkey": "Türkiye"
- }
+ },
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }

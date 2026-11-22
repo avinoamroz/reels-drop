@@ -11,7 +11,8 @@
  },
  "voice": {
   "tempo": 1.1,
-  "gap": 0.12
+  "gap": 0.12,
+  "file": "voice/s3000_talk15_r2_vo.wav"
  },
  "lines": [
   {
@@ -54,7 +55,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_noam.wav",
+   "wav": "ref/follow_line_tts.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*",
    "gap": 0.12
   },
@@ -282,5 +283,6 @@
   "t": 3.0,
   "big": "5 stones",
   "text": "Who lived|here *first?*"
- }
+ },
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
 }
