@@ -1,0 +1,254 @@
+{
+ "id": "econ_mothers_race",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*2* in *100,000.*|Which country?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Two mothers die for every hundred thousand births. That is the lowest on this chart. Which country is it?"
+  },
+  {
+   "say": "Maternal deaths per hundred thousand live births, since 1990. Lowest first.",
+   "screen": "Maternal deaths per *100,000* births"
+  },
+  {
+   "say": "In 1990, Egypt and Iran lose a hundred and seven.",
+   "screen": "*1990:* Egypt and Iran *107*"
+  },
+  {
+   "say": "Britain leads with six. America, twelve. Israel, twenty nine.",
+   "screen": "*1990:* UK 6, USA 12, Israel 29"
+  },
+  {
+   "say": "Then the region falls fast. Egypt ends at seventeen.",
+   "screen": "Egypt: *107* to *17*"
+  },
+  {
+   "say": "Turkey, from forty two to fifteen. Lebanon and Iran end at fifteen and sixteen.",
+   "screen": "Turkey *15,* Lebanon *15,* Iran *16*"
+  },
+  {
+   "say": "America goes the other way. Twelve, then seventeen.",
+   "screen": "USA: *12* to *17*"
+  },
+  {
+   "say": "2021, the pandemic, spikes almost everywhere. Jordan hits seventy nine.",
+   "screen": "*2021:* pandemic spike, Jordan *79*"
+  },
+  {
+   "say": "Saudi Arabia ends at seven. Germany, four. The UAE, three.",
+   "screen": "Saudi Arabia *7,* Germany *4,* UAE *3*"
+  },
+  {
+   "say": "Why did America go backwards? Tell me in the comments.",
+   "screen": "Why did the USA *go backwards?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "And the lowest on the chart?",
+   "gap": 0.25
+  },
+  {
+   "say": "Israel. Two.",
+   "screen": "Israel 2023: *2* per 100,000"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/econ_mothers_race.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "short": "ISR",
+    "color": "#44A3DC",
+    "hl": true
+   },
+   "Egypt": {
+    "flag": "EG",
+    "short": "EGY",
+    "color": "#D8B06E",
+    "hl": false
+   },
+   "Jordan": {
+    "flag": "JO",
+    "short": "JOR",
+    "color": "#C8A249",
+    "hl": false
+   },
+   "Lebanon": {
+    "flag": "LB",
+    "short": "LBN",
+    "color": "#DF5D5C",
+    "hl": false
+   },
+   "Syria": {
+    "flag": "SY",
+    "short": "SYR",
+    "color": "#B28BEF",
+    "hl": false
+   },
+   "Iran": {
+    "flag": "IR",
+    "short": "IRN",
+    "color": "#3FB8A4",
+    "hl": false
+   },
+   "Turkey": {
+    "flag": "TR",
+    "short": "TUR",
+    "color": "#EF894A",
+    "hl": false
+   },
+   "Saudi Arabia": {
+    "flag": "SA",
+    "short": "SAU",
+    "color": "#2E9E5B",
+    "hl": false
+   },
+   "UAE": {
+    "flag": "AE",
+    "short": "UAE",
+    "color": "#2DBE6F",
+    "hl": false
+   },
+   "USA": {
+    "flag": "US",
+    "short": "USA",
+    "color": "#8FA6C8",
+    "hl": false
+   },
+   "UK": {
+    "flag": "GB",
+    "short": "UK",
+    "color": "#9B4E8D",
+    "hl": false
+   },
+   "Germany": {
+    "flag": "DE",
+    "short": "GER",
+    "color": "#B0B7C3",
+    "hl": false
+   }
+  },
+  "orient": "vertical",
+  "nodata": true,
+  "tail_nan": true,
+  "top": 12,
+  "dec": 0,
+  "prefix": "",
+  "suffix": "",
+  "area": {
+   "x0": 40,
+   "x1": 1040,
+   "base": 1130,
+   "top": 640,
+   "val_size": 38,
+   "lab_size": 38,
+   "key_y": 1330
+  },
+  "keyframes": [
+   [
+    "L0",
+    "1990"
+   ],
+   [
+    "L3e",
+    "1990"
+   ],
+   [
+    "L4",
+    "1991"
+   ],
+   [
+    "L6e",
+    "2020"
+   ],
+   [
+    "L7",
+    "2021"
+   ],
+   [
+    "L7e",
+    "2022"
+   ],
+   [
+    "L8e",
+    "2023"
+   ]
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "hook_y": 440,
+  "title_y": 300,
+  "asc": true,
+  "photos": [
+   {
+    "file": "photos/bI_ad_taumed.jpg",
+    "at": "L4",
+    "until": "L4e+0.1",
+    "credit": "Zalmanson Zeller, PikiWiki Israel / Wikimedia Commons, CC BY 2.5"
+   },
+   {
+    "file": "photos/ik_riyadh.jpg",
+    "at": "L8",
+    "until": "L8e+0.1",
+    "credit": "B.alotaby / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/bI_ad_soroka.jpg",
+    "at": "L2",
+    "until": "L2e+0.1",
+    "credit": "Omer Berner / Wikimedia Commons, CC BY-SA 4.0"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "WHO, UN MMEIG via World Bank, SH.STA.MMRT",
+   "year": 2023,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "Modelled UN estimates. Small numbers *swing yearly.*",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "In 1990 this country was eighth of twelve. Guess where it finished.\n\nMaternal deaths per 100,000 live births, 2023 (UN modelled estimates via the World Bank):\nIsrael 2\nUAE 3\nGermany 4\nSaudi Arabia 7\nUK 8\nTurkey 15\nLebanon 15\nIran 16\nEgypt 17\nUSA 17\nSyria 20\nJordan 31\n\n1990: UK 6, USA 12, Israel 29, Egypt 107, Iran 107. The USA rose from 12 to 17 (31 in 2021). The pandemic year 2021 spiked almost everywhere (Jordan 79, Lebanon 54, Iran 51).\nThese are modelled estimates; small numbers move from year to year.\n\nSource: WHO, UNICEF, UNFPA, World Bank Group and UNDESA (MMEIG) via World Bank, World Development Indicators, SH.STA.MMRT, 1990 to 2023. The animation interpolates between years.\nPhotos: Tel Aviv University medical building (Zalmanson Zeller, PikiWiki, CC BY 2.5), Riyadh (B.alotaby, CC BY-SA 4.0), Soroka and Ben Gurion University (Omer Berner, CC BY-SA 4.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "תמותת אמהות ל 100,000 לידות, 2023 (הערכות האו\"ם דרך הבנק העולמי): ישראל 2, הנמוך בטבלה. ארה\"ב 17, ירדן 31. ב 1990 ישראל הייתה על 29.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Health",
+  "#Mothers"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "2",
+  "text": "*2* in *100,000.*|Which country?"
+ },
+ "hook_original": true
+}

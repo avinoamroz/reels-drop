@@ -1,0 +1,253 @@
+{
+ "id": "econ_women_work",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*62%* of women.|Who beats that?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Sixty two percent of Israeli women are in the workforce, working or looking for work. Is that a lot?"
+  },
+  {
+   "say": "Let's race twelve countries since 1990.",
+   "screen": "Women in the labour force, *1990* to 2024"
+  },
+  {
+   "say": "In 1990, America leads with fifty six percent. Britain is next. Israel, forty six.",
+   "screen": "*1990:* USA 56%, UK 52%, Israel 46%"
+  },
+  {
+   "say": "Then Israeli women keep joining. In 2001, Israel passes Britain.",
+   "screen": "*2001:* Israel passes the UK"
+  },
+  {
+   "say": "In 2011, America.",
+   "screen": "*2011:* Israel passes the USA"
+  },
+  {
+   "say": "Saudi Arabia climbs from fifteen percent to thirty three, most of it after 2017.",
+   "screen": "Saudi Arabia: *15%* to *33%*"
+  },
+  {
+   "say": "Egypt, Jordan, Iran and Syria are still under one in five.",
+   "screen": "Egypt, Jordan, Iran, Syria: under *1 in 5*"
+  },
+  {
+   "say": "The UAE nearly doubles, from twenty nine to fifty three. Turkey reaches thirty seven.",
+   "screen": "UAE *52.5%,* Turkey *36.8%*"
+  },
+  {
+   "say": "Germany starts just behind Israel, and ends at fifty six.",
+   "screen": "Germany: *55.6%*"
+  },
+  {
+   "say": "What gets more women into work? Tell me in the comments.",
+   "screen": "What gets *more women* working?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So who leads all twelve?",
+   "gap": 0.25
+  },
+  {
+   "say": "Israel. Sixty two percent.",
+   "screen": "Israel 2024: *62.2%*"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/econ_women_work.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "short": "ISR",
+    "color": "#44A3DC",
+    "hl": true
+   },
+   "Egypt": {
+    "flag": "EG",
+    "short": "EGY",
+    "color": "#D8B06E",
+    "hl": false
+   },
+   "Jordan": {
+    "flag": "JO",
+    "short": "JOR",
+    "color": "#C8A249",
+    "hl": false
+   },
+   "Lebanon": {
+    "flag": "LB",
+    "short": "LBN",
+    "color": "#DF5D5C",
+    "hl": false
+   },
+   "Syria": {
+    "flag": "SY",
+    "short": "SYR",
+    "color": "#B28BEF",
+    "hl": false
+   },
+   "Iran": {
+    "flag": "IR",
+    "short": "IRN",
+    "color": "#3FB8A4",
+    "hl": false
+   },
+   "Turkey": {
+    "flag": "TR",
+    "short": "TUR",
+    "color": "#EF894A",
+    "hl": false
+   },
+   "Saudi Arabia": {
+    "flag": "SA",
+    "short": "SAU",
+    "color": "#2E9E5B",
+    "hl": false
+   },
+   "UAE": {
+    "flag": "AE",
+    "short": "UAE",
+    "color": "#2DBE6F",
+    "hl": false
+   },
+   "USA": {
+    "flag": "US",
+    "short": "USA",
+    "color": "#8FA6C8",
+    "hl": false
+   },
+   "UK": {
+    "flag": "GB",
+    "short": "UK",
+    "color": "#9B4E8D",
+    "hl": false
+   },
+   "Germany": {
+    "flag": "DE",
+    "short": "GER",
+    "color": "#B0B7C3",
+    "hl": false
+   }
+  },
+  "orient": "vertical",
+  "nodata": true,
+  "tail_nan": true,
+  "top": 12,
+  "dec": 1,
+  "prefix": "",
+  "suffix": "%",
+  "area": {
+   "x0": 40,
+   "x1": 1040,
+   "base": 1130,
+   "top": 640,
+   "val_size": 38,
+   "lab_size": 38,
+   "key_y": 1330
+  },
+  "keyframes": [
+   [
+    "L0",
+    "1990"
+   ],
+   [
+    "L2e",
+    "1990"
+   ],
+   [
+    "L3",
+    "1991"
+   ],
+   [
+    "L3e",
+    "2001"
+   ],
+   [
+    "L4e",
+    "2011"
+   ],
+   [
+    "L5",
+    "2017"
+   ],
+   [
+    "L5e",
+    "2024"
+   ]
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "hook_y": 440,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "photos/cs_intel.jpg",
+    "at": "L3",
+    "until": "L3e+0.1",
+    "credit": "Lehava Center Qiryat Gat, PikiWiki Israel / Wikimedia Commons, CC BY 2.5"
+   },
+   {
+    "file": "photos/ik_riyadh.jpg",
+    "at": "L5",
+    "until": "L5e+0.1",
+    "credit": "B.alotaby / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/ik_matam.jpg",
+    "at": "L7",
+    "until": "L7e+0.1",
+    "credit": "Zvi Roger, Haifa Municipality / Wikimedia Commons, CC BY 3.0"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "World Bank, ILO modelled estimates, SL.TLF.CACT.FE.ZS",
+   "year": 2024,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "Working is one measure. *Pay gaps* exist everywhere.",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "In 1990 this country was third. Watch who it passes.\n\nWomen in the labour force, % of women aged 15+ (ILO modelled estimates via the World Bank, 2024):\nIsrael 62.2%\nUK 57.5%\nUSA 56.6%\nGermany 55.6%\nUAE 52.5%\nTurkey 36.8%\nSaudi Arabia 33.3%\nLebanon 22.2% (2023, latest)\nEgypt 18.5%\nJordan 16.0%\nIran 14.1%\nSyria 12.8%\n\n1990: USA 56.0%, UK 52.0%, Israel 46.3%. Israel passed the UK in 2001 and the USA in 2011. Saudi Arabia rose from 15.0% (1990) and 19.9% (2017) to 33.3% (2024).\nThe labour force counts women working or looking for work. It says nothing about pay, and pay gaps exist in every country here.\n\nSource: World Bank, World Development Indicators, SL.TLF.CACT.FE.ZS (ILO modelled estimates), 1990 to 2024. The animation interpolates between years.\nPhotos: Intel Kiryat Gat (Lehava Center, PikiWiki, CC BY 2.5), Riyadh (B.alotaby, CC BY-SA 4.0), Matam Haifa (Zvi Roger, CC BY 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "62% מהנשים בישראל בכוח העבודה (ILO דרך הבנק העולמי, 2024), הכי הרבה מבין 12 המדינות, לפני בריטניה (57.5%) וארה\"ב (56.6%). ב 1990 ישראל הייתה שלישית. סעודיה קפצה מ 15% ל 33%.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Women",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "62%",
+  "text": "*62%* of women.|Who beats that?"
+ },
+ "hook_original": true
+}

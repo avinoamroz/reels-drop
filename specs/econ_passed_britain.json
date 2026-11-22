@@ -1,0 +1,267 @@
+{
+ "id": "econ_passed_britain",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*$356* short|of Germany.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Three hundred fifty six dollars. That is how far Israel is from Germany."
+  },
+  {
+   "say": "GDP per person, in dollars, since 1980.",
+   "screen": "GDP per person, US$, *1980* to 2025"
+  },
+  {
+   "say": "In 1980, the UAE is far ahead. Israel makes about sixty percent of a Brit.",
+   "screen": "*1980:* Israel $6,368, UK $10,692"
+  },
+  {
+   "say": "Oil prices fall, and Saudi income halves in ten years.",
+   "screen": "Saudi Arabia: *$19,543* to *$8,562*"
+  },
+  {
+   "say": "2016. Israel passes France.",
+   "screen": "*2016:* Israel passes France"
+  },
+  {
+   "say": "2019. Britain.",
+   "screen": "*2019:* Israel passes the UK"
+  },
+  {
+   "say": "2022. Even Germany, for one year.",
+   "screen": "*2022:* Israel passes Germany"
+  },
+  {
+   "say": "In 2023, the war year, it falls back behind Germany.",
+   "screen": "*2023:* behind Germany again"
+  },
+  {
+   "say": "Turkey keeps climbing, past eighteen thousand. Egypt and Jordan stay under six.",
+   "screen": "Turkey *$18,676,* Egypt *$3,379*"
+  },
+  {
+   "say": "And in 2025, Israel reaches sixty thousand nine hundred.",
+   "screen": "*2025:* Israel $60,899"
+  },
+  {
+   "say": "Fair point: these are dollars, so a strong shekel lifts them.",
+   "screen": "A strong shekel *lifts* these numbers"
+  },
+  {
+   "say": "Will Israel pass Germany again next year? Tell me in the comments.",
+   "screen": "Will Israel pass *Germany* again?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So how big is the gap now?",
+   "gap": 0.25
+  },
+  {
+   "say": "Three hundred fifty six dollars.",
+   "screen": "Germany $61,255, Israel $60,899"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/econ_passed_britain.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "short": "ISR",
+    "color": "#44A3DC",
+    "hl": true
+   },
+   "Egypt": {
+    "flag": "EG",
+    "short": "EGY",
+    "color": "#D8B06E",
+    "hl": false
+   },
+   "Jordan": {
+    "flag": "JO",
+    "short": "JOR",
+    "color": "#C8A249",
+    "hl": false
+   },
+   "Lebanon": {
+    "flag": "LB",
+    "short": "LBN",
+    "color": "#DF5D5C",
+    "hl": false
+   },
+   "Syria": {
+    "flag": "SY",
+    "short": "SYR",
+    "color": "#B28BEF",
+    "hl": false
+   },
+   "Turkey": {
+    "flag": "TR",
+    "short": "TUR",
+    "color": "#EF894A",
+    "hl": false
+   },
+   "Saudi Arabia": {
+    "flag": "SA",
+    "short": "SAU",
+    "color": "#2E9E5B",
+    "hl": false
+   },
+   "UAE": {
+    "flag": "AE",
+    "short": "UAE",
+    "color": "#2DBE6F",
+    "hl": false
+   },
+   "UK": {
+    "flag": "GB",
+    "short": "UK",
+    "color": "#9B4E8D",
+    "hl": false
+   },
+   "Germany": {
+    "flag": "DE",
+    "short": "GER",
+    "color": "#B0B7C3",
+    "hl": false
+   },
+   "France": {
+    "flag": "FR",
+    "short": "FRA",
+    "color": "#6E9A72",
+    "hl": false
+   }
+  },
+  "orient": "vertical",
+  "nodata": true,
+  "tail_nan": true,
+  "top": 11,
+  "dec": 0,
+  "prefix": "$",
+  "suffix": "",
+  "area": {
+   "x0": 40,
+   "x1": 1040,
+   "base": 1130,
+   "top": 640,
+   "val_size": 38,
+   "lab_size": 38,
+   "key_y": 1330
+  },
+  "keyframes": [
+   [
+    "L0",
+    "1980"
+   ],
+   [
+    "L2e",
+    "1980"
+   ],
+   [
+    "L3",
+    "1981"
+   ],
+   [
+    "L3e",
+    "1990"
+   ],
+   [
+    "L4e",
+    "2016"
+   ],
+   [
+    "L5e",
+    "2019"
+   ],
+   [
+    "L6e",
+    "2022"
+   ],
+   [
+    "L7e",
+    "2023"
+   ],
+   [
+    "L8e",
+    "2024"
+   ],
+   [
+    "L9e",
+    "2025"
+   ]
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "hook_y": 440,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "photos/ik_dxb.jpg",
+    "at": "L2:UAE",
+    "until": "L2e",
+    "credit": "Chris Olszewski / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/cs_oil.jpg",
+    "at": "L3",
+    "until": "L3e+0.1",
+    "credit": "Planet Labs / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/cs_tlv2.jpg",
+    "at": "L10",
+    "until": "L10e",
+    "credit": "Wikimedia Commons user מקף־עברי, CC BY-SA 4.0"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "IMF World Economic Outlook, GDP per capita (2025 estimate)",
+   "year": 2025,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Dollar numbers *swing with the shekel.*",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "It passed France, then Britain, then Germany for one year. Now look at the gap.\n\nGDP per person, current US$, 2025 (IMF estimates):\nGermany 61,255\nIsrael 60,899\nUK 57,741\nUAE 54,151\nFrance 49,129\nSaudi Arabia 35,370\nTurkey 18,676\nLebanon 5,897\nJordan 5,169\nEgypt 3,379\nSyria: no IMF data after 2010\n\nIsrael passed France in 2016, the UK in 2019 and Germany in 2022 (54,474 vs 51,215), then fell back behind Germany in 2023. 1980: Israel 6,368, UK 10,692. Saudi Arabia fell from 19,543 (1980) to 8,562 (1990) as oil prices fell. The IMF projects Israel above Germany in 2026; projections can change.\nThese are dollar figures, so a strong shekel lifts Israel's numbers. Per person income is not the same as how well off every household is.\n\nSource: IMF World Economic Outlook database (DataMapper), NGDPDPC, 1980 to 2025. The animation interpolates between years.\nPhotos: Dubai airport (Chris Olszewski, CC BY-SA 4.0), Khurais oil facility (Planet Labs, CC BY-SA 4.0), Tel Aviv (CC BY-SA 4.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "תוצר לנפש, 2025 (קרן המטבע): גרמניה 61,255 דולר, ישראל 60,899. ישראל עקפה את צרפת ב 2016, את בריטניה ב 2019, ואת גרמניה ב 2022, לשנה אחת. הפער היום: 356 דולר. שקל חזק מגדיל את המספרים בדולרים.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Economy",
+  "#GDP"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "$356",
+  "text": "*$356* short|of Germany."
+ },
+ "hook_original": true
+}

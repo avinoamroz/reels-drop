@@ -1,0 +1,249 @@
+{
+ "id": "econ_shekel_100",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*$100* in 2015.|What's left?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "A hundred dollars in 2015. Change it into your local money, and wait ten years."
+  },
+  {
+   "say": "Here is what it is worth in dollars, every year.",
+   "screen": "Your 2015 savings, *in dollars*"
+  },
+  {
+   "say": "Jordan, Saudi Arabia and the UAE stay at a hundred. Their money is pegged to the dollar.",
+   "screen": "Pegged to the dollar: *$100* flat"
+  },
+  {
+   "say": "Syria's pound keeps collapsing in the civil war.",
+   "screen": "Syria by 2022: *$9.46*"
+  },
+  {
+   "say": "Turkey's lira slides every single year.",
+   "screen": "Turkey 2025: *$6.89*"
+  },
+  {
+   "say": "Egypt devalues again and again.",
+   "screen": "Egypt 2025: *$15.62*"
+  },
+  {
+   "say": "Lebanon's banks freeze in 2019. Then the pound falls off a cliff.",
+   "screen": "Lebanon 2025: *$1.68*"
+  },
+  {
+   "say": "Iran's official rate is frozen, so it tells us nothing. No data.",
+   "screen": "Iran: official rate frozen, *no data*"
+  },
+  {
+   "say": "The euro ends near a hundred and two. The British pound, eighty six.",
+   "screen": "Euro *$101.84,* pound *$86.18*"
+  },
+  {
+   "say": "Which currency surprised you? Tell me in the comments.",
+   "screen": "Which currency *surprised you?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "And Israel, after two years of war?",
+   "gap": 0.25
+  },
+  {
+   "say": "The shekel. It peaks at a hundred and twenty in 2021, and ends at a hundred and twelve dollars and sixty cents.",
+   "screen": "Israel 2025: *$112.60*"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/econ_shekel_100.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "short": "ISR",
+    "color": "#44A3DC",
+    "hl": true
+   },
+   "Egypt": {
+    "flag": "EG",
+    "short": "EGY",
+    "color": "#D8B06E",
+    "hl": false
+   },
+   "Jordan": {
+    "flag": "JO",
+    "short": "JOR",
+    "color": "#C8A249",
+    "hl": false
+   },
+   "Lebanon": {
+    "flag": "LB",
+    "short": "LBN",
+    "color": "#DF5D5C",
+    "hl": false
+   },
+   "Syria": {
+    "flag": "SY",
+    "short": "SYR",
+    "color": "#B28BEF",
+    "hl": false
+   },
+   "Iran": {
+    "flag": "IR",
+    "short": "IRN",
+    "color": "#3FB8A4",
+    "hl": false
+   },
+   "Turkey": {
+    "flag": "TR",
+    "short": "TUR",
+    "color": "#EF894A",
+    "hl": false
+   },
+   "Saudi Arabia": {
+    "flag": "SA",
+    "short": "SAU",
+    "color": "#2E9E5B",
+    "hl": false
+   },
+   "UAE": {
+    "flag": "AE",
+    "short": "UAE",
+    "color": "#2DBE6F",
+    "hl": false
+   },
+   "Euro": {
+    "flag": "EU",
+    "short": "EUR",
+    "color": "#6E9A72",
+    "hl": false
+   },
+   "UK pound": {
+    "flag": "GB",
+    "short": "GBP",
+    "color": "#9B4E8D",
+    "hl": false
+   }
+  },
+  "orient": "vertical",
+  "nodata": true,
+  "tail_nan": true,
+  "top": 11,
+  "dec": 2,
+  "prefix": "$",
+  "suffix": "",
+  "area": {
+   "x0": 40,
+   "x1": 1040,
+   "base": 1130,
+   "top": 640,
+   "val_size": 38,
+   "lab_size": 38,
+   "key_y": 1330
+  },
+  "keyframes": [
+   [
+    "L0",
+    "2015"
+   ],
+   [
+    "L2e",
+    "2015"
+   ],
+   [
+    "L3",
+    "2016"
+   ],
+   [
+    "L5e",
+    "2022"
+   ],
+   [
+    "L6",
+    "2023"
+   ],
+   [
+    "L6e",
+    "2025"
+   ]
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "hook_y": 440,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "photos/bc_ps_damascus.jpg",
+    "at": "L3",
+    "until": "L3e+0.1",
+    "credit": "KevForkan / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/ik_istanbul.jpg",
+    "at": "L4",
+    "until": "L4e+0.1",
+    "credit": "SegLig / Wikimedia Commons, CC BY 4.0"
+   },
+   {
+    "file": "photos/ik_suez.jpg",
+    "at": "L5",
+    "until": "L5e+0.1",
+    "credit": "Aah-Yeah / Wikimedia Commons, CC BY 2.0"
+   },
+   {
+    "file": "photos/bc_pw_beirut.jpg",
+    "at": "L6:Then",
+    "until": "L6e",
+    "credit": "Wusel007 / Wikimedia Commons, CC BY-SA 3.0"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "World Bank, official exchange rate PA.NUS.FCRF, yearly average",
+   "year": 2025,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "A strong shekel also *hurts exporters.*",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "Ten years, eleven currencies. The winner went through two years of war.\n\nUS$100 changed into local money in 2015, measured back in dollars (World Bank official exchange rates, yearly averages):\nIsrael (shekel) 2025: $112.60\nEuro 2025: $101.84\nJordan, Saudi Arabia, UAE: $100 (pegged to the dollar)\nUK pound 2025: $86.18\nEgypt 2025: $15.62\nSyria 2022 (latest): $9.46\nTurkey 2025: $6.89\nLebanon 2025: $1.68\nIran: no data (the official rate stayed frozen at 42,000 rial while the market rate moved)\n\nExchange rates are not wealth, and a strong shekel also hurts Israeli exporters and tourism. This is not financial advice.\n\nSource: World Bank, World Development Indicators, PA.NUS.FCRF (official exchange rate, LCU per US$, period average), 2015 to 2025. Value = 100 x rate in 2015 / rate in that year.\nPhotos: Damascus (KevForkan, CC BY-SA 4.0), Istanbul (SegLig, CC BY 4.0), Suez Canal (Aah-Yeah, CC BY 2.0), Beirut (Wusel007, CC BY-SA 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "100 דולר ב 2015, הומרו למטבע מקומי. כמה הם שווים היום בדולרים? ישראל: 112.60, הכי הרבה בטבלה, גם אחרי שנתיים של מלחמה. מצרים 15.62, טורקיה 6.89, לבנון 1.68. מקור: הבנק העולמי. לא ייעוץ השקעות.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Shekel",
+  "#Economy"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "$100",
+  "text": "*$100* in 2015.|What's left?"
+ },
+ "hook_original": true
+}

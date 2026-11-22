@@ -1,0 +1,264 @@
+{
+ "id": "econ_peace_dividend",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*23%* of GDP|on defence?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Twenty three percent of everything Israel produced went to defence. That was 1970."
+  },
+  {
+   "say": "This is the defence bill as a share of the economy. Lowest first.",
+   "screen": "Military spending, *% of GDP,* lowest first"
+  },
+  {
+   "say": "In 1970, Israel, Jordan and Egypt all spend more than fifteen percent.",
+   "screen": "*1970:* Israel 23%, Jordan 19%, Egypt 16%"
+  },
+  {
+   "say": "1979. Israel and Egypt sign peace.",
+   "screen": "*1979:* peace with Egypt"
+  },
+  {
+   "say": "Egypt's bill falls and falls. Today, under one percent.",
+   "screen": "Egypt 2025: *0.6%*"
+  },
+  {
+   "say": "1994. Peace with Jordan.",
+   "screen": "*1994:* peace with Jordan"
+  },
+  {
+   "say": "Syria disappears from the data after 2010, in its civil war.",
+   "screen": "Syria: *no data* after 2010"
+  },
+  {
+   "say": "By 2022, Israel is down to four point three.",
+   "screen": "*2022:* Israel 4.3%"
+  },
+  {
+   "say": "Then October seventh, and war. In 2024 it jumps to eight and a half.",
+   "screen": "*2024:* back up to 8.5%"
+  },
+  {
+   "say": "Saudi Arabia, six and a half. America, three.",
+   "screen": "Saudi Arabia *6.5%,* USA *3.1%*"
+  },
+  {
+   "say": "What would the next peace deal pay for? Tell me in the comments.",
+   "screen": "What would the *next peace* pay for?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Where does Israel stand now?",
+   "gap": 0.25
+  },
+  {
+   "say": "Seven point eight percent. Down from twenty three.",
+   "screen": "Israel 2025: *7.8%*"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/econ_peace_dividend.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "short": "ISR",
+    "color": "#44A3DC",
+    "hl": true
+   },
+   "Egypt": {
+    "flag": "EG",
+    "short": "EGY",
+    "color": "#D8B06E",
+    "hl": false
+   },
+   "Jordan": {
+    "flag": "JO",
+    "short": "JOR",
+    "color": "#C8A249",
+    "hl": false
+   },
+   "Lebanon": {
+    "flag": "LB",
+    "short": "LBN",
+    "color": "#DF5D5C",
+    "hl": false
+   },
+   "Syria": {
+    "flag": "SY",
+    "short": "SYR",
+    "color": "#B28BEF",
+    "hl": false
+   },
+   "Iran": {
+    "flag": "IR",
+    "short": "IRN",
+    "color": "#3FB8A4",
+    "hl": false
+   },
+   "Turkey": {
+    "flag": "TR",
+    "short": "TUR",
+    "color": "#EF894A",
+    "hl": false
+   },
+   "Saudi Arabia": {
+    "flag": "SA",
+    "short": "SAU",
+    "color": "#2E9E5B",
+    "hl": false
+   },
+   "USA": {
+    "flag": "US",
+    "short": "USA",
+    "color": "#8FA6C8",
+    "hl": false
+   },
+   "UK": {
+    "flag": "GB",
+    "short": "UK",
+    "color": "#9B4E8D",
+    "hl": false
+   }
+  },
+  "orient": "vertical",
+  "nodata": true,
+  "tail_nan": true,
+  "top": 10,
+  "dec": 1,
+  "prefix": "",
+  "suffix": "%",
+  "area": {
+   "x0": 40,
+   "x1": 1040,
+   "base": 1130,
+   "top": 640,
+   "val_size": 38,
+   "lab_size": 38,
+   "key_y": 1330
+  },
+  "keyframes": [
+   [
+    "L0",
+    "1970"
+   ],
+   [
+    "L2e",
+    "1970"
+   ],
+   [
+    "L3",
+    "1979"
+   ],
+   [
+    "L4e",
+    "1993"
+   ],
+   [
+    "L5",
+    "1994"
+   ],
+   [
+    "L6",
+    "2009"
+   ],
+   [
+    "L6e",
+    "2011"
+   ],
+   [
+    "L7e",
+    "2022"
+   ],
+   [
+    "L8e",
+    "2024"
+   ],
+   [
+    "L9e",
+    "2025"
+   ]
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "hook_y": 440,
+  "title_y": 300,
+  "asc": true,
+  "photos": [
+   {
+    "file": "photos/pt_egypt_sign.jpg",
+    "at": "L3",
+    "until": "L3e+0.2",
+    "credit": "Yaakov Saar, GPO Israel / Wikimedia Commons, CC BY-SA 3.0"
+   },
+   {
+    "file": "photos/pt_jordan_sign.jpg",
+    "at": "L5",
+    "until": "L5e+0.2",
+    "credit": "White House photo, public domain"
+   },
+   {
+    "file": "photos/isl_arrow.jpg",
+    "at": "L8:war",
+    "until": "L8e",
+    "credit": "US Missile Defense Agency, public domain"
+   },
+   {
+    "file": "photos/ik_riyadh.jpg",
+    "at": "L9",
+    "until": "L9e+0.1",
+    "credit": "B.alotaby / Wikimedia Commons, CC BY-SA 4.0"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "SIPRI via World Bank, MS.MIL.XPND.GD.ZS",
+   "year": 2025,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Growth also shrank the share, *not only peace.*",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "Two signatures changed this chart more than any war. Watch 1979.\n\nMilitary spending as % of GDP (SIPRI via the World Bank, 2025):\nEgypt 0.6%\nTurkey 1.9%\nIran 2.1%\nUK 2.4%\nLebanon 2.5%\nUSA 3.1%\nJordan 4.6%\nSaudi Arabia 6.5%\nIsrael 7.8%\nSyria: no data after 2010\n\n1970: Israel 23.4%, Jordan 18.5%, Egypt 16.0%. Peace with Egypt (1979) and Jordan (1994). Israel fell to 4.3% in 2022, then rose to 8.5% in 2024 in the war that began on 7 October 2023.\nGrowth also shrank these shares, not only peace: a bigger economy makes the same army a smaller share.\n\nSource: SIPRI Military Expenditure Database via World Bank, World Development Indicators, MS.MIL.XPND.GD.ZS, 1970 to 2025. The animation interpolates between years.\nPhotos: Egypt Israel peace treaty signing, 1979 (Yaakov Saar, GPO, CC BY-SA 3.0), Hussein, Clinton and Rabin, 1994 (White House, public domain), Arrow 3 test (US Missile Defense Agency, public domain), Riyadh (B.alotaby, CC BY-SA 4.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ב 1970 ישראל הוציאה 23% מהתוצר על ביטחון. אחרי השלום עם מצרים (1979) וירדן (1994) זה ירד ל 4.3% ב 2022. המלחמה העלתה ל 8.5% ב 2024, ו 7.8% ב 2025. מצרים היום: 0.6%. מקור: SIPRI דרך הבנק העולמי.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Peace",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "23%",
+  "text": "*23%* of GDP|on defence?"
+ },
+ "hook_original": true
+}
