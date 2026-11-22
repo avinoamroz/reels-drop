@@ -1,6 +1,114 @@
 {
-  "id": "econ_women_work",
-  "status": "FAILED",
-  "run": "45055227674",
-  "log": "[18:29:02] pron [en]: Sixty two percent of Israeli women are in the workforce, working or looking for work. Is that a lot? Let's race twelve countries since nineteen ninety. In nineteen ninety, America leads with fifty six percent. Britain is next. Israel, forty six. Then Israeli women keep joining. In two thousand and one, Israel passes Britain. In twenty eleven, America. Saudi Arabia climbs from fifteen percent to th\nvoice ok: Cartesia sonic-3 (49.2 s, 121 words, 1 run(s), pronunciation pass) voice/econ_women_work_vo.wav\n[18:29:02] voice: cached voice (script unchanged)\n[ WARN:0@2.724] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/cs_intel.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/cs_intel.jpg\n"
+ "id": "econ_women_work",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*62%* of women.|Who beats that?",
+ "duration": 49.87,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/econ_women_work.mp4",
+  "cover": "covers/econ_women_work_cover.jpg",
+  "preview": "previews/econ_women_work_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_women_work_0.jpg",
+  "1": "out/frames/econ_women_work_1.jpg",
+  "3": "out/frames/econ_women_work_3.jpg",
+  "last": "out/frames/econ_women_work_last.jpg"
+ },
+ "caption_en": "In 1990 this country was third. Watch who it passes.\n\nWomen in the labour force, % of women aged 15+ (ILO modelled estimates via the World Bank, 2024):\nIsrael 62.2%\nUK 57.5%\nUSA 56.6%\nGermany 55.6%\nUAE 52.5%\nTurkey 36.8%\nSaudi Arabia 33.3%\nLebanon 22.2% (2023, latest)\nEgypt 18.5%\nJordan 16.0%\nIran 14.1%\nSyria 12.8%\n\n1990: USA 56.0%, UK 52.0%, Israel 46.3%. Israel passed the UK in 2001 and the USA in 2011. Saudi Arabia rose from 15.0% (1990) and 19.9% (2017) to 33.3% (2024).\nThe labour force counts women working or looking for work. It says nothing about pay, and pay gaps exist in every country here.\n\nSource: World Bank, World Development Indicators, SL.TLF.CACT.FE.ZS (ILO modelled estimates), 1990 to 2024. The animation interpolates between years.\nPhotos: Intel Kiryat Gat (Lehava Center, PikiWiki, CC BY 2.5), Riyadh (B.alotaby, CC BY-SA 4.0), Matam Haifa (Zvi Roger, CC BY 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "62% מהנשים בישראל בכוח העבודה (ILO דרך הבנק העולמי, 2024), הכי הרבה מבין 12 המדינות, לפני בריטניה (57.5%) וארה\"ב (56.6%). ב 1990 ישראל הייתה שלישית. סעודיה קפצה מ 15% ל 33%.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Women",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "World Bank, ILO modelled estimates, SL.TLF.CACT.FE.ZS",
+   "year": 2024,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Sixty two percent of Israeli women are in the workforce, working or looking for work. Is that a lot?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Let's race twelve countries since 1990.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1990, America leads with fifty six percent. Britain is next. Israel, forty six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then Israeli women keep joining. In 2001, Israel passes Britain.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2011, America.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia climbs from fifteen percent to thirty three, most of it after 2017.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt, Jordan, Iran and Syria are still under one in five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The UAE nearly doubles, from twenty nine to fifty three. Turkey reaches thirty seven.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Germany starts just behind Israel, and ends at fifty six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "What gets more women into work? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So who leads all twelve?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel. Sixty two percent.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "62% of Israeli women are in the workforce, working or looking for work. Is that a lot? Let's race 12 countries since 1990. In 1990, America leads with 56%. Britain is next. Israel 46. Then, Israeli women keep joining. In 2001, Israel passes Britain. In 2011, America. Saudi Arabia climbs from 15% to 33%, most of it after 2017. Egypt, Jordan, Iran, and Syria are still under 1 in 5. The UAE nearly doubles, from 29 to 53. Turkey reaches 37. Germany starts just behind Israel and ends at 56. What gets more women into work? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. So who leads all 12? Israel. 62%.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 131.6
 }
