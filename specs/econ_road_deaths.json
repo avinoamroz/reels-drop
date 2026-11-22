@@ -1,0 +1,254 @@
+{
+ "id": "econ_road_deaths",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Saudi roads: *35* deaths.|Israel?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "In 2015, Saudi roads killed thirty five people for every hundred thousand. Where is Israel?"
+  },
+  {
+   "say": "Road deaths per hundred thousand people, since 2000. Lowest first.",
+   "screen": "Road deaths per *100,000,* lowest first"
+  },
+  {
+   "say": "In 2000, Britain is at seven. Israel, eight. The UAE, almost thirty.",
+   "screen": "*2000:* UK 6.9, Israel 8, UAE 29.5"
+  },
+  {
+   "say": "Iran peaks at thirty three in 2010.",
+   "screen": "Iran 2010: *33.3*"
+  },
+  {
+   "say": "Saudi Arabia hits thirty five in 2015.",
+   "screen": "Saudi Arabia 2015: *35.2*"
+  },
+  {
+   "say": "Then the Gulf turns it around. The UAE falls to five. Saudi Arabia, under fifteen.",
+   "screen": "UAE *5.1,* Saudi Arabia *14.7*"
+  },
+  {
+   "say": "Lebanon drops by more than two thirds.",
+   "screen": "Lebanon: *23.4* to *6.9*"
+  },
+  {
+   "say": "Syria goes the other way. Thirty two in 2023.",
+   "screen": "Syria 2023: *31.7*"
+  },
+  {
+   "say": "Britain stays the champion, at two and a half. Germany, three point four.",
+   "screen": "UK *2.5,* Germany *3.4*"
+  },
+  {
+   "say": "And Israel halves its rate since 2000.",
+   "screen": "Israel: *8* to *4*"
+  },
+  {
+   "say": "What makes roads safer, cameras or culture? Tell me in the comments.",
+   "screen": "Cameras or culture: *what works?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So where does Israel finish?",
+   "gap": 0.25
+  },
+  {
+   "say": "Four. The best of the Middle East on this chart.",
+   "screen": "Israel 2023: *4.0,* best in the region"
+  }
+ ],
+ "data": {
+  "csv": "templates/data/econ_road_deaths.csv",
+  "meta": {
+   "Israel": {
+    "flag": "IL",
+    "short": "ISR",
+    "color": "#44A3DC",
+    "hl": true
+   },
+   "Egypt": {
+    "flag": "EG",
+    "short": "EGY",
+    "color": "#D8B06E",
+    "hl": false
+   },
+   "Jordan": {
+    "flag": "JO",
+    "short": "JOR",
+    "color": "#C8A249",
+    "hl": false
+   },
+   "Lebanon": {
+    "flag": "LB",
+    "short": "LBN",
+    "color": "#DF5D5C",
+    "hl": false
+   },
+   "Syria": {
+    "flag": "SY",
+    "short": "SYR",
+    "color": "#B28BEF",
+    "hl": false
+   },
+   "Iran": {
+    "flag": "IR",
+    "short": "IRN",
+    "color": "#3FB8A4",
+    "hl": false
+   },
+   "Turkey": {
+    "flag": "TR",
+    "short": "TUR",
+    "color": "#EF894A",
+    "hl": false
+   },
+   "Saudi Arabia": {
+    "flag": "SA",
+    "short": "SAU",
+    "color": "#2E9E5B",
+    "hl": false
+   },
+   "UAE": {
+    "flag": "AE",
+    "short": "UAE",
+    "color": "#2DBE6F",
+    "hl": false
+   },
+   "UK": {
+    "flag": "GB",
+    "short": "UK",
+    "color": "#9B4E8D",
+    "hl": false
+   },
+   "Germany": {
+    "flag": "DE",
+    "short": "GER",
+    "color": "#B0B7C3",
+    "hl": false
+   }
+  },
+  "orient": "vertical",
+  "nodata": true,
+  "tail_nan": true,
+  "top": 11,
+  "dec": 1,
+  "prefix": "",
+  "suffix": "",
+  "area": {
+   "x0": 40,
+   "x1": 1040,
+   "base": 1130,
+   "top": 640,
+   "val_size": 38,
+   "lab_size": 38,
+   "key_y": 1330
+  },
+  "keyframes": [
+   [
+    "L0",
+    "2000"
+   ],
+   [
+    "L2e",
+    "2000"
+   ],
+   [
+    "L3",
+    "2001"
+   ],
+   [
+    "L3e",
+    "2010"
+   ],
+   [
+    "L4e",
+    "2015"
+   ],
+   [
+    "L5e",
+    "2023"
+   ]
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e+0.3"
+    ],
+    [
+     "END-0.6",
+     "END"
+    ]
+   ]
+  },
+  "hook_y": 440,
+  "title_y": 300,
+  "asc": true,
+  "photos": [
+   {
+    "file": "templates/photos/econ/ik_riyadh.jpg",
+    "at": "L4",
+    "until": "L4e+0.1",
+    "credit": "B.alotaby / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "templates/photos/econ/ik_dxb.jpg",
+    "at": "L5:UAE",
+    "until": "L5e",
+    "credit": "Chris Olszewski / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "templates/photos/econ/bc_pw_beirut.jpg",
+    "at": "L6",
+    "until": "L6e+0.1",
+    "credit": "Wusel007 / Wikimedia Commons, CC BY-SA 3.0"
+   },
+   {
+    "file": "templates/photos/econ/the_ayalon.jpg",
+    "at": "L9",
+    "until": "L9e+0.1",
+    "credit": "Ilya Platonov / Wikimedia Commons, public domain"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "WHO Global Health Observatory, RS_198 (modelled estimates)",
+   "year": 2023,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "WHO modelled estimates, *not police counts.*",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "Two countries beat it. Neither is in the Middle East.\n\nRoad traffic deaths per 100,000 people, 2023 (WHO modelled estimates):\nUK 2.5\nGermany 3.4\nIsrael 4.0\nUAE 5.1\nLebanon 6.9\nEgypt 7.9\nTurkey 8.1\nJordan 13.7\nSaudi Arabia 14.7\nIran 19.4\nSyria 31.7\n\n2000: UK 6.9, Israel 8.0, UAE 29.5. Iran peaked at 33.3 (2010), Saudi Arabia at 35.2 (2015). Lebanon fell from 23.4 to 6.9. Israel halved its rate from 8.0 to 4.0.\nThese are WHO modelled estimates and can differ from national police counts.\n\nSource: WHO Global Health Observatory, RS_198, estimated road traffic death rate per 100,000 population, 2000 to 2023. The animation interpolates between years.\nPhotos: Riyadh (B.alotaby, CC BY-SA 4.0), Dubai airport (Chris Olszewski, CC BY-SA 4.0), Beirut (Wusel007, CC BY-SA 3.0), Ayalon Highway (Ilya Platonov, public domain), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "הרוגים בתאונות דרכים ל 100,000 תושבים, 2023 (הערכות ארגון הבריאות העולמי): בריטניה 2.5, גרמניה 3.4, ישראל 4.0, הטובה במזרח התיכון בטבלה. סוריה 31.7, איראן 19.4, סעודיה 14.7.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#RoadSafety",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 6.0,
+  "big": "35 vs ?",
+  "text": "Saudi roads: *35* deaths.|Israel?"
+ },
+ "hook_original": true
+}
