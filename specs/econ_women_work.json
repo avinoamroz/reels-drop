@@ -204,19 +204,19 @@
   "title_y": 300,
   "photos": [
    {
-    "file": "photos/cs_intel.jpg",
+    "file": "templates/photos/econ/cs_intel.jpg",
     "at": "L3",
     "until": "L3e+0.1",
     "credit": "Lehava Center Qiryat Gat, PikiWiki Israel / Wikimedia Commons, CC BY 2.5"
    },
    {
-    "file": "photos/ik_riyadh.jpg",
+    "file": "templates/photos/econ/ik_riyadh.jpg",
     "at": "L5",
     "until": "L5e+0.1",
     "credit": "B.alotaby / Wikimedia Commons, CC BY-SA 4.0"
    },
    {
-    "file": "photos/ik_matam.jpg",
+    "file": "templates/photos/econ/ik_matam.jpg",
     "at": "L7",
     "until": "L7e+0.1",
     "credit": "Zvi Roger, Haifa Municipality / Wikimedia Commons, CC BY 3.0"

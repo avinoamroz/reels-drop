@@ -196,19 +196,19 @@
   "title_y": 300,
   "photos": [
    {
-    "file": "photos/ik_intel.jpg",
+    "file": "templates/photos/econ/ik_intel.jpg",
     "at": "L2",
     "until": "L2e+0.1",
     "credit": "xiquinhosilva / Wikimedia Commons, CC BY 2.0"
    },
    {
-    "file": "photos/cs_oil.jpg",
+    "file": "templates/photos/econ/cs_oil.jpg",
     "at": "L4",
     "until": "L4e+0.1",
     "credit": "Planet Labs / Wikimedia Commons, CC BY-SA 4.0"
    },
    {
-    "file": "photos/ik_matam.jpg",
+    "file": "templates/photos/econ/ik_matam.jpg",
     "at": "L8",
     "until": "L8e+0.1",
     "credit": "Zvi Roger, Haifa Municipality / Wikimedia Commons, CC BY 3.0"

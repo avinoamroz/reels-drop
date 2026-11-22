@@ -308,25 +308,25 @@
   },
   "photos": [
    {
-    "file": "photos/bf_p_el_leviathan.jpg",
+    "file": "templates/photos/econ/bf_p_el_leviathan.jpg",
     "at": "L5",
     "until": "L5e+0.1",
     "credit": "Deror Avi / Wikimedia Commons, CC BY-SA 4.0"
    },
    {
-    "file": "photos/pb_leviathan_rig.jpg",
+    "file": "templates/photos/econ/pb_leviathan_rig.jpg",
     "at": "L8",
     "until": "L8e",
     "credit": "Amir.bendavid / Wikimedia Commons, CC BY-SA 4.0"
    },
    {
-    "file": "photos/wbeb_amman.jpg",
+    "file": "templates/photos/econ/wbeb_amman.jpg",
     "at": "L10",
     "until": "L10e+0.1",
     "credit": "Zairon / Wikimedia Commons, CC BY-SA 3.0"
    },
    {
-    "file": "photos/pt_egypt_sign.jpg",
+    "file": "templates/photos/econ/pt_egypt_sign.jpg",
     "at": "L11",
     "until": "L11e",
     "credit": "Yaakov Saar, GPO Israel / Wikimedia Commons, CC BY-SA 3.0"

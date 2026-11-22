@@ -218,19 +218,19 @@
   "title_y": 300,
   "photos": [
    {
-    "file": "photos/ik_dxb.jpg",
+    "file": "templates/photos/econ/ik_dxb.jpg",
     "at": "L2:UAE",
     "until": "L2e",
     "credit": "Chris Olszewski / Wikimedia Commons, CC BY-SA 4.0"
    },
    {
-    "file": "photos/cs_oil.jpg",
+    "file": "templates/photos/econ/cs_oil.jpg",
     "at": "L3",
     "until": "L3e+0.1",
     "credit": "Planet Labs / Wikimedia Commons, CC BY-SA 4.0"
    },
    {
-    "file": "photos/cs_tlv2.jpg",
+    "file": "templates/photos/econ/cs_tlv2.jpg",
     "at": "L10",
     "until": "L10e",
     "credit": "Wikimedia Commons user מקף־עברי, CC BY-SA 4.0"

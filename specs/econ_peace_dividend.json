@@ -209,25 +209,25 @@
   "asc": true,
   "photos": [
    {
-    "file": "photos/pt_egypt_sign.jpg",
+    "file": "templates/photos/econ/pt_egypt_sign.jpg",
     "at": "L3",
     "until": "L3e+0.2",
     "credit": "Yaakov Saar, GPO Israel / Wikimedia Commons, CC BY-SA 3.0"
    },
    {
-    "file": "photos/pt_jordan_sign.jpg",
+    "file": "templates/photos/econ/pt_jordan_sign.jpg",
     "at": "L5",
     "until": "L5e+0.2",
     "credit": "White House photo, public domain"
    },
    {
-    "file": "photos/isl_arrow.jpg",
+    "file": "templates/photos/econ/isl_arrow.jpg",
     "at": "L8:war",
     "until": "L8e",
     "credit": "US Missile Defense Agency, public domain"
    },
    {
-    "file": "photos/ik_riyadh.jpg",
+    "file": "templates/photos/econ/ik_riyadh.jpg",
     "at": "L9",
     "until": "L9e+0.1",
     "credit": "B.alotaby / Wikimedia Commons, CC BY-SA 4.0"

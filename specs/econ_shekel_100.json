@@ -194,25 +194,25 @@
   "title_y": 300,
   "photos": [
    {
-    "file": "photos/bc_ps_damascus.jpg",
+    "file": "templates/photos/econ/bc_ps_damascus.jpg",
     "at": "L3",
     "until": "L3e+0.1",
     "credit": "KevForkan / Wikimedia Commons, CC BY-SA 4.0"
    },
    {
-    "file": "photos/ik_istanbul.jpg",
+    "file": "templates/photos/econ/ik_istanbul.jpg",
     "at": "L4",
     "until": "L4e+0.1",
     "credit": "SegLig / Wikimedia Commons, CC BY 4.0"
    },
    {
-    "file": "photos/ik_suez.jpg",
+    "file": "templates/photos/econ/ik_suez.jpg",
     "at": "L5",
     "until": "L5e+0.1",
     "credit": "Aah-Yeah / Wikimedia Commons, CC BY 2.0"
    },
    {
-    "file": "photos/bc_pw_beirut.jpg",
+    "file": "templates/photos/econ/bc_pw_beirut.jpg",
     "at": "L6:Then",
     "until": "L6e",
     "credit": "Wusel007 / Wikimedia Commons, CC BY-SA 3.0"
