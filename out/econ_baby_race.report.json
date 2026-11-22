@@ -1,0 +1,6 @@
+{
+  "id": "econ_baby_race",
+  "status": "FAILED",
+  "run": "45055227674",
+  "log": "[18:29:22] pron [en]: Thirty eight babies in every thousand died before their first birthday. That was Israel in nineteen sixty. Britain was at twenty three. Egypt and Turkey, more than one baby in six. Then the whole region starts racing down. Turkey cuts its rate by ninety five percent. Egypt falls from one seventy three to twenty one. Iran, from eighty eight to ten. Lebanon goes the other way. Since twenty fifteen, \nvoice ok: Cartesia sonic-3 (42.7 s, 114 words, 1 run(s), pronunciation pass) voice/econ_baby_race_vo.wav\n[18:29:23] voice: cached voice (script unchanged)\n[ WARN:0@2.004] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bI_ad_hadassah.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bI_ad_hadassah.jpg\n"
+}
