@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*15 km.*|Then, the sea.",
- "duration": 49.5,
+ "duration": 49.93,
  "audio": {
   "lufs": -16.1,
   "true_peak": -1.0
@@ -145,12 +145,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "15 kilometers. Then the sea. That's all of Israel here. A three-hour walk from these hills. And it has been tried. In the second Intifada, terror killed 1,084 Israelis. Most suicide bombers came from around Janine and Nablus. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th. Pickup trucks drove 25 kilometers in 28 minutes. Now run that clock here. 10 launch points. Same pace. 10 minutes. Route 6, Ben Gurion Airport, Jerusalem. 20 minutes. Tel Aviv, Natania the Sea. Israel cut in two. Right where 6 in 10 Israelis live. Palestinians want to stay there, and many say security can come by agreement. Israel's question, who guarantees it? If you love Israeli facts, follow Noam Roz for more. Because here, it's 15 kilometers. Then, the sea.",
+  "heard": "15 kilometers. Then the sea. That's all of Israel here. A three-hour walk from these hills. And it has been tried. In the second Intifada, terror killed 1,084 Israelis. Most suicide bombers came from around Janine and Nablus. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th. Pickup trucks drove 25 kilometers in 28 minutes. Now run that clock here. 10 launch points. Same pace. 10 minutes. Route 6, Ben Gurion Airport, Jerusalem. 20 minutes. Tel Aviv, Natania the Sea. Israel cut in two. Right where 6 in 10 Israelis live. Palestinians want to stay there and many say security can come by agreement. Israel's question, who guarantees it? If you love Israeli facts, follow Noam Roz for more. Because here, it's 15 kilometers. Then, the sea.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 48.0,
+ "body_s": 48.44,
  "opener": {
   "style": "globe_spin_whip",
   "opener_s": 2.4,
@@ -161,5 +161,5 @@
   "true_peak": -1.6
  },
  "lint_warnings": [],
- "render_s": 175.6
+ "render_s": 127.0
 }
