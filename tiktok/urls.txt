@@ -79,3 +79,4 @@ econ_imf_NGDP_RPCH.json https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH
 econ_imf_PCPIPCH.json https://www.imf.org/external/datamapper/api/v1/PCPIPCH/ISR/JOR/LBN/EGY/SYR/IRN/TUR/SAU/ARE/USA/GBR/DEU/FRA
 econ_imf_LUR.json https://www.imf.org/external/datamapper/api/v1/LUR/ISR/JOR/LBN/EGY/SYR/IRN/TUR/SAU/ARE/USA/GBR/DEU/FRA
 econ_imf_NGDPDPC.json https://www.imf.org/external/datamapper/api/v1/NGDPDPC/ISR/JOR/LBN/EGY/SYR/IRN/TUR/SAU/ARE/USA/GBR/DEU/FRA
+econ_who_RS_198.json https://ghoapi.azureedge.net/api/RS_198

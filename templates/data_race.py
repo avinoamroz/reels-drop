@@ -23,6 +23,8 @@ data keys:
   keyframes  [[anchor, key], ...]  pin keys to narration anchors (e.g. ["L4", "1975"]); replaces the even at/until timing
   brand      {text, show: [[at, until], ...]}  small "Israel Facts" mark top left (frame 0 signature)
   callout_y  callout card centre y (default 1330)
+  tail_nan   true = after a row's last value it shows "no data" (instead of holding the last value)
+  asc        true = lower is better (infant deaths, unemployment): the smallest value ranks first, no data last
 """
 import os, sys, csv, math
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core"))
@@ -49,7 +51,8 @@ def run(S):
     keys, series = load_table(D); nk = len(keys)
     for s in series:   # fill gaps by interpolation, keep None before the first value (bar hidden = no data yet)
         v = s["values"]; idx = [i for i, x in enumerate(v) if x is not None]
-        s["v"] = np.array([np.interp(i, idx, [v[j] for j in idx]) if idx and i >= idx[0] else np.nan for i in range(nk)], float)
+        last = idx[-1] if (idx and D.get("tail_nan")) else nk
+        s["v"] = np.array([np.interp(i, idx, [v[j] for j in idx]) if idx and idx[0] <= i <= last else np.nan for i in range(nk)], float)
     t0, t1 = A(D.get("at"), 0.5), A(D.get("until"), T.END - 3.0)
     holds = D.get("holds", {}); w = np.array([1.0 + float(holds.get(k, 0)) for k in keys])   # time weight per key step
     cum = np.concatenate([[0], np.cumsum(w[1:])]); cum = cum / cum[-1] if cum[-1] > 0 else cum
@@ -61,8 +64,9 @@ def run(S):
         i = int(np.searchsorted(cum, u, "right") - 1); i = min(i, nk - 2)
         return i + (u - cum[i]) / max(1e-9, cum[i + 1] - cum[i]) if nk > 1 else 0.0
     V = np.array([s["v"] for s in series])                        # (n, nk)
+    SG = -1.0 if D.get("asc") else 1.0                            # asc: lower is better, the smallest value ranks first
     def ranks(i):
-        v = np.nan_to_num(V[:, i], nan=-1e18); order = np.argsort(-v, kind="stable"); r = np.empty(len(v)); r[order] = np.arange(len(v)); return r
+        v = np.nan_to_num(V[:, i] * SG, nan=-1e18); order = np.argsort(-v, kind="stable"); r = np.empty(len(v)); r[order] = np.arange(len(v)); return r
     R = np.array([ranks(i) for i in range(nk)]).T
     top = min(12 if D.get("orient") == "vertical" else 10, D.get("top", 8)); cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace"))
     hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 300)
@@ -126,7 +130,7 @@ def run(S):
         vals = V[:, i] + (V[:, j] - V[:, i]) * f
         def rk_at(tt):
             kq = kpos(tt); a_ = int(math.floor(kq)); b_ = min(nk - 1, a_ + 1); vv = V[:, a_] + (V[:, b_] - V[:, a_]) * (kq - a_)
-            v = np.nan_to_num(vv, nan=-1e18); o = np.argsort(-v, kind="stable"); r = np.empty(len(v)); r[o] = np.arange(len(v)); return r
+            v = np.nan_to_num(vv * SG, nan=-1e18); o = np.argsort(-v, kind="stable"); r = np.empty(len(v)); r[o] = np.arange(len(v)); return r
         rk = np.mean([rk_at(t - d_) for d_ in (0.0, 0.08, 0.16, 0.24, 0.32, 0.40)], axis=0)
         vmax = np.nanmax(np.where(rk < top, vals, np.nan)) if np.any(rk < top) else 1.0
         ca = 1.0 - pa
