@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "stock_chart",
  "hook": "*3* mystery stocks.|Pick *one.*",
- "duration": 52.87,
+ "duration": 53.43,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.7
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/country_stocks_r2.mp4",
@@ -135,14 +135,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Three mystery stocks, 65 years. Pick one. Each stock is a country's income per person since 1960. Stock A starts at $700. Then it rockets, 40 times in 21 years. Then it crashes, down 68% in 7 years. It takes 31 years to climb back. Today, about $34,000. Stock B starts at $156 and climbs slowly to about $3,000. Stock C starts at $1,400. No boom, no crash. Since 1962, it never falls more than 15%. Today, $60,000. Stake grew the most. But what a ride. The reveal. Stake is Saudi Arabia. The oil stock. Stake B is Egypt. No oil isn't a secret on its own. Jordan and Lebanon have almost none either. If you love Israeli facts, follow Noah Mraz for more. And Stake C with almost no oil at all. Israel. Would you have picked it?",
+  "heard": "Three mystery stocks, 65 years. Pick one. Each stock is a country's income per person since 1960. Stock A starts at $700. Then it rockets, 40 times in 21 years. Then it crashes, down 68% in 7 years. It takes 31 years to climb back. Today, about $34,000. Stock B starts at $156 and climbs slowly to about $3,000. Stock C starts at $1,400. No boom, no crash. Since 1962, it never falls more than 15%. Today, $60,000. Stake grew the most. But what a ride. The reveal. Stake is Saudi Arabia. The oil stock. Stake B is Egypt. No oil isn't a secret on its own. Jordan and Lebanon have almost none either. If you love Israeli facts, follow noongrass for more. And Stake C with almost no oil at all. Israel. Would you have picked it?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "opener": {
   "style": "globe_spin_fast",
@@ -150,5 +150,5 @@
   "narration_starts": 1.5
  },
  "lint_warnings": [],
- "render_s": 185.6
+ "render_s": 195.8
 }
