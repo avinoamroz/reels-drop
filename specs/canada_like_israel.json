@@ -172,7 +172,15 @@
       "type": "photo",
       "file": "photos/jl_ca_hans.jpg",
       "credit": "CREDIT:jl_ca_hans",
-      "at": "L4:whisky"
+      "at": "L4:whisky",
+      "kb": [
+       0.2,
+       0.45,
+       1.9,
+       0.22,
+       0.45,
+       2.0
+      ]
      }
     ],
     "stamps": [

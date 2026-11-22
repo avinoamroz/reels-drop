@@ -128,7 +128,9 @@ def run(S):
                 except Exception: v["credit"] = "Photo: Wikimedia Commons"
                 v["credit"] = DASH_RE.sub(",", v["credit"])[:90]
     CHS = sub_chunks(T, S.get("subs_replace"))
-    follow_cards = [c for c in screen_cards(S, T) if "noamroz" in c[0]]
+    SAYL = [L for L in S["lines"] if L.get("say", "").strip()]
+    fl_end = max([T.E(i) for i, L in enumerate(SAYL) if "noamroz" in (L.get("screen") or "")] or [END])
+    follow_cards = [(c[0], c[1], min(c[2], fl_end + 0.3), c[3], c[4]) for c in screen_cards(S, T) if "noamroz" in c[0]]
     events = [(0.05, "thud", -20)]
     for s in SC:
         if s["t0"] > 0.2: events.append((s["t0"], "whoosh", -30))
@@ -277,6 +279,10 @@ def _vector(cv, v, t, a, mapcard, A):
                     cv.text(WG.fmtn(val, 0, c.get("prefix", ""), c.get("suffix", "")), mx, CY + CH_ - 140, 86, YEL, a, maxw=bw - 30)
                     if c.get("label"): cv.text(c["label"], mx, CY + CH_ - 72, 40, WHITE, a, maxw=bw - 30)
     elif ty == "photo" and v.get("credit"):
+        if cv.tw(v["credit"], 36, False) > 900: v["credit"] = v["credit"].replace(", Wikimedia Commons", ", Commons")
+        if cv.tw(v["credit"], 36, False) > 900: v["credit"] = v["credit"].replace("Photo: ", "")
+        while cv.tw(v["credit"], 36, False) > 900 and "," in v["credit"]:
+            head, rest = v["credit"].split(",", 1); v["credit"] = head[:max(8, len(head) - 4)].rstrip() + "," + rest
         cw = min(940, cv.tw(v["credit"], 36, False) + 30)
         cv.rrect(540 - cw / 2, CY + CH_ - 60, cw, 48, 14, "#0B1730", 0.75 * a)
         cv.text(v["credit"], 540, CY + CH_ - 36, 36, "#C9D6EA", a, bold=False, maxw=920, shadow=False)
