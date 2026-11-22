@@ -1,0 +1,380 @@
+{
+ "id": "ireland_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Ireland, judged like *Israel.*|*Ready?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "Ireland, judged like Israel. Ready?"
+  },
+  {
+   "say": "Official report. Finding one: Dublin is a settlement."
+  },
+  {
+   "say": "Vikings founded it in 841. Give it back to Norway!"
+  },
+  {
+   "say": "Finding two: a religious state. The constitution opens in the name of the Most Holy Trinity."
+  },
+  {
+   "say": "Most primary schools? About 88 percent are under Catholic patronage."
+  },
+  {
+   "say": "Finding three: for 62 years, the constitution claimed the whole island. Northern Ireland included. Voters changed it in 1998."
+  },
+  {
+   "say": "Finding four: Saint Patrick drove out all the snakes. Not one left. Ethnic cleansing."
+  },
+  {
+   "say": "Sounds ridiculous? Israel hears it every day."
+  },
+  {
+   "say": "Ireland isn't a theocracy. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard."
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So, one more time."
+  }
+ ],
+ "data": {
+  "country": "Ireland",
+  "hook_map": {
+   "cam": [
+    -7.8,
+    53.4,
+    8.5
+   ],
+   "hi": [
+    "IRL"
+   ],
+   "color": "sky",
+   "stamp": "UNDER REVIEW"
+  },
+  "scenes": [
+   {
+    "kind": "hook"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Dublin is a *settlement*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_ie_dublin.jpg",
+      "credit": "CREDIT:jl_ie_dublin"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "ILLEGAL SETTLEMENT",
+      "at": "L1:settlement",
+      "y": 900,
+      "rot": -6,
+      "size": 66
+     }
+    ],
+    "at": "L1"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Founded by *Vikings*",
+    "vis": [
+     {
+      "type": "sign",
+      "text": "NORWAY",
+      "sub": "WANTS IT BACK"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "GIVE IT BACK",
+      "at": "L2:Give",
+      "y": 1130,
+      "rot": 6,
+      "col": "yellow"
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Vikings founded Dublin as a settlement in 841 AD (National Museum of Ireland).",
+     "at": "L2:841"
+    },
+    "at": "L2"
+   },
+   {
+    "header": "FINDING 2",
+    "title": "A *religious* state?",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_ie_leinster.jpg",
+      "credit": "CREDIT:jl_ie_leinster"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "THEOCRACY",
+      "at": "L3:Trinity",
+      "y": 900,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Preamble of the Constitution of Ireland, 1937: In the Name of the Most Holy Trinity.",
+     "at": "L3:constitution"
+    },
+    "at": "L3"
+   },
+   {
+    "header": "FINDING 2",
+    "title": "Primary *schools*",
+    "vis": [
+     {
+      "type": "big",
+      "value": 88,
+      "suffix": "%",
+      "sub": "under Catholic patronage",
+      "y": 760,
+      "at": "L4:88"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "RELIGIOUS STATE",
+      "at": "L4:Catholic",
+      "y": 1110,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "88.3% of primary schools have Catholic patrons (Irish Department of Education).",
+     "at": "L4:88"
+    },
+    "at": "L4"
+   },
+   {
+    "header": "FINDING 3",
+    "title": "The *whole island*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -7.0,
+       54.0,
+       9
+      ],
+      "hi": [
+       "IRL",
+       "GBR"
+      ],
+      "pins": [
+       {
+        "lon": -5.93,
+        "lat": 54.6,
+        "label": "Belfast",
+        "at": "L5:Northern",
+        "dx": 70
+       }
+      ]
+     }
+    ],
+    "stamps": [
+     {
+      "text": "ONE STATE CLAIM",
+      "at": "L5:whole",
+      "y": 1100,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Articles 2 and 3 claimed the whole island from 1937 until 1999, when voters changed them.",
+     "at": "L5:62"
+    },
+    "at": "L5"
+   },
+   {
+    "header": "FINDING 4",
+    "title": "Saint Patrick and the *snakes*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_ie_croagh.jpg",
+      "credit": "CREDIT:jl_ie_croagh",
+      "until": "L6:snakes+0.3"
+     },
+     {
+      "type": "emoji",
+      "ch": "🐍",
+      "size": 320,
+      "y": 800,
+      "at": "L6:snakes+0.3"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "ETHNIC CLEANSING",
+      "at": "L6:Ethnic",
+      "y": 1100,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "SATIRE",
+     "text": "Pure satire, about a legend. Ireland had no snakes after the Ice Age anyway.",
+     "at": "L6:Ethnic"
+    },
+    "at": "L6"
+   },
+   {
+    "title": "Sounds *ridiculous?*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       35.0,
+       31.4,
+       5.0
+      ],
+      "israel": true
+     },
+     {
+      "type": "text",
+      "text": "Israel hears it *every day*",
+      "y": 1310,
+      "size": 68,
+      "at": "L7:Israel"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L7:Israel",
+      "y": 640,
+      "rot": -7,
+      "size": 64
+     },
+     {
+      "text": "APARTHEID",
+      "at": "L7:Israel+0.35",
+      "y": 840,
+      "rot": 5,
+      "size": 64
+     },
+     {
+      "text": "OCCUPATION",
+      "at": "L7:every",
+      "y": 1040,
+      "rot": -4,
+      "size": 64
+     }
+    ],
+    "at": "L7"
+   },
+   {
+    "title": "*One* standard",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 640,
+      "items": [
+       {
+        "flag": "IE",
+        "name": "Ireland",
+        "sub": "Not a theocracy"
+       },
+       {
+        "flag": "IL",
+        "name": "Israel",
+        "sub": "Not a theocracy"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Both have *real problems*",
+      "y": 900,
+      "size": 66,
+      "at": "L8:Both"
+     },
+     {
+      "type": "scales",
+      "y": 1110,
+      "at": "L8:One"
+     }
+    ],
+    "note": {
+     "kind": "REALITY CHECK",
+     "text": "Israel: about 21% of citizens are Arab (CBS, end 2025). Arab parties won 19 Knesset seats (Oct 2026).",
+     "at": "L8:where"
+    },
+    "at": "L8"
+   },
+   {
+    "title": "Your verdict: *same rules* for all?",
+    "vis": [
+     {
+      "type": "scales",
+      "y": 820
+     }
+    ],
+    "at": "L9"
+   },
+   {
+    "at": "L10",
+    "kind": "hook"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "National Museum of Ireland, Viking Dublin",
+   "year": "841 AD"
+  },
+  {
+   "label": "Constitution of Ireland",
+   "year": 1937
+  },
+  {
+   "label": "Irish Department of Education, school patronage",
+   "year": 2024
+  },
+  {
+   "label": "Nineteenth Amendment referendum",
+   "year": 1998
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "caption_en": "Ireland, judged like Israel. Ready? 🇮🇪\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Vikings founded Dublin as a settlement in 841 AD.\n2. The Constitution of Ireland (1937) opens \"In the Name of the Most Holy Trinity\". About 88% of primary schools are under Catholic patronage (Department of Education).\n3. From 1937 to 1999, Articles 2 and 3 claimed the whole island, Northern Ireland included. Voters changed them in the 1998 referendum.\n4. Saint Patrick and the snakes is a legend, and the stamp is pure satire.\n\nIreland isn't a theocracy. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "אירלנד, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: הוויקינגים ייסדו את דבלין ב-841. החוקה האירית נפתחת \"בשם השילוש הקדוש\", וכ-88% מבתי הספר היסודיים בחסות קתולית. במשך 62 שנים החוקה תבעה את כל האי, כולל צפון אירלנד, עד שהבוחרים שינו אותה ב-1998. אירלנד היא לא תאוקרטיה. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Ireland",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "Ireland, judged|like *Israel*"
+ }
+}
