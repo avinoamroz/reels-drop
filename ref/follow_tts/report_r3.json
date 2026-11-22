@@ -1,0 +1,253 @@
+{
+ "follow": "If you love Israeli facts, follow Noam Roz for more.",
+ "ref": "voice/colonize_olympics_v7_r2_vo.wav",
+ "ref_stats": {
+  "pitch_hz": 152.7,
+  "pitch_var_st": 9.08,
+  "rate_wps": 3.04
+ },
+ "takes": [
+  {
+   "take": 1,
+   "name": "T3_colonize",
+   "file": "ref/follow_tts/r3_take1.wav",
+   "context": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noam Roz for more. Because one empire once ruled almost a quarter of the Earth.",
+   "tts_text": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>, <speed ratio=\"1.0\"/> for more. Because one empire once ruled almost a quarter of the Earth.",
+   "exact_words": true,
+   "secs": 4.26,
+   "transcript": "If you love Israeli facts, follow Noam Ross for more.",
+   "transcript_context": "But on the conquest scoreboard, not even on the podium, if you love Israeli facts, follow. Noam Roz for more, because one empire once ruled almost a quarter of the earth.",
+   "name_ok": true,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 165.5,
+    "pitch_var_st": 6.62,
+    "rate_wps": 2.64
+   },
+   "dist_to_ref": 33.84,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 2,
+   "name": "T3rO_colonize",
+   "file": "ref/follow_tts/r3_take2.wav",
+   "context": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noam Roz for more. Because one empire once ruled almost a quarter of the Earth.",
+   "tts_text": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɒ|z>>, <speed ratio=\"1.0\"/> for more. Because one empire once ruled almost a quarter of the Earth.",
+   "exact_words": true,
+   "secs": 4.71,
+   "transcript": "If you love Israeli facts, follow Noam Roz for more.",
+   "transcript_context": "But on the conquest scoreboard, not even on the podium, if you love Israeli facts, follow. No amraz, for more, because one empire once ruled almost a quarter of the earth.",
+   "name_ok": true,
+   "name_exact": true,
+   "stats": {
+    "pitch_hz": 162.7,
+    "pitch_var_st": 6.01,
+    "rate_wps": 2.71
+   },
+   "dist_to_ref": 32.75,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 3,
+   "name": "T3rAW_colonize",
+   "file": "ref/follow_tts/r3_take3.wav",
+   "context": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noam Roz for more. Because one empire once ruled almost a quarter of the Earth.",
+   "tts_text": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɔː|z>>, <speed ratio=\"1.0\"/> for more. Because one empire once ruled almost a quarter of the Earth.",
+   "exact_words": true,
+   "secs": 5.04,
+   "transcript": "If you love Israeli facts, follow Noam Roz for more.",
+   "transcript_context": "But on the conquest scoreboard, not even on the podium. If you love Israeli facts, follow Noam Ra's for more. Because one empire once ruled almost a quarter of the earth.",
+   "name_ok": true,
+   "name_exact": true,
+   "stats": {
+    "pitch_hz": 148.8,
+    "pitch_var_st": 8.61,
+    "rate_wps": 2.28
+   },
+   "dist_to_ref": 29.9,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 4,
+   "name": "T3plain_colonize",
+   "file": "ref/follow_tts/r3_take4.wav",
+   "context": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noam Roz for more. Because one empire once ruled almost a quarter of the Earth.",
+   "tts_text": "But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> Noam Roz, <speed ratio=\"1.0\"/> for more. Because one empire once ruled almost a quarter of the Earth.",
+   "exact_words": true,
+   "secs": 5.35,
+   "transcript": "If you love Israeli facts, follow. NOM RAAS, for more.",
+   "transcript_context": "But on the conquest scoreboard, not even on the podium, if you love Israeli facts, follow. Known ros for more, because one empire once ruled almost a quarter of the earth.",
+   "name_ok": false,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 167.5,
+    "pitch_var_st": 7.24,
+    "rate_wps": 2.38
+   },
+   "dist_to_ref": 40.6,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 5,
+   "name": "T3_radicals",
+   "file": "ref/follow_tts/r3_take5.wav",
+   "context": "Which antioxidant works best? If you love Israeli facts, follow Noam Roz for more. Give him what he's missing, and the reaction stops. Why?",
+   "tts_text": "Which antioxidant works best? If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>, <speed ratio=\"1.0\"/> for more. Give him what he's missing, and the reaction stops. Why?",
+   "exact_words": true,
+   "secs": 4.22,
+   "transcript": "If you love Israeli facts, follow Noam Roz for more.",
+   "transcript_context": "Which antioxidant works best? If you love Israeli facts, follow Noam Ra's for more. Give him what he's missing, and the reaction stops. Why?",
+   "name_ok": true,
+   "name_exact": true,
+   "stats": {
+    "pitch_hz": 133.7,
+    "pitch_var_st": 4.85,
+    "rate_wps": 2.72
+   },
+   "dist_to_ref": 44.12,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 6,
+   "name": "T3rO_radicals",
+   "file": "ref/follow_tts/r3_take6.wav",
+   "context": "Which antioxidant works best? If you love Israeli facts, follow Noam Roz for more. Give him what he's missing, and the reaction stops. Why?",
+   "tts_text": "Which antioxidant works best? If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɒ|z>>, <speed ratio=\"1.0\"/> for more. Give him what he's missing, and the reaction stops. Why?",
+   "exact_words": true,
+   "secs": 4.96,
+   "transcript": "If you love Israeli facts, follow Noam Ross for more.",
+   "transcript_context": "Which antioxidant works best? If you love Israeli facts, follow Noam Ross for more. Give him what he's missing and the reaction stops. Why?",
+   "name_ok": true,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 134.8,
+    "pitch_var_st": 7.23,
+    "rate_wps": 2.44
+   },
+   "dist_to_ref": 40.71,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 7,
+   "name": "T3rAW_radicals",
+   "file": "ref/follow_tts/r3_take7.wav",
+   "context": "Which antioxidant works best? If you love Israeli facts, follow Noam Roz for more. Give him what he's missing, and the reaction stops. Why?",
+   "tts_text": "Which antioxidant works best? If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɔː|z>>, <speed ratio=\"1.0\"/> for more. Give him what he's missing, and the reaction stops. Why?",
+   "exact_words": true,
+   "secs": 3.97,
+   "transcript": "If you love Israeli facts, follow Noam Roz for more.",
+   "transcript_context": "Which antioxidant works best? If you love Israeli facts, follow. Noam Ra's for more. Give him what he's missing and the reaction stops. Why?",
+   "name_ok": true,
+   "name_exact": true,
+   "stats": {
+    "pitch_hz": 172.4,
+    "pitch_var_st": 6.8,
+    "rate_wps": 2.81
+   },
+   "dist_to_ref": 31.87,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 8,
+   "name": "T3plain_radicals",
+   "file": "ref/follow_tts/r3_take8.wav",
+   "context": "Which antioxidant works best? If you love Israeli facts, follow Noam Roz for more. Give him what he's missing, and the reaction stops. Why?",
+   "tts_text": "Which antioxidant works best? If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> Noam Roz, <speed ratio=\"1.0\"/> for more. Give him what he's missing, and the reaction stops. Why?",
+   "exact_words": true,
+   "secs": 4.99,
+   "transcript": "If you love Israeli facts, follow Noem Roz for more.",
+   "transcript_context": "Which antioxidant works best? If you love Israeli facts, follow. Noem Raz for more. Give him what he's missing and the reaction stops. Why?",
+   "name_ok": false,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 153.6,
+    "pitch_var_st": 4.94,
+    "rate_wps": 2.71
+   },
+   "dist_to_ref": 32.14,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 9,
+   "name": "T3_s3000",
+   "file": "ref/follow_tts/r3_take9.wav",
+   "context": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow Noam Roz for more. So, who lived here? Ask the stones.",
+   "tts_text": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>, <speed ratio=\"1.0\"/> for more. So, who lived here? Ask the stones.",
+   "exact_words": true,
+   "secs": 4.17,
+   "transcript": "If you love Israeli facts, follow Noam Roz for more.",
+   "transcript_context": "But 5 stones across 13 centuries keep writing one name. If you love Israeli facts, follow Noam Raz for more. So who lived here? Ask the stones.",
+   "name_ok": true,
+   "name_exact": true,
+   "stats": {
+    "pitch_hz": 148.8,
+    "pitch_var_st": 6.81,
+    "rate_wps": 2.74
+   },
+   "dist_to_ref": 23.77,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 10,
+   "name": "T3rO_s3000",
+   "file": "ref/follow_tts/r3_take10.wav",
+   "context": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow Noam Roz for more. So, who lived here? Ask the stones.",
+   "tts_text": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɒ|z>>, <speed ratio=\"1.0\"/> for more. So, who lived here? Ask the stones.",
+   "exact_words": true,
+   "secs": 4.88,
+   "transcript": "If you love Israeli facts, follow. Noamroz for more.",
+   "transcript_context": "But five stones across 13 centuries keep writing one name. If you love Israeli facts, follow. Noamroz for more. So, who lived here? Ask the stones.",
+   "name_ok": false,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 162.2,
+    "pitch_var_st": 9.86,
+    "rate_wps": 2.62
+   },
+   "dist_to_ref": 23.94,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 11,
+   "name": "T3rAW_s3000",
+   "file": "ref/follow_tts/r3_take11.wav",
+   "context": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow Noam Roz for more. So, who lived here? Ask the stones.",
+   "tts_text": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɔː|z>>, <speed ratio=\"1.0\"/> for more. So, who lived here? Ask the stones.",
+   "exact_words": true,
+   "secs": 5.01,
+   "transcript": "If you love Israeli facts, follow Noam Ross for more.",
+   "transcript_context": "But five stones across 13th centuries keep writing one name. If you love Israeli facts, follow. Noam, Ross, for more. So, who lived here? Ask the stones.",
+   "name_ok": true,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 154.0,
+    "pitch_var_st": 6.58,
+    "rate_wps": 2.38
+   },
+   "dist_to_ref": 35.06,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 12,
+   "name": "T3plain_s3000",
+   "file": "ref/follow_tts/r3_take12.wav",
+   "context": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow Noam Roz for more. So, who lived here? Ask the stones.",
+   "tts_text": "But five stones, across thirteen centuries, keep writing one name. If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> Noam Roz, <speed ratio=\"1.0\"/> for more. So, who lived here? Ask the stones.",
+   "exact_words": true,
+   "secs": 5.05,
+   "transcript": "If you love Israeli facts, follow Noem Roz for more.",
+   "transcript_context": "But five stones across 13 centuries keep writing one name. If you love Israeli facts, follow Noam Raz for more. So who lived here? Ask the stones.",
+   "name_ok": false,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 125.4,
+    "pitch_var_st": 3.18,
+    "rate_wps": 2.19
+   },
+   "dist_to_ref": 75.34,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  }
+ ],
+ "tag": "r3_",
+ "best": 9
+}
