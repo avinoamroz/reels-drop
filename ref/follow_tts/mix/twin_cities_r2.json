@@ -1,0 +1,33 @@
+{
+ "id": "twin_cities_r2",
+ "takes": [
+  {
+   "take": "ref/follow_line_tts.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "55 kilometers. From praying to partying many countries have two cities. One runs it, one has the fun. How far apart are they? Saudi Arabia, Riyadh rules, Jeddah has the sea. 845 kilometers. Turkey. Ankara runs it, Istanbul gets the tourists. 349. Washington and New York. 328. Canberra and Sydney. 247. Bern and Zurich. 95. Rabat and Casablanca. 85. Washington, Canberra, Ankara, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded on the sand in 1909. 55 kilometers apart, the closest pair so far. Only Egypt is closer. In 2024, it moved its government to a brand new city, 50 kilometers from Cairo. So Israelis say, Jerusalem prays, Tel Aviv plays. Where is your country's Tel Aviv? If you love Israeli facts, follow Noam Roz for more. And the drive between them.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take1.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "55 kilometers. From praying to partying, many countries have two cities. One runs it. One has the fun. How far apart are they? Saudi Arabia. Riyadh rules. Jeddah has the sea. 845 kilometers. Turkey. Ankara runs it. Istanbul gets the tourists. 349. Washington and New York. 328. Canberra and Sydney. 247. Bern and Zurich. 95. Rabat and Casablanca. 85. Washington, Canberra, Ankara. All picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded on the sand in 1909. 55 kilometers apart, the closest pair so far. Only Egypt is closer. In 2024 it moved its government to a brand new city, 50 kilometers from Cairo. So Israelis say, Jerusalem prays, Tel Aviv plays. Where is your country's Tel Aviv? If you love Israeli facts, follow Noam Raz for more and the drive between them.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take3.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "55 kilometers. From praying to partying, many countries have two cities. One runs it. One has the fun. How far apart are they? Saudi Arabia. Riyadh rules. Jeddah has the sea. 845 kilometers. Turkey. Ankara runs it. Istanbul gets the tourists. 349. Washington and New York. 328. Canberra and Sydney. 247. Bern and Zurich. 95. Rabat and Casablanca. 85. Washington, Canberra, Ankara. All picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded on the sand in 1909. 55 kilometers apart, the closest pair so far. Only Egypt is closer. In 2024, it moved its government to a brand new city, 50 kilometers from Cairo. So Israelis say, Jerusalem prays, Tel Aviv plays. Where is your country's Tel Aviv? If you love Israeli facts, follow. Noam Roz, for more. And the drive between them.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take7.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "55 kilometers. From praying to partying, many countries have two cities. One runs it. One has the fun. How far apart are they? Saudi Arabia. Riyadh rules. Jeddah has the sea. 845 kilometers. Turkey. Ankara runs it. Istanbul gets the tourists. 349. Washington and New York. 328. Canberra and Sydney. 247. Bern and Zurich. 95. Rabat and Casablanca. 85. Washington, Canberra, Ankara. All picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded on the sand in 1909. 55 kilometers apart, the closest pair so far. Only Egypt is closer. In 2024, it moved its government to a brand new city, 50 kilometers from Cairo. So Israelis say, Jerusalem prays, Tel Aviv plays. Where is your country's Tel Aviv? If you love Israeli facts, follow Noam Roz for more. And the drive between them.",
+   "lufs": -16.1
+  }
+ ]
+}
