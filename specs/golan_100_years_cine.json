@@ -10,7 +10,8 @@
  "voice": {
   "tempo": 1.18,
   "gap": 0.15,
-  "lead": 0.12
+  "lead": 0.12,
+  "maxpause": 0.18
  },
  "lines": [
   {
