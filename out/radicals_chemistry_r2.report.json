@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "chem_lab",
  "hook": "Every radical: *1*|electron *short.*",
- "duration": 56.4,
+ "duration": 56.73,
  "audio": {
   "lufs": -16.1,
   "true_peak": -2.0
@@ -76,7 +76,7 @@
   }
  ],
  "transcript": {
-  "score": 0.913,
+  "score": 0.925,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -91,7 +91,7 @@
    },
    {
     "line": "In none did more than fifteen percent view it favourably. Radicals are a small minority. So, chemistry.",
-    "score": 0.824,
+    "score": 0.882,
     "flag": "ok"
    },
    {
@@ -161,7 +161,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -170,7 +170,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012, 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities, and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noah Ross for more. Give him what he's missing, and the reaction stops. Why?",
+  "heard": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% view it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noam Ra's for more. Give him what he's missing and the reaction stops. Why?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -190,10 +190,10 @@
    36.64,
    40.78
   ],
-  "end": 56.39
+  "end": 56.73
  },
  "lint_warnings": [
   "source without year: City of Aarhus"
  ],
- "render_s": 150.4
+ "render_s": 80.1
 }
