@@ -1,6 +1,119 @@
 {
-  "id": "econ_youth_jobs",
-  "status": "FAILED",
-  "run": "45055227674",
-  "log": "[18:28:55] pron [en]: In Jordan, thirty nine percent of young people who want a job cannot find one. This is youth unemployment, ages fifteen to twenty four, since two thousand. Lowest first. In two thousand, Israel was at seventeen percent. Almost double America. Saudi Arabia hits almost thirty percent in twenty twenty. Then it cuts that by more than half. Turkey peaks at twenty five percent in twenty nineteen, then c\nvoice ok: Cartesia sonic-3 (52.4 s, 128 words, 1 run(s), pronunciation pass) voice/econ_youth_jobs_vo.wav\n[18:28:55] voice: cached voice (script unchanged)\n[ WARN:0@2.575] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/ik_riyadh.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/ik_riyadh.jpg\n"
+ "id": "econ_youth_jobs",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Jordan *39%.*|Israel?",
+ "duration": 51.1,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/econ_youth_jobs.mp4",
+  "cover": "covers/econ_youth_jobs_cover.jpg",
+  "preview": "previews/econ_youth_jobs_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_youth_jobs_0.jpg",
+  "1": "out/frames/econ_youth_jobs_1.jpg",
+  "3": "out/frames/econ_youth_jobs_3.jpg",
+  "last": "out/frames/econ_youth_jobs_last.jpg"
+ },
+ "caption_en": "Twelve countries, one photo finish. The winner is not who you think.\n\nYouth unemployment, ages 15 to 24, share of young people in the labour force without a job (ILO modelled estimates via the World Bank, 2024):\nIsrael 6.2%\nUAE 6.4%\nGermany 6.6%\nUSA 8.9%\nSaudi Arabia 11.5%\nUK 14.3%\nTurkey 16.3%\nEgypt 17.3%\nFrance 18.6%\nIran 21.3%\nLebanon 22.7% (2023, latest)\nSyria 32.8%\nJordan 39.1%\n\nIn 2000 Israel was at 17.3%. Saudi Arabia went from 29.6% (2020) to 11.5% (2024).\nFair point: many young Israelis do compulsory army service at 18 to 21, so fewer of them are on the job market.\n\nSource: World Bank, World Development Indicators, SL.UEM.1524.ZS (ILO modelled estimates), 2000 to 2024. The animation interpolates between years.\nPhotos: Riyadh (B.alotaby, CC BY-SA 4.0), Amman (Zairon, CC BY-SA 3.0), Tel Aviv (CC BY-SA 4.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "אבטלת צעירים, גילאי 15 עד 24 (ILO דרך הבנק העולמי, 2024): ירדן 39%, סוריה 33%, ישראל 6.2%, הנמוכה מבין 12 המדינות, צמוד לאיחוד האמירויות וגרמניה. הרבה צעירים ישראלים בצבא, ולכן פחות מהם מחפשים עבודה.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#MiddleEast",
+  "#Jobs"
+ ],
+ "sources": [
+  {
+   "label": "World Bank, ILO modelled estimates, SL.UEM.1524.ZS",
+   "year": 2024,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.993,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "In Jordan, thirty nine percent of young people who want a job cannot find one.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This is youth unemployment, ages fifteen to twenty four, since 2000. Lowest first.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2000, Israel was at seventeen percent. Almost double America.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia hits almost thirty percent in 2020.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then it cuts that by more than half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey peaks at twenty five percent in 2019, then comes down to sixteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria and Jordan stay stuck above thirty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "France ends near nineteen. Britain, fourteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At the top, a photo finish. Germany, the UAE, Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fair point: many young Israelis are in the army, not on the job market.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "What helps young people find work? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So who has the lowest of all twelve?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel. Six point two percent.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "In Jordan, 39% of young people who want a job cannot find one. This is youth unemployment, ages 15-24 since 2000. Lowest first. In 2000, Israel was at 17%. Almost double America. Saudi Arabia hits almost 30% in 2020. Then it cuts that by more than half. Turkey peaks at 25% in 2019. Then comes down to 16. Syria and Jordan stay stuck above 30. France ends near 19. Britain 14. At the top, a photo finish. Germany. The UAE. Israel. Fair point. Many young Israelis are in the army, not on the job market. What helps young people find work? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. So who has the lowest of all 12? Israel. 6.2%",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 128.8
 }
