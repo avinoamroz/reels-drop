@@ -1,0 +1,157 @@
+{
+ "id": "endonyms_p3_asia",
+ "account": "noamroz__",
+ "template": "endonym_fly",
+ "hook": "Japan isn't called *Japan.*",
+ "duration": 40.63,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.3
+ },
+ "outputs": {
+  "mp4": "out/endonyms_p3_asia.mp4",
+  "cover": "covers/endonyms_p3_asia_cover.jpg",
+  "preview": "previews/endonyms_p3_asia_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/endonyms_p3_asia_0.jpg",
+  "1": "out/frames/endonyms_p3_asia_1.jpg",
+  "3": "out/frames/endonyms_p3_asia_3.jpg",
+  "last": "out/frames/endonyms_p3_asia_last.jpg"
+ },
+ "caption_en": "India's constitution answers this in its very first article.\n\nWhat countries in Asia call themselves:\nJapan: Nihon / Nippon (日本), written \"sun\" + \"origin\"\nChina: Zhōngguó (中国), \"the middle kingdom\"\nSouth Korea: Hanguk (한국); \"Korea\" comes from Goryeo, an old Korean dynasty\nMongolia: Mongol Uls (Монгол Улс)\nIndia: Bhārat (भारत). Article 1 of the Constitution: \"India, that is Bharat, shall be a Union of States.\"\nBhutan: Druk Yul (འབྲུག་ཡུལ།), \"land of the thunder dragon\"\nThailand: Prathet Thai (ประเทศไทย); known in English as Siam until 1939\nGeorgia: Sakartvelo (საქართველო), \"land of the Kartvelians\"\nArmenia: Hayastan (Հայաստան), from Hay, the Armenians' name for themselves\n\nTwo names, one place. Both are real.\nParts 1 (Europe) and 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Japan; Names of China; Names of Korea; Bhutan; Thailand (2026). Constitution of India, Article 1.\nVoice: AI clone of my own voice.",
+ "caption_he": "החוקה של הודו עונה על זה כבר בסעיף הראשון.\n\nיפן היא ניהון (\"מקור השמש\"), סין היא ג'ונגגואו (\"ממלכת האמצע\"), דרום קוריאה היא הנגוק, מונגוליה היא מונגול אולס, בהוטן היא דרוק יול (\"ארץ דרקון הרעם\"), הודו היא גם בהרט (סעיף 1 בחוקה), תאילנד היא פראטט תאי (באנגלית: סיאם עד 1939), גאורגיה היא סקרטוולו וארמניה היא הייסטן.\nחלקים 1 ו-2 בפרופיל.",
+ "hashtags": [
+  "#geography",
+  "#asia",
+  "#languages"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia, Names of Japan",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Wikipedia, Names of China",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Wikipedia, Names of Korea",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Constitution of India, Article 1",
+   "year": 1950,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Wikipedia, Bhutan",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Wikipedia, Thailand",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L8",
+   "until": "L10"
+  }
+ ],
+ "transcript": {
+  "score": 0.907,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Japan isn't called Japan.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It's Nihon, or Nippon. Written sun and origin: where the sun rises.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "China is Zhongguo. The middle kingdom.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Korea comes from Goryeo, an old dynasty. South Korea calls itself Hanguk.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Mongolia is Mongol Uls.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "India's constitution says it in Article 1: India, that is Bharat.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Bhutan is Druk Yul. The land of the thunder dragon.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "In English, Thailand was Siam until 1939. At home, it's Prathet Thai.",
+    "score": 0.944,
+    "flag": "ok"
+   },
+   {
+    "line": "Georgia is Sakartvelo, land of the Kartvelians.",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "And Armenia is Hayastan, land of the Hay.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "Which name should English switch to?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Parts 1 and 2 are on my profile. And remember:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Japan isn't called Japan. It's Nihon, or Nippon. Written sun and origin, where the sun rises. China is Jungkwa, the middle kingdom. Korea comes from Goryeo, an old dynasty. South Korea calls itself Hanguk. Mongolia is Mongol Uls. India's constitution says it in Article 1. India, that is barred. Bhutan is Drukyo, the land of the thunder dragon. In English, Thailand was Siam until 1939. At home, it's Karthik Thai. Georgia is the Carte Bello, land of the Cartelians, and Armenia is Hayasthan, land of the high. Which name should English switch to? If you love Israeli facts, follow. Noam Roz, for more. Parts 1 and 2 are on my profile. And remember,",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.3
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 70.1
+}
