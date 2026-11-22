@@ -1,0 +1,125 @@
+{
+ "id": "ireland_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Ireland, judged like *Israel.*|*Ready?*",
+ "duration": 46.73,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/ireland_like_israel.mp4",
+  "cover": "covers/ireland_like_israel_cover.jpg",
+  "preview": "previews/ireland_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/ireland_like_israel_0.jpg",
+  "1": "out/frames/ireland_like_israel_1.jpg",
+  "3": "out/frames/ireland_like_israel_3.jpg",
+  "last": "out/frames/ireland_like_israel_last.jpg"
+ },
+ "caption_en": "Ireland, judged like Israel. Ready? 🇮🇪\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Vikings founded Dublin as a settlement in 841 AD.\n2. The Constitution of Ireland (1937) opens \"In the Name of the Most Holy Trinity\". About 88% of primary schools are under Catholic patronage (Department of Education).\n3. From 1937 to 1999, Articles 2 and 3 claimed the whole island, Northern Ireland included. Voters changed them in the 1998 referendum.\n4. Saint Patrick and the snakes is a legend, and the stamp is pure satire.\n\nIreland isn't a theocracy. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "אירלנד, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: הוויקינגים ייסדו את דבלין ב-841. החוקה האירית נפתחת \"בשם השילוש הקדוש\", וכ-88% מבתי הספר היסודיים בחסות קתולית. במשך 62 שנים החוקה תבעה את כל האי, כולל צפון אירלנד, עד שהבוחרים שינו אותה ב-1998. אירלנד היא לא תאוקרטיה. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Ireland",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "sources": [
+  {
+   "label": "National Museum of Ireland, Viking Dublin",
+   "year": "841 AD"
+  },
+  {
+   "label": "Constitution of Ireland",
+   "year": 1937
+  },
+  {
+   "label": "Irish Department of Education, school patronage",
+   "year": 2024
+  },
+  {
+   "label": "Nineteenth Amendment referendum",
+   "year": 1998
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "transcript": {
+  "score": 0.984,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Ireland, judged like Israel. Ready?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Official report. Finding one: Dublin is a settlement.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Vikings founded it in 841. Give it back to Norway!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding two: a religious state. The constitution opens in the name of the Most Holy Trinity.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Most primary schools? About 88 percent are under Catholic patronage.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding three: for 62 years, the constitution claimed the whole island. Northern Ireland included. Voters changed it in 1998.",
+    "score": 0.962,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding four: Saint Patrick drove out all the snakes. Not one left. Ethnic cleansing.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Sounds ridiculous? Israel hears it every day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ireland isn't a theocracy. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, one more time.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Ireland, judged like Israel. Ready? Official report. Finding one. Dublin is a settlement. Vikings founded it in 841. Give it back to Norway. Finding two. A religious state. The constitution opens in the name of the Most Holy Trinity. Most primary schools, about 88% are under Catholic patronage. Finding three. For 62 years, the constitution claimed the whole island. Northern Ireland included. Voters changed in 1998. Finding four. St. Patrick drove out all the snakes. Not one left. Ethnic cleansing. Sounds ridiculous? Israel hears it every day. Ireland isn't a theocracy. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow. Noam Raz. For more. So, one more time.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "scenes": 11,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 59.4
+}
