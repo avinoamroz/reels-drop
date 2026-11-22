@@ -1,0 +1,163 @@
+{
+ "id": "endonyms_p2_mideast_africa",
+ "account": "noamroz__",
+ "template": "endonym_fly",
+ "hook": "Egypt isn't called *Egypt.*",
+ "duration": 46.1,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/endonyms_p2_mideast_africa.mp4",
+  "cover": "covers/endonyms_p2_mideast_africa_cover.jpg",
+  "preview": "previews/endonyms_p2_mideast_africa_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/endonyms_p2_mideast_africa_0.jpg",
+  "1": "out/frames/endonyms_p2_mideast_africa_1.jpg",
+  "3": "out/frames/endonyms_p2_mideast_africa_3.jpg",
+  "last": "out/frames/endonyms_p2_mideast_africa_last.jpg"
+ },
+ "caption_en": "One of these is the same word in Hebrew.\n\nWhat countries in the Middle East and Africa call themselves:\nEgypt: Masr / Misr (مصر), the same Semitic root as Hebrew Mitzrayim; \"Egypt\" comes from Greek Aigyptos\nMorocco: al-Maghrib (المغرب), \"the west\"\nAlgeria: al-Jazā'ir (الجزائر), \"the islands\", after the islets off Algiers\nEswatini: renamed from Swaziland in April 2018\nTürkiye: the UN name since June 2022\nIran (ایران): in 1935 Iran asked other countries to use Iran instead of Persia\nJordan: al-Urdun (الأردن)\nLebanon: Lubnān (لبنان), from a Semitic root for \"white\", for the snow on Mount Lebanon\nIsrael: Yisra'el (ישראל), the name given to Jacob in Genesis 32:28, often read as \"he struggles with God\"\n\nEvery country gets to name itself.\nPart 3 (Asia) on my profile. Part 1 (Europe) too.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Egypt; Algeria; Eswatini; Turkey; Name of Iran; Lebanon; Israel (2026). Genesis 32:28.\nVoice: AI clone of my own voice.",
+ "caption_he": "אחד מהשמות האלה הוא אותה מילה בעברית.\n\nמצרים היא מַצְר (אותו שורש כמו המילה העברית מצרים), מרוקו היא אל-מגרב (\"המערב\"), אלג'יריה היא אל-ג'זאיר (\"האיים\"), סווזילנד הפכה לאסוואטיני ב-2018, טורקיה ביקשה מהאו\"ם לומר טורקיֶה ב-2022, פרס ביקשה מהעולם לומר איראן ב-1935, ירדן היא אל-אורדון, לבנון היא לובנאן (\"לבן\", על השלג בהרים), וישראל היא ישראל, השם שניתן ליעקב בספר בראשית.\nחלק 3 בפרופיל.",
+ "hashtags": [
+  "#geography",
+  "#middleeast",
+  "#languages"
+ ],
+ "sources": [
+  {
+   "label": "Wikipedia, Names of Egypt",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Wikipedia, Algeria",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Wikipedia, Eswatini",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Wikipedia, Turkey (UN name change)",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Wikipedia, Name of Iran",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia, Lebanon",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Genesis 32:28; Wikipedia, Israel",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "transcript": {
+  "score": 0.907,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Egypt isn't called Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egyptians say Masr. Hebrew has Mitzrayim, from the same old root. Egypt comes from Greek.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Fly west. Morocco is al-Maghrib: the west, where the sun sets.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Algeria is al-Jazair. The islands, after the islets off Algiers.",
+    "score": 0.818,
+    "flag": "ok"
+   },
+   {
+    "line": "Way down south, Swaziland renamed itself Eswatini in 2018.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey asked the UN to say Türkiye in 2022.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Persia? Iranians always said Iran. In 1935, they asked the world to say it too.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Jordan is al-Urdun.",
+    "score": 0.5,
+    "flag": "MISS"
+   },
+   {
+    "line": "Lebanon is Lubnan, from an old word for white: the snow on its mountains.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel is Yisrael. In Genesis, it's the name given to Jacob, often read as: he struggles with God.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which one did you already know?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Part 3 flies to Asia. Until then, remember:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Egypt isn't called Egypt. Egyptians say Maasir. Hebrew has Mitsuraim from the same old route. Egypt comes from Greek. Fly west. Morocco is al-Magreb. The west, where the sun sets. Algeria is all dessert. The islands, after the islets off Algiers. Way down south, Swaziland renamed itself a Swatini in 2018. Turkey asked the UN to say Turkey in 2022. Persia? Iranians always said Iran. In 1935, they asked the world to say too. Jordan is all their doom. Lebanon is Lebanon. From an old word for white, the snow on its mountains. And Israel is Yisrael. In Genesis, it's the name given to Jacob, often read as, he struggles with God. Which one did you already know? If you love Israeli facts, follow Noam Raz for more. Part 3 Flies to Asia. Until then, remember,",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 166.3
+}
