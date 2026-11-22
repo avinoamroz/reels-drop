@@ -1,0 +1,173 @@
+{
+ "id": "love_life_death",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "We desire *death.*|Their words.",
+ "duration": 47.13,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/love_life_death.mp4",
+  "cover": "covers/love_life_death_cover.jpg",
+  "preview": "previews/love_life_death_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/love_life_death_0.jpg",
+  "1": "out/frames/love_life_death_1.jpg",
+  "3": "out/frames/love_life_death_3.jpg",
+  "last": "out/frames/love_life_death_last.jpg"
+ },
+ "caption_en": "One sentence explains this whole war.\n\n📺 29 Feb 2008, HAMAS's Al-Aqsa TV: HAMAS leader Fathi Hammad praised human shields of \"the women, the children, the elderly\", adding: \"We desire death like you desire life.\" (MEMRI translation; quoted by the Israel MFA).\n🏠 Israel: every new home must include a safe room (mamad), under Home Front Command rules.\n🛡️ Iron Dome intercepts rockets fired at Israeli towns (in service since 2011).\n🕳️ 27 Oct 2023, RT: HAMAS official Mousa Abu Marzouk: \"These tunnels are meant to protect us from the airplanes.\" On Gaza's civilians: \"It is the responsibility of the United Nations to protect them.\" (MEMRI Special Dispatch 10917).\n\nThis is about HAMAS, not the Palestinian people. Parents in Gaza want their kids to live too. So can there be peace while a leadership chooses death? Tell me in the comments.",
+ "caption_he": "משפט אחד שמסביר את כל המלחמה.\n📺 29 בפברואר 2008, ערוץ אל אקצא של חמאס: בכיר חמאס פתחי חמאד שיבח מגן אנושי של \"הנשים, הילדים, הזקנים\" והוסיף: \"אנחנו רוצים את המוות כמו שאתם רוצים את החיים.\" (תרגום MEMRI, מצוטט במשרד החוץ).\n🏠 בישראל: בכל בית חדש חייב להיות ממ\"ד, לפי הנחיות פיקוד העורף.\n🛡️ כיפת ברזל מיירטת רקטות שנורות על ערים בישראל (בשירות מ 2011).\n🕳️ 27 באוקטובר 2023, RT: בכיר חמאס מוסא אבו מרזוק: \"המנהרות האלה נועדו להגן עלינו מהמטוסים.\" ועל האזרחים בעזה: \"זו האחריות של האו\"ם להגן עליהם.\" (MEMRI, Special Dispatch 10917).\nזה על חמאס, לא על העם הפלסטיני. גם הורים בעזה רוצים שהילדים שלהם יחיו. אז אפשר שלום כשהנהגה בוחרת במוות? כתבו לי בתגובות.\n\nSources: Al-Aqsa TV, 29 Feb 2008, via MEMRI and Israel MFA; Times of Israel (2012) on Home Front Command safe room rules; Rafael / Israel MOD (2011); RT, 27 Oct 2023, via MEMRI Special Dispatch 10917.\nPhotos: Abedallah Alhaj (CC BY-SA 3.0 IGO); A safe room, CC0; IDF (CC BY 2.0, CC BY-SA 2.0); Dan Harrelson (CC BY 2.0), Wikimedia Commons. AI voice.",
+ "hashtags": [
+  "#Israel",
+  "#HAMAS",
+  "#Gaza"
+ ],
+ "sources": [
+  {
+   "label": "Al-Aqsa TV via MEMRI, Israel MFA",
+   "year": 2008,
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "Home Front Command rules, Times of Israel",
+   "year": 2012,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Rafael / Israel MOD",
+   "year": 2011,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "RT via MEMRI, Special Dispatch 10917",
+   "year": 2023,
+   "at": "L8",
+   "until": "L11"
+  }
+ ],
+ "transcript": {
+  "score": 0.88,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "We desire death. Those are their words, not mine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "February 2008. <<h|ɑ|ˈ|m|ɑ|s>> leader Fathi Hammad, speaking on <<h|ɑ|ˈ|m|ɑ|s>> television.",
+    "score": 0.588,
+    "flag": "MISS"
+   },
+   {
+    "line": "He praised human shields. Women, children, the elderly.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then he gave the reason: we desire death like you desire life.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel built the opposite.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every new Israeli home must have a safe room.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iron Dome shoots down rockets fired at towns.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "<<h|ɑ|ˈ|m|ɑ|s>> built tunnels under Gaza. Who were they for?",
+    "score": 0.727,
+    "flag": "MISS"
+   },
+   {
+    "line": "October 2023. <<h|ɑ|ˈ|m|ɑ|s>> official Mousa Abu Marzouk answered on camera.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "These tunnels are meant to protect us from the airplanes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the civilians? He said the United Nations must protect them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This is about <<h|ɑ|ˈ|m|ɑ|s>>, not the Palestinian people. Parents in Gaza want their kids to live too.",
+    "score": 0.842,
+    "flag": "ok"
+   },
+   {
+    "line": "So can there be peace while a leadership chooses death?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Because they said it out loud.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "We desire death. Those are their words, not mine. February 2008, Hamas leader Fathi Hamid, speaking on Hamas television, he praised human shields, women, children, the elderly, and he gave the reason. We desire death like you desire life. Israel built the opposite. Every new Israeli home must have a safe room. Iron Dome shoots down rockets fired at towns. Hamas built tunnels under Gaza. Who were they for? October 2023. Hamas official, Moussa Abu Marzouk answered on camera, These tunnels are meant to protect us from the airplanes. And the civilians. He said the United Nations must protect them. This is about Hamas, not the Palestinian people. Parents in Gaza want their kids to live too. So, can there be peace while a leadership chooses death? If you love Israeli facts, follow Noam Roz for more. Because they said it out loud.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/what_others_did/gaza.jpg",
+   "credit": "Gaza: Abedallah Alhaj, CC BY-SA 3.0 IGO"
+  },
+  {
+   "file": "templates/photos/what_others_did/gaza.jpg",
+   "credit": "Gaza: Abedallah Alhaj, CC BY-SA 3.0 IGO"
+  },
+  {
+   "file": "templates/photos/israel_maslow/mamad.jpg",
+   "credit": "A safe room, 2023. CC0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/israel_spirit_animal/dome.jpg",
+   "credit": "Iron Dome: IDF, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/iran_one_address/hamas_tunnel.jpg",
+   "credit": "HAMAS tunnel: IDF, CC BY-SA 2.0"
+  },
+  {
+   "file": "templates/photos/israel_family_dinner/beach.jpg",
+   "credit": "Tel Aviv: Dan Harrelson, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/what_others_did/gaza.jpg",
+   "credit": "Gaza: Abedallah Alhaj, CC BY-SA 3.0 IGO"
+  }
+ ],
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 101.3
+}
