@@ -1,0 +1,121 @@
+{
+ "id": "turkey_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Turkey, judged like *Israel.*|*Ready?*",
+ "duration": 46.03,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/turkey_like_israel.mp4",
+  "cover": "covers/turkey_like_israel_cover.jpg",
+  "preview": "previews/turkey_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/turkey_like_israel_0.jpg",
+  "1": "out/frames/turkey_like_israel_1.jpg",
+  "3": "out/frames/turkey_like_israel_3.jpg",
+  "last": "out/frames/turkey_like_israel_last.jpg"
+ },
+ "caption_en": "Turkey, judged like Israel. Ready? 🇹🇷\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. The Ottomans took Constantinople in 1453; before that, the Greeks called it Byzantium. \"Istanbul\" became the official name in 1930.\n2. Turkish troops have held northern Cyprus since 1974. UN Security Council Resolution 541 (1983) called the northern state legally invalid. Only Turkey recognizes it.\n3. The Council of Europe's Parliamentary Assembly wrote a report on settlers from Turkey in northern Cyprus (Doc. 9799, 2003).\n4. Law 2932 of 1983 banned publishing in Kurdish. It was repealed in 1991.\n5. The Thanksgiving bit is satire. Wrong turkey.\n\nTurkey isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "טורקיה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: עד 1453 איסטנבול הייתה קונסטנטינופול. מאז 1974 כוחות טורקיים מחזיקים בצפון קפריסין, ורק טורקיה מכירה במדינה שם. מועצת אירופה כתבה דוח שלם על המתיישבים. בין 1983 ל-1991 החוק אסר פרסום בכורדית. טורקיה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Turkey",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "sources": [
+  {
+   "label": "UN Security Council Resolution 541",
+   "year": 1983
+  },
+  {
+   "label": "Council of Europe PACE Doc. 9799",
+   "year": 2003
+  },
+  {
+   "label": "Turkish Law 2932 (repealed 1991)",
+   "year": 1983
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "transcript": {
+  "score": 0.958,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Turkey, judged like Israel. Ready?",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Official report. Finding one: Istanbul is stolen land.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Until 1453, it was Constantinople. Give it back to the Byzantines! And before them? Greeks called it Byzantium.",
+    "score": 0.958,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding two: occupation. Since 1974, Turkish troops have held northern Cyprus. Only Turkey recognizes it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding three: settlers. Settlers from Turkey moved in, and the Council of Europe wrote a whole report on them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding four: from 1983 to 1991, publishing in Kurdish was banned by law.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding five: every November, Americans eat a turkey. Genocide.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sounds ridiculous? Israel hears it every day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same test, from the top.",
+    "score": 0.4,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "Turkey. Judge like Israel. Ready? Official report. Finding one. Istanbul has stolen land. Until 1453, it was Constantinople. Give it back to Byzantines. And before them, Greeks called it Byzantium. Finding two. Occupation. Since 1974, Turkish troops have held northern Cyprus. Only Turkey recognizes it. Finding three. Settlers. Settlers from Turkey moved in, and the Council of Europe wrote a whole report on them. Finding four. From 1983 to 1991, publishing in Kurdish was banned by law. Finding five. Every November, Americans eat a turkey. Genocide. Sounds ridiculous. Israel hears it every day. Turkey isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow Noam Roz for more.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "scenes": 11,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 97.8
+}
