@@ -1,0 +1,121 @@
+{
+ "id": "australia_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Australia, judged like *Israel.*|*Ready?*",
+ "duration": 49.8,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/australia_like_israel.mp4",
+  "cover": "covers/australia_like_israel_cover.jpg",
+  "preview": "previews/australia_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/australia_like_israel_0.jpg",
+  "1": "out/frames/australia_like_israel_1.jpg",
+  "3": "out/frames/australia_like_israel_3.jpg",
+  "last": "out/frames/australia_like_israel_last.jpg"
+ },
+ "caption_en": "Australia, judged like Israel. Ready? 🇦🇺\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Aboriginal people have lived in Australia for at least 65,000 years (Clarkson et al., Nature, 2017). The First Fleet arrived in 1788.\n2. The Australian Antarctic Territory covers about 42% of Antarctica (Australian Antarctic Division).\n3. In 2023, 60.06% voted No to an Indigenous Voice to Parliament (Australian Electoral Commission). A free vote. That's democracy.\n4. The Emu War, Western Australia, Nov to Dec 1932: soldiers with machine guns. The emus kept the farms.\n5. The spiders bit is satire.\n\nAustralia isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "אוסטרליה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: האבוריג'ינים חיים באוסטרליה לפחות 65,000 שנה, והצי הבריטי הגיע ב-1788. אוסטרליה תובעת כ-42% מאנטארקטיקה. ב-2023 60% הצביעו נגד \"קול\" ילידי בפרלמנט. ב-1932 הצבא יצא עם מקלעים נגד אמוּ, והאמוּ ניצחו. אוסטרליה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Australia",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "sources": [
+  {
+   "label": "Clarkson et al., Nature",
+   "year": 2017
+  },
+  {
+   "label": "Australian Antarctic Division",
+   "year": 2024
+  },
+  {
+   "label": "Australian Electoral Commission, referendum results",
+   "year": 2023
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "transcript": {
+  "score": 0.978,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Australia, judged like Israel. Ready?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Official report. Finding one: Australia is stolen land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Aboriginal people lived here for at least 65,000 years. The British fleet arrived in 1788.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding two: occupation. Australia claims 42 percent of Antarctica. That is three quarters the size of Australia itself.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding three: in 2023, voters rejected an Indigenous Voice to Parliament. 60 percent said no.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding four: in 1932, the army brought machine guns against emus. The emus won.",
+    "score": 0.85,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding five: spiders, snakes, jellyfish. Weapons of mass destruction.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sounds ridiculous? Israel hears it every day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Australia isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, one more time.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Australia, judged like Israel. Ready? Official report. Finding one. Australia is stolen land. Aboriginal people lived here for at least 65,000 years. The British fleet arrived in 1788. Finding two. Occupation. Australia claims 42% of Antarctica. That is three quarters the size of Australia itself. Finding three. In 2023, voters rejected an indigenous voice to parliament. 60% said no. Finding four. In 1932, the army brought machine guns against The emos one. Finding five. Spiders. Snakes. Jellyfish. Weapons of mass destruction. Sounds ridiculous? Israel hears it every day. Australia isn't an apartheid state. Neither is Israel. Where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow. Noam Roz. For more. So, one more time.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "scenes": 11,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 72.9
+}
