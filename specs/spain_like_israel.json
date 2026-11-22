@@ -1,0 +1,456 @@
+{
+ "id": "spain_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Spain, judged like *Israel.*|*Ready?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "Spain, judged like Israel. Ready?"
+  },
+  {
+   "say": "Official report. Finding one: Spain is stolen land."
+  },
+  {
+   "say": "Before Spain, the Romans called it Hispania. Before the Romans, the Iberians."
+  },
+  {
+   "say": "Decolonize Spain! Give it back to the Iberians!"
+  },
+  {
+   "say": "Finding two: Spain holds two cities in Africa, Ceuta and Melilla. Behind fences six metres high."
+  },
+  {
+   "say": "Finding three: the Canary Islands. Conquered from the Guanches in the 1400s."
+  },
+  {
+   "say": "Finding four: in 2019, Spain jailed Catalan leaders for up to 13 years, over a referendum."
+  },
+  {
+   "say": "Finding five: Valencia says paella with chorizo is a war crime."
+  },
+  {
+   "say": "Sounds ridiculous? Israel hears it every day."
+  },
+  {
+   "say": "Spain isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard."
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So, one more time."
+  }
+ ],
+ "data": {
+  "country": "Spain",
+  "hook_map": {
+   "cam": [
+    -3.7,
+    40.0,
+    13
+   ],
+   "hi": [
+    "ESP"
+   ],
+   "color": "sky",
+   "stamp": "UNDER REVIEW"
+  },
+  "scenes": [
+   {
+    "kind": "hook"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Spain is *stolen land*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -3.7,
+       40.0,
+       13
+      ],
+      "hi": [
+       "ESP"
+      ]
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L1:stolen",
+      "y": 1100,
+      "rot": -7
+     }
+    ],
+    "at": "L1"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Who was *first?*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_es_merida.jpg",
+      "credit": "CREDIT:jl_es_merida",
+      "until": "L2:Iberians"
+     },
+     {
+      "type": "chain",
+      "at": "L2:Iberians",
+      "y0": 620,
+      "rows": [
+       {
+        "l": "Spain",
+        "r": "today",
+        "at": "L2:Iberians"
+       },
+       {
+        "l": "Hispania",
+        "r": "Romans, 218 BC",
+        "at": "L2:Iberians+0.2"
+       },
+       {
+        "l": "Iberians",
+        "r": "before",
+        "at": "L2:Iberians+0.4"
+       },
+       {
+        "l": "?",
+        "at": "L2:Iberians+0.7"
+       }
+      ]
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Rome landed in Iberia in 218 BC and named it Hispania. Roman theatre of Merida.",
+     "at": "L2:Romans"
+    },
+    "at": "L2"
+   },
+   {
+    "title": "*Decolonize* Spain!",
+    "vis": [
+     {
+      "type": "sign",
+      "text": "IBERIANS",
+      "sub": "WERE HERE FIRST"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "GIVE IT BACK",
+      "at": "L3:Give",
+      "y": 1130,
+      "rot": 6,
+      "col": "yellow"
+     }
+    ],
+    "at": "L3"
+   },
+   {
+    "header": "FINDING 2",
+    "title": "Two cities in *Africa*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -4.2,
+       35.9,
+       5.5
+      ],
+      "hi": [
+       "ESP"
+      ],
+      "until": "L4:fences",
+      "pins": [
+       {
+        "lon": -5.32,
+        "lat": 35.89,
+        "label": "Ceuta",
+        "at": "L4:Ceuta",
+        "dy": 64
+       },
+       {
+        "lon": -2.94,
+        "lat": 35.29,
+        "label": "Melilla",
+        "at": "L4:Melilla",
+        "dy": 64
+       }
+      ]
+     },
+     {
+      "type": "photo",
+      "file": "photos/jl_es_melilla.jpg",
+      "credit": "CREDIT:jl_es_melilla",
+      "at": "L4:fences"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPATION",
+      "at": "L4:Africa",
+      "y": 640,
+      "rot": -6
+     },
+     {
+      "text": "APARTHEID WALL",
+      "at": "L4:six",
+      "y": 900,
+      "rot": 5
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Morocco claims both cities. Melilla is Spanish since 1497. Fences raised to 6 m in 2005 (Al Jazeera, 2005).",
+     "at": "L4:Melilla"
+    },
+    "at": "L4"
+   },
+   {
+    "header": "FINDING 3",
+    "title": "The *Canary Islands*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -11.0,
+       32.0,
+       24
+      ],
+      "hi": [
+       "ESP"
+      ],
+      "until": "L5:Conquered",
+      "pins": [
+       {
+        "lon": -15.43,
+        "lat": 28.12,
+        "label": "1,737 km from Madrid",
+        "dy": 64
+       }
+      ]
+     },
+     {
+      "type": "photo",
+      "file": "photos/jl_es_teide.jpg",
+      "credit": "CREDIT:jl_es_teide",
+      "at": "L5:Conquered"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "SETTLER COLONY",
+      "at": "L5:Guanches",
+      "y": 900,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Castile conquered the islands from 1402 to 1496; the Guanches lived on Tenerife.",
+     "at": "L5:Conquered"
+    },
+    "at": "L5"
+   },
+   {
+    "header": "FINDING 4",
+    "title": "*Catalonia*",
+    "vis": [
+     {
+      "type": "big",
+      "value": 13,
+      "suffix": " years",
+      "sub": "for organising a referendum",
+      "y": 760,
+      "at": "L6:13"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPIED CATALONIA",
+      "at": "L6:referendum",
+      "y": 1100,
+      "rot": -6,
+      "size": 66
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Supreme Court, Oct 2019: 9 to 13 years for sedition. Pardoned in 2021.",
+     "at": "L6:jailed"
+    },
+    "at": "L6"
+   },
+   {
+    "header": "FINDING 5",
+    "title": "Paella with *chorizo*",
+    "vis": [
+     {
+      "type": "emoji",
+      "ch": "🥘",
+      "size": 330,
+      "y": 790
+     }
+    ],
+    "stamps": [
+     {
+      "text": "WAR CRIME",
+      "at": "L7:war",
+      "y": 1100,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "SATIRE",
+     "text": "Pure satire. Although Valencians may not be joking.",
+     "at": "L7:war"
+    },
+    "at": "L7"
+   },
+   {
+    "title": "Sounds *ridiculous?*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       35.0,
+       31.4,
+       5.0
+      ],
+      "israel": true
+     },
+     {
+      "type": "text",
+      "text": "Israel hears it *every day*",
+      "y": 1310,
+      "size": 68,
+      "at": "L8:Israel"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L8:Israel",
+      "y": 640,
+      "rot": -7,
+      "size": 64
+     },
+     {
+      "text": "APARTHEID",
+      "at": "L8:Israel+0.35",
+      "y": 840,
+      "rot": 5,
+      "size": 64
+     },
+     {
+      "text": "OCCUPATION",
+      "at": "L8:every",
+      "y": 1040,
+      "rot": -4,
+      "size": 64
+     }
+    ],
+    "at": "L8"
+   },
+   {
+    "title": "*One* standard",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 640,
+      "items": [
+       {
+        "flag": "ES",
+        "name": "Spain",
+        "sub": "Not apartheid"
+       },
+       {
+        "flag": "IL",
+        "name": "Israel",
+        "sub": "Not apartheid"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Both have *real problems*",
+      "y": 900,
+      "size": 66,
+      "at": "L9:Both"
+     },
+     {
+      "type": "scales",
+      "y": 1110,
+      "at": "L9:One"
+     }
+    ],
+    "note": {
+     "kind": "REALITY CHECK",
+     "text": "Israel: about 21% of citizens are Arab (CBS, end 2025). Arab parties won 19 Knesset seats (Oct 2026).",
+     "at": "L9:where"
+    },
+    "at": "L9"
+   },
+   {
+    "title": "Your verdict: *same rules* for all?",
+    "vis": [
+     {
+      "type": "scales",
+      "y": 820
+     }
+    ],
+    "at": "L10"
+   },
+   {
+    "at": "L11",
+    "kind": "hook"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Livy, History of Rome (Iberia 218 BC)",
+   "year": "ancient"
+  },
+  {
+   "label": "Al Jazeera, Spain plans third enclave fence",
+   "year": 2005
+  },
+  {
+   "label": "Spanish Supreme Court sentence 459/2019",
+   "year": 2019
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "caption_en": "Spain, judged like Israel. Ready? 🇪🇸\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Rome landed in Iberia in 218 BC and called it Hispania. Before the Romans: the Iberians.\n2. Ceuta and Melilla are Spanish cities in North Africa (Melilla since 1497). Morocco claims both. Their fences were raised to about 6 m in 2005.\n3. Castile conquered the Canary Islands from 1402 to 1496; the Guanches lived on Tenerife. Las Palmas is about 1,740 km from Madrid.\n4. In October 2019, Spain's Supreme Court sentenced Catalan leaders to 9 to 13 years for sedition after the 2017 referendum. They were pardoned in 2021.\n5. The paella bit is satire. Mostly.\n\nSpain isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "ספרד, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: הרומאים קראו לה היספניה, ולפניהם חיו בה האיברים. ספרד מחזיקה שתי ערים באפריקה, סאוטה ומלייה, מאחורי גדרות בגובה כ-6 מטרים, ומרוקו תובעת את שתיהן. האיים הקנריים נכבשו מהגואנצ'ים במאה ה-15. ב-2019 נשלחו מנהיגים קטלונים ל-9 עד 13 שנות מאסר בגלל משאל עם, וקיבלו חנינה ב-2021. ספרד היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Spain",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "Spain, judged|like *Israel*"
+ }
+}

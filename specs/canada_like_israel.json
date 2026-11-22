@@ -1,0 +1,383 @@
+{
+ "id": "canada_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Canada, judged like *Israel.*|*Ready?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "Canada, judged like Israel. Ready?"
+  },
+  {
+   "say": "Official report. Finding one: Canada is stolen land."
+  },
+  {
+   "say": "Even the name is borrowed. Kanata, an Iroquoian word for village."
+  },
+  {
+   "say": "Finding two: Quebec voted twice on leaving. In 1995, No won by about one percent."
+  },
+  {
+   "say": "Finding three: for 49 years, Canada and Denmark fought over a tiny island. With whisky. In 2022, they split it in half."
+  },
+  {
+   "say": "Finding four: Quebec keeps a strategic reserve of maple syrup."
+  },
+  {
+   "say": "Finding five: Canada geese, now all over Europe. Nobody invited them. Settler colonialism."
+  },
+  {
+   "say": "Sounds ridiculous? Israel hears it every day."
+  },
+  {
+   "say": "Canada isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard."
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Same test, from the top."
+  }
+ ],
+ "data": {
+  "country": "Canada",
+  "hook_map": {
+   "cam": [
+    -96.0,
+    58.0,
+    80
+   ],
+   "hi": [
+    "CAN"
+   ],
+   "color": "sky",
+   "stamp": "UNDER REVIEW"
+  },
+  "scenes": [
+   {
+    "kind": "hook"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Canada is *stolen land*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -96.0,
+       58.0,
+       80
+      ],
+      "hi": [
+       "CAN"
+      ]
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L1:stolen",
+      "y": 1100,
+      "rot": -7
+     }
+    ],
+    "at": "L1"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Even the *name*",
+    "vis": [
+     {
+      "type": "sign",
+      "text": "KANATA",
+      "sub": "IROQUOIAN: VILLAGE"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "CULTURAL APPROPRIATION",
+      "at": "L2:village",
+      "y": 1130,
+      "rot": 6,
+      "col": "yellow",
+      "size": 60
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Canada comes from kanata, Huron-Iroquois for village (Government of Canada).",
+     "at": "L2:Kanata"
+    },
+    "at": "L2"
+   },
+   {
+    "header": "FINDING 2",
+    "title": "*Quebec*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_ca_quebec.jpg",
+      "credit": "CREDIT:jl_ca_quebec"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPIED QUEBEC",
+      "at": "L3:percent",
+      "y": 900,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Referendums 1980 and 1995. 1995: No 50.58%, Yes 49.42% (Elections Quebec).",
+     "at": "L3:1995"
+    },
+    "at": "L3"
+   },
+   {
+    "header": "FINDING 3",
+    "title": "The *Whisky War*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -64.0,
+       79.5,
+       40
+      ],
+      "hi": [
+       "CAN",
+       "GRL"
+      ],
+      "until": "L4:whisky",
+      "pins": [
+       {
+        "lon": -66.45,
+        "lat": 80.83,
+        "label": "Hans Island",
+        "dy": 64
+       }
+      ]
+     },
+     {
+      "type": "photo",
+      "file": "photos/jl_ca_hans.jpg",
+      "credit": "CREDIT:jl_ca_hans",
+      "at": "L4:whisky"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPATION",
+      "at": "L4:island",
+      "y": 640,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Hans Island: rival flags and bottles from 1984. Split in two on 14 June 2022 (CBC).",
+     "at": "L4:49"
+    },
+    "at": "L4"
+   },
+   {
+    "header": "FINDING 4",
+    "title": "A strategic *syrup* reserve",
+    "vis": [
+     {
+      "type": "emoji",
+      "ch": "🍁",
+      "size": 320,
+      "y": 790
+     }
+    ],
+    "stamps": [
+     {
+      "text": "SYRUP CARTEL",
+      "at": "L5:syrup",
+      "y": 1100,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Real: Quebec Maple Syrup Producers keep a strategic reserve. The cartel stamp is satire.",
+     "at": "L5:strategic"
+    },
+    "at": "L5"
+   },
+   {
+    "header": "FINDING 5",
+    "title": "Canada *geese*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_ca_goose.jpg",
+      "credit": "CREDIT:jl_ca_goose"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "SETTLER COLONIALISM",
+      "at": "L6:Settler",
+      "y": 900,
+      "rot": -6,
+      "size": 64
+     }
+    ],
+    "note": {
+     "kind": "SATIRE",
+     "text": "Pure satire. The geese did not ask permission. They never do.",
+     "at": "L6:Settler"
+    },
+    "at": "L6"
+   },
+   {
+    "title": "Sounds *ridiculous?*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       35.0,
+       31.4,
+       5.0
+      ],
+      "israel": true
+     },
+     {
+      "type": "text",
+      "text": "Israel hears it *every day*",
+      "y": 1310,
+      "size": 68,
+      "at": "L7:Israel"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L7:Israel",
+      "y": 640,
+      "rot": -7,
+      "size": 64
+     },
+     {
+      "text": "APARTHEID",
+      "at": "L7:Israel+0.35",
+      "y": 840,
+      "rot": 5,
+      "size": 64
+     },
+     {
+      "text": "OCCUPATION",
+      "at": "L7:every",
+      "y": 1040,
+      "rot": -4,
+      "size": 64
+     }
+    ],
+    "at": "L7"
+   },
+   {
+    "title": "*One* standard",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 640,
+      "items": [
+       {
+        "flag": "CA",
+        "name": "Canada",
+        "sub": "Not apartheid"
+       },
+       {
+        "flag": "IL",
+        "name": "Israel",
+        "sub": "Not apartheid"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Both have *real problems*",
+      "y": 900,
+      "size": 66,
+      "at": "L8:Both"
+     },
+     {
+      "type": "scales",
+      "y": 1110,
+      "at": "L8:One"
+     }
+    ],
+    "note": {
+     "kind": "REALITY CHECK",
+     "text": "Israel: about 21% of citizens are Arab (CBS, end 2025). Arab parties won 19 Knesset seats (Oct 2026).",
+     "at": "L8:where"
+    },
+    "at": "L8"
+   },
+   {
+    "title": "Your verdict: *same rules* for all?",
+    "vis": [
+     {
+      "type": "scales",
+      "y": 820
+     }
+    ],
+    "at": "L9"
+   },
+   {
+    "at": "L10",
+    "kind": "hook"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Government of Canada, origin of the name",
+   "year": 2024
+  },
+  {
+   "label": "Elections Quebec, 1995 referendum",
+   "year": 1995
+  },
+  {
+   "label": "CBC, Hans Island deal",
+   "year": 2022
+  },
+  {
+   "label": "Quebec Maple Syrup Producers",
+   "year": 2024
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "caption_en": "Canada, judged like Israel. Ready? 🇨🇦\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. The name comes from kanata, the Huron-Iroquois word for village (Government of Canada). First Nations, Inuit and Métis were here first.\n2. Quebec held referendums on leaving in 1980 and 1995. In 1995: No 50.58%, Yes 49.42% (Elections Québec).\n3. Hans Island: Canada and Denmark left rival flags and bottles there for decades, then split it in two on 14 June 2022.\n4. Quebec's maple syrup producers really keep a strategic reserve. The \"cartel\" stamp is satire.\n5. The geese bit is satire.\n\nCanada isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "קנדה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: השם קנדה בא מ\"קנאטה\", כפר בשפת האירוקוי. קוויבק הצביעה פעמיים על פרישה, וב-1995 ה\"לא\" ניצח בפחות מאחוז וחצי. קנדה ודנמרק \"נלחמו\" 49 שנה על אי זעיר עם בקבוקי ויסקי, וחילקו אותו ב-2022. לקוויבק יש באמת עתודה אסטרטגית של סירופ מייפל. קנדה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Canada",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "Canada, judged|like *Israel*"
+ }
+}

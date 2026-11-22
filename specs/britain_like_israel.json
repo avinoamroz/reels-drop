@@ -1,0 +1,496 @@
+{
+ "id": "britain_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Britain, judged like *Israel.*|*Ready?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "Britain, judged like Israel. Ready?"
+  },
+  {
+   "say": "Official report. Finding one: Britain is stolen land."
+  },
+  {
+   "say": "The Angles and Saxons moved in around the year 450. England literally means land of the Angles."
+  },
+  {
+   "say": "So, decolonize Britain! Give it back to the Britons!"
+  },
+  {
+   "say": "Wait. Before the Britons, someone else built Stonehenge."
+  },
+  {
+   "say": "Finding two: occupation. Britain holds the Falklands, 12,700 kilometres from London."
+  },
+  {
+   "say": "The islanders voted to stay British. Doesn't matter. Occupation!"
+  },
+  {
+   "say": "Finding three: walls. Belfast still has dozens of peace walls."
+  },
+  {
+   "say": "Finding four: in 1982, Argentina lost 649 people. Britain lost 255. Disproportionate!"
+  },
+  {
+   "say": "Finding five: rain, almost every day. Collective punishment."
+  },
+  {
+   "say": "Sounds ridiculous? Israel hears it every day."
+  },
+  {
+   "say": "Britain isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard."
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So, one more time."
+  }
+ ],
+ "data": {
+  "country": "Britain",
+  "hook_map": {
+   "cam": [
+    -3.5,
+    54.6,
+    15
+   ],
+   "hi": [
+    "GBR"
+   ],
+   "color": "sky"
+  },
+  "scenes": [
+   {
+    "kind": "hook"
+   },
+   {
+    "at": "L1",
+    "header": "FINDING 1",
+    "title": "Britain is *stolen land*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -3.5,
+       54.6,
+       15
+      ],
+      "hi": [
+       "GBR"
+      ],
+      "color": "sky",
+      "pins": [
+       {
+        "lon": 9.5,
+        "lat": 54.5,
+        "label": "Angles",
+        "at": "L2:Angles",
+        "dx": -40
+       },
+       {
+        "lon": 8.5,
+        "lat": 52.8,
+        "label": "Saxons",
+        "at": "L2:Saxons",
+        "dy": 64,
+        "dx": -40
+       }
+      ]
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L1:stolen",
+      "x": 540,
+      "y": 1110,
+      "rot": -7
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Angles and Saxons arrived from about 449 AD (Bede, 731). England: the land of the Angles.",
+     "at": "L2"
+    }
+   },
+   {
+    "at": "L3",
+    "title": "*Decolonize* Britain!",
+    "vis": [
+     {
+      "type": "sign",
+      "text": "BRITONS",
+      "sub": "WERE HERE FIRST"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "GIVE IT BACK",
+      "at": "L3:Give",
+      "x": 540,
+      "y": 1130,
+      "rot": 6,
+      "col": "yellow"
+     }
+    ]
+   },
+   {
+    "at": "L4",
+    "title": "Wait. *Who* was first?",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_gb_stonehenge.jpg",
+      "credit": "CREDIT:jl_gb_stonehenge"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "BEFORE THE BRITONS",
+      "at": "L4:Stonehenge",
+      "x": 540,
+      "y": 1080,
+      "rot": -5,
+      "col": "yellow",
+      "size": 62
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Stonehenge was built about 3000 to 2000 BC, long before the Britons. English Heritage.",
+     "at": "L4:Stonehenge"
+    }
+   },
+   {
+    "at": "L5",
+    "header": "FINDING 2",
+    "title": "*Occupation*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -28,
+       0,
+       150
+      ],
+      "hi": [
+       "GBR",
+       "FLK"
+      ],
+      "color": "sky",
+      "pins": [
+       {
+        "lon": -0.13,
+        "lat": 51.5,
+        "label": "London",
+        "dx": 60
+       },
+       {
+        "lon": -57.86,
+        "lat": -51.69,
+        "label": "Falklands",
+        "dy": -64,
+        "at": "L5:Falklands"
+       }
+      ],
+      "arc": {
+       "from": [
+        -0.13,
+        51.5
+       ],
+       "to": [
+        -57.86,
+        -51.69
+       ],
+       "at": "L5:Falklands",
+       "dur": 1.5,
+       "bend": -160,
+       "counter": {
+        "to": 12700,
+        "suffix": " km",
+        "label": "London to the Falklands"
+       }
+      }
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPATION",
+      "at": "L5:occupation",
+      "x": 540,
+      "y": 640,
+      "rot": -6
+     }
+    ]
+   },
+   {
+    "at": "L6",
+    "header": "FINDING 2",
+    "title": "The islanders *voted*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_gb_stanley.jpg",
+      "credit": "CREDIT:jl_gb_stanley"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPATION",
+      "at": "L6:Occupation",
+      "x": 540,
+      "y": 900,
+      "rot": -6,
+      "size": 84
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "2013 referendum: 99.8% of Falkland Islanders voted to stay British. Distance: great circle London to Stanley.",
+     "at": "L6:voted"
+    }
+   },
+   {
+    "at": "L7",
+    "header": "FINDING 3",
+    "title": "*Walls* in Belfast",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_gb_peacewall.jpg",
+      "credit": "CREDIT:jl_gb_peacewall"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "APARTHEID WALL",
+      "at": "L7:peace",
+      "x": 540,
+      "y": 860,
+      "rot": -7
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "43 peace wall structures still owned by Northern Ireland's Justice Department (NI Assembly, 2021).",
+     "at": "L7:dozens"
+    }
+   },
+   {
+    "at": "L8",
+    "header": "FINDING 4",
+    "title": "The *Falklands War*",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 700,
+      "items": [
+       {
+        "flag": "AR",
+        "name": "Argentina",
+        "sub": "649 dead",
+        "sub_col": "red"
+       },
+       {
+        "flag": "GB",
+        "name": "Britain",
+        "sub": "255 dead",
+        "sub_col": "red"
+       }
+      ]
+     }
+    ],
+    "stamps": [
+     {
+      "text": "DISPROPORTIONATE",
+      "at": "L8:Disproportionate",
+      "x": 540,
+      "y": 1050,
+      "rot": -6,
+      "size": 76
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "1982: 649 Argentines, 255 British and 3 islanders died (Imperial War Museums).",
+     "at": "L8:Argentina"
+    }
+   },
+   {
+    "at": "L9",
+    "header": "FINDING 5",
+    "title": "Rain, *almost every day*",
+    "vis": [
+     {
+      "type": "emoji",
+      "ch": "🌧️",
+      "size": 340,
+      "y": 780
+     }
+    ],
+    "stamps": [
+     {
+      "text": "COLLECTIVE PUNISHMENT",
+      "at": "L9:Collective",
+      "x": 540,
+      "y": 1100,
+      "rot": -6,
+      "size": 64
+     }
+    ],
+    "note": {
+     "kind": "SATIRE",
+     "text": "Pure satire. Nobody controls the weather. Not even Britain.",
+     "at": "L9:Collective"
+    }
+   },
+   {
+    "at": "L10",
+    "title": "Sounds *ridiculous?*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       35.0,
+       31.4,
+       5.0
+      ],
+      "israel": true
+     },
+     {
+      "type": "text",
+      "text": "Israel hears it *every day*",
+      "y": 1310,
+      "size": 68,
+      "at": "L10:Israel"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L10:Israel",
+      "x": 540,
+      "y": 640,
+      "rot": -7,
+      "size": 64
+     },
+     {
+      "text": "APARTHEID",
+      "at": "L10:Israel+0.35",
+      "x": 540,
+      "y": 840,
+      "rot": 5,
+      "size": 64
+     },
+     {
+      "text": "OCCUPATION",
+      "at": "L10:every",
+      "x": 540,
+      "y": 1040,
+      "rot": -4,
+      "size": 64
+     }
+    ]
+   },
+   {
+    "at": "L11",
+    "title": "*One* standard",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 640,
+      "items": [
+       {
+        "flag": "GB",
+        "name": "Britain",
+        "sub": "Not apartheid"
+       },
+       {
+        "flag": "IL",
+        "name": "Israel",
+        "sub": "Not apartheid",
+        "at": "L11:Neither"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Both have *real problems*",
+      "y": 900,
+      "size": 66,
+      "at": "L11:Both"
+     },
+     {
+      "type": "scales",
+      "y": 1110,
+      "at": "L11:One"
+     }
+    ],
+    "note": {
+     "kind": "REALITY CHECK",
+     "text": "Israel: about 21% of citizens are Arab (CBS, end 2025). Arab parties won 19 Knesset seats (Oct 2026).",
+     "at": "L11:where"
+    }
+   },
+   {
+    "at": "L12",
+    "title": "Your verdict: *same rules* for all?",
+    "vis": [
+     {
+      "type": "scales",
+      "y": 820
+     }
+    ]
+   },
+   {
+    "at": "L13",
+    "kind": "hook"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Bede, Ecclesiastical History",
+   "year": 731
+  },
+  {
+   "label": "Imperial War Museums, Falklands",
+   "year": 1982
+  },
+  {
+   "label": "Northern Ireland Assembly, interface structures",
+   "year": 2021
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results",
+   "year": "Oct 2026"
+  }
+ ],
+ "subs_replace": {},
+ "cover": {
+  "t": 1.0,
+  "text": "Britain, judged|like *Israel*"
+ },
+ "hashtags": [
+  "#Israel",
+  "#Britain",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "caption_en": "Britain, judged like Israel. Ready? 🇬🇧\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. The Angles and Saxons arrived from about 449 AD (Bede, 731). England means \"land of the Angles\". The Britons came before them, and Stonehenge (about 3000 to 2000 BC) came before the Britons.\n2. Britain holds the Falklands, about 12,700 km from London. In 2013, 99.8% of islanders voted to stay British.\n3. Belfast's peace walls: 43 structures still owned by Northern Ireland's Justice Department (2021).\n4. Falklands War, 1982: 649 Argentines, 255 British and 3 islanders died.\n5. The rain is pure satire. Nobody controls the weather.\n\nBritain isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "בריטניה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: האנגלים והסקסונים הגיעו בסביבות שנת 449, ולפניהם הבריטונים. בריטניה מחזיקה באיי פוקלנד, כ-12,700 ק\"מ מלונדון, ו-99.8% מהתושבים הצביעו להישאר בריטים. בבלפסט עדיין עומדות עשרות \"חומות שלום\". במלחמת פוקלנד נהרגו 649 ארגנטינאים ו-255 בריטים. הגשם הוא סאטירה בלבד. בריטניה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן."
+}

@@ -1,0 +1,364 @@
+{
+ "id": "australia_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Australia, judged like *Israel.*|*Ready?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "Australia, judged like Israel. Ready?"
+  },
+  {
+   "say": "Official report. Finding one: Australia is stolen land."
+  },
+  {
+   "say": "Aboriginal people lived here for at least 65,000 years. The British fleet arrived in 1788."
+  },
+  {
+   "say": "Finding two: occupation. Australia claims 42 percent of Antarctica. That is three quarters the size of Australia itself."
+  },
+  {
+   "say": "Finding three: in 2023, voters rejected an Indigenous Voice to Parliament. 60 percent said no."
+  },
+  {
+   "say": "Finding four: in 1932, the army brought machine guns against emus. The emus won."
+  },
+  {
+   "say": "Finding five: spiders, snakes, jellyfish. Weapons of mass destruction."
+  },
+  {
+   "say": "Sounds ridiculous? Israel hears it every day."
+  },
+  {
+   "say": "Australia isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard."
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So, one more time."
+  }
+ ],
+ "data": {
+  "country": "Australia",
+  "hook_map": {
+   "cam": [
+    134.0,
+    -27.0,
+    46
+   ],
+   "hi": [
+    "AUS"
+   ],
+   "color": "sky",
+   "stamp": "UNDER REVIEW"
+  },
+  "scenes": [
+   {
+    "kind": "hook"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Australia is *stolen land*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_au_uluru.jpg",
+      "credit": "CREDIT:jl_au_uluru"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L1:stolen",
+      "y": 900,
+      "rot": -7
+     }
+    ],
+    "at": "L1"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "*65,000* years",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_au_firstfleet.jpg",
+      "credit": "CREDIT:jl_au_firstfleet",
+      "at": "L2:British"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "SETTLER COLONY",
+      "at": "L2:1788",
+      "y": 900,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "At least 65,000 years (Clarkson et al., Nature, 2017). First Fleet: 1788.",
+     "at": "L2:65,000"
+    },
+    "at": "L2"
+   },
+   {
+    "header": "FINDING 2",
+    "title": "*Antarctica*",
+    "vis": [
+     {
+      "type": "big",
+      "value": 42,
+      "suffix": "%",
+      "sub": "of Antarctica, claimed",
+      "y": 700,
+      "at": "L3:42"
+     },
+     {
+      "type": "emoji",
+      "ch": "🐧",
+      "size": 220,
+      "y": 1080,
+      "at": "L3:Antarctica"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPATION",
+      "at": "L3:occupation",
+      "y": 1180,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "The Australian Antarctic Territory is about 42% of Antarctica (Australian Antarctic Division).",
+     "at": "L3:42"
+    },
+    "at": "L3"
+   },
+   {
+    "header": "FINDING 3",
+    "title": "The *Voice* referendum",
+    "vis": [
+     {
+      "type": "big",
+      "value": 60,
+      "suffix": "%",
+      "sub": "voted no, 2023",
+      "y": 760,
+      "at": "L4:60"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "APARTHEID",
+      "at": "L4:no",
+      "y": 1110,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "60.06% No nationally (Australian Electoral Commission, 2023). A free vote. That's democracy.",
+     "at": "L4:rejected"
+    },
+    "at": "L4"
+   },
+   {
+    "header": "FINDING 4",
+    "title": "The *Emu War*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_au_emu.jpg",
+      "credit": "CREDIT:jl_au_emu"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "DISPROPORTIONATE",
+      "at": "L5:machine",
+      "y": 880,
+      "rot": -6,
+      "size": 72
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Nov to Dec 1932, Western Australia: soldiers with machine guns. The emus kept the farms.",
+     "at": "L5:1932"
+    },
+    "at": "L5"
+   },
+   {
+    "header": "FINDING 5",
+    "title": "Spiders, snakes, *jellyfish*",
+    "vis": [
+     {
+      "type": "emoji",
+      "ch": "🕷️",
+      "size": 300,
+      "y": 790
+     }
+    ],
+    "stamps": [
+     {
+      "text": "WMD",
+      "at": "L6:Weapons",
+      "y": 1100,
+      "rot": -6,
+      "size": 90
+     }
+    ],
+    "note": {
+     "kind": "SATIRE",
+     "text": "Pure satire. The spiders have not signed any treaties.",
+     "at": "L6:Weapons"
+    },
+    "at": "L6"
+   },
+   {
+    "title": "Sounds *ridiculous?*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       35.0,
+       31.4,
+       5.0
+      ],
+      "israel": true
+     },
+     {
+      "type": "text",
+      "text": "Israel hears it *every day*",
+      "y": 1310,
+      "size": 68,
+      "at": "L7:Israel"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L7:Israel",
+      "y": 640,
+      "rot": -7,
+      "size": 64
+     },
+     {
+      "text": "APARTHEID",
+      "at": "L7:Israel+0.35",
+      "y": 840,
+      "rot": 5,
+      "size": 64
+     },
+     {
+      "text": "OCCUPATION",
+      "at": "L7:every",
+      "y": 1040,
+      "rot": -4,
+      "size": 64
+     }
+    ],
+    "at": "L7"
+   },
+   {
+    "title": "*One* standard",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 640,
+      "items": [
+       {
+        "flag": "AU",
+        "name": "Australia",
+        "sub": "Not apartheid"
+       },
+       {
+        "flag": "IL",
+        "name": "Israel",
+        "sub": "Not apartheid"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Both have *real problems*",
+      "y": 900,
+      "size": 66,
+      "at": "L8:Both"
+     },
+     {
+      "type": "scales",
+      "y": 1110,
+      "at": "L8:One"
+     }
+    ],
+    "note": {
+     "kind": "REALITY CHECK",
+     "text": "Israel: about 21% of citizens are Arab (CBS, end 2025). Arab parties won 19 Knesset seats (Oct 2026).",
+     "at": "L8:where"
+    },
+    "at": "L8"
+   },
+   {
+    "title": "Your verdict: *same rules* for all?",
+    "vis": [
+     {
+      "type": "scales",
+      "y": 820
+     }
+    ],
+    "at": "L9"
+   },
+   {
+    "at": "L10",
+    "kind": "hook"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Clarkson et al., Nature",
+   "year": 2017
+  },
+  {
+   "label": "Australian Antarctic Division",
+   "year": 2024
+  },
+  {
+   "label": "Australian Electoral Commission, referendum results",
+   "year": 2023
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "caption_en": "Australia, judged like Israel. Ready? 🇦🇺\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Aboriginal people have lived in Australia for at least 65,000 years (Clarkson et al., Nature, 2017). The First Fleet arrived in 1788.\n2. The Australian Antarctic Territory covers about 42% of Antarctica (Australian Antarctic Division).\n3. In 2023, 60.06% voted No to an Indigenous Voice to Parliament (Australian Electoral Commission). A free vote. That's democracy.\n4. The Emu War, Western Australia, Nov to Dec 1932: soldiers with machine guns. The emus kept the farms.\n5. The spiders bit is satire.\n\nAustralia isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "אוסטרליה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: האבוריג'ינים חיים באוסטרליה לפחות 65,000 שנה, והצי הבריטי הגיע ב-1788. אוסטרליה תובעת כ-42% מאנטארקטיקה. ב-2023 60% הצביעו נגד \"קול\" ילידי בפרלמנט. ב-1932 הצבא יצא עם מקלעים נגד אמוּ, והאמוּ ניצחו. אוסטרליה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Australia",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "Australia, judged|like *Israel*"
+ }
+}

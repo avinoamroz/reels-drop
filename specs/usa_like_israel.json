@@ -1,0 +1,375 @@
+{
+ "id": "usa_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "America, judged like *Israel.*|*Ready?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "America, judged like Israel. Ready?"
+  },
+  {
+   "say": "Official report. Finding one: America is stolen land."
+  },
+  {
+   "say": "Native nations were here first, for thousands of years. Today there are 574 federally recognized tribes."
+  },
+  {
+   "say": "Finding two: annexation. In 1848, Mexico gave up 55 percent of its territory. California included."
+  },
+  {
+   "say": "Finding three: Puerto Ricans are American citizens. They can't vote for president. Neither can Guam."
+  },
+  {
+   "say": "Finding four: a wall. About 706 miles on the Mexican border."
+  },
+  {
+   "say": "Finding five: miles, pounds and Fahrenheit. The occupation of the metric system."
+  },
+  {
+   "say": "Sounds ridiculous? Israel hears it every day."
+  },
+  {
+   "say": "America isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard."
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Same test, from the top."
+  }
+ ],
+ "data": {
+  "country": "America",
+  "hook_map": {
+   "cam": [
+    -98.0,
+    39.0,
+    62
+   ],
+   "hi": [
+    "USA"
+   ],
+   "color": "sky",
+   "stamp": "UNDER REVIEW"
+  },
+  "scenes": [
+   {
+    "kind": "hook"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "America is *stolen land*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_us_mesaverde.jpg",
+      "credit": "CREDIT:jl_us_mesaverde"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "SETTLER COLONY",
+      "at": "L1:stolen",
+      "y": 900,
+      "rot": -7
+     }
+    ],
+    "at": "L1"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "Who was *first?*",
+    "vis": [
+     {
+      "type": "big",
+      "value": 574,
+      "sub": "federally recognized tribes",
+      "y": 760,
+      "at": "L2:574"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "GIVE IT BACK",
+      "at": "L2:tribes",
+      "y": 1110,
+      "rot": 6,
+      "col": "yellow"
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "574 federally recognized tribes (US Bureau of Indian Affairs, 2024). Cliff Palace, Mesa Verde.",
+     "at": "L2:574"
+    },
+    "at": "L2"
+   },
+   {
+    "header": "FINDING 2",
+    "title": "*Annexation*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       -106,
+       31,
+       46
+      ],
+      "hi": [
+       "USA",
+       "MEX"
+      ],
+      "pins": [
+       {
+        "lon": -119.4,
+        "lat": 36.8,
+        "label": "California",
+        "at": "L3:California",
+        "dy": -64
+       }
+      ]
+     },
+     {
+      "type": "big",
+      "value": 55,
+      "suffix": "%",
+      "sub": "of Mexico's territory",
+      "y": 1050,
+      "at": "L3:55"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "ANNEXATION",
+      "at": "L3:annexation",
+      "y": 640,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Treaty of Guadalupe Hidalgo, 1848: Mexico ceded 55% of its territory (US National Archives).",
+     "at": "L3:1848"
+    },
+    "at": "L3"
+   },
+   {
+    "header": "FINDING 3",
+    "title": "Citizens who *can't vote*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_us_sanjuan.jpg",
+      "credit": "CREDIT:jl_us_sanjuan"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "APARTHEID",
+      "at": "L4:can't",
+      "y": 900,
+      "rot": -7
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "US citizens since 1917. No electoral votes, one non-voting member of Congress.",
+     "at": "L4:citizens"
+    },
+    "at": "L4"
+   },
+   {
+    "header": "FINDING 4",
+    "title": "A *wall*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_us_borderwall.jpg",
+      "credit": "CREDIT:jl_us_borderwall"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "APARTHEID WALL",
+      "at": "L5:706",
+      "y": 900,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "About 706 miles of primary border barrier, January 2021 (US Customs and Border Protection).",
+     "at": "L5:706"
+    },
+    "at": "L5"
+   },
+   {
+    "header": "FINDING 5",
+    "title": "Miles, pounds, *Fahrenheit*",
+    "vis": [
+     {
+      "type": "emoji",
+      "ch": "📏",
+      "size": 320,
+      "y": 790
+     }
+    ],
+    "stamps": [
+     {
+      "text": "OCCUPATION",
+      "at": "L6:occupation",
+      "y": 1100,
+      "rot": -6
+     }
+    ],
+    "note": {
+     "kind": "SATIRE",
+     "text": "Pure satire. The metric system is fine. It's just lonely.",
+     "at": "L6:occupation"
+    },
+    "at": "L6"
+   },
+   {
+    "title": "Sounds *ridiculous?*",
+    "vis": [
+     {
+      "type": "map",
+      "cam": [
+       35.0,
+       31.4,
+       5.0
+      ],
+      "israel": true
+     },
+     {
+      "type": "text",
+      "text": "Israel hears it *every day*",
+      "y": 1310,
+      "size": 68,
+      "at": "L7:Israel"
+     }
+    ],
+    "stamps": [
+     {
+      "text": "STOLEN LAND",
+      "at": "L7:Israel",
+      "y": 640,
+      "rot": -7,
+      "size": 64
+     },
+     {
+      "text": "APARTHEID",
+      "at": "L7:Israel+0.35",
+      "y": 840,
+      "rot": 5,
+      "size": 64
+     },
+     {
+      "text": "OCCUPATION",
+      "at": "L7:every",
+      "y": 1040,
+      "rot": -4,
+      "size": 64
+     }
+    ],
+    "at": "L7"
+   },
+   {
+    "title": "*One* standard",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 640,
+      "items": [
+       {
+        "flag": "US",
+        "name": "America",
+        "sub": "Not apartheid"
+       },
+       {
+        "flag": "IL",
+        "name": "Israel",
+        "sub": "Not apartheid"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Both have *real problems*",
+      "y": 900,
+      "size": 66,
+      "at": "L8:Both"
+     },
+     {
+      "type": "scales",
+      "y": 1110,
+      "at": "L8:One"
+     }
+    ],
+    "note": {
+     "kind": "REALITY CHECK",
+     "text": "Israel: about 21% of citizens are Arab (CBS, end 2025). Arab parties won 19 Knesset seats (Oct 2026).",
+     "at": "L8:where"
+    },
+    "at": "L8"
+   },
+   {
+    "title": "Your verdict: *same rules* for all?",
+    "vis": [
+     {
+      "type": "scales",
+      "y": 820
+     }
+    ],
+    "at": "L9"
+   },
+   {
+    "at": "L10",
+    "kind": "hook"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "US Bureau of Indian Affairs",
+   "year": 2024
+  },
+  {
+   "label": "US National Archives, Treaty of Guadalupe Hidalgo",
+   "year": 1848
+  },
+  {
+   "label": "US Customs and Border Protection, border wall status",
+   "year": 2021
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "caption_en": "America, judged like Israel. Ready? 🇺🇸\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Native nations were here first. Today there are 574 federally recognized tribes (Bureau of Indian Affairs).\n2. Treaty of Guadalupe Hidalgo, 1848: Mexico ceded 55% of its territory, including California (US National Archives).\n3. Puerto Ricans have been US citizens since 1917, but have no vote for president and one non-voting member of Congress. Same for Guam.\n4. About 706 miles of primary barrier on the Mexican border, January 2021 (US Customs and Border Protection).\n5. The metric system bit is satire.\n\nAmerica isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "אמריקה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: יש בארה\"ב 574 שבטים ילידים מוכרים. ב-1848 מקסיקו ויתרה על 55% משטחה, כולל קליפורניה. תושבי פוארטו ריקו וגואם הם אזרחים אמריקאים שלא מצביעים לנשיאות. על גבול מקסיקו עומדת חומה של כ-706 מייל. אמריקה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#USA",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "America, judged|like *Israel*"
+ }
+}

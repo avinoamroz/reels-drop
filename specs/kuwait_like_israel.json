@@ -1,0 +1,291 @@
+{
+ "id": "kuwait_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Kuwait, judged like *Israel.*|*Ready?*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "Kuwait, judged like Israel. Ready?"
+  },
+  {
+   "say": "The test: the same apartheid definition used on Israel."
+  },
+  {
+   "say": "Kuwait has more than 100,000 stateless Bidun. Many families have lived there for generations. Some served in its army and police."
+  },
+  {
+   "say": "Citizenship? Denied. Birth and marriage certificates? Withheld. Most jobs? Closed. Free government schools? Most Bidun children can't attend."
+  },
+  {
+   "say": "Kuwait says many are hiding another nationality."
+  },
+  {
+   "say": "By the same definition used on Israel: is this apartheid? You decide."
+  },
+  {
+   "say": "Israel: one in five citizens is Arab. They vote. Arab parties won 19 seats. Arab judges sit on the Supreme Court."
+  },
+  {
+   "say": "Kuwait is rarely called apartheid. Israel is called it daily. Both have real problems. One standard."
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So, let's run the test again."
+  }
+ ],
+ "data": {
+  "country": "Kuwait",
+  "hook_map": {
+   "cam": [
+    47.6,
+    29.3,
+    3.2
+   ],
+   "hi": [
+    "KWT"
+   ],
+   "color": "sky",
+   "stamp": "UNDER REVIEW"
+  },
+  "scenes": [
+   {
+    "kind": "hook"
+   },
+   {
+    "header": "THE TEST",
+    "title": "The definition used on *Israel*",
+    "vis": [
+     {
+      "type": "quote",
+      "text": "institutionalized regime of systematic oppression and domination",
+      "by": "Rome Statute, article 7, 1998",
+      "y": 830
+     }
+    ],
+    "note": {
+     "kind": "THE TEST",
+     "text": "Amnesty International (2022) and Human Rights Watch (2021) applied this definition to Israel.",
+     "at": "L1:definition"
+    },
+    "at": "L1"
+   },
+   {
+    "header": "FINDING 1",
+    "title": "*100,000+* stateless",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_kw_jahra.jpg",
+      "credit": "CREDIT:jl_kw_jahra"
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "More than 106,000 stateless Bidun residents (Human Rights Watch, 2011).",
+     "at": "L2:100,000"
+    },
+    "at": "L2"
+   },
+   {
+    "header": "FINDINGS 2 TO 5",
+    "title": "The *scorecard*",
+    "vis": [
+     {
+      "type": "checks",
+      "y0": 600,
+      "rows": [
+       {
+        "label": "Citizenship",
+        "mark": "N",
+        "at": "L3:Denied."
+       },
+       {
+        "label": "Birth certificates",
+        "mark": "N",
+        "at": "L3:Withheld."
+       },
+       {
+        "label": "Most jobs",
+        "mark": "N",
+        "at": "L3:Closed."
+       },
+       {
+        "label": "Free state schools",
+        "mark": "N",
+        "at": "L3:can't"
+       }
+      ]
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "Classed as illegal residents; documents withheld, schools and most jobs closed (HRW, 2011).",
+     "at": "L3:Birth"
+    },
+    "at": "L3"
+   },
+   {
+    "header": "KUWAIT'S SIDE",
+    "title": "Hiding another *nationality?*",
+    "vis": [
+     {
+      "type": "photo",
+      "file": "photos/jl_kw_towers.jpg",
+      "credit": "CREDIT:jl_kw_towers"
+     }
+    ],
+    "note": {
+     "kind": "TRUE PART",
+     "text": "The government's position, as reported by Human Rights Watch (2011).",
+     "at": "L4:hiding"
+    },
+    "at": "L4"
+   },
+   {
+    "title": "By the *same* definition:",
+    "vis": [
+     {
+      "type": "text",
+      "text": "Is this *apartheid?*",
+      "y": 760,
+      "size": 110
+     },
+     {
+      "type": "text",
+      "text": "You decide.",
+      "y": 980,
+      "size": 80,
+      "at": "L5:You"
+     }
+    ],
+    "at": "L5"
+   },
+   {
+    "title": "*Israel*",
+    "vis": [
+     {
+      "type": "israel",
+      "stats": [
+       {
+        "big": "1 in 5",
+        "sub": "citizens are Arab",
+        "at": "L6:one"
+       },
+       {
+        "big": "19",
+        "sub": "Knesset seats, Arab parties",
+        "at": "L6:19"
+       },
+       {
+        "big": "Arab",
+        "sub": "Supreme Court justice",
+        "at": "L6:judges"
+       }
+      ]
+     }
+    ],
+    "note": {
+     "kind": "REALITY CHECK",
+     "text": "Israel: about 21% of citizens are Arab (CBS, 2025). 19 Arab party seats (Oct 2026). Justice Kabub (2022).",
+     "at": "L6:vote"
+    },
+    "at": "L6"
+   },
+   {
+    "title": "*One* standard",
+    "vis": [
+     {
+      "type": "versus",
+      "y": 640,
+      "items": [
+       {
+        "flag": "KW",
+        "name": "Kuwait",
+        "sub": "Rarely called it",
+        "sub_col": "sky"
+       },
+       {
+        "flag": "IL",
+        "name": "Israel",
+        "sub": "Called it daily",
+        "sub_col": "red"
+       }
+      ]
+     },
+     {
+      "type": "text",
+      "text": "Both have *real problems*",
+      "y": 900,
+      "size": 66,
+      "at": "L7:Both"
+     },
+     {
+      "type": "scales",
+      "y": 1110,
+      "at": "L7:One"
+     }
+    ],
+    "at": "L7"
+   },
+   {
+    "title": "Your verdict: *same test* for all?",
+    "vis": [
+     {
+      "type": "scales",
+      "y": 820
+     }
+    ],
+    "at": "L8"
+   },
+   {
+    "at": "L9",
+    "kind": "hook"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Rome Statute, article 7",
+   "year": 1998
+  },
+  {
+   "label": "Human Rights Watch, Kuwait: Stateless Bidun Denied Rights",
+   "year": 2011
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  },
+  {
+   "label": "Israel Supreme Court, Justice Khaled Kabub",
+   "year": 2022
+  }
+ ],
+ "caption_en": "Kuwait, judged like Israel. Ready? 🇰🇼\n\nSame test, same definition: the one Amnesty (2022) and Human Rights Watch (2021) use on Israel. The Rome Statute calls apartheid an \"institutionalized regime of systematic oppression and domination\". Real facts only:\n\n1. Kuwait has more than 106,000 stateless Bidun residents, many from families there for generations; some served in its army and police (Human Rights Watch, 2011).\n2. Classed as \"illegal residents\", they are denied citizenship, often denied birth and marriage certificates, and barred from most jobs.\n3. Most Bidun children cannot attend the free government schools.\n4. Kuwait's side: the government says many are hiding another nationality.\n\nBy the same definition used on Israel: is this apartheid? You decide.\n\nIsrael: about 21% of citizens are Arab. They vote, Arab parties won 19 Knesset seats in October 2026, and Justice Khaled Kabub has sat on the Supreme Court since 2022. Israel has real problems too.\n\nKuwait is rarely called apartheid. Israel is called it daily. One standard.",
+ "caption_he": "כווית, אם היו בודקים אותה כמו את ישראל, לפי אותה הגדרת אפרטהייד שאמנסטי וארגון Human Rights Watch מפעילים על ישראל. עובדות בלבד: בכווית חיים יותר מ-100,000 \"בידון\" חסרי אזרחות, רבים ממשפחות שחיות שם דורות, וחלקם שירתו בצבא ובמשטרה. הם מוגדרים \"שוהים בלתי חוקיים\", בלי אזרחות, לעתים בלי תעודות לידה ונישואים, ורוב המשרות סגורות בפניהם. רוב הילדים שלהם לא יכולים ללמוד בבתי הספר הממשלתיים החינמיים. כווית טוענת שרבים מסתירים אזרחות אחרת. לפי אותה הגדרה, האם זה אפרטהייד? תחליטו אתם. בישראל כ-21% מהאזרחים ערבים, הם מצביעים, המפלגות הערביות זכו ב-19 מושבים, ושופט ערבי יושב בבית המשפט העליון. גם לישראל יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Kuwait",
+  "#DoubleStandard",
+  "#Apartheid"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "Kuwait, judged|like *Israel*"
+ }
+}
