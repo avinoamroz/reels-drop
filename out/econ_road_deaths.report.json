@@ -1,0 +1,119 @@
+{
+ "id": "econ_road_deaths",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "Saudi roads: *35* deaths.|Israel?",
+ "duration": 56.17,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/econ_road_deaths.mp4",
+  "cover": "covers/econ_road_deaths_cover.jpg",
+  "preview": "previews/econ_road_deaths_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_road_deaths_0.jpg",
+  "1": "out/frames/econ_road_deaths_1.jpg",
+  "3": "out/frames/econ_road_deaths_3.jpg",
+  "last": "out/frames/econ_road_deaths_last.jpg"
+ },
+ "caption_en": "Two countries beat it. Neither is in the Middle East.\n\nRoad traffic deaths per 100,000 people, 2023 (WHO modelled estimates):\nUK 2.5\nGermany 3.4\nIsrael 4.0\nUAE 5.1\nLebanon 6.9\nEgypt 7.9\nTurkey 8.1\nJordan 13.7\nSaudi Arabia 14.7\nIran 19.4\nSyria 31.7\n\n2000: UK 6.9, Israel 8.0, UAE 29.5. Iran peaked at 33.3 (2010), Saudi Arabia at 35.2 (2015). Lebanon fell from 23.4 to 6.9. Israel halved its rate from 8.0 to 4.0.\nThese are WHO modelled estimates and can differ from national police counts.\n\nSource: WHO Global Health Observatory, RS_198, estimated road traffic death rate per 100,000 population, 2000 to 2023. The animation interpolates between years.\nPhotos: Riyadh (B.alotaby, CC BY-SA 4.0), Dubai airport (Chris Olszewski, CC BY-SA 4.0), Beirut (Wusel007, CC BY-SA 3.0), Ayalon Highway (Ilya Platonov, public domain), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "הרוגים בתאונות דרכים ל 100,000 תושבים, 2023 (הערכות ארגון הבריאות העולמי): בריטניה 2.5, גרמניה 3.4, ישראל 4.0, הטובה במזרח התיכון בטבלה. סוריה 31.7, איראן 19.4, סעודיה 14.7.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#RoadSafety",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "WHO Global Health Observatory, RS_198 (modelled estimates)",
+   "year": 2023,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.993,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "In 2015, Saudi roads killed thirty five people for every hundred thousand. Where is Israel?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Road deaths per hundred thousand people, since 2000. Lowest first.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2000, Britain is at seven. Israel, eight. The UAE, almost thirty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Iran peaks at thirty three in 2010.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia hits thirty five in 2015.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the Gulf turns it around. The UAE falls to five. Saudi Arabia, under fifteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lebanon drops by more than two thirds.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria goes the other way. Thirty two in 2023.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain stays the champion, at two and a half. Germany, three point four.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel halves its rate since 2000.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "What makes roads safer, cameras or culture? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So where does Israel finish?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Four. The best of the Middle East on this chart.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "In 2015, Saudi roads killed 35 people for every 100,000. Where is Israel? Road deaths per 100,000 people since 2000. Lowest first. In 2000, Britain is at 7. Israel 8. The UAE, almost 30. Iran peaks at 33 in 2010. Saudi Arabia hits 35 in 2015. Then the Gulf turns it around. The UAE falls to 5. Saudi Arabia, under 15. Lebanon drops by more than two thirds, Syria goes the other way, 32 in 2023, Britain stays the champion at two and a half, Germany 3.4, and Israel has its rate since 2000. What makes roads safer, cameras or culture? Tell me in the comments. If you love Israeli facts, follow Noam Roz for more. So where does Israel finish? Four. the best of the Middle East on this chart.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 144.4
+}
