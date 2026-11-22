@@ -1,0 +1,125 @@
+{
+ "id": "canada_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Canada, judged like *Israel.*|*Ready?*",
+ "duration": 46.53,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/canada_like_israel.mp4",
+  "cover": "covers/canada_like_israel_cover.jpg",
+  "preview": "previews/canada_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/canada_like_israel_0.jpg",
+  "1": "out/frames/canada_like_israel_1.jpg",
+  "3": "out/frames/canada_like_israel_3.jpg",
+  "last": "out/frames/canada_like_israel_last.jpg"
+ },
+ "caption_en": "Canada, judged like Israel. Ready? 🇨🇦\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. The name comes from kanata, the Huron-Iroquois word for village (Government of Canada). First Nations, Inuit and Métis were here first.\n2. Quebec held referendums on leaving in 1980 and 1995. In 1995: No 50.58%, Yes 49.42% (Elections Québec).\n3. Hans Island: Canada and Denmark left rival flags and bottles there for decades, then split it in two on 14 June 2022.\n4. Quebec's maple syrup producers really keep a strategic reserve. The \"cartel\" stamp is satire.\n5. The geese bit is satire.\n\nCanada isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "קנדה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: השם קנדה בא מ\"קנאטה\", כפר בשפת האירוקוי. קוויבק הצביעה פעמיים על פרישה, וב-1995 ה\"לא\" ניצח בפחות מאחוז וחצי. קנדה ודנמרק \"נלחמו\" 49 שנה על אי זעיר עם בקבוקי ויסקי, וחילקו אותו ב-2022. לקוויבק יש באמת עתודה אסטרטגית של סירופ מייפל. קנדה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Canada",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "sources": [
+  {
+   "label": "Government of Canada, origin of the name",
+   "year": 2024
+  },
+  {
+   "label": "Elections Quebec, 1995 referendum",
+   "year": 1995
+  },
+  {
+   "label": "CBC, Hans Island deal",
+   "year": 2022
+  },
+  {
+   "label": "Quebec Maple Syrup Producers",
+   "year": 2024
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "transcript": {
+  "score": 0.977,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Canada, judged like Israel. Ready?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Official report. Finding one: Canada is stolen land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Even the name is borrowed. Kanata, an Iroquoian word for village.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding two: Quebec voted twice on leaving. In 1995, No won by about one percent.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding three: for 49 years, Canada and Denmark fought over a tiny island. With whisky. In 2022, they split it in half.",
+    "score": 0.963,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding four: Quebec keeps a strategic reserve of maple syrup.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding five: Canada geese, now all over Europe. Nobody invited them. Settler colonialism.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sounds ridiculous? Israel hears it every day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Canada isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same test, from the top.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Canada, judged like Israel. Ready? Official report. Finding one. Canada is stolen land. Even the name is borrowed. Canata, an Iroquoian word for village. Finding two. Quebec voted twice on leaving. In 1995, no one by about 1%. Finding three. For 49 years, Canada and Denmark fought over a tiny island with whiskey. In 2022, they split it in half. Finding four. Quebec keeps a strategic reserve of maple syrup. Finding five. Canada geese, now all over Europe. Nobody invited them. settler colonialism sounds ridiculous. Israel hears it every day. Canada isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow Noam Roz for more. Same test from the top.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.7
+ },
+ "scenes": 11,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 62.2
+}
