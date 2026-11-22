@@ -1,0 +1,158 @@
+{
+ "id": "balfour_67_words",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*67* words.|*1* letter.",
+ "duration": 50.87,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/balfour_67_words.mp4",
+  "cover": "covers/balfour_67_words_cover.jpg",
+  "preview": "previews/balfour_67_words_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/balfour_67_words_0.jpg",
+  "1": "out/frames/balfour_67_words_1.jpg",
+  "3": "out/frames/balfour_67_words_3.jpg",
+  "last": "out/frames/balfour_67_words_last.jpg"
+ },
+ "caption_en": "The second half of this letter is the part nobody quotes. ✉️\n\n2 Nov 1917: in the middle of World War One, British Foreign Secretary Arthur Balfour writes to Lord Rothschild. The declaration itself is 67 words: Britain views \"with favour the establishment in Palestine of a national home for the Jewish people\".\nWeeks later (Dec 1917) British troops enter Jerusalem. In 1922 the League of Nations writes the promise into Britain's Mandate for Palestine.\nThe second half: nothing shall prejudice \"the civil and religious rights of existing non-Jewish communities in Palestine\", or the rights of Jews in any other country.\n31 years later, Israel is born.\n\nPalestinian leaders see it as a promise made without them: in 2017, Mahmoud Abbas wrote that Britain must recognise its mistakes (The Guardian, 1 Nov 2017).\n\nA promise kept, or a promise broken? Tell me below.\n\nSources: Balfour Declaration text (Avalon Project, Yale); Mandate for Palestine (League of Nations, 1922); The Guardian (2017).\nPhotos (Wikimedia Commons, public domain): the Balfour Declaration; Arthur Balfour (Bain News Service); Allenby in Jerusalem 1917 (Underwood & Underwood); Toronto march 1917; Tel Aviv 1948 (Rudi Weissenstein). AI voice.",
+ "caption_he": "67 מילים. מכתב אחד.\n2 בנובמבר 1917: שר החוץ הבריטי ארתור בלפור כותב ללורד רוטשילד שבריטניה רואה בעין יפה הקמת בית לאומי לעם היהודי בארץ ישראל.\nשבועות אחר כך בריטניה כובשת את ירושלים, וב 1922 חבר הלאומים מכניס את ההבטחה לכתב המנדט.\nהחצי השני שאף אחד לא מצטט: אסור לפגוע בזכויות האזרחיות והדתיות של הקהילות הלא יהודיות, וגם לא בזכויות של יהודים בשום מדינה אחרת.\n31 שנה אחר כך קמה ישראל. ההנהגה הפלסטינית רואה בזה הבטחה שניתנה בלעדיהם: ב 2017 כתב אבו מאזן שבריטניה צריכה להכיר בטעויותיה.\nהבטחה שקוימה או שהופרה? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#History",
+  "#BalfourDeclaration"
+ ],
+ "sources": [
+  {
+   "label": "Balfour Declaration text, Avalon Project, Yale",
+   "year": 1917,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Mandate for Palestine, League of Nations",
+   "year": 1922,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Mahmoud Abbas, The Guardian, 1 Nov",
+   "year": 2017,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.981,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Sixty seven words. One letter. And the map of the Middle East changed.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "November 2, 1917. In the middle of World War One, Britain's foreign secretary, Arthur Balfour, writes to Lord Rothschild.",
+    "score": 0.958,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain views with favour a national home for the Jewish people, in Palestine.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Weeks later, British troops march into Jerusalem.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1922, the League of Nations writes the promise into Britain's mandate for Palestine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But read the second half. Nothing may harm the civil and religious rights of the non Jewish communities.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And nothing may harm the rights of Jews in any other country.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirty one years later, Israel is born.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Palestinian leaders see it as a promise made without them. In 2017, Mahmoud Abbas said Britain must recognise its mistakes.",
+    "score": 0.957,
+    "flag": "ok"
+   },
+   {
+    "line": "A promise kept, or a promise broken? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And all of it began with sixty seven words.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "67 words, one letter, and the map of the Middle East changed. November 2, 1917. In the middle of World War I, Britain's foreign secretary, Arthur Balfour, writes to Lord Rothschild, Britain views with favor a national home for the Jewish people, in Palestine. Weeks later, British troops march into Jerusalem. In 1922, the League of Nations writes the promise into Britain's mandate for Palestine, but read the second half. Nothing may harm the civil and religious rights of the non-Jewish communities, and nothing may harm the rights of Jews in any other country. Thirty-one years later, Israel is born. Palestinian leaders see it as a promise made without them. In 2017, Mahmoud Abbas said Britain must recognize its mistakes, a promise kept, or a promise broken. Tell me below. If you love Israeli facts, follow Noam Raz for more. And all of it began with 67 words.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/n8/n8_bal_letter.jpg",
+   "credit": "Balfour Declaration, 1917: public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_bal_portrait.jpg",
+   "credit": "Arthur Balfour: Bain News Service, public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_bal_letter.jpg",
+   "credit": "Balfour Declaration, 1917: public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_bal_allenby.jpg",
+   "credit": "Allenby enters Jerusalem, 1917: Underwood & Underwood, public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_bal_march.jpg",
+   "credit": "Balfour march, Toronto, 1917: public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_bal_letter.jpg",
+   "credit": "Balfour Declaration, 1917: public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_dec_bg.jpg",
+   "credit": "Tel Aviv, 14 May 1948: Rudi Weissenstein, public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_bal_letter.jpg",
+   "credit": "Balfour Declaration, 1917: public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_bal_letter.jpg",
+   "credit": "Balfour Declaration, 1917: public domain"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 152.7
+}
