@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Jews are white?|Count *9* homelands.",
- "duration": 48.57,
+ "duration": 49.13,
  "audio": {
   "lufs": -16.2,
   "true_peak": -1.5
@@ -133,12 +133,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "Jews are white. Let's count the homelands. Yemen. 1949 to 1950. Nearly 49,000 Jews are flown to Israel. Iraq. 1951. More than 120,000. Ethiopia in 1991. Over 14,000 people in just 36 hours. Morocco. Iran. Kurdistan. Buhara. In Uzbekistan. India. And Poland. Okay, that one is pretty white. So, what does Israel look like today? 48% Mizrahi or Sephardi, 45% Ashkenazi, and 177,600 Israelis of Ethiopian origin. Jews aren't a skin color, we're a people. Which Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me. If you love Israeli facts, follow Noam Roz for more. Now count again, nine homelands.",
+  "heard": "Jews are white. Let's count the homelands. Yemen. 1949 to 1950. Nearly 49,000 Jews are flown to Israel. Iraq. 1951. More than 120,000. Ethiopia in 1991. Over 14,000 people in just 36 hours. Morocco. Iran. Kurdistan. Buhara. In Uzbekistan. India. And Poland. Okay, that one is pretty white. So what does Israel look like today? 48% Mizrahi or Sephardi, 45% Ashkenazi, and 177,600 Israelis of Ethiopian origin. Jews aren't a skin color, we're a people. Which Jewish kitchen wins? Yemenite, Moroccan, Iraqi, Ethiopian? Tell me. If you love Israeli facts, follow Noam Roz for more. Now count again. Nine homelands.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 47.08,
+ "body_s": 47.64,
  "opener": {
   "style": "globe_spin_fast",
   "opener_s": 2.4,
@@ -149,5 +149,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 235.2
+ "render_s": 184.9
 }
