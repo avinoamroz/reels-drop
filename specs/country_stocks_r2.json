@@ -81,7 +81,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_tts.wav",
+   "wav": "ref/follow_line_tts_t3.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*"
   },
   {
@@ -543,5 +543,5 @@
   "blur": 6,
   "text": "*65* years, *3* stocks.|Which would you buy?"
  },
- "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept; 22 Nov round 2: take 3 (ref/follow_line_tts_t3.wav), the full render with the first cut was misheard"
 }
