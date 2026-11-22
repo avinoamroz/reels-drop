@@ -1,0 +1,121 @@
+{
+ "id": "usa_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "America, judged like *Israel.*|*Ready?*",
+ "duration": 50.33,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/usa_like_israel.mp4",
+  "cover": "covers/usa_like_israel_cover.jpg",
+  "preview": "previews/usa_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/usa_like_israel_0.jpg",
+  "1": "out/frames/usa_like_israel_1.jpg",
+  "3": "out/frames/usa_like_israel_3.jpg",
+  "last": "out/frames/usa_like_israel_last.jpg"
+ },
+ "caption_en": "America, judged like Israel. Ready? 🇺🇸\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Native nations were here first. Today there are 574 federally recognized tribes (Bureau of Indian Affairs).\n2. Treaty of Guadalupe Hidalgo, 1848: Mexico ceded 55% of its territory, including California (US National Archives).\n3. Puerto Ricans have been US citizens since 1917, but have no vote for president and one non-voting member of Congress. Same for Guam.\n4. About 706 miles of primary barrier on the Mexican border, January 2021 (US Customs and Border Protection).\n5. The metric system bit is satire.\n\nAmerica isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "אמריקה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: יש בארה\"ב 574 שבטים ילידים מוכרים. ב-1848 מקסיקו ויתרה על 55% משטחה, כולל קליפורניה. תושבי פוארטו ריקו וגואם הם אזרחים אמריקאים שלא מצביעים לנשיאות. על גבול מקסיקו עומדת חומה של כ-706 מייל. אמריקה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#USA",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "sources": [
+  {
+   "label": "US Bureau of Indian Affairs",
+   "year": 2024
+  },
+  {
+   "label": "US National Archives, Treaty of Guadalupe Hidalgo",
+   "year": 1848
+  },
+  {
+   "label": "US Customs and Border Protection, border wall status",
+   "year": 2021
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "America, judged like Israel. Ready?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Official report. Finding one: America is stolen land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Native nations were here first, for thousands of years. Today there are 574 federally recognized tribes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding two: annexation. In 1848, Mexico gave up 55 percent of its territory. California included.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding three: Puerto Ricans are American citizens. They can't vote for president. Neither can Guam.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding four: a wall. About 706 miles on the Mexican border.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding five: miles, pounds and Fahrenheit. The occupation of the metric system.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sounds ridiculous? Israel hears it every day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "America isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Same test, from the top.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "America, judged like Israel. Ready? Official report. Finding one. America is stolen land. Native nations were here first, for thousands of years. Today there are 574 federally recognized tribes. Finding two. Annexation. In 1848, Mexico gave up 55% of its territory, California included. Finding three. Puerto Ricans are American citizens. They can't vote for president. Neither can Guam. Finding four. A wall. About 706 miles on the Mexican border. Finding five, miles, pounds, and Fahrenheit. The occupation of the metric system. Sounds ridiculous? Israel hears it every day. America isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow Noam Roz for more. Same test from the top.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "scenes": 11,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 112.0
+}
