@@ -2,32 +2,130 @@
  "id": "colonize_olympics_v7_r2",
  "takes": [
   {
-   "take": "ref/follow_line_tts.wav",
-   "heard": "Noah Moroz",
-   "exact": false,
-   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold, the British Empire. 23.8%, silver, the Mongols. 16, bronze, the Russian Empire. 15, then Spain, 9. France, almost 8. The Ottomans, 3.5. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%, it didn't even qualify. So it entered a different event, drip irrigation, a camera you swallow, cars that see the road, Israel's borders are still argued over. And that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noah Moroz for more. Because one empire once ruled almost a quarter of the earth.",
-   "lufs": -16.1
+   "take": "ref/follow_line_tts_t3.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold. The British Empire. 23.8%. Silver. The Mongols. 16. Bronze. The Russian Empire. 15. Then Spain. 9. France. Almost 8. The Ottomans? 3.5. And the country the internet calls a colonizer. Israel. Even with the West Bank and Gaza. It didn't even qualify, so it entered a different event. Drip irrigation. A camera you swallow. Cars that see the road. Israel's borders are still argued over. And that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noam Roz for more. Because one empire once ruled almost a quarter of the earth.",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "Noam Roz",
+     "exact": true
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
   },
   {
-   "take": "ref/follow_tts/take1.wav",
-   "heard": "Noam Raz",
+   "take": "ref/follow_tts/r3_take2.wav",
+   "heard": "No amraz",
    "exact": false,
-   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold, the British Empire, 23.8%. Silver, the Mongols, 16. Bronze, the Russian Empire, 15. Then Spain, nine. France, almost eight. The Ottomans, three and a half. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%. It didn't even qualify, so it entered a different event. Drip irrigation. A camera you swallow. Cars that see the road. Israel's borders are still argued over, and that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noam Raz for more. Because one empire once ruled almost a quarter of the earth.",
-   "lufs": -16.1
+   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold. The British Empire. 23.8%. Silver. The Mongols. 16. Bronze. The Russian Empire. 15. Then Spain. 9. France. Almost 8. The Ottomans? 3.5. And the country the internet calls a colonizer. Israel. Even with the West Bank and Gaza. It didn't even qualify, so it entered a different event. Drip irrigation. A camera you swallow. Cars that see the road. Israel's borders are still argued over. And that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow. No amraz. For more. Because one empire once ruled almost a quarter of the earth.",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "No amraz",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
   },
   {
-   "take": "ref/follow_tts/take3.wav",
+   "take": "ref/follow_tts/r3_take3.wav",
    "heard": "Noam Ra's",
    "exact": false,
-   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold, the British Empire, 23.8%. Silver, the Mongols, 16. Bronze, the Russian Empire, 15. Then Spain, nine. France, almost eight. The Ottomans, three and a half. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%. It didn't even qualify, so it entered a different event. Drip irrigation. A camera you swallow. Cars that see the road. Israel's borders are still argued over, and that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow. Noam Ra's for more. Because one empire once ruled almost a quarter of the earth.",
-   "lufs": -16.1
+   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold, the British Empire, 23.8%. Silver, the Mongols, 16. Bronze, the Russian Empire, 15. Then Spain, nine. France, almost eight. The Ottomans, three and a half. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%. It didn't even qualify, so it entered a different event. Drip irrigation, a camera you swallow, cars that see the road, Israel's borders are still argued over, and that debate is real. But on the conquest scoreboard, not even on the podium. If you love Israeli facts, follow. Noam Ra's for more, because one empire once ruled almost a quarter of the earth.",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "Noam Ra's",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raaz",
+     "exact": false
+    }
+   ]
   },
   {
-   "take": "ref/follow_tts/take7.wav",
+   "take": "ref/follow_tts/r3_take7.wav",
+   "heard": "No amraz",
+   "exact": false,
+   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold, the British Empire, 23.8%. Silver, the Mongols, 16. Bronze, the Russian Empire, 15. Then Spain, nine. France, almost eight. The Ottomans, three and a half. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%. It didn't even qualify, so it entered a different event. Drip irrigation. A camera you swallow. Cars that see the road. Israel's borders are still argued over, and that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow. No amraz for more, because one empire once ruled almost a quarter of the earth.",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "No amraz",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
+  },
+  {
+   "take": "ref/follow_tts/r3_take5.wav",
    "heard": "Noam Raz",
    "exact": false,
-   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold. The British Empire. 23.8%. Silver. The Mongols. 16. Bronze. The Russian Empire. 15. Then Spain, 9. France, almost 8. The Ottomans, 3.5. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%. It didn't even qualify, so it entered a different event. Drip irrigation. A camera you swallow. Cars that see the road. Israel's borders are still argued over. And that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow Noam Raz for more. Because one empire once ruled almost a quarter of the earth.",
-   "lufs": -16.1
+   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold, the British Empire, 23.8%. Silver, the Mongols, 16. Bronze, the Russian Empire, 15. Then Spain, nine. France, almost eight. The Ottomans, three and a half. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%. It didn't even qualify, so it entered a different event. Drip irrigation, a camera you swallow, cars that see the road. Israel's borders are still argued over, and that debate is real. But on the conquest scoreboard, not even on the podium. If you love Israeli facts, follow Noam Raz for more. Because one empire once ruled almost a quarter of the earth.",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "No amraz",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
+  },
+  {
+   "take": "ref/follow_tts/r3_take9.wav",
+   "heard": "Noam Ra's",
+   "exact": false,
+   "transcript": "One empire once ruled almost a quarter of the land on Earth. Welcome to the Colonization Olympics, the event. Who grabbed the most of the planet? Gold, the British Empire, 23.8%. Silver, the Mongols, 16. Bronze, the Russian Empire, 15. Then Spain, nine. France, almost eight. The Ottomans, three and a half. And the country the internet calls a colonizer, Israel. Even with the West Bank and Gaza, 0.02%. It didn't even qualify, so it entered a different event. Drip irrigation. A camera you swallow. Cars that see the road. Israel's borders are still argued over, and that debate is real. But on the conquest scoreboard? Not even on the podium. If you love Israeli facts, follow. Noam Ra's for more, because one empire once ruled almost a quarter of the earth.",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "Noam Ra's",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
   }
  ]
 }
