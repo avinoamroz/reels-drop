@@ -1,0 +1,69 @@
+{
+ "follow": "If you love Israeli facts, follow Noam Roz for more.",
+ "ref": "voice/border_question_1_v2_r2_vo.wav",
+ "ref_stats": {
+  "pitch_hz": 153.6,
+  "pitch_var_st": 7.6,
+  "rate_wps": 2.98
+ },
+ "takes": [
+  {
+   "take": 1,
+   "file": "ref/follow_tts/take1.wav",
+   "context": "But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Roz for more. Because Gaza has two borders.",
+   "tts_text": "But when did you last hear anyone ask Egypt? If you love Israeli facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more. Because Gaza has two borders.",
+   "exact_words": true,
+   "secs": 3.66,
+   "transcript": "If you love Israeli facts, follow Noam Roz for more.",
+   "transcript_context": "But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Ra's for more, because Gaza has two borders.",
+   "name_ok": true,
+   "name_exact": true,
+   "stats": {
+    "pitch_hz": 149.2,
+    "pitch_var_st": 9.23,
+    "rate_wps": 3.06
+   },
+   "dist_to_ref": 13.7,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 2,
+   "file": "ref/follow_tts/take2.wav",
+   "context": "Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow Noam Roz for more. So, would you rather pay?",
+   "tts_text": "Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more. So, would you rather pay?",
+   "exact_words": true,
+   "secs": 3.32,
+   "transcript": "If you love Israeli facts, follow Noam Ross for more.",
+   "transcript_context": "Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow Noam Ra's for more. So, would you rather pay?",
+   "name_ok": true,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 140.0,
+    "pitch_var_st": 6.96,
+    "rate_wps": 3.15
+   },
+   "dist_to_ref": 17.76,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  },
+  {
+   "take": 3,
+   "file": "ref/follow_tts/take3.wav",
+   "context": "Which level should Israel fix next? If you love Israeli facts, follow Noam Roz for more. So how does one country have this?",
+   "tts_text": "Which level should Israel fix next? If you love Israeli facts, follow <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more. So how does one country have this?",
+   "exact_words": true,
+   "secs": 3.03,
+   "transcript": "If you love Israeli facts, follow New Amraz for more.",
+   "transcript_context": "Which level should Israel fix next? If you love Israeli facts, follow Noam Ra's for more. So how does one country have this?",
+   "name_ok": false,
+   "name_exact": false,
+   "stats": {
+    "pitch_hz": 138.4,
+    "pitch_var_st": 6.0,
+    "rate_wps": 3.47
+   },
+   "dist_to_ref": 34.34,
+   "voice": "cd06f613-0c92-4347-9b94-b34cb4a0239f"
+  }
+ ],
+ "best": 1
+}
