@@ -1,512 +1,582 @@
 [
 {
 "word": "Japan",
-"start": 0.464,
-"end": 0.913
+"start": 0.325,
+"end": 0.743
 },
 {
 "word": "isn't",
-"start": 0.913,
-"end": 1.146
+"start": 0.743,
+"end": 0.944
 },
 {
 "word": "called",
-"start": 1.146,
-"end": 1.424
+"start": 0.944,
+"end": 1.223
 },
 {
 "word": "Japan.",
-"start": 1.424,
-"end": 1.997
+"start": 1.223,
+"end": 1.641
 },
 {
 "word": "It's",
-"start": 2.678,
-"end": 2.895
+"start": 2.446,
+"end": 2.663
 },
 {
 "word": "Nihon,",
-"start": 2.895,
-"end": 3.514
+"start": 2.663,
+"end": 3.328
 },
 {
 "word": "or",
-"start": 4.025,
-"end": 4.118
+"start": 3.344,
+"end": 3.498
 },
 {
 "word": "Nippon.",
-"start": 4.118,
-"end": 4.629
+"start": 3.498,
+"end": 4.009
 },
 {
 "word": "Written",
-"start": 5.232,
-"end": 5.495
+"start": 4.907,
+"end": 5.217
 },
 {
 "word": "sun",
-"start": 5.495,
+"start": 5.217,
+"end": 5.697
+},
+{
+"word": "and",
+"start": 5.697,
 "end": 5.867
 },
 {
-"word": "and",
-"start": 5.867,
-"end": 6.006
-},
-{
 "word": "origin:",
-"start": 6.006,
-"end": 6.579
+"start": 5.867,
+"end": 6.409
 },
 {
 "word": "where",
-"start": 6.734,
-"end": 6.935
+"start": 7.368,
+"end": 7.647
 },
 {
 "word": "the",
-"start": 6.935,
-"end": 7.028
+"start": 7.647,
+"end": 7.725
 },
 {
 "word": "sun",
-"start": 7.028,
-"end": 7.307
+"start": 7.725,
+"end": 8.003
 },
 {
 "word": "rises.",
-"start": 7.307,
-"end": 7.895
+"start": 8.003,
+"end": 8.576
 },
 {
 "word": "China",
-"start": 8.715,
-"end": 9.102
+"start": 9.164,
+"end": 9.706
 },
 {
 "word": "is",
-"start": 9.102,
-"end": 9.257
+"start": 9.768,
+"end": 9.985
 },
 {
 "word": "Zhongguo.",
-"start": 9.257,
-"end": 9.845
+"start": 9.985,
+"end": 10.495
 },
 {
 "word": "The",
-"start": 10.511,
-"end": 10.604
+"start": 11.115,
+"end": 11.269
 },
 {
 "word": "middle",
-"start": 10.604,
-"end": 10.836
+"start": 11.269,
+"end": 11.517
 },
 {
 "word": "kingdom.",
-"start": 10.836,
-"end": 11.285
+"start": 11.517,
+"end": 11.997
 },
 {
 "word": "Korea",
-"start": 12.167,
-"end": 12.523
+"start": 12.771,
+"end": 13.158
 },
 {
 "word": "comes",
-"start": 12.554,
-"end": 12.879
+"start": 13.158,
+"end": 13.437
 },
 {
 "word": "from",
-"start": 12.879,
-"end": 13.065
+"start": 13.437,
+"end": 13.607
 },
 {
 "word": "Goryeo,",
-"start": 13.065,
-"end": 13.545
+"start": 13.607,
+"end": 14.211
 },
 {
 "word": "an",
-"start": 14.164,
-"end": 14.319
+"start": 14.303,
+"end": 14.427
 },
 {
 "word": "old",
-"start": 14.35,
-"end": 14.675
+"start": 14.427,
+"end": 14.629
 },
 {
 "word": "dynasty.",
-"start": 14.675,
-"end": 15.248
+"start": 14.629,
+"end": 15.232
 },
 {
 "word": "South",
-"start": 15.975,
-"end": 16.331
+"start": 15.681,
+"end": 16.037
 },
 {
 "word": "Korea",
-"start": 16.331,
-"end": 16.687
+"start": 16.037,
+"end": 16.378
 },
 {
 "word": "calls",
-"start": 16.687,
-"end": 16.997
+"start": 16.378,
+"end": 16.734
 },
 {
 "word": "itself",
-"start": 16.997,
-"end": 17.322
+"start": 16.734,
+"end": 17.09
 },
 {
 "word": "Hanguk.",
-"start": 17.322,
-"end": 17.864
+"start": 17.09,
+"end": 17.57
 },
 {
 "word": "Mongolia",
-"start": 18.545,
-"end": 19.18
+"start": 18.468,
+"end": 19.195
 },
 {
 "word": "is",
-"start": 19.211,
-"end": 19.365
+"start": 19.195,
+"end": 19.396
 },
 {
 "word": "Mongol",
-"start": 19.365,
-"end": 19.721
+"start": 19.396,
+"end": 19.799
 },
 {
 "word": "Uls.",
-"start": 19.752,
-"end": 20.232
+"start": 19.799,
+"end": 20.248
 },
 {
 "word": "India's",
-"start": 20.867,
-"end": 21.223
+"start": 20.836,
+"end": 21.208
 },
 {
 "word": "constitution",
-"start": 21.223,
-"end": 21.889
+"start": 21.208,
+"end": 21.982
 },
 {
 "word": "says",
-"start": 21.889,
-"end": 22.152
-},
-{
-"word": "it",
-"start": 22.152,
+"start": 21.982,
 "end": 22.276
 },
 {
-"word": "in",
+"word": "it",
 "start": 22.276,
-"end": 22.446
+"end": 22.369
+},
+{
+"word": "in",
+"start": 22.369,
+"end": 22.492
 },
 {
 "word": "Article",
-"start": 22.446,
-"end": 22.817
+"start": 22.492,
+"end": 22.879
 },
 {
 "word": "1:",
-"start": 22.817,
-"end": 23.174
+"start": 22.879,
+"end": 23.235
 },
 {
 "word": "India,",
-"start": 23.746,
-"end": 24.226
+"start": 23.87,
+"end": 24.474
 },
 {
 "word": "that",
-"start": 24.304,
-"end": 24.489
+"start": 24.737,
+"end": 25.109
 },
 {
 "word": "is",
-"start": 24.489,
-"end": 24.644
+"start": 25.155,
+"end": 25.341
 },
 {
 "word": "Bharat.",
-"start": 24.644,
-"end": 24.938
+"start": 25.341,
+"end": 25.883
 },
 {
-"word": "Bhutan",
-"start": 25.016,
-"end": 25.619
+"word": "Sri",
+"start": 26.811,
+"end": 27.074
 },
 {
-"word": "is",
-"start": 25.65,
-"end": 25.836
-},
-{
-"word": "Druk",
-"start": 25.836,
-"end": 26.068
-},
-{
-"word": "Yul.",
-"start": 26.068,
-"end": 26.378
-},
-{
-"word": "The",
-"start": 26.703,
-"end": 26.842
-},
-{
-"word": "land",
-"start": 26.842,
-"end": 27.09
-},
-{
-"word": "of",
-"start": 27.09,
-"end": 27.183
-},
-{
-"word": "the",
-"start": 27.183,
-"end": 27.276
-},
-{
-"word": "thunder",
-"start": 27.276,
-"end": 27.57
-},
-{
-"word": "dragon.",
-"start": 27.57,
-"end": 28.081
-},
-{
-"word": "In",
-"start": 28.622,
-"end": 28.762
-},
-{
-"word": "English,",
-"start": 28.762,
-"end": 29.257
-},
-{
-"word": "Thailand",
-"start": 29.458,
-"end": 29.907
+"word": "Lanka",
+"start": 27.074,
+"end": 27.446
 },
 {
 "word": "was",
-"start": 29.907,
-"end": 30.031
+"start": 27.446,
+"end": 27.647
 },
 {
-"word": "Siam",
-"start": 30.031,
-"end": 30.418
+"word": "Ceylon",
+"start": 27.647,
+"end": 28.22
 },
 {
 "word": "until",
-"start": 30.418,
-"end": 30.635
+"start": 28.282,
+"end": 28.545
+},
+{
+"word": "1972.",
+"start": 28.545,
+"end": 29.691
+},
+{
+"word": "Sri",
+"start": 30.294,
+"end": 30.526
+},
+{
+"word": "Lanka",
+"start": 30.526,
+"end": 30.852
+},
+{
+"word": "means:",
+"start": 30.852,
+"end": 31.424
+},
+{
+"word": "resplendent",
+"start": 31.517,
+"end": 32.121
+},
+{
+"word": "island.",
+"start": 32.121,
+"end": 32.601
+},
+{
+"word": "Bhutan",
+"start": 33.019,
+"end": 33.468
+},
+{
+"word": "is",
+"start": 33.468,
+"end": 33.622
+},
+{
+"word": "Druk",
+"start": 33.622,
+"end": 33.917
+},
+{
+"word": "Yul.",
+"start": 33.917,
+"end": 34.304
+},
+{
+"word": "The",
+"start": 34.706,
+"end": 34.814
+},
+{
+"word": "land",
+"start": 34.814,
+"end": 35.17
+},
+{
+"word": "of",
+"start": 35.17,
+"end": 35.263
+},
+{
+"word": "the",
+"start": 35.263,
+"end": 35.356
+},
+{
+"word": "thunder",
+"start": 35.356,
+"end": 35.712
+},
+{
+"word": "dragon.",
+"start": 35.774,
+"end": 36.223
+},
+{
+"word": "In",
+"start": 36.951,
+"end": 37.136
+},
+{
+"word": "English,",
+"start": 37.136,
+"end": 37.694
+},
+{
+"word": "Thailand",
+"start": 37.787,
+"end": 38.452
+},
+{
+"word": "was",
+"start": 38.545,
+"end": 38.684
+},
+{
+"word": "Siam",
+"start": 38.684,
+"end": 39.226
+},
+{
+"word": "until",
+"start": 39.257,
+"end": 39.505
 },
 {
 "word": "1939.",
-"start": 30.635,
-"end": 31.626
+"start": 39.505,
+"end": 40.573
 },
 {
 "word": "At",
-"start": 32.462,
-"end": 32.616
+"start": 41.455,
+"end": 41.626
 },
 {
 "word": "home,",
-"start": 32.616,
-"end": 33.003
+"start": 41.626,
+"end": 42.106
 },
 {
 "word": "it's",
-"start": 33.143,
-"end": 33.328
+"start": 42.462,
+"end": 42.709
 },
 {
 "word": "Prathet",
-"start": 33.328,
-"end": 33.684
+"start": 42.709,
+"end": 43.22
 },
 {
 "word": "Thai.",
-"start": 33.684,
-"end": 34.056
+"start": 43.282,
+"end": 43.762
 },
 {
-"word": "Georgia",
-"start": 34.861,
-"end": 35.248
-},
-{
-"word": "is",
-"start": 35.248,
-"end": 35.372
-},
-{
-"word": "Sakartvelo,",
-"start": 35.372,
-"end": 36.084
-},
-{
-"word": "land",
-"start": 36.564,
-"end": 36.842
-},
-{
-"word": "of",
-"start": 36.842,
-"end": 36.935
-},
-{
-"word": "the",
-"start": 36.935,
-"end": 37.013
-},
-{
-"word": "Kartvelians.",
-"start": 37.013,
-"end": 37.864
-},
-{
-"word": "And",
-"start": 38.793,
-"end": 38.917
-},
-{
-"word": "Armenia",
-"start": 38.917,
-"end": 39.427
+"word": "Cambodia",
+"start": 44.536,
+"end": 45.14
 },
 {
 "word": "is",
-"start": 39.427,
-"end": 39.629
-},
-{
-"word": "Hayastan,",
-"start": 39.629,
-"end": 40.356
-},
-{
-"word": "land",
-"start": 40.883,
-"end": 41.161
-},
-{
-"word": "of",
-"start": 41.161,
-"end": 41.254
-},
-{
-"word": "the",
-"start": 41.254,
-"end": 41.332
-},
-{
-"word": "Hay.",
-"start": 41.332,
-"end": 41.703
-},
-{
-"word": "Which",
-"start": 42.725,
-"end": 42.926
-},
-{
-"word": "name",
-"start": 42.926,
-"end": 43.174
-},
-{
-"word": "should",
-"start": 43.174,
-"end": 43.313
-},
-{
-"word": "English",
-"start": 43.313,
-"end": 43.654
-},
-{
-"word": "switch",
-"start": 43.654,
-"end": 43.886
-},
-{
-"word": "to?",
-"start": 43.886,
-"end": 44.273
-},
-{
-"word": "Parts",
-"start": 45.062,
+"start": 45.14,
 "end": 45.325
 },
 {
-"word": "1",
+"word": "Kampuchea.",
 "start": 45.325,
-"end": 45.542
+"end": 46.161
 },
 {
-"word": "and",
-"start": 45.542,
-"end": 45.666
+"word": "Georgia",
+"start": 46.517,
+"end": 47.121
 },
 {
-"word": "2",
-"start": 45.666,
-"end": 45.96
+"word": "is",
+"start": 47.121,
+"end": 47.307
 },
 {
-"word": "are",
-"start": 45.96,
-"end": 46.084
+"word": "Sakartvelo,",
+"start": 47.307,
+"end": 48.05
 },
 {
-"word": "on",
-"start": 46.084,
-"end": 46.177
+"word": "land",
+"start": 48.267,
+"end": 48.715
 },
 {
-"word": "my",
-"start": 46.177,
-"end": 46.285
+"word": "of",
+"start": 48.715,
+"end": 48.824
 },
 {
-"word": "profile.",
-"start": 46.285,
-"end": 46.858
+"word": "the",
+"start": 48.824,
+"end": 48.886
+},
+{
+"word": "Kartvelians.",
+"start": 48.886,
+"end": 49.784
 },
 {
 "word": "And",
-"start": 47.833,
-"end": 48.019
+"start": 50.635,
+"end": 50.821
+},
+{
+"word": "Armenia",
+"start": 50.821,
+"end": 51.332
+},
+{
+"word": "is",
+"start": 51.332,
+"end": 51.471
+},
+{
+"word": "Hayastan,",
+"start": 51.471,
+"end": 52.291
+},
+{
+"word": "land",
+"start": 52.338,
+"end": 52.678
+},
+{
+"word": "of",
+"start": 52.678,
+"end": 52.771
+},
+{
+"word": "the",
+"start": 52.771,
+"end": 52.849
+},
+{
+"word": "Hay.",
+"start": 52.849,
+"end": 53.22
+},
+{
+"word": "Which",
+"start": 53.514,
+"end": 53.839
+},
+{
+"word": "name",
+"start": 53.839,
+"end": 54.118
+},
+{
+"word": "should",
+"start": 54.118,
+"end": 54.288
+},
+{
+"word": "English",
+"start": 54.288,
+"end": 54.567
+},
+{
+"word": "switch",
+"start": 54.567,
+"end": 54.83
+},
+{
+"word": "to?",
+"start": 54.83,
+"end": 55.14
+},
+{
+"word": "Parts",
+"start": 55.65,
+"end": 55.945
+},
+{
+"word": "1",
+"start": 55.945,
+"end": 56.161
+},
+{
+"word": "and",
+"start": 56.161,
+"end": 56.239
+},
+{
+"word": "2",
+"start": 56.239,
+"end": 56.579
+},
+{
+"word": "are",
+"start": 56.579,
+"end": 56.688
+},
+{
+"word": "on",
+"start": 56.688,
+"end": 56.811
+},
+{
+"word": "my",
+"start": 56.811,
+"end": 56.935
+},
+{
+"word": "profile.",
+"start": 56.935,
+"end": 57.632
+},
+{
+"word": "And",
+"start": 58.112,
+"end": 58.251
 },
 {
 "word": "remember:",
-"start": 48.019,
-"end": 48.499
+"start": 58.251,
+"end": 58.793
 }
 ]
