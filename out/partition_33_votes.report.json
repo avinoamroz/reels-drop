@@ -1,0 +1,126 @@
+{
+ "id": "partition_33_votes",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*33* votes made|a country?",
+ "duration": 44.43,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/partition_33_votes.mp4",
+  "cover": "covers/partition_33_votes_cover.jpg",
+  "preview": "previews/partition_33_votes_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/partition_33_votes_0.jpg",
+  "1": "out/frames/partition_33_votes_1.jpg",
+  "3": "out/frames/partition_33_votes_3.jpg",
+  "last": "out/frames/partition_33_votes_last.jpg"
+ },
+ "caption_en": "Most people have never seen how this vote went. 🗳️\n\n29 Nov 1947: the UN General Assembly votes on Resolution 181, splitting British ruled Palestine into a Jewish state and an Arab state, with Jerusalem under an international regime.\n✅ 33 yes, including the United States AND the Soviet Union.\n❌ 13 no, including all 6 Arab member states (Egypt, Iraq, Lebanon, Saudi Arabia, Syria, Yemen).\n➖ 10 abstain, including Britain, the ruling power.\nJewish leaders accepted the plan, Arab leaders rejected it (Britannica). Violence started almost at once; in May 1948 it became a full war.\n\nThat war cost both peoples dearly: hundreds of thousands of Palestinian Arabs became refugees.\n\nWas partition the right call? Tell me below.\n\nSources: UN GA Resolution 181 (1947); Britannica, United Nations Resolution 181 and Arab Israeli wars; Jewish Virtual Library (vote list).\nPhotos (Wikimedia Commons): UN General Assembly, Flushing Meadows, 1947 (public domain); Moshe Marlin Levin, NLI (CC BY 4.0); Nizzan Cohen (CC BY 4.0). Map: Natural Earth. AI voice.",
+ "caption_he": "33 קולות. האם הם יצרו מדינה?\n29 בנובמבר 1947: עצרת האו\"ם מצביעה על החלטה 181, חלוקת ארץ ישראל המנדטורית למדינה יהודית ומדינה ערבית, וירושלים בניהול בינלאומי.\n33 בעד, כולל ארה\"ב וגם ברית המועצות. 13 נגד, כולל כל 6 המדינות הערביות החברות. 10 נמנעו, ובהן בריטניה.\nההנהגה היהודית קיבלה, ההנהגה הערבית דחתה. האלימות פרצה מיד, ובמאי 1948 הפכה למלחמה.\nהמלחמה גבתה מחיר כבד משני העמים: מאות אלפי ערבים פלסטינים הפכו לפליטים.\nהחלוקה הייתה ההחלטה הנכונה? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#UN",
+  "#History"
+ ],
+ "sources": [
+  {
+   "label": "UN GA Resolution 181; Britannica",
+   "year": 1947,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Jewish Virtual Library, vote list",
+   "year": 2024,
+   "at": "L3",
+   "until": "L6"
+  },
+  {
+   "label": "Britannica, Arab Israeli wars",
+   "year": 2024,
+   "at": "L7",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.975,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Thirty three votes. Did they make a country?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "November 29, 1947. The U.N. votes on splitting British ruled Palestine in two.",
+    "score": 0.95,
+    "flag": "ok"
+   },
+   {
+    "line": "One Jewish state. One Arab state. And Jerusalem, under the U.N.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirty three countries vote yes. Even the United States and the Soviet Union agree.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Thirteen vote no. Among them, every Arab member state.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ten abstain. Britain, the ruling power, is one of them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jewish leaders accept the plan. Arab leaders reject it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Violence starts almost at once. Six months later, full war.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "That war cost both peoples dearly. Hundreds of thousands of Palestinian Arabs became refugees.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Was partition the right call? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And it all came down to thirty three votes.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "33 votes, did they make a country? November 29, 1947, the UN votes on splitting British rule of Palestine in two. One Jewish state, one Arab state. And Jerusalem under the UN 33 countries vote yes, even the United States and Soviet Union agree. 13 vote no. Among them, every Arab member state. 10 abstain. Britain, the ruling power, is one of them. Jewish leaders accept the plan. Arab leaders reject it. Violence starts almost at once. months later, full war. That war cost both peoples dearly. Hundreds of thousands of Palestinian Arabs became refugees. Was partition the right call? Tell me below. If you love Israeli facts, follow Noam Raz for more. And it all came down to 33 votes.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 42.92,
+ "opener": {
+  "style": "globe_spin_whip",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 140.3
+}
