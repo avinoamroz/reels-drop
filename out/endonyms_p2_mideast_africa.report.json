@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "endonym_fly",
  "hook": "Egypt isn't called *Egypt.*",
- "duration": 46.1,
+ "duration": 46.77,
  "audio": {
-  "lufs": -16.0,
+  "lufs": -15.9,
   "true_peak": -2.0
  },
  "outputs": {
@@ -93,12 +93,12 @@
    },
    {
     "line": "Egyptians say Masr. Hebrew has Mitzrayim, from the same old root. Egypt comes from Greek.",
-    "score": 0.8,
-    "flag": "ok"
+    "score": 0.733,
+    "flag": "MISS"
    },
    {
     "line": "Fly west. Morocco is al-Maghrib: the west, where the sun sets.",
-    "score": 0.917,
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -108,7 +108,7 @@
    },
    {
     "line": "Way down south, Swaziland renamed itself Eswatini in 2018.",
-    "score": 0.917,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -118,7 +118,7 @@
    },
    {
     "line": "Persia? Iranians always said Iran. In 1935, they asked the world to say it too.",
-    "score": 0.952,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -147,17 +147,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "Egypt isn't called Egypt. Egyptians say Maasir. Hebrew has Mitsuraim from the same old route. Egypt comes from Greek. Fly west. Morocco is al-Magreb. The west, where the sun sets. Algeria is all dessert. The islands, after the islets off Algiers. Way down south, Swaziland renamed itself a Swatini in 2018. Turkey asked the UN to say Turkey in 2022. Persia? Iranians always said Iran. In 1935, they asked the world to say too. Jordan is all their doom. Lebanon is Lebanon. From an old word for white, the snow on its mountains. And Israel is Yisrael. In Genesis, it's the name given to Jacob, often read as, he struggles with God. Which one did you already know? If you love Israeli facts, follow Noam Raz for more. Part 3 Flies to Asia. Until then, remember,",
+  "heard": "Egypt isn't called Egypt. Egyptian Seymasser. Hebrew has Mitsran. From the same old root, Egypt comes from Greek. Fly west. Morocco is Almagro. The west, where the sun sets. Algeria is Aljazir. The islands, after the islets off Algiers. Way down south, Swaziland renamed itself Eswatini in 2018. Turkey asked the UN to say Turkiye in 2022. Persia? Iranians always said Iran. In 1935, they asked the world to say it too. Jordan is Alordun. Lebanon is Lebanon. from an old word for white, the snow on its mountains, and Israel is Yisrael. In Genesis, it's the name given to Jacob often read as, he struggles with God. Which one did you already know? If you love Israeli facts, follow Noam Raz for more. Part 3 flies to Asia. Until then, remember.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
+  "lufs": -15.9,
   "true_peak": -2.0
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 166.3
+ "render_s": 171.9
 }
