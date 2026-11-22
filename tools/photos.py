@@ -56,6 +56,20 @@ def commons_info(title):
     return src, meta
 
 
+def commons_search(q, min_w=1200):
+    """Commons file search (namespace 6, bitmaps) -> page url of the first JPEG at least min_w px wide"""
+    r = requests.get(API, params={"action": "query", "format": "json", "generator": "search", "gsrnamespace": 6,
+                                  "gsrsearch": f"{q} filetype:bitmap", "gsrlimit": 12, "prop": "imageinfo",
+                                  "iiprop": "url|size|mime"}, headers=UA, timeout=60)
+    r.raise_for_status()
+    pages = sorted(r.json().get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
+    for p in pages:
+        ii = (p.get("imageinfo") or [{}])[0]
+        if ii.get("mime") == "image/jpeg" and ii.get("width", 0) >= min_w:
+            return ii.get("descriptionurl") or "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(p["title"].replace(" ", "_"))
+    raise ValueError(f"no JPEG >= {min_w} px on Commons for: {q}")
+
+
 def get(url):
     for i in range(4):
         try:
@@ -86,6 +100,8 @@ def main():
                 pass
         meta = {"name": name, "url": url}
         try:
+            if url.startswith("search:"):          # "search:<query>": first large JPEG the Commons file search finds
+                meta["query"] = url[7:].strip(); url = commons_search(meta["query"]); meta["resolved"] = url
             src, title = url, commons_title(url)
             if title:
                 src, cm = commons_info(title); meta.update(cm)
