@@ -1,0 +1,126 @@
+{
+ "id": "spain_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Spain, judged like *Israel.*|*Ready?*",
+ "duration": 47.43,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/spain_like_israel.mp4",
+  "cover": "covers/spain_like_israel_cover.jpg",
+  "preview": "previews/spain_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/spain_like_israel_0.jpg",
+  "1": "out/frames/spain_like_israel_1.jpg",
+  "3": "out/frames/spain_like_israel_3.jpg",
+  "last": "out/frames/spain_like_israel_last.jpg"
+ },
+ "caption_en": "Spain, judged like Israel. Ready? 🇪🇸\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. Rome landed in Iberia in 218 BC and called it Hispania. Before the Romans: the Iberians.\n2. Ceuta and Melilla are Spanish cities in North Africa (Melilla since 1497). Morocco claims both. Their fences were raised to about 6 m in 2005.\n3. Castile conquered the Canary Islands from 1402 to 1496; the Guanches lived on Tenerife. Las Palmas is about 1,740 km from Madrid.\n4. In October 2019, Spain's Supreme Court sentenced Catalan leaders to 9 to 13 years for sedition after the 2017 referendum. They were pardoned in 2021.\n5. The paella bit is satire. Mostly.\n\nSpain isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "ספרד, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: הרומאים קראו לה היספניה, ולפניהם חיו בה האיברים. ספרד מחזיקה שתי ערים באפריקה, סאוטה ומלייה, מאחורי גדרות בגובה כ-6 מטרים, ומרוקו תובעת את שתיהן. האיים הקנריים נכבשו מהגואנצ'ים במאה ה-15. ב-2019 נשלחו מנהיגים קטלונים ל-9 עד 13 שנות מאסר בגלל משאל עם, וקיבלו חנינה ב-2021. ספרד היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Spain",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "sources": [
+  {
+   "label": "Livy, History of Rome (Iberia 218 BC)",
+   "year": "ancient"
+  },
+  {
+   "label": "Al Jazeera, Spain plans third enclave fence",
+   "year": 2005
+  },
+  {
+   "label": "Spanish Supreme Court sentence 459/2019",
+   "year": 2019
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  }
+ ],
+ "transcript": {
+  "score": 0.976,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Spain, judged like Israel. Ready?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Official report. Finding one: Spain is stolen land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Before Spain, the Romans called it Hispania. Before the Romans, the Iberians.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Decolonize Spain! Give it back to the Iberians!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding two: Spain holds two cities in Africa, Ceuta and Melilla. Behind fences six metres high.",
+    "score": 0.812,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding three: the Canary Islands. Conquered from the Guanches in the 1400s.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding four: in 2019, Spain jailed Catalan leaders for up to 13 years, over a referendum.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding five: Valencia says paella with chorizo is a war crime.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sounds ridiculous? Israel hears it every day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spain isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, one more time.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Spain, judged like Israel. Ready? Official report. Finding 1. Spain is stolen land. Before Spain, the Romans called it Hispania. Before the Romans, the Iberians. Decolonize Spain. Give it back to the Iberians. Finding 2. Spain holds two cities in Africa, Suda and Malilla. Behind fences 6 meters high. Finding 3. The Canary Islands. Conquered from the Guanches in the 1400s. Finding 4. In 2019. Spain jailed Catalan leaders for up to 13 years, over a referendum. Finding five. Valencia says Paella with chorizo is a war crime. Sounds ridiculous. Israel hears it every day. Spain isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems, one standard. If you love Israeli facts, follow. Noam Roz for more. So, one more time.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "scenes": 12,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 77.9
+}
