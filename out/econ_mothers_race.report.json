@@ -1,6 +1,114 @@
 {
-  "id": "econ_mothers_race",
-  "status": "FAILED",
-  "run": "45055227674",
-  "log": "[18:28:55] pron [en]: Two mothers die for every hundred thousand births. That is the lowest on this chart. Which country is it? Maternal deaths per hundred thousand <<ˈ|l|ɪ|v>> births, since nineteen ninety. Lowest first. In nineteen ninety, Egypt and Iran lose a hundred and seven. Britain leads with six. America, twelve. Israel, twenty nine. Then the region falls fast. Egypt ends at seventeen. Turkey, from forty two t\n[18:28:55] pron notes: live -> live_verb\nvoice ok: Cartesia sonic-3 (55.7 s, 118 words, 1 run(s), pronunciation pass) voice/econ_mothers_race_vo.wav\n[18:28:56] voice: cached voice (script unchanged)\n[ WARN:0@2.811] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bI_ad_taumed.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bI_ad_taumed.jpg\n"
+ "id": "econ_mothers_race",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*2* in *100,000.*|Which country?",
+ "duration": 55.1,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/econ_mothers_race.mp4",
+  "cover": "covers/econ_mothers_race_cover.jpg",
+  "preview": "previews/econ_mothers_race_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_mothers_race_0.jpg",
+  "1": "out/frames/econ_mothers_race_1.jpg",
+  "3": "out/frames/econ_mothers_race_3.jpg",
+  "last": "out/frames/econ_mothers_race_last.jpg"
+ },
+ "caption_en": "In 1990 this country was eighth of twelve. Guess where it finished.\n\nMaternal deaths per 100,000 live births, 2023 (UN modelled estimates via the World Bank):\nIsrael 2\nUAE 3\nGermany 4\nSaudi Arabia 7\nUK 8\nTurkey 15\nLebanon 15\nIran 16\nEgypt 17\nUSA 17\nSyria 20\nJordan 31\n\n1990: UK 6, USA 12, Israel 29, Egypt 107, Iran 107. The USA rose from 12 to 17 (31 in 2021). The pandemic year 2021 spiked almost everywhere (Jordan 79, Lebanon 54, Iran 51).\nThese are modelled estimates; small numbers move from year to year.\n\nSource: WHO, UNICEF, UNFPA, World Bank Group and UNDESA (MMEIG) via World Bank, World Development Indicators, SH.STA.MMRT, 1990 to 2023. The animation interpolates between years.\nPhotos: Tel Aviv University medical building (Zalmanson Zeller, PikiWiki, CC BY 2.5), Riyadh (B.alotaby, CC BY-SA 4.0), Soroka and Ben Gurion University (Omer Berner, CC BY-SA 4.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "תמותת אמהות ל 100,000 לידות, 2023 (הערכות האו\"ם דרך הבנק העולמי): ישראל 2, הנמוך בטבלה. ארה\"ב 17, ירדן 31. ב 1990 ישראל הייתה על 29.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Health",
+  "#Mothers"
+ ],
+ "sources": [
+  {
+   "label": "WHO, UN MMEIG via World Bank, SH.STA.MMRT",
+   "year": 2023,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.985,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Two mothers die for every hundred thousand births. That is the lowest on this chart. Which country is it?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Maternal deaths per hundred thousand live births, since 1990. Lowest first.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1990, Egypt and Iran lose a hundred and seven.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain leads with six. America, twelve. Israel, twenty nine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the region falls fast. Egypt ends at seventeen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey, from forty two to fifteen. Lebanon and Iran end at fifteen and sixteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "America goes the other way. Twelve, then seventeen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "2021, the pandemic, spikes almost everywhere. Jordan hits seventy nine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia ends at seven. Germany, four. The UAE, three.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Why did America go backwards? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the lowest on the chart?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel. Two.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Two mothers die for every hundred thousand births. That is the lowest on this chart. Which country is it? Maternal deaths per hundred thousand live births since 1990. Lowest first. In 1990 Egypt and Iran lose 107. Britain leads with 6. America 12. Israel 29. Then the region falls fast. Egypt ends at 17. Turkey from 42 to 15. Lebanon and Iran end at 15 and 16 America goes the other way 12 then 17 2021 the pandemic spikes almost everywhere Jordan hits 79 Saudi Arabia ends at 7 Germany for the UAE 3 why did America go backwards tell me in the comments if you love Israeli facts follow noam raz for more and the lowest on the chart Israel 2",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 142.4
 }
