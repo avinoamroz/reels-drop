@@ -8,7 +8,7 @@ INTER = "/usr/share/fonts/opentype/inter/InterDisplay-ExtraBold.otf"
 CJK = ("/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc", 0)   # index 0 = JP
 KR = ("/usr/share/fonts/opentype/noto/NotoSansCJK-Black.ttc", 1)    # 1 = KR
 VAR = {"ar": "NotoSansArabic.ttf", "hi": "NotoSansDevanagari.ttf", "ka": "NotoSansGeorgian.ttf", "hy": "NotoSansArmenian.ttf",
-       "th": "NotoSansThai.ttf", "he": "NotoSansHebrew.ttf", "bo": "NotoSerifTibetan.ttf"}
+       "th": "NotoSansThai.ttf", "he": "NotoSansHebrew.ttf", "bo": "NotoSerifTibetan.ttf", "si": "NotoSansSinhala.ttf", "km": "NotoSansKhmer.ttf"}
 NAMES = {  # key: (text, script)
     "deutschland": ("Deutschland", "lat"), "oesterreich": ("Österreich", "lat"), "helvetia": ("Helvetia", "lat"),
     "magyarorszag": ("Magyarország", "lat"), "suomi": ("Suomi", "lat"), "hellas": ("Ελλάς", "lat"),
@@ -17,7 +17,7 @@ NAMES = {  # key: (text, script)
     "turkiye": ("Türkiye", "lat"), "iran": ("ایران", "ar"), "alurdun": ("الأردن", "ar"), "lubnan": ("لبنان", "ar"),
     "yisrael": ("ישראל", "he"),
     "nihon": ("日本", "cjk"), "zhongguo": ("中国", "cjk"), "hanguk": ("한국", "kr"), "mongoluls": ("Монгол Улс", "lat"),
-    "bharat": ("भारत", "hi"), "prathetthai": ("ประเทศไทย", "th"), "sakartvelo": ("საქართველო", "ka"), "hayastan": ("Հայաստան", "hy"), "drukyul": ("འབྲུག་ཡུལ།", "bo"),
+    "bharat": ("भारत", "hi"), "prathetthai": ("ประเทศไทย", "th"), "sakartvelo": ("საქართველო", "ka"), "hayastan": ("Հայաստան", "hy"), "drukyul": ("འབྲུག་ཡུལ།", "bo"), "srilankawa": ("ශ්‍රී ලංකාව", "si"), "kampuchea": ("កម្ពុជា", "km"), "norge": ("Norge", "lat"),
 }
 YEL = (255, 210, 63, 255)
 

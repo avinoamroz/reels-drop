@@ -21,11 +21,12 @@
    "hanguk": "ˈ|h|ɑ|n|g|u|k",
    "uls": "ˈ|uː|l|s",
    "bharat": "ˈ|b|ɑ|r|ə|t",
-   "prathet": "p|r|ɑ|ˈ|t|eɪ|t",
-   "sakartvelo": "ˌ|s|ɑ|k|ɑ|r|t|ˈ|v|ɛ|l|ɔ",
+   "prathet": "p|r|ə|ˈ|t|ɛ|t",
+   "sakartvelo": "s|ɑ|ˌ|k|ɑ|r|t|ˈ|v|ɛ|l|oʊ",
    "kartvelians": "k|ɑ|r|t|ˈ|v|iː|l|i|ə|n|z",
    "hayastan": "ˌ|h|ɑ|j|ɑ|s|ˈ|t|ɑ|n",
    "hay": "ˈ|h|aɪ",
+   "kampuchea": "ˌ|k|æ|m|p|uː|ˈ|tʃ|iː|ə",
    "druk": "ˈ|d|r|ʊ|k",
    "yul": "ˈ|j|uː|l",
    "goryeo": "ˈ|g|oʊ|r|j|ɔ"
@@ -51,10 +52,16 @@
    "say": "India's constitution says it in Article 1: India, that is Bharat."
   },
   {
+   "say": "Sri Lanka was Ceylon until 1972. Sri Lanka means: resplendent island."
+  },
+  {
    "say": "Bhutan is Druk Yul. The land of the thunder dragon."
   },
   {
    "say": "In English, Thailand was Siam until 1939. At home, it's Prathet Thai."
+  },
+  {
+   "say": "Cambodia is Kampuchea."
   },
   {
    "say": "Georgia is Sakartvelo, land of the Kartvelians."
@@ -162,6 +169,20 @@
    },
    {
     "at": "L6",
+    "code": "LKA",
+    "cam": [
+     80.7,
+     7.8,
+     170
+    ],
+    "en": "Ceylon",
+    "img": "srilankawa",
+    "tr": "Shri Lankawa",
+    "mean": "resplendent island",
+    "strike_at": "L6:Sri#2"
+   },
+   {
+    "at": "L7",
     "code": "BTN",
     "cam": [
      90.4,
@@ -172,10 +193,10 @@
     "img": "drukyul",
     "tr": "Druk Yul",
     "mean": "land of the thunder dragon",
-    "strike_at": "L6:Druk"
+    "strike_at": "L7:Druk"
    },
    {
-    "at": "L7",
+    "at": "L8",
     "code": "THA",
     "cam": [
      101.0,
@@ -186,10 +207,23 @@
     "img": "prathetthai",
     "tr": "Prathet Thai",
     "mean": "Thailand in English since 1939",
-    "strike_at": "L7:Prathet"
+    "strike_at": "L8:Prathet"
    },
    {
-    "at": "L8",
+    "at": "L9",
+    "code": "KHM",
+    "cam": [
+     104.9,
+     12.6,
+     125
+    ],
+    "en": "Cambodia",
+    "img": "kampuchea",
+    "tr": "Kampuchea",
+    "strike_at": "L9:Kampuchea"
+   },
+   {
+    "at": "L10",
     "code": "GEO",
     "cam": [
      43.4,
@@ -200,10 +234,10 @@
     "img": "sakartvelo",
     "tr": "Sakartvelo",
     "mean": "land of the Kartvelians",
-    "strike_at": "L8:Sakartvelo"
+    "strike_at": "L10:Sakartvelo"
    },
    {
-    "at": "L9",
+    "at": "L11",
     "code": "ARM",
     "cam": [
      45.0,
@@ -214,10 +248,10 @@
     "img": "hayastan",
     "tr": "Hayastan",
     "mean": "land of the Hay",
-    "strike_at": "L9:Hayastan"
+    "strike_at": "L11:Hayastan"
    },
    {
-    "at": "L10",
+    "at": "L12",
     "code": null,
     "cam": [
      112.0,
@@ -259,32 +293,44 @@
    "until": "L6"
   },
   {
-   "label": "Wikipedia, Bhutan",
+   "label": "Wikipedia, Sri Lanka",
    "year": 2026,
    "at": "L6",
    "until": "L7"
   },
   {
-   "label": "Wikipedia, Thailand",
+   "label": "Wikipedia, Bhutan",
    "year": 2026,
    "at": "L7",
    "until": "L8"
   },
   {
-   "label": "Wikipedia, country names in native languages",
+   "label": "Wikipedia, Thailand",
    "year": 2026,
    "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L9",
    "until": "L10"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L10",
+   "until": "L12"
   }
  ],
  "end": {
-  "at": "L10",
-  "until": "L11",
+  "at": "L12",
+  "until": "L13",
   "balance": "Two names, one place. Both are *real.*",
   "y": 800
  },
- "caption_en": "India's constitution answers this in its very first article.\n\nWhat countries in Asia call themselves:\nJapan: Nihon / Nippon (日本), written \"sun\" + \"origin\"\nChina: Zhōngguó (中国), \"the middle kingdom\"\nSouth Korea: Hanguk (한국); \"Korea\" comes from Goryeo, an old Korean dynasty\nMongolia: Mongol Uls (Монгол Улс)\nIndia: Bhārat (भारत). Article 1 of the Constitution: \"India, that is Bharat, shall be a Union of States.\"\nBhutan: Druk Yul (འབྲུག་ཡུལ།), \"land of the thunder dragon\"\nThailand: Prathet Thai (ประเทศไทย); known in English as Siam until 1939\nGeorgia: Sakartvelo (საქართველო), \"land of the Kartvelians\"\nArmenia: Hayastan (Հայաստան), from Hay, the Armenians' name for themselves\n\nTwo names, one place. Both are real.\nParts 1 (Europe) and 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Japan; Names of China; Names of Korea; Bhutan; Thailand (2026). Constitution of India, Article 1.\nVoice: AI clone of my own voice.",
- "caption_he": "החוקה של הודו עונה על זה כבר בסעיף הראשון.\n\nיפן היא ניהון (\"מקור השמש\"), סין היא ג'ונגגואו (\"ממלכת האמצע\"), דרום קוריאה היא הנגוק, מונגוליה היא מונגול אולס, בהוטן היא דרוק יול (\"ארץ דרקון הרעם\"), הודו היא גם בהרט (סעיף 1 בחוקה), תאילנד היא פראטט תאי (באנגלית: סיאם עד 1939), גאורגיה היא סקרטוולו וארמניה היא הייסטן.\nחלקים 1 ו-2 בפרופיל.",
+ "caption_en": "India's constitution answers this in its very first article.\n\nWhat countries in Asia call themselves:\nJapan: Nihon / Nippon (日本), written \"sun\" + \"origin\"\nChina: Zhōngguó (中国), \"the middle kingdom\"\nSouth Korea: Hanguk (한국); \"Korea\" comes from Goryeo, an old Korean dynasty\nMongolia: Mongol Uls (Монгол Улс)\nIndia: Bhārat (भारत). Article 1 of the Constitution: \"India, that is Bharat, shall be a Union of States.\"\nSri Lanka: Sri Lankā (ශ්‍රී ලංකාව), \"resplendent island\"; officially Ceylon until 1972\nBhutan: Druk Yul (འབྲུག་ཡུལ།), \"land of the thunder dragon\"\nThailand: Prathet Thai (ประเทศไทย); known in English as Siam until 1939\nCambodia: Kampuchea (កម្ពុជា)\nGeorgia: Sakartvelo (საქართველო), \"land of the Kartvelians\"\nArmenia: Hayastan (Հայաստան), from Hay, the Armenians' name for themselves\n\nTwo names, one place. Both are real.\nParts 1 (Europe) and 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Japan; Names of China; Names of Korea; Sri Lanka; Bhutan; Thailand (2026). Constitution of India, Article 1.\nVoice: AI clone of my own voice.",
+ "caption_he": "החוקה של הודו עונה על זה כבר בסעיף הראשון.\n\nיפן היא ניהון (\"מקור השמש\"), סין היא ג'ונגגואו (\"ממלכת האמצע\"), דרום קוריאה היא הנגוק, מונגוליה היא מונגול אולס, סרי לנקה (עד 1972 ציילון) פירושה \"האי הזוהר\", בהוטן היא דרוק יול (\"ארץ דרקון הרעם\"), הודו היא גם בהרט (סעיף 1 בחוקה), תאילנד היא פראטט תאי (באנגלית: סיאם עד 1939), קמבודיה היא קמפוצ'יה, גאורגיה היא סקרטוולו וארמניה היא הייסטן.\nחלקים 1 ו-2 בפרופיל.",
  "hashtags": [
   "#geography",
   "#asia",

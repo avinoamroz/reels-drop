@@ -28,7 +28,8 @@
    "hrvatska": "ˈ|h|ɜ|r|v|ɑ|t|s|k|ɑ",
    "crna": "ˈ|t|s|ɜ|r|n|ɑ",
    "gora": "ˈ|g|ɔ|r|ɑ",
-   "éire": "ˈ|ɛ|r|ə"
+   "éire": "ˈ|ɛ|r|ə",
+   "norge": "ˈ|n|ɔ|r|g|ə"
   }
  },
  "lines": [
@@ -49,6 +50,9 @@
   },
   {
    "say": "Finland is Suomi. Even the Finns aren't sure where that comes from."
+  },
+  {
+   "say": "Next door, Norway is Norge. The way north."
   },
   {
    "say": "Greece is Hellas. Romans said Graeci. Greeks call themselves Hellenes."
@@ -165,6 +169,20 @@
    },
    {
     "at": "L6",
+    "code": "NOR",
+    "cam": [
+     12.0,
+     64.5,
+     34
+    ],
+    "en": "Norway",
+    "img": "norge",
+    "tr": "NOR-geh",
+    "mean": "the way north",
+    "strike_at": "L6:Norge"
+   },
+   {
+    "at": "L7",
     "code": "GRC",
     "cam": [
      22.8,
@@ -175,10 +193,10 @@
     "img": "hellas",
     "tr": "Hellas",
     "mean": "land of the Hellenes",
-    "strike_at": "L6:Hellas"
+    "strike_at": "L7:Hellas"
    },
    {
-    "at": "L7",
+    "at": "L8",
     "code": "ALB",
     "cam": [
      20.0,
@@ -188,10 +206,10 @@
     "en": "Albania",
     "img": "shqiperia",
     "tr": "shchee-puh-REE-ah",
-    "strike_at": "L7:Shqipëria"
+    "strike_at": "L8:Shqipëria"
    },
    {
-    "at": "L8",
+    "at": "L9",
     "code": "HRV",
     "cam": [
      16.2,
@@ -201,10 +219,10 @@
     "en": "Croatia",
     "img": "hrvatska",
     "tr": "HER-vaht-skah",
-    "strike_at": "L8:Hrvatska"
+    "strike_at": "L9:Hrvatska"
    },
    {
-    "at": "L9",
+    "at": "L10",
     "code": "MNE",
     "cam": [
      19.25,
@@ -215,10 +233,10 @@
     "img": "crnagora",
     "tr": "Crna Gora",
     "mean": "black mountain",
-    "strike_at": "L9:Crna"
+    "strike_at": "L10:Crna"
    },
    {
-    "at": "L10",
+    "at": "L11",
     "code": "IRL",
     "cam": [
      -8.0,
@@ -228,10 +246,10 @@
     "en": "Ireland",
     "img": "eire",
     "tr": "AIR-uh",
-    "strike_at": "L10:Éire"
+    "strike_at": "L11:Éire"
    },
    {
-    "at": "L11",
+    "at": "L12",
     "code": null,
     "cam": [
      12.0,
@@ -273,44 +291,50 @@
    "until": "L6"
   },
   {
-   "label": "Wikipedia, Names of Greece",
+   "label": "Wikipedia, Norway",
    "year": 2026,
    "at": "L6",
    "until": "L7"
   },
   {
-   "label": "Wikipedia, Names of Albania",
+   "label": "Wikipedia, Names of Greece",
    "year": 2026,
    "at": "L7",
    "until": "L8"
   },
   {
-   "label": "Wikipedia, country names in native languages",
+   "label": "Wikipedia, Names of Albania",
    "year": 2026,
    "at": "L8",
    "until": "L9"
   },
   {
-   "label": "Wikipedia, Montenegro",
+   "label": "Wikipedia, country names in native languages",
    "year": 2026,
    "at": "L9",
    "until": "L10"
   },
   {
-   "label": "Wikipedia, Names of Ireland",
+   "label": "Wikipedia, Montenegro",
    "year": 2026,
    "at": "L10",
    "until": "L11"
+  },
+  {
+   "label": "Wikipedia, Names of Ireland",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
   }
  ],
  "end": {
-  "at": "L11",
-  "until": "L12",
+  "at": "L12",
+  "until": "L13",
   "balance": "Neither name is wrong. One is just *theirs.*",
   "y": 800
  },
- "caption_en": "The Swiss one explains something you see every day.\n\nWhat European countries call themselves:\nGermany: Deutschland (from Old High German diutisc, \"of the people\")\nAustria: Österreich (\"eastern realm\")\nSwitzerland: Schweiz, Suisse, Svizzera, Svizra. Four official languages, so coins and stamps use the Latin Helvetia, and the country code CH is Confoederatio Helvetica\nHungary: Magyarország (\"land of the Magyars\")\nFinland: Suomi (its origin is uncertain)\nGreece: Hellas / Ελλάς (the Romans called them Graeci; Greeks call themselves Hellenes)\nAlbania: Shqipëria (popularly linked to shqiponjë, eagle, as on the flag)\nCroatia: Hrvatska\nMontenegro: Crna Gora / Црна Гора (both mean \"black mountain\")\nIreland: Éire (English \"Ireland\" is Éire + land)\n\nNeither name is wrong. One is just theirs.\nPart 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Germany; Austria; Switzerland; Finland; Names of Greece; Albania; Montenegro; Ireland (2026).\nVoice: AI clone of my own voice.",
- "caption_he": "השוויצרית מסבירה משהו שאתם רואים כל יום.\n\nאיך מדינות אירופה קוראות לעצמן: גרמניה היא דויטשלנד, אוסטריה היא אסטרייך (\"הממלכה המזרחית\"), שווייץ היא הלווטיה על המטבעות, ומשם CH, הונגריה היא מדיארורסאג, פינלנד היא סואומי, יוון היא הלאס, אלבניה היא שקיפריה, קרואטיה היא הרוואטסקה, מונטנגרו היא צרנה גורה (\"ההר השחור\"), ואירלנד היא אירה.\nחלק 2 בפרופיל.",
+ "caption_en": "The Swiss one explains something you see every day.\n\nWhat European countries call themselves:\nGermany: Deutschland (from Old High German diutisc, \"of the people\")\nAustria: Österreich (\"eastern realm\")\nSwitzerland: Schweiz, Suisse, Svizzera, Svizra. Four official languages, so coins and stamps use the Latin Helvetia, and the country code CH is Confoederatio Helvetica\nHungary: Magyarország (\"land of the Magyars\")\nFinland: Suomi (its origin is uncertain)\nNorway: Norge (from Old Norse for \"the way north\")\nGreece: Hellas / Ελλάς (the Romans called them Graeci; Greeks call themselves Hellenes)\nAlbania: Shqipëria (popularly linked to shqiponjë, eagle, as on the flag)\nCroatia: Hrvatska\nMontenegro: Crna Gora / Црна Гора (both mean \"black mountain\")\nIreland: Éire (English \"Ireland\" is Éire + land)\n\nNeither name is wrong. One is just theirs.\nPart 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Germany; Austria; Switzerland; Finland; Norway; Names of Greece; Albania; Montenegro; Ireland (2026).\nVoice: AI clone of my own voice.",
+ "caption_he": "השוויצרית מסבירה משהו שאתם רואים כל יום.\n\nאיך מדינות אירופה קוראות לעצמן: גרמניה היא דויטשלנד, אוסטריה היא אסטרייך (\"הממלכה המזרחית\"), שווייץ היא הלווטיה על המטבעות, ומשם CH, הונגריה היא מדיארורסאג, פינלנד היא סואומי, נורווגיה היא נורגה (\"הדרך צפונה\"), יוון היא הלאס, אלבניה היא שקיפריה, קרואטיה היא הרוואטסקה, מונטנגרו היא צרנה גורה (\"ההר השחור\"), ואירלנד היא אירה.\nחלק 2 בפרופיל.",
  "hashtags": [
   "#geography",
   "#languages",
