@@ -13,16 +13,13 @@
   "tempo": 1.1,
   "gap": 0.12
  },
- "subs_replace": {
-  "<<h|ɑ|ˈ|m|ɑ|s>>": "HAMAS"
- },
  "lines": [
   {
    "say": "We desire death. Those are their words, not mine.",
    "gap": 0.15
   },
   {
-   "say": "February 2008. <<h|ɑ|ˈ|m|ɑ|s>> leader Fathi Hammad, speaking on <<h|ɑ|ˈ|m|ɑ|s>> television.",
+   "say": "February 2008. HAMAS leader Fathi Hammad, speaking on HAMAS television.",
    "screen": "*Feb 2008:* Fathi Hammad, Al-Aqsa TV"
   },
   {
@@ -45,11 +42,11 @@
    "screen": "*Iron Dome:* rockets shot down"
   },
   {
-   "say": "<<h|ɑ|ˈ|m|ɑ|s>> built tunnels under Gaza. Who were they for?",
+   "say": "HAMAS built tunnels under Gaza. Who were they for?",
    "screen": "Tunnels under Gaza. *For whom?*"
   },
   {
-   "say": "October 2023. <<h|ɑ|ˈ|m|ɑ|s>> official Mousa Abu Marzouk answered on camera.",
+   "say": "October 2023. HAMAS official Mousa Abu Marzouk answered on camera.",
    "screen": "*Oct 2023:* Mousa Abu Marzouk, RT"
   },
   {
@@ -59,7 +56,7 @@
    "say": "And the civilians? He said the United Nations must protect them."
   },
   {
-   "say": "This is about <<h|ɑ|ˈ|m|ɑ|s>>, not the Palestinian people. Parents in Gaza want their kids to live too.",
+   "say": "This is about HAMAS, not the Palestinian people. Parents in Gaza want their kids to live too.",
    "screen": "This is *HAMAS,* not the Palestinian people"
   },
   {
@@ -82,7 +79,14 @@
     "file": "templates/photos/what_others_did/gaza.jpg",
     "at": 0.0,
     "credit": "Gaza: Abedallah Alhaj, CC BY-SA 3.0 IGO",
-    "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12],
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
     "gray": true,
     "dim": 0.45
    },
@@ -90,7 +94,14 @@
     "file": "templates/photos/what_others_did/gaza.jpg",
     "at": "L4",
     "credit": "Gaza: Abedallah Alhaj, CC BY-SA 3.0 IGO",
-    "kb": [0.5, 0.5, 1.15, 0.5, 0.5, 1.0],
+    "kb": [
+     0.5,
+     0.5,
+     1.15,
+     0.5,
+     0.5,
+     1.0
+    ],
     "gray": true,
     "dim": 0.45
    },
@@ -98,35 +109,70 @@
     "file": "templates/photos/israel_maslow/mamad.jpg",
     "at": "L5",
     "credit": "A safe room, 2023. CC0, Wikimedia Commons",
-    "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12],
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
     "dim": 0.3
    },
    {
     "file": "templates/photos/israel_spirit_animal/dome.jpg",
     "at": "L6",
     "credit": "Iron Dome: IDF, CC BY 2.0, Wikimedia Commons",
-    "kb": [0.62, 0.5, 1.0, 0.62, 0.5, 1.12],
+    "kb": [
+     0.62,
+     0.5,
+     1.0,
+     0.62,
+     0.5,
+     1.12
+    ],
     "dim": 0.3
    },
    {
     "file": "templates/photos/iran_one_address/hamas_tunnel.jpg",
     "at": "L7",
     "credit": "HAMAS tunnel: IDF, CC BY-SA 2.0",
-    "kb": [0.5, 0.5, 1.0, 0.5, 0.55, 1.15],
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.55,
+     1.15
+    ],
     "dim": 0.4
    },
    {
     "file": "templates/photos/israel_family_dinner/beach.jpg",
     "at": "L11",
-    "credit": "Tel Aviv: Dan Harrelson, CC BY 2.0, Wikimedia Commons",
-    "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.1],
+    "credit": "Tel Aviv: D. Harrelson, CC BY 2.0, Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
     "dim": 0.35
    },
    {
     "file": "templates/photos/what_others_did/gaza.jpg",
     "at": "L14-0.2",
     "credit": "Gaza: Abedallah Alhaj, CC BY-SA 3.0 IGO",
-    "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.0],
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.0
+    ],
     "gray": true,
     "dim": 0.45
    }
