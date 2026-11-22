@@ -1,0 +1,33 @@
+{
+ "id": "israel_maslow_r2",
+ "takes": [
+  {
+   "take": "ref/follow_line_tts.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "14 Nobel Prizes, and most homes have no safe room. Maslow's pyramid says that's impossible, basics first, dreams last. So let's climb Israel's pyramid. From the bottom, water. In a desert, 86% of drinking water comes from the sea. Next, safety. Every new home since 1993 must have a safe room. Yet, 56% of homes still don't have one, belonging. Almost three kids per woman, the most in the OECD. Friday dinner is a crowd. Esteem? Four-year vision wins. Very important for national security. And at the very top, 14 Nobel Prizes. 6.8% of GDP on research. No rich country spends more. Maslow said, fix the basics, then dream. Israel dream first. The result? The happiest country on earth. Which level should Israel fix next? If you love Israeli facts, follow Noam Roz for more. So, how does one country have this?",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take1.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "14 Nobel Prizes, and most homes have no safe room. Maslow's pyramid says that's impossible, basics first, dreams last. So let's climb Israel's pyramid. From the bottom, water. In a desert, 86% of drinking water comes from the sea. Next, safety. Every new home since 1993 must have a safe room. Yet, 56% of homes still don't have one, belonging. Almost three kids per woman, the most in the OECD. Friday dinner is a crowd. Esteem? Four-year vision wins. Very important for national security. And at the very top, 14 Nobel Prizes. 6.8% of GDP on research. No rich country spends more. Maslow said, fix the basics, then dream. Israel dream first. The result? The happiest country on earth. Which level should Israel fix next? If you love Israeli facts, follow Noam Roz for more. So, how does one country have this?",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take3.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "14 Nobel Prizes, and most homes have no safe room. Maslow's pyramid says that's impossible. Basics first. Dreams last. So let's climb Israel's pyramid. From the bottom, water. In a desert, 86% of drinking water comes from the sea. Next, safety. Every new home since 1993 must have a safe room. Yet, 56% of homes still don't have one. Belonging. Almost three kids per woman, the most in the OECD. Friday dinner is a crowd. Esteem? Four-year vision wins. Very important for national security. And at the very top, 14 Nobel Prizes. 6.8% of GDP on research. No rich country spends more. Maslow said, fix the basics, then dream. Israel dream first. The result? The eight happiest countries on earth. Which level should Israel fix next? If you love Israeli facts, follow. Noam Roz for more. So, how does one country have this?",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take7.wav",
+   "heard": "Noam Ra's",
+   "exact": false,
+   "transcript": "14 Nobel Prizes, and most homes have no safe room. Maslow's pyramid says that's impossible. Basics first. Dreams last. So let's climb Israel's pyramid. From the bottom. Water. In a desert, 86% of drinking water comes from the sea. Next, safety. Every new home since 1993 must have a safe room. Yet, 56% of homes still don't have one. Belonging. Almost three kids per woman, the most in the OECD. Friday dinner is a crowd. Esteem? Four-year vision wins. Very important for national security. And at the very top, 14 Nobel Prizes. 6.8% of GDP on research. No rich country spends more. Maslow said, fix the basics, then dream. Israel dream first. The result? The eight happiest countries on earth. Which level should Israel fix next? If you love Israeli facts, follow. Noam Ra's for more. So, how does one country have this?",
+   "lufs": -16.1
+  }
+ ]
+}
