@@ -211,8 +211,8 @@
       "ig_id": "18113219945591008",
       "account": "noamroz__",
       "views": 12788,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/De9FKq_DS2T/",
+      "caption_short": "The most ridiculous maps of Israel"
     },
     {
       "ig_id": "17998163453542247",
@@ -225,8 +225,8 @@
       "ig_id": "17903400981673247",
       "account": "noamroz__",
       "views": 10694,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/Dfcj2mJD9-f/",
+      "caption_short": "One Israeli city is named after Los Angeles"
     },
     {
       "ig_id": "18613572208043696",
@@ -239,8 +239,8 @@
       "ig_id": "18102795335352185",
       "account": "noamroz__",
       "views": 10560,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DffnuB5gATt/",
+      "caption_short": "From the Rhine to the Atlantic, France will be free!"
     },
     {
       "ig_id": "18021529100853189",
@@ -2826,6 +2826,13 @@
       "views": 6322,
       "fb_video_id": "1707722934030216",
       "posted_at": "2026-11-22T07:47:01Z"
+    },
+    {
+      "ig_id": "18113219945591008",
+      "account": "noamroz__",
+      "views": 12788,
+      "fb_video_id": "1186092864088439",
+      "posted_at": "2026-11-22T10:51:18Z"
     }
   ],
   "skipped": [
@@ -2864,6 +2871,18 @@
       "account": "noamroz__",
       "reason": "near-duplicate: already on page (Philistines and Palestinians, fb 2261271681103966)",
       "skipped_at": "2026-11-21T10:46:00Z"
+    },
+    {
+      "ig_id": "17903400981673247",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (city named after Los Angeles, fb 1129475606594080)",
+      "skipped_at": "2026-11-22T10:51:00Z"
+    },
+    {
+      "ig_id": "18102795335352185",
+      "account": "noamroz__",
+      "reason": "near-duplicate: already on page (From the Rhine to the Atlantic, fb 1846930333287602)",
+      "skipped_at": "2026-11-22T10:51:00Z"
     }
   ],
   "fb_page_baseline": {
