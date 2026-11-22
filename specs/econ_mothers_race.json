@@ -235,7 +235,8 @@
  "end": {
   "at": "L9",
   "balance": "Modelled UN estimates. Small numbers *swing yearly.*",
-  "cta": "Your answer? *Comments.*"
+  "cta": "Your answer? *Comments.*",
+  "until": "L10"
  },
  "caption_en": "In 1990 this country was eighth of twelve. Guess where it finished.\n\nMaternal deaths per 100,000 live births, 2023 (UN modelled estimates via the World Bank):\nIsrael 2\nUAE 3\nGermany 4\nSaudi Arabia 7\nUK 8\nTurkey 15\nLebanon 15\nIran 16\nEgypt 17\nUSA 17\nSyria 20\nJordan 31\n\n1990: UK 6, USA 12, Israel 29, Egypt 107, Iran 107. The USA rose from 12 to 17 (31 in 2021). The pandemic year 2021 spiked almost everywhere (Jordan 79, Lebanon 54, Iran 51).\nThese are modelled estimates; small numbers move from year to year.\n\nSource: WHO, UNICEF, UNFPA, World Bank Group and UNDESA (MMEIG) via World Bank, World Development Indicators, SH.STA.MMRT, 1990 to 2023. The animation interpolates between years.\nPhotos: Tel Aviv University medical building (Zalmanson Zeller, PikiWiki, CC BY 2.5), Riyadh (B.alotaby, CC BY-SA 4.0), Soroka and Ben Gurion University (Omer Berner, CC BY-SA 4.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
  "caption_he": "תמותת אמהות ל 100,000 לידות, 2023 (הערכות האו\"ם דרך הבנק העולמי): ישראל 2, הנמוך בטבלה. ארה\"ב 17, ירדן 31. ב 1990 ישראל הייתה על 29.",

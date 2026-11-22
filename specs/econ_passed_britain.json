@@ -248,7 +248,8 @@
  "end": {
   "at": "L11",
   "balance": "Dollar numbers *swing with the shekel.*",
-  "cta": "Your answer? *Comments.*"
+  "cta": "Your answer? *Comments.*",
+  "until": "L12"
  },
  "caption_en": "It passed France, then Britain, then Germany for one year. Now look at the gap.\n\nGDP per person, current US$, 2025 (IMF estimates):\nGermany 61,255\nIsrael 60,899\nUK 57,741\nUAE 54,151\nFrance 49,129\nSaudi Arabia 35,370\nTurkey 18,676\nLebanon 5,897\nJordan 5,169\nEgypt 3,379\nSyria: no IMF data after 2010\n\nIsrael passed France in 2016, the UK in 2019 and Germany in 2022 (54,474 vs 51,215), then fell back behind Germany in 2023. 1980: Israel 6,368, UK 10,692. Saudi Arabia fell from 19,543 (1980) to 8,562 (1990) as oil prices fell. The IMF projects Israel above Germany in 2026; projections can change.\nThese are dollar figures, so a strong shekel lifts Israel's numbers. Per person income is not the same as how well off every household is.\n\nSource: IMF World Economic Outlook database (DataMapper), NGDPDPC, 1980 to 2025. The animation interpolates between years.\nPhotos: Dubai airport (Chris Olszewski, CC BY-SA 4.0), Khurais oil facility (Planet Labs, CC BY-SA 4.0), Tel Aviv (CC BY-SA 4.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
  "caption_he": "תוצר לנפש, 2025 (קרן המטבע): גרמניה 61,255 דולר, ישראל 60,899. ישראל עקפה את צרפת ב 2016, את בריטניה ב 2019, ואת גרמניה ב 2022, לשנה אחת. הפער היום: 356 דולר. שקל חזק מגדיל את המספרים בדולרים.",

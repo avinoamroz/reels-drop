@@ -226,7 +226,8 @@
  "end": {
   "at": "L9",
   "balance": "Per person numbers *favour small countries.*",
-  "cta": "Your answer? *Comments.*"
+  "cta": "Your answer? *Comments.*",
+  "until": "L10"
  },
  "caption_en": "Oil, gas, or code? One country sells the world something else.\n\nSoftware and IT (ICT service) exports per person, 2024, current US$ (World Bank exports / population):\nIsrael $5,180\nUK $864\nUAE $757\nGermany $660\nUSA $264\nTurkey $62\nSaudi Arabia $61\nLebanon $24 (2023, latest)\nEgypt $15\nJordan $4\nSyria, Iran: no data\n\n2005: Israel $675, UK $250. High-technology goods are 37.2% of Israel's manufactured exports (UK 29.2%, USA 24.3%, Turkey 5.1%, Saudi Arabia 0.5%), 2024.\nPer person figures favour small countries, and big economies sell far more in total.\n\nSources: World Bank, World Development Indicators: BX.GSR.CCIS.CD (ICT service exports, BoP), SP.POP.TOTL, TX.VAL.TECH.MF.ZS, 2005 to 2024. The animation interpolates between years.\nPhotos: Intel Haifa (xiquinhosilva, CC BY 2.0), Khurais oil facility (Planet Labs, CC BY-SA 4.0), Matam Haifa (Zvi Roger, CC BY 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
  "caption_he": "ייצוא תוכנה ושירותי IT לנפש, 2024 (הבנק העולמי): ישראל 5,180 דולר, בריטניה 864, ארה\"ב 264, סעודיה 61. 37% מהייצוא התעשייתי של ישראל הוא היי טק.",

@@ -231,7 +231,8 @@
  "end": {
   "at": "L8",
   "balance": "Since 1960, every country here *improved.*",
-  "cta": "Your answer? *Comments.*"
+  "cta": "Your answer? *Comments.*",
+  "until": "L9"
  },
  "caption_en": "One country started at 38. The finish is the part nobody guesses.\n\nBabies who die before their first birthday, per 1,000 live births (World Bank, 2024):\nIsrael 2.7\nUAE 3.8\nUK 4.1\nSaudi Arabia 4.7\nUSA 5.5\nTurkey 8.0\nIran 10.3\nJordan 12.0\nLebanon 15.3\nSyria 17.7\nEgypt 20.8\n\nIn 1960: Israel 38.4, UK 22.9, Lebanon 65.5, Jordan 111, Egypt 173, Turkey 178 (Iran and Saudi Arabia: no data before the 1970s).\nTurkey cut its rate by 95%. Lebanon rose from 11.3 (2015) to 15.3 (2024) during its economic crisis. Every country here is far better than in 1960.\n\nSource: World Bank, World Development Indicators, SP.DYN.IMRT.IN (UN Inter-agency Group for Child Mortality Estimation), 1960 to 2024. Modelled estimates; the animation interpolates between years.\nPhotos: Hadassah Ein Kerem (Davidi Vardi, PikiWiki, CC BY 2.5), Istanbul (SegLig, CC BY 4.0), Riyadh (B.alotaby, CC BY-SA 4.0), Beirut (Wusel007, CC BY-SA 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
  "caption_he": "ב 1960, 38 מכל 1,000 תינוקות בישראל לא הגיעו ליום ההולדת הראשון. היום: 2.7, הנמוך ביותר בטבלה, לפני בריטניה (4.1) וארה\"ב (5.5). מקור: הבנק העולמי, 2024.",

@@ -235,7 +235,8 @@
  "end": {
   "at": "L10",
   "balance": "WHO modelled estimates, *not police counts.*",
-  "cta": "Your answer? *Comments.*"
+  "cta": "Your answer? *Comments.*",
+  "until": "L11"
  },
  "caption_en": "Two countries beat it. Neither is in the Middle East.\n\nRoad traffic deaths per 100,000 people, 2023 (WHO modelled estimates):\nUK 2.5\nGermany 3.4\nIsrael 4.0\nUAE 5.1\nLebanon 6.9\nEgypt 7.9\nTurkey 8.1\nJordan 13.7\nSaudi Arabia 14.7\nIran 19.4\nSyria 31.7\n\n2000: UK 6.9, Israel 8.0, UAE 29.5. Iran peaked at 33.3 (2010), Saudi Arabia at 35.2 (2015). Lebanon fell from 23.4 to 6.9. Israel halved its rate from 8.0 to 4.0.\nThese are WHO modelled estimates and can differ from national police counts.\n\nSource: WHO Global Health Observatory, RS_198, estimated road traffic death rate per 100,000 population, 2000 to 2023. The animation interpolates between years.\nPhotos: Riyadh (B.alotaby, CC BY-SA 4.0), Dubai airport (Chris Olszewski, CC BY-SA 4.0), Beirut (Wusel007, CC BY-SA 3.0), Ayalon Highway (Ilya Platonov, public domain), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
  "caption_he": "הרוגים בתאונות דרכים ל 100,000 תושבים, 2023 (הערכות ארגון הבריאות העולמי): בריטניה 2.5, גרמניה 3.4, ישראל 4.0, הטובה במזרח התיכון בטבלה. סוריה 31.7, איראן 19.4, סעודיה 14.7.",
