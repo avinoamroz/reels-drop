@@ -408,7 +408,7 @@ def draw_sources(cv, S, T, t, y=1488):
 def draw_end(cv, S, T, t):
     E = S.get("end") or {}
     if not E: return
-    t0 = T.at(E.get("at"), T.S(len(T.L) - 2) if len(T.L) > 1 else T.END - 3); t1 = T.END - 0.5
+    t0 = T.at(E.get("at"), T.S(len(T.L) - 2) if len(T.L) > 1 else T.END - 3); t1 = T.at(E.get("until"), T.END - 0.5)   # until: opt-in early exit (chart visible at the reveal)
     a = win(t, t0 - 0.1, t1, 0.35, 0.3)
     if a <= 0.01: return
     y = E.get("y", 1010)
