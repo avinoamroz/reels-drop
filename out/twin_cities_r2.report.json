@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*55 km* from prayer|to *party.*",
- "duration": 53.0,
+ "duration": 53.43,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -0.8
+  "true_peak": -0.7
  },
  "outputs": {
   "mp4": "out/twin_cities_r2.mp4",
@@ -53,7 +53,7 @@
   }
  ],
  "transcript": {
-  "score": 0.925,
+  "score": 0.95,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -118,8 +118,8 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.6,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "And the drive between them?",
@@ -127,12 +127,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "55 kilometers. From praying to partying, many countries have two cities. One runs it. One has the fun. How far apart are they? Saudi Arabia. Riyadh rules. Jeddah has the sea. 845 kilometers. Turkey. Ankara runs it. Istanbul gets the tourists. 349. Washington and New York. 328. Canberra and Sydney. 247. Bern and Zurich. 95. Rabat and Casablanca. 85. Washington, camera, Ankara, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded on the sand in 1909, 55 kilometers apart, the closest pair so far. Only Egypt is closer. In 2024, it moved its government to a brand new city, 50 kilometers from Cairo. So Israelis say, Jerusalem prays, Tel Aviv plays. Where is your country's Tel Aviv? If you love Israeli facts, follow the Amra's from war. And the drive between them.",
+  "heard": "55 kilometers. From praying to partying, many countries have two cities. One runs it. One has the fun. How far apart are they? Saudi Arabia. Riyadh rules. Jeddah has the sea. 845 kilometers. Turkey. Ankara runs it. Istanbul gets the tourists. 349. Washington and New York. 328. Canberra and Sydney. 247. Bern and Zurich. 95. Rabat and Casablanca. 85. Washington, camera, Ankara, all picked to be capitals. Jerusalem was a capital 3,000 years ago. Tel Aviv was founded on the sand in 1909, 55 kilometers apart, the closest pair so far. Only Egypt is closer. In 2024, it moved its government to a brand new city, 50 kilometers from Cairo. So Israelis say, Jerusalem prays, Tel Aviv plays. Where is your country's Tel Aviv? If you love Israeli facts, follow Noam Roz for more. And the drive between them.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 51.51,
+ "body_s": 51.95,
  "opener": {
   "style": "map_puzzle",
   "opener_s": 2.4,
@@ -140,8 +140,8 @@
  },
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.7
+  "true_peak": -1.8
  },
  "lint_warnings": [],
- "render_s": 169.5
+ "render_s": 219.4
 }
