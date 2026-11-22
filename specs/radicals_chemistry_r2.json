@@ -67,7 +67,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_tts.wav",
+   "wav": "ref/follow_line_tts_t3.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*",
    "at": "L16",
    "until": "L17"
@@ -281,5 +281,5 @@
   "text": "Every radical is|*1* electron *short*"
  },
  "sources_caption": "Sources: Lobo et al., Pharmacognosy Reviews (2010); Pew Research Center (Nov 2015); Times of Israel/AFP (Nov 2017); City of Aarhus; UK Foreign Office on the GCTF launch of the Abu Dhabi centre (Dec 2012); Marrakesh Declaration (Jan 2016); IMPACT-se review of Saudi textbooks (2023); Europol TE-SAT 2024.\nPhotos, Wikimedia Commons: B.alotaby (CC BY-SA 4.0); Ciara Ní Riain (CC BY-SA 4.0); Sabithnav (CC BY-SA 4.0); Najibelfatimi (CC BY-SA 4.0); John Liu (CC BY 2.0). AI voice, animation and synthesised music.",
- "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept; 22 Nov round 3: take 3 (ref/follow_line_tts_t3.wav), round 3 mix: no take read Noam Roz (all heard Noam Raz/Ra's); take 3 has the cleanest 'Noam', used as best available"
 }

@@ -55,7 +55,7 @@
   },
   {
    "say": "If you love Israeli facts, follow Noam Roz for more.",
-   "wav": "ref/follow_line_tts.wav",
+   "wav": "ref/follow_line_tts_t3.wav",
    "screen": "Like Israel facts? Follow *@noamroz__*",
    "gap": 0.12
   },
@@ -284,5 +284,5 @@
   "big": "5 stones",
   "text": "Who lived|here *first?*"
  },
- "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept"
+ "follow_revoice": "22 Nov: follow line re-voiced in the reel clone (ref/follow_line_tts.wav); the rest of the voice kept; 22 Nov round 3: take 3 (ref/follow_line_tts_t3.wav), round 3 mix: take 3 read Noam Roz in 2 of 3 passes, first cut misheard"
 }
