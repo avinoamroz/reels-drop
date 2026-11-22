@@ -1,0 +1,46 @@
+name: follow-tts
+# The @noamroz__ follow line voiced by the reel clone, in context (tools/follow_tts.py, Noam 22 Nov 2026).
+# Push ref/follow_tts/job.json -> ref/follow_tts/take<k>.wav + _words.json + report.json (transcript and voice match). Nothing posts.
+on:
+  push:
+    paths: ['ref/follow_tts/job.json']
+permissions:
+  contents: write
+concurrency:
+  group: follow-tts
+  cancel-in-progress: false
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /tools/follow_tts.py
+            /templates/core/pron.py
+            /templates/lexicon_en.json
+            /templates/lexicon_he.json
+            /templates/voices.json
+            /ref/follow_tts/job.json
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg libsndfile1 > /dev/null
+          pip install -q --retries 5 numpy soundfile requests librosa faster-whisper==1.1.1
+          ref=$(python3 -c "import json;print(json.load(open('ref/follow_tts/job.json')).get('ref',''))")
+          [ -z "$ref" ] || git sparse-checkout add "/$ref" "/${ref%.wav}_words.json"
+      - name: Voice and check
+        env:
+          CARTESIA_API_KEY: ${{ secrets.CARTESIA_API_KEY }}
+        run: python3 tools/follow_tts.py ref/follow_tts/job.json
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add --sparse -f ref/follow_tts/ || true
+          git -c gc.auto=0 commit -q -m "follow-tts: takes" || exit 0
+          for i in 1 2 3 4 5 6 7 8; do git -c gc.auto=0 pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; git rebase --abort 2>/dev/null || true; sleep $((RANDOM % 10 + 5)); done
+          exit 1
