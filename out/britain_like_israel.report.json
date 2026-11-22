@@ -1,0 +1,136 @@
+{
+ "id": "britain_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Britain, judged like *Israel.*|*Ready?*",
+ "duration": 56.67,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/britain_like_israel.mp4",
+  "cover": "covers/britain_like_israel_cover.jpg",
+  "preview": "previews/britain_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/britain_like_israel_0.jpg",
+  "1": "out/frames/britain_like_israel_1.jpg",
+  "3": "out/frames/britain_like_israel_3.jpg",
+  "last": "out/frames/britain_like_israel_last.jpg"
+ },
+ "caption_en": "Britain, judged like Israel. Ready? 🇬🇧\n\nSatire. Every \"finding\" uses the same rules people use on Israel. The true parts are real:\n\n1. The Angles and Saxons arrived from about 449 AD (Bede, 731). England means \"land of the Angles\". The Britons came before them, and Stonehenge (about 3000 to 2000 BC) came before the Britons.\n2. Britain holds the Falklands, about 12,700 km from London. In 2013, 99.8% of islanders voted to stay British.\n3. Belfast's peace walls: 43 structures still owned by Northern Ireland's Justice Department (2021).\n4. Falklands War, 1982: 649 Argentines, 255 British and 3 islanders died.\n5. The rain is pure satire. Nobody controls the weather.\n\nBritain isn't an apartheid state. Neither is Israel, where about 21% of citizens are Arab and Arab parties won 19 Knesset seats in October 2026. Both countries have real problems. Judge them by one standard.",
+ "caption_he": "בריטניה, אם היו שופטים אותה כמו את ישראל. סאטירה: כל \"ממצא\" משתמש באותם כללים שמפעילים על ישראל. החלקים האמיתיים: האנגלים והסקסונים הגיעו בסביבות שנת 449, ולפניהם הבריטונים. בריטניה מחזיקה באיי פוקלנד, כ-12,700 ק\"מ מלונדון, ו-99.8% מהתושבים הצביעו להישאר בריטים. בבלפסט עדיין עומדות עשרות \"חומות שלום\". במלחמת פוקלנד נהרגו 649 ארגנטינאים ו-255 בריטים. הגשם הוא סאטירה בלבד. בריטניה היא לא מדינת אפרטהייד. גם ישראל לא, כשכ-21% מאזרחיה ערבים והמפלגות הערביות זכו ב-19 מושבים בכנסת. לשתי המדינות יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Britain",
+  "#DoubleStandard",
+  "#Satire"
+ ],
+ "sources": [
+  {
+   "label": "Bede, Ecclesiastical History",
+   "year": 731
+  },
+  {
+   "label": "Imperial War Museums, Falklands",
+   "year": 1982
+  },
+  {
+   "label": "Northern Ireland Assembly, interface structures",
+   "year": 2021
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results",
+   "year": "Oct 2026"
+  }
+ ],
+ "transcript": {
+  "score": 0.987,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Britain, judged like Israel. Ready?",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Official report. Finding one: Britain is stolen land.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Angles and Saxons moved in around the year 450. England literally means land of the Angles.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, decolonize Britain! Give it back to the Britons!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Wait. Before the Britons, someone else built Stonehenge.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding two: occupation. Britain holds the Falklands, 12,700 kilometres from London.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "The islanders voted to stay British. Doesn't matter. Occupation!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding three: walls. Belfast still has dozens of peace walls.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding four: in 1982, Argentina lost 649 people. Britain lost 255. Disproportionate!",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Finding five: rain, almost every day. Collective punishment.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Sounds ridiculous? Israel hears it every day.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, one more time.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Britain. Judge like Israel. Ready? Official report. Finding one. Britain is stolen land. The Angles and Saxons moved in around the year 450. England literally means land of the Angles. So decolonize Britain. Give it back to the Britons. Wait. Before the Britons, someone else built Stonehenge. Finding two. Occupation. Britain holds the Falklands. 12,700 kilometers from London. The Islanders voted to stay British. Doesn't matter. Occupation. Finding Finding 3 Walls. Belfast still has dozens of peace walls. Finding 4 in 1982. Argentina lost 649 people. Britain lost 255. Disproportionate. Finding 5. Rain. Almost every day. Collective punishment. Sounds ridiculous. Israel hears it every day. Britain isn't an apartheid state. Neither is Israel. Where 1 in 5 citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow. No amraz. For more. So one more time.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "scenes": 13,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 118.1
+}
