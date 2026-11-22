@@ -1,0 +1,33 @@
+{
+ "id": "border_question_1_v2_r2",
+ "takes": [
+  {
+   "take": "ref/follow_line_tts.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "Gaza has two borders. Only one ever gets the questions. One with Israel, 59 kilometers. One with Egypt, 13. This is the other one. Rafah. Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days and 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. Egypt also raised over 3,000 buildings for a buffer zone. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Roz for more, because Gaza has two borders.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take1.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "Gaza has two borders. Only one ever gets the questions. One with Israel, 59 kilometers. One with Egypt, 13. This is the other one. Rafah. Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days and 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. Egypt also raised over 3,000 buildings for a buffer zone. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza, too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Raz for more. Because Gaza has two borders.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take3.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "Gaza has two borders. Only one ever gets the questions. One with Israel, 59 kilometers. One with Egypt, 13. This is the other one. Rafah. Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days in 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. Egypt also raised over 3,000 buildings for a buffer zone. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Raz for more. Because Gaza has two borders.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take7.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "Gaza has two borders. Only one ever gets the questions. One with Israel, 59 kilometers. One with Egypt, 13. This is the other one. Rafah. Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days and 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. Egypt also raised over 3,000 buildings for a buffer zone. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Raz for more. Because Gaza has two borders.",
+   "lufs": -16.1
+  }
+ ]
+}
