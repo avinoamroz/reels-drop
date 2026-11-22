@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "game_show",
  "hook": "Would you rather *pay?*",
- "duration": 62.47,
+ "duration": 63.87,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -1.8
  },
  "outputs": {
   "mp4": "out/would_you_rather_tax.mp4",
@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.948,
+  "score": 0.93,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -95,7 +95,7 @@
    },
    {
     "line": "Door two: value added tax, V A T.",
-    "score": 0.625,
+    "score": 0.5,
     "flag": "MISS"
    },
    {
@@ -110,8 +110,8 @@
    },
    {
     "line": "Door three: the jizya. An old imperial tax.",
-    "score": 0.875,
-    "flag": "ok"
+    "score": 0.75,
+    "flag": "MISS"
    },
    {
     "line": "Bonus: no army service included.",
@@ -135,8 +135,8 @@
    },
    {
     "line": "No thanks. Hard pass.",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.75,
+    "flag": "MISS"
    },
    {
     "line": "The Ottomans abolished it in eighteen fifty six.",
@@ -174,14 +174,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Would you rather pay? Three doors, three taxes, pick one. Door one, income tax, a slice of what you earn. You pay for being successful. Plus, the rich pay more. Minus, forms, so many forms. Door two, value added tax, VAT. You pay 18% on hummus. Plus, simple, hard to dodge. Minus, it hits the poor hardest. Door three, the jizz in, an old imperial tax. Bonus, no army service included. Wait, no reserve duty. Where do I sign up? But here's the catch. Only if you're the wrong religion, non-Muslim men paid it. Protected, but not equal. No thanks. Hard pass. The Ottomans abolished it in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS, Islamic State. And in Israel, Jews, Muslims, Christians and Druze. Same income tax, same VAT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow Noam Roz for more. So would you rather pay?",
+  "heard": "Would you rather pay three doors three taxes pick one door one income tax a slice of what you earn You pay for being successful plus the rich pay more minus forms so many forms Door to value added tax vat you pay 18% on hummus plus simple hard to dodge Minus it hits the poor hardest door three to jizz in an old imperial tax bonus No army service included. Wait, no reserve duty. Where do I sign up? But here's the catch. Only if you're the wrong religion. Non-Muslim men paid it. Protected, but not equal. No thanks. Party pass. The Ottomans abolished it in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS. Islamic State. And in Israel? Jews, Muslims, Christians and Druze. Same income tax. Same VAT. Your faith doesn't change your bill. Taxes are never fun. never fun. Equal taxes are the fair kind. If you love Israeli facts, follow Noam Roz for more. So, would you rather pay?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "pre-made voice file voice/would_you_rather_tax_splice.wav",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -1.8
  },
  "photos": [
   {
@@ -200,5 +200,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 118.6
+ "render_s": 169.6
 }
