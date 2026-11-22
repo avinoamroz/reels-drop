@@ -1,0 +1,570 @@
+{
+ "id": "golan_100_years_cine",
+ "account": "noamroz__",
+ "template": "cine_timeline",
+ "hook": "Golan Heights:|*100* years, *60* seconds",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15,
+  "lead": 0.12
+ },
+ "lines": [
+  {
+   "say": "The Golan Heights: 100 years in 60 seconds."
+  },
+  {
+   "say": "1923. Britain and France draw a line. The Golan goes to Syria."
+  },
+  {
+   "say": "1949. The armistice leaves Syria on the heights, above the Sea of Galilee."
+  },
+  {
+   "say": "For years, both sides clash, and Syrian guns shell the farms below."
+  },
+  {
+   "say": "1965. Syria starts diverting the Jordan's sources. Israel strikes the works."
+  },
+  {
+   "say": "June 1967. In two days, Israel takes the Golan."
+  },
+  {
+   "say": "1973. On Yom Kippur, Syrian tanks storm back in. Israel holds, then pushes them out."
+  },
+  {
+   "say": "1974. Kissinger brokers a deal. Quneitra returns to Syria, and United Nations peacekeepers move in."
+  },
+  {
+   "say": "1981. Israel applies its law there. The UN Security Council calls it null and void."
+  },
+  {
+   "say": "2000. Talks with Syria come close, then collapse over the Sea of Galilee shore."
+  },
+  {
+   "say": "2019. America recognises Israeli sovereignty. Most of the world does not."
+  },
+  {
+   "say": "December 2024. Assad falls, and Israeli troops enter the buffer zone."
+  },
+  {
+   "say": "Syria calls it occupied land. Israel calls it a security frontier. Who's right?"
+  },
+  {
+   "follow": true,
+   "until": "L14"
+  },
+  {
+   "say": "It all began with one line, drawn in 1923."
+  }
+ ],
+ "data": {
+  "span": [
+   1923,
+   2024
+  ],
+  "span_labels": [
+   "1923",
+   "2024"
+  ],
+  "years": [
+   {
+    "at": 0,
+    "year": 1923
+   },
+   {
+    "at": "L2",
+    "year": 1949
+   },
+   {
+    "at": "L4",
+    "year": 1965
+   },
+   {
+    "at": "L5",
+    "year": 1967
+   },
+   {
+    "at": "L6",
+    "year": 1973
+   },
+   {
+    "at": "L7",
+    "year": 1974
+   },
+   {
+    "at": "L8",
+    "year": 1981
+   },
+   {
+    "at": "L9",
+    "year": 2000
+   },
+   {
+    "at": "L10",
+    "year": 2019
+   },
+   {
+    "at": "L11",
+    "year": 2024
+   },
+   {
+    "at": "L12",
+    "year": 2024,
+    "label": "TODAY"
+   },
+   {
+    "at": "L14:1923",
+    "year": 1923
+   }
+  ],
+  "states": [
+   {
+    "at": 0,
+    "fills": {
+     "SYR": "brown",
+     "golan": "brown",
+     "isr49": "sand",
+     "terr": "sand"
+    }
+   },
+   {
+    "at": "L2",
+    "fills": {
+     "isr49": "blue",
+     "terr": "sand2"
+    }
+   },
+   {
+    "at": "L5:Israel",
+    "fills": {
+     "golan": "blue3",
+     "terr": "#4A77A3"
+    },
+    "fade": 0.8
+   },
+   {
+    "at": "L6:tanks",
+    "fills": {
+     "golan": "red"
+    },
+    "fade": 0.4
+   },
+   {
+    "at": "L6:holds",
+    "fills": {
+     "golan": "blue3"
+    },
+    "fade": 0.7
+   },
+   {
+    "at": "L14",
+    "fills": {
+     "golan": "brown",
+     "isr49": "sand",
+     "terr": "sand"
+    },
+    "fade": 0.8
+   }
+  ],
+  "labels": [
+   {
+    "text": "EGYPT",
+    "lon": 32.6,
+    "lat": 30.2
+   },
+   {
+    "text": "JORDAN",
+    "lon": 36.75,
+    "lat": 31.2
+   },
+   {
+    "text": "SYRIA",
+    "lon": 36.55,
+    "lat": 33.25
+   },
+   {
+    "text": "LEBANON",
+    "lon": 35.85,
+    "lat": 33.8
+   },
+   {
+    "text": "ISRAEL",
+    "lon": 34.75,
+    "lat": 30.9,
+    "at": "L2",
+    "until": "L14"
+   },
+   {
+    "text": "MANDATE PALESTINE",
+    "lon": 34.8,
+    "lat": 30.9,
+    "size": 36,
+    "until": "L2"
+   },
+   {
+    "text": "GOLAN",
+    "lon": 35.76,
+    "lat": 32.98,
+    "size": 36
+   }
+  ],
+  "marks": [
+   {
+    "at": "L2",
+    "until": "L3",
+    "lon": 35.59,
+    "lat": 32.8,
+    "text": "Sea of Galilee",
+    "side": "l"
+   },
+   {
+    "at": "L4",
+    "until": "L5",
+    "lon": 35.69,
+    "lat": 33.25,
+    "text": "Banias spring",
+    "side": "l"
+   },
+   {
+    "at": "L7:Quneitra",
+    "until": "L8",
+    "lon": 35.82,
+    "lat": 33.125,
+    "text": "Quneitra"
+   },
+   {
+    "at": "L9",
+    "until": "L10",
+    "lon": 35.64,
+    "lat": 32.83,
+    "text": "The shore",
+    "side": "r"
+   },
+   {
+    "at": "L11",
+    "until": "L12",
+    "lon": 35.87,
+    "lat": 33.1,
+    "text": "Buffer zone"
+   }
+  ],
+  "beats": [
+   {
+    "kind": "map",
+    "cam0": [
+     35.55,
+     31.75,
+     264
+    ],
+    "cam1": [
+     35.55,
+     31.75,
+     284
+    ]
+   },
+   {
+    "at": "L1:Golan",
+    "kind": "map",
+    "cam0": [
+     35.6,
+     32.75,
+     720
+    ],
+    "cam1": [
+     35.65,
+     32.85,
+     780
+    ]
+   },
+   {
+    "at": "L2",
+    "kind": "map",
+    "cam0": [
+     35.45,
+     32.4,
+     560
+    ],
+    "cam1": [
+     35.55,
+     32.65,
+     640
+    ]
+   },
+   {
+    "at": "L3",
+    "kind": "photo",
+    "file": "photos/gl_bunker.jpg",
+    "credit": "PanBK, Wikimedia, CC BY-SA 3.0",
+    "kb": [
+     0.4,
+     0.45,
+     1.15,
+     0.42,
+     0.42,
+     1.25
+    ]
+   },
+   {
+    "at": "L4",
+    "kind": "map",
+    "cam0": [
+     35.65,
+     33.0,
+     900
+    ],
+    "cam1": [
+     35.66,
+     33.05,
+     980
+    ]
+   },
+   {
+    "at": "L5",
+    "kind": "photo",
+    "file": "photos/gl_tanks67.jpg",
+    "credit": "Assaf Kutin, GPO, CC BY-SA 4.0"
+   },
+   {
+    "at": "L5:Israel",
+    "kind": "map",
+    "cam0": [
+     35.62,
+     32.95,
+     820
+    ],
+    "cam1": [
+     35.66,
+     33.0,
+     880
+    ]
+   },
+   {
+    "at": "L6",
+    "kind": "map",
+    "cam0": [
+     35.72,
+     33.0,
+     900
+    ],
+    "cam1": [
+     35.72,
+     33.0,
+     980
+    ]
+   },
+   {
+    "at": "L7",
+    "kind": "photo",
+    "file": "photos/gl_kiss74.jpg",
+    "credit": "IPPA, Dan Hadani coll., NLI, CC BY 4.0",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.1
+    ]
+   },
+   {
+    "at": "L7:Quneitra",
+    "kind": "map",
+    "cam0": [
+     35.75,
+     33.05,
+     1000
+    ],
+    "cam1": [
+     35.78,
+     33.1,
+     1080
+    ]
+   },
+   {
+    "at": "L8",
+    "kind": "photo",
+    "file": "photos/gl_law81.jpg",
+    "credit": "Yosi Elmakis, NLI, CC BY 4.0",
+    "kb": [
+     0.42,
+     0.5,
+     1.0,
+     0.47,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "at": "L8:UN",
+    "kind": "map",
+    "cam0": [
+     35.6,
+     32.9,
+     700
+    ],
+    "cam1": [
+     35.6,
+     32.9,
+     760
+    ]
+   },
+   {
+    "at": "L9",
+    "kind": "map",
+    "cam0": [
+     35.6,
+     32.82,
+     1150
+    ],
+    "cam1": [
+     35.62,
+     32.84,
+     1260
+    ]
+   },
+   {
+    "at": "L10",
+    "kind": "photo",
+    "file": "photos/gl_wh2019.jpg",
+    "credit": "Shealah Craighead, White House, PD"
+   },
+   {
+    "at": "L10:Most",
+    "kind": "map",
+    "cam0": [
+     35.55,
+     31.75,
+     99
+    ],
+    "cam1": [
+     35.55,
+     31.75,
+     125
+    ]
+   },
+   {
+    "at": "L11",
+    "kind": "map",
+    "cam0": [
+     35.8,
+     33.1,
+     1000
+    ],
+    "cam1": [
+     35.82,
+     33.12,
+     1100
+    ]
+   },
+   {
+    "at": "L12",
+    "kind": "photo",
+    "file": "photos/gl_gamla.jpg",
+    "credit": "Davidbena, Wikimedia, CC BY-SA 4.0"
+   },
+   {
+    "at": "L13",
+    "kind": "photo",
+    "file": "photos/gl_hermon.jpg",
+    "credit": "Someone35, Wikimedia, CC BY-SA 3.0"
+   },
+   {
+    "at": "L14",
+    "kind": "map",
+    "cam0": [
+     35.55,
+     31.75,
+     264
+    ],
+    "cam1": [
+     35.55,
+     31.75,
+     264
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Paulet-Newcombe Agreement",
+   "year": 1923,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Israel-Syria Armistice Agreement",
+   "year": 1949,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Encyclopaedia Britannica, Golan Heights",
+   "year": 2024,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Arab League summit, Cairo",
+   "year": 1964,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Encyclopaedia Britannica, Golan Heights",
+   "year": 2024,
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "UN Security Council Res. 350",
+   "year": 1974,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Golan Heights Law; UNSC Res. 497",
+   "year": 1981,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Dennis Ross, The Missing Peace",
+   "year": 2004,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "US Presidential Proclamation 9852",
+   "year": 2019,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "Reuters, December 2024",
+   "year": 2024,
+   "at": "L11",
+   "until": "L12"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "until": "L13",
+  "balance": "Occupied land, or *security frontier?*",
+  "y": 760
+ },
+ "caption_en": "One line on a map in 1923. A hundred years later, it is still not settled.\n\nThe Golan Heights in 60 seconds:\n1923: the Paulet-Newcombe line puts the Golan in French Mandate Syria.\n1949: the Israel-Syria armistice leaves Syria on the heights above the Sea of Galilee; for years both sides clash and Syrian artillery hits Israeli farms below (Britannica).\n1965: Syria starts diverting the Jordan's headwaters (Arab League Cairo summit, 1964); Israel strikes the works.\n9 to 10 June 1967: Israel takes the Golan in the Six-Day War.\nOctober 1973: Syria attacks on Yom Kippur; Israel holds and pushes back.\n31 May 1974: Kissinger's disengagement deal; Quneitra returns to Syria; UN peacekeepers (UNDOF, UN Security Council Resolution 350).\n14 December 1981: the Golan Heights Law; UN Security Council Resolution 497 calls it null and void.\n2000: US-brokered talks collapse over access to the Sea of Galilee shore (Dennis Ross, The Missing Peace).\n25 March 2019: US Proclamation 9852 recognises Israeli sovereignty; most countries do not.\n8 December 2024: Assad falls; Israeli troops enter the buffer zone (Reuters).\n\nSyria calls it occupied land. Israel calls it a security frontier. Which side are you on? Tell me in the comments.\n\nPhotos: PanBK (CC BY-SA 3.0); Assaf Kutin, GPO Israel (CC BY-SA 4.0); IPPA (Dan Hadani collection) and Yosi Elmakis, National Library of Israel (CC BY 4.0); Shealah Craighead, The White House (public domain); Davidbena (CC BY-SA 4.0); Someone35 (CC BY-SA 3.0). All via Wikimedia Commons.\nAI voice (Noam's own cloned voice).",
+ "caption_he": "רמת הגולן ב-60 שניות: קו אחד על המפה ב-1923, ומאה שנה שעדיין לא נסגרו. 1923 הגולן נקבע לסוריה, 1949 שביתת הנשק, 1967 ישראל כובשת את הגולן, 1973 יום כיפור, 1974 הסכם הפרדת הכוחות, 1981 חוק רמת הגולן, 2019 ההכרה האמריקאית, 2024 נפילת אסד. סוריה קוראת לזה שטח כבוש, ישראל קוראת לזה גבול ביטחוני. מה דעתכם?",
+ "hashtags": [
+  "#GolanHeights",
+  "#Israel",
+  "#History"
+ ],
+ "cover": {
+  "t": 1.0,
+  "text": "Golan Heights:|*100* years, *60* seconds",
+  "big": "1923"
+ }
+}
