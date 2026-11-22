@@ -36,12 +36,12 @@
   }
  ],
  "transcript": {
-  "score": 0.971,
+  "score": 1.0,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Thirty eight babies in every thousand died before their first birthday. That was Israel in 1960.",
-    "score": 0.952,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -76,8 +76,8 @@
    },
    {
     "line": "America ends at five and a half. Britain at four point one.",
-    "score": 0.75,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Which number surprised you most? Tell me in the comments.",
@@ -95,7 +95,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "38 babies and every thousand died before their first birthday. That was Israel in 1960. Britain was at 23. Egypt and Turkey, more than one baby in six. Then the whole region starts racing down. Israel too, under 10 by 1990. Turkey cuts its rate by 95%. Egypt falls from 173 to 21. Iran from 88 to 10. Lebanon goes the other way. Since 2015, its crisis pushes the rate back up. Saudi Arabia and the UAE drop below 5. America ends at 5.5, Britain at 4.1. Which number surprised you most? Tell me in the comments. If you love Israeli facts, follow Noam Ra's for more. And Israel today, 2.7, 14 times lower than in 1960.",
+  "heard": "38 babies in every thousand died before their first birthday. That was Israel in 1960. Britain was at 23. Egypt and Turkey, more than one baby in six. Then the whole region starts racing down. Israel too, under 10 by 1990. Turkey cuts its rate by 95%. Egypt falls from 173 to 21. Iran from 88 to 10. Lebanon goes the other way. Since 2015, its crisis pushes the rate back up. Saudi Arabia and the UAE drop below five. America ends at five and a half. Britain at 4.1. Which number surprised you most? Tell me in the comments. If you love Israeli facts, follow. Noam Roz for more. And Israel today, 2.7. 14 times lower than in 1960.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -105,5 +105,5 @@
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 73.4
+ "render_s": 124.5
 }
