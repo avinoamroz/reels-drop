@@ -50,7 +50,7 @@
   }
  ],
  "transcript": {
-  "score": 0.958,
+  "score": 0.979,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -100,11 +100,11 @@
    },
    {
     "line": "Same test, from the top.",
-    "score": 0.4,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    }
   ],
-  "heard": "Turkey. Judge like Israel. Ready? Official report. Finding one. Istanbul has stolen land. Until 1453, it was Constantinople. Give it back to Byzantines. And before them, Greeks called it Byzantium. Finding two. Occupation. Since 1974, Turkish troops have held northern Cyprus. Only Turkey recognizes it. Finding three. Settlers. Settlers from Turkey moved in, and the Council of Europe wrote a whole report on them. Finding four. From 1983 to 1991, publishing in Kurdish was banned by law. Finding five. Every November, Americans eat a turkey. Genocide. Sounds ridiculous. Israel hears it every day. Turkey isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow Noam Roz for more.",
+  "heard": "Turkey. Judge like Israel. Ready? Official Report. Finding One. Istanbul has stolen land. Until 1453, it was Constantinople. Give it back to Byzantines. And before them, Greeks called it Byzantium. Finding Two. Occupation. Since 1974, Turkish troops have held northern Cyprus. Only Turkey recognizes it. Finding Three. Settlers. Settlers from Turkey moved in, and the Council of Europe wrote a whole report on them. Finding Four. From 1983 to 1991, publishing in Kurdish was banned by law. 5. Every November, Americans eat a turkey. Genocide. Sounds ridiculous. Israel hears it every day. Turkey isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow. Noam Roz for more. Same test from the top.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -117,5 +117,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 97.8
+ "render_s": 73.7
 }
