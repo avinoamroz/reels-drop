@@ -1,78 +1,78 @@
 [
 {
 "word": "The",
-"start": 0.294,
-"end": 0.402
+"start": 0.557,
+"end": 0.681
 },
 {
 "word": "Golan",
-"start": 0.402,
-"end": 0.743
+"start": 0.681,
+"end": 1.099
 },
 {
 "word": "Heights:",
-"start": 0.743,
-"end": 1.254
+"start": 1.099,
+"end": 1.641
 },
 {
 "word": "100",
-"start": 1.517,
-"end": 1.997
-},
-{
-"word": "years",
-"start": 1.997,
+"start": 1.811,
 "end": 2.26
 },
 {
-"word": "in",
+"word": "years",
 "start": 2.26,
-"end": 2.384
+"end": 2.57
+},
+{
+"word": "in",
+"start": 2.57,
+"end": 2.694
 },
 {
 "word": "60",
-"start": 2.384,
-"end": 2.74
+"start": 2.694,
+"end": 3.05
 },
 {
 "word": "seconds.",
-"start": 2.74,
-"end": 3.406
+"start": 3.05,
+"end": 3.669
 },
 {
 "word": "1923.",
-"start": 3.684,
-"end": 4.721
+"start": 3.947,
+"end": 5.031
 },
 {
 "word": "Britain",
-"start": 5.48,
-"end": 5.836
+"start": 5.449,
+"end": 5.743
 },
 {
 "word": "and",
-"start": 5.836,
-"end": 6.022
+"start": 5.743,
+"end": 5.898
 },
 {
 "word": "France",
-"start": 6.022,
-"end": 6.502
+"start": 5.898,
+"end": 6.316
 },
 {
 "word": "draw",
-"start": 6.502,
-"end": 6.796
+"start": 6.316,
+"end": 6.533
 },
 {
 "word": "a",
-"start": 6.796,
-"end": 6.858
+"start": 6.533,
+"end": 6.579
 },
 {
 "word": "line.",
-"start": 6.858,
-"end": 7.245
+"start": 6.579,
+"end": 6.981
 },
 {
 "word": "The",
@@ -82,761 +82,681 @@
 {
 "word": "Golan",
 "start": 7.601,
-"end": 8.034
+"end": 8.142
 },
 {
 "word": "goes",
-"start": 8.034,
-"end": 8.266
+"start": 8.204,
+"end": 8.452
 },
 {
 "word": "to",
-"start": 8.266,
-"end": 8.39
+"start": 8.452,
+"end": 8.56
 },
 {
 "word": "Syria.",
-"start": 8.39,
-"end": 8.901
+"start": 8.56,
+"end": 9.04
 },
 {
 "word": "1949.",
-"start": 9.443,
-"end": 10.542
+"start": 9.195,
+"end": 10.217
 },
 {
 "word": "The",
-"start": 11.238,
-"end": 11.393
+"start": 10.573,
+"end": 10.697
 },
 {
 "word": "armistice",
+"start": 10.697,
+"end": 11.115
+},
+{
+"word": "leaves",
+"start": 11.115,
+"end": 11.393
+},
+{
+"word": "Syria",
 "start": 11.393,
 "end": 11.873
 },
 {
-"word": "leaves",
+"word": "on",
 "start": 11.873,
+"end": 12.074
+},
+{
+"word": "the",
+"start": 12.074,
 "end": 12.136
 },
 {
-"word": "Syria",
-"start": 12.136,
-"end": 12.523
-},
-{
-"word": "on",
-"start": 12.523,
-"end": 12.616
-},
-{
-"word": "the",
-"start": 12.616,
-"end": 12.709
-},
-{
 "word": "heights,",
-"start": 12.709,
-"end": 13.22
+"start": 12.136,
+"end": 12.585
 },
 {
 "word": "above",
-"start": 13.7,
-"end": 14.056
+"start": 12.833,
+"end": 13.158
 },
 {
 "word": "the",
-"start": 14.056,
-"end": 14.18
+"start": 13.158,
+"end": 13.251
 },
 {
 "word": "Sea",
-"start": 14.18,
-"end": 14.381
+"start": 13.251,
+"end": 13.452
 },
 {
 "word": "of",
-"start": 14.381,
-"end": 14.474
+"start": 13.452,
+"end": 13.545
 },
 {
 "word": "Galilee.",
-"start": 14.505,
-"end": 15.016
+"start": 13.545,
+"end": 14.056
 },
 {
-"word": "For",
-"start": 15.588,
-"end": 15.805
-},
-{
-"word": "years,",
-"start": 15.805,
-"end": 16.331
-},
-{
-"word": "both",
-"start": 16.548,
-"end": 16.873
+"word": "Both",
+"start": 14.242,
+"end": 14.474
 },
 {
 "word": "sides",
-"start": 16.873,
-"end": 17.183
+"start": 14.474,
+"end": 14.783
 },
 {
 "word": "clash,",
-"start": 17.183,
-"end": 17.771
+"start": 14.783,
+"end": 15.17
 },
 {
 "word": "and",
-"start": 17.833,
-"end": 18.05
+"start": 15.17,
+"end": 15.279
 },
 {
 "word": "Syrian",
-"start": 18.05,
-"end": 18.468
+"start": 15.279,
+"end": 15.681
 },
 {
 "word": "guns",
-"start": 18.468,
-"end": 18.731
+"start": 15.681,
+"end": 15.913
 },
 {
 "word": "shell",
-"start": 18.731,
-"end": 18.947
+"start": 15.913,
+"end": 16.099
 },
 {
 "word": "the",
-"start": 18.947,
-"end": 19.071
+"start": 16.099,
+"end": 16.192
 },
 {
 "word": "farms",
-"start": 19.071,
-"end": 19.427
+"start": 16.192,
+"end": 16.486
 },
 {
 "word": "below.",
-"start": 19.427,
-"end": 19.845
+"start": 16.486,
+"end": 16.842
 },
 {
 "word": "1965.",
-"start": 20.263,
-"end": 21.502
+"start": 17.183,
+"end": 18.22
 },
 {
 "word": "Syria",
-"start": 22.043,
-"end": 22.663
+"start": 18.56,
+"end": 18.947
 },
 {
 "word": "starts",
-"start": 22.725,
-"end": 23.034
+"start": 18.947,
+"end": 19.18
 },
 {
 "word": "diverting",
-"start": 23.034,
-"end": 23.514
+"start": 19.18,
+"end": 19.613
 },
 {
 "word": "the",
-"start": 23.514,
-"end": 23.591
+"start": 19.613,
+"end": 19.691
 },
 {
 "word": "Jordan's",
-"start": 23.591,
-"end": 23.994
+"start": 19.691,
+"end": 20.093
 },
 {
 "word": "sources.",
-"start": 23.994,
-"end": 24.613
+"start": 20.093,
+"end": 20.681
 },
 {
 "word": "Israel",
-"start": 25.372,
-"end": 25.821
+"start": 20.991,
+"end": 21.347
 },
 {
 "word": "strikes",
-"start": 25.821,
-"end": 26.177
+"start": 21.347,
+"end": 21.672
 },
 {
 "word": "the",
-"start": 26.177,
-"end": 26.3
+"start": 21.672,
+"end": 21.796
 },
 {
 "word": "works.",
-"start": 26.3,
-"end": 26.842
+"start": 21.796,
+"end": 22.245
 },
 {
 "word": "June",
-"start": 27.508,
-"end": 27.771
+"start": 22.307,
+"end": 22.57
 },
 {
 "word": "1967.",
-"start": 27.771,
-"end": 28.886
+"start": 22.57,
+"end": 23.591
 },
 {
 "word": "In",
-"start": 29.211,
-"end": 29.396
+"start": 23.886,
+"end": 24.118
 },
 {
 "word": "two",
-"start": 29.396,
-"end": 29.536
+"start": 24.118,
+"end": 24.304
 },
 {
 "word": "days,",
-"start": 29.536,
-"end": 30.0
+"start": 24.304,
+"end": 24.814
 },
 {
 "word": "Israel",
-"start": 30.14,
-"end": 30.496
+"start": 25.0,
+"end": 25.356
 },
 {
 "word": "takes",
-"start": 30.496,
-"end": 30.743
+"start": 25.356,
+"end": 25.557
 },
 {
 "word": "the",
-"start": 30.743,
-"end": 30.836
+"start": 25.557,
+"end": 25.65
 },
 {
 "word": "Golan.",
-"start": 30.836,
-"end": 31.254
+"start": 25.65,
+"end": 26.099
 },
 {
 "word": "1973.",
-"start": 31.734,
-"end": 32.787
+"start": 26.347,
+"end": 27.276
 },
 {
 "word": "On",
-"start": 33.839,
-"end": 34.04
+"start": 27.725,
+"end": 27.91
 },
 {
 "word": "Yom",
-"start": 34.04,
-"end": 34.257
+"start": 27.91,
+"end": 28.05
 },
 {
 "word": "Kippur,",
-"start": 34.257,
-"end": 34.845
+"start": 28.05,
+"end": 28.561
 },
 {
-"word": "Syrian",
-"start": 34.938,
-"end": 35.356
+"word": "Syria",
+"start": 28.622,
+"end": 29.071
 },
 {
-"word": "tanks",
-"start": 35.356,
-"end": 35.728
-},
-{
-"word": "storm",
-"start": 35.728,
-"end": 36.053
-},
-{
-"word": "back",
-"start": 36.053,
-"end": 36.285
-},
-{
-"word": "in.",
-"start": 36.285,
-"end": 36.564
+"word": "attacks.",
+"start": 29.071,
+"end": 29.675
 },
 {
 "word": "Israel",
-"start": 37.167,
-"end": 37.523
+"start": 29.938,
+"end": 30.279
 },
 {
 "word": "holds,",
-"start": 37.523,
-"end": 37.941
+"start": 30.279,
+"end": 30.697
 },
 {
 "word": "then",
-"start": 38.003,
-"end": 38.205
+"start": 30.728,
+"end": 30.96
 },
 {
 "word": "pushes",
-"start": 38.205,
-"end": 38.514
+"start": 30.96,
+"end": 31.27
 },
 {
-"word": "them",
-"start": 38.514,
-"end": 38.638
-},
-{
-"word": "out.",
-"start": 38.638,
-"end": 38.87
+"word": "back.",
+"start": 31.27,
+"end": 31.626
 },
 {
 "word": "1974.",
-"start": 39.505,
-"end": 40.666
+"start": 32.105,
+"end": 33.034
+},
+{
+"word": "A",
+"start": 33.39,
+"end": 33.421
 },
 {
 "word": "Kissinger",
-"start": 41.332,
-"end": 41.749
+"start": 33.421,
+"end": 33.777
 },
 {
-"word": "brokers",
-"start": 41.749,
-"end": 42.106
-},
-{
-"word": "a",
-"start": 42.106,
-"end": 42.167
-},
-{
-"word": "deal.",
-"start": 42.167,
-"end": 42.585
-},
-{
-"word": "Quneitra",
-"start": 43.576,
-"end": 44.056
+"word": "deal",
+"start": 33.777,
+"end": 33.963
 },
 {
 "word": "returns",
-"start": 44.056,
-"end": 44.505
+"start": 33.963,
+"end": 34.381
+},
+{
+"word": "Quneitra",
+"start": 34.381,
+"end": 34.737
 },
 {
 "word": "to",
-"start": 44.505,
-"end": 44.598
+"start": 34.737,
+"end": 34.83
 },
 {
-"word": "Syria,",
-"start": 44.598,
-"end": 45.047
-},
-{
-"word": "and",
-"start": 45.047,
-"end": 45.294
+"word": "Syria.",
+"start": 34.83,
+"end": 35.248
 },
 {
 "word": "United",
-"start": 45.294,
-"end": 45.65
+"start": 35.527,
+"end": 35.852
 },
 {
 "word": "Nations",
-"start": 45.65,
-"end": 46.006
+"start": 35.852,
+"end": 36.161
 },
 {
 "word": "peacekeepers",
-"start": 46.006,
-"end": 46.579
+"start": 36.161,
+"end": 36.61
 },
 {
 "word": "move",
-"start": 46.579,
-"end": 46.796
+"start": 36.61,
+"end": 36.811
 },
 {
 "word": "in.",
-"start": 46.796,
-"end": 46.997
+"start": 36.811,
+"end": 36.997
 },
 {
 "word": "1981.",
-"start": 47.818,
-"end": 48.654
+"start": 37.477,
+"end": 38.282
 },
 {
 "word": "Israel",
-"start": 49.489,
-"end": 49.815
+"start": 38.855,
+"end": 39.149
 },
 {
 "word": "applies",
-"start": 49.815,
-"end": 50.155
+"start": 39.149,
+"end": 39.458
 },
 {
 "word": "its",
-"start": 50.155,
-"end": 50.294
+"start": 39.458,
+"end": 39.567
 },
 {
 "word": "law",
-"start": 50.294,
-"end": 50.511
+"start": 39.567,
+"end": 39.753
 },
 {
 "word": "there.",
-"start": 50.511,
-"end": 50.805
+"start": 39.753,
+"end": 40.0
 },
 {
 "word": "The",
-"start": 51.285,
-"end": 51.409
+"start": 40.356,
+"end": 40.48
 },
 {
 "word": "UN",
-"start": 51.409,
-"end": 51.626
+"start": 40.48,
+"end": 40.65
 },
 {
 "word": "Security",
-"start": 51.626,
-"end": 52.044
+"start": 40.65,
+"end": 41.006
 },
 {
-"word": "Council",
-"start": 52.044,
-"end": 52.369
-},
-{
-"word": "calls",
-"start": 52.369,
-"end": 52.647
-},
-{
-"word": "it",
-"start": 52.647,
-"end": 52.725
+"word": "Council:",
+"start": 41.006,
+"end": 41.486
 },
 {
 "word": "null",
-"start": 52.725,
-"end": 52.911
+"start": 41.579,
+"end": 41.765
 },
 {
 "word": "and",
-"start": 52.911,
-"end": 53.034
+"start": 41.765,
+"end": 41.889
 },
 {
 "word": "void.",
-"start": 53.034,
-"end": 53.39
+"start": 41.889,
+"end": 42.245
 },
 {
 "word": "2000.",
-"start": 54.087,
-"end": 54.598
+"start": 42.539,
+"end": 43.019
 },
 {
 "word": "Talks",
-"start": 55.325,
-"end": 55.65
+"start": 43.592,
+"end": 43.917
 },
 {
 "word": "with",
-"start": 55.65,
-"end": 55.805
+"start": 43.917,
+"end": 44.041
 },
 {
 "word": "Syria",
-"start": 55.805,
-"end": 56.223
-},
-{
-"word": "come",
-"start": 56.254,
-"end": 56.486
-},
-{
-"word": "close,",
-"start": 56.486,
-"end": 56.997
-},
-{
-"word": "then",
-"start": 57.508,
-"end": 57.694
+"start": 44.041,
+"end": 44.319
 },
 {
 "word": "collapse",
-"start": 57.694,
-"end": 58.112
+"start": 44.35,
+"end": 44.768
 },
 {
 "word": "over",
-"start": 58.112,
-"end": 58.313
+"start": 44.768,
+"end": 44.907
 },
 {
 "word": "the",
-"start": 58.313,
-"end": 58.437
+"start": 44.907,
+"end": 45.0
 },
 {
 "word": "Sea",
-"start": 58.437,
-"end": 58.685
+"start": 45.0,
+"end": 45.155
 },
 {
 "word": "of",
-"start": 58.685,
-"end": 58.762
+"start": 45.155,
+"end": 45.248
 },
 {
 "word": "Galilee",
-"start": 58.762,
-"end": 59.133
+"start": 45.248,
+"end": 45.542
 },
 {
 "word": "shore.",
-"start": 59.133,
-"end": 59.582
+"start": 45.542,
+"end": 45.867
 },
 {
 "word": "2019.",
-"start": 60.325,
-"end": 61.161
+"start": 46.471,
+"end": 47.307
 },
 {
 "word": "America",
-"start": 62.075,
-"end": 62.586
+"start": 47.632,
+"end": 48.205
 },
 {
 "word": "recognises",
-"start": 62.586,
-"end": 63.143
+"start": 48.205,
+"end": 48.777
 },
 {
 "word": "Israeli",
-"start": 63.143,
-"end": 63.576
+"start": 48.777,
+"end": 49.133
 },
 {
 "word": "sovereignty.",
-"start": 63.576,
-"end": 64.164
+"start": 49.133,
+"end": 49.706
 },
 {
 "word": "Most",
-"start": 65.062,
-"end": 65.434
+"start": 50.093,
+"end": 50.418
 },
 {
 "word": "of",
-"start": 65.434,
-"end": 65.542
+"start": 50.418,
+"end": 50.48
 },
 {
 "word": "the",
-"start": 65.542,
-"end": 65.635
+"start": 50.48,
+"end": 50.573
 },
 {
 "word": "world",
-"start": 65.635,
-"end": 65.914
+"start": 50.573,
+"end": 50.836
 },
 {
 "word": "does",
-"start": 65.914,
-"end": 66.084
+"start": 50.836,
+"end": 50.96
 },
 {
 "word": "not.",
-"start": 66.084,
-"end": 66.533
+"start": 50.96,
+"end": 51.301
 },
 {
 "word": "December",
-"start": 67.106,
-"end": 67.524
+"start": 51.719,
+"end": 52.167
 },
 {
 "word": "2024.",
-"start": 67.524,
-"end": 68.452
+"start": 52.167,
+"end": 53.127
 },
 {
 "word": "Assad",
-"start": 69.366,
-"end": 69.815
+"start": 53.576,
+"end": 53.932
 },
 {
 "word": "falls,",
-"start": 69.815,
-"end": 70.295
+"start": 53.932,
+"end": 54.536
 },
 {
 "word": "and",
-"start": 70.295,
-"end": 70.465
+"start": 54.629,
+"end": 54.83
 },
 {
 "word": "Israeli",
-"start": 70.465,
-"end": 70.852
+"start": 54.83,
+"end": 55.248
 },
 {
 "word": "troops",
-"start": 70.852,
-"end": 71.223
+"start": 55.248,
+"end": 55.697
 },
 {
 "word": "enter",
-"start": 71.223,
-"end": 71.487
+"start": 55.759,
+"end": 56.037
 },
 {
 "word": "the",
-"start": 71.487,
-"end": 71.579
+"start": 56.037,
+"end": 56.146
 },
 {
 "word": "buffer",
-"start": 71.579,
-"end": 71.874
+"start": 56.146,
+"end": 56.455
 },
 {
 "word": "zone.",
-"start": 71.874,
-"end": 72.183
+"start": 56.455,
+"end": 56.688
 },
 {
 "word": "Syria",
-"start": 72.833,
-"end": 73.251
+"start": 57.059,
+"end": 57.508
 },
 {
-"word": "calls",
-"start": 73.251,
-"end": 73.561
-},
-{
-"word": "it",
-"start": 73.561,
-"end": 73.623
+"word": "says",
+"start": 57.508,
+"end": 57.864
 },
 {
 "word": "occupied",
-"start": 73.623,
-"end": 74.103
+"start": 57.988,
+"end": 58.468
 },
 {
 "word": "land.",
-"start": 74.103,
-"end": 74.397
+"start": 58.468,
+"end": 58.824
 },
 {
 "word": "Israel",
-"start": 74.815,
-"end": 75.171
+"start": 59.397,
+"end": 59.753
 },
 {
-"word": "calls",
-"start": 75.171,
-"end": 75.449
-},
-{
-"word": "it",
-"start": 75.449,
-"end": 75.511
-},
-{
-"word": "a",
-"start": 75.511,
-"end": 75.573
+"word": "says",
+"start": 59.753,
+"end": 60.078
 },
 {
 "word": "security",
-"start": 75.573,
-"end": 76.022
+"start": 60.078,
+"end": 60.589
 },
 {
 "word": "frontier.",
-"start": 76.022,
-"end": 76.564
+"start": 60.589,
+"end": 61.007
 },
 {
 "word": "Who's",
-"start": 77.338,
-"end": 77.601
+"start": 61.409,
+"end": 61.641
 },
 {
 "word": "right?",
-"start": 77.601,
-"end": 77.973
+"start": 61.641,
+"end": 61.92
 },
 {
 "word": "It",
-"start": 78.809,
-"end": 78.963
+"start": 62.663,
+"end": 62.818
 },
 {
 "word": "all",
-"start": 78.963,
-"end": 79.257
+"start": 62.818,
+"end": 63.019
 },
 {
 "word": "began",
-"start": 79.257,
-"end": 79.583
+"start": 63.019,
+"end": 63.406
 },
 {
 "word": "with",
-"start": 79.583,
-"end": 79.706
+"start": 63.406,
+"end": 63.53
 },
 {
 "word": "one",
-"start": 79.706,
-"end": 79.954
+"start": 63.53,
+"end": 63.777
 },
 {
 "word": "line,",
-"start": 79.954,
-"end": 80.341
+"start": 63.777,
+"end": 64.134
 },
 {
 "word": "drawn",
-"start": 80.79,
-"end": 81.084
+"start": 64.397,
+"end": 64.768
 },
 {
 "word": "in",
-"start": 81.084,
-"end": 81.177
+"start": 64.768,
+"end": 64.846
 },
 {
 "word": "1923.",
-"start": 81.177,
-"end": 82.106
+"start": 64.846,
+"end": 65.759
 }
 ]
