@@ -1,667 +1,657 @@
 [
 {
 "word": "Lit",
-"start": 0.139,
-"end": 0.341
-},
-{
-"word": "in",
-"start": 0.341,
+"start": 0.217,
 "end": 0.495
 },
 {
-"word": "Jerusalem,",
+"word": "in",
 "start": 0.495,
-"end": 1.161
+"end": 0.635
+},
+{
+"word": "Jerusalem,",
+"start": 0.635,
+"end": 1.207
 },
 {
 "word": "two",
-"start": 1.192,
-"end": 1.424
+"start": 1.625,
+"end": 1.811
 },
 {
 "word": "thousand",
-"start": 1.424,
-"end": 1.842
-},
-{
-"word": "one",
-"start": 1.842,
-"end": 2.059
-},
-{
-"word": "hundred",
-"start": 2.059,
+"start": 1.811,
 "end": 2.291
 },
 {
-"word": "eighty",
-"start": 2.353,
-"end": 2.57
-},
-{
-"word": "nine",
-"start": 2.57,
-"end": 2.771
-},
-{
-"word": "years",
-"start": 2.771,
-"end": 2.988
-},
-{
-"word": "ago.",
-"start": 2.988,
-"end": 3.313
-},
-{
-"word": "Here's",
-"start": 3.731,
-"end": 4.071
-},
-{
-"word": "the",
-"start": 4.071,
-"end": 4.133
-},
-{
-"word": "story.",
-"start": 4.133,
-"end": 4.613
-},
-{
-"word": "167",
-"start": 4.814,
-"end": 6.254
-},
-{
-"word": "BCE.",
-"start": 6.254,
-"end": 6.92
-},
-{
-"word": "The",
-"start": 7.338,
-"end": 7.43
-},
-{
-"word": "Seleucid",
-"start": 7.43,
-"end": 7.941
-},
-{
-"word": "king,",
-"start": 7.941,
-"end": 8.421
-},
-{
-"word": "Antiochus",
-"start": 8.56,
-"end": 9.164
-},
-{
-"word": "the",
-"start": 9.164,
-"end": 9.288
-},
-{
-"word": "Fourth,",
-"start": 9.288,
-"end": 9.737
-},
-{
-"word": "bans",
-"start": 9.799,
-"end": 10.155
-},
-{
-"word": "Jewish",
-"start": 10.155,
-"end": 10.48
-},
-{
-"word": "practice",
-"start": 10.48,
-"end": 10.929
-},
-{
-"word": "and",
-"start": 10.929,
-"end": 11.053
-},
-{
-"word": "defiles",
-"start": 11.053,
-"end": 11.564
-},
-{
-"word": "the",
-"start": 11.564,
-"end": 11.656
-},
-{
-"word": "Temple",
-"start": 11.656,
-"end": 11.981
-},
-{
-"word": "in",
-"start": 11.981,
-"end": 12.074
-},
-{
-"word": "Jerusalem.",
-"start": 12.074,
-"end": 12.647
-},
-{
-"word": "In",
-"start": 12.972,
-"end": 13.158
-},
-{
-"word": "a",
-"start": 13.158,
-"end": 13.22
-},
-{
-"word": "village",
-"start": 13.22,
-"end": 13.607
-},
-{
-"word": "called",
-"start": 13.607,
-"end": 13.87
-},
-{
-"word": "Modi'in,",
-"start": 13.87,
-"end": 14.412
-},
-{
-"word": "a",
-"start": 14.66,
-"end": 14.783
-},
-{
-"word": "priest",
-"start": 14.783,
-"end": 15.17
-},
-{
-"word": "named",
-"start": 15.17,
-"end": 15.372
-},
-{
-"word": "Mattathias",
-"start": 15.372,
-"end": 16.037
-},
-{
-"word": "and",
-"start": 16.037,
-"end": 16.161
-},
-{
-"word": "his",
-"start": 16.161,
-"end": 16.254
-},
-{
-"word": "sons",
-"start": 16.254,
-"end": 16.548
-},
-{
-"word": "say",
-"start": 16.548,
-"end": 16.703
-},
-{
-"word": "no.",
-"start": 16.703,
-"end": 17.059
-},
-{
-"word": "His",
-"start": 17.26,
-"end": 17.446
-},
-{
-"word": "son",
-"start": 17.446,
-"end": 17.694
-},
-{
-"word": "Judah,",
-"start": 17.694,
-"end": 18.173
-},
-{
-"word": "the",
-"start": 18.251,
-"end": 18.406
-},
-{
-"word": "Maccabee,",
-"start": 18.406,
-"end": 19.009
-},
-{
-"word": "leads",
-"start": 19.133,
-"end": 19.427
-},
-{
-"word": "the",
-"start": 19.427,
-"end": 19.551
-},
-{
-"word": "revolt.",
-"start": 19.551,
-"end": 20.0
-},
-{
-"word": "164",
-"start": 20.325,
-"end": 21.595
-},
-{
-"word": "BCE.",
-"start": 21.595,
-"end": 22.183
-},
-{
-"word": "They",
-"start": 22.477,
-"end": 22.632
-},
-{
-"word": "retake",
-"start": 22.632,
-"end": 23.05
-},
-{
-"word": "Jerusalem",
-"start": 23.05,
-"end": 23.715
-},
-{
-"word": "and",
-"start": 23.978,
-"end": 24.226
-},
-{
-"word": "rededicate",
-"start": 24.226,
-"end": 24.814
-},
-{
-"word": "the",
-"start": 24.814,
-"end": 24.907
-},
-{
-"word": "Temple,",
-"start": 24.907,
-"end": 25.418
-},
-{
-"word": "on",
-"start": 25.511,
-"end": 25.666
-},
-{
-"word": "the",
-"start": 25.666,
-"end": 25.728
-},
-{
-"word": "twenty",
-"start": 25.728,
-"end": 26.022
-},
-{
-"word": "fifth",
-"start": 26.022,
-"end": 26.285
-},
-{
-"word": "of",
-"start": 26.285,
-"end": 26.378
-},
-{
-"word": "Kislev.",
-"start": 26.378,
-"end": 26.889
-},
-{
-"word": "That's",
-"start": 27.245,
-"end": 27.523
-},
-{
-"word": "Hanukkah.",
-"start": 27.523,
-"end": 27.972
-},
-{
-"word": "Eight",
-"start": 28.359,
-"end": 28.607
-},
-{
-"word": "nights",
-"start": 28.607,
-"end": 28.87
-},
-{
-"word": "of",
-"start": 28.87,
-"end": 28.994
-},
-{
-"word": "light.",
-"start": 28.994,
-"end": 29.381
-},
-{
-"word": "Today,",
-"start": 29.799,
-"end": 30.434
-},
-{
-"word": "Modi'in",
-"start": 30.526,
-"end": 31.146
-},
-{
-"word": "is",
-"start": 31.146,
-"end": 31.331
-},
-{
-"word": "an",
-"start": 31.331,
-"end": 31.424
-},
-{
-"word": "Israeli",
-"start": 31.424,
-"end": 31.842
-},
-{
-"word": "city",
-"start": 31.842,
-"end": 32.105
-},
-{
-"word": "again.",
-"start": 32.105,
-"end": 32.477
-},
-{
-"word": "A",
-"start": 32.957,
-"end": 33.065
+"word": "one",
+"start": 2.291,
+"end": 2.554
 },
 {
 "word": "hundred",
-"start": 33.065,
-"end": 33.375
+"start": 2.554,
+"end": 2.988
 },
 {
-"word": "thousand",
-"start": 33.375,
-"end": 33.7
+"word": "eighty",
+"start": 3.003,
+"end": 3.344
 },
 {
-"word": "people.",
-"start": 33.7,
-"end": 34.118
+"word": "nine",
+"start": 3.344,
+"end": 3.669
 },
 {
-"word": "And",
-"start": 34.396,
-"end": 34.598
+"word": "years",
+"start": 3.669,
+"end": 3.947
 },
 {
-"word": "Jews",
-"start": 34.598,
-"end": 34.954
+"word": "ago.",
+"start": 3.947,
+"end": 4.272
 },
 {
-"word": "still",
-"start": 34.954,
-"end": 35.17
-},
-{
-"word": "light",
-"start": 35.17,
-"end": 35.356
+"word": "Here's",
+"start": 4.536,
+"end": 4.783
 },
 {
 "word": "the",
-"start": 35.356,
-"end": 35.418
+"start": 4.783,
+"end": 4.814
 },
 {
-"word": "candles",
-"start": 35.418,
-"end": 35.805
+"word": "story.",
+"start": 4.876,
+"end": 5.325
 },
 {
-"word": "by",
-"start": 35.805,
-"end": 35.914
+"word": "167",
+"start": 5.898,
+"end": 7.152
 },
 {
-"word": "the",
-"start": 35.914,
-"end": 36.037
-},
-{
-"word": "Western",
-"start": 36.037,
-"end": 36.393
-},
-{
-"word": "Wall",
-"start": 36.393,
-"end": 36.672
-},
-{
-"word": "of",
-"start": 36.672,
-"end": 36.765
-},
-{
-"word": "that",
-"start": 36.765,
-"end": 36.904
-},
-{
-"word": "Temple.",
-"start": 36.904,
-"end": 37.307
-},
-{
-"word": "This",
-"start": 37.663,
-"end": 37.926
-},
-{
-"word": "year,",
-"start": 37.926,
-"end": 38.112
-},
-{
-"word": "Hanukkah",
-"start": 38.112,
-"end": 38.653
-},
-{
-"word": "starts",
-"start": 38.715,
-"end": 39.04
-},
-{
-"word": "on",
-"start": 39.04,
-"end": 39.164
-},
-{
-"word": "December",
-"start": 39.164,
-"end": 39.489
-},
-{
-"word": "4.",
-"start": 39.489,
-"end": 39.845
+"word": "BCE.",
+"start": 7.152,
+"end": 7.755
 },
 {
 "word": "The",
-"start": 40.418,
-"end": 40.511
+"start": 8.266,
+"end": 8.344
 },
 {
-"word": "same",
-"start": 40.511,
-"end": 40.836
+"word": "Seleucid",
+"start": 8.344,
+"end": 8.808
 },
 {
-"word": "hill",
-"start": 40.836,
-"end": 41.146
+"word": "king,",
+"start": 8.808,
+"end": 9.102
 },
 {
-"word": "is",
-"start": 41.146,
-"end": 41.285
+"word": "Antiochus",
+"start": 9.489,
+"end": 10.062
 },
 {
-"word": "holy",
-"start": 41.285,
-"end": 41.595
+"word": "the",
+"start": 10.062,
+"end": 10.155
+},
+{
+"word": "Fourth,",
+"start": 10.155,
+"end": 10.666
+},
+{
+"word": "bans",
+"start": 11.115,
+"end": 11.564
+},
+{
+"word": "Jewish",
+"start": 11.564,
+"end": 11.858
+},
+{
+"word": "practice",
+"start": 11.858,
+"end": 12.338
+},
+{
+"word": "and",
+"start": 12.338,
+"end": 12.523
+},
+{
+"word": "defiles",
+"start": 12.523,
+"end": 13.003
+},
+{
+"word": "the",
+"start": 13.003,
+"end": 13.096
+},
+{
+"word": "Temple",
+"start": 13.096,
+"end": 13.514
+},
+{
+"word": "in",
+"start": 13.514,
+"end": 13.653
+},
+{
+"word": "Jerusalem.",
+"start": 13.653,
+"end": 14.226
+},
+{
+"word": "In",
+"start": 14.706,
+"end": 14.861
+},
+{
+"word": "the",
+"start": 14.861,
+"end": 14.954
+},
+{
+"word": "village",
+"start": 14.954,
+"end": 15.248
+},
+{
+"word": "of",
+"start": 15.248,
+"end": 15.372
+},
+{
+"word": "Modi'in,",
+"start": 15.372,
+"end": 15.882
+},
+{
+"word": "an",
+"start": 15.944,
+"end": 16.115
+},
+{
+"word": "old",
+"start": 16.115,
+"end": 16.331
+},
+{
+"word": "priest,",
+"start": 16.331,
+"end": 16.842
+},
+{
+"word": "Mattathias,",
+"start": 17.136,
+"end": 17.988
+},
+{
+"word": "refuses",
+"start": 18.282,
+"end": 18.793
 },
 {
 "word": "to",
-"start": 41.595,
-"end": 41.719
+"start": 18.793,
+"end": 18.886
+},
+{
+"word": "bow.",
+"start": 18.886,
+"end": 19.273
+},
+{
+"word": "His",
+"start": 19.691,
+"end": 19.876
+},
+{
+"word": "son",
+"start": 19.876,
+"end": 20.139
+},
+{
+"word": "Judah,",
+"start": 20.139,
+"end": 20.619
+},
+{
+"word": "the",
+"start": 20.913,
+"end": 21.037
+},
+{
+"word": "Maccabee,",
+"start": 21.037,
+"end": 21.61
+},
+{
+"word": "leads",
+"start": 21.997,
+"end": 22.338
+},
+{
+"word": "the",
+"start": 22.338,
+"end": 22.446
+},
+{
+"word": "revolt.",
+"start": 22.446,
+"end": 22.864
+},
+{
+"word": "164",
+"start": 23.499,
+"end": 24.675
+},
+{
+"word": "BCE.",
+"start": 24.675,
+"end": 25.217
+},
+{
+"word": "They",
+"start": 25.759,
+"end": 25.883
+},
+{
+"word": "retake",
+"start": 25.883,
+"end": 26.239
+},
+{
+"word": "Jerusalem",
+"start": 26.239,
+"end": 26.811
+},
+{
+"word": "and",
+"start": 26.811,
+"end": 26.997
+},
+{
+"word": "rededicate",
+"start": 26.997,
+"end": 27.539
+},
+{
+"word": "the",
+"start": 27.539,
+"end": 27.616
+},
+{
+"word": "Temple,",
+"start": 27.616,
+"end": 28.05
+},
+{
+"word": "on",
+"start": 28.096,
+"end": 28.22
+},
+{
+"word": "the",
+"start": 28.22,
+"end": 28.313
+},
+{
+"word": "twenty",
+"start": 28.313,
+"end": 28.561
+},
+{
+"word": "fifth",
+"start": 28.561,
+"end": 28.762
+},
+{
+"word": "of",
+"start": 28.762,
+"end": 28.855
+},
+{
+"word": "Kislev.",
+"start": 28.855,
+"end": 29.366
+},
+{
+"word": "That's",
+"start": 29.845,
+"end": 30.109
+},
+{
+"word": "Hanukkah.",
+"start": 30.109,
+"end": 30.65
+},
+{
+"word": "Eight",
+"start": 31.517,
+"end": 31.765
+},
+{
+"word": "nights",
+"start": 31.765,
+"end": 31.997
+},
+{
+"word": "of",
+"start": 31.997,
+"end": 32.121
+},
+{
+"word": "light.",
+"start": 32.121,
+"end": 32.446
+},
+{
+"word": "Today,",
+"start": 32.895,
+"end": 33.437
+},
+{
+"word": "Modi'in",
+"start": 33.715,
+"end": 34.164
+},
+{
+"word": "is",
+"start": 34.164,
+"end": 34.288
+},
+{
+"word": "an",
+"start": 34.288,
+"end": 34.381
+},
+{
+"word": "Israeli",
+"start": 34.381,
+"end": 34.768
+},
+{
+"word": "city",
+"start": 34.768,
+"end": 35.031
+},
+{
+"word": "again.",
+"start": 35.031,
+"end": 35.387
+},
+{
+"word": "A",
+"start": 36.208,
+"end": 36.27
+},
+{
+"word": "hundred",
+"start": 36.27,
+"end": 36.626
+},
+{
+"word": "thousand",
+"start": 36.626,
+"end": 37.013
+},
+{
+"word": "people.",
+"start": 37.013,
+"end": 37.4
+},
+{
+"word": "And",
+"start": 37.91,
+"end": 38.065
+},
+{
+"word": "Jews",
+"start": 38.065,
+"end": 38.39
+},
+{
+"word": "still",
+"start": 38.39,
+"end": 38.607
+},
+{
+"word": "light",
+"start": 38.607,
+"end": 38.777
+},
+{
+"word": "the",
+"start": 38.777,
+"end": 38.901
+},
+{
+"word": "candles",
+"start": 38.901,
+"end": 39.319
+},
+{
+"word": "by",
+"start": 39.319,
+"end": 39.412
+},
+{
+"word": "the",
+"start": 39.412,
+"end": 39.536
+},
+{
+"word": "Western",
+"start": 39.536,
+"end": 39.892
+},
+{
+"word": "Wall",
+"start": 39.892,
+"end": 40.171
+},
+{
+"word": "of",
+"start": 40.171,
+"end": 40.279
+},
+{
+"word": "that",
+"start": 40.279,
+"end": 40.496
+},
+{
+"word": "Temple.",
+"start": 40.496,
+"end": 40.945
+},
+{
+"word": "This",
+"start": 41.749,
+"end": 42.028
+},
+{
+"word": "year,",
+"start": 42.028,
+"end": 42.384
+},
+{
+"word": "Hanukkah",
+"start": 42.616,
+"end": 42.988
+},
+{
+"word": "starts",
+"start": 42.988,
+"end": 43.251
+},
+{
+"word": "on",
+"start": 43.251,
+"end": 43.375
+},
+{
+"word": "December",
+"start": 43.375,
+"end": 43.731
+},
+{
+"word": "4.",
+"start": 43.731,
+"end": 44.18
+},
+{
+"word": "The",
+"start": 44.691,
+"end": 44.784
+},
+{
+"word": "same",
+"start": 44.784,
+"end": 45.047
+},
+{
+"word": "hill",
+"start": 45.047,
+"end": 45.294
+},
+{
+"word": "is",
+"start": 45.294,
+"end": 45.418
+},
+{
+"word": "holy",
+"start": 45.418,
+"end": 45.712
+},
+{
+"word": "to",
+"start": 45.712,
+"end": 45.805
 },
 {
 "word": "Muslims",
-"start": 41.719,
-"end": 42.136
+"start": 45.805,
+"end": 46.192
 },
 {
 "word": "too,",
-"start": 42.136,
-"end": 42.462
+"start": 46.192,
+"end": 46.486
 },
 {
 "word": "who",
-"start": 42.756,
-"end": 42.91
+"start": 46.997,
+"end": 47.152
 },
 {
 "word": "call",
-"start": 42.91,
-"end": 43.096
+"start": 47.152,
+"end": 47.369
 },
 {
 "word": "it",
-"start": 43.096,
-"end": 43.205
+"start": 47.369,
+"end": 47.446
 },
 {
 "word": "the",
-"start": 43.205,
-"end": 43.267
+"start": 47.446,
+"end": 47.539
 },
 {
 "word": "Noble",
-"start": 43.267,
-"end": 43.545
-},
-{
-"word": "Sanctuary.",
-"start": 43.545,
-"end": 44.133
-},
-{
-"word": "What's",
-"start": 44.428,
-"end": 44.66
-},
-{
-"word": "your",
-"start": 44.66,
-"end": 44.845
-},
-{
-"word": "favourite",
-"start": 44.845,
-"end": 45.325
-},
-{
-"word": "Hanukkah",
-"start": 45.325,
-"end": 45.65
-},
-{
-"word": "tradition?",
-"start": 45.65,
-"end": 46.161
-},
-{
-"word": "Tell",
-"start": 46.378,
-"end": 46.564
-},
-{
-"word": "me",
-"start": 46.564,
-"end": 46.672
-},
-{
-"word": "below.",
-"start": 46.672,
-"end": 47.059
-},
-{
-"word": "Because",
-"start": 47.462,
-"end": 47.756
-},
-{
-"word": "the",
-"start": 47.756,
+"start": 47.539,
 "end": 47.849
 },
 {
-"word": "first",
+"word": "Sanctuary.",
 "start": 47.849,
-"end": 48.174
-},
-{
-"word": "Hanukkah",
-"start": 48.174,
 "end": 48.499
 },
 {
+"word": "What's",
+"start": 48.979,
+"end": 49.273
+},
+{
+"word": "your",
+"start": 49.273,
+"end": 49.397
+},
+{
+"word": "favourite",
+"start": 49.397,
+"end": 49.815
+},
+{
+"word": "Hanukkah",
+"start": 49.815,
+"end": 50.14
+},
+{
+"word": "tradition?",
+"start": 50.14,
+"end": 50.62
+},
+{
+"word": "Tell",
+"start": 51.285,
+"end": 51.502
+},
+{
+"word": "me",
+"start": 51.502,
+"end": 51.61
+},
+{
+"word": "below.",
+"start": 51.61,
+"end": 52.013
+},
+{
+"word": "Because",
+"start": 52.57,
+"end": 52.88
+},
+{
+"word": "the",
+"start": 52.88,
+"end": 52.941
+},
+{
+"word": "first",
+"start": 52.941,
+"end": 53.267
+},
+{
+"word": "Hanukkah",
+"start": 53.267,
+"end": 53.715
+},
+{
 "word": "lights",
-"start": 48.499,
-"end": 48.777
+"start": 53.746,
+"end": 54.072
 },
 {
 "word": "were",
-"start": 48.777,
-"end": 49.072
+"start": 54.072,
+"end": 54.381
 }
 ]

@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "Lit in Jerusalem|*2,189* years ago",
- "duration": 49.67,
+ "duration": 50.03,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -2.0
+  "lufs": -16.2,
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/hanukkah_2189.mp4",
@@ -53,7 +53,7 @@
   }
  ],
  "transcript": {
-  "score": 0.922,
+  "score": 0.914,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -63,13 +63,13 @@
    },
    {
     "line": "167 BCE. The Seleucid king, Antiochus the Fourth, bans Jewish practice and defiles the Temple in Jerusalem.",
-    "score": 0.905,
+    "score": 0.857,
     "flag": "ok"
    },
    {
-    "line": "In a village called Modi'in, a priest named Mattathias and his sons say no.",
-    "score": 0.643,
-    "flag": "MISS"
+    "line": "In the village of Modi'in, an old priest, Mattathias, refuses to bow.",
+    "score": 0.833,
+    "flag": "ok"
    },
    {
     "line": "His son Judah, the Maccabee, leads the revolt.",
@@ -88,8 +88,8 @@
    },
    {
     "line": "Today, Modi'in is an Israeli city again. A hundred thousand people.",
-    "score": 0.818,
-    "flag": "ok"
+    "score": 0.727,
+    "flag": "MISS"
    },
    {
     "line": "And Jews still light the candles by the Western Wall of that Temple.",
@@ -103,7 +103,7 @@
    },
    {
     "line": "The same hill is holy to Muslims too, who call it the Noble Sanctuary.",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
@@ -113,18 +113,18 @@
    },
    {
     "line": "Because the first Hanukkah lights were",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    }
   ],
-  "heard": "Lit in Jerusalem, 2,189 years ago. Here's the story. 167 BCE. The Seleucid king, Antiochus IV, bans Jewish practice and defiles the temple in Jerusalem. In a village called Modian, a priest named Matatais and his son Seno, his son Judah, the Maccabee, leads the revolt. 164 BCE. They retake Jerusalem and rededicate the temple on the 25th of Kislev. That's Hanukkah. Eight Nights of Light. Today, Modian is an Israeli city again. 100,000 people. And Jews still light the candles by the western wall of that temple. This year Hanukkah starts on December 4. The same hill is holy to Muslims too, who call it the Noble Sanctuary. What's your favorite Hanukkah tradition? Tell me below. If you love Israeli facts, follow Noam Raz for more. Because the first Hanukkah lights were...",
+  "heard": "Lit in Jerusalem. 2189 years ago. Here's the story. 167 BCE. The Seleucid king. Antiochus IV. Bands Jewish practice and defiles the temple in Jerusalem. In the village of Modian, an old priest, Matatais, refuses to bow. His son Judah, the Maccabee, leads the revolt. 164 BCE. They retake Jerusalem and rededicate the temple on the 25th of Kislev. That's Hanukkah. Eight nights of light. Today, Modian is in Israeli city again. 100,000 people. And Jews still light the candles by the western wall of that temple. This year, Hanukkah starts on December 4. The same hill is holy to Muslims too. We'll call it the noble sanctuary. What's your favorite Hanukkah tradition? Tell me below. If you love Israeli facts, follow Noam Raz for more. Because the first Hanukkah lights work.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -2.0
+  "lufs": -16.2,
+  "true_peak": -1.9
  },
  "photos": [
   {
@@ -167,5 +167,5 @@
  "lint_warnings": [
   "source without year: 1 Maccabees 2 (Modi'in)"
  ],
- "render_s": 112.7
+ "render_s": 96.3
 }
