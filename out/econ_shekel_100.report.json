@@ -1,0 +1,6 @@
+{
+  "id": "econ_shekel_100",
+  "status": "FAILED",
+  "run": "45055227674",
+  "log": "[18:29:09] pron [en]: A hundred dollars in twenty fifteen. Change it into your local money, and wait ten years. Here is what it is worth in dollars, every year. Jordan, Saudi Arabia and the UAE stay at a hundred. Their money is pegged to the dollar. Syria's pound keeps collapsing in the civil war. Turkey's lira slides every single year. Egypt devalues again and again. Lebanon's banks freeze in twenty nineteen. Then the\nvoice ok: Cartesia sonic-3 (45.7 s, 136 words, 1 run(s), pronunciation pass) voice/econ_shekel_100_vo.wav\n[18:29:09] voice: cached voice (script unchanged)\n[ WARN:0@2.239] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bc_ps_damascus.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bc_ps_damascus.jpg\n"
+}
