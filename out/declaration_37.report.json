@@ -1,0 +1,169 @@
+{
+ "id": "declaration_37",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*37* signatures.|*1* promise.",
+ "duration": 48.9,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/declaration_37.mp4",
+  "cover": "covers/declaration_37_cover.jpg",
+  "preview": "previews/declaration_37_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/declaration_37_0.jpg",
+  "1": "out/frames/declaration_37_1.jpg",
+  "3": "out/frames/declaration_37_3.jpg",
+  "last": "out/frames/declaration_37_last.jpg"
+ },
+ "caption_en": "Most people who argue about this document have never read it. 📜\n\n14 May 1948, Tel Aviv: David Ben Gurion reads Israel's Declaration of Independence. 37 people sign it, from religious leaders to a communist (Jewish Virtual Library).\nIt declares \"a Jewish state in Eretz-Israel\". Then it promises \"complete equality of social and political rights to all its inhabitants irrespective of religion, race or sex\".\nIt calls on the Arab inhabitants to help build the state \"on the basis of full and equal citizenship\", and offers peace to every neighbouring state.\nThe next day, five Arab armies invaded (Britannica).\n\nIsrael hasn't always lived up to it: from 1948 until December 1966, Arab citizens lived under a military government (Akevot Institute). Today Arab citizens sit in the Knesset and on the Supreme Court.\n\nHas Israel kept the promise? Tell me below.\n\nSources: Declaration of the Establishment of the State of Israel (Avalon Project, Yale); Jewish Virtual Library (signatories); Britannica; Akevot Institute.\nPhotos (Wikimedia Commons): GPO (CC BY-SA 3.0); Rudi Weissenstein (public domain); Shayzu (CC BY-SA 3.0); The Palestine Post (public domain); Fallaner (CC BY-SA 4.0). AI voice.",
+ "caption_he": "37 חתימות. הבטחה אחת.\n14 במאי 1948: בן גוריון מקריא את מגילת העצמאות. 37 חותמים, מרבנים ועד קומוניסט.\nהמגילה מכריזה על מדינה יהודית בארץ ישראל, ומבטיחה שוויון זכויות חברתי ומדיני גמור לכל אזרחיה בלי הבדל דת, גזע ומין.\nהיא קוראת לתושבים הערבים להשתתף בבניין המדינה על בסיס אזרחות מלאה ושווה, ומושיטה יד לשלום לכל השכנים. למחרת פלשו חמישה צבאות ערביים.\nישראל לא תמיד עמדה בזה: עד 1966 אזרחים ערבים חיו תחת ממשל צבאי. היום אזרחים ערבים יושבים בכנסת ובבית המשפט העליון.\nישראל קיימה את ההבטחה? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#History",
+  "#Equality"
+ ],
+ "sources": [
+  {
+   "label": "Declaration of Independence, Avalon Project, Yale",
+   "year": 1948,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Jewish Virtual Library, signatories",
+   "year": 2024,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Britannica, Arab Israeli wars",
+   "year": 2024,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Akevot Institute",
+   "year": 2024,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.993,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Thirty seven signatures. And one promise most people never read.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "May 14, 1948. Tel Aviv. David Ben Gurion reads Israel's Declaration of Independence.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It declares a Jewish state, in the Land of Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then this: complete equality of social and political rights, irrespective of religion, race or sex.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "It calls on the Arab inhabitants to help build the state, as full and equal citizens.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And it offers peace to every neighbouring state.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "The signers ran from religious leaders to a communist.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The next day, five Arab armies invaded.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel hasn't always lived up to it. Until 1966, Arab citizens lived under a military government.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, Arab citizens sit in the Knesset and on the Supreme Court.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Has Israel kept the promise? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One document. Signed by",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "37 signatures, and one promise most people never read. May 14, 1948, Tel Aviv. David Ben-Gurion reads Israel's Declaration of Independence. It declares a Jewish state in the land of Israel. Then this, complete equality of social and political rights, irrespective of religion, race, or sex. It calls on the Arab inhabitants to help build the state as full and equal citizens. And it offers peace to every neighboring state. The signers ran from religious leaders to a communist. The next day, five Arab armies invaded. Israel hasn't always lived up to it. Until 1966, Arab citizens lived under a military government. Today, Arab citizens sit in the Knesset and on the Supreme Court. Has Israel kept the promise? Tell me below. If you love Israeli facts, follow Noam Roz for more. One document, signed by.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/n8/n8_dec_sign.jpg",
+   "credit": "Ben Gurion signs, 1948: GPO, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_dec_bg.jpg",
+   "credit": "Tel Aviv, 14 May 1948: Rudi Weissenstein, public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_dec_hall.jpg",
+   "credit": "Independence Hall, Tel Aviv: Shayzu, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_dec_bg.jpg",
+   "credit": "Tel Aviv, 14 May 1948: Rudi Weissenstein, public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_dec_sign.jpg",
+   "credit": "Ben Gurion signs, 1948: GPO, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/n8/prb_post1948.jpg",
+   "credit": "The Palestine Post, 16 May 1948: public domain"
+  },
+  {
+   "file": "templates/photos/n8/n8_dec_hall.jpg",
+   "credit": "Independence Hall, Tel Aviv: Shayzu, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/n8/npz_court.jpg",
+   "credit": "Supreme Court of Israel: Fallaner, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_dec_sign.jpg",
+   "credit": "Ben Gurion signs, 1948: GPO, CC BY-SA 3.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 107.9
+}
