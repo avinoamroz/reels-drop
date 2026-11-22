@@ -1,0 +1,617 @@
+[
+{
+"word": "Three",
+"start": 0.077,
+"end": 0.31
+},
+{
+"word": "hundred",
+"start": 0.31,
+"end": 0.557
+},
+{
+"word": "fifty",
+"start": 0.557,
+"end": 0.728
+},
+{
+"word": "six",
+"start": 0.728,
+"end": 0.944
+},
+{
+"word": "dollars.",
+"start": 0.944,
+"end": 1.486
+},
+{
+"word": "That",
+"start": 1.873,
+"end": 2.152
+},
+{
+"word": "is",
+"start": 2.152,
+"end": 2.198
+},
+{
+"word": "how",
+"start": 2.198,
+"end": 2.322
+},
+{
+"word": "far",
+"start": 2.322,
+"end": 2.601
+},
+{
+"word": "Israel",
+"start": 2.601,
+"end": 2.988
+},
+{
+"word": "is",
+"start": 2.988,
+"end": 3.158
+},
+{
+"word": "from",
+"start": 3.158,
+"end": 3.313
+},
+{
+"word": "Germany.",
+"start": 3.313,
+"end": 3.793
+},
+{
+"word": "GDP",
+"start": 4.52,
+"end": 5.077
+},
+{
+"word": "per",
+"start": 5.108,
+"end": 5.294
+},
+{
+"word": "person,",
+"start": 5.294,
+"end": 5.836
+},
+{
+"word": "in",
+"start": 5.898,
+"end": 6.068
+},
+{
+"word": "dollars,",
+"start": 6.068,
+"end": 6.734
+},
+{
+"word": "since",
+"start": 6.827,
+"end": 7.09
+},
+{
+"word": "1980.",
+"start": 7.09,
+"end": 7.725
+},
+{
+"word": "In",
+"start": 8.359,
+"end": 8.499
+},
+{
+"word": "1980,",
+"start": 8.499,
+"end": 9.257
+},
+{
+"word": "the",
+"start": 9.582,
+"end": 9.737
+},
+{
+"word": "UAE",
+"start": 9.737,
+"end": 10.31
+},
+{
+"word": "is",
+"start": 10.31,
+"end": 10.542
+},
+{
+"word": "far",
+"start": 10.542,
+"end": 10.79
+},
+{
+"word": "ahead.",
+"start": 10.79,
+"end": 11.146
+},
+{
+"word": "Israel",
+"start": 11.796,
+"end": 12.229
+},
+{
+"word": "makes",
+"start": 12.229,
+"end": 12.492
+},
+{
+"word": "about",
+"start": 12.492,
+"end": 12.74
+},
+{
+"word": "sixty",
+"start": 12.74,
+"end": 13.096
+},
+{
+"word": "percent",
+"start": 13.096,
+"end": 13.421
+},
+{
+"word": "of",
+"start": 13.421,
+"end": 13.514
+},
+{
+"word": "a",
+"start": 13.514,
+"end": 13.576
+},
+{
+"word": "Brit.",
+"start": 13.576,
+"end": 13.87
+},
+{
+"word": "Oil",
+"start": 14.443,
+"end": 14.69
+},
+{
+"word": "prices",
+"start": 14.69,
+"end": 15.016
+},
+{
+"word": "fall,",
+"start": 15.016,
+"end": 15.526
+},
+{
+"word": "and",
+"start": 15.681,
+"end": 15.882
+},
+{
+"word": "Saudi",
+"start": 15.882,
+"end": 16.269
+},
+{
+"word": "income",
+"start": 16.269,
+"end": 16.579
+},
+{
+"word": "halves",
+"start": 16.579,
+"end": 17.09
+},
+{
+"word": "in",
+"start": 17.09,
+"end": 17.229
+},
+{
+"word": "ten",
+"start": 17.229,
+"end": 17.508
+},
+{
+"word": "years.",
+"start": 17.508,
+"end": 17.988
+},
+{
+"word": "2016.",
+"start": 18.437,
+"end": 19.087
+},
+{
+"word": "Israel",
+"start": 19.752,
+"end": 20.139
+},
+{
+"word": "passes",
+"start": 20.139,
+"end": 20.526
+},
+{
+"word": "France.",
+"start": 20.526,
+"end": 21.006
+},
+{
+"word": "2019.",
+"start": 21.378,
+"end": 21.997
+},
+{
+"word": "Britain.",
+"start": 22.477,
+"end": 22.817
+},
+{
+"word": "2022.",
+"start": 23.297,
+"end": 24.04
+},
+{
+"word": "Even",
+"start": 24.489,
+"end": 24.768
+},
+{
+"word": "Germany,",
+"start": 24.768,
+"end": 25.124
+},
+{
+"word": "for",
+"start": 25.248,
+"end": 25.387
+},
+{
+"word": "one",
+"start": 25.387,
+"end": 25.542
+},
+{
+"word": "year.",
+"start": 25.542,
+"end": 25.805
+},
+{
+"word": "In",
+"start": 26.27,
+"end": 26.409
+},
+{
+"word": "2023,",
+"start": 26.409,
+"end": 27.26
+},
+{
+"word": "the",
+"start": 27.492,
+"end": 27.585
+},
+{
+"word": "war",
+"start": 27.585,
+"end": 27.802
+},
+{
+"word": "year,",
+"start": 27.802,
+"end": 28.127
+},
+{
+"word": "it",
+"start": 28.266,
+"end": 28.39
+},
+{
+"word": "falls",
+"start": 28.39,
+"end": 28.638
+},
+{
+"word": "back",
+"start": 28.638,
+"end": 28.839
+},
+{
+"word": "behind",
+"start": 28.839,
+"end": 29.087
+},
+{
+"word": "Germany.",
+"start": 29.087,
+"end": 29.474
+},
+{
+"word": "Turkey",
+"start": 30.201,
+"end": 30.526
+},
+{
+"word": "keeps",
+"start": 30.526,
+"end": 30.759
+},
+{
+"word": "climbing,",
+"start": 30.759,
+"end": 31.239
+},
+{
+"word": "past",
+"start": 31.424,
+"end": 31.718
+},
+{
+"word": "eighteen",
+"start": 31.78,
+"end": 32.198
+},
+{
+"word": "thousand.",
+"start": 32.198,
+"end": 32.647
+},
+{
+"word": "Egypt",
+"start": 33.143,
+"end": 33.499
+},
+{
+"word": "and",
+"start": 33.499,
+"end": 33.592
+},
+{
+"word": "Jordan",
+"start": 33.592,
+"end": 33.917
+},
+{
+"word": "stay",
+"start": 33.917,
+"end": 34.18
+},
+{
+"word": "under",
+"start": 34.18,
+"end": 34.366
+},
+{
+"word": "six.",
+"start": 34.366,
+"end": 34.845
+},
+{
+"word": "And",
+"start": 35.294,
+"end": 35.48
+},
+{
+"word": "in",
+"start": 35.48,
+"end": 35.573
+},
+{
+"word": "2025,",
+"start": 35.573,
+"end": 36.579
+},
+{
+"word": "Israel",
+"start": 36.672,
+"end": 37.028
+},
+{
+"word": "reaches",
+"start": 37.028,
+"end": 37.338
+},
+{
+"word": "sixty",
+"start": 37.338,
+"end": 37.694
+},
+{
+"word": "thousand",
+"start": 37.694,
+"end": 38.05
+},
+{
+"word": "nine",
+"start": 38.05,
+"end": 38.266
+},
+{
+"word": "hundred.",
+"start": 38.266,
+"end": 38.653
+},
+{
+"word": "Fair",
+"start": 39.164,
+"end": 39.458
+},
+{
+"word": "point:",
+"start": 39.458,
+"end": 39.861
+},
+{
+"word": "these",
+"start": 39.969,
+"end": 40.186
+},
+{
+"word": "are",
+"start": 40.186,
+"end": 40.248
+},
+{
+"word": "dollars,",
+"start": 40.248,
+"end": 40.852
+},
+{
+"word": "so",
+"start": 40.991,
+"end": 41.177
+},
+{
+"word": "a",
+"start": 41.177,
+"end": 41.239
+},
+{
+"word": "strong",
+"start": 41.239,
+"end": 41.595
+},
+{
+"word": "shekel",
+"start": 41.595,
+"end": 41.951
+},
+{
+"word": "lifts",
+"start": 41.951,
+"end": 42.198
+},
+{
+"word": "them.",
+"start": 42.198,
+"end": 42.462
+},
+{
+"word": "Will",
+"start": 43.096,
+"end": 43.282
+},
+{
+"word": "Israel",
+"start": 43.282,
+"end": 43.576
+},
+{
+"word": "pass",
+"start": 43.576,
+"end": 43.762
+},
+{
+"word": "Germany",
+"start": 43.762,
+"end": 44.118
+},
+{
+"word": "again",
+"start": 44.118,
+"end": 44.319
+},
+{
+"word": "next",
+"start": 44.319,
+"end": 44.567
+},
+{
+"word": "year?",
+"start": 44.567,
+"end": 44.861
+},
+{
+"word": "Tell",
+"start": 45.434,
+"end": 45.65
+},
+{
+"word": "me",
+"start": 45.65,
+"end": 45.728
+},
+{
+"word": "in",
+"start": 45.728,
+"end": 45.79
+},
+{
+"word": "the",
+"start": 45.79,
+"end": 45.852
+},
+{
+"word": "comments.",
+"start": 45.852,
+"end": 46.363
+},
+{
+"word": "So",
+"start": 46.486,
+"end": 46.672
+},
+{
+"word": "how",
+"start": 46.672,
+"end": 46.78
+},
+{
+"word": "big",
+"start": 46.78,
+"end": 47.09
+},
+{
+"word": "is",
+"start": 47.09,
+"end": 47.183
+},
+{
+"word": "the",
+"start": 47.183,
+"end": 47.26
+},
+{
+"word": "gap",
+"start": 47.26,
+"end": 47.477
+},
+{
+"word": "now?",
+"start": 47.477,
+"end": 47.802
+},
+{
+"word": "Three",
+"start": 48.731,
+"end": 48.994
+},
+{
+"word": "hundred",
+"start": 48.994,
+"end": 49.288
+},
+{
+"word": "fifty",
+"start": 49.288,
+"end": 49.598
+},
+{
+"word": "six",
+"start": 49.598,
+"end": 49.861
+},
+{
+"word": "dollars.",
+"start": 49.861,
+"end": 50.434
+}
+]
