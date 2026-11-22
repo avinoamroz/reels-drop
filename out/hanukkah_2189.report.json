@@ -1,0 +1,171 @@
+{
+ "id": "hanukkah_2189",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Lit in Jerusalem|*2,189* years ago",
+ "duration": 49.67,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/hanukkah_2189.mp4",
+  "cover": "covers/hanukkah_2189_cover.jpg",
+  "preview": "previews/hanukkah_2189_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/hanukkah_2189_0.jpg",
+  "1": "out/frames/hanukkah_2189_1.jpg",
+  "3": "out/frames/hanukkah_2189_3.jpg",
+  "last": "out/frames/hanukkah_2189_last.jpg"
+ },
+ "caption_en": "This holiday only makes sense in one city. 🕎\n\n167 BCE: the Seleucid king Antiochus IV bans Jewish practice and defiles the Temple in Jerusalem.\nIn Modi'in, the priest Mattathias and his sons rise up (1 Maccabees 2). His son Judah, the Maccabee, leads the revolt.\n164 BCE: they retake Jerusalem and rededicate the Temple on the 25th of Kislev (Britannica). That's Hanukkah: 2,189 years ago.\nToday Modi'in is an Israeli city again: 100,052 people (Israel CBS, 2024). And Jews still light the candles by the Western Wall.\nThis year Hanukkah starts at sundown on Friday 4 Dec 2026 (Hebcal).\n\nThe same hill is holy to Muslims too, who call it the Noble Sanctuary.\n\nWhat's your favourite Hanukkah tradition? Tell me below.\n\nSources: Britannica, Hanukkah; 1 Maccabees 2; Israel CBS (2024); Hebcal (2026).\nPhotos (Wikimedia Commons): Oren Rozen (CC BY-SA 3.0, CC BY-SA 4.0); Bukvoed (CC BY 3.0); Atzmonit (CC BY-SA 4.0); Davidi Vardi, PikiWiki (CC BY 2.5). AI voice.",
+ "caption_he": "הודלק בירושלים לפני 2,189 שנה.\n167 לפנה\"ס: המלך הסלבקי אנטיוכוס הרביעי אוסר על קיום מצוות ומטמא את בית המקדש.\nבמודיעין מתתיהו ובניו מורדים, ויהודה המכבי מוביל את המרד.\n164 לפנה\"ס: הם משחררים את ירושלים ומטהרים את המקדש בכ\"ה בכסלו. זו חנוכה.\nהיום מודיעין היא שוב עיר בישראל, עם 100,052 תושבים, ויהודים עדיין מדליקים נרות ליד הכותל.\nהשנה חנוכה מתחילה ב 4 בדצמבר. אותה גבעה קדושה גם למוסלמים.\nמה המנהג האהוב עליכם בחנוכה? כתבו לי.",
+ "hashtags": [
+  "#Hanukkah",
+  "#Jerusalem",
+  "#JewishHistory"
+ ],
+ "sources": [
+  {
+   "label": "Britannica, Hanukkah",
+   "year": 2024,
+   "at": "L1",
+   "until": "L6"
+  },
+  {
+   "label": "1 Maccabees 2 (Modi'in)",
+   "year": "",
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2024,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Hebcal",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.922,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Lit in Jerusalem, two thousand one hundred eighty nine years ago. Here's the story.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "167 BCE. The Seleucid king, Antiochus the Fourth, bans Jewish practice and defiles the Temple in Jerusalem.",
+    "score": 0.905,
+    "flag": "ok"
+   },
+   {
+    "line": "In a village called Modi'in, a priest named Mattathias and his sons say no.",
+    "score": 0.643,
+    "flag": "MISS"
+   },
+   {
+    "line": "His son Judah, the Maccabee, leads the revolt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "164 BCE. They retake Jerusalem and rededicate the Temple, on the twenty fifth of Kislev.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "That's Hanukkah. Eight nights of light.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, Modi'in is an Israeli city again. A hundred thousand people.",
+    "score": 0.818,
+    "flag": "ok"
+   },
+   {
+    "line": "And Jews still light the candles by the Western Wall of that Temple.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This year, Hanukkah starts on December 4.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The same hill is holy to Muslims too, who call it the Noble Sanctuary.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "What's your favourite Hanukkah tradition? Tell me below.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Because the first Hanukkah lights were",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Lit in Jerusalem, 2,189 years ago. Here's the story. 167 BCE. The Seleucid king, Antiochus IV, bans Jewish practice and defiles the temple in Jerusalem. In a village called Modian, a priest named Matatais and his son Seno, his son Judah, the Maccabee, leads the revolt. 164 BCE. They retake Jerusalem and rededicate the temple on the 25th of Kislev. That's Hanukkah. Eight Nights of Light. Today, Modian is an Israeli city again. 100,000 people. And Jews still light the candles by the western wall of that temple. This year Hanukkah starts on December 4. The same hill is holy to Muslims too, who call it the Noble Sanctuary. What's your favorite Hanukkah tradition? Tell me below. If you love Israeli facts, follow Noam Raz for more. Because the first Hanukkah lights were...",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/n8/n8_han_wall.jpg",
+   "credit": "Hanukkah at the Western Wall: Oren Rozen, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_model.jpg",
+   "credit": "Model of Second Temple Jerusalem, Israel Museum: Oren Rozen, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_tombs.jpg",
+   "credit": "'Tombs of the Maccabees', near Modi'in: Bukvoed, CC BY 3.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_model.jpg",
+   "credit": "Model of Second Temple Jerusalem, Israel Museum: Oren Rozen, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_coin.jpg",
+   "credit": "Hasmonean coin, about 100 BCE: Atzmonit, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_modiin.jpg",
+   "credit": "Modi'in: Davidi Vardi, PikiWiki, CC BY 2.5"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_wall.jpg",
+   "credit": "Hanukkah at the Western Wall: Oren Rozen, CC BY-SA 3.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_model.jpg",
+   "credit": "Model of Second Temple Jerusalem, Israel Museum: Oren Rozen, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/n8/n8_han_wall.jpg",
+   "credit": "Hanukkah at the Western Wall: Oren Rozen, CC BY-SA 3.0"
+  }
+ ],
+ "lint_warnings": [
+  "source without year: 1 Maccabees 2 (Modi'in)"
+ ],
+ "render_s": 112.7
+}
