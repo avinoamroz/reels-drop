@@ -2,32 +2,130 @@
  "id": "radicals_chemistry_r2",
  "takes": [
   {
-   "take": "ref/follow_line_tts.wav",
-   "heard": "Noam Ra's",
-   "exact": false,
-   "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noam Ra's for more. Give him what he's missing and the reaction stops. Why?",
-   "lufs": -16.1
-  },
-  {
-   "take": "ref/follow_tts/take1.wav",
-   "heard": "Noam Raz",
-   "exact": false,
-   "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noam Raz for more. Give him what he's missing and the reaction stops. Why?",
-   "lufs": -16.1
-  },
-  {
-   "take": "ref/follow_tts/take3.wav",
+   "take": "ref/follow_line_tts_t3.wav",
    "heard": "Noam Ra's",
    "exact": false,
    "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus Exit Program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noam Ra's for more. Give him what he's missing and the reaction stops. Why?",
-   "lufs": -16.1
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "Noam Ra's",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
   },
   {
-   "take": "ref/follow_tts/take7.wav",
+   "take": "ref/follow_tts/r3_take5.wav",
    "heard": "Noam Ra's",
    "exact": false,
    "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noam Ra's for more. Give him what he's missing and the reaction stops. Why?",
-   "lufs": -16.1
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "Noam Ra's",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
+  },
+  {
+   "take": "ref/follow_tts/r3_take7.wav",
+   "heard": "No on Roz",
+   "exact": false,
+   "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow. No on Roz, for more. Give him what he's missing, and the reaction stops. Why?",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": null,
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raaz",
+     "exact": false
+    }
+   ]
+  },
+  {
+   "take": "ref/follow_tts/r3_take3.wav",
+   "heard": "Noam Ross",
+   "exact": false,
+   "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noam Ross for more. Give him what he's missing and the reaction stops. Why?",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "Noam Ross",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raaz",
+     "exact": false
+    }
+   ]
+  },
+  {
+   "take": "ref/follow_tts/r3_take2.wav",
+   "heard": "No umbrellas",
+   "exact": false,
+   "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% view it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus Exit Program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow No umbrellas. For more, give him what he's missing and the reaction stops. Why?",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "No amrads",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
+  },
+  {
+   "take": "ref/follow_tts/r3_take9.wav",
+   "heard": "Noam Ra's",
+   "exact": false,
+   "transcript": "Every radical is one electron short. Pew asked 11 countries with large Muslim populations about ISIS, the Islamic State. And none did more than 15% of you it favorably. Radicals are a small minority. So, chemistry. A free radical has one unpaired electron. It's unstable, damaging whatever it touches. So when someone screams, kill the Jews, clearly he's missing an electron. Step 1. Cool the reaction. Step 2. Antioxidants. They donate the missing electron. Saudi Arabia, a rehab center for terror convicts since 2004. Denmark, the Aarhus exit program since 2007, UAE, Hidaya, a center against extremism since 2012. 2016, hundreds of Muslim scholars signed the Marrakesh Declaration for minorities and schools. Saudi textbooks cut most anti-Semitism by 2023. Every group has its radicals. Same chemistry for all. Which antioxidant works best? If you love Israeli facts, follow Noam Ra's for more. Give him what he's missing and the reaction stops. Why?",
+   "lufs": -16.1,
+   "passes": [
+    {
+     "model": "small.en",
+     "beam": 1,
+     "heard": "Noam Ra's",
+     "exact": false
+    },
+    {
+     "model": "medium.en",
+     "beam": 5,
+     "heard": "Noam Raz",
+     "exact": false
+    }
+   ]
   }
  ]
 }
