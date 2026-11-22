@@ -1,0 +1,6 @@
+{
+  "id": "econ_mothers_race",
+  "status": "FAILED",
+  "run": "45055227674",
+  "log": "[18:28:55] pron [en]: Two mothers die for every hundred thousand births. That is the lowest on this chart. Which country is it? Maternal deaths per hundred thousand <<ˈ|l|ɪ|v>> births, since nineteen ninety. Lowest first. In nineteen ninety, Egypt and Iran lose a hundred and seven. Britain leads with six. America, twelve. Israel, twenty nine. Then the region falls fast. Egypt ends at seventeen. Turkey, from forty two t\n[18:28:55] pron notes: live -> live_verb\nvoice ok: Cartesia sonic-3 (55.7 s, 118 words, 1 run(s), pronunciation pass) voice/econ_mothers_race_vo.wav\n[18:28:56] voice: cached voice (script unchanged)\n[ WARN:0@2.811] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bI_ad_taumed.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bI_ad_taumed.jpg\n"
+}
