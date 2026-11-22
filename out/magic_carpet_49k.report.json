@@ -1,0 +1,137 @@
+{
+ "id": "magic_carpet_49k",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*49,000* Jews.|*1* airlift.",
+ "duration": 48.03,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -0.5
+ },
+ "outputs": {
+  "mp4": "out/magic_carpet_49k.mp4",
+  "cover": "covers/magic_carpet_49k_cover.jpg",
+  "preview": "previews/magic_carpet_49k_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/magic_carpet_49k_0.jpg",
+  "1": "out/frames/magic_carpet_49k_1.jpg",
+  "3": "out/frames/magic_carpet_49k_3.jpg",
+  "last": "out/frames/magic_carpet_49k_last.jpg"
+ },
+ "caption_en": "Most people have never heard of this airlift. ✈️\n\n1949: the Imam of Yemen lets most of the country's Jews leave. Whole families walk to Aden, the British port, many arriving sick and exhausted (Jewish Virtual Library).\nAlaska Airlines crews fly them out on DC-4s: the seats are ripped out, and a plane built for 48 carries over 100 people (Alaska Airlines archives, 2017).\nThe name comes from the Bible (Exodus 19:4): On Wings of Eagles. By September 1950, nearly 49,000 Yemenite Jews had reached Israel on hundreds of flights.\n\nThe landing was hard too. In 2021 Israel's government expressed regret over the children who vanished from immigrant families, mostly from Yemen, in the state's early years, and approved compensation (Ynet, 22 Feb 2021).\n\nDid you know this story? Tell me below.\n\nSources: Jewish Virtual Library; Alaska Airlines (2017); Ynet (2021).\nPhotos (Wikimedia Commons): Zoltan Kluger, GPO (public domain); Benno Rothenberg, National Library of Israel (CC BY 4.0); Fritz Cohen (public domain). Map: Natural Earth. AI voice.",
+ "caption_he": "49,000 יהודים. רכבת אווירית אחת.\n1949: האימאם של תימן מתיר לרוב היהודים לצאת. משפחות שלמות הולכות ברגל לעדן, רבים מגיעים חולים ומותשים.\nצוותים של אלסקה איירליינס מוציאים את המושבים מהמטוסים: מטוס ל 48 נוסעים לוקח יותר מ 100 איש. השם מהתנ\"ך: על כנפי נשרים.\nעד ספטמבר 1950 הגיעו לישראל כמעט 49,000 יהודי תימן.\nגם הקליטה הייתה קשה: ב 2021 הממשלה הביעה צער על פרשת ילדי תימן ואישרה פיצויים למשפחות.\nהכרתם את הסיפור? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#Yemen",
+  "#JewishHistory"
+ ],
+ "sources": [
+  {
+   "label": "Jewish Virtual Library, Operation Magic Carpet",
+   "year": 2024,
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "Alaska Airlines archives",
+   "year": 2017,
+   "at": "L4",
+   "until": "L7"
+  },
+  {
+   "label": "Jewish Virtual Library",
+   "year": 2024,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Ynet, 22 Feb",
+   "year": 2021,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "transcript": {
+  "score": 0.986,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Forty nine thousand Jews. One airlift.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1949. Yemen. A Jewish community that had lived here for many centuries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "When Yemen's ruler lets most of them leave, whole families walk to Aden, the British port.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Many arrive sick and exhausted.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then the planes come. American crews, from Alaska Airlines.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They rip out the seats. A plane built for forty eight now carries over a hundred people.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "The operation's name comes from the Bible: On Wings of Eagles.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Flight after flight, up the Red Sea, to Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By September 1950: about forty nine thousand people.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "The landing was hard too. In 2021, Israel's government said it regrets the children who vanished from immigrant families in those years, and approved compensati",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Did you know this story? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's the story behind one number.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "49,000 Jews. One airlift. 1949. Yemen. A Jewish community that had lived here for many centuries. When Yemen's ruler lets most of them leave, whole families walk to Aden, the British port. Many arrive sick and exhausted. Then the planes come. American crews from Alaska Airlines. They rip out the seats. A plane built for 48 now carries over 100 people. The operation's name comes from the Bible, on wings of eagles. Flight after flight, up the Red Sea, to Israel. September 1950, about 49,000 people. The landing was hard too. In 2021, Israel's government said it regrets the children who vanished from immigrant families in those years and approved compensation. Did you know this story? Tell me below. If you love Israeli facts, follow Noam Raz for more. That's the story behind One Number.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 46.53,
+ "opener": {
+  "style": "map_fold",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.2
+ },
+ "lint_warnings": [],
+ "render_s": 143.5
+}
