@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "Who lived here?|*5* stones answer.",
- "duration": 52.27,
+ "duration": 53.67,
  "audio": {
   "lufs": -16.2,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/s3000_talk15_r2.mp4",
@@ -59,7 +59,7 @@
   }
  ],
  "transcript": {
-  "score": 0.928,
+  "score": 0.942,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -89,7 +89,7 @@
    },
    {
     "line": "Stone four is silver. Around six hundred BCE: two tiny scrolls with the priestly blessing.",
-    "score": 0.867,
+    "score": 0.933,
     "flag": "ok"
    },
    {
@@ -114,7 +114,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -123,14 +123,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Who lived here 3,000 years ago? Five stones answer. Stone 1, 1208 BCE. An Egyptian pharaoh carves his victories. Among the names, Israel. It's oldest known mention outside the Bible. Stone 2, 9th century BCE at Teldan. It names the House of David. Stone 3, around 700 BCE. A tunnel under Jerusalem. The workers sign it in Hebrew. Stone 4 is silver. 600 BCE. Two tiny scrolls with a priestly blessing. The oldest Bible text ever found. Stone 5 is a coin. 132 CE. It reads, For the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But five stones across 13 centuries keep writing one name. If you love Israeli facts, follow Noah Mraz for more. So, who lived here? Ask the Stones.",
+  "heard": "Who lived here 3,000 years ago? 5 stones answer. Stone 1, 1208 BCE. An Egyptian pharaoh carves his victories among the names Israel. It's oldest known mention outside the Bible. Stone 2, 9th century BCE at Teldan. It names the House of David. Stone 3, around 700 BCE, a tunnel under Jerusalem. The workers sign it in Hebrew. Stone 4 is silver. Around 600 BCE, two tiny scrolls with a priestly blessing. The oldest Bible text ever found. Stone 5 is a coin, 132 CE. It reads, For the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well, but five stones across thirteen centuries keep writing one name. If you love Israeli facts, follow Noam Raz for more. So who lived here? Ask the Stones.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.2,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "photos": [
   {
@@ -167,5 +167,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 151.1
+ "render_s": 94.3
 }
