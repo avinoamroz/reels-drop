@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Where did Europe's|*Jews* go?",
- "duration": 47.53,
+ "duration": 48.2,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -0.6
+  "true_peak": -0.5
  },
  "outputs": {
   "mp4": "out/europe_jews_map_rh1110_r2.mp4",
@@ -47,7 +47,7 @@
   }
  ],
  "transcript": {
-  "score": 0.918,
+  "score": 0.925,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -57,7 +57,7 @@
    },
    {
     "line": "1933. Nine and a half million Jews live in Europe.",
-    "score": 1.0,
+    "score": 0.812,
     "flag": "ok"
    },
    {
@@ -67,8 +67,8 @@
    },
    {
     "line": "Poland, three million. The Soviet Union, two and a half. Then Romania, Germany, Hungary.",
-    "score": 1.0,
-    "flag": "ok"
+    "score": 0.786,
+    "flag": "MISS"
    },
    {
     "line": "Tailors, students, rabbis, grandparents. Whole streets.",
@@ -87,7 +87,7 @@
    },
    {
     "line": "1950. Three and a half million.",
-    "score": 1.0,
+    "score": 0.818,
     "flag": "ok"
    },
    {
@@ -112,8 +112,8 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.0,
-    "flag": "MISS"
+    "score": 0.9,
+    "flag": "ok"
    },
    {
     "line": "And the grey dots? They never went anywhere. Six million Jews were murdered in the Holocaust.",
@@ -121,23 +121,23 @@
     "flag": "ok"
    }
   ],
-  "heard": "Where did Europe's Jews go? 1933. Nine and a half million Jews live in Europe. Every dot is 10,000 people. Poland? 3 million. The Soviet Union? Two and a half. Then Romania, Germany, Hungary. Tailors, students, rabbis, grandparents, whole streets. Then the Nazis take power. Then the war. Now watch the dots. 1950. Three and a half million. Poland from 3 million to 45,000. Greece, Czechoslovakia, Yugoslavia, over 9 in 10, gone. Some survived and left. About 136,000 rebuilt their lives in Israel, over 80,000 in the United States, and the great dots? They never went anywhere. 6 million Jews were murdered in the Holocaust.",
+  "heard": "Where did Europe's Jews go? 1933. 9.5 million Jews live in Europe. Every dot is 10,000 people. Poland? 3 million. The Soviet Union? 2.5. Then Romania, Germany, Hungary. Tailors, students, rabbis, grandparents, whole streets. Then the Nazis take power. Then the war. Now watch the dots. 1950. 3.5 million. Poland from 3 million to 45,000. Greece, Czechoslovakia, Yugoslavia. Over 9 in 10, gone. Some survived and left. About 136,000 rebuilt their lives in Israel. Over 80,000 in the United States. If you love Israeli facts, follow Noam Ra's for more. And the great dots? They never went anywhere. 6 million Jews were murdered in the Holocaust.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 46.35,
+ "body_s": 46.99,
  "opener": {
   "style": "globe_unpeel",
   "opener_s": 2.4,
   "narration_starts": 1.2
  },
  "mix": {
-  "lufs": -16.1,
+  "lufs": -16.2,
   "true_peak": -1.9
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 124.3
+ "render_s": 170.1
 }
