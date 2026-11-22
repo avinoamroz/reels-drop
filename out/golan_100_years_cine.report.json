@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "cine_timeline",
  "hook": "Golan Heights:|*100* years, *60* seconds",
- "duration": 60.3,
+ "duration": 69.73,
  "audio": {
-  "lufs": -16.1,
+  "lufs": -16.0,
   "true_peak": -1.8
  },
  "outputs": {
@@ -89,7 +89,7 @@
   }
  ],
  "transcript": {
-  "score": 0.976,
+  "score": 0.981,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -114,7 +114,7 @@
    },
    {
     "line": "1965. Syria starts diverting the Jordan's sources. Israel strikes the works.",
-    "score": 0.941,
+    "score": 0.882,
     "flag": "ok"
    },
    {
@@ -129,17 +129,17 @@
    },
    {
     "line": "1974. A Kissinger deal returns Quneitra to Syria. United Nations peacekeepers move in.",
-    "score": 0.947,
+    "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "1981. Israel applies its law there. The UN Security Council: null and void.",
-    "score": 0.895,
+    "line": "1981. Israel applies its law there. The UN Security Council calls it null and void.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "2000. Talks with Syria collapse over the Sea of Galilee shore.",
-    "score": 1.0,
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -163,7 +163,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "The Golan Heights, 100 years in 60 seconds. 1923. Britain and France draw a line. The Golan goes to Syria. 1949. The Armistice leaves Syria on the heights above the Sea of Galilee. Both sides clash and Syrian guns shell the farms below. 1965. Syria starts diverting the Jordan sources. Israel strikes the works. June 1967. In two days, Israel takes the Golan. 1973. On Yom Kippur, Syria attacks. Israel holds, then pushes back. 1974. A Kissinger deal returns Konitra to Syria. United Nations peacekeepers move in. 1981. Israel applies its law there. The U.N. Security Council. Nolan Voigt. 2000. Talks with Syria collapse over the Sea of Galilee shore. 2019. America recognizes Israeli sovereignty. Most of the world does not. December 2024. Assad falls, and Israeli troops enter the buffer zone. Syria says, occupied land. Israel says, security frontier. Who's right? If you love Israeli facts, Follow Noam Raz for more. It all began with one line, drawn in 1923.",
+  "heard": "The Golan Heights. 100 years in 60 seconds. 1923. Britain and France draw a line. The Golan goes to Syria. 1949. The armistice leaves Syria on the heights above the Sea of Galilee. Both sides clash and Syrian guns shell the farms below. 1965. Syria starts diverting the Jordan sources. Israel strikes the worse. June 1967. In two days, Israel takes the Golan. 1973. On Yom Kippur, Syria attacks. Israel holds, then pushes back. 1974. A Kissinger deal returns Quneitra to Syria. United Nations peacekeepers move in. 1981. Israel applies its law there. The UN Security Council calls it null and void. 2000. Talks with Syria collapse over the Sea of Galilee short. 2019. America recognizes Israeli sovereignty. Most of the world does not. December 2024. Assad falls and Israeli troops enter the buffer zone. Syria says occupied land. Israel says security frontier. Who's right? If you love Israeli facts, follow. Noam Roz for more. It all began with one line drawn in 1923.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -203,5 +203,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 115.7
+ "render_s": 178.6
 }
