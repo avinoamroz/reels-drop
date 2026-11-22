@@ -1,0 +1,33 @@
+{
+ "id": "s3000_talk15_r2",
+ "takes": [
+  {
+   "take": "ref/follow_line_tts.wav",
+   "heard": "Noah and Roz",
+   "exact": false,
+   "transcript": "Who lived here 3,000 years ago? 5 stones answer. Stone 1, 1208 BCE. An Egyptian pharaoh carves his victories among the names Israel. It's oldest known mention outside the Bible. Stone 2, 9th century BCE at Teldan. It names the House of David. Stone 3, around 700 BCE. A tunnel under Jerusalem. The workers sign it in Hebrew. Stone 4 is silver. Around 600 BCE, two tiny scrolls with a priestly blessing, the oldest Bible text ever found. Stone 5 is a coin, 132 CE. It reads, For the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well, but five stones across thirteen centuries keep writing one name. If you love Israeli facts, follow Noah and Roz for more. So who lived here? Ask the stones.",
+   "lufs": -16.2
+  },
+  {
+   "take": "ref/follow_tts/take1.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "Who lived here 3,000 years ago? 5 stones answer. Stone 1, 1208 BCE. An Egyptian pharaoh carves his victories among the names Israel. It's oldest known mention outside the Bible. Stone 2, 9th century BCE at Teldan. It names the House of David. Stone 3, around 700 BCE. A tunnel under Jerusalem. The workers sign it in Hebrew. Stone 4 is silver. Around 600 BCE, two tiny scrolls with a priestly blessing, the oldest Bible text ever found. Stone 5 is a coin, 132 CE. It reads, For the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But five stones across thirteen centuries keep writing one name. If you love Israeli facts, follow Noam Raz for more. So who lived here? Ask the stones.",
+   "lufs": -16.2
+  },
+  {
+   "take": "ref/follow_tts/take3.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "Who lived here 3,000 years ago? 5 stones answer. Stone 1, 1208 BCE. An Egyptian pharaoh carves his victories among the names Israel. It's oldest known mention outside the Bible. Stone 2, 9th century BCE at Teldan. It names the House of David. Stone 3, around 700 BCE. A tunnel under Jerusalem. The workers sign it in Hebrew. Stone 4 is silver. Around 600 BCE, two tiny scrolls with a priestly blessing, the oldest Bible text ever found. Stone 5 is a coin, 132 CE. It reads, For the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But five stones across 13th centuries keep writing one name. If you love Israeli facts, follow Noam Raz for more. So who lived here? Ask the Stones.",
+   "lufs": -16.2
+  },
+  {
+   "take": "ref/follow_tts/take7.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "Who lived here 3,000 years ago? 5 stones answer. Stone 1, 1208 BCE. An Egyptian pharaoh carves his victories among the names Israel. It's oldest known mention outside the Bible. Stone 2, 9th century BCE at Teldan. It names the House of David. Stone 3, around 700 BCE. A tunnel under Jerusalem. The workers sign it in Hebrew. Stone 4 is silver. Around 600 BCE, two tiny scrolls with a priestly blessing. The oldest Bible text ever found. Stone 5 is a coin, 132 CE. It reads, For the freedom of Jerusalem. Other peoples lived here too, and their stones are here as well. But five stones across thirteen centuries keep writing one name. If you love Israeli facts, follow Noam Raz for more. So who lived here? Ask the stones.",
+   "lufs": -16.2
+  }
+ ]
+}
