@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Where did Europe's|*Jews* go?",
- "duration": 48.2,
+ "duration": 49.67,
  "audio": {
   "lufs": -16.1,
   "true_peak": -0.5
@@ -47,7 +47,7 @@
   }
  ],
  "transcript": {
-  "score": 0.925,
+  "score": 0.993,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -57,7 +57,7 @@
    },
    {
     "line": "1933. Nine and a half million Jews live in Europe.",
-    "score": 0.812,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -67,8 +67,8 @@
    },
    {
     "line": "Poland, three million. The Soviet Union, two and a half. Then Romania, Germany, Hungary.",
-    "score": 0.786,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Tailors, students, rabbis, grandparents. Whole streets.",
@@ -87,7 +87,7 @@
    },
    {
     "line": "1950. Three and a half million.",
-    "score": 0.818,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -112,7 +112,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -121,12 +121,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "Where did Europe's Jews go? 1933. 9.5 million Jews live in Europe. Every dot is 10,000 people. Poland? 3 million. The Soviet Union? 2.5. Then Romania, Germany, Hungary. Tailors, students, rabbis, grandparents, whole streets. Then the Nazis take power. Then the war. Now watch the dots. 1950. 3.5 million. Poland from 3 million to 45,000. Greece, Czechoslovakia, Yugoslavia. Over 9 in 10, gone. Some survived and left. About 136,000 rebuilt their lives in Israel. Over 80,000 in the United States. If you love Israeli facts, follow Noam Ra's for more. And the great dots? They never went anywhere. 6 million Jews were murdered in the Holocaust.",
+  "heard": "Where did Europe's Jews go? 1933. Nine and a half million Jews live in Europe. Every dot is 10,000 people. Poland? 3 million. The Soviet Union? Two and a half. Then Romania, Germany, Hungary. Tailors, students, rabbis, grandparents, whole streets. Then the Nazis take power. Then the war. Now watch the dots. 1950. Three and a half million. Poland from 3 million to 45,000. Greece, Czechoslovakia, Yugoslavia. Over nine in 10, gone. Some survived and left. About 136,000 rebuilt their lives in Israel. Over 80,000 in the United States. If you love Israeli facts, follow. Noam Roz for more. And the gray dots, they never went anywhere. Six million Jews were murdered in the Holocaust.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 46.99,
+ "body_s": 48.45,
  "opener": {
   "style": "globe_unpeel",
   "opener_s": 2.4,
@@ -139,5 +139,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 170.1
+ "render_s": 175.2
 }
