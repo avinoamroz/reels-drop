@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "framework",
  "hook": "*6* reasons nobody|copies *Israel*",
- "duration": 53.6,
+ "duration": 55.0,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/israel_porter_diamond.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.96,
+  "score": 0.977,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -117,8 +117,8 @@
    },
    {
     "line": "Then two outside forces. Government: in nineteen ninety three, Yozma put a hundred million dollars into venture capital.",
-    "score": 0.778,
-    "flag": "MISS"
+    "score": 0.833,
+    "flag": "ok"
    },
    {
     "line": "Today, six point eight percent of the economy goes to research. Highest in the OECD.",
@@ -137,7 +137,7 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.8,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -146,7 +146,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Six reasons nobody can copy Israel. In 1990, Michael Porter drew a diamond for why countries win. Corner 1 people. Half of adults have a degree, and Army tech units train them young. Corner 2 demand. 10 million people is a tiny market, so startups go global from day one. That's why high tech is 58% of exports. Corner 3, the cluster. Over 500 multinationals operate here. Corner 4, rivalry. About 775 new startups in 2025, all fighting for talent. Then two outside forces. Government, in 1993, Yosma put $100 million into venture capital. Today, 6.8% of the economy goes to research, highest in the OECD, and chance. When the Soviet Union fell, almost 900,000 people came, many of them engineers. The weak spot? High-tech is only about one in nine jobs. If you love Israeli facts, follow Noah Moroz for more. Six forces, feeding each other. That's why nobody can just copy Israel.",
+  "heard": "Six reasons nobody can copy Israel. In 1990, Michael Porter drew a diamond for why countries win. Corner 1 people. Half of adults have a degree, and Army tech units train them young. Corner 2 demand. Ten million people is a tiny market, so startups go global from day one. That's why high tech is 58% of exports. Corner 3, the cluster. Over 500 multinationals operate here. Corner 4, rivalry. About 775 new startups in 2025, all fighting for talent. Then two outside forces. Government, in 1993, Yozma put $100 million into venture capital. Today, 6.8% of the economy goes to research, highest in the OECD, and chance. When the Soviet Union fell, almost 900,000 people came, many of them engineers. The weak spot? High tech is only about one in nine jobs. If you love Israeli facts, follow. Noam Roz for more. Six forces, feeding each other. That's why nobody can just copy Israel.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -154,7 +154,7 @@
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.1
  },
  "layout": "diamond",
  "photos": [
@@ -176,5 +176,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 122.3
+ "render_s": 130.7
 }
