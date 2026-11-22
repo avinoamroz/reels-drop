@@ -36,7 +36,7 @@
   }
  ],
  "transcript": {
-  "score": 0.932,
+  "score": 0.925,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -76,7 +76,7 @@
    },
    {
     "line": "Iran's official rate is frozen, so it tells us nothing. No data.",
-    "score": 1.0,
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -100,7 +100,7 @@
     "flag": "MISS"
    }
   ],
-  "heard": "$100 in 2015. Change it into your local money and wait 10 years. Here is what it is worth in dollars. Every year. Jordan. Saudi Arabia and the UAE stay at $100. Their money is pegged to the dollar. Syria's pound keeps collapsing in the civil war. Turkey's lira slides every single year. Egypt devalues again and again. Lebanon's banks freeze in 2019. Then the pound falls off a cliff. Iran's official rate is frozen, so it tells us nothing. No data. The euro ends near 102, the British pound 86. Which currency surprised you? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. And Israel after two years of war, the Shekel. It peaks at 120 in 2021 and ends at $112.60.",
+  "heard": "$100 in 2015. Change it into your local money and wait 10 years. Here is what it is worth in dollars. Every year. Jordan. Saudi Arabia and the UAE stay at $100. Their money is pegged to the dollar. Syria's pound keeps collapsing in the civil war. Turkey's lira slides every single year. Egypt devalues again and again. Lebanon's banks freeze in 2019. Then the pound falls off a cliff. Iran's official rate is frozen, so it tells us nothing. data. The euro ends near 102, the British pound 86. Which currency surprised you? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. And Israel after two years of war, the Shekel. It peaks at 120 in 2021 and ends at $112.60.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -110,5 +110,5 @@
   "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 120.5
+ "render_s": 118.2
 }
