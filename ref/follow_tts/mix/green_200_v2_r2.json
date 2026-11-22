@@ -1,0 +1,33 @@
+{
+ "id": "green_200_v2_r2",
+ "takes": [
+  {
+   "take": "ref/follow_line_tts.wav",
+   "heard": "Noam Ra's",
+   "exact": false,
+   "transcript": "240 million trees. Who planted them? 1867. Mark Twain writes through this land. He calls it a desolate country. 1901. The Jewish National Fund is born to buy land and plant it. Year 1. 14 square kilometers of planted forest. 1942. 35. The early 70s. About 600. Today. Over 1000. Then they planted where it barely rains. 1964. The edge of the desert. About 250 millimeters of rain a year. Today it's Yathir, Israel's largest planted forest. Over 4 million trees. It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967. Ecologists also argue the desert should stay wild. So, plant the desert or leave it wild. Tell me below. If you love Israeli facts, follow Noam Ra's for more. Twain would need a new word, 240 million trees.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take1.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "240 million trees. Who planted them? 1867. Mark Twain writes through this land. He calls it a desolate country. 1901. The Jewish National Fund is born to buy land and plant it. Year 1. 14 square kilometers of planted forest. 1942. 35. The early 70s. About 600. Today. Over 1,000. Then they planted where it barely rains. 1964. The edge of the desert. About 250 millimeters of rain a year. Today it's Yathir, Israel's largest planted forest. Over 4 million trees. It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967. Ecologists also argue the desert should stay wild. So plant the desert or leave it wild. Tell me below. If you love Israeli facts, follow Noam Raz for more. Twain would need a new word. 240 million trees.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take3.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "240 million trees. Who planted them? 1867. Mark Twain writes through this land. He calls it a desolate country. 1901. The Jewish National Fund is born to buy land and plant it. Year 1. 14 square kilometers of planted forest. 1942. 35. The early 70s. About 600. Today. Over 1,000. Then they planted where it barely rains. 1964. The edge of the desert. About 250 millimeters of rain a year. Today it's Yathir, Israel's largest planted forest. Over 4 million trees. It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967. Ecologists also argue the desert should stay wild. So, plant the desert or leave it wild. Tell me below. If you love Israeli facts, follow Noam Roz for more. Twain would need a new word, 240 million trees.",
+   "lufs": -16.1
+  },
+  {
+   "take": "ref/follow_tts/take7.wav",
+   "heard": "No on Ra's",
+   "exact": false,
+   "transcript": "240 million trees. Who planted them? 1867. Mark Twain writes through this land. He calls it a desolate country. 1901. The Jewish National Fund is born to buy land and plant it. Year 1. 14 square kilometers of planted forest. 1942. 35. The early 70s. About 600. Today. Over 1,000. Then they planted where it barely rains. 1964. The edge of the desert. About 250 millimeters of rain a year. Today it's Yathir, Israel's largest planted forest. Over 4 million trees. It isn't spotless. Some forests were planted over Arab villages emptied in 1948 and 1967. Ecologists also argue the desert should stay wild. So, plant the desert or leave it wild. Tell me below. If you love Israeli facts, follow. No on Ra's. For more. Twain would need a new word. 240 million trees.",
+   "lufs": -16.1
+  }
+ ]
+}
