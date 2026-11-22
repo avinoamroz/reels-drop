@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "data_race",
  "hook": "*23%* of GDP|on defence?",
- "duration": 52.0,
+ "duration": 53.43,
  "audio": {
   "lufs": -16.2,
   "true_peak": -2.1
@@ -36,12 +36,12 @@
   }
  ],
  "transcript": {
-  "score": 0.937,
+  "score": 0.943,
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "Twenty three percent of everything Israel produced went to defence. That was 1970.",
-    "score": 0.944,
+    "line": "Twenty three percent of everything Israel produced went to defence. That was in 1970.",
+    "score": 0.947,
     "flag": "ok"
    },
    {
@@ -56,7 +56,7 @@
    },
    {
     "line": "1979. Israel and Egypt sign peace.",
-    "score": 0.917,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -105,7 +105,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "23% of everything Israel produced went to defense. That was 1,970. This is the defense bill as a share of the economy. Lowest first. In 1970, Israel, Jordan, and Egypt all spend more than 15%. 1979. Israel and Egypt signed peace. Egypt's bill falls and falls. Today, under 1%. 1994. Peace with Jordan. Syria disappears from the data after 2010 in its civil war. By 2022, Israel is down to $4.3K, then October 7th and war. In 2024, it jumps to $8.5K, Saudi Arabia $6.5K, America $3K. What would the next peace deal pay for? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. Where does Israel stand now? 7.8%. Down from $23K.",
+  "heard": "23% of everything Israel produced went to defense. That was in 1970. This is the defense bill as a share of the economy, lowest first. In 1970, Israel, Jordan, and Egypt all spend more than 15%. 1979. Israel and Egypt sign peace. Egypt's bill falls and falls. Today, under 1%. 1994. Peace with Jordan. Syria disappears from the data after 2010, in its civil war. By 2022, Israel is down to 4.3, then October 7th and war. In 2024, it jumps to 8.5, Saudi Arabia, 6.5, America, 3. What would the next peace deal pay for? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. Where does Israel stand now? 7.8%, down from 23.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -115,5 +115,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 135.4
+ "render_s": 106.9
 }
