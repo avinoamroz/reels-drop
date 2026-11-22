@@ -8,7 +8,7 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
+  "tempo": 1.18,
   "gap": 0.15,
   "lead": 0.12
  },
@@ -23,7 +23,7 @@
    "say": "1949. The armistice leaves Syria on the heights, above the Sea of Galilee."
   },
   {
-   "say": "For years, both sides clash, and Syrian guns shell the farms below."
+   "say": "Both sides clash, and Syrian guns shell the farms below."
   },
   {
    "say": "1965. Syria starts diverting the Jordan's sources. Israel strikes the works."
@@ -32,16 +32,16 @@
    "say": "June 1967. In two days, Israel takes the Golan."
   },
   {
-   "say": "1973. On Yom Kippur, Syrian tanks storm back in. Israel holds, then pushes them out."
+   "say": "1973. On Yom Kippur, Syria attacks. Israel holds, then pushes back."
   },
   {
-   "say": "1974. Kissinger brokers a deal. Quneitra returns to Syria, and United Nations peacekeepers move in."
+   "say": "1974. A Kissinger deal returns Quneitra to Syria. United Nations peacekeepers move in."
   },
   {
-   "say": "1981. Israel applies its law there. The UN Security Council calls it null and void."
+   "say": "1981. Israel applies its law there. The UN Security Council: null and void."
   },
   {
-   "say": "2000. Talks with Syria come close, then collapse over the Sea of Galilee shore."
+   "say": "2000. Talks with Syria collapse over the Sea of Galilee shore."
   },
   {
    "say": "2019. America recognises Israeli sovereignty. Most of the world does not."
@@ -50,7 +50,7 @@
    "say": "December 2024. Assad falls, and Israeli troops enter the buffer zone."
   },
   {
-   "say": "Syria calls it occupied land. Israel calls it a security frontier. Who's right?"
+   "say": "Syria says occupied land. Israel says security frontier. Who's right?"
   },
   {
    "follow": true,
@@ -146,7 +146,7 @@
     "fade": 0.8
    },
    {
-    "at": "L6:tanks",
+    "at": "L6:attacks",
     "fills": {
      "golan": "red"
     },
@@ -555,7 +555,7 @@
   "balance": "Occupied land, or *security frontier?*",
   "y": 760
  },
- "caption_en": "One line on a map in 1923. A hundred years later, it is still not settled.\n\nThe Golan Heights in 60 seconds:\n1923: the Paulet-Newcombe line puts the Golan in French Mandate Syria.\n1949: the Israel-Syria armistice leaves Syria on the heights above the Sea of Galilee; for years both sides clash and Syrian artillery hits Israeli farms below (Britannica).\n1965: Syria starts diverting the Jordan's headwaters (Arab League Cairo summit, 1964); Israel strikes the works.\n9 to 10 June 1967: Israel takes the Golan in the Six-Day War.\nOctober 1973: Syria attacks on Yom Kippur; Israel holds and pushes back.\n31 May 1974: Kissinger's disengagement deal; Quneitra returns to Syria; UN peacekeepers (UNDOF, UN Security Council Resolution 350).\n14 December 1981: the Golan Heights Law; UN Security Council Resolution 497 calls it null and void.\n2000: US-brokered talks collapse over access to the Sea of Galilee shore (Dennis Ross, The Missing Peace).\n25 March 2019: US Proclamation 9852 recognises Israeli sovereignty; most countries do not.\n8 December 2024: Assad falls; Israeli troops enter the buffer zone (Reuters).\n\nSyria calls it occupied land. Israel calls it a security frontier. Which side are you on? Tell me in the comments.\n\nPhotos: PanBK (CC BY-SA 3.0); Assaf Kutin, GPO Israel (CC BY-SA 4.0); IPPA (Dan Hadani collection) and Yosi Elmakis, National Library of Israel (CC BY 4.0); Shealah Craighead, The White House (public domain); Davidbena (CC BY-SA 4.0); Someone35 (CC BY-SA 3.0). All via Wikimedia Commons.\nAI voice (Noam's own cloned voice).",
+ "caption_en": "One line on a map in 1923. A hundred years later, it is still not settled.\n\nThe Golan Heights in 60 seconds:\n1923: the Paulet-Newcombe line puts the Golan in French Mandate Syria.\n1949: the Israel-Syria armistice leaves Syria on the heights above the Sea of Galilee; for years both sides clash and Syrian artillery hits Israeli farms below (Britannica).\n1965: Syria starts diverting the Jordan's headwaters (Arab League Cairo summit, 1964); Israel strikes the works.\n9 to 10 June 1967: Israel takes the Golan in the Six-Day War.\nOctober 1973: Syria attacks on Yom Kippur; Israel holds and pushes back.\n31 May 1974: Kissinger's disengagement deal; Quneitra returns to Syria; UN peacekeepers (UNDOF, UN Security Council Resolution 350).\n14 December 1981: the Golan Heights Law; UN Security Council Resolution 497 calls it null and void.\n2000: US-brokered talks collapse over access to the Sea of Galilee shore (Dennis Ross, The Missing Peace).\n25 March 2019: US Proclamation 9852 recognises Israeli sovereignty; most countries do not.\n8 December 2024: Assad falls; Israeli troops enter the buffer zone (Reuters).\n\nSyria says occupied land. Israel says security frontier. Which side are you on? Tell me in the comments.\n\nPhotos: PanBK (CC BY-SA 3.0); Assaf Kutin, GPO Israel (CC BY-SA 4.0); IPPA (Dan Hadani collection) and Yosi Elmakis, National Library of Israel (CC BY 4.0); Shealah Craighead, The White House (public domain); Davidbena (CC BY-SA 4.0); Someone35 (CC BY-SA 3.0). All via Wikimedia Commons.\nAI voice (Noam's own cloned voice).",
  "caption_he": "רמת הגולן ב-60 שניות: קו אחד על המפה ב-1923, ומאה שנה שעדיין לא נסגרו. 1923 הגולן נקבע לסוריה, 1949 שביתת הנשק, 1967 ישראל כובשת את הגולן, 1973 יום כיפור, 1974 הסכם הפרדת הכוחות, 1981 חוק רמת הגולן, 2019 ההכרה האמריקאית, 2024 נפילת אסד. סוריה קוראת לזה שטח כבוש, ישראל קוראת לזה גבול ביטחוני. מה דעתכם?",
  "hashtags": [
   "#GolanHeights",
