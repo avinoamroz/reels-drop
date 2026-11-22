@@ -2,8 +2,8 @@
 the lips in sync (the clip's own audio), big hook text over his chest, the Israel Facts mark, and burned-in subtitles of
 exactly what he says (spec data.said; the words are timed to the clip by faster-whisper, the text shown is data.said).
 Then a hard cut into the source reel at `cut` (just after the source's own hook line, so the hook is not said twice);
-the rest of the source is kept as it is, except the follow line: Noam's own recording (ref/follow_line_noam.wav)
-replaces the TTS follow line, or is inserted right before the final lead-in line (freeze frame with the on-screen
+the rest of the source is kept as it is, except the follow line: the reel clone's follow line take
+(ref/follow_line_tts_chain.wav, house chain applied; Noam 22 Nov; "own_voice": true keeps ref/follow_line_noam.wav) replaces the TTS follow line, or is inserted right before the final lead-in line (freeze frame with the on-screen
 "Like Israel facts? Follow @noamroz__" pill and the sky chevron cue), as Noam asked on 15 Nov. The last 1 s of the
 body dissolves into the new frame 0 (circular). Everything is levelled to the spec loudness (default -16 LUFS):
 the face clip is levelled on its own first so his real voice and the Cartesia narration match.
@@ -16,7 +16,7 @@ data keys:
   source      repo path of the source reel mp4
   cut         seconds in the source where the body starts, or
   cut_after   a phrase of the source's narration; the body starts right after its first occurrence (+ cut_pad, default 0.06)
-  follow      {"wav": "ref/follow_line_noam.wav", "text": "If you love Israeli facts, follow Noam Roz for more.",
+  follow      {"wav": "ref/follow_line_tts_chain.wav", "text": "If you love Israeli facts, follow Noam Roz for more.",
                "mode": "insert" | "replace" | "none",
                "before": phrase (insert: the final lead-in line; its LAST occurrence) or "at": source seconds,
                "replace": phrase of the TTS follow line to replace ("replace_end": its last words), "bed": music bed}
@@ -149,9 +149,12 @@ def gain_to(x, target):
 
 def run(S):
     D = S["data"]; work = workdir(S); M = S.get("music") or {}; M = {"bed": M} if isinstance(M, str) else M
+    F0 = D.get("follow")                 # Noam 22 Nov: follow line in the reel clone (house-chained TTS take), not his recording
+    if isinstance(F0, dict) and not F0.get("own_voice") and F0.get("wav", OWN_FOLLOW[0]) in OWN_FOLLOW:
+        F0["wav"] = "ref/follow_line_tts_chain.wav"; F0["text"] = FOLLOW_TEXT
     LUFS = float(M.get("lufs", -16))
     clip = os.path.join(REPO, D["clip"]); src = os.path.join(REPO, D["source"])
-    need = [D["clip"], D["source"], (D.get("follow") or {}).get("wav", "ref/follow_line_noam.wav")]
+    need = [D["clip"], D["source"], (D.get("follow") or {}).get("wav", "ref/follow_line_tts_chain.wav")]
     miss = [f for f in need if not os.path.exists(os.path.join(REPO, f))]
     if miss:   # the CI checkout is sparse: pull the clip, the source reel and the follow line in
         subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", *["/" + f for f in miss]], check=False)
@@ -182,7 +185,7 @@ def run(S):
         nxt = [t[1] for t in STK if t[1] >= cut - 0.02]
         if nxt and nxt[0] - cut <= 1.2 and nxt[0] - 0.03 > cut:
             cut_how += f", snapped from {cut:.2f} to the next word"; cut = nxt[0] - 0.03
-    fwav = os.path.join(REPO, F.get("wav", "ref/follow_line_noam.wav"))
+    fwav = os.path.join(REPO, F.get("wav", "ref/follow_line_tts_chain.wav"))
     fa = fb = None
     if fmode == "replace":
         fa, _, r1 = find_phrase(STK, F["replace"], last=True)

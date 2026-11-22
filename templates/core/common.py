@@ -24,6 +24,14 @@ TTS_URL = "https://api.cartesia.ai/tts/sse"              # Make TTS1 4998936: ht
 TTS_VERSION = "2025-04-16"                               # Make TTS1 header Cartesia-Version
 HEEBO = os.path.join(TPL, "fonts", "Heebo-800.ttf")
 DASH_RE = re.compile("[\u2012\u2013\u2014\u2015]")
+# Follow line (Noam 22 Nov 2026: his pasted recording stood out, so the line is voiced by the reel clone itself, in context,
+# by tools/follow_tts.py). ref/follow_line_tts.wav is the RAW Cartesia cut (+ _words.json): it gets the same house chain,
+# tempo and loudness as the narration at render time. Old specs that name Noam's recording are switched to it automatically;
+# a line with "own_voice": true keeps the recording. New specs: a line {"follow": true} fills say, wav and screen.
+FOLLOW_TEXT = "If you love Israeli facts, follow Noam Roz for more."
+FOLLOW_SCREEN = "Like Israel facts? Follow *@noamroz__*"
+FOLLOW_TTS = "ref/follow_line_tts.wav"
+OWN_FOLLOW = ("ref/follow_line_noam.wav", "ref/follow_line_noam_short.wav")
 
 
 def log(*a): print(f"[{time.strftime('%H:%M:%S')}]", *a, flush=True)
@@ -36,7 +44,18 @@ def load_spec(path):
     S.setdefault("lines", []); S.setdefault("sources", []); S.setdefault("data", {})
     S["_path"] = os.path.abspath(path)
     S["_hook"] = wrap_hook(S.get("hook", ""))
+    follow_defaults(S)
     return S
+
+
+def follow_defaults(S):
+    """{"follow": true} lines get the standard follow line; Noam's old recording becomes the TTS take (Noam 22 Nov)"""
+    for L in S["lines"]:
+        if L.get("follow"):
+            L.setdefault("say", FOLLOW_TEXT); L.setdefault("wav", FOLLOW_TTS); L.setdefault("screen", FOLLOW_SCREEN)
+        if L.get("wav") in OWN_FOLLOW and not L.get("own_voice"):
+            L["_wav_was"] = L["wav"]; L["wav"] = FOLLOW_TTS; L["say"] = FOLLOW_TEXT
+            L.pop("wav_db", None)
 
 
 def wrap_hook(h):
@@ -89,13 +108,29 @@ def script_lines(S):
     return [L["say"].strip() for L in S["lines"] if L.get("say", "").strip() and not L.get("wav")]
 
 
-def own_line(L, ref_lufs):
-    """a spoken line from a real recording (spec line "wav": repo path, e.g. ref/follow_line_noam.wav): no house chain,
-    silence trimmed, loudness matched to the TTS voice (+ line "wav_db"), words spread over the voiced part by length"""
-    p = os.path.join(REPO, L["wav"])
-    if not os.path.exists(p):      # the CI checkout is sparse: pull the recording in
-        subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", "/" + L["wav"]], check=False)
+def own_line(L, ref_lufs, tempo=1.1, plain=False):
+    """a spoken line from a file (spec line "wav": repo path).
+    TTS take with a <name>_words.json beside it (ref/follow_line_tts.wav, the follow line in the reel clone): the same
+    house chain and tempo as the narration, trimmed by its word timestamps like a TTS line, loudness matched to the
+    narration (+ line "wav_db"), real word times.
+    Real recording (ref/follow_line_noam.wav, only with "own_voice": true): no house chain, silence trimmed, loudness
+    matched to the TTS voice (+ "wav_db"), words spread over the voiced part by length"""
+    p = os.path.join(REPO, L["wav"]); wj = p[:-4] + "_words.json"
+    if not os.path.exists(p) or not os.path.exists(wj):      # the CI checkout is sparse: pull the file in
+        subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", "/" + L["wav"], "/" + L["wav"][:-4] + "_words.json"],
+                       check=False, capture_output=True)
     if not os.path.exists(p): raise SystemExit(f"recording not found: {L['wav']}")
+    if os.path.exists(wj):
+        y, k = house_chain(p, tempo, plain)
+        tw = json.load(open(wj)); ws = L["say"].split()
+        a = max(0.0, tw[0]["start"] * k - 0.05); b = min(len(y) / SR, tw[-1]["end"] * k + 0.10)
+        y = y[int(a * SR):int(b * SR)].copy(); f = int(0.01 * SR); y[:f] *= np.linspace(0, 1, f); y[-f:] *= np.linspace(1, 0, f)
+        y *= 10 ** ((ref_lufs + float(L.get("wav_db", 0)) - lufs_of(np.stack([y, y]))) / 20)
+        if len(tw) != len(ws):     # say text differs from the take: spread its words over the take's voiced span
+            t0, t1 = tw[0]["start"], tw[-1]["end"]; w8 = np.array([len(re.sub(r"[^\w]", "", w)) + 2 for w in ws], float)
+            cum = np.concatenate([[0], np.cumsum(w8)]) / w8.sum()
+            tw = [dict(start=t0 + (t1 - t0) * cum[j], end=t0 + (t1 - t0) * cum[j + 1] - 0.02) for j in range(len(ws))]
+        return y, [dict(w=w, t0=x["start"] * k - a, t1=max(x["end"], x["start"] + 0.04) * k - a) for w, x in zip(ws, tw)]
     y = np.frombuffer(subprocess.run(["ffmpeg", "-v", "error", "-i", p, "-ar", str(SR), "-ac", "1", "-f", "f32le", "-"],
                                      check=True, capture_output=True).stdout, np.float32).copy()
     fr = int(0.02 * SR); env = np.array([np.sqrt(np.mean(y[i:i + fr] ** 2) + 1e-12) for i in range(0, max(1, len(y) - fr), fr)])
@@ -257,8 +292,8 @@ def build_voice(S, work):
     gaps = [float(L.get("gap", V.get("gap", 0.3))) for L in SAY]
     ref = lufs_of(np.stack([y, y])) if any(L.get("wav") for L in SAY) else None
     for i, text in enumerate(lines):
-        if SAY[i].get("wav"):          # a real recording (Noam's own follow line): placed as is, no TTS
-            seg_, wl = own_line(SAY[i], ref); segs.append((t, seg_))
+        if SAY[i].get("wav"):          # a line from a file (the follow line TTS take, or a real recording): no new TTS
+            seg_, wl = own_line(SAY[i], ref, tempo, V.get("chain", "house") == "plain"); segs.append((t, seg_))
             out.append(dict(i=i, text=text, t0=round(t + wl[0]["t0"], 3), t1=round(t + wl[-1]["t1"], 3), own=SAY[i]["wav"],
                             words=[dict(w=w["w"], t0=round(t + w["t0"], 3), t1=round(t + w["t1"], 3)) for w in wl]))
             t += len(seg_) / SR + gaps[i]; continue
