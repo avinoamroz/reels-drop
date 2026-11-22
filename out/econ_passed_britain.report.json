@@ -1,6 +1,124 @@
 {
-  "id": "econ_passed_britain",
-  "status": "FAILED",
-  "run": "45055227674",
-  "log": "[18:28:59] pron [en]: Three hundred fifty six dollars. That is how far Israel is from Germany. GDP per person, in dollars, since nineteen eighty. In nineteen eighty, the UAE is far ahead. Israel makes about sixty percent of a Brit. Oil prices fall, and Saudi income halves in ten years. twenty sixteen. Israel passes France. twenty nineteen. Britain. twenty twenty two. Even Germany, for one year. In twenty twenty three, \nvoice ok: Cartesia sonic-3 (50.4 s, 123 words, 1 run(s), pronunciation pass) voice/econ_passed_britain_vo.wav\n[18:28:59] voice: cached voice (script unchanged)\n[ WARN:0@2.801] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/ik_dxb.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/ik_dxb.jpg\n"
+ "id": "econ_passed_britain",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*$356* short|of Germany.",
+ "duration": 49.77,
+ "audio": {
+  "lufs": -16.3,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/econ_passed_britain.mp4",
+  "cover": "covers/econ_passed_britain_cover.jpg",
+  "preview": "previews/econ_passed_britain_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_passed_britain_0.jpg",
+  "1": "out/frames/econ_passed_britain_1.jpg",
+  "3": "out/frames/econ_passed_britain_3.jpg",
+  "last": "out/frames/econ_passed_britain_last.jpg"
+ },
+ "caption_en": "It passed France, then Britain, then Germany for one year. Now look at the gap.\n\nGDP per person, current US$, 2025 (IMF estimates):\nGermany 61,255\nIsrael 60,899\nUK 57,741\nUAE 54,151\nFrance 49,129\nSaudi Arabia 35,370\nTurkey 18,676\nLebanon 5,897\nJordan 5,169\nEgypt 3,379\nSyria: no IMF data after 2010\n\nIsrael passed France in 2016, the UK in 2019 and Germany in 2022 (54,474 vs 51,215), then fell back behind Germany in 2023. 1980: Israel 6,368, UK 10,692. Saudi Arabia fell from 19,543 (1980) to 8,562 (1990) as oil prices fell. The IMF projects Israel above Germany in 2026; projections can change.\nThese are dollar figures, so a strong shekel lifts Israel's numbers. Per person income is not the same as how well off every household is.\n\nSource: IMF World Economic Outlook database (DataMapper), NGDPDPC, 1980 to 2025. The animation interpolates between years.\nPhotos: Dubai airport (Chris Olszewski, CC BY-SA 4.0), Khurais oil facility (Planet Labs, CC BY-SA 4.0), Tel Aviv (CC BY-SA 4.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "תוצר לנפש, 2025 (קרן המטבע): גרמניה 61,255 דולר, ישראל 60,899. ישראל עקפה את צרפת ב 2016, את בריטניה ב 2019, ואת גרמניה ב 2022, לשנה אחת. הפער היום: 356 דולר. שקל חזק מגדיל את המספרים בדולרים.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Economy",
+  "#GDP"
+ ],
+ "sources": [
+  {
+   "label": "IMF World Economic Outlook, GDP per capita (2025 estimate)",
+   "year": 2025,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.987,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Three hundred fifty six dollars. That is how far Israel is from Germany.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "GDP per person, in dollars, since 1980.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1980, the UAE is far ahead. Israel makes about sixty percent of a Brit.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Oil prices fall, and Saudi income halves in ten years.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "2016. Israel passes France.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "2019. Britain.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "2022. Even Germany, for one year.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2023, the war year, it falls back behind Germany.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey keeps climbing, past eighteen thousand. Egypt and Jordan stay under six.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "And in 2025, Israel reaches sixty thousand nine hundred.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Fair point: these are dollars, so a strong shekel lifts them.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Will Israel pass Germany again next year? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So how big is the gap now?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three hundred fifty six dollars.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "356 dollars. That is how far Israel is from Germany. GDP per person in dollars since 1980. In 1980, the UAE is far ahead. Israel makes about 60% of a Brit. Oil prices fall and Saudi income halves in 10 years. 2016. Israel passes France. 2019. Britain. 2022. Even Germany for one year. In 2023, the war year, it falls back behind Germany. Turkey keeps climbing, 18,000. Egypt and Jordan stay under 6. And in 2025, Israel reaches 60,900. Fair point, these are dollars, so a strong check hole lifts them. Will Israel pass Germany again next year? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. So how big is the gap now? $356.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.3,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 99.2
 }
