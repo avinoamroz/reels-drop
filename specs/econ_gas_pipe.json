@@ -1,0 +1,378 @@
+{
+ "id": "econ_gas_pipe",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*1* pipe.|Reversed in *2020.*",
+ "opener": {
+  "style": "globe_spin_fast"
+ },
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "One pipeline under the Sinai coast. In 2020, the gas started flowing the other way."
+  },
+  {
+   "say": "2008. Egypt sells gas to Israel, through this pipe from El Arish to Ashkelon.",
+   "screen": "*2008:* Egyptian gas flows to Israel"
+  },
+  {
+   "say": "In 2011 and 2012, attackers in Sinai blow up the line again and again.",
+   "screen": "The pipeline is attacked *again and again*"
+  },
+  {
+   "say": "In 2012, Egypt cancels the deal.",
+   "screen": "*2012:* Egypt cancels the deal"
+  },
+  {
+   "say": "But Israel has already struck gas at sea. Tamar, in 2009. Leviathan, in 2010.",
+   "screen": "Found at sea: Tamar *2009,* Leviathan *2010*"
+  },
+  {
+   "say": "Tamar starts pumping in 2013. Leviathan, at the end of 2019.",
+   "screen": "Tamar *2013,* Leviathan *2019*"
+  },
+  {
+   "say": "January 2020. The old pipe runs in reverse. Israeli gas flows into Egypt.",
+   "screen": "*2020:* Israeli gas flows to Egypt"
+  },
+  {
+   "say": "Jordan gets Israeli gas too.",
+   "screen": "And to *Jordan*"
+  },
+  {
+   "say": "In 2024, Israel produces a record twenty seven point four billion cubic meters.",
+   "screen": "*2024:* a record 27.4 billion m³"
+  },
+  {
+   "say": "Almost half goes abroad. Thirteen point one billion, to Egypt and Jordan.",
+   "screen": "*13.1* billion m³ to Egypt and Jordan"
+  },
+  {
+   "say": "Egypt buys about ten billion a year. Jordan, about three.",
+   "screen": "Egypt about *10,* Jordan about *3.1*"
+  },
+  {
+   "say": "Can energy make peace last longer? Tell me in the comments.",
+   "screen": "Can gas make peace *last longer?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Same pipe. Same desert.",
+   "gap": 0.2
+  },
+  {
+   "say": "Just flowing the other way.",
+   "screen": "Same pipe. *Other way.*"
+  }
+ ],
+ "data": {
+  "cam0": [
+   34.6,
+   31.6,
+   7.0
+  ],
+  "hook_y": 620,
+  "title_y": 330,
+  "cams": [
+   {
+    "at": "L1-0.3",
+    "view": [
+     34.2,
+     31.4,
+     2.4,
+     980
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L4-0.3",
+    "view": [
+     34.0,
+     32.4,
+     3.6,
+     980
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L6-0.3",
+    "view": [
+     34.2,
+     31.4,
+     2.4,
+     980
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L7-0.3",
+    "view": [
+     35.3,
+     32.2,
+     3.4,
+     980
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L8-0.3",
+    "view": [
+     34.6,
+     31.6,
+     7.0,
+     960
+    ],
+    "dur": 1.4
+   }
+  ],
+  "routes": [
+   {
+    "at": "L1:pipe",
+    "until": "L3e",
+    "path": [
+     [
+      33.8,
+      31.13
+     ],
+     [
+      34.02,
+      31.36
+     ],
+     [
+      34.3,
+      31.55
+     ],
+     [
+      34.57,
+      31.67
+     ]
+    ],
+    "kind": "pipe",
+    "color": "#F2C14E",
+    "width": 10,
+    "draw": 1.2,
+    "label": "El Arish to Ashkelon",
+    "label_at": [
+     33.9,
+     31.75
+    ],
+    "cut": "L3",
+    "cut_label": "Deal cancelled"
+   },
+   {
+    "at": "L6:reverse",
+    "until": "L11e",
+    "path": [
+     [
+      34.57,
+      31.67
+     ],
+     [
+      34.3,
+      31.55
+     ],
+     [
+      34.02,
+      31.36
+     ],
+     [
+      33.8,
+      31.13
+     ]
+    ],
+    "kind": "pipe",
+    "color": "#45A4DD",
+    "width": 10,
+    "draw": 1.2,
+    "label": "Israel to Egypt",
+    "label_at": [
+     33.9,
+     31.75
+    ]
+   },
+   {
+    "at": "L7",
+    "until": "L11e",
+    "path": [
+     [
+      34.98,
+      32.8
+     ],
+     [
+      35.3,
+      32.62
+     ],
+     [
+      35.55,
+      32.5
+     ],
+     [
+      35.85,
+      32.4
+     ],
+     [
+      35.93,
+      31.95
+     ]
+    ],
+    "kind": "pipe",
+    "color": "#45A4DD",
+    "width": 10,
+    "draw": 1.2,
+    "label": "Israel to Jordan",
+    "label_at": [
+     36.3,
+     32.75
+    ]
+   }
+  ],
+  "icons": [
+   {
+    "at": "L4:tamar",
+    "until": "L5e",
+    "lon": 33.6,
+    "lat": 32.85,
+    "emo": "🔥",
+    "size": 84,
+    "label": "Tamar",
+    "label_dy": 80
+   },
+   {
+    "at": "L4:leviathan",
+    "until": "L5e",
+    "lon": 33.2,
+    "lat": 33.15,
+    "emo": "🔥",
+    "size": 84,
+    "label": "Leviathan",
+    "label_dy": 80
+   },
+   {
+    "at": "L2:blow",
+    "until": "L3e",
+    "lon": 33.95,
+    "lat": 31.25,
+    "emo": "💥",
+    "size": 84,
+    "label": "Sinai, 2011 to 2012",
+    "label_dy": 80
+   }
+  ],
+  "names": [
+   {
+    "at": "L1",
+    "until": "L3e",
+    "text": "Egypt",
+    "lon": 33.4,
+    "lat": 30.7,
+    "size": 44
+   },
+   {
+    "at": "L7",
+    "until": "L11e",
+    "text": "Jordan",
+    "lon": 36.4,
+    "lat": 31.4,
+    "size": 44
+   }
+  ],
+  "counter": {
+   "label": "Israel's gas, billion m³",
+   "at": "L8",
+   "until": "L10e",
+   "y": 560,
+   "dec": 1,
+   "steps": [
+    {
+     "at": "L8:record",
+     "value": 27.4,
+     "src": "Israel Ministry of Energy, 2024"
+    },
+    {
+     "at": "L9:abroad",
+     "value": 13.1,
+     "src": "Exported to Egypt and Jordan, 2024"
+    }
+   ]
+  },
+  "photos": [
+   {
+    "file": "photos/bf_p_el_leviathan.jpg",
+    "at": "L5",
+    "until": "L5e+0.1",
+    "credit": "Deror Avi / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/pb_leviathan_rig.jpg",
+    "at": "L8",
+    "until": "L8e",
+    "credit": "Amir.bendavid / Wikimedia Commons, CC BY-SA 4.0"
+   },
+   {
+    "file": "photos/wbeb_amman.jpg",
+    "at": "L10",
+    "until": "L10e+0.1",
+    "credit": "Zairon / Wikimedia Commons, CC BY-SA 3.0"
+   },
+   {
+    "file": "photos/pt_egypt_sign.jpg",
+    "at": "L11",
+    "until": "L11e",
+    "credit": "Yaakov Saar, GPO Israel / Wikimedia Commons, CC BY-SA 3.0"
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L8",
+    "until": "L10e",
+    "text": "Save this map",
+    "y": 1460,
+    "size": 44
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Reuters (2012 cancellation, 2020 exports)",
+   "year": 2020,
+   "at": "L1",
+   "until": "L7e"
+  },
+  {
+   "label": "Israel Ministry of Energy; Natural Gas Authority via Globes",
+   "year": 2025,
+   "at": "L8",
+   "until": "END-0.6"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Many in Jordan *protested* this gas deal.",
+  "cta": "Your answer? *Comments.*"
+ },
+ "caption_en": "The same pipe, the same desert. Only the direction changed.\n\n2008: Egypt starts selling gas to Israel through the pipeline from El Arish to Ashkelon.\n2011 to 2012: the line in Sinai is attacked again and again. April 2012: Egypt cancels the deal.\n2009 and 2010: Israel discovers the Tamar and Leviathan fields at sea. Tamar starts producing in 2013, Leviathan at the end of 2019.\nJanuary 2020: the pipeline runs in reverse, and Israeli gas flows to Egypt. Jordan receives Israeli gas too.\n2024: Israel produces a record 27.4 billion m³ and exports 13.1 billion m³ (almost half) to Egypt and Jordan. Egypt buys about 10 billion m³ a year, Jordan about 3.1.\nMany Jordanians protested the gas deal, and both peace treaties are often called a cold peace.\n\nSources: Reuters (April 2012, January 2020); Israel Ministry of Energy, 2024 figures (via Enerdata, 2025); Israel Natural Gas Authority via Globes, May 2025. Map positions of the fields are approximate.\nPhotos: Leviathan platform installation (Deror Avi, CC BY-SA 4.0), Leviathan platform (Amir.bendavid, CC BY-SA 4.0), Amman (Zairon, CC BY-SA 3.0), Egypt Israel treaty signing 1979 (Yaakov Saar, GPO, CC BY-SA 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "אותו צינור, אותו מדבר. ב 2008 מצרים מכרה גז לישראל דרך הצינור מאל עריש לאשקלון. ב 2012 העסקה בוטלה. ב 2020 הצינור התהפך, והגז הישראלי זורם למצרים ולירדן. ב 2024 ישראל הפיקה שיא של 27.4 מיליארד מ\"ק, וייצאה 13.1 מיליארד.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Egypt",
+  "#Energy"
+ ],
+ "cover": {
+  "t": 1.0,
+  "big": "1 pipe",
+  "text": "*1* pipe.|Reversed in *2020.*"
+ },
+ "hook_original": true
+}
