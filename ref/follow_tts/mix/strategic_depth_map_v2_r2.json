@@ -1,0 +1,33 @@
+{
+ "id": "strategic_depth_map_v2_r2",
+ "takes": [
+  {
+   "take": "ref/follow_line_tts.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "15 kilometers, then the sea, that's all of Israel here, a 3 hour walk from these hills, and it has been tried. In the second Intifada, terror killed 1,084 Israelis. Most suicide bombers came from around Janine and Nablus. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th. Pickup trucks drove 25 kilometers in 28 minutes. Now run that clock here. 10 launch points. Same pace. 10 minutes. Route 6, Ben Gurion Airport, Jerusalem. 20 minutes. Tel Aviv, Natania the Sea. Israel cut in two. Right where 6 in 10 Israelis live. Palestinians want to stay there, and many say security can come by agreement. Israel's question. Who guarantees it? If you love Israeli facts, follow Noam Roz for more. Because here, it's 15 kilometers. Then, the sea.",
+   "lufs": -16.2
+  },
+  {
+   "take": "ref/follow_tts/take1.wav",
+   "heard": "Noam Raz",
+   "exact": false,
+   "transcript": "15 kilometers, then the sea, that's all of Israel here, a 3 hour walk from these hills, and it has been tried. In the second Intifada, terror killed 1,084 Israelis. Most suicide bombers came from around Janine and Nablus. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th. Pickup trucks drove 25 kilometers in 28 minutes. Now run that clock here. 10 launch points. Same pace. 10 minutes. Route 6, Ben Gurion Airport, Jerusalem. 20 minutes. Tel Aviv, Natania the sea. Israel cut in two. Right where 6 in 10 Israelis live. Palestinians want to stay there, and many say security can come by agreement. Israel's question, who guarantees it? If you love Israeli facts, follow Noam Raz for more. Because here it's 15 kilometers. Then the sea.",
+   "lufs": -16.2
+  },
+  {
+   "take": "ref/follow_tts/take3.wav",
+   "heard": "Noam Roz",
+   "exact": true,
+   "transcript": "15 kilometers, then the sea, that's all of Israel here, a 3 hour walk from these hills, and it has been tried. In the second Intifada, terror killed 1,084 Israelis. Most suicide bombers came from around Janine and Nablus. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th. Pickup trucks drove 25 kilometers in 28 minutes. Now run that clock here. 10 launch points. Same pace. 10 minutes. Route 6. Ben Gurion Airport, Jerusalem. 20 minutes. Tel Aviv, Natania the Sea. Israel cut in two. Right where 6 in 10 Israelis live. Palestinians want to stay there and many say security can come by agreement. Israel's question. Who guarantees it? If you love Israeli facts, follow Noam Roz for more. Because here it's 15 kilometers. Then the sea.",
+   "lufs": -16.2
+  },
+  {
+   "take": "ref/follow_tts/take7.wav",
+   "heard": "Noam Ra's",
+   "exact": false,
+   "transcript": "15 kilometers, then the sea, that's all of Israel here, a 3 hour walk from these hills, and it has been tried. In the second Intifada, terror killed 1,084 Israelis. Most suicide bombers came from around Janine and Nablus. In 2005, Israel left Gaza. Two years later, Hamas ruled it. October 7th. Pickup trucks drove 25 kilometers in 28 minutes. Now run that clock here. 10 launch points. Same pace. 10 minutes. Route 6, Ben Gurion Airport, Jerusalem. 20 minutes. Tel Aviv, Natania the Sea. Israel cut in two. Right where 6 in 10 Israelis live. Palestinians want to stay there, and many say security can come by agreement. Israel's question, who guarantees it? If you love Israeli facts, follow Noam Ra's for more. Because here, it's 15 kilometers. Then, the sea.",
+   "lufs": -16.3
+  }
+ ]
+}
