@@ -1,6 +1,114 @@
 {
-  "id": "econ_code_exports",
-  "status": "FAILED",
-  "run": "45055227674",
-  "log": "[18:28:55] pron [en]: Five thousand dollars of software, sold abroad, for every person in one country. This is software and IT exports, per person, since two thousand and five. In two thousand and five, Israel already sells six hundred seventy five dollars a head. Britain, two fifty. By twenty fifteen, Israel is at nineteen hundred dollars a person. Saudi Arabia sells oil. Its software exports? Sixty one dollars a pers\nvoice ok: Cartesia sonic-3 (59.9 s, 130 words, 1 run(s), pronunciation pass) voice/econ_code_exports_vo.wav\n[18:28:56] voice: cached voice (script unchanged)\n[ WARN:0@2.880] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/ik_intel.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/ik_intel.jpg\n"
+ "id": "econ_code_exports",
+ "account": "noamroz__",
+ "template": "data_race",
+ "hook": "*$5,180* of code|per person?",
+ "duration": 57.13,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/econ_code_exports.mp4",
+  "cover": "covers/econ_code_exports_cover.jpg",
+  "preview": "previews/econ_code_exports_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/econ_code_exports_0.jpg",
+  "1": "out/frames/econ_code_exports_1.jpg",
+  "3": "out/frames/econ_code_exports_3.jpg",
+  "last": "out/frames/econ_code_exports_last.jpg"
+ },
+ "caption_en": "Oil, gas, or code? One country sells the world something else.\n\nSoftware and IT (ICT service) exports per person, 2024, current US$ (World Bank exports / population):\nIsrael $5,180\nUK $864\nUAE $757\nGermany $660\nUSA $264\nTurkey $62\nSaudi Arabia $61\nLebanon $24 (2023, latest)\nEgypt $15\nJordan $4\nSyria, Iran: no data\n\n2005: Israel $675, UK $250. High-technology goods are 37.2% of Israel's manufactured exports (UK 29.2%, USA 24.3%, Turkey 5.1%, Saudi Arabia 0.5%), 2024.\nPer person figures favour small countries, and big economies sell far more in total.\n\nSources: World Bank, World Development Indicators: BX.GSR.CCIS.CD (ICT service exports, BoP), SP.POP.TOTL, TX.VAL.TECH.MF.ZS, 2005 to 2024. The animation interpolates between years.\nPhotos: Intel Haifa (xiquinhosilva, CC BY 2.0), Khurais oil facility (Planet Labs, CC BY-SA 4.0), Matam Haifa (Zvi Roger, CC BY 3.0), via Wikimedia Commons.\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ייצוא תוכנה ושירותי IT לנפש, 2024 (הבנק העולמי): ישראל 5,180 דולר, בריטניה 864, ארה\"ב 264, סעודיה 61. 37% מהייצוא התעשייתי של ישראל הוא היי טק.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#Tech",
+  "#StartupNation"
+ ],
+ "sources": [
+  {
+   "label": "World Bank, ICT service exports BX.GSR.CCIS.CD, per person",
+   "year": 2024,
+   "at": "L1",
+   "until": "END-0.6"
+  }
+ ],
+ "transcript": {
+  "score": 0.928,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Five thousand dollars of software, sold abroad, for every person in one country.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "This is software and IT exports, per person, since 2005.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2005, Israel already sells six hundred seventy five dollars a head. Britain, two fifty.",
+    "score": 0.944,
+    "flag": "ok"
+   },
+   {
+    "line": "By 2015, Israel is at nineteen hundred dollars a person.",
+    "score": 0.846,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia sells oil. Its software exports? Sixty one dollars a person.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey, sixty two. Egypt, fifteen. Jordan, four.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "America has Silicon Valley, but it is huge. Two hundred sixty four dollars per American.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "Britain, eight hundred sixty four. Germany, six sixty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Chips too: thirty seven percent of Israel's factory exports are high tech.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Should Israel bet even more on tech? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So how much code does one Israeli sell the world?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five thousand one hundred eighty dollars.",
+    "score": 0.833,
+    "flag": "ok"
+   }
+  ],
+  "heard": "$5,000 of software sold abroad for every person in one country. This is software and IT exports per person since 2005. In 2005, Israel already sells $675 a head. Britain $250. By 2015, Israel is at $1,900 a person. Saudi Arabia sells oil. Its software exports? $61 a person. Turkey? 62. Egypt? 15. 4. America has Silicon Valley, but it is huge. $264 per American, Britain $864, Germany $660. Ships 2. 37% of Israel's factory exports are high-tech. Should Israel bet even more on tech? Tell me in the comments. If you love Israeli facts, follow Noam Roz for more. So how much code does one Israeli sell the world? $5,180.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 116.3
 }
