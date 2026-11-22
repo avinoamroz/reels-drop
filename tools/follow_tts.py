@@ -87,14 +87,26 @@ def main(job_path):
         ref = stats(ry, rw, rsr)
     rep = dict(follow=follow, ref=J.get("ref"), ref_stats=ref, takes=[])
     for k, T in enumerate(J["takes"], 1):
+        # a take may carry "follow_tts": the raw Cartesia text for the follow part (phonemes, <break time=".."/>,
+        # <speed ratio=".."/>); the follow span is then found by Cartesia word counts of the context around it
+        bp = PR.prepare(T["before"], "en") if T.get("before") else []
+        ap = PR.prepare(T["after"], "en") if T.get("after") else []
+        fp = PR.prepare(follow, "en"); ftts = T.get("follow_tts") or PR.tts_text(fp)
+        tts_txt = " ".join(x for x in (PR.tts_text(bp), ftts, PR.tts_text(ap)) if x)
         text = " ".join(x for x in (T.get("before", ""), follow, T.get("after", "")) if x).strip()
-        pairs = PR.prepare(text, "en")
-        y, cw, vid = cartesia(PR.tts_text(pairs), None)
-        g, exact = PR.regroup(cw, pairs)
-        nb = len(T.get("before", "").split()); a_i, b_i = nb, nb + len(fw)
-        seg = g[a_i:b_i]
-        prev_end = g[a_i - 1]["end"] if a_i else 0.0
-        next_start = g[b_i]["start"] if b_i < len(g) else len(y) / 44100
+        pairs = bp + fp + ap
+        y, cw, vid = cartesia(tts_txt, None)
+        nbc = len(PR.tts_text(bp).split()) if bp else 0; nac = len(PR.tts_text(ap).split()) if ap else 0
+        exact = len(cw) == len(PR.tts_text(pairs).split())
+        span = cw[nbc:len(cw) - nac] if nac else cw[nbc:]
+        if len(span) == len(fw): seg = [dict(start=s["start"], end=s["end"]) for s in span]
+        else:                 # Cartesia split the follow part differently: spread the 10 words over its span by length
+            t0, t1 = span[0]["start"], span[-1]["end"]; w8 = np.array([len(re.sub(r"[^\w]", "", w)) + 2 for w in fw], float)
+            cum = np.concatenate([[0], np.cumsum(w8)]) / w8.sum()
+            seg = [dict(start=t0 + (t1 - t0) * cum[j], end=t0 + (t1 - t0) * cum[j + 1] - 0.02) for j in range(len(fw))]
+        g = [dict(word=w["word"], start=w["start"], end=w["end"]) for w in cw]
+        prev_end = cw[nbc - 1]["end"] if nbc else 0.0
+        next_start = cw[len(cw) - nac]["start"] if nac else len(y) / 44100
         a = max(prev_end + (seg[0]["start"] - prev_end) * 0.4, seg[0]["start"] - 0.05, 0.0)
         b = min(seg[-1]["end"] + 0.10, seg[-1]["end"] + (next_start - seg[-1]["end"]) * 0.6, len(y) / 44100)
         cut = y[int(a * 44100):int(b * 44100)].copy(); fr = int(0.01 * 44100)
@@ -117,7 +129,7 @@ def main(job_path):
         if ref:
             d = round(abs(st["pitch_hz"] / ref["pitch_hz"] - 1) * 100 + abs(st["rate_wps"] / ref["rate_wps"] - 1) * 100
                       + abs(st["pitch_var_st"] - ref["pitch_var_st"]) * 5, 2)
-        r = dict(take=k, file=f"ref/follow_tts/take{k}.wav", context=text, tts_text=PR.tts_text(pairs), exact_words=exact,
+        r = dict(take=k, name=T.get("name", ""), file=f"ref/follow_tts/take{k}.wav", context=text, tts_text=tts_txt, exact_words=exact,
                  secs=round(len(cut) / 44100, 2), transcript=tx, transcript_context=txc, name_ok=name_ok, name_exact=name_exact,
                  stats=st, dist_to_ref=d, voice=vid)
         rep["takes"].append(r); print(json.dumps(r, ensure_ascii=False), flush=True)

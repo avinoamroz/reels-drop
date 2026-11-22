@@ -1,0 +1,73 @@
+name: follow-mix
+# Mix test of follow line takes inside the real reels (tools/follow_mix.py, Noam 22 Nov 2026: name clarity).
+# Push ref/follow_tts/mix_job.json {"ids": [...], "takes": [...]} -> ref/follow_tts/mix/<id>.json per reel. No video, nothing posts.
+on:
+  push:
+    paths: ['ref/follow_tts/mix_job.json']
+permissions:
+  contents: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      ids: ${{ steps.p.outputs.ids }}
+    steps:
+      - id: p
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ids=$(gh api "repos/$GITHUB_REPOSITORY/contents/ref/follow_tts/mix_job.json?ref=$GITHUB_SHA" --jq .content | base64 -d | jq -c .ids)
+          echo "ids=$ids" >> "$GITHUB_OUTPUT"; echo "$ids"
+  mix:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      max-parallel: 14
+      matrix:
+        id: ${{ fromJson(needs.plan.outputs.ids) }}
+    env:
+      ID: ${{ matrix.id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /templates/
+            /tools/follow_mix.py
+            /specs/${{ matrix.id }}.json
+            /voice/${{ matrix.id }}_*
+            /ref/follow_tts/
+            /ref/follow_line_tts.wav
+            /ref/follow_line_tts_words.json
+      - name: Named voice file and bed
+        run: |
+          SPEC=specs/$ID.json
+          vf=$(jq -r '.voice.file // empty' "$SPEC"); [ -z "$vf" ] || git sparse-checkout add "/$vf" "/${vf%.wav}_words.json"
+          bf=$(jq -r '(.music.bed // .music // "") | strings | select(startswith("file:")) | .[5:]' "$SPEC"); [ -z "$bf" ] || git sparse-checkout add "/$bf"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Cache pip and whisper
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.cache/huggingface
+          key: spec-render-v1
+      - name: Install tools
+        run: |
+          for i in 1 2 3; do sudo apt-get update -qq && sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-inter libcairo2 libcairo2-dev pkg-config libsndfile1 jq > /dev/null && break; sleep 20; done
+          pip install -q --retries 5 --timeout 60 pycairo numpy scipy pillow python-bidi soundfile opencv-python-headless requests num2words faster-whisper==1.2.1
+      - name: Mix and transcribe
+        run: python3 tools/follow_mix.py "$ID"
+      - name: Commit
+        if: always()
+        run: |
+          git config user.name "reels-bot"; git config user.email "reels-bot@users.noreply.github.com"
+          git add --sparse -f "ref/follow_tts/mix/$ID.json" || exit 0
+          git -c gc.auto=0 commit -q -m "follow-mix: $ID [skip ci]" || exit 0
+          for i in 1 2 3 4 5 6 7 8 9 10; do git -c gc.auto=0 pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; git rebase --abort 2>/dev/null || true; sleep $((RANDOM % 15 + 5)); done
+          exit 1

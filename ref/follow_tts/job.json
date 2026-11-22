@@ -3,17 +3,54 @@
  "ref": "voice/border_question_1_v2_r2_vo.wav",
  "takes": [
   {
+   "name": "A_break150_ctx1",
    "before": "But when did you last hear anyone ask Egypt?",
-   "after": "Because Gaza has two borders."
+   "after": "Because Gaza has two borders.",
+   "follow_tts": "If you love Israeli facts, follow <break time=\"150ms\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more."
   },
   {
-   "before": "Taxes are never fun. Equal taxes are the fair kind.",
-   "after": "So, would you rather pay?"
+   "name": "B_break200_slow85_ctx1",
+   "before": "But when did you last hear anyone ask Egypt?",
+   "after": "Because Gaza has two borders.",
+   "follow_tts": "If you love Israeli facts, follow <break time=\"200ms\"/> <speed ratio=\"0.85\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> <speed ratio=\"1.0\"/> for more."
   },
   {
+   "name": "C_break120_slow90_comma_ctx1",
+   "before": "But when did you last hear anyone ask Egypt?",
+   "after": "Because Gaza has two borders.",
+   "follow_tts": "If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>, <speed ratio=\"1.0\"/> for more."
+  },
+  {
+   "name": "D_slow80_ctx1",
+   "before": "But when did you last hear anyone ask Egypt?",
+   "after": "Because Gaza has two borders.",
+   "follow_tts": "If you love Israeli facts, follow <speed ratio=\"0.8\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> <speed ratio=\"1.0\"/> for more."
+  },
+  {
+   "name": "A_break150_ctx2",
    "before": "Which level should Israel fix next?",
-   "after": "So how does one country have this?"
+   "after": "So how does one country have this?",
+   "follow_tts": "If you love Israeli facts, follow <break time=\"150ms\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> for more."
+  },
+  {
+   "name": "B_break200_slow85_ctx2",
+   "before": "Which level should Israel fix next?",
+   "after": "So how does one country have this?",
+   "follow_tts": "If you love Israeli facts, follow <break time=\"200ms\"/> <speed ratio=\"0.85\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> <speed ratio=\"1.0\"/> for more."
+  },
+  {
+   "name": "C_break120_slow90_comma_ctx2",
+   "before": "Which level should Israel fix next?",
+   "after": "So how does one country have this?",
+   "follow_tts": "If you love Israeli facts, follow <break time=\"120ms\"/> <speed ratio=\"0.9\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>>, <speed ratio=\"1.0\"/> for more."
+  },
+  {
+   "name": "D_slow80_ctx2",
+   "before": "Which level should Israel fix next?",
+   "after": "So how does one country have this?",
+   "follow_tts": "If you love Israeli facts, follow <speed ratio=\"0.8\"/> <<n|oʊ|ˈ|ɑ|m>> <<ˈ|r|ɑː|z>> <speed ratio=\"1.0\"/> for more."
   }
  ],
- "run": 3
+ "run": 4,
+ "_note": "22 Nov round 2: name clarity (7 of 14 mixes misheard Noam Roz). follow_tts = raw Cartesia text of the follow part."
 }
