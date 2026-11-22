@@ -1,0 +1,116 @@
+{
+ "id": "kuwait_like_israel",
+ "account": "noamroz__",
+ "template": "judged_like",
+ "hook": "Kuwait, judged like *Israel.*|*Ready?*",
+ "duration": 46.17,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/kuwait_like_israel.mp4",
+  "cover": "covers/kuwait_like_israel_cover.jpg",
+  "preview": "previews/kuwait_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/kuwait_like_israel_0.jpg",
+  "1": "out/frames/kuwait_like_israel_1.jpg",
+  "3": "out/frames/kuwait_like_israel_3.jpg",
+  "last": "out/frames/kuwait_like_israel_last.jpg"
+ },
+ "caption_en": "Kuwait, judged like Israel. Ready? 🇰🇼\n\nSame test, same definition: the one Amnesty (2022) and Human Rights Watch (2021) use on Israel. The Rome Statute calls apartheid an \"institutionalized regime of systematic oppression and domination\". Real facts only:\n\n1. Kuwait has more than 106,000 stateless Bidun residents, many from families there for generations; some served in its army and police (Human Rights Watch, 2011).\n2. Classed as \"illegal residents\", they are denied citizenship, often denied birth and marriage certificates, and barred from most jobs.\n3. Most Bidun children cannot attend the free government schools.\n4. Kuwait's side: the government says many are hiding another nationality.\n\nBy the same definition used on Israel: is this apartheid? You decide.\n\nIsrael: about 21% of citizens are Arab. They vote, Arab parties won 19 Knesset seats in October 2026, and Justice Khaled Kabub has sat on the Supreme Court since 2022. Israel has real problems too.\n\nKuwait is rarely called apartheid. Israel is called it daily. One standard.",
+ "caption_he": "כווית, אם היו בודקים אותה כמו את ישראל, לפי אותה הגדרת אפרטהייד שאמנסטי וארגון Human Rights Watch מפעילים על ישראל. עובדות בלבד: בכווית חיים יותר מ-100,000 \"בידון\" חסרי אזרחות, רבים ממשפחות שחיות שם דורות, וחלקם שירתו בצבא ובמשטרה. הם מוגדרים \"שוהים בלתי חוקיים\", בלי אזרחות, לעתים בלי תעודות לידה ונישואים, ורוב המשרות סגורות בפניהם. רוב הילדים שלהם לא יכולים ללמוד בבתי הספר הממשלתיים החינמיים. כווית טוענת שרבים מסתירים אזרחות אחרת. לפי אותה הגדרה, האם זה אפרטהייד? תחליטו אתם. בישראל כ-21% מהאזרחים ערבים, הם מצביעים, המפלגות הערביות זכו ב-19 מושבים, ושופט ערבי יושב בבית המשפט העליון. גם לישראל יש בעיות אמיתיות. אותו סטנדרט לכולן.",
+ "hashtags": [
+  "#Israel",
+  "#Kuwait",
+  "#DoubleStandard",
+  "#Apartheid"
+ ],
+ "sources": [
+  {
+   "label": "Rome Statute, article 7",
+   "year": 1998
+  },
+  {
+   "label": "Human Rights Watch, Kuwait: Stateless Bidun Denied Rights",
+   "year": 2011
+  },
+  {
+   "label": "Israel Central Bureau of Statistics",
+   "year": "end of 2025"
+  },
+  {
+   "label": "Knesset election results (all votes counted)",
+   "year": "Oct 2026"
+  },
+  {
+   "label": "Israel Supreme Court, Justice Khaled Kabub",
+   "year": 2022
+  }
+ ],
+ "transcript": {
+  "score": 0.966,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Kuwait, judged like Israel. Ready?",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "The test: the same apartheid definition used on Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Kuwait has more than 100,000 stateless Bidun. Many families have lived there for generations. Some served in its army and police.",
+    "score": 0.957,
+    "flag": "ok"
+   },
+   {
+    "line": "Citizenship? Denied. Birth and marriage certificates? Withheld. Most jobs? Closed. Free government schools? Most Bidun children can't attend.",
+    "score": 0.944,
+    "flag": "ok"
+   },
+   {
+    "line": "Kuwait says many are hiding another nationality.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By the same definition used on Israel: is this apartheid? You decide.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel: one in five citizens is Arab. They vote. Arab parties won 19 seats. Arab judges sit on the Supreme Court.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Kuwait is rarely called apartheid. Israel is called it daily. Both have real problems. One standard.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, let's run the test again.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Kuwait, judge like Israel, ready? The test, the same apartheid definition used on Israel. Kuwait has more than 100,000 stateless Badoon. Many families have lived there for generations. Some served in its army and police. Citizenship denied. Birth and marriage certificates withheld. Most jobs closed. Free government schools. Most Badoon children can't attend. Kuwait says many are hiding another nationality. By the same definition used on Israel, is this apartheid? You decide. Israel. citizens is Arab. They vote. Arab parties won 19 seats. Arab judges sit on the Supreme Court. Kuwait is rarely called apartheid. Israel is called it daily. Both have real problems. One standard. If you love Israeli facts, follow Noam Ra's for more. So let's run the test again.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "scenes": 10,
+ "min_text_px": 38,
+ "lint_warnings": [
+  "hook has no number"
+ ],
+ "render_s": 73.5
+}
