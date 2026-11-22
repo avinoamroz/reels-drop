@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "*2* borders.|Only *1* gets asked.",
- "duration": 45.13,
+ "duration": 45.63,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/border_question_1_v2_r2.mp4",
@@ -134,14 +134,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Gaza has two borders. Only one ever gets the questions. One with Israel, 59 kilometers. One with Egypt, 13. This is the other one. Rafah. Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days and 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. Egypt also raised over 3,000 buildings for a buffer zone. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Roz for more. Because Gaza has two borders.",
+  "heard": "Gaza has two borders, only one ever gets the questions. One with Israel, 59 kilometers. One with Egypt, 13. This is the other one, Rafah, Egypt's gate. After Hamas took Gaza in 2007, Egypt kept it shut for long stretches. One UN count. Open 34 days and 11 months. In 2015, Egypt flooded the smuggling tunnels with seawater. Egypt also raised over 3,000 buildings for a buffer zone. In 2023, Egypt's president rejected moving Gazans into Sinai. Since May 2024, Israel holds the Gaza side. It reopened this February for limited foot traffic. Israel restricts Gaza too, and that deserves hard questions. But when did you last hear anyone ask Egypt? If you love Israeli facts, follow Noam Roz for more. Because Gaza has two borders.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "photos": [
   {
@@ -178,5 +178,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 96.3
+ "render_s": 97.3
 }
