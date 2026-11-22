@@ -1,572 +1,612 @@
 [
 {
 "word": "Thirty",
-"start": 0.17,
-"end": 0.588
+"start": 0.418,
+"end": 0.712
 },
 {
 "word": "eight",
-"start": 0.619,
-"end": 0.82
+"start": 0.712,
+"end": 0.867
 },
 {
 "word": "babies",
-"start": 0.82,
-"end": 1.238
+"start": 0.867,
+"end": 1.285
 },
 {
 "word": "in",
-"start": 1.238,
-"end": 1.393
+"start": 1.285,
+"end": 1.378
 },
 {
 "word": "every",
-"start": 1.393,
-"end": 1.749
+"start": 1.378,
+"end": 1.656
 },
 {
 "word": "thousand",
-"start": 1.749,
-"end": 2.353
+"start": 1.656,
+"end": 2.136
 },
 {
 "word": "died",
-"start": 2.353,
-"end": 2.771
+"start": 2.136,
+"end": 2.523
 },
 {
 "word": "before",
-"start": 2.802,
-"end": 3.096
+"start": 2.523,
+"end": 2.848
 },
 {
 "word": "their",
-"start": 3.096,
-"end": 3.22
+"start": 2.848,
+"end": 3.003
 },
 {
 "word": "first",
-"start": 3.22,
-"end": 3.468
+"start": 3.003,
+"end": 3.359
 },
 {
 "word": "birthday.",
-"start": 3.468,
-"end": 3.978
+"start": 3.359,
+"end": 3.87
 },
 {
 "word": "That",
-"start": 4.427,
-"end": 4.598
+"start": 4.164,
+"end": 4.505
 },
 {
 "word": "was",
-"start": 4.598,
-"end": 4.783
+"start": 4.505,
+"end": 4.768
 },
 {
 "word": "Israel",
-"start": 4.783,
-"end": 5.263
+"start": 4.799,
+"end": 5.341
 },
 {
 "word": "in",
-"start": 5.263,
-"end": 5.387
+"start": 5.341,
+"end": 5.464
 },
 {
 "word": "1960.",
-"start": 5.387,
-"end": 6.285
+"start": 5.464,
+"end": 6.362
 },
 {
 "word": "Britain",
-"start": 6.796,
-"end": 7.121
+"start": 6.873,
+"end": 7.198
 },
 {
 "word": "was",
-"start": 7.152,
-"end": 7.338
+"start": 7.198,
+"end": 7.353
 },
 {
 "word": "at",
-"start": 7.338,
-"end": 7.446
+"start": 7.353,
+"end": 7.492
 },
 {
 "word": "twenty",
-"start": 7.446,
-"end": 7.755
+"start": 7.492,
+"end": 7.802
 },
 {
 "word": "three.",
-"start": 7.755,
-"end": 8.112
+"start": 7.802,
+"end": 8.22
 },
 {
 "word": "Egypt",
-"start": 8.715,
-"end": 9.195
+"start": 8.545,
+"end": 8.994
 },
 {
 "word": "and",
-"start": 9.195,
-"end": 9.396
+"start": 8.994,
+"end": 9.211
 },
 {
 "word": "Turkey,",
-"start": 9.396,
-"end": 9.845
+"start": 9.211,
+"end": 9.69
 },
 {
 "word": "more",
-"start": 10.217,
-"end": 10.449
+"start": 9.752,
+"end": 10.016
 },
 {
 "word": "than",
-"start": 10.449,
-"end": 10.604
+"start": 10.016,
+"end": 10.17
 },
 {
 "word": "one",
-"start": 10.604,
-"end": 10.836
+"start": 10.17,
+"end": 10.464
 },
 {
 "word": "baby",
-"start": 10.836,
-"end": 11.146
+"start": 10.464,
+"end": 10.805
 },
 {
 "word": "in",
-"start": 11.146,
-"end": 11.238
+"start": 10.805,
+"end": 10.882
 },
 {
 "word": "six.",
-"start": 11.238,
-"end": 11.749
+"start": 10.882,
+"end": 11.455
 },
 {
 "word": "Then",
-"start": 12.229,
-"end": 12.461
+"start": 11.811,
+"end": 11.966
 },
 {
 "word": "the",
-"start": 12.461,
-"end": 12.554
+"start": 11.966,
+"end": 12.059
 },
 {
 "word": "whole",
-"start": 12.554,
-"end": 12.817
+"start": 12.059,
+"end": 12.322
 },
 {
 "word": "region",
-"start": 12.817,
-"end": 13.189
+"start": 12.322,
+"end": 12.694
 },
 {
 "word": "starts",
-"start": 13.189,
-"end": 13.483
+"start": 12.694,
+"end": 12.988
 },
 {
 "word": "racing",
-"start": 13.483,
-"end": 13.808
+"start": 12.988,
+"end": 13.344
 },
 {
 "word": "down.",
-"start": 13.808,
-"end": 14.211
-},
-{
-"word": "Turkey",
-"start": 14.799,
-"end": 15.139
-},
-{
-"word": "cuts",
-"start": 15.139,
-"end": 15.372
-},
-{
-"word": "its",
-"start": 15.372,
-"end": 15.526
-},
-{
-"word": "rate",
-"start": 15.526,
-"end": 15.759
-},
-{
-"word": "by",
-"start": 15.759,
-"end": 15.913
-},
-{
-"word": "ninety",
-"start": 15.913,
-"end": 16.177
-},
-{
-"word": "five",
-"start": 16.177,
-"end": 16.424
-},
-{
-"word": "percent.",
-"start": 16.424,
-"end": 16.842
-},
-{
-"word": "Egypt",
-"start": 17.384,
-"end": 17.771
-},
-{
-"word": "falls",
-"start": 17.771,
-"end": 18.189
-},
-{
-"word": "from",
-"start": 18.189,
-"end": 18.437
-},
-{
-"word": "one",
-"start": 18.437,
-"end": 18.793
-},
-{
-"word": "seventy",
-"start": 18.793,
-"end": 19.18
-},
-{
-"word": "three",
-"start": 19.18,
-"end": 19.427
-},
-{
-"word": "to",
-"start": 19.427,
-"end": 19.52
-},
-{
-"word": "twenty",
-"start": 19.52,
-"end": 19.814
-},
-{
-"word": "one.",
-"start": 19.814,
-"end": 20.047
-},
-{
-"word": "Iran,",
-"start": 20.712,
-"end": 21.316
-},
-{
-"word": "from",
-"start": 21.347,
-"end": 21.548
-},
-{
-"word": "eighty",
-"start": 21.579,
-"end": 21.827
-},
-{
-"word": "eight",
-"start": 21.827,
-"end": 21.951
-},
-{
-"word": "to",
-"start": 21.951,
-"end": 22.028
-},
-{
-"word": "ten.",
-"start": 22.028,
-"end": 22.369
-},
-{
-"word": "Lebanon",
-"start": 22.879,
-"end": 23.406
-},
-{
-"word": "goes",
-"start": 23.406,
-"end": 23.622
-},
-{
-"word": "the",
-"start": 23.622,
-"end": 23.746
-},
-{
-"word": "other",
-"start": 23.746,
-"end": 23.917
-},
-{
-"word": "way.",
-"start": 23.917,
-"end": 24.257
-},
-{
-"word": "Since",
-"start": 24.783,
-"end": 25.031
-},
-{
-"word": "2015,",
-"start": 25.031,
-"end": 25.898
-},
-{
-"word": "its",
-"start": 26.161,
-"end": 26.378
-},
-{
-"word": "crisis",
-"start": 26.378,
-"end": 26.796
-},
-{
-"word": "pushes",
-"start": 26.796,
-"end": 27.121
-},
-{
-"word": "the",
-"start": 27.121,
-"end": 27.214
-},
-{
-"word": "rate",
-"start": 27.214,
-"end": 27.415
-},
-{
-"word": "back",
-"start": 27.415,
-"end": 27.632
-},
-{
-"word": "up.",
-"start": 27.632,
-"end": 27.848
-},
-{
-"word": "Saudi",
-"start": 28.592,
-"end": 29.009
-},
-{
-"word": "Arabia",
-"start": 29.009,
-"end": 29.582
-},
-{
-"word": "and",
-"start": 29.582,
-"end": 29.768
-},
-{
-"word": "the",
-"start": 29.768,
-"end": 29.845
-},
-{
-"word": "UAE",
-"start": 29.845,
-"end": 30.248
-},
-{
-"word": "drop",
-"start": 30.248,
-"end": 30.511
-},
-{
-"word": "below",
-"start": 30.511,
-"end": 30.759
-},
-{
-"word": "five.",
-"start": 30.759,
-"end": 31.239
-},
-{
-"word": "America",
-"start": 31.827,
-"end": 32.276
-},
-{
-"word": "ends",
-"start": 32.276,
-"end": 32.523
-},
-{
-"word": "at",
-"start": 32.523,
-"end": 32.616
-},
-{
-"word": "five",
-"start": 32.616,
-"end": 32.879
-},
-{
-"word": "and",
-"start": 32.879,
-"end": 32.972
-},
-{
-"word": "a",
-"start": 32.972,
-"end": 33.003
-},
-{
-"word": "half.",
-"start": 33.003,
-"end": 33.39
-},
-{
-"word": "Britain",
-"start": 33.777,
-"end": 34.056
-},
-{
-"word": "at",
-"start": 34.056,
-"end": 34.164
-},
-{
-"word": "four",
-"start": 34.164,
-"end": 34.412
-},
-{
-"word": "point",
-"start": 34.412,
-"end": 34.644
-},
-{
-"word": "one.",
-"start": 34.644,
-"end": 34.954
-},
-{
-"word": "Which",
-"start": 35.728,
-"end": 35.914
-},
-{
-"word": "number",
-"start": 35.914,
-"end": 36.146
-},
-{
-"word": "surprised",
-"start": 36.146,
-"end": 36.579
-},
-{
-"word": "you",
-"start": 36.579,
-"end": 36.657
-},
-{
-"word": "most?",
-"start": 36.657,
-"end": 37.09
-},
-{
-"word": "Tell",
-"start": 37.616,
-"end": 37.833
-},
-{
-"word": "me",
-"start": 37.833,
-"end": 37.988
-},
-{
-"word": "in",
-"start": 37.988,
-"end": 38.05
-},
-{
-"word": "the",
-"start": 38.05,
-"end": 38.127
-},
-{
-"word": "comments.",
-"start": 38.127,
-"end": 38.731
-},
-{
-"word": "And",
-"start": 39.335,
-"end": 39.489
+"start": 13.344,
+"end": 13.746
 },
 {
 "word": "Israel",
-"start": 39.489,
-"end": 39.876
+"start": 14.009,
+"end": 14.458
 },
 {
-"word": "today?",
-"start": 39.876,
-"end": 40.232
+"word": "too:",
+"start": 14.458,
+"end": 14.876
 },
 {
-"word": "Two",
-"start": 40.712,
-"end": 40.898
+"word": "under",
+"start": 14.969,
+"end": 15.201
 },
 {
-"word": "point",
-"start": 40.898,
-"end": 41.099
+"word": "ten",
+"start": 15.201,
+"end": 15.449
 },
 {
-"word": "seven.",
-"start": 41.099,
-"end": 41.486
+"word": "by",
+"start": 15.449,
+"end": 15.573
 },
 {
-"word": "Down",
-"start": 41.827,
-"end": 42.059
+"word": "1990.",
+"start": 15.573,
+"end": 16.347
+},
+{
+"word": "Turkey",
+"start": 16.796,
+"end": 17.152
+},
+{
+"word": "cuts",
+"start": 17.152,
+"end": 17.43
+},
+{
+"word": "its",
+"start": 17.43,
+"end": 17.585
+},
+{
+"word": "rate",
+"start": 17.585,
+"end": 17.91
+},
+{
+"word": "by",
+"start": 17.941,
+"end": 18.081
+},
+{
+"word": "ninety",
+"start": 18.081,
+"end": 18.421
+},
+{
+"word": "five",
+"start": 18.421,
+"end": 18.653
+},
+{
+"word": "percent.",
+"start": 18.653,
+"end": 19.133
+},
+{
+"word": "Egypt",
+"start": 19.551,
+"end": 19.923
+},
+{
+"word": "falls",
+"start": 19.923,
+"end": 20.31
 },
 {
 "word": "from",
-"start": 42.059,
-"end": 42.214
+"start": 20.31,
+"end": 20.495
 },
 {
-"word": "thirty",
-"start": 42.214,
-"end": 42.477
+"word": "one",
+"start": 20.495,
+"end": 20.821
 },
 {
-"word": "eight.",
-"start": 42.477,
-"end": 42.694
+"word": "seventy",
+"start": 20.821,
+"end": 21.177
+},
+{
+"word": "three",
+"start": 21.177,
+"end": 21.471
+},
+{
+"word": "to",
+"start": 21.471,
+"end": 21.564
+},
+{
+"word": "twenty",
+"start": 21.564,
+"end": 21.873
+},
+{
+"word": "one.",
+"start": 21.873,
+"end": 22.198
+},
+{
+"word": "Iran,",
+"start": 22.74,
+"end": 23.251
+},
+{
+"word": "from",
+"start": 23.251,
+"end": 23.452
+},
+{
+"word": "eighty",
+"start": 23.483,
+"end": 23.762
+},
+{
+"word": "eight",
+"start": 23.762,
+"end": 23.901
+},
+{
+"word": "to",
+"start": 23.901,
+"end": 23.994
+},
+{
+"word": "ten.",
+"start": 23.994,
+"end": 24.365
+},
+{
+"word": "Lebanon",
+"start": 24.892,
+"end": 25.341
+},
+{
+"word": "goes",
+"start": 25.341,
+"end": 25.573
+},
+{
+"word": "the",
+"start": 25.573,
+"end": 25.666
+},
+{
+"word": "other",
+"start": 25.666,
+"end": 25.852
+},
+{
+"word": "way.",
+"start": 25.852,
+"end": 26.146
+},
+{
+"word": "Since",
+"start": 26.595,
+"end": 26.904
+},
+{
+"word": "2015,",
+"start": 26.904,
+"end": 27.771
+},
+{
+"word": "its",
+"start": 28.158,
+"end": 28.344
+},
+{
+"word": "crisis",
+"start": 28.344,
+"end": 28.793
+},
+{
+"word": "pushes",
+"start": 28.793,
+"end": 29.118
+},
+{
+"word": "the",
+"start": 29.118,
+"end": 29.211
+},
+{
+"word": "rate",
+"start": 29.211,
+"end": 29.427
+},
+{
+"word": "back",
+"start": 29.427,
+"end": 29.66
+},
+{
+"word": "up.",
+"start": 29.66,
+"end": 29.923
+},
+{
+"word": "Saudi",
+"start": 30.465,
+"end": 30.867
+},
+{
+"word": "Arabia",
+"start": 30.867,
+"end": 31.316
+},
+{
+"word": "and",
+"start": 31.316,
+"end": 31.455
+},
+{
+"word": "the",
+"start": 31.455,
+"end": 31.548
+},
+{
+"word": "UAE",
+"start": 31.548,
+"end": 31.935
+},
+{
+"word": "drop",
+"start": 31.935,
+"end": 32.245
+},
+{
+"word": "below",
+"start": 32.245,
+"end": 32.477
+},
+{
+"word": "five.",
+"start": 32.477,
+"end": 33.081
+},
+{
+"word": "America",
+"start": 33.499,
+"end": 33.979
+},
+{
+"word": "ends",
+"start": 34.009,
+"end": 34.304
+},
+{
+"word": "at",
+"start": 34.304,
+"end": 34.396
+},
+{
+"word": "five",
+"start": 34.396,
+"end": 34.706
+},
+{
+"word": "and",
+"start": 34.706,
+"end": 34.783
+},
+{
+"word": "a",
+"start": 34.783,
+"end": 34.845
+},
+{
+"word": "half.",
+"start": 34.845,
+"end": 35.325
+},
+{
+"word": "Britain",
+"start": 35.542,
+"end": 35.836
+},
+{
+"word": "at",
+"start": 35.836,
+"end": 35.96
+},
+{
+"word": "four",
+"start": 35.96,
+"end": 36.223
+},
+{
+"word": "point",
+"start": 36.223,
+"end": 36.44
+},
+{
+"word": "one.",
+"start": 36.471,
+"end": 36.796
+},
+{
+"word": "Which",
+"start": 37.105,
+"end": 37.307
+},
+{
+"word": "number",
+"start": 37.307,
+"end": 37.554
+},
+{
+"word": "surprised",
+"start": 37.554,
+"end": 38.003
+},
+{
+"word": "you",
+"start": 38.003,
+"end": 38.065
+},
+{
+"word": "most?",
+"start": 38.065,
+"end": 38.483
+},
+{
+"word": "Tell",
+"start": 38.932,
+"end": 39.133
+},
+{
+"word": "me",
+"start": 39.133,
+"end": 39.257
+},
+{
+"word": "in",
+"start": 39.257,
+"end": 39.35
+},
+{
+"word": "the",
+"start": 39.35,
+"end": 39.412
+},
+{
+"word": "comments.",
+"start": 39.412,
+"end": 40.031
+},
+{
+"word": "And",
+"start": 40.155,
+"end": 40.31
+},
+{
+"word": "Israel",
+"start": 40.31,
+"end": 40.697
+},
+{
+"word": "today?",
+"start": 40.697,
+"end": 41.177
+},
+{
+"word": "Two",
+"start": 41.533,
+"end": 41.78
+},
+{
+"word": "point",
+"start": 41.78,
+"end": 41.966
+},
+{
+"word": "seven.",
+"start": 42.013,
+"end": 42.462
+},
+{
+"word": "Fourteen",
+"start": 42.895,
+"end": 43.375
+},
+{
+"word": "times",
+"start": 43.375,
+"end": 43.669
+},
+{
+"word": "lower",
+"start": 43.669,
+"end": 43.963
+},
+{
+"word": "than",
+"start": 43.963,
+"end": 44.118
+},
+{
+"word": "in",
+"start": 44.118,
+"end": 44.211
+},
+{
+"word": "1960.",
+"start": 44.211,
+"end": 45.047
 }
 ]

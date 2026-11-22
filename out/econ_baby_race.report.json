@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "data_race",
  "hook": "*38* babies in *1,000.*|Now?",
- "duration": 42.77,
+ "duration": 46.37,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/econ_baby_race.mp4",
@@ -36,7 +36,7 @@
   }
  ],
  "transcript": {
-  "score": 0.967,
+  "score": 0.971,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -50,7 +50,7 @@
     "flag": "ok"
    },
    {
-    "line": "Then the whole region starts racing down.",
+    "line": "Then the whole region starts racing down. Israel too: under ten by 1990.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -90,20 +90,20 @@
     "flag": "ok"
    },
    {
-    "line": "Two point seven. Down from thirty eight.",
+    "line": "Two point seven. Fourteen times lower than in 1960.",
     "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "38 babies and every thousand died before their first birthday. That was Israel in 1960. Britain was at 23. Egypt and Turkey. More than one baby in six. Then the whole region starts racing down. Turkey cuts its rate by 95%. Egypt falls from 173 to 21. Iran from 88 to 10. Lebanon goes the other way. Since 2015, its crisis pushes the rate back up. Saudi Arabia and the UAE drop below 5. America ends at 5.5, Britain at 4.1. Which number surprised you most? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. And Israel today, 2.7, down from 38.",
+  "heard": "38 babies and every thousand died before their first birthday. That was Israel in 1960. Britain was at 23. Egypt and Turkey, more than one baby in six. Then the whole region starts racing down. Israel too, under 10 by 1990. Turkey cuts its rate by 95%. Egypt falls from 173 to 21. Iran from 88 to 10. Lebanon goes the other way. Since 2015, its crisis pushes the rate back up. Saudi Arabia and the UAE drop below 5. America ends at 5.5, Britain at 4.1. Which number surprised you most? Tell me in the comments. If you love Israeli facts, follow Noam Ra's for more. And Israel today, 2.7, 14 times lower than in 1960.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 88.1
+ "render_s": 73.4
 }
