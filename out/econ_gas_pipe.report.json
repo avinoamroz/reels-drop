@@ -42,7 +42,7 @@
   }
  ],
  "transcript": {
-  "score": 0.989,
+  "score": 0.983,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -102,7 +102,7 @@
    },
    {
     "line": "Can energy make peace last longer? Tell me in the comments.",
-    "score": 1.0,
+    "score": 0.909,
     "flag": "ok"
    },
    {
@@ -116,7 +116,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "One pipeline under the Sinai coast. In 2020, the gas started flowing the other way. 2008, Egypt sells gas to Israel through this pipe from El Arish to Ashkelon. In 2011 and 2012, attackers in Sinai blow up the line again and again. In 2012, Egypt cancels a deal. But Israel has already struck gas at sea. Tamar. In 2009, Leviathan in 2010. Tamar starts pumping in 2013. Leviathan at the end of 2019. January 2020, the old pipe runs in reverse. Israeli gas flows into Egypt. Jordan gets Israeli gas too. In 2024, Israel produces a wreck 27.4 billion cubic meters. Almost half goes abroad. 13.1 billion to Egypt and Jordan. Egypt buys about 10 billion a year. Jordan about three. Can energy make peace last longer? Tell me in the comments. If you love Israeli facts, follow. Noam Roz for more, same pipe, same desert, just flowing the other way.",
+  "heard": "One pipeline under the Sinai coast. In 2020, the gas started flowing the other way. 2008, Egypt sells gas to Israel through this pipe from El Arish to Ashkelon. In 2011 and 2012, attackers in Sinai blow up the line again and again. In 2012, Egypt cancels a deal. But Israel has already struck gas at sea. Tamar. In 2009, Leviathan in 2010. Tamar starts pumping in 2013. Leviathan at the end of 2019. January 2020. The old pipe runs in reverse. Israeli gas flows into Egypt. Jordan gets Israeli gas too. In 2024, Israel produces a wreck 27.4 billion cubic meters. Almost half goes abroad. 13.1 billion to Egypt and Jordan. Egypt buys about 10 billion a year. Jordan about 3. Can energy make peace last longer? Tell me the comments. If you love Israeli facts, follow Noam Roz for more. Same pipe, same desert, just flowing the other way.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -132,5 +132,5 @@
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 158.4
+ "render_s": 274.0
 }
