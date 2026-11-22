@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "We desire *death.*|Their words.",
- "duration": 47.13,
+ "duration": 48.53,
  "audio": {
   "lufs": -16.1,
   "true_peak": -2.0
@@ -53,7 +53,7 @@
   }
  ],
  "transcript": {
-  "score": 0.88,
+  "score": 0.95,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -62,9 +62,9 @@
     "flag": "ok"
    },
    {
-    "line": "February 2008. <<h|ɑ|ˈ|m|ɑ|s>> leader Fathi Hammad, speaking on <<h|ɑ|ˈ|m|ɑ|s>> television.",
-    "score": 0.588,
-    "flag": "MISS"
+    "line": "February 2008. HAMAS leader Fathi Hammad, speaking on HAMAS television.",
+    "score": 0.846,
+    "flag": "ok"
    },
    {
     "line": "He praised human shields. Women, children, the elderly.",
@@ -92,13 +92,13 @@
     "flag": "ok"
    },
    {
-    "line": "<<h|ɑ|ˈ|m|ɑ|s>> built tunnels under Gaza. Who were they for?",
-    "score": 0.727,
-    "flag": "MISS"
+    "line": "HAMAS built tunnels under Gaza. Who were they for?",
+    "score": 0.889,
+    "flag": "ok"
    },
    {
-    "line": "October 2023. <<h|ɑ|ˈ|m|ɑ|s>> official Mousa Abu Marzouk answered on camera.",
-    "score": 0.75,
+    "line": "October 2023. HAMAS official Mousa Abu Marzouk answered on camera.",
+    "score": 0.786,
     "flag": "MISS"
    },
    {
@@ -112,8 +112,8 @@
     "flag": "ok"
    },
    {
-    "line": "This is about <<h|ɑ|ˈ|m|ɑ|s>>, not the Palestinian people. Parents in Gaza want their kids to live too.",
-    "score": 0.842,
+    "line": "This is about HAMAS, not the Palestinian people. Parents in Gaza want their kids to live too.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -127,7 +127,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "We desire death. Those are their words, not mine. February 2008, Hamas leader Fathi Hamid, speaking on Hamas television, he praised human shields, women, children, the elderly, and he gave the reason. We desire death like you desire life. Israel built the opposite. Every new Israeli home must have a safe room. Iron Dome shoots down rockets fired at towns. Hamas built tunnels under Gaza. Who were they for? October 2023. Hamas official, Moussa Abu Marzouk answered on camera, These tunnels are meant to protect us from the airplanes. And the civilians. He said the United Nations must protect them. This is about Hamas, not the Palestinian people. Parents in Gaza want their kids to live too. So, can there be peace while a leadership chooses death? If you love Israeli facts, follow Noam Roz for more. Because they said it out loud.",
+  "heard": "We desire death, those are their words not mine. February 2008, Hamas leader Fati Hamid speaking on Hamas television He praised human shields women children the elderly and he gave the reason we desire death like you desire life Israel built the opposite every new Israeli home must have a safe room Iron Dome shoots down rockets fired at towns Hamas built tunnels under Gaza. Who are they for? October 2023 Hamas' official Mausa Abu Marzuk answered on camera. These tunnels are meant to protect us from the airplanes, and the civilians. He said the United Nations must protect them. This is about Hamas, not the Palestinian people. Parents in Gaza want their kids to live too. So can there be peace while a leadership chooses death? If you love Israeli facts, follow Noam Roz for more. Because they said it out loud.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -159,7 +159,7 @@
   },
   {
    "file": "templates/photos/israel_family_dinner/beach.jpg",
-   "credit": "Tel Aviv: Dan Harrelson, CC BY 2.0, Wikimedia Commons"
+   "credit": "Tel Aviv: D. Harrelson, CC BY 2.0, Commons"
   },
   {
    "file": "templates/photos/what_others_did/gaza.jpg",
@@ -169,5 +169,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 101.3
+ "render_s": 134.4
 }
