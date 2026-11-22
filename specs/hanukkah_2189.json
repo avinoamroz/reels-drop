@@ -1,0 +1,256 @@
+{
+ "id": "hanukkah_2189",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "Lit in Jerusalem|*2,189* years ago",
+ "music": {
+  "bed": "warm",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "Lit in Jerusalem, two thousand one hundred eighty nine years ago. Here's the story.",
+   "gap": 0.2
+  },
+  {
+   "say": "167 BCE. The Seleucid king, Antiochus the Fourth, bans Jewish practice and defiles the Temple in Jerusalem.",
+   "screen": "*167 BCE:* the Temple defiled"
+  },
+  {
+   "say": "In a village called Modi'in, a priest named Mattathias and his sons say no.",
+   "screen": "*Modi'in:* the revolt begins"
+  },
+  {
+   "say": "His son Judah, the Maccabee, leads the revolt.",
+   "screen": "Judah *the Maccabee*"
+  },
+  {
+   "say": "164 BCE. They retake Jerusalem and rededicate the Temple, on the twenty fifth of Kislev.",
+   "screen": "*164 BCE:* the Temple rededicated"
+  },
+  {
+   "say": "That's Hanukkah. Eight nights of light.",
+   "screen": "*8* nights of light"
+  },
+  {
+   "say": "Today, Modi'in is an Israeli city again. A hundred thousand people.",
+   "screen": "Modi'in today: *100,052* people"
+  },
+  {
+   "say": "And Jews still light the candles by the Western Wall of that Temple.",
+   "screen": "Still lit at the *Western Wall*"
+  },
+  {
+   "say": "This year, Hanukkah starts on December 4.",
+   "screen": "*4 Dec 2026:* the first candle"
+  },
+  {
+   "say": "The same hill is holy to Muslims too, who call it the Noble Sanctuary.",
+   "screen": "Holy to *Muslims* too"
+  },
+  {
+   "say": "What's your favourite Hanukkah tradition? Tell me below.",
+   "screen": "Your *favourite* tradition?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Because the first Hanukkah lights were",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cut": 0.25,
+  "hook_y": 900,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "templates/photos/n8/n8_han_wall.jpg",
+    "at": 0.0,
+    "credit": "Hanukkah at the Western Wall: Oren Rozen, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_han_model.jpg",
+    "at": "L1",
+    "credit": "Model of Second Temple Jerusalem, Israel Museum: Oren Rozen, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.18
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_han_tombs.jpg",
+    "at": "L2",
+    "credit": "'Tombs of the Maccabees', near Modi'in: Bukvoed, CC BY 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_han_model.jpg",
+    "at": "L4",
+    "credit": "Model of Second Temple Jerusalem, Israel Museum: Oren Rozen, CC BY-SA 4.0",
+    "kb": [
+     0.55,
+     0.45,
+     1.2,
+     0.6,
+     0.4,
+     1.45
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_han_coin.jpg",
+    "at": "L5",
+    "credit": "Hasmonean coin, about 100 BCE: Atzmonit, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_han_modiin.jpg",
+    "at": "L6",
+    "credit": "Modi'in: Davidi Vardi, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_han_wall.jpg",
+    "at": "L7",
+    "credit": "Hanukkah at the Western Wall: Oren Rozen, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.2
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_han_model.jpg",
+    "at": "L9",
+    "credit": "Model of Second Temple Jerusalem, Israel Museum: Oren Rozen, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.15,
+     0.5,
+     0.5,
+     1.0
+    ],
+    "dim": 0.45
+   },
+   {
+    "file": "templates/photos/n8/n8_han_wall.jpg",
+    "at": "L12-0.2",
+    "credit": "Hanukkah at the Western Wall: Oren Rozen, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.0
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L4:rededicate",
+    "until": "L5-0.1",
+    "value": 2189,
+    "from": 0,
+    "suffix": " years",
+    "sub": "164 BCE to 2026",
+    "y": 1000
+   },
+   {
+    "at": "L6:hundred",
+    "until": "L7-0.1",
+    "value": 100052,
+    "from": 0,
+    "sub": "Modi'in, Israel CBS 2024",
+    "y": 1000
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Britannica, Hanukkah",
+   "year": 2024,
+   "at": "L1",
+   "until": "L6"
+  },
+  {
+   "label": "1 Maccabees 2 (Modi'in)",
+   "year": "",
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Israel CBS",
+   "year": 2024,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Hebcal",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "The same hill is *holy to Muslims* too."
+ },
+ "caption_en": "This holiday only makes sense in one city. 🕎\n\n167 BCE: the Seleucid king Antiochus IV bans Jewish practice and defiles the Temple in Jerusalem.\nIn Modi'in, the priest Mattathias and his sons rise up (1 Maccabees 2). His son Judah, the Maccabee, leads the revolt.\n164 BCE: they retake Jerusalem and rededicate the Temple on the 25th of Kislev (Britannica). That's Hanukkah: 2,189 years ago.\nToday Modi'in is an Israeli city again: 100,052 people (Israel CBS, 2024). And Jews still light the candles by the Western Wall.\nThis year Hanukkah starts at sundown on Friday 4 Dec 2026 (Hebcal).\n\nThe same hill is holy to Muslims too, who call it the Noble Sanctuary.\n\nWhat's your favourite Hanukkah tradition? Tell me below.\n\nSources: Britannica, Hanukkah; 1 Maccabees 2; Israel CBS (2024); Hebcal (2026).\nPhotos (Wikimedia Commons): Oren Rozen (CC BY-SA 3.0, CC BY-SA 4.0); Bukvoed (CC BY 3.0); Atzmonit (CC BY-SA 4.0); Davidi Vardi, PikiWiki (CC BY 2.5). AI voice.",
+ "caption_he": "הודלק בירושלים לפני 2,189 שנה.\n167 לפנה\"ס: המלך הסלבקי אנטיוכוס הרביעי אוסר על קיום מצוות ומטמא את בית המקדש.\nבמודיעין מתתיהו ובניו מורדים, ויהודה המכבי מוביל את המרד.\n164 לפנה\"ס: הם משחררים את ירושלים ומטהרים את המקדש בכ\"ה בכסלו. זו חנוכה.\nהיום מודיעין היא שוב עיר בישראל, עם 100,052 תושבים, ויהודים עדיין מדליקים נרות ליד הכותל.\nהשנה חנוכה מתחילה ב 4 בדצמבר. אותה גבעה קדושה גם למוסלמים.\nמה המנהג האהוב עליכם בחנוכה? כתבו לי.",
+ "hashtags": [
+  "#Hanukkah",
+  "#Jerusalem",
+  "#JewishHistory"
+ ],
+ "cover": {
+  "t": 1.0,
+  "big": "2,189",
+  "text": "years ago.|Lit in *Jerusalem*"
+ }
+}

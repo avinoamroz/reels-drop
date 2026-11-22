@@ -1,0 +1,416 @@
+{
+ "id": "entebbe_4000km",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*4,000* km.|Under *1* hour.",
+ "opener": {
+  "style": "globe_spin_fast"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "Four thousand kilometres. Under one hour on the ground.",
+   "gap": 0.2
+  },
+  {
+   "say": "June 27, 1976. Air France flight 139, from Tel Aviv to Paris, is hijacked after a stop in Athens.",
+   "screen": "*27 Jun 1976:* Air France 139"
+  },
+  {
+   "say": "The hijackers, from the PFLP, the Popular Front for the Liberation of Palestine, and German radicals, fly it to Entebbe, Uganda.",
+   "screen": "Hijacked to *Entebbe, Uganda*"
+  },
+  {
+   "say": "There they split the passengers. Israelis and Jews on one side. The others are set free.",
+   "screen": "Israelis and Jews: *kept*"
+  },
+  {
+   "say": "The French captain, Michel Bacos, is told he can go. He refuses. His whole crew stays.",
+   "screen": "The French crew: *we stay*"
+  },
+  {
+   "say": "July 3. Four Israeli Hercules planes fly four thousand kilometres south.",
+   "screen": "*4* Hercules. *4,000* km."
+  },
+  {
+   "say": "They land at night. Within an hour, the hostages are free.",
+   "screen": "Within *an hour:* free"
+  },
+  {
+   "say": "Over a hundred hostages, flown home.",
+   "screen": "*100+* hostages home"
+  },
+  {
+   "say": "Three hostages were killed. So was the commander, Yoni Netanyahu.",
+   "screen": "*3* hostages and *1* commander killed"
+  },
+  {
+   "say": "Would your country fly four thousand kilometres for you? Tell me below.",
+   "screen": "Would your country *fly for you?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Because that's how far they flew.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   34.0,
+   17.0,
+   34.0
+  ],
+  "hook_y": 900,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     29.0,
+     34.5,
+     16.0,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L2-0.2",
+    "view": [
+     34.0,
+     17.0,
+     34.0,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L11-0.2",
+    "view": [
+     34.0,
+     17.0,
+     34.0,
+     1000
+    ],
+    "dur": 1.0
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1",
+    "until": "L2",
+    "lon": 34.88,
+    "lat": 32.0,
+    "label": "Tel Aviv",
+    "color": "yellow"
+   },
+   {
+    "at": "L1:athens",
+    "until": "L2",
+    "lon": 23.94,
+    "lat": 37.94,
+    "label": "Athens",
+    "color": "red"
+   },
+   {
+    "at": "L2:entebbe",
+    "until": "L9",
+    "lon": 32.44,
+    "lat": 0.05,
+    "label": "Entebbe",
+    "color": "red"
+   },
+   {
+    "at": "L5",
+    "until": "L9",
+    "lon": 34.88,
+    "lat": 32.0,
+    "label": "Israel",
+    "color": "yellow"
+   }
+  ],
+  "routes": [
+   {
+    "at": "L1:athens",
+    "until": "L2",
+    "path": [
+     [
+      34.88,
+      32.0
+     ],
+     [
+      23.94,
+      37.94
+     ]
+    ],
+    "kind": "line",
+    "draw": 1.0
+   },
+   {
+    "at": "L2:entebbe",
+    "until": "L3",
+    "path": [
+     [
+      23.94,
+      37.94
+     ],
+     [
+      29.0,
+      31.5
+     ],
+     [
+      31.5,
+      20.0
+     ],
+     [
+      32.5,
+      10.0
+     ],
+     [
+      32.44,
+      0.05
+     ]
+    ],
+    "kind": "line",
+    "color": "#D9534F",
+    "draw": 1.4
+   },
+   {
+    "at": "L5:fly",
+    "until": "L8",
+    "path": [
+     [
+      34.88,
+      32.0
+     ],
+     [
+      34.6,
+      28.0
+     ],
+     [
+      37.0,
+      22.0
+     ],
+     [
+      39.5,
+      16.0
+     ],
+     [
+      38.5,
+      10.0
+     ],
+     [
+      35.0,
+      4.0
+     ],
+     [
+      32.44,
+      0.05
+     ]
+    ],
+    "kind": "flow",
+    "draw": 2.2,
+    "label": "4,000 km",
+    "label_at": [
+     40.5,
+     12.0
+    ]
+   }
+  ],
+  "icons": [
+   {
+    "at": "L5:fly",
+    "until": "L7",
+    "lon": 38.6,
+    "lat": 18.0,
+    "emo": "✈️",
+    "size": 90
+   }
+  ],
+  "counter": [
+   {
+    "label": "km flown, 3 July 1976",
+    "at": "L5",
+    "until": "L6-0.1",
+    "y": 1330,
+    "steps": [
+     {
+      "at": "L5",
+      "value": 0
+     },
+     {
+      "at": "L5e",
+      "value": 4000
+     }
+    ]
+   },
+   {
+    "label": "Hostages rescued",
+    "at": "L7",
+    "until": "L8-0.1",
+    "y": 1330,
+    "steps": [
+     {
+      "at": "L7",
+      "text": "100+"
+     }
+    ]
+   }
+  ],
+  "dim": [
+   {
+    "at": "L8",
+    "until": "L11"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/n8/n8_ent_term.jpg",
+    "at": "L3",
+    "until": "L4e+0.1",
+    "credit": "Old terminal, Entebbe, 2009: US Army, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ent_herc.jpg",
+    "at": "L5:hercules",
+    "until": "L5e+0.1",
+    "credit": "IAF Hercules: Oren Rozen, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ent_tower.jpg",
+    "at": "L6",
+    "until": "L6e+0.1",
+    "credit": "Entebbe old tower: Micha Sender, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ent_home.jpg",
+    "at": "L7:flown",
+    "until": "L7e+0.2",
+    "credit": "Hostages home, 1976: Moshe Milner, GPO, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ent_yoni.jpg",
+    "at": "L8",
+    "until": "L8e+0.1",
+    "credit": "Yoni Netanyahu memorial: Israel Preker, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   }
+  ],
+  "photo_box": [
+   60,
+   560,
+   960,
+   640,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L10",
+    "until": "L10e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Britannica, Entebbe raid",
+   "year": 2024,
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "NPR, Michel Bacos obituary",
+   "year": 2019,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Britannica, Entebbe raid",
+   "year": 2024,
+   "at": "L5",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L8",
+  "balance": "*3* hostages and *1* commander didn't come home."
+ },
+ "caption_en": "The crew that refused to leave is the part nobody remembers. ✈️\n\n27 Jun 1976: Air France flight 139, Tel Aviv to Paris, is hijacked after a stop in Athens by members of the PFLP (Popular Front for the Liberation of Palestine) and German radicals, and flown to Entebbe, Uganda.\nThe hijackers separate the Israeli and Jewish passengers; the others are set free (Britannica). Captain Michel Bacos is told he can leave. He refuses: \"I told my crew that we must stay until the end.\" His whole crew stays (NPR, 2019).\n3 to 4 Jul 1976: four Israeli Hercules planes fly about 4,000 km. Within an hour of landing the hostages are free; over 100 come home (Britannica).\n\nThree hostages were killed, and so was the commander, Yoni Netanyahu.\n\nWould your country fly 4,000 km for you? Tell me below.\n\nSources: Britannica, Entebbe raid; NPR (2019).\nPhotos (Wikimedia Commons): US Army (public domain); Oren Rozen (CC BY-SA 4.0); Micha Sender (CC BY-SA 3.0); Moshe Milner, GPO (CC BY-SA 3.0); Israel Preker, PikiWiki (CC BY 2.5). Map: Natural Earth. AI voice.",
+ "caption_he": "4,000 ק\"מ. פחות משעה על הקרקע.\n27 ביוני 1976: טיסת אייר פראנס 139 מתל אביב לפריז נחטפת אחרי עצירה באתונה, ומוטסת לאנטבה שבאוגנדה.\nהחוטפים מפרידים את הישראלים והיהודים, ומשחררים את השאר. הקברניט הצרפתי מישל בקוס מסרב לעזוב, וכל הצוות נשאר איתו.\nב 3 ביולי ארבעה מטוסי הרקולס טסים כ 4,000 ק\"מ. תוך שעה מהנחיתה בני הערובה חופשיים, ויותר מ 100 חוזרים הביתה.\nשלושה בני ערובה נהרגו, וגם המפקד, יוני נתניהו.\nהמדינה שלכם הייתה טסה 4,000 ק\"מ בשבילכם? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#Entebbe",
+  "#History"
+ ],
+ "cover": {
+  "t": 21.0,
+  "big": "4,000 km",
+  "text": "Under *1* hour.|How?"
+ }
+}

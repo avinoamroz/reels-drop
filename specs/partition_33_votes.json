@@ -1,0 +1,938 @@
+{
+ "id": "partition_33_votes",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*33* votes made|a country?",
+ "opener": {
+  "style": "globe_spin_whip"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "subs_replace": {
+  "U.N.": "UN"
+ },
+ "lines": [
+  {
+   "say": "Thirty three votes. Did they make a country?",
+   "gap": 0.2
+  },
+  {
+   "say": "November 29, 1947. The U.N. votes on splitting British ruled Palestine in two.",
+   "screen": "*29 Nov 1947:* the UN votes"
+  },
+  {
+   "say": "One Jewish state. One Arab state. And Jerusalem, under the U.N.",
+   "screen": "*2* states. Jerusalem: *international*"
+  },
+  {
+   "say": "Thirty three countries vote yes. Even the United States and the Soviet Union agree.",
+   "screen": "*33* yes: the US *and* the USSR"
+  },
+  {
+   "say": "Thirteen vote no. Among them, every Arab member state.",
+   "screen": "*13* no: all *6* Arab members"
+  },
+  {
+   "say": "Ten abstain. Britain, the ruling power, is one of them.",
+   "screen": "*10* abstain, Britain too"
+  },
+  {
+   "say": "Jewish leaders accept the plan. Arab leaders reject it.",
+   "screen": "Jewish leaders: *yes.* Arab leaders: *no.*"
+  },
+  {
+   "say": "Violence starts almost at once. Six months later, full war.",
+   "screen": "Then: *war*"
+  },
+  {
+   "say": "That war cost both peoples dearly. Hundreds of thousands of Palestinian Arabs became refugees.",
+   "screen": "Both peoples paid a *price*"
+  },
+  {
+   "say": "Was partition the right call? Tell me below.",
+   "screen": "Partition: *the right call?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "And it all came down to thirty three votes.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   20.0,
+   25.0,
+   220.0
+  ],
+  "hook_y": 900,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     -73.85,
+     40.74,
+     30.0,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L2-0.2",
+    "view": [
+     35.0,
+     31.6,
+     4.2,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L3-0.2",
+    "view": [
+     20.0,
+     25.0,
+     220.0,
+     1000
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     35.0,
+     31.6,
+     5.0,
+     1000
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L11-0.2",
+    "view": [
+     20.0,
+     25.0,
+     220.0,
+     1000
+    ],
+    "dur": 1.2
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1",
+    "until": "L2",
+    "lon": -73.85,
+    "lat": 40.74,
+    "label": "Flushing Meadows, New York",
+    "color": "yellow"
+   },
+   {
+    "at": "L2:jerusalem",
+    "until": "L3",
+    "lon": 35.21,
+    "lat": 31.77,
+    "label": "Jerusalem",
+    "color": "yellow"
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "AUS",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "BEL",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "BOL",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "BRA",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "BLR",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "CAN",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "CRI",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "CZE",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "SVK",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "DNK",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "DOM",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "ECU",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "FRA",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "GTM",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "HTI",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "ISL",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "LBR",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "LUX",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "NLD",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "NZL",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "NIC",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "NOR",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "PAN",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "PRY",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "PER",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "PHL",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "POL",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "SWE",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "UKR",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "ZAF",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "URY",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "VEN",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "RUS",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "KAZ",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "UZB",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "TKM",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "KGZ",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "TJK",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "ARM",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "AZE",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "GEO",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "MDA",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "LTU",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "LVA",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L3:thirty",
+    "until": "L7",
+    "code": "EST",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "AFG",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "CUB",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "EGY",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "GRC",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "IND",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "IRN",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "IRQ",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "LBN",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "PAK",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "BGD",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "SAU",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "SYR",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "TUR",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:thirteen",
+    "until": "L7",
+    "code": "YEM",
+    "color": "#D9534F",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "ARG",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "CHL",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "CHN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "COL",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "SLV",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "ETH",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "ERI",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "HND",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "MEX",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "GBR",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "SRB",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "HRV",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "BIH",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "SVN",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "MKD",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "MNE",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:ten",
+    "until": "L7",
+    "code": "KOS",
+    "color": "#8C97AA",
+    "alpha": 0.9,
+    "flash": "#FFFFFF"
+   }
+  ],
+  "counter": [
+   {
+    "label": "UN votes, 29 Nov 1947",
+    "of": 56,
+    "at": "L3",
+    "until": "L6-0.1",
+    "y": 1330,
+    "steps": [
+     {
+      "at": "L3:thirty",
+      "text": "33 yes"
+     },
+     {
+      "at": "L4:thirteen",
+      "text": "33 yes, 13 no"
+     },
+     {
+      "at": "L5:ten",
+      "text": "33 / 13 / 10"
+     }
+    ]
+   }
+  ],
+  "bars": [
+   {
+    "at": "L5e",
+    "until": "L6e",
+    "y": 640,
+    "vmax": 33,
+    "rows": [
+     {
+      "label": "Yes",
+      "value": 33,
+      "txt": "33",
+      "hl": true
+     },
+     {
+      "label": "No",
+      "value": 13,
+      "txt": "13"
+     },
+     {
+      "label": "Abstain",
+      "value": 10,
+      "txt": "10"
+     }
+    ]
+   }
+  ],
+  "dim": [
+   {
+    "at": "L5e",
+    "until": "L6e"
+   },
+   {
+    "at": "L8",
+    "until": "L11"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/n8/n8_par_queens.jpg",
+    "at": "L1:votes",
+    "until": "L1e+0.1",
+    "credit": "UN General Assembly, Flushing Meadows, 1947: public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_par_jlm.jpg",
+    "at": "L6",
+    "until": "L6e+0.1",
+    "credit": "Jerusalem, after the vote: Moshe Marlin Levin, NLI, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_par_gate.jpg",
+    "at": "L9",
+    "until": "L9e+0.1",
+    "credit": "Gate of Nations, Rishon LeZion: Nizzan Cohen, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   }
+  ],
+  "photo_box": [
+   60,
+   560,
+   960,
+   640,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L10",
+    "until": "L10e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "UN GA Resolution 181; Britannica",
+   "year": 1947,
+   "at": "L1",
+   "until": "L7"
+  },
+  {
+   "label": "Jewish Virtual Library, vote list",
+   "year": 2024,
+   "at": "L3",
+   "until": "L6"
+  },
+  {
+   "label": "Britannica, Arab Israeli wars",
+   "year": 2024,
+   "at": "L7",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L8",
+  "balance": "Both peoples paid a *price.*"
+ },
+ "caption_en": "Most people have never seen how this vote went. 🗳️\n\n29 Nov 1947: the UN General Assembly votes on Resolution 181, splitting British ruled Palestine into a Jewish state and an Arab state, with Jerusalem under an international regime.\n✅ 33 yes, including the United States AND the Soviet Union.\n❌ 13 no, including all 6 Arab member states (Egypt, Iraq, Lebanon, Saudi Arabia, Syria, Yemen).\n➖ 10 abstain, including Britain, the ruling power.\nJewish leaders accepted the plan, Arab leaders rejected it (Britannica). Violence started almost at once; in May 1948 it became a full war.\n\nThat war cost both peoples dearly: hundreds of thousands of Palestinian Arabs became refugees.\n\nWas partition the right call? Tell me below.\n\nSources: UN GA Resolution 181 (1947); Britannica, United Nations Resolution 181 and Arab Israeli wars; Jewish Virtual Library (vote list).\nPhotos (Wikimedia Commons): UN General Assembly, Flushing Meadows, 1947 (public domain); Moshe Marlin Levin, NLI (CC BY 4.0); Nizzan Cohen (CC BY 4.0). Map: Natural Earth. AI voice.",
+ "caption_he": "33 קולות. האם הם יצרו מדינה?\n29 בנובמבר 1947: עצרת האו\"ם מצביעה על החלטה 181, חלוקת ארץ ישראל המנדטורית למדינה יהודית ומדינה ערבית, וירושלים בניהול בינלאומי.\n33 בעד, כולל ארה\"ב וגם ברית המועצות. 13 נגד, כולל כל 6 המדינות הערביות החברות. 10 נמנעו, ובהן בריטניה.\nההנהגה היהודית קיבלה, ההנהגה הערבית דחתה. האלימות פרצה מיד, ובמאי 1948 הפכה למלחמה.\nהמלחמה גבתה מחיר כבד משני העמים: מאות אלפי ערבים פלסטינים הפכו לפליטים.\nהחלוקה הייתה ההחלטה הנכונה? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#UN",
+  "#History"
+ ],
+ "cover": {
+  "t": 9.0,
+  "big": "33",
+  "text": "votes made|*a country?*"
+ }
+}

@@ -1,0 +1,260 @@
+{
+ "id": "arab_judge_president",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*1* Arab judge.|*1* jailed president.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "One Arab judge. One former president, sent to prison.",
+   "gap": 0.2
+  },
+  {
+   "say": "December 30, 2010. Tel Aviv. Israel's former president, Moshe Katsav, hears the verdict.",
+   "screen": "*30 Dec 2010:* Tel Aviv District Court"
+  },
+  {
+   "say": "The judge leading the panel: George Karra. An Arab Christian, born in Jaffa.",
+   "screen": "Presiding: Judge *George Karra*"
+  },
+  {
+   "say": "The verdict: guilty, of rape and other sexual offences.",
+   "screen": "Verdict: *guilty*"
+  },
+  {
+   "say": "The sentence: seven years in prison.",
+   "screen": "*7* years in prison"
+  },
+  {
+   "say": "Katsav appeals to the Supreme Court. One of the three justices: Salim Joubran, also an Arab citizen.",
+   "screen": "Appeal panel: Justice *Salim Joubran*"
+  },
+  {
+   "say": "November 2011: the appeal is rejected. Unanimously.",
+   "screen": "*Nov 2011:* appeal rejected, *3 to 0*"
+  },
+  {
+   "say": "December 2011: Israel's former head of state walks into prison.",
+   "screen": "*Dec 2011:* into prison"
+  },
+  {
+   "say": "And Judge Karra? In 2017, he joined Israel's Supreme Court.",
+   "screen": "*2017:* Karra joins the Supreme Court"
+  },
+  {
+   "say": "No single case proves equality. Israel's civil service target for Arab staff is just ten percent, unchanged since 2008.",
+   "screen": "Arab staff target: just *10%*"
+  },
+  {
+   "say": "Could this happen in your country? Tell me below.",
+   "screen": "Could it happen *where you live?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So here's the headline nobody shares.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cut": 0.25,
+  "hook_y": 900,
+  "title_y": 300,
+  "photos": [
+   {
+    "file": "templates/photos/n8/npz_court.jpg",
+    "at": 0.0,
+    "credit": "Supreme Court of Israel: Fallaner, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_jud_katsav.jpg",
+    "at": "L1:moshe",
+    "credit": "Moshe Katsav (right) as president: Amos Ben Gershom, GPO, CC BY-SA 3.0",
+    "kb": [
+     0.8,
+     0.45,
+     1.0,
+     0.82,
+     0.45,
+     1.1
+    ]
+   },
+   {
+    "file": "templates/photos/n8/npz_court2.jpg",
+    "at": "L2",
+    "credit": "Supreme Court of Israel: israeltourism, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/npz_court.jpg",
+    "at": "L5",
+    "credit": "Supreme Court of Israel: Fallaner, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.1,
+     0.5,
+     0.5,
+     1.25
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_jud_ramla.jpg",
+    "at": "L7",
+    "credit": "Ramla prison: Boris Carmi, NLI, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "gray": true
+   },
+   {
+    "file": "templates/photos/n8/npz_court2.jpg",
+    "at": "L8",
+    "credit": "Supreme Court of Israel: israeltourism, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/npz_court.jpg",
+    "at": "L9",
+    "credit": "Supreme Court of Israel: Fallaner, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.15,
+     0.5,
+     0.5,
+     1.0
+    ],
+    "dim": 0.45
+   },
+   {
+    "file": "templates/photos/n8/npz_court.jpg",
+    "at": "L12-0.2",
+    "credit": "Supreme Court of Israel: Fallaner, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.0
+    ]
+   }
+  ],
+  "stamp": [
+   {
+    "at": "L3:guilty",
+    "until": "L4-0.1",
+    "text": "GUILTY",
+    "color": "red",
+    "y": 1150,
+    "angle": -6
+   },
+   {
+    "at": "L6:rejected",
+    "until": "L7-0.1",
+    "text": "UPHELD 3:0",
+    "color": "yellow",
+    "y": 1150,
+    "angle": 5
+   }
+  ],
+  "big": [
+   {
+    "at": "L4:seven",
+    "until": "L5-0.1",
+    "value": 7,
+    "from": 0,
+    "suffix": " years",
+    "sub": "prison, sentenced 22 Mar 2011",
+    "y": 1000
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Al Jazeera 30 Dec 2010; Globes",
+   "year": 2010,
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "Al Jazeera, 22 Mar",
+   "year": 2011,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Supreme Court ruling, 10 Nov",
+   "year": 2011,
+   "at": "L5",
+   "until": "L8"
+  },
+  {
+   "label": "Israel Hayom; JNS",
+   "year": 2022,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "INSS",
+   "year": 2024,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "No single case *proves* equality."
+ },
+ "caption_en": "The judge's name is the part that never made the headlines. ⚖️\n\n30 Dec 2010: Tel Aviv District Court convicts Israel's former president Moshe Katsav of rape and other sexual offences. The judge leading the three-judge panel: George Karra, an Arab Christian born in Jaffa.\n22 Mar 2011: seven years in prison. Katsav appeals; the Supreme Court panel includes Justice Salim Joubran, also an Arab citizen. 10 Nov 2011: appeal rejected, unanimously. 7 Dec 2011: Katsav enters prison (released Dec 2016).\nIn 2017 Judge Karra joined Israel's Supreme Court; he retired in 2022 at 70.\n\nNo single case proves equality: Israel's civil service target for Arab staff is just 10%, unchanged since 2008, while Arabs are about 20% of the workforce (INSS).\n\nCould this happen in your country? Tell me below.\n\nSources: Al Jazeera (2010, 2011); Globes (2010); Supreme Court of Israel ruling (10 Nov 2011); Israel Hayom and JNS (2022); INSS.\nPhotos (Wikimedia Commons): Fallaner (CC BY-SA 4.0); israeltourism (CC BY 2.0); Amos Ben Gershom, GPO (CC BY-SA 3.0); Boris Carmi, NLI (CC BY 4.0). AI voice.",
+ "caption_he": "שופט ערבי אחד. נשיא לשעבר אחד בכלא.\n30 בדצמבר 2010: בית המשפט המחוזי בתל אביב מרשיע את הנשיא לשעבר משה קצב באונס ובעבירות מין. אב בית הדין: השופט ג'ורג' קרא, ערבי נוצרי מיפו.\nקצב נידון ל 7 שנות מאסר. בהרכב הערעור בעליון ישב השופט סלים ג'ובראן, גם הוא אזרח ערבי. הערעור נדחה פה אחד, ובדצמבר 2011 קצב נכנס לכלא.\nב 2017 קרא מונה לבית המשפט העליון.\nמקרה אחד לא מוכיח שוויון: יעד הייצוג של עובדים ערבים בשירות המדינה עומד על 10% בלבד מאז 2008.\nזה יכול לקרות אצלכם? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#RuleOfLaw",
+  "#ArabIsraelis"
+ ],
+ "cover": {
+  "t": 0.5,
+  "big": "1 Arab judge",
+  "text": "*1* jailed|president"
+ }
+}

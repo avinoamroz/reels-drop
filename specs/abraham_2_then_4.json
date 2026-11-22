@@ -1,0 +1,433 @@
+{
+ "id": "abraham_2_then_4",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*41* years: *2.*|*4* months: *4.*",
+ "opener": {
+  "style": "map_puzzle"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "Forty one years, two peace deals. Then four in four months.",
+   "gap": 0.2
+  },
+  {
+   "say": "1979: Egypt. The first Arab country to make peace with Israel.",
+   "screen": "*1979:* Egypt"
+  },
+  {
+   "say": "1994: Jordan.",
+   "screen": "*1994:* Jordan"
+  },
+  {
+   "say": "Then, for twenty six years, nothing.",
+   "screen": "*26* years: nothing"
+  },
+  {
+   "say": "August 2020: the United Arab Emirates.",
+   "screen": "*Aug 2020:* the UAE"
+  },
+  {
+   "say": "September: Bahrain.",
+   "screen": "*Sep:* Bahrain"
+  },
+  {
+   "say": "October: Sudan. December: Morocco.",
+   "screen": "*Oct:* Sudan. *Dec:* Morocco."
+  },
+  {
+   "say": "They're called the Abraham Accords.",
+   "screen": "The *Abraham* Accords"
+  },
+  {
+   "say": "Within weeks, the first direct flight from Israel lands in Abu Dhabi.",
+   "screen": "*31 Aug 2020:* first flight to Abu Dhabi"
+  },
+  {
+   "say": "In 2025, Kazakhstan said it would join too.",
+   "screen": "*2025:* Kazakhstan joins"
+  },
+  {
+   "say": "Not all of it held. Sudan's deal is still not ratified, and Palestinian leaders called it a stab in the back.",
+   "screen": "Sudan: *not ratified*"
+  },
+  {
+   "say": "Who joins next? Tell me below.",
+   "screen": "Who joins *next?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Peace, by the numbers.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   32.0,
+   28.0,
+   58.0
+  ],
+  "hook_y": 900,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L9-0.2",
+    "view": [
+     50.0,
+     38.0,
+     70.0,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L10-0.2",
+    "view": [
+     32.0,
+     28.0,
+     58.0,
+     1000
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L1:egypt",
+    "until": "L13",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L2:jordan",
+    "until": "L13",
+    "code": "JOR",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L4:united",
+    "until": "L13",
+    "code": "ARE",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L5:bahrain",
+    "until": "L13",
+    "code": "BHR",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L6:sudan",
+    "until": "L13",
+    "code": "SDN",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L6:morocco",
+    "until": "L13",
+    "code": "MAR",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   },
+   {
+    "at": "L9:kazakhstan",
+    "until": "L13",
+    "code": "KAZ",
+    "color": "#45A4DD",
+    "alpha": 0.85,
+    "flash": "#FFFFFF"
+   }
+  ],
+  "pins": [
+   {
+    "at": "L5:bahrain",
+    "until": "L7",
+    "lon": 50.58,
+    "lat": 26.2,
+    "label": "Bahrain",
+    "color": "yellow"
+   },
+   {
+    "at": "L8",
+    "until": "L9",
+    "lon": 54.37,
+    "lat": 24.45,
+    "label": "Abu Dhabi",
+    "color": "yellow"
+   }
+  ],
+  "routes": [
+   {
+    "at": "L8",
+    "until": "L9",
+    "path": [
+     [
+      34.88,
+      32.0
+     ],
+     [
+      38.5,
+      29.5
+     ],
+     [
+      46.0,
+      26.5
+     ],
+     [
+      54.37,
+      24.45
+     ]
+    ],
+    "kind": "flow",
+    "draw": 1.2,
+    "label": "first direct flight",
+    "label_at": [
+     44.0,
+     30.5
+    ]
+   }
+  ],
+  "counter": [
+   {
+    "label": "Arab states at peace with Israel",
+    "at": "L1",
+    "until": "L8-0.1",
+    "y": 1330,
+    "steps": [
+     {
+      "at": "L1:egypt",
+      "value": 1
+     },
+     {
+      "at": "L2:jordan",
+      "value": 2
+     },
+     {
+      "at": "L4:united",
+      "value": 3
+     },
+     {
+      "at": "L5:bahrain",
+      "value": 4
+     },
+     {
+      "at": "L6:sudan",
+      "value": 5
+     },
+     {
+      "at": "L6:morocco",
+      "value": 6
+     }
+    ]
+   }
+  ],
+  "clock": {
+   "at": "L1",
+   "until": "L7-0.1",
+   "y": 1110,
+   "size": 110,
+   "label": "",
+   "steps": [
+    {
+     "at": "L1",
+     "year": 1979
+    },
+    {
+     "at": "L1e",
+     "year": 1979
+    },
+    {
+     "at": "L2",
+     "year": 1994
+    },
+    {
+     "at": "L3",
+     "year": 1994
+    },
+    {
+     "at": "L3e",
+     "year": 2020
+    },
+    {
+     "at": "L6e",
+     "year": 2020
+    }
+   ],
+   "tick": true
+  },
+  "dim": [
+   {
+    "at": "L10",
+    "until": "L13"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/n8/n8_ab_decl.jpg",
+    "at": "L7",
+    "until": "L7e+0.2",
+    "credit": "Abraham Accords Declaration: White House, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ab_elal.jpg",
+    "at": "L8:first",
+    "until": "L8e+0.1",
+    "credit": "El Al lands in Abu Dhabi, 31 Aug 2020: US Embassy Jerusalem, CC BY 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ab_astana.jpg",
+    "at": "L9:kazakhstan",
+    "until": "L9e+0.1",
+    "credit": "Astana: Jjm2311, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ab_manama.jpg",
+    "at": "L5:bahrain",
+    "until": "L5e+0.2",
+    "credit": "Manama, Bahrain: Zairon, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_ab_rabat.jpg",
+    "at": "L6:morocco",
+    "until": "L6e+0.2",
+    "credit": "Hassan Tower, Rabat: OussamaHamama, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   }
+  ],
+  "photo_box": [
+   60,
+   560,
+   960,
+   640,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L12",
+    "until": "L12e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Britannica; Abraham Accords, US State Dept",
+   "year": 2020,
+   "at": "L1",
+   "until": "L8"
+  },
+  {
+   "label": "US Embassy Jerusalem",
+   "year": 2020,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Al Jazeera, 6 Nov",
+   "year": 2025,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Times of Israel, 18 Aug 2020; Sudan status 2024",
+   "year": 2024,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "balance": "Not all of it *held.*"
+ },
+ "caption_en": "The fastest year in Middle East peace. 🕊️\n\n1979: Egypt, the first Arab country at peace with Israel. 1994: Jordan. Then 26 years of nothing.\n2020: the UAE (Aug), Bahrain (Sep), Sudan (Oct), Morocco (Dec). The Abraham Accords.\n31 Aug 2020: the first direct El Al flight from Israel lands in Abu Dhabi. In Nov 2025 Kazakhstan said it would join too (Al Jazeera, 6 Nov 2025).\n\nNot all of it held: Sudan's deal is still not ratified (Wikipedia, as of 2024), and Palestinian President Mahmoud Abbas called the UAE deal \"a stab in the back\" (Times of Israel, 18 Aug 2020).\n\nWho joins next? Tell me below.\n\nSources: Britannica; Abraham Accords texts (US State Dept, 2020); US Embassy Jerusalem (2020); Al Jazeera (2025); Times of Israel (2020).\nPhotos (Wikimedia Commons): White House (public domain); US Embassy Jerusalem (CC BY 2.0); Jjm2311, Zairon, OussamaHamama (CC BY-SA 4.0). Map: Natural Earth. AI voice.",
+ "caption_he": "41 שנה: 2 הסכמי שלום. 4 חודשים: 4.\n1979 מצרים, 1994 ירדן, ואז 26 שנה של כלום.\n2020: איחוד האמירויות, בחריין, סודן ומרוקו. הסכמי אברהם. תוך שבועות הטיסה הישירה הראשונה נוחתת באבו דאבי, וב 2025 גם קזחסטן הודיעה שתצטרף.\nלא הכול החזיק: ההסכם עם סודן לא אושרר, ואבו מאזן קרא להסכם עם האמירויות סכין בגב.\nמי מצטרפת הבאה? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#AbrahamAccords",
+  "#Peace"
+ ],
+ "cover": {
+  "t": 14.0,
+  "big": "2 → 6",
+  "text": "Arab states at peace|*in one year?*"
+ }
+}

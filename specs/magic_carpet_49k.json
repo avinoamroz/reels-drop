@@ -1,0 +1,407 @@
+{
+ "id": "magic_carpet_49k",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*49,000* Jews.|*1* airlift.",
+ "opener": {
+  "style": "map_fold"
+ },
+ "music": {
+  "bed": "journey",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "Forty nine thousand Jews. One airlift.",
+   "gap": 0.2
+  },
+  {
+   "say": "1949. Yemen. A Jewish community that had lived here for many centuries.",
+   "screen": "*1949:* the Jews of Yemen"
+  },
+  {
+   "say": "When Yemen's ruler lets most of them leave, whole families walk to Aden, the British port.",
+   "screen": "On foot to *Aden*"
+  },
+  {
+   "say": "Many arrive sick and exhausted.",
+   "screen": "Sick and *exhausted*"
+  },
+  {
+   "say": "Then the planes come. American crews, from Alaska Airlines.",
+   "screen": "*Alaska Airlines* to the rescue"
+  },
+  {
+   "say": "They rip out the seats. A plane built for forty eight now carries over a hundred people.",
+   "screen": "Seats out: *48* to *100+*"
+  },
+  {
+   "say": "The operation's name comes from the Bible: On Wings of Eagles.",
+   "screen": "*On Wings of Eagles*"
+  },
+  {
+   "say": "Flight after flight, up the Red Sea, to Israel.",
+   "screen": "Up the *Red Sea*"
+  },
+  {
+   "say": "By September 1950: about forty nine thousand people.",
+   "screen": "*~49,000* people by Sep 1950"
+  },
+  {
+   "say": "The landing was hard too. In 2021, Israel's government said it regrets the children who vanished from immigrant families in those years, and approved compensation.",
+   "screen": "*2021:* the state says it regrets"
+  },
+  {
+   "say": "Did you know this story? Tell me below.",
+   "screen": "Did you *know* this story?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "That's the story behind one number.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   40.0,
+   22.0,
+   26.0
+  ],
+  "hook_y": 900,
+  "title_y": 300,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     45.0,
+     15.0,
+     9.0,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     40.0,
+     22.0,
+     26.0,
+     1000
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L8-0.2",
+    "view": [
+     35.0,
+     31.5,
+     6.0,
+     1000
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L12-0.2",
+    "view": [
+     40.0,
+     22.0,
+     26.0,
+     1000
+    ],
+    "dur": 1.0
+   }
+  ],
+  "highlight": [
+   {
+    "at": "L1",
+    "until": "L4",
+    "code": "YEM",
+    "color": "#45A4DD",
+    "alpha": 0.55
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1",
+    "until": "L4",
+    "lon": 44.2,
+    "lat": 15.35,
+    "label": "Sana'a",
+    "color": "yellow"
+   },
+   {
+    "at": "L2:aden",
+    "until": "L9",
+    "lon": 45.03,
+    "lat": 12.8,
+    "label": "Aden",
+    "color": "yellow"
+   },
+   {
+    "at": "L7",
+    "until": "L9",
+    "lon": 34.9,
+    "lat": 31.99,
+    "label": "Lydda airport",
+    "color": "yellow"
+   }
+  ],
+  "routes": [
+   {
+    "at": "L2:walk",
+    "until": "L4",
+    "path": [
+     [
+      44.2,
+      15.35
+     ],
+     [
+      44.6,
+      14.0
+     ],
+     [
+      45.03,
+      12.8
+     ]
+    ],
+    "kind": "flow",
+    "draw": 1.2,
+    "label": "on foot"
+   },
+   {
+    "at": "L7",
+    "until": "L9",
+    "path": [
+     [
+      45.03,
+      12.8
+     ],
+     [
+      43.4,
+      13.6
+     ],
+     [
+      41.6,
+      16.2
+     ],
+     [
+      39.4,
+      20.0
+     ],
+     [
+      37.0,
+      24.5
+     ],
+     [
+      35.2,
+      28.2
+     ],
+     [
+      34.9,
+      31.99
+     ]
+    ],
+    "kind": "flow",
+    "draw": 2.0,
+    "label": "airlift",
+    "label_at": [
+     41.5,
+     22.0
+    ]
+   }
+  ],
+  "icons": [
+   {
+    "at": "L7",
+    "until": "L9",
+    "lon": 38.0,
+    "lat": 22.5,
+    "emo": "✈️",
+    "size": 90
+   }
+  ],
+  "counter": [
+   {
+    "label": "Yemen's Jews flown to Israel",
+    "at": "L7",
+    "until": "L9",
+    "y": 1330,
+    "steps": [
+     {
+      "at": "L7",
+      "value": 0
+     },
+     {
+      "at": "L7e",
+      "value": 30000
+     },
+     {
+      "at": "L8:forty",
+      "value": 49000
+     }
+    ],
+    "prefix": "~"
+   }
+  ],
+  "dim": [
+   {
+    "at": "L9",
+    "until": "L12"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/n8/n8_mc_walk.jpg",
+    "at": "L2:walk",
+    "until": "L2e+0.1",
+    "credit": "Walking to Aden, 1949: Zoltan Kluger, GPO, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_mc_aden1.jpg",
+    "at": "L3",
+    "until": "L3e+0.2",
+    "credit": "Aden, 1949: Benno Rothenberg, NLI, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_mc_wait.jpg",
+    "at": "L4",
+    "until": "L5:forty",
+    "credit": "Waiting to board, Aden: Zoltan Kluger, GPO, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_mc_plane.jpg",
+    "at": "L5:forty",
+    "until": "L6e+0.1",
+    "credit": "DC-4 4X-ADN, Magic Carpet: Fritz Cohen, public domain",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/n8/n8_mc_aden1.jpg",
+    "at": "L9",
+    "until": "L9e+0.1",
+    "credit": "Aden, 1949: Benno Rothenberg, NLI, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.6,
+     1.15,
+     0.5,
+     0.55,
+     1.3
+    ],
+    "gray": true
+   }
+  ],
+  "photo_box": [
+   60,
+   560,
+   960,
+   640,
+   36
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L11",
+    "until": "L11e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Jewish Virtual Library, Operation Magic Carpet",
+   "year": 2024,
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "Alaska Airlines archives",
+   "year": 2017,
+   "at": "L4",
+   "until": "L7"
+  },
+  {
+   "label": "Jewish Virtual Library",
+   "year": 2024,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Ynet, 22 Feb",
+   "year": 2021,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "The landing was *hard* too."
+ },
+ "caption_en": "Most people have never heard of this airlift. ✈️\n\n1949: the Imam of Yemen lets most of the country's Jews leave. Whole families walk to Aden, the British port, many arriving sick and exhausted (Jewish Virtual Library).\nAlaska Airlines crews fly them out on DC-4s: the seats are ripped out, and a plane built for 48 carries over 100 people (Alaska Airlines archives, 2017).\nThe name comes from the Bible (Exodus 19:4): On Wings of Eagles. By September 1950, nearly 49,000 Yemenite Jews had reached Israel on hundreds of flights.\n\nThe landing was hard too. In 2021 Israel's government expressed regret over the children who vanished from immigrant families, mostly from Yemen, in the state's early years, and approved compensation (Ynet, 22 Feb 2021).\n\nDid you know this story? Tell me below.\n\nSources: Jewish Virtual Library; Alaska Airlines (2017); Ynet (2021).\nPhotos (Wikimedia Commons): Zoltan Kluger, GPO (public domain); Benno Rothenberg, National Library of Israel (CC BY 4.0); Fritz Cohen (public domain). Map: Natural Earth. AI voice.",
+ "caption_he": "49,000 יהודים. רכבת אווירית אחת.\n1949: האימאם של תימן מתיר לרוב היהודים לצאת. משפחות שלמות הולכות ברגל לעדן, רבים מגיעים חולים ומותשים.\nצוותים של אלסקה איירליינס מוציאים את המושבים מהמטוסים: מטוס ל 48 נוסעים לוקח יותר מ 100 איש. השם מהתנ\"ך: על כנפי נשרים.\nעד ספטמבר 1950 הגיעו לישראל כמעט 49,000 יהודי תימן.\nגם הקליטה הייתה קשה: ב 2021 הממשלה הביעה צער על פרשת ילדי תימן ואישרה פיצויים למשפחות.\nהכרתם את הסיפור? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#Yemen",
+  "#JewishHistory"
+ ],
+ "cover": {
+  "t": 22.0,
+  "big": "49,000",
+  "text": "Jews. *1* airlift.|How?"
+ }
+}
