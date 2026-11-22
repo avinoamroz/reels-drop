@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "game_show",
  "hook": "Would you rather *pay?*",
- "duration": 61.97,
+ "duration": 62.47,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -1.6
  },
  "outputs": {
   "mp4": "out/would_you_rather_tax.mp4",
@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.919,
+  "score": 0.948,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -165,23 +165,23 @@
    },
    {
     "line": "If you love Israeli facts, follow Noam Roz for more.",
-    "score": 0.6,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "So, would you rather pay?",
-    "score": 0.8,
+    "score": 1.0,
     "flag": "ok"
    }
   ],
-  "heard": "Would you rather pay? Three doors, three taxes, pick one. Door one, income tax, a slice of what you earn. You pay for being successful. Plus, the rich pay more. Minus, forms, so many forms. Door two, value added tax, VAT. You pay 18% on hummus. Plus, simple, hard to dodge. Minus, it hits the poor hardest. Door three, the jizz in, an old imperial tax. Bonus, no army service included. Wait, no reserve duty. Where do I sign up? But here's the catch. Only if you're the wrong religion, non-Muslim men paid it. Protected, but not equal. No thanks. Hard pass. The Ottomans abolished it in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS, Islamic State. And in Israel, Jews, Muslims, Christians and Druze. Same income tax, same VAT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow me on",
+  "heard": "Would you rather pay? Three doors, three taxes, pick one. Door one, income tax, a slice of what you earn. You pay for being successful. Plus, the rich pay more. Minus, forms, so many forms. Door two, value added tax, VAT. You pay 18% on hummus. Plus, simple, hard to dodge. Minus, it hits the poor hardest. Door three, the jizz in, an old imperial tax. Bonus, no army service included. Wait, no reserve duty. Where do I sign up? But here's the catch. Only if you're the wrong religion, non-Muslim men paid it. Protected, but not equal. No thanks. Hard pass. The Ottomans abolished it in 1856. Only armed groups revived it. The Pakistani Taliban and ISIS, Islamic State. And in Israel, Jews, Muslims, Christians and Druze. Same income tax, same VAT. Your faith doesn't change your bill. Taxes are never fun. Equal taxes are the fair kind. If you love Israeli facts, follow Noam Roz for more. So would you rather pay?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "pre-made voice file voice/would_you_rather_tax_splice.wav",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.8
+  "true_peak": -1.6
  },
  "photos": [
   {
@@ -200,5 +200,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 152.9
+ "render_s": 118.6
 }
