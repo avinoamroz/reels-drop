@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "endonym_fly",
  "hook": "Nobody calls it *Germany.*",
- "duration": 44.77,
+ "duration": 48.2,
  "audio": {
-  "lufs": -16.0,
+  "lufs": -16.1,
   "true_peak": -2.1
  },
  "outputs": {
@@ -19,8 +19,8 @@
   "3": "out/frames/endonyms_p1_europe_3.jpg",
   "last": "out/frames/endonyms_p1_europe_last.jpg"
  },
- "caption_en": "The Swiss one explains something you see every day.\n\nWhat European countries call themselves:\nGermany: Deutschland (from Old High German diutisc, \"of the people\")\nAustria: Österreich (\"eastern realm\")\nSwitzerland: Schweiz, Suisse, Svizzera, Svizra. Four official languages, so coins and stamps use the Latin Helvetia, and the country code CH is Confoederatio Helvetica\nHungary: Magyarország (\"land of the Magyars\")\nFinland: Suomi (its origin is uncertain)\nGreece: Hellas / Ελλάς (the Romans called them Graeci; Greeks call themselves Hellenes)\nAlbania: Shqipëria (popularly linked to shqiponjë, eagle, as on the flag)\nCroatia: Hrvatska\nMontenegro: Crna Gora / Црна Гора (both mean \"black mountain\")\nIreland: Éire (English \"Ireland\" is Éire + land)\n\nNeither name is wrong. One is just theirs.\nPart 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Germany; Austria; Switzerland; Finland; Names of Greece; Albania; Montenegro; Ireland (2026).\nVoice: AI clone of my own voice.",
- "caption_he": "השוויצרית מסבירה משהו שאתם רואים כל יום.\n\nאיך מדינות אירופה קוראות לעצמן: גרמניה היא דויטשלנד, אוסטריה היא אסטרייך (\"הממלכה המזרחית\"), שווייץ היא הלווטיה על המטבעות, ומשם CH, הונגריה היא מדיארורסאג, פינלנד היא סואומי, יוון היא הלאס, אלבניה היא שקיפריה, קרואטיה היא הרוואטסקה, מונטנגרו היא צרנה גורה (\"ההר השחור\"), ואירלנד היא אירה.\nחלק 2 בפרופיל.",
+ "caption_en": "The Swiss one explains something you see every day.\n\nWhat European countries call themselves:\nGermany: Deutschland (from Old High German diutisc, \"of the people\")\nAustria: Österreich (\"eastern realm\")\nSwitzerland: Schweiz, Suisse, Svizzera, Svizra. Four official languages, so coins and stamps use the Latin Helvetia, and the country code CH is Confoederatio Helvetica\nHungary: Magyarország (\"land of the Magyars\")\nFinland: Suomi (its origin is uncertain)\nNorway: Norge (from Old Norse for \"the way north\")\nGreece: Hellas / Ελλάς (the Romans called them Graeci; Greeks call themselves Hellenes)\nAlbania: Shqipëria (popularly linked to shqiponjë, eagle, as on the flag)\nCroatia: Hrvatska\nMontenegro: Crna Gora / Црна Гора (both mean \"black mountain\")\nIreland: Éire (English \"Ireland\" is Éire + land)\n\nNeither name is wrong. One is just theirs.\nPart 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Germany; Austria; Switzerland; Finland; Norway; Names of Greece; Albania; Montenegro; Ireland (2026).\nVoice: AI clone of my own voice.",
+ "caption_he": "השוויצרית מסבירה משהו שאתם רואים כל יום.\n\nאיך מדינות אירופה קוראות לעצמן: גרמניה היא דויטשלנד, אוסטריה היא אסטרייך (\"הממלכה המזרחית\"), שווייץ היא הלווטיה על המטבעות, ומשם CH, הונגריה היא מדיארורסאג, פינלנד היא סואומי, נורווגיה היא נורגה (\"הדרך צפונה\"), יוון היא הלאס, אלבניה היא שקיפריה, קרואטיה היא הרוואטסקה, מונטנגרו היא צרנה גורה (\"ההר השחור\"), ואירלנד היא אירה.\nחלק 2 בפרופיל.",
  "hashtags": [
   "#geography",
   "#languages",
@@ -58,38 +58,44 @@
    "until": "L6"
   },
   {
-   "label": "Wikipedia, Names of Greece",
+   "label": "Wikipedia, Norway",
    "year": 2026,
    "at": "L6",
    "until": "L7"
   },
   {
-   "label": "Wikipedia, Names of Albania",
+   "label": "Wikipedia, Names of Greece",
    "year": 2026,
    "at": "L7",
    "until": "L8"
   },
   {
-   "label": "Wikipedia, country names in native languages",
+   "label": "Wikipedia, Names of Albania",
    "year": 2026,
    "at": "L8",
    "until": "L9"
   },
   {
-   "label": "Wikipedia, Montenegro",
+   "label": "Wikipedia, country names in native languages",
    "year": 2026,
    "at": "L9",
    "until": "L10"
   },
   {
-   "label": "Wikipedia, Names of Ireland",
+   "label": "Wikipedia, Montenegro",
    "year": 2026,
    "at": "L10",
    "until": "L11"
+  },
+  {
+   "label": "Wikipedia, Names of Ireland",
+   "year": 2026,
+   "at": "L11",
+   "until": "L12"
   }
  ],
  "transcript": {
-  "score": 0.853,
+  "score": 0.887,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -109,12 +115,12 @@
    },
    {
     "line": "Switzerland has four languages, so four names. On its coins, it's Helvetia. That's why it's C. H.",
-    "score": 0.882,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Hungary? Magyarország. Land of the Magyars.",
-    "score": 0.714,
+    "score": 0.571,
     "flag": "MISS"
    },
    {
@@ -123,9 +129,14 @@
     "flag": "ok"
    },
    {
+    "line": "Next door, Norway is Norge. The way north.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
     "line": "Greece is Hellas. Romans said Graeci. Greeks call themselves Hellenes.",
-    "score": 0.6,
-    "flag": "MISS"
+    "score": 0.9,
+    "flag": "ok"
    },
    {
     "line": "Albania is Shqipëria. Many link it to the eagle on its flag.",
@@ -134,12 +145,12 @@
    },
    {
     "line": "Croatia? Hrvatska.",
-    "score": 0.5,
-    "flag": "MISS"
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Montenegro is Crna Gora. Same meaning: black mountain.",
-    "score": 0.75,
+    "score": 0.625,
     "flag": "MISS"
    },
    {
@@ -158,17 +169,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "Nobody calls it Germany, not even Germans. They say Deutschland from an old word for of the people. Austria is ersterec, the Eastern realm. Switzerland has four languages, so four names. On its coins, it's Helvetia. That's why it's CH Hungary, Maja Rosa, Land of the Magyars, Finland is Swami. Even the Finns aren't sure where that comes from. Greece is Helles, Roman Segrati, Greeks call themselves Hellenes, Albania is Schiperia, many link it to the eagle on its flag, Croatia, Cravatska. Montenegro is Cernagora, same meaning, Black Mountain. And Ireland is era. Ireland literally means, land of era. Which one surprised you? If you love Israeli facts, follow Noam Roz for more. Part 2 is the Middle East. Until then, remember.",
+  "heard": "Nobody calls it Germany, not even Germans. They say Deutschland, from an old word for, of the people. Austria is Ersturik, the eastern realm. Switzerland has four languages, so four names. On its coins, it's Helvetia. That's why it's C.H. Tungaree, Mojarosag, Land of the Magyars. Finland is Swami. Even the Finns aren't sure where that comes from. Next door, Norway is Norga, the way north. Greece is Hellas. Romans said Greeky. Greeks call themselves Hellenes. Albania is Tjipria. Many link it to the eagle on its flag. Croatia, Hrvatska. Montenegro is cernagora, meaning Black Mountain, and Ireland is era. Ireland literally means land of era. Which one surprised you? If you love Israeli facts, follow Noam Raz for more. Part 2 is the Middle East. Until then, remember.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.0,
+  "lufs": -16.1,
   "true_peak": -2.1
  },
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 168.4
+ "render_s": 123.5
 }

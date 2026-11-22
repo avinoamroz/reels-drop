@@ -1,572 +1,612 @@
 [
 {
 "word": "Nobody",
-"start": 0.387,
-"end": 0.805
+"start": 0.015,
+"end": 0.433
 },
 {
 "word": "calls",
-"start": 0.805,
-"end": 1.223
+"start": 0.433,
+"end": 0.759
 },
 {
 "word": "it",
-"start": 1.223,
-"end": 1.316
+"start": 0.759,
+"end": 0.851
 },
 {
 "word": "Germany.",
-"start": 1.316,
-"end": 1.796
+"start": 0.851,
+"end": 1.362
 },
 {
 "word": "Not",
-"start": 2.724,
-"end": 3.019
+"start": 1.749,
+"end": 2.043
 },
 {
 "word": "even",
-"start": 3.019,
-"end": 3.235
+"start": 2.043,
+"end": 2.291
 },
 {
 "word": "Germans.",
-"start": 3.235,
-"end": 3.839
+"start": 2.291,
+"end": 2.972
 },
 {
 "word": "They",
-"start": 4.427,
-"end": 4.582
+"start": 3.39,
+"end": 3.514
 },
 {
 "word": "say",
-"start": 4.582,
-"end": 4.83
+"start": 3.514,
+"end": 3.762
 },
 {
 "word": "Deutschland,",
-"start": 4.83,
-"end": 5.511
+"start": 3.762,
+"end": 4.35
 },
 {
 "word": "from",
-"start": 5.82,
-"end": 6.022
+"start": 4.474,
+"end": 4.69
 },
 {
 "word": "an",
-"start": 6.022,
-"end": 6.115
+"start": 4.69,
+"end": 4.783
 },
 {
 "word": "old",
-"start": 6.115,
-"end": 6.331
+"start": 4.783,
+"end": 5.046
 },
 {
 "word": "word",
-"start": 6.331,
-"end": 6.564
+"start": 5.046,
+"end": 5.279
 },
 {
 "word": "for:",
-"start": 6.564,
-"end": 6.858
+"start": 5.279,
+"end": 5.65
 },
 {
 "word": "of",
-"start": 7.338,
-"end": 7.492
+"start": 5.774,
+"end": 5.944
 },
 {
 "word": "the",
-"start": 7.492,
-"end": 7.585
+"start": 5.944,
+"end": 6.037
 },
 {
 "word": "people.",
-"start": 7.585,
-"end": 7.972
+"start": 6.037,
+"end": 6.517
 },
 {
 "word": "Austria",
-"start": 8.7,
-"end": 9.149
+"start": 7.09,
+"end": 7.57
 },
 {
 "word": "is",
-"start": 9.18,
-"end": 9.35
+"start": 7.57,
+"end": 7.694
 },
 {
 "word": "Österreich.",
-"start": 9.381,
-"end": 10.077
+"start": 7.709,
+"end": 8.173
 },
 {
 "word": "The",
-"start": 11.13,
-"end": 11.269
+"start": 8.824,
+"end": 8.978
 },
 {
 "word": "eastern",
-"start": 11.3,
-"end": 11.749
+"start": 9.009,
+"end": 9.458
 },
 {
 "word": "realm.",
-"start": 11.749,
-"end": 12.059
+"start": 9.458,
+"end": 9.783
 },
 {
 "word": "Switzerland",
-"start": 13.112,
-"end": 13.669
+"start": 10.263,
+"end": 10.836
 },
 {
 "word": "has",
-"start": 13.669,
-"end": 13.916
+"start": 10.836,
+"end": 11.053
 },
 {
 "word": "four",
-"start": 13.916,
-"end": 14.211
+"start": 11.053,
+"end": 11.285
 },
 {
 "word": "languages,",
-"start": 14.211,
-"end": 14.907
+"start": 11.285,
+"end": 11.889
 },
 {
 "word": "so",
-"start": 15.418,
-"end": 15.588
+"start": 12.074,
+"end": 12.307
 },
 {
 "word": "four",
-"start": 15.588,
-"end": 15.867
+"start": 12.307,
+"end": 12.601
 },
 {
 "word": "names.",
-"start": 15.867,
-"end": 16.378
+"start": 12.601,
+"end": 13.142
 },
 {
 "word": "On",
-"start": 16.951,
-"end": 17.121
+"start": 13.684,
+"end": 13.839
 },
 {
 "word": "its",
-"start": 17.121,
-"end": 17.276
+"start": 13.839,
+"end": 13.994
 },
 {
 "word": "coins,",
-"start": 17.276,
-"end": 17.848
+"start": 13.994,
+"end": 14.505
 },
 {
 "word": "it's",
-"start": 18.452,
-"end": 18.684
+"start": 14.551,
+"end": 14.737
 },
 {
 "word": "Helvetia.",
-"start": 18.684,
-"end": 19.257
+"start": 14.737,
+"end": 15.31
 },
 {
 "word": "That's",
-"start": 19.938,
-"end": 20.186
+"start": 15.79,
+"end": 16.022
 },
 {
 "word": "why",
-"start": 20.186,
-"end": 20.372
+"start": 16.022,
+"end": 16.146
 },
 {
 "word": "it's",
-"start": 20.372,
-"end": 20.48
+"start": 16.146,
+"end": 16.269
 },
 {
 "word": "C.",
-"start": 20.48,
-"end": 20.728
+"start": 16.331,
+"end": 16.687
 },
 {
 "word": "H.",
-"start": 20.728,
-"end": 20.929
+"start": 16.687,
+"end": 17.012
 },
 {
 "word": "Hungary?",
-"start": 20.929,
-"end": 21.471
+"start": 17.012,
+"end": 17.554
 },
 {
 "word": "Magyarország.",
-"start": 22.136,
-"end": 22.771
+"start": 17.833,
+"end": 18.607
 },
 {
 "word": "Land",
-"start": 23.638,
-"end": 23.901
+"start": 19.319,
+"end": 19.66
 },
 {
 "word": "of",
-"start": 23.901,
-"end": 23.994
+"start": 19.66,
+"end": 19.752
 },
 {
 "word": "the",
-"start": 23.994,
-"end": 24.056
+"start": 19.752,
+"end": 19.83
 },
 {
 "word": "Magyars.",
-"start": 24.056,
-"end": 24.722
+"start": 19.83,
+"end": 20.465
 },
 {
 "word": "Finland",
-"start": 25.465,
-"end": 26.006
+"start": 20.944,
+"end": 21.486
 },
 {
 "word": "is",
-"start": 26.006,
-"end": 26.161
+"start": 21.579,
+"end": 21.734
 },
 {
 "word": "Suomi.",
-"start": 26.161,
-"end": 26.672
+"start": 21.734,
+"end": 22.214
 },
 {
 "word": "Even",
-"start": 27.446,
-"end": 27.756
+"start": 22.632,
+"end": 22.895
 },
 {
 "word": "the",
-"start": 27.756,
-"end": 27.833
+"start": 22.895,
+"end": 22.988
 },
 {
 "word": "Finns",
-"start": 27.833,
-"end": 28.205
+"start": 22.988,
+"end": 23.313
 },
 {
 "word": "aren't",
-"start": 28.205,
-"end": 28.437
+"start": 23.313,
+"end": 23.53
 },
 {
 "word": "sure",
-"start": 28.437,
-"end": 28.762
+"start": 23.53,
+"end": 23.731
 },
 {
 "word": "where",
-"start": 28.762,
-"end": 28.948
+"start": 23.731,
+"end": 23.855
 },
 {
 "word": "that",
-"start": 28.948,
-"end": 29.133
+"start": 23.855,
+"end": 24.04
 },
 {
 "word": "comes",
-"start": 29.133,
-"end": 29.396
+"start": 24.04,
+"end": 24.304
 },
 {
 "word": "from.",
-"start": 29.396,
-"end": 29.691
+"start": 24.304,
+"end": 24.551
+},
+{
+"word": "Next",
+"start": 25.093,
+"end": 25.418
+},
+{
+"word": "door,",
+"start": 25.418,
+"end": 25.898
+},
+{
+"word": "Norway",
+"start": 25.96,
+"end": 26.378
+},
+{
+"word": "is",
+"start": 26.378,
+"end": 26.502
+},
+{
+"word": "Norge.",
+"start": 26.502,
+"end": 26.827
+},
+{
+"word": "The",
+"start": 27.307,
+"end": 27.431
+},
+{
+"word": "way",
+"start": 27.431,
+"end": 27.554
+},
+{
+"word": "north.",
+"start": 27.554,
+"end": 28.003
 },
 {
 "word": "Greece",
-"start": 30.449,
-"end": 30.898
+"start": 28.499,
+"end": 28.994
 },
 {
 "word": "is",
-"start": 30.929,
-"end": 31.13
+"start": 29.071,
+"end": 29.226
 },
 {
 "word": "Hellas.",
-"start": 31.13,
-"end": 31.61
+"start": 29.226,
+"end": 29.644
 },
 {
 "word": "Romans",
-"start": 32.121,
-"end": 32.492
+"start": 30.031,
+"end": 30.465
 },
 {
 "word": "said",
-"start": 32.492,
-"end": 32.632
+"start": 30.465,
+"end": 30.697
 },
 {
 "word": "Graeci.",
-"start": 32.632,
-"end": 33.003
+"start": 30.697,
+"end": 31.115
 },
 {
 "word": "Greeks",
-"start": 33.839,
-"end": 34.164
+"start": 31.657,
+"end": 31.982
 },
 {
 "word": "call",
-"start": 34.164,
-"end": 34.319
+"start": 31.982,
+"end": 32.229
 },
 {
 "word": "themselves",
-"start": 34.319,
-"end": 34.706
+"start": 32.229,
+"end": 32.647
 },
 {
 "word": "Hellenes.",
-"start": 34.706,
-"end": 35.31
+"start": 32.647,
+"end": 33.096
 },
 {
 "word": "Albania",
-"start": 36.331,
-"end": 36.811
+"start": 33.731,
+"end": 34.242
 },
 {
 "word": "is",
-"start": 36.811,
-"end": 36.873
+"start": 34.242,
+"end": 34.381
 },
 {
 "word": "Shqipëria.",
-"start": 36.873,
-"end": 37.462
+"start": 34.381,
+"end": 34.892
 },
 {
 "word": "Many",
-"start": 38.003,
-"end": 38.375
+"start": 35.65,
+"end": 35.914
 },
 {
 "word": "link",
-"start": 38.375,
-"end": 38.607
+"start": 35.914,
+"end": 36.161
 },
 {
 "word": "it",
-"start": 38.607,
-"end": 38.7
+"start": 36.161,
+"end": 36.27
 },
 {
 "word": "to",
-"start": 38.7,
-"end": 38.793
+"start": 36.27,
+"end": 36.362
 },
 {
 "word": "the",
-"start": 38.793,
-"end": 38.87
+"start": 36.362,
+"end": 36.455
 },
 {
 "word": "eagle",
-"start": 38.87,
-"end": 39.18
+"start": 36.455,
+"end": 36.765
 },
 {
 "word": "on",
-"start": 39.18,
-"end": 39.304
+"start": 36.765,
+"end": 36.842
 },
 {
 "word": "its",
-"start": 39.304,
-"end": 39.443
+"start": 36.842,
+"end": 36.997
 },
 {
 "word": "flag.",
-"start": 39.443,
-"end": 39.845
+"start": 36.997,
+"end": 37.446
 },
 {
 "word": "Croatia?",
-"start": 40.496,
-"end": 41.037
+"start": 37.725,
+"end": 38.282
 },
 {
 "word": "Hrvatska.",
-"start": 41.393,
-"end": 41.904
+"start": 38.824,
+"end": 39.335
 },
 {
 "word": "Montenegro",
-"start": 42.57,
-"end": 43.22
+"start": 40.0,
+"end": 40.65
 },
 {
 "word": "is",
-"start": 43.22,
-"end": 43.375
+"start": 40.65,
+"end": 40.836
 },
 {
 "word": "Crna",
-"start": 43.375,
-"end": 43.762
+"start": 40.836,
+"end": 41.192
 },
 {
 "word": "Gora.",
-"start": 43.762,
-"end": 44.164
+"start": 41.192,
+"end": 41.533
 },
 {
 "word": "Same",
-"start": 44.938,
-"end": 45.294
+"start": 42.849,
+"end": 42.972
 },
 {
 "word": "meaning:",
-"start": 45.294,
-"end": 45.743
+"start": 42.972,
+"end": 43.328
 },
 {
 "word": "black",
-"start": 46.223,
-"end": 46.61
+"start": 43.839,
+"end": 44.071
 },
 {
 "word": "mountain.",
-"start": 46.61,
-"end": 47.075
+"start": 44.071,
+"end": 44.458
 },
 {
 "word": "And",
-"start": 47.849,
-"end": 48.019
+"start": 45.418,
+"end": 45.573
 },
 {
 "word": "Ireland",
-"start": 48.019,
-"end": 48.39
+"start": 45.573,
+"end": 46.115
 },
 {
 "word": "is",
-"start": 48.39,
-"end": 48.514
+"start": 46.177,
+"end": 46.378
 },
 {
 "word": "Éire.",
-"start": 48.514,
-"end": 48.901
+"start": 46.44,
+"end": 46.734
 },
 {
 "word": "Ireland",
-"start": 49.644,
-"end": 50.031
+"start": 47.369,
+"end": 47.694
 },
 {
 "word": "literally",
-"start": 50.031,
-"end": 50.372
+"start": 47.694,
+"end": 48.096
 },
 {
 "word": "means:",
-"start": 50.372,
-"end": 50.914
+"start": 48.096,
+"end": 48.685
 },
 {
 "word": "land",
-"start": 51.068,
-"end": 51.285
+"start": 49.226,
+"end": 49.83
 },
 {
 "word": "of",
-"start": 51.285,
-"end": 51.347
+"start": 50.124,
+"end": 50.341
 },
 {
 "word": "Éire.",
-"start": 51.347,
-"end": 51.672
+"start": 50.372,
+"end": 50.728
 },
 {
 "word": "Which",
-"start": 52.307,
-"end": 52.508
+"start": 51.424,
+"end": 51.626
 },
 {
 "word": "one",
-"start": 52.508,
-"end": 52.663
+"start": 51.626,
+"end": 51.873
 },
 {
 "word": "surprised",
-"start": 52.663,
-"end": 53.081
+"start": 51.873,
+"end": 52.353
 },
 {
 "word": "you?",
-"start": 53.081,
-"end": 53.298
+"start": 52.353,
+"end": 52.524
 },
 {
 "word": "Part",
-"start": 53.917,
-"end": 54.164
+"start": 53.607,
+"end": 53.855
 },
 {
 "word": "2",
-"start": 54.164,
-"end": 54.35
+"start": 53.855,
+"end": 54.211
 },
 {
 "word": "is",
-"start": 54.35,
-"end": 54.459
+"start": 54.211,
+"end": 54.397
 },
 {
 "word": "the",
-"start": 54.459,
-"end": 54.52
+"start": 54.397,
+"end": 54.474
 },
 {
 "word": "Middle",
-"start": 54.52,
-"end": 54.768
+"start": 54.474,
+"end": 54.722
 },
 {
 "word": "East.",
-"start": 54.768,
-"end": 55.155
+"start": 54.722,
+"end": 55.109
 },
 {
 "word": "Until",
-"start": 55.821,
-"end": 56.084
+"start": 55.976,
+"end": 56.285
 },
 {
 "word": "then,",
-"start": 56.084,
-"end": 56.316
+"start": 56.285,
+"end": 56.579
 },
 {
 "word": "remember:",
-"start": 56.316,
-"end": 56.827
+"start": 56.641,
+"end": 57.276
 }
 ]
