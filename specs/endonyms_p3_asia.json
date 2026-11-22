@@ -1,0 +1,298 @@
+{
+ "id": "endonyms_p3_asia",
+ "account": "noamroz__",
+ "template": "endonym_fly",
+ "hook": "Japan isn't called *Japan.*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12,
+  "maxpause": 0.2
+ },
+ "pron": {
+  "lex": {
+   "nihon": "n|i|ˈ|h|ɔ|n",
+   "nippon": "n|i|ˈ|p|ɔ|n",
+   "zhongguo": "ˌ|dʒ|ʊ|ŋ|ˈ|g|w|ɔ",
+   "hanguk": "ˈ|h|ɑ|n|g|u|k",
+   "uls": "ˈ|uː|l|s",
+   "bharat": "ˈ|b|ɑ|r|ə|t",
+   "prathet": "p|r|ɑ|ˈ|t|eɪ|t",
+   "sakartvelo": "ˌ|s|ɑ|k|ɑ|r|t|ˈ|v|ɛ|l|ɔ",
+   "kartvelians": "k|ɑ|r|t|ˈ|v|iː|l|i|ə|n|z",
+   "hayastan": "ˌ|h|ɑ|j|ɑ|s|ˈ|t|ɑ|n",
+   "hay": "ˈ|h|aɪ",
+   "druk": "ˈ|d|r|ʊ|k",
+   "yul": "ˈ|j|uː|l",
+   "goryeo": "ˈ|g|oʊ|r|j|ɔ"
+  }
+ },
+ "lines": [
+  {
+   "say": "Japan isn't called Japan."
+  },
+  {
+   "say": "It's Nihon, or Nippon. Written sun and origin: where the sun rises."
+  },
+  {
+   "say": "China is Zhongguo. The middle kingdom."
+  },
+  {
+   "say": "Korea comes from Goryeo, an old dynasty. South Korea calls itself Hanguk."
+  },
+  {
+   "say": "Mongolia is Mongol Uls."
+  },
+  {
+   "say": "India's constitution says it in Article 1: India, that is Bharat."
+  },
+  {
+   "say": "Bhutan is Druk Yul. The land of the thunder dragon."
+  },
+  {
+   "say": "In English, Thailand was Siam until 1939. At home, it's Prathet Thai."
+  },
+  {
+   "say": "Georgia is Sakartvelo, land of the Kartvelians."
+  },
+  {
+   "say": "And Armenia is Hayastan, land of the Hay."
+  },
+  {
+   "say": "Which name should English switch to?",
+   "screen": "Which name should *English* use?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Parts 1 and 2 are on my profile. And remember:",
+   "screen": "Parts 1 and 2 on my profile"
+  }
+ ],
+ "data": {
+  "start": [
+   112.0,
+   35.0,
+   9
+  ],
+  "fly": 1.0,
+  "stops": [
+   {
+    "at": 0.0,
+    "code": "JPN",
+    "cam": [
+     138.0,
+     37.0,
+     45
+    ]
+   },
+   {
+    "at": "L1",
+    "code": "JPN",
+    "cam": [
+     138.0,
+     37.0,
+     45
+    ],
+    "en": "Japan",
+    "img": "nihon",
+    "tr": "Nihon / Nippon",
+    "mean": "origin of the sun",
+    "strike_at": "L1:Nihon"
+   },
+   {
+    "at": "L2",
+    "code": "CHN",
+    "cam": [
+     104.0,
+     35.0,
+     19
+    ],
+    "en": "China",
+    "img": "zhongguo",
+    "tr": "Zhōngguó",
+    "mean": "the middle kingdom",
+    "strike_at": "L2:Zhongguo"
+   },
+   {
+    "at": "L3",
+    "code": "KOR",
+    "cam": [
+     127.8,
+     36.4,
+     130
+    ],
+    "en": "South Korea",
+    "img": "hanguk",
+    "tr": "Hanguk",
+    "strike_at": "L3:Hanguk"
+   },
+   {
+    "at": "L4",
+    "code": "MNG",
+    "cam": [
+     103.0,
+     46.8,
+     30
+    ],
+    "en": "Mongolia",
+    "img": "mongoluls",
+    "tr": "Mongol Uls",
+    "strike_at": "L4:Mongol#2"
+   },
+   {
+    "at": "L5",
+    "code": "IND",
+    "cam": [
+     79.0,
+     22.0,
+     26
+    ],
+    "en": "India",
+    "img": "bharat",
+    "tr": "Bhārat",
+    "mean": "Constitution, Article 1",
+    "strike_at": "L5:Bharat",
+    "strike": false
+   },
+   {
+    "at": "L6",
+    "code": "BTN",
+    "cam": [
+     90.4,
+     27.4,
+     210
+    ],
+    "en": "Bhutan",
+    "img": "drukyul",
+    "tr": "Druk Yul",
+    "mean": "land of the thunder dragon",
+    "strike_at": "L6:Druk"
+   },
+   {
+    "at": "L7",
+    "code": "THA",
+    "cam": [
+     101.0,
+     15.0,
+     58
+    ],
+    "en": "Siam",
+    "img": "prathetthai",
+    "tr": "Prathet Thai",
+    "mean": "Thailand in English since 1939",
+    "strike_at": "L7:Prathet"
+   },
+   {
+    "at": "L8",
+    "code": "GEO",
+    "cam": [
+     43.4,
+     42.2,
+     150
+    ],
+    "en": "Georgia",
+    "img": "sakartvelo",
+    "tr": "Sakartvelo",
+    "mean": "land of the Kartvelians",
+    "strike_at": "L8:Sakartvelo"
+   },
+   {
+    "at": "L9",
+    "code": "ARM",
+    "cam": [
+     45.0,
+     40.1,
+     190
+    ],
+    "en": "Armenia",
+    "img": "hayastan",
+    "tr": "Hayastan",
+    "mean": "land of the Hay",
+    "strike_at": "L9:Hayastan"
+   },
+   {
+    "at": "L10",
+    "code": null,
+    "cam": [
+     112.0,
+     35.0,
+     10
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Wikipedia, Names of Japan",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Wikipedia, Names of China",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Wikipedia, Names of Korea",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Constitution of India, Article 1",
+   "year": 1950,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Wikipedia, Bhutan",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Wikipedia, Thailand",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L8",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "until": "L11",
+  "balance": "Two names, one place. Both are *real.*",
+  "y": 800
+ },
+ "caption_en": "India's constitution answers this in its very first article.\n\nWhat countries in Asia call themselves:\nJapan: Nihon / Nippon (日本), written \"sun\" + \"origin\"\nChina: Zhōngguó (中国), \"the middle kingdom\"\nSouth Korea: Hanguk (한국); \"Korea\" comes from Goryeo, an old Korean dynasty\nMongolia: Mongol Uls (Монгол Улс)\nIndia: Bhārat (भारत). Article 1 of the Constitution: \"India, that is Bharat, shall be a Union of States.\"\nBhutan: Druk Yul (འབྲུག་ཡུལ།), \"land of the thunder dragon\"\nThailand: Prathet Thai (ประเทศไทย); known in English as Siam until 1939\nGeorgia: Sakartvelo (საქართველო), \"land of the Kartvelians\"\nArmenia: Hayastan (Հայաստան), from Hay, the Armenians' name for themselves\n\nTwo names, one place. Both are real.\nParts 1 (Europe) and 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Japan; Names of China; Names of Korea; Bhutan; Thailand (2026). Constitution of India, Article 1.\nVoice: AI clone of my own voice.",
+ "caption_he": "החוקה של הודו עונה על זה כבר בסעיף הראשון.\n\nיפן היא ניהון (\"מקור השמש\"), סין היא ג'ונגגואו (\"ממלכת האמצע\"), דרום קוריאה היא הנגוק, מונגוליה היא מונגול אולס, בהוטן היא דרוק יול (\"ארץ דרקון הרעם\"), הודו היא גם בהרט (סעיף 1 בחוקה), תאילנד היא פראטט תאי (באנגלית: סיאם עד 1939), גאורגיה היא סקרטוולו וארמניה היא הייסטן.\nחלקים 1 ו-2 בפרופיל.",
+ "hashtags": [
+  "#geography",
+  "#asia",
+  "#languages"
+ ],
+ "cover": {
+  "t": 0.4,
+  "big": "Japan?",
+  "text": "What Japanese|*really* call it"
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "id": "endonyms_p1_europe",
+ "account": "noamroz__",
+ "template": "endonym_fly",
+ "hook": "Nobody calls it *Germany.*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12,
+  "maxpause": 0.2
+ },
+ "pron": {
+  "lex": {
+   "deutschland": "ˈ|d|ɔɪ|tʃ|l|ɑ|n|t",
+   "österreich": "ˈ|ɜ|s|t|ə|r|aɪ|k",
+   "helvetia": "h|ɛ|l|ˈ|v|eɪ|ʃ|ə",
+   "magyarország": "ˈ|m|ɑ|dʒ|ɑ|r|ˌ|ɔ|r|s|ɑː|g",
+   "magyars": "ˈ|m|æ|g|j|ɑ|r|z",
+   "suomi": "ˈ|s|w|ɔ|m|i",
+   "hellas": "ˈ|h|ɛ|l|ə|s",
+   "hellenes": "ˈ|h|ɛ|l|iː|n|z",
+   "graeci": "ˈ|g|r|aɪ|k|i",
+   "shqipëria": "ʃ|tʃ|i|p|ə|ˈ|r|i|ɑ",
+   "hrvatska": "ˈ|h|ɜ|r|v|ɑ|t|s|k|ɑ",
+   "crna": "ˈ|t|s|ɜ|r|n|ɑ",
+   "gora": "ˈ|g|ɔ|r|ɑ",
+   "éire": "ˈ|ɛ|r|ə"
+  }
+ },
+ "lines": [
+  {
+   "say": "Nobody calls it Germany."
+  },
+  {
+   "say": "Not even Germans. They say Deutschland, from an old word for: of the people."
+  },
+  {
+   "say": "Austria is Österreich. The eastern realm."
+  },
+  {
+   "say": "Switzerland has four languages, so four names. On its coins, it's Helvetia. That's why it's C. H."
+  },
+  {
+   "say": "Hungary? Magyarország. Land of the Magyars."
+  },
+  {
+   "say": "Finland is Suomi. Even the Finns aren't sure where that comes from."
+  },
+  {
+   "say": "Greece is Hellas. Romans said Graeci. Greeks call themselves Hellenes."
+  },
+  {
+   "say": "Albania is Shqipëria. Many link it to the eagle on its flag."
+  },
+  {
+   "say": "Croatia? Hrvatska."
+  },
+  {
+   "say": "Montenegro is Crna Gora. Same meaning: black mountain."
+  },
+  {
+   "say": "And Ireland is Éire. Ireland literally means: land of Éire."
+  },
+  {
+   "say": "Which one surprised you?",
+   "screen": "Which name *surprised* you?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Part 2 is the Middle East. Until then, remember:",
+   "screen": "Part 2 on my profile"
+  }
+ ],
+ "data": {
+  "start": [
+   10.0,
+   50.0,
+   14
+  ],
+  "fly": 1.0,
+  "stops": [
+   {
+    "at": 0.0,
+    "code": "DEU",
+    "cam": [
+     10.4,
+     51.1,
+     70
+    ]
+   },
+   {
+    "at": "L1",
+    "code": "DEU",
+    "cam": [
+     10.4,
+     51.1,
+     70
+    ],
+    "en": "Germany",
+    "img": "deutschland",
+    "tr": "DOYCH-lahnt",
+    "mean": "\"of the people\"",
+    "strike_at": "L1:Deutschland"
+   },
+   {
+    "at": "L2",
+    "code": "AUT",
+    "cam": [
+     13.3,
+     47.6,
+     105
+    ],
+    "en": "Austria",
+    "img": "oesterreich",
+    "tr": "UR-steh-rykh",
+    "mean": "the eastern realm",
+    "strike_at": "L2:Österreich"
+   },
+   {
+    "at": "L3",
+    "code": "CHE",
+    "cam": [
+     8.2,
+     46.8,
+     140
+    ],
+    "en": "Switzerland",
+    "img": "helvetia",
+    "tr": "Schweiz, Suisse, Svizzera, Svizra",
+    "mean": "on its coins and stamps",
+    "strike_at": "L3:Helvetia"
+   },
+   {
+    "at": "L4",
+    "code": "HUN",
+    "cam": [
+     19.4,
+     47.2,
+     110
+    ],
+    "en": "Hungary",
+    "img": "magyarorszag",
+    "tr": "MOD-yar-or-saag",
+    "mean": "land of the Magyars",
+    "strike_at": "L4:Magyarország"
+   },
+   {
+    "at": "L5",
+    "code": "FIN",
+    "cam": [
+     26.0,
+     64.0,
+     48
+    ],
+    "en": "Finland",
+    "img": "suomi",
+    "tr": "SWOH-mee",
+    "strike_at": "L5:Suomi"
+   },
+   {
+    "at": "L6",
+    "code": "GRC",
+    "cam": [
+     22.8,
+     39.2,
+     80
+    ],
+    "en": "Greece",
+    "img": "hellas",
+    "tr": "Hellas",
+    "mean": "land of the Hellenes",
+    "strike_at": "L6:Hellas"
+   },
+   {
+    "at": "L7",
+    "code": "ALB",
+    "cam": [
+     20.0,
+     41.1,
+     150
+    ],
+    "en": "Albania",
+    "img": "shqiperia",
+    "tr": "shchee-puh-REE-ah",
+    "strike_at": "L7:Shqipëria"
+   },
+   {
+    "at": "L8",
+    "code": "HRV",
+    "cam": [
+     16.2,
+     44.9,
+     105
+    ],
+    "en": "Croatia",
+    "img": "hrvatska",
+    "tr": "HER-vaht-skah",
+    "strike_at": "L8:Hrvatska"
+   },
+   {
+    "at": "L9",
+    "code": "MNE",
+    "cam": [
+     19.25,
+     42.8,
+     230
+    ],
+    "en": "Montenegro",
+    "img": "crnagora",
+    "tr": "Crna Gora",
+    "mean": "black mountain",
+    "strike_at": "L9:Crna"
+   },
+   {
+    "at": "L10",
+    "code": "IRL",
+    "cam": [
+     -8.0,
+     53.4,
+     95
+    ],
+    "en": "Ireland",
+    "img": "eire",
+    "tr": "AIR-uh",
+    "strike_at": "L10:Éire"
+   },
+   {
+    "at": "L11",
+    "code": null,
+    "cam": [
+     12.0,
+     50.0,
+     18
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Wikipedia, Names of Germany",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Wikipedia, Austria",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Wikipedia, Switzerland",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Wikipedia, Finland",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Wikipedia, Names of Greece",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Wikipedia, Names of Albania",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Wikipedia, Montenegro",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "Wikipedia, Names of Ireland",
+   "year": 2026,
+   "at": "L10",
+   "until": "L11"
+  }
+ ],
+ "end": {
+  "at": "L11",
+  "until": "L12",
+  "balance": "Neither name is wrong. One is just *theirs.*",
+  "y": 800
+ },
+ "caption_en": "The Swiss one explains something you see every day.\n\nWhat European countries call themselves:\nGermany: Deutschland (from Old High German diutisc, \"of the people\")\nAustria: Österreich (\"eastern realm\")\nSwitzerland: Schweiz, Suisse, Svizzera, Svizra. Four official languages, so coins and stamps use the Latin Helvetia, and the country code CH is Confoederatio Helvetica\nHungary: Magyarország (\"land of the Magyars\")\nFinland: Suomi (its origin is uncertain)\nGreece: Hellas / Ελλάς (the Romans called them Graeci; Greeks call themselves Hellenes)\nAlbania: Shqipëria (popularly linked to shqiponjë, eagle, as on the flag)\nCroatia: Hrvatska\nMontenegro: Crna Gora / Црна Гора (both mean \"black mountain\")\nIreland: Éire (English \"Ireland\" is Éire + land)\n\nNeither name is wrong. One is just theirs.\nPart 2 (Middle East and Africa) on my profile.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Germany; Austria; Switzerland; Finland; Names of Greece; Albania; Montenegro; Ireland (2026).\nVoice: AI clone of my own voice.",
+ "caption_he": "השוויצרית מסבירה משהו שאתם רואים כל יום.\n\nאיך מדינות אירופה קוראות לעצמן: גרמניה היא דויטשלנד, אוסטריה היא אסטרייך (\"הממלכה המזרחית\"), שווייץ היא הלווטיה על המטבעות, ומשם CH, הונגריה היא מדיארורסאג, פינלנד היא סואומי, יוון היא הלאס, אלבניה היא שקיפריה, קרואטיה היא הרוואטסקה, מונטנגרו היא צרנה גורה (\"ההר השחור\"), ואירלנד היא אירה.\nחלק 2 בפרופיל.",
+ "hashtags": [
+  "#geography",
+  "#languages",
+  "#europe"
+ ],
+ "cover": {
+  "t": 0.4,
+  "big": "Germany?",
+  "text": "What Germans|*really* call it"
+ }
+}

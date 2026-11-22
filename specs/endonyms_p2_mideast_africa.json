@@ -1,0 +1,300 @@
+{
+ "id": "endonyms_p2_mideast_africa",
+ "account": "noamroz__",
+ "template": "endonym_fly",
+ "hook": "Egypt isn't called *Egypt.*",
+ "music": {
+  "bed": "journey",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.12,
+  "gap": 0.15,
+  "lead": 0.12,
+  "maxpause": 0.2
+ },
+ "pron": {
+  "lex": {
+   "masr": "ˈ|m|ɑ|s|r",
+   "mitzrayim": "m|ɪ|t|s|ˈ|r|ɑ|j|ɪ|m",
+   "almaghrib": "ɑ|l|ˈ|m|ɑ|g|r|ɪ|b",
+   "aljazair": "ˌ|ɑ|l|dʒ|ə|ˈ|z|ɑ|ɪ|r",
+   "eswatini": "ˌ|ɛ|s|w|ɑ|ˈ|t|iː|n|i",
+   "türkiye": "ˈ|t|ʊ|r|k|i|j|ɛ",
+   "alurdun": "ˌ|ɑ|l|ʊ|r|ˈ|d|uː|n",
+   "lubnan": "l|ʊ|b|ˈ|n|ɑː|n",
+   "yisrael": "j|ɪ|s|r|ɑ|ˈ|ɛ|l"
+  }
+ },
+ "lines": [
+  {
+   "say": "Egypt isn't called Egypt."
+  },
+  {
+   "say": "Egyptians say Masr. Hebrew has Mitzrayim, from the same old root. Egypt comes from Greek."
+  },
+  {
+   "say": "Fly west. Morocco is al-Maghrib: the west, where the sun sets."
+  },
+  {
+   "say": "Algeria is al-Jazair. The islands, after the islets off Algiers."
+  },
+  {
+   "say": "Way down south, Swaziland renamed itself Eswatini in 2018."
+  },
+  {
+   "say": "Turkey asked the UN to say Türkiye in 2022."
+  },
+  {
+   "say": "Persia? Iranians always said Iran. In 1935, they asked the world to say it too."
+  },
+  {
+   "say": "Jordan is al-Urdun."
+  },
+  {
+   "say": "Lebanon is Lubnan, from an old word for white: the snow on its mountains."
+  },
+  {
+   "say": "And Israel is Yisrael. In Genesis, it's the name given to Jacob, often read as: he struggles with God."
+  },
+  {
+   "say": "Which one did you already know?",
+   "screen": "Which one did you *already* know?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Part 3 flies to Asia. Until then, remember:",
+   "screen": "Part 3 on my profile"
+  }
+ ],
+ "data": {
+  "start": [
+   33.0,
+   25.0,
+   9
+  ],
+  "fly": 1.0,
+  "stops": [
+   {
+    "at": 0.0,
+    "code": "EGY",
+    "cam": [
+     30.8,
+     26.8,
+     55
+    ]
+   },
+   {
+    "at": "L1",
+    "code": "EGY",
+    "cam": [
+     30.8,
+     26.8,
+     55
+    ],
+    "en": "Egypt",
+    "img": "masr",
+    "tr": "Masr / Misr",
+    "mean": "same root as Mitzrayim",
+    "strike_at": "L1:Masr"
+   },
+   {
+    "at": "L2",
+    "code": "MAR",
+    "cam": [
+     -6.3,
+     31.8,
+     62
+    ],
+    "en": "Morocco",
+    "img": "almaghrib",
+    "tr": "al-Maghrib",
+    "mean": "the west",
+    "strike_at": "L2:almaghrib"
+   },
+   {
+    "at": "L3",
+    "code": "DZA",
+    "cam": [
+     2.6,
+     28.2,
+     34
+    ],
+    "en": "Algeria",
+    "img": "aljazair",
+    "tr": "al-Jazā'ir",
+    "mean": "the islands",
+    "strike_at": "L3:aljazair"
+   },
+   {
+    "at": "L4",
+    "code": "SWZ",
+    "cam": [
+     31.5,
+     -26.5,
+     240
+    ],
+    "en": "Swaziland",
+    "img": "eswatini",
+    "tr": "eh-swah-TEE-nee",
+    "mean": "renamed in 2018",
+    "strike_at": "L4:Eswatini"
+   },
+   {
+    "at": "L5",
+    "code": "TUR",
+    "cam": [
+     35.2,
+     39.0,
+     52
+    ],
+    "en": "Turkey",
+    "img": "turkiye",
+    "tr": "TUR-kee-yeh",
+    "mean": "UN name since 2022",
+    "strike_at": "L5:Türkiye"
+   },
+   {
+    "at": "L6",
+    "code": "IRN",
+    "cam": [
+     53.7,
+     32.4,
+     40
+    ],
+    "en": "Persia",
+    "img": "iran",
+    "tr": "Īrān",
+    "mean": "the world's name for it since 1935",
+    "strike_at": "L6:Iran#2"
+   },
+   {
+    "at": "L7",
+    "code": "JOR",
+    "cam": [
+     36.6,
+     31.2,
+     130
+    ],
+    "en": "Jordan",
+    "img": "alurdun",
+    "tr": "al-Urdun",
+    "strike_at": "L7:alurdun"
+   },
+   {
+    "at": "L8",
+    "code": "LBN",
+    "cam": [
+     35.86,
+     33.9,
+     280
+    ],
+    "en": "Lebanon",
+    "img": "lubnan",
+    "tr": "Lubnān",
+    "mean": "white, for the snow",
+    "strike_at": "L8:Lubnan"
+   },
+   {
+    "at": "L9",
+    "code": "ISR",
+    "cam": [
+     35.0,
+     31.5,
+     170
+    ],
+    "en": "Israel",
+    "img": "yisrael",
+    "tr": "Yisra'el",
+    "mean": "struggles with God (Genesis 32)",
+    "strike_at": "L9:Yisrael",
+    "strike": false
+   },
+   {
+    "at": "L10",
+    "code": null,
+    "cam": [
+     33.0,
+     27.0,
+     16
+    ]
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Wikipedia, Names of Egypt",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "Wikipedia, Algeria",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Wikipedia, Eswatini",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Wikipedia, Turkey (UN name change)",
+   "year": 2026,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Wikipedia, Name of Iran",
+   "year": 2026,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "Wikipedia, country names in native languages",
+   "year": 2026,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "Wikipedia, Lebanon",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "Genesis 32:28; Wikipedia, Israel",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "until": "L11",
+  "balance": "Every country gets to *name itself.*",
+  "y": 800
+ },
+ "caption_en": "One of these is the same word in Hebrew.\n\nWhat countries in the Middle East and Africa call themselves:\nEgypt: Masr / Misr (مصر), the same Semitic root as Hebrew Mitzrayim; \"Egypt\" comes from Greek Aigyptos\nMorocco: al-Maghrib (المغرب), \"the west\"\nAlgeria: al-Jazā'ir (الجزائر), \"the islands\", after the islets off Algiers\nEswatini: renamed from Swaziland in April 2018\nTürkiye: the UN name since June 2022\nIran (ایران): in 1935 Iran asked other countries to use Iran instead of Persia\nJordan: al-Urdun (الأردن)\nLebanon: Lubnān (لبنان), from a Semitic root for \"white\", for the snow on Mount Lebanon\nIsrael: Yisra'el (ישראל), the name given to Jacob in Genesis 32:28, often read as \"he struggles with God\"\n\nEvery country gets to name itself.\nPart 3 (Asia) on my profile. Part 1 (Europe) too.\n\nSources: Wikipedia, List of countries and dependencies and their capitals in native languages; Names of Egypt; Algeria; Eswatini; Turkey; Name of Iran; Lebanon; Israel (2026). Genesis 32:28.\nVoice: AI clone of my own voice.",
+ "caption_he": "אחד מהשמות האלה הוא אותה מילה בעברית.\n\nמצרים היא מַצְר (אותו שורש כמו המילה העברית מצרים), מרוקו היא אל-מגרב (\"המערב\"), אלג'יריה היא אל-ג'זאיר (\"האיים\"), סווזילנד הפכה לאסוואטיני ב-2018, טורקיה ביקשה מהאו\"ם לומר טורקיֶה ב-2022, פרס ביקשה מהעולם לומר איראן ב-1935, ירדן היא אל-אורדון, לבנון היא לובנאן (\"לבן\", על השלג בהרים), וישראל היא ישראל, השם שניתן ליעקב בספר בראשית.\nחלק 3 בפרופיל.",
+ "hashtags": [
+  "#geography",
+  "#middleeast",
+  "#languages"
+ ],
+ "cover": {
+  "t": 0.4,
+  "big": "Egypt?",
+  "text": "What Egyptians|*really* call it"
+ }
+}
