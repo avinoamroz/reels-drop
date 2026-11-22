@@ -50,7 +50,7 @@
   }
  ],
  "transcript": {
-  "score": 0.976,
+  "score": 0.969,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -90,7 +90,7 @@
    },
    {
     "line": "Finding five: Valencia says paella with chorizo is a war crime.",
-    "score": 1.0,
+    "score": 0.909,
     "flag": "ok"
    },
    {
@@ -109,7 +109,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Spain, judged like Israel. Ready? Official report. Finding 1. Spain is stolen land. Before Spain, the Romans called it Hispania. Before the Romans, the Iberians. Decolonize Spain. Give it back to the Iberians. Finding 2. Spain holds two cities in Africa, Suda and Malilla. Behind fences 6 meters high. Finding 3. The Canary Islands. Conquered from the Guanches in the 1400s. Finding 4. In 2019. Spain jailed Catalan leaders for up to 13 years, over a referendum. Finding five. Valencia says Paella with chorizo is a war crime. Sounds ridiculous. Israel hears it every day. Spain isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems, one standard. If you love Israeli facts, follow. Noam Roz for more. So, one more time.",
+  "heard": "Spain, judged like Israel. Ready? Official report. Finding one. Spain is stolen land. Before Spain, the Romans called it hispania. Before the Romans, the Iberians. Decolonize Spain. Give it back to the Iberians. Finding two. Spain holds two cities in Africa, Suda and Malilla. Behind fences six meters high. Finding three. The Canary Islands. Conquered from the Guanches in the 1400s. Finding four. In 2019. Spain jailed Catalan leaders for up to 13 years over a referendum. Finding five. Valencia says Paola with chorizo is a war crime. Sounds ridiculous. Israel hears it every day. Spain isn't an apartheid state. Neither is Israel, where one in five citizens is Arab. Both have real problems. One standard. If you love Israeli facts, follow. Noam Roz for more. So, one more time.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -122,5 +122,5 @@
  "lint_warnings": [
   "hook has no number"
  ],
- "render_s": 77.9
+ "render_s": 78.2
 }
