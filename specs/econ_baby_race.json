@@ -22,7 +22,7 @@
    "screen": "*1960:* Israel 38, Egypt 173, Turkey 178"
   },
   {
-   "say": "Then the whole region starts racing down.",
+   "say": "Then the whole region starts racing down. Israel too: under ten by 1990.",
    "screen": "The whole region *races down*"
   },
   {
@@ -57,7 +57,7 @@
    "gap": 0.25
   },
   {
-   "say": "Two point seven. Down from thirty eight.",
+   "say": "Two point seven. Fourteen times lower than in 1960.",
    "screen": "Israel 2024: *2.7* per 1,000"
   }
  ],
@@ -143,7 +143,7 @@
    "x1": 1040,
    "base": 1130,
    "top": 640,
-   "val_size": 38,
+   "val_size": 36,
    "lab_size": 38,
    "key_y": 1330
   },
@@ -153,12 +153,12 @@
     "1960"
    ],
    [
-    "L1e",
+    "L0+1.0",
     "1960"
    ],
    [
-    "L2",
-    "1961"
+    "L1e",
+    "1963"
    ],
    [
     "L3e",

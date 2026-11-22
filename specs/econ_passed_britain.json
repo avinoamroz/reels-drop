@@ -147,15 +147,15 @@
   "nodata": true,
   "tail_nan": true,
   "top": 11,
-  "dec": 0,
+  "dec": 1,
   "prefix": "$",
-  "suffix": "",
+  "suffix": "k",
   "area": {
    "x0": 40,
    "x1": 1040,
    "base": 1130,
    "top": 640,
-   "val_size": 38,
+   "val_size": 36,
    "lab_size": 38,
    "key_y": 1330
   },
@@ -165,12 +165,12 @@
     "1980"
    ],
    [
-    "L2e",
+    "L0+1.0",
     "1980"
    ],
    [
-    "L3",
-    "1981"
+    "L2e",
+    "1982"
    ],
    [
     "L3e",

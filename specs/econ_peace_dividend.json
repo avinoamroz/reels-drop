@@ -15,7 +15,7 @@
  },
  "lines": [
   {
-   "say": "Twenty three percent of everything Israel produced went to defence. That was 1970."
+   "say": "Twenty three percent of everything Israel produced went to defence. That was in 1970."
   },
   {
    "say": "This is the defence bill as a share of the economy. Lowest first.",
@@ -139,13 +139,13 @@
   "top": 10,
   "dec": 1,
   "prefix": "",
-  "suffix": "%",
+  "suffix": "",
   "area": {
    "x0": 40,
    "x1": 1040,
    "base": 1130,
    "top": 640,
-   "val_size": 38,
+   "val_size": 36,
    "lab_size": 38,
    "key_y": 1330
   },
@@ -155,11 +155,15 @@
     "1970"
    ],
    [
-    "L2e",
+    "L0+1.0",
     "1970"
    ],
    [
-    "L3",
+    "L2e",
+    "1972"
+   ],
+   [
+    "L3e",
     "1979"
    ],
    [
