@@ -36,7 +36,7 @@
   }
  ],
  "transcript": {
-  "score": 0.985,
+  "score": 0.992,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -81,7 +81,7 @@
    },
    {
     "line": "Saudi Arabia ends at seven. Germany, four. The UAE, three.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -100,7 +100,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Two mothers die for every hundred thousand births. That is the lowest on this chart. Which country is it? Maternal deaths per hundred thousand live births since 1990. Lowest first. In 1990 Egypt and Iran lose 107. Britain leads with 6. America 12. Israel 29. Then the region falls fast. Egypt ends at 17. Turkey from 42 to 15. Lebanon and Iran end at 15 and 16 America goes the other way 12 then 17 2021 the pandemic spikes almost everywhere Jordan hits 79 Saudi Arabia ends at 7 Germany for the UAE 3 why did America go backwards tell me in the comments if you love Israeli facts follow noam raz for more and the lowest on the chart Israel 2",
+  "heard": "Two mothers die for every hundred thousand births. That is the lowest on this chart. Which country is it? Maternal deaths per hundred thousand live births since 1990. Lowest first. In 1990 Egypt and Iran lose 107. Britain leads with 6. America 12. Israel 29. Then the region falls fast. Egypt ends at 17. Turkey from 42 to 15. Lebanon and Iran end at 15 and 16. America goes the other way. 12, then 17. 2021. The pandemic spikes almost everywhere. Jordan hits 79. Saudi Arabia ends at 7. Germany 4. The UAE 3. Why did America go backwards? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. And the lowest on the chart. Israel 2",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -110,5 +110,5 @@
   "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 142.4
+ "render_s": 139.0
 }
