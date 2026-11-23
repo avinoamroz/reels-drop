@@ -6,7 +6,7 @@
  "duration": 53.0,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/israel_vs_world.mp4",
@@ -65,12 +65,12 @@
   }
  ],
  "transcript": {
-  "score": 0.983,
+  "score": 0.975,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Israel versus eight countries. Seven numbers.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -129,12 +129,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "Israel versus 8 countries. 7 numbers. 1. Happiness. Israel beats all 8 8th in the world. 2. Research. Israel spends the most, almost double anyone here. 3. Life expectancy. Only Japan beats Israel. 4. Babies. Israel tops the chart above Egypt and Jordan. 5. Median age. Israel 29. Germany and Japan over 45. 6. Soldiers per thousand people. Israel 16. twice Jordan, four times America. Israel drafts at 18. Hamas and Hezbollah sit on its orders. Seven, money per person. Only America is richer. Adjusted for prices, Israel drops to sixth. Japan lives longer. America earns more. Israel is happiest. Which number surprised you? Part one, Israel versus the USA, is on my profile. If you love Israeli facts, follow. Noam Roz for more. Here they are again.",
+  "heard": "Israel vs 8 countries 7 numbers 1. Happiness Israel beats all 8 8th in the world 2. Research Israel spends the most, almost double anyone here 3. Life expectancy Only Japan beats Israel 4. Babies Israel tops the chart Above Egypt and Jordan 5. Median age Israel 29. Germany and Japan over 45 6. Soldiers per thousand people Israel 16. Twice Jordan 4 times America Israel drafts at 18. Hamas and Hezbollah sit on its orders. Seven, money per person. Only America is richer. Adjusted for prices, Israel drops to sixth. Japan lives longer. America earns more. Israel is happiest. Which number surprised you? Part one, Israel versus the USA is on my profile. If you love Israeli facts, follow Noam Roz for more. Here they are again.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "beats": 7,
  "lint_warnings": [],
- "render_s": 89.7
+ "render_s": 91.7
 }
