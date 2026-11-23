@@ -1,687 +1,692 @@
 [
 {
 "word": "Sixteen",
-"start": 0.046,
-"end": 0.635
+"start": 0.356,
+"end": 0.898
 },
 {
 "word": "babies,",
-"start": 0.635,
-"end": 1.176
+"start": 0.898,
+"end": 1.378
 },
 {
 "word": "born",
-"start": 1.362,
-"end": 1.718
+"start": 1.378,
+"end": 1.672
 },
 {
 "word": "in",
-"start": 1.718,
-"end": 1.842
+"start": 1.672,
+"end": 1.796
 },
 {
 "word": "a",
-"start": 1.842,
-"end": 1.904
+"start": 1.796,
+"end": 1.889
 },
 {
 "word": "tent.",
-"start": 1.904,
-"end": 2.322
+"start": 1.889,
+"end": 2.384
 },
 {
 "word": "Haiti,",
-"start": 3.065,
+"start": 2.988,
 "end": 3.468
 },
 {
 "word": "2010.",
-"start": 3.468,
-"end": 4.567
+"start": 3.529,
+"end": 4.427
 },
 {
 "word": "An",
-"start": 4.629,
-"end": 4.783
+"start": 4.814,
+"end": 4.969
 },
 {
 "word": "earthquake",
-"start": 4.814,
-"end": 5.325
+"start": 5.0,
+"end": 5.511
 },
 {
 "word": "flattens",
-"start": 5.325,
-"end": 5.774
+"start": 5.511,
+"end": 5.96
 },
 {
 "word": "Port-au-Prince.",
-"start": 5.774,
-"end": 6.517
+"start": 5.96,
+"end": 6.718
 },
 {
 "word": "Israel",
-"start": 6.641,
-"end": 7.028
+"start": 7.105,
+"end": 7.492
 },
 {
 "word": "flies",
-"start": 7.028,
-"end": 7.415
+"start": 7.492,
+"end": 7.879
 },
 {
 "word": "in",
-"start": 7.415,
-"end": 7.508
+"start": 7.879,
+"end": 7.972
 },
 {
 "word": "a",
-"start": 7.508,
-"end": 7.57
+"start": 7.972,
+"end": 8.034
 },
 {
 "word": "field",
-"start": 7.57,
-"end": 7.833
+"start": 8.034,
+"end": 8.297
 },
 {
 "word": "hospital.",
-"start": 7.833,
-"end": 8.375
+"start": 8.297,
+"end": 8.839
 },
 {
 "word": "Before",
-"start": 8.468,
-"end": 8.824
+"start": 9.118,
+"end": 9.443
 },
 {
 "word": "it",
-"start": 8.824,
-"end": 8.886
+"start": 9.443,
+"end": 9.505
 },
 {
 "word": "packs",
-"start": 8.886,
-"end": 9.195
+"start": 9.505,
+"end": 9.799
 },
 {
 "word": "up,",
-"start": 9.195,
-"end": 9.427
+"start": 9.799,
+"end": 10.077
 },
 {
 "word": "it",
-"start": 9.52,
-"end": 9.644
+"start": 10.155,
+"end": 10.248
 },
 {
 "word": "treats",
-"start": 9.644,
-"end": 9.907
+"start": 10.248,
+"end": 10.526
 },
 {
 "word": "1,102",
-"start": 9.907,
-"end": 11.192
+"start": 10.526,
+"end": 11.811
 },
 {
 "word": "people,",
-"start": 11.192,
-"end": 11.734
+"start": 11.811,
+"end": 12.291
 },
 {
 "word": "runs",
-"start": 11.796,
-"end": 12.105
+"start": 12.508,
+"end": 12.74
 },
 {
 "word": "314",
-"start": 12.105,
-"end": 13.034
+"start": 12.74,
+"end": 13.731
 },
 {
 "word": "surgeries,",
-"start": 13.034,
-"end": 13.576
+"start": 13.731,
+"end": 14.334
 },
 {
 "word": "and",
-"start": 13.576,
-"end": 13.746
+"start": 14.567,
+"end": 14.721
 },
 {
 "word": "delivers",
-"start": 13.746,
-"end": 14.102
+"start": 14.721,
+"end": 15.047
 },
 {
 "word": "those",
-"start": 14.102,
-"end": 14.319
+"start": 15.047,
+"end": 15.263
 },
 {
 "word": "16",
-"start": 14.319,
-"end": 14.737
+"start": 15.263,
+"end": 15.681
 },
 {
 "word": "babies.",
-"start": 14.737,
-"end": 15.248
+"start": 15.681,
+"end": 16.223
 },
 {
 "word": "Japan,",
-"start": 15.542,
-"end": 16.238
+"start": 16.641,
+"end": 17.276
 },
 {
 "word": "2011.",
-"start": 16.486,
-"end": 17.585
+"start": 17.338,
+"end": 18.328
 },
 {
 "word": "After",
-"start": 18.034,
-"end": 18.344
+"start": 18.684,
+"end": 18.978
 },
 {
 "word": "the",
-"start": 18.344,
-"end": 18.437
+"start": 18.978,
+"end": 19.102
 },
 {
 "word": "tsunami,",
-"start": 18.437,
-"end": 18.994
+"start": 19.102,
+"end": 19.706
 },
 {
 "word": "an",
-"start": 18.994,
-"end": 19.149
+"start": 20.0,
+"end": 20.124
 },
 {
 "word": "Israeli",
-"start": 19.149,
-"end": 19.536
+"start": 20.124,
+"end": 20.511
 },
 {
 "word": "clinic",
-"start": 19.536,
-"end": 19.892
+"start": 20.511,
+"end": 20.836
 },
 {
 "word": "opens",
-"start": 19.923,
-"end": 20.294
+"start": 20.836,
+"end": 21.177
 },
 {
 "word": "in",
-"start": 20.294,
-"end": 20.372
+"start": 21.177,
+"end": 21.254
 },
 {
 "word": "Minamisanriku.",
-"start": 20.372,
-"end": 21.192
+"start": 21.254,
+"end": 22.043
 },
 {
 "word": "Its",
-"start": 21.424,
-"end": 21.641
+"start": 22.554,
+"end": 22.725
 },
 {
 "word": "first",
-"start": 21.641,
-"end": 21.935
+"start": 22.725,
+"end": 22.972
 },
 {
 "word": "patient?",
-"start": 21.935,
-"end": 22.353
+"start": 22.972,
+"end": 23.39
 },
 {
 "word": "The",
-"start": 22.663,
-"end": 22.756
+"start": 23.855,
+"end": 23.994
 },
 {
 "word": "town's",
-"start": 22.756,
-"end": 23.112
+"start": 23.994,
+"end": 24.365
 },
 {
 "word": "mayor.",
-"start": 23.112,
-"end": 23.499
+"start": 24.365,
+"end": 24.752
 },
 {
 "word": "Florida,",
-"start": 23.932,
-"end": 24.381
+"start": 25.232,
+"end": 25.836
 },
 {
 "word": "2021.",
-"start": 24.427,
-"end": 25.604
+"start": 26.006,
+"end": 27.121
 },
 {
 "word": "A",
-"start": 25.929,
-"end": 26.022
+"start": 27.601,
+"end": 27.632
 },
 {
 "word": "tower",
-"start": 26.022,
-"end": 26.347
+"start": 27.632,
+"end": 27.988
 },
 {
 "word": "collapses",
-"start": 26.347,
-"end": 26.811
+"start": 27.988,
+"end": 28.437
 },
 {
 "word": "in",
-"start": 26.811,
-"end": 26.889
+"start": 28.437,
+"end": 28.561
 },
 {
 "word": "Surfside.",
-"start": 26.889,
-"end": 27.461
+"start": 28.561,
+"end": 29.133
 },
 {
-"word": "Israel's",
-"start": 27.771,
-"end": 28.158
-},
-{
-"word": "rescue",
-"start": 28.158,
-"end": 28.514
-},
-{
-"word": "unit",
-"start": 28.514,
-"end": 28.762
-},
-{
-"word": "flies",
-"start": 28.762,
-"end": 29.025
-},
-{
-"word": "in",
-"start": 29.025,
-"end": 29.118
-},
-{
-"word": "to",
-"start": 29.118,
-"end": 29.211
-},
-{
-"word": "search",
-"start": 29.211,
-"end": 29.443
-},
-{
-"word": "beside",
-"start": 29.443,
-"end": 29.768
-},
-{
-"word": "American",
-"start": 29.768,
-"end": 30.17
-},
-{
-"word": "teams.",
-"start": 30.17,
-"end": 30.681
-},
-{
-"word": "Turkey,",
-"start": 31.006,
-"end": 31.517
-},
-{
-"word": "2023.",
-"start": 31.548,
-"end": 32.709
-},
-{
-"word": "A",
-"start": 33.05,
-"end": 33.112
-},
-{
-"word": "huge",
-"start": 33.112,
-"end": 33.499
-},
-{
-"word": "earthquake.",
-"start": 33.53,
-"end": 34.071
+"word": "An",
+"start": 29.737,
+"end": 29.845
 },
 {
 "word": "Israeli",
-"start": 34.427,
-"end": 34.876
-},
-{
-"word": "teams",
-"start": 34.876,
-"end": 35.201
-},
-{
-"word": "pull",
-"start": 35.201,
-"end": 35.387
-},
-{
-"word": "19",
-"start": 35.387,
-"end": 35.774
-},
-{
-"word": "people",
-"start": 35.774,
-"end": 36.037
-},
-{
-"word": "out",
-"start": 36.037,
-"end": 36.161
-},
-{
-"word": "of",
-"start": 36.161,
-"end": 36.254
-},
-{
-"word": "the",
-"start": 36.254,
-"end": 36.316
-},
-{
-"word": "rubble.",
-"start": 36.316,
-"end": 36.703
-},
-{
-"word": "In",
-"start": 37.028,
-"end": 37.121
-},
-{
-"word": "2016,",
-"start": 37.121,
-"end": 38.019
-},
-{
-"word": "the",
-"start": 38.236,
-"end": 38.328
-},
-{
-"word": "World",
-"start": 38.328,
-"end": 38.561
-},
-{
-"word": "Health",
-"start": 38.561,
-"end": 38.746
-},
-{
-"word": "Organization",
-"start": 38.746,
-"end": 39.381
-},
-{
-"word": "ranked",
-"start": 39.381,
-"end": 39.613
-},
-{
-"word": "Israel's",
-"start": 39.613,
-"end": 39.938
-},
-{
-"word": "field",
-"start": 39.938,
-"end": 40.155
-},
-{
-"word": "hospital",
-"start": 40.155,
-"end": 40.604
-},
-{
-"word": "the",
-"start": 40.604,
-"end": 40.697
-},
-{
-"word": "first",
-"start": 40.697,
-"end": 40.96
-},
-{
-"word": "team",
-"start": 40.96,
-"end": 41.146
-},
-{
-"word": "in",
-"start": 41.146,
-"end": 41.239
-},
-{
-"word": "the",
-"start": 41.239,
-"end": 41.301
-},
-{
-"word": "world",
-"start": 41.301,
-"end": 41.564
-},
-{
-"word": "at",
-"start": 41.564,
-"end": 41.657
-},
-{
-"word": "its",
-"start": 41.657,
-"end": 41.78
-},
-{
-"word": "top",
-"start": 41.78,
-"end": 41.982
-},
-{
-"word": "level.",
-"start": 41.982,
-"end": 42.307
-},
-{
-"word": "And",
-"start": 42.616,
-"end": 42.74
-},
-{
-"word": "the",
-"start": 42.74,
-"end": 42.802
-},
-{
-"word": "very",
-"start": 42.802,
-"end": 42.988
-},
-{
-"word": "first",
-"start": 42.988,
-"end": 43.189
-},
-{
-"word": "mission?",
-"start": 43.189,
-"end": 43.576
-},
-{
-"word": "Greece,",
-"start": 43.994,
-"end": 44.536
-},
-{
-"word": "1953.",
-"start": 44.691,
-"end": 46.378
-},
-{
-"word": "Israel",
-"start": 46.796,
-"end": 47.121
-},
-{
-"word": "was",
-"start": 47.121,
-"end": 47.276
-},
-{
-"word": "five",
-"start": 47.276,
-"end": 47.508
-},
-{
-"word": "years",
-"start": 47.508,
-"end": 47.694
-},
-{
-"word": "old.",
-"start": 47.694,
-"end": 47.988
-},
-{
-"word": "Many",
-"start": 48.205,
-"end": 48.437
-},
-{
-"word": "countries",
-"start": 48.437,
-"end": 48.793
-},
-{
-"word": "send",
-"start": 48.793,
-"end": 48.948
+"start": 29.845,
+"end": 30.248
 },
 {
 "word": "rescue",
-"start": 48.948,
-"end": 49.257
-},
-{
-"word": "teams.",
-"start": 49.257,
-"end": 49.644
-},
-{
-"word": "Israel",
-"start": 50.062,
-"end": 50.387
-},
-{
-"word": "is",
-"start": 50.387,
-"end": 50.511
-},
-{
-"word": "one",
-"start": 50.511,
-"end": 50.666
-},
-{
-"word": "of",
-"start": 50.666,
-"end": 50.743
-},
-{
-"word": "them.",
-"start": 50.743,
-"end": 50.96
-},
-{
-"word": "Should",
-"start": 51.254,
-"end": 51.502
-},
-{
-"word": "every",
-"start": 51.502,
-"end": 51.657
-},
-{
-"word": "country",
-"start": 51.657,
-"end": 51.982
-},
-{
-"word": "keep",
-"start": 51.982,
-"end": 52.137
-},
-{
-"word": "a",
-"start": 52.137,
-"end": 52.183
+"start": 30.248,
+"end": 30.573
 },
 {
 "word": "team",
-"start": 52.183,
-"end": 52.338
+"start": 30.573,
+"end": 30.774
+},
+{
+"word": "flies",
+"start": 30.774,
+"end": 31.053
+},
+{
+"word": "in",
+"start": 31.053,
+"end": 31.146
+},
+{
+"word": "to",
+"start": 31.146,
+"end": 31.254
+},
+{
+"word": "dig",
+"start": 31.254,
+"end": 31.533
+},
+{
+"word": "beside",
+"start": 31.533,
+"end": 31.889
+},
+{
+"word": "American",
+"start": 31.889,
+"end": 32.276
+},
+{
+"word": "crews.",
+"start": 32.276,
+"end": 32.725
+},
+{
+"word": "Turkey,",
+"start": 33.235,
+"end": 33.777
+},
+{
+"word": "2023.",
+"start": 34.056,
+"end": 35.217
+},
+{
+"word": "A",
+"start": 35.944,
+"end": 36.006
+},
+{
+"word": "huge",
+"start": 36.006,
+"end": 36.331
+},
+{
+"word": "earthquake.",
+"start": 36.331,
+"end": 36.842
+},
+{
+"word": "Israeli",
+"start": 37.508,
+"end": 37.895
+},
+{
+"word": "teams",
+"start": 37.895,
+"end": 38.189
+},
+{
+"word": "pull",
+"start": 38.189,
+"end": 38.344
+},
+{
+"word": "19",
+"start": 38.344,
+"end": 38.731
+},
+{
+"word": "people",
+"start": 38.731,
+"end": 38.994
+},
+{
+"word": "out",
+"start": 38.994,
+"end": 39.087
+},
+{
+"word": "of",
+"start": 39.087,
+"end": 39.149
+},
+{
+"word": "the",
+"start": 39.149,
+"end": 39.242
+},
+{
+"word": "rubble.",
+"start": 39.242,
+"end": 39.598
+},
+{
+"word": "In",
+"start": 40.263,
+"end": 40.418
+},
+{
+"word": "2016,",
+"start": 40.418,
+"end": 41.223
+},
+{
+"word": "the",
+"start": 41.486,
+"end": 41.641
+},
+{
+"word": "World",
+"start": 41.641,
+"end": 41.904
+},
+{
+"word": "Health",
+"start": 41.904,
+"end": 42.152
+},
+{
+"word": "Organization",
+"start": 42.152,
+"end": 42.818
+},
+{
+"word": "ranked",
+"start": 42.818,
+"end": 43.112
+},
+{
+"word": "Israel's",
+"start": 43.112,
+"end": 43.499
+},
+{
+"word": "field",
+"start": 43.499,
+"end": 43.746
+},
+{
+"word": "hospital",
+"start": 43.746,
+"end": 44.304
+},
+{
+"word": "the",
+"start": 44.335,
+"end": 44.458
+},
+{
+"word": "first",
+"start": 44.458,
+"end": 44.768
+},
+{
+"word": "team",
+"start": 44.768,
+"end": 44.938
+},
+{
+"word": "in",
+"start": 44.938,
+"end": 45.031
+},
+{
+"word": "the",
+"start": 45.031,
+"end": 45.093
+},
+{
+"word": "world",
+"start": 45.093,
+"end": 45.325
+},
+{
+"word": "at",
+"start": 45.325,
+"end": 45.387
+},
+{
+"word": "its",
+"start": 45.387,
+"end": 45.542
+},
+{
+"word": "top",
+"start": 45.542,
+"end": 45.759
+},
+{
+"word": "level.",
+"start": 45.759,
+"end": 46.115
+},
+{
+"word": "And",
+"start": 46.347,
+"end": 46.471
+},
+{
+"word": "the",
+"start": 46.471,
+"end": 46.533
+},
+{
+"word": "very",
+"start": 46.533,
+"end": 46.719
+},
+{
+"word": "first",
+"start": 46.719,
+"end": 46.982
+},
+{
+"word": "mission?",
+"start": 46.982,
+"end": 47.431
+},
+{
+"word": "Greece,",
+"start": 47.787,
+"end": 48.359
+},
+{
+"word": "1953.",
+"start": 48.514,
+"end": 50.155
+},
+{
+"word": "Israel",
+"start": 50.79,
+"end": 51.146
+},
+{
+"word": "was",
+"start": 51.146,
+"end": 51.27
+},
+{
+"word": "five",
+"start": 51.27,
+"end": 51.517
+},
+{
+"word": "years",
+"start": 51.517,
+"end": 51.719
+},
+{
+"word": "old.",
+"start": 51.719,
+"end": 52.028
+},
+{
+"word": "Many",
+"start": 52.353,
+"end": 52.616
+},
+{
+"word": "countries",
+"start": 52.616,
+"end": 52.988
+},
+{
+"word": "send",
+"start": 52.988,
+"end": 53.22
+},
+{
+"word": "rescue",
+"start": 53.22,
+"end": 53.545
+},
+{
+"word": "teams.",
+"start": 53.545,
+"end": 54.056
+},
+{
+"word": "Israel",
+"start": 54.18,
+"end": 54.505
+},
+{
+"word": "is",
+"start": 54.505,
+"end": 54.598
+},
+{
+"word": "one",
+"start": 54.598,
+"end": 54.753
+},
+{
+"word": "of",
+"start": 54.753,
+"end": 54.846
+},
+{
+"word": "them.",
+"start": 54.846,
+"end": 55.016
+},
+{
+"word": "Should",
+"start": 55.465,
+"end": 55.681
+},
+{
+"word": "every",
+"start": 55.681,
+"end": 55.898
+},
+{
+"word": "country",
+"start": 55.898,
+"end": 56.223
+},
+{
+"word": "keep",
+"start": 56.223,
+"end": 56.394
+},
+{
+"word": "a",
+"start": 56.394,
+"end": 56.455
+},
+{
+"word": "team",
+"start": 56.455,
+"end": 56.672
 },
 {
 "word": "like",
-"start": 52.338,
-"end": 52.493
+"start": 56.672,
+"end": 56.858
 },
 {
 "word": "this?",
-"start": 52.493,
-"end": 52.849
+"start": 56.858,
+"end": 57.245
 },
 {
 "word": "Tell",
-"start": 53.421,
-"end": 53.607
+"start": 57.787,
+"end": 57.988
 },
 {
 "word": "me",
-"start": 53.607,
-"end": 53.685
+"start": 57.988,
+"end": 58.112
 },
 {
 "word": "below.",
-"start": 53.685,
-"end": 54.087
+"start": 58.112,
+"end": 58.499
 },
 {
 "word": "Remember",
-"start": 54.644,
-"end": 54.954
+"start": 58.948,
+"end": 59.288
 },
 {
 "word": "Haiti?",
-"start": 54.954,
-"end": 55.279
+"start": 59.288,
+"end": 59.675
 }
 ]

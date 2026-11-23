@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*16* babies born|in a *tent*",
- "duration": 56.27,
+ "duration": 57.5,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -0.2
+  "lufs": -16.0,
+  "true_peak": -0.6
  },
  "outputs": {
   "mp4": "out/rescue_16_babies.mp4",
@@ -19,7 +19,7 @@
   "3": "out/frames/rescue_16_babies_3.jpg",
   "last": "out/frames/rescue_16_babies_last.jpg"
  },
- "caption_en": "The first patient in Japan is the part that got me. 🏥\n\n🇭🇹 Haiti, January 2010: after the earthquake, the Israel Defense Forces (IDF) field hospital in Port-au-Prince treated 1,102 people, performed 314 surgeries and delivered 16 babies before it closed on 25 January (Ynet, 2010).\n🇯🇵 Japan, March 2011: after the tsunami, an IDF medical delegation opened a clinic in Minamisanriku. Its first patient was the town's mayor (Israel MFA, via Jewish Virtual Library).\n🇺🇸 Florida, June 2021: the IDF Home Front Command search and rescue team flew to the Surfside condo collapse and worked beside US teams (NPR, 2021).\n🇹🇷 Turkey, February 2023: in Operation Olive Branches, IDF teams rescued 19 people from the rubble (Jerusalem Post, 2023).\n🏥 2016: the World Health Organization (WHO) recognised the IDF field hospital as the first team in the world at its top level, Type 3 (JTA, 2016).\n⚓ The first IDF relief mission: Greece, after the 1953 Ionian earthquakes (IDF via JNS, 2026).\n\nMany countries send rescue teams. Israel is one of them.\n\nShould every country keep a team like this? Tell me below.\n\nSources: Ynet 2010; Israel MFA / Jewish Virtual Library 2011; NPR 2021; Jerusalem Post 2023; JTA 2016; JNS 2026.\nPhotos (Wikimedia Commons): Israel Defense Forces (CC BY 2.0); Miami-Dade Fire Rescue (public domain); IDF Spokesperson's Unit (CC BY-SA 3.0). Map: Natural Earth. Made with AI tools, AI voice.",
+ "caption_en": "The first patient in Japan is the part that got me. 🏥\n\n🇭🇹 Haiti, January 2010: after the earthquake, the Israel Defense Forces (IDF) field hospital in Port-au-Prince treated 1,102 people, performed 314 surgeries and delivered 16 babies before it closed on 25 January (Ynet, 2010).\n🇯🇵 Japan, March 2011: after the tsunami, an IDF medical delegation opened a clinic in Minamisanriku. Its first patient was the town's mayor (Israel MFA, via Jewish Virtual Library).\n🇺🇸 Florida, June 2021: the IDF Home Front Command search and rescue team flew to the Surfside condo collapse and dug beside US crews (NPR, 2021).\n🇹🇷 Turkey, February 2023: in Operation Olive Branches, IDF teams rescued 19 people from the rubble (Jerusalem Post, 2023).\n🏥 2016: the World Health Organization (WHO) recognised the IDF field hospital as the first team in the world at its top level, Type 3 (JTA, 2016).\n⚓ The first IDF relief mission: Greece, after the 1953 Ionian earthquakes (IDF via JNS, 2026).\n\nMany countries send rescue teams. Israel is one of them.\n\nShould every country keep a team like this? Tell me below.\n\nSources: Ynet 2010; Israel MFA / Jewish Virtual Library 2011; NPR 2021; Jerusalem Post 2023; JTA 2016; JNS 2026.\nPhotos (Wikimedia Commons): Israel Defense Forces (CC BY 2.0); Miami-Dade Fire Rescue (public domain); IDF Spokesperson's Unit (CC BY-SA 3.0). Map: Natural Earth. Made with AI tools, AI voice.",
  "caption_he": "16 תינוקות נולדו באוהל.\n🇭🇹 האיטי, 2010: בית החולים השדה של צה\"ל טיפל ב-1,102 איש, ביצע 314 ניתוחים, ו-16 תינוקות נולדו בו.\n🇯🇵 יפן, 2011: אחרי הצונאמי נפתחה מרפאה ישראלית במינאמיסנריקו. המטופל הראשון: ראש העיר.\n🇺🇸 פלורידה, 2021: יחידת החילוץ של פיקוד העורף טסה לקריסת הבניין בסרפסייד ועבדה לצד הצוותים האמריקאים.\n🇹🇷 טורקיה, 2023: במבצע ענפי זית חילצו צוותי צה\"ל 19 איש מההריסות.\nב-2016 ארגון הבריאות העולמי דירג את בית החולים השדה של צה\"ל כצוות הראשון בעולם ברמה הגבוהה ביותר.\nומשימת הסיוע הראשונה? יוון, 1953. ישראל הייתה בת חמש.\nהרבה מדינות שולחות צוותי חילוץ. ישראל היא אחת מהן.\nהאם לכל מדינה צריך להיות צוות כזה? כתבו לי.",
  "hashtags": [
   "#Israel",
@@ -65,7 +65,7 @@
   }
  ],
  "transcript": {
-  "score": 0.976,
+  "score": 0.994,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -94,8 +94,8 @@
     "flag": "ok"
    },
    {
-    "line": "Florida, 2021. A tower collapses in Surfside. Israel's rescue unit flies in to search beside American teams.",
-    "score": 0.857,
+    "line": "Florida, 2021. A tower collapses in Surfside. An Israeli rescue team flies in to dig beside American crews.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -129,12 +129,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "16 babies born in a tent, Haiti 2010, an earthquake flattens Port-au-Prince, Israel flies in a field hospital. Before it packs up, it treats 1,102 people, runs 314 surgeries, and delivers those 16 babies. Japan, 2011. After the tsunami, an Israeli clinic opens in Minimis and Riku. Its first patient? The town's mayor. Florida, 2021. A tower collapses in Surfside. Israel's unit flies into search beside American teams. Turkey, 2023, a huge earthquake. Israeli teams pull 19 people out of the rubble. In 2016, the World Health Organization ranked Israel's field hospital the first team in the world at its top level. And the very first mission, Greece, 1953. Israel was 5 years old. Many countries send rescue teams. Israel is one of them. Should every country keep a team like this? Tell me below. If you love Israeli facts, follow Noam Roz for more. Remember Haiti?",
+  "heard": "16 babies born in a tent Haiti 2010 An earthquake flattens Port-au-Prince Israel flies in a field hospital Before it packs up, it treats 1,102 people, runs 314 surgeries, and delivers those 16 babies Japan 2011 After the tsunami, an Israeli clinic opens in Manonas and Riku. Its first patient? The town's mayor Florida 2021 A tower collapses in Surfside An Israeli rescue team flies in to dig beside American crews. Turkey, 2023, a huge earthquake. Israeli teams pull 19 people out of the rubble. In 2016, the World Health Organization ranked Israel's field hospital the first team in the world at its top level. And the very first mission, Greece, 1,953. Israel was 5 years old. Many countries send rescue teams. Israel is one of them. Should every country keep a team like this? Tell me below. If you love Israeli facts, follow Noam Raz for more. Remember Haiti?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 54.76,
+ "body_s": 56.0,
  "opener": {
   "style": "globe_spin_night",
   "opener_s": 2.4,
@@ -142,8 +142,8 @@
  },
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.8
  },
  "lint_warnings": [],
- "render_s": 293.6
+ "render_s": 234.7
 }
