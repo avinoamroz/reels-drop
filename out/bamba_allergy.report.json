@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "*1* Israeli snack.|*10x* fewer allergies?",
- "duration": 64.53,
+ "duration": 57.63,
  "audio": {
-  "lufs": -16.1,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "outputs": {
@@ -43,29 +43,29 @@
    "label": "Du Toit et al., J Allergy Clin Immunol",
    "year": 2008,
    "at": "L4",
-   "until": "L7"
+   "until": "L6"
   },
   {
    "label": "LEAP, N Engl J Med 2015, via FARE",
    "year": 2015,
-   "at": "L7",
-   "until": "L9"
+   "at": "L6",
+   "until": "L8"
   },
   {
    "label": "NIAID addendum guidelines",
    "year": 2017,
-   "at": "L9",
-   "until": "L10"
+   "at": "L8",
+   "until": "L9"
   },
   {
    "label": "King's College London, LEAP-Trio",
    "year": 2024,
-   "at": "L10",
-   "until": "L11"
+   "at": "L9",
+   "until": "L10"
   }
  ],
  "transcript": {
-  "score": 0.975,
+  "score": 0.989,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -75,17 +75,17 @@
    },
    {
     "line": "Tel Aviv. A London allergist, Gideon Lack, gives a lecture. Very few doctors there have ever seen a child with peanut allergy.",
-    "score": 0.955,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Why? Israeli babies eat Bamba in their first year. Puffed corn, coated in peanut butter.",
-    "score": 0.933,
+    "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "Bamba launched in 1964 as a cheese snack. It flopped. Peanut butter saved it.",
-    "score": 0.95,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -99,13 +99,8 @@
     "flag": "ok"
    },
    {
-    "line": "Israeli babies ate a median of 7 grams of peanut protein a month. British babies? Zero.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
     "line": "Then came a real trial, called LEAP: high risk babies, fed peanut from infancy to age five.",
-    "score": 1.0,
+    "score": 0.941,
     "flag": "ok"
    },
    {
@@ -125,7 +120,7 @@
    },
    {
     "line": "Bamba isn't medicine. Ask your paediatrician before a baby tries any peanut food.",
-    "score": 0.846,
+    "score": 0.923,
     "flag": "ok"
    },
    {
@@ -139,13 +134,13 @@
     "flag": "ok"
    }
   ],
-  "heard": "One Israeli snack. Ten times fewer peanut allergies. Tell Aviv. A London allergist, Gideon Lack, gives a lecture. Very few doctors there have ever seen a child with peanut allergy. Why? Israeli babies eat Bamba in their first year. Puffed corn. Coded in peanut butter. Bamba launched in 1964 as a cheese snack. It flocked. Peanut butter saved it. So his team compared Jewish children in Britain and Israel. Same heritage, different snack. In Britain, 1.85% had a peanut allergy. In Israel, 0.17%. About 10 times fewer. Israeli babies ate a median of 7 grams of peanut protein a month. British babies? Zero. Then came a real trial called LEAP. High-risk babies fed peanut from infancy to age 5. The result? Up to 81% fewer peanut allergies. In 2017, America flipped its advice. Peanut early, not late. In 2024, the trial kids were teenagers. Still protected. Bamba isn't medicine. Ask your pediatrician before baby tries any peanut food. Did you grow up on Bamba? Tell me below. If you love Israeli facts, follow Noam Roz for more. And it all started with…",
+  "heard": "One Israeli snack. Ten times fewer peanut allergies. Tel Aviv. A London allergist, Gideon Lack, gives a lecture. Very few doctors there have ever seen a child with peanut allergy. Why? Israeli babies eat Bamba in their first year. Puffed corn, coated in peanut butter. Bamba launched in 1964 as a cheese snack. It flopped. Peanut butter saved it. So his team compared Jewish children in Britain and Israel. Same heritage, different snack. In Britain, 1.85% had a peanut allergy. In Israel, 0.17%, about ten times fewer. Then came a real trial called LEAP. High-risk babies fed peanuts from infancy to age 5. The result, up to 81% fewer peanut allergies. In 2017, America flipped its advice. Peanut early, not late. In 2024, the trial kids were teenagers, still protected. Bamba isn't medicine. Ask your pediatrician before a baby tries any peanut food. Did you grow up on Bamba? Tell me below. If you love Israeli facts, follow. Noam Roz for more. And it all started with...",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
+  "lufs": -16.0,
   "true_peak": -2.0
  },
  "photos": [
@@ -195,5 +190,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 189.4
+ "render_s": 173.3
 }
