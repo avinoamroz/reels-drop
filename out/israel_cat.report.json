@@ -1,0 +1,162 @@
+{
+ "id": "israel_cat",
+ "account": "noamroz__",
+ "template": "pet_story",
+ "hook": "Israel as a cat:|*9* lives.",
+ "duration": 61.23,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "outputs": {
+  "mp4": "out/israel_cat.mp4",
+  "cover": "covers/israel_cat_cover.jpg",
+  "preview": "previews/israel_cat_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_cat_0.jpg",
+  "1": "out/frames/israel_cat_1.jpg",
+  "3": "out/frames/israel_cat_3.jpg",
+  "last": "out/frames/israel_cat_last.jpg"
+ },
+ "caption_en": "A cat gets nine lives. Count how many this one has used. 🐈\n\n🇮🇱 Independent: Israel declared independence on 14 May 1948 (Declaration of the Establishment of the State of Israel).\n1️⃣ The next day the armies of Egypt, Transjordan, Iraq, Syria and Lebanon invaded (Encyclopaedia Britannica).\n2️⃣ 1967, the Six Day War. 3️⃣ 1973, the Yom Kippur War, a surprise attack on the holiest day of the Jewish year (Encyclopaedia Britannica).\n4️⃣ 13 to 14 April 2024: Iran's regime launched more than 300 drones and missiles at Israel in one night; the Israel Defense Forces (IDF) said 99% were intercepted (IDF via AP, 2024).\n🧠 Curious: 14 Israeli Nobel laureates, from Agnon (1966) to Mokyr (2025) (NobelPrize.org records), for a population of about 10.1 million (Israel Central Bureau of Statistics, 2025).\n😴 Ignored until needed: Waze was built in Israel and bought by Google in 2013 (Times of Israel). Mobileye, founded in Jerusalem in 1999, has shipped over 200 million EyeQ chips for driver assistance (Mobileye, 2025).\n🐾 Still lands on its feet: 8th happiest country in the World Happiness Report 2025.\n\nNo cat is perfect. Same rules for every cat.\nDog or cat: which one is Israel?\n\nDog version: Part 1 on my profile.\n\nPhotos: Declaration of Independence 1948, Rudi Weissenstein, public domain; smartphone navigation, Shixart1985, CC BY 2.0; Mobileye visit, U.S. Embassy Tel Aviv, CC BY 2.0; Independence Day, IPPA photographer, CC BY 4.0 (all via Wikimedia Commons).",
+ "caption_he": "אם ישראל הייתה חתול: תשע נשמות.\nעצמאית (הכרזת העצמאות, 14 במאי 1948), ולמחרת חמישה צבאות פלשו. נשמה ראשונה. אחר כך 1967, 1973, ובאפריל 2024 יותר מ־300 כטב״מים וטילים מאיראן בלילה אחד, 99% יורטו.\nסקרנית: 14 זוכי נובל לכ־10 מיליון איש.\nמתעלמים ממנה עד שצריכים אותה: Waze, מובילאיי.\nועדיין נוחתת על הרגליים: המדינה השמינית הכי מאושרת בעולם (2025).\nכלב או חתול: מה ישראל?",
+ "hashtags": [
+  "#Israel",
+  "#cats",
+  "#ninelives"
+ ],
+ "sources": [
+  {
+   "label": "Declaration of the Establishment of the State of Israel",
+   "year": 1948,
+   "at": "L1",
+   "until": "L2-0.1"
+  },
+  {
+   "label": "Encyclopaedia Britannica, 1948 Arab Israeli War",
+   "year": 2025,
+   "at": "L2",
+   "until": "L3-0.1"
+  },
+  {
+   "label": "Encyclopaedia Britannica, Arab Israeli wars",
+   "year": 2025,
+   "at": "L3",
+   "until": "L4-0.1"
+  },
+  {
+   "label": "Israel Defense Forces via AP, 14 April",
+   "year": 2024,
+   "at": "L4",
+   "until": "L5-0.1"
+  },
+  {
+   "label": "NobelPrize.org laureates; Israel Central Bureau of Statistics",
+   "year": 2025,
+   "at": "L5",
+   "until": "L6-0.1"
+  },
+  {
+   "label": "Mobileye; Google buys Waze, Times of Israel",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7-0.1"
+  },
+  {
+   "label": "World Happiness Report",
+   "year": 2025,
+   "at": "L7",
+   "until": "L8-0.1"
+  }
+ ],
+ "transcript": {
+  "score": 0.974,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel as a cat. Nine lives.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Cats are independent. Israel declared independence on May 14, 1948.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The next day, five armies invaded. Life one, used. Landed on its feet.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Life two: 1967. Life three: 1973, a surprise attack on Yom Kippur. Feet first, again.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Life four: 2024. Iran's regime fired over 300 drones and missiles in one night. 99% were stopped.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Cats are curious. Israel has 14 Nobel laureates, for about 10 million people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Cats get ignored, until you need one. Waze? Israeli. The chip that helps your car brake? Mobileye, from Jerusalem.",
+    "score": 0.842,
+    "flag": "ok"
+   },
+   {
+    "line": "And after all that, it still lands on its feet: the eighth happiest country on Earth.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "No cat is perfect. Same rules for every cat.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Dog or cat: which one is Israel?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lives left? Count them:",
+    "score": 0.75,
+    "flag": "MISS"
+   }
+  ],
+  "heard": "Israel as a cat. Nine lives. Cats are independent. Israel declared independence on May 14, 1948. The next day, five armies invaded. Life 1 used. Landed on its feet. Life 2, 1,967. Life 3, 1,973. A surprise attack on Yom Kippur. Feet first. Again. Life 4, 2024. Iran's regime fired over 300 drones and missiles in one night. 99% were stopped. Cats are curious. Israel has 14 Nobel laureates for about 10 million people. Cats get ignored until you need one. Ways? Israeli. The chip that helps your car break? Mobley. From Jerusalem. And after all that, it still lands on its feet. The eighth happiest country on earth. No cat is perfect. Same rules for every cat. Dog or cat? Which one is Israel? If you love Israeli facts, follow. No one rots. For more, live left. Count it.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.7
+ },
+ "photos": [
+  {
+   "file": "photos/hic_decl.jpg",
+   "credit": "Rudi Weissenstein, public domain, Wikimedia Commons"
+  },
+  {
+   "file": "photos/htj_waze.jpg",
+   "credit": "Shixart1985, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "photos/htj_mobileye.jpg",
+   "credit": "U.S. Embassy Tel Aviv, CC BY 2.0, Wikimedia Commons"
+  },
+  {
+   "file": "photos/fe_indep1.jpg",
+   "credit": "IPPA photographer, CC BY 4.0, Wikimedia Commons"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 87.1
+}
