@@ -1,0 +1,213 @@
+{
+ "id": "surname_meanings_preview",
+ "account": "noamroz__",
+ "template": "name_sign",
+ "hook": "*5* street names.|*5* secret meanings.",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "subs_replace": {
+  "<<ˈ|r|oʊ|t>>": "Rot",
+  "<<ˈ|ʃ|ɪ|l|t>>": "Schild",
+  "Groon": "Grün",
+  "<<k|oʊ|h|ɑ|ˈ|n|i|m>>": "Kohanim"
+ },
+ "lines": [
+  {
+   "say": "Five Israeli street names. Each one hides a secret meaning.",
+   "gap": 0.2
+  },
+  {
+   "say": "Rothschild. <<ˈ|r|oʊ|t>> means red. <<ˈ|ʃ|ɪ|l|t>> means shield.",
+   "screen": "Rot + Schild = *red shield*",
+   "at": "L1:means"
+  },
+  {
+   "say": "In the fifteen hundreds, the family lived in a Frankfurt house with a red shield sign.",
+   "screen": "*1500s:* a Frankfurt house sign"
+  },
+  {
+   "say": "The boulevard honours Baron Edmond de Rothschild.",
+   "screen": "Named for Baron *Edmond*"
+  },
+  {
+   "say": "Ben Gurion was born David Groon. Groon means green.",
+   "screen": "Grün = *green*",
+   "at": "L4:means"
+  },
+  {
+   "say": "In nineteen ten, he took a new name, from a Jewish rebel against Rome.",
+   "screen": "*1910:* a new Hebrew name"
+  },
+  {
+   "say": "Sokolov. Sokol is Russian for falcon.",
+   "screen": "Sokol = *falcon*",
+   "at": "L6:sokol"
+  },
+  {
+   "say": "Nahum Sokolov later led the World Zionist Organization.",
+   "screen": "Sokolow led *world Zionism*"
+  },
+  {
+   "say": "Kaplan comes from Latin. A cape, then a chaplain, a priest.",
+   "screen": "Kaplan = *priest*",
+   "at": "L8:chaplain"
+  },
+  {
+   "say": "Many Kaplans are <<k|oʊ|h|ɑ|ˈ|n|i|m>>, Jewish priestly families. The street honours Israel's first finance minister.",
+   "screen": "Israel's *first* finance minister",
+   "at": "L9:street"
+  },
+  {
+   "say": "Ostrovsky. Ostrov means island.",
+   "screen": "Ostrov = *island*",
+   "at": "L10:means"
+  },
+  {
+   "say": "Most likely, the family came from a town called Ostrov. Raanana's first mayor was Baruch Ostrovsky.",
+   "screen": "Likely from a town: *Ostrov*"
+  },
+  {
+   "say": "So what does your surname mean? Tell me in the comments.",
+   "screen": "And *your* surname?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Next time, read the street sign twice.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "post": {
+   "until": "L0e",
+   "back_at": "L12",
+   "names": [
+    "Rothschild",
+    "Ben Gurion",
+    "Sokolov",
+    "Kaplan",
+    "Ostrovsky"
+   ]
+  },
+  "hook_back": "L14",
+  "beats": [
+   {
+    "at": "L1",
+    "he": "שדרות רוטשילד",
+    "en": "ROTHSCHILD",
+    "tag": "BLVD",
+    "scene": "shield",
+    "scene_at": "L1+0.4"
+   },
+   {
+    "at": "L4",
+    "he": "שדרות בן גוריון",
+    "en": "BEN GURION",
+    "tag": "BLVD",
+    "scene": "green",
+    "scene_at": "L4+0.3",
+    "swap_at": "L5:new",
+    "extra": {
+     "old": "GRÜN",
+     "new": "BEN GURION",
+     "year": "1910"
+    }
+   },
+   {
+    "at": "L6",
+    "he": "רחוב סוקולוב",
+    "en": "SOKOLOV",
+    "tag": "ST",
+    "scene": "falcon",
+    "scene_at": "L6+0.3"
+   },
+   {
+    "at": "L8",
+    "he": "רחוב קפלן",
+    "en": "KAPLAN",
+    "tag": "ST",
+    "scene": "cape",
+    "scene_at": "L8+0.3",
+    "extra": {
+     "chips": [
+      [
+       "cappa = cape",
+       "L8:cape"
+      ],
+      [
+       "chaplain = priest",
+       "L8:chaplain"
+      ],
+      [
+       "Kaplan: often a Kohen",
+       "L9:jewish"
+      ]
+     ]
+    }
+   },
+   {
+    "at": "L10",
+    "he": "רחוב אוסטרובסקי",
+    "en": "OSTROVSKY",
+    "tag": "ST",
+    "scene": "island",
+    "scene_at": "L10+0.3"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "The Rothschild Archive, name and arms",
+   "year": "accessed 2026",
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "Jewish Virtual Library, Ben-Gurion",
+   "year": "accessed 2026",
+   "at": "L4",
+   "until": "L6"
+  },
+  {
+   "label": "Sokolov (surname), Wikipedia; Britannica",
+   "year": "accessed 2026",
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Chabad.org, What does Kaplan mean?",
+   "year": "accessed 2026",
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Ostrovsky (surname), Wikipedia",
+   "year": "accessed 2026",
+   "at": "L10",
+   "until": "L12"
+  }
+ ],
+ "caption_en": "The street you live on might be named after a falcon.\n\nRothschild: \"red shield\", from a 1500s house sign in Frankfurt's Jewish street (The Rothschild Archive).\nBen Gurion: born David Grün, \"green\"; took the name Ben Gurion in 1910, after a Jewish leader of the revolt against Rome (Jewish Virtual Library).\nSokolov: from \"sokol\", Russian for falcon (Wikipedia, Sokolov surname). Nahum Sokolow led the World Zionist Organization from 1931 (Britannica).\nKaplan: from Latin, via \"chaplain\"; a name often carried by Kohanim families (Chabad.org). Kaplan Street honours Eliezer Kaplan, Israel's first finance minister.\nOstrovsky: from \"ostrov\", island; most likely from a town called Ostrov or Ostrów (Wikipedia, Ostrovsky surname). Baruch Ostrovsky was Ra'anana's first mayor.\n\nWhat does your surname mean? Tell me in the comments.\n\nAnimation made with AI tools.",
+ "caption_he": "הרחוב שלך אולי נקרא על שם בז.\n\nרוטשילד: \"מגן אדום\", על שם שלט של בית בפרנקפורט במאה ה-16.\nבן גוריון: נולד דוד גרין, \"ירוק\". את השם בן גוריון לקח ב-1910.\nסוקולוב: \"סוקול\" ברוסית זה בז.\nקפלן: מלטינית, דרך המילה \"כומר\". שם נפוץ במשפחות כהנים.\nאוסטרובסקי: \"אוסטרוב\" זה אי. כנראה ממשפחה שהגיעה מעיירה בשם אוסטרוב.\n\nמה המשמעות של שם המשפחה שלך? כתבו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#JewishHistory",
+  "#TelAviv"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 1.2,
+  "text": "Your street name|has a *secret*",
+  "big": "5"
+ }
+}
