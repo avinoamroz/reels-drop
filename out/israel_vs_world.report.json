@@ -1,0 +1,140 @@
+{
+ "id": "israel_vs_world",
+ "account": "noamroz__",
+ "template": "h2h",
+ "hook": "Israel vs 8 countries: *7* numbers.",
+ "duration": 53.0,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/israel_vs_world.mp4",
+  "cover": "covers/israel_vs_world_cover.jpg",
+  "preview": "previews/israel_vs_world_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_vs_world_0.jpg",
+  "1": "out/frames/israel_vs_world_1.jpg",
+  "3": "out/frames/israel_vs_world_3.jpg",
+  "last": "out/frames/israel_vs_world_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": [
+  "#Israel",
+  "#DataViz",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "World Happiness Report, 2026",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "World Bank WDI, latest year 2021 to 2024",
+   "year": 2024,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "World Bank WDI, 2024",
+   "year": 2024,
+   "at": "L3",
+   "until": "L5"
+  },
+  {
+   "label": "UN World Population Prospects 2024, data 2023",
+   "year": 2024,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "IISS Military Balance, 2024 to 2026 editions",
+   "year": 2026,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "IMF World Economic Outlook, 2026",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.983,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel versus eight countries. Seven numbers.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One: happiness. Israel beats all eight, eighth in the world.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "Two: research. Israel spends the most, almost double anyone here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three: life expectancy. Only Japan beats Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Four: babies. Israel tops the chart, above Egypt and Jordan.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five: median age. Israel, twenty nine. Germany and Japan, over forty five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Six: soldiers per thousand people. Israel, sixteen. Twice Jordan, four times America.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel drafts at eighteen. HAMAS and Hezbollah sit on its borders.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Seven: money per person. Only America is richer. Adjusted for prices, Israel drops to sixth.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Japan lives longer, America earns more. Israel is happiest.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which number surprised you? Part one, Israel versus the USA, is on my profile.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Here they are again:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel versus 8 countries. 7 numbers. 1. Happiness. Israel beats all 8 8th in the world. 2. Research. Israel spends the most, almost double anyone here. 3. Life expectancy. Only Japan beats Israel. 4. Babies. Israel tops the chart above Egypt and Jordan. 5. Median age. Israel 29. Germany and Japan over 45. 6. Soldiers per thousand people. Israel 16. twice Jordan, four times America. Israel drafts at 18. Hamas and Hezbollah sit on its orders. Seven, money per person. Only America is richer. Adjusted for prices, Israel drops to sixth. Japan lives longer. America earns more. Israel is happiest. Which number surprised you? Part one, Israel versus the USA, is on my profile. If you love Israeli facts, follow. Noam Roz for more. Here they are again.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "beats": 7,
+ "lint_warnings": [],
+ "render_s": 89.7
+}
