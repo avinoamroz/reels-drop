@@ -49,7 +49,7 @@ def run(S):
     for i, b in enumerate(B):
         b["t1"] = A(b["until"]) if b.get("until") is not None else (B[i + 1]["t0"] if i + 1 < len(B) else T.END - 0.6)
         for k, r in enumerate(b["rows"]):
-            r["t"] = A(r["at"]) if r.get("at") is not None else b["t0"] + 0.3 + 0.35 * k
+            r["t"] = A(r["at"]) if r.get("at") is not None else b["t0"] + 0.25 + (0.35 if b["kind"] == "pair" else 0.17) * k
         p = b.get("punch")
         b["pt"] = A(p.get("at")) if p and p.get("at") is not None else (max(r["t"] for r in b["rows"]) + 0.9 if p else None)
 

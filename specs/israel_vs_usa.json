@@ -6,9 +6,9 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
-  "gap": 0.15,
-  "maxpause": 0.25
+  "tempo": 1.14,
+  "gap": 0.12,
+  "maxpause": 0.22
  },
  "id": "israel_vs_usa",
  "hook": "Israel vs USA: *12* numbers.",
@@ -41,7 +41,7 @@
    "say": "Eight: Israelis live four years longer."
   },
   {
-   "say": "Nine: money. America wins, thirty one percent more per person."
+   "say": "Nine: money. America wins by thirty one percent."
   },
   {
    "say": "Ten: Israel spends almost double on research."
@@ -106,16 +106,14 @@
       "value": 10.312,
       "hl": true,
       "dec": 1,
-      "suffix": "M",
-      "at": "L2+0.15"
+      "suffix": "M"
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 342.838,
       "dec": 1,
-      "suffix": "M",
-      "at": "L2:times"
+      "suffix": "M"
      }
     ],
     "punch": {
@@ -136,14 +134,12 @@
       "label": "Israel",
       "flag": "IL",
       "value": 467.1982602392171,
-      "hl": true,
-      "at": "L3:israel"
+      "hl": true
      },
      {
       "label": "USA",
       "flag": "US",
-      "value": 34.86423016302306,
-      "at": "L3:thirteen"
+      "value": 34.86423016302306
      }
     ],
     "punch": {
@@ -165,16 +161,14 @@
       "value": 92.9,
       "hl": true,
       "dec": 1,
-      "suffix": "%",
-      "at": "L4:ninety"
+      "suffix": "%"
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 83.3,
       "dec": 1,
-      "suffix": "%",
-      "at": "L4:eighty"
+      "suffix": "%"
      }
     ]
    },
@@ -192,16 +186,14 @@
       "value": 6.7,
       "hl": true,
       "dec": 1,
-      "suffix": "%",
-      "at": "L5:israel"
+      "suffix": "%"
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 33.8,
       "dec": 1,
-      "suffix": "%",
-      "at": "L5:third"
+      "suffix": "%"
      }
     ],
     "punch": {
@@ -223,15 +215,13 @@
       "flag": "IL",
       "value": 29.15,
       "hl": true,
-      "dec": 1,
-      "at": "L6:israel"
+      "dec": 1
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 38.023,
-      "dec": 1,
-      "at": "L6:america"
+      "dec": 1
      }
     ],
     "punch": {
@@ -252,16 +242,14 @@
       "flag": "IL",
       "value": 2.87,
       "hl": true,
-      "dec": 2,
-      "at": "L7:three"
+      "dec": 2
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 1.6265,
       "dec": 2,
-      "txt": "1.63",
-      "at": "L7:america"
+      "txt": "1.63"
      }
     ]
    },
@@ -278,15 +266,13 @@
       "flag": "IL",
       "value": 83.198,
       "hl": true,
-      "dec": 1,
-      "at": "L8+0.2"
+      "dec": 1
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 78.89,
-      "dec": 1,
-      "at": "L8:live"
+      "dec": 1
      }
     ],
     "punch": {
@@ -308,16 +294,14 @@
       "value": 72441,
       "hl": true,
       "prefix": "$",
-      "txt": "$72,400",
-      "at": "L9:money"
+      "txt": "$72,400"
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 95212,
       "prefix": "$",
-      "txt": "$95,200",
-      "at": "L9:america"
+      "txt": "$95,200"
      }
     ],
     "punch": {
@@ -340,16 +324,14 @@
       "value": 6.346,
       "hl": true,
       "dec": 1,
-      "suffix": "%",
-      "at": "L10:israel"
+      "suffix": "%"
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 3.447,
       "dec": 1,
-      "suffix": "%",
-      "at": "L10:double"
+      "suffix": "%"
      }
     ],
     "punch": {
@@ -374,8 +356,7 @@
       "dec": 0,
       "extra": 45.09309542280838,
       "txt": "16",
-      "extra_txt": "16 + 45",
-      "at": "L11:sixteen"
+      "extra_txt": "16 + 45"
      },
      {
       "label": "USA",
@@ -384,8 +365,7 @@
       "dec": 1,
       "extra": 2.3474644000956717,
       "txt": "3.9",
-      "extra_txt": "3.9 + 2.3",
-      "at": "L11:america"
+      "extra_txt": "3.9 + 2.3"
      }
     ],
     "punch": {
@@ -412,16 +392,14 @@
       "value": 7.187,
       "hl": true,
       "dec": 2,
-      "txt": "7.19 (#8)",
-      "at": "L13:eighth"
+      "txt": "7.19 (#8)"
      },
      {
       "label": "USA",
       "flag": "US",
       "value": 6.816,
       "dec": 2,
-      "txt": "6.82 (#23)",
-      "at": "L13:america"
+      "txt": "6.82 (#23)"
      }
     ],
     "punch": {
@@ -433,7 +411,8 @@
    }
   ],
   "total": 12,
-  "hook_y": 520
+  "hook_y": 520,
+  "title_y": 1330
  },
  "sources": [
   {
