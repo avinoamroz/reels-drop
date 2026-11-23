@@ -55,7 +55,7 @@
   },
   {
    "say": "Kaplan comes from Latin. A cape, then a chaplain, a priest.",
-   "screen": "Kaplan = *priest*"
+   "screen": "Kaplan = *chaplain*"
   },
   {
    "say": "Many Kaplan families are <<k|oʊ|h|ɑ|ˈ|n|i|m>>, Jewish priests. The street honours Israel's first finance minister.",
@@ -92,7 +92,9 @@
     "Sokolov",
     "Kaplan",
     "Ostrovsky"
-   ]
+   ],
+   "ask": "Your name?",
+   "ask_at": "L12:surname"
   },
   "hook_back": "L14",
   "beats": [
@@ -101,8 +103,7 @@
     "he": "שדרות רוטשילד",
     "en": "ROTHSCHILD",
     "tag": "BLVD",
-    "scene": "shield",
-    "scene_at": "L1+0.4"
+    "scene": "shield"
    },
    {
     "at": "L4",
@@ -110,7 +111,6 @@
     "en": "BEN GURION",
     "tag": "BLVD",
     "scene": "green",
-    "scene_at": "L4+0.3",
     "swap_at": "L5:new",
     "extra": {
      "old": "GRÜN",
@@ -123,8 +123,7 @@
     "he": "רחוב סוקולוב",
     "en": "SOKOLOV",
     "tag": "ST",
-    "scene": "falcon",
-    "scene_at": "L6+0.3"
+    "scene": "falcon"
    },
    {
     "at": "L8",
@@ -132,7 +131,6 @@
     "en": "KAPLAN",
     "tag": "ST",
     "scene": "cape",
-    "scene_at": "L8+0.3",
     "extra": {
      "chips": [
       [
@@ -155,10 +153,10 @@
     "he": "רחוב אוסטרובסקי",
     "en": "OSTROVSKY",
     "tag": "ST",
-    "scene": "island",
-    "scene_at": "L10+0.3"
+    "scene": "island"
    }
-  ]
+  ],
+  "tail": 0.6
  },
  "sources": [
   {

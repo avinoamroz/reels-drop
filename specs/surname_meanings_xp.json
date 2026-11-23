@@ -1,0 +1,245 @@
+{
+ "id": "surname_meanings_xp",
+ "account": "expressenglishcom",
+ "template": "name_sign",
+ "hook": "*5* street names.|*5* secret meanings.",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "subs_replace": {
+  "<<ˈ|r|oʊ|t>>": "Rot",
+  "<<ˈ|ʃ|ɪ|l|t>>": "Schild",
+  "Groon": "Grün",
+  "<<k|oʊ|h|ɑ|ˈ|n|i|m>>": "Kohanim"
+ },
+ "lines": [
+  {
+   "say": "Five Israeli street names. Each one hides a secret meaning.",
+   "gap": 0.2
+  },
+  {
+   "say": "Rothschild. <<ˈ|r|oʊ|t>> means red. <<ˈ|ʃ|ɪ|l|t>> means shield.",
+   "screen": "Rot + Schild = *red shield*"
+  },
+  {
+   "say": "In the fifteen hundreds, the family lived in a Frankfurt house with a red shield sign.",
+   "screen": "*1500s:* a Frankfurt house sign"
+  },
+  {
+   "say": "The boulevard honours Baron Edmond de Rothschild.",
+   "screen": "Named for Baron *Edmond*"
+  },
+  {
+   "say": "Ben Gurion was born David Groon. Groon means green.",
+   "screen": "Grün = *green*"
+  },
+  {
+   "say": "In nineteen ten, he took a new name, from a Jewish rebel against Rome.",
+   "screen": "*1910:* a new Hebrew name"
+  },
+  {
+   "say": "Sokolov. Sokol is Russian for falcon.",
+   "screen": "Sokol = *falcon*"
+  },
+  {
+   "say": "Nahum Sokolov later led the World Zionist Organization.",
+   "screen": "Sokolow led *world Zionism*"
+  },
+  {
+   "say": "Kaplan comes from Latin. A cape, then a chaplain, a priest.",
+   "screen": "Kaplan = *chaplain*"
+  },
+  {
+   "say": "Many Kaplan families are <<k|oʊ|h|ɑ|ˈ|n|i|m>>, Jewish priests. The street honours Israel's first finance minister.",
+   "screen": "Israel's *first* finance minister",
+   "at": "L9:street"
+  },
+  {
+   "say": "Ostrovsky. Ostrov means island.",
+   "screen": "Ostrov = *island*"
+  },
+  {
+   "say": "Most likely, the family came from a town called Ostrov. And in Raanana, the first mayor was Baruch Ostrovsky.",
+   "screen": "Likely from a town: *Ostrov*"
+  },
+  {
+   "say": "So what does your surname mean? Tell me in the comments.",
+   "screen": "And *your* surname?"
+  },
+  {
+   "say": "Send this to someone with a cool surname.",
+   "screen": "Send this to someone with a *cool surname*"
+  },
+  {
+   "say": "Next time, read the street sign twice.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "post": {
+   "until": "L0e",
+   "back_at": "L12",
+   "names": [
+    "Rothschild",
+    "Ben Gurion",
+    "Sokolov",
+    "Kaplan",
+    "Ostrovsky"
+   ],
+   "ask": "Your name?",
+   "ask_at": "L12:surname"
+  },
+  "hook_back": "L14",
+  "beats": [
+   {
+    "at": "L1",
+    "he": "שדרות רוטשילד",
+    "en": "ROTHSCHILD",
+    "tag": "BLVD",
+    "scene": "shield"
+   },
+   {
+    "at": "L4",
+    "he": "שדרות בן גוריון",
+    "en": "BEN GURION",
+    "tag": "BLVD",
+    "scene": "green",
+    "swap_at": "L5:new",
+    "extra": {
+     "old": "GRÜN",
+     "new": "BEN GURION",
+     "year": "1910"
+    }
+   },
+   {
+    "at": "L6",
+    "he": "רחוב סוקולוב",
+    "en": "SOKOLOV",
+    "tag": "ST",
+    "scene": "falcon"
+   },
+   {
+    "at": "L8",
+    "he": "רחוב קפלן",
+    "en": "KAPLAN",
+    "tag": "ST",
+    "scene": "cape",
+    "extra": {
+     "chips": [
+      [
+       "cappa = cape",
+       "L8:cape"
+      ],
+      [
+       "chaplain = priest",
+       "L8:chaplain"
+      ],
+      [
+       "Kaplan: often a Kohen",
+       "L9:jewish"
+      ]
+     ]
+    }
+   },
+   {
+    "at": "L10",
+    "he": "רחוב אוסטרובסקי",
+    "en": "OSTROVSKY",
+    "tag": "ST",
+    "scene": "island"
+   }
+  ],
+  "tail": 0.6,
+  "theme": "xp",
+  "he_lines": [
+   {
+    "at": "L0",
+    "until": "L0e",
+    "text": "5 שמות רחוב, 5 משמעויות סודיות"
+   },
+   {
+    "at": "L1",
+    "until": "L4",
+    "text": "רוטשילד = מגן אדום"
+   },
+   {
+    "at": "L4",
+    "until": "L6",
+    "text": "גרין = ירוק"
+   },
+   {
+    "at": "L6",
+    "until": "L8",
+    "text": "סוקול = בז"
+   },
+   {
+    "at": "L8",
+    "until": "L10",
+    "text": "קפלן = כומר. הרבה משפחות קפלן הן כהנים"
+   },
+   {
+    "at": "L10",
+    "until": "L12",
+    "text": "אוסטרוב = אי"
+   },
+   {
+    "at": "L12",
+    "until": "L13",
+    "text": "ומה המשמעות של שם המשפחה שלך?"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "The Rothschild Archive, name and arms",
+   "year": "accessed 2026",
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "Jewish Virtual Library, Ben-Gurion",
+   "year": "accessed 2026",
+   "at": "L4",
+   "until": "L6"
+  },
+  {
+   "label": "Sokolov (surname), Wikipedia; Britannica",
+   "year": "accessed 2026",
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Chabad.org, What does Kaplan mean?",
+   "year": "accessed 2026",
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Ostrovsky (surname), Wikipedia",
+   "year": "accessed 2026",
+   "at": "L10",
+   "until": "L12"
+  }
+ ],
+ "caption_en": "The street you live on might be named after a falcon.\n\nRothschild: \"red shield\", from a 1500s house sign in Frankfurt's Jewish street (The Rothschild Archive).\nBen Gurion: born David Grün, \"green\"; took the name Ben Gurion in 1910, after a Jewish leader of the revolt against Rome (Jewish Virtual Library).\nSokolov: from \"sokol\", Russian for falcon (Wikipedia, Sokolov surname). Nahum Sokolow led the World Zionist Organization from 1931 (Britannica).\nKaplan: from Latin, via \"chaplain\"; a name often carried by Kohanim families (Chabad.org). Kaplan Street honours Eliezer Kaplan, Israel's first finance minister.\nOstrovsky: from \"ostrov\", island; most likely from a town called Ostrov or Ostrów (Wikipedia, Ostrovsky surname). Baruch Ostrovsky was Ra'anana's first mayor.\n\nWhat does your surname mean? Tell me in the comments.\n\nAnimation made with AI tools.",
+ "caption_he": "שם הרחוב שלך מסתיר משמעות.\n\nרוטשילד: \"מגן אדום\" (Rot + Schild), על שם שלט של בית בפרנקפורט במאה ה-16.\nבן גוריון: נולד דוד גרין, Grün = ירוק. את השם בן גוריון לקח ב-1910.\nסוקולוב: sokol ברוסית = בז.\nקפלן: מלטינית, דרך chaplain = כומר. הרבה משפחות קפלן הן כהנים.\nאוסטרובסקי: ostrov = אי. כנראה ממשפחה שהגיעה מעיירה בשם אוסטרוב.\n\nומה המשמעות של שם המשפחה שלך? כתבו לי בתגובות, ושלחו למישהו עם שם משפחה מעניין.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#LearnEnglish",
+  "#Hebrew"
+ ],
+ "cover": {
+  "bg": "frame",
+  "t": 1.2,
+  "text": "Your street name|has a *secret*",
+  "big": "5"
+ }
+}
