@@ -1,0 +1,189 @@
+{
+ "id": "israel_vs_usa",
+ "account": "noamroz__",
+ "template": "h2h",
+ "hook": "Israel vs USA: *12* numbers.",
+ "duration": 68.03,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/israel_vs_usa.mp4",
+  "cover": "covers/israel_vs_usa_cover.jpg",
+  "preview": "previews/israel_vs_usa_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_vs_usa_0.jpg",
+  "1": "out/frames/israel_vs_usa_1.jpg",
+  "3": "out/frames/israel_vs_usa_3.jpg",
+  "last": "out/frames/israel_vs_usa_last.jpg"
+ },
+ "caption_en": null,
+ "caption_he": null,
+ "hashtags": [
+  "#Israel",
+  "#USA",
+  "#DataViz"
+ ],
+ "sources": [
+  {
+   "label": "Area: CIA World Factbook (USA), Israel CBS",
+   "year": 2025,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "IMF World Economic Outlook, 2026",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "IMF 2026 population; CIA and Israel CBS area",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "CIA World Factbook (UN data), 2023",
+   "year": 2023,
+   "at": "L4",
+   "until": "L6"
+  },
+  {
+   "label": "UN World Population Prospects 2024, data 2023",
+   "year": 2024,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "World Bank WDI, 2024",
+   "year": 2024,
+   "at": "L7",
+   "until": "L9"
+  },
+  {
+   "label": "IMF World Economic Outlook, 2026",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "World Bank WDI (UNESCO), 2023",
+   "year": 2023,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "IISS Military Balance 2026; IMF population",
+   "year": 2026,
+   "at": "L11",
+   "until": "L13"
+  },
+  {
+   "label": "World Happiness Report, 2026",
+   "year": 2026,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.987,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel versus the USA. Twelve numbers.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One: size. Four hundred forty five Israels fit in America.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Two: thirty three times more Americans.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three: so Israel is thirteen times denser.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Four: city dwellers. Israel ninety three percent, America eighty three.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Five: forest. A third of America. Israel, under seven percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Six: median age. Israel twenty nine, America thirty eight.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seven: almost three kids per Israeli woman. America, one point six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eight: Israelis live four years longer.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nine: money. America wins, thirty one percent more per person.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ten: Israel spends almost double on research.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eleven: soldiers. Sixteen per thousand Israelis, plus forty five in reserve. America, four.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel drafts at eighteen. HAMAS and Hezbollah sit on its borders.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Twelve: Israel is the eighth happiest country. America, twenty third.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "America is bigger and richer. Israel, younger and happier.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which number surprised you? Part two is on my profile.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, one more time:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel versus the USA. 12 numbers. 1. Size. 445 Israels fit in America. 2. 33 times more Americans. 3. So Israel is 13 times denser. 4. City dwellers. Israel 93% America 83. 5. Forest. A third of America. Israel under 7%. 6. Median age. Israel 29. America 38. Seven. Almost three kids per Israeli woman. America, 1.6. Eight. Israelis live four years longer. Nine. Money. America wins 31% more per person. 10. Israel spends almost double on research. A lever. Soldiers. 16 per thousand Israelis, plus 45 in reserve. America, four. Israel drafts at 18. Hamas and Hezbollah sit on its borders. 12. Israel is the eighth happiest country. America 23rd. America is bigger and richer. Israel younger and happier. Which number surprised you? Part two is on my profile. If you love Israeli facts, follow Noam Roz for more. So, one more time.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "beats": 11,
+ "lint_warnings": [],
+ "render_s": 117.1
+}
