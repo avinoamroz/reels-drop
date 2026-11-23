@@ -5,17 +5,18 @@
  "hook": "Which dog is|*Israel?* *6* clues.",
  "music": {"bed": "bounce", "lufs": -16},
  "voice": {"tempo": 1.1, "lead": 0.1, "gap": 0.14},
+ "subs_replace": {"<<ˈ|oʊ|k|ɛ|t|s>>": "Oketz"},
  "lines": [
   {"say": "Which dog is Israel? Six clues.", "gap": 0.2},
-  {"say": "Clue one: small. About 22,000 square kilometres. Roughly New Jersey.", "screen": "Clue 1: *small*"},
-  {"say": "Clue two: smart. 6.3% of its economy goes into research. Number one among rich countries.", "screen": "Clue 2: *smart*"},
-  {"say": "Clue three: loyal. Since 1948, about 3.4 million immigrants came home.", "screen": "Clue 3: *loyal*"},
-  {"say": "Clue four: guards the house. Iron Dome stops over 90% of the rockets aimed at its cities.", "screen": "Clue 4: *guards* the house"},
-  {"say": "Clue five: blamed for every bark. From 2015 to 2023, the United Nations General Assembly passed 154 resolutions against Israel. The rest of the world combined? 71.", "screen": "Clue 5: *blamed*"},
-  {"say": "Clue six: a desert dog that found water. Drip irrigation was born here, in 1965.", "screen": "Clue 6: *finds water*"},
+  {"say": "Small. About 22,000 square kilometres. Roughly New Jersey.", "screen": "Clue 1: *small*"},
+  {"say": "Smart. 6.3% of its economy goes into research. Number one among rich countries.", "screen": "Clue 2: *smart*"},
+  {"say": "Loyal. Since 1948, about 3.4 million immigrants came home.", "screen": "Clue 3: *loyal*"},
+  {"say": "Guards the house. Iron Dome stops over 90% of rockets aimed at its cities.", "screen": "Clue 4: *guards* the house"},
+  {"say": "Blamed for every bark. From 2015 to 2023, the United Nations General Assembly passed 154 resolutions against Israel. Everyone else combined? 71.", "screen": "Clue 5: *blamed*"},
+  {"say": "A desert dog that found water: drip irrigation was born here, in 1965.", "screen": "Clue 6: *finds water*"},
   {"say": "And it shares the bowl: in 2021, it doubled the water it sends Jordan.", "screen": "It *shares* the bowl"},
-  {"say": "So which breed? A Belgian Malinois. Small, tireless, smart, protective.", "screen": "*Belgian Malinois*", "until": "L10"},
-  {"say": "It's the main breed in the Israeli army's dog unit, Oketz."},
+  {"say": "The breed? A Belgian Malinois.", "screen": "*Belgian Malinois*", "until": "L10"},
+  {"say": "Small, tireless, smart, protective. The main breed in the Israeli army's dog unit, <<ˈ|oʊ|k|ɛ|t|s>>."},
   {"say": "No dog is perfect. Judge it like every other dog on the street.", "gap": 0.15},
   {"say": "What dog would your country be?", "screen": "What dog would *your* country be?"},
   {"follow": true, "until": "L13"},
@@ -46,8 +47,8 @@
    {"at": "L5:passed", "until": "L6", "kind": "num", "value": 154, "from": 0, "sub": "vs *71* for the rest of the world"},
    {"at": "L6:drip", "until": "L7", "kind": "photo", "file": "photos/mw_drip.jpg", "credit": "Juandev, CC BY-SA 3.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.45, 0.55, 1.15]},
    {"at": "L7:doubled", "until": "L8", "kind": "num", "value": 2, "from": 1, "suffix": "x", "sub": "water for *Jordan* since 2021"},
-   {"at": "L8:small", "until": "L9", "kind": "text", "text": "Small. Tireless. *Smart.* Protective."},
-   {"at": "L9", "until": "L10", "kind": "text", "text": "Israel's army dog unit: *Oketz*"}
+   {"at": "L8:malinois", "until": "L9:the", "kind": "text", "text": "Small. Tireless. *Smart.* Protective."},
+   {"at": "L9:the", "until": "L10", "kind": "text", "text": "Israel's army dog unit: *Oketz*"}
   ]
  },
  "sources": [

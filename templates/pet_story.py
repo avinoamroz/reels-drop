@@ -493,7 +493,7 @@ def run(S):
             elif mv == "flip" and t < b["t1"]:
                 f0 = b["extra"].get("_flip", b["t0"] + 0.25); d = 1.1; u = (t - f0) / d
                 if 0 <= u <= 1:
-                    dy = -380 * math.sin(math.pi * u); rot = 2 * math.pi * ease(u)
+                    dy = -300 * math.sin(math.pi * u); rot = 2 * math.pi * ease(u)
                     sq = 1 - 0.12 * math.sin(math.pi * min(1, u / 0.12)) if u < 0.12 else 1.0
                 elif 1 < u < 1.35: sq = 1 - 0.16 * math.sin(math.pi * (u - 1) / 0.35)
         return sc, dy, rot, sq
