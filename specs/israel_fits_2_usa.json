@@ -157,7 +157,7 @@
   ],
   "home": [
    [
-    "L1",
+    "L1+0.8",
     "L2:now"
    ]
   ],
@@ -215,7 +215,7 @@
    {
     "target": "USA",
     "at": "L7:united+0.2",
-    "until": "L12",
+    "until": "L11",
     "hero": 1,
     "fill": 2.6,
     "name": "The United States",
@@ -296,5 +296,5 @@
   "big": "31x",
   "text": "How many|*Israels* in Texas?"
  },
- "rev": 2
+ "rev": 3
 }

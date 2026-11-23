@@ -148,7 +148,7 @@
   ],
   "home": [
    [
-    "L1",
+    "L1+0.8",
     "L2:first"
    ]
   ],
@@ -266,5 +266,5 @@
   "big": "775x",
   "text": "How many|*Israels* in Russia?"
  },
- "rev": 2
+ "rev": 3
 }

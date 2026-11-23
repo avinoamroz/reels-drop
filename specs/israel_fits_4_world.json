@@ -112,7 +112,7 @@
      4700,
      1060
     ],
-    "dur": 1.6
+    "dur": 1.3
    },
    {
     "at": "L5-0.3",
@@ -122,7 +122,7 @@
      5000,
      1060
     ],
-    "dur": 1.6
+    "dur": 1.3
    },
    {
     "at": "L6-0.3",
@@ -132,7 +132,7 @@
      6400,
      1060
     ],
-    "dur": 1.5
+    "dur": 1.3
    },
    {
     "at": "L7-0.3",
@@ -158,7 +158,7 @@
   ],
   "home": [
    [
-    "L1",
+    "L1+0.8",
     "L2:now"
    ]
   ],
@@ -178,28 +178,28 @@
    },
    {
     "target": "AUS",
-    "at": "L4:australia",
+    "at": "L4:australia+0.8",
     "until": "L5",
     "hero": 1,
-    "fill": 1.4,
+    "fill": 1.2,
     "name": "Australia",
     "value": 348
    },
    {
     "target": "BRA",
-    "at": "L5:brazil",
+    "at": "L5:brazil+0.8",
     "until": "L6",
     "hero": 1,
-    "fill": 1.4,
+    "fill": 1.2,
     "name": "Brazil",
     "value": 386
    },
    {
     "target": "SAHARA",
-    "at": "L6:sahara",
+    "at": "L6:sahara+0.8",
     "until": "L7",
     "hero": 1,
-    "fill": 1.6,
+    "fill": 1.2,
     "name": "The Sahara",
     "value": 390,
     "sub": "true-size Israels (estimate)"
@@ -288,5 +288,5 @@
   "big": "643x",
   "text": "How many|*Israels* in Antarctica?"
  },
- "rev": 2
+ "rev": 3
 }

@@ -187,7 +187,7 @@ def run(S):
         c.close_path()
 
     def draw_beat(cv, b, t, P, s):
-        ba = win(t, b["t0"] - 0.6, b["t1"], 0.4, 0.35)
+        ba = win(t, min(b["t0"], b["fly"][0] if b["fly"] else 1e9) - 0.6, b["t1"], 0.4, 0.35)
         if ba <= 0.01: return
         draw_rings(cv, b["rings"], P, TGT_FILL, 0.95 * ba, TGT_LINE, 0.95 * ba, max(2.0, min(4.0, s * 8)))
         pts_all, cc = P(b["stack"]); lw = max(1.0, min(2.6, s * 5.0)); c = cv.c
