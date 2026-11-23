@@ -1,6 +1,153 @@
 {
-  "id": "journey_ep3",
-  "status": "FAILED",
-  "run": "45267235983",
-  "log": "[21:13:29] pron [en]: Where do we park Israel? You told me. We tried four spots. Episode three. Last time, Israel sailed out past Gibraltar, looking for a new spot. Spot one, from you: Russia's Jewish Autonomous Oblast. Stalin made it a Jewish homeland in nineteen thirty four. Today, eight hundred and thirty seven Jews <<ˈ|l|ɪ|v>> there. January averages minus twenty one degrees. The hummus freezes. Spot two, from you:\n[21:13:29] pron notes: live -> live_verb; live -> live_verb\nvoice ok: Cartesia sonic-3 (79.5 s, 180 words, 1 run(s), pronunciation pass) voice/journey_ep3_vo.wav\n[21:13:29] voice: cached voice (script unchanged)\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/map_counter.py\", line 435, in run\n    ev += [(c0, \"pop\", -24) for c0, _ in CMW if c0 > 0.01]\n                                ^^^^^\nValueError: too many values to unpack (expected 2)\n"
+ "id": "journey_ep3",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Where to park *Israel?*|*4* tries.",
+ "duration": 68.37,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/journey_ep3.mp4",
+  "cover": "covers/journey_ep3_cover.jpg",
+  "preview": "previews/journey_ep3_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/journey_ep3_0.jpg",
+  "1": "out/frames/journey_ep3_1.jpg",
+  "3": "out/frames/journey_ep3_3.jpg",
+  "last": "out/frames/journey_ep3_last.jpg"
+ },
+ "caption_en": "The best parking spot was the one we already had. 🏝️\n\nIsrael's Journey, Episode 3. You told me where to park Israel. We tried 4 spots:\n1️⃣ Russia's Jewish Autonomous Oblast: Stalin made it a Soviet Jewish homeland in 1934. In the 2021 Russian census, 837 Jews lived there (0.6% of 150,453). Birobidzhan's January average: -21.3°C (Japan Meteorological Agency, 1991 to 2020 normals).\n2️⃣ New York: 960,000 Jews live in the five boroughs (UJA-Federation of New York, 2023 Jewish Community Study). Israel (22,072 km², Israel CBS) is about the size of New Jersey (22,591 km² total area, US Census Bureau).\n3️⃣ Indiana: 94,326 km² (US Census Bureau), so about 4 Israels fit.\n4️⃣ East Africa: in 1903 Britain offered land for a Jewish territory there; the Seventh Zionist Congress turned it down in 1905 (Jewish Virtual Library).\nThen one of you wrote: park it where it already is. It's perfect. Jews have lived on that land for 3,000 years.\n\nMillions of Palestinians call this land home too. Both peoples are staying.\n\nWhere would you park your country? Tell me below. Episode 4 is yours.\n\nSources: Russian census 2021; JMA climate normals; UJA-Federation of NY 2023; US Census Bureau; Israel CBS; Jewish Virtual Library.\nPhotos (Wikimedia Commons): Glucke (CC BY-SA 3.0); Superbass (CC BY-SA 4.0); Sarah Stierch (CC BY 4.0); Issadeen Abdi (CC BY-SA 4.0); Ted Eytan (CC BY-SA 2.0). Map: Natural Earth. Made with AI tools, AI voice.",
+ "caption_he": "המסע של ישראל, פרק 3. אמרתם לי איפה להחנות את ישראל, וניסינו 4 מקומות:\n1️⃣ המחוז היהודי האוטונומי ברוסיה: סטלין הקים אותו ב-1934 כבית לאומי ליהודים. היום גרים שם 837 יהודים, ובינואר הממוצע הוא מינוס 21 מעלות. החומוס קופא.\n2️⃣ ניו יורק: 960,000 יהודים כבר גרים בעיר. רק שישראל בגודל של ניו ג'רזי, וניו ג'רזי אמרה שאחת מספיקה.\n3️⃣ אינדיאנה: נכנסות בה 4 ישראל. השכנים: אוהיו וקנטקי. האיום הכי גדול: תירס.\n4️⃣ מזרח אפריקה: ב-1903 בריטניה הציעה שטח, וב-1905 הקונגרס הציוני אמר לא תודה.\nואז אחד מכם כתב: תחנו אותה איפה שהיא כבר נמצאת. זה מושלם. יהודים חיים על האדמה הזאת 3,000 שנה.\nמיליוני פלסטינים קוראים לארץ הזאת בית גם כן. שני העמים נשארים.\nאיפה הייתם מחנים את המדינה שלכם? כתבו לי. פרק 4 שלכם.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelsJourney",
+  "#Jewish"
+ ],
+ "sources": [
+  {
+   "label": "Jewish Autonomous Oblast: Russian census",
+   "year": 2021,
+   "at": "L2",
+   "until": "L3:minus"
+  },
+  {
+   "label": "Birobidzhan January normal: JMA",
+   "year": 2020,
+   "at": "L3:minus",
+   "until": "L4"
+  },
+  {
+   "label": "UJA-Federation NY Jewish Community Study",
+   "year": 2023,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "US Census Bureau state areas; Israel CBS",
+   "year": 2010,
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "Jewish Virtual Library, Uganda Proposal",
+   "year": 1903,
+   "at": "L7",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.976,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Where do we park Israel? You told me. We tried four spots.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Episode 3. Last time, Israel sailed out past Gibraltar, looking for a new spot.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spot one, from you: Russia's Jewish Autonomous Oblast. Stalin made it a Jewish homeland in 1934.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, 837 Jews live there. January averages minus 21 degrees. The hummus freezes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spot two, from you: New York. Easy. 960,000 Jews already live in the city.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One problem. Israel is about the size of New Jersey. And New Jersey said: one is enough.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Spot three, from you: Indiana. Four Israels fit inside. The neighbours? Ohio and Kentucky. Biggest threat: corn.",
+    "score": 0.941,
+    "flag": "ok"
+   },
+   {
+    "line": "Spot four wasn't yours. It was Britain's idea, in 1903: land in East Africa.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 1905, the Zionist Congress said no, thanks.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then one of you wrote: park it where it already is. It's perfect.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jews have lived on that land for three thousand years. So Israel sails home.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Millions of Palestinians call this land home too. Both peoples are staying.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Where would you park your country? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Episode 4 is yours. So tell me:",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Where do we park Israel? You told me. We tried four spots. Episode 3. Last time, Israel sailed out past Gibraltar, looking for a new spot. Spot 1 from you. Russia's Jewish autonomous oblast. Stalin made it a Jewish homeland in 1934. Today, 837 Jews live there. January averages minus 21 degrees. The hummus freezes. Spot 2 from you. New York. Easy. 960,000 Jews already live in the city. One problem. Israel is about the size of New Jersey, and New Jersey said, one is enough. Spot three, from you, Indiana. Four Israels fit inside, the neighbors, Ohio and Kentucky, biggest threat, corn. Spot four wasn't yours. It was Britain's idea in 1903, land in East Africa. In 1905, the Zionist Congress said no, thanks. Then one of you wrote, park it where it already is, it's perfect. Jews have lived on that land for 3,000 years, so Israel sails home. Millions of Palestinians call this land home too. people to stay. Where would you park your country? Tell me below. If you love Israeli facts, follow Noam Roz for more. Episode 4 is yours, so tell me.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 66.87,
+ "opener": {
+  "style": "globe_spin_fast",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 321.0
 }
