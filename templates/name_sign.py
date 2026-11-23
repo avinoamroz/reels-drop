@@ -202,7 +202,7 @@ def run(S):
 
     def post(cv, t, a):
         if a <= 0.01: return
-        y0, y1 = 540, 1270
+        y0, y1 = 540, 1225
         cv.rrect(528, y0, 24, y1 - y0, 8, "#8FA3C0", a); cv.rrect(470, y1 - 10, 140, 24, 10, "#5C6B85", a)
         n = len(NAMES); pitch = min(150, (y1 - y0 - 120) / max(1, n))
         for k, nm in enumerate(NAMES):
