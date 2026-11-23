@@ -1,717 +1,672 @@
 [
 {
 "word": "Which",
-"start": 0.433,
-"end": 0.774
+"start": 0.093,
+"end": 0.418
 },
 {
 "word": "dog",
-"start": 0.851,
-"end": 1.285
+"start": 0.418,
+"end": 0.743
 },
 {
 "word": "is",
-"start": 1.285,
-"end": 1.486
+"start": 0.743,
+"end": 0.867
 },
 {
 "word": "Israel?",
-"start": 1.486,
-"end": 2.059
+"start": 0.867,
+"end": 1.378
 },
 {
 "word": "Six",
-"start": 2.477,
-"end": 2.833
+"start": 1.44,
+"end": 1.92
 },
 {
 "word": "clues.",
-"start": 2.833,
-"end": 3.375
+"start": 1.92,
+"end": 2.554
 },
 {
 "word": "Small.",
-"start": 3.653,
-"end": 4.195
+"start": 2.941,
+"end": 3.669
 },
 {
 "word": "About",
-"start": 4.938,
-"end": 5.155
+"start": 4.18,
+"end": 4.412
 },
 {
 "word": "22,000",
-"start": 5.155,
-"end": 5.867
+"start": 4.412,
+"end": 5.279
 },
 {
 "word": "square",
-"start": 5.867,
-"end": 6.115
+"start": 5.279,
+"end": 5.588
 },
 {
 "word": "kilometres.",
-"start": 6.115,
-"end": 6.796
+"start": 5.588,
+"end": 6.362
 },
 {
 "word": "Roughly",
-"start": 7.043,
-"end": 7.399
+"start": 6.718,
+"end": 7.136
 },
 {
 "word": "New",
-"start": 7.399,
-"end": 7.523
+"start": 7.136,
+"end": 7.322
 },
 {
 "word": "Jersey.",
-"start": 7.523,
-"end": 8.003
+"start": 7.322,
+"end": 7.833
 },
 {
 "word": "Smart.",
-"start": 8.39,
-"end": 8.87
+"start": 8.499,
+"end": 9.056
 },
 {
 "word": "6.3%",
-"start": 9.567,
-"end": 10.573
+"start": 9.598,
+"end": 10.743
 },
 {
 "word": "of",
-"start": 10.573,
-"end": 10.666
+"start": 10.743,
+"end": 10.836
 },
 {
 "word": "its",
-"start": 10.666,
-"end": 10.79
+"start": 10.836,
+"end": 10.944
 },
 {
 "word": "economy",
-"start": 10.79,
-"end": 11.207
+"start": 10.944,
+"end": 11.409
 },
 {
 "word": "goes",
-"start": 11.207,
-"end": 11.393
+"start": 11.409,
+"end": 11.641
 },
 {
 "word": "into",
-"start": 11.393,
-"end": 11.564
+"start": 11.641,
+"end": 11.858
 },
 {
 "word": "research.",
-"start": 11.564,
-"end": 12.043
+"start": 11.858,
+"end": 12.477
 },
 {
 "word": "Number",
-"start": 12.105,
-"end": 12.384
+"start": 13.081,
+"end": 13.359
 },
 {
 "word": "one",
-"start": 12.384,
-"end": 12.554
+"start": 13.359,
+"end": 13.746
 },
 {
 "word": "among",
-"start": 12.554,
-"end": 12.802
+"start": 13.916,
+"end": 14.195
 },
 {
 "word": "rich",
-"start": 12.802,
-"end": 13.003
+"start": 14.195,
+"end": 14.365
 },
 {
 "word": "countries.",
-"start": 13.003,
-"end": 13.607
+"start": 14.365,
+"end": 14.969
 },
 {
 "word": "Loyal.",
-"start": 13.932,
-"end": 14.412
+"start": 15.666,
+"end": 16.146
 },
 {
 "word": "Since",
-"start": 15.17,
-"end": 15.434
+"start": 16.564,
+"end": 16.858
 },
 {
 "word": "1948,",
-"start": 15.434,
-"end": 16.393
+"start": 16.858,
+"end": 17.756
 },
 {
 "word": "about",
-"start": 16.827,
-"end": 17.121
+"start": 18.034,
+"end": 18.266
 },
 {
 "word": "3.4",
-"start": 17.121,
-"end": 17.786
+"start": 18.266,
+"end": 18.994
 },
 {
 "word": "million",
-"start": 17.786,
-"end": 18.081
+"start": 18.994,
+"end": 19.288
 },
 {
 "word": "immigrants",
-"start": 18.081,
-"end": 18.437
-},
-{
-"word": "came",
-"start": 18.437,
-"end": 18.622
-},
-{
-"word": "home.",
-"start": 18.622,
-"end": 18.886
-},
-{
-"word": "Guards",
-"start": 19.226,
-"end": 19.551
-},
-{
-"word": "the",
-"start": 19.551,
+"start": 19.288,
 "end": 19.675
 },
 {
-"word": "house.",
+"word": "came",
 "start": 19.675,
-"end": 20.124
+"end": 19.923
+},
+{
+"word": "home.",
+"start": 19.923,
+"end": 20.217
+},
+{
+"word": "Guards",
+"start": 21.037,
+"end": 21.362
+},
+{
+"word": "the",
+"start": 21.362,
+"end": 21.455
+},
+{
+"word": "house.",
+"start": 21.455,
+"end": 21.935
 },
 {
 "word": "Iron",
-"start": 20.743,
-"end": 20.991
+"start": 22.508,
+"end": 22.771
 },
 {
 "word": "Dome",
-"start": 20.991,
-"end": 21.285
+"start": 22.771,
+"end": 23.019
 },
 {
 "word": "stops",
-"start": 21.285,
-"end": 21.595
+"start": 23.019,
+"end": 23.282
 },
 {
 "word": "over",
-"start": 21.595,
-"end": 21.796
+"start": 23.282,
+"end": 23.468
 },
 {
 "word": "90%",
-"start": 21.796,
-"end": 22.43
+"start": 23.468,
+"end": 24.056
 },
 {
 "word": "of",
-"start": 22.43,
-"end": 22.523
+"start": 24.056,
+"end": 24.149
 },
 {
 "word": "rockets",
-"start": 22.523,
-"end": 22.879
+"start": 24.149,
+"end": 24.505
 },
 {
 "word": "aimed",
-"start": 22.879,
-"end": 23.143
+"start": 24.505,
+"end": 24.814
 },
 {
 "word": "at",
-"start": 23.143,
-"end": 23.204
+"start": 24.814,
+"end": 24.907
 },
 {
 "word": "its",
-"start": 23.204,
-"end": 23.297
+"start": 24.907,
+"end": 25.016
 },
 {
 "word": "cities.",
-"start": 23.297,
-"end": 23.87
+"start": 25.016,
+"end": 25.496
 },
 {
 "word": "Blamed",
-"start": 24.474,
-"end": 24.892
+"start": 26.13,
+"end": 26.579
 },
 {
 "word": "for",
-"start": 24.892,
-"end": 25.062
+"start": 26.579,
+"end": 26.827
 },
 {
 "word": "every",
-"start": 25.062,
-"end": 25.372
+"start": 26.827,
+"end": 27.121
 },
 {
 "word": "bark.",
-"start": 25.372,
-"end": 25.79
+"start": 27.121,
+"end": 27.477
 },
 {
 "word": "From",
-"start": 26.254,
-"end": 26.471
+"start": 27.663,
+"end": 27.895
 },
 {
 "word": "2015",
-"start": 26.471,
-"end": 27.152
+"start": 27.895,
+"end": 28.653
 },
 {
 "word": "to",
-"start": 27.152,
-"end": 27.214
+"start": 28.653,
+"end": 28.762
 },
 {
 "word": "2023,",
-"start": 27.214,
-"end": 28.143
+"start": 28.762,
+"end": 29.706
 },
 {
 "word": "the",
-"start": 28.622,
-"end": 28.746
+"start": 30.155,
+"end": 30.294
 },
 {
 "word": "United",
-"start": 28.746,
-"end": 29.102
+"start": 30.294,
+"end": 30.604
 },
 {
 "word": "Nations",
-"start": 29.102,
-"end": 29.474
+"start": 30.604,
+"end": 30.96
 },
 {
 "word": "General",
-"start": 29.474,
-"end": 29.768
+"start": 30.96,
+"end": 31.254
 },
 {
 "word": "Assembly",
-"start": 29.768,
-"end": 30.155
+"start": 31.254,
+"end": 31.657
 },
 {
 "word": "passed",
-"start": 30.155,
-"end": 30.48
+"start": 31.657,
+"end": 32.013
 },
 {
 "word": "154",
-"start": 30.48,
-"end": 31.362
+"start": 32.013,
+"end": 33.143
 },
 {
 "word": "resolutions",
-"start": 31.362,
-"end": 31.904
+"start": 33.143,
+"end": 33.684
 },
 {
 "word": "against",
-"start": 31.904,
-"end": 32.167
+"start": 33.684,
+"end": 33.901
 },
 {
 "word": "Israel.",
-"start": 32.167,
-"end": 32.585
+"start": 33.901,
+"end": 34.319
 },
 {
 "word": "Everyone",
-"start": 33.375,
-"end": 33.731
+"start": 34.567,
+"end": 34.954
 },
 {
 "word": "else",
-"start": 33.731,
-"end": 33.87
+"start": 34.954,
+"end": 35.124
 },
 {
 "word": "combined?",
-"start": 33.87,
-"end": 34.443
+"start": 35.124,
+"end": 35.697
 },
 {
 "word": "71.",
-"start": 35.17,
-"end": 35.975
+"start": 36.239,
+"end": 37.013
 },
 {
 "word": "A",
-"start": 36.78,
-"end": 36.873
+"start": 37.802,
+"end": 37.864
 },
 {
 "word": "desert",
-"start": 36.873,
-"end": 37.214
-},
-{
-"word": "dog",
-"start": 37.214,
-"end": 37.446
-},
-{
-"word": "that",
-"start": 37.446,
-"end": 37.57
-},
-{
-"word": "found",
-"start": 37.57,
-"end": 37.802
-},
-{
-"word": "water:",
-"start": 37.802,
+"start": 37.864,
 "end": 38.251
 },
 {
+"word": "dog",
+"start": 38.251,
+"end": 38.514
+},
+{
+"word": "that",
+"start": 38.514,
+"end": 38.638
+},
+{
+"word": "found",
+"start": 38.638,
+"end": 38.886
+},
+{
+"word": "water:",
+"start": 38.886,
+"end": 39.273
+},
+{
 "word": "drip",
-"start": 38.561,
-"end": 38.824
+"start": 39.505,
+"end": 39.814
 },
 {
 "word": "irrigation",
-"start": 38.824,
-"end": 39.304
+"start": 39.814,
+"end": 40.294
 },
 {
 "word": "was",
-"start": 39.304,
-"end": 39.427
+"start": 40.294,
+"end": 40.403
 },
 {
 "word": "born",
-"start": 39.427,
-"end": 39.691
+"start": 40.403,
+"end": 40.712
 },
 {
 "word": "here,",
-"start": 39.691,
-"end": 40.0
+"start": 40.712,
+"end": 40.975
 },
 {
 "word": "in",
-"start": 40.232,
-"end": 40.387
+"start": 41.006,
+"end": 41.13
 },
 {
 "word": "1965.",
-"start": 40.387,
-"end": 41.44
-},
-{
-"word": "And",
-"start": 42.075,
+"start": 41.13,
 "end": 42.183
 },
 {
+"word": "And",
+"start": 42.508,
+"end": 42.663
+},
+{
 "word": "it",
-"start": 42.183,
-"end": 42.276
+"start": 42.663,
+"end": 42.787
 },
 {
 "word": "shares",
-"start": 42.276,
-"end": 42.523
+"start": 42.787,
+"end": 43.081
 },
 {
 "word": "the",
-"start": 42.523,
-"end": 42.601
+"start": 43.081,
+"end": 43.174
 },
 {
 "word": "bowl:",
-"start": 42.601,
-"end": 42.972
+"start": 43.174,
+"end": 43.53
 },
 {
 "word": "in",
-"start": 43.267,
-"end": 43.39
+"start": 43.623,
+"end": 43.746
 },
 {
 "word": "2021,",
-"start": 43.39,
-"end": 44.288
+"start": 43.746,
+"end": 44.458
 },
 {
 "word": "it",
-"start": 44.288,
-"end": 44.412
+"start": 44.458,
+"end": 44.675
 },
 {
 "word": "doubled",
-"start": 44.412,
-"end": 44.706
+"start": 44.675,
+"end": 45.031
 },
 {
 "word": "the",
-"start": 44.706,
-"end": 44.768
+"start": 45.031,
+"end": 45.093
 },
 {
 "word": "water",
-"start": 44.768,
-"end": 45.062
+"start": 45.093,
+"end": 45.418
 },
 {
 "word": "it",
-"start": 45.062,
-"end": 45.186
+"start": 45.418,
+"end": 45.542
 },
 {
 "word": "sends",
-"start": 45.186,
-"end": 45.465
+"start": 45.542,
+"end": 45.774
 },
 {
 "word": "Jordan.",
-"start": 45.465,
-"end": 45.852
+"start": 45.774,
+"end": 46.146
 },
 {
 "word": "The",
-"start": 46.564,
-"end": 46.657
+"start": 46.595,
+"end": 46.703
 },
 {
 "word": "breed?",
-"start": 46.657,
+"start": 46.703,
 "end": 47.137
 },
 {
 "word": "A",
-"start": 47.864,
-"end": 47.895
+"start": 47.756,
+"end": 47.818
 },
 {
 "word": "Belgian",
-"start": 47.895,
-"end": 48.282
+"start": 47.818,
+"end": 48.205
 },
 {
 "word": "Malinois.",
-"start": 48.282,
-"end": 48.669
-},
-{
-"word": "Small,",
-"start": 49.443,
-"end": 50.047
-},
-{
-"word": "tireless,",
-"start": 50.496,
-"end": 51.208
-},
-{
-"word": "smart,",
-"start": 51.27,
-"end": 51.842
-},
-{
-"word": "protective.",
-"start": 52.384,
-"end": 52.833
+"start": 48.205,
+"end": 48.654
 },
 {
 "word": "The",
-"start": 53.762,
-"end": 53.886
+"start": 49.459,
+"end": 49.567
 },
 {
 "word": "main",
-"start": 53.886,
-"end": 54.18
+"start": 49.567,
+"end": 49.876
 },
 {
 "word": "breed",
-"start": 54.18,
-"end": 54.567
+"start": 49.876,
+"end": 50.14
 },
 {
 "word": "in",
-"start": 54.567,
-"end": 54.691
+"start": 50.14,
+"end": 50.233
 },
 {
 "word": "the",
-"start": 54.691,
-"end": 54.815
+"start": 50.233,
+"end": 50.294
 },
 {
 "word": "Israeli",
-"start": 54.815,
-"end": 55.202
+"start": 50.294,
+"end": 50.681
 },
 {
 "word": "army's",
-"start": 55.202,
-"end": 55.527
+"start": 50.681,
+"end": 50.976
 },
 {
 "word": "dog",
-"start": 55.527,
-"end": 55.805
+"start": 50.976,
+"end": 51.254
 },
 {
-"word": "unit,",
-"start": 55.805,
-"end": 56.068
-},
-{
-"word": "<<ˈ|oʊ|k|ɛ|t|s>>.",
-"start": 56.672,
-"end": 57.152
+"word": "unit.",
+"start": 51.254,
+"end": 51.579
 },
 {
 "word": "No",
-"start": 58.205,
-"end": 58.406
+"start": 52.245,
+"end": 52.446
 },
 {
 "word": "dog",
-"start": 58.406,
-"end": 58.716
+"start": 52.446,
+"end": 52.787
 },
 {
 "word": "is",
-"start": 58.716,
-"end": 58.824
+"start": 52.787,
+"end": 52.895
 },
 {
 "word": "perfect.",
-"start": 58.824,
-"end": 59.288
+"start": 52.895,
+"end": 53.344
 },
 {
-"word": "Judge",
-"start": 60.325,
-"end": 60.604
+"word": "Same",
+"start": 54.133,
+"end": 54.582
 },
 {
-"word": "it",
-"start": 60.604,
-"end": 60.697
+"word": "rules",
+"start": 54.582,
+"end": 54.846
 },
 {
-"word": "like",
-"start": 60.697,
-"end": 60.867
+"word": "for",
+"start": 54.846,
+"end": 54.969
 },
 {
 "word": "every",
-"start": 60.867,
-"end": 61.177
+"start": 54.969,
+"end": 55.155
 },
 {
-"word": "other",
-"start": 61.177,
-"end": 61.347
-},
-{
-"word": "dog",
-"start": 61.347,
-"end": 61.657
-},
-{
-"word": "on",
-"start": 61.657,
-"end": 61.734
-},
-{
-"word": "the",
-"start": 61.734,
-"end": 61.827
-},
-{
-"word": "street.",
-"start": 61.827,
-"end": 62.137
+"word": "dog.",
+"start": 55.155,
+"end": 55.542
 },
 {
 "word": "What",
-"start": 62.911,
-"end": 63.158
+"start": 56.471,
+"end": 56.719
 },
 {
 "word": "dog",
-"start": 63.158,
-"end": 63.421
+"start": 56.719,
+"end": 56.982
 },
 {
 "word": "would",
-"start": 63.421,
-"end": 63.545
+"start": 56.982,
+"end": 57.106
 },
 {
 "word": "your",
-"start": 63.545,
-"end": 63.716
+"start": 57.106,
+"end": 57.245
 },
 {
 "word": "country",
-"start": 63.716,
-"end": 64.056
+"start": 57.245,
+"end": 57.524
 },
 {
 "word": "be?",
-"start": 64.056,
-"end": 64.319
+"start": 57.524,
+"end": 57.818
 },
 {
 "word": "Now",
-"start": 64.799,
-"end": 65.047
+"start": 58.421,
+"end": 58.716
 },
 {
 "word": "you",
-"start": 65.047,
-"end": 65.186
+"start": 58.716,
+"end": 58.87
 },
 {
 "word": "know",
-"start": 65.186,
-"end": 65.279
+"start": 58.87,
+"end": 59.025
 },
 {
 "word": "the",
-"start": 65.279,
-"end": 65.434
+"start": 59.025,
+"end": 59.195
 },
 {
 "word": "answer",
-"start": 65.434,
-"end": 65.728
+"start": 59.195,
+"end": 59.474
 },
 {
 "word": "to:",
-"start": 65.728,
-"end": 65.976
+"start": 59.474,
+"end": 59.706
 }
 ]
