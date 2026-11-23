@@ -28,7 +28,7 @@ data keys (all times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "
   dots        [{at, until, lon, lat, n, color, r, step, fill, dx, dy, label, size}]  a cluster of n dots (e.g. 1 dot = 10,000 people) around a
               point, sunflower packed (dot radius r px, default 2.6; spacing step, default 4.4), filling in over `fill` s (default 1.5)
   lines[i].screen_icon   emoji drawn above that line's screen card (title_y - 125)
-  comment     {text, show: [[at, until], ...], y, name, size}   a generic, anonymous social comment bubble (grey avatar,
+  comment     {text, show: [[at, until], ...], y, name, size}   a show window may carry its own text: [at, until, "text"]   a generic, anonymous social comment bubble (grey avatar,
               placeholder name, never a real user or screenshot); pops in at each window start, e.g. [[0, "L0e"], ["END-2", "END"]]
               so the loop lands on it again; text wraps to 2 lines (default size 60, name 40)
   photos      [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], dim, gray}]   optional real photos, full bleed
@@ -219,7 +219,7 @@ def run(S):
     DIM = [(A(d_["at"]), A(d_.get("until"), T.END)) for d_ in D.get("dim", [])] + [(b["t0"], b["t1"]) for b in BARS] + [(g["t0"], g["t1"]) for g in BIG]
     if S.get("end"): DIM.append((A(S["end"].get("at"), T.S(len(T.L) - 2)), T.END))
     cards = screen_cards(S, T); CH = sub_chunks(T, S.get("subs_replace")); hook_img = HK.make(S["_hook"]); HY = D.get("hook_y", 930)
-    CMT = D.get("comment"); CMW = [(A(w_[0]), A(w_[1])) for w_ in (CMT or {}).get("show", [])]
+    CMT = D.get("comment"); CMW = [(A(w_[0]), A(w_[1]), (w_[2] if len(w_) > 2 else None)) for w_ in (CMT or {}).get("show", [])]   # optional 3rd item: text for that window
     OVL = [dict(o, t0=A(o["at"]), t1=A(o.get("until"), T.END - 0.6)) for o in D.get("overlays", [])]
     BR = D.get("brand") or {}; BRW = [(A(w_[0]), A(w_[1])) for w_ in BR.get("show", [])]
     MR = MapR(); cache = {}
@@ -414,9 +414,9 @@ def run(S):
             bra = 1.0 if b0 <= 0.01 and t < b1 - 0.3 else win(t, b0, b1, 0.3, 0.3)
             if bra > 0.01: draw_brand(cv, BR.get("text", "Israel Facts"), bra)
         draw_sources(cv, S, T, t); draw_end(cv, S, T, t)
-        for c0, c1 in CMW:
+        for c0, c1, ctx in CMW:
             cma = 1.0 if c0 <= 0.01 and t < c1 - 0.3 else win(t, c0, c1, 0.2, 0.3)
-            if cma > 0.01: draw_comment(cv, CMT, cma, 1.0 if c0 <= 0.01 else max(0.05, back(seg(t, c0, c0 + 0.35, lambda u: u)) if t < c0 + 0.35 else 1.0))
+            if cma > 0.01: draw_comment(cv, dict(CMT, text=ctx) if ctx else CMT, cma, 1.0 if c0 <= 0.01 else max(0.05, back(seg(t, c0, c0 + 0.35, lambda u: u)) if t < c0 + 0.35 else 1.0))
         out = cv.out().astype(np.float32)
         ha = 1 - seg(t, T.E(0) + 0.15, T.E(0) + 0.55)
         if ha > 0.01: out = HK.paste(out, hook_img, 540, HY, 1.0, ha)
