@@ -1,6 +1,132 @@
 {
-  "id": "israel_fits_2_usa",
-  "status": "FAILED",
-  "run": "45256419728",
-  "log": "  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 16\n    TEMPLATES = (\"israel_fits\", pet_story\", \"name_sign\", \"endonym_fly\", \"judged_like\", \"cine_timeline\", \"he_cards\", \"camp_story\", \"talk_cut\", \"face_hook\", \"column_recut\", \"trend_text\", \"irony_cine\", \"brand_timeline\", \"myth_scroll\", \"irony_reasons\", \"law_grid\", \"map_counter\", \"data_race\", \"scorecard\", \"slang_scene\", \"rehook\", \"pun_sequence\", \"pun_ladder\", \"classroom\", \"build_vs_war\", \"two_paths\", \"surgery\", \"crowd_equals\", \"versus_card\", \"board_insert\", \"story_climb\", \"story_climb_full\", \"rulebook\", \"stock_chart\", \"zoom_stock\", \"gdp_stock\", \"pop_stock\", \"high_horse\", \"fert_race\", \"fert_stock\", \"people_stock\", \"bracket\", \"boxing_ring\", \"holiday_wheel\", \"swot\", \"ikigai\", \"lens_podium\", \"chem_lab\", \"city_flyover\", \"game_show\", \"framework\", \"faith_tree\")\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^\nSyntaxError: unterminated string literal (detected at line 16)\n"
+ "id": "israel_fits_2_usa",
+ "account": "noamroz__",
+ "template": "israel_fits",
+ "hook": "*31* Israels fit|inside Texas",
+ "duration": 44.93,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/israel_fits_2_usa.mp4",
+  "cover": "covers/israel_fits_2_usa_cover.jpg",
+  "preview": "previews/israel_fits_2_usa_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_fits_2_usa_0.jpg",
+  "1": "out/frames/israel_fits_2_usa_1.jpg",
+  "3": "out/frames/israel_fits_2_usa_3.jpg",
+  "last": "out/frames/israel_fits_2_usa_last.jpg"
+ },
+ "caption_en": "One of these is almost a perfect match. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). West Bank and Gaza shaded, not counted.\n\nHow many times it fits (total area, land and water, US Census Bureau 2010):\nNew Jersey 22,591 km²: about 1x\nLake Michigan 57,757 km² (Britannica): 2.6x\nCalifornia 423,967 km²: 19x\nTexas 695,662 km²: 31.5x\nUnited States 9,833,517 km²: 445x\n\nEvery copy is drawn at true size for its latitude, Alaska included (equal area map, no Mercator stretch).\n\nSize isn't everything. It's just where the conversation starts.\nWhich US state should I drop Israel on next?\n\nPart 2 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
+ "caption_he": "כמה ישראלים נכנסים בטקסס? ניו ג׳רזי: כמעט התאמה מושלמת. אגם מישיגן: פי 2.6. קליפורניה: פי 19. טקסס: פי 31.5. כל ארצות הברית: פי 445. כל עותק מצויר בגודל אמיתי. על איזו מדינה בארה״ב להפיל את ישראל בפעם הבאה?",
+ "hashtags": [
+  "#Israel",
+  "#Texas",
+  "#Maps"
+ ],
+ "sources": [
+  {
+   "label": "Israel CBS: 22,072 km², incl. Golan Heights and East Jerusalem",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "US Census Bureau, total area (land and water)",
+   "year": 2010,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Britannica: Lake Michigan 57,757 km²",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "US Census Bureau, total area (land and water)",
+   "year": 2010,
+   "at": "L5",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.936,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "31 Israels fit inside Texas.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Here's Israel at true size: 22,072 square kilometres.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "West Bank and Gaza shaded, not counted. Now, fly it to America.",
+    "score": 0.75,
+    "flag": "MISS"
+   },
+   {
+    "line": "New Jersey first. Almost a perfect match.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lake Michigan swallows it more than two and a half times.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "California: 19 Israels, side by side.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Texas: one, two, three... 31 and a half.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the whole United States? 445. Coast to coast, plus Alaska.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every copy is true size, even up in Alaska.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Size isn't everything. It's just where the conversation starts.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which US state should I drop Israel on next?",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Count Texas again.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "31 israel's fit inside texas here's israel at true size 22,072 square kilometers westbank and gaza shaded not counted now fly to america new jersey first almost a perfect match lake michigan swallows it more than two and a half times california 19 israel's side by side texas one two three 31 and a half, and the whole United States, 445, coast to coast, plus Alaska. Every copy is true size, even up in Alaska. Size isn't everything. It's just where the conversation starts. Which U.S. state should I drop Israel on next? If you love Israeli facts, follow Noam Roz for more. Count Texas again.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 44.92,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 216.7
 }
