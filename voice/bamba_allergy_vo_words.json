@@ -1,967 +1,887 @@
 [
 {
 "word": "One",
-"start": 0.263,
-"end": 0.573
+"start": 0.139,
+"end": 0.232
 },
 {
 "word": "Israeli",
-"start": 0.573,
-"end": 0.96
+"start": 0.232,
+"end": 0.805
 },
 {
 "word": "snack.",
-"start": 0.96,
-"end": 1.471
+"start": 0.805,
+"end": 1.409
 },
 {
 "word": "Ten",
-"start": 1.92,
-"end": 2.121
+"start": 1.796,
+"end": 2.012
 },
 {
 "word": "times",
-"start": 2.121,
-"end": 2.43
+"start": 2.012,
+"end": 2.337
 },
 {
 "word": "fewer",
-"start": 2.43,
-"end": 2.663
+"start": 2.337,
+"end": 2.616
 },
 {
 "word": "peanut",
-"start": 2.663,
-"end": 2.941
+"start": 2.616,
+"end": 2.91
 },
 {
 "word": "allergies?",
-"start": 2.941,
-"end": 3.529
-},
-{
-"word": "Here's",
-"start": 3.715,
-"end": 3.994
-},
-{
-"word": "the",
-"start": 3.994,
-"end": 4.071
-},
-{
-"word": "story.",
-"start": 4.071,
-"end": 4.443
+"start": 2.91,
+"end": 3.607
 },
 {
 "word": "Tel",
-"start": 4.675,
-"end": 4.954
+"start": 4.257,
+"end": 4.598
 },
 {
 "word": "Aviv.",
-"start": 4.954,
-"end": 5.341
+"start": 4.598,
+"end": 5.062
 },
 {
 "word": "A",
-"start": 5.666,
-"end": 5.759
+"start": 5.341,
+"end": 5.403
 },
 {
 "word": "London",
-"start": 5.759,
-"end": 6.053
+"start": 5.403,
+"end": 5.728
 },
 {
 "word": "allergist,",
-"start": 6.053,
-"end": 6.594
+"start": 5.728,
+"end": 6.331
 },
 {
 "word": "Gideon",
-"start": 6.656,
-"end": 7.012
+"start": 6.517,
+"end": 6.873
 },
 {
 "word": "Lack,",
-"start": 7.012,
-"end": 7.322
+"start": 6.873,
+"end": 7.291
 },
 {
 "word": "gives",
-"start": 7.585,
-"end": 7.833
+"start": 7.446,
+"end": 7.678
 },
 {
 "word": "a",
-"start": 7.833,
-"end": 7.879
+"start": 7.678,
+"end": 7.74
 },
 {
 "word": "lecture.",
-"start": 7.879,
-"end": 8.313
+"start": 7.74,
+"end": 8.158
 },
 {
 "word": "Very",
-"start": 8.545,
-"end": 8.839
-},
-{
-"word": "few",
-"start": 8.839,
-"end": 8.994
-},
-{
-"word": "of",
-"start": 8.994,
+"start": 8.824,
 "end": 9.087
 },
 {
-"word": "the",
+"word": "few",
 "start": 9.087,
-"end": 9.149
+"end": 9.273
 },
 {
 "word": "doctors",
-"start": 9.149,
-"end": 9.505
-},
-{
-"word": "there",
-"start": 9.505,
-"end": 9.598
-},
-{
-"word": "have",
-"start": 9.598,
+"start": 9.273,
 "end": 9.69
 },
 {
-"word": "ever",
+"word": "there",
 "start": 9.69,
-"end": 9.861
+"end": 9.845
+},
+{
+"word": "have",
+"start": 9.845,
+"end": 9.954
+},
+{
+"word": "ever",
+"start": 9.954,
+"end": 10.17
 },
 {
 "word": "seen",
-"start": 9.861,
-"end": 10.016
+"start": 10.17,
+"end": 10.387
 },
 {
 "word": "a",
-"start": 10.016,
-"end": 10.077
-},
-{
-"word": "child",
-"start": 10.077,
-"end": 10.341
-},
-{
-"word": "with",
-"start": 10.341,
+"start": 10.387,
 "end": 10.433
 },
 {
-"word": "peanut",
+"word": "child",
 "start": 10.433,
-"end": 10.712
-},
-{
-"word": "allergy.",
-"start": 10.712,
-"end": 11.192
-},
-{
-"word": "Why?",
-"start": 11.548,
-"end": 12.059
-},
-{
-"word": "Israeli",
-"start": 12.291,
-"end": 12.694
-},
-{
-"word": "babies",
-"start": 12.694,
-"end": 12.988
-},
-{
-"word": "eat",
-"start": 13.05,
-"end": 13.282
-},
-{
-"word": "Bamba",
-"start": 13.282,
-"end": 13.622
-},
-{
-"word": "in",
-"start": 13.622,
-"end": 13.731
-},
-{
-"word": "their",
-"start": 13.731,
-"end": 13.855
-},
-{
-"word": "first",
-"start": 13.855,
-"end": 14.149
-},
-{
-"word": "year.",
-"start": 14.149,
-"end": 14.458
-},
-{
-"word": "Puffed",
-"start": 14.876,
-"end": 15.139
-},
-{
-"word": "corn,",
-"start": 15.139,
-"end": 15.604
-},
-{
-"word": "coated",
-"start": 15.681,
-"end": 16.022
-},
-{
-"word": "in",
-"start": 16.022,
-"end": 16.099
-},
-{
-"word": "peanut",
-"start": 16.099,
-"end": 16.347
-},
-{
-"word": "butter.",
-"start": 16.347,
-"end": 16.641
-},
-{
-"word": "Fun",
-"start": 17.152,
-"end": 17.43
-},
-{
-"word": "fact:",
-"start": 17.43,
-"end": 17.848
-},
-{
-"word": "Bamba",
-"start": 18.003,
-"end": 18.359
-},
-{
-"word": "launched",
-"start": 18.359,
-"end": 18.715
-},
-{
-"word": "in",
-"start": 18.715,
-"end": 18.808
-},
-{
-"word": "1964",
-"start": 18.808,
-"end": 19.613
-},
-{
-"word": "as",
-"start": 19.613,
-"end": 19.737
-},
-{
-"word": "a",
-"start": 19.737,
-"end": 19.768
-},
-{
-"word": "cheese",
-"start": 19.768,
-"end": 20.031
-},
-{
-"word": "snack.",
-"start": 20.031,
-"end": 20.434
-},
-{
-"word": "It",
-"start": 20.821,
-"end": 20.929
-},
-{
-"word": "flopped.",
-"start": 20.929,
-"end": 21.393
-},
-{
-"word": "Peanut",
-"start": 21.842,
-"end": 22.105
-},
-{
-"word": "butter",
-"start": 22.105,
-"end": 22.322
-},
-{
-"word": "saved",
-"start": 22.322,
-"end": 22.585
-},
-{
-"word": "it.",
-"start": 22.585,
-"end": 22.74
-},
-{
-"word": "So",
-"start": 22.802,
-"end": 23.019
-},
-{
-"word": "his",
-"start": 23.019,
-"end": 23.204
-},
-{
-"word": "team",
-"start": 23.204,
-"end": 23.406
-},
-{
-"word": "compared",
-"start": 23.406,
-"end": 23.824
-},
-{
-"word": "Jewish",
-"start": 23.824,
-"end": 24.133
-},
-{
-"word": "children",
-"start": 24.133,
-"end": 24.52
-},
-{
-"word": "in",
-"start": 24.52,
-"end": 24.644
-},
-{
-"word": "Britain",
-"start": 24.644,
-"end": 24.969
-},
-{
-"word": "and",
-"start": 24.969,
-"end": 25.124
-},
-{
-"word": "in",
-"start": 25.124,
-"end": 25.232
-},
-{
-"word": "Israel.",
-"start": 25.232,
-"end": 25.697
-},
-{
-"word": "Same",
-"start": 26.053,
-"end": 26.44
-},
-{
-"word": "heritage.",
-"start": 26.44,
-"end": 27.044
-},
-{
-"word": "Different",
-"start": 27.152,
-"end": 27.492
-},
-{
-"word": "snack.",
-"start": 27.492,
-"end": 27.879
-},
-{
-"word": "In",
-"start": 28.235,
-"end": 28.421
-},
-{
-"word": "Britain,",
-"start": 28.421,
-"end": 28.746
-},
-{
-"word": "1.85",
-"start": 28.746,
-"end": 29.536
-},
-{
-"word": "percent",
-"start": 29.536,
-"end": 29.83
-},
-{
-"word": "had",
-"start": 29.83,
-"end": 29.985
-},
-{
-"word": "a",
-"start": 29.985,
-"end": 30.016
-},
-{
-"word": "peanut",
-"start": 30.016,
-"end": 30.279
-},
-{
-"word": "allergy.",
-"start": 30.279,
-"end": 30.759
-},
-{
-"word": "In",
-"start": 31.3,
-"end": 31.424
-},
-{
-"word": "Israel,",
-"start": 31.424,
-"end": 32.013
-},
-{
-"word": "0.17",
-"start": 32.291,
-"end": 33.437
-},
-{
-"word": "percent.",
-"start": 33.437,
-"end": 33.793
-},
-{
-"word": "About",
-"start": 34.381,
-"end": 34.691
-},
-{
-"word": "ten",
-"start": 34.691,
-"end": 34.907
-},
-{
-"word": "times",
-"start": 34.907,
-"end": 35.17
-},
-{
-"word": "fewer.",
-"start": 35.17,
-"end": 35.527
-},
-{
-"word": "Israeli",
-"start": 35.944,
-"end": 36.362
-},
-{
-"word": "babies",
-"start": 36.362,
-"end": 36.765
-},
-{
-"word": "ate",
-"start": 36.765,
-"end": 36.873
-},
-{
-"word": "a",
-"start": 36.873,
-"end": 36.935
-},
-{
-"word": "median",
-"start": 36.935,
-"end": 37.245
-},
-{
-"word": "of",
-"start": 37.245,
-"end": 37.322
-},
-{
-"word": "7",
-"start": 37.322,
-"end": 37.694
-},
-{
-"word": "grams",
-"start": 37.694,
-"end": 38.019
-},
-{
-"word": "of",
-"start": 38.019,
-"end": 38.112
-},
-{
-"word": "peanut",
-"start": 38.112,
-"end": 38.406
-},
-{
-"word": "protein",
-"start": 38.406,
-"end": 38.793
-},
-{
-"word": "a",
-"start": 38.793,
-"end": 38.824
-},
-{
-"word": "month.",
-"start": 38.824,
-"end": 39.226
-},
-{
-"word": "British",
-"start": 39.582,
-"end": 39.876
-},
-{
-"word": "babies?",
-"start": 39.876,
-"end": 40.387
-},
-{
-"word": "Zero.",
-"start": 40.666,
-"end": 41.146
-},
-{
-"word": "That",
-"start": 41.595,
-"end": 41.827
-},
-{
-"word": "was",
-"start": 41.827,
-"end": 42.013
-},
-{
-"word": "an",
-"start": 42.013,
-"end": 42.106
-},
-{
-"word": "observation.",
-"start": 42.106,
-"end": 42.756
-},
-{
-"word": "So",
-"start": 43.267,
-"end": 43.452
-},
-{
-"word": "they",
-"start": 43.452,
-"end": 43.576
-},
-{
-"word": "ran",
-"start": 43.576,
-"end": 43.808
-},
-{
-"word": "a",
-"start": 43.808,
-"end": 43.839
-},
-{
-"word": "real",
-"start": 43.839,
-"end": 44.087
-},
-{
-"word": "trial,",
-"start": 44.087,
-"end": 44.582
-},
-{
-"word": "called",
-"start": 44.923,
-"end": 45.217
-},
-{
-"word": "LEAP:",
-"start": 45.217,
-"end": 45.434
-},
-{
-"word": "babies",
-"start": 45.991,
-"end": 46.332
-},
-{
-"word": "at",
-"start": 46.332,
-"end": 46.455
-},
-{
-"word": "high",
-"start": 46.455,
-"end": 46.626
-},
-{
-"word": "risk,",
-"start": 46.626,
-"end": 47.075
-},
-{
-"word": "fed",
-"start": 47.322,
-"end": 47.554
-},
-{
-"word": "peanut",
-"start": 47.554,
-"end": 47.833
-},
-{
-"word": "from",
-"start": 47.833,
-"end": 48.003
-},
-{
-"word": "infancy",
-"start": 48.003,
-"end": 48.406
-},
-{
-"word": "to",
-"start": 48.406,
-"end": 48.514
-},
-{
-"word": "age",
-"start": 48.514,
-"end": 48.731
-},
-{
-"word": "five.",
-"start": 48.731,
-"end": 49.087
-},
-{
-"word": "The",
-"start": 49.784,
-"end": 49.861
-},
-{
-"word": "result:",
-"start": 49.861,
-"end": 50.263
-},
-{
-"word": "up",
-"start": 50.681,
-"end": 50.821
-},
-{
-"word": "to",
-"start": 50.821,
-"end": 50.945
-},
-{
-"word": "81",
-"start": 50.945,
-"end": 51.363
-},
-{
-"word": "percent",
-"start": 51.363,
-"end": 51.672
-},
-{
-"word": "fewer",
-"start": 51.672,
-"end": 51.966
-},
-{
-"word": "peanut",
-"start": 51.966,
-"end": 52.245
-},
-{
-"word": "allergies.",
-"start": 52.245,
-"end": 52.802
-},
-{
-"word": "In",
-"start": 53.282,
-"end": 53.437
-},
-{
-"word": "2017,",
-"start": 53.437,
-"end": 54.397
-},
-{
-"word": "America",
-"start": 54.459,
-"end": 54.876
-},
-{
-"word": "flipped",
-"start": 54.876,
-"end": 55.171
-},
-{
-"word": "its",
-"start": 55.171,
-"end": 55.263
-},
-{
-"word": "advice.",
-"start": 55.263,
-"end": 55.805
-},
-{
-"word": "Peanut",
-"start": 56.347,
-"end": 56.595
-},
-{
-"word": "early,",
-"start": 56.595,
-"end": 56.889
-},
-{
-"word": "not",
-"start": 57.106,
-"end": 57.307
-},
-{
-"word": "late.",
-"start": 57.307,
-"end": 57.524
-},
-{
-"word": "And",
-"start": 58.359,
-"end": 58.545
-},
-{
-"word": "in",
-"start": 58.545,
-"end": 58.654
-},
-{
-"word": "2024,",
-"start": 58.654,
-"end": 59.644
-},
-{
-"word": "the",
-"start": 59.706,
-"end": 59.83
-},
-{
-"word": "kids",
-"start": 59.83,
-"end": 60.155
-},
-{
-"word": "from",
-"start": 60.155,
-"end": 60.279
-},
-{
-"word": "the",
-"start": 60.279,
-"end": 60.341
-},
-{
-"word": "trial",
-"start": 60.341,
-"end": 60.604
-},
-{
-"word": "were",
-"start": 60.604,
-"end": 60.728
-},
-{
-"word": "teenagers.",
-"start": 60.728,
-"end": 61.394
-},
-{
-"word": "Still",
-"start": 61.719,
-"end": 62.013
-},
-{
-"word": "protected.",
-"start": 62.013,
-"end": 62.493
-},
-{
-"word": "Bamba",
-"start": 63.189,
-"end": 63.545
-},
-{
-"word": "isn't",
-"start": 63.545,
-"end": 63.762
-},
-{
-"word": "medicine.",
-"start": 63.762,
-"end": 64.118
-},
-{
-"word": "Ask",
-"start": 64.846,
-"end": 65.14
-},
-{
-"word": "your",
-"start": 65.14,
-"end": 65.264
-},
-{
-"word": "paediatrician",
-"start": 65.264,
-"end": 65.805
-},
-{
-"word": "before",
-"start": 65.805,
-"end": 66.038
-},
-{
-"word": "giving",
-"start": 66.038,
-"end": 66.285
-},
-{
-"word": "peanut",
-"start": 66.285,
-"end": 66.517
-},
-{
-"word": "to",
-"start": 66.517,
-"end": 66.61
-},
-{
-"word": "a",
-"start": 66.61,
-"end": 66.641
-},
-{
-"word": "baby.",
-"start": 66.641,
-"end": 67.028
-},
-{
-"word": "Did",
-"start": 67.245,
-"end": 67.415
-},
-{
-"word": "you",
-"start": 67.415,
-"end": 67.508
-},
-{
-"word": "grow",
-"start": 67.508,
-"end": 67.694
-},
-{
-"word": "up",
-"start": 67.694,
-"end": 67.771
-},
-{
-"word": "on",
-"start": 67.771,
-"end": 67.895
-},
-{
-"word": "Bamba?",
-"start": 67.895,
-"end": 68.282
-},
-{
-"word": "Tell",
-"start": 68.731,
-"end": 68.917
-},
-{
-"word": "me",
-"start": 68.917,
-"end": 69.01
-},
-{
-"word": "below.",
-"start": 69.01,
-"end": 69.335
-},
-{
-"word": "And",
-"start": 69.923,
-"end": 70.047
-},
-{
-"word": "it",
-"start": 70.047,
-"end": 70.109
-},
-{
-"word": "all",
-"start": 70.109,
-"end": 70.295
-},
-{
-"word": "started",
-"start": 70.295,
-"end": 70.62
+"end": 10.805
 },
 {
 "word": "with",
-"start": 70.62,
-"end": 70.883
+"start": 10.805,
+"end": 10.882
+},
+{
+"word": "peanut",
+"start": 10.882,
+"end": 11.161
+},
+{
+"word": "allergy.",
+"start": 11.161,
+"end": 11.61
+},
+{
+"word": "Why?",
+"start": 11.997,
+"end": 12.539
+},
+{
+"word": "Israeli",
+"start": 13.081,
+"end": 13.499
+},
+{
+"word": "babies",
+"start": 13.499,
+"end": 13.886
+},
+{
+"word": "eat",
+"start": 13.886,
+"end": 14.102
+},
+{
+"word": "Bamba",
+"start": 14.102,
+"end": 14.458
+},
+{
+"word": "in",
+"start": 14.458,
+"end": 14.551
+},
+{
+"word": "their",
+"start": 14.551,
+"end": 14.675
+},
+{
+"word": "first",
+"start": 14.675,
+"end": 14.969
+},
+{
+"word": "year.",
+"start": 14.969,
+"end": 15.263
+},
+{
+"word": "Puffed",
+"start": 15.449,
+"end": 15.774
+},
+{
+"word": "corn,",
+"start": 15.774,
+"end": 16.223
+},
+{
+"word": "coated",
+"start": 16.502,
+"end": 16.889
+},
+{
+"word": "in",
+"start": 16.889,
+"end": 17.012
+},
+{
+"word": "peanut",
+"start": 17.012,
+"end": 17.338
+},
+{
+"word": "butter.",
+"start": 17.338,
+"end": 17.678
+},
+{
+"word": "Bamba",
+"start": 18.266,
+"end": 18.622
+},
+{
+"word": "launched",
+"start": 18.622,
+"end": 18.994
+},
+{
+"word": "in",
+"start": 18.994,
+"end": 19.087
+},
+{
+"word": "1964",
+"start": 19.087,
+"end": 20.016
+},
+{
+"word": "as",
+"start": 20.016,
+"end": 20.093
+},
+{
+"word": "a",
+"start": 20.093,
+"end": 20.155
+},
+{
+"word": "cheese",
+"start": 20.155,
+"end": 20.465
+},
+{
+"word": "snack.",
+"start": 20.465,
+"end": 20.882
+},
+{
+"word": "It",
+"start": 21.084,
+"end": 21.269
+},
+{
+"word": "flopped.",
+"start": 21.269,
+"end": 21.78
+},
+{
+"word": "Peanut",
+"start": 22.167,
+"end": 22.492
+},
+{
+"word": "butter",
+"start": 22.492,
+"end": 22.74
+},
+{
+"word": "saved",
+"start": 22.74,
+"end": 23.034
+},
+{
+"word": "it.",
+"start": 23.034,
+"end": 23.22
+},
+{
+"word": "So",
+"start": 23.406,
+"end": 23.622
+},
+{
+"word": "his",
+"start": 23.622,
+"end": 23.824
+},
+{
+"word": "team",
+"start": 23.824,
+"end": 24.102
+},
+{
+"word": "compared",
+"start": 24.102,
+"end": 24.489
+},
+{
+"word": "Jewish",
+"start": 24.489,
+"end": 24.783
+},
+{
+"word": "children",
+"start": 24.783,
+"end": 25.201
+},
+{
+"word": "in",
+"start": 25.201,
+"end": 25.356
+},
+{
+"word": "Britain",
+"start": 25.356,
+"end": 25.867
+},
+{
+"word": "and",
+"start": 25.991,
+"end": 26.161
+},
+{
+"word": "Israel.",
+"start": 26.192,
+"end": 26.61
+},
+{
+"word": "Same",
+"start": 27.09,
+"end": 27.461
+},
+{
+"word": "heritage,",
+"start": 27.461,
+"end": 27.848
+},
+{
+"word": "different",
+"start": 27.972,
+"end": 28.297
+},
+{
+"word": "snack.",
+"start": 28.297,
+"end": 28.715
+},
+{
+"word": "In",
+"start": 29.102,
+"end": 29.319
+},
+{
+"word": "Britain,",
+"start": 29.319,
+"end": 29.737
+},
+{
+"word": "1.85",
+"start": 29.799,
+"end": 30.573
+},
+{
+"word": "percent",
+"start": 30.573,
+"end": 30.913
+},
+{
+"word": "had",
+"start": 30.913,
+"end": 31.053
+},
+{
+"word": "a",
+"start": 31.053,
+"end": 31.146
+},
+{
+"word": "peanut",
+"start": 31.146,
+"end": 31.393
+},
+{
+"word": "allergy.",
+"start": 31.393,
+"end": 31.873
+},
+{
+"word": "In",
+"start": 32.105,
+"end": 32.26
+},
+{
+"word": "Israel,",
+"start": 32.26,
+"end": 32.802
+},
+{
+"word": "0.17",
+"start": 33.127,
+"end": 34.783
+},
+{
+"word": "percent.",
+"start": 34.783,
+"end": 35.294
+},
+{
+"word": "About",
+"start": 35.821,
+"end": 36.037
+},
+{
+"word": "ten",
+"start": 36.037,
+"end": 36.223
+},
+{
+"word": "times",
+"start": 36.223,
+"end": 36.455
+},
+{
+"word": "fewer.",
+"start": 36.455,
+"end": 36.873
+},
+{
+"word": "Israeli",
+"start": 37.245,
+"end": 37.632
+},
+{
+"word": "babies",
+"start": 37.632,
+"end": 38.112
+},
+{
+"word": "ate",
+"start": 38.112,
+"end": 38.282
+},
+{
+"word": "a",
+"start": 38.282,
+"end": 38.313
+},
+{
+"word": "median",
+"start": 38.313,
+"end": 38.684
+},
+{
+"word": "of",
+"start": 38.684,
+"end": 38.762
+},
+{
+"word": "7",
+"start": 38.762,
+"end": 39.102
+},
+{
+"word": "grams",
+"start": 39.102,
+"end": 39.427
+},
+{
+"word": "of",
+"start": 39.427,
+"end": 39.489
+},
+{
+"word": "peanut",
+"start": 39.489,
+"end": 39.722
+},
+{
+"word": "protein",
+"start": 39.722,
+"end": 40.031
+},
+{
+"word": "a",
+"start": 40.031,
+"end": 40.093
+},
+{
+"word": "month.",
+"start": 40.093,
+"end": 40.542
+},
+{
+"word": "British",
+"start": 40.96,
+"end": 41.254
+},
+{
+"word": "babies?",
+"start": 41.254,
+"end": 41.765
+},
+{
+"word": "Zero.",
+"start": 42.152,
+"end": 42.663
+},
+{
+"word": "Then",
+"start": 43.174,
+"end": 43.545
+},
+{
+"word": "came",
+"start": 43.545,
+"end": 43.715
+},
+{
+"word": "a",
+"start": 43.715,
+"end": 43.777
+},
+{
+"word": "real",
+"start": 43.777,
+"end": 43.963
+},
+{
+"word": "trial,",
+"start": 43.963,
+"end": 44.412
+},
+{
+"word": "called",
+"start": 44.474,
+"end": 44.768
+},
+{
+"word": "LEAP:",
+"start": 44.768,
+"end": 45.031
+},
+{
+"word": "high",
+"start": 45.542,
+"end": 45.774
+},
+{
+"word": "risk",
+"start": 45.774,
+"end": 46.084
+},
+{
+"word": "babies,",
+"start": 46.084,
+"end": 46.626
+},
+{
+"word": "fed",
+"start": 46.734,
+"end": 47.013
+},
+{
+"word": "peanut",
+"start": 47.013,
+"end": 47.276
+},
+{
+"word": "from",
+"start": 47.276,
+"end": 47.431
+},
+{
+"word": "infancy",
+"start": 47.431,
+"end": 47.911
+},
+{
+"word": "to",
+"start": 47.911,
+"end": 48.065
+},
+{
+"word": "age",
+"start": 48.065,
+"end": 48.267
+},
+{
+"word": "five.",
+"start": 48.267,
+"end": 48.685
+},
+{
+"word": "The",
+"start": 49.164,
+"end": 49.257
+},
+{
+"word": "result:",
+"start": 49.257,
+"end": 49.706
+},
+{
+"word": "up",
+"start": 50.186,
+"end": 50.341
+},
+{
+"word": "to",
+"start": 50.341,
+"end": 50.465
+},
+{
+"word": "81",
+"start": 50.465,
+"end": 50.914
+},
+{
+"word": "percent",
+"start": 50.914,
+"end": 51.208
+},
+{
+"word": "fewer",
+"start": 51.208,
+"end": 51.455
+},
+{
+"word": "peanut",
+"start": 51.455,
+"end": 51.688
+},
+{
+"word": "allergies.",
+"start": 51.688,
+"end": 52.198
+},
+{
+"word": "In",
+"start": 52.647,
+"end": 52.771
+},
+{
+"word": "2017,",
+"start": 52.771,
+"end": 53.7
+},
+{
+"word": "America",
+"start": 54.211,
+"end": 54.598
+},
+{
+"word": "flipped",
+"start": 54.598,
+"end": 54.876
+},
+{
+"word": "its",
+"start": 54.876,
+"end": 54.985
+},
+{
+"word": "advice.",
+"start": 54.985,
+"end": 55.496
+},
+{
+"word": "Peanut",
+"start": 55.914,
+"end": 56.192
+},
+{
+"word": "early,",
+"start": 56.192,
+"end": 56.579
+},
+{
+"word": "not",
+"start": 56.765,
+"end": 56.935
+},
+{
+"word": "late.",
+"start": 56.935,
+"end": 57.152
+},
+{
+"word": "In",
+"start": 57.756,
+"end": 57.833
+},
+{
+"word": "2024,",
+"start": 57.833,
+"end": 58.793
+},
+{
+"word": "the",
+"start": 59.304,
+"end": 59.428
+},
+{
+"word": "trial",
+"start": 59.428,
+"end": 59.706
+},
+{
+"word": "kids",
+"start": 59.706,
+"end": 59.938
+},
+{
+"word": "were",
+"start": 59.938,
+"end": 60.062
+},
+{
+"word": "teenagers.",
+"start": 60.062,
+"end": 60.712
+},
+{
+"word": "Still",
+"start": 61.254,
+"end": 61.564
+},
+{
+"word": "protected.",
+"start": 61.564,
+"end": 62.044
+},
+{
+"word": "Bamba",
+"start": 62.524,
+"end": 62.849
+},
+{
+"word": "isn't",
+"start": 62.849,
+"end": 63.096
+},
+{
+"word": "medicine.",
+"start": 63.096,
+"end": 63.452
+},
+{
+"word": "Ask",
+"start": 64.134,
+"end": 64.381
+},
+{
+"word": "your",
+"start": 64.381,
+"end": 64.474
+},
+{
+"word": "paediatrician",
+"start": 64.474,
+"end": 64.954
+},
+{
+"word": "before",
+"start": 64.954,
+"end": 65.155
+},
+{
+"word": "a",
+"start": 65.155,
+"end": 65.186
+},
+{
+"word": "baby",
+"start": 65.186,
+"end": 65.465
+},
+{
+"word": "tries",
+"start": 65.465,
+"end": 65.697
+},
+{
+"word": "any",
+"start": 65.697,
+"end": 65.883
+},
+{
+"word": "peanut",
+"start": 65.883,
+"end": 66.115
+},
+{
+"word": "food.",
+"start": 66.115,
+"end": 66.332
+},
+{
+"word": "Did",
+"start": 66.904,
+"end": 67.044
+},
+{
+"word": "you",
+"start": 67.044,
+"end": 67.106
+},
+{
+"word": "grow",
+"start": 67.106,
+"end": 67.353
+},
+{
+"word": "up",
+"start": 67.353,
+"end": 67.477
+},
+{
+"word": "on",
+"start": 67.477,
+"end": 67.586
+},
+{
+"word": "Bamba?",
+"start": 67.586,
+"end": 68.034
+},
+{
+"word": "Tell",
+"start": 68.793,
+"end": 68.948
+},
+{
+"word": "me",
+"start": 68.948,
+"end": 69.025
+},
+{
+"word": "below.",
+"start": 69.025,
+"end": 69.397
+},
+{
+"word": "And",
+"start": 70.248,
+"end": 70.434
+},
+{
+"word": "it",
+"start": 70.434,
+"end": 70.511
+},
+{
+"word": "all",
+"start": 70.511,
+"end": 70.604
+},
+{
+"word": "started",
+"start": 70.604,
+"end": 70.945
+},
+{
+"word": "with",
+"start": 70.945,
+"end": 71.208
 }
 ]

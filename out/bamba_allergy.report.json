@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "photo_story",
  "hook": "*1* Israeli snack.|*10x* fewer allergies?",
- "duration": 65.37,
+ "duration": 64.53,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/bamba_allergy.mp4",
@@ -65,31 +65,31 @@
   }
  ],
  "transcript": {
-  "score": 0.991,
+  "score": 0.975,
   "model": "faster-whisper small.en",
   "lines": [
    {
-    "line": "One Israeli snack. Ten times fewer peanut allergies? Here's the story.",
+    "line": "One Israeli snack. Ten times fewer peanut allergies?",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Tel Aviv. A London allergist, Gideon Lack, gives a lecture. Very few of the doctors there have ever seen a child with peanut allergy.",
-    "score": 1.0,
+    "line": "Tel Aviv. A London allergist, Gideon Lack, gives a lecture. Very few doctors there have ever seen a child with peanut allergy.",
+    "score": 0.955,
     "flag": "ok"
    },
    {
     "line": "Why? Israeli babies eat Bamba in their first year. Puffed corn, coated in peanut butter.",
-    "score": 1.0,
+    "score": 0.933,
     "flag": "ok"
    },
    {
-    "line": "Fun fact: Bamba launched in 1964 as a cheese snack. It flopped. Peanut butter saved it.",
-    "score": 1.0,
+    "line": "Bamba launched in 1964 as a cheese snack. It flopped. Peanut butter saved it.",
+    "score": 0.95,
     "flag": "ok"
    },
    {
-    "line": "So his team compared Jewish children in Britain and in Israel. Same heritage. Different snack.",
+    "line": "So his team compared Jewish children in Britain and Israel. Same heritage, different snack.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -104,7 +104,7 @@
     "flag": "ok"
    },
    {
-    "line": "That was an observation. So they ran a real trial, called LEAP: babies at high risk, fed peanut from infancy to age five.",
+    "line": "Then came a real trial, called LEAP: high risk babies, fed peanut from infancy to age five.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -119,13 +119,13 @@
     "flag": "ok"
    },
    {
-    "line": "And in 2024, the kids from the trial were teenagers. Still protected.",
+    "line": "In 2024, the trial kids were teenagers. Still protected.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Bamba isn't medicine. Ask your paediatrician before giving peanut to a baby.",
-    "score": 0.833,
+    "line": "Bamba isn't medicine. Ask your paediatrician before a baby tries any peanut food.",
+    "score": 0.846,
     "flag": "ok"
    },
    {
@@ -139,14 +139,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "One Israeli snack. Ten times fewer peanut allergies. Here's the story. Tel Aviv. A London allergist, Gideon Lack, gives a lecture. Very few of the doctors there have ever seen a child with peanut allergy. Why? Israeli babies eat Bamba in their first year. Puffed corn, coated in peanut butter. Fun fact, Bamba launched in 1964 as a cheese snack. It flopped. Peanut butter saved it. So his team compared Jewish children in Britain and in Israel. Same heritage, different snack. In Britain, 1.85% had a peanut allergy. In Israel, 0.17%. About 10 times fewer. Israeli babies ate a median of 7 grams of peanut protein a month. British babies, zero. That was an observation, so they ran a real trial called LEAP. Babies at high risk fed peanut from infancy to age 5. The result? Up to 81% fewer peanut allergies. In 2017, America flipped its advice. Peanut early, not late. And in 2024, the kids from the trial were teenagers. Still protected. Bamba isn't medicine. Ask your pediatrician before giving a penis to a baby. Did you grow up on Bamba? Tell me below. If you love Israeli facts, follow Noam Roz for more. And it all started with…",
+  "heard": "One Israeli snack. Ten times fewer peanut allergies. Tell Aviv. A London allergist, Gideon Lack, gives a lecture. Very few doctors there have ever seen a child with peanut allergy. Why? Israeli babies eat Bamba in their first year. Puffed corn. Coded in peanut butter. Bamba launched in 1964 as a cheese snack. It flocked. Peanut butter saved it. So his team compared Jewish children in Britain and Israel. Same heritage, different snack. In Britain, 1.85% had a peanut allergy. In Israel, 0.17%. About 10 times fewer. Israeli babies ate a median of 7 grams of peanut protein a month. British babies? Zero. Then came a real trial called LEAP. High-risk babies fed peanut from infancy to age 5. The result? Up to 81% fewer peanut allergies. In 2017, America flipped its advice. Peanut early, not late. In 2024, the trial kids were teenagers. Still protected. Bamba isn't medicine. Ask your pediatrician before baby tries any peanut food. Did you grow up on Bamba? Tell me below. If you love Israeli facts, follow Noam Roz for more. And it all started with…",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "photos": [
   {
@@ -195,5 +195,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 114.7
+ "render_s": 189.4
 }
