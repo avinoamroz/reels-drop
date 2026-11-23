@@ -1,0 +1,299 @@
+{
+ "id": "israel_fits_2_usa",
+ "account": "noamroz__",
+ "template": "israel_fits",
+ "hook": "*31* Israels fit|inside Texas",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "31 Israels fit inside Texas."
+  },
+  {
+   "say": "Here's Israel at true size: 22,072 square kilometres.",
+   "screen": "Israel: *22,072* km²",
+   "until": "L2"
+  },
+  {
+   "say": "West Bank and Gaza shaded, not counted. Now, fly it to America.",
+   "screen": "West Bank and Gaza: *not counted*",
+   "until": "L2:now"
+  },
+  {
+   "say": "New Jersey first. Almost a perfect match."
+  },
+  {
+   "say": "Lake Michigan swallows it more than two and a half times."
+  },
+  {
+   "say": "California: 19 Israels, side by side."
+  },
+  {
+   "say": "Texas: one, two, three... 31 and a half."
+  },
+  {
+   "say": "And the whole United States? 445. Coast to coast, plus Alaska."
+  },
+  {
+   "say": "Every copy is true size, even up in Alaska.",
+   "screen": "Every copy at *true size*",
+   "until": "L8e"
+  },
+  {
+   "say": "Size isn't everything. It's just where the conversation starts."
+  },
+  {
+   "say": "Which US state should I drop Israel on next?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Count Texas again."
+  }
+ ],
+ "data": {
+  "cam0": [
+   -99.3,
+   31.3,
+   1900,
+   1060
+  ],
+  "drift": [
+   0.12,
+   1.5
+  ],
+  "highlight": [
+   {
+    "target": "TX",
+    "at": 0,
+    "until": "L1+0.3"
+   },
+   {
+    "target": "TX",
+    "at": "L12-0.2",
+    "until": "END"
+   }
+  ],
+  "cams": [
+   {
+    "at": "L0e-0.2",
+    "view": [
+     35.0,
+     31.45,
+     780,
+     1000
+    ],
+    "dur": 1.3,
+    "bump": 0
+   },
+   {
+    "at": "L2:now",
+    "view": [
+     -74.6,
+     40.1,
+     950,
+     1060
+    ],
+    "dur": 2.4
+   },
+   {
+    "at": "L4-0.3",
+    "view": [
+     -87.0,
+     43.8,
+     1300,
+     1060
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L5-0.3",
+    "view": [
+     -119.5,
+     37.2,
+     2000,
+     1060
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L6-0.3",
+    "view": [
+     -99.3,
+     31.3,
+     1900,
+     1060
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L7-0.2",
+    "view": [
+     -112,
+     50,
+     7600,
+     1100
+    ],
+    "dur": 1.5
+   },
+   {
+    "at": "L11",
+    "view": [
+     -99.3,
+     31.3,
+     1900,
+     1060
+    ],
+    "dur": 1.4
+   }
+  ],
+  "home": [
+   [
+    "L1",
+    "L2:now"
+   ]
+  ],
+  "beats": [
+   {
+    "target": "NJ",
+    "at": "L3:jersey",
+    "until": "L4",
+    "fly": [
+     "L2:now",
+     "L3:jersey"
+    ],
+    "hero": 1,
+    "fill": 0.1,
+    "name": "New Jersey",
+    "value": 1
+   },
+   {
+    "target": "MICH",
+    "at": "L4:swallows",
+    "until": "L5",
+    "hero": 2,
+    "hero_gap": 0.45,
+    "fill": 0.1,
+    "name": "Lake Michigan",
+    "value": 2.6,
+    "dec": 1,
+    "clip": false
+   },
+   {
+    "target": "CA",
+    "at": "L5:california",
+    "until": "L6",
+    "hero": 2,
+    "hero_gap": 0.25,
+    "fill": 1.2,
+    "name": "California",
+    "value": 19
+   },
+   {
+    "target": "TX",
+    "at": "L6:one",
+    "until": "L7",
+    "hero": 3,
+    "hero_at": [
+     "L6:one",
+     "L6:two",
+     "L6:three"
+    ],
+    "fill": 1.3,
+    "name": "Texas",
+    "value": 31.5,
+    "dec": 1
+   },
+   {
+    "target": "USA",
+    "at": "L7:united+0.2",
+    "until": "L12",
+    "hero": 1,
+    "fill": 2.6,
+    "name": "The United States",
+    "value": 445
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L8:every",
+    "until": "L9",
+    "text": "Save this map",
+    "y": 650,
+    "size": 56
+   },
+   {
+    "at": "L10",
+    "until": "END-0.6",
+    "text": "Part 2 of 4. Part 1 on my profile",
+    "y": 600,
+    "size": 52,
+    "pill": "#163261"
+   }
+  ],
+  "brand": {
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "L12",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Israel CBS: 22,072 km², incl. Golan Heights and East Jerusalem",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "US Census Bureau, total area (land and water)",
+   "year": 2010,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "Britannica: Lake Michigan 57,757 km²",
+   "year": 2026,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "US Census Bureau, total area (land and water)",
+   "year": 2010,
+   "at": "L5",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "until": "L11",
+  "balance": "Size isn't everything. It's where the *conversation* starts.",
+  "cta": "Which state is next?"
+ },
+ "caption_en": "One of these is almost a perfect match. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). West Bank and Gaza shaded, not counted.\n\nHow many times it fits (total area, land and water, US Census Bureau 2010):\nNew Jersey 22,591 km²: about 1x\nLake Michigan 57,757 km² (Britannica): 2.6x\nCalifornia 423,967 km²: 19x\nTexas 695,662 km²: 31.5x\nUnited States 9,833,517 km²: 445x\n\nEvery copy is drawn at true size for its latitude, Alaska included (equal area map, no Mercator stretch).\n\nSize isn't everything. It's just where the conversation starts.\nWhich US state should I drop Israel on next?\n\nPart 2 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
+ "caption_he": "כמה ישראלים נכנסים בטקסס? ניו ג׳רזי: כמעט התאמה מושלמת. אגם מישיגן: פי 2.6. קליפורניה: פי 19. טקסס: פי 31.5. כל ארצות הברית: פי 445. כל עותק מצויר בגודל אמיתי. על איזו מדינה בארה״ב להפיל את ישראל בפעם הבאה?",
+ "hashtags": [
+  "#Israel",
+  "#Texas",
+  "#Maps"
+ ],
+ "cover": {
+  "t": 30.0,
+  "big": "31x",
+  "text": "How many|*Israels* in Texas?"
+ }
+}

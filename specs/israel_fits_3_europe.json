@@ -1,0 +1,269 @@
+{
+ "id": "israel_fits_3_europe",
+ "account": "noamroz__",
+ "template": "israel_fits",
+ "hook": "Israel fits in Russia|*775* times",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "lines": [
+  {
+   "say": "Israel fits into Russia 775 times."
+  },
+  {
+   "say": "Here's Israel at true size: 22,072 square kilometres.",
+   "screen": "Israel: *22,072* km²",
+   "until": "L2"
+  },
+  {
+   "say": "West Bank and Gaza shaded, not counted. First stop: Wales.",
+   "screen": "West Bank and Gaza: *not counted*",
+   "until": "L2:first"
+  },
+  {
+   "say": "Surprise: Wales is smaller. Israel doesn't quite fit."
+  },
+  {
+   "say": "The whole UK? 11 Israels."
+  },
+  {
+   "say": "Germany, 16."
+  },
+  {
+   "say": "Now Russia. Watch the counter."
+  },
+  {
+   "say": "775 Israels, from the Baltic Sea all the way to the Pacific."
+  },
+  {
+   "say": "No map trick: every copy is true size, even in the Arctic.",
+   "screen": "No map trick: every copy *true size*",
+   "until": "L8e"
+  },
+  {
+   "say": "Size isn't everything. Russia has 775 times the land, not 775 times the people."
+  },
+  {
+   "say": "Which European country should I drop Israel on next?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Count Russia again."
+  }
+ ],
+ "data": {
+  "cam0": [
+   98,
+   60,
+   9800,
+   1080
+  ],
+  "drift": [
+   0.12,
+   1.5
+  ],
+  "highlight": [
+   {
+    "target": "RUS",
+    "at": 0,
+    "until": "L1+0.3"
+   },
+   {
+    "target": "RUS",
+    "at": "L12-0.2",
+    "until": "END"
+   }
+  ],
+  "cams": [
+   {
+    "at": "L0e-0.2",
+    "view": [
+     35.0,
+     31.45,
+     780,
+     1000
+    ],
+    "dur": 1.3,
+    "bump": 0
+   },
+   {
+    "at": "L2:first",
+    "view": [
+     -3.7,
+     52.3,
+     900,
+     1060
+    ],
+    "dur": 2.0
+   },
+   {
+    "at": "L4-0.3",
+    "view": [
+     -3.0,
+     55.0,
+     1500,
+     1060
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L5-0.3",
+    "view": [
+     10.4,
+     51.1,
+     1500,
+     1060
+    ],
+    "dur": 1.1
+   },
+   {
+    "at": "L6-0.2",
+    "view": [
+     98,
+     60,
+     9800,
+     1080
+    ],
+    "dur": 1.6
+   },
+   {
+    "at": "L11",
+    "view": [
+     98,
+     60,
+     9800,
+     1080
+    ],
+    "dur": 1.0,
+    "bump": 0
+   }
+  ],
+  "home": [
+   [
+    "L1",
+    "L2:first"
+   ]
+  ],
+  "beats": [
+   {
+    "target": "WLS",
+    "at": "L3:smaller",
+    "until": "L4",
+    "fly": [
+     "L2:first",
+     "L3:surprise"
+    ],
+    "hero": 1,
+    "fill": 0.1,
+    "name": "Wales",
+    "value": 0.94,
+    "dec": 2,
+    "sub": "Israels: it doesn't quite fit"
+   },
+   {
+    "target": "GBR",
+    "at": "L4:uk",
+    "until": "L5",
+    "hero": 2,
+    "hero_gap": 0.3,
+    "fill": 0.8,
+    "name": "The United Kingdom",
+    "value": 11
+   },
+   {
+    "target": "DEU",
+    "at": "L5:germany",
+    "until": "L6",
+    "hero": 2,
+    "hero_gap": 0.3,
+    "fill": 0.8,
+    "name": "Germany",
+    "value": 16
+   },
+   {
+    "target": "RUS",
+    "at": "L6:watch",
+    "until": "L12",
+    "hero": 1,
+    "fill": 3.2,
+    "name": "Russia",
+    "value": 775
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L8:every",
+    "until": "L9",
+    "text": "Save this map",
+    "y": 650,
+    "size": 56
+   },
+   {
+    "at": "L10",
+    "until": "END-0.6",
+    "text": "Part 3 of 4. Part 1 on my profile",
+    "y": 600,
+    "size": 52,
+    "pill": "#163261"
+   }
+  ],
+  "brand": {
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "L12",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Israel CBS: 22,072 km², incl. Golan Heights and East Jerusalem",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "ONS Standard Area Measurements, Wales 20,783 km²",
+   "year": 2024,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "UN Statistics Division, Demographic Yearbook, surface area",
+   "year": 2024,
+   "at": "L4",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "until": "L11",
+  "balance": "Size isn't everything. Land isn't *people*.",
+  "cta": "Which country is next?"
+ },
+ "caption_en": "One of these is smaller than Israel. Guess which. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). West Bank and Gaza shaded, not counted.\n\nHow many times it fits:\n🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales 20,783 km² (ONS Standard Area Measurements, 2024): 0.94x, so Israel is about 6% bigger\n🇬🇧 United Kingdom 244,376 km²: 11x\n🇩🇪 Germany 357,581 km²: 16x\n🇷🇺 Russia 17,098,246 km²: 775x\n(UN Statistics Division, Demographic Yearbook 2024)\n\nNo map trick: every copy is drawn at true size for its latitude, Arctic included (equal area map, no Mercator stretch).\n\nSize isn't everything. Russia has 775 times the land, not 775 times the people.\nWhich European country should I drop Israel on next?\n\nPart 3 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
+ "caption_he": "ישראל גדולה מוויילס בכ-6%. בריטניה: פי 11. גרמניה: פי 16. רוסיה: פי 775. בלי טריק של מפות: כל עותק בגודל אמיתי, גם בקוטב הצפוני. גודל זה לא הכול: לרוסיה יש פי 775 שטח, לא פי 775 אנשים. על איזו מדינה באירופה להפיל את ישראל בפעם הבאה?",
+ "hashtags": [
+  "#Israel",
+  "#Russia",
+  "#Maps"
+ ],
+ "cover": {
+  "t": 32.0,
+  "big": "775x",
+  "text": "How many|*Israels* in Russia?"
+ }
+}
