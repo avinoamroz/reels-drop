@@ -3,7 +3,7 @@
  "account": "noamroz__",
  "template": "h2h",
  "hook": "Israel vs USA: *12* numbers.",
- "duration": 68.03,
+ "duration": 63.8,
  "audio": {
   "lufs": -16.0,
   "true_peak": -2.0
@@ -89,7 +89,7 @@
   }
  ],
  "transcript": {
-  "score": 0.987,
+  "score": 0.98,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -99,7 +99,7 @@
    },
    {
     "line": "One: size. Four hundred forty five Israels fit in America.",
-    "score": 1.0,
+    "score": 0.8,
     "flag": "ok"
    },
    {
@@ -138,7 +138,7 @@
     "flag": "ok"
    },
    {
-    "line": "Nine: money. America wins, thirty one percent more per person.",
+    "line": "Nine: money. America wins by thirty one percent.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -149,7 +149,7 @@
    },
    {
     "line": "Eleven: soldiers. Sixteen per thousand Israelis, plus forty five in reserve. America, four.",
-    "score": 0.923,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -178,12 +178,12 @@
     "flag": "ok"
    }
   ],
-  "heard": "Israel versus the USA. 12 numbers. 1. Size. 445 Israels fit in America. 2. 33 times more Americans. 3. So Israel is 13 times denser. 4. City dwellers. Israel 93% America 83. 5. Forest. A third of America. Israel under 7%. 6. Median age. Israel 29. America 38. Seven. Almost three kids per Israeli woman. America, 1.6. Eight. Israelis live four years longer. Nine. Money. America wins 31% more per person. 10. Israel spends almost double on research. A lever. Soldiers. 16 per thousand Israelis, plus 45 in reserve. America, four. Israel drafts at 18. Hamas and Hezbollah sit on its borders. 12. Israel is the eighth happiest country. America 23rd. America is bigger and richer. Israel younger and happier. Which number surprised you? Part two is on my profile. If you love Israeli facts, follow Noam Roz for more. So, one more time.",
+  "heard": "Israel versus the USA. 12 numbers. 1. Sucks. 445 Israelis fit in America. 2. 33 times more Americans. 3. So Israel is 13 times denser. 4. City dwellers. Israel 93% America 83. 5. Forest. A third of America. Israel under 7%. 6. Median age. Israel 29. America 38. 7. Almost 3 kids per Israeli woman. America 1.6. 8. Israelis live 4 years longer. 9. Money. America wins by 31%. 10. Israel spends almost double on research. 11. Soldiers. 16 per thousand Israelis, plus 45 in reserve. America. 4. Israel drafts at 18. Hamas and Hezbollah sit on its borders. 12. Israel is the eighth happiest country. America, 23rd. America is bigger and richer. Israel, younger and happier. Which number surprised you? Part 2 is on my profile. If you love Israeli facts, follow Noam Roz for more. So one more time.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "beats": 11,
  "lint_warnings": [],
- "render_s": 117.1
+ "render_s": 164.9
 }

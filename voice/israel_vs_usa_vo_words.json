@@ -1,747 +1,737 @@
 [
 {
 "word": "Israel",
-"start": 0.046,
-"end": 0.495
+"start": 0.077,
+"end": 0.526
 },
 {
 "word": "versus",
-"start": 0.495,
-"end": 0.851
+"start": 0.526,
+"end": 0.898
 },
 {
 "word": "the",
-"start": 0.851,
-"end": 0.975
+"start": 0.898,
+"end": 1.037
 },
 {
 "word": "USA.",
-"start": 0.975,
-"end": 1.579
+"start": 1.037,
+"end": 1.734
 },
 {
 "word": "Twelve",
-"start": 2.167,
-"end": 2.539
+"start": 2.276,
+"end": 2.601
 },
 {
 "word": "numbers.",
-"start": 2.539,
-"end": 3.081
+"start": 2.601,
+"end": 3.142
 },
 {
 "word": "One:",
-"start": 3.56,
-"end": 3.916
+"start": 3.406,
+"end": 3.777
 },
 {
 "word": "size.",
-"start": 4.18,
-"end": 4.845
+"start": 4.164,
+"end": 4.737
 },
 {
 "word": "Four",
-"start": 5.449,
-"end": 5.836
+"start": 5.279,
+"end": 5.604
 },
 {
 "word": "hundred",
-"start": 5.836,
-"end": 6.285
+"start": 5.604,
+"end": 5.929
 },
 {
 "word": "forty",
-"start": 6.285,
-"end": 6.579
+"start": 5.929,
+"end": 6.238
 },
 {
 "word": "five",
-"start": 6.579,
-"end": 6.92
+"start": 6.238,
+"end": 6.502
 },
 {
 "word": "Israels",
-"start": 6.92,
-"end": 7.539
+"start": 6.502,
+"end": 6.92
 },
 {
 "word": "fit",
-"start": 7.601,
-"end": 7.848
+"start": 6.92,
+"end": 7.105
 },
 {
 "word": "in",
-"start": 7.848,
-"end": 7.926
+"start": 7.105,
+"end": 7.198
 },
 {
 "word": "America.",
-"start": 7.926,
-"end": 8.437
+"start": 7.198,
+"end": 7.678
 },
 {
 "word": "Two:",
-"start": 8.839,
-"end": 9.195
+"start": 8.22,
+"end": 8.607
 },
 {
 "word": "thirty",
-"start": 9.613,
-"end": 9.907
+"start": 8.901,
+"end": 9.319
 },
 {
 "word": "three",
-"start": 9.907,
-"end": 10.124
+"start": 9.319,
+"end": 9.536
 },
 {
 "word": "times",
-"start": 10.124,
-"end": 10.511
+"start": 9.536,
+"end": 9.861
 },
 {
 "word": "more",
-"start": 10.511,
-"end": 10.697
+"start": 9.861,
+"end": 10.016
 },
 {
 "word": "Americans.",
-"start": 10.697,
-"end": 11.347
+"start": 10.016,
+"end": 10.635
 },
 {
 "word": "Three:",
-"start": 11.889,
-"end": 12.307
+"start": 11.006,
+"end": 11.486
 },
 {
 "word": "so",
-"start": 12.709,
-"end": 12.972
+"start": 11.78,
+"end": 12.028
 },
 {
 "word": "Israel",
-"start": 12.972,
-"end": 13.39
+"start": 12.028,
+"end": 12.415
 },
 {
 "word": "is",
-"start": 13.39,
-"end": 13.576
+"start": 12.415,
+"end": 12.539
 },
 {
 "word": "thirteen",
-"start": 13.576,
-"end": 14.025
+"start": 12.539,
+"end": 12.957
 },
 {
 "word": "times",
-"start": 14.025,
-"end": 14.319
+"start": 12.957,
+"end": 13.282
 },
 {
 "word": "denser.",
-"start": 14.319,
-"end": 14.737
+"start": 13.282,
+"end": 13.731
 },
 {
 "word": "Four:",
-"start": 15.279,
-"end": 15.728
+"start": 14.211,
+"end": 14.629
 },
 {
 "word": "city",
-"start": 16.146,
-"end": 16.625
+"start": 15.17,
+"end": 15.557
 },
 {
 "word": "dwellers.",
-"start": 16.687,
-"end": 17.26
+"start": 15.557,
+"end": 16.099
 },
 {
 "word": "Israel",
-"start": 17.74,
-"end": 18.127
+"start": 16.641,
+"end": 16.997
 },
 {
 "word": "ninety",
-"start": 18.127,
-"end": 18.499
+"start": 16.997,
+"end": 17.338
 },
 {
 "word": "three",
-"start": 18.499,
-"end": 18.7
+"start": 17.338,
+"end": 17.539
 },
 {
 "word": "percent,",
-"start": 18.7,
-"end": 19.211
+"start": 17.539,
+"end": 17.926
 },
 {
 "word": "America",
-"start": 19.396,
-"end": 19.845
+"start": 18.05,
+"end": 18.499
 },
 {
 "word": "eighty",
-"start": 19.876,
-"end": 20.108
+"start": 18.53,
+"end": 18.777
 },
 {
 "word": "three.",
-"start": 20.108,
-"end": 20.449
+"start": 18.777,
+"end": 19.133
 },
 {
 "word": "Five:",
-"start": 21.068,
-"end": 21.641
+"start": 19.814,
+"end": 20.31
 },
 {
 "word": "forest.",
-"start": 22.059,
-"end": 22.725
+"start": 20.759,
+"end": 21.378
 },
 {
 "word": "A",
-"start": 23.05,
-"end": 23.112
+"start": 21.889,
+"end": 21.951
 },
 {
 "word": "third",
-"start": 23.112,
-"end": 23.375
+"start": 21.951,
+"end": 22.245
 },
 {
 "word": "of",
-"start": 23.375,
-"end": 23.468
+"start": 22.245,
+"end": 22.338
 },
 {
 "word": "America.",
-"start": 23.468,
-"end": 23.978
+"start": 22.338,
+"end": 22.756
 },
 {
 "word": "Israel,",
-"start": 24.613,
-"end": 25.062
+"start": 23.669,
+"end": 24.149
 },
 {
 "word": "under",
-"start": 25.093,
-"end": 25.356
+"start": 24.149,
+"end": 24.35
 },
 {
 "word": "seven",
-"start": 25.356,
-"end": 25.697
+"start": 24.35,
+"end": 24.675
 },
 {
 "word": "percent.",
-"start": 25.697,
-"end": 26.084
+"start": 24.675,
+"end": 25.078
 },
 {
 "word": "Six:",
-"start": 26.687,
-"end": 27.245
+"start": 25.944,
+"end": 26.455
 },
 {
 "word": "median",
-"start": 28.065,
-"end": 28.483
+"start": 26.904,
+"end": 27.322
 },
 {
 "word": "age.",
-"start": 28.483,
-"end": 28.932
+"start": 27.322,
+"end": 27.771
 },
 {
 "word": "Israel",
+"start": 28.545,
+"end": 28.917
+},
+{
+"word": "twenty",
+"start": 28.917,
+"end": 29.18
+},
+{
+"word": "nine,",
+"start": 29.18,
+"end": 29.536
+},
+{
+"word": "America",
 "start": 29.66,
 "end": 30.109
 },
 {
-"word": "twenty",
-"start": 30.109,
-"end": 30.434
-},
-{
-"word": "nine,",
-"start": 30.434,
-"end": 30.79
-},
-{
-"word": "America",
-"start": 31.331,
-"end": 31.935
-},
-{
 "word": "thirty",
-"start": 31.997,
-"end": 32.26
+"start": 30.109,
+"end": 30.418
 },
 {
 "word": "eight.",
-"start": 32.26,
-"end": 32.446
+"start": 30.418,
+"end": 30.712
 },
 {
 "word": "Seven:",
-"start": 33.019,
-"end": 33.499
+"start": 31.285,
+"end": 31.796
 },
 {
 "word": "almost",
-"start": 33.808,
-"end": 34.149
+"start": 31.92,
+"end": 32.322
 },
 {
 "word": "three",
-"start": 34.149,
-"end": 34.35
+"start": 32.322,
+"end": 32.554
 },
 {
 "word": "kids",
-"start": 34.35,
-"end": 34.722
+"start": 32.554,
+"end": 33.034
 },
 {
 "word": "per",
-"start": 34.722,
-"end": 34.923
+"start": 33.096,
+"end": 33.282
 },
 {
 "word": "Israeli",
-"start": 34.923,
-"end": 35.31
+"start": 33.282,
+"end": 33.638
 },
 {
 "word": "woman.",
-"start": 35.31,
-"end": 35.619
+"start": 33.638,
+"end": 33.994
 },
 {
 "word": "America,",
-"start": 36.099,
-"end": 36.688
+"start": 34.505,
+"end": 35.109
 },
 {
 "word": "one",
-"start": 36.935,
-"end": 37.198
+"start": 35.372,
+"end": 35.681
 },
 {
 "word": "point",
-"start": 37.229,
-"end": 37.384
+"start": 35.681,
+"end": 35.821
 },
 {
 "word": "six.",
-"start": 37.415,
-"end": 37.895
+"start": 35.821,
+"end": 36.27
 },
 {
 "word": "Eight:",
-"start": 38.762,
-"end": 39.149
+"start": 36.718,
+"end": 37.121
 },
 {
 "word": "Israelis",
-"start": 39.722,
-"end": 40.201
+"start": 37.152,
+"end": 37.678
 },
 {
 "word": "live",
-"start": 40.201,
-"end": 40.527
+"start": 37.678,
+"end": 38.05
 },
 {
 "word": "four",
-"start": 40.712,
-"end": 41.099
+"start": 38.143,
+"end": 38.592
 },
 {
 "word": "years",
-"start": 41.099,
-"end": 41.347
+"start": 38.592,
+"end": 38.886
 },
 {
 "word": "longer.",
-"start": 41.347,
-"end": 41.765
+"start": 38.886,
+"end": 39.366
 },
 {
 "word": "Nine:",
-"start": 42.725,
-"end": 43.112
+"start": 39.722,
+"end": 40.171
 },
 {
 "word": "money.",
-"start": 43.654,
-"end": 44.041
+"start": 40.65,
+"end": 41.053
 },
 {
 "word": "America",
-"start": 44.675,
-"end": 45.093
+"start": 41.44,
+"end": 41.858
 },
 {
-"word": "wins,",
-"start": 45.093,
-"end": 45.635
+"word": "wins",
+"start": 41.858,
+"end": 42.152
+},
+{
+"word": "by",
+"start": 42.152,
+"end": 42.307
 },
 {
 "word": "thirty",
-"start": 45.836,
-"end": 46.239
+"start": 42.307,
+"end": 42.57
 },
 {
 "word": "one",
-"start": 46.239,
-"end": 46.44
+"start": 42.57,
+"end": 42.756
 },
 {
-"word": "percent",
-"start": 46.44,
-"end": 46.858
-},
-{
-"word": "more",
-"start": 46.858,
-"end": 47.229
-},
-{
-"word": "per",
-"start": 47.229,
-"end": 47.369
-},
-{
-"word": "person.",
-"start": 47.369,
-"end": 47.74
+"word": "percent.",
+"start": 42.756,
+"end": 43.205
 },
 {
 "word": "Ten:",
-"start": 48.39,
-"end": 48.839
+"start": 43.53,
+"end": 43.994
 },
 {
 "word": "Israel",
-"start": 49.598,
-"end": 49.954
+"start": 44.35,
+"end": 44.706
 },
 {
 "word": "spends",
-"start": 49.954,
-"end": 50.279
+"start": 44.706,
+"end": 45.062
 },
 {
 "word": "almost",
-"start": 50.279,
-"end": 50.65
+"start": 45.093,
+"end": 45.48
 },
 {
 "word": "double",
-"start": 50.65,
-"end": 50.945
+"start": 45.48,
+"end": 45.79
 },
 {
 "word": "on",
-"start": 50.945,
-"end": 51.068
+"start": 45.79,
+"end": 45.914
 },
 {
 "word": "research.",
-"start": 51.068,
-"end": 51.719
+"start": 45.914,
+"end": 46.409
 },
 {
 "word": "Eleven:",
-"start": 52.167,
-"end": 52.601
+"start": 46.842,
+"end": 47.291
 },
 {
 "word": "soldiers.",
-"start": 52.926,
-"end": 53.669
+"start": 47.678,
+"end": 48.359
 },
 {
 "word": "Sixteen",
-"start": 54.273,
-"end": 54.846
+"start": 49.056,
+"end": 49.598
 },
 {
 "word": "per",
-"start": 54.846,
-"end": 55.0
+"start": 49.598,
+"end": 49.722
 },
 {
 "word": "thousand",
-"start": 55.0,
-"end": 55.387
+"start": 49.722,
+"end": 50.109
 },
 {
 "word": "Israelis,",
-"start": 55.387,
-"end": 56.099
+"start": 50.109,
+"end": 50.712
 },
 {
 "word": "plus",
-"start": 56.641,
-"end": 56.92
+"start": 51.099,
+"end": 51.363
 },
 {
 "word": "forty",
-"start": 56.92,
-"end": 57.214
+"start": 51.363,
+"end": 51.672
 },
 {
 "word": "five",
-"start": 57.214,
-"end": 57.57
+"start": 51.672,
+"end": 52.059
 },
 {
 "word": "in",
-"start": 57.57,
-"end": 57.694
+"start": 52.059,
+"end": 52.152
 },
 {
 "word": "reserve.",
-"start": 57.694,
-"end": 58.143
+"start": 52.152,
+"end": 52.601
 },
 {
 "word": "America,",
-"start": 58.808,
-"end": 59.459
+"start": 52.895,
+"end": 53.499
 },
 {
 "word": "four.",
-"start": 59.582,
-"end": 60.031
+"start": 53.824,
+"end": 54.304
 },
 {
 "word": "Israel",
-"start": 61.053,
-"end": 61.347
+"start": 54.784,
+"end": 55.14
 },
 {
 "word": "drafts",
-"start": 61.347,
-"end": 61.688
+"start": 55.14,
+"end": 55.573
 },
 {
 "word": "at",
-"start": 61.688,
-"end": 61.796
+"start": 55.573,
+"end": 55.681
 },
 {
 "word": "eighteen.",
-"start": 61.796,
-"end": 62.369
+"start": 55.681,
+"end": 56.192
 },
 {
 "word": "HAMAS",
-"start": 63.329,
-"end": 64.056
+"start": 56.61,
+"end": 57.09
 },
 {
 "word": "and",
-"start": 64.226,
-"end": 64.505
+"start": 57.183,
+"end": 57.338
 },
 {
 "word": "Hezbollah",
-"start": 64.505,
-"end": 64.954
+"start": 57.338,
+"end": 57.88
 },
 {
 "word": "sit",
-"start": 64.954,
-"end": 65.217
+"start": 58.298,
+"end": 58.654
 },
 {
 "word": "on",
-"start": 65.217,
-"end": 65.31
+"start": 58.654,
+"end": 58.808
 },
 {
 "word": "its",
-"start": 65.31,
-"end": 65.434
+"start": 58.808,
+"end": 58.932
 },
 {
 "word": "borders.",
-"start": 65.434,
-"end": 66.069
+"start": 58.932,
+"end": 59.52
 },
 {
 "word": "Twelve:",
-"start": 66.672,
-"end": 67.183
+"start": 59.892,
+"end": 60.372
 },
 {
 "word": "Israel",
-"start": 67.756,
-"end": 68.112
+"start": 60.774,
+"end": 61.254
 },
 {
 "word": "is",
-"start": 68.112,
-"end": 68.205
+"start": 61.254,
+"end": 61.44
 },
 {
 "word": "the",
-"start": 68.205,
-"end": 68.298
+"start": 61.44,
+"end": 61.579
 },
 {
 "word": "eighth",
-"start": 68.313,
-"end": 68.53
+"start": 61.579,
+"end": 61.858
 },
 {
 "word": "happiest",
-"start": 68.53,
-"end": 68.855
+"start": 61.858,
+"end": 62.276
 },
 {
 "word": "country.",
-"start": 68.855,
-"end": 69.304
+"start": 62.276,
+"end": 62.725
 },
 {
 "word": "America,",
-"start": 69.969,
-"end": 70.573
+"start": 63.143,
+"end": 63.808
 },
 {
 "word": "twenty",
-"start": 70.604,
-"end": 70.929
+"start": 63.994,
+"end": 64.35
 },
 {
 "word": "third.",
-"start": 70.929,
-"end": 71.316
+"start": 64.35,
+"end": 64.737
 },
 {
 "word": "America",
-"start": 71.889,
-"end": 72.369
+"start": 64.954,
+"end": 65.542
 },
 {
 "word": "is",
-"start": 72.369,
-"end": 72.493
+"start": 65.604,
+"end": 65.821
 },
 {
 "word": "bigger",
-"start": 72.493,
-"end": 72.849
+"start": 65.821,
+"end": 66.177
 },
 {
 "word": "and",
-"start": 72.849,
-"end": 73.004
+"start": 66.177,
+"end": 66.27
 },
 {
 "word": "richer.",
-"start": 73.004,
-"end": 73.391
+"start": 66.27,
+"end": 66.719
 },
 {
 "word": "Israel,",
-"start": 74.025,
-"end": 74.505
+"start": 66.889,
+"end": 67.586
 },
 {
 "word": "younger",
-"start": 74.505,
-"end": 74.985
+"start": 67.647,
+"end": 68.251
 },
 {
 "word": "and",
-"start": 74.985,
-"end": 75.124
+"start": 68.282,
+"end": 68.421
 },
 {
 "word": "happier.",
-"start": 75.124,
-"end": 75.666
+"start": 68.421,
+"end": 68.963
 },
 {
 "word": "Which",
-"start": 76.75,
-"end": 76.966
+"start": 69.087,
+"end": 69.35
 },
 {
 "word": "number",
-"start": 76.966,
-"end": 77.261
+"start": 69.35,
+"end": 69.629
 },
 {
 "word": "surprised",
-"start": 77.261,
-"end": 77.678
+"start": 69.629,
+"end": 70.109
 },
 {
 "word": "you?",
-"start": 77.678,
-"end": 77.864
+"start": 70.109,
+"end": 70.341
 },
 {
 "word": "Part",
-"start": 78.406,
-"end": 78.638
+"start": 70.527,
+"end": 70.774
 },
 {
 "word": "two",
-"start": 78.638,
-"end": 78.855
+"start": 70.774,
+"end": 71.223
 },
 {
 "word": "is",
-"start": 78.855,
-"end": 78.948
+"start": 71.332,
+"end": 71.487
 },
 {
 "word": "on",
-"start": 78.948,
-"end": 79.056
+"start": 71.487,
+"end": 71.579
 },
 {
 "word": "my",
-"start": 79.056,
-"end": 79.149
+"start": 71.579,
+"end": 71.703
 },
 {
 "word": "profile.",
-"start": 79.149,
-"end": 79.66
+"start": 71.703,
+"end": 72.291
 },
 {
 "word": "So,",
-"start": 80.078,
-"end": 80.558
+"start": 72.663,
+"end": 73.174
 },
 {
 "word": "one",
-"start": 81.069,
-"end": 81.285
+"start": 73.282,
+"end": 73.53
 },
 {
 "word": "more",
-"start": 81.285,
-"end": 81.425
+"start": 73.53,
+"end": 73.685
 },
 {
 "word": "time:",
-"start": 81.425,
-"end": 81.796
+"start": 73.685,
+"end": 74.072
 }
 ]
