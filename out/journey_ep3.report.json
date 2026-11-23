@@ -59,7 +59,7 @@
   }
  ],
  "transcript": {
-  "score": 0.984,
+  "score": 0.974,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -114,7 +114,7 @@
    },
    {
     "line": "Jews have lived there for three thousand years. So Israel sails home.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    },
    {
@@ -133,7 +133,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Where do we park Israel? You told me. We tried four spots. Episode 3. Israel is out at sea, looking for a spot. Spot 1. Russia's Jewish autonomous oblast. Stalin made it a Jewish homeland in 1934. Today, 837 Jews live there. January averages minus 21 degrees. The hummus freezes. Spot 2. New York. Easy. 960,000 Jews already live in the city. One problem. Israel is about the size of New Jersey, and New Jersey said one is enough. Spot 3, Indiana 4, Israel's Fit Neighbors, Ohio and Kentucky Biggest Threat, Corn Spot 4 was Britain's idea In 1903, land in East Africa In 1905, Zionists said no, thanks Then one of you wrote, Park it where it already is It's perfect Jews have lived there for 3,000 years So Israel sails home Millions of Palestinians call this land home too Both peoples are here to stay Where would you park your country? Tell me below If you love Israeli facts, follow Noam Raz, for more more. Episode 4 is yours, so tell me.",
+  "heard": "Where do we park Israel? You told me. We tried four spots. Episode 3. Israel is out at sea, looking for a spot. Spot 1. Russia's Jewish autonomous oblast. Stalin made it a Jewish homeland in 1934. Today, 837 Jews live there. January averages minus 21 degrees. The hummus freezes. Spot 2. New York. Easy. 960,000 Jews already live in the city. One problem. Israel is about the size of New Jersey, and New Jersey said one is enough. Spot 3 – Indiana 4 – Israel's fit Neighbors – Ohio and Kentucky Biggest threat – corn Spot 4 was Britain's idea in 1903, land in East Africa. In 1905, Zionists said no, thanks. Then one of you wrote, Park it where it already is. It's perfect. Jews have lived there for 3,000 years. So Israel's sales home. Millions of Palestinians call this land home too. Both peoples are here to stay. Where would you park your country? Tell me below. If you love Israeli facts, follow. Noam Roz for more. more. Episode 4 is yours, so tell me.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -149,5 +149,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 227.3
+ "render_s": 220.6
 }
