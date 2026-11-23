@@ -13,7 +13,7 @@ import os, sys, time, json, importlib
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
 import common as CM
 
-TEMPLATES = ("israel_fits", "pet_story", "name_sign", "endonym_fly", "judged_like", "cine_timeline", "he_cards", "camp_story", "talk_cut", "face_hook", "column_recut", "trend_text", "irony_cine", "brand_timeline", "myth_scroll", "irony_reasons", "law_grid", "map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war", "two_paths", "surgery", "crowd_equals", "versus_card", "board_insert", "story_climb", "story_climb_full", "rulebook", "stock_chart", "zoom_stock", "gdp_stock", "pop_stock", "high_horse", "fert_race", "fert_stock", "people_stock", "bracket", "boxing_ring", "holiday_wheel", "swot", "ikigai", "lens_podium", "chem_lab", "city_flyover", "game_show", "framework", "faith_tree")
+TEMPLATES = ("h2h", "israel_fits", "pet_story", "name_sign", "endonym_fly", "judged_like", "cine_timeline", "he_cards", "camp_story", "talk_cut", "face_hook", "column_recut", "trend_text", "irony_cine", "brand_timeline", "myth_scroll", "irony_reasons", "law_grid", "map_counter", "data_race", "scorecard", "slang_scene", "rehook", "pun_sequence", "pun_ladder", "classroom", "build_vs_war", "two_paths", "surgery", "crowd_equals", "versus_card", "board_insert", "story_climb", "story_climb_full", "rulebook", "stock_chart", "zoom_stock", "gdp_stock", "pop_stock", "high_horse", "fert_race", "fert_stock", "people_stock", "bracket", "boxing_ring", "holiday_wheel", "swot", "ikigai", "lens_podium", "chem_lab", "city_flyover", "game_show", "framework", "faith_tree")
 
 
 def main():

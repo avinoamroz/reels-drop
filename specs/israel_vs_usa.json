@@ -1,0 +1,515 @@
+{
+ "account": "noamroz__",
+ "template": "h2h",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "id": "israel_vs_usa",
+ "hook": "Israel vs USA: *12* numbers.",
+ "lines": [
+  {
+   "say": "Israel versus the USA. Twelve numbers."
+  },
+  {
+   "say": "One: size. Four hundred forty five Israels fit in America."
+  },
+  {
+   "say": "Two: thirty three times more Americans."
+  },
+  {
+   "say": "Three: so Israel is thirteen times denser."
+  },
+  {
+   "say": "Four: city dwellers. Israel ninety three percent, America eighty three."
+  },
+  {
+   "say": "Five: forest. A third of America. Israel, under seven percent."
+  },
+  {
+   "say": "Six: median age. Israel twenty nine, America thirty eight."
+  },
+  {
+   "say": "Seven: almost three kids per Israeli woman. America, one point six."
+  },
+  {
+   "say": "Eight: Israelis live four years longer."
+  },
+  {
+   "say": "Nine: money. America wins, thirty one percent more per person."
+  },
+  {
+   "say": "Ten: Israel spends almost double on research."
+  },
+  {
+   "say": "Eleven: soldiers. Sixteen per thousand Israelis, plus forty five in reserve. America, four."
+  },
+  {
+   "say": "Israel drafts at eighteen. HAMAS and Hezbollah sit on its borders."
+  },
+  {
+   "say": "Twelve: Israel is the eighth happiest country. America, twenty third."
+  },
+  {
+   "say": "America is bigger and richer. Israel, younger and happier."
+  },
+  {
+   "say": "Which number surprised you? Part two is on my profile.",
+   "screen": "*Part 2* on my profile",
+   "at": "L15:part",
+   "screen_y": 1330,
+   "screen_size": 64
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "So, one more time:"
+  }
+ ],
+ "data": {
+  "map": {
+   "at": 0,
+   "view": [
+    -112,
+    50,
+    7600,
+    1000
+   ],
+   "target": "USA",
+   "value": 445,
+   "name": "Israel inside the USA",
+   "sub": "true-size Israels (equal-area map)",
+   "hero": 3,
+   "hero_gap": 0.35,
+   "drop_at": 0.7,
+   "fill": 3.0,
+   "counter_y": 1230
+  },
+  "beats": [
+   {
+    "kind": "pair",
+    "num": 2,
+    "at": "L2",
+    "until": "L3",
+    "title": "Population",
+    "unit": "people, 2026",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 10.312,
+      "hl": true,
+      "dec": 1,
+      "suffix": "M",
+      "at": "L2+0.15"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 342.838,
+      "dec": 1,
+      "suffix": "M",
+      "at": "L2:times"
+     }
+    ],
+    "punch": {
+     "txt": "33x",
+     "sub": "more Americans",
+     "at": "L2:americans"
+    }
+   },
+   {
+    "kind": "pair",
+    "num": 3,
+    "at": "L3",
+    "until": "L4",
+    "title": "People per km²",
+    "unit": "2026 population, total area",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 467.1982602392171,
+      "hl": true,
+      "at": "L3:israel"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 34.86423016302306,
+      "at": "L3:thirteen"
+     }
+    ],
+    "punch": {
+     "txt": "13x denser",
+     "at": "L3:denser"
+    }
+   },
+   {
+    "kind": "pair",
+    "num": 4,
+    "at": "L4",
+    "until": "L5",
+    "title": "Living in cities",
+    "unit": "% of the population, 2023",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 92.9,
+      "hl": true,
+      "dec": 1,
+      "suffix": "%",
+      "at": "L4:ninety"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 83.3,
+      "dec": 1,
+      "suffix": "%",
+      "at": "L4:eighty"
+     }
+    ]
+   },
+   {
+    "kind": "pair",
+    "num": 5,
+    "at": "L5",
+    "until": "L6",
+    "title": "Forest cover",
+    "unit": "% of land, 2023",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 6.7,
+      "hl": true,
+      "dec": 1,
+      "suffix": "%",
+      "at": "L5:israel"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 33.8,
+      "dec": 1,
+      "suffix": "%",
+      "at": "L5:third"
+     }
+    ],
+    "punch": {
+     "txt": "USA 5x",
+     "sub": "Israel's south is the Negev desert",
+     "at": "L5:under"
+    }
+   },
+   {
+    "kind": "pair",
+    "num": 6,
+    "at": "L6",
+    "until": "L7",
+    "title": "Median age",
+    "unit": "years, 2023",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 29.15,
+      "hl": true,
+      "dec": 1,
+      "at": "L6:israel"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 38.023,
+      "dec": 1,
+      "at": "L6:america"
+     }
+    ],
+    "punch": {
+     "txt": "9 years younger",
+     "at": "L6e-0.4"
+    }
+   },
+   {
+    "kind": "pair",
+    "num": 7,
+    "at": "L7",
+    "until": "L8",
+    "title": "Kids per woman",
+    "unit": "fertility rate, 2024",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 2.87,
+      "hl": true,
+      "dec": 2,
+      "at": "L7:three"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 1.6265,
+      "dec": 2,
+      "txt": "1.63",
+      "at": "L7:america"
+     }
+    ]
+   },
+   {
+    "kind": "pair",
+    "num": 8,
+    "at": "L8",
+    "until": "L9",
+    "title": "Life expectancy",
+    "unit": "years at birth, 2024",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 83.198,
+      "hl": true,
+      "dec": 1,
+      "at": "L8+0.2"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 78.89,
+      "dec": 1,
+      "at": "L8:live"
+     }
+    ],
+    "punch": {
+     "txt": "+4.3 years",
+     "at": "L8:longer"
+    }
+   },
+   {
+    "kind": "pair",
+    "num": 9,
+    "at": "L9",
+    "until": "L10",
+    "title": "GDP per person",
+    "unit": "US dollars, nominal, 2026",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 72441,
+      "hl": true,
+      "prefix": "$",
+      "txt": "$72,400",
+      "at": "L9:money"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 95212,
+      "prefix": "$",
+      "txt": "$95,200",
+      "at": "L9:america"
+     }
+    ],
+    "punch": {
+     "txt": "USA +31%",
+     "at": "L9:thirty"
+    },
+    "note": "Adjusted for prices (PPP): $60,100 vs $95,200"
+   },
+   {
+    "kind": "pair",
+    "num": 10,
+    "at": "L10",
+    "until": "L11",
+    "title": "Research and development",
+    "unit": "spending, % of GDP, 2023",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 6.346,
+      "hl": true,
+      "dec": 1,
+      "suffix": "%",
+      "at": "L10:israel"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 3.447,
+      "dec": 1,
+      "suffix": "%",
+      "at": "L10:double"
+     }
+    ],
+    "punch": {
+     "txt": "1.8x",
+     "sub": "the US share",
+     "at": "L10:research"
+    }
+   },
+   {
+    "kind": "pair",
+    "num": 11,
+    "at": "L11",
+    "until": "L13",
+    "title": "Soldiers per 1,000 people",
+    "unit": "active troops + reservists",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 16.437160589604343,
+      "hl": true,
+      "dec": 0,
+      "extra": 45.09309542280838,
+      "txt": "16",
+      "extra_txt": "16 + 45",
+      "at": "L11:sixteen"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 3.9089890852239244,
+      "dec": 1,
+      "extra": 2.3474644000956717,
+      "txt": "3.9",
+      "extra_txt": "3.9 + 2.3",
+      "at": "L11:america"
+     }
+    ],
+    "punch": {
+     "txt": "Draft at 18",
+     "sub": "HAMAS and Hezbollah on its borders",
+     "at": "L12:drafts"
+    },
+    "legend": [
+     "Active",
+     "Reserve"
+    ]
+   },
+   {
+    "kind": "pair",
+    "num": 12,
+    "at": "L13",
+    "until": null,
+    "title": "Happiness",
+    "unit": "World Happiness Report 2026, out of 10",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 7.187,
+      "hl": true,
+      "dec": 2,
+      "txt": "7.19 (#8)",
+      "at": "L13:eighth"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 6.816,
+      "dec": 2,
+      "txt": "6.82 (#23)",
+      "at": "L13:america"
+     }
+    ],
+    "punch": {
+     "txt": "#8 vs #23",
+     "sub": "of 147 countries",
+     "at": "L13:twenty"
+    },
+    "vmax": 10
+   }
+  ],
+  "total": 12,
+  "hook_y": 520
+ },
+ "sources": [
+  {
+   "label": "Area: CIA World Factbook (USA), Israel CBS",
+   "year": 2025,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "IMF World Economic Outlook, 2026",
+   "year": 2026,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "IMF 2026 population; CIA and Israel CBS area",
+   "year": 2026,
+   "at": "L3",
+   "until": "L4"
+  },
+  {
+   "label": "CIA World Factbook (UN data), 2023",
+   "year": 2023,
+   "at": "L4",
+   "until": "L6"
+  },
+  {
+   "label": "UN World Population Prospects 2024, data 2023",
+   "year": 2024,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "World Bank WDI, 2024",
+   "year": 2024,
+   "at": "L7",
+   "until": "L9"
+  },
+  {
+   "label": "IMF World Economic Outlook, 2026",
+   "year": 2026,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "World Bank WDI (UNESCO), 2023",
+   "year": 2023,
+   "at": "L10",
+   "until": "L11"
+  },
+  {
+   "label": "IISS Military Balance 2026; IMF population",
+   "year": 2026,
+   "at": "L11",
+   "until": "L13"
+  },
+  {
+   "label": "World Happiness Report, 2026",
+   "year": 2026,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "balance": "USA: *bigger* and *richer.* Israel: *younger* and *happier.*",
+  "cta": "Which number surprised you?"
+ },
+ "cover": {
+  "t": 44.0,
+  "big": "12",
+  "text": "Israel vs USA:|in numbers"
+ },
+ "hashtags": [
+  "#Israel",
+  "#USA",
+  "#DataViz"
+ ]
+}

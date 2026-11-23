@@ -1,0 +1,621 @@
+{
+ "account": "noamroz__",
+ "template": "h2h",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15,
+  "maxpause": 0.25
+ },
+ "id": "israel_vs_world",
+ "hook": "Israel vs 8 countries: *7* numbers.",
+ "lines": [
+  {
+   "say": "Israel versus eight countries. Seven numbers."
+  },
+  {
+   "say": "One: happiness. Israel beats all eight, eighth in the world."
+  },
+  {
+   "say": "Two: research. Israel spends the most, almost double anyone here."
+  },
+  {
+   "say": "Three: life expectancy. Only Japan beats Israel."
+  },
+  {
+   "say": "Four: babies. Israel tops the chart, above Egypt and Jordan."
+  },
+  {
+   "say": "Five: median age. Israel, twenty nine. Germany and Japan, over forty five."
+  },
+  {
+   "say": "Six: soldiers per thousand people. Israel, sixteen. Twice Jordan, four times America."
+  },
+  {
+   "say": "Israel drafts at eighteen. HAMAS and Hezbollah sit on its borders."
+  },
+  {
+   "say": "Seven: money per person. Only America is richer. Adjusted for prices, Israel drops to sixth."
+  },
+  {
+   "say": "Japan lives longer, America earns more. Israel is happiest."
+  },
+  {
+   "say": "Which number surprised you? Part one, Israel versus the USA, is on my profile.",
+   "screen": "*Part 1:* Israel vs USA, on my profile",
+   "at": "L10:part",
+   "screen_y": 1330,
+   "screen_size": 60
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Here they are again:"
+  }
+ ],
+ "data": {
+  "beats": [
+   {
+    "kind": "rank",
+    "num": 1,
+    "at": 0,
+    "until": "L2",
+    "title": "Happiness score",
+    "unit": "World Happiness Report 2026 (world rank)",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 7.187,
+      "hl": true,
+      "dec": 2,
+      "txt": "7.19 (#8)",
+      "at": -0.25
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 6.882,
+      "dec": 2,
+      "txt": "6.88 (#17)",
+      "at": -0.15
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 6.821,
+      "dec": 2,
+      "txt": "6.82 (#21)",
+      "at": -0.05
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 6.817,
+      "dec": 2,
+      "txt": "6.82 (#22)",
+      "at": 0.05
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 6.816,
+      "dec": 2,
+      "txt": "6.82 (#23)",
+      "at": 0.15
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 6.694,
+      "dec": 2,
+      "txt": "6.69 (#29)",
+      "at": 0.25
+     },
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 6.13,
+      "dec": 2,
+      "txt": "6.13 (#61)",
+      "at": 0.35
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 4.478,
+      "dec": 2,
+      "txt": "4.48 (#119)",
+      "at": 0.45
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 3.862,
+      "dec": 2,
+      "txt": "3.86 (#139)",
+      "at": 0.55
+     }
+    ],
+    "title_at": "L1",
+    "vmax": 10
+   },
+   {
+    "kind": "rank",
+    "num": 2,
+    "at": "L2",
+    "until": "L3",
+    "title": "R&D spending",
+    "unit": "% of GDP, latest year",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 6.346,
+      "hl": true,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 3.447,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 3.441,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 3.154,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 2.676,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 1.495,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 1.018,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 0.635,
+      "dec": 1,
+      "suffix": "%"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": null
+     }
+    ]
+   },
+   {
+    "kind": "rank",
+    "num": 3,
+    "at": "L3",
+    "until": "L4",
+    "title": "Life expectancy",
+    "unit": "years at birth, 2024",
+    "rows": [
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 84.036,
+      "dec": 1
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 83.198,
+      "hl": true,
+      "dec": 1
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 83.069,
+      "dec": 1
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 81.387,
+      "dec": 1
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 80.793,
+      "dec": 1
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 78.982,
+      "dec": 1
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 78.89,
+      "dec": 1
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 77.981,
+      "dec": 1
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 71.806,
+      "dec": 1
+     }
+    ]
+   },
+   {
+    "kind": "rank",
+    "num": 4,
+    "at": "L4",
+    "until": "L5",
+    "title": "Kids per woman",
+    "unit": "fertility rate, 2024",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 2.87,
+      "hl": true,
+      "dec": 2,
+      "txt": "2.87"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 2.735,
+      "dec": 2,
+      "txt": "2.73"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 2.604,
+      "dec": 2,
+      "txt": "2.60"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 2.308,
+      "dec": 2,
+      "txt": "2.31"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 1.6265,
+      "dec": 2,
+      "txt": "1.63"
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 1.551,
+      "dec": 2,
+      "txt": "1.55"
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 1.36,
+      "dec": 2,
+      "txt": "1.36"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 1.213,
+      "dec": 2,
+      "txt": "1.21"
+     },
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 1.15,
+      "dec": 2,
+      "txt": "1.15"
+     }
+    ]
+   },
+   {
+    "kind": "rank",
+    "num": 5,
+    "at": "L5",
+    "until": "L6",
+    "title": "Median age",
+    "unit": "years, 2023, youngest first",
+    "rows": [
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 24.028,
+      "dec": 1
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 24.279,
+      "dec": 1
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 29.15,
+      "hl": true,
+      "dec": 1
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 29.247,
+      "dec": 1
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 31.232,
+      "dec": 1
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 38.023,
+      "dec": 1
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 39.782,
+      "dec": 1
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 45.147,
+      "dec": 1
+     },
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 48.958,
+      "dec": 1
+     }
+    ]
+   },
+   {
+    "kind": "rank",
+    "num": 6,
+    "at": "L6",
+    "until": "L8",
+    "title": "Active soldiers per 1,000",
+    "unit": "IISS Military Balance, latest edition",
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 16.437160589604343,
+      "hl": true,
+      "dec": 1
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 8.671268334771355,
+      "dec": 1
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 6.997767249360127,
+      "dec": 1
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 5.442764578833694,
+      "dec": 1
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 3.984262843228116,
+      "dec": 1
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 3.9089890852239244,
+      "dec": 1
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 2.159633996973991,
+      "dec": 1
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 2.0200429491768075,
+      "dec": 1
+     },
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 2.014984998695539,
+      "dec": 1
+     }
+    ],
+    "note": "Plus 45 reservists per 1,000 Israelis"
+   },
+   {
+    "kind": "rank",
+    "num": 7,
+    "at": "L8",
+    "until": null,
+    "title": "GDP per person",
+    "unit": "US dollars, nominal, 2026",
+    "rows": [
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 95212,
+      "prefix": "$",
+      "txt": "$95.2k"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 72441,
+      "hl": true,
+      "prefix": "$",
+      "txt": "$72.4k"
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 65699,
+      "prefix": "$",
+      "txt": "$65.7k"
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 61108,
+      "prefix": "$",
+      "txt": "$61.1k"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 57109,
+      "prefix": "$",
+      "txt": "$57.1k"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 36577,
+      "prefix": "$",
+      "txt": "$36.6k"
+     },
+     {
+      "label": "Japan",
+      "flag": "JP",
+      "value": 35400,
+      "prefix": "$",
+      "txt": "$35.4k"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 5598,
+      "prefix": "$",
+      "txt": "$5.6k"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 4024,
+      "prefix": "$",
+      "txt": "$4.0k"
+     }
+    ],
+    "note": "Adjusted for prices (PPP): Israel 6th of 9"
+   }
+  ],
+  "total": 7,
+  "hook_y": 430
+ },
+ "sources": [
+  {
+   "label": "World Happiness Report, 2026",
+   "year": 2026,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "World Bank WDI, latest year 2021 to 2024",
+   "year": 2024,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "World Bank WDI, 2024",
+   "year": 2024,
+   "at": "L3",
+   "until": "L5"
+  },
+  {
+   "label": "UN World Population Prospects 2024, data 2023",
+   "year": 2024,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "IISS Military Balance, 2024 to 2026 editions",
+   "year": 2026,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "IMF World Economic Outlook, 2026",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "balance": "Japan lives *longer.* America earns *more.* Israel is *happiest.*",
+  "cta": "Which number surprised you?"
+ },
+ "cover": {
+  "t": 33.0,
+  "big": "9",
+  "text": "Israel vs the world:|7 numbers"
+ },
+ "hashtags": [
+  "#Israel",
+  "#DataViz",
+  "#MiddleEast"
+ ]
+}
