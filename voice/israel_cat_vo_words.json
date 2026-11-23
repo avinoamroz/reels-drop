@@ -1,612 +1,592 @@
 [
 {
 "word": "Israel",
-"start": 0.944,
-"end": 1.517
+"start": 0.015,
+"end": 0.557
 },
 {
 "word": "as",
-"start": 2.214,
-"end": 2.384
+"start": 0.557,
+"end": 0.789
 },
 {
 "word": "a",
-"start": 2.384,
-"end": 2.446
+"start": 0.789,
+"end": 0.851
 },
 {
 "word": "cat.",
-"start": 2.446,
-"end": 2.755
+"start": 0.851,
+"end": 1.176
 },
 {
 "word": "Nine",
-"start": 3.297,
-"end": 3.653
+"start": 1.61,
+"end": 1.935
 },
 {
 "word": "lives.",
-"start": 3.653,
-"end": 4.164
+"start": 1.935,
+"end": 2.446
 },
 {
 "word": "Cats",
-"start": 4.969,
-"end": 5.263
+"start": 2.895,
+"end": 3.22
 },
 {
 "word": "are",
-"start": 5.263,
-"end": 5.387
+"start": 3.22,
+"end": 3.344
 },
 {
 "word": "independent.",
-"start": 5.387,
-"end": 5.96
+"start": 3.344,
+"end": 4.071
 },
 {
 "word": "Israel",
-"start": 7.074,
-"end": 7.523
+"start": 4.629,
+"end": 5.031
 },
 {
 "word": "declared",
-"start": 7.523,
-"end": 7.941
+"start": 5.031,
+"end": 5.418
 },
 {
 "word": "independence",
-"start": 7.972,
-"end": 8.607
+"start": 5.418,
+"end": 6.022
 },
 {
 "word": "on",
-"start": 8.607,
-"end": 8.715
+"start": 6.022,
+"end": 6.161
 },
 {
 "word": "May",
-"start": 8.715,
-"end": 8.932
+"start": 6.161,
+"end": 6.347
 },
 {
 "word": "14,",
-"start": 8.932,
-"end": 9.567
+"start": 6.347,
+"end": 7.09
 },
 {
 "word": "1948.",
-"start": 9.83,
-"end": 11.78
+"start": 7.152,
+"end": 9.071
 },
 {
-"word": "The",
-"start": 12.523,
-"end": 12.616
-},
-{
-"word": "next",
-"start": 12.616,
-"end": 12.864
+"word": "Next",
+"start": 9.458,
+"end": 9.768
 },
 {
 "word": "day,",
-"start": 12.864,
-"end": 13.313
+"start": 9.768,
+"end": 10.186
 },
 {
 "word": "five",
-"start": 13.468,
-"end": 13.762
+"start": 10.248,
+"end": 10.604
 },
 {
 "word": "armies",
-"start": 13.762,
-"end": 14.056
+"start": 10.604,
+"end": 10.929
 },
 {
 "word": "invaded.",
-"start": 14.056,
-"end": 14.536
+"start": 10.929,
+"end": 11.409
 },
 {
 "word": "Life",
-"start": 15.108,
-"end": 15.387
-},
-{
-"word": "one,",
-"start": 15.387,
-"end": 15.743
-},
-{
-"word": "used.",
-"start": 15.898,
-"end": 16.409
-},
-{
-"word": "Landed",
-"start": 16.997,
-"end": 17.384
-},
-{
-"word": "on",
-"start": 17.384,
-"end": 17.539
-},
-{
-"word": "its",
-"start": 17.539,
-"end": 17.663
-},
-{
-"word": "feet.",
-"start": 17.663,
-"end": 17.926
-},
-{
-"word": "Life",
-"start": 18.622,
-"end": 18.947
-},
-{
-"word": "two:",
-"start": 18.947,
-"end": 19.288
-},
-{
-"word": "1967.",
-"start": 19.814,
-"end": 22.043
-},
-{
-"word": "Life",
-"start": 22.879,
-"end": 23.189
-},
-{
-"word": "three:",
-"start": 23.189,
-"end": 23.576
-},
-{
-"word": "1973,",
-"start": 23.932,
-"end": 26.27
-},
-{
-"word": "a",
-"start": 26.595,
-"end": 26.718
-},
-{
-"word": "surprise",
-"start": 26.718,
-"end": 27.229
-},
-{
-"word": "attack",
-"start": 27.229,
-"end": 27.647
-},
-{
-"word": "on",
-"start": 27.647,
-"end": 27.895
-},
-{
-"word": "Yom",
-"start": 27.895,
-"end": 28.065
-},
-{
-"word": "Kippur.",
-"start": 28.065,
-"end": 28.638
-},
-{
-"word": "Life",
-"start": 29.505,
-"end": 29.783
-},
-{
-"word": "four:",
-"start": 29.783,
-"end": 30.232
-},
-{
-"word": "2024.",
-"start": 30.805,
-"end": 32.214
-},
-{
-"word": "Iran's",
-"start": 32.895,
-"end": 33.375
-},
-{
-"word": "regime",
-"start": 33.375,
-"end": 33.917
-},
-{
-"word": "fired",
-"start": 33.948,
-"end": 34.366
-},
-{
-"word": "over",
-"start": 34.366,
-"end": 34.582
-},
-{
-"word": "300",
-"start": 34.582,
-"end": 35.124
-},
-{
-"word": "drones",
-"start": 35.124,
-"end": 35.635
-},
-{
-"word": "and",
-"start": 35.635,
-"end": 35.836
-},
-{
-"word": "missiles",
-"start": 35.836,
-"end": 36.192
-},
-{
-"word": "in",
-"start": 36.192,
-"end": 36.285
-},
-{
-"word": "one",
-"start": 36.285,
-"end": 36.471
-},
-{
-"word": "night.",
-"start": 36.471,
-"end": 36.796
-},
-{
-"word": "99%",
-"start": 37.276,
-"end": 38.143
-},
-{
-"word": "were",
-"start": 38.143,
-"end": 38.236
-},
-{
-"word": "stopped.",
-"start": 38.236,
-"end": 38.715
-},
-{
-"word": "Cats",
-"start": 39.288,
-"end": 39.582
-},
-{
-"word": "are",
-"start": 39.582,
-"end": 39.675
-},
-{
-"word": "curious.",
-"start": 39.675,
-"end": 40.279
-},
-{
-"word": "Israel",
-"start": 40.79,
-"end": 41.177
-},
-{
-"word": "has",
-"start": 41.177,
-"end": 41.393
-},
-{
-"word": "14",
-"start": 41.393,
-"end": 41.904
-},
-{
-"word": "Nobel",
-"start": 41.904,
-"end": 42.26
-},
-{
-"word": "laureates,",
-"start": 42.26,
-"end": 42.833
-},
-{
-"word": "for",
-"start": 43.282,
-"end": 43.421
-},
-{
-"word": "about",
-"start": 43.421,
-"end": 43.669
-},
-{
-"word": "10",
-"start": 43.669,
-"end": 43.901
-},
-{
-"word": "million",
-"start": 43.901,
-"end": 44.211
-},
-{
-"word": "people.",
-"start": 44.211,
-"end": 44.629
-},
-{
-"word": "Cats",
-"start": 45.263,
-"end": 45.589
-},
-{
-"word": "get",
-"start": 45.589,
-"end": 45.743
-},
-{
-"word": "ignored,",
-"start": 45.743,
-"end": 46.223
-},
-{
-"word": "until",
-"start": 46.363,
-"end": 46.61
-},
-{
-"word": "you",
-"start": 46.61,
-"end": 46.703
-},
-{
-"word": "need",
-"start": 46.703,
-"end": 46.935
+"start": 11.811,
+"end": 12.105
 },
 {
 "word": "one.",
-"start": 46.935,
-"end": 47.214
+"start": 12.105,
+"end": 12.368
 },
 {
-"word": "Waze?",
-"start": 47.957,
-"end": 48.468
-},
-{
-"word": "Israeli.",
-"start": 48.886,
-"end": 49.428
-},
-{
-"word": "The",
-"start": 50.233,
-"end": 50.356
-},
-{
-"word": "chip",
-"start": 50.356,
-"end": 50.604
-},
-{
-"word": "that",
-"start": 50.604,
-"end": 50.712
-},
-{
-"word": "helps",
-"start": 50.712,
-"end": 50.929
-},
-{
-"word": "your",
-"start": 50.929,
-"end": 51.022
-},
-{
-"word": "car",
-"start": 51.022,
-"end": 51.223
-},
-{
-"word": "brake?",
-"start": 51.223,
-"end": 51.61
-},
-{
-"word": "Mobileye,",
-"start": 52.214,
-"end": 52.787
-},
-{
-"word": "from",
-"start": 53.328,
-"end": 53.561
-},
-{
-"word": "Jerusalem.",
-"start": 53.561,
-"end": 54.164
-},
-{
-"word": "Still,",
-"start": 54.861,
-"end": 55.434
-},
-{
-"word": "it",
-"start": 55.821,
-"end": 55.96
-},
-{
-"word": "lands",
-"start": 55.96,
-"end": 56.239
+"word": "Landed",
+"start": 12.802,
+"end": 13.189
 },
 {
 "word": "on",
-"start": 56.239,
-"end": 56.363
+"start": 13.189,
+"end": 13.297
 },
 {
 "word": "its",
-"start": 56.363,
-"end": 56.471
+"start": 13.297,
+"end": 13.452
 },
 {
-"word": "feet:",
-"start": 56.471,
-"end": 56.781
+"word": "feet.",
+"start": 13.762,
+"end": 14.18
 },
 {
-"word": "the",
-"start": 57.369,
-"end": 57.585
+"word": "Life",
+"start": 14.66,
+"end": 14.985
 },
 {
-"word": "eighth",
-"start": 57.647,
-"end": 57.88
+"word": "two:",
+"start": 14.985,
+"end": 15.372
 },
 {
-"word": "happiest",
-"start": 57.88,
-"end": 58.298
+"word": "1967.",
+"start": 15.65,
+"end": 17.771
 },
 {
-"word": "country",
-"start": 58.298,
-"end": 58.808
+"word": "Life",
+"start": 18.251,
+"end": 18.56
+},
+{
+"word": "three:",
+"start": 18.56,
+"end": 18.886
+},
+{
+"word": "1973,",
+"start": 19.242,
+"end": 21.502
+},
+{
+"word": "a",
+"start": 21.765,
+"end": 21.858
+},
+{
+"word": "surprise",
+"start": 21.858,
+"end": 22.369
+},
+{
+"word": "attack",
+"start": 22.369,
+"end": 22.817
 },
 {
 "word": "on",
-"start": 58.839,
-"end": 59.056
+"start": 22.879,
+"end": 23.019
 },
 {
-"word": "Earth.",
-"start": 59.056,
-"end": 59.381
+"word": "Yom",
+"start": 23.019,
+"end": 23.297
 },
 {
-"word": "No",
-"start": 60.248,
-"end": 60.496
+"word": "Kippur.",
+"start": 23.297,
+"end": 23.808
 },
 {
-"word": "cat",
-"start": 60.496,
-"end": 60.883
+"word": "Life",
+"start": 24.582,
+"end": 24.892
 },
 {
-"word": "is",
-"start": 61.301,
-"end": 61.455
+"word": "four:",
+"start": 24.892,
+"end": 25.31
 },
 {
-"word": "perfect.",
-"start": 61.455,
-"end": 61.904
+"word": "2024.",
+"start": 25.604,
+"end": 26.827
 },
 {
-"word": "Same",
-"start": 62.771,
-"end": 63.158
+"word": "Iran's",
+"start": 27.601,
+"end": 28.081
 },
 {
-"word": "rules",
-"start": 63.158,
-"end": 63.576
+"word": "regime",
+"start": 28.081,
+"end": 28.499
 },
 {
-"word": "for",
-"start": 63.576,
-"end": 63.762
+"word": "fired",
+"start": 28.499,
+"end": 28.917
 },
 {
-"word": "every",
-"start": 63.762,
-"end": 64.025
+"word": "over",
+"start": 28.917,
+"end": 29.133
 },
 {
-"word": "cat.",
-"start": 64.025,
-"end": 64.304
+"word": "300",
+"start": 29.133,
+"end": 29.675
 },
 {
-"word": "Dog",
-"start": 65.356,
-"end": 65.743
+"word": "drones",
+"start": 29.675,
+"end": 30.186
 },
 {
-"word": "or",
-"start": 65.743,
-"end": 65.836
+"word": "and",
+"start": 30.186,
+"end": 30.387
 },
 {
-"word": "cat:",
-"start": 65.836,
-"end": 66.161
+"word": "missiles",
+"start": 30.387,
+"end": 30.774
 },
 {
-"word": "which",
-"start": 66.827,
-"end": 67.059
+"word": "in",
+"start": 30.774,
+"end": 30.867
 },
 {
 "word": "one",
-"start": 67.059,
-"end": 67.214
+"start": 30.867,
+"end": 31.022
+},
+{
+"word": "night.",
+"start": 31.022,
+"end": 31.347
+},
+{
+"word": "99%",
+"start": 32.105,
+"end": 33.127
+},
+{
+"word": "were",
+"start": 33.127,
+"end": 33.235
+},
+{
+"word": "stopped.",
+"start": 33.235,
+"end": 33.715
+},
+{
+"word": "Cats",
+"start": 34.226,
+"end": 34.629
+},
+{
+"word": "are",
+"start": 34.629,
+"end": 34.768
+},
+{
+"word": "curious.",
+"start": 34.768,
+"end": 35.434
+},
+{
+"word": "14",
+"start": 36.208,
+"end": 36.873
+},
+{
+"word": "Nobel",
+"start": 36.873,
+"end": 37.26
+},
+{
+"word": "laureates,",
+"start": 37.26,
+"end": 37.926
+},
+{
+"word": "for",
+"start": 38.22,
+"end": 38.437
+},
+{
+"word": "about",
+"start": 38.437,
+"end": 38.762
+},
+{
+"word": "10",
+"start": 38.793,
+"end": 39.18
+},
+{
+"word": "million",
+"start": 39.18,
+"end": 39.567
+},
+{
+"word": "people.",
+"start": 39.567,
+"end": 40.047
+},
+{
+"word": "Ignored,",
+"start": 40.558,
+"end": 41.099
+},
+{
+"word": "until",
+"start": 41.13,
+"end": 41.424
+},
+{
+"word": "you",
+"start": 41.424,
+"end": 41.548
+},
+{
+"word": "need",
+"start": 41.548,
+"end": 41.765
+},
+{
+"word": "it.",
+"start": 41.765,
+"end": 41.966
+},
+{
+"word": "Waze?",
+"start": 42.632,
+"end": 43.205
+},
+{
+"word": "Made",
+"start": 43.855,
+"end": 44.164
+},
+{
+"word": "in",
+"start": 44.164,
+"end": 44.288
+},
+{
+"word": "Israel.",
+"start": 44.288,
+"end": 44.737
+},
+{
+"word": "The",
+"start": 45.449,
+"end": 45.604
+},
+{
+"word": "chip",
+"start": 45.604,
+"end": 45.836
+},
+{
+"word": "that",
+"start": 45.836,
+"end": 45.991
+},
+{
+"word": "helps",
+"start": 45.991,
+"end": 46.208
+},
+{
+"word": "your",
+"start": 46.208,
+"end": 46.316
+},
+{
+"word": "car",
+"start": 46.316,
+"end": 46.595
+},
+{
+"word": "brake?",
+"start": 46.595,
+"end": 47.044
+},
+{
+"word": "Mobileye,",
+"start": 47.709,
+"end": 48.39
+},
+{
+"word": "from",
+"start": 48.576,
+"end": 48.87
+},
+{
+"word": "Jerusalem.",
+"start": 48.87,
+"end": 49.443
+},
+{
+"word": "Still,",
+"start": 50.248,
+"end": 50.728
+},
+{
+"word": "it",
+"start": 51.099,
+"end": 51.239
+},
+{
+"word": "lands",
+"start": 51.239,
+"end": 51.548
+},
+{
+"word": "on",
+"start": 51.548,
+"end": 51.657
+},
+{
+"word": "its",
+"start": 51.657,
+"end": 51.781
+},
+{
+"word": "feet:",
+"start": 51.781,
+"end": 52.106
+},
+{
+"word": "the",
+"start": 52.709,
+"end": 52.895
+},
+{
+"word": "eighth",
+"start": 52.957,
+"end": 53.251
+},
+{
+"word": "happiest",
+"start": 53.251,
+"end": 53.669
+},
+{
+"word": "country",
+"start": 53.669,
+"end": 54.056
+},
+{
+"word": "on",
+"start": 54.056,
+"end": 54.211
+},
+{
+"word": "Earth.",
+"start": 54.211,
+"end": 54.567
+},
+{
+"word": "No",
+"start": 55.171,
+"end": 55.418
+},
+{
+"word": "cat",
+"start": 55.418,
+"end": 55.743
 },
 {
 "word": "is",
-"start": 67.214,
-"end": 67.338
+"start": 55.743,
+"end": 55.898
+},
+{
+"word": "perfect.",
+"start": 55.898,
+"end": 56.409
+},
+{
+"word": "Same",
+"start": 57.106,
+"end": 57.462
+},
+{
+"word": "rules",
+"start": 57.462,
+"end": 57.756
+},
+{
+"word": "for",
+"start": 57.756,
+"end": 57.911
+},
+{
+"word": "every",
+"start": 57.911,
+"end": 58.158
+},
+{
+"word": "cat.",
+"start": 58.158,
+"end": 58.514
+},
+{
+"word": "Dog",
+"start": 58.994,
+"end": 59.35
+},
+{
+"word": "or",
+"start": 59.35,
+"end": 59.474
+},
+{
+"word": "cat:",
+"start": 59.474,
+"end": 59.892
+},
+{
+"word": "which",
+"start": 60.248,
+"end": 60.558
+},
+{
+"word": "one",
+"start": 60.558,
+"end": 60.759
+},
+{
+"word": "is",
+"start": 60.759,
+"end": 60.883
 },
 {
 "word": "Israel?",
-"start": 67.338,
-"end": 67.694
+"start": 60.883,
+"end": 61.332
 },
 {
 "word": "<<ˈ|l|aɪ|v|z>>",
-"start": 68.019,
-"end": 68.36
+"start": 61.842,
+"end": 62.229
 },
 {
 "word": "left?",
-"start": 68.36,
-"end": 68.747
+"start": 62.229,
+"end": 62.647
 },
 {
 "word": "Count",
-"start": 69.319,
-"end": 69.582
+"start": 63.05,
+"end": 63.344
 },
 {
 "word": "them:",
-"start": 69.582,
-"end": 69.737
+"start": 63.344,
+"end": 63.545
 }
 ]

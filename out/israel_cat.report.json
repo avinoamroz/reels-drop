@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "pet_story",
  "hook": "Israel as a cat:|*9* lives.",
- "duration": 64.17,
+ "duration": 60.93,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/israel_cat.mp4",
@@ -71,7 +71,7 @@
   }
  ],
  "transcript": {
-  "score": 0.96,
+  "score": 0.959,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -85,7 +85,7 @@
     "flag": "ok"
    },
    {
-    "line": "The next day, five armies invaded. Life one, used. Landed on its feet.",
+    "line": "Next day, five armies invaded. Life one. Landed on its feet.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -100,12 +100,12 @@
     "flag": "ok"
    },
    {
-    "line": "Cats are curious. Israel has 14 Nobel laureates, for about 10 million people.",
+    "line": "Cats are curious. 14 Nobel laureates, for about 10 million people.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Cats get ignored, until you need one. Waze? Israeli. The chip that helps your car brake? Mobileye, from Jerusalem.",
+    "line": "Ignored, until you need it. Waze? Made in Israel. The chip that helps your car brake? Mobileye, from Jerusalem.",
     "score": 0.842,
     "flag": "ok"
    },
@@ -130,14 +130,14 @@
     "flag": "MISS"
    }
   ],
-  "heard": "Israel as a cat. Nine lives. Cats are independent. Israel declared independence on May 14, 1948. The next day, five armies invaded. Life 1 used. Landed on its feet. Life 2, 1967. Life 3, 1973. A surprise attack on Yom Kippur. Life 4, 2024. Iran's regime fired over 300 drones and missiles in one night. 99% were stopped. Cats are curious. Israel has 14 Nobel laureates. For about 10 million people, cats get ignored until you need one. Waze is real. A chip that helps your car break. Mobileye from Jerusalem. Still, it lands on its feet. The eighth happiest country on earth. No cat is perfect. Same rules for every cat. Dog or cat? Which one is Israel? If you love Israeli facts, follow Noam Roz for more. Lives Left. Count Them.",
+  "heard": "Israel as a cat. Nine lives. Cats are independent. Israel declared independence on May 14, 1948. Next day, five armies invaded. Life 1. Landed on its feet. Life 2, 1967. Life 3, 1973. A surprise attack on Yom Kippur. Life 4, 2024. Iran's regime fired over 300 drones and missiles in one night. 99% were stopped. Cats are curious. 14 Nobel laureates for about 10 million people. Ignored until you need it. Ways? Made in Israel. The chip that helps your car break. Mobile eye from Jerusalem. Still, it lands on its feet. The eighth happiest country on earth. No cat is perfect. Same rules for every cat. Dog or cat. Which one is Israel? If you love Israeli facts, Follow No1Ras for more. Lives Left. Count Them.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.6
+  "true_peak": -1.9
  },
  "photos": [
   {
@@ -158,5 +158,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 119.7
+ "render_s": 71.8
 }
