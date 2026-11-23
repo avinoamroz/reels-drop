@@ -1,492 +1,527 @@
 [
 {
 "word": "31",
-"start": 0.325,
-"end": 0.836
+"start": 0.0,
+"end": 0.526
 },
 {
 "word": "Israels",
-"start": 0.836,
-"end": 1.533
+"start": 0.526,
+"end": 1.006
 },
 {
 "word": "fit",
-"start": 2.214,
-"end": 2.523
+"start": 1.006,
+"end": 1.285
 },
 {
 "word": "inside",
-"start": 2.523,
-"end": 2.91
+"start": 1.285,
+"end": 1.641
 },
 {
 "word": "Texas.",
-"start": 2.91,
-"end": 3.545
+"start": 1.641,
+"end": 2.276
 },
 {
 "word": "Here's",
-"start": 3.746,
-"end": 4.087
+"start": 2.91,
+"end": 3.204
 },
 {
 "word": "Israel",
-"start": 4.087,
-"end": 4.598
+"start": 3.235,
+"end": 3.684
 },
 {
 "word": "at",
-"start": 4.598,
-"end": 4.737
+"start": 3.684,
+"end": 3.87
 },
 {
 "word": "true",
-"start": 4.737,
-"end": 5.155
+"start": 3.87,
+"end": 4.102
 },
 {
 "word": "size:",
-"start": 5.155,
-"end": 5.759
+"start": 4.102,
+"end": 4.706
 },
 {
 "word": "22,072",
-"start": 6.594,
-"end": 8.793
+"start": 5.031,
+"end": 6.656
 },
 {
 "word": "square",
-"start": 8.824,
-"end": 9.18
+"start": 6.656,
+"end": 6.981
 },
 {
 "word": "kilometres.",
-"start": 9.18,
-"end": 9.907
+"start": 6.981,
+"end": 7.709
+},
+{
+"word": "Judea",
+"start": 8.189,
+"end": 8.7
+},
+{
+"word": "and",
+"start": 8.7,
+"end": 8.839
+},
+{
+"word": "Samaria,",
+"start": 8.839,
+"end": 9.412
+},
+{
+"word": "also",
+"start": 9.474,
+"end": 9.799
+},
+{
+"word": "called",
+"start": 9.799,
+"end": 10.108
+},
+{
+"word": "the",
+"start": 10.108,
+"end": 10.186
 },
 {
 "word": "West",
-"start": 10.387,
-"end": 10.681
+"start": 10.186,
+"end": 10.433
 },
 {
-"word": "Bank",
-"start": 10.681,
-"end": 10.913
+"word": "Bank,",
+"start": 10.433,
+"end": 10.759
 },
 {
 "word": "and",
-"start": 10.913,
-"end": 11.068
+"start": 11.238,
+"end": 11.455
 },
 {
 "word": "Gaza",
-"start": 11.068,
-"end": 11.378
+"start": 11.455,
+"end": 11.78
 },
 {
-"word": "shaded,",
-"start": 11.378,
+"word": "are",
+"start": 11.78,
 "end": 11.873
 },
 {
+"word": "shaded,",
+"start": 11.873,
+"end": 12.384
+},
+{
 "word": "not",
-"start": 12.214,
-"end": 12.477
+"start": 12.415,
+"end": 12.678
 },
 {
 "word": "counted.",
-"start": 12.477,
-"end": 12.926
+"start": 12.678,
+"end": 13.081
 },
 {
 "word": "Now,",
-"start": 13.468,
-"end": 13.886
+"start": 13.793,
+"end": 14.18
 },
 {
 "word": "fly",
-"start": 14.303,
-"end": 14.582
+"start": 14.242,
+"end": 14.489
 },
 {
 "word": "it",
-"start": 14.582,
-"end": 14.675
+"start": 14.489,
+"end": 14.567
 },
 {
 "word": "to",
-"start": 14.675,
-"end": 14.783
+"start": 14.567,
+"end": 14.69
 },
 {
 "word": "America.",
-"start": 14.783,
-"end": 15.294
+"start": 14.69,
+"end": 15.17
 },
 {
 "word": "New",
-"start": 15.573,
-"end": 15.743
+"start": 15.619,
+"end": 15.867
 },
 {
 "word": "Jersey",
-"start": 15.743,
-"end": 16.084
+"start": 15.867,
+"end": 16.192
 },
 {
 "word": "first.",
-"start": 16.084,
-"end": 16.533
+"start": 16.192,
+"end": 16.641
 },
 {
 "word": "Almost",
-"start": 17.245,
-"end": 17.616
+"start": 17.152,
+"end": 17.508
 },
 {
 "word": "a",
-"start": 17.616,
-"end": 17.663
+"start": 17.508,
+"end": 17.57
 },
 {
 "word": "perfect",
-"start": 17.663,
-"end": 18.065
+"start": 17.57,
+"end": 17.879
 },
 {
 "word": "match.",
-"start": 18.065,
-"end": 18.483
+"start": 17.879,
+"end": 18.406
 },
 {
 "word": "Lake",
-"start": 19.164,
-"end": 19.474
+"start": 18.917,
+"end": 19.226
 },
 {
 "word": "Michigan",
-"start": 19.474,
-"end": 19.861
+"start": 19.226,
+"end": 19.675
 },
 {
 "word": "swallows",
-"start": 19.861,
-"end": 20.31
+"start": 19.675,
+"end": 20.062
 },
 {
 "word": "it",
-"start": 20.31,
-"end": 20.434
+"start": 20.062,
+"end": 20.155
 },
 {
 "word": "more",
-"start": 20.434,
-"end": 20.635
+"start": 20.155,
+"end": 20.325
 },
 {
 "word": "than",
-"start": 20.635,
-"end": 20.79
+"start": 20.325,
+"end": 20.48
 },
 {
 "word": "two",
-"start": 20.79,
-"end": 21.177
+"start": 20.48,
+"end": 20.836
 },
 {
 "word": "and",
-"start": 21.177,
-"end": 21.3
+"start": 20.836,
+"end": 20.991
 },
 {
 "word": "a",
-"start": 21.3,
-"end": 21.331
+"start": 20.991,
+"end": 21.053
 },
 {
 "word": "half",
-"start": 21.331,
-"end": 21.548
+"start": 21.053,
+"end": 21.285
 },
 {
 "word": "times.",
-"start": 21.548,
-"end": 22.074
+"start": 21.285,
+"end": 21.749
 },
 {
 "word": "California:",
-"start": 22.678,
-"end": 23.375
+"start": 22.276,
+"end": 22.972
 },
 {
 "word": "19",
-"start": 23.963,
-"end": 24.505
+"start": 23.158,
+"end": 23.638
 },
 {
 "word": "Israels,",
-"start": 24.505,
-"end": 25.139
+"start": 23.638,
+"end": 24.149
 },
 {
 "word": "side",
-"start": 25.418,
-"end": 25.743
+"start": 24.226,
+"end": 24.536
 },
 {
 "word": "by",
-"start": 25.743,
-"end": 25.867
+"start": 24.536,
+"end": 24.66
 },
 {
 "word": "side.",
-"start": 25.867,
-"end": 26.192
+"start": 24.66,
+"end": 24.985
 },
 {
 "word": "Texas:",
-"start": 26.935,
-"end": 27.601
+"start": 25.65,
+"end": 26.177
 },
 {
 "word": "one,",
-"start": 28.174,
-"end": 28.592
+"start": 26.687,
+"end": 26.997
 },
 {
 "word": "two,",
-"start": 28.592,
-"end": 29.102
+"start": 26.997,
+"end": 27.415
 },
 {
 "word": "three...",
-"start": 29.226,
-"end": 29.768
+"start": 27.57,
+"end": 28.096
 },
 {
 "word": "31",
-"start": 30.387,
-"end": 30.867
+"start": 28.622,
+"end": 29.288
 },
 {
 "word": "and",
-"start": 30.867,
-"end": 30.96
+"start": 29.288,
+"end": 29.427
 },
 {
 "word": "a",
-"start": 30.96,
-"end": 30.991
+"start": 29.427,
+"end": 29.458
 },
 {
 "word": "half.",
-"start": 30.991,
-"end": 31.378
+"start": 29.458,
+"end": 29.861
 },
 {
 "word": "And",
-"start": 32.322,
-"end": 32.492
+"start": 30.604,
+"end": 30.821
 },
 {
 "word": "the",
-"start": 32.492,
-"end": 32.554
+"start": 30.821,
+"end": 30.867
 },
 {
 "word": "whole",
-"start": 32.554,
-"end": 33.065
+"start": 30.867,
+"end": 31.208
 },
 {
 "word": "United",
-"start": 33.282,
-"end": 33.762
+"start": 31.208,
+"end": 31.564
 },
 {
 "word": "States?",
-"start": 33.762,
-"end": 34.304
+"start": 31.564,
+"end": 32.105
 },
 {
 "word": "445.",
-"start": 34.954,
-"end": 36.393
+"start": 32.616,
+"end": 34.118
 },
 {
 "word": "Coast",
-"start": 37.183,
-"end": 37.57
+"start": 34.799,
+"end": 35.201
 },
 {
 "word": "to",
-"start": 37.57,
-"end": 37.663
+"start": 35.201,
+"end": 35.279
 },
 {
 "word": "coast,",
-"start": 37.663,
-"end": 38.143
+"start": 35.279,
+"end": 35.728
 },
 {
 "word": "plus",
-"start": 38.251,
-"end": 38.623
+"start": 35.883,
+"end": 36.161
 },
 {
 "word": "Alaska.",
-"start": 38.623,
-"end": 39.164
+"start": 36.161,
+"end": 36.672
 },
 {
 "word": "Every",
-"start": 39.938,
-"end": 40.232
+"start": 37.26,
+"end": 37.57
 },
 {
 "word": "copy",
-"start": 40.232,
-"end": 40.604
+"start": 37.57,
+"end": 37.957
 },
 {
 "word": "is",
-"start": 40.604,
-"end": 40.712
+"start": 37.957,
+"end": 38.112
 },
 {
 "word": "true",
-"start": 40.712,
-"end": 40.929
+"start": 38.112,
+"end": 38.313
 },
 {
 "word": "size,",
-"start": 40.929,
-"end": 41.285
+"start": 38.313,
+"end": 38.824
 },
 {
 "word": "even",
-"start": 41.285,
-"end": 41.564
+"start": 39.149,
+"end": 39.427
 },
 {
 "word": "up",
-"start": 41.564,
-"end": 41.672
+"start": 39.427,
+"end": 39.598
 },
 {
 "word": "in",
-"start": 41.672,
-"end": 41.765
+"start": 39.598,
+"end": 39.691
 },
 {
 "word": "Alaska.",
-"start": 41.765,
-"end": 42.214
+"start": 39.691,
+"end": 40.232
 },
 {
 "word": "Size",
-"start": 42.941,
-"end": 43.39
+"start": 41.022,
+"end": 41.409
 },
 {
 "word": "isn't",
-"start": 43.39,
-"end": 43.654
+"start": 41.409,
+"end": 41.641
 },
 {
 "word": "everything.",
-"start": 43.654,
-"end": 44.102
+"start": 41.641,
+"end": 42.183
 },
 {
 "word": "It's",
-"start": 44.799,
-"end": 44.985
+"start": 42.941,
+"end": 43.143
 },
 {
 "word": "just",
-"start": 44.985,
-"end": 45.186
+"start": 43.143,
+"end": 43.421
 },
 {
 "word": "where",
-"start": 45.186,
-"end": 45.31
+"start": 43.421,
+"end": 43.53
 },
 {
 "word": "the",
-"start": 45.31,
-"end": 45.403
+"start": 43.53,
+"end": 43.623
 },
 {
 "word": "conversation",
-"start": 45.403,
-"end": 45.991
+"start": 43.623,
+"end": 44.226
 },
 {
 "word": "starts.",
-"start": 45.991,
-"end": 46.455
+"start": 44.226,
+"end": 44.706
 },
 {
 "word": "Which",
-"start": 47.167,
-"end": 47.415
+"start": 45.604,
+"end": 45.852
 },
 {
 "word": "US",
-"start": 47.415,
-"end": 47.678
+"start": 45.898,
+"end": 46.301
 },
 {
 "word": "state",
-"start": 47.678,
-"end": 47.926
+"start": 46.301,
+"end": 46.564
 },
 {
 "word": "should",
-"start": 47.926,
-"end": 48.065
+"start": 46.564,
+"end": 46.719
 },
 {
 "word": "I",
-"start": 48.065,
-"end": 48.127
+"start": 46.719,
+"end": 46.811
 },
 {
 "word": "drop",
-"start": 48.127,
-"end": 48.421
+"start": 46.811,
+"end": 47.137
 },
 {
 "word": "Israel",
-"start": 48.421,
-"end": 48.762
+"start": 47.137,
+"end": 47.493
 },
 {
 "word": "on",
-"start": 48.762,
-"end": 48.886
+"start": 47.493,
+"end": 47.616
 },
 {
 "word": "next?",
-"start": 48.886,
-"end": 49.335
+"start": 47.616,
+"end": 48.034
 },
 {
 "word": "Count",
-"start": 50.14,
-"end": 50.403
+"start": 48.514,
+"end": 48.808
 },
 {
 "word": "Texas",
-"start": 50.434,
-"end": 50.774
+"start": 48.808,
+"end": 49.149
 },
 {
 "word": "again.",
-"start": 50.821,
-"end": 51.161
+"start": 49.149,
+"end": 49.474
 }
 ]

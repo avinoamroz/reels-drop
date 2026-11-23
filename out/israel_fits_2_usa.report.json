@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "israel_fits",
  "hook": "*31* Israels fit|inside Texas",
- "duration": 44.93,
+ "duration": 45.27,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/israel_fits_2_usa.mp4",
@@ -19,7 +19,7 @@
   "3": "out/frames/israel_fits_2_usa_3.jpg",
   "last": "out/frames/israel_fits_2_usa_last.jpg"
  },
- "caption_en": "One of these is almost a perfect match. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). West Bank and Gaza shaded, not counted.\n\nHow many times it fits (total area, land and water, US Census Bureau 2010):\nNew Jersey 22,591 km²: about 1x\nLake Michigan 57,757 km² (Britannica): 2.6x\nCalifornia 423,967 km²: 19x\nTexas 695,662 km²: 31.5x\nUnited States 9,833,517 km²: 445x\n\nEvery copy is drawn at true size for its latitude, Alaska included (equal area map, no Mercator stretch).\n\nSize isn't everything. It's just where the conversation starts.\nWhich US state should I drop Israel on next?\n\nPart 2 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
+ "caption_en": "One of these is almost a perfect match. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). Judea and Samaria (West Bank) and Gaza shaded, not counted.\n\nHow many times it fits (total area, land and water, US Census Bureau 2010):\nNew Jersey 22,591 km²: about 1x\nLake Michigan 57,757 km² (Britannica): 2.6x\nCalifornia 423,967 km²: 19x\nTexas 695,662 km²: 31.5x\nUnited States 9,833,517 km²: 445x\n\nEvery copy is drawn at true size for its latitude, Alaska included (equal area map, no Mercator stretch).\n\nSize isn't everything. It's just where the conversation starts.\nWhich US state should I drop Israel on next?\n\nPart 2 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
  "caption_he": "כמה ישראלים נכנסים בטקסס? ניו ג׳רזי: כמעט התאמה מושלמת. אגם מישיגן: פי 2.6. קליפורניה: פי 19. טקסס: פי 31.5. כל ארצות הברית: פי 445. כל עותק מצויר בגודל אמיתי. על איזו מדינה בארה״ב להפיל את ישראל בפעם הבאה?",
  "hashtags": [
   "#Israel",
@@ -53,7 +53,7 @@
   }
  ],
  "transcript": {
-  "score": 0.936,
+  "score": 0.966,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -67,9 +67,9 @@
     "flag": "ok"
    },
    {
-    "line": "West Bank and Gaza shaded, not counted. Now, fly it to America.",
-    "score": 0.75,
-    "flag": "MISS"
+    "line": "Judea and Samaria, also called the West Bank, and Gaza are shaded, not counted. Now, fly it to America.",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "New Jersey first. Almost a perfect match.",
@@ -117,16 +117,16 @@
     "flag": "ok"
    }
   ],
-  "heard": "31 israel's fit inside texas here's israel at true size 22,072 square kilometers westbank and gaza shaded not counted now fly to america new jersey first almost a perfect match lake michigan swallows it more than two and a half times california 19 israel's side by side texas one two three 31 and a half. And the whole United States, 445, coast to coast, plus Alaska. Every copy is true size, even up in Alaska. Size isn't everything. It's just where the conversation starts. Which U.S. state should I drop Israel on next? If you love Israeli facts, follow Noam Roz for more. Count Texas again.",
+  "heard": "31 israel's fit inside texas here's israel at true size 22,072 square kilometers judea and samaria also called the west bank and gaza are shaded not counted now fly it to america new jersey first almost a perfect match lake michigan swallows it more than two and a half times california 19 israel's side by side texas one two three 31 and a half and the whole United States, 445, coast to coast, plus Alaska. Every copy is true size, even up in Alaska. Size isn't everything, it's just where the conversation starts. Which U.S. state should I drop Israel on next? If you love Israeli facts, follow Noam Roz for more. Count Texas again.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 44.92,
+ "body_s": 45.27,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -1.9
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 141.1
+ "render_s": 195.6
 }
