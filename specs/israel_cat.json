@@ -1,0 +1,65 @@
+{
+ "id": "israel_cat",
+ "account": "noamroz__",
+ "template": "pet_story",
+ "hook": "Israel as a cat:|*9* lives.",
+ "music": {"bed": "warm", "lufs": -16},
+ "voice": {"tempo": 1.1, "lead": 0.1, "gap": 0.14},
+ "lines": [
+  {"say": "Israel as a cat. Nine lives.", "gap": 0.2},
+  {"say": "Cats are independent. Israel declared independence on May 14, 1948.", "screen": "*Independent*"},
+  {"say": "The next day, five armies invaded. Life one, used. Landed on its feet.", "screen": "Life *1:* 1948"},
+  {"say": "Life two: 1967. Life three: 1973, a surprise attack on Yom Kippur. Feet first, again.", "screen": "Lives *2* and *3*"},
+  {"say": "Life four: 2024. Iran's regime fired over 300 drones and missiles in one night. 99% were stopped.", "screen": "Life *4:* 2024"},
+  {"say": "Cats are curious. Israel has 14 Nobel laureates, for about 10 million people.", "screen": "*Curious*"},
+  {"say": "Cats get ignored, until you need one. Waze? Israeli. The chip that helps your car brake? Mobileye, from Jerusalem.", "screen": "Ignored until *needed*"},
+  {"say": "And after all that, it still lands on its feet: the eighth happiest country on Earth.", "screen": "Still lands on its *feet*"},
+  {"say": "No cat is perfect. Same rules for every cat.", "gap": 0.15},
+  {"say": "Dog or cat: which one is Israel?", "screen": "Dog or cat: which one is *Israel?*"},
+  {"follow": true, "until": "L11"},
+  {"say": "Lives left? Count them:"}
+ ],
+ "data": {
+  "pet": "cat",
+  "quiz": {"until": "L0e", "back_at": "L11"},
+  "lives": {"n": 9, "at": "L2", "until": "L5", "used": ["L2:one", "L3:two", "L3:three", "L4:four"], "y": 395},
+  "beats": [
+   {"at": "L1", "mood": "proud", "prop": "flag"},
+   {"at": "L2", "mood": "alert", "prop": "none", "move": "flip", "extra": {"flip_at": "L2:landed-0.6"}},
+   {"at": "L3", "mood": "neutral", "prop": "none", "move": "flip", "extra": {"flip_at": "L3:feet-0.6"}},
+   {"at": "L4", "mood": "alert", "prop": "dome"},
+   {"at": "L5", "mood": "proud", "prop": "medals", "extra": {"n": 14}},
+   {"at": "L6", "mood": "sleep", "prop": "none"},
+   {"at": "L6:waze", "mood": "wink", "prop": "devices", "extra": {"items": [["phone", "L6:waze"], ["car", "L6:chip"]]}},
+   {"at": "L7", "mood": "happy", "prop": "spot", "move": "flip", "extra": {"flip_at": "L7:lands-0.4"}},
+   {"at": "L8", "mood": "wink", "prop": "none"}
+  ],
+  "cards": [
+   {"at": "L1:declared", "until": "L2", "kind": "photo", "file": "photos/hic_decl.jpg", "credit": "Rudi Weissenstein, public domain, Wikimedia Commons", "kb": [0.5, 0.45, 1.0, 0.5, 0.4, 1.15]},
+   {"at": "L2:five", "until": "L3", "kind": "num", "value": 5, "from": 0, "sub": "armies, the next day"},
+   {"at": "L3:surprise", "until": "L4", "kind": "text", "text": "*1967* and *1973*"},
+   {"at": "L4:over", "until": "L4:99", "kind": "num", "value": 300, "from": 0, "suffix": "+", "sub": "drones and missiles"},
+   {"at": "L4:99", "until": "L5", "kind": "num", "value": 99, "from": 0, "suffix": "%", "sub": "stopped"},
+   {"at": "L5:14", "until": "L6", "kind": "num", "value": 14, "from": 0, "sub": "Nobel laureates"},
+   {"at": "L6:waze", "until": "L6:chip", "kind": "photo", "file": "photos/htj_waze.jpg", "credit": "Shixart1985, CC BY 2.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]},
+   {"at": "L6:chip", "until": "L6:mobileye", "kind": "photo", "file": "photos/htj_mobileye.jpg", "credit": "U.S. Embassy Tel Aviv, CC BY 2.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]},
+   {"at": "L6:mobileye", "until": "L7", "kind": "num", "value": 200, "from": 0, "suffix": "M+", "sub": "Mobileye chips shipped"},
+   {"at": "L7", "until": "L7:eighth", "kind": "photo", "file": "photos/fe_indep1.jpg", "credit": "IPPA photographer, CC BY 4.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]},
+   {"at": "L7:eighth", "until": "L8", "kind": "num", "value": 8, "from": 1, "prefix": "No. ", "sub": "happiest country on Earth"}
+  ]
+ },
+ "sources": [
+  {"label": "Declaration of the Establishment of the State of Israel", "year": 1948, "at": "L1", "until": "L2-0.1"},
+  {"label": "Encyclopaedia Britannica, 1948 Arab Israeli War", "year": 2025, "at": "L2", "until": "L3-0.1"},
+  {"label": "Encyclopaedia Britannica, Arab Israeli wars", "year": 2025, "at": "L3", "until": "L4-0.1"},
+  {"label": "Israel Defense Forces via AP, 14 April", "year": 2024, "at": "L4", "until": "L5-0.1"},
+  {"label": "NobelPrize.org laureates; Israel Central Bureau of Statistics", "year": 2025, "at": "L5", "until": "L6-0.1"},
+  {"label": "Mobileye; Google buys Waze, Times of Israel", "year": 2025, "at": "L6", "until": "L7-0.1"},
+  {"label": "World Happiness Report", "year": 2025, "at": "L7", "until": "L8-0.1"}
+ ],
+ "end": {"at": "L8", "until": "L10", "y": 1290, "balance": "No cat is perfect. *Same rules* for all.", "cta": "Dog or cat? Part 1 on my profile"},
+ "caption_en": "A cat gets nine lives. Count how many this one has used. 🐈\n\n🇮🇱 Independent: Israel declared independence on 14 May 1948 (Declaration of the Establishment of the State of Israel).\n1️⃣ The next day the armies of Egypt, Transjordan, Iraq, Syria and Lebanon invaded (Encyclopaedia Britannica).\n2️⃣ 1967, the Six Day War. 3️⃣ 1973, the Yom Kippur War, a surprise attack on the holiest day of the Jewish year (Encyclopaedia Britannica).\n4️⃣ 13 to 14 April 2024: Iran's regime launched more than 300 drones and missiles at Israel in one night; the Israel Defense Forces (IDF) said 99% were intercepted (IDF via AP, 2024).\n🧠 Curious: 14 Israeli Nobel laureates, from Agnon (1966) to Mokyr (2025) (NobelPrize.org records), for a population of about 10.1 million (Israel Central Bureau of Statistics, 2025).\n😴 Ignored until needed: Waze was built in Israel and bought by Google in 2013 (Times of Israel). Mobileye, founded in Jerusalem in 1999, has shipped over 200 million EyeQ chips for driver assistance (Mobileye, 2025).\n🐾 Still lands on its feet: 8th happiest country in the World Happiness Report 2025.\n\nNo cat is perfect. Same rules for every cat.\nDog or cat: which one is Israel?\n\nDog version: Part 1 on my profile.\n\nPhotos: Declaration of Independence 1948, Rudi Weissenstein, public domain; smartphone navigation, Shixart1985, CC BY 2.0; Mobileye visit, U.S. Embassy Tel Aviv, CC BY 2.0; Independence Day, IPPA photographer, CC BY 4.0 (all via Wikimedia Commons).",
+ "caption_he": "אם ישראל הייתה חתול: תשע נשמות.\nעצמאית (הכרזת העצמאות, 14 במאי 1948), ולמחרת חמישה צבאות פלשו. נשמה ראשונה. אחר כך 1967, 1973, ובאפריל 2024 יותר מ־300 כטב״מים וטילים מאיראן בלילה אחד, 99% יורטו.\nסקרנית: 14 זוכי נובל לכ־10 מיליון איש.\nמתעלמים ממנה עד שצריכים אותה: Waze, מובילאיי.\nועדיין נוחתת על הרגליים: המדינה השמינית הכי מאושרת בעולם (2025).\nכלב או חתול: מה ישראל?",
+ "hashtags": ["#Israel", "#cats", "#ninelives"],
+ "cover": {"t": 22.0, "text": "Israel as a cat:|*9* lives?", "label": "Count how many it used."}
+}

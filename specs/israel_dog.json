@@ -1,0 +1,68 @@
+{
+ "id": "israel_dog",
+ "account": "noamroz__",
+ "template": "pet_story",
+ "hook": "Which dog is|*Israel?* *6* clues.",
+ "music": {"bed": "bounce", "lufs": -16},
+ "voice": {"tempo": 1.1, "lead": 0.1, "gap": 0.14},
+ "lines": [
+  {"say": "Which dog is Israel? Six clues.", "gap": 0.2},
+  {"say": "Clue one: small. About 22,000 square kilometres. Roughly New Jersey.", "screen": "Clue 1: *small*"},
+  {"say": "Clue two: smart. 6.3% of its economy goes into research. Number one among rich countries.", "screen": "Clue 2: *smart*"},
+  {"say": "Clue three: loyal. Since 1948, about 3.4 million immigrants came home.", "screen": "Clue 3: *loyal*"},
+  {"say": "Clue four: guards the house. Iron Dome stops over 90% of the rockets aimed at its cities.", "screen": "Clue 4: *guards* the house"},
+  {"say": "Clue five: blamed for every bark. From 2015 to 2023, the United Nations General Assembly passed 154 resolutions against Israel. The rest of the world combined? 71.", "screen": "Clue 5: *blamed*"},
+  {"say": "Clue six: a desert dog that found water. Drip irrigation was born here, in 1965.", "screen": "Clue 6: *finds water*"},
+  {"say": "And it shares the bowl: in 2021, it doubled the water it sends Jordan.", "screen": "It *shares* the bowl"},
+  {"say": "So which breed? A Belgian Malinois. Small, tireless, smart, protective.", "screen": "*Belgian Malinois*", "until": "L10"},
+  {"say": "It's the main breed in the Israeli army's dog unit, Oketz."},
+  {"say": "No dog is perfect. Judge it like every other dog on the street.", "gap": 0.15},
+  {"say": "What dog would your country be?", "screen": "What dog would *your* country be?"},
+  {"follow": true, "until": "L13"},
+  {"say": "Now you know the answer to:"}
+ ],
+ "data": {
+  "pet": "dog",
+  "quiz": {"until": "L0e", "back_at": "L13"},
+  "beats": [
+   {"at": "L1", "mood": "neutral", "prop": "lens", "move": "shrink"},
+   {"at": "L2", "mood": "proud", "prop": "bulb"},
+   {"at": "L3", "mood": "happy", "prop": "home"},
+   {"at": "L4", "mood": "alert", "prop": "dome"},
+   {"at": "L5", "mood": "sad", "prop": "bark", "extra": {"words": ["WOOF!", "WOOF!", "WOOF!", "WOOF!"], "blame": "HIM!"}},
+   {"at": "L6", "mood": "happy", "prop": "drip"},
+   {"at": "L7", "mood": "happy", "prop": "bowl", "extra": {"friend_flag": "JO", "friend_at": "L7:doubled"}},
+   {"at": "L8", "mood": "proud", "prop": "spot"},
+   {"at": "L10", "mood": "wink", "prop": "none"}
+  ],
+  "cards": [
+   {"at": "L1:about", "until": "L2", "kind": "num", "value": 22072, "from": 100, "suffix": " km²", "sub": "Roughly *New Jersey*"},
+   {"at": "L2:6.3", "until": "L2:number+0.9", "kind": "num", "value": 6.3, "from": 0, "dec": 1, "suffix": "%", "sub": "of GDP into *research*"},
+   {"at": "L2:number+0.9", "until": "L3", "kind": "photo", "file": "photos/htj_weizmann.jpg", "credit": "Deror_avi, CC BY-SA 4.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.55, 0.45, 1.15]},
+   {"at": "L3:since", "until": "L3:came", "kind": "num", "value": 3.4, "from": 0, "dec": 1, "suffix": "M", "sub": "immigrants since *1948*"},
+   {"at": "L3:came", "until": "L4", "kind": "photo", "file": "photos/bh_solomon1.jpg", "credit": "Tsvika Israeli, Government Press Office, CC BY-SA 3.0", "kb": [0.5, 0.45, 1.0, 0.5, 0.5, 1.12]},
+   {"at": "L4", "until": "L4:over", "kind": "photo", "file": "photos/bf_p_el_irondome.jpg", "credit": "Israel Defense Forces, CC BY 2.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.5, 0.42, 1.14]},
+   {"at": "L4:over", "until": "L5", "kind": "num", "value": 90, "from": 0, "suffix": "%+", "sub": "of rockets aimed at *cities*"},
+   {"at": "L5:passed", "until": "L6", "kind": "num", "value": 154, "from": 0, "sub": "vs *71* for the rest of the world"},
+   {"at": "L6:drip", "until": "L7", "kind": "photo", "file": "photos/mw_drip.jpg", "credit": "Juandev, CC BY-SA 3.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.45, 0.55, 1.15]},
+   {"at": "L7:doubled", "until": "L8", "kind": "num", "value": 2, "from": 1, "suffix": "x", "sub": "water for *Jordan* since 2021"},
+   {"at": "L8:small", "until": "L9", "kind": "text", "text": "Small. Tireless. *Smart.* Protective."},
+   {"at": "L9", "until": "L10", "kind": "text", "text": "Israel's army dog unit: *Oketz*"}
+  ]
+ },
+ "sources": [
+  {"label": "Israel Central Bureau of Statistics", "year": 2023, "at": "L1", "until": "L2-0.1"},
+  {"label": "OECD (Organisation for Economic Co-operation and Development)", "year": 2023, "at": "L2", "until": "L3-0.1"},
+  {"label": "Israel Central Bureau of Statistics", "year": 2023, "at": "L3", "until": "L4-0.1"},
+  {"label": "Israel Defense Forces via Ynet, Operation Protective Edge", "year": 2014, "at": "L4", "until": "L5-0.1"},
+  {"label": "UN Watch count of United Nations General Assembly resolutions, 2015 to 2023", "year": 2023, "at": "L5", "until": "L6-0.1"},
+  {"label": "Netafim, Kibbutz Hatzerim", "year": 1965, "at": "L6", "until": "L7-0.1"},
+  {"label": "AFP via Dawn, Israel and Jordan water deal", "year": 2021, "at": "L7", "until": "L8-0.1"},
+  {"label": "Modern War Institute at West Point", "year": 2025, "at": "L9", "until": "L10-0.1"}
+ ],
+ "end": {"at": "L10", "until": "L12", "y": 1290, "balance": "No dog is perfect. *Same rules* for all.", "cta": "Dog or cat? Part 2 on my profile"},
+ "caption_en": "Six clues. One breed. Clue five is the one nobody talks about. 🐕\n\n1️⃣ Small: 22,072 km² (Israel Central Bureau of Statistics, Israel in Figures 2023). New Jersey is 22,591 km² (US Census Bureau).\n2️⃣ Smart: 6.3% of GDP goes into research and development, the highest R&D intensity in the OECD, the Organisation for Economic Co-operation and Development (OECD, 2023 data, March 2025 release).\n3️⃣ Loyal: the Law of Return (1950) lets any Jew immigrate. About 3.4 million immigrants since 1948 (Israel CBS, Israel in Figures 2023).\n4️⃣ Guards the house: Iron Dome intercepted over 90% of the rockets fired at population centres in Operation Protective Edge (Israel Defense Forces, IDF, via Ynet, 2014).\n5️⃣ Blamed for every bark: from 2015 to 2023 the United Nations (UN) General Assembly adopted 154 resolutions against Israel and 71 against all other countries combined (UN Watch count, 2024).\n6️⃣ Finds water: drip irrigation company Netafim was founded at Kibbutz Hatzerim in the Negev in 1965 (Netafim). In 2024 about 75% of Israel's household water came from desalination (French Treasury, Direction générale du Trésor, 2025).\n🥣 Shares the bowl: in October 2021 Israel agreed to sell Jordan another 50 million cubic metres of water a year, doubling what it supplies (AFP via Dawn, 2021).\n🐕 The breed: Belgian Malinois. The dogs of Oketz, the Israel Defense Forces canine unit, are primarily Belgian Malinois (John Spencer, Modern War Institute at West Point, 2025).\n\nNo dog is perfect. Same rules for every dog.\nWhat dog would your country be?\n\nDog or cat? Part 2 on my profile.\n\nPhotos: Weizmann Institute, Deror_avi, CC BY-SA 4.0; Operation Solomon 1991, Tsvika Israeli, Government Press Office (GPO), CC BY-SA 3.0; Iron Dome battery, Israel Defense Forces, CC BY 2.0; drip irrigation, Juandev, CC BY-SA 3.0 (all via Wikimedia Commons).",
+ "caption_he": "אם ישראל הייתה כלב, איזה כלב היא הייתה?\nשישה רמזים: קטנה (22,072 קמ״ר), חכמה (6.3% מהתוצר למחקר ופיתוח, מקום ראשון ב־OECD), נאמנה (כ־3.4 מיליון עולים מאז 1948), שומרת על הבית (כיפת ברזל, מעל 90% יירוטים, 2014), אשמה בכל נביחה ברחוב (154 החלטות עצרת האו״ם נגד ישראל ב־2015 עד 2023, מול 71 נגד כל שאר העולם), ומוצאת מים במדבר (נטפים, 1965), ואפילו חולקת את הקערה עם ירדן.\nהגזע: מלינואה בלגי, הכלב של יחידת עוקץ.\nאיזה כלב הייתה המדינה שלכם?",
+ "hashtags": ["#Israel", "#dogs", "#BelgianMalinois"],
+ "cover": {"t": 14.0, "text": "Which dog is|*Israel?*", "label": "6 clues. Guess before the end."}
+}
