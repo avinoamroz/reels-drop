@@ -1,0 +1,6 @@
+{
+  "id": "journey_ep3",
+  "status": "FAILED",
+  "run": "45267235983",
+  "log": "[21:13:29] pron [en]: Where do we park Israel? You told me. We tried four spots. Episode three. Last time, Israel sailed out past Gibraltar, looking for a new spot. Spot one, from you: Russia's Jewish Autonomous Oblast. Stalin made it a Jewish homeland in nineteen thirty four. Today, eight hundred and thirty seven Jews <<ˈ|l|ɪ|v>> there. January averages minus twenty one degrees. The hummus freezes. Spot two, from you:\n[21:13:29] pron notes: live -> live_verb; live -> live_verb\nvoice ok: Cartesia sonic-3 (79.5 s, 180 words, 1 run(s), pronunciation pass) voice/journey_ep3_vo.wav\n[21:13:29] voice: cached voice (script unchanged)\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/map_counter.py\", line 435, in run\n    ev += [(c0, \"pop\", -24) for c0, _ in CMW if c0 > 0.01]\n                                ^^^^^\nValueError: too many values to unpack (expected 2)\n"
+}
