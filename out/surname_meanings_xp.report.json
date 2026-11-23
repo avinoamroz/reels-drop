@@ -1,6 +1,152 @@
 {
-  "id": "surname_meanings_xp",
-  "status": "FAILED",
-  "run": "45134609346",
-  "log": "ed in a Frankfurt house with a red shield sign. The boulevard honours Baron Edmond de Rothschild. Ben Gurion was born David Groon. Groon means green. In nineteen ten, he took a new name, from a Jewish rebel against Rome. Sokolov. Sokol i\nvoice ok: Cartesia sonic-3 (56.5 s, 151 words, 1 run(s), pronunciation pass) voice/surname_meanings_xp_vo.wav\n[07:56:47] voice: cached voice (script unchanged)\n[07:56:59] frame 0/1440\n[07:57:11] frame 300/1440\n[07:57:24] frame 600/1440\n[07:57:38] frame 900/1440\n[07:57:52] frame 1200/1440\nmultiprocessing.pool.RemoteTraceback: \n\"\"\"\nTraceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 125, in worker\n    result = (True, func(*args, **kwds))\n                    ^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 48, in mapstar\n    return list(map(*args))\n           ^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 547, in _one\n    def _one(i): return _FR[0](i / FPS).tobytes()\n                        ^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 555, in fr\n    img = frame(t)\n          ^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/name_sign.py\", line 289, in frame\n    if it == \"post\": post(cv, 540 + ox, t)\n                     ^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/name_sign.py\", line 279, in post\n    c = cv.c; c.save(); c.translate(cx, y0 + k * pitch); c.rotate(math.sin(t * 2.3 + k * 1.3) * 0.035); c.scale(q * (1 + 0.07 * lit), q * (1 + 0.07 * lit))\n                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncairo.Error: invalid matrix (not invertible)\n\"\"\"\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 38, in <module>\n    main()\n  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 29, in main\n    extra = mod.run(S) or {}\n            ^^^^^^^^^^\n  File \"/home/runner/work/reels-drop/reels-drop/templates/name_sign.py\", line 319, in run\n    encode(frame, T.END, f\"{work}/mix.m4a\", final, loop=True)\n  File \"/home/runner/work/reels-drop/reels-drop/templates/core/common.py\", line 565, in encode\n    for i, b in enumerate(P.imap(_one, range(nfr), chunksize=6)):\n                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 423, in <genexpr>\n    return (item for chunk in result for item in chunk)\n                              ^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/multiprocessing/pool.py\", line 873, in next\n    raise value\ncairo.Error: invalid matrix (not invertible)\n"
+ "id": "surname_meanings_xp",
+ "account": "expressenglishcom",
+ "template": "name_sign",
+ "hook": "*5* street names.|*5* secret meanings.",
+ "duration": 48.0,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/surname_meanings_xp.mp4",
+  "cover": "covers/surname_meanings_xp_cover.jpg",
+  "preview": "previews/surname_meanings_xp_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/surname_meanings_xp_0.jpg",
+  "1": "out/frames/surname_meanings_xp_1.jpg",
+  "3": "out/frames/surname_meanings_xp_3.jpg",
+  "last": "out/frames/surname_meanings_xp_last.jpg"
+ },
+ "caption_en": "The street you live on might be named after a falcon.\n\nRothschild: \"red shield\", from a 1500s house sign in Frankfurt's Jewish street (The Rothschild Archive).\nBen Gurion: born David Grün, \"green\"; took the name Ben Gurion in 1910, after a Jewish leader of the revolt against Rome (Jewish Virtual Library).\nSokolov: from \"sokol\", Russian for falcon (Wikipedia, Sokolov surname). Nahum Sokolow led the World Zionist Organization from 1931 (Britannica).\nKaplan: from Latin, via \"chaplain\"; a name often carried by Kohanim families (Chabad.org). Kaplan Street honours Eliezer Kaplan, Israel's first finance minister.\nOstrovsky: from \"ostrov\", island; most likely from a town called Ostrov or Ostrów (Wikipedia, Ostrovsky surname). Baruch Ostrovsky was Ra'anana's first mayor.\n\nWhat does your surname mean? Tell me in the comments.\n\nAnimation made with AI tools.",
+ "caption_he": "שם הרחוב שלך מסתיר משמעות.\n\nרוטשילד: \"מגן אדום\" (Rot + Schild), על שם שלט של בית בפרנקפורט במאה ה-16.\nבן גוריון: נולד דוד גרין, Grün = ירוק. את השם בן גוריון לקח ב-1910.\nסוקולוב: sokol ברוסית = בז.\nקפלן: מלטינית, דרך chaplain = כומר. הרבה משפחות קפלן הן כהנים.\nאוסטרובסקי: ostrov = אי. כנראה ממשפחה שהגיעה מעיירה בשם אוסטרוב.\n\nומה המשמעות של שם המשפחה שלך? כתבו לי בתגובות, ושלחו למישהו עם שם משפחה מעניין.",
+ "hashtags": [
+  "#EnglishExpress",
+  "#LearnEnglish",
+  "#Hebrew"
+ ],
+ "sources": [
+  {
+   "label": "The Rothschild Archive, name and arms",
+   "year": "accessed 2026",
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "Jewish Virtual Library, Ben-Gurion",
+   "year": "accessed 2026",
+   "at": "L4",
+   "until": "L6"
+  },
+  {
+   "label": "Sokolov (surname), Wikipedia; Britannica",
+   "year": "accessed 2026",
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Chabad.org, What does Kaplan mean?",
+   "year": "accessed 2026",
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Ostrovsky (surname), Wikipedia",
+   "year": "accessed 2026",
+   "at": "L10",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.849,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Five Israeli street names. Each one hides a secret meaning.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Rothschild. <<ˈ|r|oʊ|t>> means red. <<ˈ|ʃ|ɪ|l|t>> means shield.",
+    "score": 0.5,
+    "flag": "MISS"
+   },
+   {
+    "line": "In the fifteen hundreds, the family lived in a Frankfurt house with a red shield sign.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "The boulevard honours Baron Edmond de Rothschild.",
+    "score": 0.714,
+    "flag": "MISS"
+   },
+   {
+    "line": "Ben Gurion was born David Groon. Groon means green.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "In nineteen ten, he took a new name, from a Jewish rebel against Rome.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Sokolov. Sokol is Russian for falcon.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nahum Sokolov later led the World Zionist Organization.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Kaplan comes from Latin. A cape, then a chaplain, a priest.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Many Kaplan families are <<k|oʊ|h|ɑ|ˈ|n|i|m>>, Jewish priests. The street honours Israel's first finance minister.",
+    "score": 0.632,
+    "flag": "MISS"
+   },
+   {
+    "line": "Ostrovsky. Ostrov means island.",
+    "score": 0.5,
+    "flag": "MISS"
+   },
+   {
+    "line": "Most likely, the family came from a town called Ostrov. And in Raanana, the first mayor was Baruch Ostrovsky.",
+    "score": 0.842,
+    "flag": "ok"
+   },
+   {
+    "line": "So what does your surname mean? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Send this to someone with a cool surname.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Next time, read the street sign twice.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "5 Israeli street names. Each one hides a secret meaning. Rothschild. Wrote means red. Shilt means shield. In the 1500s, the family lived in a Frankfurt House with a red shield sign. The boulevard honors Baron Edmund de Rothschild. Ben Gurion was born David Grun. Grun means green. In 1910, he took a new name, from a Jewish rebel against Rome, Sokolov. Sokol is Russian for Falcon. Nahum Sokolov later led the World Zionist Organization. Kaplan comes from Latin, a cape, then a chaplain, a priest. Many Kaplan families are Kohanim, Jewish priests. The street honors Israel's first finance minister, Ostrowski. Ostrowski means island, most likely the family came from a town called Ostrowski. And in Renanah, the first mayor was Baruch Ostrowski. So what does your surname mean? Tell me in the comments. Send this to someone with a cool surname. Next time, read the street sign twice.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 102.1
 }
