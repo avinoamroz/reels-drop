@@ -154,7 +154,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "6 anthems around Israel. Only one is named Hope. What does each one sing about? Egypt, you have my love and my heart. Hope, freedom, and sacrifice, at war or peace. Jordan, long live the king and his armies. Lebanon, our sword and our pen, and God. Syria, guardians of the homeland, peace be upon you. Then Hope's martyrs and blood, the Palestinian Authority's anthem, Fadei, one who sacrifices himself. Wars, blood, and the volcano of my revenge. In Israel's Hatikvah, sung the day the state was born, to be a free people in our land, land, hope, freedom. No god, no king, and the only one with no sword, no blood, no enemy, no army. Most were written in fights for independence, Hatikvah, by a poet with no state. Which anthem would you sing? If you love Israeli facts, follow Noam Raz for more, 6 anthems. Only one is named Hope.",
+  "heard": "6 anthems around Israel. Only one is named Hope. What does each one sing about? Egypt, you have my love and my heart. Hope, freedom, and sacrifice, at war or peace. Jordan, long live the king and his armies. Lebanon, our sword and our pen, and God. Syria, guardians of the homeland, peace be upon you. Then Hope's martyrs and blood, the Palestinian Authority's anthem, Fadei, one who sacrifices himself. Wars, blood, and the volcano of my revenge. In Israel's Hatikvah, sung the day the state was born. To be a free people in our land, land, hope, freedom. No god, no king. And the only one with no sword, no blood, no enemy, no army. Most were written in fights for independence, Hatikvah, by a poet with no state. Which anthem would you sing? If you love Israeli facts, follow Noam Raz for more. 6 anthems. Only one is named Hope.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -194,5 +194,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 132.7
+ "render_s": 85.9
 }
