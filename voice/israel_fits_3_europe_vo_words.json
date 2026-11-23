@@ -1,472 +1,507 @@
 [
 {
 "word": "Israel",
-"start": 0.341,
-"end": 0.851
+"start": 0.402,
+"end": 0.882
 },
 {
 "word": "fits",
-"start": 0.851,
-"end": 1.13
+"start": 0.913,
+"end": 1.223
 },
 {
 "word": "into",
-"start": 1.13,
-"end": 1.331
+"start": 1.223,
+"end": 1.455
 },
 {
 "word": "Russia",
-"start": 1.331,
-"end": 1.672
+"start": 1.455,
+"end": 1.842
 },
 {
 "word": "775",
-"start": 1.672,
-"end": 3.22
+"start": 1.842,
+"end": 3.437
 },
 {
 "word": "times.",
-"start": 3.22,
-"end": 3.793
+"start": 3.437,
+"end": 4.102
 },
 {
 "word": "Here's",
-"start": 3.947,
-"end": 4.303
+"start": 4.365,
+"end": 4.69
 },
 {
 "word": "Israel",
-"start": 4.303,
-"end": 4.721
+"start": 4.69,
+"end": 5.093
 },
 {
 "word": "at",
-"start": 4.721,
-"end": 4.876
+"start": 5.093,
+"end": 5.201
 },
 {
 "word": "true",
-"start": 4.876,
-"end": 5.108
+"start": 5.201,
+"end": 5.511
 },
 {
 "word": "size:",
-"start": 5.108,
-"end": 5.712
+"start": 5.511,
+"end": 6.13
 },
 {
 "word": "22,072",
-"start": 5.96,
-"end": 7.601
+"start": 6.502,
+"end": 8.142
 },
 {
 "word": "square",
-"start": 7.601,
-"end": 7.957
+"start": 8.142,
+"end": 8.452
 },
 {
 "word": "kilometres.",
-"start": 7.957,
-"end": 8.746
+"start": 8.452,
+"end": 9.226
 },
 {
-"word": "West",
-"start": 8.839,
-"end": 9.133
-},
-{
-"word": "Bank",
-"start": 9.133,
-"end": 9.412
+"word": "Judea",
+"start": 9.582,
+"end": 10.093
 },
 {
 "word": "and",
-"start": 9.412,
-"end": 9.52
+"start": 10.093,
+"end": 10.279
+},
+{
+"word": "Samaria,",
+"start": 10.279,
+"end": 10.913
+},
+{
+"word": "also",
+"start": 11.177,
+"end": 11.533
+},
+{
+"word": "called",
+"start": 11.533,
+"end": 11.873
+},
+{
+"word": "the",
+"start": 11.873,
+"end": 11.951
+},
+{
+"word": "West",
+"start": 11.951,
+"end": 12.229
+},
+{
+"word": "Bank,",
+"start": 12.229,
+"end": 12.678
+},
+{
+"word": "and",
+"start": 12.972,
+"end": 13.158
 },
 {
 "word": "Gaza",
-"start": 9.52,
-"end": 9.83
+"start": 13.158,
+"end": 13.514
+},
+{
+"word": "are",
+"start": 13.514,
+"end": 13.669
 },
 {
 "word": "shaded,",
-"start": 9.861,
-"end": 10.418
+"start": 13.669,
+"end": 14.18
 },
 {
 "word": "not",
-"start": 10.511,
-"end": 10.79
+"start": 14.319,
+"end": 14.598
 },
 {
 "word": "counted.",
-"start": 10.79,
-"end": 11.207
+"start": 14.598,
+"end": 15.077
 },
 {
 "word": "First",
-"start": 11.347,
-"end": 11.656
+"start": 15.31,
+"end": 15.65
 },
 {
 "word": "stop:",
-"start": 11.656,
-"end": 12.043
+"start": 15.65,
+"end": 16.037
 },
 {
 "word": "Wales.",
-"start": 12.136,
-"end": 12.709
+"start": 16.223,
+"end": 16.811
 },
 {
 "word": "Surprise:",
-"start": 12.972,
-"end": 13.638
+"start": 17.229,
+"end": 18.05
 },
 {
 "word": "Wales",
-"start": 13.762,
-"end": 14.149
+"start": 18.282,
+"end": 18.793
 },
 {
 "word": "is",
-"start": 14.149,
-"end": 14.242
+"start": 18.793,
+"end": 18.978
 },
 {
 "word": "smaller.",
-"start": 14.242,
-"end": 14.69
+"start": 18.978,
+"end": 19.613
 },
 {
 "word": "Israel",
-"start": 14.83,
-"end": 15.217
+"start": 19.845,
+"end": 20.263
 },
 {
 "word": "doesn't",
-"start": 15.217,
-"end": 15.495
+"start": 20.263,
+"end": 20.542
 },
 {
 "word": "quite",
-"start": 15.495,
-"end": 15.728
+"start": 20.542,
+"end": 20.774
 },
 {
 "word": "fit.",
-"start": 15.728,
-"end": 16.099
+"start": 20.774,
+"end": 21.13
 },
 {
 "word": "The",
-"start": 16.362,
-"end": 16.486
+"start": 21.703,
+"end": 21.827
 },
 {
 "word": "whole",
-"start": 16.486,
-"end": 16.687
-},
-{
-"word": "UK?",
-"start": 16.687,
-"end": 17.229
-},
-{
-"word": "11",
-"start": 17.415,
-"end": 17.74
-},
-{
-"word": "Israels.",
-"start": 17.74,
-"end": 18.251
-},
-{
-"word": "Germany,",
-"start": 18.622,
-"end": 19.18
-},
-{
-"word": "16.",
-"start": 19.242,
-"end": 19.814
-},
-{
-"word": "Now",
-"start": 20.387,
-"end": 20.588
-},
-{
-"word": "Russia.",
-"start": 20.588,
-"end": 20.96
-},
-{
-"word": "Watch",
-"start": 21.378,
-"end": 21.641
-},
-{
-"word": "the",
-"start": 21.641,
-"end": 21.734
-},
-{
-"word": "counter.",
-"start": 21.734,
+"start": 21.827,
 "end": 22.152
 },
 {
+"word": "UK?",
+"start": 22.152,
+"end": 22.694
+},
+{
+"word": "11",
+"start": 23.003,
+"end": 23.359
+},
+{
+"word": "Israels.",
+"start": 23.359,
+"end": 24.04
+},
+{
+"word": "Germany,",
+"start": 24.35,
+"end": 24.892
+},
+{
+"word": "16.",
+"start": 25.062,
+"end": 25.604
+},
+{
+"word": "Now",
+"start": 26.053,
+"end": 26.331
+},
+{
+"word": "Russia.",
+"start": 26.331,
+"end": 26.718
+},
+{
+"word": "Watch",
+"start": 26.92,
+"end": 27.229
+},
+{
+"word": "the",
+"start": 27.229,
+"end": 27.291
+},
+{
+"word": "counter.",
+"start": 27.291,
+"end": 27.57
+},
+{
 "word": "775",
-"start": 22.523,
-"end": 23.793
+"start": 28.019,
+"end": 29.257
 },
 {
 "word": "Israels,",
-"start": 23.793,
-"end": 24.335
+"start": 29.257,
+"end": 29.799
 },
 {
 "word": "from",
-"start": 24.474,
-"end": 24.691
+"start": 29.969,
+"end": 30.186
 },
 {
 "word": "the",
-"start": 24.691,
-"end": 24.752
+"start": 30.186,
+"end": 30.31
 },
 {
 "word": "Baltic",
-"start": 24.752,
-"end": 25.047
+"start": 30.31,
+"end": 30.666
 },
 {
 "word": "Sea",
-"start": 25.047,
-"end": 25.325
+"start": 30.666,
+"end": 30.898
 },
 {
 "word": "all",
-"start": 25.325,
-"end": 25.403
+"start": 30.898,
+"end": 31.115
 },
 {
 "word": "the",
-"start": 25.403,
-"end": 25.465
+"start": 31.115,
+"end": 31.208
 },
 {
 "word": "way",
-"start": 25.465,
-"end": 25.557
+"start": 31.208,
+"end": 31.331
 },
 {
 "word": "to",
-"start": 25.557,
-"end": 25.65
+"start": 31.331,
+"end": 31.44
 },
 {
 "word": "the",
-"start": 25.65,
-"end": 25.712
+"start": 31.44,
+"end": 31.564
 },
 {
 "word": "Pacific.",
-"start": 25.712,
-"end": 26.223
+"start": 31.564,
+"end": 32.136
 },
 {
 "word": "No",
-"start": 26.935,
-"end": 27.183
+"start": 32.322,
+"end": 32.554
 },
 {
 "word": "map",
-"start": 27.183,
-"end": 27.446
+"start": 32.554,
+"end": 32.818
 },
 {
 "word": "trick:",
-"start": 27.446,
-"end": 27.725
+"start": 32.818,
+"end": 33.251
 },
 {
 "word": "every",
-"start": 27.926,
-"end": 28.205
+"start": 33.545,
+"end": 33.777
 },
 {
 "word": "copy",
-"start": 28.205,
-"end": 28.53
+"start": 33.777,
+"end": 34.149
 },
 {
 "word": "is",
-"start": 28.53,
-"end": 28.653
+"start": 34.149,
+"end": 34.288
 },
 {
 "word": "true",
-"start": 28.653,
-"end": 28.824
+"start": 34.288,
+"end": 34.567
 },
 {
 "word": "size,",
-"start": 28.824,
-"end": 29.335
+"start": 34.567,
+"end": 35.201
 },
 {
 "word": "even",
-"start": 29.582,
-"end": 29.814
+"start": 35.341,
+"end": 35.65
 },
 {
 "word": "in",
-"start": 29.814,
-"end": 29.907
+"start": 35.65,
+"end": 35.728
 },
 {
 "word": "the",
-"start": 29.907,
-"end": 29.969
+"start": 35.728,
+"end": 35.821
 },
 {
 "word": "Arctic.",
-"start": 29.969,
-"end": 30.356
+"start": 35.821,
+"end": 36.301
 },
 {
 "word": "Size",
-"start": 30.898,
-"end": 31.316
+"start": 36.78,
+"end": 37.291
 },
 {
 "word": "isn't",
-"start": 31.316,
-"end": 31.533
+"start": 37.322,
+"end": 37.601
 },
 {
 "word": "everything.",
-"start": 31.533,
-"end": 31.951
+"start": 37.601,
+"end": 38.081
 },
 {
 "word": "Russia",
-"start": 32.462,
-"end": 32.725
+"start": 38.499,
+"end": 38.948
 },
 {
 "word": "has",
-"start": 32.756,
-"end": 32.879
-},
-{
-"word": "775",
-"start": 33.143,
-"end": 34.319
-},
-{
-"word": "times",
-"start": 34.319,
-"end": 34.582
-},
-{
-"word": "the",
-"start": 34.582,
-"end": 34.675
-},
-{
-"word": "land,",
-"start": 34.675,
-"end": 35.016
-},
-{
-"word": "not",
-"start": 35.31,
-"end": 35.511
-},
-{
-"word": "775",
-"start": 35.511,
-"end": 36.657
-},
-{
-"word": "times",
-"start": 36.657,
-"end": 36.935
-},
-{
-"word": "the",
-"start": 36.935,
-"end": 36.982
-},
-{
-"word": "people.",
-"start": 36.982,
-"end": 37.322
-},
-{
-"word": "Which",
-"start": 37.972,
-"end": 38.251
-},
-{
-"word": "European",
-"start": 38.251,
-"end": 38.7
-},
-{
-"word": "country",
-"start": 38.7,
-"end": 39.025
-},
-{
-"word": "should",
-"start": 39.025,
-"end": 39.211
-},
-{
-"word": "I",
-"start": 39.211,
+"start": 38.979,
 "end": 39.273
 },
 {
-"word": "drop",
+"word": "775",
 "start": 39.273,
-"end": 39.536
+"end": 40.48
+},
+{
+"word": "times",
+"start": 40.48,
+"end": 40.712
+},
+{
+"word": "the",
+"start": 40.712,
+"end": 40.805
+},
+{
+"word": "land,",
+"start": 40.805,
+"end": 41.037
+},
+{
+"word": "not",
+"start": 41.548,
+"end": 41.858
+},
+{
+"word": "775",
+"start": 41.858,
+"end": 43.081
+},
+{
+"word": "times",
+"start": 43.081,
+"end": 43.359
+},
+{
+"word": "the",
+"start": 43.359,
+"end": 43.421
+},
+{
+"word": "people.",
+"start": 43.421,
+"end": 43.746
+},
+{
+"word": "Which",
+"start": 44.257,
+"end": 44.458
+},
+{
+"word": "European",
+"start": 44.458,
+"end": 44.907
+},
+{
+"word": "country",
+"start": 44.907,
+"end": 45.248
+},
+{
+"word": "should",
+"start": 45.248,
+"end": 45.387
+},
+{
+"word": "I",
+"start": 45.387,
+"end": 45.449
+},
+{
+"word": "drop",
+"start": 45.449,
+"end": 45.759
 },
 {
 "word": "Israel",
-"start": 39.567,
-"end": 39.861
+"start": 45.759,
+"end": 46.115
 },
 {
 "word": "on",
-"start": 39.861,
-"end": 39.985
+"start": 46.115,
+"end": 46.239
 },
 {
 "word": "next?",
-"start": 39.985,
-"end": 40.465
+"start": 46.239,
+"end": 46.719
 },
 {
 "word": "Count",
-"start": 40.883,
-"end": 41.161
+"start": 47.106,
+"end": 47.369
 },
 {
 "word": "Russia",
-"start": 41.161,
-"end": 41.424
+"start": 47.369,
+"end": 47.678
 },
 {
 "word": "again.",
-"start": 41.486,
-"end": 41.811
+"start": 47.678,
+"end": 47.941
 }
 ]
