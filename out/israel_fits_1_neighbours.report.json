@@ -1,6 +1,120 @@
 {
-  "id": "israel_fits_1_neighbours",
-  "status": "FAILED",
-  "run": "45256419728",
-  "log": "  File \"/home/runner/work/reels-drop/reels-drop/templates/render.py\", line 16\n    TEMPLATES = (\"israel_fits\", pet_story\", \"name_sign\", \"endonym_fly\", \"judged_like\", \"cine_timeline\", \"he_cards\", \"camp_story\", \"talk_cut\", \"face_hook\", \"column_recut\", \"trend_text\", \"irony_cine\", \"brand_timeline\", \"myth_scroll\", \"irony_reasons\", \"law_grid\", \"map_counter\", \"data_race\", \"scorecard\", \"slang_scene\", \"rehook\", \"pun_sequence\", \"pun_ladder\", \"classroom\", \"build_vs_war\", \"two_paths\", \"surgery\", \"crowd_equals\", \"versus_card\", \"board_insert\", \"story_climb\", \"story_climb_full\", \"rulebook\", \"stock_chart\", \"zoom_stock\", \"gdp_stock\", \"pop_stock\", \"high_horse\", \"fert_race\", \"fert_stock\", \"people_stock\", \"bracket\", \"boxing_ring\", \"holiday_wheel\", \"swot\", \"ikigai\", \"lens_podium\", \"chem_lab\", \"city_flyover\", \"game_show\", \"framework\", \"faith_tree\")\n                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^\nSyntaxError: unterminated string literal (detected at line 16)\n"
+ "id": "israel_fits_1_neighbours",
+ "account": "noamroz__",
+ "template": "israel_fits",
+ "hook": "Israel fits here|*593* times",
+ "duration": 42.13,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/israel_fits_1_neighbours.mp4",
+  "cover": "covers/israel_fits_1_neighbours_cover.jpg",
+  "preview": "previews/israel_fits_1_neighbours_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/israel_fits_1_neighbours_0.jpg",
+  "1": "out/frames/israel_fits_1_neighbours_1.jpg",
+  "3": "out/frames/israel_fits_1_neighbours_3.jpg",
+  "last": "out/frames/israel_fits_1_neighbours_last.jpg"
+ },
+ "caption_en": "The last number is the one nobody believes. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). The West Bank and Gaza are shaded on the map and not counted.\n\nHow many times it fits (total surface area, UN Statistics Division, Demographic Yearbook 2024):\n🇯🇴 Jordan 89,318 km²: 4x\n🇸🇾 Syria 185,180 km²: 8.4x\n🇪🇬 Egypt 1,002,000 km²: 45x\n🇸🇦 Saudi Arabia 2,206,714 km²: 100x (other sources list 2,149,690 km², about 97x)\nArab League: 593x (21 member states, 13.09 million km²; Sudan from the CIA World Factbook; Morocco without Western Sahara; adding the State of Palestine, 6,020 km², still gives 593).\n\nEvery copy of Israel is drawn at true size for its latitude, on an equal area map (no Mercator stretch).\n\nSize isn't everything. But it explains why every kilometre here matters.\nWhich country should I drop Israel on next?\n\nPart 1 of 4: the USA, Europe and the whole world are next.\nMap data: Natural Earth. Made with AI tools.",
+ "caption_he": "כמה פעמים ישראל נכנסת לשכנות שלה? ישראל בגודל אמיתי: 22,072 קמ״ר כולל רמת הגולן ומזרח ירושלים (הלמ״ס). יהודה ושומרון ועזה מסומנים בגוון אחר ולא נספרו. ירדן: פי 4. סוריה: פי 8.4. מצרים: פי 45. סעודיה: בערך פי 100. כל הליגה הערבית: פי 593. גודל זה לא הכול, אבל זה מסביר למה כל קילומטר כאן חשוב. על איזו מדינה להפיל את ישראל בפעם הבאה?",
+ "hashtags": [
+  "#Israel",
+  "#Maps",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "Israel CBS: 22,072 km², incl. Golan Heights and East Jerusalem",
+   "year": 2023,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "UN Statistics Division, Demographic Yearbook, surface area",
+   "year": 2024,
+   "at": "L3",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.965,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Israel fits in here 593 times.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "First, Israel at true size: 22,072 square kilometres.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "The West Bank and Gaza are shaded. Not counted.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Pick it up, and drop it on Jordan. Jordan holds four Israels.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Syria, just over eight. Now it gets bigger.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt? One. Two. Three. Egypt holds 45 Israels.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Saudi Arabia? About 100. A hundred Israels in one country.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the whole Arab League, from Morocco to Oman.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "593 Israels. Every copy at true size.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Size isn't everything. But it explains why every kilometre here matters.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Which country should I drop Israel on next?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Count it again.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Israel fits in here 593 times. First, Israel at true size, 22,072 square kilometers. The West Bank and Gaza are shaded, not counted. Pick it up and drop it on Jordan. Jordan holds 4 Israels. Syria, just over 8. Now it gets bigger. Egypt, 1, 2, 3. Egypt holds 45 Israels. Saudi Arabia, about 100. 100 Israels in one country. Now the whole Arab League, from Morocco to Oman, 593 Israels. Every copy a true size. Size isn't everything. But it explains why every color matrix here matters. Which country should I drop Israel on next? If you love Israeli facts, follow Noam Raz for more. Count it again.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 42.12,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [],
+ "render_s": 204.8
 }
