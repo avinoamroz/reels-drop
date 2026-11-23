@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "pet_story",
  "hook": "Which dog is|*Israel?* *6* clues.",
- "duration": 67.57,
+ "duration": 61.87,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -1.4
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/israel_dog.mp4",
@@ -77,7 +77,7 @@
   }
  ],
  "transcript": {
-  "score": 0.97,
+  "score": 0.951,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -86,49 +86,49 @@
     "flag": "ok"
    },
    {
-    "line": "Clue one: small. About 22,000 square kilometres. Roughly New Jersey.",
-    "score": 0.75,
-    "flag": "MISS"
-   },
-   {
-    "line": "Clue two: smart. 6.3% of its economy goes into research. Number one among rich countries.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Clue three: loyal. Since 1948, about 3.4 million immigrants came home.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Clue four: guards the house. Iron Dome stops over 90% of the rockets aimed at its cities.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "Clue five: blamed for every bark. From 2015 to 2023, the United Nations General Assembly passed 154 resolutions against Israel. The rest of the world combined? ",
-    "score": 0.974,
-    "flag": "ok"
-   },
-   {
-    "line": "Clue six: a desert dog that found water. Drip irrigation was born here, in 1965.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "And it shares the bowl: in 2021, it doubled the water it sends Jordan.",
-    "score": 1.0,
-    "flag": "ok"
-   },
-   {
-    "line": "So which breed? A Belgian Malinois. Small, tireless, smart, protective.",
+    "line": "Small. About 22,000 square kilometres. Roughly New Jersey.",
     "score": 0.9,
     "flag": "ok"
    },
    {
-    "line": "It's the main breed in the Israeli army's dog unit, Oketz.",
-    "score": 0.909,
+    "line": "Smart. 6.3% of its economy goes into research. Number one among rich countries.",
+    "score": 1.0,
     "flag": "ok"
+   },
+   {
+    "line": "Loyal. Since 1948, about 3.4 million immigrants came home.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Guards the house. Iron Dome stops over 90% of rockets aimed at its cities.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Blamed for every bark. From 2015 to 2023, the United Nations General Assembly passed 154 resolutions against Israel. Everyone else combined? 71.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A desert dog that found water: drip irrigation was born here, in 1965.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "And it shares the bowl: in 2021, it doubled the water it sends Jordan.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "The breed? A Belgian Malinois.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Small, tireless, smart, protective. The main breed in the Israeli army's dog unit, <<ˈ|oʊ|k|ɛ|t|s>>.",
+    "score": 0.765,
+    "flag": "MISS"
    },
    {
     "line": "No dog is perfect. Judge it like every other dog on the street.",
@@ -146,14 +146,14 @@
     "flag": "ok"
    }
   ],
-  "heard": "Which dog is Israel? Six clues. Who won? Small. About 22,000 square kilometers. Roughly New Jersey. Clue 2. Smart. 6.3% of its economy goes into research. Number 1 among rich countries. Clue 3. Loyal. Since 1948, about 3.4 million immigrants came home. Clue 4. Guards the house. Iron Dome stops over 90% of the rockets aimed at its cities. Clue 5. Bloom for every bark. From 2015 to 2023, the United Nations General Assembly passed 154 resolutions against Israel. The rest of the world combined? 71. 26. A desert dog that found water. Drip Irrigation was born here in 1965. And it shares the bowl. In 2021, it doubled the water it sends Jordan. So much breed. A Belgian Malinois. Small, tireless, smart, protective. It's the main breed in the Israeli Army's dog unit. Okayz. No dog is perfect. Judge it like every other dog on the street. What dog would your country be? If you love Israeli facts, follow Noam Roz for more. Now you know the answer to it.",
+  "heard": "Which dog is Israel? Six clues, small. About 22,000 square kilometers, roughly New Jersey, smart. 6.3% of its economy goes into research, number one among rich countries, loyal. Since 1948, about 3.4 million immigrants came home, guards the house. Iron Dome stops over 90% of rockets aimed at its cities, blamed for every bark. From 2015 to 2023, the United Nations General Assembly passed 154 resolutions against Israel. Everyone else combined? 71. A this dog that found water. Drip irrigation was born here in 1965, and it shares the bull. In 2021, it doubled the water at St. Jordan. The breed? A Belgian Malinois. Small, tireless, smart, protective. The main breed in the Israeli Army's dog unit? Focus. No dog is perfect. Judge it like every other dog on the street. What dog would your country be? If you love Israeli facts, follow. No, I'm Ross for more now, you know the answer to",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
   "lufs": -16.0,
-  "true_peak": -1.4
+  "true_peak": -1.9
  },
  "photos": [
   {
@@ -174,5 +174,5 @@
   }
  ],
  "lint_warnings": [],
- "render_s": 124.9
+ "render_s": 119.9
 }
