@@ -1,0 +1,149 @@
+{
+ "id": "rescue_16_babies",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*16* babies born|in a *tent*",
+ "duration": 56.0,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -0.6
+ },
+ "outputs": {
+  "mp4": "out/rescue_16_babies.mp4",
+  "cover": "covers/rescue_16_babies_cover.jpg",
+  "preview": "previews/rescue_16_babies_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/rescue_16_babies_0.jpg",
+  "1": "out/frames/rescue_16_babies_1.jpg",
+  "3": "out/frames/rescue_16_babies_3.jpg",
+  "last": "out/frames/rescue_16_babies_last.jpg"
+ },
+ "caption_en": "The first patient in Japan is the part that got me. 🏥\n\n🇭🇹 Haiti, January 2010: after the earthquake, the Israel Defense Forces (IDF) field hospital in Port-au-Prince treated 1,102 people, performed 314 surgeries and delivered 16 babies before it closed on 25 January (Ynet, 2010).\n🇯🇵 Japan, March 2011: after the tsunami, an IDF medical delegation opened a clinic in Minamisanriku. Its first patient was the town's mayor (Israel MFA, via Jewish Virtual Library).\n🇺🇸 Florida, June 2021: the IDF Home Front Command search and rescue team flew to the Surfside condo collapse and worked beside US teams (NPR, 2021).\n🇹🇷 Turkey, February 2023: in Operation Olive Branches, IDF teams rescued 19 people from the rubble (Jerusalem Post, 2023).\n🏥 2016: the World Health Organization (WHO) recognised the IDF field hospital as the first team in the world at its top level, Type 3 (JTA, 2016).\n⚓ The first IDF relief mission: Greece, after the 1953 Ionian earthquakes (IDF via JNS, 2026).\n\nMany countries send rescue teams. Israel is one of them.\n\nShould every country keep a team like this? Tell me below.\n\nSources: Ynet 2010; Israel MFA / Jewish Virtual Library 2011; NPR 2021; Jerusalem Post 2023; JTA 2016; JNS 2026.\nPhotos (Wikimedia Commons): Israel Defense Forces (CC BY 2.0); Miami-Dade Fire Rescue (public domain); IDF Spokesperson's Unit (CC BY-SA 3.0). Map: Natural Earth. Made with AI tools, AI voice.",
+ "caption_he": "16 תינוקות נולדו באוהל.\n🇭🇹 האיטי, 2010: בית החולים השדה של צה\"ל טיפל ב-1,102 איש, ביצע 314 ניתוחים, ו-16 תינוקות נולדו בו.\n🇯🇵 יפן, 2011: אחרי הצונאמי נפתחה מרפאה ישראלית במינאמיסנריקו. המטופל הראשון: ראש העיר.\n🇺🇸 פלורידה, 2021: יחידת החילוץ של פיקוד העורף טסה לקריסת הבניין בסרפסייד ועבדה לצד הצוותים האמריקאים.\n🇹🇷 טורקיה, 2023: במבצע ענפי זית חילצו צוותי צה\"ל 19 איש מההריסות.\nב-2016 ארגון הבריאות העולמי דירג את בית החולים השדה של צה\"ל כצוות הראשון בעולם ברמה הגבוהה ביותר.\nומשימת הסיוע הראשונה? יוון, 1953. ישראל הייתה בת חמש.\nהרבה מדינות שולחות צוותי חילוץ. ישראל היא אחת מהן.\nהאם לכל מדינה צריך להיות צוות כזה? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#SearchAndRescue",
+  "#Humanitarian"
+ ],
+ "sources": [
+  {
+   "label": "Ynet, IDF hospital in Haiti ends operations",
+   "year": 2010,
+   "at": "L1",
+   "until": "L3"
+  },
+  {
+   "label": "Israel MFA via Jewish Virtual Library",
+   "year": 2011,
+   "at": "L3",
+   "until": "L5"
+  },
+  {
+   "label": "NPR; IDF Home Front Command",
+   "year": 2021,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Jerusalem Post, Operation Olive Branches",
+   "year": 2023,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "JTA, WHO Type 3 rating",
+   "year": 2016,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "IDF via JNS, World Humanitarian Day",
+   "year": 2026,
+   "at": "L8",
+   "until": "L9"
+  }
+ ],
+ "transcript": {
+  "score": 0.982,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Sixteen babies, born in a tent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Haiti, 2010. An earthquake flattens Port-au-Prince. Israel flies in a field hospital.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Before it packs up, it treats 1,102 people, runs 314 surgeries, and delivers those 16 babies.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Japan, 2011. After the tsunami, an Israeli clinic opens in Minamisanriku.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Its first patient? The town's mayor.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Florida, 2021. A tower collapses in Surfside. Israel's rescue unit flies in to search beside American teams.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey, 2023. A huge earthquake. Israeli teams pull 19 people out of the rubble.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2016, the World Health Organization rated Israel's field hospital the first team in the world at its top level.",
+    "score": 0.957,
+    "flag": "ok"
+   },
+   {
+    "line": "And the very first mission? Greece, 1953. Israel was five years old.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Many countries send rescue teams. Israel is one of them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Should every country keep a team like this? Tell me below.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Remember Haiti?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "16 babies. Born in a tent. Haiti, 2010. An earthquake flattens Port-au-Prince. Israel flies in a field hospital. Before it packs up, it treats 1,102 people, runs 314 surgeries, and delivers those 16 babies. Japan, 2011. After the tsunami, an Israeli clinic opens in Minama, San Riku. Its first patient, the town's mayor. Florida, 2021. A tower collapses Surfside. Israel's rescue unit flies in to search beside American teams. Turkey, 2023, a huge earthquake. Israeli teams pull 19 people out of the rubble. In 2016, the World Health Organization raided Israel's field hospital, the first team in the world at its top level. And the very first mission, Greece, 1953. Israel was five years old. Many countries send rescue teams. Israel is one of them. Should every country keep a team like this? Tell me below. If you If you love Israeli facts, follow Noam Roz for more. Remember Haiti.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 54.51,
+ "opener": {
+  "style": "globe_spin_night",
+  "opener_s": 2.4,
+  "narration_starts": 1.5
+ },
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 302.0
+}
