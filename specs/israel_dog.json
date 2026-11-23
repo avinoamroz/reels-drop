@@ -5,7 +5,6 @@
  "hook": "Which dog is|*Israel?* *6* clues.",
  "music": {"bed": "bounce", "lufs": -16},
  "voice": {"tempo": 1.1, "lead": 0.1, "gap": 0.14},
- "subs_replace": {"<<ˈ|oʊ|k|ɛ|t|s>>": "Oketz"},
  "lines": [
   {"say": "Which dog is Israel? Six clues.", "gap": 0.2},
   {"say": "Small. About 22,000 square kilometres. Roughly New Jersey.", "screen": "Clue 1: *small*"},
@@ -16,8 +15,8 @@
   {"say": "A desert dog that found water: drip irrigation was born here, in 1965.", "screen": "Clue 6: *finds water*"},
   {"say": "And it shares the bowl: in 2021, it doubled the water it sends Jordan.", "screen": "It *shares* the bowl"},
   {"say": "The breed? A Belgian Malinois.", "screen": "*Belgian Malinois*", "until": "L10"},
-  {"say": "Small, tireless, smart, protective. The main breed in the Israeli army's dog unit, <<ˈ|oʊ|k|ɛ|t|s>>."},
-  {"say": "No dog is perfect. Judge it like every other dog on the street.", "gap": 0.15},
+  {"say": "The main breed in the Israeli army's dog unit."},
+  {"say": "No dog is perfect. Same rules for every dog.", "gap": 0.15},
   {"say": "What dog would your country be?", "screen": "What dog would *your* country be?"},
   {"follow": true, "until": "L13"},
   {"say": "Now you know the answer to:"}
@@ -47,8 +46,8 @@
    {"at": "L5:passed", "until": "L6", "kind": "num", "value": 154, "from": 0, "sub": "vs *71* for the rest of the world"},
    {"at": "L6:drip", "until": "L7", "kind": "photo", "file": "photos/mw_drip.jpg", "credit": "Juandev, CC BY-SA 3.0, Wikimedia Commons", "kb": [0.5, 0.5, 1.0, 0.45, 0.55, 1.15]},
    {"at": "L7:doubled", "until": "L8", "kind": "num", "value": 2, "from": 1, "suffix": "x", "sub": "water for *Jordan* since 2021"},
-   {"at": "L8:malinois", "until": "L9:the", "kind": "text", "text": "Small. Tireless. *Smart.* Protective."},
-   {"at": "L9:the", "until": "L10", "kind": "text", "text": "Israel's army dog unit: *Oketz*"}
+   {"at": "L8:malinois", "until": "L9", "kind": "text", "text": "Small. Tireless. *Smart.* Protective."},
+   {"at": "L9", "until": "L10", "kind": "text", "text": "Israel's army dog unit: *Oketz*"}
   ]
  },
  "sources": [
