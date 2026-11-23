@@ -22,8 +22,8 @@
    "until": "L2"
   },
   {
-   "say": "West Bank and Gaza shaded, not counted. Now, let's go far.",
-   "screen": "West Bank and Gaza: *not counted*",
+   "say": "Judea and Samaria, also called the West Bank, and Gaza are shaded, not counted. Now, let's go far.",
+   "screen": "Judea and Samaria (West Bank) and Gaza: *not counted*",
    "until": "L2:now"
   },
   {
@@ -276,7 +276,7 @@
   "balance": "Size isn't everything. Plenty of this is *ice and sand.*",
   "cta": "Where on Earth next?"
  },
- "caption_en": "The biggest one isn't a country. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). West Bank and Gaza shaded, not counted.\n\nHow many times it fits:\n🇬🇱 Greenland 2,166,086 km²: 98x (Saudi Arabia is about 100x)\n🇦🇺 Australia 7,692,024 km²: 348x\n🇧🇷 Brazil 8,510,417 km²: 386x\n(UN Statistics Division, Demographic Yearbook 2024)\n🏜️ The Sahara, about 8.6 million km² (Britannica): about 390x. Its edges are fuzzy, so treat it as an estimate.\n🧊 Antarctica, about 14.2 million km² (Britannica, NASA): about 643x\n\nEvery copy is drawn at true size for its latitude, even at the South Pole (equal area map, no Mercator stretch).\n\nSize isn't everything. Plenty of this is ice and sand.\nWhere on Earth should I drop Israel next?\n\nPart 4 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
+ "caption_en": "The biggest one isn't a country. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). Judea and Samaria (West Bank) and Gaza shaded, not counted.\n\nHow many times it fits:\n🇬🇱 Greenland 2,166,086 km²: 98x (Saudi Arabia is about 100x)\n🇦🇺 Australia 7,692,024 km²: 348x\n🇧🇷 Brazil 8,510,417 km²: 386x\n(UN Statistics Division, Demographic Yearbook 2024)\n🏜️ The Sahara, about 8.6 million km² (Britannica): about 390x. Its edges are fuzzy, so treat it as an estimate.\n🧊 Antarctica, about 14.2 million km² (Britannica, NASA): about 643x\n\nEvery copy is drawn at true size for its latitude, even at the South Pole (equal area map, no Mercator stretch).\n\nSize isn't everything. Plenty of this is ice and sand.\nWhere on Earth should I drop Israel next?\n\nPart 4 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
  "caption_he": "גרינלנד: פי 98, כמעט כמו סעודיה. אוסטרליה: פי 348. ברזיל: פי 386. הסהרה: בערך פי 390 (הגבולות שלה לא חדים, אז זו הערכה). אנטארקטיקה: בערך פי 643. גודל זה לא הכול. הרבה מזה קרח וחול. לאן בעולם להפיל את ישראל בפעם הבאה?",
  "hashtags": [
   "#Israel",
@@ -287,5 +287,5 @@
   "t": 4.0,
   "text": "How many|*Israels* in Antarctica?"
  },
- "rev": 4
+ "rev": 5
 }

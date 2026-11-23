@@ -22,8 +22,8 @@
    "until": "L2"
   },
   {
-   "say": "West Bank and Gaza shaded, not counted. First stop: Wales.",
-   "screen": "West Bank and Gaza: *not counted*",
+   "say": "Judea and Samaria, also called the West Bank, and Gaza are shaded, not counted. First stop: Wales.",
+   "screen": "Judea and Samaria (West Bank) and Gaza: *not counted*",
    "until": "L2:first"
   },
   {
@@ -254,7 +254,7 @@
   "balance": "Size isn't everything. Land isn't *people*.",
   "cta": "Which country is next?"
  },
- "caption_en": "One of these is smaller than Israel. Guess which. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). West Bank and Gaza shaded, not counted.\n\nHow many times it fits:\n🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales 20,783 km² (ONS Standard Area Measurements, 2024): 0.94x, so Israel is about 6% bigger\n🇬🇧 United Kingdom 244,376 km²: 11x\n🇩🇪 Germany 357,581 km²: 16x\n🇷🇺 Russia 17,098,246 km²: 775x\n(UN Statistics Division, Demographic Yearbook 2024)\n\nNo map trick: every copy is drawn at true size for its latitude, Arctic included (equal area map, no Mercator stretch).\n\nSize isn't everything. Russia has 775 times the land, not 775 times the people.\nWhich European country should I drop Israel on next?\n\nPart 3 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
+ "caption_en": "One of these is smaller than Israel. Guess which. 🗺️\n\nIsrael at true size: 22,072 km², incl. the Golan Heights and East Jerusalem (Israel Central Bureau of Statistics, 2023). Judea and Samaria (West Bank) and Gaza shaded, not counted.\n\nHow many times it fits:\n🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales 20,783 km² (ONS Standard Area Measurements, 2024): 0.94x, so Israel is about 6% bigger\n🇬🇧 United Kingdom 244,376 km²: 11x\n🇩🇪 Germany 357,581 km²: 16x\n🇷🇺 Russia 17,098,246 km²: 775x\n(UN Statistics Division, Demographic Yearbook 2024)\n\nNo map trick: every copy is drawn at true size for its latitude, Arctic included (equal area map, no Mercator stretch).\n\nSize isn't everything. Russia has 775 times the land, not 775 times the people.\nWhich European country should I drop Israel on next?\n\nPart 3 of 4. Part 1 (the neighbours) on my profile.\nMap data: Natural Earth. Made with AI tools.",
  "caption_he": "ישראל גדולה מוויילס בכ-6%. בריטניה: פי 11. גרמניה: פי 16. רוסיה: פי 775. בלי טריק של מפות: כל עותק בגודל אמיתי, גם בקוטב הצפוני. גודל זה לא הכול: לרוסיה יש פי 775 שטח, לא פי 775 אנשים. על איזו מדינה באירופה להפיל את ישראל בפעם הבאה?",
  "hashtags": [
   "#Israel",
@@ -265,5 +265,5 @@
   "t": 4.0,
   "text": "How many|*Israels* in Russia?"
  },
- "rev": 4
+ "rev": 5
 }

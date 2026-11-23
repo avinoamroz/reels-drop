@@ -250,10 +250,12 @@ def run(S):
         for w0, w1 in HOMEW:
             ha = win(t, w0, w1, 0.3, 0.3)
             if ha > 0.01:
-                for lab, lo, la, dx in (("Israel", 34.9, 30.7, 200), ("West Bank", 35.3, 32.0, 200), ("Gaza", 34.4, 31.45, -170)):
+                for lab, lo, la, dx in (("Israel", 34.9, 30.7, 200), ("Judea and Samaria|(West Bank)", 35.3, 32.0, 250), ("Gaza", 34.4, 31.45, -170)):
                     pts, _ = P(np.array([[lo, la]])); x, y = pts[0]
                     cv.line([(x, y), (x + dx * 0.55, y)], "#FFFFFF", 3, 0.8 * ha)
-                    WG.tag(cv, lab, x + dx, y, 46, YEL if lab == "Israel" else "#C9D6EA", ha)
+                    parts = lab.split("|")             # Noam 23 Nov: "Judea and Samaria (West Bank)", stacked on two tags
+                    for j, part in enumerate(parts):
+                        WG.tag(cv, part, x + dx, y + (j - (len(parts) - 1) / 2) * 62, 44 if len(parts) > 1 else 46, YEL if lab == "Israel" else "#C9D6EA", ha)
         for g in TAGS:
             ga = win(t, g["t0"] - 0.1, g["t1"], 0.3, 0.3)
             if ga > 0.01:
