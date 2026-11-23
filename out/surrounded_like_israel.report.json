@@ -1,0 +1,186 @@
+{
+ "id": "surrounded_like_israel",
+ "account": "noamroz__",
+ "template": "israel_fits",
+ "hook": "Surround France like *Israel?*|*593x.* Impossible.",
+ "duration": 61.2,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/surrounded_like_israel.mp4",
+  "cover": "covers/surrounded_like_israel_cover.jpg",
+  "preview": "previews/surrounded_like_israel_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/surrounded_like_israel_0.jpg",
+  "1": "out/frames/surrounded_like_israel_1.jpg",
+  "3": "out/frames/surrounded_like_israel_3.jpg",
+  "last": "out/frames/surrounded_like_israel_last.jpg"
+ },
+ "caption_en": "The last ring is the one nobody expects. 🌍\n\nIsrael: 22,072 km² (Israel CBS, incl. Golan Heights and East Jerusalem; Judea and Samaria (West Bank) and Gaza not counted). The Arab League: about 13.09 million km², 593 times Israel's area (UN Demographic Yearbook 2024). Population: about 503 million (World Bank, Arab World, 2025) vs 10.18 million (Israel CBS, end of 2025), about 49 times.\n\nSame ratio for France: metropolitan France 551,695 km² (IGN) x 593 = 327 million km² of neighbours. All the land on Earth: 148.94 million km² (CIA World Factbook). France would need 2.2 planets of land, and 3.3 billion neighbours (66.8M x 49, INSEE 2026), about 4 in 10 people alive (UN World Population Prospects 2024).\nThe USA: 9,833,517 km² (CIA World Factbook) x 593 = 5.8 billion km², 39 planets of land. 341.8M people (US Census Bureau 2025) x 49 = about 17 billion, twice humanity.\nEven with a smaller set (the Middle East incl. Iran and Turkey, about 329 times Israel), France would still need 181 million km², more than all land on Earth.\n\nNot every neighbour is an enemy: Egypt (1979) and Jordan (1994) signed peace treaties; the United Arab Emirates, Bahrain and Morocco joined the Abraham Accords in 2020. But in 1948 five Arab armies invaded (Egypt, Transjordan, Syria, Lebanon, Iraq), and since October 2023 Iran's regime and its proxies HAMAS, Hezbollah and the Houthis have fired at Israel.\nPeace is growing. The threats are real.\n\nWhich country would you surround next? Tell me in the comments.\n\nPhotos: Tsvika Israeli and Yaakov Saar, GPO, CC BY-SA 3.0; The White House, public domain; The Palestine Post 16 May 1948, public domain; Israel Defense Forces, CC BY 2.0; all via Wikimedia Commons. Map data: Natural Earth, equal-area projection. Made with AI tools.",
+ "caption_he": "מה אם צרפת הייתה מוקפת כמו ישראל? ישראל: 22,072 קמ״ר (הלמ״ס, כולל רמת הגולן ומזרח ירושלים; יהודה ושומרון (הגדה המערבית) ועזה לא נספרו). הליגה הערבית גדולה ממנה פי 593, ויש בה בערך פי 49 אנשים. באותו יחס, צרפת הייתה צריכה 327 מיליון קמ״ר של שכנים, יותר מכפליים מכל היבשה על כדור הארץ (149 מיליון קמ״ר), ו־3.3 מיליארד שכנים. ארה״ב הייתה צריכה 39 כדורי ארץ של יבשה ו־17 מיליארד שכנים. לא כל השכנים אויבים: מצרים (1979) וירדן (1994) חתמו על שלום, ואיחוד האמירויות, בחריין ומרוקו הצטרפו להסכמי אברהם ב־2020. אבל ב־1948 פלשו חמישה צבאות ערביים, ומאז אוקטובר 2023 משטר איראן ושלוחיו, HAMAS, חיזבאללה והחות׳ים, יורים על ישראל. השלום מתרחב. האיומים אמיתיים. איזו מדינה הייתם מקיפים עכשיו?",
+ "hashtags": [
+  "#Israel",
+  "#Maps",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "Israel CBS: 22,072 km², incl. Golan Heights and East Jerusalem",
+   "year": 2023,
+   "at": "L1",
+   "until": "L2"
+  },
+  {
+   "label": "UN Demographic Yearbook: Arab League 13.09M km², 593x Israel",
+   "year": 2024,
+   "at": "L2",
+   "until": "L3"
+  },
+  {
+   "label": "World Bank 2025: Arab World 503M people. Israel CBS 2025: 10.18M",
+   "at": "L3",
+   "until": "L4",
+   "year": 2025
+  },
+  {
+   "label": "IGN: metropolitan France 551,695 km². CIA World Factbook: Earth's land 148.94M km²",
+   "at": "L4",
+   "until": "L9",
+   "year": 2025
+  },
+  {
+   "label": "INSEE 2026: France (metropolitan) 66.8M. UN World Population Prospects 2024",
+   "at": "L9",
+   "until": "L10",
+   "year": 2026
+  },
+  {
+   "label": "CIA World Factbook: US 9,833,517 km². US Census Bureau 2025: 341.8M",
+   "at": "L10",
+   "until": "L11",
+   "year": 2025
+  },
+  {
+   "label": "Peace treaties: Egypt 1979, Jordan 1994. Abraham Accords 2020, US State Dept",
+   "at": "L11",
+   "until": "L13",
+   "year": 2020
+  },
+  {
+   "label": "1948: Britannica. Attacks since Oct 2023: IDF, Reuters",
+   "at": "L13",
+   "until": "L15",
+   "year": 2025
+  }
+ ],
+ "transcript": {
+  "score": 0.972,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Surround France like Israel? Impossible.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This is Israel. 22,072 square kilometres.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "The Arab League around it? 593 times bigger.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "With about 49 times the people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now give France the same ratio.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "France would need 327 million square kilometres of neighbours.",
+    "score": 0.846,
+    "flag": "ok"
+   },
+   {
+    "line": "Goodbye, Europe. Goodbye, Africa. Goodbye, Atlantic.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's every piece of land on Earth. 149 million.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Even the whole planet isn't enough.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And 3.3 billion neighbours. Four in ten people alive.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "America? 39 planets of land. 17 billion people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now, not every neighbour is an enemy.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt and Jordan signed peace. The United Arab Emirates, Bahrain and Morocco joined the Abraham Accords in 2020.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But in 1948, five Arab armies invaded.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Since October 2023, Iran's regime and its proxies, HAMAS, Hezbollah and the Houthis, have fired at Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Peace is growing. The threats are real.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which country would you surround next?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, let's try it one more time.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Surround France like Israel? Impossible. This is Israel. 22,072 square kilometers. The Arab League around it? 593 times bigger. With about 49 times the people. Now give France the same ratio. France would need 327 million square kilometers of neighbors. Goodbye, Europe. Goodbye, Africa. Goodbye, Atlantic. That's every piece of land on Earth. 149 million. Even the whole planet isn't enough. And 3.3 billion neighbors. 4 in 10 people alive. America, 39 planets of land, 17 billion people. Now, not every neighbor is an enemy. Egypt and Jordan signed peace. The United Arab Emirates, Bahrain and Morocco joined the Abraham Accords in 2020. But in 1948, five Arab armies invaded. Since October 2023, Iran's regime and its proxies, Hamas, Hezbollah, and the Houthis, have fired at Israel. Peace is growing. The threats are real. Which country would you surround next? If you love Israeli facts, follow Look, no amras for more. So let's try it one more time.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 61.21,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 192.7
+}
