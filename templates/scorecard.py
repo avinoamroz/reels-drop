@@ -17,6 +17,7 @@ data keys:
   focus_until  rows mode: anchor where the row glow stops (default: the first verdict or the end card)
   photos    [{file, credit, at, until, kb}]  full-bleed real photo between beats (repo path, pulled into the sparse CI
             checkout if missing), slow Ken Burns, table fades out under it, "Photo: <credit>" line
+  marks     with score false: Y sky tick, P sky ring + half dot, N faint grey ring (no green/red judgement)
   rows[].flag "SY" is drawn by hand as the current Syrian flag (green, white, black, three red stars, since 2025):
             the emoji font on the runner still has the old flag
 """
@@ -56,6 +57,23 @@ def _star5(cv, x, y, r, col, a):
     c = cv.c; c.move_to(*pts[0])
     for q in pts[1:]: c.line_to(*q)
     c.close_path(); cv.col(col, a); c.fill()
+
+
+def theme_mark(cv, kind, cx, cy, r, a, sc):
+    """score: false (themes, nothing is better or worse): Y = sky dot with a white tick, P = sky ring with a half dot,
+    N = faint grey ring (not in the text). No green/red judgement."""
+    if a <= 0.01 or sc <= 0.01: return
+    r *= sc
+    if kind == "Y":
+        cv.circ(cx, cy, r, "#45A4DD", a)
+        cv.line([(cx - r * 0.45, cy + r * 0.02), (cx - r * 0.12, cy + r * 0.36), (cx + r * 0.5, cy - r * 0.34)], "#FFFFFF", r * 0.22, a)
+    elif kind == "P":
+        _ring(cv, cx, cy, r - 2.5, "#45A4DD", 5, a); cv.circ(cx, cy, r * 0.42, "#45A4DD", a)
+    else: _ring(cv, cx, cy, r * 0.8, "#6B7B95", 4, a)
+
+
+def _ring(cv, x, y, r, col, lw, a):
+    c = cv.c; c.new_path(); c.arc(x, y, r, 0, 2 * math.pi); cv.col(col, a); c.set_line_width(lw); c.stroke(); c.new_path()
 
 
 def draw_flag(cv, code, cx, cy, sz, a):
@@ -128,7 +146,8 @@ def run(S):
                     if cell is None:
                         cv.rrect(cx[k] - 58, y - 24, 116, 48, 24, "#5B6B85", ta * min(1, p))
                         cv.text("no data", cx[k], y, 36, WHITE, ta * min(1, p), bold=True, maxw=110, minsz=36)
-                    else: WG.mark(cv, cell, cx[k], y, 34, ta, p); sc += SC[cell] * min(1, (t - t_) / 0.3)
+                    elif SCORE: WG.mark(cv, cell, cx[k], y, 34, ta, p); sc += SC[cell] * min(1, (t - t_) / 0.3)
+                    else: theme_mark(cv, cell, cx[k], y, 30, ta, p)
                 done = all(t >= cell_at(k, ri) for k in range(nc))
                 sc = math.floor(sc * 2 + 1e-6) / 2
                 txt = (f"{sc:.1f}" if sc % 1 else f"{int(sc)}") + f"/{nc}"
