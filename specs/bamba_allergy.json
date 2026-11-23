@@ -1,0 +1,128 @@
+{
+ "id": "bamba_allergy",
+ "account": "noamroz__",
+ "template": "photo_story",
+ "hook": "*1* Israeli snack.|*10x* fewer allergies?",
+ "music": {
+  "bed": "bounce",
+  "lufs": -16,
+  "bed_lufs": -26,
+  "duck_db": 14
+ },
+ "voice": {
+  "tempo": 1.08,
+  "gap": 0.13,
+  "maxpause": 0.2
+ },
+ "lines": [
+  {
+   "say": "One Israeli snack. Ten times fewer peanut allergies? Here's the story.",
+   "gap": 0.2
+  },
+  {
+   "say": "Tel Aviv. A London allergist, Gideon Lack, gives a lecture. Very few of the doctors there have ever seen a child with peanut allergy.",
+   "screen": "Peanut allergy? *Rarely seen*"
+  },
+  {
+   "say": "Why? Israeli babies eat Bamba in their first year. Puffed corn, coated in peanut butter.",
+   "screen": "Israeli babies eat *Bamba*"
+  },
+  {
+   "say": "Fun fact: Bamba launched in 1964 as a cheese snack. It flopped. Peanut butter saved it.",
+   "screen": "*1964:* the cheese flop"
+  },
+  {
+   "say": "So his team compared Jewish children in Britain and in Israel. Same heritage. Different snack.",
+   "screen": "Same heritage. *Different snack.*"
+  },
+  {
+   "say": "In Britain, 1.85 percent had a peanut allergy. In Israel, 0.17 percent. About ten times fewer.",
+   "screen": "*1.85%* vs *0.17%*"
+  },
+  {
+   "say": "Israeli babies ate a median of 7 grams of peanut protein a month. British babies? Zero.",
+   "screen": "*7 g* a month vs *0*"
+  },
+  {
+   "say": "That was an observation. So they ran a real trial, called LEAP: babies at high risk, fed peanut from infancy to age five.",
+   "screen": "The *LEAP* trial"
+  },
+  {
+   "say": "The result: up to 81 percent fewer peanut allergies.",
+   "screen": "Up to *81%* fewer"
+  },
+  {
+   "say": "In 2017, America flipped its advice. Peanut early, not late.",
+   "screen": "*2017:* the advice flips"
+  },
+  {
+   "say": "And in 2024, the kids from the trial were teenagers. Still protected.",
+   "screen": "*2024:* still protected"
+  },
+  {
+   "say": "Bamba isn't medicine. Ask your paediatrician before giving peanut to a baby.",
+   "screen": "Ask your *paediatrician* first"
+  },
+  {
+   "say": "Did you grow up on Bamba? Tell me below.",
+   "screen": "Grew up on *Bamba?*"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "And it all started with",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cut": 0.25,
+  "hook_y": 900,
+  "title_y": 300,
+  "photos": [
+   {"file": "templates/photos/bz/bz_bamba_snack.jpg", "at": 0.0, "credit": "Bamba: Nsaum75, CC BY-SA 3.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12]},
+   {"file": "templates/photos/bz/bz_tlv.jpg", "at": "L1", "credit": "Tel Aviv promenade: Davidi Vardi, PikiWiki, CC BY 2.5", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]},
+   {"file": "templates/photos/bz/bz_bamba_snack.jpg", "at": "L2", "credit": "Bamba: Nsaum75, CC BY-SA 3.0", "kb": [0.45, 0.5, 1.15, 0.55, 0.5, 1.35]},
+   {"file": "templates/photos/bz/bz_bamba_baby.jpg", "at": "L3", "credit": "Bamba mascot, Osem HQ: David Shay, CC BY-SA 4.0", "kb": [0.5, 0.45, 1.0, 0.5, 0.45, 1.12]},
+   {"file": "templates/photos/bz/bz_kcl.jpg", "at": "L4", "credit": "Guy's Campus, King's College London: Flaming Ferrari, public domain", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]},
+   {"file": "templates/photos/bz/bz_peanuts.jpg", "at": "L5", "credit": "Peanuts: Ivar Leidus, CC BY-SA 4.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.12], "dim": 0.45},
+   {"file": "templates/photos/bz/bz_kcl.jpg", "at": "L7", "credit": "Guy's Campus, King's College London: Flaming Ferrari, public domain", "kb": [0.5, 0.5, 1.15, 0.5, 0.5, 1.0], "dim": 0.35},
+   {"file": "templates/photos/bz/bz_peanuts.jpg", "at": "L8", "credit": "Peanuts: Ivar Leidus, CC BY-SA 4.0", "kb": [0.4, 0.5, 1.2, 0.6, 0.5, 1.4], "dim": 0.45},
+   {"file": "templates/photos/bz/bz_nih.jpg", "at": "L9", "credit": "NIH Clinical Center: NIH, public domain", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]},
+   {"file": "templates/photos/bz/bz_tlv.jpg", "at": "L10", "credit": "Tel Aviv promenade: Davidi Vardi, PikiWiki, CC BY 2.5", "kb": [0.5, 0.5, 1.15, 0.5, 0.5, 1.0], "dim": 0.4},
+   {"file": "templates/photos/bz/bz_bamba_snack.jpg", "at": "L14-0.2", "credit": "Bamba: Nsaum75, CC BY-SA 3.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.0]}
+  ],
+  "math": [
+   {"at": "L5", "until": "L6-0.1", "title": "Peanut allergy, Jewish schoolchildren", "rows": ["Britain: 1.85% (5,171 kids)", "Israel: 0.17% (5,615 kids)"], "result": "About 10x fewer", "y": 820}
+  ],
+  "big": [
+   {"at": "L6:median", "until": "L7-0.1", "value": 7, "from": 0, "suffix": " g", "sub": "peanut protein a month, Israeli babies (UK: 0)", "y": 1000},
+   {"at": "L8:up", "until": "L9-0.1", "value": 81, "from": 0, "suffix": "%", "sub": "fewer peanut allergies, LEAP trial", "y": 1000},
+   {"at": "L10:still", "until": "L11-0.1", "value": 71, "from": 0, "suffix": "%", "sub": "fewer allergies at age 12+, LEAP-Trio 2024", "y": 1000}
+  ]
+ },
+ "sources": [
+  {"label": "FARE, LEAP 10th anniversary", "year": 2025, "at": "L1", "until": "L3"},
+  {"label": "Israel Hayom", "year": 2025, "at": "L3", "until": "L4"},
+  {"label": "Du Toit et al., J Allergy Clin Immunol", "year": 2008, "at": "L4", "until": "L7"},
+  {"label": "LEAP, N Engl J Med 2015, via FARE", "year": 2015, "at": "L7", "until": "L9"},
+  {"label": "NIAID addendum guidelines", "year": 2017, "at": "L9", "until": "L10"},
+  {"label": "King's College London, LEAP-Trio", "year": 2024, "at": "L10", "until": "L11"}
+ ],
+ "end": {
+  "at": "L11",
+  "balance": "Not medicine. *Ask a doctor* before peanut for babies."
+ },
+ "caption_en": "The snack almost got cancelled in 1964. 🥜\n\nAfter a lecture in Tel Aviv, London allergist Gideon Lack noticed how few Israeli doctors had seen a child with peanut allergy. Local parents said their babies eat Bamba, a peanut butter coated corn puff, in their first year (FARE, 2025).\n📊 His team compared Jewish schoolchildren: peanut allergy in 1.85% of 5,171 in the UK vs 0.17% of 5,615 in Israel. Israeli babies aged 8 to 14 months ate a median of 7.1 g of peanut protein a month; UK babies, 0 (Du Toit et al., Journal of Allergy and Clinical Immunology, 2008). That was an observation, not proof.\n🧪 The LEAP trial (New England Journal of Medicine, 2015) then fed high risk babies peanut from 4 to 11 months until age 5: up to 81% fewer peanut allergies (FARE). The US NIAID changed its guidance in 2017. In 2024, LEAP-Trio found the protection held into adolescence: 15.4% vs 4.4%, a 71% reduction (King's College London).\n🍿 Bamba: Osem launched a cheese snack in 1964 that failed; coating it in peanut butter created Bamba (Israel Hayom, 2025).\n\n⚠️ Bamba isn't medicine. Ask your paediatrician before giving peanut to a baby, especially with eczema or egg allergy.\n\nDid you grow up on Bamba? Tell me below.\n\nSources: Du Toit et al., JACI 2008; LEAP, NEJM 2015; FARE 2025; NIAID 2017; King's College London 2024; Israel Hayom 2025.\nPhotos (Wikimedia Commons): Nsaum75 (CC BY-SA 3.0); David Shay (CC BY-SA 4.0); Davidi Vardi, PikiWiki (CC BY 2.5); Flaming Ferrari (public domain); Ivar Leidus (CC BY-SA 4.0); NIH (public domain). Made with AI tools, AI voice.",
+ "caption_he": "חטיף ישראלי אחד, פי 10 פחות אלרגיות?\nאחרי הרצאה בתל אביב, אלרגולוג מלונדון, גדעון לק, שם לב שכמעט אף רופא בחדר לא ראה ילד עם אלרגיה לבוטנים. ההורים אמרו: התינוקות אוכלים במבה בשנה הראשונה.\nהצוות שלו השווה ילדים יהודים בבריטניה ובישראל: 1.85% אלרגיה בבריטניה, 0.17% בישראל.\nאחר כך ניסוי LEAP: עד 81% פחות אלרגיה לבוטנים. ב-2017 ארה\"ב הפכה את ההמלצה, וב-2024 ההגנה עדיין החזיקה אצל בני הנוער.\nועוד משהו: במבה התחילה ב-1964 כחטיף גבינה שנכשל. חמאת בוטנים הצילה אותה.\nבמבה היא לא תרופה. לפני שנותנים בוטנים לתינוק, מתייעצים עם רופא הילדים.\nגדלתם על במבה? כתבו לי.",
+ "hashtags": [
+  "#Bamba",
+  "#Israel",
+  "#PeanutAllergy"
+ ],
+ "cover": {
+  "t": 1.0,
+  "big": "10x",
+  "text": "fewer allergies?|*1* Israeli snack"
+ }
+}
