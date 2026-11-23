@@ -1,0 +1,1360 @@
+entity,code,year,median_age__sex_all__age_all__variant_estimates,median_age__sex_all__age_all__variant_medium__projected
+Egypt,EGY,1950,19.546,
+Egypt,EGY,1951,19.586,
+Egypt,EGY,1952,19.604,
+Egypt,EGY,1953,19.605,
+Egypt,EGY,1954,19.581,
+Egypt,EGY,1955,19.517,
+Egypt,EGY,1956,19.41,
+Egypt,EGY,1957,19.278,
+Egypt,EGY,1958,19.105,
+Egypt,EGY,1959,18.882,
+Egypt,EGY,1960,18.632,
+Egypt,EGY,1961,18.383,
+Egypt,EGY,1962,18.172,
+Egypt,EGY,1963,18.018,
+Egypt,EGY,1964,17.935,
+Egypt,EGY,1965,17.926,
+Egypt,EGY,1966,17.965,
+Egypt,EGY,1967,18.011,
+Egypt,EGY,1968,18.041,
+Egypt,EGY,1969,18.058,
+Egypt,EGY,1970,18.079,
+Egypt,EGY,1971,18.105,
+Egypt,EGY,1972,18.137,
+Egypt,EGY,1973,18.177,
+Egypt,EGY,1974,18.217,
+Egypt,EGY,1975,18.25,
+Egypt,EGY,1976,18.259,
+Egypt,EGY,1977,18.254,
+Egypt,EGY,1978,18.248,
+Egypt,EGY,1979,18.235,
+Egypt,EGY,1980,18.232,
+Egypt,EGY,1981,18.243,
+Egypt,EGY,1982,18.262,
+Egypt,EGY,1983,18.288,
+Egypt,EGY,1984,18.312,
+Egypt,EGY,1985,18.33,
+Egypt,EGY,1986,18.338,
+Egypt,EGY,1987,18.347,
+Egypt,EGY,1988,18.367,
+Egypt,EGY,1989,18.4,
+Egypt,EGY,1990,18.506,
+Egypt,EGY,1991,18.626,
+Egypt,EGY,1992,18.727,
+Egypt,EGY,1993,18.851,
+Egypt,EGY,1994,18.983,
+Egypt,EGY,1995,19.138,
+Egypt,EGY,1996,19.309,
+Egypt,EGY,1997,19.488,
+Egypt,EGY,1998,19.681,
+Egypt,EGY,1999,19.885,
+Egypt,EGY,2000,20.098,
+Egypt,EGY,2001,20.316,
+Egypt,EGY,2002,20.534,
+Egypt,EGY,2003,20.755,
+Egypt,EGY,2004,20.98,
+Egypt,EGY,2005,21.212,
+Egypt,EGY,2006,21.437,
+Egypt,EGY,2007,21.65,
+Egypt,EGY,2008,21.848,
+Egypt,EGY,2009,22.035,
+Egypt,EGY,2010,22.206,
+Egypt,EGY,2011,22.382,
+Egypt,EGY,2012,22.548,
+Egypt,EGY,2013,22.686,
+Egypt,EGY,2014,22.797,
+Egypt,EGY,2015,22.878,
+Egypt,EGY,2016,22.959,
+Egypt,EGY,2017,23.048,
+Egypt,EGY,2018,23.166,
+Egypt,EGY,2019,23.328,
+Egypt,EGY,2020,23.488,
+Egypt,EGY,2021,23.636,
+Egypt,EGY,2022,23.813,
+Egypt,EGY,2023,24.028,
+Egypt,EGY,2024,,24.254
+Egypt,EGY,2025,,24.478
+Egypt,EGY,2026,,24.697
+Egypt,EGY,2027,,24.916
+Egypt,EGY,2028,,25.139
+Egypt,EGY,2029,,25.361
+Egypt,EGY,2030,,25.58
+Egypt,EGY,2031,,25.796
+Egypt,EGY,2032,,26.01
+Egypt,EGY,2033,,26.225
+Egypt,EGY,2034,,26.444
+Egypt,EGY,2035,,26.668
+Egypt,EGY,2036,,26.898
+Egypt,EGY,2037,,27.134
+Egypt,EGY,2038,,27.379
+Egypt,EGY,2039,,27.632
+Egypt,EGY,2040,,27.893
+Egypt,EGY,2041,,28.168
+Egypt,EGY,2042,,28.463
+Egypt,EGY,2043,,28.774
+Egypt,EGY,2044,,29.097
+Egypt,EGY,2045,,29.43
+Egypt,EGY,2046,,29.763
+Egypt,EGY,2047,,30.091
+Egypt,EGY,2048,,30.412
+Egypt,EGY,2049,,30.718
+Egypt,EGY,2050,,31
+Egypt,EGY,2051,,31.243
+Egypt,EGY,2052,,31.471
+Egypt,EGY,2053,,31.689
+Egypt,EGY,2054,,31.899
+Egypt,EGY,2055,,32.101
+Egypt,EGY,2056,,32.307
+Egypt,EGY,2057,,32.517
+Egypt,EGY,2058,,32.729
+Egypt,EGY,2059,,32.941
+Egypt,EGY,2060,,33.15
+Egypt,EGY,2061,,33.357
+Egypt,EGY,2062,,33.562
+Egypt,EGY,2063,,33.766
+Egypt,EGY,2064,,33.969
+Egypt,EGY,2065,,34.174
+Egypt,EGY,2066,,34.382
+Egypt,EGY,2067,,34.591
+Egypt,EGY,2068,,34.804
+Egypt,EGY,2069,,35.02
+Egypt,EGY,2070,,35.241
+Egypt,EGY,2071,,35.467
+Egypt,EGY,2072,,35.696
+Egypt,EGY,2073,,35.929
+Egypt,EGY,2074,,36.167
+Egypt,EGY,2075,,36.409
+Egypt,EGY,2076,,36.654
+Egypt,EGY,2077,,36.902
+Egypt,EGY,2078,,37.153
+Egypt,EGY,2079,,37.405
+Egypt,EGY,2080,,37.657
+Egypt,EGY,2081,,37.908
+Egypt,EGY,2082,,38.157
+Egypt,EGY,2083,,38.4
+Egypt,EGY,2084,,38.637
+Egypt,EGY,2085,,38.867
+Egypt,EGY,2086,,39.088
+Egypt,EGY,2087,,39.302
+Egypt,EGY,2088,,39.508
+Egypt,EGY,2089,,39.708
+Egypt,EGY,2090,,39.902
+Egypt,EGY,2091,,40.088
+Egypt,EGY,2092,,40.268
+Egypt,EGY,2093,,40.442
+Egypt,EGY,2094,,40.611
+Egypt,EGY,2095,,40.776
+Egypt,EGY,2096,,40.938
+Egypt,EGY,2097,,41.099
+Egypt,EGY,2098,,41.257
+Egypt,EGY,2099,,41.414
+Egypt,EGY,2100,,41.569
+Germany,DEU,1950,32.919,
+Germany,DEU,1951,32.815,
+Germany,DEU,1952,32.632,
+Germany,DEU,1953,32.693,
+Germany,DEU,1954,32.929,
+Germany,DEU,1955,33.184,
+Germany,DEU,1956,33.381,
+Germany,DEU,1957,33.663,
+Germany,DEU,1958,33.855,
+Germany,DEU,1959,33.794,
+Germany,DEU,1960,33.718,
+Germany,DEU,1961,33.723,
+Germany,DEU,1962,33.71,
+Germany,DEU,1963,33.619,
+Germany,DEU,1964,33.546,
+Germany,DEU,1965,33.45,
+Germany,DEU,1966,33.302,
+Germany,DEU,1967,33.165,
+Germany,DEU,1968,33.102,
+Germany,DEU,1969,33.094,
+Germany,DEU,1970,33.216,
+Germany,DEU,1971,33.387,
+Germany,DEU,1972,33.535,
+Germany,DEU,1973,33.747,
+Germany,DEU,1974,34.041,
+Germany,DEU,1975,34.42,
+Germany,DEU,1976,34.807,
+Germany,DEU,1977,35.166,
+Germany,DEU,1978,35.434,
+Germany,DEU,1979,35.597,
+Germany,DEU,1980,35.677,
+Germany,DEU,1981,35.729,
+Germany,DEU,1982,35.71,
+Germany,DEU,1983,35.697,
+Germany,DEU,1984,35.8,
+Germany,DEU,1985,35.926,
+Germany,DEU,1986,36.04,
+Germany,DEU,1987,36.319,
+Germany,DEU,1988,36.56,
+Germany,DEU,1989,36.585,
+Germany,DEU,1990,36.6,
+Germany,DEU,1991,36.658,
+Germany,DEU,1992,36.726,
+Germany,DEU,1993,36.838,
+Germany,DEU,1994,37.047,
+Germany,DEU,1995,37.292,
+Germany,DEU,1996,37.536,
+Germany,DEU,1997,37.776,
+Germany,DEU,1998,38.2,
+Germany,DEU,1999,38.669,
+Germany,DEU,2000,39.015,
+Germany,DEU,2001,39.373,
+Germany,DEU,2002,39.737,
+Germany,DEU,2003,40.121,
+Germany,DEU,2004,40.537,
+Germany,DEU,2005,40.95,
+Germany,DEU,2006,41.493,
+Germany,DEU,2007,42.075,
+Germany,DEU,2008,42.541,
+Germany,DEU,2009,42.92,
+Germany,DEU,2010,43.265,
+Germany,DEU,2011,43.632,
+Germany,DEU,2012,44.076,
+Germany,DEU,2013,44.487,
+Germany,DEU,2014,44.733,
+Germany,DEU,2015,44.813,
+Germany,DEU,2016,44.816,
+Germany,DEU,2017,44.889,
+Germany,DEU,2018,44.928,
+Germany,DEU,2019,44.904,
+Germany,DEU,2020,44.876,
+Germany,DEU,2021,44.923,
+Germany,DEU,2022,45.024,
+Germany,DEU,2023,45.147,
+Germany,DEU,2024,,45.287
+Germany,DEU,2025,,45.491
+Germany,DEU,2026,,45.69
+Germany,DEU,2027,,45.828
+Germany,DEU,2028,,45.984
+Germany,DEU,2029,,46.146
+Germany,DEU,2030,,46.305
+Germany,DEU,2031,,46.459
+Germany,DEU,2032,,46.613
+Germany,DEU,2033,,46.774
+Germany,DEU,2034,,46.948
+Germany,DEU,2035,,47.139
+Germany,DEU,2036,,47.349
+Germany,DEU,2037,,47.562
+Germany,DEU,2038,,47.77
+Germany,DEU,2039,,47.969
+Germany,DEU,2040,,48.135
+Germany,DEU,2041,,48.24
+Germany,DEU,2042,,48.305
+Germany,DEU,2043,,48.34
+Germany,DEU,2044,,48.343
+Germany,DEU,2045,,48.325
+Germany,DEU,2046,,48.305
+Germany,DEU,2047,,48.261
+Germany,DEU,2048,,48.175
+Germany,DEU,2049,,48.059
+Germany,DEU,2050,,47.899
+Germany,DEU,2051,,47.697
+Germany,DEU,2052,,47.497
+Germany,DEU,2053,,47.326
+Germany,DEU,2054,,47.176
+Germany,DEU,2055,,47.053
+Germany,DEU,2056,,46.958
+Germany,DEU,2057,,46.867
+Germany,DEU,2058,,46.785
+Germany,DEU,2059,,46.708
+Germany,DEU,2060,,46.643
+Germany,DEU,2061,,46.605
+Germany,DEU,2062,,46.599
+Germany,DEU,2063,,46.628
+Germany,DEU,2064,,46.686
+Germany,DEU,2065,,46.762
+Germany,DEU,2066,,46.845
+Germany,DEU,2067,,46.93
+Germany,DEU,2068,,47.008
+Germany,DEU,2069,,47.096
+Germany,DEU,2070,,47.168
+Germany,DEU,2071,,47.201
+Germany,DEU,2072,,47.221
+Germany,DEU,2073,,47.235
+Germany,DEU,2074,,47.243
+Germany,DEU,2075,,47.237
+Germany,DEU,2076,,47.221
+Germany,DEU,2077,,47.2
+Germany,DEU,2078,,47.164
+Germany,DEU,2079,,47.116
+Germany,DEU,2080,,47.06
+Germany,DEU,2081,,46.996
+Germany,DEU,2082,,46.928
+Germany,DEU,2083,,46.865
+Germany,DEU,2084,,46.809
+Germany,DEU,2085,,46.763
+Germany,DEU,2086,,46.732
+Germany,DEU,2087,,46.712
+Germany,DEU,2088,,46.7
+Germany,DEU,2089,,46.698
+Germany,DEU,2090,,46.714
+Germany,DEU,2091,,46.745
+Germany,DEU,2092,,46.783
+Germany,DEU,2093,,46.83
+Germany,DEU,2094,,46.887
+Germany,DEU,2095,,46.956
+Germany,DEU,2096,,47.034
+Germany,DEU,2097,,47.124
+Germany,DEU,2098,,47.213
+Germany,DEU,2099,,47.299
+Germany,DEU,2100,,47.387
+Israel,ISR,1950,24.466,
+Israel,ISR,1951,24.366,
+Israel,ISR,1952,24.242,
+Israel,ISR,1953,24.109,
+Israel,ISR,1954,23.992,
+Israel,ISR,1955,23.905,
+Israel,ISR,1956,23.863,
+Israel,ISR,1957,23.873,
+Israel,ISR,1958,23.939,
+Israel,ISR,1959,24.062,
+Israel,ISR,1960,24.251,
+Israel,ISR,1961,24.289,
+Israel,ISR,1962,23.993,
+Israel,ISR,1963,23.533,
+Israel,ISR,1964,23.066,
+Israel,ISR,1965,22.642,
+Israel,ISR,1966,22.322,
+Israel,ISR,1967,22.132,
+Israel,ISR,1968,22.065,
+Israel,ISR,1969,22.1,
+Israel,ISR,1970,22.215,
+Israel,ISR,1971,22.392,
+Israel,ISR,1972,22.594,
+Israel,ISR,1973,22.783,
+Israel,ISR,1974,22.966,
+Israel,ISR,1975,23.15,
+Israel,ISR,1976,23.327,
+Israel,ISR,1977,23.5,
+Israel,ISR,1978,23.668,
+Israel,ISR,1979,23.823,
+Israel,ISR,1980,23.967,
+Israel,ISR,1981,24.111,
+Israel,ISR,1982,24.244,
+Israel,ISR,1983,24.334,
+Israel,ISR,1984,24.365,
+Israel,ISR,1985,24.398,
+Israel,ISR,1986,24.446,
+Israel,ISR,1987,24.483,
+Israel,ISR,1988,24.512,
+Israel,ISR,1989,24.567,
+Israel,ISR,1990,24.806,
+Israel,ISR,1991,25.139,
+Israel,ISR,1992,25.344,
+Israel,ISR,1993,25.458,
+Israel,ISR,1994,25.558,
+Israel,ISR,1995,25.744,
+Israel,ISR,1996,25.97,
+Israel,ISR,1997,26.148,
+Israel,ISR,1998,26.326,
+Israel,ISR,1999,26.528,
+Israel,ISR,2000,26.751,
+Israel,ISR,2001,26.963,
+Israel,ISR,2002,27.167,
+Israel,ISR,2003,27.356,
+Israel,ISR,2004,27.541,
+Israel,ISR,2005,27.731,
+Israel,ISR,2006,27.905,
+Israel,ISR,2007,28.041,
+Israel,ISR,2008,28.166,
+Israel,ISR,2009,28.281,
+Israel,ISR,2010,28.376,
+Israel,ISR,2011,28.462,
+Israel,ISR,2012,28.538,
+Israel,ISR,2013,28.616,
+Israel,ISR,2014,28.697,
+Israel,ISR,2015,28.761,
+Israel,ISR,2016,28.816,
+Israel,ISR,2017,28.857,
+Israel,ISR,2018,28.89,
+Israel,ISR,2019,28.935,
+Israel,ISR,2020,28.994,
+Israel,ISR,2021,29.048,
+Israel,ISR,2022,29.086,
+Israel,ISR,2023,29.15,
+Israel,ISR,2024,,29.209
+Israel,ISR,2025,,29.231
+Israel,ISR,2026,,29.255
+Israel,ISR,2027,,29.29
+Israel,ISR,2028,,29.338
+Israel,ISR,2029,,29.393
+Israel,ISR,2030,,29.455
+Israel,ISR,2031,,29.523
+Israel,ISR,2032,,29.6
+Israel,ISR,2033,,29.692
+Israel,ISR,2034,,29.804
+Israel,ISR,2035,,29.921
+Israel,ISR,2036,,30.03
+Israel,ISR,2037,,30.141
+Israel,ISR,2038,,30.258
+Israel,ISR,2039,,30.381
+Israel,ISR,2040,,30.515
+Israel,ISR,2041,,30.661
+Israel,ISR,2042,,30.815
+Israel,ISR,2043,,30.968
+Israel,ISR,2044,,31.123
+Israel,ISR,2045,,31.283
+Israel,ISR,2046,,31.448
+Israel,ISR,2047,,31.621
+Israel,ISR,2048,,31.801
+Israel,ISR,2049,,31.98
+Israel,ISR,2050,,32.16
+Israel,ISR,2051,,32.345
+Israel,ISR,2052,,32.528
+Israel,ISR,2053,,32.699
+Israel,ISR,2054,,32.857
+Israel,ISR,2055,,33.019
+Israel,ISR,2056,,33.192
+Israel,ISR,2057,,33.356
+Israel,ISR,2058,,33.508
+Israel,ISR,2059,,33.655
+Israel,ISR,2060,,33.796
+Israel,ISR,2061,,33.934
+Israel,ISR,2062,,34.075
+Israel,ISR,2063,,34.213
+Israel,ISR,2064,,34.352
+Israel,ISR,2065,,34.494
+Israel,ISR,2066,,34.636
+Israel,ISR,2067,,34.781
+Israel,ISR,2068,,34.928
+Israel,ISR,2069,,35.076
+Israel,ISR,2070,,35.222
+Israel,ISR,2071,,35.375
+Israel,ISR,2072,,35.54
+Israel,ISR,2073,,35.713
+Israel,ISR,2074,,35.884
+Israel,ISR,2075,,36.054
+Israel,ISR,2076,,36.228
+Israel,ISR,2077,,36.4
+Israel,ISR,2078,,36.57
+Israel,ISR,2079,,36.746
+Israel,ISR,2080,,36.924
+Israel,ISR,2081,,37.106
+Israel,ISR,2082,,37.297
+Israel,ISR,2083,,37.49
+Israel,ISR,2084,,37.679
+Israel,ISR,2085,,37.869
+Israel,ISR,2086,,38.062
+Israel,ISR,2087,,38.259
+Israel,ISR,2088,,38.46
+Israel,ISR,2089,,38.665
+Israel,ISR,2090,,38.866
+Israel,ISR,2091,,39.058
+Israel,ISR,2092,,39.244
+Israel,ISR,2093,,39.426
+Israel,ISR,2094,,39.607
+Israel,ISR,2095,,39.788
+Israel,ISR,2096,,39.964
+Israel,ISR,2097,,40.137
+Israel,ISR,2098,,40.31
+Israel,ISR,2099,,40.472
+Israel,ISR,2100,,40.626
+Japan,JPN,1950,21.311,
+Japan,JPN,1951,21.493,
+Japan,JPN,1952,21.739,
+Japan,JPN,1953,22.029,
+Japan,JPN,1954,22.364,
+Japan,JPN,1955,22.732,
+Japan,JPN,1956,23.117,
+Japan,JPN,1957,23.514,
+Japan,JPN,1958,23.921,
+Japan,JPN,1959,24.327,
+Japan,JPN,1960,24.734,
+Japan,JPN,1961,25.136,
+Japan,JPN,1962,25.528,
+Japan,JPN,1963,25.91,
+Japan,JPN,1964,26.268,
+Japan,JPN,1965,26.56,
+Japan,JPN,1966,26.882,
+Japan,JPN,1967,27.206,
+Japan,JPN,1968,27.52,
+Japan,JPN,1969,27.881,
+Japan,JPN,1970,28.253,
+Japan,JPN,1971,28.587,
+Japan,JPN,1972,28.889,
+Japan,JPN,1973,29.184,
+Japan,JPN,1974,29.444,
+Japan,JPN,1975,29.658,
+Japan,JPN,1976,29.867,
+Japan,JPN,1977,30.217,
+Japan,JPN,1978,30.662,
+Japan,JPN,1979,31.176,
+Japan,JPN,1980,31.695,
+Japan,JPN,1981,32.246,
+Japan,JPN,1982,32.818,
+Japan,JPN,1983,33.382,
+Japan,JPN,1984,33.933,
+Japan,JPN,1985,34.468,
+Japan,JPN,1986,34.98,
+Japan,JPN,1987,35.477,
+Japan,JPN,1988,35.958,
+Japan,JPN,1989,36.427,
+Japan,JPN,1990,36.872,
+Japan,JPN,1991,37.313,
+Japan,JPN,1992,37.765,
+Japan,JPN,1993,38.191,
+Japan,JPN,1994,38.602,
+Japan,JPN,1995,38.992,
+Japan,JPN,1996,39.373,
+Japan,JPN,1997,39.739,
+Japan,JPN,1998,40.082,
+Japan,JPN,1999,40.418,
+Japan,JPN,2000,40.752,
+Japan,JPN,2001,41.105,
+Japan,JPN,2002,41.467,
+Japan,JPN,2003,41.829,
+Japan,JPN,2004,42.189,
+Japan,JPN,2005,42.554,
+Japan,JPN,2006,42.9,
+Japan,JPN,2007,43.219,
+Japan,JPN,2008,43.542,
+Japan,JPN,2009,43.88,
+Japan,JPN,2010,44.24,
+Japan,JPN,2011,44.539,
+Japan,JPN,2012,44.808,
+Japan,JPN,2013,45.099,
+Japan,JPN,2014,45.461,
+Japan,JPN,2015,45.845,
+Japan,JPN,2016,46.195,
+Japan,JPN,2017,46.535,
+Japan,JPN,2018,46.889,
+Japan,JPN,2019,47.262,
+Japan,JPN,2020,47.674,
+Japan,JPN,2021,48.123,
+Japan,JPN,2022,48.548,
+Japan,JPN,2023,48.958,
+Japan,JPN,2024,,49.383
+Japan,JPN,2025,,49.792
+Japan,JPN,2026,,50.181
+Japan,JPN,2027,,50.544
+Japan,JPN,2028,,50.881
+Japan,JPN,2029,,51.192
+Japan,JPN,2030,,51.48
+Japan,JPN,2031,,51.746
+Japan,JPN,2032,,51.987
+Japan,JPN,2033,,52.2
+Japan,JPN,2034,,52.381
+Japan,JPN,2035,,52.535
+Japan,JPN,2036,,52.67
+Japan,JPN,2037,,52.796
+Japan,JPN,2038,,52.911
+Japan,JPN,2039,,53.002
+Japan,JPN,2040,,53.061
+Japan,JPN,2041,,53.097
+Japan,JPN,2042,,53.113
+Japan,JPN,2043,,53.099
+Japan,JPN,2044,,53.054
+Japan,JPN,2045,,53
+Japan,JPN,2046,,52.946
+Japan,JPN,2047,,52.884
+Japan,JPN,2048,,52.837
+Japan,JPN,2049,,52.796
+Japan,JPN,2050,,52.755
+Japan,JPN,2051,,52.726
+Japan,JPN,2052,,52.712
+Japan,JPN,2053,,52.713
+Japan,JPN,2054,,52.734
+Japan,JPN,2055,,52.775
+Japan,JPN,2056,,52.826
+Japan,JPN,2057,,52.887
+Japan,JPN,2058,,52.955
+Japan,JPN,2059,,53.021
+Japan,JPN,2060,,53.093
+Japan,JPN,2061,,53.175
+Japan,JPN,2062,,53.259
+Japan,JPN,2063,,53.336
+Japan,JPN,2064,,53.402
+Japan,JPN,2065,,53.46
+Japan,JPN,2066,,53.507
+Japan,JPN,2067,,53.545
+Japan,JPN,2068,,53.572
+Japan,JPN,2069,,53.59
+Japan,JPN,2070,,53.603
+Japan,JPN,2071,,53.602
+Japan,JPN,2072,,53.577
+Japan,JPN,2073,,53.528
+Japan,JPN,2074,,53.45
+Japan,JPN,2075,,53.349
+Japan,JPN,2076,,53.233
+Japan,JPN,2077,,53.095
+Japan,JPN,2078,,52.947
+Japan,JPN,2079,,52.811
+Japan,JPN,2080,,52.688
+Japan,JPN,2081,,52.58
+Japan,JPN,2082,,52.488
+Japan,JPN,2083,,52.414
+Japan,JPN,2084,,52.358
+Japan,JPN,2085,,52.32
+Japan,JPN,2086,,52.299
+Japan,JPN,2087,,52.293
+Japan,JPN,2088,,52.303
+Japan,JPN,2089,,52.328
+Japan,JPN,2090,,52.366
+Japan,JPN,2091,,52.415
+Japan,JPN,2092,,52.475
+Japan,JPN,2093,,52.541
+Japan,JPN,2094,,52.61
+Japan,JPN,2095,,52.679
+Japan,JPN,2096,,52.75
+Japan,JPN,2097,,52.818
+Japan,JPN,2098,,52.883
+Japan,JPN,2099,,52.945
+Japan,JPN,2100,,53.002
+Jordan,JOR,1950,17.066,
+Jordan,JOR,1951,16.961,
+Jordan,JOR,1952,16.869,
+Jordan,JOR,1953,16.802,
+Jordan,JOR,1954,16.753,
+Jordan,JOR,1955,16.701,
+Jordan,JOR,1956,16.63,
+Jordan,JOR,1957,16.527,
+Jordan,JOR,1958,16.382,
+Jordan,JOR,1959,16.192,
+Jordan,JOR,1960,15.961,
+Jordan,JOR,1961,15.695,
+Jordan,JOR,1962,15.407,
+Jordan,JOR,1963,15.126,
+Jordan,JOR,1964,14.874,
+Jordan,JOR,1965,14.639,
+Jordan,JOR,1966,14.431,
+Jordan,JOR,1967,14.257,
+Jordan,JOR,1968,14.106,
+Jordan,JOR,1969,13.98,
+Jordan,JOR,1970,13.881,
+Jordan,JOR,1971,13.807,
+Jordan,JOR,1972,13.758,
+Jordan,JOR,1973,13.731,
+Jordan,JOR,1974,13.725,
+Jordan,JOR,1975,13.741,
+Jordan,JOR,1976,13.782,
+Jordan,JOR,1977,13.844,
+Jordan,JOR,1978,13.92,
+Jordan,JOR,1979,14.009,
+Jordan,JOR,1980,14.104,
+Jordan,JOR,1981,14.206,
+Jordan,JOR,1982,14.32,
+Jordan,JOR,1983,14.443,
+Jordan,JOR,1984,14.574,
+Jordan,JOR,1985,14.711,
+Jordan,JOR,1986,14.849,
+Jordan,JOR,1987,14.995,
+Jordan,JOR,1988,15.151,
+Jordan,JOR,1989,15.316,
+Jordan,JOR,1990,16.124,
+Jordan,JOR,1991,17.021,
+Jordan,JOR,1992,17.474,
+Jordan,JOR,1993,17.909,
+Jordan,JOR,1994,18.276,
+Jordan,JOR,1995,18.535,
+Jordan,JOR,1996,18.683,
+Jordan,JOR,1997,18.756,
+Jordan,JOR,1998,18.81,
+Jordan,JOR,1999,18.875,
+Jordan,JOR,2000,18.96,
+Jordan,JOR,2001,19.066,
+Jordan,JOR,2002,19.187,
+Jordan,JOR,2003,19.325,
+Jordan,JOR,2004,19.499,
+Jordan,JOR,2005,19.706,
+Jordan,JOR,2006,19.914,
+Jordan,JOR,2007,20.103,
+Jordan,JOR,2008,20.287,
+Jordan,JOR,2009,20.462,
+Jordan,JOR,2010,20.64,
+Jordan,JOR,2011,20.823,
+Jordan,JOR,2012,21.017,
+Jordan,JOR,2013,21.153,
+Jordan,JOR,2014,21.26,
+Jordan,JOR,2015,21.495,
+Jordan,JOR,2016,21.828,
+Jordan,JOR,2017,22.182,
+Jordan,JOR,2018,22.542,
+Jordan,JOR,2019,22.906,
+Jordan,JOR,2020,23.266,
+Jordan,JOR,2021,23.606,
+Jordan,JOR,2022,23.943,
+Jordan,JOR,2023,24.279,
+Jordan,JOR,2024,,24.537
+Jordan,JOR,2025,,24.705
+Jordan,JOR,2026,,24.902
+Jordan,JOR,2027,,25.141
+Jordan,JOR,2028,,25.376
+Jordan,JOR,2029,,25.625
+Jordan,JOR,2030,,25.891
+Jordan,JOR,2031,,26.169
+Jordan,JOR,2032,,26.454
+Jordan,JOR,2033,,26.747
+Jordan,JOR,2034,,27.048
+Jordan,JOR,2035,,27.37
+Jordan,JOR,2036,,27.708
+Jordan,JOR,2037,,28.058
+Jordan,JOR,2038,,28.401
+Jordan,JOR,2039,,28.744
+Jordan,JOR,2040,,29.087
+Jordan,JOR,2041,,29.425
+Jordan,JOR,2042,,29.762
+Jordan,JOR,2043,,30.092
+Jordan,JOR,2044,,30.414
+Jordan,JOR,2045,,30.732
+Jordan,JOR,2046,,31.053
+Jordan,JOR,2047,,31.37
+Jordan,JOR,2048,,31.673
+Jordan,JOR,2049,,31.963
+Jordan,JOR,2050,,32.253
+Jordan,JOR,2051,,32.546
+Jordan,JOR,2052,,32.838
+Jordan,JOR,2053,,33.127
+Jordan,JOR,2054,,33.419
+Jordan,JOR,2055,,33.698
+Jordan,JOR,2056,,33.968
+Jordan,JOR,2057,,34.227
+Jordan,JOR,2058,,34.472
+Jordan,JOR,2059,,34.71
+Jordan,JOR,2060,,34.944
+Jordan,JOR,2061,,35.171
+Jordan,JOR,2062,,35.381
+Jordan,JOR,2063,,35.588
+Jordan,JOR,2064,,35.805
+Jordan,JOR,2065,,36.017
+Jordan,JOR,2066,,36.22
+Jordan,JOR,2067,,36.433
+Jordan,JOR,2068,,36.642
+Jordan,JOR,2069,,36.857
+Jordan,JOR,2070,,37.081
+Jordan,JOR,2071,,37.301
+Jordan,JOR,2072,,37.528
+Jordan,JOR,2073,,37.76
+Jordan,JOR,2074,,37.998
+Jordan,JOR,2075,,38.236
+Jordan,JOR,2076,,38.476
+Jordan,JOR,2077,,38.723
+Jordan,JOR,2078,,38.971
+Jordan,JOR,2079,,39.217
+Jordan,JOR,2080,,39.461
+Jordan,JOR,2081,,39.696
+Jordan,JOR,2082,,39.926
+Jordan,JOR,2083,,40.172
+Jordan,JOR,2084,,40.423
+Jordan,JOR,2085,,40.654
+Jordan,JOR,2086,,40.878
+Jordan,JOR,2087,,41.097
+Jordan,JOR,2088,,41.301
+Jordan,JOR,2089,,41.487
+Jordan,JOR,2090,,41.663
+Jordan,JOR,2091,,41.824
+Jordan,JOR,2092,,41.982
+Jordan,JOR,2093,,42.152
+Jordan,JOR,2094,,42.322
+Jordan,JOR,2095,,42.472
+Jordan,JOR,2096,,42.609
+Jordan,JOR,2097,,42.749
+Jordan,JOR,2098,,42.872
+Jordan,JOR,2099,,42.992
+Jordan,JOR,2100,,43.109
+Saudi Arabia,SAU,1950,17.953,
+Saudi Arabia,SAU,1951,17.999,
+Saudi Arabia,SAU,1952,18.031,
+Saudi Arabia,SAU,1953,18.043,
+Saudi Arabia,SAU,1954,18.034,
+Saudi Arabia,SAU,1955,18.005,
+Saudi Arabia,SAU,1956,17.961,
+Saudi Arabia,SAU,1957,17.897,
+Saudi Arabia,SAU,1958,17.808,
+Saudi Arabia,SAU,1959,17.695,
+Saudi Arabia,SAU,1960,17.564,
+Saudi Arabia,SAU,1961,17.423,
+Saudi Arabia,SAU,1962,17.276,
+Saudi Arabia,SAU,1963,17.125,
+Saudi Arabia,SAU,1964,16.968,
+Saudi Arabia,SAU,1965,16.799,
+Saudi Arabia,SAU,1966,16.602,
+Saudi Arabia,SAU,1967,16.45,
+Saudi Arabia,SAU,1968,16.35,
+Saudi Arabia,SAU,1969,16.282,
+Saudi Arabia,SAU,1970,16.246,
+Saudi Arabia,SAU,1971,16.259,
+Saudi Arabia,SAU,1972,16.321,
+Saudi Arabia,SAU,1973,16.413,
+Saudi Arabia,SAU,1974,16.514,
+Saudi Arabia,SAU,1975,16.613,
+Saudi Arabia,SAU,1976,16.714,
+Saudi Arabia,SAU,1977,16.826,
+Saudi Arabia,SAU,1978,16.939,
+Saudi Arabia,SAU,1979,17.043,
+Saudi Arabia,SAU,1980,17.139,
+Saudi Arabia,SAU,1981,17.247,
+Saudi Arabia,SAU,1982,17.371,
+Saudi Arabia,SAU,1983,17.487,
+Saudi Arabia,SAU,1984,17.576,
+Saudi Arabia,SAU,1985,17.633,
+Saudi Arabia,SAU,1986,17.699,
+Saudi Arabia,SAU,1987,17.788,
+Saudi Arabia,SAU,1988,17.853,
+Saudi Arabia,SAU,1989,17.912,
+Saudi Arabia,SAU,1990,17.998,
+Saudi Arabia,SAU,1991,18.107,
+Saudi Arabia,SAU,1992,18.235,
+Saudi Arabia,SAU,1993,18.379,
+Saudi Arabia,SAU,1994,18.541,
+Saudi Arabia,SAU,1995,18.726,
+Saudi Arabia,SAU,1996,18.934,
+Saudi Arabia,SAU,1997,19.163,
+Saudi Arabia,SAU,1998,19.411,
+Saudi Arabia,SAU,1999,19.68,
+Saudi Arabia,SAU,2000,19.731,
+Saudi Arabia,SAU,2001,19.667,
+Saudi Arabia,SAU,2002,19.767,
+Saudi Arabia,SAU,2003,20,
+Saudi Arabia,SAU,2004,20.336,
+Saudi Arabia,SAU,2005,20.752,
+Saudi Arabia,SAU,2006,21.23,
+Saudi Arabia,SAU,2007,21.757,
+Saudi Arabia,SAU,2008,22.324,
+Saudi Arabia,SAU,2009,22.921,
+Saudi Arabia,SAU,2010,23.546,
+Saudi Arabia,SAU,2011,24.193,
+Saudi Arabia,SAU,2012,24.86,
+Saudi Arabia,SAU,2013,25.545,
+Saudi Arabia,SAU,2014,26.248,
+Saudi Arabia,SAU,2015,26.967,
+Saudi Arabia,SAU,2016,27.634,
+Saudi Arabia,SAU,2017,28.11,
+Saudi Arabia,SAU,2018,28.32,
+Saudi Arabia,SAU,2019,28.404,
+Saudi Arabia,SAU,2020,28.489,
+Saudi Arabia,SAU,2021,28.508,
+Saudi Arabia,SAU,2022,28.731,
+Saudi Arabia,SAU,2023,29.247,
+Saudi Arabia,SAU,2024,,29.563
+Saudi Arabia,SAU,2025,,29.626
+Saudi Arabia,SAU,2026,,29.666
+Saudi Arabia,SAU,2027,,29.682
+Saudi Arabia,SAU,2028,,29.68
+Saudi Arabia,SAU,2029,,29.674
+Saudi Arabia,SAU,2030,,29.679
+Saudi Arabia,SAU,2031,,29.705
+Saudi Arabia,SAU,2032,,29.755
+Saudi Arabia,SAU,2033,,29.826
+Saudi Arabia,SAU,2034,,29.913
+Saudi Arabia,SAU,2035,,30.014
+Saudi Arabia,SAU,2036,,30.126
+Saudi Arabia,SAU,2037,,30.248
+Saudi Arabia,SAU,2038,,30.379
+Saudi Arabia,SAU,2039,,30.516
+Saudi Arabia,SAU,2040,,30.655
+Saudi Arabia,SAU,2041,,30.795
+Saudi Arabia,SAU,2042,,30.933
+Saudi Arabia,SAU,2043,,31.07
+Saudi Arabia,SAU,2044,,31.205
+Saudi Arabia,SAU,2045,,31.34
+Saudi Arabia,SAU,2046,,31.474
+Saudi Arabia,SAU,2047,,31.607
+Saudi Arabia,SAU,2048,,31.737
+Saudi Arabia,SAU,2049,,31.863
+Saudi Arabia,SAU,2050,,31.985
+Saudi Arabia,SAU,2051,,32.1
+Saudi Arabia,SAU,2052,,32.208
+Saudi Arabia,SAU,2053,,32.307
+Saudi Arabia,SAU,2054,,32.396
+Saudi Arabia,SAU,2055,,32.474
+Saudi Arabia,SAU,2056,,32.558
+Saudi Arabia,SAU,2057,,32.664
+Saudi Arabia,SAU,2058,,32.785
+Saudi Arabia,SAU,2059,,32.907
+Saudi Arabia,SAU,2060,,33.025
+Saudi Arabia,SAU,2061,,33.141
+Saudi Arabia,SAU,2062,,33.254
+Saudi Arabia,SAU,2063,,33.364
+Saudi Arabia,SAU,2064,,33.47
+Saudi Arabia,SAU,2065,,33.573
+Saudi Arabia,SAU,2066,,33.673
+Saudi Arabia,SAU,2067,,33.769
+Saudi Arabia,SAU,2068,,33.862
+Saudi Arabia,SAU,2069,,33.953
+Saudi Arabia,SAU,2070,,34.043
+Saudi Arabia,SAU,2071,,34.129
+Saudi Arabia,SAU,2072,,34.213
+Saudi Arabia,SAU,2073,,34.294
+Saudi Arabia,SAU,2074,,34.373
+Saudi Arabia,SAU,2075,,34.448
+Saudi Arabia,SAU,2076,,34.521
+Saudi Arabia,SAU,2077,,34.591
+Saudi Arabia,SAU,2078,,34.659
+Saudi Arabia,SAU,2079,,34.725
+Saudi Arabia,SAU,2080,,34.789
+Saudi Arabia,SAU,2081,,34.851
+Saudi Arabia,SAU,2082,,34.912
+Saudi Arabia,SAU,2083,,34.971
+Saudi Arabia,SAU,2084,,35.029
+Saudi Arabia,SAU,2085,,35.086
+Saudi Arabia,SAU,2086,,35.142
+Saudi Arabia,SAU,2087,,35.197
+Saudi Arabia,SAU,2088,,35.251
+Saudi Arabia,SAU,2089,,35.304
+Saudi Arabia,SAU,2090,,35.356
+Saudi Arabia,SAU,2091,,35.406
+Saudi Arabia,SAU,2092,,35.455
+Saudi Arabia,SAU,2093,,35.502
+Saudi Arabia,SAU,2094,,35.547
+Saudi Arabia,SAU,2095,,35.591
+Saudi Arabia,SAU,2096,,35.633
+Saudi Arabia,SAU,2097,,35.673
+Saudi Arabia,SAU,2098,,35.71
+Saudi Arabia,SAU,2099,,35.746
+Saudi Arabia,SAU,2100,,35.779
+United Arab Emirates,ARE,1950,17.522,
+United Arab Emirates,ARE,1951,17.071,
+United Arab Emirates,ARE,1952,16.796,
+United Arab Emirates,ARE,1953,16.684,
+United Arab Emirates,ARE,1954,16.713,
+United Arab Emirates,ARE,1955,16.861,
+United Arab Emirates,ARE,1956,17.103,
+United Arab Emirates,ARE,1957,17.419,
+United Arab Emirates,ARE,1958,17.787,
+United Arab Emirates,ARE,1959,18.194,
+United Arab Emirates,ARE,1960,18.628,
+United Arab Emirates,ARE,1961,19.076,
+United Arab Emirates,ARE,1962,19.535,
+United Arab Emirates,ARE,1963,19.996,
+United Arab Emirates,ARE,1964,20.472,
+United Arab Emirates,ARE,1965,20.994,
+United Arab Emirates,ARE,1966,21.608,
+United Arab Emirates,ARE,1967,22.373,
+United Arab Emirates,ARE,1968,22.533,
+United Arab Emirates,ARE,1969,22.112,
+United Arab Emirates,ARE,1970,22.005,
+United Arab Emirates,ARE,1971,22.223,
+United Arab Emirates,ARE,1972,22.627,
+United Arab Emirates,ARE,1973,23.148,
+United Arab Emirates,ARE,1974,23.743,
+United Arab Emirates,ARE,1975,24.394,
+United Arab Emirates,ARE,1976,24.568,
+United Arab Emirates,ARE,1977,24.428,
+United Arab Emirates,ARE,1978,24.523,
+United Arab Emirates,ARE,1979,24.804,
+United Arab Emirates,ARE,1980,25.225,
+United Arab Emirates,ARE,1981,25.45,
+United Arab Emirates,ARE,1982,25.442,
+United Arab Emirates,ARE,1983,25.451,
+United Arab Emirates,ARE,1984,25.527,
+United Arab Emirates,ARE,1985,25.687,
+United Arab Emirates,ARE,1986,25.633,
+United Arab Emirates,ARE,1987,25.326,
+United Arab Emirates,ARE,1988,25.05,
+United Arab Emirates,ARE,1989,24.877,
+United Arab Emirates,ARE,1990,24.868,
+United Arab Emirates,ARE,1991,25.037,
+United Arab Emirates,ARE,1992,25.365,
+United Arab Emirates,ARE,1993,25.821,
+United Arab Emirates,ARE,1994,26.379,
+United Arab Emirates,ARE,1995,26.997,
+United Arab Emirates,ARE,1996,27.186,
+United Arab Emirates,ARE,1997,27.01,
+United Arab Emirates,ARE,1998,26.969,
+United Arab Emirates,ARE,1999,27.075,
+United Arab Emirates,ARE,2000,27.31,
+United Arab Emirates,ARE,2001,27.663,
+United Arab Emirates,ARE,2002,28.115,
+United Arab Emirates,ARE,2003,28.651,
+United Arab Emirates,ARE,2004,29.26,
+United Arab Emirates,ARE,2005,29.928,
+United Arab Emirates,ARE,2006,30.434,
+United Arab Emirates,ARE,2007,30.594,
+United Arab Emirates,ARE,2008,30.625,
+United Arab Emirates,ARE,2009,30.647,
+United Arab Emirates,ARE,2010,30.663,
+United Arab Emirates,ARE,2011,30.688,
+United Arab Emirates,ARE,2012,30.709,
+United Arab Emirates,ARE,2013,30.736,
+United Arab Emirates,ARE,2014,30.771,
+United Arab Emirates,ARE,2015,30.797,
+United Arab Emirates,ARE,2016,30.817,
+United Arab Emirates,ARE,2017,30.834,
+United Arab Emirates,ARE,2018,30.831,
+United Arab Emirates,ARE,2019,30.834,
+United Arab Emirates,ARE,2020,30.856,
+United Arab Emirates,ARE,2021,30.886,
+United Arab Emirates,ARE,2022,30.903,
+United Arab Emirates,ARE,2023,31.232,
+United Arab Emirates,ARE,2024,,31.572
+United Arab Emirates,ARE,2025,,31.595
+United Arab Emirates,ARE,2026,,31.622
+United Arab Emirates,ARE,2027,,31.657
+United Arab Emirates,ARE,2028,,31.689
+United Arab Emirates,ARE,2029,,31.723
+United Arab Emirates,ARE,2030,,31.764
+United Arab Emirates,ARE,2031,,31.812
+United Arab Emirates,ARE,2032,,31.862
+United Arab Emirates,ARE,2033,,31.914
+United Arab Emirates,ARE,2034,,31.97
+United Arab Emirates,ARE,2035,,32.035
+United Arab Emirates,ARE,2036,,32.104
+United Arab Emirates,ARE,2037,,32.168
+United Arab Emirates,ARE,2038,,32.214
+United Arab Emirates,ARE,2039,,32.247
+United Arab Emirates,ARE,2040,,32.281
+United Arab Emirates,ARE,2041,,32.318
+United Arab Emirates,ARE,2042,,32.351
+United Arab Emirates,ARE,2043,,32.377
+United Arab Emirates,ARE,2044,,32.402
+United Arab Emirates,ARE,2045,,32.43
+United Arab Emirates,ARE,2046,,32.463
+United Arab Emirates,ARE,2047,,32.501
+United Arab Emirates,ARE,2048,,32.536
+United Arab Emirates,ARE,2049,,32.565
+United Arab Emirates,ARE,2050,,32.585
+United Arab Emirates,ARE,2051,,32.598
+United Arab Emirates,ARE,2052,,32.609
+United Arab Emirates,ARE,2053,,32.621
+United Arab Emirates,ARE,2054,,32.634
+United Arab Emirates,ARE,2055,,32.648
+United Arab Emirates,ARE,2056,,32.657
+United Arab Emirates,ARE,2057,,32.664
+United Arab Emirates,ARE,2058,,32.674
+United Arab Emirates,ARE,2059,,32.69
+United Arab Emirates,ARE,2060,,32.71
+United Arab Emirates,ARE,2061,,32.734
+United Arab Emirates,ARE,2062,,32.764
+United Arab Emirates,ARE,2063,,32.799
+United Arab Emirates,ARE,2064,,32.839
+United Arab Emirates,ARE,2065,,32.883
+United Arab Emirates,ARE,2066,,32.931
+United Arab Emirates,ARE,2067,,32.981
+United Arab Emirates,ARE,2068,,33.033
+United Arab Emirates,ARE,2069,,33.088
+United Arab Emirates,ARE,2070,,33.142
+United Arab Emirates,ARE,2071,,33.198
+United Arab Emirates,ARE,2072,,33.252
+United Arab Emirates,ARE,2073,,33.307
+United Arab Emirates,ARE,2074,,33.359
+United Arab Emirates,ARE,2075,,33.409
+United Arab Emirates,ARE,2076,,33.457
+United Arab Emirates,ARE,2077,,33.501
+United Arab Emirates,ARE,2078,,33.543
+United Arab Emirates,ARE,2079,,33.582
+United Arab Emirates,ARE,2080,,33.618
+United Arab Emirates,ARE,2081,,33.649
+United Arab Emirates,ARE,2082,,33.678
+United Arab Emirates,ARE,2083,,33.702
+United Arab Emirates,ARE,2084,,33.725
+United Arab Emirates,ARE,2085,,33.744
+United Arab Emirates,ARE,2086,,33.761
+United Arab Emirates,ARE,2087,,33.776
+United Arab Emirates,ARE,2088,,33.789
+United Arab Emirates,ARE,2089,,33.801
+United Arab Emirates,ARE,2090,,33.812
+United Arab Emirates,ARE,2091,,33.823
+United Arab Emirates,ARE,2092,,33.833
+United Arab Emirates,ARE,2093,,33.843
+United Arab Emirates,ARE,2094,,33.854
+United Arab Emirates,ARE,2095,,33.865
+United Arab Emirates,ARE,2096,,33.878
+United Arab Emirates,ARE,2097,,33.892
+United Arab Emirates,ARE,2098,,33.909
+United Arab Emirates,ARE,2099,,33.927
+United Arab Emirates,ARE,2100,,33.947
+United Kingdom,GBR,1950,33.889,
+United Kingdom,GBR,1951,33.908,
+United Kingdom,GBR,1952,33.9,
+United Kingdom,GBR,1953,33.834,
+United Kingdom,GBR,1954,33.886,
+United Kingdom,GBR,1955,34.066,
+United Kingdom,GBR,1956,34.258,
+United Kingdom,GBR,1957,34.403,
+United Kingdom,GBR,1958,34.483,
+United Kingdom,GBR,1959,34.512,
+United Kingdom,GBR,1960,34.505,
+United Kingdom,GBR,1961,34.449,
+United Kingdom,GBR,1962,34.343,
+United Kingdom,GBR,1963,34.266,
+United Kingdom,GBR,1964,34.204,
+United Kingdom,GBR,1965,34.084,
+United Kingdom,GBR,1966,33.932,
+United Kingdom,GBR,1967,33.759,
+United Kingdom,GBR,1968,33.562,
+United Kingdom,GBR,1969,33.368,
+United Kingdom,GBR,1970,33.218,
+United Kingdom,GBR,1971,33.105,
+United Kingdom,GBR,1972,33.016,
+United Kingdom,GBR,1973,32.965,
+United Kingdom,GBR,1974,32.935,
+United Kingdom,GBR,1975,32.901,
+United Kingdom,GBR,1976,32.915,
+United Kingdom,GBR,1977,33.008,
+United Kingdom,GBR,1978,33.125,
+United Kingdom,GBR,1979,33.214,
+United Kingdom,GBR,1980,33.336,
+United Kingdom,GBR,1981,33.542,
+United Kingdom,GBR,1982,33.802,
+United Kingdom,GBR,1983,34.026,
+United Kingdom,GBR,1984,34.183,
+United Kingdom,GBR,1985,34.3,
+United Kingdom,GBR,1986,34.382,
+United Kingdom,GBR,1987,34.463,
+United Kingdom,GBR,1988,34.664,
+United Kingdom,GBR,1989,34.863,
+United Kingdom,GBR,1990,34.949,
+United Kingdom,GBR,1991,35.037,
+United Kingdom,GBR,1992,35.131,
+United Kingdom,GBR,1993,35.252,
+United Kingdom,GBR,1994,35.419,
+United Kingdom,GBR,1995,35.6,
+United Kingdom,GBR,1996,35.788,
+United Kingdom,GBR,1997,35.983,
+United Kingdom,GBR,1998,36.194,
+United Kingdom,GBR,1999,36.407,
+United Kingdom,GBR,2000,36.626,
+United Kingdom,GBR,2001,36.841,
+United Kingdom,GBR,2002,37.038,
+United Kingdom,GBR,2003,37.219,
+United Kingdom,GBR,2004,37.376,
+United Kingdom,GBR,2005,37.512,
+United Kingdom,GBR,2006,37.639,
+United Kingdom,GBR,2007,37.766,
+United Kingdom,GBR,2008,37.906,
+United Kingdom,GBR,2009,38.057,
+United Kingdom,GBR,2010,38.191,
+United Kingdom,GBR,2011,38.333,
+United Kingdom,GBR,2012,38.489,
+United Kingdom,GBR,2013,38.629,
+United Kingdom,GBR,2014,38.728,
+United Kingdom,GBR,2015,38.784,
+United Kingdom,GBR,2016,38.816,
+United Kingdom,GBR,2017,38.866,
+United Kingdom,GBR,2018,38.955,
+United Kingdom,GBR,2019,39.091,
+United Kingdom,GBR,2020,39.22,
+United Kingdom,GBR,2021,39.316,
+United Kingdom,GBR,2022,39.504,
+United Kingdom,GBR,2023,39.782,
+United Kingdom,GBR,2024,,39.972
+United Kingdom,GBR,2025,,40.076
+United Kingdom,GBR,2026,,40.212
+United Kingdom,GBR,2027,,40.368
+United Kingdom,GBR,2028,,40.515
+United Kingdom,GBR,2029,,40.63
+United Kingdom,GBR,2030,,40.722
+United Kingdom,GBR,2031,,40.839
+United Kingdom,GBR,2032,,40.999
+United Kingdom,GBR,2033,,41.17
+United Kingdom,GBR,2034,,41.347
+United Kingdom,GBR,2035,,41.512
+United Kingdom,GBR,2036,,41.657
+United Kingdom,GBR,2037,,41.788
+United Kingdom,GBR,2038,,41.908
+United Kingdom,GBR,2039,,42.019
+United Kingdom,GBR,2040,,42.131
+United Kingdom,GBR,2041,,42.231
+United Kingdom,GBR,2042,,42.314
+United Kingdom,GBR,2043,,42.38
+United Kingdom,GBR,2044,,42.43
+United Kingdom,GBR,2045,,42.464
+United Kingdom,GBR,2046,,42.493
+United Kingdom,GBR,2047,,42.541
+United Kingdom,GBR,2048,,42.619
+United Kingdom,GBR,2049,,42.725
+United Kingdom,GBR,2050,,42.856
+United Kingdom,GBR,2051,,43.009
+United Kingdom,GBR,2052,,43.178
+United Kingdom,GBR,2053,,43.356
+United Kingdom,GBR,2054,,43.535
+United Kingdom,GBR,2055,,43.72
+United Kingdom,GBR,2056,,43.917
+United Kingdom,GBR,2057,,44.122
+United Kingdom,GBR,2058,,44.324
+United Kingdom,GBR,2059,,44.517
+United Kingdom,GBR,2060,,44.701
+United Kingdom,GBR,2061,,44.877
+United Kingdom,GBR,2062,,45.051
+United Kingdom,GBR,2063,,45.217
+United Kingdom,GBR,2064,,45.369
+United Kingdom,GBR,2065,,45.504
+United Kingdom,GBR,2066,,45.616
+United Kingdom,GBR,2067,,45.708
+United Kingdom,GBR,2068,,45.789
+United Kingdom,GBR,2069,,45.863
+United Kingdom,GBR,2070,,45.933
+United Kingdom,GBR,2071,,45.999
+United Kingdom,GBR,2072,,46.059
+United Kingdom,GBR,2073,,46.114
+United Kingdom,GBR,2074,,46.166
+United Kingdom,GBR,2075,,46.211
+United Kingdom,GBR,2076,,46.247
+United Kingdom,GBR,2077,,46.279
+United Kingdom,GBR,2078,,46.311
+United Kingdom,GBR,2079,,46.343
+United Kingdom,GBR,2080,,46.375
+United Kingdom,GBR,2081,,46.407
+United Kingdom,GBR,2082,,46.442
+United Kingdom,GBR,2083,,46.485
+United Kingdom,GBR,2084,,46.535
+United Kingdom,GBR,2085,,46.591
+United Kingdom,GBR,2086,,46.655
+United Kingdom,GBR,2087,,46.728
+United Kingdom,GBR,2088,,46.806
+United Kingdom,GBR,2089,,46.893
+United Kingdom,GBR,2090,,46.989
+United Kingdom,GBR,2091,,47.089
+United Kingdom,GBR,2092,,47.193
+United Kingdom,GBR,2093,,47.298
+United Kingdom,GBR,2094,,47.403
+United Kingdom,GBR,2095,,47.507
+United Kingdom,GBR,2096,,47.608
+United Kingdom,GBR,2097,,47.704
+United Kingdom,GBR,2098,,47.792
+United Kingdom,GBR,2099,,47.873
+United Kingdom,GBR,2100,,47.947
+United States,USA,1950,28.962,
+United States,USA,1951,28.993,
+United States,USA,1952,29.02,
+United States,USA,1953,29.031,
+United States,USA,1954,29.018,
+United States,USA,1955,28.983,
+United States,USA,1956,28.91,
+United States,USA,1957,28.802,
+United States,USA,1958,28.656,
+United States,USA,1959,28.473,
+United States,USA,1960,28.258,
+United States,USA,1961,27.999,
+United States,USA,1962,27.719,
+United States,USA,1963,27.461,
+United States,USA,1964,27.23,
+United States,USA,1965,27.036,
+United States,USA,1966,26.902,
+United States,USA,1967,26.801,
+United States,USA,1968,26.722,
+United States,USA,1969,26.694,
+United States,USA,1970,26.736,
+United States,USA,1971,26.829,
+United States,USA,1972,26.954,
+United States,USA,1973,27.094,
+United States,USA,1974,27.305,
+United States,USA,1975,27.591,
+United States,USA,1976,27.923,
+United States,USA,1977,28.247,
+United States,USA,1978,28.554,
+United States,USA,1979,28.847,
+United States,USA,1980,29.124,
+United States,USA,1981,29.381,
+United States,USA,1982,29.629,
+United States,USA,1983,29.888,
+United States,USA,1984,30.161,
+United States,USA,1985,30.444,
+United States,USA,1986,30.738,
+United States,USA,1987,31.041,
+United States,USA,1988,31.339,
+United States,USA,1989,31.634,
+United States,USA,1990,31.903,
+United States,USA,1991,32.142,
+United States,USA,1992,32.376,
+United States,USA,1993,32.614,
+United States,USA,1994,32.863,
+United States,USA,1995,33.122,
+United States,USA,1996,33.38,
+United States,USA,1997,33.634,
+United States,USA,1998,33.872,
+United States,USA,1999,34.095,
+United States,USA,2000,34.291,
+United States,USA,2001,34.479,
+United States,USA,2002,34.672,
+United States,USA,2003,34.845,
+United States,USA,2004,35.009,
+United States,USA,2005,35.175,
+United States,USA,2006,35.352,
+United States,USA,2007,35.531,
+United States,USA,2008,35.689,
+United States,USA,2009,35.817,
+United States,USA,2010,35.92,
+United States,USA,2011,36.008,
+United States,USA,2012,36.09,
+United States,USA,2013,36.175,
+United States,USA,2014,36.274,
+United States,USA,2015,36.387,
+United States,USA,2016,36.509,
+United States,USA,2017,36.65,
+United States,USA,2018,36.818,
+United States,USA,2019,37.002,
+United States,USA,2020,37.226,
+United States,USA,2021,37.466,
+United States,USA,2022,37.72,
+United States,USA,2023,38.023,
+United States,USA,2024,,38.289
+United States,USA,2025,,38.501
+United States,USA,2026,,38.713
+United States,USA,2027,,38.923
+United States,USA,2028,,39.132
+United States,USA,2029,,39.344
+United States,USA,2030,,39.561
+United States,USA,2031,,39.777
+United States,USA,2032,,39.983
+United States,USA,2033,,40.168
+United States,USA,2034,,40.328
+United States,USA,2035,,40.463
+United States,USA,2036,,40.574
+United States,USA,2037,,40.66
+United States,USA,2038,,40.727
+United States,USA,2039,,40.78
+United States,USA,2040,,40.83
+United States,USA,2041,,40.883
+United States,USA,2042,,40.946
+United States,USA,2043,,41.018
+United States,USA,2044,,41.093
+United States,USA,2045,,41.182
+United States,USA,2046,,41.287
+United States,USA,2047,,41.407
+United States,USA,2048,,41.542
+United States,USA,2049,,41.695
+United States,USA,2050,,41.86
+United States,USA,2051,,42.023
+United States,USA,2052,,42.177
+United States,USA,2053,,42.316
+United States,USA,2054,,42.444
+United States,USA,2055,,42.566
+United States,USA,2056,,42.684
+United States,USA,2057,,42.797
+United States,USA,2058,,42.909
+United States,USA,2059,,43.023
+United States,USA,2060,,43.135
+United States,USA,2061,,43.235
+United States,USA,2062,,43.319
+United States,USA,2063,,43.391
+United States,USA,2064,,43.449
+United States,USA,2065,,43.493
+United States,USA,2066,,43.539
+United States,USA,2067,,43.591
+United States,USA,2068,,43.637
+United States,USA,2069,,43.676
+United States,USA,2070,,43.715
+United States,USA,2071,,43.752
+United States,USA,2072,,43.789
+United States,USA,2073,,43.826
+United States,USA,2074,,43.863
+United States,USA,2075,,43.9
+United States,USA,2076,,43.936
+United States,USA,2077,,43.977
+United States,USA,2078,,44.021
+United States,USA,2079,,44.07
+United States,USA,2080,,44.124
+United States,USA,2081,,44.18
+United States,USA,2082,,44.24
+United States,USA,2083,,44.305
+United States,USA,2084,,44.375
+United States,USA,2085,,44.451
+United States,USA,2086,,44.53
+United States,USA,2087,,44.608
+United States,USA,2088,,44.684
+United States,USA,2089,,44.759
+United States,USA,2090,,44.834
+United States,USA,2091,,44.906
+United States,USA,2092,,44.974
+United States,USA,2093,,45.037
+United States,USA,2094,,45.094
+United States,USA,2095,,45.145
+United States,USA,2096,,45.191
+United States,USA,2097,,45.231
+United States,USA,2098,,45.266
+United States,USA,2099,,45.297
+United States,USA,2100,,45.324
