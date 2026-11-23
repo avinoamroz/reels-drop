@@ -1,0 +1,333 @@
+{
+ "id": "anthems_compare",
+ "account": "noamroz__",
+ "template": "scorecard",
+ "hook": "*6* anthems.|Only *1* named *Hope.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.14
+ },
+ "pron": {
+  "lex": {
+   "hatikvah": "h|ɑ|t|i|k|ˈ|v|ɑ",
+   "fida'i": "f|ɪ|ˈ|d|ɑ|i"
+  }
+ },
+ "lines": [
+  {
+   "say": "Six anthems around Israel. Only one is named Hope."
+  },
+  {
+   "say": "What does each one sing about?",
+   "screen": "What does each anthem *sing* about?"
+  },
+  {
+   "say": "Egypt: you have my love and my heart.",
+   "screen": "Egypt: *\"You have my love and my heart\"*"
+  },
+  {
+   "say": "Hope, freedom, and sacrifice, at war or peace."
+  },
+  {
+   "say": "Jordan: long live the King, and his armies.",
+   "screen": "Jordan: *\"Long live the King!\"*"
+  },
+  {
+   "say": "Lebanon: our sword and our pen. And God.",
+   "screen": "Lebanon: *\"Our sword and our pen\"*"
+  },
+  {
+   "say": "Syria: guardians of the homeland, peace be upon you.",
+   "screen": "Syria: *\"Guardians of the homeland, peace be upon you\"*"
+  },
+  {
+   "say": "Then hopes, martyrs and blood."
+  },
+  {
+   "say": "The Palestinian Authority's anthem, Fida'i: one who sacrifices himself.",
+   "screen": "Palestinian Authority: *Fida'i,* one who sacrifices himself"
+  },
+  {
+   "say": "Wars, blood, and the volcano of my revenge.",
+   "screen": "*\"The volcano of my revenge\"*"
+  },
+  {
+   "say": "And Israel's Hatikvah, sung the day the state was born:",
+   "screen": "Israel: *Hatikvah,* The Hope"
+  },
+  {
+   "say": "To be a free people in our land.",
+   "screen": "*\"To be a free people in our land\"*"
+  },
+  {
+   "say": "Land, hope, freedom. No God, no king."
+  },
+  {
+   "say": "And the only one with no sword, no blood, no enemy, no army."
+  },
+  {
+   "say": "Most were written in fights for independence. Hatikvah, by a poet with no state."
+  },
+  {
+   "say": "Which anthem would you sing?"
+  },
+  {
+   "follow": true
+  },
+  {
+   "say": "Six anthems. Only one is named Hope.",
+   "screen": "Six anthems. Only *one* is named *Hope.*"
+  }
+ ],
+ "data": {
+  "score": false,
+  "sort": false,
+  "fill": "rows",
+  "columns": [
+   {
+    "label": "Land",
+    "icon": "🏔️"
+   },
+   {
+    "label": "Hope",
+    "icon": "🌅"
+   },
+   {
+    "label": "Free",
+    "icon": "🔓"
+   },
+   {
+    "label": "God",
+    "icon": "🙏"
+   },
+   {
+    "label": "King",
+    "icon": "👑"
+   },
+   {
+    "label": "War",
+    "icon": "⚔️"
+   }
+  ],
+  "rows": [
+   {
+    "label": "Egypt",
+    "flag": "EG",
+    "cells": [
+     "Y",
+     "Y",
+     "Y",
+     "N",
+     "N",
+     "Y"
+    ],
+    "at": "L3"
+   },
+   {
+    "label": "Jordan",
+    "flag": "JO",
+    "cells": [
+     "N",
+     "N",
+     "N",
+     "N",
+     "Y",
+     "P"
+    ],
+    "at": "L4:king"
+   },
+   {
+    "label": "Lebanon",
+    "flag": "LB",
+    "cells": [
+     "Y",
+     "N",
+     "N",
+     "Y",
+     "N",
+     "Y"
+    ],
+    "at": "L5:sword"
+   },
+   {
+    "label": "Syria",
+    "flag": "SY",
+    "cells": [
+     "Y",
+     "Y",
+     "N",
+     "N",
+     "N",
+     "Y"
+    ],
+    "at": "L7"
+   },
+   {
+    "label": "PA",
+    "flag": "PS",
+    "cells": [
+     "Y",
+     "N",
+     "N",
+     "N",
+     "N",
+     "Y"
+    ],
+    "at": "L9"
+   },
+   {
+    "label": "Israel",
+    "flag": "IL",
+    "cells": [
+     "Y",
+     "Y",
+     "Y",
+     "N",
+     "N",
+     "N"
+    ],
+    "at": "L12",
+    "hl": true
+   }
+  ],
+  "photos": [
+   {
+    "file": "photos/bh_pyramids.jpg",
+    "credit": "Ricardo Liberato, CC BY-SA 2.0",
+    "at": "L2-0.1",
+    "until": "L2e",
+    "kb": [
+     0.47,
+     0.5,
+     1.0,
+     0.5,
+     0.48,
+     1.08
+    ]
+   },
+   {
+    "file": "photos/ik_petra.jpg",
+    "credit": "Vyacheslav Argenberg, CC BY 4.0",
+    "at": "L4-0.1",
+    "until": "L4:king-0.25",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.4,
+     1.1
+    ]
+   },
+   {
+    "file": "photos/jl_lb_beirut.jpg",
+    "credit": "Vyacheslav Argenberg, CC BY 4.0",
+    "at": "L5-0.1",
+    "until": "L5:sword-0.25",
+    "kb": [
+     0.62,
+     0.5,
+     1.0,
+     0.58,
+     0.5,
+     1.08
+    ]
+   },
+   {
+    "file": "photos/bB_vc_umayyad.jpg",
+    "credit": "Vyacheslav Argenberg, CC BY 4.0",
+    "at": "L6-0.1",
+    "until": "L6e",
+    "kb": [
+     0.66,
+     0.45,
+     1.0,
+     0.64,
+     0.42,
+     1.1
+    ]
+   },
+   {
+    "file": "photos/hic_decl.jpg",
+    "credit": "Rudi Weissenstein, 1948, public domain",
+    "at": "L10-0.1",
+    "until": "L10e",
+    "kb": [
+     0.5,
+     0.55,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ]
+   }
+  ],
+  "verdict": [
+   {
+    "at": "L13",
+    "until": "L13e+0.2",
+    "text": "The only one with *no* sword, blood, enemy or army"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "label": "Egypt anthem, Bilady, tr. Wikipedia",
+   "year": 1979,
+   "at": "L2",
+   "until": "L4"
+  },
+  {
+   "label": "Jordan royal anthem, tr. Wikipedia",
+   "year": 1946,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "Lebanon anthem, Arabic text",
+   "year": 1927,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Syria anthem, Humat ad Diyar, tr. Wikipedia",
+   "year": 1938,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Fida'i anthem, tr. Wikipedia",
+   "year": 1996,
+   "at": "L8",
+   "until": "L10"
+  },
+  {
+   "label": "Hatikvah, Israel's anthem by law",
+   "year": 2004,
+   "at": "L10",
+   "until": "L13"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "until": "L15e+0.3",
+  "balance": "Most were written in fights for *independence.*",
+  "cta": "Which anthem would you sing?"
+ },
+ "caption_en": "Six national anthems. Six very different dreams.\n\nWhat each anthem around Israel sings about, in short translated phrases from the official texts:\nEgypt, Bilady, Bilady, Bilady (anthem since 1979): \"You have my love and my heart.\" Hope, freedom, and sacrifice \"at war or peace\".\nJordan, the Royal Anthem (1946): \"Long live the King!\" and his armies.\nLebanon, Kulluna lil-Watan (1927): \"our sword and our pen\", and God who preserves Lebanon.\nSyria, Humat ad-Diyar (1938): \"Guardians of the homeland, peace be upon you\", then hopes, martyrs and blood.\nPalestinian Authority, Fida'i (written 1965, adopted by the PLO, the Palestine Liberation Organization, in 1996): \"one who sacrifices himself\". Wars, blood and \"the volcano of my revenge\".\nIsrael, Hatikvah, \"The Hope\" (poem 1878, sung at the 1948 declaration, anthem by law 2004): \"To be a free people in our land.\" No God, no king, no sword, no blood, no enemy, no army.\n\nMost of these anthems were written in fights for independence, and it shows in the words. Hatikvah was written by a poet with no state at all.\n\nWhich anthem would you sing? Tell me in the comments.\n\nSources: official anthem texts; English translations from Wikipedia (Bilady, Bilady, Bilady; Royal Anthem of Jordan; National Anthem of Lebanon; Humat ad-Diyar; Fida'i; Hatikvah). Lebanon line translated literally from the Arabic (sayfuna wal-qalam). Syria's anthem status is under review by the transitional government (2025).\nPhotos (Wikimedia Commons): Giza pyramids, Ricardo Liberato, CC BY-SA 2.0; Petra and Beirut skyline and Umayyad Mosque, Vyacheslav Argenberg, CC BY 4.0; Declaration of the State of Israel 1948, Rudi Weissenstein, public domain.\nMade with AI tools.",
+ "caption_he": "שישה המנונים לאומיים. שישה חלומות שונים מאוד.\n\nעל מה שר כל המנון סביב ישראל, בביטויים קצרים מתורגמים מהטקסט הרשמי:\nמצרים: \"לך אהבתי וליבי\". תקווה, חופש והקרבה \"במלחמה או בשלום\".\nירדן: \"יחי המלך!\" וצבאותיו.\nלבנון: \"החרב והעט שלנו\", ואלוהים ששומר עליה.\nסוריה: \"שומרי המולדת, שלום עליכם\", ואז תקוות, שהידים ודם.\nהרשות הפלסטינית, \"פידאי\" (מי שמקריב את עצמו): מלחמות, דם ו\"הר הגעש של נקמתי\".\nישראל, התקווה: \"להיות עם חופשי בארצנו\". בלי אלוהים, בלי מלך, בלי חרב, בלי דם, בלי אויב ובלי צבא.\n\nרוב ההמנונים האלה נכתבו במאבקי עצמאות, וזה ניכר במילים. התקווה נכתבה בידי משורר בלי מדינה בכלל.\n\nאיזה המנון אתם הייתם שרים? כתבו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#Hatikvah",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 41.0,
+  "big": "6 anthems",
+  "text": "Only *one* is|named *Hope*"
+ }
+}
