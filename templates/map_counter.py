@@ -432,7 +432,7 @@ def run(S):
             if CLK["st"][k_ + 1][1] != CLK["st"][k_][1]: ev += [(tt_, "tick", -34) for tt_ in np.arange(a_, b_, 0.25)]
     ev += [(r["t0"], "whoosh", -28) for r in ROUTES if r.get("kind") != "wall"] + [(r["t0"], "thud", -22) for r in ROUTES if r.get("kind") == "wall"]
     ev += [(r["tc"], "buzz", -24) for r in ROUTES if r["tc"] is not None] + [(c_["t0"], "pop", -24) for c_ in ICONS]
-    ev += [(c0, "pop", -24) for c0, _ in CMW if c0 > 0.01]
+    ev += [(c0, "pop", -24) for c0, _, _ in CMW if c0 > 0.01]
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
     aud = build_mix(S, T, work, ev)
     body = f"{work}/body.mp4"
