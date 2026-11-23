@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "name_sign",
  "hook": "*5* street names.|*5* secret meanings.",
- "duration": 51.37,
+ "duration": 52.57,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -2.0
+  "lufs": -16.2,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/surname_meanings_preview.mp4",
@@ -59,7 +59,7 @@
   }
  ],
  "transcript": {
-  "score": 0.818,
+  "score": 0.834,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -79,7 +79,7 @@
    },
    {
     "line": "The boulevard honours Baron Edmond de Rothschild.",
-    "score": 0.571,
+    "score": 0.714,
     "flag": "MISS"
    },
    {
@@ -94,12 +94,12 @@
    },
    {
     "line": "Sokolov. Sokol is Russian for falcon.",
-    "score": 1.0,
+    "score": 0.833,
     "flag": "ok"
    },
    {
     "line": "Nahum Sokolov later led the World Zionist Organization.",
-    "score": 0.875,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -108,8 +108,8 @@
     "flag": "ok"
    },
    {
-    "line": "Many Kaplans are <<k|oʊ|h|ɑ|ˈ|n|i|m>>, Jewish priestly families. The street honours Israel's first finance minister.",
-    "score": 0.579,
+    "line": "Many Kaplan families are <<k|oʊ|h|ɑ|ˈ|n|i|m>>, Jewish priests. The street honours Israel's first finance minister.",
+    "score": 0.632,
     "flag": "MISS"
    },
    {
@@ -118,8 +118,8 @@
     "flag": "MISS"
    },
    {
-    "line": "Most likely, the family came from a town called Ostrov. Raanana's first mayor was Baruch Ostrovsky.",
-    "score": 0.812,
+    "line": "Most likely, the family came from a town called Ostrov. And in Raanana, the first mayor was Baruch Ostrovsky.",
+    "score": 0.842,
     "flag": "ok"
    },
    {
@@ -133,15 +133,15 @@
     "flag": "ok"
    }
   ],
-  "heard": "5 Israeli street names Each one hides a secret meaning Rothschild Wrote means red Shilt means shield In the 1500s, the family lived in a Frankfurt house with a red shield sign The boulevard honors Baron Edmund the Rothschild Ben Gurion was born David Gruen Gruen means green In 1910, he took a new name from a Jewish rebel against Rome Sokolov Sokol is Russian for falcon Nahum Sokolov later led the world's Zionist organization Kaplan comes from Latin, a cape Then a chaplain, a priest Many captains are Kohanim, Jewish priestly families. The street honors Israel's first finance minister, Ostrowski. Ostrowski means island. Most likely, the family came from a town called Ostrowski, where Anana's first mayor was Baruch Ostrowski. So what does your surname mean? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. Next time, read the street sign twice.",
+  "heard": "5 Israeli street names. Each one hides a secret meaning. Rothschild. Wrote means red. Shilt means shield. In the 1500s, the family lived in a Frankfurt house with a red shield sign. The boulevard honors Baron Edmund de Rothschild. Ben-Gurion was born David Grun. Grun means green. In 1910, he took a new name, from a Jewish rebel against Rome, Sokolov. Sokolov is Russian for Falcon. Nahum Sokolov later led the World Zionist Organization. Kaplan comes from Latin, a cape, then a chaplain, a priest. Many Kaplan families are Kohanim, Jewish priests. The street honors Israel's first finance minister, Ostrowski. Ostrowski means island. Most likely, the family came from a town called Ostrowski. And in Renanah, the first mayor was Baruch Ostrowski. So what does your surname mean? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. Next time, read the street sign twice.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -2.0
+  "lufs": -16.2,
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 93.3
+ "render_s": 68.8
 }

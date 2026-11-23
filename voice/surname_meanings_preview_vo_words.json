@@ -1,702 +1,717 @@
 [
 {
 "word": "Five",
-"start": 0.279,
-"end": 0.635
+"start": 0.372,
+"end": 0.712
 },
 {
 "word": "Israeli",
-"start": 0.635,
-"end": 1.037
+"start": 0.712,
+"end": 1.099
 },
 {
 "word": "street",
-"start": 1.037,
-"end": 1.331
+"start": 1.099,
+"end": 1.393
 },
 {
 "word": "names.",
-"start": 1.331,
-"end": 1.811
+"start": 1.393,
+"end": 1.873
 },
 {
 "word": "Each",
-"start": 2.291,
-"end": 2.585
+"start": 2.322,
+"end": 2.632
 },
 {
 "word": "one",
-"start": 2.585,
-"end": 2.833
+"start": 2.632,
+"end": 2.895
 },
 {
 "word": "hides",
-"start": 2.833,
-"end": 3.034
+"start": 2.895,
+"end": 3.142
 },
 {
 "word": "a",
-"start": 3.034,
-"end": 3.096
+"start": 3.142,
+"end": 3.204
 },
 {
 "word": "secret",
-"start": 3.096,
-"end": 3.468
+"start": 3.204,
+"end": 3.591
 },
 {
 "word": "meaning.",
-"start": 3.468,
-"end": 3.793
+"start": 3.591,
+"end": 3.947
 },
 {
 "word": "Rothschild.",
-"start": 4.242,
-"end": 4.938
+"start": 4.752,
+"end": 5.511
 },
 {
 "word": "<<ˈ|r|oʊ|t>>",
-"start": 5.418,
-"end": 5.836
+"start": 6.022,
+"end": 6.316
 },
 {
 "word": "means",
-"start": 5.867,
-"end": 6.161
+"start": 6.316,
+"end": 6.564
 },
 {
 "word": "red.",
-"start": 6.161,
-"end": 6.548
+"start": 6.564,
+"end": 6.981
 },
 {
 "word": "<<ˈ|ʃ|ɪ|l|t>>",
-"start": 7.214,
-"end": 7.725
+"start": 7.554,
+"end": 8.034
 },
 {
 "word": "means",
-"start": 7.786,
-"end": 8.019
+"start": 8.081,
+"end": 8.359
 },
 {
 "word": "shield.",
-"start": 8.019,
-"end": 8.468
+"start": 8.359,
+"end": 8.808
 },
 {
 "word": "In",
-"start": 8.777,
-"end": 8.916
+"start": 9.381,
+"end": 9.536
 },
 {
 "word": "the",
-"start": 8.916,
-"end": 9.009
+"start": 9.536,
+"end": 9.644
 },
 {
 "word": "fifteen",
-"start": 9.009,
-"end": 9.489
+"start": 9.644,
+"end": 10.155
 },
 {
 "word": "hundreds,",
-"start": 9.489,
-"end": 10.062
+"start": 10.186,
+"end": 10.635
 },
 {
 "word": "the",
-"start": 10.356,
-"end": 10.449
+"start": 10.635,
+"end": 10.759
 },
 {
 "word": "family",
-"start": 10.449,
-"end": 10.805
+"start": 10.759,
+"end": 11.177
 },
 {
 "word": "lived",
-"start": 10.805,
-"end": 11.053
+"start": 11.177,
+"end": 11.424
 },
 {
 "word": "in",
-"start": 11.053,
-"end": 11.146
+"start": 11.424,
+"end": 11.502
 },
 {
 "word": "a",
-"start": 11.146,
-"end": 11.207
+"start": 11.502,
+"end": 11.564
 },
 {
 "word": "Frankfurt",
-"start": 11.207,
-"end": 11.594
-},
-{
-"word": "house",
-"start": 11.594,
-"end": 11.858
-},
-{
-"word": "with",
-"start": 11.858,
-"end": 12.012
-},
-{
-"word": "a",
-"start": 12.012,
+"start": 11.564,
 "end": 12.043
 },
 {
-"word": "red",
+"word": "house",
 "start": 12.043,
-"end": 12.307
+"end": 12.353
+},
+{
+"word": "with",
+"start": 12.353,
+"end": 12.492
+},
+{
+"word": "a",
+"start": 12.492,
+"end": 12.523
+},
+{
+"word": "red",
+"start": 12.523,
+"end": 12.771
 },
 {
 "word": "shield",
-"start": 12.307,
-"end": 12.647
+"start": 12.771,
+"end": 13.127
 },
 {
 "word": "sign.",
-"start": 12.647,
-"end": 13.034
+"start": 13.127,
+"end": 13.452
 },
 {
 "word": "The",
-"start": 13.607,
-"end": 13.746
+"start": 14.056,
+"end": 14.211
 },
 {
 "word": "boulevard",
-"start": 13.746,
-"end": 14.226
+"start": 14.211,
+"end": 14.69
 },
 {
 "word": "honours",
-"start": 14.226,
-"end": 14.675
+"start": 14.69,
+"end": 15.077
 },
 {
 "word": "Baron",
-"start": 14.675,
-"end": 15.047
-},
-{
-"word": "Edmond",
-"start": 15.047,
+"start": 15.077,
 "end": 15.434
 },
 {
-"word": "de",
+"word": "Edmond",
 "start": 15.434,
-"end": 15.526
+"end": 15.774
+},
+{
+"word": "de",
+"start": 15.774,
+"end": 15.851
 },
 {
 "word": "Rothschild.",
-"start": 15.526,
-"end": 16.115
+"start": 15.851,
+"end": 16.579
 },
 {
 "word": "Ben",
-"start": 17.105,
-"end": 17.446
+"start": 16.842,
+"end": 17.121
 },
 {
 "word": "Gurion",
-"start": 17.446,
-"end": 17.957
+"start": 17.121,
+"end": 17.508
 },
 {
 "word": "was",
-"start": 17.957,
-"end": 18.096
+"start": 17.508,
+"end": 17.694
 },
 {
 "word": "born",
-"start": 18.096,
-"end": 18.406
+"start": 17.694,
+"end": 17.957
 },
 {
 "word": "David",
-"start": 18.406,
-"end": 18.7
+"start": 17.957,
+"end": 18.251
 },
 {
 "word": "Groon.",
-"start": 18.7,
-"end": 19.087
+"start": 18.251,
+"end": 18.56
 },
 {
 "word": "Groon",
-"start": 19.567,
-"end": 19.907
+"start": 19.071,
+"end": 19.365
 },
 {
 "word": "means",
-"start": 19.907,
-"end": 20.17
+"start": 19.365,
+"end": 19.644
 },
 {
 "word": "green.",
-"start": 20.17,
-"end": 20.557
+"start": 19.644,
+"end": 19.969
 },
 {
 "word": "In",
-"start": 21.099,
-"end": 21.254
+"start": 20.712,
+"end": 20.867
 },
 {
 "word": "nineteen",
-"start": 21.254,
-"end": 21.734
+"start": 20.867,
+"end": 21.285
 },
 {
 "word": "ten,",
-"start": 21.734,
-"end": 22.09
+"start": 21.285,
+"end": 21.641
 },
 {
 "word": "he",
-"start": 22.183,
-"end": 22.338
+"start": 21.672,
+"end": 21.796
 },
 {
 "word": "took",
-"start": 22.338,
-"end": 22.477
+"start": 21.796,
+"end": 21.951
 },
 {
 "word": "a",
-"start": 22.477,
-"end": 22.57
+"start": 21.951,
+"end": 22.043
 },
 {
 "word": "new",
-"start": 22.57,
-"end": 22.694
+"start": 22.043,
+"end": 22.183
 },
 {
 "word": "name,",
-"start": 22.694,
+"start": 22.183,
+"end": 22.523
+},
+{
+"word": "from",
+"start": 22.817,
+"end": 23.003
+},
+{
+"word": "a",
+"start": 23.003,
 "end": 23.05
 },
 {
-"word": "from",
-"start": 23.081,
-"end": 23.297
-},
-{
-"word": "a",
-"start": 23.297,
-"end": 23.344
-},
-{
 "word": "Jewish",
-"start": 23.344,
-"end": 23.684
+"start": 23.05,
+"end": 23.421
 },
 {
 "word": "rebel",
-"start": 23.684,
-"end": 23.948
+"start": 23.421,
+"end": 23.684
 },
 {
 "word": "against",
-"start": 23.948,
-"end": 24.257
+"start": 23.684,
+"end": 23.994
 },
 {
 "word": "Rome.",
-"start": 24.257,
-"end": 24.582
+"start": 23.994,
+"end": 24.319
 },
 {
 "word": "Sokolov.",
-"start": 25.279,
-"end": 25.96
+"start": 24.954,
+"end": 25.604
 },
 {
 "word": "Sokol",
-"start": 26.285,
-"end": 26.734
+"start": 25.944,
+"end": 26.331
 },
 {
 "word": "is",
-"start": 26.734,
-"end": 26.858
+"start": 26.331,
+"end": 26.486
 },
 {
 "word": "Russian",
-"start": 26.858,
-"end": 27.183
+"start": 26.486,
+"end": 26.842
 },
 {
 "word": "for",
-"start": 27.183,
-"end": 27.338
+"start": 26.842,
+"end": 26.966
 },
 {
 "word": "falcon.",
-"start": 27.338,
-"end": 27.694
+"start": 26.966,
+"end": 27.508
 },
 {
 "word": "Nahum",
-"start": 28.235,
-"end": 28.561
+"start": 28.189,
+"end": 28.622
 },
 {
 "word": "Sokolov",
-"start": 28.561,
-"end": 29.04
+"start": 28.622,
+"end": 29.133
 },
 {
 "word": "later",
-"start": 29.04,
-"end": 29.319
+"start": 29.133,
+"end": 29.458
 },
 {
 "word": "led",
-"start": 29.319,
-"end": 29.489
+"start": 29.458,
+"end": 29.644
 },
 {
 "word": "the",
-"start": 29.489,
-"end": 29.582
+"start": 29.644,
+"end": 29.722
 },
 {
 "word": "World",
-"start": 29.582,
-"end": 29.876
+"start": 29.722,
+"end": 30.0
 },
 {
 "word": "Zionist",
-"start": 29.876,
-"end": 30.294
+"start": 30.0,
+"end": 30.511
 },
 {
 "word": "Organization.",
-"start": 30.294,
-"end": 31.022
+"start": 30.511,
+"end": 31.161
 },
 {
 "word": "Kaplan",
-"start": 31.285,
-"end": 31.657
+"start": 32.09,
+"end": 32.523
 },
 {
 "word": "comes",
-"start": 31.657,
-"end": 31.889
+"start": 32.523,
+"end": 32.787
 },
 {
 "word": "from",
-"start": 31.889,
-"end": 32.044
+"start": 32.787,
+"end": 32.941
 },
 {
 "word": "Latin.",
-"start": 32.044,
-"end": 32.4
+"start": 32.941,
+"end": 33.328
 },
 {
 "word": "A",
-"start": 32.941,
-"end": 33.003
+"start": 33.901,
+"end": 33.963
 },
 {
 "word": "cape,",
-"start": 33.003,
-"end": 33.421
+"start": 33.963,
+"end": 34.412
 },
 {
 "word": "then",
-"start": 33.653,
-"end": 33.808
+"start": 34.489,
+"end": 34.644
 },
 {
 "word": "a",
-"start": 33.808,
-"end": 33.87
+"start": 34.644,
+"end": 34.706
 },
 {
 "word": "chaplain,",
-"start": 33.87,
-"end": 34.319
-},
-{
-"word": "a",
-"start": 34.613,
-"end": 34.675
-},
-{
-"word": "priest.",
-"start": 34.675,
+"start": 34.706,
 "end": 35.155
 },
 {
-"word": "Many",
-"start": 35.666,
-"end": 35.914
+"word": "a",
+"start": 35.403,
+"end": 35.48
 },
 {
-"word": "Kaplans",
-"start": 35.914,
-"end": 36.27
+"word": "priest.",
+"start": 35.48,
+"end": 35.96
+},
+{
+"word": "Many",
+"start": 36.873,
+"end": 37.105
+},
+{
+"word": "Kaplan",
+"start": 37.105,
+"end": 37.462
+},
+{
+"word": "families",
+"start": 37.462,
+"end": 37.864
 },
 {
 "word": "are",
-"start": 36.27,
-"end": 36.393
+"start": 37.864,
+"end": 37.941
 },
 {
 "word": "<<k|oʊ|h|ɑ|ˈ|n|i|m>>,",
-"start": 36.393,
-"end": 37.044
+"start": 37.941,
+"end": 38.607
 },
 {
 "word": "Jewish",
-"start": 37.291,
-"end": 37.678
+"start": 38.793,
+"end": 39.149
 },
 {
-"word": "priestly",
-"start": 37.678,
-"end": 38.065
-},
-{
-"word": "families.",
-"start": 38.065,
-"end": 38.638
+"word": "priests.",
+"start": 39.149,
+"end": 39.784
 },
 {
 "word": "The",
-"start": 39.149,
-"end": 39.273
-},
-{
-"word": "street",
-"start": 39.273,
-"end": 39.598
-},
-{
-"word": "honours",
-"start": 39.629,
-"end": 39.954
-},
-{
-"word": "Israel's",
-"start": 39.954,
-"end": 40.356
-},
-{
-"word": "first",
-"start": 40.356,
+"start": 40.496,
 "end": 40.65
 },
 {
-"word": "finance",
+"word": "street",
 "start": 40.65,
-"end": 41.006
+"end": 40.914
 },
 {
-"word": "minister.",
-"start": 41.006,
-"end": 41.486
+"word": "honours",
+"start": 40.945,
+"end": 41.27
 },
 {
-"word": "Ostrovsky.",
-"start": 41.935,
-"end": 42.601
-},
-{
-"word": "Ostrov",
-"start": 43.267,
-"end": 43.654
-},
-{
-"word": "means",
-"start": 43.654,
-"end": 43.855
-},
-{
-"word": "island.",
-"start": 43.855,
-"end": 44.304
-},
-{
-"word": "Most",
-"start": 44.815,
-"end": 45.093
-},
-{
-"word": "likely,",
-"start": 45.093,
-"end": 45.325
-},
-{
-"word": "the",
-"start": 45.325,
-"end": 45.418
-},
-{
-"word": "family",
-"start": 45.418,
-"end": 45.728
-},
-{
-"word": "came",
-"start": 45.728,
-"end": 45.898
-},
-{
-"word": "from",
-"start": 45.898,
-"end": 45.991
-},
-{
-"word": "a",
-"start": 45.991,
-"end": 46.084
-},
-{
-"word": "town",
-"start": 46.084,
-"end": 46.285
-},
-{
-"word": "called",
-"start": 46.285,
-"end": 46.502
-},
-{
-"word": "Ostrov.",
-"start": 46.533,
-"end": 47.075
-},
-{
-"word": "Raanana's",
-"start": 47.4,
-"end": 47.849
+"word": "Israel's",
+"start": 41.27,
+"end": 41.61
 },
 {
 "word": "first",
-"start": 47.849,
-"end": 48.174
+"start": 41.61,
+"end": 41.873
 },
 {
-"word": "mayor",
-"start": 48.174,
-"end": 48.421
+"word": "finance",
+"start": 41.873,
+"end": 42.214
 },
 {
-"word": "was",
-"start": 48.421,
-"end": 48.576
-},
-{
-"word": "Baruch",
-"start": 48.576,
-"end": 48.87
+"word": "minister.",
+"start": 42.214,
+"end": 42.663
 },
 {
 "word": "Ostrovsky.",
-"start": 48.901,
-"end": 49.567
+"start": 43.684,
+"end": 44.304
 },
 {
-"word": "So",
-"start": 50.062,
-"end": 50.279
+"word": "Ostrov",
+"start": 45.0,
+"end": 45.387
 },
 {
-"word": "what",
-"start": 50.279,
-"end": 50.434
+"word": "means",
+"start": 45.387,
+"end": 45.573
 },
 {
-"word": "does",
-"start": 50.434,
-"end": 50.527
+"word": "island.",
+"start": 45.573,
+"end": 46.022
 },
 {
-"word": "your",
-"start": 50.527,
-"end": 50.635
+"word": "Most",
+"start": 46.982,
+"end": 47.245
 },
 {
-"word": "surname",
-"start": 50.635,
+"word": "likely,",
+"start": 47.245,
+"end": 47.787
+},
+{
+"word": "the",
+"start": 47.911,
+"end": 48.034
+},
+{
+"word": "family",
+"start": 48.034,
+"end": 48.359
+},
+{
+"word": "came",
+"start": 48.359,
+"end": 48.561
+},
+{
+"word": "from",
+"start": 48.561,
+"end": 48.715
+},
+{
+"word": "a",
+"start": 48.715,
+"end": 48.777
+},
+{
+"word": "town",
+"start": 48.777,
+"end": 49.164
+},
+{
+"word": "called",
+"start": 49.164,
+"end": 49.381
+},
+{
+"word": "Ostrov.",
+"start": 49.381,
+"end": 49.923
+},
+{
+"word": "And",
+"start": 50.697,
 "end": 51.037
 },
 {
+"word": "in",
+"start": 51.068,
+"end": 51.27
+},
+{
+"word": "Raanana,",
+"start": 51.27,
+"end": 51.842
+},
+{
+"word": "the",
+"start": 52.198,
+"end": 52.291
+},
+{
+"word": "first",
+"start": 52.291,
+"end": 52.554
+},
+{
+"word": "mayor",
+"start": 52.554,
+"end": 52.833
+},
+{
+"word": "was",
+"start": 52.833,
+"end": 53.019
+},
+{
+"word": "Baruch",
+"start": 53.019,
+"end": 53.375
+},
+{
+"word": "Ostrovsky.",
+"start": 53.437,
+"end": 54.056
+},
+{
+"word": "So",
+"start": 54.753,
+"end": 54.985
+},
+{
+"word": "what",
+"start": 54.985,
+"end": 55.233
+},
+{
+"word": "does",
+"start": 55.233,
+"end": 55.356
+},
+{
+"word": "your",
+"start": 55.356,
+"end": 55.496
+},
+{
+"word": "surname",
+"start": 55.496,
+"end": 55.867
+},
+{
 "word": "mean?",
-"start": 51.037,
-"end": 51.363
+"start": 55.867,
+"end": 56.161
 },
 {
 "word": "Tell",
-"start": 51.75,
-"end": 51.935
+"start": 56.734,
+"end": 56.904
 },
 {
 "word": "me",
-"start": 51.935,
-"end": 52.044
+"start": 56.904,
+"end": 56.997
 },
 {
 "word": "in",
-"start": 52.044,
-"end": 52.106
+"start": 56.997,
+"end": 57.059
 },
 {
 "word": "the",
-"start": 52.106,
-"end": 52.198
+"start": 57.059,
+"end": 57.121
 },
 {
 "word": "comments.",
-"start": 52.198,
-"end": 52.74
+"start": 57.121,
+"end": 57.601
 },
 {
 "word": "Next",
-"start": 52.972,
-"end": 53.251
+"start": 58.344,
+"end": 58.654
 },
 {
 "word": "time,",
-"start": 53.251,
-"end": 53.607
+"start": 58.654,
+"end": 59.01
 },
 {
 "word": "read",
-"start": 53.669,
-"end": 53.917
+"start": 59.072,
+"end": 59.304
 },
 {
 "word": "the",
-"start": 53.917,
-"end": 53.994
+"start": 59.304,
+"end": 59.366
 },
 {
 "word": "street",
-"start": 53.994,
-"end": 54.273
+"start": 59.366,
+"end": 59.675
 },
 {
 "word": "sign",
-"start": 54.273,
-"end": 54.474
+"start": 59.675,
+"end": 59.907
 },
 {
 "word": "twice.",
-"start": 54.474,
-"end": 55.016
+"start": 59.907,
+"end": 60.325
 }
 ]
