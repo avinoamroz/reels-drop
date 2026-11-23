@@ -21,8 +21,15 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-
   counter_y y of the counter block (default 330)
   title_y   y of the line screen cards (default 1300)
   overlays / brand / hook_y / subs_y as in map_counter
+Opt-in additions (Builder BB, 23 Nov; specs without these keys render exactly as before):
+  globe     true: whole-globe views (far side opened, space outside the Earth's disc)
+  surround  [{code, box, center, area, ratio, at, grow, until, panel_until, follow, land_total, mode, ...}] ring around a
+            country with area x ratio of neighbours; land counter vs need (see SURROUND in run)
+  counters  [{at, until, name, value, dec, prefix, suffix, sub, from, y}] rolling number panels
+  hl_world  [{codes, box, at, until, fill, line, fa}] tint any world country
+  photos    [{file, at, until, label, credit, y, w, h, focus_y}] real photo band with Ken Burns and credit
 """
-import os, sys, math, json
+import os, sys, math, json, subprocess
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, os.path.join(HERE, "core")); sys.path.insert(0, HERE)
 import numpy as np
 from common import *
@@ -30,6 +37,7 @@ import common as CM
 from map_counter import draw_overlay, draw_brand
 
 R = 6371.0072
+CLAMP = [-0.6]          # far side clamp of the projection; data.globe (opt-in) opens it to the whole globe
 GEOF = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "israel_fits_geo.json")
 LAND, LAND_B, OCEAN0, OCEAN1 = "#1D4579", "#3C70B0", "#07142E", "#0C1D40"
 TGT_FILL, TGT_LINE = "#2A5E9C", "#8FD0F5"
@@ -40,7 +48,7 @@ def fwd(lon, lat, lon0, lat0):
     """Lambert azimuthal equal-area (sphere). Returns x, y (km, y north) and cos(c) (angular distance) for culling."""
     l = np.radians(lon); p = np.radians(lat); l0 = math.radians(lon0); p0 = math.radians(lat0)
     cc = math.sin(p0) * np.sin(p) + math.cos(p0) * np.cos(p) * np.cos(l - l0)
-    k = np.sqrt(2 / np.maximum(1 + np.maximum(cc, -0.6), 1e-9))
+    k = np.sqrt(2 / np.maximum(1 + np.maximum(cc, CLAMP[0]), 1e-9))
     return R * k * np.cos(p) * np.sin(l - l0), R * k * (math.cos(p0) * np.sin(p) - math.sin(p0) * np.cos(p) * np.cos(l - l0)), cc
 
 
@@ -80,6 +88,8 @@ def run(S):
             keep = ~((r[:, 1] < -89.5) | ((np.abs(r[:, 0]) > 179.9) & (r[:, 1] < -60)))
             WORLD[i] = r[keep]
     LAKES = [r for rs in G["lakes"].values() for r in rings_ll(rs)]
+    GLOBE = bool(D.get("globe"))                                          # opt-in (surround reels): whole-globe views
+    CLAMP[0] = -0.995 if GLOBE else -0.6
     HOME_I = rings_ll(G["isr49"]) + rings_ll(G["golan"]); HOME_T = rings_ll(G["wb"]) + rings_ll(G["gaza"])
 
     # ---------------------------------------------------------------- camera
@@ -102,6 +112,30 @@ def run(S):
             cur = np.array([lon0 + dl * u, lat0 + (k[1] - lat0) * u, a0[2] + (k[2] - a0[2]) * u + bump * math.sin(math.pi * u), a0[3] + (k[3] - a0[3]) * u])
             if u < 1: return cur
             cur = k.copy()
+        return cur
+
+    SUR = []                                                              # opt-in "surround" beats (see SURROUND below)
+    for sb in D.get("surround", []):
+        g0, g1 = A(sb["grow"][0]), A(sb["grow"][1])
+        SUR.append(dict(sb, t0=A(sb["at"]), t1=A(sb.get("until"), T.END - 0.6), g0=g0, g1=g1, need=float(sb["area"]) * float(sb["ratio"])))
+
+    def theta_at(b, t):
+        """cap radius in degrees: from the country's own size to the whole globe, eased (slow start, fast middle)"""
+        th0 = math.degrees(math.sqrt(float(b["area"]) / math.pi) / R) * 1.15; th1 = float(b.get("theta_max", 180.0))
+        if t <= b["g0"]: return th0
+        u = min(1.0, (t - b["g0"]) / max(0.1, b["g1"] - b["g0"]))
+        u = 0.5 * u + 0.5 * ease(u) if b.get("ease", "soft") == "soft" else ease(u)      # soft: near linear, the ring keeps moving
+        return th0 + (th1 - th0) * u ** float(b.get("shape", 1.0))
+
+    _cam_base = cam_at
+    def cam_at(t):
+        cur = _cam_base(t)
+        for b in SUR:
+            f = b.get("follow")
+            if not f or not (b["g0"] <= t <= b["g1"] + 0.05): continue
+            th = math.radians(theta_at(b, t)); diam = 4 * R * math.sin(th / 2)
+            wk = min(float(f[1]), max(float(f[0]), diam / float(b.get("follow_fill", 0.62))))
+            cur = np.array([b["center"][0], b["center"][1], math.log(wk), float(f[2]) if len(f) > 2 else cur[3]])
         return cur
 
     # ---------------------------------------------------------------- beats and tiles
@@ -149,7 +183,9 @@ def run(S):
         c.close_path()
 
     def visible(pts, cc):
-        if cc.max() < -0.2: return False
+        if GLOBE:
+            if cc.min() < -0.997: return False                            # rings touching the antipode smear along the rim: skip
+        elif cc.max() < -0.2: return False
         return not (pts[:, 0].max() < -50 or pts[:, 0].min() > W + 50 or pts[:, 1].max() < -50 or pts[:, 1].min() > H + 50)
 
     def draw_rings(cv, rs, P, fill, fa, stroke=None, sa=0.0, lw=1.2):
@@ -167,14 +203,14 @@ def run(S):
     def graticule(cv, P, s):
         c = cv.c; c.new_path()
         for lon in range(-180, 180, 10):
-            ll = np.c_[np.full(61, lon), np.linspace(-85, 85, 61)]; pts, cc = P(ll); ok = cc > 0.05
+            ll = np.c_[np.full(61, lon), np.linspace(-85, 85, 61)]; pts, cc = P(ll); ok = cc > (-0.9 if GLOBE else 0.05)
             if ok.sum() < 2: continue
             first = True
             for p, o in zip(pts, ok):
                 if not o: first = True; continue
                 (c.move_to if first else c.line_to)(p[0], p[1]); first = False
         for lat in range(-80, 81, 10):
-            ll = np.c_[np.linspace(-180, 180, 121), np.full(121, lat)]; pts, cc = P(ll); ok = cc > 0.05
+            ll = np.c_[np.linspace(-180, 180, 121), np.full(121, lat)]; pts, cc = P(ll); ok = cc > (-0.9 if GLOBE else 0.05)
             first = True
             for p, o in zip(pts, ok):
                 if not o: first = True; continue
@@ -236,6 +272,170 @@ def run(S):
         cv.text(txt, 540, CY + 60, 150, YEL, a, maxw=840); c.restore()
         cv.text(b.get("sub", "true-size Israels"), 540, CY + 170, 44, "#C9D6EA", a, bold=False, maxw=840)
 
+
+    # ---------------------------------------------------------------- SURROUND (opt-in, Builder BB 23 Nov): "surround X like Israel"
+    # data.surround [{center: [lon, lat], code: "FRA", box: [lon0, lat0, lon1, lat1] (which rings of the country to outline),
+    #   area: km2, ratio: 593, at, grow: [t0, t1], until, follow: [w_min_km, w_max_km, screen_y] (camera rides the ring),
+    #   land_total: 148.94e6 (land counter scaled to this), mode: "land" | "planets", name, name_grow, sub_full, planets}]
+    # A spherical cap grows around the country (true area on the equal-area map); oceans get a gold wash, land under the
+    # ring turns gold, and the counter shows the land swallowed against the land needed (area x ratio).
+    def land_curve(lon0, lat0, res=0.25):
+        nx, ny = int(360 / res), int(180 / res)
+        sf = cairo.ImageSurface(cairo.FORMAT_A8, nx, ny); c = cairo.Context(sf); c.set_fill_rule(cairo.FILL_RULE_WINDING)
+        def ring(r):
+            c.move_to((r[0, 0] + 180) / res, (90 - r[0, 1]) / res)
+            for x, y in r[1:]: c.line_to((x + 180) / res, (90 - y) / res)
+            c.close_path()
+        for rs in G["world"].values():
+            for r in rings_ll(rs):
+                if len(r) >= 3: ring(r)
+        c.set_source_rgba(0, 0, 0, 1); c.fill(); c.set_operator(cairo.OPERATOR_CLEAR)
+        for r in LAKES:
+            if len(r) >= 3: ring(r)
+        c.fill(); sf.flush()
+        m = np.ndarray((ny, sf.get_stride()), np.uint8, sf.get_data())[:, :nx].astype(np.float32) / 255
+        la = np.radians(90 - (np.arange(ny) + 0.5) * res)[:, None]; lo = np.radians(-180 + (np.arange(nx) + 0.5) * res)[None, :]
+        area = (math.radians(res) ** 2) * np.cos(la) * R ** 2 * np.ones_like(lo)
+        p0, l0 = math.radians(lat0), math.radians(lon0)
+        th = np.degrees(np.arccos(np.clip(math.sin(p0) * np.sin(la) + math.cos(p0) * np.cos(la) * np.cos(lo - l0), -1, 1))).ravel()
+        e = np.linspace(0, 180, 721); h, _ = np.histogram(th, e, weights=(m * area).ravel()); cum = np.r_[0, np.cumsum(h)]
+        return e, cum / cum[-1]
+    for b in SUR:
+        b["curve"] = land_curve(*b["center"])
+        rs = rings_ll(G["world"][b["code"]]) if b.get("code") else []
+        if b.get("box"):
+            x0, y0, x1, y1 = b["box"]; rs = [r for r in rs if x0 <= r[:, 0].mean() <= x1 and y0 <= r[:, 1].mean() <= y1]
+        b["rings"] = rs
+        b["own"] = float(b["area"])
+
+    def land_at(b, t):
+        e, cf = b["curve"]; th = theta_at(b, t)
+        return max(b["own"], float(np.interp(th, e, cf)) * float(b.get("land_total", 148.94e6)))    # land inside the ring, incl. the country
+
+    def small_circle(lon0, lat0, th, n=240):
+        p0, l0, d = math.radians(lat0), math.radians(lon0), math.radians(th); az = np.linspace(0, 2 * np.pi, n, endpoint=False)
+        la = np.arcsin(np.clip(math.sin(p0) * math.cos(d) + math.cos(p0) * math.sin(d) * np.cos(az), -1, 1))
+        lo = l0 + np.arctan2(np.sin(az) * math.sin(d) * math.cos(p0), math.cos(d) - math.sin(p0) * np.sin(la))
+        return np.c_[np.degrees(lo), np.degrees(la)]
+
+    def cap_path(cv, b, th, st, P, s):
+        c = cv.c; c.new_path()
+        if ang(st[:2], b["center"]) < 0.3:                                  # camera on the centre: the cap is an exact circle
+            pc, _ = P(np.array([b["center"]], float)); r = 2 * R * math.sin(math.radians(min(th, 179.99)) / 2) * s
+            c.arc(pc[0][0], pc[0][1], r, 0, 2 * math.pi); return
+        pts, cc = P(small_circle(b["center"][0], b["center"][1], th)); path(cv, pts)
+
+    RING_W, RING_L, RING_E = "#F2B53A", "#E9A93A", "#FFD55A"
+    def draw_surround(cv, b, t, st, P, s):
+        ba = win(t, b["t0"] - 0.3, b["t1"], 0.4, 0.4)
+        if ba <= 0.01: return
+        c = cv.c
+        if t >= b["g0"] - 0.05:
+            th = theta_at(b, t)
+            cap_path(cv, b, th, st, P, s); cv.col(RING_W, 0.30 * ba); c.fill()                         # the ring eats the oceans
+            c.save(); cap_path(cv, b, th, st, P, s); c.clip()
+            draw_rings(cv, WORLD, P, RING_L, 0.88 * ba, "#FFE6A0", 0.55 * ba, max(0.8, min(1.6, s * 3)))   # and the land
+            c.restore()
+            if th < 179.5:
+                for lw_, al_ in ((16, 0.18), (6, 0.95)):
+                    cap_path(cv, b, th, st, P, s); cv.col(RING_E, al_ * ba); c.set_line_width(lw_); c.stroke()
+        draw_rings(cv, b["rings"], P, ISR_FILL, ba, "#FFFFFF", ba, max(1.6, min(3.5, s * 5)))           # the country itself
+
+    def fmt_big(v, unit):
+        if v >= 1e9: return f"{v / 1e9:,.1f}B {unit}".strip()
+        if v >= 1e6: return f"{v / 1e6:,.0f}M {unit}".strip()
+        return f"{v:,.0f} {unit}".strip()
+
+    def draw_sur_panel(cv, b, t):
+        a = win(t, b["t0"] - 0.2, A(b.get("panel_until"), b["t1"]), 0.3, 0.3)
+        if a <= 0.01: return
+        top = CY - 140; cv.rrect(90, top, 900, 420, 44, "#0B1A3C", 0.78 * a, stroke=SKY, lw=2.5, sa=0.5 * a)
+        need = b["need"]; mode = b.get("mode", "land")
+        if t < b["g0"]:                                                      # phase A: area x ratio = need
+            v = WG.roll(t, b["t0"] + 0.25, 1, need, 1.1)
+            cv.text(b.get("name", ""), 540, CY - 75, 64, WHITE, a, maxw=840)
+            cv.text(fmt_big(v, "km²"), 540, CY + 55, 140, YEL, a, maxw=840)
+            cv.text(b.get("sub", "of neighbours needed"), 540, CY + 170, 48, "#C9D6EA", a, bold=False, maxw=840)
+            return
+        land = land_at(b, t); full = t >= b["g1"]
+        if mode == "planets" and t >= b["g1"] + 0.15:                        # phase C (planets): how many Earths of land
+            k = float(b.get("planets", need / float(b.get("land_total", 148.94e6))))
+            v = WG.roll(t, b["g1"] + 0.15, 1, k, float(b.get("planets_dur", 1.6)))
+            cv.text(b.get("name_planets", "Planets of land needed"), 540, CY - 75, 60, WHITE, a, maxw=840)
+            cv.text("x " + f"{v:,.0f}", 540, CY + 45, 150, YEL, a, maxw=840)
+            nd = int(round(v)); cols_ = 20
+            for i in range(nd):
+                x = 540 - (cols_ - 1) * 21 + (i % cols_) * 42; y = CY + 160 + (i // cols_) * 42
+                pa = min(1.0, (t - (b["g1"] + 0.15)) * 6) * a
+                cv.circ(x, y, 15, "#2A6FB5", pa, stroke="#8FD0F5", lw=2)
+                cv.circ(x - 4, y - 3, 6, "#3FA34D", pa)
+            return
+        cv.text(b.get("name_grow", "Land swallowed"), 540, CY - 75, 60, WHITE, a, maxw=840)
+        pulse = 1 + 0.05 * math.sin(t * 9) * (1 - seg(t, b["g1"], b["g1"] + 0.6)) * (t < b["g1"] + 0.6)
+        c = cv.c; c.save(); c.translate(540, CY + 40); c.scale(pulse, pulse); c.translate(-540, -(CY + 40))
+        cv.text(fmt_big(land, "km²"), 540, CY + 40, 128, YEL, a, maxw=840); c.restore()
+        bx, by, bw, bh = 150, CY + 130, 780, 30; frac = min(1.0, land / need)
+        cv.rrect(bx, by, bw, bh, 15, "#1A2F57", a, stroke="#8FD0F5", lw=2, sa=0.6 * a)
+        if frac > 0.004: cv.rrect(bx, by, max(bh, bw * frac), bh, 15, YEL, a)
+        cv.text(b.get("bar_end", "Needed: " + fmt_big(need, "")), 930, by + bh + 34, 40, "#C9D6EA", a, bold=False, maxw=420, align="r")
+        if full:
+            fa = a * seg(t, b["g1"], b["g1"] + 0.4)
+            cv.text(b.get("sub_full", "All land on Earth. Not enough.").replace("*", ""), 150, by + bh + 34, 40, YEL, fa, maxw=430, align="l")
+
+    CNT = [dict(k, t0=A(k["at"]), t1=A(k.get("until"), T.END - 0.6)) for k in D.get("counters", [])]
+    def draw_counters(cv, t):
+        for k in CNT:
+            a = win(t, k["t0"] - 0.2, k["t1"], 0.3, 0.3)
+            if a <= 0.01: continue
+            y = k.get("y", CY); v = WG.roll(t, k["t0"] + 0.15, float(k.get("from", 1)), float(k["value"]), float(k.get("dur", 0.9)))
+            cv.rrect(90, y - 140, 900, 360, 44, "#0B1A3C", 0.78 * a, stroke=SKY, lw=2.5, sa=0.5 * a)
+            cv.text(k.get("name", ""), 540, y - 70, 62, WHITE, a, maxw=840)
+            cv.text(WG.fmtn(v, int(k.get("dec", 0)), k.get("prefix", ""), k.get("suffix", "")), 540, y + 55, 140, YEL, a, maxw=840)
+            cv.text(k.get("sub", ""), 540, y + 165, 46, "#C9D6EA", a, bold=False, maxw=860)
+
+    HLW = []
+    for h in D.get("hl_world", []):
+        rs = [r for cd in h["codes"] for r in rings_ll(G["world"][cd])]
+        if h.get("box"):
+            x0, y0, x1, y1 = h["box"]; rs = [r for r in rs if x0 <= r[:, 0].mean() <= x1 and y0 <= r[:, 1].mean() <= y1]
+        HLW.append(dict(h, rings=rs, t0=A(h["at"]), t1=A(h.get("until"), T.END)))
+
+    PH = []
+    for ph in D.get("photos", []):
+        from PIL import Image
+        if not os.path.exists(os.path.join(REPO, ph["file"])):        # the CI checkout is sparse: pull the photo in
+            subprocess.run(["git", "-C", REPO, "sparse-checkout", "add", "/" + ph["file"]], check=False, capture_output=True)
+        im = Image.open(os.path.join(REPO, ph["file"])).convert("RGB"); pw, phh = int(ph.get("w", 940)), int(ph.get("h", 470))
+        z = 1.08; tw_, th_ = int(pw * z), int(phh * z); r_ = max(tw_ / im.width, th_ / im.height)
+        im = im.resize((max(tw_, int(im.width * r_)), max(th_, int(im.height * r_))), Image.LANCZOS)
+        fy = float(ph.get("focus_y", 0.5)); x0 = (im.width - tw_) // 2; y0 = int((im.height - th_) * fy)
+        arr = np.asarray(im.crop((x0, y0, x0 + tw_, y0 + th_)).convert("RGBA"))
+        PH.append(dict(ph, arr=arr, pw=pw, ph_=phh, t0=A(ph["at"]), t1=A(ph.get("until"), T.END - 0.6)))
+    def draw_photos(cv, t):
+        c = cv.c
+        for ph in PH:
+            a = win(t, ph["t0"] - 0.15, ph["t1"], 0.3, 0.3)
+            if a <= 0.01: continue
+            y = ph.get("y", 430); pw, phh = ph["pw"], ph["ph_"]; x0 = 540 - pw / 2; y0 = y - phh / 2
+            u = min(1.0, max(0.0, (t - ph["t0"]) / max(0.5, ph["t1"] - ph["t0"])))
+            sc = (1 / 1.08) * (1 + 0.07 * u)
+            cv.rrect(x0 - 4, y0 - 4, pw + 8, phh + 8, 36, "#0B1730", 0.9 * a, stroke=SKY, lw=3, sa=0.8 * a)
+            c.save(); c.new_path(); r = 32
+            c.arc(x0 + pw - r, y0 + r, r, -math.pi / 2, 0); c.arc(x0 + pw - r, y0 + phh - r, r, 0, math.pi / 2)
+            c.arc(x0 + r, y0 + phh - r, r, math.pi / 2, math.pi); c.arc(x0 + r, y0 + r, r, math.pi, 3 * math.pi / 2); c.close_path(); c.clip()
+            cv.image(ph["arr"], 540 + (u - 0.5) * 14, y, sc, a); c.restore()
+            if ph.get("label"): WG.tag(cv, ph["label"], 540, y0 + phh - 44, 46, YEL, a)
+            if ph.get("credit"): cv.text(ph["credit"], 540, y0 + phh + 34, 36, "#C9D6EA", a, bold=False, maxw=960, minsz=36)
+
+    def draw_space(cv, st, P, s):
+        """globe mode: deep space outside the Earth's disc, thin sky rim"""
+        rr = 2 * R * s * 0.9999
+        if rr > 2400: return
+        pc = (540.0, float(st[3])); c = cv.c; c.new_path()
+        c.rectangle(0, 0, W, H); c.arc_negative(pc[0], pc[1], rr, 2 * math.pi, 0); cv.col("#03091A", 1.0); c.fill()
+        c.new_path(); c.arc(pc[0], pc[1], rr, 0, 2 * math.pi); cv.col(SKY, 0.55); c.set_line_width(3); c.stroke()
+        c.new_path(); c.arc(pc[0], pc[1], rr + 9, 0, 2 * math.pi); cv.col(SKY, 0.12); c.set_line_width(14); c.stroke()
+
     def frame(t):
         st = cam_at(t); P, s = project(st)
         cv = Canvas(OCEAN); graticule(cv, P, s)
@@ -243,10 +443,15 @@ def run(S):
         for h in HLT:
             ha = 1.0 if h["t0"] <= 0.01 and t < h["t1"] - 0.3 else win(t, h["t0"], h["t1"], 0.3, 0.4)
             if ha > 0.01: draw_rings(cv, h["rings"], P, TGT_FILL, 0.95 * ha, TGT_LINE, 0.9 * ha, max(2.0, min(4.0, s * 8)))
+        for h in HLW:
+            ha = 1.0 if h["t0"] <= 0.01 and t < h["t1"] - 0.3 else win(t, h["t0"], h["t1"], 0.3, 0.4)
+            if ha > 0.01: draw_rings(cv, h["rings"], P, h.get("fill", TGT_FILL), float(h.get("fa", 0.95)) * ha, h.get("line", TGT_LINE), 0.9 * ha, max(1.6, min(3.5, s * 6)))
         draw_rings(cv, LAKES, P, OCEAN1, 1.0, LAND_B, 0.4, 1.0)
+        for b in SUR: draw_surround(cv, b, t, st, P, s)
         for b in BEATS: draw_beat(cv, b, t, P, s)
         draw_rings(cv, HOME_T, P, TERR_FILL, 1.0, GREEN, 0.95, max(1.5, min(4.0, s * 6)))
         draw_rings(cv, HOME_I, P, ISR_FILL, 1.0, "#FFFFFF", 0.95, max(1.2, min(3.5, s * 5)))
+        if GLOBE: draw_space(cv, st, P, s)
         for w0, w1 in HOMEW:
             ha = win(t, w0, w1, 0.3, 0.3)
             if ha > 0.01:
@@ -266,6 +471,8 @@ def run(S):
         if dm > 0: base *= (1 - 0.35 * dm)
         cv = Canvas(base)
         for b in BEATS: draw_counter(cv, b, t)
+        for b in SUR: draw_sur_panel(cv, b, t)
+        draw_counters(cv, t); draw_photos(cv, t)
         draw_screen(cv, cards, t, TY, 72)
         for o in OVL:
             oa = win(t, o["t0"] - 0.1, o["t1"], 0.3, 0.3)
@@ -288,6 +495,11 @@ def run(S):
         if b["fly"]: ev.append((b["fly"][0], "whoosh", -24))
     for t0, d, k, bump in keys:
         if bump > 0.3: ev.append((t0, "whoosh", -30))
+    for b in SUR:
+        ev.append((b["g0"], "whoosh", -24)); ev.append((b["g0"] + 0.2, "roll", b["g1"])); ev.append((b["g1"], "thud", -20))
+        if b.get("mode") == "planets": ev.append((b["g1"] + 0.15, "roll", b["g1"] + 1.6)); ev.append((b["g1"] + 1.8, "ding", -26))
+    for k in CNT: ev.append((k["t0"] + 1.0, "ding", -28))
+    for ph in PH: ev.append((ph["t0"], "whoosh", -32))
     if os.environ.get("TPL_SNAPS"): return snaps(frame, work)
     aud = build_mix(S, T, work, ev)
     final = os.path.join(REPO, "out", f"{S['id']}.mp4"); os.makedirs(os.path.dirname(final), exist_ok=True)
