@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Where to park *Israel?*|*4* tries.",
- "duration": 68.37,
+ "duration": 60.77,
  "audio": {
-  "lufs": -16.2,
+  "lufs": -16.3,
   "true_peak": -1.9
  },
  "outputs": {
@@ -59,7 +59,7 @@
   }
  ],
  "transcript": {
-  "score": 0.976,
+  "score": 0.984,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -68,12 +68,12 @@
     "flag": "ok"
    },
    {
-    "line": "Episode 3. Last time, Israel sailed out past Gibraltar, looking for a new spot.",
+    "line": "Episode 3. Israel is out at sea, looking for a spot.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Spot one, from you: Russia's Jewish Autonomous Oblast. Stalin made it a Jewish homeland in 1934.",
+    "line": "Spot one: Russia's Jewish Autonomous Oblast. Stalin made it a Jewish homeland in 1934.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -83,7 +83,7 @@
     "flag": "ok"
    },
    {
-    "line": "Spot two, from you: New York. Easy. 960,000 Jews already live in the city.",
+    "line": "Spot two: New York. Easy. 960,000 Jews already live in the city.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -93,18 +93,18 @@
     "flag": "ok"
    },
    {
-    "line": "Spot three, from you: Indiana. Four Israels fit inside. The neighbours? Ohio and Kentucky. Biggest threat: corn.",
-    "score": 0.941,
+    "line": "Spot three: Indiana. Four Israels fit. Neighbours: Ohio and Kentucky. Biggest threat: corn.",
+    "score": 0.846,
     "flag": "ok"
    },
    {
-    "line": "Spot four wasn't yours. It was Britain's idea, in 1903: land in East Africa.",
+    "line": "Spot four was Britain's idea, in 1903: land in East Africa.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "In 1905, the Zionist Congress said no, thanks.",
-    "score": 1.0,
+    "line": "In 1905, the Zionists said no, thanks.",
+    "score": 0.917,
     "flag": "ok"
    },
    {
@@ -113,14 +113,14 @@
     "flag": "ok"
    },
    {
-    "line": "Jews have lived on that land for three thousand years. So Israel sails home.",
+    "line": "Jews have lived there for three thousand years. So Israel sails home.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Millions of Palestinians call this land home too. Both peoples are staying.",
-    "score": 0.667,
-    "flag": "MISS"
+    "line": "Millions of Palestinians call this land home too. Both peoples are here to stay.",
+    "score": 1.0,
+    "flag": "ok"
    },
    {
     "line": "Where would you park your country? Tell me below.",
@@ -133,21 +133,21 @@
     "flag": "ok"
    }
   ],
-  "heard": "Where do we park Israel? You told me. We tried four spots. Episode 3. Last time, Israel sailed out past Gibraltar, looking for a new spot. Spot 1 from you. Russia's Jewish autonomous oblast. Stalin made it a Jewish homeland in 1934. Today, 837 Jews live there. January averages minus 21 degrees. The hummus freezes. Spot 2 from you. New York. Easy. 960,000 Jews already live in the city. One problem. Israel is about the size of New Jersey, and New Jersey said, one is enough. Spot three, from you, Indiana. Four Israels fit inside, the neighbors, Ohio and Kentucky, biggest threat, corn. Spot four wasn't yours. It was Britain's idea in 1903, land in East Africa. In 1905, the Zionist Congress said no, thanks. Then one of you wrote, park it where it already is, it's perfect. Jews have lived on that land for 3,000 years, so Israel sails home. Millions of Palestinians call this land home too. people to stay. Where would you park your country? Tell me below. If you love Israeli facts, follow Noam Roz for more. Episode 4 is yours, so tell me.",
+  "heard": "Where do we park Israel? You told me. We tried four spots. Episode 3. Israel is out at sea, looking for a spot. Spot 1. Russia's Jewish autonomous oblast. Stalin made it a Jewish homeland in 1934. Today, 837 Jews live there. January averages minus 21 degrees. The hummus freezes. Spot 2. New York. Easy. 960,000 Jews already live in the city. One problem. Israel is about the size of New Jersey, and New Jersey said one is enough. Spot 3, Indiana 4, Israel's Fit Neighbors, Ohio and Kentucky Biggest Threat, Corn Spot 4 was Britain's idea In 1903, land in East Africa In 1905, Zionists said no, thanks Then one of you wrote, Park it where it already is It's perfect Jews have lived there for 3,000 years So Israel sails home Millions of Palestinians call this land home too Both peoples are here to stay Where would you park your country? Tell me below If you love Israeli facts, follow Noam Raz, for more more. Episode 4 is yours, so tell me.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 66.87,
+ "body_s": 59.25,
  "opener": {
   "style": "globe_spin_fast",
   "opener_s": 2.4,
   "narration_starts": 1.5
  },
  "mix": {
-  "lufs": -16.2,
-  "true_peak": -2.0
+  "lufs": -16.3,
+  "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 321.0
+ "render_s": 227.3
 }

@@ -1,902 +1,827 @@
 [
 {
 "word": "Where",
-"start": 0.248,
-"end": 0.511
+"start": 0.186,
+"end": 0.542
 },
 {
 "word": "do",
-"start": 0.511,
-"end": 0.604
+"start": 0.542,
+"end": 0.635
 },
 {
 "word": "we",
-"start": 0.604,
-"end": 0.728
+"start": 0.635,
+"end": 0.789
 },
 {
 "word": "park",
-"start": 0.728,
-"end": 1.022
+"start": 0.789,
+"end": 1.115
 },
 {
 "word": "Israel?",
-"start": 1.053,
-"end": 1.44
+"start": 1.115,
+"end": 1.563
 },
 {
 "word": "You",
-"start": 1.981,
-"end": 2.214
+"start": 1.873,
+"end": 2.167
 },
 {
 "word": "told",
-"start": 2.214,
-"end": 2.43
+"start": 2.167,
+"end": 2.461
 },
 {
 "word": "me.",
-"start": 2.43,
-"end": 2.647
+"start": 2.461,
+"end": 2.709
 },
 {
 "word": "We",
-"start": 3.034,
-"end": 3.235
+"start": 2.879,
+"end": 3.096
 },
 {
 "word": "tried",
-"start": 3.235,
-"end": 3.576
+"start": 3.096,
+"end": 3.452
 },
 {
 "word": "four",
-"start": 3.576,
-"end": 3.777
+"start": 3.452,
+"end": 3.731
 },
 {
 "word": "spots.",
-"start": 3.777,
-"end": 4.319
+"start": 3.731,
+"end": 4.288
 },
 {
 "word": "Episode",
-"start": 5.046,
-"end": 5.526
+"start": 4.505,
+"end": 4.861
 },
 {
 "word": "3.",
-"start": 5.526,
-"end": 5.882
-},
-{
-"word": "Last",
-"start": 6.486,
-"end": 6.811
-},
-{
-"word": "time,",
-"start": 6.811,
-"end": 7.136
+"start": 4.861,
+"end": 5.248
 },
 {
 "word": "Israel",
-"start": 7.136,
-"end": 7.523
+"start": 5.681,
+"end": 6.192
 },
 {
-"word": "sailed",
-"start": 7.523,
-"end": 7.833
+"word": "is",
+"start": 6.192,
+"end": 6.331
 },
 {
 "word": "out",
-"start": 7.833,
-"end": 7.988
+"start": 6.331,
+"end": 6.579
 },
 {
-"word": "past",
-"start": 7.988,
-"end": 8.251
+"word": "at",
+"start": 6.579,
+"end": 6.672
 },
 {
-"word": "Gibraltar,",
-"start": 8.251,
-"end": 8.824
+"word": "sea,",
+"start": 6.672,
+"end": 7.059
 },
 {
 "word": "looking",
-"start": 9.118,
-"end": 9.396
+"start": 7.152,
+"end": 7.415
 },
 {
 "word": "for",
-"start": 9.396,
-"end": 9.505
+"start": 7.415,
+"end": 7.539
 },
 {
 "word": "a",
-"start": 9.505,
-"end": 9.567
-},
-{
-"word": "new",
-"start": 9.567,
-"end": 9.69
+"start": 7.539,
+"end": 7.601
 },
 {
 "word": "spot.",
-"start": 9.69,
-"end": 10.046
+"start": 7.601,
+"end": 7.957
 },
 {
 "word": "Spot",
-"start": 10.526,
-"end": 10.913
+"start": 8.158,
+"end": 8.499
 },
 {
-"word": "one,",
-"start": 10.913,
-"end": 11.254
-},
-{
-"word": "from",
-"start": 11.316,
-"end": 11.579
-},
-{
-"word": "you:",
-"start": 11.579,
-"end": 11.765
+"word": "one:",
+"start": 8.499,
+"end": 8.7
 },
 {
 "word": "Russia's",
-"start": 12.663,
-"end": 13.142
+"start": 8.855,
+"end": 9.211
 },
 {
 "word": "Jewish",
-"start": 13.142,
-"end": 13.499
+"start": 9.211,
+"end": 9.582
 },
 {
 "word": "Autonomous",
-"start": 13.499,
-"end": 13.978
+"start": 9.582,
+"end": 10.031
 },
 {
 "word": "Oblast.",
-"start": 13.978,
-"end": 14.582
+"start": 10.031,
+"end": 10.588
 },
 {
 "word": "Stalin",
-"start": 14.876,
-"end": 15.418
+"start": 10.898,
+"end": 11.347
 },
 {
 "word": "made",
-"start": 15.418,
-"end": 15.635
+"start": 11.347,
+"end": 11.471
 },
 {
 "word": "it",
-"start": 15.635,
-"end": 15.728
+"start": 11.471,
+"end": 11.533
 },
 {
 "word": "a",
-"start": 15.728,
-"end": 15.774
+"start": 11.533,
+"end": 11.61
 },
 {
 "word": "Jewish",
-"start": 15.774,
-"end": 16.115
+"start": 11.61,
+"end": 11.92
 },
 {
 "word": "homeland",
-"start": 16.115,
-"end": 16.502
+"start": 11.92,
+"end": 12.368
 },
 {
 "word": "in",
-"start": 16.502,
-"end": 16.595
+"start": 12.368,
+"end": 12.461
 },
 {
 "word": "1934.",
-"start": 16.595,
-"end": 17.399
+"start": 12.461,
+"end": 13.421
 },
 {
 "word": "Today,",
-"start": 17.941,
-"end": 18.39
+"start": 13.591,
+"end": 14.04
 },
 {
 "word": "837",
-"start": 18.576,
-"end": 19.675
+"start": 14.35,
+"end": 15.372
 },
 {
 "word": "Jews",
-"start": 19.675,
-"end": 19.985
+"start": 15.372,
+"end": 15.697
 },
 {
 "word": "live",
-"start": 19.985,
-"end": 20.186
+"start": 15.697,
+"end": 15.898
 },
 {
 "word": "there.",
-"start": 20.186,
-"end": 20.495
+"start": 15.898,
+"end": 16.177
 },
 {
 "word": "January",
-"start": 21.146,
-"end": 21.718
+"start": 16.409,
+"end": 16.92
 },
 {
 "word": "averages",
-"start": 21.718,
-"end": 22.167
+"start": 16.92,
+"end": 17.399
 },
 {
 "word": "minus",
-"start": 22.167,
-"end": 22.554
+"start": 17.399,
+"end": 17.771
 },
 {
 "word": "21",
-"start": 22.554,
-"end": 22.972
+"start": 17.771,
+"end": 18.251
 },
 {
 "word": "degrees.",
-"start": 22.972,
-"end": 23.437
+"start": 18.251,
+"end": 18.762
 },
 {
 "word": "The",
-"start": 23.994,
-"end": 24.149
+"start": 18.963,
+"end": 19.056
 },
 {
 "word": "hummus",
-"start": 24.149,
-"end": 24.474
+"start": 19.056,
+"end": 19.381
 },
 {
 "word": "freezes.",
-"start": 24.474,
-"end": 25.047
+"start": 19.381,
+"end": 19.892
 },
 {
 "word": "Spot",
-"start": 25.263,
-"end": 25.681
+"start": 19.954,
+"end": 20.279
 },
 {
-"word": "two,",
-"start": 25.681,
-"end": 25.975
-},
-{
-"word": "from",
-"start": 26.393,
-"end": 26.641
-},
-{
-"word": "you:",
-"start": 26.641,
-"end": 26.842
+"word": "two:",
+"start": 20.279,
+"end": 20.557
 },
 {
 "word": "New",
-"start": 27.369,
-"end": 27.539
+"start": 20.65,
+"end": 20.79
 },
 {
 "word": "York.",
-"start": 27.539,
-"end": 27.957
+"start": 20.79,
+"end": 21.13
 },
 {
 "word": "Easy.",
-"start": 28.684,
-"end": 29.133
+"start": 21.455,
+"end": 21.78
 },
 {
 "word": "960,000",
-"start": 29.737,
-"end": 31.053
+"start": 22.214,
+"end": 23.406
 },
 {
 "word": "Jews",
-"start": 31.053,
-"end": 31.44
+"start": 23.406,
+"end": 23.824
 },
 {
 "word": "already",
-"start": 31.44,
-"end": 31.858
+"start": 23.948,
+"end": 24.365
 },
 {
 "word": "live",
-"start": 31.858,
-"end": 32.105
+"start": 24.365,
+"end": 24.644
 },
 {
 "word": "in",
-"start": 32.105,
-"end": 32.198
+"start": 24.644,
+"end": 24.722
 },
 {
 "word": "the",
-"start": 32.198,
-"end": 32.26
+"start": 24.722,
+"end": 24.783
 },
 {
 "word": "city.",
-"start": 32.26,
-"end": 32.647
+"start": 24.783,
+"end": 25.124
 },
 {
 "word": "One",
-"start": 33.065,
-"end": 33.328
+"start": 25.232,
+"end": 25.449
 },
 {
 "word": "problem.",
-"start": 33.328,
-"end": 33.777
+"start": 25.449,
+"end": 25.743
 },
 {
 "word": "Israel",
-"start": 34.567,
-"end": 34.923
+"start": 25.96,
+"end": 26.378
 },
 {
 "word": "is",
-"start": 34.923,
-"end": 35.016
+"start": 26.378,
+"end": 26.502
 },
 {
 "word": "about",
-"start": 35.016,
-"end": 35.248
+"start": 26.502,
+"end": 26.734
 },
 {
 "word": "the",
-"start": 35.248,
-"end": 35.372
+"start": 26.734,
+"end": 26.827
 },
 {
 "word": "size",
-"start": 35.372,
-"end": 35.728
+"start": 26.827,
+"end": 27.121
 },
 {
 "word": "of",
-"start": 35.728,
-"end": 35.79
+"start": 27.121,
+"end": 27.214
 },
 {
 "word": "New",
-"start": 35.79,
-"end": 35.944
+"start": 27.214,
+"end": 27.338
 },
 {
 "word": "Jersey.",
-"start": 35.944,
-"end": 36.393
+"start": 27.338,
+"end": 27.694
 },
 {
 "word": "And",
-"start": 36.842,
-"end": 36.997
+"start": 27.941,
+"end": 28.112
 },
 {
 "word": "New",
-"start": 36.997,
-"end": 37.105
+"start": 28.112,
+"end": 28.205
 },
 {
 "word": "Jersey",
-"start": 37.105,
-"end": 37.446
+"start": 28.205,
+"end": 28.53
 },
 {
 "word": "said:",
-"start": 37.446,
-"end": 37.802
+"start": 28.53,
+"end": 28.932
 },
 {
 "word": "one",
-"start": 38.127,
-"end": 38.437
+"start": 28.994,
+"end": 29.195
 },
 {
 "word": "is",
-"start": 38.437,
-"end": 38.545
+"start": 29.195,
+"end": 29.288
 },
 {
 "word": "enough.",
-"start": 38.545,
-"end": 39.025
+"start": 29.288,
+"end": 29.675
 },
 {
 "word": "Spot",
-"start": 39.598,
-"end": 39.969
+"start": 29.985,
+"end": 30.341
 },
 {
-"word": "three,",
-"start": 39.969,
-"end": 40.325
-},
-{
-"word": "from",
-"start": 40.867,
-"end": 41.068
-},
-{
-"word": "you:",
-"start": 41.068,
-"end": 41.378
+"word": "three:",
+"start": 30.341,
+"end": 30.635
 },
 {
 "word": "Indiana.",
-"start": 42.028,
-"end": 42.601
+"start": 30.79,
+"end": 31.27
 },
 {
 "word": "Four",
-"start": 43.406,
-"end": 43.746
+"start": 31.687,
+"end": 31.951
 },
 {
 "word": "Israels",
-"start": 43.746,
-"end": 44.164
+"start": 31.951,
+"end": 32.353
 },
 {
-"word": "fit",
-"start": 44.164,
-"end": 44.319
+"word": "fit.",
+"start": 32.384,
+"end": 32.647
 },
 {
-"word": "inside.",
-"start": 44.319,
-"end": 44.83
-},
-{
-"word": "The",
-"start": 45.697,
-"end": 45.79
-},
-{
-"word": "neighbours?",
-"start": 45.79,
-"end": 46.347
+"word": "Neighbours:",
+"start": 33.065,
+"end": 33.638
 },
 {
 "word": "Ohio",
-"start": 46.75,
-"end": 47.307
+"start": 33.824,
+"end": 34.304
 },
 {
 "word": "and",
-"start": 47.4,
-"end": 47.524
+"start": 34.319,
+"end": 34.505
 },
 {
 "word": "Kentucky.",
-"start": 47.524,
-"end": 47.941
+"start": 34.505,
+"end": 34.923
 },
 {
 "word": "Biggest",
-"start": 48.777,
-"end": 49.118
+"start": 35.201,
+"end": 35.527
 },
 {
 "word": "threat:",
-"start": 49.118,
-"end": 49.443
+"start": 35.527,
+"end": 35.821
 },
 {
 "word": "corn.",
-"start": 50.078,
-"end": 50.403
+"start": 36.099,
+"end": 36.455
 },
 {
 "word": "Spot",
-"start": 51.27,
-"end": 51.688
+"start": 36.672,
+"end": 36.997
 },
 {
 "word": "four",
-"start": 51.688,
-"end": 52.229
-},
-{
-"word": "wasn't",
-"start": 52.291,
-"end": 52.57
-},
-{
-"word": "yours.",
-"start": 52.57,
-"end": 52.926
-},
-{
-"word": "It",
-"start": 53.638,
-"end": 53.731
+"start": 36.997,
+"end": 37.353
 },
 {
 "word": "was",
-"start": 53.731,
-"end": 53.917
+"start": 37.353,
+"end": 37.539
 },
 {
 "word": "Britain's",
-"start": 53.917,
-"end": 54.273
+"start": 37.539,
+"end": 37.833
 },
 {
 "word": "idea,",
-"start": 54.273,
-"end": 54.691
+"start": 37.833,
+"end": 38.22
 },
 {
 "word": "in",
-"start": 54.753,
-"end": 54.876
+"start": 38.313,
+"end": 38.468
 },
 {
 "word": "1903:",
-"start": 54.876,
-"end": 55.805
+"start": 38.468,
+"end": 39.164
 },
 {
 "word": "land",
-"start": 56.455,
-"end": 56.889
+"start": 39.458,
+"end": 39.722
 },
 {
 "word": "in",
-"start": 56.889,
-"end": 57.028
+"start": 39.722,
+"end": 39.814
 },
 {
 "word": "East",
-"start": 57.028,
-"end": 57.245
+"start": 39.814,
+"end": 40.031
 },
 {
 "word": "Africa.",
-"start": 57.245,
-"end": 57.725
+"start": 40.031,
+"end": 40.418
 },
 {
 "word": "In",
-"start": 58.205,
-"end": 58.359
+"start": 40.991,
+"end": 41.13
 },
 {
 "word": "1905,",
-"start": 58.359,
-"end": 59.226
+"start": 41.13,
+"end": 41.858
 },
 {
 "word": "the",
-"start": 59.319,
-"end": 59.474
+"start": 41.858,
+"end": 41.951
 },
 {
-"word": "Zionist",
-"start": 59.474,
-"end": 59.923
-},
-{
-"word": "Congress",
-"start": 59.923,
-"end": 60.31
+"word": "Zionists",
+"start": 41.951,
+"end": 42.369
 },
 {
 "word": "said",
-"start": 60.31,
-"end": 60.465
+"start": 42.369,
+"end": 42.554
 },
 {
 "word": "no,",
-"start": 60.465,
-"end": 60.759
+"start": 42.554,
+"end": 42.849
 },
 {
 "word": "thanks.",
-"start": 61.068,
-"end": 61.548
+"start": 42.88,
+"end": 43.359
 },
 {
 "word": "Then",
-"start": 62.106,
-"end": 62.353
+"start": 43.839,
+"end": 44.01
 },
 {
 "word": "one",
-"start": 62.353,
-"end": 62.539
+"start": 44.01,
+"end": 44.133
 },
 {
 "word": "of",
-"start": 62.539,
-"end": 62.616
+"start": 44.133,
+"end": 44.226
 },
 {
 "word": "you",
-"start": 62.616,
-"end": 62.771
+"start": 44.226,
+"end": 44.319
 },
 {
 "word": "wrote:",
-"start": 62.771,
-"end": 63.158
+"start": 44.319,
+"end": 44.613
 },
 {
 "word": "park",
-"start": 63.545,
-"end": 63.886
+"start": 44.784,
+"end": 45.078
 },
 {
 "word": "it",
-"start": 63.886,
-"end": 64.01
+"start": 45.078,
+"end": 45.232
 },
 {
 "word": "where",
-"start": 64.01,
-"end": 64.149
+"start": 45.232,
+"end": 45.403
 },
 {
 "word": "it",
-"start": 64.149,
-"end": 64.242
+"start": 45.403,
+"end": 45.465
 },
 {
 "word": "already",
-"start": 64.242,
-"end": 64.567
+"start": 45.465,
+"end": 45.759
 },
 {
 "word": "is.",
-"start": 64.567,
-"end": 64.938
+"start": 45.759,
+"end": 46.099
 },
 {
 "word": "It's",
-"start": 65.418,
-"end": 65.589
+"start": 46.363,
+"end": 46.548
 },
 {
 "word": "perfect.",
-"start": 65.589,
-"end": 66.069
+"start": 46.548,
+"end": 46.997
 },
 {
 "word": "Jews",
-"start": 66.456,
-"end": 66.796
+"start": 47.26,
+"end": 47.539
 },
 {
 "word": "have",
-"start": 66.796,
-"end": 66.904
+"start": 47.539,
+"end": 47.663
 },
 {
 "word": "lived",
-"start": 66.904,
-"end": 67.152
+"start": 47.663,
+"end": 47.864
 },
 {
-"word": "on",
-"start": 67.152,
-"end": 67.245
-},
-{
-"word": "that",
-"start": 67.245,
-"end": 67.415
-},
-{
-"word": "land",
-"start": 67.415,
-"end": 67.632
+"word": "there",
+"start": 47.864,
+"end": 48.081
 },
 {
 "word": "for",
-"start": 67.632,
-"end": 67.756
+"start": 48.081,
+"end": 48.313
 },
 {
 "word": "three",
-"start": 67.756,
-"end": 67.957
+"start": 48.313,
+"end": 48.623
 },
 {
 "word": "thousand",
-"start": 67.957,
-"end": 68.267
+"start": 48.623,
+"end": 48.979
 },
 {
 "word": "years.",
-"start": 68.267,
-"end": 68.685
+"start": 48.979,
+"end": 49.428
 },
 {
 "word": "So",
-"start": 68.979,
-"end": 69.257
+"start": 49.629,
+"end": 49.815
 },
 {
 "word": "Israel",
-"start": 69.257,
-"end": 69.613
+"start": 49.815,
+"end": 50.171
 },
 {
 "word": "sails",
-"start": 69.613,
-"end": 69.908
+"start": 50.171,
+"end": 50.511
 },
 {
 "word": "home.",
-"start": 69.908,
-"end": 70.155
+"start": 50.511,
+"end": 50.743
 },
 {
 "word": "Millions",
-"start": 70.697,
-"end": 71.084
+"start": 51.192,
+"end": 51.533
 },
 {
 "word": "of",
-"start": 71.084,
-"end": 71.177
+"start": 51.533,
+"end": 51.61
 },
 {
 "word": "Palestinians",
-"start": 71.177,
-"end": 71.765
+"start": 51.61,
+"end": 52.214
 },
 {
 "word": "call",
-"start": 71.765,
-"end": 71.951
+"start": 52.214,
+"end": 52.431
 },
 {
 "word": "this",
-"start": 71.951,
-"end": 72.075
+"start": 52.431,
+"end": 52.57
 },
 {
 "word": "land",
-"start": 72.075,
-"end": 72.307
+"start": 52.57,
+"end": 52.787
 },
 {
 "word": "home",
-"start": 72.307,
-"end": 72.493
+"start": 52.787,
+"end": 52.972
 },
 {
 "word": "too.",
-"start": 72.493,
-"end": 72.787
+"start": 52.972,
+"end": 53.267
 },
 {
 "word": "Both",
-"start": 73.158,
-"end": 73.421
+"start": 53.654,
+"end": 53.87
 },
 {
 "word": "peoples",
-"start": 73.421,
-"end": 73.716
+"start": 53.87,
+"end": 54.164
 },
 {
 "word": "are",
-"start": 73.716,
-"end": 73.778
+"start": 54.164,
+"end": 54.257
 },
 {
-"word": "staying.",
-"start": 73.778,
-"end": 74.118
+"word": "here",
+"start": 54.257,
+"end": 54.412
+},
+{
+"word": "to",
+"start": 54.412,
+"end": 54.489
+},
+{
+"word": "stay.",
+"start": 54.489,
+"end": 54.83
 },
 {
 "word": "Where",
-"start": 74.706,
-"end": 74.892
+"start": 55.418,
+"end": 55.604
 },
 {
 "word": "would",
-"start": 74.892,
-"end": 75.016
+"start": 55.604,
+"end": 55.728
 },
 {
 "word": "you",
-"start": 75.016,
-"end": 75.109
+"start": 55.728,
+"end": 55.852
 },
 {
 "word": "park",
-"start": 75.109,
-"end": 75.279
+"start": 55.852,
+"end": 56.053
 },
 {
 "word": "your",
-"start": 75.279,
-"end": 75.403
+"start": 56.053,
+"end": 56.177
 },
 {
 "word": "country?",
-"start": 75.403,
-"end": 75.79
+"start": 56.177,
+"end": 56.564
 },
 {
 "word": "Tell",
-"start": 76.115,
-"end": 76.332
+"start": 56.842,
+"end": 57.044
 },
 {
 "word": "me",
-"start": 76.332,
-"end": 76.425
+"start": 57.044,
+"end": 57.168
 },
 {
 "word": "below.",
-"start": 76.425,
-"end": 76.719
+"start": 57.168,
+"end": 57.524
 },
 {
 "word": "Episode",
-"start": 77.477,
-"end": 77.864
+"start": 58.127,
+"end": 58.514
 },
 {
 "word": "4",
-"start": 77.864,
-"end": 78.158
+"start": 58.514,
+"end": 58.808
 },
 {
 "word": "is",
-"start": 78.158,
-"end": 78.251
+"start": 58.808,
+"end": 58.932
 },
 {
 "word": "yours.",
-"start": 78.251,
-"end": 78.607
+"start": 58.932,
+"end": 59.35
 },
 {
 "word": "So",
-"start": 78.994,
-"end": 79.211
+"start": 59.753,
+"end": 59.892
 },
 {
 "word": "tell",
-"start": 79.211,
-"end": 79.366
+"start": 59.892,
+"end": 60.078
 },
 {
 "word": "me:",
-"start": 79.366,
-"end": 79.474
+"start": 60.078,
+"end": 60.233
 }
 ]
