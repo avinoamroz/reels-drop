@@ -56,7 +56,8 @@
    "screen": "*2024:* still protected"
   },
   {
-   "say": "Bamba isn't medicine. Ask your paediatrician before a baby tries any peanut food."
+   "say": "Bamba isn't medicine. Ask your paediatrician before a baby tries any peanut food.",
+   "screen": "Babies and peanut: *ask first*"
   },
   {
    "say": "Did you grow up on Bamba? Tell me below.",
@@ -248,7 +249,7 @@
    },
    {
     "at": "L9:still",
-    "until": "L10-0.1",
+    "until": "L10+0.3",
     "value": 71,
     "from": 0,
     "suffix": "%",
