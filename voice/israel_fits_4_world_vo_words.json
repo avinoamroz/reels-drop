@@ -1,12 +1,12 @@
 [
 {
 "word": "Israel",
-"start": 0.17,
-"end": 0.557
+"start": 0.046,
+"end": 0.495
 },
 {
 "word": "fits",
-"start": 0.557,
+"start": 0.495,
 "end": 0.851
 },
 {
@@ -17,446 +17,481 @@
 {
 "word": "Antarctica",
 "start": 0.975,
-"end": 1.672
+"end": 1.625
 },
 {
 "word": "643",
-"start": 1.765,
-"end": 2.957
+"start": 1.625,
+"end": 3.019
 },
 {
 "word": "times.",
-"start": 2.957,
-"end": 3.468
+"start": 3.019,
+"end": 3.607
 },
 {
 "word": "Here's",
-"start": 3.529,
-"end": 3.793
+"start": 4.025,
+"end": 4.334
 },
 {
 "word": "Israel",
-"start": 3.793,
-"end": 4.133
+"start": 4.334,
+"end": 4.721
 },
 {
 "word": "at",
-"start": 4.133,
-"end": 4.211
+"start": 4.721,
+"end": 4.845
 },
 {
 "word": "true",
-"start": 4.211,
-"end": 4.396
+"start": 4.845,
+"end": 5.077
 },
 {
 "word": "size:",
-"start": 4.396,
-"end": 5.0
+"start": 5.077,
+"end": 5.681
 },
 {
 "word": "22,072",
-"start": 5.356,
-"end": 6.827
+"start": 5.836,
+"end": 7.477
 },
 {
 "word": "square",
-"start": 6.827,
-"end": 7.074
+"start": 7.477,
+"end": 7.786
 },
 {
 "word": "kilometres.",
-"start": 7.074,
-"end": 7.848
+"start": 7.786,
+"end": 8.499
+},
+{
+"word": "Judea",
+"start": 8.715,
+"end": 9.195
+},
+{
+"word": "and",
+"start": 9.195,
+"end": 9.334
+},
+{
+"word": "Samaria,",
+"start": 9.334,
+"end": 9.907
+},
+{
+"word": "also",
+"start": 10.232,
+"end": 10.542
+},
+{
+"word": "called",
+"start": 10.542,
+"end": 10.805
+},
+{
+"word": "the",
+"start": 10.805,
+"end": 10.898
 },
 {
 "word": "West",
-"start": 8.235,
-"end": 8.545
+"start": 10.898,
+"end": 11.146
 },
 {
-"word": "Bank",
-"start": 8.545,
-"end": 8.777
+"word": "Bank,",
+"start": 11.146,
+"end": 11.564
 },
 {
 "word": "and",
-"start": 8.777,
-"end": 8.87
+"start": 11.858,
+"end": 12.043
 },
 {
 "word": "Gaza",
-"start": 8.87,
-"end": 9.133
-},
-{
-"word": "shaded,",
-"start": 9.133,
-"end": 9.505
-},
-{
-"word": "not",
-"start": 9.505,
-"end": 9.706
-},
-{
-"word": "counted.",
-"start": 9.706,
-"end": 10.186
-},
-{
-"word": "Now,",
-"start": 10.666,
-"end": 11.053
-},
-{
-"word": "let's",
-"start": 11.115,
-"end": 11.362
-},
-{
-"word": "go",
-"start": 11.362,
-"end": 11.471
-},
-{
-"word": "far.",
-"start": 11.471,
-"end": 11.904
-},
-{
-"word": "Greenland:",
-"start": 12.322,
-"end": 12.91
-},
-{
-"word": "98.",
-"start": 13.282,
-"end": 14.35
-},
-{
-"word": "Almost",
-"start": 14.783,
-"end": 15.17
-},
-{
-"word": "the",
-"start": 15.17,
-"end": 15.232
-},
-{
-"word": "same",
-"start": 15.232,
-"end": 15.588
-},
-{
-"word": "as",
-"start": 15.588,
-"end": 15.681
-},
-{
-"word": "Saudi",
-"start": 15.681,
-"end": 15.975
-},
-{
-"word": "Arabia.",
-"start": 15.975,
-"end": 16.486
-},
-{
-"word": "Australia:",
-"start": 16.734,
-"end": 17.353
-},
-{
-"word": "348.",
-"start": 17.539,
-"end": 18.591
-},
-{
-"word": "Brazil:",
-"start": 18.824,
-"end": 19.365
-},
-{
-"word": "386.",
-"start": 19.582,
-"end": 20.836
-},
-{
-"word": "The",
-"start": 21.409,
-"end": 21.533
-},
-{
-"word": "Sahara:",
-"start": 21.533,
-"end": 22.09
-},
-{
-"word": "about",
-"start": 22.183,
-"end": 22.492
-},
-{
-"word": "390.",
-"start": 22.492,
-"end": 23.53
-},
-{
-"word": "Its",
-"start": 24.071,
-"end": 24.319
-},
-{
-"word": "edges",
-"start": 24.319,
-"end": 24.737
+"start": 12.043,
+"end": 12.399
 },
 {
 "word": "are",
-"start": 24.737,
-"end": 24.907
+"start": 12.399,
+"end": 12.523
 },
 {
-"word": "fuzzy,",
-"start": 24.907,
-"end": 25.387
+"word": "shaded,",
+"start": 12.523,
+"end": 13.034
 },
 {
-"word": "so",
-"start": 25.604,
-"end": 25.805
+"word": "not",
+"start": 13.096,
+"end": 13.39
 },
 {
-"word": "call",
-"start": 25.805,
-"end": 26.084
+"word": "counted.",
+"start": 13.39,
+"end": 13.839
 },
 {
-"word": "it",
-"start": 26.084,
-"end": 26.146
+"word": "Now,",
+"start": 14.195,
+"end": 14.381
 },
 {
-"word": "an",
-"start": 26.146,
-"end": 26.27
+"word": "let's",
+"start": 14.381,
+"end": 14.598
 },
 {
-"word": "estimate.",
-"start": 26.3,
-"end": 26.858
+"word": "go",
+"start": 14.598,
+"end": 14.737
 },
 {
-"word": "And",
-"start": 27.369,
-"end": 27.523
+"word": "far.",
+"start": 14.737,
+"end": 15.186
 },
 {
-"word": "Antarctica:",
-"start": 27.523,
-"end": 28.297
+"word": "Greenland:",
+"start": 15.464,
+"end": 16.053
 },
 {
-"word": "643",
-"start": 28.669,
-"end": 30.14
+"word": "98.",
+"start": 16.269,
+"end": 17.028
 },
 {
-"word": "Israels",
-"start": 30.14,
-"end": 30.588
-},
-{
-"word": "of",
-"start": 30.588,
-"end": 30.666
-},
-{
-"word": "ice.",
-"start": 30.666,
-"end": 31.115
-},
-{
-"word": "The",
-"start": 31.687,
-"end": 31.811
-},
-{
-"word": "biggest",
-"start": 31.811,
-"end": 32.136
-},
-{
-"word": "drop",
-"start": 32.136,
-"end": 32.415
-},
-{
-"word": "of",
-"start": 32.415,
-"end": 32.539
-},
-{
-"word": "all.",
-"start": 32.539,
-"end": 32.833
-},
-{
-"word": "Every",
-"start": 33.313,
-"end": 33.576
-},
-{
-"word": "copy",
-"start": 33.576,
-"end": 33.948
-},
-{
-"word": "is",
-"start": 33.948,
-"end": 34.056
-},
-{
-"word": "true",
-"start": 34.056,
-"end": 34.273
-},
-{
-"word": "size,",
-"start": 34.273,
-"end": 34.814
-},
-{
-"word": "even",
-"start": 34.907,
-"end": 35.201
-},
-{
-"word": "at",
-"start": 35.201,
-"end": 35.294
+"word": "Almost",
+"start": 17.074,
+"end": 17.446
 },
 {
 "word": "the",
-"start": 35.294,
-"end": 35.356
+"start": 17.446,
+"end": 17.508
 },
 {
-"word": "South",
-"start": 35.356,
-"end": 35.65
+"word": "same",
+"start": 17.508,
+"end": 17.833
 },
 {
-"word": "Pole.",
-"start": 35.65,
-"end": 36.037
+"word": "as",
+"start": 17.833,
+"end": 17.988
 },
 {
-"word": "Size",
-"start": 36.517,
-"end": 36.935
+"word": "Saudi",
+"start": 17.988,
+"end": 18.313
 },
 {
-"word": "isn't",
-"start": 36.935,
-"end": 37.183
+"word": "Arabia.",
+"start": 18.313,
+"end": 18.793
 },
 {
-"word": "everything.",
-"start": 37.183,
-"end": 37.694
+"word": "Australia:",
+"start": 19.025,
+"end": 19.66
 },
 {
-"word": "Plenty",
-"start": 38.205,
-"end": 38.499
+"word": "348.",
+"start": 19.954,
+"end": 21.285
 },
 {
-"word": "of",
-"start": 38.499,
-"end": 38.592
+"word": "Brazil:",
+"start": 21.796,
+"end": 22.415
 },
 {
-"word": "this",
-"start": 38.592,
-"end": 38.777
+"word": "386.",
+"start": 22.632,
+"end": 24.04
 },
 {
-"word": "is",
-"start": 38.777,
-"end": 38.917
+"word": "The",
+"start": 24.335,
+"end": 24.427
 },
 {
-"word": "ice",
-"start": 38.917,
-"end": 39.164
+"word": "Sahara:",
+"start": 24.427,
+"end": 24.969
 },
 {
-"word": "and",
-"start": 39.164,
-"end": 39.288
+"word": "about",
+"start": 25.248,
+"end": 25.542
 },
 {
-"word": "sand.",
-"start": 39.288,
-"end": 39.768
+"word": "390.",
+"start": 25.542,
+"end": 26.564
 },
 {
-"word": "Where",
-"start": 40.248,
-"end": 40.48
+"word": "Its",
+"start": 26.92,
+"end": 27.105
 },
 {
-"word": "on",
-"start": 40.48,
-"end": 40.635
+"word": "edges",
+"start": 27.105,
+"end": 27.369
 },
 {
-"word": "Earth",
-"start": 40.666,
-"end": 40.867
+"word": "are",
+"start": 27.369,
+"end": 27.461
 },
 {
-"word": "should",
-"start": 40.898,
-"end": 41.115
+"word": "fuzzy,",
+"start": 27.461,
+"end": 27.972
 },
 {
-"word": "I",
-"start": 41.115,
-"end": 41.177
+"word": "so",
+"start": 28.39,
+"end": 28.576
 },
 {
-"word": "drop",
-"start": 41.177,
-"end": 41.471
-},
-{
-"word": "Israel",
-"start": 41.471,
-"end": 41.796
-},
-{
-"word": "next?",
-"start": 41.796,
-"end": 42.26
-},
-{
-"word": "Count",
-"start": 42.818,
-"end": 43.065
+"word": "call",
+"start": 28.576,
+"end": 28.839
 },
 {
 "word": "it",
-"start": 43.065,
-"end": 43.158
+"start": 28.839,
+"end": 28.932
+},
+{
+"word": "an",
+"start": 28.932,
+"end": 29.025
+},
+{
+"word": "estimate.",
+"start": 29.025,
+"end": 29.474
+},
+{
+"word": "And",
+"start": 29.923,
+"end": 30.109
+},
+{
+"word": "Antarctica:",
+"start": 30.109,
+"end": 30.759
+},
+{
+"word": "643",
+"start": 31.037,
+"end": 32.229
+},
+{
+"word": "Israels",
+"start": 32.229,
+"end": 32.632
+},
+{
+"word": "of",
+"start": 32.632,
+"end": 32.709
+},
+{
+"word": "ice.",
+"start": 32.709,
+"end": 33.112
+},
+{
+"word": "The",
+"start": 33.344,
+"end": 33.499
+},
+{
+"word": "biggest",
+"start": 33.499,
+"end": 33.824
+},
+{
+"word": "drop",
+"start": 33.824,
+"end": 34.071
+},
+{
+"word": "of",
+"start": 34.071,
+"end": 34.149
+},
+{
+"word": "all.",
+"start": 34.149,
+"end": 34.458
+},
+{
+"word": "Every",
+"start": 34.845,
+"end": 35.109
+},
+{
+"word": "copy",
+"start": 35.109,
+"end": 35.449
+},
+{
+"word": "is",
+"start": 35.449,
+"end": 35.542
+},
+{
+"word": "true",
+"start": 35.542,
+"end": 35.712
+},
+{
+"word": "size,",
+"start": 35.712,
+"end": 36.161
+},
+{
+"word": "even",
+"start": 36.285,
+"end": 36.548
+},
+{
+"word": "at",
+"start": 36.548,
+"end": 36.672
+},
+{
+"word": "the",
+"start": 36.672,
+"end": 36.734
+},
+{
+"word": "South",
+"start": 36.734,
+"end": 36.997
+},
+{
+"word": "Pole.",
+"start": 36.997,
+"end": 37.338
+},
+{
+"word": "Size",
+"start": 37.756,
+"end": 38.112
+},
+{
+"word": "isn't",
+"start": 38.112,
+"end": 38.328
+},
+{
+"word": "everything.",
+"start": 38.328,
+"end": 38.715
+},
+{
+"word": "Plenty",
+"start": 39.381,
+"end": 39.644
+},
+{
+"word": "of",
+"start": 39.644,
+"end": 39.706
+},
+{
+"word": "this",
+"start": 39.706,
+"end": 39.861
+},
+{
+"word": "is",
+"start": 39.861,
+"end": 39.938
+},
+{
+"word": "ice",
+"start": 39.938,
+"end": 40.217
+},
+{
+"word": "and",
+"start": 40.217,
+"end": 40.31
+},
+{
+"word": "sand.",
+"start": 40.31,
+"end": 40.697
+},
+{
+"word": "Where",
+"start": 41.115,
+"end": 41.27
+},
+{
+"word": "on",
+"start": 41.27,
+"end": 41.378
+},
+{
+"word": "Earth",
+"start": 41.378,
+"end": 41.564
+},
+{
+"word": "should",
+"start": 41.595,
+"end": 41.719
+},
+{
+"word": "I",
+"start": 41.719,
+"end": 41.811
+},
+{
+"word": "drop",
+"start": 41.811,
+"end": 42.075
+},
+{
+"word": "Israel",
+"start": 42.075,
+"end": 42.338
+},
+{
+"word": "next?",
+"start": 42.338,
+"end": 42.771
+},
+{
+"word": "Count",
+"start": 43.127,
+"end": 43.39
+},
+{
+"word": "it",
+"start": 43.39,
+"end": 43.483
 },
 {
 "word": "again.",
-"start": 43.158,
-"end": 43.452
+"start": 43.483,
+"end": 43.777
 }
 ]
