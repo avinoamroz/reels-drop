@@ -23,11 +23,11 @@
    "gap": 0.2
   },
   {
-   "say": "Episode 3. Last time, Israel sailed out past Gibraltar, looking for a new spot.",
+   "say": "Episode 3. Israel is out at sea, looking for a spot.",
    "screen": "Israel's Journey, *Episode 3*"
   },
   {
-   "say": "Spot one, from you: Russia's Jewish Autonomous Oblast. Stalin made it a Jewish homeland in 1934.",
+   "say": "Spot one: Russia's Jewish Autonomous Oblast. Stalin made it a Jewish homeland in 1934.",
    "screen": "*1934:* a Soviet Jewish homeland"
   },
   {
@@ -35,7 +35,7 @@
    "screen": "*837* Jews. *-21°C* in January."
   },
   {
-   "say": "Spot two, from you: New York. Easy. 960,000 Jews already live in the city.",
+   "say": "Spot two: New York. Easy. 960,000 Jews already live in the city.",
    "screen": "New York City: *960,000* Jews"
   },
   {
@@ -43,15 +43,15 @@
    "screen": "Israel: about the size of *New Jersey*"
   },
   {
-   "say": "Spot three, from you: Indiana. Four Israels fit inside. The neighbours? Ohio and Kentucky. Biggest threat: corn.",
+   "say": "Spot three: Indiana. Four Israels fit. Neighbours: Ohio and Kentucky. Biggest threat: corn.",
    "screen": "Indiana: *4* Israels fit"
   },
   {
-   "say": "Spot four wasn't yours. It was Britain's idea, in 1903: land in East Africa.",
+   "say": "Spot four was Britain's idea, in 1903: land in East Africa.",
    "screen": "*1903:* Britain offers East Africa"
   },
   {
-   "say": "In 1905, the Zionist Congress said no, thanks.",
+   "say": "In 1905, the Zionists said no, thanks.",
    "screen": "*1905:* no, thanks"
   },
   {
@@ -59,12 +59,12 @@
    "screen": "Park it where it *already is*"
   },
   {
-   "say": "Jews have lived on that land for three thousand years. So Israel sails home.",
+   "say": "Jews have lived there for three thousand years. So Israel sails home.",
    "screen": "*3,000* years. Back home."
   },
   {
-   "say": "Millions of Palestinians call this land home too. Both peoples are staying.",
-   "screen": "Both peoples are *staying*"
+   "say": "Millions of Palestinians call this land home too. Both peoples are here to stay.",
+   "screen": "Both peoples are *here to stay*"
   },
   {
    "say": "Where would you park your country? Tell me below.",
@@ -182,69 +182,270 @@
    {
     "at": "L1",
     "until": "L2",
-    "path": [[35.0, 31.8], [30.0, 33.6], [20.0, 35.0], [10.0, 37.6], [0.0, 36.8], [-5.6, 36.0], [-10.0, 36.0]],
+    "path": [
+     [
+      35.0,
+      31.8
+     ],
+     [
+      30.0,
+      33.6
+     ],
+     [
+      20.0,
+      35.0
+     ],
+     [
+      10.0,
+      37.6
+     ],
+     [
+      0.0,
+      36.8
+     ],
+     [
+      -5.6,
+      36.0
+     ],
+     [
+      -10.0,
+      36.0
+     ]
+    ],
     "kind": "flow",
     "draw": 1.6,
     "emo": "🏝️",
-    "label_at": [-9.0, 36.0]
+    "label_at": [
+     -9.0,
+     36.0
+    ],
+    "emo_size": 110
    },
    {
     "at": "L2:spot",
     "until": "L4",
-    "path": [[35.0, 31.8], [50.0, 38.0], [70.0, 42.0], [95.0, 46.0], [115.0, 48.0], [132.9, 48.8]],
+    "path": [
+     [
+      35.0,
+      31.8
+     ],
+     [
+      50.0,
+      38.0
+     ],
+     [
+      70.0,
+      42.0
+     ],
+     [
+      95.0,
+      46.0
+     ],
+     [
+      115.0,
+      48.0
+     ],
+     [
+      132.9,
+      48.8
+     ]
+    ],
     "kind": "flow",
     "draw": 1.6,
     "emo": "🏝️",
     "label": "Birobidzhan",
-    "label_at": [132.9, 48.8]
+    "label_at": [
+     132.9,
+     48.8
+    ],
+    "emo_size": 110
    },
    {
     "at": "L4",
     "until": "L6",
-    "path": [[132.9, 48.8], [100.0, 56.0], [60.0, 58.0], [20.0, 57.0], [-10.0, 52.0], [-40.0, 46.0], [-74.0, 40.7]],
+    "path": [
+     [
+      132.9,
+      48.8
+     ],
+     [
+      100.0,
+      56.0
+     ],
+     [
+      60.0,
+      58.0
+     ],
+     [
+      20.0,
+      57.0
+     ],
+     [
+      -10.0,
+      52.0
+     ],
+     [
+      -40.0,
+      46.0
+     ],
+     [
+      -74.0,
+      40.7
+     ]
+    ],
     "kind": "flow",
     "draw": 1.8,
     "emo": "🏝️",
     "label": "New York",
-    "label_at": [-74.0, 40.7]
+    "label_at": [
+     -74.0,
+     40.7
+    ],
+    "emo_size": 110
    },
    {
     "at": "L6",
     "until": "L7",
-    "path": [[-74.0, 40.7], [-80.0, 40.3], [-86.2, 39.8]],
+    "path": [
+     [
+      -74.0,
+      40.7
+     ],
+     [
+      -80.0,
+      40.3
+     ],
+     [
+      -86.2,
+      39.8
+     ]
+    ],
     "kind": "flow",
     "draw": 1.0,
     "emo": "🏝️",
     "label": "Indiana",
-    "label_at": [-86.2, 39.8]
+    "label_at": [
+     -86.2,
+     39.8
+    ],
+    "emo_size": 110
    },
    {
     "at": "L7",
     "until": "L9",
-    "path": [[-86.2, 39.8], [-60.0, 30.0], [-30.0, 15.0], [0.0, 3.0], [20.0, 1.0], [35.3, 0.5]],
+    "path": [
+     [
+      -86.2,
+      39.8
+     ],
+     [
+      -60.0,
+      30.0
+     ],
+     [
+      -30.0,
+      15.0
+     ],
+     [
+      0.0,
+      3.0
+     ],
+     [
+      20.0,
+      1.0
+     ],
+     [
+      35.3,
+      0.5
+     ]
+    ],
     "kind": "flow",
     "draw": 1.8,
     "emo": "🏝️",
     "label": "East Africa",
-    "label_at": [35.3, 0.5]
+    "label_at": [
+     35.3,
+     0.5
+    ],
+    "emo_size": 110
    },
    {
     "at": "L10",
     "until": "L11",
-    "path": [[35.3, 0.5], [40.0, 10.0], [38.0, 20.0], [34.6, 28.0], [35.0, 31.5]],
+    "path": [
+     [
+      35.3,
+      0.5
+     ],
+     [
+      40.0,
+      10.0
+     ],
+     [
+      38.0,
+      20.0
+     ],
+     [
+      34.6,
+      28.0
+     ],
+     [
+      35.0,
+      31.5
+     ]
+    ],
     "kind": "flow",
     "draw": 1.6,
     "emo": "🏝️",
     "label": "Home",
-    "label_at": [35.0, 31.5]
+    "label_at": [
+     35.0,
+     31.5
+    ],
+    "emo_size": 110
    }
   ],
   "pins": [
-   {"at": "L2:spot", "until": "L4", "lon": 132.92, "lat": 48.79, "label": "Jewish Autonomous Oblast", "color": "yellow"},
-   {"at": "L4", "until": "L6", "lon": -74.0, "lat": 40.71, "label": "New York", "color": "yellow"},
-   {"at": "L6", "until": "L7", "lon": -86.16, "lat": 39.77, "label": "Indiana", "color": "yellow"},
-   {"at": "L7", "until": "L9", "lon": 35.27, "lat": 0.51, "label": "Uasin Gishu, today's Kenya", "color": "yellow"},
-   {"at": "L10", "until": "L12", "lon": 35.0, "lat": 31.5, "label": "Israel", "color": "yellow"}
+   {
+    "at": "L2:spot",
+    "until": "L4",
+    "lon": 132.92,
+    "lat": 48.79,
+    "label": "Jewish Autonomous Oblast",
+    "color": "yellow"
+   },
+   {
+    "at": "L4",
+    "until": "L6",
+    "lon": -74.0,
+    "lat": 40.71,
+    "label": "New York",
+    "color": "yellow"
+   },
+   {
+    "at": "L6",
+    "until": "L7",
+    "lon": -86.16,
+    "lat": 39.77,
+    "label": "Indiana",
+    "color": "yellow"
+   },
+   {
+    "at": "L7",
+    "until": "L9",
+    "lon": 35.27,
+    "lat": 0.51,
+    "label": "Uasin Gishu, today's Kenya",
+    "color": "yellow"
+   },
+   {
+    "at": "L10",
+    "until": "L12",
+    "lon": 35.0,
+    "lat": 31.5,
+    "label": "Israel",
+    "color": "yellow"
+   }
   ],
   "counter": [
    {
@@ -254,45 +455,185 @@
     "until": "L9e",
     "y": 1330,
     "steps": [
-     {"at": "L2", "value": 1},
-     {"at": "L4", "value": 2},
-     {"at": "L6", "value": 3},
-     {"at": "L7", "value": 4}
+     {
+      "at": "L2",
+      "value": 1
+     },
+     {
+      "at": "L4",
+      "value": 2
+     },
+     {
+      "at": "L6",
+      "value": 3
+     },
+     {
+      "at": "L7",
+      "value": 4
+     }
     ]
    }
   ],
   "comment": {
-   "y": 340,
+   "y": 450,
    "size": 58,
    "show": [
-    ["L2:russia", "L2e", "Park it in Russia's Jewish oblast"],
-    ["L4:new", "L4e", "Bro park it in NYC"],
-    ["L6:indiana", "L6e", "Park at Indiana"],
-    ["L9:park", "L9e+0.2", "Park it where it already is. It's perfect."]
+    [
+     "L2:russia",
+     "L2e",
+     "Park it in Russia's Jewish oblast"
+    ],
+    [
+     "L4:new",
+     "L4e",
+     "Bro park it in NYC"
+    ],
+    [
+     "L6:indiana",
+     "L6e",
+     "Park at Indiana"
+    ],
+    [
+     "L9:park",
+     "L9e+0.2",
+     "Park it where it already is. It's perfect."
+    ]
    ]
   },
   "photos": [
-   {"file": "templates/photos/bz/bz_biro.jpg", "at": "L3", "until": "L3e+0.1", "credit": "Birobidzhan station: Glucke, CC BY-SA 3.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]},
-   {"file": "templates/photos/bz/bz_nyc.jpg", "at": "L5", "until": "L5e+0.1", "credit": "Lower Manhattan: Superbass, CC BY-SA 4.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]},
-   {"file": "templates/photos/bz/bz_corn.jpg", "at": "L6:biggest", "until": "L6e+0.1", "credit": "Corn field, Indiana: Sarah Stierch, CC BY 4.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]},
-   {"file": "templates/photos/bz/bz_uasin.jpg", "at": "L8", "until": "L8e+0.1", "credit": "Uasin Gishu plateau, Kenya: Issadeen Abdi, CC BY-SA 4.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]},
-   {"file": "templates/photos/bz/bz_jaffa.jpg", "at": "L10:three", "until": "L11e+0.1", "credit": "Jaffa waterfront: Ted Eytan, CC BY-SA 2.0", "kb": [0.5, 0.5, 1.0, 0.5, 0.5, 1.15]}
+   {
+    "file": "templates/photos/bz/bz_biro.jpg",
+    "at": "L3",
+    "until": "L3e+0.1",
+    "credit": "Birobidzhan station: Glucke, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/bz/bz_nyc.jpg",
+    "at": "L5",
+    "until": "L5e+0.1",
+    "credit": "Lower Manhattan: Superbass, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/bz/bz_corn.jpg",
+    "at": "L6:biggest",
+    "until": "L6e+0.1",
+    "credit": "Corn field, Indiana: Sarah Stierch, CC BY 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/bz/bz_uasin.jpg",
+    "at": "L8",
+    "until": "L8e+0.1",
+    "credit": "Uasin Gishu plateau, Kenya: Issadeen Abdi, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/bz/bz_jaffa.jpg",
+    "at": "L10:three",
+    "until": "L11e+0.1",
+    "credit": "Jaffa waterfront: Ted Eytan, CC BY-SA 2.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ]
+   }
   ],
-  "photo_box": [60, 560, 960, 640, 36],
+  "photo_box": [
+   60,
+   520,
+   960,
+   600,
+   36
+  ],
   "brand": {
    "text": "Israel Facts",
-   "show": [[0, "L1"], ["END-2.5", "END"]]
+   "show": [
+    [
+     0,
+     "L1"
+    ],
+    [
+     "END-2.5",
+     "END"
+    ]
+   ]
   },
   "overlays": [
-   {"at": "L13", "until": "L13e+0.1", "text": "Like Israel facts?|Follow *@noamroz__*", "y": 1420, "size": 72, "cue": true}
+   {
+    "at": "L13",
+    "until": "L13e+0.1",
+    "text": "Like Israel facts?|Follow *@noamroz__*",
+    "y": 1420,
+    "size": 72,
+    "cue": true
+   }
   ]
  },
  "sources": [
-  {"label": "Jewish Autonomous Oblast: Russian census", "year": 2021, "at": "L2", "until": "L3:minus"},
-  {"label": "Birobidzhan January normal: JMA", "year": 2020, "at": "L3:minus", "until": "L4"},
-  {"label": "UJA-Federation NY Jewish Community Study", "year": 2023, "at": "L4", "until": "L5"},
-  {"label": "US Census Bureau state areas; Israel CBS", "year": 2010, "at": "L5", "until": "L7"},
-  {"label": "Jewish Virtual Library, Uganda Proposal", "year": 1903, "at": "L7", "until": "L9"}
+  {
+   "label": "Jewish Autonomous Oblast: Russian census",
+   "year": 2021,
+   "at": "L2",
+   "until": "L3:minus"
+  },
+  {
+   "label": "Birobidzhan January normal: JMA",
+   "year": 2020,
+   "at": "L3:minus",
+   "until": "L4"
+  },
+  {
+   "label": "UJA-Federation NY Jewish Community Study",
+   "year": 2023,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "US Census Bureau state areas; Israel CBS",
+   "year": 2010,
+   "at": "L5",
+   "until": "L7"
+  },
+  {
+   "label": "Jewish Virtual Library, Uganda Proposal",
+   "year": 1903,
+   "at": "L7",
+   "until": "L9"
+  }
  ],
  "end": {
   "at": "L11",
