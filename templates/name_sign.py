@@ -190,7 +190,9 @@ def sc_cape(cv, cx, u, B, t):
     for k, ch in enumerate(chips):
         t0 = ch[2]
         if t < t0: continue
-        q = WG.pop_s(t, t0); hl = k == len(chips) - 1; y = 640 + k * 190; x = cx + 265
+        q = WG.pop_s(t, t0)
+        if q < 0.02: continue
+        hl = k == len(chips) - 1; y = 640 + k * 190; x = cx + 265
         if k: cv.line([(x, y - 140), (x, y - 62)], SOFT, 6); poly(cv, [(x - 16, y - 76), (x + 16, y - 76), (x, y - 56)], SOFT)
         c = cv.c; c.save(); c.translate(x, y); c.scale(q, q)
         cv.rrect(-245, -60, 490, 120, 60, YEL if hl else "#0B1730", 0.96, stroke=YEL, lw=4, sa=1)
@@ -276,6 +278,7 @@ def run(S):
             if end_ph is not None and not last:
                 d = (end_ph % (len(names) + 1.5)) - k; lit = max(0.0, 1 - abs(d) / 0.9) ** 1.5
             q = WG.pop_s(t, ASK_AT) if last else 1.0
+            if q < 0.02: continue
             c = cv.c; c.save(); c.translate(cx, y0 + k * pitch); c.rotate(math.sin(t * 2.3 + k * 1.3) * 0.035); c.scale(q * (1 + 0.07 * lit), q * (1 + 0.07 * lit))
             arrow_sign(cv, TH, 0, 0, nm, k % 2 == 0, 1.0, 0.0 if last else lit, ask=bool(last))
             c.restore()
