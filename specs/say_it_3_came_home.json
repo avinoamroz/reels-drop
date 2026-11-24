@@ -1,0 +1,205 @@
+{
+ "id": "say_it_3_came_home",
+ "account": "noamroz__",
+ "template": "say_it",
+ "series": "Words for what you already feel",
+ "hook": "Called a colonizer? *7* words.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Called a colonizer? Here's your answer, in 7 words.",
+   "gap": 0.2
+  },
+  {
+   "say": "Under your post, a comment: Jews are colonizers. Go back to Europe.",
+   "gap": 0.35
+  },
+  {
+   "say": "Jews didn't colonize Israel.",
+   "gap": 0.45
+  },
+  {
+   "say": "They came home.",
+   "gap": 0.5
+  },
+  {
+   "say": "About 3,200 years ago, an Egyptian pharaoh carved the name Israel in stone.",
+   "gap": 0.2
+  },
+  {
+   "say": "About 2,800 years ago, another stone, found in northern Israel, named the House of David.",
+   "gap": 0.2
+  },
+  {
+   "say": "Palestinians have deep roots here too. Both can be true.",
+   "gap": 0.25
+  },
+  {
+   "say": "Save this. Not colonizers. Home.",
+   "gap": 0.2
+  },
+  {
+   "say": "Which sentence do you need most? Tell me in the comments.",
+   "gap": 0.2
+  },
+  {
+   "follow": true,
+   "gap": 0.15
+  },
+  {
+   "say": "So when they call you a colonizer, you have 7 words.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "part": {
+   "n": 3,
+   "of": 5,
+   "next": "Part 4 on my profile"
+  },
+  "scene": {
+   "kind": "comments",
+   "at": "L1",
+   "label": "Under your post",
+   "says_at": "L1:a",
+   "reply_at": "L1e",
+   "msgs": [
+    {
+     "who": "them",
+     "name": "user_2847",
+     "text": "Jews are colonizers. Go back to Europe.",
+     "at": "L1:jews"
+    }
+   ]
+  },
+  "hero": {
+   "lines": [
+    2,
+    3
+   ],
+   "text": "Jews didn't *colonize* Israel.|They came *home.*"
+  },
+  "facts": [
+   {
+    "at": "L4",
+    "label": "Years ago",
+    "count": {
+     "from": 0,
+     "to": 3200,
+     "dur": 1.1
+    },
+    "text": "Egypt's Merneptah Stele names *Israel.*",
+    "photos": [
+     {
+      "file": "templates/photos/s3000_talk15_r2/s3t_merneptah.jpg",
+      "at": "L4",
+      "credit": "Merneptah Stele, Egyptian Museum: Darer101, CC BY-SA 4.0",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.5,
+       0.5,
+       1.18
+      ]
+     }
+    ]
+   },
+   {
+    "at": "L5",
+    "label": "Years ago",
+    "count": {
+     "from": 3200,
+     "to": 2800,
+     "dur": 0.9
+    },
+    "text": "Tel Dan Stele: the *House of David.*",
+    "photos": [
+     {
+      "file": "templates/photos/s3000_talk15_r2/s3t_teldan.jpg",
+      "at": "L5",
+      "credit": "Tel Dan Stele, Israel Museum: Liadmalone, CC BY-SA 4.0",
+      "kb": [
+       0.5,
+       0.45,
+       1.0,
+       0.5,
+       0.5,
+       1.15
+      ]
+     }
+    ]
+   },
+   {
+    "at": "L6",
+    "text": "Palestinian roots are real too. *Both* can be true.",
+    "photos": [
+     {
+      "file": "templates/photos/world_faiths_stock/wfs_wall.jpg",
+      "at": "L6",
+      "credit": "Jerusalem: Sheepdog85, CC BY-SA 3.0 de",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.5,
+       0.5,
+       1.1
+      ]
+     }
+    ]
+   }
+  ],
+  "save": {
+   "at": "L7",
+   "text": "Not colonizers.|*Home.*",
+   "sub": "Send it to the friend who reads those comments."
+  },
+  "debate": {
+   "at": "L8",
+   "text": "Which sentence do you *need* most?",
+   "chips": [
+    "Pro-Israel and pro-peace",
+    "Criticise, don't erase",
+    "Not colonizers. Home.",
+    "HAMAS is not a people",
+    "There was a ceasefire"
+   ],
+   "hl": 2
+  }
+ },
+ "sources": [
+  {
+   "label": "Merneptah Stele, Egyptian Museum, Cairo, c. 1208 BCE",
+   "year": "c. 1208 BCE",
+   "at": "L4",
+   "until": "L4e+0.3"
+  },
+  {
+   "label": "Tel Dan Stele, Israel Museum, 9th century BCE",
+   "year": "9th c. BCE",
+   "at": "L5",
+   "until": "L5e+0.3"
+  }
+ ],
+ "caption_en": "The comment you see under every Israel post. 🏺\n\n\"Jews are colonizers. Go back to Europe.\" Here are the 7 words:\n\n\"Jews didn't colonize Israel. They came home.\"\n\n🏺 About 1208 BCE: the Merneptah Stele, carved for an Egyptian pharaoh, names \"Israel\" (Egyptian Museum, Cairo).\n🏺 9th century BCE: the Tel Dan Stele, found in northern Israel, mentions the \"House of David\" (Israel Museum, Jerusalem).\n\nPalestinians have deep roots here too. Both can be true.\n\nWhich sentence do you need most? Tell me below.\n\nPart 3 of \"Words for what you already feel\". Part 4 on my profile.\n\nSources: Merneptah Stele, c. 1208 BCE (Egyptian Museum); Tel Dan Stele, 9th century BCE (Israel Museum).\nPhotos (Wikimedia Commons): Darer101 (CC BY-SA 4.0); Liadmalone (CC BY-SA 4.0); Sheepdog85 (CC BY-SA 3.0 de). Made with AI tools, AI voice.",
+ "caption_he": "התגובה שמופיעה מתחת לכל פוסט על ישראל.\n\n\"היהודים הם קולוניאליסטים. תחזרו לאירופה.\" הנה המשפט:\n\"היהודים לא התיישבו בארץ זרה. הם חזרו הביתה.\"\n\n🏺 בערך 1208 לפנה\"ס: אסטלת מרנפתח המצרית מזכירה את \"ישראל\".\n🏺 המאה ה-9 לפנה\"ס: אסטלת תל דן מזכירה את \"בית דוד\".\n\nגם לפלסטינים יש שורשים עמוקים כאן. שני הדברים נכונים.\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "save_line": "🔖 Save this, and send it to the friend who reads those comments.\n🔖 שמרו, ושלחו לחבר שקורא את התגובות האלה.",
+ "hashtags": [
+  "#Israel",
+  "#JewishHistory",
+  "#Archaeology"
+ ],
+ "cover": {
+  "bg": "brand",
+  "text": "Called a|*colonizer?*",
+  "big": "7 words"
+ }
+}

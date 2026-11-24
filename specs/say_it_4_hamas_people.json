@@ -1,0 +1,179 @@
+{
+ "id": "say_it_4_hamas_people",
+ "account": "noamroz__",
+ "template": "say_it",
+ "series": "Words for what you already feel",
+ "hook": "HAMAS vs Palestinians: *9* words.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "HAMAS and Palestinians are not the same. Here it is, in 9 words.",
+   "gap": 0.2
+  },
+  {
+   "say": "At work, you condemn HAMAS. A colleague asks: so you hate Palestinians?",
+   "gap": 0.35
+  },
+  {
+   "say": "HAMAS is a terror group.",
+   "gap": 0.45
+  },
+  {
+   "say": "Palestinians are a people.",
+   "gap": 0.5
+  },
+  {
+   "say": "Gaza hasn't had an election since 2006, and about half of its people are children. None of them ever voted for HAMAS.",
+   "gap": 0.2
+  },
+  {
+   "say": "And in March 2025, Gazans marched in the streets, chanting: HAMAS out.",
+   "gap": 0.25
+  },
+  {
+   "say": "Save this. Against HAMAS. Not against Palestinians.",
+   "gap": 0.2
+  },
+  {
+   "say": "Which sentence do you need most? Tell me in the comments.",
+   "gap": 0.2
+  },
+  {
+   "follow": true,
+   "gap": 0.15
+  },
+  {
+   "say": "A terror group, or a people? 9 words tell them apart.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "part": {
+   "n": 4,
+   "of": 5,
+   "next": "Part 5 on my profile"
+  },
+  "scene": {
+   "kind": "office",
+   "at": "L1",
+   "label": "At work",
+   "says": "So you hate Palestinians?",
+   "says_at": "L1:so",
+   "reply_at": "L1e"
+  },
+  "hero": {
+   "lines": [
+    2,
+    3
+   ],
+   "text": "*HAMAS* is a terror group.|Palestinians are a *people.*"
+  },
+  "facts": [
+   {
+    "at": "L4",
+    "label": "Gaza's last election",
+    "big": "2006",
+    "text": "Half of Gazans are children. *None* voted for HAMAS.",
+    "photos": [
+     {
+      "file": "templates/photos/gaza_famine_claim/mawasi.jpg",
+      "at": "L4",
+      "credit": "Al-Mawasi, Gaza, 2025: Ashraf Amra, CC BY-SA 3.0 IGO",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.5,
+       0.5,
+       1.12
+      ]
+     },
+     {
+      "file": "templates/photos/what_others_did/gaza.jpg",
+      "at": "L4:none",
+      "credit": "Gaza: Abedallah Alhaj, CC BY-SA 3.0 IGO",
+      "kb": [
+       0.45,
+       0.5,
+       1.0,
+       0.5,
+       0.5,
+       1.1
+      ]
+     }
+    ]
+   },
+   {
+    "at": "L5",
+    "big": "2025",
+    "text": "Gazans march, chanting *HAMAS out.*",
+    "photos": [
+     {
+      "file": "templates/photos/what_others_did/gaza2.jpg",
+      "at": "L5",
+      "credit": "Gaza, 2024: Abedallah Alhaj, CC BY-SA 3.0 IGO",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.5,
+       0.5,
+       1.12
+      ]
+     }
+    ]
+   }
+  ],
+  "save": {
+   "at": "L6",
+   "text": "Against HAMAS.|*Not against Palestinians.*",
+   "sub": "Send it to the colleague who mixes them up."
+  },
+  "debate": {
+   "at": "L7",
+   "text": "Which sentence do you *need* most?",
+   "chips": [
+    "Pro-Israel and pro-peace",
+    "Criticise, don't erase",
+    "Not colonizers. Home.",
+    "HAMAS is not a people",
+    "There was a ceasefire"
+   ],
+   "hl": 3
+  }
+ },
+ "sources": [
+  {
+   "label": "Palestinian legislative election, Jan 2006; UNICEF: about half of Gaza's 2.2 million are children, 2023",
+   "year": 2023,
+   "at": "L4",
+   "until": "L4e+0.3"
+  },
+  {
+   "label": "AP and Reuters, protests in Beit Lahia, 25 to 26 March",
+   "year": 2025,
+   "at": "L5",
+   "until": "L5e+0.3"
+  }
+ ],
+ "caption_en": "When condemning a terror group gets you called a hater. 🧭\n\nYou condemn HAMAS, and someone asks: so you hate Palestinians? Here are the 9 words:\n\n\"HAMAS is a terror group. Palestinians are a people.\"\n\n🗳️ Gaza's last election was the Palestinian legislative election of January 2006. HAMAS took Gaza by force in 2007 and has held no election since.\n👧 About half of Gaza's 2.2 million people are children (UNICEF, 2023). None of them ever voted for HAMAS.\n📣 March 2025: hundreds of Gazans marched in Beit Lahia chanting \"HAMAS out\" (AP, Reuters, 2025).\n\nWhich sentence do you need most? Tell me below.\n\nPart 4 of \"Words for what you already feel\". Part 5 on my profile.\n\nSources: Palestinian Central Elections Commission, 2006; UNICEF, 2023; AP and Reuters, 2025.\nPhotos (Wikimedia Commons): Ashraf Amra (CC BY-SA 3.0 IGO); Abedallah Alhaj (CC BY-SA 3.0 IGO). Made with AI tools, AI voice.",
+ "caption_he": "כשגינוי של ארגון טרור הופך אתכם לשונאים.\n\nאתם מגנים את חמאס, ומישהו שואל: אז אתה שונא פלסטינים? הנה המשפט:\n\"חמאס הוא ארגון טרור. הפלסטינים הם עם.\"\n\n🗳️ הבחירות האחרונות בעזה היו בינואר 2006. חמאס השתלט על עזה בכוח ב-2007, ומאז אין בחירות.\n👧 כמחצית מ-2.2 מיליון תושבי עזה הם ילדים (יוניסף, 2023). אף אחד מהם לא הצביע לחמאס.\n📣 מרץ 2025: מאות תושבי עזה צעדו בבית לאהיא וקראו \"חמאס החוצה\".\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "save_line": "🔖 Save this, and send it to the colleague who mixes them up.\n🔖 שמרו, ושלחו לקולגה שמבלבל ביניהם.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#HAMAS"
+ ],
+ "cover": {
+  "bg": "brand",
+  "text": "HAMAS or|*Palestinians?*",
+  "big": "9 words"
+ }
+}

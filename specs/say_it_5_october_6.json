@@ -1,0 +1,198 @@
+{
+ "id": "say_it_5_october_6",
+ "account": "noamroz__",
+ "template": "say_it",
+ "series": "Words for what you already feel",
+ "hook": "On *October 6:* a ceasefire.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "The ceasefire nobody mentions, in 10 words.",
+   "gap": 0.2
+  },
+  {
+   "say": "A friend texts: it didn't start on October 7.",
+   "gap": 0.35
+  },
+  {
+   "say": "On October 6, there was a ceasefire.",
+   "gap": 0.45
+  },
+  {
+   "say": "HAMAS broke it.",
+   "gap": 0.5
+  },
+  {
+   "say": "The truce began on May 21, 2021, after 11 days of fighting, brokered by Egypt.",
+   "gap": 0.2
+  },
+  {
+   "say": "By September 2023, Israel had given about 18,500 Gazans permits to work in Israel.",
+   "gap": 0.2
+  },
+  {
+   "say": "Then, on October 7, HAMAS killed about 1,200 people in Israel.",
+   "gap": 0.25
+  },
+  {
+   "say": "Save this. There was a ceasefire. HAMAS broke it.",
+   "gap": 0.2
+  },
+  {
+   "say": "Which sentence do you need most? Tell me in the comments.",
+   "gap": 0.2
+  },
+  {
+   "follow": true,
+   "gap": 0.15
+  },
+  {
+   "say": "So, what happened on October 6?",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "part": {
+   "n": 5,
+   "of": 5,
+   "next": "Parts 1 to 4 on my profile"
+  },
+  "scene": {
+   "kind": "chat",
+   "at": "L1",
+   "label": "A text from a friend",
+   "says_at": "L1:it",
+   "reply_at": "L1e",
+   "msgs": [
+    {
+     "who": "them",
+     "text": "It didn't start on October 7.",
+     "at": "L1:it"
+    }
+   ]
+  },
+  "hero": {
+   "lines": [
+    2,
+    3
+   ],
+   "text": "On *October 6,* there was a *ceasefire.*|*HAMAS* broke it."
+  },
+  "facts": [
+   {
+    "at": "L4",
+    "label": "Ceasefire from",
+    "big": "21 May 2021",
+    "size": 140,
+    "text": "Egypt brokers a *ceasefire* after 11 days of fighting."
+   },
+   {
+    "at": "L5",
+    "label": "By September 2023",
+    "count": {
+     "from": 0,
+     "to": 18500,
+     "dur": 1.1
+    },
+    "text": "Gazans with Israeli *work permits.*",
+    "photos": [
+     {
+      "file": "templates/photos/gaza_famine_claim/kis.jpg",
+      "at": "L5",
+      "credit": "Gaza border, Kissufim crossing, 2025: U.S. Army",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.5,
+       0.5,
+       1.12
+      ]
+     }
+    ]
+   },
+   {
+    "at": "L6",
+    "label": "October 7, 2023",
+    "count": {
+     "from": 0,
+     "to": 1200,
+     "dur": 1.0
+    },
+    "text": "people killed by HAMAS in Israel.",
+    "photos": [
+     {
+      "file": "templates/photos/ethnic_cleansing_v3/kfar_aza.jpg",
+      "at": "L6",
+      "credit": "Kfar Aza, after October 7: Hanay, CC BY-SA 4.0",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.45,
+       0.5,
+       1.12
+      ]
+     }
+    ]
+   }
+  ],
+  "save": {
+   "at": "L7",
+   "text": "There *was* a ceasefire.|*HAMAS* broke it.",
+   "sub": "Send it to the friend who texted you that."
+  },
+  "debate": {
+   "at": "L8",
+   "text": "Which sentence do you *need* most?",
+   "chips": [
+    "Pro-Israel and pro-peace",
+    "Criticise, don't erase",
+    "Not colonizers. Home.",
+    "HAMAS is not a people",
+    "There was a ceasefire"
+   ],
+   "hl": 4
+  }
+ },
+ "sources": [
+  {
+   "label": "Reuters and AP: Egypt-brokered truce takes effect, 21 May",
+   "year": 2021,
+   "at": "L4",
+   "until": "L4e+0.3"
+  },
+  {
+   "label": "COGAT via Al-Monitor, 28 Sept",
+   "year": 2023,
+   "at": "L5",
+   "until": "L5e+0.3"
+  },
+  {
+   "label": "Israeli government figures",
+   "year": 2023,
+   "at": "L6",
+   "until": "L6e+0.3"
+  }
+ ],
+ "caption_en": "The date nobody brings up. 📅\n\n\"It didn't start on October 7.\" Here are the 10 words:\n\n\"On October 6, there was a ceasefire. HAMAS broke it.\"\n\n🕊️ 21 May 2021: an Egypt-brokered ceasefire between Israel and HAMAS took effect after 11 days of fighting (Reuters, AP, 2021).\n💼 September 2023: Israel had issued work permits to about 18,500 Gazans (COGAT, via Al-Monitor, 2023).\n🕯️ 7 October 2023: HAMAS killed about 1,200 people in Israel (Israeli government figures, 2023).\n\nWhich sentence do you need most? Tell me below.\n\nPart 5 of \"Words for what you already feel\". Parts 1 to 4 on my profile.\n\nSources: Reuters and AP, 2021; COGAT via Al-Monitor, 2023; Israeli government, 2023.\nPhotos (Wikimedia Commons): U.S. Army (public domain); Hanay (CC BY-SA 4.0). Made with AI tools, AI voice.",
+ "caption_he": "התאריך שאף אחד לא מזכיר.\n\n\"זה לא התחיל ב-7 באוקטובר.\" הנה המשפט:\n\"ב-6 באוקטובר הייתה הפסקת אש. חמאס הפר אותה.\"\n\n🕊️ 21 במאי 2021: הפסקת אש בתיווך מצרים נכנסה לתוקף אחרי 11 ימי לחימה.\n💼 ספטמבר 2023: לכ-18,500 תושבי עזה היו היתרי עבודה בישראל.\n🕯️ 7 באוקטובר 2023: חמאס רצח כ-1,200 בני אדם בישראל.\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "save_line": "🔖 Save this, and send it to the friend who texted you that.\n🔖 שמרו, ושלחו לחבר ששלח לכם את זה.",
+ "hashtags": [
+  "#Israel",
+  "#October7",
+  "#HAMAS"
+ ],
+ "cover": {
+  "bg": "brand",
+  "text": "What happened on|*October 6?*",
+  "big": "10 words"
+ }
+}

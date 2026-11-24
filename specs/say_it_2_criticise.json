@@ -1,0 +1,208 @@
+{
+ "id": "say_it_2_criticise",
+ "account": "noamroz__",
+ "template": "say_it",
+ "series": "Words for what you already feel",
+ "hook": "Criticism vs existence: *11* words.",
+ "music": {
+  "bed": "soft_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Criticism, or asking if Israel should exist? Here's the difference, in 11 words.",
+   "gap": 0.2
+  },
+  {
+   "say": "A group chat. Someone writes: Israel shouldn't exist.",
+   "gap": 0.15
+  },
+  {
+   "say": "Then adds: relax, it's just criticism.",
+   "gap": 0.35
+  },
+  {
+   "say": "Criticise any government you like.",
+   "gap": 0.45
+  },
+  {
+   "say": "Nobody asks if France should exist.",
+   "gap": 0.5
+  },
+  {
+   "say": "The International Holocaust Remembrance Alliance agrees: criticising Israel like any other country is not antisemitic.",
+   "gap": 0.15
+  },
+  {
+   "say": "But denying the Jewish people the right to self-determination is.",
+   "gap": 0.2
+  },
+  {
+   "say": "And Israelis criticise their own government all the time. In 2023, they protested it week after week.",
+   "gap": 0.25
+  },
+  {
+   "say": "Save this. Criticise governments. Don't erase countries.",
+   "gap": 0.2
+  },
+  {
+   "say": "Which sentence do you need most? Tell me in the comments.",
+   "gap": 0.2
+  },
+  {
+   "follow": true,
+   "gap": 0.15
+  },
+  {
+   "say": "Criticism, or erasing a country? Now you can say the difference.",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "part": {
+   "n": 2,
+   "of": 5,
+   "next": "Part 3 on my profile"
+  },
+  "scene": {
+   "kind": "chat",
+   "at": "L1",
+   "label": "The group chat",
+   "says_at": "L1:someone",
+   "reply_at": "L2e",
+   "msgs": [
+    {
+     "who": "them",
+     "text": "Israel shouldn't exist.",
+     "at": "L1:israel"
+    },
+    {
+     "who": "them",
+     "text": "Relax, it's just criticism.",
+     "at": "L2:relax"
+    }
+   ]
+  },
+  "hero": {
+   "lines": [
+    3,
+    4
+   ],
+   "text": "Criticise *any government* you like.|Nobody asks if *France* should exist."
+  },
+  "facts": [
+   {
+    "at": "L5",
+    "label": "The IHRA definition, 2016",
+    "big": "Not antisemitic:",
+    "size": 120,
+    "text": "criticising Israel *like any other country.*",
+    "photos": [
+     {
+      "file": "templates/photos/not_perfect_zoom/court.jpg",
+      "at": "L5",
+      "credit": "Supreme Court and Knesset: israeltourism, CC BY 2.0",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.5,
+       0.45,
+       1.12
+      ]
+     }
+    ]
+   },
+   {
+    "at": "L6",
+    "label": "The same definition",
+    "big": "Antisemitic:",
+    "size": 120,
+    "text": "denying Jews the right to *self-determination.*",
+    "photos": [
+     {
+      "file": "templates/photos/israel_family_dinner/jlm.jpg",
+      "at": "L6",
+      "credit": "Jerusalem: MathKnight and Zachi Evenor, CC BY-SA 4.0",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.55,
+       0.5,
+       1.12
+      ]
+     }
+    ]
+   },
+   {
+    "at": "L7",
+    "big": "2023",
+    "text": "Israelis protest their *own* government, week after week.",
+    "photos": [
+     {
+      "file": "templates/photos/religion_in_law/knesset.jpg",
+      "at": "L7",
+      "credit": "Knesset: Tsvika Israeli, GPO, CC BY-SA 3.0",
+      "kb": [
+       0.5,
+       0.5,
+       1.0,
+       0.5,
+       0.55,
+       1.15
+      ]
+     }
+    ]
+   }
+  ],
+  "save": {
+   "at": "L8",
+   "text": "Criticise governments.|*Don't erase countries.*",
+   "sub": "Send it to the friend in that group chat."
+  },
+  "debate": {
+   "at": "L9",
+   "text": "Which sentence do you *need* most?",
+   "chips": [
+    "Pro-Israel and pro-peace",
+    "Criticise, don't erase",
+    "Not colonizers. Home.",
+    "HAMAS is not a people",
+    "There was a ceasefire"
+   ],
+   "hl": 1
+  }
+ },
+ "sources": [
+  {
+   "label": "IHRA working definition of antisemitism, adopted 26 May",
+   "year": 2016,
+   "at": "L5",
+   "until": "L6e+0.3"
+  },
+  {
+   "label": "Reuters, weekly protests against the judicial overhaul",
+   "year": 2023,
+   "at": "L7",
+   "until": "L7e+0.3"
+  }
+ ],
+ "caption_en": "The line people hide behind in the group chat. 💬\n\nSomeone writes \"Israel shouldn't exist\", then \"relax, it's just criticism.\" Here are the 11 words:\n\n\"Criticise any government you like. Nobody asks if France should exist.\"\n\n📜 The International Holocaust Remembrance Alliance (IHRA) working definition of antisemitism (2016): \"criticism of Israel similar to that leveled against any other country cannot be regarded as antisemitic.\" One of its examples of antisemitism: \"Denying the Jewish people their right to self-determination.\"\n🇮🇱 2023: Israelis protested their own government week after week over the judicial overhaul (Reuters, 2023).\n\nWhich sentence do you need most? Tell me below.\n\nPart 2 of \"Words for what you already feel\". Part 3 on my profile.\n\nSources: IHRA working definition of antisemitism, 2016; Reuters, 2023.\nPhotos (Wikimedia Commons): israeltourism (CC BY 2.0); MathKnight and Zachi Evenor (CC BY-SA 4.0); Tsvika Israeli, GPO (CC BY-SA 3.0). Made with AI tools, AI voice.",
+ "caption_he": "המשפט שמתחבאים מאחוריו בקבוצת הווטסאפ.\n\nמישהו כותב \"לישראל אין זכות להתקיים\", ואז \"רגע, זו סתם ביקורת\". הנה המשפט:\n\"תבקרו כל ממשלה שבא לכם. אף אחד לא שואל אם צרפת צריכה להתקיים.\"\n\n📜 ההגדרה של IHRA לאנטישמיות (2016): ביקורת על ישראל כמו על כל מדינה אחרת היא לא אנטישמיות. שלילת הזכות של העם היהודי להגדרה עצמית היא אחת הדוגמאות לאנטישמיות.\n🇮🇱 2023: ישראלים הפגינו נגד הממשלה שלהם, שבוע אחרי שבוע.\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "save_line": "🔖 Save this, and send it to the friend in that group chat.\n🔖 שמרו, ושלחו לחבר מהקבוצה ההיא.",
+ "hashtags": [
+  "#Israel",
+  "#Antisemitism",
+  "#FreeSpeech"
+ ],
+ "cover": {
+  "bg": "brand",
+  "text": "Criticism, or|*erasing* a country?",
+  "big": "11 words"
+ }
+}
