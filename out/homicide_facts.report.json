@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "Do Jews *kill* more?|*14* countries.",
- "duration": 73.9,
+ "duration": 56.93,
  "audio": {
-  "lufs": -16.1,
-  "true_peak": -1.8
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
  "outputs": {
   "mp4": "out/homicide_facts.mp4",
@@ -34,8 +34,7 @@
    "year": 2023
   },
   {
-   "label": "UNODC, latest year reported per country; Syria: none since 2010",
-   "year": 2025,
+   "label": "UNODC (2025 release), latest year per country; Syria: none since 2010",
    "at": "L8-0.2",
    "until": "L10"
   },
@@ -59,26 +58,26 @@
   }
  ],
  "transcript": {
-  "score": 0.977,
+  "score": 0.97,
   "model": "faster-whisper small.en",
   "lines": [
    {
     "line": "Do Jews kill more? Let's check 14 countries.",
-    "score": 0.875,
-    "flag": "ok"
-   },
-   {
-    "line": "You've heard it: Israel is a murderous society.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "So measure it like any country: murders per 100,000 people.",
+    "line": "They say Israel is a murderous society.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Jewish Israelis: 0.85.",
+    "line": "Let's measure it: murders per 100,000 people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jewish Israelis, 0.85.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -88,12 +87,12 @@
     "flag": "ok"
    },
    {
-    "line": "World average: 5.2. The US: 5.8.",
+    "line": "World average 5.2, the US 5.8.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Brazil: 19. Mexico: 25.",
+    "line": "Brazil 19, Mexico 25.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -103,22 +102,22 @@
     "flag": "MISS"
    },
    {
-    "line": "The UAE: 0.7. Saudi Arabia: 0.9. Jordan: 1.",
+    "line": "The UAE 0.7, Saudi Arabia 0.9, Jordan 1.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Egypt: 1.3. Lebanon: 2.2. Turkey: 3.2. Syria: no reliable data.",
+    "line": "Egypt 1.3, Lebanon 2.2, Turkey 3.2, Syria no reliable data.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Some of the safest places on this list.",
+    "line": "Some of the safest on this list.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Now the honest part. Israel as a whole: 3. Above every neighbour except Turkey.",
+    "line": "Now the honest part. Israel as a whole, 3, above every neighbour but Turkey.",
     "score": 0.929,
     "flag": "ok"
    },
@@ -128,13 +127,13 @@
     "flag": "ok"
    },
    {
-    "line": "Most victims are Arab citizens: 11 per 100,000, 13 times the Jewish rate.",
+    "line": "Most victims are Arab citizens, 11 per 100,000, 13 times the Jewish rate.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Over half are organised crime, and fewer than 1 in 10 of those murders get solved.",
-    "score": 0.938,
+    "line": "Mostly organised crime, and under 1 in 10 of those murders get solved.",
+    "score": 0.923,
     "flag": "ok"
    },
    {
@@ -143,8 +142,8 @@
     "flag": "ok"
    },
    {
-    "line": "And yes, we kill too. Sometimes by accident, sometimes deliberately.",
-    "score": 1.0,
+    "line": "And yes, we kill too, sometimes by accident, sometimes deliberately.",
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -154,21 +153,23 @@
    },
    {
     "line": "So, do Jews kill more?",
-    "score": 1.0,
+    "score": 0.8,
     "flag": "ok"
    }
   ],
-  "heard": "Did Jews kill more? Let's check 14 countries. You've heard it. Israel is a murderous society. So measure it like any country. Murders per 100,000 people. Jewish Israelis, 0.85. Lower than Germany, the UK and France. World average, 5.2. The US, 5.8. Brazil, 19. Mexico, 25. Now Israel's neighbors. The UAE, 0.7. Saudi Arabia 0.9 Jordan 1 Egypt 1.3 Lebanon 2.2 Turkey 3.2 Syria no reliable data some of the safest places on this list now the honest part Israel as a whole three above every neighbor except Turkey double its 2019 rate most victims are Arab citizens 11 per 100,000 13 times the Jewish rate over half are organized crime, and fewer than 1 in 10 of those murders get solved, the state is failing them. And yes, we kill too. Sometimes by accident, sometimes deliberately. Every number is a life. What should Israel do first? If you love Israeli facts, follow. Noam Roz for more. So, do Jews kill more?",
+  "heard": "Do Jews kill more? Let's check 14 countries. They say Israel is a murderous society. Let's measure it. Murders per 100,000 people. Jewish Israelis, 0.85. Lower than Germany, the UK, and France. World average, 5.2. The US, 5.8. Brazil, 19. Mexico, 25. Now Israel's neighbors. The UAE, 0.7. Saudi Arabia, 0.9. Jordan, 1. Egypt, 1.3. Lebanon, 2.2. Turkey, 3.2. Syria, no reliable data. Some of the safest on this list. Now the honest part. Israel as a whole, three above every neighbor but Turkey. Double its 2019 rate. Most victims are Arab citizens, 11 per 100,000, 13 times the Jewish rate. Mostly organized crime, and under one in 10 of those murders get solved. The state is failing them. And yes, we kill two, sometimes by accident, sometimes deliberately. Every number is a life. What should Israel do first? If you love Israeli facts, follow. Look, no one rots for more. So did Jews kill more?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 73.91,
+ "body_s": 56.94,
  "opener": null,
  "mix": {
-  "lufs": -16.1,
-  "true_peak": -1.8
+  "lufs": -16.0,
+  "true_peak": -2.1
  },
- "lint_warnings": [],
- "render_s": 172.2
+ "lint_warnings": [
+  "source without year: UNODC (2025 release), latest year per country; Syria: none since 2010"
+ ],
+ "render_s": 87.2
 }

@@ -1,762 +1,722 @@
 [
 {
 "word": "Do",
-"start": 0.387,
-"end": 0.542
+"start": 0.294,
+"end": 0.433
 },
 {
 "word": "Jews",
-"start": 0.542,
-"end": 0.898
+"start": 0.433,
+"end": 0.743
 },
 {
 "word": "kill",
-"start": 0.898,
-"end": 1.146
+"start": 0.743,
+"end": 0.913
 },
 {
 "word": "more?",
-"start": 1.146,
-"end": 1.533
+"start": 0.913,
+"end": 1.362
 },
 {
 "word": "Let's",
-"start": 2.043,
-"end": 2.276
+"start": 1.904,
+"end": 2.152
 },
 {
 "word": "check",
-"start": 2.276,
-"end": 2.554
+"start": 2.152,
+"end": 2.353
 },
 {
 "word": "14",
-"start": 2.554,
-"end": 3.034
+"start": 2.353,
+"end": 2.833
 },
 {
 "word": "countries.",
-"start": 3.034,
-"end": 3.607
+"start": 2.833,
+"end": 3.468
 },
 {
-"word": "You've",
-"start": 4.118,
-"end": 4.35
+"word": "They",
+"start": 3.824,
+"end": 4.009
 },
 {
-"word": "heard",
-"start": 4.35,
-"end": 4.598
-},
-{
-"word": "it:",
-"start": 4.598,
-"end": 4.861
+"word": "say",
+"start": 4.009,
+"end": 4.242
 },
 {
 "word": "Israel",
-"start": 5.186,
-"end": 5.65
+"start": 4.242,
+"end": 4.644
 },
 {
 "word": "is",
-"start": 5.65,
-"end": 5.759
+"start": 4.644,
+"end": 4.814
 },
 {
 "word": "a",
-"start": 5.759,
-"end": 5.82
+"start": 4.814,
+"end": 4.845
 },
 {
 "word": "murderous",
-"start": 5.82,
-"end": 6.3
+"start": 4.845,
+"end": 5.263
 },
 {
 "word": "society.",
-"start": 6.3,
-"end": 6.935
+"start": 5.263,
+"end": 5.805
 },
 {
-"word": "So",
-"start": 7.477,
-"end": 7.647
+"word": "Let's",
+"start": 6.192,
+"end": 6.471
 },
 {
 "word": "measure",
-"start": 7.647,
-"end": 7.988
+"start": 6.471,
+"end": 6.765
 },
 {
-"word": "it",
-"start": 7.988,
-"end": 8.065
-},
-{
-"word": "like",
-"start": 8.065,
-"end": 8.189
-},
-{
-"word": "any",
-"start": 8.189,
-"end": 8.406
-},
-{
-"word": "country:",
-"start": 8.406,
-"end": 8.947
+"word": "it:",
+"start": 6.765,
+"end": 6.889
 },
 {
 "word": "murders",
-"start": 9.303,
-"end": 9.814
+"start": 6.92,
+"end": 7.368
 },
 {
 "word": "per",
-"start": 9.814,
-"end": 9.969
+"start": 7.368,
+"end": 7.554
 },
 {
 "word": "100,000",
-"start": 9.969,
-"end": 10.805
+"start": 7.554,
+"end": 8.297
 },
 {
 "word": "people.",
-"start": 10.805,
-"end": 11.223
+"start": 8.297,
+"end": 8.653
 },
 {
 "word": "Jewish",
-"start": 11.765,
-"end": 12.152
+"start": 9.071,
+"end": 9.443
 },
 {
-"word": "Israelis:",
-"start": 12.152,
-"end": 12.817
+"word": "Israelis,",
+"start": 9.443,
+"end": 10.062
 },
 {
 "word": "0.85.",
-"start": 12.926,
-"end": 14.288
+"start": 10.124,
+"end": 11.331
 },
 {
 "word": "Lower",
-"start": 14.737,
-"end": 15.031
+"start": 11.811,
+"end": 12.105
 },
 {
 "word": "than",
-"start": 15.031,
-"end": 15.186
+"start": 12.105,
+"end": 12.26
 },
 {
 "word": "Germany,",
-"start": 15.186,
-"end": 15.759
+"start": 12.26,
+"end": 12.709
 },
 {
 "word": "the",
-"start": 15.805,
-"end": 15.96
+"start": 12.74,
+"end": 12.864
 },
 {
 "word": "UK",
-"start": 15.96,
-"end": 16.471
+"start": 12.864,
+"end": 13.251
 },
 {
 "word": "and",
-"start": 16.471,
-"end": 16.625
+"start": 13.251,
+"end": 13.375
 },
 {
 "word": "France.",
-"start": 16.625,
-"end": 17.229
+"start": 13.375,
+"end": 13.87
 },
 {
 "word": "World",
-"start": 17.709,
-"end": 18.003
+"start": 14.273,
+"end": 14.536
 },
 {
-"word": "average:",
-"start": 18.003,
-"end": 18.607
+"word": "average",
+"start": 14.536,
+"end": 14.845
 },
 {
-"word": "5.2.",
-"start": 18.7,
-"end": 19.675
+"word": "5.2,",
+"start": 14.845,
+"end": 15.681
 },
 {
-"word": "The",
-"start": 20.31,
-"end": 20.495
+"word": "the",
+"start": 16.13,
+"end": 16.254
 },
 {
-"word": "US:",
-"start": 20.495,
-"end": 21.146
+"word": "US",
+"start": 16.254,
+"end": 16.579
 },
 {
 "word": "5.8.",
-"start": 21.269,
-"end": 22.26
+"start": 16.579,
+"end": 17.446
 },
 {
-"word": "Brazil:",
-"start": 22.647,
-"end": 23.22
+"word": "Brazil",
+"start": 17.802,
+"end": 18.143
 },
 {
-"word": "19.",
-"start": 23.344,
-"end": 24.009
+"word": "19,",
+"start": 18.143,
+"end": 18.684
 },
 {
-"word": "Mexico:",
-"start": 24.149,
-"end": 24.845
+"word": "Mexico",
+"start": 18.886,
+"end": 19.304
 },
 {
 "word": "25.",
-"start": 25.047,
-"end": 25.867
+"start": 19.304,
+"end": 19.938
 },
 {
 "word": "Now",
-"start": 26.161,
-"end": 26.393
+"start": 20.449,
+"end": 20.65
 },
 {
 "word": "Israel's",
-"start": 26.393,
-"end": 26.858
+"start": 20.65,
+"end": 21.022
 },
 {
 "word": "neighbours.",
-"start": 26.858,
-"end": 27.384
+"start": 21.022,
+"end": 21.579
 },
 {
 "word": "The",
-"start": 27.787,
-"end": 27.895
+"start": 22.059,
+"end": 22.214
 },
 {
-"word": "UAE:",
-"start": 27.895,
-"end": 28.499
+"word": "UAE",
+"start": 22.214,
+"end": 22.508
 },
 {
-"word": "0.7.",
-"start": 28.886,
-"end": 29.845
+"word": "0.7,",
+"start": 22.601,
+"end": 23.653
 },
 {
 "word": "Saudi",
-"start": 30.372,
-"end": 30.821
+"start": 23.684,
+"end": 24.102
 },
 {
-"word": "Arabia:",
-"start": 30.821,
-"end": 31.424
+"word": "Arabia",
+"start": 24.102,
+"end": 24.489
 },
 {
-"word": "0.9.",
-"start": 31.78,
-"end": 32.74
+"word": "0.9,",
+"start": 24.489,
+"end": 25.48
 },
 {
-"word": "Jordan:",
-"start": 33.189,
-"end": 33.669
+"word": "Jordan",
+"start": 25.712,
+"end": 26.053
 },
 {
 "word": "1.",
-"start": 34.149,
-"end": 34.567
+"start": 26.053,
+"end": 26.254
 },
 {
-"word": "Egypt:",
-"start": 35.325,
-"end": 35.867
+"word": "Egypt",
+"start": 26.765,
+"end": 27.074
 },
 {
-"word": "1.3.",
-"start": 36.006,
-"end": 36.827
+"word": "1.3,",
+"start": 27.074,
+"end": 28.065
 },
 {
-"word": "Lebanon:",
-"start": 37.601,
-"end": 38.236
+"word": "Lebanon",
+"start": 28.266,
+"end": 28.746
 },
 {
-"word": "2.2.",
-"start": 38.406,
-"end": 39.195
+"word": "2.2,",
+"start": 28.746,
+"end": 29.644
 },
 {
-"word": "Turkey:",
-"start": 39.907,
-"end": 40.48
+"word": "Turkey",
+"start": 29.799,
+"end": 30.124
 },
 {
-"word": "3.2.",
-"start": 40.774,
-"end": 41.564
+"word": "3.2,",
+"start": 30.124,
+"end": 31.006
 },
 {
-"word": "Syria:",
-"start": 41.951,
-"end": 42.431
+"word": "Syria",
+"start": 31.239,
+"end": 31.657
 },
 {
 "word": "no",
-"start": 43.034,
-"end": 43.236
+"start": 31.657,
+"end": 31.873
 },
 {
 "word": "reliable",
-"start": 43.236,
-"end": 43.684
+"start": 31.873,
+"end": 32.291
 },
 {
 "word": "data.",
-"start": 43.684,
-"end": 44.025
+"start": 32.291,
+"end": 32.647
 },
 {
 "word": "Some",
-"start": 44.861,
-"end": 45.093
+"start": 33.034,
+"end": 33.282
 },
 {
 "word": "of",
-"start": 45.093,
-"end": 45.186
+"start": 33.282,
+"end": 33.344
 },
 {
 "word": "the",
-"start": 45.186,
-"end": 45.279
+"start": 33.344,
+"end": 33.421
 },
 {
 "word": "safest",
-"start": 45.279,
-"end": 45.635
-},
-{
-"word": "places",
-"start": 45.635,
-"end": 46.177
+"start": 33.421,
+"end": 33.855
 },
 {
 "word": "on",
-"start": 46.239,
-"end": 46.486
+"start": 33.855,
+"end": 33.963
 },
 {
 "word": "this",
-"start": 46.486,
-"end": 46.626
+"start": 33.963,
+"end": 34.118
 },
 {
 "word": "list.",
-"start": 46.626,
-"end": 46.966
+"start": 34.118,
+"end": 34.536
 },
 {
 "word": "Now",
-"start": 47.013,
-"end": 47.26
+"start": 35.047,
+"end": 35.263
 },
 {
 "word": "the",
-"start": 47.26,
-"end": 47.384
+"start": 35.263,
+"end": 35.372
 },
 {
 "word": "honest",
-"start": 47.384,
-"end": 47.678
+"start": 35.372,
+"end": 35.743
 },
 {
 "word": "part.",
-"start": 47.678,
-"end": 47.972
+"start": 35.743,
+"end": 36.037
 },
 {
 "word": "Israel",
-"start": 48.669,
-"end": 49.056
+"start": 36.703,
+"end": 37.09
 },
 {
 "word": "as",
-"start": 49.056,
-"end": 49.18
+"start": 37.09,
+"end": 37.245
 },
 {
 "word": "a",
-"start": 49.18,
-"end": 49.242
+"start": 37.245,
+"end": 37.291
 },
 {
-"word": "whole:",
-"start": 49.242,
-"end": 49.598
+"word": "whole,",
+"start": 37.291,
+"end": 37.725
 },
 {
-"word": "3.",
-"start": 50.016,
-"end": 50.356
+"word": "3,",
+"start": 37.771,
+"end": 38.205
 },
 {
-"word": "Above",
-"start": 51.007,
-"end": 51.254
+"word": "above",
+"start": 38.205,
+"end": 38.592
 },
 {
 "word": "every",
-"start": 51.316,
-"end": 51.548
+"start": 38.592,
+"end": 38.824
 },
 {
 "word": "neighbour",
-"start": 51.548,
-"end": 51.904
+"start": 38.824,
+"end": 39.164
 },
 {
-"word": "except",
-"start": 51.904,
-"end": 52.245
+"word": "but",
+"start": 39.164,
+"end": 39.335
 },
 {
 "word": "Turkey.",
-"start": 52.245,
-"end": 52.632
+"start": 39.335,
+"end": 39.753
 },
 {
 "word": "Double",
-"start": 53.298,
-"end": 53.623
+"start": 40.0,
+"end": 40.263
 },
 {
 "word": "its",
-"start": 53.623,
-"end": 53.793
+"start": 40.263,
+"end": 40.449
 },
 {
 "word": "2019",
-"start": 53.793,
-"end": 54.784
+"start": 40.449,
+"end": 41.703
 },
 {
 "word": "rate.",
-"start": 54.784,
-"end": 55.062
+"start": 41.703,
+"end": 41.92
 },
 {
 "word": "Most",
-"start": 55.743,
-"end": 56.053
+"start": 41.982,
+"end": 42.338
 },
 {
 "word": "victims",
-"start": 56.053,
-"end": 56.657
+"start": 42.338,
+"end": 42.849
 },
 {
 "word": "are",
-"start": 56.951,
-"end": 57.106
+"start": 42.91,
+"end": 43.297
 },
 {
 "word": "Arab",
-"start": 57.106,
-"end": 57.369
+"start": 43.297,
+"end": 43.576
 },
 {
-"word": "citizens:",
-"start": 57.369,
-"end": 58.034
+"word": "citizens,",
+"start": 43.576,
+"end": 44.257
 },
 {
 "word": "11",
-"start": 58.499,
-"end": 58.917
+"start": 44.319,
+"end": 44.675
 },
 {
 "word": "per",
-"start": 58.917,
-"end": 59.072
+"start": 44.675,
+"end": 44.83
 },
 {
 "word": "100,000,",
-"start": 59.072,
-"end": 59.907
+"start": 44.83,
+"end": 45.527
 },
 {
 "word": "13",
-"start": 59.907,
-"end": 60.325
+"start": 45.527,
+"end": 45.914
 },
 {
 "word": "times",
-"start": 60.325,
-"end": 60.774
+"start": 45.914,
+"end": 46.208
 },
 {
 "word": "the",
-"start": 60.774,
-"end": 60.898
+"start": 46.208,
+"end": 46.301
 },
 {
 "word": "Jewish",
-"start": 60.898,
-"end": 61.177
+"start": 46.301,
+"end": 46.595
 },
 {
 "word": "rate.",
-"start": 61.177,
-"end": 61.409
+"start": 46.595,
+"end": 46.811
 },
 {
-"word": "Over",
-"start": 62.183,
-"end": 62.493
-},
-{
-"word": "half",
-"start": 62.493,
-"end": 62.787
-},
-{
-"word": "are",
-"start": 62.787,
-"end": 62.911
+"word": "Mostly",
+"start": 46.935,
+"end": 47.353
 },
 {
 "word": "organised",
-"start": 62.911,
-"end": 63.329
+"start": 47.353,
+"end": 47.74
 },
 {
 "word": "crime,",
-"start": 63.329,
-"end": 63.747
+"start": 47.74,
+"end": 48.251
 },
 {
 "word": "and",
-"start": 64.025,
-"end": 64.195
+"start": 48.313,
+"end": 48.514
 },
 {
-"word": "fewer",
-"start": 64.195,
-"end": 64.505
-},
-{
-"word": "than",
-"start": 64.505,
-"end": 64.644
+"word": "under",
+"start": 48.514,
+"end": 48.762
 },
 {
 "word": "1",
-"start": 64.644,
-"end": 64.83
+"start": 48.762,
+"end": 48.948
 },
 {
 "word": "in",
-"start": 64.83,
-"end": 64.954
+"start": 48.948,
+"end": 49.025
 },
 {
 "word": "10",
-"start": 64.954,
-"end": 65.124
+"start": 49.025,
+"end": 49.211
 },
 {
 "word": "of",
-"start": 65.124,
-"end": 65.217
+"start": 49.211,
+"end": 49.304
 },
 {
 "word": "those",
-"start": 65.217,
-"end": 65.403
+"start": 49.304,
+"end": 49.474
 },
 {
 "word": "murders",
-"start": 65.403,
-"end": 65.759
+"start": 49.474,
+"end": 49.815
 },
 {
 "word": "get",
-"start": 65.759,
-"end": 65.914
+"start": 49.815,
+"end": 49.954
 },
 {
 "word": "solved.",
-"start": 65.914,
-"end": 66.394
+"start": 49.954,
+"end": 50.434
 },
 {
 "word": "The",
-"start": 67.013,
-"end": 67.137
+"start": 50.836,
+"end": 50.914
 },
 {
 "word": "state",
-"start": 67.137,
-"end": 67.477
+"start": 50.914,
+"end": 51.161
 },
 {
 "word": "is",
-"start": 67.477,
-"end": 67.647
+"start": 51.161,
+"end": 51.254
 },
 {
 "word": "failing",
-"start": 67.647,
-"end": 68.034
+"start": 51.254,
+"end": 51.579
 },
 {
 "word": "them.",
-"start": 68.034,
-"end": 68.282
+"start": 51.579,
+"end": 51.827
 },
 {
 "word": "And",
-"start": 68.762,
-"end": 68.917
+"start": 52.059,
+"end": 52.214
 },
 {
 "word": "yes,",
-"start": 68.917,
-"end": 69.18
+"start": 52.214,
+"end": 52.477
 },
 {
 "word": "we",
-"start": 69.18,
-"end": 69.335
+"start": 52.477,
+"end": 52.601
 },
 {
 "word": "kill",
-"start": 69.335,
-"end": 69.598
+"start": 52.601,
+"end": 52.864
 },
 {
-"word": "too.",
-"start": 69.598,
-"end": 69.908
-},
-{
-"word": "Sometimes",
-"start": 70.558,
-"end": 71.13
-},
-{
-"word": "by",
-"start": 71.13,
-"end": 71.316
-},
-{
-"word": "accident,",
-"start": 71.316,
-"end": 71.858
+"word": "too,",
+"start": 52.864,
+"end": 53.112
 },
 {
 "word": "sometimes",
-"start": 72.059,
-"end": 72.601
+"start": 53.112,
+"end": 53.499
+},
+{
+"word": "by",
+"start": 53.499,
+"end": 53.654
+},
+{
+"word": "accident,",
+"start": 53.654,
+"end": 54.133
+},
+{
+"word": "sometimes",
+"start": 54.164,
+"end": 54.582
 },
 {
 "word": "deliberately.",
-"start": 72.601,
-"end": 73.205
+"start": 54.582,
+"end": 55.155
 },
 {
 "word": "Every",
-"start": 73.716,
-"end": 73.948
+"start": 55.325,
+"end": 55.573
 },
 {
 "word": "number",
-"start": 73.948,
-"end": 74.226
+"start": 55.573,
+"end": 55.805
 },
 {
 "word": "is",
-"start": 74.226,
-"end": 74.304
+"start": 55.805,
+"end": 55.867
 },
 {
 "word": "a",
-"start": 74.304,
-"end": 74.366
+"start": 55.867,
+"end": 55.96
 },
 {
 "word": "life.",
-"start": 74.366,
-"end": 74.753
+"start": 55.96,
+"end": 56.347
 },
 {
 "word": "What",
-"start": 74.939,
-"end": 75.124
+"start": 56.533,
+"end": 56.734
 },
 {
 "word": "should",
-"start": 75.124,
-"end": 75.295
+"start": 56.734,
+"end": 56.889
 },
 {
 "word": "Israel",
-"start": 75.295,
-"end": 75.635
+"start": 56.889,
+"end": 57.214
 },
 {
 "word": "do",
-"start": 75.635,
-"end": 75.743
+"start": 57.214,
+"end": 57.338
 },
 {
 "word": "first?",
-"start": 75.743,
-"end": 76.208
+"start": 57.338,
+"end": 57.818
 },
 {
 "word": "So,",
-"start": 76.626,
-"end": 77.106
+"start": 58.205,
+"end": 58.39
 },
 {
 "word": "do",
-"start": 77.4,
-"end": 77.586
+"start": 58.39,
+"end": 58.545
 },
 {
 "word": "Jews",
-"start": 77.586,
-"end": 77.942
+"start": 58.545,
+"end": 58.901
 },
 {
 "word": "kill",
-"start": 77.942,
-"end": 78.267
+"start": 58.901,
+"end": 59.118
 },
 {
 "word": "more?",
-"start": 78.329,
-"end": 78.685
+"start": 59.118,
+"end": 59.474
 }
 ]
