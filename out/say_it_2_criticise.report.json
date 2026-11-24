@@ -1,0 +1,156 @@
+{
+ "id": "say_it_2_criticise",
+ "account": "noamroz__",
+ "template": "say_it",
+ "hook": "Criticism vs existence: *11* words.",
+ "duration": 49.73,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": 0.5
+ },
+ "outputs": {
+  "mp4": "out/say_it_2_criticise.mp4",
+  "cover": "covers/say_it_2_criticise_cover.jpg",
+  "preview": "previews/say_it_2_criticise_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/say_it_2_criticise_0.jpg",
+  "1": "out/frames/say_it_2_criticise_1.jpg",
+  "3": "out/frames/say_it_2_criticise_3.jpg",
+  "last": "out/frames/say_it_2_criticise_last.jpg"
+ },
+ "caption_en": "The line people hide behind in the group chat. 💬\n\nSomeone writes \"Israel shouldn't exist\", then \"relax, it's just criticism.\" Here are the 11 words:\n\n\"Criticise any government you like. Nobody asks if France should exist.\"\n\n📜 The International Holocaust Remembrance Alliance (IHRA) working definition of antisemitism (2016): \"criticism of Israel similar to that leveled against any other country cannot be regarded as antisemitic.\" One of its examples of antisemitism: \"Denying the Jewish people their right to self-determination.\"\n🇮🇱 2023: Israelis protested their own government week after week over the judicial overhaul (Reuters, 2023).\n\nWhich sentence do you need most? Tell me below.\n\nPart 2 of \"Words for what you already feel\". Part 3 on my profile.\n\nSources: IHRA working definition of antisemitism, 2016; Reuters, 2023.\nPhotos (Wikimedia Commons): israeltourism (CC BY 2.0); MathKnight and Zachi Evenor (CC BY-SA 4.0); Tsvika Israeli, GPO (CC BY-SA 3.0). Made with AI tools, AI voice.",
+ "caption_he": "המשפט שמתחבאים מאחוריו בקבוצת הווטסאפ.\n\nמישהו כותב \"לישראל אין זכות להתקיים\", ואז \"רגע, זו סתם ביקורת\". הנה המשפט:\n\"תבקרו כל ממשלה שבא לכם. אף אחד לא שואל אם צרפת צריכה להתקיים.\"\n\n📜 ההגדרה של IHRA לאנטישמיות (2016): ביקורת על ישראל כמו על כל מדינה אחרת היא לא אנטישמיות. שלילת הזכות של העם היהודי להגדרה עצמית היא אחת הדוגמאות לאנטישמיות.\n🇮🇱 2023: ישראלים הפגינו נגד הממשלה שלהם, שבוע אחרי שבוע.\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#Antisemitism",
+  "#FreeSpeech"
+ ],
+ "sources": [
+  {
+   "label": "IHRA working definition of antisemitism, adopted 26 May",
+   "year": 2016,
+   "at": "L5",
+   "until": "L6e+0.3"
+  },
+  {
+   "label": "Reuters, weekly protests against the judicial overhaul",
+   "year": 2023,
+   "at": "L7",
+   "until": "L7e+0.3"
+  }
+ ],
+ "transcript": {
+  "score": 0.956,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Criticism, or asking if Israel should exist? Here's the difference, in 11 words.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A group chat. Someone writes: Israel shouldn't exist.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then adds: relax, it's just criticism.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Criticise any government you like.",
+    "score": 0.8,
+    "flag": "ok"
+   },
+   {
+    "line": "Nobody asks if France should exist.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The International Holocaust Remembrance Alliance agrees: criticising Israel like any other country is not antisemitic.",
+    "score": 0.867,
+    "flag": "ok"
+   },
+   {
+    "line": "But denying the Jewish people the right to self-determination is.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israelis criticise their own government all the time. In 2023, they protested it week after week.",
+    "score": 0.952,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this. Criticise governments. Don't erase countries.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "Which sentence do you need most? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Criticism, or erasing a country? Now you can say the difference.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Criticism, or asking if Israel should exist? Here's the difference in 11 words. A group chat. Someone writes, Israel shouldn't exist. Then adds, Relax, it's just criticism. Criticize any government you like. Nobody asks if France should exist. The International Holocaust Remembrance Alliance agrees. Criticizing Israel, like any other country, is not anti-Semitic. But denying the Jewish people the right to self-determination is. And Israelis criticize their own government all the time. In 2023, they protested it week after week. Save this. Criticize governments. Don't erase countries. Which sentence do you need most? Tell me in the comments. If you love Israeli facts, follow. Noam Roz for more. Criticism or erasing a country. Now you can say the difference.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": 0.5
+ },
+ "phases": [
+  [
+   0.0,
+   "intro"
+  ],
+  [
+   5.61,
+   "scene"
+  ],
+  [
+   12.47,
+   "hero"
+  ],
+  [
+   17.19,
+   "fact"
+  ],
+  [
+   23.94,
+   "fact"
+  ],
+  [
+   27.12,
+   "fact"
+  ],
+  [
+   33.56,
+   "save"
+  ],
+  [
+   37.51,
+   "debate"
+  ],
+  [
+   40.48,
+   "follow"
+  ],
+  [
+   45.18,
+   "loop"
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 123.0
+}
