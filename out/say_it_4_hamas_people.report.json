@@ -1,0 +1,142 @@
+{
+ "id": "say_it_4_hamas_people",
+ "account": "noamroz__",
+ "template": "say_it",
+ "hook": "HAMAS vs Palestinians: *9* words.",
+ "duration": 41.07,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/say_it_4_hamas_people.mp4",
+  "cover": "covers/say_it_4_hamas_people_cover.jpg",
+  "preview": "previews/say_it_4_hamas_people_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/say_it_4_hamas_people_0.jpg",
+  "1": "out/frames/say_it_4_hamas_people_1.jpg",
+  "3": "out/frames/say_it_4_hamas_people_3.jpg",
+  "last": "out/frames/say_it_4_hamas_people_last.jpg"
+ },
+ "caption_en": "When condemning a terror group gets you called a hater. 🧭\n\nYou condemn HAMAS, and someone asks: so you hate Palestinians? Here are the 9 words:\n\n\"HAMAS is a terror group. Palestinians are a people.\"\n\n🗳️ Gaza's last election was the Palestinian legislative election of January 2006. HAMAS took Gaza by force in 2007 and has held no election since.\n👧 About half of Gaza's 2.2 million people are children (UNICEF, 2023). None of them ever voted for HAMAS.\n📣 March 2025: hundreds of Gazans marched in Beit Lahia chanting \"HAMAS out\" (AP, Reuters, 2025).\n\nWhich sentence do you need most? Tell me below.\n\nPart 4 of \"Words for what you already feel\". Part 5 on my profile.\n\nSources: Palestinian Central Elections Commission, 2006; UNICEF, 2023; AP and Reuters, 2025.\nPhotos (Wikimedia Commons): Ashraf Amra (CC BY-SA 3.0 IGO); Abedallah Alhaj (CC BY-SA 3.0 IGO). Made with AI tools, AI voice.",
+ "caption_he": "כשגינוי של ארגון טרור הופך אתכם לשונאים.\n\nאתם מגנים את חמאס, ומישהו שואל: אז אתה שונא פלסטינים? הנה המשפט:\n\"חמאס הוא ארגון טרור. הפלסטינים הם עם.\"\n\n🗳️ הבחירות האחרונות בעזה היו בינואר 2006. חמאס השתלט על עזה בכוח ב-2007, ומאז אין בחירות.\n👧 כמחצית מ-2.2 מיליון תושבי עזה הם ילדים (יוניסף, 2023). אף אחד מהם לא הצביע לחמאס.\n📣 מרץ 2025: מאות תושבי עזה צעדו בבית לאהיא וקראו \"חמאס החוצה\".\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#Gaza",
+  "#HAMAS"
+ ],
+ "sources": [
+  {
+   "label": "Palestinian legislative election, Jan 2006; UNICEF: about half of Gaza's 2.2 million are children, 2023",
+   "year": 2023,
+   "at": "L4",
+   "until": "L4e+0.3"
+  },
+  {
+   "label": "AP and Reuters, protests in Beit Lahia, 25 to 26 March",
+   "year": 2025,
+   "at": "L5",
+   "until": "L5e+0.3"
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "HAMAS and Palestinians are not the same. Here it is, in 9 words.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "At work, you condemn HAMAS. A colleague asks: so you hate Palestinians?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "HAMAS is a terror group.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Palestinians are a people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gaza hasn't had an election since 2006, and about half of its people are children. None of them ever voted for HAMAS.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And in March 2025, Gazans marched in the streets, chanting: HAMAS out.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this. Against HAMAS. Not against Palestinians.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which sentence do you need most? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A terror group, or a people? 9 words tell them apart.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Hamas and Palestinians are not the same. Here it is, in nine words. At work, you condemn Hamas. A colleague asks, so you hate Palestinians? Hamas is a terror group. Palestinians are a people. Gaza hasn't had an election since 2006, and about half of its people are children. None of them ever voted for Hamas. And in March 2025, Gazans marched in the streets, chanting Hamas out. Save this. Against Hamas. Not against Palestinians. Which sentence do you need most? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. A terror group or a people. Nine words tell them apart.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "phases": [
+  [
+   0.0,
+   "intro"
+  ],
+  [
+   5.24,
+   "scene"
+  ],
+  [
+   10.38,
+   "hero"
+  ],
+  [
+   14.21,
+   "fact"
+  ],
+  [
+   20.79,
+   "fact"
+  ],
+  [
+   25.52,
+   "save"
+  ],
+  [
+   29.64,
+   "debate"
+  ],
+  [
+   32.8,
+   "follow"
+  ],
+  [
+   37.51,
+   "loop"
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 104.8
+}
