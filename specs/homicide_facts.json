@@ -424,7 +424,7 @@
    },
    {
     "file": "templates/photos/homicide_facts/rc_abudhabi.jpg",
-    "at": "L10",
+    "at": "L10+0.4",
     "until": "L11",
     "credit": "Abu Dhabi: AdnanDekedek, CC BY-SA 4.0",
     "kb": [
@@ -543,7 +543,7 @@
    },
    {
     "at": "L8-0.2",
-    "until": "L10",
+    "until": "L10+0.4",
     "title": "Israel's *neighbours*",
     "lab_w": 430,
     "vmax": 7.0,
@@ -608,7 +608,7 @@
    },
    {
     "at": "L11",
-    "until": "L12-0.1",
+    "until": "L12+0.15",
     "title": "Israel *overall*",
     "lab_w": 430,
     "vmax": 7.0,
@@ -700,7 +700,7 @@
   ],
   "big": [
    {
-    "at": "L12",
+    "at": "L12+0.15",
     "until": "L13-0.1",
     "value": 3.04,
     "from": 1.56,
@@ -741,12 +741,12 @@
   {
    "label": "UNODC (2025 release), latest year per country; Syria: none since 2010",
    "at": "L8-0.2",
-   "until": "L10"
+   "until": "L10+0.4"
   },
   {
    "label": "Israel: Taub Center, Israel Police data, 2023; others: UNODC",
    "at": "L11",
-   "until": "L12-0.1",
+   "until": "L12+0.15",
    "year": 2023
   },
   {
