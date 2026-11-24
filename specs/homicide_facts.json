@@ -374,7 +374,7 @@
   ],
   "photos": [
    {
-    "file": "photos/bz_tlv.jpg",
+    "file": "templates/photos/homicide_facts/bz_tlv.jpg",
     "at": "L1",
     "until": "L2",
     "credit": "Tel Aviv: Davidi Vardi, PikiWiki, CC BY 2.5",
@@ -389,7 +389,7 @@
     "dim": 0.3
    },
    {
-    "file": "photos/rc_abudhabi.jpg",
+    "file": "templates/photos/homicide_facts/rc_abudhabi.jpg",
     "at": "L10",
     "until": "L11",
     "credit": "Abu Dhabi: AdnanDekedek, CC BY-SA 4.0",
@@ -404,7 +404,7 @@
     "dim": 0.3
    },
    {
-    "file": "photos/gs_naz.jpg",
+    "file": "templates/photos/homicide_facts/gs_naz.jpg",
     "at": "L14",
     "until": "L15",
     "credit": "Nazareth: Zairon, CC BY-SA 4.0",
@@ -419,7 +419,7 @@
     "dim": 0.35
    },
    {
-    "file": "photos/jl_il_knesset.jpg",
+    "file": "templates/photos/homicide_facts/jl_il_knesset.jpg",
     "at": "L15",
     "until": "L16",
     "credit": "Knesset: Clema12, CC BY-SA 4.0",
