@@ -1,6 +1,151 @@
 {
-  "id": "say_it_3_came_home",
-  "status": "FAILED",
-  "run": "45324146673",
-  "log": ""
+ "id": "say_it_3_came_home",
+ "account": "noamroz__",
+ "template": "say_it",
+ "hook": "Called a colonizer? *7* words.",
+ "duration": 39.87,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/say_it_3_came_home.mp4",
+  "cover": "covers/say_it_3_came_home_cover.jpg",
+  "preview": "previews/say_it_3_came_home_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/say_it_3_came_home_0.jpg",
+  "1": "out/frames/say_it_3_came_home_1.jpg",
+  "3": "out/frames/say_it_3_came_home_3.jpg",
+  "last": "out/frames/say_it_3_came_home_last.jpg"
+ },
+ "caption_en": "The comment you see under every Israel post. 🏺\n\n\"Jews are colonizers. Go back to Europe.\" Here are the 7 words:\n\n\"Jews didn't colonize Israel. They came home.\"\n\n🏺 About 1208 BCE: the Merneptah Stele, carved for an Egyptian pharaoh, names \"Israel\" (Egyptian Museum, Cairo).\n🏺 9th century BCE: the Tel Dan Stele, found in northern Israel, mentions the \"House of David\" (Israel Museum, Jerusalem).\n\nPalestinians have deep roots here too. Both can be true.\n\nWhich sentence do you need most? Tell me below.\n\nPart 3 of \"Words for what you already feel\". Part 4 on my profile.\n\nSources: Merneptah Stele, c. 1208 BCE (Egyptian Museum); Tel Dan Stele, 9th century BCE (Israel Museum).\nPhotos (Wikimedia Commons): Darer101 (CC BY-SA 4.0); Liadmalone (CC BY-SA 4.0); Sheepdog85 (CC BY-SA 3.0 de). Made with AI tools, AI voice.",
+ "caption_he": "התגובה שמופיעה מתחת לכל פוסט על ישראל.\n\n\"היהודים הם קולוניאליסטים. תחזרו לאירופה.\" הנה המשפט:\n\"היהודים לא התיישבו בארץ זרה. הם חזרו הביתה.\"\n\n🏺 בערך 1208 לפנה\"ס: אסטלת מרנפתח המצרית מזכירה את \"ישראל\".\n🏺 המאה ה-9 לפנה\"ס: אסטלת תל דן מזכירה את \"בית דוד\".\n\nגם לפלסטינים יש שורשים עמוקים כאן. שני הדברים נכונים.\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#JewishHistory",
+  "#Archaeology"
+ ],
+ "sources": [
+  {
+   "label": "Merneptah Stele, Egyptian Museum, Cairo, c. 1208 BCE",
+   "year": "c. 1208 BCE",
+   "at": "L4",
+   "until": "L4e+0.3"
+  },
+  {
+   "label": "Tel Dan Stele, Israel Museum, 9th century BCE",
+   "year": "9th c. BCE",
+   "at": "L5",
+   "until": "L5e+0.3"
+  }
+ ],
+ "transcript": {
+  "score": 0.98,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Called a colonizer? Here's your answer, in 7 words.",
+    "score": 0.778,
+    "flag": "MISS"
+   },
+   {
+    "line": "Under your post, a comment: Jews are colonizers. Go back to Europe.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jews didn't colonize Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "They came home.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About 3,200 years ago, an Egyptian pharaoh carved the name Israel in stone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About 2,800 years ago, another stone, found in northern Israel, named the House of David.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Palestinians have deep roots here too. Both can be true.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this. Not colonizers. Home.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which sentence do you need most? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So when they call you a colonizer, you have 7 words.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Call the colonizer. Here's your answer in seven words under your post a comment Jews are colonizers go back to Europe Jews didn't colonize Israel They came home about three thousand two hundred years ago an Egyptian Pharaoh carved the name Israel in stone about 2,800 years ago another stone found in northern Israel named the house of David Palestinians have deep roots here too both can be true save this not colonizers home Which sentence do you need most? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. So when they call you a colonizer, you have 7 words.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -1.8
+ },
+ "phases": [
+  [
+   0.0,
+   "intro"
+  ],
+  [
+   3.83,
+   "scene"
+  ],
+  [
+   8.64,
+   "hero"
+  ],
+  [
+   12.33,
+   "fact"
+  ],
+  [
+   17.38,
+   "fact"
+  ],
+  [
+   23.11,
+   "fact"
+  ],
+  [
+   26.3,
+   "save"
+  ],
+  [
+   29.29,
+   "debate"
+  ],
+  [
+   31.83,
+   "follow"
+  ],
+  [
+   36.53,
+   "loop"
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 94.5
 }
