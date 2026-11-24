@@ -1,0 +1,6 @@
+{
+  "id": "homicide_facts",
+  "status": "FAILED",
+  "run": "45348099631",
+  "log": "[07:28:22] pron [en]: Do Jews kill more? Let's check fourteen countries. You've heard it: Israel is a murderous society. So measure it like any country: murders per one hundred thousand people. Jewish Israelis: zero point eight five. Lower than Germany, the UK and France. World average: five point two. The US: five point eight. Brazil: nineteen. Mexico: twenty five. Now Israel's neighbours. The UAE: zero point seven. S\nvoice ok: Cartesia sonic-3 (78.7 s, 152 words, 1 run(s), pronunciation pass) voice/homicide_facts_vo.wav\n[07:28:23] voice: cached voice (script unchanged)\n[ WARN:0@3.797] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bz_tlv.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bz_tlv.jpg\n"
+}
