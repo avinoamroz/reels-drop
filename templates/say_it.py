@@ -342,7 +342,7 @@ def run(S):
             if t < t0 - 0.05 or t > t1 + 0.3: continue
             if kind != "intro" and t < t0: continue
             a, dy = slide(t, t0, t1 + 0.08 if kind != "loop" else END + 2)
-            if kind == "intro": dy = 0.0
+            if kind == "intro": dy = 0.0; a = 1 - seg(t, t1 - 0.17, t1 + 0.08)     # frame 0 fully drawn (no fade in)
             if a > 0.01: act.append((t0, kind, obj, a, dy))
         credits = []
         for t0, kind, obj, a, dy in act:               # photo band first (edge to edge, fades into the background)
