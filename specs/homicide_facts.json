@@ -1,0 +1,751 @@
+{
+ "id": "homicide_facts",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Do Jews *kill* more?|*14* countries.",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Do Jews kill more? Let's check 14 countries.",
+   "gap": 0.15
+  },
+  {
+   "say": "You've heard it: Israel is a murderous society.",
+   "gap": 0.15
+  },
+  {
+   "say": "So measure it like any country: murders per 100,000 people.",
+   "gap": 0.15
+  },
+  {
+   "say": "Jewish Israelis: 0.85.",
+   "gap": 0.15
+  },
+  {
+   "say": "Lower than Germany, the UK and France.",
+   "gap": 0.15
+  },
+  {
+   "say": "World average: 5.2. The US: 5.8.",
+   "gap": 0.15
+  },
+  {
+   "say": "Brazil: 19. Mexico: 25.",
+   "gap": 0.2
+  },
+  {
+   "say": "Now Israel's neighbours.",
+   "gap": 0.15
+  },
+  {
+   "say": "The UAE: 0.7. Saudi Arabia: 0.9. Jordan: 1.",
+   "gap": 0.15
+  },
+  {
+   "say": "Egypt: 1.3. Lebanon: 2.2. Turkey: 3.2. Syria: no reliable data.",
+   "gap": 0.15
+  },
+  {
+   "say": "Some of the safest places on this list.",
+   "gap": 0.2
+  },
+  {
+   "say": "Now the honest part. Israel as a whole: 3. Above every neighbour except Turkey.",
+   "gap": 0.15
+  },
+  {
+   "say": "Double its 2019 rate.",
+   "gap": 0.15
+  },
+  {
+   "say": "Most victims are Arab citizens: 11 per 100,000, 13 times the Jewish rate.",
+   "gap": 0.15
+  },
+  {
+   "say": "Over half are organised crime, and fewer than 1 in 10 of those murders get solved.",
+   "gap": 0.15,
+   "screen": "Organised crime: over *half.*|Solved: under *1 in 10.*",
+   "until": "L15"
+  },
+  {
+   "say": "The state is failing them.",
+   "gap": 0.2,
+   "screen": "The state is *failing* them.",
+   "until": "L16"
+  },
+  {
+   "say": "And yes, we kill too. Sometimes by accident, sometimes deliberately.",
+   "gap": 0.2,
+   "screen": "Yes, we kill *too.*",
+   "until": "L17"
+  },
+  {
+   "say": "Every number is a life. What should Israel do first?",
+   "gap": 0.2
+  },
+  {
+   "follow": true,
+   "gap": 0.15
+  },
+  {
+   "say": "So, do Jews kill more?",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   -25.0,
+   24.0,
+   175
+  ],
+  "hook_y": 930,
+  "title_y": 290,
+  "cams": [
+   {
+    "at": "L7-0.2",
+    "view": [
+     40.0,
+     30.0,
+     36,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L16-0.3",
+    "view": [
+     35.0,
+     31.4,
+     6,
+     900
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L18",
+    "view": [
+     -25.0,
+     24.0,
+     175,
+     960
+    ],
+    "dur": 1.4
+   }
+  ],
+  "highlight": [
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "MEX",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "BRA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "GBR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "FRA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "DEU",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "TUR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "SYR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "LBN",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "JOR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "SAU",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": 0,
+    "until": "L1",
+    "code": "ARE",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "TUR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "SYR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "LBN",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "JOR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "SAU",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7",
+    "until": "L8",
+    "code": "ARE",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "MEX",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "BRA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "GBR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "FRA",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "DEU",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "TUR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "SYR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "LBN",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "JOR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "SAU",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L19",
+    "until": "END",
+    "code": "ARE",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   }
+  ],
+  "photos": [
+   {
+    "file": "photos/bz_tlv.jpg",
+    "at": "L1",
+    "until": "L2",
+    "credit": "Tel Aviv: Davidi Vardi, PikiWiki, CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "photos/rc_abudhabi.jpg",
+    "at": "L10",
+    "until": "L11",
+    "credit": "Abu Dhabi: AdnanDekedek, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.45,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "photos/gs_naz.jpg",
+    "at": "L14",
+    "until": "L15",
+    "credit": "Nazareth: Zairon, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "photos/jl_il_knesset.jpg",
+    "at": "L15",
+    "until": "L16",
+    "credit": "Knesset: Clema12, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "dim": 0.35
+   }
+  ],
+  "bars": [
+   {
+    "at": "L2:murders",
+    "until": "L7-0.1",
+    "title": "Murders per *100,000* people",
+    "lab_w": 430,
+    "rows": [
+     {
+      "label": "Jewish Israelis",
+      "flag": "IL",
+      "value": 0.85,
+      "txt": "0.85",
+      "at": "L3",
+      "hl": true
+     },
+     {
+      "label": "Germany",
+      "flag": "DE",
+      "value": 0.91,
+      "txt": "0.91",
+      "at": "L4:germany",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "UK",
+      "flag": "GB",
+      "value": 1.12,
+      "txt": "1.12",
+      "at": "L4:uk",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "France",
+      "flag": "FR",
+      "value": 1.34,
+      "txt": "1.34",
+      "at": "L4:france",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "World",
+      "emo": "🌍",
+      "value": 5.23,
+      "txt": "5.23",
+      "at": "L5",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "USA",
+      "flag": "US",
+      "value": 5.76,
+      "txt": "5.76",
+      "at": "L5:the",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Brazil",
+      "flag": "BR",
+      "value": 19.3,
+      "txt": "19.3",
+      "at": "L6",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Mexico",
+      "flag": "MX",
+      "value": 24.9,
+      "txt": "24.9",
+      "at": "L6:mexico",
+      "color": "#45A4DD"
+     }
+    ]
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L10",
+    "title": "Israel's *neighbours*",
+    "lab_w": 430,
+    "vmax": 7.0,
+    "rows": [
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 0.69,
+      "txt": "0.69 (2022)",
+      "at": "L8+0.2",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 0.94,
+      "txt": "0.94 (2019)",
+      "at": "L8:saudi",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0.99,
+      "txt": "0.99 (2023)",
+      "at": "L8:jordan",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 1.31,
+      "txt": "1.31 (2017)",
+      "at": "L9",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 2.24,
+      "txt": "2.24 (2020)",
+      "at": "L9:lebanon",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 3.23,
+      "txt": "3.23 (2023)",
+      "at": "L9:turkey",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 0.0,
+      "txt": "no data",
+      "at": "L9:syria",
+      "color": "#3A4A66"
+     }
+    ]
+   },
+   {
+    "at": "L11",
+    "until": "L12-0.1",
+    "title": "Israel *overall*",
+    "lab_w": 430,
+    "vmax": 7.0,
+    "rows": [
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 0.69,
+      "txt": "0.69 (2022)",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 0.94,
+      "txt": "0.94 (2019)",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 0.99,
+      "txt": "0.99 (2023)",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 1.31,
+      "txt": "1.31 (2017)",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 2.24,
+      "txt": "2.24 (2020)",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 3.04,
+      "txt": "3.04 (2023)",
+      "at": "L11:whole",
+      "hl": true
+     },
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 3.23,
+      "txt": "3.23 (2023)",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 0.0,
+      "txt": "no data",
+      "color": "#3A4A66"
+     }
+    ]
+   },
+   {
+    "at": "L13",
+    "until": "L14-0.1",
+    "title": "Israel 2023: who is *killed?*",
+    "lab_w": 470,
+    "y": 700,
+    "rows": [
+     {
+      "label": "Jewish citizens",
+      "flag": "IL",
+      "value": 0.85,
+      "txt": "0.85",
+      "at": "L13+0.2",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Arab citizens",
+      "flag": "IL",
+      "value": 11.1,
+      "txt": "11.1",
+      "at": "L13:arab",
+      "hl": true
+     }
+    ]
+   }
+  ],
+  "big": [
+   {
+    "at": "L12",
+    "until": "L13-0.1",
+    "value": 3.04,
+    "from": 1.56,
+    "dec": 2,
+    "sub": "Israel, per 100,000: 1.56 in 2019"
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L17",
+    "until": "L18",
+    "text": "What should Israel do *first?*",
+    "y": 1330,
+    "size": 60
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e"
+    ],
+    [
+     "L19",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "UNODC 2023 (UK: 2021); Jewish Israelis: Taub Center, Israel Police data, 2023",
+   "at": "L2:murders",
+   "until": "L7-0.1",
+   "year": 2023
+  },
+  {
+   "label": "UNODC, latest year reported per country; Syria: none since 2010",
+   "year": 2025,
+   "at": "L8-0.2",
+   "until": "L10"
+  },
+  {
+   "label": "Israel: Taub Center, Israel Police data, 2023; others: UNODC",
+   "at": "L11",
+   "until": "L12-0.1",
+   "year": 2023
+  },
+  {
+   "label": "Taub Center, The Homicide Rate in Israel",
+   "year": 2024,
+   "at": "L12",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "INSS, Esteban Klor, cases 2017 to mid 2023",
+   "year": 2023,
+   "at": "L14",
+   "until": "L15"
+  }
+ ],
+ "end": {
+  "at": "L17",
+  "until": "L18e",
+  "balance": "Every number is a *life.*",
+  "cta": "Tell me in the comments"
+ },
+ "caption_en": "Two charts say no. The third one hurts. 🔍\n\nYou've heard it: \"Israel is a murderous society.\" So I measured it like any country: murders per 100,000 people a year.\n\n📊 Jewish Israelis: 0.85 (2023). Germany 0.91, UK 1.12 (2021), France 1.34, world average 5.23, USA 5.76, Brazil 19.3, Mexico 24.9 (2023).\n\n🌍 Israel's neighbours, latest year reported to UNODC: UAE 0.69 (2022), Saudi Arabia 0.94 (2019), Jordan 0.99 (2023), Egypt 1.31 (2017), Lebanon 2.24 (2020), Turkey 3.23 (2023), Syria: no data since 2010. Some of the safest places on this list.\n\n⚖️ The honest part: Israel as a whole reached 3.04 in 2023, double its 2019 rate (1.56). Most victims are Arab citizens of Israel: 11.1 per 100,000, about 13 times the Jewish rate. More than half of the murders in Arab society come from clan, crime organisation and gang activity, and fewer than 1 in 10 of those are solved. The state is failing them.\n\nAnd yes, we kill too. Sometimes by accident, sometimes deliberately.\n\nEvery number is a life. What should Israel do first? Tell me in the comments.\n\nSmall print: these rates count homicide victims per 100,000 people in each group. Countries report to UNODC in different ways, and some of the latest years are old.\n\nSources: UNODC intentional homicide data (2025 release, via Our World in Data); Taub Center, The Homicide Rate in Israel (2024, Israel Police data, rates for 2019 and 2023); INSS, Esteban Klor, Murders in Arab Society: A Quantitative Status Report (2023).\nPhotos (Wikimedia Commons): Tel Aviv, Davidi Vardi via PikiWiki (CC BY 2.5); Abu Dhabi, AdnanDekedek (CC BY-SA 4.0); Nazareth, Zairon (CC BY-SA 4.0); Knesset, Clema12 (CC BY-SA 4.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ישראל חברה רצחנית? בדקתי כמו שבודקים כל מדינה: רציחות לכל 100,000 תושבים בשנה.\n\n📊 יהודים בישראל: 0.85 (2023). גרמניה 0.91, בריטניה 1.12, צרפת 1.34, הממוצע העולמי 5.23, ארה\"ב 5.76, ברזיל 19.3, מקסיקו 24.9.\n\n🌍 השכנות: איחוד האמירויות 0.69, סעודיה 0.94, ירדן 0.99, מצרים 1.31, לבנון 2.24, טורקיה 3.23, סוריה: אין נתונים. חלק מהמקומות הבטוחים ברשימה.\n\n⚖️ החלק הכן: ישראל כולה הגיעה ל-3.04 ב-2023, פי שניים מ-2019. רוב הקורבנות הם אזרחים ערבים: 11.1 לכל 100,000, בערך פי 13 מהיהודים. יותר ממחצית הרציחות בחברה הערבית קשורות לחמולות, לארגוני פשיעה ולכנופיות, ופחות מאחת מכל 10 מהן מפוענחת. המדינה נכשלת בהגנה עליהם.\n\nוכן, גם אנחנו הורגים. לפעמים בטעות, לפעמים בכוונה.\n\nכל מספר הוא חיים. מה ישראל צריכה לעשות קודם? כתבו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 0.4,
+  "text": "Do Jews *kill* more?",
+  "big": "14 countries",
+  "label": "Murders per 100,000 people"
+ }
+}
