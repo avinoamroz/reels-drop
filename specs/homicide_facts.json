@@ -8,7 +8,7 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
+  "tempo": 1.15,
   "gap": 0.15
  },
  "lines": [
@@ -17,15 +17,15 @@
    "gap": 0.15
   },
   {
-   "say": "You've heard it: Israel is a murderous society.",
+   "say": "They say Israel is a murderous society.",
    "gap": 0.15
   },
   {
-   "say": "So measure it like any country: murders per 100,000 people.",
+   "say": "Let's measure it: murders per 100,000 people.",
    "gap": 0.15
   },
   {
-   "say": "Jewish Israelis: 0.85.",
+   "say": "Jewish Israelis, 0.85.",
    "gap": 0.15
   },
   {
@@ -33,11 +33,11 @@
    "gap": 0.15
   },
   {
-   "say": "World average: 5.2. The US: 5.8.",
+   "say": "World average 5.2, the US 5.8.",
    "gap": 0.15
   },
   {
-   "say": "Brazil: 19. Mexico: 25.",
+   "say": "Brazil 19, Mexico 25.",
    "gap": 0.2
   },
   {
@@ -45,19 +45,19 @@
    "gap": 0.15
   },
   {
-   "say": "The UAE: 0.7. Saudi Arabia: 0.9. Jordan: 1.",
+   "say": "The UAE 0.7, Saudi Arabia 0.9, Jordan 1.",
    "gap": 0.15
   },
   {
-   "say": "Egypt: 1.3. Lebanon: 2.2. Turkey: 3.2. Syria: no reliable data.",
+   "say": "Egypt 1.3, Lebanon 2.2, Turkey 3.2, Syria no reliable data.",
    "gap": 0.15
   },
   {
-   "say": "Some of the safest places on this list.",
+   "say": "Some of the safest on this list.",
    "gap": 0.2
   },
   {
-   "say": "Now the honest part. Israel as a whole: 3. Above every neighbour except Turkey.",
+   "say": "Now the honest part. Israel as a whole, 3, above every neighbour but Turkey.",
    "gap": 0.15
   },
   {
@@ -65,11 +65,11 @@
    "gap": 0.15
   },
   {
-   "say": "Most victims are Arab citizens: 11 per 100,000, 13 times the Jewish rate.",
+   "say": "Most victims are Arab citizens, 11 per 100,000, 13 times the Jewish rate.",
    "gap": 0.15
   },
   {
-   "say": "Over half are organised crime, and fewer than 1 in 10 of those murders get solved.",
+   "say": "Mostly organised crime, and under 1 in 10 of those murders get solved.",
    "gap": 0.15,
    "screen": "Organised crime: over *half.*|Solved: under *1 in 10.*",
    "until": "L15"
@@ -81,7 +81,7 @@
    "until": "L16"
   },
   {
-   "say": "And yes, we kill too. Sometimes by accident, sometimes deliberately.",
+   "say": "And yes, we kill too, sometimes by accident, sometimes deliberately.",
    "gap": 0.2,
    "screen": "Yes, we kill *too.*",
    "until": "L17"
@@ -92,7 +92,8 @@
   },
   {
    "follow": true,
-   "gap": 0.15
+   "gap": 0.15,
+   "until": "L19"
   },
   {
    "say": "So, do Jews kill more?",
@@ -145,231 +146,264 @@
     "until": "L1",
     "code": "USA",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "MEX",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "BRA",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "GBR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "FRA",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "DEU",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "TUR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "SYR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "LBN",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "JOR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "EGY",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "SAU",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": 0,
     "until": "L1",
     "code": "ARE",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L7",
     "until": "L8",
     "code": "TUR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L7",
     "until": "L8",
     "code": "SYR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L7",
     "until": "L8",
     "code": "LBN",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L7",
     "until": "L8",
     "code": "JOR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L7",
     "until": "L8",
     "code": "EGY",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L7",
     "until": "L8",
     "code": "SAU",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L7",
     "until": "L8",
     "code": "ARE",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "USA",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "MEX",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "BRA",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "GBR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "FRA",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "DEU",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "TUR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "SYR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "LBN",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "JOR",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "EGY",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "SAU",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    },
    {
     "at": "L19",
     "until": "END",
     "code": "ARE",
     "color": "#45A4DD",
-    "alpha": 0.8
+    "alpha": 0.8,
+    "flash_s": 0
    }
   ],
   "photos": [
@@ -705,8 +739,7 @@
    "year": 2023
   },
   {
-   "label": "UNODC, latest year reported per country; Syria: none since 2010",
-   "year": 2025,
+   "label": "UNODC (2025 release), latest year per country; Syria: none since 2010",
    "at": "L8-0.2",
    "until": "L10"
   },
