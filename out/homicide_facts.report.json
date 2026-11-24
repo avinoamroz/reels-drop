@@ -1,6 +1,174 @@
 {
-  "id": "homicide_facts",
-  "status": "FAILED",
-  "run": "45348099631",
-  "log": "[07:28:22] pron [en]: Do Jews kill more? Let's check fourteen countries. You've heard it: Israel is a murderous society. So measure it like any country: murders per one hundred thousand people. Jewish Israelis: zero point eight five. Lower than Germany, the UK and France. World average: five point two. The US: five point eight. Brazil: nineteen. Mexico: twenty five. Now Israel's neighbours. The UAE: zero point seven. S\nvoice ok: Cartesia sonic-3 (78.7 s, 152 words, 1 run(s), pronunciation pass) voice/homicide_facts_vo.wav\n[07:28:23] voice: cached voice (script unchanged)\n[ WARN:0@3.797] global loadsave.cpp:279 findDecoder imread_('/home/runner/work/reels-drop/reels-drop/photos/bz_tlv.jpg'): can't open/read file: check file path/integrity\nphoto_story: cannot read photo photos/bz_tlv.jpg\n"
+ "id": "homicide_facts",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "Do Jews *kill* more?|*14* countries.",
+ "duration": 73.9,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/homicide_facts.mp4",
+  "cover": "covers/homicide_facts_cover.jpg",
+  "preview": "previews/homicide_facts_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/homicide_facts_0.jpg",
+  "1": "out/frames/homicide_facts_1.jpg",
+  "3": "out/frames/homicide_facts_3.jpg",
+  "last": "out/frames/homicide_facts_last.jpg"
+ },
+ "caption_en": "Two charts say no. The third one hurts. 🔍\n\nYou've heard it: \"Israel is a murderous society.\" So I measured it like any country: murders per 100,000 people a year.\n\n📊 Jewish Israelis: 0.85 (2023). Germany 0.91, UK 1.12 (2021), France 1.34, world average 5.23, USA 5.76, Brazil 19.3, Mexico 24.9 (2023).\n\n🌍 Israel's neighbours, latest year reported to UNODC: UAE 0.69 (2022), Saudi Arabia 0.94 (2019), Jordan 0.99 (2023), Egypt 1.31 (2017), Lebanon 2.24 (2020), Turkey 3.23 (2023), Syria: no data since 2010. Some of the safest places on this list.\n\n⚖️ The honest part: Israel as a whole reached 3.04 in 2023, double its 2019 rate (1.56). Most victims are Arab citizens of Israel: 11.1 per 100,000, about 13 times the Jewish rate. More than half of the murders in Arab society come from clan, crime organisation and gang activity, and fewer than 1 in 10 of those are solved. The state is failing them.\n\nAnd yes, we kill too. Sometimes by accident, sometimes deliberately.\n\nEvery number is a life. What should Israel do first? Tell me in the comments.\n\nSmall print: these rates count homicide victims per 100,000 people in each group. Countries report to UNODC in different ways, and some of the latest years are old.\n\nSources: UNODC intentional homicide data (2025 release, via Our World in Data); Taub Center, The Homicide Rate in Israel (2024, Israel Police data, rates for 2019 and 2023); INSS, Esteban Klor, Murders in Arab Society: A Quantitative Status Report (2023).\nPhotos (Wikimedia Commons): Tel Aviv, Davidi Vardi via PikiWiki (CC BY 2.5); Abu Dhabi, AdnanDekedek (CC BY-SA 4.0); Nazareth, Zairon (CC BY-SA 4.0); Knesset, Clema12 (CC BY-SA 4.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ישראל חברה רצחנית? בדקתי כמו שבודקים כל מדינה: רציחות לכל 100,000 תושבים בשנה.\n\n📊 יהודים בישראל: 0.85 (2023). גרמניה 0.91, בריטניה 1.12, צרפת 1.34, הממוצע העולמי 5.23, ארה\"ב 5.76, ברזיל 19.3, מקסיקו 24.9.\n\n🌍 השכנות: איחוד האמירויות 0.69, סעודיה 0.94, ירדן 0.99, מצרים 1.31, לבנון 2.24, טורקיה 3.23, סוריה: אין נתונים. חלק מהמקומות הבטוחים ברשימה.\n\n⚖️ החלק הכן: ישראל כולה הגיעה ל-3.04 ב-2023, פי שניים מ-2019. רוב הקורבנות הם אזרחים ערבים: 11.1 לכל 100,000, בערך פי 13 מהיהודים. יותר ממחצית הרציחות בחברה הערבית קשורות לחמולות, לארגוני פשיעה ולכנופיות, ופחות מאחת מכל 10 מהן מפוענחת. המדינה נכשלת בהגנה עליהם.\n\nוכן, גם אנחנו הורגים. לפעמים בטעות, לפעמים בכוונה.\n\nכל מספר הוא חיים. מה ישראל צריכה לעשות קודם? כתבו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "UNODC 2023 (UK: 2021); Jewish Israelis: Taub Center, Israel Police data, 2023",
+   "at": "L2:murders",
+   "until": "L7-0.1",
+   "year": 2023
+  },
+  {
+   "label": "UNODC, latest year reported per country; Syria: none since 2010",
+   "year": 2025,
+   "at": "L8-0.2",
+   "until": "L10"
+  },
+  {
+   "label": "Israel: Taub Center, Israel Police data, 2023; others: UNODC",
+   "at": "L11",
+   "until": "L12-0.1",
+   "year": 2023
+  },
+  {
+   "label": "Taub Center, The Homicide Rate in Israel",
+   "year": 2024,
+   "at": "L12",
+   "until": "L14-0.1"
+  },
+  {
+   "label": "INSS, Esteban Klor, cases 2017 to mid 2023",
+   "year": 2023,
+   "at": "L14",
+   "until": "L15"
+  }
+ ],
+ "transcript": {
+  "score": 0.977,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Do Jews kill more? Let's check 14 countries.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "You've heard it: Israel is a murderous society.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So measure it like any country: murders per 100,000 people.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Jewish Israelis: 0.85.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Lower than Germany, the UK and France.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "World average: 5.2. The US: 5.8.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Brazil: 19. Mexico: 25.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now Israel's neighbours.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "The UAE: 0.7. Saudi Arabia: 0.9. Jordan: 1.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Egypt: 1.3. Lebanon: 2.2. Turkey: 3.2. Syria: no reliable data.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Some of the safest places on this list.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the honest part. Israel as a whole: 3. Above every neighbour except Turkey.",
+    "score": 0.929,
+    "flag": "ok"
+   },
+   {
+    "line": "Double its 2019 rate.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Most victims are Arab citizens: 11 per 100,000, 13 times the Jewish rate.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Over half are organised crime, and fewer than 1 in 10 of those murders get solved.",
+    "score": 0.938,
+    "flag": "ok"
+   },
+   {
+    "line": "The state is failing them.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And yes, we kill too. Sometimes by accident, sometimes deliberately.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every number is a life. What should Israel do first?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, do Jews kill more?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Did Jews kill more? Let's check 14 countries. You've heard it. Israel is a murderous society. So measure it like any country. Murders per 100,000 people. Jewish Israelis, 0.85. Lower than Germany, the UK and France. World average, 5.2. The US, 5.8. Brazil, 19. Mexico, 25. Now Israel's neighbors. The UAE, 0.7. Saudi Arabia 0.9 Jordan 1 Egypt 1.3 Lebanon 2.2 Turkey 3.2 Syria no reliable data some of the safest places on this list now the honest part Israel as a whole three above every neighbor except Turkey double its 2019 rate most victims are Arab citizens 11 per 100,000 13 times the Jewish rate over half are organized crime, and fewer than 1 in 10 of those murders get solved, the state is failing them. And yes, we kill too. Sometimes by accident, sometimes deliberately. Every number is a life. What should Israel do first? If you love Israeli facts, follow. Noam Roz for more. So, do Jews kill more?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 73.91,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.8
+ },
+ "lint_warnings": [],
+ "render_s": 172.2
 }
