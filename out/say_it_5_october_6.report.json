@@ -1,0 +1,157 @@
+{
+ "id": "say_it_5_october_6",
+ "account": "noamroz__",
+ "template": "say_it",
+ "hook": "On *October 6:* a ceasefire.",
+ "duration": 40.33,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/say_it_5_october_6.mp4",
+  "cover": "covers/say_it_5_october_6_cover.jpg",
+  "preview": "previews/say_it_5_october_6_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/say_it_5_october_6_0.jpg",
+  "1": "out/frames/say_it_5_october_6_1.jpg",
+  "3": "out/frames/say_it_5_october_6_3.jpg",
+  "last": "out/frames/say_it_5_october_6_last.jpg"
+ },
+ "caption_en": "The date nobody brings up. 📅\n\n\"It didn't start on October 7.\" Here are the 10 words:\n\n\"On October 6, there was a ceasefire. HAMAS broke it.\"\n\n🕊️ 21 May 2021: an Egypt-brokered ceasefire between Israel and HAMAS took effect after 11 days of fighting (Reuters, AP, 2021).\n💼 September 2023: Israel had issued work permits to about 18,500 Gazans (COGAT, via Al-Monitor, 2023).\n🕯️ 7 October 2023: HAMAS killed about 1,200 people in Israel (Israeli government figures, 2023).\n\nWhich sentence do you need most? Tell me below.\n\nPart 5 of \"Words for what you already feel\". Parts 1 to 4 on my profile.\n\nSources: Reuters and AP, 2021; COGAT via Al-Monitor, 2023; Israeli government, 2023.\nPhotos (Wikimedia Commons): U.S. Army (public domain); Hanay (CC BY-SA 4.0). Made with AI tools, AI voice.",
+ "caption_he": "התאריך שאף אחד לא מזכיר.\n\n\"זה לא התחיל ב-7 באוקטובר.\" הנה המשפט:\n\"ב-6 באוקטובר הייתה הפסקת אש. חמאס הפר אותה.\"\n\n🕊️ 21 במאי 2021: הפסקת אש בתיווך מצרים נכנסה לתוקף אחרי 11 ימי לחימה.\n💼 ספטמבר 2023: לכ-18,500 תושבי עזה היו היתרי עבודה בישראל.\n🕯️ 7 באוקטובר 2023: חמאס רצח כ-1,200 בני אדם בישראל.\n\nאיזה משפט הכי חסר לכם? כתבו לי.",
+ "hashtags": [
+  "#Israel",
+  "#October7",
+  "#HAMAS"
+ ],
+ "sources": [
+  {
+   "label": "Reuters and AP: Egypt-brokered truce takes effect, 21 May",
+   "year": 2021,
+   "at": "L4",
+   "until": "L4e+0.3"
+  },
+  {
+   "label": "COGAT via Al-Monitor, 28 Sept",
+   "year": 2023,
+   "at": "L5",
+   "until": "L5e+0.3"
+  },
+  {
+   "label": "Israeli government figures",
+   "year": 2023,
+   "at": "L6",
+   "until": "L6e+0.3"
+  }
+ ],
+ "transcript": {
+  "score": 1.0,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "The ceasefire nobody mentions, in 10 words.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "A friend texts: it didn't start on October 7.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "On October 6, there was a ceasefire.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "HAMAS broke it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The truce began on May 21, 2021, after 11 days of fighting, brokered by Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By September 2023, Israel had given about 18,500 Gazans permits to work in Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Then, on October 7, HAMAS killed about 1,200 people in Israel.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Save this. There was a ceasefire. HAMAS broke it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Which sentence do you need most? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, what happened on October 6?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "The ceasefire nobody mentions in 10 words, a friend texts, It didn't start on October 7. On October 6, there was a ceasefire. Hamas broke it. The truce began on May 21, 2021, after 11 days of fighting brokered by Egypt. By September 2023, Israel had given about 18,500 Gazans permits to work in Israel. Then, on October 7, Hamas killed about 1,200 people in Israel. Save this. There was a ceasefire. Hamas broke it. Which sentence do you need most? Tell me in the comments. If you love Israeli facts, follow Noam Raz for more. So what happened on October 6th?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "phases": [
+  [
+   0.0,
+   "intro"
+  ],
+  [
+   2.91,
+   "scene"
+  ],
+  [
+   5.95,
+   "hero"
+  ],
+  [
+   10.28,
+   "fact"
+  ],
+  [
+   16.09,
+   "fact"
+  ],
+  [
+   21.84,
+   "fact"
+  ],
+  [
+   26.38,
+   "save"
+  ],
+  [
+   30.16,
+   "debate"
+  ],
+  [
+   32.7,
+   "follow"
+  ],
+  [
+   37.41,
+   "loop"
+  ]
+ ],
+ "lint_warnings": [],
+ "render_s": 96.0
+}
