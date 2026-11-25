@@ -10,7 +10,8 @@ data keys (times are anchors: 12.5, "L3", "L3e", "L3:word", "L3:word+0.2", "END-
   utopia    {"value": 100, "label": "UTOPIA", "note": "small method label (>= 36 px)"}
   israel    {"value": 73, "ticker": "ISR", "flag": "IL", "map": true}
   blocks    [{at, label, value}]   red blocks stacked from israel.value up to utopia.value (equal heights)
-  rows      [{ticker, flag, value, at, label}]   neighbour lines (draw in left to right at `at`)
+  rows      [{ticker, flag, value, at, label, claim}]   neighbour lines (draw in left to right at `at`); claim: true
+            = a dashed orange "what they think" line at a real, sourced anchor value, tag shows the ticker only
   bars      [{at, until, title, sub, rows: [{label, flag, value, txt, hl}], dec, suffix, y}]
   photos    [{file, at, until, credit, kb: [cx0, cy0, z0, cx1, cy1, z1], band: true|false, dim}]
             band (default true): photo fills the top band (0..band_h) and fades into the screen; false: full bleed
@@ -25,6 +26,7 @@ from common import *
 UP, DOWN = "#2BD67B", "#F0524F"
 GRID = "#1C2A44"; AXIS = "#8FA3C0"; SCREEN = (34, 20, 10)   # BGR near-black navy trading screen
 GOLDL = "#FFD23F"
+CLAIM = "#FF9F1C"   # rows with "claim": true: dashed orange line, tag shows the ticker only (e.g. "THEY SAY")
 
 
 def _band(im, cx, cy, z, bh):
@@ -147,7 +149,8 @@ def run(S):
             ra = ca * min(1.0, zoom(t) * 1.5) * u
             if ra <= 0.01: continue
             y = Yv(r["value"], g); xe = x0 + (x1 - x0) * u
-            cv.line([(x0, y), (xe, y)], DOWN if r["value"] < 50 else SKY, 4, ra)
+            if r.get("claim"): cv.line([(x0, y), (xe, y)], CLAIM, 5, ra, dash=[18, 12])
+            else: cv.line([(x0, y), (xe, y)], DOWN if r["value"] < 50 else SKY, 4, ra)
             heads.append(dict(r=r, y=y, a=ra))
         # israel line on top
         cv.line([(x0, yi), (x1, yi)], UP, 9, ca); cv.circ(x1, yi, 12, UP, ca)
@@ -161,9 +164,9 @@ def run(S):
             ys = [min(max(y, yu + 60), 1450) for y in ys]
         for h, ly in zip(heads, ys):
             r = h["r"]; hl = r.get("hl")
-            txt = f"{r['ticker']} {r['value']:.0f}"
+            txt = r["ticker"] if r.get("claim") else f"{r['ticker']} {r['value']:.0f}"
             if abs(ly - h["y"]) > 4: cv.line([(x1 + 6, h["y"]), (W - 210, ly)], UP if hl else DOWN, 2, 0.7 * h["a"])
-            tag(cv, txt, ly, UP if hl else (DOWN if r["value"] < 50 else SKY), h["a"], 44 if hl else 40)
+            tag(cv, txt, ly, UP if hl else (CLAIM if r.get("claim") else (DOWN if r["value"] < 50 else SKY)), h["a"], 44 if hl else 40)
             if r.get("flag"): WG.flag(cv, r["flag"], W - 30 - cv.tw(txt, 44 if hl else 40) - 60, ly, 44, h["a"])
         # "gap" bracket in the zoomed view
         ba = ca * (1 - z) * (1 - seg(t, BL[0]["t0"] - 0.2, BL[0]["t0"] + 0.2)) if BL else 0

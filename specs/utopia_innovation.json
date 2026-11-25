@@ -1,0 +1,307 @@
+{
+ "id": "utopia_innovation",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "Perfect innovation: *100.*|Israel: *52.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.3,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Fifty-two": "52",
+  "Fourteenth": "14th",
+  "a hundred and thirty-nine": "139",
+  "sixty-six": "66",
+  "thirteen": "13",
+  "twelve": "12",
+  "forty-four": "44",
+  "thirty-seven": "37",
+  "thirty-six": "36",
+  "thirty-five": "35",
+  "thirty.": "30.",
+  "twenty-nine": "29",
+  "twenty-five": "25",
+  "fourteen points": "14 points"
+ },
+ "lines": [
+  {
+   "say": "This is perfect innovation. Israel is here.",
+   "gap": 0.2
+  },
+  {
+   "say": "Fifty-two out of a hundred. Fourteenth of a hundred and thirty-nine countries.",
+   "gap": 0.12
+  },
+  {
+   "say": "What's in the gap? Nobody gets close. Switzerland is first, with sixty-six.",
+   "screen": "*No. 1:* Switzerland, 66",
+   "gap": 0.12
+  },
+  {
+   "say": "And thirteen countries beat Israel.",
+   "screen": "Israel *14th* of 139",
+   "gap": 0.15
+  },
+  {
+   "say": "Now zoom out. They say Israel builds nothing. It only destroys.",
+   "gap": 0.12
+  },
+  {
+   "say": "Building nothing looks like this: twelve, the bottom of the list.",
+   "screen": "*Last:* 11.9 out of 100",
+   "gap": 0.15
+  },
+  {
+   "say": "The Emirates, forty-four. Turkey, thirty-seven. Saudi Arabia, thirty-six. Qatar, thirty-five. Jordan, thirty. Iran, twenty-nine. Egypt, twenty-five.",
+   "screen": "Same scale. *The region.*",
+   "gap": 0.15,
+   "until": "L6e+0.3"
+  },
+  {
+   "say": "Nobody around us builds more.",
+   "gap": 0.15
+  },
+  {
+   "say": "One honest catch: Switzerland is still fourteen points ahead of us.",
+   "gap": 0.15
+  },
+  {
+   "say": "We're not perfect. We know it.",
+   "gap": 0.12
+  },
+  {
+   "say": "But builds nothing? We're closer to utopia than anyone around us."
+  }
+ ],
+ "data": {
+  "scale": {
+   "lo0": 40,
+   "hi": 104,
+   "lo1": 0,
+   "zoom_at": "L4:zoom",
+   "zoom_dur": 1.8,
+   "back_at": "L10",
+   "back_dur": 1.4
+  },
+  "utopia": {
+   "value": 100,
+   "label": "UTOPIA",
+   "note": "= a perfect score on the|Global Innovation Index"
+  },
+  "israel": {
+   "value": 52.3,
+   "ticker": "ISR",
+   "flag": "IL",
+   "map": true
+  },
+  "blocks": [
+   {
+    "at": "L2:switzerland",
+    "label": "No. 1: Switzerland",
+    "value": "66"
+   },
+   {
+    "at": "L3:thirteen",
+    "label": "World rank",
+    "value": "14th of 139"
+   }
+  ],
+  "rows": [
+   {
+    "at": "L5:nothing",
+    "ticker": "THEY SAY",
+    "value": 11.9,
+    "claim": true
+   },
+   {
+    "at": "L6:emirates",
+    "ticker": "UAE",
+    "flag": "AE",
+    "value": 44.2
+   },
+   {
+    "at": "L6:turkey",
+    "ticker": "TUR",
+    "flag": "TR",
+    "value": 37.2
+   },
+   {
+    "at": "L6:saudi",
+    "ticker": "SAU",
+    "flag": "SA",
+    "value": 36.0
+   },
+   {
+    "at": "L6:qatar",
+    "ticker": "QAT",
+    "flag": "QA",
+    "value": 34.6
+   },
+   {
+    "at": "L6:jordan",
+    "ticker": "JOR",
+    "flag": "JO",
+    "value": 29.7
+   },
+   {
+    "at": "L6:iran",
+    "ticker": "IRN",
+    "flag": "IR",
+    "value": 28.5
+   },
+   {
+    "at": "L6:egypt",
+    "ticker": "EGY",
+    "flag": "EG",
+    "value": 24.7
+   }
+  ],
+  "bars": [
+   {
+    "at": "L7",
+    "until": "L8e+0.2",
+    "title": "Distance to *utopia*",
+    "sub": "100 minus the Global Innovation Index score, 2025",
+    "y": 600,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 48,
+      "hl": true,
+      "txt": "48"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 56,
+      "color": "#F0524F",
+      "txt": "56 (1.2x)"
+     },
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 63,
+      "color": "#F0524F",
+      "txt": "63 (1.3x)"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 64,
+      "color": "#F0524F",
+      "txt": "64 (1.3x)"
+     },
+     {
+      "label": "Qatar",
+      "flag": "QA",
+      "value": 65,
+      "color": "#F0524F",
+      "txt": "65 (1.4x)"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 70,
+      "color": "#F0524F",
+      "txt": "70 (1.5x)"
+     },
+     {
+      "label": "Iran",
+      "flag": "IR",
+      "value": 72,
+      "color": "#F0524F",
+      "txt": "72 (1.5x)"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 75,
+      "color": "#F0524F",
+      "txt": "75 (1.6x)"
+     }
+    ]
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/not_perfect_zoom/cranes.jpg",
+    "at": "L1",
+    "until": "L1e+0.1",
+    "credit": "Tel Aviv cranes, Chenspec, CC BY-SA 4.0",
+    "kb": [
+     0.64,
+     0.26,
+     1.7,
+     0.6,
+     0.22,
+     1.9
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+    "at": "L2",
+    "until": "L3e",
+    "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+    "at": "L9",
+    "until": "L10e",
+    "credit": "Knesset, Beit HaShalom, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "band": false,
+    "dim": 0.45
+   }
+  ],
+  "hook_y": 300,
+  "title_y": 330,
+  "blocks_until": "L10"
+ },
+ "sources": [
+  {
+   "label": "WIPO, Global Innovation Index",
+   "year": 2025,
+   "at": "L1",
+   "until": "L8e"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "y": 1030,
+  "balance": "Not perfect. But we *build* more than any neighbour.",
+  "cta": "Send this to a *critic*"
+ },
+ "caption_en": "Perfect innovation: 100. Israel: 52, 14th of 139 countries (WIPO Global Innovation Index 2025).\n\nWhat's in the gap? Nobody is close to 100: Switzerland is 1st with 66, and 13 countries beat Israel.\n\nZoom out, same scale: 🇮🇱 Israel 52, 🇦🇪 UAE 44, 🇹🇷 Turkey 37, 🇸🇦 Saudi Arabia 36, 🇶🇦 Qatar 35, 🇯🇴 Jordan 30, 🇮🇷 Iran 29, 🇪🇬 Egypt 25. The last country on the list: 11.9.\n\nHonest catch: Switzerland is still 14 points ahead of us.\n\nWe're not perfect. But \"builds nothing\"? We're closer to utopia than anyone around us.\n\nSend this to a critic.",
+ "caption_he": "חדשנות מושלמת: 100. ישראל: 52, מקום 14 מתוך 139 במדד החדשנות העולמי.\nבפער: אף אחד לא קרוב. שווייץ ראשונה עם 66, ו־13 מדינות לפנינו.\nזום אאוט: האמירויות 44, טורקיה 37, סעודיה 36, קטאר 35, ירדן 30, איראן 29, מצרים 25. המקום האחרון ברשימה: 11.9.\nובכנות: שווייץ עדיין 14 נקודות לפנינו.\nלא מושלמים. אבל \"לא בונים כלום\"? הכי קרובים לאוטופיה באזור.\n\nSource: WIPO Global Innovation Index 2025.",
+ "hashtags": [
+  "#Israel",
+  "#Innovation",
+  "#StartupNation"
+ ],
+ "cover": {
+  "t": 3.0,
+  "big": "52 / 100",
+  "text": "Perfect innovation|vs *Israel*"
+ }
+}

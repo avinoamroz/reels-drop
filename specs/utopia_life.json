@@ -1,0 +1,301 @@
+{
+ "id": "utopia_life",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "Longest life: *85.*|Israel: *83.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.3,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Eighty-three": "83",
+  "eighty-five": "85",
+  "twenty years": "20 years",
+  "two years": "2 years",
+  "seventy-three": "73",
+  "eighty-three.": "83.",
+  "eighty-two": "82",
+  "seventy-eight": "78",
+  "seventy-seven": "77",
+  "seventy-two": "72"
+ },
+ "lines": [
+  {
+   "say": "This is the longest life on Earth. Israel is here.",
+   "gap": 0.2
+  },
+  {
+   "say": "Eighty-three years. The top is Hong Kong: eighty-five.",
+   "gap": 0.12
+  },
+  {
+   "say": "What's in the gap? Arab citizens. They live as long as Jewish Israelis did twenty years ago.",
+   "screen": "*Arab citizens:* about 20 years behind",
+   "gap": 0.12
+  },
+  {
+   "say": "That's the whole gap: two years to the top.",
+   "screen": "*2.1 years* to the top",
+   "gap": 0.15
+  },
+  {
+   "say": "Now zoom out. They call Israel a war zone.",
+   "gap": 0.12
+  },
+  {
+   "say": "The world average is seventy-three.",
+   "screen": "*World average:* 73.3 years",
+   "gap": 0.15
+  },
+  {
+   "say": "The Emirates, eighty-three. Qatar, eighty-two. Lebanon and Jordan, seventy-eight. Iran, seventy-eight. Turkey, seventy-seven. Egypt, seventy-two.",
+   "screen": "Same scale. *The region.*",
+   "gap": 0.15,
+   "until": "L6e+0.3"
+  },
+  {
+   "say": "Nobody around us lives longer.",
+   "gap": 0.15
+  },
+  {
+   "say": "One honest catch: the Emirates are only a few months behind.",
+   "gap": 0.15
+  },
+  {
+   "say": "We're not perfect. We know it.",
+   "gap": 0.12
+  },
+  {
+   "say": "But a war zone? We live longer than anyone around us."
+  }
+ ],
+ "data": {
+  "scale": {
+   "lo0": 78.5,
+   "hi": 86.5,
+   "lo1": 60,
+   "zoom_at": "L4:zoom",
+   "zoom_dur": 1.8,
+   "back_at": "L10",
+   "back_dur": 1.4
+  },
+  "utopia": {
+   "value": 85.3,
+   "label": "UTOPIA",
+   "note": "= the longest life on Earth:|Hong Kong, 85.3 years"
+  },
+  "israel": {
+   "value": 83.2,
+   "ticker": "ISR",
+   "flag": "IL",
+   "map": true
+  },
+  "blocks": [
+   {
+    "at": "L2:arab",
+    "label": "Arab citizens",
+    "value": "~20 yrs behind"
+   },
+   {
+    "at": "L3:two",
+    "label": "Gap to the top",
+    "value": "2.1 years"
+   }
+  ],
+  "rows": [
+   {
+    "at": "L5:world",
+    "ticker": "WORLD AVG",
+    "value": 73.3,
+    "claim": true
+   },
+   {
+    "at": "L6:emirates",
+    "ticker": "UAE",
+    "flag": "AE",
+    "value": 82.9
+   },
+   {
+    "at": "L6:qatar",
+    "ticker": "QAT",
+    "flag": "QA",
+    "value": 82.4
+   },
+   {
+    "at": "L6:lebanon",
+    "ticker": "LBN",
+    "flag": "LB",
+    "value": 77.8
+   },
+   {
+    "at": "L6:jordan",
+    "ticker": "JOR",
+    "flag": "JO",
+    "value": 77.8
+   },
+   {
+    "at": "L6:iran",
+    "ticker": "IRN",
+    "flag": "IR",
+    "value": 77.7
+   },
+   {
+    "at": "L6:turkey",
+    "ticker": "TUR",
+    "flag": "TR",
+    "value": 77.2
+   },
+   {
+    "at": "L6:egypt",
+    "ticker": "EGY",
+    "flag": "EG",
+    "value": 71.6
+   }
+  ],
+  "bars": [
+   {
+    "at": "L7",
+    "until": "L8e+0.2",
+    "title": "Years of life, *2023*",
+    "sub": "Life expectancy at birth, World Bank",
+    "y": 600,
+    "dec": 1,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 83.2,
+      "hl": true
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 82.9
+     },
+     {
+      "label": "Qatar",
+      "flag": "QA",
+      "value": 82.4
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 77.8
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 77.8
+     },
+     {
+      "label": "Iran",
+      "flag": "IR",
+      "value": 77.7
+     },
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 77.2
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 71.6
+     }
+    ]
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+    "at": "L1",
+    "until": "L1e+0.1",
+    "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/arabtown.jpg",
+    "at": "L2",
+    "until": "L3e",
+    "credit": "Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+    "at": "L9",
+    "until": "L10e",
+    "credit": "Knesset, Beit HaShalom, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "band": false,
+    "dim": 0.45
+   }
+  ],
+  "hook_y": 300,
+  "title_y": 330,
+  "blocks_until": "L10"
+ },
+ "sources": [
+  {
+   "label": "World Bank, World Development Indicators (life expectancy at birth)",
+   "year": 2023,
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "label": "Israel Democracy Institute, Arab Society in Israel yearbook",
+   "year": 2024,
+   "at": "L2",
+   "until": "L3e"
+  },
+  {
+   "label": "World Bank, World Development Indicators",
+   "year": 2023,
+   "at": "L5",
+   "until": "L8e"
+  }
+ ],
+ "end": {
+  "at": "L9",
+  "y": 1030,
+  "balance": "Not perfect. But *longer lives* than any neighbour.",
+  "cta": "Send this to a *critic*"
+ },
+ "caption_en": "The longest life on Earth: Hong Kong, 85.3 years. Israel: 83.2.\n\nWhat's in the gap?\n• Arab citizens: they now live as long as Jewish Israelis did about two decades earlier (Israel Democracy Institute, 2024).\n• The whole gap to the top: 2.1 years.\n\nZoom out (World Bank, life expectancy at birth, 2023): 🇮🇱 Israel 83.2, 🇦🇪 UAE 82.9, 🇶🇦 Qatar 82.4, 🇱🇧 Lebanon 77.8, 🇯🇴 Jordan 77.8, 🇮🇷 Iran 77.7, 🇹🇷 Turkey 77.2, 🇪🇬 Egypt 71.6. World average: 73.3.\n\nHonest catch: the UAE is only a few months behind.\n\nWe're not perfect. But a war zone? We live longer than anyone around us.\n\nSend this to a critic.",
+ "caption_he": "החיים הארוכים בעולם: הונג קונג, 85.3 שנים. ישראל: 83.2.\nבפער: האזרחים הערבים חיים היום כמו שיהודים חיו לפני כעשרים שנה. כל הפער לפסגה: שנתיים.\nזום אאוט: האמירויות 82.9, קטאר 82.4, לבנון וירדן 77.8, איראן 77.7, טורקיה 77.2, מצרים 71.6. ממוצע עולמי: 73.3.\nובכנות: האמירויות רק כמה חודשים מאחור.\nלא מושלמים. אבל אזור מלחמה? חיים יותר מכל השכנות.\n\nSources: World Bank WDI 2023; Israel Democracy Institute 2024.",
+ "hashtags": [
+  "#Israel",
+  "#LifeExpectancy",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 3.0,
+  "big": "83 years",
+  "text": "The longest life|vs *Israel*"
+ }
+}

@@ -1,0 +1,349 @@
+{
+ "id": "utopia_happiness",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "Perfect happiness: *100.*|Israel: *72.*",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "lead": 0.3,
+  "gap": 0.15
+ },
+ "subs_replace": {
+  "Seventy-two": "72",
+  "eighth": "8th",
+  "fourth": "4th",
+  "thirty-eight": "38",
+  "fifth": "5th",
+  "twenty twenty-four": "2024",
+  "fourteen": "14",
+  "sixty-eight": "68",
+  "sixty-five": "65",
+  "fifty-three": "53",
+  "fifty-two": "52",
+  "forty-five": "45",
+  "thirty-nine": "39",
+  "four points": "4 points"
+ },
+ "lines": [
+  {
+   "say": "This is a perfectly happy life. Israel is here.",
+   "gap": 0.2
+  },
+  {
+   "say": "Seventy-two out of a hundred. The eighth happiest country on Earth.",
+   "gap": 0.12
+  },
+  {
+   "say": "What's in the gap? Prices: fourth highest of thirty-eight rich countries.",
+   "screen": "*4th* highest prices of 38 OECD countries",
+   "gap": 0.12
+  },
+  {
+   "say": "Poverty: one in five Israelis.",
+   "screen": "*20.7%* of Israelis poor",
+   "gap": 0.12
+  },
+  {
+   "say": "And the war. Israel was fifth in twenty twenty-four. Now it's eighth.",
+   "screen": "*5th* in 2024, *8th* in 2026",
+   "gap": 0.15
+  },
+  {
+   "say": "Now zoom out. They think Israelis must be miserable.",
+   "gap": 0.12
+  },
+  {
+   "say": "Miserable looks like this: Afghanistan, last in the world, at fourteen.",
+   "screen": "*Last:* Afghanistan, 14",
+   "gap": 0.15
+  },
+  {
+   "say": "The Emirates and Saudi Arabia, sixty-eight. Kuwait, sixty-five. Turkey, fifty-three. Iran, fifty-two. Jordan, forty-five. Egypt, thirty-nine.",
+   "screen": "Same scale. *The region.*",
+   "gap": 0.15,
+   "until": "L7e+0.3"
+  },
+  {
+   "say": "Every neighbour is further from a happy life.",
+   "gap": 0.15
+  },
+  {
+   "say": "One honest catch: the Emirates and Saudi Arabia are only four points behind.",
+   "gap": 0.15
+  },
+  {
+   "say": "We're not perfect. We know it.",
+   "gap": 0.12
+  },
+  {
+   "say": "But miserable? We're closer to a happy life than anyone around us."
+  }
+ ],
+ "data": {
+  "scale": {
+   "lo0": 58,
+   "hi": 104,
+   "lo1": 0,
+   "zoom_at": "L5:zoom",
+   "zoom_dur": 1.8,
+   "back_at": "L11",
+   "back_dur": 1.4
+  },
+  "utopia": {
+   "value": 100,
+   "label": "UTOPIA",
+   "note": "= 'the best possible life',|World Happiness Report scale"
+  },
+  "israel": {
+   "value": 71.9,
+   "ticker": "ISR",
+   "flag": "IL",
+   "map": true
+  },
+  "blocks": [
+   {
+    "at": "L2:prices",
+    "label": "Prices",
+    "value": "4th of 38"
+   },
+   {
+    "at": "L3:poverty",
+    "label": "Poverty",
+    "value": "20.7%"
+   },
+   {
+    "at": "L4:war",
+    "label": "Since the war",
+    "value": "5th to 8th"
+   }
+  ],
+  "rows": [
+   {
+    "at": "L6:miserable",
+    "ticker": "THEY THINK",
+    "value": 14.5,
+    "claim": true
+   },
+   {
+    "at": "L7:emirates",
+    "ticker": "UAE",
+    "flag": "AE",
+    "value": 68.21
+   },
+   {
+    "at": "L7:saudi",
+    "ticker": "SAU",
+    "flag": "SA",
+    "value": 68.17
+   },
+   {
+    "at": "L7:kuwait",
+    "ticker": "KWT",
+    "flag": "KW",
+    "value": 65.43
+   },
+   {
+    "at": "L7:turkey",
+    "ticker": "TUR",
+    "flag": "TR",
+    "value": 53.0
+   },
+   {
+    "at": "L7:iran",
+    "ticker": "IRN",
+    "flag": "IR",
+    "value": 51.51
+   },
+   {
+    "at": "L7:jordan",
+    "ticker": "JOR",
+    "flag": "JO",
+    "value": 44.78
+   },
+   {
+    "at": "L7:egypt",
+    "ticker": "EGY",
+    "flag": "EG",
+    "value": 38.62
+   }
+  ],
+  "bars": [
+   {
+    "at": "L8",
+    "until": "L9e+0.2",
+    "title": "Distance to *utopia*",
+    "sub": "100 minus the happiness score (x10), 2026",
+    "y": 600,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 28,
+      "hl": true,
+      "txt": "28"
+     },
+     {
+      "label": "UAE",
+      "flag": "AE",
+      "value": 32,
+      "color": "#F0524F",
+      "txt": "32 (1.1x)"
+     },
+     {
+      "label": "Saudi Arabia",
+      "flag": "SA",
+      "value": 32,
+      "color": "#F0524F",
+      "txt": "32 (1.1x)"
+     },
+     {
+      "label": "Kuwait",
+      "flag": "KW",
+      "value": 35,
+      "color": "#F0524F",
+      "txt": "35 (1.2x)"
+     },
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 47,
+      "color": "#F0524F",
+      "txt": "47 (1.7x)"
+     },
+     {
+      "label": "Iran",
+      "flag": "IR",
+      "value": 48,
+      "color": "#F0524F",
+      "txt": "48 (1.7x)"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 55,
+      "color": "#F0524F",
+      "txt": "55 (2.0x)"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 61,
+      "color": "#F0524F",
+      "txt": "61 (2.2x)"
+     }
+    ]
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+    "at": "L1",
+    "until": "L1e+0.1",
+    "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/cranes.jpg",
+    "at": "L2",
+    "until": "L2e+0.1",
+    "credit": "Tel Aviv cranes, Chenspec, CC BY-SA 4.0",
+    "kb": [
+     0.64,
+     0.26,
+     1.7,
+     0.6,
+     0.22,
+     1.9
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/arabtown.jpg",
+    "at": "L3",
+    "until": "L4e",
+    "credit": "Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ]
+   },
+   {
+    "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+    "at": "L10",
+    "until": "L11e",
+    "credit": "Knesset, Beit HaShalom, Wikimedia Commons",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.15
+    ],
+    "band": false,
+    "dim": 0.45
+   }
+  ],
+  "hook_y": 300,
+  "title_y": 330,
+  "blocks_until": "L11"
+ },
+ "sources": [
+  {
+   "label": "World Happiness Report (Gallup World Poll, 2023 to 2025)",
+   "year": 2026,
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "label": "OECD Economic Survey of Israel",
+   "year": 2025,
+   "at": "L2",
+   "until": "L2e"
+  },
+  {
+   "label": "National Insurance Institute, Poverty Report",
+   "year": 2025,
+   "at": "L3",
+   "until": "L3e"
+  },
+  {
+   "label": "World Happiness Report 2024 and 2026",
+   "year": 2026,
+   "at": "L4",
+   "until": "L9e"
+  }
+ ],
+ "end": {
+  "at": "L10",
+  "y": 1030,
+  "balance": "Not perfect. But *happier* than any neighbour.",
+  "cta": "Send this to a *critic*"
+ },
+ "caption_en": "Perfect happiness: 100. Israel: 72.\n\nThe World Happiness Report 2026 asks people to rate their life from 0 (worst possible) to 10 (best possible). Israel: 7.19, 8th of 147 countries.\n\nWhat's in the gap?\n• Prices: 4th highest of the 38 OECD countries (OECD 2025).\n• Poverty: 20.7% of Israelis (National Insurance Institute).\n• The war: Israel was 5th in 2024, now 8th.\n\nZoom out, same scale (x10): 🇮🇱 Israel 72, 🇦🇪 UAE 68, 🇸🇦 Saudi Arabia 68, 🇰🇼 Kuwait 65, 🇹🇷 Turkey 53, 🇮🇷 Iran 52, 🇯🇴 Jordan 45, 🇪🇬 Egypt 39. Last in the world: Afghanistan, 14.\n\nHonest catch: the UAE and Saudi Arabia are only 4 points behind.\n\nWe're not perfect. But miserable? We're closer to a happy life than anyone around us.\n\nSend this to a critic.",
+ "caption_he": "אושר מושלם: 100. ישראל: 72, מקום 8 בעולם.\nבפער: יוקר מחיה (מקום 4 מתוך 38 במדינות ה־OECD), עוני (20.7%), והמלחמה: ב־2024 היינו במקום 5.\nזום אאוט: האמירויות וסעודיה 68, כווית 65, טורקיה 53, איראן 52, ירדן 45, מצרים 39. במקום האחרון: אפגניסטן, 14.\nובכנות: האמירויות וסעודיה רק 4 נקודות מאחור.\nלא מושלמים. אבל מסכנים? הכי קרובים לאושר באזור.\n\nSources: World Happiness Report 2026; OECD 2025; National Insurance Institute.",
+ "hashtags": [
+  "#Israel",
+  "#Happiness",
+  "#MiddleEast"
+ ],
+ "cover": {
+  "t": 3.0,
+  "big": "72 / 100",
+  "text": "Perfect happiness|vs *Israel*"
+ }
+}
