@@ -1,0 +1,147 @@
+{
+ "id": "surname_map",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*10* Jewish names|hiding a map",
+ "duration": 53.97,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/surname_map.mp4",
+  "cover": "covers/surname_map_cover.jpg",
+  "preview": "previews/surname_map_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/surname_map_0.jpg",
+  "1": "out/frames/surname_map_1.jpg",
+  "3": "out/frames/surname_map_3.jpg",
+  "last": "out/frames/surname_map_last.jpg"
+ },
+ "caption_en": "Your last name might be a town you've never visited. 🗺️\n\n10 Jewish surnames, 10 places:\nShapiro: Speyer, Germany (medieval name: Spira)\nOppenheimer: Oppenheim\nMintz: Mainz\nLandau: Landau\nHalpern: Heilbronn\nGinzburg: Günzburg\nHorowitz: Hořovice, Czech Republic\nPrager: Prague\nWiener: Vienna\nPosner: Poznań, Poland\n\n📜 Why towns? In 1787 a law of Emperor Joseph II of Austria required all Jews to adopt surnames, and many took the name of their home town.\n\n🕍 Some names are older codes: Katz = Kohen Tzedek, \"righteous priest\". Segal = Segan Leviyah, \"Levite deputy\". Both lead back to the priests and Levites of the Temple in Jerusalem.\n\nNot every Shapiro or Katz is Jewish, and family stories vary.\n\nWhere does your surname come from? Tell me in the comments.\n\nSources: Rabbi Yehuda Altein, \"10 Keys to Understanding Many Ashkenazi Surnames\", Chabad.org; Shapiro: Wikipedia, \"Shapiro\" (Spira, medieval name of Speyer); JewishGen Rav-SIG, rabbinical surnames from place names.\nPhotos (Wikimedia Commons): Judenhof, Speyer, Manuae (CC BY-SA 4.0); Hořovice, JiriMatejicek (CC BY-SA 3.0); Old New Synagogue, Prague, Yair Haklai (CC BY-SA 4.0); Stadttempel, Vienna, Dnalor 01 (CC BY-SA 3.0 AT); Oppenheim, Freak-Line-Community (CC BY-SA 4.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ייתכן ששם המשפחה שלכם הוא עיירה שמעולם לא ביקרתם בה. 🗺️\n\n10 שמות משפחה יהודיים, 10 מקומות:\nשפירא: שפייר, גרמניה (בימי הביניים: שפירא)\nאופנהיימר: אופנהיים\nמינץ: מיינץ\nלנדאו: לנדאו\nהלפרין: היילברון\nגינזבורג: גינצבורג\nהורוביץ: הורז'וביצה, צ'כיה\nפראגר: פראג\nוינר: וינה\nפוזנר: פוזנן, פולין\n\n📜 למה עיירות? ב-1787 חוק של הקיסר יוזף השני חייב את כל היהודים באוסטריה לאמץ שמות משפחה, ורבים בחרו בשם עיר המוצא.\n\n🕍 יש שמות שהם קוד עתיק יותר: כ\"ץ = כהן צדק. סג\"ל = סגן לוויה. שניהם מובילים אל הכהנים והלוויים בבית המקדש בירושלים.\n\nלא כל שפירא או כ\"ץ יהודי, וסיפורי משפחה משתנים.\n\nמאיפה שם המשפחה שלכם? כתבו לי בתגובות.",
+ "hashtags": [
+  "#Jewish",
+  "#JewishHistory",
+  "#Surnames"
+ ],
+ "sources": [
+  {
+   "label": "Chabad.org, Y. Altein, Ashkenazi surnames; Shapiro: Wikipedia",
+   "year": 2026,
+   "at": "L1",
+   "until": "L6"
+  },
+  {
+   "label": "Chabad.org, Y. Altein: Joseph II surname law, 1787",
+   "year": 2026,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Chabad.org, Y. Altein: Katz, Segal",
+   "year": 2026,
+   "at": "L9",
+   "until": "L12"
+  }
+ ],
+ "transcript": {
+  "score": 0.901,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Ten Jewish surnames. Ten towns on a map.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Shapiro comes from Speyer, in Germany. In the Middle Ages, it was called Spira.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Oppenheimer: Oppenheim. Mintz: Mainz. Landau: Landau.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Halpern: Heilbronn. Ginzburg: Gunzburg.",
+    "score": 0.25,
+    "flag": "MISS"
+   },
+   {
+    "line": "Horowitz: Horovice, in today's Czech Republic.",
+    "score": 0.667,
+    "flag": "MISS"
+   },
+   {
+    "line": "Prager: Prague. Wiener: Vienna. Posner: Poznan, Poland.",
+    "score": 0.571,
+    "flag": "MISS"
+   },
+   {
+    "line": "Why towns? In 1787, Austria's emperor ordered every Jew to take a surname.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "Many simply took the name of the town they came from.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But some names hide something much older.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Katz: Hebrew initials for righteous priest.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Segal: Hebrew initials for Levite deputy.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "Priests and Levites served in the Temple in Jerusalem.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Not every Shapiro or Katz is Jewish, and family stories vary.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Where does your surname come from? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "So, what's hiding in your name?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Ten Jewish surnames, ten towns on a map. Shapiro comes from Speyer in Germany. In the Middle Ages it was called Spira, Oppenheimer, Oppenheim, Minz, Mainz, Landau, Halpern, Heilbron, Heilbron, Günzburg, Horovitz, Horovitz, and today's Czech Republic, Prager, Prag, Wiener, Vienna, Hosnan, Polsnan, Poland, White towns. In 1787, Austria's emperor ordered every Jew to take a surname. Many simply took the name of the town they came from, but some names hide something much older. Cats. Hebrew initials for Righteous Priest. Sigal. Hebrew initials for Levite Deputy. Priests and Levites served in the temple in Jerusalem. Not every Shapiro or Katz is Jewish. And family stories vary. Where does your surname come from? Tell me in the comments. If you like Israel facts, follow Noam Ra's for more. So what's hiding in your name?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 53.98,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 77.4
+}
