@@ -1,0 +1,152 @@
+{
+ "id": "us_aid_share",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "US aid: *21%*|of Israel's economy?",
+ "duration": 69.93,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/us_aid_share.mp4",
+  "cover": "covers/us_aid_share_cover.jpg",
+  "preview": "previews/us_aid_share_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/us_aid_share_0.jpg",
+  "1": "out/frames/us_aid_share_1.jpg",
+  "3": "out/frames/us_aid_share_3.jpg",
+  "last": "out/frames/us_aid_share_last.jpg"
+ },
+ "caption_en": "The slogan says one thing. The clock says another. 🇺🇸🇮🇱\n\nUS aid as a share of Israel's whole economy (GDP):\n1979: 21.2% (the year of the peace treaty with Egypt)\n1985: 11.6%\n1990: 4.9%\n2000: 2.8%\n2023: 0.64%\nThe aid stayed around $3 billion a year. Israel's economy grew.\n\n🌍 Neighbours, 2023, US aid as % of their GDP, lowest first:\nTurkey 0.02%, Iraq 0.16%, Egypt 0.39%, Israel 0.64%, Judea and Samaria (West Bank) and Gaza 1.58%, Lebanon 2.67%, Jordan 3.01%, Syria: no GDP data.\n\n⚖️ The honest part: per person, Israel still gets the most: $336 per person in 2023 (Jordan $147, Lebanon $93, Judea and Samaria (West Bank) and Gaza $57, Syria $32, Egypt $13, Iraq $9, Turkey $2).\nAnd in 2024, after October 7, war aid lifted the total to about $12.5 billion, about 2.3% of GDP. Most US aid to Israel is military aid (Foreign Military Financing), spent on American made weapons.\n\nGift, or investment? Tell me in the comments.\n\nSources: USAID Foreign Aid Explorer, US foreign aid obligations by country and fiscal year (current dollars, 2024 data release); World Bank, GDP (current US$) and population (2024); Congressional Research Service, Jeremy M. Sharp, \"U.S. Foreign Aid to Israel\" (2025), via Jewish Virtual Library, for the 2024 total.\nPhotos (Wikimedia Commons): US Capitol, Beethoven (CC BY-SA 4.0); Tel Aviv skyline, Yair Haklai (CC BY-SA 4.0); Iron Dome, IDF Spokesperson's Unit (CC BY-SA 3.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "הסיסמה אומרת דבר אחד. השעון אומר דבר אחר. 🇺🇸🇮🇱\n\nהסיוע האמריקאי כחלק מכל הכלכלה הישראלית (תמ\"ג):\n1979: 21.2% (שנת הסכם השלום עם מצרים)\n1985: 11.6%\n1990: 4.9%\n2000: 2.8%\n2023: 0.64%\nהסיוע נשאר בערך 3 מיליארד דולר בשנה. הכלכלה הישראלית גדלה.\n\n🌍 השכנות ב-2023, סיוע אמריקאי כאחוז מהתמ\"ג, מהנמוך לגבוה:\nטורקיה 0.02%, עיראק 0.16%, מצרים 0.39%, ישראל 0.64%, יהודה ושומרון (הגדה המערבית) ועזה 1.58%, לבנון 2.67%, ירדן 3.01%, סוריה: אין נתוני תמ\"ג.\n\n⚖️ החלק הכן: לנפש, ישראל עדיין מקבלת הכי הרבה: 336 דולר לאדם ב-2023.\nוב-2024, אחרי 7 באוקטובר, סיוע המלחמה העלה את הסך לכ-12.5 מיליארד דולר, כ-2.3% מהתמ\"ג. רוב הסיוע הוא סיוע צבאי שמוצא על נשק אמריקאי.\n\nמתנה או השקעה? כתבו לי בתגובות.",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#USAid"
+ ],
+ "sources": [
+  {
+   "label": "USAID Foreign Aid Explorer (obligations); World Bank GDP",
+   "year": 2024,
+   "at": "L0",
+   "until": "L11"
+  },
+  {
+   "label": "Population: World Bank",
+   "year": 2024,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "CRS, J. Sharp, U.S. Foreign Aid to Israel",
+   "year": 2025,
+   "at": "L12",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.98,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "1979: American aid equals 21 percent of Israel's economy.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's the year of the peace treaty with Egypt.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Today, many say America pays for Israel. So let's run the clock.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1985: 11.6 percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1990: under 5.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "2000: under 3. The aid stays near 3 billion dollars a year.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "But Israel's economy keeps growing.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "2023: 0.64 percent. Under one percent.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now the neighbours in 2023, lowest first.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey, almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Judea and Samaria, also called the West Bank, and Gaza: 1.6. Lebanon 2.7. Jordan 3.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The honest part: per person, Israel still gets the most. 336 dollars each.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And in 2024, after October 7, war aid jumped to 12.5 billion dollars.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "Most of it is military aid, spent on American made weapons.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Gift, or investment? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "So, does America pay for Israel?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "In 1979, American aid equals 21% of Israel's economy. That's the year of the peace treaty with Egypt. Today, many say America pays for Israel. So let's run the clock. 1985, 11.6%, 1990, under 5, 2000, under 3. The aid stays near $3 billion a year, but Israel's economy keeps growing. 2023, 0.64%, under 1%. Now the neighbors in 2023 lowest first. Turkey almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6. Judea and Samaria also called the West Bank and Gaza 1.6. Lebanon 2.7. Jordan 3. The honest part. Per person, Israel still gets the most. 336 dollars each. And in 2024, after October 7, War aid jumped to $12.5 billion. Most of it is military aid, spent on American-made weapons. Gift or investment? Tell me in the comments. If you like Israel facts, follow Noam Ross for more. So, does America pay for Israel?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 69.94,
+ "opener": null,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.1
+ },
+ "lint_warnings": [],
+ "render_s": 159.6
+}
