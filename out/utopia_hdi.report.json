@@ -1,6 +1,149 @@
 {
-  "id": "utopia_hdi",
-  "status": "FAILED",
-  "run": "45694443832",
-  "log": "[20:24:14] pron [en]: This is a perfect quality of life. Israel is here. Ninety-two out of a hundred, on the UN's Human Development Index. Health, education, income. What's in the gap? Poverty: one in five Israelis. Prices: fourth highest of thirty-eight rich countries. And Israel is only twenty-seventh. Iceland is first. Now zoom out. They picture Israel as a poor, backward place. Poor and backward looks like this: ar\nvoice ok: Cartesia sonic-3 (60.7 s, 120 words, 1 run(s), pronunciation pass) voice/utopia_hdi_vo.wav\n[20:24:14] voice: cached voice (script unchanged)\nbad anchor L4:twenty-seventh (use 12.5, L3, L3e, L3:word, L3:word#2, L3+0.4, END-2)\n"
+ "id": "utopia_hdi",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "Perfect life quality: *100.*|Israel: *92.*",
+ "duration": 53.0,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/utopia_hdi.mp4",
+  "cover": "covers/utopia_hdi_cover.jpg",
+  "preview": "previews/utopia_hdi_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/utopia_hdi_0.jpg",
+  "1": "out/frames/utopia_hdi_1.jpg",
+  "3": "out/frames/utopia_hdi_3.jpg",
+  "last": "out/frames/utopia_hdi_last.jpg"
+ },
+ "caption_en": "Perfect quality of life: 100. Israel: 92.\n\nThe UN's Human Development Index combines health, education and income. Israel: 0.919, 27th in the world (Human Development Report 2025, 2023 data).\n\nWhat's in the gap?\n• Poverty: 20.7% of Israelis (National Insurance Institute).\n• Prices: 4th highest of the 38 OECD countries (OECD 2025).\n• Rank: 27th. Iceland is 1st (0.972).\n\nZoom out, same scale (x100): 🇦🇪 UAE 94, 🇮🇱 Israel 92, 🇸🇦 Saudi Arabia 90, 🇹🇷 Turkey 85, 🇮🇷 Iran 80, 🇯🇴 Jordan 75, 🇪🇬 Egypt 75, 🇱🇧 Lebanon 75. The UN's average for medium development: 66.\n\nHonest catch: the UAE beats Israel, 15th in the world.\n\nWe're not perfect. But poor and backward? Not even close.\n\nSend this to a critic.",
+ "caption_he": "איכות חיים מושלמת: 100. ישראל: 92, מקום 27 בעולם במדד הפיתוח האנושי של האו\"ם.\nבפער: עוני (20.7%), יוקר מחיה (מקום 4 מתוך 38 במדינות ה־OECD), ואיסלנד במקום הראשון.\nזום אאוט: האמירויות 94, סעודיה 90, טורקיה 85, איראן 80, ירדן, מצרים ולבנון 75.\nובכנות: האמירויות לפנינו, מקום 15 בעולם.\nלא מושלמים. אבל ענייה ונחשלת? רחוק מזה.\n\nSources: UNDP Human Development Report 2025; OECD 2025; National Insurance Institute.",
+ "hashtags": [
+  "#Israel",
+  "#MiddleEast",
+  "#HumanDevelopment"
+ ],
+ "sources": [
+  {
+   "label": "UNDP, Human Development Report (2023 data)",
+   "year": 2025,
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "label": "National Insurance Institute, Poverty Report",
+   "year": 2025,
+   "at": "L2",
+   "until": "L2e"
+  },
+  {
+   "label": "OECD Economic Survey of Israel",
+   "year": 2025,
+   "at": "L3",
+   "until": "L3e"
+  },
+  {
+   "label": "UNDP, Human Development Report (2023 data)",
+   "year": 2025,
+   "at": "L4",
+   "until": "L9e"
+  }
+ ],
+ "transcript": {
+  "score": 0.969,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "This is a perfect quality of life. Israel is here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Ninety-two out of a hundred, on the UN's Human Development Index. Health, education, income.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "What's in the gap? Poverty: one in five Israelis.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Prices: fourth highest of thirty-eight rich countries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And Israel is only twenty-seventh. Iceland is first.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "Now zoom out. They picture Israel as a poor, backward place.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Poor and backward looks like this: around sixty-six, the UN's average for medium development.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Emirates, ninety-four. Saudi Arabia, ninety. Turkey, eighty-five. Iran, eighty. Jordan and Egypt, seventy-five. Lebanon, seventy-five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Only one neighbour is closer to utopia.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "One honest catch: the Emirates beat us. Fifteenth in the world.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "We're not perfect. We know it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But poor and backward? Not even close.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "This is a perfect quality of life. Israel is here. 92 out of 100 on the UN's Human Development Index. Health, Education, Income. What's in the gap? Poverty. One in five Israelis. Prices. Fourth highest of 38 rich countries. And Israel is only 27. Iceland is first. Now zoom out. They picture Israel as a poor, backward place. Poor and backward looks like this. around 66. The UN's average for medium development. The Emirates 94. Saudi Arabia 90. Turkey 85. Iran 80. Jordan and Egypt 75. Lebanon 75. Only one neighbor is closer to utopia. One honest catch. The Emirates beat us. 15th in the world. We're not perfect. We know it. But poor and backward? Not even close.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "photos": [
+  {
+   "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+   "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/arabtown.jpg",
+   "credit": "Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/cranes.jpg",
+   "credit": "Tel Aviv cranes, Chenspec, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+   "credit": "Knesset, Beit HaShalom, Wikimedia Commons"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 77.6
 }
