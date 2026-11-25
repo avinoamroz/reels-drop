@@ -1,0 +1,532 @@
+[
+{
+"word": "This",
+"start": 0.093,
+"end": 0.449
+},
+{
+"word": "is",
+"start": 0.48,
+"end": 0.728
+},
+{
+"word": "the",
+"start": 0.728,
+"end": 0.82
+},
+{
+"word": "longest",
+"start": 0.82,
+"end": 1.331
+},
+{
+"word": "life",
+"start": 1.331,
+"end": 1.687
+},
+{
+"word": "on",
+"start": 1.687,
+"end": 1.92
+},
+{
+"word": "Earth.",
+"start": 1.92,
+"end": 2.322
+},
+{
+"word": "Israel",
+"start": 2.848,
+"end": 3.282
+},
+{
+"word": "is",
+"start": 3.282,
+"end": 3.421
+},
+{
+"word": "here.",
+"start": 3.421,
+"end": 3.808
+},
+{
+"word": "Eighty-three",
+"start": 4.69,
+"end": 5.17
+},
+{
+"word": "years.",
+"start": 5.17,
+"end": 5.681
+},
+{
+"word": "The",
+"start": 6.455,
+"end": 6.61
+},
+{
+"word": "top",
+"start": 6.61,
+"end": 6.966
+},
+{
+"word": "is",
+"start": 6.966,
+"end": 7.152
+},
+{
+"word": "Hong",
+"start": 7.152,
+"end": 7.353
+},
+{
+"word": "Kong:",
+"start": 7.353,
+"end": 7.709
+},
+{
+"word": "eighty-five.",
+"start": 8.019,
+"end": 8.731
+},
+{
+"word": "What's",
+"start": 9.629,
+"end": 9.938
+},
+{
+"word": "in",
+"start": 10.0,
+"end": 10.232
+},
+{
+"word": "the",
+"start": 10.232,
+"end": 10.356
+},
+{
+"word": "gap?",
+"start": 10.356,
+"end": 10.805
+},
+{
+"word": "Arab",
+"start": 11.378,
+"end": 11.672
+},
+{
+"word": "citizens.",
+"start": 11.672,
+"end": 12.368
+},
+{
+"word": "They",
+"start": 13.081,
+"end": 13.297
+},
+{
+"word": "live",
+"start": 13.297,
+"end": 13.56
+},
+{
+"word": "as",
+"start": 13.56,
+"end": 13.777
+},
+{
+"word": "long",
+"start": 13.777,
+"end": 13.932
+},
+{
+"word": "as",
+"start": 13.932,
+"end": 14.102
+},
+{
+"word": "Jewish",
+"start": 14.102,
+"end": 14.443
+},
+{
+"word": "Israelis",
+"start": 14.443,
+"end": 14.923
+},
+{
+"word": "did",
+"start": 14.923,
+"end": 15.093
+},
+{
+"word": "twenty",
+"start": 15.093,
+"end": 15.403
+},
+{
+"word": "years",
+"start": 15.403,
+"end": 15.604
+},
+{
+"word": "ago.",
+"start": 15.604,
+"end": 15.851
+},
+{
+"word": "That's",
+"start": 15.851,
+"end": 16.084
+},
+{
+"word": "the",
+"start": 16.084,
+"end": 16.177
+},
+{
+"word": "whole",
+"start": 16.177,
+"end": 16.331
+},
+{
+"word": "gap:",
+"start": 16.331,
+"end": 16.656
+},
+{
+"word": "two",
+"start": 17.074,
+"end": 17.26
+},
+{
+"word": "years",
+"start": 17.26,
+"end": 17.523
+},
+{
+"word": "to",
+"start": 17.523,
+"end": 17.616
+},
+{
+"word": "the",
+"start": 17.616,
+"end": 17.678
+},
+{
+"word": "top.",
+"start": 17.678,
+"end": 18.065
+},
+{
+"word": "Now",
+"start": 18.576,
+"end": 18.7
+},
+{
+"word": "zoom",
+"start": 18.7,
+"end": 18.963
+},
+{
+"word": "out.",
+"start": 18.963,
+"end": 19.242
+},
+{
+"word": "They",
+"start": 19.412,
+"end": 19.567
+},
+{
+"word": "call",
+"start": 19.567,
+"end": 19.799
+},
+{
+"word": "Israel",
+"start": 19.799,
+"end": 20.17
+},
+{
+"word": "a",
+"start": 20.17,
+"end": 20.232
+},
+{
+"word": "war",
+"start": 20.232,
+"end": 20.434
+},
+{
+"word": "zone.",
+"start": 20.434,
+"end": 20.743
+},
+{
+"word": "The",
+"start": 21.486,
+"end": 21.641
+},
+{
+"word": "world",
+"start": 21.641,
+"end": 21.935
+},
+{
+"word": "average",
+"start": 21.935,
+"end": 22.322
+},
+{
+"word": "is",
+"start": 22.353,
+"end": 22.601
+},
+{
+"word": "seventy-three.",
+"start": 22.601,
+"end": 23.282
+},
+{
+"word": "The",
+"start": 23.917,
+"end": 24.102
+},
+{
+"word": "Emirates,",
+"start": 24.102,
+"end": 24.644
+},
+{
+"word": "eighty-three.",
+"start": 24.938,
+"end": 25.573
+},
+{
+"word": "Qatar,",
+"start": 26.703,
+"end": 27.245
+},
+{
+"word": "eighty-two.",
+"start": 27.338,
+"end": 27.879
+},
+{
+"word": "Lebanon",
+"start": 28.499,
+"end": 29.071
+},
+{
+"word": "and",
+"start": 29.071,
+"end": 29.226
+},
+{
+"word": "Jordan,",
+"start": 29.226,
+"end": 29.644
+},
+{
+"word": "seventy-eight.",
+"start": 29.892,
+"end": 30.697
+},
+{
+"word": "Iran,",
+"start": 31.502,
+"end": 31.951
+},
+{
+"word": "seventy-eight.",
+"start": 32.462,
+"end": 33.251
+},
+{
+"word": "Turkey,",
+"start": 33.963,
+"end": 34.443
+},
+{
+"word": "seventy-seven.",
+"start": 35.109,
+"end": 35.852
+},
+{
+"word": "Egypt,",
+"start": 37.059,
+"end": 37.446
+},
+{
+"word": "seventy-two.",
+"start": 37.508,
+"end": 38.158
+},
+{
+"word": "Nobody",
+"start": 38.979,
+"end": 39.335
+},
+{
+"word": "around",
+"start": 39.335,
+"end": 39.582
+},
+{
+"word": "us",
+"start": 39.582,
+"end": 39.691
+},
+{
+"word": "lives",
+"start": 39.691,
+"end": 39.969
+},
+{
+"word": "longer.",
+"start": 39.969,
+"end": 40.325
+},
+{
+"word": "One",
+"start": 40.418,
+"end": 40.712
+},
+{
+"word": "honest",
+"start": 40.712,
+"end": 41.022
+},
+{
+"word": "catch:",
+"start": 41.022,
+"end": 41.502
+},
+{
+"word": "the",
+"start": 41.579,
+"end": 41.734
+},
+{
+"word": "Emirates",
+"start": 41.734,
+"end": 42.028
+},
+{
+"word": "are",
+"start": 42.028,
+"end": 42.121
+},
+{
+"word": "only",
+"start": 42.121,
+"end": 42.338
+},
+{
+"word": "a",
+"start": 42.338,
+"end": 42.4
+},
+{
+"word": "few",
+"start": 42.4,
+"end": 42.601
+},
+{
+"word": "months",
+"start": 42.601,
+"end": 42.88
+},
+{
+"word": "behind.",
+"start": 42.88,
+"end": 43.328
+},
+{
+"word": "We're",
+"start": 43.746,
+"end": 43.901
+},
+{
+"word": "not",
+"start": 43.901,
+"end": 44.071
+},
+{
+"word": "perfect.",
+"start": 44.071,
+"end": 44.551
+},
+{
+"word": "We",
+"start": 45.248,
+"end": 45.403
+},
+{
+"word": "know",
+"start": 45.403,
+"end": 45.542
+},
+{
+"word": "it.",
+"start": 45.542,
+"end": 45.697
+},
+{
+"word": "But",
+"start": 46.78,
+"end": 46.92
+},
+{
+"word": "a",
+"start": 46.92,
+"end": 46.982
+},
+{
+"word": "war",
+"start": 46.982,
+"end": 47.167
+},
+{
+"word": "zone?",
+"start": 47.167,
+"end": 47.4
+},
+{
+"word": "We",
+"start": 48.189,
+"end": 48.328
+},
+{
+"word": "live",
+"start": 48.328,
+"end": 48.514
+},
+{
+"word": "longer",
+"start": 48.514,
+"end": 48.777
+},
+{
+"word": "than",
+"start": 48.777,
+"end": 48.932
+},
+{
+"word": "anyone",
+"start": 48.932,
+"end": 49.288
+},
+{
+"word": "around",
+"start": 49.288,
+"end": 49.567
+},
+{
+"word": "us.",
+"start": 49.567,
+"end": 49.861
+}
+]

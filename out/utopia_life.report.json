@@ -1,0 +1,134 @@
+{
+ "id": "utopia_life",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "Longest life: *85.*|Israel: *83.*",
+ "duration": 43.6,
+ "audio": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/utopia_life.mp4",
+  "cover": "covers/utopia_life_cover.jpg",
+  "preview": "previews/utopia_life_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/utopia_life_0.jpg",
+  "1": "out/frames/utopia_life_1.jpg",
+  "3": "out/frames/utopia_life_3.jpg",
+  "last": "out/frames/utopia_life_last.jpg"
+ },
+ "caption_en": "The longest life on Earth: Hong Kong, 85.3 years. Israel: 83.2.\n\nWhat's in the gap?\n• Arab citizens: they now live as long as Jewish Israelis did about two decades earlier (Israel Democracy Institute, 2024).\n• The whole gap to the top: 2.1 years.\n\nZoom out (World Bank, life expectancy at birth, 2023): 🇮🇱 Israel 83.2, 🇦🇪 UAE 82.9, 🇶🇦 Qatar 82.4, 🇱🇧 Lebanon 77.8, 🇯🇴 Jordan 77.8, 🇮🇷 Iran 77.7, 🇹🇷 Turkey 77.2, 🇪🇬 Egypt 71.6. World average: 73.3.\n\nHonest catch: the UAE is only a few months behind.\n\nWe're not perfect. But a war zone? We live longer than anyone around us.\n\nSend this to a critic.",
+ "caption_he": "החיים הארוכים בעולם: הונג קונג, 85.3 שנים. ישראל: 83.2.\nבפער: האזרחים הערבים חיים היום כמו שיהודים חיו לפני כעשרים שנה. כל הפער לפסגה: שנתיים.\nזום אאוט: האמירויות 82.9, קטאר 82.4, לבנון וירדן 77.8, איראן 77.7, טורקיה 77.2, מצרים 71.6. ממוצע עולמי: 73.3.\nובכנות: האמירויות רק כמה חודשים מאחור.\nלא מושלמים. אבל אזור מלחמה? חיים יותר מכל השכנות.\n\nSources: World Bank WDI 2023; Israel Democracy Institute 2024.",
+ "hashtags": [
+  "#Israel",
+  "#LifeExpectancy",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "World Bank, World Development Indicators (life expectancy at birth)",
+   "year": 2023,
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "label": "Israel Democracy Institute, Arab Society in Israel yearbook",
+   "year": 2024,
+   "at": "L2",
+   "until": "L3e"
+  },
+  {
+   "label": "World Bank, World Development Indicators",
+   "year": 2023,
+   "at": "L5",
+   "until": "L8e"
+  }
+ ],
+ "transcript": {
+  "score": 0.991,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "This is the longest life on Earth. Israel is here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Eighty-three years. The top is Hong Kong: eighty-five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "What's in the gap? Arab citizens. They live as long as Jewish Israelis did twenty years ago.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "That's the whole gap: two years to the top.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now zoom out. They call Israel a war zone.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The world average is seventy-three.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Emirates, eighty-three. Qatar, eighty-two. Lebanon and Jordan, seventy-eight. Iran, seventy-eight. Turkey, seventy-seven. Egypt, seventy-two.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nobody around us lives longer.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One honest catch: the Emirates are only a few months behind.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "We're not perfect. We know it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But a war zone? We live longer than anyone around us.",
+    "score": 0.909,
+    "flag": "ok"
+   }
+  ],
+  "heard": "This is the longest life on earth. Israel is here. 83 years. The top is Hong Kong. 85. What's in the gap? Arab citizens. They live as long as Jewish Israelis did 20 years ago. That's the whole gap. Two years to the top. Now zoom out. They call Israel a war zone. The world average is 73. The Emirates, 83. Qatar, 82. Lebanon and Jordan, 78. Iran, 78. Turkey 77 Egypt 72 Nobody around us lives longer One honest catch The Emirates are only a few months behind We're not perfect We know it But a warzone We live longer than anyone around us",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -2.0
+ },
+ "photos": [
+  {
+   "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+   "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/arabtown.jpg",
+   "credit": "Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+   "credit": "Knesset, Beit HaShalom, Wikimedia Commons"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 52.0
+}
