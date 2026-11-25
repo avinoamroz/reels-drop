@@ -53,7 +53,7 @@
   }
  ],
  "transcript": {
-  "score": 0.992,
+  "score": 0.984,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -133,7 +133,7 @@
    },
    {
     "line": "If you like Israel facts, follow Noam Roz for more.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -142,7 +142,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Six countries. Their number one baby name is Hebrew. Germany. 2025. The top boy's name is Noah. Austria. Noah. Switzerland. Noah. The Netherlands and Belgium. Noah again. France. Gabriel. Noah means rest in Hebrew. Gabriel. God is my strength. And number two. In America England, Noah again. America's top 10 also has James from Jacob. Mateo means gift of God. Elijah, my God is the Lord. That's four of America's top 10, all from the Hebrew Bible, and Hebrew is still spoken today on every street in Israel. Not everywhere, though. Italy's number one is Leonardo. What does your name mean? Tell me in the comments. If you like Like Israel facts, follow Noam Roz for more. So, which language names Europe's babies?",
+  "heard": "Six countries. Their number one baby name is Hebrew. Germany. 2025. The top boy's name is Noah. Austria. Noah. Switzerland. Noah. The Netherlands and Belgium. Noah again. France. Gabriel. Noah means rest in Hebrew. Gabriel. God is my strength. And number two. In America England, Noah again. America's top 10 also has James from Jacob. Mateo means gift of God. Elijah, my God is the Lord. That's four of America's top 10, all from the Hebrew Bible, and Hebrew is still spoken today on every street in Israel. Not everywhere, though. Italy's number one is Leonardo. What does your name mean? Tell me in the comments. If you like Like Israel facts, follow Noam Ra's for more. So, which language names Europe's babies?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -154,5 +154,5 @@
   "true_peak": -2.1
  },
  "lint_warnings": [],
- "render_s": 105.3
+ "render_s": 144.9
 }
