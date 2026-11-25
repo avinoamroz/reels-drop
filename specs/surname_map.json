@@ -1,0 +1,494 @@
+{
+ "id": "surname_map",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*10* Jewish names|hiding a map",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "Ten Jewish surnames. Ten towns on a map.",
+   "gap": 0.15
+  },
+  {
+   "say": "Shapiro comes from Speyer, in Germany. In the Middle Ages, it was called Spira.",
+   "screen": "Shapiro = *Speyer* (Spira)",
+   "gap": 0.12
+  },
+  {
+   "say": "Oppenheimer: Oppenheim. Mintz: Mainz. Landau: Landau.",
+   "screen": "Oppenheimer, Mintz, *Landau*",
+   "gap": 0.1
+  },
+  {
+   "say": "Halpern: Heilbronn. Ginzburg: Gunzburg.",
+   "screen": "Halpern = *Heilbronn.* Ginzburg = *Günzburg.*",
+   "gap": 0.12
+  },
+  {
+   "say": "Horowitz: Horovice, in today's Czech Republic.",
+   "screen": "Horowitz = *Hořovice*",
+   "gap": 0.12
+  },
+  {
+   "say": "Prager: Prague. Wiener: Vienna. Posner: Poznan, Poland.",
+   "screen": "Prager, Wiener, *Posner*",
+   "gap": 0.15
+  },
+  {
+   "say": "Why towns? In 1787, Austria's emperor ordered every Jew to take a surname.",
+   "screen": "*1787:* every Jew needs a surname",
+   "gap": 0.12
+  },
+  {
+   "say": "Many simply took the name of the town they came from.",
+   "screen": "Name = *home town*",
+   "gap": 0.15
+  },
+  {
+   "say": "But some names hide something much older.",
+   "gap": 0.12
+  },
+  {
+   "say": "Katz: Hebrew initials for righteous priest.",
+   "screen": "Katz = *K*ohen *Tz*edek: righteous priest",
+   "gap": 0.12
+  },
+  {
+   "say": "Segal: Hebrew initials for Levite deputy.",
+   "screen": "Segal = *Seg*an *L*eviyah: Levite deputy",
+   "gap": 0.12
+  },
+  {
+   "say": "Priests and Levites served in the Temple in Jerusalem.",
+   "screen": "Back to the *Temple* in Jerusalem",
+   "gap": 0.15
+  },
+  {
+   "say": "Not every Shapiro or Katz is Jewish, and family stories vary.",
+   "gap": 0.15
+  },
+  {
+   "say": "Where does your surname come from? Tell me in the comments.",
+   "gap": 0.15
+  },
+  {
+   "say": "If you like Israel facts, follow Noam Roz for more.",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "gap": 0.15
+  },
+  {
+   "say": "So, what's hiding in your name?",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   12.5,
+   50.5,
+   15
+  ],
+  "hook_y": 930,
+  "title_y": 290,
+  "cams": [
+   {
+    "at": "L1-0.2",
+    "view": [
+     8.7,
+     49.55,
+     2.8,
+     900
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L3-0.2",
+    "view": [
+     9.4,
+     49.1,
+     3.6,
+     900
+    ],
+    "dur": 1.0
+   },
+   {
+    "at": "L4-0.2",
+    "view": [
+     14.0,
+     50.2,
+     10,
+     900
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L11-0.2",
+    "view": [
+     26.0,
+     42.0,
+     40,
+     960
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L15-0.2",
+    "view": [
+     12.5,
+     50.5,
+     15,
+     960
+    ],
+    "dur": 1.3
+   }
+  ],
+  "highlight": [
+   {
+    "at": 0,
+    "until": "L8",
+    "code": "DEU",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   },
+   {
+    "at": 0,
+    "until": "L8",
+    "code": "CZE",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   },
+   {
+    "at": 0,
+    "until": "L8",
+    "code": "AUT",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   },
+   {
+    "at": 0,
+    "until": "L8",
+    "code": "POL",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   },
+   {
+    "at": "L15",
+    "until": "END",
+    "code": "DEU",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   },
+   {
+    "at": "L15",
+    "until": "END",
+    "code": "CZE",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   },
+   {
+    "at": "L15",
+    "until": "END",
+    "code": "AUT",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   },
+   {
+    "at": "L15",
+    "until": "END",
+    "code": "POL",
+    "color": "#45A4DD",
+    "alpha": 0.35,
+    "flash_s": 0
+   }
+  ],
+  "pins": [
+   {
+    "at": "L1:speyer",
+    "until": "L3",
+    "lon": 8.43,
+    "lat": 49.32,
+    "label": "Shapiro",
+    "color": "yellow"
+   },
+   {
+    "at": "L2",
+    "until": "L3",
+    "lon": 8.36,
+    "lat": 49.86,
+    "label": "Oppenheimer",
+    "color": "yellow"
+   },
+   {
+    "at": "L2:mintz",
+    "until": "L3",
+    "lon": 8.27,
+    "lat": 50.0,
+    "label": "Mintz",
+    "color": "yellow"
+   },
+   {
+    "at": "L2:landau",
+    "until": "L3",
+    "lon": 8.12,
+    "lat": 49.2,
+    "label": "Landau",
+    "color": "yellow"
+   },
+   {
+    "at": "L3",
+    "until": "L4",
+    "lon": 9.22,
+    "lat": 49.14,
+    "label": "Halpern",
+    "color": "yellow"
+   },
+   {
+    "at": "L3:ginzburg",
+    "until": "L4",
+    "lon": 10.28,
+    "lat": 48.45,
+    "label": "Ginzburg",
+    "color": "yellow"
+   },
+   {
+    "at": "L4",
+    "until": "L8",
+    "lon": 13.9,
+    "lat": 49.84,
+    "label": "Horowitz",
+    "color": "yellow"
+   },
+   {
+    "at": "L5",
+    "until": "L8",
+    "lon": 14.42,
+    "lat": 50.09,
+    "label": "Prager",
+    "color": "yellow"
+   },
+   {
+    "at": "L5:wiener",
+    "until": "L8",
+    "lon": 16.37,
+    "lat": 48.21,
+    "label": "Wiener",
+    "color": "yellow"
+   },
+   {
+    "at": "L5:posner",
+    "until": "L8",
+    "lon": 16.93,
+    "lat": 52.41,
+    "label": "Posner",
+    "color": "yellow"
+   },
+   {
+    "at": "L11",
+    "until": "L12",
+    "lon": 35.23,
+    "lat": 31.78,
+    "label": "Jerusalem",
+    "color": "yellow"
+   }
+  ],
+  "counter": {
+   "label": "Towns on the map",
+   "of": 10,
+   "at": "L1",
+   "until": "L8",
+   "steps": [
+    {
+     "at": "L1:speyer",
+     "value": 1
+    },
+    {
+     "at": "L2",
+     "value": 2
+    },
+    {
+     "at": "L2:mintz",
+     "value": 3
+    },
+    {
+     "at": "L2:landau",
+     "value": 4
+    },
+    {
+     "at": "L3",
+     "value": 5
+    },
+    {
+     "at": "L3:ginzburg",
+     "value": 6
+    },
+    {
+     "at": "L4",
+     "value": 7
+    },
+    {
+     "at": "L5",
+     "value": 8
+    },
+    {
+     "at": "L5:wiener",
+     "value": 9
+    },
+    {
+     "at": "L5:posner",
+     "value": 10
+    }
+   ]
+  },
+  "photos": [
+   {
+    "file": "templates/photos/surname_map/sm_speyer.jpg",
+    "at": "L1:middle",
+    "until": "L2",
+    "credit": "Judenhof, Speyer: Manuae, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/surname_map/sm_horovice.jpg",
+    "at": "L4:in",
+    "until": "L5",
+    "credit": "Hořovice: JiriMatejicek, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/surname_map/sm_prague.jpg",
+    "at": "L5:prague",
+    "until": "L5:wiener",
+    "credit": "Old New Synagogue, Prague: Yair Haklai, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/surname_map/sm_vienna.jpg",
+    "at": "L6",
+    "until": "L8",
+    "credit": "Stadttempel, Vienna: Dnalor 01, CC BY-SA 3.0 AT",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.4
+   },
+   {
+    "file": "templates/photos/surname_map/sm_oppenheim.jpg",
+    "at": "L8",
+    "until": "L9",
+    "credit": "Oppenheim: Freak-Line-Community, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.45,
+     1.12
+    ],
+    "dim": 0.4
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L13",
+    "until": "L14",
+    "text": "Where is *your* name from?",
+    "y": 1330,
+    "size": 64
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e"
+    ],
+    [
+     "L15",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Chabad.org, Y. Altein, Ashkenazi surnames; Shapiro: Wikipedia",
+   "year": 2026,
+   "at": "L1",
+   "until": "L6"
+  },
+  {
+   "label": "Chabad.org, Y. Altein: Joseph II surname law, 1787",
+   "year": 2026,
+   "at": "L6",
+   "until": "L8"
+  },
+  {
+   "label": "Chabad.org, Y. Altein: Katz, Segal",
+   "year": 2026,
+   "at": "L9",
+   "until": "L12"
+  }
+ ],
+ "end": {
+  "at": "L12",
+  "until": "L13e",
+  "balance": "Not every Shapiro is *Jewish.* Stories vary.",
+  "cta": "Where is your name from? *Comments.*"
+ },
+ "hashtags": [
+  "#Jewish",
+  "#JewishHistory",
+  "#Surnames"
+ ],
+ "cover": {
+  "t": 0.4,
+  "big": "10",
+  "text": "*10* Jewish names|hiding a map"
+ },
+ "is_ai_generated": true,
+ "caption_en": "Your last name might be a town you've never visited. 🗺️\n\n10 Jewish surnames, 10 places:\nShapiro: Speyer, Germany (medieval name: Spira)\nOppenheimer: Oppenheim\nMintz: Mainz\nLandau: Landau\nHalpern: Heilbronn\nGinzburg: Günzburg\nHorowitz: Hořovice, Czech Republic\nPrager: Prague\nWiener: Vienna\nPosner: Poznań, Poland\n\n📜 Why towns? In 1787 a law of Emperor Joseph II of Austria required all Jews to adopt surnames, and many took the name of their home town.\n\n🕍 Some names are older codes: Katz = Kohen Tzedek, \"righteous priest\". Segal = Segan Leviyah, \"Levite deputy\". Both lead back to the priests and Levites of the Temple in Jerusalem.\n\nNot every Shapiro or Katz is Jewish, and family stories vary.\n\nWhere does your surname come from? Tell me in the comments.\n\nSources: Rabbi Yehuda Altein, \"10 Keys to Understanding Many Ashkenazi Surnames\", Chabad.org; Shapiro: Wikipedia, \"Shapiro\" (Spira, medieval name of Speyer); JewishGen Rav-SIG, rabbinical surnames from place names.\nPhotos (Wikimedia Commons): Judenhof, Speyer, Manuae (CC BY-SA 4.0); Hořovice, JiriMatejicek (CC BY-SA 3.0); Old New Synagogue, Prague, Yair Haklai (CC BY-SA 4.0); Stadttempel, Vienna, Dnalor 01 (CC BY-SA 3.0 AT); Oppenheim, Freak-Line-Community (CC BY-SA 4.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "ייתכן ששם המשפחה שלכם הוא עיירה שמעולם לא ביקרתם בה. 🗺️\n\n10 שמות משפחה יהודיים, 10 מקומות:\nשפירא: שפייר, גרמניה (בימי הביניים: שפירא)\nאופנהיימר: אופנהיים\nמינץ: מיינץ\nלנדאו: לנדאו\nהלפרין: היילברון\nגינזבורג: גינצבורג\nהורוביץ: הורז'וביצה, צ'כיה\nפראגר: פראג\nוינר: וינה\nפוזנר: פוזנן, פולין\n\n📜 למה עיירות? ב-1787 חוק של הקיסר יוזף השני חייב את כל היהודים באוסטריה לאמץ שמות משפחה, ורבים בחרו בשם עיר המוצא.\n\n🕍 יש שמות שהם קוד עתיק יותר: כ\"ץ = כהן צדק. סג\"ל = סגן לוויה. שניהם מובילים אל הכהנים והלוויים בבית המקדש בירושלים.\n\nלא כל שפירא או כ\"ץ יהודי, וסיפורי משפחה משתנים.\n\nמאיפה שם המשפחה שלכם? כתבו לי בתגובות."
+}

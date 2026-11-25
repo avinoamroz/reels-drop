@@ -1,0 +1,526 @@
+{
+ "id": "us_aid_share",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "US aid: *21%*|of Israel's economy?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.1,
+  "gap": 0.15
+ },
+ "lines": [
+  {
+   "say": "1979: American aid equals 21 percent of Israel's economy.",
+   "gap": 0.15
+  },
+  {
+   "say": "That's the year of the peace treaty with Egypt.",
+   "screen": "1979: *peace* with Egypt",
+   "gap": 0.12
+  },
+  {
+   "say": "Today, many say America pays for Israel. So let's run the clock.",
+   "screen": "America *pays* for Israel?",
+   "gap": 0.12
+  },
+  {
+   "say": "1985: 11.6 percent.",
+   "gap": 0.1
+  },
+  {
+   "say": "1990: under 5.",
+   "gap": 0.1
+  },
+  {
+   "say": "2000: under 3. The aid stays near 3 billion dollars a year.",
+   "screen": "Aid: about *$3 billion* a year",
+   "gap": 0.12
+  },
+  {
+   "say": "But Israel's economy keeps growing.",
+   "screen": "The economy *grows*",
+   "gap": 0.12
+  },
+  {
+   "say": "2023: 0.64 percent. Under one percent.",
+   "gap": 0.15
+  },
+  {
+   "say": "Now the neighbours in 2023, lowest first.",
+   "gap": 0.1
+  },
+  {
+   "say": "Turkey, almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6.",
+   "gap": 0.1
+  },
+  {
+   "say": "Judea and Samaria, also called the West Bank, and Gaza: 1.6. Lebanon 2.7. Jordan 3.",
+   "gap": 0.15
+  },
+  {
+   "say": "The honest part: per person, Israel still gets the most. 336 dollars each.",
+   "gap": 0.15
+  },
+  {
+   "say": "And in 2024, after October 7, war aid jumped to 12.5 billion dollars.",
+   "screen": "2024: *$12.5 billion,* 2.3% of GDP",
+   "gap": 0.12
+  },
+  {
+   "say": "Most of it is military aid, spent on American made weapons.",
+   "screen": "Mostly *military* aid, spent in the US",
+   "gap": 0.15
+  },
+  {
+   "say": "Gift, or investment? Tell me in the comments.",
+   "gap": 0.15
+  },
+  {
+   "say": "If you like Israel facts, follow Noam Roz for more.",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "gap": 0.15
+  },
+  {
+   "say": "So, does America pay for Israel?",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   -38.0,
+   36.0,
+   150
+  ],
+  "hook_y": 930,
+  "title_y": 290,
+  "cams": [
+   {
+    "at": "L2-0.2",
+    "view": [
+     35.4,
+     31.6,
+     7,
+     900
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L8-0.3",
+    "view": [
+     38.0,
+     32.0,
+     26,
+     960
+    ],
+    "dur": 1.2
+   },
+   {
+    "at": "L16-0.2",
+    "view": [
+     -38.0,
+     36.0,
+     150,
+     960
+    ],
+    "dur": 1.3
+   }
+  ],
+  "highlight": [
+   {
+    "at": 0,
+    "until": "L2",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.75,
+    "flash_s": 0
+   },
+   {
+    "at": 0,
+    "until": "L2",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.75,
+    "flash_s": 0
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L11",
+    "code": "JOR",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L11",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L11",
+    "code": "LBN",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L11",
+    "code": "SYR",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L11",
+    "code": "IRQ",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L8-0.2",
+    "until": "L11",
+    "code": "TUR",
+    "color": "#45A4DD",
+    "alpha": 0.75
+   },
+   {
+    "at": "L16",
+    "until": "END",
+    "code": "EGY",
+    "color": "#45A4DD",
+    "alpha": 0.75,
+    "flash_s": 0
+   },
+   {
+    "at": "L16",
+    "until": "END",
+    "code": "USA",
+    "color": "#45A4DD",
+    "alpha": 0.75,
+    "flash_s": 0
+   }
+  ],
+  "clock": {
+   "at": "L2:clock",
+   "until": "L8-0.2",
+   "y": 560,
+   "label": "",
+   "steps": [
+    {
+     "at": "L2:clock",
+     "year": 1979
+    },
+    {
+     "at": "L3",
+     "year": 1985
+    },
+    {
+     "at": "L4",
+     "year": 1990
+    },
+    {
+     "at": "L5",
+     "year": 2000
+    },
+    {
+     "at": "L7",
+     "year": 2023
+    }
+   ],
+   "tick": true
+  },
+  "counter": {
+   "label": "US aid, % of Israel's GDP",
+   "at": "L0",
+   "until": "L8-0.2",
+   "suffix": "%",
+   "dec": 1,
+   "steps": [
+    {
+     "at": 0,
+     "value": 21.2
+    },
+    {
+     "at": "L3",
+     "value": 11.6
+    },
+    {
+     "at": "L4",
+     "value": 4.9
+    },
+    {
+     "at": "L5",
+     "value": 2.8
+    },
+    {
+     "at": "L5:aid",
+     "value": 2.8
+    },
+    {
+     "at": "L7",
+     "text": "0.64%"
+    }
+   ]
+  },
+  "bars": [
+   {
+    "at": "L8-0.2",
+    "until": "L11-0.1",
+    "title": "US aid, % of GDP, *2023*",
+    "lab_w": 470,
+    "vmax": 3.4,
+    "rows": [
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 0.02,
+      "txt": "0.02%",
+      "at": "L9",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Iraq",
+      "flag": "IQ",
+      "value": 0.16,
+      "txt": "0.16%",
+      "at": "L9:iraq",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 0.39,
+      "txt": "0.39%",
+      "at": "L9:egypt",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 0.64,
+      "txt": "0.64%",
+      "at": "L9:israel",
+      "hl": true
+     },
+     {
+      "label": "J&S (West Bank), Gaza",
+      "flag": "PS",
+      "value": 1.58,
+      "txt": "1.58%",
+      "at": "L10",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 2.67,
+      "txt": "2.67%",
+      "at": "L10:lebanon",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 3.01,
+      "txt": "3.01%",
+      "at": "L10:jordan",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 0,
+      "txt": "no data",
+      "at": "L10:jordan+0.3",
+      "color": "#45A4DD"
+     }
+    ]
+   },
+   {
+    "at": "L11:per",
+    "until": "L12-0.1",
+    "title": "US aid *per person,* 2023",
+    "lab_w": 470,
+    "vmax": 360,
+    "rows": [
+     {
+      "label": "Israel",
+      "flag": "IL",
+      "value": 336,
+      "txt": "$336",
+      "at": "L11:per+0.0",
+      "hl": true
+     },
+     {
+      "label": "Jordan",
+      "flag": "JO",
+      "value": 147,
+      "txt": "$147",
+      "at": "L11:per+0.1",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Lebanon",
+      "flag": "LB",
+      "value": 93,
+      "txt": "$93",
+      "at": "L11:per+0.3",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "J&S (West Bank), Gaza",
+      "flag": "PS",
+      "value": 57,
+      "txt": "$57",
+      "at": "L11:per+0.4",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Syria",
+      "flag": "SY",
+      "value": 32,
+      "txt": "$32",
+      "at": "L11:per+0.6",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Egypt",
+      "flag": "EG",
+      "value": 13,
+      "txt": "$13",
+      "at": "L11:per+0.8",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Iraq",
+      "flag": "IQ",
+      "value": 9,
+      "txt": "$9",
+      "at": "L11:per+0.9",
+      "color": "#45A4DD"
+     },
+     {
+      "label": "Turkey",
+      "flag": "TR",
+      "value": 2,
+      "txt": "$2",
+      "at": "L11:per+1.1",
+      "color": "#45A4DD"
+     }
+    ]
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/us_aid_share/ua_capitol.jpg",
+    "at": "L2",
+    "until": "L2:so",
+    "credit": "US Capitol: Beethoven, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/us_aid_share/ua_tlv.jpg",
+    "at": "L6",
+    "until": "L7",
+    "credit": "Tel Aviv: Yair Haklai, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/us_aid_share/ua_irondome.jpg",
+    "at": "L12",
+    "until": "L14",
+    "credit": "Iron Dome: IDF Spokesperson's Unit, CC BY-SA 3.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.35
+   }
+  ],
+  "overlays": [
+   {
+    "at": "L14",
+    "until": "L15",
+    "text": "Gift, or *investment?*",
+    "y": 1330,
+    "size": 64
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e"
+    ],
+    [
+     "L16",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "USAID Foreign Aid Explorer (obligations); World Bank GDP",
+   "year": 2024,
+   "at": "L0",
+   "until": "L11"
+  },
+  {
+   "label": "Population: World Bank",
+   "year": 2024,
+   "at": "L11",
+   "until": "L12"
+  },
+  {
+   "label": "CRS, J. Sharp, U.S. Foreign Aid to Israel",
+   "year": 2025,
+   "at": "L12",
+   "until": "L14"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "until": "L15e",
+  "balance": "Per person, Israel *still* gets the most.",
+  "cta": "Gift or investment? *Comments.*"
+ },
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#USAid"
+ ],
+ "cover": {
+  "t": 0.4,
+  "big": "21%",
+  "text": "US aid: *21%*|of Israel's economy?"
+ },
+ "is_ai_generated": true,
+ "caption_en": "The slogan says one thing. The clock says another. 🇺🇸🇮🇱\n\nUS aid as a share of Israel's whole economy (GDP):\n1979: 21.2% (the year of the peace treaty with Egypt)\n1985: 11.6%\n1990: 4.9%\n2000: 2.8%\n2023: 0.64%\nThe aid stayed around $3 billion a year. Israel's economy grew.\n\n🌍 Neighbours, 2023, US aid as % of their GDP, lowest first:\nTurkey 0.02%, Iraq 0.16%, Egypt 0.39%, Israel 0.64%, Judea and Samaria (West Bank) and Gaza 1.58%, Lebanon 2.67%, Jordan 3.01%, Syria: no GDP data.\n\n⚖️ The honest part: per person, Israel still gets the most: $336 per person in 2023 (Jordan $147, Lebanon $93, Judea and Samaria (West Bank) and Gaza $57, Syria $32, Egypt $13, Iraq $9, Turkey $2).\nAnd in 2024, after October 7, war aid lifted the total to about $12.5 billion, about 2.3% of GDP. Most US aid to Israel is military aid (Foreign Military Financing), spent on American made weapons.\n\nGift, or investment? Tell me in the comments.\n\nSources: USAID Foreign Aid Explorer, US foreign aid obligations by country and fiscal year (current dollars, 2024 data release); World Bank, GDP (current US$) and population (2024); Congressional Research Service, Jeremy M. Sharp, \"U.S. Foreign Aid to Israel\" (2025), via Jewish Virtual Library, for the 2024 total.\nPhotos (Wikimedia Commons): US Capitol, Beethoven (CC BY-SA 4.0); Tel Aviv skyline, Yair Haklai (CC BY-SA 4.0); Iron Dome, IDF Spokesperson's Unit (CC BY-SA 3.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "הסיסמה אומרת דבר אחד. השעון אומר דבר אחר. 🇺🇸🇮🇱\n\nהסיוע האמריקאי כחלק מכל הכלכלה הישראלית (תמ\"ג):\n1979: 21.2% (שנת הסכם השלום עם מצרים)\n1985: 11.6%\n1990: 4.9%\n2000: 2.8%\n2023: 0.64%\nהסיוע נשאר בערך 3 מיליארד דולר בשנה. הכלכלה הישראלית גדלה.\n\n🌍 השכנות ב-2023, סיוע אמריקאי כאחוז מהתמ\"ג, מהנמוך לגבוה:\nטורקיה 0.02%, עיראק 0.16%, מצרים 0.39%, ישראל 0.64%, יהודה ושומרון (הגדה המערבית) ועזה 1.58%, לבנון 2.67%, ירדן 3.01%, סוריה: אין נתוני תמ\"ג.\n\n⚖️ החלק הכן: לנפש, ישראל עדיין מקבלת הכי הרבה: 336 דולר לאדם ב-2023.\nוב-2024, אחרי 7 באוקטובר, סיוע המלחמה העלה את הסך לכ-12.5 מיליארד דולר, כ-2.3% מהתמ\"ג. רוב הסיוע הוא סיוע צבאי שמוצא על נשק אמריקאי.\n\nמתנה או השקעה? כתבו לי בתגובות."
+}
