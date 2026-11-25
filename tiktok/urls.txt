@@ -98,3 +98,6 @@ aa_cia_us.json https://raw.githubusercontent.com/factbook/factbook.json/master/n
 aa_owid_median_age.csv https://ourworldindata.org/grapher/median-age.csv?v=1&csvType=filtered&useColumnShortNames=true&country=ISR~USA~GBR~DEU~JPN~EGY~JOR~ARE~SAU
 aa_wiki_mil.txt https://en.wikipedia.org/w/index.php?title=List_of_countries_by_number_of_military_and_paramilitary_personnel&action=raw
 aa_owid_whr.csv https://ourworldindata.org/grapher/happiness-cantril-ladder.csv?v=1&csvType=filtered&useColumnShortNames=true&country=ISR~USA~GBR~DEU~JPN~EGY~JOR~ARE~SAU
+nr_usaid_country.csv https://s3.amazonaws.com/files.explorer.devtechlab.com/us_foreign_aid_country.csv
+nr_wb_gdp.json https://api.worldbank.org/v2/country/ISR;JOR;EGY;LBN;PSE;IRQ;SYR;TUR/indicator/NY.GDP.MKTP.CD?format=json&date=1970:2024&per_page=1000
+nr_wb_pop.json https://api.worldbank.org/v2/country/ISR;JOR;EGY;LBN;PSE;IRQ;SYR;TUR/indicator/SP.POP.TOTL?format=json&date=1970:2024&per_page=1000
