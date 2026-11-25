@@ -1,677 +1,707 @@
 [
 {
 "word": "Ten",
-"start": 0.015,
-"end": 0.248
+"start": 0.402,
+"end": 0.759
 },
 {
 "word": "Jewish",
-"start": 0.248,
-"end": 0.495
+"start": 0.759,
+"end": 1.053
 },
 {
 "word": "surnames.",
-"start": 0.495,
-"end": 1.146
-},
-{
-"word": "Ten",
-"start": 1.238,
-"end": 1.517
-},
-{
-"word": "towns",
-"start": 1.517,
+"start": 1.053,
 "end": 1.78
 },
 {
+"word": "Ten",
+"start": 2.415,
+"end": 2.647
+},
+{
+"word": "towns",
+"start": 2.647,
+"end": 2.957
+},
+{
 "word": "on",
-"start": 1.78,
-"end": 1.873
-},
-{
-"word": "a",
-"start": 1.873,
-"end": 1.904
-},
-{
-"word": "map.",
-"start": 1.904,
-"end": 2.229
-},
-{
-"word": "Shapiro",
-"start": 2.57,
+"start": 2.957,
 "end": 3.065
 },
 {
-"word": "comes",
-"start": 3.065,
-"end": 3.313
-},
-{
-"word": "from",
-"start": 3.313,
-"end": 3.468
-},
-{
-"word": "Speyer,",
-"start": 3.468,
-"end": 3.916
-},
-{
-"word": "in",
-"start": 3.947,
-"end": 4.149
-},
-{
-"word": "Germany.",
-"start": 4.149,
-"end": 4.659
-},
-{
-"word": "In",
-"start": 4.938,
-"end": 5.077
-},
-{
-"word": "the",
-"start": 5.077,
-"end": 5.139
-},
-{
-"word": "Middle",
-"start": 5.139,
-"end": 5.356
-},
-{
-"word": "Ages,",
-"start": 5.356,
-"end": 5.712
-},
-{
-"word": "it",
-"start": 5.712,
-"end": 5.774
-},
-{
-"word": "was",
-"start": 5.774,
-"end": 5.898
-},
-{
-"word": "called",
-"start": 5.898,
-"end": 6.161
-},
-{
-"word": "Spira.",
-"start": 6.161,
-"end": 6.703
-},
-{
-"word": "Oppenheimer:",
-"start": 7.415,
-"end": 8.204
-},
-{
-"word": "Oppenheim.",
-"start": 8.328,
-"end": 8.916
-},
-{
-"word": "Mintz:",
-"start": 9.334,
-"end": 9.907
-},
-{
-"word": "Mainz.",
-"start": 10.031,
-"end": 10.635
-},
-{
-"word": "Landau:",
-"start": 11.053,
-"end": 11.734
-},
-{
-"word": "Landau.",
-"start": 12.043,
-"end": 12.647
-},
-{
-"word": "Halpern:",
-"start": 13.158,
-"end": 13.684
-},
-{
-"word": "Heilbronn.",
-"start": 14.257,
-"end": 14.892
-},
-{
-"word": "Ginzburg:",
-"start": 15.217,
-"end": 15.851
-},
-{
-"word": "Gunzburg.",
-"start": 16.362,
-"end": 16.997
-},
-{
-"word": "Horowitz:",
-"start": 17.523,
-"end": 18.158
-},
-{
-"word": "Horovice,",
-"start": 18.22,
-"end": 18.886
-},
-{
-"word": "in",
-"start": 19.211,
-"end": 19.334
-},
-{
-"word": "today's",
-"start": 19.334,
-"end": 19.629
-},
-{
-"word": "Czech",
-"start": 19.629,
-"end": 19.907
-},
-{
-"word": "Republic.",
-"start": 19.907,
-"end": 20.465
-},
-{
-"word": "Prager:",
-"start": 20.712,
-"end": 21.316
-},
-{
-"word": "Prague.",
-"start": 21.827,
-"end": 22.307
-},
-{
-"word": "Wiener:",
-"start": 22.694,
-"end": 23.266
-},
-{
-"word": "Vienna.",
-"start": 23.53,
-"end": 24.04
-},
-{
-"word": "Posner:",
-"start": 24.489,
-"end": 25.031
-},
-{
-"word": "Poznan,",
-"start": 25.248,
-"end": 25.805
-},
-{
-"word": "Poland.",
-"start": 25.991,
-"end": 26.409
-},
-{
-"word": "Why",
-"start": 26.889,
-"end": 27.136
-},
-{
-"word": "towns?",
-"start": 27.136,
-"end": 27.678
-},
-{
-"word": "In",
-"start": 28.081,
-"end": 28.266
-},
-{
-"word": "1787,",
-"start": 28.266,
-"end": 29.396
-},
-{
-"word": "Austria's",
-"start": 30.0,
-"end": 30.48
-},
-{
-"word": "emperor",
-"start": 30.48,
-"end": 30.836
-},
-{
-"word": "ordered",
-"start": 30.836,
-"end": 31.146
-},
-{
-"word": "every",
-"start": 31.177,
-"end": 31.502
-},
-{
-"word": "Jew",
-"start": 31.502,
-"end": 31.734
-},
-{
-"word": "to",
-"start": 31.734,
-"end": 31.858
-},
-{
-"word": "take",
-"start": 31.858,
-"end": 32.013
-},
-{
 "word": "a",
-"start": 32.013,
-"end": 32.074
+"start": 3.065,
+"end": 3.096
 },
 {
-"word": "surname.",
-"start": 32.074,
-"end": 32.616
-},
-{
-"word": "Many",
-"start": 32.941,
-"end": 33.235
-},
-{
-"word": "simply",
-"start": 33.235,
-"end": 33.607
-},
-{
-"word": "took",
-"start": 33.607,
-"end": 33.777
-},
-{
-"word": "the",
-"start": 33.777,
-"end": 33.87
-},
-{
-"word": "name",
-"start": 33.87,
-"end": 34.118
-},
-{
-"word": "of",
-"start": 34.118,
-"end": 34.226
-},
-{
-"word": "the",
-"start": 34.226,
-"end": 34.288
-},
-{
-"word": "town",
-"start": 34.288,
-"end": 34.598
-},
-{
-"word": "they",
-"start": 34.598,
-"end": 34.706
-},
-{
-"word": "came",
-"start": 34.706,
-"end": 34.985
-},
-{
-"word": "from.",
-"start": 34.985,
-"end": 35.279
-},
-{
-"word": "But",
-"start": 35.728,
-"end": 35.914
-},
-{
-"word": "some",
-"start": 35.914,
-"end": 36.084
-},
-{
-"word": "names",
-"start": 36.084,
-"end": 36.331
-},
-{
-"word": "hide",
-"start": 36.331,
-"end": 36.564
-},
-{
-"word": "something",
-"start": 36.564,
-"end": 36.873
-},
-{
-"word": "much",
-"start": 36.873,
-"end": 37.136
-},
-{
-"word": "older.",
-"start": 37.136,
-"end": 37.539
-},
-{
-"word": "Katz:",
-"start": 37.647,
-"end": 38.127
-},
-{
-"word": "Hebrew",
-"start": 38.7,
-"end": 39.087
-},
-{
-"word": "initials",
-"start": 39.087,
-"end": 39.505
-},
-{
-"word": "for",
-"start": 39.505,
-"end": 39.691
-},
-{
-"word": "righteous",
-"start": 39.691,
-"end": 40.047
-},
-{
-"word": "priest.",
-"start": 40.047,
-"end": 40.496
-},
-{
-"word": "Segal:",
-"start": 40.805,
-"end": 41.378
-},
-{
-"word": "Hebrew",
-"start": 41.904,
-"end": 42.369
-},
-{
-"word": "initials",
-"start": 42.369,
-"end": 42.818
-},
-{
-"word": "for",
-"start": 42.818,
-"end": 42.988
-},
-{
-"word": "Levite",
-"start": 42.988,
-"end": 43.344
-},
-{
-"word": "deputy.",
-"start": 43.344,
-"end": 43.824
-},
-{
-"word": "Priests",
-"start": 44.428,
-"end": 44.799
-},
-{
-"word": "and",
-"start": 44.799,
-"end": 44.907
-},
-{
-"word": "Levites",
-"start": 44.907,
-"end": 45.294
-},
-{
-"word": "served",
-"start": 45.294,
-"end": 45.635
-},
-{
-"word": "in",
-"start": 45.635,
-"end": 45.728
-},
-{
-"word": "the",
-"start": 45.728,
-"end": 45.774
-},
-{
-"word": "Temple",
-"start": 45.774,
-"end": 46.084
-},
-{
-"word": "in",
-"start": 46.084,
-"end": 46.146
-},
-{
-"word": "Jerusalem.",
-"start": 46.146,
-"end": 46.719
-},
-{
-"word": "Not",
-"start": 47.431,
-"end": 47.709
-},
-{
-"word": "every",
-"start": 47.709,
-"end": 47.941
+"word": "map.",
+"start": 3.096,
+"end": 3.483
 },
 {
 "word": "Shapiro",
-"start": 47.941,
-"end": 48.483
+"start": 3.607,
+"end": 4.087
 },
 {
-"word": "or",
-"start": 48.483,
-"end": 48.638
+"word": "comes",
+"start": 4.087,
+"end": 4.334
 },
 {
-"word": "Katz",
-"start": 48.638,
-"end": 49.025
+"word": "from",
+"start": 4.334,
+"end": 4.505
 },
 {
-"word": "is",
-"start": 49.025,
-"end": 49.164
-},
-{
-"word": "Jewish,",
-"start": 49.164,
-"end": 49.706
-},
-{
-"word": "and",
-"start": 50.186,
-"end": 50.372
-},
-{
-"word": "family",
-"start": 50.372,
-"end": 50.728
-},
-{
-"word": "stories",
-"start": 50.728,
-"end": 51.115
-},
-{
-"word": "vary.",
-"start": 51.115,
-"end": 51.486
-},
-{
-"word": "Where",
-"start": 52.322,
-"end": 52.554
-},
-{
-"word": "does",
-"start": 52.554,
-"end": 52.709
-},
-{
-"word": "your",
-"start": 52.709,
-"end": 52.864
-},
-{
-"word": "surname",
-"start": 52.864,
-"end": 53.313
-},
-{
-"word": "come",
-"start": 53.313,
-"end": 53.483
-},
-{
-"word": "from?",
-"start": 53.483,
-"end": 53.793
-},
-{
-"word": "Tell",
-"start": 54.273,
-"end": 54.505
-},
-{
-"word": "me",
-"start": 54.505,
-"end": 54.598
+"word": "Speyer,",
+"start": 4.505,
+"end": 4.985
 },
 {
 "word": "in",
-"start": 54.598,
-"end": 54.66
+"start": 4.985,
+"end": 5.139
+},
+{
+"word": "Germany.",
+"start": 5.139,
+"end": 5.681
+},
+{
+"word": "In",
+"start": 6.393,
+"end": 6.548
 },
 {
 "word": "the",
-"start": 54.66,
-"end": 54.753
+"start": 6.548,
+"end": 6.61
 },
 {
-"word": "comments.",
-"start": 54.753,
-"end": 55.356
+"word": "Middle",
+"start": 6.61,
+"end": 6.842
 },
 {
-"word": "If",
-"start": 55.852,
-"end": 56.007
+"word": "Ages,",
+"start": 6.842,
+"end": 7.384
 },
 {
-"word": "you",
-"start": 56.007,
-"end": 56.13
+"word": "it",
+"start": 7.539,
+"end": 7.694
 },
 {
-"word": "like",
-"start": 56.13,
-"end": 56.316
+"word": "was",
+"start": 7.694,
+"end": 7.833
 },
 {
-"word": "Israel",
-"start": 56.332,
-"end": 56.703
+"word": "called",
+"start": 7.833,
+"end": 8.142
 },
 {
-"word": "facts,",
-"start": 56.703,
-"end": 57.028
+"word": "Spira.",
+"start": 8.142,
+"end": 8.591
 },
 {
-"word": "follow",
-"start": 57.028,
-"end": 57.245
+"word": "Oppenheimer:",
+"start": 9.303,
+"end": 10.062
 },
 {
-"word": "Noam",
-"start": 57.245,
-"end": 57.508
+"word": "Oppenheim.",
+"start": 10.325,
+"end": 10.929
 },
 {
-"word": "Roz",
-"start": 57.508,
-"end": 57.895
+"word": "Mintz:",
+"start": 11.378,
+"end": 11.858
 },
 {
-"word": "for",
-"start": 57.895,
-"end": 58.05
+"word": "Mainz.",
+"start": 11.981,
+"end": 12.632
 },
 {
-"word": "more.",
-"start": 58.05,
-"end": 58.437
+"word": "Landau:",
+"start": 13.096,
+"end": 13.684
 },
 {
-"word": "So,",
-"start": 59.582,
-"end": 60.062
+"word": "Landau.",
+"start": 14.071,
+"end": 14.644
 },
 {
-"word": "what's",
-"start": 60.387,
-"end": 60.635
+"word": "Halpern:",
+"start": 15.155,
+"end": 15.79
 },
 {
-"word": "hiding",
-"start": 60.635,
-"end": 60.96
+"word": "Heilbronn.",
+"start": 15.913,
+"end": 16.486
+},
+{
+"word": "And",
+"start": 17.167,
+"end": 17.353
+},
+{
+"word": "Ginzburg:",
+"start": 17.353,
+"end": 17.895
+},
+{
+"word": "Gunzburg.",
+"start": 17.941,
+"end": 18.576
+},
+{
+"word": "Horowitz:",
+"start": 19.056,
+"end": 19.845
+},
+{
+"word": "the",
+"start": 20.047,
+"end": 20.17
+},
+{
+"word": "town",
+"start": 20.17,
+"end": 20.372
+},
+{
+"word": "of",
+"start": 20.372,
+"end": 20.495
+},
+{
+"word": "Horovice,",
+"start": 20.495,
+"end": 21.099
 },
 {
 "word": "in",
-"start": 60.96,
-"end": 61.084
+"start": 21.161,
+"end": 21.316
+},
+{
+"word": "today's",
+"start": 21.316,
+"end": 21.61
+},
+{
+"word": "Czech",
+"start": 21.61,
+"end": 21.842
+},
+{
+"word": "Republic.",
+"start": 21.842,
+"end": 22.353
+},
+{
+"word": "Prager:",
+"start": 22.756,
+"end": 23.235
+},
+{
+"word": "Prague.",
+"start": 23.824,
+"end": 24.304
+},
+{
+"word": "Wiener:",
+"start": 24.814,
+"end": 25.387
+},
+{
+"word": "Vienna.",
+"start": 25.805,
+"end": 26.285
+},
+{
+"word": "Posner:",
+"start": 26.734,
+"end": 27.338
+},
+{
+"word": "Poznan,",
+"start": 27.818,
+"end": 28.359
+},
+{
+"word": "in",
+"start": 28.746,
+"end": 28.932
+},
+{
+"word": "Poland.",
+"start": 28.932,
+"end": 29.474
+},
+{
+"word": "So",
+"start": 29.985,
+"end": 30.31
+},
+{
+"word": "why",
+"start": 30.31,
+"end": 30.573
+},
+{
+"word": "towns?",
+"start": 30.573,
+"end": 31.208
+},
+{
+"word": "In",
+"start": 31.749,
+"end": 31.951
+},
+{
+"word": "1787,",
+"start": 31.951,
+"end": 33.313
+},
+{
+"word": "Austria's",
+"start": 33.731,
+"end": 34.273
+},
+{
+"word": "emperor",
+"start": 34.273,
+"end": 34.691
+},
+{
+"word": "ordered",
+"start": 34.691,
+"end": 35.109
+},
+{
+"word": "every",
+"start": 35.17,
+"end": 35.496
+},
+{
+"word": "Jew",
+"start": 35.496,
+"end": 35.883
+},
+{
+"word": "to",
+"start": 36.068,
+"end": 36.192
+},
+{
+"word": "take",
+"start": 36.192,
+"end": 36.455
+},
+{
+"word": "a",
+"start": 36.455,
+"end": 36.517
+},
+{
+"word": "surname.",
+"start": 36.517,
+"end": 37.028
+},
+{
+"word": "Many",
+"start": 37.57,
+"end": 37.895
+},
+{
+"word": "simply",
+"start": 37.895,
+"end": 38.282
+},
+{
+"word": "took",
+"start": 38.282,
+"end": 38.468
+},
+{
+"word": "the",
+"start": 38.468,
+"end": 38.561
+},
+{
+"word": "name",
+"start": 38.561,
+"end": 38.793
+},
+{
+"word": "of",
+"start": 38.793,
+"end": 38.886
+},
+{
+"word": "the",
+"start": 38.886,
+"end": 38.948
+},
+{
+"word": "town",
+"start": 38.948,
+"end": 39.18
+},
+{
+"word": "they",
+"start": 39.18,
+"end": 39.273
+},
+{
+"word": "came",
+"start": 39.273,
+"end": 39.551
+},
+{
+"word": "from.",
+"start": 39.551,
+"end": 39.814
+},
+{
+"word": "But",
+"start": 40.449,
+"end": 40.635
+},
+{
+"word": "some",
+"start": 40.635,
+"end": 40.867
+},
+{
+"word": "names",
+"start": 40.867,
+"end": 41.409
+},
+{
+"word": "hide",
+"start": 41.471,
+"end": 41.827
+},
+{
+"word": "something",
+"start": 41.827,
+"end": 42.121
+},
+{
+"word": "much",
+"start": 42.121,
+"end": 42.338
+},
+{
+"word": "older.",
+"start": 42.338,
+"end": 42.756
+},
+{
+"word": "Katz:",
+"start": 43.267,
+"end": 43.839
+},
+{
+"word": "Hebrew",
+"start": 44.319,
+"end": 44.861
+},
+{
+"word": "initials",
+"start": 44.861,
+"end": 45.496
+},
+{
+"word": "for",
+"start": 45.542,
+"end": 45.759
+},
+{
+"word": "righteous",
+"start": 45.759,
+"end": 46.146
+},
+{
+"word": "priest.",
+"start": 46.146,
+"end": 46.595
+},
+{
+"word": "Segal:",
+"start": 47.106,
+"end": 47.678
+},
+{
+"word": "Hebrew",
+"start": 48.065,
+"end": 48.514
+},
+{
+"word": "initials",
+"start": 48.514,
+"end": 49.056
+},
+{
+"word": "for",
+"start": 49.056,
+"end": 49.211
+},
+{
+"word": "Levite",
+"start": 49.211,
+"end": 49.567
+},
+{
+"word": "deputy.",
+"start": 49.567,
+"end": 50.078
+},
+{
+"word": "Priests",
+"start": 50.403,
+"end": 50.883
+},
+{
+"word": "and",
+"start": 50.945,
+"end": 51.13
+},
+{
+"word": "Levites",
+"start": 51.13,
+"end": 51.61
+},
+{
+"word": "served",
+"start": 51.641,
+"end": 52.152
+},
+{
+"word": "in",
+"start": 52.152,
+"end": 52.26
+},
+{
+"word": "the",
+"start": 52.26,
+"end": 52.353
+},
+{
+"word": "Temple",
+"start": 52.353,
+"end": 52.709
+},
+{
+"word": "in",
+"start": 52.709,
+"end": 52.802
+},
+{
+"word": "Jerusalem.",
+"start": 52.802,
+"end": 53.344
+},
+{
+"word": "Not",
+"start": 53.762,
+"end": 54.041
+},
+{
+"word": "every",
+"start": 54.041,
+"end": 54.273
+},
+{
+"word": "Shapiro",
+"start": 54.273,
+"end": 54.907
+},
+{
+"word": "or",
+"start": 54.938,
+"end": 55.062
+},
+{
+"word": "Katz",
+"start": 55.062,
+"end": 55.511
+},
+{
+"word": "is",
+"start": 55.511,
+"end": 55.743
+},
+{
+"word": "Jewish,",
+"start": 55.743,
+"end": 56.285
+},
+{
+"word": "and",
+"start": 56.533,
+"end": 56.703
+},
+{
+"word": "family",
+"start": 56.703,
+"end": 57.059
+},
+{
+"word": "stories",
+"start": 57.059,
+"end": 57.462
+},
+{
+"word": "vary.",
+"start": 57.462,
+"end": 57.818
+},
+{
+"word": "Where",
+"start": 58.174,
+"end": 58.421
+},
+{
+"word": "does",
+"start": 58.421,
+"end": 58.53
 },
 {
 "word": "your",
-"start": 61.084,
-"end": 61.192
+"start": 58.53,
+"end": 58.623
+},
+{
+"word": "surname",
+"start": 58.623,
+"end": 59.103
+},
+{
+"word": "come",
+"start": 59.103,
+"end": 59.319
+},
+{
+"word": "from?",
+"start": 59.319,
+"end": 59.613
+},
+{
+"word": "Tell",
+"start": 60.031,
+"end": 60.279
+},
+{
+"word": "me",
+"start": 60.279,
+"end": 60.418
+},
+{
+"word": "in",
+"start": 60.418,
+"end": 60.511
+},
+{
+"word": "the",
+"start": 60.511,
+"end": 60.573
+},
+{
+"word": "comments.",
+"start": 60.573,
+"end": 61.146
+},
+{
+"word": "If",
+"start": 61.533,
+"end": 61.626
+},
+{
+"word": "you",
+"start": 61.626,
+"end": 61.781
+},
+{
+"word": "like",
+"start": 61.781,
+"end": 61.982
+},
+{
+"word": "Israel",
+"start": 61.982,
+"end": 62.322
+},
+{
+"word": "facts,",
+"start": 62.322,
+"end": 62.818
+},
+{
+"word": "follow",
+"start": 62.88,
+"end": 63.22
+},
+{
+"word": "Noam",
+"start": 63.22,
+"end": 63.545
+},
+{
+"word": "Roz",
+"start": 63.545,
+"end": 64.025
+},
+{
+"word": "for",
+"start": 64.118,
+"end": 64.288
+},
+{
+"word": "more.",
+"start": 64.288,
+"end": 64.691
+},
+{
+"word": "So,",
+"start": 64.923,
+"end": 65.434
+},
+{
+"word": "what's",
+"start": 65.914,
+"end": 66.161
+},
+{
+"word": "hiding",
+"start": 66.161,
+"end": 66.456
+},
+{
+"word": "in",
+"start": 66.456,
+"end": 66.548
+},
+{
+"word": "your",
+"start": 66.548,
+"end": 66.688
 },
 {
 "word": "name?",
-"start": 61.192,
-"end": 61.533
+"start": 66.688,
+"end": 66.966
 }
 ]

@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*10* Jewish names|hiding a map",
- "duration": 53.97,
+ "duration": 59.67,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -1.8
  },
  "outputs": {
   "mp4": "out/surname_map.mp4",
@@ -47,7 +47,7 @@
   }
  ],
  "transcript": {
-  "score": 0.901,
+  "score": 0.932,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -57,32 +57,32 @@
    },
    {
     "line": "Shapiro comes from Speyer, in Germany. In the Middle Ages, it was called Spira.",
-    "score": 1.0,
+    "score": 0.929,
     "flag": "ok"
    },
    {
     "line": "Oppenheimer: Oppenheim. Mintz: Mainz. Landau: Landau.",
-    "score": 0.667,
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Halpern: Heilbronn. And Ginzburg: Gunzburg.",
+    "score": 0.4,
     "flag": "MISS"
    },
    {
-    "line": "Halpern: Heilbronn. Ginzburg: Gunzburg.",
-    "score": 0.25,
-    "flag": "MISS"
+    "line": "Horowitz: the town of Horovice, in today's Czech Republic.",
+    "score": 0.889,
+    "flag": "ok"
    },
    {
-    "line": "Horowitz: Horovice, in today's Czech Republic.",
-    "score": 0.667,
-    "flag": "MISS"
+    "line": "Prager: Prague. Wiener: Vienna. Posner: Poznan, in Poland.",
+    "score": 0.875,
+    "flag": "ok"
    },
    {
-    "line": "Prager: Prague. Wiener: Vienna. Posner: Poznan, Poland.",
-    "score": 0.571,
-    "flag": "MISS"
-   },
-   {
-    "line": "Why towns? In 1787, Austria's emperor ordered every Jew to take a surname.",
-    "score": 0.947,
+    "line": "So why towns? In 1787, Austria's emperor ordered every Jew to take a surname.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -112,7 +112,7 @@
    },
    {
     "line": "Not every Shapiro or Katz is Jewish, and family stories vary.",
-    "score": 1.0,
+    "score": 0.909,
     "flag": "ok"
    },
    {
@@ -131,17 +131,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "Ten Jewish surnames, ten towns on a map. Shapiro comes from Speyer in Germany. In the Middle Ages it was called Spira, Oppenheimer, Oppenheim, Minz, Mainz, Landau, Halpern, Heilbron, Heilbron, Günzburg, Horovitz, Horovitz, and today's Czech Republic, Prager, Prag, Wiener, Vienna, Hosnan, Polsnan, Poland, White towns. In 1787, Austria's emperor ordered every Jew to take a surname. Many simply took the name of the town they came from, but some names hide something much older. Cats. Hebrew initials for Righteous Priest. Sigal. Hebrew initials for Levite Deputy. Priests and Levites served in the temple in Jerusalem. Not every Shapiro or Katz is Jewish. And family stories vary. Where does your surname come from? Tell me in the comments. If you like Israel facts, follow Noam Ra's for more. So what's hiding in your name?",
+  "heard": "Ten Jewish surnames. Ten towns on a map. Shapiro comes from Spira in Germany. In the Middle Ages, it was called Spira. Oppenheimer, Oppenheim, Mintz, Mainz, Landau, Landau, Halpern, Heilbron, and Ginsburg, Günsburg, Horowitz, the town of Horovis in today's Czech Republic, Prager, Prag, Wiener, Vienna, Posner, Poznan, in Poland. So why towns? In 1787, Austria's emperor ordered every Jew to take a surname. Many simply took the name of the town they came from, but some names hide something much older. Cats. Hebrew initials for Righteous Priest. Sigal. Hebrew initials for Levite Deputy. Priests and Levites served in the temple in Jerusalem. Not every Shapiro or Cats is Jewish, and family stories vary. Where does your surname come from? Tell me in the comments. If you like Israel facts, follow Noam Ra's for more. So what's hiding in your name?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 53.98,
+ "body_s": 59.65,
  "opener": null,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.1
+  "true_peak": -1.8
  },
  "lint_warnings": [],
- "render_s": 77.4
+ "render_s": 105.5
 }
