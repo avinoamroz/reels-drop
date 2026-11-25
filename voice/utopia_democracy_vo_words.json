@@ -1,0 +1,572 @@
+[
+{
+"word": "This",
+"start": 0.279,
+"end": 0.464
+},
+{
+"word": "is",
+"start": 0.464,
+"end": 0.604
+},
+{
+"word": "a",
+"start": 0.604,
+"end": 0.666
+},
+{
+"word": "perfect",
+"start": 0.666,
+"end": 1.053
+},
+{
+"word": "democracy.",
+"start": 1.053,
+"end": 1.656
+},
+{
+"word": "Israel",
+"start": 2.105,
+"end": 2.508
+},
+{
+"word": "is",
+"start": 2.508,
+"end": 2.616
+},
+{
+"word": "here.",
+"start": 2.616,
+"end": 2.926
+},
+{
+"word": "Seventy-eight",
+"start": 3.344,
+"end": 3.947
+},
+{
+"word": "out",
+"start": 3.947,
+"end": 4.056
+},
+{
+"word": "of",
+"start": 4.056,
+"end": 4.149
+},
+{
+"word": "a",
+"start": 4.149,
+"end": 4.18
+},
+{
+"word": "hundred,",
+"start": 4.18,
+"end": 4.659
+},
+{
+"word": "on",
+"start": 4.985,
+"end": 5.139
+},
+{
+"word": "the",
+"start": 5.139,
+"end": 5.232
+},
+{
+"word": "Economist's",
+"start": 5.232,
+"end": 5.836
+},
+{
+"word": "Democracy",
+"start": 5.898,
+"end": 6.378
+},
+{
+"word": "Index.",
+"start": 6.378,
+"end": 6.873
+},
+{
+"word": "What's",
+"start": 7.338,
+"end": 7.539
+},
+{
+"word": "in",
+"start": 7.539,
+"end": 7.632
+},
+{
+"word": "the",
+"start": 7.632,
+"end": 7.694
+},
+{
+"word": "gap?",
+"start": 7.694,
+"end": 8.05
+},
+{
+"word": "Civil",
+"start": 8.266,
+"end": 8.653
+},
+{
+"word": "liberties:",
+"start": 8.653,
+"end": 9.133
+},
+{
+"word": "fifty-six.",
+"start": 9.257,
+"end": 9.938
+},
+{
+"word": "Political",
+"start": 10.635,
+"end": 11.022
+},
+{
+"word": "culture:",
+"start": 11.022,
+"end": 11.533
+},
+{
+"word": "sixty-nine.",
+"start": 11.594,
+"end": 12.368
+},
+{
+"word": "How",
+"start": 12.523,
+"end": 12.647
+},
+{
+"word": "the",
+"start": 12.647,
+"end": 12.755
+},
+{
+"word": "government",
+"start": 12.755,
+"end": 13.065
+},
+{
+"word": "works:",
+"start": 13.065,
+"end": 13.421
+},
+{
+"word": "seventy-five.",
+"start": 13.808,
+"end": 14.613
+},
+{
+"word": "Now",
+"start": 15.062,
+"end": 15.186
+},
+{
+"word": "zoom",
+"start": 15.186,
+"end": 15.403
+},
+{
+"word": "out.",
+"start": 15.403,
+"end": 15.697
+},
+{
+"word": "Critics",
+"start": 16.146,
+"end": 16.486
+},
+{
+"word": "say",
+"start": 16.486,
+"end": 16.656
+},
+{
+"word": "Israel",
+"start": 16.656,
+"end": 16.966
+},
+{
+"word": "is",
+"start": 16.966,
+"end": 17.043
+},
+{
+"word": "no",
+"start": 17.043,
+"end": 17.167
+},
+{
+"word": "democracy",
+"start": 17.167,
+"end": 17.678
+},
+{
+"word": "at",
+"start": 17.678,
+"end": 17.771
+},
+{
+"word": "all.",
+"start": 17.771,
+"end": 17.988
+},
+{
+"word": "No",
+"start": 18.406,
+"end": 18.576
+},
+{
+"word": "democracy",
+"start": 18.576,
+"end": 19.087
+},
+{
+"word": "looks",
+"start": 19.087,
+"end": 19.273
+},
+{
+"word": "like",
+"start": 19.273,
+"end": 19.427
+},
+{
+"word": "this:",
+"start": 19.427,
+"end": 19.783
+},
+{
+"word": "below",
+"start": 19.985,
+"end": 20.232
+},
+{
+"word": "forty,",
+"start": 20.232,
+"end": 20.712
+},
+{
+"word": "where",
+"start": 20.975,
+"end": 21.13
+},
+{
+"word": "the",
+"start": 21.13,
+"end": 21.223
+},
+{
+"word": "Economist",
+"start": 21.223,
+"end": 21.703
+},
+{
+"word": "puts",
+"start": 21.703,
+"end": 21.904
+},
+{
+"word": "authoritarian",
+"start": 21.904,
+"end": 22.384
+},
+{
+"word": "regimes.",
+"start": 22.384,
+"end": 22.895
+},
+{
+"word": "Turkey,",
+"start": 23.375,
+"end": 23.855
+},
+{
+"word": "forty-three.",
+"start": 24.133,
+"end": 24.706
+},
+{
+"word": "Lebanon,",
+"start": 25.449,
+"end": 26.022
+},
+{
+"word": "thirty-six.",
+"start": 26.068,
+"end": 26.734
+},
+{
+"word": "Jordan,",
+"start": 27.601,
+"end": 28.019
+},
+{
+"word": "thirty-three.",
+"start": 28.112,
+"end": 28.715
+},
+{
+"word": "The",
+"start": 29.381,
+"end": 29.52
+},
+{
+"word": "Emirates,",
+"start": 29.52,
+"end": 30.062
+},
+{
+"word": "thirty-one.",
+"start": 30.48,
+"end": 30.96
+},
+{
+"word": "Egypt,",
+"start": 31.951,
+"end": 32.462
+},
+{
+"word": "twenty-eight.",
+"start": 32.678,
+"end": 33.313
+},
+{
+"word": "Saudi",
+"start": 34.025,
+"end": 34.474
+},
+{
+"word": "Arabia,",
+"start": 34.474,
+"end": 34.892
+},
+{
+"word": "twenty-one.",
+"start": 35.109,
+"end": 35.65
+},
+{
+"word": "Iran,",
+"start": 36.099,
+"end": 36.703
+},
+{
+"word": "twenty.",
+"start": 36.935,
+"end": 37.384
+},
+{
+"word": "Israel",
+"start": 38.143,
+"end": 38.53
+},
+{
+"word": "is",
+"start": 38.53,
+"end": 38.653
+},
+{
+"word": "the",
+"start": 38.653,
+"end": 38.762
+},
+{
+"word": "only",
+"start": 38.762,
+"end": 39.071
+},
+{
+"word": "democracy",
+"start": 39.071,
+"end": 39.551
+},
+{
+"word": "on",
+"start": 39.551,
+"end": 39.66
+},
+{
+"word": "this",
+"start": 39.66,
+"end": 39.814
+},
+{
+"word": "chart.",
+"start": 39.814,
+"end": 40.14
+},
+{
+"word": "One",
+"start": 40.294,
+"end": 40.511
+},
+{
+"word": "honest",
+"start": 40.511,
+"end": 40.774
+},
+{
+"word": "catch:",
+"start": 40.774,
+"end": 41.223
+},
+{
+"word": "even",
+"start": 42.044,
+"end": 42.369
+},
+{
+"word": "Israel",
+"start": 42.369,
+"end": 42.849
+},
+{
+"word": "is",
+"start": 42.88,
+"end": 43.05
+},
+{
+"word": "only",
+"start": 43.05,
+"end": 43.328
+},
+{
+"word": "a",
+"start": 43.328,
+"end": 43.39
+},
+{
+"word": "flawed",
+"start": 43.39,
+"end": 43.684
+},
+{
+"word": "democracy,",
+"start": 43.684,
+"end": 44.288
+},
+{
+"word": "thirty-first",
+"start": 44.443,
+"end": 45.0
+},
+{
+"word": "in",
+"start": 45.0,
+"end": 45.093
+},
+{
+"word": "the",
+"start": 45.093,
+"end": 45.155
+},
+{
+"word": "world.",
+"start": 45.155,
+"end": 45.434
+},
+{
+"word": "We're",
+"start": 45.666,
+"end": 45.852
+},
+{
+"word": "not",
+"start": 45.852,
+"end": 45.991
+},
+{
+"word": "perfect.",
+"start": 45.991,
+"end": 46.471
+},
+{
+"word": "We",
+"start": 46.982,
+"end": 47.198
+},
+{
+"word": "know",
+"start": 47.198,
+"end": 47.369
+},
+{
+"word": "it.",
+"start": 47.369,
+"end": 47.647
+},
+{
+"word": "But",
+"start": 48.344,
+"end": 48.483
+},
+{
+"word": "no",
+"start": 48.483,
+"end": 48.638
+},
+{
+"word": "democracy?",
+"start": 48.638,
+"end": 49.242
+},
+{
+"word": "We're",
+"start": 49.923,
+"end": 50.078
+},
+{
+"word": "closer",
+"start": 50.078,
+"end": 50.341
+},
+{
+"word": "to",
+"start": 50.341,
+"end": 50.465
+},
+{
+"word": "a",
+"start": 50.465,
+"end": 50.496
+},
+{
+"word": "perfect",
+"start": 50.496,
+"end": 50.852
+},
+{
+"word": "one",
+"start": 50.852,
+"end": 51.007
+},
+{
+"word": "than",
+"start": 51.007,
+"end": 51.13
+},
+{
+"word": "anyone",
+"start": 51.13,
+"end": 51.424
+},
+{
+"word": "around",
+"start": 51.424,
+"end": 51.703
+},
+{
+"word": "us.",
+"start": 51.703,
+"end": 51.997
+}
+]

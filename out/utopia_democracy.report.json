@@ -1,0 +1,127 @@
+{
+ "id": "utopia_democracy",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "Perfect democracy: *100.*|Israel: *78.*",
+ "duration": 46.7,
+ "audio": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "outputs": {
+  "mp4": "out/utopia_democracy.mp4",
+  "cover": "covers/utopia_democracy_cover.jpg",
+  "preview": "previews/utopia_democracy_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/utopia_democracy_0.jpg",
+  "1": "out/frames/utopia_democracy_1.jpg",
+  "3": "out/frames/utopia_democracy_3.jpg",
+  "last": "out/frames/utopia_democracy_last.jpg"
+ },
+ "caption_en": "Perfect democracy: 100. Israel: 78.\n\nWhat's in the gap? Israel's own weak spots on the Economist's Democracy Index (2024): civil liberties 5.6 out of 10, political culture 6.9, functioning of government 7.5.\n\nZoom out, same scale (x10): 🇮🇱 Israel 78, 🇹🇷 Turkey 43, 🇱🇧 Lebanon 36, 🇯🇴 Jordan 33, 🇦🇪 UAE 31, 🇪🇬 Egypt 28, 🇸🇦 Saudi Arabia 21, 🇮🇷 Iran 20. Below 40 is what the Economist calls authoritarian. Israel is the region's only democracy on the index.\n\nHonest catch: Israel is still a \"flawed democracy\", 31st in the world.\n\nWe're not perfect. We know it. But \"no democracy\"? We're closer to a perfect one than anyone around us.\n\nSend this to a critic.",
+ "caption_he": "דמוקרטיה מושלמת: 100. ישראל: 78.\nבפער: חירויות אזרח 5.6 מתוך 10, תרבות פוליטית 6.9, תפקוד הממשלה 7.5.\nזום אאוט: טורקיה 43, לבנון 36, ירדן 33, האמירויות 31, מצרים 28, סעודיה 21, איראן 20. מתחת ל־40 זה משטר אוטוריטרי לפי האקונומיסט.\nובכנות: גם ישראל היא \"דמוקרטיה פגומה\", מקום 31 בעולם.\nלא מושלמים. אבל הכי קרובים לדמוקרטיה מושלמת באזור.\n\nSource: The Economist Intelligence Unit, Democracy Index 2024.",
+ "hashtags": [
+  "#Israel",
+  "#Democracy",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "The Economist Intelligence Unit, Democracy Index",
+   "year": 2024,
+   "at": "L1",
+   "until": "L9e"
+  }
+ ],
+ "transcript": {
+  "score": 0.984,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "This is a perfect democracy. Israel is here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seventy-eight out of a hundred, on the Economist's Democracy Index.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "What's in the gap? Civil liberties: fifty-six.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Political culture: sixty-nine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "How the government works: seventy-five.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now zoom out. Critics say Israel is no democracy at all.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "No democracy looks like this: below forty, where the Economist puts authoritarian regimes.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Turkey, forty-three. Lebanon, thirty-six. Jordan, thirty-three. The Emirates, thirty-one. Egypt, twenty-eight. Saudi Arabia, twenty-one. Iran, twenty.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel is the only democracy on this chart.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "One honest catch: even Israel is only a flawed democracy, thirty-first in the world.",
+    "score": 0.933,
+    "flag": "ok"
+   },
+   {
+    "line": "We're not perfect. We know it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But no democracy? We're closer to a perfect one than anyone around us.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "This is a perfect democracy. Israel is here. 78 out of 100, on the Economist's Democracy Index. What's in the gap? Civil liberties. 56. Political culture. 69. How the government works. 75. Now zoom out. Critics say Israel is no democracy at all. No democracy looks like this. Below 40, where the Economist puts authoritarian regimes. Turkey. 43. Lebanon. 36. Jordan. 33. The Emirates. 31. Egypt, 28. Saudi Arabia, 21. Iran, 20. Israel is the only democracy on this chart, one honest catch. Even Israel is only a flawed democracy, 31st in the world. We're not perfect. We know it. But no democracy. We're closer to a perfect one than anyone around us.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.2,
+  "true_peak": -2.1
+ },
+ "photos": [
+  {
+   "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+   "credit": "Knesset, Beit HaShalom, Wikimedia Commons"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/court.jpg",
+   "credit": "Supreme Court and Knesset, israeltourism, CC BY 2.0"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+   "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 105.4
+}
