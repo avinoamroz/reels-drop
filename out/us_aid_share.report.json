@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "US aid: *21%*|of Israel's economy?",
- "duration": 69.93,
+ "duration": 56.33,
  "audio": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "outputs": {
   "mp4": "out/us_aid_share.mp4",
@@ -31,23 +31,23 @@
    "label": "USAID Foreign Aid Explorer (obligations); World Bank GDP",
    "year": 2024,
    "at": "L0",
-   "until": "L11"
+   "until": "L9"
   },
   {
    "label": "Population: World Bank",
    "year": 2024,
-   "at": "L11",
-   "until": "L12"
+   "at": "L9",
+   "until": "L10"
   },
   {
    "label": "CRS, J. Sharp, U.S. Foreign Aid to Israel",
    "year": 2025,
-   "at": "L12",
-   "until": "L14"
+   "at": "L10",
+   "until": "L11"
   }
  ],
  "transcript": {
-  "score": 0.98,
+  "score": 0.972,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -56,12 +56,12 @@
     "flag": "ok"
    },
    {
-    "line": "That's the year of the peace treaty with Egypt.",
+    "line": "The year of the peace treaty with Egypt.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Today, many say America pays for Israel. So let's run the clock.",
+    "line": "Many say America pays for Israel. Let's run the clock.",
     "score": 1.0,
     "flag": "ok"
    },
@@ -76,28 +76,18 @@
     "flag": "ok"
    },
    {
-    "line": "2000: under 3. The aid stays near 3 billion dollars a year.",
-    "score": 0.923,
-    "flag": "ok"
-   },
-   {
-    "line": "But Israel's economy keeps growing.",
+    "line": "2000: under 3. The aid stays near 3 billion a year. The economy grows.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "2023: 0.64 percent. Under one percent.",
+    "line": "2023: 0.64 percent.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Now the neighbours in 2023, lowest first.",
-    "score": 0.909,
-    "flag": "ok"
-   },
-   {
-    "line": "Turkey, almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6.",
-    "score": 1.0,
+    "line": "The neighbours in 2023: Turkey, almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6.",
+    "score": 0.957,
     "flag": "ok"
    },
    {
@@ -107,17 +97,12 @@
    },
    {
     "line": "The honest part: per person, Israel still gets the most. 336 dollars each.",
-    "score": 1.0,
+    "score": 0.941,
     "flag": "ok"
    },
    {
-    "line": "And in 2024, after October 7, war aid jumped to 12.5 billion dollars.",
-    "score": 0.947,
-    "flag": "ok"
-   },
-   {
-    "line": "Most of it is military aid, spent on American made weapons.",
-    "score": 1.0,
+    "line": "And after October 7, war aid in 2024 jumped to 12.5 billion dollars.",
+    "score": 0.842,
     "flag": "ok"
    },
    {
@@ -127,7 +112,7 @@
    },
    {
     "line": "If you like Israel facts, follow Noam Roz for more.",
-    "score": 0.9,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -136,17 +121,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "In 1979, American aid equals 21% of Israel's economy. That's the year of the peace treaty with Egypt. Today, many say America pays for Israel. So let's run the clock. 1985, 11.6%, 1990, under 5, 2000, under 3. The aid stays near $3 billion a year, but Israel's economy keeps growing. 2023, 0.64%, under 1%. Now the neighbors in 2023 lowest first. Turkey almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6. Judea and Samaria also called the West Bank and Gaza 1.6. Lebanon 2.7. Jordan 3. The honest part. Per person, Israel still gets the most. 336 dollars each. And in 2024, after October 7, War aid jumped to $12.5 billion. Most of it is military aid, spent on American-made weapons. Gift or investment? Tell me in the comments. If you like Israel facts, follow Noam Ross for more. So, does America pay for Israel?",
+  "heard": "1979, American aid equals 21% of Israel's economy, the year of the peace treaty with Egypt. Many say America pays for Israel. Let's run the clock. 1985, 11.6%, 1990, under 5, 2000, under 3. The aid stays near 3 billion a year. The economy grows. 2023, 0.64%. The neighbors in 2023, Turkey, almost zero. Iraq, 0.2. Egypt 0.4, Israel 0.6, Judea and Samaria also called the West Bank and Gaza 1.6, Lebanon 2.7, Jordan 3. The honest part, per person, Israel still gets the most, $336 each. And after October 7, War 8 and 2024 jumped to $12.5 billion. Gift or investment? Tell me in the comments. If you like Israel facts, follow Noam Roz for more. So does America pay for Israel?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 69.94,
+ "body_s": 56.32,
  "opener": null,
  "mix": {
   "lufs": -16.0,
-  "true_peak": -2.1
+  "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 159.6
+ "render_s": 140.6
 }

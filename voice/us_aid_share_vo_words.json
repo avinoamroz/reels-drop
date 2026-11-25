@@ -1,757 +1,642 @@
 [
 {
 "word": "1979:",
-"start": 0.093,
-"end": 1.3
+"start": 0.263,
+"end": 1.641
 },
 {
 "word": "American",
-"start": 1.92,
-"end": 2.399
+"start": 1.827,
+"end": 2.337
 },
 {
 "word": "aid",
-"start": 2.43,
-"end": 2.786
+"start": 2.368,
+"end": 2.694
 },
 {
 "word": "equals",
-"start": 2.817,
-"end": 3.22
+"start": 2.724,
+"end": 3.081
 },
 {
 "word": "21",
-"start": 3.22,
-"end": 3.7
+"start": 3.081,
+"end": 3.529
 },
 {
 "word": "percent",
-"start": 3.7,
-"end": 4.149
+"start": 3.529,
+"end": 3.901
 },
 {
 "word": "of",
-"start": 4.211,
-"end": 4.319
+"start": 3.901,
+"end": 4.04
 },
 {
 "word": "Israel's",
-"start": 4.319,
-"end": 4.706
+"start": 4.04,
+"end": 4.427
 },
 {
 "word": "economy.",
-"start": 4.706,
-"end": 5.279
+"start": 4.427,
+"end": 5.0
 },
 {
-"word": "That's",
-"start": 5.557,
-"end": 5.882
-},
-{
-"word": "the",
-"start": 5.882,
-"end": 5.975
+"word": "The",
+"start": 5.279,
+"end": 5.418
 },
 {
 "word": "year",
-"start": 5.975,
-"end": 6.207
+"start": 5.418,
+"end": 5.666
 },
 {
 "word": "of",
-"start": 6.207,
-"end": 6.3
+"start": 5.666,
+"end": 5.79
 },
 {
 "word": "the",
-"start": 6.3,
-"end": 6.393
+"start": 5.79,
+"end": 5.867
 },
 {
 "word": "peace",
-"start": 6.393,
-"end": 6.656
+"start": 5.867,
+"end": 6.177
 },
 {
 "word": "treaty",
-"start": 6.656,
-"end": 6.904
+"start": 6.177,
+"end": 6.533
 },
 {
 "word": "with",
-"start": 6.904,
-"end": 7.059
+"start": 6.533,
+"end": 6.687
 },
 {
 "word": "Egypt.",
-"start": 7.059,
-"end": 7.57
+"start": 6.718,
+"end": 7.26
 },
 {
-"word": "Today,",
-"start": 8.282,
-"end": 8.886
-},
-{
-"word": "many",
-"start": 9.365,
-"end": 9.69
+"word": "Many",
+"start": 7.492,
+"end": 7.848
 },
 {
 "word": "say",
-"start": 9.69,
-"end": 9.876
+"start": 7.848,
+"end": 8.096
 },
 {
 "word": "America",
-"start": 9.876,
-"end": 10.263
+"start": 8.096,
+"end": 8.576
 },
 {
 "word": "pays",
-"start": 10.263,
-"end": 10.526
+"start": 8.576,
+"end": 8.932
 },
 {
 "word": "for",
-"start": 10.526,
-"end": 10.65
+"start": 8.932,
+"end": 9.087
 },
 {
 "word": "Israel.",
-"start": 10.65,
-"end": 11.161
+"start": 9.087,
+"end": 9.567
 },
 {
-"word": "So",
-"start": 11.672,
-"end": 11.889
-},
-{
-"word": "let's",
-"start": 11.889,
-"end": 12.09
+"word": "Let's",
+"start": 9.923,
+"end": 10.186
 },
 {
 "word": "run",
-"start": 12.09,
-"end": 12.276
+"start": 10.186,
+"end": 10.341
 },
 {
 "word": "the",
-"start": 12.276,
-"end": 12.368
+"start": 10.341,
+"end": 10.433
 },
 {
 "word": "clock.",
-"start": 12.368,
-"end": 12.817
+"start": 10.433,
+"end": 10.882
 },
 {
 "word": "1985:",
-"start": 13.622,
-"end": 14.644
+"start": 11.331,
+"end": 12.446
 },
 {
 "word": "11.6",
-"start": 14.845,
-"end": 15.666
+"start": 12.988,
+"end": 13.824
 },
 {
 "word": "percent.",
-"start": 15.666,
-"end": 16.053
+"start": 13.824,
+"end": 14.242
 },
 {
 "word": "1990:",
-"start": 16.718,
-"end": 17.647
+"start": 14.876,
+"end": 15.867
 },
 {
 "word": "under",
-"start": 17.786,
-"end": 18.034
+"start": 16.347,
+"end": 16.641
 },
 {
 "word": "5.",
-"start": 18.034,
-"end": 18.452
+"start": 16.641,
+"end": 17.183
 },
 {
 "word": "2000:",
-"start": 19.35,
-"end": 20.016
+"start": 17.508,
+"end": 18.297
 },
 {
 "word": "under",
-"start": 20.759,
-"end": 21.037
+"start": 18.684,
+"end": 18.978
 },
 {
 "word": "3.",
-"start": 21.037,
-"end": 21.424
+"start": 18.978,
+"end": 19.381
 },
 {
 "word": "The",
-"start": 22.198,
-"end": 22.384
+"start": 19.675,
+"end": 19.861
 },
 {
 "word": "aid",
-"start": 22.384,
-"end": 22.74
+"start": 19.861,
+"end": 20.124
 },
 {
 "word": "stays",
-"start": 22.74,
-"end": 23.05
+"start": 20.124,
+"end": 20.387
 },
 {
 "word": "near",
-"start": 23.05,
-"end": 23.189
+"start": 20.387,
+"end": 20.604
 },
 {
 "word": "3",
-"start": 23.189,
-"end": 23.499
+"start": 20.604,
+"end": 20.898
 },
 {
 "word": "billion",
-"start": 23.499,
-"end": 23.824
-},
-{
-"word": "dollars",
-"start": 23.824,
-"end": 24.149
+"start": 20.898,
+"end": 21.269
 },
 {
 "word": "a",
-"start": 24.149,
-"end": 24.211
+"start": 21.269,
+"end": 21.3
 },
 {
 "word": "year.",
-"start": 24.211,
-"end": 24.536
-},
-{
-"word": "But",
-"start": 25.047,
-"end": 25.294
-},
-{
-"word": "Israel's",
-"start": 25.294,
-"end": 25.712
-},
-{
-"word": "economy",
-"start": 25.712,
-"end": 26.316
-},
-{
-"word": "keeps",
-"start": 26.347,
-"end": 26.61
-},
-{
-"word": "growing.",
-"start": 26.61,
-"end": 27.028
-},
-{
-"word": "2023:",
-"start": 27.384,
-"end": 28.251
-},
-{
-"word": "0.64",
-"start": 28.7,
-"end": 29.691
-},
-{
-"word": "percent.",
-"start": 29.691,
-"end": 30.232
-},
-{
-"word": "Under",
-"start": 30.743,
-"end": 31.006
-},
-{
-"word": "one",
-"start": 31.006,
-"end": 31.254
-},
-{
-"word": "percent.",
-"start": 31.254,
-"end": 31.765
-},
-{
-"word": "Now",
-"start": 32.384,
-"end": 32.632
-},
-{
-"word": "the",
-"start": 32.632,
-"end": 32.756
-},
-{
-"word": "neighbours",
-"start": 32.756,
-"end": 33.174
-},
-{
-"word": "in",
-"start": 33.174,
-"end": 33.297
-},
-{
-"word": "2023,",
-"start": 33.297,
-"end": 34.164
-},
-{
-"word": "lowest",
-"start": 34.288,
-"end": 34.675
-},
-{
-"word": "first.",
-"start": 34.675,
-"end": 35.124
-},
-{
-"word": "Turkey,",
-"start": 35.898,
-"end": 36.378
-},
-{
-"word": "almost",
-"start": 36.595,
-"end": 36.889
-},
-{
-"word": "zero.",
-"start": 36.889,
-"end": 37.338
-},
-{
-"word": "Iraq",
-"start": 38.127,
-"end": 38.421
-},
-{
-"word": "0.2.",
-"start": 38.421,
-"end": 39.133
-},
-{
-"word": "Egypt",
-"start": 39.799,
-"end": 40.124
-},
-{
-"word": "0.4.",
-"start": 40.124,
-"end": 40.975
-},
-{
-"word": "Israel",
-"start": 41.626,
-"end": 42.044
-},
-{
-"word": "0.6.",
-"start": 42.044,
-"end": 42.957
-},
-{
-"word": "Judea",
-"start": 43.669,
-"end": 44.149
-},
-{
-"word": "and",
-"start": 44.149,
-"end": 44.242
-},
-{
-"word": "Samaria,",
-"start": 44.242,
-"end": 44.815
-},
-{
-"word": "also",
-"start": 45.232,
-"end": 45.558
-},
-{
-"word": "called",
-"start": 45.558,
-"end": 45.774
-},
-{
-"word": "the",
-"start": 45.774,
-"end": 45.852
-},
-{
-"word": "West",
-"start": 45.852,
-"end": 46.068
-},
-{
-"word": "Bank,",
-"start": 46.068,
-"end": 46.424
-},
-{
-"word": "and",
-"start": 46.641,
-"end": 46.811
-},
-{
-"word": "Gaza:",
-"start": 46.811,
-"end": 47.152
-},
-{
-"word": "1.6.",
-"start": 47.322,
-"end": 48.313
-},
-{
-"word": "Lebanon",
-"start": 48.824,
-"end": 49.273
-},
-{
-"word": "2.7.",
-"start": 49.273,
-"end": 50.062
-},
-{
-"word": "Jordan",
-"start": 50.573,
-"end": 50.991
-},
-{
-"word": "3.",
-"start": 50.991,
-"end": 51.378
+"start": 21.3,
+"end": 21.687
 },
 {
 "word": "The",
-"start": 52.106,
-"end": 52.276
+"start": 22.167,
+"end": 22.307
+},
+{
+"word": "economy",
+"start": 22.307,
+"end": 22.787
+},
+{
+"word": "grows.",
+"start": 22.787,
+"end": 23.39
+},
+{
+"word": "2023:",
+"start": 23.746,
+"end": 24.799
+},
+{
+"word": "0.64",
+"start": 25.217,
+"end": 26.362
+},
+{
+"word": "percent.",
+"start": 26.362,
+"end": 26.842
+},
+{
+"word": "The",
+"start": 27.291,
+"end": 27.415
+},
+{
+"word": "neighbours",
+"start": 27.415,
+"end": 27.771
+},
+{
+"word": "in",
+"start": 27.771,
+"end": 27.895
+},
+{
+"word": "2023:",
+"start": 27.895,
+"end": 28.793
+},
+{
+"word": "Turkey,",
+"start": 29.18,
+"end": 29.691
+},
+{
+"word": "almost",
+"start": 29.814,
+"end": 30.14
+},
+{
+"word": "zero.",
+"start": 30.14,
+"end": 30.573
+},
+{
+"word": "Iraq",
+"start": 31.13,
+"end": 31.502
+},
+{
+"word": "0.2.",
+"start": 31.502,
+"end": 32.369
+},
+{
+"word": "Egypt",
+"start": 33.019,
+"end": 33.39
+},
+{
+"word": "0.4.",
+"start": 33.39,
+"end": 34.319
+},
+{
+"word": "Israel",
+"start": 34.706,
+"end": 35.062
+},
+{
+"word": "0.6.",
+"start": 35.062,
+"end": 36.053
+},
+{
+"word": "Judea",
+"start": 36.301,
+"end": 36.873
+},
+{
+"word": "and",
+"start": 36.873,
+"end": 37.044
+},
+{
+"word": "Samaria,",
+"start": 37.044,
+"end": 37.647
+},
+{
+"word": "also",
+"start": 37.849,
+"end": 38.158
+},
+{
+"word": "called",
+"start": 38.158,
+"end": 38.39
+},
+{
+"word": "the",
+"start": 38.39,
+"end": 38.452
+},
+{
+"word": "West",
+"start": 38.452,
+"end": 38.7
+},
+{
+"word": "Bank,",
+"start": 38.7,
+"end": 39.056
+},
+{
+"word": "and",
+"start": 39.242,
+"end": 39.412
+},
+{
+"word": "Gaza:",
+"start": 39.412,
+"end": 39.799
+},
+{
+"word": "1.6.",
+"start": 40.14,
+"end": 41.13
+},
+{
+"word": "Lebanon",
+"start": 41.579,
+"end": 41.997
+},
+{
+"word": "2.7.",
+"start": 41.997,
+"end": 42.802
+},
+{
+"word": "Jordan",
+"start": 43.468,
+"end": 43.886
+},
+{
+"word": "3.",
+"start": 43.886,
+"end": 44.211
+},
+{
+"word": "The",
+"start": 44.784,
+"end": 44.938
 },
 {
 "word": "honest",
-"start": 52.276,
-"end": 52.585
+"start": 44.938,
+"end": 45.232
 },
 {
 "word": "part:",
-"start": 52.585,
-"end": 52.911
+"start": 45.232,
+"end": 45.65
 },
 {
 "word": "per",
-"start": 53.514,
-"end": 53.715
+"start": 45.805,
+"end": 45.991
 },
 {
 "word": "person,",
-"start": 53.715,
-"end": 54.257
+"start": 45.991,
+"end": 46.471
 },
 {
 "word": "Israel",
-"start": 54.706,
-"end": 55.217
+"start": 46.796,
+"end": 47.152
 },
 {
 "word": "still",
-"start": 55.248,
-"end": 55.542
+"start": 47.152,
+"end": 47.369
 },
 {
 "word": "gets",
-"start": 55.542,
-"end": 55.759
+"start": 47.369,
+"end": 47.539
 },
 {
 "word": "the",
-"start": 55.759,
-"end": 55.852
+"start": 47.539,
+"end": 47.632
 },
 {
 "word": "most.",
-"start": 55.852,
-"end": 56.301
+"start": 47.632,
+"end": 48.05
 },
 {
 "word": "336",
-"start": 56.858,
-"end": 58.143
+"start": 48.592,
+"end": 49.675
 },
 {
 "word": "dollars",
-"start": 58.143,
-"end": 58.561
+"start": 49.675,
+"end": 50.0
 },
 {
 "word": "each.",
-"start": 58.592,
-"end": 59.041
+"start": 50.0,
+"end": 50.418
 },
 {
 "word": "And",
-"start": 59.474,
-"end": 59.644
-},
-{
-"word": "in",
-"start": 59.644,
-"end": 59.737
-},
-{
-"word": "2024,",
-"start": 59.737,
-"end": 60.697
+"start": 50.589,
+"end": 50.728
 },
 {
 "word": "after",
-"start": 61.27,
-"end": 61.595
+"start": 50.728,
+"end": 51.007
 },
 {
 "word": "October",
-"start": 61.595,
-"end": 62.013
+"start": 51.007,
+"end": 51.332
 },
 {
 "word": "7,",
-"start": 62.013,
-"end": 62.431
+"start": 51.332,
+"end": 51.781
 },
 {
 "word": "war",
-"start": 62.864,
-"end": 63.189
+"start": 51.935,
+"end": 52.229
 },
 {
 "word": "aid",
-"start": 63.189,
-"end": 63.375
-},
-{
-"word": "jumped",
-"start": 63.375,
-"end": 63.607
-},
-{
-"word": "to",
-"start": 63.607,
-"end": 63.7
-},
-{
-"word": "12.5",
-"start": 63.7,
-"end": 64.753
-},
-{
-"word": "billion",
-"start": 64.784,
-"end": 65.14
-},
-{
-"word": "dollars.",
-"start": 65.14,
-"end": 65.743
-},
-{
-"word": "Most",
-"start": 66.394,
-"end": 66.734
-},
-{
-"word": "of",
-"start": 66.734,
-"end": 66.812
-},
-{
-"word": "it",
-"start": 66.812,
-"end": 66.997
-},
-{
-"word": "is",
-"start": 67.028,
-"end": 67.26
-},
-{
-"word": "military",
-"start": 67.26,
-"end": 67.833
-},
-{
-"word": "aid,",
-"start": 67.864,
-"end": 68.143
-},
-{
-"word": "spent",
-"start": 68.344,
-"end": 68.685
-},
-{
-"word": "on",
-"start": 68.685,
-"end": 68.793
-},
-{
-"word": "American",
-"start": 68.793,
-"end": 69.304
-},
-{
-"word": "made",
-"start": 69.304,
-"end": 69.613
-},
-{
-"word": "weapons.",
-"start": 69.613,
-"end": 70.171
-},
-{
-"word": "Gift,",
-"start": 70.867,
-"end": 71.316
-},
-{
-"word": "or",
-"start": 71.564,
-"end": 71.734
-},
-{
-"word": "investment?",
-"start": 71.734,
-"end": 72.338
-},
-{
-"word": "Tell",
-"start": 72.524,
-"end": 72.725
-},
-{
-"word": "me",
-"start": 72.725,
-"end": 72.849
+"start": 52.229,
+"end": 52.384
 },
 {
 "word": "in",
-"start": 72.849,
-"end": 72.911
+"start": 52.384,
+"end": 52.477
+},
+{
+"word": "2024",
+"start": 52.477,
+"end": 53.313
+},
+{
+"word": "jumped",
+"start": 53.638,
+"end": 53.917
+},
+{
+"word": "to",
+"start": 53.917,
+"end": 53.979
+},
+{
+"word": "12.5",
+"start": 53.979,
+"end": 54.722
+},
+{
+"word": "billion",
+"start": 54.722,
+"end": 55.0
+},
+{
+"word": "dollars.",
+"start": 55.0,
+"end": 55.558
+},
+{
+"word": "Gift,",
+"start": 55.898,
+"end": 56.285
+},
+{
+"word": "or",
+"start": 56.316,
+"end": 56.486
+},
+{
+"word": "investment?",
+"start": 56.486,
+"end": 57.09
+},
+{
+"word": "Tell",
+"start": 57.508,
+"end": 57.694
+},
+{
+"word": "me",
+"start": 57.694,
+"end": 57.787
+},
+{
+"word": "in",
+"start": 57.787,
+"end": 57.849
 },
 {
 "word": "the",
-"start": 72.911,
-"end": 73.004
+"start": 57.849,
+"end": 57.911
 },
 {
 "word": "comments.",
-"start": 73.004,
-"end": 73.561
+"start": 57.911,
+"end": 58.437
 },
 {
 "word": "If",
-"start": 74.134,
-"end": 74.319
+"start": 59.103,
+"end": 59.257
 },
 {
 "word": "you",
-"start": 74.319,
-"end": 74.443
+"start": 59.257,
+"end": 59.35
 },
 {
 "word": "like",
-"start": 74.443,
-"end": 74.706
+"start": 59.35,
+"end": 59.49
 },
 {
 "word": "Israel",
-"start": 74.706,
-"end": 75.093
+"start": 59.551,
+"end": 59.877
 },
 {
 "word": "facts,",
-"start": 75.093,
-"end": 75.604
+"start": 59.877,
+"end": 60.387
 },
 {
 "word": "follow",
-"start": 75.759,
-"end": 76.146
+"start": 60.573,
+"end": 60.852
 },
 {
 "word": "Noam",
-"start": 76.146,
-"end": 76.564
+"start": 60.852,
+"end": 61.115
 },
 {
 "word": "Roz",
-"start": 76.564,
-"end": 77.137
+"start": 61.115,
+"end": 61.502
 },
 {
 "word": "for",
-"start": 77.384,
-"end": 77.586
+"start": 61.502,
+"end": 61.626
 },
 {
 "word": "more.",
-"start": 77.586,
-"end": 77.911
+"start": 61.626,
+"end": 62.013
 },
 {
 "word": "So,",
-"start": 78.669,
-"end": 79.118
+"start": 62.555,
+"end": 62.771
 },
 {
 "word": "does",
-"start": 79.66,
-"end": 79.892
+"start": 62.771,
+"end": 62.88
 },
 {
 "word": "America",
-"start": 79.892,
-"end": 80.496
+"start": 62.88,
+"end": 63.22
 },
 {
 "word": "pay",
-"start": 80.558,
-"end": 80.774
+"start": 63.22,
+"end": 63.39
 },
 {
 "word": "for",
-"start": 80.774,
-"end": 80.945
+"start": 63.39,
+"end": 63.545
 },
 {
 "word": "Israel?",
-"start": 80.945,
-"end": 81.254
+"start": 63.545,
+"end": 63.963
 }
 ]
