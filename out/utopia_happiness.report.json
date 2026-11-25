@@ -1,0 +1,149 @@
+{
+ "id": "utopia_happiness",
+ "account": "noamroz__",
+ "template": "zoom_stock",
+ "hook": "Perfect happiness: *100.*|Israel: *72.*",
+ "duration": 45.67,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.8
+ },
+ "outputs": {
+  "mp4": "out/utopia_happiness.mp4",
+  "cover": "covers/utopia_happiness_cover.jpg",
+  "preview": "previews/utopia_happiness_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/utopia_happiness_0.jpg",
+  "1": "out/frames/utopia_happiness_1.jpg",
+  "3": "out/frames/utopia_happiness_3.jpg",
+  "last": "out/frames/utopia_happiness_last.jpg"
+ },
+ "caption_en": "Perfect happiness: 100. Israel: 72.\n\nThe World Happiness Report 2026 asks people to rate their life from 0 (worst possible) to 10 (best possible). Israel: 7.19, 8th of 147 countries.\n\nWhat's in the gap?\n• Prices: 4th highest of the 38 OECD countries (OECD 2025).\n• Poverty: 20.7% of Israelis (National Insurance Institute).\n• The war: Israel was 5th in 2024, now 8th.\n\nZoom out, same scale (x10): 🇮🇱 Israel 72, 🇦🇪 UAE 68, 🇸🇦 Saudi Arabia 68, 🇰🇼 Kuwait 65, 🇹🇷 Turkey 53, 🇮🇷 Iran 52, 🇯🇴 Jordan 45, 🇪🇬 Egypt 39. Last in the world: Afghanistan, 14.\n\nHonest catch: the UAE and Saudi Arabia are only 4 points behind.\n\nWe're not perfect. But miserable? We're closer to a happy life than anyone around us.\n\nSend this to a critic.",
+ "caption_he": "אושר מושלם: 100. ישראל: 72, מקום 8 בעולם.\nבפער: יוקר מחיה (מקום 4 מתוך 38 במדינות ה־OECD), עוני (20.7%), והמלחמה: ב־2024 היינו במקום 5.\nזום אאוט: האמירויות וסעודיה 68, כווית 65, טורקיה 53, איראן 52, ירדן 45, מצרים 39. במקום האחרון: אפגניסטן, 14.\nובכנות: האמירויות וסעודיה רק 4 נקודות מאחור.\nלא מושלמים. אבל מסכנים? הכי קרובים לאושר באזור.\n\nSources: World Happiness Report 2026; OECD 2025; National Insurance Institute.",
+ "hashtags": [
+  "#Israel",
+  "#Happiness",
+  "#MiddleEast"
+ ],
+ "sources": [
+  {
+   "label": "World Happiness Report (Gallup World Poll, 2023 to 2025)",
+   "year": 2026,
+   "at": "L1",
+   "until": "L1e"
+  },
+  {
+   "label": "OECD Economic Survey of Israel",
+   "year": 2025,
+   "at": "L2",
+   "until": "L2e"
+  },
+  {
+   "label": "National Insurance Institute, Poverty Report",
+   "year": 2025,
+   "at": "L3",
+   "until": "L3e"
+  },
+  {
+   "label": "World Happiness Report 2024 and 2026",
+   "year": 2026,
+   "at": "L4",
+   "until": "L9e"
+  }
+ ],
+ "transcript": {
+  "score": 0.977,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "This is a perfectly happy life. Israel is here.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Seventy-two out of a hundred. The eighth happiest country on Earth.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "What's in the gap? Prices: fourth highest of thirty-eight rich countries.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Poverty: one in five Israelis.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And the war. Israel was fifth in twenty twenty-four. Now it's eighth.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "Now zoom out. They think Israelis must be miserable.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Miserable looks like this: Afghanistan, last in the world, at fourteen.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The Emirates and Saudi Arabia, sixty-eight. Kuwait, sixty-five. Turkey, fifty-three. Iran, fifty-two. Jordan, forty-five. Egypt, thirty-nine.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Every neighbour is further from a happy life.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "One honest catch: the Emirates and Saudi Arabia are only four points behind.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "We're not perfect. We know it.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "But miserable? We're closer to a happy life than anyone around us.",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "This is a perfectly happy life. Israel is here. 72 out of 100. The eighth happiest country on earth. What's in the gap? Prices. Fourth highest of 38 rich countries. Poverty. One in five Israelis. And the war. Israel was fifth in 2024. Now it's eighth. Now zoom out. They think the Israelis must be miserable. Miserable looks like this. Afghanistan. Last in the world at 14. The Emirates and Saudi Arabia, 68. Kuwait, 65. Turkey, 53. Iran, 52. Jordan, 45. Egypt, 39. Every neighbor is further from a happy life. One honest catch. The Emirates and Saudi Arabia are only four points behind. We're not perfect. We know it. But miserable. We're closer to a happy life than anyone around us.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -1.8
+ },
+ "photos": [
+  {
+   "file": "templates/photos/not_perfect_zoom/skyline.jpg",
+   "credit": "Tel Aviv, Maqaf Ivri, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/cranes.jpg",
+   "credit": "Tel Aviv cranes, Chenspec, CC BY-SA 4.0"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/arabtown.jpg",
+   "credit": "Sakhnin, Shlomo Rodded (PikiWiki), CC BY 2.5"
+  },
+  {
+   "file": "templates/photos/not_perfect_zoom/knesset.jpg",
+   "credit": "Knesset, Beit HaShalom, Wikimedia Commons"
+  }
+ ],
+ "lint_warnings": [],
+ "render_s": 91.7
+}
