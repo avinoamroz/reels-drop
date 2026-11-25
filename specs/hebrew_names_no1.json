@@ -478,15 +478,6 @@
     "dim": 0.3
    }
   ],
-  "overlays": [
-   {
-    "at": "L14",
-    "until": "L15",
-    "text": "What does *your* name mean?",
-    "y": 1330,
-    "size": 64
-   }
-  ],
   "brand": {
    "text": "Israel Facts",
    "show": [

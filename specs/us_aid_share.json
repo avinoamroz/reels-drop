@@ -8,7 +8,7 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
+  "tempo": 1.13,
   "gap": 0.15
  },
  "lines": [
@@ -17,13 +17,15 @@
    "gap": 0.15
   },
   {
-   "say": "That's the year of the peace treaty with Egypt.",
+   "say": "The year of the peace treaty with Egypt.",
    "screen": "1979: *peace* with Egypt",
+   "until": "L2",
    "gap": 0.12
   },
   {
-   "say": "Today, many say America pays for Israel. So let's run the clock.",
+   "say": "Many say America pays for Israel. Let's run the clock.",
    "screen": "America *pays* for Israel?",
+   "until": "L3",
    "gap": 0.12
   },
   {
@@ -35,25 +37,17 @@
    "gap": 0.1
   },
   {
-   "say": "2000: under 3. The aid stays near 3 billion dollars a year.",
+   "say": "2000: under 3. The aid stays near 3 billion a year. The economy grows.",
    "screen": "Aid: about *$3 billion* a year",
+   "until": "L6",
    "gap": 0.12
   },
   {
-   "say": "But Israel's economy keeps growing.",
-   "screen": "The economy *grows*",
-   "gap": 0.12
-  },
-  {
-   "say": "2023: 0.64 percent. Under one percent.",
+   "say": "2023: 0.64 percent.",
    "gap": 0.15
   },
   {
-   "say": "Now the neighbours in 2023, lowest first.",
-   "gap": 0.1
-  },
-  {
-   "say": "Turkey, almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6.",
+   "say": "The neighbours in 2023: Turkey, almost zero. Iraq 0.2. Egypt 0.4. Israel 0.6.",
    "gap": 0.1
   },
   {
@@ -65,14 +59,10 @@
    "gap": 0.15
   },
   {
-   "say": "And in 2024, after October 7, war aid jumped to 12.5 billion dollars.",
+   "say": "And after October 7, war aid in 2024 jumped to 12.5 billion dollars.",
    "screen": "2024: *$12.5 billion,* 2.3% of GDP",
+   "until": "L11",
    "gap": 0.12
-  },
-  {
-   "say": "Most of it is military aid, spent on American made weapons.",
-   "screen": "Mostly *military* aid, spent in the US",
-   "gap": 0.15
   },
   {
    "say": "Gift, or investment? Tell me in the comments.",
@@ -90,7 +80,7 @@
  ],
  "data": {
   "cam0": [
-   -38.0,
+   -30.0,
    36.0,
    150
   ],
@@ -108,7 +98,7 @@
     "dur": 1.3
    },
    {
-    "at": "L8-0.3",
+    "at": "L7-0.3",
     "view": [
      38.0,
      32.0,
@@ -118,9 +108,9 @@
     "dur": 1.2
    },
    {
-    "at": "L16-0.2",
+    "at": "L13-0.2",
     "view": [
-     -38.0,
+     -30.0,
      36.0,
      150,
      960
@@ -146,49 +136,49 @@
     "flash_s": 0
    },
    {
-    "at": "L8-0.2",
-    "until": "L11",
+    "at": "L7-0.2",
+    "until": "L9",
     "code": "JOR",
     "color": "#45A4DD",
     "alpha": 0.75
    },
    {
-    "at": "L8-0.2",
-    "until": "L11",
+    "at": "L7-0.2",
+    "until": "L9",
     "code": "EGY",
     "color": "#45A4DD",
     "alpha": 0.75
    },
    {
-    "at": "L8-0.2",
-    "until": "L11",
+    "at": "L7-0.2",
+    "until": "L9",
     "code": "LBN",
     "color": "#45A4DD",
     "alpha": 0.75
    },
    {
-    "at": "L8-0.2",
-    "until": "L11",
+    "at": "L7-0.2",
+    "until": "L9",
     "code": "SYR",
     "color": "#45A4DD",
     "alpha": 0.75
    },
    {
-    "at": "L8-0.2",
-    "until": "L11",
+    "at": "L7-0.2",
+    "until": "L9",
     "code": "IRQ",
     "color": "#45A4DD",
     "alpha": 0.75
    },
    {
-    "at": "L8-0.2",
-    "until": "L11",
+    "at": "L7-0.2",
+    "until": "L9",
     "code": "TUR",
     "color": "#45A4DD",
     "alpha": 0.75
    },
    {
-    "at": "L16",
+    "at": "L13",
     "until": "END",
     "code": "EGY",
     "color": "#45A4DD",
@@ -196,7 +186,7 @@
     "flash_s": 0
    },
    {
-    "at": "L16",
+    "at": "L13",
     "until": "END",
     "code": "USA",
     "color": "#45A4DD",
@@ -206,7 +196,7 @@
   ],
   "clock": {
    "at": "L2:clock",
-   "until": "L8-0.2",
+   "until": "L7-0.2",
    "y": 560,
    "label": "",
    "steps": [
@@ -227,7 +217,7 @@
      "year": 2000
     },
     {
-     "at": "L7",
+     "at": "L6",
      "year": 2023
     }
    ],
@@ -236,7 +226,7 @@
   "counter": {
    "label": "US aid, % of Israel's GDP",
    "at": "L0",
-   "until": "L8-0.2",
+   "until": "L7-0.2",
    "suffix": "%",
    "dec": 1,
    "steps": [
@@ -261,15 +251,15 @@
      "value": 2.8
     },
     {
-     "at": "L7",
+     "at": "L6",
      "text": "0.64%"
     }
    ]
   },
   "bars": [
    {
-    "at": "L8-0.2",
-    "until": "L11-0.1",
+    "at": "L7-0.2",
+    "until": "L9-0.1",
     "title": "US aid, % of GDP, *2023*",
     "lab_w": 470,
     "vmax": 3.4,
@@ -279,7 +269,7 @@
       "flag": "TR",
       "value": 0.02,
       "txt": "0.02%",
-      "at": "L9",
+      "at": "L7:turkey",
       "color": "#45A4DD"
      },
      {
@@ -287,7 +277,7 @@
       "flag": "IQ",
       "value": 0.16,
       "txt": "0.16%",
-      "at": "L9:iraq",
+      "at": "L7:iraq",
       "color": "#45A4DD"
      },
      {
@@ -295,7 +285,7 @@
       "flag": "EG",
       "value": 0.39,
       "txt": "0.39%",
-      "at": "L9:egypt",
+      "at": "L7:egypt",
       "color": "#45A4DD"
      },
      {
@@ -303,7 +293,7 @@
       "flag": "IL",
       "value": 0.64,
       "txt": "0.64%",
-      "at": "L9:israel",
+      "at": "L7:israel",
       "hl": true
      },
      {
@@ -311,7 +301,7 @@
       "flag": "PS",
       "value": 1.58,
       "txt": "1.58%",
-      "at": "L10",
+      "at": "L8",
       "color": "#45A4DD"
      },
      {
@@ -319,7 +309,7 @@
       "flag": "LB",
       "value": 2.67,
       "txt": "2.67%",
-      "at": "L10:lebanon",
+      "at": "L8:lebanon",
       "color": "#45A4DD"
      },
      {
@@ -327,7 +317,7 @@
       "flag": "JO",
       "value": 3.01,
       "txt": "3.01%",
-      "at": "L10:jordan",
+      "at": "L8:jordan",
       "color": "#45A4DD"
      },
      {
@@ -335,14 +325,14 @@
       "flag": "SY",
       "value": 0,
       "txt": "no data",
-      "at": "L10:jordan+0.3",
+      "at": "L8:jordan+0.3",
       "color": "#45A4DD"
      }
     ]
    },
    {
-    "at": "L11:per",
-    "until": "L12-0.1",
+    "at": "L9:per",
+    "until": "L10-0.1",
     "title": "US aid *per person,* 2023",
     "lab_w": 470,
     "vmax": 360,
@@ -352,7 +342,7 @@
       "flag": "IL",
       "value": 336,
       "txt": "$336",
-      "at": "L11:per+0.0",
+      "at": "L9:per+0.0",
       "hl": true
      },
      {
@@ -360,7 +350,7 @@
       "flag": "JO",
       "value": 147,
       "txt": "$147",
-      "at": "L11:per+0.1",
+      "at": "L9:per+0.1",
       "color": "#45A4DD"
      },
      {
@@ -368,7 +358,7 @@
       "flag": "LB",
       "value": 93,
       "txt": "$93",
-      "at": "L11:per+0.3",
+      "at": "L9:per+0.3",
       "color": "#45A4DD"
      },
      {
@@ -376,7 +366,7 @@
       "flag": "PS",
       "value": 57,
       "txt": "$57",
-      "at": "L11:per+0.4",
+      "at": "L9:per+0.4",
       "color": "#45A4DD"
      },
      {
@@ -384,7 +374,7 @@
       "flag": "SY",
       "value": 32,
       "txt": "$32",
-      "at": "L11:per+0.6",
+      "at": "L9:per+0.6",
       "color": "#45A4DD"
      },
      {
@@ -392,7 +382,7 @@
       "flag": "EG",
       "value": 13,
       "txt": "$13",
-      "at": "L11:per+0.8",
+      "at": "L9:per+0.8",
       "color": "#45A4DD"
      },
      {
@@ -400,7 +390,7 @@
       "flag": "IQ",
       "value": 9,
       "txt": "$9",
-      "at": "L11:per+0.9",
+      "at": "L9:per+0.9",
       "color": "#45A4DD"
      },
      {
@@ -408,7 +398,7 @@
       "flag": "TR",
       "value": 2,
       "txt": "$2",
-      "at": "L11:per+1.1",
+      "at": "L9:per+1.1",
       "color": "#45A4DD"
      }
     ]
@@ -418,7 +408,7 @@
    {
     "file": "templates/photos/us_aid_share/ua_capitol.jpg",
     "at": "L2",
-    "until": "L2:so",
+    "until": "L2:let's",
     "credit": "US Capitol: Beethoven, CC BY-SA 4.0",
     "kb": [
      0.5,
@@ -432,8 +422,8 @@
    },
    {
     "file": "templates/photos/us_aid_share/ua_tlv.jpg",
-    "at": "L6",
-    "until": "L7",
+    "at": "L5:the#2",
+    "until": "L6",
     "credit": "Tel Aviv: Yair Haklai, CC BY-SA 4.0",
     "kb": [
      0.5,
@@ -447,8 +437,8 @@
    },
    {
     "file": "templates/photos/us_aid_share/ua_irondome.jpg",
-    "at": "L12",
-    "until": "L14",
+    "at": "L10",
+    "until": "L11",
     "credit": "Iron Dome: IDF Spokesperson's Unit, CC BY-SA 3.0",
     "kb": [
      0.5,
@@ -461,15 +451,6 @@
     "dim": 0.35
    }
   ],
-  "overlays": [
-   {
-    "at": "L14",
-    "until": "L15",
-    "text": "Gift, or *investment?*",
-    "y": 1330,
-    "size": 64
-   }
-  ],
   "brand": {
    "text": "Israel Facts",
    "show": [
@@ -478,7 +459,7 @@
      "L0e"
     ],
     [
-     "L16",
+     "L13",
      "END"
     ]
    ]
@@ -489,24 +470,24 @@
    "label": "USAID Foreign Aid Explorer (obligations); World Bank GDP",
    "year": 2024,
    "at": "L0",
-   "until": "L11"
+   "until": "L9"
   },
   {
    "label": "Population: World Bank",
    "year": 2024,
-   "at": "L11",
-   "until": "L12"
+   "at": "L9",
+   "until": "L10"
   },
   {
    "label": "CRS, J. Sharp, U.S. Foreign Aid to Israel",
    "year": 2025,
-   "at": "L12",
-   "until": "L14"
+   "at": "L10",
+   "until": "L11"
   }
  ],
  "end": {
-  "at": "L14",
-  "until": "L15e",
+  "at": "L11",
+  "until": "L12e",
   "balance": "Per person, Israel *still* gets the most.",
   "cta": "Gift or investment? *Comments.*"
  },

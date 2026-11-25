@@ -27,22 +27,22 @@
    "gap": 0.1
   },
   {
-   "say": "Halpern: Heilbronn. Ginzburg: Gunzburg.",
+   "say": "Halpern: Heilbronn. And Ginzburg: Gunzburg.",
    "screen": "Halpern = *Heilbronn.* Ginzburg = *Günzburg.*",
    "gap": 0.12
   },
   {
-   "say": "Horowitz: Horovice, in today's Czech Republic.",
+   "say": "Horowitz: the town of Horovice, in today's Czech Republic.",
    "screen": "Horowitz = *Hořovice*",
    "gap": 0.12
   },
   {
-   "say": "Prager: Prague. Wiener: Vienna. Posner: Poznan, Poland.",
+   "say": "Prager: Prague. Wiener: Vienna. Posner: Poznan, in Poland.",
    "screen": "Prager, Wiener, *Posner*",
    "gap": 0.15
   },
   {
-   "say": "Why towns? In 1787, Austria's emperor ordered every Jew to take a surname.",
+   "say": "So why towns? In 1787, Austria's emperor ordered every Jew to take a surname.",
    "screen": "*1787:* every Jew needs a surname",
    "gap": 0.12
   },
@@ -100,9 +100,9 @@
    {
     "at": "L1-0.2",
     "view": [
-     8.7,
-     49.55,
-     2.8,
+     8.9,
+     49.5,
+     4.6,
      900
     ],
     "dur": 1.2
@@ -111,8 +111,8 @@
     "at": "L3-0.2",
     "view": [
      9.4,
-     49.1,
-     3.6,
+     49.3,
+     5.0,
      900
     ],
     "dur": 1.0
@@ -427,15 +427,6 @@
      1.12
     ],
     "dim": 0.4
-   }
-  ],
-  "overlays": [
-   {
-    "at": "L13",
-    "until": "L14",
-    "text": "Where is *your* name from?",
-    "y": 1330,
-    "size": 64
    }
   ],
   "brand": {
