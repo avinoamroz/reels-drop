@@ -88,7 +88,8 @@
   {
    "say": "If you like Israel facts, follow Noam Roz for more.",
    "screen": "Like Israel facts? Follow *@noamroz__*",
-   "gap": 0.15
+   "gap": 0.15,
+   "until": "L15e"
   },
   {
    "say": "Because today, it's still",
@@ -471,7 +472,7 @@
      "L0e"
     ],
     [
-     "L15",
+     "L16",
      "END"
     ]
    ]
