@@ -1,0 +1,195 @@
+{
+ "id": "cyprus_52_years",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "*36%* of Cyprus.|*52* years occupied.",
+ "duration": 66.93,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "outputs": {
+  "mp4": "out/cyprus_52_years.mp4",
+  "cover": "covers/cyprus_52_years_cover.jpg",
+  "preview": "previews/cyprus_52_years_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/cyprus_52_years_0.jpg",
+  "1": "out/frames/cyprus_52_years_1.jpg",
+  "3": "out/frames/cyprus_52_years_3.jpg",
+  "last": "out/frames/cyprus_52_years_last.jpg"
+ },
+ "caption_en": "There's an occupation in Europe that almost nobody marches for. 🇨🇾\n\n📅 15 July 1974: Greece's military junta backs a coup in Cyprus.\n⚔️ 20 July 1974: Turkey invades (\"Operation Attila\"). By August its army holds about 36% of the island (36.2% per the Cyprus government; 37% per the US Library of Congress).\n🏠 Displaced: about 165,000 Greek Cypriots and about 45,000 Turkish Cypriots (UN peacekeepers' estimate).\n🏛️ 1983: the north declares the \"Turkish Republic of Northern Cyprus\". UN Security Council Resolution 541 calls it legally invalid. Only Turkey recognises it.\n🪖 Turkish troops on the island: estimates from just under 30,000 (UN Secretary-General, 1994) to more than 43,000 (Cyprus government, 2025).\n🏖️ Varosha, Famagusta: fenced off since 1974. Resolution 550 (1984) says only its own inhabitants may resettle it. In October 2020 part of it was reopened, and the Security Council called for a reversal.\n🧱 Nicosia: the last divided capital in Europe. UN peacekeepers (UNFICYP, the UN Peacekeeping Force in Cyprus) have been there since 1964.\n👥 Settlers from Turkey: estimates vary widely. The Cyprus government says more than 160,000 (2025); independent researchers dispute such counts.\n\nThe other side of the story: in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves, which is why the UN arrived in 1964. And in the 2004 UN (Annan) plan referendum, Turkish Cypriots voted 65% yes, Greek Cypriots 76% no.\n\nIsrael is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments.\n\nSources: US Library of Congress, Cyprus: A Country Study (1991); UN Security Council resolutions 186 (1964), 541 (1983), 550 (1984), 789 (1992), statement S/PRST/2020/9 (2020); UN Secretary-General report S/1994/680; UNFICYP (unficyp.unmissions.org); IDMC (2005) citing UNFICYP estimates; Britannica, Northern Cyprus; IFES ElectionGuide, Cyprus referendum 2004; Cyprus government, The Cyprus Question (2025).\nPhotos (Wikimedia Commons): Varosha, Adam Jones (CC BY-SA 2.0, 2 photos); Varosha fence, Amanda Slater (CC BY-SA 2.0); Varosha hotel, Libresocietycy (CC BY-SA 4.0); Nicosia buffer zone, dronepicr (CC BY 2.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "יש כיבוש באירופה שכמעט אף אחד לא מפגין נגדו. 🇨🇾\n\n📅 15 ביולי 1974: החונטה הצבאית ביוון מגבה הפיכה בקפריסין.\n⚔️ 20 ביולי 1974: טורקיה פולשת (\"מבצע אטילה\"). עד אוגוסט הצבא שלה מחזיק בכ-36% מהאי.\n🏠 עקורים: כ-165,000 קפריסאים יוונים וכ-45,000 קפריסאים טורקים (הערכת כוח השלום של האו\"ם).\n🏛️ 1983: הצפון מכריז על מדינה. החלטה 541 של מועצת הביטחון קובעת שההכרזה פסולה משפטית. רק טורקיה מכירה בה.\n🪖 חיילים טורקים באי: בין קצת פחות מ-30,000 (מזכ\"ל האו\"ם, 1994) ליותר מ-43,000 (ממשלת קפריסין, 2025).\n🏖️ ורושה שבפמגוסטה: מגודרת מאז 1974. באוקטובר 2020 חלק ממנה נפתח, ומועצת הביטחון קראה לבטל את המהלך.\n🧱 ניקוסיה: הבירה החצויה האחרונה באירופה. כוחות שלום של האו\"ם נמצאים שם מאז 1964.\n\nהצד השני של הסיפור: בשנות ה-60 אלימות בין שתי הקהילות דחקה קפריסאים טורקים רבים למובלעות, ובגלל זה האו\"ם הגיע ב-1964. ובמשאל העם על תוכנית אנאן של האו\"ם ב-2004, הקפריסאים הטורקים הצביעו 65% בעד, והקפריסאים היוונים 76% נגד.\n\nאת ישראל מכנים כובשת כל יום. אז למה על קפריסין כל כך שקט? כתבו לי בתגובות.",
+ "hashtags": [
+  "#Cyprus",
+  "#FreeCyprus",
+  "#Varosha",
+  "#IsraelFacts"
+ ],
+ "sources": [
+  {
+   "label": "US Library of Congress, Cyprus country study",
+   "year": 1991,
+   "at": "L1",
+   "until": "L4"
+  },
+  {
+   "label": "UN peacekeepers' estimate, via IDMC",
+   "year": 2005,
+   "at": "L4",
+   "until": "L5"
+  },
+  {
+   "label": "UN Security Council Res. 541",
+   "year": 1983,
+   "at": "L5",
+   "until": "L6"
+  },
+  {
+   "label": "Britannica, Northern Cyprus",
+   "year": 2025,
+   "at": "L6",
+   "until": "L7"
+  },
+  {
+   "label": "UN Sec-Gen S/1994/680; Cyprus gov.",
+   "year": 2025,
+   "at": "L7",
+   "until": "L8"
+  },
+  {
+   "label": "UNSC Res. 550 (1984), 789 (1992)",
+   "year": 1992,
+   "at": "L8",
+   "until": "L9"
+  },
+  {
+   "label": "UNSC statement S/PRST/2020/9",
+   "year": 2020,
+   "at": "L9",
+   "until": "L10"
+  },
+  {
+   "label": "UNFICYP, UNSC Res. 186",
+   "year": 1964,
+   "at": "L10",
+   "until": "L12"
+  },
+  {
+   "label": "US Library of Congress, Cyprus country study",
+   "year": 1991,
+   "at": "L12",
+   "until": "L13"
+  },
+  {
+   "label": "IFES ElectionGuide, Annan Plan vote",
+   "year": 2004,
+   "at": "L13",
+   "until": "L14"
+  }
+ ],
+ "transcript": {
+  "score": 0.975,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "36 percent of an EU country, under a foreign army for 52 years.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "July 1974. Greece's military junta backs a coup in Cyprus.",
+    "score": 0.875,
+    "flag": "ok"
+   },
+   {
+    "line": "Five days later, Turkey invades. Operation Attila.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "By August, Turkey's army holds about 36 percent of the island.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "About 165,000 Greek Cypriots lose their homes. About 45,000 Turkish Cypriots move north.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "1983: the north declares a state. The UN Security Council calls it legally invalid.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Countries that recognise it today: one. Turkey.",
+    "score": 0.857,
+    "flag": "ok"
+   },
+   {
+    "line": "And tens of thousands of Turkish troops are still there.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "This is Varosha, in Famagusta. A beach resort, fenced off since 1974.",
+    "score": 0.889,
+    "flag": "ok"
+   },
+   {
+    "line": "In 2020, part of it was reopened. The Security Council called for a reversal.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nicosia is still cut in two. The last divided capital in Europe.",
+    "score": 0.917,
+    "flag": "ok"
+   },
+   {
+    "line": "UN peacekeepers have patrolled here since 1964,",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "because in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "And in 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Israel is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow Noam Roz for more.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Because today, it's still",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "36% of an EU country under a foreign army for 52 years. July 1974. Greece's military jint of acts a coup in Cyprus. Five days later, Turkey invades. Operation Attila. By August, Turkey's army holds about 36% of the island. About 165,000 Greek Cypriots lose their homes. About 45,000 Turkish Cypriots move north. 1983, the north declares a state. The UN Security Council calls it legally invalid. Countries that recognize it today, one, Turkey, and tens of thousands of Turkish troops are still there. This is Verosha and Famagusta, a beach resort fenced off since 1974. In 2020, part of it was reopened. The Security Council called for a reversal. Mikosha is still cut in two, the last divided capital in Europe. UN peacekeepers have patrolled here since 1964, because in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves, and in 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no. Israel is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments. If you like Israel facts, follow Noam Roz for more. Because today, it's still.",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 66.94,
+ "opener": null,
+ "mix": {
+  "lufs": -16.0,
+  "true_peak": -2.0
+ },
+ "lint_warnings": [],
+ "render_s": 138.6
+}
