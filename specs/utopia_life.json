@@ -87,7 +87,9 @@
   "utopia": {
    "value": 85.3,
    "label": "UTOPIA",
-   "note": "= the longest life on Earth:|Hong Kong, 85.3 years"
+   "note": "= the longest life on Earth:|Hong Kong, 85.3 years",
+   "gap_unit": "years",
+   "gap_dec": 1
   },
   "israel": {
    "value": 83.2,

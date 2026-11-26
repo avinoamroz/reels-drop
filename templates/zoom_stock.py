@@ -172,7 +172,7 @@ def run(S):
         ba = ca * (1 - z) * (1 - seg(t, BL[0]["t0"] - 0.2, BL[0]["t0"] + 0.2)) if BL else 0
         if ba > 0.01:
             xb = x1 - 30; cv.line([(xb, yu + 12), (xb, yi - 12)], WHITE, 4, ba, dash=[10, 10])
-            cv.text(f"{U['value'] - IL['value']:.0f} points", (x0 + x1) / 2, (yu + yi) / 2, 64, WHITE, ba, maxw=600)
+            cv.text(f"{U['value'] - IL['value']:.{U.get('gap_dec', 0)}f} {U.get('gap_unit', 'points')}", (x0 + x1) / 2, (yu + yi) / 2, 64, WHITE, ba, maxw=600)
 
     def frame(t):
         g = geom(t); z = g[0]
