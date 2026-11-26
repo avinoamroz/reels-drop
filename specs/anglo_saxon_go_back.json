@@ -184,7 +184,7 @@
     "alpha": 0.8
    },
    {
-    "at": "L7:germany",
+    "at": "L7:back",
     "until": "L8",
     "code": "DEU",
     "color": "#F2C94C",
@@ -199,7 +199,7 @@
    },
    {
     "at": "L13",
-    "until": "L14",
+    "until": "L16",
     "code": "GBR",
     "color": "#45A4DD",
     "alpha": 0.8
@@ -390,6 +390,22 @@
    }
   ],
   "names": [
+   {
+    "at": "L13",
+    "until": "L16",
+    "text": "England: 1,500 years",
+    "lon": -2.0,
+    "lat": 56.5,
+    "size": 50
+   },
+   {
+    "at": "L13:what",
+    "until": "L16",
+    "text": "Jews: 3,000 years",
+    "lon": 35.0,
+    "lat": 35.5,
+    "size": 50
+   },
    {
     "at": "L1",
     "until": "L7",
