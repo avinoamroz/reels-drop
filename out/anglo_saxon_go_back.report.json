@@ -1,0 +1,177 @@
+{
+ "id": "anglo_saxon_go_back",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "England: occupied|since *449* AD?",
+ "duration": 58.7,
+ "audio": {
+  "lufs": -16.0,
+  "true_peak": -1.9
+ },
+ "outputs": {
+  "mp4": "out/anglo_saxon_go_back.mp4",
+  "cover": "covers/anglo_saxon_go_back_cover.jpg",
+  "preview": "previews/anglo_saxon_go_back_540.mp4"
+ },
+ "frames": {
+  "0": "out/frames/anglo_saxon_go_back_0.jpg",
+  "1": "out/frames/anglo_saxon_go_back_1.jpg",
+  "3": "out/frames/anglo_saxon_go_back_3.jpg",
+  "last": "out/frames/anglo_saxon_go_back_last.jpg"
+ },
+ "caption_en": "England has had a 1,500 year \"occupation\". Nobody seems to mind. 🇬🇧\n\n(Satire, with a serious point.)\n\nThe facts:\n• Around 449, three tribes crossed the North Sea to Britain: the Angles (from Angeln, northern Germany), the Saxons (northern Germany) and the Jutes (Jutland, Denmark). The monk Bede wrote it down in 731.\n• Ancient DNA: early medieval people buried in eastern England had up to 76% of their ancestry from the continental North Sea zone.\n• The name \"England\" comes from Old English \"Engla land\": land of the Angles.\n\nNobody tells the English to go back to Germany. After 1,500 years, people are home.\n\nNow the Jews:\n• About 1208 BCE: Pharaoh Merneptah's victory stone (the Merneptah Stele) names \"Israel\", the earliest known mention.\n• About 1000 BCE: Jerusalem becomes the capital of the Jewish kingdom under King David.\n• Around the year 400: Jewish scholars finish the Jerusalem Talmud in Tiberias.\n• 1500s: Safed is the main centre of Kabbalah.\n\nIf 1,500 years makes you local, what do 3,000 make the Jews?\n\nMany Palestinians also have deep roots in this land. Both peoples are staying. The real question is how to live side by side.\n\nHow many years make someone local? Tell me in the comments.\n\nSources: Bede, Ecclesiastical History of the English People (finished 731), via Cambridge University Library and Our Migration Story; Anglo-Saxon Chronicle, entry for 449 (Avalon Project, Yale Law School); Gretzinger et al., \"The Anglo-Saxon migration and the formation of the early English gene pool\", Nature (2022); Online Etymology Dictionary, \"England\"; Biblical Archaeology Society, \"The Merneptah Stela: Israel Enters History\"; Encyclopaedia Britannica: Jerusalem (History), David, Talmud, Safed (Zefat).\nPhotos (Wikimedia Commons): Historia ecclesiastica by Bede, book photo (CC0); Sutton Hoo helmet replica, Gernot Keller (CC BY-SA 2.5); White Cliffs of Dover, kallerna (CC BY-SA 4.0); Merneptah Stele close up, Darer101 (CC BY-SA 4.0); Jerusalem Old City walls, Pudelek (CC BY-SA 4.0); Safed, Shlomo Rodad (CC BY 2.5).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "לאנגליה יש \"כיבוש\" בן 1,500 שנה. אף אחד לא מתרגש. 🇬🇧\n\n(סאטירה, עם נקודה רצינית.)\n\nהעובדות:\n• בערך בשנת 449 חצו שלושה שבטים את הים הצפוני לבריטניה: האנגלים (מאנגלן, צפון גרמניה), הסקסונים (צפון גרמניה) והיוטים (יוטלנד, דנמרק). הנזיר בדה כתב את זה ב-731.\n• DNA עתיק: אנשים שנקברו במזרח אנגליה בימי הביניים המוקדמים קיבלו עד 76% מהמוצא שלהם מאזור הים הצפוני ביבשת.\n• השם \"אנגליה\" (England) בא מ-\"Engla land\" באנגלית עתיקה: ארץ האנגלים.\n\nאף אחד לא אומר לאנגלים לחזור לגרמניה. אחרי 1,500 שנה, אנשים בבית.\n\nועכשיו היהודים:\n• בערך 1208 לפנה\"ס: אסטלת מרנפתח, אבן הניצחון של פרעה מרנפתח, מזכירה את \"ישראל\". האזכור הידוע הקדום ביותר.\n• בערך 1000 לפנה\"ס: ירושלים הופכת לבירת הממלכה היהודית בימי דוד המלך.\n• בערך בשנת 400: חכמים יהודים מסיימים את התלמוד הירושלמי בטבריה.\n• המאה ה-16: צפת היא מרכז הקבלה.\n\nאם 1,500 שנה הופכות אותך למקומי, מה 3,000 שנה הופכות את היהודים?\n\nגם לפלסטינים רבים יש שורשים עמוקים בארץ הזאת. שני העמים נשארים. השאלה האמיתית היא איך לחיות זה לצד זה.\n\nכמה שנים הופכות מישהו למקומי? כתבו לי בתגובות.\n\n#Israel #IsraelFacts #AngloSaxons #JewishHistory",
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#AngloSaxons",
+  "#JewishHistory"
+ ],
+ "sources": [
+  {
+   "label": "Bede, Ecclesiastical History",
+   "year": 731,
+   "at": "L1",
+   "until": "L4e"
+  },
+  {
+   "label": "Gretzinger et al., Nature",
+   "year": 2022,
+   "at": "L5",
+   "until": "L5e"
+  },
+  {
+   "label": "Etymonline, England (accessed 2026)",
+   "at": "L6",
+   "until": "L6e"
+  },
+  {
+   "label": "Merneptah Stele, about 1208 BCE (BAS)",
+   "at": "L9",
+   "until": "L9e"
+  },
+  {
+   "label": "Britannica, Jerusalem (accessed 2026)",
+   "at": "L10",
+   "until": "L10e"
+  },
+  {
+   "label": "Britannica, Talmud; Safed (accessed 2026)",
+   "at": "L11",
+   "until": "L12e"
+  }
+ ],
+ "transcript": {
+  "score": 0.949,
+  "model": "faster-whisper small.en",
+  "lines": [
+   {
+    "line": "Breaking news. England has been occupied since 449.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Three tribes crossed the North Sea.",
+    "score": 0.833,
+    "flag": "ok"
+   },
+   {
+    "line": "The Angles, from Angeln, and the Saxons, both from northern Germany.",
+    "score": 0.909,
+    "flag": "ok"
+   },
+   {
+    "line": "And the Jutes, from Jutland, in Denmark.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Source: the monk Bede, writing in 731, dates it to 449.",
+    "score": 0.947,
+    "flag": "ok"
+   },
+   {
+    "line": "DNA agrees: early graves in eastern England, up to 76 percent North Sea ancestry.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Even the name: England, land of the Angles.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "So, the obvious solution: back to Germany?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Nobody says that. After 1,500 years, they're home.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Now, the Jews. About twelve oh eight BCE, Pharaoh Merneptah's stone names Israel.",
+    "score": 0.769,
+    "flag": "MISS"
+   },
+   {
+    "line": "About 1000 BCE, Jerusalem is the capital of a Jewish kingdom.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Around 400 CE, rabbis finish the Jerusalem Talmud in Tiberias.",
+    "score": 0.818,
+    "flag": "ok"
+   },
+   {
+    "line": "In the 1500s, Safed is the centre of Kabbalah.",
+    "score": 0.923,
+    "flag": "ok"
+   },
+   {
+    "line": "If 1,500 years makes you local, what do 3,000 make the Jews?",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "Many Palestinians also have deep roots here. Both peoples are staying.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "The real question is how to live side by side.",
+    "score": 1.0,
+    "flag": "ok"
+   },
+   {
+    "line": "If you like Israel facts, follow Noam Roz for more.",
+    "score": 0.9,
+    "flag": "ok"
+   },
+   {
+    "line": "So, is England still occupied?",
+    "score": 1.0,
+    "flag": "ok"
+   }
+  ],
+  "heard": "Breaking news! England has been occupied since 449. Three tribes cross the North Sea. The Angles, from Angon, and the Saxons, both from northern Germany. And the Jutes, from Jutland, in Denmark. Source. The Monk Bead, writing in 731, dates it to 449. DNA agrees. Early graves in eastern England, up to 76% North Sea ancestry. Even the name England, Land of the Angles. angles. So the obvious solution? Back to Germany? Nobody says that. After 1,500 years, they're home. Now the Jews? About 1208 BCE, Pharaoh Mernipta's stone names Israel. About 1,000 BCE, Jerusalem is the capital of a Jewish kingdom. Around 400 CE, rabbis finished the Jerusalem Talmud in Tiberius. In the 1500s, Safed is the center of Kabbalah. If 1,500 years makes you local, what do 3,000 make the Jews? Many Palestinians also have deep roots here. Both peoples are staying. The real question is how to live side by side. If you like Israel facts, follow Noam Raz for more. So, is England still occupied?",
+  "expected": "spec lines"
+ },
+ "status": "rendered, not posted",
+ "voice": "cached voice (script unchanged)",
+ "body_s": 58.71,
+ "opener": null,
+ "mix": {
+  "lufs": -16.1,
+  "true_peak": -1.9
+ },
+ "lint_warnings": [
+  "source without year: Etymonline, England (accessed 2026)",
+  "source without year: Merneptah Stele, about 1208 BCE (BAS)",
+  "source without year: Britannica, Jerusalem (accessed 2026)",
+  "source without year: Britannica, Talmud; Safed (accessed 2026)"
+ ],
+ "render_s": 84.4
+}
