@@ -25,7 +25,8 @@
   {
    "say": "Five days later, Turkey invades. Operation Attila.",
    "screen": "*20 July 1974:* Turkey invades",
-   "gap": 0.12
+   "gap": 0.12,
+   "maxpause": 0.6
   },
   {
    "say": "By August, Turkey's army holds about 36 percent of the island.",
@@ -480,6 +481,12 @@
  },
  "sources": [
   {
+   "label": "European Court of Human Rights, Cyprus v. Turkey: Turkey has 'effective overall control' of the north",
+   "year": 2001,
+   "at": -0.6,
+   "until": "L1"
+  },
+  {
    "label": "US Library of Congress, Cyprus country study",
    "year": 1991,
    "at": "L1",
@@ -555,7 +562,8 @@
  "cover": {
   "t": 1.6,
   "big": "52",
-  "text": "*36%* of Cyprus.|*52* years occupied."
+  "text": "*36%* of Cyprus.|*52* years occupied.",
+  "label": "Source: European Court of Human Rights, 2001"
  },
  "is_ai_generated": true,
  "caption_en": "There's an occupation in Europe that almost nobody marches for. 🇨🇾\n\n📅 15 July 1974: Greece's military junta backs a coup in Cyprus.\n⚔️ 20 July 1974: Turkey invades (\"Operation Attila\"). By August its army holds about 36% of the island (36.2% per the Cyprus government; 37% per the US Library of Congress).\n🏠 Displaced: about 165,000 Greek Cypriots and about 45,000 Turkish Cypriots (UN peacekeepers' estimate).\n🏛️ 1983: the north declares the \"Turkish Republic of Northern Cyprus\". UN Security Council Resolution 541 calls it legally invalid. Only Turkey recognises it.\n🪖 Turkish troops on the island: estimates from just under 30,000 (UN Secretary-General, 1994) to more than 43,000 (Cyprus government, 2025).\n🏖️ Varosha, Famagusta: fenced off since 1974. Resolution 550 (1984) says only its own inhabitants may resettle it. In October 2020 part of it was reopened, and the Security Council called for a reversal.\n🧱 Nicosia: the last divided capital in Europe. UN peacekeepers (UNFICYP, the UN Peacekeeping Force in Cyprus) have been there since 1964.\n👥 Settlers from Turkey: estimates vary widely. The Cyprus government says more than 160,000 (2025); independent researchers dispute such counts.\n\nThe other side of the story: in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves, which is why the UN arrived in 1964. And in the 2004 UN (Annan) plan referendum, Turkish Cypriots voted 65% yes, Greek Cypriots 76% no.\n\nIsrael is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments.\n\nSources: US Library of Congress, Cyprus: A Country Study (1991); UN Security Council resolutions 186 (1964), 541 (1983), 550 (1984), 789 (1992), statement S/PRST/2020/9 (2020); UN Secretary-General report S/1994/680; UNFICYP (unficyp.unmissions.org); IDMC (2005) citing UNFICYP estimates; Britannica, Northern Cyprus; IFES ElectionGuide, Cyprus referendum 2004; Cyprus government, The Cyprus Question (2025).\nPhotos (Wikimedia Commons): Varosha, Adam Jones (CC BY-SA 2.0, 2 photos); Varosha fence, Amanda Slater (CC BY-SA 2.0); Varosha hotel, Libresocietycy (CC BY-SA 4.0); Nicosia buffer zone, dronepicr (CC BY 2.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
