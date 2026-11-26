@@ -62,7 +62,7 @@
   }
  ],
  "transcript": {
-  "score": 0.949,
+  "score": 0.954,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -72,7 +72,7 @@
    },
    {
     "line": "Three tribes crossed the North Sea.",
-    "score": 0.833,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -156,7 +156,7 @@
     "flag": "ok"
    }
   ],
-  "heard": "Breaking news! England has been occupied since 449. Three tribes cross the North Sea. The Angles, from Angon, and the Saxons, both from northern Germany. And the Jutes, from Jutland, in Denmark. Source. The Monk Bead, writing in 731, dates it to 449. DNA agrees. Early graves in eastern England, up to 76% North Sea ancestry. Even the name England, Land of the Angles. angles. So the obvious solution? Back to Germany? Nobody says that. After 1,500 years, they're home. Now the Jews? About 1208 BCE, Pharaoh Mernipta's stone names Israel. About 1,000 BCE, Jerusalem is the capital of a Jewish kingdom. Around 400 CE, rabbis finished the Jerusalem Talmud in Tiberius. In the 1500s, Safed is the center of Kabbalah. If 1,500 years makes you local, what do 3,000 make the Jews? Many Palestinians also have deep roots here. Both peoples are staying. The real question is how to live side by side. If you like Israel facts, follow Noam Raz for more. So, is England still occupied?",
+  "heard": "Breaking news. England has been occupied since 449. Three tribes crossed the North Sea. The Angles, from Angon, and the Saxons, both from Northern Germany, and the Jutes, from Jutland in Denmark. Source. The Monk Bead, writing in 731, dates it to 449. DNA agrees. Early graves in Eastern England, up to 76% North Sea ancestry. Even the name, England, Land of the Angles. angles. So the obvious solution? Back to Germany? Nobody says that. After 1,500 years, they're home. Now the Jews? About 1208 BCE, Pharaoh Mernipta's stone names Israel. About 1,000 BCE, Jerusalem is the capital of a Jewish kingdom. Around 400 CE, rabbis finished the Jerusalem Talmud in Tiberius. In the 1500s, Safed is the center of Kabbalah. If 1,500 years makes you local, what do 3,000 make the Jews? Many Palestinians also have deep roots here. Both peoples are staying. The real question is how to live side by side. If you like Israel facts, follow Noam Raz for more. So, is England still occupied?",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
@@ -173,5 +173,5 @@
   "source without year: Britannica, Jerusalem (accessed 2026)",
   "source without year: Britannica, Talmud; Safed (accessed 2026)"
  ],
- "render_s": 84.4
+ "render_s": 144.6
 }
