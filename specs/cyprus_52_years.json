@@ -78,7 +78,7 @@
   },
   {
    "say": "In 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no.",
-   "screen": "2004 UN plan: Turkish Cypriots *yes*, Greek Cypriots *no*",
+   "screen": "2004 UN plan: Turkish Cypriots *yes,* Greek *no*",
    "gap": 0.15
   },
   {
@@ -303,7 +303,8 @@
      33.95,
      34.93
     ],
-    "label_dy": 0
+    "label_dy": 0,
+    "until": "L14"
    }
   ],
   "names": [
@@ -541,7 +542,7 @@
  "end": {
   "at": "L14",
   "until": "L14e",
-  "balance": "Both communities lost homes. Turkish Cypriots backed the *2004* plan.",
+  "balance": "Both communities *suffered* in this conflict.",
   "cta": "Why is Cyprus so quiet? *Comments.*"
  },
  "hashtags": [
