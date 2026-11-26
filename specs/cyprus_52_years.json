@@ -17,8 +17,8 @@
    "gap": 0.15
   },
   {
-   "say": "July 1974. Greece's military junta backs a coup in Cyprus.",
-   "screen": "*1974:* Greek junta backs a coup",
+   "say": "July 1974. Greece's military regime backs a coup in Cyprus.",
+   "screen": "*1974:* Greek military regime backs a coup",
    "gap": 0.12
   },
   {
@@ -31,17 +31,17 @@
    "gap": 0.12
   },
   {
-   "say": "About 165,000 Greek Cypriots lose their homes. About 45,000 Turkish Cypriots move north.",
+   "say": "About 165,000 Greek Cypriots and 45,000 Turkish Cypriots are displaced.",
    "screen": "Displaced: *165,000* Greek, *45,000* Turkish Cypriots",
    "gap": 0.12
   },
   {
-   "say": "1983: the north declares a state. The UN Security Council calls it legally invalid.",
+   "say": "1983: the north declares a state. The UN calls it legally invalid.",
    "screen": "UN Resolution 541: *legally invalid*",
    "gap": 0.12
   },
   {
-   "say": "Countries that recognise it today: one. Turkey.",
+   "say": "Recognised today by just one country. Turkey.",
    "screen": "Recognised by *1* country: Turkey",
    "gap": 0.12
   },
@@ -51,17 +51,17 @@
    "gap": 0.12
   },
   {
-   "say": "This is Varosha, in Famagusta. A beach resort, fenced off since 1974.",
+   "say": "Varosha, a beach resort in Famagusta: fenced off since 1974.",
    "screen": "Varosha: fenced off since *1974*",
    "gap": 0.12
   },
   {
-   "say": "In 2020, part of it was reopened. The Security Council called for a reversal.",
+   "say": "In 2020, part of it reopened. The Security Council called for a reversal.",
    "screen": "2020: UN Security Council calls for *reversal*",
    "gap": 0.12
   },
   {
-   "say": "Nicosia is still cut in two. The last divided capital in Europe.",
+   "say": "Nicosia: still cut in two. Europe's last divided capital.",
    "screen": "Nicosia: Europe's last *divided* capital",
    "gap": 0.12
   },
@@ -71,17 +71,17 @@
    "gap": 0.1
   },
   {
-   "say": "because in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves.",
+   "say": "because in the 1960s, violence between the communities drove many Turkish Cypriots into enclaves.",
    "screen": "1960s: Turkish Cypriots pushed into *enclaves*",
    "gap": 0.12
   },
   {
-   "say": "And in 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no.",
+   "say": "In 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no.",
    "screen": "2004 UN plan: Turkish Cypriots *yes*, Greek Cypriots *no*",
    "gap": 0.15
   },
   {
-   "say": "Israel is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments.",
+   "say": "Israel gets called an occupier daily. So why is Cyprus so quiet? Tell me below.",
    "gap": 0.15
   },
   {
@@ -97,8 +97,8 @@
  "data": {
   "cam0": [
    33.3,
-   34.5,
-   3.6
+   34.62,
+   2.8
   ],
   "hook_y": 1300,
   "title_y": 290,
@@ -108,7 +108,7 @@
     "view": [
      33.3,
      35.0,
-     3.4,
+     2.9,
      820
     ],
     "dur": 1.0
@@ -118,7 +118,7 @@
     "view": [
      33.85,
      35.2,
-     1.6,
+     1.4,
      900
     ],
     "dur": 1.2
@@ -128,7 +128,7 @@
     "view": [
      33.35,
      35.12,
-     1.4,
+     1.2,
      900
     ],
     "dur": 1.2
@@ -138,7 +138,7 @@
     "view": [
      33.3,
      35.0,
-     3.4,
+     2.9,
      820
     ],
     "dur": 1.0
@@ -147,8 +147,8 @@
     "at": "L15-0.2",
     "view": [
      33.3,
-     34.5,
-     3.6,
+     34.62,
+     2.8,
      960
     ],
     "dur": 1.2
@@ -156,35 +156,43 @@
   ],
   "highlight": [
    {
-    "at": 0,
+    "at": -0.6,
     "until": "END",
-    "code": "CYN",
-    "color": "#E5484D",
-    "alpha": 0.8,
+    "code": "TUR",
+    "color": "#1D4579",
+    "alpha": 1.0,
     "flash_s": 0
    },
    {
-    "at": 0,
+    "at": -0.6,
+    "until": "END",
+    "code": "CYN",
+    "color": "#E5484D",
+    "alpha": 0.85,
+    "flash_s": 0
+   },
+   {
+    "at": -0.6,
     "until": "END",
     "code": "CYP",
     "color": "#45A4DD",
-    "alpha": 0.55,
+    "alpha": 0.6,
     "flash_s": 0
    },
    {
     "at": "L2",
     "until": "L4",
     "code": "TUR",
-    "color": "#E5484D",
-    "alpha": 0.35,
+    "color": "#A8434B",
+    "alpha": 1.0,
     "flash_s": 0
    },
    {
     "at": "L6",
     "until": "L8",
     "code": "TUR",
-    "color": "#E5484D",
-    "alpha": 0.35,
+    "color": "#A8434B",
+    "alpha": 1.0,
     "flash_s": 0
    }
   ],
@@ -291,10 +299,10 @@
     "draw": 1.0,
     "label": "UN buffer zone",
     "label_at": [
-     33.35,
-     34.95
+     33.95,
+     34.93
     ],
-    "label_dy": 40
+    "label_dy": 0
    }
   ],
   "names": [
@@ -302,16 +310,16 @@
     "at": 0.6,
     "until": "L3",
     "text": "North",
-    "lon": 33.7,
-    "lat": 35.33,
-    "size": 44
+    "lon": 33.55,
+    "lat": 35.27,
+    "size": 48
    },
    {
     "at": 0.6,
     "until": "L3",
     "text": "Republic of Cyprus",
-    "lon": 33.05,
-    "lat": 34.83,
+    "lon": 32.95,
+    "lat": 34.8,
     "size": 40
    }
   ],
@@ -548,5 +556,11 @@
  },
  "is_ai_generated": true,
  "caption_en": "There's an occupation in Europe that almost nobody marches for. 🇨🇾\n\n📅 15 July 1974: Greece's military junta backs a coup in Cyprus.\n⚔️ 20 July 1974: Turkey invades (\"Operation Attila\"). By August its army holds about 36% of the island (36.2% per the Cyprus government; 37% per the US Library of Congress).\n🏠 Displaced: about 165,000 Greek Cypriots and about 45,000 Turkish Cypriots (UN peacekeepers' estimate).\n🏛️ 1983: the north declares the \"Turkish Republic of Northern Cyprus\". UN Security Council Resolution 541 calls it legally invalid. Only Turkey recognises it.\n🪖 Turkish troops on the island: estimates from just under 30,000 (UN Secretary-General, 1994) to more than 43,000 (Cyprus government, 2025).\n🏖️ Varosha, Famagusta: fenced off since 1974. Resolution 550 (1984) says only its own inhabitants may resettle it. In October 2020 part of it was reopened, and the Security Council called for a reversal.\n🧱 Nicosia: the last divided capital in Europe. UN peacekeepers (UNFICYP, the UN Peacekeeping Force in Cyprus) have been there since 1964.\n👥 Settlers from Turkey: estimates vary widely. The Cyprus government says more than 160,000 (2025); independent researchers dispute such counts.\n\nThe other side of the story: in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves, which is why the UN arrived in 1964. And in the 2004 UN (Annan) plan referendum, Turkish Cypriots voted 65% yes, Greek Cypriots 76% no.\n\nIsrael is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments.\n\nSources: US Library of Congress, Cyprus: A Country Study (1991); UN Security Council resolutions 186 (1964), 541 (1983), 550 (1984), 789 (1992), statement S/PRST/2020/9 (2020); UN Secretary-General report S/1994/680; UNFICYP (unficyp.unmissions.org); IDMC (2005) citing UNFICYP estimates; Britannica, Northern Cyprus; IFES ElectionGuide, Cyprus referendum 2004; Cyprus government, The Cyprus Question (2025).\nPhotos (Wikimedia Commons): Varosha, Adam Jones (CC BY-SA 2.0, 2 photos); Varosha fence, Amanda Slater (CC BY-SA 2.0); Varosha hotel, Libresocietycy (CC BY-SA 4.0); Nicosia buffer zone, dronepicr (CC BY 2.0).\nMade with AI tools. AI voice (Noam's own cloned voice).",
- "caption_he": "יש כיבוש באירופה שכמעט אף אחד לא מפגין נגדו. 🇨🇾\n\n📅 15 ביולי 1974: החונטה הצבאית ביוון מגבה הפיכה בקפריסין.\n⚔️ 20 ביולי 1974: טורקיה פולשת (\"מבצע אטילה\"). עד אוגוסט הצבא שלה מחזיק בכ-36% מהאי.\n🏠 עקורים: כ-165,000 קפריסאים יוונים וכ-45,000 קפריסאים טורקים (הערכת כוח השלום של האו\"ם).\n🏛️ 1983: הצפון מכריז על מדינה. החלטה 541 של מועצת הביטחון קובעת שההכרזה פסולה משפטית. רק טורקיה מכירה בה.\n🪖 חיילים טורקים באי: בין קצת פחות מ-30,000 (מזכ\"ל האו\"ם, 1994) ליותר מ-43,000 (ממשלת קפריסין, 2025).\n🏖️ ורושה שבפמגוסטה: מגודרת מאז 1974. באוקטובר 2020 חלק ממנה נפתח, ומועצת הביטחון קראה לבטל את המהלך.\n🧱 ניקוסיה: הבירה החצויה האחרונה באירופה. כוחות שלום של האו\"ם נמצאים שם מאז 1964.\n\nהצד השני של הסיפור: בשנות ה-60 אלימות בין שתי הקהילות דחקה קפריסאים טורקים רבים למובלעות, ובגלל זה האו\"ם הגיע ב-1964. ובמשאל העם על תוכנית אנאן של האו\"ם ב-2004, הקפריסאים הטורקים הצביעו 65% בעד, והקפריסאים היוונים 76% נגד.\n\nאת ישראל מכנים כובשת כל יום. אז למה על קפריסין כל כך שקט? כתבו לי בתגובות."
+ "caption_he": "יש כיבוש באירופה שכמעט אף אחד לא מפגין נגדו. 🇨🇾\n\n📅 15 ביולי 1974: החונטה הצבאית ביוון מגבה הפיכה בקפריסין.\n⚔️ 20 ביולי 1974: טורקיה פולשת (\"מבצע אטילה\"). עד אוגוסט הצבא שלה מחזיק בכ-36% מהאי.\n🏠 עקורים: כ-165,000 קפריסאים יוונים וכ-45,000 קפריסאים טורקים (הערכת כוח השלום של האו\"ם).\n🏛️ 1983: הצפון מכריז על מדינה. החלטה 541 של מועצת הביטחון קובעת שההכרזה פסולה משפטית. רק טורקיה מכירה בה.\n🪖 חיילים טורקים באי: בין קצת פחות מ-30,000 (מזכ\"ל האו\"ם, 1994) ליותר מ-43,000 (ממשלת קפריסין, 2025).\n🏖️ ורושה שבפמגוסטה: מגודרת מאז 1974. באוקטובר 2020 חלק ממנה נפתח, ומועצת הביטחון קראה לבטל את המהלך.\n🧱 ניקוסיה: הבירה החצויה האחרונה באירופה. כוחות שלום של האו\"ם נמצאים שם מאז 1964.\n\nהצד השני של הסיפור: בשנות ה-60 אלימות בין שתי הקהילות דחקה קפריסאים טורקים רבים למובלעות, ובגלל זה האו\"ם הגיע ב-1964. ובמשאל העם על תוכנית אנאן של האו\"ם ב-2004, הקפריסאים הטורקים הצביעו 65% בעד, והקפריסאים היוונים 76% נגד.\n\nאת ישראל מכנים כובשת כל יום. אז למה על קפריסין כל כך שקט? כתבו לי בתגובות.",
+ "pron": {
+  "lex": {
+   "nicosia": "ˌ|n|ɪ|k|ə|ˈ|s|iː|ə",
+   "varosha": "v|ə|ˈ|r|oʊ|ʃ|ə"
+  }
+ }
 }
