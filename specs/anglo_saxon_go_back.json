@@ -1,0 +1,685 @@
+{
+ "id": "anglo_saxon_go_back",
+ "account": "noamroz__",
+ "template": "map_counter",
+ "hook": "England: occupied|since *449* AD?",
+ "music": {
+  "bed": "doc_piano",
+  "lufs": -16
+ },
+ "voice": {
+  "tempo": 1.13,
+  "gap": 0.12
+ },
+ "pron": {
+  "lex": {
+   "bede": "ˈ|b|iː|d",
+   "merneptah's": "ˈ|m|ɛ|r|n|ɛ|p|t|ɑ|z",
+   "merneptah": "ˈ|m|ɛ|r|n|ɛ|p|t|ɑ",
+   "angeln": "ˈ|æ|ŋ|ə|l|n",
+   "jutes": "ˈ|dʒ|uː|t|s",
+   "safed": "ˈ|s|ɑ|f|ɛ|d",
+   "kabbalah": "k|ə|ˈ|b|ɑ|l|ə"
+  }
+ },
+ "subs_replace": {
+  "twelve oh eight": "1208"
+ },
+ "lines": [
+  {
+   "say": "Breaking news. England has been occupied since 449.",
+   "gap": 0.12
+  },
+  {
+   "say": "Three tribes crossed the North Sea.",
+   "screen": "*3* tribes cross the *North Sea*",
+   "gap": 0.1
+  },
+  {
+   "say": "The Angles, from Angeln, and the Saxons, both from northern Germany.",
+   "screen": "Angles + Saxons: northern *Germany*",
+   "gap": 0.1
+  },
+  {
+   "say": "And the Jutes, from Jutland, in Denmark.",
+   "screen": "Jutes: *Jutland,* Denmark",
+   "gap": 0.12
+  },
+  {
+   "say": "Source: the monk Bede, writing in 731, dates it to 449.",
+   "screen": "Bede, *731:* they came in *449*",
+   "gap": 0.12
+  },
+  {
+   "say": "DNA agrees: early graves in eastern England, up to 76 percent North Sea ancestry.",
+   "screen": "Early graves: up to *76%* North Sea DNA",
+   "gap": 0.12
+  },
+  {
+   "say": "Even the name: England, land of the Angles.",
+   "screen": "England = *Engla land:* land of the Angles",
+   "gap": 0.15
+  },
+  {
+   "say": "So, the obvious solution: back to Germany?",
+   "screen": "So... back to *Germany?*",
+   "gap": 0.2
+  },
+  {
+   "say": "Nobody says that. After 1,500 years, they're home.",
+   "screen": "*1,500* years later: *home*",
+   "gap": 0.15
+  },
+  {
+   "say": "Now, the Jews. About twelve oh eight BCE, Pharaoh Merneptah's stone names Israel.",
+   "screen": "*1208 BCE:* Merneptah Stele names *Israel*",
+   "gap": 0.12
+  },
+  {
+   "say": "About 1000 BCE, Jerusalem is the capital of a Jewish kingdom.",
+   "screen": "*1000 BCE:* Jerusalem, Jewish capital",
+   "gap": 0.12
+  },
+  {
+   "say": "Around 400 CE, rabbis finish the Jerusalem Talmud in Tiberias.",
+   "screen": "*400 CE:* Jerusalem Talmud finished in *Tiberias*",
+   "gap": 0.1
+  },
+  {
+   "say": "In the 1500s, Safed is the centre of Kabbalah.",
+   "screen": "*1500s:* Safed, centre of *Kabbalah*",
+   "gap": 0.15
+  },
+  {
+   "say": "If 1,500 years makes you local, what do 3,000 make the Jews?",
+   "screen": "*1,500* years: local. *3,000* years: ?",
+   "gap": 0.2
+  },
+  {
+   "say": "Many Palestinians also have deep roots here. Both peoples are staying.",
+   "gap": 0.1
+  },
+  {
+   "say": "The real question is how to live side by side.",
+   "gap": 0.15
+  },
+  {
+   "say": "If you like Israel facts, follow Noam Roz for more.",
+   "screen": "Like Israel facts? Follow *@noamroz__*",
+   "gap": 0.15
+  },
+  {
+   "say": "So, is England still occupied?",
+   "gap": 0.1
+  }
+ ],
+ "data": {
+  "cam0": [
+   4.6,
+   54.0,
+   17
+  ],
+  "hook_y": 930,
+  "title_y": 290,
+  "cams": [
+   {
+    "at": "L9-0.2",
+    "view": [
+     35.1,
+     31.6,
+     7,
+     980
+    ],
+    "dur": 1.4
+   },
+   {
+    "at": "L13-0.2",
+    "view": [
+     18.0,
+     44.0,
+     44,
+     960
+    ],
+    "dur": 1.3
+   },
+   {
+    "at": "L17-0.2",
+    "view": [
+     4.6,
+     54.0,
+     17,
+     960
+    ],
+    "dur": 1.2
+   }
+  ],
+  "highlight": [
+   {
+    "at": 0,
+    "until": "L7",
+    "code": "GBR",
+    "color": "#45A4DD",
+    "alpha": 0.8,
+    "flash_s": 0
+   },
+   {
+    "at": "L2:angles",
+    "until": "L4",
+    "code": "DEU",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L3:jutes",
+    "until": "L4",
+    "code": "DNK",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7:back",
+    "until": "L8",
+    "code": "GBR",
+    "color": "#8A94A6",
+    "alpha": 0.8
+   },
+   {
+    "at": "L7:germany",
+    "until": "L8",
+    "code": "DEU",
+    "color": "#F2C94C",
+    "alpha": 0.85
+   },
+   {
+    "at": "L8",
+    "until": "L9-0.2",
+    "code": "GBR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L13",
+    "until": "L14",
+    "code": "GBR",
+    "color": "#45A4DD",
+    "alpha": 0.8
+   },
+   {
+    "at": "L17",
+    "until": "END",
+    "code": "GBR",
+    "color": "#45A4DD",
+    "alpha": 0.8,
+    "flash_s": 0
+   }
+  ],
+  "routes": [
+   {
+    "at": 0.35,
+    "until": "L7",
+    "kind": "flow",
+    "draw": 0.8,
+    "path": [
+     [
+      9.7,
+      54.7
+     ],
+     [
+      8.0,
+      54.7
+     ],
+     [
+      4.5,
+      54.1
+     ],
+     [
+      1.6,
+      52.8
+     ]
+    ]
+   },
+   {
+    "at": 0.6,
+    "until": "L7",
+    "kind": "flow",
+    "draw": 0.8,
+    "path": [
+     [
+      8.6,
+      53.3
+     ],
+     [
+      6.0,
+      53.7
+     ],
+     [
+      3.0,
+      52.4
+     ],
+     [
+      1.3,
+      51.7
+     ]
+    ]
+   },
+   {
+    "at": 0.85,
+    "until": "L7",
+    "kind": "flow",
+    "draw": 0.8,
+    "path": [
+     [
+      9.0,
+      56.2
+     ],
+     [
+      7.5,
+      55.6
+     ],
+     [
+      3.6,
+      53.0
+     ],
+     [
+      1.5,
+      51.3
+     ]
+    ]
+   },
+   {
+    "at": "L7:back",
+    "until": "L8",
+    "kind": "flow",
+    "color": "yellow",
+    "draw": 0.9,
+    "path": [
+     [
+      -0.1,
+      51.5
+     ],
+     [
+      2.5,
+      52.6
+     ],
+     [
+      6.0,
+      54.2
+     ],
+     [
+      9.6,
+      54.65
+     ]
+    ],
+    "label": "Return ticket?",
+    "label_at": [
+     4.2,
+     55.6
+    ]
+   },
+   {
+    "at": "L17",
+    "until": "END",
+    "kind": "flow",
+    "draw": 0.8,
+    "path": [
+     [
+      9.7,
+      54.7
+     ],
+     [
+      8.0,
+      54.7
+     ],
+     [
+      4.5,
+      54.1
+     ],
+     [
+      1.6,
+      52.8
+     ]
+    ]
+   },
+   {
+    "at": "L17+0.25",
+    "until": "END",
+    "kind": "flow",
+    "draw": 0.8,
+    "path": [
+     [
+      8.6,
+      53.3
+     ],
+     [
+      6.0,
+      53.7
+     ],
+     [
+      3.0,
+      52.4
+     ],
+     [
+      1.3,
+      51.7
+     ]
+    ]
+   },
+   {
+    "at": "L17+0.5",
+    "until": "END",
+    "kind": "flow",
+    "draw": 0.8,
+    "path": [
+     [
+      9.0,
+      56.2
+     ],
+     [
+      7.5,
+      55.6
+     ],
+     [
+      3.6,
+      53.0
+     ],
+     [
+      1.5,
+      51.3
+     ]
+    ]
+   }
+  ],
+  "names": [
+   {
+    "at": "L1",
+    "until": "L7",
+    "text": "England",
+    "lon": -1.6,
+    "lat": 52.7,
+    "size": 50
+   },
+   {
+    "at": "L2:angeln",
+    "until": "L7",
+    "text": "Angeln",
+    "lon": 9.8,
+    "lat": 55.05,
+    "size": 46
+   },
+   {
+    "at": "L2:saxons",
+    "until": "L7",
+    "text": "Saxons",
+    "lon": 9.0,
+    "lat": 52.8,
+    "size": 46
+   },
+   {
+    "at": "L3:jutland",
+    "until": "L7",
+    "text": "Jutland",
+    "lon": 9.2,
+    "lat": 56.4,
+    "size": 46
+   },
+   {
+    "at": "L5",
+    "until": "L7",
+    "text": "76%",
+    "lon": 0.6,
+    "lat": 52.3,
+    "size": 60
+   }
+  ],
+  "icons": [
+   {
+    "at": "L7",
+    "until": "L8",
+    "lon": -1.6,
+    "lat": 52.6,
+    "emo": "🧳",
+    "size": 110
+   },
+   {
+    "at": "L7",
+    "until": "L7:germany",
+    "lon": -1.5,
+    "lat": 54.0,
+    "emo": "🇬🇧",
+    "size": 90
+   },
+   {
+    "at": "L7:germany",
+    "until": "L8",
+    "lon": 10.0,
+    "lat": 52.0,
+    "emo": "🇩🇪",
+    "size": 90
+   }
+  ],
+  "pins": [
+   {
+    "at": "L10",
+    "until": "L14",
+    "lon": 35.23,
+    "lat": 31.78,
+    "label": "Jerusalem",
+    "color": "yellow"
+   },
+   {
+    "at": "L11",
+    "until": "L14",
+    "lon": 35.53,
+    "lat": 32.79,
+    "label": "Tiberias",
+    "color": "yellow"
+   },
+   {
+    "at": "L12",
+    "until": "L14",
+    "lon": 35.5,
+    "lat": 32.97,
+    "label": "Safed",
+    "color": "yellow"
+   }
+  ],
+  "clock": {
+   "at": "L1",
+   "until": "L9-0.2",
+   "y": 560,
+   "label": "",
+   "tick": true,
+   "steps": [
+    {
+     "at": "L1",
+     "year": 449
+    },
+    {
+     "at": "L8:after",
+     "year": 449
+    },
+    {
+     "at": "L8:they're",
+     "year": 2026
+    }
+   ]
+  },
+  "overlays": [
+   {
+    "at": "L7:back",
+    "until": "L8",
+    "text": "*RETURN TICKET:* London to Angeln",
+    "y": 1180,
+    "size": 56,
+    "pill": "#163261"
+   },
+   {
+    "at": "L7:back+0.3",
+    "until": "L8",
+    "text": "SATIRE",
+    "y": 1290,
+    "size": 44,
+    "pill": "#C0392B"
+   }
+  ],
+  "photos": [
+   {
+    "file": "templates/photos/anglo_saxon_go_back/as_bede3.jpg",
+    "at": "L4",
+    "until": "L4e",
+    "credit": "Historia ecclesiastica (Bede), CC0",
+    "kb": [
+     0.5,
+     0.35,
+     1.0,
+     0.5,
+     0.4,
+     1.12
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/anglo_saxon_go_back/as_helmet.jpg",
+    "at": "L5:graves",
+    "until": "L5e",
+    "credit": "Sutton Hoo helmet replica: Gernot Keller, CC BY-SA 2.5",
+    "kb": [
+     0.5,
+     0.45,
+     1.0,
+     0.5,
+     0.45,
+     1.1
+    ],
+    "dim": 0.35
+   },
+   {
+    "file": "templates/photos/anglo_saxon_go_back/as_dover.jpg",
+    "at": "L8:they're",
+    "until": "L8e+0.2",
+    "credit": "White Cliffs of Dover: kallerna, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.1
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/anglo_saxon_go_back/as_stele2.jpg",
+    "at": "L9:pharaoh",
+    "until": "L9e",
+    "credit": "Merneptah Stele, Israel line: Darer101, CC BY-SA 4.0",
+    "kb": [
+     0.45,
+     0.5,
+     1.0,
+     0.55,
+     0.5,
+     1.15
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/anglo_saxon_go_back/as_jlm.jpg",
+    "at": "L10:jerusalem",
+    "until": "L10e",
+    "credit": "Jerusalem Old City walls: Pudelek, CC BY-SA 4.0",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   },
+   {
+    "file": "templates/photos/anglo_saxon_go_back/as_safed.jpg",
+    "at": "L12:safed",
+    "until": "L12e",
+    "credit": "Safed: Shlomo Rodad, CC BY 2.5",
+    "kb": [
+     0.5,
+     0.5,
+     1.0,
+     0.5,
+     0.5,
+     1.12
+    ],
+    "dim": 0.3
+   }
+  ],
+  "brand": {
+   "text": "Israel Facts",
+   "show": [
+    [
+     0,
+     "L0e"
+    ],
+    [
+     "L17",
+     "END"
+    ]
+   ]
+  }
+ },
+ "sources": [
+  {
+   "label": "Bede, Ecclesiastical History",
+   "year": 731,
+   "at": "L1",
+   "until": "L4e"
+  },
+  {
+   "label": "Gretzinger et al., Nature",
+   "year": 2022,
+   "at": "L5",
+   "until": "L5e"
+  },
+  {
+   "label": "Etymonline, England (accessed 2026)",
+   "at": "L6",
+   "until": "L6e"
+  },
+  {
+   "label": "Merneptah Stele, about 1208 BCE (BAS)",
+   "at": "L9",
+   "until": "L9e"
+  },
+  {
+   "label": "Britannica, Jerusalem (accessed 2026)",
+   "at": "L10",
+   "until": "L10e"
+  },
+  {
+   "label": "Britannica, Talmud; Safed (accessed 2026)",
+   "at": "L11",
+   "until": "L12e"
+  }
+ ],
+ "end": {
+  "at": "L14",
+  "until": "L15e",
+  "balance": "Both peoples have *deep roots.* Both are staying.",
+  "cta": "How many years make you *local?*"
+ },
+ "hashtags": [
+  "#Israel",
+  "#IsraelFacts",
+  "#AngloSaxons",
+  "#JewishHistory"
+ ],
+ "cover": {
+  "t": 0.4,
+  "big": "449",
+  "text": "England: occupied|since *449* AD?"
+ },
+ "is_ai_generated": true,
+ "caption_en": "England has had a 1,500 year \"occupation\". Nobody seems to mind. 🇬🇧\n\n(Satire, with a serious point.)\n\nThe facts:\n• Around 449, three tribes crossed the North Sea to Britain: the Angles (from Angeln, northern Germany), the Saxons (northern Germany) and the Jutes (Jutland, Denmark). The monk Bede wrote it down in 731.\n• Ancient DNA: early medieval people buried in eastern England had up to 76% of their ancestry from the continental North Sea zone.\n• The name \"England\" comes from Old English \"Engla land\": land of the Angles.\n\nNobody tells the English to go back to Germany. After 1,500 years, people are home.\n\nNow the Jews:\n• About 1208 BCE: Pharaoh Merneptah's victory stone (the Merneptah Stele) names \"Israel\", the earliest known mention.\n• About 1000 BCE: Jerusalem becomes the capital of the Jewish kingdom under King David.\n• Around the year 400: Jewish scholars finish the Jerusalem Talmud in Tiberias.\n• 1500s: Safed is the main centre of Kabbalah.\n\nIf 1,500 years makes you local, what do 3,000 make the Jews?\n\nMany Palestinians also have deep roots in this land. Both peoples are staying. The real question is how to live side by side.\n\nHow many years make someone local? Tell me in the comments.\n\nSources: Bede, Ecclesiastical History of the English People (finished 731), via Cambridge University Library and Our Migration Story; Anglo-Saxon Chronicle, entry for 449 (Avalon Project, Yale Law School); Gretzinger et al., \"The Anglo-Saxon migration and the formation of the early English gene pool\", Nature (2022); Online Etymology Dictionary, \"England\"; Biblical Archaeology Society, \"The Merneptah Stela: Israel Enters History\"; Encyclopaedia Britannica: Jerusalem (History), David, Talmud, Safed (Zefat).\nPhotos (Wikimedia Commons): Historia ecclesiastica by Bede, book photo (CC0); Sutton Hoo helmet replica, Gernot Keller (CC BY-SA 2.5); White Cliffs of Dover, kallerna (CC BY-SA 4.0); Merneptah Stele close up, Darer101 (CC BY-SA 4.0); Jerusalem Old City walls, Pudelek (CC BY-SA 4.0); Safed, Shlomo Rodad (CC BY 2.5).\nMade with AI tools. AI voice (Noam's own cloned voice).",
+ "caption_he": "לאנגליה יש \"כיבוש\" בן 1,500 שנה. אף אחד לא מתרגש. 🇬🇧\n\n(סאטירה, עם נקודה רצינית.)\n\nהעובדות:\n• בערך בשנת 449 חצו שלושה שבטים את הים הצפוני לבריטניה: האנגלים (מאנגלן, צפון גרמניה), הסקסונים (צפון גרמניה) והיוטים (יוטלנד, דנמרק). הנזיר בדה כתב את זה ב-731.\n• DNA עתיק: אנשים שנקברו במזרח אנגליה בימי הביניים המוקדמים קיבלו עד 76% מהמוצא שלהם מאזור הים הצפוני ביבשת.\n• השם \"אנגליה\" (England) בא מ-\"Engla land\" באנגלית עתיקה: ארץ האנגלים.\n\nאף אחד לא אומר לאנגלים לחזור לגרמניה. אחרי 1,500 שנה, אנשים בבית.\n\nועכשיו היהודים:\n• בערך 1208 לפנה\"ס: אסטלת מרנפתח, אבן הניצחון של פרעה מרנפתח, מזכירה את \"ישראל\". האזכור הידוע הקדום ביותר.\n• בערך 1000 לפנה\"ס: ירושלים הופכת לבירת הממלכה היהודית בימי דוד המלך.\n• בערך בשנת 400: חכמים יהודים מסיימים את התלמוד הירושלמי בטבריה.\n• המאה ה-16: צפת היא מרכז הקבלה.\n\nאם 1,500 שנה הופכות אותך למקומי, מה 3,000 שנה הופכות את היהודים?\n\nגם לפלסטינים רבים יש שורשים עמוקים בארץ הזאת. שני העמים נשארים. השאלה האמיתית היא איך לחיות זה לצד זה.\n\nכמה שנים הופכות מישהו למקומי? כתבו לי בתגובות.\n\n#Israel #IsraelFacts #AngloSaxons #JewishHistory"
+}
