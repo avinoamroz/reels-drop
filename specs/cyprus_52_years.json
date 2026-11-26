@@ -8,8 +8,9 @@
   "lufs": -16
  },
  "voice": {
-  "tempo": 1.1,
-  "gap": 0.15
+  "tempo": 1.13,
+  "gap": 0.15,
+  "maxpause": 0.18
  },
  "lines": [
   {
