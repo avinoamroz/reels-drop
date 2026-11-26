@@ -3,10 +3,10 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*36%* of Cyprus.|*52* years occupied.",
- "duration": 62.5,
+ "duration": 63.07,
  "audio": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "outputs": {
   "mp4": "out/cyprus_52_years.mp4",
@@ -28,6 +28,12 @@
   "#IsraelFacts"
  ],
  "sources": [
+  {
+   "label": "European Court of Human Rights, Cyprus v. Turkey: Turkey has 'effective overall control' of the north",
+   "year": 2001,
+   "at": -0.6,
+   "until": "L1"
+  },
   {
    "label": "US Library of Congress, Cyprus country study",
    "year": 1991,
@@ -105,7 +111,7 @@
    },
    {
     "line": "Five days later, Turkey invades. Operation Attila.",
-    "score": 0.857,
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -170,7 +176,7 @@
    },
    {
     "line": "If you like Israel facts, follow Noam Roz for more.",
-    "score": 0.9,
+    "score": 0.8,
     "flag": "ok"
    },
    {
@@ -179,17 +185,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "36% of an EU country under a foreign army for 52 years, July 1974, Greece's military regime backs a coup in Cyprus. Five days later, Turkey invades, Operation Nautila. By August, Turkey's army holds about 36% of the island. About 165,000 Greek Cypriots and 45,000 Turkish Cypriots are displaced. 1983. The north declares a state, the UN calls it legally invalid. Recognized today by just one country, Turkey. tens of thousands of Turkish troops are still there. Virosha, a beach resort in Famagusta, fenced off since 1974. In 2020, part of it reopened. The Security Council called for a reversal. Nicosia, still cutting in two. Europe's last divided capital. UN peacekeepers have patrolled here since 1964, because in the 1960s, violence between the communities drove many Turkish Cypriots into enclaves. In 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no. Israel gets called an occupier daily. So why is Cyprus so quiet? Tell me below. If you like Israel facts, follow Noam Raz for more. Because today, it's still.",
+  "heard": "36% of an EU country, under a foreign army for 52 years, July 1974. Greece's military regime backs a coup in Cyprus. Five days later, Turkey invades. Operation Attila. By August, Turkey's army holds about 36% of the island. About 165,000 Greek Cypriots and 45,000 Turkish Cypriots are displaced. 1983. The North declares a state. The UN calls it legally invalid. Recognized today by just one country, Turkey. and tens of thousands of Turkish troops are still there. Virosha, a beach resort in Famagusta, fenced off since 1974. In 2020, part of it reopened. The Security Council called for a reversal. Nicosia, still cutting in two. Europe's last divided capital. UN peacekeepers have patrolled here since 1964. Because in the 1960s, violence between the communities drove many Turkish Cypriots into enclaves. In 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no. Israel gets called an occupier daily. So why is Cyprus so quiet? Tell me below. If you like Israel facts, follow Noem Raz for more. Because today, it's still.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 62.49,
+ "body_s": 63.07,
  "opener": null,
  "mix": {
   "lufs": -16.1,
-  "true_peak": -2.0
+  "true_peak": -1.9
  },
  "lint_warnings": [],
- "render_s": 99.4
+ "render_s": 101.3
 }
