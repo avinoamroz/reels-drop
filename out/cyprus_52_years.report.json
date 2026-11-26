@@ -3,9 +3,9 @@
  "account": "noamroz__",
  "template": "map_counter",
  "hook": "*36%* of Cyprus.|*52* years occupied.",
- "duration": 66.93,
+ "duration": 68.57,
  "audio": {
-  "lufs": -16.0,
+  "lufs": -16.1,
   "true_peak": -2.0
  },
  "outputs": {
@@ -90,7 +90,7 @@
   }
  ],
  "transcript": {
-  "score": 0.975,
+  "score": 0.987,
   "model": "faster-whisper small.en",
   "lines": [
    {
@@ -99,8 +99,8 @@
     "flag": "ok"
    },
    {
-    "line": "July 1974. Greece's military junta backs a coup in Cyprus.",
-    "score": 0.875,
+    "line": "July 1974. Greece's military regime backs a coup in Cyprus.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -114,17 +114,17 @@
     "flag": "ok"
    },
    {
-    "line": "About 165,000 Greek Cypriots lose their homes. About 45,000 Turkish Cypriots move north.",
+    "line": "About 165,000 Greek Cypriots and 45,000 Turkish Cypriots are displaced.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "1983: the north declares a state. The UN Security Council calls it legally invalid.",
+    "line": "1983: the north declares a state. The UN calls it legally invalid.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Countries that recognise it today: one. Turkey.",
+    "line": "Recognised today by just one country. Turkey.",
     "score": 0.857,
     "flag": "ok"
    },
@@ -134,18 +134,18 @@
     "flag": "ok"
    },
    {
-    "line": "This is Varosha, in Famagusta. A beach resort, fenced off since 1974.",
-    "score": 0.889,
+    "line": "Varosha, a beach resort in Famagusta: fenced off since 1974.",
+    "score": 0.938,
     "flag": "ok"
    },
    {
-    "line": "In 2020, part of it was reopened. The Security Council called for a reversal.",
+    "line": "In 2020, part of it reopened. The Security Council called for a reversal.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Nicosia is still cut in two. The last divided capital in Europe.",
-    "score": 0.917,
+    "line": "Nicosia: still cut in two. Europe's last divided capital.",
+    "score": 1.0,
     "flag": "ok"
    },
    {
@@ -154,23 +154,23 @@
     "flag": "ok"
    },
    {
-    "line": "because in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves.",
+    "line": "because in the 1960s, violence between the communities drove many Turkish Cypriots into enclaves.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "And in 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no.",
+    "line": "In 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no.",
     "score": 1.0,
     "flag": "ok"
    },
    {
-    "line": "Israel is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments.",
+    "line": "Israel gets called an occupier daily. So why is Cyprus so quiet? Tell me below.",
     "score": 1.0,
     "flag": "ok"
    },
    {
     "line": "If you like Israel facts, follow Noam Roz for more.",
-    "score": 1.0,
+    "score": 0.9,
     "flag": "ok"
    },
    {
@@ -179,17 +179,17 @@
     "flag": "ok"
    }
   ],
-  "heard": "36% of an EU country under a foreign army for 52 years. July 1974. Greece's military jint of acts a coup in Cyprus. Five days later, Turkey invades. Operation Attila. By August, Turkey's army holds about 36% of the island. About 165,000 Greek Cypriots lose their homes. About 45,000 Turkish Cypriots move north. 1983, the north declares a state. The UN Security Council calls it legally invalid. Countries that recognize it today, one, Turkey, and tens of thousands of Turkish troops are still there. This is Verosha and Famagusta, a beach resort fenced off since 1974. In 2020, part of it was reopened. The Security Council called for a reversal. Mikosha is still cut in two, the last divided capital in Europe. UN peacekeepers have patrolled here since 1964, because in the 1960s, violence between the two communities drove many Turkish Cypriots into enclaves, and in 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no. Israel is called an occupier every day. So why is Cyprus so quiet? Tell me in the comments. If you like Israel facts, follow Noam Roz for more. Because today, it's still.",
+  "heard": "36% of an EU country under a foreign army for 52 years, July 1974. Greece's military regime backs a coup in Cyprus. Five days later, Turkey invades. Operation Attila. By August, Turkey's army holds about 36% of the island. About 165,000 Greek Cypriots and 45,000 Turkish Cypriots are displaced. 1983. The north declares a state. The UN calls it legally invalid, recognized today by just one country. Turkey. And tens of thousands of Turkish troops are still there. Verosha, a beach resort in Famagusta. Fenced off since 1974, in 2020, part of it reopened. The Security Council called for a reversal. Nicosia. Still cut in two. Europe's last divided capital. UN peacekeepers have patrolled here since 1964. Because in the 1960s, violence between the communities drove many Turkish Cypriots into enclaves. In 2004, Turkish Cypriots voted yes to a UN peace plan. Greek Cypriots voted no. Israel gets called an occupier daily. So why is Cyprus so quiet? Tell me below. If you like Israel facts, follow Noam Raz for more. Because today, it's still.",
   "expected": "spec lines"
  },
  "status": "rendered, not posted",
  "voice": "cached voice (script unchanged)",
- "body_s": 66.94,
+ "body_s": 68.58,
  "opener": null,
  "mix": {
-  "lufs": -16.0,
+  "lufs": -16.1,
   "true_peak": -2.0
  },
  "lint_warnings": [],
- "render_s": 138.6
+ "render_s": 109.4
 }
