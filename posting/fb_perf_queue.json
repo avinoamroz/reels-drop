@@ -337,8 +337,8 @@
       "ig_id": "17952404940056771",
       "account": "noamroz__",
       "views": 7563,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DfZskIOkchV/",
+      "caption_short": "Let's hate Israel. Wait..."
     },
     {
       "ig_id": "18075235643361804",
@@ -351,8 +351,8 @@
       "ig_id": "18098875295417159",
       "account": "noamroz__",
       "views": 7028,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DfSa_0tgo_a/",
+      "caption_short": "Israel has under a third of Lebanon's natural water per person. So how does it sell water?"
     },
     {
       "ig_id": "17983651514777903",
@@ -2882,6 +2882,13 @@
       "views": 4045,
       "fb_video_id": "1015669587591687",
       "posted_at": "2026-11-27T07:47:11Z"
+    },
+    {
+      "ig_id": "18098875295417159",
+      "account": "noamroz__",
+      "views": 7028,
+      "fb_video_id": "994999483232595",
+      "posted_at": "2026-11-27T11:02:06Z"
     }
   ],
   "skipped": [
@@ -2950,6 +2957,12 @@
       "account": "noamroz__",
       "reason": "near-duplicate: already on page (Where did Europe's Jews go, fb 1997412864272431)",
       "skipped_at": "2026-11-24T10:52:00Z"
+    },
+    {
+      "ig_id": "17952404940056771",
+      "account": "noamroz__",
+      "reason": "near duplicate: already on the page as FB video 1146038224455434 (YT/FB cross-post, 19 Nov)",
+      "skipped_at": "2026-11-27T11:02:00Z"
     }
   ],
   "fb_page_baseline": {
