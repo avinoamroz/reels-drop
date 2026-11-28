@@ -162,8 +162,8 @@
       "ig_id": "18055496632837911",
       "account": "expressenglishcom",
       "views": 3637,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/DAgmGRXIsBJ/",
+      "caption_short": "Maayan Kilchevsky show invite"
     },
     {
       "ig_id": "17907097743355168",
@@ -176,8 +176,8 @@
       "ig_id": "17915612252947202",
       "account": "expressenglishcom",
       "views": 3623,
-      "permalink": null,
-      "caption_short": null
+      "permalink": "https://www.instagram.com/reel/C8ErZsJI6ne/",
+      "caption_short": "It's never over until you quit."
     },
     {
       "ig_id": "18113380010184243",
@@ -2889,6 +2889,13 @@
       "views": 7028,
       "fb_video_id": "994999483232595",
       "posted_at": "2026-11-27T11:02:06Z"
+    },
+    {
+      "ig_id": "17915612252947202",
+      "account": "expressenglishcom",
+      "views": 3623,
+      "fb_video_id": "1871528560561245",
+      "posted_at": "2026-11-28T07:46:22Z"
     }
   ],
   "skipped": [
@@ -2963,6 +2970,12 @@
       "account": "noamroz__",
       "reason": "near duplicate: already on the page as FB video 1146038224455434 (YT/FB cross-post, 19 Nov)",
       "skipped_at": "2026-11-27T11:02:00Z"
+    },
+    {
+      "ig_id": "18055496632837911",
+      "account": "expressenglishcom",
+      "reason": "promo for a past event (Jaffa Theatre show invite, Sep 2024)",
+      "skipped_at": "2026-11-28T07:46:00Z"
     }
   ],
   "fb_page_baseline": {
